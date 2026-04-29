@@ -1,0 +1,16 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what a 1/2 exponent means",
+      "content": "A fractional exponent of $\\frac{1}{2}$ always means taking a square root of the entire expression inside the parentheses. This is one of the most important exponent rules to memorize.",
+      "formula": "$$(x)^{\\frac{1}{2}} = \\sqrt{x}$$"
+    },
+    {
+      "title": "Apply the rule to the given expression",
+      "content": "Since $(158y)$ is raised to the power $\\frac{1}{2}$, we apply the rule directly:<br/>$$(158y)^{\\frac{1}{2}} = \\sqrt{158y}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

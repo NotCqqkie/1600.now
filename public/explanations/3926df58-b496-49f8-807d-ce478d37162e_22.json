@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast between problem and exception",
+      "content": "The first sentence establishes a general problem: sources are scarce for pre-nineteenth-century subjects. The second sentence shifts to Ron Chernow, who had access to 19,000 documents\u2014an exceptional case. The transition must mark the shift from problem to exception."
+    },
+    {
+      "title": "Apply the contrast signal",
+      "content": "D marks the opposition, placing Chernow's abundant documents against the scarcity described. A suggests Chernow exemplifies the problem, B agrees with scarcity despite Chernow's abundance, and C illogically makes abundance follow from scarcity. <strong>That matches choice D \u2014 D is correct.</strong>"
+    }
+  ]
+}

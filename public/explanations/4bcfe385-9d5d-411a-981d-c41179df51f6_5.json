@@ -1,0 +1,16 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the hemisphere volume formula",
+      "content": "A hemisphere is half a sphere. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Therefore, the volume of a hemisphere is:<br/><br/>$$V = \\frac{1}{2} \\cdot \\frac{4}{3}\\pi r^3 = \\frac{2}{3}\\pi r^3$$",
+      "formula": "$$V = \\frac{2}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Substitute radius and calculate the volume",
+      "content": "Substitute $r = 69$:<br/><br/>$$V = \\frac{2}{3}\\pi (69)^3$$<br/><br/>Calculate $69^3 = 328,509$, so:<br/><br/>$$V = \\frac{2}{3} \\times 328,509 \\times \\pi = 219,006\\pi$$<br/><br/>With $\\pi \\approx 3.14159$:<br/><br/>$$V \\approx 219,006 \\times 3.14159 \\approx 688,000$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

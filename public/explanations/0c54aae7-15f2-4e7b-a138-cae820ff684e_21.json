@@ -1,0 +1,23 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base area",
+      "content": "Total surface area equals base area plus lateral surface area. Subtract: $$70,560 = \\text{base} + 38,160$$ $$\\text{base} = 32,400 \\text{ square inches}$$"
+    },
+    {
+      "title": "Find the base side length",
+      "content": "The base is a square with area 32,400. For a square: $$s^2 = 32,400$$ $$s = 180 \\text{ inches}$$"
+    },
+    {
+      "title": "Find the slant height",
+      "content": "For a square pyramid, lateral surface area equals $2sl$, where $l$ is the slant height: $$38,160 = 2(180)l$$ $$38,160 = 360l$$ $$l = 106 \\text{ inches}$$"
+    },
+    {
+      "title": "Apply Pythagorean theorem to find pyramid height",
+      "content": "In a right square pyramid, the slant height $l$, height $h$, and distance from center to edge midpoint form a right triangle. This distance is $s/2 = 90$: $$l^2 = h^2 + 90^2$$ $$106^2 = h^2 + 90^2$$ $$11,236 = h^2 + 8,100$$ $$h^2 = 3,136$$ $$h = 56 \\text{ inches}$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

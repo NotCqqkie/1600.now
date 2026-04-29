@@ -1,0 +1,21 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_22",
+  "correctAnswer": "1701",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "Let k = b^{1/n}. Then f(x) = a\u00b7k^x. <br/>Using the given values: $$\\frac{f(8)}{f(5)} = \\frac{a k^8}{a k^5} = k^3 = \\frac{189}{7} = 27$$ <br/>Thus k^3 = 27, so k = 3.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute f(10)",
+      "content": "First find a: $$a = \\frac{f(5)}{k^5} = \\frac{7}{3^5} = \\frac{7}{243}$$ <br/>Then $$f(10) = a\u00b7k^{10} = \\frac{7}{243}\u00b73^{10} = 7\u00b73^5 = 7\u00b7243 = 1701$$ <br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

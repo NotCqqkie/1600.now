@@ -1,0 +1,15 @@
+{
+  "questionId": "49cd76d5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express 72x in terms of 8x",
+      "content": "Notice that $72 = 9 \\times 8$. Therefore, we can write $$72x = 9 \\times 8x$$"
+    },
+    {
+      "title": "Substitute the given value",
+      "content": "We're given that $8x = 6$. Substituting: $$72x = 9 \\times 8x = 9 \\times 6 = 54$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

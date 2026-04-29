@@ -1,0 +1,15 @@
+{
+  "questionId": "58443765",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal and solve for x",
+      "content": "Since both expressions equal $y$, the solution point must satisfy both equations. Set them equal:<br/>$$5x + 4 = 5x^2 + 4$$<br/><br/>Simplify:<ul><li>Subtract 4: $5x = 5x^2$</li><li>Rearrange: $5x^2 - 5x = 0$</li><li>Factor: $5x(x - 1) = 0$</li><li>Solutions: $x = 0$ or $x = 1$</li></ul>"
+    },
+    {
+      "title": "Evaluate y and match to the choices",
+      "content": "<ul><li>When $x = 0$: $y = 5(0) + 4 = 4$ \u2192 $(0, 4)$</li><li>When $x = 1$: $y = 5(1) + 4 = 9$ \u2192 $(1, 9)$</li></ul>The choice $(0, 4)$ appears in the options. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

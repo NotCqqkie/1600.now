@@ -1,0 +1,15 @@
+{
+  "questionId": "21e539a0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the time multiplier",
+      "content": "The time changes from $5y$ minutes to $9y$ minutes. The ratio is:<br/><br/>$$\\frac{9y}{5y} = \\frac{9}{5}$$<br/><br/>So the time increases by a factor of $\\frac{9}{5}$."
+    },
+    {
+      "title": "Apply proportional reasoning to find the amount",
+      "content": "Since the rate is constant, the amount of water is proportional to time. If time increases by a factor of $\\frac{9}{5}$, so does the amount:<br/><br/>$$\\text{New amount} = 88x \\cdot \\frac{9}{5} = \\frac{792x}{5}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

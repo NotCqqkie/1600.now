@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the timeline of Round Table references",
+      "content": "The passage is explicit: <em>\u201cno source before 1155 includes references to the famous Round Table.\u201d</em> Since <em>Preiddeu Annwfn</em> was composed around 900, it predates 1155 and therefore contains no Round Table references."
+    },
+    {
+      "title": "Apply the timeline to Malory's sources",
+      "content": "Since <em>Preiddeu Annwfn</em> predates 1155, it contains no Round Table references\u2014so Malory could not have sourced his Round Table material from it. Choices A, C, and D each venture unsupported claims about accuracy, awareness, and content similarities. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

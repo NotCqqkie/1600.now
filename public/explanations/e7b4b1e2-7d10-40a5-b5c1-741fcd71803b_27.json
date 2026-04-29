@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the similarity to emphasize",
+      "content": "The question asks to <strong>emphasize a similarity</strong> between the two films. Both <em>The Three Passions</em> and <em>D\u00e9sir\u00e9e</em> share one key characteristic: they both feature Merle Oberon."
+    },
+    {
+      "title": "Find which choice highlights the shared characteristic",
+      "content": "Choice A uses the word <strong>both</strong> and states that both films <strong>include Merle Oberon</strong>, directly emphasizing their shared feature. The other three fail to emphasize similarity: B and C use contrast language (<strong>whereas</strong>, <strong>however</strong>) that highlights differences, and D mentions only one film. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

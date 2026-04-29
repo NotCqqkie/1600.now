@@ -1,0 +1,15 @@
+{
+  "questionId": "0cadb20e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "Since $f(a) = 10$ and $f(x) = \\frac{x+15}{5}$, substitute $a$ into the function definition:<br/>$$\\frac{a+15}{5} = 10$$"
+    },
+    {
+      "title": "Solve for a",
+      "content": "Multiply both sides by 5 to eliminate the fraction:<br/>$$a + 15 = 50$$<br/>Subtract 15 from both sides:<br/>$$a = 35$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

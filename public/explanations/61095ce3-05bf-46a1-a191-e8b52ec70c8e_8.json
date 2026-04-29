@@ -1,0 +1,15 @@
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's conclusion",
+      "content": "The passage ends with: \u201cgreater proximity alone can't explain the difference in park use.\u201d The word <em>alone</em> is the key signal\u2014the passage rules out proximity as the sole explanation."
+    },
+    {
+      "title": "Apply the conclusion to find the answer",
+      "content": "Choice C directly captures what must be true: the difference is caused by \u201csomething other than the parks' proximity to city residents.\u201d The other three introduce unsupported ideas about survey inaccuracies, unexpected findings, or outdated sources. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

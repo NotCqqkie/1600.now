@@ -1,0 +1,15 @@
+{
+  "questionId": "42f19012",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert radical to exponential form",
+      "content": "Recall the property $\\sqrt[n]{x} = x^{1/n}$. Each choice has the form $\\sqrt[n]{a^{132}} = (a^{132})^{1/n} = a^{132/n}$. We need to find which index $n$ makes $a^{132/n} = a^{11/12}$."
+    },
+    {
+      "title": "Solve for the index by matching exponents",
+      "content": "Since the bases are the same, the exponents must be equal:<br/><br/>$$\\frac{132}{n} = \\frac{11}{12}$$<br/><br/>Observe that $132 = 11 \\times 12$. For the equation to hold:<br/><br/>$$\\frac{11 \\times 12}{n} = \\frac{11}{12}$$<br/><br/>This is true when $n = 12 \\times 12 = 144$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

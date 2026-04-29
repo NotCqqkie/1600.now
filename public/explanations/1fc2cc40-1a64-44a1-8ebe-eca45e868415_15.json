@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "The coefficients of $y$ are $+1$ and $-1$, so adding the two equations eliminates $y$:<br/><br/>$$(3x + y) + (9x - y) = 21 + 3$$<br/>$$12x = 24$$<br/>$$x = 2$$"
+    },
+    {
+      "title": "Conclude the number of solutions",
+      "content": "Obtaining a unique value for $x$ means the system has exactly one solution. The two linear equations represent lines that intersect at exactly one point. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

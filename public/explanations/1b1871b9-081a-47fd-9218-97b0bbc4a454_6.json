@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_6",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what the y-intercept is",
+      "content": "The y-intercept is the point where a graph crosses the y-axis, which always occurs when x = 0."
+    },
+    {
+      "title": "Locate the y-intercept on the graph",
+      "content": "Tracing from x = 0 on the horizontal axis to where the parabola intersects the y-axis, we see the graph passes through the point (0, 5). Therefore, y = <strong>5</strong>."
+    }
+  ]
+}

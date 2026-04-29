@@ -1,0 +1,15 @@
+{
+  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal claim",
+      "content": "The student concludes that similarity drives cross-category purchasing. To weaken a causal claim, we need evidence of an alternative cause for the observed correlation."
+    },
+    {
+      "title": "Evaluate the alternatives",
+      "content": "Choice C identifies a confounding variable: high-similarity categories have fewer competing brands, meaning the correlation could stem from limited choice rather than similarity itself. The other three either restate the original evidence (B), don't explain the correlation (A), or show that similarity's effect is robust across contexts, supporting the student's argument (D).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

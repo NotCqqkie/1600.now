@@ -1,0 +1,21 @@
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_17",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the word problem into an equation",
+      "content": "Let $x$ be the positive number. Then the number 13 less than $x$ is $x-13$. Their product is given as $$ x(x-13) = 378 $$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Find two factors of 378 that differ by 13",
+      "content": "Factor pairs of 378: <ul><li>1 \u00d7 378</li><li>2 \u00d7 189</li><li>3 \u00d7 126</li><li>6 \u00d7 63</li><li>7 \u00d7 54</li><li>9 \u00d7 42</li><li>14 \u00d7 27</li></ul>. The pair 14 and 27 differs by 13 and multiplies to 378. Since $x$ is the larger factor, $$ x = 27 $$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

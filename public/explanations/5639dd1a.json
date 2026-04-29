@@ -1,0 +1,15 @@
+{
+  "questionId": "5639dd1a",
+  "correctAnswer": "22",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the perfect square on the right side",
+      "content": "The equation is $x^2 = (22)(22)$. The right side is the product of two equal factors, which forms a perfect square: $(22)(22) = 22^2$. Rewrite the equation as:<br/>$$x^2 = 22^2$$"
+    },
+    {
+      "title": "Take the positive square root to solve for x",
+      "content": "Taking the positive square root of both sides:<br/>$$\\sqrt{x^2} = \\sqrt{22^2}$$<br/>$$x = 22$$"
+    }
+  ]
+}

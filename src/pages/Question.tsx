@@ -216,7 +216,50 @@ const QUESTION_SENTENCE_PATTERNS = [
   /^how does the author\b/i,
   /^how does the text\b/i,
   /^the student wants\b/i,
+  /^as used in the text\b/i,
 ];
+
+const TRAILING_QUESTION_STARTERS = [
+  "which",
+  "based on",
+  "according to",
+  "how would the author",
+  "how does the author",
+  "how does the text",
+  "the student wants",
+  "as used in the text",
+  "what",
+];
+
+const extractTrailingQuestionSentence = (
+  text: string,
+): { sentence?: string; remainder: string } => {
+  const trimmed = text.trim();
+  if (!trimmed || !trimmed.endsWith("?")) {
+    return { remainder: trimmed };
+  }
+
+  const startersAlt = TRAILING_QUESTION_STARTERS
+    .map((s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+    .join("|");
+  const boundaryRe = new RegExp(
+    `(?:[.!?]|</u>|["”’)\\]])\\s+(?=(?:${startersAlt})\\b)`,
+    "gi",
+  );
+
+  const boundaries = [...trimmed.matchAll(boundaryRe)];
+  for (let i = boundaries.length - 1; i >= 0; i--) {
+    const m = boundaries[i];
+    const splitAt = m.index! + m[0].length;
+    const before = trimmed.slice(0, splitAt).trim();
+    const sentence = trimmed.slice(splitAt).trim();
+    if (!before || !sentence) continue;
+    if (!looksLikeQuestionSentence(sentence)) continue;
+    return { sentence, remainder: before };
+  }
+
+  return { remainder: trimmed };
+};
 
 const PASSAGE_BLOCK_PATTERNS = [
   /^text 1\b/i,
@@ -300,6 +343,12 @@ const extractLeadingQuestionSentence = (text: string): { sentence?: string; rema
   return { sentence, remainder };
 };
 
+const extractReadingQuestionSentence = (text: string): { sentence?: string; remainder: string } => {
+  const leading = extractLeadingQuestionSentence(text);
+  if (leading.sentence) return leading;
+  return extractTrailingQuestionSentence(text);
+};
+
 const escapeRegExp = (value: string): string =>
   value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
@@ -366,7 +415,23 @@ function Question() {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
-  const isEmbed = searchParams.get("embed") === "1";
+  // The embed=1 mode is only intended for the homepage iframe preview. If a
+  // user navigates here directly (top-level window), strip the embed param
+  // and reload as a normal question page so they don't get the cropped/no-
+  // scroll preview UI.
+  const requestedEmbed = searchParams.get("embed") === "1";
+  const inIframe = typeof window !== "undefined" && window.self !== window.top;
+  useEffect(() => {
+    if (!requestedEmbed || inIframe) return;
+    const stripped = new URLSearchParams(searchParams);
+    stripped.delete("embed");
+    stripped.delete("theme");
+    navigate(
+      { pathname: location.pathname, search: stripped.toString() ? `?${stripped}` : "" },
+      { replace: true },
+    );
+  }, [requestedEmbed, inIframe, navigate, location.pathname, searchParams]);
+  const isEmbed = requestedEmbed && inIframe;
   const sharedIsDark = useThemeMode();
   const embedThemeParam = searchParams.get("theme");
   const [embedIsDark, setEmbedIsDark] = useState<boolean>(() =>
@@ -558,6 +623,8 @@ function Question() {
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
   const [isReportOpen, setIsReportOpen] = useState(false);
+  const [isFlagOpen, setIsFlagOpen] = useState(false);
+  const [flagNote, setFlagNote] = useState("");
   const [isNoteWindowOpen, setIsNoteWindowOpen] = useState(false);
   const [isAnnotationModeEnabled, setIsAnnotationModeEnabled] = useState<boolean>(() => {
     if (typeof window === "undefined") return true;
@@ -1100,17 +1167,19 @@ function Question() {
     }
   }, [isSplitScreenActive]);
 
-  if (!currentQuestion) {
-    const fallbackDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
-    return <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold mb-4">Question not found</h1>
-        <Button onClick={() => navigate(fallbackDestination)}>Go Home</Button>
-      </div>
-    </div>;
-  }
+  useEffect(() => {
+    if (isSplitScreenActive) {
+      document.documentElement.style.setProperty('--modal-center-x', `${splitPosition / 2}%`);
+    } else {
+      document.documentElement.style.removeProperty('--modal-center-x');
+    }
+    return () => {
+      document.documentElement.style.removeProperty('--modal-center-x');
+    };
+  }, [isSplitScreenActive, splitPosition]);
 
   useLayoutEffect(() => {
+    if (!currentQuestion) return;
     if (isAssessmentMode) {
       const state = readModulePracticeQuestionState();
       setSelectedAnswer(state?.answer || "");
@@ -1774,7 +1843,7 @@ function Question() {
     ? questionWithBankFields.questionImages
     : undefined;
 
-  const extractedFromStem = subject === "reading" ? extractLeadingQuestionSentence(rawStemContent) : { remainder: rawStemContent };
+  const extractedFromStem = subject === "reading" ? extractReadingQuestionSentence(rawStemContent) : { remainder: rawStemContent };
   const readingQuestionSentence =
     subject === "reading"
       ? (questionTextContent?.trim() || extractedFromStem.sentence)
@@ -1856,6 +1925,16 @@ function Question() {
   useEffect(() => {
     setIsNoteWindowOpen(noteStorageArea.getItem(noteWindowOpenKey) === "true");
   }, [noteStorageArea, noteWindowOpenKey]);
+
+  if (!currentQuestion) {
+    const fallbackDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
+    return <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <h1 className="text-2xl font-bold mb-4">Question not found</h1>
+        <Button onClick={() => navigate(fallbackDestination)}>Go Home</Button>
+      </div>
+    </div>;
+  }
 
   const openNoteWindow = () => {
     bringToFront("note");
@@ -2149,6 +2228,37 @@ function Question() {
         onOpenChange={setIsReportOpen}
         questionId={currentQuestion?.uuid}
       />
+      <Dialog open={isFlagOpen} onOpenChange={(o) => { setIsFlagOpen(o); if (!o) setFlagNote(""); }}>
+        <DialogContent className="max-w-sm">
+          <DialogHeader>
+            <DialogTitle>Flag question</DialogTitle>
+          </DialogHeader>
+          <textarea
+            autoFocus
+            value={flagNote}
+            onChange={(e) => setFlagNote(e.target.value)}
+            placeholder="Describe the issue…"
+            className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-ring"
+            rows={4}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) e.currentTarget.closest("form")?.requestSubmit();
+            }}
+          />
+          <Button
+            onClick={() => {
+              const flagged = JSON.parse(localStorage.getItem("flagged_questions") ?? "[]");
+              const entry = { uuid: currentQuestion?.uuid, id: currentQuestion?.id, subject, url: window.location.href, note: flagNote.trim(), flaggedAt: new Date().toISOString() };
+              flagged.push(entry);
+              localStorage.setItem("flagged_questions", JSON.stringify(flagged));
+              console.log("[FLAG]", entry, "| total flagged:", flagged.length);
+              setIsFlagOpen(false);
+              setFlagNote("");
+            }}
+          >
+            Save flag
+          </Button>
+        </DialogContent>
+      </Dialog>
       <QuestionNotesWindow
         key={noteStorageKey}
         isOpen={isNoteWindowOpen}
@@ -2256,6 +2366,15 @@ function Question() {
                     {!topShouldCompress && "Annotate"}
                   </Button>
                 )}
+                <Button
+                  variant="outline"
+                  size="sm"
+                  title="Flag this question locally"
+                  onClick={() => setIsFlagOpen(true)}
+                >
+                  <Flag className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
+                  {!topShouldCompress && "Flag"}
+                </Button>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button variant="outline" size="sm" title="More">

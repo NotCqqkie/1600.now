@@ -1,0 +1,15 @@
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify Text 2's explanation for the differing outcomes",
+      "content": "Text 2 explains that predation relief studies show increased prey abundance, but primarily in small, rapidly reproducing species like birds, mice, and frogs. Potvin's result differed because white-tailed deer are large and reproduce slowly\u2014a difference in <em>prey characteristics</em> that Text 2 uses to account for why the studies reach different conclusions."
+    },
+    {
+      "title": "Match the explanation to the choices",
+      "content": "Choice D directly states Blackwell's findings are attributable to \u201cphysical characteristics of house mice that are not shared by white-tailed deer,\u201d which aligns with Text 2's prey-characteristic explanation. The other three either reference comparisons Text 2 never addresses (predator traits in C, stoat-to-mouse body size ratio in A) or wrongly claim the response is unique to mice when Text 2 documents it in birds and frogs too (B). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

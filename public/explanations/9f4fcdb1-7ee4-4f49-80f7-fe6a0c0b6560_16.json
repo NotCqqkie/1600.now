@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "On the left side of the blank is a participial phrase (\u201cKnown as the Tunguska event, after a river that ran through the region,\u201d). On the right side is an independent clause (\u201cJune 30 has been officially denoted International Asteroid Day.\u201d)."
+    },
+    {
+      "title": "Apply the participial phrase rule",
+      "content": "A participial phrase must clearly modify the subject of the clause it begins. C provides \u201cthe explosion\u201d as the subject, which correctly matches what \u201cKnown as the Tunguska event\u201d describes. Choices A, B, and D provide subjects that don't match the phrase, creating dangling modifiers. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

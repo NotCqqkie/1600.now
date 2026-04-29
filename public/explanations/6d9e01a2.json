@@ -1,0 +1,16 @@
+{
+  "questionId": "6d9e01a2",
+  "correctAnswer": "25/4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the parabola opens upward with minimum at its vertex",
+      "content": "The function $f(x) = 4x^2 - 50x + 126$ has leading coefficient $a = 4 > 0$. Since the parabola opens upward, its minimum value occurs at the vertex. We need the x-coordinate of this vertex."
+    },
+    {
+      "title": "Calculate the x-coordinate of the vertex",
+      "content": "With coefficients $a = 4$ and $b = -50$:\n\n$$x = -\\frac{(-50)}{2(4)} = \\frac{50}{8} = \\frac{25}{4}$$\n\nThe minimum occurs at $x = \\frac{25}{4}$.",
+      "formula": "$$x = -\\frac{b}{2a}$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank contains a common noun immediately followed by Spain, a proper noun. Spain must specify which member nation is being discussed."
+    },
+    {
+      "title": "Apply the rule and find the answer",
+      "content": "A proper noun that identifies which specific entity is being discussed requires no punctuation when placed directly after its common noun; Spain is introduced here for the first time to specify which OECD member nation, making it essential information. A comma would wrongly treat Spain as extra information, and hyphens and colons don't apply to noun-identification structures. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

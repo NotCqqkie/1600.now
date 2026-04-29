@@ -1,0 +1,16 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_5",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept by setting x = 0",
+      "content": "The y-intercept occurs where the graph crosses the y-axis. At this point, $x = 0$. Substitute into the equation: $$y = 6(1.85)^0$$"
+    },
+    {
+      "title": "Evaluate using the zero exponent rule",
+      "content": "Apply the exponent rule that any nonzero number raised to the power 0 equals 1: $$(1.85)^0 = 1$$ Therefore: $$y = 6 \\cdot 1 = 6$$ The value of $y$ is <strong>6</strong>.",
+      "formula": "$$a^0 = 1 \\quad (a \\neq 0)$$"
+    }
+  ]
+}

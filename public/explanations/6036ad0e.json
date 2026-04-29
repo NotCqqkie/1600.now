@@ -1,0 +1,15 @@
+{
+  "questionId": "6036ad0e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal relationship",
+      "content": "The passage presents two events with explicit dates: the 2014 competition win and the 2017 show creation. These are separate moments in time, and the transition must signal this sequence."
+    },
+    {
+      "title": "Match the temporal signal",
+      "content": "\u201dLater\u201d directly expresses that the second event came after the first, moving from 2014 to 2017. \u201cInstead\u201d implies a switch or contrast (absent here), \u201cFor example\u201d implies an illustrative relationship (these aren't example and general rule), and \u201cIn other words\u201d implies restatement (the events are distinct, not equivalent). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

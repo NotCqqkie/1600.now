@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor as a difference of squares",
+      "content": "The equation $x^2 - 49 = 0$ contains a difference of squares: $x^2 - 7^2$. This factors as:<br/>$$x^2 - 49 = (x - 7)(x + 7) = 0$$"
+    },
+    {
+      "title": "Solve and count the solutions",
+      "content": "From $(x - 7)(x + 7) = 0$, we have two linear factors. Setting each equal to zero:<br/><ul><li>$x - 7 = 0$ gives $x = 7$</li><li>$x + 7 = 0$ gives $x = -7$</li></ul>These are two distinct real solutions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the width of the rectangular base",
+      "content": "The base has area $56t$ cm\u00b2 and length $\\frac{14}{3}$ cm. Use the formula <strong>base area = length \u00d7 width</strong>:<br/><br/>$$56t = \\frac{14}{3} \\times w$$<br/><br/>Solve for $w$:<br/>$$w = 56t \\div \\frac{14}{3} = 56t \\times \\frac{3}{14} = \\frac{168t}{14} = 12t \\text{ cm}$$"
+    },
+    {
+      "title": "Calculate surface area with all three dimensions",
+      "content": "Now we have all dimensions: $l = \\frac{14}{3}$ cm, $w = 12t$ cm, $h = 3$ cm. The surface area formula is $\\text{SA} = 2(lw + lh + wh)$. Calculate each face area:<br/><ul><li>$lw = \\frac{14}{3} \\times 12t = 56t$</li><li>$lh = \\frac{14}{3} \\times 3 = 14$</li><li>$wh = 12t \\times 3 = 36t$</li></ul>Add them up and double:<br/>$$\\text{SA} = 2(56t + 14 + 36t) = 2(92t + 14) = 184t + 28$$<br/><br/>That matches <strong>choice B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

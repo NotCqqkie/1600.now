@@ -1,0 +1,19 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_16",
+  "correctAnswer": "5/9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand when a linear equation has no solution",
+      "content": "For a linear equation in the form $ax = b$, there is no solution when $a = 0$ but $b \\neq 0$\u2014this creates a contradiction like $0 = 5$. So we rearrange the given equation into this form and determine when the coefficient of $x$ equals zero."
+    },
+    {
+      "title": "Rearrange to isolate the coefficient of x",
+      "content": "Starting with $-\\frac{3}{19}rx+\\frac{s}{8}=10-\\frac{5}{57}x$, collect all $x$ terms on the left and constants on the right by adding $\\frac{5}{57}x$ to both sides and subtracting $\\frac{s}{8}$:<br><br>$$x\\left(-\\frac{3}{19}r + \\frac{5}{57}\\right) = 10 - \\frac{s}{8}$$<br><br>The coefficient of $x$ is $-\\frac{3}{19}r + \\frac{5}{57}$."
+    },
+    {
+      "title": "Set the coefficient to zero and solve for r",
+      "content": "For no solution, set the coefficient equal to zero:<br><br>$$-\\frac{3}{19}r + \\frac{5}{57} = 0$$<br><br>$$\\frac{3}{19}r = \\frac{5}{57}$$<br><br>$$r = \\frac{5}{57} \\cdot \\frac{19}{3} = \\frac{95}{171}$$<br><br>Simplify by factoring the common factor of 19: $95 = 5 \\cdot 19$ and $171 = 9 \\cdot 19$, so:<br><br>$$r = \\frac{5}{9}$$"
+    }
+  ]
+}

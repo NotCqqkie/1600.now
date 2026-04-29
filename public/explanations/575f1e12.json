@@ -1,0 +1,16 @@
+{
+  "questionId": "575f1e12",
+  "correctAnswer": "986",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the rectangle area formula",
+      "content": "The area of a rectangle is length times width. We multiply 34 cm by 29 cm.",
+      "formula": "$$A = l \\times w$$"
+    },
+    {
+      "title": "Calculate the result",
+      "content": "$$34 \\times 29 = 986$$<br/>The area is <strong>986 square centimeters</strong>."
+    }
+  ]
+}

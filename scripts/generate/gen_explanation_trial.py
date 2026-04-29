@@ -59,14 +59,13 @@ FORBIDDEN (these will fail audit):
 - Duplicating the "formula" field content inside the step's "content" field (redundant)
 
 STRUCTURE:
-- 2-4 steps. Fewer is better. Each step moves reasoning forward.
+- 2-5 steps. Fewer is better. Each step moves reasoning forward.
 - Do NOT add a standalone "Confirm the answer" or "Verify" step that just restates prior work. Tie the choice letter to the END of the step where you actually compute/derive the result.
 - The tie-in is its OWN final sentence in that step. Write the derivation, then in a new sentence use EXACTLY this form:
   "That matches choice B — <strong>B</strong> is correct."
   (Always include the word "choice" followed by the letter, and bold the letter.)
 - Use <strong>, <br/>, <ul><li>, <div class="callout">...</div> for readability. Do not use <p> tags.
 - Every equation in its own $$...$$ display block. Inline math with $...$.
-- If comparing 2+ answer choices' equations graphically, use "desmosGraphs" with one entry per choice.
 - "formula" field is OPTIONAL. Only include it if the content is a formula the student should memorize. If you include it, the exact LaTeX must NOT appear elsewhere in the same step's content.
 
 JSON SCHEMA per step:
@@ -93,9 +92,8 @@ SOLVE FORWARD. Reason through the problem as if solving it for the first time. D
 
 READING APPROACH (answer-first, NOT elimination-first):
 - Step 1: identify the ONE strongest clue/signal in the passage (a single phrase, contrast word, or claim). Don't list 3-4 clues — pick the decisive one.
-- Step 2: state directly why the correct answer fits that clue, then dismiss the other three COLLECTIVELY in one short sentence (e.g., "The other three either contradict this, describe something not discussed, or reverse the relationship."). Do NOT write one bullet per wrong choice unless two or more are plausible.
+- Step 2: state directly why the correct answer fits that clue, then dismiss the other three COLLECTIVELY in one short sentence (e.g., "The other three either contradict this, describe something not discussed, or reverse the relationship."). One bullet per wrong choice only if two or more are genuine close calls.
 - For vocab-in-context: name the target meaning first, then say why the correct word expresses it. Only contrast against wrong choices if one is a close call.
-- Never say "Let's evaluate each choice." The student doesn't need a walkthrough of losers.
 
 CONVENTIONS OF STANDARD ENGLISH (punctuation/grammar) — special rules:
 - These questions test a SPECIFIC punctuation or grammar rule. Name the actual rule directly (e.g., "A semicolon separates two independent clauses", "A colon introduces a list or elaboration", "A comma + coordinating conjunction joins two independent clauses"). Do NOT invent rule names.
@@ -119,8 +117,7 @@ STRUCTURE:
 - Step 1 title: something like "Find the key signal" or "Identify the contrast" or "Spot the defining claim". One specific, decisive clue only.
 - Step 2 title: something like "Match the meaning" or "Apply the signal to the choices". State the winner's logic, dismiss the others collectively, then close with the tie-in.
 - Do NOT start step 2 by restating anything from step 1. Jump straight to the correct answer's logic.
-- Do NOT use a bulleted list of wrong choices. One sentence dismissing the other three is the norm. Bullets are reserved for cases where multiple wrong choices are close calls that genuinely each need their own dismissal.
-- The closing tie-in sentence must refer to the CORRECT answer's own justification, not to a wrong-choice dismissal. Structure step 2 as: (a) state what the winner does, (b) one sentence dismissing the losers, (c) a NEW sentence with the tie-in. Bad: "...A and B don't fit; C is unrelated, which matches choice D — D is correct." (reads as if C matches D). Good: "D captures the shift exactly. A, B, and C each miss the contrast. That matches choice D — <strong>D</strong> is correct."
+- The closing tie-in sentence must be its own final sentence in step 2: (a) state what the winner does, (b) one sentence dismissing the losers, (c) the tie-in. Never write the tie-in mid-sentence after a wrong-choice dismissal.
 - End step 2 with EXACTLY this form as its own sentence (begin with "That matches choice..." or "This matches choice..."), and nothing after:
   "That matches choice C — <strong>C</strong> is correct."
   (Always include the word "choice" followed by the letter, and bold the letter.)
@@ -192,6 +189,85 @@ def build_prompt(q: dict, image_paths: list[Path]) -> str:
     )
 
 
+def call_openrouter(prompt: str, api_key: str, model: str = "nvidia/nemotron-3-super-120b-a12b:free") -> str:
+    import urllib.request, time as _time
+    payload = json.dumps({
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+    for attempt in range(4):
+        req = urllib.request.Request(
+            "https://openrouter.ai/api/v1/chat/completions",
+            data=payload,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=180) as resp:
+                data = json.loads(resp.read())
+            if "choices" in data:
+                return data["choices"][0]["message"]["content"].strip()
+            err = data.get("error", {})
+            # 524/502 = provider timeout/error — retryable
+            if err.get("code") in (502, 524, 529) or attempt < 3:
+                wait = 10 * (2 ** attempt)
+                sys.stderr.write(f"OpenRouter {err.get('code','?')} attempt {attempt+1}/4, retrying in {wait}s\n")
+                _time.sleep(wait)
+                continue
+            sys.stderr.write(f"OpenRouter bad response: {json.dumps(data)}\n")
+            sys.exit(1)
+        except urllib.error.HTTPError as e:
+            body = e.read().decode()
+            is_daily = "per-day" in body or "per_day" in body
+            if e.code == 429 and is_daily:
+                # Daily limit exhausted — signal pool to switch providers
+                sys.stderr.write(f"OpenRouter daily limit: {body[:120]}\n")
+                sys.exit(2)
+            if e.code in (429, 502, 524) and attempt < 3:
+                wait = 10 * (2 ** attempt)
+                sys.stderr.write(f"OpenRouter HTTP {e.code} attempt {attempt+1}/4, retrying in {wait}s\n")
+                _time.sleep(wait)
+                continue
+            sys.stderr.write(f"OpenRouter HTTP {e.code}: {body}\n")
+            sys.exit(1)
+        except Exception as e:
+            sys.stderr.write(f"OpenRouter call failed: {e}\n")
+            sys.exit(1)
+    sys.stderr.write("OpenRouter: all retries exhausted\n")
+    sys.exit(1)
+
+
+def call_local_ollama(prompt: str, model: str, base_url: str = "http://localhost:11434") -> str:
+    import urllib.request, time as _time
+    # /no_think disables qwen3's chain-of-thought mode — ~3x faster, same output quality
+    content = "/no_think\n" + prompt if "qwen3" in model else prompt
+    payload = json.dumps({
+        "model": model,
+        "messages": [{"role": "user", "content": content}],
+        "stream": False,
+    }).encode()
+    for attempt in range(3):
+        req = urllib.request.Request(
+            f"{base_url}/v1/chat/completions",
+            data=payload,
+            headers={"Content-Type": "application/json"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=560) as resp:
+                data = json.loads(resp.read())
+            if "choices" in data:
+                return data["choices"][0]["message"]["content"].strip()
+            sys.stderr.write(f"Ollama bad response: {json.dumps(data)[:200]}\n")
+            sys.exit(1)
+        except Exception as e:
+            if attempt < 2:
+                sys.stderr.write(f"Ollama attempt {attempt+1}/3 failed: {e}, retrying...\n")
+                _time.sleep(5)
+                continue
+            sys.stderr.write(f"Ollama call failed: {e}\n")
+            sys.exit(1)
+    sys.exit(1)
+
+
 def call_haiku(prompt: str, image_paths: list[Path]) -> str:
     # Claude Code CLI: attach images by appending `@<absolute-path>` tokens to
     # the prompt. The CLI detects image mime types and sends as vision content.
@@ -199,12 +275,20 @@ def call_haiku(prompt: str, image_paths: list[Path]) -> str:
     for p in image_paths:
         full_prompt += f"\n@{p}"
     result = subprocess.run(
-        ["claude", "-p", "--model", "haiku", full_prompt],
+        ["claude", "-p", "--model", "haiku", "--no-session-persistence", full_prompt],
         capture_output=True,
         text=True,
         timeout=300,
     )
     if result.returncode != 0:
+        err = result.stderr.lower()
+        is_rate_limit = (
+            not err.strip()  # silent failure = almost always rate limit
+            or any(x in err for x in ("rate limit", "429", "too many requests", "overloaded"))
+        )
+        if is_rate_limit:
+            sys.stderr.write(f"claude CLI rate-limited (or silent fail): {result.stderr[:120]}\n")
+            sys.exit(2)
         sys.stderr.write(f"claude CLI failed: {result.stderr}\n")
         sys.exit(1)
     return result.stdout.strip()
@@ -236,10 +320,19 @@ def main():
     prompt = build_prompt(q, image_paths)
 
     sys.stderr.write(f"Prompt length: {len(prompt)} chars (~{len(prompt)//4} tokens)\n")
-    sys.stderr.write(f"Calling Haiku for {q['id']} ({q['section']})"
-                     f"{f' with {len(image_paths)} image(s)' if image_paths else ''}...\n")
 
-    raw = call_haiku(prompt, image_paths)
+    or_key = os.environ.get("OPENROUTER_API_KEY")
+    ollama_model = os.environ.get("OLLAMA_MODEL")
+    if or_key:
+        sys.stderr.write(f"Calling Nemotron for {q['id']} ({q['section']})...\n")
+        raw = call_openrouter(prompt, or_key)
+    elif ollama_model:
+        sys.stderr.write(f"Calling Ollama/{ollama_model} for {q['id']} ({q['section']})...\n")
+        raw = call_local_ollama(prompt, ollama_model)
+    else:
+        sys.stderr.write(f"Calling Haiku for {q['id']} ({q['section']})"
+                         f"{f' with {len(image_paths)} image(s)' if image_paths else ''}...\n")
+        raw = call_haiku(prompt, image_paths)
 
     if args.raw:
         output = raw

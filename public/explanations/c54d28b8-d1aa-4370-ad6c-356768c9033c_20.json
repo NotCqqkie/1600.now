@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "<strong>Network</strong> is a noun naming the radar. <strong>Or superDARN, as space physicists like Nozomu Nishitani call it</strong> is an appositive phrase that provides an alternative name and elaboration."
+    },
+    {
+      "title": "Apply the dash rule",
+      "content": "Paired dashes set off appositive information to separate it from the main sentence. The existing dash after <strong>it</strong> marks the end of the appositive phrase, so a matching dash right after <strong>Network</strong> must mark the start and frame it properly. Options A, B, and C fail to provide this opening dash. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

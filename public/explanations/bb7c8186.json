@@ -1,0 +1,12 @@
+{
+  "questionId": "bb7c8186",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate 23% of 100",
+      "content": "To find 23% of 100, convert the percentage to decimal form: $23\\% = 0.23$. Multiply this by 100: $0.23 \\times 100 = 23$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$\\text{Percentage of a number} = \\frac{\\text{percent}}{100} \\times \\text{number}$$"
+    }
+  ]
+}

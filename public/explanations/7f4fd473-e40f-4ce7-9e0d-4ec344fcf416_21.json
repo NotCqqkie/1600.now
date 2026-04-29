@@ -1,0 +1,15 @@
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the spatial reference",
+      "content": "The previous sentence specifies a location: <em>\u201cthe wall of a university building in the United States.\u201d</em> The sentence beginning with the blank should elaborate on what we observe at that specific location."
+    },
+    {
+      "title": "Connect the location reference to the answer",
+      "content": "\u201dThere\u201d points back to the wall location from the previous sentence, creating a spatial transition into the description that follows. \u201cLater\u201d introduces an irrelevant time element, \u201cFor instance\u201d redundantly suggests another example when the main one was already given, and \u201cHowever\u201d implies a non-existent contrast. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

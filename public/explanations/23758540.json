@@ -1,0 +1,11 @@
+{
+  "questionId": "23758540",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test choice B by substitution",
+      "content": "Backsolving \u2014 testing choice B (25):<br/>Substitute $p = 25$ into $2p + 275 = 325$:<br/>$$2(25) + 275 = 50 + 275 = 325$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

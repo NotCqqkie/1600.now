@@ -1,0 +1,15 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We need to find $x$ when $f(x) = 80$. Substitute the function definition:<br/>$$8(2x+2) = 80$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 8:<br/>$$2x + 2 = 10$$<br/>Subtract 2 from both sides:<br/>$$2x = 8$$<br/>Divide by 2:<br/>$$x = 4$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

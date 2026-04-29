@@ -1,0 +1,15 @@
+{
+  "questionId": "fde6f3bb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply the binomials using distribution",
+      "content": "Expand $\\left(\\frac{3}{5}x + \\frac{7}{6}\\right)(6x - 5)$ by multiplying each term in the first binomial by each term in the second:<br/><br/>$$\\frac{3}{5}x \\cdot 6x + \\frac{3}{5}x \\cdot (-5) + \\frac{7}{6} \\cdot 6x + \\frac{7}{6} \\cdot (-5)$$<br/><br/>Simplify each product:<br/>$$\\frac{18}{5}x^2 - 3x + 7x - \\frac{35}{6}$$"
+    },
+    {
+      "title": "Combine like terms and identify the choice",
+      "content": "Combine the linear terms: $-3x + 7x = 4x$.<br/><br/>$$\\frac{18}{5}x^2 + 4x - \\frac{35}{6}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

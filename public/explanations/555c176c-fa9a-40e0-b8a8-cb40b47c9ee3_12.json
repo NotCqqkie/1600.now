@@ -1,0 +1,19 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentages to decimal form",
+      "content": "2,136% = 21.36 and 89% = 0.89. The given conditions are: $$a = 21.36(b + c)$$ and $$b = 0.89c$$"
+    },
+    {
+      "title": "Express both variables in terms of a single variable",
+      "content": "Since $b = 0.89c$, we have $b + c = 0.89c + c = 1.89c$. Substitute into the equation for $a$: $$a = 21.36(1.89c)$$ Multiply: $21.36 \\times 1.89 = 40.3704$, so $$a = 40.3704c$$"
+    },
+    {
+      "title": "Find what percent of b is a",
+      "content": "The ratio is $$\\frac{a}{b} = \\frac{40.3704c}{0.89c} = \\frac{40.3704}{0.89} = 45.36$$ Convert to percentage: $45.36 \\times 100\\% = 4536\\%$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

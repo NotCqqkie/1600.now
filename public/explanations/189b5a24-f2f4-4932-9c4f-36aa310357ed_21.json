@@ -1,0 +1,15 @@
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive",
+      "content": "The compound names and formulas \u201chexafluorobenzene (C 6 F 6) and undecane (C 11 H 24)\u201d form an appositive phrase\u2014a group of words that identifies which compounds we're discussing. This identification is essential; without these specific names, \u201cthe liquid compounds\u201d would be incomplete."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Appositives that identify a noun (restrictive) take <strong>no commas</strong>; appositives that add extra info about an already-identified noun (non-restrictive) take commas. Since these compound names are essential for specifying which compounds have those molar masses, the appositive is restrictive. Choices A, B, and D all incorrectly include commas\u2014either as a pair (B) or mismatched (A, D)\u2014treating it as non-restrictive. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

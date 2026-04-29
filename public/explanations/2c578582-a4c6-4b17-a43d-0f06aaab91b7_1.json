@@ -1,0 +1,28 @@
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute the target number",
+      "content": "Compute the target number: $$ \\frac{2}{5} \\times 700 = 280 $$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Read the flower counts from the bar graph",
+      "content": "From the bar graph, Orchid = 140, Lily = 100, Tulip = 120, Sunflower = 180, Daisy = 160.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Test each pair for a sum of 280",
+      "content": "Orchid + Lily = 140 + 100 = 240 (not 280)<br/>Tulip + Lily = 120 + 100 = 220 (not 280)<br/>Orchid + Sunflower = 140 + 180 = 320 (not 280)<br/>Tulip + Daisy = 120 + 160 = 280 (matches target)<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

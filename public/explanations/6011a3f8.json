@@ -1,0 +1,16 @@
+{
+  "questionId": "6011a3f8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the discriminant condition for more than one real solution",
+      "content": "For a quadratic equation to have more than one real solution, the discriminant must be positive.<br/><br/>In the equation $64x^2 + bx + 25 = 0$, we have $a = 64$ and $c = 25$. Using the discriminant condition:<br/>$$b^2 - 4(64)(25) > 0$$<br/>$$b^2 - 6400 > 0$$<br/>$$b^2 > 6400$$",
+      "formula": "$$\\Delta = b^2 - 4ac > 0$$"
+    },
+    {
+      "title": "Test which choice satisfies the condition",
+      "content": "We need $b^2 > 6400$, which means $|b| > 80$.<br/><br/><ul><li>Choice A: $b = -91$ gives $(-91)^2 = 8281 > 6400$ \u2713</li><li>Choice B: $b = -80$ gives $(-80)^2 = 6400 \\not> 6400$ \u2717</li><li>Choice C: $b = 5$ gives $(5)^2 = 25 \\not> 6400$ \u2717</li><li>Choice D: $b = 40$ gives $(40)^2 = 1600 \\not> 6400$ \u2717</li></ul><br/>Only choice A satisfies the condition. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

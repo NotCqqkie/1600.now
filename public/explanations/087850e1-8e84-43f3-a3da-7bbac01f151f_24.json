@@ -1,0 +1,15 @@
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The goal asks for \u201cprovide an example of a particle physicist whose research focuses on neutrinos.\u201d Success requires both a specific physicist's name and clear evidence that neutrinos are central to their research."
+    },
+    {
+      "title": "Apply the requirement to the choices",
+      "content": "Choice C names Francis Halzen and directly connects him to neutrino research through his discovery of high-energy astrophysical neutrinos. The other choices discuss particle physicists and neutrinos in general terms without naming the specific researcher. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The question asks for a generalization specifically about <strong>rails-with-trails</strong> \u2014 the category defined as trails sharing a right-of-way with an active rail line."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "Choice B generalizes specifically about <strong>rails-with-trails</strong> by comparing them to other types of railway trails, concluding they're less common based on the 400 vs. 2,000+ comparison in the notes. The other three either focus on the wrong category, mention both types without singling out rails-with-trails, or state a specific fact rather than a generalization. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

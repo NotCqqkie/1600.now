@@ -1,0 +1,15 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the rightmost interval",
+      "content": "The histogram's rightmost bar covers [200, 250) with frequency 5. These 5 data points all fall within this interval, so each is at least 200 feet. Therefore, the maximum value in the dataset must be at least 200."
+    },
+    {
+      "title": "Evaluate which choice is valid",
+      "content": "The maximum must be $\\geq 200$. Among the choices, only 218 is at least 200. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

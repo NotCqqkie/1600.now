@@ -1,0 +1,15 @@
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the restatement",
+      "content": "The phrase after the blank rephrases what comes before it\u2014a concept is stated in technical language and then restated in plainer terms. The transition must mark this clarification."
+    },
+    {
+      "title": "Match the clarification signal",
+      "content": "\u201dThat is\u201d signals a clarification or restatement of what precedes it. \u201cLikewise\u201d signals similarity, \u201cin addition\u201d adds new information, and \u201cfor example\u201d introduces a specific instance. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

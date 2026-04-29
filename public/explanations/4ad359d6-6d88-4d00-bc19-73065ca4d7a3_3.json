@@ -1,0 +1,15 @@
+{
+  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining signal",
+      "content": "The passage directly signals the difference: household electronics fields are \u201cmany times stronger\u201d than the fields from water moving through Earth's magnetic field. The blank must capture this difference in degree or extent."
+    },
+    {
+      "title": "Find the word for strength",
+      "content": "<strong>Magnitude</strong> means the size, extent, or degree\u2014the word that captures how the strength of their sensitivities differs. Firmness (solidity), gathering (collection), and orientation (direction) don't address levels of sensitivity. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

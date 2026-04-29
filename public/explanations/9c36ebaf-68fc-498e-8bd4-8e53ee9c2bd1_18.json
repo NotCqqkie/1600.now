@@ -1,0 +1,19 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_18",
+  "correctAnswer": "121",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify angle relationships from parallel lines",
+      "content": "Since line $t$ intersects parallel lines $r$ and $s$:<br/><ul><li>Angles $b$ and $c$ form a linear pair at line $s$ (adjacent angles on a straight line), so they are supplementary: $b + c = 180\u00b0$</li><li>Angles $a$ and $c$ are corresponding angles\u2014they occupy the same relative position at each intersection\u2014so they are equal: $a = c$</li></ul>Combining these relationships: $a + b = 180\u00b0$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "Substitute the expressions for $a$ and $b$ into $a + b = 180\u00b0$:<br/>$$(4k + 57) + (\\frac{k}{4} + 55) = 180$$<br/>Combine like terms:<br/>$$4k + \\frac{k}{4} + 112 = 180$$<br/>$$\\frac{16k + k}{4} = 68$$<br/>$$\\frac{17k}{4} = 68$$<br/>$$k = 16$$"
+    },
+    {
+      "title": "Calculate c",
+      "content": "Since $a = c$ and $a = 4k + 57$, substitute $k = 16$:<br/>$$c = 4(16) + 57 = 64 + 57 = 121$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The sentence contains two independent clauses: \u201cSuch interpretations are ultimately speculative\u201d and \u201cthe object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.\u201d <strong>Though</strong> must connect these clauses in a concessive (contrasting) relationship."
+    },
+    {
+      "title": "Apply the rule for two independent clauses with 'though'",
+      "content": "When <strong>though</strong> marks a concessive relationship between two independent clauses, Standard English requires the pattern <strong>IC, though; IC</strong>\u2014comma before <strong>though,</strong> semicolon after. This correctly separates the two independent statements while marking their concessive relationship. Options A and B fail to place a semicolon after <strong>though</strong> (A leaves no punctuation; B adds an incorrect comma), and Option C incorrectly places the semicolon before <strong>though</strong> rather than after. <br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

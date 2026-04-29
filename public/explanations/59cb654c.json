@@ -1,0 +1,15 @@
+{
+  "questionId": "59cb654c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the area equation for a square",
+      "content": "The area of a square with side length $s$ is given by $A = s^2$. We're told the area is 64 square inches, so we have:<br/>$$s^2 = 64$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Taking the square root of both sides:<br/>$$s = \\sqrt{64} = 8$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

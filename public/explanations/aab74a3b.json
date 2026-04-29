@@ -1,0 +1,15 @@
+{
+  "questionId": "aab74a3b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side of the blank is an independent clause (subject: Researcher Lin Zhi, verb: developed). The right side begins with a participial phrase (dissolving and reweaving...) followed by a second independent clause (subject: Zhi, verb: increased)."
+    },
+    {
+      "title": "Apply the rule for separating independent clauses",
+      "content": "Two independent clauses require a period, semicolon, or comma-plus-coordinating-conjunction\u2014never a comma alone. A period after \u201csilk\u201d correctly applies this rule and allows the second sentence to open with \u201cBy dissolving...\u201d as an introductory phrase. Options A and B violate the rule by using insufficient punctuation, while option C creates an ungrammatical structure. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

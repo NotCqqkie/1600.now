@@ -1,0 +1,19 @@
+{
+  "questionId": "2c288148",
+  "correctAnswer": "231",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the geometric condition for exactly one solution",
+      "content": "The equation $\\sqrt{k-x} = 58 - x$ represents the intersection of two graphs: $y = \\sqrt{k-x}$ (a decreasing square-root curve) and $y = 58 - x$ (a line with slope $-1$). For exactly one intersection point, these curves must be <strong>tangent</strong> to each other."
+    },
+    {
+      "title": "Apply the tangency condition via slopes",
+      "content": "For two curves to be tangent, they must have the same slope at the intersection point. The derivative of $y = \\sqrt{k-x}$ is $\\frac{dy}{dx} = -\\frac{1}{2\\sqrt{k-x}}$. The line $y = 58 - x$ has slope $-1$. Setting these slopes equal for tangency:<br/><br/>$$-\\frac{1}{2\\sqrt{k-x}} = -1$$<br/><br/>Solving: $\\sqrt{k-x} = \\frac{1}{2}$."
+    },
+    {
+      "title": "Find k and compute 4k",
+      "content": "At the tangency point, both curves share the same $y$-coordinate:<br/><br/>$$\\sqrt{k-x} = 58 - x = \\frac{1}{2}$$<br/><br/>From $58 - x = \\frac{1}{2}$, we get $x = 57.5$. From $\\sqrt{k - 57.5} = \\frac{1}{2}$, squaring both sides gives $k - 57.5 = \\frac{1}{4}$, so $k = 57.75$. Therefore:<br/><br/>$$4k = 4 \\times 57.75 = 231$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6d4b2e1e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank contains the subject of the finite verb <strong>compares</strong>. It's composed of a noun (\u201cplaywright\u201d) followed by a name (\u201cWakako Yamauchi\u201d) in apposition."
+    },
+    {
+      "title": "Apply the appositive punctuation rule",
+      "content": "When an appositive is restrictive \u2014 essential to identify the noun \u2014 it takes no commas. When it's non-restrictive \u2014 providing additional information \u2014 it requires commas on both sides. Here, \u201cWakako Yamauchi\u201d is essential to identify the specific playwright, making it restrictive and requiring no commas. Additionally, no comma can separate the subject from its verb.<br/><br/>Options A and C violate the subject-verb rule by placing a comma before <strong>compares</strong>, while Option B incorrectly treats the name as non-restrictive by using a comma after \u201cplaywright.\u201d<br/><br/>Option D correctly applies the restrictive appositive rule: no commas around the name and no comma before the verb. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

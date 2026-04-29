@@ -1,0 +1,19 @@
+{
+  "questionId": "916ffe9b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the vote margin in the poll sample",
+      "content": "From the table, Angel Cruz received 483 votes and Terry Smith received 320 votes in the poll of 803 total voters. The margin between them is $483 - 320 = 163$ votes."
+    },
+    {
+      "title": "Express margin as a proportion of sample size",
+      "content": "The margin of 163 votes out of 803 polled represents the expected proportion of the victory margin. If this same proportion holds for the full election, the margin would be: $$\\frac{163}{803} \\times 6,424$$"
+    },
+    {
+      "title": "Simplify using the scaling relationship",
+      "content": "Check whether 6,424 and 803 have a relationship: $6,424 \\div 803 = 8$, so $6,424 = 803 \\times 8$. <br/><br/>Substituting: $$\\frac{163}{803} \\times (803 \\times 8) = 163 \\times 8 = 1,304$$<br/><br/>Angel Cruz would be expected to win by 1,304 votes. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

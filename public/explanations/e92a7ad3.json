@@ -1,0 +1,15 @@
+{
+  "questionId": "e92a7ad3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the plural subject",
+      "content": "The subject of the sentence is <strong>ayllus</strong>, which is a plural noun. This grammatical fact determines what form the verb must take."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The verb must be plural to satisfy <strong>subject-verb agreement</strong>. Choice D, <strong>were</strong>, is the only plural verb form. Choices A, B, and C all provide singular verbs that would violate the agreement rule. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ca452900",
+  "correctAnswer": ".3846",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the slope-intercept form",
+      "content": "The equation $y = \\frac{5x}{13} - 23$ is already in slope-intercept form $$y = mx + b$$ where the slope is $m$, the coefficient of $x$, and the y-intercept is $b$."
+    },
+    {
+      "title": "Extract the slope",
+      "content": "The coefficient of $x$ in the equation is $\\frac{5}{13}$. Therefore, the slope is $\\frac{5}{13}$."
+    }
+  ]
+}

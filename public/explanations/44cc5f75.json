@@ -1,0 +1,15 @@
+{
+  "questionId": "44cc5f75",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The sentence structure \u201cto ______ this problem by transmitting molecules through carbon nanotubes\u201d indicates the blank must be a verb accomplished by this method. Only a word meaning \u201csolve\u201d or \u201chandle\u201d fits this pattern."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "\u201dOvercome\u201d fits directly \u2014 to overcome a problem is to successfully solve or handle it. The other three choices describe unrelated actions: conceptualize (form an idea), illustrate (explain), and neglect (ignore). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

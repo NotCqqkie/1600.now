@@ -1,0 +1,15 @@
+{
+  "questionId": "420b82e2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the evolutionary signal",
+      "content": "The strongest clue is that the appendix <em>\u201chasn't disappeared\u201d</em> despite being thought useless. Evolution only preserves traits that benefit survival. The passage reveals the appendix's likely benefit: species with it have higher lymphoid tissue\u2014tissue that supports immune responses. Together, these facts signal that the appendix benefits the immune system."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "B directly states this conclusion: the appendix is preserved because it benefits the immune system. The other choices either address the wrong scope (C predicts future emergence, D reverses causality, A invokes nonmammals not in the passage).<br><br>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

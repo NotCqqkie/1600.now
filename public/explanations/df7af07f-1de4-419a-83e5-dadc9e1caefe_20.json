@@ -1,0 +1,15 @@
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the independent clause",
+      "content": "The sentence has a complete independent clause: <strong>Exemplars of Stigler's law abound.</strong> What follows is a list of examples from multiple fields."
+    },
+    {
+      "title": "Place the colon correctly",
+      "content": "A colon after a complete independent clause introduces what follows. All list items must come after the colon. Choice C places the colon immediately after <strong>abound</strong>, keeping the entire list together. Choice B includes <strong>in mathematics</strong> before the colon, which breaks the list structure and creates a semantic mismatch (claiming exemplars abound in one field, then listing examples from all fields). Choices A and D use incorrect punctuation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

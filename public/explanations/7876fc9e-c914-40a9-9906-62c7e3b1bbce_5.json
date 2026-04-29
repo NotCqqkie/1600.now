@@ -1,0 +1,15 @@
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the role of this foundational definition",
+      "content": "The underlined portion defines \u201cconvergent evolution\u201d immediately after it's first introduced. The parenthetical placement signals that this concept is essential context for everything the passage will discuss."
+    },
+    {
+      "title": "Identify the function that matches this role",
+      "content": "The underlined portion's function is to establish what convergent evolution is before the passage analyzes how it occurs. Choice B states this exactly: \u201cit gives a basic description of a phenomenon that is central to the discussion that follows.\u201d The other three either confuse the definition with methodology or add context the passage never presents. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

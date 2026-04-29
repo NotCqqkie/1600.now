@@ -1,0 +1,15 @@
+{
+  "questionId": "f1bfbed3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the constant pattern",
+      "content": "The two censuses reported similar counts of vertebrate, plant, and algal species\u2014yet total species nearly doubled. Since new species descriptions only \u201cpartly\u201d explain this gap and microorganisms have poorly understood morphology with \u201cconsequential\u201d researcher decisions, the discrepancy must reflect different classification decisions about the same organisms."
+    },
+    {
+      "title": "Match the classification decision",
+      "content": "<strong>B</strong> specifies the classification difference: Bianchi and Morri treated microorganism variations as within-species differences, while Coll treated them as separate species. A contradicts \u201conly partly\u201d by claiming \u201clargely,\u201d C indirectly addresses sensitivity without naming the classification distinction, and D reverses the relationship. This matches choice B\u2014<strong>B</strong> is correct."
+    }
+  ]
+}

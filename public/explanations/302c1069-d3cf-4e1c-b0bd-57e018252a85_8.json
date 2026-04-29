@@ -1,0 +1,15 @@
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage says some hoards were discovered <em>before 2000</em> and asks for an example.<br/>That signals we need a choice that gives a hoard (or hoards) with a date earlier than 2000."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice A gives two hoards with specific years 1868 and 1940, both before 2000, directly using the table\u2019s data.<br/>The other three either give dates after 2000, mix pre\u2011 and post\u20112000, or only note a century without the exact years from the table.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparative signal",
+      "content": "The word \u201cimprove\u201d establishes that CSR efforts have a positive effect \u2014 when CSR was mentioned, favorability scores should be higher than when CSR wasn't mentioned."
+    },
+    {
+      "title": "Apply the signal to find the correct word",
+      "content": "The target is a word meaning \u201csurpass\u201d or \u201cbe higher than.\u201d \u201cExceed\u201d precisely captures this \u2014 the scores with CSR mentioned surpassed those without it. The other three are contextually impossible: \u201cidentify\u201d doesn't apply to comparing numerical values, \u201cdisturb\u201d means to cause trouble (incompatible with favorability scores), and \u201creplace\u201d misses the comparison. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

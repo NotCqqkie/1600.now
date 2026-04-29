@@ -1,0 +1,15 @@
+{
+  "questionId": "048811bd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert 10% to division",
+      "content": "10% of a number means one-tenth of that number. To find 10% of 370, we calculate $$\\frac{370}{10}$$."
+    },
+    {
+      "title": "Compute the division",
+      "content": "$$\\frac{370}{10} = 37$$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

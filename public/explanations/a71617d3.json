@@ -1,0 +1,15 @@
+{
+  "questionId": "a71617d3",
+  "correctAnswer": "45",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the tangent ratio for angle x",
+      "content": "The triangle has a right angle at the bottom right corner. From angle $x$ at the top, the opposite side is 32 (the base) and the adjacent side is 32 (the vertical side).<br><br>$$\\tan(x) = \\frac{32}{32} = 1$$"
+    },
+    {
+      "title": "Solve for x using inverse tangent",
+      "content": "Find the angle whose tangent equals 1:<br><br>$$x = \\arctan(1) = 45\u00b0$$"
+    }
+  ]
+}

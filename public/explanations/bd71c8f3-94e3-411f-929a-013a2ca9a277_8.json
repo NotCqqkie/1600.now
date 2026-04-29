@@ -1,0 +1,15 @@
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the probability of room C",
+      "content": "Since each visitor is in exactly one room, the probabilities sum to 1:<br/>$$P(A) + P(B) + P(C) = 1$$<br/>$$0.48 + 0.24 + P(C) = 1$$<br/>$$P(C) = 0.28$$"
+    },
+    {
+      "title": "Convert to visitor count",
+      "content": "Multiply the probability by the total number of visitors:<br/>$$\\text{Visitors in room C} = 0.28 \\times 375 = 105$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

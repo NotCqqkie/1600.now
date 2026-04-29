@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "The passage's core concept is that values are a \u201cluxury good\u201d\u2014higher income grants \u201c<strong>liberty to assign weight to values when voting</strong>.\u201d The key signal: <strong>economic security enables</strong> people to <strong>prioritize moral values</strong> when voting, even when those values conflict with their financial self-interest."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice D states that high-income people are \u201c<strong>enabled to take certain considerations into account when voting</strong>\u201c \u2014 their economic security allows them to prioritize values. The other three either invent a false alignment between values and interests (B), misidentify the relationship between income and value-conflict (A), or discuss political strategy beyond the passage's scope (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

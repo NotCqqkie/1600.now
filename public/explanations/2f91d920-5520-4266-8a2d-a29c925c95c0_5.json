@@ -1,0 +1,16 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the square root form",
+      "content": "The equation $x^2 = 2,601$ has the form $x^2 = c$ where $c = 2,601 > 0$. Since the right side is positive, we can solve by taking square roots, which yields both a positive and negative square root: $x = \\sqrt{2,601}$ and $x = -\\sqrt{2,601}$.",
+      "formula": "$$x^2 = c \\text{ (where } c > 0\\text{)} \\Rightarrow x = \\pm\\sqrt{c}$$"
+    },
+    {
+      "title": "Count the distinct solutions",
+      "content": "The two values $\\sqrt{2,601}$ and $-\\sqrt{2,601}$ are clearly distinct: one is positive and one is negative. Both are real numbers, giving us exactly two distinct real solutions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

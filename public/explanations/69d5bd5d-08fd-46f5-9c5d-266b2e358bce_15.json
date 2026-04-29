@@ -1,0 +1,15 @@
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Before the blank, \u201chas been displayed at the Smithsonian American Art Museum\u201d is an independent clause. After the blank, \u201cwhich features a large collection of contemporary art\u201d is a relative clause."
+    },
+    {
+      "title": "Apply the rule for relative clauses",
+      "content": "A comma precedes a non-restrictive relative clause that provides additional information. Choice D correctly places a comma before \u201cwhich features a large collection of contemporary art.\u201d The other choices fail to follow this rule: choice A uses \u201cand which\u201d (non-standard coordination), choice B uses a semicolon before a relative clause, and choice C starts a sentence with a relative pronoun. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

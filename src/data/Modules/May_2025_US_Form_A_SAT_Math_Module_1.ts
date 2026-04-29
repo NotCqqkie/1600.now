@@ -525,23 +525,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear functions",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "87a75825-ef1b-4b13-8fde-816390546062_17",
-    "testName": "May 2025 US Form A SAT Math Module 1",
-    "text": "$f(x)=\\sqrt{x^{3}+ax^{2}+bx+c}$\nThe function f is defined by the given equation, where a, b, and c are integer constants. In the xy -plane, the graph of $y=f(x)$ passes through the point $(5,0)$, and $f(0)=15$. What is the value of $5a+b$?",
-    "choices": [],
-    "correctAnswer": "-70",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice D is correct. It’s given that the graph of y equals, h of x intersects the <em>x</em>-axis at the point with coordinates 0 comma 0 and the point with coordinates t comma 0, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when h of x equals 0, it follows that h of 0 equals 0 and h of t equals 0. If h of t equals 0, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors.",
+      "id": "91e7ea5e",
+      "testName": "SAT Question Bank",
+      "text": "$h(x) = 2(x -4)^2 -32$\nThe quadratic function <em>h</em> is defined as shown. In the <em>xy</em>-plane, the graph of $y = h(x)$ intersects the <em>x</em>-axis at the points $(0, 0)$ and $t,0$, where <em>t</em> is a constant. What is the value of <em>t </em>?",
+      "correctAnswer": "D",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "1"
+          },
+          {
+              "id": "B",
+              "text": "2"
+          },
+          {
+              "id": "C",
+              "text": "4"
+          },
+          {
+              "id": "D",
+              "text": "8"
+          }
+      ]
   },
   {
     "section": "Math",

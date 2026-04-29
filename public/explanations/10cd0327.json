@@ -1,0 +1,15 @@
+{
+  "questionId": "10cd0327",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what the audience already knows",
+      "content": "The audience is already familiar with thermal inversions. This means the presentation should present the study's FINDINGS without defining or re-explaining a concept the audience already understands."
+    },
+    {
+      "title": "Find the choice that respects this knowledge",
+      "content": "The study found that thermal inversions in gas giants correlate with heat-absorbing metals in the upper atmosphere. Choice C presents this finding directly without defining thermal inversion, treating the audience as knowledgeable. The other choices either omit the main finding or waste time redefining what the audience already knows. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

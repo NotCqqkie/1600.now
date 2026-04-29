@@ -1,0 +1,15 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check if the equations are scalar multiples of each other",
+      "content": "Divide the second equation's coefficients and constant by those from the first equation:<br/><br/>$$\\frac{17.5}{3.5} = 5$$<br/><br/>$$\\frac{6}{1.2} = 5$$<br/><br/>$$\\frac{40}{8} = 5$$"
+    },
+    {
+      "title": "Identify the solution type",
+      "content": "Since all three ratios equal 5, the second equation is exactly 5 times the first equation. This means both equations represent the same line. Any point on this line is a solution to both equations, so there are infinitely many solutions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

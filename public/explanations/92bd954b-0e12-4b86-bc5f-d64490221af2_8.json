@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The passage opens by saying Nixon is <strong>most famous for</strong> Watergate, then shifts with the word <strong>But</strong> to declare his <strong>legacy is complex</strong> with actual achievements in the EPA and healthcare reform. This <strong>But</strong> is the defining signal: it frames the main idea as a contrast between his public reputation (Watergate scandal) and his unrecognized accomplishments."
+    },
+    {
+      "title": "Match the contrast to the answer",
+      "content": "Choice B captures the core contrast: Nixon is \u201ccommonly linked with an infamous historical event\u201d but this \u201covershadows some of his notable achievements.\u201d The other three either treat a supporting detail as the main idea (A: the people involved in Watergate; C: his influence on later administrations) or misread what caused his reputation (D claims his associates shaped it, when the passage states he had his own \u201cparticipation\u201d). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

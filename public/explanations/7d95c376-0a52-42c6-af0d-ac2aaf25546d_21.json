@@ -1,0 +1,15 @@
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure after the noun",
+      "content": "The sentence reads: \u201ccomprises some 1,200 languages [BLANK] including the Nauruan and Marshallese, which are spoken by 6,000 and 55,000 speakers, respectively, and accounts for...\u201d The blank asks what punctuation, if any, should follow \u201clanguages.\u201d"
+    },
+    {
+      "title": "Apply the rule for noun modifiers",
+      "content": "\u201dIncluding the Nauruan and Marshallese\u201d is a prepositional phrase that directly follows \u201clanguages\u201d and provides examples. When a prepositional phrase immediately modifies a noun, no punctuation separates them. Choices A (em dash), B (colon), and D (comma) all insert punctuation that would either create unwanted breaks or separate the noun from its modifier. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

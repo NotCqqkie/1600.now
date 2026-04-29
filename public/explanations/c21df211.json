@@ -1,0 +1,15 @@
+{
+  "questionId": "c21df211",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key punctuation decision",
+      "content": "The phrase \u201csuch as the scent of roses when roses appeared in a scene\u201d introduces an example of odors that the vents emitted. The question is whether \u201csuch as\u201d should be preceded by a comma\u2014a decision that signals whether the example is essential information or additional clarification."
+    },
+    {
+      "title": "Apply the rule for non-restrictive examples",
+      "content": "When \u201csuch as\u201d introduces non-restrictive examples, a comma precedes it to mark the example as additional clarification rather than an exhaustive definition. Options B and C create fragments by using a semicolon and period before a phrase that's neither independent; Option A omits the comma, wrongly suggesting the rose scent is the only odor emitted. The comma in D correctly signals the example as one among others. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

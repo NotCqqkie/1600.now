@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant c using function p",
+      "content": "Since $p$ has slope 7, we can write $p(x) = 7x + b$. Using $p(3) = 23$: $$23 = 7(3) + b = 21 + b$$ Thus $b = 2$, so $p(x) = 7x + 2$. <br/> Now use $p(c) = -5$: $$-5 = 7c + 2$$ $$7c = -7$$ $$c = -1$$"
+    },
+    {
+      "title": "Calculate the slope of t using two points",
+      "content": "We now know $c = -1$. Function $t$ passes through the points $(-1, -6)$ and $(4, 34)$ (since $t(c) = t(-1) = -6$ and $t(4) = 34$). <br/> Using the slope formula: $$\\text{slope} = \\frac{34 - (-6)}{4 - (-1)} = \\frac{40}{5} = 8$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

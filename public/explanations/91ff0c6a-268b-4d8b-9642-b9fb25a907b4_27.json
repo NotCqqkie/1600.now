@@ -1,0 +1,15 @@
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated goal",
+      "content": "The student wants to \u201cspecify the average length of the green iguana.\u201d This goal is explicit. From the notes, one piece of information directly addresses it: \u201cIt has an average length of 4.8 feet.\u201d"
+    },
+    {
+      "title": "Find the choice that includes that specific information",
+      "content": "D includes the average length of 4.8 feet. Choices A, B, and C include information about diet, habitat, or location, but none specify the length. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

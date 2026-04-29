@@ -1,0 +1,15 @@
+{
+  "questionId": "e0874bc2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor from perimeters",
+      "content": "For similar triangles, corresponding sides scale by the same factor as the perimeters. Divide the perimeter of $XYZ$ by the perimeter of $TUV$:<br/><br/>$$\\frac{333}{37} = 9$$"
+    },
+    {
+      "title": "Apply scale factor to find XY",
+      "content": "Since $TU$ corresponds to $XY$, multiply $TU$ by the scale factor:<br/><br/>$$XY = 18 \\times 9 = 162$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

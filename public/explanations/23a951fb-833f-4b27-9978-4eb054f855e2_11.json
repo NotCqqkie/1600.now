@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_11",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the polynomials",
+      "content": "Combine the two polynomials by grouping like terms:<br/><br/>$$(3r^4 - 2r) + (3r^4 + 6r + 5)$$<br/>$$= (3r^4 + 3r^4) + (-2r + 6r) + 5$$<br/>$$= 6r^4 + 4r + 5$$"
+    },
+    {
+      "title": "Identify the coefficient b",
+      "content": "The sum is in the form $ar^4 + br + c$ where $a = 6$, $b = 4$, and $c = 5$. Therefore, $b = 4$."
+    }
+  ]
+}

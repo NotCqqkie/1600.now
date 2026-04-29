@@ -1,0 +1,16 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_14",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the standard form of a circle equation",
+      "content": "The given equation $(x + 4)^2 + (y + 8)^2 = 169$ matches the standard form $(x - h)^2 + (y - k)^2 = r^2$. In this form, the right side always equals $r^2$, so we can immediately identify that $r^2 = 169$.",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+    },
+    {
+      "title": "Solve for the radius",
+      "content": "Take the square root of both sides to isolate $r$: $$r = \\sqrt{169} = 13$$"
+    }
+  ]
+}

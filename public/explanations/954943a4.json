@@ -1,0 +1,15 @@
+{
+  "questionId": "954943a4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the percentage per serving",
+      "content": "One serving provides 180 mg of potassium, and the problem states this is 5% of an adult's daily allowance. Therefore, one serving contributes 5% toward the daily requirement."
+    },
+    {
+      "title": "Scale the percentage for x servings",
+      "content": "Since one serving provides 5% of the daily allowance, $x$ servings provide: $$p = 5x$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

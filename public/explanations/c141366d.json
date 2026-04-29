@@ -1,0 +1,15 @@
+{
+  "questionId": "c141366d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the shape as linear",
+      "content": "The graph displays a straight line, not a curve. Linear functions have constant rate of change and form straight lines, while exponential functions form curves. Since the graph is straight, the function must be linear. This eliminates options C and D (both exponential)."
+    },
+    {
+      "title": "Determine the direction",
+      "content": "Reading the graph from left to right, as x increases, the y-values increase as well. The line rises upward from lower-left to upper-right. This indicates the function is increasing, not decreasing, which eliminates choice B.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "12013e06",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure",
+      "content": "The phrase \u201cassuming solar panel installers' cooperation\u201d is set off parenthetically. The opening dash appears after \u201cthat\u2014\u201d (before \u201cassuming\u201d). The punctuation after \u201ccooperation\u201d must close this parenthetical insertion, leaving \u201cthis practice has the potential to increase\u2026\u201d as the main clause."
+    },
+    {
+      "title": "Apply the paired-dash rule",
+      "content": "A dash correctly closes the parenthetical phrase, completing the pair. The rule is: dashes work in pairs to set off parenthetical or introductory elements. A comma (A) doesn't properly mark the end of a parenthetical insertion; a colon (C) would incorrectly introduce an elaboration; and no punctuation (D) leaves the parenthetical unclosed. This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

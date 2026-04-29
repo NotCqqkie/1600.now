@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast signal",
+      "content": "The passage sets up a contrast with the word \u201cbut\u201d after stating the proposal, indicating that the data will show the opposite.<br/>The key signal is the phrase \u201cbut data \u2026 show that this is not the case; for example,\u201d which tells us we need a counterexample."
+    },
+    {
+      "title": "Match the counterexample to the data",
+      "content": "Choice A notes that HEA 7 and HEA 95 have the same cobalt proportion; if the table shows their fracture toughness differs, this directly contradicts the idea that toughness rises with cobalt content.<br/>The other choices either describe differing cobalt proportions that could still support the proposal or make claims not borne out by the table.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

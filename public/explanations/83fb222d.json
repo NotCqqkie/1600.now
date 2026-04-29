@@ -1,0 +1,15 @@
+{
+  "questionId": "83fb222d",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for n by dividing both sides by 6",
+      "content": "Starting with $6n = 12$, divide both sides by 6 to isolate $n$:<br/><br/>$$n = \\frac{12}{6} = 2$$"
+    },
+    {
+      "title": "Calculate n + 4",
+      "content": "With $n = 2$, substitute into the expression $n + 4$:<br/><br/>$$n + 4 = 2 + 4 = 6$$"
+    }
+  ]
+}

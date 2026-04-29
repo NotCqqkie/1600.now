@@ -1,0 +1,15 @@
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical rule change",
+      "content": "The key signal is the difference between the old rule (\u201cdo not individually <strong>or cumulatively</strong> have a significant effect\u201d) and the new rule (\u201cnormally do not have a significant effect\u201d). The old rule explicitly required that actions have no significant effects in either way; the new rule drops the specific mention of cumulative impacts."
+    },
+    {
+      "title": "Match to why environmentalists object",
+      "content": "The 2020 revision now allows actions with minimal individual effects to qualify for expedited CE reviews, even if combining them with similar actions creates significant cumulative harm\u2014something the old rule blocked. Environmentalists oppose this because fast-tracked reviews bypass public scrutiny of collectively damaging projects. The other choices either import irrelevant factors (highway demand), misstate the direction of change (claiming new rules are stricter), or make logical errors (claiming more exclusions create fewer and slower reviews). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

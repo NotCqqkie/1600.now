@@ -1,0 +1,15 @@
+{
+  "questionId": "f5a00eff",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the signal",
+      "content": "The contrast word <strong>however</strong> signals that the model's prediction is contradicted by observations. The following sentence must explain this contradiction."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>Hence</strong> directly introduces a logical consequence or explanation. The observation that siderophiles are abundant contradicts the model's prediction, so the extraterrestrial material explanation logically accounts for this discrepancy. The other choices don't convey cause-and-effect reasoning: they either acknowledge a point, introduce an example, or suggest a parallel.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

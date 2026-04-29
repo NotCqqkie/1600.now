@@ -1,0 +1,15 @@
+{
+  "questionId": "f30a478e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the elaborating relationship",
+      "content": "The key signal: \u201ccontinents\u201d is immediately followed by \u201cgeological structures called arcs\u201d \u2014 a more specific description that elaborates on what continents are in this geological context."
+    },
+    {
+      "title": "Use a colon to mark elaboration",
+      "content": "A colon introduces a phrase that elaborates on or clarifies the preceding noun. \u201cGeological structures called arcs\u201d elaborates on \u201ccontinents,\u201d requiring a colon.<br/><br/>No punctuation (A) fails to mark the relationship; a semicolon (C) and period (D) require independent clauses or sentence boundaries that aren't present.<br/><br/>This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

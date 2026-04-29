@@ -1,0 +1,15 @@
+{
+  "questionId": "a872c60a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the independent clauses at the boundary",
+      "content": "The sentence contains two independent clauses requiring proper separation. The first is: <strong>\u201cThe pedagogy of the Suzuki method is rooted in several central [noun].\u201d</strong> The second is: <strong>\u201cThe method emphasizes playing instruments from a very young age and teaches students as young as three to play simple classical pieces.\u201d</strong>"
+    },
+    {
+      "title": "Apply the rule for sentence boundaries",
+      "content": "Two independent clauses cannot be separated by a comma alone; they require a period or semicolon. Choice A correctly uses a period after \u201ctenets,\u201d ending the first clause and allowing the second sentence to begin with \u201cDeveloped by Japanese violinist Shinichi Suzuki, who sought to parallel the linguistic learning environment,\u201d \u2014 a participial phrase that modifies \u201cthe method.\u201d Choices B and D create comma splices by leaving only a comma between the relative clause and the following independent clause; choice C produces ungrammatical syntax. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

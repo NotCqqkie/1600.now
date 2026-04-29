@@ -1,0 +1,15 @@
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key pattern from the research",
+      "content": "The researchers found that for a recording both a musician and nonmusician identified as favorite, the optimal listening volume was higher for the musician than the nonmusician."
+    },
+    {
+      "title": "Apply to the Metallica example",
+      "content": "The musician's optimal for \u201cSad but True\u201d is 85.5 decibels, so the nonmusician's optimal must be lower. At 85.5 decibels, the nonmusician is above their optimal volume and would find it more enjoyable at a lower volume\u2014exactly what choice D states. The other choices either reference different recordings not compared or overstate the finding to claim the nonmusician can't enjoy this volume. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

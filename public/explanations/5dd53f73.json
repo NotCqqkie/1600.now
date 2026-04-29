@@ -1,0 +1,15 @@
+{
+  "questionId": "5dd53f73",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the common factor in both terms",
+      "content": "Both $34x$ and $34y$ share 34 as a common factor."
+    },
+    {
+      "title": "Factor out 34",
+      "content": "Factor 34 from both terms:\n$$34x + 34y = 34(x + y)$$\nThat matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "aaddd60f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key contradiction",
+      "content": "The passage establishes a key constraint: a basaltic surface would be unlikely to contain high silica. Yet Payr\u00e9's data reveals exactly that\u2014high silica detected on Mars. This incompatibility between expected composition (basalt alone) and observed composition (basalt plus silica) demands resolution."
+    },
+    {
+      "title": "Determine the only possible conclusion",
+      "content": "Since the magma-ocean-cooling theory cannot explain the silica, additional processes must have formed the crust. D states this directly. A questions the reliability of silica data (contradicting Payr\u00e9's use of it), B makes an irrelevant comparison to other planets, and C makes an unjustified leap to Earth's geology. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

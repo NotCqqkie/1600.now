@@ -1,0 +1,15 @@
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_5",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the given function at x = 2",
+      "content": "To find \\( f(2) \\), substitute <em>x</em> with 2 in the provided formula:$$f(x) = x^3 + 19.$$Substituting, we get $$f(2) = 2^3 + 19.$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Calculate \\( 2^3 \\), which equals 8:$$8 + 19.$$Now, adding these values together yields <strong>B</strong> is correct."
+    }
+  ]
+}

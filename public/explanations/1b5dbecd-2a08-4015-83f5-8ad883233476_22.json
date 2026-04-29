@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause-and-effect signal",
+      "content": "The passage states Rogerson's 2015 calculation was more accurate, then immediately introduces the reason\u2014the 1920 calculation used only cardboard and string. The transition must link the outcome to its cause."
+    },
+    {
+      "title": "Match the transition to the choices",
+      "content": "'Of course' signals that what follows explains the accuracy gap. The others suggest equivalence where there's contrast, introduce non-existent purpose, or misframe the relationship as a conclusion.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

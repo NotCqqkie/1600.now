@@ -1,0 +1,15 @@
+{
+  "questionId": "e9841407",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the ratio",
+      "content": "The problem asks for the ratio of red cards to blue cards.<br/>Shaquan has 7 red cards and 28 blue cards.<br/>The ratio is 7 to 28."
+    },
+    {
+      "title": "Simplify the ratio",
+      "content": "Find the greatest common divisor (GCD) of 7 and 28. Notice that $28 = 7 \\times 4$, so 7 is a common factor.<br/>Divide both parts by 7:<br/>$$\\frac{7 \\div 7}{28 \\div 7} = \\frac{1}{4}$$<br/>The simplified ratio is 1 to 4. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

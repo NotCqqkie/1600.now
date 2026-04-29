@@ -1,0 +1,15 @@
+{
+  "questionId": "50338a48",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Looking at $15w^2 + 8w$, both terms contain $w$ as a factor:<br/><ul><li>$15w^2 = w \\cdot 15w$</li><li>$8w = w \\cdot 8$</li></ul>The greatest common factor is $w$."
+    },
+    {
+      "title": "Factor out and identify the answer",
+      "content": "Factor $w$ from both terms:<br/>$$15w^2 + 8w = w(15w + 8)$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

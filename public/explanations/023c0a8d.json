@@ -1,0 +1,15 @@
+{
+  "questionId": "023c0a8d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up a substitution to apply the functional equation",
+      "content": "We're given $f(3x) = x - 6$ and need to find $f(6)$. Since the left side of the equation has input $3x$, we need to find the value of $x$ that makes $3x = 6$ so we can evaluate the function at that point. Solving $3x = 6$ gives $x = 2$."
+    },
+    {
+      "title": "Substitute and evaluate",
+      "content": "Substituting $x = 2$ into the functional equation $f(3x) = x - 6$: $$f(6) = f(3 \\cdot 2) = 2 - 6 = -4$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

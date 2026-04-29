@@ -1,0 +1,19 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the total cost expression",
+      "content": "Cans cost 1.87 each and bags of treats cost 2.37 each. If we buy $c$ cans and $t$ bags, the total cost is: $$1.87c + 2.37t$$"
+    },
+    {
+      "title": "Determine the inequality constraint",
+      "content": "The shopper has 20 to spend. The phrase <em>can buy</em> means items purchased must fall within the budget. The total cost cannot exceed 20, so we need: $$1.87c + 2.37t \\leq 20$$"
+    },
+    {
+      "title": "Match to the answer choice",
+      "content": "The inequality we derived has 1.87 as the coefficient of $c$ and 2.37 as the coefficient of $t$, with a $\\leq$ constraint. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

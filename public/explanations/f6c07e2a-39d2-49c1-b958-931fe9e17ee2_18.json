@@ -1,0 +1,19 @@
+{
+  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_18",
+  "correctAnswer": "8/5,1.6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the elimination shortcut",
+      "content": "Notice that the coefficient of $x$ in equation (2) is exactly double the coefficient in equation (1): $10 = 2 \\times 5$. This is the fastest path \u2014 after multiplying equation (1) by 2, subtract equation (2) to eliminate $x$."
+    },
+    {
+      "title": "Eliminate x and solve for y",
+      "content": "Multiply equation (1) by 2:<br/>$$10x + 28y = 64$$<br/>Subtract equation (2):<br/>$$(10x + 28y) - (10x + 7y) = 64 - 22$$<br/>$$21y = 42$$<br/>$$y = 2$$"
+    },
+    {
+      "title": "Substitute to find x and compute xy",
+      "content": "Substitute $y = 2$ into equation (1):<br/>$$5x + 14(2) = 32$$<br/>$$5x + 28 = 32$$<br/>$$5x = 4$$<br/>$$x = \\frac{4}{5}$$<br/><br/>Therefore:<br/>$$xy = \\frac{4}{5} \\cdot 2 = \\frac{8}{5}$$"
+    }
+  ]
+}

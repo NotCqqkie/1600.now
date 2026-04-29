@@ -1,0 +1,15 @@
+{
+  "questionId": "188f7e3c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "\u201dBy reducing the runoff flowing into city sewers,\u201d is a participial phrase (dependent modifier). The blank requires a complete independent clause as the main clause of the sentence."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "The rule is that a participial phrase's action must be performed by the subject of the main clause that follows. Choice B correctly uses \u201cthe bioswales\u201d as the subject\u2014they perform the reducing. Choices A, C, and D use \u201cmitigation\u201d or \u201cflooding and pollution\u201d as subjects, but neither logically performs the action of reducing. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

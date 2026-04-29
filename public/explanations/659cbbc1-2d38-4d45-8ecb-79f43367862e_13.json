@@ -1,0 +1,19 @@
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the outer rectangle dimensions",
+      "content": "Since the concrete path is x feet wide on all sides, it adds x feet in each direction. The outer rectangle has dimensions:<br/><ul><li>Length: 21 + 2x feet</li><li>Width: 11 + 2x feet</li></ul>"
+    },
+    {
+      "title": "Set up and expand the area equation",
+      "content": "The path area equals the outer rectangle area minus the pool area:<br/>$$(21 + 2x)(11 + 2x) - 231 = 144$$<br/>Expand the left side:<br/>$$231 + 42x + 22x + 4x^2 - 231 = 144$$<br/>Simplify:<br/>$$4x^2 + 64x = 144$$<br/>Divide by 4:<br/>$$x^2 + 16x - 36 = 0$$"
+    },
+    {
+      "title": "Factor and solve",
+      "content": "The quadratic $x^2 + 16x - 36 = 0$ factors as $(x - 2)(x + 18) = 0$. This gives $x = 2$ or $x = -18$. Since $x$ represents a width, we need $x > 0$, so $x = 2$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

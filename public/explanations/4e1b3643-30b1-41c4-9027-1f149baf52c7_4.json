@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope from table points",
+      "content": "Using any two points from the table, apply the slope formula. If the points are $(0, 20)$ and $(1, 21)$:<br/>$$m = \\frac{21 - 20}{1 - 0} = 1$$The slope is 1. Checking the answer choices: A has slope 20, B and C have slope 22, and D has slope 1. Only choice D matches."
+    },
+    {
+      "title": "Find the y-intercept and identify the answer",
+      "content": "Using any table point with the slope $m = 1$. If the point $(0, 20)$ is in the table:<br/>$$20 = 1(0) + b$$$$b = 20$$The equation is $y = x + 20$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

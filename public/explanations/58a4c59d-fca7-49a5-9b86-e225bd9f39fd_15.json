@@ -1,0 +1,15 @@
+{
+  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast between expected and actual scope",
+      "content": "Researchers expected ultrasonic defense to be exclusive to tiger moths, hawkmoths, and one geometer species. The study found it in 52 genera, including several geometer genera not previously documented as having this defense.<br/><br/>This expansion reveals the phenomenon is more widespread than anticipated."
+    },
+    {
+      "title": "Apply the finding to the choices",
+      "content": "When something thought to be rare in just a few groups turns out to exist across 52 genera, the clear implication is that the phenomenon is more prevalent than researchers previously knew\u2014exactly what choice A states.<br/><br/>Choices B and D introduce unsupported concepts, and choice C speculates about unnamed genera without evidence.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

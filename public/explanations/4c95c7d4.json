@@ -1,0 +1,19 @@
+{
+  "questionId": "4c95c7d4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the side length from the perimeter constraint",
+      "content": "The trapezoid is formed by three congruent equilateral triangles: two pointing upward (shaded) at the bottom corners, and one pointing downward (unshaded) in the middle. Let each equilateral triangle have side length $s$.<br/><br/>The trapezoid's perimeter consists of:<ul><li>Bottom edge: $2s$ (spanning the bases of both upward triangles)</li><li>Left edge: $s$ (left side of the left triangle)</li><li>Top edge: $s$ (the span between the two upward peaks)</li><li>Right edge: $s$ (right side of the right triangle)</li></ul>Therefore:<br/>$$5s = 20$$<br/>$$s = 4 \\text{ cm}$$"
+    },
+    {
+      "title": "Calculate the area of one equilateral triangle",
+      "content": "The area formula for an equilateral triangle with side length $s$ is:<br/>$$A = \\frac{s^2\\sqrt{3}}{4}$$<br/>Substituting $s = 4$:<br/>$$A = \\frac{16\\sqrt{3}}{4} = 4\\sqrt{3} \\text{ cm}^2$$"
+    },
+    {
+      "title": "Find the combined area of the two shaded regions",
+      "content": "The two shaded triangles (left and right) are congruent equilateral triangles. Their combined area is:<br/>$$2 \\times 4\\sqrt{3} = 8\\sqrt{3} \\text{ cm}^2$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

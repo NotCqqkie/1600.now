@@ -1,0 +1,20 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square for both variables",
+      "content": "Starting with $x^2-16x+y^2-10y-55=0$, complete the square for each variable.<br/><br/>For $x$: $x^2 - 16x = (x-8)^2 - 64$<br/>For $y$: $y^2 - 10y = (y-5)^2 - 25$<br/><br/>Substitute back into the original equation:<br/>$$(x-8)^2 - 64 + (y-5)^2 - 25 - 55 = 0$$<br/>$$(x-8)^2 + (y-5)^2 = 144$$<br/><br/>This is the standard form of a circle with center $(8, 5)$ and radius $r = \\sqrt{144} = 12$.",
+      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
+    },
+    {
+      "title": "Use the inscribed circle property",
+      "content": "When a circle is inscribed in a square, it touches all four sides of the square. This means the diameter of the circle equals the side length of the square.<br/><br/>The diameter is $2r = 2(12) = 24$, so the square has a side length of 24."
+    },
+    {
+      "title": "Calculate the perimeter",
+      "content": "The perimeter of a square with side length 24 is:<br/>$$\\text{Perimeter} = 4 \\times 24 = 96$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

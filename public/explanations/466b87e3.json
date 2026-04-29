@@ -1,0 +1,15 @@
+{
+  "questionId": "466b87e3",
+  "correctAnswer": "$\\frac{1}{2}$",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what no solution means",
+      "content": "A system of linear equations has no solution when the two lines are parallel. Parallel lines have equal slopes but different y-intercepts, so they never intersect."
+    },
+    {
+      "title": "Compare slopes to find c",
+      "content": "Both equations are in slope-intercept form $y = mx + b$:<br/><br/>First equation: $y = \\frac{1}{2}x + 8$ has slope $\\frac{1}{2}$<br/><br/>Second equation: $y = cx + 10$ has slope $c$<br/><br/>For the lines to be parallel, their slopes must be equal:<br/>$$\\frac{1}{2} = c$$"
+    }
+  ]
+}

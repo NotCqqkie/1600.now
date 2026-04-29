@@ -1,0 +1,21 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_7",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for n",
+      "content": "To find the value of <em>n</em>, start by solving the given equation: $$7n = 14$$ Dividing both sides by 7 gives us $$n = \\frac{14}{7} = 2$$ Now that we know <em>n</em> is 2, we can move to find the value of $n + 5$.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Calculate n + 5",
+      "content": "Substituting <em>n</em> = 2 into the expression $n + 5$, we get: $$2 + 5$$ This simplifies to $$7$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

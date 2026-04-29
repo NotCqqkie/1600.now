@@ -1,0 +1,15 @@
+{
+  "questionId": "db3ad406",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The goal is to explain what a quenched galaxy is. To accomplish this, the choice must provide a direct definition of what characterizes a quenched galaxy."
+    },
+    {
+      "title": "Apply the goal to each choice",
+      "content": "Choice C directly provides the definition: \u201ca quenched galaxy is one that no longer forms stars,\u201d incorporating both the core definition and the poststarburst phase context. The others either describe starburst galaxies before or during the quenching process (A and D) or mention the poststarburst phase without defining a quenched galaxy itself (B). This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

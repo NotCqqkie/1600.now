@@ -1,0 +1,15 @@
+{
+  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the discriminant condition for multiple solutions",
+      "content": "For the quadratic equation $88x^2 + bx + c = 0$ to have <strong>more than one real solution</strong>, it must have two distinct real solutions. This happens when the discriminant is <strong>positive</strong>.<br/><br/>The discriminant is:<br/>$$\\Delta = b^2 - 4ac$$<br/><br/>We need: $\\Delta > 0$"
+    },
+    {
+      "title": "Apply the discriminant inequality and solve for b in terms of c",
+      "content": "Substitute $a = 88$ into the discriminant inequality:<br/>$$b^2 - 4(88)c > 0$$<br/>$$b^2 - 352c > 0$$<br/>$$b^2 > 352c$$<br/><br/>Since $b$ is positive, we can take the square root of both sides without flipping the inequality:<br/>$$b > \\sqrt{352c}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

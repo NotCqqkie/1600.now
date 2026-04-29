@@ -1,0 +1,11 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_7",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the equations to find 4x directly",
+      "content": "Both equations have $7y$ on the right side. Subtracting the second from the first eliminates $y$:<br/>$$(2x) - (-2x) = (9 + 7y) - (3 + 7y)$$<br/>$$4x = 6$$"
+    }
+  ]
+}

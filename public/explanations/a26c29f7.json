@@ -1,0 +1,15 @@
+{
+  "questionId": "a26c29f7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand vertical shift",
+      "content": "When a graph shifts DOWN by $k$ units, the function value decreases by $k$. So shifting $y = f(x)$ down 2 units gives:<br/>$$g(x) = f(x) - 2$$"
+    },
+    {
+      "title": "Apply the transformation",
+      "content": "Substitute $f(x) = 7x^3$:<br/>$$g(x) = 7x^3 - 2$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

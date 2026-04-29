@@ -1,0 +1,15 @@
+{
+  "questionId": "388b45aa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the locational cue",
+      "content": "The first sentence ends with \u201csent to the International Bureau of Weights and Measures (BIPM) in France.\u201d The transition must show where the next action in the process occurs."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "\u201dThere\u201d completes the process flow: readings are sent to France, and there the metrologists assemble them. \u201cIn particular\u201d and \u201cFor example\u201d inappropriately introduce specificity rather than sequence, while \u201cConversely\u201d falsely implies contrast. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

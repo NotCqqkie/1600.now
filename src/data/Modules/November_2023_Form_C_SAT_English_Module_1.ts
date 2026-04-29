@@ -578,40 +578,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "c54d1c21-6311-4c45-9089-a236778df0e9_17",
-    "testName": "November 2023 Form C SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRound Rock Chapter is one of the 110 chapters of the Navajo Nation (*Naabeeho Binahasdzo*). The chapter, known as *Tse Nikani* in the Navajo language (*Dine bizaad*), was the subject of a profile ______ in the *Navajo Times* on February 13, 2014.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "appeared"
-      },
-      {
-        "id": "B",
-        "text": "appearing"
-      },
-      {
-        "id": "C",
-        "text": "appears"
-      },
-      {
-        "id": "D",
-        "text": "has appeared"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase “the activists” the subject of the sentence and places it immediately after the modifying phrase “after...legislation.” In doing so, this choice clearly establishes that the activists—and not another noun in the sentence—were pleading for the passage of antidiscrimination legislation.\nChoice A is incorrect because it results in a dangling modifier. The placement of the noun phrase “pressure on lawmakers” immediately after the modifying phrase illogically suggests that the “pressure” was pleading for the passage of antidiscrimination legislation. Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase “a sit-in protest” immediately after the modifying phrase illogically suggests that the “protest” was pleading for the passage of antidiscrimination legislation. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase “lawmakers” immediately after the modifying phrase suggests that “lawmakers” were pleading for the passage of antidiscrimination legislation. While it’s possible for lawmakers to plead for the passage of legislation, the context strongly suggests that it’s the activists who pleaded for years for the passage of antidiscrimination legislation.",
+      "id": "6f08641e",
+      "testName": "SAT Question Bank",
+      "text": "On April 5, 1977, Kitty Cone and 150 other disability rights activists entered a San Francisco federal building. After pleading for years—to no effect—for the passage of key antidiscrimination legislation, ______ until their demands were addressed. Finally, on April 28, the legislation was signed. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "correctAnswer": "D",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "pressure on lawmakers increased when the activists staged a sit-in protest"
+          },
+          {
+              "id": "B",
+              "text": "a sit-in protest staged by the activists increased pressure on lawmakers"
+          },
+          {
+              "id": "C",
+              "text": "lawmakers came under increased pressure when the activists staged a sit-in protest"
+          },
+          {
+              "id": "D",
+              "text": "the activists increased pressure on lawmakers by staging a sit-in protest"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

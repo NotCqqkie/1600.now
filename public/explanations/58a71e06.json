@@ -1,0 +1,15 @@
+{
+  "questionId": "58a71e06",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percentage formula",
+      "content": "To find the percentage of size-large paper clips, use: <br/> percentage = $$\\frac{\\text{part}}{\\text{whole}} \\times 100 = \\frac{234,000}{300,000} \\times 100$$"
+    },
+    {
+      "title": "Simplify and calculate",
+      "content": "Cancel three zeros from both numerator and denominator: <br/> $$\\frac{234,000}{300,000} = \\frac{234}{300}$$ <br/> Next, divide both by 3: <br/> $$\\frac{234}{300} = \\frac{78}{100} = 78\\%$$ <br/> That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "<strong>Relatively few of these particles are likely to reach Earth's surface</strong> is an independent clause. The word <strong>since</strong> introduces a dependent clause. The word <strong>however</strong> must be positioned between them."
+    },
+    {
+      "title": "Apply the punctuation rule for parenthetical interrupters",
+      "content": "Parenthetical words are set off by commas on both sides. D correctly marks \u201chowever\u201d as parenthetical with \u201csurface, however,\u201d: \u201cRelatively few particles reach Earth's surface, however, since the meteoroids' compression... causes the vast majority to burn up.\u201d A creates a fragment (\u201cHowever, since...\u201d alone is incomplete), B misplaces a semicolon, and C uses a malformed comma-semicolon pattern. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

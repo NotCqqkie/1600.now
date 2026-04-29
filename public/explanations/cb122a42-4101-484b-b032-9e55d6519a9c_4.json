@@ -1,0 +1,15 @@
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "The passage sets up a pattern: the Nobel Prize is <em>often</em> given to \u201ca single person,\u201d then pivots with <em>But</em>, signaling that recognition isn't restricted to one type of individual. The following <em>Instead</em> reinforces this by emphasizing that success is <em>usually achieved through collaboration</em>. The blank must name what kind of individuals the passage is moving away from."
+    },
+    {
+      "title": "Apply the contrast",
+      "content": "<strong>Solitary</strong> names individuals working alone\u2014the direct opposite of collaboration. The sentence \u201crecognition isn't restricted to solitary individuals\u201d means the prize extends beyond isolated work to collaborative achievement, matching the pivot. The other three either contradict the needed contrast (coordinated) or are contextually unrelated (considerate, coincidental). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

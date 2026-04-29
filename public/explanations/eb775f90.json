@@ -1,0 +1,15 @@
+{
+  "questionId": "eb775f90",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the endpoint values and their trend",
+      "content": "In 1910, 123,990 cars were produced by 320 companies. In 1925, 3,185,881 cars were produced by 80 companies. The key signal: production soared while the number of companies plummeted."
+    },
+    {
+      "title": "Recognize the inverse relationship in the choices",
+      "content": "Choice A correctly captures both movements: increased production alongside decreased companies. Choices B, C, and D contradict the data\u2014claiming no change (B), declining cars (C), or companies rising (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

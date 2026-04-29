@@ -1,0 +1,16 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to standard form",
+      "content": "Move all terms to one side of the equation. Starting with $x^2 + 13x = -9$, add 9 to both sides: $$x^2 + 13x + 9 = 0$$ Now we can identify the coefficients: $a = 1$, $b = 13$, $c = 9$."
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "Use the quadratic formula to solve for $x$. First, calculate the discriminant: $$b^2 - 4ac = 13^2 - 4(1)(9) = 169 - 36 = 133$$ Now substitute all values: $$x = \\frac{-13 \\pm \\sqrt{133}}{2(1)} = \\frac{-13 \\pm \\sqrt{133}}{2}$$ That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+    }
+  ]
+}

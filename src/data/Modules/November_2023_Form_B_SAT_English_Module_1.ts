@@ -614,40 +614,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Form, Structure, and Sense",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "d007aa6c-6fd8-4005-bd58-dc779c145226_18",
-    "testName": "November 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThoreau Chapter is one of the 110 chapters of the Navajo Nation (Naabeehó Bináhásdzó). The chapter, known as *Dioi Yachi* in the Navajo language (Dine bizaad), was the subject of a profile ______ in the *Navajo Times* on May 8, 2014.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "appearing"
-      },
-      {
-        "id": "B",
-        "text": "appears"
-      },
-      {
-        "id": "C",
-        "text": "has appeared"
-      },
-      {
-        "id": "D",
-        "text": "appeared"
-      }
-    ],
-    "correctAnswer": "A",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Standard English Conventions",
       "skill": "Form, Structure, and Sense",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice D is the best answer. The conventions being tested are the use of possessive nouns and the use of possessive determiners. The singular possessive noun \"phrase’s\" correctly indicates that there is only one simple phrase. The singular possessive determiner \"its\" agrees in number with the singular possessive noun \"phrase’s,\" reinforcing the idea that there is only one simple yet complex phrase.\nChoice A is incorrect because the context requires the singular possessive noun \"phrase’s,\" not the plural possessive noun \"phrases’.\" Choice B is incorrect because the context requires the singular possessive noun \"phrase’s\" and the corresponding singular possessive determiner \"its,\" not the plural noun \"phrases\" and the corresponding plural possessive determiner \"their.\" Choice C is incorrect because the context requires the singular possessive determiner \"its,\" not the plural possessive determiner \"their.\"",
+      "id": "2c49940e",
+      "testName": "SAT Question Bank",
+      "text": "French philosopher René Descartes doubted whether he could prove his own existence. Eventually, he found proof in his famous phrase “I think, therefore I am.” The ______ complexity: only those who exist would be able to ponder their existence. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "correctAnswer": "D",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "phrases’ simplicity masks its"
+          },
+          {
+              "id": "B",
+              "text": "phrases simplicity masks their"
+          },
+          {
+              "id": "C",
+              "text": "phrase’s simplicity masks their"
+          },
+          {
+              "id": "D",
+              "text": "phrase’s simplicity masks its"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

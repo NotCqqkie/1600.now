@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the explicit goal",
+      "content": "The prompt directly states the objective: the student wants to specify Tristan Otto's location. This is the decisive signal for evaluating all four choices."
+    },
+    {
+      "title": "Find which choice directly accomplishes the goal",
+      "content": "Choice B directly accomplishes the goal by stating both where Tristan Otto is displayed (the Natural History Museum) and the museum's geographic location (Berlin, Germany).<br/>The others either omit location (A on taxonomy, D on time period) or mention it without clearly identifying Tristan Otto's location (C discusses an unnamed specimen).<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

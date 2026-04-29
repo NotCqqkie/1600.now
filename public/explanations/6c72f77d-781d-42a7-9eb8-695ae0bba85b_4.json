@@ -1,0 +1,15 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by y to isolate x",
+      "content": "Starting with $b - 72 = \\frac{x}{y}$, multiply both sides by $y$ to eliminate the denominator:<br/><br/>$$y(b - 72) = x$$"
+    },
+    {
+      "title": "Expand to express x in terms of b and y",
+      "content": "Distribute $y$ on the left side:<br/><br/>$$x = by - 72y$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

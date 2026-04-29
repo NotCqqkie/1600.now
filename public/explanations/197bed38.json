@@ -1,0 +1,15 @@
+{
+  "questionId": "197bed38",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex from the graph",
+      "content": "The parabola reaches its peak at $x = 2$, which is the vertex. For a downward-opening parabola, the graph increases to the left of the vertex and decreases to the right of the vertex."
+    },
+    {
+      "title": "Check which interval is entirely in the increasing region",
+      "content": "<ul><li><strong>A (0 to 2):</strong> Entirely to the left of the vertex\u2014the graph is increasing throughout.</li><li><strong>B (0 to 4):</strong> Crosses the vertex at $x = 2$, so it includes decreasing values.</li><li><strong>C & D:</strong> Both start at or after the vertex, entirely in the decreasing region.</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

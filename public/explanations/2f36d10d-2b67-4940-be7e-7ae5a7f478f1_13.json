@@ -1,0 +1,15 @@
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the example must show",
+      "content": "The passage emphasizes <strong>\u201cwithin-species variations\u201d</strong> \u2014 changes in population size for a <em>single</em> species over time, not comparisons between different species. The example must illustrate one species fluctuating significantly."
+    },
+    {
+      "title": "Match the graph data to this requirement",
+      "content": "Reading the graph, the Indo-Pacific sergeant population starts at approximately 2 individuals in January 2001 and reaches 28 in October 2001 \u2014 a dramatic shift within the same species across the months. Choice B states exactly this range and directly demonstrates the within-species variation the passage describes. Choices A and C misread the graph data (striated rockskipper and Cocos frillgoby never fluctuate as described), while choice D uses \u201cwhereas\u201d to contrast rockskipper against sergeant, which illustrates <em>between</em>-species differences, not within-species variation. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

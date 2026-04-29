@@ -1,0 +1,15 @@
+{
+  "questionId": "566759ef",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the annual multiplier",
+      "content": "When the value depreciates by 20% each year, 80% of the value remains. The multiplier per year is $1 - 0.20 = 0.8$."
+    },
+    {
+      "title": "Calculate the 2-year depreciated value",
+      "content": "After 2 years, multiply the initial value by the multiplier twice: $$800 \\times (0.8)^2 = 800 \\times 0.64 = 512$$ This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

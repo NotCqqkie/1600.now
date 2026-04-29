@@ -1,0 +1,15 @@
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the generalization problem",
+      "content": "Researchers studied customers in Serbia (a developing economy) but cautioned against applying findings to customers generally. The warning signals that a finding from one economic context cannot be assumed to apply broadly."
+    },
+    {
+      "title": "Match the answer to the concern",
+      "content": "B explains the solution: since the sample represents only one economic context, additional research with participants from countries of varying economic development is needed to determine if the pattern holds broadly. A inappropriately applies the finding to other countries, C addresses replication within Serbia, and D speculates without support. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

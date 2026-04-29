@@ -1,0 +1,15 @@
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the parallel verb structure",
+      "content": "The sentence describes the temperature using three verbs across three months: \u201cis 62.6 degrees in June,\u201d \u201c[___] to 66.6 degrees in July,\u201d and \u201cdips slightly to 62.6 degrees in August.\u201d These three verbs must be in the same tense and form."
+    },
+    {
+      "title": "Match the verb tense to complete the parallel",
+      "content": "\u201dRises\u201d is simple present, the same tense as \u201cis\u201d and \u201cdips,\u201d creating a grammatically parallel series. The other options\u2014\u201dhas risen\u201d (present perfect), \u201crising\u201d (present participle), and \u201crose\u201d (past tense)\u2014each use a different tense or form, breaking the parallel. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

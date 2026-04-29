@@ -1,0 +1,19 @@
+{
+  "questionId": "e25f0807",
+  "correctAnswer": "16.25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from the two given points",
+      "content": "Using the points from the table, $(-12, -45)$ and $(6, 45)$, apply the slope formula:<br/><br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{45 - (-45)}{6 - (-12)} = \\frac{90}{18} = 5$$"
+    },
+    {
+      "title": "Write the equation of the line",
+      "content": "Using point-slope form with point $(6, 45)$ and slope $m = 5$:<br/><br/>$$y - 45 = 5(x - 6)$$<br/>$$y = 5x + 15$$"
+    },
+    {
+      "title": "Evaluate at x = 1/4",
+      "content": "Substitute $x = \\frac{1}{4}$ into the equation $y = 5x + 15$:<br/><br/>$$a = 5 \\cdot \\frac{1}{4} + 15 = \\frac{5}{4} + 15 = \\frac{65}{4} = 16.25$$"
+    }
+  ]
+}

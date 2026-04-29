@@ -1,0 +1,23 @@
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract data from the table",
+      "content": "The table provides three points: when $x = -11$, $y = 27 + \\frac{11}{27}$; when $x = -1$, $y = 27 + \\frac{1}{27}$; when $x = 11$, $y = 27 - \\frac{11}{27}$."
+    },
+    {
+      "title": "Calculate slope using two points",
+      "content": "Use the first two points to find the slope:<br/>$$m = \\frac{\\left(27 + \\frac{1}{27}\\right) - \\left(27 + \\frac{11}{27}\\right)}{(-1) - (-11)} = \\frac{\\frac{1}{27} - \\frac{11}{27}}{10} = \\frac{-\\frac{10}{27}}{10} = -\\frac{1}{27}$$"
+    },
+    {
+      "title": "Find the linear equation",
+      "content": "Using point-slope form with the point $\\left(-1, 27 + \\frac{1}{27}\\right)$:<br/>$$y - \\left(27 + \\frac{1}{27}\\right) = -\\frac{1}{27}(x + 1)$$<br/>$$y = -\\frac{1}{27}x - \\frac{1}{27} + 27 + \\frac{1}{27}$$<br/>$$y = -\\frac{1}{27}x + 27$$"
+    },
+    {
+      "title": "Find the x-intercept",
+      "content": "Set $y = 0$ and solve for $x$:<br/>$$0 = -\\frac{1}{27}x + 27$$<br/>$$\\frac{1}{27}x = 27$$<br/>$$x = 27 \\times 27 = 729$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

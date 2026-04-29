@@ -1,0 +1,19 @@
+{
+  "questionId": "6c9444cd",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the minimum and maximum from each box plot",
+      "content": "The range of a dataset is the difference between its maximum and minimum values. Reading the whiskers (the endpoints of each box plot):<br/><br/>Class A: minimum \u2248 2, maximum \u2248 10<br/>Class B: minimum \u2248 0, maximum \u2248 12"
+    },
+    {
+      "title": "Calculate the range for each class",
+      "content": "Range = maximum \u2212 minimum<br/><br/>Class A: $10 - 2 = 8$<br/>Class B: $12 - 0 = 12$"
+    },
+    {
+      "title": "Find the positive difference between the ranges",
+      "content": "Positive difference $= |8 - 12| = 4$. That matches choice <strong>4</strong> \u2014 the answer is <strong>4</strong>."
+    }
+  ]
+}

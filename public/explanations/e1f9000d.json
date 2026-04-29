@@ -1,0 +1,15 @@
+{
+  "questionId": "e1f9000d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant b using the initial height",
+      "content": "At time $t = 0$, the object is dropped from a height of 3,364 feet. Substituting into the function:<br/>$$h(0) = -16(0)^2 + b = 3,364$$<br/>Therefore $b = 3,364$, and the complete function is:<br/>$$h(t) = -16t^2 + 3,364$$"
+    },
+    {
+      "title": "Solve for when the object hits the ground",
+      "content": "The object hits the ground when $h(t) = 0$. Set up the equation:<br/>$$-16t^2 + 3,364 = 0$$<br/>Divide both sides by $-16$:<br/>$$t^2 = \\frac{3,364}{16} = 210.25$$<br/>Take the positive square root (since time is positive):<br/>$$t = \\sqrt{210.25} = 14.50 \\text{ seconds}$$<br/>This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "db24ecc9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the series with internal punctuation",
+      "content": "The sentence names three parallel purposes (all gerund phrases): growing diverse plant species, fostering scientific research, and educating the public. The phrase <em>\u201cboth native and nonnative\u201d</em> is a clarification that must be set off by commas around <em>\u201cspecies\u201d</em>\u2014creating a comma within the first item."
+    },
+    {
+      "title": "Apply the semicolon rule for complex series",
+      "content": "When items in a series contain internal commas, semicolons (not commas) separate the items to prevent confusion between internal punctuation and item separators. Since the first gerund now reads <em>\u201cgrowing diverse plant species, both native and nonnative\u201d</em> (with an internal comma), the separator between items must be a semicolon. The structure is: [gerund 1, with internal comma]; [gerund 2]; and [gerund 3]. Choices A and D use comma separation despite the internal punctuation; choice C misplaces the semicolon before rather than after the clarifying phrase. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

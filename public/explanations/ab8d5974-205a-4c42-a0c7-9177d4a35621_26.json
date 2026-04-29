@@ -1,0 +1,15 @@
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the task's core requirement",
+      "content": "The goal is to \u201cprovide an example of a poem from <em>Morning Haiku</em>.\u201d An example demands specificity\u2014naming a particular poem and showing it belongs to that book. General information about the author's artistic choices or the book's themes does not constitute an example of a poem."
+    },
+    {
+      "title": "Evaluate which choice provides a concrete example",
+      "content": "Choice A names the specific poem \u201c5 love haiku\u201d and explicitly states it is \u201cIncluded in Sanchez's poetry book <em>Morning Haiku</em> (2010),\u201d with supporting detail about its structure. The other choices avoid naming a poem, instead explaining why Sanchez wrote in haiku, describing the book's overall themes, or using a vague reference to \u201cthe poem.\u201d That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

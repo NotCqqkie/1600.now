@@ -1,0 +1,15 @@
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the slope and y-intercept",
+      "content": "The slope $m = 69$ is given directly. The condition $f(0) = 3$ means the y-intercept $b = 3$."
+    },
+    {
+      "title": "Apply the slope-intercept form",
+      "content": "Using $y = mx + b$: $$f(x) = 69x + 3$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

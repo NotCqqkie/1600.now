@@ -1,0 +1,15 @@
+{
+  "questionId": "a95075c5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the direction of the comparison",
+      "content": "Comparing the placebo-aware group to the control group for each measure:<br/>Global improvement: 5.0 vs 3.9<br/>Symptom severity reduction: 92.00 vs 46.00<br/>Quality of life improvement: 11.4 vs 5.4<br/><br/>All three measures are higher for the placebo-aware group \u2014 a consistent upward pattern across all measures."
+    },
+    {
+      "title": "Match the pattern to the answer",
+      "content": "Choice D states the ratings \u201cwere higher for all three measures,\u201d which is exactly what the comparison shows. Since the passage defines higher ratings as greater well-being, this choice correctly indicates greater overall well-being. The other choices either reverse the direction (B), cite wrong numbers (C), or avoid comparison (A). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

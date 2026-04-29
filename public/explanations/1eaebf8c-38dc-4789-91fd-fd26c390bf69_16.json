@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "On the left: \u201cpoetic\u201d is an adjective modifying the noun that follows. On the right: noun phrases serving as list items."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "A colon introduces a list or elaboration; choice B is correct. The colon after \u201cstyle\u201d introduces what follows, while the comma between the two coordinate adjectives \u201cterse\u201d and \u201ccompressed\u201d correctly joins them. The other three choices fail: A creates an erroneous sentence boundary with a period, C uses a comma which cannot introduce a list, and D uses a semicolon before an adjective. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

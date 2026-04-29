@@ -1,0 +1,15 @@
+{
+  "questionId": "a309803e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the coverage rate",
+      "content": "One gallon of paint covers 220 square feet. Since the room's wall area is $w$ square feet and we paint it twice, the total area to paint is $2w$ square feet. Gallons needed equals total area divided by coverage per gallon:<br/>$$P = \\frac{2w}{220}$$"
+    },
+    {
+      "title": "Simplify and match to the answer choice",
+      "content": "Simplify the fraction by canceling the factor of 2:<br/>$$P = \\frac{2w}{220} = \\frac{w}{110}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

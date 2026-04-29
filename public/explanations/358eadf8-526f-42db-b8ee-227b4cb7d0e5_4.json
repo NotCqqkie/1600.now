@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \u201cmust not be left to historians alone\u201d signals that history knowledge is essential and necessary\u2014the kind of knowledge the public needs."
+    },
+    {
+      "title": "Match the answer",
+      "content": "\u201dKnowledge of history is not superfluous\u201d directly states that history is necessary, explaining why it cannot be left to experts alone. The other choices either mischaracterize what's being evaluated (learnability vs. necessity), reverse the logic (specialized vs. universal), or fail to connect to the context. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

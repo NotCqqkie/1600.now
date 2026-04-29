@@ -1,0 +1,15 @@
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the prepositional phrase structure",
+      "content": "The blank follows \u201cwith the even older Hereford map\u2026\u201d This creates a prepositional phrase. Since a prepositional phrase begins with a preposition followed by a noun phrase, any verb in the phrase must be non-finite\u2014it cannot be the main verb of a clause."
+    },
+    {
+      "title": "Apply the verb-form rule",
+      "content": "<em>Being</em> is a participle (a non-finite verb form) that correctly completes the prepositional phrase: \u201cwith the Hereford map being another one.\u201d The options <em>is</em>, <em>has been</em>, and <em>was</em> are finite verbs that cannot serve as non-finite modifiers in a prepositional phrase. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

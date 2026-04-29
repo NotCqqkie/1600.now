@@ -1,0 +1,15 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding angles from the similarity statement",
+      "content": "The statement <em>triangle CAE is similar to triangle CBD</em> specifies the vertex correspondence through the order given: $C \\leftrightarrow C$, $A \\leftrightarrow B$, $E \\leftrightarrow D$. This means that angle $CAE$ in triangle $CAE$ corresponds to angle $CBD$ in triangle $CBD$."
+    },
+    {
+      "title": "Apply the equal angles property",
+      "content": "Since corresponding angles in similar triangles are congruent: $$\\angle CAE = \\angle CBD = 57\u00b0$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

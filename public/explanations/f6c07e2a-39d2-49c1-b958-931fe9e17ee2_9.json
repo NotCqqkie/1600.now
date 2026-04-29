@@ -1,0 +1,15 @@
+{
+  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply distance = speed \u00d7 time to each segment",
+      "content": "Nicole walks at 2 mph for $w$ hours, so her walking distance is $2w$ miles. She runs at 7 mph for $r$ hours, so her running distance is $7r$ miles."
+    },
+    {
+      "title": "Add distances to get the total",
+      "content": "The sum of her walking and running distances equals the total distance traveled:<br/>$$2w + 7r = 13$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

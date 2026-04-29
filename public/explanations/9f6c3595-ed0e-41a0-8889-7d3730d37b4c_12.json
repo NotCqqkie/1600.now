@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_12",
+  "correctAnswer": "1,8,11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify x-intercepts from factored form",
+      "content": "The function $f(x) = 3(x-1)(x-8)(x-11)$ is already in factored form. <strong>X-intercepts occur where $f(x) = 0$</strong>, which means we need the product of all factors to equal zero."
+    },
+    {
+      "title": "Read the zeros from each factor",
+      "content": "When $f(x) = 0$, at least one factor must equal zero. Since the constant 3 is never zero: <br/> $$x - 1 = 0 \\Rightarrow x = 1$$ $$x - 8 = 0 \\Rightarrow x = 8$$ $$x - 11 = 0 \\Rightarrow x = 11$$ <br/> Any of these\u2014<strong>1</strong>, <strong>8</strong>, or <strong>11</strong>\u2014is an x-coordinate of an x-intercept."
+    }
+  ]
+}

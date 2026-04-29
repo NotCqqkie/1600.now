@@ -1,0 +1,24 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base side length from the area",
+      "content": "Since both pyramids have square bases with area 100 cm\u00b2, we can find the side length: $s^2 = 100$, so $s = 10$ cm. Both bases are identical, so the difference in total surface area comes entirely from the four triangular lateral faces."
+    },
+    {
+      "title": "Use the Pythagorean theorem to find the slant heights",
+      "content": "The slant height of a right square pyramid is the distance from the apex to the midpoint of a base edge. This forms a right triangle with legs: the pyramid height $h$ and the horizontal distance from the base center to the midpoint of an edge, which equals $\\frac{s}{2} = 5$ cm.<br/>For pyramid 1 (h = 11 cm):<br/>$$l_1 = \\sqrt{11^2 + 5^2} = \\sqrt{121 + 25} = \\sqrt{146} \\text{ cm}$$<br/>For pyramid 2 (h = 22 cm):<br/>$$l_2 = \\sqrt{22^2 + 5^2} = \\sqrt{484 + 25} = \\sqrt{509} \\text{ cm}$$",
+      "formula": "$$l = \\sqrt{h^2 + \\left(\\frac{s}{2}\\right)^2}$$"
+    },
+    {
+      "title": "Calculate the lateral surface area difference",
+      "content": "Each triangular face has area $\\frac{1}{2} \\cdot \\text{base} \\cdot \\text{slant height} = \\frac{1}{2} \\cdot 10 \\cdot l = 5l$. The total lateral surface area of each pyramid is $4 \\times 5l = 20l$.<br/><br/>The difference in lateral surface area is:<br/>$$20\\sqrt{509} - 20\\sqrt{146} = 20(\\sqrt{509} - \\sqrt{146})$$"
+    },
+    {
+      "title": "Evaluate numerically to find the closest answer",
+      "content": "Computing the approximate values:<br/>$\\sqrt{146} \\approx 12.08$ and $\\sqrt{509} \\approx 22.56$<br/><br/>Therefore:<br/>$$20(22.56 - 12.08) = 20 \\times 10.48 = 209.6 \\text{ cm}^2$$<br/><br/>This is closest to choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

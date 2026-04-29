@@ -1,0 +1,15 @@
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate petri dish 6 in the venom-treated column",
+      "content": "The question asks for the CFU count from petri dish 6 in the venom-treated bacteria chamber. Find row 6 in the first column, then read the value in the rightmost column labeled \u201cCFUs after treatment with venom.\u201d"
+    },
+    {
+      "title": "Read the value and eliminate the other choices",
+      "content": "The table shows 153 CFUs for petri dish 6 in the venom column \u2014 choice A. The other values don't appear in this row; they either aren't in the table at all or belong to different rows or the saline column. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the annual decay factor",
+      "content": "In $f(x) = 7,020(0.28)^{\\frac{x}{12}}$, the exponent $\\frac{x}{12}$ converts months to years. The base 0.28 is the year-over-year multiplication factor."
+    },
+    {
+      "title": "Apply the decay formula to solve for p",
+      "content": "A yearly decrease of $p\\%$ means the value is multiplied by $(1 - \\frac{p}{100})$ each year. Setting this equal to the decay factor:<br/><br/>$$1 - \\frac{p}{100} = 0.28$$<br/><br/>$$\\frac{p}{100} = 0.72$$<br/><br/>$$p = 72$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

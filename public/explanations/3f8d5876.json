@@ -1,0 +1,15 @@
+{
+  "questionId": "3f8d5876",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the intersection point on the graph",
+      "content": "The solution to this system is the point where the line and parabola meet. Examining the graph, these two curves intersect at exactly one point."
+    },
+    {
+      "title": "Read the coordinates from the grid",
+      "content": "From the intersection point, the $x$-coordinate is 4 and the $y$-coordinate is 5. The solution is $(4, 5)$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

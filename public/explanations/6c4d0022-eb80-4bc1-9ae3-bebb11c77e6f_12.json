@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the example must demonstrate",
+      "content": "The passage claims there's a trend toward more women on high courts in 2010 compared to 1980, and notes that none had more than 2 in 1980. The blank must provide evidence of this upward trend by citing 2010 data from the graph."
+    },
+    {
+      "title": "Match the data to the choices",
+      "content": "Reading from the graph for 2010: Sri Lanka = 3, Philippines = 3, Mexico = 2. Choice C states that Sri Lanka's increase from 1980 to 2010 was greater than either Mexico's (0 increase: 2\u21922) or Philippines' (2 increase: 1\u21923). This accurately represents the data\u2014Sri Lanka increased by 3 (0\u21923)\u2014and directly supports the passage's claim of an upward trend. Choices A, B, and D either misread the 2010 values or describe volatility patterns unrelated to the main trend. <br><br>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

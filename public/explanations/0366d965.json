@@ -1,0 +1,15 @@
+{
+  "questionId": "0366d965",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find k using the slope formula",
+      "content": "All three points lie on a line with slope 2. Using points (3, 7) and (k, 11):<br><br>$$2 = \\frac{11 - 7}{k - 3}$$<br><br>Simplify and solve:<br>$$2 = \\frac{4}{k - 3}$$<br>$$2(k - 3) = 4$$<br>$$k - 3 = 2$$<br>$$k = 5$$"
+    },
+    {
+      "title": "Find n and calculate k + n",
+      "content": "Using points (3, 7) and (12, n):<br><br>$$2 = \\frac{n - 7}{12 - 3}$$<br><br>Simplify and solve:<br>$$2 = \\frac{n - 7}{9}$$<br>$$18 = n - 7$$<br>$$n = 25$$<br><br>Therefore, $k + n = 5 + 25 = 30$."
+    }
+  ]
+}

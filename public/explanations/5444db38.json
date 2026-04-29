@@ -1,0 +1,15 @@
+{
+  "questionId": "5444db38",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what they did with the phenomenon",
+      "content": "The passage says Saleem and colleagues demonstrated non-destructive assessment by showing that magnetic field alterations \u201ccan be measured from a distance and can reveal concentrations of stress.\u201d The key signal is their action: they took an existing phenomenon and found a practical application for it."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "<strong>'Exploited'</strong> means 'put to practical use,' which describes exactly what they did \u2014 they took the magnetic field phenomenon and deployed it as a tool for their detection method. Hypothesized (proposed a theory), discounted (dismissed), and redefined (changed the understanding) don't fit. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8b2a2a63",
+  "correctAnswer": "-32",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify where the y-intercept occurs",
+      "content": "The y-intercept is the point where the line crosses the y-axis. This always occurs when $x = 0$."
+    },
+    {
+      "title": "Substitute x = 0 into the equation",
+      "content": "Substitute $x = 0$ into $y = -6x - 32$:<br/><br/>$$y = -6(0) - 32 = -32$$<br/><br/>Therefore, $y = -32$."
+    }
+  ]
+}

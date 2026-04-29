@@ -1,0 +1,15 @@
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage explicitly describes the 47% finding as <strong>undermining</strong> the basking shark's past classification as a full ectotherm. This is significant because the passage established that regional endotherms have >30% compact tissue to maintain blood pressure \u2014 so a full ectotherm with 47% directly contradicts that original category."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D is correct: the 47% is sufficient to invalidate the past classification. The others fail by reversing the logic (A), appealing to percentages not in the passage (B and C), or misidentifying the questioned classification (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

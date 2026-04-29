@@ -1,0 +1,15 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply the first equation by 3",
+      "content": "Take the first equation and multiply both sides by 3:<br/>$$3(0.5x + 1.2y) = 3(9)$$<br/>$$1.5x + 3.6y = 27$$<br/>This is exactly the second equation, so the two equations are identical."
+    },
+    {
+      "title": "Interpret: identical equations have infinitely many solutions",
+      "content": "When two equations in a system are identical, they represent the same line in the coordinate plane. Every point on the line satisfies both equations. Therefore, the system has infinitely many solutions. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal contrast",
+      "content": "Neon was discovered and isolated in the same year. Erbium was isolated 91 years after its discovery. This is a clear temporal contrast between a quick process and a prolonged one."
+    },
+    {
+      "title": "Match the temporal contrast to the choices",
+      "content": "\u201dBy contrast\u201d directly names the opposition between these two timelines. The other three choices fail to signal this relationship: \u201cFor instance\u201d introduces examples, \u201cThus\u201d suggests consequence, and \u201cSimilarly\u201d claims resemblance. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

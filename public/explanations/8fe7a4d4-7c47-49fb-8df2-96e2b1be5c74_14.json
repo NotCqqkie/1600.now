@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Boyne's ranking",
+      "content": "The passage explicitly states that only the Britannia was ranked first-rate. This means the Boyne was not first-rate, so it must be lower-ranked."
+    },
+    {
+      "title": "Apply the crew-size rule",
+      "content": "Lower-ranked ships have fewer crew than first-rate ships (which had between 850 and 875), so the Boyne had fewer than 850. With three decks, some three-deck ships therefore had fewer than 850 crew. Choices B, C, and D don't work: B speculates about operational needs beyond the passage, C reverses the crew hierarchy (Boyne had fewer crew than Britannia), and D is contradicted by Boyne's 98 cannons and fewer-than-850 crew. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

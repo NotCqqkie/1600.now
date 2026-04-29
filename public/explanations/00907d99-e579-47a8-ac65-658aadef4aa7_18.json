@@ -1,0 +1,15 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the squared term",
+      "content": "Multiply both sides by $7g$ to isolate the term containing $x$:<br/>$$f \\cdot 7g = (10x)^2$$<br/>$$7fg = (10x)^2$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Take the square root of both sides. Since $x$ is positive, use the positive square root:<br/>$$\\sqrt{7fg} = 10x$$<br/>Divide both sides by 10:<br/>$$x = \\frac{\\sqrt{7fg}}{10}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

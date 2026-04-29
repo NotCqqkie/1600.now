@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage states that the discrepancy is \u201cexplicable in terms of OFT.\u201d This asserts that OFT's explanatory reach includes the observational pattern being discussed."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "That pattern is opposite responses by different species to the same circumstance. Choice C directly captures this: OFT can account for different species responding differently to similar ecological circumstances. The passage demonstrates this\u2014different visual reliance means different cost-benefit calculations for each species. The other choices misread either the significance of the discrepancy (A, B) or the scope of OFT's explanatory power (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

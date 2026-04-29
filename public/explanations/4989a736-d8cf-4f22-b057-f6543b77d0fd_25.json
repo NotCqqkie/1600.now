@@ -1,0 +1,15 @@
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The student must provide both an explanation of Kepler's first law and a concrete example that demonstrates its core principle\u2014that orbits are elliptical."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "A's example\u2014Umbriel's elliptical orbit\u2014directly demonstrates the elliptical principle while explaining that the law applies to natural satellites. B's example is too generic; C provides no example; D uses orbital period, unrelated to orbital shape. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

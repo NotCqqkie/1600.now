@@ -1,0 +1,15 @@
+{
+  "questionId": "47547d07",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sequential structure",
+      "content": "The passage frames a sequence with explicit markers: \u201cFirst, the turtle will dig her nest\u201d (step 1) and \u201cFinally, she will cover it all with sand\u201d (step 3). The blank needs the transition for the middle step."
+    },
+    {
+      "title": "Choose the transition that marks the next step",
+      "content": "\u201dNext\u201d directly signals the second step in a sequence, fitting between \u201cFirst\u201d and \u201cFinally.\u201d The other three all fail to show progression: \u201cBy contrast\u201d introduces contradiction, \u201cSimilarly\u201d suggests equivalence, and \u201cFor example\u201d offers a specific instance rather than continuation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

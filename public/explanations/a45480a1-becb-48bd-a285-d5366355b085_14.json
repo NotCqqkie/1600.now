@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the baseline principle",
+      "content": "Humans perceive dilated pupils positively and constricted pupils negatively \u2014 the principle the study tests on dogs."
+    },
+    {
+      "title": "Apply the principle to the data",
+      "content": "The table shows participants rated dogs with large-appearing pupils (light irises) more favorably than dogs with small-appearing pupils (dark irises) across all measured traits. This demonstrates the pupil-perception preference extends from people to dogs.<br/><br/>Choice C states this conclusion. The other options either deny any relationship exists (D), reverse the data (B), or make claims about actual size unsupported by the table (A).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

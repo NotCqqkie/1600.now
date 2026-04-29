@@ -1,0 +1,15 @@
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The defining signal is the contrast between the general trend and exceptions in the notes: <strong>most circumnavigations include stops on land</strong> (note 2) vs. the examples of <strong>nonstop circumnavigations</strong> by Liardet and Pajkowska (notes 4 and 6). This contrast frames the generalization."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice C explicitly states the pattern from note 2 (<em>most include stops</em>) and contrasts it with the exceptions from the female sailors\u2019 journeys (<em>some are nonstop</em>). The other three either omit the contrast (D is a flat definition, A and B list examples without synthesis). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

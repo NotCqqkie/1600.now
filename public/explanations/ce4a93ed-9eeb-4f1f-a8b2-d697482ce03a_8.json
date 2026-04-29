@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explicit consumption rate",
+      "content": "The passage directly states the bowhead whale consumes \u201c19,800 kg of krill per day\u201d\u2014a specific figure we can use to compare against the sei whale's consumption capacity."
+    },
+    {
+      "title": "Compare the consumption rates",
+      "content": "The sei whale's maximum consumption is 30% of 25,000 kg, or 7,500 kg per day. The bowhead consumes up to 19,800 kg per day, so it eats significantly more. Choice C states exactly this relationship. The others either deny sei whales eat krill (A), wrongly equate both whales' consumption (B), or fabricate food competition issues (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

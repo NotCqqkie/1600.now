@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_10",
+  "correctAnswer": "-12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use substitution for the repeated expression",
+      "content": "The term $(3-7x)$ appears on both sides of the equation. Let $u = 3-7x$ to simplify. The equation becomes:<br/>$$16 - 5u = 4 - 6u$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Collect $u$ terms on the left and constants on the right:<br/>$$16 - 5u + 6u = 4$$<br/>$$16 + u = 4$$<br/>$$u = -12$$<br/><br/>Since $u = 3-7x$, the value of $3-7x$ is $-12$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal link",
+      "content": "The passage directly states: \u201chave a rigid hyoid that rumbles when the cat's larynx vibrates, resulting in a purr.\u201d This explicitly shows which trait produces the purring ability."
+    },
+    {
+      "title": "Apply the trait to the choices",
+      "content": "The rigid hyoid is the key\u2014the passage shows it rumbles when vibrated by the larynx, producing the purr. The other three choices either describe something the cats lack, mention background context rather than mechanism, or identify a supporting component rather than the crucial trait. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

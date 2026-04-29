@@ -1,0 +1,15 @@
+{
+  "questionId": "fe1ec415",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the pitting rate",
+      "content": "The machine pits 12 pounds in 3 minutes. Divide to find the rate: $$\\frac{12 \\text{ pounds}}{3 \\text{ minutes}} = 4 \\text{ pounds per minute}$$"
+    },
+    {
+      "title": "Calculate time for 96 pounds",
+      "content": "At 4 pounds per minute, divide 96 by the rate to find the time: $$\\frac{96 \\text{ pounds}}{4 \\text{ pounds per minute}} = 24 \\text{ minutes}$$ This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

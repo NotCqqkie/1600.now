@@ -1,0 +1,15 @@
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the temporal signal in the passage",
+      "content": "The passage describes decades of debate with multiple proposed theories, yet none gained sufficient support. It then shifts to scientists discovering strong evidence. This move\u2014from a prolonged, unresolved period to a breakthrough\u2014signals that the transition must mark progression from struggle to resolution."
+    },
+    {
+      "title": "Match the transition",
+      "content": "\u201dFinally\u201d captures the arrival of a breakthrough after prolonged unsuccessful attempts. The other choices either introduce an example (\u201cFor example\u201d), suggest a parallel situation (\u201cSimilarly\u201d), or imply logical consequence (\u201cTherefore\u201d)\u2014none express the temporal progression from extended debate to resolution. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

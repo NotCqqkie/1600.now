@@ -1,0 +1,15 @@
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key qualifier in Ert and Erev's experiment",
+      "content": "Ert and Erev deliberately varied the magnitude of stakes (10 shekels vs. 100 shekels) and found that loss aversion occurred only in the high-stakes condition. This qualification directly addresses whether the phenomenon Kahneman and Tversky described depends on outcome magnitude."
+    },
+    {
+      "title": "Match the response to the correct choice",
+      "content": "Ert and Erev agree that loss aversion exists but argue it is contingent on outcome magnitude \u2014 specifically, appearing only in high-stakes contexts. Choice D expresses this response precisely: the attitude toward losses that K&T observed depends on <em>the magnitude of outcomes</em>. The other choices either misidentify the focus (A addresses methodology), provide partial agreement without the magnitude qualifier (B), or wrongly suggest Ert and Erev dispute K&T's core claim (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

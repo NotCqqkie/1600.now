@@ -1,0 +1,16 @@
+{
+  "questionId": "c22b5f25",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope from two points",
+      "content": "With points $(-2, 3)$ and $(4, -5)$, substitute into the slope formula:<br/>$$m = \\frac{-5 - 3}{4 - (-2)} = \\frac{-8}{6} = -\\frac{4}{3}$$",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Find the y-intercept and write the equation",
+      "content": "Substitute the slope $-\\frac{4}{3}$ and point $(4, -5)$ into $y = mx + b$:<br/>$$-5 = -\\frac{4}{3}(4) + b$$<br/>$$-5 = -\\frac{16}{3} + b$$<br/>$$b = -5 + \\frac{16}{3} = \\frac{1}{3}$$<br/>The equation is $f(x) = -\\frac{4}{3}x + \\frac{1}{3}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

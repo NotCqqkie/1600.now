@@ -1,0 +1,16 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table",
+      "content": "From the table, 9 people chose vegetarian entrees out of a total of 50 people."
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "Applying the probability formula with 9 favorable outcomes and 50 total outcomes:\n$$P = \\frac{9}{50}$$\nThat matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    }
+  ]
+}

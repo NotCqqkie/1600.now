@@ -1,0 +1,19 @@
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "The radius equals the distance from center to the circle",
+      "content": "Since $(0, -16)$ and $(0, 26)$ are both on the circle, the radius $r$ is the distance from the center $(28, 5)$ to either point. We'll use $(0, -16)$."
+    },
+    {
+      "title": "Apply the distance formula",
+      "content": "From the center $(28, 5)$ to the point $(0, -16)$:<br/>$$r = \\sqrt{(28 - 0)^2 + (5 - (-16))^2}$$<br/>Simplify the $y$-difference: $5 - (-16) = 21$.<br/>$$r = \\sqrt{28^2 + 21^2}$$"
+    },
+    {
+      "title": "Calculate the radius",
+      "content": "Compute the squares: $28^2 = 784$ and $21^2 = 441$.<br/>$$r = \\sqrt{784 + 441} = \\sqrt{1225} = 35$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The treatment group showed defensive behaviors (coiling or flailing) for seconds when exposed to electric field shifts, while the control group resumed neutral behavior almost instantly."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice A states that some species can detect threats via changes in ambient electric fields, which directly explains why the treatment group showed defensive responses while the control group did not. The other three choices either introduce unsupported details (like shift size causing varied duration, sensitivity comparisons, or causing field shifts) or contradict the observed pattern. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a5079e0d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "Before the blank: \u201cThe measurement is based on how much and how quickly weight can be moved\u201d is an independent clause. After the blank: \u201cone unit of mechanical horsepower is equivalent to the amount of power it takes to lift 550 pounds one foot off the ground in one second\u201d is an independent clause."
+    },
+    {
+      "title": "Apply the rule for joining independent clauses with a transition phrase",
+      "content": "When two independent clauses are connected by a transition phrase, use a semicolon before the phrase and a comma after it (IC; for example, IC). Choice C correctly applies this rule: \u201cmoved; for example,\u201d properly joins the clauses while introducing the example. The other choices fail this pattern\u2014A and B use only a comma (comma splice), while D omits punctuation (run-on). <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

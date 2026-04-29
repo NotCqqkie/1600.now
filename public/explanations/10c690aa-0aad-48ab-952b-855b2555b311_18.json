@@ -1,0 +1,18 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_18",
+  "correctAnswer": "4.5,9/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the equation of the line",
+      "content": "From the graph, determine the slope and y-intercept of the line to write its equation.\\[y = mx + b\\]",
+      "desmosExpressions": [
+        "y=x-1"
+      ]
+    },
+    {
+      "title": "Substitute the coordinates (7, c) into the equation",
+      "content": "The point \\((7, c)\\) lies on this line, so it must satisfy its equation. Substitute $x = 7$ and solve for $c$: $$c = 7 - 1$$<br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

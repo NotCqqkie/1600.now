@@ -1,0 +1,15 @@
+{
+  "questionId": "788bfd56",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the function definition",
+      "content": "Substitute $x = 144$ into $f(x) = 4 + \\sqrt{x}$:<br/>$$f(144) = 4 + \\sqrt{144}$$"
+    },
+    {
+      "title": "Evaluate",
+      "content": "Since $\\sqrt{144} = 12$:<br/>$$f(144) = 4 + 12 = 16$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

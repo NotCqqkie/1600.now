@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause-and-effect relationship",
+      "content": "NASA crashed a probe into Dimorphos, and the next sentence describes what happened as a result: the orbital period changed. The blank needs a word that signals this consequence or result."
+    },
+    {
+      "title": "Match the transition to the relationship",
+      "content": "<strong>Consequently</strong> signals the result of the crash on Dimorphos's orbital period. The other choices add separate facts, narrow details, or suggest comparison\u2014none of which express causality. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

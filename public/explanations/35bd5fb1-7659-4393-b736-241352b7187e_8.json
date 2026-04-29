@@ -1,0 +1,16 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table values",
+      "content": "From the table: Greater than 65 years old is 21%. The ages at least 18 include: 18-40 (23%), 41-65 (22%), and Greater than 65 (21%), totaling 66%."
+    },
+    {
+      "title": "Apply conditional probability formula",
+      "content": "We need P(greater than 65 | at least 18). Since everyone over 65 is automatically at least 18, this equals the proportion over 65 divided by the proportion at least 18:<br/>$$P = \\frac{21\\%}{66\\%} \\approx 0.318$$<br/>This is closest to 0.32, matching choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}$$"
+    }
+  ]
+}

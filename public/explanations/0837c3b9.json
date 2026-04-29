@@ -1,0 +1,15 @@
+{
+  "questionId": "0837c3b9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the scale factor from corresponding sides",
+      "content": "Triangle <em>ABC</em> and triangle <em>DEF</em> are similar, with <em>AB</em> and <em>DE</em> as corresponding sides. Since $DE = 2 \\cdot AB$, the linear scale factor is $k = 2$."
+    },
+    {
+      "title": "Apply the scale factor to the perimeter",
+      "content": "For similar figures, perimeters scale by the same factor as the sides. Since each side of triangle <em>DEF</em> is 2 times the corresponding side in triangle <em>ABC</em>:<br/><br/>$$\\text{Perimeter of } \\triangle DEF = 2 \\times 20 = 40$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

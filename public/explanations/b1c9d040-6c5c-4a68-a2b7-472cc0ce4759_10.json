@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explanatory relationship",
+      "content": "The passage presents van Berlo et al.'s finding, then immediately states \u201cThis phenomenon can be explained by\u201d Lang's limited capacity model, showing that the model provides the explanation for the finding."
+    },
+    {
+      "title": "Match the answer to the relationship",
+      "content": "Choice A directly states that Lang's model explains van Berlo's finding about product recall. The others either omit Lang's model, contradict the passage's logic, or reverse the relationship between the researchers. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

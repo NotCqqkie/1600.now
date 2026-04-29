@@ -1,0 +1,15 @@
+{
+  "questionId": "6f08641e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the implied agent in the opening phrase",
+      "content": "The phrase \u201cAfter pleading for years\u2014to no effect\u2014for the passage of key antidiscrimination legislation\u201d contains an action (pleading) with an implied agent: the activists. Standard English requires that the subject of the main clause match this agent to avoid a dangling modifier\u2014a phrase that becomes grammatically disconnected from the sentence."
+    },
+    {
+      "title": "Apply to find the correct subject",
+      "content": "Choice D places \u201cthe activists\u201d as the subject of the main clause, matching the agent from the opening phrase. The other three use different subjects\u2014pressure (A), a protest (B), or lawmakers (C)\u2014that don't match, leaving the opening phrase dangling in each case. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

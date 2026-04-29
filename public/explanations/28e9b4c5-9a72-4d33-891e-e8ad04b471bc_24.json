@@ -1,0 +1,15 @@
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The goal explicitly asks the student to \u201cspecify the average weight.\u201d To specify means to state exactly. The notes include the exact weight: \u201cIt has an average weight of 19 grams.\u201d"
+    },
+    {
+      "title": "Find the choice that states this weight",
+      "content": "Choice D directly provides this: \u201cThe large tree finch has an average weight of 19 grams.\u201d The other three fail to specify the weight, instead providing geographic or ecological information about the bird or islands. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

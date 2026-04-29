@@ -1,0 +1,15 @@
+{
+  "questionId": "430d929a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The blank precedes \u201cfindings,\u201d which needs a possessive determiner. The antecedent is \u201cWatson and Crick\u201d \u2014 plural."
+    },
+    {
+      "title": "Apply the agreement rule",
+      "content": "A possessive determiner must agree in number with its antecedent. Since Watson and Crick are plural, \u201ctheir\u201d is the correct form. \u201cThey're\u201d and \u201cIt's\u201d are contractions (not possessive), and \u201cIts\u201d is singular possessive. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

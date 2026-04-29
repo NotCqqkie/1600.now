@@ -1,0 +1,19 @@
+{
+  "questionId": "b8caaf84",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand pv by substituting and using FOIL",
+      "content": "Replace $p = 3x + 4$ and $v = x + 5$ into $pv$:<br/>$$pv = (3x + 4)(x + 5)$$<br/>Expand using FOIL:<br/>$$= 3x \\cdot x + 3x \\cdot 5 + 4 \\cdot x + 4 \\cdot 5$$<br/>$$= 3x^2 + 15x + 4x + 20$$<br/>$$= 3x^2 + 19x + 20$$"
+    },
+    {
+      "title": "Compute -2p and gather all components",
+      "content": "Expand $-2p$ where $p = 3x + 4$:<br/>$$-2p = -2(3x + 4) = -6x - 8$$<br/>We already have $v = x + 5$. Now combine all three pieces:<br/>$$pv - 2p + v = (3x^2 + 19x + 20) + (-6x - 8) + (x + 5)$$"
+    },
+    {
+      "title": "Combine like terms to find the final expression",
+      "content": "Collect the $x^2$, $x$, and constant terms:<br/>$$= 3x^2 + (19 - 6 + 1)x + (20 - 8 + 5)$$<br/>$$= 3x^2 + 14x + 17$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

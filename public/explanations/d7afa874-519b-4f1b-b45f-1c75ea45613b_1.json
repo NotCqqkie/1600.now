@@ -1,0 +1,15 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the key operations",
+      "content": "<em>Twice</em> indicates multiplication by 2, so <em>twice the value of x</em> is $2x$. <em>49 more than</em> indicates addition of 49."
+    },
+    {
+      "title": "Build the equation",
+      "content": "Combining these operations: $y$ equals <em>twice the value of x</em> plus 49, which is $y = 2x + 49$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

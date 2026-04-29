@@ -1,0 +1,15 @@
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence elements",
+      "content": "The blank is the main verb of the sentence. The subject is <strong>\u201cnearly 30% of the city's population\u201d</strong> (a singular noun phrase). The sentence includes a time reference phrase, <strong>\u201cEven back in the 1860s,\u201d</strong> at the beginning."
+    },
+    {
+      "title": "Apply the tense rule",
+      "content": "The rule is that a verb must use a tense matching the sentence's time reference. The past reference (1860s) requires a past-tense verb. For the singular subject, that's <strong>\u201cwas.\u201d</strong> All other choices use present or future tense, contradicting the 1860s time marker. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

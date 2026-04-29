@@ -1,0 +1,19 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_2",
+  "correctAnswer": "14,15,16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the weight formula",
+      "content": "The calf weighs 5,600 pounds at birth and gains 250 pounds per day. After $n$ days, the calf's weight is:<br/>$$W = 5,600 + 250n$$"
+    },
+    {
+      "title": "Translate the constraint into an inequality",
+      "content": "The weight must be greater than 8,850 and less than 9,850 pounds. This gives the compound inequality:<br/>$$8,850 < 5,600 + 250n < 9,850$$"
+    },
+    {
+      "title": "Solve the inequality",
+      "content": "Subtract 5,600 from all parts:<br/>$$3,250 < 250n < 4,250$$<br/>Divide all parts by 250:<br/>$$13 < n < 17$$<br/>Since $n$ must be an integer and $13 < n < 17$, the possible values are 14, 15, and 16."
+    }
+  ]
+}

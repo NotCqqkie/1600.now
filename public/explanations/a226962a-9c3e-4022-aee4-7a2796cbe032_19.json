@@ -1,0 +1,15 @@
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the appositive structure",
+      "content": "\u201dCreated by Niklaus Wirth\u201d is an appositive phrase\u2014a non-essential explanation that provides more detail about Pascal. <strong>Appositives must be set off with matching punctuation marks on both sides.</strong>"
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "Choice B correctly uses paired commas to enclose the appositive: \u201cPascal, created by Niklaus Wirth,\u201d and lets \u201cfor teaching programming skills\u201d stand separately. Option A pairs em-dashes but groups two distinct information types together; options C and D lack or misuse punctuation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a478f9f5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the frequency for color Y from the table",
+      "content": "From the frequency table, color Y appears in exactly <strong>3</strong> gemstones out of the total <strong>157</strong> gemstones."
+    },
+    {
+      "title": "Apply the probability formula",
+      "content": "Probability of selecting color Y equals the number of favorable outcomes divided by the total number of outcomes:<br/><br/>$$P(\\text{color Y}) = \\frac{\\text{number of color Y gemstones}}{\\text{total gemstones}} = \\frac{3}{157}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

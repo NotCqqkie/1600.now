@@ -1,0 +1,15 @@
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_12",
+  "correctAnswer": "35/50,7/10,0.7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the conditional probability setup",
+      "content": "The phrase <em>given that the tree is a red maple</em> signals conditional probability: we need $P(\\text{Site A} | \\text{Red Maple})$. This means: among all red maples in the table, what fraction come from Site A? We restrict our sample space to the red maple row only."
+    },
+    {
+      "title": "Extract table values and calculate",
+      "content": "From the red maple row:<ul><li>Red maples from Site A: 35</li><li>Total red maples: 50</li></ul>The probability is $$\\frac{35}{50} = \\frac{7}{10} = 0.7$$"
+    }
+  ]
+}

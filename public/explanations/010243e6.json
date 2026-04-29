@@ -1,0 +1,19 @@
+{
+  "questionId": "010243e6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify both triangles as right isosceles triangles",
+      "content": "In triangle PQR with P(4,5), Q(4,7), R(6,5):<br/>Q is directly above P (x = 4) and R is directly right of P (y = 5), so sides PQ and PR are perpendicular. Thus \u2220P = 90\u00b0.<br/><br/>The distances are |PQ| = 2 and |PR| = 2, so PQ = PR, making PQR an isosceles right triangle.<br/><br/>Similarly, in triangle LMN with L(4,5), M(4,7+k), N(6+k,5):<br/>M is directly above L and N is directly right of L, so \u2220L = 90\u00b0.<br/><br/>The distances are |LM| = 2+k and |LN| = 2+k, so LM = LN, making LMN an isosceles right triangle."
+    },
+    {
+      "title": "Apply the 45-45-90 triangle property",
+      "content": "In an isosceles right triangle, the right angle is 90\u00b0 and both other angles must be 45\u00b0 (since they are equal and sum to 90\u00b0).<br/><br/>Therefore:<ul><li>In triangle PQR: \u2220Q = 45\u00b0, so <em>t</em> = 45\u00b0</li><li>In triangle LMN: \u2220N = 45\u00b0</li></ul>"
+    },
+    {
+      "title": "Express \u2220N in terms of t",
+      "content": "Since \u2220N = 45\u00b0 and <em>t</em> = 45\u00b0, we have:<br/>$$\\angle N = 45\u00b0 = 90\u00b0 - 45\u00b0 = 90\u00b0 - t\u00b0$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

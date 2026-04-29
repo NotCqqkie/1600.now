@@ -1,0 +1,19 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out x from the left side",
+      "content": "Rewrite the left side by factoring out the variable:<br/>$$-6x + 42px = (-6 + 42p)x$$<br/>So the equation becomes:<br/>$$(-6 + 42p)x = 84$$"
+    },
+    {
+      "title": "Recognize when a linear equation has no solution",
+      "content": "A linear equation $Ax = B$ has no solution only when the coefficient $A = 0$ but the constant $B \\neq 0$, resulting in the false statement $0 = B$.<br/><br/>For this equation, we need the coefficient of $x$ to equal zero:<br/>$$-6 + 42p = 0$$"
+    },
+    {
+      "title": "Solve for p",
+      "content": "Solve for $p$:<br/>$$42p = 6$$<br/>$$p = \\frac{6}{42} = \\frac{1}{7}$$<br/><br/>Verify: when $p = \\frac{1}{7}$, the coefficient $-6 + 42(\\frac{1}{7}) = -6 + 6 = 0$, giving us $0 = 84$\u2014a false statement with no solution. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

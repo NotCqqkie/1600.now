@@ -1,0 +1,11 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolve by testing answer choices",
+      "content": "Since each choice represents a potential value of $8-x$, we can work backward: for each choice, find the corresponding $x$ and check whether it satisfies $|16-2x|=58$.<br/><br/>Backsolving \u2014 testing choice B (8):<br/>If $8-x=8$, then $x=0$.<br/>Substitute into the original equation: $|16-2(0)|=|16|=16\\neq 58$. Fails.<br/><br/>Testing choice C (29):<br/>If $8-x=29$, then $x=-21$.<br/>Substitute: $|16-2(-21)|=|16+42|=|58|=58$. \u2713<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

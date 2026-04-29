@@ -1,0 +1,19 @@
+{
+  "questionId": "a4c0547f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the tangent ratio",
+      "content": "In right triangle XYZ with the right angle at Z, angle X is one of the acute angles. From angle X's perspective:<br/><ul><li>Opposite side: $YZ$</li><li>Adjacent side: $XZ$</li></ul>Therefore:<br/>$$\\tan X = \\frac{YZ}{XZ} = \\frac{12}{35}$$"
+    },
+    {
+      "title": "Find XZ, then use the Pythagorean triple",
+      "content": "Since $YZ = 24$ and $\\frac{YZ}{XZ} = \\frac{12}{35}$:<br/><br/>$$\\frac{24}{XZ} = \\frac{12}{35} \\implies XZ = \\frac{24 \\cdot 35}{12} = 70$$<br/><br/>The legs are now in ratio $24 : 70 = 12 : 35$. This is the <strong>12\u201335\u201337 Pythagorean triple</strong>. With scale factor $k = 2$, the hypotenuse is $XY = 37 \\cdot 2 = 74$."
+    },
+    {
+      "title": "Calculate the perimeter",
+      "content": "Adding all three sides:<br/><br/>$$70 + 24 + 74 = 168$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

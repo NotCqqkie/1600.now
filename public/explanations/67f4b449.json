@@ -1,0 +1,15 @@
+{
+  "questionId": "67f4b449",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what f(w) = 6w\u00b2 represents",
+      "content": "Width = $w$ ft, length = $6w$ ft (6 times the width). Area = width \u00d7 length = $w \\cdot 6w = 6w^2$. So $f(w)$ outputs the rectangle's area in square feet."
+    },
+    {
+      "title": "Interpret f(14) = 1,176",
+      "content": "In $f(14) = 1,176$: the input $w = 14$ is the width in feet, and the output 1,176 is the area in ft\u00b2. Therefore, when the width is 14 ft, the area is 1,176 ft\u00b2. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

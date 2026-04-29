@@ -1,0 +1,15 @@
+{
+  "questionId": "3f37eb3b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The colon introduces an elaboration: the source \u201chas no direct bearing on whether the claim is true.\u201d This explicitly defines what the blank should express."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>Irrelevant</strong> directly expresses the meaning needed\u2014source is unrelated to the validity of what's claimed. The other choices refer to clarity (indistinct), certainty (indisputable), or unstated meaning (implicit), none of which capture this disconnect. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

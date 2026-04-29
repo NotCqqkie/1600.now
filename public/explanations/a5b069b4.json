@@ -1,0 +1,15 @@
+{
+  "questionId": "a5b069b4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Sort the data and identify the two middle values",
+      "content": "The data set is: 4, 10, 18, 4, 4, 5, 6, 5<br/>Sorted: <strong>4, 4, 4, 5, 5, 6, 10, 18</strong><br/>With 8 values, the middle positions (4th and 5th) are both <strong>5</strong>."
+    },
+    {
+      "title": "Calculate the median",
+      "content": "The median of an even-sized data set is the average of the two middle values.<br/>$$\\text{Median} = \\frac{5 + 5}{2} = 5$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

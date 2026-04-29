@@ -1,0 +1,15 @@
+{
+  "questionId": "0f39b19c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the sentence boundary problem",
+      "content": "The sentence shows \u201cshe ______ the 1960 Summer Olympics in Rome, she won both the 100- and 200-meter dashes\u2026\u201d Two independent clauses are separated by a comma: what she accomplished during the Olympics, and what medals she won."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Two independent clauses cannot be separated by a comma alone\u2014use a period instead. Option D places a period after \u201cfast,\u201d and capitalizes \u201cDuring\u201d to begin a new sentence: \u201cDuring the 1960 Summer Olympics in Rome, she won both the 100- and 200-meter dashes\u2026\u201d This properly separates the two ideas. Options A, B, and C maintain the comma between the two clauses, creating a comma splice. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

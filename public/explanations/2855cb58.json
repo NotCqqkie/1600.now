@@ -1,0 +1,16 @@
+{
+  "questionId": "2855cb58",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the standard circle equation",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$",
+      "content": "This is the standard form for a circle with center $(h, k)$ and radius $r$. The radius is squared on the right side.<br/><br/>Given center $(16, 17)$ and radius $7k$:<br/>$$(x - 16)^2 + (y - 17)^2 = (7k)^2$$"
+    },
+    {
+      "title": "Simplify the squared radius",
+      "content": "We must square the entire radius, including the variable:<br/>$$(7k)^2 = 7^2 \\cdot k^2 = 49k^2$$<br/><br/>The circle equation is:<br/>$$(x - 16)^2 + (y - 17)^2 = 49k^2$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

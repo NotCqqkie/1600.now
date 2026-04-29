@@ -1,0 +1,15 @@
+{
+  "questionId": "3148fe3e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both equations",
+      "content": "From the first equation $x^2 + y + 10 = 10$, subtract 10 from both sides to get $x^2 + y = 0$, which means $y = -x^2$. From the second equation $8x + 16 - y = 0$, rearrange to get $y = 8x + 16$."
+    },
+    {
+      "title": "Substitute and solve for x",
+      "content": "Since both expressions equal $y$, set them equal: $$-x^2 = 8x + 16$$ Rearrange to standard form: $$x^2 + 8x + 16 = 0$$ This is a perfect square trinomial that factors as: $$(x + 4)^2 = 0$$ Therefore $x = -4$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

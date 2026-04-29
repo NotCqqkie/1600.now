@@ -1,0 +1,15 @@
+{
+  "questionId": "b71861fc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the \u201ccosts\u201d bar in the legend and graph",
+      "content": "The legend at the bottom shows three factors: convenience (dark gray), costs (light gray), and established behaviors (black). The question asks specifically about \u201ccosts,\u201d so find the light gray bar in the graph."
+    },
+    {
+      "title": "Read the height of the costs bar against the y-axis",
+      "content": "The light gray bar representing costs reaches to the 50% gridline on the vertical axis. The other choices (10%, 25%, and 95%) do not match any bar's height. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central methodological flaw Text 2 targets",
+      "content": "Text 2 emphasizes that studies of entrepreneurial training fundamentally lack control groups\u2014they fail to compare trained participants against an untrained comparison group, which is necessary to establish whether training caused the observed results."
+    },
+    {
+      "title": "Match this concern to what Text 1 leaves unanswered",
+      "content": "Text 1 reports what the trained group achieved but never mentions comparing them to anyone untrained. Option A is already clarified in Text 1 (the phrase \"showed high innovativeness\" confirms they measured post-training), while options B and C address details unrelated to Text 2's specific criticisms. To evaluate whether Cruz's study has the \"lack of control groups\" flaw Text 2 identifies, the author must know if trained and untrained participants were compared. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

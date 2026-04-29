@@ -1,0 +1,19 @@
+{
+  "questionId": "a54753ca",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that exactly one intersection means the line touches the vertex",
+      "content": "A parabola intersects a horizontal line $y = c$ at exactly one point when the line is tangent to the parabola. This occurs at the <strong>vertex</strong> of the parabola."
+    },
+    {
+      "title": "Find the x-coordinate of the vertex",
+      "content": "For a parabola $y = ax^2 + bx + d$, the vertex occurs at $x = -\\frac{b}{2a}$.<br/><br/>Here, $a = -1$ and $b = 9$, so:<br/>$$x = -\\frac{9}{2(-1)} = \\frac{9}{2}$$"
+    },
+    {
+      "title": "Evaluate the parabola at the vertex to find c",
+      "content": "Substitute $x = \\frac{9}{2}$ into $y = -x^2 + 9x - 100$:<br/>$$c = -\\left(\\frac{9}{2}\\right)^2 + 9 \\cdot \\frac{9}{2} - 100$$<br/><br/>Computing each term:<br/>$$c = -\\frac{81}{4} + \\frac{162}{4} - \\frac{400}{4}$$<br/><br/>Combining over a common denominator:<br/>$$c = \\frac{-81 + 162 - 400}{4} = \\frac{-319}{4} = -\\frac{319}{4}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

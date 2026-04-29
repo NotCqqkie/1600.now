@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept",
+      "content": "The point $(0, 27)$ lies on the $y$-axis, telling us the $y$-intercept is $b = 27$."
+    },
+    {
+      "title": "Use slope-intercept form to write the equation",
+      "content": "The slope-intercept form is $y = mx + b$. With slope $m = 5$ and $y$-intercept $b = 27$:<br/><br/>$$f(x) = 5x + 27$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

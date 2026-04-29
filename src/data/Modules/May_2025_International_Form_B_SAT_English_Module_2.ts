@@ -2,40 +2,34 @@ import { Question } from "../all_questions";
 
 export const questions: Question[] = [
   {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "a4670c6c-a654-4863-946e-7b7c7171fcdb_1",
-    "testName": "May 2025 International Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nPostcranial skeletal pneumaticity (PSP) refers to the presence of extensions of an animal's lungs and air sacs inside its bones. Though such structures do not typically fossilize, they are believed to have been present in *Tyrannosaurus*, *Euhelopus*, and other Cretaceous theropods and sauropods. To ______ PSP from fossils, researchers look for indicators such as large foramina (holes in bones).",
-    "choices": [
-      {
-        "id": "A",
-        "text": "infer"
-      },
-      {
-        "id": "B",
-        "text": "acquire"
-      },
-      {
-        "id": "C",
-        "text": "isolate"
-      },
-      {
-        "id": "D",
-        "text": "preserve"
-      }
-    ],
-    "correctAnswer": "A",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice A is the best answer because it most logically completes the text’s discussion of driver attitudes toward a toll increase. In this context, \"receptive to\" would mean open to or willing to consider something. The text focuses on drivers who think the current toll for the Lewis and Clark Bridge is too high, suggesting that advocates for increasing that toll would have better success presenting their arguments to \"a more persuadable segment of the population\" rather than to those drivers. This context suggests that the drivers who strongly believe the toll is already too high are not persuadable—that is, that they are unlikely to be willing to consider the toll-increase proposal.\nChoice B is incorrect because \"apprised of\" means informed about or made aware of something, and nothing in the text suggests that the drivers who think a toll is already too high wouldn’t be informed of a proposal for an even higher toll; in fact, the text implies that advocates of the proposal would \"direct their arguments\" in favor of the increase to those drivers, even though they would likely be more successful focusing on people who are more open to hearing their arguments. Choice C is incorrect. In this context, \"incensed by\" would mean angered or outraged by something. The text focuses on drivers who feel that a current toll is too high, and it wouldn’t make sense to suggest that those drivers would be <em>unlikely </em>to be angered by a proposal for the toll to be increased; indeed, drivers who think the toll is already too high likely would be angered by a move to raise it even higher. Choice D is incorrect. In this context, \"cited in\" would mean referred to or mentioned in something. Although it’s reasonable to suggest that a proposal to raise a toll might not make any mention of drivers who think the toll is already too high, the text focuses on how those drivers and other people are likely to react to arguments in favor of the proposal, not on whether those drivers would be cited in the proposal itself.",
+      "id": "f0be91b2",
+      "testName": "SAT Question Bank",
+      "text": "Drivers who strongly believe that the toll they must pay to use the Lewis and Clark Bridge, which spans the Ohio River to connect Indiana and Kentucky, is currently too high are unlikely to be ______ a proposal to increase the toll. Advocates for a higher toll are likely to have more success if they instead direct their arguments toward a more persuadable segment of the population. Which choice completes the text with the most logical and precise word or phrase?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "receptive to"
+          },
+          {
+              "id": "B",
+              "text": "apprised of"
+          },
+          {
+              "id": "C",
+              "text": "incensed by"
+          },
+          {
+              "id": "D",
+              "text": "cited in"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

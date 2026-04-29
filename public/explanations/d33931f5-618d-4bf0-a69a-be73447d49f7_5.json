@@ -1,0 +1,15 @@
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine if the function is increasing or decreasing",
+      "content": "Scanning from left to right along the $x$-axis, the graph rises\u2014$y$-values increase as $x$ increases. The function is increasing. This eliminates choices B (Decreasing linear) and D (Decreasing exponential)."
+    },
+    {
+      "title": "Determine if the curve is linear or exponential",
+      "content": "A linear function would be a straight line with constant slope. The graph shows a curve that is nearly flat on the left but becomes increasingly steep on the right. This accelerating slope is not constant, eliminating choice A (Increasing linear). The pattern of an exponential function shows exactly this type of acceleration\u2014the curve gets steeper and steeper as $x$ increases. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

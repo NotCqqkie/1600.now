@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the percent-decline ranking",
+      "content": "The table shows percent change for each nation: Germany \u221244%, Switzerland \u221222%, Brazil \u221216%, Japan \u221214%. This ranking determines where Switzerland's decline falls relative to the other three countries."
+    },
+    {
+      "title": "Match the ranking to the correct choice",
+      "content": "Choice A correctly positions Switzerland within this ranking: its percent decrease was less than Germany's but greater than Brazil's and Japan's. The other three distort the data through misrepresented amounts, fabricated changes, or reversed relationships. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

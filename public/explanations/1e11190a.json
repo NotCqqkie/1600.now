@@ -1,0 +1,19 @@
+{
+  "questionId": "1e11190a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the system of equations from both stores",
+      "content": "Let $r$ = pints of raspberries and $b$ = pints of blackberries.<br/><br/>Store A: $$5.50r + 3.00b = 37.00$$<br/>Store B: $$6.50r + 8.00b = 66.00$$"
+    },
+    {
+      "title": "Multiply both equations by 2 to clear decimals",
+      "content": "$$11r + 6b = 74$$<br/>$$13r + 16b = 132$$"
+    },
+    {
+      "title": "Eliminate r using multiplication and subtraction to solve for b",
+      "content": "Multiply the first equation by 13 and the second by 11 to align the $r$ coefficients:<br/>$$143r + 78b = 962$$<br/>$$143r + 176b = 1452$$<br/><br/>Subtract the first from the second: $$98b = 490$$<br/><br/>Therefore $b = 5$ pints. Verify by substituting into $11r + 6(5) = 74$ to find $r = 4$, then confirm in Store B: $6.50(4) + 8.00(5) = 26 + 40 = 66$ \u2713<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the value of 4c is already given",
+      "content": "We're given that $4c = 16$ and asked for the value of $4c - 9$. The key insight is that we don't need to solve for $c$ \u2014 we already have the value of the expression $4c$, which is 16. We can use this directly in our target expression."
+    },
+    {
+      "title": "Substitute and evaluate",
+      "content": "Substitute $4c = 16$ into the expression $4c - 9$:<br/>$$4c - 9 = 16 - 9 = 7$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

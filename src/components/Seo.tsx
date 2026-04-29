@@ -29,9 +29,9 @@ const routeMetadata: RouteMetadata[] = [
   },
   {
     pattern: "/modules",
-    title: "SAT Practice Modules | Full Digital SAT Modules",
+    title: "SAT Practice Tests | Full Digital SAT Practice Tests",
     description:
-      "Browse full SAT practice modules by year, form, subject, and module number for realistic digital SAT prep.",
+      "Browse full SAT practice tests by year, form, subject, and module number for realistic digital SAT prep.",
   },
   {
     pattern: "/modules/:moduleId",

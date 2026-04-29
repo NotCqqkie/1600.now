@@ -1,0 +1,21 @@
+{
+  "questionId": "374b18f9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the median in the box plot",
+      "content": "In a box plot, the median is shown by the line inside the box. Examining the given box plot, that line is positioned between the lower and upper quartiles.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Read the median value",
+      "content": "The median line lines up with the tick mark marked 7,067 on the axis, so the median is approximately 7,067 acres.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the participial modifier",
+      "content": "The phrase \u201cby helping the Tuvan Republic and other Soviet republics established along ethnolinguistic lines assert their prerogatives\u201d is a participial modifier of \u201creforms\u201d \u2014 it explains the circumstances but is not the main action. The sentence still needs its main verb."
+    },
+    {
+      "title": "Select the finite verb for the main clause",
+      "content": "\u201dContributed\u201d is the finite verb that completes the independent clause \u2014 the sentence reads \u201creforms contributed to the Soviet Union's breakup.\u201d The other choices don't work: \u201ccontributing\u201d and \u201chaving contributed\u201d are non-finite participles that can't serve as the main verb, while \u201cwhich contributed\u201d creates a relative clause in an unsuitable position. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

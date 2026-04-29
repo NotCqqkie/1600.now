@@ -21,7 +21,8 @@ export interface Question {
   domain?: string;
   skill?: string;
   difficulty?: string | null;
-  active?: boolean | null;
+  /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank. */
+  inPracticeTests?: boolean | null;
   rationale?: string | null;
   category?: QuestionCategory;
   id: number | string;

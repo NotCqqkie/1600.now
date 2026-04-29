@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the cable length clue",
+      "content": "The notes state that the pendulum\u2019s cable is <strong>roughly 14\u2011meter\u2011long</strong>."
+    },
+    {
+      "title": "Select the choice that includes that length",
+      "content": "Choice D directly states that the Foucault pendulum at the University of Oslo includes a cable that is roughly 14 meters long, matching the note. The other three choices either omit the cable length or discuss unrelated details, so they do not specify the length. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

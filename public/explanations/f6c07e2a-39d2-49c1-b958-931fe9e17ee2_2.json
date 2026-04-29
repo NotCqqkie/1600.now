@@ -1,0 +1,15 @@
+{
+  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide both sides by 4",
+      "content": "Starting with $4m = 3(n + p)$, divide both sides by 4:<br/>$$\\frac{4m}{4} = \\frac{3(n+p)}{4}$$"
+    },
+    {
+      "title": "Simplify to isolate m",
+      "content": "$$m = \\frac{3(n+p)}{4}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

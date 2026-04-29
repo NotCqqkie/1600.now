@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase <strong>At higher elevations</strong> directly contrasts with the earlier statement about snowpack levels at lower elevations. The shift from lower to higher elevations implies a comparison or contrast in time and conditions."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>C</strong> \u2014 'on the other hand' introduces a direct contrast between the two elevation zones, aligning with the shift in both time (early March vs. mid-March) and location (lower vs. higher elevations). Choices A, B, and D incorrectly signal explanation, example, or conclusion, which misalign with the contrast between the two findings. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

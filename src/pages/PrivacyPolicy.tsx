@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 
-const contactEmail = "questions@1600.now";
+const contactEmail = "info@1600.now";
 
 const sections = [
   {

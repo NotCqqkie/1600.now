@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The opening condition \u201cmolecular analysis does not require distinguishing subtle physiological differences\u201d is the decisive clue."
+    },
+    {
+      "title": "Match the advantage to the choices",
+      "content": "This means molecular analysis can identify morphologically similar but distinct species\u2014something morphological identification cannot do. Choice A correctly states that molecular is therefore better than the morphological method (used for <em>Prionospio branchilucida</em>) at distinguishing similar-looking species. The other choices misidentify the advantage: B wrongly emphasizes usage frequency, C contradicts the passage by suggesting molecular is better for the species where it was impracticable, and D falsely claims molecular provides physiological detail when it doesn't require it. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

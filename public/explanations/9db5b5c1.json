@@ -1,0 +1,19 @@
+{
+  "questionId": "9db5b5c1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "$$4x=20$$<br/>Divide both sides by 4: $$x=5$$"
+    },
+    {
+      "title": "Find y by substitution",
+      "content": "$$-3x+y=-7$$<br/>Substitute $$x=5$$: $$-3(5)+y=-7$$<br/>Simplify: $$-15+y=-7$$<br/>Add 15 to both sides: $$y=8$$"
+    },
+    {
+      "title": "Compute x+y and select answer",
+      "content": "$$x+y=5+8=13$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

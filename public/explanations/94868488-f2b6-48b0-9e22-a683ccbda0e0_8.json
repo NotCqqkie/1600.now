@@ -1,0 +1,15 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line k",
+      "content": "Starting with $6x + 19y - 7 = 0$, solve for $y$ to find the slope.<br/><br/>$$19y = -6x + 7$$<br/>$$y = -\\frac{6}{19}x + \\frac{7}{19}$$<br/><br/>The slope of line $k$ is $-\\frac{6}{19}$."
+    },
+    {
+      "title": "Apply the perpendicular slope rule",
+      "content": "Perpendicular lines have slopes that are negative reciprocals of each other. If the slope of line $k$ is $-\\frac{6}{19}$, then the slope of line $j$ is:<br/><br/>$$m_j = -\\frac{1}{-\\frac{6}{19}} = \\frac{19}{6}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

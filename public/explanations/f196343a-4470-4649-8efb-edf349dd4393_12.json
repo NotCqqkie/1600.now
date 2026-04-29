@@ -1,0 +1,15 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand how sample size affects margin of error",
+      "content": "The margin of error is inversely proportional to the square root of the sample size. In the formula MOE = z* \\sqrt{p(1-p)/n}, we see that n is in the denominator under a square root, so larger sample sizes produce smaller margins of error."
+    },
+    {
+      "title": "Calculate the effect of doubling the sample size",
+      "content": "The sample size doubles from 159 to 318. The margin of error scales by:<br/>$$\\sqrt{\\frac{159}{318}} = \\sqrt{\\frac{1}{2}} \\approx 0.707$$<br/>Therefore, the new margin of error is approximately 5.05% \u00d7 0.707 \u2248 3.57%, which is lower than the original 5.05%. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

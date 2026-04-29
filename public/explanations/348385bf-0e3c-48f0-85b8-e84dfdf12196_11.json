@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify which traits distinguish species with broken-wing display",
+      "content": "Species performing the display (warbler and dove) have shorter incubation periods (13\u201315 days) and greater breeding capacity (3\u20137 broods per year), while species without the display (teal and oystercatcher) have longer incubation (25\u201328 days) and fewer broods (1 each). The number of parent incubators does not follow this pattern."
+    },
+    {
+      "title": "Match the answer to the observed associations",
+      "content": "Choice A directly identifies incubation duration and brood capacity as more strongly associated with the behavior than parental numbers\u2014the exact pattern in the data. The other choices either reverse the relationship, deny the pattern's differential strength, or misread which species have greater reproductive opportunity. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

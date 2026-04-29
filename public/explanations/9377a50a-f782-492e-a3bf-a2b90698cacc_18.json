@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line equation from the graph",
+      "content": "From the graph, the boundary line passes through $(0, 6)$ on the y-axis and approximately $(1.5, 0)$ on the x-axis. Using these two points:<br/><br/>Slope: $m = \\frac{0 - 6}{1.5 - 0} = \\frac{-6}{1.5} = -4$<br/><br/>Using point-slope form with $(0, 6)$:<br/>$$y = -4x + 6$$"
+    },
+    {
+      "title": "Determine the direction of the inequality from the shading",
+      "content": "The shaded region (dark area) is located <strong>above</strong> the boundary line. This means the inequality uses $>$ rather than $<$, since points above the line satisfy $y > -4x + 6$.<br/><br/>We can verify by testing a point in the shaded region, such as $(0, 8)$: substituting gives $8 > -4(0) + 6 = 6$, which is true.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

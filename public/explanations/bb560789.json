@@ -1,0 +1,15 @@
+{
+  "questionId": "bb560789",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate area of square S",
+      "content": "Square S has a side length of 4 cm. Using the formula for the area of a square, Area = (side)\u00b2, we get: $$A_{\\text{square}} = 4^2 = 16\\text{ cm}^2$$"
+    },
+    {
+      "title": "Add both areas for total",
+      "content": "Triangle R has area 80 cm\u00b2 and square S has area 16 cm\u00b2. The total area is: $$A_{\\text{total}} = 80 + 16 = 96\\text{ cm}^2$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify Text 2's explanation for why results differ between studies",
+      "content": "Text 2's author explains why Cr\u00e9te and Jolicoeur's moose study found no predation effect while other predation relief studies show prey increases: those studies typically examine small, rapidly reproducing prey like mice, while the moose study involves large, slowly reproducing prey. The difference in outcomes hinges on prey characteristics."
+    },
+    {
+      "title": "Match the author's logic to the choices",
+      "content": "Choice A captures the key distinction Text 2's author makes: Risbey's mouse findings result from small, rapidly reproducing prey characteristics that moose lack. Choices B and C introduce predator size ratios and comparisons between feral cats and wolves, neither of which Text 2 discusses; D contradicts Text 2's explicit statement that many predation relief studies show similar increases in various small prey. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

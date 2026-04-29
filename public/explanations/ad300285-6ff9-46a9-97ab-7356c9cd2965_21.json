@@ -1,0 +1,16 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor",
+      "content": "Each side of parallelogram PQRS is 2 times the corresponding side of ABCD. The linear scale factor is $k = 2$."
+    },
+    {
+      "title": "Apply area scaling for similar figures",
+      "content": "When similar figures have a linear scale factor of $k$, their areas scale by $k^2$. Multiply the original area by the area scale factor:<br/><br/>$$5 \\times 2^2 = 5 \\times 4 = 20 \\text{ cm}^2$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$A_{\\text{new}} = k^2 \\cdot A_{\\text{old}}$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "24016dee",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "To remove the parentheses, distribute the negative sign through the second group. $(8x^3 + 8) - (x^3 - 2)$ becomes: $$8x^3 + 8 - x^3 + 2$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group the $x^3$ terms and constant terms separately:<ul><li>$x^3$ terms: $8x^3 - x^3 = 7x^3$</li><li>Constants: $8 + 2 = 10$</li></ul>The simplified expression is $7x^3 + 10$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

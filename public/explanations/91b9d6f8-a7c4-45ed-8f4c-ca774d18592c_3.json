@@ -1,0 +1,15 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the density",
+      "content": "The maximum recommendation is 102 trees per acre, meaning each acre can hold at most 102 trees."
+    },
+    {
+      "title": "Scale to the total area",
+      "content": "For 3 acres, multiply the maximum per acre by the number of acres: $$102 \\times 3 = 306$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

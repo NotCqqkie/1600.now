@@ -1,0 +1,15 @@
+{
+  "questionId": "bbb0359a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from the table",
+      "content": "Pick any two data points from the table, such as $(1, 11)$ and $(2, 16)$. The slope is:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{16 - 11}{2 - 1} = \\frac{5}{1} = 5$$"
+    },
+    {
+      "title": "Find y-intercept and match to a choice",
+      "content": "Substitute the slope $m = 5$ and point $(1, 11)$ into $y = mx + b$:<br/>$$11 = 5(1) + b$$<br/>$$b = 6$$<br/>The equation is $y = 5x + 6$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

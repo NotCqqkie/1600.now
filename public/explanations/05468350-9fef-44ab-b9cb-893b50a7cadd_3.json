@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the linear equation for x",
+      "content": "From $x + 5 = 14$, subtract 5 from both sides: $$x = 14 - 5 = 9$$"
+    },
+    {
+      "title": "Substitute x = 9 into the quadratic equation",
+      "content": "Plug $x = 9$ into $y = 3x^2 + 3$: $$y = 3(9)^2 + 3 = 3(81) + 3 = 243 + 3 = 246$$ The intersection point is $(9, 246)$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

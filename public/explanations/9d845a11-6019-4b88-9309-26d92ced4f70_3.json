@@ -1,0 +1,11 @@
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract 50 from both sides",
+      "content": "To solve $x + 50 = 160$, subtract 50 from both sides:<br/>$$x + 50 - 50 = 160 - 50$$<br/>$$x = 110$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

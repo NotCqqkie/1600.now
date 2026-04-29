@@ -1,0 +1,15 @@
+{
+  "questionId": "dd72993d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage links sediment presence to <strong>yellow</strong> wavelengths (560 nm and above). The conclusion claims segments flowing into lakes carry more sediment. The decisive clue is the wavelength classification: sediment = yellow (560+ nm), non-sediment = lower wavelengths."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "D directly contrasts inflow (560+ nm, sediment-rich) and outflow (below 560 nm, less sediment) wavelengths, aligning with the defined sediment-color relationship. A, B, and C either discuss unrelated factors (chlorophyll), lake interiors (not river segments), or generalize without comparing inflow/outflow. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b80d10d7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite with common denominator",
+      "content": "Notice both sides involve the denominator $(x+5)$. Rewrite the right side with the same denominator:<br/>$$1 - \\frac{1}{x+5} = \\frac{x+5-1}{x+5} = \\frac{x+4}{x+5}$$<br/>The equation becomes:<br/>$$\\frac{2(x+1)}{x+5} = \\frac{x+4}{x+5}$$"
+    },
+    {
+      "title": "Equate numerators and solve",
+      "content": "Since the denominators are equal, the numerators must be equal:<br/>$$2(x+1) = x+4$$<br/>$$2x + 2 = x + 4$$<br/>$$x + 2 = 4$$<br/>$$x = 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

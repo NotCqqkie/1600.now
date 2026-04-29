@@ -1,0 +1,19 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the 4-term polynomial structure",
+      "content": "This polynomial has 4 terms. The pattern suggests <strong>factoring by grouping</strong>\u2014we'll pair terms strategically to reveal a common factor."
+    },
+    {
+      "title": "Group and factor each pair",
+      "content": "Group the first two terms and the last two terms separately:<br/>$$12x^3 + 60x^2y + xy^2 + 5y^3 = (12x^3 + 60x^2y) + (xy^2 + 5y^3)$$<br/>Factor out the GCF from each group:<br/>$$= 12x^2(x + 5y) + y^2(x + 5y)$$"
+    },
+    {
+      "title": "Extract the common binomial factor",
+      "content": "Both terms now contain $(x + 5y)$. Factor it out:<br/>$$(x + 5y)(12x^2 + y^2)$$<br/>Reordering the factors as $(12x^2 + y^2)(x + 5y)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

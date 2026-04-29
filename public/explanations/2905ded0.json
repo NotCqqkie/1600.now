@@ -1,0 +1,16 @@
+{
+  "questionId": "2905ded0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract counts from the table",
+      "content": "The row <em>At least 40 years old</em> and column <em>Total</em> shows 107 members at least 40 years old. The bottom-right cell shows 135 total members in the organization."
+    },
+    {
+      "title": "Calculate the probability",
+      "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$",
+      "content": "A randomly selected member is at least 40 years old in 107 out of 135 cases: $$\\frac{107}{135}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

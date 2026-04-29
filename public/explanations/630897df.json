@@ -1,0 +1,15 @@
+{
+  "questionId": "630897df",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract 331.3 from both sides",
+      "content": "Starting with $v = 331.3 + 0.606 \\times T$, we need to isolate T. The constant 331.3 is added on the right side, so subtract it from both sides:<br/>$$v - 331.3 = 0.606 \\times T$$"
+    },
+    {
+      "title": "Divide by 0.606 to isolate T",
+      "content": "Now divide both sides by 0.606:<br/>$$T = \\frac{v - 331.3}{0.606}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

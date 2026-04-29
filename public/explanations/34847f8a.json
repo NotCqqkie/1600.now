@@ -1,0 +1,15 @@
+{
+  "questionId": "34847f8a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the left side fractions using common denominator",
+      "content": "Convert each fraction to have denominator $(x-2)(x+5)$:<br/>$$\\frac{2}{x-2} + \\frac{3}{x+5} = \\frac{2(x+5)}{(x-2)(x+5)} + \\frac{3(x-2)}{(x-2)(x+5)}$$<br/>Combine the numerators:<br/>$$= \\frac{2(x+5) + 3(x-2)}{(x-2)(x+5)}$$<br/>Expand:<br/>$$= \\frac{2x + 10 + 3x - 6}{(x-2)(x+5)} = \\frac{5x + 4}{(x-2)(x+5)}$$"
+    },
+    {
+      "title": "Match numerators to find r and t",
+      "content": "Since the left side equals the right side:<br/>$$\\frac{5x+4}{(x-2)(x+5)} = \\frac{rx+t}{(x-2)(x+5)}$$<br/>The numerators must be equal for all valid $x$:<br/>$$5x + 4 = rx + t$$<br/>Comparing coefficients: $r = 5$ (coefficient of $x$) and $t = 4$ (constant term). Therefore: $rt = 5 \\times 4 = 20$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contradiction in the evidence",
+      "content": "The recent finding is that economists' estimates vary by more than a factor of five even within the same country and timeframe. Since country-specific characteristics like oil import-export ratios are constant within a country, they cannot explain this within-country variation\u2014the source must be something else."
+    },
+    {
+      "title": "Match to the correct explanation",
+      "content": "C identifies methodological discrepancies as the source of heterogeneity in economists' estimates. The others revert to country-specific explanations (D), misidentify measurement sensitivity as the issue (B), or invoke an unrelated mechanism (A). Since country-specific characteristics are constant within a single country, methodological differences in how studies are conducted offer the only logical explanation for the variation in estimates. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

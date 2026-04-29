@@ -1,0 +1,20 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze what happens to the mean when removing 78.2\u00b0F",
+      "content": "Reading from the histogram, the 11 temperatures consist of 1 value in [40, 45), 2 in [45, 50), 3 in [50, 55), 3 in [55, 60), 1 in [60, 65), and 1 value of 78.2\u00b0F.<br/><br/>To determine how the mean changes, I'll compare 78.2\u00b0F to the original mean. Using the interval midpoints as estimates: approximately $1(42.5) + 2(47.5) + 3(52.5) + 3(57.5) + 1(62.5) + 78.2 \\approx 608$, giving a mean around $608 \\div 11 \\approx 55.3\u00b0F$.<br/><br/>Even at the extremes:<ul><li>Minimum possible mean: $(40 + 90 + 150 + 165 + 60 + 78.2) \\div 11 \\approx 53\u00b0F$</li><li>Maximum possible mean: approaching $(45 + 100 + 165 + 180 + 65 + 78.2) \\div 11 \\approx 57.6\u00b0F$</li></ul>Since 78.2\u00b0F exceeds the original mean in all cases, removing it must decrease the mean. <strong>Statement I is always true.</strong>",
+      "formula": "$$\\text{When removed value} > \\text{mean, new mean} < \\text{original mean}$$"
+    },
+    {
+      "title": "Analyze what happens to the median when removing 78.2\u00b0F",
+      "content": "In the original 11-value dataset, the median is the 6th value (middle position). From the histogram, positions 4, 5, and 6 all fall in [50, 55).<br/><br/>After removing 78.2\u00b0F (which is at position 11), the new 10-value dataset has positions 1\u201310. The new median is the average of the 5th and 6th values: both still in [50, 55).<br/><br/>Let the three [50, 55) values be $a \\leq b \\leq c$:<ul><li>Original median = $c$ (the 6th position)</li><li>New median = $\\frac{a + b}{2}$ (average of 5th and 6th)</li></ul>The new median is less than the original only if $a < c$. However, the histogram allows $a = b$ (the 5th and 6th values could be equal, e.g., both 52.5\u00b0F). If $a = b$, then new median $= \\frac{a + a}{2} = a$, which may equal $c$. <strong>Statement II is not necessarily true.</strong>"
+    },
+    {
+      "title": "Identify which statement(s) must be true",
+      "content": "Statement I is always true: removing a value greater than the mean always decreases the mean. Since 78.2\u00b0F exceeds the original mean in every possible scenario, the new mean must be less than the original.<br/><br/>Statement II is not necessarily true: the 5th and 6th values (both in [50, 55)) could be equal, making the new median equal to the original median, not less. The histogram does not guarantee they differ.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

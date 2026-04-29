@@ -1,0 +1,28 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept of each function",
+      "content": "To find the y\u2011coordinate of the y\u2011intercept, set $$x=0$$ in each definition.<br/>For I: $$f(0)=a(2.1)^0+b=a+b$$.<br/>For II: $$g(0)=a(2.1)^0+b=a+b$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Check whether the y\u2011intercept appears as a constant or coefficient",
+      "content": "In both expressions the y\u2011intercept is $$a+b$$, which is a sum of the two parameters. Neither equation shows $$a+b$$ by itself as a standalone constant term or as a coefficient of any term.<br/>Therefore neither I nor II displays the y\u2011intercept as a constant or coefficient.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Select the correct choice",
+      "content": "Since neither equation exhibits the y\u2011intercept directly, the correct option is D) Neither I nor II.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

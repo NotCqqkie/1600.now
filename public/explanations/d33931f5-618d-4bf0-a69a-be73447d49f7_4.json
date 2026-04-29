@@ -1,0 +1,15 @@
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what -3 represents in the function",
+      "content": "The function $t(x) = -3x + 74$ is in slope-intercept form $y = mx + b$. The value $-3$ is the <strong>slope</strong>, the coefficient of $x$."
+    },
+    {
+      "title": "Interpret the slope as the rate of change",
+      "content": "In a linear function, the slope represents the <strong>rate of change</strong> per unit of input. Since the slope is $-3$, the temperature decreases by 3 degrees Fahrenheit each hour. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

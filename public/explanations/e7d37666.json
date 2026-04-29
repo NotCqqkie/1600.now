@@ -1,0 +1,15 @@
+{
+  "questionId": "e7d37666",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The signal is the structure \u201cby no means ______\u201d immediately followed by \u201cindeed, Banisadr himself cites Bosch as an inspiration.\u201d The word \u201cindeed\u201d confirms that recognizing Bosch's influence is definitely a real and obvious fact. The blank must contain a word that, when negated by \u201cby no means,\u201d captures this certainty."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<em>Unimportant</em> in the blank creates \u201cby no means unimportant\u201d\u2014meaning <strong>definitely important</strong>, which captures the undeniable status of Bosch's influence in Banisadr's work. The other three choices fail to produce this meaning: \u201csubstantial\u201d and \u201cappropriate\u201d are already positive words that would contradict the passage when negated, and \u201csatisfying\u201d is irrelevant to influence recognition. That matches choice C\u2014<strong>C</strong> is correct."
+    }
+  ]
+}

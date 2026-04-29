@@ -1,0 +1,15 @@
+{
+  "questionId": "239d3535",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate 1891 on the graph",
+      "content": "Find the year 1891 on the x-axis. At this point, each of the four lines represents a different city's population according to the legend."
+    },
+    {
+      "title": "Compare the four population values",
+      "content": "Montr\u00e9al's dashed line reaches approximately 220,000 in 1891. The other cities show lower values \u2014 Toronto around 180,000, Qu\u00e9bec City around 60,000, and Halifax around 40,000. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

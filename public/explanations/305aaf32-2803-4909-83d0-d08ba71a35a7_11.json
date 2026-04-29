@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_11",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify all roots from the factored form",
+      "content": "The equation $x^2(2x - 11)(2x - u) = 0$ breaks into three factors, each giving a root:<br/><ul><li>$x^2 = 0 \\Rightarrow x = 0$ with multiplicity 2</li><li>$2x - 11 = 0 \\Rightarrow x = \\frac{11}{2}$</li><li>$2x - u = 0 \\Rightarrow x = \\frac{u}{2}$</li></ul>"
+    },
+    {
+      "title": "Sum all roots and solve for u",
+      "content": "The sum of all roots (counting multiplicity) equals 16:<br/>$$0 + 0 + \\frac{11}{2} + \\frac{u}{2} = 16$$<br/>Combine the fractions on the left:<br/>$$\\frac{11 + u}{2} = 16$$<br/>Multiply both sides by 2:<br/>$$11 + u = 32$$<br/>Therefore $u = 21$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses and the connector",
+      "content": "The sentence contains two complete thoughts: <strong>\u201cThe sand is a more unusual shade\u201d</strong> and <strong>\u201cdeposits of crushed coral lend the sand a unique pink hue.\u201d</strong> The word <strong>\u201cthough\u201d</strong> must connect these as a transitional element signaling an explanatory relationship between them."
+    },
+    {
+      "title": "Apply the transitional word punctuation rule",
+      "content": "When <em>though</em> connects two independent clauses as a transitional element, place a comma before it and a semicolon after: <strong>IC, though; IC</strong>. The comma marks the end of the first clause, and the semicolon separates the transitional word from the beginning of the next complete thought.<br/><br/>Options B and C fail to include the semicolon after <em>though</em>, and option D incorrectly places the semicolon before <em>though</em> instead of after.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

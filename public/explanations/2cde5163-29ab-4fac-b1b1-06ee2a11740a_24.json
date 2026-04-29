@@ -1,0 +1,15 @@
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the cause-and-effect relationship",
+      "content": "The first sentence establishes that residents rely heavily on the Metro for millions of trips. The second sentence describes city officials maintaining the system. The transition must connect these by showing that the maintenance effort is the natural result of the heavy reliance."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>Accordingly</strong> means 'for that reason' or 'as a result,' directly marking the consequence that officials maintain the system because residents depend on it heavily. The other three don't capture this consequence\u2014they suggest exemplification, contrast, or choice instead. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast",
+      "content": "The crucial signal is the absence-to-presence shift: neither <em>History</em> nor works predating it mention the Round Table, yet Malory's <em>Le Morte d'Arthur</em> includes it. The passage also notes that only <em>many</em> (not all) of Malory's sources derive from Geoffrey's <em>History</em>, meaning he used other sources as well."
+    },
+    {
+      "title": "Apply this to the answer choices",
+      "content": "Because the Round Table appears in Malory's work but not in Geoffrey's or any earlier source, Malory must have found it in a source that Geoffrey was unfamiliar with\u2014one of his non-Geoffrey sources. The other choices either misstate text similarities, contradict the source evidence, or conflate unrelated concepts.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

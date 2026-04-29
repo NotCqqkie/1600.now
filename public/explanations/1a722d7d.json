@@ -1,0 +1,15 @@
+{
+  "questionId": "1a722d7d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find c from the given condition p(c) = 10",
+      "content": "Substitute $x = c$ into the function definition:\n\n$$p(c) = \\frac{(c-c)^2 + 160}{2c} = \\frac{0 + 160}{2c} = \\frac{80}{c}$$\n\nSince we know $p(c) = 10$, set up the equation:\n\n$$\\frac{80}{c} = 10$$\n\nMultiply both sides by $c$ and divide by 10:\n\n$$80 = 10c$$\n$$c = 8$$"
+    },
+    {
+      "title": "Calculate p(12) using c = 8",
+      "content": "Now substitute $x = 12$ and $c = 8$ into the original function:\n\n$$p(12) = \\frac{(12-8)^2 + 160}{2(8)}$$\n\nSimplify the numerator:\n\n$$p(12) = \\frac{4^2 + 160}{16} = \\frac{16 + 160}{16} = \\frac{176}{16} = 11$$\n\nThat matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

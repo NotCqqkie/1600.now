@@ -1,0 +1,15 @@
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shape-to-color relationship",
+      "content": "The passage states that melanosomes are <strong>shaped differently depending on which colors they produce</strong>. This is the key insight that opens the door to solving the problem: if shape varies by color, then examining a melanosome's shape can reveal what color it produced."
+    },
+    {
+      "title": "Apply the relationship to determine the answer",
+      "content": "Choice B states they could determine the colors of the bird based on the appearance of the melanosomes\u2014directly applying the shape-color link discovered in the feather. The other choices either propose finding melanosomes in other species, explaining preservation, or identifying colors from fossils lacking melanosomes\u2014none of which follow from the shape-color relationship established in the passage. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

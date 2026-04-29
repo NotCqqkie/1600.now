@@ -1,0 +1,15 @@
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_13",
+  "correctAnswer": "580",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation for doubling",
+      "content": "The initial population at $t = 0$ is $f(0) = 60,000(2)^{0} = 60,000$. When the population doubles, it equals $2 \\times 60,000 = 120,000$. Set up the equation:<br/><br/>$$60,000(2)^{\\frac{t}{580}} = 120,000$$"
+    },
+    {
+      "title": "Solve using exponent properties",
+      "content": "Divide both sides by 60,000:<br/><br/>$$(2)^{\\frac{t}{580}} = 2$$<br/><br/>Rewrite the right side as a power of 2: $(2)^{\\frac{t}{580}} = 2^1$. Since the bases are equal, the exponents must be equal:<br/><br/>$$\\frac{t}{580} = 1$$<br/><br/>Multiply both sides by 580 to get $t = 580$ minutes."
+    }
+  ]
+}

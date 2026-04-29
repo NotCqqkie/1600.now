@@ -1,0 +1,15 @@
+{
+  "questionId": "0ad5012e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the y-intercept",
+      "content": "The y-intercept occurs at $x = 0$. Since $x$ represents months after the end of May 2012, $x = 0$ corresponds to the end of May 2012. Substitute $x = 0$ into the equation:<br/><br/>$$y = -\\frac{1}{4}(0)^2 + 2(0) + 29 = 29$$"
+    },
+    {
+      "title": "Interpret the y-intercept",
+      "content": "The y-intercept is 29, which represents the estimated number of scheduled deliveries at the end of May 2012. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

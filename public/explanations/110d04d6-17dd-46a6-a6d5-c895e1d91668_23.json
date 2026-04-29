@@ -1,0 +1,15 @@
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the logical relationship between the two sentences",
+      "content": "The first sentence establishes what Barad's theory <strong>does</strong>: it rebuts the old subject-object divide that has defined scientific epistemology. The second sentence must indicate what <strong>follows from</strong> or <strong>flows out of</strong> this foundational rebuke. It's not introducing an example, a contradiction, or a qualification\u2014it's drawing a conclusion: the theory amounts to a paradigmatic shift."
+    },
+    {
+      "title": "Match the transition to the logical flow",
+      "content": "\"<strong>As such</strong>\" means \"in this manner\" or \"therefore\"\u2014it connects a prior claim directly to a logical consequence. Here, it bridges from the rebuke (sentence 1) to the broader implication (sentence 2: a paradigmatic shift). The other three fail: \"For example\" introduces exemplification, not a logical consequence; \"By contrast\" signals contradiction, which contradicts the reinforcing tone; \"That said\" introduces a concession or caveat, but the second sentence amplifies rather than qualifies. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

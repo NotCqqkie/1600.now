@@ -1,0 +1,17 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_12",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out y^4",
+      "content": "Rewrite each term by factoring out the greatest common factor $$y^4$$: $$72y^5 - 48y^4 = y^4(72y - 48)$$<br/>Set this equal to the given form: $$y^4(72y - 48) = r y^4 (12y - 8)$$. Since $$y^4$$ is not zero for all $$y$$, cancel it: $$72y - 48 = r(12y - 8)$$.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Match coefficients to find r",
+      "content": "For the equality $$72y - 48 = r(12y - 8)$$ to hold for every $$y$$, equate coefficients of $$y$$: $$12r = 72$$ \u2192 $$r = 6$$.<br/>Equate constant terms: $$-8r = -48$$ \u2192 $$r = 6$$.<br/>Both give the same value, so $$r = 6$$.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

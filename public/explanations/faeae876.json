@@ -1,0 +1,19 @@
+{
+  "questionId": "faeae876",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply zero product property",
+      "content": "Since 52 is nonzero, the product equals zero when at least one factor is zero:\n$$x^3 + 64 = 0 \\quad \\text{or} \\quad x^4 - 81 = 0$$"
+    },
+    {
+      "title": "Solve the cubic equation",
+      "content": "From $x^3 + 64 = 0$, we get $x^3 = -64$. The unique real cube root is $x = -4$. This contributes exactly one real solution."
+    },
+    {
+      "title": "Solve the quartic equation and count total solutions",
+      "content": "From $x^4 - 81 = 0$, we get $x^4 = 81 = 3^4$. Both $x = 3$ and $x = -3$ are fourth roots of 81, giving exactly two real solutions.<br/><br/>The three distinct real solutions overall are $x \\in \\{-4, -3, 3\\}$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle at line r",
+      "content": "Where transversal <em>t</em> crosses line <em>r</em>, we have a 107\u00b0 angle positioned above line <em>r</em> on the left side of the transversal."
+    },
+    {
+      "title": "Apply corresponding angles with parallel lines",
+      "content": "Since lines <em>r</em> and <em>s</em> are parallel, the corresponding angles theorem applies: angles in the same relative position at each intersection are equal. The angle <em>x</em>\u00b0 at line <em>s</em> is above line <em>s</em> on the left side of transversal <em>t</em>\u2014the same position as the 107\u00b0 angle at line <em>r</em>.<br/><br/>$$x\u00b0 = 107\u00b0$$<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

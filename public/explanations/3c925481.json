@@ -1,0 +1,15 @@
+{
+  "questionId": "3c925481",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core requirement",
+      "content": "The goal is explicit: provide an example of a fruit that contains vitamin C. This demands naming a specific fruit\u2014not just mentioning \u201cfruits\u201d in general\u2014and connecting it to vitamin C."
+    },
+    {
+      "title": "Select the choice that supplies the specific example",
+      "content": "B names pineapple and identifies it as containing vitamin C. The other three choices discuss the broader context of humans and vitamin C but fail to specify which fruit serves as the concrete example. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

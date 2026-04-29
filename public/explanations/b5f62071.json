@@ -1,0 +1,19 @@
+{
+  "questionId": "b5f62071",
+  "correctAnswer": "-28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the first equation to find its slope",
+      "content": "Start with $$48x - 64y = 48y + 24$$. Collect all $y$ terms on the left and constants on the right:<br/>$$48x - 64y - 48y = 24$$<br/>$$48x - 112y = 24$$<br/><br/>Divide by 16 to simplify:<br/>$$3x - 7y = \\frac{3}{2}$$<br/><br/>Solve for $y$ to get slope-intercept form:<br/>$$y = \\frac{3}{7}x - \\frac{3}{14}$$<br/><br/>The slope of this line is $\\frac{3}{7}$."
+    },
+    {
+      "title": "Identify the condition for no solution",
+      "content": "A system of two linear equations has no solution when the lines are parallel\u2014they have the same slope but different $y$-intercepts. Since equation 1 has slope $\\frac{3}{7}$, equation 2 must also have slope $\\frac{3}{7}$ for the lines to be parallel."
+    },
+    {
+      "title": "Solve for r by matching slopes",
+      "content": "Rearrange the second equation to isolate $y$:<br/>$$ry = -12x + \\frac{1}{8}$$<br/><br/>Divide both sides by $r$:<br/>$$y = -\\frac{12}{r}x + \\frac{1}{8r}$$<br/><br/>The slope of this line is $-\\frac{12}{r}$. For parallel lines, set this equal to the slope from equation 1:<br/>$$-\\frac{12}{r} = \\frac{3}{7}$$<br/><br/>Cross-multiply and simplify:<br/>$$-12 \\cdot 7 = 3r$$<br/>$$-84 = 3r$$<br/>$$r = -28$$"
+    }
+  ]
+}

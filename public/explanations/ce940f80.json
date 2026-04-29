@@ -1,0 +1,15 @@
+{
+  "questionId": "ce940f80",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by 25",
+      "content": "To isolate $x^2$, multiply both sides by 25:<br/><br/>$$\\frac{x^2}{25} \\cdot 25 = 36 \\cdot 25$$<br/><br/>$$x^2 = 900$$"
+    },
+    {
+      "title": "Take the positive square root",
+      "content": "Since $x^2 = 900$, and the answer choices are all positive, take the positive square root:<br/><br/>$$x = \\sqrt{900} = 30$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d3fe472f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding sides",
+      "content": "Since $A$ corresponds to $X$, $B$ corresponds to $Y$, and $C$ corresponds to $Z$, side $AB$ corresponds to side $XY$."
+    },
+    {
+      "title": "Apply the scale factor",
+      "content": "Each side of triangle $XYZ$ is 2 times the corresponding side in triangle $ABC$. Therefore:<br/><br/>$$XY = 2 \\cdot AB = 2 \\cdot 16 = 32$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

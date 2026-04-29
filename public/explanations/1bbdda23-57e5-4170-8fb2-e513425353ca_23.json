@@ -1,0 +1,15 @@
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast in the passage",
+      "content": "The first sentence describes a crude method (cardboard cutout and string), and the second tells us it actually worked remarkably well\u2014diverging from a computer calculation by just a few miles. The passage contrasts an apparently simple technique with surprisingly accurate results."
+    },
+    {
+      "title": "Find the transition word that captures this contrast",
+      "content": "<strong>Still</strong> (meaning \"nevertheless\" or \"yet\") directly captures this contrast\u2014it signals that despite the crude method's appearance, the technique was surprisingly accurate. <strong>Similarly</strong> suggests parallel ideas, <strong>In other words</strong> suggests restating existing information, and <strong>Fittingly</strong> implies the outcome was expected rather than surprising. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "12ee1edc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Condition for no solution",
+      "content": "<ul><li>For a linear equation $$ax = c$$, there is no solution when the coefficient of $$x$$ is zero and the constant term is non-zero: $$a = 0$$ and $$c \\neq 0$$.</li><li>Here $$a = b-2$$ and $$c = 8$$.</li></ul>"
+    },
+    {
+      "title": "Solve for b",
+      "content": "<ul><li>Set coefficient to zero: $$b-2 = 0$$ \u2192 $$b = 2$$.</li><li>Check constant: $$8 \\neq 0$$ (true), so the equation has no solution when $$b = 2$$.</li><li>That matches choice A \u2014 <strong>A</strong> is correct.</li></ul>"
+    }
+  ]
+}

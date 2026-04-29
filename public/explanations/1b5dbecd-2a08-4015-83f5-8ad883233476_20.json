@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures around the blank",
+      "content": "The sentence has a main independent clause ending at the blank: <strong>\u201cThe Suzuki method is an approach to music instruction.\u201d</strong> After the blank comes an infinitive phrase <strong>\u201cto teach music in the same natural way children learn language\u201d</strong> and then a finite verb <strong>\u201cemphasizes immersion in a musical community.\u201d</strong> The blank must introduce a relative clause that incorporates both elements."
+    },
+    {
+      "title": "Apply the rule for relative clauses with inserted description",
+      "content": "When a relative clause includes added description, that description must be set off by commas as a parenthetical detail (phrased as \u201caiming to...\u201d rather than a full verb), so the relative clause maintains one clear main verb. Choice B correctly uses this structure: \u201cthat\u201d beginning the clause, followed by the parenthetical description in commas, then \u201cemphasizes\u201d as the main verb. Choices A, C, and D either awkwardly repeat verbs (A) or create a comma splice by attempting two main verbs in the clause (C and D). <br><br>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

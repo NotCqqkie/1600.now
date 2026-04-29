@@ -1,0 +1,20 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line s",
+      "content": "Rewrite $8x + 2y = 0$ in slope-intercept form:<br/>$$2y = -8x$$<br/>$$y = -4x$$<br/>The slope of line $s$ is $m_s = -4$."
+    },
+    {
+      "title": "Find the slope of line t using perpendicularity",
+      "content": "When two lines are perpendicular, their slopes are negative reciprocals. If line $s$ has slope $-4$, then line $t$ has slope:<br/>$$m_t = -\\frac{1}{-4} = \\frac{1}{4}$$",
+      "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
+    },
+    {
+      "title": "Use the slope formula with the two points to find k",
+      "content": "Line $t$ passes through $(6, 0)$ and $(k, \\frac{5}{4})$. The slope between these points must equal $\\frac{1}{4}$:<br/>$$\\frac{\\frac{5}{4} - 0}{k - 6} = \\frac{1}{4}$$<br/>Simplify:<br/>$$\\frac{5/4}{k - 6} = \\frac{1}{4}$$<br/>Cross-multiply:<br/>$$\\frac{5}{4} \\cdot 4 = k - 6$$<br/>$$5 = k - 6$$<br/>$$k = 11$$"
+    }
+  ]
+}

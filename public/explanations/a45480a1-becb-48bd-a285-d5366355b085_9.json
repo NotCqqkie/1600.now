@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the turning point",
+      "content": "The passage initially frames probabilistic models and causal determinism as seemingly incompatible. The key signal is the final sentence's pivot: <em>\u201cBut complete foreknowledge of relevant conditions is generally unavailable.\u201d</em> This reveals that our epistemic limitation\u2014not any genuine logical conflict\u2014accounts for the apparent incompatibility."
+    },
+    {
+      "title": "Match the resolution to the choices",
+      "content": "Choice A directly states the resolution: causal determinism doesn't require absolute certainty\u2014outcomes can be determined by conditions while remaining unpredictable from our perspective of incomplete knowledge. The other choices either deny any reconciliation (B), emphasize past data (C), or impose an unwarranted requirement about overwhelming probability (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

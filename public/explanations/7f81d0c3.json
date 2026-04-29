@@ -1,0 +1,15 @@
+{
+  "questionId": "7f81d0c3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quadratic formula",
+      "content": "The equation $x^2 - x - 1 = 0$ is in standard form $ax^2 + bx + c = 0$ with $a = 1$, $b = -1$, and $c = -1$. The quadratic formula states:<br><br>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$<br><br>Substitute the coefficients:<br><br>$$x = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)}$$"
+    },
+    {
+      "title": "Simplify and identify the solutions",
+      "content": "Evaluate the discriminant and simplify:<br><br>$$x = \\frac{1 \\pm \\sqrt{1 + 4}}{2} = \\frac{1 \\pm \\sqrt{5}}{2}$$<br><br>The two solutions are $x = \\frac{1 + \\sqrt{5}}{2}$ and $x = \\frac{1 - \\sqrt{5}}{2}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

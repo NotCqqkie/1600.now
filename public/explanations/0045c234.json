@@ -1,0 +1,15 @@
+{
+  "questionId": "0045c234",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core claim about quantities",
+      "content": "The astronomers specifically state that planets contain \u201cequal or smaller quantities\u201d of the materials found in their host stars."
+    },
+    {
+      "title": "Find evidence that directly contradicts this relationship",
+      "content": "Choice C directly contradicts the claim by showing a rocky planet contains considerably more iron than its host star. The others reinforce the shared-materials foundation (A, B) or question methodology for non-rocky planets (D), neither addressing the core quantity relationship. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

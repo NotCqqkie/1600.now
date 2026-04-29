@@ -1,0 +1,15 @@
+{
+  "questionId": "75208874",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the pattern reveals",
+      "content": "The passage frames social media as enabling linguists to study language, but the meng- example shows something different: the affix originated on social media through creative user application, spread through intentional user prefix use, and only then moved into spoken language. The phrase \u201cmany similar examples of this phenomenon occurring in other languages\u201d indicates this pattern is systematic\u2014social media is not merely where changes are documented but where they originate and spread."
+    },
+    {
+      "title": "Match the pattern to the answer",
+      "content": "Choice D is correct: it states social media \u201cdoes not merely register changes in language usage but can facilitate such changes.\u201d The word \u201cmerely\u201d is key\u2014it shifts the focus from passive observation (register) to active generation (facilitate), which is exactly what the meng- case demonstrates: users created and spread a new affix on social media before it entered speech. The other three choices either miss this facilitative mechanism, restrict it to one language, or contradict the passage. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

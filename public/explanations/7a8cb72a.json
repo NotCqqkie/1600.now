@@ -1,0 +1,11 @@
+{
+  "questionId": "7a8cb72a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide both sides by 7 to isolate m",
+      "content": "The equation is $7m = 2(n+p)$. Dividing both sides by 7 gives:<br/><br/>$$m = \\frac{2(n+p)}{7}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

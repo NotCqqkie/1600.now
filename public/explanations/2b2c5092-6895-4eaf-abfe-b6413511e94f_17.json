@@ -1,0 +1,15 @@
+{
+  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the boundary between list items",
+      "content": "The sentence lists pivotal events after a colon: the founding of the American GI Forum (needing a year) and the <em>Mendez v. Westminster</em> decision. The phrase \u201cfor one\u201d must clearly modify the first item only."
+    },
+    {
+      "title": "Apply the comma-period rule for explanatory phrases",
+      "content": "A comma sets off an explanatory phrase, and a period creates a sentence boundary. The blank must include the year (1948), place a comma before \u201cfor one\u201d to set it off, and then place a period after it to create a boundary before the independent clause. Option A (\u201c1948, for one. The\u201d) keeps the year, comma, and phrase together as a unit, with the period separating it cleanly from \u201cThe <em>Mendez v. Westminster</em>...\u201d Option B breaks this apart with an early period, making \u201cfor one\u201d seem to introduce the second event; option C omits the period entirely, using only commas; option D omits the year. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1d971f75",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the possessive and plural needs",
+      "content": "The blank describes photos belonging to one photographer (Ansel Adams). We need a plural form because <em>\u201cmany of\u201d</em> requires multiple items, and a singular possessive form to show the photos belong to the photographer."
+    },
+    {
+      "title": "Apply the possessive-and-plural rule",
+      "content": "To form a possessive from a singular noun, add <strong>'s</strong> (photographer's); to form a plural, add only <strong>s</strong> without an apostrophe (photos). Choice C uses <strong>photographer's early photos</strong>, combining singular possessive with plural correctly. Choices A and B use <strong>photo's</strong> (singular possessive, not plural), while B and D use <strong>photographers</strong> without a possessive form, failing to show the photos belong to one photographer.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -474,23 +474,17 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "68b576c1-9de8-41d3-9840-538d4edcd113_17",
-    "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "For the linear function $g$, the table shows four values of $x$ and their corresponding values of $g(x)$. The function can be written as $g(x)=mx+b$, where $m$ and $b$ are constants. What is the value of $b$?",
-    "choices": [],
-    "correctAnswer": "37",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Linear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "The correct answer is $67$. It’s given that $f\\left(5\\right)=32$. Therefore, for the given function $f$, when $x=5$, $f\\left(x\\right)=32$. Substituting $5$ for $x$ and $32$ for $f\\left(x\\right)$ in the given function $f\\left(x\\right)=4x+k\\left(x-1\\right)$ yields $32=4\\left(5\\right)+k\\left(5-1\\right)$, or $32=20+4k$. Subtracting $20$ from each side of this equation yields $12=4k$. Dividing each side of this equation by $4$ yields $k=3$. Substituting $3$ for $k$ in the given function $f\\left(x\\right)=4x+k\\left(x-1\\right)$ yields $f\\left(x\\right)=4x+3\\left(x-1\\right)$, which is equivalent to $f\\left(x\\right)=4x+3x-3$, or $f\\left(x\\right)=7x-3$. Substituting $10$ for $x$ into this equation yields $f\\left(10\\right)=7\\left(10\\right)-3$, or $f\\left(10\\right)=67$. Therefore, the value of $f\\left(10\\right)$ is $67$.",
+      "id": "e3cf671f",
+      "testName": "SAT Question Bank",
+      "text": "The function $f$ is defined by $f\\left(x\\right)=4x+k\\left(x-1\\right)$, where $k$ is a constant, and $f\\left(5\\right)=32$. What is the value of $f\\left(10\\right)$?",
+      "correctAnswer": "67",
+      "type": "free-response",
+      "choices": []
   },
   {
     "section": "Math",

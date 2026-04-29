@@ -1,0 +1,15 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope magnitude",
+      "content": "The scatterplot shows a steep negative correlation. Moving from $x = 1$ to $x = 8$, the $y$-values decline from approximately 90 to approximately 20\u2014a drop of 70 units across 7 units of $x$. <br/><br/> A slope of $-0.1$ (choices B and C) would change $y$ by only 0.1 per unit of $x$. Over the entire visible range, that represents a total change of less than 1 unit\u2014far too small to match the data. <br/><br/> The slope must be $-10$. This eliminates B and C, leaving A and D."
+    },
+    {
+      "title": "Test the y-intercept at a clear point",
+      "content": "The point $(3, 60)$ is clearly visible on the scatterplot. <br/><br/> <strong>Choice A:</strong> $y = 80 - 10(3) = 50$. Predicted value is 50; actual value is 60. Does not fit.<br/><br/> <strong>Choice D:</strong> $y = 90 - 10(3) = 60$. Predicted value is 60; actual value is 60. Exact match. <br/><br/> That matches choice D\u2014<strong>D</strong> is correct."
+    }
+  ]
+}

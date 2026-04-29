@@ -1,0 +1,15 @@
+{
+  "questionId": "2f4eafcc",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find where x equals 0 on the y-axis",
+      "content": "The y-intercept is where the parabola crosses the y-axis, which occurs when $x = 0$. Locate the y-axis (the vertical line through the origin) and identify where the parabola intersects it."
+    },
+    {
+      "title": "Read the y-coordinate from the graph",
+      "content": "At $x = 0$, trace vertically along the y-axis to the point where the parabola crosses. Reading the y-value directly from the gridlines, the parabola intersects the y-axis at $y = 7$. The answer is <strong>7</strong>."
+    }
+  ]
+}

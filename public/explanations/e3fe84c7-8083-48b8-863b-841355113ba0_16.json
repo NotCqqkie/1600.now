@@ -1,0 +1,21 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_16",
+  "correctAnswer": "240",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find BC using the Pythagorean theorem",
+      "formula": "$$a^2 + b^2 = c^2$$",
+      "content": "Triangle ABC has a right angle at C, meaning BC \u22a5 AC. With AB = \u221a61 (hypotenuse) and AC = 6 (one leg), apply the Pythagorean theorem:<br/>$$BC^2 + 6^2 = (\\sqrt{61})^2$$<br/>$$BC^2 + 36 = 61$$<br/>$$BC^2 = 25$$<br/>$$BC = 5$$"
+    },
+    {
+      "title": "Establish similar triangles ABC and AED",
+      "content": "Both BC and ED are perpendicular to the line containing A, C, and E, so BC \u2225 ED. Triangle ABC has a right angle at C, and triangle AED has a right angle at E. Both triangles share angle \u2220A, so by AA similarity, triangles ABC and AED are similar."
+    },
+    {
+      "title": "Apply the similarity ratio to find the area",
+      "formula": "$$\\text{Area} = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$$",
+      "content": "The scale factor from ABC to AED is:<br/>$$k = \\frac{AE}{AC} = \\frac{6 + 18}{6} = \\frac{24}{6} = 4$$<br/>The height of triangle ADE scales by this factor:<br/>$$ED = 4 \\cdot BC = 4 \\cdot 5 = 20$$<br/>Therefore, the area is:<br/>$$\\frac{1}{2} \\cdot 24 \\cdot 20 = 240 \\text{ square units}$$"
+    }
+  ]
+}

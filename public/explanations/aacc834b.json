@@ -1,0 +1,19 @@
+{
+  "questionId": "aacc834b",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x into the second equation",
+      "content": "Since the first equation gives $x = 8$, substitute this value into the second equation: $$8 + 3y = 26$$<br/>"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Subtract 8 from both sides: $$3y = 26 - 8$$ $$3y = 18$$<br/>Divide both sides by 3: $$y = 6$$<br/>"
+    },
+    {
+      "title": "Final Answer",
+      "content": "That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

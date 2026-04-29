@@ -1,0 +1,16 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept location",
+      "content": "The <em>y</em>-intercept is where the graph crosses the <em>y</em>-axis, which occurs when <em>x</em> = 0. Substitute <em>x</em> = 0 into $y = 14^x$:<br/><br/>$$y = 14^0$$"
+    },
+    {
+      "title": "Evaluate 14 to the power 0",
+      "content": "Any positive number raised to the power 0 equals 1:<br/><br/>$$y = 1$$<br/><br/>The <em>y</em>-intercept is the point $(0, 1)$. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$a^0 = 1 \\text{ for } a > 0$$"
+    }
+  ]
+}

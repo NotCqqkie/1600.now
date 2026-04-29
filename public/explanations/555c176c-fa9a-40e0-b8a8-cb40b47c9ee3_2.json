@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify initial value and rate",
+      "content": "The elephant calf starts at 226 pounds (initial value) and gains 3 pounds daily (rate of change). The linear model form is $ y = \text{initial} + \text{rate} \\cdot x $. $$y = 226 + 3x$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    },
+    {
+      "title": "Eliminate incorrect operations",
+      "content": "Choices B and D subtract 3x, which would imply weight loss \u2014 contradicts the problem. Choices C and D incorrectly swap the initial value and rate. Only choice A maintains the correct initial weight of 226 with a positive 3x growth."
+    }
+  ]
+}

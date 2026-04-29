@@ -1,0 +1,15 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the factorization and find the other factor",
+      "content": "If $(x + 2b)$ is a factor, the quadratic must factor as $(x + 2b)(x + r)$ for some value $r$. Expanding:<br/><br/>$$(x + 2b)(x + r) = x^2 + (r + 2b)x + 2br$$<br/><br/>All choices have constant term $18b$. Setting $2br = 18b$ and dividing by the positive constant $b$:<br/><br/>$$2r = 18$$<br/>$$r = 9$$"
+    },
+    {
+      "title": "Find which choice gives a positive integer b",
+      "content": "With $r = 9$, the expression expands to $x^2 + (9 + 2b)x + 18b$. So the middle coefficient must equal $9 + 2b$. For each choice, solve for $b$:<br/><ul><li>A: $9 + 2b = 9$ \u2192 $b = 0$ \u2717 (not positive)</li><li>B: $9 + 2b = 24$ \u2192 $b = 7.5$ \u2717 (not an integer)</li><li>C: $9 + 2b = 30$ \u2192 $b = 10.5$ \u2717 (not an integer)</li><li>D: $9 + 2b = 39$ \u2192 $b = 15$ \u2713</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

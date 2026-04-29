@@ -1,0 +1,19 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_21",
+  "correctAnswer": "32/21,1.524,1.523",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the given values",
+      "content": "From the figure, AC = 32 and angle ABC = 90\u00b0. From the problem, AB = AC \u2212 11 = 32 \u2212 11 = 21."
+    },
+    {
+      "title": "Apply the area equality",
+      "content": "The area of triangle ABC can be computed two ways: using the two legs, or using the hypotenuse and the altitude to it.<br/><br/>Area = (1/2) \u00b7 AB \u00b7 BC<br/>Area = (1/2) \u00b7 AC \u00b7 BD<br/><br/>Setting these equal and simplifying:<br/>$$AB \\cdot BC = AC \\cdot BD$$"
+    },
+    {
+      "title": "Solve for the ratio",
+      "content": "Divide both sides by BD \u00b7 AB:<br/>$$\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{32}{21}$$<br/><br/>This equals approximately 1.524."
+    }
+  ]
+}

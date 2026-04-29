@@ -1,0 +1,15 @@
+{
+  "questionId": "c88ba1b7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the comma placement",
+      "content": "\u201dThis period is remembered for its grandeur and artistry,\u201d is an independent clause, followed by a comma and \u201cits vehicles ______ by collectors.\u201d The words after the comma will determine whether we create a comma splice."
+    },
+    {
+      "title": "Choose the option that avoids a second independent clause",
+      "content": "Choice C uses \u201chighly prized\u201d as an adjective without an auxiliary verb, so \u201cits vehicles highly prized by collectors\u201d forms a reduced relative clause, not an independent clause. Choices A, B, and D each contain a form of \u201cto be\u201d (are, had been, were), creating a second independent clause and producing a comma splice. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

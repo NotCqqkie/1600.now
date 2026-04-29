@@ -1,0 +1,15 @@
+{
+  "questionId": "097e10f5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract 180 from both sides",
+      "content": "Starting with $5p + 180 = 250$, subtract 180 from both sides:<br/>$$5p = 250 - 180 = 70$$"
+    },
+    {
+      "title": "Divide both sides by 5",
+      "content": "$$p = \\frac{70}{5} = 14$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

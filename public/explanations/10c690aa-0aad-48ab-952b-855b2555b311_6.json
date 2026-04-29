@@ -1,0 +1,16 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify Linear Model Structure",
+      "content": "The problem describes a linear relationship between days ($x$) and weight ($g(x)$). The general form is $$g(x) = mx + b$$, where $m$ is the daily weight gain and $b$ is the initial weight. <br/><br/>Given: Initial weight $b = 5$ pounds (at birth, $x=0$), and daily gain $m = \frac{1}{4}$ pounds/day. Substituting these values: $$g(x) = \frac{1}{4}x + 5$$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$g(x) = mx + b$$"
+    },
+    {
+      "title": "Verify Initial Condition",
+      "content": "Plug $x = 0$ into the derived function to confirm the initial weight: $$g(0) = \frac{1}{4}(0) + 5 = 5$$. This aligns with the problem statement. For $x = 1$ (after one day): $$g(1) = \frac{1}{4}(1) + 5 = 5.25$$, matching the described weight gain. All other choices have incorrect signs for slope ($m$) or intercept ($b$), leading to unrealistic results (e.g., negative starting weight, weight loss). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

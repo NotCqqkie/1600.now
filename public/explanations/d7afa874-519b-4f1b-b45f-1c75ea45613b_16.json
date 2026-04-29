@@ -1,0 +1,19 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the growth condition",
+      "content": "<div class=\"callout\">\"For every increase of 2 in $x$, $f(x)$ increases by a factor of $c$\" means:</div>$$f(x+2) = c \\cdot f(x)$$<br/>We need to find which form displays the growth factor $c$ as the base."
+    },
+    {
+      "title": "Find the exponent structure needed",
+      "content": "For an exponential $f(x) = a \\cdot b^{\\text{exponent}}$, when the exponent increases by 1, the output multiplies by the base $b$.<br/><br/>Since $f(x+2)$ must equal $c \\cdot f(x)$, the exponent must increase by 1 when $x$ increases by 2. For exponent $= kx$:<br/>$$2k = 1 \\implies k = \\frac{1}{2}$$<br/>Therefore, we need:<br/>$$f(x) = a \\cdot c^{\\frac{x}{2}}$$"
+    },
+    {
+      "title": "Identify the matching choice",
+      "content": "Check the exponent in each choice:<ul><li>A: $26(2)^{6x}$ \u2014 exponent $6x$</li><li>B: $26(8)^{2x}$ \u2014 exponent $2x$</li><li>C: $26(64)^x$ \u2014 exponent $x$</li><li>D: $26(4096)^{\\frac{x}{2}}$ \u2014 exponent $\\frac{x}{2}$ \u2713</li></ul>Choice D has the required form with exponent $\\frac{x}{2}$. When $x$ increases by 2, the exponent increases by 1, multiplying the output by $4096^1 = 4096$. The base 4,096 is the growth factor $c$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

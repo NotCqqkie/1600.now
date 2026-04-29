@@ -1,0 +1,15 @@
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key conditional signal",
+      "content": "The passage concludes that net CO\u2082 will likely increase if warming hastens spring snow melt."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "Choice D states that early snow melt limits plant growth (less CO\u2082 uptake) and boosts heterotrophic respiration (more CO\u2082 release), directly producing the net increase predicted. The other three either oppose this outcome, miss the respiration effect, or fail to show a net rise.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

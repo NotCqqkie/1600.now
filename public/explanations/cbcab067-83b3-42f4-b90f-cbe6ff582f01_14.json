@@ -1,0 +1,15 @@
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The sentence contains two independent clauses: \u201cthe Puerto Rican municipality of Manat\u00ed is well known for its history as a cultural center in the early 20th [blank]\u201d and \u201cthis distinction has earned it the fitting nickname of \u201cthe Athens of Puerto Rico.\u201d"
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "A semicolon joins two independent clauses, making D correct. Choices A, B, and C violate sentence boundary rules: A omits the required comma before the coordinating conjunction, B leaves two independent clauses unpunctuated, and C uses only a comma without a conjunction. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "44076c7d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the fastest approach: backsolving",
+      "content": "We have 3 data points and need to find which equation fits. Rather than setting up a system of equations, we can test each choice directly by substituting the given $x$-values and checking if we get the correct $f(x)$ output."
+    },
+    {
+      "title": "Test choices until we find the match",
+      "content": "Backsolving \u2014 testing choice C ($f(x) = 9x^2 - x + 14$):<br/><br/>$$f(-1) = 9(-1)^2 - (-1) + 14 = 9 + 1 + 14 = 24$$<br/><br/>This gives 24, not 10. Fails. Testing choice D ($f(x) = x^2 + 5x + 14$):<br/><br/>$$f(-1) = (-1)^2 + 5(-1) + 14 = 1 - 5 + 14 = 10$$<br/>$$f(0) = 0^2 + 5(0) + 14 = 14$$<br/>$$f(1) = 1^2 + 5(1) + 14 = 1 + 5 + 14 = 20$$<br/><br/>All three values match the table. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

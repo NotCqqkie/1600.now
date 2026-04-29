@@ -1,0 +1,240 @@
+[
+  {
+    "id": "0d5495a6",
+    "url": "/bank/math/469?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$h(x)=x+b$\nFor the linear function $h$, $b$ is a constant and $h(0)=45$. What...",
+    "question": {
+      "id": "0d5495a6",
+      "type": "free-response",
+      "text": "$h(x)=x+b$\nFor the linear function $h$, $b$ is a constant and $h(0)=45$. What is the value of $b$?",
+      "correctAnswer": "45",
+      "rationale": "The correct answer is $45$. It\u2019s given that $h\\left(0\\right)=45$. Therefore, for the given function $h$, when $x=0$, $h\\left(x\\right)=45$. Substituting $0$ for $x$ and $45$ for $h\\left(x\\right)$ in the given function, $h\\left(x\\right)=x+b$, yields $45=0+b$, or $45=b$. Therefore, the value of $b$ is $45$.",
+      "section_idx": 469,
+      "url": "/bank/math/469?bankType=unofficial"
+    }
+  },
+  {
+    "id": "1362ccde",
+    "url": "/bank/math/503?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$y=4x+1$\n$4y=15x-8$\nThe solution to the given system of equations is $\\left(x...",
+    "question": {
+      "id": "1362ccde",
+      "type": "free-response",
+      "text": "$y=4x+1$\n$4y=15x-8$\nThe solution to the given system of equations is $\\left(x,y\\right)$. What is the value of $x-y$?",
+      "correctAnswer": "35",
+      "rationale": "The correct answer is $35$. The first equation in the given system of equations defines $y$ as $4x+1$. Substituting $4x+1$ for $y$ in the second equation in the given system of equations yields $4\\left(4x+1\\right)=15x-8$. Applying the distributive property on the left-hand side of this equation yields $16x+4=15x-8$. Subtracting $15x$ from each side of this equation yields $x+4=-8$. Subtracting $4$ from each side of this equation yields $x=-12$. Substituting $-12$ for $x$ in the first equation of the given system of equations yields $y=4\\left(-12\\right)+1$, or $y=-47$. Substituting $-12$ for $x$ and $-47$ for $y$ into the expression $x-y$ yields $-12-\\left(-47\\right)$, or $35$.",
+      "section_idx": 503,
+      "url": "/bank/math/503?bankType=unofficial"
+    }
+  },
+  {
+    "id": "1a621af4",
+    "url": "/bank/math/475?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "A number $x$ is at most $2$ less than $3$ times the value of $y$. If the valu...",
+    "question": {
+      "id": "1a621af4",
+      "type": "free-response",
+      "text": "A number $x$ is at most $2$ less than $3$ times the value of $y$. If the value of $y$ is $-4$, what is the greatest possible value of $x$?",
+      "correctAnswer": "-14",
+      "rationale": "The correct answer is $-14$. It's given that a number $x$ is at most $2$ less than $3$ times the value of $y$. Therefore, $x$ is less than or equal to $2$ less than $3$ times the value of $y$. The expression $3y$ represents $3$ times the value of $y$. The expression $3y-2$ represents $2$ less than $3$ times the value of $y$. Therefore, $x$ is less than or equal to $3y-2$. This can be shown by the inequality $x\\le3y-2$. Substituting $-4$ for $y$ in this inequality yields $x\\le3\\left(-4\\right)-2$ or, $x\\le-14$. Therefore, if the value of $y$ is $-4$, the greatest possible value of $x$ is $-14$.",
+      "section_idx": 475,
+      "url": "/bank/math/475?bankType=unofficial"
+    }
+  },
+  {
+    "id": "6ba39da5",
+    "url": "/bank/math/471?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$2a+8b=198$\n$2a+4b=98$\nThe solution to the given system of equations is $\\lef...",
+    "question": {
+      "id": "6ba39da5",
+      "type": "free-response",
+      "text": "$2a+8b=198$\n$2a+4b=98$\nThe solution to the given system of equations is $\\left(a,b\\right)$. What is the value of $b$?",
+      "correctAnswer": "25",
+      "rationale": "The correct answer is $25$. Subtracting the second equation from the first equation in the given system of equations yields $\\left(2a-2a\\right)+\\left(8b-4b\\right)=198-98$, which is equivalent to$0+4b=100$, or $4b=100$. Dividing each side of this equation by $4$ yields $b=25$.",
+      "section_idx": 471,
+      "url": "/bank/math/471?bankType=unofficial"
+    }
+  },
+  {
+    "id": "72a5fd28",
+    "url": "/bank/math/520?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "For a party, $50$ dinner rolls are needed. Dinner rolls are sold in packages ...",
+    "question": {
+      "id": "72a5fd28",
+      "type": "free-response",
+      "text": "For a party, $50$ dinner rolls are needed. Dinner rolls are sold in packages of $12$. What is the minimum number of packages that should be bought for the party?",
+      "correctAnswer": "5",
+      "rationale": "The correct answer is $5$. Let $p$ represent the number of packages of dinner rolls that should be bought for the party. It's given that dinner rolls are sold in packages of $12$. Therefore, $12p$ represents the number of dinner rolls that should be bought for the party. It's also given that $50$ dinner rolls are needed; therefore, $12p\\ge50$. Dividing both sides of this inequality by $12$ yields $p\\ge\\frac{50}{12}$, or approximately $p\\ge4.17$. Since the number of packages of dinner rolls must be a whole number, the minimum number of packages that should be bought for the party is $5$.",
+      "section_idx": 520,
+      "url": "/bank/math/520?bankType=unofficial"
+    }
+  },
+  {
+    "id": "7b17f86a",
+    "url": "/bank/math/485?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$f\\left(x\\right)=x+\\frac{8}{11}$\nThe function $f$ is defined by the given equ...",
+    "question": {
+      "id": "7b17f86a",
+      "type": "free-response",
+      "text": "$f\\left(x\\right)=x+\\frac{8}{11}$\nThe function $f$ is defined by the given equation. What is the value of $f\\left(x\\right)$ when $x=\\frac{3}{11}$?",
+      "correctAnswer": "1",
+      "rationale": "The correct answer is $1$. It\u2019s given that the function $f$ is defined by $f\\left(x\\right)=x+\\frac{8}{11}$. Substituting $\\frac{3}{11}$for $x$ in the given function yields $f\\left(\\frac{3}{11}\\right)=\\frac{3}{11}+\\frac{8}{11}$, which gives $f\\left(\\frac{3}{11}\\right)=\\frac{11}{11}$, or $f\\left(\\frac{3}{11}\\right)=1$. Therefore, when $x=\\frac{3}{11}$, the value of $f\\left(x\\right)$ is $1$.",
+      "section_idx": 485,
+      "url": "/bank/math/485?bankType=unofficial"
+    }
+  },
+  {
+    "id": "7d5d1b32",
+    "url": "/bank/math/524?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$2\\left(kx-n\\right)=-\\frac{28}{15}x-\\frac{36}{19}$\nIn the given equation, $k$...",
+    "question": {
+      "id": "7d5d1b32",
+      "type": "free-response",
+      "text": "$2\\left(kx-n\\right)=-\\frac{28}{15}x-\\frac{36}{19}$\nIn the given equation, $k$ and $n$ are constants and $n>1$. The equation has no solution. What is the value of $k$?",
+      "correctAnswer": "-.9333",
+      "rationale": "The correct answer is $-\\frac{14}{15}$. A linear equation in the form $ax+b=cx+d$ has no solution only when the coefficients of $x$ on each side of the equation are equal and the constant terms are not equal. Dividing both sides of the given equation by $2$ yields $kx-n=-\\frac{28}{30}x-\\frac{36}{38}$, or $kx-n=-\\frac{14}{15}x-\\frac{18}{19}$. Since it\u2019s given that the equation has no solution, the coefficient of $x$ on both sides of this equation must be equal, and the constant terms on both sides of this equation must not be equal. Since $\\frac{18}{19}<1$, and it's given that $n>1$, the second condition is true. Thus, $k$ must be equal to $-\\frac{14}{15}$. Note that -14/15, -.9333, and -0.933 are examples of ways to enter a correct answer.",
+      "section_idx": 524,
+      "url": "/bank/math/524?bankType=unofficial"
+    }
+  },
+  {
+    "id": "9c7741c6",
+    "url": "/bank/math/453?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "On a 210-mile trip, Cameron drove at an average speed of 60 miles per hour fo...",
+    "question": {
+      "id": "9c7741c6",
+      "type": "free-response",
+      "text": "On a 210-mile trip, Cameron drove at an average speed of 60 miles per hour for the first <em>x</em> hours. He then completed the trip, driving at an average speed of 50 miles per hour for the remaining <em>y</em> hours. If $x = 1$, what is the value of <em>y</em>?",
+      "correctAnswer": "3",
+      "rationale": "The correct answer is 3. It\u2019s given that Cameron drove 60 miles per hour for <em>x</em> hours; therefore, the distance driven at this speed can be represented by 60 x. He then drove 50 miles per hour for <em>y</em> hours; therefore, the distance driven at this speed can be represented by 50 y. Since Cameron drove 210 total miles, the equation $60x + 50y = 210$ represents this situation. If $x = 1$, substitution yields $60 \\times 1 + 50y = 210$, or $60 + 50y = 210$. Subtracting 60 from both sides of this equation yields $50y = 150$. Dividing both sides of this equation by 50 yields $y = 3.$.",
+      "section_idx": 453,
+      "url": "/bank/math/453?bankType=unofficial"
+    }
+  },
+  {
+    "id": "aeaba0b6",
+    "url": "/bank/math/500?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$f(x)=14+4x$\nThe function $f$ represents the total cost, in dollars, of atten...",
+    "question": {
+      "id": "aeaba0b6",
+      "type": "free-response",
+      "text": "$f(x)=14+4x$\nThe function $f$ represents the total cost, in dollars, of attending an arcade when $x$ games are played. How many games can be played for a total cost of $\\$58$?",
+      "correctAnswer": "11",
+      "rationale": "The correct answer is $11$. It\u2019s given that the function $f\\left(x\\right)=14+4x$ represents the total cost, in dollars, of attending an arcade when $x$ games are played. Substituting $58$ for $f\\left(x\\right)$ in the given equation yields $58=14+4x$. Subtracting $14$ from each side of this equation yields $44=4x$. Dividing each side of this equation by $4$ yields $11=x$. Therefore, $11$ games can be played for a total cost of $\\$58$.",
+      "section_idx": 500,
+      "url": "/bank/math/500?bankType=unofficial"
+    }
+  },
+  {
+    "id": "b78cd5df",
+    "url": "/bank/math/519?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "An event planner is planning a party. It costs the event planner a onetime fe...",
+    "question": {
+      "id": "b78cd5df",
+      "type": "free-response",
+      "text": "An event planner is planning a party. It costs the event planner a onetime fee of $\\$35$ to rent the venue and $\\$10.25$ per attendee. The event planner has a budget of $\\$300$. What is the greatest number of attendees possible without exceeding the budget?",
+      "correctAnswer": "25",
+      "rationale": "The correct answer is $25$. The total cost of the party is found by adding the onetime fee of the venue to the cost per attendee times the number of attendees. Let $x$ be the number of attendees. The expression $35+10.25x$ thus represents the total cost of the party. It's given that the budget is $\\$300$, so this situation can be represented by the inequality $35+10.25x\\le300$. Subtracting $35$ from both sides of this inequality gives $10.25x\\le265$. Dividing both sides of this inequality by $10.25$ results in approximately $x\\le25.854$. Since the question is stated in terms of attendees, rounding $25.854$ down to the greatest whole number gives the greatest number of attendees possible, which is $25$.",
+      "section_idx": 519,
+      "url": "/bank/math/519?bankType=unofficial"
+    }
+  },
+  {
+    "id": "b8fa27db",
+    "url": "/bank/math/483?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "Line $j$ is shown in the <em>xy</em>-plane. Line $k$ (not shown) is parallel ...",
+    "question": {
+      "id": "b8fa27db",
+      "type": "free-response",
+      "text": "Line $j$ is shown in the <em>xy</em>-plane. Line $k$ (not shown) is parallel to line $j$. What is the slope of line $k$?",
+      "correctAnswer": "4",
+      "rationale": "The correct answer is $4$. It's given that line $k$ is parallel to line $j$. It follows that the slope of line $k$ is equal to the slope of line $j$. Given two points on a line in the <em>xy</em>-plane, $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, the slope of the line can be calculated as $\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$. In the <em>xy</em>-plane shown, the points $\\left(0,5\\right)$ and $\\left(1,9\\right)$ are on line $j$. It follows that the slope of line $j$ is $\\frac{9-5}{1-0}$, or $4$. Since the slope of line $j$ is equal to the slope of line $k$, the slope of line $k$ is also $4$.",
+      "section_idx": 483,
+      "url": "/bank/math/483?bankType=unofficial"
+    }
+  },
+  {
+    "id": "b9835972",
+    "url": "/bank/math/484?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "In the <em>xy</em>-plane, line $l$ passes through the point $\\left(0,0\\right)...",
+    "question": {
+      "id": "b9835972",
+      "type": "free-response",
+      "text": "In the <em>xy</em>-plane, line $l$ passes through the point $\\left(0,0\\right)$ and is parallel to the line represented by the equation $y=8x+2$. If line $l$ also passes through the point $\\left(3,d\\right)$, what is the value of $d$?",
+      "correctAnswer": "24",
+      "rationale": "The correct answer is $24$. A line in the <em>xy</em>-plane can be defined by the equation $y=mx+b$, where $m$ is the slope of the line and $b$ is the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. It's given that line $l$ passes through the point $\\left(0,0\\right)$. Therefore, the <em>y</em>-coordinate of the <em>y</em>-intercept of line $l$ is $0$. It's given that line $l$ is parallel to the line represented by the equation $y=8x+2$. Since parallel lines have the same slope, it follows that the slope of line $l$ is $8$. Therefore, line $l$ can be defined by an equation in the form $y=mx+b$, where $m=8$ and $b=0$. Substituting $8$ for $m$ and $0$ for $b$ in $y=mx+b$ yields the equation $y=8x+0$, or $y=8x$. If line $l$ passes through the point $\\left(3,d\\right)$, then when $x=3$, $y=d$ for the equation $y=8x$. Substituting $3$ for $x$ and $d$ for $y$ in the equation $y=8x$ yields $d=8\\left(3\\right)$, or $d=24$.",
+      "section_idx": 484,
+      "url": "/bank/math/484?bankType=unofficial"
+    }
+  },
+  {
+    "id": "b988eeec",
+    "url": "/bank/math/462?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "The functions $f$ and $g$ are defined as $f(x)=\\frac{1}{4}x-9$ and $g(x)=\\fra...",
+    "question": {
+      "id": "b988eeec",
+      "type": "free-response",
+      "text": "The functions $f$ and $g$ are defined as $f(x)=\\frac{1}{4}x-9$ and $g(x)=\\frac{3}{4}x+21$. If the function $h$ is defined as $h(x)=f(x)+g(x)$, what is the <em>x</em>-coordinate of the <em>x</em>-intercept of the graph of $y=h\\left(x\\right)$ in the <em>xy</em>-plane?",
+      "correctAnswer": "-12",
+      "rationale": "The correct answer is $-12$. It's given that the functions $f$ and $g$ are defined as $f\\left(x\\right)=\\frac{1}{4}x-9$ and $g\\left(x\\right)=\\frac{3}{4}x+21$. If the function $h$ is defined as $h\\left(x\\right)=f\\left(x\\right)+g\\left(x\\right)$, then substituting $\\frac{1}{4}x-9$ for $f\\left(x\\right)$ and $\\frac{3}{4}x+21$ for $g\\left(x\\right)$ in this function yields $h\\left(x\\right)=\\frac{1}{4}x-9+\\frac{3}{4}x+21$. This can be rewritten as $h\\left(x\\right)=\\frac{4}{4}x+12$, or $h\\left(x\\right)=x+12$. The <em>x</em>-intercept of a graph in the <em>xy</em>-plane is the point on the graph where $y=0$. The equation representing the graph of $y=h\\left(x\\right)$ is $y=x+12$. Substituting $0$ for $y$ in this equation yields $0=x+12$. Subtracting $12$ from both sides of this equation yields $-12=x$, or $x=-12$. Therefore, the <em>x</em>-coordinate of the <em>x</em>-intercept of the graph of $y=h\\left(x\\right)$ in the <em>xy</em>-plane is $-12$.",
+      "section_idx": 462,
+      "url": "/bank/math/462?bankType=unofficial"
+    }
+  },
+  {
+    "id": "c81f1c2f",
+    "url": "/bank/math/458?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$f\\left(x\\right)=45x+600$\nThe function $f$ gives the monthly fee $f\\left(x\\ri...",
+    "question": {
+      "id": "c81f1c2f",
+      "type": "free-response",
+      "text": "$f\\left(x\\right)=45x+600$\nThe function $f$ gives the monthly fee $f\\left(x\\right)$, in dollars, a facility charges to keep $x$ crates in storage. What is the monthly fee, in dollars, the facility charges to keep $50$ crates in storage?",
+      "correctAnswer": "2850",
+      "rationale": "The correct answer is $2,850$. It\u2019s given that the function $f\\left(x\\right)=45x+600$ gives the monthly fee, in dollars, a facility charges to keep $x$ crates in storage. Substituting $50$ for $x$ in this function yields $f\\left(50\\right)=45\\left(50\\right)+600$, or $f\\left(50\\right)=2,850$. Therefore, the monthly fee, in dollars, the facility charges to keep $50$ crates in storage is $2,850$.",
+      "section_idx": 458,
+      "url": "/bank/math/458?bankType=unofficial"
+    }
+  }
+]

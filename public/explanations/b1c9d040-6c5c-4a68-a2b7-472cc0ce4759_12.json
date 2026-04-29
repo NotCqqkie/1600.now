@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the surprise condition",
+      "content": "The phrase \u201ceven though\u201d signals a paradox: we're looking for a surprising fact that seems to work against the global increase\u2014something that should have pulled copper production down."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B shows the United States mined less copper in 2020 (<strong>1.20 million metric tons</strong>) than in 1995 (<strong>1.85 million metric tons</strong>)\u2014capturing the paradox that a major producer declined yet global production still rose. Choices A, C, and D either misstate the data or describe trends supporting rather than challenging the global increase. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

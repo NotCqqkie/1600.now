@@ -1,0 +1,15 @@
+{
+  "questionId": "808f7d6c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the given relationship by substitution",
+      "content": "We're given $t = 4u$ and need to find what $2t$ equals. Substitute the relationship directly into the expression:<br/><br/>$$2t = 2(4u)$$"
+    },
+    {
+      "title": "Multiply to get the answer",
+      "content": "Multiply the coefficient 2 by the expression in parentheses:<br/><br/>$$2(4u) = 8u$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

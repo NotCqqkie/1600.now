@@ -1,0 +1,15 @@
+{
+  "questionId": "f27559d4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states volunteering helps society overall. But the survey contradicts this perception: most young people recognize only individual benefits, while only 6% see societal value. This gap between what <em>is</em> true and what most young people <em>believe</em> is the decisive clue."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice B works because the survey reveals young people underestimate volunteering's impact\u2014only 6% see the societal benefit that the passage claims is real. This gap means volunteering is more helpful than they think. The others miss the mark: A treats individual/societal as geography (not the issue), C invents a magnitude ranking not in the data, and D shifts from perception to access barriers. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

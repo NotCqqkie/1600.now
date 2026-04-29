@@ -1,0 +1,19 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what exponential growth means",
+      "content": "Exponential growth occurs when a quantity multiplies by a constant factor each period. If a bacteria population grows exponentially, the count at each hour is the previous count times some factor <em>k</em> (where <em>k</em> > 1). This produces the pattern: Start with $B_0$, after 1 hour: $B_0 \\cdot k$, after 2 hours: $B_0 \\cdot k^2$, and so on. The key is multiplication by a constant ratio, not addition of a constant amount."
+    },
+    {
+      "title": "Classify each choice as multiplicative or additive",
+      "content": "Review each answer choice:<br/><ul><li><strong>Choice A:</strong> <em>16% greater</em> means multiply by 1.16 each hour. This is multiplicative.</li><li><strong>Choice B:</strong> <em>1,600 greater</em> means add 1,600 each hour. This is additive.</li><li><strong>Choice C:</strong> <em>1,600 less</em> means subtract 1,600 each hour. This is additive.</li><li><strong>Choice D:</strong> <em>1,600 less</em> means subtract 1,600 each hour. This is additive.</li></ul>Only a multiplicative process (constant multiplier) produces exponential growth. Additive processes (constant difference) produce linear growth."
+    },
+    {
+      "title": "Select the exponential model",
+      "content": "Since exponential growth requires a constant multiplicative factor, only choice A fits the description. Choice A states the population increases by 16% each hour, which means multiplying by 1.16 each hour\u2014the hallmark of exponential growth. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

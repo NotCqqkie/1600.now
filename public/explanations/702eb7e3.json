@@ -1,0 +1,15 @@
+{
+  "questionId": "702eb7e3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank should illustrate",
+      "content": "The passage claims that a general measure of economic policy uncertainty may not align with uncertainty about specific policy areas. The blank must provide UK data evidence of this divergence."
+    },
+    {
+      "title": "Find data showing the divergence",
+      "content": "Choice D reveals a reversal: in 2005, general uncertainty (black bar, approximately 90) is substantially lower than trade policy uncertainty (light bar, approximately 100), but in 2010, general uncertainty (approximately 120) is substantially higher than trade policy uncertainty (approximately 75). This shift directly illustrates the passage's point\u2014general and specific measures don't track together. The other three choices either misread the values or claim simultaneous extremes that don't occur in the graph. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

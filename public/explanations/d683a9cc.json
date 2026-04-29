@@ -1,0 +1,16 @@
+{
+  "questionId": "d683a9cc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the dimensions from the figure",
+      "content": "The figure labels three edges of the rectangular prism: length <em>l</em> = 6 cm (bottom), width <em>w</em> = 2 cm (right side), and height <em>h</em> = 3 cm (left side)."
+    },
+    {
+      "title": "Apply the volume formula",
+      "content": "Substitute the dimensions into $V = lwh$:<br/><br/>$$V = 6 \\times 2 \\times 3$$<br/><br/>$$V = 12 \\times 3 = 36$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$V = lwh$$"
+    }
+  ]
+}

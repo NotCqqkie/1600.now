@@ -1,0 +1,15 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the greatest common factor (GCF)",
+      "content": "To factor, we first find what divides both terms:<br/><ul><li>Coefficients: 158 = 2 \u00d7 79 and 24 = 2 \u00d7 12, so GCF of coefficients is 2</li><li>Variables: The highest power of $t$ dividing both $t^3$ and $t^2u$ is $t^2$</li><li>The overall GCF is $2t^2$</li></ul>"
+    },
+    {
+      "title": "Factor out the GCF and select the answer",
+      "content": "Divide each term by $2t^2$:<br/>First term: $\\frac{158t^3}{2t^2} = 79t$<br/>Second term: $\\frac{24t^2u}{2t^2} = 12u$<br/>$$158t^3 - 24t^2u = 2t^2(79t - 12u)$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

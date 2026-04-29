@@ -1,0 +1,15 @@
+{
+  "questionId": "083a35dc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "The sentence contains two independent clauses: one ending with \u201cPueblo Revolt of ______,\u201d another starting with \u201cthe Spanish colonizers were expelled.\u201d A dependent prepositional phrase sits between them."
+    },
+    {
+      "title": "Apply the joining rule",
+      "content": "Two independent clauses require a period, semicolon, or comma plus coordinating conjunction to be properly joined. Choice D supplies <strong>1680, and,</strong> providing the comma and coordinating conjunction to join these clauses correctly. The other three choices either create a comma splice (A, C) or are nonsensical (B). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

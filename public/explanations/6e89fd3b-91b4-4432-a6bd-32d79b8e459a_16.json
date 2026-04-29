@@ -1,0 +1,15 @@
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank appears in a noun phrase: <strong>Lola \u00c1lvarez Bravo's photograph [blank] 'The Freeloaders'</strong>. The title directly follows the noun to identify which specific photograph is being discussed."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A title that identifies a specific noun (like the title of an artwork) does not require punctuation separation. The comma, semicolon, and colon all incorrectly insert breaks that split the noun phrase. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

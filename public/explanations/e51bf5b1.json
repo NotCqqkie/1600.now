@@ -1,0 +1,19 @@
+{
+  "questionId": "e51bf5b1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the second factor using the constant term",
+      "content": "If $(x + 2b)$ is a factor of $3x^2 + mx + 14b$, then:<br/>$$3x^2 + mx + 14b = (x + 2b)(3x + c)$$<br/>where $c$ is constant. The product of the constant terms equals $14b$:<br/>$$(2b) \\cdot c = 14b$$<br/>Since $b > 0$, divide both sides by $b$:<br/>$$2c = 14 \\quad \\Rightarrow \\quad c = 7$$"
+    },
+    {
+      "title": "Expand to find the middle coefficient",
+      "content": "Now expand $(x + 2b)(3x + 7)$:<br/>$$(x + 2b)(3x + 7) = 3x^2 + 7x + 6bx + 14b = 3x^2 + (7 + 6b)x + 14b$$<br/>The middle coefficient must be $7 + 6b$."
+    },
+    {
+      "title": "Test which choice has the form $7 + 6b$ for positive integer $b$",
+      "content": "For each choice, set the middle coefficient equal to $7 + 6b$ and solve for $b$:<br/><ul><li><strong>A:</strong> $7 = 7 + 6b \\Rightarrow b = 0$ (not positive)</li><li><strong>B:</strong> $28 = 7 + 6b \\Rightarrow b = 3.5$ (not an integer)</li><li><strong>C:</strong> $42 = 7 + 6b \\Rightarrow b = \\frac{35}{6}$ (not an integer)</li><li><strong>D:</strong> $49 = 7 + 6b \\Rightarrow b = 7$ (positive integer) \u2713</li></ul><div class=\"callout\">That matches choice D \u2014 <strong>D</strong> is correct.</div>"
+    }
+  ]
+}

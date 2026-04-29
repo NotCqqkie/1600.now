@@ -1,0 +1,15 @@
+{
+  "questionId": "93954cfa",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the calculation",
+      "content": "At $2 per pound, the cost for $c$ pounds is found by multiplying the rate by the quantity."
+    },
+    {
+      "title": "Multiply to find the total cost",
+      "content": "$$2 \\times c = 2c \\text{ dollars}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

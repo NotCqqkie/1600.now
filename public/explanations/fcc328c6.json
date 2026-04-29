@@ -1,0 +1,15 @@
+{
+  "questionId": "fcc328c6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The underlined sentence introduces a scientific term\u2014\u201daeolian transport\u201d\u2014that the passage then uses repeatedly to discuss the study and findings."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B directly names this function: the sentence introduces a scientific term that appears in the discussion that follows. The other choices misidentify what the sentence does, seeing it as presenting remarks, as emphasizing findings, or as distinguishing materials. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

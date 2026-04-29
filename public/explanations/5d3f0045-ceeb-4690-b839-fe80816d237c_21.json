@@ -1,0 +1,15 @@
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive relationship",
+      "content": "The phrase needs to connect <em>\u201cfellow OECD member nation\u201d</em> to <em>\u201cCosta Rica.\u201d</em> Costa Rica is essential to specify which member nation is being discussed (there are 38 OECD members), making it a restrictive appositive\u2014one that identifies or clarifies the noun it follows, not one providing optional extra information."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Restrictive appositives do not require punctuation. <strong>C</strong> is correct because <em>\u201cnation Costa Rica\u201d</em> follows this convention with no punctuation between the common noun and the proper noun that identifies it. Choice A uses a colon, which doesn't introduce a single proper noun in Standard English; choice B adds an em dash that would be unnecessary for a restrictive appositive; choice D adds a comma, which marks non-restrictive appositives (where the information is optional). That matches choice C\u2014<strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "On the left: \u201cIn many languages, including English, these consonants are rare\u201d is an independent clause. On the right: \u201cin some dialects of Mandarin, however, four such consonants are relatively common\u201d is also an independent clause."
+    },
+    {
+      "title": "Apply the independent clause punctuation rule",
+      "content": "A semicolon joins two independent clauses that are closely related or contrasting. Choice C uses a semicolon here, which correctly handles this rule. The other choices violate it: choice A creates a comma splice, choice B creates a run-on sentence, and choice D creates an ungrammatical structure. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

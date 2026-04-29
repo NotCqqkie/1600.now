@@ -1,0 +1,15 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_6",
+  "correctAnswer": "26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 into the function",
+      "content": "We have $h(x) = x + b$. To use the condition $h(0) = 26$, substitute $x = 0$ into the function definition:<br/>$$h(0) = 0 + b = b$$"
+    },
+    {
+      "title": "Apply the given condition to solve for b",
+      "content": "We're told that $h(0) = 26$. From the substitution above, we know that $h(0) = b$. Therefore:<br/>$$b = 26$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2937ef4f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant removal rate",
+      "content": "In the first 5 hours, the auger removed $$24,000 - 19,350 = 4,650\\text{ bushels}$$<br/>The hourly rate is $$\\frac{4,650}{5} = 930\\text{ bushels per hour}$$"
+    },
+    {
+      "title": "Set up and solve the linear equation",
+      "content": "The amount of corn remaining after $t$ hours is $$24,000 - 930t$$<br/>When 12,840 bushels remain:<br/>$$24,000 - 930t = 12,840$$<br/>$$930t = 24,000 - 12,840 = 11,160$$<br/>$$t = \\frac{11,160}{930} = 12\\text{ hours}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

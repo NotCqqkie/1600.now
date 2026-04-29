@@ -1,0 +1,19 @@
+{
+  "questionId": "4de87c9a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate '8 times a number x'",
+      "content": "The phrase '8 times a number x' means multiply 8 by $x$, which is written as $$8x$$."
+    },
+    {
+      "title": "Add 3 more",
+      "content": "'3 more than' means we add 3 to the previous result, giving $$8x+3$$."
+    },
+    {
+      "title": "Set equal to 83 and identify the choice",
+      "content": "The full statement 'is equal to 83' gives the equation $$8x+3=83$$. Looking at the options, this matches choice D.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

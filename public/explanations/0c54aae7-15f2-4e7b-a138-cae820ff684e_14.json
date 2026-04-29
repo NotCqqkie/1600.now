@@ -1,0 +1,19 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that vertex form displays the minimum",
+      "content": "The function $f(x) = x^2 - 4x - 320$ is a parabola opening upward (positive leading coefficient). For an upward-opening parabola, the vertex form $f(x) = a(x-h)^2 + k$ displays the minimum value directly as the constant $k$. The question asks which form shows this minimum value explicitly as a constant or coefficient."
+    },
+    {
+      "title": "Complete the square to find vertex form",
+      "content": "Starting with $f(x) = x^2 - 4x - 320$:<br/>Take half the coefficient of $x$: $-4 \\div 2 = -2$, then square it: $(-2)^2 = 4$.<br/>Add and subtract this value inside:<br/>$$f(x) = (x^2 - 4x + 4) - 4 - 320 = (x-2)^2 - 324$$<br/>The minimum value is now displayed as $-324$."
+    },
+    {
+      "title": "Identify the matching choice",
+      "content": "The vertex form $(x-2)^2 - 324$ can be written as $(x-2)^2 + (-324)$, which matches choice B. To verify it is equivalent, expand: $(x-2)^2 + (-324) = x^2 - 4x + 4 - 324 = x^2 - 4x - 320$ \u2713. This is the only form displaying the minimum value $-324$ as a constant. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percent increase equation",
+      "content": "A 31.25% increase means the final value equals the original value times 1.3125. If $x$ is the number on May 1:<br/>$$168 = 1.3125x$$"
+    },
+    {
+      "title": "Backsolve to find the initial value",
+      "content": "Backsolving \u2014 testing choice B (116):<br/>$$1.3125 \\times 116 = 152.25 \\neq 168$$<br/>Fails. Testing choice A (128):<br/>$$1.3125 \\times 128 = 128 + 40 = 168$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

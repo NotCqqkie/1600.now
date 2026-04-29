@@ -1,0 +1,15 @@
+{
+  "questionId": "95146ebb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key cause-effect structure",
+      "content": "The passage contains a defining claim: <strong>\u201cThe ice melted... revealing a 1,700-year-old sandal... The sandal would normally have degraded quickly, but it was instead well preserved for centuries by the surrounding ice.\u201d</strong> This directly links temperature to both preservation (ice keeping it intact) and revelation (melting exposing it now)."
+    },
+    {
+      "title": "Match the dual role of temperature in the text",
+      "content": "Choice A directly addresses how temperature-related ice contributed to both protecting (preventing degradation) and revealing (melting) the sandal. The other three choices either misinterpret the Roman comparison, ignore the public's role in discovery, or reverse cause and effect. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

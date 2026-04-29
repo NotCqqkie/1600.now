@@ -1,0 +1,15 @@
+{
+  "questionId": "4047cfa7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what we need to find",
+      "content": "The essay has a maximum limit of 5,000 words and currently contains 3,026 words. To find the maximum additional words allowed, we subtract the current count from the limit. The formula is: <br/>$$\\text{Additional words allowed} = \\text{Limit} - \\text{Current}$$"
+    },
+    {
+      "title": "Calculate the result",
+      "content": "Substitute the values: $$5000 - 3026 = 1974$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

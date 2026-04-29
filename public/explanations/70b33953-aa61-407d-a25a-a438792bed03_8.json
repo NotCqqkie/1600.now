@@ -1,0 +1,15 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x from the given equation",
+      "content": "Starting with $7 + x = 5$, subtract 7 from both sides:<br/>$$x = 5 - 7 = -2$$"
+    },
+    {
+      "title": "Substitute and evaluate the expression",
+      "content": "Now substitute $x = -2$ into $-14 - 2x$:<br/>$$-14 - 2(-2) = -14 + 4 = -10$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

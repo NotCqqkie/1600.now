@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the number of the noun",
+      "content": "The blank precedes \u201cimportant place\u201d \u2014 a singular noun, not plural."
+    },
+    {
+      "title": "Apply number agreement",
+      "content": "A demonstrative adjective must agree in number with the noun it modifies. \u201cThis\u201d is singular and matches the singular noun \u201cplace.\u201d \u201cBoth,\u201d \u201cthose,\u201d and \u201cthese\u201d are all plural forms that cannot modify a singular noun. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

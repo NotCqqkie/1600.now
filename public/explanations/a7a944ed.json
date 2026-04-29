@@ -1,0 +1,15 @@
+{
+  "questionId": "a7a944ed",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contradiction between expectation and observation",
+      "content": "The passage first establishes the rule: debris outside the Roche limit \u201cwould likely accrete into a satellite.\u201d Then it reports the observation: a ring outside the Roche limit \u201chas remained intact.\u201d These contradict each other."
+    },
+    {
+      "title": "Select the transition that marks the contradiction",
+      "content": "<strong>Though</strong> is the only choice that marks a contrast between two conflicting statements. The other choices fail: <em>for example</em> signals support or illustration (not contrast), <em>fittingly</em> suggests appropriateness or logical fit (not conflict), and <em>likewise</em> indicates similarity or agreement (not opposition). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

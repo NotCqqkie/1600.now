@@ -1,0 +1,19 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the equation structure",
+      "content": "The equation $13x + 14y = 423$ follows the form $(\\text{price}_1) \\cdot x + (\\text{price}_2) \\cdot y = \\text{total}$. This is the standard form for situations involving two types of items sold at different unit prices, where the total represents the combined revenue."
+    },
+    {
+      "title": "Identify what the variables represent",
+      "content": "Since 13 and 14 are reasonable prices in dollars for shirts, they must be the unit prices. The variables $x$ and $y$ are therefore quantities\u2014the number of each type of shirt sold\u2014and 423 is the total revenue. This immediately eliminates choices C and D, which incorrectly claim that $y$ is a price rather than a quantity."
+    },
+    {
+      "title": "Determine which shirt type corresponds to y",
+      "content": "The coefficient paired with $y$ is 14. In the standard form, this coefficient represents the unit price of whatever $y$ counts. Since 14 dollars per shirt is the higher price, and long-sleeved shirts are typically more expensive than short-sleeved shirts, the variable $y$ represents the number of long-sleeved shirts sold. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

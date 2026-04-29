@@ -1,0 +1,15 @@
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the number of doublings and set up the equation",
+      "content": "From 1660 to 1760 is <strong>100 years</strong>. Since the population doubles every 25 years, the number of doubling periods is: $$\\frac{100}{25} = 4$$ After 4 doublings, the population is multiplied by $2^4 = 16$. If $P$ is the 1660 population: $$P \\times 16 = 208000$$"
+    },
+    {
+      "title": "Solve for the initial population",
+      "content": "Divide both sides by 16: $$P = \\frac{208000}{16} = 13000$$ The population in 1660 was 13,000. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

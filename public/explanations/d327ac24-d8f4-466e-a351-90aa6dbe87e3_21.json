@@ -1,0 +1,19 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the no-solution condition",
+      "content": "A system of two linear equations has no solution when it represents <strong>parallel lines</strong> \u2014 lines with the same slope but different y-intercepts that never intersect."
+    },
+    {
+      "title": "Find the slope of the given equation",
+      "content": "The given equation is $7x - 27ry = c$ for some constant $c$. <br/>To find its slope, rewrite in slope-intercept form:<br/>$$-27ry = -7x + c$$$$y = \\frac{7}{27r}x - \\frac{c}{27r}$$The slope is $\\frac{7}{27r}$."
+    },
+    {
+      "title": "Determine the slope of the other equation",
+      "content": "For the system to have no solution, the other equation must be parallel to the given equation. Parallel lines share the same slope. Therefore, the other equation has slope $\\frac{7}{27r}$. <br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "2926cc6d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the zero product property",
+      "content": "The equation is already factored as a product equal to zero. By the zero product property, at least one factor must equal zero:<br/>$$5x+4=0 \\quad \\text{or} \\quad 2x-5=0$$"
+    },
+    {
+      "title": "Solve each linear equation",
+      "content": "From $5x+4=0$:<br/>$$5x = -4$$<br/>$$x = -\\frac{4}{5}$$<br/><br/>From $2x-5=0$:<br/>$$2x = 5$$<br/>$$x = \\frac{5}{2}$$"
+    },
+    {
+      "title": "Match solutions to the choices",
+      "content": "The solution $-\\frac{4}{5}$ appears in the choices. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

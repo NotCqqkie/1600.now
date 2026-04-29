@@ -1,0 +1,15 @@
+{
+  "questionId": "2d16d62c",
+  "correctAnswer": "348",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the conversion factor",
+      "content": "We're given that 1 fathom = 6 feet, and the camera is at a depth of 58 fathoms. To find the depth in feet, we multiply the fathom measurement by the conversion factor that relates fathoms to feet."
+    },
+    {
+      "title": "Convert to feet",
+      "content": "Multiply the depth in fathoms by the conversion factor:<br/>$$58 \\times 6 = 348 \\text{ feet}$$<br/>The camera's depth is 348 feet."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot what motivated Green and Extavour",
+      "content": "The passage states that while Zhang explored shared genetic mechanisms and Moczek explored different ones, \u201cthe relative prevalence... is still poorly understood.\u201d This gap motivated Green and Extavour to evaluate <strong>both types</strong> of convergence in a single study."
+    },
+    {
+      "title": "Match the motivation to the correct answer",
+      "content": "Choice C states the study addresses convergence \u201cmore comprehensively\u201d\u2014which was needed because the prior studies were separately focused on one type each. A falsely assumes a prior belief; B invents unsupported data reuse; D wrongly says Zhang also compared both types. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

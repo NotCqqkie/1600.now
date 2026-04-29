@@ -1,0 +1,15 @@
+{
+  "questionId": "94de423a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The first part is an independent clause: <em>Okie-Tex takes place in an area with low light pollution</em>. The second part, starting at the blank, is a <strong>participial phrase</strong> (ending with &ldquo;dark skies&hellip;&rdquo;). A participial phrase after an independent clause requires a <strong>present participle</strong> with no comma or additional pronoun."
+    },
+    {
+      "title": "Apply the rule for participial phrases",
+      "content": "Choice A (<strong>ensuring</strong>) is the only present participle that correctly links the independent clause to the participial phrase. Choices B and D add unnecessary pronouns (&ldquo;this&rdquo; and &ldquo;it&rdquo;), while choice C uses a third-person singular verb form that creates a run-on sentence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

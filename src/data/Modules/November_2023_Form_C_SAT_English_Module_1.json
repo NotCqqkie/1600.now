@@ -532,30 +532,30 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "November 2023 Form C SAT English Module 1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nRound Rock Chapter is one of the 110 chapters of the Navajo Nation (*Naabeeho Binahasdzo*). The chapter, known as *Tse Nikani* in the Navajo language (*Dine bizaad*), was the subject of a profile ______ in the *Navajo Times* on February 13, 2014.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "On April 5, 1977, Kitty Cone and 150 other disability rights activists entered a San Francisco federal building. After pleading for years—to no effect—for the passage of key antidiscrimination legislation, ______ until their demands were addressed. Finally, on April 28, the legislation was signed. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "appeared"
+        "text": "pressure on lawmakers increased when the activists staged a sit-in protest"
       },
       {
         "label": "B",
-        "text": "appearing"
+        "text": "a sit-in protest staged by the activists increased pressure on lawmakers"
       },
       {
         "label": "C",
-        "text": "appears"
+        "text": "lawmakers came under increased pressure when the activists staged a sit-in protest"
       },
       {
         "label": "D",
-        "text": "has appeared"
+        "text": "the activists increased pressure on lawmakers by staging a sit-in protest"
       }
     ],
     "is_fill_in_blank": false,
-    "correct_answer": "B",
-    "rationale": null,
-    "id": "c54d1c21-6311-4c45-9089-a236778df0e9_17"
+    "correct_answer": "D",
+    "rationale": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase “the activists” the subject of the sentence and places it immediately after the modifying phrase “after...legislation.” In doing so, this choice clearly establishes that the activists—and not another noun in the sentence—were pleading for the passage of antidiscrimination legislation.\nChoice A is incorrect because it results in a dangling modifier. The placement of the noun phrase “pressure on lawmakers” immediately after the modifying phrase illogically suggests that the “pressure” was pleading for the passage of antidiscrimination legislation. Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase “a sit-in protest” immediately after the modifying phrase illogically suggests that the “protest” was pleading for the passage of antidiscrimination legislation. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase “lawmakers” immediately after the modifying phrase suggests that “lawmakers” were pleading for the passage of antidiscrimination legislation. While it’s possible for lawmakers to plead for the passage of legislation, the context strongly suggests that it’s the activists who pleaded for years for the passage of antidiscrimination legislation.",
+    "id": "6f08641e"
   },
   {
     "section": "Reading and Writing",

@@ -1,0 +1,16 @@
+{
+  "questionId": "f890dc20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "The data is already ordered: 2, 2, 2, 3, 4, 4, 11. With 7 values (odd), the median is the middle value at position $$\\frac{7+1}{2} = 4$$.",
+      "formula": "$$\\text{For odd n: median position} = \\frac{n+1}{2}$$"
+    },
+    {
+      "title": "Identify the middle value",
+      "content": "Counting to position 4 in the ordered list:<br/>Position 1: 2<br/>Position 2: 2<br/>Position 3: 2<br/>Position 4: 3<br/>The median is 3. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

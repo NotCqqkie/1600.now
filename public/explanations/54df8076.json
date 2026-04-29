@@ -1,0 +1,20 @@
+{
+  "questionId": "54df8076",
+  "correctAnswer": "284/3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the side length",
+      "content": "The equilateral triangle has perimeter 852 cm. Since all three sides are equal: $$\\text{Side} = \\frac{852}{3} = 284 \\text{ cm}$$"
+    },
+    {
+      "title": "Apply the circumradius formula for an equilateral triangle",
+      "content": "When the three vertices lie on a circle, that circle is the circumcircle. For an equilateral triangle with side length $s$, the circumradius is found using the formula. Substituting $s = 284$: $$R = \\frac{284\\sqrt{3}}{3}$$",
+      "formula": "$$R = \\frac{s\\sqrt{3}}{3}$$"
+    },
+    {
+      "title": "Solve for w",
+      "content": "The problem states the radius equals $w\\sqrt{3}$. Setting our expression equal to this form: $$\\frac{284\\sqrt{3}}{3} = w\\sqrt{3}$$Dividing both sides by $\\sqrt{3}$: $$w = \\frac{284}{3}$$"
+    }
+  ]
+}

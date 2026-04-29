@@ -1,0 +1,15 @@
+{
+  "questionId": "f61c22f3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The word \u201cthough\u201d in the final sentence (\u201cThey found, though, that...\u201d) signals a contradiction. The passage sets up an unresolved question, presents a hypothesis, and this word indicates the finding will counter that hypothesis."
+    },
+    {
+      "title": "Match the structure to the choices",
+      "content": "B correctly identifies the three-part structure: unresolved question, hypothesis, and conflicting observation. The others mischaracterize the finding as refining, confirming, or validating the hypothesis when it contradicts it. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

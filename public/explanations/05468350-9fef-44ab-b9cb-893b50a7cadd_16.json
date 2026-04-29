@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position for data set A",
+      "content": "Data set A contains 41 values. The median is at position (41 + 1) \u00f7 2 = 21. Count the cumulative frequencies: value 0 takes position 1; value 1 takes positions 2\u20138 (cumulative: 8); value 2 takes positions 9\u201316 (cumulative: 16); value 3 takes positions 17\u201325 (cumulative: 25). Position 21 falls in the range 17\u201325, so median A = 3."
+    },
+    {
+      "title": "Compare with the median of data set B",
+      "content": "Data set B removes the single 13, leaving 40 values. The median is the average of positions 20 and 21. The cumulative count for values 0\u20135 is: 0 (position 1), 1 (positions 2\u20138), 2 (positions 9\u201316), 3 (positions 17\u201325). Both positions 20 and 21 fall within range 17\u201325, so both correspond to value 3, giving median B = (3 + 3) \u00f7 2 = 3. Since Median A = 3 and Median B = 3, they are equal. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

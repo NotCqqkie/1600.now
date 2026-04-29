@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim about the coating",
+      "content": "The passage states: <em>\u201cThe new coating is suitable for common applications, unlike other approaches that require special conditions.\u201d</em> This single claim tells us the coating is practical and broadly applicable."
+    },
+    {
+      "title": "Connect the coating's reach to its effects",
+      "content": "The passage links friction to both energy consumption and wear. Since the coating reduces friction to nearly nonexistent levels, it can reduce both problems in vehicle transmissions and other common mechanical systems\u2014exactly what choice C states. The other choices either deny the coating reduces wear, misrepresent its practicality needs, or exclude certain systems. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

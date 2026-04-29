@@ -1,0 +1,19 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the mean of each data set",
+      "content": "Data set X has 9 values: 13, 13, 14, 14, 15, 16, 16, 17, 17<br/>Mean of X = (13 + 13 + 14 + 14 + 15 + 16 + 16 + 17 + 17) \u00f7 9 = 135 \u00f7 9 = 15<br/><br/>Data set Y has 9 values: 2, 2, 3, 3, 4, 5, 5, 6, 6<br/>Mean of Y = (2 + 2 + 3 + 3 + 4 + 5 + 5 + 6 + 6) \u00f7 9 = 36 \u00f7 9 = 4"
+    },
+    {
+      "title": "List deviations from each mean",
+      "content": "<strong>Data set X (deviations from 15):</strong><br/>13 \u2212 15 = \u22122 (appears twice)<br/>14 \u2212 15 = \u22121 (appears twice)<br/>15 \u2212 15 = 0 (appears once)<br/>16 \u2212 15 = 1 (appears twice)<br/>17 \u2212 15 = 2 (appears twice)<br/><br/><strong>Data set Y (deviations from 4):</strong><br/>2 \u2212 4 = \u22122 (appears twice)<br/>3 \u2212 4 = \u22121 (appears twice)<br/>4 \u2212 4 = 0 (appears once)<br/>5 \u2212 4 = 1 (appears twice)<br/>6 \u2212 4 = 2 (appears twice)"
+    },
+    {
+      "title": "Apply the standard deviation concept",
+      "content": "Standard deviation measures spread around the mean. It depends <strong>only</strong> on how far each value deviates from the mean, not on the absolute values. Both data sets have identical deviation patterns: two values at \u22122, two at \u22121, one at 0, two at +1, and two at +2. When the deviations are identical, the standard deviations are equal.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what 'given that' means",
+      "content": "When a problem says <em>given that the T-shirt is a Flames T-shirt</em>, we're finding a conditional probability. The condition restricts our sample space to only Flames T-shirts. We need to calculate: out of all the Flames T-shirts in the bin, how many are medium?",
+      "formula": "$$P(A \\mid B) = \\frac{\\text{Count}(A \\text{ and } B)}{\\text{Count}(B)}$$"
+    },
+    {
+      "title": "Read values from the table and calculate",
+      "content": "From the table, the Flames column shows 22 medium T-shirts and 44 total Flames T-shirts. So: $$P(\\text{Medium | Flames}) = \\frac{22}{44} = \\frac{1}{2} = 0.5$$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

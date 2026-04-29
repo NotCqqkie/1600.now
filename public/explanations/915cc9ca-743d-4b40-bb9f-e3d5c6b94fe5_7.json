@@ -1,0 +1,19 @@
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_7",
+  "correctAnswer": "400",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite equations with aligned coefficients",
+      "content": "From $7y = -6x + 2550$, rearrange to $6x + 7y = 2550$.<br/>Divide $24x - 28y = 1800$ by 4 to get $6x - 7y = 450$.<br/>Both equations now have the same $x$-coefficient (6), making them easy to combine."
+    },
+    {
+      "title": "Add the equations to solve for x",
+      "content": "Adding $(6x + 7y) + (6x - 7y) = 2550 + 450$:<br/>$$12x = 3000$$<br/>$$x = 250$$"
+    },
+    {
+      "title": "Subtract to find y, then compute x + y",
+      "content": "Subtracting $(6x + 7y) - (6x - 7y) = 2550 - 450$:<br/>$$14y = 2100$$<br/>$$y = 150$$<br/><br/>Therefore, $x + y = 250 + 150 = 400$."
+    }
+  ]
+}

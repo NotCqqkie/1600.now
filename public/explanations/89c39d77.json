@@ -1,0 +1,15 @@
+{
+  "questionId": "89c39d77",
+  "correctAnswer": "35728",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the conversion factor",
+      "content": "Since 1 mile equals 1,760 yards, converting 20.300 miles per hour to yards per hour requires multiplying:<br/>$$20.300 \\text{ miles/hour} \\times 1,760 \\text{ yards/mile} = 20.300 \\times 1,760 \\text{ yards/hour}$$"
+    },
+    {
+      "title": "Calculate the product",
+      "content": "Break down the multiplication: $20 \\times 1,760 = 35,200$ and $0.300 \\times 1,760 = 528$.<br/>Therefore: $35,200 + 528 = 35,728$ yards per hour."
+    }
+  ]
+}

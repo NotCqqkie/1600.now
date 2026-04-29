@@ -1,0 +1,15 @@
+{
+  "questionId": "5afbdc8e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the circle's area",
+      "content": "Use the circle area formula $A = \\pi r^2$ with radius $r = 2$:<br/>$$A_{\\text{circle}} = \\pi(2)^2 = 4\\pi$$"
+    },
+    {
+      "title": "Set up and solve for the square's side",
+      "content": "The square has the same area as the circle, so if $s$ is the side length:<br/>$$s^2 = 4\\pi$$<br/>Taking the square root of both sides:<br/>$$s = \\sqrt{4\\pi} = \\sqrt{4} \\cdot \\sqrt{\\pi} = 2\\sqrt{\\pi}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

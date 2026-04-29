@@ -1,0 +1,15 @@
+{
+  "questionId": "041eda89",
+  "correctAnswer": "29",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the quadratic formula structure",
+      "content": "The expression $x = \\frac{-7 + \\sqrt{k}}{2}$ matches the quadratic formula pattern $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$. From $x^2 + 7x + 5 = 0$, we identify $a = 1$, $b = 7$, and $c = 5$."
+    },
+    {
+      "title": "Calculate the discriminant to find k",
+      "content": "Compute the expression under the radical:<br/>\n$$b^2 - 4ac = 7^2 - 4(1)(5) = 49 - 20 = 29$$<br/>\nIn the given form $x = \\frac{-7 + \\sqrt{k}}{2}$, this means $\\sqrt{k} = \\sqrt{29}$, so $k = 29$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "56315bd0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject's number",
+      "content": "The subject of the sentence is \u201can artificial intelligence\u201d\u2014singular. The relative clause \u201cthat absorbs sustainable energies\u201d and the participial phrase \u201credistributing them through intricate networks...\u201d both modify the subject but don't change its number. The subject remains singular."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A singular subject requires a singular present-tense verb. \u201cPowers\u201d (C) is the only singular present form. Options A and D use plural verbs, and B uses a base form that fails to agree with the singular subject. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

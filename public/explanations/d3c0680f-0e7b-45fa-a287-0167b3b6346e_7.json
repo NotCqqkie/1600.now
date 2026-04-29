@@ -1,0 +1,15 @@
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what Tsai et al. discovered about K2-18 b's atmosphere",
+      "content": "Tsai et al. show that K2-18 b's hydrogen-rich atmosphere allows specific light wavelengths to penetrate, causing elevated surface temperatures and increased water evaporation. This atmospheric property is what undermines the planet's habitability."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B correctly identifies what Tsai et al. claim about K2-18 b: its atmospheric composition indicates the surface cannot harbor liquid water. The other choices either focus on planetary distance, introduce irrelevant planet types, or misrepresent what Tsai et al. say about temperature. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

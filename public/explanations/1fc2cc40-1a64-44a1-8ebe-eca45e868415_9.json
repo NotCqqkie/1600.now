@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_9",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize direct substitution avoids solving for x",
+      "content": "We're given $x+1=3$ and asked to find $2(x+1)$. The key insight: $(x+1)$ appears both in the given equation and in the expression we need to evaluate. Instead of solving for $x$ separately, we can substitute the value of $(x+1)$ directly."
+    },
+    {
+      "title": "Substitute the known value",
+      "content": "We know $x+1=3$ from the given equation. Substituting directly into $2(x+1)$:<br/>$$2(x+1) = 2(3) = 6$$"
+    }
+  ]
+}

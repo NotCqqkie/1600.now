@@ -1,0 +1,16 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_19",
+  "correctAnswer": "1456",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up vertex form and find the coefficient",
+      "content": "Since the vertex is at (10, 1600), the function is $h(t) = a(t - 10)^2 + 1600$. Use the initial condition $h(0) = 0$:<br/>$$0 = a(0 - 10)^2 + 1600$$<br/>$$0 = 100a + 1600$$<br/>$$a = -16$$<br/>So $h(t) = -16(t - 10)^2 + 1600$.",
+      "formula": "$$y = a(x - h)^2 + k$$"
+    },
+    {
+      "title": "Evaluate at t = 7 seconds",
+      "content": "Substitute $t = 7$:<br/>$$h(7) = -16(7 - 10)^2 + 1600$$<br/>$$h(7) = -16(-3)^2 + 1600$$<br/>$$h(7) = -16 \\cdot 9 + 1600$$<br/>$$h(7) = 1456$$<br/>The height 7 seconds after launch is 1456 feet."
+    }
+  ]
+}

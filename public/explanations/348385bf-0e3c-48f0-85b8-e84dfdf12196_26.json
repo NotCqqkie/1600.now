@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the order signal",
+      "content": "The goal is to emphasize order\u2014which recipient came first. You need both winners named with their years, plus temporal language showing the sequence."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "Choice A uses <strong>\u201clater\u201d</strong> to mark Pearl's award as coming after Lampson's, establishing the sequence clearly. The remaining choices either mention one winner only, or both without temporal markers showing the sequence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

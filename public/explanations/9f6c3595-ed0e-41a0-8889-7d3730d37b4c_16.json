@@ -1,0 +1,19 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_16",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understanding x-intercepts of a rational function",
+      "content": "For $g(x) = \\frac{f(x)}{x-17}$ to have an $x$-intercept, we need $g(x) = 0$. A rational function equals zero when its numerator is zero AND its denominator is non-zero. So we need $f(x) = 0$ with $x \\neq 17$."
+    },
+    {
+      "title": "Categorizing the 8 zeros of f",
+      "content": "The function $f$ has exactly 8 $x$-intercepts. One is at $x = 17$ where $f(17) = 0$. The other 7 zeros of $f$ occur at values where $x \\neq 17$."
+    },
+    {
+      "title": "Counting x-intercepts of g",
+      "content": "At $x = 17$: We have $f(17) = 0$ and $(x-17) = 0$, creating $\\frac{0}{0}$ \u2014 a removable discontinuity (hole), not an $x$-intercept.<br/>At the other 7 zeros of $f$: The numerator $f(x) = 0$ while the denominator $(x-17) \\neq 0$, so $g(x) = 0$ \u2014 these ARE $x$-intercepts.<br/>Therefore, $g(x)$ has <strong>7</strong> $x$-intercepts."
+    }
+  ]
+}

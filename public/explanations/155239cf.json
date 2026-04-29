@@ -1,0 +1,15 @@
+{
+  "questionId": "155239cf",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the two independent clauses",
+      "content": "The blank separates a complete thought about what scientists previously believed from another complete thought: \u201cthe Lund team's finding suggests otherwise.\u201d"
+    },
+    {
+      "title": "Apply the independent clause joining rule",
+      "content": "A comma plus a coordinating conjunction correctly joins two independent clauses. Choice B provides both with \u201ctime, but,\u201d using the conjunction \u201cbut\u201d to mark the contrast between the previous belief and the new finding. A lacks the comma, C lacks the conjunction (leaving a comma splice), and D lacks both punctuation and conjunction (creating a run-on). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

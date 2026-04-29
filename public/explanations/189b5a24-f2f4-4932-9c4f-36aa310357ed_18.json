@@ -1,0 +1,15 @@
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the independent clause needing boundary punctuation",
+      "content": "<strong>\u201cThe mission ended when the shuttle landed at Kennedy Space Center in Florida\u201d</strong> is an independent clause that cannot be preceded by only a comma."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Choice A uses a period after <strong>STS-72,</strong> which properly separates the sentences. The second sentence begins with a participial phrase <strong>\u201cLasting eight days and twenty-two hours,\u201d</strong> correctly followed by a comma before the independent clause. Choices B, C, and D all position the independent clause <strong>\u201cthe mission ended when...\u201d</strong> after only a comma, which creates a comma splice and violates the rule requiring a period, semicolon, or comma + coordinating conjunction to separate independent clauses. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

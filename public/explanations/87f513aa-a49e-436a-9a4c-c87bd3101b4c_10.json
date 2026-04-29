@@ -1,0 +1,15 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express both equations using the same ratio",
+      "content": "Factor the second equation to isolate $\\frac{x}{y}$: $$\\frac{cx}{4y} = \\frac{c}{4} \\cdot \\frac{x}{y}$$ Since the first equation tells us $\\frac{x}{y} = 64$, we can substitute into the second equation: $$\\frac{c}{4} \\cdot 64 = 64$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Divide both sides by 64: $$\\frac{c}{4} = 1$$ Multiply both sides by 4: $$c = 4$$ This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "Add the two equations:<br/>$$(x+y)+(x-y)=19+9$$<br/>The $y$ terms cancel, leaving:<br/>$$2x = 28$$"
+    },
+    {
+      "title": "Solve for x and select the choice",
+      "content": "Divide both sides by 2:<br/>$$x = \\frac{28}{2}=14$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

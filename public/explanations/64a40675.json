@@ -1,0 +1,15 @@
+{
+  "questionId": "64a40675",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the grammatical parts around the blank",
+      "content": "The word before the blank is the subject 'he'. The word after the blank begins the direct object 'the sound'. A transitive verb needs no punctuation between it and its object, so nothing should appear in the blank."
+    },
+    {
+      "title": "Apply the verb\u2011object rule",
+      "content": "Choice B 'preferred the' places the verb directly before its object with no punctuation, satisfying the rule. Choices A, C, and D each insert a semicolon, comma, or period that wrongly separates the verb from its object. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

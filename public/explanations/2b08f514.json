@@ -1,0 +1,15 @@
+{
+  "questionId": "2b08f514",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the repeated pattern",
+      "content": "The passage describes what happened over decades: new calculations \u201cwould reveal increasingly precise coordinates, yet the prime meridian remained unchanged.\u201d The habitual \u201cwould reveal\u201d signals a recurrent pattern\u2014new data kept appearing, the official position never changed\u2014until the 1980s finally broke it."
+    },
+    {
+      "title": "Apply the pattern to the choices",
+      "content": "\u201dAgain and again\u201d directly names this repeated, cyclical nature. The other choices either introduce a detail, suggest purpose, or concede a claim without capturing the recurring pattern essential to the passage. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

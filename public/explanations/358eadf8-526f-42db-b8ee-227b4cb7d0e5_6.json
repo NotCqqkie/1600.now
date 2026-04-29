@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the signal in the but-clause",
+      "content": "The author introduces demographic characteristics and neighborhood type as factors that \u201csome studies emphasize,\u201d then pivots with \u201cbut walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.\u201d This \u201cbut\u201d signals the author's purpose: these are real factors identified by research, yet they're only part of a larger picture."
+    },
+    {
+      "title": "Apply the signal to the answer",
+      "content": "Choice C matches precisely: these are factors \u201cthat have been identified as important influences\u201d (the studies part) but are \u201cmerely some of the many factors\u201d (the but-clause's assertion). The other three mischaracterize the passage\u2014either overstating the scope of these factors' relevance, misrepresenting what people consider, or misinterpreting Alfonzo's argument. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

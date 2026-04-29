@@ -1,0 +1,15 @@
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures and transition word",
+      "content": "First clause: <strong>\u201cOne might assume cases like this... to be rare\u201d</strong> = independent clause.<br/>Second clause: <strong>\u201cthey are counted among a litany of examples\u201d</strong> = independent clause.<br/>The phrase <strong>\u201con the contrary\u201d</strong> is a conjunctive adverb that signals a contrast between these two complete thoughts."
+    },
+    {
+      "title": "Apply the conjunctive adverb punctuation rule",
+      "content": "When two independent clauses are joined by a conjunctive adverb, the standard pattern is semicolon before, comma after: <strong>IC; conjunctive adverb, IC</strong>. Choice D applies this rule perfectly: <strong>\u201cto be rare; on the contrary, they are counted among a litany of examples.\u201d</strong> The other options either fail to separate the independent clauses or violate the standard punctuation pattern for conjunctive adverbs. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

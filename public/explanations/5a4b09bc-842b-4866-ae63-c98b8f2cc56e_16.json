@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key finding",
+      "content": "Several moth genera that emit ultrasonic pulses are unpalatable to bats\u2014these moths possess both acoustic and chemical defenses, not just one or the other."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "The hypothesis assumes an either/or relationship: moths use ultrasonic disruption <em>or</em> chemical defenses, not both. When the research reveals both defenses in the same moths, the hypothesis's explanatory framework breaks down\u2014it doesn't account for all instances of this trait. The other choices either repackage current findings as future predictions (A), introduce unstated functions for ultrasound (B), or misidentify the hypothesis (D). That matches choice C\u2014<strong>C</strong> is correct."
+    }
+  ]
+}

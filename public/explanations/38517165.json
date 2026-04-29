@@ -1,0 +1,16 @@
+{
+  "questionId": "38517165",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the circumference formula",
+      "formula": "$$C = \\pi d$$",
+      "content": "We know the circumference is $31\\pi$ centimeters. We'll use the relationship between circumference and diameter."
+    },
+    {
+      "title": "Solve for diameter",
+      "content": "Substituting into the formula:\n$$31\\pi = \\pi d$$\n\nDivide both sides by $\\pi$:\n$$d = 31$$\n\nThe diameter is <strong>31 centimeters</strong>."
+    }
+  ]
+}

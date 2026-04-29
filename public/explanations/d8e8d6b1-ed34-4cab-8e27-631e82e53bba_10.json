@@ -1,0 +1,15 @@
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core claim",
+      "content": "The team's conclusion links <strong>exposure</strong> to <strong>distinction ability</strong>\u2014specifically, the ability to distinguish familiar languages from unfamiliar ones. A supporting finding must show that dogs with more exposure demonstrate a stronger distinction ability."
+    },
+    {
+      "title": "Match the evidence to the claim",
+      "content": "Choice A directly shows this: older dogs\u2014with accumulated exposure over time\u2014display the greatest difference in brain activity between familiar and unfamiliar languages, establishing that more exposure sharpens distinction ability. Choices B and D reference scrambled non-speech rather than unfamiliar languages, and C shows the distinction pattern is uniform across ages\u2014none support the exposure-ability link. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

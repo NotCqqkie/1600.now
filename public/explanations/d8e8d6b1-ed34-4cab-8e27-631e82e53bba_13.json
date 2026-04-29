@@ -1,0 +1,15 @@
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the telling pattern",
+      "content": "The word <strong>Tellingly</strong> signals the crucial detail: <strong>all borrowed words in Mayan languages come from the Zoque branch</strong>, not the Mixe branch. This selective borrowing from just one branch of the family is the key signal."
+    },
+    {
+      "title": "Match the pattern to the choices",
+      "content": "If the Mixe-Zoquean family had already split into two separate branches by Olmec times, the Olmec language (from one branch) would explain why only Zoque words were borrowed into Mayan languages. A contradicts this by placing Mixe dominance before Olmec times, which would eliminate Zoque words during that period, while C and D make unsupported claims beyond the passage. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

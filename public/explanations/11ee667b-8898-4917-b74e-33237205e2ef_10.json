@@ -1,0 +1,19 @@
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Correspondence from similarity",
+      "content": "From the similarity statement triangle CAE ~ triangle CBD, the vertices correspond in order: C\u2194C, A\u2194B, and E\u2194D. Therefore, angle CAE equals angle CBD.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute angle CAE",
+      "content": "Given angle CBD = 56\u00b0, we get angle CAE = 56\u00b0. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

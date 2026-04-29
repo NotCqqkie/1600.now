@@ -1,0 +1,15 @@
+{
+  "questionId": "f67e4efc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the cylinder volume formula",
+      "content": "The volume of a cylinder is $V = \\pi r^2 h$. Substituting the given values $V = 45\\pi$ and $h = 5$:<br/>$$45\\pi = \\pi r^2(5)$$"
+    },
+    {
+      "title": "Isolate and solve for r",
+      "content": "Divide both sides by $5\\pi$:<br/>$$r^2 = \\frac{45\\pi}{5\\pi} = 9$$<br/>Taking the positive square root:<br/>$$r = \\sqrt{9} = 3$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

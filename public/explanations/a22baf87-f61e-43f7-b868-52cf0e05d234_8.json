@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_8",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the initial deposit represents",
+      "content": "The initial deposit is the account balance at the moment the account opened, which is at time $x = 0$ (zero months since the initial deposit). Therefore, the initial deposit is the value $f(0)$, which is the $y$-intercept of the graph."
+    },
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "Locate where the line intersects the $y$-axis at $x = 0$. The line crosses the $y$-axis at $y = 15$. That matches choice <strong>15</strong> \u2014 the initial deposit is $\\$15$."
+    }
+  ]
+}

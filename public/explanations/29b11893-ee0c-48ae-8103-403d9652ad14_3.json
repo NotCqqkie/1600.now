@@ -1,0 +1,17 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the radical using fractional exponents",
+      "content": "A radical like $\\sqrt{x^{153}}$ can be rewritten using a fractional exponent. When we have a square root, we use a denominator of 2 in the exponent:<br/>$$\\sqrt{x^{153}} = (x^{153})^{1/2}$$",
+      "formula": "$$\\sqrt[n]{a} = a^{1/n}$$"
+    },
+    {
+      "title": "Apply the power rule for exponents",
+      "content": "When we have nested exponents like $(x^{153})^{1/2}$, we multiply the exponents together:<br/>$$(x^{153})^{1/2} = x^{153 \\cdot \\frac{1}{2}} = x^{\\frac{153}{2}}$$<br/>This matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$(a^m)^n = a^{mn}$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal mechanism",
+      "content": "The decisive clue is the causal chain explained at the end: baleen whales cycle iron in the ocean to support phytoplankton, which sustain krill. This reveals that baleen whale populations directly control the resource that supports phytoplankton populations."
+    },
+    {
+      "title": "Identify the likely effect",
+      "content": "Therefore, declining baleen whale populations would result in declining phytoplankton\u2014the outcome choice D describes. The other choices describe changes in whale size or krill composition not mentioned in the text, or misidentify where iron concentration changed. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

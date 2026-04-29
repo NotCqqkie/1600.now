@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the prey quality contrast",
+      "content": "The passage directly compares two feeding strategies: non-tool-using otters eat \u201cenergy-poor\u201d snails, while tool-using otters access \u201chigh-quality\u201d mussels and clams. This quality difference is the decisive signal."
+    },
+    {
+      "title": "Match to energy requirements",
+      "content": "If both groups of otters have the same energy needs, but snails are energy-poor while mussels and clams are high-quality, non-tool-using otters must process larger quantities of prey to meet those needs. A mischaracterizes tooth damage (the passage shows tool-users <em>avoid</em> it), B contradicts the passage's claim that tool-using otters gain fitness benefits, and D references an impossible scenario (non-tool-users cannot access hard-shelled prey by biting alone). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

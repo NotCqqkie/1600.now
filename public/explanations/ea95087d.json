@@ -1,0 +1,11 @@
+{
+  "questionId": "ea95087d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read values from table and compute difference",
+      "content": "$$\\text{Warehouse stores average} = 482,\\quad \\text{Supermarkets average} = 247$$<br/>$$\\text{Difference} = 482 - 247 = 235$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

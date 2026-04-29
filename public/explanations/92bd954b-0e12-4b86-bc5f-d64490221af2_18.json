@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its number",
+      "content": "The subject is <strong>The Amur River</strong>\u2014a singular noun. The relative clause <em>\u201cwhich is 2,714 miles long\u201d</em> is additional information set off by commas; it doesn't change the subject's number."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement requires a singular subject to take a singular verb. <strong>Flows</strong> (B) is the only singular form. The other choices are plural verbs (flow, have flowed, are flowing), which violate agreement. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

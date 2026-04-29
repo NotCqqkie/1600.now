@@ -1,0 +1,16 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand vertical shift notation",
+      "content": "When a graph shifts up by $k$ units, each output value increases by exactly $k$.",
+      "formula": "$$g(x) = f(x) + k$$"
+    },
+    {
+      "title": "Apply the shift to f(x)",
+      "content": "We're shifting $f(x) = 3x^5$ up by 9 units, so: $$g(x) = f(x) + 9 = 3x^5 + 9$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the substitution opportunity",
+      "content": "The expression $(3x+6)$ appears on both sides of the equation. Rather than expand both sides and solve for $x$ algebraically, we can use substitution: let $u = 3x+6$ to convert this into a much simpler equation."
+    },
+    {
+      "title": "Solve for the substitution variable",
+      "content": "With $u = 3x+6$, the equation becomes:<br/>$$5u = 3u + 78$$<br/>Subtracting $3u$ from both sides gives:<br/>$$2u = 78$$<br/>Dividing both sides by 2:<br/>$$u = 39$$<br/>Since $u = 3x+6$, the value of $3x+6$ is 39. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

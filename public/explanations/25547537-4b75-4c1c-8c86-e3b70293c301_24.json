@@ -1,0 +1,15 @@
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause-and-effect signal",
+      "content": "The plant absorbs nickel from the soil. As a result, nickel concentrations in the soil decrease. The blank needs a transition that shows this consequence relationship."
+    },
+    {
+      "title": "Apply the cause-and-effect signal",
+      "content": "\u201dIn turn,\u201d signals that one thing results from another. Here, the soil's nickel decrease directly results from the plant's absorption \u2014 which is exactly what \u201cin turn,\u201d conveys. The other three fail to capture this causal link: nevertheless suggests contrast, specifically narrows details, and in addition presents separate facts. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

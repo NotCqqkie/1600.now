@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure around the blank",
+      "content": "Before the blank the adjective \u201cpoetic\u201d needs a noun to modify; after the blank the text begins a noun phrase (\u201ccompressed lines\u2026\u201d) that is the first of three items separated by semicolons."
+    },
+    {
+      "title": "Apply the colon rule and eliminate the others",
+      "content": "A colon introduces a list or elaboration, so the correct punctuation after the noun \u201cstyle\u201d is a colon, followed by the adjective \u201cterse,\u201d to describe the first list item. The other three choices break the rule: A uses a period, creating a sentence fragment; B inserts a comma that fails to link the noun to the list and creates a confusing modifier; D uses a semicolon, which only joins two independent clauses, not a noun to its list. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

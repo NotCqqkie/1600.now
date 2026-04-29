@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank contains a title (linguist) immediately followed by a proper name (Marian Klamer). The two are placed directly together with no intervening words\u2014the name identifies which person the title refers to."
+    },
+    {
+      "title": "Apply the punctuation rule for appositives",
+      "content": "When a title precedes a proper name that identifies the specific person (a restrictive appositive), no punctuation separates them. <strong>Linguist Marian Klamer</strong> correctly unites the title and identifying name in one phrase. Option A asymmetrically places a comma only after the title; option B uses commas around the name, incorrectly treating it as nonrestrictive information; option D uses a colon, which doesn't fit an appositive. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

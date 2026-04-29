@@ -1,0 +1,19 @@
+{
+  "questionId": "0815a5af",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish arc relationships from the diameters",
+      "content": "Since $PR$ is a diameter, the arc from $P$ to $R$ (passing through $Q$) spans a semicircle:<br/>$$PQ + QR = 72\\pi$$ (half of the $144\\pi$ circumference). Similarly, since $QS$ is a diameter:<br/>$$QR + RS = 72\\pi$$<br/>Subtracting the first equation from the second: $RS = PQ$. Let $PQ = x$. Then $QR = 72\\pi - x$ and $RS = x$."
+    },
+    {
+      "title": "Apply the constraint arc PS = 2 \u00d7 arc PQ",
+      "content": "From the arc pattern: $PQ = x$, $QR = 72\\pi - x$, $RS = x$, $SP = 72\\pi - x$. The shorter arc $PS = 72\\pi - x$. Given $PS = 2 \\cdot PQ$:<br/>$$72\\pi - x = 2x$$<br/>$$72\\pi = 3x$$<br/>$$x = 24\\pi$$"
+    },
+    {
+      "title": "Calculate arc QR and identify the answer",
+      "content": "$QR = 72\\pi - x = 72\\pi - 24\\pi = 48\\pi$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key contrast",
+      "content": "The prompt asks the student to emphasize a DIFFERENCE. The notes reveal a clear contrast: <em>Uros Island</em> uses smooth multicolored LED domes, while <em>Golden Connection</em> uses entangled blue and white LED tubes."
+    },
+    {
+      "title": "Find the choice with explicit contrast language",
+      "content": "Choice A employs \u201cbut\u201d and \u201cstand in contrast to\u201d to directly position smooth domes against tangled tubes. Choices B and D mention both works but lack explicit contrast language, while C addresses only one. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

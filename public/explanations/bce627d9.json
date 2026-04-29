@@ -1,0 +1,15 @@
+{
+  "questionId": "bce627d9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The decisive clue is the opening \u201cbut\u201d clause: <em>\u201cMineralogical differences are detectable in samples... but such differences may not indicate substantial compositional variations in the asteroid.\u201d</em> Observable local differences exist, yet they don't necessarily reveal asteroid-wide differences. This paradox is resolved if the small-scale mineral distribution is not the same everywhere."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "\u201dUniform\u201d means evenly or consistently distributed throughout. If the distribution is unlikely to be uniform, the minerals are scattered inconsistently\u2014which is why differences are detectable. The other choices don't apply: \u201cneglected\u201d and \u201credundant\u201d don't describe distributions, and \u201congoing\u201d suggests a process rather than a spatial pattern.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

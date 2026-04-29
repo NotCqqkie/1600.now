@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint the defining signal",
+      "content": "The conclusion claims invasives are \u201cadvantaged by delays\u201d in subfreezing. Advantage means the invasive must show a more favorable response to this temperature change than the native species."
+    },
+    {
+      "title": "Identify the differential response",
+      "content": "Choice A shows it directly: when freezing is delayed, <em>P. aviculare</em> extends leaf production much longer than <em>V. edule</em>, extending the invasive's growing season. The other three either show no differential response to temperature timing, reverse the advantage, or confound the effect with other seasonal variables. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

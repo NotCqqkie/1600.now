@@ -1,0 +1,16 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_13",
+  "correctAnswer": "89",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the circumference formula",
+      "formula": "$$C = \\pi d$$",
+      "content": "In this formula, $C$ is the circumference and $d$ is the diameter."
+    },
+    {
+      "title": "Substitute and solve for diameter",
+      "content": "We're given $C = 89\\pi$ centimeters. Substituting into the formula: $$89\\pi = \\pi d$$ Divide both sides by $\\pi$: $$d = 89$$ The diameter is <strong>89 centimeters</strong>."
+    }
+  ]
+}

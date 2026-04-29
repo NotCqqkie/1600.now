@@ -1,0 +1,19 @@
+{
+  "questionId": "9d935bd8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Order the 7 percentages from the table",
+      "content": "From the table, the seven states have percentages: 21.9%, 27.9%, 25.9%, 19.5%, 30.1%, 36.4%, 35.5%.<br/><br/>Arranged in increasing order: 19.5%, 21.9%, 25.9%, 27.9%, 30.1%, 35.5%, 36.4%."
+    },
+    {
+      "title": "Find the median of the 7 states",
+      "content": "For 7 values, the median is the middle value \u2014 the 4th value in the ordered list: <strong>27.9%</strong>."
+    },
+    {
+      "title": "Calculate the difference from the 50-state median",
+      "content": "The median for all 50 states is 26.95%.<br/><br/>$$\\text{Difference} = 27.9\\% - 26.95\\% = 0.95\\%$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the contrasting structure",
+      "content": "The sentence uses a pivotal <strong>\u201cbut\u201d</strong> to signal a contrast: <em>\u201cnone had more than 2 in 1980, but ______.\u201d</em> The blank must show what changed by a later year \u2014 a direct reversal of the 1980 ceiling."
+    },
+    {
+      "title": "Match the data to the contrast",
+      "content": "Choice A states that in 2010, Peru had 3, the Philippines had 3, and Mexico had 3. This directly answers the <strong>\u201cbut\u201d</strong> by showing all three countries exceeded the 2-woman maximum from 1980, providing concrete, specific numbers from the graph that immediately support the opening claim about a trend toward more women. Choices B, C, and D either analyze patterns of change (B and C) or cover only one country (D), none of which complete the straightforward contrast as directly and clearly as A does. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

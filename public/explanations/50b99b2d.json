@@ -1,0 +1,16 @@
+{
+  "questionId": "50b99b2d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the speeds of objects R and S",
+      "content": "Object R travels 4x inches in y seconds, giving speed $$\\frac{4x}{y}$$ inches per second.<br/>Object S travels at 2\u00d7 the speed of R, so its speed is $$2 \\cdot \\frac{4x}{y} = \\frac{8x}{y}$$ inches per second."
+    },
+    {
+      "title": "Calculate the time for object S to travel 24x inches",
+      "content": "For distance 24x and speed $$\\frac{8x}{y}$$:<br/>$$\\text{time} = \\frac{24x}{\\frac{8x}{y}} = 24x \\cdot \\frac{y}{8x} = 3y$$ seconds.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\text{time} = \\frac{\\text{distance}}{\\text{speed}}$$"
+    }
+  ]
+}

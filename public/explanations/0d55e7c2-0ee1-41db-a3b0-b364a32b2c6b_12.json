@@ -1,0 +1,15 @@
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'most but not all' requires",
+      "content": "The astronomer can see most stars but not all of them using a 160 mm aperture. So at least one star must require a larger aperture to detect, while the others require 160 mm or less."
+    },
+    {
+      "title": "Find the data matching this requirement",
+      "content": "Choice C identifies only HSH95-46 as requiring an aperture greater than 160 mm. The other choices describe a different aperture, an unrelated star property, or distance rather than aperture requirements. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

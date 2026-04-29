@@ -1,0 +1,15 @@
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The student's goal is to explain <strong>why</strong> brine pools are toxic. The decisive clue is the word \u201cwhy\u201d \u2014 the task requires a cause-and-effect explanation, linking the characteristic that makes brine pools toxic to the actual toxicity."
+    },
+    {
+      "title": "Match the explanation to the choices",
+      "content": "Choice A directly answers the \u201cwhy\u201d question by establishing a causal link: the extreme saltiness (the cause) makes the water toxic (the effect). The other three fail to explain causation \u2014 B states facts about toxicity without explaining its source, C shifts focus to bacteria survival rather than addressing what causes toxicity, and D describes brine pools without addressing toxicity at all. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

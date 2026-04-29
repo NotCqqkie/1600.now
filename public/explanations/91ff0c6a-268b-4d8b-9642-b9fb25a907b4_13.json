@@ -1,0 +1,15 @@
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot what weakens the claim",
+      "content": "The students conclude that cataract frequency differences are <strong>solely</strong> attributable to <em>Aasdh</em> expression variations. To weaken this claim, a finding must show that different levels of <em>Aasdh</em> expression produce the same cataract outcome\u2014evidence that <em>Aasdh</em> variation alone cannot be the sole determinant."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "Choice A demonstrates exactly this: wild-type mice with a <strong>wide variety</strong> of <em>Aasdh</em> expression levels show cataract frequencies similar to knockout mice, proving that <em>Aasdh</em> variation is not the sole determinant. Choices B, C, and D either support the conclusion, confirm variation exists without attacking causation, or strengthen the experimental design. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

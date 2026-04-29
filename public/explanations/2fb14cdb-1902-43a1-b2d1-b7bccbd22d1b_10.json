@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor and apply the area scaling rule",
+      "content": "Each side of EFGH is 6 times the length of the corresponding side of ABCD, so the linear scale factor is $k = 6$. For similar figures, when linear dimensions scale by a factor of $k$, the area scales by $k^2$. Therefore, the area of EFGH is $6^2 = 36$ times the area of ABCD."
+    },
+    {
+      "title": "Calculate the area of EFGH",
+      "content": "The area of ABCD is 90 square units. Since the area scales by a factor of 36, the area of EFGH is $90 \\times 36 = 3,240$ square units. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

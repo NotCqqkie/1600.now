@@ -1,0 +1,15 @@
+{
+  "questionId": "6ac23de7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by 5 to clear the fraction",
+      "content": "Start with $$\\frac{4x}{5} = 20$$. Multiply both sides by 5 to eliminate the denominator: $$5 \\cdot \\frac{4x}{5} = 20 \\cdot 5$$. This simplifies to $$4x = 100$$."
+    },
+    {
+      "title": "Divide both sides by 4 to isolate x",
+      "content": "From $$4x = 100$$, divide both sides by 4: $$x = \\frac{100}{4} = 25$$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

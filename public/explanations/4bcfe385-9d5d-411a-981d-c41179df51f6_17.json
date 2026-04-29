@@ -1,0 +1,19 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the equation from the graph",
+      "content": "Reading two clear points from the line: at $x = -3$, $y = 8$, and at $x = 1$, $y = 4$. The slope is $$\\frac{4 - 8}{1 - (-3)} = \\frac{-4}{4} = -1$$ Using point-slope form with $(1, 4)$: $$y - 4 = -1(x - 1) \\implies y = -x + 5$$"
+    },
+    {
+      "title": "Solve for f(x) using the given relationship",
+      "content": "The graph displays $y = f(x) + 13$, which we found equals $-x + 5$. Therefore: $$f(x) + 13 = -x + 5$$ $$f(x) = -x - 8$$"
+    },
+    {
+      "title": "Match to the required form with positive c and d",
+      "content": "Rewrite $f(x) = -x - 8$ as $$f(x) = -8 - 1 \\cdot x$$ Comparing to the choice forms:<br/><ul><li><strong>Choice A:</strong> $f(x) = -d - cx$ becomes $-8 - 1 \\cdot x$ when $d = 8$ and $c = 1$ \u2014 both positive.</li><li><strong>Choice B:</strong> $f(x) = d - cx$ would require $d = -8$ (negative).</li><li><strong>Choice C:</strong> $f(x) = d + cx$ would require $d = -8$ and $c = -1$ (both negative).</li><li><strong>Choice D:</strong> $f(x) = -d + cx$ would require $c = -1$ (negative).</li></ul> That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

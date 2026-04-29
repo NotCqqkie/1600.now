@@ -1,0 +1,19 @@
+{
+  "questionId": "963da34c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express perimeter of the base in terms of width",
+      "content": "The width is $x$ inches and the length is $2.5x$ inches. The perimeter of a rectangle is $2(\\text{length} + \\text{width})$, so:<br/>$$\\text{Perimeter} = 2(2.5x + x) = 2(3.5x) = 7x \\text{ inches}$$"
+    },
+    {
+      "title": "Set up the inequality from the shipping restriction",
+      "content": "The restriction requires that perimeter of base + height $\\leq$ 130 inches. With height = 60:<br/>$$7x + 60 \\leq 130$$"
+    },
+    {
+      "title": "Solve for the allowable width",
+      "content": "Subtract 60 from both sides:<br/>$$7x \\leq 70$$<br/>Divide both sides by 7:<br/>$$x \\leq 10$$<br/>Since width must be positive, the complete inequality is $0 < x \\leq 10$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

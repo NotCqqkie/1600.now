@@ -1,0 +1,15 @@
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the complex series structure",
+      "content": "The sentence lists three behavioral economists, each identified by name and position/affiliation (an appositive). The blank must mark the boundary between the first and second person, where each item already contains internal commas."
+    },
+    {
+      "title": "Apply the rule for complex series",
+      "content": "Semicolons\u2014not commas\u2014separate items in a series when the items themselves contain commas. Choice C correctly places a semicolon after \u201cUniversity\u201d to separate Ai Hisano from George Akerlof, keeping the comma after \u201cAkerlof\u201d to mark the appositive. The others fail to properly mark the boundary between series items. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

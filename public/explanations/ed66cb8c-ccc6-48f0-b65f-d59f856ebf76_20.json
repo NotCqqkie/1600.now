@@ -1,0 +1,15 @@
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure at the boundary",
+      "content": "The sentence has a subject <em>Olympia Brown of ______</em> that must connect directly to a verb and its object. The blank requires Connecticut, and we must determine what punctuation (if any) belongs between Connecticut and the verb that follows."
+    },
+    {
+      "title": "Apply the rule for subject-verb boundaries",
+      "content": "Connecticut played (B) connects the subject directly to its verb with no intervening punctuation, forming one complete independent clause. A period (A) creates an incorrect sentence boundary, leaving the remaining words as a fragment without a subject. A semicolon (C) and colon (D) introduce separations designed for independent clauses or introductions, not for joining a subject to its verb. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

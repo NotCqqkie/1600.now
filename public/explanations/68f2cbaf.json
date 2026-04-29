@@ -1,0 +1,15 @@
+{
+  "questionId": "68f2cbaf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the distance inequality",
+      "content": "Ty walks at 4 km/h for <em>h</em> hours, covering a distance of $4h$ kilometers. Since he must walk at least 24 kilometers, we write:<br/><br/>$$4h \\geq 24$$"
+    },
+    {
+      "title": "Solve for minimum hours",
+      "content": "Divide both sides by 4:<br/><br/>$$h \\geq 6$$<br/><br/>The minimum number of hours is 6. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

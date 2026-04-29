@@ -1,0 +1,15 @@
+{
+  "questionId": "f03465dc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check if the equations are equivalent",
+      "content": "The second equation is $24x + 21y = 27$. Divide by 3: $$\\frac{24x + 21y}{3} = \\frac{27}{3}$$ This simplifies to $8x + 7y = 9$, which is exactly the first equation. Both equations represent the <strong>same line</strong>\u2014there are infinitely many solutions."
+    },
+    {
+      "title": "Solve for the parametric form of points on the line",
+      "content": "From $8x + 7y = 9$, solve for $y$: $$7y = -8x + 9$$ $$y = -\\frac{8x}{7} + \\frac{9}{7}$$ Using $r$ as the parameter (so $x = r$), points on the line are $(r, -\\frac{8r}{7} + \\frac{9}{7})$ for each real number $r$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

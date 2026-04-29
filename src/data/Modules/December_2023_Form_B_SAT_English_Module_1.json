@@ -596,30 +596,30 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "December 2023 Form B SAT English Module 1",
-    "passage": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJulia Alvarez's 1994 novel *In the Time of the Butterflies*, a fictionalized account of the lives of the Mirabal ______ can serve as a starting point for those wanting to explore how the rule of dictator Rafael Trujillo has been represented in Dominican American literature.",
-    "question_text": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "passage": "The Mission 66 initiative, which was approved by Congress in 1956, represented a major investment in the infrastructure of overburdened national ______ it prioritized physical improvements to the parks’ roads, utilities, employee housing, and visitor facilities while also establishing educational programming for the public. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "Sisters, and"
+        "text": "parks and"
       },
       {
         "label": "B",
-        "text": "sisters and"
+        "text": "parks"
       },
       {
         "label": "C",
-        "text": "sisters,"
+        "text": "parks;"
       },
       {
         "label": "D",
-        "text": "sisters"
+        "text": "parks,"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "C",
-    "rationale": null,
-    "id": "25547537-4b75-4c1c-8c86-e3b70293c301_19"
+    "rationale": "Choice C is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon to correctly join the first main clause (“The Mission…parks”) and the second main clause that begins with “it.”\nChoice A is incorrect. When coordinating two longer main clauses such as these, it’s conventional to use a comma before the coordinating conjunction. Choice B is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction. Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can’t be used in this way to join two main clauses.",
+    "id": "89fbc3eb"
   },
   {
     "section": "Reading and Writing",

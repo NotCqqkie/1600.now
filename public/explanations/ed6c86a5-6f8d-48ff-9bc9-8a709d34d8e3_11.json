@@ -1,0 +1,19 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to factor form",
+      "content": "Expand the left side and collect all $x$ terms on the left: $$x(r - 7) + 3 = 17x + 25$$ $$xr - 7x + 3 = 17x + 25$$ Move constants to the right and factor: $$xr - 7x - 17x = 22$$ $$x(r - 24) = 22$$"
+    },
+    {
+      "title": "Determine the condition for exactly one solution",
+      "content": "A linear equation in the form $ax = b$ has:<ul><li>Exactly one solution when $a \\neq 0$ (then $x = b/a$)</li><li>No solution when $a = 0$ and $b \\neq 0$</li></ul>In our equation $x(r - 24) = 22$, the coefficient of $x$ is $(r - 24)$. For exactly one solution, we need $(r - 24) \\neq 0$, which means $r \\neq 24$."
+    },
+    {
+      "title": "Identify which value violates the condition",
+      "content": "Check what happens when $r = 24$: the equation becomes $x(24 - 24) = 22$, or $0 = 22$. This is a false statement with no solution. Since the problem requires exactly one solution, $r$ cannot be 24. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

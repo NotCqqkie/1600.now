@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal relationship",
+      "content": "The first sentence establishes the voting phase\u2014voters choose parties\u2014while the second sentence describes what happens next: parties receive seats based on vote counts. The transition must signal movement from one phase of the process to the next."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "\u201dThen\u201d marks this forward progression through the process. The other options introduce wrong relationships: \u201cHowever\u201d and \u201cConversely\u201d suggest contrast, and \u201cIn other words\u201d suggests restatement rather than sequence. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

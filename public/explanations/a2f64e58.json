@@ -1,0 +1,15 @@
+{
+  "questionId": "a2f64e58",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the trigger for the hypothesis",
+      "content": "The word \u201cprompted\u201d explicitly signals that the fixed ranges of other animals caused researchers to speculate about mammoths\u2014making the underlined statement the source of the hypothesis."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "The strontium analysis reveals the mammoth had variable ranges, contradicting that hypothesis. Choice A correctly identifies the function: the underlined statement provided a characteristic that prompted speculation, later disproven by data. The other three mischaracterize the relationship: B treats mammoths as exceptions to a pattern rather than candidates for it, C claims the method failed to reveal behavior, and D seeks an explanation of the trait's origin. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

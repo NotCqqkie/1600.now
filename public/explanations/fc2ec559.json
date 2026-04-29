@@ -1,0 +1,15 @@
+{
+  "questionId": "fc2ec559",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the linear equation for x",
+      "content": "Solve the first equation for $x$:<br/>$$x + 5 = 14$$$$x = 9$$"
+    },
+    {
+      "title": "Substitute into the parabola equation to find y",
+      "content": "Substitute $x = 9$ into $y = 4x^2 + 4$:<br/>$$y = 4(9)^2 + 4$$$$y = 4(81) + 4$$$$y = 324 + 4$$$$y = 328$$<br/>The intersection point is $(9, 328)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

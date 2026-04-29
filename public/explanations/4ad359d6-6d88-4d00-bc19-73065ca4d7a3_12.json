@@ -1,0 +1,15 @@
+{
+  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The key clue: European panda fossils include specimens over 10 million years old, yet the Bulgarian teeth are \u201crelatively recent\u201d among them. This means we already have evidence of much earlier pandas in Europe."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D asserts that these teeth cannot help resolve the origin debate. This is correct: more recent fossils only document later survival in Europe, not where pandas originated in the first place. Choices A, B, and C attempt to extract origin information from the discovery, but later evidence cannot determine earlier beginnings.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

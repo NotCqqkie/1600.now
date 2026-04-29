@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each exponential",
+      "content": "Calculate $2^4 = 16$ and $2^5 = 32$."
+    },
+    {
+      "title": "Add the values together",
+      "content": "Add: $16 + 32 = 48$."
+    }
+  ]
+}

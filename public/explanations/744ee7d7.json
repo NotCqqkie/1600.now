@@ -1,0 +1,19 @@
+{
+  "questionId": "744ee7d7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line",
+      "content": "Examine the graph to locate the boundary between the shaded and unshaded regions. There is a horizontal line running across the graph where the color changes. This boundary is at $y = 36$."
+    },
+    {
+      "title": "Determine the direction of the inequality",
+      "content": "The shaded (gray) region occupies all points <strong>above</strong> the horizontal line at $y = 36$. This means we are looking for all points where the $y$-coordinate is greater than 36. Since the boundary line itself is shaded (solid), the boundary is included in the solution set."
+    },
+    {
+      "title": "Write the inequality",
+      "content": "The shaded region represents all points where $y$ is greater than or equal to 36. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

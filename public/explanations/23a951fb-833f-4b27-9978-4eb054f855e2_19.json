@@ -1,0 +1,16 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify coefficients for the quadratic formula",
+      "content": "For $5x^2 - 9x - 3 = 0$, we have $a = 5$, $b = -9$, and $c = -3$. The quadratic formula gives us both solutions at once.",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+    },
+    {
+      "title": "Calculate the discriminant and find the greater solution",
+      "content": "First, compute the discriminant: $b^2 - 4ac = (-9)^2 - 4(5)(-3) = 81 - (-60) = 81 + 60 = 141$. <br/><br/>Substituting into the formula:<br/>$$x = \\frac{-(-9) \\pm \\sqrt{141}}{2(5)} = \\frac{9 \\pm \\sqrt{141}}{10}$$<br/><br/>The two solutions are $\\frac{9 - \\sqrt{141}}{10}$ and $\\frac{9 + \\sqrt{141}}{10}$. Since $\\sqrt{141} > 0$, the plus sign gives the larger value. The greatest solution is $\\frac{9 + \\sqrt{141}}{10}$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

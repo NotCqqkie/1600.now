@@ -1,0 +1,19 @@
+{
+  "questionId": "9d0396d4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points from the line",
+      "content": "The line clearly passes through the y-intercept at $(0, 7)$ and the x-intercept at $(8, 0)$. Both are marked or easily identifiable from the grid."
+    },
+    {
+      "title": "Find the slope and equation",
+      "content": "Slope: $$m = \\frac{0 - 7}{8 - 0} = -\\frac{7}{8}$$<br/>Using point-slope form with the y-intercept $(0, 7)$:<br/>$$y = -\\frac{7}{8}x + 7$$"
+    },
+    {
+      "title": "Substitute $y = 4$ and solve for $d$",
+      "content": "Substitute $y = 4$ into the equation:<br/>$$4 = -\\frac{7}{8}d + 7$$<br/>$$4 - 7 = -\\frac{7}{8}d$$<br/>$$-3 = -\\frac{7}{8}d$$<br/>$$d = 3 \\cdot \\frac{8}{7} = \\frac{24}{7}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the common term",
+      "content": "$$5(x+4)=4(x+4)+39$$\n$$5(x+4)-4(x+4)=39$$\n$$(5-4)(x+4)=39$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Simplify and identify the value",
+      "content": "$$(5-4)(x+4)=39$$\n$$x+4=39$$\nThat matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

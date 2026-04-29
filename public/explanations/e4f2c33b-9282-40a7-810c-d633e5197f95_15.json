@@ -1,0 +1,15 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the function composition",
+      "content": "Since $g(x) = f(x+3)$, substitute $(x+3)$ into $f$'s definition:<br/>$$g(x) = 7(4)^{x+3}$$"
+    },
+    {
+      "title": "Simplify using exponent rules",
+      "content": "Use the property $a^{m+n} = a^m \\cdot a^n$ to split the exponent:<br/>$$g(x) = 7 \\cdot 4^{x+3} = 7 \\cdot 4^x \\cdot 4^3$$<br/>Calculate $4^3 = 64$:<br/>$$g(x) = 7 \\cdot 64 \\cdot 4^x = 448(4)^x$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3310c2ab",
+  "correctAnswer": "2432",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish the conversion factor from quarts to fluid ounces",
+      "content": "We need to chain the given conversions: 4 cups = 1 quart and 8 fluid ounces = 1 cup. Multiply them together:<br/>$$1 \\text{ quart} = 4 \\text{ cups} \\times \\frac{8 \\text{ fluid ounces}}{1 \\text{ cup}} = 32 \\text{ fluid ounces}$$"
+    },
+    {
+      "title": "Find the equivalent number of fluid ounces",
+      "content": "Apply the conversion factor to 76 quarts:<br/>$$76 \\text{ quarts} \\times \\frac{32 \\text{ fluid ounces}}{1 \\text{ quart}} = 76 \\times 32 = 2432 \\text{ fluid ounces}$$"
+    }
+  ]
+}

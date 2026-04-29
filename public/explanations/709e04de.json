@@ -1,0 +1,15 @@
+{
+  "questionId": "709e04de",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate z",
+      "content": "We're given $z = 1.13 \\times 100$. Multiply:\n$$z = 1.13 \\times 100 = 113$$"
+    },
+    {
+      "title": "Find the percent increase",
+      "content": "The percent increase from 100 to 113 is:\n$$\\frac{113 - 100}{100} \\times 100\\% = \\frac{13}{100} \\times 100\\% = 13\\%$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

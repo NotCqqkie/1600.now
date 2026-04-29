@@ -1,0 +1,16 @@
+{
+  "questionId": "87a9a2d4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the triangle components relative to angle A",
+      "content": "In the right triangle, the right angle is at C (marked by the small square). From angle A's perspective:<ul><li>The <strong>opposite side</strong> is BC = 35 (the side across from A)</li><li>The <strong>hypotenuse</strong> is BA = 171 (the longest side, opposite the right angle)</li></ul>"
+    },
+    {
+      "title": "Apply the sine ratio",
+      "content": "The sine of an angle in a right triangle equals the opposite side divided by the hypotenuse:<br/>$$\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{35}{171}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
+    }
+  ]
+}

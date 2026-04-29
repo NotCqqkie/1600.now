@@ -1,0 +1,15 @@
+{
+  "questionId": "d7c8ba0b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line t",
+      "content": "The slope $m$ of a line through $(x_1,y_1)$ and $(x_2,y_2)$ is $$m=\\frac{y_2-y_1}{x_2-x_1}.$$<br/>Substituting $(0,9)$ and $(1,17)$: $$m=\\frac{17-9}{1-0}=\\frac{8}{1}=8.$$"
+    },
+    {
+      "title": "Write the equation and match the answer",
+      "content": "With slope $m=8$ and y\u2011intercept from point $(0,9)$, the line is $$y=8x+9.$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

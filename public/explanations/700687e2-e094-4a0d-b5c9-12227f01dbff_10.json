@@ -1,0 +1,15 @@
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint the timeline to contradict",
+      "content": "The consensus claims the size-reducing mutation developed <strong>only within the last 20,000 years</strong>. To directly support the assertion that this explanation is flawed, a finding must place that mutation well before 20,000 years ago."
+    },
+    {
+      "title": "Match timeline evidence to the assertion",
+      "content": "Choice C directly supports the assertion by documenting the body-size-influencing IGF1 mutation in 53,000-year-old Siberian wolf fossils \u2014 an early ancestor of dogs \u2014 demonstrating that this mutation predates the 20,000-year consensus threshold and therefore could not be a recent product of selective breeding. The other choices either isolate the gene (not the specific size-influencing mutation) in unrelated species (A), identify a different mutation affecting unrelated traits (B), or confirm the consensus timeline by placing the variant within the last 20,000 years (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

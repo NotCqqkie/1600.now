@@ -1,0 +1,15 @@
+{
+  "questionId": "a86c0b1b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the required explanation type",
+      "content": "The student must <strong>\u201cspecify the reason the Pleiades' appearance changed\u201d</strong>\u2014this requires a causal explanation, not just a description of the change."
+    },
+    {
+      "title": "Locate the causal reason",
+      "content": "C provides the causal mechanism: two stars moved so close together they appear as one, explaining why the cluster now shows six stars instead of seven. A mentions only cultural references, B shows the change without explaining it, and D contradicts itself by saying the cluster has seven stars while appearing to have six. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

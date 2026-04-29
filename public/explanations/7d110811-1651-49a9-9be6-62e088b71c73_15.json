@@ -1,0 +1,15 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "The two equations have $y$ terms with opposite coefficients. Adding them eliminates $y$:<br/>$$(3x + y) + (4x - y) = 13 + 15$$$$7x = 28$$"
+    },
+    {
+      "title": "Solve for x and determine the number of solutions",
+      "content": "Dividing both sides by 7 gives $x = 4$. A unique value for $x$ indicates the two lines intersect at exactly one point, so the system has exactly one solution. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

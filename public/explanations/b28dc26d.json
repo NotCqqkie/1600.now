@@ -1,0 +1,15 @@
+{
+  "questionId": "b28dc26d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the inverse relationship the LNH predicts",
+      "content": "The LNH predicts that exotericity (more non-native speakers) and grammatical complexity are inversely related\u2014high exotericity should mean low grammatical complexity. For Shcherbakova to claim inconsistency with the LNH, the findings must show that this inverse relationship does not hold in the data."
+    },
+    {
+      "title": "Match the finding that contradicts the prediction",
+      "content": "If fusion and informativity correlate positively with exotericity, then languages with more non-native speakers have higher complexity measures\u2014contradicting the LNH's prediction of lower complexity with higher exotericity. The other options either support the LNH's prediction, address relationships unrelated to exotericity's effect, or contradict the logic of indices measuring a property. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core relationship",
+      "content": "The researcher argues that GPS records significantly higher distances than RTD because GPS captures all actual movements while RTD only measures twice the direct distance between two habitats."
+    },
+    {
+      "title": "Apply the relationship to the data",
+      "content": "The table shows caribou at 4,868 km via GPS. Choice B states that caribou would be less than 4,868 km using RTD, demonstrating GPS exceeded RTD. The others either contradict this relationship or fail to compare both methods for the same animal. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

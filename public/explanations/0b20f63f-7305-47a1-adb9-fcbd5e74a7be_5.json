@@ -1,0 +1,15 @@
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign through both terms",
+      "content": "Apply the minus sign to each term in the second parentheses. Note that subtracting $\u22125$ becomes adding $+5$:<br/><br/>$$(3c + 9) - (4c^3 - 5) = 3c + 9 - 4c^3 + 5$$"
+    },
+    {
+      "title": "Combine constants and arrange by degree",
+      "content": "Add the constant terms and write in standard form (highest degree first):<br/><br/>$$-4c^3 + 3c + (9 + 5) = -4c^3 + 3c + 14$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

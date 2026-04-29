@@ -1,0 +1,15 @@
+{
+  "questionId": "6177abc5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the key percentage in the passage",
+      "content": "The passage specifies that 14.22 percent of games remain available. This exact percentage is the signal you need to find in the table."
+    },
+    {
+      "title": "Match the percentage to the correct time period",
+      "content": "Scanning the table, 14.22% corresponds to the 1995\u20131999 row. Choices A and C do not appear in the table at all, and choice D (1985\u20131989) shows 15.38%, not 14.22%. <strong>That matches choice B \u2014 B is correct.</strong>"
+    }
+  ]
+}

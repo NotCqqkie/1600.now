@@ -1,0 +1,16 @@
+{
+  "questionId": "0231050d",
+  "correctAnswer": "75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the snowfall values from the graph",
+      "content": "The labeled points on the line graph show that in 2003, the annual snowfall was 40 inches, and in 2007, it was 10 inches."
+    },
+    {
+      "title": "Calculate the percent decrease",
+      "content": "Substitute the values into the percent decrease formula:<br/><br/>$$p = \\frac{40 - 10}{40} \\times 100$$<br/><br/>Simplify:<br/><br/>$$p = \\frac{30}{40} \\times 100 = \\frac{3}{4} \\times 100 = 75$$<br/><br/>The value of <em>p</em> is 75.",
+      "formula": "$$\\text{Percent Decrease} = \\frac{\\text{Original} - \\text{New}}{\\text{Original}} \\times 100$$"
+    }
+  ]
+}

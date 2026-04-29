@@ -1,0 +1,15 @@
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's goal",
+      "content": "The student wants to \u201cspecify the parts of a Foucault pendulum.\u201d The notes describe three key structural components: a fixed point, a cable, and a weighted ball at the end. The most effective choice will name all three."
+    },
+    {
+      "title": "Apply the goal to each choice",
+      "content": "Choice C alone identifies all three: it describes the fixed point the pendulum dangles from, the cable, and the weighted ball at the end. The others either isolate one component (A) or shift focus to the pendulum's behavior and function instead of its structure (B and D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

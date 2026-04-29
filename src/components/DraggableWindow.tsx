@@ -297,6 +297,7 @@ export const DraggableWindow = ({
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseup', handleMouseUp);
+      document.body.classList.remove("noselect");
       lastSplitPositionRef.current = null;
       document.body.classList.remove("noselect");
     };

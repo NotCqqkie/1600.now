@@ -1,0 +1,15 @@
+{
+  "questionId": "a427a52c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the boundary between structures",
+      "content": "\u201dPowered with\u201d begins a participial phrase, while \u201cthe blinking LEDs keep lions away at night\u201d is an independent clause."
+    },
+    {
+      "title": "Apply the comma rule for introductory phrases",
+      "content": "An introductory participial phrase must be separated from the following independent clause by a comma. Choice C provides \u201cenergy collected by solar panels during the day,\u201d with the required comma at the end, producing \u201cPowered with energy collected by solar panels during the day, the blinking LEDs keep...\u201d Choices A and B lack this separating comma, and D breaks the noun phrase with an unnecessary comma between \u201cenergy\u201d and its modifier. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

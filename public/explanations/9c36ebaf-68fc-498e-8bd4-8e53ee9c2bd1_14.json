@@ -1,0 +1,16 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept form",
+      "content": "The line passes through $(3, 0)$ on the $x$-axis and $(0, 5)$ on the $y$-axis, which are the x-intercept and y-intercept respectively. For any line with x-intercept $a$ and y-intercept $b$, the intercept form is:<br/>$$\\frac{x}{a} + \\frac{y}{b} = 1$$<br/>Substituting $a = 3$ and $b = 5$:<br/>$$\\frac{x}{3} + \\frac{y}{5} = 1$$",
+      "formula": "$$\\frac{x}{a} + \\frac{y}{b} = 1$$"
+    },
+    {
+      "title": "Convert to standard form",
+      "content": "Multiply both sides by 15 (the least common multiple of the denominators 3 and 5):<br/>$$5x + 3y = 15$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving \u2014 testing choice B",
+      "content": "Backsolving \u2014 testing choice B (0.51x):<br/>If the resulting number were $$0.51x$$, the increase would be $$0.51x - x = -0.49x$$, which is a $$-49\\%$$ change (a decrease).<br/>This does not match a 149% increase."
+    },
+    {
+      "title": "Testing choice C",
+      "content": "Fails. Testing choice C (1.49x):<br/>Increase = $$1.49x - x = 0.49x$$ => $$49\\%$$ increase.<br/>Still not 149%."
+    },
+    {
+      "title": "Testing choice D",
+      "content": "Testing choice D (2.49x):<br/>Increase = $$2.49x - x = 1.49x$$ => $$149\\%$$ increase.<br/>This matches the given percent increase.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

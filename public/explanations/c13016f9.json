@@ -1,0 +1,1 @@
+{"questionId": "c13016f9", "correctAnswer": "77", "section": "Math", "steps": [{"title": "Substitute x = 2 into the function", "content": "The function is $f(x) = x^2 + x + 71$. Replace every $x$ with \\$2$:<br/>$$f(2) = (2)^2 + 2 + 71$$"}, {"title": "Evaluate the expression", "content": "Calculate the powers and sum:<br/>$(2)^2 = 4$, so:<br/>$$f(2) = 4 + 2 + 71 = 77$$"}]}

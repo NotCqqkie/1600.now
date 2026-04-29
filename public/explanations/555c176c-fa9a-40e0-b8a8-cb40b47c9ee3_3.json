@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the linear growth model",
+      "content": "The equation $0.6t + 7 = 11$ follows the structure: (starting value) + (rate) \u00d7 (time) = (ending value). In any linear equation, the coefficient that multiplies the time variable is the rate of change. Here, 0.6 multiplies $t$, so 0.6 is the rate."
+    },
+    {
+      "title": "Determine what 0.6 represents",
+      "content": "Hair grows from 7 inches to 11 inches, and $t$ is measured in months. The term $0.6t$ must yield inches of growth. For dimensional consistency: (0.6 inches/month) \u00d7 ($t$ months) = inches. Therefore, 0.6 is the growth rate in inches per month. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

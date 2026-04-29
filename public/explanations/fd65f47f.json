@@ -1,0 +1,15 @@
+{
+  "questionId": "fd65f47f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group and combine like terms",
+      "content": "Organize the terms from both polynomials by degree:<br/>\n$$2x^2 + x^2 = 3x^2$$<br/>\n$$x + 6x = 7x$$<br/>\n$$-9 + 1 = -8$$"
+    },
+    {
+      "title": "Write the equivalent expression",
+      "content": "The result is $3x^2 + 7x - 8$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

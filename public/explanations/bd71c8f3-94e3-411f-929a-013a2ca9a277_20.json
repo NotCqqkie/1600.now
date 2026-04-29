@@ -1,0 +1,15 @@
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept by setting x = 0",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which occurs at $x = 0$. Substitute this value into the given equation."
+    },
+    {
+      "title": "Substitute and evaluate",
+      "content": "$$y = -(4)^0 - 39$$\nSince $(4)^0 = 1$:\n$$y = -(1) - 39 = -40$$\n<br/>The $y$-intercept is the point $(0, -40)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

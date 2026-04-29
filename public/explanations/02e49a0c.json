@@ -1,0 +1,15 @@
+{
+  "questionId": "02e49a0c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signal",
+      "content": "The word \u201cHowever\u201d marks a sharp turn: the previous sentence described what fossil studies concluded, but this sentence pivots to identify a problem. Specifically, many fossil studies \u201crelied on incomplete data sets\u201d \u2014 the sentence is flagging a weakness in those studies."
+    },
+    {
+      "title": "Match the function to the choices",
+      "content": "The sentence's function is to describe a limitation of the fossil studies about turtle origins, which is precisely what choice B states. The other three choices discuss unrelated subject matter (fossil examination tools, crocodile evolution) or criticize the wrong type of study (genetic instead of fossil).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

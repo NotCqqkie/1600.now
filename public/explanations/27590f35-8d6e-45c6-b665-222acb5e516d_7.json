@@ -1,0 +1,15 @@
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -3 into the function",
+      "content": "We have h(x) = 5|x| and need to find h(-3). Substitute x = -3 directly: $$h(-3) = 5|-3|$$"
+    },
+    {
+      "title": "Evaluate the absolute value and multiply",
+      "content": "The absolute value of \u22123 is 3. Now multiply: $$h(-3) = 5 \\cdot 3 = 15$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert line r to slope-intercept form",
+      "content": "Starting with $4x - 3y = 8$, isolate $y$ to find the slope.<br/>$$-3y = -4x + 8$$<br/>$$y = \\frac{4}{3}x - \\frac{8}{3}$$<br/>The slope of line $r$ is $\\frac{4}{3}$."
+    },
+    {
+      "title": "Apply the parallel lines rule",
+      "content": "Parallel lines have the same slope. Since line $s$ is parallel to line $r$, the slope of line $s$ equals the slope of line $r$, which is $\\frac{4}{3}$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

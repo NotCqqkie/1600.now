@@ -1,0 +1,15 @@
+{
+  "questionId": "0536ad4f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine terms inside parentheses",
+      "content": "Add the like terms inside the parentheses: $$4w + 3w = 7w$$. Now the original expression becomes $$20w - 7w$$."
+    },
+    {
+      "title": "Subtract to simplify",
+      "content": "Calculate $$20w - 7w = 13w$$. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

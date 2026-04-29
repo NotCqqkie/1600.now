@@ -1,0 +1,19 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_22",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept b from the graph",
+      "content": "The y-intercept is the value of $y$ when $x = 0$. Looking at the graph, the line crosses the y-axis at the point $(0, -3)$, so $b = -3$."
+    },
+    {
+      "title": "Find the slope a using two points",
+      "content": "To find slope, identify a second point on the line. The line passes through $(1, 3)$. Using the slope formula:<br/><br/>$$a = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{3 - (-3)}{1 - 0} = \\frac{6}{1} = 6$$"
+    },
+    {
+      "title": "Calculate a \u2212 b",
+      "content": "Now compute the difference:<br/><br/>$$a - b = 6 - (-3) = 6 + 3 = 9$$<br/><br/>The answer is <strong>9</strong>."
+    }
+  ]
+}

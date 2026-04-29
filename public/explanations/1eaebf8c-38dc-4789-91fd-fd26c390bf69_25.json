@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the core requirement",
+      "content": "The goal is explicit: indicate the size of the refuge. The notes provide exactly one measurement for this: 3,592 acres."
+    },
+    {
+      "title": "Find the choice containing this measurement",
+      "content": "Choice B directly includes the size: \u201cencompasses 3,592 acres of land.\u201d The other three choices focus on the species (A and D), management (C), or activity restrictions, omitting the acreage. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4b7bb316",
+  "correctAnswer": "4205",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the exposed faces",
+      "content": "A rectangular box has 6 faces total. Since this box has no lid, the top face is missing. This leaves <strong>5 exposed faces</strong>: 1 bottom and 4 side walls."
+    },
+    {
+      "title": "Calculate the total exterior surface area",
+      "content": "Each face is a square with side length 29 inches. The area of one square face is:<br/>$$29^2 = 841\\text{ square inches}$$<br/>The total exterior surface area with 5 faces is:<br/>$$5 \\times 841 = 4205\\text{ square inches}$$"
+    }
+  ]
+}

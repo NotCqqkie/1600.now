@@ -1,0 +1,15 @@
+{
+  "questionId": "c52652c9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the pronoun must match",
+      "content": "The blank serves as the subject of <em>will even find faces</em> and must refer to <em>The human brain</em> from the main clause. Since <em>brain</em> is singular and inanimate, the pronoun must also be singular and neuter."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must agree with its antecedent in number and gender. Only <strong>it</strong> satisfies both requirements for <em>The human brain</em>. The other options violate agreement: they and those are plural, while she is feminine (wrong for inanimate nouns). This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

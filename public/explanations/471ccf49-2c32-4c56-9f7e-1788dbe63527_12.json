@@ -1,0 +1,16 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area scale factor for similar figures",
+      "content": "When linear dimensions scale by a factor of $k$, areas scale by $k^2$. Since the side of square M is 9 times the side of square N, the area of square M is $9^2 = 81$ times the area of square N."
+    },
+    {
+      "title": "Calculate the area of square M",
+      "content": "Since the area of square N is 25 square centimeters:<br/>$$\\text{Area}_M = 81 \\times 25 = 2,025$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$\\text{Area}_M = k^2 \\times \\text{Area}_N$$"
+    }
+  ]
+}

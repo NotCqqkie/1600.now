@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject's number",
+      "content": "The subject is <strong>the average processing power</strong> (singular). The parenthetical phrase about microchip cores elaborates on <em>microchips</em>, not the subject."
+    },
+    {
+      "title": "Apply the agreement rule",
+      "content": "<strong>Has improved</strong> is the only singular option and uses present perfect tense to fit the <em>since then</em> timeframe (spanning from the early 2000s to now). The other three choices use plural verbs, which violate subject-verb agreement with the singular subject.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a6155e60",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence establishes that compounds have unique spectroscopic fingerprints. The second sentence describes De Sanctis analyzing reflected light and successfully identifying sodium carbonate on Ceres. The strongest signal: these two sentences have a cause-and-effect relationship\u2014the identification follows from the fingerprinting principle."
+    },
+    {
+      "title": "Apply the causal transition",
+      "content": "<strong>Thus</strong> (therefore/as a result) is correct because it expresses that De Sanctis's identification logically follows from the spectroscopic fingerprinting principle introduced first. The other three choices indicate contrast, simultaneity, or comparison, which don't match the cause-and-effect relationship here. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6977d22b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what Behrenfeld challenges",
+      "content": "The conventional wisdom assumes that with limited resources, phytoplankton species should compete intensely, allowing one to dominate. Behrenfeld directly contradicts this assumption: <em>\u201cdirect competition among phytoplankton probably happens much less than previously thought.\u201d</em>"
+    },
+    {
+      "title": "Recognize the misconception",
+      "content": "Behrenfeld identifies the flaw as a misconception about competition frequency\u2014the conventional view overestimates how often phytoplankton compete with each other, ignoring that their tiny size and spatial separation make interaction rare. This precisely matches choice A's characterization. The other choices either introduce unsupported mechanisms (nutrient replenishment, larger-organism competition) or misrepresent Behrenfeld's finding (claiming water density increases rather than decreases interaction difficulty). That matches choice A\u2014<strong>A</strong> is correct."
+    }
+  ]
+}

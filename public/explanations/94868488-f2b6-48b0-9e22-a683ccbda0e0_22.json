@@ -1,0 +1,19 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Observe the structure of the equation",
+      "content": "We have $$\\frac{x+5}{3}=\\frac{x+5}{12}$$. The numerator $(x+5)$ appears in both fractions, but the denominators are different: 3 and 12."
+    },
+    {
+      "title": "Apply the equality principle",
+      "content": "For two fractions to be equal when they have the same numerator but different denominators, the numerator must equal zero. If the numerator were non-zero, dividing it by 3 would give a different result than dividing it by 12, contradicting the equation. Therefore, $x+5 = 0$."
+    },
+    {
+      "title": "Find the interval containing x+5",
+      "content": "We've determined that $x+5 = 0$. Now identify which interval contains this value:<br/><ul><li>Choice A: between 2 and 6 \u2014 does not contain 0</li><li>Choice B: between \u22122 and 2 \u2014 contains 0</li><li>Choice C: between \u22126 and \u22123 \u2014 does not contain 0</li><li>Choice D: between 7 and 12 \u2014 does not contain 0</li></ul>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

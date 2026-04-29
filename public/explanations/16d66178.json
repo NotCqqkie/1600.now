@@ -1,0 +1,19 @@
+{
+  "questionId": "16d66178",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify complementary angles and apply identities",
+      "content": "Notice that $24\u00b0 + 66\u00b0 = 90\u00b0$, making these angles complementary. For complementary angles, we use the identities:<br/>$$\\cos66\u00b0 = \\sin24\u00b0$$<br/>$$\\sin66\u00b0 = \\cos24\u00b0$$"
+    },
+    {
+      "title": "Substitute the identities into the expression",
+      "content": "Replace $\\cos66\u00b0$ with $\\sin24\u00b0$ and $\\sin66\u00b0$ with $\\cos24\u00b0$ in the original expression:<br/>$$(\\sin24\u00b0)(\\cos66\u00b0) + (\\cos24\u00b0)(\\sin66\u00b0) = (\\sin24\u00b0)(\\sin24\u00b0) + (\\cos24\u00b0)(\\cos24\u00b0)$$<br/>Simplifying:<br/>$$(\\sin24\u00b0)^2 + (\\cos24\u00b0)^2$$"
+    },
+    {
+      "title": "Rewrite in terms of the choices",
+      "content": "Since $\\sin24\u00b0 = \\cos66\u00b0$, we can rewrite our expression as:<br/>$$(\\cos66\u00b0)^2 + (\\cos24\u00b0)^2$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

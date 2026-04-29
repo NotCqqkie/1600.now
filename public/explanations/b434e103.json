@@ -1,0 +1,16 @@
+{
+  "questionId": "b434e103",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle angle sum property",
+      "content": "In any triangle, the sum of all three angles equals 180\u00b0. Given \u2220R = 63\u00b0:<br/><br/>$$63\u00b0 + \u2220S + \u2220T = 180\u00b0$$<br/><br/>Subtract 63\u00b0 from both sides:<br/>$$\u2220S + \u2220T = 117\u00b0$$",
+      "formula": "$$\u2220A + \u2220B + \u2220C = 180\u00b0$$"
+    },
+    {
+      "title": "Determine valid values for \u2220S",
+      "content": "For triangle RST to exist, angle T must be positive, so \u2220T > 0\u00b0. Since \u2220S + \u2220T = 117\u00b0, this means \u2220S must be less than 117\u00b0.<br/><br/>Check each choice:<ul><li><strong>A) 116\u00b0:</strong> \u2220T = 117\u00b0 \u2212 116\u00b0 = 1\u00b0 \u2713 Valid</li><li><strong>B) 118\u00b0:</strong> \u2220T = 117\u00b0 \u2212 118\u00b0 = \u22121\u00b0 \u2717 Negative angle, impossible</li><li><strong>C) 126\u00b0:</strong> \u2220T = 117\u00b0 \u2212 126\u00b0 = \u22129\u00b0 \u2717 Negative angle, impossible</li><li><strong>D) 180\u00b0:</strong> \u2220T = 117\u00b0 \u2212 180\u00b0 = \u221263\u00b0 \u2717 Negative angle, impossible</li></ul><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

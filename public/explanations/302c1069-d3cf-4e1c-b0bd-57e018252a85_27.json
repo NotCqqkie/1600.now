@@ -1,0 +1,15 @@
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The notes state: \u201cIn ballroom dance, there is a position called closed facing position.\u201d This single sentence provides the specific example the student needs to illustrate."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Choice A directly repeats that idea: \u201cClosed facing position is an example of a position in ballroom dance.\u201d It uses the exact example from the notes.<br/>The other three choices either omit the closed\u2011facing position or talk about positions in general, so they do not give the requested example.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

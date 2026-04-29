@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_8",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what initial deposit means",
+      "content": "The initial deposit is the account balance at time zero. In function notation, this is $f(0)$, which is the $y$-intercept of the line\u2014where the line crosses the $y$-axis at $x = 0$."
+    },
+    {
+      "title": "Read the y-intercept directly from the graph",
+      "content": "At $x = 0$ (the left edge of the graph where the $y$-axis is), the line crosses the $y$-axis at $y = 40$ dollars. This is the initial deposit estimated by the graph: <strong>40 dollars</strong>."
+    }
+  ]
+}

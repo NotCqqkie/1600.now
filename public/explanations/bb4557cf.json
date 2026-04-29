@@ -1,0 +1,15 @@
+{
+  "questionId": "bb4557cf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the relationship between the main claim and what follows",
+      "content": "The sentence states that cells with identical DNA develop different functions, then immediately explains <em>why</em>\u2014the genome and epigenome have different roles. The sentence needs punctuation that signals \u201chere comes the explanation.\u201d"
+    },
+    {
+      "title": "Apply the colon rule for elaboration",
+      "content": "A colon introduces an elaboration or explanation that follows an independent clause. After \u201cfunctions:\u201d the \u201cwhereas\u201d clause explains why cells develop different functions despite identical DNA\u2014the genome contains a complete DNA sequence while the epigenome determines which traits are expressed. Choice A leaves the connection abrupt, B places a comma before the subordinate clause (incorrect for \u201cwhereas\u201d), and C creates an ungrammatical \u201cand,\u201d structure. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the definition of an equilateral triangle",
+      "content": "An equilateral triangle has all three sides of equal length. To prove triangle ABC is equilateral, we must establish that AB = BC = AC."
+    },
+    {
+      "title": "Determine what AC must equal to satisfy the equilateral condition",
+      "content": "We are given AB = 4,720 mm and BC = 4,720 mm. Since we need all three sides to be equal, AC must equal AB and BC. Therefore, AC must equal 4,720 mm. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

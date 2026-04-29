@@ -1,0 +1,16 @@
+{
+  "questionId": "9cb9beec",
+  "correctAnswer": "14.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the tangency condition using substitution",
+      "content": "The system has exactly one distinct real solution when the horizontal line $y = -1.5$ touches the parabola at exactly one point (tangency). Substitute the first equation into the second:<br/>$$-1.5 = x^2 + 8x + a$$<br/>Rearrange to standard form:<br/>$$x^2 + 8x + (a + 1.5) = 0$$<br/>For this quadratic to have exactly one real solution, the discriminant must equal zero.",
+      "formula": "$$b^2 - 4ac = 0$$"
+    },
+    {
+      "title": "Apply the discriminant condition and solve for a",
+      "content": "For the quadratic $x^2 + 8x + (a + 1.5) = 0$ to have exactly one real solution, set the discriminant to zero:<br/>$$8^2 - 4(1)(a + 1.5) = 0$$<br/>$$64 - 4a - 6 = 0$$<br/>$$58 = 4a$$<br/>$$a = 14.5$$"
+    }
+  ]
+}

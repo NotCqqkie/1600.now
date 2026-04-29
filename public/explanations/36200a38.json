@@ -1,0 +1,15 @@
+{
+  "questionId": "36200a38",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the exterior angle configuration",
+      "content": "When two sides of a triangle are extended, they form exterior angles outside the triangle. The angle <em>x</em> is one such exterior angle."
+    },
+    {
+      "title": "Apply the exterior angle theorem and compute x",
+      "content": "An exterior angle equals the sum of the two non-adjacent interior angles. From the figure, the two remote interior angles measure 50\u00b0 and 70\u00b0, so:<br/>$$x = 50\u00b0 + 70\u00b0 = 120\u00b0$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

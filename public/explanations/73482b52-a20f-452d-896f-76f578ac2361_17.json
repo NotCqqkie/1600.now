@@ -1,0 +1,15 @@
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "The left side forms an incomplete independent clause: \u201cWhat increases is the rate at which the water turns to\u201d (awaiting an object).<br/>The right side contains a second independent clause: \u201can airtight seal traps the vapor in the pot, creating pressure...\u201d (with \u201ca pressure cooker pot\u201d as an introductory noun phrase)."
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "Two independent clauses must be joined with a period, semicolon, or comma plus a coordinating conjunction. Choice A uses a period, which correctly separates the two independent clauses into distinct sentences.<br/>The other options fail this rule: C creates a comma splice (joining with a comma but no coordinating conjunction), D creates a run-on (no punctuation), and B creates an ungrammatical phrase.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

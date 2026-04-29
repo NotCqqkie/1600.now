@@ -1,0 +1,19 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the horizontal asymptote to find b",
+      "content": "For exponential functions of the form $y = a^x + b$, as $x \\to -\\infty$, the term $a^x \\to 0$ (when $a > 1$), leaving only the constant $b$. The graph shows the curve approaching a horizontal asymptote at $y = -2$. Therefore, $b = -2$."
+    },
+    {
+      "title": "Use a point on the curve to find a",
+      "content": "The graph marks a point at $(1, 7)$. Substituting into $y = a^x + b$:<br/><br/>$$7 = a^1 + (-2)$$<br/><br/>$$7 = a - 2$$<br/><br/>$$a = 9$$<br/><br/>That matches the exponential behavior shown in the graph."
+    },
+    {
+      "title": "Calculate a - b",
+      "content": "$$a - b = 9 - (-2) = 9 + 2 = 11$$<br/><br/>The answer is <strong>11</strong>."
+    }
+  ]
+}

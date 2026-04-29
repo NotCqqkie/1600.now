@@ -1,0 +1,15 @@
+{
+  "questionId": "010fa3f0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core claim",
+      "content": "The conclusion states that irrigation response is \u201chighly sensitive to the baseline concentration\u201d \u2014 meaning that when precipitation becomes concentrated in the future, the irrigation increase depends critically on what the baseline precipitation concentration currently is."
+    },
+    {
+      "title": "Find data showing baseline dependence",
+      "content": "B directly shows this: when baseline is somewhat concentrated, irrigation increases only slightly; when baseline is evenly distributed, irrigation increases substantially (9.0% for surface water, 7.9% for groundwater). The other choices either describe just one baseline scenario, confuse different water types, or contradict the conclusion by claiming irrigation declines. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

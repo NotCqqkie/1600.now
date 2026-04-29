@@ -1,0 +1,15 @@
+{
+  "questionId": "0fa289a7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The text contains an independent clause followed by a noun phrase describing the film (\u201ca quiet black-and-white drama about a family in rural India\u201d), then another independent clause (\u201cRay's film was quite different\u201d). These structures require a proper sentence boundary."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Option D places a period after \u201cPanchali,\u201d separating the structures into two complete sentences\u2014the first ending with the film title, the second describing the film's contrasting qualities. Options A, B, and C fail to create proper separation: A introduces a floating article, B and C maintain the improper comma between \u201cIndia\u201d and the final independent clause.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

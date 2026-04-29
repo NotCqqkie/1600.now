@@ -303,13 +303,30 @@
     "difficulty": "Easy",
     "question_number": 11,
     "test_name": "May 2024 US Form A SAT Math Module 1",
-    "passage": "If the given function $ f $ is graphed in the $ xy $-plane, where $ y = f(x) $, what is the $ x $-coordinate of an $ x $-intercept of the graph?",
+    "passage": "The function $f$ is defined by $f(x)=25x+30$. What is the value of $f\\left(x\\right)$ when $x=2$?",
     "question_text": null,
-    "choices": [],
-    "is_fill_in_blank": true,
-    "correct_answer": "2,7,9",
-    "rationale": null,
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_11"
+    "choices": [
+      {
+        "label": "A",
+        "text": "$50$"
+      },
+      {
+        "label": "B",
+        "text": "$57$"
+      },
+      {
+        "label": "C",
+        "text": "$80$"
+      },
+      {
+        "label": "D",
+        "text": "$110$"
+      }
+    ],
+    "is_fill_in_blank": false,
+    "correct_answer": "C",
+    "rationale": "Choice C is correct. It’s given that the function $f$ is defined by $f\\left(x\\right)=25x+30$. Substituting $2$ for $x$ in this equation yields $f\\left(2\\right)=25\\left(2\\right)+30$, which is equivalent to $f\\left(2\\right)=50+30$, or $f\\left(2\\right)=80$. Therefore, the value of $f\\left(x\\right)$ is $80$ when $x=2$.\nChoice A is incorrect. This is the value of $25\\left(2\\right)$, not $25\\left(2\\right)+30$.\nChoice B is incorrect. This is the value of $25+2+30$, not $25\\left(2\\right)+30$.\nChoice D is incorrect. This is the value of $\\left(25+30\\right)\\left(2\\right)$, not $25\\left(2\\right)+30$.",
+    "id": "3d1070c9"
   },
   {
     "section": "Math",

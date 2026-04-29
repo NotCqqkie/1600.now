@@ -1,0 +1,15 @@
+{
+  "questionId": "6d247c13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the phrase structure needed",
+      "content": "The blank appears at the start of an introductory phrase: \u201c[BLANK] by businessman William A.G. Brown, the saloon was known...\u201d This position requires a participle form\u2014a non-finite verb that modifies the subject of the main clause."
+    },
+    {
+      "title": "Match the participle to the tense",
+      "content": "Since the sentence is entirely in past tense, an introductory participial phrase must use a past participle. \u201cCreated\u201d correctly conveys a completed past action. Creates and Create are finite verbs that cannot function as modifiers, and \u201cCreating\u201d is a present participle that contradicts the past-tense context.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

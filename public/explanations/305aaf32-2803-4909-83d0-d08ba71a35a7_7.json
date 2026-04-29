@@ -1,0 +1,19 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify x directly",
+      "content": "The first equation tells us immediately: $x = 5$"
+    },
+    {
+      "title": "Substitute into the second equation to find y",
+      "content": "Substitute $x = 5$ into $-2x + y = -5$:<br/>$$-2(5) + y = -5$$$$-10 + y = -5$$$$y = 5$$"
+    },
+    {
+      "title": "Add x and y",
+      "content": "$$x + y = 5 + 5 = 10$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

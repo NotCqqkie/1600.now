@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_17",
+  "correctAnswer": "4.418",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the surface to count",
+      "content": "The box has equal edge lengths of 94 cm and square sides with no lid. This is a cube missing its top face, so we count exactly 5 square faces for the exterior surface."
+    },
+    {
+      "title": "Calculate and convert to square meters",
+      "content": "Each square face has area $94^2$ cm\u00b2. The total is:<br/>$$5 \\times 94^2 = 5 \\times 8836 = 44,180 \\text{ cm}^2$$<br/>To convert to m\u00b2, divide by the conversion factor 1 m\u00b2 = 10,000 cm\u00b2:<br/>$$\\frac{44,180}{10,000} = 4.418 \\text{ m}^2$$"
+    }
+  ]
+}

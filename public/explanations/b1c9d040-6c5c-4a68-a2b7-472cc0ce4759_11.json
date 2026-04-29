@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the MSX row in the table",
+      "content": "The student needs the worldwide units sold for the MSX manufactured by ASCII Corp. Search the table for the row where \u201cSystem\u201d = MSX and \u201cManufacturer\u201d = ASCII Corp."
+    },
+    {
+      "title": "Read the value from the correct column",
+      "content": "The MSX row shows 4,000,000 in the \u201cApproximate number of units sold worldwide\u201d column. The other three values\u201418,450,000, 1,600,000, and 2,650,000\u2014belong to the Atari 2600, Amiga, and TurboGrafx-16 respectively, representing a misread of a different system's data. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

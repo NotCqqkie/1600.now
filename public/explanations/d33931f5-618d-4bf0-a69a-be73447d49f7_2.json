@@ -1,0 +1,15 @@
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 48 into the function",
+      "content": "We're given $j(x) = \\frac{x}{8}$ and need to find $j(48)$. To evaluate the function at $x = 48$, we substitute this value into the definition."
+    },
+    {
+      "title": "Simplify to find the answer",
+      "content": "$$j(48) = \\frac{48}{8} = 6$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

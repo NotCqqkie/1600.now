@@ -1,0 +1,16 @@
+{
+  "questionId": "02b02213",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the perimeter formula",
+      "content": "The perimeter of a rectangle is the sum of all four sides. Since a rectangle has two sides of length $l$ and two sides of width $w$, the perimeter is $2l + 2w$.",
+      "formula": "$$P = 2l + 2w$$"
+    },
+    {
+      "title": "Substitute and calculate",
+      "content": "Substitute $l = 4$ and $w = 9$ into the formula:<br/>$$P = 2(4) + 2(9) = 8 + 18 = 26$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6997261f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "On the left is an independent clause: <em>\u201cThese are some of the oldest\u201d</em> (subject + verb). On the right is a prepositional phrase: <em>\u201cof pottery ever found,\u201d</em> which modifies the noun <em>\u201cpieces.\u201d</em> The whole sentence reads as one grammatical unit."
+    },
+    {
+      "title": "Apply the boundary rule",
+      "content": "A noun followed directly by a modifying prepositional phrase requires no punctuation separating them. A colon would incorrectly introduce an elaboration, a comma would create an unnecessary pause, and an em dash would suggest emphasis or parenthetical content. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

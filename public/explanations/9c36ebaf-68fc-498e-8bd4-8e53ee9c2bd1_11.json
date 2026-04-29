@@ -1,0 +1,16 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate area of Circle K",
+      "content": "With radius 8 mm, the area of Circle K is $$A_K = \\pi(8)^2 = 64\\pi \\text{ mm}^2$$",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Add both circle areas",
+      "content": "Circle K has area $64\\pi$ mm\u00b2, and Circle L has area $144\\pi$ mm\u00b2 (given). The total area is $$64\\pi + 144\\pi = 208\\pi \\text{ mm}^2$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

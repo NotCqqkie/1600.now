@@ -1,0 +1,15 @@
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that a meta\u2011analysis showed a minimum sample size of 176 individuals is needed to trust a finding of population\u2011level handedness."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D points out that the sample size behind the 1991 claim is far below the 176\u2011person threshold, which matches the reason to treat the claim skeptically. The other three either introduce unrelated details, misstate the gorilla study, or confuse frequency with sample size. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

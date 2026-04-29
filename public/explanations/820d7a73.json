@@ -1,0 +1,15 @@
+{
+  "questionId": "820d7a73",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate Group 6 on the horizontal axis",
+      "content": "Identify the sixth bar from the left on the graph, which corresponds to Group 6."
+    },
+    {
+      "title": "Read the height from the vertical axis",
+      "content": "Trace upward from Group 6 to the top of its bar. The bar aligns with the 40 mark on the vertical \"Number of cans\" axis. Group 6 collected <strong>40</strong> cans."
+    }
+  ]
+}

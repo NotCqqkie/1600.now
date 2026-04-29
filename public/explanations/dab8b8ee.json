@@ -1,0 +1,15 @@
+{
+  "questionId": "dab8b8ee",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank is preceded by a participial phrase\u2014\u201dFortifying soil in arid ecosystems against erosion,\u201d\u2014which must attach to the subject of the clause that follows."
+    },
+    {
+      "title": "Apply the rule: participial phrases must modify appropriate subjects",
+      "content": "A participial phrase modifies the noun that immediately follows it, and that noun must logically be capable of performing the action. Choice C provides \u201cthese crusts\u201d as the subject, and these crusts logically fortify soil against erosion. The other three provide subjects that cannot logically fortify soil. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find actual distance represented by original map",
+      "content": "The original map\u2019s side length is 30 inches, and each inch represents 17 miles, so the actual distance represented by the whole side is $$30 \\times 17 = 510$$ miles."
+    },
+    {
+      "title": "Compute side length of smaller map",
+      "content": "The smaller map\u2019s side length is 65% shorter, meaning it retains only 35% of the original: $$30 \\times (1 - 0.65) = 30 \\times 0.35 = 10.5$$ inches."
+    },
+    {
+      "title": "Determine miles per inch on smaller map",
+      "content": "The same actual distance (510 miles) is now shown on 10.5 inches, so one inch on the smaller map represents $$\\frac{510}{10.5} \\approx 48.57$$ miles. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

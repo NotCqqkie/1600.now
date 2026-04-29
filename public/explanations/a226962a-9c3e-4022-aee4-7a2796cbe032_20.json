@@ -1,0 +1,15 @@
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank fills the subject of \u201cfound\u201d and consists of a title (US biologist) directly followed by a proper name (Brad Gemmell), then \u201cand colleagues.\u201d The name identifies which biologist is being referenced."
+    },
+    {
+      "title": "Apply appositive punctuation rules",
+      "content": "A restrictive appositive\u2014one that provides essential information to identify a noun\u2014should not be set off with commas. Here, Brad Gemmell is restrictive; it specifies which US biologist, so no comma separates the title from the name. Choices A and C incorrectly treat the name as a nonrestrictive appositive requiring commas on both sides. Choice D inconsistently places a comma only before \u201cand colleagues\u201d without matching punctuation around the name. Choice B correctly uses no punctuation between the title and name. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c49e946e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the complex series",
+      "content": "The sentence lists three responsibilities in a series. Each of the first two items contains an internal clause set off by commas, creating complex items with internal punctuation. The blank separates these items."
+    },
+    {
+      "title": "Apply the semicolon rule for complex series",
+      "content": "A semicolon separates these two complex items correctly. The other choices blur item boundaries (A, B) or create a sentence fragment (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core claim",
+      "content": "The team concluded Kozak & Keoleian's study had more specificity in data. The detail rating (measuring \u201creported data with more detail\u201d) directly reflects data specificity."
+    },
+    {
+      "title": "Find the direct contradiction",
+      "content": "A lower detail rating for Kozak & Keoleian (choice A) means their data is less detailed\u2014directly contradicting \u201cmore specificity.\u201d Traceability (B) concerns procedure clarity, not data specificity; C and D would support the original conclusion. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

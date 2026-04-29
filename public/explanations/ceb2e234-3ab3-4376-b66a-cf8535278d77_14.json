@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the mass relationship",
+      "content": "We know that $r$ identical objects have a total mass of $t$ kilograms. Since all objects are identical, the total mass is directly proportional to the number of objects \u2014 double the objects, double the mass; triple the objects, triple the mass."
+    },
+    {
+      "title": "Scale the mass for 112r objects",
+      "content": "We need the mass of $112r$ objects, which is exactly 112 times as many objects as the original $r$. When we multiply the quantity by 112, the total mass must also multiply by 112.<br/><br/>$$\\text{New mass} = 112 \\times t = 112t \\text{ kg}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

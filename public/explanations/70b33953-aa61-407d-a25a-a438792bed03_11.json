@@ -1,0 +1,15 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the difference condition",
+      "content": "The condition $g(x+1) - g(x) = 2$ reveals the slope of the linear function. For any linear function $g(x) = mx + b$: $$g(x+1) - g(x) = m(x+1) + b - (mx + b) = m$$ Since this difference equals 2, the slope is $m = 2$, giving us $g(x) = 2x + b$."
+    },
+    {
+      "title": "Use the point condition to find the y-intercept",
+      "content": "Apply $g(9) = 11$ to find the remaining constant: $$g(9) = 2(9) + b = 11$$ $$18 + b = 11$$ $$b = -7$$ Therefore $g(x) = 2x - 7$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

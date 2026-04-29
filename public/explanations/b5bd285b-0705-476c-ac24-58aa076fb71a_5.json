@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the core pivot",
+      "content": "The passage opens with a problem (\u201cHaving trouble getting rid of weeds?\u201d) and immediately pivots to an unexpected solution (\u201cOne surprising solution may be to start eating them\u201d). This problem-to-surprising-solution structure, with emphasis on the word \u201csurprising,\u201d defines the text's purpose."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "The text proposes an unexpected solution to a problem. B, C, and D each misidentify the focus: gardening methods, taste as the main point, and trend identification. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

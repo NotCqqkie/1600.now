@@ -1,0 +1,19 @@
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_22",
+  "correctAnswer": "-18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given value x = 2 into the equation",
+      "content": "We're given $\\frac{1}{cx} = \\frac{x}{72} + \\frac{1}{c}$ and solving for $c$ when $x = 2$. Substituting $x = 2$:<br/><br/>$$\\frac{1}{c(2)} = \\frac{2}{72} + \\frac{1}{c}$$<br/><br/>$$\\frac{1}{2c} = \\frac{1}{36} + \\frac{1}{c}$$<br/><br/>where we simplified $\\frac{2}{72} = \\frac{1}{36}$."
+    },
+    {
+      "title": "Isolate all terms containing c on the left side",
+      "content": "Subtract $\\frac{1}{c}$ from both sides:<br/><br/>$$\\frac{1}{2c} - \\frac{1}{c} = \\frac{1}{36}$$<br/><br/>To combine the left side, find a common denominator of $2c$:<br/><br/>$$\\frac{1}{2c} - \\frac{2}{2c} = \\frac{1}{36}$$<br/><br/>$$\\frac{-1}{2c} = \\frac{1}{36}$$"
+    },
+    {
+      "title": "Cross-multiply and solve for c",
+      "content": "From $\\frac{-1}{2c} = \\frac{1}{36}$, cross-multiply:<br/><br/>$$-1 \\cdot 36 = 2c \\cdot 1$$<br/><br/>$$-36 = 2c$$<br/><br/>$$c = -18$$<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

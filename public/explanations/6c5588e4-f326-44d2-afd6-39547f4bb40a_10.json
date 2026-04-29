@@ -1,0 +1,15 @@
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The statement asks for the species with the greatest range between minimum and maximum depths. That tells us we must subtract each species' minimum depth from its maximum depth and compare the results."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Agaricia fragilis has the largest spread between its shallowest and deepest recorded depths, so its range is the greatest. <br/>The other three species each show a smaller spread. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

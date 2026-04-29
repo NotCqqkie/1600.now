@@ -1,0 +1,15 @@
+{
+  "questionId": "de01ccef",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what a contrast requires",
+      "content": "The student wants to contrast green usage, which means highlighting a <strong>difference</strong> in how each country uses green. The clue: the notes list which road categories have green in each country."
+    },
+    {
+      "title": "Match the difference in green usage to the choices",
+      "content": "The notes show US uses green on highways and major roadways (plus minor), while UK uses it only on major roadways. B states exactly this difference: green on highways and major roadways in US vs only major roadways in UK. A shifts to blue, C falsely equates both countries' green usage, D omits green entirely. This difference in scope accomplishes the goal of contrasting green. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

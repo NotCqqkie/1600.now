@@ -1,0 +1,15 @@
+{
+  "questionId": "ea8f4658",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures around the blank",
+      "content": "The blank separates an incomplete noun phrase on the left from a clause on the right. Left: \u201cThis type of random, continuous\u201d (noun phrase modifier). Right: \u201cis known as Brownian motion, can be observed...\u201d (beginning with a verb)."
+    },
+    {
+      "title": "Apply the non-restrictive relative clause rule",
+      "content": "Non-restrictive relative clauses\u2014ones that provide extra information about a noun without restricting its meaning\u2014must be set off by commas on both sides. Choice B correctly provides the comma before \u201cwhich,\u201d and the existing comma after \u201cmotion\u201d completes the punctuation. The other choices either omit the required comma, use wrong punctuation, or create sentence fragments. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

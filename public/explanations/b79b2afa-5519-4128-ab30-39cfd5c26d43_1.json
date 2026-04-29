@@ -1,0 +1,16 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the y-intercept from the given point",
+      "content": "The point (0, 60) has x-coordinate 0, so it lies on the y-axis. Any point on the y-axis gives us the y-intercept. Therefore, $b = 60$."
+    },
+    {
+      "title": "Write the equation using slope-intercept form",
+      "content": "With $m = -8$ and $b = 60$, substitute into the slope-intercept form to get:<br/>$$y = -8x + 60$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$y = mx + b$$"
+    }
+  ]
+}

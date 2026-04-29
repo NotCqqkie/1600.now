@@ -1,0 +1,16 @@
+{
+  "questionId": "f5c3e3b8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the product rule for exponents",
+      "content": "When multiplying powers with the same base, add the exponents. Group by variable: $(m^4 \\cdot m^1)(q^4 \\cdot q^5)(z^{-1} \\cdot z^3)$.",
+      "formula": "$$a^m \\cdot a^n = a^{m+n}$$"
+    },
+    {
+      "title": "Add exponents for each variable",
+      "content": "Add the exponents for each base:<br/><ul><li>$m$: $4 + 1 = 5$</li><li>$q$: $4 + 5 = 9$</li><li>$z$: $-1 + 3 = 2$</li></ul>The equivalent expression is $m^5q^9z^2$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

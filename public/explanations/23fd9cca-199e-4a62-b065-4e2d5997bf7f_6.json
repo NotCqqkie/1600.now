@@ -1,0 +1,15 @@
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence's structural role",
+      "content": "The previous sentence introduces a U-shaped bone as the cause of the difference between jungle cats and leopards. The underlined sentence names it: <em>\u201cThis bone is called the hyoid.\u201d</em> Every sentence that follows uses 'hyoid' repeatedly to structure the explanation\u2014jungle cats have a rigid hyoid, leopards have a flexible hyoid, etc. The key signal: this sentence introduces a term that becomes the organizing focus of all subsequent discussion."
+    },
+    {
+      "title": "Match the function to the answer",
+      "content": "Choice A is correct because it accurately describes what the sentence does: it introduces 'hyoid,' which becomes the organizing term for all subsequent explanation. The other choices mistake the role\u2014treating it as explanatory, summarizing a debate, or identifying a location rather than introducing a key anatomical term. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

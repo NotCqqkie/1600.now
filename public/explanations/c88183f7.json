@@ -1,0 +1,16 @@
+{
+  "questionId": "c88183f7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the perimeter formula for a rectangle",
+      "content": "The perimeter of a rectangle is the sum of all four sides. Since opposite sides are equal, we use length and width to calculate it. We're given <strong>length = 13</strong> and <strong>width = 6</strong>.",
+      "formula": "$$P = 2l + 2w$$"
+    },
+    {
+      "title": "Substitute the values and calculate",
+      "content": "Substitute $l = 13$ and $w = 6$ into the formula:<br/>$$P = 2(13) + 2(6)$$<br/>$$P = 26 + 12$$<br/>$$P = 38$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

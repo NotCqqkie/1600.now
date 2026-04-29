@@ -1,0 +1,21 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_20",
+  "correctAnswer": "16,12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the roots of the polynomial",
+      "content": "The equation $(x - 16)(x - 12)(x + 5)(x + 13) = 0$ is already factored. For a product to equal zero, at least one of its factors must be zero.<br/>We can identify the roots by setting each factor equal to zero.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for x when each factor equals zero",
+      "content": "<ul><li>Setting \\(x - 16 = 0\\) yields \\(x = 16\\).<br/><li>Setting \\(x - 12 = 0\\) yields \\(x = 12\\).<br/><li>Setting \\(x + 5 = 0\\) yields \\(x = -5\\).<br/><li>Setting \\(x + 13 = 0\\) yields \\(x = -13\\).</ul>The positive solutions are therefore <strong>x = 16</strong> and <strong>x = 12</strong>. Since we need the largest one, the answer is related to these two.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

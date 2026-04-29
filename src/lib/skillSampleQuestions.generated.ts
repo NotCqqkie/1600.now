@@ -326,31 +326,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "linear-inequalities": [
     {
-      "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_8",
-      "difficulty": "Easy",
-      "testName": "October 2025 International Form A SAT Math Module 2",
-      "text": "$y$ Which point $(x,y)$ is a solution to the given inequality in the $xy$-plane?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "$(0,19)$"
-        },
-        {
-          "id": "B",
-          "text": "$(-1,22)$"
-        },
-        {
-          "id": "C",
-          "text": "$(-3,0)$"
-        },
-        {
-          "id": "D",
-          "text": "$(7,-1)$"
-        }
-      ],
-      "correctAnswer": "C"
-    },
-    {
       "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_2",
       "difficulty": "Easy",
       "testName": "August 2025 International Form B SAT Math Module 1",
@@ -399,6 +374,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "A"
+    },
+    {
+      "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
+      "difficulty": "Easy",
+      "testName": "March 2025 US Form B SAT Math Module 1",
+      "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$0.67x + 2 \\le 12$"
+        },
+        {
+          "id": "B",
+          "text": "$0.67 + 2 \\ge 12$"
+        },
+        {
+          "id": "C",
+          "text": "$0.67x - 2 \\le 12$"
+        },
+        {
+          "id": "D",
+          "text": "$0.67x - 2 \\ge 12$"
+        }
+      ],
+      "correctAnswer": "C"
     }
   ],
   "nonlinear-equations-and-systems": [
@@ -607,29 +607,29 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "B"
     },
     {
-      "id": "68b576c1-9de8-41d3-9840-538d4edcd113_5",
+      "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_2",
       "difficulty": "Easy",
-      "testName": "November 2024 International Form D SAT Math Module 1",
-      "text": "Which expression is equivalent to $6x(x+3)$?",
+      "testName": "May 2024 US Form B SAT Math Module 1",
+      "text": "If $7x+5=47$, what is the value of $70x+50$?",
       "choices": [
         {
           "id": "A",
-          "text": "$6x^{2}+3$"
+          "text": "6"
         },
         {
           "id": "B",
-          "text": "$6x^{2}+18x$"
+          "text": "60"
         },
         {
           "id": "C",
-          "text": "$7x^{2}+3$"
+          "text": "120"
         },
         {
           "id": "D",
-          "text": "$7x^{2}+9x$"
+          "text": "470"
         }
       ],
-      "correctAnswer": "B"
+      "correctAnswer": "D"
     }
   ],
   "ratios-rates-proportions": [
@@ -838,53 +838,53 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "C"
     },
     {
-      "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_2",
+      "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_1",
       "difficulty": "Easy",
-      "testName": "September 2025 International Form A SAT Math Module 2",
-      "text": "Which of the following lists represents a data set with the smallest standard deviation?",
+      "testName": "June 2024 US Form B SAT Math Module 2",
+      "text": "A data set consists of 213 letters. The bar graph shows the number of times each letter appears in the data set. Which letter appears 80 times?",
       "choices": [
         {
           "id": "A",
-          "text": "32, 33, 35, 37, 38"
+          "text": "A"
         },
         {
           "id": "B",
-          "text": "33, 33, 35, 37, 37"
+          "text": "B"
         },
         {
           "id": "C",
-          "text": "33, 34, 35, 36, 37"
+          "text": "C"
         },
         {
           "id": "D",
-          "text": "34, 35, 35, 35, 36"
+          "text": "D"
         }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "B"
     }
   ],
   "two-variable-data": [
     {
-      "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_8",
+      "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_11",
       "difficulty": "Medium",
-      "testName": "October 2024 US Form C SAT Math Module 1",
+      "testName": "October 2024 International Form A SAT Math Module 1",
       "text": "Which of the following is closest to the slope of this line of best fit?",
       "choices": [
         {
           "id": "A",
-          "text": "-7"
+          "text": "-3.3"
         },
         {
           "id": "B",
-          "text": "-0.7"
+          "text": "-1.1"
         },
         {
           "id": "C",
-          "text": "0.7"
+          "text": "1.1"
         },
         {
           "id": "D",
-          "text": "7"
+          "text": "3.3"
         }
       ],
       "correctAnswer": "B"
@@ -1764,31 +1764,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "C"
     },
     {
-      "id": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_12",
-      "difficulty": "Easy",
-      "testName": "October 2025 International Form B SAT English Module 1",
-      "text": "Which quotation from *Memoirs of Elleanor Eldridge* most effectively illustrates the claim?\n*Memoirs of Elleanor Eldridge* is an 1838 historical account by Elleanor Eldridge and Frances Harriet Whipple Green. In the book, the authors assert that all people naturally have an emotional attachment to where they live, writing, ______",
-      "choices": [
-        {
-          "id": "A",
-          "text": "\"Home is home, to the lowly as well as the great; and no rank, or color destroys its sacred character, its power over the mind, and the affections.\""
-        },
-        {
-          "id": "B",
-          "text": "\"Let us, dear reader, remember the punishment of idle curiosity, as taught in the true and affecting history [named] 'Blue Beard;' and, striving to be content with the facts in the case, seek not to lift the veil, which the sensibility of true love, and feminine delicacy, have alike conspired to draw.\""
-        },
-        {
-          "id": "C",
-          "text": "\"There is often a kind of [deceptive] light, playing around such [famous] names, calculated to dazzle and mislead, by their false lustre, until the eye can no longer receive the pure light of Truth, or the mind appreciate real excellence, or intrinsic worth.\""
-        },
-        {
-          "id": "D",
-          "text": "\"Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.\""
-        }
-      ],
-      "correctAnswer": "A"
-    },
-    {
       "id": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_12",
       "difficulty": "Easy",
       "testName": "August 2024 International Form B SAT English Module 2",
@@ -1812,6 +1787,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "A"
+    },
+    {
+      "id": "97534841-3541-4563-86b8-0a919d0bde5b_10",
+      "difficulty": "Easy",
+      "testName": "June 2024 US Form C SAT English Module 2",
+      "text": "Which quotation from *Memoirs of Elleanor Eldridge* most effectively illustrates the claim?\n*Memoirs of Elleanor Eldridge* is an 1838 historical account by Elleanor Eldridge and Frances Harriet Whipple Green. In the book, the authors assert that all people naturally have an emotional attachment to where they live, writing, ______",
+      "choices": [
+        {
+          "id": "A",
+          "text": "“How careful ought we to be to speak nothing but the truth, even in regard to the most trifling circumstances; and not only so, but to be well assured that what we suppose to be true, is truth, before we receive it as such.”"
+        },
+        {
+          "id": "B",
+          "text": "“Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.”"
+        },
+        {
+          "id": "C",
+          "text": "“Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.”"
+        },
+        {
+          "id": "D",
+          "text": "“To give some idea of the high esteem in which the subject of the following narrative is held, and the strong interest her misfortunes have excited, a few, from the great number of recommendations in her possession, are selected.”"
+        }
+      ],
+      "correctAnswer": "B"
     }
   ],
   "inference": [

@@ -1,0 +1,19 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_21",
+  "correctAnswer": "167",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract c using the point (0, -sqrt(334))",
+      "content": "Since $h(0) = -\\sqrt{c}$ and the graph passes through $(0, -\\sqrt{334})$:<br/>$$h(0) = -\\sqrt{c} = -\\sqrt{334}$$<br/>Therefore $c = 334$."
+    },
+    {
+      "title": "Extract b using the point (2, 0) with c = 334",
+      "content": "Since $h(2) = -\\sqrt{4 + 2b + c} = 0$, the radicand must equal zero:<br/>$$4 + 2b + c = 0$$<br/>Substituting $c = 334$:<br/>$$4 + 2b + 334 = 0$$<br/>$$b = -169$$"
+    },
+    {
+      "title": "Solve for m when h(m) = 0",
+      "content": "For $h(m) = 0$, we need $m^2 - 169m + 334 = 0$. Using the quadratic formula:<br/>$$m = \\frac{169 \\pm \\sqrt{169^2 - 4(334)}}{2} = \\frac{169 \\pm \\sqrt{28561 - 1336}}{2}$$<br/>$$m = \\frac{169 \\pm \\sqrt{27225}}{2} = \\frac{169 \\pm 165}{2}$$<br/>The two roots are $m = 167$ and $m = 2$. The greatest possible value of $m$ is <strong>167</strong>."
+    }
+  ]
+}

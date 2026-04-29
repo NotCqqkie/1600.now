@@ -1,0 +1,15 @@
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the parallel linguistic-geographic pattern",
+      "content": "Mandarin is widely spoken in north China and is dominant in Flushing, Queens; Cantonese and Fuzhounese are widely spoken in south China and are dominant in Chinatown, Manhattan. This parallel structure linking regions to their dominant neighborhoods is the key clue."
+    },
+    {
+      "title": "Apply the pattern to the inference",
+      "content": "The inference is straightforward: since immigrants from a region speak a particular language, and that language dominates a specific NYC neighborhood, they must have settled there. This is exactly what choice B states. Choices A, C, and D all require facts not in the passage\u2014arrival timelines, speaker populations, or relocation behavior. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

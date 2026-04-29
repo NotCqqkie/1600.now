@@ -1,0 +1,15 @@
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_7",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the function at x = 0",
+      "content": "Substitute $x = 0$ into the function definition $h(x) = x + b$:<br/><br/>$$h(0) = 0 + b = b$$"
+    },
+    {
+      "title": "Use the given condition to find b",
+      "content": "The problem states $h(0) = 21$. From Step 1, we found that $h(0) = b$, therefore:<br/><br/>$$b = 21$$"
+    }
+  ]
+}

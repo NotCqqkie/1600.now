@@ -1,0 +1,15 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify given information and angle positioning",
+      "content": "We are given AB = DE = 5 cm and \u2220A = \u2220D = 35\u00b0. In triangle ABC, angle A is located at vertex A, positioned between sides AB and AC. In triangle DEF, angle D is located at vertex D, positioned between sides DE and DF. To prove congruence, we need one of the standard criteria: SSS, SAS, ASA, AAS, or HL. Since we have one side and one angle, we should consider SAS (Side-Angle-Side), which requires two sides with the angle between them."
+    },
+    {
+      "title": "Evaluate each choice against congruence criteria",
+      "content": "<ul><li><strong>Choice A (BC = EF):</strong> This gives us AB = DE and \u2220A with side BC, which is SSA. The angle A is not between sides AB and BC, so this configuration does not guarantee congruence.</li><li><strong>Choice B (AC = DF):</strong> This gives us AB = DE (side), \u2220A = \u2220D (angle), and AC = DF (side). Since \u2220A is between sides AB and AC, and \u2220D is between sides DE and DF, this is the Side-Angle-Side configuration.</li><li><strong>Choice C (\u2220B = \u2220C):</strong> This only provides information about angles within triangle ABC and does not allow direct comparison with triangle DEF.</li><li><strong>Choice D (no additional info):</strong> One side and one angle are not sufficient for any congruence criterion.</li></ul>With AC = DF, we have SAS congruence: Side AB = DE, Angle A = D (included between the sides), Side AC = DF. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

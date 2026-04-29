@@ -1,0 +1,16 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the Pythagorean theorem",
+      "content": "A right triangle has one leg of 37.8 mm and a hypotenuse of 172.2 mm. Using the Pythagorean theorem, where $a = 37.8$, $c = 172.2$, and $b$ is the unknown leg:<br/>$$37.8^2 + b^2 = 172.2^2$$",
+      "formula": "$$a^2 + b^2 = c^2$$"
+    },
+    {
+      "title": "Calculate and solve for the other leg",
+      "content": "Compute both squares:<br/>$$1428.84 + b^2 = 29652.84$$<br/>Subtract 1428.84 from both sides:<br/>$$b^2 = 28224$$<br/>Take the positive square root:<br/>$$b = \\sqrt{28224} = 168$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

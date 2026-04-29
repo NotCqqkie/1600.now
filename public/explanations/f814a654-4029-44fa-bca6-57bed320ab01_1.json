@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the problem the method creates",
+      "content": "The <strong>but</strong> signals that the tracking method has a flaw. The passage states it results in <strong>incomplete maps</strong>\u2014meaning sidewalks are being left unmapped. The specific sidewalks left out are those with few pedestrians."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "<strong>Neglects</strong> means to overlook or fail to account for\u2014the method neglects sidewalks with few pedestrians, explaining the incomplete maps. The other choices don't fit: <em>detects</em> would mean the method finds these sidewalks (contradicting incomplete maps), <em>oversees</em> implies supervision, and <em>approves</em> is meaningless in context. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

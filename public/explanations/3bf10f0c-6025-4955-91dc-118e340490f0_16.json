@@ -1,0 +1,15 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we need to find",
+      "content": "The y-intercept is the point where the graph crosses the y-axis. This occurs when $x = 0$. To find it, we need to evaluate $f(0)$."
+    },
+    {
+      "title": "Substitute x = 0 into the function",
+      "content": "Substitute $x = 0$ into $f(x) = (-5)(6)x + 25$:<br/><br/>$$f(0) = (-5)(6)(0) + 25 = 0 + 25 = 25$$<br/><br/>The y-intercept is the point $(0, 25)$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the student assumes",
+      "content": "The student argues the US should follow Australia's example \u201cwith regard to EACH of the four coins,\u201d assuming all four coins present the same financial problem Australia faced\u2014negative seigniorage."
+    },
+    {
+      "title": "Find the evidence contradicting this",
+      "content": "Choice B shows one-cent and five-cent coins did create negative seigniorage, but ten-cent and quarter-dollar coins created positive seigniorage. Coins generating profits don't fit Australia's situation (which required discontinuation due to losses), so the student's argument fails for two of the four coins. The other choices either compare values among profitable coins without showing the mix (A), contain false cost data (C), or rank losses by severity without revealing which coins are profitable (D). This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

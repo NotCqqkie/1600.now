@@ -1,0 +1,15 @@
+{
+  "questionId": "0cf13ece",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "Look for the row in the table where the dolphin ID is \"FB43.\" This is the only clue needed to identify the correct year."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The table lists FB43 and her associated year directly in the same row. The other choices refer to different dolphin IDs or years from unrelated entries. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "73ddfdac",
+  "correctAnswer": "73920",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "To convert 112 furlongs to feet, apply both conversion factors in sequence. Since 1 furlong = 220 yards and 1 yard = 3 feet, the calculation is:<br/><br/>$$112 \\times 220 \\times 3$$"
+    },
+    {
+      "title": "Combine conversion factors and multiply",
+      "content": "First, multiply the two conversion factors: $220 \\times 3 = 660$ feet per furlong.<br/><br/>Then multiply by the initial distance:<br/><br/>$$112 \\times 660 = 73,920 \\text{ feet}$$"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "7b52985c",
+  "correctAnswer": "4.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert calendar dates to x-values",
+      "content": "January 13 is 2 days after January 11, so $x = 2$. January 15 is 4 days after January 11, so $x = 4$. We need the flight times at these two x-values."
+    },
+    {
+      "title": "Read scatterplot points and calculate slope",
+      "content": "From the scatterplot: at $x = 2$, the bird flew for $y = 6$ hours; at $x = 4$, the bird flew for $y = 15$ hours. Average rate of change is the slope between these two points:\n\n$$\\text{Average rate of change} = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{15 - 6}{4 - 2} = \\frac{9}{2} = 4.5$$\n\nThe answer is <strong>4.5 hours per day</strong>.",
+      "formula": "$$\\text{slope} = \\frac{\\Delta y}{\\Delta x} = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    }
+  ]
+}

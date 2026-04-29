@@ -1,0 +1,15 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_17",
+  "correctAnswer": "1.6,8/5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant b using the initial condition",
+      "content": "At $t = 0$, the object is dropped. Substituting into the function:\n\n$$h(0) = -16(0)^2 + b = b$$\n\nSince the object is 40.96 feet above the ground when dropped:\n\n$$b = 40.96$$\n\nThe complete function is $h(t) = -16t^2 + 40.96$."
+    },
+    {
+      "title": "Solve for time when the object hits the ground",
+      "content": "The object hits the ground when $h(t) = 0$:\n\n$$-16t^2 + 40.96 = 0$$\n\nSolving for $t^2$:\n\n$$t^2 = \\frac{40.96}{16} = 2.56 = \\frac{64}{25}$$\n\nTaking the positive square root:\n\n$$t = \\sqrt{\\frac{64}{25}} = \\frac{8}{5} = 1.6 \\text{ seconds}$$"
+    }
+  ]
+}

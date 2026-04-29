@@ -1,0 +1,15 @@
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal \u2014 what makes the contrast effective",
+      "content": "The statement says the student was surprised the Amiga sold \u201crelatively few\u201d units. This surprise only makes sense if we compare the Amiga to a system that sold vastly more. The table shows Amiga: 1,600,000 units. To emphasize how \u201crelatively few\u201d that is, we need the highest sales figure available \u2014 Atari 2600 at 18,450,000 units, which is more than 11 times higher."
+    },
+    {
+      "title": "Match the strongest contrast to the choices",
+      "content": "Choice A pairs Amiga's correct figure (1,600,000) with Atari 2600's correct figure (18,450,000), creating the dramatic contrast needed to explain the student's surprise. Choices B and C misidentify the Amiga's sales (using 3,935,000, which belongs to Sega), and choice D incorrectly pairs 18,450,000 with the wrong system. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

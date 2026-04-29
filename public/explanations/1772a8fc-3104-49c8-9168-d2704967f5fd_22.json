@@ -1,0 +1,15 @@
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the transition between different moons",
+      "content": "The passage follows a hypothetical spaceship journey visiting Jupiter's moons: first Elara (with a prograde orbit), then Pasiphae (another Jovian moon). The transition word must signal the shift from one moon to a different moon."
+    },
+    {
+      "title": "Apply the location-change signal",
+      "content": "\u201dElsewhere\u201d signals a different location, fitting the transition from Elara to Pasiphae. The other three choices suggest elaboration on the prograde concept, not a location shift. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship between acute angles",
+      "content": "In a right triangle, the two acute angles are complementary, meaning they add to 90\u00b0. <br/>If one acute angle is labeled 24\u00b0, then the other acute angle <var>a</var> satisfies <br/>$$a + 24 = 90$$.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for a and select the answer",
+      "content": "Subtract 24 from both sides: <br/>$$a = 90 - 24 = 66$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

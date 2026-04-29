@@ -1,0 +1,15 @@
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 18 and simplify the first term",
+      "content": "Substitute $x = 18$ into $g(x) = \\frac{5}{9}x - \\frac{7}{9}$:<br/>$$g(18) = \\frac{5}{9}(18) - \\frac{7}{9}$$<br/>Simplify the first term: $\\frac{5}{9} \\cdot 18 = \\frac{90}{9} = 10$. Therefore:<br/>$$g(18) = 10 - \\frac{7}{9}$$"
+    },
+    {
+      "title": "Convert to a common denominator and subtract",
+      "content": "Express 10 as ninths: $10 = \\frac{90}{9}$. Subtract the fractions:<br/>$$g(18) = \\frac{90}{9} - \\frac{7}{9} = \\frac{83}{9}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

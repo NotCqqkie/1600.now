@@ -1,0 +1,15 @@
+{
+  "questionId": "b96ff36e",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the point into the circle equation",
+      "content": "Since $(6, c)$ lies on the circle $(x-3)^2 + (y-5)^2 = 9$, substitute $x = 6$ and $y = c$:<br/>$$(6-3)^2 + (c-5)^2 = 9$$<br/>Simplify:<br/>$$9 + (c-5)^2 = 9$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Subtract 9 from both sides:<br/>$$(c-5)^2 = 0$$<br/>Take the square root:<br/>$$c - 5 = 0$$<br/>$$c = 5$$"
+    }
+  ]
+}

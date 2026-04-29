@@ -1,0 +1,15 @@
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explanatory relationship",
+      "content": "The first sentence establishes that poisonous amphibians migrate during the day, unlike most animals. The second sentence explains <em>how</em> they manage this safely: their warning colors deter daytime predators. The transition must connect an established behavior to its protective mechanism."
+    },
+    {
+      "title": "Match the transition to the logic",
+      "content": "\u201dAt that time\u201d correctly introduces the temporal setting (daytime) and sets up the explanation of how warning colors provide protection during migration. The other three either suggest an example (\u201cFor example\u201d), paraphrase the first sentence (\u201cIn other words\u201d), or introduce contrast (\u201cHowever\u201d) where the actual relationship is explanatory elaboration.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

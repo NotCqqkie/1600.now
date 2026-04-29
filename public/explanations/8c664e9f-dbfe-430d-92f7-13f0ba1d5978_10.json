@@ -1,0 +1,15 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the structure and conditions for intersection",
+      "content": "We have two linear equations in slope-intercept form: $y = x + 23$ and $y = 12x$. Two distinct non-parallel lines intersect at exactly one point, while parallel lines do not intersect at all."
+    },
+    {
+      "title": "Compare slopes to check for parallel lines",
+      "content": "From the equations, the first line has slope 1 and the second has slope 12. Since $1 \\neq 12$, the slopes are different, so the lines are not parallel. Therefore they must intersect at exactly one point. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

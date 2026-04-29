@@ -1,0 +1,16 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the circle area formula",
+      "content": "The area of a circle is $A = \\pi r^2$, where $r$ is the radius.",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Substitute r = 19 and compute the area",
+      "content": "Substituting $r = 19$ into the formula: $A = \\pi(19)^2 = \\pi \\cdot 361 = 361\\pi$ square meters. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

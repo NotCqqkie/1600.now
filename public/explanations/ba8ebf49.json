@@ -1,0 +1,15 @@
+{
+  "questionId": "ba8ebf49",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence boundary problem",
+      "content": "After \u201cin some versions,\u201d the text continues with \u201cthe word was playfully rendered as 'bro!'\u201d \u2014 this is an independent clause. Right now, it's joined to the relative clause \u201cwhich is an Old English [blank] as 'hark!' or 'listen!' in some versions\u201d with only a comma. When an independent clause follows material that is not yet complete as a sentence, joining them with a comma creates a comma splice."
+    },
+    {
+      "title": "Apply the correct punctuation rule",
+      "content": "A period after \u201cexclamation\u201d creates a new sentence, properly separating the definition from what follows. The new sentence then reads: \u201cTranslated as 'hark!' or 'listen!' in some versions, the word was playfully rendered as 'bro!'\u201d \u2014 here, \u201cTranslated as 'hark!' or 'listen!' in some versions\u201d is a participial phrase that correctly introduces the main clause \u201cthe word was playfully rendered as 'bro!'\u201d Choices A and C leave the comma splice in place (a comma still joins \u201cin some versions\u201d to the independent clause). Choice B creates a grammatical error \u2014 \u201cis an exclamation and translated\u201d cannot stand without a second verb form. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

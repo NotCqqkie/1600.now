@@ -1,0 +1,15 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by 188x to clear the denominator",
+      "content": "Starting with $u = -\\frac{w}{188x}$, multiply both sides by $188x$:<br/><br/>$$188x \\cdot u = 188x \\cdot \\left(-\\frac{w}{188x}\\right)$$<br/><br/>$$188ux = -w$$"
+    },
+    {
+      "title": "Multiply by -1 to solve for w",
+      "content": "Multiply both sides by $-1$ to isolate $w$:<br/><br/>$$w = -188ux$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

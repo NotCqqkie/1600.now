@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "Left: An independent clause ending with \u201cspecies.\u201d<br/>Right: A noun phrase with no main verb, beginning with \u201cthe former in a repository...\u201d"
+    },
+    {
+      "title": "Apply the appositive rule",
+      "content": "A comma precedes an appositive noun phrase that elaborates on a preceding noun. Here, \u201cthe former in a repository at Washington, DC's Museum of Natural History and the latter in a repository at London's Natural History Museum\u201d specifies where the specimens are preserved. Option A correctly uses a comma before the appositive. Options B, C, and D create errors: B adds an unwarranted \u201cand,\u201d C creates a sentence fragment, and D misapplies a semicolon to a noun phrase. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

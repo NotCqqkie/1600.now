@@ -1,0 +1,15 @@
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what comparison the example must demonstrate",
+      "content": "The passage claims peaking plants can generate more MWh/yr than some run-of-river plants. The example needs to compare a peaking plant's output to run-of-river plants' output to illustrate this claim."
+    },
+    {
+      "title": "Find the choice showing a peaking plant outperforming run-of-river plants",
+      "content": "A shows J. Woodruff (peaking) generating 193,864 MWh/yr, surpassing all run-of-river plants in the table. B confuses generator count with output, C pairs only run-of-river plants, and D inverts the relationship. A captures the peaking-vs.-run-of-river contrast that exemplifies the passage's claim. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

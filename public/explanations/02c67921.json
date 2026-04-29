@@ -1,0 +1,15 @@
+{
+  "questionId": "02c67921",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify where the y-intercept occurs",
+      "content": "The y-intercept of a function is the point where its graph crosses the y-axis. This always happens at <strong>x = 0</strong>."
+    },
+    {
+      "title": "Read the y-value from the graph",
+      "content": "Find x = 0 on the horizontal axis and trace vertically upward to where the exponential curve intersects the y-axis. The intersection occurs at <strong>y = 3</strong>. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

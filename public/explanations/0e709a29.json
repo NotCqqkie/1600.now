@@ -1,0 +1,20 @@
+{
+  "questionId": "0e709a29",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right angle using the Pythagorean theorem",
+      "content": "Check which combination of sides satisfies $a^2 + b^2 = c^2$:<br/><br/>$$440^2 + 384^2 = 193600 + 147456 = 341056 = 584^2$$<br/><br/>The right angle is at $S$, making $TR = 584$ the hypotenuse."
+    },
+    {
+      "title": "Find tan(T) in the right triangle",
+      "content": "In right triangle $RST$ with the right angle at $S$:<br/><ul><li>The side opposite angle $T$ is $RS = 440$</li><li>The side adjacent to angle $T$ is $ST = 384$</li></ul>Apply the tangent definition to find:<br/>$$\\tan T = \\frac{440}{384}$$",
+      "formula": "$$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    },
+    {
+      "title": "Apply similarity and simplify",
+      "content": "Since $T$ corresponds to $W$ in the similar triangles, $\\angle T = \\angle W$, so $\\tan W = \\tan T$. Simplify by dividing both numerator and denominator by their GCD, which is 8:<br/><br/>$$\\tan W = \\frac{440}{384} = \\frac{55}{48}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

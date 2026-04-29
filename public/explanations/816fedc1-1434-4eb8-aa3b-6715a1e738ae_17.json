@@ -1,0 +1,15 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentage to multiplier",
+      "content": "Interpret 111% of x as multiplying x by 1.11: $$f(x)=1.11x$$."
+    },
+    {
+      "title": "Identify type of function",
+      "content": "This is a linear function of the form $y=mx+b$ with slope $m=1.11$ and intercept $b=0$. Since the slope is positive, the function increases as $x$ increases, so it is increasing linear. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

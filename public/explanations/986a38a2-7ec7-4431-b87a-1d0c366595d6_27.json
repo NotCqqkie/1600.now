@@ -1,0 +1,15 @@
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining claim",
+      "content": "The notes explain that <em>minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them</em>. This sentence gives the direct link between a higher Mohs number and the ability to scratch a lower\u2011numbered mineral."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B captures the rule exactly: it says any mineral with a Mohs number of 7, like quartz, can scratch a mineral with a Mohs number of 5, like apatite.<br/>The other choices either give only specific examples without stating the general principle, reverse the cause\u2011effect relationship, or introduce an idea not mentioned in the notes.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

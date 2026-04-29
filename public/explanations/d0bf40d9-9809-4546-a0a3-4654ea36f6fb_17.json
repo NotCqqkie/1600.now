@@ -1,0 +1,15 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert 10% to a fraction",
+      "content": "We need to find 10% of 330 bean pods. Converting to a fraction: 10% = $\\frac{1}{10}$."
+    },
+    {
+      "title": "Divide by 10",
+      "content": "To find $\\frac{1}{10}$ of 330, we divide:<br/>$$330 \\div 10 = 33$$<br/>Jasmin saved 33 bean pods. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

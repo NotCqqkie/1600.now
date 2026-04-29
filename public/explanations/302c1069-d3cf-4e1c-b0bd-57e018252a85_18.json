@@ -1,0 +1,15 @@
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side of the blank is an introductory prepositional phrase <em>(\u201cWith over two millennia of climate data in its tree\u201d)</em>. The right side (after the blank) contains an independent clause with a subject (the noun phrase beginning with the blank's second word) and a main verb <em>(\u201ccan tell\u201d)</em>, with a parenthetical attribution interrupting in the middle."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A comma separates an introductory phrase from the main independent clause. Option A <strong>(rings, a)</strong> correctly places the comma after the introductory phrase and provides the article <em>\u201ca\u201d</em> needed for the subject. Options B, C, and D either create a sentence fragment, form an illogical compound construction, or misuse punctuation meant for independent clauses. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

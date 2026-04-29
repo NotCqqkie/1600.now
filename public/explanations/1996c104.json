@@ -1,0 +1,15 @@
+{
+  "questionId": "1996c104",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal progression",
+      "content": "The passage traces a chain: circulation generates currents, and these currents then create a protective barrier. The blank needs a transition that marks the currents as the forward result of this sequence."
+    },
+    {
+      "title": "Apply the consequential meaning",
+      "content": "<strong>\u201cIn turn\u201d</strong> expresses consequence\u2014the currents create the barrier. <strong>\u201cLikewise\u201d</strong> suggests similarity, <strong>\u201cnevertheless\u201d</strong> introduces contrast, and <strong>\u201cin reality\u201d</strong> merely emphasizes; none convey the causal progression. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2f958af9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by m to clear the denominator",
+      "content": "Starting with the given formula:<br/>$$v^2 = \\frac{LT}{m}$$<br/>Multiply both sides by $m$ to eliminate the denominator:<br/>$$m v^2 = LT$$"
+    },
+    {
+      "title": "Divide both sides by L to isolate T",
+      "content": "Divide both sides of $m v^2 = LT$ by $L$:<br/>$$T = \\frac{m v^2}{L}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

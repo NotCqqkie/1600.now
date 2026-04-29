@@ -1,0 +1,15 @@
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The structure \u201cwhich is an _____ number to feel confident\u201d links a property of the sample size directly to confidence in the rating. The blank must name what makes 9,000 justify that confidence."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The target meaning is <em>sufficient</em> or <em>enough</em>\u2014and \u201cadequate\u201d expresses this precisely, as it means sufficient for a purpose. Here, 9,000 is adequate for justifying confidence in the average rating.<br/>The other choices don't fit: \u201cinsufficient\u201d contradicts the logic, \u201cexcessive\u201d wrongly suggests too much, and \u201caccurate\u201d addresses rating quality rather than sample size.<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

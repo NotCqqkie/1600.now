@@ -1,0 +1,19 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentages to decimal equations",
+      "content": "From <em>a is 2,047% of the sum of b and c</em>, we write $a = 20.47(b + c)$. From <em>b is 89% of c</em>, we write $b = 0.89c$."
+    },
+    {
+      "title": "Express b + c as a multiple of b",
+      "content": "From $b = 0.89c$, solve for $c$:<br/> $$c = \\frac{b}{0.89}$$<br/>Then:<br/>$$b + c = b + \\frac{b}{0.89} = b\\left(1 + \\frac{1}{0.89}\\right) = b \\cdot \\frac{0.89 + 1}{0.89} = b \\cdot \\frac{1.89}{0.89}$$"
+    },
+    {
+      "title": "Calculate a/b and convert to percentage",
+      "content": "Substitute the expression for $(b+c)$ into the equation for $a$:<br/>$$\\frac{a}{b} = 20.47 \\cdot \\frac{1.89}{0.89}$$<br/>Computing: $\\frac{1.89}{0.89} \\approx 2.124$, so $\\frac{a}{b} \\approx 20.47 \\times 2.124 \\approx 43.47$.<br/><br/>To find what percent of $b$ is $a$, multiply by 100%:<br/>$$43.47 \\times 100\\% = 4{,}347\\%$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

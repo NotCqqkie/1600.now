@@ -1,0 +1,15 @@
+{
+  "questionId": "e9f4521a",
+  "correctAnswer": "52",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percentage statement into an equation",
+      "content": "The phrase 13 is p% of 25 means: $$13 = \\frac{p}{100} \\cdot 25$$"
+    },
+    {
+      "title": "Isolate p",
+      "content": "Multiply both sides by 100:<br/>$$1300 = 25p$$<br/>Divide both sides by 25:<br/>$$p = \\frac{1300}{25} = 52$$"
+    }
+  ]
+}

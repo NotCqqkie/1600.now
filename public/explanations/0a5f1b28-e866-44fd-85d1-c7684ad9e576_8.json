@@ -1,0 +1,15 @@
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast in Alfonzo's argument",
+      "content": "The key signal is the word \u201cbut\u201d: studies isolate factors like population density and physical fitness, but walking decisions actually depend on \u201cmultiple conditions and needs.\u201d These two factors exemplify an incomplete understanding."
+    },
+    {
+      "title": "Recognize what these factors represent",
+      "content": "Choice A captures this exactly: population density and physical fitness are \u201cidentified as important influences\u201d by studies, but the passage shows they're \u201cmerely some of the many factors\u201d that affect walking decisions. B, C, and D misread the passage\u2014claiming people don't consider the factors, mischaracterizing the critique, or falsely limiting them to Boston. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

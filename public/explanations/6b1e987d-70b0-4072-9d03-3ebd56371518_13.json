@@ -1,0 +1,16 @@
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the standard form of a circle",
+      "content": "For a circle, the center is at $(h, m)$ and the radius is $r$.",
+      "formula": "$$(x - h)^2 + (y - m)^2 = r^2$$"
+    },
+    {
+      "title": "Identify the center and radius",
+      "content": "The given equation $(x - 14)^2 + (y - k)^2 = 36$ matches the standard form $(x - h)^2 + (y - m)^2 = r^2$ with $h = 14$, $m = k$, and $r^2 = 36$. Therefore, the center is $(14, k)$ and the radius is $\\sqrt{36} = 6$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

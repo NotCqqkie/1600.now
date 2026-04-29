@@ -1,0 +1,19 @@
+{
+  "questionId": "457d2f2c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine distribution structure and calculate sum changes",
+      "content": "With 27 numbers, median 33, and mean 33, the sum is $27 \\times 33 = 891$. Since the median is at the 14th position: 13 values are $< 33$, one value $= 33$, and 13 values are $> 33$. <br/>The transformation adds $7 \\times 13 = 91$ from values above 33 and subtracts $7 \\times 13 = 91$ from values below 33, for a net change of zero. The sum stays 891, so the mean stays 33. <br/>Choices B (Mean) and C (Sum) are the same in both data sets."
+    },
+    {
+      "title": "Verify the median stays at the 14th position",
+      "content": "Relative order is preserved: values $< 33$ stay $< 33$ (even after subtracting 7), and values $> 33$ stay $> 33$ (even after adding 7). The element at the 14th position was 33 and remains 33. <br/>Choice A (Median) is the same in both data sets."
+    },
+    {
+      "title": "Standard deviation increases due to increased deviations from the mean",
+      "content": "Standard deviation measures spread from the mean (33). For the new data set:<ul><li>If original value $x < 33$: new deviation is $(x - 7) - 33 = (x - 33) - 7$, which is more negative</li><li>If original value $x > 33$: new deviation is $(x + 7) - 33 = (x - 33) + 7$, which is more positive</li></ul>Every value moves farther from the mean, so all squared deviations increase. Variance and standard deviation both increase, making them different in the new data set. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

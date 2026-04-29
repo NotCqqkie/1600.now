@@ -1,0 +1,16 @@
+{
+  "questionId": "ba0e23b0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 'p% greater than 10'",
+      "content": "When a number is p% greater than another, we multiply that number by (1 + p/100). So if 140 is p% greater than 10:<br/>$$140 = 10\\left(1 + \\frac{p}{100}\\right)$$",
+      "formula": "$$A = B\\left(1 + \\frac{p}{100}\\right)$$"
+    },
+    {
+      "title": "Solve for p",
+      "content": "Divide both sides by 10:<br/>$$14 = 1 + \\frac{p}{100}$$<br/>Subtract 1:<br/>$$13 = \\frac{p}{100}$$<br/>Multiply by 100:<br/>$$p = 1300$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

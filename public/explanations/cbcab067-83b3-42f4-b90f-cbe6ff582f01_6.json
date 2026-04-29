@@ -1,0 +1,15 @@
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "Text 1 sets up an expectation: warming should benefit invasive species over native species (based on non-boreal research). Text 2 tests this in Alaska and finds that warming had no effect on either species' growth patterns across years of temperature variation."
+    },
+    {
+      "title": "Match the finding to the choices",
+      "content": "Choice D correctly identifies the relationship: the Alaskan findings cast doubt on whether the non-boreal research generalizes to boreal contexts. The other choices mislabel it\u2014A as methodology, B as an alternative invasion cause, C as research invalidity rather than inapplicability. That matches choice D\u2014<strong>D</strong> is correct."
+    }
+  ]
+}

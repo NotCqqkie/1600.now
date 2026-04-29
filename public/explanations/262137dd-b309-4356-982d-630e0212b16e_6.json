@@ -1,0 +1,15 @@
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the structural pivot",
+      "content": "The passage introduces The Federalist Papers, then shifts with <em>\u201cThough\u201d</em> to reveal a complication: most essays' authorship is certain, but <em>some is in question</em>. The overall structure moves from establishing what these essays are to revealing something uncertain or unknown about them."
+    },
+    {
+      "title": "Match the structure to the choices",
+      "content": "Choice A fits directly: it identifies a collection of essays and then points out something about them that is not completely known. This captures the passage's two-part structure\u2014introduction followed by revelation of uncertainty. Choices B, C, and D each misidentify the second part: B conflates authorship with disagreement on arguments, C falsely describes some essays as co-authored, and D shifts to publication history instead of authorship. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

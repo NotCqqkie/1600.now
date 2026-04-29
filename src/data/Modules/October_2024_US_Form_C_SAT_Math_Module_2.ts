@@ -273,23 +273,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear functions",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_9",
-    "testName": "October 2024 US Form C SAT Math Module 2",
-    "text": "f(x)=-(x-6) 2 +4\nThe function f is defined by the given equation. For what value of x does f(x) reach its maximum?",
-    "choices": [],
-    "correctAnswer": "6",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice A is correct. It's given that the table shows values of $x$ and their corresponding values of $g\\left(x\\right)$, where $g\\left(x\\right)=\\frac{f\\left(x\\right)}{x+3}$. It's also given that $f$ is a linear function. It follows that an equation that defines $f$ can be written in the form $f\\left(x\\right)=mx+b$, where $m$ represents the slope and $b$ represents the <em>y</em>-coordinate of the <em>y</em>-intercept $\\left(0,b\\right)$ of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane. The slope of the graph of $y=f\\left(x\\right)$ can be found using two points, $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, that are on the graph of $y=f\\left(x\\right)$, and the formula $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$. Since the table shows values of $x$ and their corresponding values of $g\\left(x\\right)$, substituting values of $x$ and $g\\left(x\\right)$ in the equation $g\\left(x\\right)=\\frac{f\\left(x\\right)}{x+3}$ can be used to define function $f$. Using the first pair of values from the table, $x=-27$ and $g\\left(x\\right)=3$, yields $3=\\frac{f\\left(-27\\right)}{-27+3}$, or $3=\\frac{f\\left(-27\\right)}{-24}$. Multiplying each side of this equation by $-24$ yields $-72=f\\left(-27\\right)$, so the point $\\left(-27,-72\\right)$ is on the graph of $y=f\\left(x\\right)$. Using the second pair of values from the table, $x=-9$ and $g\\left(x\\right)=0$, yields $0=\\frac{f\\left(-9\\right)}{-9+3}$, or $0=\\frac{f\\left(-9\\right)}{-6}$. Multiplying each side of this equation by $-6$ yields $0=f\\left(-9\\right)$, so the point $\\left(-9,0\\right)$ is on the graph of $y=f\\left(x\\right)$. Substituting $\\left(-27,-72\\right)$ and $\\left(-9,0\\right)$ for $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$, respectively, in the formula $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$ yields $m=\\frac{0-\\left(-72\\right)}{-9-\\left(-27\\right)}$, or $m=4$. Substituting $4$ for $m$ in the equation $f\\left(x\\right)=mx+b$ yields $f\\left(x\\right)=4x+b$. Since $0=f\\left(-9\\right)$, substituting $-9$ for $x$ and $0$ for $f\\left(x\\right)$ in the equation $f\\left(x\\right)=4x+b$ yields $0=4\\left(-9\\right)+b$, or $0=-36+b$. Adding $36$ to both sides of this equation yields $36=b$. It follows that $36$ is the <em>y</em>-coordinate of the <em>y</em>-intercept $\\left(0,b\\right)$ of the graph of $y=f\\left(x\\right)$. Therefore, the <em>y</em>-intercept of the graph of $y=f\\left(x\\right)$ is $\\left(0,36\\right)$.\nChoice B is incorrect. $12$ is the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph of $y=g\\left(x\\right)$.\nChoice C is incorrect. $4$ is the slope of the graph of $y=f\\left(x\\right)$.\nChoice D is incorrect. $-9$ is the <em>x</em>-coordinate of the <em>x</em>-intercept of the graph of $y=f\\left(x\\right)$.",
+      "id": "02060533",
+      "testName": "SAT Question Bank",
+      "text": "<table class=\"cb-table table_WithBorder\"><thead><tr><th>$x$</th><th>$g\\left(x\\right)$</th></tr></thead><tbody><tr><td>$-27$</td><td>$3$</td></tr><tr><td>$-9$</td><td>$0$</td></tr><tr><td>$21$</td><td>$5$</td></tr></tbody></table>\n\nThe table shows three values of $x$ and their corresponding values of $g\\left(x\\right)$, where $g\\left(x\\right)=\\frac{f\\left(x\\right)}{x+3}$ and $f$ is a linear function. What is the <em>y</em>-intercept of the graph of $y=f\\left(x\\right)$ in the <em>xy</em>-plane?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "$\\left(0,36\\right)$"
+          },
+          {
+              "id": "B",
+              "text": "$\\left(0,12\\right)$"
+          },
+          {
+              "id": "C",
+              "text": "$\\left(0,4\\right)$"
+          },
+          {
+              "id": "D",
+              "text": "$\\left(0,-9\\right)$"
+          }
+      ]
   },
   {
     "section": "Math",
@@ -493,23 +504,17 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_17",
-    "testName": "October 2024 US Form C SAT Math Module 2",
-    "text": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 139.2 kilograms of muscle, which made up approximately 67.7% of its composition. Of the remaining composition of this buffalo, approximately 51.4% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
-    "choices": [],
-    "correctAnswer": "34.1",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "The correct answer is $110$. Let $x$ represent the total number of items in the sample. It’s given that $80%$ of the items are faulty and that there are $88$ faulty items in the sample. Therefore, $80%$ of $x$ is $88$. Since $80%$ can be rewritten as $\\frac{80}{100}$, it follows that $\\frac{80}{100}x=88$. Multiplying both sides of this equation by $100$ yields $80x=8,800$. Dividing both sides of this equation by $80$ yields $x=110$. Therefore, there are $110$ total items in the sample.",
+      "id": "05195d8a",
+      "testName": "SAT Question Bank",
+      "text": "In a sample, $80\\%$ of the items are faulty. There are $88$ faulty items in the sample. How many total items are in the sample?",
+      "correctAnswer": "110",
+      "type": "free-response",
+      "choices": []
   },
   {
     "section": "Math",

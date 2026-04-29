@@ -1,0 +1,15 @@
+{
+  "questionId": "a03b7e02",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract table values and compute differences",
+      "content": "From the table:<br/><ul><li>$x = -1$: $f(x) = 16$</li><li>$x = 0$: $f(x) = 17$</li><li>$x = 1$: $f(x) = 18$</li><li>$x = 2$: $f(x) = 19$</li></ul><br/>The differences between consecutive outputs are:<br/><ul><li>$17 - 16 = 1$</li><li>$18 - 17 = 1$</li><li>$19 - 18 = 1$</li></ul>"
+    },
+    {
+      "title": "Identify the function type",
+      "content": "Since the differences are constant, the function is linear. Since $f(x)$ increases as $x$ increases (the differences are positive), the function is increasing linear. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

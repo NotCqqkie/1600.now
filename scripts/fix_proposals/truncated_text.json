@@ -1,0 +1,33 @@
+[
+  {
+    "id": "70753f99",
+    "url": "/bank/math/1351?bankType=unofficial",
+    "verdict": "RECOVERABLE",
+    "recovered_text": "Choices C and D start missing leading bounds: C should be '-1 is less than x, which is less than 3', D should be '1 is less than x, which is less than 4'",
+    "note": "Vertex x-coordinate is -2; rationale confirms interval boundaries"
+  },
+  {
+    "id": "ad038c19",
+    "url": "/bank/math/1378?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "note": "Choices are complete prose descriptions, not truncated"
+  },
+  {
+    "id": "3e9cc0c2",
+    "url": "/bank/math/1414?bankType=unofficial",
+    "verdict": "NEEDS_SOURCING",
+    "note": "Question stem 'Which of the following is equivalent to?' has missing expression"
+  },
+  {
+    "id": "928498f3",
+    "url": "/bank/math/1419?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "note": "All choice text is complete with proper framing language"
+  },
+  {
+    "id": "b47419f4",
+    "url": "/bank/math/1421?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "note": "All choice text is complete"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "questionId": "4b0c156b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope of h",
+      "content": "To find the equation of a linear function, start by calculating its slope. Using the given points <em>h(28) = 15</em> and <em>h(26) = 22</em>, apply the formula for the slope $m$ between two points $(x_1,y_1)$ and $(x_2, y_2):$\n$$m=\\frac{y_2-y_1}{x_2-x_1}=\\frac{22-15}{26-28}=-\\frac{7}{2}.$$",
+      "formula": "$m = \\frac{y_2 - y_1}{x_2 - x_1}$"
+    },
+    {
+      "title": "Identify the correct equation using the slope and a point",
+      "content": "With the slope $m=-\\frac{7}{2}$ determined, substitute either given point into each option to determine which one matches. Using <em>h(28) = 15</em>, test option B: $$h(x)=-\\frac{2}{7}x+23$$ and D: $$h(x)=-\\frac{7}{2}x+113.$$ For option B, substituting $x=28$ gives $h(28)= -\\frac{2}{7}(28)+23 = 15$, but the slope does not match our calculated value of $-\\frac{7}{2}$. Thus, it is incorrect. Testing D with <em>x=28</em>: $$h(28)=-\\frac{7}{2}(28)+113=-98+113=15.$$ This matches both the point and our slope.",
+      "formula": "$y = mx + b$"
+    },
+    {
+      "title": "Confirm D as correct",
+      "content": "That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

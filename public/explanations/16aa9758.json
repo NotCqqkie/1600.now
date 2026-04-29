@@ -1,0 +1,16 @@
+{
+  "questionId": "16aa9758",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the form that displays the maximum",
+      "formula": "$$f(x) = a(x-h)^2 + k$$",
+      "content": "For a quadratic with a negative leading coefficient, the maximum value appears as the constant term in vertex form. Here, the maximum is $k$."
+    },
+    {
+      "title": "Identify and verify the answer",
+      "content": "Choice C is $f(x) = -6(x-5)^2 + 24$, in vertex form with maximum 24. Expanding to verify it equals the original:<br/><br/>$$-6(x-5)^2 + 24 = -6(x^2 - 10x + 25) + 24 = -6x^2 + 60x - 150 + 24 = -6x^2 + 60x - 126$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

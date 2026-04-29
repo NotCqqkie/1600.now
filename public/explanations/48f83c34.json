@@ -1,0 +1,16 @@
+{
+  "questionId": "48f83c34",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parse the dimensions and relationships",
+      "content": "A right rectangular prism's volume depends on three dimensions. From the problem:<br/><ul><li>Height = 9 inches</li><li>Length of base = $x$ inches</li><li>Width of base = unknown</li></ul>The key relationship: <em>length is 7 inches more than width</em>. This translates to $x = \\text{width} + 7$. Solving for width: $\\text{width} = x - 7$."
+    },
+    {
+      "title": "Apply the volume formula",
+      "content": "Substitute all three dimensions into the volume formula:<br/>$$V = x \\times (x - 7) \\times 9 = 9x(x - 7)$$<br/>This matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$V = \\text{length} \\times \\text{width} \\times \\text{height}$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the researcher's central claim",
+      "content": "The researcher claims that some lakes have seen a \u201cdecline in the duration of ice\u201d between the early 1980s and mid-2000s. A typical example must demonstrate this specific decline\u2014fewer ice days in 2005-06 than in 1980-81."
+    },
+    {
+      "title": "Match the lake data to the decline claim",
+      "content": "Choice B shows Ouluj\u00e4rvi had fewer days in 2005-06 than 1980-81, directly supporting the researcher's claim. Choices A and D present single baseline values without comparing the periods to establish decline, while choice C contradicts the claim by asserting an increase. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 46 into the equation",
+      "content": "The equation is $y = 0.67x + 2.6$ and we need to find $y$ when $x = 46$. Substitute this value directly into the equation: $$y = 0.67(46) + 2.6$$"
+    },
+    {
+      "title": "Calculate the result",
+      "content": "Compute $0.67 \\times 46 = 30.82$. Then add: $y = 30.82 + 2.6 = 33.42$. The value 33.42 is closest to 33 among the choices. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

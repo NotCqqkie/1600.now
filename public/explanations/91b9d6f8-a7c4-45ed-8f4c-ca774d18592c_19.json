@@ -1,0 +1,19 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the data pattern: linear or exponential",
+      "content": "Examine the scatterplot visually. The points form a roughly straight line with no curvature or exponential growth. The data increases steadily and predictably as x increases, characteristic of linear (not exponential) behavior. This eliminates choices C and D, which are exponential models that would show curved growth."
+    },
+    {
+      "title": "Determine the slope sign",
+      "content": "As x increases from left to right, y also increases throughout the plot. The slope is clearly positive. Choice B ($y = 582 - 1.2x$) has a negative slope, so it contradicts the upward trend in the data. Only choice A remains viable."
+    },
+    {
+      "title": "Verify with a sample point from the graph",
+      "content": "Select a point near the middle of the plot: approximately (3000, 2900). Substitute into choice A:\n$$y = -582 + 1.2(3000) = -582 + 3600 = 3018$$\n\nThe predicted value of 3018 closely matches the observed y-value of approximately 2900, confirming the fit. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

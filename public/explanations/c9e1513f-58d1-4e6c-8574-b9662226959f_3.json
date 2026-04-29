@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square root term",
+      "content": "Subtract 34 from both sides of the equation:<br/>$$\\sqrt{w} + 34 - 34 = 40 - 34$$<br/>$$\\sqrt{w} = 6$$"
+    },
+    {
+      "title": "Square both sides to solve for w",
+      "content": "To eliminate the square root, square both sides:<br/>$$(\\sqrt{w})^2 = 6^2$$<br/>$$w = 36$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relative clause type",
+      "content": "\u201dOne European city\u201d calls for a restrictive clause that identifies which city \u2014 the one many travelers recommend."
+    },
+    {
+      "title": "Apply the restrictive clause rule",
+      "content": "Restrictive clauses use \u201cthat\u201d with no comma: \u201ccity that many travelers recommend.\u201d Option A adds an incorrect comma before \u201cthat\u201d; option B uses \u201cwhich\u201d with comma (non-restrictive), treating the info as extra rather than identifying; option C uses \u201cin which,\u201d which doesn't work with \u201crecommend.\u201d<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "c943acba",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify favorable and total outcomes",
+      "content": "In a probability problem, we count <strong>favorable outcomes</strong> (what we want) and <strong>total outcomes</strong> (all possibilities). Here:<ul><li>Total houses on the street: <strong>7</strong></li><li>Blue houses (favorable): <strong>2</strong></li></ul>"
+    },
+    {
+      "title": "Apply the probability formula",
+      "content": "The probability of selecting a blue house is the ratio of blue houses to total houses:<br/><br/>$$P(\\text{blue house}) = \\frac{\\text{blue houses}}{\\text{total houses}} = \\frac{2}{7}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$P = \\frac{\\text{favorable}}{\\text{total}}$$"
+    }
+  ]
+}

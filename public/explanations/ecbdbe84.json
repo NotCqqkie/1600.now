@@ -1,0 +1,19 @@
+{
+  "questionId": "ecbdbe84",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "With 17 restaurants, the median is the middle value when arranged in order. For 17 values, the median is at position $\\frac{17+1}{2} = 9$."
+    },
+    {
+      "title": "Build cumulative frequencies to locate the 9th value",
+      "content": "Count restaurants cumulatively through each range:<br/><ul><li>Through 2\u20137 employees: 2</li><li>Through 8\u201313 employees: 2 + 4 = 6</li><li>Through 14\u201319 employees: 6 + 2 = 8</li><li>Through 20\u201325 employees: 8 + 7 = 15</li></ul>Since 8 restaurants are accounted for through the 14\u201319 range and 15 through the 20\u201325 range, the 9th restaurant falls in the 20\u201325 employee group."
+    },
+    {
+      "title": "Identify the viable choice",
+      "content": "The median must lie between 20 and 25. Checking the choices: 2 is in the 2\u20137 range, 9 is in the 8\u201313 range, 15 is in the 14\u201319 range, and 21 is in the 20\u201325 range. Only 21 falls in the correct range. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

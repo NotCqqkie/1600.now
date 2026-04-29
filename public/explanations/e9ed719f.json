@@ -1,0 +1,15 @@
+{
+  "questionId": "e9ed719f",
+  "correctAnswer": "0.3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the number of red tiles and total tiles from the table",
+      "content": "From the Total row: there are 30 red tiles and 100 tiles total."
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "The probability is the ratio of red tiles to total tiles: $$P(\\text{red}) = \\frac{30}{100} = \\frac{3}{10} = 0.3$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Derive the perimeter constraint",
+      "content": "For a rectangle with perimeter 26 m:<br/>$$2x + 2y = 26$$<br/>Dividing by 2: $x + y = 13$<br/>This linear equation describes every point on the graph."
+    },
+    {
+      "title": "Interpret point (4, 9)",
+      "content": "The point $(4, 9)$ has $x = 4$ and $y = 9$. Since the problem defines $x$ as length and $y$ as width:<ul><li>Length = 4 m</li><li>Width = 9 m</li></ul>Verify: $4 + 9 = 13$ \u2713, confirming it satisfies the perimeter constraint. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

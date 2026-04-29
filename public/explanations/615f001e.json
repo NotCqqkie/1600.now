@@ -1,0 +1,15 @@
+{
+  "questionId": "615f001e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures after the blank",
+      "content": "After the blank, two independent clauses appear separated by a comma: \u201cthe hole's small size restricts light to a single ray\u201d (subject: the hole's small size; verb: restricts) and \u201call light passing through the hole can only arrive at a single destination\u201d (subject: all light; verb: can arrive)."
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "Two independent clauses cannot be joined by a comma alone\u2014they require a period, semicolon, or coordinating conjunction. Choice B solves this by using a period to create two sentences; the second begins with a dependent clause <em>\u201cBecause the hole's small size restricts light to a single ray\u201d</em> that properly introduces the following independent clause. Choices A, C, and D each create comma splices or fail to properly separate the independent clauses. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

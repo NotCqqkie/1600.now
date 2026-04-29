@@ -1,0 +1,15 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal at intersection",
+      "content": "At an intersection point, both expressions equal $y$. Set them equal: $$x^2 + 17x + 4 = x + 4$$"
+    },
+    {
+      "title": "Simplify and solve for x",
+      "content": "Subtract $x + 4$ from both sides: $$x^2 + 16x = 0$$ Factor out $x$: $$x(x + 16) = 0$$ This gives $x = 0$ or $x = -16$. The value $-16$ is choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

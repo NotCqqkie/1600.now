@@ -1,0 +1,15 @@
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the crucial comparison",
+      "content": "The passage presents two ships with three decks: the Dreadnought (not first-rate) and the Caledonia (first-rate). That two ships can have identical deck counts yet different rankings is the decisive clue."
+    },
+    {
+      "title": "Match the comparison to the choices",
+      "content": "Choice A states that not all three-deck ships were first-rate \u2014 a conclusion proven by the Dreadnought and Caledonia, which have identical decks but different rankings. The other choices either contradict the passage or speculate beyond it. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

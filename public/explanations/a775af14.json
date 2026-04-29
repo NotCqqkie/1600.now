@@ -1,0 +1,16 @@
+{
+  "questionId": "a775af14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the two points",
+      "content": "Using points $(0, 2)$ and $(8, 34)$, calculate:<br/>\n$$m = \\frac{34 - 2}{8 - 0} = \\frac{32}{8} = 4$$",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Write the linear equation",
+      "content": "The point $(0, 2)$ tells us the y-intercept is $b = 2$. With slope $m = 4$:<br/>\n$$f(x) = 4x + 2$$<br/>\nThat matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

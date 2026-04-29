@@ -1,0 +1,15 @@
+{
+  "questionId": "9d4a701b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The blank separates an independent clause on the left (\u201clight intensity affects the chemical reaction rate of photosynthesis\u201d) from a dependent clause on the right (\u201cas light intensity increases\u201d) followed by an independent clause (\u201cso does the rate...\u201d)."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A comma is required before a dependent clause that introduces a correlative construction, to separate the main clause from the parallel structure. Option B correctly provides this comma: \u201crate of photosynthesis, as light intensity increases, so does the rate...\u201d <br/><br/>Option A (and) uses a coordinating conjunction where it doesn't apply; Option C (colon) is for lists or elaborations, not parallel clauses; Option D (no punctuation) omits the required boundary marker. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

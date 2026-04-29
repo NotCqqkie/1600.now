@@ -1,0 +1,19 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_10",
+  "correctAnswer": "705",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given Fahrenheit temperature and isolate the fraction",
+      "content": "Start with the conversion formula. Since $h = 809.33$ degrees Fahrenheit, substitute this value and subtract 32 from both sides to isolate the fraction containing $u$:<br/><br/>$$809.33 = \\frac{9(u-273.15)}{5} + 32$$<br/><br/>$$809.33 - 32 = \\frac{9(u-273.15)}{5}$$<br/><br/>$$777.33 = \\frac{9(u-273.15)}{5}$$"
+    },
+    {
+      "title": "Eliminate the fraction by multiplying by 5 and dividing by 9",
+      "content": "To isolate $(u - 273.15)$, multiply both sides by $\\frac{5}{9}$:<br/><br/>$$u - 273.15 = \\frac{5 \\times 777.33}{9}$$<br/><br/>$$u - 273.15 = \\frac{3886.65}{9} = 431.85$$"
+    },
+    {
+      "title": "Add 273.15 to solve for u",
+      "content": "Finally, add 273.15 to both sides to isolate $u$:<br/><br/>$$u = 431.85 + 273.15$$<br/><br/>$$u = 705$$<br/><br/>The corresponding temperature is <strong>705 kelvins</strong>."
+    }
+  ]
+}

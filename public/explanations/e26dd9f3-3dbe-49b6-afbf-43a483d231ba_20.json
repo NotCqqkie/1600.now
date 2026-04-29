@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The text has an independent clause (<em>who served in...Congress</em>) followed by a list of examples (<em>Ralph Harold Metcalfe...Alton Waldon Jr.</em>). A colon introduces a list or elaboration."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon separates an independent clause from a list it introduces. Choices B (semicolon) and C (period) violate this rule by splitting sentences incorrectly; D lacks punctuation entirely. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

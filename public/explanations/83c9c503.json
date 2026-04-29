@@ -1,0 +1,15 @@
+{
+  "questionId": "83c9c503",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The blank falls between a subject noun phrase (\u201cHer portrait of novelist Zadie Smith\u201d) and a verb phrase (\u201cis displayed in the National Portrait Gallery in London\u201d)."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "The rule is: do not insert punctuation between a subject and its verb. A comma between subject and verb violates this rule, while a colon and em dash would introduce elaboration or emphasis not present in the sentence. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what the evidence must establish",
+      "content": "The passage claims that energy expense prevents full-speed strategies <em>even in escape contexts</em>. The blank must be filled with data proving that animals use <strong>less than maximum speed when escaping</strong>\u2014the highest-stakes scenario where energy constraints would seem least tolerable."
+    },
+    {
+      "title": "Identify the choice matching that pattern",
+      "content": "The graph shows that multiple lizard species use 30\u201340%, 40\u201350%, 50\u201360%, 70\u201380%, and 80\u201390% of maximal speed when escaping\u2014that's at least 5 species averaging below 90%. Option B captures this directly: if animals don't reach full speed even under predation pressure, it demonstrates that energy costs prevent maximal deployment. Options A, C, and D either show similar percentages across contexts without addressing the energy constraint, suggest high-speed use predominates (contradicting the claim), or focus on pursuit rather than escape. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

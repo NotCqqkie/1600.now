@@ -1,0 +1,16 @@
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle and its opposite and hypotenuse",
+      "content": "Angle $x\u00b0$ is at the top left vertex. The right angle (marked with a small square) is at the bottom left. From angle $x\u00b0$:<br/><ul><li>The <strong>opposite</strong> side runs along the bottom: 63</li><li>The <strong>hypotenuse</strong> is the diagonal from top left to bottom right: 73</li></ul>"
+    },
+    {
+      "title": "Apply the sine ratio",
+      "content": "Substituting into the sine ratio:<br/>$$\\sin(x\u00b0) = \\frac{63}{73}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
+    }
+  ]
+}

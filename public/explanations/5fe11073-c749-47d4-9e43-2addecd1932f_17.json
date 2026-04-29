@@ -1,0 +1,15 @@
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the opening em-dash",
+      "content": "The em-dash after <em>Mirounga angustirostris</em> introduces an alternative (\u201c\u2014or northern elephant seals, as they're more commonly known). This opening em-dash begins a construction that must close before the main clause begins."
+    },
+    {
+      "title": "Close with a matching em-dash",
+      "content": "When an em-dash opens a construction mid-sentence, a matching em-dash must close it before the main clause. Choice B provides this: known\u2014a 2021 study. Choices A and D use commas instead, breaking punctuation consistency. Choice C breaks the sentence inappropriately. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "9ec76b54",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply Pythagorean theorem with early factoring",
+      "content": "For a right triangle, use the Pythagorean theorem. Notice both legs are divisible by 4: $28 = 4(7)$ and $20 = 4(5)$. <br/>$$c^2 = [4(7)]^2 + [4(5)]^2 = 16(49) + 16(25) = 16(49 + 25) = 16(74)$$",
+      "formula": "$$c^2 = a^2 + b^2$$"
+    },
+    {
+      "title": "Simplify the radical to find the hypotenuse",
+      "content": "Take the square root of both sides: <br/>$$c = \\sqrt{16(74)} = \\sqrt{16} \\cdot \\sqrt{74} = 4\\sqrt{74}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

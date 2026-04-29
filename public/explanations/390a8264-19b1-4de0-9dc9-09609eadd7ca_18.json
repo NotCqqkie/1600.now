@@ -1,0 +1,15 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate gallons needed for double coverage",
+      "content": "The deck has d square feet. Covering it <strong>twice</strong> means covering a total area of <strong>2d</strong> square feet. Since one gallon covers 250 square feet, the gallons needed are:<br/>$$\\frac{2d}{250} = \\frac{d}{125}$$"
+    },
+    {
+      "title": "Calculate the cost",
+      "content": "The cost is the number of gallons times the price per gallon:<br/>$$c = \\frac{d}{125} \\times 23 = 23\\left(\\frac{d}{125}\\right)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

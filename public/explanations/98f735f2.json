@@ -1,0 +1,15 @@
+{
+  "questionId": "98f735f2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what to rearrange",
+      "content": "We're given the revenue formula $t = pq$ and asked to solve for $q$ in terms of $p$ and $t$. To isolate $q$, we need to undo the multiplication by $p$."
+    },
+    {
+      "title": "Divide both sides by p",
+      "content": "Starting with $t = pq$, we divide both sides by $p$:<br/><br/>$$\\frac{t}{p} = \\frac{pq}{p}$$<br/><br/>$$\\frac{t}{p} = q$$<br/><br/>Therefore, $q = \\frac{t}{p}$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "questionId": "bc59c2d9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the line of best fit at x = 4,000 feet",
+      "content": "On the graph, locate 4,000 on the horizontal axis (Distance above sea level). Trace vertically upward to where the line of best fit passes through that x-value. At $x = 4,000$, the line of best fit shows a temperature of 35\u00b0F. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

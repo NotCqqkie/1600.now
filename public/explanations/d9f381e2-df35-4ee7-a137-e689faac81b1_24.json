@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage defines nameplate capacity as a wind farm\u2019s maximum output and specifies Hallett Wind Farm\u2019s value as 351 megawatts. The strongest signal is the requirement to <strong>cite the exact number and location</strong> to emphasize the statistic."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A combines the farm\u2019s name, its location (Hallett, Australia), and the precise nameplate capacity (351 megawatts) into a single, concise sentence. The other three choices either omit the number (C), define a term without linking it to Hallett (D), or focus on general wind farm operations (B). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

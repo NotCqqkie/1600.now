@@ -1,0 +1,19 @@
+{
+  "questionId": "02060533",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret g(-9) = 0 to constrain the form of f(x)",
+      "content": "Since $g(-9) = \\frac{f(-9)}{-9+3} = \\frac{f(-9)}{-6} = 0$, the numerator must be zero (denominator is nonzero). Thus $f(-9) = 0$.<br/><br/>For linear $f(x) = mx + b$:\n\n$$-9m + b = 0$$\n\n$$b = 9m$$"
+    },
+    {
+      "title": "Use g(-27) = 3 to find the slope m",
+      "content": "$$g(-27) = \\frac{f(-27)}{-27+3} = 3$$\n\n$$\\frac{-27m + b}{-24} = 3$$\n\n$$-27m + b = -72$$\n\nSubstitute $b = 9m$:\n\n$$-27m + 9m = -72$$\n\n$$-18m = -72$$\n\n$$m = 4$$"
+    },
+    {
+      "title": "Calculate the y-intercept",
+      "content": "From $b = 9m = 9(4) = 36$, we have $f(x) = 4x + 36$, so $f(0) = 36$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

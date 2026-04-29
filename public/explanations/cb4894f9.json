@@ -1,0 +1,15 @@
+{
+  "questionId": "cb4894f9",
+  "correctAnswer": "34672",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "Speed is 19.700 miles per hour. Convert to yards per hour using 1 mile = 1,760 yards. Since yards are smaller units, multiply:<br/>$$19.700 \\times 1,760$$"
+    },
+    {
+      "title": "Calculate the product",
+      "content": "Break into parts:<br/>$$19.700 \\times 1,760 = (19 + 0.700) \\times 1,760 = 19 \\times 1,760 + 0.700 \\times 1,760$$<br/>Compute each:<ul><li>$19 \\times 1,760 = 33,440$</li><li>$0.700 \\times 1,760 = 1,232$</li></ul>Add:<br/>$$33,440 + 1,232 = 34,672 \\text{ yards per hour}$$"
+    }
+  ]
+}

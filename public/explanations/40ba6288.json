@@ -1,0 +1,15 @@
+{
+  "questionId": "40ba6288",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the value of 3x",
+      "content": "<ul><li>The equation $$3x = 30$$ directly gives the value of the expression $$3x$$.</li><li>Thus $$3x = 30$$.</li></ul>"
+    },
+    {
+      "title": "Compute 3x-12",
+      "content": "<ul><li>Replace $$3x$$ in $$3x-12$$ with 30: $$3x-12 = 30-12$$.</li><li>$$30-12 = 18$$.</li><li>That matches choice B \u2014 <strong>B</strong> is correct.</li></ul>"
+    }
+  ]
+}

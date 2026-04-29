@@ -1,0 +1,15 @@
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "The first sentence states that mushrooms contain phenolic compounds (naming protocatechuic acid and biochanin as examples). The second sentence provides specific instances where Ferreira detected these compounds. This is a general statement followed by concrete evidence."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dFor example\u201d signals that what follows illustrates a previously stated claim. Nevertheless and However both signal contrasts that aren't present, and For this reason signals causation that doesn't apply. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

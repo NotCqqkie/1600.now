@@ -1,0 +1,15 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the profit equation",
+      "content": "Using the profit formula Profit = Revenue - Total Expenses, we can express the situation algebraically. The park earns $15 per umbrella and has $150 in expenses. With $435 in profit:$$435 = 15x - 150$$where $x$ is the number of umbrellas rented."
+    },
+    {
+      "title": "Solve for the number of umbrellas",
+      "content": "Add 150 to both sides:$$585 = 15x$$Divide both sides by 15:$$x = 39$$That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

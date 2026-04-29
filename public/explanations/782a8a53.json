@@ -1,0 +1,15 @@
+{
+  "questionId": "782a8a53",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the vertex on the parabola",
+      "content": "The vertex of a parabola is its turning point \u2014 the lowest point if the parabola opens upward, or the highest point if it opens downward. Looking at the graph, the parabola opens upward and reaches its minimum at the lowest point on the curve."
+    },
+    {
+      "title": "Read the coordinates from the graph",
+      "content": "The lowest point of the parabola occurs where $x = 0$ (on the y-axis, where the parabola is symmetric) and $y = 2$ (reading from the y-axis scale). Therefore, the vertex is at $(0, 2)$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

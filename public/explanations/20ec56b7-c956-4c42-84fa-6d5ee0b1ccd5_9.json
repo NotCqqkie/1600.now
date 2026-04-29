@@ -1,0 +1,15 @@
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key comparison",
+      "content": "The text compares Kleenex to \u201ccellophane\u201d using past tense: \u201cas cellophane was.\u201d This comparison implies cellophane underwent the same transformation Kleenex might experience\u2014it went from being a specific product with trademark protection to becoming a generic term."
+    },
+    {
+      "title": "Match the inference to the right answer",
+      "content": "Choice B captures this: cellophane \u201conce referred to a specific product made by a particular company.\u201d The other three don't fit: A invents debate not mentioned, C introduces irrelevant popularity, and D contradicts the facts (if something became generic, it must have been a trademark first). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

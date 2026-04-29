@@ -88,7 +88,7 @@ const LandingVariant = () => {
             <Link to="/bank" className="hover:underline">SAT Question Bank</Link>
           </li>
           <li>
-            <Link to="/modules" className="hover:underline">Practice Modules</Link>
+            <Link to="/modules" className="hover:underline">Practice Tests</Link>
           </li>
           <li>
             <Link to="/score-calculator" className="hover:underline">SAT Score Calculator</Link>

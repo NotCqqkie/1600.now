@@ -1,0 +1,15 @@
+{
+  "questionId": "244ff6c4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Reduce the angle using the period of tangent",
+      "content": "Since $\\tan(\\theta + \\pi) = \\tan(\\theta)$, tangent repeats every $\\pi$ radians. To reduce $\\frac{92\\pi}{3}$, divide by $\\pi$:<br/><br/>$$\\frac{92\\pi}{3} \\div \\pi = \\frac{92}{3} = 30\\frac{2}{3}$$<br/><br/>This means $\\frac{92\\pi}{3} = 30\\pi + \\frac{2\\pi}{3}$. Since $30\\pi$ represents 30 complete periods, we have:<br/><br/>$$\\tan\\left(\\frac{92\\pi}{3}\\right) = \\tan\\left(\\frac{2\\pi}{3}\\right)$$"
+    },
+    {
+      "title": "Use reference angle and quadrant to evaluate",
+      "content": "The angle $\\frac{2\\pi}{3}$ is in the second quadrant (between $\\frac{\\pi}{2}$ and $\\pi$). Find the reference angle:<br/><br/>$$\\text{Reference angle} = \\pi - \\frac{2\\pi}{3} = \\frac{\\pi}{3}$$<br/><br/>We know $\\tan\\left(\\frac{\\pi}{3}\\right) = \\sqrt{3}$. In the second quadrant, tangent is negative, so:<br/><br/>$$\\tan\\left(\\frac{2\\pi}{3}\\right) = -\\sqrt{3}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

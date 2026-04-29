@@ -1,0 +1,15 @@
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the consequence signal",
+      "content": "The first sentence establishes that Italian was historically the default for opera. The second sentence reveals that modern singers (marked by \u201ctoday\u201d) still encounter Italian terms. This is a direct consequence of the historical fact."
+    },
+    {
+      "title": "Apply the consequence signal",
+      "content": "\u201dThus\u201d is the transition for consequence and result. <br/> \u201cHowever\u201d introduces contrast, \u201cLastly\u201d implies enumeration, \u201cGranted\u201d signals concession\u2014none fit the relationship here. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the parallel lines test with a transversal",
+      "content": "When a transversal crosses two lines, several conditions prove the lines are parallel:<br/><ul><li>Corresponding angles are equal</li><li>Co-interior (consecutive interior) angles sum to 180\u00b0</li><li>Alternate interior angles are equal</li></ul>We know $w = 160\u00b0$ at the intersection of line $k$ and line $r$. We need to identify which angle relationship at line $s$ would prove $r \\parallel s$."
+    },
+    {
+      "title": "Analyze angle positions and test choice B",
+      "content": "At the intersection of $k$ and $r$: angle $w = 160\u00b0$ is formed on one side of the transversal.<br/><br/>At the intersection of $k$ and $s$: angle $y$ is in the corresponding position to $w$ (same relative position at the second intersection).<br/><br/>If $y = 160\u00b0$, then $w = y$. Since both angles are in corresponding positions and are equal, the corresponding angles theorem guarantees that lines $r$ and $s$ are parallel.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

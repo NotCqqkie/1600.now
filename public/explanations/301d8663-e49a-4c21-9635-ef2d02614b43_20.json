@@ -1,0 +1,16 @@
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the percentage of initial charge",
+      "content": "The battery starts at 100 kWh. At the end of the trip, 56% of this initial charge remains. We need to calculate:<br/>$$\\text{Remaining charge} = 56\\% \\times 100 \\text{ kWh}$$",
+      "formula": "$$\\text{Part} = \\text{Percentage} \\times \\text{Whole}$$"
+    },
+    {
+      "title": "Evaluate the percentage",
+      "content": "Calculate 56% of 100:<br/>$$0.56 \\times 100 = 56 \\text{ kWh}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

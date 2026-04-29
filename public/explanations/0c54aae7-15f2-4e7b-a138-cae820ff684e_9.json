@@ -1,0 +1,15 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the total shrub constraint",
+      "content": "The phrase <em>no more than 244 total shrubs</em> means the sum cannot exceed 244. The phrase <em>no more than</em> translates to the inequality symbol \u2264. Therefore, the total number of shrubs is:\n$$h + w \\le 244$$\nThis eliminates choices C and D, which use \u2265 instead."
+    },
+    {
+      "title": "Translate the hydrangea-to-hazel relationship",
+      "content": "The phrase <em>the number of hydrangeas will be at most three times the number of winter hazels</em> means hydrangeas cannot exceed 3 times the hazel count. The phrase <em>at most</em> translates to \u2264. Therefore:\n$$h \\le 3w$$\nChoice B has $3h \\ge w$ (equivalent to $h \\ge \\frac{w}{3}$), which says hydrangeas are <em>at least</em> one-third the hazel count \u2014 the opposite of what we need. Choice D also has this reversed relationship. Only choice A has both $h + w \\le 244$ and $h \\le 3w$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

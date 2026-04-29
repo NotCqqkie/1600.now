@@ -1,0 +1,15 @@
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key numerical contrast about free-elections clauses",
+      "content": "The notes show that all fifty state constitutions contain voting rights clauses, but only thirty contain free-elections clauses. This gap\u2014between universal and merely partial\u2014is the defining fact about how free-elections clauses are distributed."
+    },
+    {
+      "title": "Apply the contrast to the choices",
+      "content": "Choice A uses exactly this contrast: it notes that while voting rights are conferred universally, free and fair elections \u201caren't mandated with the same consistency.\u201d This turns the numerical difference into a meaningful generalization about free-elections clauses. The other choices either contradict the numbers (B claims all states have free-elections clauses), omit the clauses from consideration (C), or shift to legislation (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

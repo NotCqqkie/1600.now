@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage tells us that a negative effect value means a harmful effect, so we need to look for neighboring species with negative values in the table."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Leafy spurge and prickly pear both show negative effect values in the table, indicating they are harmful. The other choices either pair a harmful species with a neutral/beneficial one or include species with non\u2011negative values. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

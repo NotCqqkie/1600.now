@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the length in terms of width",
+      "content": "Let $w$ = width. Since the length is 35 centimeters greater than the width:\n$$\\text{length} = w + 35$$"
+    },
+    {
+      "title": "Apply the area formula for a rectangle",
+      "content": "Area = length $\\times$ width, so:\n$$A = (w + 35) \\times w = (w)(w + 35)$$\n\nThat matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9110c120",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate both means",
+      "content": "Data Set A: 9 values of 5.<br/>$$\\text{Mean}_A = \\frac{45}{9} = 5$$<br/><br/>Data Set B: 9 values of 5, plus one value of 100.<br/>$$\\text{Mean}_B = \\frac{9(5) + 100}{10} = \\frac{145}{10} = 14.5$$<br/><br/>The means differ: 5 \u2260 14.5."
+    },
+    {
+      "title": "Calculate both medians and identify the answer",
+      "content": "Data Set A (9 values, all 5): The median is the 5th value when sorted.<br/>$$\\text{Median}_A = 5$$<br/><br/>Data Set B (10 values): Sorted as 5, 5, 5, 5, 5, 5, 5, 5, 5, 100. The median is the average of the 5th and 6th values.<br/>$$\\text{Median}_B = \\frac{5 + 5}{2} = 5$$<br/><br/>The medians are identical. Therefore, only the means are different. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

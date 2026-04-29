@@ -1,0 +1,16 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_18",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that rate equals the slope of the curve",
+      "content": "Since the graph shows cumulative rainfall over time, the rate of rainfall (cm/hour) is the slope of the curve. A horizontal line means slope = 0, so no rainfall is occurring.",
+      "formula": "$$\\text{slope} = \\frac{\\Delta y}{\\Delta x}$$"
+    },
+    {
+      "title": "Calculate slope from x = 2 to x = 4",
+      "content": "From the graph: at <em>x</em> = 2, the cumulative rainfall is 2 cm; at <em>x</em> = 4, it is still 2 cm. The line is horizontal over this interval.<br/><br/>$$\\frac{2 - 2}{4 - 2} = \\frac{0}{2} = 0 \\text{ cm/hour}$$<br/><br/>The rate of rainfall was 0 centimeters per hour between <em>x</em> = 2 and <em>x</em> = 4. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "1ce9ffcd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant for exactly one solution",
+      "content": "A quadratic $ax^2 + bx + \\text{constant} = 0$ has exactly one solution when the discriminant equals zero. For $-9x^2 + 30x + c = 0$, we have $a = -9$, $b = 30$, and the constant term is $c$ (the value we need to find).",
+      "formula": "$$\\Delta = b^2 - 4ac$$"
+    },
+    {
+      "title": "Solve for c using the discriminant condition",
+      "content": "Set the discriminant equal to zero and substitute: $$30^2 - 4(-9)(c) = 0$$ $$900 + 36c = 0$$ $$36c = -900$$ $$c = -25$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

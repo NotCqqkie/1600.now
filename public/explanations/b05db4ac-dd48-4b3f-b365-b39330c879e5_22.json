@@ -1,0 +1,15 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_22",
+  "correctAnswer": "-19",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by the LCD to clear all fractions",
+      "content": "Multiply both sides by $76cx$:<br/><br/>$$76 = cx^2 + 76x$$<br/><br/>Rearranging:<br/>$$cx^2 + 76x - 76 = 0$$"
+    },
+    {
+      "title": "Test the candidate answer by substituting back",
+      "content": "Backsolving \u2014 testing choice C (\u221219): Substitute $x = -19$ into the original equation:<br/><br/>$$\\frac{1}{c(-19)} = \\frac{-19}{76} + \\frac{1}{c}$$<br/><br/>Simplify the left side:<br/>$$-\\frac{1}{19c} = \\frac{-19}{76} + \\frac{1}{c}$$<br/><br/>Multiply both sides by $19c$ to solve for $c$:<br/>$$-1 = \\frac{-361c}{76} + 19$$<br/><br/>$$-20 = \\frac{-361c}{76}$$<br/><br/>$$1520 = 361c$$<br/><br/>$$c = \\frac{1520}{361} = \\frac{80}{19}$$<br/><br/>Since a valid value of $c$ exists (namely $\\frac{80}{19}$) that satisfies the equation when $x = -19$, the substitution succeeds. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

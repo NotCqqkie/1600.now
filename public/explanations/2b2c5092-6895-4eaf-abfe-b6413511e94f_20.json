@@ -1,0 +1,15 @@
+{
+  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical relationship across the blank",
+      "content": "The structure is: an independent clause about interactions occurring earlier, followed by a noun phrase \u201ca finding that would overturn theories\u201d elaborating on it. This noun phrase is an appositive."
+    },
+    {
+      "title": "Apply the punctuation rule for appositives",
+      "content": "The rule: A comma separates an independent clause from an appositive noun phrase. Choice C correctly uses a comma to mark this relationship. The other options fail: A omits punctuation, B uses a period (fragmenting the sentence), and D uses a semicolon (which requires independent clauses on both sides, but the phrase \u201ca finding that...\u201d is a noun phrase). <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

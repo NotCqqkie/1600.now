@@ -1,0 +1,15 @@
+{
+  "questionId": "249508d9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The first sentence states the installation creates a <em>whimsical yet perplexing experience.</em> The second describes what that experience is like: visitors are <em>dazzled and confused\u2014as if stepping into a strange and enchanting new world.</em> The second sentence exemplifies the first's claim rather than contrasting with it."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<em>Indeed</em> signals confirmation and elaboration when supporting evidence follows a general claim. <em>Second</em>, <em>Instead</em>, and <em>Nevertheless</em> suggest a separate list item, substitution, or unexpected contrast\u2014none of which fits how the second sentence functions.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

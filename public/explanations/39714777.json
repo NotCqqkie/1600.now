@@ -1,0 +1,15 @@
+{
+  "questionId": "39714777",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate p(x)",
+      "content": "Rearrange $p(x) + 57 = x^2$:<br/>$$p(x) = x^2 - 57$$"
+    },
+    {
+      "title": "Apply vertex form to find the minimum",
+      "content": "Recognize this as $p(x) = (x - 0)^2 - 57$ in vertex form $a(x - h)^2 + k$, where the vertex is at $(h, k) = (0, -57)$. Since $a = 1 > 0$, the parabola opens upward, so the vertex is the minimum point. The minimum value of $p(x)$ is $-57$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

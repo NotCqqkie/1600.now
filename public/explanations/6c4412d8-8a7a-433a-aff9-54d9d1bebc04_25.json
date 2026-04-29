@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The notes give exact amounts: kale has 120 mg of ascorbic acid per 100 g, while apricot has only 10 mg per 100 g. This numeric difference is the decisive clue that kale provides far more vitamin C than apricot."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D directly uses the numbers from the notes to show that kale supplies 120 mg of vitamin C per 100 g compared with apricot\u2019s 10 mg per 100 g, proving kale is the better source.<br/>Choices A, B, and C either omit the comparison, give equal treatment, or only note that both foods contain the nutrient without showing which is richer.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

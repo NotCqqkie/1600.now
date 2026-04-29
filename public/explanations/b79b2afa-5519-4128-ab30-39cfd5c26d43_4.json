@@ -1,0 +1,15 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the speed constraints to mathematical inequalities",
+      "content": "The phrase <em>at least 40 miles per hour</em> means the speed is greater than or equal to 40, so $x \\geq 40$. The phrase <em>no more than 65 miles per hour</em> means the speed is less than or equal to 65, so $x \\leq 65$. Since the car must satisfy both conditions simultaneously, we need to combine them into a single compound inequality."
+    },
+    {
+      "title": "Write the compound inequality",
+      "content": "When a value must be greater than or equal to one number AND less than or equal to another, we write both inequalities together: $40 \\leq x \\leq 65$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

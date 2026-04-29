@@ -1,0 +1,23 @@
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the transformation rules for data sets",
+      "content": "When a constant is added to every data point in a set:<ul><li><strong>Mean changes by that constant:</strong> if you add 13 to each value, the mean increases by exactly 13</li><li><strong>Range stays the same:</strong> if the original set spans from min to max, adding 13 gives a new range of (max + 13) \u2212 (min + 13) = max \u2212 min</li></ul>"
+    },
+    {
+      "title": "Find the range of set B",
+      "content": "From the dot plot for set A, the capacity values range from 2 \u03bcF to 14 \u03bcF.<div class=\"callout\">Range of set A = 14 \u2212 2 = 12 \u03bcF</div>Since adding 13 to each capacitor in set A does not change the spread, the range of set B is also 12 \u03bcF. This eliminates choices B and D immediately."
+    },
+    {
+      "title": "Calculate the mean of set A from the dot plot",
+      "content": "Reading the frequencies from the dot plot:<ul><li>2 \u03bcF: 5 capacitors</li><li>5 \u03bcF: 5 capacitors</li><li>8 \u03bcF: 2 capacitors</li><li>11 \u03bcF: 4 capacitors</li><li>14 \u03bcF: 5 capacitors</li></ul><div class=\"callout\">$$\\text{Sum} = 2(5) + 5(5) + 8(2) + 11(4) + 14(5) = 10 + 25 + 16 + 44 + 70 = 165$$</div>$$\\text{Mean of A} = \\frac{165}{21} \\approx 7.86\\text{ \u03bcF}$$"
+    },
+    {
+      "title": "Apply the transformation to find the mean of set B",
+      "content": "Since each capacitor in set B has a capacity 13 \u03bcF greater than the corresponding capacitor in set A:$$\\text{Mean of B} = \\text{Mean of A} + 13 \\approx 7.86 + 13 = 20.86\\text{ \u03bcF}$$Rounding to the nearest integer, the mean of set B is approximately 21 \u03bcF. Combined with the range of 12 \u03bcF, that matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

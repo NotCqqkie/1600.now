@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure before the comma",
+      "content": "The blank comes after \u201cOriginally\u201d and before \u201cin classical Japanese,\u201d which precedes the main clause \u201cit has since been translated into other languages.\u201d The opening phrase must work as a modifier of the subject \u201cit.\u201d"
+    },
+    {
+      "title": "Apply the participial phrase rule",
+      "content": "An opening participial phrase uses a participle, not a finite verb. The past participle \u201cwritten\u201d correctly creates the participial phrase \u201coriginally written in classical Japanese,\u201d which modifies the subject \u201cit\u201d of the main clause. The other three options use finite verb forms (is/was/had been), which cannot function as the head of a participial phrase. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

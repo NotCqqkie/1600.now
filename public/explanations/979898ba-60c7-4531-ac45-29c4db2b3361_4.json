@@ -1,0 +1,15 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Drop parentheses and identify like terms",
+      "content": "Removing the parentheses from $(4nr^{2}+6nr)+(7n^{2}r+2nr)$ gives: $$4nr^{2}+6nr+7n^{2}r+2nr$$ Which terms have the same variable parts? The terms $6nr$ and $2nr$ both contain $nr$, while $4nr^{2}$ contains $nr^2$ and $7n^{2}r$ contains $n^2r$. Only the two $nr$ terms are like terms."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the like terms: $6nr + 2nr = 8nr$. The final expression is: $$4nr^{2} + 7n^{2}r + 8nr$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

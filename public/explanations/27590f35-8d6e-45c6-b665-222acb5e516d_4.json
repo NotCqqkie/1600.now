@@ -1,0 +1,15 @@
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_4",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the condition for y-intercept",
+      "content": "The y-intercept is where the graph intersects the y-axis. At any point on the y-axis, the x-coordinate equals 0. Therefore, to find the y-intercept, we substitute $x = 0$ into the given equation."
+    },
+    {
+      "title": "Substitute and evaluate",
+      "content": "Substituting $x = 0$ into $y = x^2 + 27$:<br/><br/>$$y = 0^2 + 27$$<br/><br/>$$y = 0 + 27 = 27$$<br/><br/>The y-intercept occurs at the point $(0, 27)$, so the value of $y$ is 27."
+    }
+  ]
+}

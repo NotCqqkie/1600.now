@@ -1,0 +1,15 @@
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what type of evidence supports the claim",
+      "content": "The student asserts that escapes \u201cmay have significant negative long-term ecological effects.\u201d The evidence needed is a mechanism explaining how the transgenic trait could cause ecological harm\u2014a causal pathway from the escapes to ecological damage."
+    },
+    {
+      "title": "Match the mechanism to the choices",
+      "content": "D demonstrates a specific harm mechanism: through interbreeding, the fluorescence trait spreads to wild fish and makes them vulnerable to predators\u2014a direct pathway to ecological damage. The other choices either provide observation without explaining harm (A), suggest insufficient data (B), or show the problem is broader without a harm mechanism (C). D establishes the causal link the student's assertion requires. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

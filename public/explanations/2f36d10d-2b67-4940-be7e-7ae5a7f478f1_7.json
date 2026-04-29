@@ -1,0 +1,15 @@
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what makes hDNA distinctive",
+      "content": "The decisive signal is the phrase \u201coffers unique benefits, such as the ability to ascertain the biogeographical origins of organisms.\u201d The word \u201cunique\u201d directly indicates hDNA provides capabilities that other methods do not."
+    },
+    {
+      "title": "Match the unique benefits to the choices",
+      "content": "Choice D states hDNA \u201cmay yield insights that other types of genomic data cannot.\u201d This directly captures the passage's key claim that hDNA \u201coffers unique benefits.\u201d The other three choices either introduce unsupported comparisons (A), contradict the passage's explanation for underuse (B), or make unsupported generalizations (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

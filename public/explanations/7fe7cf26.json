@@ -1,0 +1,19 @@
+{
+  "questionId": "7fe7cf26",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the first graph's starting point and vertex",
+      "content": "The first graph shows a parabola opening downward. At $x = 0$, the height is 7 feet. The vertex (maximum height) is at approximately $(0.3, 8.3)$."
+    },
+    {
+      "title": "Determine the transformation for the second launch",
+      "content": "The second launch uses a platform that is 2 feet shorter: $7 - 2 = 5$ feet. The launch mechanism is identical, so the parabolic shape remains unchanged. The entire graph shifts vertically downward by 2 feet\u2014every $y$-coordinate decreases by 2."
+    },
+    {
+      "title": "Apply the downward shift to find the new vertex and key points",
+      "content": "Shifting each point on the first graph down by 2 feet:<br/><ul><li>New starting height: $7 - 2 = 5$ feet at $x = 0$</li><li>New vertex $y$-coordinate: $8.3 - 2 = 6.3$, so vertex is at $(0.3, 6.3)$</li><li>New height at $x \\approx 0.6$: $7 - 2 = 5$ feet</li></ul>This matches a parabola passing through $(0, 5)$, with vertex at $(0.3, 6.3)$, and passing through $(0.6, 5)$. That matches choice B\u2014<strong>B</strong> is correct."
+    }
+  ]
+}

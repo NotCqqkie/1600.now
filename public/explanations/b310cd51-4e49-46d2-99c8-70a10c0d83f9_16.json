@@ -1,0 +1,15 @@
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the distributive property",
+      "content": "Use the distributive property $$a(b+c)=ab+ac$$ to expand $$15(x+10)$$:<br/>$$15 \\cdot x + 15 \\cdot 10$$"
+    },
+    {
+      "title": "Simplify and select the matching choice",
+      "content": "Calculate $$15 \\cdot 10 = 150$$ to get $$15x+150$$.<br/>This matches choice B.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

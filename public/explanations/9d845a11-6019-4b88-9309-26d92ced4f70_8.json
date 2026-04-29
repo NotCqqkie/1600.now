@@ -1,0 +1,15 @@
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the greatest common factor",
+      "content": "The coefficients 30 and 42 share a common factor. Notice that $30 = 6 \\cdot 5$ and $42 = 6 \\cdot 7$, so their GCD is 6."
+    },
+    {
+      "title": "Factor and match to a choice",
+      "content": "Factor 6 from both terms of the original expression:$$30x + 42 = 6 \\cdot 5x + 6 \\cdot 7 = 6(5x + 7)$$That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract two points from the table",
+      "content": "From the table, we have the points $(0, n)$ and $(3, n + 14)$."
+    },
+    {
+      "title": "Calculate slope using the slope formula",
+      "content": "Slope is $$\\frac{\\Delta y}{\\Delta x} = \\frac{(n + 14) - n}{3 - 0} = \\frac{14}{3}$$. The constant $n$ cancels, leaving a clean ratio. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

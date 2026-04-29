@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key difference in model accuracy",
+      "content": "The graph shows P3's correlation values of 0.17 for abstract paintings and 0.30 for cubist paintings \u2014 a substantial difference. Correlation measures how well the model's predictions aligned with P3's actual ratings across each painting style. The different correlation values directly indicate that the model performed differently for the two styles."
+    },
+    {
+      "title": "Match the data to what the model predicted",
+      "content": "If P3 actually gave equal ratings to both abstract and cubist paintings, yet the model's predictions produced different levels of correlation for each style, the model <strong>must have predicted different ratings</strong> for the two styles. The differing correlations reveal that the model's predictions were not equal (as P3's actual ratings were), but rather diverged \u2014 making the model's predictions differ from P3's actual equal responses. The other choices either repeat P3's actual behavior rather than the model's prediction (B) or make an unwarranted directional claim (A and C). <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

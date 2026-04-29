@@ -1,0 +1,19 @@
+{
+  "questionId": "9d95e7ad",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize we need the slope of the line of best fit",
+      "content": "The phrase <em>increase in total fat for every increase of 1 gram in total protein</em> is asking for the slope of the line. When you move 1 unit right on the $x$-axis, how many units do you move up on the $y$-axis? That's the slope formula: $$\\text{slope} = \\frac{\\Delta y}{\\Delta x} = \\frac{\\text{rise}}{\\text{run}}$$"
+    },
+    {
+      "title": "Read two clear points on the line of best fit",
+      "content": "Looking at the line of best fit in the graph:<ul><li>At $x = 10$ grams protein, the line passes through approximately $y = 15$ grams fat</li><li>At $x = 50$ grams protein, the line passes through approximately $y = 75$ grams fat</li></ul>"
+    },
+    {
+      "title": "Calculate slope and identify the answer",
+      "content": "Using the two points $(10, 15)$ and $(50, 75)$: $$\\text{slope} = \\frac{75 - 15}{50 - 10} = \\frac{60}{40} = \\frac{3}{2} = 1.5$$ For every 1 gram increase in protein, total fat increases by 1.5 grams. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

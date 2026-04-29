@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "The left side is an independent clause with a prepositional phrase requiring an object (\u201crate of ______\u201d). The right side is a dependent temporal clause (\u201cas light intensity increases\u201d) paired with an independent clause (\u201cso does the rate...\u201d) that elaborates the first statement."
+    },
+    {
+      "title": "Apply the colon rule for elaboration",
+      "content": "A colon introduces an elaboration or specification of what precedes it; B correctly uses the colon to signal that the \u201cas... so...\u201d construction specifies how light intensity affects the reaction rate. The other choices either omit punctuation (A), misuse a connector (C), or use a comma (D) without clearly signaling elaboration. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

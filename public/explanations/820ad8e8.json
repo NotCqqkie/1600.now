@@ -1,0 +1,15 @@
+{
+  "questionId": "820ad8e8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify points from each game type",
+      "content": "A draw earns 1 point each, and the participant played $d$ games that ended in a draw. So draws contribute $1 \\cdot d = d$ points total.<br/>A win earns 3 points each, and the participant won $w$ games. So wins contribute $3 \\cdot w = 3w$ points total."
+    },
+    {
+      "title": "Combine to form the total points equation",
+      "content": "The participant earned 41 points total. This equals the points from draws plus points from wins:<br/><br/>$$d + 3w = 41$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

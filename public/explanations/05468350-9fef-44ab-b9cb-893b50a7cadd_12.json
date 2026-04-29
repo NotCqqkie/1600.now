@@ -1,0 +1,11 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute point (0, -8) to find B",
+      "content": "Since the line passes through $(0, -8)$, this point must satisfy $Ax + By = 9$. Substituting $x = 0$ and $y = -8$ eliminates the $A$ term:<br/>$$A(0) + B(-8) = 9$$<br/>$$-8B = 9$$<br/>$$B = -\\frac{9}{8}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

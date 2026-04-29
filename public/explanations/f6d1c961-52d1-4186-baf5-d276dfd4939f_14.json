@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The sentence opens with a participial phrase (\u201cWoven from recycled yarn and hand tufted...\u201d) describing something woven and tufted. After the blank comes an adjective phrase (\u201cso lush and tactilely inviting...\u201d). The blank must contain a subject noun and linking verb."
+    },
+    {
+      "title": "Apply the dangling modifier rule",
+      "content": "A participial phrase at the start of a sentence must immediately precede the noun it modifies, which becomes the subject. Choice A supplies \u201cthe topological tapestries are,\u201d correctly making the woven object the subject. The other three either make the artist the subject\u2014creating a dangling modifier (B, D)\u2014or fragment the sentence (C). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

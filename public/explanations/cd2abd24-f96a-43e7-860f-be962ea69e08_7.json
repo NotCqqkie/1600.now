@@ -1,0 +1,15 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 8 into the function",
+      "content": "$$f(8)=60 - 5(8)$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "$$60 - 5(8) = 60 - 40 = 20$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

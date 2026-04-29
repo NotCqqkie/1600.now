@@ -1,0 +1,19 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the hemisphere volume formula",
+      "content": "The volume of a sphere is $\\frac{4}{3}\\pi r^3$. Since a hemisphere is half of a sphere, we get: $$V = \\frac{1}{2} \\cdot \\frac{4}{3}\\pi r^3 = \\frac{2}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Substitute radius 70 and evaluate",
+      "content": "Substitute $r = 70$ inches into the formula: $$V = \\frac{2}{3}\\pi(70)^3$$ Calculate $70^3 = 70 \\times 70 \\times 70 = 4,900 \\times 70 = 343,000$. Then: $$V = \\frac{2}{3}\\pi(343,000) = \\frac{686,000}{3}\\pi$$ Simplifying the fraction: $\\frac{686,000}{3} \\approx 228,667$, so: $$V \\approx 228,667\\pi$$"
+    },
+    {
+      "title": "Multiply by \u03c0 and match to the answer choice",
+      "content": "Use the approximation $\\pi \\approx 3.14$: $$V \\approx 228,667 \\times 3.14 \\approx 718,000$$ The answer choice closest to 718,000 is 718,400. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

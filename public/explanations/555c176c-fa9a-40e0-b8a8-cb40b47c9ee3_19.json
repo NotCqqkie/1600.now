@@ -1,0 +1,1 @@
+{"questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_19", "correctAnswer": "4", "section": "Math", "steps": [{"title": "Substitute the function definition into g(x) = 12", "content": "Since $g(x) = 3x$, substituting into $g(x) = 12$ gives:\n$$3x = 12$$"}, {"title": "Divide both sides by 3 to solve for x", "content": "$$x = \\frac{12}{3} = 4$$"}]}

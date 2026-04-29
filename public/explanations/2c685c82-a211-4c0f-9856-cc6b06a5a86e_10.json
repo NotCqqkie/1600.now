@@ -1,0 +1,15 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_10",
+  "correctAnswer": "600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph at the start and end times",
+      "content": "At $x = 0$ minutes (when Maksim left the water fountain), the graph shows $y = 0$ meters. At $x = 10$ minutes, the graph shows $y = 600$ meters."
+    },
+    {
+      "title": "Find the distance walked as the change in total distance",
+      "content": "Distance walked = $y(10) - y(0) = 600 - 0 = 600$ meters. The answer is <strong>600</strong>."
+    }
+  ]
+}

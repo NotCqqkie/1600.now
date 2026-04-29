@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the length of the rectangle",
+      "content": "We're given that the width is 9 centimeters. The length is 50 centimeters longer than the width, so:<br/>$$\\text{Length} = 9 + 50 = 59 \\text{ cm}$$"
+    },
+    {
+      "title": "Calculate the area using the rectangle formula",
+      "content": "Area of a rectangle is width times length:<br/>$$\\text{Area} = 9 \\times 59$$<br/>$$= 9 \\times (60 - 1) = 540 - 9 = 531 \\text{ square centimeters}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding sides and scale factor",
+      "content": "Triangles QPR and STR share vertex R, so the correspondence is Q \u2194 S, P \u2194 T, R \u2194 R. Hence side QP corresponds to ST, PR corresponds to TR, and QR corresponds to SR. The scale factor from \u0394QPR to \u0394STR is $$\\frac{ST}{QP} = \\frac{6}{16} = \\frac{3}{8}$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute SR using the scale factor",
+      "content": "Apply the scale factor to side QR: $$SR = k \\cdot QR = \\frac{3}{8} \\times 34 = \\frac{102}{8} = \\frac{204}{16}$$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

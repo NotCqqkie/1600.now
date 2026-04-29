@@ -1,0 +1,15 @@
+{
+  "questionId": "cd4b1a7e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure",
+      "content": "The sentence contains a complete subject (<em>Nery and her colleagues</em>), a time marker (<em>In January 2023</em>), and a direct object (<em>a study showing changes</em>...). The blank must hold the main verb of this independent clause."
+    },
+    {
+      "title": "Apply the finite verb requirement",
+      "content": "An independent clause requires a finite main verb matching the tense context. <em>Published</em> is a finite past-tense verb that completes the clause. <em>Publishing</em>, <em>having published</em>, and <em>to publish</em> cannot serve as main verbs\u2014they need helping verbs or other structures to work in this position. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_14",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate percentages into equations",
+      "content": "Start by converting the given percentages into mathematical expressions. <br/><br/> 44% of $ h $ equals 62% of $ j $: $$0.44h = 0.62j$$<br/> $ j $ is equivalent to 22% of $ k $: $$j = 0.22k$$"
+    },
+    {
+      "title": "Substitute $ j $ into the first equation",
+      "content": "Replace $ j $ in the first equation with $ 0.22k $: $$0.44h = 0.62 \\cdot 0.22k$$ Simplify the right-hand side: $$0.62 \\cdot 0.22 = 0.1364$$ So, $$0.44h = 0.1364k$$"
+    },
+    {
+      "title": "Solve for $ h $ in terms of $ k $",
+      "content": "Divide both sides of the equation by 0.44 to isolate $ h $: $$h = \frac{0.1364}{0.44}k$$ Calculate the division: $$0.1364 \\div 0.44 = 0.31$$ Therefore, $$h = 0.31k$$ To express this as a percentage of $ k $, multiply by 100: $$0.31 \times 100 = 31\\%$$ That matches the derived value, choice <strong>B</strong> is correct.",
+      "formula": "$$\\frac{\\text{percentage of } k}{100} = \\frac{h}{k}$$"
+    }
+  ]
+}

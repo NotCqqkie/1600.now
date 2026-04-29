@@ -1,0 +1,11 @@
+{
+  "questionId": "b5c43226",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept from the graph",
+      "content": "The <em>y</em>-intercept is the point where the curve crosses the <em>y</em>-axis, which occurs at $x = 0$. Reading directly from the graph at $x = 0$, the curve passes through the point $(0, 2)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

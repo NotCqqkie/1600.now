@@ -8,6 +8,7 @@ import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { getAuthReturnTo } from "@/components/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
+import { describeAuthError } from "@/lib/authErrors";
 import { Loader2, CheckCircle } from "lucide-react";
 
 const GoogleIcon = () => (
@@ -32,18 +33,28 @@ const Signup = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    if (!authLoading && user) navigate(getAuthReturnTo(), { replace: true });
+    if (authLoading || !user) return;
+    if (!user.emailVerified) navigate("/verify-email", { replace: true });
+    else {
+      sessionStorage.setItem("onboarding-pending", "1");
+      navigate(getAuthReturnTo(), { replace: true });
+    }
   }, [user, authLoading, navigate]);
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      await signUpWithEmailPassword(email, password);
-      toast({ title: "Account created!", description: "Your account is ready." });
-      navigate(getAuthReturnTo(), { replace: true });
-    } catch (error: any) {
-      toast({ variant: "destructive", title: "Error creating account", description: error.message });
+      const { requiresVerification } = await signUpWithEmailPassword(email, password);
+      if (requiresVerification) {
+        navigate("/verify-email", { replace: true });
+      } else {
+        sessionStorage.setItem("onboarding-pending", "1");
+        navigate(getAuthReturnTo(), { replace: true });
+      }
+    } catch (error: unknown) {
+      const friendly = describeAuthError(error, "signup");
+      toast({ variant: "destructive", title: friendly.title, description: friendly.description });
     } finally {
       setIsSubmitting(false);
     }
@@ -52,94 +63,78 @@ const Signup = () => {
   const handleGoogleLogin = async () => {
     try {
       await signInWithGoogle();
+      sessionStorage.setItem("onboarding-pending", "1");
       navigate(getAuthReturnTo(), { replace: true });
-    } catch (error: any) {
-      toast({ variant: "destructive", title: "Error signing up with Google", description: error.message });
+    } catch (error: unknown) {
+      const friendly = describeAuthError(error, "signup");
+      toast({ variant: "destructive", title: friendly.title, description: friendly.description });
     }
   };
 
   return (
-    <div className="min-h-screen flex">
-      {/* ── Left brand panel ── */}
-      <div
-        className="hidden lg:flex lg:flex-col lg:w-[46%] relative overflow-hidden"
-        style={{
-          background: "linear-gradient(155deg, hsl(226,42%,7%) 0%, hsl(220,38%,10%) 55%, hsl(214,34%,13%) 100%)",
-        }}
-      >
+    <div className="min-h-screen flex bg-background">
+      {/* ── Left brand panel (theme-aware) ── */}
+      <div className="hidden lg:flex lg:flex-col lg:w-[44%] relative overflow-hidden border-r border-border bg-muted/30 dark:bg-[hsl(226,42%,7%)]">
+        {/* Subtle grid */}
         <div
-          className="absolute inset-0 pointer-events-none"
+          className="absolute inset-0 pointer-events-none opacity-60 dark:opacity-100"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.022) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.022) 1px, transparent 1px)",
-            backgroundSize: "52px 52px",
+              "linear-gradient(hsl(var(--border) / 0.55) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--border) / 0.55) 1px, transparent 1px)",
+            backgroundSize: "48px 48px",
+            maskImage: "radial-gradient(ellipse at 30% 30%, black 40%, transparent 75%)",
+            WebkitMaskImage: "radial-gradient(ellipse at 30% 30%, black 40%, transparent 75%)",
           }}
         />
+        {/* Accent glow */}
         <div
           className="absolute pointer-events-none"
           style={{
-            top: "-10%", left: "30%", transform: "translateX(-50%)",
-            width: 600, height: 400, borderRadius: "50%",
-            background: "radial-gradient(ellipse, rgba(125,211,252,0.12) 0%, transparent 68%)",
+            top: "-8%", left: "20%",
+            width: 520, height: 380, borderRadius: "50%",
+            background: "radial-gradient(ellipse, hsl(var(--primary) / 0.18) 0%, transparent 70%)",
           }}
         />
 
-        <div className="relative flex flex-col h-full px-12 py-10">
-          <BrandLogo variant="mark" className="h-10 w-10" />
+        <div className="relative flex flex-col h-full px-10 py-9">
+          <BrandLogo variant="mark" className="h-9 w-9" />
 
-          <div className="flex-1 flex flex-col justify-center">
+          <div className="flex-1 flex flex-col justify-center max-w-md">
             <h1
+              className="text-foreground"
               style={{
                 fontFamily: "'Instrument Serif', Georgia, serif",
-                fontSize: "clamp(40px, 3.8vw, 56px)",
-                lineHeight: 0.96,
-                color: "hsl(210,40%,98%)",
-                marginBottom: 20,
+                fontSize: "clamp(36px, 3.4vw, 50px)",
+                lineHeight: 1.0,
+                marginBottom: 16,
                 letterSpacing: "-0.025em",
               }}
             >
-              Start your
-              <br />
-              <em style={{ fontStyle: "italic", color: "hsl(201,100%,80%)" }}>
+              Start your{" "}
+              <em className="text-primary" style={{ fontStyle: "italic" }}>
                 free account.
               </em>
             </h1>
-            <p
-              style={{
-                fontSize: 15,
-                color: "rgba(255,255,255,0.46)",
-                lineHeight: 1.65,
-                fontWeight: 300,
-                marginBottom: 40,
-                maxWidth: 320,
-              }}
-            >
-              A free account unlocks progress tracking and question history.
+            <p className="text-muted-foreground text-[14px] leading-relaxed mb-7 max-w-sm">
+              Unlock progress tracking, question history, vocab review, and full-length practice tests — all free.
             </p>
 
-            <div className="space-y-3">
+            <div className="space-y-2.5">
               {perks.map((perk) => (
-                <div key={perk} className="flex items-start gap-3">
-                  <CheckCircle
-                    className="shrink-0 mt-0.5"
-                    style={{ width: 16, height: 16, color: "hsl(201,100%,80%)" }}
-                  />
-                  <span style={{ fontSize: 14, color: "rgba(255,255,255,0.65)", fontWeight: 400 }}>
-                    {perk}
-                  </span>
+                <div key={perk} className="flex items-start gap-2.5">
+                  <CheckCircle className="shrink-0 mt-0.5 h-4 w-4 text-primary" />
+                  <span className="text-[13.5px] text-foreground/75">{perk}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.22)" }}>
-            © 2026 1600.now
-          </p>
+          <p className="text-xs text-muted-foreground/70">© 2026 1600.now</p>
         </div>
       </div>
 
       {/* ── Right form panel ── */}
-      <div className="flex-1 flex flex-col items-center justify-center px-6 py-12 bg-background">
+      <div className="flex-1 flex flex-col items-center justify-center px-6 py-10 bg-background">
         <div className="w-full max-w-sm">
           <div className="mb-8">
             <h2

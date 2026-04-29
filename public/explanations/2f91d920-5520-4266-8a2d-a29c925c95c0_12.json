@@ -1,0 +1,15 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the graph as the mass constraint equation",
+      "content": "The line represents all valid combinations of M-type and K-type stars. Let $m$ = mass of each M-type star and $k$ = mass of each K-type star. The total mass constraint is:<br/>$$mx + ky = 132,778$$<br/>Reading from the graph: x-intercept at $(160, 0)$ and y-intercept at $(0, 140)$."
+    },
+    {
+      "title": "Find the mass per M-type star using the x-intercept",
+      "content": "At the x-intercept, all 132,778 quettagrams comes from M-type stars only (since $y = 0$):<br/>$$m(160) + k(0) = 132,778$$<br/>$$160m = 132,778$$<br/>$$m = \\frac{132,778}{160} = 829.8625$$<br/>The closest value is 828. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

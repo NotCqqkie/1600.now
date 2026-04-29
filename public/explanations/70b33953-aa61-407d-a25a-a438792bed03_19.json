@@ -1,0 +1,15 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2 into the function",
+      "content": "We're given $k(x) = x^3 + 50$ and need to find $k(2)$. Substitute $x = 2$:<br/>$$k(2) = 2^3 + 50$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "First, calculate $2^3 = 8$. Then add 50:<br/>$$k(2) = 8 + 50 = 58$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b82a943c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "Starting with $7x = 28$, divide both sides by 7:<br/>$$x = \\frac{28}{7} = 4$$"
+    },
+    {
+      "title": "Calculate 8x",
+      "content": "We now know $x = 4$, so:<br/>$$8x = 8(4) = 32$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

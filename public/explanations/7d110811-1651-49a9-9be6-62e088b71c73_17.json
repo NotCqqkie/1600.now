@@ -1,0 +1,15 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find angle L in radians",
+      "content": "Angle K measures $\\frac{\\pi}{32}$ radians. Since angle L is 16 times angle K:<br/>$$L = 16K = 16 \\cdot \\frac{\\pi}{32} = \\frac{16\\pi}{32} = \\frac{\\pi}{2} \\text{ radians}$$"
+    },
+    {
+      "title": "Convert \u03c0/2 radians to degrees",
+      "content": "Use the conversion factor: $\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$<br/>$$L = \\frac{\\pi}{2} \\times \\frac{180}{\\pi} = \\frac{180}{2} = 90\u00b0$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "de2c2f57",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the explanation proposal and its challenge",
+      "content": "Text 1 proposes Miller & Simpson's explanation for why DNA appears thousands of years after extinction: arctic surface preservation could allow mammoths' remains to leach DNA over millennia. Text 2 identifies the critical flaw: scavengers and weathering would destroy surface remains far too quickly for this scenario to work."
+    },
+    {
+      "title": "Match to the relationship between texts",
+      "content": "B correctly identifies the relationship: Text 1 presents findings and proposes an explanation (Miller & Simpson's preservation hypothesis), while Text 2 provides details (weathering and scavengers) that undermine it. The other three mischaracterize what's occurring\u2014treating the explanation as methodology critique (C), as a study approach (A), or as the basis for reconciliation (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

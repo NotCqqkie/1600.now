@@ -1,0 +1,15 @@
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the participial phrase requirement",
+      "content": "An introductory participial phrase like \u201cfinding that administrative unit GK13 had a 0.62 ratio of native to non-native trees\u201d must be followed by a complete independent clause with a finite main verb."
+    },
+    {
+      "title": "Choose the finite verb",
+      "content": "\u201dRecommended\u201d is a finite verb and correctly forms the main clause: \u201cThe researchers recommended efforts to improve the biodiversity...\u201d The others are non-finite verb forms (participles and infinitive) that cannot serve as main verbs. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

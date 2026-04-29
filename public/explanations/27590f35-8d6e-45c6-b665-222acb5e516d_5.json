@@ -1,0 +1,15 @@
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the graph's coordinate system",
+      "content": "The x-axis represents years after the 2000 census, and the y-axis represents population in thousands. We need to find the population when $x = 2$ (which means 2 years after 2000). Since $y$ is measured in thousands, we'll multiply the graph reading by 1,000 to get the actual population count."
+    },
+    {
+      "title": "Read the population value at x = 2",
+      "content": "Locate $x = 2$ on the horizontal axis and trace vertically up to the curve. The curve shows $y \\approx 4.3$ thousand. Converting to actual population: $4.3 \\times 1,000 = 4,300$ people. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

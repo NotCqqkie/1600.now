@@ -1,0 +1,19 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides to standard form",
+      "content": "<strong>Left side:</strong> $a(7x - 14) + 5a = 7ax - 14a + 5a = 7ax - 9a$<br/><strong>Right side:</strong> $7(ax - 2a) - 35 = 7ax - 14a - 35$<br/><br/>The equation is now: $$7ax - 9a = 7ax - 14a - 35$$"
+    },
+    {
+      "title": "Set condition for infinitely many solutions",
+      "content": "For an equation in $x$ to have infinitely many solutions, it must be an identity \u2014 the same expression on both sides. The coefficients of $x$ already match ($7a = 7a$), so the constant terms must be equal:<br/><br/>$$-9a = -14a - 35$$"
+    },
+    {
+      "title": "Solve for the constant a",
+      "content": "Add $14a$ to both sides:<br/>$$-9a + 14a = -35$$<br/>$$5a = -35$$<br/>$$a = -7$$<br/><br/>Verification: when $a = -7$, both sides simplify to $-49x + 63$, confirming the identity. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

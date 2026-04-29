@@ -1,0 +1,15 @@
+{
+  "questionId": "253985c2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify which terms can be combined",
+      "content": "Look at $6x + 5x + 4y$. The terms $6x$ and $5x$ both contain the variable $x$ with the same power (the first power), making them like terms. The term $4y$ contains a different variable and therefore cannot be combined with the $x$ terms."
+    },
+    {
+      "title": "Combine the like terms",
+      "content": "Add the coefficients of the like terms:<br/>$$6x + 5x = (6 + 5)x = 11x$$<br/>The complete simplified expression is $11x + 4y$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

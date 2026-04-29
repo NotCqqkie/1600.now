@@ -1,0 +1,15 @@
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal claim",
+      "content": "The student concludes that variations in the IGF-1 gene <em>\u201cmust account for\u201d</em> the size differences\u2014implying this single gene is the sole explanation."
+    },
+    {
+      "title": "Find what undermines the conclusion",
+      "content": "Choice A directly contradicts this by identifying the IGF-1 gene as <em>\u201cone of multiple genes\u201d</em> that affect size; if other genes also contribute, one gene alone cannot account for all the variance. <br/><br/>B shifts to generalizability across species (irrelevant to dogs), C affirms the gene's importance (supporting rather than undermining), and D discusses variant prevalence rather than explanatory power. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

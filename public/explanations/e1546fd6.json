@@ -1,0 +1,15 @@
+{
+  "questionId": "e1546fd6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the hypothesis requires",
+      "content": "The scientists believe lava dislodged deep nitrate and released it upward. The completing evidence must show elevated nitrate near the surface in the lava-affected area, demonstrating this upwelling mechanism."
+    },
+    {
+      "title": "Verify the data supports upwelling",
+      "content": "Choice B directly provides this evidence: nitrate concentrations were substantially higher in the lava-affected area than outside it at both 5\u201345 and 75\u2013125 meters deep. This shows the lava disrupted deep nutrient sources and brought nitrate to shallower depths where diatoms thrive. Choices A, C, and D either address the wrong nutrients, skip the affected vs. unaffected comparison, or describe baseline conditions. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

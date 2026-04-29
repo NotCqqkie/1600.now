@@ -1,0 +1,15 @@
+{
+  "questionId": "d0e614a6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for y in terms of x",
+      "content": "Starting with $\\frac{3}{5}x + \\frac{3}{4}y = 7$, isolate $y$:<br/><br/>$$\\frac{3}{4}y = 7 - \\frac{3}{5}x$$<br/><br/>$$y = \\frac{4}{3}\\left(7 - \\frac{3}{5}x\\right)$$<br/><br/>$$y = \\frac{28}{3} - \\frac{4}{5}x$$"
+    },
+    {
+      "title": "Test x = 1 to find the matching table",
+      "content": "Substitute $x = 1$ into the equation:<br/><br/>$$y = \\frac{28}{3} - \\frac{4}{5}$$<br/><br/>Find a common denominator of 15:<br/><br/>$$y = \\frac{140}{15} - \\frac{12}{15} = \\frac{128}{15}$$<br/><br/>Only choice D shows $y = \\frac{128}{15}$ when $x = 1$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

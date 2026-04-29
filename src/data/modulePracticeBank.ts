@@ -263,7 +263,7 @@ const synthesizeBankQuestion = (
     rationale: rawQuestion.rationale ?? null,
     questionImages: rawQuestion.images?.map((img) => ({ src: img.src, alt: img.alt ?? "" })),
     difficulty,
-    active: true,
+    inPracticeTests: true,
     category,
   };
 };

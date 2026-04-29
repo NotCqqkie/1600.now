@@ -1,0 +1,15 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand margin of error",
+      "content": "When we estimate a population mean from sample data, the margin of error tells us how far the estimate might be from the true value. The confidence interval (range of plausible values) extends from:<br/><br/>Lower bound = Sample mean \u2212 Margin of error<br/>Upper bound = Sample mean + Margin of error"
+    },
+    {
+      "title": "Calculate the confidence interval boundaries",
+      "content": "Using the given information:<ul><li>Sample mean = 28.88 ounces</li><li>Margin of error = 0.13 ounce</li></ul><br/>Lower bound: $28.88 - 0.13 = 28.75$ ounces<br/>Upper bound: $28.88 + 0.13 = 29.01$ ounces<br/><br/>The plausible values for the average weight of all bags range from 28.75 to 29.01 ounces. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

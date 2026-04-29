@@ -1,0 +1,15 @@
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the meaning of at least 190 signatures",
+      "content": "When the problem states the student needs <em>at least 190 signatures</em>, this establishes a minimum requirement. Mathematically, <em>at least</em> means the total must be greater than or equal to 190: $$\\text{total signatures} \\geq 190$$"
+    },
+    {
+      "title": "Set up the inequality with Monday and Tuesday signatures",
+      "content": "The student collects 30 signatures on Monday and $s$ additional signatures on Tuesday. The total is $30 + s$. Substituting into our constraint: $$30 + s \\geq 190$$ This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

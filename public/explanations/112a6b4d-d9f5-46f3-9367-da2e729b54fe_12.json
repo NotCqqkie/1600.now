@@ -1,0 +1,15 @@
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the signal that validates the planner's conclusion",
+      "content": "The planner recommends emphasizing medicinal plants to the general public. For this to make sense, medicinal plants must rank as the service the general public values highest (lowest number on the scale)."
+    },
+    {
+      "title": "Find which service ranks best for the general public",
+      "content": "Checking the general public column: medicinal plants = 5, pollination = 12, carbon sequestration = 21, cultural knowledge = 13, soil erosion = 23. Medicinal plants has the best (lowest) ranking. Answer B states exactly this\u2014medicinal plants was ranked higher for the general public than the other four services\u2014directly explaining why the planner targets it in advertising to that audience. The other choices either misstate the data (A and C contradict what the table shows) or focus on a different service (D, about pollination).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

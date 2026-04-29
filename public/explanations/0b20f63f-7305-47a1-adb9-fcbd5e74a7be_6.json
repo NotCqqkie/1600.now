@@ -1,0 +1,15 @@
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the angle sum equation using the isosceles condition",
+      "content": "In any triangle, the three angles sum to 180\u00b0. Since \u2220J = \u2220K, let both equal $x$. Then:<br/><br/>$$x + x + 136\u00b0 = 180\u00b0$$<br/><br/>$$2x + 136\u00b0 = 180\u00b0$$"
+    },
+    {
+      "title": "Solve for the measure of \u2220J",
+      "content": "Subtract 136\u00b0 from both sides:<br/><br/>$$2x = 44\u00b0$$<br/><br/>$$x = 22\u00b0$$<br/><br/>Since \u2220J = $x$, the measure of \u2220J is 22\u00b0. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

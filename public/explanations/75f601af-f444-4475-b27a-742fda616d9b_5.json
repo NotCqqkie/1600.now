@@ -1,0 +1,15 @@
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key structural signal",
+      "content": "The phrase <strong>for instance</strong> at the start of the second sentence is the decisive clue. It explicitly marks the transition from a broad statement to a concrete example that illustrates it."
+    },
+    {
+      "title": "Apply the pattern to the choices",
+      "content": "The first sentence establishes a general trend: high-speed rail systems are expanding in many countries. The second sentence then provides a specific example of this trend through Denmark's data. Choices A, B, and C each describe different structures that aren't present: rejecting a belief, questioning with alternatives, or challenging an argument rather than simply illustrating it. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

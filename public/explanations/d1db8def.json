@@ -1,0 +1,15 @@
+{
+  "questionId": "d1db8def",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relevant rows in the table",
+      "content": "The question asks for people who responded either <em>never</em> or <em>almost never</em>. Looking at the table:<ul><li>Row <em>Never</em>: frequency = 29</li><li>Row <em>Almost never</em>: frequency = 53</li></ul>"
+    },
+    {
+      "title": "Add the two frequencies",
+      "content": "$$29 + 53 = 82$$That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

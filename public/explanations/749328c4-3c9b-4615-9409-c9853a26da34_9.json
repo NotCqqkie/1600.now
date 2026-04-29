@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the relationship signal",
+      "content": "The passage's final sentence directly establishes how Kenny and Lysyanskaya are connected: <em>\u201cKenny and others like her helped make it possible for more women\u2014such as Anna Lysyanskaya, who currently works in and teaches digital cryptography\u2014to enter the field of cryptology.\u201d</em> Kenny is positioned as an early contributor, and Lysyanskaya as a current participant in the same field."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "Choice D captures the core relationship: Kenny's earlier contributions enabled Lysyanskaya's entry into the field.<br/>The other options introduce elements the passage doesn't support\u2014direct instruction (A), simultaneous careers (B), or an institutional connection (C).<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

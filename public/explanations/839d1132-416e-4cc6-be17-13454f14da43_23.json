@@ -1,0 +1,15 @@
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sequential structure",
+      "content": "The passage describes trophic levels in ascending order: base \u2192 second level \u2192 third level \u2192 blank \u2192 fourth level. The phrase \u201cthen omnivores and carnivores at the third\u201d signals a continuing sequence through the pyramid's layers. The blank must introduce the final, highest level of this progression."
+    },
+    {
+      "title": "Match the progression to the correct transition",
+      "content": "\u201dFinally\u201d marks the endpoint of a sequence\u2014exactly what's needed here. After covering the base, second, and third trophic levels in order, the text arrives at the fourth and \u201chighest\u201d level, making this the natural conclusion to the ascending list. <br/><br/>The other three contradict this progression: \u201cIn fact\u201d emphasizes or confirms an existing point rather than advancing through stages; \u201cBesides\u201d adds something separate or incidental, not the next item in an ordered list; \u201cFor example\u201d introduces a specific case or illustration, not the culminating level. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

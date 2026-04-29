@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The phrase \u201cthat few authors would turn down\u201d is a relative clause immediately following the noun \u201caward\u201d. It modifies \u201caward\u201d directly."
+    },
+    {
+      "title": "Apply the relative clause punctuation rule",
+      "content": "A relative clause introduced by \u201cthat\u201d attaches directly to its noun without intervening punctuation. Choices A (colon), C (comma), and D (semicolon) all insert punctuation between the noun and its modifier. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

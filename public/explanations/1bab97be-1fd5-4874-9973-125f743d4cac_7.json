@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the key conclusion",
+      "content": "The passage states: <em>\u201cgreater proximity alone can't explain the difference in park use.\u201d</em> This explicit statement directly answers what point the text makes about the difference in park usage between the two cities."
+    },
+    {
+      "title": "Match the conclusion to the choices",
+      "content": "The difference must be caused by something other than proximity \u2014 which is what choice D says. Choices A, B, and C introduce unsupported claims about researcher expectations, historical sources, or data inaccuracy. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

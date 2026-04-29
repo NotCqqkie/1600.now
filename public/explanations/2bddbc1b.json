@@ -1,0 +1,16 @@
+{
+  "questionId": "2bddbc1b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sides relative to angle A",
+      "content": "Angle A is at the bottom left corner. The side adjacent to angle A is $AC = 41$. The hypotenuse (opposite the right angle at C) is $AB = 42$.",
+      "formula": "$$\\cos A = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"
+    },
+    {
+      "title": "Calculate cos A",
+      "content": "Substitute the adjacent side and hypotenuse: $$\\cos A = \\frac{41}{42}$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

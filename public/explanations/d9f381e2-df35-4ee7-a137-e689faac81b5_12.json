@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the experimental logic",
+      "content": "If CO2 were truly an additional cue to midges, the trap with calls + CO2 would attract significantly more midges than the calls-only trap. The conclusion that CO2 is not a cue requires evidence that adding CO2 makes no difference\u2014or actually reduces attraction."
+    },
+    {
+      "title": "Find the result that proves CO2 is irrelevant",
+      "content": "Choice C shows more midges in the calls-only trap than in the calls + CO2 trap. This proves that CO2 does not enhance midge attraction and therefore is not serving as an additional cue, directly supporting the conclusion. Choices A, B, and D all suggest CO2 either increases attraction (A, D) or serves as a signal the midges actively respond to (B). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

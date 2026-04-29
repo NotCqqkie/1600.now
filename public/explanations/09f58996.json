@@ -1,0 +1,15 @@
+{
+  "questionId": "09f58996",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x equals 36 into the function",
+      "content": "We need to find $f(36)$ where $f(x) = 6 + \\sqrt{x}$. Substituting $x = 36$:<br/>$$f(36) = 6 + \\sqrt{36}$$"
+    },
+    {
+      "title": "Evaluate the square root and add",
+      "content": "We know that $\\sqrt{36} = 6$. Therefore:<br/>$$f(36) = 6 + 6 = 12$$"
+    }
+  ]
+}

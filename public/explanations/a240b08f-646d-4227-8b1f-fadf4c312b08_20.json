@@ -1,0 +1,15 @@
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand percent increase",
+      "content": "When mass increases by 676%, the new mass is the original mass plus 676% of the original mass. This means the new mass is (100% + 676%) = 776% of the original."
+    },
+    {
+      "title": "Convert to decimal and solve",
+      "content": "Convert 776% to a decimal multiplier: 776% = 7.76. Therefore, the new mass is:<br/>$$\\text{New mass} = 7.76k$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

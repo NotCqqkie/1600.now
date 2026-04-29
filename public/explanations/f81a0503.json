@@ -1,0 +1,15 @@
+{
+  "questionId": "f81a0503",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the two points",
+      "content": "Using the slope formula with points $(0, -5)$ and $(1, -1)$:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-1 - (-5)}{1 - 0} = \\frac{4}{1} = 4$$"
+    },
+    {
+      "title": "Write the equation in slope-intercept form",
+      "content": "Since the line passes through $(0, -5)$, the y-intercept is $b = -5$. With slope $m = 4$, the equation is:<br/>$$y = 4x - 5$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

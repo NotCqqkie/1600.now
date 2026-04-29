@@ -1,0 +1,15 @@
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the two-part requirement",
+      "content": "The student claims that congestion worsened in both a large city (Philadelphia) and smaller areas (Albany), with smaller areas remaining less affected throughout. Supporting data must prove both the rising trend in the smaller area AND that it consistently stayed lower than the large city."
+    },
+    {
+      "title": "Apply both conditions to the choices",
+      "content": "D delivers both: Albany's annual delay was always lower than Philadelphia's for each year from 1990 to 2000, and both areas' delays rose during the period. A falsely reverses the comparison; B overstates Philadelphia's 1992 figure as above 30; C only notes that one area dipped below 20 hours at one point, ignoring the rising-congestion claim. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

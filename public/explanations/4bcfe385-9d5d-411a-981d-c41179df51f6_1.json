@@ -1,0 +1,18 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -3",
+      "content": "Substitute x = -3 into g(x) = -8x + 60:<br/>$$g(-3) = -8(-3) + 60$$<br/>$$-8(-3) = 24$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Complete the calculation",
+      "content": "Add 60 to the product:<br/>$$24 + 60 = 84$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

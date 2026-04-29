@@ -1,0 +1,15 @@
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret zeros graphically",
+      "content": "Finding $f(x) = 0$ means locating where the curve intersects the x-axis. We count the x-intercepts."
+    },
+    {
+      "title": "Count the x-intercepts from the graph",
+      "content": "Scanning the cubic curve from left to right:<br/><ul><li>First intercept: near $x = -2$, the curve crosses from below to above the x-axis</li><li>Second intercept: near $x = 1$, the curve crosses from above to below the x-axis</li><li>Third intercept: near $x = 3$, the curve crosses from below to above the x-axis</li></ul>The cubic function crosses the x-axis exactly three times. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

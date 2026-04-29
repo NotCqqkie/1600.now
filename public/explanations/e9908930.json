@@ -1,0 +1,15 @@
+{
+  "questionId": "e9908930",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of f(x)",
+      "content": "Using two points from the table, $(-4, 0)$ and $\\left(-\\frac{19}{5}, 1\\right)$:<br/>$$m = \\frac{1 - 0}{-\\frac{19}{5} - (-4)} = \\frac{1}{\\frac{1}{5}} = 5$$"
+    },
+    {
+      "title": "Find f(x) and apply h(x) = f(x) - 13",
+      "content": "With slope 5 and point $(-4, 0)$: $0 = 5(-4) + b$ gives $b = 20$, so $f(x) = 5x + 20$.<br/>Therefore: $$h(x) = f(x) - 13 = (5x + 20) - 13 = 5x + 7$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

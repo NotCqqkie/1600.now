@@ -1,0 +1,15 @@
+{
+  "questionId": "42f8e4b4",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the GCF and identify where the factor comes from",
+      "content": "The expression $2x^3 + 42x^2 + 208x$ has a greatest common factor of $2x$. Factoring it out:$$2x^3 + 42x^2 + 208x = 2x(x^2 + 21x + 104)$$Since $b > 0$, the factor $(x + b)$ cannot come from $x$. Therefore, $(x + b)$ must be a factor of the quadratic $x^2 + 21x + 104$."
+    },
+    {
+      "title": "Find the roots of the quadratic to determine the possible values of $b$",
+      "content": "To find the factors of $x^2 + 21x + 104$, I'll find its roots using the quadratic formula. The discriminant is $21^2 - 4(104) = 441 - 416 = 25$, so:$$x = \\frac{-21 \\pm 5}{2}$$This gives roots $x = -8$ and $x = -13$, so:$$x^2 + 21x + 104 = (x + 8)(x + 13)$$<br/>The factors of the form $(x + b)$ with positive $b$ are $(x + 8)$ and $(x + 13)$, which means $b = 8$ or $b = 13$. The smallest possible value is <strong>$b = 8$</strong>."
+    }
+  ]
+}

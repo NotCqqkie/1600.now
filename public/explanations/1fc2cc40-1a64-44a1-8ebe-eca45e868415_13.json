@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by y",
+      "content": "Starting with $b - 19 = \\frac{x}{y}$, multiply both sides by $y$ to eliminate the fraction:<br/><br/>$$y(b - 19) = x$$"
+    },
+    {
+      "title": "Expand using the distributive property",
+      "content": "Distribute $y$ across the terms:<br/><br/>$$x = by - 19y$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

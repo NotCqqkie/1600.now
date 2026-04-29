@@ -1,0 +1,15 @@
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Left of blank: independent clause ending with \u201c...in Kyoto.\u201d Right of blank: dependent clause (\u201cwhen brothers Andre and Edouard Michelin created the guide in 1900\u201d) followed by an independent clause (\u201cit was little more than a marketing gimmick\u2014a way to increase profits...\u201d)."
+    },
+    {
+      "title": "Apply the semicolon-conjunctive adverb rule",
+      "content": "A semicolon separates two independent clauses, with a conjunctive adverb like \u201chowever\u201d (followed by a comma) showing the contrast between them. \u201cKyoto; however,\u201d correctly ends the first clause and introduces the second statement\u2014which contains a dependent temporal clause followed by its main independent clause. Choices B and D lack the contrast word \u201chowever,\u201d while C places \u201chowever,\u201d after a comma instead of the required semicolon. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

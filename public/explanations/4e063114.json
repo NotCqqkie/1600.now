@@ -1,0 +1,15 @@
+{
+  "questionId": "4e063114",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated goal",
+      "content": "The student wants to define what \u201cgeoreferencing\u201d means \u2014 to explain what the term refers to and what it accomplishes."
+    },
+    {
+      "title": "Match the definition to the choices",
+      "content": "D provides exactly that: Georeferencing is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location. This explains both what the process is (assigning coordinates) and why it matters (enabling placement in real-world location). The other three all mention georeferencing but never explain what it actually is. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up equations from the geometry",
+      "content": "For a right rectangular prism with a square base, let $s$ = side of the square base and $h$ = height. <br/><br/> The volume is the base area times height: $$s^2 h = 539$$ <br/> Each of the four lateral faces is a rectangle with dimensions $s \\times h$, so each face has area: $$s h = 77$$"
+    },
+    {
+      "title": "Divide the equations to find s",
+      "content": "Divide the volume equation by the lateral face equation: $$\\frac{s^2 h}{s h} = \\frac{539}{77}$$ <br/> The variables $s$ and $h$ cancel on the left, leaving: $$s = \\frac{539}{77} = 7$$"
+    },
+    {
+      "title": "Substitute to find the height",
+      "content": "Now substitute $s = 7$ into the lateral face equation $s h = 77$: $$7h = 77$$ <br/> Divide both sides by 7: $$h = 11$$ <br/> That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

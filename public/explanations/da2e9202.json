@@ -1,0 +1,15 @@
+{
+  "questionId": "da2e9202",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the 16x term by subtracting 30",
+      "content": "The given equation is:<br/>$$16x + 30 = 190$$<br/>All answer choices have the form $16x = c$, so we need to isolate $16x$ by subtracting 30 from both sides."
+    },
+    {
+      "title": "Compute the result",
+      "content": "Subtracting 30 from both sides:<br/>$$16x = 190 - 30$$<br/>$$16x = 160$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key constraint",
+      "content": "The passage establishes that no source before 1155 includes references to the Round Table, but both the Roman de Brut (from 1155) and Malory's 15th-century compilation do. This creates a temporal boundary: the Round Table concept entered documented Arthurian tradition no earlier than 1155."
+    },
+    {
+      "title": "Match the constraint to the choices",
+      "content": "Choice A correctly applies this constraint\u2014since Annales Cambriae (written around 970) predates 1155 and therefore contained no Round Table references, Malory could not have sourced his Round Table account from it. The other three choices either make unsupported claims about content similarity and historical accuracy (B and D) or contradict the passage by implying pre-1155 Round Table sources existed (C). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

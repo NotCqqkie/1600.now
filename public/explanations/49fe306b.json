@@ -1,0 +1,15 @@
+{
+  "questionId": "49fe306b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the naming rule",
+      "content": "The decisive clue is in the notes: \u201cLike many meteor showers, it is named for the location of its radiant.\u201d This establishes that meteor showers take their names from their radiant locations. Combined with the fact that the Perseid's radiant is in constellation Perseus, this explains the naming origin."
+    },
+    {
+      "title": "Find the choice that explains the naming",
+      "content": "Choice A directly explains the naming origin: Perseid is named for constellation Perseus because that's where the radiant is located. The other choices either provide unrelated details like visibility (C), explain what a radiant is without establishing the naming convention (D), or remain too vague (B). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

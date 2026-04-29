@@ -1,0 +1,15 @@
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and time reference",
+      "content": "<strong>Ann Greely</strong> is a singular subject. The phrase <strong>in the late 1800s</strong> indicates a past time period."
+    },
+    {
+      "title": "Apply the constraint to the choices",
+      "content": "Only <strong>was</strong> combines singular form with past tense. Choices B, C, and D all fail this test: B and C use present-tense forms, D uses the plural <strong>were</strong>. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

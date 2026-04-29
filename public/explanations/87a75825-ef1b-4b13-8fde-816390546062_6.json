@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate daily distance to an inequality",
+      "content": "The whale travels 72 to 77 miles per day. Write this as: $$72 \\leq \\text{(daily distance)} \\leq 77$$"
+    },
+    {
+      "title": "Scale to 27 days by multiplying by 27",
+      "content": "For the total distance $x$ over 27 days, multiply each part of the inequality by 27: $$(72)(27) \\leq \\text{(daily distance)}(27) \\leq (77)(27)$$ Since $x$ is the total distance: $$(72)(27) \\leq x \\leq (77)(27)$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

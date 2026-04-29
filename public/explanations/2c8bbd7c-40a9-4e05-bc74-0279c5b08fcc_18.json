@@ -1,0 +1,15 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply triangle inequality to all three side combinations",
+      "content": "For sides 8, 13, and $x$ to form a triangle, the sum of any two sides must exceed the third side:<br/><ul><li>$8 + 13 > x$ gives $x < 21$</li><li>$8 + x > 13$ gives $x > 5$</li><li>$13 + x > 8$ gives $x > -5$ (automatically satisfied)</li></ul>"
+    },
+    {
+      "title": "Combine the constraints",
+      "content": "The variable $x$ must satisfy both $x > 5$ and $x < 21$ simultaneously. This means $5 < x < 21$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

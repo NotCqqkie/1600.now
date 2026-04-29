@@ -1,0 +1,15 @@
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the gap between expectation and discovery",
+      "content": "Researchers believed this defensive ultrasound was exclusive to a few specific moth groups. Yet Barber et al. tested 252 genera across most large-bodied moth families and found 52 genera produced these ultrasonic clicks\u2014including multiple geometer genera not previously documented to have this defense. The signal: the study discovered this ability in far more moth groups than previously known."
+    },
+    {
+      "title": "Apply to find the correct inference",
+      "content": "A discovery of 52 genera possessing this defense\u2014when researchers had limited it to just a handful\u2014directly suggests the defense is more widespread than previously thought. Choice D captures this: the defense \u201cmay be a more prevalent defense strategy among large-bodied moths than previously known to researchers.\u201d The other three either introduce unsupported elements (alternate uses in B, other strategies in C) or reverse the logic (A claims most moths lack this defense). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

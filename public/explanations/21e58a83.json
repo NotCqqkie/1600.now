@@ -1,0 +1,15 @@
+{
+  "questionId": "21e58a83",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side of the blank ends mid-clause: <em>Jetties can sometimes have the opposite [blank]</em> \u2014 an incomplete independent clause. The right side is: <em>obstructing the natural flow of sand along the shore can lead to increased erosion in some areas</em> \u2014 a complete independent clause."
+    },
+    {
+      "title": "Apply the punctuation rule for 'though'",
+      "content": "When connecting independent clauses with <strong>though</strong>, the pattern is: [IC], though [IC] \u2014 a comma before <strong>though</strong> with the clause continuing. Option B correctly applies this pattern, placing a comma before <strong>though</strong> to join the two clauses. The other options all violate the rule: A adds a semicolon after <strong>though</strong>, C places a semicolon before <strong>though</strong> instead of a comma, and D adds an unnecessary comma after <strong>though</strong>. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

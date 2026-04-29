@@ -1,0 +1,15 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero point to simplify",
+      "content": "The data shows $f(-9) = 0$. In the fraction $\\frac{kx+45}{x+2}$, when $f(x) = 0$, the numerator must equal zero (the denominator is $-9 + 2 = -7 \\neq 0$). Substitute $x = -9$:<br/><br/>$$-9k + 45 = 0$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "$$-9k = -45$$<br/><br/>$$k = 5$$<br/><br/>Verify with another data point: $f(33) = \\frac{5(33) + 45}{33 + 2} = \\frac{210}{35} = 6$ \u2713"
+    }
+  ]
+}

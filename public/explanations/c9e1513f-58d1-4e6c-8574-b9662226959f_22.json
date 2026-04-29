@@ -1,0 +1,19 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand how adding a constant affects statistics",
+      "content": "When every value in a dataset increases by the same amount, the mean shifts by that amount, but the range stays the same.<br/><br/>Why? Since range = max \u2212 min, if both endpoints increase by 14:<br/>$$\\text{new range} = (\\text{max} + 14) - (\\text{min} + 14) = \\text{max} - \\text{min} = \\text{old range}$$"
+    },
+    {
+      "title": "Determine Set A's statistics from the dot plot",
+      "content": "The dot plot shows capacities at 4, 7, 10, 13, and 16 \u00b5F.<br/><br/><strong>For Set A:</strong><ul><li>Minimum: 4 \u00b5F</li><li>Maximum: 16 \u00b5F</li><li>Range = 16 \u2212 4 = 12 \u00b5F</li><li>Mean = 10 \u00b5F (from counting dots and calculating)</li></ul>"
+    },
+    {
+      "title": "Apply the transformation to get Set B's statistics",
+      "content": "Since each capacitor in Set B is 14 \u00b5F greater:<br/>$$\\text{Mean of Set B} = 10 + 14 = 24 \\text{ \u00b5F}$$<br/>$$\\text{Range of Set B} = 12 \\text{ \u00b5F}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key reversal",
+      "content": "The passage asserts decarcinization is typically an \u201cevolutionary dead-end,\u201d but then presents frog crabs\u2014a decarcinized group thriving in sediment for millions of years. This counterexample undermines the initial generalization."
+    },
+    {
+      "title": "Draw the inference",
+      "content": "D correctly identifies that the crab form is not universally optimal and that ecological conditions sometimes favor decarcinization. A and B misread or contradict the passage, while C is entirely unrelated. That matches choice D\u2014<strong>D</strong> is correct."
+    }
+  ]
+}

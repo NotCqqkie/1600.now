@@ -1,0 +1,19 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept and slope sign",
+      "content": "The line of best fit passes through the origin (approximately (0, 0)), so the y-intercept is 0. The line slopes upward from left to right, indicating a positive slope. This immediately eliminates choice B (negative slope) and choices C and D (horizontal lines with nonzero y-intercepts)."
+    },
+    {
+      "title": "Calculate the slope using two points on the line",
+      "content": "Reading from the line of best fit, it passes through approximately (1, 1.1) and (5, 5.5). Using the slope formula:<br/>\n$$m = \\frac{\\Delta y}{\\Delta x} = \\frac{5.5 - 1.1}{5 - 1} = \\frac{4.4}{4} = 1.1$$"
+    },
+    {
+      "title": "Write the equation and match to the answer",
+      "content": "With slope $m = 1.1$ and y-intercept $b = 0$, the equation of the line is $y = 1.1x$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

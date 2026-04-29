@@ -1,0 +1,15 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_6",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "The line segment totals 113 cm. One part is 47 cm, and the other two parts have equal length. Let x represent the length of each equal part. Since all three parts sum to the total:<br/>$$47 + x + x = 113$$"
+    },
+    {
+      "title": "Solve for the equal parts",
+      "content": "Simplify the left side:<br/>$$47 + 2x = 113$$<br/>Subtract 47 from both sides:<br/>$$2x = 66$$<br/>Divide both sides by 2:<br/>$$x = 33$$<br/>The length of one of the two equal parts is 33 cm."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ebbf23ae",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the diameter length",
+      "content": "The diameter endpoints are $(2, 4)$ and $(2, 14)$. Both points have the same $x$-coordinate, so this is a vertical segment. The length is: $$14 - 4 = 10$$"
+    },
+    {
+      "title": "Find the radius",
+      "content": "The radius is half the diameter: $$r = \\frac{10}{2} = 5$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "837e9da7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 3 into the function",
+      "content": "We need to find $f(3)$, which means we substitute $x = 3$ into $f(x) = \\frac{1}{6x}$:<br/><br/>$$f(3) = \\frac{1}{6 \\cdot 3}$$"
+    },
+    {
+      "title": "Simplify the denominator",
+      "content": "Multiply the denominator: $6 \\cdot 3 = 18$, so:<br/><br/>$$f(3) = \\frac{1}{18}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

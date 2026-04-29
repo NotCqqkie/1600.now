@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_9",
+  "correctAnswer": "249",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the two known data points",
+      "content": "From 1995 to 2015, the population grows from 59 thousand to 217 thousand. That's a span of $2015 - 1995 = 20$ years.<br/><br/>The slope is:<br/>$$m = \\frac{217 - 59}{2015 - 1995} = \\frac{158}{20} = 7.9 \\text{ thousand per year}$$"
+    },
+    {
+      "title": "Extend the line forward to 2019",
+      "content": "From 2015 to 2019 is $2019 - 2015 = 4$ years.<br/><br/>Using the slope, the additional population growth is:<br/>$$7.9 \\times 4 = 31.6 \\text{ thousand}$$<br/><br/>Add this to the 2015 population:<br/>$$x = 217 + 31.6 = 248.6$$<br/><br/>Rounding to the nearest whole number, $x = 249$."
+    }
+  ]
+}

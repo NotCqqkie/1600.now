@@ -1,0 +1,15 @@
+{
+  "questionId": "fcaff694",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive structure",
+      "content": "The blank contains the subject noun phrase for <em>attest</em> in \u201cas ______ attest.\u201d The phrase has \u201cresearchers\u201d as the head noun and \u201cRoberto Scandone and Christopher Kilburn\u201d as the appositive. Since these names are essential to identifying which researchers, they form a restrictive appositive."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Restrictive appositives\u2014those essential to identifying the noun\u2014do not use commas. The phrase should be \u201cresearchers Roberto Scandone and Christopher Kilburn\u201d without punctuation. The other choices incorrectly add commas. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

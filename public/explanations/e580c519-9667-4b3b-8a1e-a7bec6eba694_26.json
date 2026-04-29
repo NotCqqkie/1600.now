@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key structural contrast",
+      "content": "The notes clearly distinguish the two materials: graphite has <em>stacked</em> graphene sheets, while carbon nanotubes have sheets <em>wrapped into a cylindrical shape</em>. To emphasize this difference as requested, the answer must state both structural forms directly."
+    },
+    {
+      "title": "Match the structural descriptions to the answer",
+      "content": "Choice D directly states both structural forms with emphasis: <em>\u201cThe graphene sheets in graphite are stacked, whereas in carbon nanotubes, they form a cylinder.\u201d</em> The word <strong>whereas</strong> marks the contrast, and both details come from the notes. Choices A, B, and C fail to effectively emphasize the specific difference between graphite and nanotubes.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

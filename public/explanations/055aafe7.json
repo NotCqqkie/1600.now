@@ -1,0 +1,15 @@
+{
+  "questionId": "055aafe7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding sides and set up proportion",
+      "content": "Since $A \\leftrightarrow X$, $B \\leftrightarrow Y$, and $C \\leftrightarrow Z$, the sides correspond as: $AB \\leftrightarrow XY$ and $BC \\leftrightarrow YZ$.<br/>For similar triangles, the ratios of corresponding sides are equal:<br/>$$\\frac{AB}{XY} = \\frac{BC}{YZ}$$<br/>Substituting the known values:<br/>$$\\frac{170}{XY} = \\frac{850}{60}$$"
+    },
+    {
+      "title": "Cross multiply and solve for XY",
+      "content": "Cross multiply to eliminate the fractions:<br/>$$170 \\times 60 = 850 \\times XY$$<br/>$$10,200 = 850 \\times XY$$<br/>Divide both sides by 850:<br/>$$XY = \\frac{10,200}{850} = 12$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

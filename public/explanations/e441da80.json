@@ -1,0 +1,15 @@
+{
+  "questionId": "e441da80",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what data comparison supports the claim",
+      "content": "The claim is that the number has fallen overall since 2010. To justify this, we need evidence comparing the 2010 starting point with a later year showing a decrease."
+    },
+    {
+      "title": "Find the choice with the correct data and comparison",
+      "content": "Choice A directly compares 2010 (approximately 1,000 articles) to 2019 (approximately 500 articles), demonstrating the claimed decline. Choices B and C misread the data, while D shows an increase from 2010 to 2013 rather than decline. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

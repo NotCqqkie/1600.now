@@ -1,0 +1,15 @@
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the audience's prior knowledge",
+      "content": "The audience is already familiar with seedling emergence, so the answer should not waste space explaining what it is."
+    },
+    {
+      "title": "Find the answer that respects this constraint",
+      "content": "D states the study's finding (positive effect of plant litter on seedling emergence) in its specific environmental context (mesic grassland, dry midlatitude climate). A only mentions the publication year without stating what was found, C vaguely discusses the topic without clearly presenting the conclusion, and B includes an unnecessary definition of seedling emergence. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

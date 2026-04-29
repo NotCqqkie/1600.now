@@ -1,0 +1,11 @@
+{
+  "questionId": "361f97c7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute and evaluate",
+      "content": "Substitute $x = 10$ into $f(x) = 4x - 3$:<br/><br/>$$f(10) = 4(10) - 3$$<br/><br/>$$= 40 - 3$$<br/><br/>$$= 37$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

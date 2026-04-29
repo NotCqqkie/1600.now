@@ -1,0 +1,15 @@
+{
+  "questionId": "2554b413",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the y-intercept",
+      "content": "The point (0, 8) lies on the line. Since x = 0 at this point, y = 8 is the y-intercept."
+    },
+    {
+      "title": "Write the equation",
+      "content": "With slope m = 6 and y-intercept b = 8, the equation is:<br/>$$y = 6x + 8$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

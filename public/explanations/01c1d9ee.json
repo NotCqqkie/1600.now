@@ -1,0 +1,15 @@
+{
+  "questionId": "01c1d9ee",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key comparison needed",
+      "content": "The claim requires showing that even where nearly 100 percent speak Swahili, many learned it as a non-first language. This demands evidence that total speakers far exceed the 15 million first-language speakers mentioned in the passage."
+    },
+    {
+      "title": "Find the choice that demonstrates the gap",
+      "content": "Choice A compares Tanzania's 61 million Swahili speakers to the 15 million first-language speakers worldwide, showing a gap that proves most speakers acquired Swahili as a non-first language. Choices B, C, and D either misrepresent the numbers, make unsupported claims, or compare percentages without addressing the language-acquisition issue. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

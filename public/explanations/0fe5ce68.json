@@ -1,0 +1,15 @@
+{
+  "questionId": "0fe5ce68",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The subject of the blank is <strong>each one of these plays</strong>. The phrase \u201ceach one\u201d makes this singular, even though it refers to multiple plays. The relative clause <em>which include Henry V and Richard III</em> modifies the subject but doesn't change its number."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A verb must agree with its subject in number. <strong>Focuses</strong> is the only singular form; <em>focus, are focused,</em> and <em>were focused</em> are all plural forms and violate this rule. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

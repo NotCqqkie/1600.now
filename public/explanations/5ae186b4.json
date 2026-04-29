@@ -1,0 +1,15 @@
+{
+  "questionId": "5ae186b4",
+  "correctAnswer": "-9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by w",
+      "content": "To eliminate the denominator, multiply both sides of the equation by $w$:<br/>$$\\frac{-54}{w} \\cdot w = 6 \\cdot w$$<br/>$$-54 = 6w$$"
+    },
+    {
+      "title": "Divide both sides by 6",
+      "content": "Divide both sides by 6 to isolate $w$:<br/>$$\\frac{6w}{6} = \\frac{-54}{6}$$<br/>$$w = -9$$"
+    }
+  ]
+}

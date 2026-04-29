@@ -1,0 +1,15 @@
+{
+  "questionId": "4565a53c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clue that the blank should express a question",
+      "content": "The phrase \u201cMichel was determined to find out\u201d indicates the blank should pose the question Michel wanted to answer\u2014whether blueberries could thrive in alkaline soil with iron-solubilizing grasses."
+    },
+    {
+      "title": "Apply the conventions for question formation",
+      "content": "A proper question uses a question mark (not a period or nothing) and inverted word order (verb before subject). \u201cCould the blueberries thrive?\u201d follows both conventions. The other choices either use wrong punctuation (A uses a period; B uses none, creating a run-on) or apply statement word order with question punctuation (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

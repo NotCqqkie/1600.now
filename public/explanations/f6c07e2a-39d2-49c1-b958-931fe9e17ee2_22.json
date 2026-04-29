@@ -1,0 +1,23 @@
+{
+  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_22",
+  "correctAnswer": "13/9,1.444",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up cases for the absolute value",
+      "content": "The equation $2|6x - 1| = 6x + 9$ requires removing the absolute value bars. This creates two cases based on the sign of $6x - 1$:<br/><br/>Case 1: If $6x - 1 \\geq 0$, then $|6x - 1| = 6x - 1$<br/>Case 2: If $6x - 1 < 0$, then $|6x - 1| = -(6x - 1)$"
+    },
+    {
+      "title": "Solve Case 1",
+      "content": "When $6x - 1 \\geq 0$:<br/>$$2(6x - 1) = 6x + 9$$<br/>$$12x - 2 = 6x + 9$$<br/>$$6x = 11$$<br/>$$x = \\frac{11}{6}$$<br/><br/>Check validity: $6 \\cdot \\frac{11}{6} - 1 = 11 - 1 = 10 > 0$ \u2713 This solution is valid."
+    },
+    {
+      "title": "Solve Case 2",
+      "content": "When $6x - 1 < 0$:<br/>$$2(-(6x - 1)) = 6x + 9$$<br/>$$-12x + 2 = 6x + 9$$<br/>$$-18x = 7$$<br/>$$x = -\\frac{7}{18}$$<br/><br/>Check validity: $6 \\cdot \\left(-\\frac{7}{18}\\right) - 1 = -\\frac{7}{3} - 1 = -\\frac{10}{3} < 0$ \u2713 This solution is valid."
+    },
+    {
+      "title": "Add the two solutions",
+      "content": "Sum the solutions found:<br/>$$\\frac{11}{6} + \\left(-\\frac{7}{18}\\right) = \\frac{11}{6} - \\frac{7}{18}$$<br/><br/>Find common denominator (18):<br/>$$\\frac{33}{18} - \\frac{7}{18} = \\frac{26}{18} = \\frac{13}{9}$$"
+    }
+  ]
+}

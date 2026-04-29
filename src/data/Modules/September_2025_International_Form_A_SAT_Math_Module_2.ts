@@ -110,40 +110,17 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_4",
-    "testName": "September 2025 International Form A SAT Math Module 2",
-    "text": "y=(x-21)(x-42)\ny=0\nThe graphs of the equations in the given system of equations intersect at the point (x,y) in the xy-plane. What is a possible value of x?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "0"
-      },
-      {
-        "id": "B",
-        "text": "2"
-      },
-      {
-        "id": "C",
-        "text": "42"
-      },
-      {
-        "id": "D",
-        "text": "63"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
-      "confidence": "high"
-    }
+      "difficulty": "Easy",
+      "rationale": "The correct answer is $30$. It’s given that $x+y=125$. Substituting $125$ for $x+y$ in the second equation of the given system yields $125+y=155$. Subtracting $125$ from both sides of this equation yields $y=30$. Therefore, the value of $y$ is $30$.",
+      "id": "3409707e",
+      "testName": "SAT Question Bank",
+      "text": "$x+y=125$\n$x+y+y=155$\nThe solution to the given system of equations is $\\left(x,y\\right)$. What is the value of $y$?",
+      "correctAnswer": "30",
+      "type": "free-response",
+      "choices": []
   },
   {
     "section": "Math",

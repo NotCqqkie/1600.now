@@ -1,0 +1,15 @@
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the definition to an equation",
+      "content": "The problem tells us that force $F$ is <em>the product of</em> mass and acceleration. The word product indicates multiplication, so: $$F = \\text{mass} \\times \\text{acceleration}$$"
+    },
+    {
+      "title": "Substitute the given values",
+      "content": "We are given that mass is 41 kg and acceleration is $a$ m/s\u00b2. Substituting these values: $$F = 41 \\times a = 41a$$ This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

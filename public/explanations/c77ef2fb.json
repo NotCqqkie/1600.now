@@ -1,0 +1,15 @@
+{
+  "questionId": "c77ef2fb",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply by the denominator and expand",
+      "content": "Starting with $V_B = \\frac{V_P}{1-H}$, multiply both sides by $(1-H)$:<br/>$$V_B(1-H) = V_P$$<br/>Expand the left side:<br/>$$V_B - V_B H = V_P$$"
+    },
+    {
+      "title": "Isolate and solve for H",
+      "content": "Rearrange to collect all terms with $H$ on one side:<br/>$$V_B - V_P = V_B H$$<br/>Divide both sides by $V_B$:<br/>$$H = \\frac{V_B - V_P}{V_B}$$<br/>Split the fraction:<br/>$$H = 1 - \\frac{V_P}{V_B}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9391b7cc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the logical puzzle",
+      "content": "The passage sets up an apparent paradox: thirteenth-century artifacts are found at a settlement founded in the fourteenth century. If both facts are true, what must logically also be true to make them compatible?"
+    },
+    {
+      "title": "Determine the logical requirement",
+      "content": "For thirteenth-century artifacts to exist at a fourteenth-century-founded settlement, those artifacts cannot have originated at the site\u2014they must have arrived after its founding through trade, migration, or similar means. This is exactly what choice B states. The other options don't resolve the core incompatibility: A discusses how common artifacts from different periods are, C speculates about where the founders came from without addressing the artifact timeline, and D mentions excavation damage to unrelated materials. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

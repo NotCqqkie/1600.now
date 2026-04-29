@@ -1,0 +1,16 @@
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the side length scale factor",
+      "content": "Square A's sides are 98 times square B's sides. The linear scale factor between the squares is 98."
+    },
+    {
+      "title": "Apply the area scaling rule",
+      "content": "For similar figures, when linear dimensions scale by factor $k$, areas scale by $k^2$. <br/><br/>The area scale factor is $98^2$. Computing: $98 \\times 98 = 9604$. <br/><br/>Since the area of square A is $k$ times the area of square B, we have $k = 9604$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"
+    }
+  ]
+}

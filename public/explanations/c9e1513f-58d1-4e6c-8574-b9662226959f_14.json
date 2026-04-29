@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that factored form displays zeros as constants",
+      "content": "The question asks which form <em>displays</em> the zeros as constants. In factored form $(x-a)(x-b)$, the zeros $a$ and $b$ appear explicitly as constants in the expression. Other equivalent forms either require solving (such as vertex form) or don't reveal the zeros directly (such as expanded or partially factored forms)."
+    },
+    {
+      "title": "Identify and verify the factored form",
+      "content": "Scanning the choices, only <strong>choice B</strong> is in fully factored form: $(x-2)(x-40)$. The zeros 2 and 40 are displayed directly as constants.<br/><br/>Verify by expanding:<br/>$$(x-2)(x-40) = x^2 - 40x - 2x + 80 = x^2 - 42x + 80$$<br/>This matches the original function. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

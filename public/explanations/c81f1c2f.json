@@ -1,0 +1,15 @@
+{
+  "questionId": "c81f1c2f",
+  "correctAnswer": "2850",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what to evaluate",
+      "content": "We need to find the monthly fee for storing 50 crates, which means evaluating $f(50)$ using the given function $f(x) = 45x + 600$."
+    },
+    {
+      "title": "Substitute x = 50 and calculate",
+      "content": "Replace $x$ with 50 in the function:<br/><br/>$$f(50) = 45(50) + 600$$<br/><br/>Multiply first: $45 \\times 50 = 2250$<br/><br/>Then add the constant term:<br/><br/>$$f(50) = 2250 + 600 = 2850$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

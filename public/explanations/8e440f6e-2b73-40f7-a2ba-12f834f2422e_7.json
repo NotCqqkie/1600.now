@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the substitution shortcut",
+      "content": "We're given that $9x+4=32$ and asked to find $3(9x+4)$. Notice that we don't need to solve for $x$ separately\u2014the expression $(9x+4)$ already has a known value. Since $9x+4=32$, we can substitute directly: <br/><br/>$$3(9x+4) = 3(32)$$"
+    },
+    {
+      "title": "Calculate the result",
+      "content": "Multiply: <br/><br/>$$3 \\times 32 = 96$$ <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

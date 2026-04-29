@@ -1,0 +1,15 @@
+{
+  "questionId": "97eab129",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the ratio of water to area",
+      "content": "For a linear function $f(x) = mx$, find $m$ by computing $\\frac{f(x)}{x}$ from the table. Using the first row with $x = 2,520$ and $f(x) = 4,536$:<br/>$$\\frac{4,536}{2,520} = 1.8$$"
+    },
+    {
+      "title": "Verify consistency and identify the equation",
+      "content": "Check the ratio for the remaining rows:<br/>Second row: $\\frac{6,804}{3,780} = 1.8$ \u2713<br/>Third row: $\\frac{9,072}{5,040} = 1.8$ \u2713<br/><br/>The constant ratio is 1.8 for all data points, so $f(x) = 1.8x$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

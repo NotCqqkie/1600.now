@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square root term",
+      "content": "Subtract 22 from both sides: $$\\sqrt{w} = 28 - 22 = 6$$"
+    },
+    {
+      "title": "Square both sides to solve for w",
+      "content": "$$w = 6^2 = 36$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

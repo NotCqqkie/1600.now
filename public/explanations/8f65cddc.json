@@ -1,0 +1,15 @@
+{
+  "questionId": "8f65cddc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cross multiply to clear fractions",
+      "content": "Starting with $\\frac{1}{7b}=\\frac{11x}{y}$, cross multiply:<br/>$$1 \\cdot y = 7b \\cdot 11x$$<br/>$$y = 77bx$$"
+    },
+    {
+      "title": "Isolate x by dividing",
+      "content": "Divide both sides by $77b$ to isolate $x$:<br/>$$x = \\frac{y}{77b}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

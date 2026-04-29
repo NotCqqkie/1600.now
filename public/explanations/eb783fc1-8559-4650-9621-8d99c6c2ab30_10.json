@@ -1,0 +1,15 @@
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the Cadettes row and 1995 column",
+      "content": "The question asks for Girl Scouts aged 11\u201314 in 1995. The table organizes members by age category (rows) and year (columns). The age group 11\u201314 corresponds to the Cadettes row, and we need the 1995 column."
+    },
+    {
+      "title": "Read the value at the intersection and match it to the choices",
+      "content": "The value where Cadettes and 1995 meet is 172 (in thousands). 174 pulls the value from the 1994 Cadettes row (wrong year), 784 pulls from the 1995 Ambassadors row (wrong age group), and 807 doesn't appear in the table. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

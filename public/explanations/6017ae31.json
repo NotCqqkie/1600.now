@@ -1,0 +1,15 @@
+{
+  "questionId": "6017ae31",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what statistical analysis eliminates",
+      "content": "The strongest clue is the pairing of <strong>\u201cdetailed statistical analysis\u201d</strong> with <strong>\u201cprecluded claims\u201d</strong> and <strong>\u201c99% confidence.\u201d</strong> Statistical analysis serves to eliminate uncertainty and establish definitive conclusions about what data represents."
+    },
+    {
+      "title": "Connect to the correct choice",
+      "content": "Statistical analysis precluded claims of <strong>ambiguity</strong>: achieving 99% confidence proves the signal is unambiguously a gravitational wave, ruling out any claim it could be interpreted as something else. The other three choices either address unrelated features (inconspicuousness describes detectability; discretion has no relevance), or reverse the logic (probability is established by analysis, not precluded). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

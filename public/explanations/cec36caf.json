@@ -1,0 +1,15 @@
+{
+  "questionId": "cec36caf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the x-squared term",
+      "content": "Add 40 to both sides: $$8x^2 - 40 + 40 = 32 + 40$$, which simplifies to $$8x^2 = 72$$. Divide both sides by 8: $$x^2 = \\frac{72}{8} = 9$$."
+    },
+    {
+      "title": "Solve for x and select the positive solution",
+      "content": "Take the square root of both sides: $$x = \\pm\\sqrt{9} = \\pm 3$$. The problem asks for the positive solution, so $x = 3$. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

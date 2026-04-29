@@ -1,0 +1,15 @@
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the tempting but flawed reasoning",
+      "content": "The passage frames a tempting but flawed reasoning: \u201csimilarities make it tempting to treat the geochemical properties of the meteorites as ______ those of Mars's interiors, [but] Mars's geology cannot be ascertained based solely on meteorite-sample analyses.\u201d The blank should express the natural inference the researchers warn against."
+    },
+    {
+      "title": "Find what fits the inference",
+      "content": "\u201dProxies for\u201d means representatives or substitutes\u2014meteorites would serve as stand-ins to understand Mars's interior, which captures the tempting reasoning.<br/>The other three either misname what meteorites would represent (contrivances = artificial schemes, catalysts = triggers for change, deterrents = obstacles).<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

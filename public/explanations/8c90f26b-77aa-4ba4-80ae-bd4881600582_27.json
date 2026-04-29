@@ -1,0 +1,15 @@
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the context for punctuation",
+      "content": "The phrase \u201cfind the answer\u201d signals that a question was posed. The blank must contain a question."
+    },
+    {
+      "title": "Apply question punctuation",
+      "content": "A question requires both inverted word order (verb before subject: \u201ccould these...\u201d) and a question mark. Choice D uses both. The others fail: A and B use declarative order (\u201cthese penguins could\u201d), while C uses interrogative order but closes with a period instead of a question mark. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

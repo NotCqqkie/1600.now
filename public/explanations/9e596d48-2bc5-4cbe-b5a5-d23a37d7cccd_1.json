@@ -1,0 +1,15 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the known value of y",
+      "content": "The second equation gives us $y = 3$ directly. Substitute this into the first equation:<br/>$$x + 5(3) = 17$$<br/>$$x + 15 = 17$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "$$x = 2$$<br/>The solution is $(2, 3)$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

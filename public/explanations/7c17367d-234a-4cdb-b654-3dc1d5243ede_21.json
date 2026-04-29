@@ -1,0 +1,15 @@
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The first sentence establishes a general claim: many mushroom species contain phenolic compounds (cinnamic acid and catechin). The second sentence then provides specific instances where Ferreira detected these same compounds in particular mushroom species (<em>Agaricus blazei</em> and <em>Lentinus edodes</em>). The text moves from a broad statement to concrete examples."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>For example,</strong> introduces a specific instance that illustrates a broad point \u2014 exactly what the second sentence does here. <em>For this reason</em> suggests cause-effect, while <em>However</em> and <em>Nevertheless</em> both signal contrast, and none fit a relationship where one sentence simply provides concrete examples of the other. The second sentence exemplifies the general claim from the first. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

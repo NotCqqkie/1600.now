@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contradiction",
+      "content": "The key signal is the clash between observation and explanation: quasars <em>are believed to have formed so early</em> (observed fact) yet conditions <em>are believed to have been ill-suited to their creation</em> (theoretical obstacle). This contradiction is what prompts the \u201cwhich suggests that.\u201d"
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "When observations contradict theory, the inference is that our understanding is incomplete. Choice B directly expresses this: our scientific understanding of quasar formation or the early universe \u201cmay be incomplete\u201d. Choices A, C, and D either merely restate facts already given or invent comparisons not supported by the passage. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

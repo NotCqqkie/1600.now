@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key linguistic signal",
+      "content": "The phrase \u201cis sure to be invaluable\u201d projects confidence about the model's future usefulness."
+    },
+    {
+      "title": "Match the signal to the choice",
+      "content": "Choice B names what the sentence does: it emphasizes the potential utility of the team's model. A misreads what the passage discusses (Boston is only an example of a neighborhood), while C and D misidentify what's being evaluated \u2014 neither algorithm accuracy nor a problem to overcome, but the model's projected value. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

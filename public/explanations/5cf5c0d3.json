@@ -1,0 +1,15 @@
+{
+  "questionId": "5cf5c0d3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage emphasizes that credited counts are \u201cbare minimums rather than totals\u201d due to lost records. The blank completes \u201cit's entirely possible, for example, that...\u201d \u2014 so it should present an example where actual numbers could exceed what's credited in the table."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice C uses the table's credited values\u201466 for Lillian St. Cyr's acting and 58 for Edwin Carewe's directing\u2014to show actual numbers could be \u201cfar more than 66\u201d and \u201cmore than 58.\u201d This exemplifies the passage's premise that credited counts are lower bounds, not totals. The others either reverse the data (D), make chronologically impossible claims (B), or simply compare credited numbers without showing how actual totals could exceed them (A). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

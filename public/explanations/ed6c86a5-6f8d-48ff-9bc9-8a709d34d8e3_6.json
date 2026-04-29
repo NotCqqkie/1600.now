@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the probability of selecting a visitor in room C",
+      "content": "Since every visitor is in exactly one of the three rooms, the probabilities must sum to 1:<br/><br/>$$P(A) + P(B) + P(C) = 1$$<br/><br/>Substitute the given probabilities:<br/>$$0.64 + 0.32 + P(C) = 1$$<br/><br/>Solve for P(C):<br/>$$P(C) = 1 - 0.64 - 0.32 = 0.04$$"
+    },
+    {
+      "title": "Calculate the number of visitors in room C",
+      "content": "The number of visitors in room C equals the probability times the total number of visitors:<br/><br/>$$\\text{Visitors in C} = P(C) \\times \\text{Total} = 0.04 \\times 325$$<br/><br/>$$= \\frac{4}{100} \\times 325 = \\frac{1300}{100} = 13$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

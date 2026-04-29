@@ -1,0 +1,15 @@
+{
+  "questionId": "8fbed1cb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the anachronism",
+      "content": "The key signal is that titanium dioxide was first introduced in ink manufacturing in the early 1900s, but the researchers found this compound in the Vinland Map's ink. An ingredient that did not exist in the 1400s cannot be present in a map supposedly made then."
+    },
+    {
+      "title": "Draw the logical conclusion",
+      "content": "Since the ink contains a 20th-century material, the map must be from the 1900s or later\u2014not the 1400s. Choice B directly follows: the map could not have been drawn by mid-1400s mapmakers. Choices A, C, and D either focus on unrelated details, contradict the passage, or avoid the clear conclusion. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

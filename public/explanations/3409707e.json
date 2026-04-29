@@ -1,0 +1,15 @@
+{
+  "questionId": "3409707e",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the second equation",
+      "content": "The second equation is $x + y + y = 155$. Combine like terms on the left side:<br/>$$x + 2y = 155$$"
+    },
+    {
+      "title": "Subtract the first equation to eliminate x",
+      "content": "Subtract the first equation from the simplified second equation:<br/>$$(x + 2y) - (x + y) = 155 - 125$$<br/>The $x$ terms cancel, leaving:<br/>$$y = 30$$"
+    }
+  ]
+}

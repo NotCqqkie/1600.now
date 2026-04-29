@@ -1,0 +1,14 @@
+{
+  "questionId": "4ec95eab",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y from the first equation into the second",
+      "content": "Since the first equation gives $ y = -3x $, substitute this into the second equation $ 4x + y = 15 $:<br/><br/>$$4x + (-3x) = 15$$<br/>Simplify: $ x = 15 $.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

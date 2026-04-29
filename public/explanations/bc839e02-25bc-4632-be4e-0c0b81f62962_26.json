@@ -1,0 +1,15 @@
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal mechanism in the notes",
+      "content": "The student's goal is to identify what causes meanders. The decisive clue appears in the notes: \u201cA meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side.\u201d"
+    },
+    {
+      "title": "Find which choice states this mechanism",
+      "content": "Choice D states that erosion and redeposition of sediment forms meanders. Choices A and B describe properties of meanders without explaining causation, and C reverses the relationship. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

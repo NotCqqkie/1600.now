@@ -1,0 +1,15 @@
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core reason",
+      "content": "The passage directly states: \u201cHow we define a neighborhood and its boundaries is subjective, so the team used a clustering algorithm to locate dense groupings of amenities...\u201d This reveals the decisive signal: the subjectivity problem prompted the team to use the algorithm."
+    },
+    {
+      "title": "Apply the reason to the choices",
+      "content": "Choice B captures the stated reason: the algorithm gave the team an objective way to identify neighborhoods. Choices A, C, and D cite customer awareness, business closures, and predicting success\u2014topics the passage never presents as reasons for using the algorithm. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

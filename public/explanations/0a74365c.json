@@ -1,0 +1,19 @@
+{
+  "questionId": "0a74365c",
+  "correctAnswer": "15000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the number of doubling periods",
+      "content": "From 1659 to 1959 is <strong>1959 \u2212 1659 = 300 years</strong>.<br/>Since the population doubles every 75 years, the number of doubling periods is $$\\frac{300}{75} = 4$$"
+    },
+    {
+      "title": "Set up the exponential growth equation",
+      "content": "When a population doubles every time period, after $n$ periods the population is: $$P = P_0 \\cdot 2^n$$ where $P_0$ is the initial population. With 4 doublings: $$240,000 = P_0 \\cdot 2^4$$"
+    },
+    {
+      "title": "Solve for the 1659 population",
+      "content": "Calculate $2^4 = 16$, then divide both sides by 16: $$P_0 = \\frac{240,000}{16} = 15,000$$ The population in 1659 was <strong>15,000</strong>."
+    }
+  ]
+}

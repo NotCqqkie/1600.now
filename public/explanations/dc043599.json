@@ -1,0 +1,15 @@
+{
+  "questionId": "dc043599",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the timeline difference",
+      "content": "Text 1 claims the moon formed \u201cover the course of thousands of years.\u201d Text 2 claims it formed \u201cimmediately after impact, taking just a few hours.\u201d This timeline contrast is the key signal about how the authors differ."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D correctly identifies the difference: Text 1 sees moon formation as a slow process; Text 2 sees it as fast. Choices A, B, and C don't target this\u2014A confuses slow formation with earlier timing, while B and C introduce irrelevant comparisons about Theia and surface similarity. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

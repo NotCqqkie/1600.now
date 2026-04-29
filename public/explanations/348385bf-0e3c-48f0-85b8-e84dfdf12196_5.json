@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the cause-and-effect structure",
+      "content": "The passage attributes the speed difference to a cause: aerodynamic features impose less speed restriction than terrestrial running features. The blank must express how the speed difference relates to this underlying cause."
+    },
+    {
+      "title": "Identify the right causal term",
+      "content": "The speed difference is a <strong>consequence</strong> of\u2014the result of\u2014the fact that aerodynamic features limit speed less than running features. Repudiation and objective convey different meanings entirely (rejection and goal), while explanation would reverse the logic by making the speed difference the cause rather than the effect. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

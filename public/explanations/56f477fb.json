@@ -1,0 +1,15 @@
+{
+  "questionId": "56f477fb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the assertion's two requirements",
+      "content": "The assertion claims provisioning services are reported in every region and represent the overall majority of reported services."
+    },
+    {
+      "title": "Identify which choice proves both claims",
+      "content": "Choice B establishes both claims: \u201cnone of the percentages shown for provisioning services are lower than 33%\u201d proves provisioning across all regions (with Central at the minimum), while the overall 75% proves it's the majority.<br/>Choices A and D highlight only regional variation; choice C confirms regional presence without the majority evidence.<br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

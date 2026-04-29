@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "Factor out 7 from the first two terms of $y = 7x^2 - bx - 6$:<br/><br/>$$y = 7\\left(x^2 - \\frac{b}{7}x\\right) - 6$$<br/><br/>To complete the square inside the parentheses, take half the coefficient of $x$ and square it: $\\left(-\\frac{b}{14}\\right)^2 = \\frac{b^2}{196}$. Add and subtract this value:<br/><br/>$$y = 7\\left[\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}\\right] - 6$$<br/><br/>Distribute 7 and simplify $\\frac{7b^2}{196} = \\frac{b^2}{28}$:<br/><br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{28} - 6$$"
+    },
+    {
+      "title": "Match to the answer choice",
+      "content": "Reorder the constant terms to match the answer format:<br/><br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - 6 - \\frac{b^2}{28}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

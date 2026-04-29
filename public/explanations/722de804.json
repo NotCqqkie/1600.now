@@ -1,0 +1,15 @@
+{
+  "questionId": "722de804",
+  "correctAnswer": "94",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Take the square root of both sides",
+      "content": "Starting with $(x-47)^2 = 1$, we take the square root of both sides to eliminate the squared term: $$x - 47 = \\pm 1$$"
+    },
+    {
+      "title": "Find both solutions and compute their sum",
+      "content": "From $x - 47 = \\pm 1$, we get:<br/><ul><li>$x - 47 = 1 \\Rightarrow x = 48$</li><li>$x - 47 = -1 \\Rightarrow x = 46$</li></ul>Adding these solutions: $48 + 46 = 94$."
+    }
+  ]
+}

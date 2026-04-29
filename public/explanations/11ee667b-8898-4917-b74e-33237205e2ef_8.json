@@ -1,0 +1,16 @@
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_8",
+  "correctAnswer": "3490",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add all five masses",
+      "content": "Sum the five values: $3,710 + 3,710 + 3,130 + 3,750 + 3,150 = 17,450$ grams."
+    },
+    {
+      "title": "Divide by the count to find the mean",
+      "content": "$$\\text{Mean} = \\frac{17,450}{5} = 3,490 \\text{ grams}$$",
+      "formula": "$$\\text{Mean} = \\frac{\\text{Sum}}{n}$$"
+    }
+  ]
+}

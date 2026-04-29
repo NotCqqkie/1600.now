@@ -1,0 +1,15 @@
+{
+  "questionId": "52f9a246",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the frequency of each distinct number",
+      "content": "In the data 4, 4, 4, 4, 8, 8, 8, 13, 13:<ul><li>4 appears 4 times</li><li>8 appears 3 times</li><li>13 appears 2 times</li></ul>"
+    },
+    {
+      "title": "Match to the correct frequency table",
+      "content": "A frequency table pairs each unique number with its count. The table listing Number [4, 8, 13] with corresponding Frequency [4, 3, 2] exactly matches our counts. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

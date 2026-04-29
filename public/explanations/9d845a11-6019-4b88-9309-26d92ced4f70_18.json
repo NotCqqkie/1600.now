@@ -1,0 +1,11 @@
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_18",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "All three terms share the same variable part $x^4$, so I can combine their coefficients directly: $5 + 7 - 2 = 10$. The expression simplifies to $10x^4 = bx^4$, which means $b = 10$."
+    }
+  ]
+}

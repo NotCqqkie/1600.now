@@ -1,0 +1,15 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify how margin of error depends on sample size",
+      "content": "The margin of error formula is: $MOE = z^* \\sqrt{\\frac{p(1-p)}{n}}$. Since $n$ appears in the denominator, increasing sample size decreases margin of error. This is an inverse relationship: a larger sample produces a smaller margin of error."
+    },
+    {
+      "title": "Calculate the effect of increasing sample size",
+      "content": "Original sample: $n = 139$, MOE = 6.39%. New sample: $n = 278$ (doubled). When $n$ doubles, $\\sqrt{n}$ increases by a factor of $\\sqrt{2} \\approx 1.41$. Therefore, the new MOE is approximately $\\frac{6.39\\%}{1.41} \\approx 4.52\\%$ \u2014 smaller than before. The estimate itself (around 82%) stays roughly the same. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

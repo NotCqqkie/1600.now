@@ -1,0 +1,15 @@
+{
+  "questionId": "482a445b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand using perfect square trinomial and difference of squares",
+      "content": "Recognize that $(x^2 + 11)^2$ is a perfect square trinomial. Using $(a+b)^2 = a^2 + 2ab + b^2$:<br/>$$(x^2 + 11)^2 = x^4 + 22x^2 + 121$$<br/>Next, $(x-5)(x+5)$ is a difference of squares. Using $(a-b)(a+b) = a^2 - b^2$:<br/>$$(x-5)(x+5) = x^2 - 25$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the expanded expressions:<br/>$$x^4 + 22x^2 + 121 + x^2 - 25$$<br/>Combine like terms:<br/>$$x^4 + 23x^2 + 96$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

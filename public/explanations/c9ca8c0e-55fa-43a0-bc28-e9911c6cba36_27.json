@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal",
+      "content": "The student wants to <strong>compare</strong> the curviness of the two rivers. The key information from the notes is that the Muskwa River has high sinuosity and the Cheyyar River has low sinuosity."
+    },
+    {
+      "title": "Find the choice that compares them",
+      "content": "Choice A directly states that the Muskwa River's sinuosity ratio is greater than the Cheyyar River's \u2014 answering which river is curvier. Choices B, C, and D either explain the calculation method without comparing the specific rivers, or reverse the information from the notes. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

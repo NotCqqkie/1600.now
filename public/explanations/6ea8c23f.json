@@ -1,0 +1,15 @@
+{
+  "questionId": "6ea8c23f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'and' is connecting",
+      "content": "The sentence contains \u201cdetermine\u201d followed by two objects: \u201chow current-driven mixing varies across regions\u201d and \u201cwhat impact it has on the distribution of heat and nutrients in the ocean.\u201d The conjunction \u201cand\u201d joins these two parallel noun clauses."
+    },
+    {
+      "title": "Match the punctuation rule to 'and' joining parallel elements",
+      "content": "When \u201cand\u201d joins parallel noun clauses or phrases, no punctuation precedes it. A comma (A), colon (B), or semicolon (C) would incorrectly separate parallel items that should flow together. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

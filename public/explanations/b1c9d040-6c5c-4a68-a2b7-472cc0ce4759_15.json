@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the magnetic property signal",
+      "content": "The passage states ferritic stainless steel has <em>\u201ca higher concentration of iron, which is responsible for its magnetic properties.\u201d</em> This is the key clue. Austenitic stainless steel is contrasted as having a crystalline structure from nickel, not magnetic properties from iron."
+    },
+    {
+      "title": "Apply the signal to the steel types",
+      "content": "Cooking utensils use ferritic stainless steel, so they have the magnetic properties created by high iron concentration. Mining and chemical equipment use 300 series austenitic steel, which is defined by its nickel-derived crystalline structure, lacking the iron-based magnetism. Therefore, cooking utensils exceed mining equipment in magnetic properties, which is exactly what choice A states. The other three choices either assign the austenitic crystalline structure to ferritic steel (C and D) or make unsupported claims about chromium in austenitic types (B). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

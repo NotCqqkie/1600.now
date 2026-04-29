@@ -1,0 +1,15 @@
+{
+  "questionId": "fced396a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the parallel structure",
+      "content": "The phrase <strong>\u201cCompared with that of a highly concentrated market\u201d</strong> establishes the first side of a comparison. Here, <strong>\u201cthat\u201d</strong> refers to \u201cHHI score\u201d\u2014so the comparison is between two scores. In such parallel comparisons, both sides must have matching structure."
+    },
+    {
+      "title": "Apply the parallel structure",
+      "content": "Choice B\u2014<strong>\u201cthe HHI score of a less concentrated market will be much lower\u201d</strong>\u2014completes the comparison with an HHI score as the subject, creating the required score-to-score structure. Choices A, C, and D either shift to the market as subject (A, D) or introduce a conditional that breaks the direct comparison (C). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

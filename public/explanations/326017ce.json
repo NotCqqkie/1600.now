@@ -1,0 +1,15 @@
+{
+  "questionId": "326017ce",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical shift",
+      "content": "The first sentence establishes a general claim: bacteria-based cleaning has achieved <strong>\u201cimpressive overall\u201d</strong> results. The second sentence provides a specific instance: these particular bacterial strains have proven more effective than traditional chemical methods. The signal is that the second sentence explains or exemplifies the first\u2014it moves from general observation to concrete evidence."
+    },
+    {
+      "title": "Select the transition word",
+      "content": "<strong>\u201cIn many cases\u201d</strong> qualifies and explains the overall results. It says: <em>The overall results are impressive, and in many cases, this is because these strains are more effective than traditional methods.</em> <strong>However</strong> signals false contrast; <strong>As a result</strong> points causality backwards; <strong>Additionally</strong> just stacks two facts instead of showing explanatory relationship. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

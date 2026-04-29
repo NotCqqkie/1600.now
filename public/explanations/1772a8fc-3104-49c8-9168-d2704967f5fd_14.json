@@ -1,0 +1,15 @@
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the decisive data column",
+      "content": "The table includes a <strong>Percent Change in hours</strong> column. To compare declines across countries with different baseline hours worked in 1950, percent change is the standard measurement\u2014not absolute hour changes. This immediately signals that choices C and D (which use percentages) are the candidates."
+    },
+    {
+      "title": "Verify the percent comparison against the table",
+      "content": "Argentina's percent change is <strong>-17%</strong>. Compared to the other countries: less than Ireland (-28%) and the UK (-24%), but greater than Mexico (-3%)\u2014exactly as choice D states. The other three choices either use absolute hour changes instead of percentages or get the percentage comparisons wrong. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out 3 from the x terms",
+      "content": "The equation is $3x^2 - 6x - 30 = 0$. Notice that the first two terms both have a factor of 3: $3x^2 - 6x = 3(x^2 - 2x)$. So we can rewrite the entire equation as:<br/>$$3(x^2 - 2x) - 30 = 0$$"
+    },
+    {
+      "title": "Isolate the target expression",
+      "content": "Since $3(x^2 - 2x) - 30 = 0$, add 30 to both sides:<br/>$$3(x^2 - 2x) = 30$$<br/>Divide by 3:<br/>$$x^2 - 2x = 10$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

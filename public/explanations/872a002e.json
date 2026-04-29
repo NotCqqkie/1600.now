@@ -1,0 +1,15 @@
+{
+  "questionId": "872a002e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent and grammatical structure",
+      "content": "The blank is a possessive determiner modifying <strong>peer autonomous Soviet socialist republics.</strong> Its antecedent\u2014the noun it refers to\u2014is the Tajik Republic, which appears as a singular entity throughout the passage."
+    },
+    {
+      "title": "Apply the possessive agreement rule",
+      "content": "A possessive determiner must agree with its antecedent in number. <strong>Its</strong> is correct because the antecedent is singular. <strong>Their</strong> violates the rule by being plural; <strong>it's</strong> and <strong>they're</strong> are verb contractions, not possessives. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

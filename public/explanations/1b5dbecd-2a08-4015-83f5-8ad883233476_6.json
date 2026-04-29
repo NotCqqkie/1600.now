@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining contrast",
+      "content": "The \u201cAlthough\u201d structure contrasts sharp effects on individuals with national-level effects that are quite ______. The supporting evidence clarifies the answer: China's GDP showed effects \u201conly slightly greater than zero.\u201d"
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Subdued (muted or restrained) perfectly captures an effect barely above zero. Variable and persistent describe different attributes (inconsistency and duration) rather than magnitude, while beneficial contradicts the minimal impact. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two clear points on the line of best fit",
+      "content": "Read the graph carefully to find points where the line passes through grid intersections or clear locations.<br/><br/>The line crosses the y-axis at approximately $(0, 12)$. Moving to the right along the line, at $x = 10$, the line passes through approximately $(10, 1)$."
+    },
+    {
+      "title": "Calculate slope using the rise-over-run formula",
+      "content": "Apply the slope formula with the two points $(0, 12)$ and $(10, 1)$:<br/><br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1 - 12}{10 - 0} = \\frac{-11}{10} = -1.1$$<br/><br/>The slope is negative because the line descends from left to right. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

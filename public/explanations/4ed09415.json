@@ -1,0 +1,15 @@
+{
+  "questionId": "4ed09415",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the three key movements",
+      "content": "The passage presents a study finding (high moonlight inhibits the bats) and explains it in cost-benefit terms. Then it generalizes: \u201cMost other nocturnal mammals respond similarly,\u201d marking the finding as representative. Finally, it introduces an exception: \u201cbut mongoose lemurs... display the opposite pattern, as their visual foraging changes the risk-reward balance\u201d\u2014so the exception is explained, not just noted."
+    },
+    {
+      "title": "Match the structure to the answer choices",
+      "content": "B correctly maps this structure: a finding with explanation, a generalization characterizing it as representative, and an exception with its own explanation. The other choices misread the passage\u2014A and D wrongly suggest the exception lacks explanation, while C invokes methodology where the text cites biology. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

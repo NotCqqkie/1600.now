@@ -1,0 +1,15 @@
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the numerical contrast between the two wind farms",
+      "content": "The passage describes two offshore wind farms with starkly different power outputs: the Beatrice at 588 MW and Hornsea Project One at 1,218 MW. The transition must signal how these numbers relate to each other."
+    },
+    {
+      "title": "Match the comparison relationship",
+      "content": "<strong>By comparison</strong> directly signals a side-by-side contrast of the two wind farms' power outputs. The other three options misidentify the relationship: <em>For instance</em> treats one farm as an example of the other; <em>As a result</em> wrongly implies causal connection; <em>That is</em> suggests restatement rather than contrast. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

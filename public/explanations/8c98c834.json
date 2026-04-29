@@ -1,0 +1,15 @@
+{
+  "questionId": "8c98c834",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the model",
+      "content": "The model y = 0.1x tells us that for each minute of practice, the pianist plays 0.1 piece. To find the number of pieces for a 30\u2011minute session, substitute x = 30 into the equation."
+    },
+    {
+      "title": "Substitute and compute",
+      "content": "$$y = 0.1 \\times 30 = 3$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

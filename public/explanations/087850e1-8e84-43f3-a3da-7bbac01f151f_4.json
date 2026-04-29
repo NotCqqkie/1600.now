@@ -1,0 +1,15 @@
+{
+  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The strongest clue is the explicit frequency contrast: \u201ccommon among prokaryotes\u201d versus \u201cit has rarely been observed among eukaryotes\u201d\u2014directly comparing how often the phenomenon appears in each organism type."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A captures the exact function: the sentence \u201ccontrasts the frequency with which a biological phenomenon has been detected in two categories of organisms.\u201d This describes the frequency opposition (common versus rarely observed) between prokaryotes and eukaryotes. The others fail: B wrongly claims two phenomena are shown as similar, C overstates that the sentence explains why the perception is flawed (it only presents the observation), and D misidentifies the focus as process mechanics rather than frequency. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

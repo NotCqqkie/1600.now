@@ -1,0 +1,15 @@
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining clue",
+      "content": "The fine grains show \u201cepisodic desiccation\u201d\u2014periodic, not permanent drying. This directly constrains what happened in the ancient environment."
+    },
+    {
+      "title": "Match the evidence to the scenario",
+      "content": "Choice A describes a lake for a prolonged period with occasional drying and periodic streams\u2014the prolonged lake explains the fine-grain dominance, the occasional drying matches the desiccation cracks in those grains, and the periodic streams account for the coarse-grain intervals. The other three choices either deny the lake existed, claim the lake never dried despite the evidence, or describe permanent rather than episodic drying. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

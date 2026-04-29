@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the weight formula",
+      "content": "The total weight equals the weight per cubic foot times the volume in cubic feet. Since the boulder weighs 160 pounds per cubic foot and has volume $V$ cubic feet:<br/>$$x = 160V$$"
+    },
+    {
+      "title": "Multiply the volume inequality by 160",
+      "content": "The volume satisfies $14.6 < V < 18.6$. Since $x = 160V$, multiply all parts of this inequality by 160 (a positive number, so the inequality direction stays the same):<br/>$$160(14.6) < 160V < 160(18.6)$$<br/>Substituting $x = 160V$:<br/>$$160(14.6) < x < 160(18.6)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

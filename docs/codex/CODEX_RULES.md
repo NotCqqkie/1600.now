@@ -18,10 +18,7 @@ State is tracked in `CODEX_LATEX_STATE.md`. Read it at the start of every run.
    - Advance `offset` by `batch_size`.
    - If `offset` >= total questions in that source, mark the source as `done` in the table and move to the next source (reset offset to 0).
    - If all sources are done, write `AUDIT COMPLETE` at the top of the file.
-6. Commit all changes directly to `main` and push to `origin/main`. No branches, no PRs.
-   - `git add <changed files>`
-   - `git commit -m "[codex] LaTeX audit: <source> questions <offset>–<end> (<N> fixes)"`
-   - `git push origin main`
+6. Do NOT commit or push — the orchestrating Claude session handles git operations after the audit batches finish. Just leave the working tree dirty with your edits.
 
 ---
 
@@ -78,6 +75,28 @@ These are a separate class of error from broken LaTeX — the math was never LaT
 - HTML entities inside math: `&lt;` → `<`, `&gt;` → `>`, `&amp;` → `&`
 - Literal `<br>` or `<br/>` inside math expressions
 
+### Verbal graph descriptions (NEW — added 2026-04-23)
+Some questions have an accessibility-style bullet description of a graph instead of an actual image, e.g.:
+
+```
+• The line slants sharply up from left to right.
+• The line passes through the following points:
+• (0, 0)
+• (2, 80)
+• (4, 160)
+• (6, 240)
+According to the graph, what is the estimated number of candy bars...
+```
+
+For each occurrence:
+1. If the points/lines describe a single line or a system of lines that can be expressed as a clean equation, REPLACE the bullet description with the equivalent equation in `$...$` (e.g. `$y = 40x$\nAccording to the graph, ...`).
+2. If the description is for a curve, scatterplot, bar chart, or anything not reducible to one or two equations, LEAVE the description in place — it is the only information the student has.
+3. NEVER strip the description without replacing the information.
+4. Look for these patterns: `slants sharply`, `slants gradually`, `passes through the following points`, `bars labeled`, `data points are clustered`, `the curve`, `scatterplot shows`.
+
+### Residual single-fragment images (NEW — added 2026-04-23)
+Skip — image audits are handled by a separate vision-capable worker. Do not modify `src/data/unofficialQuestionImageMap.ts`.
+
 ---
 
 ## Hard rules
@@ -87,14 +106,6 @@ These are a separate class of error from broken LaTeX — the math was never LaT
 - NEVER change `rationale` content beyond fixing LaTeX syntax.
 - NEVER modify `CODEX_RULES.md` or `CODEX_LATEX_STATE.md` except the state update in step 5.
 - NEVER touch `.env`, secrets, CI config, `package.json`, or any file outside the question data files and the two CODEX_ files.
-- One PR per batch. Do not skip ahead or do multiple batches per run.
-- If a source file is malformed and cannot be parsed, log the error in the state file and skip to the next source.
-- Run `git diff --stat` before pushing to confirm the only changed files are the question source and `CODEX_LATEX_STATE.md`.
-
----
-
-## Commit format
-
-- Commit directly to `main`. No branches, no PRs.
-- Message: `[codex] LaTeX audit: <source> questions <offset>–<end> (<N> fixes)`
-- Push immediately after committing: `git push origin main`
+- Process every batch the orchestrator asks for in a single run; do not stop between batches.
+- If a source file is malformed and cannot be parsed, log the error in the state file and stop.
+- Run `git diff --stat` (read-only) at the end so the orchestrator can verify what changed.

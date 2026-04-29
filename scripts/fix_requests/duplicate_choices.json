@@ -1,0 +1,628 @@
+[
+  {
+    "id": "4c95c7d4",
+    "url": "/bank/math/201?bankType=unofficial",
+    "issues": [
+      "duplicate_choices",
+      "mixed_choice_format"
+    ],
+    "note": "A graphic designer is creating a logo for a company. The logo is shown in the fi",
+    "question": {
+      "id": "4c95c7d4",
+      "type": "multiple-choice",
+      "text": "A graphic designer is creating a logo for a company. The logo is shown in the figure above. The logo is in the shape of a trapezoid and consists of three congruent equilateral triangles. If the perimeter of the logo is 20 centimeters, what is the combined area of the shaded regions, in square centimeters, of the logo?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. It\u2019s given that the logo is in the shape of a trapezoid that consists of three congruent equilateral triangles, and that the perimeter of the trapezoid is 20 centimeters (cm). Since the perimeter of the trapezoid is the sum of the lengths of 5 of the sides of the triangles, the length of each side of an equilateral triangle is the fraction 20 over 5 equals 4 centimeters. Dividing up one equilateral triangle into two right triangles yields a pair of congruent 30\u00b0-60\u00b0-90\u00b0 triangles. The shorter leg of each right triangle is half the length of the side of an equilateral triangle, or 2 cm. Using the Pythagorean Theorem, $a^2 + b^2 = c^2$, the height of the equilateral triangle can be found. Substituting $a = 2$ and $c = 4$ and solving for <em>b</em> yields the square root of, 4 squared, minus 2 squared, end root, equals the square root of 12, which equals, 2 times the square root of 3 centimeters cm. The area of one equilateral triangle is $\\frac{1}{2} b h$, where $b = 2$ and h equals, 2 times the square root of 3. Therefore, the area of one equilateral triangle is one half times 4, times, open parenthesis, 2 times the square root of 3, close parenthesis, equals, 4 times the square root of 3 centimeters squared. The shaded area consists of two such triangles, so its area is 2 times 4, times the square root of 3, equals, 8 times the square root of 3 centimeters squared.\nAlternate approach: The area of a trapezoid can be found by evaluating the expression one half times, open parenthesis, b sub 1 plus b sub 2, close parenthesis, times h, where b sub 1 is the length of one base, b sub 2 is the length of the other base, and <em>h</em> is the height of the trapezoid. Substituting b sub 1 equals 8, b sub 2 equals 4, and h equals, 2 times the square root of 3 yields the expression one half times, open parenthesis, 8 plus 4, close parenthesis, times, open parenthesis, 2 times the square root of 3, close parenthesis, or one half times 12, times, open parenthesis, 2 times the square root of 3, close parenthesis, which gives an area of 12 times the square root of 3 centimeters squared for the trapezoid. Since two-thirds of the trapezoid is shaded, the area of the shaded region is two thirds times, 12 times the square root of 3, equals, 8 times the square root of 3.\nChoice A is incorrect. This is the height of the trapezoid. Choice B is incorrect. This is the area of one of the equilateral triangles, not two. Choice D is incorrect and may result from using a height of 4 for each triangle rather than the height of 2 times the square root of 3.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "times $\\sqrt{3}$",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "times $\\sqrt{3}$",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "times $\\sqrt{3}$",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "16",
+          "image": null
+        }
+      ],
+      "section_idx": 201,
+      "url": "/bank/math/201?bankType=unofficial"
+    }
+  },
+  {
+    "id": "901e3285",
+    "url": "/bank/math/250?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "All 4 choices identical: 'degrees'",
+    "question": {
+      "id": "901e3285",
+      "type": "multiple-choice",
+      "text": "In triangle <em>ABC</em>, the measure of angle <em>A</em> is 50 degrees. If triangle <em>ABC</em> is isosceles, which of the following is NOT a possible measure of angle <em>B </em>?",
+      "correctAnswer": "D",
+      "rationale": "Choice D is correct. The sum of the three interior angles in a triangle is 180 degrees. It\u2019s given that angle <em>A</em> measures 50 degrees. If angle <em>B</em> measured 100 degrees, the measure of angle <em>C</em> would be 180 degrees minus, open parenthesis, 50 degrees plus 100 degrees, close parenthesis, equals 30 degrees. Thus, the measures of the angles in the triangle would be 50 degrees, 100 degrees, and 30 degrees. However, an isosceles triangle has two angles of equal measure. Therefore, angle <em>B</em> can\u2019t measure 100 degrees.\nChoice A is incorrect. If angle <em>B</em> has measure 50 degrees, then angle <em>C</em> would measure 180 degrees minus, open parenthesis, 50 degrees plus 50 degrees, close parenthesis, equals 80 degrees, and 50 degrees, 50 degrees, and 80 degrees could be the angle measures of an isosceles triangle. Choice B is incorrect. If angle <em>B</em> has measure 65 degrees, then angle <em>C</em> would measure 180 degrees minus, open parenthesis, 65 degrees plus 50 degrees, close parenthesis, equals 65 degrees, and 50 degrees, 65 degrees, and 65 degrees could be the angle measures of an isosceles triangle. Choice <em>C</em> is incorrect. If angle <em>B</em> has measure 80 degrees, then angle <em>C</em> would measure 180 degrees minus, open parenthesis, 80 degrees plus 50 degrees, close parenthesis, equals 50 degrees, and 50 degrees, 80 degrees, and 50 degrees could be the angle measures of an isosceles triangle.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "degrees",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "degrees",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "degrees",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "degrees",
+          "image": null
+        }
+      ],
+      "section_idx": 250,
+      "url": "/bank/math/250?bankType=unofficial"
+    }
+  },
+  {
+    "id": "a2e76b60",
+    "url": "/bank/math/279?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "Choices B-D identical: 'centimeters cubed'",
+    "question": {
+      "id": "a2e76b60",
+      "type": "multiple-choice",
+      "text": "A cylindrical can containing pieces of fruit is filled to the top with syrup before being sealed. The base of the can has an area of 75 centimeters squared, and the height of the can is 10 cm. If 110 centimeters cubed of syrup is needed to fill the can to the top, which of the following is closest to the total volume of the pieces of fruit in the can?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. The total volume of the cylindrical can is found by multiplying the area of the base of the can, 75 square centimeters, by the height of the can, 10 cm, which yields 750 cubic centimeters. If the syrup needed to fill the can has a volume of 110 cubic centimeters, then the remaining volume for the pieces of\nfruit is 750 minus 110, equals 640 cubic centimeters.\nChoice A is incorrect because if the fruit had a volume of 7 point 5 cubic centimeters, there would be 750 minus 7 point 5, equals 742 point 5 cubic centimeters of syrup needed to fill the can to the top. Choice B is incorrect because if the fruit had a volume of 185 cubic centimeters, there would be 750 minus 185, equals 565 cubic centimeters of syrup needed to fill the can to the top. Choice D is incorrect because it is the total volume of the can, not just of the pieces of fruit.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "point 5 centimeters cubed",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "centimeters cubed",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "centimeters cubed",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "centimeters cubed",
+          "image": null
+        }
+      ],
+      "section_idx": 279,
+      "url": "/bank/math/279?bankType=unofficial"
+    }
+  },
+  {
+    "id": "0b46bad5",
+    "url": "/bank/math/521?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "$a x + b y = b$\nIn the equation above, <em>a</em> and <em>b</em> are constant...",
+    "question": {
+      "id": "0b46bad5",
+      "type": "multiple-choice",
+      "text": "$a x + b y = b$\nIn the equation above, <em>a</em> and <em>b</em> are constants and $0 < a < b$. Which of the following could represent the graph of the equation in the <em>xy</em>-plane?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. The given equation $a x + b y = b$ can be rewritten in slope-intercept form, $y = m x + k$, where <em>m</em> represents the slope of the line represented by the equation, and <em>k</em> represents the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. Subtracting <em>ax</em> from both sides of the equation yields $b y = - a x + b$, and dividing both sides of this equation by <em>b</em> yields y equals, the negative of the fraction a over b, end fraction, times x, plus, the fraction b over b, end fraction, or y equals, the negative of the fraction a over b, end fraction, times x, plus 1. With the equation now in slope-intercept form, it shows that $k = 1$, which means the <em>y</em>-coordinate of the <em>y</em>-intercept is 1. It\u2019s given that <em>a</em> and <em>b</em> are both greater than 0 (positive) and that a is less than b. Since m equals, the negative of the fraction a over b, the slope of the line must be a value between $- 1$ and 0. Choice C is the only graph of a line that has a <em>y</em>-value of the <em>y</em>-intercept that is 1 and a slope that is between $- 1$ and 0.\nChoices A, B, and D are incorrect because the slopes of the lines in these graphs aren\u2019t between $- 1$ and 0.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "",
+          "image": null
+        }
+      ],
+      "section_idx": 521,
+      "url": "/bank/math/521?bankType=unofficial"
+    }
+  },
+  {
+    "id": "b31c3117",
+    "url": "/bank/math/522?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "$h = 120p + 60$\nThe Karvonen formula above shows the relationship between Ali...",
+    "question": {
+      "id": "b31c3117",
+      "type": "multiple-choice",
+      "text": "$h = 120p + 60$\nThe Karvonen formula above shows the relationship between Alice\u2019s target heart rate <em>H</em>, in beats per minute (bpm), and the intensity level <em>p</em> of different activities. When $p = 0$, Alice has a resting heart rate. When $p = 1$, Alice has her maximum heart rate. It is recommended that <em>p</em> be between 0.5 and 0.85 for Alice when she trains. Which of the following inequalities describes Alice\u2019s target training heart rate?",
+      "correctAnswer": "A",
+      "rationale": "Choice A is correct. When Alice trains, it\u2019s recommended that <em>p</em> be between 0.5 and 0.85. Therefore, her target training heart rate is represented by the values of <em>H</em> corresponding to 0 point 5 is less than or equal to p, which is less than or equal to 0 point 8 5. When $p = 0.5$, $h = 120 \\times 0.5 + 60$, or $h = 120$. When $p = 0.85$, $h = 120 \\times 0.85 + 60$, or $h = 162$. Therefore, the inequality that describes Alice\u2019s target training heart rate is 120 is less than or equal to H, which is less than or equal to 162.\nChoice B is incorrect. This inequality describes Alice\u2019s target heart rate for 0 point 3 5 is less than or equal to p, which is less than or equal to 0 point 5. Choice C is incorrect. This inequality describes her target heart rate for 0 is less than or equal to p, which is less than or equal to 0 point 8 5. Choice D is incorrect. This inequality describes her target heart rate for 0 is less than or equal to p, which is less than or equal to 0 point 3 5.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "is less than or equal to H, which is less than or equal to 162",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "is less than or equal to H, which is less than or equal to 120",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "is less than or equal to H, which is less than or equal to 162",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "is less than or equal to H, which is less than or equal to 102",
+          "image": null
+        }
+      ],
+      "section_idx": 522,
+      "url": "/bank/math/522?bankType=unofficial"
+    }
+  },
+  {
+    "id": "915463e0",
+    "url": "/bank/math/640?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "Normal body temperature for an adult is between 97 point 8 degrees Fahrenheit an",
+    "question": {
+      "id": "915463e0",
+      "type": "multiple-choice",
+      "text": "Normal body temperature for an adult is between 97 point 8 degrees Fahrenheit and 99 degrees Fahrenheit, inclusive. If Kevin, an adult male, has a body temperature that is considered to be normal, which of the following could be his body temperature?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. Normal body temperature must be greater than or equal to 97.8&deg;F but less than or equal to 99&deg;F. Of the given choices, 97.9&deg;F is the only temperature that fits these restrictions.\nChoices A and B are incorrect. These temperatures are less than 97.8&deg;F, so they don&rsquo;t fit the given restrictions. Choice D is incorrect. This temperature is greater than 99&deg;F, so it doesn&rsquo;t fit the given restrictions.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "point 7 degrees Fahrenheit",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "point 6 degrees Fahrenheit",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "point 9 degrees Fahrenheit",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "point 7 degrees Fahrenheit",
+          "image": null
+        }
+      ],
+      "section_idx": 640,
+      "url": "/bank/math/640?bankType=unofficial"
+    }
+  },
+  {
+    "id": "628300a9",
+    "url": "/bank/math/808?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "A science teacher is preparing the 5 stations of a science laboratory. Each stat",
+    "question": {
+      "id": "628300a9",
+      "type": "multiple-choice",
+      "text": "A science teacher is preparing the 5 stations of a science laboratory. Each station will have either Experiment A materials or Experiment B materials, but not both. Experiment A requires 6 teaspoons of salt, and Experiment B requires 4 teaspoons of salt. If <em>x</em> is the number of stations that will be set up for Experiment A and the remaining stations will be set up for Experiment B, which of the following expressions represents the total number of teaspoons of salt required?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. It is given that <em>x</em> represents the number of stations that will be set up for Experiment A and that there will be 5 stations total, so it follows that 5 &ndash; <em>x</em> is the number of stations that will be set up for Experiment B. It is also given that Experiment A requires 6 teaspoons of salt and that Experiment B requires 4 teaspoons of salt, so the total number of teaspoons of salt required is 6<em>x</em> + 4(5 &ndash; <em>x</em>), which simplifies to 2<em>x</em> + 20.\nChoices A, B, and D are incorrect and may be the result of not understanding the description of the context.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "x",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "$2x + 20$",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "$10x + 20$",
+          "image": null
+        }
+      ],
+      "section_idx": 808,
+      "url": "/bank/math/808?bankType=unofficial"
+    }
+  },
+  {
+    "id": "8917ce38",
+    "url": "/bank/math/1051?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "duplicate_choices",
+    "question": {
+      "id": "8917ce38",
+      "type": "multiple-choice",
+      "text": "Which of the following speeds is equivalent to 90 kilometers per hour? (1 kilometer = 1,000 meters)",
+      "correctAnswer": "A",
+      "rationale": "Choice A is correct. Since 1 kilometer is equal to 1,000 meters, it follows that 90 kilometers is equal to $90 \\times 1 000 = 90 000$ meters. Since 1 hour is equal to 60 minutes and 1 minute is equal to 60 seconds, it follows that 1 hour is equal to $60 \\times 60 = 3 600$ seconds. Now the fraction 90 kilometers over 1 hour is equal to the fraction 90,000 meters over 3,600 seconds, which reduces to the fraction 25 meters over 1 second or 25 meters per second.\nChoices B, C, and D are incorrect and may result from conceptual or calculation errors.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "meters per second",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "meters per second",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "meters per second",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "meters per second",
+          "image": null
+        }
+      ],
+      "section_idx": 1051,
+      "url": "/bank/math/1051?bankType=unofficial"
+    }
+  },
+  {
+    "id": "ab7740a8",
+    "url": "/bank/math/1107?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "duplicate_choices",
+    "question": {
+      "id": "ab7740a8",
+      "type": "multiple-choice",
+      "text": "In which of the following tables is the relationship between the values of <em>x</em> and their corresponding <em>y</em>-values nonlinear?",
+      "correctAnswer": "D",
+      "rationale": "Choice D is correct. The relationship between the values of <em>x</em> and their corresponding <em>y</em>-values is nonlinear if the rate of change between these pairs of values isn\u2019t constant. The table for choice D gives four pairs of values: the point with coordinates 1 comma 6, the point with coordinates 2 comma 12, the point with coordinates 3 comma 24, and the point with coordinates 4 comma 48. Finding the rate of change, or slope, between the point with coordinates 1 comma 6 and the point with coordinates 2 comma 12 by using the slope formula, the fraction with numerator y sub 2 minus y sub 1, and denominator x sub 2 minus x sub 1, end fraction, yields the fraction with numerator 12 minus 6, and denominator 2 minus 1, end fraction, or 6. Finding the rate of change between the point with coordinates 2 comma 12 and the point with coordinates 3 comma 24 yields the fraction with numerator 24 minus 12, and denominator 3 minus 2, end fraction, or 12. Finding the rate of change between the point with coordinates 3 comma 24 and the point with coordinates 4 comma 48 yields the fraction with numerator 48 minus 24, and denominator 4 minus 3, end fraction, or 24. Since the rate of change isn\u2019t constant for these pairs of values, this table shows a nonlinear relationship.\nChoices A, B, and C are incorrect. The rate of change between the values of <em>x</em> and their corresponding <em>y</em>-values in each of these tables is constant, being 3, 4, and 5, respectively. Therefore, each of these tables shows a linear relationship.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "",
+          "image": null
+        }
+      ],
+      "section_idx": 1107,
+      "url": "/bank/math/1107?bankType=unofficial"
+    }
+  },
+  {
+    "id": "808f7d6c",
+    "url": "/bank/math/1217?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "Choices A and B both text 'u'",
+    "question": {
+      "id": "808f7d6c",
+      "type": "multiple-choice",
+      "text": "If $t = 4u$, which of the following is equivalent to 2 t?",
+      "correctAnswer": "A",
+      "rationale": "Choice A is correct. It\u2019s given that $t = 4u$. Multiplying both sides of this equation by 2 yields $2t = 2 \\times 4u$, or $2t = 8u$.\nChoice B is incorrect and may result from dividing, instead of multiplying, the right-hand side of the equation by 2. Choices C and D are incorrect and may result from calculation errors.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "u",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "u",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "$u$",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "one-half u",
+          "image": null
+        }
+      ],
+      "section_idx": 1217,
+      "url": "/bank/math/1217?bankType=unofficial"
+    }
+  },
+  {
+    "id": "635f54ee",
+    "url": "/bank/math/1382?bankType=unofficial",
+    "issues": [
+      "duplicate_choices",
+      "truncated_text"
+    ],
+    "note": "multiple-choice - 4 choices",
+    "question": {
+      "id": "635f54ee",
+      "type": "multiple-choice",
+      "text": "The surface area of a cube is 6 times, open parenthesis, the fraction a, over 4, close parenthesis, squared, where <em>a</em> is a positive constant. Which of the following gives the perimeter of one face of the cube?",
+      "correctAnswer": "B",
+      "rationale": "Choice B is correct. A cube has 6 faces of equal area, so if the total surface area of a cube is $6 \\times (a / 4)^2$, then the area of one face is $(a / 4)^2$. Likewise, the area of one face of a cube is the square of one of its edges; therefore, if the area of one face is $(a / 4)^2$, then the length of one edge of the cube is $a / 4$. Since the perimeter of one face of a cube is four times the length of one edge, the perimeter is 4 times the fraction a, over 4, equals a.\nChoice A is incorrect because if the perimeter of one face of the cube is $a / 4$, then the total surface area of the cube is 6 times, open parenthesis, the fraction with numerator a, over 4, and denominator 4, close parenthesis, squared, equals, 6 times, open parenthesis, a, over 16, close parenthesis, squared, which is not $6 \\times (a / 4)^2$. Choice C is incorrect because if the perimeter of one face of the cube is 4<em>a</em>, then the total surface area of the cube is 6 times, open parenthesis, the fraction 4 a, over 4, close parenthesis, squared, equals 6 a, squared, which is not $6 \\times (a / 4)^2$. Choice D is incorrect because if the perimeter of one face of the cube is 6<em>a</em>, then the total surface area of the cube is 6 times, open parenthesis, the fraction 6 a, over 4, close parenthesis, squared, equals, 6 times, open parenthesis, the fraction 3 a, over 2, close parenthesis, squared, which is not $6 \\times (a / 4)^2$.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the fraction a, over 4",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "$a$",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "a",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "a",
+          "image": null
+        }
+      ],
+      "section_idx": 1382,
+      "url": "/bank/math/1382?bankType=unofficial"
+    }
+  },
+  {
+    "id": "d46da42c",
+    "url": "/bank/math/1389?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "multiple-choice - 4 choices",
+    "question": {
+      "id": "d46da42c",
+      "type": "multiple-choice",
+      "text": "$f(x) = x^2 + 4$\nThe function <em>f</em> is defined as shown. Which of the following graphs in the <em>xy</em>-plane could be the graph of $y = f(x)$?",
+      "correctAnswer": "D",
+      "rationale": "Choice D is correct. For the quadratic function f of x equals, x squared, plus 4, the vertex of the graph is the point with coordinates 0 comma 4, and because the $x^2$ term is positive, the vertex is the minimum of the function. Choice D is the only option that meets these conditions.\nChoices A, B, and C are incorrect. The vertex of each of these graphs doesn\u2019t correspond to the minimum of the given function.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;",
+          "image": null
+        }
+      ],
+      "section_idx": 1389,
+      "url": "/bank/math/1389?bankType=unofficial"
+    }
+  },
+  {
+    "id": "df0ef054",
+    "url": "/bank/math/1412?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "multiple-choice - 4 choices",
+    "question": {
+      "id": "df0ef054",
+      "type": "multiple-choice",
+      "text": "$(2x^3 + 3x) \\times (x^3 -2x)$\nWhich of the following is equivalent to the expression above?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. Using the distributive property to multiply the terms in the parentheses yields $(2x^3 \\times x^3) + (2x^3 \\times - 2x) + (3x \\times x^3) + (3x \\times - 2x)$, which is equivalent to 2 x to the sixth power minus 4 x to the fourth power, plus 3 x to the fourth power, minus 6 x squared. Combining like terms results in 2 x to the sixth power minus x to the fourth power, minus 6 x squared.\nChoices A and D are incorrect and may result from conceptual errors when multiplying the terms in the given expression. Choice B is incorrect and may result from adding, instead of multiplying, $(2x^3 + 3x)$ and $(x^3 - 2x)$.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$x^3 + 5x$",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "$3x^3 + x$",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "$x^6 - x^4 -6x^2$",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "$x^6 - x^4 -6x^2$",
+          "image": null
+        }
+      ],
+      "section_idx": 1412,
+      "url": "/bank/math/1412?bankType=unofficial"
+    }
+  },
+  {
+    "id": "0147b080",
+    "url": "/bank/reading/846?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "All 4 choices truncated to 'meters tall.'",
+    "question": {
+      "id": "0147b080",
+      "type": "multiple-choice",
+      "text": "A student is writing an essay about four pyramids for a history class and wants to note how long ago each pyramid was built and how tall each pyramid is. Consulting the table, the student finds that el Castillo was built 1,100 to 1,400 years ago and is ______ Which choice most effectively uses data from the table to complete the text?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is the best answer because it most effectively uses data from the table to complete the text about the el Castillo pyramid. The table presents information for the location, height, and age of four pyramids, and the task is to use the data from the table to complete the text by choosing the correct height for el Castillo, which the table shows is 40 meters.\nChoice A is incorrect because, according to the table, el Castillo is 40 meters tall, not 33 meters, which is the height of the Great Pyramid in Mexico. Choice B is incorrect because, according to the table, el Castillo is 40 meters tall, not 47 meters, which is the height of the Pyramid of Sahure in Egypt. Choice D is incorrect because, according to the table, el Castillo is 40 meters tall, not 60 meters, which is the height of the Pyramid of Djoser in Egypt.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "meters tall.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "meters tall.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "meters tall.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "meters tall.",
+          "image": null
+        }
+      ],
+      "section_idx": 846,
+      "url": "/bank/reading/846?bankType=unofficial"
+    }
+  },
+  {
+    "id": "3fc06a91",
+    "url": "/bank/reading/930?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "Choices B and C both say 'with the employment by sector in 2012'",
+    "question": {
+      "id": "3fc06a91",
+      "type": "multiple-choice",
+      "text": "Rows in table may not add up to 100 due to rounding.\nOver the past two hundred years, the percentage of the population employed in the agricultural sector has declined in both France and the United States, while employment in the service sector (which includes jobs in retail, consulting, real estate, etc.) has risen. However, this transition happened at very different rates in the two countries. This can be seen most clearly by comparing the employment by sector in both countries in ______ Which choice most effectively uses data from the table to complete the statement?",
+      "correctAnswer": "A",
+      "rationale": "Choice A is the best answer because it presents data from the table that most effectively complete the statement about the rates at which employment shifted in France and the United States. The text states that over the last two hundred years employment in the agricultural sector has declined while employment in the service sector has risen in both France and the US, and the data from the table reflect these trends. The text asserts, however, that the transition from agriculture to services \u201chappened at very different rates in the two countries.\u201d This assertion is best supported by a comparison of data from 1900 and 1950: the table shows that in those years, employment in agriculture went from 43% to 32% in France (a decline of 11 percentage points) and from 41% to 14% in the US (a decline of 27 percentage points), and that employment in services went from 28% to 35% in France (an increase of 7 percentage points) and from 31% to 53% in the US (an increase of 22 percentage points). In other words, the rate of change was greater in the US than in France for both sectors.\nChoice B is incorrect because comparing the data for 1800 and 2012 would suggest a similar rate of change in the two countries, not very different rates: employment in agriculture went from 64% in 1800 to 3% in 2012 in France, which is close to the change from 68% in 1800 to 2% in 2012 in the US, while employment in services went from 14% in 1800 to 76% in 2012 in France, which is close to the change from 13% in 1800 to 80% in 2012 in the US. Choice C is incorrect because comparing the data for 1900 and 2012 would suggest a similar rate of change in the two countries rather than very different rates: employment in agriculture went from 43% in 1900 to 3% in 2012 in France, which is close to the change from 41% in 1900 to 2% in 2012 in the US, while employment in services went from 28% in 1900 to 76% in 2012 in France, which is close to the change from 31% in 1900 to 80% in 2012 in the US. Choice D is incorrect because comparing the data for 1800 and 1900 would suggest a similar rate of change in the two countries, not very different rates: employment in agriculture went from 64% in 1800 to 43% in 1900 in France, which is fairly close to the change from 68% in 1800 to 41% in 1900 in the US, while employment in services went from 14% in 1800 to 28% in 1900 in France, which is close to the change from 13% in 1800 to 31% in 1900 in the US.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "with the employment by sector in 1950.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "with the employment by sector in 2012.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "with the employment by sector in 2012.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "with the employment by sector in 1900.",
+          "image": null
+        }
+      ],
+      "section_idx": 930,
+      "url": "/bank/reading/930?bankType=unofficial"
+    }
+  },
+  {
+    "id": "7c21b4b5",
+    "url": "/bank/reading/992?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "A survey listed methods for signing into online accounts. Participants in differ",
+    "question": {
+      "id": "7c21b4b5",
+      "type": "multiple-choice",
+      "text": "A survey listed methods for signing into online accounts. Participants in different countries were asked to choose the sign-in method they view as most secure. The table presents data for two of the methods. According to the table, onetime passcodes were viewed as most secure by ______ Which choice most effectively uses data from the table to complete the text?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is the best answer because it most effectively uses data from the table to complete the text about survey results for online account sign-in methods. According to the table, 8 percent of participants in Japan viewed onetime passcodes as the most secure sign-in method. This is the only choice that correctly represents data in the table.\nChoice A is incorrect because according to the table, 33 percent of participants in the UK viewed biometrics, not onetime passcodes, as the most secure sign-in method; onetime passcodes were viewed as the most secure method by 16 percent of these participants. Choice B is incorrect because according to the table, 22 percent of participants in India viewed biometrics, not onetime passcodes, as the most secure sign-in method; onetime passcodes were viewed as the most secure method by 25 percent of these participants. Choice D is incorrect because according to the table, the country in which 16 percent of participants viewed onetime passcodes as the most secure sign-in method was the UK, not India; of participants in India, 25 percent viewed such passcodes as the most secure method.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "percent of survey participants in the UK.",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "percent of survey participants in India.",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "percent of survey participants in Japan.",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "percent of survey participants in India.",
+          "image": null
+        }
+      ],
+      "section_idx": 992,
+      "url": "/bank/reading/992?bankType=unofficial"
+    }
+  }
+]

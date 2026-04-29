@@ -1,0 +1,15 @@
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the source gap",
+      "content": "Geoffrey's <em>History of the Kings of Britain</em> and all earlier works lack the Round Table, while Malory's <em>Le Morte d'Arthur</em> includes it. This gap\u2014absence in earlier sources, presence in Malory's compilation\u2014reveals where Malory's Round Table came from."
+    },
+    {
+      "title": "Connect the gap to the answer",
+      "content": "Choice B explains this pattern: Malory found the Round Table in a source that Geoffrey of Monmouth wasn't familiar with. A, C, and D each falter\u2014A by broadening the scope to overall similarity, C by reversing the timeline logic, and D by contradicting what Malory actually chose. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

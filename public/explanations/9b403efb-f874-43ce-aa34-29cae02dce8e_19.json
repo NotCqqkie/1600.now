@@ -1,0 +1,15 @@
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Before the blank: an independent clause \u2014 <em>\u201cimprovements in efficiency often correlate negatively with resource conservation.\u201d</em><br/>After the blank: the word <strong>though</strong> followed by another clause about efficiency gains.<br/>This is where a subordinating conjunction connects an independent clause to a clause that follows."
+    },
+    {
+      "title": "Apply the rule for subordinating conjunctions",
+      "content": "When a subordinating conjunction like <strong>though</strong> introduces a clause after an independent clause, use a comma before it and no punctuation after.<br/>Options A, B, and D violate this by using semicolons or adding extra commas where they don't belong.<br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the hypothesis-and-refutation pattern",
+      "content": "The underlined sentence presents an intuitive explanation\u2014\u201dthe difference is due to different levels of access to parks\u201d\u2014and the word \u201chowever\u201d that follows signals the text will challenge it."
+    },
+    {
+      "title": "Identify which choice describes this pattern",
+      "content": "The underlined portion presents a potential explanation for the team's findings that the text then refutes (the \u201chowever\u201d clause shows proximity doesn't actually account for the difference in usage). Choices A, B, and C describe unrelated functions. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

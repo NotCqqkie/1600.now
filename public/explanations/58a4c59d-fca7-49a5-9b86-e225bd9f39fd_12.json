@@ -1,0 +1,15 @@
+{
+  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the hypothesis predicts",
+      "content": "The hypothesis predicts that paired leaves should show opposite-side orientation, so supporting data must demonstrate opposite-side counts exceeding same-side counts across the tested species."
+    },
+    {
+      "title": "Find the choice matching the prediction",
+      "content": "Choice C states that all three species show more opposite-side pairs than same-side pairs (Graybark 270 > 100, Amur 150 > 70, July 200 > 100). Choices A and D mischaracterize the magnitudes, while B falsely claims all pairs are opposite-side. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

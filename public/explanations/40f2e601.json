@@ -1,0 +1,15 @@
+{
+  "questionId": "40f2e601",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide both sides by N",
+      "content": "Starting with $P = N(19 - C)$, divide both sides by $N$:<br/>$$\\frac{P}{N} = 19 - C$$"
+    },
+    {
+      "title": "Rearrange to solve for C",
+      "content": "Subtract 19 from both sides:<br/>$$\\frac{P}{N} - 19 = -C$$<br/><br/>Multiply both sides by $-1$:<br/>$$C = 19 - \\frac{P}{N}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -3 into the function",
+      "content": "We need to find $h(-3)$ where $h(x) = 5x - 9$. Substitute $x = -3$ directly:$$h(-3) = 5(-3) - 9$$"
+    },
+    {
+      "title": "Evaluate following order of operations",
+      "content": "Calculate multiplication first: $5(-3) = -15$. Then subtract: $-15 - 9 = -24$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

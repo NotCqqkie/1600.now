@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The first sentence describes a gap in the rock record where material is missing from the stratigraphic sequence. The second sentence then explains those missing years: time \u201cdid not stand still,\u201d and the material was removed by geological processes. The key signal is this phrase \u201cdid not stand still\u201d \u2014 it clarifies an obvious fact about what happened during the gap."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "\u201dOf course\u201d is the correct transition because it marks the second sentence as an obvious clarification: of course time didn't stand still; of course geological processes removed the material. The other choices misfit: \u201cIn particular\u201d introduces a specific example; \u201cOn the contrary\u201d implies an unstated contradiction; \u201cAs a result\u201d reverses causation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

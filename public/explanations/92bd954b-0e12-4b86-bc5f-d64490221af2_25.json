@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signal",
+      "content": "The word <em>However</em> at the beginning of the second sentence signals a contrast between the claim about the word\u2019s first use and the actual language Chaucer wrote in.<br/>This contrast tells us that the blank after the semicolon needs a word that introduces a correction or alternative."
+    },
+    {
+      "title": "Apply the contrast to the choices",
+      "content": "The transition <em>rather</em> expresses a correction\u2014instead\u2014which fits the contrast set up by <em>However</em>.<br/>The other three choices either show cause\u2011effect (as a result,), similarity (similarly,) or sequence (finally,) and do not match the contrast.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

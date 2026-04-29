@@ -1,0 +1,16 @@
+{
+  "questionId": "89f20d9e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract table values for age \u2265 10",
+      "content": "From the table, participants aged 10\u201419 total 30, and those aged 20+ total 30, giving 60 participants with age \u2265 10. Among these, Group A has 17 (ages 10\u201419) and 8 (ages 20+), totaling 25 from Group A."
+    },
+    {
+      "title": "Calculate the conditional probability",
+      "formula": "$$P(A|B) = \\frac{\\text{Number in A and B}}{\\text{Number in B}}$$",
+      "content": "P(Group A | age \u2265 10) = $\\frac{25}{60} = \\frac{5}{12}$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

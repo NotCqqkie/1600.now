@@ -1,0 +1,15 @@
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures: independent clauses with a transition word",
+      "content": "The first part (\u201cMany works of the Greek historian Strabo are lost\u201d) is an independent clause. The second part (\u201chis Geographica is an extant work\u201d) is also an independent clause. The word \u201cconversely\u201d acts as a transition between them."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "When a transition word joins independent clauses, it must be preceded by a period or semicolon, never just a comma. A correctly uses \u201clost. Conversely,\u201d with a period. B, C, and D violate this rule by using commas alone or creating malformed structures with \u201cand.\u201d That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

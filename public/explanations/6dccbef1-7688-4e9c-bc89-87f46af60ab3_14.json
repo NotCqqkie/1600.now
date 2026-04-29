@@ -1,0 +1,19 @@
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute R equals 18 into the given equation",
+      "content": "Replace $R$ with 18 in $\\frac{CV^{2}}{P}=\\sqrt{PR}$:<br/><br/>$$\\frac{CV^{2}}{P}=\\sqrt{18P}$$"
+    },
+    {
+      "title": "Square both sides to eliminate the square root",
+      "content": "$$\\left(\\frac{CV^{2}}{P}\\right)^2=(\\sqrt{18P})^2$$<br/><br/>$$\\frac{C^2V^{4}}{P^2}=18P$$"
+    },
+    {
+      "title": "Isolate P cubed and solve for P",
+      "content": "Multiply both sides by $P^2$, then divide by 18:<br/><br/>$$C^2V^{4}=18P^3$$<br/>$$P^3 = \\frac{C^2V^{4}}{18}$$<br/><br/>Take the cube root of both sides:<br/><br/>$$P = \\sqrt[3]{\\frac{C^2V^{4}}{18}}$$<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

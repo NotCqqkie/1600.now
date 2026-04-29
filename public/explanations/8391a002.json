@@ -1,0 +1,15 @@
+{
+  "questionId": "8391a002",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the digestibility obstacles",
+      "content": "The passage lists four specific barriers to digestion and nutrient absorption: soluble fiber, raffinose, tannins, and trypsin inhibitors. To support the claim that fermentation improves digestibility and nutrition, a finding must show that fermentation reduces these obstacles."
+    },
+    {
+      "title": "Match the evidence to the claim",
+      "content": "Choice B directly supports the claim by showing fermented beans contain less soluble fiber and raffinose than nonfermented beans, and when cooked, display reduced trypsin inhibitors and tannins\u2014addressing all four identified barriers. The other three fail: A contradicts by showing increased antinutrients, C identifies bacteria without demonstrating barrier reduction, and D suggests cooking alone provides the benefit. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

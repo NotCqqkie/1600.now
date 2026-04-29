@@ -1,0 +1,15 @@
+{
+  "questionId": "84d0d07e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total cost expression",
+      "content": "Shirts cost $15 each and pants cost $25 each. If Geoff buys <em>s</em> shirts and <em>p</em> pairs of pants, the total spent is:<br/>$$15s + 25p$$"
+    },
+    {
+      "title": "Translate the spending constraint",
+      "content": "Geoff can spend <em>at most</em> $120. The phrase <em>at most</em> means the total spending cannot exceed $120, which translates to $\\le$:<br/>$$15s + 25p \\le 120$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

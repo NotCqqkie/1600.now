@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_12",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the given equivalent form",
+      "content": "Expand $ry^4(9y - 6)$ using the distributive property:<br/>$$ry^4(9y - 6) = 9ry^5 - 6ry^4$$"
+    },
+    {
+      "title": "Match coefficients with the original expression",
+      "content": "Compare this to $54y^5 - 36y^4$. The coefficient of the $y^5$ term gives us: $9r = 54$, so $r = 6$.<br/><br/>Verify with the $y^4$ coefficient: $-6r = -6(6) = -36$ \u2713<br/><br/>Therefore, $r = 6$."
+    }
+  ]
+}

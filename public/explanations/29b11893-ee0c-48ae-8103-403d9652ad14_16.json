@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify that both equations represent the same line",
+      "content": "The second equation is 6 times the first:<br/><br/>$$6(5x + 7y) = 6(8) \\Rightarrow 30x + 42y = 48$$<br/><br/>Since the equations are identical, the system has infinitely many solutions\u2014all points on the line $5x + 7y = 8$."
+    },
+    {
+      "title": "Parametrize the line by setting x = r",
+      "content": "Let $x = r$ (any real number). Substitute into the line equation:<br/><br/>$$5r + 7y = 8$$<br/>$$y = -\\frac{5r}{7} + \\frac{8}{7}$$<br/><br/>So the point $\\left(r, -\\frac{5r}{7} + \\frac{8}{7}\\right)$ satisfies both equations for any real $r$. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

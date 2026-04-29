@@ -1,0 +1,15 @@
+{
+  "questionId": "821e724e",
+  "correctAnswer": "336",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the point (24, 0) to find t",
+      "content": "Since the graph passes through $(24, 0)$, the function value at $x = 24$ is zero: $g(24) = 0$.<br/><br/>$$(24 + 14)(t - 24) = 0$$<br/><br/>$$38(t - 24) = 0$$<br/><br/>Since $38 \\neq 0$, we must have $t - 24 = 0$, so $t = 24$."
+    },
+    {
+      "title": "Evaluate g(0)",
+      "content": "With $t = 24$, calculate $g(0)$:<br/><br/>$$g(0) = (0 + 14)(24 - 0) = 14 \\cdot 24 = 336$$"
+    }
+  ]
+}

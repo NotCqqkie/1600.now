@@ -1,0 +1,15 @@
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the core claim",
+      "content": "The researchers conclude that some species manage oxygen storage with negligible Mb assistance \u2014 requiring evidence of extremely low Mb in at least one species."
+    },
+    {
+      "title": "Locate the supporting data",
+      "content": "<em>P. buchholzi</em> has an average Mb level of 0.02, showing this species operates with negligibly low Mb levels. Choices A, B, and D present comparisons or statistical patterns rather than exposing the negligibly low absolute level. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f114cbf0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shift in conditions",
+      "content": "The first sentence explains the mechanism by which a firefly produces glow: drawing oxygen in triggers a chemical reaction that creates light. The blank then transitions to what happens in the opposite scenario\u2014when oxygen stops being drawn in. The passage shifts between these two contrasting conditions."
+    },
+    {
+      "title": "Match the transition to the opposing states",
+      "content": "\u201dBy contrast,\u201d correctly introduces the logical opposition between the state where oxygen is present (glow is produced) and the state where it is absent (glow ceases). This transition highlights how the second situation directly mirrors the reverse of the first, reinforcing the causal mechanism. The other options fail: \u201cFor instance,\u201d would introduce an example of the mechanism (not a different condition); \u201cSpecifically,\u201d would add detail to the glow-producing process (not reverse it); \u201cIn conclusion,\u201d would suggest finishing the discussion (not comparing two scenarios). <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

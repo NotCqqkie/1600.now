@@ -1,0 +1,15 @@
+{
+  "questionId": "b7571c0a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the problem-solution structure",
+      "content": "The <strong>\u201cbut\u201d</strong> signals a constraint: practical effects are superior but too expensive. This problem must lead to the filmmakers' response in the next sentence."
+    },
+    {
+      "title": "Match the causal link",
+      "content": "<strong>\u201cFor this reason,\u201d</strong> expresses that the blended approach is a consequence of the cost constraint \u2014 it's the solution to the problem just stated. The other three don't establish this cause-and-effect logic: they suggest comparison, additional information, or restatement instead. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

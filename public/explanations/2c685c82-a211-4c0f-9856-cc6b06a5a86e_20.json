@@ -1,0 +1,20 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_20",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange to standard quadratic form",
+      "content": "Starting with $kx^2 - 16x = 24x^2 - 8$, move all terms to one side:<br/>$$kx^2 - 16x - 24x^2 + 8 = 0$$<br/>$$(k - 24)x^2 - 16x + 8 = 0$$<br/><br/>This is a quadratic equation in standard form $ax^2 + bx + c = 0$ with $a = k-24$, $b = -16$, and $c = 8$."
+    },
+    {
+      "title": "Apply discriminant condition for two distinct real solutions",
+      "content": "For two distinct real solutions, we need $\\Delta = b^2 - 4ac > 0$.<br/>$$(-16)^2 - 4(k-24)(8) > 0$$<br/>$$256 - 32(k-24) > 0$$<br/>$$256 - 32k + 768 > 0$$<br/>$$1024 - 32k > 0$$<br/>$$k < 32$$",
+      "formula": "$$\\Delta = b^2 - 4ac > 0$$"
+    },
+    {
+      "title": "Find the greatest integer value",
+      "content": "Since $k$ is an integer and must satisfy $k < 32$, the greatest possible value is $k = 31$."
+    }
+  ]
+}

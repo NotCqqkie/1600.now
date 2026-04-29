@@ -1,0 +1,15 @@
+{
+  "questionId": "2bca654a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what structure needs to follow the em dash",
+      "content": "The sentence opens with a participial phrase <strong>Forming extensive networks via mycorrhizal association</strong> followed by an appositive clarification <strong>that is, a symbiotic relationship between plants and fungi</strong>. The blank must be filled with a main clause that provides a grammatical subject."
+    },
+    {
+      "title": "Match the subject to who's performing the action",
+      "content": "The rule is that a participial phrase opening a sentence must have a subject that logically performs the action of the participle. Option D provides <strong>pine trees and the fungus <em>Tricholoma matsutake</em></strong> as that subject, correctly identifying what forms the extensive networks. The other options violate this rule by using subjects that don't logically perform the forming action: <strong>it</strong>, <strong>the transport of nutrients</strong>, and <strong>nutrients</strong> respectively. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

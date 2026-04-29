@@ -1,0 +1,20 @@
+{
+  "questionId": "2e74e403",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two clear points on the line of best fit",
+      "content": "Looking at the line, it passes through two easily readable points: the y-intercept at $(0, 8)$ and the point at $(10, 1)$.",
+      "desmosExpressions": [
+        "(0, 8)",
+        "(10, 1)",
+        "y = -0.7x + 8"
+      ]
+    },
+    {
+      "title": "Calculate slope using the rise-over-run formula",
+      "content": "Apply the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Substituting $(0, 8)$ and $(10, 1)$:<br/><br/>$$m = \\frac{1 - 8}{10 - 0} = \\frac{-7}{10} = -0.7$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

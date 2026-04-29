@@ -1,0 +1,15 @@
+{
+  "questionId": "5632ffb4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the confounding variable",
+      "content": "The passage states the researchers \u201cneglected to control for the physical difficulty of the tasks\u201d and then judged all monkeys by the same criteria, despite assigning tasks ranging from simple (slide panel) to physically demanding (screw bottle, insert straw). This uncontrolled confound is the deciding flaw."
+    },
+    {
+      "title": "Apply the consequence of the confound",
+      "content": "When physical and cognitive difficulty are confounded, observed differences in performance could stem from differences in dexterity rather than cognition. A monkey might fail at unscrewing a bottle due to lack of dexterity but still be judged cognitively inferior to a more agile monkey, leading the results to suggest cognitive differences that don't actually exist. The other three either address generalization to other species, distinguish artificial from natural problems, or claim the results help identify one type of capacity but not another\u2014none follow from this confounding flaw. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

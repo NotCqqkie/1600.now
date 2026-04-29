@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The first sentence says the researchers determined the <strong>ratio</strong> of three plant subtypes. The second clause says they determined the <strong>relative quantities</strong> of the plants consumed. These are the same idea\u2014one clarifies or restates the other."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>That is,</strong> signals that the following statement clarifies or restates the preceding one. The other three signal different logical relationships: addition, contrast, and sequence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

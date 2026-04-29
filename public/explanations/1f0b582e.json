@@ -1,0 +1,19 @@
+{
+  "questionId": "1f0b582e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perimeter of square X",
+      "content": "Square X has side length 12 cm. The perimeter of any square is $4 \\times \\text{side}$.<br/>Perimeter of X = $4 \\times 12 = 48$ cm"
+    },
+    {
+      "title": "Find the perimeter of square Y",
+      "content": "We're told the perimeter of square Y is 2 times the perimeter of square X.<br/>Perimeter of Y = $2 \\times 48 = 96$ cm"
+    },
+    {
+      "title": "Find the side length of square Y",
+      "content": "Since square Y has perimeter 96 cm, and the perimeter of a square equals $4 \\times \\text{side}$:<br/>$$96 = 4 \\times \\text{side}$$<br/>$$\\text{side} = \\frac{96}{4} = 24 \\text{ cm}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

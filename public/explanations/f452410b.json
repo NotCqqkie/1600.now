@@ -1,0 +1,15 @@
+{
+  "questionId": "f452410b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare La Torre 6B to La Torre 6A in the table",
+      "content": "The table shows La Torre 6B with a 28.9 cm footprint versus La Torre 6A's 32.8 cm (shorter), and a 5.57 m stride versus La Torre 6A's 5.23 m (longer)."
+    },
+    {
+      "title": "Find the choice that matches both comparisons",
+      "content": "Choice C states \u201cshorter footprint, and longer average stride\u201d\u2014the exact comparison shown in the table. A, B, and D each misstate one or both values. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

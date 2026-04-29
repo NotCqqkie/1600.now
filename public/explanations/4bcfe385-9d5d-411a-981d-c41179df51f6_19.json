@@ -1,0 +1,15 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the number of gaps between nails",
+      "content": "The wall spans from the first nail at the left edge to the last nail at the right edge, a distance of $3x$ feet. Each consecutive nail is $\\frac{3}{8}$ feet apart. The number of gaps between nails is:<br/>$$\\text{Number of gaps} = \\frac{3x}{\\frac{3}{8}} = 3x \\cdot \\frac{8}{3} = 8x$$"
+    },
+    {
+      "title": "Apply the fence post principle to count nails",
+      "content": "When a length is divided into equal gaps from one end to the other, the number of boundary points (nails) is always one more than the number of gaps. With $8x$ gaps, the total number of nails is:<br/>$$y = 8x + 1$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

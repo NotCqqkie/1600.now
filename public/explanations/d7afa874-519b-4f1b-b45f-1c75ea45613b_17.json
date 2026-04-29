@@ -1,0 +1,24 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_17",
+  "correctAnswer": "320",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find BC using right triangle ABC",
+      "content": "Triangle ABC has a right angle at C. Using the Pythagorean theorem with $AC = 8$ and $AB = \\sqrt{89}$:<br/><br/>$$BC^2 + AC^2 = AB^2$$<br/>$$BC^2 + 64 = 89$$<br/>$$BC = 5$$",
+      "formula": "$$BC^2 + AC^2 = AB^2$$"
+    },
+    {
+      "title": "Identify that A, B, D are collinear",
+      "content": "From the figure, the line through A and B extends to D. The slope of this line is<br/><br/>$$\\text{slope} = \\frac{BC}{AC} = \\frac{5}{8}$$<br/><br/>All three points A, B, and D lie on the same line with this slope."
+    },
+    {
+      "title": "Find the height DE",
+      "content": "Point E is at horizontal distance $AE = AC + CE = 8 + 24 = 32$ from A. Since D lies on the line through A with slope $\\frac{5}{8}$, and angle DEC is a right angle (D is directly above E), the height is<br/><br/>$$DE = \\frac{5}{8} \\times 32 = 20$$"
+    },
+    {
+      "title": "Calculate the area of triangle ADE",
+      "content": "With base $AE = 32$ and height $DE = 20$:<br/><br/>$$\\text{Area} = \\frac{1}{2} \\times 32 \\times 20 = 320\\text{ square units}$$<br/><br/>The area of triangle ADE is <strong>320</strong>."
+    }
+  ]
+}

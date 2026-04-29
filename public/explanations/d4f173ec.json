@@ -1,0 +1,15 @@
+{
+  "questionId": "d4f173ec",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the plural reference",
+      "content": "\u201dTwo jugglers\u201d and \u201cfor both\u201d signal that the blank must use plural forms."
+    },
+    {
+      "title": "Apply agreement in number",
+      "content": "\u201dJugglers, regardless of their\u201d satisfies agreement in number: \u201cjugglers\u201d is plural, matching the subjects, and \u201ctheir\u201d is the plural possessive. The others either violate plurality or use the wrong homophone\u2014\u201dthey're\u201d (contraction) and \u201cthere\u201d (adverb) instead of possessive \u201ctheir\u201d. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

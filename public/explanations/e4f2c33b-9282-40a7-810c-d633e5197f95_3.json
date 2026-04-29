@@ -1,0 +1,15 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept and slope direction",
+      "content": "The line crosses the y-axis at (0, -5). All four answer choices have the constant term -5, confirming the y-intercept. Since the line descends from left to right, the slope must be negative. This immediately eliminates choices A and B, which both have positive slopes."
+    },
+    {
+      "title": "Test the remaining choices using a marked point",
+      "content": "The graph shows the point (7, -8) on the line.<br/><br/>For choice C: $f(7) = -\\frac{3}{7}(7) - 5 = -3 - 5 = -8$<br/><br/>For choice D: $f(7) = -\\frac{7}{3}(7) - 5 = -\\frac{49}{3} - 5 \\approx -21.3$<br/><br/>Only choice C produces the correct y-value. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

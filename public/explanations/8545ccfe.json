@@ -1,0 +1,15 @@
+{
+  "questionId": "8545ccfe",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the hypothesis requires",
+      "content": "The hypothesis proposes a specific mechanism: yellow dissolved organic carbon mixes with blue ice to produce the green color. For this explanation to work, green icebergs would need to contain notably more DOC than blue icebergs\u2014the difference in DOC concentration must account for the difference in color."
+    },
+    {
+      "title": "Find what contradicts this requirement",
+      "content": "Finding D directly undermines the hypothesis: if both blue and green icebergs contain similar small amounts of DOC, then DOC concentration cannot explain why one is blue and the other green. Choices A, B, and C don't test the core mechanism\u2014A discusses white ice's immunity to color change, B actually strengthens the hypothesis by noting DOC is more intensely yellow in Antarctic waters, and C merely describes where the icebergs are found. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

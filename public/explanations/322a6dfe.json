@@ -1,0 +1,15 @@
+{
+  "questionId": "322a6dfe",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish vertex correspondence",
+      "content": "We are given that $P$ corresponds to $W$, $Q$ corresponds to $X$, and $R$ corresponds to $Y$. Since the quadrilaterals are listed as $PQRS$ and $WXYZ$, vertices must correspond in order. Therefore, $S$ must correspond to $Z$."
+    },
+    {
+      "title": "Use the corresponding angles property",
+      "content": "In similar polygons, corresponding angles are congruent. Since $S$ corresponds to $Z$, we have $\\angle Z = \\angle S = 135\u00b0$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

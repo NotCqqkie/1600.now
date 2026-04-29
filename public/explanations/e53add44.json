@@ -1,0 +1,15 @@
+{
+  "questionId": "e53add44",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the exponential growth model",
+      "content": "In the function $S(n) = 38000 \\cdot a^n$, the parameter $a$ is the annual growth factor (multiplier per year). We need to find the value of $a$ that represents a 4% annual salary increase."
+    },
+    {
+      "title": "Test choice C (1.04)",
+      "content": "Backsolving \u2014 testing choice C (1.04): If $a = 1.04$, each year the salary is multiplied by 1.04. This represents a 4% increase because $1.04 = 1 + 0.04$, where 0.04 is the decimal form of 4%. So $S(1) = 38000 \\cdot 1.04$ gives a 4% increase from the starting salary \u2713. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

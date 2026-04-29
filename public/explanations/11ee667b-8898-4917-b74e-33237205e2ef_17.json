@@ -1,0 +1,16 @@
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Vieta's formula for sum of roots",
+      "content": "This question asks for the <strong>sum of solutions</strong> to a quadratic equation. For any quadratic $ax^2 + bx + c = 0$, Vieta's formulas let us find the sum directly from the coefficients, without solving the equation.",
+      "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$"
+    },
+    {
+      "title": "Extract coefficients and apply the formula",
+      "content": "From the equation $x^2 - 24x - 8 = 0$, we have $a = 1$ and $b = -24$. Substituting into Vieta's formula: $$\\text{Sum} = -\\frac{(-24)}{1} = 24$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

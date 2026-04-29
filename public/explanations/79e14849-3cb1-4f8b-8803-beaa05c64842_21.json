@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the confirmation pattern",
+      "content": "The first sentence claims the installation creates a \u201cwhimsical yet perplexing experience.\u201d The second sentence shows this effect in action: visitors are \u201cdazzled and confused.\u201d The transition word must signal that this proves the claim."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>Indeed</strong> introduces evidence that confirms a claim\u2014the visitor experience proves the artist's success. Nevertheless, Instead, and Second suggest contrast, replacement, or enumeration, not confirmation. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

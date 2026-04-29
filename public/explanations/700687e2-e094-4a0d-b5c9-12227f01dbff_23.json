@@ -1,0 +1,15 @@
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the opposition between the two maps",
+      "content": "The passage contrasts topographic maps (elevation \u201cabove sea level\u201d) with bathymetric maps (elevation \u201cbelow the sea\u201d). The blank must signal this direct opposition."
+    },
+    {
+      "title": "Choose the transition that marks the contrast",
+      "content": "<strong>\u201cBy contrast\u201d</strong> directly signals opposition between the two map types. The other three fail to mark this relationship: \u201cafterward\u201d implies time, \u201cin conclusion\u201d signals closure, and \u201cfor example\u201d implies similarity. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

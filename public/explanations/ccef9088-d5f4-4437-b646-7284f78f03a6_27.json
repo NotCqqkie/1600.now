@@ -1,0 +1,15 @@
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot what explains the glow",
+      "content": "The goal asks to <strong>explain what makes</strong> the neon sculpture glow \u2014 this demands identifying the <strong>cause</strong> or <strong>mechanism</strong>, not just describing appearance. In the notes, the answer is direct: <strong>\u201cAn electrical current is passed through the gas to make it glow.\u201d</strong> This causal detail is what we need."
+    },
+    {
+      "title": "Choose the answer that provides the explanation",
+      "content": "Choice D directly states that an electrical current passes through the gas-filled tubes, making them glow white \u2014 it provides the causal mechanism. Choices A, B, and C describe appearance, the manufacturing process, or materials, but none of them explain what actually causes the glow. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

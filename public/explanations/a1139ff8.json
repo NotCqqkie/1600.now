@@ -1,0 +1,15 @@
+{
+  "questionId": "a1139ff8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The colon introduces evidence of the approach's outcome: the bullfinch population surged from 100 to 1,300 birds. This dramatic increase proves the conservation effort achieved its goal."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dSuccessful\u201d directly matches: an approach that increases a population from 100 to 1,300 birds is successful by definition. The other three either describe unrelated qualities (amusing, costly) or directly contradict the documented population growth (disastrous).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

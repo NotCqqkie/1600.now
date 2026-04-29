@@ -1,0 +1,15 @@
+{
+  "questionId": "46f68129",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the linear equation",
+      "content": "The librarian starts with 43 books. If each of $c$ children gets 2 books and 7 books are left over, the total is accounted for as:<br/><br/>$$43 = 2c + 7$$"
+    },
+    {
+      "title": "Solve for the number of children",
+      "content": "Subtract 7 from both sides:<br/>$$43 - 7 = 2c$$<br/>$$36 = 2c$$<br/><br/>Divide both sides by 2:<br/>$$c = 18$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage describes a sequential process of three steps: scraping ice, spraying water, then smoothing it. The blank separates the second step from the third and follows a first step already described. The <strong>key signal</strong> is the need for a transition that signals movement to the next stage in a clear, chronological sequence."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "B provides a direct, unambiguous transition to the second action in the sequence (<em>Next</em> it sprayed water...). C and D incorrectly introduce comparisons, and A introduces an unrelated example. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

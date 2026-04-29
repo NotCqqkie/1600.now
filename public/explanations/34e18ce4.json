@@ -1,0 +1,15 @@
+{
+  "questionId": "34e18ce4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percentage formula",
+      "content": "To find 4% of 350, use the formula: (percentage \u00f7 100) \u00d7 total = number of balls"
+    },
+    {
+      "title": "Calculate 4% of 350",
+      "content": "$$\\frac{4}{100} \\times 350 = \\frac{4 \\times 350}{100} = \\frac{1400}{100} = 14$$<br/>There are 14 balls in the box. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

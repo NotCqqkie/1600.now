@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite using the negative exponent rule",
+      "content": "Apply the negative exponent rule: $x^{-1}$ equals the reciprocal of $x$, so:<br/>$$g(x) = 7x^{-1} = 7 \\cdot \\frac{1}{x} = \\frac{7}{x}$$"
+    },
+    {
+      "title": "Substitute x equals 8",
+      "content": "Plug in $x = 8$:<br/>$$g(8) = \\frac{7}{8}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

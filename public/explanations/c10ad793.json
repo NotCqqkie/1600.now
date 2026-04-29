@@ -1,0 +1,15 @@
+{
+  "questionId": "c10ad793",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the x-intercept",
+      "content": "The x-intercept of a function is the point where the graph crosses the x-axis. This occurs where the $y$-value equals zero."
+    },
+    {
+      "title": "Read the x-intercept from the graph",
+      "content": "Examining the grid, locate where the line intersects the x-axis. The line crosses at $x = -12$, so the x-intercept is the point $(-12, 0)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

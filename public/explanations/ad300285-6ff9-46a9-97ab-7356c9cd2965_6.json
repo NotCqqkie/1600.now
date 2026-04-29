@@ -1,0 +1,15 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the weight-volume relationship",
+      "content": "Total weight equals weight per cubic foot times volume. If $x$ is the total weight and $V$ is the volume in cubic feet:<br/>$$x = 160V$$"
+    },
+    {
+      "title": "Multiply the volume inequality by 160",
+      "content": "The volume constraint is $12.7 < V < 15.7$. Multiplying all parts by the positive constant 160 preserves the inequality direction:<br/>$$160(12.7) < 160V < 160(15.7)$$<br/>Substitute $x = 160V$:<br/>$$160(12.7) < x < 160(15.7)$$<br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

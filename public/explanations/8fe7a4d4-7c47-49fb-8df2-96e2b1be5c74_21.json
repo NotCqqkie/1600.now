@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses needing connection",
+      "content": "The sentence contains two complete thoughts: (1) \u201cTo some economists, whether a tax cut will ultimately increase Italy's tax revenue is dependent on the country's position on the Laffer [blank]\u201d\u2014a closed independent clause\u2014and (2) \u201ca theoretical relationship between tax rates and revenues, the curve was famously sketched on a napkin by economist Arthur Laffer in 1974\u201d\u2014another independent clause that must follow. Both are grammatical statements standing alone, so they require punctuation that properly joins independent clauses."
+    },
+    {
+      "title": "Apply the semicolon rule for independent clauses",
+      "content": "A semicolon joins two independent clauses. Choice B correctly uses a semicolon after \u201ccurve.\u201d In the second clause, \u201ca theoretical relationship between tax rates and revenues\u201d functions as an appositive renaming \u201cthe curve,\u201d set off by commas: \u201c[The curve,] a theoretical relationship between tax rates and revenues, was famously sketched\u2026\u201d This structure is grammatically sound and allows both thoughts to stand as a unified, punctuated sentence. Choices A and D lack proper punctuation or fail to separate the clauses correctly; choice C introduces a relative clause with \u201cwhich is\u201d but then presents \u201cthe curve was\u2026\u201d as an awkwardly disconnected independent clause. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

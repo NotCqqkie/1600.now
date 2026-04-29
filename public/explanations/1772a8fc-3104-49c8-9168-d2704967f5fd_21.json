@@ -1,0 +1,15 @@
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures being connected",
+      "content": "The sentence has an independent clause: <strong>\u201cNATO's principle of collective defense confers both benefits and obligations.\u201d</strong> This must connect to what follows: <strong>\u201cthe organization's many members\u2026 are all bound to defend Canada, the reverse is also true.\u201d</strong> The core task is choosing the right punctuation and connector to join them."
+    },
+    {
+      "title": "Match the relationship and apply the rule",
+      "content": "The passage shows a relationship of concurrence or contrast between the principle's obligations and the members' defensive commitments. A comma before a subordinating conjunction like \u201cwhile\u201d correctly forms a complex sentence, where the dependent clause modifies the main clause. Choice C uses \u201ccomma + while,\u201d creating: <strong>\u201c\u2026confers both benefits and obligations, while the organization's many members are bound to defend Canada, the reverse is also true.\u201d</strong> This properly attaches the dependent clause. Choice A misuses a colon\u2014colons do not introduce dependent clauses. Choice B uses a semicolon, which joins independent clauses, but the second part contains a comma splice (\u201cCanada, the reverse is also true\u201d), making it incorrect. Choice D creates a new sentence but preserves the same comma splice issue within it. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

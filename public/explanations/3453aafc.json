@@ -1,0 +1,15 @@
+{
+  "questionId": "3453aafc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the rectangle area formula",
+      "content": "For a rectangle, area equals length times width. With length = 36 cm and width = 34 cm:<br/>$$A = 36 \\times 34$$"
+    },
+    {
+      "title": "Calculate the product",
+      "content": "Multiply: $36 \\times 34 = 1,224$ square centimeters. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

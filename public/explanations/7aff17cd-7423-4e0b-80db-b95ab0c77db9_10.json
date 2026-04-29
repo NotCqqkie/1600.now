@@ -1,0 +1,15 @@
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal about cheaper production",
+      "content": "The passage establishes that when tariffs vanish, cheaper domestic producers expand (no longer needing protection) while expensive ones contract (losing to cheaper imports). So to prove Argentina and the United States have cheaper production than India and Russia, we should see their output expand under tariff elimination."
+    },
+    {
+      "title": "Match the signal to the data",
+      "content": "Choice C shows Argentina and the United States as the only countries with both production increases and price decreases. This combination\u2014<em>expanding output while lowering prices</em>\u2014marks globally competitive, cost-efficient producers. The other choices either show only partial evidence (A demonstrates production change alone), contradict the expected pattern (B predicts price increases), or measure total output unrelated to production cost (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "aa85b138",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for n",
+      "content": "Start with $$2n+6=14$$. Subtract 6 from both sides: $$2n=8$$. Divide both sides by 2: $$n=4$$.<br/>This means the tree reaches 14\u202ffeet after 4\u202fyears of growth."
+    },
+    {
+      "title": "Interpret the coefficient 2",
+      "content": "The initial height is 6\u202ffeet. After 4\u202fyears the height is 14\u202ffeet, so total growth is $$14-6=8$$\u202ffeet.<br/>Divide the total growth by the number of years: $$\frac{8}{4}=2$$\u202ffeet per year.<br/>Thus the number 2 represents the average yearly growth in feet.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

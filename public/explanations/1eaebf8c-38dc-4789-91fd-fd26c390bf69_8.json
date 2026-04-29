@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical term",
+      "content": "The conclusion claims <em>S. leucostigma</em> \u201cassociates\u201d <em>T. caesius</em> alarm calls with danger. Association requires selective recognition\u2014the birds must distinguish these calls from other sounds."
+    },
+    {
+      "title": "Apply the control test",
+      "content": "Choice B establishes a control experiment: when random noise is played, the birds show no reaction, but <em>T. caesius</em> alarm calls (observed in the original study) trigger a defensive response. This proves the birds recognize these specific calls, not just reacting to any loud sound. Choices A, C, and D either propose an alternative explanation, address other species, or show consistency without demonstrating selective recognition. By isolating the effect of <em>T. caesius</em> alarm calls through this control, B directly proves <em>S. leucostigma</em> has learned to associate these specific calls with danger. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

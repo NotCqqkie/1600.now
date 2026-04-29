@@ -1,0 +1,16 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the area of circle K",
+      "content": "Use the circle area formula with radius 2 mm: <br/>$$A_K = \\pi(2)^2 = 4\\pi \\text{ mm}^2$$",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Add the areas to find the total",
+      "content": "Area of circle K is $4\\pi$ mm\u00b2 and area of circle L is $144\\pi$ mm\u00b2 (given). Adding them: <br/>$$4\\pi + 144\\pi = 148\\pi \\text{ mm}^2$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

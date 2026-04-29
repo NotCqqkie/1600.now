@@ -1,0 +1,15 @@
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun phrase structure",
+      "content": "The blank is a noun phrase serving as the object of \u201cleverage.\u201d It must express a relationship between nanoparticles and properties that nanoengineers leverage to facilitate energy generation."
+    },
+    {
+      "title": "Apply the plural possessive rule",
+      "content": "When a plural noun ending in 's' shows possession, add an apostrophe after the final 's': \u201cnanoparticles' properties.\u201d This correctly indicates that multiple nanoparticles each possess properties. A omits the possessive marker, B uses singular form, and C doubles the possessive. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

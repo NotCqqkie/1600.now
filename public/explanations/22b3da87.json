@@ -1,0 +1,15 @@
+{
+  "questionId": "22b3da87",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that the real estate tax was \u201cthe main means of voter qualification and accounted for over two-thirds of government receipts.\u201d This single claim is decisive: real estate tax was both the primary method to qualify for voting AND the source of more than two-thirds of all government revenue."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "If real estate tax generated over two-thirds of revenue from relatively few payers, those few people must have held substantial real estate\u2014and since real estate tax was the main qualification method, voters most likely had substantial French real estate holdings, exactly as choice A states. The other three choices either misread the passage's focus, invent unsupported details about architecture, or assume a relationship between foreign investment and domestic taxation that the passage doesn't establish. <br><br>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

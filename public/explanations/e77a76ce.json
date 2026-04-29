@@ -1,0 +1,15 @@
+{
+  "questionId": "e77a76ce",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "No solution occurs with parallel lines",
+      "content": "A system of linear equations has no solution when the two lines are parallel. In slope-intercept form, parallel lines have identical slopes but different y-intercepts\u2014they never meet."
+    },
+    {
+      "title": "Check each choice for parallel lines",
+      "content": "<ul><li><strong>Choice A:</strong> $y = 6x + 3$ and $y = 6x + 9$ both have slope 6, with different y-intercepts (3 and 9). Parallel\u2014no solution.</li><li><strong>Choice B:</strong> $y = 10$ has slope 0; $y = 10x + 10$ has slope 10. Different slopes\u2014they intersect.</li><li><strong>Choice C:</strong> $y = 14x + 14$ has slope 14; $y = 10x + 14$ has slope 10. Different slopes\u2014they intersect.</li><li><strong>Choice D:</strong> $x = 3$ (vertical line) and $y = 10$ (horizontal line) intersect.</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

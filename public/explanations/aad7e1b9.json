@@ -1,0 +1,15 @@
+{
+  "questionId": "aad7e1b9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 to find the y-intercept",
+      "content": "The y-intercept occurs where the graph crosses the y-axis, which happens at $x = 0$. Substitute this into the function: $$f(0) = \\frac{1}{10}(0) - 2 = -2$$"
+    },
+    {
+      "title": "Identify the y-intercept point and select the answer",
+      "content": "The y-intercept is the point with coordinates $(0, -2)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

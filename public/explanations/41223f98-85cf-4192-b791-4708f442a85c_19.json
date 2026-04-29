@@ -1,0 +1,15 @@
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the identifying name",
+      "content": "The proper name <em>Doleschallia bisaltide</em> directly follows the noun \u201cspecies\u201d to identify which species is meant."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "When a noun is followed directly by an identifying name, no punctuation separates them\u2014just as with \u201cthe city Paris\u201d or \u201cthe scientist Newton.\u201d Options B (semicolon), C (colon), and D (comma) all incorrectly insert punctuation between the noun and its identifying name. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

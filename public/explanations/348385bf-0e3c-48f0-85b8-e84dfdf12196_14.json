@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between cell size difference and nonhexagonal frequency",
+      "content": "The passage establishes that connecting sections of different-sized cells becomes harder as the size difference increases, forcing bees to use nonhexagonal cells to fill gaps. Therefore, <strong>fewer nonhexagonal cells indicate a smaller size difference</strong> between worker and drone cells."
+    },
+    {
+      "title": "Match the data pattern to the correct conclusion",
+      "content": "Choice A asserts that worker and drone cells are closer in size in western honeybee\u2014exactly what the data confirms. The western honeybee's nonhexagonal cell percentages (0.1\u20130.5%) are substantially lower than those in dwarf honeybee (2.1\u20132.6%) and black dwarf honeybee (2.4\u20132.5%). The other three choices either misread this pattern or claim specifics the graph cannot support. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

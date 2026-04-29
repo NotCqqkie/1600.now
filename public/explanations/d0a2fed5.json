@@ -1,0 +1,19 @@
+{
+  "questionId": "d0a2fed5",
+  "correctAnswer": "294",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the term with p",
+      "content": "Subtract 18 from both sides:<br/>$$\\frac{6}{7}p + 18 = 54$$<br/>$$\\frac{6}{7}p = 36$$"
+    },
+    {
+      "title": "Clear the fraction",
+      "content": "Multiply both sides by 7:<br/>$$6p = 36 \\cdot 7 = 252$$"
+    },
+    {
+      "title": "Calculate 7p",
+      "content": "Divide both sides by 6:<br/>$$p = \\frac{252}{6} = 42$$<br/>Multiply by 7:<br/>$$7p = 7 \\cdot 42 = 294$$"
+    }
+  ]
+}

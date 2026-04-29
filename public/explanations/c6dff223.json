@@ -1,0 +1,15 @@
+{
+  "questionId": "c6dff223",
+  "correctAnswer": ".7241",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding angles from similarity",
+      "content": "Since triangle $ABC$ is similar to triangle $DEF$ and angle $A$ corresponds to angle $D$, these angles are equal: $\\angle A = \\angle D$. Therefore, $\\sin D = \\sin A$."
+    },
+    {
+      "title": "Calculate sin D from tan A using the Pythagorean relationship",
+      "content": "In right triangle $ABC$ (with right angle at $C$), we have $\\tan A = \\frac{21}{20}$, meaning the opposite side $BC = 21$ and adjacent side $AC = 20$ (in the same units). Using the Pythagorean theorem:<br/>$$AB = \\sqrt{21^2 + 20^2} = \\sqrt{441 + 400} = \\sqrt{841} = 29$$<br/><br/>Therefore:<br/>$$\\sin D = \\sin A = \\frac{BC}{AB} = \\frac{21}{29} \\approx 0.7241$$"
+    }
+  ]
+}

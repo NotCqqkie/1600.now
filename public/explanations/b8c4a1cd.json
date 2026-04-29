@@ -1,0 +1,15 @@
+{
+  "questionId": "b8c4a1cd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the goal",
+      "content": "We start with $8j = k + 15m$ and need to express $j$ in terms of $k$ and $m$. Since $j$ is multiplied by 8, we divide both sides by 8."
+    },
+    {
+      "title": "Perform the division",
+      "content": "$$j = \\frac{k + 15m}{8}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "51f26ce8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding sides from the similarity statement",
+      "content": "Since \u25b3QPR \u223c \u25b3STR, the vertices correspond in order: Q\u2194S, P\u2194T, R\u2194R. Therefore, the corresponding sides are:<br><ul><li>$QP$ \u2194 $ST$</li><li>$PR$ \u2194 $TR$</li><li>$QR$ \u2194 $SR$ (the hypotenuses)</li></ul>"
+    },
+    {
+      "title": "Set up a proportion and solve for SR",
+      "content": "From the similarity, all pairs of corresponding sides have the same ratio:<br><br>$$\\frac{QR}{SR} = \\frac{QP}{ST}$$<br><br>Substitute the given lengths:<br><br>$$\\frac{25}{SR} = \\frac{15}{14}$$<br><br>Cross-multiply:<br><br>$$15 \\cdot SR = 25 \\cdot 14$$<br><br>$$SR = \\frac{350}{15}$$<br><br>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

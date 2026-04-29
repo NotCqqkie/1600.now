@@ -1,0 +1,15 @@
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "A noun phrase \u201cone of many nonpresidents\u201d appears before the blank, with a prepositional phrase \u201con US currency\u201d following. The blank needs a word that modifies the noun and specifies which nonpresidents are referenced."
+    },
+    {
+      "title": "Apply the infinitive phrase rule",
+      "content": "An infinitive phrase correctly serves as a restrictive modifier of a noun. <strong>To appear</strong> expresses the meaning \u201cthat appear\u201d: \u201cnonpresidents to appear on US currency\u201d is equivalent to \u201cnonpresidents that appear on US currency.\u201d Finite verbs (appears, had appeared, did appear) cannot function as noun modifiers in this position.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

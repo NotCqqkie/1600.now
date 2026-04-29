@@ -1,0 +1,15 @@
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The defining phrase is \u201c<em>once these internal batteries stop working</em>,\u201d which describes a condition that renders the devices non-functional. The blank must reflect a direct consequence of the batteries ceasing to operate."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A (\u201cuseless\u201d) directly captures the logical consequence of the devices becoming inoperable when their batteries stop working. The other three choices either contradict the context (B, D) or describe irrelevant attributes (C). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

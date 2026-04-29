@@ -1,0 +1,15 @@
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify two independent clauses with a contrasting relationship",
+      "content": "The sentence contains: <strong>(1) \u201cJetties can sometimes have the opposite effect\u201d</strong> and <strong>(2) \u201cobstructing the natural flow of sand along the shore can lead to increased erosion in some areas.\u201d</strong> Both are complete independent clauses. \u201cObstructing...the shore\u201d is a gerund phrase serving as the subject of \u201ccan lead.\u201d The word \u201cthough\u201d signals a contrast: jetties protect coasts, yet this same action paradoxically causes erosion. The clauses must be joined correctly."
+    },
+    {
+      "title": "Apply the punctuation rule for transition words between independent clauses",
+      "content": "When two independent clauses are connected by a concessive transition like \u201cthough,\u201d the transition word must be set off with punctuation on both sides: a comma before it (separating it from the first clause) and punctuation after it (introducing the second clause). A semicolon after \u201cthough\u201d properly joins two independent clauses while maintaining the contrast. The structure is: <strong>IC, though; IC</strong>\u2014the comma isolates \u201cthough\u201d as a transitional element, and the semicolon introduces the second independent clause. The other choices either omit necessary punctuation (C), fail to use a semicolon between independent clauses (A), or misplace the transition word (D). <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

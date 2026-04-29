@@ -1,0 +1,15 @@
+{
+  "questionId": "0d6ab461",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the deposits by the end of week 4",
+      "content": "The account starts with $600 at the beginning of week 1. Gabriella makes a $35 deposit at the end of each week. From the end of week 1 through the end of week 4, there are exactly 4 deposits."
+    },
+    {
+      "title": "Apply the linear formula to find the total",
+      "content": "Amount equals the initial balance plus the sum of all deposits:<br/>$$\\text{Amount} = 600 + 4 \\times 35$$<br/>$$= 600 + 140$$<br/>$$= 740$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

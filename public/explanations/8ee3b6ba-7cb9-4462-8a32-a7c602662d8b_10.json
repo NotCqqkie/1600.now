@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what directly supports the conclusion",
+      "content": "The conclusion states <em>M. barbatus</em> associates alarm calls with danger, but the original finding only shows they react to alarm calls. To directly support the conclusion, we need proof that the response is specific to the alarm calls themselves\u2014not just a reaction to any loud sound."
+    },
+    {
+      "title": "Find evidence of response specificity",
+      "content": "Choice D shows <em>M. barbatus</em> displayed no reaction to random noise, proving the response is specific to alarm calls\u2014which directly supports the conclusion that they associate these calls with danger. The other choices either broaden scope to other species (A), show consistency but not specificity (B), or indicate birds react to approach without testing the alarm-call link (C).<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

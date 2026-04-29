@@ -1,0 +1,15 @@
+{
+  "questionId": "ac5536c1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the parallel -ing verbs",
+      "content": "The key signal is two actions connected by \u201cand\u201d: \u201cproducing more than 350 paintings\u201d and \u201csubmitting her research.\u201d Both are participles (verbs with -ing) forming a participial phrase that describes what Beatrix Potter did in her dedication to mycology."
+    },
+    {
+      "title": "Apply the comma rule",
+      "content": "A comma precedes a participial phrase that provides additional information about the main clause. Here, the comma after \u201cfungi\u201d correctly marks \u201cproducing... and submitting...\u201d as a participial phrase explaining what her dedication to mycology involved. The semicolon would wrongly require an independent clause, the period creates a sentence fragment, and no comma leaves the parallel structure unclear. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

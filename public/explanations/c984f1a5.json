@@ -1,0 +1,16 @@
+{
+  "questionId": "c984f1a5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the hemisphere volume formula",
+      "content": "A hemisphere is half of a sphere. The volume of a sphere is $V_{sphere} = \\frac{4}{3}\\pi r^3$, so the volume of a hemisphere is:<br/><br/>$$V_{hemisphere} = \\frac{1}{2} \\cdot \\frac{4}{3}\\pi r^3 = \\frac{2}{3}\\pi r^3$$",
+      "formula": "$$V = \\frac{2}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Substitute r = 27 and calculate",
+      "content": "With $r = 27$ inches:<br/><br/>$$V = \\frac{2}{3}\\pi (27)^3$$<br/><br/>First, calculate $27^3 = 27 \\times 27 \\times 27 = 729 \\times 27 = 19,683$.<br/><br/>Then:<br/>$$V = \\frac{2}{3}\\pi (19,683) = \\frac{39,366}{3}\\pi = 13,122\\pi$$<br/><br/>Using $\\pi \\approx 3.14159$:<br/>$$V \\approx 13,122 \\times 3.14159 \\approx 41,235 \\text{ cubic inches}$$<br/><br/>Among the choices, this is closest to 41,200. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

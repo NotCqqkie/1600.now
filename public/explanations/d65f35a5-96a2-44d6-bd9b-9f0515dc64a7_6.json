@@ -1,0 +1,16 @@
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the vertical shift rule",
+      "content": "When a function is shifted up by $k$ units, we add $k$ to the function value. For a shift up by 9 units, we have:<br/><br/>$$g(x) = f(x) + 9$$",
+      "formula": "$$g(x) = f(x) + k$$"
+    },
+    {
+      "title": "Substitute and match",
+      "content": "Substitute $f(x) = 3x + 5$:<br/><br/>$$g(x) = (3x + 5) + 9 = 3x + 5 + 9$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

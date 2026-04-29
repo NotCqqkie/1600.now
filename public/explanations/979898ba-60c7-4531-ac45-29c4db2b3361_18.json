@@ -1,0 +1,15 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the slope as the rate of change",
+      "content": "The equation $d = 8t + 210$ is in the form $d = mt + b$, where the slope $m = 8$ represents the rate of change of distance with respect to time. The rover's distance increases at a constant rate of 8 feet per minute."
+    },
+    {
+      "title": "Calculate the total increase over 20 minutes",
+      "content": "Over 20 minutes at 8 feet per minute:<br/><br/>$$8 \\times 20 = 160 \\text{ feet}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

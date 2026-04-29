@@ -1,0 +1,15 @@
+{
+  "questionId": "26e83bbc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the product f(x) \u00b7 g(x)",
+      "content": "To find $b$, we expand $(x^2 + bx)(9x^2 - 27x)$ using the distributive property:<br/><br/>$$\\begin{align}(x^2 + bx)(9x^2 - 27x) &= x^2(9x^2 - 27x) + bx(9x^2 - 27x)\\\\&= 9x^4 - 27x^3 + 9bx^3 - 27bx^2\\\\&= 9x^4 + (9b - 27)x^3 - 27bx^2\\end{align}$$"
+    },
+    {
+      "title": "Compare coefficients with the given product",
+      "content": "Since $f(x) \\cdot g(x) = 9x^4 - 26x^3 - 3x^2$, the coefficient of $x^3$ in our expansion must equal $-26$:<br/><br/>$$9b - 27 = -26$$<br/><br/>Solving for $b$:<br/>$$9b = 1$$<br/>$$b = \\frac{1}{9}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

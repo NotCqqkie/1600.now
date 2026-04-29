@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify fish contribution from each tank type",
+      "content": "Small tanks hold 1 fish each. If there are $s$ small tanks, they hold $s \\cdot 1 = s$ fish total.<br/><br/>Large tanks hold 2 fish each. If there are $b$ large tanks, they hold $b \\cdot 2 = 2b$ fish total."
+    },
+    {
+      "title": "Write the equation for total fish",
+      "content": "The total number of fish is the sum of fish from small tanks and large tanks:<br/><br/>$$s + 2b = 37$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

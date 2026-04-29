@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1deebe",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 4 into the second equation",
+      "content": "Since the graphs intersect at $(4, y)$, we know $x = 4$ must satisfy both equations. Substituting into the second equation:<br/><br/>$$6(4) + 2by = 56$$<br/>$$24 + 2by = 56$$<br/>$$2by = 32$$<br/>$$by = 16$$"
+    },
+    {
+      "title": "Use the relationship to find a",
+      "content": "Now substitute $x = 4$ and $by = 16$ into the first equation:<br/><br/>$$a(4) + by = 72$$<br/>$$4a + 16 = 72$$<br/>$$4a = 56$$<br/>$$a = 14$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

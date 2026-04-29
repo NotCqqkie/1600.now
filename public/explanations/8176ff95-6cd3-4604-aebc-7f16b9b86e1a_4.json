@@ -1,0 +1,15 @@
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear form and apply h(0) = 0",
+      "content": "For a linear function, $h(x) = mx + b$.<br/>Since $h(0) = 0$:<br/>$$h(0) = m(0) + b = b = 0$$<br/>The function has no y-intercept, eliminating choices B and D. We're left with A and C."
+    },
+    {
+      "title": "Apply h(11) = 5 to find the slope",
+      "content": "With $h(x) = mx$ (since $b = 0$), substitute $x = 11$:<br/>$$h(11) = 11m$$<br/>Since $h(11) = 5$:<br/>$$11m = 5$$<br/>$$m = \\frac{5}{11}$$<br/>Therefore, $h(x) = \\frac{5}{11}x$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

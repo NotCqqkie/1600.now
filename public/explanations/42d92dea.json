@@ -1,0 +1,15 @@
+{
+  "questionId": "42d92dea",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the time-shift signal",
+      "content": "The first sentence anchors the discussion to \u201cBefore it unveiled a massive new gallery in 2009.\u201d The blank must transition to the present, answering the implicit question: \u201cWhat about now?\u201d"
+    },
+    {
+      "title": "Match the temporal answer",
+      "content": "\u201dToday\u201d marks the present moment, directly answering the time shift set up by \u201cBefore.\u201d The other choices either add information, exemplify a non-existent claim, or suggest an unexpected contrast. This matches choice D\u2014<strong>D</strong> is correct."
+    }
+  ]
+}

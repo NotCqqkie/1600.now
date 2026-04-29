@@ -1,0 +1,16 @@
+{
+  "questionId": "d03e29f1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the standard form of a circle",
+      "content": "The equation is in the standard form of a circle, where the right side equals $r^2$ (the square of the radius), not the radius itself.",
+      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
+    },
+    {
+      "title": "Calculate the radius",
+      "content": "We have $r^2 = 81$. Taking the square root of both sides:<br/>$$r = \\sqrt{81} = 9$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

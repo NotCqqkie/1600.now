@@ -1,0 +1,15 @@
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key temporal signal",
+      "content": "The passage provides two specific dates: February 14, 1927 (when <em>Vernonia liatroides</em> was collected) and May 3, 1930 (when <em>Achyrocline vauthieriana</em> was collected). These dates reveal a clear temporal relationship between the two collections."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice D uses \u201cafter collecting <em>Vernonia liatroides</em> in February of 1927\u201d to show that the 1930 sample came later \u2014 the word \u201cafter\u201d directly expresses the temporal sequence. The other three choices focus on location (A), provide a single date in isolation (B), or emphasize geography and plant family rather than timing (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

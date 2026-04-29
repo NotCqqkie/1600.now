@@ -1,0 +1,15 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize this as a direct substitution problem",
+      "content": "We have the equation $s = 40 + 2t$ where $s$ is speed in mph and $t$ is time in seconds. We need the speed when $t = 4$ seconds."
+    },
+    {
+      "title": "Substitute and calculate the speed",
+      "content": "Substitute $t = 4$ into the equation:<br/><br/>$$s = 40 + 2(4) = 40 + 8 = 48$$<br/><br/>The speed is 48 miles per hour. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

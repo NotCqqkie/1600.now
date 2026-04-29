@@ -1,0 +1,15 @@
+{
+  "questionId": "c2e7fa6d",
+  "correctAnswer": "4176",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the relative areas of the two squares",
+      "content": "Let the smaller square have side length $s$. The larger square has side length $3s$.<br/><br/>Their areas are:<ul><li>Smaller square: $s^2$</li><li>Larger square: $(3s)^2 = 9s^2$</li><li>Combined: $10s^2$</li></ul>The larger square accounts for $\\frac{9s^2}{10s^2} = \\frac{9}{10}$ of the total area."
+    },
+    {
+      "title": "Calculate the flux through the larger square",
+      "content": "Since the electric field is uniform and perpendicular across the surface, the flux is proportional to the area. The flux through the larger square is $\\frac{9}{10}$ of the total:<br/><br/>$$\\Phi_{\\text{larger}} = \\frac{9}{10} \\times 4,640 = 4,176 \\text{ volts}\\cdot\\text{meters}$$"
+    }
+  ]
+}

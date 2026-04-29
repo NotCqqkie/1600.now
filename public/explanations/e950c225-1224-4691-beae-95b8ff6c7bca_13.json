@@ -1,0 +1,15 @@
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint what outcome would prove the claim",
+      "content": "The researcher claims that eliminating left turns improves overall travel efficiency despite longer routes. This would be proven by data showing improved throughput after elimination."
+    },
+    {
+      "title": "Match the correct answer to this outcome",
+      "content": "Choice A shows exactly this\u2014drivers reach more addresses daily after elimination, proving overall efficiency improved despite longer individual routes. The others test signals rather than elimination, measure only individual left-turn wait times, or show routes took longer. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2fec8bf4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate P(0) at the start of the study",
+      "content": "Since $t = 0$ means the study began (by definition), substitute $t = 0$ into the function:\n\n$$P(0) = 1,800(1.02)^0 = 1,800 \\cdot 1 = 1,800$$"
+    },
+    {
+      "title": "Interpret the meaning",
+      "content": "At the start of the study ($t = 0$), the function gives 1,800, which represents the estimated number of marine mammals in the area when the study began. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

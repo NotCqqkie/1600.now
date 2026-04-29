@@ -1,0 +1,15 @@
+{
+  "questionId": "1e7a1deb",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute and distribute the negative sign",
+      "content": "Substitute $a = 4k + 5r$ and $b = 7k - 12r + 3$ into $a - b$, then distribute the negative through $b$: $$a - b = (4k + 5r) - (7k - 12r + 3) = 4k + 5r - 7k + 12r - 3$$"
+    },
+    {
+      "title": "Combine like terms to find the answer",
+      "content": "Collect terms by variable:<br/><ul><li>k: $4k - 7k = -3k$</li><li>r: $5r + 12r = 17r$</li><li>Constant: $-3$</li></ul>The expression simplifies to $-3k + 17r - 3$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

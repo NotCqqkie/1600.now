@@ -1,0 +1,15 @@
+{
+  "questionId": "f01ef454",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the weight as a function of volume",
+      "content": "The total weight $x$ equals the weight per cubic foot times the volume. Since the weight per cubic foot is 165 pounds and the volume is $V$ cubic feet: $$x = 165V$$ The volume constraint given is: $$12.7 < V < 15.7$$"
+    },
+    {
+      "title": "Transform the volume inequality to a weight inequality",
+      "content": "Multiply all parts of the volume inequality by 165 to get the weight inequality: $$165(12.7) < 165V < 165(15.7)$$ Substituting $x = 165V$: $$165(12.7) < x < 165(15.7)$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

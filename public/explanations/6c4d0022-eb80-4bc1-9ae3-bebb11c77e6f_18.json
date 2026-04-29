@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "Left of the blank: \u201cthe observatory sites... number nearly five [BLANK] across the globe\u201d \u2014 an independent clause. Right of the blank: \u201cthe radars track mesospheric winds and other geospace phenomena\u201d \u2014 another independent clause. The two must be properly separated."
+    },
+    {
+      "title": "Apply the rule for separating independent clauses",
+      "content": "Choice B (\u201cdozen. Located\u201d) uses a period, properly separating the two clauses into two sentences. The second sentence opens with the participial phrase \u201cLocated across the globe,\u201d which correctly modifies \u201cthe radars,\u201d and continues with the independent clause \u201cthe radars track mesospheric winds and other geospace phenomena.\u201d Choices A, C, and D add modifying information but maintain only a comma between the two independent clauses, creating a comma splice. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

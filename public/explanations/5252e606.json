@@ -1,0 +1,15 @@
+{
+  "questionId": "5252e606",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the area formula for a square",
+      "content": "For a square with side length $s$, the area is $A = s^2$. We need to find the area when $s = 55$ cm."
+    },
+    {
+      "title": "Calculate 55 squared",
+      "content": "Expand using the perfect square pattern $(50 + 5)^2$:<br/>$$55^2 = 50^2 + 2(50)(5) + 5^2 = 2500 + 500 + 25 = 3025 \\text{ cm}^2$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

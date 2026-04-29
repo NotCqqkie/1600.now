@@ -1,0 +1,15 @@
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The previous sentence places the sculpture at a specific location (a park in France). The blank sentence describes its appearance in that place. The transition word must bridge location to description."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>There,</strong> refers back to the location just mentioned, bridging from placement to description. None of the other choices work \u2014 they introduce irrelevant logical signals: temporal progression (Later), contrast where none exists (However), or nested exemplification (For instance). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

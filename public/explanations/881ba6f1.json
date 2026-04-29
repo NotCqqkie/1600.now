@@ -1,0 +1,15 @@
+{
+  "questionId": "881ba6f1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast between Smith's reputation and his actual work",
+      "content": "The author signals <em>Note \u201cputatively\u201d</em> to alert us: Smith's fame for the invisible hand contradicts how he actually used it. The passage reveals he deployed it only once, narrowly (about mercantilism), and it went largely ignored until twentieth-century economists, eager to secure intellectual credentials for their own theories, deliberately elevated it to a central paradigm. The decisive point: Smith's reputation stems not from the metaphor's importance in his work, but from later economists' strategic promotion of it."
+    },
+    {
+      "title": "Match the reputation mismatch to the answer",
+      "content": "Choice D states the core point directly: Smith's reputation for the invisible hand comes not from its role in his actual work but from later economists' deliberate promotion of it. The others either mischaracterize the economists' motivation as discovery rather than strategic elevation (A), add unsupported judgment about utility (B), or focus on the metaphor's intended meaning rather than how its prominence was constructed (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c602140f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the second term using the sign rule",
+      "content": "The term $-12y(-2x + 3y)$ can be rewritten:<br/><br/>$$-12y(-2x + 3y) = 12y(2x - 3y)$$<br/><br/>So the expression becomes:<br/>$$(x - 11y)(2x - 3y) + 12y(2x - 3y)$$"
+    },
+    {
+      "title": "Factor out the common binomial",
+      "content": "Both terms share the factor $(2x - 3y)$:<br/><br/>$$(x - 11y)(2x - 3y) + 12y(2x - 3y) = (x - 11y + 12y)(2x - 3y) = (x + y)(2x - 3y)$$"
+    },
+    {
+      "title": "Expand using FOIL",
+      "content": "Apply FOIL to $(x + y)(2x - 3y)$:<br/><br/>$$(x)(2x) + (x)(-3y) + (y)(2x) + (y)(-3y) = 2x^2 - 3xy + 2xy - 3y^2 = 2x^2 - xy - 3y^2$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate angle L in radians by multiplying angle K by 12",
+      "content": "First, simplify angle K:<br/>$$K = \\frac{\\pi}{2 \\cdot 12} = \\frac{\\pi}{24} \\text{ radians}$$<br/>Then multiply by 12 to find angle L:<br/>$$L = 12 \\cdot K = 12 \\cdot \\frac{\\pi}{24} = \\frac{12\\pi}{24} = \\frac{\\pi}{2} \\text{ radians}$$"
+    },
+    {
+      "title": "Convert from radians to degrees",
+      "content": "Use the conversion factor: $\\pi$ radians $= 180\u00b0$<br/>$$L = \\frac{\\pi}{2} \\text{ radians} = \\frac{180\u00b0}{2} = 90\u00b0$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

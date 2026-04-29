@@ -1,0 +1,15 @@
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "\u201dBecause of this, data-privacy advocates are seeking to expand online players' knowledge\u201d reveals that games are hiding or obscuring information about their data practices."
+    },
+    {
+      "title": "Match the required meaning",
+      "content": "Opaque means \u201cunclear\u201d or \u201cnon-transparent\u201d \u2014 exactly what describes games that hide information about data collection. The other choices either describe emotional attitudes, suggest hostility, or imply transparency. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

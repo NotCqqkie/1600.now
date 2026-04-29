@@ -1,0 +1,15 @@
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the causal signal",
+      "content": "The sentence after the underline says the temperature reductions \u201cinspired an air\u2011cooling device,\u201d showing that the finding leads to a practical application."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice C correctly says the underlined portion establishes a finding central to the text\u2019s discussion of a practical application resulting from the team\u2019s study of fungal thermal biology.<br/>The other three either describe the underlined bit as evidence for an earlier claim, as an observation that motivated the study, or as a tangential detail the later experiment was meant to explain, none of which matches the signal that the reductions inspired a device.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

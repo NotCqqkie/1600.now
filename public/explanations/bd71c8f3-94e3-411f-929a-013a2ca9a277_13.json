@@ -1,0 +1,19 @@
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the condition for infinitely many solutions",
+      "content": "When a system of linear equations has infinitely many solutions, the two equations represent the same line\u2014one is a scalar multiple of the other."
+    },
+    {
+      "title": "Find the scale factor by comparing coefficients",
+      "content": "Look at the y-coefficients: the first equation has 9, the second has 18. The scale factor is:<br/>$$k = \\frac{18}{9} = 2$$<br/><br/>The second equation should be exactly 2 times the first."
+    },
+    {
+      "title": "Apply the scale factor to find r",
+      "content": "Multiply the first equation by 2:<br/>$$2(3x + 9y) = 2(10)$$<br/>$$6x + 18y = 20$$<br/><br/>This must equal the second equation $rx + 18y = 20$. Comparing the x-coefficients: $r = 6$.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

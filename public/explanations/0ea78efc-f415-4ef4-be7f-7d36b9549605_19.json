@@ -1,0 +1,15 @@
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun requiring agreement",
+      "content": "The blank is in the phrase \u201cof ______ nurses,\u201d where the word filling it must modify the plural noun \u201cnurses.\u201d"
+    },
+    {
+      "title": "Apply the demonstrative agreement rule",
+      "content": "When a demonstrative pronoun modifies a noun, it must agree with the noun in number. \u201cThese\u201d is plural and correctly modifies \u201cnurses\u201d; the other three are either singular or don't function as demonstrative modifiers in this position. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

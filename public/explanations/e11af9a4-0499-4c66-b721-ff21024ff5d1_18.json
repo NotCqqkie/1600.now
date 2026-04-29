@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The verb is \u201ceschew,\u201d followed by the object \u201ccurrency\u201d and then the prepositional phrase \u201cin favor of a direct trade system.\u201d The relative clause \u201cthat requires...\u201d follows this phrase."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "Commas should not separate a verb from an essential (non-parenthetical) prepositional phrase that modifies it. Choice B correctly avoids punctuation before \u201cin favor of a direct trade system,\u201d maintaining a clear structure where \u201cthat requires...\u201d unambiguously modifies \u201csystem.\u201d Choices A, C, and D introduce commas or dashes that violate this rule by either separating the verb from its essential modifier or creating ambiguity about what the relative clause modifies. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

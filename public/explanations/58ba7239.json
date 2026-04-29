@@ -1,0 +1,17 @@
+{
+  "questionId": "58ba7239",
+  "correctAnswer": "1512/5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find b from 320% greater than 160",
+      "content": "When a number is 320% greater than 160, we multiply by $1 + 3.2 = 4.2$:<br/>$$b = 160 \\times 4.2$$<br/>Calculating: $160 \\times 4.2 = 160 \\times (4 + 0.2) = 640 + 32 = 672$",
+      "formula": "$$\\text{Quantity } p% \\text{ greater than Q} = Q \\times \\left(1 + \\frac{p}{100}\\right)$$"
+    },
+    {
+      "title": "Find a from 55% less than b",
+      "content": "When a number is 55% less than 672, we multiply by $1 - 0.55 = 0.45$:<br/>$$a = 672 \\times 0.45$$<br/>Calculating: $a = 302.4$, which as a fraction is $\\frac{1512}{5}$",
+      "formula": "$$\\text{Quantity } p% \\text{ less than Q} = Q \\times \\left(1 - \\frac{p}{100}\\right)$$"
+    }
+  ]
+}

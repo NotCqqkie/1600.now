@@ -1,0 +1,23 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read histogram frequencies and locate median positions",
+      "content": "From the histogram, the original 11 years distribute as: 2 in [40, 45), 3 in [45, 50), 3 in [50, 55), 1 in [55, 60), and 2 in [75, 80). The original median is the 6th value (middle of 11 ordered values). Cumulative count: positions 1\u20132 in [40, 45), positions 3\u20135 in [45, 50), positions 6\u20138 in [50, 55), position 9 in [55, 60), positions 10\u201311 in [75, 80). <strong>The original median is the 6th value, located in [50, 55).</strong>"
+    },
+    {
+      "title": "Statement I: Does removing 76.2\u00b0F decrease the mean?",
+      "content": "For the mean to decrease when a value is removed, that value must be greater than the current mean. The data clusters in [40, 60), with only 2 values in [75, 80). The mean is approximately $\\frac{2(42.5) + 3(47.5) + 3(52.5) + 1(57.5) + 2(76.5)}{11} \\approx \\frac{595}{11} \\approx 54\u00b0F$. Since 76.2\u00b0F $\\gg$ 54\u00b0F, removing it makes the numerator smaller while the denominator shrinks from 11 to 10, thus the new mean $= \\frac{\\text{old sum} - 76.2}{10} <$ original mean. <strong>Statement I is TRUE.</strong>"
+    },
+    {
+      "title": "Statement II: Does removing 76.2\u00b0F decrease the median?",
+      "content": "After removing one value from [75, 80), the new data has 10 values. The new median is the average of the 5th and 6th values. The cumulative counts remain: positions 1\u20132 in [40, 45), positions 3\u20135 in [45, 50), positions 6\u20138 in [50, 55), position 9 in [55, 60), position 10 in [75, 80). The 5th value is in [45, 50) and the 6th value is in [50, 55). Therefore: <div class=\"callout\"><strong>Original median</strong> = 6th value only (a value in [50, 55))<br/><strong>New median</strong> = $\\frac{\\text{5th value} + \\text{6th value}}{2}$ = $\\frac{\\text{(value in [45,50)} + \\text{value in [50,55))}}{2}$</div> Since the 5th value is below 50 and the 6th value is at or above 50, their average is strictly less than the 6th value alone. <strong>Statement II is TRUE.</strong>"
+    },
+    {
+      "title": "Both statements are true",
+      "content": "Since removing 76.2\u00b0F (which lies above the mean and far above the median) necessarily decreases the mean, and changes the median from a single value in [50, 55) to the average of a value below 50 and a value in [50, 55), both statements I and II must be true. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

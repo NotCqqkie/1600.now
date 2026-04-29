@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The phrase \"oil painting *Gun with Hand #1*\" is a noun phrase modifying the subject of the sentence. The blank separates the noun \"oil painting\" from its title (*italicized*), while the following dependent clause ('which was created...') requires a punctuation break."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "A comma is needed before the dependent clause ('which was created...') to separate it from the main noun phrase. Option C places a comma after the title to introduce the dependent clause without disrupting the noun-title pairing. The other choices either omit the necessary comma (A, B, D) or misplace punctuation (B: comma before/after title; D: comma immediately after 'painting'). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

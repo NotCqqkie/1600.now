@@ -1,0 +1,15 @@
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal \u2014 entirely absent means zero observations",
+      "content": "The passage states \u201cdid not observe even one ______\u201d and emphasizes that some species were \u201centirely absent from the tide pool at particular times of the year.\u201d This requires a species-and-time combination where the population count was zero. The graph displays population data for each species across four months; I need to find which species shows a zero value at the specified time(s)."
+    },
+    {
+      "title": "Match the graph data to the choices",
+      "content": "Striated rockskipper appears on the graph with zero individuals in both January and April of 2001. This directly illustrates the example: a species entirely absent at particular times of the year. The other three options describe species\u2014combtooth blenny, barred flagtail, and barred flagtail again\u2014that all show nonzero populations during their stated months, contradicting the \u201cdid not observe even one\u201d claim. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

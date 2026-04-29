@@ -1,0 +1,15 @@
+{
+  "questionId": "0b3d25c5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize and factor the perfect square trinomial",
+      "content": "The expression under the fourth root is $x^2 + 8x + 16$, which is a perfect square trinomial:\n$$x^2 + 8x + 16 = (x + 4)^2$$"
+    },
+    {
+      "title": "Apply the fourth root and exponent rule",
+      "content": "Rewrite the fourth root in exponential form and apply the power rule $(a^m)^n = a^{mn}$:\n$$\\sqrt[4]{(x+4)^2} = ((x+4)^2)^{1/4} = (x+4)^{2/4} = (x+4)^{1/2}$$\nThat matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

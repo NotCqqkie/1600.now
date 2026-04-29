@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key claim: regrowth means forest cover increases",
+      "content": "The passage says increased environmental reforms and declining meat prices \u201ctriggered a natural regrowth process.\u201d Regrowth in the context of forest data means forest cover areas must be increasing, particularly from 1979 (when deforestation peaked) to 2000."
+    },
+    {
+      "title": "Find the choice showing all forests recovering",
+      "content": "From 1979 to 2000, every class increased significantly: Class I-IV from ~400 to ~1000 sq km, Class VI from ~275 to ~525, and Class VIII from ~700 to ~975. This universal recovery across all land use capability classes is the evidence of regrowth. Choices A and C reference static values or coincidences rather than growth trends, while B addresses the deforestation period (1960\u20131979), not the recovery. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

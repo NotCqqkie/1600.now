@@ -1,0 +1,15 @@
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The first sentence introduces a classification system with three genres. The second sentence exemplifies it, using \u201cis classified as...whereas\u201d to show examples of different genres. The blank must mark this transition from system to example."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>For instance</strong> directly marks an example\u2014it shows Much Ado About Nothing exemplifies the classification system, and the \u201cwhereas\u201d then contrasts it with Richard II. The other choices suggest continuation (in addition), similarity (similarly), or confusing contrast (however). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

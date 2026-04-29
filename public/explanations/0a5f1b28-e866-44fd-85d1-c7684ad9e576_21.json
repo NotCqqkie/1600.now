@@ -1,0 +1,15 @@
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify two findings with opposite patterns",
+      "content": "The passage reports two findings from the researchers' analysis: negative adjectives evolve most rapidly while negative nouns evolve most slowly\u2014opposite extremes from the same study."
+    },
+    {
+      "title": "Select the transition connecting disparate findings",
+      "content": "\u201dMeanwhile\u201d introduces this second finding as a concurrent discovery without suggesting similarity or causation. \u201cSimilarly\u201d wrongly implies parallel patterns when the rates are opposite; \u201chence\u201d incorrectly suggests consequence; \u201csubsequently\u201d marks only temporal order. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

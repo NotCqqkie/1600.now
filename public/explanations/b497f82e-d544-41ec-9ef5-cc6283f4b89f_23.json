@@ -1,0 +1,15 @@
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The critical clue is <strong>\u201cby and large\u201d</strong> in the next sentence\u2014a phrase that emphasizes a general or predominant pattern. This signals that the transition word should establish a contrast between occasional or limited cases and the typical state."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>\u201cOccasionally\u201d</strong> directly supplies this contrast: it means supporters were sometimes secretive, but by and large they were vocal abolitionists. This allows both statements to coexist\u2014secrecy may have occurred in certain circumstances, but the overall character of railroad supporters was openly abolitionist, consistent with Goodrich's example.<br/><br/>The other three fail to establish this frequency-based distinction: <strong>\u201cFor example\u201d</strong> would require secretiveness to exemplify outspokenness (it doesn't), <strong>\u201cAccordingly\u201d</strong> falsely suggests a causal relationship, and <strong>\u201cHowever\u201d</strong> sets up a categorical contradiction rather than the nuance that <strong>\u201cby and large\u201d</strong> then clarifies.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

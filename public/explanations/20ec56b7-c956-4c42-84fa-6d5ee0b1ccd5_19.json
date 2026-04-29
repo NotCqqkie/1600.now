@@ -1,0 +1,15 @@
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The subject is the noun phrase \u201can artificial intelligence\u201d (singular), followed by a relative clause and participial phrase. After the blank is the direct object \u201cChicago's energy grid.\u201d The blank requires a verb to complete the independent clause."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The rule is subject-verb agreement: a singular subject requires a singular verb form. \u201cPowers\u201d provides this singular form for the subject \u201can artificial intelligence.\u201d The other choices all use plural verb forms that violate this agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

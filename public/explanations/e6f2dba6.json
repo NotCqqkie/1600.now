@@ -1,0 +1,15 @@
+{
+  "questionId": "e6f2dba6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the missing auxiliary verb",
+      "content": "The word \u201cconsidered\u201d is a past participle with no preceding auxiliary verb. In \u201cyellow ______ considered complementary to blue,\u201d a finite auxiliary verb is needed before the participle to form a complete main clause."
+    },
+    {
+      "title": "Apply the passive voice rule",
+      "content": "The passive voice requires a finite form of \u201cto be\u201d + a past participle. \u201cIs\u201d provides this, creating \u201cis considered.\u201d The other choices\u2014\u201dhaving been,\u201d \u201cto be,\u201d and \u201cbeing\u201d\u2014are nonfinite verb forms that cannot function as a main verb. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

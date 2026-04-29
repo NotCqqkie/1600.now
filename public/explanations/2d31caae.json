@@ -1,0 +1,15 @@
+{
+  "questionId": "2d31caae",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the relevant counts",
+      "content": "From the table, Employee A received <strong>16</strong> one\u2011star calls out of a total of <strong>145</strong> calls."
+    },
+    {
+      "title": "Backsolving \u2014 testing choice B (11%)",
+      "content": "$$0.11 \\times 145 = 15.95 \\approx 16$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

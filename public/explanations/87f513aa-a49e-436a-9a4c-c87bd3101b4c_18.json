@@ -1,0 +1,15 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_18",
+  "correctAnswer": "216",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope r using two table points",
+      "content": "Pick two points: $(-8, 48)$ and $(8, -96)$. Apply the slope formula:<br/>$$r = \\frac{f(x_2) - f(x_1)}{x_2 - x_1} = \\frac{-96 - 48}{8 - (-8)} = \\frac{-144}{16} = -9$$"
+    },
+    {
+      "title": "Find s using a point, then compute rs",
+      "content": "Substitute point $(-8, 48)$ into $f(x) = rx + s$:<br/>$$48 = (-9)(-8) + s$$$$48 = 72 + s$$$$s = -24$$Multiply to find $rs$:<br/>$$rs = (-9) \\times (-24) = 216$$"
+    }
+  ]
+}

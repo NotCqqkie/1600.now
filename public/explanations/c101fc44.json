@@ -1,0 +1,15 @@
+{
+  "questionId": "c101fc44",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical elements",
+      "content": "\u201dSomething new\u201d is a noun phrase. \u201cSequencing the DNA found in Neanderthals' fossilized dental plaque\u201d is a gerund phrase."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon introduces an elaboration or appositive that clarifies a noun phrase. Choice A correctly uses a colon to introduce \u201csequencing the DNA found in...\u201d as an elaboration of \u201csomething new.\u201d Choice B incorrectly uses a semicolon, which requires independent clauses on both sides, but \u201csequencing...\u201d is a gerund phrase, not an independent clause; Choice C places the colon awkwardly after \u201csequencing\u201d; and Choice D creates a sentence fragment by using a period. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

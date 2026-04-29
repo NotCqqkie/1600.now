@@ -1,0 +1,15 @@
+{
+  "questionId": "db0107df",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set x = 0 at the y-intercept",
+      "content": "At the y-intercept, a point lies on the y-axis where $x = 0$. Substitute this into $12x + 2y = 18$:<br/>$$12(0) + 2y = 18$$<br/>$$2y = 18$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Divide both sides by 2:<br/>$$y = \\frac{18}{2} = 9$$"
+    }
+  ]
+}

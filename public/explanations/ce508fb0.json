@@ -1,0 +1,15 @@
+{
+  "questionId": "ce508fb0",
+  "correctAnswer": "-4.9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate f(-4) by substituting into the absolute value expression",
+      "content": "Start with $f(x) = 3 + |-2x - x^2|$. Substitute $x = -4$:<br/><br/>$$f(-4) = 3 + |-2(-4) - (-4)^2|$$<br/><br/>Simplify inside the absolute value:<br/>$$-2(-4) - (-4)^2 = 8 - 16 = -8$$<br/><br/>Take the absolute value:<br/>$$|-8| = 8$$<br/><br/>Therefore $f(-4) = 3 + 8 = 11$, so $c = 11$."
+    },
+    {
+      "title": "Evaluate g(11) by substituting the value of c",
+      "content": "Now use $g(w) = |\\frac{-w}{w-1}| - w + 5$ with $w = c = 11$:<br/><br/>$$g(11) = \\left|\\frac{-11}{11-1}\\right| - 11 + 5$$<br/><br/>Simplify the fraction:<br/>$$\\frac{-11}{10} = -1.1$$<br/><br/>Take the absolute value:<br/>$$\\left|-1.1\\right| = 1.1$$<br/><br/>Complete the calculation:<br/>$$g(11) = 1.1 - 11 + 5 = 1.1 - 6 = -4.9$$"
+    }
+  ]
+}

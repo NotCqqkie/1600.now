@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the vertex of the parabola",
+      "content": "The graph shows a downward-opening parabola representing the projectile's height over time. Reading directly from the graph, the peak (maximum height) occurs at <strong>x = 2 seconds</strong>, where the height reaches approximately 20 meters."
+    },
+    {
+      "title": "Identify the interval where height is increasing",
+      "content": "A downward-opening parabola increases from the start up to its vertex, then decreases after. Since the vertex is at x = 2, the height increases throughout the entire interval from x = 0 to x = 2. At x = 0, the height begins near 0 meters; by x = 2, it reaches the peak of 20 meters. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

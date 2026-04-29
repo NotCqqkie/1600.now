@@ -1,0 +1,15 @@
+{
+  "questionId": "4347a032",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "From the given relationship $3\\text{ teaspoons} = 1\\text{ tablespoon}$, to convert tablespoons to teaspoons, we multiply by 3."
+    },
+    {
+      "title": "Perform the calculation",
+      "content": "Multiply: $$44 \\times 3 = 132\\text{ teaspoons}$$\n\nThat matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

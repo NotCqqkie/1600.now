@@ -1,0 +1,15 @@
+{
+  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank must be a complete clause that follows \u201cwhy\u201d and ends before \u201cThe hazy middle layer...\u201d begins a new sentence."
+    },
+    {
+      "title": "Apply the indirect question rule",
+      "content": "Clauses after \u201cwhy\u201d require normal word order (subject-verb) with a period ending the sentence. C correctly provides \u201cUranus is a different shade of blue than Neptune.\u201d with normal order and a period. A and D both use inverted word order (\u201cis Uranus...\u201d), violating indirect question syntax; B uses normal order but ends with a question mark, making it interrogative instead of declarative. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

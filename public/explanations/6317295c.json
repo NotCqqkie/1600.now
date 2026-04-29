@@ -1,0 +1,15 @@
+{
+  "questionId": "6317295c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the period values in the table",
+      "content": "The question defines period as time between consecutive pulses. Reading directly from the Period column: J0614-03 = 0.136 seconds, J0103+54 = 0.354 seconds, J1654-2335 = 0.545 seconds, J0545-03 = 1.074 seconds, J0121+53 = 2.725 seconds."
+    },
+    {
+      "title": "Test which choice correctly describes the data",
+      "content": "Choice A states that J0614-03 has the shortest period \u2014 and 0.136 seconds is indeed the minimum value in the table. Choices B, C, and D all contradict the data: B equates two unequal values, C misidentifies the longest period, and D overstates J0103+54's actual period. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

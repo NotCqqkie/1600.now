@@ -1,0 +1,15 @@
+{
+  "questionId": "20733eac",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contradiction signal",
+      "content": "The passage states the long-held belief (humans arrived 13,000 years ago), then introduces new research suggesting 30,000 years\u2014explicitly marked as <em>\u201cmuch earlier than previously thought.\u201d</em> This phrase signals a direct contradiction to the old view."
+    },
+    {
+      "title": "Match the transition to the contradiction",
+      "content": "<strong>However</strong> transitions to contradictory information. The other three indicate causality, similarity, or conclusion\u2014none of which fit. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

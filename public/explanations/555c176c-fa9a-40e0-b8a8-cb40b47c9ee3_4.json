@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the length-width relationship",
+      "content": "The rectangle's length is 31 times its width. With width = $w$, this means length = $31w$."
+    },
+    {
+      "title": "Identify 31w in the area formula",
+      "content": "The area of a rectangle is length \u00d7 width. In our function $y = (31w)(w)$, we're multiplying two factors. Since width = $w$ and length = $31w$, the factor $31w$ must represent the length. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

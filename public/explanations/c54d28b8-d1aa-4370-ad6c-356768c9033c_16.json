@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "<strong>Content before the blank</strong> is an <em>independent clause (IC)</em> ending with a list of nouns: 'race, gender, history, and...'.<br/><strong>Content after the blank</strong> is another <em>independent clause:</em> 'she is credited with expanding the horizons of conceptual photographic art.'"
+    },
+    {
+      "title": "Apply the IC + IC rule",
+      "content": "When two independent clauses are joined by a coordinating conjunction like 'and,' use a <strong>comma before the conjunction</strong> (rule: 'comma + coordinating conjunction joins two independent clauses'). Choice B adds a comma before 'and' to correctly separate the clauses. Choices A, C, and D violate this rule by omitting the comma (A), ending the first clause with a comma that lacks a conjunction (C), or leaving two ICs unconnected (D). <br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6b49f5f1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The phrase '<strong>skeptical but</strong>' signals a direct contrast between public doubt and historical confirmation. The <strong>but</strong> clearly divides opposing views into two complete thoughts requiring a transitional punctuation."
+    },
+    {
+      "title": "Match the contrast structure",
+      "content": "A semicolon with a comma after <strong>however</strong>-type conjunction is required to join two independent clauses. Choice B uses '<strong>skeptical, but</strong>' which follows the <strong>IC; however, IC</strong> pattern. The other choices violate this by missing both the required comma before 'but' (A,D) or adding an improper second comma (C). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

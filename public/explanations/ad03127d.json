@@ -1,0 +1,15 @@
+{
+  "questionId": "ad03127d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract t from both sides",
+      "content": "Starting with $6r = 7s + t$, subtract $t$ from both sides to isolate the term with $s$: $$6r - t = 7s$$"
+    },
+    {
+      "title": "Divide both sides by 7",
+      "content": "Divide both sides by 7 to solve for $s$: $$s = \\frac{6r - t}{7}$$ This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "842cec4d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the cruising speed range to inequalities",
+      "content": "The speed <em>varied between 150 and 170</em> means the speed must satisfy:<ul><li>At least 150 mph: $s \\geq 150$</li><li>At most 170 mph: $s \\leq 170$</li></ul>Combining both conditions: $$150 \\leq s \\leq 170$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "<ul><li><strong>Choice A:</strong> $s \\leq 20$ \u2014 Way too small for an airplane cruising speed.</li><li><strong>Choice B:</strong> $s \\leq 150$ \u2014 Only provides an upper limit; ignores that speeds go up to 170.</li><li><strong>Choice C:</strong> $s \\leq 170$ \u2014 Only provides an upper limit; ignores the lower bound of 150.</li><li><strong>Choice D:</strong> $150 \\leq s \\leq 170$ \u2014 Exactly matches the compound inequality we derived.</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

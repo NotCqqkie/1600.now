@@ -1,0 +1,15 @@
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the evidence must show",
+      "content": "We must prove that both alkanes and dimethyl sulfides were in the original pulverized sample. The key principle: if a compound appears in any extract, it must have come from the original material. The table shows which compounds were detected in each extract, so we need to find evidence that both compounds were detected somewhere."
+    },
+    {
+      "title": "Match specific detections to the claim",
+      "content": "Choice A directly states that the third extract (methanol-only) contains dimethyl sulfides and the fourth extract contains alkanes. These specific observations prove both compounds were in the original sample\u2014dimethyl sulfides appear in extract 3, alkanes in extract 4. Choices B and D mention only alkanes without accounting for dimethyl sulfides, and choice C mentions both but presents them as summary frequencies rather than direct evidence of presence. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

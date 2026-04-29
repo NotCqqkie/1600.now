@@ -1,0 +1,15 @@
+{
+  "questionId": "50f4cb9c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope a using two points",
+      "content": "Using points $(1, -64)$ and $(2, 0)$ from the table: <br/> $$a = \\frac{f(2) - f(1)}{2 - 1} = \\frac{0 - (-64)}{1} = 64$$"
+    },
+    {
+      "title": "Find b and calculate a - b",
+      "content": "Using the point $(1, -64)$ with $f(1) = a(1) + b$: <br/> $$64 + b = -64$$ <br/> $$b = -128$$ <br/> Therefore: <br/> $$a - b = 64 - (-128) = 192$$ <br/> That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

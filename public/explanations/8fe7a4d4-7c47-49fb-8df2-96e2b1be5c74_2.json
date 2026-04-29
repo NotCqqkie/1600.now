@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \"counterintuitive effect\" signals a contrast. Normally, higher prices <em>reduce</em> demand, but here buyers started rushing to purchase figures <strong>because</strong> they believed prices would rise further\u2014this means the missing word must express 'causing demand.'"
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The correct word must mean 'to create or generate demand.' <strong>C</strong> does this directly. The others either focus on financial extraction (monetizing, exploiting) or describe unrelated actions (appraising). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key similarity signal",
+      "content": "The student's goal is to emphasize a similarity. The strongest clue in the notes is when both books <em>entered the public domain</em> in consecutive years (2019 and 2021). Any correct choice must focus on this shared status, not their genres (poems vs. novels) or timing contrasts."
+    },
+    {
+      "title": "Match the shared public domain status",
+      "content": "Choice B directly links both books to the shared action of <strong>recently entered the public domain</strong>, capturing the student's goal. A, C, and D either highlight differences (A and C) or focus on one book's status (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

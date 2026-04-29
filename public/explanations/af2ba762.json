@@ -1,0 +1,21 @@
+{
+  "questionId": "af2ba762",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear form and constant term",
+      "content": "The function modeling the price is linear, written as $$F(x) = mx + 2.74$$. The number 2.74 is the constant term, i.e., the y\u2011intercept.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Evaluate at x = 0 to find the initial price",
+      "content": "At September 1, 2014, the time elapsed is $$x = 0$$ months. Substituting gives $$F(0) = m\u00b70 + 2.74 = 2.74$$. Thus 2.74 represents the average price per gallon on that date. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

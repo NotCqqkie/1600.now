@@ -1,0 +1,16 @@
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_17",
+  "correctAnswer": "1/46",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify coefficients and apply Vieta's formula",
+      "content": "For the equation $46x^2 + (46s + r)x + rs = 0$, identify coefficients in standard form $ax^2 + bx + c = 0$:<br/><ul><li>$a = 46$</li><li>$c = rs$</li></ul>By Vieta's formulas, the product of the solutions is:<br/>$$\\text{product} = \\frac{c}{a} = \\frac{rs}{46}$$",
+      "formula": "$$\\text{For } ax^2 + bx + c = 0, \\text{ product of roots} = \\frac{c}{a}$$"
+    },
+    {
+      "title": "Express product as krs and solve for k",
+      "content": "The problem states the product of solutions equals $krs$. Setting our result equal to this:<br/>$$\\frac{rs}{46} = krs$$<br/><br/>Divide both sides by $rs$ (both positive constants):<br/>$$k = \\frac{1}{46}$$"
+    }
+  ]
+}

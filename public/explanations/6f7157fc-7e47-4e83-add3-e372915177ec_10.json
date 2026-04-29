@@ -1,0 +1,15 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the conservation principle",
+      "content": "When mixing solutions with different concentrations, the total amount of pure salt is conserved\u2014that is, salt from solution 1 + salt from solution 2 = salt in final mixture. Convert each percentage to decimal form: 2% = 0.02, 5% = 0.05, and 3% = 0.03."
+    },
+    {
+      "title": "Set up the conservation equation",
+      "content": "For each solution, amount of salt = concentration (as decimal) \u00d7 volume:<br/><ul><li>From $x$ liters of 2% solution: $0.02x$ liters of salt</li><li>From $y$ liters of 5% solution: $0.05y$ liters of salt</li><li>From $(x + y)$ liters of 3% solution: $0.03(x + y)$ liters of salt</li></ul>By conservation, these amounts must be equal:<br/><div class=\"callout\">$$0.02x + 0.05y = 0.03(x + y)$$</div>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

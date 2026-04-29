@@ -1,0 +1,15 @@
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the study's defining contrast",
+      "content": "The notes present two measurements: syllable rate (varied across the 17 languages) and information rate (remained approximately 39 bits per second across all). The defining contrast is that despite differences in one metric, the other stayed constant."
+    },
+    {
+      "title": "Find the choice that captures this contrast",
+      "content": "C presents exactly this: languages differed in syllables per second but all conveyed information at roughly the same rate. A and B fail to capture this full picture by focusing only on specific comparisons or methodology, while D contradicts the findings by claiming a difference in information rates. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

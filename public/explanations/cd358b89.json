@@ -1,0 +1,19 @@
+{
+  "questionId": "cd358b89",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find g(x) by substituting x-1 into f",
+      "content": "Since $g(x) = f(x-1)$, substitute $(x-1)$ for each instance of $x$ in $f(x) = (x+6)(x+5)(x+1)$:<br/><br/>$$g(x) = ((x-1)+6)((x-1)+5)((x-1)+1)$$<br/><br/>Simplifying:<br/>$(x-1)+6 = x+5$<br/>$(x-1)+5 = x+4$<br/>$(x-1)+1 = x$<br/><br/>So $g(x) = (x+5)(x+4)(x)$."
+    },
+    {
+      "title": "Find the x-intercepts",
+      "content": "The x-intercepts occur where $g(x) = 0$:<br/><br/>$$(x+5)(x+4)(x) = 0$$<br/><br/>Each factor gives a solution:<ul><li>$x + 5 = 0$ yields $x = -5$</li><li>$x + 4 = 0$ yields $x = -4$</li><li>$x = 0$</li></ul>"
+    },
+    {
+      "title": "Sum the roots",
+      "content": "$$a + b + c = (-5) + (-4) + 0 = -9$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

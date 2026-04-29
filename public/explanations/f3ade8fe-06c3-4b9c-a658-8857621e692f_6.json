@@ -1,0 +1,19 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract data points from the table",
+      "content": "From the table: when $c = 3$, $p = 9$; when $c = 5$, $p = 11$; when $c = 10$, $p = 16$."
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "Using any two points, say $(3, 9)$ and $(5, 11)$:<br/>$$m = \\frac{11 - 9}{5 - 3} = \\frac{2}{2} = 1$$<br/>Verify with the third point: from $(5, 11)$ to $(10, 16)$ gives slope $\\frac{16 - 11}{10 - 5} = \\frac{5}{5} = 1$ \u2713"
+    },
+    {
+      "title": "Write the equation using point-slope form",
+      "content": "Using point $(3, 9)$ and slope $m = 1$:<br/>$$p - 9 = 1(c - 3)$$<br/>$$p - 9 = c - 3$$<br/>$$p = c + 6$$<br/>Rearranging:<br/>$$c - p = -6$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

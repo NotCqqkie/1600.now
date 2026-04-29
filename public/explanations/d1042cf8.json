@@ -1,0 +1,15 @@
+{
+  "questionId": "d1042cf8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the cost expression for each item",
+      "content": "Since forks cost $0.04 each and we're buying <em>x</em> forks, the fork cost is $0.04<em>x</em>. Since plates cost $0.48 each and we're buying <em>y</em> plates, the plate cost is $0.48<em>y</em>."
+    },
+    {
+      "title": "Combine the costs and set equal to the total",
+      "content": "The total cost is the sum of both expenses:<br/>$$0.04x + 0.48y = 661.76$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

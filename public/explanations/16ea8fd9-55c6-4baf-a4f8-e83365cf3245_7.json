@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the setup",
+      "content": "The passage opens by defining \u201cconvergent evolution\u201d using em-dashes before discussing how multiple scientists investigated this phenomenon and what questions remain unanswered."
+    },
+    {
+      "title": "Match the function",
+      "content": "The underlined portion gives a basic description of convergent evolution\u2014the central phenomenon that frames the entire passage. Readers must understand this definition before they can follow the discussion of genetic mechanisms and the research motivation. The other choices misidentify what the definition does: it's not clarifying prior confusion (A), exemplifying how studies were conducted (B), or introducing a method of analysis (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

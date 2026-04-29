@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sufficiency threshold",
+      "content": "The passage states that wintering honeybees' charge (approximately 320 pC according to the graph) is \u201csufficiently high\u201d to enable electrostatic pollen transfer\u2014this establishes the minimum effective threshold."
+    },
+    {
+      "title": "Apply the threshold to other species",
+      "content": "Red mason bees show a maximum charge of approximately 750 pC, well above the 320 pC threshold identified as sufficient for electrostatic pollen transfer; a higher charge should produce the same effect. The other choices either misrepresent the data, make unsupported claims, or draw conclusions beyond what the data supports. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

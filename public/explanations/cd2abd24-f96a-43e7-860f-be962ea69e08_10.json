@@ -1,0 +1,21 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify same-side interior angles",
+      "content": "Since lines g and h are parallel and line l is a transversal, the same\u2011side interior angles are supplementary.<br/>$$x + 36 = 180$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for x",
+      "content": "Subtract 36 from both sides:<br/>$$x = 144$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

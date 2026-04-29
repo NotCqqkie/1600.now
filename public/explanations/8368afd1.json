@@ -1,0 +1,11 @@
+{
+  "questionId": "8368afd1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the lemons value at 4 pounds of tangerines",
+      "content": "The graph shows all combinations of tangerines and lemons costing $18. Locate $x = 4$ on the horizontal axis and read the corresponding point on the line: at $(4, 10)$, there are 10 pounds of lemons. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the distributive property",
+      "content": "Distribute 10 to both terms inside the parentheses:<br/>$$10(x + 3) = 10 \\cdot x + 10 \\cdot 3$$"
+    },
+    {
+      "title": "Simplify and identify the choice",
+      "content": "Multiply to get the simplified form:<br/>$$10x + 30$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

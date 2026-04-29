@@ -1,0 +1,15 @@
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal \u2014 what \u201cmoderate\u201d means",
+      "content": "The passage concludes that store context may \u201cmoderate the effect.\u201d In research, \u201cmoderate\u201d means to reduce or weaken. The original effect: products spaced close together are perceived as significantly more valuable than those spaced far apart. The prediction: this spacing effect should be <strong>weaker</strong> at an inexpensive store (Forever 21) than at an upscale store (Tiffany & Co.)."
+    },
+    {
+      "title": "Find the choice showing the spacing effect weakened at the inexpensive store",
+      "content": "Choice A shows both stores exhibit the original spacing pattern (close > far), but the difference in perceived value is significantly greater at Tiffany & Co. than at Forever 21. The other three don't demonstrate this weakening at the inexpensive store. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

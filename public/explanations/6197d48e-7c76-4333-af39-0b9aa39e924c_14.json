@@ -1,0 +1,15 @@
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert 293% to a decimal multiplier",
+      "content": "The phrase <em>293% of x</em> means $293\\% = \\frac{293}{100} = 2.93$, so: $$f(x) = 2.93x$$"
+    },
+    {
+      "title": "Identify the function type",
+      "content": "The function $f(x) = 2.93x$ has the form $f(x) = mx + b$ (a linear function) with slope $m = 2.93$ and y-intercept $b = 0$.<br/><br/>Since the slope $m = 2.93 > 0$ is positive:<ul><li><strong>Linear:</strong> not exponential \u2014 the output is directly proportional to the input</li><li><strong>Increasing:</strong> not decreasing \u2014 a positive slope means as $x$ increases, $f(x)$ increases</li></ul>This is an increasing linear function. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

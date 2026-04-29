@@ -1,0 +1,19 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_21",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y = 17 into both equations",
+      "content": "Since the intersection point is (q, 17), we know $y = 17$ satisfies both equations.<br/><br/>First equation: $-x - w(17) = -357$ becomes $x + 17w = 357$<br/>Second equation: $2x - w(17) = 51$ becomes $2x - 17w = 51$"
+    },
+    {
+      "title": "Add equations to eliminate w",
+      "content": "Adding both equations cancels the $w$ terms:<br/>$$(x + 17w) + (2x - 17w) = 357 + 51$$<br/>$$3x = 408$$<br/>$$x = 136$$"
+    },
+    {
+      "title": "Solve for w using x = 136",
+      "content": "Substituting $x = 136$ into $x + 17w = 357$:<br/>$$136 + 17w = 357$$<br/>$$17w = 221$$<br/>$$w = 13$$"
+    }
+  ]
+}

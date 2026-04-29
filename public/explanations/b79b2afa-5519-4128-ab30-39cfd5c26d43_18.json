@@ -1,0 +1,15 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find T in radians by adding",
+      "content": "Since T is $\\frac{7\\pi}{12}$ radians greater than R:<br/>$$T = R + \\frac{7\\pi}{12} = \\frac{5\\pi}{6} + \\frac{7\\pi}{12}$$<br/>Convert to common denominator 12:<br/>$$\\frac{5\\pi}{6} = \\frac{10\\pi}{12}$$<br/>So:<br/>$$T = \\frac{10\\pi}{12} + \\frac{7\\pi}{12} = \\frac{17\\pi}{12}$$"
+    },
+    {
+      "title": "Convert to degrees",
+      "content": "Multiply by the conversion factor $\\frac{180\u00b0}{\\pi}$:<br/>$$T = \\frac{17\\pi}{12} \\cdot \\frac{180\u00b0}{\\pi} = \\frac{17 \\cdot 180\u00b0}{12} = \\frac{3060\u00b0}{12} = 255\u00b0$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

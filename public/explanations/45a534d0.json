@@ -1,0 +1,15 @@
+{
+  "questionId": "45a534d0",
+  "correctAnswer": "-34",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite both equations in standard form",
+      "content": "Equation 1: Start with $48x - 72y = 30y + 24$. Collect like terms on one side: $48x = 102y + 24$, which rearranges to $48x - 102y = 24$.<br/><br/>Equation 2: Start with $ry = \\frac{1}{6} - 16x$. Add $16x$ to both sides: $16x + ry = \\frac{1}{6}$."
+    },
+    {
+      "title": "Apply the parallel lines condition to solve for r",
+      "content": "A system of linear equations has no solution when the two lines are parallel but distinct. In standard form, two lines are parallel if the ratios of their $x$- and $y$-coefficients are equal. Set up that proportion:<br/>$$\\frac{48}{16} = \\frac{-102}{r}$$<br/>Simplify the left side: $3 = \\frac{-102}{r}$. Cross-multiply: $3r = -102$. Divide by 3: $r = -34$.<br/>To confirm these lines are distinct (not identical), check the constant ratio: $\\frac{24}{\\frac{1}{6}} = 24 \\cdot 6 = 144$. Since $144 \\neq 3$, the lines are indeed parallel but non-coincident, so there is no intersection."
+    }
+  ]
+}

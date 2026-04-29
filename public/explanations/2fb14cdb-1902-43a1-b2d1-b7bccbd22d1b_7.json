@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test Point P in inequality I",
+      "content": "For inequality I: $y < -3x + 7$, substitute $x = 3$ and $y = -5$:<br/><br/>$$-5 < -3(3) + 7$$<br/>$$-5 < -9 + 7$$<br/>$$-5 < -2$$<br/><br/>This is <strong>true</strong> \u2014 point P satisfies inequality I."
+    },
+    {
+      "title": "Test Point P in inequality II",
+      "content": "For inequality II: $y > x - 5$, substitute $x = 3$ and $y = -5$:<br/><br/>$$-5 > 3 - 5$$<br/>$$-5 > -2$$<br/><br/>This is <strong>false</strong> \u2014 point P does not satisfy inequality II.<br/><br/>Since P satisfies only inequality I, that matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

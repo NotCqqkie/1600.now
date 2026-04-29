@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the colon's explanation",
+      "content": "The colon introduces a key insight: \u201cwhat drives firms in certain industries to cluster may not be especially relevant among other industries.\u201d This reveals that the factors causing clustering are not uniform across industries\u2014they differ based on which specific industry you're examining."
+    },
+    {
+      "title": "Find the word for varying factors",
+      "content": "<strong>Variable</strong> means factors that differ or change based on circumstances, which directly matches the explanation: what matters for one industry may not matter for another. The other three either suggest ignorance of the factors, contradict the described variability, or are irrelevant. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

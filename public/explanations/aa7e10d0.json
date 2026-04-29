@@ -1,0 +1,15 @@
+{
+  "questionId": "aa7e10d0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the dual requirement",
+      "content": "To \u201cpresent the study and its findings,\u201d the statement must include both the research (researcher, study) <strong>and</strong> the result (74 species). This is the criterion for effectiveness."
+    },
+    {
+      "title": "Apply the criterion to the choices",
+      "content": "Choice A satisfies both: it identifies the researcher and study, then states the finding (74 species) with location context. The other three fail\u2014B and C omit the researcher and study identification entirely, while D includes the study but omits the finding (74 species).<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage links <strong>cooler months</strong> to <strong>shorter lifespan</strong> via a correlation between <em>wing centroid size</em> and lifespan. The decisive clue is the claim that &quot;flies collected in cooler months should tend to have a shorter lifespan&quot;\u2014this matches data showing smaller wing sizes (proxy for smaller body size) in cooler months."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A shows the average female wing size was smaller in May than in June. Since May is typically cooler than June, this aligns with the assertion\u2019s logic: smaller wing sizes in cooler months \u2192 shorter lifespan. The other three choices either focus on irrelevant comparisons (male vs. female, temperature alone, unrelated timeframes) or reverse the temperature-size relationship. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

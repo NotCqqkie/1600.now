@@ -1,0 +1,15 @@
+{
+  "questionId": "50801257",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the missing main verb",
+      "content": "The sentence has a subject (<em>the International Astronomical Union</em>) that needs a main verb to connect with the object and the trailing participial phrase. The blank must provide a finite verb to form the main clause."
+    },
+    {
+      "title": "Match the requirement to the choices",
+      "content": "Choice A supplies <em>would finally acknowledge</em>, a finite verb that forms the main clause with the subject. The participial phrase <em>naming a crater on Venus after her</em> modifies this main action, showing how the acknowledgment occurred. Choices B, C, and D each provide a non-finite form (infinitive or participle) rather than a finite verb, leaving the sentence without a main clause. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

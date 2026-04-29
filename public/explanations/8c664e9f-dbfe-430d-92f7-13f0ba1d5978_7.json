@@ -1,0 +1,11 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_7",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept from the table",
+      "content": "The <em>y</em>-intercept is the <em>y</em>-value where <em>x</em> = 0. From the table, when <em>x</em> = 0, <em>y</em> = 17."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "0108ac2d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Margin of error creates a confidence interval",
+      "content": "When a survey reports a sample estimate with a margin of error, it defines a <strong>range of plausible values</strong> for the true population parameter. The margin of error is applied symmetrically: we go both up and down from the estimate."
+    },
+    {
+      "title": "Calculate the confidence interval",
+      "content": "With a sample estimate of 38% and a margin of error of 5.5%, the plausible range is:<br/><br/>$$38\\% - 5.5\\% = 32.5\\%\\quad\\text{and}\\quad 38\\% + 5.5\\% = 43.5\\%$$<br/><br/>The interval is <strong>[32.5%, 43.5%]</strong>."
+    },
+    {
+      "title": "Identify the correct interpretation",
+      "content": "Checking each choice:<br/><ul><li><strong>A</strong> claims the true value is exactly 38% \u2014 too definitive; the true value could anywhere in the margin of error.</li><li><strong>B</strong> claims the true value is greater than 38% \u2014 not guaranteed; it could be 32.5% or lower.</li><li><strong>C</strong> states plausible values are between 32.5% and 43.5% \u2014 this is precisely what the margin of error establishes.</li><li><strong>D</strong> refers to numbers of students (295\u2013305) rather than percentages, and those values do not correspond to the data (38% of 300 = 114 students, not near 300).</li></ul>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

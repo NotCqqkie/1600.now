@@ -1,0 +1,11 @@
+{
+  "questionId": "2d394c28",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-value at x = 0",
+      "content": "Since $x$ represents <em>years after 2010</em>, the year 2010 corresponds to $x = 0$. Reading directly from the graph at this point, the y-value is 20,000 residents. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

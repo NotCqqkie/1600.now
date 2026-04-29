@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shift between two minerals",
+      "content": "The sentence transitions from describing painite to describing trona, which have opposite light transmission properties. The blank must correctly mark where this shift occurs."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Choice D correctly uses a period to complete the thought about painite's classification as transparent, then begins a fresh sentence: \u201cAllowing only some light to pass through, trona is instead classified as translucent.\u201d This marks a clear boundary between two independent, complete thoughts.<br/>The other three either create grammatical errors, contradict the passage's description of painite transmitting all light, or fail to properly separate these two minerals with correct punctuation.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

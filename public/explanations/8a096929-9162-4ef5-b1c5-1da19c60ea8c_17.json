@@ -1,0 +1,19 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand and simplify to standard quadratic form",
+      "content": "Expand $-8x(x+9)$ to $-8x^2 - 72x$, set equal to 40, and rearrange: $-8x^2 - 72x - 40 = 0$. <br/>Divide by $-8$ to simplify: $x^2 + 9x + 5 = 0$."
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "With $a=1$, $b=9$, $c=5$, use $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$. <br/>The discriminant is $b^2 - 4ac = 81 - 20 = 61$. <br/>Substitute into the formula: $$x = \\frac{-9 \\pm \\sqrt{61}}{2}$$"
+    },
+    {
+      "title": "Identify s and t from the given form",
+      "content": "The solution with the minus sign is $x = \\frac{-9 - \\sqrt{61}}{2}$. <br/>Factor out the negative: $x = \\frac{-(9 + \\sqrt{61})}{2} = -\\frac{9 + \\sqrt{61}}{2}$. <br/>Comparing to the given form $x = -\\frac{s+\\sqrt{t}}{2}$, we have $s = 9$ and $t = 61$. <br/>Therefore $\\frac{s}{t} = \\frac{9}{61}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

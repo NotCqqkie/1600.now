@@ -1,0 +1,15 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the equations describe the same line",
+      "content": "Multiply the first equation by 5: $$5(7x + 4y) = 5(3)$$ $$35x + 20y = 15$$ This is exactly the second equation, so both describe the <strong>same line</strong> $7x + 4y = 3$. We need the parametric form that traces this line for every value of $r$."
+    },
+    {
+      "title": "Test the parametrizations by substitution",
+      "content": "A parametrization works for all $r$ if substituting its coordinates into $7x + 4y = 3$ always yields 3. <br/><br/> Backsolving \u2014 testing choice B ($\\left(-\\frac{4r}{7}+\\frac{3}{7}, r\\right)$): <br/> $$7\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right) + 4(r) = -4r + 3 + 4r = 3$$ <br/> This simplifies to 3 for every $r$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

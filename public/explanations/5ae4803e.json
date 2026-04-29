@@ -1,0 +1,15 @@
+{
+  "questionId": "5ae4803e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cancel the common factor",
+      "content": "Notice that $(x+9)$ appears in both the numerator and denominator. For all $x \\neq -9$, we can cancel this common factor:<br/>$$\\frac{(x+9)(x-9)}{x+9} = x - 9$$"
+    },
+    {
+      "title": "Solve the simplified equation",
+      "content": "The equation becomes $x - 9 = 7$. Adding 9 to both sides gives $x = 16$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

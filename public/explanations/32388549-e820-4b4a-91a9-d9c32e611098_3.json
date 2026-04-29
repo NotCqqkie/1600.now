@@ -1,0 +1,17 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept and calculate the slope",
+      "content": "From the table, when $x = 0$, we have $y = 95$, so the y-intercept is $b = 95$.<br/>From any two consecutive points, we can find the slope: from $(0, 95)$ to $(1, 105)$,<br/>$$m = \\frac{105 - 95}{1 - 0} = \\frac{10}{1} = 10$$",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Form the linear equation and match the choice",
+      "content": "With slope $m = 10$ and y-intercept $b = 95$, the equation is<br/>$$y = 10x + 95$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$y = mx + b$$"
+    }
+  ]
+}

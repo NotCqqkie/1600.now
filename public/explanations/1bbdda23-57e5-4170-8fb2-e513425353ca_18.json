@@ -1,0 +1,15 @@
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the opening signal",
+      "content": "The text opens a parenthetical element with an em dash after \u201cpantheon\u2014including.\u201d This signals that the list of three deities is an appositive phrase that must be closed before the main clause continues."
+    },
+    {
+      "title": "Apply the closing rule",
+      "content": "Parenthetical phrases opened with an em dash must close with a matching em dash. The closing dash goes after \u201cCrius\u201d to close the appositive phrase. A semicolon would incorrectly suggest another list item, a comma would fail to close the parenthetical, and no punctuation would leave it open. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

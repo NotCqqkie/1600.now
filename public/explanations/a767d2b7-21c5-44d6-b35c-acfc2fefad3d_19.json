@@ -1,0 +1,15 @@
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the antecedent and its number",
+      "content": "The blank refers to \u201cthe artworks\u201d in the dependent clause. \u201cThe artworks\u201d is plural\u2014this is the decisive clue."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must agree in number with the noun it refers to. Since \u201cthe artworks\u201d is plural, the pronoun must be plural. Only \u201cthey\u201d is plural; the others are singular. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

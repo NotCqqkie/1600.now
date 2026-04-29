@@ -1,0 +1,240 @@
+[
+  {
+    "id": "c2e7fa6d",
+    "url": "/bank/math/1158?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "For an electric field passing through a flat surface perpendicular to it, t",
+    "question": {
+      "id": "c2e7fa6d",
+      "type": "free-response",
+      "text": "For an electric field passing through a flat surface perpendicular to it, the electric flux of the electric field through the surface is the product of the electric field\u2019s strength and the area of the surface. A certain flat surface consists of two adjacent squares, where the side length, in meters, of the larger square is $3$ times the side length, in meters, of the smaller square. An electric field with strength $29.00$ volts per meter passes uniformly through this surface, which is perpendicular to the electric field. If the total electric flux of the electric field through this surface is $4,640\\text{volts}\u00b7\\text{meters}$, what is the electric flux, in $\\text{volts}\u00b7\\text{meters}$, of the electric field through the larger square?",
+      "correctAnswer": "4176",
+      "rationale": "The correct answer is $4,176$. It\u2019s given that the side length of the larger square is $3$ times the side length of the smaller square. This means that the area of the larger square is ${3}^{2}$, or $9$, times the area of the smaller square. If the area of the smaller square is represented by $x$, then the area of the larger square can be represented by $9x$. Therefore, the flat surface of the two adjacent squares has a total area of $x+9x$, or $10x$. It\u2019s given that an electric field with strength $29.00$ volts per meter passes uniformly through this surface and the total electric flux of the electric field through this surface is $4,640\\text{volts}\u00b7\\text{meters}$. Since it's given that the electric flux is the product of the electric field\u2019s strength and the area of the surface, the equation $29.00\\left(10x\\right)=4,640$, or $290x=4,640$, can be used to represent this situation. Dividing each side of this equation by $290$ yields $x=16$. Substituting $16$ for $x$ in the expression for the area of the larger square, $9x$, yields $9\\left(16\\right)$, or $144$, square meters. Since the area of the larger square is $144$ square meters, the electric flux, in $\\text{volts}\u00b7\\text{meters}$, of the electric field through the larger square can be determined by multiplying the area of the larger square by the strength of the electric field. Thus, the electric flux is $\\left(144\\text{square}\\text{meters}\\right)\\left(\\frac{29.00\\text{volts}}{\\text{meter}}\\right)$, or $4,176\\text{volts}\u00b7\\text{meters}$.",
+      "section_idx": 1158,
+      "url": "/bank/math/1158?bankType=unofficial"
+    }
+  },
+  {
+    "id": "79340403",
+    "url": "/bank/math/1163?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "The bar graph shows the distribution of $414$ books collected by $10$ diffe",
+    "question": {
+      "id": "79340403",
+      "type": "free-response",
+      "text": "The bar graph shows the distribution of $414$ books collected by $10$ different groups for a book drive. How many books were collected by group $1$?",
+      "correctAnswer": "30",
+      "rationale": "The correct answer is $30$. The height of each bar in the bar graph shown represents the number of books collected by the group specified at the bottom of the bar. The bar for group $1$ reaches a height of $30$. Therefore, group $1$ collected $30$ books.",
+      "section_idx": 1163,
+      "url": "/bank/math/1163?bankType=unofficial"
+    }
+  },
+  {
+    "id": "4837406c",
+    "url": "/bank/math/1165?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "An object travels at a constant speed of $6$ centimeters per second. At thi",
+    "question": {
+      "id": "4837406c",
+      "type": "free-response",
+      "text": "An object travels at a constant speed of $6$ centimeters per second. At this speed, what is the time, in seconds, that it would take for the object to travel $24$ centimeters?",
+      "correctAnswer": "4",
+      "rationale": "The correct answer is $4$. It\u2019s given that the object travels at a constant speed of $6$ centimeters per second. The speed of the object can be written as $\\frac{6\\text{centimeters}}{1\\text{second}}$. Let $x$ represent the time, in seconds, it would take for the object to travel $24$ centimeters. The value of $x$ can be calculated by solving the equation $\\frac{6\\text{centimeters}}{1\\text{second}}=\\frac{24\\text{centimeters}}{x\\text{seconds}}$, which can be written as $\\frac{6}{1}=\\frac{24}{x}$, or $6=\\frac{24}{x}$. Multiplying each side of this equation by $x$ yields $6x=24$. Dividing each side of this equation by $6$ yields $x=4$. Therefore, it would take the object $4$ seconds to travel $24$ centimeters.",
+      "section_idx": 1165,
+      "url": "/bank/math/1165?bankType=unofficial"
+    }
+  },
+  {
+    "id": "3318d37b",
+    "url": "/bank/math/1168?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "A product costs $11.00$ dollars per pound. What is the cost, in dollars, fo",
+    "question": {
+      "id": "3318d37b",
+      "type": "free-response",
+      "text": "A product costs $11.00$ dollars per pound. What is the cost, in dollars, for $6$ pounds of the product?",
+      "correctAnswer": "66",
+      "rationale": "The correct answer is $66$. It\u2019s given that a product costs $11.00$ dollars per pound. Therefore, the cost for $6$ pounds of the product is $\\left(\\frac{11.00\\text{dollars}}{1\\text{pound}}\\right)\\left(6\\text{pounds}\\right)$, which is equivalent to $66.00$, or $66$, dollars.",
+      "section_idx": 1168,
+      "url": "/bank/math/1168?bankType=unofficial"
+    }
+  },
+  {
+    "id": "8c5dbd3e",
+    "url": "/bank/math/1171?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "The number $w$ is $110\\%$ greater than the number $z$. The number $z$ is $5",
+    "question": {
+      "id": "8c5dbd3e",
+      "type": "free-response",
+      "text": "The number $w$ is $110\\%$ greater than the number $z$. The number $z$ is $55\\%$ less than $50$. What is the value of $w$?",
+      "correctAnswer": "189/4",
+      "rationale": "The correct answer is $47.25$. It\u2019s given that the number $w$ is $110%$ greater than the number $z$. It follows that $w=\\left(1+\\frac{110}{100}\\right)z$, or $w=2.1z$. It\u2019s also given that the number $z$ is $55%$ less than $50$. It follows that $z=\\left(1-\\frac{55}{100}\\right)\\left(50\\right)$, or $z=0.45\\left(50\\right)$, which yields $z=22.5$. Substituting $22.5$ for $z$ in the equation $w=2.1z$ yields $w=2.1\\left(22.5\\right)$, which is equivalent to $w=47.25$. Therefore, the value of $w$ is $47.25$. Note that 47.25 and 189/4 are examples of ways to enter a correct answer.",
+      "section_idx": 1171,
+      "url": "/bank/math/1171?bankType=unofficial"
+    }
+  },
+  {
+    "id": "94c65646",
+    "url": "/bank/math/1173?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$432$ is $96\\%$ of what number?",
+    "question": {
+      "id": "94c65646",
+      "type": "free-response",
+      "text": "$432$ is $96\\%$ of what number?",
+      "correctAnswer": "450",
+      "rationale": "The correct answer is $450$. Let $x$ represent the number that $432$ is $96%$ of. This can be written as $\\left(\\frac{96}{100}\\right)x=432$, or $0.96x=432$. Dividing both sides of this equation by $0.96$ yields $x=450$. Therefore, $432$ is $96%$ of $450$.",
+      "section_idx": 1173,
+      "url": "/bank/math/1173?bankType=unofficial"
+    }
+  },
+  {
+    "id": "54cb53cf",
+    "url": "/bank/math/1179?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "The number of zebras in a population in $2018$ was $1.27$ times the number ",
+    "question": {
+      "id": "54cb53cf",
+      "type": "free-response",
+      "text": "The number of zebras in a population in $2018$ was $1.27$ times the number of zebras in this population in $2014$. If the number of zebras in this population in $2014$ is $p%$ of the number of zebras in this population in $2018$, what is the value of $p$, to the nearest whole number?",
+      "correctAnswer": "79",
+      "rationale": "The correct answer is $79$. Let $x$ represent the number of zebras in the population in $2014$ and let $y$ represent the number of zebras in the population in $2018$. It\u2019s given that the number of zebras in this population in $2018$ was $1.27$ times the number of zebras in this population in $2014$. It follows that the equation $y=1.27x$ represents this situation. Dividing both sides of this equation by $1.27$ yields $\\frac{y}{1.27}=x$, or $\\left(\\frac{1}{1.27}\\right)y=x$. Therefore, the number of zebras in this population in $2014$ is $\\frac{1}{1.27}$ times the number of zebras in this population in $2018$. If the number of zebras in this population in $2014$ is $p%$ of the number of zebras in this population in $2018$, then $x=\\frac{p}{100}y$. It follows that $\\frac{1}{1.27}=\\frac{p}{100}$, or $\\frac{100}{1.27}=p$, which means $p$ is approximately equal to $78.74$. Therefore, the value of $p$, to the nearest whole number, is $79$.",
+      "section_idx": 1179,
+      "url": "/bank/math/1179?bankType=unofficial"
+    }
+  },
+  {
+    "id": "7b731fc3",
+    "url": "/bank/math/1181?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "What number is $40\\%$ greater than $115$?",
+    "question": {
+      "id": "7b731fc3",
+      "type": "free-response",
+      "text": "What number is $40\\%$ greater than $115$?",
+      "correctAnswer": "161",
+      "rationale": "The correct answer is $161$. For a number to be $40%$ greater than $115$, it follows that the number is $\\left(100%\\text{of}115\\right)+\\left(40%\\text{of}115\\right)$, which can be written as $\\frac{100}{100}\\left(115\\right)+\\frac{40}{100}\\left(115\\right)$. This expression is equivalent to $1\\left(115\\right)+0.4\\left(115\\right)$, or $1.4\\left(115\\right)$, which is equal to $161$. Therefore, $161$ is $40%$ greater than $115$.",
+      "section_idx": 1181,
+      "url": "/bank/math/1181?bankType=unofficial"
+    }
+  },
+  {
+    "id": "e9f4521a",
+    "url": "/bank/math/1182?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$13$ is $p%$ of $25$. What is the value of $p$?",
+    "question": {
+      "id": "e9f4521a",
+      "type": "free-response",
+      "text": "$13$ is $p%$ of $25$. What is the value of $p$?",
+      "correctAnswer": "52",
+      "rationale": "The correct answer is $52$. It's given that $13$ is $p%$ of $25$. It follows that $\\frac{13}{25}=\\frac{p}{100}$. Multiplying both sides of this equation by $100$ gives $52=p$. Therefore, the value of $p$ is $52$.",
+      "section_idx": 1182,
+      "url": "/bank/math/1182?bankType=unofficial"
+    }
+  },
+  {
+    "id": "89c39d77",
+    "url": "/bank/math/1184?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "A competition consisted of four different events. One participant completed",
+    "question": {
+      "id": "89c39d77",
+      "type": "free-response",
+      "text": "A competition consisted of four different events. One participant completed the first event with an average speed of $20.300$ miles per hour. What was this average speed, in <u>yards</u> per hour? $\\left(1\\text{mile}=1,760\\text{yards}\\right)$",
+      "correctAnswer": "35728",
+      "rationale": "The correct answer is $35,728$. It's given that $1\\text{mile}=1,760\\text{yards}$. It follows that an average speed of $20.300$ miles per hour is equivalent to $\\left(\\frac{20.300\\text{miles}}{1\\text{hour}}\\right)\\left(\\frac{1,760\\text{yards}}{1\\text{mile}}\\right)$, or $35,728$ yards per hour.",
+      "section_idx": 1184,
+      "url": "/bank/math/1184?bankType=unofficial"
+    }
+  },
+  {
+    "id": "8193e8cd",
+    "url": "/bank/math/1185?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$2, 10, 3, 7, 6$\nThe mean of the list of numbers above is what fraction of ",
+    "question": {
+      "id": "8193e8cd",
+      "type": "free-response",
+      "text": "$2, 10, 3, 7, 6$\nThe mean of the list of numbers above is what fraction of the sum of the five numbers?",
+      "correctAnswer": "$\\frac{1}{5}$",
+      "rationale": "The correct answer is $\\frac{1}{5}$. The mean of the list of numbers is found by dividing the sum of the numbers by the number of values in the list. Since there are 5 numbers in the list, the mean is $\\frac{1}{5}$ of the sum of the numbers. Note that 1/5 and.2 are examples of ways to enter a correct answer.",
+      "section_idx": 1185,
+      "url": "/bank/math/1185?bankType=unofficial"
+    }
+  },
+  {
+    "id": "dccdb20c",
+    "url": "/bank/math/1186?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "There are $450$ tiles in a box. Of these tiles, $6\\%$ are black. How many b",
+    "question": {
+      "id": "dccdb20c",
+      "type": "free-response",
+      "text": "There are $450$ tiles in a box. Of these tiles, $6\\%$ are black. How many black tiles are in the box?",
+      "correctAnswer": "27",
+      "rationale": "The correct answer is $27$. It\u2019s given that $6%$ of the $450$ tiles in a box are black. Therefore, the number of black tiles in the box can be calculated by multiplying the number of tiles in the box by $\\frac{6}{100}$, which is equivalent to $450\\left(\\frac{6}{100}\\right)$, or $27$.",
+      "section_idx": 1186,
+      "url": "/bank/math/1186?bankType=unofficial"
+    }
+  },
+  {
+    "id": "73362607",
+    "url": "/bank/math/1188?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "Amara grows cherry tomatoes in her backyard. This year, she harvested $750$",
+    "question": {
+      "id": "73362607",
+      "type": "free-response",
+      "text": "Amara grows cherry tomatoes in her backyard. This year, she harvested $750$ cherry tomatoes and gave $10\\%$ of them to her neighbor. How many of the harvested cherry tomatoes did Amara give to her neighbor?",
+      "correctAnswer": "75",
+      "rationale": "The correct answer is $75$. It\u2019s given that Amara harvested $750$ cherry tomatoes and gave $10%$ of them to her neighbor. $10%$ can be written as $\\frac{10}{100}$, or $0.1$. Therefore, the number of cherry tomatoes that Amara gave to her neighbor can be calculated by multiplying the total number of cherry tomatoes by $0.1$, which gives $(0.1)(750)$, or $75$.",
+      "section_idx": 1188,
+      "url": "/bank/math/1188?bankType=unofficial"
+    }
+  },
+  {
+    "id": "3d73a58b",
+    "url": "/bank/math/1192?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "A gift shop buys souvenirs at a wholesale price of $7.00$ dollars each and ",
+    "question": {
+      "id": "3d73a58b",
+      "type": "free-response",
+      "text": "A gift shop buys souvenirs at a wholesale price of $7.00$ dollars each and resells them each at a retail price that is $290\\%$ of the wholesale price. At the end of the season, any remaining souvenirs are marked at a discounted price that is $80\\%$ off the retail price. What is the discounted price of each remaining souvenir, in dollars?",
+      "correctAnswer": "203/50",
+      "rationale": "The correct answer is $4.06$. It's given that the retail price is $290%$ of the wholesale price of $\\$7.00$. Thus, the retail price is $\\$7.00\\left(\\frac{290}{100}\\right)$, which is equivalent to $\\$7.00\\left(2.9\\right)$, or $\\$20.30$. It's also given that the discounted price is $80%$ off the retail price. Thus, the discounted price is $\\$20.30\\left(1-\\frac{80}{100}\\right)$, which is equivalent to $\\$20.30\\left(0.20\\right)$, or $\\$4.06$.",
+      "section_idx": 1192,
+      "url": "/bank/math/1192?bankType=unofficial"
+    }
+  }
+]

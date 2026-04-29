@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 5 into the function",
+      "content": "Substitute $x = 5$ into $f(x) = 4(2)^x$ to get:<br/>$$f(5) = 4(2)^5$$"
+    },
+    {
+      "title": "Evaluate the exponential and multiply",
+      "content": "Calculate $2^5 = 32$, then multiply:<br/>$$4 \\times 32 = 128$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

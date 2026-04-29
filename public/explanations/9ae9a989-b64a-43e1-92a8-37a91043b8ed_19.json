@@ -1,0 +1,15 @@
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temperature range structure",
+      "content": "The sentence describes a range spanning from one temperature at one time to another temperature at another time, using \u201cfrom\u201d and \u201cto\u201d to mark the endpoints."
+    },
+    {
+      "title": "Apply from-to punctuation rules",
+      "content": "In a \u201cfrom...to\u201d range, the preposition \u201cfrom\u201d must connect directly to its first object without intervening punctuation. Choice C maintains this proper connection: \u201cfrom 18.4\u00b0C at 11:00 a.m. to 16.2\u00b0C at 7:00 p.m.\u201d flows as a unified range. The other choices either place a comma after \u201cfrom\u201d (breaking the preposition-object link) or use an incorrect colon. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

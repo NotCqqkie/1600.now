@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The hypothesis predicts that plants increase male flower allocation when mating opportunities are scarce. The researchers' conclusion that it's \u201cnot well supported\u201d means this predicted compensation mechanism isn't evident in the data."
+    },
+    {
+      "title": "Why D fits",
+      "content": "D directly shows the opposite of the hypothesis's prediction: from day 15 to day 20, mating became demonstrably scarce (total flowers dropped from 10 to 6), yet male allocation fell to 0.1 instead of rising to compensate. Despite this, male reproductive success remained constant throughout the entire period, indicating the predicted compensation mechanism didn't activate or wasn't necessary. A focuses on timing of peaks rather than allocation response to mating conditions. B confirms males succeeded despite fewer total flowers but doesn't specify whether allocation compensated. C contains a factual error (day 10 was male-biased at 0.6, not evenly distributed).<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

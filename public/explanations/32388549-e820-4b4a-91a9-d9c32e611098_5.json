@@ -1,0 +1,15 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square root term",
+      "content": "Start with $p=\\sqrt{12c}-25$. Add 25 to both sides to isolate the square root:<br/>$$p + 25 = \\sqrt{12c}$$"
+    },
+    {
+      "title": "Square both sides and solve for c",
+      "content": "Square both sides to eliminate the square root:<br/>$$(p + 25)^2 = 12c$$<br/>Divide both sides by 12:<br/>$$c = \\frac{(p+25)^2}{12}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

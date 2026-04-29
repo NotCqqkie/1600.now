@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the three data points from the table",
+      "content": "The table gives three $(x, y)$ pairs:<br/><ul><li>$(x, y) = (-2s, 28)$</li><li>$(x, y) = (-s, 23)$</li><li>$(x, y) = (s, 13)$</li></ul>Since there is a linear relationship, the equation must satisfy all three points."
+    },
+    {
+      "title": "Backsolving \u2014 test choice B",
+      "content": "Backsolving \u2014 testing choice B ($5x + sy = 18s$):<br/><ul><li>Point $(-2s, 28)$: $5(-2s) + s(28) = -10s + 28s = 18s$ \u2713</li><li>Point $(-s, 23)$: $5(-s) + s(23) = -5s + 23s = 18s$ \u2713</li><li>Point $(s, 13)$: $5(s) + s(13) = 5s + 13s = 18s$ \u2713</li></ul>All three points satisfy the equation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify scale factor and apply the area scaling rule",
+      "content": "Each side of EFGH is 6 times the corresponding side of ABCD, giving a linear scale factor of $k = 6$. For similar figures, areas scale by $k^2$, so the area scale factor is $6^2 = 36$.",
+      "formula": "$$A_{\\text{scaled}} = A_{\\text{original}} \\times k^2$$"
+    },
+    {
+      "title": "Calculate the area of EFGH",
+      "content": "$A_{\\text{EFGH}} = 66 \\times 36 = 2,376$ square units. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

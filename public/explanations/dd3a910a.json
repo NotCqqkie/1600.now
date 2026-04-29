@@ -1,0 +1,15 @@
+{
+  "questionId": "dd3a910a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the two functions shown",
+      "content": "The graph displays two functions:<ul><li>A V-shaped absolute value function with vertex at (3, 2)</li><li>A straight line (the linear function)</li></ul>"
+    },
+    {
+      "title": "Read the intersection point from the grid",
+      "content": "Following the curves on the coordinate grid, the straight line intersects the left branch of the absolute value function at the point where $x = 1$ and $y = 5$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute d = 36 into the equation",
+      "content": "Replace $d$ with 36 in the given equation $1.5c + 3d = 108$.<br/>$$1.5c + 3(36) = 108$$<br/>Multiply: $3 \\times 36 = 108$.<br/>$$1.5c + 108 = 108$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Subtract 108 from both sides:<br/>$$1.5c = 0$$<br/>Divide both sides by 1.5:<br/>$$c = 0$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f811d345",
+  "correctAnswer": "113",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the legs and apply the Pythagorean theorem",
+      "content": "Notice that both legs have a factor of 3: $24 = 3(8)$ and $21 = 3(7)$. Using the Pythagorean theorem:<br/>$$c^2 = 24^2 + 21^2 = [3(8)]^2 + [3(7)]^2$$"
+    },
+    {
+      "title": "Simplify to find d",
+      "content": "Expand the squared terms:<br/>$$c^2 = 9(64) + 9(49) = 9(64 + 49) = 9(113)$$<br/>Taking the square root:<br/>$$c = \\sqrt{9(113)} = 3\\sqrt{113}$$<br/>Comparing to $3\\sqrt{d}$, we have $d = 113$."
+    }
+  ]
+}

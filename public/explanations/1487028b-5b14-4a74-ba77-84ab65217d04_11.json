@@ -1,0 +1,15 @@
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Causal Evidence Needed",
+      "content": "Since the goal is to determine whether RSRs <em>caused</em> the changes (not just whether they occurred), the students need to compare Montana to a state without RSRs in the same period."
+    },
+    {
+      "title": "Match to the Choices",
+      "content": "Comparing both Montana data types (insurer numbers and new-policy premiums) to the same types from a <strong>comparable non-RSR state in the same period</strong> isolates the RSR effect by revealing whether changes were unique to Montana. Choices A, C, and D lack this control: A compares mismatched policy types (new premiums in Montana vs. existing premiums elsewhere), C compares two Montana periods both under RSRs, and D compares two RSR-implementing states instead of using a control. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

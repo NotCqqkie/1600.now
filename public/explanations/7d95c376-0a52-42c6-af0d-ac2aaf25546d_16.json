@@ -1,0 +1,15 @@
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures around the blank",
+      "content": "On the left: an independent clause with subject <em>epic poems</em> (plural) and linking verb <em>are</em><br/>On the right: a dependent relative clause <em>that tell a story and focus on heroic deeds</em> with plural verb <em>tell</em>"
+    },
+    {
+      "title": "Apply the number agreement rule",
+      "content": "A predicate nominative must agree in number with its subject. B) <em>long poems</em> is plural, matching the plural subject and serving as the antecedent for the plural verb <em>tell</em> in the relative clause. The possessives A) and C) don't fit the noun phrase function needed for a predicate nominative, and D) is singular, violating number agreement.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

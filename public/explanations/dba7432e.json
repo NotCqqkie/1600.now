@@ -1,0 +1,16 @@
+{
+  "questionId": "dba7432e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Observe the pattern of outputs",
+      "content": "From the table, the outputs are $5, \\frac{5}{2}, \\frac{5}{4}, \\frac{5}{8}$. Each value is exactly half the previous. This means the numerator is always 5 and the denominator is $2^x$, so the function follows this pattern:",
+      "formula": "$$f(x) = 5 \\cdot 2^{-x}$$"
+    },
+    {
+      "title": "Backsolve the choices to find the match",
+      "content": "Backsolving \u2014 testing choice A ($5 \\cdot 2^{x+1}$): At $x = 0$, $f(0) = 5 \\cdot 2^1 = 10 \\neq 5$. Fails.<br/>Testing choice B ($5 \\cdot 2^x$): At $x = 0$, $f(0) = 5$ \u2713, but at $x = 1$, $f(1) = 10 \\neq \\frac{5}{2}$. Fails.<br/>Testing choice C ($5 \\cdot 2^{-(x+1)}$): At $x = 0$, $f(0) = 5 \\cdot 2^{-1} = \\frac{5}{2} \\neq 5$. Fails.<br/>Testing choice D ($5 \\cdot 2^{-x}$): $f(0) = 5$ \u2713, $f(1) = \\frac{5}{2}$ \u2713, $f(2) = \\frac{5}{4}$ \u2713, $f(3) = \\frac{5}{8}$ \u2713. All values match choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

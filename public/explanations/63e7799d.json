@@ -1,0 +1,15 @@
+{
+  "questionId": "63e7799d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the conclusion requires",
+      "content": "The team concluded snakes transmit <em>BovB</em> to frogs via HT, either directly or indirectly\u2014puzzling because frogs don't survive snake encounters. The most direct support would identify a mechanism connecting snakes and frogs without requiring frog survival."
+    },
+    {
+      "title": "Match the mechanism to the conclusion",
+      "content": "Parasites that feed on both snakes and frogs while carrying <em>BovB</em> create a biological vector for indirect transmission (snakes \u2192 parasites \u2192 frogs), solving the paradox of how frogs acquire the gene without surviving encounters. The other choices either address frog-to-frog transfer (A), rule out a potential indirect pathway (C), or discuss fitness rather than transmission mechanism (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

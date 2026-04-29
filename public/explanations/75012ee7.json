@@ -1,0 +1,15 @@
+{
+  "questionId": "75012ee7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that both equations represent the same line",
+      "content": "Notice that $10x + 15y = 35$ is exactly 5 times $2x + 3y = 7$. Since these are scalar multiples, they represent the same line. The system has infinitely many solutions: every point on that line satisfies both equations."
+    },
+    {
+      "title": "Parametrize the solution set using y = r",
+      "content": "For any real number $r$, set $y = r$. Substitute into $2x + 3y = 7$:<br/><br/>$$2x + 3r = 7$$<br/><br/>$$x = -\\frac{3r}{2} + \\frac{7}{2}$$<br/><br/>All solutions are of the form $\\left(-\\frac{3r}{2} + \\frac{7}{2}, r\\right)$. This matches choice B exactly \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

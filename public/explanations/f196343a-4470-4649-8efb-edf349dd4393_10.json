@@ -1,0 +1,21 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sign of each side",
+      "content": "Since a square of a real number is always non\u2011negative, $$\\left(x+64\\right)^2 \\ge 0$$ for every real $x$.<br/>",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Conclude number of real solutions",
+      "content": "The right\u2011hand side is $$-100$$, which is negative.<br/>A non\u2011negative quantity can never equal a negative number, so the equation has no real solution.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract Circle A's radius from standard form",
+      "content": "The given equation $(x-3)^2 + (y-9)^2 = 25$ matches the standard form of a circle. The constant on the right is $r_A^2 = 25$, giving radius $r_A = 5$. The center is at $(3, 9)$.",
+      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
+    },
+    {
+      "title": "Double the radius and write Circle B's equation",
+      "content": "Circle B has the same center $(3, 9)$ but radius $r_B = 2 \\cdot 5 = 10$. With $r_B^2 = 100$, Circle B's equation is $(x-3)^2 + (y-9)^2 = 100$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

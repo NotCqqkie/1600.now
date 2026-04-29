@@ -1,0 +1,12 @@
+{
+  "questionId": "1353b86e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the probability of selecting a blue marble",
+      "content": "From the table, there are 10 blue marbles out of a total of 40 marbles. Using the probability formula: $$P(\\text{blue}) = \\frac{10}{40}$$ That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    }
+  ]
+}

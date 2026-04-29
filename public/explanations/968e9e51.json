@@ -1,0 +1,15 @@
+{
+  "questionId": "968e9e51",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the system",
+      "content": "We need to find an ordered pair $(x, y)$ that satisfies both inequalities simultaneously: $y \\leq x$ AND $y \\leq -x$. Since the answer choices are simple integers, we can test each one directly."
+    },
+    {
+      "title": "Backsolving through choices",
+      "content": "Backsolving \u2014 testing choice A (1, 0):<br/>Check $y \\leq x$: is $0 \\leq 1$? Yes. Check $y \\leq -x$: is $0 \\leq -1$? No.<br/>Fails. Testing choice B (-1, 0):<br/>Check $y \\leq x$: is $0 \\leq -1$? No.<br/>Fails. Testing choice C (0, 1):<br/>Check $y \\leq x$: is $1 \\leq 0$? No.<br/>Fails. Testing choice D (0, -1):<br/>Check $y \\leq x$: is $-1 \\leq 0$? Yes. Check $y \\leq -x$: is $-1 \\leq 0$? Yes.<br/>Both conditions are satisfied. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

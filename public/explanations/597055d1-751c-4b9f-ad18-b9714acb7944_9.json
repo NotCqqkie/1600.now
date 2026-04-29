@@ -1,0 +1,15 @@
+{
+  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what's missing from Grasby et al.'s current data",
+      "content": "The research question asks whether \u201cperceived category similarity\u201d predicts consumers' likelihood of purchasing brand extensions. Grasby et al. have already calculated purchase probability across categories; what they need is perceived similarity between the categories themselves."
+    },
+    {
+      "title": "Find the design that measures category similarity",
+      "content": "Choice C measures households' perception of how similar the product CATEGORIES in each pair are (e.g., cooking oil vs. butter) and correlates those ratings with Grasby's probability change data. A measures within-category product similarity, while B and D address brand recognition and cost\u2014concepts unrelated to category similarity. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

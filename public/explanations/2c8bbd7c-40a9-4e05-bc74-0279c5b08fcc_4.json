@@ -1,0 +1,19 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common expression",
+      "content": "Both terms on the left side contain $(x+2)$. Factor it out:\n$$\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=-5$$\n$$(x+2)\\left(\\frac{1}{6}-\\frac{1}{5}\\right)=-5$$"
+    },
+    {
+      "title": "Simplify the fraction coefficient",
+      "content": "Calculate $\\frac{1}{6}-\\frac{1}{5}$ using a common denominator of 30:\n$$\\frac{1}{6}-\\frac{1}{5} = \\frac{5}{30}-\\frac{6}{30} = -\\frac{1}{30}$$\n\nThe equation becomes:\n$$(x+2)\\left(-\\frac{1}{30}\\right)=-5$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by $-\\frac{1}{30}$ (equivalent to multiplying by $-30$):\n$$x+2 = \\frac{-5}{-\\frac{1}{30}} = -5 \\cdot (-30) = 150$$\n\nSubtract 2 from both sides:\n$$x = 150 - 2 = 148$$\n\nThat matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

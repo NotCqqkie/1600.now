@@ -1,0 +1,19 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the absolute value equation by considering both cases",
+      "content": "The equation $|x - 8| = 11$ creates two cases. An absolute value equals 11 when the expression inside is either 11 or -11:<br/><ul><li>$x - 8 = 11$</li><li>$x - 8 = -11$</li></ul>"
+    },
+    {
+      "title": "Solve each linear equation",
+      "content": "<strong>Case 1:</strong> $x - 8 = 11$<br/>Adding 8: $x = 19$<br/><br/><strong>Case 2:</strong> $x - 8 = -11$<br/>Adding 8: $x = -3$"
+    },
+    {
+      "title": "Sum the two solutions",
+      "content": "The sum is $19 + (-3) = 16$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

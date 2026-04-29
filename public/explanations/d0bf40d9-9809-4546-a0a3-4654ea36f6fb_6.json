@@ -1,0 +1,11 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 into the function",
+      "content": "The function is $d(x) = 200 - 6x$. To find $d(0)$, substitute $x = 0$:<br/><br/>$$d(0) = 200 - 6(0) = 200 - 0 = 200$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

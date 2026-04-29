@@ -1,0 +1,15 @@
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal mechanism in the notes",
+      "content": "The task asks what causes meanders. The notes explain the mechanism: erosion and redeposition from one side of the riverbank to the other. The answer must directly state what this mechanism produces."
+    },
+    {
+      "title": "Apply the mechanism to the answer choices",
+      "content": "Choice A directly explains what causes meanders\u2014erosion and redeposition form them. Choices B, C, and D either reverse the cause-and-effect relationship, describe existing meanders without explaining formation, or discuss how meanders migrate. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

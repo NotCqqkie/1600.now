@@ -1,0 +1,15 @@
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the specific bias Odom et al. diagnose",
+      "content": "The key signal is Odom's direct explanation of the historical mischaracterization: research was concentrated \u201cnear universities in the temperate northern hemisphere, where female birdsong is less common than it is in the tropics.\u201d Odom et al. attribute the problem to <strong>geographic selection bias in research locations</strong>, not to study methods."
+    },
+    {
+      "title": "Apply that diagnosis to the answer choices",
+      "content": "The geographic location bias that Odom et al. identify is captured by C: the mischaracterization arose from \u201cthe kinds of study sites researchers tended to select.\u201d A, B, and D point to different causes\u2014evolutionary drivers, regional purpose differences, or researcher sex bias\u2014that Odom never invokes. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

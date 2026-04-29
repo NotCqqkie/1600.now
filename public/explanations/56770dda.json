@@ -1,0 +1,15 @@
+{
+  "questionId": "56770dda",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the present-time marker",
+      "content": "The word <strong>Today</strong> at the start of the second sentence marks the present time. The sentence structure is subject + blank (form of be) + past participle (considered) + object\u2014a passive voice construction."
+    },
+    {
+      "title": "Match the tense to the time marker",
+      "content": "The rule is that verb tense must match the time reference in the sentence. Since <strong>Today</strong> marks the present time, we need the present tense form of <strong>be</strong>, which is <strong>is</strong>. The other options violate this rule by using different tenses: <em>will be</em> (future), <em>had been</em> (past perfect), and <em>was</em> (simple past). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

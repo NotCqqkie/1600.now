@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the equation structure",
+      "content": "The equation $21h + 10c = 900$ represents total weekly earnings. Since each term is (coefficient) \u00d7 (hours), the coefficients must represent hourly rates (dollars per hour). The structure is: (hourly rate at job 1) \u00d7 (hours at job 1) + (hourly rate at job 2) \u00d7 (hours at job 2) = total earnings."
+    },
+    {
+      "title": "Identify what 21 multiplies",
+      "content": "In the equation, 21 multiplies $h$, which is defined as <em>the number of hours worked at her regular job</em>. Since 21 is the coefficient of the hours variable for the regular job, 21 must represent the hourly rate earned at that job. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

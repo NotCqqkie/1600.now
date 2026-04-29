@@ -1,0 +1,15 @@
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the explicit goal",
+      "content": "The question directly states the goal: explain how Fulton, Missouri got its name. We need a choice that addresses this specific question about the city's origin."
+    },
+    {
+      "title": "Find the choice that directly accomplishes the goal",
+      "content": "Choice B directly states that Fulton, Missouri is named after Robert Fulton and provides the relevant context about who he was. Choices A, C, and D either focus on Fulton Street in NYC or the steamboat design, without explaining how the Missouri city got its name. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

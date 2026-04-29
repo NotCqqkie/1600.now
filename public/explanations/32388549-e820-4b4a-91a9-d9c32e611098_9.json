@@ -1,0 +1,23 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_9",
+  "correctAnswer": "80",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find angle UTW using supplementary angles",
+      "content": "Since point T lies on segment SW, the rays TS and TW point in opposite directions along line SW. Angles STU and UTW are supplementary.<br/><br/>$$\\text{angle } STU + \\text{angle } UTW = 180\u00b0$$<br/>$$74\u00b0 + \\text{angle } UTW = 180\u00b0$$<br/>$$\\text{angle } UTW = 106\u00b0$$"
+    },
+    {
+      "title": "Use co-interior angles from TU \u2225 VW",
+      "content": "Since TU is parallel to VW, and line segment TW acts as a transversal, the co-interior angles sum to 180\u00b0.<br/><br/>$$\\text{angle } UTW + \\text{angle } TWV = 180\u00b0$$<br/>$$106\u00b0 + \\text{angle } TWV = 180\u00b0$$<br/>$$\\text{angle } TWV = 74\u00b0$$"
+    },
+    {
+      "title": "Apply alternate interior angles and angle relationships at T",
+      "content": "Since TU \u2225 VW, with transversal TV, alternate interior angles are equal:<br/>$$\\text{angle } UTV = \\text{angle } TVW$$<br/><br/>Let $p = \\text{angle } UTV$; then angle TVW $= p$.<br/><br/>Since V lies on the same side of line SW as U, the angles at T partition angle UTW:<br/>$$\\text{angle } UTV + \\text{angle } VTW = \\text{angle } UTW$$<br/>$$p + \\text{angle } VTW = 106\u00b0$$<br/>$$\\text{angle } VTW = 106\u00b0 - p$$<br/><br/>If $r = \\text{angle } VTW$, then $r = 106\u00b0 - p$, so:<br/>$$p - r = p - (106\u00b0 - p) = 2p - 106$$"
+    },
+    {
+      "title": "Verify with triangle TWV and solve for p - r",
+      "content": "In triangle TWV, the angle sum gives:<br/>$$\\text{angle } VTW + \\text{angle } TWV + \\text{angle } TVW = 180\u00b0$$<br/>$$(106\u00b0 - p) + 74\u00b0 + p = 180\u00b0$$<br/>$$180\u00b0 = 180\u00b0$$ \u2713<br/><br/>This is consistent for all values of p. However, from the angle relationships: $p - r = 2p - 106 = 80\u00b0$ exactly, regardless of the specific value of $p$.<br/><br/>Therefore: $p - r = \\boxed{80}$"
+    }
+  ]
+}

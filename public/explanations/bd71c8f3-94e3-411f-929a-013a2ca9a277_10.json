@@ -1,0 +1,20 @@
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_10",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the volume formula for a pyramid with a square base",
+      "content": "For a pyramid, $V = \\frac{1}{3} \\cdot \\text{(base area)} \\cdot \\text{height}$. Since the base is a square with side length $s$, the base area is $s^2$. Substituting $V = 196$ cubic inches and height $= 12$ inches: $$196 = \\frac{1}{3} \\cdot s^2 \\cdot 12$$",
+      "formula": "$$V = \\frac{1}{3} \\cdot s^2 \\cdot h$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Simplify the fraction on the right: $$196 = \\frac{12s^2}{3} = 4s^2$$ Divide both sides by 4: $$s^2 = 49$$ Take the positive square root: $$s = 7 \\text{ inches}$$"
+    },
+    {
+      "title": "Calculate the perimeter",
+      "content": "The perimeter of a square with side length $s$ is $P = 4s$. Substitute $s = 7$: $$P = 4 \\cdot 7 = 28 \\text{ inches}$$"
+    }
+  ]
+}

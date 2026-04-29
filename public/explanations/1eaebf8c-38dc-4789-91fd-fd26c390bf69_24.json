@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining relationship",
+      "content": "The sentence before the blank states the 424 BCE eclipse \u201cwas annular.\u201d The sentence after the blank explains what annular means: \u201cthe Moon didn't cover the Sun completely, instead creating an annulus, or 'ring of fire.'\u201d The blank must connect a term to its definition\u2014a clarification, not a contrast, example, or parallel action."
+    },
+    {
+      "title": "Match the transition to the logic",
+      "content": "\u201dThat is\u201d signals a clarification or restatement\u2014exactly the relationship between the two sentences. The other three options introduce different relationships: \u201cMeanwhile\u201d suggests simultaneous events, \u201cFor example\u201d introduces a specific instance, and \u201cNonetheless\u201d signals contrast. This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

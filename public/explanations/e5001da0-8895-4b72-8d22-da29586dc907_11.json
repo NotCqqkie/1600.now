@@ -1,0 +1,19 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_11",
+  "correctAnswer": "192",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use substitution to simplify the repeated term",
+      "content": "The expression $(x-5)$ appears on both sides of the equation, and the problem asks for the value of $x - 5$. Rather than expand or solve for $x$ first, substitute $u = x - 5$ to work directly with what we need."
+    },
+    {
+      "title": "Rewrite the equation in terms of u",
+      "content": "Substituting $u = x - 5$ into the original equation:<br/><br/>$$\\frac{9}{6}u - 36 = \\frac{7}{6}u + 28$$"
+    },
+    {
+      "title": "Isolate u and solve",
+      "content": "Subtract $\\frac{7}{6}u$ from both sides and add 36 to both sides:<br/><br/>$$\\frac{9}{6}u - \\frac{7}{6}u = 28 + 36$$<br/><br/>$$\\frac{2}{6}u = 64$$<br/><br/>Simplify $\\frac{2}{6} = \\frac{1}{3}$:<br/><br/>$$\\frac{1}{3}u = 64$$<br/><br/>Multiply both sides by 3:<br/><br/>$$u = 192$$<br/><br/>Since $u = x - 5$, the answer is $x - 5 = 192$."
+    }
+  ]
+}

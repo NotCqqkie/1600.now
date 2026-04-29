@@ -1,0 +1,16 @@
+{
+  "questionId": "4880eecb",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the word problem",
+      "content": "The positive number is $x$. The number that is 8 more than $x$ is $x + 8$. Their product is 180.",
+      "formula": "$$x(x + 8) = 180$$"
+    },
+    {
+      "title": "Test the answer choices",
+      "content": "Backsolving \u2014 testing choice C (18): If $x = 18$, then $x + 8 = 26$, and $18 \\times 26 = 468 \\neq 180$. Fails. Testing choice B (10): If $x = 10$, then $x + 8 = 18$, and $10 \\times 18 = 180$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

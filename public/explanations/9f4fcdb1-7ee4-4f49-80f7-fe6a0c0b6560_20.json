@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The left side is a complete independent clause: <em>the city of Dortmund was a member of a powerful mercantile alliance that dominated northern European trade between the 13th and 17th centuries</em>. Next comes \u201cthe Hanseatic League,\u201d an appositive noun phrase that clarifies what the alliance was called. The right side continues as another independent clause: <em>a loose confederation of cities from eleven modern-day countries, it has been described as a precursor to today's European Union</em> (with the appositive \u201ca loose confederation\u201d preceding the main verb \u201chas been described\u201d)."
+    },
+    {
+      "title": "Apply the punctuation rules",
+      "content": "An em dash properly sets off an appositive, and a semicolon properly separates two independent clauses. Option B uses both: the em dash to set off \u201cthe Hanseatic League,\u201d making its role as an appositive clear, then the semicolon to separate the first clause from the second. This creates: IC1\u2014appositive; IC2, where the semicolon correctly marks the boundary between two related but distinct thoughts. The other options either fail to set off the appositive with an em dash (creating structural confusion), or use a colon or commas (which cannot properly separate two independent clauses). That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

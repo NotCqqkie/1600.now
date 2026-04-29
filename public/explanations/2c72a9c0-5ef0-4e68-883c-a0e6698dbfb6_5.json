@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 11 into the function",
+      "content": "The problem defines $f(x) = 4x^2$ and asks for $f(11)$. We substitute $x = 11$ directly into the function definition: $$f(11) = 4(11)^2$$"
+    },
+    {
+      "title": "Evaluate the arithmetic",
+      "content": "We calculate $(11)^2 = 121$, then $f(11) = 4 \\cdot 121 = 484$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

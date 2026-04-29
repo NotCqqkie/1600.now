@@ -1,0 +1,15 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify all three sides of the triangle",
+      "content": "The triangle has:<ul><li>One side with length $x$ inches</li><li>Two sides each with length $y$ inches</li></ul>All three sides together are: $x$, $y$, and $y$."
+    },
+    {
+      "title": "Write the perimeter equation",
+      "content": "The perimeter is the sum of all three sides: $$x + y + y$$<br/>Combine like terms: $$x + 2y$$<br/>Since the perimeter is 47 inches: $$x + 2y = 47$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

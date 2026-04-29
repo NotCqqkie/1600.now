@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the rectangle area formula",
+      "content": "For a rectangle, Area = width \u00d7 length. We're given that the area $A = w(w+79)$ and the width is $w$. Therefore: $$w(w+79) = w \\times \\text{length}$$"
+    },
+    {
+      "title": "Isolate the length",
+      "content": "Divide both sides by $w$: $$\\text{length} = \\frac{w(w+79)}{w} = (w+79)$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

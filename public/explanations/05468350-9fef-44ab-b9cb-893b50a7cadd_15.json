@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the lower bound of g(x)",
+      "content": "We note that $2^{x}>0$ for all real $x$.<br/>Multiplying by 6 and adding 7 gives $6\\cdot2^{x}+7>7$.<br/>Dividing by 11 yields $$ g(x) = \\frac{1}{11}(6\\cdot2^{x}+7) > \\frac{7}{11}.$$<br/>Thus $g(x)$ is always greater than $\\frac{7}{11}$."
+    },
+    {
+      "title": "Determine the greatest possible k",
+      "content": "As $x\\to -\\infty$, $2^{x}\\to 0^{+}$, so $$ g(x) \\to \\frac{1}{11}(6\\cdot0+7) = \\frac{7}{11}$$ from above.<br/>Hence $g(x)$ can be made arbitrarily close to $\\frac{7}{11}$ but never below it.<br/>If $k > \\frac{7}{11}$, choose $x$ sufficiently negative to make $g(x) < k$, violating the condition.<br/>If $k = \\frac{7}{11}$, then $g(x) > k$ for every $x$.<br/>Therefore the greatest possible constant $k$ is $\\frac{7}{11}$.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ed18c4f7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 'twice the number of CDs that Cathy has'",
+      "content": "Cathy has <em>n</em> CDs. The phrase <em>twice the number</em> means multiply by 2. So twice the number of CDs that Cathy has is:<br/><br/>$$2n$$"
+    },
+    {
+      "title": "Add '3 more' and identify the answer",
+      "content": "Gerry has <em>3 more than</em> that amount. The phrase <em>3 more than</em> means add 3:<br/><br/>$$2n + 3$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

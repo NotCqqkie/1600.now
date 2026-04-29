@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure's architecture",
+      "content": "The passage moves through three stages: it explains why Arizona pocket mice behavior occurs (cost-benefit analysis), then notes this response is typical of most nocturnal mammals, then presents night monkeys as an exception\u2014which the passage also explains."
+    },
+    {
+      "title": "Match the pattern",
+      "content": "B describes this exact progression: finding with explanation, characterization as a pattern, exception with explanation. A, C, and D mishandle the exception\u2014claiming it either undermines the explanation (A), remains unexplained (C), or stems from methodological differences (D). This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

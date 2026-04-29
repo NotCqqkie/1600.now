@@ -1,0 +1,15 @@
+{
+  "questionId": "1db1a9a6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the evidence should show",
+      "content": "The researchers concluded nitrogen fertilizer increases yield. Supporting evidence must demonstrate that nitrogen outperformed the control condition."
+    },
+    {
+      "title": "Check which choice shows this pattern",
+      "content": "Choice B states that in every year, nitrogen yield exceeded control yield. The graph confirms this: 2017 (34 > 23), 2018 (41 > 31), 2019 (27 > 19). This consistent pattern directly supports the researchers' conclusion about nitrogen's effectiveness. Choice A fails at 2019 (27 < 30), while choices C and D describe isolated observations unrelated to the core comparison. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

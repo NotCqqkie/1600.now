@@ -1,0 +1,21 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_7",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation using exponent rules",
+      "content": "Write the function values: $$f(7)=c^7$$ and $$f(5)=c^5$$.<br/>Substitute into the given condition $$f(7)=9\\cdot f(5)$$: $$c^7 = 9 \\cdot c^5$$.<br/>Since $$c>0$$, divide both sides by $$c^5$$: $$c^2 = 9$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for c and select the answer",
+      "content": "Take the square root of both sides: $$c = \\sqrt{9} = 3$$ (the negative root is excluded because $$c>1$$).<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

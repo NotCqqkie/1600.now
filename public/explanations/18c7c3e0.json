@@ -1,0 +1,11 @@
+{
+  "questionId": "18c7c3e0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Both terms contain $x^2$, so we combine them by subtracting the coefficients:<br/>$$13x^2 - 7x^2 = (13 - 7)x^2 = 6x^2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

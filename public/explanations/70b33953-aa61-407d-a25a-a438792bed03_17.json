@@ -1,0 +1,11 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given value and solve",
+      "content": "We have $x + y = 53$ where $x$ is the number of marble queen pothos stems and $y$ is the number of snow queen pothos stems. Given that 13 snow queen pothos stems are propagated, we know $y = 13$. Substitute into the equation: <br/><br/>$$x + 13 = 53$$<br/><br/>Subtract 13 from both sides: <br/><br/>$$x = 53 - 13 = 40$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

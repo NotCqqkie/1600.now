@@ -1,0 +1,15 @@
+{
+  "questionId": "3595a991",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The passage names <strong>two memorable woodcuts</strong> in the opening sentence: <em>Evening at Carl Inn</em> and <em>Lake Basin in the High Sierra</em>. This is the natural subject when the next sentence says \u201cIn 2019, ______ exhibited...\u201d"
+    },
+    {
+      "title": "Apply pronoun-verb agreement",
+      "content": "B uses \u201cthey were\u201d \u2014 the plural pronoun <strong>they</strong> directly refers to the two named woodcuts, and <strong>were</strong> agrees in number. A and C use singular forms (it/this was) that violate number agreement with the plural antecedent, while D's <strong>some</strong> is vague and doesn't clearly identify the two specific works. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

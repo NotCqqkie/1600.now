@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept by setting x = 0",
+      "content": "The y-intercept occurs where $x = 0$. Substitute into the equation:<br/>$$y = 500(3)^{2(0)} = 500(3)^0 = 500 \\cdot 1 = 500$$<br/>The y-intercept is at the point $(0, 500)$."
+    },
+    {
+      "title": "Interpret what x = 0 means and match the answer",
+      "content": "The problem states that $x$ represents the number of six-month periods starting from the end of January 1991. When $x = 0$, zero periods have elapsed, meaning we're at the starting point: the end of January 1991. At this initial moment, there were an estimated $y = 500$ subscribers. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

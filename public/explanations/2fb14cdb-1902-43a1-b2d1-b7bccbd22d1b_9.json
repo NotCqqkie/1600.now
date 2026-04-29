@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression to reveal the target",
+      "content": "Notice that the expression $\\frac{1}{2}x - \\frac{21}{2}$ has a common factor:<br/><br/>$$\\frac{1}{2}x - \\frac{21}{2} = \\frac{1}{2}(x - 21)$$<br/><br/>Substitute this factorization into the original equation:<br/><br/>$$\\left(\\frac{1}{2}(x - 21)\\right)^{2} - 81 = 0$$"
+    },
+    {
+      "title": "Square and isolate the target expression",
+      "content": "Apply the exponent to both factors inside the parentheses:<br/><br/>$$\\frac{1}{4}(x - 21)^{2} - 81 = 0$$<br/><br/>Isolate the term with $(x - 21)^{2}$:<br/><br/>$$\\frac{1}{4}(x - 21)^{2} = 81$$<br/><br/>Multiply both sides by 4:<br/><br/>$$(x - 21)^{2} = 324$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9eb896c5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify trend direction to eliminate half the choices",
+      "content": "The scatterplot shows a clear <strong>positive correlation</strong>: as $x$ increases, $y$ increases. Choices C and D both have negative slopes, which would predict the opposite trend (equations $y = -0.8x + 3$ and $y = -3x + 0.8$). Both C and D are eliminated, leaving A and B."
+    },
+    {
+      "title": "Backsolving \u2014 testing choice B (y = 0.8x + 3):",
+      "content": "At $x = 8$, choice B predicts:<br/>$$y = 0.8(8) + 3 = 6.4 + 3 = 9.4$$<br/>The actual data point near $x = 8$ shows $y \\approx 26$. The predicted value of 9.4 is far too low. <strong>B fails</strong>\u2014the slope of 0.8 is too shallow to fit the data."
+    },
+    {
+      "title": "Backsolving \u2014 testing choice A (y = 3x + 0.8):",
+      "content": "Check multiple points:<br/><ul><li>At $x = 1$: $y = 3(1) + 0.8 = 3.8$; actual data \\approx 4 \u2713</li><li>At $x = 4$: $y = 3(4) + 0.8 = 12.8$; actual data \\approx 14 \u2713</li><li>At $x = 8$: $y = 3(8) + 0.8 = 24.8$; actual data \\approx 26 \u2713</li></ul>Choice A consistently fits the data across the range. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_15",
+  "correctAnswer": "-123",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the discriminant condition and rearrange",
+      "content": "When a quadratic equation has exactly one real solution, the discriminant must equal zero. Rearrange $4x^2 + 21 = 48x + r$ into standard form by moving all terms to the left:<br/><br/>$$4x^2 - 48x + (21 - r) = 0$$<br/><br/>This gives us $a = 4$, $b = -48$, and $c = 21 - r$.",
+      "formula": "$$b^2 - 4ac = 0 \\text{ for exactly one real solution}$$"
+    },
+    {
+      "title": "Apply the discriminant formula and solve for r",
+      "content": "Substitute the coefficients into the discriminant formula:<br/><br/>$$(-48)^2 - 4(4)(21 - r) = 0$$<br/><br/>$$2304 - 16(21 - r) = 0$$<br/><br/>$$2304 - 336 + 16r = 0$$<br/><br/>$$1968 + 16r = 0$$<br/><br/>$$r = -123$$"
+    }
+  ]
+}

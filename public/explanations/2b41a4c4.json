@@ -1,0 +1,16 @@
+{
+  "questionId": "2b41a4c4",
+  "correctAnswer": "880",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the volume formula for a rectangular prism",
+      "content": "The volume of a right rectangular prism equals the product of length, width, and height. With $l = 11$ m, $w = 8$ m, and $h = 10$ m: $$V = 11 \\times 8 \\times 10$$",
+      "formula": "$$V = l \\times w \\times h$$"
+    },
+    {
+      "title": "Calculate the result",
+      "content": "Evaluate the product: $11 \\times 8 = 88$, then $88 \\times 10 = 880$. The volume is 880 cubic meters."
+    }
+  ]
+}

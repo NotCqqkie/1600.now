@@ -1,0 +1,15 @@
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use distance equals rate times time",
+      "content": "The relationship $\\text{distance} = \\text{rate} \\times \\text{time}$ tells us: walking distance $= 2w$ miles, running distance $= 7r$ miles."
+    },
+    {
+      "title": "Sum and set equal to total distance",
+      "content": "Total distance equals walking distance plus running distance: $2w + 7r$ miles. Since Nicole travels 13 miles total:<br/>$$2w + 7r = 13$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

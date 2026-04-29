@@ -1,0 +1,15 @@
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the hypothesis",
+      "content": "The passage claims that warmer months should produce larger-bodied flies (measured by wing size), which correlate with longer lifespans. The blank must be filled with data that directly demonstrates: <strong>warmer months = larger wings</strong>."
+    },
+    {
+      "title": "Match the signal to the data",
+      "content": "Compare the warmest and coldest months in the table. July has the warmest low temperature (62\u00b0F) with an average male wing size of 2.02 mm, while October has the coldest low temperature (44\u00b0F) with an average male wing size of 1.98 mm. Since the warmer month (July) shows larger male wing size than the cooler month (October), this directly supports the hypothesis that warmer temperatures produce larger body sizes. Choice A only compares temperatures without connecting to wing size; choice C incorrectly states July female wing size as 2.02 mm when the table shows 2.31 mm; choice D describes a consistent sex difference but ignores the temperature-size relationship. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

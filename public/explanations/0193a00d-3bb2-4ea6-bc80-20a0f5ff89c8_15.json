@@ -1,0 +1,15 @@
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scaling factor for a unit increase in w",
+      "content": "When $w$ increases by 1, the exponent in $z(w) = (0.819)^{2w}$ increases by 2 (from $2w$ to $2w+2$). So the ratio of consecutive outputs is:<br/>$$\\frac{z(w+1)}{z(w)} = \\frac{(0.819)^{2w+2}}{(0.819)^{2w}} = (0.819)^2$$<br/><br/>Each increase of 1 in $w$ multiplies $z(w)$ by $(0.819)^2$."
+    },
+    {
+      "title": "Convert the scaling factor to a percentage decrease",
+      "content": "Calculate $(0.819)^2 = 0.6708 \\approx 0.671$.<br/><br/>This means $z(w)$ retains about $67.1\\%$ of its value, so it decreases by:<br/>$$(1 - 0.671) \\times 100\\% = 32.9\\%$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

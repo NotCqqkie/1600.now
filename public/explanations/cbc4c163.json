@@ -1,0 +1,15 @@
+{
+  "questionId": "cbc4c163",
+  "correctAnswer": "11/4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the vertex form",
+      "content": "The function $f(x) = 5\\left(\\frac{1}{4} - x\\right)^2 + \\frac{11}{4}$ is written in vertex form. The key insight is that the squared term $\\left(\\frac{1}{4} - x\\right)^2$ equals zero when the expression inside equals zero, which occurs at $x = \\frac{1}{4}$."
+    },
+    {
+      "title": "Substitute and simplify",
+      "content": "Substitute $x = \\frac{1}{4}$ into the function:<br/>$$f\\left(\\frac{1}{4}\\right) = 5\\left(\\frac{1}{4} - \\frac{1}{4}\\right)^2 + \\frac{11}{4}$$<br/>The squared term becomes zero:<br/>$$= 5(0)^2 + \\frac{11}{4}$$<br/>$$= \\frac{11}{4}$$"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test inequality I",
+      "content": "Substitute P$(3, -3)$ into $y < -3x + 8$:<br/>$$-3 < -3(3) + 8$$<br/>$$-3 < -1$$<br/>This is <strong>true</strong>. \u2713"
+    },
+    {
+      "title": "Test inequality II",
+      "content": "Substitute P$(3, -3)$ into $y > x - 4$:<br/>$$-3 > 3 - 4$$<br/>$$-3 > -1$$<br/>This is <strong>false</strong>. \u2717"
+    },
+    {
+      "title": "Conclude",
+      "content": "P satisfies inequality I only. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

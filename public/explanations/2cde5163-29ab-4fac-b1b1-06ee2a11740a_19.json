@@ -1,0 +1,15 @@
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "\u201dThe reed of a wind instrument is the mouthpiece\u201d is an independent clause. The blank introduces a relative clause that defines the mouthpiece and completes the sentence."
+    },
+    {
+      "title": "Apply the statement word order and punctuation rule",
+      "content": "A relative clause uses statement word order (subject-verb, not question inversion), and a declarative statement ends with a period. Choice C correctly uses statement word order (<em>\u201cwhere sound is made\u201d</em>) and ends with a period. The other choices either invert the subject-verb in the relative clause or misuse a question mark. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

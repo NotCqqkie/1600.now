@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank is a noun phrase with a common noun \u201clions\u201d followed by proper names \u201cGinger and Shaka\u201d in apposition."
+    },
+    {
+      "title": "Apply the rule for restrictive appositives",
+      "content": "Restrictive appositives don't take commas, and Ginger and Shaka are restrictive (essential to identify which lions). The other choices add commas, violating this rule.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal signal",
+      "content": "The word <strong>therefore</strong> signals the conclusion must be tied to the premise: because balance affects perception and emphasis, what a photograph conveys must depend on how it is balanced."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "\u201dContingent on\u201d means <em>dependent on</em>\u2014it directly captures that what the photograph conveys is determined by how it is balanced. The others contradict this logic, don't fit grammatically, or express a different relationship. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

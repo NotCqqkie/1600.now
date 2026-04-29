@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_13",
+  "correctAnswer": "18,10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the Zero Product Property",
+      "content": "When a product of factors equals zero, at least one factor must equal zero. Set each factor equal to zero:<br/>$$x - 18 = 0$$<br/>$$x - 10 = 0$$<br/>$$x + 3 = 0$$<br/>$$x + 19 = 0$$"
+    },
+    {
+      "title": "Solve each factor to find all solutions",
+      "content": "Solving for $x$ in each equation:<br/><ul><li>$x - 18 = 0 \\Rightarrow x = 18$</li><li>$x - 10 = 0 \\Rightarrow x = 10$</li><li>$x + 3 = 0 \\Rightarrow x = -3$</li><li>$x + 19 = 0 \\Rightarrow x = -19$</li></ul>Among all solutions, the positive values are <strong>18</strong> and <strong>10</strong>."
+    }
+  ]
+}

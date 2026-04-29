@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal context",
+      "content": "The passage describes the Akkadian Empire's reign from 2334 to 2154 BCE and uses past tense verbs for related actions: \u201cwas vital,\u201d \u201creigned,\u201d and \u201creceived.\u201d"
+    },
+    {
+      "title": "Apply the tense consistency rule",
+      "content": "Verbs describing related actions in the same time period must maintain consistent tense. <strong>\u201cProduced\u201d</strong> is past tense and matches the historical narrative; the other three violate tense consistency by using non-past forms. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

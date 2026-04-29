@@ -1,0 +1,16 @@
+{
+  "questionId": "4096a482",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the confidence interval from the margin of error",
+      "content": "The margin of error defines the range around the sample mean where the true population mean is estimated to lie. Lower bound: $20.5 - 1 = 19.5$; Upper bound: $20.5 + 1 = 21.5$. The confidence interval is $[19.5, 21.5]$.",
+      "formula": "$$\\text{Confidence Interval} = \\text{Sample Mean} \\pm \\text{Margin of Error}$$"
+    },
+    {
+      "title": "Evaluate each choice for correct statistical interpretation",
+      "content": "A confidence interval represents a range of plausible values for the true population mean based on the sample.<br/><br/><ul><li><strong>A:</strong> says <em>it is plausible</em> \u2014 this is the correct statistical interpretation</li><li><strong>B:</strong> says <em>it is not possible</em> \u2014 too definitive; a margin of error indicates likelihood, not absolute certainty</li><li><strong>C:</strong> says <em>every value...is</em> in the range \u2014 this mistakes the confidence interval for the mean with the range of all individual values in the population</li><li><strong>D:</strong> says <em>the mean...is 20.5</em> \u2014 this overstates the conclusion; 20.5 is the sample estimate, not the confirmed population mean</li></ul>Only choice A correctly interprets the confidence interval with appropriate statistical language. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Vertex form of the quadratic",
+      "content": "Since the vertex is at $(1,7)$, write the function in vertex form:<br/>$$f(x)=a(x-1)^2+7$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Determine coefficient a using point (2,53)",
+      "content": "Substitute $x=2$, $y=53$ into the vertex form:<br/>$$f(2)=a(2-1)^2+7=a+7=53$$<br/>Solve for $a$:<br/>$$a=46$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute $f(-2)-f(0)$ and select answer",
+      "content": "First express $f(-2)$ and $f(0)$ using the vertex form:<br/>$$f(-2)=a(-2-1)^2+7=9a+7$$<br/>$$f(0)=a(0-1)^2+7=a+7$$<br/>Subtract:<br/>$$f(-2)-f(0)=(9a+7)-(a+7)=8a$$<br/>Insert $a=46$:<br/>$$8\\times46=368$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

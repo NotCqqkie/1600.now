@@ -1,0 +1,15 @@
+{
+  "questionId": "7c21b4b5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the onetime passcodes percentages in the table",
+      "content": "The row labeled \u201cOnetime passcodes\u201d shows the percentage of participants in each country who chose this method: UK = 16%, Japan = 8%, India = 25%. These are the three data points we need to compare."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "The question asks which group viewed onetime passcodes as most secure. The highest percentage for onetime passcodes is 25%, from India. This means the sentence should be completed with the choice naming India. The other two countries have lower percentages (UK 16%, Japan 8%), so they do not best answer the question about which group viewed the method as most secure.<br><br>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

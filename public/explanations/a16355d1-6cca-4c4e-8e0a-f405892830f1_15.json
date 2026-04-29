@@ -1,0 +1,15 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_15",
+  "correctAnswer": "184",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate attendees at first and second webinars",
+      "content": "46% of the 1,250 people who attended the first webinar also attended the second webinar. Compute this percentage:<br/>$$0.46 \\times 1,250 = 575$$<br/>So 575 people attended both the first and second webinars."
+    },
+    {
+      "title": "Calculate attendees at all three webinars",
+      "content": "32% of those 575 people who attended both the first and second webinars also attended the third webinar. Compute this percentage:<br/>$$0.32 \\times 575 = 184$$<br/>Therefore, 184 people attended all three webinars."
+    }
+  ]
+}

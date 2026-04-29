@@ -1,0 +1,15 @@
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what makes a comparison effective",
+      "content": "The student needs to compare the sizes of the two mountain ranges. The notes provide specific area measurements: 1,360 mi\u00b2 for Peloncillo-Pan Duro and 65 mi\u00b2 for Big Hatchet. An effective comparison must use both numbers to show which is larger."
+    },
+    {
+      "title": "Find the choice that delivers both measurements",
+      "content": "Choice B directly provides both measurements and explicitly states which mountain is larger (1,360 mi\u00b2 vs 65 mi\u00b2). Choices A, C, and D either generalize to dozens of mountains, speak vaguely about size variation, or focus on other properties like environmental isolation instead. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute to set up the intersection equation",
+      "content": "From the second equation, $y + 4 = 0$ means $y = -4$. Substitute this value into the first equation: $$-4 = 3x^2 - 24x + 51$$Rearranging to standard form: $$3x^2 - 24x + 55 = 0$$This equation determines how many intersection points exist."
+    },
+    {
+      "title": "Use the discriminant to count solutions",
+      "content": "For the quadratic $3x^2 - 24x + 55 = 0$, calculate the discriminant with $a = 3$, $b = -24$, $c = 55$: $$\\Delta = b^2 - 4ac = (-24)^2 - 4(3)(55) = 576 - 660 = -84$$Since $\\Delta = -84 < 0$, there are no real solutions to the quadratic equation, meaning the parabola and horizontal line never intersect. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

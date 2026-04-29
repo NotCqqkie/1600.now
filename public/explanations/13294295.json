@@ -1,0 +1,15 @@
+{
+  "questionId": "13294295",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that rate means slope",
+      "content": "The question asks <em>how many candy bars per second</em>, which is the rate of change. For a linear graph, rate equals slope: $$\\text{slope} = \\frac{\\Delta y}{\\Delta x} = \\frac{\\text{change in candy bars}}{\\text{change in seconds}}$$"
+    },
+    {
+      "title": "Read two points from the graph and calculate slope",
+      "content": "The line passes through $(0, 0)$ and $(2, 80)$. Using the slope formula: $$\\text{slope} = \\frac{80 - 0}{2 - 0} = \\frac{80}{2} = 40$$ The machine wraps 40 candy bars per second. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

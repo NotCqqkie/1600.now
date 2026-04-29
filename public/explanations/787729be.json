@@ -1,0 +1,15 @@
+{
+  "questionId": "787729be",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage presents two key facts: the ridge surface is \u201cfairly dry\u201d with \u201cfew other plants and animals,\u201d and <em>N. pudica</em> uniquely has <strong>underground</strong> pitchers. This pairing strongly suggests the plant has adapted to where the actual food source is \u2014 below the sparse surface."
+    },
+    {
+      "title": "Apply the signal to find the explanation",
+      "content": "Choice D captures the reasoning: <em>N. pudica</em> evolved underground traps <strong>to access more prey than would surface traps</strong>. The other choices don't follow from the evidence \u2014 A addresses undiscovered species rather than this plant's adaptation, B misidentifies pitcher function as moisture absorption, and C misreads the mechanism as passive burial rather than evolved design. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

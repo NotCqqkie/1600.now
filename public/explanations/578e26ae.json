@@ -1,0 +1,21 @@
+{
+  "questionId": "578e26ae",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Effect on median",
+      "content": "Adding 46 to each value shifts the median by 46. $$\\text{median}_B = \\text{median}_A + 46$$ Since 46 > 0, $$\\text{median}_B > \\text{median}_A.$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Effect on range and conclusion",
+      "content": "Adding a constant to every data point does not affect the range, so $$\\text{range}_B = \\text{range}_A.$$ Together with the median increase from step 1, this corresponds to choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

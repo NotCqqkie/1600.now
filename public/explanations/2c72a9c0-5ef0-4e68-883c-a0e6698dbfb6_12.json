@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the percentage statement as an equation",
+      "content": "Write <em>x is 33% of y</em> as an equation:<br/>$$x = \\frac{33}{100}y$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Multiply both sides by $\\frac{100}{33}$:<br/>$$y = \\frac{100}{33}x$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

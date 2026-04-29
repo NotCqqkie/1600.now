@@ -1,0 +1,15 @@
+{
+  "questionId": "686b5212",
+  "correctAnswer": "57",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use consecutive interior angles to find y",
+      "content": "Lines $q$ and $r$ are parallel, and line $s$ is a transversal. The angles 58\u00b0 and $y\u00b0$ are consecutive interior angles (also called same-side interior angles), which are supplementary for parallel lines:<br/><br/>$$58\u00b0 + y\u00b0 = 180\u00b0$$<br/><br/>$$y = 122$$"
+    },
+    {
+      "title": "Substitute y into the given equation to find x",
+      "content": "Given $y = 2x + 8$, substitute $y = 122$:<br/><br/>$$122 = 2x + 8$$<br/><br/>$$114 = 2x$$<br/><br/>$$x = 57$$"
+    }
+  ]
+}

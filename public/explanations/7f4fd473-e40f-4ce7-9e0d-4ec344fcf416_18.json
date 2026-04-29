@@ -1,0 +1,15 @@
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The word <strong>even</strong> signals a surprising consequence: even the once-revolutionary dual-core technology is now commonplace, which proves how drastically processor power has increased. This relationship\u2014a main claim followed by an illustrative consequence\u2014determines the punctuation between the two parts."
+    },
+    {
+      "title": "Match the punctuation to the grammar",
+      "content": "A dash correctly introduces a dependent clause that elaborates on or illustrates the main clause. The subordinating conjunction <strong>that</strong> marks the second part as subordinate, not a separate sentence. Option A creates a comma splice with no coordinating conjunction joining the two independent clauses. Option B has malformed punctuation. Option D uses a period, which wrongly separates the elaboration from the main thought and leaves \u201cThat the once-revolutionary...\u201d as an incomplete sentence without a predicate. The dash-plus-subordinating-conjunction construction in C captures the precise relationship: cores are so numerous that the once-revolutionary technology is now in everyday items. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

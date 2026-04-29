@@ -1,0 +1,15 @@
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the cause-and-effect relationship",
+      "content": "The passage describes an action (NASA crashed a probe into Dimorphos) immediately followed by its result (the moonlet's orbital period was permanently altered). The transition word must signal this causal flow."
+    },
+    {
+      "title": "Match the causal signal",
+      "content": "\u201dConsequently\u201d directly expresses <em>as a result</em> and shows that the orbital period change is the outcome of the probe impact. The other three choices invoke different logical relationships \u2014 comparison, addition, and specification \u2014 none of which fit a cause-and-effect sequence. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

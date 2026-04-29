@@ -1,0 +1,12 @@
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the angle sum property of triangles",
+      "content": "In any triangle, the sum of the interior angles is 180\u00b0. For triangle EFG: $$\\angle E + \\angle F + \\angle G = 180\u00b0$$ Given that $\\angle E + \\angle F = 31\u00b0$, we substitute: $$31\u00b0 + \\angle G = 180\u00b0$$ $$\\angle G = 180\u00b0 - 31\u00b0 = 149\u00b0$$ That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$\\angle A + \\angle B + \\angle C = 180\u00b0$$"
+    }
+  ]
+}

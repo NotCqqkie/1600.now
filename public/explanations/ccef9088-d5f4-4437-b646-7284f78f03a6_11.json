@@ -1,0 +1,15 @@
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's causal claim",
+      "content": "The student concludes that IGF-1 gene variations \u201cmust account for\u201d the observed size differences among dog breeds\u2014claiming these variations are the responsible cause."
+    },
+    {
+      "title": "Find what contradicts this",
+      "content": "Choice A directly contradicts this by stating that the IGF-1 gene is \u201cone of <em>multiple</em> genes known to affect the size of dogs.\u201d If other genes also drive size differences, then IGF-1 variations cannot alone account for all the variance. The other choices either affirm the claim (C confirms that IGF-1 variations do affect size variance), address a specific variant's prevalence without challenging the gene's explanatory power (B), or discuss applicability to other species unrelated to explaining dog size (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

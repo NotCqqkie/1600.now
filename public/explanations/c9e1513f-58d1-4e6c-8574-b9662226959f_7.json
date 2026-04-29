@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_7",
+  "correctAnswer": "60",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Decompose the function into components",
+      "content": "The function $W(x) = 2x + 60$ represents the sum of two time components:<ul><li>$2x$ \u2014 time to water $x$ plants at 2 minutes per plant</li><li>60 \u2014 a fixed time that does not depend on $x$</li></ul>"
+    },
+    {
+      "title": "Identify the fixed time as mowing time",
+      "content": "The 60-minute component must be the mowing time because it is constant regardless of the number of plants to water. Algebraically, when $x = 0$:<br/>$$W(0) = 2(0) + 60 = 60$$The gardener takes <strong>60 minutes</strong> to mow the grass."
+    }
+  ]
+}

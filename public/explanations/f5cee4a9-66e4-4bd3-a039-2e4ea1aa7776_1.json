@@ -1,0 +1,15 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we're calculating",
+      "content": "Julia used 60% of 800 feet of fencing. We need to find 60% of 800."
+    },
+    {
+      "title": "Calculate 60% of 800",
+      "content": "To find 60% of 800, multiply: $$0.60 \\times 800 = 480$$ Therefore, Julia used 480 feet of fencing to surround the vegetable garden. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

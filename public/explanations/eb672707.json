@@ -1,0 +1,15 @@
+{
+  "questionId": "eb672707",
+  "correctAnswer": "14/3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion ratio",
+      "content": "We're given that 3 teaspoons = 1 tablespoon. To convert from teaspoons to tablespoons, we divide by 3."
+    },
+    {
+      "title": "Calculate the equivalent in tablespoons",
+      "content": "$$14 \\div 3 = \\frac{14}{3} \\text{ tablespoons}$$"
+    }
+  ]
+}

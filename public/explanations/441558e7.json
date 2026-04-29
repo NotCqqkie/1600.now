@@ -1,0 +1,15 @@
+{
+  "questionId": "441558e7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the substitution",
+      "content": "We're given the linear model $y = 0.67x + 2.6$ that predicts the number of larvae based on the number of worker ants $x$. This colony has $x = 58$ worker ants, so we substitute this value into the equation."
+    },
+    {
+      "title": "Calculate the predicted number of larvae",
+      "content": "$$y = 0.67(58) + 2.6$$<br/>$$y = 38.86 + 2.6$$<br/>$$y = 41.46$$<br/>The predicted number of larvae is approximately 41.46, which is closest to 41 among the choices. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

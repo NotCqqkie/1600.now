@@ -1,0 +1,19 @@
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_11",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute to eliminate the repeating expression",
+      "content": "The term $(4-5x)$ appears in every term on both sides. Let $u = 4-5x$ to simplify. Substituting into the original equation:<br/>$$2u + 7u + 9 = 8u + 6$$"
+    },
+    {
+      "title": "Combine and solve for u",
+      "content": "Simplify the left side: $2u + 7u = 9u$, giving:<br/>$$9u + 9 = 8u + 6$$<br/>Subtract $8u$ from both sides:<br/>$$u + 9 = 6$$<br/>Therefore:<br/>$$u = -3$$"
+    },
+    {
+      "title": "Find 5x - 4",
+      "content": "We found $u = 4 - 5x = -3$. From this equation:<br/>$$5x = 7$$<br/>Therefore:<br/>$$5x - 4 = 3$$"
+    }
+  ]
+}

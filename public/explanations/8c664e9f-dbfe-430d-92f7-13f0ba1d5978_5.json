@@ -1,0 +1,15 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_5",
+  "correctAnswer": "80",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2 into the function",
+      "content": "We need to find $f(2)$ where $f(x) = 9x^3 + 8$. Substitute $x = 2$:<br/><br/>$$f(2) = 9(2)^3 + 8$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Evaluate $(2)^3 = 8$:<br/><br/>$$f(2) = 9 \\cdot 8 + 8$$<br/><br/>Multiply: $9 \\cdot 8 = 72$<br/><br/>$$f(2) = 72 + 8 = 80$$<br/><br/>The answer is 80."
+    }
+  ]
+}

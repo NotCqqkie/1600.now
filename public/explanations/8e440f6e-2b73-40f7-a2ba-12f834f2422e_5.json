@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the unit rate to an expression",
+      "content": "Each kilogram of soil contains 600 milligrams of phosphorus. This means the total phosphorus equals (mass in kilograms) times 600. Since the mass is $x$ kilograms, the total phosphorus is $600x$ milligrams."
+    },
+    {
+      "title": "Set equal to the given total",
+      "content": "The problem states the total phosphorus is 1,200 milligrams. Setting our expression equal to this:<br/><br/>$$600x = 1,200$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

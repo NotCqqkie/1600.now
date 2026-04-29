@@ -1,0 +1,15 @@
+{
+  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the y-intercept",
+      "content": "The $y$-intercept occurs when $x = 0$. Substitute into the equation:<br>$$y = 400(3)^{2(0)} = 400(3)^0 = 400 \\cdot 1 = 400$$<br>The $y$-intercept is $(0, 400)$."
+    },
+    {
+      "title": "Interpret in context and match to the choice",
+      "content": "The problem states that $x$ represents six-month periods <em>starting from the end of January 1997</em>. Therefore, $x = 0$ is the starting reference point\u2014the end of January 1997. The $y$-intercept $(0, 400)$ represents 400 subscribers at the end of January 1997.<br><br>Choice A refers to the first six-month period ($x = 1$), which is a different time. Choice B states exactly what we found: 400 subscribers at the end of January 1997. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate j by multiplying both sides by 5",
+      "content": "We have $\\frac{j}{5}=k+9m$. To isolate $j$, multiply both sides by 5:<br/>$$5 \\cdot \\frac{j}{5} = 5 \\cdot (k+9m)$$$$j = 5(k+9m)$$This is exactly <strong>choice B</strong> \u2014 <strong>B</strong> is correct."
+    },
+    {
+      "title": "Understanding the common mistakes",
+      "content": "The key is treating $(k+9m)$ as a single unit when multiplying by 5. Compare the choices:<ul><li><strong>A:</strong> $j=k+5(9m)$ \u2014 incorrectly applies the 5 only to $9m$</li><li><strong>C:</strong> $j=5k+9m$ \u2014 incompletely distributes, missing the coefficient on $9m$</li><li><strong>D:</strong> $j=\\frac{k+9m}{5}$ \u2014 reverses the operation (divides instead of multiplies)</li></ul>"
+    }
+  ]
+}

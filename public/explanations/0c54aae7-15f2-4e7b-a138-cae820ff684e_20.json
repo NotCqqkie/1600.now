@@ -1,0 +1,19 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_20",
+  "correctAnswer": "40/9,4.444",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find sin w from the Pythagorean identity",
+      "content": "Given $\\cos w\u00b0 = \\frac{9}{41}$, use $\\sin^2 w\u00b0 + \\cos^2 w\u00b0 = 1$ to find $\\sin w\u00b0$:<br/><br/>$$\\sin^2 w\u00b0 = 1 - \\left(\\frac{9}{41}\\right)^2 = 1 - \\frac{81}{1681} = \\frac{1600}{1681}$$<br/><br/>$$\\sin w\u00b0 = \\frac{40}{41}$$<br/><br/>(This is the familiar 9-40-41 Pythagorean triple.)"
+    },
+    {
+      "title": "Recognize the altitude-to-hypotenuse configuration",
+      "content": "The figure shows right triangle $ABC$ with a right angle at $A$ and $D$ on the hypotenuse $BC$. The right angle marked at $D$ indicates that $AD \\perp BC$ \u2014 this is the altitude from $A$ to the hypotenuse.<br/><br/>In this classic configuration, similar triangles reveal that $\\angle ABD = \\angle CAD$. Since $\\angle ABD = w\u00b0$, we have $\\angle CAD = w\u00b0$, so $z = w$."
+    },
+    {
+      "title": "Calculate tan z using the angle equality",
+      "content": "Since $z = w$:<br/><br/>$$\\tan z\u00b0 = \\tan w\u00b0 = \\frac{\\sin w\u00b0}{\\cos w\u00b0} = \\frac{\\frac{40}{41}}{\\frac{9}{41}} = \\frac{40}{41} \\cdot \\frac{41}{9} = \\frac{40}{9}$$"
+    }
+  ]
+}

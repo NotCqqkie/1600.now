@@ -1,0 +1,15 @@
+{
+  "questionId": "25361ec6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the temporal endpoint",
+      "content": "The passage moves from \u201cdecades\u201d of unsuccessful theories (\u201cnone had sufficient support\u201d) directly to \u201cscientists found strong evidence.\u201d This marks the moment when the long search finally succeeds."
+    },
+    {
+      "title": "Select the conclusion marker",
+      "content": "<strong>Finally</strong> marks the moment when a prolonged effort ends in success\u2014the word used to signal that long searching has yielded results. The other choices either frame the finding as another failed theory, imply false causation, or wrongly group it with failures. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

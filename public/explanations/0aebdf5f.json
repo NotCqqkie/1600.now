@@ -1,0 +1,15 @@
+{
+  "questionId": "0aebdf5f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The subject of the sentence is <strong>speakers of the English language</strong>, a plural noun phrase."
+    },
+    {
+      "title": "Apply the subject-verb agreement rule",
+      "content": "A plural subject requires a plural verb form. Choice A <strong>use</strong> is the plural present tense form that agrees with the plural subject. Choices B, C, and D are all singular forms and violate the subject-verb agreement rule. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

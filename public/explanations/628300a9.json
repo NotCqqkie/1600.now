@@ -1,0 +1,15 @@
+{
+  "questionId": "628300a9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total salt from both experiments",
+      "content": "If $x$ stations have Experiment A (6 teaspoons each) and the remaining $(5 - x)$ stations have Experiment B (4 teaspoons each), then:<br/>$$\\text{Total salt} = 6x + 4(5 - x)$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Expand and combine like terms:<br/>$$6x + 4(5 - x) = 6x + 20 - 4x = 2x + 20$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

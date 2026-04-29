@@ -1,0 +1,15 @@
+{
+  "questionId": "f88970cc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the first equation to identify x",
+      "content": "The first equation is $x = 5$, which directly gives the $x$-coordinate of the solution\u2014no solving needed."
+    },
+    {
+      "title": "Substitute x into the second equation to find y",
+      "content": "The second equation is $y = x - 8$. Substitute $x = 5$:<br/>$$y = 5 - 8 = -3$$<br/>The solution to the system is $(5, -3)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

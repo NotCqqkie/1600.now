@@ -1,0 +1,15 @@
+{
+  "questionId": "d5ad34f0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the explanation reveals",
+      "content": "The strongest clue is in the explanation: practitioners overlook confounding variables, meaning their real-world observations are incomplete or based on faulty reasoning. This clarifies what happens when trials fail to [blank] such conclusions."
+    },
+    {
+      "title": "Name the target meaning and find the word expressing it",
+      "content": "The target meaning is to support or confirm. Corroborate means exactly that\u2014\u201dto confirm or give supporting evidence for.\u201d The other choices (circumvent, disseminate, implement) express different meanings. Since practitioners overlooked confounding variables, their conclusions are incomplete; rigorous trials would naturally fail to corroborate such flawed observations. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Subtract 1 from both sides:<br/>$$|7 - x| = 80$$"
+    },
+    {
+      "title": "Expand the absolute value into two cases",
+      "content": "The equation $|7 - x| = 80$ means $7 - x$ equals 80 or $7 - x$ equals $-80$:<br/>$$7 - x = 80 \\quad \\text{or} \\quad 7 - x = -80$$"
+    },
+    {
+      "title": "Solve both equations and find their sum",
+      "content": "<strong>From $7 - x = 80$:</strong> $x = 7 - 80 = -73$<br/><strong>From $7 - x = -80$:</strong> $x = 7 + 80 = 87$<br/><br/>Sum: $(-73) + 87 = 14$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

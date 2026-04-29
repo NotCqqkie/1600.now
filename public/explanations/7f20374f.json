@@ -1,0 +1,15 @@
+{
+  "questionId": "7f20374f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "The passage establishes that House districts are designed to be roughly equal in population (averaging 760,000) but then notes that Alaska has fewer people (730,000). This sets up a logical expectation: what is the consequence or result of Alaska being smaller than average?"
+    },
+    {
+      "title": "Match the transition to show causality",
+      "content": "<strong>As a result</strong> correctly shows that Alaska's smaller population results in it having one House district encompassing the entire state\u2014the natural outcome when a state's population falls below the average size. <br/><br/>The other options fail because \u201cInstead\u201d suggests mere contrast without showing consequence, \u201cFinally\u201d implies sequence in a list of items, and \u201cFor instance\u201d presents Alaska as an example rather than explaining what follows logically from Alaska being smaller than average. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

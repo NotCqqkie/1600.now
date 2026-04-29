@@ -1,0 +1,15 @@
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The left side has the noun phrase \u201cthe researchers\u201d (subject); the right side has \u201ccomputer imaging to compare the lengths of eggs from species like <em>Chloroceryle americana</em> and <em>Francolinus coqui</em>\u201c followed by the main verb \u201caimed.\u201d The blank needs a verb form that bridges the subject and the following phrase."
+    },
+    {
+      "title": "Apply the participle rule",
+      "content": "A present participle (-ing form) creates a participial phrase that modifies the subject. \u201cUsing\u201d correctly forms \u201cusing computer imaging to compare the lengths of eggs from species like <em>Chloroceryle americana</em> and <em>Francolinus coqui</em>\u201c to describe how the researchers aimed to shed light on the variation. The other forms don't work: \u201cto use\u201d (B) is an infinitive, \u201cuse\u201d (C) is a bare verb, and \u201cused\u201d (D) creates structural confusion. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

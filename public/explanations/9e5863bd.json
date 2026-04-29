@@ -1,0 +1,15 @@
+{
+  "questionId": "9e5863bd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the bounds into inequalities",
+      "content": "The minimum recorded rate was 0.6 inches per hour, which means $s \\geq 0.6$.<br/>The maximum recorded rate was 1.8 inches per hour, which means $s \\leq 1.8$.<br/>Since $s$ is a recorded rate during this snowstorm, it must satisfy both conditions simultaneously."
+    },
+    {
+      "title": "Combine into a compound inequality",
+      "content": "When $s$ must be at least 0.6 AND at most 1.8, we write:<br/>$$0.6 \\leq s \\leq 1.8$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

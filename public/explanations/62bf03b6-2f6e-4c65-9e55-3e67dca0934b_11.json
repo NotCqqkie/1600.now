@@ -1,0 +1,15 @@
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what the evidence must show",
+      "content": "The passage claims that positive voltage alone is not sufficient to increase adhesion. The missing evidence must demonstrate a case where a positive voltage was applied but adhesion did not increase compared to the 0 V baseline."
+    },
+    {
+      "title": "Use the graph to prove the claim",
+      "content": "From the graph, adhesion at 0 V is approximately 5 kPa, and adhesion at 1 V is also approximately 5 kPa. Since these values are approximately equal, applying a positive voltage (1 V) produced no increase in adhesion\u2014exactly what the statement needs to prove. The others either misstate the graph's values (A and C) or cite data showing positive voltage can achieve high adhesion, contradicting rather than supporting the claim.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

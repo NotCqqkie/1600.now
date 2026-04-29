@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage's conditional claim: \u201cthe use of clustered camera trapping and GPS tracking of collars tends to lead to underestimates of cougar population density.\u201d If true, the study using these methods should show the lowest density results."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "From the table, only Murphy et al. used \u201cclustered camera trapping, GPS tracking of collars\u201d \u2014 and reported 1.65, the lowest density among all studies. This directly proves the underestimate claim: the study with that method produced the lowest results. The other choices study different methods, skip methodology, or show opposite results.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

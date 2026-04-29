@@ -1,0 +1,11 @@
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the scatterplot at x = 40 pounds",
+      "content": "On the scatterplot, locate x = 40 on the weight axis. Going straight up from x = 40, we find a point at y = 5. Therefore, the 40-pound beaver produced 5 offspring. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

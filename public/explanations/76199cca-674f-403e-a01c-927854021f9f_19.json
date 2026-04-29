@@ -1,0 +1,15 @@
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "The sentence contains two independent clauses that must be properly connected: <strong>\u201cthe exhibition set out to provide an overview of photography by women in the 1920s through the 1950s\u201d</strong> and <strong>\u201cits efforts were largely successful\u201d</strong>. The second clause follows a participial phrase: \u201cgiven the collection's breadth of more than 120 photos\u201d."
+    },
+    {
+      "title": "Match the comma-conjunction rule",
+      "content": "When a coordinating conjunction like \u201cand\u201d joins two independent clauses, a comma must come before it. Choice D correctly uses <strong>\u201c1950s, and\u201d</strong>, following this rule. Choices A, B, and C all fail: A uses a comma alone (comma splice), B has no punctuation (run-on), and C places \u201cand\u201d without the required comma. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

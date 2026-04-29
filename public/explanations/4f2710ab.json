@@ -1,0 +1,15 @@
+{
+  "questionId": "4f2710ab",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the example pattern",
+      "content": "The first sentence states a general principle about organisms evolving surprising adaptations; the second sentence then provides a specific organism (tadpole shrimp) that exemplifies this claim. The decisive signal is this movement from general to specific."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dFor example,\u201d introduces a specific case illustrating a general principle, which is exactly what tadpole shrimp represent here. \u201cIn contrast,\u201d \u201cmeanwhile,\u201d and \u201cconsequently\u201d express opposition, simultaneity, and causation\u2014relationships that don't apply to providing an illustration. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

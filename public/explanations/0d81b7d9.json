@@ -1,0 +1,15 @@
+{
+  "questionId": "0d81b7d9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage describes fossils of \"two previously unknown species of prehistoric penguins\" studied by paleontologists. The decisive clue is the phrase \"prehistoric\" and the context of analyzing <strong>fossil bones</strong>, which implies these species no longer exist."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice B directly aligns with the implication of the fossils being from species that are no longer living. The passage does not mention their size comparison to modern penguins (<em>see line about emperor penguins</em>) or their habitat behavior. A, C, and D either contradict or ignore the fossil/prehistoric context. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

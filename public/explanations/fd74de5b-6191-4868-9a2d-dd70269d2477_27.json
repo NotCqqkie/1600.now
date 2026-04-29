@@ -1,0 +1,15 @@
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the similarity clue",
+      "content": "<strong>Both are scientists studying living organisms</strong><br/>Morris studies insects (wheat flies, cicadas); Snethlage studies birds (Brazilian birds). This shared focus on living things is the key signal for a similarity emphasis."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "<strong>Choice B</strong> frames both scientists as dedicated to studying living organisms, directly reflecting the similarity signal.<br/>The other three either highlight differences, are too general, or explicitly contrast the two, missing the similarity.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

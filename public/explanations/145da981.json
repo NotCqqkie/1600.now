@@ -1,0 +1,15 @@
+{
+  "questionId": "145da981",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical contrast needed",
+      "content": "The conclusion states that paywalls benefit larger newspapers more than smaller ones. The evidence must show a large newspaper achieving substantially better results than a small newspaper."
+    },
+    {
+      "title": "Confirm choice C provides this contrast",
+      "content": "Choice C shows the <em>New York Times</em> (large, 20% revenue gain) versus the <em>Denver Post</em> (small, \u22121% change), illustrating the dramatic advantage paywalls delivered to larger papers. The others either compare two large papers, omit the size comparison, or contain factual errors. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

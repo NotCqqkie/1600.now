@@ -1,0 +1,15 @@
+{
+  "questionId": "d102706f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage states that Barrett and Rayfield suggested methodology significantly influences bite force estimates. To support this claim, the table data should demonstrate that different methodologies produce notably different results."
+    },
+    {
+      "title": "Determine which choice demonstrates that methodology influences estimates",
+      "content": "C describes how the two studies using muscular and skeletal modeling produced similar bite force ranges (Cost et al.: 35,000\u201363,000; Bates and Falkingham: 35,000\u201357,000), while studies using different methodologies produced substantially divergent results (Meers via body-mass scaling: 183,000\u2013235,000; Gignac and Erickson via tooth-bone analysis: 8,000\u201334,000). <br/>This clustering pattern directly demonstrates that methodology determines the estimates. A misidentifies the data points, B reports only one study's numbers without comparing methodologies, and D contradicts the suggestion by showing identical methodology producing different results. <br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

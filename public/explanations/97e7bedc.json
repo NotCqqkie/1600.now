@@ -1,0 +1,15 @@
+{
+  "questionId": "97e7bedc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the verb's subject",
+      "content": "The blank verb is part of the relative clause \u201cthat ______ in contact with it,\u201d which modifies <strong>nematodes</strong>. The relative pronoun \u201cthat\u201d refers back to \u201cnematodes,\u201d making \u201cnematodes\u201d the subject the blank verb must agree with. Since \u201cnematodes\u201d is plural, the verb must take a plural form."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A verb must agree with its subject in number. The plural subject \u201cnematodes\u201d requires the plural verb form <strong>come</strong>, while options A, B, and C are singular forms that violate this agreement. This creates \u201cnematodes that come in contact with it,\u201d showing which nematodes the toxin is deadly to.<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what we're finding",
+      "content": "The solution to a system of two linear equations is the point $(x, y)$ where the graphs of both equations intersect on the coordinate plane."
+    },
+    {
+      "title": "Read the intersection point from the graph",
+      "content": "Looking at the graph, the two lines intersect at the point $(-2, 2)$. The $y$-coordinate of this intersection is 2.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

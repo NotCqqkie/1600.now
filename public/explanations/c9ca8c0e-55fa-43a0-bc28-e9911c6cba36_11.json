@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the proxy claim",
+      "content": "The passage argues that Ag\u2011NP accumulation in woodlice could serve as a proxy for accumulation in vertebrate test species, eliminating the need for direct frog testing."
+    },
+    {
+      "title": "Apply the proxy logic",
+      "content": "The winner, choice C, states that Ag\u2011NP levels in woodlice do not predict those in frogs when both are exposed to comparable amounts, directly contradicting the proxy idea.<br/>Choices A, B, and D either discuss unrelated accumulation traits, suggest woodlice are superior to frogs, or present a garbled statement that does not address whether woodlice reflect frog levels.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

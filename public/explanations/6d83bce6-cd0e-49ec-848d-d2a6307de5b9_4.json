@@ -1,0 +1,16 @@
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the radius from the diameter",
+      "content": "The diameter is 6 inches. Since radius is half the diameter:<br/>$$r = \\frac{6}{2} = 3 \\text{ inches}$$"
+    },
+    {
+      "title": "Calculate the volume using the cylinder formula",
+      "content": "Use the cylinder volume formula with $r = 3$ and $h = 21$:<br/>$$V = \\pi(3)^2(21) = \\pi(9)(21) = 189\\pi \\text{ cubic inches}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$V = \\pi r^2 h$$"
+    }
+  ]
+}

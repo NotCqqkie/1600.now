@@ -1,0 +1,15 @@
+{
+  "questionId": "96a45430",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation for a 6% increase",
+      "content": "When <em>n</em> is increased by 6%, the new value is $1.06n$. We're told this equals 318: $$1.06n = 318$$"
+    },
+    {
+      "title": "Test choice C",
+      "content": "Backsolving \u2014 testing choice C (300): If $n = 300$, then $$1.06 \\times 300 = 300 + 0.06 \\times 300 = 300 + 18 = 318$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

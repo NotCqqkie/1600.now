@@ -8,6 +8,7 @@ import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { getAuthReturnTo } from "@/components/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
+import { describeAuthError } from "@/lib/authErrors";
 import { Loader2, BookOpen, Target, BarChart3, ArrowLeft } from "lucide-react";
 
 // Google SVG icon
@@ -32,7 +33,9 @@ const Login = () => {
   const { toast } = useToast();
 
   useEffect(() => {
-    if (!authLoading && user) navigate(getAuthReturnTo(), { replace: true });
+    if (authLoading || !user) return;
+    if (!user.emailVerified) navigate("/verify-email", { replace: true });
+    else navigate(getAuthReturnTo(), { replace: true });
   }, [user, authLoading, navigate]);
 
   const handleLogin = async (e: React.FormEvent) => {
@@ -41,8 +44,9 @@ const Login = () => {
     try {
       await signInWithEmailPassword(email, password);
       navigate(getAuthReturnTo(), { replace: true });
-    } catch (error: any) {
-      toast({ variant: "destructive", title: "Error logging in", description: error.message });
+    } catch (error: unknown) {
+      const friendly = describeAuthError(error, "signin");
+      toast({ variant: "destructive", title: friendly.title, description: friendly.description });
     } finally {
       setIsSubmitting(false);
     }
@@ -52,8 +56,9 @@ const Login = () => {
     try {
       await signInWithGoogle();
       navigate(getAuthReturnTo(), { replace: true });
-    } catch (error: any) {
-      toast({ variant: "destructive", title: "Error logging in with Google", description: error.message });
+    } catch (error: unknown) {
+      const friendly = describeAuthError(error, "signin");
+      toast({ variant: "destructive", title: friendly.title, description: friendly.description });
     }
   };
 

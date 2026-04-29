@@ -1,0 +1,15 @@
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the modifying phrase",
+      "content": "The opening \u201cHome to roughly 710,000 people,\u201d is a participial phrase that introduces the sentence. This phrase must logically modify the <strong>subject</strong> of the main clause \u2014 and that subject must be something that can actually be \u201chome to\u201d people (a location, not a statistic)."
+    },
+    {
+      "title": "Match the subject to the phrase",
+      "content": "Choice A places \u201cthe city of Riga\u201d as the subject, so the city (a location) logically can be home to 710,000 people. Choice B lacks a proper main verb and reads as a sentence fragment. Choices C and D both attempt to make \u201can impressive 35 percent\u201d the subject \u2014 but a percentage cannot logically be \u201chome to\u201d people, creating a dangling modifier. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

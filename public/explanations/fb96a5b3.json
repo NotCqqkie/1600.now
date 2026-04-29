@@ -1,0 +1,15 @@
+{
+  "questionId": "fb96a5b3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the 2 into the parentheses",
+      "content": "Use the distributive property to multiply 2 by each term inside: $$2(ab - 3) + 2 = 2 \\cdot ab - 2 \\cdot 3 + 2 = 2ab - 6 + 2$$"
+    },
+    {
+      "title": "Combine the constant terms",
+      "content": "Add $-6 + 2$ to simplify: $$2ab - 6 + 2 = 2ab - 4$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

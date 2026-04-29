@@ -1,0 +1,15 @@
+{
+  "questionId": "cd2443c0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The opening noun phrase <em>\u201cA pioneer in the field of taphonomy\u201d</em> introduces someone by their role. The blank must contain that person's name, followed by a verb that describes their action, then information about what was discovered. The sentence concludes with <em>\u201cmay be just as prevalent,\u201d</em> which completes the finding."
+    },
+    {
+      "title": "Apply the rule: use active voice with a clear subject",
+      "content": "Choice B correctly uses the active verb <strong>demonstrated</strong> with Anna Behrensmeyer as the subject, directly linking the introductory description of her pioneering role to her actual discovery in 2005. This structure\u2014person demonstrated that finding\u2014is direct and clear. Choices A, C, and D either scramble the structure with confusing punctuation, shift to passive voice that obscures the agent, or introduce an illogical subject. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

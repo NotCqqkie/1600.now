@@ -1,0 +1,15 @@
+{
+  "questionId": "d74b9bc6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast: what shows a decline?",
+      "content": "The researcher claims that lakes have seen a <strong>decline</strong> in ice duration between 1980-81 and 2005-06. A typical example must demonstrate exactly this: fewer ice days in 2005-06 than in 1980-81."
+    },
+    {
+      "title": "Apply the decline pattern to the choices",
+      "content": "Oulujarvi demonstrates the decline pattern\u2014the graph shows more ice days in 1980-81 and fewer in 2005-06, directly supporting the researcher's claim.<br/><br/>The other three choices either address only one time period without showing the comparison (A, D) or show the opposite trend of an increase (B).<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

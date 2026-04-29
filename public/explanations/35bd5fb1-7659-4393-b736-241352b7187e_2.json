@@ -1,0 +1,16 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Sum all the data values",
+      "content": "The mean equals the sum of all values divided by how many values there are. Let me add the seven data values:<br/>$28 + 28 + 29 + 30 + 32 + 33 + 37 = 217$",
+      "formula": "$$\\text{mean} = \\frac{\\sum \\text{values}}{n}$$"
+    },
+    {
+      "title": "Divide by the number of values",
+      "content": "Since there are 7 values, the mean is:<br/>$$\\frac{217}{7} = 31$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

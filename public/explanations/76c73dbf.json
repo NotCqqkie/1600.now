@@ -1,0 +1,19 @@
+{
+  "questionId": "76c73dbf",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that completing the square converts to standard form",
+      "content": "We have the equation $x^2 + x + y^2 + y = \\frac{199}{2}$. To find the radius, we need standard form $(x-h)^2 + (y-k)^2 = r^2$. The fastest approach is completing the square for both the $x$ terms and the $y$ terms."
+    },
+    {
+      "title": "Complete the square for x and y, then simplify",
+      "content": "For $x^2 + x$, we complete the square:<br/>$$x^2 + x = \\left(x + \\frac{1}{2}\\right)^2 - \\frac{1}{4}$$<br/>For $y^2 + y$, we do the same:<br/>$$y^2 + y = \\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{4}$$<br/>Substitute into the original equation:<br/>$$\\left(x + \\frac{1}{2}\\right)^2 - \\frac{1}{4} + \\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{4} = \\frac{199}{2}$$<br/>Combine the constant terms on the left:<br/>$$\\left(x + \\frac{1}{2}\\right)^2 + \\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{2} = \\frac{199}{2}$$<br/>Add $\\frac{1}{2}$ to both sides:<br/>$$\\left(x + \\frac{1}{2}\\right)^2 + \\left(y + \\frac{1}{2}\\right)^2 = \\frac{200}{2} = 100$$"
+    },
+    {
+      "title": "Extract the radius from standard form",
+      "content": "The equation is now in the form $(x-h)^2 + (y-k)^2 = r^2$ with $r^2 = 100$. Therefore, the radius is $r = \\sqrt{100} = 10$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The critical signal is in the previous sentence: <em>\u201cRoman numerals typically indicate the order in which the moons were named rather than the order of their proximity to Jupiter.\u201d</em> This clarifies what the Roman numerals actually represent\u2014naming sequence, not physical position."
+    },
+    {
+      "title": "Apply the signal to find the transition",
+      "content": "<em>\u201cThen\u201d</em> marks the logical consequence: given that Roman numerals indicate naming order (not proximity), it then follows that it is incorrect to assume Eirene is the fifty-seventh moon from Jupiter in terms of proximity. Moreover suggests addition rather than inference, finally suggests an endpoint in a sequence, and however signals contrast rather than consequence\u2014none fit the logical flow. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

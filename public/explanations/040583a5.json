@@ -1,0 +1,15 @@
+{
+  "questionId": "040583a5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the gap pattern between treatments",
+      "content": "The key signal is the gap between the ethylene-treated bar (light) and untreated bar (dark) at each temperature. Notice that this gap is much larger at 14\u00b0C, 16\u00b0C, and 18\u00b0C than at 20\u00b0C."
+    },
+    {
+      "title": "Match the gap pattern to the answer",
+      "content": "At the three lower temperatures, the gap is roughly 3\u20133.5 days each; at 20\u00b0C, it shrinks to about 1.5 days. This reveals that ethylene's absolute effect on ripening time was much stronger at lower temperatures. <br/><br/>D states exactly this pattern: ethylene caused a greater absolute change at 14\u00b0C, 16\u00b0C, and 18\u00b0C than at 20\u00b0C. A, B, and C either misstate the data or reverse the observed relationships. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

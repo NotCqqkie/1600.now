@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "The phrase before the blank, \u201cthe observatory sites...number nearly five [blank] across the globe,\u201d is an independent clause. After the comma, \u201cthe radars track ionospheric irregularities and other geospace phenomena\u201d is another independent clause."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Choice A correctly uses a period to separate two independent clauses, placing it after \u201cdozen\u201d so the next sentence begins with \u201cLocated across the globe\u201d describing what the radars do. Choices B, C, and D all fail to create a proper sentence boundary. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main verb structure",
+      "content": "The phrase <em>found Mihvs migrans eggs to be longer</em> is a complete verb phrase with its own object and complement. This signals that <em>found</em> must be the main verb of the second independent clause. For this to work, <em>compared the lengths of eggs produced by different bird species</em> must function as a relative clause modifying <em>study</em>, not as the main verb\u2014which requires a relative pronoun immediately after <em>study</em>."
+    },
+    {
+      "title": "Select the relative pronoun pattern",
+      "content": "A restrictive relative clause uses 'that' without a comma before it. The correct structure is <em>study that</em>, making <em>found</em> the main verb of the clause. Choices A and B incorrectly place a comma before the relative pronoun; choice C omits the pronoun entirely, leaving <em>compared</em> without proper grammatical function. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

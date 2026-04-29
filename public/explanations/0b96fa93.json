@@ -1,0 +1,15 @@
+{
+  "questionId": "0b96fa93",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key requirement",
+      "content": "The passage requires selecting a maple tree native to <strong>North America</strong> with a maximum height of <strong>under 60 feet</strong>. The decisive detail is a specific combination of both traits \u2014 not height alone or origin alone."
+    },
+    {
+      "title": "Match the data to the criteria",
+      "content": "Red maple is native to North America and grows to 40\u201350 feet, satisfying both requirements. The other three either exceed 60 feet or are not native (Norway maple), or meet only one condition. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

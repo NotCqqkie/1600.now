@@ -1,0 +1,15 @@
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The student wants to provide an example of a country that uses \u201cdinar\u201d in its currency name. This requires a <strong>specific country</strong>. The notes contain exactly one such example: Bahrain's Bahraini dinar."
+    },
+    {
+      "title": "Select the choice that provides the example",
+      "content": "Choice A provides the specific country example\u2014Bahrain uses the Bahraini dinar. The other choices either generalize without naming a specific country (C), explain the etymology of \u201cdinar\u201d (D), or state a negative claim about Bahrain (B). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

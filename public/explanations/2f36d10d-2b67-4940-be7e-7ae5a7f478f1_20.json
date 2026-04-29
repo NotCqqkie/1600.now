@@ -1,0 +1,15 @@
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side of the blank is an independent clause: <em>\u201cThe relationship\u2026 reveals how cells with identical DNA develop different [blank].\u201d</em> The right side is a dependent clause introduced by <em>\u201cwhereas\u201d</em> that explains <em>how</em> this difference occurs: <em>\u201cwhereas the genome in each cell contains a complete DNA sequence, the epigenome consists of chemical compounds that determine which traits in the sequence will be expressed.\u201d</em>"
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A colon introduces an explanation or elaboration of a preceding statement. The <em>\u201cwhereas\u201d</em> clause explains the mechanism behind how cells develop different functions\u2014it contrasts the identical genome (which all cells share) with the variable epigenome (which differs and controls which genetic traits are actually expressed). This explanatory relationship calls for a colon to signal that the dependent clause clarifies the main idea. The other three options either fail to mark this explanatory connection clearly (B provides no pause, C illogically inserts <em>\u201cand,\u201d</em> and A uses only a comma, which doesn't convey explanation as strongly). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

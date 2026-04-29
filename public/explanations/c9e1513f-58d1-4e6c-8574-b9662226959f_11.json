@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify exponential growth pattern",
+      "content": "The bacteria population doubles every day, indicating exponential growth. This follows the standard form $y = a \\cdot b^t$, where $a$ is the initial value, $b$ is the growth factor per time period, and $t$ is elapsed time.<br/>From the problem: initial bacteria $a = 72,000$, and doubling means growth factor $b = 2$."
+    },
+    {
+      "title": "Write and verify the equation",
+      "content": "Substituting $a = 72,000$ and $b = 2$:<br/>$$y = 72,000(2)^t$$<br/>Test at $t = 1$: $y = 72,000(2)^1 = 144,000$, which is double the initial 72,000. This confirms the model matches the given doubling behavior. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

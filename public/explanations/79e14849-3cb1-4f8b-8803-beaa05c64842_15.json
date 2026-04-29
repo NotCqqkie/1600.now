@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "The sentence has two independent clauses: \u201cthe guide soon grew in scope and [blank]\u201d (completed by \u201cinfluence\u201d) and \u201cits modest French eateries were replaced with some of the most esteemed restaurants from around the world.\u201d"
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "A comma plus a coordinating conjunction joins two independent clauses. <strong>Influence, and</strong> provides both: the comma closes the first clause and <strong>and</strong> begins the second. The other choices fail this rule\u2014A has neither element, C lacks the conjunction, and D lacks the comma. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

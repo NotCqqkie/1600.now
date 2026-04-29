@@ -1,0 +1,15 @@
+{
+  "questionId": "dd4ab4c4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the pattern as a perfect square trinomial",
+      "content": "The first term is $4a^2 = (2a)^2$ and the last term is $25b^2 = (5b)^2$. This suggests the polynomial has the form $(ca + db)^2$. For $(2a + 5b)^2$, the middle term should be $2 \\cdot (2a) \\cdot (5b) = 20ab$. Our polynomial has exactly this middle term, confirming it is a perfect square trinomial."
+    },
+    {
+      "title": "Factor the polynomial and identify the choice",
+      "content": "The polynomial factors as $4a^2 + 20ab + 25b^2 = (2a + 5b)^2$. This means $(2a + 5b)$ is a factor of the polynomial. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

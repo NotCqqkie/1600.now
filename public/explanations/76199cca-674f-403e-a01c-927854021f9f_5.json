@@ -1,0 +1,15 @@
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the role of the underlined portion",
+      "content": "The key signal is the structure <strong>\u201cThis approach has some limits\u2014[underlined text]\u2014but the data set nonetheless...\u201d</strong> The underlined text serves as the specific limitation being introduced by the word \u201climits.\u201d"
+    },
+    {
+      "title": "Match the function to the choices",
+      "content": "The underlined sentence identifies a concrete flaw in the data set: the Places API is restricted to customer-facing places only. The other three choices misidentify what's being discussed or reverse the function from acknowledgment of limitation to something else. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

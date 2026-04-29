@@ -1,0 +1,19 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the squared term and take square roots",
+      "content": "Start with $$(\\frac{1}{2}x - \\frac{41}{2})^2 - 64 = 0.$$ Add 64 to both sides: $$(\\frac{1}{2}x - \\frac{41}{2})^2 = 64.$$ Taking the square root of both sides gives: $$\\frac{1}{2}x - \\frac{41}{2} = \\pm 8.$$"
+    },
+    {
+      "title": "Factor and solve for (x - 41)",
+      "content": "Notice that $\\frac{1}{2}x - \\frac{41}{2} = \\frac{1}{2}(x - 41)$. Substituting into the equation: $$\\frac{1}{2}(x - 41) = \\pm 8.$$ Multiply both sides by 2: $$x - 41 = \\pm 16.$$"
+    },
+    {
+      "title": "Square both sides to find (x - 41)^2",
+      "content": "Since $x - 41 = \\pm 16$, we square both sides: $$(x - 41)^2 = (\\pm 16)^2 = 256.$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

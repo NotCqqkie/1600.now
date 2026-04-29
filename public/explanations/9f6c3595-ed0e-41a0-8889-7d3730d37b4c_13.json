@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up linear combination and find coefficients",
+      "content": "Express $3x + 5y$ as a linear combination of the two equations:<br/>$$3x + 5y = a(x + 4y) + b(2x + y)$$<br/>Expanding the right side:<br/>$$3x + 5y = (a + 2b)x + (4a + b)y$$<br/>Matching coefficients: $a + 2b = 3$ and $4a + b = 5$. From the first equation, $a = 3 - 2b$. Substituting:<br/>$$4(3 - 2b) + b = 5 \\Rightarrow 12 - 7b = 5 \\Rightarrow b = 1$$<br/>Therefore $a = 1$."
+    },
+    {
+      "title": "Apply the linear combination",
+      "content": "Now substitute the coefficients:<br/>$$3x + 5y = 1 \\cdot (x + 4y) + 1 \\cdot (2x + y) = 19 + 4 = 23$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

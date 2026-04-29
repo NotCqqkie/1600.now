@@ -1,0 +1,15 @@
+{
+  "questionId": "a73a5c22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 8 into the function",
+      "content": "We have $g(x) = 10x + 8$ and need to find $g(8)$. Substitute $x = 8$ into the function:<br/>$$g(8) = 10(8) + 8$$"
+    },
+    {
+      "title": "Simplify to find the result",
+      "content": "Evaluate the arithmetic:<br/>$$g(8) = 80 + 8 = 88$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the temporal anchor",
+      "content": "\u201dOn August 15, 2013\u201d is a specific past date. This temporal marker determines which verb tense to use."
+    },
+    {
+      "title": "Match the tense to the time",
+      "content": "The rule is that verb tense must align with the time reference. 'Published' is correct\u2014it uses simple past to match the 2013 date. The other three violate this alignment by using future or present tense forms. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_18",
+  "correctAnswer": "555",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute h = 539.33 and isolate the variable term",
+      "content": "Substitute $h = 539.33$ into the conversion equation:<br>$$539.33 = \\frac{9(v-273.15)}{5} + 32$$<br><br>Subtract 32 from both sides:<br>$$507.33 = \\frac{9(v-273.15)}{5}$$<br><br>Multiply both sides by 5 to clear the fraction:<br>$$2536.65 = 9(v-273.15)$$<br><br>Divide both sides by 9:<br>$$281.85 = v - 273.15$$"
+    },
+    {
+      "title": "Add 273.15 to solve for the temperature in kelvins",
+      "content": "Add 273.15 to both sides:<br>$$v = 281.85 + 273.15 = 555$$<br><br>The corresponding temperature is <strong>555</strong> kelvins."
+    }
+  ]
+}

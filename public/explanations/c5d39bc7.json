@@ -1,0 +1,15 @@
+{
+  "questionId": "c5d39bc7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical relationship",
+      "content": "The barnacles use secretions to \u201cattach ______ to a sea turtle shell.\u201d The blank represents what's being attached; since the barnacles are attaching themselves (subject and object are the same), we need a pronoun that refers back to the plural subject."
+    },
+    {
+      "title": "Apply the reflexive pronoun rule",
+      "content": "For a plural subject acting on itself, the reflexive form is \u201cthemselves.\u201d \u201cThemselves\u201d correctly shows the barnacles acting on themselves: \u201cthey attach themselves to a sea turtle shell.\u201d The other choices are either singular (\u201cit,\u201d \u201citself\u201d) or non-reflexive (\u201cthem\u201d). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

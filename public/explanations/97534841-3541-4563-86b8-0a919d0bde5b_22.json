@@ -1,0 +1,15 @@
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence establishes a principle about intrusions and rocks. The second sentence immediately shows how geochemists apply it to determine intrusion ages. The transition must establish this cause-and-effect relationship."
+    },
+    {
+      "title": "Match the transition to the relationship",
+      "content": "\u201dAccordingly\u201d means \u201ctherefore\u201d or \u201cin accordance with\u201d\u2014it establishes that the geochemists' ability to ascertain the intrusion's age follows from the principle. The other three don't establish this logical progression: \u201cThat being said\u201d signals contrast, \u201cTo this end\u201d implies purpose, and \u201cMoreover\u201d simply adds information. This matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

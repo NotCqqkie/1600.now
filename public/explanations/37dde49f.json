@@ -1,0 +1,19 @@
+{
+  "questionId": "37dde49f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the given volume formula",
+      "content": "We're given that the glass volume is 473 cubic centimeters and the volume formula is $\\frac{7\\pi k^3}{48}$. Setting these equal:<br/><br/>$$\\frac{7\\pi k^3}{48} = 473$$"
+    },
+    {
+      "title": "Isolate k cubed",
+      "content": "Multiply both sides by 48:<br/>$$7\\pi k^3 = 473 \\cdot 48 = 22,704$$<br/><br/>Divide both sides by $7\\pi$:<br/>$$k^3 = \\frac{22,704}{7\\pi} = \\frac{22,704}{21.991} \\approx 1,032.6$$"
+    },
+    {
+      "title": "Take the cube root",
+      "content": "$$k = \\sqrt[3]{1,032.6} \\approx 10.11$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

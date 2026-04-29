@@ -1,0 +1,15 @@
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate Jupiter's weight using the given percentage",
+      "content": "Jupiter's weight is 252.8% of Earth's weight:<br/><br/>$$\\text{Weight on Jupiter} = 2.528 \\times 220.00 = 556.16 \\text{ pounds}$$"
+    },
+    {
+      "title": "Find x where Saturn weight equals x% of Jupiter weight",
+      "content": "Set up the proportion where Saturn's weight is $x$% of Jupiter's weight:<br/><br/>$$234.52 = \\frac{x}{100} \\times 556.16$$<br/><br/>Solve for $x$:<br/><br/>$$x = \\frac{234.52}{556.16} \\times 100 \\approx 42.17$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

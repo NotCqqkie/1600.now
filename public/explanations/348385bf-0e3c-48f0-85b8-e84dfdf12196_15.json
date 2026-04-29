@@ -1,0 +1,15 @@
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the chemical contrast",
+      "content": "Red ocher contains iron oxide; plant-based pigments contain high carbon. The test showed the beads' pigment: no iron but high carbon\u2014exactly the signature of plant-based pigments, not ocher."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "This signature proves the beads used plant-based pigments rather than ocher. A directly states this conclusion. B and C introduce unsupported claims (about brightness and ocher's scarcity), while D overgeneralizes to historical primacy the passage never addresses. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

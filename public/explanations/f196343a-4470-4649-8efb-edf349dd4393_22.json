@@ -1,0 +1,19 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the quadratic using its roots",
+      "content": "Since the graph passes through $(8, 0)$ and $(-5, 0)$, these are the zeros of $f$. The quadratic can be written in factored form: $$f(x) = a(x - 8)(x + 5)$$"
+    },
+    {
+      "title": "Expand to find the coefficient b",
+      "content": "Expanding the factored form: $$f(x) = a(x^2 + 5x - 8x - 40) = a(x^2 - 3x - 40) = ax^2 - 3ax - 40a$$ Comparing with $f(x) = ax^2 + bx + c$, we get $b = -3a$."
+    },
+    {
+      "title": "Apply the constraint to find a + b",
+      "content": "Now: $$a + b = a + (-3a) = -2a$$ Since $a$ is an integer greater than 1, we have $a \\geq 2$, which means $a + b = -2a \\leq -4$. When $a = 2$, we get $a + b = -4$. This is the only choice among the options, matching choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

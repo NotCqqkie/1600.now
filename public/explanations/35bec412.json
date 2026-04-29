@@ -1,0 +1,15 @@
+{
+  "questionId": "35bec412",
+  "correctAnswer": "79",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the median position",
+      "content": "The dataset has 9 values, already sorted: 73, 74, 75, 77, 79, 82, 84, 85, 91. For an odd number of values, the median is the middle value, located at position $$\\frac{9+1}{2} = 5$$."
+    },
+    {
+      "title": "Find the value at position 5",
+      "content": "Counting: 1st (73), 2nd (74), 3rd (75), 4th (77), 5th (79). The median is 79."
+    }
+  ]
+}

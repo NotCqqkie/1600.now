@@ -1,0 +1,15 @@
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The student links two ideas with \u201cthough...also\u201d: smaller areas were \u201cless affected\u201d (lower values than large cities) yet congestion \u201cworsened in them over time\u201d (upward trend). Finding the correct answer means identifying data that shows both."
+    },
+    {
+      "title": "Match the signal to the data",
+      "content": "Choice C delivers both conditions: Albany remained consistently below NYC across 1990\u20132000 (less affected), and both areas experienced rising delay during this period (worsened). The other three either lack the area-to-area comparison, contradict the graph, or reverse the relative values. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

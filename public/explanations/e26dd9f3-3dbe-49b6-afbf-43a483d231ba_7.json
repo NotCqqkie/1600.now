@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what each text addresses",
+      "content": "The key signal is the number of possible causes examined. Text 1 focuses on ONE cause (asteroid impact) and the features that support it. Text 2 evaluates TWO alternative causes (carbonate dissolution and subsurface salt withdrawal) to determine whether they fit Nadir."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Option C identifies the core difference: Text 1 works with one explanation (asteroid impact), while Text 2 systematically tests two alternative explanations (carbonate dissolution and subsurface salt withdrawal), ruling both out based on Nadir's central uplift. Text 1 presents supporting evidence; Text 2 eliminates competing hypotheses. A invents tone shifts that aren't there, B reverses what Text 1 discusses, and D falsely claims Text 2 refutes impact when it only tests alternatives. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

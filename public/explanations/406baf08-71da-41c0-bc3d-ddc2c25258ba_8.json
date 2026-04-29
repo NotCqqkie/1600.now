@@ -1,0 +1,15 @@
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's explicit purpose",
+      "content": "The passage directly states that simulants \u201chelp scientists evaluate how well their devices will handle the surface when operated on Mars.\u201d This describes the core reason simulants are valuable to scientists."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D directly matches this purpose: simulants allow scientists to test equipment's ability to withstand the conditions it will encounter on a Mars mission. The other three introduce unrelated purposes or reverse the application\u2014A discusses tracking soil changes over time, B frames this as comparing planet properties, and C incorrectly applies it to testing on Earth.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

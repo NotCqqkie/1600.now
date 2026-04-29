@@ -1,0 +1,15 @@
+{
+  "questionId": "617a8a10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \u201cTo address this problem\u201d directly links the underlined sentence to the problem just identified in the previous sentence. This signals that the sentence's function is to describe a solution\u2014specifically, the method used to overcome the monitoring difficulty."
+    },
+    {
+      "title": "Match the method to the choices",
+      "content": "Choice A correctly identifies the underlined sentence's function: it describes the approach scientists used (time-lapse cameras) to study the pollinators. The other three misidentify the sentence's role\u2014B treats it as questioning a claim, C as explaining moth preferences, and D as announcing findings (which actually appear in the following sentence). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

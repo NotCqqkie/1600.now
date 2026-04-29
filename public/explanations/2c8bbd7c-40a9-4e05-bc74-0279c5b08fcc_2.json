@@ -1,0 +1,19 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the two expressions equal",
+      "content": "Since both $x + 47$ and $(x + 47)^2$ equal $y$, we can set them equal to each other:<br/><br/>$$x + 47 = (x + 47)^2$$"
+    },
+    {
+      "title": "Substitute to simplify",
+      "content": "Let $u = x + 47$. This avoids expanding the right side and makes the equation much simpler:<br/><br/>$$u = u^2$$<br/>$$u^2 - u = 0$$<br/>$$u(u - 1) = 0$$<br/><br/>Therefore $u = 0$ or $u = 1$."
+    },
+    {
+      "title": "Convert back and match to choices",
+      "content": "Substitute back $u = x + 47$ to find the $x$ values:<br/><ul><li>When $u = 0$: $x + 47 = 0$, so $x = -47$</li><li>When $u = 1$: $x + 47 = 1$, so $x = -46$</li></ul><br/>Of our two solutions, $x = -46$ appears in the answer choices. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

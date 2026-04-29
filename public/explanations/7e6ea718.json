@@ -1,0 +1,15 @@
+{
+  "questionId": "7e6ea718",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set y equals zero and identify all roots",
+      "content": "To find x-intercepts, set $y = 0$:<br/>$$2(x-d)(x+d)(x+g)(x-d) = 0$$<br/>Since 2 is nonzero, each factor can equal zero:<ul><li>$(x-d) = 0 \\Rightarrow x = d$ (appears with multiplicity 2)</li><li>$(x+d) = 0 \\Rightarrow x = -d$</li><li>$(x+g) = 0 \\Rightarrow x = -g$</li></ul>When counting distinct x-intercepts, we count each distinct $x$-value once, regardless of multiplicity."
+    },
+    {
+      "title": "Verify all roots are distinct",
+      "content": "Are the three values $d$, $-d$, and $-g$ all different? Given $d > 0$, $g > 0$, and $d \\neq g$:<ul><li>$d > 0$ while $-d < 0$, so $d \\neq -d$</li><li>$d > 0$ while $-g < 0$, so $d \\neq -g$</li><li>Since $d \\neq g$, we have $-d \\neq -g$</li></ul>All three roots are distinct, so there are 3 distinct x-intercepts. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

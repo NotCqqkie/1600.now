@@ -1,0 +1,15 @@
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Left side: <em>From 2009 to 2019, travelers flew out of major urban airports with increasing [blank]</em> is an independent clause. Right side: <em>Austin-Bergstrom International Airport in Austin, Texas, saw a 111.3 percent increase in airline passengers...</em> is an independent clause."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Two independent clauses must be properly separated by a period, semicolon, or comma with conjunction. Option B correctly uses a period, allowing <em>For example,</em> to start a new sentence that introduces an example of the preceding claim.<br/><br/>Options A, C, and D violate this rule: Option A awkwardly ends the first sentence with <em>for example</em> rather than having it introduce the second sentence, Option C misapplies a semicolon before a transitional phrase, and Option D creates a comma splice by using only commas between independent clauses.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

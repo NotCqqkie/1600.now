@@ -1,0 +1,15 @@
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core goal",
+      "content": "The student wants to \u201ccontrast the number of haiku in each poem\u201d \u2014 that is, show the difference between 15 and 7. This is the specific requirement the answer must fulfill."
+    },
+    {
+      "title": "Find the choice that delivers the contrast",
+      "content": "Choice A directly states the numbers: \u201c15 haiku... whereas... seven\u201d \u2014 the word \u201cwhereas\u201d creates the contrast. The other three choices address location, subjects, and themes instead. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "questionId": "a232aa96",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -8 into f(x) = -3x + 60",
+      "content": "Direct substitution gives: $$ f(-8) = -3(-8) + 60 $$.<br/>Multiplying: $$ -3 \times -8 = 24 $$.<br/>Add to 60: $$ 24 + 60 = 84 $$.<br/>This matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

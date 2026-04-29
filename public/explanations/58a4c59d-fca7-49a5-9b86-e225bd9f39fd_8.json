@@ -1,0 +1,15 @@
+{
+  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the three-part structure",
+      "content": "The text first defines what community science is and calls it effective, then lists concrete benefits (conservation assistance, youth learning, increased data collection), and finally provides a specific example: the Grace Herzel butterfly study in Arkansas that used this approach."
+    },
+    {
+      "title": "Match the structure to the choices",
+      "content": "Choice D identifies a particular approach to research, lists some benefits of that approach, and then mentions a study in which that approach was used \u2014 this matches the text exactly. Choices A, B, and C either introduce content not present (A adds public opinion commentary; C adds development narrative and future suggestions) or misframe the primary focus (B treats a study as the main subject rather than as an example). <strong>D</strong> is correct."
+    }
+  ]
+}

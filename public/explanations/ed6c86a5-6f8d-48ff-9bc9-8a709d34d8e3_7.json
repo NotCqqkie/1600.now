@@ -1,0 +1,11 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate x and find 2y",
+      "content": "Since both equations equal $y$, add them together:<br/>$$y + y = \\left(\\frac{x}{3} + 8\\right) + \\left(-\\frac{x}{3} + 20\\right)$$<br/>The left side is $2y$. On the right side, the $x$ terms cancel out: $\\frac{x}{3} - \\frac{x}{3} = 0$. The constants add: $8 + 20 = 28$.<br/>$$2y = 28$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

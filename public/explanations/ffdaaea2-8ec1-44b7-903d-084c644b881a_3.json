@@ -1,0 +1,15 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the operation blocking us",
+      "content": "The equation is $q - 34r = s$. Currently, $q$ has $34r$ subtracted from it. To isolate $q$, we need to undo this subtraction by adding $34r$ to both sides."
+    },
+    {
+      "title": "Add 34r to both sides",
+      "content": "Starting with $q - 34r = s$:<br/><br/>$$q - 34r + 34r = s + 34r$$<br/><br/>Simplifying:<br/><br/>$$q = s + 34r$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

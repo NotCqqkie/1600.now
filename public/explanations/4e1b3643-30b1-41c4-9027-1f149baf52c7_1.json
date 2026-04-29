@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the intersection point",
+      "content": "From the graph, the lines appear to intersect at the point (-1, 3)."
+    },
+    {
+      "title": "Determine y\u2011value and match choice",
+      "content": "Therefore y = 3, which matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

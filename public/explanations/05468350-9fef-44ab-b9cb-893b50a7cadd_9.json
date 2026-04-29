@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the pyramid volume formula",
+      "content": "The volume of a pyramid is $V = \\frac{1}{3} \\times \\text{base area} \\times \\text{height}$. For a square base with side length $s$, the base area is $s^2$, so:<br/><br/>$$V = \\frac{1}{3}s^2h$$<br/><br/>Substitute the given values $V = 128$ and $h = 6$:<br/><br/>$$128 = \\frac{1}{3}s^2(6)$$"
+    },
+    {
+      "title": "Simplify and solve for the side length",
+      "content": "Simplify the right side:<br/><br/>$$128 = \\frac{6s^2}{3}$$<br/><br/>$$128 = 2s^2$$<br/><br/>Divide both sides by 2:<br/><br/>$$s^2 = 64$$<br/><br/>Take the positive square root:<br/><br/>$$s = 8$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

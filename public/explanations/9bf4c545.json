@@ -1,0 +1,15 @@
+{
+  "questionId": "9bf4c545",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the population vs. the sample",
+      "content": "The city council wanted to assess the opinions of <strong>all city residents</strong>, but the survey was conducted only on residents who <strong>own dogs</strong>. These are not the same population. By design, the survey excluded all residents who do not own dogs."
+    },
+    {
+      "title": "Recognize why the sample is biased",
+      "content": "Dog owners have a natural interest in a dog park\u2014they own dogs. This group cannot represent the opinions of the entire city, which includes people who don't own dogs and may have different views. When a sample doesn't reflect the composition of the target population, it is biased and not representative of the entire group. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

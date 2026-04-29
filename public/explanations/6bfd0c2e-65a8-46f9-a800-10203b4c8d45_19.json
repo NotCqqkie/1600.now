@@ -1,0 +1,19 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the decay factor",
+      "content": "<div>The sample loses 24% of its mass each 22.96\u2011minute interval, so the fraction that remains is $$1-0.24 = 0.76$$.</div>"
+    },
+    {
+      "title": "Write the exponential decay model",
+      "content": "<div>The exponential decay model is $$M = M_0 \\cdot r^{\\frac{t}{T}}$$, where $$M_0$$ is the initial mass, $$r$$ is the remaining fraction per period, and $$T$$ is the length of one period.</div>"
+    },
+    {
+      "title": "Match to answer choices",
+      "content": "<div>Substituting $$M_0 = 100$$ grams, $$r = 0.76$$, and $$T = 22.96$$ minutes gives $$M = 100(0.76)^{\\frac{t}{22.96}}$$. This expression matches choice D.</div><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

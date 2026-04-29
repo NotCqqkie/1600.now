@@ -1,0 +1,15 @@
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal signal",
+      "content": "The passage uses <em>since</em> to explain why excavation is [blank]: \u201cweeks or even months of hard, physically tiring work.\u201d This sustained physical effort is the key."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "<strong>Difficult</strong> fits perfectly: sustained physical work spanning weeks makes a process difficult. <strong>Rapid</strong> directly contradicts the timeframe given, and <strong>cheap</strong> and <strong>common</strong> lack support from the passage. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "433184f1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite with common denominator",
+      "content": "To combine the fractions, rewrite each with the common denominator $(4x-5)(x+1)$:<br/><br/>$$\\frac{4}{4x-5} - \\frac{1}{x+1} = \\frac{4(x+1)}{(4x-5)(x+1)} - \\frac{4x-5}{(x+1)(4x-5)}$$"
+    },
+    {
+      "title": "Combine numerators and simplify",
+      "content": "Subtract the numerators over the common denominator:<br/><br/>$$\\frac{4(x+1) - (4x-5)}{(4x-5)(x+1)}$$<br/><br/>Expand and simplify:<br/><br/>$$\\frac{4x + 4 - 4x + 5}{(4x-5)(x+1)} = \\frac{9}{(x+1)(4x-5)}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

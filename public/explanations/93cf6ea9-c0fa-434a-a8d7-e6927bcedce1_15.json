@@ -1,0 +1,15 @@
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical consequence",
+      "content": "The passage contrasts the advantage of lab studies (controlling variables) with the reality that white-throated sparrows' surroundings <strong>significantly affect their hormones</strong>. Given this contrast, the \u201cnot altogether surprising\u201d finding would logically be what naturally follows: measurable differences between captive (lab-studied) and wild-studied sparrows."
+    },
+    {
+      "title": "Match to the answer",
+      "content": "Choice D directly shows this: baseline corticosterone is <strong>higher in captive sparrows than in wild sparrows</strong>. A, B, and C either misidentify the comparison, contradict the environmental significance premise, or describe within-group variation instead of between-setting differences. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

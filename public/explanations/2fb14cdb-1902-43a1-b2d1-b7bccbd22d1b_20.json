@@ -1,0 +1,19 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the condition and restricted sample space",
+      "content": "<strong>At least 10 years of age</strong> means participants aged 10\u201319 or 20+. Looking at the table totals for these age ranges: 10\u201319 has 30 participants, 20+ has 30 participants. Total restricted sample: <strong>60 participants</strong>."
+    },
+    {
+      "title": "Count Group A within the restricted sample",
+      "content": "From the table, Group A has 11 participants aged 10\u201319 and 4 participants aged 20+. Total Group A participants at least 10 years old: $11 + 4 = 15$."
+    },
+    {
+      "title": "Apply conditional probability formula",
+      "content": "$$P(A \\mid \\text{at least 10}) = \\frac{15}{60} = \\frac{1}{4}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

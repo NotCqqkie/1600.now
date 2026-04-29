@@ -1,0 +1,15 @@
+{
+  "questionId": "8df848c1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The sentence has an independent clause <strong>('The Bishop of Ostia... condemned the eating utensils')</strong> followed by a noun phrase acting as the object of 'considered.' The blank serves as the direct object pronoun."
+    },
+    {
+      "title": "Match the pronoun to the antecedent",
+      "content": "The pronoun must refer to 'eating utensils,' a plural noun. <strong>Only 'them'</strong> agrees in number and functions as an object pronoun. The other choices ('this,' 'that,' 'it') are singular and would mismatch the plural antecedent. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

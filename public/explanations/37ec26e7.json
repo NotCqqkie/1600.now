@@ -1,0 +1,15 @@
+{
+  "questionId": "37ec26e7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the progression from need to agent",
+      "content": "The first sentence establishes what was needed: an accurate mathematical model. The second sentence identifies who performed the critical computational work. The key signal is the progression from stated need to specific agent."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Ultimately fits perfectly\u2014it moves from the initial need to Gladys West, who wrote the program to perform the necessary calculations. The other three choices either restate information, introduce an inappropriate list structure, or treat the information as merely supplementary. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

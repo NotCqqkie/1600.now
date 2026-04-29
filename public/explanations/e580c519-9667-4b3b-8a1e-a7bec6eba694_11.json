@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim about wireless devices",
+      "content": "The text emphasizes that \u201csteady energy loads\u201d are an \u201cabsolute prerequisite\u201d \u2014 establishing that wireless communication devices require consistent, stable electrical supply to operate."
+    },
+    {
+      "title": "Find evidence that validates this requirement",
+      "content": "Choice B directly validates the claim by showing that wireless devices become unreliable without steady power, proving they need the prerequisite the text identifies. Choices A and C contradict the passage, and Choice D explains a mechanism rather than proving necessity. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

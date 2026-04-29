@@ -1,0 +1,11 @@
+{
+  "questionId": "c99d154a",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the y-intercept on the graph",
+      "content": "The y-intercept is where the graph crosses the y-axis, which occurs at x = 0. Reading directly from the graph at x = 0, the curve passes through the point (0, 3). The y-coordinate of the y-intercept is <strong>3</strong>."
+    }
+  ]
+}

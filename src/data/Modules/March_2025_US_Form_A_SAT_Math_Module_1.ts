@@ -129,40 +129,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_5",
-    "testName": "March 2025 US Form A SAT Math Module 1",
-    "text": "In the right triangle shown, what is the value of $x$?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "$\\sqrt{58}$"
-      },
-      {
-        "id": "B",
-        "text": "$\\sqrt{116}$"
-      },
-      {
-        "id": "C",
-        "text": "$\\sqrt{720}$"
-      },
-      {
-        "id": "D",
-        "text": "$\\sqrt{1,924}$"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice B is correct. It's given that angle $Z$ in triangle $XYZ$ is a right angle. Thus, side $YZ$ is the leg opposite angle $X$ and side $XZ$ is the leg adjacent to angle $X$. The tangent of an acute angle in a right triangle is the ratio of the length of the leg opposite the angle to the length of the leg adjacent to the angle. It follows that $\\tanX=\\frac{YZ}{XZ}$. It's given that $\\tanX=\\frac{12}{35}$ and the length of side $YZ$ is $24$ units. Substituting $\\frac{12}{35}$ for $\\tanX$ and $24$ for $YZ$ in the equation $\\tanX=\\frac{YZ}{XZ}$ yields $\\frac{12}{35}=\\frac{24}{XZ}$. Multiplying both sides of this equation by $35\\left(XZ\\right)$ yields $12\\left(XZ\\right)=24\\left(35\\right)$, or $12\\left(XZ\\right)=840$. Dividing both sides of this equation by $12$ yields $XZ=70$. The length $XY$ can be calculated using the Pythagorean theorem, which states that if a right triangle has legs with lengths of $a$ and $b$ and a hypotenuse with length $c$, then ${a}^{2}+{b}^{2}={c}^{2}$. Substituting $70$ for $a$ and $24$ for $b$ in this equation yields ${70}^{2}+{24}^{2}={c}^{2}$, or $5,476={c}^{2}$. Taking the square root of both sides of this equation yields $\\pm74=c$. Since the length of the hypotenuse must be positive, $74=c$. Therefore, the length of $XY$ is $74$ units. The perimeter of a triangle is the sum of the lengths of all sides. Thus, $\\left(74+70+24\\right)$ units, or $168$ units, is the perimeter of triangle $XYZ$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect. This would be the perimeter, in units, for a right triangle where the length of side $YZ$ is $12$ units, not $24$ units.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+      "id": "a4c0547f",
+      "testName": "SAT Question Bank",
+      "text": "In triangle $XYZ$, angle $Z$ is a right angle and the length of $YZ¯$ is $24$ units. If $\\tan X=\\frac{12}{35}$, what is the perimeter, in units, of triangle $XYZ$?",
+      "correctAnswer": "B",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "$188$"
+          },
+          {
+              "id": "B",
+              "text": "$168$"
+          },
+          {
+              "id": "C",
+              "text": "$84$"
+          },
+          {
+              "id": "D",
+              "text": "$71$"
+          }
+      ]
   },
   {
     "section": "Math",
@@ -419,40 +413,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "9c629a63-5faf-46a6-929d-d4196f7c3150_15",
-    "testName": "March 2025 US Form A SAT Math Module 1",
-    "text": "$y\nWhich point $(x,y)$ is a solution to the given inequality in the xy-plane?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "(0,15)"
-      },
-      {
-        "id": "B",
-        "text": "(-1,17)"
-      },
-      {
-        "id": "C",
-        "text": "(-2,0)"
-      },
-      {
-        "id": "D",
-        "text": "(8,-1)"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice D is correct. All the tables in the choices have the same three values of $x$, $440$, $441$, and $442$, so each of the three values of $x$ can be substituted in the given inequality to compare the corresponding values of $y$ in each of the tables. Substituting $440$ for $x$ in the given inequality yields $2\\left(440\\right)-y>883$, or $880-y>883$. Subtracting $880$ from both sides of this inequality yields $-y>3$. Dividing both sides of this inequality by $-1$ yields $y<-3$. Therefore, when $x=440$, the corresponding value of $y$ must be less than $-3$. Substituting $441$ for $x$ in the given inequality yields $2\\left(441\\right)-y>883$, or $882-y>883$. Subtracting $882$ from both sides of this inequality yields $-y>1$. Dividing both sides of this inequality by $-1$ yields $y<-1$. Therefore, when $x=441$, the corresponding value of $y$ must be less than $-1$. Substituting $442$ for $x$ in the given inequality yields $2\\left(442\\right)-y>883$, or $884-y>883$. Subtracting $884$ from both sides of this inequality yields $-y>-1$. Dividing both sides of this inequality by $-1$ yields $y<1$. Therefore, when $x=442$, the corresponding value of $y$ must be less than $1$. For the table in choice D, when $x=440$, the corresponding value of $y$ is $-4$, which is less than $-3$; when $x=441$, the corresponding value of $y$ is $-2$, which is less than $-1$; when $x=442$, the corresponding value of $y$ is $0$, which is less than $1$. Therefore, the table in choice D gives values of $x$ and their corresponding values of $y$ that are all solutions to the given inequality.\nChoice A is incorrect. When $x=440$, the corresponding value of $y$ in this table is $0$, which isn't less than $-3$.\nChoice B is incorrect. When $x=440$, the corresponding value of $y$ in this table is $0$, which isn't less than $-3$.\nChoice C is incorrect. When $x=440$, the corresponding value of $y$ in this table is $-2$, which isn't less than $-3$.",
+      "id": "e723bd67",
+      "testName": "SAT Question Bank",
+      "text": "$2x-y>883$\nFor which of the following tables are all the values of $x$ and their corresponding values of $y$ solutions to the given inequality?",
+      "correctAnswer": "D",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "<table class=\"cb-table\"><thead><tr><th scope=\"col\" style=\"text-align: center\">x</th><th scope=\"col\" style=\"text-align: center\">y</th></tr></thead><tbody><tr><td style=\"text-align: center\">440</td><td style=\"text-align: center\">0</td></tr><tr><td style=\"text-align: center\">441</td><td style=\"text-align: center\">-2</td></tr><tr><td style=\"text-align: center\">442</td><td style=\"text-align: center\">-4</td></tr></tbody></table>"
+          },
+          {
+              "id": "B",
+              "text": "<table class=\"cb-table\"><thead><tr><th scope=\"col\" style=\"text-align: center\">x</th><th scope=\"col\" style=\"text-align: center\">y</th></tr></thead><tbody><tr><td style=\"text-align: center\">440</td><td style=\"text-align: center\">0</td></tr><tr><td style=\"text-align: center\">442</td><td style=\"text-align: center\">-2</td></tr><tr><td style=\"text-align: center\">441</td><td style=\"text-align: center\">-4</td></tr></tbody></table>"
+          },
+          {
+              "id": "C",
+              "text": "<table class=\"cb-table\"><thead><tr><th scope=\"col\" style=\"text-align: center\">x</th><th scope=\"col\" style=\"text-align: center\">y</th></tr></thead><tbody><tr><td style=\"text-align: center\">442</td><td style=\"text-align: center\">0</td></tr><tr><td style=\"text-align: center\">440</td><td style=\"text-align: center\">-2</td></tr><tr><td style=\"text-align: center\">441</td><td style=\"text-align: center\">-4</td></tr></tbody></table>"
+          },
+          {
+              "id": "D",
+              "text": "<table class=\"cb-table\"><thead><tr><th scope=\"col\" style=\"text-align: center\">x</th><th scope=\"col\" style=\"text-align: center\">y</th></tr></thead><tbody><tr><td style=\"text-align: center\">442</td><td style=\"text-align: center\">0</td></tr><tr><td style=\"text-align: center\">441</td><td style=\"text-align: center\">-2</td></tr><tr><td style=\"text-align: center\">440</td><td style=\"text-align: center\">-4</td></tr></tbody></table>"
+          }
+      ]
   },
   {
     "section": "Math",

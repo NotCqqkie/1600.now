@@ -1,0 +1,15 @@
+{
+  "questionId": "5377d9cf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -1",
+      "content": "Replace every instance of $x$ with $-1$:<br/>$$f(-1) = \\frac{(-1)^2 - 6(-1) + 3}{-1 - 1}$$"
+    },
+    {
+      "title": "Evaluate numerator and denominator, then divide",
+      "content": "<strong>Numerator:</strong> $(-1)^2 - 6(-1) + 3 = 1 + 6 + 3 = 10$<br/><strong>Denominator:</strong> $-1 - 1 = -2$<br/>$$f(-1) = \\frac{10}{-2} = -5$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

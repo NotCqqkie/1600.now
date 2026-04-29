@@ -1,0 +1,15 @@
+{
+  "questionId": "4a07be59",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core of the conclusion",
+      "content": "The team concluded that <em>anatomical features</em> affect dogs' ability to <em>distinguish speech from nonspeech</em>. This is the precise claim being tested \u2014 not language familiarity, not one language from another, but the ability to detect whether a sound is human speech or not. Any supporting finding must link a specific anatomical difference to this speech-versus-nonspeech distinction."
+    },
+    {
+      "title": "Match the finding to the anatomical-speech distinction",
+      "content": "Choice B directly shows that dogs with different head shapes (an anatomical feature) differ in how well they separate their brain responses to language recordings from their responses to scrambled nonspeech. Longer-headed dogs show a <em>greater difference</em> between speech and nonspeech; shorter-headed dogs show less. This directly ties anatomy to the ability to detect speech from nonspeech.<br/><br/>The other choices fall short: A only compares brain activity within long-headed dogs across familiar languages, not the speech-nonspeech distinction. C mixes incompatible conditions (scrambled nonspeech with familiar language in different head types). D tests discrimination between two languages, not language from nonspeech. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

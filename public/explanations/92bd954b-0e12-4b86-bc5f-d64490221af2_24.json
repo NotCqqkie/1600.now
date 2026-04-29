@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage establishes 1931 as the moment scientists assumed androsterone existed only in animals, then closes with \u201cbut this discovery wouldn't come until decades later.\u201d The blank must introduce a future discovery that contradicts the 1931 assumption."
+    },
+    {
+      "title": "Match the transition",
+      "content": "\u201dEventually\u201d signals a future discovery decades after 1931. The other three miss the temporal progression: \u201cFor example\u201d illustrates rather than advances time, \u201cIn other words\u201d rephrases, and \u201cEarlier\u201d moves backward. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

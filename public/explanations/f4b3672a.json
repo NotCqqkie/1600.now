@@ -1,0 +1,19 @@
+{
+  "questionId": "f4b3672a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the sample mean",
+      "content": "Add all five tree counts and divide by 5:<br/>Sum = 51 + 59 + 45 + 52 + 73 = 280<br/>Mean = 280 \u00f7 5 = 56 trees per acre"
+    },
+    {
+      "title": "Estimate total trees in the forest",
+      "content": "Multiply the sample mean by the total forest size:<br/>$$56 \\text{ trees/acre} \\times 253 \\text{ acres}$$<br/>Break it into parts: $56 \\times 250 = 14,000$ and $56 \\times 3 = 168$<br/>Total estimate = 14,000 + 168 = 14,168 trees"
+    },
+    {
+      "title": "Identify the matching range",
+      "content": "Check which range contains 14,168:<br/><ul><li>A: 11,000\u201312,000 \u2014 too low</li><li>B: 12,500\u201313,500 \u2014 too low</li><li>C: 13,500\u201314,500 \u2014 includes 14,168 \u2713</li><li>D: 18,000\u201319,000 \u2014 too high</li></ul>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

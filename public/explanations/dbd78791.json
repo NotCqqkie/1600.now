@@ -1,0 +1,15 @@
+{
+  "questionId": "dbd78791",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the compound predicate structure",
+      "content": "The sentence has a single subject \u201cthe Sherpas\u201d with two coordinated verbs: \u201cpack up their telescopes\u201d and \u201c______ ready,\u201d joined by \u201cand.\u201d"
+    },
+    {
+      "title": "Apply parallel tense rule",
+      "content": "Coordinated verbs sharing the same subject must be in the same tense. \u201cPack\u201d is simple present tense, so the blank requires simple present; \u201cget\u201d matches this tense. The other options use different tenses\u2014past perfect, simple past, and past progressive\u2014violating the parallel structure requirement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

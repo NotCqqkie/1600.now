@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the decisive clue in Colquhoun's finding",
+      "content": "The passage explicitly states that Colquhoun found lunar intensity to be <strong>\u201cpositively associated\u201d</strong> with foraging by black lemurs. This phrase is the key signal\u2014<strong>positively associated</strong> means both variables increase together."
+    },
+    {
+      "title": "Match 'positively associated' to the correct answer",
+      "content": "Positively associated means that as lunar intensity increases, black lemurs' foraging activity increases\u2014which is exactly what choice A states. The other choices describe a different animal's behavior, shift the finding into a between-species comparison, or introduce details not in the passage. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

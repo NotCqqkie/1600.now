@@ -1,0 +1,15 @@
+{
+  "questionId": "7f84b136",
+  "correctAnswer": "184",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the problem statement",
+      "content": "The problem states that group C is p% of group A. This means: $$C = \\frac{p}{100} \\cdot A$$ From the table, C = 690 and A = 375, so: $$690 = \\frac{p}{100} \\cdot 375$$"
+    },
+    {
+      "title": "Solve for p",
+      "content": "Isolate p by multiplying both sides by 100 and dividing by 375: $$p = \\frac{690}{375} \\cdot 100$$ To simplify the fraction, divide numerator and denominator by their GCD of 15: $$\\frac{690}{375} = \\frac{46}{25}$$ Therefore: $$p = \\frac{46}{25} \\cdot 100 = \\frac{4600}{25} = 184$$"
+    }
+  ]
+}

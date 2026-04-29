@@ -1,0 +1,15 @@
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the noun needing modification",
+      "content": "The blank comes after \u201cnonpresidents\u201d in the phrase \u201cone of many nonpresidents ______ on US currency.\u201d A noun in this position needs a verb form to describe what the noun is or does. The structure suggests a reduced relative clause\u2014shortened from \u201cnonpresidents who appear.\u201d"
+    },
+    {
+      "title": "Apply the infinitive form",
+      "content": "The infinitive <strong>to appear</strong> completes the standard pattern \u201cone of many [noun] to [verb],\u201d giving us \u201cone of many nonpresidents to appear on US currency\u201d\u2014establishing Morris as one of many nonpresidents whose image appears on currency. The finite verb forms (appears, did appear, had appeared) don't fit this construction and create grammatically incorrect structures. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

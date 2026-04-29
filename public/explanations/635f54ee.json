@@ -1,0 +1,23 @@
+{
+  "questionId": "635f54ee",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the surface area formula for a cube",
+      "content": "A cube with side length $s$ has 6 square faces. Its total surface area is:<br/>$$\\text{Surface Area} = 6s^2$$"
+    },
+    {
+      "title": "Set the given surface area equal to the formula",
+      "content": "We are given that the surface area is $6\\left(\\frac{a}{4}\\right)^2$. Therefore:<br/>$$6s^2 = 6\\left(\\frac{a}{4}\\right)^2$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Divide both sides by 6:<br/>$$s^2 = \\left(\\frac{a}{4}\\right)^2$$<br/>Since $a$ is positive, taking the positive square root yields:<br/>$$s = \\frac{a}{4}$$"
+    },
+    {
+      "title": "Calculate the perimeter of one face",
+      "content": "Each face is a square with side length $\\frac{a}{4}$. The perimeter of a square is 4 times the side length:<br/>$$P = 4 \\cdot \\frac{a}{4} = a$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

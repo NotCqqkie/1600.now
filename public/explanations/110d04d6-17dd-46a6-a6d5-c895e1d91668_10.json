@@ -1,0 +1,15 @@
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the expected relationship between temperature and isotopic signature",
+      "content": "The passage establishes that deeper water contains both more oxygen-18 and has lower temperature. Since the researchers concluded that M23 formed at 14.0\u00b0C (cold) and F02 at 20.8\u00b0C (warm), the colder septum M23 should contain more oxygen-18 than the warmer septum F02."
+    },
+    {
+      "title": "Find what contradicts this expected pattern",
+      "content": "Choice B states that F02 has higher oxygen-18 than M23, reversing the expected relationship where the colder sample should have more oxygen-18. The other choices either support this expected pattern or are neutral to the researchers' conclusions. This direct contradiction undermines the reliability of using isotopic signature to determine temperature, weakening the basis of their conclusion. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

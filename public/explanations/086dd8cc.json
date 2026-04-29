@@ -1,0 +1,15 @@
+{
+  "questionId": "086dd8cc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the genetic redistribution",
+      "content": "The key clue is the gene expression pattern: <strong>anterior genes active throughout the entire body, posterior genes limited to the edges</strong>."
+    },
+    {
+      "title": "Interpret the genetic shift",
+      "content": "The anterior region expands throughout the body while posterior shrank to the margins\u2014sea stars evolved to expand the head and eliminate the trunk, inverting the traditional head-loss assumption. The other choices misread the genetic distribution, deny the bilateral ancestor relationship, or falsely claim genetic correspondence doesn't exist. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

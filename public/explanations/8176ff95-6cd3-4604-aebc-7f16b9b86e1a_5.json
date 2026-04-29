@@ -1,0 +1,15 @@
+{
+  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the perimeter of the rectangle",
+      "content": "A rectangle has four edges: two lengths of $x$ feet each and two widths of $y$ feet each. Fencing along each edge means covering the entire perimeter: $x + x + y + y = 2x + 2y$ feet."
+    },
+    {
+      "title": "Set the perimeter equal to the total fencing",
+      "content": "Hassan used 44 feet of fencing, so:<br/>$$2x + 2y = 44$$That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

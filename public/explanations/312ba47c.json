@@ -1,0 +1,15 @@
+{
+  "questionId": "312ba47c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the proportion using the given ratio",
+      "content": "The ratio of black to red pens is <strong>8 : 1</strong>. Since there are 40 black pens, we can set up the proportion:<br/><br/>$$\\frac{\\text{black}}{\\text{red}} = \\frac{8}{1} = \\frac{40}{x}$$<br/><br/>where $x$ is the number of red pens we need to find."
+    },
+    {
+      "title": "Cross multiply and solve",
+      "content": "Cross multiplying:<br/><br/>$$8x = 40$$<br/><br/>Divide both sides by 8:<br/><br/>$$x = 5$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

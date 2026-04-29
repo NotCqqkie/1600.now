@@ -1,0 +1,15 @@
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the depth contrast",
+      "content": "The passage notes that female sample F07\u2019s oxygen\u201118 level matches water about 135\u202fm deep, while male sample M24\u2019s matches water about 370\u202fm deep, implying F07 formed higher in the column than M24."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A states that sex does not affect oxygen\u201118 uptake or deposition, so the observed difference in isotope levels can be read purely as a depth difference, directly backing the conclusion. The other three either introduce a sex\u2011based effect, discuss unrelated growth rates, or give a general depth habit that does not link sex to the isotope measurement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

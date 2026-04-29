@@ -1,0 +1,15 @@
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun and relative clause",
+      "content": "The blank sits after the article <strong>a</strong> and before the relative clause <strong>who was not the first to construct the device</strong>, so it must be a noun that the relative clause describes.<br/>Thus we are looking for a noun like \u201cnatural philosopher\u201d that can be followed by that who\u2011clause."
+    },
+    {
+      "title": "Apply punctuation rule for the appositive",
+      "content": "The phrase <strong>in this case, Henry Cavendish</strong> is non\u2011restrictive extra information, so it needs matching delimiters on both sides.<br/>Only choice D uses opening and closing dashes: <strong>natural philosopher\u2014in this case, Henry Cavendish\u2014</strong>, correctly setting off the appositive.<br/>The other choices either use only one dash, a comma, or a colon, breaking the matching\u2011delimiter rule.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

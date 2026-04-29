@@ -1,0 +1,15 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_5",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2 into the function",
+      "content": "To find $f(2)$, replace $x$ with 2 in the function definition $f(x) = x^3 + 27$:<br/>$$f(2) = 2^3 + 27$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Calculate $2^3 = 8$, then add 27:<br/>$$f(2) = 8 + 27 = 35$$"
+    }
+  ]
+}

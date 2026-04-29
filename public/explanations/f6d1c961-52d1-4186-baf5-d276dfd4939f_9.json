@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the key insight",
+      "content": "Brown's finding centers on this mechanism: high moonlight increases the chance of detection by predators, but it does not increase the mice's foraging success enough to compensate for that increased risk."
+    },
+    {
+      "title": "Match the mechanism to the answer",
+      "content": "C identifies this exact mechanism: the mice reduce activity because predators detect them more easily (increased risk) while \u201csuch conditions do not benefit the mice enough to justify that risk\u201d (benefit does not offset risk). A contradicts the finding, B introduces an irrelevant species comparison, and D misattributes the monkeys' opposite response. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

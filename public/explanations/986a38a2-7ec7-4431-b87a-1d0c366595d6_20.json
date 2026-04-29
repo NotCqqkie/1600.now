@@ -1,0 +1,15 @@
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side",
+      "content": "Before the blank is an independent clause: \u201cThe extensive impact that polymeric nanoparticles (PNPs) have had on medicine belies their minuscule size.\u201d After the comma comes \u201cthe nanoparticles typically ______ from 100 to 300 billionths of a meter\u201d \u2014 which could be either an independent clause (with a finite verb) or a participial phrase (with a participle)."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A comma cannot separate two independent clauses. The participle \u201cranging\u201d creates a participial phrase \u2014 which is not an independent clause \u2014 and can correctly be set off by a comma. Finite verbs (range, can range, will range) would create second independent clauses, producing comma splices. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

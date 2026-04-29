@@ -1,0 +1,15 @@
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the gap: current barrier vs. needed solutions",
+      "content": "The passage's key signal is the explicit contrast: \u201cnot yet commercially viable as a large-scale energy source\u201d immediately followed by \u201cTo meet this challenge, scientists from many fields are researching ways to...\u201d This structure\u2014identifying a barrier, then describing research efforts to overcome it\u2014anchors the main idea."
+    },
+    {
+      "title": "Match the gap to the correct answer",
+      "content": "Choice A directly identifies what the passage emphasizes: continued research is necessary before commercial viability and widespread use can occur. The other three fail by either reversing the \u201cnot yet viable\u201d statement (B) or focusing on isolated technical details rather than the central adoption barrier (C and D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

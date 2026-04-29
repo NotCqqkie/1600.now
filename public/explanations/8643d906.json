@@ -1,0 +1,15 @@
+{
+  "questionId": "8643d906",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the equation components",
+      "content": "Since $t$ represents years after 1990, the input $t = 30$ corresponds to the year $1990 + 30 = 2020$. The output $P(30) = 550$ indicates the population value is 550."
+    },
+    {
+      "title": "Match to the correct interpretation",
+      "content": "The equation $P(30) = 550$ predicts that the snow leopard population is 550 in the year 2020. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

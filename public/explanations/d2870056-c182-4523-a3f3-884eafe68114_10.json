@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the GCF of all terms",
+      "content": "The expression has two terms: $7x^3$ and $56x^2$. The GCF of the coefficients 7 and 56 is 7; the GCF of the variables $x^3$ and $x^2$ is $x^2$. Therefore, the overall GCF is $7x^2$."
+    },
+    {
+      "title": "Factor out the GCF",
+      "content": "Divide each term by $7x^2$:<br/>$$7x^3 \\div 7x^2 = x$$<br/>$$56x^2 \\div 7x^2 = 8$$<br/><br/>Therefore: $$7x^3 + 56x^2 = 7x^2(x + 8)$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

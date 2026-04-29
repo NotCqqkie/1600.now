@@ -1,0 +1,15 @@
+{
+  "questionId": "a086c2cb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the text's structure",
+      "content": "The passage describes a process in sequence: water is pumped when demand is low, stored, and then released when demand peaks to generate electricity. This step-by-step walkthrough of a mechanism\u2014input, process, output\u2014is the text's dominant structure."
+    },
+    {
+      "title": "Match the structure to the purpose",
+      "content": "Choice B directly matches what the passage does: it explains the basics of how a specific energy technology works. Choices A, C, and D fail because the passage makes no comparison between energy methods, contains no persuasive language urging utilities to build more facilities, and doesn't discuss benefits versus drawbacks. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2c4cd76d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures around the blank",
+      "content": "Before the blank, you have a dependent clause: \u201cwhen searching for food.\u201d After the blank, starting with \u201cin the Northern Hemisphere,\u201d you have an independent clause: \u201cthe magnetic field points down, into the ground, but in the Southern Hemisphere, it points up...\u201d The task is to link a dependent clause to an independent clause that explains the first idea."
+    },
+    {
+      "title": "Apply the punctuation rule for explanation",
+      "content": "A colon introduces an explanation or elaboration. Here, the magnetic field information <em>explains</em> why the worms move opposite to the field when searching for food\u2014because field orientation differs between hemispheres. Using a colon after \u201cfood:\u201d makes this causal link explicit. B (comma) creates a comma splice: a comma alone cannot separate an introductory phrase (\u201cin the Northern Hemisphere\u201d) from the independent clause (\u201cthe magnetic field points down\u201d). C (\u201cwhile\u201d) is grammatically possible but awkward and redundant since the temporal relationship is already clear from \u201cwhen.\u201d D (no punctuation) leaves the relationship between the two ideas ambiguous. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

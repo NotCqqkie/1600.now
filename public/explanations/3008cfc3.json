@@ -1,0 +1,19 @@
+{
+  "questionId": "3008cfc3",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the value of k using the y-intercept property",
+      "content": "The y-intercept occurs where $x = 0$. Since the y-intercept is $(k-5, b)$, we need $k - 5 = 0$, which gives $k = 5$. <br/> Substituting $k = 5$ into the table, the two points are $(5, 13)$ and $(5+7, -15) = (12, -15)$."
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "Using the two points $(5, 13)$ and $(12, -15)$:<br/> $$m = \\frac{-15 - 13}{12 - 5} = \\frac{-28}{7} = -4$$"
+    },
+    {
+      "title": "Find the y-coordinate of the y-intercept",
+      "content": "Using point-slope form with point $(5, 13)$ and slope $-4$:<br/> $$y - 13 = -4(x - 5)$$<br/> At the y-intercept where $x = 0$:<br/> $$y - 13 = -4(0 - 5) = 20$$<br/> $$y = 33$$<br/> Therefore, $b = 33$."
+    }
+  ]
+}

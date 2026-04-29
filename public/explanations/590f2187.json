@@ -1,0 +1,15 @@
+{
+  "questionId": "590f2187",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor to expose the target expression",
+      "content": "Notice that $3x - 27$ can be factored as $3(x - 9)$. Since we need to find $x - 9$, not $x$, this factorization gives us a shortcut. The equation becomes: $$3(x - 9) = 24$$"
+    },
+    {
+      "title": "Isolate x minus 9",
+      "content": "Divide both sides by 3: $$x - 9 = \\frac{24}{3} = 8$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

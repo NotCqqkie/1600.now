@@ -1,0 +1,15 @@
+{
+  "questionId": "5c73f0cc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the highest bar on the graph",
+      "content": "The question asks for <em>\u201cthe highest percentage of lithium recovered in the tests.\u201d</em> Scanning the four bars across both battery types and processes, the dark bar representing Process 2 for Type B extends highest on the y-axis, reaching near the 80% gridline."
+    },
+    {
+      "title": "Match the peak value to the answer choices",
+      "content": "The Type B, Process 2 bar reaches approximately 76% lithium recovered. Among the choices given, 75% is closest to this peak value. The other three options (10%, 20%, and 45%) correspond to values from the lower bars on the chart. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures of each choice",
+      "content": "Choices A and B present a noun + finite verb (asserted, were asserting). Choice C presents a noun + comma + finite verb (had asserted). Choice D presents a noun + comma + participle (asserting). Since the main verb <strong>helped</strong> appears later in the sentence, the blank must not introduce another finite verb that would create structural ambiguity."
+    },
+    {
+      "title": "Apply the comma rule for participial modifiers",
+      "content": "A comma separates a noun from a participial phrase modifying it. Choice D correctly uses <strong>authors, asserting that American publishers' appropriation of their work caused \u201cdeep and extensive injuries...,\u201d</strong> where the participle modifies the noun and <strong>helped</strong> remains the sole main verb. Choices A and B introduce a second finite verb, creating ambiguity. Choice C misuses the comma before a finite verb, which doesn't follow the participial modifier rule. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

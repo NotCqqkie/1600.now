@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "After describing an analytical method, the text reveals its conclusion. The transition must mark this progression."
+    },
+    {
+      "title": "Match to the outcome",
+      "content": "\u201dUltimately\u201d signals a concluding thought\u2014the final finding after an investigation. In this sentence, it fits: after describing the OSL analysis, \u201cUltimately, OSL dating indicated...\u201d presents the conclusion of that analysis. The other three either introduce parallels (Similarly), add information (In addition), or require comparison (By comparison), none of which signal a conclusion after a process. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

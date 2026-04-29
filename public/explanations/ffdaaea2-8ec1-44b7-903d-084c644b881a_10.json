@@ -1,0 +1,19 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value expression",
+      "content": "Start with $-4|5x+6|+4=-20$. Subtract 4 from both sides to get $-4|5x+6|=-24$. Divide both sides by -4: $$|5x+6|=6$$"
+    },
+    {
+      "title": "Split into two cases using the absolute value definition",
+      "content": "When $|A| = 6$, the expression inside equals either 6 or $-6$. Set up both cases: $$5x+6=6 \\quad \\text{or} \\quad 5x+6=-6$$"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "From $5x+6=6$: Subtract 6 gives $5x=0$, so $x=0$.<br/>From $5x+6=-6$: Subtract 6 gives $5x=-12$, so $x=-\\frac{12}{5}$.<br/><br/>The two solutions are $x=0$ and $x=-\\frac{12}{5}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

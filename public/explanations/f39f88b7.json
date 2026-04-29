@@ -1,0 +1,15 @@
+{
+  "questionId": "f39f88b7",
+  "correctAnswer": "1800",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the triangle area formula",
+      "content": "For any triangle: $A = \\frac{1}{2} \\times base \\times height$"
+    },
+    {
+      "title": "Substitute and calculate",
+      "content": "With base $= 40$ cm and height $= 90$ cm:<br/>$$A = \\frac{1}{2} \\times 40 \\times 90 = 20 \\times 90 = 1800 \\text{ square centimeters}$$"
+    }
+  ]
+}

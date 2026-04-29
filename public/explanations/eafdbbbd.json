@@ -1,0 +1,19 @@
+{
+  "questionId": "eafdbbbd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for the common binomial",
+      "content": "The term $(x+5)$ appears in both fractions. Let $u = x + 5$. The equation becomes:<br/>$$\\frac{1}{4}u - \\frac{1}{3}u = -7$$"
+    },
+    {
+      "title": "Combine fractions on the left",
+      "content": "Find a common denominator for the fractions. The LCD of 4 and 3 is 12:<br/>$$\\frac{3}{12}u - \\frac{4}{12}u = -7$$<br/>$$-\\frac{1}{12}u = -7$$"
+    },
+    {
+      "title": "Solve for u, then substitute back",
+      "content": "Multiply both sides by $-12$:<br/>$$u = 84$$<br/>Now substitute back $u = x + 5$:<br/>$$x + 5 = 84$$<br/>$$x = 79$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

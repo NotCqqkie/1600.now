@@ -1,0 +1,21 @@
+{
+  "questionId": "4f8bd093",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate x",
+      "content": "Simplify the equation 16x + 24 = 24x by subtracting 16x from both sides.<br/>$$\\begin{align*} 16x+24 &= 24x \\\\ 24 &= 24x - 16x \\\\ 24 &= 8x \\end{align*}$$",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 8 to find the value of x.<br/>$$x = \\frac{24}{8}$$<br/>&nbsp;That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

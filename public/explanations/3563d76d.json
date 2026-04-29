@@ -1,0 +1,15 @@
+{
+  "questionId": "3563d76d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize similar triangles and write the proportion",
+      "content": "When the sun creates shadows at the same time of day, the sun's angle is the same for both objects. The Washington Monument, its shadow, and the sun's rays form a triangle similar to the triangle formed by the cherry tree, its shadow, and the sun's rays. For similar triangles, the ratio of height to shadow length must be equal: <br/><br/> $$\\frac{\\text{Monument height}}{\\text{Monument shadow}} = \\frac{\\text{Tree height}}{\\text{Tree shadow}}$$ <br/><br/> $$\\frac{555}{300} = \\frac{h}{16}$$"
+    },
+    {
+      "title": "Solve for the tree's height",
+      "content": "Cross multiply to solve for $h$: <br/><br/> $$555 \\times 16 = 300h$$ <br/><br/> $$8880 = 300h$$ <br/><br/> $$h = \\frac{8880}{300} = 29.6 \\text{ feet}$$ <br/><br/> The value 29.6 feet is closest to 30 feet. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

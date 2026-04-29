@@ -1,0 +1,15 @@
+{
+  "questionId": "4837406c",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship",
+      "content": "The relationship between distance, speed, and time for constant speed is $$d = vt$$."
+    },
+    {
+      "title": "Compute the time",
+      "content": "Solve for time: $$t = \\frac{d}{v}$$. Substitute $$d = 24\\text{ cm}$$ and $$v = 6\\text{ cm/s}$$: $$t = \\frac{24}{6} = 4\\text{ seconds}$$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

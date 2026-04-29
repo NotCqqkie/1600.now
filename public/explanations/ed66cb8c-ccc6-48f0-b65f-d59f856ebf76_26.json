@@ -1,0 +1,15 @@
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'an example' requires",
+      "content": "The goal explicitly asks for <strong>an example of a particle physicist</strong>\u2014a specific, named individual\u2014not a general statement about neutrinos or research."
+    },
+    {
+      "title": "Match the requirement to the choices",
+      "content": "Choice C directly provides the example by naming Gianpaolo Bellini and identifying his specific research focus on solar and geoneutrinos. Choices A, B, and D all discuss neutrinos and related research without naming the particular physicist needed to serve as the example. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

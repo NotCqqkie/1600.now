@@ -1,0 +1,15 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equivalent ratios",
+      "content": "If the ratio 10 to 2 is equivalent to the ratio 40 to 2<em>k</em>, then the two ratios must be equal:<br/><br/>$$\\frac{10}{2} = \\frac{40}{2k}$$<br/><br/>Simplify the left side:<br/><br/>$$5 = \\frac{40}{2k}$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "Multiply both sides by 2<em>k</em> to isolate:<br/><br/>$$5 \\cdot 2k = 40$$<br/><br/>$$10k = 40$$<br/><br/>$$k = 4$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

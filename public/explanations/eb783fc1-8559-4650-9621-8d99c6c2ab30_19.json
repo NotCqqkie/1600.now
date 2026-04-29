@@ -1,0 +1,15 @@
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure at the blank",
+      "content": "The left side contains an independent clause ending with the noun \u201cmouthpiece.\u201d The right side begins another independent clause: \u201cA double reed contains...\u201d The blank must provide a relative clause that modifies \u201cmouthpiece.\u201d"
+    },
+    {
+      "title": "Apply the relative clause word order rule",
+      "content": "Relative clauses introduced by \u201cwhere\u201d require declarative word order: \u201cwhere sound is made\u201d (subject + verb). Choices B and D use interrogative inversion, which violates this rule; choice C uses the correct word order but ends with a question mark instead of a period. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

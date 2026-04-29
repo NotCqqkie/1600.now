@@ -1,0 +1,15 @@
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what weakens the prediction",
+      "content": "The student predicts that birds over 150 grams <strong>do not</strong> use deceptive defenses. To weaken this prediction, you need data showing a bird that is <strong>larger than 150 grams and does use</strong> broken-wing display \u2014 a direct contradiction of the prediction."
+    },
+    {
+      "title": "Match the data to the prediction",
+      "content": "The blue-winged teal in the table has a mean body mass of 398 grams, placing it well above the 150-gram threshold, yet it is listed among birds known to perform broken-wing display. This directly refutes the student's claim that large birds lack deceptive defenses. The other choices either identify only small birds (which support rather than weaken the prediction) or make unsupported claims about what birds do and don't perform. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

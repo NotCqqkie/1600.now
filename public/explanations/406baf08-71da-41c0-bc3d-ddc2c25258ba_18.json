@@ -1,0 +1,15 @@
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the list structure",
+      "content": "The blank separates <em>several</em> from three methods that must be introduced by punctuation: <em>exchanging information</em>, <em>linking maps</em>, and <em>maintaining a database</em>."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon introduces a list or elaboration\u2014exactly what's needed here. The period creates a sentence fragment from only prepositional phrases with no main verb; the semicolon requires independent clauses on both sides, but what follows is a list of methods, not an independent clause; and <em>ways by:</em> is ungrammatical. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

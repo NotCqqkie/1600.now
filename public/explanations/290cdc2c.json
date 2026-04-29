@@ -1,0 +1,16 @@
+{
+  "questionId": "290cdc2c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the fractional exponent rule",
+      "content": "A fractional exponent with numerator 1 always represents a root. Specifically, when you see $x^{1/n}$, this means the $n$-th root of $x$.",
+      "formula": "$$x^{1/n} = \\sqrt[n]{x}$$"
+    },
+    {
+      "title": "Apply the rule to the given expression",
+      "content": "We have $x^{1/14}$. Using the rule above with $n = 14$: $$x^{1/14} = \\sqrt[14]{x}$$ This is the 14th root of $x$, which matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

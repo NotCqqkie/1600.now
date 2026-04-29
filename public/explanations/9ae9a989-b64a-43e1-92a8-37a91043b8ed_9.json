@@ -1,0 +1,15 @@
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the lowest weight in the table",
+      "content": "The statement asks for the bear with the <strong>lowest approximate weight</strong>. Scanning the rightmost column (Approximate weight), the values are 400, 800, 375, and 200 pounds. The minimum value is 200 pounds."
+    },
+    {
+      "title": "Identify the bear's sex and age",
+      "content": "The bear weighing 200 pounds (bear 122) is listed as male and 3 years old. The other three choices describe bears with higher weights\u2014either 400, 800, or 375 pounds\u2014making them incorrect. This matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

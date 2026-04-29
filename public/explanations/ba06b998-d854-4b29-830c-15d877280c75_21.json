@@ -1,0 +1,19 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_21",
+  "correctAnswer": "1/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify angle A",
+      "content": "The right angle is at B (marked by the square). Angle C = 30\u00b0 is given. Since angles in a triangle sum to 180\u00b0, angle A = 180\u00b0 \u2212 90\u00b0 \u2212 30\u00b0 = 60\u00b0. This is a 30-60-90 special right triangle."
+    },
+    {
+      "title": "Apply 30-60-90 side ratios",
+      "content": "In a 30-60-90 triangle, sides opposite the angles are in ratio 1 : \u221a3 : 2 (opposite 30\u00b0 : 60\u00b0 : 90\u00b0). Side BC = 36\u221a3 is opposite angle A (the 60\u00b0 angle), matching the \u221a3 part of the ratio. The scale factor is 36\u221a3 \u00f7 \u221a3 = 36. Therefore, AB (opposite 30\u00b0) = 36 and AC (hypotenuse) = 36 \u00d7 2 = 72."
+    },
+    {
+      "title": "Calculate cos A",
+      "content": "Using the cosine ratio: $$\\cos A = \\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{AB}{AC} = \\frac{36}{72} = \\frac{1}{2}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

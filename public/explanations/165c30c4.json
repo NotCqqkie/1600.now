@@ -1,0 +1,16 @@
+{
+  "questionId": "165c30c4",
+  "correctAnswer": "2048",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the area formula and given values",
+      "content": "The area of a rectangle is found by multiplying length times width. We are given: length = 64 inches and width = 32 inches.",
+      "formula": "$$A = l \\times w$$"
+    },
+    {
+      "title": "Calculate the area by multiplication",
+      "content": "Substitute the values into the formula: $$A = 64 \\times 32 = 2048$$ The area of the rectangle is <strong>2048 square inches</strong>."
+    }
+  ]
+}

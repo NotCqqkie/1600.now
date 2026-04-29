@@ -1,0 +1,15 @@
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern between these age groups",
+      "content": "The question asks for a conclusion \u201cbest supported\u201d by the table\u2014meaning verifiable from actual numbers, not inference. Comparing age 50-64 with age 30-49: personal relationships increase (58% vs. 53%) while finances decrease (56% vs. 63%). This reversal is the decisive pattern."
+    },
+    {
+      "title": "Verify B's claim against the data",
+      "content": "Choice B correctly states that age 50-64 resolution makers are more likely to choose personal relationships <strong>(58% vs. 53%)</strong> and less likely to choose finances <strong>(56% vs. 63%)</strong> than age 30-49 makers. The other answers either assume unsupported overlap, confuse conditional percentages with population statistics, or reverse a comparison. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

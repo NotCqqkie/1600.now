@@ -1,0 +1,15 @@
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparison metric",
+      "content": "The question asks how the UK's decline compares across nations. The table provides percent change values\u2014this metric fairly compares declines across countries with different baseline hours."
+    },
+    {
+      "title": "Match the percent change data to the choices",
+      "content": "UK's percent decrease is 24%, compared to Germany (44%), Australia (21%), and Mexico (7%). Choice B states UK was less than Germany but greater than both Australia and Mexico\u2014exactly matching the data. The other choices reverse comparisons, switch to absolute hours, or incorrectly claim UK rose instead of declined. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

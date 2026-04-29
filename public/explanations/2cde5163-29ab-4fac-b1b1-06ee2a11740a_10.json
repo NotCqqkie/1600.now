@@ -1,0 +1,15 @@
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the target age category and year",
+      "content": "The question asks for members aged 14\u201317 in 1995. Scan the table's row labels to find the category that exactly matches this age range: \u201cSeniors (14\u201317 years).\u201d Then find the 1995 column."
+    },
+    {
+      "title": "Read the value at the intersection",
+      "content": "The Seniors (14\u201317 years) row in the 1995 column contains 52. The other options either misread a different year (45 is Seniors in 1994) or pull from a different category entirely (727 is Juniors in 1995). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

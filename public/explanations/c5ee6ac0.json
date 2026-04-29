@@ -1,0 +1,15 @@
+{
+  "questionId": "c5ee6ac0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the slope",
+      "content": "The line increases from lower-left to upper-right, indicating a positive slope. From $x = 0$ to $x = 10$, the line rises from about $y = 3.4$ to $y = 13.4$, giving a slope of $$\\frac{10}{10} = 1$$ This eliminates C and D, which have slope $\u22121$."
+    },
+    {
+      "title": "Find the y-intercept",
+      "content": "The line crosses the $y$-axis at $y \\approx 3.4$. Since the $y$-intercept is positive, choice B (with intercept $\u22123.4$) is eliminated. With slope 1 and $y$-intercept 3.4, the equation is $$y = x + 3.4$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

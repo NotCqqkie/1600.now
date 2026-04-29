@@ -1,0 +1,15 @@
+{
+  "questionId": "ee05c84e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the coefficient",
+      "content": "In the first parenthesis, combine like terms:<br/>$$x + 0.25x = (1 + 0.25)x = 1.25x$$<br/>So the function becomes:<br/>$$f(x) = 1.25x(50 - x)$$"
+    },
+    {
+      "title": "Substitute x = 20 and calculate",
+      "content": "$$f(20) = 1.25(20)(50 - 20)$$<br/>Evaluate each part:<ul><li>$1.25 \\times 20 = 25$</li><li>$50 - 20 = 30$</li></ul>Then multiply:<br/>$$f(20) = 25 \\times 30 = 750$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

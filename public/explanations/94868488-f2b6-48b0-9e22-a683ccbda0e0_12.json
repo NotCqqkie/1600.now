@@ -1,0 +1,15 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the rate of water addition per second",
+      "content": "One 0.06-milliliter drop falls every 6 seconds.<br/>Rate per second = $$\\frac{0.06 \\text{ mL}}{6 \\text{ s}} = 0.01 \\text{ mL/s}$$"
+    },
+    {
+      "title": "Build the volume equation",
+      "content": "The container starts with 21 milliliters and gains 0.01 milliliters each second.<br/>After <em>t</em> seconds, the total volume is:<br/>$$v = 21 + 0.01t$$<br/>Rearranging: $$v = 0.01t + 21$$<br/>This equation matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

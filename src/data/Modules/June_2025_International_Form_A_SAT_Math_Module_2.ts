@@ -510,40 +510,17 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability and conditional probability",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_19",
-    "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "One of these participants will be selected at random. What is the probability of selecting a participant from group A, given that the participant is at least 10 years of age?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "$\\frac{5}{21}$"
-      },
-      {
-        "id": "B",
-        "text": "$\\frac{5}{14}$"
-      },
-      {
-        "id": "C",
-        "text": "$\\frac{17}{35}$"
-      },
-      {
-        "id": "D",
-        "text": "$\\frac{5}{7}$"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "The correct answer is 8. In this group, $\\frac{1}{9}$ of the people who are rhesus negative have blood type B. The total number of people who are rhesus negative in the group is $7 + 2 + 1 + x$, and there are 2 people who are rhesus negative with blood type B. Therefore, the fraction with numerator 2, and denominator, 7 plus 2, plus 1, plus x, end fraction, equals one ninth. Combining like terms on the left-hand side of the equation yields the fraction with numerator 2, and denominator, 10 plus x, end fraction, equals one ninth. Multiplying both sides of this equation by 9 yields the fraction with numerator 18, and denominator, 10 plus x, end fraction, equals 1, and multiplying both sides of this equation by $(10 + x)$ yields $18 = 10 + x$. Subtracting 10 from both sides of this equation yields $8 = x$.",
+      "id": "d4413871",
+      "testName": "SAT Question Bank",
+      "text": "<table class=\"cb-table table_WithBorder tcp-06196331-3edc-4c8f-876b-d57b3d755f43\"><tbody><tr><td> </td><td colspan=\"4\" rowspan=\"1\">Blood type   </td></tr><tr><td>Rhesus factor</td><td>A</td><td>B</td><td>AB</td><td>O</td></tr><tr><td><span class=\"math_expression\"><span class=\"math-container\">$+$</span></span></td><td>33</td><td>9</td><td>3</td><td>37</td></tr><tr><td><span class=\"math_expression\"><span class=\"math-container\">$-$</span></span></td><td>7</td><td>2</td><td>1</td><td><span class=\"italic\"><span class=\"italic\">x</span></span></td></tr></tbody></table>\n\nHuman blood can be classified into four common blood types—A, B, AB, and O. It is also characterized by the presence $(+)$ or absence $(-)$ of the rhesus factor. The table above shows the distribution of blood type and rhesus factor for a group of people. If one of these people who is rhesus negative $(-)$ is chosen at random, the probability that the person has blood type B is $\\frac{1}{9}$. What is the value of <em>x</em>?",
+      "correctAnswer": "8",
+      "type": "free-response",
+      "choices": []
   },
   {
     "section": "Math",

@@ -38,40 +38,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "2151936b-0a32-450c-9679-a3f550831cb9_2",
-    "testName": "December 2024 US Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nLessons from previous declines in biodiversity can help shape policy recommendations aimed at preserving species at risk. The factors that contributed to the extinction of the shrub-ox around 9500 BCE may also be ______ endangered species today.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "concealed from"
-      },
-      {
-        "id": "B",
-        "text": "applicable to"
-      },
-      {
-        "id": "C",
-        "text": "integrated with"
-      },
-      {
-        "id": "D",
-        "text": "dependent on"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice B is the best answer because it most logically completes the text’s discussion of how Maggie Lena Walker addressed the lack of financial services available to Black residents in Richmond, Virginia, at the turn of the twentieth century. In this context, \"rectify\" means to correct or remedy something undesirable. The text indicates that by chartering the St. Luke Penny Savings Bank in 1903, Walker took action to provide local Black residents with greater access to financial services like home loans and savings opportunities. This context supports the idea that she aimed to rectify the undesirable situation affecting these residents.\nChoice A is incorrect because in this context, \"prolong\" would mean to lengthen something in time. The text indicates that at the turn of the twentieth century, Black residents in Richmond, Virginia, were faced with a lack of formal banking options. The text then states that Walker founded a new bank that provided these residents with financial services. Therefore, instead of prolonging the situation, she took steps to rectify, or correct, it. Choice C is incorrect because in this context, \"retain\" would mean to continue to have or to keep something. According to the text, at the turn of the twentieth century, Black residents in Richmond, Virginia, had few formal banking options, and Walker chartered a new institution to provide these residents with expanded financial services; therefore, she took steps to rectify, not retain, the situation. Choice D is incorrect because in this context, \"highlight\" would mean to emphasize or call attention to something, but the text indicates that Walker took concrete steps beyond merely drawing attention to the situation Black residents were facing in Richmond, Virginia, at the turn of the twentieth century. According to the text, Walker worked to rectify, or correct, the lack of formal banking options that were available to these residents by establishing a bank that provided them with home loans and savings opportunities.",
+      "id": "1c7fe9be",
+      "testName": "SAT Question Bank",
+      "text": "At the turn of the twentieth century, Black residents of Richmond, Virginia, had few formal options for banking and other financial services. To ______ this situation, Maggie Lena Walker chartered the St. Luke Penny Savings Bank in 1903. The bank went on to provide home loans and savings opportunities to thousands of Black families over the following decades. Which choice completes the text with the most logical and precise word or phrase?",
+      "correctAnswer": "B",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "prolong"
+          },
+          {
+              "id": "B",
+              "text": "rectify"
+          },
+          {
+              "id": "C",
+              "text": "retain"
+          },
+          {
+              "id": "D",
+              "text": "highlight"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

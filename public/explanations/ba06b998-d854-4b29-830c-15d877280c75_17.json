@@ -1,0 +1,19 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_17",
+  "correctAnswer": "20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the volume formula for a prism",
+      "content": "$$V = B h$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for base area",
+      "content": "$$B = \\frac{V}{h} = \\frac{60}{3} = 20\\text{ cm}^2$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

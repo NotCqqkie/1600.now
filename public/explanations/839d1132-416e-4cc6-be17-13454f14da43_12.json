@@ -1,0 +1,15 @@
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage\u2019s strongest clue is the claim that the mutation existed long before humans began breeding dogs."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A shows the mutation in an ancestor from 53,000 years ago, which predates human breeding and directly supports the claim.<br/>The other choices either discuss unrelated size comparisons, lack of mutation in large breeds, or overall size variation, none of which address the timing of the mutation.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

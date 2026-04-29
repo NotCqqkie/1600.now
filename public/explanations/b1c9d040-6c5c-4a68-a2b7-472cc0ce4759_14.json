@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Clarify what the hypothesis predicts",
+      "content": "The hypothesis claims hardening damages waterbird communities more severely than development does. A direct test requires comparing a site dominated by hardening (with minimal development) against a site dominated by development (with minimal hardening). The hardening-heavy site should show lower IWCI scores."
+    },
+    {
+      "title": "Match the prediction to the choices",
+      "content": "Choice A delivers this test: Back River emphasizes development with minimal hardening and achieves higher IWCI; Margothy emphasizes hardening with minimal development and achieves lower IWCI. This proves hardening's impact exceeds development's. Choice B contradicts this pattern; choices C and D mix both variables in the same direction, making it impossible to isolate hardening's effect.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

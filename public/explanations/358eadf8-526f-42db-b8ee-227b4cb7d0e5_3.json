@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the reason for the difference",
+      "content": "The passage gives a speed difference (389 vs. 80 km/hr) and then provides the reason: flight features limit speed less than running features. The blank must express what CAUSES this difference."
+    },
+    {
+      "title": "Test the choices for causation",
+      "content": "\u201dA consequence of\u201d directly works\u2014the speed difference is a result of how flight and running features differ in limiting speed. The other three don't establish causation: objective suggests a goal, repudiation means rejection, and explanation would mean the difference clarifies the features rather than resulting from them. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

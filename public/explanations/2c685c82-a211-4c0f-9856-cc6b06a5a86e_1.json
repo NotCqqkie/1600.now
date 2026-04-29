@@ -1,0 +1,12 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "The constant term is the y-intercept",
+      "content": "In slope-intercept form, the $y$-intercept is the constant term. For $f(x) = 6x - \\frac{1}{8}$, the constant is $-\\frac{1}{8}$, so the $y$-intercept is $(0, -\\frac{1}{8})$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$y = mx + b$$"
+    }
+  ]
+}

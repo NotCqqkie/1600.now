@@ -1,0 +1,16 @@
+{
+  "questionId": "4420e500",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the rectangle area formula",
+      "content": "The area of a rectangle is found by multiplying its length by its width.",
+      "formula": "$$A = l \\times w$$"
+    },
+    {
+      "title": "Calculate using the given dimensions",
+      "content": "With length = 4 cm and width = 2 cm, the area is:<br/>$$A = 4 \\times 2 = 8 \\text{ cm}^2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

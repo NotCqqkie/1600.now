@@ -1,0 +1,19 @@
+{
+  "questionId": "2869fe95",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the lower bound from the minimum temperature",
+      "content": "Since the lowest recorded temperature was 31\u00b0F, any recorded temperature $t$ in this period must be at least 31\u00b0F. This gives us the constraint:<br/>$$t \\ge 31$$"
+    },
+    {
+      "title": "Identify the upper bound from the maximum temperature",
+      "content": "Since the highest recorded temperature was 67\u00b0F, any recorded temperature $t$ in this period cannot exceed 67\u00b0F. This gives us the constraint:<br/>$$t \\le 67$$"
+    },
+    {
+      "title": "Combine constraints into a compound inequality",
+      "content": "For any recorded temperature to satisfy both the minimum and maximum constraints, it must satisfy both inequalities simultaneously:<br/>$$31 \\le t \\le 67$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

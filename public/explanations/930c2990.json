@@ -1,0 +1,19 @@
+{
+  "questionId": "930c2990",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear relationship",
+      "content": "The graph shows a straight line passing through the origin, indicating volume is directly proportional to temperature: y = kx where k is the constant of proportionality."
+    },
+    {
+      "content": "From the graph, at a temperature of 250 kelvins the volume reads 3.5 liters. Thus the slope is $$k = \\frac{3.5}{250} = \\frac{7}{500}$$ liters per kelvin.",
+      "title": "Find the slope from a convenient point"
+    },
+    {
+      "content": "For a temperature of 500 kelvins, the volume is $$y = k \\times 500 = \\frac{7}{500} \\times 500 = 7$$ liters. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "title": "Calculate the volume at 500 K and select answer"
+    }
+  ]
+}

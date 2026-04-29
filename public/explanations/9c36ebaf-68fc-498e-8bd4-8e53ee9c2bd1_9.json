@@ -1,0 +1,15 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that A(b) is a function of the base",
+      "content": "The function $A(b) = 7b^2$ takes the base length $b$ (in cm) as input and outputs the area (in cm\u00b2). The problem directly states that the function $A(b)$ gives the area if the length of its base is $b$ cm."
+    },
+    {
+      "title": "Interpret A(18) = 2,268 to find the base and area",
+      "content": "When $A(18) = 2,268$, the input is $b = 18$ and the output is 2,268. Since $A(b)$ represents area, this means: base = 18 cm and area = 2,268 cm\u00b2. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

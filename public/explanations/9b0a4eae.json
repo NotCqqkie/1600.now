@@ -1,0 +1,15 @@
+{
+  "questionId": "9b0a4eae",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the axes represent",
+      "content": "The graph shows the $xy$-plane where $x$ is the length (in meters) and $y$ is the width (in meters). The line itself represents all valid combinations of length and width for a rectangle with a 36 m perimeter. The constraint equation is: $2(x + y) = 36$, which simplifies to $x + y = 18$. Every point on this line satisfies that relationship."
+    },
+    {
+      "title": "Read the coordinates of the point (8, 10)",
+      "content": "The point $(8, 10)$ is marked on the graph. In an ordered pair $(x, y)$, the first coordinate is the $x$-value and the second is the $y$-value. Therefore:<br/><ul><li>$x = 8$ meters (length)</li><li>$y = 10$ meters (width)</li></ul>We can verify this point is on the line: $8 + 10 = 18$ \u2713<br/><br/>A rectangle with length 8 m and width 10 m has perimeter $2(8 + 10) = 36$ m, which matches the problem constraint. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

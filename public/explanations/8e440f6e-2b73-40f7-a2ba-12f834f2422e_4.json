@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_4",
+  "correctAnswer": "28500",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the conversion factor",
+      "content": "We're given that <strong>1 leuga = 7,500 pedes</strong>. To convert 3.8 leugas to pedes, multiply by this conversion factor."
+    },
+    {
+      "title": "Multiply to find the equivalent pedes",
+      "content": "The number of pedes equivalent to 3.8 leugas is: $$3.8 \\times 7,500 = 28,500$$"
+    }
+  ]
+}

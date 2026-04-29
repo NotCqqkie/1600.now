@@ -1,0 +1,15 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret what y represents",
+      "content": "The problem asks for <em>the amount of fat y, in pounds, the polar bear ate in these 8 days</em>. The phrase <em>in these 8 days</em> tells us that $y$ represents the <strong>total amount</strong> of fat eaten during the entire 8-day period, not a rate or partial amount."
+    },
+    {
+      "title": "Extract the total and form the equation",
+      "content": "The given information states: <em>In 8 days, a polar bear ate 34.4 pounds of fat</em>. This directly provides the total amount of fat consumed over the 8 days: 34.4 pounds. <br/><br/>Therefore:<br/><br/>$$y = 34.4$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

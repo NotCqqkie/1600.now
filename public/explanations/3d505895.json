@@ -1,0 +1,15 @@
+{
+  "questionId": "3d505895",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the genetic impossibility",
+      "content": "The two condors hatched from eggs laid by females in the enclosure, yet they showed no genetic similarity to any males in the enclosure. This means no male in the enclosure could be their biological father."
+    },
+    {
+      "title": "Infer the conclusion",
+      "content": "If the offspring came from females but weren't fathered by any male in the enclosure, those mothers must have reproduced asexually\u2014parthenogenesis\u2014to produce offspring with all-maternal DNA. The other answers either shift focus to the mothers' origins (A) or introduce unsupported speculation about wild behavior and conditional triggers (B, D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

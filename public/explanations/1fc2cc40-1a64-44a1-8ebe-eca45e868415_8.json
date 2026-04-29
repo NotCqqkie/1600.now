@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_8",
+  "correctAnswer": "50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the total weight lost",
+      "content": "The bear started at 515 pounds and ended at 490 pounds.<br/>$$515 - 490 = 25 \\text{ pounds}$$"
+    },
+    {
+      "title": "Divide weight lost by the daily loss rate",
+      "content": "At a rate of 0.5 pounds per day, the number of days needed to lose 25 pounds is:<br/>$$\\text{days} = \\frac{25}{0.5} = \\frac{25}{\\frac{1}{2}} = 25 \\times 2 = 50$$<br/>The black bear weighed 490 pounds <strong>50 days</strong> after entering hibernation."
+    }
+  ]
+}

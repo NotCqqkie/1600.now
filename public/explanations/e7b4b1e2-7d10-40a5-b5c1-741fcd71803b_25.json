@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated goal",
+      "content": "The goal is explicit: indicate the year the Schomburg Center was founded. This single criterion determines which note to emphasize."
+    },
+    {
+      "title": "Apply the goal to the choices",
+      "content": "Choice C states \u201cThe Schomburg Center was founded in 1925,\u201d which directly indicates the year. Choices A, B, and D provide information about the center's name, nature as a research library, and location, respectively\u2014none of which address the founding year. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

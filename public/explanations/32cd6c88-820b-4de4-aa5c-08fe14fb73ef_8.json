@@ -1,0 +1,16 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract times from the table and find their sum",
+      "content": "The five task times are: 8, 6, 14, 11, and 11 minutes. Their sum is:<br/>$$8 + 6 + 14 + 11 + 11 = 50$$"
+    },
+    {
+      "title": "Calculate the mean",
+      "formula": "$$\\text{Mean} = \\frac{\\text{sum}}{\\text{number of values}}$$",
+      "content": "Divide the total time by the number of tasks:<br/>$$\\text{Mean} = \\frac{50}{5} = 10 \\text{ minutes}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

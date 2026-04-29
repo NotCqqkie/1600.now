@@ -1,0 +1,15 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the intercept theorem for parallel lines",
+      "content": "Since $\\overline{LM} \\parallel \\overline{PQ}$ and lines LQ and MP intersect at R, the intercept theorem gives us: $$\\frac{LR}{RQ} = \\frac{MR}{RP}$$ Substituting the given values: $$\\frac{10}{RQ} = \\frac{9}{19}$$ Cross multiply: $10 \\times 19 = 9 \\times RQ$, so $RQ = \\frac{190}{9}$"
+    },
+    {
+      "title": "Calculate the total length LQ",
+      "content": "Since R lies on segment LQ between L and Q: $$LQ = LR + RQ = 10 + \\frac{190}{9}$$ Convert 10 to ninths: $$LQ = \\frac{90}{9} + \\frac{190}{9} = \\frac{280}{9}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

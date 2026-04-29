@@ -1,0 +1,20 @@
+{
+  "questionId": "6933b3d9",
+  "correctAnswer": "0",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right angle and complementary angles",
+      "content": "Triangle <em>RST</em> has a right angle at <em>S</em> (marked with a square), with <em>RS</em> = 12 and <em>ST</em> = 5. Point <em>W</em> lies on $\\overline{RT}$, so the rays $\\overrightarrow{SR}$ and $\\overrightarrow{ST}$ form the angle at <em>S</em>. The line segment $\\overline{SW}$ divides this right angle into two parts: $\\angle RSW$ and $\\angle WST$.<br/><br/>Therefore:<br/>$$\\angle RSW + \\angle WST = 90\u00b0$$"
+    },
+    {
+      "title": "Use the complementary angle relationship",
+      "content": "Since $\\angle WST$ and $\\angle RSW$ are complementary, we can write $\\angle WST = 90\u00b0 - \\angle RSW$. Apply the cofunction identity for sine and cosine:<br/><br/>$$\\sin(\\angle WST) = \\sin(90\u00b0 - \\angle RSW) = \\cos(\\angle RSW)$$",
+      "formula": "$$\\sin(90\u00b0 - \\theta) = \\cos(\\theta)$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Substitute the identity into the given expression:<br/><br/>$$\\cos(\\angle RSW) - \\sin(\\angle WST) = \\cos(\\angle RSW) - \\cos(\\angle RSW) = 0$$<br/><br/>The answer is <strong>0</strong>."
+    }
+  ]
+}

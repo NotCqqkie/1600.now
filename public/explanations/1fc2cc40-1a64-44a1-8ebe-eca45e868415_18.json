@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find zeros of the numerator",
+      "content": "A fraction equals zero when its numerator is zero (and denominator is non-zero). The numerator $(x-7)(x-8) = 0$ gives $x = 7$ or $x = 8$. Check: $7 - 3 = 4 \\neq 0$ and $8 - 3 = 5 \\neq 0$, so both solutions are valid."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "The sum is $7 + 8 = 15$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

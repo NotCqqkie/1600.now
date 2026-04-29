@@ -1,0 +1,15 @@
+{
+  "questionId": "75f49353",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the singular subject",
+      "content": "The sentence opens with a prepositional phrase (\u201cAmong the clubs' leaders\u201d), but the true subject is the noun phrase that follows: \u201cJosephine St. Pierre Ruffin, founder of the Women's Era Club of Boston.\u201d This subject is singular\u2014one person."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement requires verbs to match their subjects in number. The singular subject requires <strong>\u201cwas\u201d</strong>, the singular verb form. \u201cWere,\u201d \u201care,\u201d and \u201chave been\u201d are all plural forms that violate this agreement requirement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

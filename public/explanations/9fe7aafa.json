@@ -1,0 +1,15 @@
+{
+  "questionId": "9fe7aafa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what historians suggest",
+      "content": "The passage's final sentence states directly: <strong>Some historians suggest that Maya mathematicians inherited it from the Olmec civilization.</strong> The word \u201cinherited\u201d is the key signal\u2014it means the Maya received something from their predecessors, not the other way around."
+    },
+    {
+      "title": "Match it to the correct choice",
+      "content": "Choice A expresses this exactly: the Maya \u201cacquired\u201d the use of zero from the Olmec, which captures what \u201cinherited\u201d means. The other three either introduce ideas unsupported by the passage (B about respecting historians vs. mathematicians, C about being secretive) or reverse the direction entirely (D suggests the Maya were givers, not receivers). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

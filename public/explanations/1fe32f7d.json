@@ -1,0 +1,16 @@
+{
+  "questionId": "1fe32f7d",
+  "correctAnswer": "51",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the discriminant condition",
+      "content": "For a quadratic equation to have no real solutions, the discriminant must be negative. In the equation $-x^2 + bx - 676 = 0$, we have $a = -1$ and constant term $c = -676$.<br/><br/>Using the discriminant formula on the coefficients:<br/>$$b^2 - 4(-1)(-676) = b^2 - 2704$$<br/><br/>For no real solutions, we need this to be negative: $b^2 - 2704 < 0$.",
+      "formula": "$$\\Delta = b^2 - 4ac$$"
+    },
+    {
+      "title": "Find the maximum value of b",
+      "content": "From $b^2 - 2704 < 0$, we get:<br/>$$b^2 < 2704$$<br/>$$b < \\sqrt{2704} = 52$$<br/><br/>Since $b$ is a positive integer and must satisfy $b < 52$, the greatest possible value is $b = 51$.<br/><br/>Verification: $51^2 - 2704 = 2601 - 2704 = -103 < 0$, confirming no real solutions."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \u201cAssuming participant P6 gave equal ratings to the abstract and cubist paintings\u201d tells us the model\u2019s prediction must match that equality."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Choice C states the model predicted equal ratings, which directly follows from the assumption. The other three options either claim a difference or a preference, contradicting the equal\u2011rating condition. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

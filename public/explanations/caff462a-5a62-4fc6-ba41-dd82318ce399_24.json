@@ -1,0 +1,15 @@
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The goal is to indicate the size of the Massasoit NWR. The strongest clue in the notes is <strong>184 acres</strong>, the only direct numerical reference to size."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A explicitly includes <em>encompasses 184 acres</em>, directly using the size data from the notes. The other three choices discuss management, endangered species, or location but omit the size information. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

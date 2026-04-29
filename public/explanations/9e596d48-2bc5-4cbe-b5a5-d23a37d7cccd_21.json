@@ -1,0 +1,15 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_21",
+  "correctAnswer": "391",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero point to find the constant t",
+      "content": "Since the graph passes through (23, 0), we have $g(23) = 0$. Substituting into the function definition:<br/>$$g(23) = (23 + 17)(t - 23) = 0$$<br/>$$40(t - 23) = 0$$<br/>Because $40 \\neq 0$, we must have $t - 23 = 0$, so $t = 23$."
+    },
+    {
+      "title": "Evaluate g(0) with t = 23",
+      "content": "Now that we know $t = 23$, the function becomes $g(x) = (x + 17)(23 - x)$. Evaluating at $x = 0$:<br/>$$g(0) = (0 + 17)(23 - 0) = 17 \\cdot 23 = 391$$"
+    }
+  ]
+}

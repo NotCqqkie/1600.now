@@ -1,0 +1,15 @@
+{
+  "questionId": "3f236a64",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant ratio of y to x",
+      "content": "Since the ratio of $y$ to $x$ is constant, we can find it from any row. Using the first row: $$\\frac{y}{x} = \\frac{4}{1} = 4$$ Verify with another row: $\\frac{12}{3} = 4$ and $\\frac{20}{5} = 4$. The constant ratio is 4."
+    },
+    {
+      "title": "Calculate k using the proportional relationship",
+      "content": "With the constant ratio of 4, we have $y = 4x$. When $x = 40$: $$k = 4 \\times 40 = 160$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

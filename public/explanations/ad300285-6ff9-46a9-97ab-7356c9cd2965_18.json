@@ -1,0 +1,19 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_18",
+  "correctAnswer": "526.1",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute h = 467.33 into the equation",
+      "content": "Replace $h$ with the given value of 467.33 degrees Fahrenheit:<br/>$$467.33 = \\frac{9(v - 273.15)}{5} + 12$$"
+    },
+    {
+      "title": "Isolate the fraction containing v",
+      "content": "Subtract 12 from both sides:<br/>$$455.33 = \\frac{9(v - 273.15)}{5}$$<br/>Multiply both sides by 5:<br/>$$2276.65 = 9(v - 273.15)$$<br/>Divide both sides by 9:<br/>$$v - 273.15 = \\frac{2276.65}{9} = 252.961...$$"
+    },
+    {
+      "title": "Solve for v",
+      "content": "Add 273.15 to both sides:<br/>$$v = 252.961... + 273.15 = 526.1$$<br/>The corresponding temperature is <strong>526.1 kelvins</strong>."
+    }
+  ]
+}

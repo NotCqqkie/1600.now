@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bc47d5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the conversion factor from feet to inches",
+      "content": "The scale is 1 inch = $\\frac{17}{3}$ feet. To convert feet to inches, we invert: 1 foot = $\\frac{3}{17}$ inches."
+    },
+    {
+      "title": "Apply the conversion factor to x feet",
+      "content": "Multiply $x$ feet by the conversion factor: $$x \\cdot \\frac{3}{17} = \\frac{3x}{17}$$ inches. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

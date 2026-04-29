@@ -1,0 +1,15 @@
+{
+  "questionId": "c5082ce3",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up equations from the problem",
+      "content": "Let $c$ = correct answers and $i$ = incorrect answers.<br/><br/>From <em>40 questions total</em>:<br/>$$c + i = 40$$<br/><br/>From <em>score = 2(correct) \u2212 (incorrect) = 50</em>:<br/>$$2c - i = 50$$"
+    },
+    {
+      "title": "Add equations to eliminate i",
+      "content": "Add the equations together to cancel out $i$:<br/>$$c + i + 2c - i = 40 + 50$$<br/>$$3c = 90$$<br/>$$c = 30$$<br/><br/>The player answered 30 questions correctly."
+    }
+  ]
+}

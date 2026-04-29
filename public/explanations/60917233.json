@@ -1,0 +1,15 @@
+{
+  "questionId": "60917233",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the defining signal",
+      "content": "The first sentence announces a general accomplishment (Latimer improved the design). The second sentence specifies what that improvement was (making it more durable through a particular method). The transition must show this movement from general claim to specific detail."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "\u201dSpecifically\u201d introduces a particular instance or elaboration of a preceding general claim. The other three either impose temporal sequence (Soon) or signal contradiction (However, Regardless), neither of which applies when elaborating on a general claim. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

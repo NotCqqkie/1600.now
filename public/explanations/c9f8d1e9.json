@@ -1,0 +1,16 @@
+{
+  "questionId": "c9f8d1e9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the triangle's configuration",
+      "content": "The diagram shows a right triangle with legs labeled $a$ (vertical) and $b$ (horizontal), and hypotenuse labeled $c$. The right angle is marked between legs $a$ and $b$. We're given $a = 4$ and $b = 5$, and need to find which expression represents $c$."
+    },
+    {
+      "title": "Apply the Pythagorean theorem",
+      "content": "For a right triangle, the hypotenuse and legs are related by the Pythagorean theorem. Solving for $c$, we get: $$c = \\sqrt{a^2 + b^2}$$ Substituting $a = 4$ and $b = 5$: $$c = \\sqrt{4^2 + 5^2}$$ That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$c^2 = a^2 + b^2$$"
+    }
+  ]
+}

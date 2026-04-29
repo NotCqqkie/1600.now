@@ -1,0 +1,15 @@
+{
+  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the defining signal",
+      "content": "The passage structure is: negative words are replaced faster [at a certain rate] \u2014 [blank] [definition of that rate]. The blank introduces a restatement or clarification of what the technical term \u201ccognate replacement\u201d actually means."
+    },
+    {
+      "title": "Apply the correct transition",
+      "content": "The transition \u201cthat is,\u201d is the standard way to restate or clarify something\u2014perfect for defining what \u201ccognate replacement\u201d means. The other three suggest similarity, addition, or exemplification instead of clarification. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate K(24) directly",
+      "content": "\\(K(v) = \\frac{7}{2} v^2\\)<br/>Substitute $v = 24$:\\<br/>\\[K(24) = \\frac{7}{2} (24)^2\\]."
+    },
+    {
+      "title": "Calculate K(24)",
+      "content": "\\[K(24) = \\frac{7}{2} \\cdot 576 = \\frac{3968}{2} = 1,960 + 56 = 2,016\\] joules.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

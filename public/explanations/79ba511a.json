@@ -1,0 +1,15 @@
+{
+  "questionId": "79ba511a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2 into the function",
+      "content": "We need to find $f(2)$. The function is defined as $f(x) = x^3 + 15$. Substitute $x = 2$:<br/><br/>$$f(2) = (2)^3 + 15$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Calculate the power and add:<br/><br/>$$2^3 = 8$$<br/><br/>$$f(2) = 8 + 15 = 23$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

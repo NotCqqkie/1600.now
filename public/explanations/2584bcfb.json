@@ -1,0 +1,15 @@
+{
+  "questionId": "2584bcfb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what weakens the student's claim",
+      "content": "To weaken the claim that emotionality is unrelated to box office success, we need evidence that emotionality <strong>does</strong> predict earnings."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B states emotionality score was a positive predictor of box office earnings. Choices A, C, and D either don't directly link emotionality to box office earnings or ignore emotionality altogether. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "<em>A government body officially known as the Althing,</em> is a noun phrase serving as the subject. The blank must be filled with an appositive that renames this noun, followed by a predicate verb that completes the sentence."
+    },
+    {
+      "title": "Apply the grammatical rule for appositives",
+      "content": "Choice A places <em>Iceland's parliament</em> correctly as an appositive, followed by the predicate <em>is one of the oldest in the world.</em> The other choices either join two independent clauses with only a comma (B, C) or use an appositive that contradicts the original noun (D). That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

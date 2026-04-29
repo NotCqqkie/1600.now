@@ -614,40 +614,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Boundaries",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_18",
-    "testName": "December 2024 International Form C SAT English Module 2",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Roman historian Suetonius's *De vita caesarum*, a biography of the Roman Empire's first leaders, is an extant work: it can still be read. By contrast, Suetonius's book on miscellaneous topics, *Pratum*, no copies of which ______ is a lost work: it can be accessed only indirectly, through references to it in extant works.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "having survived,"
-      },
-      {
-        "id": "B",
-        "text": "to survive,"
-      },
-      {
-        "id": "C",
-        "text": "survive,"
-      },
-      {
-        "id": "D",
-        "text": "surviving,"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice C is the best answer. The convention being tested is punctuation use between a name and title and between a subject and a verb. No punctuation is needed between the proper noun “Heather Grab” and “entomologist,” the title that describes Grab. Additionally, no punctuation is needed between the sentence’s subject (“Entomologist Heather Grab”) and the main verb (“found”) that indicates what Grab did.\nChoice A is incorrect because no punctuation is needed between the subject and the verb. Choice B is incorrect because no punctuation is needed. Setting the entomologist’s name off with commas suggests that it could be removed without affecting the coherence of the sentence, which isn’t the case. Choice D is incorrect because no punctuation is needed between the subject and the verb.",
+      "id": "960dec02",
+      "testName": "SAT Question Bank",
+      "text": "A recent study tracked the number of bee species present in twenty-seven New York apple orchards over a ten-year period. ______ found that when wild growth near an orchard was cleared, the number of different bee species visiting the orchard decreased. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "correctAnswer": "C",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "Entomologist Heather Grab:"
+          },
+          {
+              "id": "B",
+              "text": "Entomologist, Heather Grab,"
+          },
+          {
+              "id": "C",
+              "text": "Entomologist Heather Grab"
+          },
+          {
+              "id": "D",
+              "text": "Entomologist Heather Grab,"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

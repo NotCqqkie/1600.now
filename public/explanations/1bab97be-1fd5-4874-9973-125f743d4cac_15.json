@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent and required form",
+      "content": "The blank precedes <em>compelling narrative</em>, requiring a possessive form to modify the noun. The antecedent is <em>the epic poem</em>, which is singular."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A possessive pronoun must agree with its antecedent in number, so the singular antecedent <em>the epic poem</em> requires the singular possessive <em>its</em> (B). The other options are either contractions that cannot function as possessives (A and D) or a plural possessive (C). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

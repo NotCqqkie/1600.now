@@ -1,0 +1,17 @@
+{
+  "questionId": "310c87fe",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the side length using the surface area formula",
+      "content": "A cube has 6 square faces, each with area $s^2$, where $s$ is the side length. Given that the surface area is 54, we solve: $$6s^2 = 54$$ Dividing both sides by 6: $$s^2 = 9$$ Taking the positive square root: $$s = 3 \\text{ meters}$$",
+      "formula": "$$SA = 6s^2$$"
+    },
+    {
+      "title": "Calculate the volume using the side length",
+      "content": "With side length $s = 3$ meters, we calculate: $$V = 3^3 = 27 \\text{ cubic meters}$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$V = s^3$$"
+    }
+  ]
+}

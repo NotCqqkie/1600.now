@@ -1,0 +1,16 @@
+{
+  "questionId": "bf883fde",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the slope and y-intercept",
+      "content": "The slope is given as $m = 3$. The point $(0, -8)$ lies on the $y$-axis (where $x = 0$), so this is the $y$-intercept: $b = -8$."
+    },
+    {
+      "title": "Apply slope-intercept form",
+      "formula": "$$y = mx + b$$",
+      "content": "Substituting $m = 3$ and $b = -8$:<br/>$$f(x) = 3x - 8$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

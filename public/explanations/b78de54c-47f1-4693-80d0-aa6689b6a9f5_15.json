@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the opening participial phrase",
+      "content": "The sentence opens with \u201cKnowing that flying insects keep their backs pointed toward sunlight during the day,\u201d\u2014a participial phrase that must logically modify the subject of the main clause that follows."
+    },
+    {
+      "title": "Apply the rule: opening participles attach to the subject",
+      "content": "The subject must logically fit the phrase\u2014it should be something that \u201cknows\u201d the fact about insects, not something that acts on instinct. Only choice B makes \u201cthe researchers\u201d the grammatical subject (\u201cthe researchers theorize that moths...\u201d), so the opening phrase correctly attaches. Choices A, C, and D either make \u201cmoths\u201d the subject (illogical), displace the researchers awkwardly, or create unclear modification. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

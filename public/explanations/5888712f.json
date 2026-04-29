@@ -1,0 +1,15 @@
+{
+  "questionId": "5888712f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key contrast data",
+      "content": "The goal requires contrasting emissivity between the two materials. The notes provide specific emissivity values (0.02 vs. 0.74) that reveal the dramatic difference. An effective contrast must place these comparable numbers side by side, not just acknowledge that a difference exists."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "Choice D juxtaposes the emissivity values in a <em>Whereas</em> structure, making the contrast stark and clear. The others lack the combination of specific values and a strong contrast structure. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

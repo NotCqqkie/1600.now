@@ -1,0 +1,15 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percentage statement to an equation",
+      "content": "The phrase <em>350 percent of n is 35</em> translates to:<br/><br/>$$3.5n = 35$$<br/><br/>(since 350% = 3.5)"
+    },
+    {
+      "title": "Solve for n by dividing both sides by 3.5",
+      "content": "$$n = \\frac{35}{3.5} = 10$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

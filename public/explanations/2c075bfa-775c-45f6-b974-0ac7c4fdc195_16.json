@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the series structure",
+      "content": "The sentence presents three related measurements forming a series: the fault's length, slip rate, and most recent deformation."
+    },
+    {
+      "title": "Apply the series punctuation rule",
+      "content": "In a series of items, commas separate items and 'and' precedes the final item. Choice A applies this correctly as \u201clength (30 km), slip rate (less than 0.2 mm/yr), and most recent deformation,\u201d with measurements integrated into each item via parentheses. The other choices either misuse semicolons, create ambiguity by separating measurements from names, or lack required commas. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

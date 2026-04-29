@@ -1,0 +1,15 @@
+{
+  "questionId": "db2da2bf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key exclusion",
+      "content": "The passage states \u201cAll but one of the 20 moons are thought to be remnants of bodies that orbited Saturn until they broke apart in collisions.\u201d This single statement is the decisive clue: it identifies one exceptional moon that is not a collision-remnant."
+    },
+    {
+      "title": "Match to the correct answer",
+      "content": "Choice D says the moon \u201chas a prograde orbit and may not be a remnant of an earlier body that orbited Saturn.\u201d The passage confirms both elements: the moon orbits in the planet's direction (prograde), and as the one exceptional moon excluded from \u201call but one are remnants,\u201d it's the one not derived from a collision. The other three either misidentify the orbit type, assign a collision origin to the exception, or claim it shares other moons' origins. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

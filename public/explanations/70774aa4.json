@@ -1,0 +1,15 @@
+{
+  "questionId": "70774aa4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express 15x in terms of 5x",
+      "content": "Observe that $15x = 3 \\cdot 5x$. Since the given equation tells us that $5x = 20$, we can use this relationship directly without solving for $x$ explicitly."
+    },
+    {
+      "title": "Multiply to find 15x",
+      "content": "Substitute $5x = 20$ into our expression: $$15x = 3(5x) = 3(20) = 60$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

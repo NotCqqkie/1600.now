@@ -1,0 +1,15 @@
+{
+  "questionId": "d72a2b4d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percentage relationship",
+      "content": "The April price is <em>p</em>% of the March price, so: $$(p/100) \\times 15.50 = 17.36$$"
+    },
+    {
+      "title": "Verify the answer with backsolving",
+      "content": "Backsolving \u2014 testing choice C (112): $1.12 \\times 15.50 = 17.36$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

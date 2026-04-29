@@ -1,0 +1,15 @@
+{
+  "questionId": "c2c61e7d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the crucial relationship the hypothesis requires",
+      "content": "The hypothesis depends on an intermediate step: shark decline must lead to ray increase (since sharks eat rays). We need evidence confirming that when sharks decrease, rays increase."
+    },
+    {
+      "title": "Find which choice confirms that relationship",
+      "content": "D shows the required relationship: rays increased as sharks decreased. A addresses unrelated prey, B contradicts by showing oysters thrive where rays are present, and C shows the wrong timing. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

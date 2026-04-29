@@ -1,0 +1,15 @@
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the physiological test for the critic's claim",
+      "content": "The critic argues the lullaby decreased heart rate by capturing attention, not relaxing the infants. The passage establishes that pupils enlarge when a stimulus captures attention. So pupil size becomes the direct measure of whether the critic's mechanism actually engaged."
+    },
+    {
+      "title": "Apply the attention test to the choices",
+      "content": "Smaller pupils during the lullaby indicate the lullaby captured less attention than the non-lullaby\u2014directly refuting the critic's explanation. The other choices either reference signals the passage never identifies (choice A), or provide background facts unrelated to attention response (choices B and D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_2",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle relationship at the intersection",
+      "content": "Two straight lines intersect at a single point, creating four angles. Angles $r$ and $s$ are positioned opposite each other at the intersection\u2014they are <strong>vertically opposite angles</strong> (also called vertical angles)."
+    },
+    {
+      "title": "Apply the vertical angles theorem",
+      "content": "When two lines intersect, vertically opposite angles are always equal. Since $r$ and $s$ are vertical angles and $r = 61\u00b0$, we have $s = r = 61\u00b0$.<br/><br/>That matches choice <strong>61</strong>."
+    }
+  ]
+}

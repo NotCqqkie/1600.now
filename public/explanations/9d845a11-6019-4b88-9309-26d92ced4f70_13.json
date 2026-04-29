@@ -1,0 +1,20 @@
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equations equal to find intersection",
+      "content": "When the parabola and line intersect, their $y$-values are equal. Setting $2x^2 - 13x + 24 = 3x + a$ and rearranging:<br/>$$2x^2 - 16x + 24 - a = 0$$"
+    },
+    {
+      "title": "Apply discriminant condition for exactly one intersection",
+      "content": "For the graphs to intersect at exactly one point (tangent), the quadratic must have exactly one solution. This occurs when the discriminant equals zero. With coefficients $a = 2$, $b = -16$, and $c = 24 - a$:<br/>$$(-16)^2 - 4(2)(24-a) = 0$$<br/>$$256 - 8(24-a) = 0$$<br/>$$256 - 192 + 8a = 0$$<br/>$$a = -8$$",
+      "formula": "$$\\Delta = b^2 - 4ac$$"
+    },
+    {
+      "title": "Solve for x with the value of a",
+      "content": "Substituting $a = -8$ into our quadratic equation:<br/>$$2x^2 - 16x + 32 = 0$$<br/>$$x^2 - 8x + 16 = 0$$<br/>$$(x - 4)^2 = 0$$<br/>$$x = 4$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key measure",
+      "content": "The second team concluded K&K had better \u201cmethodology explanation\u201d than C&R. The passage defines this through \u201ctraceability\u201d\u2014higher traceability means clearer descriptions of procedures."
+    },
+    {
+      "title": "Find what contradicts this",
+      "content": "D states K&K had lower traceability than C&R\u2014the opposite of the conclusion. The other choices either omit the comparative claim or target a different measure. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

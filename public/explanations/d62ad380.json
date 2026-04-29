@@ -1,0 +1,15 @@
+{
+  "questionId": "d62ad380",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving choice B",
+      "content": "Backsolving \u2014 testing choice B ($p = \\frac{10}{3}s + 8$):<br/>Plug in $s=3$:<br/>$$P = \\frac{10}{3}\\cdot 3 + 8 = 10 + 8 = 18$$<br/>Expected $P=8$, so choice B fails."
+    },
+    {
+      "title": "Backsolving choice C",
+      "content": "Backsolving \u2014 testing choice C ($p = \\frac{10}{3}s - 2$):<br/>Plug in $s=3$:<br/>$$P = \\frac{10}{3}\\cdot 3 - 2 = 10 - 2 = 8$$<br/>Matches given $P=8$.<br/>Check $s=6$:<br/>$$P = \\frac{10}{3}\\cdot 6 - 2 = 20 - 2 = 18$$<br/>Matches given $P=18$.<br/>Thus choice C fits all points.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

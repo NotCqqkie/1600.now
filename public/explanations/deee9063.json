@@ -1,0 +1,15 @@
+{
+  "questionId": "deee9063",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope from line k",
+      "content": "Line $k$ is defined by $y = 6x + 4$. In slope-intercept form $y = mx + b$, the slope is $m = 6$. Since line $j$ is parallel to line $k$, and parallel lines have the same slope, line $j$ must have slope 6."
+    },
+    {
+      "title": "Find the y-intercept and write the equation",
+      "content": "Line $j$ passes through the point $(0, 5)$. Since this point has $x = 0$, it lies on the y-axis, making it the y-intercept: $b = 5$. Using slope-intercept form with $m = 6$ and $b = 5$: $$y = 6x + 5$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

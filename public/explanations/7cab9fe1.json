@@ -1,0 +1,15 @@
+{
+  "questionId": "7cab9fe1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret percentage increase",
+      "content": "Increasing a quantity by 43% means keeping 100% of it and adding 43%. The total is: $$100\\% + 43\\% = 143\\%$$"
+    },
+    {
+      "title": "Convert to decimal and apply to w",
+      "content": "Convert 143% to decimal form: $$143\\% = \\frac{143}{100} = 1.43$$ Multiplying the quantity $w$ by this gives $1.43w$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

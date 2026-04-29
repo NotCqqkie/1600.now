@@ -1,0 +1,15 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_7",
+  "correctAnswer": "202",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation with profit of 800 dollars",
+      "content": "We need to find $x$ when the profit is 800 dollars. Using the function $p(x) = 5x - 210$, we set: $$5x - 210 = 800$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Add 210 to both sides: $$5x = 1010$$ Divide both sides by 5: $$x = 202$$ They must sell 202 car stickers."
+    }
+  ]
+}

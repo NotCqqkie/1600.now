@@ -1,0 +1,15 @@
+{
+  "questionId": "4b54bbf0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \u201ccounterintuitive effect\u201d directly signals the <strong>target meaning</strong>: rising prices caused increased demand despite normal economic expectations. The blank must name the process by which the price increase led to <em>more demand</em>."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "D) <strong>Engendering</strong> means \u2018causing to arise\u2019 and precisely captures how the price surge created (<em>nurtured</em>) new demand. A), B), and C) either reverse the relationship (e.g., exploiting implies taking advantage, not creating) or misdefine the process (e.g., monetizing focuses on profit, not demand). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "933fee1a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify bc/ab as a sine ratio in triangle ABC",
+      "content": "Triangle ABC has a right angle at C and angle A = 32\u00b0. The ratio $\\frac{bc}{ab} = \\frac{BC}{AB}$ is the side opposite angle A divided by the hypotenuse. In a right triangle, this equals $\\sin(32\u00b0)$."
+    },
+    {
+      "title": "Recognize the complementary angle relationship",
+      "content": "In triangle DEF, the right angle is at F and angle D = 58\u00b0. The angles 32\u00b0 and 58\u00b0 are complementary (they sum to 90\u00b0). By the cofunction identity, $\\sin(32\u00b0) = \\cos(58\u00b0)$."
+    },
+    {
+      "title": "Find the matching cosine ratio in triangle DEF",
+      "content": "In right triangle DEF with angle D = 58\u00b0, the cosine of this angle (adjacent over hypotenuse) is $\\frac{DF}{DE} = \\frac{df}{de}$. Therefore, $\\frac{bc}{ab} = \\frac{df}{de}$, which matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

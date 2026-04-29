@@ -1,0 +1,15 @@
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify why the population cannot be estimated",
+      "content": "The key signal is that sampling is poor and the samples are not representative. This directly means we cannot estimate the true number of invertebrates in the CCZ."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "We need a word meaning \u201cimpossible to estimate.\u201d <strong>Inestimable</strong> (choice D) means exactly that\u2014a quantity that cannot be estimated or calculated. The others either wrongly assume the number is small, contradict the passage's point about unreliable data, or describe weakness rather than unknowability. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square both sides to remove the radical",
+      "content": "Starting with $$r=\\sqrt{5w-3}$$, square both sides: $$r^2 = 5w - 3$$"
+    },
+    {
+      "title": "Isolate and solve for w",
+      "content": "Add 3 to both sides: $$r^2 + 3 = 5w$$ Divide by 5: $$w = \\frac{r^2 + 3}{5}$$ Split the fraction: $$w = \\frac{r^2}{5} + \\frac{3}{5}$$ This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

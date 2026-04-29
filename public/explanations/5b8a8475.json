@@ -1,0 +1,16 @@
+{
+  "questionId": "5b8a8475",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope of line k",
+      "content": "From the equation $y = 3x + 15$, the slope of line $k$ is the coefficient of $x$, which is <strong>3</strong>."
+    },
+    {
+      "title": "Apply the perpendicular slopes rule",
+      "content": "For perpendicular lines, their slopes are negative reciprocals. The negative reciprocal of 3 is $-\\frac{1}{3}$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$m_2 = -\\frac{1}{m_1}$$"
+    }
+  ]
+}

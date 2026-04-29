@@ -1,0 +1,15 @@
+{
+  "questionId": "0d43db90",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the perimeter equation",
+      "content": "The perimeter of triangle ABC equals the sum of its three sides. With perimeter = 17 inches, AB = 4 inches, and AC = 7 inches, we write: $$AB + AC + BC = 17$$ Substituting the known values: $$4 + 7 + BC = 17$$"
+    },
+    {
+      "title": "Solve for BC",
+      "content": "Simplifying the equation: $$11 + BC = 17$$ Therefore: $$BC = 6$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

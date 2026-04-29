@@ -1,0 +1,15 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use substitution to test which point satisfies the inequality",
+      "content": "To find a solution to $y \\leq 5x - 21$, substitute each point's $(x, y)$ coordinates and check if the inequality is true. We'll use backsolving, starting with a middle choice."
+    },
+    {
+      "title": "Backsolve through choices B and C",
+      "content": "Backsolving \u2014 testing choice B (0, 21):<br/>$$21 \\leq 5(0) - 21 = -21$$<br/>Fails. Testing choice C (5, -21):<br/>$$-21 \\leq 5(5) - 21 = 25 - 21 = 4$$<br/>This is true \u2014 choice C is a solution. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

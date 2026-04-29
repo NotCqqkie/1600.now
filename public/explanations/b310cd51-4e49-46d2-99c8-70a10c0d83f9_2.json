@@ -1,0 +1,15 @@
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation structure",
+      "content": "The equation is $16h + 13c = 700$, where $h$ = hours at regular job, $c$ = hours at second job, and 700 = total dollars earned. The equation represents total earnings as a sum of earnings from two separate jobs."
+    },
+    {
+      "title": "Identify what 16 represents",
+      "content": "The term $16h$ equals dollars (part of the $700 total). If $h$ is measured in hours, then for the product to give dollars, 16 must be the rate in dollars per hour. Since $h$ specifically represents hours at the regular job, 16 is the hourly wage at the regular job. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "249d3f80",
+  "correctAnswer": "100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the central angle",
+      "content": "Angle $\\angle ROS$ has its vertex at $O$ (the center) with rays extending to points $R$ and $S$ on the circle. This is a <strong>central angle</strong>, and it directly intercepts arc $RS$."
+    },
+    {
+      "title": "Use the central angle property",
+      "content": "The measure of a central angle equals the measure of its intercepted arc. Therefore, $\\angle ROS = 100\u00b0$.",
+      "formula": "$$\\text{Central angle measure} = \\text{Arc measure}$$"
+    }
+  ]
+}

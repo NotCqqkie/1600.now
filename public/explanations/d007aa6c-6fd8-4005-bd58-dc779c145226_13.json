@@ -1,0 +1,15 @@
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the egocentric reference system",
+      "content": "The passage defines an egocentric frame as using left-right, body-based directions for time\u2014<strong>left for past</strong> and <strong>right for future</strong>."
+    },
+    {
+      "title": "Find what contradicts egocentric reference",
+      "content": "Choice C shows the Yupno pointing towards an external landmark (the hill) for the future\u2014backward if behind them, forward if ahead. This reveals an <strong>allocentric (landmark-based)</strong> frame, not egocentric. Choices A and B preserve left/right directional patterns, while D reverses the directions but maintains spatial reference. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

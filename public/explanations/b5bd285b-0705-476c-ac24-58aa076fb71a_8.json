@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence stating Adrastea's discovery year",
+      "content": "Look for Adrastea in the passage. You find: <em>\u201cscientists used the Voyager 1 space probe to discover Adrastea in 1979.\u201d</em>"
+    },
+    {
+      "title": "Match the year to the choices",
+      "content": "The other options either don't appear in the passage (1892, 2001) or refer to a different discovery (1610 for Io). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b44141cf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast",
+      "content": "The notes show that syllable rates differed markedly across languages (Spanish at 7.7 per second, Vietnamese at 5.3), yet information rates were approximately consistent across all 17 languages. An effective overview must capture this key contrast: syllable rates vary among languages, but information rates stay roughly constant."
+    },
+    {
+      "title": "Find the choice that expresses this contrast",
+      "content": "Choice D precisely fits this contrast: it states that syllable rates differ across languages while information rates remain roughly constant. The other choices fail to capture this finding: A only states what was measured, B conflates syllables with information rate, and C invents language-specific differences unsupported by the notes. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

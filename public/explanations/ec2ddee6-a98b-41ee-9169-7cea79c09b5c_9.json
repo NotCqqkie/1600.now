@@ -1,0 +1,15 @@
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that the element \u201cgo\u201d in *gogs* gets repeated in *gogogs*."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Answer A directly repeats that idea: it says *gogogs* contains a repetition of the element \u201cgo\u201d in *gogs*.<br/>The other three choices either claim something not mentioned in the passage, describe a uniqueness that isn\u2019t stated, or assert an identical meaning that the text does not support.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

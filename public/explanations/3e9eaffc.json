@@ -1,0 +1,15 @@
+{
+  "questionId": "3e9eaffc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract and interpret the y-intercept",
+      "content": "The function is $f(x) = -5x + 30$. The y-intercept is the value when $x = 0$:<br/>$$f(0) = -5(0) + 30 = 30$$<br/>In this context, $x = 0$ means no popsicles have been made yet, so 30 fluid ounces is the amount of juice Caleb had before he started making popsicles."
+    },
+    {
+      "title": "Match to the correct interpretation",
+      "content": "The y-intercept of 30 represents the initial juice amount, not a per-item rate. Choice C states that Caleb had approximately 30 fluid ounces of juice when he began to make the popsicles, which matches our interpretation of the y-intercept. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

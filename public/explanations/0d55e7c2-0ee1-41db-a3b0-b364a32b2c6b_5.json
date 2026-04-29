@@ -1,0 +1,15 @@
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core measurement being tested",
+      "content": "The key signal is the word <em>incidence</em>\u2014which refers to the rate or frequency of occurrence\u2014paired with the example of \u201cday\u201d as \u201cthe fifth most commonly used noun.\u201d These details establish that the passage measures how widespread or common a word is in English."
+    },
+    {
+      "title": "Match the word to the frequency test",
+      "content": "C) <strong>pervasive</strong> means widely distributed or present everywhere, which is precisely what the passage tests for in word corpora. The other three choices (assertive, credible, profound) describe unrelated qualities\u2014boldness, trustworthiness, and depth\u2014not word prevalence. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

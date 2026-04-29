@@ -1,0 +1,15 @@
+{
+  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the singular antecedent",
+      "content": "The first sentence introduces \u201cthe song 'Danny Boy'\u201d as a singular noun. The second sentence needs a pronoun in the blank to refer back to this song."
+    },
+    {
+      "title": "Apply the pronoun-antecedent agreement rule",
+      "content": "<strong>It</strong> is the singular pronoun that correctly refers to the song. <strong>Those</strong> and <strong>they</strong> are both plural, violating pronoun-antecedent agreement; <strong>each</strong> cannot properly replace a single noun. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

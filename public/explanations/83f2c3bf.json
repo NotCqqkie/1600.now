@@ -1,0 +1,15 @@
+{
+  "questionId": "83f2c3bf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test choice B",
+      "content": "Backsolving \u2014 testing choice B (y-values 6, 5, 4):<br/>When $x = 0$, the equation gives $y = 0 + 4 = 4$, but choice B has $y = 6$. This fails."
+    },
+    {
+      "title": "Test choice A",
+      "content": "Backsolving \u2014 testing choice A (y-values 4, 5, 6):<br/><ul><li>$x = 0$: equation gives $y = 0 + 4 = 4$ \u2713</li><li>$x = 1$: equation gives $y = 1 + 4 = 5$ \u2713</li><li>$x = 2$: equation gives $y = 2 + 4 = 6$ \u2713</li></ul>All three pairs satisfy $y = x + 4$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

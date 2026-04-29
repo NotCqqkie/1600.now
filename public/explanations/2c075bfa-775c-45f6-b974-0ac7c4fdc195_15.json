@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The key signal is that the TJBH's deep water (below 400 meters) shows \u201cdensity and salinity conditions <strong>akin to</strong> those of the nearby Caribbean Sea.\u201d This similarity is the observation that prompts their inference."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "A explains the similarity through an <strong>underground pathway</strong>: tunnels connecting the TJBH to Caribbean waters would account for how those water characteristics reached such depths. The other choices either propose a comparison of variation rates not supported by the passage, suggest reevaluating other holes without justification, or contradict the similarity with an inverse relationship. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

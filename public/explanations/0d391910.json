@@ -1,0 +1,21 @@
+{
+  "questionId": "0d391910",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "$$4x = 8$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 4: $$x = \\frac{8}{4}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

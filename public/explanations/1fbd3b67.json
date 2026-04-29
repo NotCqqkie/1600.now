@@ -1,0 +1,19 @@
+{
+  "questionId": "1fbd3b67",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate b",
+      "content": "80% less means subtract 80% of 24 from 24: $$b = 24 - 0.80 \\times 24 = 24(1-0.80) = 24 \\times 0.20 = 4.8$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Calculate a and select answer",
+      "content": "190% greater means add 190% of b to b: $$a = b + 1.90b = 2.9b$$<br/>Substitute b = 4.8: $$a = 2.9 \\times 4.8 = (2 \\times 4.8) + (0.9 \\times 4.8) = 9.6 + 4.32 = 13.92$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

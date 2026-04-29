@@ -1,0 +1,15 @@
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key comparison",
+      "content": "The passage directly states: <em>\u201cthey [tax havens] are rarely used by investors living in Japan, while many investors who utilize tax havens reside in Saudi Arabia or Greece.\u201d</em> This contrasts Japan as the low-usage outlier against Saudi Arabia's high usage."
+    },
+    {
+      "title": "Apply the comparison",
+      "content": "B captures this relationship exactly: Japan investors are less likely than Saudi Arabia investors to store wealth in Singapore, which is explicitly named as a tax haven. The other three either contradict the stated usage patterns (A claims Japan investors engage in tax haven use; D claims Japan uses them more than Greece) or introduce investment analysis the passage never addresses (C). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

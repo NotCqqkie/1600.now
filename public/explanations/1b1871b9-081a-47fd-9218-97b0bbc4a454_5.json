@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize 50% as one-half",
+      "content": "Fifty percent is the same as one-half: 50% = $\\frac{1}{2}$. We need to find half of 340 seats."
+    },
+    {
+      "title": "Divide to find the answer",
+      "content": "$$\\frac{340}{2} = 170$$ occupied seats. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

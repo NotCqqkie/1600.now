@@ -1,0 +1,15 @@
+{
+  "questionId": "64e88c58",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's dual goal",
+      "content": "The prompt explicitly states the student wants to provide both \u201can explanation and an example.\u201d"
+    },
+    {
+      "title": "Apply the dual requirement to the choices",
+      "content": "Choice A provides both components: it opens with an explanation (\u201cnot music but rather a series of sound-based meditations that consist of instructions\u201d) and pairs it with a specific example from Meditation XVIII.<br/>The other choices are incomplete: B lacks a specific example, C lacks explanation, and D provides no explanation of the concept.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

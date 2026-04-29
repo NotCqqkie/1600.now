@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the problem",
+      "content": "We need to find the fixed amount withdrawn each time a movie is rented. This is the rate of change in the linear function."
+    },
+    {
+      "title": "Test the answer choices",
+      "content": "Backsolving \u2014 testing choice B (3): If 3 dollars are withdrawn per movie, the account would have $21 - 3m$ dollars after renting $m$ movies. This matches the given function $f(m) = 21 - 3m$ exactly. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "113b938e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what the x-intercept represents",
+      "content": "The x-intercept is where the line crosses the x-axis, occurring when $y = 0$. Since $y$ represents the speed in feet per second, $y = 0$ means the speed is 0\u2014when the bicycle comes to a complete stop."
+    },
+    {
+      "title": "Identify what the x-coordinate means",
+      "content": "The x-coordinate of the x-intercept is the time when $y = 0$. Since $x$ measures time in seconds after braking, this x-coordinate is the number of seconds it took from when Sheila began braking until the bicycle stopped. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

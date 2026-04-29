@@ -1,0 +1,15 @@
+{
+  "questionId": "be35c117",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the rate calculation",
+      "content": "To find revolutions per minute, divide the total number of revolutions by the total time in minutes: $$\\frac{900 \\text{ revolutions}}{50 \\text{ minutes}}$$"
+    },
+    {
+      "title": "Simplify and find the rate",
+      "content": "$$\\frac{900}{50} = \\frac{90}{5} = 18$$ The turbine completes 18 revolutions per minute. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

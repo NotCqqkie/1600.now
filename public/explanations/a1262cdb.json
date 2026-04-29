@@ -1,0 +1,15 @@
+{
+  "questionId": "a1262cdb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we need to find",
+      "content": "We need to express $c - b$ in terms of $t$. We're given that $12t + b = c$."
+    },
+    {
+      "title": "Solve for c - b",
+      "content": "Starting with $12t + b = c$, subtract $b$ from both sides:<br/><br/>$$12t + b - b = c - b$$<br/><br/>$$12t = c - b$$<br/><br/>Therefore $c - b = 12t$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

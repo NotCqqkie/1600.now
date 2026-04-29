@@ -1,0 +1,15 @@
+{
+  "questionId": "b29c520a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tallest bar on the graph",
+      "content": "The graph displays energy density values for four fuels. The tallest bar represents the fuel with the highest energy density. POP biofuel's bar is visibly the tallest, reaching approximately 40 MJ/L on the y-axis."
+    },
+    {
+      "title": "Match the highest bar to the correct choice",
+      "content": "POP biofuel reaches 40 MJ/L, the highest value on the graph. The other three fuels show lower energy density values. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

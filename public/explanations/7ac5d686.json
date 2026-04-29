@@ -1,0 +1,15 @@
+{
+  "questionId": "7ac5d686",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Constant work rate produces a linear relationship",
+      "content": "The inspector works at a constant rate, checking the same number of shirts per unit time. If she starts with $N$ shirts and checks $r$ shirts per unit time, then after time $t$:<br/>$$\\text{Remaining} = N - rt$$"
+    },
+    {
+      "title": "The negative coefficient indicates the slope direction",
+      "content": "The equation $\\text{Remaining} = N - rt$ is linear with slope $-r$. Since the slope is negative, remaining shirts decrease at a constant rate as time increases. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

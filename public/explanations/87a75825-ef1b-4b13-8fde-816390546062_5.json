@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the function's input and output variables",
+      "content": "In the function $K(v) = \\frac{1}{2}(41)(v^2)$, the input variable is $v$ (speed in meters per second) and the output is $K$ (kinetic energy in joules). The notation $K(0)$ means we evaluate $K$ when $v = 0$."
+    },
+    {
+      "title": "Interpret K(0) = 0 in context",
+      "content": "$$K(0) = \\frac{1}{2}(41)(0^2) = 0$$This shows that when speed equals 0 meters per second, kinetic energy equals 0 joules. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

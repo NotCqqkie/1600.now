@@ -1,0 +1,15 @@
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical elements",
+      "content": "The blank falls between \u201cappear\u201d and \u201cUS currency.\u201d The word \u201con\u201d is a preposition, and \u201cUS currency\u201d is the noun phrase that serves as its object."
+    },
+    {
+      "title": "Apply the rule for prepositions and their objects",
+      "content": "A preposition must connect directly to its object without intervening punctuation. Choice D keeps \u201con\u201d immediately before \u201cUS currency,\u201d following this rule perfectly. Choices A, B, and C each introduce punctuation (a semicolon, comma, or colon) that separates the preposition from its object, violating the requirement. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

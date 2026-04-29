@@ -1,0 +1,11 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8",
+  "correctAnswer": "24/5,4.8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate slope using two table points",
+      "content": "Use the slope formula $m = \\frac{\\Delta y}{\\Delta x}$. Select any two points from the table\u2014using $(0, n)$ and $(5, n+24)$:<br/>$$m = \\frac{(n+24) - n}{5 - 0} = \\frac{24}{5}$$<br/>The constant $n$ cancels completely in the numerator. Converting to decimal: $\\frac{24}{5} = 4.8$."
+    }
+  ]
+}

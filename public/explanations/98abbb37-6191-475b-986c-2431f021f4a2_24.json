@@ -1,0 +1,15 @@
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the plural subject",
+      "content": "The subject of the sentence is \u201cFans of the film\u201d \u2014 a plural noun. This is the grammatical clue that determines which verb form must be used."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The rule is subject-verb agreement: the verb must match its subject in number. Since \u201cFans\u201d is plural, \u201crecognize\u201d is the correct plural form. The other three options are all singular verb forms that do not agree with the plural subject. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

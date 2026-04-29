@@ -1,0 +1,15 @@
+{
+  "questionId": "76670c80",
+  "correctAnswer": "180",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the perimeter formula for a square",
+      "content": "The perimeter of a square is the sum of all four sides. Since all sides of a square are equal, the formula is:<br/>$$P = 4s$$where $s$ is the side length."
+    },
+    {
+      "title": "Substitute the given side length and calculate",
+      "content": "Substitute $s = 45$ into the formula:<br/>$$P = 4(45) = 180$$<br/>The perimeter is 180."
+    }
+  ]
+}

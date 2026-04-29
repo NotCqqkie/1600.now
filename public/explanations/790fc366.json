@@ -1,0 +1,15 @@
+{
+  "questionId": "790fc366",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure around the blank",
+      "content": "The sentence contains two independent clauses: <strong>\u201cNakalembe doesn't just compile the information\u201d</strong> (complete thought with subject and verb) and <strong>\u201cshe also shares her findings with African farmers\u201d</strong> (another complete thought). These clauses need to be separated by appropriate punctuation. The word \u201cthough\u201d is being used to introduce a concessive or contrasting relationship\u2014acknowledging the first statement while presenting an additional point."
+    },
+    {
+      "title": "Apply the semicolon rule for independent clauses",
+      "content": "A semicolon separates two independent clauses. Since both parts of this sentence are structurally independent\u2014each with a subject and verb\u2014they require a semicolon between them. The \u201cthough\u201d here functions as a subordinating element that softens the relationship between the two ideas, showing that the second clause is being presented despite or in addition to the first. The correct punctuation is a semicolon directly before \u201cthough,\u201d with no comma after it when the following clause is already clear in structure. <strong>That matches choice <strong>C</strong> \u2014 C is correct.</strong>"
+    }
+  ]
+}

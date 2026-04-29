@@ -1,0 +1,15 @@
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The subject noun phrase is \u201cNew Mexico governor [Name].\u201d On the right side of the blank is an appositive phrase \u201cthe first woman to serve in that role in the state's history\u201d that restates the subject, followed by the main predicate \u201ctook office on January 1, 2011.\u201d An em dash before the predicate marks where the appositive ends."
+    },
+    {
+      "title": "Apply the em dash pairing rule",
+      "content": "Appositives set off by em dashes require matching em dashes on both sides. The blank needs an opening em dash to pair with the closing one after \u201chistory.\u201d Comma, colon, and no punctuation all fail to properly set off the appositive. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

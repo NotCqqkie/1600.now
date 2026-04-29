@@ -1,0 +1,15 @@
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure being punctuated",
+      "content": "The phrase \"which often held symbolic <strong>[BLANK]</strong> of birds, horses, and other animals\" contains a verb \"held\" and its object. The blank requires a noun and punctuation to show how \"symbolic significance\" and \"depictions of animals\" relate to each other within this dependent clause."
+    },
+    {
+      "title": "Apply the correct punctuation for related nouns",
+      "content": "A semicolon separates two closely related noun phrases that express a single idea or relationship. Here, \"symbolic significance; depictions of birds, horses, and other animals\" uses a semicolon to show that the significance is expressed through or consists of depictions\u2014they are distinct but interconnected elements of what the patterns held. The comma in choice D would flatten the relationship into a simple list; the colon in choice B would overstate the hierarchy; a period in choice A breaks the dependent clause. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

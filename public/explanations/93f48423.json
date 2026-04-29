@@ -1,0 +1,16 @@
+{
+  "questionId": "93f48423",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "State the rectangle area formula",
+      "content": "The area of a rectangle equals length times width.",
+      "formula": "$$A = \\text{length} \\times \\text{width}$$"
+    },
+    {
+      "title": "Apply the formula to the given dimensions",
+      "content": "With length = 7 inches and width = 6 inches:<br/>$$A = 7 \\times 6 = 42 \\text{ square inches}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

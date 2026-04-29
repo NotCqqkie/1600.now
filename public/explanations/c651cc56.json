@@ -1,0 +1,15 @@
+{
+  "questionId": "c651cc56",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from two table points",
+      "content": "Since $f$ is linear, we can find the slope using any two points. Using $(0, -2)$ and $(2, 4)$:<br/>$$m = \\frac{f(2) - f(0)}{2 - 0} = \\frac{4 - (-2)}{2} = \\frac{6}{2} = 3$$"
+    },
+    {
+      "title": "Extend from a known point to find f(3)",
+      "content": "We know $f(2) = 4$ from the table. To reach $x = 3$, we move 1 unit right. With slope 3, the function increases by $3 \\cdot 1 = 3$:<br/>$$f(3) = f(2) + 3 = 4 + 3 = 7$$<br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

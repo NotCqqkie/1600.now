@@ -74,40 +74,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "839d1132-416e-4cc6-be17-13454f14da43_3",
-    "testName": "March 2024 International Form A SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe Sydney rock engravings—stone carvings of human and animal figures found in what is now Australia and dating from 5,000–7,000 years ago—are thought of as art today, but how the people of the time understood the engravings is ______. They may have thought of the engravings as something akin to art in our modern sense, but it is entirely possible that they did not—we simply cannot say for certain.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "uncontroversial"
-      },
-      {
-        "id": "B",
-        "text": "unknown"
-      },
-      {
-        "id": "C",
-        "text": "unalterable"
-      },
-      {
-        "id": "D",
-        "text": "unsurprising"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "confidence": "high"
-    }
+      "difficulty": "Easy",
+      "rationale": "Choice B is the best answer because it most logically completes the text’s discussion of Marilyn Dingle’s baskets. In this context, to say that Dingle’s baskets are “handmade from” particular plants means that Dingle creates baskets herself using those plants but without using machines. The text says that Dingle “skillfully winds” parts of palmetto palm plants around sweetgrass plants to make baskets with an appearance that “no factory can reproduce.” This context suggests that Dingle’s baskets are handmade from sweetgrass and palmetto palm.\nChoice A is incorrect because the text describes how Dingle uses sweetgrass and palmetto palm to create her baskets, not how her baskets are “indicated by,” or signified by, sweetgrass and palmetto palm. Choice C is incorrect. Although Dingle’s baskets are described as being made using sweetgrass and palm, there’s nothing in the text to suggest that the baskets are “represented by,” or exemplified or portrayed by, sweetgrass and palmetto palm. Instead, the focus of the text is on Dingle’s use of sweetgrass and palmetto palm and the impossibility of replicating the appearance of her baskets using machines. Choice D is incorrect because there’s nothing in the text to suggest that Dingle’s baskets are “collected with,” or brought together in a group with, sweetgrass and palmetto palm. Instead, the text describes how Dingle uses those plants to make her baskets.",
+      "id": "84b5125b",
+      "testName": "SAT Question Bank",
+      "text": "Artist Marilyn Dingle’s intricate, coiled baskets are ______ sweetgrass and palmetto palm. Following a Gullah technique that originated in West Africa, Dingle skillfully winds a thin palm frond around a bunch of sweetgrass with the help of a “sewing bone” to create the basket’s signature look that no factory can reproduce. Which choice completes the text with the most logical and precise word or phrase?",
+      "correctAnswer": "B",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "indicated by"
+          },
+          {
+              "id": "B",
+              "text": "handmade from"
+          },
+          {
+              "id": "C",
+              "text": "represented by"
+          },
+          {
+              "id": "D",
+              "text": "collected with"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical progression",
+      "content": "The passage follows a three-step structure: it introduces a phenomenon (intermittent mass loss), systematically eliminates two proposed explanations (\u201cnot attributable\u201d for solar energy; \u201cuntenable\u201d for impact ejection), and then pivots with \u201cInstead\u201d to present a third explanation as the likely correct one."
+    },
+    {
+      "title": "Apply the structure to each choice",
+      "content": "Choice A matches the passage's progression: it introduces a phenomenon, refutes two explanations, and presents a third as plausible, confirmed by the passage's language (\u201cnot attributable,\u201d \u201cuntenable,\u201d \u201care likely correct\u201d).<br/>The other choices either misidentify the text's content (B claims new evidence is present; C claims no persuasive account exists) or misstate the organizing principle (D focuses on asteroid comparison rather than the explanatory framework).<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

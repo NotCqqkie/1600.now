@@ -1,0 +1,15 @@
+{
+  "questionId": "4f7981a0",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that 9x + 6 is a multiple of 3x + 2",
+      "content": "Notice that the expression we need to find, $9x + 6$, can be factored: $$9x + 6 = 3(3x + 2)$$ This means $9x + 6$ is exactly 3 times the expression $3x + 2$ that appears in our given equation."
+    },
+    {
+      "title": "Substitute the given value",
+      "content": "We know that $3x + 2 = 8$. Since $9x + 6 = 3(3x + 2)$, we can substitute directly: $$9x + 6 = 3(8) = 24$$"
+    }
+  ]
+}

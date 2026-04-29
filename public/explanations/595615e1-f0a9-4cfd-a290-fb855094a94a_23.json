@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause-and-effect relationship",
+      "content": "Rogerson's criticism is that the USGS omitted important considerations about Earth's curvature. The next sentence should logically conclude from this omission that the USGS-determined center was inaccurate. The transition must signal a consequence flowing from a stated cause."
+    },
+    {
+      "title": "Match the transition to the logical relationship",
+      "content": "<strong>Hence</strong> marks consequence\u2014the exact signal needed since Rogerson's criticism about omitted considerations directly explains why the USGS center was inaccurate. The other three signal contrast, concession, or sequence\u2014none matching this causal relationship. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

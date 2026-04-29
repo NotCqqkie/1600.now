@@ -1,0 +1,15 @@
+{
+  "questionId": "2c76bcce",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the confidence interval",
+      "content": "The margin of error is $0.02\\text{ oz}$ around the estimate of $27.8\\text{ oz}$:<br/><br/>$$27.8 - 0.02 = 27.78\\text{ oz (lower bound)}$$$$27.8 + 0.02 = 27.82\\text{ oz (upper bound)}$$"
+    },
+    {
+      "title": "Interpret what the interval represents",
+      "content": "Margin of error applies to the <em>estimate of the population mean</em>, not to individual weights (choice B) or the known sample data (choice C). Choice D ignores the margin of error. The correct interpretation is that we estimate the population mean falls within $[27.78, 27.82]\\text{ oz}$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

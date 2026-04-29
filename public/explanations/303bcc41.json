@@ -1,0 +1,15 @@
+{
+  "questionId": "303bcc41",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the graph measures",
+      "content": "The graph shows the \u201cTop Four Species of Wild Land Mammals by Global Biomass\u201d with values measured in millions of metric tons on the vertical axis. To find which species has the highest global biomass, locate the tallest bar."
+    },
+    {
+      "title": "Read the tallest bar from the graph",
+      "content": "The white-tailed deer bar reaches approximately 2.7 million metric tons, clearly taller than the African bush elephant (\u22481.3), eastern gray kangaroo (\u22480.6), and wild boar (\u22481.9). The other three species all have lower biomass values. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f83f0aab",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast after 'but'",
+      "content": "The passage sets up a contrast with \u201cbut.\u201d Before it, scientists claim mammals were \u201cnot very [blank].\u201d After it, Luo's research reveals various plant-eating mammals and gliding species \u2014 a range of different types."
+    },
+    {
+      "title": "The blank describes what scientists underestimated",
+      "content": "The word must complete: \u201cnot very [diverse].\u201d <strong>Diverse</strong> captures the variety Luo found (multiple types, different diets, different abilities), which contradicts the scientists' claim of uniformity. Predatory doesn't match the plant-eating fossils, obscure doesn't fit what scientists claimed, and localized ignores the variety in behaviors.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

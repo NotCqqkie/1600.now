@@ -1,0 +1,15 @@
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the transition need",
+      "content": "The first sentence states what Fluc can do: it has two enzymatic functions (bioluminescence and ACS). The second sentence shifts to explaining why this matters\u2014its presence indicates bioluminescence capability, whereas ACS alone would not. The transition must signal this move from fact-stating to explanation."
+    },
+    {
+      "title": "Match the transition",
+      "content": "\u201dThat is\u201d (meaning \u201cto clarify\u201d or \u201cto explain\u201d) signals exactly this type of transition. It marks the moment when the second sentence clarifies what the dual functionality signifies. Nevertheless introduces an unexpected contrast, Moreover suggests adding unrelated information, and In fact provides emphasis rather than explanation. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

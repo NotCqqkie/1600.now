@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the independent clauses being joined",
+      "content": "Left side of the blank: <em>This designation is [word]</em> forms an independent clause (subject + verb + complement). Right side: <em>Proto-Cariban is only postulated, its characteristics being inferred from the linguistic properties of its twenty-nine daughters</em> is also an independent clause with an additional participial phrase. Two independent clauses must be connected here."
+    },
+    {
+      "title": "Apply the conjunctive adverb rule",
+      "content": "The word <em>however</em> is a conjunctive adverb that shows contrast. The SAT standard for joining two independent clauses with a conjunctive adverb is: <strong>independent clause + semicolon + however + comma + independent clause</strong> (IC; however, IC). This pattern appears in choice B: <em>This designation is hypothetical; however, Proto-Cariban is only postulated...</em> The semicolon separates the independent clauses while the comma properly punctuates the transition word. Choices A, C, and D violate this rule\u2014A creates two separate sentences with a period, C places a colon before a transition word (non-standard), and D creates a comma splice by relying only on commas to separate independent clauses. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

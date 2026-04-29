@@ -1,0 +1,11 @@
+{
+  "questionId": "d45572cc",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "The value $f(0)$ represents the $y$-coordinate of the graph at $x = 0$ (the $y$-intercept). Looking at where the curve crosses the $y$-axis, we read directly from the grid: the curve passes through the point $(0, 3)$. Therefore, $f(0) = 3$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "63d03c0b",
+  "correctAnswer": "3331",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the point (3331, 433) into the function equation",
+      "content": "We know that $f(3331) = 433$. Substituting $x = 3331$ into $f(x) = \\frac{1}{7}(x - a) + 433$:<br/><br/>$$\\frac{1}{7}(3331 - a) + 433 = 433$$"
+    },
+    {
+      "title": "Solve for the constant a",
+      "content": "Subtract 433 from both sides:<br/><br/>$$\\frac{1}{7}(3331 - a) = 0$$<br/><br/>Multiply both sides by 7:<br/><br/>$$3331 - a = 0$$<br/><br/>$$a = 3331$$"
+    }
+  ]
+}

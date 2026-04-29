@@ -1,0 +1,20 @@
+{
+  "questionId": "5b4757df",
+  "correctAnswer": "14.66",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find ST using the area formula",
+      "content": "Since angle T is a right angle, sides RT and ST are perpendicular legs. Substituting into the area formula:<br/><br/>$$792 = \\frac{1}{2} \\times 72 \\times ST$$<br/><br/>$$ST = 22$$",
+      "formula": "$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$"
+    },
+    {
+      "title": "Identify the similar triangle relationship",
+      "content": "Since $LK \\parallel RT$ with L on $RS$ and K on $ST$, triangle $SKL$ is similar to triangle $SRT$. The scale factor is:<br/><br/>$$\\frac{LK}{RT} = \\frac{24}{72} = \\frac{1}{3}$$<br/><br/>In similar triangles, all corresponding linear measurements share the same scale factor."
+    },
+    {
+      "title": "Calculate KT using the similarity ratio",
+      "content": "For sides extending from vertex S, the similarity ratio applies:<br/><br/>$$\\frac{SK}{ST} = \\frac{1}{3}$$<br/><br/>$$SK = \\frac{22}{3}$$<br/><br/>Since K lies on $ST$:<br/><br/>$$KT = ST - SK = 22 - \\frac{22}{3} = \\frac{44}{3} \\approx 14.67$$"
+    }
+  ]
+}

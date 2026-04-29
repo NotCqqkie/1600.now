@@ -1,0 +1,15 @@
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the elements in the phrase",
+      "content": "The blank must include two pieces of information about the author: the role (<strong>poet</strong>) and the name (<strong>Emily Hiestand</strong>). These are followed by another descriptive element in the sentence: <strong>author of <em>The Very Rich Hours</em></strong>."
+    },
+    {
+      "title": "Apply the comma rule for identifying names vs. additional details",
+      "content": "When a name identifies which specific person you're describing, it should not be set off by commas \u2014 for example, <strong>the poet Emily Hiestand</strong> without commas around the name. When a descriptive phrase provides additional information (like <strong>author of...</strong>), it must be separated by a comma: <strong>the poet Emily Hiestand, author of <em>The Very Rich Hours</em></strong>. The other choices either incorrectly place commas around the name or fail to separate the descriptive phrase.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

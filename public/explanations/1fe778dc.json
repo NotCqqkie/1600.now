@@ -1,0 +1,15 @@
+{
+  "questionId": "1fe778dc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y\u2011intercept",
+      "content": "Any point with $x=0$ lies on the y\u2011axis, so its y\u2011coordinate is the y\u2011intercept.<br/>The line passes through $(0,3)$; therefore the y\u2011intercept is $b = 3$."
+    },
+    {
+      "title": "Write the equation in slope\u2011intercept form",
+      "content": "The slope\u2011intercept form is $$y = mx + b$$ with slope $m = -\\frac{1}{2}$ and intercept $b = 3$ from step 1.<br/>Substitute: $$y = -\\frac{1}{2}x + 3$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

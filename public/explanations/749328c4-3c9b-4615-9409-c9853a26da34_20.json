@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure at the blank",
+      "content": "The blank requires occupational descriptions for Fu Pei-mei, positioned between the adjective \u201crenowned\u201d and the proper name \u201cFu Pei-mei\u201d itself."
+    },
+    {
+      "title": "Apply the punctuation rule for descriptive phrases before names",
+      "content": "In standard English, no comma separates a descriptive phrase from a proper name it identifies\u2014think \u201crenowned chef Julia Child,\u201d not \u201crenowned chef, Julia Child.\u201d Choice B (\u201cchef and culinary instructor\u201d) correctly follows this pattern. The other three options each add unnecessary commas: some before the name (A, D) and some within the compound before \u201cand\u201d (C), violating the standard rule. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

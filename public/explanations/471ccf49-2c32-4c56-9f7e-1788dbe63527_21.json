@@ -1,0 +1,15 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify k as the y-intercept",
+      "content": "In the equation $y = 5x + k$, the term $k$ is the y-intercept. When $x = 0$, the equation becomes $y = 5(0) + k = k$. So finding $k$ means reading where the line crosses the $y$-axis."
+    },
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "From the graph, the line crosses the $y$-axis at the point $(0, -8)$. Therefore $k = -8$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

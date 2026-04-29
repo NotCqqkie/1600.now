@@ -102,30 +102,13 @@
     "difficulty": "Easy",
     "question_number": 4,
     "test_name": "September 2025 International Form A SAT Math Module 2",
-    "passage": "The graphs of the equations in the given system of equations intersect at the point $(x, y)$ in the $xy$-plane. What is a possible value of $x$?",
+    "passage": "$x+y=125$\n$x+y+y=155$\nThe solution to the given system of equations is $\\left(x,y\\right)$. What is the value of $y$?",
     "question_text": null,
-    "choices": [
-      {
-        "label": "A",
-        "text": "0"
-      },
-      {
-        "label": "B",
-        "text": "2"
-      },
-      {
-        "label": "C",
-        "text": "42"
-      },
-      {
-        "label": "D",
-        "text": "63"
-      }
-    ],
-    "is_fill_in_blank": false,
-    "correct_answer": "C",
-    "rationale": null,
-    "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_4"
+    "choices": [],
+    "is_fill_in_blank": true,
+    "correct_answer": "30",
+    "rationale": "The correct answer is $30$. It’s given that $x+y=125$. Substituting $125$ for $x+y$ in the second equation of the given system yields $125+y=155$. Subtracting $125$ from both sides of this equation yields $y=30$. Therefore, the value of $y$ is $30$.",
+    "id": "3409707e"
   },
   {
     "section": "Math",

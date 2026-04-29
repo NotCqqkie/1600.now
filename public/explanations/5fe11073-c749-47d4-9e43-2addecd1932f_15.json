@@ -1,0 +1,15 @@
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the inverse relationship",
+      "content": "The study found a <em>broad inverse relationship</em>: as market share increases, the increase in cross-category purchase probability decreases, and vice versa. What accounts for this pattern?"
+    },
+    {
+      "title": "Identify the ceiling-and-floor mechanism",
+      "content": "Choice C explains this inverse relationship through different ceiling and floor effects. High-market-share brands already have high purchase probability with or without the cross-category effect, so there's minimal room for additional increase. Low-market-share brands have low baseline probability, but when purchased in one category, signal consumer preference, creating substantial room to increase in another.<br/><br/>The other choices either address single-category competitive dynamics (A, B) or misattribute low market share to non-recognition (D), neither of which explains why the cross-category effect is systematically stronger for lower-market-share brands.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

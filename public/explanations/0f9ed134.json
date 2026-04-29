@@ -1,0 +1,15 @@
+{
+  "questionId": "0f9ed134",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The key signal is the relationship between the two sentences: the second sentence provides a specific example of the research's influence mentioned in the first. The transition must reflect this elaboration\u2014showing how the influence is demonstrated by the treaty."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "<strong>Specifically</strong> transitions from a general claim (the research was \u201cextremely influential\u201d) to a concrete example of that influence (the 1987 treaty). The other three choices either signal a contradiction or logical disconnect where continuity is needed (However, Regardless) or introduce temporal confusion (Earlier). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the multiplication factor when w increases by 1",
+      "content": "When $w$ increases by 1, the exponent $3w$ increases by 3. So:<br><br>$$z(w+1) = (0.835)^{3(w+1)} = (0.835)^{3w+3} = (0.835)^{3w} \\cdot (0.835)^3 = z(w) \\cdot (0.835)^3$$<br><br>The function value is multiplied by $(0.835)^3$."
+    },
+    {
+      "title": "Convert the multiplication factor to a percentage decrease",
+      "content": "A percentage decrease of $p$% means the new value equals the old value times $(1 - \\frac{p}{100})$. Since the value is multiplied by $(0.835)^3$:<br><br>$$(0.835)^3 = 1 - \\frac{p}{100}$$<br><br>Computing $(0.835)^3$: We have $(0.835)^2 = 0.697225$, so $(0.835)^3 = 0.697225 \\times 0.835 \\approx 0.5822$.<br><br>Solving for $p$:<br><br>$$p = 100(1 - 0.5822) = 100 \\times 0.4178 = 41.78 \\approx 41.8$$<br><br>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

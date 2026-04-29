@@ -1,0 +1,11 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply triangle angle sum property",
+      "content": "The sum of all angles in a triangle equals 180\u00b0. With \u2220F = 39\u00b0 and \u2220G = 39\u00b0:<br/><br/>$$\\angle F + \\angle G + \\angle H = 180\u00b0$$<br/>$$39\u00b0 + 39\u00b0 + \\angle H = 180\u00b0$$<br/>$$78\u00b0 + \\angle H = 180\u00b0$$<br/>$$\\angle H = 102\u00b0$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "f2d60b99",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize vertex form and extract the vertex",
+      "content": "The function $f(x) = \\frac{1}{9}(x-7)^2 + 3$ is in vertex form. Comparing to the standard form, we identify $a = \\frac{1}{9}$, $h = 7$, and $k = 3$. The vertex is at $(h, k) = (7, 3)$.",
+      "formula": "$$y = a(x-h)^2 + k \\text{ has vertex at } (h, k)$$"
+    },
+    {
+      "title": "Determine that the vertex is a minimum",
+      "content": "Since $a = \\frac{1}{9} > 0$, the parabola opens upward. For an upward-opening parabola, the vertex represents a minimum point."
+    },
+    {
+      "title": "Interpret the vertex in context",
+      "content": "The vertex $(7, 3)$ means that at time $x = 7$ seconds, the height is $y = 3$ inches. Since the vertex is a minimum point, the y-coordinate of 3 inches represents the minimum height the ball reaches. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

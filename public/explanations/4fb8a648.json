@@ -1,0 +1,15 @@
+{
+  "questionId": "4fb8a648",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equations equal and rearrange",
+      "content": "Since both expressions equal $y$:<br/><br/>$$x + 9 = x^2 + 16x + 63$$<br/><br/>Rearranging to standard form by moving all terms to one side:<br/><br/>$$x^2 + 15x + 54 = 0$$"
+    },
+    {
+      "title": "Factor and find the greatest solution",
+      "content": "Find two numbers that multiply to 54 and add to 15: these are 6 and 9.<br/><br/>$$(x + 6)(x + 9) = 0$$<br/><br/>This gives $x = -6$ or $x = -9$. The greatest of these two solutions is $-6$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

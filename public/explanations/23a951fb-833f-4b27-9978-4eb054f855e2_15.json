@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right triangle configuration",
+      "content": "Triangle QRS has a right angle at R (marked by the small square). The base SR has length 22. Side QS is the hypotenuse we're looking for."
+    },
+    {
+      "title": "Apply the sine ratio from angle Q",
+      "content": "From angle Q, side SR is opposite and QS is the hypotenuse. Using the sine ratio:<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{22}{QS}$$<br/>Rearranging to solve for QS:<br/>$$QS = \\frac{22}{\\sin Q}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

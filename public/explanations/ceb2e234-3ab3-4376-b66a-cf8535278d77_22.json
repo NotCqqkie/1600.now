@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express s(t) in standard form",
+      "content": "Since $s(t) = r(t) + 1$:<br/>$$s(t) = 53t - 2t^2 + 1 = -2t^2 + 53t + 1$$<br/>This is a quadratic with negative leading coefficient, so it has a maximum."
+    },
+    {
+      "title": "Complete the square to find the maximum value",
+      "content": "Factor out $-2$ from the first two terms:<br/>$$s(t) = -2\\left(t^2 - \\frac{53}{2}t\\right) + 1$$<br/><br/>Complete the square by adding and subtracting $\\left(\\frac{53}{4}\\right)^2$:<br/>$$s(t) = -2\\left[\\left(t - \\frac{53}{4}\\right)^2 - \\left(\\frac{53}{4}\\right)^2\\right] + 1$$<br/><br/>Distribute the $-2$:<br/>$$s(t) = -2\\left(t - \\frac{53}{4}\\right)^2 + 2\\left(\\frac{53}{4}\\right)^2 + 1$$<br/><br/>The maximum occurs when the squared term equals zero:<br/>$$s_{\\text{max}} = 1 + 2\\left(\\frac{53}{4}\\right)^2$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

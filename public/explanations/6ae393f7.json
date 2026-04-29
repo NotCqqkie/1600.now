@@ -1,0 +1,15 @@
+{
+  "questionId": "6ae393f7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the elimination-then-endorsement pattern",
+      "content": "The passage systematically dismisses two explanations with \u201cbut in contrast\u201d and \u201cuntenable,\u201d then pivots with \u201cInstead\u201d to endorse a third. This three-part structure\u2014ruled out, ruled out, endorsed\u2014defines the text's movement."
+    },
+    {
+      "title": "Match the pattern to the choices",
+      "content": "Choice C maps this exactly: it identifies the phenomenon, the two refuted explanations with their specific weaknesses, and endorses the third as plausible. The other three choices either reframe what's being rejected (A), add unsupported details like \u201cnew evidence\u201d (B), or contradict the conclusion (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

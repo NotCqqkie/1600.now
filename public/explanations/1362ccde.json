@@ -1,0 +1,15 @@
+{
+  "questionId": "1362ccde",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute and solve for x",
+      "content": "The first equation $y = 4x + 1$ is already solved for $y$. Substitute this into the second equation:<br/>$$4(4x + 1) = 15x - 8$$<br/>Expand:<br/>$$16x + 4 = 15x - 8$$<br/>Subtract $15x$ and subtract 4 from both sides:<br/>$$x = -12$$"
+    },
+    {
+      "title": "Find y and calculate x - y",
+      "content": "Substitute $x = -12$ into the first equation:<br/>$$y = 4(-12) + 1 = -47$$<br/>Therefore:<br/>$$x - y = (-12) - (-47) = 35$$"
+    }
+  ]
+}

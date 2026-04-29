@@ -1,0 +1,15 @@
+{
+  "questionId": "af125459",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The question asks for the depth where the <strong>highest number</strong> of beach-collected tools were found. This directs us to find the maximum value in the beach-collected column of the table."
+    },
+    {
+      "title": "Locate the maximum and identify the matching depth",
+      "content": "Scanning the beach-collected column, the values are 7, 99, 2, 18, and 1. The maximum is 99, occurring at 3\u20134 meters below the surface. All other depths show lower numbers, so none of them qualify. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

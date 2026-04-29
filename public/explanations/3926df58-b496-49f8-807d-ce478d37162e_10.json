@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the logical requirement",
+      "content": "The assertion \u201c31 was NOT the lowest count at any station\u201d demands evidence of a count smaller than 31."
+    },
+    {
+      "title": "Match the data to the assertion",
+      "content": "Choice C cites 16 barred flagtails at station 3\u2014a count smaller than 31 that proves the claim. The others either misquote the table (A) or cite values larger than 31 (B and D), neither supporting the argument. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_8",
+  "correctAnswer": "94",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle angle sum property",
+      "content": "In any triangle, the three interior angles sum to <strong>180\u00b0</strong>. For triangle JKL:\n<div class=\"callout\">$$\\angle J + \\angle K + \\angle L = 180\u00b0$$</div>",
+      "formula": "$$\\text{Sum of angles in a triangle} = 180\u00b0$$"
+    },
+    {
+      "title": "Substitute and solve for angle J",
+      "content": "Given $\\angle K = 43\u00b0$ and $\\angle L = 43\u00b0$, substitute:\n<div class=\"callout\">$$\\angle J + 43\u00b0 + 43\u00b0 = 180\u00b0$$</div>\nSimplify:\n<div class=\"callout\">$$\\angle J = 180\u00b0 - 86\u00b0 = 94\u00b0$$</div>\nThe measure of $\\angle J$ is <strong>94</strong> degrees."
+    }
+  ]
+}

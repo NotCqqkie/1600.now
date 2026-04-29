@@ -1,0 +1,15 @@
+{
+  "questionId": "cea27ab2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for y in terms of x",
+      "content": "Starting with $7x - 4y = -84$, isolate $y$:<br/>$$-4y = -84 - 7x$$<br/>$$y = \\frac{84 + 7x}{4}$$<br/>Now we have a formula to compute $y$ for any $x$-value."
+    },
+    {
+      "title": "Evaluate the formula at each x-value",
+      "content": "Substitute each $x$-value into $y = \\frac{84 + 7x}{4}$:<br/><ul><li>$x = 0$: $y = \\frac{84 + 7(0)}{4} = \\frac{84}{4} = 21$</li><li>$x = 4$: $y = \\frac{84 + 7(4)}{4} = \\frac{84 + 28}{4} = \\frac{112}{4} = 28$</li><li>$x = 8$: $y = \\frac{84 + 7(8)}{4} = \\frac{84 + 56}{4} = \\frac{140}{4} = 35$</li></ul>The resulting $(x, y)$ pairs are $(0, 21)$, $(4, 28)$, and $(8, 35)$, which match choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

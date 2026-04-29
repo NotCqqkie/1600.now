@@ -1,0 +1,35 @@
+{
+  "questionId": "463eec13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the root as a fractional exponent",
+      "content": "The numerator is the square root of $16x^{4}y^{8}$. Rewrite it as an exponent: $$(16x^{4}y^{8})^{1/2}$$",
+      "formula": "$$a^{m/n} = \\sqrt[n]{a^{m}}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Apply the exponent to each factor",
+      "content": "Distribute the exponent $\\frac12$: $$16^{1/2} \\cdot (x^{4})^{1/2} \\cdot (y^{8})^{1/2} = 4x^{2}y^{4}$$",
+      "formula": "$$(ab)^{c}=a^{c}b^{c}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Divide by the denominator",
+      "content": "Now divide by $x^{3}$: $$\\frac{4x^{2}y^{4}}{x^{3}} = 4x^{2-3}y^{4} = 4x^{-1}y^{4}$$",
+      "formula": "$$\\frac{x^{a}}{x^{b}} = x^{a-b}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Identify the equivalent expression",
+      "content": "The variable part of the result is $x^{-1}y^{4}$, which matches choice D. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

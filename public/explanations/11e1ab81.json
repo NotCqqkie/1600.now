@@ -1,0 +1,15 @@
+{
+  "questionId": "11e1ab81",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the slope from the graph",
+      "content": "Two clear points are (0, 0) and (1, 2).<br/>$$\\text{slope} = \\frac{2 - 0}{1 - 0} = 2$$"
+    },
+    {
+      "title": "Write the linear equation",
+      "content": "The line passes through the origin (y-intercept = 0) with slope 2, so the equation is $d = 2m$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

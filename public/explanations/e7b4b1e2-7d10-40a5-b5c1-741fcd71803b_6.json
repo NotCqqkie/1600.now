@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared observation across both texts",
+      "content": "Text 1 states that \u201cmany of today's artists are making albums that are much longer than albums from decades past.\u201d Text 2 echoes this, noting that \u201cmany new albums are longer and have more songs than albums crafted for physical formats.\u201d Both authors directly address the same phenomenon: a shift toward longer albums."
+    },
+    {
+      "title": "Match the observation to the answer choices",
+      "content": "Choice C states that new albums are longer than they once were\u2014exactly what both texts confirm through their explanations of how digital streaming and the removal of physical constraints have enabled longer releases. The other choices describe phenomena not addressed in either text. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

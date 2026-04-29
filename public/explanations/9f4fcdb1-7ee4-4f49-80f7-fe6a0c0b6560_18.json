@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "Before the blank: noun phrase (<em>\u201ca new country dialing code from the International Telegraph and Telephone Consultative Committee\u201d</em>). <br/>After the blank: noun phrase (<em>\u201cincoming international telephone calls to reach the country\u201d</em>)."
+    },
+    {
+      "title": "Match the correct form",
+      "content": "A participle is used to modify a noun; a finite verb cannot (without a relative pronoun). <strong>Enabling</strong> is the participle form that correctly modifies the dialing code by describing its function. The other options are finite verbs (<strong>had enabled, would enable, enabled</strong>), which cannot function as noun modifiers in this position. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

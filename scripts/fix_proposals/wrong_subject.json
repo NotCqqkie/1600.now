@@ -1,0 +1,16 @@
+[
+  {
+    "id": "4047cfa7",
+    "url": "/bank/math/459?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "should_be_section": "Math",
+    "note": "Literature context is incidental. Core question is arithmetic/inequality: 5000 - 3026 = max additional words."
+  },
+  {
+    "id": "df32b09c",
+    "url": "/bank/math/491?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "should_be_section": "Math",
+    "note": "History context is incidental. Core question is solving inequality: (G + 85 + 78 + 98)/4 ≥ 90."
+  }
+]

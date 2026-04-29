@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify all three sides from the diagram",
+      "content": "The diagram shows a triangle with three sides: one side labeled $x$ inches and two sides each labeled $y$ inches. These are the three edges that form the triangle's perimeter."
+    },
+    {
+      "title": "Write the perimeter equation",
+      "content": "Perimeter is the sum of all three sides:<br/><br/>$$\\text{Perimeter} = x + y + y = 69$$<br/><br/>Combine like terms on the left side:<br/><br/>$$x + 2y = 69$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

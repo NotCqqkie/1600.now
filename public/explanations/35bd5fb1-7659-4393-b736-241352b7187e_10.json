@@ -1,0 +1,20 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize D and E as midpoints",
+      "content": "Given that D is the midpoint of segment AB and E is the midpoint of segment BC, the segment DE connects the midpoints of two sides of triangle ABC."
+    },
+    {
+      "title": "Apply the Midsegment Theorem",
+      "content": "When a segment connects the midpoints of two sides of a triangle, it is parallel to the third side and is <strong>half the length</strong> of that third side. Therefore, DE is parallel to AC.",
+      "formula": "$$DE = \\frac{1}{2}AC$$"
+    },
+    {
+      "title": "Solve for AC",
+      "content": "Given that DE = 14, we substitute into the equation: $$14 = \\frac{1}{2}AC$$ $$AC = 2 \\times 14 = 28$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

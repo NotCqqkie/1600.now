@@ -1,0 +1,15 @@
+{
+  "questionId": "bd9eb2b5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We know $f(x) = 8x$ and we need $f(x) = 72$. Setting them equal:\n$$8x = 72$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 8:\n$$x = \\frac{72}{8} = 9$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -2,40 +2,34 @@ import { Question } from "../all_questions";
 
 export const questions: Question[] = [
   {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "d9f381e2-df35-4ee7-a137-e689faac81b1_1",
-    "testName": "December 2023 Form C SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe organizers specifically indicated that the conference was intended to focus on children’s literature, so despite the education specialist’s ______ her expertise on the subject in general, she found that she could speak authoritatively about the works of author James Haskins, particularly *James Van Der Zee: The Picture Takin’ Man*, which she had used effectively in classroom instruction for many years.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "insight into"
-      },
-      {
-        "id": "B",
-        "text": "hesitancy about"
-      },
-      {
-        "id": "C",
-        "text": "affinity for"
-      },
-      {
-        "id": "D",
-        "text": "exceptions to"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice D is the best answer because as used in the text, “singular” most nearly means extraordinary. The text portrays an experiment in which a character rehydrates a dried rose by infusing it with moisture. After prolonged contact with the liquid, the rose begins to absorb it, undergoing an exceptional transformation: its color deepens, its previously “crushed and dried” petals shift, and the entire flower revives “from a deathlike slumber.” In other words, an extraordinary change is visible in the flower.\nChoice A is incorrect. Although in some contexts “singular” can mean of or relating to an individual or to a single instance of something, this usage doesn’t imply loneliness or an otherwise unsatisfactory condition of isolation. Moreover, the text doesn’t attribute such a condition to the rose. Choice B is incorrect. Although “singular” has several related meanings, none of them relate to being disagreeable or unpleasant. Moreover, the text doesn’t portray the change undergone by the rose as necessarily disagreeable. Choice C is incorrect because “singular” means extraordinary, not acceptable. The change is portrayed as striking, not barely satisfactory.",
+      "id": "359902ae",
+      "testName": "SAT Question Bank",
+      "text": "The following text is adapted from Nathaniel Hawthorne’s 1837 story “Dr. Heidegger’s Experiment.” The main character, a physician, is experimenting with rehydrating a dried flower.\nAt first [the rose] lay lightly on the surface of the fluid, appearing to imbibe none of its moisture. Soon, however, <u>a singular</u> change began to be visible. The crushed and dried petals stirred and assumed a deepening tinge of crimson, as if the flower were reviving from a deathlike slumber. As used in the text, what does the phrase “a singular” most nearly mean?",
+      "correctAnswer": "D",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "A lonely"
+          },
+          {
+              "id": "B",
+              "text": "A disagreeable"
+          },
+          {
+              "id": "C",
+              "text": "An acceptable"
+          },
+          {
+              "id": "D",
+              "text": "An extraordinary"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

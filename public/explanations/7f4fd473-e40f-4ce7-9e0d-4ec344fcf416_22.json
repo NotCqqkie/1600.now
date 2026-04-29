@@ -1,0 +1,15 @@
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the list structure",
+      "content": "The passage explicitly introduces <strong>three basic steps</strong> and marks the first with <strong>\u201cFirst\u201d</strong> and the third with <strong>\u201cThird,\u201d</strong> establishing a numbered sequence."
+    },
+    {
+      "title": "Match the transition to the sequence",
+      "content": "<strong>\u201cSecond\u201d</strong> completes the <strong>First \u2192 Second \u2192 Third</strong> progression established in the introduction. A) introduces examples, C) signals consequence, and D) signals contrast\u2014none continue the numbered list. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

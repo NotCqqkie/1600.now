@@ -1,0 +1,15 @@
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the structural signal",
+      "content": "The word \u201cBut\u201d at the start of the final sentence signals a crucial contrast\u2014it indicates that what follows directly challenges the earlier claim that protected areas hinder economic development."
+    },
+    {
+      "title": "Match the contradiction signal",
+      "content": "Choice B recognizes this contrast: the passage introduces a widely held belief, explains why it persists, and then presents a study whose findings seemingly conflict with that belief. The others either mischaracterize the findings as supporting the belief instead (A and D), add the absent reconciliation theme (C), or cite multiple studies when only one is mentioned. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

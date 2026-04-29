@@ -1,0 +1,15 @@
+{
+  "questionId": "014b3394",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the hypothesis's prediction",
+      "content": "The researcher predicted that Arctic ground squirrels, hibernating alone, would have longer torpor bouts and shorter arousal episodes than Alaska marmots, which hibernate in groups."
+    },
+    {
+      "title": "Locate supporting data in the table",
+      "content": "The table shows Arctic ground squirrels averaged 16.77 days per torpor bout versus marmots' 13.81 days, and 14.2 hours per arousal episode versus marmots' 21.2 hours. Choice C directly states this pattern: Alaska marmots had shorter torpor bouts and longer arousal episodes than Arctic ground squirrels. The other choices either misstate the data (A claims marmot episodes lasted \u201cfor days\u201d when they were only 21.2 hours), describe only one species without comparison (B and D), or avoid the cross-species pattern. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

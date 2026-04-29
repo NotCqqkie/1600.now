@@ -1,0 +1,15 @@
+{
+  "questionId": "ee540927",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the standard form",
+      "content": "To find a circle's center from its general form equation, rewrite it in standard form $(x-h)^2 + (y-k)^2 = r^2$ by completing the square. The $y$ terms are already in simplified form ($y^2$ with no linear term), so we only need to complete the square for $x$."
+    },
+    {
+      "title": "Complete the square for x",
+      "content": "For $x^2 + 58x + y^2 = 0$, take half the coefficient of $x$ and square it: half of 58 is 29, and $29^2 = 841$. Add 841 to both sides:<br/><br/>$$x^2 + 58x + 841 + y^2 = 841$$<br/><br/>Factor the left side:<br/><br/>$$(x+29)^2 + y^2 = 841$$<br/><br/>In standard form $(x-h)^2 + (y-k)^2 = r^2$, this is $(x-(-29))^2 + (y-0)^2 = 29^2$, so the center is $(-29, 0)$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

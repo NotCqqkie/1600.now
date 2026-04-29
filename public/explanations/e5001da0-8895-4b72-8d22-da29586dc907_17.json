@@ -1,0 +1,19 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the square root using the absolute value property",
+      "content": "The left side has $\\sqrt{(x+15)^2}$. By the property $\\sqrt{a^2} = |a|$, this simplifies to $|x+15|$. The equation becomes:<br/>$$|x+15| = x+15$$"
+    },
+    {
+      "title": "Determine when the absolute value equation holds",
+      "content": "An absolute value equals its argument precisely when the argument is non-negative. For $|x+15| = x+15$, we need $x + 15 \\geq 0$, which gives:<br/>$$x \\geq -15$$"
+    },
+    {
+      "title": "Find the least value",
+      "content": "The solution is all $x \\geq -15$. The least value in this solution set is $x = -15$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

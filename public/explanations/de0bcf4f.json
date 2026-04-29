@@ -1,0 +1,15 @@
+{
+  "questionId": "de0bcf4f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "Dominguez wanted to incorporate randomness (goal), then employed techniques that produced randomness (implementation). The transition must show how the second sentence flows from the first."
+    },
+    {
+      "title": "Match the transition to the logic",
+      "content": "\u201dWith this in mind,\u201d means \u201cconsidering this goal\u201d\u2014it treats the second sentence as the realization of the stated desire. \u201cOn the contrary,\u201d \u201cIn conclusion,\u201d and \u201cRegardless\u201d misfire: they introduce contradiction, wrap up falsely, or dismiss the goal respectively. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

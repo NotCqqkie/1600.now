@@ -1,0 +1,16 @@
+{
+  "questionId": "ecf8d15f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract data from table",
+      "content": "From the table, 9 children chose vegetarian sandwiches out of 50 total attendees."
+    },
+    {
+      "title": "Calculate probability",
+      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$",
+      "content": "With 9 favorable outcomes and 50 total outcomes: $$P = \\frac{9}{50}$$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

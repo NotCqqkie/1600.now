@@ -1,0 +1,15 @@
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's three-part structure",
+      "content": "The passage introduces convergent evolution (the phenomenon), describes how two different teams have studied it (Chan and Zwaan), and then mentions a third team's paper (Green and Extavour) that addresses both approaches."
+    },
+    {
+      "title": "Match the structure to the answer choices",
+      "content": "Choice D captures the actual structure: it opens with the phenomenon, presents two research examples, and concludes by mentioning a third study. The other three either introduce elements not in the text (A's speculation about future studies, B's assumption-testing framework) or mischaracterize the passage's argument (C's critique and reversed focus). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

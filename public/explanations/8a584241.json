@@ -1,0 +1,15 @@
+{
+  "questionId": "8a584241",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'accelerated germination' requires",
+      "content": "The passage says \u201caccelerated germination\u201d \u2014 meaning treated seeds germinated faster than untreated ones. To demonstrate this effect, the statement must compare H\u2082S-treated and untreated seeds at the same time point, with treated seeds showing higher germination percentages."
+    },
+    {
+      "title": "Match the comparison that demonstrates acceleration",
+      "content": "At 48 hours, H\u2082S-treated seeds at 10 micromoles per liter show more than 70% germination, while untreated seeds are at only about 50%, demonstrating that treatment accelerated germination. Choice A lacks a treated-untreated comparison, C shows only the endpoint, and D doesn't match the data. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

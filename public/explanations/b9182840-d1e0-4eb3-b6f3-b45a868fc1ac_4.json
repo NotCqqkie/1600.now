@@ -1,0 +1,15 @@
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_4",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand infinitely many solutions",
+      "content": "An equation has infinitely many solutions when both sides are identical expressions. This means the equation is an identity\u2014it's true for <em>every</em> value of $x$."
+    },
+    {
+      "title": "Match terms to find k",
+      "content": "For the equation $7x + 21 = 7x + k$ to be an identity:<br/><ul><li>The coefficient of $x$ is already 7 on both sides \u2713</li><li>The constant terms must also match: the left side has 21, and the right side has $k$</li></ul>Therefore, $k = 21$."
+    }
+  ]
+}

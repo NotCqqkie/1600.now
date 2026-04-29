@@ -1,0 +1,15 @@
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the regrowth signal",
+      "content": "The passage states that environmental reforms and economic decline triggered \u201ca natural regrowth process, as evident by the ______\u201d. A regrowth process means forest cover <strong>returned and expanded</strong> after being cleared\u2014so the completing evidence must show forest area <strong>increasing</strong>, not decreasing or remaining static."
+    },
+    {
+      "title": "Match the signal to the data",
+      "content": "An increase in forest cover area for all classes from 1979 to 2000 (choice A) shows the recovery trend across the exact period following the mid-1980s reforms. The graph displays all three land classes rising from their 1979 low point through 2000, directly demonstrating the regrowth process. Choices B and C show comparisons or differences at single time points rather than a temporal trend of recovery; choice D shows the deforestation decline itself, not the regrowth that followed. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

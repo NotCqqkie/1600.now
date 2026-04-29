@@ -1,0 +1,15 @@
+{
+  "questionId": "e37f79a7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Scan for the highest value",
+      "content": "The table presents housing starts in thousands for each month from January to April 2022. Reading across: January (1,669), February (1,771), March (1,713), April (1,803)."
+    },
+    {
+      "title": "Match the maximum to the choices",
+      "content": "April shows 1,803, which is the largest figure in the table. The other three months\u2014January, February, and March\u2014all show lower values. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

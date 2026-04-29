@@ -1,0 +1,15 @@
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand vertical shifts",
+      "content": "When a function's graph shifts <strong>up</strong> by $k$ units, every output value increases by $k$. So if $y = f(x)$ shifts up 9 units, the new function becomes $y = f(x) + 9$."
+    },
+    {
+      "title": "Apply the shift rule",
+      "content": "Substitute $f(x) = 3x^2$ into the transformation rule:<br/><br/>$$g(x) = f(x) + 9 = 3x^2 + 9$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

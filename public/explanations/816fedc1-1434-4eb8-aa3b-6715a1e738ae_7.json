@@ -1,0 +1,21 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the two numbers",
+      "content": "One number is given as $x$. The other number is described as 99 less than $x$, which means we subtract 99 from $x$: $x - 99$.<br/>The product $y$ of the two numbers is therefore $x$ times $(x - 99)$. $$y = x(x - 99)$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Match the derived equation to the choices",
+      "content": "The derived equation $$y = x(x - 99)$$ matches option D. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

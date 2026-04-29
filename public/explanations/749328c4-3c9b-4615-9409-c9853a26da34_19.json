@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure around the blank",
+      "content": "On the left side, \u201cThe relationship... was the focus of a 1992 study in the [blank] by the researcher Walther van Wingerden\u201d is an independent clause. On the right side, \u201cthe study examined a variety of arthropod specimens...\u201d is also an independent clause."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Two independent clauses cannot be joined by a comma alone; they must be separated by a period, semicolon, or joined by a coordinating conjunction. Option C uses a period to separate them into two complete sentences, with the second sentence correctly beginning with a participial phrase \u201cLed by the researcher Walther van Wingerden\u201d that modifies the subject \u201cthe study.\u201d Options A, B, and D all retain a comma between the two clauses, violating the sentence boundary rule. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

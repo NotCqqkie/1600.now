@@ -1,0 +1,15 @@
+{
+  "questionId": "c41e5688",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line from the graph",
+      "content": "The dashed line passes through the y-intercept $(0, -1)$ and another point on the line is $(1, -4)$. The slope is $\\frac{-4 - (-1)}{1 - 0} = \\frac{-3}{1} = -3$. The boundary line equation is $y = -1 - 3x$."
+    },
+    {
+      "title": "Test a point to determine the inequality direction",
+      "content": "The shaded region includes the point $(0, 0)$. Test whether it satisfies $y > -1 - 3x$:<br/>$$0 > -1 - 3(0)$$$$0 > -1$$ \u2713<br/>This is true, so the shaded region is where $y$ values are greater than the boundary line. The dashed line (not solid) confirms the inequality is strict. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

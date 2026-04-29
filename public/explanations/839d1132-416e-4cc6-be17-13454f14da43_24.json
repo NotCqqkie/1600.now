@@ -1,0 +1,15 @@
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_24",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "<strong>The first sentence</strong> says Smith worked at JPL, a leading facility for robotic space exploration; the second sentence gives a specific example of her work there."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>Specifically</strong> shows that the second sentence gives a concrete example of the general claim in the first.<br/>Conversely, Finally, and Nevertheless each express contrast, addition, or concession, which does not fit the illustrative link.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

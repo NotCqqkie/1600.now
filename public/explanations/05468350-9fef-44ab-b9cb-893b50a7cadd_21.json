@@ -1,0 +1,19 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_21",
+  "correctAnswer": "11.46",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form since the maximum is given",
+      "content": "The problem tells us the maximum daylight is 13.91 hours at $t = 3.5$ months. For a quadratic with a known vertex $(h, k)$, use vertex form: $$d(t) = a(t - h)^2 + k$$ where $(h, k) = (3.5, 13.91)$. This gives us: $$d(t) = a(t - 3.5)^2 + 13.91$$"
+    },
+    {
+      "title": "Substitute the second point to find a",
+      "content": "We know $d(6) = 12.66$. Substitute $t = 6$ into the equation: $$12.66 = a(6 - 3.5)^2 + 13.91$$ $$12.66 = a(2.5)^2 + 13.91$$ $$12.66 = 6.25a + 13.91$$ Solve for $a$: $$12.66 - 13.91 = 6.25a$$ $$-1.25 = 6.25a$$ $$a = -0.2$$"
+    },
+    {
+      "title": "Find daylight on March 1",
+      "content": "Now evaluate $d(0)$ to find the daylight on March 1: $$d(0) = -0.2(0 - 3.5)^2 + 13.91$$ $$d(0) = -0.2(12.25) + 13.91$$ $$d(0) = -2.45 + 13.91$$ $$d(0) = 11.46$$ The estimated length of daylight on March 1 is <strong>11.46 hours</strong>."
+    }
+  ]
+}

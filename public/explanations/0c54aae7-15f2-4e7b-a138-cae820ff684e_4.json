@@ -1,0 +1,15 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the repeated expression",
+      "content": "The expression $2x+9$ appears on both sides. Substitute $u = 2x+9$ to simplify:<br/>$$5u = 3u + 74$$"
+    },
+    {
+      "title": "Solve for the substituted variable",
+      "content": "Subtract $3u$ from both sides:<br/>$$5u - 3u = 74$$<br/>$$2u = 74$$<br/>$$u = 37$$<br/>Since $u = 2x+9$, we have $2x+9 = 37$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

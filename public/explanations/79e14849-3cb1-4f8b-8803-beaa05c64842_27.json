@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'generalization' means",
+      "content": "The student's goal is to make a <strong>generalization about minerals</strong>. A generalization states a principle that applies broadly, not just to the three specific minerals mentioned in the notes."
+    },
+    {
+      "title": "Find the choice that states a principle broadly",
+      "content": "C uses <strong>'Any mineral with a Mohs number of 8'</strong> to state a principle that applies to all such minerals \u2014 this is a generalization. Choices A, B, and D either list the three specific minerals, explain the scale, or describe its use without generalizing. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

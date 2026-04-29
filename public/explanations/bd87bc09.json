@@ -1,0 +1,15 @@
+{
+  "questionId": "bd87bc09",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sine ratio and find AC",
+      "content": "In right triangle ABC with the right angle at C, the sine of angle B equals the ratio of the opposite side to the hypotenuse. From the diagram, AB (the hypotenuse) = 26, so:<br/>$$\\sin(B) = \\frac{AC}{AB}$$<br/>Substituting the known values:<br/>$$\\frac{5}{13} = \\frac{AC}{26}$$<br/>Multiply both sides by 26:<br/>$$AC = 26 \\cdot \\frac{5}{13} = \\frac{130}{13} = 10$$"
+    },
+    {
+      "title": "Use the Pythagorean theorem to find BC",
+      "content": "Now that we know AC = 10 and AB = 26, apply the Pythagorean theorem to the right triangle:<br/>$$AC^2 + BC^2 = AB^2$$<br/>$$10^2 + BC^2 = 26^2$$<br/>$$100 + BC^2 = 676$$<br/>$$BC^2 = 576$$<br/>$$BC = \\sqrt{576} = 24$$"
+    }
+  ]
+}

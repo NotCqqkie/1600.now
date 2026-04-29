@@ -1,0 +1,19 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_18",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find c from the vertical asymptote",
+      "content": "The graph does not intersect the line $x = 4$, which means the function is undefined there. The function becomes undefined when its denominator equals zero:<br/><br/>$$2(4) + c = 0$$<br/>$$c = -8$$"
+    },
+    {
+      "title": "Find a and b from the zeros",
+      "content": "Since $f(5) = 0$ and $f(6) = 0$, and the denominator is nonzero at both points, the numerator must equal zero at $x = 5$ and $x = 6$. The quadratic numerator therefore has roots 5 and 6:<br/><br/>$$x^2 + ax + b = (x - 5)(x - 6)$$<br/><br/>Expanding:<br/>$$(x - 5)(x - 6) = x^2 - 11x + 30$$<br/><br/>Therefore, $a = -11$ and $b = 30$."
+    },
+    {
+      "title": "Calculate a + b + c",
+      "content": "$$a + b + c = -11 + 30 + (-8) = 11$$"
+    }
+  ]
+}

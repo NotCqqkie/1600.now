@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The model's correlation is much higher for impressionist paintings <strong>(0.41)</strong> than for color-field paintings <strong>(0.10)</strong>."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "Since P3 gave equal actual ratings to both, different correlations reveal that the model's predictions must have differed systematically. The stronger correlation for impressionist means the model's predicted values aligned better with P3's actual mean for impressionist; the weaker correlation for color-field means the model's predicted values diverged from that mean. This pattern only occurs if the model predicted higher enjoyment for impressionist than color-field. The other choices either predict equality or reverse the direction. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

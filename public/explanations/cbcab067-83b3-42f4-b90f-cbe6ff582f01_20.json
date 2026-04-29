@@ -1,0 +1,15 @@
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the temporal shift",
+      "content": "The passage moves from the 2003 discovery of one moon (Helike) to a statement about the total number of moons discovered today. The key signal is the progression from a specific past moment to the present state."
+    },
+    {
+      "title": "Apply the temporal transition",
+      "content": "\u201dTo date\u201d means \u201cup to the present time\u201d \u2014 it bridges the 2003 discovery with the current total of eighty moons, showing how much discovery has accumulated over the decades. The other three choices either introduce an unrelated example, restate the relationship, or create a false contrast. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

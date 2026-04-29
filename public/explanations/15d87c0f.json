@@ -1,0 +1,15 @@
+{
+  "questionId": "15d87c0f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the bar heights",
+      "content": "From the bar graph, the bar for chess reaches the 20\u2011student mark and the bar for drama reaches the 30\u2011student mark."
+    },
+    {
+      "title": "Compute the difference",
+      "content": "$$30-20=10$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

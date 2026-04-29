@@ -1,0 +1,15 @@
+{
+  "questionId": "d46da42c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex and direction from vertex form",
+      "content": "The function $f(x) = x^2 + 4$ is written in vertex form $y = a(x - h)^2 + k$ with $a = 1$, $h = 0$, and $k = 4$. The vertex is at $(0, 4)$. Since $a = 1 > 0$, the parabola opens upward with a minimum $y$-value of 4."
+    },
+    {
+      "title": "Match to the correct graph",
+      "content": "The graph of $y = x^2 + 4$ is an upward-opening parabola with vertex at $(0, 4)$. Since the minimum value is 4, all points satisfy $y \\geq 4$ and the graph never crosses the $x$-axis. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

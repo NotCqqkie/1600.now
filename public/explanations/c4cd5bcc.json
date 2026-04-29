@@ -1,0 +1,15 @@
+{
+  "questionId": "c4cd5bcc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify where the y-intercept occurs on the coordinate plane",
+      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis. On the <em>y</em>-axis, the <em>x</em>-coordinate is always 0. Therefore, the <em>y</em>-intercept is at the point $(0, c)$, where $c$ is the <em>y</em>-coordinate we're told about."
+    },
+    {
+      "title": "Apply function notation at x = 0",
+      "content": "By definition, $f(0)$ is the output of the function when the input is $x = 0$. Since the <em>y</em>-intercept occurs at the point $(0, c)$, the function value at $x = 0$ must be $c$. Therefore $f(0) = c$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

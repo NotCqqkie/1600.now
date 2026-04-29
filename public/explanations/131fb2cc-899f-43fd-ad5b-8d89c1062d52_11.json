@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate x = 2 on the line of best fit",
+      "content": "Find $x = 2$ on the horizontal axis (the second vertical grid line from the origin). Trace vertically upward to where the line of best fit crosses that vertical line."
+    },
+    {
+      "title": "Read the predicted y-value",
+      "content": "At $x = 2$, the line of best fit is positioned at $y = 15$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

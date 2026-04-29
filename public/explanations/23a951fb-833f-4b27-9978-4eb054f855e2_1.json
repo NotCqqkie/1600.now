@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_1",
+  "correctAnswer": "3200",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x equals 10 into the function",
+      "content": "We're given $f(x) = 320x$ and need to find $f(10)$. Substitute $x = 10$ directly into the function definition."
+    },
+    {
+      "title": "Multiply to get the result",
+      "content": "$$f(10) = 320 \\cdot 10 = 3200$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The sentence is: <em>\u201cLai and Mu\u00f1oz recognize the need for direct observation [blank] recommending evolving binary star systems as a promising avenue for future study.\u201d</em><br/><br/>The key question: is \u201crecommending evolving binary star systems...\u201d an independent clause? No\u2014it has no finite verb and no stated subject. It's a participial phrase continuing the description within the same clause. This is ONE clause, not two."
+    },
+    {
+      "title": "Apply the rule for parenthetical elements",
+      "content": "Since \u201chowever\u201d is inserted within a single clause to provide contrast or qualification, it functions as a parenthetical element. Parenthetical elements take commas on both sides: \u201c...observation, however, recommending...\u201d<br/><br/>Choice A correctly places commas around \u201chowever\u201d to mark it as a parenthetical interjection. Choices B and C incorrectly treat \u201chowever\u201d as a transition between independent clauses; since \u201crecommending\u201d is not an independent clause, those patterns don't apply. Choice D violates standard punctuation for parenthetical elements by placing a semicolon after \u201chowever.\u201d<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

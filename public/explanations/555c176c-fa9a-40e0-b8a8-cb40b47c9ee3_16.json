@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up and simplify inequalities",
+      "content": "For a valid triangle, the sum of any two sides exceeds the third:<br/><br/>$$7 + 10 > x \\quad \\Rightarrow \\quad x < 17$$<br/><br/>$$7 + x > 10 \\quad \\Rightarrow \\quad x > 3$$<br/><br/>$$10 + x > 7 \\quad \\Rightarrow \\quad x > -3 \\text{ (redundant)}$$"
+    },
+    {
+      "title": "Combine constraints",
+      "content": "Both $x > 3$ and $x < 17$ must hold simultaneously. Combined: $3 < x < 17$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

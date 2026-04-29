@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the measuring barrier",
+      "content": "The passage explains that inaccurate population counts make it impossible to determine whether the population is increasing, decreasing, or staying stable."
+    },
+    {
+      "title": "Apply this to the study's purpose",
+      "content": "The study evaluates conservation strategies but cannot reliably measure population changes. Without this measurement, it risks drawing inaccurate conclusions about whether the strategies are effective. A, C, and D address unrelated concerns. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

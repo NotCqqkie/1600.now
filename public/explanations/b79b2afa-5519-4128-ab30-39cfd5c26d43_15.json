@@ -1,0 +1,15 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex from vertex form",
+      "content": "The function $f(x) = \\frac{1}{9}(x - 4)^2 + 5$ is in vertex form $f(x) = a(x - h)^2 + k$. The vertex is at $(h, k) = (4, 5)$."
+    },
+    {
+      "title": "Interpret vertex as the minimum height",
+      "content": "Since $a = \\frac{1}{9} > 0$, the parabola opens upward, making the vertex the <strong>minimum point</strong>. The vertex $(4, 5)$ means the minimum height is 5 inches (at $x = 4$ seconds). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

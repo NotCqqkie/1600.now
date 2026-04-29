@@ -1,0 +1,15 @@
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the causal signal",
+      "content": "The passage explains why the speeds differ: flying features limit top speeds less than swimming features do. The blank requires a word showing how the speed difference relates to this fact. The phrase <em>\u201clargely ______ of the fact that\u201d</em> signals a causal relationship\u2014the difference must be a result of these structural features."
+    },
+    {
+      "title": "Match the causal word",
+      "content": "<strong>A consequence</strong> directly captures this relationship\u2014the speed difference is a result that flows from the stated structural differences. The alternatives all miss the causal logic: objective denotes a goal, repudiation expresses rejection, and explanation reverses the direction.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

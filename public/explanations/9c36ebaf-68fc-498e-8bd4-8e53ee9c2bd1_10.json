@@ -1,0 +1,15 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply zero product property",
+      "content": "When a product of factors equals zero, at least one factor must equal zero. For the equation $$-4(v-9)(v-2)(v+7) = 0$$ the constant $-4$ is never zero, so we set each variable factor equal to zero:<br/><ul><li>$v - 9 = 0$ gives $v = 9$</li><li>$v - 2 = 0$ gives $v = 2$</li><li>$v + 7 = 0$ gives $v = -7$</li></ul>"
+    },
+    {
+      "title": "Identify the solution in the choices",
+      "content": "The solutions are $v = 9$, $v = 2$, and $v = -7$. Of these, only $v = 9$ appears in the answer choices. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

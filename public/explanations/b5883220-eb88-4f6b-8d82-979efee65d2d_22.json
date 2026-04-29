@@ -1,0 +1,20 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_22",
+  "correctAnswer": "195",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand to standard quadratic form",
+      "content": "Expand the left side: $kx^2 - 112x = -16$. Move all terms to one side: $$kx^2 - 112x + 16 = 0$$ (Note: $k \\neq 0$ for this to be quadratic.)"
+    },
+    {
+      "title": "Apply the discriminant condition for two distinct real solutions",
+      "content": "For a quadratic $ax^2 + bx + c = 0$ to have two distinct real solutions, the discriminant must be positive. With $a = k$, $b = -112$, $c = 16$: $$(-112)^2 - 4k(16) > 0$$ $$12544 - 64k > 0$$",
+      "formula": "$$\\Delta = b^2 - 4ac > 0$$"
+    },
+    {
+      "title": "Solve for the maximum value of k",
+      "content": "From $12544 - 64k > 0$: $$12544 > 64k$$ $$k < \\frac{12544}{64} = 196$$ Since $k$ must be an integer, the greatest possible value is $k = 195$."
+    }
+  ]
+}

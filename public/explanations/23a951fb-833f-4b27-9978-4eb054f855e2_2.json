@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle angle sum property",
+      "content": "The sum of all angles in any triangle is 180\u00b0. Given angle X = 108\u00b0 and angle Y = 36\u00b0, we write: $$X + Y + Z = 180\u00b0$$ Substituting the known values: $$108\u00b0 + 36\u00b0 + Z = 180\u00b0$$"
+    },
+    {
+      "title": "Solve for angle Z",
+      "content": "Subtract the known angles from both sides: $$Z = 180\u00b0 - 108\u00b0 - 36\u00b0 = 36\u00b0$$ Angles Y and Z are both 36\u00b0, confirming the problem's condition that two angles are equal. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

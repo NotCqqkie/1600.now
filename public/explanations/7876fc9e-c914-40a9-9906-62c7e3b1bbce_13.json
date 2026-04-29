@@ -1,0 +1,15 @@
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify Amur grape data",
+      "content": "The dark gray bars represent Amur grape. The opposite-side column indicates approximately 140 pairs, and the same-side column indicates approximately 60 pairs. This directly confirms the passage's claim that opposite-side is <strong>much more common</strong>."
+    },
+    {
+      "title": "Match to the correct choice",
+      "content": "Choice A states approximately 140 pairs show opposite-side orientation and 60 pairs show same-side orientation\u2014the exact values from the graph. Choices B, C, and D all misrepresent the same-side count (45 or 0 instead of 60), contradicting the actual data. <br><br>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

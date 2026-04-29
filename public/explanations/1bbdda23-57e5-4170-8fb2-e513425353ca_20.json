@@ -1,0 +1,15 @@
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure around the blank",
+      "content": "The sentence contains a <strong>between X and Y</strong> construction: <em>\u201cresearchers studying connections between [the physical location in which a social media post was created]\u201d</em> and <em>\u201c[the post's content]\u201d</em> <em>analyzed geotagged social media posts.\u201d</em> We're coordinating two separate items: the location where a post originated and the post's content. On the left side of the blank, we complete the first item; after the blank, we introduce the second item with \u201cand the post's content.\u201d<br/><br/>The structural question is whether commas are needed around \u201cand the post's content\u201d in this two-item coordination."
+    },
+    {
+      "title": "Apply the between\u2026and rule",
+      "content": "In a <strong>between X and Y</strong> construction with exactly two items, we do not insert a comma immediately before \u201cand\u201d (the Oxford comma applies only to lists of three or more items). We also do not place a comma after Y unless the sentence structure independently requires one (such as a parenthetical interruption). Here, there is no such interruption\u2014the verb \u201canalyzed\u201d immediately follows. The correct form is simply: <em>\u201ccreated and the post's content\u201d</em> with zero commas.<br/><br/>Option B incorrectly adds a comma before \u201cand\u201d; option C unnecessarily separates the object from the verb; option D doubles the error. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

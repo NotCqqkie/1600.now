@@ -1,0 +1,15 @@
+{
+  "questionId": "7b950fc2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side is an independent clause: \u201cNora sought to increase Latina representation in corporate [BLANK].\u201d The right side is also an independent clause: \u201c[BLANK] founded Las Comadres para las Americas, an international community that for over two decades has served as a resource and information network for Latina business professionals.\u201d"
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "A period separates two independent clauses into two sentences. Choice D uses a period after \u201csettings,\u201d correctly separating the two sentences. Choices A, B, and C create punctuation errors: A leaves no punctuation (fused sentence), B uses only a comma (comma splice), and C uses \u201cand\u201d without the conventional comma. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

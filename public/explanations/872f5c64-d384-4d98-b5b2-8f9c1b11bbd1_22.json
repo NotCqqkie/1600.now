@@ -1,0 +1,15 @@
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The second sentence narrows the first general statement to a specific example. The transition must signal this shift to a more particular instance."
+    },
+    {
+      "title": "Apply the transition to the choices",
+      "content": "<strong>Specifically,</strong> signals a move to a more precise or particular instance. The other choices either introduce contrast or conclusion, neither of which fits. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

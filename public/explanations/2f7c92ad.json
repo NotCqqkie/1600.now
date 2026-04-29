@@ -1,0 +1,15 @@
+{
+  "questionId": "2f7c92ad",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the angle correspondence from the similarity statement",
+      "content": "The statement \u201ctriangle $CAE$ is similar to triangle $CBD$\u201d defines a correspondence between vertices: <ul><li>1st vertices: $C \\leftrightarrow C$</li><li>2nd vertices: $A \\leftrightarrow B$</li><li>3rd vertices: $E \\leftrightarrow D$</li></ul>This means the angles at corresponding vertices are equal. Since $A$ corresponds to $B$, the angle at vertex $A$ in triangle $CAE$ (which is $\\angle CAE$) corresponds to the angle at vertex $B$ in triangle $CBD$ (which is $\\angle CBD$)."
+    },
+    {
+      "title": "Apply the property that corresponding angles in similar triangles are equal",
+      "content": "In similar triangles, all corresponding angles are equal, regardless of the scale factor between sides. Since $\\angle CBD = 57\u00b0$ and $\\angle CAE$ corresponds to $\\angle CBD$, we have $\\angle CAE = 57\u00b0$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

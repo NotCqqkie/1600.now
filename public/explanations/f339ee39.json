@@ -1,0 +1,15 @@
+{
+  "questionId": "f339ee39",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the plural subject",
+      "content": "The subject is \u201cMultiple newspapers,\u201d which is plural. An independent clause requires a verb form that agrees with this subject."
+    },
+    {
+      "title": "Apply subject-verb agreement for present tense",
+      "content": "The main verb must be conjugated (finite) to agree with the plural subject. For present tense plural subjects, the verb takes the base form \u201cserve.\u201d Choices B, C, and D offer non-finite forms\u2014a past participle (having served), an infinitive (to serve), and a present participle (serving)\u2014which cannot serve as the main verb of an independent clause. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

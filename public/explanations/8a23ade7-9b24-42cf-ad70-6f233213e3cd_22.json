@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern: claim followed by evidence",
+      "content": "The passage asserts <em>\u201cnot all cascades are beneficial,\u201d</em> then introduces a specific study as proof. The transition must signal confirmation\u2014that the evidence supports the claim."
+    },
+    {
+      "title": "Select the word expressing confirmation",
+      "content": "\u201dIndeed\u201d confirms a claim with supporting evidence. Instead marks substitution, In response indicates reaction or causality, and In addition adds parallel information\u2014none express confirmation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4e375d1f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the conversion operation",
+      "content": "We're converting 2,300 centimeters to meters using the given conversion factor of 100 centimeters = 1 meter. To convert from centimeters to meters, we divide by 100."
+    },
+    {
+      "title": "Calculate meters",
+      "content": "$$2,300 \\div 100 = 23$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "7fd284ac",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the charity with the greatest percent of expenses on programs",
+      "content": "Scan the scatterplot for the highest point on the y-axis. The topmost data point lies at approximately 4,000 million dollars (x-axis) with an actual percent of about 92% spent on programs (y-axis). This is the charity we need to analyze."
+    },
+    {
+      "title": "Read the predicted value from the line of best fit",
+      "content": "At x = 4,000 on the line of best fit, trace vertically up to the line and read the corresponding y-value. The line passes through this x-coordinate at approximately 85% on the y-axis. This is the predicted percent according to the regression model."
+    },
+    {
+      "title": "Calculate the residual (actual minus predicted)",
+      "content": "The residual is the difference between the actual data point and the line's prediction:<br/><br/>$$\\text{Difference} = 92 - 85 = 7\\%$$<br/><br/>The actual percent (92%) lies 7 percentage points above the predicted value (85%). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

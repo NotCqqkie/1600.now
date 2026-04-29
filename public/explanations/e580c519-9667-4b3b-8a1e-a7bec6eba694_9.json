@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key pattern showing the researchers' concern",
+      "content": "The graph shows total seagrass coverage rising dramatically from ~18,000 hectares in 2012 to ~44,000 hectares by late 2018\u2014driven by widgeon grass increasing from ~6,000 to ~18,000 hectares\u2014while eelgrass remains flat. Then, in early 2019, all three lines drop sharply: eelgrass to ~3,000, widgeon grass to ~9,000, and total coverage to ~27,000. The researchers' caution is illustrated by this pattern: total coverage increased substantially, but when an environmental shock struck in early 2019, the entire system collapsed together."
+    },
+    {
+      "title": "Match the 2019 collapse to the correct explanation",
+      "content": "Choice <strong>A</strong> accounts for this data: algal blooms in early 2019 block sunlight, preventing photosynthesis in all seagrass species simultaneously. This matches the sharp, synchronized decline across eelgrass, widgeon grass, and total coverage in 2019. Choice B describes a fungal infection in 2018, but the graph shows no decline in 2018; widgeon grass continues rising through late 2018, ruling out a 2018 infection. Choice C explains the 2012\u20132017 increase but ignores the 2019 collapse. Choice D suggests that only widgeon grass can tolerate the 2019 temperature spike, yet the graph shows widgeon grass coverage dropping in 2019, not thriving. <br/><br/>Choice <strong>A</strong> directly illustrates the researchers' point: despite gaining 26,000 hectares of coverage, the ecosystem became vulnerable to a different environmental shock (algal blooms blocking light), demonstrating that total coverage did not translate to resilience. <strong>That matches choice A \u2014 <strong>A</strong> is correct.</strong>"
+    }
+  ]
+}

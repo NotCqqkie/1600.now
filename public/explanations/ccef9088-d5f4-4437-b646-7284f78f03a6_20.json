@@ -1,0 +1,15 @@
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "The key signal is the flow from modern planes having <em>sleeker, more streamlined bodies</em> directly to <em>much more aerodynamic</em>. This establishes that the improved aerodynamics is a <strong>consequence</strong> of the streamlined design."
+    },
+    {
+      "title": "Select the causal transition",
+      "content": "<strong>For this reason</strong> directly signals that what follows is a logical consequence of the preceding statement\u2014the streamlined bodies cause the improved aerodynamics. The other choices wrongly suggest contrast (<em>however</em>, <em>nevertheless</em>) or enumeration (<em>lastly</em>). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

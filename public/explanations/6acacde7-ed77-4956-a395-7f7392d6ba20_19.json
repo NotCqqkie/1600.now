@@ -1,0 +1,19 @@
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_19",
+  "correctAnswer": "0.18,9/50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the exponential function into the constraint",
+      "content": "Express $f(n-1) = ab^{n-1}$ and $f(n) = ab^n$. Substitute both into the given equation:<br/>$$ab^{n-1} = ab^n + \\frac{82}{100}ab^{n-1}$$"
+    },
+    {
+      "title": "Collect terms with f(n-1) and factor",
+      "content": "Move the $\\frac{82}{100}ab^{n-1}$ term to the left side:<br/>$$ab^{n-1} - \\frac{82}{100}ab^{n-1} = ab^n$$<br/>Factor the left side:<br/>$$ab^{n-1}\\left(1 - \\frac{82}{100}\\right) = ab^n$$<br/>$$ab^{n-1} \\cdot \\frac{18}{100} = ab^n$$"
+    },
+    {
+      "title": "Divide by ab^(n-1) to solve for b",
+      "content": "Divide both sides by $ab^{n-1}$ (non-zero since $a, b > 0$):<br/>$$\\frac{18}{100} = b$$<br/>Simplify the fraction:<br/>$$b = \\frac{18}{100} = \\frac{9}{50} = 0.18$$"
+    }
+  ]
+}

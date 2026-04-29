@@ -1,0 +1,15 @@
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sides relative to angle X",
+      "content": "The right angle is at Z (marked by the small square). For angle X:<br/><ul><li>Opposite side: YZ = 222</li><li>Adjacent side: ZX = 296</li></ul>"
+    },
+    {
+      "title": "Apply tangent ratio and simplify",
+      "content": "$$\\tan(X) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{222}{296}$$<br/>Both 222 and 296 are even, so divide by 2:<br/>$$\\frac{222}{296} = \\frac{111}{148}$$<br/>Both 111 and 148 are divisible by 37:<br/>$$\\frac{111}{148} = \\frac{3}{4}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

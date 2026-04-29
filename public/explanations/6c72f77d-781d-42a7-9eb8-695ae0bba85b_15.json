@@ -1,0 +1,19 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up equations from percentages and eliminate c",
+      "content": "Translate to equations: $a = 23.52(b + c)$ and $b = 0.84c$. <br/>From the second equation, $c = \\frac{b}{0.84}$. Substitute into the first: $$a = 23.52\\left(b + \\frac{b}{0.84}\\right) = 23.52b\\left(1 + \\frac{1}{0.84}\\right)$$"
+    },
+    {
+      "title": "Simplify the coefficient to find a in terms of b",
+      "content": "Combine the terms in parentheses: $$1 + \\frac{1}{0.84} = \\frac{1.84}{0.84} = \\frac{46}{21}$$Compute the product: $$a = 23.52 \\times \\frac{46}{21} \\times b = 51.52b$$"
+    },
+    {
+      "title": "Convert to percentage form",
+      "content": "Since $a = 51.52b$, we have $a$ is $51.52 \\times 100\\% = 5,152\\%$ of $b$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

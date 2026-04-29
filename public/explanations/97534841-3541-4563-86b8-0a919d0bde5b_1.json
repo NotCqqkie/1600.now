@@ -1,0 +1,15 @@
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \u201cnearly the same for both\u201d directly shows that the program's performance on Washington, DC images matched its performance on Boston images."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "\u201dSimilar to\u201d directly expresses the equivalence indicated by \u201cnearly the same\u201d \u2014 the program's performance on DC was comparable to its performance on Boston. The other three choices either contradict this equivalence (unique from) or make no logical sense in comparing performance metrics (uncertain about, supportive toward).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

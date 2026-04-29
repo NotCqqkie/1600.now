@@ -1,0 +1,15 @@
+{
+  "questionId": "265f2a53",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up slope formula with the intercept points",
+      "content": "The slope formula is $m = \\frac{y_2 - y_1}{x_2 - x_1}$. We have two points: the x-intercept $(-4, 0)$ and the y-intercept $(0, \\frac{86}{3})$.<br/><br/>Substituting into the formula:<br/>$$m = \\frac{\\frac{86}{3} - 0}{0 - (-4)} = \\frac{\\frac{86}{3}}{4}$$"
+    },
+    {
+      "title": "Simplify the complex fraction",
+      "content": "Dividing by 4 is the same as multiplying by $\\frac{1}{4}$:<br/>$$m = \\frac{86}{3} \\cdot \\frac{1}{4} = \\frac{86}{12}$$<br/><br/>Reduce by dividing both numerator and denominator by their GCD of 2:<br/>$$m = \\frac{43}{6}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}
