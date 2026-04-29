@@ -1,0 +1,15 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out common terms",
+      "content": "Both terms contain factors of 36 and $(x+12)$. Factor them out:<br/>$$36x^{2}(x+12)-36(x+12)^{3} = 36(x+12)[x^{2}-(x+12)^{2}]$$"
+    },
+    {
+      "title": "Apply difference of squares",
+      "content": "The bracketed expression $x^{2}-(x+12)^{2}$ is a difference of squares. Apply $A^{2}-B^{2}=(A-B)(A+B)$:<br/>$$x^{2}-(x+12)^{2} = [x-(x+12)][x+(x+12)] = (-12)(2x+12)$$<br/>The complete factorization is $36(x+12)(-12)(2x+12)$, so $(2x+12)$ is a factor. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

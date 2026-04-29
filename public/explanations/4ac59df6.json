@@ -1,0 +1,15 @@
+{
+  "questionId": "4ac59df6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group terms by variable",
+      "content": "The expression $(8yz)(y)(7z)$ contains coefficients 8 and 7, and each variable appears multiple times. Regroup by type: $(8 \\cdot 7) \\cdot (y \\cdot y) \\cdot (z \\cdot z)$"
+    },
+    {
+      "title": "Multiply and apply exponent rules",
+      "content": "Multiply the coefficients: $8 \\times 7 = 56$<br/>Combine $y$ terms: $y \\cdot y = y^2$<br/>Combine $z$ terms: $z \\cdot z = z^2$<br/>Result: $56y^2z^2$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

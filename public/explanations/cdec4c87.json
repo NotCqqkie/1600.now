@@ -1,0 +1,15 @@
+{
+  "questionId": "cdec4c87",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y = 28 into the first equation",
+      "content": "Since the second equation directly gives us $y = 28$, substitute this into the first equation $y = 12x - 20$:<br/>$$28 = 12x - 20$$"
+    },
+    {
+      "title": "Solve for x and identify the solution",
+      "content": "Add 20 to both sides:<br/>$$28 + 20 = 12x$$<br/>$$48 = 12x$$<br/><br/>Divide both sides by 12:<br/>$$x = 4$$<br/><br/>The solution is $(x, y) = (4, 28)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

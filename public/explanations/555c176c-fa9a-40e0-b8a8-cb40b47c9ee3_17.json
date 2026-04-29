@@ -1,0 +1,19 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept from the graph",
+      "content": "Reading from the graph at $x = 0$, the function $y = f(x) + 4$ has a value of $y = 8$. The y-intercept is at the point $(0, 8)$."
+    },
+    {
+      "title": "Find f(0) using the transformation",
+      "content": "Since the graphed function is $y = f(x) + 4$, substitute the y-intercept point $(0, 8)$:<br/>$$8 = f(0) + 4$$<br/>Solve for $f(0)$:<br/>$$f(0) = 4$$"
+    },
+    {
+      "title": "Use the exponential form to find the constant",
+      "content": "All choices have the form $f(x) = -6^x + c$. Evaluate at $x = 0$:<br/>$$f(0) = -6^0 + c = -1 + c$$<br/>Since $f(0) = 4$, set up the equation:<br/>$$-1 + c = 4$$<br/>$$c = 5$$<br/>Therefore $f(x) = -6^x + 5$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that purchase time is when x equals 0",
+      "content": "The equation $y = 7,700(0.86)^x$ models the car's value in dollars, where $x$ is the number of years after purchase. The phrase <em>at the time it was purchased</em> means we need the value when $x = 0$ (no time has elapsed)."
+    },
+    {
+      "title": "Substitute and evaluate",
+      "content": "Substitute $x = 0$ into the equation:<br/>$$y = 7,700(0.86)^0$$<br/>Any non-zero number to the power of 0 equals 1, so $(0.86)^0 = 1$:<br/>$$y = 7,700 \\cdot 1 = 7,700$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

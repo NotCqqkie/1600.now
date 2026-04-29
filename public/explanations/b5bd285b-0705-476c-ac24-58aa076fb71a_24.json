@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the transition pattern",
+      "content": "After the general claim \u201celephants ranked higher than crocodiles,\u201d the next clause provides exact rankings: \u201celephants were ranked third, and crocodiles were ranked fifteenth.\u201d The transition must signal the shift from broad comparison to specific numbers."
+    },
+    {
+      "title": "Match to the choice",
+      "content": "\u201dSpecifically\u201d marks the move to precise details that illustrate the earlier comparison. Therefore, On the other hand, and Later signal the wrong relationship\u2014consequence, contradiction, or temporal shift rather than narrowing to specifics. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute a single variable for the repeated expression",
+      "content": "Let <code>u = 7 - 8x</code>. Substitute into the equation:<br/>$$9u + 2 = 8u + 17$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for u and match the answer choice",
+      "content": "Subtract 8u from both sides:<br/>$$u + 2 = 17$$<br/>Subtract 2:<br/>$$u = 15$$<br/>Recall that <code>u = 7 - 8x</code>, so the value of <code>7 - 8x</code> is 15.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

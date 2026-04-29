@@ -1,0 +1,15 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up and simplify the area equation",
+      "content": "Use the formula for the area of a triangle: $A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$ <br/><br/>Let $h$ = height. The base is 12 cm greater, so base $= h + 12$. <br/><br/>Substitute into the area formula: <br/>$$270 = \\frac{1}{2}(h + 12) \\cdot h$$ <br/><br/>Multiply both sides by 2 to clear the fraction: <br/>$$540 = h^2 + 12h$$ <br/>$$h^2 + 12h - 540 = 0$$"
+    },
+    {
+      "title": "Backsolve the answer choices",
+      "content": "Since the choices are simple integers, test them directly instead of using the quadratic formula. <br/><br/>Backsolving \u2014 testing choice C (30): <br/>If $h = 30$, base $= 42$, and area $= \\frac{1}{2}(42)(30) = 630 \\neq 270$. Fails. <br/><br/>Backsolving \u2014 testing choice B (18): <br/>If $h = 18$, base $= 30$, and area $= \\frac{1}{2}(30)(18) = 270$. \u2713 <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

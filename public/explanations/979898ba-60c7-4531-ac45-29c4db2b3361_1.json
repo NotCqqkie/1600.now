@@ -1,0 +1,11 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 3 into the function definition",
+      "content": "We have $g(x) = 25 - x$. To find $g(3)$, substitute $x = 3$:<br/>$$g(3) = 25 - 3 = 22$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

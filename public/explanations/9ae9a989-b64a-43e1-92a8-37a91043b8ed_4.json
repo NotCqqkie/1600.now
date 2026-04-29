@@ -1,0 +1,15 @@
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The sentence describes a method: \u201cOne way to ______ the importance of a scholar's research is to track how often other scholars refer to that research.\u201d The blank must name what you accomplish by tracking citations\u2014you're evaluating or determining the research's importance based on how frequently it's referenced."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Assess means to evaluate or judge something's importance or value. This fits perfectly: by tracking how often research is cited, you assess its significance. The other three choices either describe the wrong action (utilize = use a resource; influence = change or sway) or contradict the passage's purpose (undermine = weaken). The passage directly supports this\u2014Malmendier's high citations demonstrate importance, and assessing through citation frequency is the method for determining research value.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

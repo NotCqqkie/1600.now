@@ -1,0 +1,15 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the spreads visually",
+      "content": "Team A's histogram shows scores concentrated between 25 and 40, with frequencies of 43\u201345 in each bin across this narrow range. Team B's histogram shows scores spread widely from 15 to 50, with notable frequencies at the extremes (15\u201320 and 45\u201350) and much smaller frequencies in the middle."
+    },
+    {
+      "title": "Interpret spread as standard deviation",
+      "content": "Standard deviation measures how far data spreads from the center. Team A has minimal spread \u2014 scores cluster tightly. Team B has much greater spread \u2014 scores are distributed across a wide range with concentrations at the extremes. Larger spread means larger standard deviation. Therefore, Team A's standard deviation is less than Team B's. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

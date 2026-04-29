@@ -1,0 +1,15 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Observe square nonnegative",
+      "content": "$$(x+81)^2 \\ge 0$$ for all real $x$, while the right side is $-256 < 0$. Therefore the equation has no real solution."
+    },
+    {
+      "title": "Conclude number of solutions",
+      "content": "Since a square of a real number is never negative, $(x+81)^2 = -256$ cannot hold for any real $x$. Hence there are zero real solutions. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the restrictive appositive",
+      "content": "<strong>Ernesto Hernandez-Lopez</strong> is an appositive\u2014a noun phrase that renames another noun. It identifies the specific person described as <strong>\u201clawyer and cycling advocate.\u201d</strong> Since this description alone doesn't uniquely identify a person, the name is essential information needed for identification, making this a <strong>restrictive appositive</strong>."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Restrictive appositives are never set off by commas because they provide essential identifying information. The name <strong>Ernesto Hernandez-Lopez</strong> must appear without commas before or after it. Choice A incorrectly wraps the name in commas (non-restrictive pattern), while choices B and C place a comma on only one side\u2014all violations of appositive punctuation. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

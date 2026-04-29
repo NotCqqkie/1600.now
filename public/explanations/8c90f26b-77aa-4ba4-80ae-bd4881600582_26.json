@@ -1,0 +1,15 @@
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure and the subject",
+      "content": "The sentence is \u201cIn a 2023 article, [___] asserts that...\u201d where the blank provides the subject. \u201cPhysicist Mishkat Bhattacharya\u201d forms the complete subject \u2014 \u201cphysicist\u201d is a descriptor directly attached to the name without an article, so they form a single noun phrase."
+    },
+    {
+      "title": "Apply the rule against subject-verb commas",
+      "content": "No comma should separate a subject from its verb. (A) and (D) both violate this by placing a comma after the subject before \u201casserts.\u201d (B) incorrectly breaks the subject into two parts with a comma. (C) correctly connects the complete subject directly to the verb without intervening punctuation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

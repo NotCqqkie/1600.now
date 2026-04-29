@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the linear measurement to squared",
+      "content": "To convert <strong>area</strong> units, the conversion factor must be <strong>squared</strong>. Since 1 mile = 1,760 yards: $$(1,760)^2 = 3,097,600 \\text{ square yards per square mile}$$"
+    },
+    {
+      "title": "Divide the area to find square miles",
+      "content": "Divide the town's area by the conversion factor: $$\\frac{12,669,184}{3,097,600} = 4.09 \\text{ square miles}$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

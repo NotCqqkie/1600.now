@@ -1,0 +1,21 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quadratic formula",
+      "content": "The equation is $$4x^{2}+5x-5=0$$ with $$a=4$$, $$b=5$$, $$c=-5$$.<br/>Compute the discriminant: $$b^{2}-4ac = 5^{2}-4(4)(-5)=25+80=105$$.<br/>Then the solutions are $$x=\frac{-5\\pm\\sqrt{105}}{2\\cdot4}=\frac{-5\\pm\\sqrt{105}}{8}$$.",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Select the greatest solution",
+      "content": "The two solutions are $$\frac{-5-\\sqrt{105}}{8}$$ and $$\frac{-5+\\sqrt{105}}{8}$$; the larger one uses the plus sign.<br/>Thus the greatest solution is $$\frac{-5+\\sqrt{105}}{8}$$.\nThat matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

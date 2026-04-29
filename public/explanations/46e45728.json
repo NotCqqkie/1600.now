@@ -1,0 +1,15 @@
+{
+  "questionId": "46e45728",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the minimum distance traveled in each sex's column",
+      "content": "Females traveled 9.28 km/day (cold-dry), 12.64 km/day (monsoon), and 12.48 km/day (hot-dry). Males traveled 15.81 km/day (cold-dry), 18.87 km/day (hot-dry), and 18.93 km/day (monsoon)."
+    },
+    {
+      "title": "Match the lowest season for each sex to the answer choices",
+      "content": "The cold-dry season produced the minimum distance for both females and males. The other choices pair different seasons across the sexes or identify periods with higher travel. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

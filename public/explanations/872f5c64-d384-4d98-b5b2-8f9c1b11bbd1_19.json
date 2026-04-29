@@ -1,0 +1,15 @@
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its grammatical requirements",
+      "content": "The subject is the noun phrase <em>its similarity to each of the 32 soil reference groups</em>, where the head noun <em>similarity</em> is singular. The blank requires an auxiliary verb to form passive voice (verb + <em>evaluated</em>)."
+    },
+    {
+      "title": "Apply subject-verb agreement and tense consistency",
+      "content": "<strong>is</strong> is singular present tense, matching the tense context of <em>is classified</em> and <em>is found</em>. <strong>are</strong> and <strong>have been</strong> fail the agreement rule by using plural forms, while <strong>was</strong> breaks tense consistency. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

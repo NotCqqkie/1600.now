@@ -1,0 +1,15 @@
+{
+  "questionId": "c7a187a7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation for x-intercepts",
+      "content": "An <em>x</em>-intercept occurs where $y = 0$. Substituting into the function:<br/>$$x^2 - 18x - 360 = 0$$<br/>Since the answer choices are simple integers, backsolving is faster than solving algebraically."
+    },
+    {
+      "title": "Test the choices using backsolving",
+      "content": "Backsolving \u2014 testing choice B ($-30$, 0):<br/>$$(-30)^2 - 18(-30) - 360 = 900 + 540 - 360 = 1080 \\neq 0$$<br/>Fails. Testing choice A ($-12$, 0):<br/>$$(-12)^2 - 18(-12) - 360 = 144 + 216 - 360 = 0$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

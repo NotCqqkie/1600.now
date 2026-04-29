@@ -1,0 +1,15 @@
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the claim being tested",
+      "content": "The experts argue that \u201chigh-speed rail is more cost-effective than highway systems\u201d\u2014a claim about value received per dollar spent."
+    },
+    {
+      "title": "Find evidence of that cost advantage",
+      "content": "Choice A directly supports the claim by showing that highway expansion costs more per unit of traffic volume than rail expansion does. The other three address implementation challenges, maintenance funding, and travel preferences rather than comparing cost-efficiency. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

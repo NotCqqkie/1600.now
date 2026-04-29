@@ -1,0 +1,15 @@
+{
+  "questionId": "8a6de407",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the slope formula",
+      "content": "In $f(x) = mx + b$, the coefficient $m$ is the slope of the line. We can find $m$ directly from the two given function values:<br/>$$m = \\frac{f(1) - f(0)}{1 - 0}$$"
+    },
+    {
+      "title": "Calculate m",
+      "content": "With $f(0) = 18$ and $f(1) = 20$:<br/>$$m = \\frac{20 - 18}{1 - 0} = \\frac{2}{1} = 2$$"
+    }
+  ]
+}

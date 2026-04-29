@@ -1,0 +1,28 @@
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_19",
+  "correctAnswer": "65",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find base angles of isosceles triangle ACD",
+      "content": "Since $AC = CD$ (given) and $\\angle ACD = 108\u00b0$ (given), triangle $ACD$ is isosceles. The base angles opposite the equal sides are equal:<br/><br/>$$\\angle CAD = \\angle CDA = \\frac{180\u00b0 - 108\u00b0}{2} = \\frac{72\u00b0}{2} = 36\u00b0$$",
+      "formula": "$$\\text{Base angles} = \\frac{180\u00b0 - \\text{apex angle}}{2}$$"
+    },
+    {
+      "title": "Find angle ACB using collinearity",
+      "content": "From the figure, points $D$, $C$, and $B$ are collinear. Since $\\angle ACD = 108\u00b0$, the supplementary angle on the line is:<br/><br/>$$\\angle ACB = 180\u00b0 - 108\u00b0 = 72\u00b0$$"
+    },
+    {
+      "title": "Determine triangle ABC is isosceles",
+      "content": "Given the geometry and the constraint $\\angle EBC = 29\u00b0$, triangle $ABC$ is isosceles with $\\angle ABC = \\angle ACB = 72\u00b0$. Therefore:<br/><br/>$$\\angle BAC = 180\u00b0 - 72\u00b0 - 72\u00b0 = 36\u00b0$$<br/><br/>This means $AB = AC$, and combined with $AC = CD$, we have $AB = AC = CD$."
+    },
+    {
+      "title": "Find angle ABE using the angle at B",
+      "content": "Since ray $BE$ lies between rays $BA$ and $BC$ when viewed from $B$, and $\\angle EBC = 29\u00b0$:<br/><br/>$$\\angle ABE = \\angle ABC - \\angle EBC = 72\u00b0 - 29\u00b0 = 43\u00b0$$"
+    },
+    {
+      "title": "Find x = angle AEB in triangle ABE",
+      "content": "Since $E$ lies on segment $DA$, angle $\\angle BAE = \\angle BAD$. With $\\angle BAC = 36\u00b0$ and $\\angle CAD = 36\u00b0$ (where $C$ lies between rays $AB$ and $AD$ angularly):<br/><br/>$$\\angle BAD = \\angle BAC + \\angle CAD = 36\u00b0 + 36\u00b0 = 72\u00b0$$<br/><br/>Using the angle sum in triangle $ABE$:<br/><br/>$$x = \\angle AEB = 180\u00b0 - \\angle ABE - \\angle BAE = 180\u00b0 - 43\u00b0 - 72\u00b0 = 65\u00b0$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

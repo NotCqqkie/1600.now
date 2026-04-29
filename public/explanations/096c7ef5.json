@@ -1,0 +1,19 @@
+{
+  "questionId": "096c7ef5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the three points from the coordinate grid",
+      "content": "Reading from the graph: $(4, 8)$, $(7, 11)$, and $(7, 5)$."
+    },
+    {
+      "title": "Find the center of the circle",
+      "content": "Points $(7, 11)$ and $(7, 5)$ are vertically aligned at $x = 7$ and symmetric about $y = 8$. The center must have $y$-coordinate 8. Since $(4, 8)$ is on the circle and on the line $y = 8$, and all three points are equidistant from the center, the center is at $(7, 8)$."
+    },
+    {
+      "title": "Calculate the circumference and find k",
+      "content": "Each point is distance 3 from $(7, 8)$: <ul><li>$(7, 8)$ to $(4, 8)$: distance $= 3$</li><li>$(7, 8)$ to $(7, 11)$: distance $= 3$</li><li>$(7, 8)$ to $(7, 5)$: distance $= 3$</li></ul>With radius $r = 3$:<br/>$$C = 2\\pi r = 2\\pi(3) = 6\\pi$$<br/>Therefore $k = 6$. That matches choice B\u2014<strong>B</strong> is correct."
+    }
+  ]
+}

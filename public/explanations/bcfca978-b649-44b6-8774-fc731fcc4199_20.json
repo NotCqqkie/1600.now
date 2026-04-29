@@ -1,0 +1,15 @@
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The sentence shows \u201csessions may ______ repetitive improvisation exercises to refine an actor's natural responses.\u201d This is a transitive verb (\u201cinclude\u201d) followed by a noun phrase (\u201crepetitive improvisation exercises to refine an actor's natural responses\u201d) that serves as its direct object."
+    },
+    {
+      "title": "Apply the verb-object rule",
+      "content": "A transitive verb must connect directly to its direct object with no punctuation separating them. The colon, semicolon, and comma in A, C, and D all disrupt this connection. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

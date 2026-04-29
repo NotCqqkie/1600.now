@@ -1,0 +1,15 @@
+{
+  "questionId": "97631565",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the sample proportion",
+      "content": "In Scott's sample of 20 employees, 16 are enrolled in exactly three courses. The sample proportion is $$\\frac{16}{20} = \\frac{4}{5}$$."
+    },
+    {
+      "title": "Scale to the population",
+      "content": "To estimate the total number in the entire population, multiply the sample proportion by the total number of employees: $$\\frac{4}{5} \\times 400 = 320$$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

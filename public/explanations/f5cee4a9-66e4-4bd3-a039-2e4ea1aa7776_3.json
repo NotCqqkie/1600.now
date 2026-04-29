@@ -1,0 +1,16 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the mean formula",
+      "formula": "$$\\text{mean} = \\frac{\\text{sum of values}}{\\text{count}}$$",
+      "content": "We have 5 values: 1, 4, 7, 10, and 33. $$\\text{mean} = \\frac{1 + 4 + 7 + 10 + 33}{5}$$"
+    },
+    {
+      "title": "Calculate the sum and divide",
+      "content": "Sum: $1 + 4 + 7 + 10 + 33 = 55$. <br/> Divide by the count: $$\\frac{55}{5} = 11$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

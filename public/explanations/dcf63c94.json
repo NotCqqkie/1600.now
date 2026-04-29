@@ -1,0 +1,19 @@
+{
+  "questionId": "dcf63c94",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply function composition",
+      "content": "Since $h(x) = f(x-4)$, substitute $(x-4)$ for $x$ in the definition of $f(x) = 272 \\cdot 2^x$:<br/><br/>$$h(x) = f(x-4) = 272 \\cdot 2^{x-4}$$"
+    },
+    {
+      "title": "Use exponent rules to separate the terms",
+      "content": "Rewrite $2^{x-4}$ using the rule $a^{m-n} = a^m \\cdot a^{-n}$:<br/><br/>$$2^{x-4} = 2^x \\cdot 2^{-4} = 2^x \\cdot \\frac{1}{16}$$<br/><br/>Substitute back into the expression for $h(x)$:<br/><br/>$$h(x) = 272 \\cdot 2^x \\cdot \\frac{1}{16} = \\frac{272}{16} \\cdot 2^x$$"
+    },
+    {
+      "title": "Evaluate the coefficient",
+      "content": "Divide to find the constant factor:<br/><br/>$$\\frac{272}{16} = 17$$<br/><br/>Therefore $h(x) = 17 \\cdot 2^x$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

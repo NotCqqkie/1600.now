@@ -1,0 +1,15 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize this requires a weighted mean",
+      "content": "We might initially think to just average the two group means: (87 + 93) / 2 = 90. But this ignores that the two groups have <strong>different sizes</strong>. The larger group (380 from Kerguelen) should influence the overall mean more than the smaller group (190 from Falkland). We need a <strong>weighted</strong> mean where each group's contribution is proportional to its size:<br/><br/>$$\\text{Overall Mean} = \\frac{(\\text{size}_1 \\times \\text{mean}_1) + (\\text{size}_2 \\times \\text{mean}_2)}{\\text{total size}}$$"
+    },
+    {
+      "title": "Calculate the weighted mean",
+      "content": "Apply the formula:<br/><br/>$$\\text{Kerguelen contribution} = 380 \\times 87 = 33{,}060 \\text{ cm}$$<br/><br/>$$\\text{Falkland contribution} = 190 \\times 93 = 17{,}670 \\text{ cm}$$<br/><br/>$$\\text{Overall Mean} = \\frac{33{,}060 + 17{,}670}{380 + 190} = \\frac{50{,}730}{570} = 89$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

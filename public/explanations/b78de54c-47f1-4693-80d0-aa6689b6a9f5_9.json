@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key constraint",
+      "content": "The passage directly states the reason for the discrepancy: <em>\u201chistorians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of precolonial Africa.\u201d</em> This archival record limitation is the decisive clue."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Because archival records don't exist for precolonial Africa, Africanist scholars who study that period must necessarily rely on different evidence sources than historians of capitalism who depend on archival records. The other three choices either claim unsupported positions (A and B) or contradict the passage's point about archival records (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

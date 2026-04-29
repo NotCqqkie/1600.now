@@ -1,0 +1,15 @@
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining limitation",
+      "content": "The passage establishes a specific gap: a two-dimensional photograph <em>cannot capture how a building interacts with its surroundings</em> (complementing, blending, or clashing with nearby sights). The word <strong>\u201cthus\u201d</strong> signals that we need to identify the logical consequence of this limitation. What does it mean if a photo can't show that interaction?"
+    },
+    {
+      "title": "Match the consequence to the answer",
+      "content": "Since the photograph cannot capture the building's environmental interaction, it fails to convey the <strong>full impact</strong> of the design\u2014that impact includes how the structure relates to its surroundings, which a 2D image cannot show. A, B, and D introduce claims the passage never addresses: misperception of distant viewers, material decay, or historical importance. <strong>C</strong> is correct because it directly states the consequence of the limitation already established."
+    }
+  ]
+}

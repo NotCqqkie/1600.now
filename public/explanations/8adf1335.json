@@ -1,0 +1,15 @@
+{
+  "questionId": "8adf1335",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation from the given information",
+      "content": "The city's total budget is broken down into two parts: departmental expenses ($y$ million dollars) and other expenses (201 million dollars). Since these parts must add up to the total:<br/><br/>$$x = y + 201$$"
+    },
+    {
+      "title": "Rearrange to match the answer choices",
+      "content": "Subtract $y$ from both sides of the equation:<br/><br/>$$x - y = 201$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

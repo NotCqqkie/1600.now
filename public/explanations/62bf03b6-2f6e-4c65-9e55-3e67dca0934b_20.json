@@ -1,0 +1,15 @@
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure before and after the blank",
+      "content": "Before the blank: \u201cRecordings of electrical activity in the brain,\u201d is a noun phrase (the subject) followed by a comma. After the blank: the sentence must continue with material that connects this subject to the phrase \u201cincreased activity...\u201d The blank must supply a subject and verb for the main clause."
+    },
+    {
+      "title": "Determine which choice creates a logical appositive and correct subject-verb relationship",
+      "content": "In choice <strong>A</strong>, \u201celectrograms\u201d is an appositive that renames \u201cRecordings\u201d\u2014an electrogram is literally a recording of electrical activity\u2014and \u201cshow\u201d serves as the verb: <em>\u201cRecordings of electrical activity in the brain, electrograms show that while responding to hypothetical match scenarios, the most highly skilled soccer players have increased activity...\u201d</em> This makes semantic sense: the recordings show that players have increased activity in suppressive motor areas. The phrase \u201cwhile responding to hypothetical match scenarios\u201d also provides necessary context for the brain activity. In choices B and D, \u201cresponses\u201d is an appositive for \u201cRecordings,\u201d which is nonsensical\u2014responses are not recordings. In choice C, the structure inverts the logic: \u201cthe most highly skilled soccer players...have electrograms,\u201d which falsely suggests players possess electrograms rather than being subjects of the recorded activity. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

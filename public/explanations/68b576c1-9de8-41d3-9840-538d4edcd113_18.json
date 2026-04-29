@@ -1,0 +1,16 @@
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the growth factor from the percentage",
+      "content": "A 2.4% increase means each year's value is 100% + 2.4% = 102.4% of the previous year. Converting to decimal: 102.4% = 1.024."
+    },
+    {
+      "title": "Build the exponential function",
+      "content": "With initial value 174,000 and growth factor 1.024, the exponential function is $f(x) = 174,000(1.024)^x$. This matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$f(x) = a \\cdot b^x$$"
+    }
+  ]
+}

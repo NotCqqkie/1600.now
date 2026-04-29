@@ -1,0 +1,15 @@
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what needs emphasizing",
+      "content": "The question asks which choice best emphasizes <strong>when</strong> Goldwasser won the award. The notes provide the key timing detail: <em>\u201cin 2012.\u201d</em> To emphasize this detail, the correct choice must place it in a focal position, not bury it as a supporting clause or background information."
+    },
+    {
+      "title": "Apply the emphasis test to the choices",
+      "content": "B restructures the information as <em>\u201cIt was in 2012 that Shafi Goldwasser won the A.M. Turing Award,\u201d</em> placing the year at the front for emphasis. A emphasizes the <strong>reason</strong> for the award (the transformative work), C merely identifies her as a winner without timing, and D provides only background on the award itself. B alone makes the year the focal point. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

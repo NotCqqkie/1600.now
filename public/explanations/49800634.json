@@ -1,0 +1,19 @@
+{
+  "questionId": "49800634",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the two points",
+      "content": "From the table, we have the points $(-18, -48)$ and $(7, 52)$.<br/>Slope: $m = \\frac{52 - (-48)}{7 - (-18)} = \\frac{100}{25} = 4$"
+    },
+    {
+      "title": "Write the linear equation using point-slope form",
+      "content": "Using the point $(7, 52)$:<br/>$$y - 52 = 4(x - 7)$$<br/>$$y = 4x - 28 + 52$$<br/>$$y = 4x + 24$$<br/><div class=\"callout\">We can verify with the other point: $y = 4(-18) + 24 = -72 + 24 = -48$ \u2713</div>"
+    },
+    {
+      "title": "Substitute $x = \\frac{1}{7}$ to find $a$",
+      "content": "$$a = 4 \\cdot \\frac{1}{7} + 24$$<br/>$$a = \\frac{4}{7} + \\frac{168}{7}$$<br/>$$a = \\frac{172}{7}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

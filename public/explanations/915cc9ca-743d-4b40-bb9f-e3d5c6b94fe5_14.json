@@ -1,0 +1,15 @@
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the cost tier for each class",
+      "content": "Map the promotion's pricing by class order:<br/><ul><li><strong>1st class:</strong> Free = $0</li><li><strong>2nd class:</strong> Half off = $22.80 \u00f7 2 = $11.40</li><li><strong>Classes 3 and beyond:</strong> Regular price = $22.80 each</li></ul>Since we take x classes total, the number of regularly-priced classes is (x \u2212 2)."
+    },
+    {
+      "title": "Build the total cost formula",
+      "content": "Sum costs across all tiers:<br/>$$f(x) = 0 + 11.40 + 22.80(x-2)$$<br/>Rearrange:<br/>$$f(x) = 22.80(x-2) + 11.40$$<br/><br/>Verify with x = 3: $f(3) = 22.80(1) + 11.40 = 22.80 + 11.40 = 34.20$. This matches taking 1 free class ($0) + 1 discounted class ($11.40) + 1 full-price class ($22.80) = $34.20. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

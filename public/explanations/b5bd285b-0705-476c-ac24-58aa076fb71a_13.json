@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key difference in the evidence",
+      "content": "The passage notes that captive primate studies show significantly more right-handedness than wild primate studies, and this difference <em>\u201craises the possibility that\u201d</em> something explains it."
+    },
+    {
+      "title": "Match the explanation to the difference",
+      "content": "C provides the causal mechanism: exposure to humans in captivity would lead primates to adopt more right-handed behaviors, directly explaining why captive groups show higher right-handedness than wild groups. The other choices address sample size or methodology but don't explain the captive-versus-wild pattern. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

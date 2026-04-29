@@ -1,0 +1,16 @@
+{
+  "questionId": "ebed7dc6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the parabola opens downward",
+      "content": "The equation $y = -100x^2 + 1400x + 7200$ is a quadratic function. Since the coefficient of $x^2$ is $-100 < 0$, the parabola opens downward. A downward-opening parabola has a maximum at its vertex."
+    },
+    {
+      "title": "Apply the vertex formula to find the maximum",
+      "content": "For a quadratic $y = ax^2 + bx + c$, the x-coordinate of the vertex is found using the vertex formula. With $a = -100$ and $b = 1400$:\n\n$$x = -\\frac{1400}{2(-100)} = -\\frac{1400}{-200} = \\frac{1400}{200} = 7$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$x = -\\frac{b}{2a}$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the passage emphasizes",
+      "content": "The passage opens with \u201cWomen like Grace Murray Hopper made important early contributions\u201d to cryptology and explains how their work \u201chelped make it possible for more women...to enter the field.\u201d The passage's core message is that women have been and are contributors to cryptology\u2014from historical pioneers to today's practitioners."
+    },
+    {
+      "title": "Apply the emphasis to the answer choices",
+      "content": "Choice B asserts that women such as Hopper and Pailen have contributed to cryptology, matching the passage's opening claim. The other three either propose an unsupported reform (A), mistake a side definition for the main point (C), or invent details (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

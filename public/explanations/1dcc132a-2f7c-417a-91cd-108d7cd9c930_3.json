@@ -1,0 +1,19 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what x and f(x) represent",
+      "content": "From the problem context, $f(x) = 9,000(1+0.03)^x$ gives the value of the CD in dollars, where $x$ is the number of years after the investment was made."
+    },
+    {
+      "title": "Interpret f(2) using function notation",
+      "content": "When we write $f(2)$, we substitute $x = 2$ into the function. Since $x$ represents the number of years, $f(2)$ gives the value of the CD exactly 2 years after the initial investment. The problem states this value is approximately 9,474.08 dollars."
+    },
+    {
+      "title": "Match to the correct interpretation",
+      "content": "<strong>Choice A</strong> refers to 2% interest, but the function uses 3% (since $1 + 0.03 = 1.03$) \u2014 incorrect.<br/><strong>Choice B</strong> refers to days and doubling \u2014 doesn't match what we found \u2014 incorrect.<br/><strong>Choice D</strong> says 9,474.08 is how much <em>more</em> than the initial value (a gain), but 9,474.08 is the total value, not the gain amount \u2014 incorrect.<br/><strong>Choice C</strong> states: <em>2 years after the investment was made, the value of the CD was approximately 9,474.08 dollars.</em> This is exactly what $f(2)$ represents. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

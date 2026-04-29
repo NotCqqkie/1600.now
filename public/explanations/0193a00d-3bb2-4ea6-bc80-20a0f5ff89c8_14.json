@@ -1,0 +1,15 @@
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Observe the equation form",
+      "content": "The equation $y = 16 + 14(x - 1)$ contains two additive terms: 16 and $14(x - 1)$."
+    },
+    {
+      "title": "Apply commutativity to match a choice",
+      "content": "We can rearrange the terms using commutativity of addition: $16 + 14(x - 1) = 14(x - 1) + 16$. This matches choice C exactly \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

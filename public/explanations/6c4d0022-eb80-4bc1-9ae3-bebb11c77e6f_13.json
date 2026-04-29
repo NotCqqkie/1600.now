@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what comparison the graph enables",
+      "content": "The passage lists four prohibited activities that require Form 4720 filing. The question asks which answer most effectively uses the graph data. The graph shows how organizations filing Form 4720 are distributed across these four violation types. The key signal is: which answer makes a specific comparison directly supported by such a breakdown?"
+    },
+    {
+      "title": "Apply the data to the choices",
+      "content": "Answer D directly compares two percentages from the violation breakdown\u2014excess business holdings versus charitable distribution failure among 4720 filers. This is exactly what a graph showing the distribution of 4720 filers by reason would clearly display. Answers A and B require comparisons between different groups or to aggregated <em>other reasons</em> not directly shown in the graph, while C requires calculating average penalties not typical of such data. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

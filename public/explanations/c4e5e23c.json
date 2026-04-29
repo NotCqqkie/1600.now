@@ -1,0 +1,15 @@
+{
+  "questionId": "c4e5e23c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the side length of square N",
+      "content": "The area of square N is 49 square feet. Since area equals side squared, the side of N is $$\\sqrt{49} = 7$$ feet."
+    },
+    {
+      "title": "Apply the area scale factor rule",
+      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. Since the side of M is 6 times the side of N, the area of M is $6^2 = 36$ times the area of N. Therefore, area of M = $$36 \\times 49 = 1,764$$ square feet. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key contrast",
+      "content": "Text 1 relies on non-boreal research showing warming benefits invasive species, implying this explains knotgrass invasion in warming Alaska. Text 2 directly tests this in Alaska and finds that despite significant temperature variation year-to-year, both species showed no differential growth."
+    },
+    {
+      "title": "Match the contrast to the answer",
+      "content": "The fact that temperature variation didn't produce differential growth undermines the assumption that non-boreal warming patterns apply to the Alaskan boreal context\u2014a direct challenge to generalizability. A claims Text 2 provides an alternative explanation (it doesn't), B frames this as a methodology issue (it's a finding), and D says the study invalidates Text 1's research (too extreme\u2014the problem is whether it applies elsewhere, not whether it's valid where it came from). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

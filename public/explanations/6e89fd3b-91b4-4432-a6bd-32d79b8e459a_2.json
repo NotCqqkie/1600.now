@@ -1,0 +1,15 @@
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that having over 500,000 known minor planets makes the naming task nearly ____. The signal is the causal relationship: that massive volume creates a specific challenge."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<em>Insurmountable</em> (impossible to overcome) directly expresses the result when 500,000+ planets make it nearly impossible to give each a unique name. The other choices don't match: \u201csubstantial\u201d concerns magnitude, \u201cunnecessary\u201d contradicts the passage's point, and \u201cpermissible\u201d addresses what's allowed rather than what's achievable. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

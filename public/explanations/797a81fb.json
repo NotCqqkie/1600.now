@@ -1,0 +1,15 @@
+{
+  "questionId": "797a81fb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Scale the second equation to match the first",
+      "content": "Multiply the second equation by 2:<br/>$$2(-6x + 7y) = 2(-18)$$<br/>$$-12x + 14y = -36$$"
+    },
+    {
+      "title": "Identify the inconsistency and solve",
+      "content": "Compare to the first equation:<br/><ul><li>First equation: $-12x + 14y = 36$</li><li>Scaled second equation: $-12x + 14y = -36$</li></ul>The left sides are identical but the right sides differ (36 \u2260 -36). This is impossible. The same expression cannot equal two different values. The equations represent parallel lines that never intersect. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

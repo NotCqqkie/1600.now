@@ -1,0 +1,16 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the circle equation formula",
+      "content": "For a circle with center $(h, k)$ and radius $r$, the equation has the radius <strong>squared</strong> on the right side.",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+    },
+    {
+      "title": "Substitute center and radius",
+      "content": "Given center $(16, 17)$ and radius $7k$:<br/>$$(x - 16)^2 + (y - 17)^2 = (7k)^2 = 49k^2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

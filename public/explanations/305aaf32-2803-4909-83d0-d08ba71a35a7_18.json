@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the left side and isolate the square root",
+      "content": "Start with $$\\frac{12x}{6y}=2\\sqrt{w+22}$$<br/>Simplify the left side: $$\\frac{12x}{6y}=\\frac{2x}{y}$$<br/>Divide both sides by 2 to isolate the square root: $$\\frac{x}{y}=\\sqrt{w+22}$$"
+    },
+    {
+      "title": "Square both sides and solve for w",
+      "content": "Square both sides to eliminate the square root: $$\\left(\\frac{x}{y}\\right)^2=w+22$$<br/>Subtract 22 from both sides to isolate $w$: $$w=\\left(\\frac{x}{y}\\right)^2-22$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

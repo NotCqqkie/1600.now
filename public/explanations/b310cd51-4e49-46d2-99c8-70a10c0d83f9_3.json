@@ -1,0 +1,15 @@
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what we're measuring",
+      "content": "Standard deviation measures how spread out data is from the center. <strong>The smallest standard deviation belongs to the dataset where values are closest together.</strong>"
+    },
+    {
+      "title": "Compare tightness of each dataset",
+      "content": "Look at how tightly values cluster:<br/><ul><li><strong>A:</strong> 44, 45, 47, 49, 50 \u2014 spreads from 44 to 50 (range = 6)</li><li><strong>B:</strong> 45, 45, 47, 49, 49 \u2014 spreads from 45 to 49 (range = 4), with pairs repeated</li><li><strong>C:</strong> 45, 46, 47, 48, 49 \u2014 spreads from 45 to 49 (range = 4), evenly spaced</li><li><strong>D:</strong> 46, 47, 47, 47, 48 \u2014 spreads from 46 to 48 (range = 2), with <strong>three values identical at 47</strong></li></ul>Choice D has both the smallest range and the most dramatic clustering. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

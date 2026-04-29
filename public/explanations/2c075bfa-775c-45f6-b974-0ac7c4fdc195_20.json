@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The astronomers \u201cattributed ______ to the gravitational influence.\u201d The pronoun refers back to \u201cthe wobble,\u201d which they were observing."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "The pronoun must match its antecedent in number. Since the wobble is singular, the pronoun must be singular; <strong>it</strong> is the only singular choice. <em>Them</em> and <em>these</em> are plural, while <em>each</em> is not used as a simple pronoun reference. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

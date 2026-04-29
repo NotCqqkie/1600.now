@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the structural requirement",
+      "content": "The blank precedes \u201c112th in a global ranking,\u201d which cannot form a complete sentence without a subject and verb. The constitution is singular."
+    },
+    {
+      "title": "Select the choice that completes the sentence",
+      "content": "'It's' (it is) makes the sentence complete: it is \u201c112th in a global ranking.\u201d The possessive forms 'its' and 'their' lack the verb needed, while 'they're' uses the wrong number. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

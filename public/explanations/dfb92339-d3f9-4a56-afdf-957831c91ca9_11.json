@@ -1,0 +1,15 @@
+{
+  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage\u2019s key signal is the phrase \u201cdifferent types of volcanoes,\u201d which requires the example to <em>directly name two distinct volcano types</em> listed in the table. Only the choice that pairs two accurate, distinct entries from the table aligns with this."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice C pairs Cuicocho as a caldera with Cayambe as a compound, matching the table\u2019s classifications. The other three either misidentify a volcano\u2019s type or duplicate types, which contradicts the instruction to highlight \u201cdifferent\u201d categories. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

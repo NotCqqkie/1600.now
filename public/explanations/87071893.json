@@ -1,0 +1,15 @@
+{
+  "questionId": "87071893",
+  "correctAnswer": "55",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract 40 from both sides to isolate x",
+      "content": "The equation $x + 40 = 95$ has $x$ added to 40. To isolate $x$, subtract 40 from both sides:<br/><br/>$$x + 40 - 40 = 95 - 40$$"
+    },
+    {
+      "title": "Simplify to find x",
+      "content": "On the left: $x + 40 - 40 = x$<br/>On the right: $95 - 40 = 55$<br/><br/>$$x = 55$$"
+    }
+  ]
+}

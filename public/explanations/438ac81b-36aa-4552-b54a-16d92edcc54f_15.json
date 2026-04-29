@@ -1,0 +1,15 @@
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the verb form requirement",
+      "content": "The sentence contains \u201cthe lander spent 161 days ___ data.\u201d After the verb spent with a time period, a specific verb form is needed to complete what action was performed."
+    },
+    {
+      "title": "Apply the gerund rule",
+      "content": "After spent plus a time period, you must use a <strong>gerund</strong>\u2014the -ing form of the verb. \u201cCollecting\u201d is the gerund expressing the action during the 161-day period. \u201cWere collecting\u201d and \u201cis collecting\u201d are finite verbs rather than gerunds, and \u201ccollected\u201d is a past participle that doesn't work after \u201cspent.\u201d That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f52cc78c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contradiction in Text 2",
+      "content": "Text 1 predicts extinction for populations losing sea ice to warming. Text 2 describes Svalbard polar bears experiencing rapid sea-ice decline yet remaining stable and well-nourished\u2014by adapting their diet to include reindeer and eggs."
+    },
+    {
+      "title": "Match Text 2's implicit response",
+      "content": "A names the flaw precisely: the conclusion overlooked the possibility of adaptation. <br/>B disputes ice-loss rates (which Text 2 doesn't challenge), C wrongly claims Svalbard is unaffected (despite rapidly declining ice), and D frames the issue unclearly. <br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

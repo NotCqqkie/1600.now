@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the partial explanation signal",
+      "content": "The passage criticizes the energy ladder model as \u201creductive,\u201d then clarifies: income \u201cof course constrained fuel choice,\u201d yet multiple other factors also influenced decisions. This directly signals that income explains some but not all differences."
+    },
+    {
+      "title": "Match to the answer",
+      "content": "Choice A captures this: income explains some but not all differences in fuel choice. B incorrectly denies income's effect, C disputes the wrong element of the model, and D confuses whether income affects fuel type or quantity. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

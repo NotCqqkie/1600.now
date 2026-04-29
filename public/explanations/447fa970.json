@@ -1,0 +1,15 @@
+{
+  "questionId": "447fa970",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 4 into the function",
+      "content": "To find $f(4)$, we substitute $x = 4$ into the given function $f(x) = 7x + 2$."
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "$$f(4) = 7(4) + 2 = 28 + 2 = 30$$"
+    }
+  ]
+}

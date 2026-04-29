@@ -1,0 +1,15 @@
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the hypothesis to predicted responses",
+      "content": "The hypothesis predicts an inverse relationship: birds with narrower fields of vision should be <strong>more sensitive</strong> to alarm calls; birds with wider fields of vision should be <strong>less sensitive</strong>. <em>M. barbatus</em> forages in dense vegetation (narrow vision) and should <strong>react</strong> to the calls. <em>P. saturatus</em> forages in open areas (wide vision) and should <strong>not react</strong>."
+    },
+    {
+      "title": "Match the observation to the prediction",
+      "content": "Choice D shows <em>P. saturatus</em> displaying no reaction and <em>M. barbatus</em> displaying predator-avoidance behavior. The other choices either show both species responding the same way, compare irrelevant species, or reverse the expected pattern. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "Left side: \u201cthe average summer temperature\u201d \u2014 a noun phrase serving as the subject. Right side: \u201cjust 66.7 degrees Fahrenheit\u201d \u2014 a noun phrase serving as the complement, not an independent clause."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A verb connects directly to its complement without punctuation.<br/> A semicolon separates independent clauses, a colon introduces elaboration or a list, and a comma between verb and complement violates conventions\u2014all incorrect here. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

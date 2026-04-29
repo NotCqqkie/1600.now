@@ -1,0 +1,15 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the growth factor",
+      "content": "When an amount increases by 60%, the new value equals the old value plus 60% of the old value:<br/>$$\\text{New} = \\text{old} + 0.60 \\times \\text{old} = \\text{old} \\times 1.60$$<br/>This multiplication by 1.60 occurs every 2 days. (The choice with 0.60 is a distractor representing a 60% decrease, not increase.)"
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "Growth happens every 2 days, so the number of growth periods in x days is $\\frac{x}{2}$.<br/>Each period multiplies the views by 1.60.<br/>Starting from 233 views on day 0:<br/>$$f(x) = 233 \\times (1.60)^{x/2}$$<br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

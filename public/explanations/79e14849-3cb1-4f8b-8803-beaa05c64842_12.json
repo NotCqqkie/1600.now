@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the research finding about age and borrowing",
+      "content": "The passage gives us a key finding: younger speakers of nonmajority languages borrow more from the majority language than older speakers do."
+    },
+    {
+      "title": "Connect the research to the choices",
+      "content": "Choice D states that younger Spanish speakers would be more likely to use the NYC-specific dialect than older speakers. This follows directly from the research: younger speakers borrow more from the majority language (English), and the hypothesis claims the NYC dialect develops through English interaction. A, B, and C either rely on unsupported neighborhood logic, predict general language growth, or contradict the research by focusing on borrowing from other nonmajority languages. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

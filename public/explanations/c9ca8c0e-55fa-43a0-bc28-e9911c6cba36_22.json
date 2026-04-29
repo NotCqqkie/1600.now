@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the exemplification signal",
+      "content": "The first sentence states a general principle: sleek vehicles are more aerodynamic than bulkier ones. The second sentence then presents a specific case: the Airbus A350 with its streamlined nose. The transition must signal that this specific example illustrates the general principle."
+    },
+    {
+      "title": "Apply the exemplification logic",
+      "content": "<strong>For example</strong> introduces the A350's streamlined nose as a concrete instance of why sleek vehicles are more aerodynamic, showing how its design helps it glide through wind. <strong>Meanwhile</strong> suggests simultaneity, <strong>however</strong> signals contradiction, and <strong>additionally</strong> implies adding a separate point\u2014none establish the exemplification relationship this sentence requires. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

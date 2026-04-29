@@ -1,0 +1,15 @@
+{
+  "questionId": "4e77195b",
+  "correctAnswer": "480",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common factor from the target expression",
+      "content": "We need to find the value of $16 + 8x$. Notice that both terms have a common factor of 8: $$16 + 8x = 8(2 + x)$$"
+    },
+    {
+      "title": "Substitute the given value of (2 + x) and calculate",
+      "content": "From the given equation, we know that $2 + x = 60$. Substituting this into our factored form: $$8(2 + x) = 8(60) = 480$$"
+    }
+  ]
+}

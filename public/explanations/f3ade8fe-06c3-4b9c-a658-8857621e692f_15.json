@@ -1,0 +1,19 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the length of the shown line segment",
+      "content": "From the graph, the line segment spans horizontally from approximately $x = -3$ to $x = 3$, giving $\\Delta x = 6$ units. Vertically, the segment rises $\\Delta y = 9$ units. Using the distance formula:<br/><br/>$$L_1 = \\sqrt{(\\Delta x)^2 + (\\Delta y)^2} = \\sqrt{6^2 + 9^2} = \\sqrt{36 + 81} = \\sqrt{117}$$<br/><br/>Factor: $\\sqrt{117} = \\sqrt{9 \\cdot 13} = 3\\sqrt{13}$"
+    },
+    {
+      "title": "Apply the right triangle area formula",
+      "content": "For a right triangle, Area $= \\frac{1}{2} L_1 \\cdot L_2$, where $L_1$ and $L_2$ are the two legs. Substituting the known values:<br/><br/>$$\\frac{1}{2} \\cdot 3\\sqrt{13} \\cdot L_2 = 48\\sqrt{13}$$"
+    },
+    {
+      "title": "Solve for the unknown leg",
+      "content": "Multiply both sides by 2:<br/><br/>$$3\\sqrt{13} \\cdot L_2 = 96\\sqrt{13}$$<br/><br/>Divide both sides by $3\\sqrt{13}$:<br/><br/>$$L_2 = \\frac{96\\sqrt{13}}{3\\sqrt{13}} = \\frac{96}{3} = 32$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

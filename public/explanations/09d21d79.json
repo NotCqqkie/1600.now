@@ -1,0 +1,20 @@
+{
+  "questionId": "09d21d79",
+  "correctAnswer": "-24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find b using the axis of symmetry",
+      "content": "From the graph, the vertex is at $x = -1$. Apply the axis of symmetry formula with $a = 2$: $$-\\frac{b}{4} = -1$$ $$b = 4$$",
+      "formula": "$$x = -\\frac{b}{2a}$$"
+    },
+    {
+      "title": "Find c using the y-intercept",
+      "content": "At $x = 0$, the equation becomes $y = c$. The graph shows the parabola crossing the y-axis at $y = -6$, so $c = -6$."
+    },
+    {
+      "title": "Calculate bc",
+      "content": "$$bc = 4 \\times (-6) = -24$$"
+    }
+  ]
+}

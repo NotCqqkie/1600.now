@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_8",
+  "correctAnswer": "10000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the number of doubling periods",
+      "content": "From 1652 to 1952, the time elapsed is 1952 \u2212 1652 = 300 years. Since the population doubles every 75 years, the number of doubling periods is 300 \u00f7 75 = 4."
+    },
+    {
+      "title": "Calculate the initial population",
+      "content": "When a population doubles 4 times, it multiplies by $2^4 = 16$. If $P_0$ is the population in 1652:<br/><br/>$$P_0 \\times 2^4 = 160,000$$<br/>$$P_0 \\times 16 = 160,000$$<br/>$$P_0 = \\frac{160,000}{16} = 10,000$$<br/><br/>The population in 1652 was <strong>10,000</strong>."
+    }
+  ]
+}

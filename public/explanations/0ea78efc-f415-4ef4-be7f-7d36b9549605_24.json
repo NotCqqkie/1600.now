@@ -1,0 +1,15 @@
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast in distances",
+      "content": "The passage first establishes JWST's distance from Earth (one million miles), then introduces Hubble's distance (340 miles). The transition must signal we're comparing these two positions."
+    },
+    {
+      "title": "Match the comparison signal",
+      "content": "<strong>In comparison</strong> works because it's the only transition that sets one thing against another for contrast. The other three all signal the wrong kind of relationship\u2014sequence, addition, or causation\u2014rather than comparison. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

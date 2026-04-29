@@ -1,0 +1,15 @@
+{
+  "questionId": "3de7a7d7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Start with $2x^2 - 4 = x^2$. Subtract $x^2$ from both sides:<br/>$$x^2 - 4 = 0$$<br/>Add 4 to both sides:<br/>$$x^2 = 4$$"
+    },
+    {
+      "title": "Solve and match to choices",
+      "content": "Taking the square root:<br/>$$x = \\pm 2$$<br/>Among the choices (1, 2, 3, 4), the solution $x = 2$ appears. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope and y-intercept",
+      "formula": "$$f(x) = mx + b$$",
+      "content": "The slope-intercept form applies here: $m$ is the slope and $b$ is the y-intercept. We're given slope = 69. The condition $f(0) = 3$ tells us the y-intercept: when $x = 0$, we have $f(0) = m(0) + b = b = 3$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "Substituting $m = 69$ and $b = 3$ into the slope-intercept form gives $f(x) = 69x + 3$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7dbd46d9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use substitution to eliminate y",
+      "content": "From $8x + y = -11$, we get $y = -11 - 8x$. Substitute into $2x^2 = y + 341$:<br/>$$2x^2 = (-11 - 8x) + 341 = 330 - 8x$$<br/>$$2x^2 + 8x - 330 = 0$$<br/>Dividing by 2:<br/>$$x^2 + 4x - 165 = 0$$"
+    },
+    {
+      "title": "Backsolve using integer choices",
+      "content": "Backsolving \u2014 testing choice A (-15):<br/>$$(-15)^2 + 4(-15) - 165 = 225 - 60 - 165 = 0$$ \u2713<br/>The equation is satisfied. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

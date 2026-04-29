@@ -1,0 +1,15 @@
+{
+  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the distance problem that forces a pivot",
+      "content": "The passage acknowledges Kapteyn b's potential but emphasizes a critical problem: it's 13 light years away, making it inaccessible anytime soon. This distance problem forces a redirection of focus."
+    },
+    {
+      "title": "Match the transition to the substitution logic",
+      "content": "D) Instead captures this perfectly: because Kapteyn b is unreachably far, we must shift our focus to planets within our solar system instead. Likewise suggests similarity, For example treats the scenarios as examples, and Next implies sequence\u2014wrong for expressing substitution. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

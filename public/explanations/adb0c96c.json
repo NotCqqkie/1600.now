@@ -1,0 +1,15 @@
+{
+  "questionId": "adb0c96c",
+  "correctAnswer": "80",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate y by subtracting the equations",
+      "content": "Both equations have coefficient 1 for $y$, so subtracting the second from the first eliminates $y$:<br/><br/>$$(24x + y) - (6x + y) = 48 - 72$$<br/>$$18x = -24$$<br/>$$x = -\\frac{4}{3}$$"
+    },
+    {
+      "title": "Substitute to find y",
+      "content": "Substitute $x = -\\frac{4}{3}$ into the second equation:<br/><br/>$$6 \\left(-\\frac{4}{3}\\right) + y = 72$$<br/>$$-8 + y = 72$$<br/>$$y = 80$$"
+    }
+  ]
+}

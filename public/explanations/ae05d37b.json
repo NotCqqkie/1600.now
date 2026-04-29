@@ -1,0 +1,15 @@
+{
+  "questionId": "ae05d37b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the initial population and the target for doubling",
+      "content": "Calculate the initial population at $t = 0$:<br/>$$f(0) = 40,000 \\cdot 2^{\\frac{0}{790}} = 40,000$$<br/>For the population to double, we need:<br/>$$f(t) = 2 \\times 40,000 = 80,000$$"
+    },
+    {
+      "title": "Set up and solve the equation for doubling time",
+      "content": "We need $f(t) = 80,000$:<br/>$$40,000 \\cdot 2^{\\frac{t}{790}} = 80,000$$<br/>Divide both sides by 40,000:<br/>$$2^{\\frac{t}{790}} = 2$$<br/>Since $2 = 2^1$, the exponents must be equal:<br/>$$\\frac{t}{790} = 1$$<br/>Therefore $t = 790$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_14",
+  "correctAnswer": "16,12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the Zero Product Property",
+      "content": "The equation $(x-16)(x-12)(x+7)(x+13)=0$ is a product of four factors equal to zero. By the zero product property, this product equals zero if and only if at least one factor equals zero. Set each factor equal to zero:"
+    },
+    {
+      "title": "Solve each linear equation",
+      "content": "$x - 16 = 0$ gives $x = 16$<br/>$x - 12 = 0$ gives $x = 12$<br/>$x + 7 = 0$ gives $x = -7$<br/>$x + 13 = 0$ gives $x = -13$<br/><br/>The positive solutions are $x = 16$ and $x = 12$. Either <strong>16</strong> or <strong>12</strong> is a valid answer."
+    }
+  ]
+}

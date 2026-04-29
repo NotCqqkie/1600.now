@@ -1,0 +1,15 @@
+{
+  "questionId": "571174f3",
+  "correctAnswer": ".2857",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Infinitely Many Solutions Means the Equations Are Proportional",
+      "content": "When a system has infinitely many solutions, the two equations represent the same line. This means the second equation is a scalar multiple of the first:<br/><br/>$$gx + ky = c\\left(\\frac{2}{5}x + \\frac{7}{5}y\\right)$$<br/><br/>for some nonzero constant $c$."
+    },
+    {
+      "title": "Set Up and Solve for the Coefficient Ratio",
+      "content": "Expanding the right side gives:<br/><br/>$$gx + ky = \\frac{2c}{5}x + \\frac{7c}{5}y$$<br/><br/>Matching coefficients: $g = \\frac{2c}{5}$ and $k = \\frac{7c}{5}$.<br/><br/>Therefore:<br/><br/>$$\\frac{g}{k} = \\frac{\\frac{2c}{5}}{\\frac{7c}{5}} = \\frac{2c}{5} \\cdot \\frac{5}{7c} = \\frac{2}{7}$$"
+    }
+  ]
+}

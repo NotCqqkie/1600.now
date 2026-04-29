@@ -1,0 +1,19 @@
+{
+  "questionId": "565428e1",
+  "correctAnswer": ".5061",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert radical to exponent form and substitute",
+      "content": "Rewrite the left side using exponent rules: $\\sqrt[3]{p^2} = p^{\\frac{2}{3}}$, so the equation becomes $p^{\\frac{2}{3}} = t^{\\frac{9}{7}}$. Now substitute the given expression $t = p^{3n-1}$: $$p^{\\frac{2}{3}} = (p^{3n-1})^{\\frac{9}{7}}$$"
+    },
+    {
+      "title": "Apply power rule and equate exponents",
+      "content": "Use the power rule $(a^m)^n = a^{mn}$ on the right side: $$p^{\\frac{2}{3}} = p^{(3n-1) \\cdot \\frac{9}{7}} = p^{\\frac{9(3n-1)}{7}}$$ Since $p > 1$, the bases are equal, so the exponents must be equal: $$\\frac{2}{3} = \\frac{9(3n-1)}{7}$$"
+    },
+    {
+      "title": "Solve for n",
+      "content": "Cross-multiply to clear the fractions: $$2 \\cdot 7 = 3 \\cdot 9(3n-1)$$ $$14 = 27(3n-1)$$ Expand the right side: $$14 = 81n - 27$$ Add 27 to both sides: $$41 = 81n$$ Therefore: $$n = \\frac{41}{81}$$"
+    }
+  ]
+}

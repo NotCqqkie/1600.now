@@ -1,0 +1,21 @@
+{
+  "questionId": "f89af023",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Define variables and set up area equation",
+      "content": "Let the width be $w$ meters. Then the length is $2w$ meters. The area is $$w \\cdot 2w = 2w^2$$ square meters. Given area = 162, we have $$2w^2 = 162$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for width and select answer",
+      "content": "Divide both sides by 2: $$w^2 = 81$$. Take the positive square root (width cannot be negative): $$w = 9$$ meters. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

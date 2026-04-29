@@ -1,0 +1,15 @@
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what would weaken the claim",
+      "content": "The student claims that <strong>all volcanoes in Ecuador are shield volcanoes</strong>. To weaken this absolute statement, we need evidence showing that at least some volcanoes are <strong>not</strong> shield volcanoes. The table lists four volcanoes with their classifications, so the key is whether the data shows non-shield volcanoes among them."
+    },
+    {
+      "title": "Match the evidence to the choices",
+      "content": "Reading the table: Imbabura is compound, Chacana is caldera, Chimborazo is stratovolcano, and Fernandina is shield. Choice C states that Fernandina is the <strong>only</strong> shield volcano among the four, which means the other three are definitively not shield volcanoes\u2014a direct contradiction to the claim that all are shield volcanoes. Choices A and D are factually incorrect based on the table, and choice B concerns eruption years, not volcano type. <br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

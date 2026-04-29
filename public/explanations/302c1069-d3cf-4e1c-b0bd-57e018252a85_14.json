@@ -1,0 +1,15 @@
+{
+  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast clue",
+      "content": "The passage contrasts participants recruited through snowball sampling (via their social networks) with those recruited by strangers, noting a much higher retention rate for the former group."
+    },
+    {
+      "title": "Apply the contrast to the choices",
+      "content": "D states that being recruited by a socially connected person creates a feeling of obligation to stay in the study, which directly explains why snowball\u2011sampling recruits showed higher retention than stranger recruits. The other three choices either discuss network size, rural versus nonrural effects, or the possibility of strangers sharing a network\u2014none address the link between social connection and retention. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

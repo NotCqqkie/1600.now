@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its number",
+      "content": "The subject is \u201cthe Museum of Modern Art's vast collection of oil paintings\u201d\u2014a singular noun phrase. Though a relative clause interrupts with multiple artworks, the head noun \u201ccollection\u201d is singular."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement requires the verb to match the singular subject. <strong>Remains</strong> is singular and agrees correctly with \u201ccollection.\u201d The other three options\u2014<strong>remain</strong>, <strong>have been remaining</strong>, and <strong>have remained</strong>\u2014are all plural forms that violate this agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

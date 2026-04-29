@@ -1,0 +1,19 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write equations from the percentages",
+      "content": "From <em>b is 81% of c</em>, we have $b = 0.81c$. From <em>a is 2,106% of (b+c)</em>, we have:\n$$a = 21.06(b + c)$$\nNote that 2,106% as a decimal is 21.06, not 2.106."
+    },
+    {
+      "title": "Express a in terms of b",
+      "content": "From $b = 0.81c$, we can write:\n$$b + c = 0.81c + c = 1.81c$$\nSubstituting into the equation for $a$:\n$$a = 21.06(1.81c) = 38.1186c$$"
+    },
+    {
+      "title": "Calculate what percent of b is a",
+      "content": "With $a = 38.1186c$ and $b = 0.81c$:\n$$\\frac{a}{b} = \\frac{38.1186c}{0.81c} = \\frac{38.1186}{0.81} = 47.06$$\n\nAs a percentage: $47.06 \\times 100\\% = 4,706\\%$.\n\nThat matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

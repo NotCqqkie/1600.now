@@ -1,0 +1,21 @@
+{
+  "questionId": "3c03cbd8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the equation",
+      "content": "The equation $$5x+24y=4529$$ shows total trees equals (5 hectares)*(x trees/hectare) plus (24 hectares)*(y trees/hectare). Therefore, $x$ represents the average number of trees per hectare in the industrial park.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Identify the meaning of x",
+      "content": "From the interpretation, $x$ is the average trees per hectare in the industrial park, which corresponds to choice A. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

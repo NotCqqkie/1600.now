@@ -1,0 +1,15 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope using the two data points",
+      "content": "From the table, we have points $(1, 140)$ and $(3, 250)$. The slope is:<br/>$$m = \\frac{250 - 140}{3 - 1} = \\frac{110}{2} = 55$$"
+    },
+    {
+      "title": "Find the y-intercept and write the equation",
+      "content": "Substitute $m = 55$ and the point $(1, 140)$ into $f(h) = mh + b$:<br/>$$140 = 55(1) + b$$<br/>$$b = 85$$<br/><br/>Therefore, $f(h) = 55h + 85$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

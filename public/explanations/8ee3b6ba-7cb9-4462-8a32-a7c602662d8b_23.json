@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical consequence",
+      "content": "The prior sentence criticizes the USGS for omitting important considerations. The sentence with the blank concludes that their center was inaccurate. The transition must show how the omission led to this inaccuracy."
+    },
+    {
+      "title": "Apply the causal signal",
+      "content": "\u201dHence\u201d marks the consequence: because the USGS omitted critical factors, their center was inaccurate. \u201cNext\u201d is merely sequential, \u201cThat being said\u201d concedes without concluding, and \u201cHowever\u201d presents contrast rather than causation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

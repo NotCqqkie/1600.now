@@ -1,0 +1,15 @@
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Derive a third equal pair from the ratio",
+      "content": "From $\\frac{GH}{GF}=\\frac{LM}{LK}$ and $GH = LM = 34$, we get $\\frac{34}{GF}=\\frac{34}{LK}$, so $GF = LK$."
+    },
+    {
+      "title": "Apply SAS to complete the proof",
+      "content": "We now have three equalities:<ul><li>$GF = LK$</li><li>$\\angle G = \\angle L = 30\u00b0$</li><li>$GH = LM = 34$</li></ul>In each triangle, the angle is between its two sides. By Side-Angle-Side (SAS) congruence, $\\triangle FGH \\cong \\triangle KLM$ with the given information alone. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

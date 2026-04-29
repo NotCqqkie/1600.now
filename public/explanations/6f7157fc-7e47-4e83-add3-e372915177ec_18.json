@@ -1,0 +1,19 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify intersection points on the graph",
+      "content": "The graph shows a downward-opening parabola and a horizontal line at $y = 6$. Solutions to the system are the points where these curves meet."
+    },
+    {
+      "title": "Read x-coordinates from the grid",
+      "content": "The parabola crosses the line $y = 6$ at two points. Reading from the grid lines: <ul><li>Left intersection: $x = 4$</li><li>Right intersection: $x \\approx 6$</li></ul>"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The left intersection point is $(4, 6)$, so $x = 4$ is a solution to the system. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

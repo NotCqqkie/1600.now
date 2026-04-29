@@ -1,0 +1,15 @@
+{
+  "questionId": "606cdce7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test choice B with a table point",
+      "content": "Backsolving \u2014 testing choice B ($9x + 3y = 3$): <br/> Substitute $x = -6$, $y = 65$ from the table: <br/> $$9(-6) + 3(65) = -54 + 195 = 141$$ <br/> Since $141 \\neq 3$, choice B does not work."
+    },
+    {
+      "title": "Test choice A with the same point",
+      "content": "Fails. Testing choice A ($9x + 3y = 141$): <br/> Substitute $x = -6$, $y = 65$: <br/> $$9(-6) + 3(65) = -54 + 195 = 141$$ \u2713 <br/> <br/> That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

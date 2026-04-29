@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the three triangle inequality conditions",
+      "content": "For a triangle with sides 10, 12, and $x$, the sum of any two sides must exceed the third side. This gives us three conditions:<ul><li>$10 + 12 > x$ (the sum of the known sides exceeds the unknown)</li><li>$10 + x > 12$ (one known side plus the unknown exceeds the other)</li><li>$12 + x > 10$ (the other known side plus the unknown exceeds the first)</li></ul>"
+    },
+    {
+      "title": "Solve and combine the inequalities",
+      "content": "Simplifying each inequality:<ul><li>$10 + 12 > x$ becomes $x < 22$</li><li>$10 + x > 12$ becomes $x > 2$</li><li>$12 + x > 10$ becomes $x > -2$ (redundant since $x$ must be positive)</li></ul>The binding constraints are $x > 2$ and $x < 22$. Combining these gives $2 < x < 22$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

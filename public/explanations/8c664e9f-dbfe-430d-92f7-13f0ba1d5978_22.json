@@ -1,0 +1,19 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert to standard form by completing the square",
+      "content": "The equation $x^2 + 9x + y^2 - 7y + 11 = 0$ is a circle in general form. To find the radius, we must rewrite it in standard form $(x-h)^2 + (y-k)^2 = r^2$ by completing the square separately for the $x$ and $y$ terms."
+    },
+    {
+      "title": "Complete the square for x and y",
+      "content": "For the $x$ terms, take half the linear coefficient and square it:<br/>$$x^2 + 9x = \\left(x + \\frac{9}{2}\\right)^2 - \\frac{81}{4}$$<br/><br/>For the $y$ terms, do the same:<br/>$$y^2 - 7y = \\left(y - \\frac{7}{2}\\right)^2 - \\frac{49}{4}$$"
+    },
+    {
+      "title": "Substitute and simplify to find r",
+      "content": "Substitute back into the original equation:<br/>$$\\left(x + \\frac{9}{2}\\right)^2 - \\frac{81}{4} + \\left(y - \\frac{7}{2}\\right)^2 - \\frac{49}{4} + 11 = 0$$<br/><br/>Move constants to the right:<br/>$$\\left(x + \\frac{9}{2}\\right)^2 + \\left(y - \\frac{7}{2}\\right)^2 = \\frac{81}{4} + \\frac{49}{4} - 11$$<br/><br/>Simplify the right side:<br/>$$\\frac{81 + 49}{4} - 11 = \\frac{130}{4} - \\frac{44}{4} = \\frac{86}{4}$$<br/><br/>Therefore $r^2 = \\frac{86}{4}$. Taking the square root:<br/>$$r = \\sqrt{\\frac{86}{4}} = \\frac{\\sqrt{86}}{2}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

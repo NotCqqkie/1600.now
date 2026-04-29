@@ -1,0 +1,15 @@
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Left side: <em>In a 2022 study, researchers</em> is a subject noun phrase. Right side: <em>for a relationship between...</em> is a prepositional phrase, followed by <em>analyzed geotagged social media posts from Los Angeles</em>, a finite verb with its object."
+    },
+    {
+      "title": "Apply the participial phrase rule",
+      "content": "A participial phrase modifies the subject noun, with the sentence's main finite verb being separate. Option B uses <em>looking</em>, a present participle modifying <em>researchers</em>, allowing <em>analyzed</em> to be the main verb of the sentence: <em>Researchers looking for a relationship...analyzed geotagged social media posts</em>. Options A (<em>had looked</em>), C (<em>were looking</em>), and D (<em>looked</em>) use finite verbs that compete with <em>analyzed</em> as main verbs. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

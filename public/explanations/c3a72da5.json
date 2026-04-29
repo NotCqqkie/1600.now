@@ -1,0 +1,19 @@
+{
+  "questionId": "c3a72da5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the two expressions to add",
+      "content": "The problem asks for the sum of two polynomials:<br/><ul><li>First expression: $3x^4 + 2x^3$</li><li>Second expression: $4x^4 + 7x^3$</li></ul>We need to add: $(3x^4 + 2x^3) + (4x^4 + 7x^3)$"
+    },
+    {
+      "title": "Combine like terms (same exponent)",
+      "content": "To add polynomials, group terms with the same power of $x$:<div class=\"callout\"><strong>$x^4$ terms:</strong> $3x^4 + 4x^4 = (3 + 4)x^4 = 7x^4$<br/><strong>$x^3$ terms:</strong> $2x^3 + 7x^3 = (2 + 7)x^3 = 9x^3$</div>"
+    },
+    {
+      "title": "Write the final sum",
+      "content": "Combining all terms:<br/>$$7x^4 + 9x^3$$<br/><br/>The x-cubed coefficient is $2 + 7 = 9$, which matches choice D. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

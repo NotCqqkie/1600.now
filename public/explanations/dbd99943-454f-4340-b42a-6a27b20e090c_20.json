@@ -1,0 +1,15 @@
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The grammatical key is determining the subject: \u201clost works,\u201d a plural noun. The intervening descriptive phrase and parenthetical don't change the subject."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "\u201dHave become\u201d is plural and correctly matches \u201clost works.\u201d Choices B, C, and D are singular forms (\u201cis becoming,\u201d \u201chas become,\u201d \u201cbecomes\u201d), which violate subject-verb agreement with a plural subject. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

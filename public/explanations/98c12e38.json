@@ -1,0 +1,16 @@
+{
+  "questionId": "98c12e38",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the area of circle K using its radius",
+      "content": "Circle $K$ has radius $r = 4$ mm. Using the circle area formula, we get $$A_K = \\pi(4)^2 = 16\\pi \\text{ mm}^2$$",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Add the areas of circles K and L",
+      "content": "We have the area of circle $K$ as $16\\pi$ mm$^2$ and the area of circle $L$ as $100\\pi$ mm$^2$ (given). The total area is $$A_{\\text{total}} = 16\\pi + 100\\pi = 116\\pi \\text{ mm}^2$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

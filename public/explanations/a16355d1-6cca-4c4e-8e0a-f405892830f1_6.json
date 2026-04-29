@@ -1,0 +1,15 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_6",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining length",
+      "content": "The line segment is 113 cm total. One part is 47 cm long. Subtract to find the combined length of the other two parts:<br/>$$113 - 47 = 66 \\text{ cm}$$"
+    },
+    {
+      "title": "Divide equally between the two parts",
+      "content": "The other two parts have equal length. Divide the remaining 66 cm by 2:<br/>$$\\frac{66}{2} = 33 \\text{ cm}$$<br/>Each of the two equal parts is 33 cm long."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "eaab8bc1",
+  "correctAnswer": "240",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percentage to a decimal",
+      "content": "To find what percentage of a quantity equals, convert the percentage to decimal form. We have 80%:",
+      "formula": "$$80\\% = \\frac{80}{100} = 0.8$$"
+    },
+    {
+      "title": "Multiply by the total to find the answer",
+      "content": "Multiply the decimal by the total number of seeds: $$0.8 \\times 300 = 240$$. Therefore, <strong>240</strong> seeds sprouted."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "92f812bb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that a + b + c equals the parabola's value at x = 1",
+      "content": "Substituting $x = 1$ into $y = ax^2 + bx + c$ gives $y(1) = a + b + c$. We need to find the y-value at $x = 1$."
+    },
+    {
+      "title": "Determine that a > 0 using the vertex and intersection conditions",
+      "content": "The vertex is at $(9, -14)$, where $y = -14 < 0$. Since the parabola intersects the x-axis at two points, it must open upward. Therefore $a > 0$."
+    },
+    {
+      "title": "Evaluate the parabola at x = 1",
+      "content": "Using vertex form $y = a(x - 9)^2 - 14$, at $x = 1$:<br/>$$y(1) = a(1 - 9)^2 - 14 = 64a - 14$$Since $a > 0$, we have $y(1) > -14$. Among the choices, only $-12 > -14$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

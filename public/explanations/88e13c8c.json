@@ -1,0 +1,15 @@
+{
+  "questionId": "88e13c8c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the function evaluation",
+      "content": "We're given $f(x) = 36x + 1,000$. Since the monthly payment is $400, we need to evaluate $f(400)$."
+    },
+    {
+      "title": "Substitute and calculate",
+      "content": "Substitute $x = 400$:<br/><br/>$$f(400) = 36(400) + 1,000 = 14,400 + 1,000 = 15,400$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

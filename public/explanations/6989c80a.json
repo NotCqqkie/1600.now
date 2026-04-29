@@ -1,0 +1,21 @@
+{
+  "questionId": "6989c80a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope of the linear function",
+      "content": "The function $$F(x)=\\frac{9}{5}(x-273.15)+32$$ can be rewritten as $$F(x)=\\frac{9}{5}x + \\left(32-\\frac{9}{5}\\cdot273.15\\right)$$ , showing it is linear with slope $$m=\\frac{9}{5}$$ .<br/>For a linear function, a change in the input produces a change in the output equal to the slope times the input change: $$\\Delta F = m \\cdot \\Delta x$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute the increase in Fahrenheit",
+      "content": "Here $$\\Delta x = 2.10$$ kelvins, so $$\\Delta F = \\frac{9}{5} \\times 2.10 = \\frac{9 \\times 2.10}{5} = \\frac{18.9}{5} = 3.78$$ degrees Fahrenheit.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

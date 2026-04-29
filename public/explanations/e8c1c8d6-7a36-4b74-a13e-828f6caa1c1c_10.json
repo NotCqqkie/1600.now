@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "The researchers' conclusion is that net CO<sub>2</sub> is likely to INCREASE when warming hastens spring snow melt. This reveals what must be true: the mechanism of early snow melt must favor CO<sub>2</sub> output over absorption."
+    },
+    {
+      "title": "Apply the conclusion to the choices",
+      "content": "Choice C describes early snow melt reducing soil moisture (cutting plant CO<sub>2</sub> absorption) and raising heterotrophic respiration (increasing soil CO<sub>2</sub> output)\u2014this two-pronged effect directly produces the predicted net increase in CO<sub>2</sub>. The other choices either increase absorption without affecting output, weaken both processes, or leave the net outcome unclear. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

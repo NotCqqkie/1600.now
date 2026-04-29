@@ -1,0 +1,15 @@
+{
+  "questionId": "939fc21b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute r = 3 into the first equation",
+      "content": "We know from the second equation that $r = 3$. Substitute this into the first equation:<br/><br/>$$s + 7(3) = 27$$<br/><br/>Simplify:<br/><br/>$$s + 21 = 27$$"
+    },
+    {
+      "title": "Solve for s and identify the solution",
+      "content": "Subtract 21 from both sides:<br/><br/>$$s = 6$$<br/><br/>The solution is $(r, s) = (3, 6)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

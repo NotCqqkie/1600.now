@@ -1,0 +1,15 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_22",
+  "correctAnswer": "-24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear fractions by multiplying both sides by 96cx",
+      "content": "To eliminate all denominators, multiply every term by $96cx$:<br><br>$$96 = cx^2 + 96x$$<br><br>Rearranging into standard form:<br><br>$$cx^2 + 96x - 96 = 0$$"
+    },
+    {
+      "title": "Test x = -24 as a potential multiple-choice answer",
+      "content": "Substitute $x = -24$ into the quadratic equation:<br><br>$$c(-24)^2 + 96(-24) - 96 = 0$$<br>$$576c - 2304 - 96 = 0$$<br>$$c = \\frac{25}{6}$$<br><br>Since we obtain a valid value for $c$, verify by substituting back into the original equation:<br><br>$$\\frac{1}{\\frac{25}{6}(-24)} = \\frac{1}{-100} = -\\frac{1}{100}$$<br>$$\\frac{-24}{96} + \\frac{6}{25} = -\\frac{1}{4} + \\frac{6}{25} = -\\frac{1}{100}$$<br><br>Both sides equal $-\\frac{1}{100}$, confirming that $x = -24$ is the correct answer."
+    }
+  ]
+}

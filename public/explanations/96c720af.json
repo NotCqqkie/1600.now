@@ -1,0 +1,15 @@
+{
+  "questionId": "96c720af",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal clause structure",
+      "content": "The key signal is the temporal conjunction \u201cuntil\u201d following a simple present main clause. The sentence reads: \u201cAtoms...travel faster and faster until they ______ a desired energy level.\u201d This structure requires a specific verb form in the subordinate clause."
+    },
+    {
+      "title": "Apply the temporal clause rule",
+      "content": "Subordinate temporal clauses (introduced by until, before, when, after, etc.) use simple present tense for future conditions, not future or past tense. \u201cReach\u201d (B) is simple present and correctly expresses the condition the atoms must meet. The other options are wrong: \u201cwill reach\u201d (A) uses future tense incorrectly, \u201chad reached\u201d (C) uses past perfect, and \u201care reaching\u201d (D) uses present progressive\u2014none of which work for a temporal subordinate clause. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

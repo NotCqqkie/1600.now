@@ -1,0 +1,19 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Decode what x = 5 represents",
+      "content": "The problem states that <em>x</em> is the number of years after 1951. When <em>x</em> = 5, that's 5 years after 1951, corresponding to the year 1951 + 5 = <strong>1956</strong>."
+    },
+    {
+      "title": "Interpret P(5) \u2248 563",
+      "content": "The function <em>P</em>(<em>x</em>) models the population. So <em>P</em>(5) is the population when <em>x</em> = 5 (year 1956). When <em>P</em>(5) \u2248 563, this means the <strong>population in 1956 is approximately 563</strong>."
+    },
+    {
+      "title": "Match against the choices",
+      "content": "<ul><li><strong>A:</strong> Describes a difference of 5, not 563\u2014incorrect.</li><li><strong>B:</strong> States the population is approximately 563 in 1956\u2014this directly matches our interpretation.</li><li><strong>C:</strong> Talks about <em>5 times greater</em>, misinterpreting the exponent\u2014incorrect.</li><li><strong>D:</strong> Describes a rate of increase, not a population value\u2014incorrect.</li></ul>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

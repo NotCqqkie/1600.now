@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_17",
+  "correctAnswer": "25515",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the constant a using the given data point",
+      "content": "Substitute $x = 1.25$ and $y = 1968.75$ into $y = 900ax^2$:<br/><br/>$$1968.75 = 900a(1.25)^2 = 900a(1.5625) = 1406.25a$$<br/><br/>$$a = \\frac{1968.75}{1406.25} = 1.4$$"
+    },
+    {
+      "title": "Find the breaking strength when x = 4.50 inches",
+      "content": "Substitute $a = 1.4$ and $x = 4.50$:<br/><br/>$$y = 900(1.4)(4.50)^2 = 900(1.4)(20.25) = 1260 \\cdot 20.25 = 25515$$<br/><br/>The estimated breaking strength is <strong>25515 pounds</strong>."
+    }
+  ]
+}

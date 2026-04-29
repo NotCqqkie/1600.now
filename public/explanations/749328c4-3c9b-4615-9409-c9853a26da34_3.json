@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the brain's response to incomplete visual information",
+      "content": "The key signal is the contrast: despite incomplete visual information (the break in a blocked area), participants still perceived the line as continuous. This shows the brain is actively making up for the missing information."
+    },
+    {
+      "title": "Match 'compensate' to the signal",
+      "content": "<strong>Compensate</strong> means to make up for or offset something. The other three choices don't express this function: <em>captivate</em> and <em>revert</em> are unrelated to compensating for missing information, while <em>barricade</em> contradicts it. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

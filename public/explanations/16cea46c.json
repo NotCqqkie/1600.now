@@ -1,0 +1,15 @@
+{
+  "questionId": "16cea46c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract data from the table",
+      "content": "The baritone row shows 10 singers. The total number of singers is 4 + 6 + 10 + 5 = 25."
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "The probability that a randomly selected singer is a baritone is:<br/><br/>$$P(\\text{baritone}) = \\frac{\\text{number of baritones}}{\\text{total singers}} = \\frac{10}{25} = \\frac{2}{5} = 0.4$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

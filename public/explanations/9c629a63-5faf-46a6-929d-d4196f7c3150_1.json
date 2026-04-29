@@ -1,0 +1,15 @@
+{
+  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the equation and target value",
+      "content": "We're given $s = 10 + 4t$, where $s$ is speed in mph and $t$ is time in seconds. We need to find the speed when $t = 5$ seconds."
+    },
+    {
+      "title": "Substitute and calculate",
+      "content": "Substitute $t = 5$ into the equation:<br/>$$s = 10 + 4(5) = 10 + 20 = 30$$<br/>The speed is 30 mph. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

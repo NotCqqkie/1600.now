@@ -1,0 +1,15 @@
+{
+  "questionId": "4c335aea",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the ownership structure signaled in the context",
+      "content": "The phrase <em>\u201ceach genre's data\u201d</em> emphasizes that rock and rap have separate, individual data. This tells us we're describing distinct chorus-to-verse ratios\u2014rock's ratio and rap's ratio\u2014not a single shared ratio."
+    },
+    {
+      "title": "Apply the independent possessive rule",
+      "content": "When multiple nouns joined by and each independently possess something, both must be possessive. Since <em>\u201ceach genre's data\u201d</em> signals independent possession, both rock and rap must take the form <strong>rock's and rap's</strong>. Choices A (no possessives), C (mixed forms), and D (possessive only on the second noun) violate this rule. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

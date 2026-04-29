@@ -1,0 +1,15 @@
+{
+  "questionId": "25fc031a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Examine the shape of each histogram",
+      "content": "Company A: All data is clustered between 25\u201340 thousand units, with the peak at 30\u201335. The three bars have frequencies of approximately 43, 48, and 41. This is a <strong>narrow, concentrated distribution</strong>.<br/><br/>Company B: Data spreads across the entire range from 15\u201350 thousand units, with frequencies of approximately 31, 22, 12, 5, 12, 22, and 31. This creates a <strong>bimodal shape with peaks at the extremes</strong> (15\u201320 and 45\u201350) and a valley in the middle (30\u201335)."
+    },
+    {
+      "title": "Apply the standard deviation principle",
+      "content": "Standard deviation measures spread\u2014the typical distance of data points from the mean.<ul><li><strong>Narrow, concentrated distribution</strong> \u2192 values cluster close to the mean \u2192 small standard deviation</li><li><strong>Wide, spread-out distribution</strong> \u2192 values scatter far from the mean \u2192 large standard deviation</li></ul>Company A is tightly concentrated in a narrow range; Company B is widely spread from 15 to 50. Therefore, Company A's standard deviation is less than Company B's standard deviation. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

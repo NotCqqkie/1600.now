@@ -1,0 +1,15 @@
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the goal-to-action relationship",
+      "content": "The first sentence states Amber's goal: avoiding harsh synthetic dyes. The second sentence describes an action: experimenting with natural dyes. The transition must bridge the motivation to the resulting action."
+    },
+    {
+      "title": "Match the transition to the relationship",
+      "content": "\u201dWith this in mind,\u201d shows the artist's action (experimenting with natural dyes) flows directly from her goal (avoiding harsh synthetic dyes). The other three either summarize what's not a summary (B), mark a contradiction where none exists (C), or signal an unexpected fact that isn't (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

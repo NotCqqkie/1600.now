@@ -1,0 +1,15 @@
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase \"vast majority of cases\" is the decisive clue here. It indicates a high success rate and demands an adverb reflecting consistent effectiveness."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The word \"reliably\" directly aligns with the strong success implied by \"vast majority of cases,\" emphasizing consistent and trustworthy performance. The other choices either contradict the positive context (<em>clumsily</em>, <em>rarely</em>) or fail to address the success metric (<em>slowly</em>). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

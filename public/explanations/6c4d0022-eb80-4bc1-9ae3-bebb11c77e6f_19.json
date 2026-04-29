@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the clause and list structure",
+      "content": "Before the blank: independent clause stating that the poem contains three signature elements of Gwendolyn Brooks's poetic [word].<br/>After the blank: list items that are noun phrases, not independent clauses."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon introduces a list or elaboration after an independent clause \u2014 here, naming the elements before the colon and introducing them after. The period creates a fragment, and the semicolon and comma cannot properly introduce the list. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

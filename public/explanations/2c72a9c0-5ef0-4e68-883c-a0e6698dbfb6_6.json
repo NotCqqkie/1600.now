@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept location",
+      "content": "The $y$-intercept is the point where the graph crosses the $y$-axis. This always occurs when $x = 0$. Substitute $x = 0$ into the function $g(x) = \\frac{1}{9}(5)^{x}$."
+    },
+    {
+      "title": "Evaluate the function at x = 0",
+      "content": "$$g(0) = \\frac{1}{9}(5)^{0}$$<br/>Any nonzero number raised to the power 0 equals 1, so $(5)^{0} = 1$:$$g(0) = \\frac{1}{9} \\cdot 1 = \\frac{1}{9}$$<br/>The $y$-intercept is the point $(0, \\frac{1}{9})$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

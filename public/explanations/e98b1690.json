@@ -1,0 +1,15 @@
+{
+  "questionId": "e98b1690",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what the student needs to accomplish",
+      "content": "The student's goal is explicit: \u201ccompare some disadvantages of docked and dockless bike-share programs.\u201d From the notes, each program type has a distinct disadvantage\u2014docked programs require significant resources (space and money), while dockless programs can be disorganized."
+    },
+    {
+      "title": "Identify which choice compares both disadvantages",
+      "content": "C directly compares these two drawbacks: it identifies docked programs as resource-intensive while simultaneously noting that dockless programs present organizational challenges. A contrasts a dockless disadvantage against a docked advantage rather than comparing disadvantages; B emphasizes dockless advantages instead of disadvantages; D mentions only an advantage and skips actual disadvantages. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

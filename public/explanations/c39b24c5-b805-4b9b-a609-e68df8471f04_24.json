@@ -1,0 +1,15 @@
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the task requirement",
+      "content": "The prompt explicitly states the student wants to \u201cprovide an example of a sky island.\u201d The notes name one specific sky island: the Los Ajos-La Madera Mountains. To accomplish the stated goal, the answer must cite this concrete example, not just define or characterize sky islands in general."
+    },
+    {
+      "title": "Find the choice that provides the example",
+      "content": "Choice C uses \u201csuch as\u201d to name the Los Ajos-La Madera Mountains as a specific example of a sky island, directly fulfilling the task requirement. Choices A, B, and D discuss sky islands in general terms or include USFS quotes but never mention this specific mountain range. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 120% greater into an equation for f",
+      "content": "If $f$ is 120% greater than $g$, then $f$ equals $g$ plus 120% of $g$:<br/>$$f = g + 1.20g = 2.20g$$"
+    },
+    {
+      "title": "Translate 90% less into an equation for h",
+      "content": "If $h$ is 90% less than $f$, then $h$ is 10% of $f$ (since 100% \u2212 90% = 10%):<br/>$$h = 0.10f$$"
+    },
+    {
+      "title": "Substitute to express h in terms of g",
+      "content": "Substitute $f = 2.20g$ into the equation for $h$:<br/>$$h = 0.10(2.20g) = 0.22g$$<br/><br/>This means $h$ is 0.22 times $g$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

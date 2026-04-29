@@ -1,0 +1,19 @@
+{
+  "questionId": "308084c5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what determines the margin of error",
+      "content": "The margin of error depends on three factors: the critical value (<em>z</em>, which is the same for both samples since they used the same method), the sample proportion (<em>p</em>), and the sample size (<em>n</em>). To find why Sample A's margin is larger, we need to determine which of these factors differs."
+    },
+    {
+      "title": "Rule out the sample proportion as the cause",
+      "content": "Calculate $p(1-p)$ for each sample:<br/><br/><ul><li>Sample A: $0.52 \\times 0.48 = 0.2496$</li><li>Sample B: $0.48 \\times 0.52 = 0.2496$</li></ul><br/>The proportions produce identical values, so the percent in favor (52% vs 48%) does not explain the difference in margins of error."
+    },
+    {
+      "title": "Conclude from the inverse relationship with sample size",
+      "content": "The margin of error is inversely proportional to the square root of sample size. A smaller sample size produces a larger margin of error; a larger sample size produces a smaller margin of error. Since Sample A has a larger MOE (4.2% vs 1.6%), Sample A must have the smaller sample size. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

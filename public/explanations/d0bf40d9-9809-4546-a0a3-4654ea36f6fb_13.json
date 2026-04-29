@@ -1,0 +1,15 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rate of change equals slope",
+      "content": "The rate of change of distance with respect to time is the slope of the equation $d$ versus $t$. For a linear relationship, the slope is simply the coefficient of $t$."
+    },
+    {
+      "title": "Extract the slope and apply units",
+      "content": "In $d = 15t$, the coefficient of $t$ is 15. Since $d$ is in inches and $t$ is in seconds, the rate of change is 15 inches per second. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

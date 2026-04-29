@@ -1,0 +1,15 @@
+{
+  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert cubic meters to cubic centimeters",
+      "content": "Use the length conversion $$1\\text{ m}=100\\text{ cm}$$ to get the volume conversion:<br/>$$(1\\text{ m})^3 = (100\\text{ cm})^3 = 1{,}000{,}000\\text{ cm}^3$$<br/>Then multiply by the given volume:<br/>$$0.84\\text{ m}^3 = 0.84 \\times 1{,}000{,}000\\text{ cm}^3 = 840{,}000\\text{ cm}^3$$"
+    },
+    {
+      "title": "Convert cubic centimeters to quarts",
+      "content": "Use the given equivalence $$946.35\\text{ cm}^3 = 1\\text{ quart}$$ to convert:<br/>$$\\text{quarts} = \\frac{840{,}000\\text{ cm}^3}{946.35\\text{ cm}^3/\\text{quart}} \\approx 887.6\\text{ quarts}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

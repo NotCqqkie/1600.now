@@ -1,0 +1,15 @@
+{
+  "questionId": "5e732e67",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the structural movement",
+      "content": "The passage opens with a general claim about lost films, then uses \u201cFor example\u201d to introduce specific cases."
+    },
+    {
+      "title": "Match to the answer",
+      "content": "This is a general-to-specific structure: a broad statement illustrated by concrete examples. C directly describes this pattern; the other choices either misframe the examples as problem-solving attempts (A), invent a non-existent debate (B), or focus on comparing individuals instead of illustrating a general situation (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

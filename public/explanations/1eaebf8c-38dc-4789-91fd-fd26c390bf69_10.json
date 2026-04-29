@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the correlation difference despite equal actual ratings",
+      "content": "P4's correlation is 0.3 for abstract but 0.4 for cubist. The problem tells us P4 <em>actually gave equal ratings</em> to both styles. If the actual ratings were the same but the correlations differ, the model's predictions must have been systematically different between the two styles."
+    },
+    {
+      "title": "What different correlations reveal about the model's predictions",
+      "content": "A higher correlation (0.4 for cubist) means the model's predictions aligned better with P4's actual behavior. A lower correlation (0.3 for abstract) means the model's predictions were further off. This pattern occurs when the model predicted higher enjoyment for cubist and lower for abstract\u2014even though P4 actually rated them equally. The model predicted that <strong>abstract and cubist ratings would differ</strong>, contradicting P4's actual equal ratings. <br/><br/>The other three choices either claim P4's ratings were actually different (B and C contradict the given assumption), or restate the assumption itself (D). <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

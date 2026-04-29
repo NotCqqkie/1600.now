@@ -1,0 +1,15 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the probability for room C",
+      "content": "All visitors are in one of three rooms, so the probabilities must sum to 1.<br/><br/>$$P(A) + P(B) + P(C) = 1$$<br/><br/>$$P(C) = 1 - 0.72 - 0.24 = 0.04$$"
+    },
+    {
+      "title": "Calculate the number of visitors in room C",
+      "content": "Multiply the probability by the total number of visitors.<br/><br/>$$\\text{Number in C} = 0.04 \\times 225 = 9$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

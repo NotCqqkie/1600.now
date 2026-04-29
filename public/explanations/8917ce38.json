@@ -1,0 +1,15 @@
+{
+  "questionId": "8917ce38",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up unit conversion",
+      "content": "Start with 90 km/h. Replace kilometers with meters using 1 km = 1000 m and hours with seconds using 1 h = 3600 s.<br/>$$90 \\frac{\\text{km}}{\\text{h}} \\times \\frac{1000 \\text{ m}}{1 \\text{ km}} \\times \\frac{1 \\text{ h}}{3600 \\text{ s}}$$"
+    },
+    {
+      "title": "Simplify to meters per second",
+      "content": "Multiply numerators and denominators: $$ \\frac{90 \\times 1000}{3600} \\frac{\\text{m}}{\\text{s}} = \\frac{90000}{3600} \\frac{\\text{m}}{\\text{s}} = 25 \\frac{\\text{m}}{\\text{s}}.$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

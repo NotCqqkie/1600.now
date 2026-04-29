@@ -1,0 +1,15 @@
+{
+  "questionId": "c3d78831",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret what the ratio 1:26 means",
+      "content": "A ratio of coaches to athletes of 1:26 means: for every 1 coach, there are 26 athletes. In other words, the number of athletes is always 26 times the number of coaches:<br/><br/>$$\\text{athletes} = 26 \\times \\text{coaches}$$"
+    },
+    {
+      "title": "Apply the relationship with x coaches",
+      "content": "Since there are $x$ coaches at the track meet, substitute into the relationship:<br/><br/>$$\\text{athletes} = 26x$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

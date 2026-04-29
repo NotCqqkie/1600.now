@@ -1,0 +1,15 @@
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key contrast clue",
+      "content": "The notes list the thickness of each fiber: TPU is 3\u202fmm thick, SEBS is 4\u202fmm thick."
+    },
+    {
+      "title": "Apply the contrast to the choices",
+      "content": "Choice D directly contrasts the two samples by noting that the SEBS rubber sample was thicker than the TPU sample, using the thickness figures from the notes.<br/>The other three either give only general information, mention both samples without highlighting a difference, or state that both temperatures rose, which shows similarity rather than contrast.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

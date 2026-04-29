@@ -1,0 +1,15 @@
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the example relationship",
+      "content": "The passage opens with a general principle about sleek vehicles and then immediately introduces the T-45 Goshawk jet as a concrete example to prove that principle. The transition word should signal this movement from general to specific."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "\u201dfor instance,\u201d marks the T-45 as a specific example of what was just stated \u2014 a sleek vehicle that is aerodynamic. Meanwhile signals time (wrong), however signals contrast (wrong), and additionally signals addition (wrong). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

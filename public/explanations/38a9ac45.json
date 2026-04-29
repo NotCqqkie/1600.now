@@ -1,0 +1,15 @@
+{
+  "questionId": "38a9ac45",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate accounts registered in the first 5 days",
+      "content": "At 1,200 accounts per day, the number registered over 5 days is:<br/>$$1,200 \\times 5 = 6,000$$"
+    },
+    {
+      "title": "Find the fraction of the first 60,000 accounts",
+      "content": "The fraction of the first 60,000 accounts registered in the first 5 days is:<br/>$$\\frac{6,000}{60,000} = \\frac{6}{60} = \\frac{1}{10}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

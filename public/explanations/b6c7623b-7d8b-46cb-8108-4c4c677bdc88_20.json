@@ -1,0 +1,15 @@
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the sentence boundary",
+      "content": "The passage shifts from a main fact about the association between fungi and trees to an explanation of how that association works. The second idea opens with an introductory phrase that describes the mechanism. To separate these two complete thoughts clearly, a period must come before this introductory phrase."
+    },
+    {
+      "title": "Evaluate each option against the rule",
+      "content": "Option C correctly places a period after the first complete thought, allowing the second sentence to open with an introductory phrase and providing it with a clear main clause to modify, with a parenthetical explanation inserted by dashes. The other options either use insufficient punctuation between the two thoughts (A and B), or create a sentence fragment that opens with a transition phrase without a complete clause following it (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

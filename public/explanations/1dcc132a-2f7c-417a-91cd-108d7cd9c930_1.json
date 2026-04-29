@@ -1,0 +1,19 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the compound inequality from the given information",
+      "content": "The panda's mass is between $\\frac{1}{950}$ and $\\frac{1}{850}$ times its mother's mass. Since mother's mass is 95,950 grams, the panda's mass $p$ must satisfy:<br/><br/>$$\\frac{95,950}{950} \\leq p \\leq \\frac{95,950}{850}$$"
+    },
+    {
+      "title": "Calculate the lower bound",
+      "content": "Compute $\\frac{95,950}{950}$ by division.<br/><br/>Since $950 \\times 101 = 95,950$, we have:<br/>$$\\frac{95,950}{950} = 101$$"
+    },
+    {
+      "title": "Calculate the upper bound and match to the answer",
+      "content": "Compute $\\frac{95,950}{850}$:<br/>$$850 \\times 112 = 95,200, \\quad 95,950 - 95,200 = 750$$<br/>$$\\frac{95,950}{850} = 112 + \\frac{750}{850} \\approx 112.88$$<br/><br/>The panda's mass range is $101 \\leq p \\leq 112.88$. The answer choices display lower bounds, and the correct lower bound is 101. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

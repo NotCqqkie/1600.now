@@ -1,0 +1,15 @@
+{
+  "questionId": "f5563c26",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write down the given system",
+      "content": "$$y=4$$<br/>$$x=y+6$$"
+    },
+    {
+      "title": "Substitute and solve for x",
+      "content": "$$y=4$$<br/>Sub into $$x=y+6$$: $$x=4+6$$<br/>$$x=10$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert 129% greater to a growth factor",
+      "content": "If something is 129% greater than a previous value, the new value equals the old value plus 129% of itself:<br/>$$\\text{New} = \\text{Old} + 1.29 \\cdot \\text{Old} = \\text{Old} \\times (1 + 1.29) = \\text{Old} \\times 2.29$$<br/>So every 6-hour period, the algae mass multiplies by <strong>2.29</strong>."
+    },
+    {
+      "title": "Write the exponential growth formula",
+      "content": "For exponential growth with constant multiplicative factor per time period:<br/>$$A = A_0 \\cdot r^t$$<br/>where $A_0$ is the initial mass, $r = 2.29$ per 6-hour period, and $t$ is the number of periods.<br/><br/>Since time is measured in hours and each period is 6 hours:<br/>$$t = \\frac{x}{6}$$<br/>Therefore:<br/>$$A = A_0(2.29)^{\\frac{x}{6}}$$"
+    },
+    {
+      "title": "Find the initial value using the 18-hour data point",
+      "content": "Given: $A = 613.90$ grams at $x = 18$ hours.<br/><br/>Substitute into the formula:<br/>$$613.90 = A_0(2.29)^{\\frac{18}{6}} = A_0(2.29)^3$$<br/><br/>Calculate $(2.29)^3 = 12.009$:<br/>$$A_0 = \\frac{613.90}{12.009} \\approx 51.12$$<br/><br/>The equation is $A = 51.12(2.29)^{\\frac{x}{6}}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

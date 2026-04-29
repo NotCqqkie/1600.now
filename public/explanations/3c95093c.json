@@ -1,0 +1,15 @@
+{
+  "questionId": "3c95093c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common divisor from both terms",
+      "content": "Examining the inequality $3x - 9y > 12$, both terms on the left side are divisible by 3. Factor out this common factor:<br><br>$$3x - 9y = 3(x - 3y)$$<br><br>Substitute back into the inequality:<br>$$3(x - 3y) > 12$$"
+    },
+    {
+      "title": "Divide both sides by 3 to isolate the expression",
+      "content": "Divide every term by 3. Since 3 is positive, the inequality sign remains unchanged:<br><br>$$\\frac{3(x - 3y)}{3} > \\frac{12}{3}$$<br><br>$$x - 3y > 4$$<br><br>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

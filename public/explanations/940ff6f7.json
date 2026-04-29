@@ -1,0 +1,15 @@
+{
+  "questionId": "940ff6f7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the comma splice",
+      "content": "The original sentence has two independent clauses separated by a comma after \u201cmicroscope\u201d\u2014one describing what Wigan is known for, the other describing what his sculptures are made from. A comma alone cannot properly join independent clauses, creating a comma splice."
+    },
+    {
+      "title": "Use a period to establish sentence boundaries",
+      "content": "A period fixes a comma splice by establishing a proper sentence boundary. Option C uses a period after \u201cmicrosculptures,\u201d separating the two independent clauses into complete sentences. Options A, B, and D fail to resolve this\u2014A is ungrammatical, while B and D leave the comma splice intact. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

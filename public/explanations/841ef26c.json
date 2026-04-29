@@ -1,0 +1,16 @@
+{
+  "questionId": "841ef26c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the minimum of f(x) using the vertex formula",
+      "content": "For $f(x) = 4x^2 + 64x + 262$, identify $a = 4$ and $b = 64$. <br/><br/>Substitute into the vertex formula: <br/>$$x = -\\frac{64}{2(4)} = -\\frac{64}{8} = -8$$<br/><br/>The minimum of $f(x)$ occurs at $x = -8$.",
+      "formula": "$$x = -\\frac{b}{2a}$$"
+    },
+    {
+      "title": "Apply the transformation g(x) = f(x+5)",
+      "content": "Since $g(x) = f(x+5)$, the function $g$ reaches its minimum when its input equals the x-value where $f$ is minimized. <br/><br/>Set the argument equal to $-8$: <br/>$$x + 5 = -8$$<br/><br/>Solve for $x$: <br/>$$x = -13$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a5882327",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute and apply the given condition",
+      "content": "We have $g(x) = b - 15x$. Substituting $x = c+7$:<br/>$$g(c+7) = b - 15(c+7) = b - 15c - 105$$<br/>We're told that $g(c+7) = \\frac{c}{4}$, so:<br/>$$b - 15c - 105 = \\frac{c}{4}$$"
+    },
+    {
+      "title": "Solve for b and simplify",
+      "content": "Add $15c + 105$ to both sides:<br/>$$b = \\frac{c}{4} + 15c + 105$$<br/>Convert to a common denominator: $15c = \\frac{60c}{4}$:<br/>$$b = \\frac{c}{4} + \\frac{60c}{4} + 105 = \\frac{61c}{4} + 105$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the grammatical demand",
+      "content": "The phrase \u201cincluding its many ______\u201d requires plural nouns to identify the geological features the lander explored. We're naming the actual features\u2014craters and rocks\u2014not properties or possessions."
+    },
+    {
+      "title": "Apply the plural rule",
+      "content": "Choice B gives us plural nouns for both items: \u201ccraters and rocks.\u201d Choices A, C, and D use possessive forms (crater's, rock's), which don't fit\u2014the sentence names the features themselves, not what belongs to them. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

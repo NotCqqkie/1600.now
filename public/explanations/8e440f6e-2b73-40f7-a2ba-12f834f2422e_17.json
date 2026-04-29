@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the term with b",
+      "content": "Start with the given equation $a = \\frac{3}{11}b + 6$. Subtract 6 from both sides to isolate the coefficient-$b$ term:<br/><br/>$$a - 6 = \\frac{3}{11}b$$"
+    },
+    {
+      "title": "Multiply by the reciprocal coefficient",
+      "content": "To isolate $b$, multiply both sides by $\\frac{11}{3}$ (the reciprocal of $\\frac{3}{11}$):<br/><br/>$$b = \\frac{11}{3}(a - 6)$$<br/><br/>Distribute the factor: $b = \\frac{11}{3}a - \\frac{11}{3} \\cdot 6 = \\frac{11}{3}a - 22$.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

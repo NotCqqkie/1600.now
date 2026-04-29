@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_11",
+  "correctAnswer": "2100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "To convert 21 meters to centimeters, we multiply by the given conversion factor: 1 meter = 100 centimeters."
+    },
+    {
+      "title": "Calculate the result",
+      "content": "Multiply 21 by 100:\n\n$$21 \\times 100 = 2100 \\text{ centimeters}$$"
+    }
+  ]
+}

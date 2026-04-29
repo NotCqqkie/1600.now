@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_17",
+  "correctAnswer": "0.4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the green tile count from the table",
+      "content": "Looking at the intersection of the <strong>Total</strong> row and <strong>Green</strong> column, there are 40 green tiles out of 100 total tiles."
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "Probability of selecting a green tile: $$P = \\frac{40}{100} = \\frac{2}{5} = 0.4$$"
+    }
+  ]
+}

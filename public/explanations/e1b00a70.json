@@ -1,0 +1,15 @@
+{
+  "questionId": "e1b00a70",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence establishes a correlation: diverse behaviors correlate with larger brains. The blank must signal that the second sentence \u2014 simple behaviors should require fewer brain resources \u2014 is a <strong>logical consequence</strong> of this relationship."
+    },
+    {
+      "title": "Match the causal transition",
+      "content": "\u201dThus\u201d means \u201ctherefore,\u201d signaling a logical consequence. This correctly bridges the stated correlation (diverse behaviors correlate with larger brains) to the inference (simple behaviors require fewer brain resources). The other choices express temporal order (\u201cSubsequently\u201d), addition (\u201cBesides\u201d), or contrast (\u201cNevertheless\u201d) instead. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

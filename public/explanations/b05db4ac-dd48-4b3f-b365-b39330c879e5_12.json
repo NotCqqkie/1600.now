@@ -1,0 +1,19 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_12",
+  "correctAnswer": "32",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentage statements to equations",
+      "content": "The statement that $a$ is 3,700% of $c$ translates to: $$a = \\frac{3700}{100} \\cdot c = 37c$$ The statement that $c$ is 20% of $b$ translates to: $$c = \\frac{20}{100} \\cdot b = 0.2b$$"
+    },
+    {
+      "title": "Express b in terms of c",
+      "content": "From $c = 0.2b$, divide both sides by 0.2: $$b = \\frac{c}{0.2} = 5c$$"
+    },
+    {
+      "title": "Calculate a - b and solve for w",
+      "content": "Substitute $a = 37c$ and $b = 5c$: $$a - b = 37c - 5c = 32c$$ Since $a - b = wc$: $$32c = wc$$ Dividing by $c$ (which is positive): $$w = 32$$"
+    }
+  ]
+}

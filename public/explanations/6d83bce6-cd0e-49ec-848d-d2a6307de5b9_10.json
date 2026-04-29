@@ -1,0 +1,22 @@
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express x in terms of y from the first equation",
+      "content": "The first equation $\\frac{x}{y} = 3$ implies $x = 3y$.<br/><br/>This substitution simplifies the second equation by eliminating a variable.",
+      "formula": "$$x = 3y$$"
+    },
+    {
+      "title": "Substitute x into the second equation",
+      "content": "Replace $x$ with $3y$ in $\\frac{2x}{ty} = 18$:<br/>$$\\frac{2(3y)}{ty} = 18$$<br/>Simplify numerator and cancel $y$ (since $y \\ne 0$):<br/>$$\\frac{6}{t} = 18$$",
+      "formula": "$$\\frac{6}{t} = 18$$"
+    },
+    {
+      "title": "Solve for t",
+      "content": "Multiply both sides by $t$ and divide by 18:<br/>$$6 = 18t$$<br/>$$t = \\frac{6}{18} = \\frac{1}{3}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$t = \\frac{1}{3}$$"
+    }
+  ]
+}

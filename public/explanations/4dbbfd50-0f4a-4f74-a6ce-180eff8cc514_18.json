@@ -1,0 +1,15 @@
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "Left of blank: A singular noun phrase serves as the subject of the clause (\u201cMindMaze's technology, alongside other such neuromodulation technologies that function by stimulating nervous system structures\u201d).<br/>Right of blank: A noun phrase object (\u201cthe way for future advancements in neurotechnology\u201d)."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The rule is subject-verb agreement: the verb must match its subject in number. \u201cIs paving\u201d (choice B) is singular and matches the singular subject. Choices C and D use plural verbs (have, are) that violate agreement, and choice A omits the auxiliary. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal's requirement",
+      "content": "The student wants to \u201cindicate the title of a novel that won a Nebula Award.\u201d This means the choice must name the specific novel and connect it to the award."
+    },
+    {
+      "title": "Apply the goal to the choices",
+      "content": "C directly names <em>Babel-17</em> and states it won a Nebula Award in 1967. A omits the title, B mentions neither the novel nor the award, and D doesn't reference the award at all. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

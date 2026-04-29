@@ -1,0 +1,15 @@
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage moves from an action (NASA crashing a probe into Dimorphos) to a result (Dimorphos's orbital period being altered). The transition must show that the second statement is a consequence of the first."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "\u201dConsequently\u201d establishes the cause-effect relationship, showing the orbital change was a result of the probe impact. The other three choices fail to create this causal connection: \u201cSpecifically\u201d narrows focus, \u201cIn comparison\u201d introduces contrast, and \u201cIn addition\u201d adds unrelated information. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

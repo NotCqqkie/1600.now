@@ -1,0 +1,15 @@
+{
+  "questionId": "092ad67d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "$$ (x+2y)+(x-2y) = 6+4 $$<br/> $$ 2x = 10 $$"
+    },
+    {
+      "title": "Solve for x and match to answer choice",
+      "content": "$$ x = \\frac{10}{2} = 5 $$<br/> That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

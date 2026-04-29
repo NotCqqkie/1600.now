@@ -1,0 +1,15 @@
+{
+  "questionId": "34aca984",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the perimeter in terms of x",
+      "content": "The perimeter of a rectangle is $P = 2L + 2W$. With length 50 and width $x$:<br/><br/>$$P = 2(50) + 2x = 100 + 2x$$"
+    },
+    {
+      "title": "Translate the constraint to an inequality",
+      "content": "<em>At most</em> 210 means the perimeter cannot exceed 210, so we use the less-than-or-equal symbol:<br/><br/>$$2x + 100 \\le 210$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

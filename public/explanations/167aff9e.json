@@ -1,0 +1,15 @@
+{
+  "questionId": "167aff9e",
+  "correctAnswer": "1260",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear scale factor from surface area ratio",
+      "content": "For similar solids, areas scale by the square of the linear scale factor. Calculate the surface area ratio:<br/><br/>$$\\frac{\\text{Surface Area of X}}{\\text{Surface Area of Y}} = \\frac{58}{1,450} = \\frac{1}{25}$$<br/><br/>Since $k^2 = \\frac{1}{25}$, the linear scale factor is $k = \\frac{1}{5}$."
+    },
+    {
+      "title": "Apply volume scaling and sum",
+      "content": "Volumes of similar solids scale by the cube of the linear scale factor. With $k = \\frac{1}{5}$:<br/><br/>$$\\text{Volume of X} = k^3 \\times \\text{Volume of Y} = \\left(\\frac{1}{5}\\right)^3 \\times 1,250 = \\frac{1}{125} \\times 1,250 = 10 \\text{ cm}^3$$<br/><br/>The sum of the volumes is:<br/><br/>$$10 + 1,250 = 1,260 \\text{ cm}^3$$"
+    }
+  ]
+}

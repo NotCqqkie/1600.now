@@ -1,0 +1,15 @@
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the decisive evidence",
+      "content": "The decisive clue is the dramatic disparity in probabilities: 0.20 for countries open to foreign-capital inflows versus 0.03 for countries with restrictive policies. This massive gap demonstrates that policy environment directly influenced swap-line outcomes."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dMaterial to\u201d means important for or significant to\u2014precisely how policy environments functioned relative to swap-line allocation. The other three either wrongly reverse causality or wrongly claim independence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

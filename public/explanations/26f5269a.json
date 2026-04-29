@@ -1,0 +1,15 @@
+{
+  "questionId": "26f5269a",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept",
+      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis, which always occurs at $x = 0$."
+    },
+    {
+      "title": "Read the value directly from the graph",
+      "content": "On the graph, at $x = 0$, the parabola intersects the <em>y</em>-axis at $y = 40$. Therefore, the <em>y</em>-intercept is $(0, 40)$, and the value of $y$ is <strong>40</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we know and recall AA similarity",
+      "content": "We are given:<ul><li>Triangle $DEF$: $\\angle D = 40\u00b0$, $\\angle E = 95\u00b0$</li><li>Triangle $RST$: $\\angle R = 40\u00b0$, $\\angle S = 95\u00b0$</li></ul>Two triangles are similar if two angles of one triangle are congruent to two angles of the other (AA similarity criterion). The question asks whether we need angle $F$, angle $T$, both, or neither to determine similarity."
+    },
+    {
+      "title": "Check for two equal pairs of corresponding angles",
+      "content": "We already have:<ul><li>$\\angle D = \\angle R = 40\u00b0$ \u2713</li><li>$\\angle E = \\angle S = 95\u00b0$ \u2713</li></ul>These are two pairs of equal corresponding angles. By the AA criterion, this is sufficient to conclude the triangles are similar."
+    },
+    {
+      "title": "Verify third angles are not needed",
+      "content": "The third angle of any triangle is determined by the angle sum property: $\\text{third angle} = 180\u00b0 - (\\text{sum of two known angles})$. So:<br/>$\\angle F = 180\u00b0 - 40\u00b0 - 95\u00b0 = 45\u00b0$<br/>$\\angle T = 180\u00b0 - 40\u00b0 - 95\u00b0 = 45\u00b0$<br/>We can determine these values without being told them. Since we already have two pairs of equal angles, which is sufficient by AA similarity, we do not need any additional information. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

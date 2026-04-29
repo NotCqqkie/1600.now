@@ -1,0 +1,15 @@
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and structural requirement",
+      "content": "The subject is \u201cthe Continental Army's difficulty in procuring supplies\u201d (singular). Because this is a that-clause, it requires a finite verb between the subject and \u201cdue to concerns...\u201d."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A finite verb must agree with its subject in number. C uses the singular auxiliary \u201cis\u201d with \u201coccurring,\u201d which correctly agrees with the singular subject \u201cdifficulty.\u201d A and D use plural forms that violate agreement, while B provides only a participle without a finite verb, which cannot be the main verb of a clause. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8a3ecac6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the two-part pattern",
+      "content": "The decisive clue is that the passage pairs two findings about black-furred wolves: they're both more common in high-distemper areas AND more likely to be immune to distemper than gray-furred wolves."
+    },
+    {
+      "title": "Connect the pattern to the gene variant",
+      "content": "If the gene variant is linked to immunity, it explains both findings: immune black wolves survive outbreaks and increase in frequency in disease-prone areas. The other choices either ignore the immunity evidence, contradict the observed pattern, or add unsupported claims. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

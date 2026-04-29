@@ -1,0 +1,19 @@
+{
+  "questionId": "35e05e19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the width from the length",
+      "content": "The house\u2019s base length is x inches. It is 1 inch more than the width, so width = x - 1 inches.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute the volume using the prism formula",
+      "content": "$$V = 11 \\cdot x \\cdot (x - 1) = 11x(x - 1)$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

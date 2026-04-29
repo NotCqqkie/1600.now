@@ -1,0 +1,15 @@
+{
+  "questionId": "91e7ea5e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set h(x) equal to zero and isolate the squared term",
+      "content": "To find the x-intercepts, set $h(x) = 0$:\n\n$$2(x-4)^2 - 32 = 0$$\n\nAdd 32 to both sides and divide by 2:\n\n$$2(x-4)^2 = 32$$\n$$(x-4)^2 = 16$$"
+    },
+    {
+      "title": "Solve for x using square roots",
+      "content": "Since $(x-4)^2 = 16$, take the square root of both sides:\n\n$$x - 4 = \\pm 4$$\n\nThis gives us two solutions:\n\n$$x = 4 + 4 = 8 \\quad \\text{or} \\quad x = 4 - 4 = 0$$\n\nWe know $x = 0$ corresponds to the point $(0, 0)$. The other x-intercept is at $x = 8$, so $t = 8$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

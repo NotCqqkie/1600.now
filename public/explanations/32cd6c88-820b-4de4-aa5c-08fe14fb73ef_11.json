@@ -1,0 +1,19 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel lines property",
+      "content": "Lines <em>q</em> and <em>r</em> are parallel, and both are intersected by transversal <em>s</em>. The angle 77\u00b0 is formed at the intersection of <em>s</em> and <em>q</em>, while the angle $y\u00b0$ is formed at the intersection of <em>s</em> and <em>r</em>. These angles are co-interior angles (also called same-side interior angles), which means they lie on the same side of the transversal and between the parallel lines."
+    },
+    {
+      "title": "Apply the co-interior angle theorem",
+      "content": "When two parallel lines are cut by a transversal, co-interior angles are supplementary\u2014they add up to 180\u00b0. Therefore:<br/><br/>$$77\u00b0 + y\u00b0 = 180\u00b0$$<br/><br/>Solving for $y$:<br/><br/>$$y\u00b0 = 180\u00b0 - 77\u00b0 = 103\u00b0$$"
+    },
+    {
+      "title": "Substitute into the equation and solve for x",
+      "content": "We are given that $y = 2x + 7$. Substituting $y = 103$:<br/><br/>$$103 = 2x + 7$$<br/>$$96 = 2x$$<br/>$$x = 48$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

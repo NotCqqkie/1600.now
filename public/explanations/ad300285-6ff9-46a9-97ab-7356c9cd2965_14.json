@@ -1,0 +1,15 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the mass per object",
+      "content": "Given that $r$ identical objects have total mass $t$ kilograms, the mass of a single object is $\\frac{t}{r}$ kilograms."
+    },
+    {
+      "title": "Calculate the mass of 146r objects",
+      "content": "If one object has mass $\\frac{t}{r}$, then the mass of $146r$ objects is:<br/>$$146r \\cdot \\frac{t}{r} = 146t$$<br/>The $r$ cancels out. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

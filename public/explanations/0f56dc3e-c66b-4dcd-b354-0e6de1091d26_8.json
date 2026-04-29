@@ -1,0 +1,15 @@
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the problem Text 1 raises",
+      "content": "Text 1 identifies a concrete problem: different countries define urban settlements differently, which makes it difficult for researchers to compare urbanization data across countries."
+    },
+    {
+      "title": "Match the response to the choices",
+      "content": "Text 2 describes the development of global definitions and a standardized measure called \u201cdegree of urbanization\u201d that directly solves the inconsistency problem by establishing common criteria for all countries. The other three options either suggest studying something else, call for further investigation, or add new problems\u2014none match what Text 2 actually does. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

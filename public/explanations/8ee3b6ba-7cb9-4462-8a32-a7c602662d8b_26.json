@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what 'contrast' requires",
+      "content": "The student wants to contrast the two samples\u2014meaning highlight what's different between them, not just mention them both. The notes provide specific differences: thickness (0.7 mm vs. 2 mm) and temperature increase (21.3\u00b0C vs. 12\u00b0C)."
+    },
+    {
+      "title": "Apply the requirement to the choices",
+      "content": "Choice B directly contrasts the samples by stating that EPDM is thicker than NiTi. The other three either mention both samples without distinguishing them (A and D) or skip both entirely (C). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

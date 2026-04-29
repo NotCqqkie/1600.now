@@ -1,0 +1,15 @@
+{
+  "questionId": "de362c2f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 8 into the function",
+      "content": "We have $f(x) = 5x^2$ and need to find $f(8)$. Substitute $x = 8$: $$f(8) = 5(8)^2$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Calculate $(8)^2 = 64$. Then multiply: $$f(8) = 5 \\cdot 64 = 320$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

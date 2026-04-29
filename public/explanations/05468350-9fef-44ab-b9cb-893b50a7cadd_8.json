@@ -1,0 +1,17 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use volume scale factor for similar cubes",
+      "content": "For similar figures, volumes scale by the cube of the linear scale factor: $$\\frac{V_A}{V_B}=k^3.$$ Plug in the given volumes: $$\\frac{3375}{125}=k^3.$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for k and match the choice",
+      "content": "Compute the ratio: $$\\frac{3375}{125}=27,$$ so $$k^3=27.$$ Taking the cube root gives $$k=3.$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up equations and choose concrete values",
+      "content": "From the percentages: $a = 21.84(b + c)$ (2,184% = 21.84) and $b = 0.84c$ (84% = 0.84).<br/>To simplify arithmetic, let $c = 100$. Then:<br/><ul><li>$b = 0.84 \\times 100 = 84$</li><li>$b + c = 184$</li><li>$a = 21.84 \\times 184 = 4,018.56$</li></ul>"
+    },
+    {
+      "title": "Calculate the ratio as a percentage",
+      "content": "Find what percent of $b$ is $a$:<br/>$$\\frac{a}{b} = \\frac{4,018.56}{84} = 47.84$$<br/>Converting to a percentage: $47.84 \\times 100\\% = 4,784\\%$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

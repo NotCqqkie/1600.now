@@ -1,0 +1,19 @@
+{
+  "questionId": "0980fcdd",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the linear equation into the quadratic",
+      "content": "We can eliminate $y$ by substituting $y = -6x + 36$ into $x^2 = 6x + y$:<br/>$$x^2 = 6x + (-6x + 36)$$<br/>Simplifying: $$x^2 = 36$$"
+    },
+    {
+      "title": "Solve the resulting equation for x",
+      "content": "From $x^2 = 36$, we obtain:<br/>$$x = 6 \\text{ or } x = -6$$"
+    },
+    {
+      "title": "Find y values and compute xy for each solution",
+      "content": "Use $y = -6x + 36$ to find the corresponding $y$:<br/><ul><li>When $x = 6$: $y = -6(6) + 36 = -36 + 36 = 0$, so $xy = 0$</li><li>When $x = -6$: $y = -6(-6) + 36 = 36 + 36 = 72$, so $xy = -432$</li></ul><br/>Among the given choices, only $xy = 0$ appears, which is choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

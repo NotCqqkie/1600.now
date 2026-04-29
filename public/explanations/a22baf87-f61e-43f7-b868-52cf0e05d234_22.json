@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the three consecutive integers",
+      "content": "The first integer is $x$. Since the integers are consecutive and ordered from least to greatest, the second integer is $x+1$ and the third integer is $x+2$."
+    },
+    {
+      "title": "Translate the English statement to an inequality",
+      "content": "Break down the given statement into parts:<br/><ul><li><em>The sum of 4 and the second integer</em> \u2192 $4 + (x+1)$</li><li><em>the product of 17 and the third integer</em> \u2192 $17(x+2)$</li><li><em>is less than</em> \u2192 $<$</li></ul>Combining these components, the inequality is:<br/>$$4 + (x+1) < 17(x+2)$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5e08a055",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Condition for no solution: parallel lines",
+      "content": "A system has no solution when the two lines are parallel \u2014 they have the same slope but different y-intercepts."
+    },
+    {
+      "title": "Find the choice with slope 6 and a different y-intercept",
+      "content": "The given equation $y = 6x + 18$ has slope 6 and y-intercept 18. Rewrite each choice in slope-intercept form:<br/><ul><li><strong>A:</strong> $-6x + y = 18$ \u2192 $y = 6x + 18$ (same equation)</li><li><strong>B:</strong> $-6x + y = 22$ \u2192 $y = 6x + 22$ (slope 6, y-intercept 22)</li><li><strong>C:</strong> $-12x + y = 36$ \u2192 $y = 12x + 36$ (slope 12)</li><li><strong>D:</strong> $-12x + y = 18$ \u2192 $y = 12x + 18$ (slope 12)</li></ul>Only choice B has slope 6 (matching the given equation) with a different y-intercept (22 \u2260 18), creating parallel lines with no intersection. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

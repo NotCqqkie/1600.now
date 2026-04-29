@@ -1,0 +1,15 @@
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by 23u to isolate p",
+      "content": "Starting with $n = \\frac{p}{23u}$, multiply both sides by $23u$:<br/><br/>$$n \\cdot 23u = \\frac{p}{23u} \\cdot 23u$$"
+    },
+    {
+      "title": "Simplify both sides",
+      "content": "On the right side, the $23u$ cancels the denominator, leaving $p$. On the left side, multiply $n$ and $23u$:<br/><br/>$$23un = p$$<br/><br/>Therefore, $p = 23un$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "df0ef054",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute each term of the first polynomial",
+      "content": "Multiply $(2x^3 + 3x)$ by each term in $(x^3 - 2x)$:<br/><br/>$$2x^3(x^3 - 2x) + 3x(x^3 - 2x)$$<br/><br/>Expanding each product:<ul><li>$2x^3 \\cdot x^3 = 2x^6$</li><li>$2x^3 \\cdot (-2x) = -4x^4$</li><li>$3x \\cdot x^3 = 3x^4$</li><li>$3x \\cdot (-2x) = -6x^2$</li></ul><br/>This gives us: $2x^6 - 4x^4 + 3x^4 - 6x^2$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "The $x^4$ terms combine: $-4x^4 + 3x^4 = -x^4$.<br/><br/>The final simplified expression is:<br/>$$2x^6 - x^4 - 6x^2$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

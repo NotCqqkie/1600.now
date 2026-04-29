@@ -1,0 +1,15 @@
+{
+  "questionId": "64c85440",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality for the width constraint",
+      "content": "If <em>n</em> parking spaces fit perpendicular to a 135-foot curb, each space has width $\\frac{135}{n}$ feet. Since standard widths are between 7.5 and 9.0 feet, we write: $$7.5 \\le \\frac{135}{n} \\le 9.0$$"
+    },
+    {
+      "title": "Solve the compound inequality for n",
+      "content": "<strong>Left inequality:</strong> From $7.5 \\le \\frac{135}{n}$, multiply by <em>n</em> (positive) to get $7.5n \\le 135$, then divide by 7.5 to get $n \\le 18$.<br/><strong>Right inequality:</strong> From $\\frac{135}{n} \\le 9$, multiply by <em>n</em> to get $135 \\le 9n$, then divide by 9 to get $15 \\le n$.<br/>Combining both results: $$15 \\le n \\le 18$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

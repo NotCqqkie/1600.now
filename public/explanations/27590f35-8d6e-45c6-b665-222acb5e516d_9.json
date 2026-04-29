@@ -1,0 +1,16 @@
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_9",
+  "correctAnswer": "3610",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the definition of mean",
+      "content": "The mean is the average of all values, calculated by dividing the sum of all values by the number of values.<br/><br/>$$\\text{Mean} = \\frac{\\text{Sum of all values}}{\\text{Number of values}}$$<br/><br/>We have 5 lemur masses: 3,910; 3,910; 3,130; 3,950; 3,150.",
+      "formula": "$$\\text{Mean} = \\frac{\\text{Sum}}{n}$$"
+    },
+    {
+      "title": "Add all masses and divide by 5",
+      "content": "Add the five masses:<br/><br/>$$3,910 + 3,910 + 3,130 + 3,950 + 3,150 = 18,050$$<br/><br/>Divide by 5:<br/><br/>$$\\frac{18,050}{5} = 3,610$$<br/><br/>The mean mass of the 5 ruffed lemurs is 3,610 grams."
+    }
+  ]
+}

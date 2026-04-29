@@ -1,0 +1,15 @@
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key comparison that enables emphasis",
+      "content": "To emphasize Malta's deadweight tonnage, you need to highlight what makes it noteworthy. The notes reveal that Malta's average DWT (54,000 tons) far exceeds the global average (21,389 tons) \u2014 this difference is the basis for effective emphasis."
+    },
+    {
+      "title": "Apply this signal to find the right choice",
+      "content": "Choice A draws on this difference, stating Malta's average DWT and comparing it to the global average to highlight how substantially higher Malta's is. The others either omit Malta entirely (C, D) or focus on ship counts instead of DWT (B). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

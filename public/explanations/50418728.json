@@ -1,0 +1,15 @@
+{
+  "questionId": "50418728",
+  "correctAnswer": "-3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what the y-intercept represents",
+      "content": "The <em>y</em>-intercept is the value of $y$ where the graph crosses the <em>y</em>-axis. This occurs at $x = 0$."
+    },
+    {
+      "title": "Read the y-value from the graph at x = 0",
+      "content": "Looking at the graph where the parabola intersects the <em>y</em>-axis (the vertical line at $x = 0$), the curve passes through the point $(0, -3)$. Therefore, $y = -3$."
+    }
+  ]
+}

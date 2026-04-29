@@ -1,0 +1,16 @@
+{
+  "questionId": "3d12b1e0",
+  "correctAnswer": "-1",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the one-solution discriminant condition",
+      "content": "A quadratic equation $ax^2 + bx + c = 0$ has exactly one solution when its discriminant equals zero. <br/>In $-16x^2 - 8x + c = 0$, we have $a = -16$ and $b = -8$.",
+      "formula": "$$b^2 - 4ac = 0$$"
+    },
+    {
+      "title": "Solve for c using the discriminant equation",
+      "content": "Substitute $a = -16$, $b = -8$, and the unknown $c$ into the discriminant equation:<br/>$$(-8)^2 - 4(-16)(c) = 0$$<br/>$$64 + 64c = 0$$<br/>$$c = -1$$"
+    }
+  ]
+}

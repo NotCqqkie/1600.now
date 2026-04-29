@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the highest bar",
+      "content": "The question asks for <strong>the highest percentage of lithium recovered</strong>. The graph displays four bars\u2014two battery types (A and B), each tested with two different recycling processes (1 and 2). The tallest bar clearly stands out: Type B with recycling process 2."
+    },
+    {
+      "title": "Read the value from the y-axis and match",
+      "content": "The tallest bar reaches the 75% mark on the y-axis. The other three bars are all substantially lower\u2014ranging from roughly 30% to 55%\u2014making them poor matches for \u201chighest.\u201d That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

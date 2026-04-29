@@ -1,0 +1,15 @@
+{
+  "questionId": "e1391dd6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the required number of doublings",
+      "content": "Divide the target transistor count by the initial count:<br/>$$\\frac{1,100,000}{275,000} = 4 = 2^2$$<br/>We need <strong>2 doublings</strong>."
+    },
+    {
+      "title": "Calculate the target year",
+      "content": "2 doublings occur over $2 \\times 2 = 4$ years. Starting from 1985:<br/>$$1985 + 4 = 1989$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

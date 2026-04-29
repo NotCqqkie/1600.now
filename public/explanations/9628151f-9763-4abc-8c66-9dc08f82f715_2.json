@@ -1,0 +1,15 @@
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 'varied between' to compound inequality",
+      "content": "When a value <em>varies between</em> two numbers, that value is at least the lower number and at most the upper number.<br/><br/>The speed is at least 175 mph: $s \\geq 175$<br/>The speed is at most 195 mph: $s \\leq 195$"
+    },
+    {
+      "title": "Combine into a single compound inequality",
+      "content": "When both conditions must be true simultaneously, combine them:<br/><br/>$$175 \\leq s \\leq 195$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

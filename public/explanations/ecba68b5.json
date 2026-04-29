@@ -1,0 +1,15 @@
+{
+  "questionId": "ecba68b5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject's number",
+      "content": "The subject is a noun phrase: \u201cMathematician Grigori Perelman\u201d (singular) modified by a prepositional phrase. Prepositional phrases don't affect the subject's number, so it remains singular. The blank introduces a verb before the predicate phrase."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A singular subject requires a singular verb form. <em>Is</em> is the only singular choice. Choices A, B, and C all use plural verb forms (are, have been, are being), which violate agreement with the singular subject. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

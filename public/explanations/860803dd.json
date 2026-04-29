@@ -1,0 +1,15 @@
+{
+  "questionId": "860803dd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key prediction",
+      "content": "The hypothesis predicts that female preference will cause \u201cfurther genetic and anatomical divergence\u201d \u2014 the subspecies will become increasingly different over time. Direct support would show this divergence actually widening."
+    },
+    {
+      "title": "Find evidence of increasing divergence",
+      "content": "Choice B shows exactly this: over generations, the migratory males' sound grows progressively higher pitched relative to nonmigratory males, proving the predicted divergence is occurring. The other choices either explain the existing difference without showing growth, describe sound communication unrelated to preference, or indicate breeding stayed the same instead of diverging. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

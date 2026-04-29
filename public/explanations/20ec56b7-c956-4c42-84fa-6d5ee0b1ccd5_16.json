@@ -1,0 +1,15 @@
+{
+  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank appears within a relative clause interrupted by an opening em-dash after <em>that</em>. The phrase \u201cthrough community involvement and scientific ______\u201d is a prepositional phrase with a compound noun object (pairing \u201ccommunity involvement\u201d and \u201cscientific study\u201d). All choices complete it with the noun <strong>study</strong>."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "Em-dashes used to set off parenthetical information must come in pairs; choice D correctly uses <strong>study\u2014</strong> to close the opening em-dash and properly enclose the phrase \u201cthrough community involvement and scientific study.\u201d Choices A, B, and C violate this rule: A leaves the opening em-dash unclosed, B uses a comma that doesn't match, and C uses a colon that doesn't match. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

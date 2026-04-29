@@ -1,0 +1,15 @@
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern established by previous research",
+      "content": "The previous finding establishes that narrow geographical range correlates with high genetic homogeneity. <em>M. anniana</em> currently has only a narrow range (Tamaulipas), so it has high genetic homogeneity. The simulation expands its range to new habitats. For results to be \u201cconsistent with previous findings,\u201d they must follow the same pattern: as range expands, genetic homogeneity decreases."
+    },
+    {
+      "title": "Apply the pattern to the answer choices",
+      "content": "Choice D states that genetic homogeneity of <em>M. anniana</em> decreased over time\u2014exactly what the established pattern predicts when a narrow-range species expands to a wider range. The other choices either address different <em>Mammillaria</em> species (B, C) or contradict the findings by suggesting homogeneity increased (A). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate s terms on one side",
+      "content": "Starting with $18qrt - 2qrs + 10rst = 0$, move $18qrt$ to the right:<br/><br/>$$-2qrs + 10rst = -18qrt$$"
+    },
+    {
+      "title": "Factor s and divide",
+      "content": "Factor $s$ from the left side:<br/>$$s(-2qr + 10rt) = -18qrt$$<br/><br/>Divide both sides by $(-2qr + 10rt)$:<br/>$$s = \\frac{-18qrt}{-2qr + 10rt}$$"
+    },
+    {
+      "title": "Simplify by factoring the denominator",
+      "content": "Factor $-2r(q - 5t)$ from the denominator:<br/><br/>$$s = \\frac{-18qrt}{-2r(q - 5t)} = \\frac{9qt}{q - 5t}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

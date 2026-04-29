@@ -1,0 +1,15 @@
+{
+  "questionId": "739f1bbc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the triangle is isosceles",
+      "content": "We're given $AB = 4{,}680\\text{ mm}$ and $BC = 4{,}680\\text{ mm}$. Since two sides are equal, triangle $ABC$ is isosceles."
+    },
+    {
+      "title": "Apply the definition of equilateral",
+      "content": "An equilateral triangle has all three sides equal in length. Since $AB = BC = 4{,}680\\text{ mm}$, we need $AC = 4{,}680\\text{ mm}$ for the triangle to be equilateral. Choice A provides exactly this: $AC = 4{,}680\\text{ mm}$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

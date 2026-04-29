@@ -1,0 +1,12 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the function value from the graph",
+      "content": "The graph of $y = f(x)$ passes through the point $(9, 7)$. This means when $x = 9$, the output is $y = 7$. By function notation, $f(9) = 7$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$\\text{If point } (a, b) \\text{ is on the graph of } y = f(x), \\text{ then } f(a) = b$$"
+    }
+  ]
+}

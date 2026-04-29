@@ -1,0 +1,16 @@
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sides relative to angle y\u00b0",
+      "content": "This is a right triangle with the right angle at the bottom right. The side opposite angle $y\u00b0$ is the vertical side = 5. The hypotenuse is the diagonal side = 26."
+    },
+    {
+      "title": "Apply the sine ratio",
+      "content": "We apply the sine ratio: $$\\sin y\u00b0 = \\frac{5}{26}$$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$\\sin(\\text{angle}) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
+    }
+  ]
+}

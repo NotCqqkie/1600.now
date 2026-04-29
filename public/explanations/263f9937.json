@@ -1,0 +1,19 @@
+{
+  "questionId": "263f9937",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the daily growth rate",
+      "content": "From the table, calculate the ratio of bacteria from each day to the next.<br/><br/>Day 1 to Day 2:<br/>$$\\frac{5.0 \\times 10^5}{2.5 \\times 10^5} = 2$$<br/><br/>Day 2 to Day 3:<br/>$$\\frac{1.0 \\times 10^6}{5.0 \\times 10^5} = 2$$<br/><br/>The bacteria doubles each day."
+    },
+    {
+      "title": "Set up the exponential equation and isolate the exponent",
+      "content": "With initial amount $2.5 \\times 10^5$ on Day 1 and doubling factor 2 per day, the formula is:<br/>$$2.5 \\times 10^5 \\cdot 2^{d-1} = 5.12 \\times 10^8$$<br/><br/>Divide both sides by $2.5 \\times 10^5$:<br/>$$2^{d-1} = \\frac{5.12 \\times 10^8}{2.5 \\times 10^5} = \\frac{5.12}{2.5} \\times 10^3 = 2.048 \\times 10^3 = 2048$$"
+    },
+    {
+      "title": "Recognize the power of 2 and solve",
+      "content": "Since $2048 = 2^{11}$:<br/>$$2^{d-1} = 2^{11}$$<br/><br/>Equating exponents: $d - 1 = 11$, so $d = 12$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_9",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms directly",
+      "content": "All terms have the same variable part $x^6$, so add/subtract coefficients directly: $$ 7 + 9 - 8 $$",
+      "formula": "7 + 9 - 8 = 8"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Calculate the arithmetic: $ 7 + 9 = 16 $, then $ 16 - 8 = 8 $. The simplified form is $ 8x^6 $. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percentage increase formula",
+      "content": "When $f(x)$ increases by $e\\%$ due to a unit increase in $x$, the percent increase is:<br/>$$\\frac{f(x+1) - f(x)}{f(x)} \\times 100 = e$$"
+    },
+    {
+      "title": "Substitute and simplify the expressions",
+      "content": "For the exponential function $f(x) = 15b^x$:<br/>$$f(x+1) = 15b^{x+1} = 15b \\cdot b^x = b \\cdot f(x)$$<br/><br/>Substituting into the formula:<br/>$$\\frac{b \\cdot f(x) - f(x)}{f(x)} \\times 100 = e$$<br/>$$\\frac{f(x)(b - 1)}{f(x)} \\times 100 = e$$<br/>$$(b - 1) \\times 100 = e$$"
+    },
+    {
+      "title": "Identify the answer choice",
+      "content": "Rearranging the result: $e = 100(b - 1)$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

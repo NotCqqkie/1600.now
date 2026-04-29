@@ -1,0 +1,15 @@
+{
+  "questionId": "25b70215",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the negative effect value",
+      "content": "The passage asks for \u201ca neighboring species with a negative effect value.\u201d The signal is clear: scan the \u201cEffect value\u201d column for a minus sign, where that plant appears in the \u201cNeighboring species\u201d column (not as a target)."
+    },
+    {
+      "title": "Match the data to the requirement",
+      "content": "Common dandelion appears as a neighboring species with an effect value of \u22120.6254, a negative number. Himalayan balsam (0.7905) and Virginia spring beauty (0.4853) both show positive values in the table, and star chickweed appears only as a target species, not a neighboring one. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

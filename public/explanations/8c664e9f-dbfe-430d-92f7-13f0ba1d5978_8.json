@@ -1,0 +1,15 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_8",
+  "correctAnswer": "5760",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the substitution",
+      "content": "We need to find $f(34)$ where $f(x) = 180(x - 2)$ calculates the sum of interior angles for an $x$-sided polygon. Substitute $x = 34$:<br/>$$f(34) = 180(34 - 2)$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Simplify inside the parentheses and multiply:<br/>$$f(34) = 180(32) = 5760$$<br/>The sum of the interior angles for a 34-sided polygon is <strong>5760 degrees</strong>."
+    }
+  ]
+}

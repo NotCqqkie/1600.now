@@ -1,0 +1,15 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the distributive property",
+      "content": "Distribute $6x$ to each term in the parentheses:<br/>$$6x(x+3) = 6x \\cdot x + 6x \\cdot 3$$"
+    },
+    {
+      "title": "Simplify and identify the equivalent expression",
+      "content": "Multiply each term:<br/><ul><li>$6x \\cdot x = 6x^2$</li><li>$6x \\cdot 3 = 18x$</li></ul>Combining these gives $6x^2 + 18x$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "af89fa02",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrasting ideas",
+      "content": "The passage lists Hammurabi's military conquests and city-building achievements, then shifts to what he is \u201cmainly remembered for\u201d \u2014 a code of laws. The transition must signal this unexpected turn from multiple grand accomplishments to one specific legacy."
+    },
+    {
+      "title": "Apply the contrast signal",
+      "content": "\u201dHowever\u201d captures this contrast precisely: despite his military and architectural achievements, he is mainly remembered for the Code instead. \u201cTherefore\u201d creates false causation, \u201clikewise\u201d wrongly implies similarity, and \u201cfor instance\u201d misrepresents the Code as an example of his other accomplishments. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

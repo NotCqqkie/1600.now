@@ -1,0 +1,15 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_9",
+  "correctAnswer": "-384",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the cross products that produce x terms",
+      "content": "When expanding $(9x - 28)(15x + 4)$, the $x$ terms come from the cross products in FOIL:<br/><strong>Outer:</strong> $9x \\cdot 4 = 36x$<br/><strong>Inner:</strong> $-28 \\cdot 15x = -420x$"
+    },
+    {
+      "title": "Sum the x coefficients to find b",
+      "content": "The coefficient of $x$ is:<br/>$$36 + (-420) = -384$$<br/>Therefore, <strong>$b = -384$</strong>."
+    }
+  ]
+}

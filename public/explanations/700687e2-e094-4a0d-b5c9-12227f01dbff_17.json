@@ -1,0 +1,15 @@
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its structure",
+      "content": "The subject is the noun phrase \u201cThe allocation of a new country dialing prefix (+380) to route incoming international calls.\u201d The head noun \u201callocation\u201d is singular; the intervening prepositional phrase modifies it but maintains the subject's count."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement demands that the verb match the subject in number. \u201cwas\u201d is the singular past-tense form that works. The choices \u201care,\u201d \u201chave been,\u201d and \u201cwere\u201d are all plural forms that fail to agree. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

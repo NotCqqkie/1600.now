@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure",
+      "content": "Left of the blank: <em>\u201cThe book wasn't written solely by Kittredge\u201d</em> is an independent clause (subject + verb). Right of the blank: <em>\u201cother authors, such as Linda Hogan and Barry Lopez, also contributed essays\u201d</em> is also an independent clause (subject \u201cother authors,\u201d verb \u201ccontributed\u201d). The word <em>\u201chowever\u201d</em> must connect these two independent clauses and show contrast between them."
+    },
+    {
+      "title": "Apply the conjunctive adverb rule",
+      "content": "When a conjunctive adverb (however, therefore, moreover, thus) joins two independent clauses, the standard SAT pattern is: semicolon before the adverb, then comma after it. Choice B places the semicolon before <em>\u201chowever\u201d</em> and a comma after it, creating the correct pattern: IC; however, IC. Choice A reverses this (comma before, semicolon after), which violates the rule. Choice C creates a new sentence with a period (acceptable but not the SAT's preferred format when both versions are options). Choice D uses only a comma, creating a comma splice. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

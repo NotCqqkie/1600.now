@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the example clue",
+      "content": "The passage includes the note <strong>\u201cOne is at Bear Trap Meadow.\u201d</strong> which points to a specific SNOTEL site."
+    },
+    {
+      "title": "Apply the clue to the choices",
+      "content": "Choice B names the SNOTEL site at Bear Trap Meadow, giving a concrete example. The other choices discuss data collection, Julie Koeberle\u2019s role, or general location without naming an actual site. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

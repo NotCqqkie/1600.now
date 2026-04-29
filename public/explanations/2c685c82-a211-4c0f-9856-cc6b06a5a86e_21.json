@@ -1,0 +1,21 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_21",
+  "correctAnswer": "1560",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute scale factor from surface area ratio",
+      "content": "The surface areas of similar figures scale by $k^2$, where $k$ is the linear scale factor. Divide the surface areas: $\\frac{896}{56} = 16$. Therefore, $k^2 = 16$ and $k = 4$.",
+      "formula": "$$k^2 = \\frac{\\text{SA}_Y}{\\text{SA}_X}$$"
+    },
+    {
+      "title": "Use volume scaling to find Volume of X",
+      "content": "Volumes of similar solids scale by $k^3 = 4^3 = 64$. Since the volume of prism $Y$ is 1,536 cm\u00b3 and volumes scale by a factor of 64, the volume of prism $X$ is: $$\\frac{1536}{64} = 24 \\text{ cm}^3$$",
+      "formula": "$$\\text{Volume}_X = \\frac{\\text{Volume}_Y}{k^3}$$"
+    },
+    {
+      "title": "Sum the volumes",
+      "content": "Add both volumes: $$24 + 1536 = 1560 \\text{ cm}^3$$"
+    }
+  ]
+}

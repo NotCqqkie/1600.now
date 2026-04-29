@@ -1,0 +1,19 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "No solution means parallel lines",
+      "content": "Two equations have no solution when they represent parallel lines (same slope, different y-intercepts)."
+    },
+    {
+      "title": "Simplify to identify the slope pattern",
+      "content": "Divide the given equation by 2:$$x = 10y - 4$$For no solution, the second equation must have the form $x = 10y + c$ where $c \\neq -4$."
+    },
+    {
+      "title": "Check which option gives a parallel line",
+      "content": "Option B: $\\frac{1}{2}x = 5y$. Multiply by 2:$$x = 10y$$This has form $x = 10y + 0$. Same slope as the first equation ($x = 10y - 4$) but different constant term, so the lines are parallel with no solution. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the core logical link",
+      "content": "Carter and Kilikoglou argue that production method consistency proves local cultural continuity. Implicitly, they assume that maintaining the same methods indicates the local culture persisted unchanged despite architectural changes."
+    },
+    {
+      "title": "Find what breaks this logic",
+      "content": "B shows that these supposedly continuous methods were not unique to Malia but were also used by other Mediterranean cultures. This breaks the chain: method consistency does not necessarily prove local cultural continuity if those same methods were part of a broader Mediterranean technical tradition. <br/><br/>A addresses the obsidian's source, not methods; C suggests less efficient methods, which would support rather than weaken continuity; D indicates that building changes elsewhere also lacked production-method changes, supporting C&K's position. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

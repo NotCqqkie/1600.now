@@ -7,7 +7,8 @@ export interface ResolvedSatImage {
   alt: string;
 }
 
-const SAT_IMAGE_BASE = "/images/SAT-Style%20Questions/";
+const SAT_IMAGE_BASE = "/images/SAT-Style-Questions/";
+const SAT_IMAGE_MANIFEST_BASE = "/images/SAT-Style%20Questions/";
 
 const safeDecodeURIComponent = (value: string): string => {
   try {
@@ -38,6 +39,12 @@ const toCanonicalSatImagePath = (input: string): string | undefined => {
   return `${SAT_IMAGE_BASE}${encodeURIComponent(decodedName)}`;
 };
 
+const toManifestSatImagePath = (path: string): string =>
+  path.replace(SAT_IMAGE_BASE, SAT_IMAGE_MANIFEST_BASE);
+
+const toPublicSatImagePath = (path: string): string =>
+  path.replace(SAT_IMAGE_MANIFEST_BASE, SAT_IMAGE_BASE);
+
 const idAliasToManifestPath = new Map<string, string>();
 
 const registerAlias = (alias: string | undefined, targetPath: string) => {
@@ -63,7 +70,7 @@ const getQuestionImageEntry = (questionId: string): QuestionImageMapEntry | unde
 allQuestionImageMaps.forEach((imageMap) => Object.entries(imageMap).forEach(([questionId, entry]) => {
   entry.questionImages?.forEach((image, index) => {
     const normalizedPath = toCanonicalSatImagePath(image.src);
-    if (!normalizedPath || !satImageManifest.has(normalizedPath)) return;
+    if (!normalizedPath || !satImageManifest.has(toManifestSatImagePath(normalizedPath))) return;
 
     const extension = getFileExtension(normalizedPath);
     registerAlias(questionId, normalizedPath);
@@ -74,7 +81,7 @@ allQuestionImageMaps.forEach((imageMap) => Object.entries(imageMap).forEach(([qu
 
   Object.entries(entry.choiceImages ?? {}).forEach(([choiceId, path]) => {
     const normalizedPath = toCanonicalSatImagePath(path);
-    if (!normalizedPath || !satImageManifest.has(normalizedPath)) return;
+    if (!normalizedPath || !satImageManifest.has(toManifestSatImagePath(normalizedPath))) return;
 
     const extension = getFileExtension(normalizedPath);
     registerAlias(`${questionId}_${choiceId}`, normalizedPath);
@@ -113,8 +120,8 @@ export const normalizeSatImagePath = (path: string | undefined): string | undefi
   }
 
   for (const candidate of candidates) {
-    if (satImageManifest.has(candidate)) {
-      return candidate;
+    if (satImageManifest.has(toManifestSatImagePath(candidate))) {
+      return toPublicSatImagePath(candidate);
     }
   }
 

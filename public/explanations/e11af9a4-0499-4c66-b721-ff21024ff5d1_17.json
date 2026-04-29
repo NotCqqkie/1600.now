@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the singular antecedent",
+      "content": "The blank needs a subject pronoun for the main clause. That pronoun must refer back to <strong>\u201ca given term,\u201d</strong> which is singular."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "Pronoun-antecedent agreement requires <strong>it</strong> as the standard singular pronoun, making B the correct answer. C and D violate agreement by using plural pronouns; A uses the demonstrative <strong>this</strong> when the personal pronoun <strong>it</strong> is conventional. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "608eeb6e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the first equation for x",
+      "content": "The first equation $5x = 15$ is already isolated. Divide both sides by 5:<br/>$$x = \\frac{15}{5} = 3$$"
+    },
+    {
+      "title": "Substitute x into the second equation and solve for y",
+      "content": "Substitute $x = 3$ into the second equation $-4x + y = -2$:<br/>$$-4(3) + y = -2$$<br/>$$-12 + y = -2$$<br/>Add 12 to both sides:<br/>$$y = 10$$"
+    },
+    {
+      "title": "Calculate the sum x + y",
+      "content": "Add the two values:<br/>$$x + y = 3 + 10 = 13$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

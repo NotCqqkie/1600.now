@@ -1,0 +1,15 @@
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structural requirement",
+      "content": "The subject \u201cThe poem\u201d is singular. The sentence has no main verb yet; the blank is where it belongs."
+    },
+    {
+      "title": "Apply finite verb agreement",
+      "content": "A main clause verb must be finite and agree with its subject in number. \u201cContains\u201d is the only finite form\u2014third-person singular\u2014that matches the singular subject. The other three are non-finite forms (participles and infinitive) that cannot function as main verbs. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

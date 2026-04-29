@@ -1,0 +1,15 @@
+{
+  "questionId": "19fdf387",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal at their intersection",
+      "content": "At the point where the two graphs intersect, both expressions equal $y$. Set them equal to each other:<br/>$$x + 3 = 2x - 6$$"
+    },
+    {
+      "title": "Solve for x to find a",
+      "content": "Subtract $x$ from both sides:<br/>$$3 = x - 6$$<br/>Add 6 to both sides:<br/>$$9 = x$$<br/>Since the intersection point is $(a, b)$ and $x = a$, we have $a = 9$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

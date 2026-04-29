@@ -1,0 +1,15 @@
+{
+  "questionId": "789975b7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the filler content from each fertilizer",
+      "content": "Fertilizer A is 60% filler by weight, so $x$ pounds of Fertilizer A contains $0.6x$ pounds of filler materials.<br/><br/>Fertilizer B is 40% filler by weight, so $y$ pounds of Fertilizer B contains $0.4y$ pounds of filler materials."
+    },
+    {
+      "title": "Set up the equation for total filler materials",
+      "content": "The total filler materials from both fertilizers equals 240 pounds:<br/><br/>$$0.6x + 0.4y = 240$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

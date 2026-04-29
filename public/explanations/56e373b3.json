@@ -1,0 +1,15 @@
+{
+  "questionId": "56e373b3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up linear model",
+      "content": "$$4500 - 70d = 1700$$<br/>Let d be the number of days. Inventory after d days is 4500 minus 70d. Set equal to 1700."
+    },
+    {
+      "title": "Solve for days",
+      "content": "$$4500 - 1700 = 70d$$<br/>$$2800 = 70d$$<br/>$$d = \\frac{2800}{70} = 40$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

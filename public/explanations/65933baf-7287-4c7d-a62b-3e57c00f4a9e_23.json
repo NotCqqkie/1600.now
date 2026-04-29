@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "The passage establishes that Castle Geyser erupts at regular intervals (10\u201312 hours apart), then claims that predicting its eruptions is feasible. The transition must signal that the second idea <em>results from</em> the first \u2014 regularity enables predictability. This is a causal or consequential link."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "<strong>Consequently</strong> expresses the causal relationship \u2014 it ties predictability directly to the established regularity of eruptions. Conversely, Nevertheless, and Additionally introduce contrast, concession, or mere addition respectively, none of which fit the causal logic. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

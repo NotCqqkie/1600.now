@@ -1,0 +1,15 @@
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence's main verb",
+      "content": "The sentence has one main action: <strong>\u201clater changed.\u201d</strong> The blank must describe what happened to the codes beforehand without introducing another main verb in this sentence."
+    },
+    {
+      "title": "Apply the rule for joining verbs in one sentence",
+      "content": "The past participle <strong>\u201cassigned\u201d</strong> functions as a modifier rather than as a main verb, allowing \u201cchanged\u201d to be the sentence's only main verb. Inserting any finite verb form (were assigned, had been assigned, or would be assigned) would create two main verbs in the same sentence without a comma-and-conjunction, semicolon, or period separating them\u2014a run-on error. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

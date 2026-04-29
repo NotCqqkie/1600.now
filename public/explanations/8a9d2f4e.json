@@ -1,0 +1,15 @@
+{
+  "questionId": "8a9d2f4e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "Look past the prepositional phrase \u201cof each statue's ears\u201d to find the head noun: \u201cthe shape\u201d is singular. The comma-enclosed phrase \u201clike the shape of each person's ears\u201d is a parenthetical comparison introduced by \u201clike,\u201d not a coordinating conjunction, so it doesn't add a second subject. The subject is singular."
+    },
+    {
+      "title": "Apply the subject-verb agreement rule",
+      "content": "A singular subject requires a singular verb. \u201cIs\u201d is the singular form that correctly agrees with \u201cthe shape.\u201d \u201cAre\u201d and \u201chave been\u201d are plural; \u201cwere\u201d is plural past tense. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

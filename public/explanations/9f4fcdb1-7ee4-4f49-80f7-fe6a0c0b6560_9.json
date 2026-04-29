@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what would weaken the claim",
+      "content": "The students claim broken-wing display is \u201cexclusive to shorebirds\u201d (order Charadriiformes). To weaken this claim, data must show birds from other orders performing the display."
+    },
+    {
+      "title": "Find non-shorebirds performing the display",
+      "content": "Choice D identifies the pine warbler (Passeriformes) and sooty grouse (Galliformes)\u2014both performing the display and both outside Charadriiformes, directly undermining the exclusivity claim. Choices A and B don't show non-shorebirds performing the behavior, while C only demonstrates variation within shorebirds themselves. This matches choice <strong>D</strong> \u2014 D is correct."
+    }
+  ]
+}

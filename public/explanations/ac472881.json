@@ -1,0 +1,19 @@
+{
+  "questionId": "ac472881",
+  "correctAnswer": "403",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both sides to standard form",
+      "content": "Expand the left side: $\\frac{12x+28}{4} = 3x + 7$, so the equation becomes:<br/>$$3x + 7 - \\frac{s}{13} = rx - 8r$$<br/>Both sides are now linear in $x$."
+    },
+    {
+      "title": "Apply the infinitely many solutions condition",
+      "content": "A linear equation has infinitely many solutions only if both sides are identical\u2014the coefficient of $x$ must match on both sides, and the constant term must match.<br/><br/>Coefficient of $x$: $3 = r$, so $r = 3$<br/>Constant terms: $7 - \\frac{s}{13} = -8r$"
+    },
+    {
+      "title": "Substitute r = 3 and solve for s",
+      "content": "Substitute $r = 3$ into the constant equation:<br/>$$7 - \\frac{s}{13} = -8(3) = -24$$<br/>$$-\\frac{s}{13} = -31$$<br/>$$s = 403$$"
+    }
+  ]
+}

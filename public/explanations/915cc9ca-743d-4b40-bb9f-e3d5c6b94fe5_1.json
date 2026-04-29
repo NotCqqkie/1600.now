@@ -1,0 +1,21 @@
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Start with the given equation $$2x-3=2x$$.<br/>Subtract $2x$ from both sides: $$2x-3-2x = 2x-2x$$.<br/>This simplifies to $$-3 = 0$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Interpret the result",
+      "content": "The equation $$-3 = 0$$ is a contradiction; no value of $x$ can make it true.<br/>Therefore the original equation has zero solutions.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

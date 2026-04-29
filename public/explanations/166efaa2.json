@@ -1,0 +1,15 @@
+{
+  "questionId": "166efaa2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pronoun's target",
+      "content": "The blank is a pronoun referring to <strong>customers</strong> \u2014 the people being asked. <strong>Customers</strong> is plural and third person."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must agree with its antecedent in number and person. <strong>They</strong> is the plural, third-person pronoun matching <strong>customers</strong>. <br/>The other choices fail: <strong>one</strong> is singular and indefinite, <strong>you</strong> is second person, and <strong>it</strong> is singular and neuter. <br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

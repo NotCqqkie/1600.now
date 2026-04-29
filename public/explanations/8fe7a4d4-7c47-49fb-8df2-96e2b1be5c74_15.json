@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage presents a contrast between Jaiswal and Kant's findings and Zhuang's meta-analysis. The decisive clue is the phrase \u201cTaking all 54 studies together...suggesting that ______,\u201d which indicates a conclusion drawn from aggregated data."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice B aligns with the contrast implied by the aggregation of 54 studies showing a positive effect, which validates the doubts about Jaiswal\u2019s small sample size. The other three either miss the contrast (A and C) or introduce unmentioned details (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

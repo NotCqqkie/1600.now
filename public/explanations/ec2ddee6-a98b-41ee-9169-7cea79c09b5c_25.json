@@ -1,0 +1,15 @@
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal about apatite's relative hardness",
+      "content": "The notes give apatite a Mohs number of 5, calcite 3, and topaz 8, and explain that a higher number means a harder mineral that can scratch those with lower numbers."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D states that apatite (5) is harder than calcite (3) but softer than topaz (8), directly reflecting the note\u2019s hardness ordering and scratch ability.<br/>Choices A, B, and C either leave out apatite\u2019s comparative position or do not express the relative hardness relationship among all three minerals.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply similarity correspondence",
+      "content": "Triangle CAE ~ triangle CBD tells us the vertex correspondence: C\u2194C, A\u2194B, E\u2194D. In similar triangles, corresponding angles are equal. The angle at vertex A in the first triangle equals the angle at vertex B in the second: \u2220CAE = \u2220CBD."
+    },
+    {
+      "title": "Determine \u2220CAE",
+      "content": "Since \u2220CAE = \u2220CBD (from corresponding angles) and \u2220CBD = 56\u00b0 (given), we have \u2220CAE = 56\u00b0. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

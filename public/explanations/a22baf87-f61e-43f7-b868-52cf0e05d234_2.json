@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the first condition",
+      "content": "The phrase <em>Carrie has 4 times as many dollars as Marjani</em> means Carrie's dollars equal 4 times Marjani's dollars:<br/>$$c = 4m$$"
+    },
+    {
+      "title": "Translate the second condition",
+      "content": "The phrase <em>together they have a total of $40</em> means their combined dollars equals 40:<br/>$$c + m = 40$$<br/>Combining these, our system is $c = 4m$ and $c + m = 40$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

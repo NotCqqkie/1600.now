@@ -1,0 +1,15 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 7 into the function",
+      "content": "We need to find $f(7)$. Substitute $x = 7$ into the function definition:\n$$f(7) = 5(7)^2$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Calculate step by step:\n<ul><li>First: $7^2 = 49$</li>\n<li>Then: $5 \\cdot 49 = 245$</li></ul>\nThat matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

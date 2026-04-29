@@ -1,0 +1,19 @@
+{
+  "questionId": "5733ce30",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the interior angle at C using the exterior angle",
+      "content": "The angle marked 110\u00b0 is an exterior angle at point C. Since angles on a straight line sum to 180\u00b0, the interior angle \u2220BCA is supplementary to the exterior angle:<br/><br/>$$\\angle BCA = 180\u00b0 - 110\u00b0 = 70\u00b0$$"
+    },
+    {
+      "title": "Use the isosceles triangle property",
+      "content": "We're told that \u2220BAC = \u2220BCA. Since \u2220BCA = 70\u00b0, we have:<br/><br/>$$\\angle BAC = 70\u00b0$$<br/><br/>This means triangle ABC is isosceles with the two base angles equal."
+    },
+    {
+      "title": "Apply the triangle angle sum",
+      "content": "The three angles of triangle ABC must sum to 180\u00b0:<br/><br/>$$\\angle BAC + \\angle BCA + \\angle ABC = 180\u00b0$$<br/>$$70\u00b0 + 70\u00b0 + x = 180\u00b0$$<br/>$$x = 40\u00b0$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

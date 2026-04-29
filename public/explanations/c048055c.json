@@ -1,0 +1,15 @@
+{
+  "questionId": "c048055c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert 4% annual increase to a growth factor",
+      "content": "When the population <em>increases by 4% of the previous year's population</em>, each new year we have the old population plus 4% of it:<br/>$$p_{\\text{new}} = p_{\\text{old}} + 0.04 \\cdot p_{\\text{old}} = p_{\\text{old}} (1 + 0.04) = 1.04 \\cdot p_{\\text{old}}$$<br/>The growth factor is 1.04."
+    },
+    {
+      "title": "Write the exponential model",
+      "content": "Starting from 15,000 in 2005, multiply by 1.04 for each year that passes:<ul><li>$x = 1$: $p = 15,000 \\cdot 1.04$</li><li>$x = 2$: $p = 15,000 \\cdot 1.04^2$</li><li>$x = 3$: $p = 15,000 \\cdot 1.04^3$</li></ul>The general pattern is:<br/>$$p = 15,000(1.04)^x$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

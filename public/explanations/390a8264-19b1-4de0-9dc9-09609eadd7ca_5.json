@@ -1,0 +1,15 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for the repeated binomial",
+      "content": "The expression $(x + 8)^2 + 14(x + 8) + 49$ has $(x + 8)$ appearing in multiple terms. Substituting $u = x + 8$ transforms this to $u^2 + 14u + 49$."
+    },
+    {
+      "title": "Factor the perfect square trinomial",
+      "content": "Notice that $u^2 + 14u + 49$ has $49 = 7^2$ and $14u = 2 \\cdot 7 \\cdot u$, so it factors as $(u + 7)^2$. Substituting $u = x + 8$ back:<br/><br/>$$(u + 7)^2 = (x + 8 + 7)^2 = (x + 15)^2$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

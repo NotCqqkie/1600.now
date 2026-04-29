@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the challenge described in the explanation",
+      "content": "The colon reveals why researchers need large samples: <em>\u201ca substantial number of participants will withdraw or fall out of contact\u201d</em> over time. This describes the gradual loss of the study population."
+    },
+    {
+      "title": "Find the term that names this loss",
+      "content": "<strong>Attrition</strong> directly names the gradual loss of group members\u2014precisely what the passage describes. Circumspection, impartiality, and replicability each describe unrelated issues: caution, fairness, and experimental repeatability. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

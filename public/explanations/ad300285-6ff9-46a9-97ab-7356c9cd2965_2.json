@@ -1,0 +1,11 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the distributive property",
+      "content": "Distribute the 4 to both terms inside the parentheses:<br/>$$4(x^{2}+6) = 4 \\cdot x^{2} + 4 \\cdot 6 = 4x^{2} + 24$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

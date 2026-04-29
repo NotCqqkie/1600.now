@@ -1,0 +1,15 @@
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the correction pattern",
+      "content": "Chaucer <em>didn't write in Modern English</em>, and the sentence shifts to what he actually did write (Middle English). The blank must bridge this negation to the actual fact\u2014a direct correction."
+    },
+    {
+      "title": "Match the corrective word",
+      "content": "<em>Rather</em> directly expresses <em>instead</em> or <em>on the contrary</em>, shifting from false to true. Finally signals sequence, as a result signals causation, and similarly signals agreement\u2014each misses the corrective relationship. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

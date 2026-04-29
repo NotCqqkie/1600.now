@@ -1,0 +1,19 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand and set up the quadratic equation",
+      "content": "The equation $x(13x+27)+c=5$ expands to:<br/>$$13x^2 + 27x + c = 5$$<br/>Rearranging: $$13x^2 + 27x + (c-5) = 0$$"
+    },
+    {
+      "title": "Apply the quadratic formula and simplify the discriminant",
+      "content": "Using the quadratic formula with $a=13$, $b=27$, and constant term $c-5$:<br/>$$x = \\frac{-27 \\pm \\sqrt{27^2 - 4(13)(c-5)}}{2(13)}$$<br/>Simplify the discriminant:<br/>$$27^2 - 4(13)(c-5) = 729 - 52c + 260 = 989 - 52c$$<br/>Therefore:<br/>$$x = \\frac{-27 \\pm \\sqrt{989-52c}}{26}$$"
+    },
+    {
+      "title": "Match the given solution to solve for c",
+      "content": "Since one solution is $\\frac{-27+\\sqrt{261}}{26}$, the expression under the square root must equal 261:<br/>$$989 - 52c = 261$$<br/>$$52c = 728$$<br/>$$c = 14$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0301c5dc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find favorable and total outcomes from the table",
+      "content": "Looking at row <em>Has camping facilities</em> and column <em>Does not have bicycle paths</em>, we identify 5 parks that meet both conditions. The total number of parks is 20 + 5 + 8 + 4 = 37."
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "The probability that a randomly selected park has camping facilities but no bicycle paths is: $$\\frac{5}{37}$$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

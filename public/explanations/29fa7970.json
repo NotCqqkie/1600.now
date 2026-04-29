@@ -1,0 +1,11 @@
+{
+  "questionId": "29fa7970",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the bar height at 0 kWh",
+      "content": "At the 0 kWh charge level on the bar graph, the bar height is 6 days. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what supports the researcher's claim",
+      "content": "The researcher argues the ten-year-old survey no longer reflects today's residents' feelings. To support this, we need evidence that something in the neighborhood has changed in a way that affects walking behavior. The passage identifies sidewalks, crosswalks, and weather as factors influencing how far people will walk."
+    },
+    {
+      "title": "Match the evidence to the claim",
+      "content": "Choice A shows that sidewalks and crosswalks\u2014the infrastructure factors the passage identifies as influencing walking behavior\u2014have increased substantially in the neighborhood over the past ten years. This change would directly alter residents' current willingness to walk compared to when the survey was taken, proving the old survey is no longer accurate for today's residents. Choices B, C, and D either confirm existing factors without showing neighborhood change, mention variables unrelated to walking behavior, or address unrelated satisfaction metrics. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

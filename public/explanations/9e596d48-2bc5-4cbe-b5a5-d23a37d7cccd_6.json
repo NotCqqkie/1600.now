@@ -1,0 +1,11 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -1 into the function",
+      "content": "Substitute $x = -1$ into $f(x) = -5x^2 - 7$:<br/><br/>$$f(-1) = -5(-1)^2 - 7$$<br/><br/>Evaluate the exponent: $(-1)^2 = 1$. Then multiply: $-5(1) = -5$. Finally, subtract:<br/><br/>$$f(-1) = -5 - 7 = -12$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

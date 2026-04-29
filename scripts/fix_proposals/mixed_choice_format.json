@@ -1,0 +1,96 @@
+[
+  {
+    "id": "2085e10e",
+    "url": "/bank/math/98?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "note": "Yes/No answer format is intentional, not mixed choice format"
+  },
+  {
+    "id": "5afbdc8e",
+    "url": "/bank/math/238?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "A": "$2$"
+    },
+    "note": "Choice A is prose number; others are LaTeX roots"
+  },
+  {
+    "id": "9e44284b",
+    "url": "/bank/math/267?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "A": "$5$",
+      "B": "$6.5$"
+    },
+    "note": "Choices A-B are prose numbers; C-D are LaTeX roots"
+  },
+  {
+    "id": "bf8d843e",
+    "url": "/bank/math/273?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "A": "$4$",
+      "B": "$6$",
+      "C": "$12\\sqrt{2}$",
+      "D": "$12\\sqrt{3}$"
+    },
+    "note": "A-B are prose; C-D have malformed LaTeX needing coefficient"
+  },
+  {
+    "id": "cb8f449f",
+    "url": "/bank/math/298?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "A": "$3$",
+      "C": "$4$",
+      "D": "$6$"
+    },
+    "note": "Choices A, C, D are prose numbers; B is LaTeX fraction"
+  },
+  {
+    "id": "dc71597b",
+    "url": "/bank/math/264?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "D": "$3$"
+    },
+    "note": "Choice D is prose number; A-C are LaTeX fractions"
+  },
+  {
+    "id": "271f7e3f",
+    "url": "/bank/math/514?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "A": "$1$",
+      "B": "$2$"
+    },
+    "note": "Choices A, B are prose numbers; C-D are LaTeX fractions"
+  },
+  {
+    "id": "52cb8ea4",
+    "url": "/bank/math/506?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "C": "$5$",
+      "D": "$13$"
+    },
+    "note": "Choices C-D are prose numbers; A-B are LaTeX"
+  },
+  {
+    "id": "e03f3477",
+    "url": "/bank/math/971?bankType=unofficial",
+    "verdict": "FALSE_POSITIVE",
+    "note": "All choices are prose descriptions; comparative statements are intentional"
+  },
+  {
+    "id": "e5b5fbdd",
+    "url": "/bank/math/975?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "D": "$2$"
+    },
+    "note": "Choice D is prose number; A-C are LaTeX fractions"
+  },
+  {
+    "id": "eb268057",
+    "url": "/bank/math/1649?bankType=unofficial",
+    "proposed_choice_fixes": {
+      "B": "$4$",
+      "C": "$32$",
+      "D": "$128$"
+    },
+    "note": "Choices B-D are prose numbers; A is LaTeX negative"
+  }
+]

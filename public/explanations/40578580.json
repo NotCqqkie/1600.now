@@ -1,0 +1,15 @@
+{
+  "questionId": "40578580",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The conclusion claims giraffes <strong>help each other care for newborns</strong>. The decisive clue is the phrase \u201chelp each other care for <em>one another\u2019s</em> newborns,\u201d which implies <strong>cooperative care for calves that are not one\u2019s own</strong>."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A directly states that female giraffes <em>feed young not their own</em>, which aligns with the idea of shared caretaking. The other three choices either describe uncooperative behavior (B), standard parental bonding (C), or communication patterns unrelated to cooperation (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the formula for average acceleration",
+      "content": "$$\\text{average acceleration} = \\frac{\\Delta v}{\\Delta t}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Plug in the given change in speed and time",
+      "content": "$$\\frac{22}{8} = 2.75$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

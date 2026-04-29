@@ -1,0 +1,15 @@
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve by factoring",
+      "content": "Rearrange and factor:<br/>$$x - a = (x - a)(x - 24)$$<br/>$$x - a - (x - a)(x - 24) = 0$$<br/>$$(x - a)[1 - (x - 24)] = 0$$<br/>$$(x - a)(25 - x) = 0$$<br/><br/>The solutions are $x = a$ and $x = 25$."
+    },
+    {
+      "title": "Determine which statements are solutions",
+      "content": "<ul><li><strong>I.</strong> $x = a$ is a solution. \u2713</li><li><strong>II.</strong> $x = 24$ is not a solution. Substituting into the original equation: LHS is $24 - a$, RHS is $(24 - a)(0) = 0$. Since $a > 25$, we have $24 - a \\neq 0$, so the equation fails. \u2717</li><li><strong>III.</strong> $x = 25$ is a solution. \u2713</li></ul><br/>I and III are the solutions \u2014 that matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

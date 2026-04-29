@@ -1,0 +1,15 @@
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sample-size gap",
+      "content": "The passage requires 176 individuals for a representative result but notes that both Lockard and Goodall used only 8 individuals each. This disparity is the decisive clue."
+    },
+    {
+      "title": "Apply the sample-size constraint",
+      "content": "Choice A states that neither study provides sufficient evidence\u2014the only conclusion consistent with both falling far short of the 176-individual minimum. <br/><br/>Choices B and D wrongly claim at least one study is reliable, and C invokes an unsupported directional assumption. <br/><br/>Since both studies fall equally short of the 176-individual standard, neither can provide the evidence needed for a meaningful comparison. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

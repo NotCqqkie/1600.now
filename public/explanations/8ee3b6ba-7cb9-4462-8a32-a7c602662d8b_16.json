@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast word",
+      "content": "The word however signals a contrast between two independent clauses: the rarity of retroflex consonants in many languages and their relative commonness in Mandarin dialects."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "To join two independent clauses with a conjunctive adverb like however, the SAT requires a semicolon before it and a comma after: IC; however, IC. Placing a semicolon after the blank gives rare; producing the correct pattern: these consonants are rare; in some dialects of Mandarin, however, four such consonants ... are relatively common. The other choices either insert a comma before however (creating a comma splice), leave no punctuation (also a comma splice), or use and (ungrammatical). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

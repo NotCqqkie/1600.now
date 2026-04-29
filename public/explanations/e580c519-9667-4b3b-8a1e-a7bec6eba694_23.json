@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the cause-and-effect link",
+      "content": "The plant absorbs iron from soil, then the passage states iron concentrations in the soil decrease. These are presented sequentially as cause and effect\u2014the plant's iron absorption is the reason concentrations drop."
+    },
+    {
+      "title": "Match the consequence relationship",
+      "content": "\u201dAccordingly\u201d expresses this result (the decrease follows from the absorption). The other three serve different functions: clarification, contrast, and addition\u2014none capture the causal relationship here. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

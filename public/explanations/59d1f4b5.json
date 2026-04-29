@@ -1,0 +1,15 @@
+{
+  "questionId": "59d1f4b5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish the relationship between quarter years and years",
+      "content": "The original equation uses $t$ in <strong>years</strong>. The new equation uses $q$ in <strong>quarter years</strong>. Since there are 4 quarters in 1 year, we have: <br/> $$t = \\frac{q}{4}$$"
+    },
+    {
+      "title": "Substitute the time conversion into the original equation",
+      "content": "Replace $t$ with $\\frac{q}{4}$ in $M = 1800 \\times 1.02^t$: <br/> $$M = 1800 \\times 1.02^{\\frac{q}{4}}$$ <br/> This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

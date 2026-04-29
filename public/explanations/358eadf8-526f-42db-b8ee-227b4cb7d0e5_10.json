@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the researchers' conclusion",
+      "content": "The researchers conclude that the prevalence of deceptive displays is mediated by absolute latitude \u2014 meaning the percentage of species that use displays varies depending on the latitude of brooding sites."
+    },
+    {
+      "title": "Match that conclusion with the evidence",
+      "content": "Choice D shows that 34% of species brooding at 0\u201330\u00b0 use displays while 60% at 50\u201380\u00b0 do, directly measuring how prevalence changes with latitude across the orders studied. The other choices either provide insufficient direct evidence (A) or show the relationship depends on order (B and C), contradicting the conclusion. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "bc638f2d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constant term as the y-intercept",
+      "content": "In the linear function $f(t) = 14t + 9$, the constant 9 is the y-intercept. This represents the output value when the input equals zero. Since $t$ measures months after purchase, $t = 0$ is the purchase moment."
+    },
+    {
+      "title": "Evaluate the function at t = 0",
+      "content": "Substitute $t = 0$ into the function: $$f(0) = 14(0) + 9 = 9$$ The plant was 9 inches long at the moment Tavon purchased it. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

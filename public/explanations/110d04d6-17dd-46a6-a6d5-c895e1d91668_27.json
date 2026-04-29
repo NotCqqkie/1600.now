@@ -1,0 +1,15 @@
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the task requirement",
+      "content": "The task explicitly requires a <strong>generalization</strong> \u2014 meaning a broad conclusion about the overall effect of parks on happiness, not the methodology, sample scope, or specific city comparisons."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "Choice B states that parks have an overall positive effect on happiness while varying by city, drawing from the average benefit of 0.10 (which exceeds zero) and data showing city-to-city variation. Choices A and D describe only the method and scope; choice C compares two specific cities and incorrectly claims Washington's parks had no positive effect when the data shows they did. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

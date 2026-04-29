@@ -1,0 +1,19 @@
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_16",
+  "correctAnswer": "26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quadratic formula",
+      "content": "For $3w^2 + 11w - c = 0$, the quadratic formula gives:<br/>$$w = \\frac{-11 \\pm \\sqrt{11^2 - 4(3)(-c)}}{2(3)}$$<br/>Simplifying the discriminant:<br/>$$w = \\frac{-11 \\pm \\sqrt{121 + 12c}}{6}$$"
+    },
+    {
+      "title": "Extract the discriminant from the given solution",
+      "content": "The given solution $\\frac{-11+\\sqrt{433}}{6}$ matches our formula structure exactly. By comparing with $\\frac{-11 \\pm \\sqrt{121 + 12c}}{6}$, the term under the square root must be 433:<br/>$$121 + 12c = 433$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Subtract 121 from both sides:<br/>$$12c = 312$$<br/>Divide by 12:<br/>$$c = 26$$"
+    }
+  ]
+}

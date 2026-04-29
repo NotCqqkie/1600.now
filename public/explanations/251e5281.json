@@ -1,0 +1,15 @@
+{
+  "questionId": "251e5281",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the exception to the rule",
+      "content": "The passage establishes that steepness limits the height of traveling waves (\u201cbreaking thus constrains wave height\u201d). The decisive clue then appears: \u201cspike waves can exceed that constraint.\u201d This signals the core finding \u2014 spike waves violate the steepness-based height limit."
+    },
+    {
+      "title": "Match the exception to the answer",
+      "content": "Choice D captures the core finding: spike waves are \u201chigher than would be expected based on the properties of traveling waves,\u201d meaning they exceed the steepness-based height constraint. A, B, and C either misplace the insight to the wrong wave type, misrepresent how steepness constrains spike waves, or incompletely describe the phenomenon without explaining the exception. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

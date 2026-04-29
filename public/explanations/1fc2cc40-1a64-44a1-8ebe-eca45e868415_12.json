@@ -1,0 +1,16 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_12",
+  "correctAnswer": "58",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right triangle and angle position",
+      "content": "Triangle JKL has a right angle at K (shown by the square symbol). The hypotenuse JL = 59 connects vertices J and L. Angle $y\u00b0$ is at vertex L. We need to find the length of side $\\overline{KL}$, which is adjacent to angle $y\u00b0$."
+    },
+    {
+      "title": "Apply the cosine ratio",
+      "content": "In a right triangle, $\\cos(\\text{angle}) = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$. From angle $y\u00b0$ at vertex L, the adjacent side is $KL$ and the hypotenuse is $JL = 59$. Therefore:\n\n$$\\cos y\u00b0 = \\frac{KL}{59}$$\n\nWe are given $\\cos y\u00b0 = \\frac{58}{59}$, so:\n\n$$\\frac{KL}{59} = \\frac{58}{59}$$\n\nMultiplying both sides by 59 gives $KL = 58$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\cos y\u00b0 = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"
+    }
+  ]
+}

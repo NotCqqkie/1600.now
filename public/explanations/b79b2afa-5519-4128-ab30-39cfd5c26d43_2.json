@@ -1,0 +1,11 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the 19",
+      "content": "Multiply 19 by each term inside the parentheses: $$19(x^2 - 8) = 19\\cdot x^2 - 19\\cdot 8$$.<br/>Compute the product: $$19\\cdot 8 = 152$$.<br/>Thus the expression simplifies to $$19x^2 - 152$$.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

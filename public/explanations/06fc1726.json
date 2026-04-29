@@ -1,0 +1,15 @@
+{
+  "questionId": "06fc1726",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 5 into the function definition",
+      "content": "To find $f(5)$, we replace every instance of $x$ with 5 in the function $f(x) = \\frac{2x - 1}{3}$.<br/><br/>$$f(5) = \\frac{2(5) - 1}{3}$$"
+    },
+    {
+      "title": "Simplify the numerator and evaluate",
+      "content": "Calculate the numerator: $2(5) - 1 = 10 - 1 = 9$.<br/><br/>Then divide:<br/>$$\\frac{9}{3} = 3$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

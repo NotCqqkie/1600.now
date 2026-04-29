@@ -1,0 +1,15 @@
+{
+  "questionId": "1aa3f174",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the opening parenthesis",
+      "content": "The phrase begins with an opening parenthesis before \u201cas many\u201d: (as many as 200,000, by some ______). This signals that a matching closing parenthesis is required."
+    },
+    {
+      "title": "Apply the rule for matching parentheses",
+      "content": "An opening parenthesis requires a matching closing parenthesis to properly enclose the parenthetical remark. The word <em>estimates</em> completes the phrase \u201cby some estimates,\u201d and must be followed by <em>)</em> to close it. Choice A provides the required closing parenthesis; B adds an unnecessary comma after the paren, disrupting the flow to \u201cin a complex...\u201d; C replaces the closing paren with an em dash, leaving the opening unmatched; D fails to close the parenthetical altogether.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

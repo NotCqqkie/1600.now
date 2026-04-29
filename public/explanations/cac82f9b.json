@@ -1,0 +1,15 @@
+{
+  "questionId": "cac82f9b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shared mechanism",
+      "content": "The researchers found identical bacterial genera in leaves and roots and offered two mechanisms showing how bacteria can move between plant locations: rain splashing soil onto leaves, and wind transporting bacteria."
+    },
+    {
+      "title": "Determine the logical conclusion",
+      "content": "Choice B directly follows from both mechanisms: if bacteria move between plant parts via the two pathways described, then identical bacteria in leaves and roots must originate from a common source. Options A and D address topics not in the passage (benefit and vulnerability), while option C isolates wind deposits alone\u2014narrower than what both mechanisms combined suggest. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

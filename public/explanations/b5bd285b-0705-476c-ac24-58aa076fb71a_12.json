@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key demand",
+      "content": "The phrase \u201cthe degree of this difference varied across the stories\u201d points directly to what we need: stories with noticeably different gap sizes between spoiled and unspoiled ratings. To best illustrate this variation, pick a pair where the spoiler effect is dramatically different\u2014one story showing a large gap, one showing a smaller gap."
+    },
+    {
+      "title": "Compare gap sizes across the choices",
+      "content": "Reading the graph: \u201cOwl Creek Bridge\u201d has a gap of roughly 1.5 points (unspoiled ~5, spoiled ~6.5), while \u201cA Chess Problem\u201d shows a substantially larger gap of roughly 2.5\u20133 points (unspoiled ~3, spoiled ~5.5\u20136). This stark difference in gap sizes directly demonstrates how the spoiler effect varies across stories. The other options either pair stories with similar gaps (\u201cBlitzed\u201d and \u201cA Chess Problem\u201d both show large effects) or fail to show meaningful contrast. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

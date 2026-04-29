@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "On the left: \u201cThis designation is hypothetical\u201d is an independent clause (can stand alone). On the right: \u201cProto-Nilo-Saharan is only postulated, its characteristics being inferred...\u201d is also an independent clause."
+    },
+    {
+      "title": "Apply the conjunctive adverb rule",
+      "content": "When a conjunctive adverb like <strong>however</strong> connects two independent clauses, it must either follow a semicolon in one sentence (IC; however, IC) or start a new sentence after a period (IC. However, IC). Choice C follows the second pattern: period before \u201cHowever,\u201d with a comma after it to begin the new sentence. Choices A, B, and D violate this rule with incorrect commas and colons. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

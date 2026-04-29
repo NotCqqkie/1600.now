@@ -1,0 +1,15 @@
+{
+  "questionId": "0b332f00",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute into the function definition",
+      "content": "We have $g(x) = 6x$ and need to find $x$ when $g(x) = 54$. Substitute 54 for $g(x)$:<br/>$$6x = 54$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 6:<br/>$$x = \\frac{54}{6} = 9$$"
+    }
+  ]
+}

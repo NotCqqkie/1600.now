@@ -1,0 +1,15 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor from the perimeters",
+      "content": "For similar triangles, corresponding sides are in the same ratio as the perimeters. The scale factor from triangle $TUV$ to triangle $XYZ$ is:\n$$k = \\frac{\\text{Perimeter of } XYZ}{\\text{Perimeter of } TUV} = \\frac{352}{44} = 8$$"
+    },
+    {
+      "title": "Use the scale factor to find XY",
+      "content": "Since $\\overline{TU}$ corresponds to $\\overline{XY}$ and both triangles are similar with scale factor 8, multiply the known side by the scale factor:\n$$XY = TU \\times 8 = 16 \\times 8 = 128$$\nThat matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

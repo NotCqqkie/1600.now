@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant ratio",
+      "content": "Since $k$ to $p$ is constant, the ratio $\\frac{k}{p}$ remains the same for all pairs of values. Using $k = 7$ and $p = 6$:<br/>$$\\frac{k}{p} = \\frac{7}{6}$$"
+    },
+    {
+      "title": "Apply the ratio to find k when p = 336",
+      "content": "Set up the proportion with the constant ratio and the new value of $p$:<br/>$$\\frac{k}{336} = \\frac{7}{6}$$<br/>Multiply both sides by 336:<br/>$$k = 336 \\cdot \\frac{7}{6} = 56 \\cdot 7 = 392$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

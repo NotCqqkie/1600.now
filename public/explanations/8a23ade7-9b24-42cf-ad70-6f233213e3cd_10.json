@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key clue",
+      "content": "The passage explains vegetation's two mechanisms for reducing pollution (deposition and dispersion), suggesting green space should solve urban air quality problems. But Venter et al. recommend \u201creducing anthropogenic emissions remain the primary focus\u201d\u2014a conclusion implying the study found a critical limitation to green space."
+    },
+    {
+      "title": "Match the finding",
+      "content": "B identifies the precise problem: green space shows moderate overall benefit, but dense tree cover on busy streets blocks ventilation\u2014the more effective dispersion mechanism\u2014making green space ineffective or counterproductive exactly where pollution is worst. This failure explains why emissions reduction must be primary. The other findings either report reduced effectiveness without mechanism (A), suggest a solution through vegetation selection (C), or blame external weather (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

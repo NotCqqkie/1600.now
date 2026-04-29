@@ -1,0 +1,16 @@
+{
+  "questionId": "a9039591",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept from the table",
+      "content": "When $x = 0$, the table shows $f(0) = 29$. For any linear function, the value at $x = 0$ is the y-intercept, so $b = 29$."
+    },
+    {
+      "title": "Calculate the slope and write the equation",
+      "content": "Using consecutive rows from the table, the slope is $$m = \\frac{f(1) - f(0)}{1 - 0} = \\frac{32 - 29}{1} = 3$$<br/>With $m = 3$ and $b = 29$, the function is $f(x) = 3x + 29$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$f(x) = mx + b$$"
+    }
+  ]
+}

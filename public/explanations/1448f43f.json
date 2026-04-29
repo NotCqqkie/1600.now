@@ -1,0 +1,15 @@
+{
+  "questionId": "1448f43f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The previous sentence introduces \u201cMultitask learning\u201d as a singular noun. The blank must contain a pronoun that refers to this singular antecedent."
+    },
+    {
+      "title": "Apply pronoun agreement",
+      "content": "A pronoun must agree with its antecedent in number. \u201cIt\u201d is the singular pronoun that refers to the singular antecedent \u201cMultitask learning.\u201d Those, They, and Some are all plural pronouns that would disagree with the singular antecedent.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

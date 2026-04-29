@@ -1,0 +1,15 @@
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the two coordinated verbs",
+      "content": "The sentence contains two verbs joined by \u201cand\u201d: \u201cThis technique emphasizes [gerund phrase] and ______ [noun phrase + infinitive].\u201d The subject \u201cThis technique\u201d is singular; the first verb \u201cemphasizes\u201d is third-person singular."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Choice A is correct. In a compound predicate, both verbs must be conjugated the same way for the same subject. \u201cEncourages\u201d is the third-person singular form that parallels the first verb \u201cemphasizes.\u201d The other options violate agreement: \u201chave encouraged\u201d and \u201care encouraging\u201d are plural, while \u201cencourage\u201d is a base form. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

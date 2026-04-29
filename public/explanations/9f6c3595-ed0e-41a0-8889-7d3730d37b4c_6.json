@@ -1,0 +1,16 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the times from the table",
+      "content": "The table shows: Task A = 8 minutes, Task B = 5 minutes, Task C = 12 minutes, Task D = 10 minutes, Task E = 10 minutes."
+    },
+    {
+      "title": "Calculate the mean",
+      "content": "Sum all five times and divide by 5:<br/><br/>$$\\text{mean} = \\frac{8 + 5 + 12 + 10 + 10}{5} = \\frac{45}{5} = 9$$<br/><br/>The mean time is 9 minutes. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\text{mean} = \\frac{\\text{sum}}{\\text{count}}$$"
+    }
+  ]
+}

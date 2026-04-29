@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate b\u00b2 by rearranging",
+      "content": "Start with the equation:<br/>$$b^2 + 5c = 3d$$<br/>Subtract $5c$ from both sides to isolate the term with $b$:<br/>$$b^2 = 3d - 5c$$"
+    },
+    {
+      "title": "Solve for b by taking the square root",
+      "content": "Since $b^2 = 3d - 5c$, take the square root of both sides. A square root produces two results (positive and negative):<br/>$$b = \\pm\\sqrt{3d - 5c}$$<br/>The constraint $d > \\frac{5}{3}c$ ensures that $3d > 5c$, so the radicand is positive and real solutions exist.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

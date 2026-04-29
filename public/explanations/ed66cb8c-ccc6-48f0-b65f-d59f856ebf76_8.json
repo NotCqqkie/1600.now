@@ -1,0 +1,15 @@
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the forward-looking signal",
+      "content": "The key signal is the closing phrase: <em>\u201cthey are hopeful that this discovery could aid in the development of new antibiotics for human use.\u201d</em> This shows the passage is not just reporting what was discovered but pointing toward where the discovery might lead\u2014future research directions."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "Choice B says the text \u201csummarizes research findings and then identifies an area for further research,\u201d which is exactly this structure: the passage presents the ants' abilities and results, then points toward developing antibiotics. The other choices mischaracterize the passage \u2014 A wrongly imposes a problem-solution frame, C invokes evolutionary explanation never discussed, and D falsely claims the passage explains research methodology. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

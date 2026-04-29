@@ -1,0 +1,15 @@
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the hypothesis predicts",
+      "content": "The second team hypothesizes that <strong>sensors are more sensitive exactly where information (pressure difference) is greatest</strong>. The study showed that this location depends on head shape: for narrower heads, the greatest pressure difference is closer to the snout; for wider heads, it's farther from the snout. So a hypothesis-supporting answer must show sensitive sensors matching these locations."
+    },
+    {
+      "title": "Match the prediction to the choices",
+      "content": "Choice A compares two fish with different head widths and shows that sensitive sensors follow the predicted pattern: the longnose gar (narrower head) has its most sensitive sensors closer to the snout, and the devil catfish (wider head) has them farther away\u2014exactly where each species' information is greatest. Choices B and D place sensitive sensors in locations that don't match where information should be greatest for at least one species; choice C claims all the devil catfish's sensors are equally sensitive, which would contradict the hypothesis since information varies by location. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

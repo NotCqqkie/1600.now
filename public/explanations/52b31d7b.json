@@ -1,0 +1,15 @@
+{
+  "questionId": "52b31d7b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contradiction",
+      "content": "The passage describes Paris as \u201cideal\u201d where she's \u201cmaking a name for herself,\u201d but then reveals she \u201clonged to return to India.\u201d This unexpected reversal is the key signal."
+    },
+    {
+      "title": "Apply the transition to the choices",
+      "content": "\u201dStill\u201d means \u201chowever,\u201d signaling the contradiction directly. The remaining choices either reinforce the initial setup (Indeed, Furthermore) or create a false cause-and-effect (Therefore). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

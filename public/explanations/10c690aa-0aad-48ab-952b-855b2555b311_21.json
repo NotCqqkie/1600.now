@@ -1,0 +1,19 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_21",
+  "correctAnswer": "473",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify supplementary angles from parallel lines",
+      "content": "When parallel lines are cut by a transversal, an acute angle and the adjacent obtuse angle are supplementary. They must sum to 180\u00b0:<br/>$$5x + 52 + 7x + 92 = 180$$"
+    },
+    {
+      "title": "Solve for x and find the angle measures",
+      "content": "Combine like terms:<br/>$$12x + 144 = 180$$<br/>$$12x = 36$$<br/>$$x = 3$$<br/>Now find the angle measures:<br/>Acute angle = $5(3) + 52 = 67\u00b0$<br/>Obtuse angle = $7(3) + 92 = 113\u00b0$"
+    },
+    {
+      "title": "Calculate the sum of 2 acute and 3 obtuse angles",
+      "content": "All acute angles in this configuration equal 67\u00b0, and all obtuse angles equal 113\u00b0. The sum requested is:<br/>$$2(67\u00b0) + 3(113\u00b0) = 134\u00b0 + 339\u00b0 = 473\u00b0$$"
+    }
+  ]
+}

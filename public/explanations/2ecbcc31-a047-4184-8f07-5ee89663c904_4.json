@@ -1,0 +1,15 @@
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "<strong>Despite the damage ______ Soviet censors</strong> shows that the censors caused the damage."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "<em>Wrought by</em> means \u201ccaused by\u201d, so the phrase reads \u201cdamage wrought by Soviet censors\u201d \u2013 damage caused by the censors. The other three either suggest damage given to censors, assigned to them, or hidden from them, which reverses the relationship. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the greatest common factor (GCF)",
+      "content": "Look at the three terms in $7x^{5}-6x^{4}+9x^{3}$. The coefficients 7, -6, and 9 share no common factor. The powers of $x$ are 5, 4, and 3 \u2014 the highest power common to all terms is $x^3$. So the GCF is $x^3$."
+    },
+    {
+      "title": "Factor out the GCF and match to the choices",
+      "content": "Divide each term by $x^3$:<br/><ul><li>$7x^{5} \\div x^3 = 7x^2$</li><li>$-6x^{4} \\div x^3 = -6x$</li><li>$9x^{3} \\div x^3 = 9$</li></ul>The factored expression is $x^{3}(7x^{2}-6x+9)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

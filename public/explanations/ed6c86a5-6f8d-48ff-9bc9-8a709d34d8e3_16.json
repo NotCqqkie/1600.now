@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the pricing structure for each class",
+      "content": "The promotion sets up three tiers:<br/><ul><li>Class 1: $0 (free)</li><li>Class 2: $26.40 \u00f7 2 = $13.20 (half off)</li><li>Classes 3 onward: $26.40 each (regular price)</li></ul>"
+    },
+    {
+      "title": "Count regular-priced classes and build the formula",
+      "content": "For $x$ classes where $x > 2$:<br/><ul><li>Classes 1 and 2 have special pricing</li><li>Classes 3 through $x$ cost $26.40 each</li><li>Count of regular-priced classes: $x - 2$</li></ul><br/>Total cost is the sum of class 2 and all regular-priced classes:<br/>$$f(x) = 13.20 + 26.40(x - 2)$$<br/>Rearranging:<br/>$$f(x) = 26.40(x - 2) + 13.20$$<br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

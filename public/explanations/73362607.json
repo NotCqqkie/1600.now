@@ -1,0 +1,15 @@
+{
+  "questionId": "73362607",
+  "correctAnswer": "75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert 10% to a decimal",
+      "content": "10% means 10 per 100, which can be written as a decimal or fraction:<br/>$$10\\% = 0.10 = \\frac{1}{10}$$"
+    },
+    {
+      "title": "Multiply the harvest by the decimal",
+      "content": "To find how many tomatoes Amara gave away, multiply the total harvest by the decimal form:<br/>$$750 \\times 0.10 = 75$$<br/>Amara gave <strong>75</strong> cherry tomatoes to her neighbor."
+    }
+  ]
+}

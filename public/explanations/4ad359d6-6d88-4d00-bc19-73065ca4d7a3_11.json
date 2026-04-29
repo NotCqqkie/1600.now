@@ -1,0 +1,15 @@
+{
+  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the strongest contradiction to geographic reasoning",
+      "content": "The argument infers that Puerto Rican guinea pigs came from Colombia based on trade routes. But genetic evidence about their actual descent would be the most direct way to prove or disprove this conclusion."
+    },
+    {
+      "title": "Evaluate which evidence contradicts the origin claim",
+      "content": "Choice B shows that ancient Puerto Rican guinea pigs were genetically more similar to Peruvian guinea pigs than Colombian ones\u2014proving they came from Peru, not Colombia. This directly contradicts the conclusion. The other choices either support the geographic reasoning, discuss unrelated traits, or don't establish origin. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

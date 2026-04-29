@@ -1,0 +1,16 @@
+{
+  "questionId": "8173f32b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand margin of error",
+      "content": "The margin of error defines the range where the true population mean plausibly lies. Given a sample mean and margin of error, the plausible range is found by adding and subtracting the margin of error from the sample mean.",
+      "formula": "$$[\\bar{x} - E, \\bar{x} + E]$$"
+    },
+    {
+      "title": "Calculate the interval",
+      "content": "Lower bound: $$4.23 - 0.08 = 4.15$$<br/>Upper bound: $$4.23 + 0.08 = 4.31$$<br/><br/>The true population mean is plausibly between $4.15 and $4.31. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

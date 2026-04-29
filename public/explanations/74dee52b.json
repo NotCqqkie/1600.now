@@ -1,0 +1,21 @@
+{
+  "questionId": "74dee52b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the values from the line graph",
+      "content": "<ul><li>2001: 120</li><li>2002: 95</li><li>2003: 110</li><li>2004: 115</li><li>2005: 130</li><li>2006: 125</li><li>2007: 140</li></ul>",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Find the minimum and match to answer choice",
+      "content": "The smallest value is 95 for the class of 2002.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

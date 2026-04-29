@@ -1,0 +1,15 @@
+{
+  "questionId": "9c44f828",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percent to fraction",
+      "content": "Fifty percent means 50 out of 100, which simplifies to the fraction $$\\frac{1}{2}$$.<br/>To find the number of seats occupied, multiply the total seats by this fraction."
+    },
+    {
+      "title": "Calculate half of 840",
+      "content": "$$\\frac{1}{2} \\times 840 = 420$$.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

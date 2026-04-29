@@ -1,0 +1,15 @@
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the key information",
+      "content": "The sentence introduces Green and Jutfelt's study and does two things: states the conclusion they reached, then flags a methodological limitation (small sample size)."
+    },
+    {
+      "title": "Determine the primary function",
+      "content": "The sentence directly states Green and Jutfelt's conclusion about ocean acidification's effect on fish behavior. The \u201cHowever\u201d notes a methodological limitation, but the sentence's primary function is to state what was concluded. <br/>A and B point to information not present in the sentence, while C identifies criticism rather than the main conclusion statement. <br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

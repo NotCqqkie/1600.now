@@ -1,0 +1,15 @@
+{
+  "questionId": "109d5bbb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures around the blank",
+      "content": "The left side contains a noun phrase naming the festival. The right side contains an appositive phrase\u2014introduced by \u201cor\u201d and providing an alternative name with explanation."
+    },
+    {
+      "title": "Apply the dash enclosure rule",
+      "content": "The rule is that matching dashes enclose non-restrictive appositives. An opening dash after \u201cCulture\u201d completes the enclosure signaled by the closing dash before \u201cbecame\u201d\u2014that's what choice B provides. The other choices either use a colon (A) or omit the opening dash (C, D), both failing to enclose the appositive properly. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

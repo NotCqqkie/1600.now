@@ -1,0 +1,16 @@
+{
+  "questionId": "f44a29a8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute values into the kinetic energy formula",
+      "formula": "$$KE = \\frac{1}{2}mv^2$$",
+      "content": "With KE = 18 joules and m = 4 kilograms, substitute into the formula:<br/>$$18 = \\frac{1}{2}(4)v^2$$<br/>$$18 = 2v^2$$"
+    },
+    {
+      "title": "Solve for speed",
+      "content": "Divide both sides by 2:<br/>$$v^2 = 9$$<br/>Take the positive square root:<br/>$$v = 3 \\text{ meters per second}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

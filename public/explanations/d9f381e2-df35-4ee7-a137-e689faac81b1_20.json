@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "The key signal here is \u201cdid not play drums on the label\u2019s classic song \u2018Rapper\u2019s _______,\u2019 he joined the label after the song\u2019s release.\u201d This sentence structure presents a clear sequence of events where one event clearly follows another, indicating a precise timing or sequence."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>C</strong> captures the specific relationship between two independent clauses with a semicolon because it correctly separates \u201cDelight,\u201d from \u201cHe joined the label after the song\u2019s release,\u201d which are both full sentences. The other three incorrectly use different punctuation that does not maintain the separation and logical sequence needed \u2014 they either misuse commas or introduce unnecessary elements like period separators. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

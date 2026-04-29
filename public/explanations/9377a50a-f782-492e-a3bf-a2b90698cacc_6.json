@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that the expressions are reciprocals",
+      "content": "$\\frac{x}{9}$ and $\\frac{9}{x}$ are reciprocals \u2014 their product equals 1."
+    },
+    {
+      "title": "Solve for the target expression",
+      "content": "Since $\\frac{x}{9} \\cdot \\frac{9}{x} = 1$ and we know $\\frac{x}{9} = 5$:<br/>$$5 \\cdot \\frac{9}{x} = 1$$<br/>$$\\frac{9}{x} = \\frac{1}{5}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table and form the fraction",
+      "content": "The question asks what fraction of even integers are in list A. From the table: even integers in list A = 12 (row <strong>List A</strong>, column <strong>Even integers</strong>), and total even integers = 52 (row <strong>Total</strong>, column <strong>Even integers</strong>). The fraction is $$\\frac{12}{52}$$ \u2014 that matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the plural subject",
+      "content": "The subject is \u201cObjects,\u201d which is plural. Although an appositive phrase interrupts after it, the subject's number doesn't change."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement requires verbs to match the number of their subjects. Choice D, \u201cexhibit,\u201d is the plural form that matches the plural subject \u201cObjects.\u201d Options A, B, and C all use singular verbs, violating this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

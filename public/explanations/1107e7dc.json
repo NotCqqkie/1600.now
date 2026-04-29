@@ -1,0 +1,15 @@
+{
+  "questionId": "1107e7dc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the effect of unpredictable shifts",
+      "content": "The passage states that \u201cunpredictable shifts in cloud cover and haze\u201d affect solar energy collection in a way that stored energy can help counteract. We need the word that describes what these shifts do to the collection process."
+    },
+    {
+      "title": "Find the word for that effect",
+      "content": "When clouds appear unpredictably, solar energy collection rises and falls\u2014it <strong>fluctuates</strong>. Stored energy mitigates this by providing power when collection dips. \u201cFluctuations in\u201d directly captures this variable behavior. The other options fail: \u201cdevelopments of\u201d suggests new events rather than variations, \u201ccalibrations with\u201d refers to adjusting equipment (unrelated to what clouds do), and \u201cincentives for\u201d means motivations (not a weather consequence). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

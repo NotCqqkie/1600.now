@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage explicitly states the discrepancy between the two species' responses to lunar intensity <em>\u201cis explicable in terms of OFT,\u201d</em> meaning OFT can explain why different species respond differently to the same ecological circumstance."
+    },
+    {
+      "title": "Apply the signal to the answer",
+      "content": "Choice A directly states the signal \u2014 OFT <em>\u201ccan account for observations of different species responding differently to similar ecological circumstances.\u201d</em> The other three either reverse the passage's claim, invent unsupported distinctions, or misrepresent what the species demonstrate. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

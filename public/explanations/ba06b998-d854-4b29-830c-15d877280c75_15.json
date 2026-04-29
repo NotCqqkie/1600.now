@@ -1,0 +1,15 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert radians to degrees and locate the angle",
+      "content": "To find sin(B) where $B = \\frac{3\\pi}{4}$ radians, first convert to degrees: $\\frac{3\\pi}{4} \\text{ radians} = \\frac{3}{4} \\times 180\u00b0 = 135\u00b0$.<br/><br/>The angle 135\u00b0 lies in the second quadrant (between 90\u00b0 and 180\u00b0), where sine is positive."
+    },
+    {
+      "title": "Use the reference angle to find sine",
+      "content": "The reference angle for 135\u00b0 is $180\u00b0 - 135\u00b0 = 45\u00b0$.<br/><br/>We know that $\\sin(45\u00b0) = \\frac{\\sqrt{2}}{2}$.<br/><br/>Since 135\u00b0 is in the second quadrant where sine is positive, $\\sin(135\u00b0) = \\frac{\\sqrt{2}}{2}$.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

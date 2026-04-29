@@ -1,0 +1,15 @@
+{
+  "questionId": "d2b81427",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The opening dependent clause \u201cIn assessing the films of Japanese director Akira Kurosawa,\u201d introduces context and must connect to an independent clause. The verb \u201chave missed\u201d requires a subject; the blank must provide that subject and any preceding verbs."
+    },
+    {
+      "title": "Apply the rule of parallel structure",
+      "content": "The rule is <strong>parallel structure</strong>: when a coordinating conjunction joins two verb phrases with the same subject, they should maintain parallel form with the subject and auxiliary in the first clause carrying to the second. Option A correctly applies this by providing one subject with two parallel predicates: \u201ccritics have focused on Western literary sources but have missed...\u201d with \u201chave\u201d shared across both verbs. Options B, C, and D disrupt parallelism\u2014B shifts the subject to \u201cKurosawa's use of Western literary sources,\u201d C introduces redundancy by naming then pronouncing the same agent, and D separates the parallel ideas into independent clauses. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the definition of an isthmus",
+      "content": "<strong>Definition clue:</strong> The notes define an isthmus as \u201ca strip of land that connects two larger pieces of land across an expanse of water.\u201d"
+    },
+    {
+      "title": "Apply the definition to the choices",
+      "content": "<strong>Choice C</strong> uses that definition to say both the Isthmus of Suez and the Auckland Isthmus connect two larger pieces of land across water, highlighting their similarity.<br/>The other choices either repeat the definition without referencing both isthmuses (A), mention only one isthmus (B, D), or do not emphasize the shared feature.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

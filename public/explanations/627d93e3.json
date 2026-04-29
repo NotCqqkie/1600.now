@@ -1,0 +1,15 @@
+{
+  "questionId": "627d93e3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The conclusion claims nitrogen offsets moderate climate damage but not extreme change. We need data showing nitrogen is effective at moderate intensity but ineffective at extreme intensity."
+    },
+    {
+      "title": "Verify the answer",
+      "content": "Choice D pairs two key comparisons: with nitrogen at moderate (0.18) exceeds the current baseline without nitrogen (0.16) \u2013 nitrogen sustains growth despite moderate climate change; the baseline (0.16) exceeds with nitrogen at extreme (0.06) \u2013 nitrogen cannot sustain growth under extreme climate change. The other choices don't construct this paired comparison of moderate versus extreme to test nitrogen's variable effectiveness.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

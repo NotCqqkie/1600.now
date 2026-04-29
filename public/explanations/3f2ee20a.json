@@ -1,0 +1,15 @@
+{
+  "questionId": "3f2ee20a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand standard deviation and identify the key difference",
+      "content": "Both groups surveyed 2,500 men and reported a mean height of 186 cm. The key difference is their standard deviations: Group A has SD = 12.5 cm and Group B has SD = 19.1 cm. Standard deviation measures spread\u2014how much heights vary around the mean. Larger SD means greater spread."
+    },
+    {
+      "title": "Compare the standard deviations to find the answer",
+      "content": "Group B's standard deviation (19.1 cm) is larger than Group A's (12.5 cm). Since 19.1 > 12.5, the heights in Group B have a larger spread than those in Group A. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

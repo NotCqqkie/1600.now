@@ -1,0 +1,19 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the x-intercept from the graph",
+      "content": "The line represents all possible combinations of M-type and K-type stars that produce a total mass of 129,492 quettagrams. Reading from the graph, the line crosses the x-axis at $(160, 0)$, where there are 160 M-type stars and 0 K-type stars."
+    },
+    {
+      "title": "Set up the mass equation at the x-intercept",
+      "content": "When $y = 0$ (no K-type stars), all the total mass comes from M-type stars alone. If each M-type star has mass $m$, then: $$160m = 129,492$$"
+    },
+    {
+      "title": "Solve for the mass of each M-type star",
+      "content": "Dividing both sides by 160: $$m = \\frac{129,492}{160} = 809.325 \\text{ quettagrams}$$ Comparing to the choices, 809.325 is closest to 830. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

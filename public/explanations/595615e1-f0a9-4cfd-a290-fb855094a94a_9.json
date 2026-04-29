@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the connection between alarm calls and danger",
+      "content": "The passage says that after hearing T. caesius alarm calls, C. cinerascens froze or scattered, leading researchers to conclude the birds link those calls to danger."
+    },
+    {
+      "title": "Apply the link to the answer choices",
+      "content": "B shows that only the alarm calls trigger the freezing/scattering response, while random noise produces no reaction, directly supporting the idea that C. cinerascens associates those calls with danger.<br/>The other choices either do not test specificity, show the reaction occurring without the calls, or extend the effect to other species, which does not bolster the conclusion.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

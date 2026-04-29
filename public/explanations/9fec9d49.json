@@ -1,0 +1,16 @@
+{
+  "questionId": "9fec9d49",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear scale factor",
+      "content": "The model's sides are $\\frac{1}{10}$ times the actual sides. Therefore, the linear scale factor is $k = \\frac{1}{10}$."
+    },
+    {
+      "title": "Apply the area scaling rule for similar figures",
+      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. <br/><br/>Area scale factor: $\\left(\\frac{1}{10}\\right)^2 = \\frac{1}{100}$<br/><br/>Model area: $600 \\cdot \\frac{1}{100} = 6$ square meters.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$\\text{Area scale factor} = k^2$$"
+    }
+  ]
+}

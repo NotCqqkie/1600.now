@@ -1,0 +1,19 @@
+{
+  "questionId": "60f71697",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate x by dividing both sides",
+      "content": "Start with $$8x = 88$$. Divide both sides by 8: $$x = \\frac{88}{8}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute the division and match choice",
+      "content": "Compute $$\\frac{88}{8} = 11$$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

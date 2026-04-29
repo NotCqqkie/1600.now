@@ -1,0 +1,15 @@
+{
+  "questionId": "16ce90d9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key signal",
+      "content": "The text explicitly states that the Octopus Garden contains adults, hatchlings, and eggs, but <strong>no juveniles</strong>\u2014despite being used exclusively for reproduction."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "Choice A provides the explanation for this pattern: <em>M. robustus</em> leave upon reaching an intermediary stage of development. The other choices either claim unsupported relationships (B links population stability to temperature variation; C compares eggs across ocean depths) or contradict the text (D calls it a feeding ground, but the site is used exclusively for reproduction). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

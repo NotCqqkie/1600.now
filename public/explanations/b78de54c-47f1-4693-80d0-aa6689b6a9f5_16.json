@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures on each side of the blank",
+      "content": "The left side is an independent clause (\u201cIn Finland, the Hankasalmi observatory site monitors activity in the upper atmosphere of the northern hemisphere\u201d), and the right side is also an independent clause (\u201cin Antarctica, another observatory site, Zhongshan Station, monitors the sky of the southern hemisphere\u201d)."
+    },
+    {
+      "title": "Apply the rule for connecting independent clauses",
+      "content": "A semicolon separates two independent clauses. Option A omits the comma required before \u201cand\u201d when joining two independent clauses; option B creates a run-on sentence; option C is a comma splice. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1d945139",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor",
+      "content": "We have $r$ identical objects with total mass $t$ kg, and we need the mass of $146r$ objects. The scale factor from $r$ to $146r$ is: $$\\frac{146r}{r} = 146$$"
+    },
+    {
+      "title": "Apply proportionality to find the mass",
+      "content": "Since mass is directly proportional to quantity for identical objects, multiplying the quantity by 146 multiplies the mass by 146: $$146 \\times t = 146t$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

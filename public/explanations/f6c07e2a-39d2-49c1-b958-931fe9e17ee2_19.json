@@ -1,0 +1,19 @@
+{
+  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant C from the initial measurement",
+      "content": "At $t = 0$ hours, the number of bacteria is $P = 12,000$. Substituting into $P = C(2)^{rt}$:<br/>$$12,000 = C(2)^{r \\cdot 0} = C(2)^0 = C$$<br/>Therefore, $C = 12,000$."
+    },
+    {
+      "title": "Set up the equation using the second measurement",
+      "content": "At $t = 5$ hours, $P = 24,000$. Substitute into $P = C(2)^{rt}$ with $C = 12,000$:<br/>$$24,000 = 12,000(2)^{5r}$$<br/>Divide both sides by 12,000:<br/>$$2 = (2)^{5r}$$"
+    },
+    {
+      "title": "Solve by equating exponents",
+      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{5r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 5r$$<br/>$$r = \\frac{1}{5}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

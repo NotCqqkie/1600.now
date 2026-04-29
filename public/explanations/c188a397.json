@@ -1,0 +1,15 @@
+{
+  "questionId": "c188a397",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the expectation-versus-finding contrast",
+      "content": "The passage states scientists expected <em>\u201cthe marsquakes would originate from all over the planet,\u201d</em> but the data revealed <em>\u201cthe marsquakes all started from the same location on the planet.\u201d</em> The passage explicitly calls this contradiction the surprising discovery."
+    },
+    {
+      "title": "Match the actual finding to the answer choices",
+      "content": "Choice D directly restates the discovery the passage identifies as surprising \u2014 all marsquakes originated from one location, contradicting what scientists expected. Choices A, B, and C either describe facts not mentioned in the passage or contradict what's stated. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

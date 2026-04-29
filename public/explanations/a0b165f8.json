@@ -1,0 +1,15 @@
+{
+  "questionId": "a0b165f8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percent increase formula",
+      "content": "We know there were 99 dragonflies on February 15, with a 12.50% increase from January 1. Using the percent increase formula:<br/><br/>$$\\text{Percent Increase} = \\frac{\\text{Final} - \\text{Initial}}{\\text{Initial}} \\times 100$$<br/><br/>$$12.50 = \\frac{99 - x}{x} \\times 100$$<br/><br/>where $x$ is the initial number on January 1."
+    },
+    {
+      "title": "Backsolve by testing the choices",
+      "content": "Backsolving \u2014 testing choice B (87):<br/>$$\\frac{99 - 87}{87} \\times 100 = \\frac{12}{87} \\times 100 \\approx 13.79\\%$$<br/>Fails \u2014 we need 12.50%, not 13.79%. Testing choice A (88):<br/>$$\\frac{99 - 88}{88} \\times 100 = \\frac{11}{88} \\times 100 = \\frac{1}{8} \\times 100 = 12.5\\%$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

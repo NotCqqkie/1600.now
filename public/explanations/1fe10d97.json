@@ -1,0 +1,15 @@
+{
+  "questionId": "1fe10d97",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the unit conversion between years and months",
+      "content": "The original function $p(t) = 90,000(1.06)^t$ uses $t$ in years. The new function $r(m)$ uses $m$ in months. The conversion is: $m$ months equals $\\frac{m}{12}$ years."
+    },
+    {
+      "title": "Substitute the converted time into the original function",
+      "content": "To find $r(m)$, substitute $t = \\frac{m}{12}$ into $p(t)$: $$r(m) = 90,000\\left(1.06\\right)^{\\frac{m}{12}}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "questionId": "8d63b6f1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the 50-pound wolf on the scatterplot",
+      "content": "Find the vertical line at $x = 50$ pounds on the horizontal axis. Trace upward to find the data point for the 50-pound gray wolf. The point is located at weight $= 50$ pounds and number of offspring $= 6$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

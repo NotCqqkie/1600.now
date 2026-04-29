@@ -1,0 +1,12 @@
+{
+  "questionId": "c54b92a2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate range from the table",
+      "content": "From the table, reading the <em>Number of wheels made</em> column across all 11 periods (24, 24, 21, 21, 21, 19, 24, 24, 19, 22, 23): the maximum value is 24 and the minimum value is 19. $$24 - 19 = 5$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\text{Range} = \\text{Maximum} - \\text{Minimum}$$"
+    }
+  ]
+}

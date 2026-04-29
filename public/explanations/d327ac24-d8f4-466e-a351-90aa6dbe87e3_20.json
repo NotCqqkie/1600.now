@@ -1,0 +1,19 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right triangle and sides relative to angle Q",
+      "content": "The figure shows a right triangle QRS with the right angle at R (marked by the square). From the diagram: $SR = 17$ is the bottom side. We need to find $QS$, which is the hypotenuse. Angle $Q$ is at the top vertex."
+    },
+    {
+      "title": "Identify which side is opposite to angle Q",
+      "content": "In a right triangle, we classify sides relative to a given acute angle. For angle $Q$: <ul><li>The side <strong>opposite</strong> to angle $Q$ is $SR = 17$</li><li>The side <strong>adjacent</strong> to angle $Q$ is $QR$</li><li>The <strong>hypotenuse</strong> is $QS$ (the side we're solving for)</li></ul>"
+    },
+    {
+      "title": "Apply the sine ratio and solve for QS",
+      "content": "The sine ratio relates the opposite side and hypotenuse: $$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{SR}{QS} = \\frac{17}{QS}$$ Multiply both sides by $QS$ and divide by $\\sin Q$: $$QS \\cdot \\sin Q = 17$$ $$QS = \\frac{17}{\\sin Q}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

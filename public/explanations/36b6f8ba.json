@@ -1,0 +1,15 @@
+{
+  "questionId": "36b6f8ba",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept from the graph",
+      "content": "The graph of $y = f(x) + 4$ crosses the $y$-axis at $(0, 8)$."
+    },
+    {
+      "title": "Solve for f(0) and find the constant",
+      "content": "From the point $(0, 8)$ on the graph of $y = f(x) + 4$:<br/>$$8 = f(0) + 4$$<br/>$$f(0) = 4$$<br/>All choices have the form $f(x) = -3^x + c$. At $x = 0$:<br/>$$-3^0 + c = 4$$<br/>$$-1 + c = 4$$<br/>$$c = 5$$<br/>Therefore:<br/>$$f(x) = -3^x + 5$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

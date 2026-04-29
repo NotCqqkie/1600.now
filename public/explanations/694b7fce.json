@@ -1,0 +1,19 @@
+{
+  "questionId": "694b7fce",
+  "correctAnswer": "480",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find BC using Pythagorean theorem",
+      "content": "Triangle ABC has a right angle at C. Given $AB = \\sqrt{34}$ and $AC = 3$:<br/>$$AB^2 = AC^2 + BC^2$$<br/>$$34 = 9 + BC^2$$<br/>$$BC = 5$$"
+    },
+    {
+      "title": "Set up coordinates using the right angles",
+      "content": "The right angles at $C$ and $E$ indicate perpendicularity to the base line $AE$. Place $A$ at the origin:<br/><ul><li>$A = (0, 0)$</li><li>$C = (3, 0)$ (since $AC = 3$)</li><li>$E = (24, 0)$ (since $AE = AC + CE = 3 + 21 = 24$)</li><li>$B = (3, 5)$ (since $BC \\perp AE$ and $BC = 5$)</li></ul>From the figure, points $A$, $B$, and $D$ are collinear."
+    },
+    {
+      "title": "Find D using the line through A and B",
+      "content": "The line through $A(0, 0)$ and $B(3, 5)$ has slope $\\frac{5}{3}$:<br/>$$y = \\frac{5}{3}x$$<br/><br/>Point $D$ lies on this line and is directly above $E$ (at $x = 24$):<br/>$$y = \\frac{5}{3}(24) = 40$$<br/><br/>So $D = (24, 40)$. Triangle $ADE$ has base $AE = 24$ and perpendicular height 40:<br/>$$\\text{Area} = \\frac{1}{2}(24)(40) = 480 \\text{ square units}$$"
+    }
+  ]
+}

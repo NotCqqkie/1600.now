@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the shift from general to specific",
+      "content": "The first sentence describes the researchers' general aim: to analyze \u201cdiet composition\u201d. The second sentence then specifies what that analysis entailed: the ratio of \u201cthree plant subtypes\u201d. The transition must signal this narrowing from broader claim to particular detail."
+    },
+    {
+      "title": "Apply the specification signal",
+      "content": "<strong>Specifically</strong> directly indicates that what follows is a particular instance or detail elaborating the preceding general statement. A, B, and C each introduce unrelated logical relationships\u2014contrast, equivalence, and causation\u2014that don't fit this narrowing. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

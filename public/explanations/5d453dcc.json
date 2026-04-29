@@ -1,0 +1,15 @@
+{
+  "questionId": "5d453dcc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the core prediction",
+      "content": "Charles and Stephens's argument hinges on one key claim: informed voters are more likely to vote because they're more confident in evaluating candidates. The decisive test is thus whether high-information voters actually vote more than low-information voters."
+    },
+    {
+      "title": "Find the data supporting this prediction",
+      "content": "Choice A directly shows that high-information voters vote more frequently than low-information voters at every point on the political orientation scale, confirming the prediction. Choices B, C, and D either examine low-information voters in isolation, focus on political identity rather than voting likelihood, or report statistics for specific subgroups instead of making the key high-versus-low comparison. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

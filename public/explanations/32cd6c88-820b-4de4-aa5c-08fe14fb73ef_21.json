@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_21",
+  "correctAnswer": "-7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for the repeated expression",
+      "content": "The expression $(4 - 9x)$ appears in both the left and right sides. Let $u = 4 - 9x$ to simplify the equation:<br/>$$9 - 4u = 2 - 5u$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Collect the $u$ terms:<br/>$$9 - 4u = 2 - 5u$$<br/>$$9 - 2 = -5u + 4u$$<br/>$$7 = -u$$<br/>$$u = -7$$<br/>Therefore, $4 - 9x = -7$."
+    }
+  ]
+}

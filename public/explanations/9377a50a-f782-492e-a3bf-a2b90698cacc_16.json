@@ -1,0 +1,16 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square for x terms",
+      "content": "Starting with $x^2 + 52x + y^2 = 0$. To complete the square for $x^2 + 52x$, take half the coefficient of $x$ (which is 26) and square it: $26^2 = 676$.<br/><br/>So $(x + 26)^2 = x^2 + 52x + 676$, meaning $x^2 + 52x = (x + 26)^2 - 676$.<br/><br/>Substitute into the original equation:<br/>$$(x + 26)^2 - 676 + y^2 = 0$$<br/><br/>Rearranging:<br/>$$(x + 26)^2 + y^2 = 676$$"
+    },
+    {
+      "title": "Extract the center from standard form",
+      "content": "Rewrite $(x + 26)^2 + y^2 = 676$ as $(x - (-26))^2 + (y - 0)^2 = 26^2$. Comparing to the standard form, the center is $(-26, 0)$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+    }
+  ]
+}

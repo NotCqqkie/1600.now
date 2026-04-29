@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable by subtracting 21",
+      "content": "The equation is $k + 21 = 63$. To isolate $k$, subtract 21 from both sides."
+    },
+    {
+      "title": "Calculate the solution",
+      "content": "$k = 63 - 21 = 42$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

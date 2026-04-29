@@ -1,0 +1,15 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify point contributions from each question type",
+      "content": "The assignment has two types of questions:<br/><ul><li>1-point questions: there are $x$ of them, contributing $x$ points total</li><li>2-point questions: there are $y$ of them, contributing $2y$ points total</li></ul>"
+    },
+    {
+      "title": "Sum contributions to reach total points",
+      "content": "The total points must equal 28. Add the contribution from each question type:<br/>$$x + 2y = 28$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

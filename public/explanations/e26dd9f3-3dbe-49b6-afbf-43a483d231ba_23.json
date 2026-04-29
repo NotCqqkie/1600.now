@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what emphasizing similarity requires",
+      "content": "To emphasize a similarity, the answer must focus on what the birds have in common, not their differences. The notes include both a major difference (weight: 2.5 kg vs. 9 grams) and a commonality (location on Floreana)."
+    },
+    {
+      "title": "Match the goal to the answer choices",
+      "content": "Choice C explicitly states both birds share the characteristic of inhabiting Floreana, using <strong>both</strong> to highlight this commonality. The other three either stress their weight difference, isolate a single bird, or fail to show both birds in direct comparison. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

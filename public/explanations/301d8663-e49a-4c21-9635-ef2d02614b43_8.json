@@ -1,0 +1,15 @@
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "Both $12ab$ and $6ab$ contain the same variables raised to the same powers, so they are like terms and can be combined."
+    },
+    {
+      "title": "Combine coefficients",
+      "content": "Subtract the coefficients of the like terms: $$12ab - 6ab = (12 - 6)ab = 6ab$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

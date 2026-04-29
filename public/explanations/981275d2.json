@@ -1,0 +1,19 @@
+{
+  "questionId": "981275d2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the circle's center from standard form",
+      "content": "The equation $(x-6)^2 + (y+5)^2 = 16$ is in the form $(x-h)^2 + (y-k)^2 = r^2$, which tells us the center is $(h, k)$ and radius is $r$. <br/>Here: center $= (6, -5)$ and radius $= \\sqrt{16} = 4$."
+    },
+    {
+      "title": "Apply the diameter midpoint property",
+      "content": "For any diameter of a circle, the center is the midpoint of its two endpoints. Since $\\overline{PQ}$ is a diameter with $P = (10, -5)$ and center $(6, -5)$, we set up the midpoint formula:<br/>$$\\frac{x_P + x_Q}{2} = 6 \\quad \\text{and} \\quad \\frac{y_P + y_Q}{2} = -5$$<br/>Substituting $P = (10, -5)$:<br/>$$\\frac{10 + x_Q}{2} = 6 \\quad \\text{and} \\quad \\frac{-5 + y_Q}{2} = -5$$"
+    },
+    {
+      "title": "Solve for point Q",
+      "content": "From the first equation: $10 + x_Q = 12$, so $x_Q = 2$.<br/>From the second equation: $-5 + y_Q = -10$, so $y_Q = -5$.<br/>Point $Q$ is $(2, -5)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

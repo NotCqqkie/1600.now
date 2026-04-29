@@ -1,0 +1,15 @@
+{
+  "questionId": "e6b1e12c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contradiction between explanation and finding",
+      "content": "The first sentence attributes the observed shifting to passive displacement by water currents. The second sentence then reveals a finding that contradicts this: the barnacles moved against the prevailing water flow, indicating self-initiated locomotion rather than passive movement."
+    },
+    {
+      "title": "Choose the transition that signals this contradiction",
+      "content": "<strong>'Undermining this explanation'</strong> precisely captures the relationship: it indicates that the research finding weakens the passive displacement explanation <strong>rather than confirming</strong> it. The other choices either target the phenomenon itself rather than the explanation, misframe the relationship as similar when it's opposite, or suggest confirmation instead of contradiction. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

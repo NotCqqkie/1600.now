@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_10",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation for equivalent ratios",
+      "content": "When two ratios are equivalent, we write a proportion: $$\\frac{154}{110} = \\frac{x}{5}$$"
+    },
+    {
+      "title": "Cross-multiply and solve for x",
+      "content": "Cross-multiply to get $$154 \\cdot 5 = 110 \\cdot x$$, which simplifies to $$770 = 110x$$. Divide both sides by 110 to find $$x = \\frac{770}{110} = 7$$"
+    }
+  ]
+}

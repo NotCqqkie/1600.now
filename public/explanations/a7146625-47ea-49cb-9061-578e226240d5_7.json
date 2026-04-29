@@ -1,0 +1,15 @@
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what each term represents",
+      "content": "In the linear function f(x) = 5x + 7, the number 5 is the slope (how many feet the tree grows each year) and the number 7 is the constant term (the height when x = 0, at the moment of first measurement)."
+    },
+    {
+      "title": "Find the height at the initial measurement",
+      "content": "Since x represents years after the first measurement, when x = 0 we are at the moment of first measurement. Substituting into the function: $f(0) = 5(0) + 7 = 7$ feet. This is the tree's estimated height when it was first measured. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

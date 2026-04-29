@@ -1,0 +1,15 @@
+{
+  "questionId": "8452c42b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize like terms",
+      "content": "Both $50x^2$ and $5x^2$ have the same variable part: $x^2$. Since they are like terms, we can combine them by adding their coefficients."
+    },
+    {
+      "title": "Combine the coefficients",
+      "content": "Add the coefficients together: $$50 + 5 = 55$$ Therefore, $50x^2 + 5x^2 = 55x^2$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

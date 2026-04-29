@@ -1,0 +1,15 @@
+{
+  "questionId": "886dc9f9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "Before the blank: independent clause (\u201centered San Francisco\u201d). <br/> After the blank: participial phrase (\u201chaving left...\u201d) followed by an independent clause (\u201cthe celebrated ship set a record...\u201d)."
+    },
+    {
+      "title": "Apply the comma-splice rule",
+      "content": "Two independent clauses cannot be connected by just a comma. Option B correctly uses a period to separate them and structures the second sentence as a participial phrase (<em>Having left...</em>) followed by a comma and the main clause\u2014the standard punctuation for a participial phrase at sentence start. Options C, A, and D either create comma splices or ungrammatical constructions. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

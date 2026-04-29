@@ -1,0 +1,15 @@
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the causal relationship",
+      "content": "The voters were impressed by the album, then they awarded it the award. The transition must signal that the award follows as a natural consequence of the impression."
+    },
+    {
+      "title": "Match the transition to the logic",
+      "content": "\u201dAccordingly\u201d means \u201cas a result,\u201d exactly what's needed here. The other three signal wrong relationships: \u201cIn contrast\u201d = opposition, \u201cMeanwhile\u201d = simultaneity, \u201cNevertheless\u201d = reversal. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

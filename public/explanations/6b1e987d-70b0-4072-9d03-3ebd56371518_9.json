@@ -1,0 +1,15 @@
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_9",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify and cancel the common factor",
+      "content": "The numerator and denominator both contain the factor $(k+6)$. Since $k > -6$, we know $(k+6) \\neq 0$, so we can cancel this factor:<br/>$$\\frac{27(k+6)}{3(k+6)} = \\frac{27}{3}$$"
+    },
+    {
+      "title": "Simplify the fraction",
+      "content": "Divide 27 by 3:<br/>$$\\frac{27}{3} = 9$$<br/>Therefore, $c = 9$."
+    }
+  ]
+}

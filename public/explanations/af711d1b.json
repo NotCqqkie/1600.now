@@ -1,0 +1,15 @@
+{
+  "questionId": "af711d1b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the first data point",
+      "content": "For a linear relationship $t = md$, the slope $m$ is the ratio $\\frac{t}{d}$. Using the first row where $d = 0.32$ km and $t = 8$ minutes:<br/><br/>$$m = \\frac{8}{0.32} = \\frac{8}{\\frac{32}{100}} = \\frac{8 \\cdot 100}{32} = \\frac{800}{32} = 25$$"
+    },
+    {
+      "title": "Write the equation and identify the choice",
+      "content": "With slope $m = 25$, the equation is $t = 25d$. Verify with the second data point: when $d = 0.56$, we get $t = 25(0.56) = 14$ \u2713. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

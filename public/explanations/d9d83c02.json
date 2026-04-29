@@ -1,0 +1,15 @@
+{
+  "questionId": "d9d83c02",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the right side",
+      "content": "Distribute 2 on the right side of $w - 10 = 2(w + 5)$: $$w - 10 = 2w + 10$$"
+    },
+    {
+      "title": "Isolate w",
+      "content": "Subtract $w$ from both sides: $$-10 = w + 10$$ Then subtract 10 from both sides: $$-20 = w$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

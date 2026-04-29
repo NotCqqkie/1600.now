@@ -1,0 +1,15 @@
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The goal is to \u201cdescribe the FORMAT\u201d of the poem. Format means structural composition. The notes contain one format detail: <em>\u201cThe poem is written as a sequence of seven haiku.\u201d</em>"
+    },
+    {
+      "title": "Match the format description to the choices",
+      "content": "Choice D directly states the format of this poem: a sequence of seven haiku. Choices A and B provide information unrelated to format (motivation and publication context), while C overgeneralizes to all poems in the book and omits the specific number. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

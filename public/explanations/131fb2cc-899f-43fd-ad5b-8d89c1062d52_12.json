@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_12",
+  "correctAnswer": "16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we need to find",
+      "content": "We need to find $C(44)$, the y-value when the temperature is $x = 44\u00b0F$. This requires locating 44 on the horizontal axis and reading the corresponding chirps per minute from the vertical axis."
+    },
+    {
+      "title": "Read the y-value directly from the graph",
+      "content": "Find $x = 44$ on the temperature axis (horizontal). Move vertically upward until reaching the line. Then read horizontally to the left to find the corresponding y-value on the <em>Number of chirps per minute</em> axis. <br/><br/>At $x = 44\u00b0F$, the line intersects at $y = 16$. The estimated number of chirps per minute when the temperature is $44\u00b0F$ is <strong>16</strong>."
+    }
+  ]
+}

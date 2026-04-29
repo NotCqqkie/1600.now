@@ -1,0 +1,15 @@
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the example relationship",
+      "content": "The claim \u201cThe World Cup used to be much smaller and more limited geographically\u201d is immediately supported by a specific historical detail: the 1934 event with only 16 teams, mostly from Europe and the Americas."
+    },
+    {
+      "title": "Apply the transition",
+      "content": "\u201dFor example\u201d explicitly introduces a concrete instance that proves the general claim. \u201cIndeed\u201d only affirms; \u201cthough\u201d inverts the relationship into a contrast; \u201cmoreover\u201d treats them as equal parallel facts instead of claim-and-example. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

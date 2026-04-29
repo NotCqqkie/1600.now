@@ -1,0 +1,16 @@
+{
+  "questionId": "d4413871",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the conditional probability equation",
+      "content": "When choosing a rhesus negative person, we need the probability of type B: $$P(\\text{B} \\mid \\text{rhesus } -) = \\frac{\\text{people with B and rhesus } -}{\\text{total rhesus negative}}$$ From the table: $P(\\text{B} \\mid \\text{rhesus } -) = \\frac{2}{7 + 2 + 1 + x} = \\frac{2}{10 + x}$. We're told this equals $\\frac{1}{9}$: $$\\frac{2}{10 + x} = \\frac{1}{9}$$",
+      "formula": "$$P(A \\mid B) = \\frac{\\text{count of both A and B}}{\\text{total count of B}}$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Cross multiply: $$2 \\cdot 9 = 1 \\cdot (10 + x)$$ $$18 = 10 + x$$ $$x = 8$$"
+    }
+  ]
+}

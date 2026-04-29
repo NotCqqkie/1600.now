@@ -1,0 +1,15 @@
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify exponential growth pattern",
+      "content": "Exponential growth follows the form $$y = a \\cdot b^t$$, where $a$ is the initial amount and $b$ is the growth factor. Since the bacteria double every hour, the growth factor $b = 2$. The initial amount $a = 66{,}000$."
+    },
+    {
+      "title": "Match to correct formula structure",
+      "content": "Plug the known values into the exponential form: $$y = 66{,}000 \\cdot 2^t$$. This matches <strong>D</strong> exactly."
+    }
+  ]
+}

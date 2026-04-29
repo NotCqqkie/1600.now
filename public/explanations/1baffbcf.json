@@ -1,0 +1,15 @@
+{
+  "questionId": "1baffbcf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what 0.35 represents",
+      "content": "The expression $0.35x$ means 0.35 of the original quantity. Converting to a percentage: $0.35 = \\frac{35}{100} = 35\\%$. So 35% of the original quantity remains."
+    },
+    {
+      "title": "Calculate the percent decrease",
+      "content": "If 35% remains, then the percent that was removed is:<br/>$$100\\% - 35\\% = 65\\%$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

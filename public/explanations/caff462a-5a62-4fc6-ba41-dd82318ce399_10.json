@@ -1,0 +1,15 @@
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central paradox",
+      "content": "The word <strong>However</strong> signals a critical shift in the passage: the bird's specialization is portrayed first as beneficial (it aids survival in its habitat) but then as a liability (it makes the bird especially vulnerable to environmental changes). The main idea must capture this trade-off, not just one side of it."
+    },
+    {
+      "title": "Apply the paradox to the choices",
+      "content": "C directly expresses both sides of the trade-off: the bird is <strong>highly specialized and therefore particularly susceptible to habitat disturbances</strong>, with <strong>therefore</strong> making clear that vulnerability flows from specialization. A contradicts the passage on habitat sharing, B ignores the vulnerability entirely, and D inverts the causality. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

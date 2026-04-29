@@ -1,0 +1,15 @@
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the list of examples",
+      "content": "The sentence gives examples of places where mosaics are found: \u201cplaces such as ______ stations, and public squares.\u201d The blank needs to complete a list of place examples."
+    },
+    {
+      "title": "Apply the rule for listing items",
+      "content": "When you list multiple items (A, B, and C), separate them with commas. Choice D creates \u201clibraries, train stations, and public squares\u201d\u2014three properly separated places. Choice A uses a colon instead of a comma (wrong for lists), choice C uses a dash (not standard), and choice B has no punctuation between \u201clibraries\u201d and \u201ctrain,\u201d making it read as one awkward unit. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

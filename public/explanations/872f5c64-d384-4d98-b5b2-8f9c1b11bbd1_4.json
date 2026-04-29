@@ -1,0 +1,15 @@
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states the program identified sidewalks in <strong>the vast majority of cases</strong> and has <strong>already-strong performance</strong> that will improve further. These phrases signal consistent, successful operation."
+    },
+    {
+      "title": "Match the word to the context",
+      "content": "<strong>Reliably</strong> expresses consistent, dependable performance\u2014exactly what <strong>the vast majority of cases</strong> and <strong>already-strong performance</strong> indicate. The other three either contradict the success rate (clumsily, rarely) or describe an irrelevant quality (slowly).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

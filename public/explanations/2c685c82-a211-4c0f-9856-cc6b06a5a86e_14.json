@@ -1,0 +1,19 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the histogram and identify the data distribution",
+      "content": "From the histogram, the 14 salmon weights are distributed as:<ul><li>[70, 75): 2 salmon</li><li>[75, 80): 1 salmon</li><li>[80, 85): 2 salmon</li><li>[85, 90): 6 salmon</li><li>[90, 95): 3 salmon</li></ul>The new weight of 32 pounds is much smaller than all original weights (minimum 70 pounds), so it becomes the new minimum when added."
+    },
+    {
+      "title": "Analyze the median comparison",
+      "content": "For 14 original values, the median is $\\frac{v_7 + v_8}{2}$ (average of positions 7 and 8). <br/><br/>When 32 is added as the new minimum, all original values shift up by one position. The new 15-value dataset has median = 8th value = $v_7$ (the original 7th value). <br/><br/>For the new median to be less, we need $v_7 < \\frac{v_7 + v_8}{2}$, which requires $v_7 < v_8$. Checking cumulative positions: positions 1\u20132 are from [70, 75), position 3 from [75, 80), positions 4\u20135 from [80, 85), and positions 6\u201311 from [85, 90). Both $v_7$ and $v_8$ lie in [85, 90). Since they come from the same interval, we cannot guarantee $v_7 < v_8$. The median does not necessarily decrease."
+    },
+    {
+      "title": "Analyze the mean comparison",
+      "content": "Let $S$ = sum of the original 14 weights. The original mean is $\\frac{S}{14}$ and the new mean is $\\frac{S + 32}{15}$. <br/><br/>For the new mean to be less: $$\\frac{S + 32}{15} < \\frac{S}{14}$$ Cross-multiplying gives $14(S + 32) < 15S$, which simplifies to $14S + 448 < 15S$, or $S > 448$. <br/><br/>From the histogram, all weights are at least 70 pounds, so $S \\geq 14(70) = 980 > 448$. The inequality holds, so the mean MUST decrease. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

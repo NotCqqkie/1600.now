@@ -1,0 +1,15 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply triangle inequality for upper bound",
+      "content": "<div class='callout'>The sum of the two known sides must exceed the third side:<br/>$$5 + 9 > x$$<br/>which simplifies to:<br/>$$x < 14$$</div>"
+    },
+    {
+      "title": "Apply triangle inequality for lower bound and combine",
+      "content": "<div class='callout'>The difference of the two known sides must be less than the third side:<br/>$$|5 - 9| < x$$<br/>which gives:<br/>$$4 < x$$<br/>Combining with the upper bound:<br/>$$4 < x < 14$$<br/>This matches the description of choice C.<br/>That matches choice C \u2014 <strong>C</strong> is correct.</div>"
+    }
+  ]
+}

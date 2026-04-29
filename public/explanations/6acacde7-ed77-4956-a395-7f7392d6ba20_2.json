@@ -1,0 +1,16 @@
+{
+  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate slope and identify y-intercept",
+      "content": "Using the slope formula with $(0, 2)$ and $(1, -3)$:<br/>$$m = \\frac{-3 - 2}{1 - 0} = -5$$<br/>Since $(0, 2)$ lies on the y-axis, the y-intercept is $b = 2$.",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Write the equation and match to a choice",
+      "content": "With slope $m = -5$ and y-intercept $b = 2$, the equation in slope-intercept form is:<br/>$$y = -5x + 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

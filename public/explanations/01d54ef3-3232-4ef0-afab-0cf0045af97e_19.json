@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the list with internal commas",
+      "content": "Each of the three languages (COBOL, Java, Clojure) is described by an appositive phrase with internal commas\u2014like \u201cdeveloped by Grace Hopper in 1959\u201d. When list items contain commas, a special punctuation pattern is required."
+    },
+    {
+      "title": "Apply the semicolon rule for lists with internal punctuation",
+      "content": "In a series where items contain internal commas, use semicolons (not commas) to separate the main items. The pattern is [Item; Item; and Item]. Choice D correctly shows this: \u201c1959; Java, developed by James Gosling in 1995; and Clojure,\u201d uses semicolons after 1959 and 1995 to mark the boundaries between the three languages. Choices A, B, and C fail to use semicolons at these boundaries, instead using commas. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

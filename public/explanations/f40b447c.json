@@ -1,0 +1,15 @@
+{
+  "questionId": "f40b447c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structural demand",
+      "content": "The phrase \u201ca type of Chinese landscape painting ______ by the use of blue and green hues\u201d is an appositive renaming \u201cthe tradition of qingl\u00fc shanshui.\u201d An appositive must function as a noun phrase. A full verb would turn it into a clause, so the blank must be a past participle modifier instead."
+    },
+    {
+      "title": "Apply the structural requirement",
+      "content": "The past participle \u201ccharacterized\u201d keeps the appositive as a noun phrase: \u201ca type of Chinese landscape painting characterized by the use of blue and green hues.\u201d The other options use full verbs (is characterized, has been characterized, will be characterized), which would turn the appositive into a clause rather than a noun phrase modifier. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

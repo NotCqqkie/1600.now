@@ -1,0 +1,15 @@
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explicit negation",
+      "content": "The passage makes an explicit claim about what does NOT explain the difference in park usage: it's not due to Panama City residents having greater access to amenities near parks. In fact, they have fewer such amenities, yet still use parks more. This negation is the key signal."
+    },
+    {
+      "title": "Find the answer that captures this negation",
+      "content": "Choice D states that greater park use in Panama City isn't due to greater amenity access near parks. Choices A, B, and C either contradict the study's evidence, speculate beyond the data, or introduce factors the passage never addresses. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

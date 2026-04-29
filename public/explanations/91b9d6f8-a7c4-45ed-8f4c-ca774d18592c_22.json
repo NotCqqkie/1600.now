@@ -1,0 +1,19 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_22",
+  "correctAnswer": "0.866",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the sine ratio",
+      "content": "From angle A, we need $\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}}$. The hypotenuse is $AB = 24$. The side opposite angle A is $BC$, which we must find first."
+    },
+    {
+      "title": "Find BC using Pythagorean theorem",
+      "content": "Since the right angle is at C: $$AC^2 + BC^2 = AB^2$$ $$12^2 + BC^2 = 24^2$$ $$144 + BC^2 = 576$$ $$BC^2 = 432$$ $$BC = \\sqrt{432} = \\sqrt{144 \\cdot 3} = 12\\sqrt{3}$$"
+    },
+    {
+      "title": "Calculate sin A",
+      "content": "$$\\sin A = \\frac{12\\sqrt{3}}{24} = \\frac{\\sqrt{3}}{2}$$"
+    }
+  ]
+}

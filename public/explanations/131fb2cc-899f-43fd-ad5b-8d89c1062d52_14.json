@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what to find",
+      "content": "The y-intercept is where the graph crosses the y-axis. This occurs when $x = 0$."
+    },
+    {
+      "title": "Substitute and simplify",
+      "content": "When $x = 0$:<br/>$$y = 3(0)^2 + 8(0) + 9$$<br/>$$y = 0 + 0 + 9$$<br/>$$y = 9$$<br/>The y-intercept is $(0, 9)$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

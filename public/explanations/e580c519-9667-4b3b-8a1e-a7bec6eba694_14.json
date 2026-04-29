@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the property at issue",
+      "content": "The passage states that silver exhibits \u201chigh electrical conductivity\u201d immediately before the blank. This is the one stated fact that will drive the researchers' hypothesis."
+    },
+    {
+      "title": "Connect the property to the result",
+      "content": "Given that silver's high electrical conductivity was added and power output more than doubled, the researchers would logically hypothesize that this conductivity provides a solution to the identified problem: the inefficient redox reactions. Choice D states this directly\u2014conductivity allows electrons to bypass those reactions and transfer straight to the electrode.<br/>A incorrectly focuses on bacterial metabolism rather than electron transfer efficiency, B contradicts the experiment by implying silver's addition is irrelevant, and C reverses the logic by suggesting silver catalyzes the problematic reactions.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

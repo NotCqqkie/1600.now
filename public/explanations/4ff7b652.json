@@ -1,0 +1,15 @@
+{
+  "questionId": "4ff7b652",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "In similar triangles, corresponding angles are equal",
+      "content": "When two triangles are similar, their corresponding angles have equal measures. We're told that triangles LMN and PQR are similar with L corresponding to P and M corresponding to Q. This correspondence tells us which angles must be equal."
+    },
+    {
+      "title": "Use the correspondence to find angle Q",
+      "content": "Since M corresponds to Q, angle Q must equal angle M. We're given that angle M = 53\u00b0, so angle Q = 53\u00b0. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

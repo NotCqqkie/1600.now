@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "The first part is an independent clause: \u201cThe sand at Talofofo Beach in Guam is an exception.\u201d After the blank comes another clause starting with \u201csand gets its shade from deposits...\u201d that needs to be properly connected."
+    },
+    {
+      "title": "Apply the punctuation rule for dependent clauses",
+      "content": "A comma must precede a subordinating conjunction when introducing a dependent clause after an independent clause. Choice A (\u201cexception, though most\u201d) correctly places the comma before \u201cthough,\u201d while the other choices either use wrong punctuation marks (B's colon, D's period) or create ungrammatical structure (C's parenthetical commas). <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

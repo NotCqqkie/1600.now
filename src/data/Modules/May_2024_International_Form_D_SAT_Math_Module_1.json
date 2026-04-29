@@ -367,13 +367,13 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "In the given equation, $ r $ is a positive integer. If this equation has more than one solution, what is the value of $ r $?",
+    "passage": "$\\frac{12x+28}{4}-\\frac{s}{13}=r\\left(x-8\\right)$\nIn the given equation, $s$ and $r$ are constants, and $s>0$. If the equation has infinitely many solutions, what is the value of $s$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "13",
-    "rationale": null,
-    "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_13"
+    "correct_answer": "403",
+    "rationale": "The correct answer is $403$. For a linear equation in one variable to have infinitely many solutions, the coefficients of the variable must be equal on both sides of the equation and the constant terms must also be equal on both sides of the equation. The given equation can be rewritten as $\\frac{4\\left(3x+7\\right)}{4}-\\frac{s}{13}=r\\left(x-8\\right)$, or $3x+7-\\frac{s}{13}=r\\left(x-8\\right)$. Applying the distributive property to the right-hand side of this equation yields $3x+7-\\frac{s}{13}=rx-8r$. For this equation to have infinitely many solutions, the coefficients of $x$ must be equal, so it follows that $3=r$. Additionally, the constant terms must be equal, which means $7-\\frac{s}{13}=-8r$. Substituting $3$ for $r$ in this equation yields $7-\\frac{s}{13}=-8\\left(3\\right)$, or $7-\\frac{s}{13}=-24$. Adding $\\frac{s}{13}$ to both sides of this equation yields $7=-24+\\frac{s}{13}$. Adding $24$ to both sides of this equation yields $31=\\frac{s}{13}$. Multiplying both sides of this equation by $13$ yields $403=s$. Therefore, if the equation has infinitely many solutions, the value of $s$ is $403$.",
+    "id": "ac472881"
   },
   {
     "section": "Math",

@@ -1,0 +1,15 @@
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check domain and cross multiply",
+      "content": "Choice C ($x=1$) makes $(x-1)=0$, so the left side is undefined\u2014eliminate it.<br/>Cross multiply the equation:<br/>$$56x^2 = 81(x-1)(x+1)$$<br/>Expand using $(x-1)(x+1) = x^2 - 1$:<br/>$$56x^2 = 81(x^2-1)$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Expand the right side:<br/>$$56x^2 = 81x^2 - 81$$<br/>Rearrange:<br/>$$25x^2 = 81$$<br/>Divide by 25:<br/>$$x^2 = \\frac{81}{25}$$<br/>Take the positive square root:<br/>$$x = \\frac{9}{5}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

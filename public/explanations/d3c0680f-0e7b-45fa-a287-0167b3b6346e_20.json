@@ -1,0 +1,15 @@
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The main statement \u201cthey exhibit striking differences in behavior\u201d transitions directly to elaborating examples that illustrate those differences. This is a statement-to-elaboration structure, which requires punctuation that clearly marks the boundary."
+    },
+    {
+      "title": "Match punctuation to the relationship",
+      "content": "Option A uses a colon to introduce the elaboration, with \u201cwhile\u201d setting up a contrast between the two objects (39P/Oterma is active; 83982 Crantor is dormant). A colon is the standard punctuation for marking a transition from statement to explanation. Options B and D both contain an unresolved comma splice in the second part (two independent clauses about the two objects connected only by a comma), and Option C uses a comma before \u201cwhile,\u201d which is too weak for signaling such a major boundary. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

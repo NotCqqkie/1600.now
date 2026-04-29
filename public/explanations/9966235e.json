@@ -1,0 +1,15 @@
+{
+  "questionId": "9966235e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish dimensions and calculate cube volume",
+      "content": "The cube has edge length 68 inches. Since the sphere touches the center of each face, the sphere is centered at the cube's center, making the radius equal to half the edge length: $\\frac{68}{2} = 34$ inches.<br/><br/>The volume of the cube is:<br/>$$V_{\\text{cube}} = 68^3 = 314,432 \\text{ cubic inches}$$"
+    },
+    {
+      "title": "Calculate sphere volume and find remaining space",
+      "content": "The volume of a sphere with radius 34 is:<br/>$$V_{\\text{sphere}} = \\frac{4}{3}\\pi(34)^3 = \\frac{4}{3}\\pi(39,304) \\approx 164,636 \\text{ cubic inches}$$<br/><br/>The space not taken up by the sphere is:<br/>$$314,432 - 164,636 \\approx 149,796 \\text{ cubic inches}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

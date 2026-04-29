@@ -1,0 +1,15 @@
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero point to find k",
+      "content": "Since the graph passes through $(-3, 0)$, we have $f(-3) = 0$. Substituting $x = -3$:<br/>$$(-3 - 5)(-3 - 9)(-3 + k) = 0$$<br/>The first two factors are $(-8)(-12) = 96 \\neq 0$, so the third factor must equal zero:<br/>$$-3 + k = 0$$<br/>$$k = 3$$"
+    },
+    {
+      "title": "Evaluate f(0)",
+      "content": "With $k = 3$, we have $f(x) = (x - 5)(x - 9)(x + 3)$. Evaluating at $x = 0$:<br/>$$f(0) = (0 - 5)(0 - 9)(0 + 3)$$<br/>$$f(0) = (-5)(-9)(3)$$<br/>$$f(0) = 45 \\cdot 3 = 135$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "questionId": "63c00e2b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by 38",
+      "content": "In the equation $\\frac{r}{38}=s+t$, $r$ is divided by 38. Multiply both sides by 38 to isolate $r$.<br/>$$r = 38(s+t)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

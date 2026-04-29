@@ -1,0 +1,15 @@
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal claim",
+      "content": "The student infers a causal relationship: similarity <strong>drives</strong> cross-category purchasing. The passage shows similar product pairs have higher cross-brand loyalty than dissimilar ones."
+    },
+    {
+      "title": "Find the competing explanation",
+      "content": "Choice C presents an alternative explanation: high-similarity pairs cluster in low-competition markets, so lack of alternatives\u2014not similarity itself\u2014drives cross-category loyalty. This directly weakens the student's causal claim by showing another mechanism could explain the pattern. The other choices either restate the original finding, suggest a related factor without challenging the claim, or demonstrate the relationship holds across conditions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

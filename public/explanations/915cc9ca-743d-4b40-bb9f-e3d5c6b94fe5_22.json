@@ -1,0 +1,15 @@
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_22",
+  "correctAnswer": "1215",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the exponential base using the ratio",
+      "content": "For $f(x) = ab^{\\frac{x}{n}}$, the ratio of function values isolates the base:<br/><br/>$$\\frac{f(7)}{f(4)} = b^{\\frac{7-4}{n}} = b^{\\frac{3}{n}} = \\frac{135}{5} = 27$$<br/><br/>Since $27 = 3^3$, we have $b = 3$ and $n = 1$."
+    },
+    {
+      "title": "Apply exponential growth to find f(9)",
+      "content": "With base $b = 3$ and $n = 1$, the function is $f(x) = a \\cdot 3^x$. Each unit increase in $x$ multiplies the output by 3.<br/><br/>From $x = 7$ to $x = 9$ is $9 - 7 = 2$ units, so multiply by $3^2 = 9$:<br/><br/>$$f(9) = 135 \\times 9 = 1215$$"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "85b33aa8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set Up the Unit Conversion",
+      "content": "To convert from yards to miles, we divide the distance in yards by the number of yards per mile. We have 5,104 yards and need to divide by the given conversion factor of 1,760 yards/mile.",
+      "formula": "$$\\text{distance in miles} = \\frac{\\text{distance in yards}}{\\text{yards per mile}}$$"
+    },
+    {
+      "title": "Calculate the Distance in Miles",
+      "content": "Perform the division:<br/>$$\\frac{5104}{1760} = 2.9$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

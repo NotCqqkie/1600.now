@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the per-acre estimate",
+      "content": "The arborist estimates there are at least 50 and no more than 60 hickory trees per acre. This translates to an inequality:<br/>$$50 \\leq \\text{trees per acre} \\leq 60$$"
+    },
+    {
+      "title": "Scale the inequality for 3 acres",
+      "content": "To find the total number of trees in a 3-acre section, multiply all parts of the inequality by 3:<br/>$$50 \\times 3 \\leq x \\leq 60 \\times 3$$<br/>$$150 \\leq x \\leq 180$$<br/>This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

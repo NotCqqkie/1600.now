@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two verb phrases and the structural requirement",
+      "content": "The sentence contains two verbs about Ud\u00e9: \u201creferred to X as Y\u201d and \u201chonors its legacy\u201d. They must be connected grammatically without creating a comma splice\u2014two independent clauses separated by only a comma."
+    },
+    {
+      "title": "Apply the participial phrase rule",
+      "content": "Choice D restructures the first verb as a participial phrase (\u201chaving referred\u201d), making \u201chonors\u201d the main verb. When a participial phrase interrupts the main clause\u2014positioning itself between the subject and main verb\u2014it must be enclosed in commas. The correct structure is: Ud\u00e9, having referred..., honors. A and C create comma splices (joining two independent clauses with only a comma), and B misplaces a comma between the subject and verb. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "95ed0b69",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Start with the given equation and identify the goal",
+      "content": "We have $p = \\frac{k}{4j+9}$ and need to isolate $4j+9$ to express it in terms of $p$ and $k$."
+    },
+    {
+      "title": "Multiply both sides by (4j+9)",
+      "content": "Multiply both sides by $(4j+9)$ to move it out of the denominator:<br/><br/>$$p(4j+9) = k$$"
+    },
+    {
+      "title": "Divide both sides by p to isolate (4j+9)",
+      "content": "Divide both sides by $p$:<br/><br/>$$4j+9 = \\frac{k}{p}$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the opening em-dash",
+      "content": "The em-dash after <strong>postmodern dance</strong> opens a non-restrictive relative clause (<em>which demystifies traditional choreography by foregrounding...</em>) that provides additional information about what the dance does."
+    },
+    {
+      "title": "Close the em-dash pair",
+      "content": "Non-restrictive clauses introduced with an opening em-dash must be closed with a matching em-dash. That closing em-dash comes directly after <strong>gravity)</strong> and before <em>to video</em>\u2014something choices A, B, and D omit. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "645fd11a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The researchers' conclusion emphasizes \u201cgrowing interest...across the years analyzed.\u201d This signals we need to find an <strong>upward trend in the data showing an increase over time.</strong>"
+    },
+    {
+      "title": "Match the trend to the choices",
+      "content": "Department leaders rising from approximately 3.2 to 4 to 6.8 across the three periods demonstrates the growth in CEO connections to departments that the researchers concluded was happening. A falsely claims no fluctuation; B incorrectly identifies which period had the highest number of managers; C describes a consistent relationship but doesn't show the time-based growth required by the conclusion. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

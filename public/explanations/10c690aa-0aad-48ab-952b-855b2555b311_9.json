@@ -1,0 +1,15 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the known quantity into the equation",
+      "content": "Since there are 8 Rosa sericea flowers, substitute $x = 8$ into the equation:<br/>$$4(8) + 5y = 77$$"
+    },
+    {
+      "title": "Solve for the number of Rosa caesia flowers",
+      "content": "Simplify and isolate $y$:<br/>$$32 + 5y = 77$$<br/>$$5y = 45$$<br/>$$y = 9$$<br/>Verify: $4(8) + 5(9) = 32 + 45 = 77$ \u2713<br/><br/>There are 9 Rosa caesia flowers. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

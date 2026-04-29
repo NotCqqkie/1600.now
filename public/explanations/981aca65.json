@@ -1,0 +1,19 @@
+{
+  "questionId": "981aca65",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the transformation rules for shifts",
+      "content": "When a graph is translated:<ul><li><strong>Right by $h$ units:</strong> replace $x$ with $(x - h)$</li><li><strong>Down by $k$ units:</strong> subtract $k$ from the function value</li></ul>Since the graph moves 4 units right and 3 units down, we need to apply both rules to $f(x)$."
+    },
+    {
+      "title": "Apply the rightward shift of 4 units",
+      "content": "Replace $x$ with $(x - 4)$ in the original function:<br/>$$f(x - 4) = \\frac{a-19}{x-4} + 5$$"
+    },
+    {
+      "title": "Apply the downward shift of 3 units",
+      "content": "Subtract 3 from the result:<br/>$$g(x) = \\frac{a-19}{x-4} + 5 - 3 = \\frac{a-19}{x-4} + 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

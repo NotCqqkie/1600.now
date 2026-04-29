@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_16",
+  "correctAnswer": "249",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rate of change per year",
+      "content": "The population increases from 55 thousand in 1995 to 217 thousand in 2015. That's a span of $2015 - 1995 = 20$ years with a change of $217 - 55 = 162$ thousand. The rate of change is $$\\text{slope} = \\frac{162}{20} = 8.1 \\text{ thousand per year}$$"
+    },
+    {
+      "title": "Extend the line to 2019",
+      "content": "From 2015 to 2019 is $2019 - 2015 = 4$ years. At 8.1 thousand per year, the additional population is $$4 \\times 8.1 = 32.4 \\text{ thousand}$$ So the 2019 population is $$x = 217 + 32.4 = 249.4$$ To the nearest whole number, $x = 249$."
+    }
+  ]
+}

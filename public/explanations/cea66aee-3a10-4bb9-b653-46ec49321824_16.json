@@ -1,0 +1,15 @@
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the series structure",
+      "content": "The verb \u201cregistering\u201d is followed by a blank, then the word \u201cand\u201d and the final item \u201c16\u00b0C at 5:00 p.m.\u201d This shows we need to list two items before the \u201cand,\u201d with commas separating each item in the series. Thus the blank must contain two temperature\u2011time expressions separated by a comma, and it must end with a comma so the series can continue."
+    },
+    {
+      "title": "Apply the series\u2011comma rule",
+      "content": "Choice D writes \u201c15.4\u00b0C at 1:00 a.m., 18.6\u00b0C at 11:30 a.m.,\u201d \u2013 it places a comma between the two items and adds a trailing comma, exactly what the series requires. The other three choices either omit the internal comma (A and B) or misplace commas that split the temperature from its time (C), breaking the parallel structure. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

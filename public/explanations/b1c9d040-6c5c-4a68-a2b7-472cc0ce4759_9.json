@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The first sentence (\u201cWhy do black-footed cats purr but leopards roar?\u201d) and the concluding sentence (\u201cThese traits allow leopards... but not purring\u201d) bookend the explanation. The decisive clue is the word \u201cmay,\u201d indicating a hypothesis about the hyoid bone <em>explaining</em> the vocal differences."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "D captures the hypothesis-driven explanation by linking hyoid differences to the purr-vs-roar distinction. A and B focus on <strong>details</strong> (specific traits in hyoids). C misrepresents the passage\u2019s tone of active hypothesis with \u201cuncertain.\u201d That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

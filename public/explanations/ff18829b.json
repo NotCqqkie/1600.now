@@ -1,0 +1,15 @@
+{
+  "questionId": "ff18829b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the services shown on the graph",
+      "content": "The graph displays project leaders' ratings for three specific services: provision of medicinal plants (2), improvement of neighborhood attachment (3), and improvement of local microclimate (3). Since the question asks for a choice that most effectively <strong>uses data from the graph</strong>, the correct answer must compare two of these <strong>displayed</strong> services."
+    },
+    {
+      "title": "Match the accurate comparison",
+      "content": "Choices B and D reference services not shown on the graph, so they cannot effectively use the displayed data. Choice C uses shown services but reverses the relationship\u2014it claims local microclimate (3) is rated lower than medicinal plants (2), contradicting the graph. Choice A correctly uses the graph's data: project leaders rated medicinal plants (2) lower than local microclimate (3). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the point into slope-intercept form",
+      "content": "We know the slope is $m = -\\frac{1}{3}$ and the line passes through $(9, 4)$. Substitute the point into the slope-intercept form:<br/>$$4 = -\\frac{1}{3}(9) + b$$",
+      "formula": "$$y = mx + b$$"
+    },
+    {
+      "title": "Solve for the y-intercept and match to the answer",
+      "content": "Simplify the right side:<br/>$$4 = -3 + b$$<br/>$$b = 7$$<br/>The equation is $y = -\\frac{1}{3}x + 7$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

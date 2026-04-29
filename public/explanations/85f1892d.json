@@ -1,0 +1,19 @@
+{
+  "questionId": "85f1892d",
+  "correctAnswer": "338",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right triangle structure and legs",
+      "content": "Triangle XYZ has a right angle at Y, so XY and YZ are the two legs. We know YZ = 26 units. The area of a right triangle is $\\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$, so we need to find XY to calculate the area."
+    },
+    {
+      "title": "Express the unknown leg using tangent at angle Z",
+      "content": "At angle Z (33\u00b0), the opposite side is XY and the adjacent side is YZ = 26. By the tangent ratio:<br/><br/>$$\\tan(33\u00b0) = \\frac{XY}{26}$$<br/><br/>Solving for XY:<br/><br/>$$XY = 26\\tan(33\u00b0)$$"
+    },
+    {
+      "title": "Calculate area and solve for k",
+      "content": "Now substitute both legs into the area formula:<br/><br/>$$\\text{Area} = \\frac{1}{2} \\times YZ \\times XY = \\frac{1}{2} \\times 26 \\times 26\\tan(33\u00b0)$$<br/><br/>$$= \\frac{1}{2} \\times 676 \\times \\tan(33\u00b0) = 338\\tan(33\u00b0)$$<br/><br/>Comparing to the form $k\\tan(33\u00b0)$, we have $k = 338$."
+    }
+  ]
+}

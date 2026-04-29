@@ -1,0 +1,11 @@
+{
+  "questionId": "39652e93",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 17 into the function",
+      "content": "The function is $f(x) = \\frac{16}{x}$. To find $f(17)$, substitute $x = 17$ directly:<br/><br/>$$f(17) = \\frac{16}{17}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

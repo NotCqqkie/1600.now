@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key contrast in the research findings",
+      "content": "The crucial turn comes with \u201cHowever\u201d: while recommender systems generally increase sales, Lee and Hosanagar discovered that the impact differs by product type. Item views increase more for utilitarian products (dish detergents), whereas purchase likelihood increases more for hedonic products (music albums). The same tool produces opposite patterns depending on what is measured and what product category is involved. This non-uniformity is the pivotal finding."
+    },
+    {
+      "title": "Apply the contrast to the answer choices",
+      "content": "Choice A directly captures the insight that RS effects \u201care not uniform in nature and strength across product categories.\u201d The other three miss or misrepresent this insight: choice D falsely claims purchase effects are limited to hedonic items, while B and C introduce unsupported claims. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

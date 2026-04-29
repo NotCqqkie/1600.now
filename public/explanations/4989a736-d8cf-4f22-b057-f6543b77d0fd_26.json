@@ -1,0 +1,15 @@
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the definition clue",
+      "content": "The notes give a direct definition: \u201cLazarus species\u201d is a term for living species once believed to be extinct."
+    },
+    {
+      "title": "Apply the definition to the choices",
+      "content": "Choice A states that the term \u201cLazarus species\u201d describes a living species of organism, such as the black-footed ferret, that was once believed to be extinct, which matches the definition and supplies the requested example. The other three choices either do not define the term, lack the example, or only give an example without the definition. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

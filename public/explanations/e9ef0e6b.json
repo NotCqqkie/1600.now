@@ -1,0 +1,15 @@
+{
+  "questionId": "e9ef0e6b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the daily distance inequality",
+      "content": "Whales travel 72 to 77 miles per day. In inequality form: $$72 \\le d \\le 77$$ where $d$ is the daily distance."
+    },
+    {
+      "title": "Multiply the inequality by 16 for the 16-day total",
+      "content": "To find total distance $x$ over 16 days, multiply all parts of the inequality by 16. Since we're multiplying by a positive number, the inequality signs don't change: $$16 \\times 72 \\le x \\le 16 \\times 77$$ Rewriting in factored form: $$(72)(16) \\le x \\le (77)(16)$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

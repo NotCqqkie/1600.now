@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert years to months to match the rate units",
+      "content": "The tree grows 87 cm every <em>m</em> months. To find growth per <em>k</em> years, convert years to months:<br/>$$k \\text{ years} = 12k \\text{ months}$$"
+    },
+    {
+      "title": "Scale the growth by the time period ratio",
+      "content": "Since growth is proportional to time, if the tree grows 87 cm in $m$ months, it grows:<br/>$$87 \\text{ cm} \\cdot \\frac{12k \\text{ months}}{m \\text{ months}} = \\frac{87 \\cdot 12k}{m} \\text{ cm}$$<br/><br/>Calculate $87 \\times 12 = 1044$:<br/>$$\\frac{1044k}{m} \\text{ cm}$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

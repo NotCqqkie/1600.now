@@ -1,0 +1,15 @@
+{
+  "questionId": "cabe71d4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The blank comes after \u201cbook packaging\u201d and before the verb \u201cspecializes\u201d. We need a noun to fill the blank and a connector to link it to the verb."
+    },
+    {
+      "title": "Apply the relative clause rule",
+      "content": "The noun \u201ccompany\u201d fills the blank, and the verb \u201cspecializes\u201d requires a relative pronoun to introduce it. The rule is that \u201cthat\u201d introduces relative clauses without a preceding comma. \u201cCompany that specializes in...\u201d correctly applies this rule, while options A and C lack the pronoun (leaving ungrammatical gaps) and option D incorrectly places a comma before \u201cthat\u201d. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

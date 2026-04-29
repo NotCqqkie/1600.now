@@ -1,0 +1,15 @@
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical subject",
+      "content": "The subject is \u201cmany works,\u201d a plural noun. The phrase \u201cparticularly one abstract cubist painting by Marcel Duchamp\u201d is a parenthetical aside that doesn't change the subject."
+    },
+    {
+      "title": "Apply the agreement rule",
+      "content": "A plural subject requires a plural verb. \u201cWere\u201d is the plural past tense form that matches this agreement rule and the past time reference (\u201cat the time\u201d). The other three choices are all singular and violate subject-verb agreement. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

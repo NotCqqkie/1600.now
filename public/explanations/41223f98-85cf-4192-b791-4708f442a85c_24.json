@@ -1,0 +1,15 @@
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between ideas",
+      "content": "Italian was the standard language for opera for centuries; now singers encounter Italian terms in old scores. The logical relationship is cause-and-effect: historical dominance explains present experience."
+    },
+    {
+      "title": "Match the transition",
+      "content": "<strong>Consequently</strong> expresses that the second idea follows logically from the first. The other three all presume relationships not present: <strong>However</strong> assumes an unexpected reversal, <strong>Lastly</strong> assumes a series conclusion, and <strong>Granted</strong> assumes a concession before counterargument. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the causal chain",
+      "content": "The phrase <strong>\u201cin turn\u201d</strong> signals a consequence\u2014it points forward from Clements' warning about biased analysis to show what such bias produces."
+    },
+    {
+      "title": "Match the consequence",
+      "content": "Choice B correctly identifies the function: the sentence elaborates on a specific consequence (exaggerated reports) that flows from the small sample size problem. The alternatives misidentify the function\u2014A sees a shift in understanding, C wrongly emphasizes rather than undermines Faleiro's claim, and D treats this as countering Clements rather than supporting their concern. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

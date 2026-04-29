@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The phrase before the blank, 'lost works like Lucan's poem praising Emperor Nero, *Laudes Neronis*\u2014no copy of which exists\u2014', contains the plural noun 'works' as its subject."
+    },
+    {
+      "title": "Apply subject\u2011verb agreement",
+      "content": "A plural subject requires a plural verb; 'have become' is the plural present\u2011perfect form that agrees with 'lost works'.<br/>The other three choices use singular verbs ('is becoming', 'has become', 'becomes') which do not match the plural subject.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

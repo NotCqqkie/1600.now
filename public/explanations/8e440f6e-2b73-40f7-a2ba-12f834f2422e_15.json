@@ -1,0 +1,19 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_15",
+  "correctAnswer": "2.333,7/3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply equation (1) by 5 to align x coefficients",
+      "content": "To eliminate $x$, multiply the first equation by 5: $$5x + 120y = 300$$"
+    },
+    {
+      "title": "Subtract equation (2) to eliminate x",
+      "content": "Subtract the second equation: $$(5x + 120y) - (5x + 3y) = 300 - 27$$ $$117y = 273$$"
+    },
+    {
+      "title": "Divide and simplify to find y",
+      "content": "$$y = \\frac{273}{117}$$ Divide numerator and denominator by their GCD of 39: $$y = \\frac{7}{3}$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the lowest value",
+      "content": "The question asks for the plant with the lowest average power generated per year in 2019. The data needed is in the <strong>Average power generation (MWh/yr)</strong> column."
+    },
+    {
+      "title": "Match the lowest value to its state",
+      "content": "Wisconsin's White River plant generated 3,999 MWh per year\u2014the lowest value in the average power generation column. The other three plants generated significantly more (Florida: 193,864; Michigan: 10,693; Indiana: 19,751). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

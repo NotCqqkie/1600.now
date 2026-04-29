@@ -1,0 +1,15 @@
+{
+  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central paradox",
+      "content": "Quito has much higher park usage than Fortaleza (82.9% vs. 35.7%), <em>yet</em> residents of Quito have <em>lower</em> access to amenities near parks. This paradox proves the usage difference cannot stem from better nearby amenities in Quito."
+    },
+    {
+      "title": "Match the finding to the choices",
+      "content": "<strong>Choice B</strong> correctly states both the observation\u2014Quito residents use parks more\u2014and the conclusion the passage draws: that difference is <em>not</em> due to amenity access near parks. The other three either introduce factors not in the study (choice A expands to overall amenities, choice C cites park prevalence) or speculate beyond the passage's scope (choice D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

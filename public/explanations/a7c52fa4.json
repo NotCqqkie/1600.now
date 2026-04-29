@@ -1,0 +1,15 @@
+{
+  "questionId": "a7c52fa4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the pattern needed",
+      "content": "The researchers concluded that damage's effect varies by both flower morph and pollinator genus\u2014so the data must show different responses to damage across the four genera or between the two morphs."
+    },
+    {
+      "title": "Identify the supporting choice",
+      "content": "Choice A shows exactly this pattern: all four genera increased visit time on damaged pin flowers, but on thrum flowers, only <em>Habropoda</em> and <em>Osmia</em> increased time, while <em>Pierid</em> and <em>Xylocopa</em> decreased. This genus-dependent response on thrum, contrasted with the uniform response on pin, directly supports the conclusion.<br/><br/>The other choices misstate the data or don't address the variation in damage effects.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

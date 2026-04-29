@@ -1,0 +1,15 @@
+{
+  "questionId": "772835db",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank follows \u201cDefined by a disorganized molecular structure,\u201d \u2014 a participial phrase. Each choice offers a different noun to start the following clause. Identify: which noun appears as the subject immediately after the participial phrase?"
+    },
+    {
+      "title": "Apply the modifier rule",
+      "content": "A participial phrase opening a sentence must be immediately followed by the noun it modifies. \u201cDefined by a disorganized molecular structure\u201d describes amorphous ice, so choice B is correct: \u201camorphous ice lacks the thermal energy to form the crystals found in ice Ih.\u201d places amorphous ice as the subject right after the phrase. Choices A, C, and D start with different nouns, violating this rule. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read species Y frequency from the table",
+      "content": "From the frequency table, species Y has frequency 3, and the total is 185 animals."
+    },
+    {
+      "title": "Apply the probability formula",
+      "content": "Probability of selecting species Y:<br/><br/>$$P(\\text{species Y}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{3}{185}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

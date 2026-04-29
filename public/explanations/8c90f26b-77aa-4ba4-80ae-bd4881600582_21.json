@@ -1,0 +1,15 @@
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main clause structure",
+      "content": "The sentence follows the pattern <strong>\u201cthe reason that [complex noun clause] is that [explanation].\u201d</strong> The complex noun clause is <strong>\u201cthe rate of heart disease seems lower... while similarly ___\u201d</strong> \u2014 it contains both an independent clause (the rate is lower) and a dependent clause beginning with <strong>\u201cwhile.\u201d</strong> All of this forms a single subject noun phrase that must reach the main verb <strong>\u201cis\u201d</strong> uninterrupted."
+    },
+    {
+      "title": "Apply the subject-verb boundary rule",
+      "content": "In Standard English, no punctuation may separate a subject from its main verb, regardless of how complex the subject is. The dependent clause <strong>\u201cwhile similarly stressed\u201d</strong> remains part of the subject; it doesn't require punctuation before <strong>\u201cis.\u201d</strong> Options B, C, and D incorrectly insert a comma, semicolon, or colon between the subject and verb. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

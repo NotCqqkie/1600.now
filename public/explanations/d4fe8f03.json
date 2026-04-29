@@ -1,0 +1,15 @@
+{
+  "questionId": "d4fe8f03",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure on each side",
+      "content": "The phrase before the blank \u2014 <strong>'Paintings by the renowned twentieth-century US'</strong> \u2014 ends with a noun (<strong>'US'</strong>) followed by the blank. The phrase after the blank \u2014 <strong>'Thomas Hart Benton and Jackson Pollock'</strong> \u2014 is a list of two names. The blank must bridge the noun 'US' and the list of names."
+    },
+    {
+      "title": "Apply the colon rule for introducing a list",
+      "content": "A <strong>colon separates two independent clauses</strong> or <strong>introduces a list or elaboration</strong>. Here, 'artists' precedes a list, requiring a colon: <strong>'US artists: Thomas Hart Benton and Jackson Pollock'</strong>. Choices A\u2013C violate this rule by using extra commas or missing punctuation, while D uses a comma where a colon is necessary. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

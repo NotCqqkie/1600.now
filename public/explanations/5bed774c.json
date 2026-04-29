@@ -1,0 +1,15 @@
+{
+  "questionId": "5bed774c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The structure to the left is an independent clause: \u201cPhilosopher Peter Kivy was a leading figure in musical [word].\u201d To the right, after \u201citself,\u201d is another independent clause: \u201cKivy's approach to the study of music was decidedly formalist.\u201d"
+    },
+    {
+      "title": "Apply the rule for sentence boundaries",
+      "content": "A period properly separates two independent clauses into distinct sentences. When placed after \u201caesthetics,\u201d the second sentence correctly begins with a participial phrase (\u201cAs evidenced by...\u201d), followed by a comma and the main independent clause.<br/><br/>Options A, B, and C fail to properly separate the two independent clauses\u2014either omitting necessary punctuation or creating ungrammatical formations.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

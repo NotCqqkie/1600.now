@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the compensation mechanism",
+      "content": "Besterman and Pace found benthic chlorophyll did not decrease with macroalgal proliferation\u2014contradicting the theory's prediction. But they noted that MPB respond to low-light conditions by producing higher-than-normal chlorophyll. This compensation mechanism explains their unexpected result."
+    },
+    {
+      "title": "Connect to the conclusion",
+      "content": "Choice A directly states the implication: because of compensation capacity, benthic chlorophyll may not reliably indicate MPB biomass\u2014the proxy becomes unreliable when elevated chlorophyll masks declining biomass. Choices B, C, and D each fail: B denies compensation is relevant, C invokes an unmentioned mechanism, D misattributes the discrepancy to light consistency. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The hypothesis's key prediction is that paired leaves should <strong>tend to show opposite side orientation</strong>. Supporting data must demonstrate this pattern across all tested species."
+    },
+    {
+      "title": "Match to the data",
+      "content": "C states that all three grape species show more opposite than same-side orientations. The other choices either lack confirmation across all species, highlight same-side orientation, or claim implausible 100% prevalence. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

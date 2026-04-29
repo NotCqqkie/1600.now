@@ -1,0 +1,15 @@
+{
+  "questionId": "be37d4ae",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence boundary",
+      "content": "The sentence has two independent clauses: <strong>\u201cThey were not the first in England to adopt the literary modes of classical antiquity\u201d</strong> (complete idea) and <strong>\u201csome of the most prominent figures of the earlier Renaissance period were also influenced by ancient Greek and Roman literature\u201d</strong> (complete idea). These must be joined with punctuation strong enough to separate two independent clauses."
+    },
+    {
+      "title": "Apply the conjunctive adverb rule",
+      "content": "The word \u201chowever\u201d is a conjunctive adverb that signals contrast between the clauses. Two independent clauses joined by a conjunctive adverb follow this SAT pattern: a semicolon before the adverb, then a comma after it (IC; however, IC). Choice D places the semicolon after \u201cantiquity\u201d and the comma after \u201chowever,\u201d creating the correct structure: <strong>\u201cclassical antiquity ; however, some of the most prominent figures\u2026\u201d</strong> The other options fail: A leaves no punctuation between clauses (comma splice); B places only commas around \u201chowever\u201d (insufficient for joining independent clauses); C places a comma before \u201chowever\u201d and a semicolon after, which reverses the proper order and mishandles the junction. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

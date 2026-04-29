@@ -1,0 +1,15 @@
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the plural subject",
+      "content": "The subject is \u201cThe historian's books\u201d\u2014the head noun is <strong>books</strong>, which is plural. The possessive \u201chistorian's\u201d and the prepositional phrase \u201cabout Zachary Taylor\u201d modify the subject but don't change its number."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement requires the verb to match the subject's number. Since the subject is plural, the verb must be plural\u2014\u201dare\u201d is the only plural form. The other three are singular and violate this rule. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_13",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the circumference formula",
+      "content": "For a circle, circumference equals $\\pi$ times the diameter. We're given that $C = 12\\pi$ centimeters and need to find the diameter.",
+      "formula": "$$C = \\pi d$$"
+    },
+    {
+      "title": "Solve for the diameter",
+      "content": "Substitute the circumference into the formula and solve for $d$:<br/>$$12\\pi = \\pi d$$<br/>Divide both sides by $\\pi$:<br/>$$d = \\frac{12\\pi}{\\pi} = 12$$<br/>The diameter is <strong>12 centimeters</strong>."
+    }
+  ]
+}

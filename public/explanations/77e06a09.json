@@ -1,0 +1,15 @@
+{
+  "questionId": "77e06a09",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the interrupting phrase structure",
+      "content": "The blank follows a prepositional phrase (\u201cthrough trade and centralized taxation\u201d) that interrupts the relative clause between its subject \u201cthat\u201d and its verb \u201cfunded\u201d."
+    },
+    {
+      "title": "Apply the matching punctuation rule",
+      "content": "When a parenthetical phrase interrupts a clause between subject and verb, Standard English requires matching punctuation on both sides. The comma in choice B properly closes the parenthetical phrase that opened after \u201cthat.\u201d The colon (A), em dash (C), and no punctuation (D) each fail to provide matching closing punctuation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

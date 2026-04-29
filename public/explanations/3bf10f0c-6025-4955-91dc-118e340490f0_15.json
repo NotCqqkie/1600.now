@@ -1,0 +1,15 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept by evaluating at x = 0",
+      "content": "When $x = 0$:<br/><br/>$$y = 500(2)^{2(0)} = 500(2)^0 = 500(1) = 500$$<br/><br/>The y-intercept is 500."
+    },
+    {
+      "title": "Connect the y-intercept to the problem context",
+      "content": "In this equation, $x = 0$ represents the starting point: the end of January 1996. The y-intercept of 500 therefore represents the estimated number of subscribers at that specific time. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

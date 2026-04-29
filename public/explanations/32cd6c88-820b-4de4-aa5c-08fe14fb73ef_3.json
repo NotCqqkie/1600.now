@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept from the given point",
+      "content": "The line passes through the point (0, 21). Since this point has $x = 0$, it lies on the y-axis, and its y-coordinate is the y-intercept. Therefore, the y-intercept is 21."
+    },
+    {
+      "title": "Write the equation using slope-intercept form",
+      "content": "The slope-intercept form of a line is $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. With slope $m = 4$ and y-intercept $b = 21$:<br/>$$f(x) = 4x + 21$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

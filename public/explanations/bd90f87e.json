@@ -1,0 +1,16 @@
+{
+  "questionId": "bd90f87e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the 1960 and 1970 minimum wages",
+      "content": "From the table, in 1960 the minimum wage was \\$1.00 per hour, and in 1970 it was \\$1.60 per hour."
+    },
+    {
+      "title": "Apply the percent increase formula",
+      "formula": "$$\\text{Percent Increase} = \\frac{\\text{New} - \\text{Old}}{\\text{Old}} \\times 100\\%$$",
+      "content": "Using the formula with old value = \\$1.00 and new value = \\$1.60:<br/>$$\\frac{1.60 - 1.00}{1.00} \\times 100\\% = \\frac{0.60}{1.00} \\times 100\\% = 60\\%$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

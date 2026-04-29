@@ -1,0 +1,15 @@
+{
+  "questionId": "9df6da04",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the opening participle requires",
+      "content": "The sentence begins with a participial phrase: \u201cKnowing that flying insects keep their backs pointed toward sunlight during the day,\u201d The participle \u201cknowing\u201d demands a subject capable of performing that action."
+    },
+    {
+      "title": "Apply the modifier-subject rule",
+      "content": "A participial phrase at the start of a sentence must logically modify the subject of the main clause. Choice A makes \u201cthe researchers\u201d the subject, allowing them to logically perform the action (\u201cknowing\u201d) described by the participle. Choices B, C, and D place \u201ctheory\u201d or \u201cmoths\u201d as the subject, creating dangling participles because neither can logically know a scientific fact. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

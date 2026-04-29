@@ -1,0 +1,15 @@
+{
+  "questionId": "346d5c2e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We are given $ f(x) = 9(2x + 3) $ and need to find $ x $ such that $ f(x) = 63 $.<br/><br/>Set the equation equal to 63: $$ 9(2x + 3) = 63 $$"
+    },
+    {
+      "title": "Solve for x step-by-step",
+      "content": "1. Divide both sides by 9 to simplify: $$ 2x + 3 = 7 $$<br/>2. Subtract 3 from both sides: $$ 2x = 4 $$<br/>3. Divide by 2: $$ x = 2 $$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

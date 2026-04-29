@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_8",
+  "correctAnswer": "45",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship between angles",
+      "content": "The problem states that triangles $JKL$ and $PQR$ are congruent, with $J$ corresponding to $P$. In congruent triangles, corresponding angles are equal. Therefore, $\\angle P = \\angle J$."
+    },
+    {
+      "title": "Find angle P",
+      "content": "We're given that $\\angle J = 45\u00b0$. Since $\\angle P = \\angle J$, we have $\\angle P = 45\u00b0$."
+    }
+  ]
+}

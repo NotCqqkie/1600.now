@@ -1,0 +1,15 @@
+{
+  "questionId": "7268586c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the isosceles triangle property",
+      "content": "Since $PQ = QR$, triangle $PQR$ is isosceles with the equal sides meeting at $Q$. In an isosceles triangle, the angles opposite the equal sides are equal. The angle opposite $PQ$ is angle $R$ (at vertex $R$), and the angle opposite $QR$ is angle $P$ (at vertex $P$). Therefore, angle $P$ = angle $R$."
+    },
+    {
+      "title": "Find x using the base angle equality",
+      "content": "Since angle $P$ = angle $R$ and angle $P = 24\u00b0$, we have angle $R = 24\u00b0$. The angle at $R$ is labeled as $x\u00b0$ in the diagram, so $x = 24$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

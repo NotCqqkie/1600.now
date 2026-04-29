@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what supports the hypothesis",
+      "content": "Martinez and colleagues hypothesized that <em>P. rufifrons</em>' greater vulnerability (from gleaning) makes it more sensitive to predator warnings from neighboring species. The key signal: <em>P. rufifrons</em> should show stronger response to local bird alarms than <em>T. surinamus</em>."
+    },
+    {
+      "title": "Match the predicted contrast",
+      "content": "Choice D shows this directly: when local bird alarm calls are played, <em>P. rufifrons</em> displays predator-avoidance behavior whereas <em>T. surinamus</em> does not, confirming that the more vulnerable foraging strategy correlates with increased sensitivity to neighbor warnings. Choices A and B show both species responding equally to at least one stimulus, while C shows the opposite pattern. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

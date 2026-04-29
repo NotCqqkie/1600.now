@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constraints from the problem description",
+      "content": "The phrase <em>positive mass</em> means $m > 0$. The phrase <em>less than 510 grams</em> means $m < 510$. Since the mass must satisfy both conditions simultaneously, we need both inequalities to be true at the same time."
+    },
+    {
+      "title": "Combine the constraints into a single inequality",
+      "content": "When we need both $m > 0$ and $m < 510$ to be true together, we write the compound inequality as $0 < m < 510$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

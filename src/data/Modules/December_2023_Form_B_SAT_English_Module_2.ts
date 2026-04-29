@@ -110,40 +110,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "bcfca978-b649-44b6-8774-fc731fcc4199_4",
-    "testName": "December 2023 Form B SAT English Module 2",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nMarianne North, who documented plant life from around the world with high scientific accuracy before photography was practical, undoubtedly accomplished much, but to gain a lasting place in our historical memory, there is little that can ______ being the first to do something. For example, people will always remember that Jean Batten was the first person to fly between England and New Zealand solo.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "fluctuate with"
-      },
-      {
-        "id": "B",
-        "text": "overreach by"
-      },
-      {
-        "id": "C",
-        "text": "constrain within"
-      },
-      {
-        "id": "D",
-        "text": "prevail over"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice B is the best answer. A person who is \"dogmatic\" believes strongly that their principles and opinions are true. Because Du Bois and Locke are implied to have one \"unified vision\" of Black American identity that they prioritize over the \"diverse perspectives\" of different writers, they can be described as dogmatic.\nChoice A is incorrect. \"Proficient\" means \"skilled.\" Du Bois and Locke are contrasted with Johnson, but nothing in the text suggests that Johnson was not skilled at making editorial decisions. Based on the text, the three editors just have different styles; they’re not necessarily more or less skilled. Choice C is incorrect. \"Ambiguous\" means \"unclear\" or \"open to multiple interpretations.\" However, it’s actually Johnson who encouraged multiple interpretations (\"diverse perspectives\"). Since Du Bois and Locke are said to \"diverge\" from Johnson, we can assume that the views they published were not ambiguous, but instead clear and firm (a \"unified vision\"). Choice D is incorrect. \"Unpretentious\" means \"not trying to impress others with greater skill or importance than is actually possessed.\" Du Bois and Locke are contrasted with Johnson, but nothing in the text suggests that Johnson is pretentious (trying to impress others).",
+      "id": "22a41819",
+      "testName": "SAT Question Bank",
+      "text": "Rejecting the premise that the literary magazine <em>Ebony and Topaz</em> (1927) should present a unified vision of Black American identity, editor Charles S. Johnson fostered his contributors’ diverse perspectives by promoting their authorial autonomy. Johnson’s self-effacement diverged from the editorial stances of W.E.B. Du Bois and Alain Locke, whose decisions for their publications were more ______. Which choice completes the text with the most logical and precise word or phrase?",
+      "correctAnswer": "B",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "proficient"
+          },
+          {
+              "id": "B",
+              "text": "dogmatic"
+          },
+          {
+              "id": "C",
+              "text": "ambiguous"
+          },
+          {
+              "id": "D",
+              "text": "unpretentious"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

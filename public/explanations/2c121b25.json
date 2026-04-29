@@ -1,0 +1,15 @@
+{
+  "questionId": "2c121b25",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express red beads from each container",
+      "content": "Red beads from the first container = 30% of x = <strong>0.3x</strong><br/>Red beads from the second container = 70% of y = <strong>0.7y</strong><br/>Total red beads combined = <strong>0.3x + 0.7y</strong>"
+    },
+    {
+      "title": "Translate the constraint",
+      "content": "The problem states the containers have <em>at least</em> 400 red beads. The phrase <em>at least</em> means greater than or equal to (\u2265). Therefore, the inequality is:<br/><br/>$$0.3x + 0.7y \\geq 400$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

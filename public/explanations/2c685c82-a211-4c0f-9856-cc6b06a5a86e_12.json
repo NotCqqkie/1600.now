@@ -1,0 +1,19 @@
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points from the boundary line",
+      "content": "The boundary line (solid black) separates the shaded region from the unshaded region. Reading directly from the graph, the line passes through <strong>(0, \u221213)</strong> on the y-axis and <strong>(\u221210, \u221211)</strong> on the left side."
+    },
+    {
+      "title": "Find the equation of the boundary line using point-slope form",
+      "content": "First, find the slope: $$m = \\frac{-11 - (-13)}{-10 - 0} = \\frac{2}{-10} = -\\frac{1}{5}$$<br/>Using point (0, \u221213), the equation is: $$y = -\\frac{1}{5}x - 13$$<br/>Multiply both sides by 5 to clear the fraction: $$5y = -x - 65$$<br/>Rearrange to standard form: $$x + 5y = -65$$"
+    },
+    {
+      "title": "Identify r and t, then compute r + t",
+      "content": "The boundary line has equation $x + 5y = -65$, which matches the form $rx + ty = -65$.<br/>Therefore, $r = 1$ and $t = 5$, giving us: $$r + t = 1 + 5 = 6$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

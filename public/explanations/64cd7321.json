@@ -1,0 +1,15 @@
+{
+  "questionId": "64cd7321",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key phrase about causality",
+      "content": "The phrase <strong>through an indirect effect</strong> means NFM's impact on voting doesn't happen directly\u2014it must flow through intermediate variables. Since the study measured political knowledge and political interest, the pathway must be: NFM weakens these factors, which then reduces voting."
+    },
+    {
+      "title": "Match the answer to the mechanism",
+      "content": "B establishes both links of the required pathway: NFM weakens political knowledge and interest, and these factors strengthen voting. The other three either deny this first link (C) or sidestep it with unrelated variables (A, D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

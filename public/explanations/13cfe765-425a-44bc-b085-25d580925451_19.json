@@ -1,0 +1,15 @@
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the modifier position",
+      "content": "The main verb \u201chelped\u201d appears at the end of the sentence. A comma after the blank signals that a modifying phrase comes between the noun \u201cauthors\u201d and this main verb. The structure [noun], [modifier], [main verb] requires the blank to start a modifier, not a second verb."
+    },
+    {
+      "title": "Apply the participle rule",
+      "content": "A participle (the -ing or -ed form of a verb functioning as an adjective) correctly modifies a noun in this position. Option B's \u201casserting\u201d is the -ing form that heads the phrase \u201casserting that American publishers' appropriation of their work caused injuries\u201d: \u201cThis cadre of renowned authors, asserting that..., helped sow the seeds.\u201d Options A (asserted), C (had asserted), and D (were asserting) are all conjugated verb forms that would function as competing verbs and break the sentence structure. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

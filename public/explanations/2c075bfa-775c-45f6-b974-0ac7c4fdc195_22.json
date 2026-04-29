@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "The passage describes John Francis's military service, then states he \u201cearned a place in history.\u201d The transition must show this historical significance resulted from his service."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "\u201dIn doing so\u201d means \u201cby doing that\u201d\u2014it expresses that his historical significance resulted from his service. The other three suggest exemplification, concession, or habit rather than causation. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

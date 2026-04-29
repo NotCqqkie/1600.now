@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the problem motivating the method",
+      "content": "The passage states soil moisture varies in the wild and \u201ccould influence plants' chemistry.\u201d This creates a confound: in nature, both microbial communities AND soil moisture vary simultaneously, making it impossible to isolate which factor causes glucosinolate changes. The researchers solved this problem by moving to a controlled environment where soil moisture doesn't vary, then manipulating only the microbial communities."
+    },
+    {
+      "title": "State what the isolated method enables",
+      "content": "By holding soil moisture constant while varying microbial communities, any glucosinolate differences must result from the microbial manipulations alone. This allows them to distinguish which variations stem from microbial communities (observed in their controlled experiment) from variations potentially caused by soil moisture (in natural settings). Choice D directly describes this distinction. The others either misstate the goal (A), incorrectly suggest the experiment recreates wild conditions (B), or reverse the causal relationship (C).<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

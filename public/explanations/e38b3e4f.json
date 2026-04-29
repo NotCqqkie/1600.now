@@ -1,0 +1,15 @@
+{
+  "questionId": "e38b3e4f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject that needs agreement",
+      "content": "The blank is in the relative clause <strong>The radiation that [blank]...</strong> The subject is <strong>radiation</strong>, which is singular."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Subject-verb agreement requires the verb to match its subject's number, so <strong>occurs</strong> is the correct singular form. The other three options are all plural and violate this requirement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

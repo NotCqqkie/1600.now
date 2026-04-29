@@ -1,0 +1,15 @@
+{
+  "questionId": "dd8ac009",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the parameters from the exponential model",
+      "content": "An exponential relationship has the form $d = a(1+r)^t$, where $a$ is the initial amount and $(1+r)$ is the annual growth factor.<br/><br/>From the table: $a = 670$ (the amount at $t=0$). The annual growth factor is $\\frac{674.02}{670} = 1.006$, so $r = 0.006$."
+    },
+    {
+      "title": "Write the equation and identify the choice",
+      "content": "The exponential equation is:<br/>$$d = 670(1+0.006)^t$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

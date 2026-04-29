@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the claim requires",
+      "content": "The student asserts that increased traffic congestion affected both a large city (Miami) and smaller areas (Allentown-Bethlehem and Boise) during the 1990s, with smaller areas less severely affected but still worsening over time."
+    },
+    {
+      "title": "Apply the claim to the graph and choices",
+      "content": "Choice A states that Miami's delays always exceeded Boise's from 1990 to 2000, and that both areas experienced rising delays. Miami increases from 31 hours (1990) to 49 hours (2000), while Boise increases from 16 hours (1990) to 27 hours (2000), establishing both the differential severity and the shared upward trend central to the student's claim. Choices B and C contradict the actual data, while D addresses only an incidental point rather than the sustained pattern. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

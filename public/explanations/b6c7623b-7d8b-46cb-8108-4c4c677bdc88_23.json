@@ -1,0 +1,15 @@
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between the sentences",
+      "content": "The first sentence names Malaysia's voting system (single-member plurality). The second sentence explains what that system means in practice \u2014 how candidates are actually elected. This is a clarification relationship: the second sentence restates or defines the concept just introduced."
+    },
+    {
+      "title": "Choose the transition for clarification",
+      "content": "<strong>In other words</strong> signals restatement or explanation, the relationship that holds between these sentences. The other choices signal different relationships: \u201cmeanwhile\u201d for simultaneous action, \u201cthat being said\u201d for contrast or concession, and \u201cmoreover\u201d for additional information. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

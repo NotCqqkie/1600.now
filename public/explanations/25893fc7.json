@@ -1,0 +1,15 @@
+{
+  "questionId": "25893fc7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the purpose",
+      "content": "The passage opens with the fact that handshakes create trust and states the team's goal: to improve human-robot interactions through a robot handshake. The key signal is this link\u2014they're trying to replicate the trust-building effect of real handshakes."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "Choice A states the direct outcome: lifelike handshakes result in people feeling more comfortable interacting with robots. The other three propose unrelated explanations\u2014difficulty to program, visual appearance, or other purposes. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

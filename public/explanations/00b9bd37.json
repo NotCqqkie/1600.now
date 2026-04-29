@@ -1,0 +1,15 @@
+{
+  "questionId": "00b9bd37",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify easy-to-read points from the graph",
+      "content": "The line passes through $(0, 35)$ (y-intercept) and $(90, 0)$ (x-intercept)."
+    },
+    {
+      "title": "Test choice B",
+      "content": "For $7x + 18y = 630$:<ul><li>At $(0, 35)$: $7(0) + 18(35) = 630$ \u2713</li><li>At $(90, 0)$: $7(90) + 18(0) = 630$ \u2713</li></ul>Both points satisfy the equation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

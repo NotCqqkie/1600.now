@@ -1,0 +1,15 @@
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparative claim",
+      "content": "The researchers' finding is comparative: bulkheads are more strongly negatively correlated with IWCI than riprap. To illustrate this, we need a finding showing the differential harm between the two types."
+    },
+    {
+      "title": "Find the isolating comparison",
+      "content": "Choice B directly compares a bulkhead-dominant site (Old Road) to a riprap-dominant site (Miles), showing Old Road has lower IWCI\u2014perfectly illustrating that bulkheads harm community integrity more than riprap.<br/>The others fail to isolate this comparison: A combines both types together, C is vague about percentages, and D doesn't show differential impact.<br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

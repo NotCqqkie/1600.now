@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the complex series",
+      "content": "The sentence lists three key years with descriptions (each containing a when-clause), already separated by a semicolon after the first item. We need to complete the second item and properly introduce the third."
+    },
+    {
+      "title": "Apply the complex series punctuation rule",
+      "content": "In a series where items contain internal commas, a semicolon precedes 'and' before the final item. Option A uses 'released; and', properly connecting the second item to the third while preserving the list structure. The other options either omit the required semicolon, weaken it to a comma, or create an unwarranted sentence boundary. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

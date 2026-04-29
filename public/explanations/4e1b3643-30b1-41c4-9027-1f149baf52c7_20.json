@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the function structure",
+      "content": "The function $f(m) = 30 - 3m$ represents the remaining balance after renting $m$ movies. This follows the general pattern:<br/><div class=\"callout\">remaining balance = initial amount \u2212 (cost per movie) \u00d7 m</div>Here, the $30 is the initial amount, and the coefficient of $m$ tells us how the balance changes per movie."
+    },
+    {
+      "title": "Determine the cost per movie",
+      "content": "In $f(m) = 30 - 3m$, the coefficient of $m$ is $-3$. The negative value indicates the balance decreases; the magnitude tells us the decrease per movie.<br/><br/>The balance decreases by $3 for each movie rented, so each rental costs $3. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

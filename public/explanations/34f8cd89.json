@@ -1,0 +1,19 @@
+{
+  "questionId": "34f8cd89",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the cascade of percentages",
+      "content": "Items that are green rectangular metal must satisfy all three properties sequentially: 37% of the box is green, 37% of those are rectangular, and 42% of those are metal. To find the percentage meeting all conditions, multiply: 0.37 \u00d7 0.37 \u00d7 0.42."
+    },
+    {
+      "title": "Calculate the combined percentage",
+      "content": "$$0.37 \\times 0.37 \\times 0.42 = 0.1369 \\times 0.42 = 0.057498 \\approx 5.75\\%$$<br/>So about 5.75% of all items are green rectangular metal."
+    },
+    {
+      "title": "Find items NOT green rectangular metal",
+      "content": "The question asks for the percentage that are <em>not</em> green rectangular metal. Subtract from 100%: $$100\\% - 5.75\\% = 94.25\\%$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

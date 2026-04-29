@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the goal requires a direct comparison",
+      "content": "The question asks to \u201ccompare the curviness of the two rivers.\u201d This means identifying which is curvier, not explaining how curviness is calculated."
+    },
+    {
+      "title": "Evaluate which choice accomplishes this comparison",
+      "content": "Choice D states that the Mississippi's sinuosity ratio is greater than the Neales', directly identifying which river is curvier. The others either reverse the facts or fail to state which river is more curved. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0f9f8ea7",
+  "correctAnswer": "3600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what initially measured means",
+      "content": "The phrase <em>initially measured</em> refers to the starting point in time. Since $x$ represents hours after the initial measurement, the initial time corresponds to $x = 0$."
+    },
+    {
+      "title": "Substitute x = 0 into the equation",
+      "content": "When $x = 0$:<br/>$$y = 3600(a)^0$$<br/>By the zero exponent rule, any positive number to the power 0 equals 1:<br/>$$(a)^0 = 1$$<br/>Therefore:<br/>$$y = 3600 \\cdot 1 = 3600$$<br/>The predicted initial number of bacteria was <strong>3600</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute u = 8 - 2x to simplify",
+      "content": "The expression $(8 - 2x)$ appears in both terms on both sides of the equation. Rather than expanding everything, let $u = 8 - 2x$ and rewrite the equation:<br/><br/>$$6u + 3 = 5u + 19$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Collect $u$ terms on the left and constants on the right:<br/><br/>$$6u - 5u = 19 - 3$$<br/><br/>$$u = 16$$<br/><br/>Since $u = 8 - 2x$, we have $8 - 2x = 16$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

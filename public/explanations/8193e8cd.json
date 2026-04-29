@@ -1,0 +1,19 @@
+{
+  "questionId": "8193e8cd",
+  "correctAnswer": "$\\frac{1}{5}$",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Sum the numbers",
+      "content": "$$2 + 10 + 3 + 7 + 6 = 28$$"
+    },
+    {
+      "title": "Calculate the mean",
+      "content": "$$\\text{Mean} = \\frac{28}{5}$$"
+    },
+    {
+      "title": "Express mean as a fraction of the sum",
+      "content": "$$\\frac{\\text{Mean}}{\\text{Sum}} = \\frac{28/5}{28} = \\frac{28}{5} \\times \\frac{1}{28} = \\frac{1}{5}$$"
+    }
+  ]
+}

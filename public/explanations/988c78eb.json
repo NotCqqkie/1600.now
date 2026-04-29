@@ -1,0 +1,15 @@
+{
+  "questionId": "988c78eb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject of the relative clause",
+      "content": "The relative clause is \u201ca document that ______ the basic freedoms.\u201d The relative pronoun \u201cthat\u201d is the subject of this clause, and it refers to \u201ca document\u201d\u2014a singular noun."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The rule is subject-verb agreement: a verb must match its subject in number. Since \u201cthat\u201d is singular, we need a singular verb. \u201cOutlines\u201d is the only singular form; \u201chave outlined,\u201d \u201cwere outlining,\u201d and \u201coutline\u201d all use plural verb forms. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

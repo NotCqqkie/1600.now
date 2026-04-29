@@ -1,0 +1,15 @@
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the present-tense signal",
+      "content": "The main clause \u201cAn emulsifier is a type of compound\u201d establishes present tense to describe a general, timeless definition of what an emulsifier is\u2014not a historical event or one-time action."
+    },
+    {
+      "title": "Apply verb tense consistency",
+      "content": "The rule is that a relative clause describing a general function should match the main clause's present tense. \u201cServes\u201d (choice C) is simple present, which maintains consistency with the main clause's \u201cis.\u201d The other choices use past tense forms (served, had served, was serving), which would wrongly suggest a past action rather than a general characteristic. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

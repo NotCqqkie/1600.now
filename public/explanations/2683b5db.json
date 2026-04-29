@@ -1,0 +1,15 @@
+{
+  "questionId": "2683b5db",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide both sides by 0.01 to eliminate the coefficient",
+      "content": "Starting with $$t = 0.01(p - 40 000)$$, divide both sides by 0.01 (equivalent to multiplying by 100):<br/>$$\\frac{t}{0.01} = p - 40 000$$<br/>$$100t = p - 40 000$$"
+    },
+    {
+      "title": "Add 40 000 to both sides to isolate p",
+      "content": "$$100t + 40 000 = p$$<br/>Therefore $p = 100t + 40 000$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

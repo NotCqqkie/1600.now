@@ -1,0 +1,15 @@
+{
+  "questionId": "85439572",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage's key signal is <strong>Armijo\u2019s hypothesis</strong> that using <em>more heliostats</em> can <strong>reduce roasting time</strong> for solar-roasted chiles. The experiment used 38\u201342 heliostats with a 6-minute result, while propane took 4 minutes."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice B shows a direct test of the hypothesis: using <strong>50 heliostats</strong> achieves a <em>shorter time</em> (<strong>fewer than six minutes</strong>), which confirms that increasing heliostats reduces time. The other three either shift focus to unrelated factors (A), irrelevant preferences (C), or unintended side effects (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

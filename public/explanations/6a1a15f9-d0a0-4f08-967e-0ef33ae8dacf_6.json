@@ -1,0 +1,15 @@
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The crucial clue is Text 2's structure: it acknowledges that \u201cmany other predation relief studies show an increase in prey abundance\u201d (evidence for the principle), then immediately adds \u201cbut those studies often focus on small, rapidly reproducing prey... rather than large, slowly reproducing prey.\u201d This reveals the author recognizes the principle's evidential support while identifying a context-dependent limitation."
+    },
+    {
+      "title": "Match the author's position",
+      "content": "Choice A correctly states the author's position: the principle has evidence but isn't universally valid. The author supports this by acknowledging the principle works in documented cases but fails for Dall sheep\u2014showing the principle's applicability depends on prey traits. The other choices wrongly claim the evidence is disputed (B), blame predator traits (C), or question methodology (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

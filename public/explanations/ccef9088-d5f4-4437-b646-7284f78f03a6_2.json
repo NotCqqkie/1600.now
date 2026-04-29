@@ -1,0 +1,15 @@
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the passage is contrasting",
+      "content": "The passage says the Nobel Prize often goes to \u201ca single person,\u201d then states \u201crecognition isn't restricted to _____________ individuals,\u201d followed by \u201cInstead, success... is usually achieved through collaboration.\u201d The blank must name the individual, non-collaborative work style\u2014the opposite of what success actually requires."
+    },
+    {
+      "title": "Match the word to complete the logic",
+      "content": "\u201dSolitary\u201d means working alone\u2014the exact descriptor for individuals operating without collaboration. Recognition doesn't limit itself to such people because success in chemistry requires teamwork. The other choices miss the point: <em>coordinated</em> means working together (not solitude), <em>coincidental</em> doesn't apply to people, and <em>considerate</em> refers to personality, not work method. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Decode the 'no plateau' finding",
+      "content": "The crucial signal is that vitamin D levels show \u201cno evidence of plateauing\u201d as UVB reaches its highest local levels. A plateau would mean vitamin D synthesis has hit its ceiling. Since there's no plateau, the chimpanzees' synthesis capacity hasn't been reached\u2014they would produce more vitamin D if exposed to higher UVB."
+    },
+    {
+      "title": "Apply the finding to the choices",
+      "content": "If vitamin D production would increase with more UVB, then under the current (lower) UVB in Norway, these chimpanzees are producing less vitamin D than their inherent capacity allows. Choice C expresses exactly this: they synthesize less vitamin D than they are inherently capable of synthesizing. Choices A (contradicting the lower UVB premise), B (speculating about adaptations), and D (discussing supplementation) don't follow from the findings. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

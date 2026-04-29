@@ -1,0 +1,15 @@
+{
+  "questionId": "d3104a68",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the causal link",
+      "content": "The passage explains that birds sing at lower frequencies in dense vegetation BECAUSE of what dense vegetation does to high-frequency sounds. For this explanation to work, dense vegetation must disadvantage high-frequency sounds\u2014specifically, it must reduce the distance they can travel."
+    },
+    {
+      "title": "Match the reducing effect",
+      "content": "\u201dDiminish\u201d means to reduce or make smaller, which precisely captures how dense vegetation limits the distance high-frequency sounds travel. The other choices don't work: \u201cexceed\u201d suggests sounds go farther (backward), \u201cencompass\u201d and \u201cconceal\u201d don't address distance at all. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

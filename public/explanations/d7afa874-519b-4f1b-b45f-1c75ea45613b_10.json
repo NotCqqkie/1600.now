@@ -1,0 +1,15 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_10",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find p from the given point",
+      "content": "Since the graph passes through $(-3, 0)$, we have $h(-3) = 0$. Substituting $x = -3$:<br/>$$(-3+p)(-3-2)(2(-3)-12) = 0$$<br/>Simplifying the constant factors:<br/>$$(-3+p)(-5)(-18) = 0$$<br/>Since $-5 \\neq 0$ and $-18 \\neq 0$, the only way the product can be zero is if $-3 + p = 0$, giving us $p = 3$."
+    },
+    {
+      "title": "Evaluate h(0) with p = 3",
+      "content": "With $p = 3$, the function becomes $h(x) = (x+3)(x-2)(2x-12)$. Substituting $x = 0$:<br/>$$h(0) = (0+3)(0-2)(2 \\cdot 0 - 12)$$<br/>$$h(0) = (3)(-2)(-12)$$<br/>Computing the product: $(3)(-2) = -6$, and then $(-6)(-12) = 72$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

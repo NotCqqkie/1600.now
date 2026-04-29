@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The sentence before the blank says that telling the ravens apart can confound even experienced watchers, and the sentence after the blank gives a reason: the two species share similarities that sometimes make them look identical. <br/>The decisive clue is that the blank introduces the explanation for the difficulty."
+    },
+    {
+      "title": "Match the meaning to the transition",
+      "content": "Indeed works because it emphasizes that the statement about shared similarities is true, thereby supporting the idea that the similarities cause the confusion. <br/>The other three choices either contrast, add unrelated information, or imply a result that does not follow. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the constraint-to-alternative pivot",
+      "content": "The first sentence explains why Kepler-296e won't help us soon: distance makes it unreachable. The next sentence says humanity should focus on our solar system instead. The transition must signal a shift from an impractical goal to an alternative we should pursue."
+    },
+    {
+      "title": "Match the alternative signal",
+      "content": "<strong>Instead,</strong> marks a turn from one course of action to an alternative\u2014exactly what's needed when Kepler-296e is too far to use and we must focus on our solar system.<br/><br/>The other three don't work: <strong>Likewise</strong> suggests the statements are parallel, <strong>For example</strong> frames it as evidence rather than a new direction, and <strong>Next</strong> implies sequence rather than alternatives.<br/><br/>That matches choice B\u2014<strong>B</strong> is correct."
+    }
+  ]
+}

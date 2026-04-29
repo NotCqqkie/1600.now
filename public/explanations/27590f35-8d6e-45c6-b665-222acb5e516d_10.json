@@ -1,0 +1,19 @@
+{
+  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equations equal and simplify with substitution",
+      "content": "Since both expressions equal $y$:<br/><br/>$$5(x - 3) = (x - 3)^2$$<br/><br/>Let $u = (x - 3)$ to reduce the algebra:<br/><br/>$$5u = u^2$$<br/>$$u^2 - 5u = 0$$<br/>$$u(u - 5) = 0$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "$u(u - 5) = 0$ gives $u = 0$ or $u = 5$.<br/><br/><ul><li>If $u = 0$: $x - 3 = 0$, so $x = 3$</li><li>If $u = 5$: $x - 3 = 5$, so $x = 8$</li></ul>"
+    },
+    {
+      "title": "Find y and identify the answer",
+      "content": "For $x = 3$: $y = 5(3 - 3) = 0$ \u2192 $(3, 0)$<br/>For $x = 8$: $y = 5(8 - 3) = 25$ \u2192 $(8, 25)$<br/><br/>Only $(8, 25)$ appears among the answer choices. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

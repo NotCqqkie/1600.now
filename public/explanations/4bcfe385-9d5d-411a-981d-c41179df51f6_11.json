@@ -1,0 +1,16 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand to standard form",
+      "content": "Expand the left side: $x(x+9) - 15 = 0$ becomes $x^2 + 9x - 15 = 0$.<br/>From the standard form $ax^2 + bx + c = 0$, identify the coefficients: $a = 1$, $b = 9$, $c = -15$."
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "Calculate the discriminant: $b^2 - 4ac = 9^2 - 4(1)(-15) = 81 + 60 = 141$.<br/>Substitute into the formula: $$x = \\frac{-9 \\pm \\sqrt{141}}{2}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$$"
+    }
+  ]
+}

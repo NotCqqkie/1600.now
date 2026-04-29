@@ -1,0 +1,15 @@
+{
+  "questionId": "f868d438",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures around the blank",
+      "content": "Left of the blank: the opening elements of a proper noun (first and middle names). Right of the blank: the conclusion of the proper noun (\u201cKingelez\u201d) followed immediately by the main verb (\u201cwere featured\u201d) of the sentence. No clause boundary separates these elements."
+    },
+    {
+      "title": "Apply the standard for names within a clause",
+      "content": "Choice C (no punctuation) preserves the proper noun as a single, unbroken unit connecting to the verb. A semicolon would falsely mark a clause boundary within parts of a name; a comma would interrupt the name's structural continuity; a colon would suggest the name introduces what follows. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage describes a concrete problem (conversion challenges between different gauges) and then states what historians call the system. The transition must connect this problem to historians' characterization of it."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "\u201dHence\u201d (therefore) shows that the naming is a logical result of the uncoordinated gauge system described. The other options don't establish cause-and-effect: \u201cRather,\u201d suggests a correction, \u201cFor example,\u201d presents naming as an example, and \u201cLikewise,\u201d signals a parallel. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

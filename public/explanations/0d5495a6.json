@@ -1,0 +1,21 @@
+{
+  "questionId": "0d5495a6",
+  "correctAnswer": "45",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate h(0)",
+      "content": "Since $h(x)=x+b$, plugging in $x=0$ gives $h(0)=0+b=b$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Use given value",
+      "content": "We are told $h(0)$ equals the given value, so $b$ equals that same value.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

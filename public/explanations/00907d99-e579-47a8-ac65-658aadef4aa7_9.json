@@ -1,0 +1,19 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_9",
+  "correctAnswer": "64",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract circle F's radius from its equation",
+      "content": "The equation $(x + 7)^2 + (y + 7)^2 = 36$ is in standard form $(x - h)^2 + (y - k)^2 = r^2$. The right side equals $r_F^2 = 36$, so the radius of circle F is $r_F = \\sqrt{36} = 6$."
+    },
+    {
+      "title": "Calculate circle G's radius from the given relationship",
+      "content": "Circle G has the same center as circle F. Since its radius is 2 units greater than circle F's radius, we have $r_G = 6 + 2 = 8$."
+    },
+    {
+      "title": "Find the constant p in circle G's equation",
+      "content": "Circle G's equation is $(x + 7)^2 + (y + 7)^2 = p$, where the right side equals $r_G^2$. Therefore, $p = 8^2 = 64$."
+    }
+  ]
+}

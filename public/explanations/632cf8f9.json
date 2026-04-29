@@ -1,0 +1,15 @@
+{
+  "questionId": "632cf8f9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify increasing or decreasing",
+      "content": "Scan from left to right across the graph. As $x$ increases, $y$ increases. The function is increasing. This eliminates <strong>A</strong> (decreasing exponential) and <strong>C</strong> (decreasing linear)."
+    },
+    {
+      "title": "Identify exponential or linear shape",
+      "content": "The graph is curved, not straight. The rate of increase accelerates: the $y$-values rise slowly for negative $x$, then more rapidly as $x$ approaches and passes zero. This accelerating growth is the signature of exponential functions, while linear functions have constant slope and produce straight lines. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

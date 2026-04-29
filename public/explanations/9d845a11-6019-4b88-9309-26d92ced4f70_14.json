@@ -1,0 +1,16 @@
+{
+  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship between force, mass, and acceleration",
+      "content": "The problem states that force is the product of mass and acceleration.",
+      "formula": "$$F = m \\cdot a$$"
+    },
+    {
+      "title": "Substitute the given values",
+      "content": "With mass = 33 kg and acceleration = $a$ m/s\u00b2, we substitute into the formula: $F = 33 \\cdot a = 33a$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

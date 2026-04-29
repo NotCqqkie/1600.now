@@ -1,0 +1,15 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -6 into the function",
+      "content": "To find $f(-6)$, we substitute $x = -6$ into the original equation:<br/>$$f(-6) = \\frac{-6+9}{3}$$"
+    },
+    {
+      "title": "Simplify the numerator and divide",
+      "content": "Simplify the numerator: $-6 + 9 = 3$. Then evaluate the fraction:<br/>$$f(-6) = \\frac{3}{3} = 1$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "551c52b9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the hourly rate",
+      "content": "The rate is dollars per hour: $$\\text{rate} = \\frac{p}{w}$$ dollars per hour."
+    },
+    {
+      "title": "Calculate earnings for 39w hours",
+      "content": "For $39w$ hours, multiply the rate by the time: $$\\frac{p}{w} \\times 39w = 39p$$ dollars. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

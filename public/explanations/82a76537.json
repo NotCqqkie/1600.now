@@ -1,0 +1,15 @@
+{
+  "questionId": "82a76537",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "To the left is an introductory prepositional phrase (\u201cIn a JSON file storing data about fire belly newts\u201d), ending with a noun. To the right is the transitional phrase \u201cfor instance\u201d followed by an independent clause (\u201cyou could encounter a key such as...\u201d)."
+    },
+    {
+      "title": "Apply the parenthetical punctuation rule",
+      "content": "A parenthetical phrase is set apart from surrounding text by commas on both sides. Choice B correctly uses a comma before \u201cfor instance,\u201d treating it as parenthetical within a single sentence. The other choices violate basic punctuation rules: A creates a sentence fragment, C misuses a colon meant for introducing elaboration, and D applies a semicolon when the left side is not an independent clause.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

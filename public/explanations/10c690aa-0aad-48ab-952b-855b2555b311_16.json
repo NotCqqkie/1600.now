@@ -1,0 +1,15 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept from the table",
+      "content": "In the linear function $f(x) = mx + b$, the constant $b$ is the y-intercept, found when $x = 0$. The table shows $f(0) = 38$, so $b = 38$. This eliminates choices A ($b = 43$) and C ($b = 48$), leaving B and D."
+    },
+    {
+      "title": "Find the slope and match to the correct choice",
+      "content": "Using two points from the table, $(0, 38)$ and $(1, 43)$:<br/><br/>$$m = \\frac{43 - 38}{1 - 0} = \\frac{5}{1} = 5$$<br/><br/>Choice B has $m = 5$, and choice D has $m = 48$. Therefore, $f(x) = 5x + 38$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

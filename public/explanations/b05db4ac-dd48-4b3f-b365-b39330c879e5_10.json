@@ -1,0 +1,19 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original median",
+      "content": "With 51 stamps, the median is the 26th value when ordered by age. Count cumulative frequencies: age 65 (11 total), 70 (18 total), 75 (23 total), 80 (27 total). The 26th stamp falls in the age 80 group. <strong>Original median = 80</strong>."
+    },
+    {
+      "title": "Analyze the median and mean of the new collection",
+      "content": "With 52 stamps, the median is the average of the 26th and 27th values. Both the 26th and 27th stamps remain in the age 80 group (since cumulative frequency reaches 27 at age 80), so <strong>new median = 80</strong> \u2014 unchanged. <br/><br/>The new 135-year-old stamp is much older than any existing stamp (the oldest in the original collection is at most 95 years). Adding such a large outlier well above the current distribution pulls the mean upward. <strong>New mean > original mean</strong>."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "The mean increased while the median remained at 80. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

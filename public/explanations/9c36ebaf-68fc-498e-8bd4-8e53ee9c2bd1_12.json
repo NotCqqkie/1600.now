@@ -1,0 +1,16 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the coefficients in standard form",
+      "content": "The equation $x^2 + 49x + 1 = 0$ is in standard form $ax^2 + bx + c = 0$. Reading the coefficients directly: $a = 1$, $b = 49$, $c = 1$."
+    },
+    {
+      "title": "Apply the quadratic formula and match to the correct choice",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$",
+      "content": "Substituting $a = 1$, $b = 49$, $c = 1$ into the quadratic formula: $$x = \\frac{-49 \\pm \\sqrt{(49)^2 - 4(1)(1)}}{2(1)}$$ This gives two solutions using the $\\pm$ sign. One solution (using the plus sign) is $$x = \\frac{-49 + \\sqrt{(49)^2 - 4(1)(1)}}{2(1)}$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

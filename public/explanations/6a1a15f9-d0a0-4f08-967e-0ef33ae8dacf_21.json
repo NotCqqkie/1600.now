@@ -1,0 +1,15 @@
+{
+  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the paradox at the core",
+      "content": "The passage describes a paradox: new, more precise coordinates were calculated over decades, yet the prime meridian (defined by older data) wasn't actually changed. Better information didn't lead to the expected action. The transition must acknowledge this contradiction rather than simply narrate the events."
+    },
+    {
+      "title": "Choose the word that frames the paradox",
+      "content": "<strong>Granted</strong> is a concession word that sets up a contrast structure: <em>\u201cI acknowledge X, yet Y [surprisingly] happened instead.\u201d</em> It directly frames the paradox\u2014<em>\u201cGranted that new precise coordinates emerged, yet the meridian stayed put\u201d</em>\u2014showing why this situation is noteworthy and leading naturally to the eventual 1980s resolution. The others don't capture this structure: <em>Specifically</em> merely narrates detail, <em>Again and again</em> stresses repetition without addressing the paradox, and <em>To that end</em> wrongly implies purposeful causality instead of inaction. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

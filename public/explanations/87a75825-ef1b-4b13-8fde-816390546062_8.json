@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial condition and rate of change",
+      "content": "When the line closes at $t = 0$, there are 238 people in line. Each minute, 14 people board the ride and leave. This means:<ul><li>Initial value at $t = 0$: $p(0) = 238$</li><li>Rate of change (slope): $-14$ people per minute (negative because the number decreases)</li></ul>"
+    },
+    {
+      "title": "Write the linear function",
+      "content": "With initial value 238 and slope $-14$, the linear function is:<br/>$$p(t) = -14t + 238$$<br/>Check: at $t = 1$, $p(1) = -14(1) + 238 = 224 = 238 - 14$, confirming exactly 14 people departed in the first minute. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "f8a322d9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the frequencies from both histograms",
+      "content": "Reading the bar heights in each histogram:<br/><br/><strong>Data Set A:</strong><br/>[10, 20): frequency = 3<br/>[20, 30): frequency = 4<br/>[30, 40): frequency = 7<br/>[40, 50): frequency = 9<br/>Total = 23 \u2713<br/><br/><strong>Data Set B:</strong><br/>[10, 20): frequency = 3<br/>[20, 30): frequency = 4<br/>[30, 40): frequency = 7<br/>[40, 50): frequency = 9<br/>Total = 23 \u2713<br/><br/>Since the mean = (sum of all values) / 23, we need to find which integer assignments within each interval minimize the difference between the two means."
+    },
+    {
+      "title": "Find the minimum sum for each data set",
+      "content": "To minimize each sum, assign the lowest value in each interval:<br/><br/>$$\\text{Min sum (both sets)} = 3(10) + 4(20) + 7(30) + 9(40)$$<br/>$$= 30 + 80 + 210 + 360 = 680$$"
+    },
+    {
+      "title": "Find the maximum sum for each data set",
+      "content": "To maximize each sum, assign the highest value in each interval (respecting the upper bound is exclusive):<br/><br/>$$\\text{Max sum (both sets)} = 3(19) + 4(29) + 7(39) + 9(49)$$<br/>$$= 57 + 116 + 273 + 441 = 887$$"
+    },
+    {
+      "title": "Minimize the difference in means",
+      "content": "Since both sets have identical frequency distributions, the possible sums for both range from 680 to 887. To minimize the difference in means, assign the same sum to both sets.<br/><br/>When both sets have sum = 680 (or any other equal value):<br/>$$\\text{Mean}_A = \\frac{680}{23}, \\quad \\text{Mean}_B = \\frac{680}{23}$$<br/>$$\\text{Difference} = \\frac{680}{23} - \\frac{680}{23} = 0$$<br/><br/>This smallest possible difference matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

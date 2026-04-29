@@ -1,0 +1,15 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret 0.33x",
+      "content": "The expression $0.33x$ means $\\frac{33}{100} \\cdot x$, or 33% of the original value. This is the value <em>after</em> the decrease."
+    },
+    {
+      "title": "Find the percent decrease",
+      "content": "If 33% of the original remains after the decrease, then the original was reduced by:<br/>$$100\\% - 33\\% = 67\\%$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

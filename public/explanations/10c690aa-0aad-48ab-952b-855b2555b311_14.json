@@ -1,0 +1,15 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize x from the first equation",
+      "content": "The first equation states $x = 8$ directly. This is already the $x$-coordinate of the intersection point, so no solving is needed."
+    },
+    {
+      "title": "Substitute into the second equation",
+      "content": "Now substitute $x = 8$ into the second equation $y = x^2 + 7$:<br/><br/>$$y = (8)^2 + 7 = 64 + 7 = 71$$<br/><br/>The $y$-coordinate at the intersection is 71. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

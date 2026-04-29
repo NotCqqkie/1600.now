@@ -1,0 +1,15 @@
+{
+  "questionId": "9eb43963",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the singular antecedent",
+      "content": "The sentence introduces the singular noun \u201cWater\u201d as the subject. In the second clause, the rotation of Earth and interference cause ____ to swirl into a whirlpool. This blank must refer to \u201cWater.\u201d Since \u201cWater\u201d is singular, the pronoun must be singular to match."
+    },
+    {
+      "title": "Apply number agreement",
+      "content": "A pronoun must match its antecedent in number. <strong>It</strong> is the only singular pronoun among the choices. These, those, and them are all plural forms that would violate this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

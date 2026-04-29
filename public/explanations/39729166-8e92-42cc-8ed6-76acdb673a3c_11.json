@@ -1,0 +1,19 @@
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_11",
+  "correctAnswer": "565",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the Fahrenheit temperature and isolate the fraction",
+      "content": "Substitute $h = 557.33$ into the conversion formula:<br/>$$557.33 = \\frac{9(v-273.15)}{5} + 32$$<br/>Subtract 32 from both sides to isolate the fraction:<br/>$$525.33 = \\frac{9(v-273.15)}{5}$$"
+    },
+    {
+      "title": "Clear the fraction and solve for the Kelvin offset",
+      "content": "Multiply both sides by 5:<br/>$$2626.65 = 9(v-273.15)$$<br/>Divide both sides by 9:<br/>$$291.85 = v - 273.15$$"
+    },
+    {
+      "title": "Solve for the Kelvin temperature",
+      "content": "Add 273.15 to both sides:<br/>$$v = 291.85 + 273.15 = 565 \\text{ kelvins}$$"
+    }
+  ]
+}

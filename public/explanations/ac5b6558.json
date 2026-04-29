@@ -1,0 +1,15 @@
+{
+  "questionId": "ac5b6558",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate x = 8,500 on the elevation axis",
+      "content": "Find 8,500 feet on the horizontal axis\u2014it lies midway between the 8,000 and 9,000 marks."
+    },
+    {
+      "title": "Trace vertically to the line of best fit and read the temperature",
+      "content": "Moving vertically upward from 8,500 feet, the point meets the line of best fit at a temperature of approximately 39\u00b0F on the vertical axis. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

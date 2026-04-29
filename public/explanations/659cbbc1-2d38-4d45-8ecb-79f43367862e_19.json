@@ -1,0 +1,20 @@
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate outer and inner radii",
+      "content": "The pipe has an outside diameter of 60 inches, so the outer radius $ R = 30 $ inches. The wall thickness is $ \\frac{5}{8} $ inches, so the inner radius $ r = 30 - \\frac{5}{8} = 29.375 $ inches. The height $ h = 144 $ inches."
+    },
+    {
+      "title": "Compute volume using difference of squares",
+      "formula": "$$V = \\pi h (R^2 - r^2) = \\pi h (R - r)(R + r)$$",
+      "content": "Factor the volume formula as $ \\pi h (R - r)(R + r) $. $ R - r = 0.625 $, $ R + r = 59.375 $. Multiply: $ 0.625 \\times 59.375 = 37.109375 $. Multiply by $ h $: $ 144 \\times 37.109375 = 5343.75 $. $ \\pi \\times 5343.75 \\approx 3.1416 \\times 5343.75 $."
+    },
+    {
+      "title": "Approximate total volume",
+      "content": "Calculate $ 3.1416 \\times 5343.75 $: Approximate $ 3.14 \\times 5343.75 \\approx 16,787.88 $. The closest choice is $ D $. That matches choice <strong>D</strong>."
+    }
+  ]
+}

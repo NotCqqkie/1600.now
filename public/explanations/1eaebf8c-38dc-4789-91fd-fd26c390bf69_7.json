@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the defining conclusion about cause",
+      "content": "The key signal is the final statement: \u201cgreater proximity alone can't explain the difference in park use.\u201d This tells us directly that something other than proximity must be causing Quito's higher park usage rate compared to Lima's."
+    },
+    {
+      "title": "Match the causal claim to the answer",
+      "content": "Choice D fits the passage's reasoning\u2014the difference must be caused by something other than proximity to parks. The other choices introduce factors never discussed in the text\u2014unexpected results, data inaccuracies, and outdated sources.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

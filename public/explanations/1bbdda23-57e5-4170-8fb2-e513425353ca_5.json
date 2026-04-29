@@ -1,0 +1,15 @@
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signal",
+      "content": "The word \u201cHowever\u201d introduces a direct contradiction: the passage states that horizontal gene transfer \u201chas rarely been observed among eukaryotes,\u201d while the underlined sentence reveals that \u201cnew studies suggest...it is more common in eukaryotes than originally thought.\u201d This reversal signals that the earlier understanding was incomplete or inaccurate."
+    },
+    {
+      "title": "Apply the signal to find what the sentence does",
+      "content": "By introducing new studies showing HGT is \u201cmore common in eukaryotes than originally thought,\u201d the underlined sentence challenges the earlier claim that HGT is rare in eukaryotes \u2014 signaling that this conventional belief may be inaccurate. This is exactly what choice A describes. Choices B, C, and D either describe earlier parts of the passage, make unsupported claims, or reference a distinction established earlier. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

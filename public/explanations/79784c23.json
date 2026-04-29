@@ -1,0 +1,15 @@
+{
+  "questionId": "79784c23",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognizing equivalent equations",
+      "content": "For infinitely many solutions, both equations must represent the same line. The second equation must be equivalent to $y = 6x + 3$ \u2014 they should simplify to the same form."
+    },
+    {
+      "title": "Simplify each choice",
+      "content": "<ul><li><strong>A)</strong> $y = 2(6x) + 3 = 12x + 3$ \u2014 different slope, not equivalent.</li><li><strong>B)</strong> $y = 2(6x+3) = 12x + 6$ \u2014 different slope and intercept, not equivalent.</li><li><strong>C)</strong> $2y = 2(6x) + 3 = 12x + 3$, so $y = 6x + 1.5$ \u2014 different intercept, not equivalent.</li><li><strong>D)</strong> $2y = 2(6x+3) = 12x + 6$, so $y = 6x + 3$ \u2014 this matches the original equation exactly. D is the original equation multiplied by 2 on both sides, which preserves equivalence. That matches choice D \u2014 <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

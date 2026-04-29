@@ -1,0 +1,15 @@
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun phrase structure",
+      "content": "The phrase reads: \u201ca photograph by British ______ Chris Killip.\u201d The blank falls between \u201cartist\u201d (the expected word) and the proper name \u201cChris Killip,\u201d testing whether they need punctuation between them."
+    },
+    {
+      "title": "Apply the naming rule",
+      "content": "When a proper name immediately identifies someone described by preceding nouns, no punctuation separates them\u2014they form one identifying unit. \u201cBritish artist Chris Killip\u201d naturally combines nationality, profession, and name to identify the photographer. Choice C provides the unpunctuated \u201cartist\u201d that preserves this unified identification. The other options introduce unnecessary punctuation that fragments the unified phrase.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

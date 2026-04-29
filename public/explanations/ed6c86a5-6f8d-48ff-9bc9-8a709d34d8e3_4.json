@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Infinitely many solutions means the equations are identical",
+      "content": "A system of linear equations has infinitely many solutions when both equations represent the same line. Since the first equation is $y = \\frac{2}{7}x + 3$, and the second is $y = mx + b$, they must be the same equation."
+    },
+    {
+      "title": "Match coefficients to find b",
+      "content": "For the equations to be identical, the second equation must equal $$y = \\frac{2}{7}x + 3.$$ Comparing $y = mx + b$ with this form shows that $m = \\frac{2}{7}$ and $b = 3$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

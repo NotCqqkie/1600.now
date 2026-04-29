@@ -1,0 +1,15 @@
+{
+  "questionId": "2875ba81",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate x by scaling the second equation",
+      "content": "Multiply the second equation by 3 to match the coefficient of $x$ in the first equation:<br/>$$3(2x + 2y) = 3(10)$$<br/>$$6x + 6y = 30$$"
+    },
+    {
+      "title": "Subtract to isolate y",
+      "content": "Subtract the scaled equation from the first equation to eliminate $x$:<br/>$$(6x + 7y) - (6x + 6y) = 28 - 30$$<br/>$$y = -2$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

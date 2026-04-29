@@ -1,0 +1,15 @@
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_8",
+  "correctAnswer": "112",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We want to find $x$ such that $g(x) = 76$. Substitute 76 into the function definition $g(x) = 2x - 148$:<br/>$$2x - 148 = 76$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Add 148 to both sides to isolate the term with $x$:<br/>$$2x = 224$$<br/>Then divide both sides by 2:<br/>$$x = 112$$"
+    }
+  ]
+}

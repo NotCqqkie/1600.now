@@ -1,0 +1,15 @@
+{
+  "questionId": "f0f9bf8f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "<strong>F\u00e9lix Gonz\u00e1lez-Torres</strong> is the subject of the previous sentence\u2014one person (singular). The blank needs a pronoun that refers back to him."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "<strong>He</strong> is the only singular pronoun, correctly applying pronoun-antecedent agreement with Gonz\u00e1lez-Torres. The others violate pronoun-antecedent agreement: <strong>They all</strong> and <strong>Those</strong> are plural, <strong>Both</strong> implies multiple entities. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

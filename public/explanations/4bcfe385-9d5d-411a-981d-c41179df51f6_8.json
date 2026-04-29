@@ -1,0 +1,15 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand and simplify both sides",
+      "content": "Distribute on the left side:<br/>$$10(x+15)+5x = 10x + 150 + 5x = 15x + 150$$<br/><br/>Distribute on the right side:<br/>$$15(x+10) = 15x + 150$$<br/><br/>The equation simplifies to $15x + 150 = 15x + 150$."
+    },
+    {
+      "title": "Recognize an identity",
+      "content": "Both sides are identical. This is an identity\u2014a statement that is true for every value of $x$. Since the equation is satisfied by all real numbers, there are infinitely many solutions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

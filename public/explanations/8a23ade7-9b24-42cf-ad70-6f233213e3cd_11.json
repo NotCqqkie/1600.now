@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage states that \u201cmany more people they recruited had the desired characteristics for the study than would be expected by chance alone\u201d\u2014snowball sampling succeeded far beyond what random recruitment would predict."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D directly explains this success: if the seeds' social networks include a high proportion of people who share characteristics with the seeds, then recruiting from these networks naturally yields participants with the desired traits. The other choices either assume the networks lack shared characteristics (contradicting the observed success) or address an unrelated factor (C focuses on network size rather than similarity). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

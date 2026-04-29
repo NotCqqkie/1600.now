@@ -1,0 +1,15 @@
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the reasoning structure",
+      "content": "The passage begins with a specific discovery by the researchers (60-million-year-old glaciers) and then presents their conclusion about when Antarctica had glaciers. The transition must logically connect these two parts."
+    },
+    {
+      "title": "Choose the logical connector",
+      "content": "\u201dThus\u201d (meaning \u201ctherefore\u201d) correctly signals that the conclusion flows logically from the discovery. The other choices\u2014\u201dby contrast,\u201d \u201ceven so,\u201d \u201cnevertheless\u201d\u2014all suggest contradiction or concession, but the reasoning here is straightforward consequence, not opposition. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

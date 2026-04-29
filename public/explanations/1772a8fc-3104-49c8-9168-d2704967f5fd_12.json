@@ -1,0 +1,15 @@
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the country with 0.55 in 2020",
+      "content": "Scan the 2020 column of the table to find which country mined 0.55 million metric tons. That country is Kazakhstan."
+    },
+    {
+      "title": "Find that country's 1995 value",
+      "content": "According to the table, Kazakhstan mined <strong>0.26</strong> million metric tons in 1995. The other choices are either data from different countries or values not present in the table. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

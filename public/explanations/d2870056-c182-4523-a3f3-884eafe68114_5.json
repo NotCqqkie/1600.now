@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear equation components",
+      "content": "This is a linear growth problem with two key pieces of information:<br/><ul><li>Initial length at birth (when $x = 0$): 160 cm \u2014 this is the $y$-intercept</li><li>Rate of growth: 4.8 cm per month \u2014 this is the slope</li></ul>The general form for a linear relationship is $y = mx + b$, where $m$ is the slope and $b$ is the $y$-intercept."
+    },
+    {
+      "title": "Write the equation and identify the answer",
+      "content": "Substitute the slope $m = 4.8$ and $y$-intercept $b = 160$ into the linear equation:<br/>$$y = 4.8x + 160$$<br/>Verify: at birth ($x = 0$), $y = 4.8(0) + 160 = 160$ cm \u2713, and after one month ($x = 1$), $y = 4.8(1) + 160 = 164.8$ cm, which is a 4.8 cm increase as stated. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

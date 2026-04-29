@@ -1,0 +1,15 @@
+{
+  "questionId": "05417146",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the operation needed",
+      "content": "We have the equation $w + 7 = 357$. To solve for $w$, we need to isolate the variable. Since we have $w + 7$, we need to undo the addition of 7 by subtracting 7 from both sides."
+    },
+    {
+      "title": "Subtract 7 and solve for w",
+      "content": "Subtracting 7 from both sides of the equation: $$w = 357 - 7 = 350$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "questionId": "8a87c2c8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "Add both equations:<br/>$$(x + 3) + (x - 3) = (-2y + 5) + (2y + 7)$$<br/><br/>The $y$ terms cancel, giving:<br/>$$2x = 12$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

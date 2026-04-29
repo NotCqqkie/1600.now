@@ -1,0 +1,15 @@
+{
+  "questionId": "3a35ddd1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tense framework",
+      "content": "The sentence describes a general, timeless fact about wood frogs using present-tense verbs (\u201cis unable,\u201d \u201chelps prevent\u201d). The blank verb must maintain this present-tense framework."
+    },
+    {
+      "title": "Apply the rule: use simple present for timeless facts",
+      "content": "\u201dSurvives\u201d uses simple present tense, matching the sentence's timeless-fact context about wood frog biology. The wrong choices violate the present-tense rule by using past tense forms (\u201chad survived,\u201d \u201csurvived\u201d) or conditional (\u201cwould survive\u201d), which would shift the statement to describe a specific past event or hypothetical situation rather than a general truth. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

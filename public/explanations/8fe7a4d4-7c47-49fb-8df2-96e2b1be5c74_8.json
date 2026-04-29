@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the defining contrast",
+      "content": "The passage uses <strong>\u201cAlthough this approach offers unique benefits... it remains a relatively underutilized resource\u201d</strong> to show a clear contradiction between hDNA's value and its usage. The keyword <em>\u201cAlthough\u201d</em> signals this trade-off structure."
+    },
+    {
+      "title": "Match the supported claim",
+      "content": "The correct answer must address both hDNA\u2019s <em>benefits</em> and its <em>underuse</em>. A ties to the first part of the sentence by highlighting <em>\u201cunique benefits\u201d</em> that justify its research value. B mischaracterizes the scope (\u201cmainly to pathogens\u201d), C wrongly attributes underuse to <em>controversy</em> (not degradation), and D incorrectly states a degradation comparison not in the text. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

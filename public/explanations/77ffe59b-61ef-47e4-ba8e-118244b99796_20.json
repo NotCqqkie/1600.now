@@ -1,0 +1,15 @@
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank follows a long noun clause ('That the repeated thermonuclear... eight years') and needs to agree in number with this singular subject. The phrase after the blank introduces a reason for the phenomenon.<br/><br/>The first side is a <strong>noun clause as subject</strong> (\"That the... years\"). The second side is a <strong>verb + prepositional phrase</strong> (\"[blank] to the white dwarf's...\")."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "The subject ('That the repeated thermonuclear outbursts...') is <strong>singular</strong>, requiring a singular verb. Choice A ('is due') correctly matches this in number and form. The other choices either lack a verb (B) or use non-finite forms (C, D) that violate the need for a main clause verb. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the arc-to-circle proportion",
+      "content": "The arc measure of 60\u00b0 represents $\\frac{60\u00b0}{360\u00b0} = \\frac{1}{6}$ of the full circle. Therefore, the arc length must be the same fraction of the circumference. Setting up: $$4 = \\frac{1}{6} \\cdot C$$"
+    },
+    {
+      "title": "Solve for circumference",
+      "content": "Multiply both sides by 6: $$C = 4 \\times 6 = 24 \\text{ inches}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

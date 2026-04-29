@@ -1,0 +1,15 @@
+{
+  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the matching observation",
+      "content": "Anecdotal evidence suggested fungi maintain cooler temperatures. The experimental findings now show this same observation \u2014 fungi maintained lower temperatures in the lab. The blank must express that the experimental results validate the earlier suggestion."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "<strong>Corroborate</strong> means to confirm or support with evidence. The experimental findings serve this function \u2014 they provide evidence for what was anecdotally suggested. The other three don't express confirmation: obscure makes unclear, curtail reduces, and encapsulate merely summarizes. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

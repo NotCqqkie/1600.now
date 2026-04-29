@@ -1,0 +1,19 @@
+{
+  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_16",
+  "correctAnswer": "1.152",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the box structure",
+      "content": "The problem describes a cube with edge length 48 cm and no lid. A cube without a lid has 5 square faces: the bottom and 4 vertical sides."
+    },
+    {
+      "title": "Calculate total surface area",
+      "content": "Each face is a square with side 48 cm, so each has area $48^2 = 2,304$ cm\u00b2. With 5 faces:<br/>$$5 \\times 2,304 = 11,520 \\text{ cm}^2$$"
+    },
+    {
+      "title": "Convert to square meters",
+      "content": "Using the unit conversion 1 meter = 100 centimeters:<br/>$$1 \\text{ m}^2 = (100)^2 = 10,000 \\text{ cm}^2$$<br/>Therefore:<br/>$$\\frac{11,520}{10,000} = 1.152 \\text{ m}^2$$"
+    }
+  ]
+}

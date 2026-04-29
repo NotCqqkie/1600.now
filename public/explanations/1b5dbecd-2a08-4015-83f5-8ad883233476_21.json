@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clue: Australia restricts which member nation",
+      "content": "The OECD has 38 member countries. The sentence specifies which member had a price of 113 USD. Since <em>\u201cAustralia\u201d</em> must identify which of the 38 member nations is meant, it's the restricting element\u2014essential for understanding which country we're discussing."
+    },
+    {
+      "title": "Apply the rule for restrictive apposition",
+      "content": "Restrictive appositives\u2014where the second noun is essential for identification\u2014require no punctuation. <strong>Option A places \u201cAustralia\u201d directly after \u201cnation\u201d</strong>, applying this rule to identify which of the 38 member nations is meant. Options B and D add punctuation suggesting non-restrictive apposition, while C hyphens the words as a compound. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

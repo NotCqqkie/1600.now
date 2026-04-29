@@ -1,0 +1,11 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify and identify the contradiction",
+      "content": "The equation $2x + 5 = 2x$ has $2x$ on both sides. Subtract $2x$ from both sides:<br/><br/>$$2x + 5 - 2x = 2x - 2x$$<br/>$$5 = 0$$<br/><br/>This is a contradiction \u2014 a false statement that can never be true. Therefore, there are <strong>zero solutions</strong>. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

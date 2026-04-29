@@ -1,0 +1,15 @@
+{
+  "questionId": "9bedc4a0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the confidence interval",
+      "content": "A margin of error specifies the plausible range around a point estimate. The interval extends from the estimate minus the margin to the estimate plus the margin:<br/><br/>$$12\\% - 3.62\\% = 8.38\\% \\quad \\text{(lower bound)}$$<br/><br/>$$12\\% + 3.62\\% = 15.62\\% \\quad \\text{(upper bound)}$$"
+    },
+    {
+      "title": "Identify the correct conclusion",
+      "content": "The confidence interval [8.38%, 15.62%] represents all values that are plausible for the true defect percentage based on the sample and margin of error. This is exactly what choice B states. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

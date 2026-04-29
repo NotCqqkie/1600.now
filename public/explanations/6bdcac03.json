@@ -1,0 +1,15 @@
+{
+  "questionId": "6bdcac03",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fundamental property of real squares",
+      "content": "For any real number $x$, the square $x^2$ is always non-negative. This means $x^2 \\geq 0$ for all real $x$."
+    },
+    {
+      "title": "Apply to the equation",
+      "content": "The equation requires $x^2 = -841$. Since $-841$ is negative and $x^2$ must be non-negative for all real values of $x$, there is no real number that satisfies this equation. Therefore, there are zero real solutions. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

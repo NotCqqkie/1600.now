@@ -1,0 +1,15 @@
+{
+  "questionId": "0adbe034",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common factor",
+      "content": "Notice that the left side of the equation can be factored: $4x - 28 = 4(x - 7)$. Substitute this into the equation to get $4(x - 7) = -24$."
+    },
+    {
+      "title": "Divide both sides by 4",
+      "content": "Divide both sides by 4: $$x - 7 = \\frac{-24}{4} = -6$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "bc7b1a04",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the velocity bounds from the passage logic",
+      "content": "The passage tells us that pre-2006 estimates were low enough to permit orbit, but the 2006 Kallivayalil estimate is too high to permit orbit. The maximum velocity that would allow the LMC to maintain orbit must therefore fall somewhere between these two measurements \u2014 higher than what the pre-2006 studies measured, but lower than what the 2006 study reported."
+    },
+    {
+      "title": "Use table values to find the range",
+      "content": "From the table, the highest pre-2006 estimate was 344 km/s (Murai and Fujimoto, 1980), which allowed orbit to occur. The 2006 Kallivayalil estimate was 378 km/s, which does not allow orbit. Since the true maximum must exceed 344 km/s (to surpass what already worked) and fall short of 378 km/s (to stay below what failed), the answer is the band between them. Choices B, C, and D either place the maximum below the proven safe level, above the problematic level, or miss the range entirely. <strong>That matches choice A \u2014 above 344 km/s but below 378 km/s.</strong>"
+    }
+  ]
+}

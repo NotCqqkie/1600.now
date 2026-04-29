@@ -1,0 +1,15 @@
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The first sentence states that ticker tape \u201chad long since been retired by the 1986 parade\u201d; the blank must introduce what happened instead. The relationship is <em>cause to consequence</em>."
+    },
+    {
+      "title": "Match the consequence",
+      "content": "\u201dThen\u201d directly signals that shredded standard paper is the consequence that follows the retirement of ticker tape.<br/>The other three transitions either add information without showing causation, restate the previous idea, or acknowledge context without indicating consequence.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

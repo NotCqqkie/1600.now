@@ -1,0 +1,15 @@
+{
+  "questionId": "fa07bcb6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure",
+      "content": "Before the blank, we have an independent clause (\u201cThe clashing notes can echo a long way across the mountains\u201d) followed by \u201cwhich is why\u201d \u2014 a relative clause that introduces a causal explanation. The blank must contain a clause that provides the logical reason."
+    },
+    {
+      "title": "Apply the relative clause rule",
+      "content": "A relative clause introduced by \u201cwhich is why\u201d must use normal word order (subject before auxiliary verb) and end with a period that closes the sentence. Option B (\u201cganja has been used as a communication method.\u201d) correctly applies this rule with normal word order and appropriate closing punctuation. Options A, C, and D violate this rule by either misplacing question marks within the relative clause (A, D) or inverting the word order unnecessarily (C). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

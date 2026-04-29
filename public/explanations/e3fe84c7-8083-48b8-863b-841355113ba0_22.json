@@ -1,0 +1,15 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "Acceleration has dimensions distance/time\u00b2. We need to convert both parts:<ul><li>Distance: 1 mile = 1,609 m, so multiply by $\\frac{1}{1609}$</li><li>Time: 1 min = 60 s, so 1 min\u00b2 = 3,600 s\u00b2. When converting per-second\u00b2 to per-minute\u00b2, multiply by 3,600</li></ul>The combined conversion is:<br/>$$2.7 \\text{ m/s}^2 \\times \\frac{1}{1609} \\times 3600$$"
+    },
+    {
+      "title": "Calculate and identify the choice",
+      "content": "$$\\frac{2.7 \\times 3600}{1609} = \\frac{9720}{1609}$$<br/><br/>Computing: $9720 \\div 1609 \\approx 6.04$<br/><br/>Rounded to the nearest tenth: 6.0. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

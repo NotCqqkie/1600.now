@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_18",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median of each data set",
+      "content": "From the dot plots:<br/><ul><li>Data Set A has frequencies 1, 3, 4, 5, 4, 2, 1 at values 4\u201310 (20 values total)</li><li>Data Set B has frequencies 1, 2, 3, 4, 4, 3, 2 at values 4\u201310 (19 values total)</li></ul><br/>For Data Set A (20 values), the median is the average of the 10th and 11th values. The cumulative count through value 7 is 1+3+4+5 = 13, and through value 6 is 1+3+4 = 8. Both the 10th and 11th values fall at 7, so median A = 7.<br/><br/>For Data Set B (19 values), the median is the 10th value. The cumulative count through value 7 is 1+2+3+4 = 10, and through value 6 is 1+2+3 = 6. The 10th value falls at 7, so median B = 7.<br/><br/><strong>Statement I is true.</strong>"
+    },
+    {
+      "title": "Compare standard deviations",
+      "content": "Standard deviation measures how spread values are around the center. Data Set A shows a sharp peak at value 7 (with 5 dots clustered at the center), while Data Set B has a flatter, more uniform distribution across the range 4\u201310. A tightly concentrated distribution has smaller standard deviation; a widely dispersed distribution has larger standard deviation. Since the two sets have different distributions, their standard deviations are different. <strong>Statement II is false.</strong> That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

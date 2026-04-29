@@ -1,0 +1,19 @@
+{
+  "questionId": "58c26db8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the perimeter formula for an isosceles right triangle",
+      "content": "In an isosceles right triangle with legs of length $a$, the hypotenuse is $a\\sqrt{2}$ (by the Pythagorean theorem). The perimeter is:<br/><br/>$$a + a + a\\sqrt{2} = a(2 + \\sqrt{2})$$<br/><br/>We're given that the perimeter is $18 + 18\\sqrt{2}$, so:<br/><br/>$$a(2 + \\sqrt{2}) = 18 + 18\\sqrt{2}$$"
+    },
+    {
+      "title": "Solve for the leg length by rationalizing",
+      "content": "Factor the right side: $18 + 18\\sqrt{2} = 18(1 + \\sqrt{2})$<br/><br/>$$a(2 + \\sqrt{2}) = 18(1 + \\sqrt{2})$$<br/><br/>$$a = \\frac{18(1 + \\sqrt{2})}{2 + \\sqrt{2}}$$<br/><br/>Rationalize by multiplying numerator and denominator by $(2 - \\sqrt{2})$:<br/><br/>Numerator: $18(1 + \\sqrt{2})(2 - \\sqrt{2}) = 18(2 - \\sqrt{2} + 2\\sqrt{2} - 2) = 18\\sqrt{2}$<br/><br/>Denominator: $(2 + \\sqrt{2})(2 - \\sqrt{2}) = 4 - 2 = 2$<br/><br/>$$a = \\frac{18\\sqrt{2}}{2} = 9\\sqrt{2}$$"
+    },
+    {
+      "title": "Calculate the hypotenuse",
+      "content": "The hypotenuse is $a\\sqrt{2}$:<br/><br/>$$9\\sqrt{2} \\cdot \\sqrt{2} = 9 \\cdot 2 = 18$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

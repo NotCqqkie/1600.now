@@ -1,0 +1,15 @@
+{
+  "questionId": "8f0c82e2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret minimum and translate the expression",
+      "content": "<em>Minimum value of $x$</em> means $x$ is bounded below, so we use the $\\ge$ form. Now translate <em>12 less than 6 times another number $n$</em>:<br/><ul><li>6 times $n$ equals $6n$</li><li>12 less than $6n$ means $6n - 12$</li></ul>"
+    },
+    {
+      "title": "Write the inequality",
+      "content": "Since the minimum value of $x$ is $6n - 12$:<br/>$$x \\ge 6n - 12$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

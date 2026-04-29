@@ -1,0 +1,15 @@
+{
+  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structures",
+      "content": "The sentence has two related units: <strong>\u201cIt began to dim over the next few weeks\u201d</strong> (an independent clause stating an observation) and <strong>\u201calthough they are extremely powerful, supernovas are short-lived phenomena\u201d</strong> (a dependent clause introducing a contrast, followed by an independent clause explaining supernovas). The word <strong>\u201chowever\u201d</strong> appears in the blank to signal the transition between these ideas \u2014 contrasting the observation that <em>this particular</em> supernova dimmed over weeks with the general fact that supernovas are short-lived."
+    },
+    {
+      "title": "Match the correct transition punctuation",
+      "content": "When <strong>\u201chowever\u201d</strong> introduces a contrasting thought that includes a dependent clause elaboration, the correct pattern is: independent clause + comma + <strong>however</strong> + semicolon + dependent clause elaboration. Here, the comma separates the first clause from the transition word, and the semicolon marks the strong punctuation break before the dependent clause elaboration that follows. Option B breaks the sentence unnecessarily and creates two thoughts when they should be tightly linked. Option C uses commas around <strong>\u201chowever,\u201d</strong> as if it interrupts the thought, but <strong>\u201chowever\u201d</strong> is a true transition, not an interrupting parenthetical. Option D uses a semicolon before <strong>\u201chowever,\u201d</strong> which would require a pure independent clause to follow, but <strong>\u201calthough\u201d</strong> introduces a dependent clause. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

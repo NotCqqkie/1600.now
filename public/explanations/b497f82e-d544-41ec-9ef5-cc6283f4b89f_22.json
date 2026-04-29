@@ -1,0 +1,15 @@
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key phrase",
+      "content": "The second sentence says \u201cDuchamp's <em>Fountain</em> did just that\u201d \u2014 the work actually accomplished what Duchamp intended in sentence 1. The transition must confirm that the intention was realized."
+    },
+    {
+      "title": "Match the confirmation",
+      "content": "<strong>Indeed,</strong> affirms that the intention was fulfilled \u2014 \u201cdid just that\u201d directly supports this confirmation. The other three either signal parallelism, contrast, or addition rather than affirming the realization of the intent. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

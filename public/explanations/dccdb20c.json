@@ -1,0 +1,15 @@
+{
+  "questionId": "dccdb20c",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentage to decimal",
+      "content": "To find 6% of 450, convert the percentage: $$6\\% = \\frac{6}{100} = 0.06$$"
+    },
+    {
+      "title": "Multiply total by the decimal percentage",
+      "content": "Number of black tiles = $$450 \\times 0.06 = 27$$"
+    }
+  ]
+}

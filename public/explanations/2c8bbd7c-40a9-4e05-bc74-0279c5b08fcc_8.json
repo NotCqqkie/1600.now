@@ -1,0 +1,19 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the polynomial to expose common factors",
+      "content": "Rewrite the four-term polynomial as two pairs: $(7x^2 - 9x) + (14x - 18)$. This grouping reveals a common binomial factor."
+    },
+    {
+      "title": "Factor each group separately",
+      "content": "$$7x^2 - 9x = x(7x - 9)$$<br/>$$14x - 18 = 2(7x - 9)$$<br/>Both groups now contain $(7x - 9)$ as a factor."
+    },
+    {
+      "title": "Factor out the common binomial",
+      "content": "$$x(7x - 9) + 2(7x - 9) = (x + 2)(7x - 9)$$<br/>The complete factorization is $(x + 2)(7x - 9)$. The factors are $(x + 2)$ and $(7x - 9)$. Among the choices, only $(x + 2)$ appears directly. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

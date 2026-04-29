@@ -1,0 +1,16 @@
+{
+  "questionId": "5edc8c98",
+  "correctAnswer": ".0625",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply Vieta's formula for sum of solutions",
+      "content": "For a quadratic equation $Ax^2 + Bx + C = 0$, Vieta's formula gives: sum = $-B/A$.<br/><br/>In our equation $64x^2 - (16a + 4b)x + ab = 0$, we have $A = 64$ and $B = -(16a + 4b)$.<br/><br/>Therefore: $$\\frac{-(-(16a + 4b))}{64} = \\frac{16a + 4b}{64}$$",
+      "formula": "$$\\text{Sum of solutions} = \\frac{-B}{A}$$"
+    },
+    {
+      "title": "Simplify to find k",
+      "content": "Factor out 4 from the numerator to match $k(4a + b)$:<br/>$$\\frac{16a + 4b}{64} = \\frac{4(4a + b)}{64} = \\frac{1}{16}(4a + b)$$<br/><br/>Comparing to $k(4a + b)$, we have $k = \\frac{1}{16}$."
+    }
+  ]
+}

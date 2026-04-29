@@ -1,0 +1,15 @@
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast signal",
+      "content": "The word \u201cYet\u201d signals that the upcoming statement will be surprising given the earlier descriptions of Merino softness and Navajo\u2011Churro coarseness."
+    },
+    {
+      "content": "Choice D captures that surprise by saying the Navajo\u2011Churro\u2019s coarse outer fiber is paired with an inner fiber that, at its softest, is softer than either the mouflon\u2019s or the Merino\u2019s inner fiber.<br/>The other three either claim uniform softness, an increase in inner\u2011fiber diameter, or overall greater softness, none of which presents the unexpected contrast introduced by \u201cYet\u201d.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "title": "Apply the contrast to the choices"
+    }
+  ]
+}

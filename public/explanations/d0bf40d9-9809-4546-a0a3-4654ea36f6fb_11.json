@@ -1,0 +1,15 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the target point on the graph",
+      "content": "Since $x$ represents months <em>after</em> the end of November 2011, the value $x = 0$ corresponds exactly to the end of November 2011. We need to find the $y$-value (number of active projects) at this point on the graph."
+    },
+    {
+      "title": "Read y from the graph at x = 0",
+      "content": "Looking at the curve at $x = 0$ on the horizontal axis, the graph shows the point $(0, 8)$. The predicted number of active projects at the end of November 2011 was therefore 8. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

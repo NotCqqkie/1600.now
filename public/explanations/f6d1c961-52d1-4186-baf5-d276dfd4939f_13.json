@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key logical signal",
+      "content": "The passage states that kestrels' surroundings significantly affect their hormone levels, then uses \u201cTherefore\u201d to signal an expected finding. The blank should report a difference in hormone levels between wild and captive kestrels."
+    },
+    {
+      "title": "Match the answer to the prediction",
+      "content": "Choice D reports higher androgen hormone levels in wild males than in captive males during breeding season. A compares different species; B claims similarity instead of difference; C addresses individual variation rather than setting effects. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

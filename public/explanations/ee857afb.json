@@ -1,0 +1,16 @@
+{
+  "questionId": "ee857afb",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the minimum occurs at the vertex",
+      "content": "Since $y = x^2 - 14x + 22$ is a quadratic with $a = 1 > 0$, the parabola opens upward and has a minimum value at its vertex. The x-coordinate of the vertex is found using this key formula:",
+      "formula": "$$x = -\\frac{b}{2a}$$"
+    },
+    {
+      "title": "Apply the vertex formula to find x",
+      "content": "From the equation, identify $a = 1$ and $b = -14$. Substitute into the formula:<br/><br/>$$x = -\\frac{(-14)}{2(1)} = \\frac{14}{2} = 7$$<br/><br/>The minimum value of $y$ occurs at $x = 7$."
+    }
+  ]
+}

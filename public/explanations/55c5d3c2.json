@@ -1,0 +1,15 @@
+{
+  "questionId": "55c5d3c2",
+  "correctAnswer": "-19",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find b using the y-intercept",
+      "content": "The <em>y</em>-intercept occurs when $x = 0$. We have:<br/><br/>$$f(0) = a^0 + b = 1 + b = -25$$<br/><br/>Solving for $b$:<br/>$$b = -26$$"
+    },
+    {
+      "title": "Find a and calculate a + b",
+      "content": "The graph passes through $(2, 23)$, so:<br/><br/>$$f(2) = a^2 + b = 23$$<br/><br/>Substitute $b = -26$:<br/>$$a^2 - 26 = 23$$<br/>$$a^2 = 49$$<br/>$$a = 7$$<br/><br/>Since $a > 0$, we take the positive root. Therefore:<br/>$$a + b = 7 + (-26) = -19$$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot which variables differentiate the groups",
+      "content": "Incubation duration and brood capacity create sharp contrasts between the groups\u2014display species show 12\u201314 day incubation with 2\u20133 broods per year, while non-display species show 30\u201334 days with 1 brood per year. The number of parental incubators, by contrast, appears equally in both groups (1 or 2 in each), showing no association with the display."
+    },
+    {
+      "title": "Identify which conclusion matches this pattern",
+      "content": "B correctly recognizes that incubation duration and brood capacity are more strongly associated with the display than the number of incubators is. Choices A, C, and D fail by falsely claiming all three are equally associated, reversing the incubation pattern, or misreading the data. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

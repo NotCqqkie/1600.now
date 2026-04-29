@@ -1,0 +1,15 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constraints from the requirement",
+      "content": "The requirement states <em>at least 21 of the 27 scheduled council meetings</em>. This phrase contains two constraints:<br/><ul><li><em>At least 21</em> means: $$x \\geq 21$$</li><li><em>Of the 27 scheduled meetings</em> means Cristina can attend no more than 27 meetings, so: $$x \\leq 27$$</li></ul>"
+    },
+    {
+      "title": "Combine the constraints into a compound inequality",
+      "content": "Both constraints must be satisfied simultaneously. Writing them together as a single compound inequality: $$21 \\leq x \\leq 27$$ This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

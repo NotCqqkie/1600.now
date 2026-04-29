@@ -1,0 +1,15 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the outer and inner rectangles",
+      "content": "The pool is 21 ft by 11 ft, with area $21 \\times 11 = 231$ ft\u00b2. A concrete path of width $x$ extends on all four sides, so the outer rectangle has dimensions $(21 + 2x)$ ft by $(11 + 2x)$ ft. The path area is the difference: $$(21 + 2x)(11 + 2x) - 231 = 144$$"
+    },
+    {
+      "title": "Backsolve with the multiple choice answers",
+      "content": "<strong>Backsolving \u2014 testing choice B (4):</strong> Outer area is $(21 + 8)(11 + 8) = 29 \\times 19 = 551$ ft\u00b2. Path area is $551 - 231 = 320$ ft\u00b2 \u2014 not 144, so B fails.<br/><strong>Backsolving \u2014 testing choice A (2):</strong> Outer area is $(21 + 4)(11 + 4) = 25 \\times 15 = 375$ ft\u00b2. Path area is $375 - 231 = 144$ ft\u00b2 \u2713. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

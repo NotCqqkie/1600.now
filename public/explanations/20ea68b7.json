@@ -1,0 +1,15 @@
+{
+  "questionId": "20ea68b7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "\u201dThe number of ______ can serve\u201d has two key structures:<br/>After \u201cof\u201d \u2014 a noun that is the object of the preposition<br/>Before \u201ccan serve\u201d \u2014 a noun that is the subject of the verb"
+    },
+    {
+      "title": "Apply noun form conventions",
+      "content": "Objects of prepositions and subjects of verbs appear in their base form, not possessive. Answer A) \u201cterms presidents\u201d correctly provides \u201cterms\u201d (base plural form, object of \u201cof\u201d) and \u201cpresidents\u201d (base form, subject of \u201ccan serve\u201d). The other choices incorrectly use possessives, which are not appropriate for these grammatical functions. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

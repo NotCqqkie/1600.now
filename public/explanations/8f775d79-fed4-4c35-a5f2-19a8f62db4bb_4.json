@@ -1,0 +1,15 @@
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "The coefficients of $y$ are opposites: $3y$ and $-3y$. Adding the equations eliminates $y$:<br/><br/>$$3y + (-3y) = (8x + 18) + (7x - 26)$$<br/>$$0 = 15x - 8$$<br/>$$15x = 8$$<br/>$$x = \\frac{8}{15}$$"
+    },
+    {
+      "title": "Calculate 30x to find the answer",
+      "content": "Multiply both sides by 30:<br/><br/>$$30x = 30 \\cdot \\frac{8}{15} = 2 \\cdot 8 = 16$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

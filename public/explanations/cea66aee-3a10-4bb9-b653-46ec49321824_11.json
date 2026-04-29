@@ -1,0 +1,15 @@
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the hypothesis predicts",
+      "content": "The second research team hypothesizes that <strong>greater pressure fluctuations lead to better obstacle avoidance in low visibility</strong>. From Yanagisuru's findings, narrow-headed fish experience <strong>greater</strong> pressure fluctuations as vortex size increases, while wide-headed fish experience <strong>low</strong> pressure fluctuations. Therefore, the hypothesis predicts that narrow-headed fish should avoid obstructions better (fewer collisions) and wide-headed fish should avoid them worse (more collisions)."
+    },
+    {
+      "title": "Find the choice that shows the predicted pattern",
+      "content": "Choice C directly demonstrates this: wide-headed catfish bumped into obstructions more often than narrow-headed needlefish. Since wide-headed fish feel weaker pressure fluctuations (from the first study), they should avoid obstacles less effectively\u2014which is exactly what C shows. Choices A and B involve only narrow-headed fish or show equal collision rates between the two groups, neither of which tests the hypothesis. Choice D shows only that wide-headed fish bumped into more than half the obstructions, but lacks the comparison to narrow-headed fish needed to confirm the hypothesis. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

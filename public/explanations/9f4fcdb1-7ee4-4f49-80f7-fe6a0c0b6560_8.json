@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key prediction",
+      "content": "The prediction: males (who disperse) show lower maternal dietary overlap than females (who stay)."
+    },
+    {
+      "title": "Match the dual comparison to the choices",
+      "content": "Choice B compares <strong>both</strong> metrics for individual 17 (male) and individual 5 (female), showing smaller mother-offspring overlap for 17 and a larger unshared portion of 17's diet, exactly as predicted. Choices A and D examine only one metric, while C misstates the data by claiming more than half of individual 17's mother's diet was shared (the graph shows only about 10%). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

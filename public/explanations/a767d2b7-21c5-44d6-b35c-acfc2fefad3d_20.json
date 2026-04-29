@@ -1,0 +1,15 @@
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "The sentence contains two independent clauses:<br/><strong>(1) \u201cThe sand at Komodo Island Beach in Indonesia is a more unusual shade\u201d</strong><br/><strong>(2) \u201cdeposits of crushed coral and other organic matter lend the sand a unique pink hue\u201d</strong><br/>These must be connected with proper punctuation. The word \u201cshade\u201d completes the first clause, and we need punctuation + \u201cthough\u201d to bridge to the second."
+    },
+    {
+      "title": "Apply the rule for discourse markers between independent clauses",
+      "content": "\u201dThough\u201d here functions as a discourse marker (a concession like \u201cwell, that said\u201d or \u201cregardless\u201d), interrupting between two ICs. The punctuation rule is: use a <strong>comma after the first IC</strong> to separate the marker, then a <strong>semicolon to join the second IC</strong>. This creates the pattern: <strong>IC, though; IC</strong>. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the area equation",
+      "content": "The pool has dimensions 21 ft by 13 ft, so its area is $21 \\times 13 = 273$ ft\u00b2. The concrete path extends $x$ feet on all sides, making the outer rectangle $(21 + 2x)$ ft by $(13 + 2x)$ ft. The path's area equals the total area minus the pool area:<br/>$$\\text{Path area} = (21 + 2x)(13 + 2x) - 273 = 240$$"
+    },
+    {
+      "title": "Test choice B using backsolving",
+      "content": "Backsolving \u2014 testing choice B (6):<br/>Total area: $(21 + 12)(13 + 12) = 33 \\times 25 = 825$ ft\u00b2<br/>Path area: $825 - 273 = 552$ ft\u00b2<br/>Fails. Since 552 is far larger than 240, $x = 6$ is too large. Testing choice A (3):"
+    },
+    {
+      "title": "Test choice A",
+      "content": "Backsolving \u2014 testing choice A (3):<br/>Total area: $(21 + 6)(13 + 6) = 27 \\times 19 = 513$ ft\u00b2<br/>Path area: $513 - 273 = 240$ ft\u00b2<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

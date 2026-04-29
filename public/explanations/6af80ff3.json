@@ -1,0 +1,15 @@
+{
+  "questionId": "6af80ff3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key signal",
+      "content": "The passage claims males and females <em>share the same sponge</em> microhabitat\u2014meaning both sexes must coexist in the same location. The data must show this cohabitation pattern across the sponges studied."
+    },
+    {
+      "title": "Match the data pattern",
+      "content": "Choice C states that each of the three sponges was inhabited by at least one male and at least one female, directly proving that males and females cohabitate in multiple microhabitats. Choices A and B report only isolated counts\u2014either males paired with undetermined sharks (A), or just a male number from Sponge 1 (B)\u2014neither demonstrating the shared-habitat behavior. Choice D reports only females from Sponge 1, leaving the cohabitation pattern unaddressed. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "47e238be",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase <strong>\u201cextreme outliers\u201d</strong> tells us Iceland is the exception. The second statement must either explain why it's exceptional or provide evidence supporting that claim."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>\u201cIndeed,\u201d</strong> introduces confirming evidence: it signals that the next statement proves the outlier claim. Since most volcanoes have shallow magma (less than 15 km), Iceland's magma from 3,000 km deep is confirmed as extreme. The other three fail: <strong>\u201cnevertheless\u201d</strong> wrongly creates contrast with the evidence rather than confirming it, <strong>\u201cin addition\u201d</strong> just adds unrelated facts without explaining the outlier status, and <strong>\u201cconsequently\u201d</strong> reverses the logic by suggesting causation in the wrong direction. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

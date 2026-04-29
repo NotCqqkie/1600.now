@@ -440,40 +440,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_16",
-    "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "f(x) =(x − 66)(x − 68)\nThe function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "68"
-      },
-      {
-        "id": "B",
-        "text": "67"
-      },
-      {
-        "id": "C",
-        "text": "66"
-      },
-      {
-        "id": "D",
-        "text": "−1"
-      }
-    ],
-    "correctAnswer": "B",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Linear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice A is correct. The <em>x</em>-intercept of a graph in the <em>xy</em>-plane is the point on the graph where $y=0$. It's given that function $h$ is defined by $h\\left(x\\right)=4x+28$. Therefore, the equation representing the graph of $y=h\\left(x\\right)$ is $y=4x+28$. Substituting $0$ for $y$ in the equation $y=4x+28$ yields $0=4x+28$. Subtracting $28$ from both sides of this equation yields $-28=4x$. Dividing both sides of this equation by $4$ yields $-7=x$. Therefore, the <em>x</em>-intercept of the graph of $y=h\\left(x\\right)$ in the <em>xy</em>-plane is $\\left(-7,0\\right)$. It's given that the <em>x</em>-intercept of the graph of $y=h\\left(x\\right)$ is $\\left(a,0\\right)$. Therefore, $a=-7$. The <em>y</em>-intercept of a graph in the <em>xy</em>-plane is the point on the graph where $x=0$. Substituting $0$ for $x$ in the equation $y=4x+28$ yields $y=4\\left(0\\right)+28$, or $y=28$. Therefore, the <em>y</em>-intercept of the graph of $y=h\\left(x\\right)$ in the <em>xy</em>-plane is $\\left(0,28\\right)$. It's given that the <em>y</em>-intercept of the graph of $y=h\\left(x\\right)$ is $\\left(0,b\\right)$. Therefore, $b=28$. If $a=-7$ and $b=28$, then the value of $a+b$ is $-7+28$, or $21$.\nChoice B is incorrect. This is the value of $b$, not $a+b$.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect. This is the value of $-a+b$, not $a+b$.",
+      "id": "548a4929",
+      "testName": "SAT Question Bank",
+      "text": "The function $h$ is defined by $h\\left(x\\right)=4x+28$. The graph of $y=h\\left(x\\right)$ in the <em>xy</em>-plane has an <em>x</em>-intercept at $\\left(a,0\\right)$ and a <em>y</em>-intercept at $\\left(0,b\\right)$, where $a$ and $b$ are constants. What is the value of $a+b$?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "$21$"
+          },
+          {
+              "id": "B",
+              "text": "$28$"
+          },
+          {
+              "id": "C",
+              "text": "$32$"
+          },
+          {
+              "id": "D",
+              "text": "$35$"
+          }
+      ]
   },
   {
     "section": "Math",

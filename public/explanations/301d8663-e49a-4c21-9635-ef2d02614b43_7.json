@@ -1,0 +1,15 @@
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_7",
+  "correctAnswer": "68",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify vertical angles",
+      "content": "When two lines intersect at a point, they form two pairs of vertical angles\u2014angles that are opposite each other. In the figure, $r\u00b0$ and $s\u00b0$ are vertical angles."
+    },
+    {
+      "title": "Apply the Vertical Angles Theorem",
+      "content": "Vertical angles are always equal. Since $r\u00b0$ and $s\u00b0$ are vertical angles, we have $s = r$. Substituting $r = 68$ gives $s = 68$."
+    }
+  ]
+}

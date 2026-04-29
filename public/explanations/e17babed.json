@@ -1,0 +1,21 @@
+{
+  "questionId": "e17babed",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the line of best fit",
+      "content": "Locate the straight line drawn through the scatterplot. This is the line of best fit.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Count points above the line",
+      "content": "Examine each of the 10 data points. Count how many lie strictly above the line (their y-value greater than the predicted y-value from the line). From the figure, there are 6 such points.<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

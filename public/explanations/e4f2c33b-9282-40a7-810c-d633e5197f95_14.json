@@ -1,0 +1,19 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_14",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the first equation to find its slope",
+      "content": "Start with $16x - 20y = 6y + 8$.<br/><br/>Combine like terms:<br/>$$16x - 20y - 6y = 8$$<br/>$$16x - 26y = 8$$<br/><br/>Divide by 2:<br/>$$8x - 13y = 4$$<br/><br/>Rewrite in slope-intercept form:<br/>$$y = \\frac{8}{13}x - \\frac{4}{13}$$<br/><br/>The slope of the first line is $\\frac{8}{13}$."
+    },
+    {
+      "title": "Find the slope of the second equation in terms of t",
+      "content": "From $ty = 8x + \\frac{1}{5}$, divide both sides by $t$:<br/>$$y = \\frac{8}{t}x + \\frac{1}{5t}$$<br/><br/>The slope of the second line is $\\frac{8}{t}$."
+    },
+    {
+      "title": "Apply the no-solution condition: set slopes equal",
+      "content": "A system has no solution when the lines are parallel\u2014same slope, different y-intercepts.<br/><br/>Set the slopes equal:<br/>$$\\frac{8}{13} = \\frac{8}{t}$$<br/><br/>Since both numerators are 8:<br/>$$t = 13$$<br/><br/>Verification: When $t = 13$, both lines have slope $\\frac{8}{13}$ but different y-intercepts ($-\\frac{4}{13}$ and $\\frac{1}{65}$), confirming they are parallel with no intersection."
+    }
+  ]
+}

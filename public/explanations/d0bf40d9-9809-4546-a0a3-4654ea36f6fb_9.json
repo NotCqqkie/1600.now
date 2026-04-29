@@ -1,0 +1,15 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_9",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate x by multiplying and subtracting equations",
+      "content": "To eliminate $x$, multiply the first equation by 7:<br/>$$7(x + 4y) = 7(41)$$<br/>$$7x + 28y = 287$$<br/><br/>Now subtract the second equation from this result:<br/>$$(7x + 28y) - (7x - 20y) = 287 - (-97)$$<br/>$$48y = 384$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Divide both sides by 48:<br/>$$y = \\frac{384}{48} = 8$$"
+    }
+  ]
+}

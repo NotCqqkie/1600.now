@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_11",
+  "correctAnswer": "51",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the population when it reaches 170% of initial",
+      "content": "The initial population is 40 beetles. When the population reaches 170% of this amount:<br/>$$1.70 \\times 40 = 68 \\text{ beetles}$$"
+    },
+    {
+      "title": "Calculate 75% of this population to find how many moved",
+      "content": "The entomologist moves 75% of these 68 beetles to the second habitat:<br/>$$0.75 \\times 68 = 51 \\text{ beetles}$$<br/>Therefore, the entomologist moved <strong>51</strong> beetles to the second habitat."
+    }
+  ]
+}

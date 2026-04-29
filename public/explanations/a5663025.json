@@ -1,0 +1,15 @@
+{
+  "questionId": "a5663025",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the curves and what to find",
+      "content": "The system consists of a parabola (the upward-opening U-shaped quadratic curve) and a line (the linear equation with positive slope). To find the number of solutions to the system, count the points where these two curves intersect."
+    },
+    {
+      "title": "Count the intersection points",
+      "content": "Looking at the graph from left to right, the line intersects the left side of the parabola around x \u2248 \u22128, continues upward through the interior, and intersects the right side of the parabola around x \u2248 6. The line and parabola meet at exactly 2 distinct points. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

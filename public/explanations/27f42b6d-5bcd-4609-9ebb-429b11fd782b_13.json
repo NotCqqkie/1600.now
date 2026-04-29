@@ -1,0 +1,15 @@
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the preference contrast",
+      "content": "The key signal is the contrast marked by \u201cbut\u201d: \u201cglossy ibises prefer areas with deep water during breeding season, but that was not true for small dark herons.\u201d The word \u201cbut\u201d highlights opposing preferences."
+    },
+    {
+      "title": "Connect the contrast to the answer",
+      "content": "Strategies that increase water depth would be more likely to attract glossy ibises than small dark herons, since ibises prefer deep water and herons do not. Choices B, C, and D either ignore the research (introducing non-wetland birds or lifespan effects) or contradict it (falsely claiming decreased appeal). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

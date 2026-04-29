@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side of the blank contains an incomplete independent clause: \u201cThe 20th century saw the founding of many Latino advocacy [X].\u201d The right side contains an infinitive phrase followed by an independent clause: \u201cto protect and advance the rights of Latino Americans, both the American GI Forum (1948) and the Mexican American Legal Defense and Education Fund (1968) contributed to the history of US civil rights.\u201d"
+    },
+    {
+      "title": "Apply the comma splice rule",
+      "content": "Two independent clauses cannot be joined by a comma alone. Option A uses a period to properly separate the two independent clauses and begins the second sentence with the participial phrase \u201cEstablished to protect and advance,\u201d which correctly modifies the subject of the following clause. Options C and D violate the comma splice rule by attempting to join two independent clauses with only a comma or no punctuation; option B creates an ungrammatical \u201cgroups and established\u201d construction. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

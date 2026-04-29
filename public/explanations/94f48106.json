@@ -1,0 +1,15 @@
+{
+  "questionId": "94f48106",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the requirement for explanation",
+      "content": "The goal is to \u201cexplain <em>why</em> brine pools are toxic.\u201d This \u201cwhy\u201d signals that the student needs to provide a causal relationship \u2014 what causes the toxicity."
+    },
+    {
+      "title": "Match the causal structure to the goal",
+      "content": "Choice B connects the extreme salinity directly to the toxicity, using \u201cbecause\u201d to establish the cause-and-effect relationship the \u201cwhy\u201d requires. The other three fail to build this causal connection, providing contrasts, irrelevant dates, or definitions instead.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

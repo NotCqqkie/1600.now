@@ -1,0 +1,15 @@
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map out the sentence structure",
+      "content": "The sentence contains a subject (\u201cFrederick Hill,\u201d with an appositive phrase) followed by the blank, then a direct object (\u201chis term as a member of the state senate in 1871\u201d). The blank needs to hold the main verb of an independent clause."
+    },
+    {
+      "title": "Apply the verb form rule",
+      "content": "The main verb of an independent clause must be finite. \u201cBegan\u201d is the only finite verb option (past tense); \u201cto begin\u201d is an infinitive, \u201cbeginning\u201d is a participle, and \u201chaving begun\u201d is a past participle\u2014all non-finite forms that cannot serve as a clause's main verb without additional help. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

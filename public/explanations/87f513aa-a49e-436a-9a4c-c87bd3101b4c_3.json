@@ -1,0 +1,20 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the frequency of igneous rocks",
+      "content": "From the frequency table, the number of igneous rocks is 10."
+    },
+    {
+      "title": "Identify the total number of rocks",
+      "content": "The problem states there are 70 rocks in the collection."
+    },
+    {
+      "title": "Calculate the probability and identify the choice",
+      "content": "Apply the probability formula with igneous rocks as favorable outcomes and total rocks as the sample space:<br/><br/>$$P(\\text{igneous}) = \\frac{10}{70}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    }
+  ]
+}

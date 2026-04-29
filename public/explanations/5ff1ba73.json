@@ -1,0 +1,15 @@
+{
+  "questionId": "5ff1ba73",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the decisive signal",
+      "content": "The phrase <em>\u201cguilds were much more numerous relative to the population in some cities than in others\u201d</em> requires an example that contrasts two cities with different guild-to-population ratios."
+    },
+    {
+      "title": "Match the data to the claim",
+      "content": "Choice C directly compares Rouen (1 guild per 661 inhabitants) to Paris (1 guild per 4,511 inhabitants), showing a roughly 7-fold difference in how densely guilds were distributed\u2014exactly the type of variation the sentence claims to illustrate. Choices A, B, and D either distort the data or lack the necessary comparison: A falsely states the cities had nearly equal inhabitants, B incorrectly claims Lyon had more guilds than Paris, and D provides only Paris's figures without showing a contrast. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

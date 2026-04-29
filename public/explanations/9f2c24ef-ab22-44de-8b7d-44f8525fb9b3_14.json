@@ -1,0 +1,15 @@
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Infinitely many solutions mean equations are the same line",
+      "content": "Two linear equations have infinitely many solutions if they represent the same line. This happens when one equation is a scalar multiple of the other\u2014all coefficients and the constant are scaled by the same factor."
+    },
+    {
+      "title": "Check choice C for scalar multiples",
+      "content": "For choice C:<br/><ul><li>Equation 1: $x + 2y = 12$</li><li>Equation 2: $4x + 8y = 48$</li></ul>Multiply equation 1 by 4:<br/>$$4(x + 2y) = 4(12) \\implies 4x + 8y = 48$$<br/>This is exactly equation 2, so both equations describe the same line and have infinitely many solutions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

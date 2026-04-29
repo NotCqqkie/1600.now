@@ -1,0 +1,15 @@
+{
+  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the parenthetical interruption",
+      "content": "The relative clause starting with 'that' contains a parenthetical interruption: the phrase 'through community involvement and scientific ______' breaks off before the clause continues with 'aim to bring'."
+    },
+    {
+      "title": "Apply the pairing rule",
+      "content": "The rule is that paired em-dashes set off parenthetical interruptions. 'Study\u2014' provides the closing dash required to match the opening dash after 'that\u2014'. Choices A, C, and D use a comma, colon, or nothing respectively, failing to close the parenthetical. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

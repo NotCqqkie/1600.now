@@ -1,0 +1,15 @@
+{
+  "questionId": "e2829dd7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what sex-specific response differences require",
+      "content": "The assertion requires evidence that CNO affected males and females differently\u2014specifically, the activation must have produced different effects in the two sexes. We need to compare how much each sex changed in response to CNO, not just their baseline activity levels."
+    },
+    {
+      "title": "Match the signal to the graph",
+      "content": "C directly compares each sex's relative response to CNO. The graph shows females with CNO spiked dramatically to ~1,200\u20131,400 beams relative to females with saline (~400\u2013500), while males with CNO remained near baseline (~400\u2013500) relative to males with saline (~200\u2013400). This means females' magnitude of response to CNO far exceeded males'\u2014exactly what \u201csex-specific differences in response to neuron activation\u201d means. A mischaracterizes the ending states; B describes baseline differences in saline only, missing the response to CNO; D incorrectly claims males showed a steep increase at the end. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

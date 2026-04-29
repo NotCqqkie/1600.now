@@ -1,0 +1,15 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We need to find the altitude $x$ when the temperature is 16\u00b0C. Substitute $T(x) = 16$ into the given function:<br/><br/>$$16 = \\frac{22,000 - 6.5x}{1,000}$$"
+    },
+    {
+      "title": "Backsolve using the multiple choice answers",
+      "content": "Since the answer choices are simple integers, we can test them directly rather than solving algebraically.<br/><br/>Backsolving \u2014 testing choice C (1,375):<br/>$$T(1375) = \\frac{22,000 - 6.5(1375)}{1,000} = \\frac{22,000 - 8,937.5}{1,000} = \\frac{13,062.5}{1,000} \\approx 13.06\u00b0C$$<br/>This is less than our target of 16\u00b0C, so this doesn't work. Fails. Testing choice B (923):<br/>$$T(923) = \\frac{22,000 - 6.5(923)}{1,000} = \\frac{22,000 - 5,999.5}{1,000} = \\frac{16,000.5}{1,000} \\approx 16.0\u00b0C$$<br/>This matches our target temperature. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

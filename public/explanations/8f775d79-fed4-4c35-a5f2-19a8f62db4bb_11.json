@@ -1,0 +1,15 @@
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y-intercept to find the constant term",
+      "content": "When $x = 0$, the quadratic $y = ax^2 + bx + c$ reduces to $y = c$. Since $y = 45$ when $x = 0$, the constant term is $c = 45$. This narrows the choices to A, B, and C."
+    },
+    {
+      "title": "Backsolve choice B",
+      "content": "Backsolving \u2014 testing choice B ($y = -x^2 + 12x + 45$):<br/><br/>At $x = 6$: $y = -(6)^2 + 12(6) + 45 = -36 + 72 + 45 = 81$ \u2713<br/><br/>At $x = 15$: $y = -(15)^2 + 12(15) + 45 = -225 + 180 + 45 = 0$ \u2713<br/><br/>All three given points satisfy this equation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Similar figures have equal corresponding angles",
+      "content": "When two figures are similar, all their corresponding angles are equal. The scale factor \u2014 the ratio comparing side lengths \u2014 applies only to linear dimensions (the sides), never to angles. This is a fundamental property of similarity."
+    },
+    {
+      "title": "Use the angle correspondence to find angle J",
+      "content": "We are told that angle C corresponds to angle J. Since CDEF is similar to JKLM, the corresponding angles must be equal. We're given that angle C measures 42\u00b0, therefore angle J also measures 42\u00b0. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

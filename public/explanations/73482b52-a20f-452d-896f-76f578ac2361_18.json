@@ -1,0 +1,15 @@
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "The sentence contains two independent clauses: the first ends with the quote about producing <em>\u201cthe most outstanding work in an idealistic direction\u201d</em> (stating the prize criterion per Alfred Nobel); the second begins with <em>\u201cIn 1912, for instance, judges recognized Gerhart Johann Robert Hauptmann...\u201d</em> (providing a concrete example). These are closely related\u2014the second illustrates the first."
+    },
+    {
+      "title": "Apply the rule for separating independent clauses",
+      "content": "A semicolon joins two independent clauses with a close relationship. In American English, when a semicolon is not part of the quoted material itself, it goes <strong>outside</strong> the closing quotation mark. Choice C correctly positions it: <strong>direction</strong>; connects the two clauses smoothly. A fails to separate them, B awkwardly inserts <em>\u201cand,\u201d</em> disrupting the flow, and D places a comma inside the quote\u2014which neither properly separates independent clauses nor follows the rule that semicolons must go outside quotes. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "questionId": "153ee763",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Rewrite the equation by factoring out $x$ from the left-hand side: $$-3x + 21px = (-3 + 21p)x = 84$$.<br/><br/>A linear equation $ax = b$ has no solution <em>if the coefficient $a$ is 0 and $b \\neq 0$</em>. Setting $-3 + 21p = 0$ gives the condition for no solution.",
+      "formula": "$$-3 + 21p = 0$$"
+    },
+    {
+      "title": "Solve for $p$",
+      "content": "Solve $-3 + 21p = 0$:<br/>$$21p = 3 \\quad \\Rightarrow \\quad p = \\frac{3}{21} = \\frac{1}{7}$$.<br/><br/>At $p = \\frac{1}{7}$, the equation becomes $0x = 84$, which has no solution. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$p = \\frac{1}{7}$$"
+    }
+  ]
+}

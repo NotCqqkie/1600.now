@@ -1,0 +1,15 @@
+{
+  "questionId": "420dea42",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast",
+      "content": "The first sentence emphasizes the material's flexibility; the second introduces the weight's limiting effect. These ideas work against each other \u2014 the passage needs a word that signals this contradiction."
+    },
+    {
+      "title": "Apply the contrast signal",
+      "content": "<strong>However</strong> directly marks the contradiction between the material's positive property (flexibility) and the suit's negative property (added weight limiting mobility). The other choices fail because <em>For this reason</em> signals a consequence (not present here), <em>Firstly</em> suggests a series (only two points), and <em>In other words</em> suggests rephrasing (the sentences express opposite ideas, not the same idea restated). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

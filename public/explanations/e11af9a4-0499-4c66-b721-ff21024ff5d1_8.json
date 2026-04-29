@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Core Signal",
+      "content": "The passage emphasizes that the CNN model's predictions aligned with prior research measurements\u2014explicitly presented by Melis et al. as evidence (\u201cone of several indications\u201d) that the model accurately captures biomechanical processes."
+    },
+    {
+      "title": "Match the Purpose",
+      "content": "Choice A directly states the passage's purpose: to present evidence supporting the CNN model's effectiveness, precisely what the alignment data achieves. The other three all miss the point\u2014B fabricates a refinement process not shown, C mischaracterizes the comparison as between models rather than between model predictions and measurements, and D treats the model as needing justification when the passage validates it. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

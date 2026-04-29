@@ -1,0 +1,15 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the hourly rate for additional hours",
+      "content": "The specialist charges \\$160 for the first 2 hours. For a 6-hour repair, that's 4 additional hours. Since the total cost is \\$360:<br/>$$160 + (\\text{rate}) \\times 4 = 360$$<br/>Solving: $(\\text{rate}) \\times 4 = 200$, so the hourly rate for additional hours is \\$50."
+    },
+    {
+      "title": "Build the function for x \u2265 2",
+      "content": "The total cost for $x$ hours is the fixed \\$160 charge plus \\$50 per additional hour beyond 2:<br/>$$f(x) = 160 + 50(x - 2)$$<br/>Simplify to standard form:<br/>$$f(x) = 50x + 60$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

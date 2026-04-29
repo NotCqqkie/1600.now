@@ -1,0 +1,15 @@
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the predictable explanation",
+      "content": "The passage states Rogerson's calculation was more accurate, then explains why\u2014the 1920 method used rudimentary equipment. The clue is that this explanation is expected: naturally, primitive tools would yield less accurate results."
+    },
+    {
+      "title": "Apply the clue to the choices",
+      "content": "\u201dOf course\u201d acknowledges that the explanation is expected, fitting the natural relationship between rudimentary equipment and lower accuracy. The others denote purpose, similarity, or finality. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope of line v",
+      "content": "The equation of line $v$ is given as $y = 7x + 10$. This is in slope-intercept form $y = mx + b$, where $m$ is the slope. Therefore, the slope of line $v$ is 7."
+    },
+    {
+      "title": "Apply the perpendicular lines rule to find the slope of line w",
+      "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. Since the slope of line $v$ is 7, the slope of line $w$ must be $-\\frac{1}{7}$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
+    }
+  ]
+}

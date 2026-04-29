@@ -1,0 +1,15 @@
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the slopes of both equations",
+      "content": "The first equation $y = x + 15$ has slope 1. The second equation $y = 5x$ has slope 5. Since the slopes are different, the lines are not parallel."
+    },
+    {
+      "title": "Find the intersection point count",
+      "content": "When two lines have different slopes, they intersect at exactly one point. To verify, set the equations equal: $x + 15 = 5x$. Solving: $15 = 4x$, so $x = \\frac{15}{4}$. This single solution confirms exactly one intersection point. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

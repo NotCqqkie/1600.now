@@ -1,0 +1,15 @@
+{
+  "questionId": "a5834ea4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that f(x) = 39 is a constant function",
+      "content": "The function $f(x) = 39$ outputs the same value\u201439\u2014for every input $x$. This is a constant linear function."
+    },
+    {
+      "title": "Identify which table shows f(x) = 39 for all x values",
+      "content": "Scan the tables for one where every $f(x)$ entry is 39:<br/><ul><li>Choice A: All outputs are 0</li><li>Choice B: All outputs are 39 \u2713</li><li>Choice C: Outputs are 0, 39, 78</li><li>Choice D: Outputs are 39, 0, \u221239</li></ul>Only choice B matches $f(x) = 39$ for every input shown. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

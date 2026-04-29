@@ -1,0 +1,15 @@
+{
+  "questionId": "4aa28ac3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The sentence reads: \u201cthe Olympic committee once decided ______ tug-of-war as an official Olympic event.\u201d The blank must be filled with a verb form that completes the thought after the past-tense verb \u201cdecided.\u201d"
+    },
+    {
+      "title": "Apply the rule for verb 'decide'",
+      "content": "The verb \u201cdecide\u201d requires an infinitive (to + base verb). The correct answer is \u201cto include,\u201d producing \u201cdecided to include tug-of-war.\u201d The other three choices fail because they're the wrong verb form: \u201cinclude\u201d lacks the \u201cto,\u201d \u201cincluding\u201d has -ing without \u201cto,\u201d and \u201cincluded\u201d is past tense. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

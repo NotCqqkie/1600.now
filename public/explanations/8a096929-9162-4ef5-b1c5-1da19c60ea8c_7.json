@@ -1,0 +1,11 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept by substituting x = 0",
+      "content": "The y-intercept occurs on the y-axis, where $x = 0$. Substitute into $f(x)$:<br/><br/>$$f(0) = (-7)(4)^0 + 31$$<br/><br/>Since any nonzero number raised to the power of 0 equals 1, we have $(4)^0 = 1$:<br/><br/>$$f(0) = (-7)(1) + 31 = -7 + 31 = 24$$<br/><br/>The y-intercept is the point $(0, 24)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

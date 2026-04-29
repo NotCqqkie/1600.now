@@ -1,0 +1,15 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given equation",
+      "content": "We start with $$11m = 9(n + p)$$. To solve for $m$, we need to isolate it on one side."
+    },
+    {
+      "title": "Divide both sides by 11",
+      "content": "Divide both sides of the equation by 11:<br/>$$\\frac{11m}{11} = \\frac{9(n + p)}{11}$$<br/>$$m = \\frac{9(n + p)}{11}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

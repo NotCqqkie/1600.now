@@ -1,0 +1,15 @@
+{
+  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square root term",
+      "content": "Subtract 37 from both sides to isolate $\\sqrt{w}$:<br/>$$\\sqrt{w} + 37 = 47$$$$\\sqrt{w} = 47 - 37$$$$\\sqrt{w} = 10$$"
+    },
+    {
+      "title": "Square both sides to solve for w",
+      "content": "Square both sides to eliminate the square root and solve for $w$:<br/>$$(\\sqrt{w})^2 = 10^2$$$$w = 100$$<br/>Verify by substituting back: $\\sqrt{100} + 37 = 10 + 37 = 47$ \u2713<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

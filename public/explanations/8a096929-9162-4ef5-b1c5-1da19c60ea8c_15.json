@@ -1,0 +1,15 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Margin of error depends only on sample size",
+      "content": "The margin of error formula is $$ME = \\frac{z \\cdot \\sigma}{\\sqrt{n}}$$ where $z$ is the critical value, $\\sigma$ is the standard deviation, and $n$ is the sample size. Since both samples were calculated the same way, they have the same $z$ and $\\sigma$. Therefore, margin of error depends only on the sample size $n$."
+    },
+    {
+      "title": "Apply the inverse relationship",
+      "content": "Margin of error is inversely proportional to $\\sqrt{n}$: a larger sample size produces a smaller margin of error. Sample 1's margin of error (1 minute) is smaller than Sample 2's (2.2 minutes), so Sample 1 had the larger sample size. The first sample contained more ovens than the second sample. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

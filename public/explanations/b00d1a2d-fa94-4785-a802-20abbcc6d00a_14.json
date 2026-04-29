@@ -1,0 +1,19 @@
+{
+  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second fraction's denominator and simplify",
+      "content": "The denominator of the second fraction is $x^2y - 10xy$. Factor out $xy$:<br/>$$x^2y - 10xy = xy(x - 10)$$<br/>Now the second fraction becomes:<br/>$$\\frac{y(x-10)}{xy(x-10)} = \\frac{1}{x}$$<br/>The $(x-10)$ terms cancel. The original expression simplifies to:<br/>$$\\frac{y+13}{x-10}+\\frac{1}{x}$$"
+    },
+    {
+      "title": "Add the fractions using common denominator",
+      "content": "The common denominator is $x(x-10)$. Rewrite both fractions:<br/>$$\\frac{x(y+13)}{x(x-10)}+\\frac{x-10}{x(x-10)}$$<br/>Combine the numerators:<br/>$$\\frac{x(y+13) + (x-10)}{x(x-10)} = \\frac{xy + 13x + x - 10}{x(x-10)}$$<br/>Simplify:<br/>$$\\frac{xy + 14x - 10}{x(x-10)}$$"
+    },
+    {
+      "title": "Rewrite to match answer choice format",
+      "content": "To match the denominators in the choices, multiply both numerator and denominator by $y$:<br/>$$\\frac{y(xy + 14x - 10)}{y \\cdot x(x-10)}$$<br/>Expand the numerator:<br/>$$y(xy + 14x - 10) = xy^2 + 14xy - 10y$$<br/>Expand the denominator:<br/>$$y \\cdot x(x-10) = xy(x-10) = x^2y - 10xy$$<br/>This gives us:<br/>$$\\frac{xy^{2}+14xy-10y}{x^{2}y-10xy}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

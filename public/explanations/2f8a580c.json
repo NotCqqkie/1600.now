@@ -1,0 +1,15 @@
+{
+  "questionId": "2f8a580c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2 into the function",
+      "content": "We're given $k(x) = x^3 + 110$ and need to find $k(2)$. Substitute $x = 2$ into the function: $$k(2) = (2)^3 + 110$$"
+    },
+    {
+      "title": "Evaluate and simplify",
+      "content": "Calculate the cube: $2^3 = 8$. Then: $$k(2) = 8 + 110 = 118$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the defining claim",
+      "content": "The notes state that a mass fraction is the ratio of the total mass of an element to the combined mass of all elements in a given environment. <br/>That definition is exactly what the question asks for: oxygen\u2019s mass relative to all Earth\u2019s elements."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Choice C repeats the given mass fraction for oxygen, 297,000 ppm, which by definition expresses oxygen\u2019s mass compared to the total mass of all elements. <br/>The other three either compare oxygen to vanadium, give a generic definition without the specific value, or incorrectly use vanadium\u2019s value for oxygen. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

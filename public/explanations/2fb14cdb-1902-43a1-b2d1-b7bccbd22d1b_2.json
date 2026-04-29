@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate annual deposits from each account",
+      "content": "Account 1: Micah deposits $x$ dollars once each month. Over 12 months, that's $12x$.<br/>Account 2: Micah deposits $y$ dollars twice monthly, which is $2y$ per month. Over 12 months: $2y \\cdot 12 = 24y$ dollars."
+    },
+    {
+      "title": "Set up the equation for total deposits",
+      "content": "Combining both accounts, the total equation is $$6,600 = 12x + 24y$$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

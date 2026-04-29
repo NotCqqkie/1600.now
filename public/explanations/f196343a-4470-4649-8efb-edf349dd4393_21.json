@@ -1,0 +1,21 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving \u2014 testing choice C",
+      "content": "Backsolving \u2014 testing choice C (C(d)=56d-28):<br/>For $d=1$, expected cost is \\$56.<br/>$$C(1)=56\\cdot1-28=28$$<br/>Since $28\\neq56$, choice C fails.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Backsolving \u2014 testing choice A",
+      "content": "Backsolving \u2014 testing choice A (C(d)=28d+28):<br/>For $d=1$, expected cost is \\$56.<br/>$$C(1)=28\\cdot1+28=56$$<br/>For $d=2$, expected cost is \\$56+\\$28=\\$84.<br/>$$C(2)=28\\cdot2+28=84$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

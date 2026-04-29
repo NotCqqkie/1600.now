@@ -1,0 +1,15 @@
+{
+  "questionId": "ed314256",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the spatial dependence that drives the play",
+      "content": "The passage states that the play's refusal of narrative coherence \u201chinges on\u201d the venue's spatial fragmentation. The phrase <em>hinges on</em> indicates that the play's core nature depends fundamentally on this particular physical environment\u2014not just as a backdrop, but as the source of its defining feature."
+    },
+    {
+      "title": "Apply the spatial dependence to the answer choices",
+      "content": "A production whose core feature depends on a specific spatial layout cannot easily transfer to a different venue without losing that essence. Choice C captures this: the production's dependence on its environment makes exact reproduction difficult elsewhere. A and D introduce unsupported elements (earlier venues and a recommended itinerary), while B mistakes the intentional design for audience disappointment. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

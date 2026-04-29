@@ -1,0 +1,15 @@
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause boundary",
+      "content": "Before the blank is an independent clause: \u201cpolymers have been engineered to repair themselves.\u201d After comes a participial phrase (\u201caided by embedded microcapsules\u201d) followed by a second independent clause: \u201csuch materials begin to self-heal.\u201d"
+    },
+    {
+      "title": "Apply the rule for separating independent clauses",
+      "content": "Choice C uses a period to properly separate the two independent clauses. The other options use commas or dashes instead, failing to mark the boundary where a new independent clause begins and thus creating comma splices or run-on sentences. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

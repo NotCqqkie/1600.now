@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify by dividing by -2",
+      "content": "Divide both sides by $-2$: $$|x - 7| = 4x$$"
+    },
+    {
+      "title": "Solve using absolute value cases",
+      "content": "<strong>Case 1</strong> ($x \\geq 7$): The expression $|x - 7|$ equals $x - 7$, so $x - 7 = 4x$. Solving gives $x = -\\frac{7}{3}$. But this contradicts $x \\geq 7$, so it's extraneous.<br/><br/><strong>Case 2</strong> ($x < 7$): The expression $|x - 7|$ equals $7 - x$, so $7 - x = 4x$. Solving gives $x = \\frac{7}{5}$. Since $\\frac{7}{5} \\approx 1.4 < 7$, this is valid.<br/><br/>The only solution is $x = \\frac{7}{5}$, which matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

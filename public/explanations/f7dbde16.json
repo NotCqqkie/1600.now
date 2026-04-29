@@ -1,0 +1,19 @@
+{
+  "questionId": "f7dbde16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply angle-angle similarity criterion",
+      "content": "We already have angle <em>L</em> = angle <em>R</em> = 60\u00b0. For AA similarity, we need one more pair of equal angles. Choices A and B provide only side information, not angles. Focus on choices C and D, which give angle measures."
+    },
+    {
+      "title": "Check choice C: angle M = 70\u00b0 and angle S = 60\u00b0",
+      "content": "In triangle LMN: angle <em>L</em> = 60\u00b0, angle <em>M</em> = 70\u00b0, so angle <em>N</em> = 50\u00b0.<br/>In triangle RST: angle <em>R</em> = 60\u00b0, angle <em>S</em> = 60\u00b0, so angle <em>T</em> = 60\u00b0.<br/>Triangle LMN has angles {60\u00b0, 70\u00b0, 50\u00b0}. Triangle RST has angles {60\u00b0, 60\u00b0, 60\u00b0}. The angle sets differ, so the triangles are not similar."
+    },
+    {
+      "title": "Check choice D: angle M = 70\u00b0 and angle T = 50\u00b0",
+      "content": "In triangle LMN: angle <em>L</em> = 60\u00b0, angle <em>M</em> = 70\u00b0, so angle <em>N</em> = 50\u00b0.<br/>In triangle RST: angle <em>R</em> = 60\u00b0, angle <em>T</em> = 50\u00b0, so angle <em>S</em> = 70\u00b0.<br/>Triangle LMN has angles 60\u00b0, 70\u00b0, 50\u00b0 at vertices <em>L</em>, <em>M</em>, <em>N</em>. Triangle RST has angles 60\u00b0, 70\u00b0, 50\u00b0 at vertices <em>R</em>, <em>S</em>, <em>T</em>. All angles match under the correspondence <em>L</em> \u2194 <em>R</em>, <em>M</em> \u2194 <em>S</em>, <em>N</em> \u2194 <em>T</em>. By AA similarity, the triangles are similar. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The sentence has \u201cfellow OECD member\u201d (a noun phrase) followed by \u201cnation\u201d (a noun) and then \u201cLatvia\u201d (a proper noun). This creates a structure where \u201cLatvia\u201d is in apposition to \u201cnation\u201d\u2014meaning it identifies or specifies which nation is being discussed."
+    },
+    {
+      "title": "Apply the appositive punctuation rule",
+      "content": "The rule is: a restrictive appositive (essential to identifying the noun) takes no punctuation; a non-restrictive appositive (extra information) uses commas or dashes. Here, \u201cLatvia\u201d is essential to identify which of the 38 OECD member nations is meant, making this restrictive and requiring no punctuation between \u201cnation\u201d and \u201cLatvia\u201d. Choices B, C, and D violate this rule by adding unnecessary punctuation. That matches choice A\u2014<strong>A</strong> is correct."
+    }
+  ]
+}

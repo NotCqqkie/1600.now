@@ -1,0 +1,23 @@
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find JL using the midpoint condition",
+      "content": "Since $K$ is the midpoint of $\\overline{JL}$, the two halves are equal: $JK = KL$. Given that $KL = 13$ units, we have $JL = JK + KL = 13 + 13 = 26$ units."
+    },
+    {
+      "title": "Determine the radius using the semicircle's center",
+      "content": "The problem states that $\\overline{LM}$ is a radius of semicircle $L$, meaning $L$ is the center. Since $\\overline{JM}$ is the diameter, the center $L$ must be its midpoint. Therefore, the distance from the center to each endpoint equals the radius: $LM = JL = 26$ units."
+    },
+    {
+      "title": "Calculate the rectangle dimensions and area",
+      "content": "The rectangle has corners at $K$, $M$, $N$, and $O$. Its width is the distance along the top edge: $$KM = KL + LM = 13 + 26 = 39 \\text{ units}$$<br/>Its height is the right edge: $MN = 14$ units (given). The rectangle area is $$39 \\times 14 = 546 \\text{ square units}$$"
+    },
+    {
+      "title": "Calculate the semicircle area and total",
+      "content": "The semicircle has radius $r = 26$, so its area is $$\\frac{1}{2}\\pi r^2 = \\frac{1}{2}\\pi(26)^2 = \\frac{1}{2}\\pi(676) = 338\\pi \\text{ square units}$$<br/>The total area of the figure is $$546 + 338\\pi \\text{ square units}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

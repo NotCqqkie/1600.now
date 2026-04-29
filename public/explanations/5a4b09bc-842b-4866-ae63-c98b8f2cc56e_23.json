@@ -1,0 +1,15 @@
+{
+  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key relationship",
+      "content": "The passage presents two examples in sequence: an older farm (1998) with lower output (0.6 MW), then a newer farm (2021) with higher output (10 MW). This demonstrates the opening claim that newer turbines outperform older models."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "<strong>In contrast</strong> explicitly marks this performance difference between the two farms, signaling their key distinction in support of the opening claim. The other three choices don't establish this relationship: <strong>Granted</strong> concedes without comparing, <strong>For this reason</strong> invokes false causation, and <strong>Eventually</strong> indicates only time passage. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

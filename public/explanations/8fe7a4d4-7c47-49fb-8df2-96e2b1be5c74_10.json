@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what ability the conclusion addresses",
+      "content": "The team's conclusion is specifically about distinguishing speech from nonspeech\u2014not about distinguishing between languages. The study included actual speech (Spanish and Hungarian recordings) and non-speech (scrambled fragments). To support this conclusion, we need evidence that different head shapes lead to different abilities in making this speech/nonspeech distinction."
+    },
+    {
+      "title": "Identify which choice demonstrates this anatomical effect",
+      "content": "Choice A shows that shorter-headed dogs have a smaller brain activity difference between speech and scrambled non-speech than longer-headed dogs, directly proving head shape affects this discrimination ability. The other three choices either focus on different comparisons (like language discrimination in B), describe patterns without establishing causal ability (C), or don't compare head shapes at all (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

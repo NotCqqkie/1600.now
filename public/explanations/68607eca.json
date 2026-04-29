@@ -1,0 +1,15 @@
+{
+  "questionId": "68607eca",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret 'increased by 70%'",
+      "content": "When the number of views <em>increases by</em> 70%, the new amount equals: $$\\text{new} = \\text{old} + 0.70 \\cdot \\text{old} = 1.70 \\cdot \\text{old}$$ Every 2 days, views multiply by 1.70. This means the base must be 1.70, eliminating choices A and B."
+    },
+    {
+      "title": "Set up exponent from 2-day periods",
+      "content": "Growth happens every 2 days, so in $x$ days there are $\\frac{x}{2}$ two-day periods. With each period multiplying by 1.70, the exponent is $\\frac{x}{2}$ (not $2x$). Therefore: $$f(x) = 233\\left(1.70\\right)^{\\frac{x}{2}}$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

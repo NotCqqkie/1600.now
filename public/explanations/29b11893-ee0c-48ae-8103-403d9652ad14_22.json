@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert units systematically",
+      "content": "We convert 12.1 m/s\u00b2 to miles/min\u00b2 using two conversion factors:<br/><ul><li><strong>Meters to miles:</strong> Multiply by $\\frac{1}{1,609}$ (since 1 mile = 1,609 meters)</li><li><strong>Seconds\u00b2 to minutes\u00b2:</strong> Since 1 minute = 60 seconds, we have 1 minute\u00b2 = (60)\u00b2 = 3,600 seconds\u00b2. Multiply by 3,600</li></ul>$$12.1 \\times \\frac{1}{1,609} \\times 3,600 = 12.1 \\times \\frac{3,600}{1,609}$$"
+    },
+    {
+      "title": "Calculate and match choice",
+      "content": "$$\\frac{12.1 \\times 3,600}{1,609} = \\frac{43,560}{1,609} \\approx 27.1$$That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

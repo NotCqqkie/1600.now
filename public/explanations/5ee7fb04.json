@@ -1,0 +1,15 @@
+{
+  "questionId": "5ee7fb04",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure",
+      "content": "The blank follows \u201cacknowledge the\u201d and precedes \u201cdo so breaks\u201d. <br/>Left side: \u201cactors typically won\u2019t acknowledge the ___\u201d is a complete independent clause once a noun fills the blank. <br/>Right side: \u201c___ do so breaks the fourth wall\u201d becomes \u201cTo do so breaks the fourth wall\u201d \u2014 an infinitive phrase acting as subject, also an independent clause."
+    },
+    {
+      "title": "Apply the boundary rule",
+      "content": "A period (or semicolon) separates two independent clauses. <br/>Choice C gives \u201caudience. To\u201d which supplies the needed period. <br/>The other three either omit punctuation, use a comma splice, or add ungrammatical wording, breaking the clause boundary. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

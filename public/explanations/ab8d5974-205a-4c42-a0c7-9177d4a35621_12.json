@@ -1,0 +1,15 @@
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the depth threshold",
+      "content": "The passage defines the mesophotic zone as starting at 30 meters. The key signal is the species' ability to tolerate this zone, which hinges on their <strong>maximum depth</strong> being within or reaching 30 meters."
+    },
+    {
+      "title": "Match the depth gap to the correct coral",
+      "content": "Choice B identifies *Porites nodifera* with a maximum depth of 15 meters, which is furthest from the mesophotic zone\u2019s 30-meter lower boundary. The other choices either reference minimum depths (irrelevant here) or maximum depths closer to the threshold. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

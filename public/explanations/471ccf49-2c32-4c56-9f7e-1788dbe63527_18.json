@@ -1,0 +1,19 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_18",
+  "correctAnswer": "4/5,0.8,48/60",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize complementary angles in the right triangle",
+      "content": "Since angle J is the right angle (90\u00b0), the other two angles K and L must be complementary: <br/>$$K + L = 90\u00b0$$<br/>This means $L = 90\u00b0 - K$."
+    },
+    {
+      "title": "Apply the cofunction identity",
+      "content": "When two angles are complementary, their sine and cosine are cofunctions:<br/>$$\\cos(L) = \\cos(90\u00b0 - K) = \\sin(K)$$<br/>So we need to find $\\sin(K)$."
+    },
+    {
+      "title": "Use the Pythagorean identity to find sin(K)",
+      "content": "We're given $\\cos(K) = \\frac{36}{60} = \\frac{3}{5}$.<br/><br/>From the Pythagorean identity:<br/>$$\\sin^2(K) + \\cos^2(K) = 1$$<br/>$$\\sin^2(K) = 1 - \\left(\\frac{3}{5}\\right)^2 = 1 - \\frac{9}{25} = \\frac{16}{25}$$<br/>$$\\sin(K) = \\frac{4}{5}$$<br/><br/>Since $\\cos(L) = \\sin(K)$, we have $\\cos(L) = \\frac{4}{5}$ \u2014 <strong>the answer is 4/5 or 0.8</strong>."
+    }
+  ]
+}

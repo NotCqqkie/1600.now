@@ -1,0 +1,15 @@
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the term needing definition",
+      "content": "The previous sentence introduces \u201cannular\u201d but doesn't explain what it means; the blank sentence provides that definition."
+    },
+    {
+      "title": "Select the clarification transition",
+      "content": "<strong>\u201cThat is,\u201d</strong> introduces a definition of a term just introduced, clarifying what \u201cannular\u201d means: the Moon didn't cover the Sun completely. The other choices mark contrast, simultaneity, or specific instances\u2014none of which define \u201cannular.\u201d That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

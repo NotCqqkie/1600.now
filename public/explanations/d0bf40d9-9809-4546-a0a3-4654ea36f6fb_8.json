@@ -1,0 +1,15 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parallel lines have the same slope",
+      "content": "Line k is defined by $y = 7x + 2$, which has slope 7. Since line j is parallel to line k, line j must also have slope 7."
+    },
+    {
+      "title": "Use the given point to find the equation",
+      "content": "Line j passes through the point (0, 3). The y-coordinate at $x = 0$ is 3, so the y-intercept is 3. With slope 7 and y-intercept 3, the equation of line j is $y = 7x + 3$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d7dccee7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast the passage is making",
+      "content": "The phrase \u201cmay not be limited to ______ behaviors\u201d signals that the passage is arguing these organisms do more than [what kind of] behavior. The context is single-celled organisms with stereotypical constraints, so the blank must name the kind of simple, basic behavior we'd normally assume they're restricted to."
+    },
+    {
+      "title": "Name the stereotypical limitation",
+      "content": "The target meaning is \u201csimple, elementary, or basic behaviors.\u201d \u201cRudimentary\u201d precisely expresses this\u2014it means fundamental or basic. The organism's demonstrated strategy-switching contradicts the assumption that it's limited to such simple behaviors. The other three describe different behavioral aspects unrelated to complexity. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1efd8202",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find y when x = 0",
+      "content": "Plug $x = 0$ into $y = 70x + 8$:<br/>$$y = 70(0) + 8 = 8$$<br/>Looking at the tables, choices B and C show $y = 70$ when $x = 0$, which doesn't match. Both A and D show $y = 8$ when $x = 0$, matching our calculation."
+    },
+    {
+      "title": "Verify with x = 2",
+      "content": "Plug $x = 2$ into $y = 70x + 8$:<br/>$$y = 70(2) + 8 = 140 + 8 = 148$$<br/>Choice A shows $y = 148$ when $x = 2$, matching our result. Choice D shows $y = 132$, which doesn't match.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

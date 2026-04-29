@@ -1,0 +1,16 @@
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the difference of squares",
+      "content": "Inside the parentheses, we have $x^2 - 100y^2$. We can rewrite $100y^2$ as $(10y)^2$, so this becomes $x^2 - (10y)^2$, which is a <strong>difference of squares</strong> pattern with $a = x$ and $b = 10y$."
+    },
+    {
+      "title": "Apply the difference of squares formula",
+      "content": "Using the difference of squares formula with $a = x$ and $b = 10y$: $$x^2 - 100y^2 = (x - 10y)(x + 10y)$$ Multiplying back by 14: $$14(x^2 - 100y^2) = 14(x - 10y)(x + 10y)$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$a^2 - b^2 = (a - b)(a + b)$$"
+    }
+  ]
+}

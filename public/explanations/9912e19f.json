@@ -1,0 +1,15 @@
+{
+  "questionId": "9912e19f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand congruent triangle correspondence",
+      "content": "When two triangles are congruent with a stated correspondence, corresponding angles are equal. The problem specifies that E corresponds to J, so angle E equals angle J."
+    },
+    {
+      "title": "Find angle J using the correspondence",
+      "content": "Since angle E = 45\u00b0 and E corresponds to J, we have angle J = 45\u00b0. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

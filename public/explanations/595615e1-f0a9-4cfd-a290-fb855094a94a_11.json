@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the researcher's claim requires",
+      "content": "The researcher claims that some lakes have seen an <em>increase</em> in ice duration, contradicting the general declining trend from 1980 to 2006. To support this claim, the data must show at least one lake with more ice days in 2005\u201306 than in 1980\u201381\u2014a direct comparison over time."
+    },
+    {
+      "title": "Match the lake showing an increase to the effective evidence",
+      "content": "Reading the graph: <strong>Lake Baikal increased</strong> from approximately 100 days in 1980\u201381 to approximately 110\u2013120 days in 2005\u201306. Oulujarvi declined (200 to 160 days) and Kegonsa remained flat (110 to 110 days). Choices A and B state values from only one winter without proving an increase; choice D incorrectly claims two lakes increased when Kegonsa and Oulujarvi either stayed the same or declined. Choice C directly proves an increase by comparing Baikal's ice duration across both periods, providing exactly the evidence the researcher needs. <br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the expanding principle",
+      "content": "The passage describes how caffeic acid benefits mushrooms by combating free radicals, then notes it could benefit humans who also experience free radical damage. The transition must signal that we're extending the same principle to another context."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dMoreover\u201d means \u201cfurthermore\u201d or \u201cin addition,\u201d signaling we're adding a related benefit to the previous point. This correctly extends the finding from mushrooms to humans without suggesting the human claim is an example of, stands in contrast to, or replaces the mushroom claim. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

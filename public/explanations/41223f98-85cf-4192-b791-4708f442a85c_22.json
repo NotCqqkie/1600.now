@@ -1,0 +1,15 @@
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contradiction",
+      "content": "The first sentence states an assumption: offshore and land farms produce similar energy. The second sentence immediately refutes this, explaining that offshore turbines actually produce more energy. A transition word must signal this shift from assumption to correction."
+    },
+    {
+      "title": "Choose the correction word",
+      "content": "\u201dActually\u201d is a correction word\u2014it marks when reality contradicts an initial assumption. The other three don't signal contradiction: \u201cFor example\u201d would support the previous idea, \u201cTherefore\u201d would introduce a logical consequence, and \u201cFinally\u201d would mark a concluding point in a sequence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

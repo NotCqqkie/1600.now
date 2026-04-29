@@ -1,0 +1,15 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_18",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract equations to find x",
+      "content": "Subtracting the second equation from the first eliminates $y$:<br/>$$\\left(\\frac{5}{4}x + 2y\\right) - \\left(\\frac{3}{4}x + 2y\\right) = 17 - 15$$<br/>$$\\frac{2}{4}x = 2$$<br/>$$x = 4$$"
+    },
+    {
+      "title": "Find y and compute the target value",
+      "content": "Substitute $x = 4$ into the second equation:<br/>$$\\frac{3}{4}(4) + 2y = 15$$<br/>$$3 + 2y = 15$$<br/>$$2y = 12$$<br/>$$y = 6$$<br/><br/>Evaluate the target expression:<br/>$$\\frac{11}{4}(4) + 6(6) = 11 + 36 = 47$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

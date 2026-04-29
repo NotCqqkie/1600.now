@@ -1,0 +1,20 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the outer and inner radii",
+      "content": "Outside diameter = 60 inches \u2192 outer radius $R = 30$ inches<br/>Wall thickness = $\\frac{5}{8}$ inches \u2192 inner radius $r = 30 - \\frac{5}{8} = \\frac{235}{8}$ inches"
+    },
+    {
+      "title": "Calculate the radii difference of squares",
+      "content": "$$R^2 = 900, \\quad r^2 = \\left(\\frac{235}{8}\\right)^2 = \\frac{55,225}{64}$$<br/>$$R^2 - r^2 = \\frac{57,600}{64} - \\frac{55,225}{64} = \\frac{2,375}{64}$$"
+    },
+    {
+      "title": "Compute the volume using the hollow cylinder formula",
+      "content": "$$V = \\pi h(R^2 - r^2) = \\pi \\cdot 132 \\cdot \\frac{2,375}{64} = \\frac{313,500\\pi}{64} \\approx 4,898.4 \\times 3.14159 \\approx 15,389 \\text{ cubic inches}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$V = \\pi h(R^2 - r^2)$$"
+    }
+  ]
+}

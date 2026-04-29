@@ -1,0 +1,19 @@
+{
+  "questionId": "f88f27e5",
+  "correctAnswer": "97",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the triangle and identify the interior angle at r and s",
+      "content": "The three intersecting lines form a triangle with vertices at their three intersection points. The angle marked 106\u00b0 is exterior to the triangle (on the far side of line <em>r</em>). The interior angle of the triangle at the intersection of lines <em>r</em> and <em>s</em> is supplementary to it:<br/><br/>$$\\text{Interior angle at } r\\text{-}s = 180\u00b0 - 106\u00b0 = 74\u00b0$$"
+    },
+    {
+      "title": "Apply the triangle angle sum",
+      "content": "The three interior angles of the triangle must sum to 180\u00b0. We know:<ul><li>Angle at <em>r</em>-<em>s</em> intersection: 74\u00b0</li><li>Angle at <em>r</em>-<em>t</em> intersection: 23\u00b0 (marked in the diagram)</li><li>Angle at <em>s</em>-<em>t</em> intersection: unknown</li></ul><br/>$$74\u00b0 + 23\u00b0 + (\\text{angle at } s\\text{-}t) = 180\u00b0$$<br/>$$\\text{Angle at } s\\text{-}t = 180\u00b0 - 74\u00b0 - 23\u00b0 = 83\u00b0$$"
+    },
+    {
+      "title": "Find x using supplementary angles",
+      "content": "The angle <em>x</em>\u00b0 is on the opposite side of line <em>s</em> from the interior angle we just found. These two angles form a linear pair (they share a line and are supplementary):<br/><br/>$$x\u00b0 = 180\u00b0 - 83\u00b0 = 97\u00b0$$<br/><br/>That matches choice <strong>97</strong>."
+    }
+  ]
+}

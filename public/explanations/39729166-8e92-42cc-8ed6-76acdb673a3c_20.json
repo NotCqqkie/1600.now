@@ -1,0 +1,20 @@
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentage changes to multipliers",
+      "content": "A 193% increase means multiply by $1 + 1.93 = 2.93$. A 31% decrease means multiply by $1 - 0.31 = 0.69$.",
+      "formula": "$$\\text{Increase factor} = 1 + \\frac{p}{100}, \\quad \\text{Decrease factor} = 1 - \\frac{p}{100}$$"
+    },
+    {
+      "title": "Chain the multipliers across both years",
+      "content": "Starting with value $V$ at end 2016, the toy's value is multiplied by 2.93 in 2017, then by 0.69 in 2018: $$V \\times 2.93 \\times 0.69 = V \\times (2.93 \\times 0.69) = V \\times 2.0217$$"
+    },
+    {
+      "title": "Calculate the net percentage increase",
+      "content": "The value changed from $V$ to $2.0217V$, a factor of 2.0217. The net percentage increase is $(2.0217 - 1) \\times 100\\% = 1.0217 \\times 100\\% = 102.17\\%$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

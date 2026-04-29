@@ -1,0 +1,15 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Break down the cost structure",
+      "content": "The rental breaks into two parts: $850 for the first 2 hours (a fixed amount) and $30 per additional hour for each hour beyond those first 2 hours. With $t$ total hours and $t > 2$, the additional hours are $(t-2)$."
+    },
+    {
+      "title": "Write the total cost equation",
+      "content": "The total cost equals the fixed part plus the variable part:<br/>$$850 + 30(t-2)$$<br/>Since the total is $1,030:<br/>$$850 + 30(t-2) = 1,030$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

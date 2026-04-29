@@ -1,0 +1,15 @@
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining task",
+      "content": "The explicit goal is to \u201cprovide a specific example of an isthmus\u201d \u2014 not define it or describe it vaguely, but name a labeled example."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "C directly accomplishes the goal by explicitly stating \u201cOne example of an isthmus is the Isthmus of Potidea in Greece,\u201d \u2014 this phrasing both labels and names the example. A and B describe geographic details without identifying them as exemplifying the concept, while D provides the definition instead of an example. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Notice the target expression already appears",
+      "content": "The problem asks for the value of $2(x - 3)$, and this expression is already present in the given equation $44 = 6 + 2(x - 3)$. This means we can find the answer without solving for $x$ \u2014 we just need to isolate $2(x - 3)$."
+    },
+    {
+      "title": "Isolate the target expression",
+      "content": "Starting with:<br/>$$44 = 6 + 2(x - 3)$$<br/>Subtract 6 from both sides:<br/>$$44 - 6 = 2(x - 3)$$<br/>$$38 = 2(x - 3)$$<br/>Therefore $2(x - 3) = 38$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

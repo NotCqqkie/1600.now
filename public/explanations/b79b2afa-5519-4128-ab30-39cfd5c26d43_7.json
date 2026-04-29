@@ -1,0 +1,16 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the fractional exponent rule",
+      "content": "The expression $(x)^{\\frac{1}{17}}$ has a fractional exponent. The key rule for fractional exponents states: when the exponent is $\\frac{1}{n}$, the denominator becomes the root index and the numerator stays as the power.<br/><br/>Applying this with $n = 17$:<br/><br/>$$(x)^{\\frac{1}{17}} = \\sqrt[17]{x}$$<br/><br/>This is the 17th root of $x$ \u2014 the number that, when raised to the 17th power, equals $x$.",
+      "formula": "$$x^{\\frac{1}{n}} = \\sqrt[n]{x}$$"
+    },
+    {
+      "title": "Identify the equivalent expression",
+      "content": "Now compare $\\sqrt[17]{x}$ against each choice:<br/><ul><li><strong>A)</strong> $\\frac{x}{17}$ \u2014 This divides $x$ by 17, not a root operation</li><li><strong>B)</strong> Represents the 17th root of $x$</li><li><strong>C)</strong> $x = x^1$ \u2014 The exponent is 1, not $\\frac{1}{17}$</li><li><strong>D)</strong> $x^{17}$ \u2014 This is raising to the 17th power, which is the <em>inverse</em> of taking a 17th root</li></ul>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

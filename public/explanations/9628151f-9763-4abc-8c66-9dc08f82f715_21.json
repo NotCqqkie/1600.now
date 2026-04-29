@@ -1,0 +1,28 @@
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify vertex form",
+      "content": "The given quadratic function $f(x)=(x-1)^{2}+7$ is in the vertex form: $y=a(x-h)^{2}+k$. Here, $(h,k)$ represents the vertex of the parabola.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Determine minimum value",
+      "content": "In this form, since $a=1>0$, the parabola opens upwards. Therefore, its vertex $(h,k)=(1,7)$ represents the lowest point on the graph.<br/>The y-coordinate of the vertex gives us the minimum value of the function.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Conclude",
+      "content": "Since $k=7$, this is also the minimum value of $f(x)$. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

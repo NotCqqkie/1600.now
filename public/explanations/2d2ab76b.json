@@ -1,0 +1,15 @@
+{
+  "questionId": "2d2ab76b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by setting equations equal",
+      "content": "At intersection points, both equations are satisfied simultaneously. Set $x^2 - 1 = 3$: $$x^2 - 1 = 3$$ $$x^2 = 4$$ $$x = \\pm 2$$"
+    },
+    {
+      "title": "Write the intersection points",
+      "content": "Both intersection points lie on the line $y = 3$. With $x = 2$ and $x = -2$, the coordinates are $(2, 3)$ and $(-2, 3)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

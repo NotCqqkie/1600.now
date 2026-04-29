@@ -1,0 +1,16 @@
+{
+  "questionId": "affb2315",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use sample proportion to estimate population",
+      "content": "A random sample's observed proportion is our best estimate for the entire population's proportion. The sample found that 20% intend to enroll in the study program, so we estimate that 20% of all 55 Spanish club students intend to enroll.",
+      "formula": "$$\\text{Estimated count} = \\text{Sample proportion} \\times \\text{Total population}$$"
+    },
+    {
+      "title": "Calculate 20% of 55",
+      "content": "$$0.20 \\times 55 = 11$$<br/>This gives us the estimated number of students who intend to enroll in the study program. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

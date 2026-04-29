@@ -1,0 +1,15 @@
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The study's crucial finding is <strong>\u201csimilar correlations between patterns of these factors and of personality traits\u201d</strong> across the 53-country sample \u2014 indicating the personality-music relationship is consistent across cultures rather than varying by culture."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D follows directly: if personality and musical preference correlate similarly across cultures, then people with comparable personality profiles will prefer comparable music across those contexts. The other choices either extend beyond Western music (A), rely on unstated prior assumptions (B), or introduce familiarity as an undiscussed factor (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

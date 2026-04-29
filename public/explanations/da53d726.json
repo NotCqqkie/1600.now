@@ -1,0 +1,15 @@
+{
+  "questionId": "da53d726",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side is an independent clause: subject (\u201cgoals\u201d) + verb (\u201cwere\u201d) + description (\u201cthreefold\u201d). The right side is a series of three parallel infinitive phrases (to ensure..., to secure..., and to advocate...)."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon introduces a list or elaboration that follows an independent clause. The other choices violate this rule\u2014either creating a sentence fragment (B), omitting necessary punctuation (C), or misusing semicolon syntax (D). That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

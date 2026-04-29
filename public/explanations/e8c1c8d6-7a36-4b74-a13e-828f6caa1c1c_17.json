@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "After \u201cgaseous,\u201d the phrase consists of a noun \u201ccompounds\u201d followed by \u201cpropylene and propane\u201d\u2014an appositive that specifies which compounds."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Restrictive appositives are not set off by commas; non-restrictive appositives are. Since \u201cpropylene and propane\u201d specifies which compounds, it is restrictive and requires no commas. Options A and D add unwanted commas; option C places a period mid-sentence. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

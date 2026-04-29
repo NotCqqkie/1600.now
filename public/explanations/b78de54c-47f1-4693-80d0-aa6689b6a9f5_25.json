@@ -1,0 +1,15 @@
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal's requirement",
+      "content": "The student wants to identify the sculpture for which Arp won the prize. To accomplish this goal, the response must name the specific sculpture from the notes: <em>Sculpture classique</em>."
+    },
+    {
+      "title": "Select the choice that accomplishes the goal",
+      "content": "C accomplishes the goal by naming the sculpture (<em>Sculpture classique</em>) and connecting it to Arp's Carnegie Prize win. A, B, and D either mention Arp and the prize without naming the sculpture, or discuss irrelevant prize details. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

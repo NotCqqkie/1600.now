@@ -1,0 +1,15 @@
+{
+  "questionId": "a8fabad0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percentage calculation",
+      "content": "The expected tip is 15% of the $78.20 bill. Set up: $$\\text{Tip} = 0.15 \\times 78.20$$"
+    },
+    {
+      "title": "Evaluate and identify the closest choice",
+      "content": "Compute: $$0.15 \\times 78.20 = 11.73$$ The expected tip is $11.73, which is closest to $12.00. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

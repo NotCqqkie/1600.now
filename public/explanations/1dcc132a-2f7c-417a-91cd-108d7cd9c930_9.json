@@ -1,0 +1,15 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand to create an identity",
+      "content": "For infinitely many solutions, the equation must be an identity (both sides identical for all $x$). Expand both sides:<br/><br/>Left: $18(x+5) = 18x + 90$<br/><br/>Right: $2(x+c) + 16x = 2x + 2c + 16x = 18x + 2c$"
+    },
+    {
+      "title": "Set constant terms equal",
+      "content": "For the equation to be an identity:<br/>$$18x + 90 = 18x + 2c$$<br/><br/>The coefficients of $x$ are already identical, so the constant terms must match: $90 = 2c$, giving $c = 45$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

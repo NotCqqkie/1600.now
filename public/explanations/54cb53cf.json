@@ -1,0 +1,19 @@
+{
+  "questionId": "54cb53cf",
+  "correctAnswer": "79",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Reverse the relationship between populations",
+      "content": "Given that the 2018 population is 1.27 times the 2014 population, I need to reverse this to express 2014 in terms of 2018.<br/><br/>If $Z_{2018} = 1.27 \\cdot Z_{2014}$, then dividing both sides by 1.27:<br/><br/>$$Z_{2014} = \\frac{1}{1.27} \\cdot Z_{2018}$$"
+    },
+    {
+      "title": "Set up the percentage equation",
+      "content": "The problem asks for $p$ such that 2014 is $p\\%$ of 2018:<br/><br/>$$Z_{2014} = \\frac{p}{100} \\cdot Z_{2018}$$<br/><br/>Comparing with the equation from Step 1, the coefficient of $Z_{2018}$ must match:<br/><br/>$$\\frac{p}{100} = \\frac{1}{1.27}$$"
+    },
+    {
+      "title": "Solve for p and round to nearest integer",
+      "content": "Multiplying both sides by 100:<br/><br/>$$p = \\frac{100}{1.27}$$<br/><br/>Calculating: $100 \\div 1.27 \\approx 78.74$<br/><br/>Rounding to the nearest whole number, $p = 79$."
+    }
+  ]
+}

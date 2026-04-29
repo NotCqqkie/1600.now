@@ -1,0 +1,15 @@
+{
+  "questionId": "bb43fc3c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key similarity to emphasize",
+      "content": "The goal is to \u201cemphasize a similarity between the ages of the malls.\u201d The notes show both malls have ancient origins: Qianmen Dajie dates to the Ming dynasty (1368\u20131644) and Rue Mouffetard to the Roman Empire (117\u2013235 CE). The similarity is their antiquity across centuries."
+    },
+    {
+      "title": "Match the age similarity to the answer choices",
+      "content": "Choice A shows both malls' antiquity through parallel phrasing: \u201chas roots as far back as the Ming dynasty; <strong>likewise</strong>, Rue Mouffetard has existed for centuries.\u201d This parallel structure directly highlights that both are ancient. The others discuss unrelated features: fame and location (B), the definition of pedestrian malls (C), or modern proliferation that contradicts Rue Mouffetard's actual age (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

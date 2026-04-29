@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage contrasts two recruitment methods: snowball sampling (through social networks) led to much higher retention than recruitment by strangers. This comparison reveals that social connection is the crucial factor."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A directly identifies what being recruited by someone you know creates: an obligation to persist with the study, which explains the higher retention. The other three either address recruitment rather than retention, compare populations the passage never discusses, or undermine the significance of social connection. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dc47c2ac",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core prediction being challenged",
+      "content": "The assumption makes this specific prediction: species that build domed nests have larger geographic ranges than species that build open nests."
+    },
+    {
+      "title": "Match to the direct contradiction",
+      "content": "Choice D directly demonstrates the opposite: open-nest species have larger ranges than domed-nest species. Choices A, B, and C discuss extinction rates, body size, and nesting materials respectively \u2014 none directly address range size. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

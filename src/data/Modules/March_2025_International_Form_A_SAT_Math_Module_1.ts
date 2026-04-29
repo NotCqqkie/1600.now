@@ -292,23 +292,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_12",
-    "testName": "March 2025 International Form A SAT Math Module 1",
-    "text": "$8x^{2}+13x=6$\nWhat is the positive solution to the given equation?",
-    "choices": [],
-    "correctAnswer": "3/8,0.375,.375",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
-      "confidence": "high"
-    }
+      "difficulty": "Easy",
+      "rationale": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield 2 x minus 3 y, is greater than 4.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $0, - 1.5$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D.",
+      "id": "3c95093c",
+      "testName": "SAT Question Bank",
+      "text": "$x -9y > 12$\nWhich of the following inequalities is equivalent to the inequality above?",
+      "correctAnswer": "B",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "$x - y > 2$"
+          },
+          {
+              "id": "B",
+              "text": "$x -3y > 4$"
+          },
+          {
+              "id": "C",
+              "text": "$x -2y > 4$"
+          },
+          {
+              "id": "D",
+              "text": "$y -2x > 2$"
+          }
+      ]
   },
   {
     "section": "Math",

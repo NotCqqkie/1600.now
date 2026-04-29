@@ -1,0 +1,16 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_15",
+  "correctAnswer": "258",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the annual rate of population change",
+      "content": "Using the two known data points: (1996, 61 thousand) and (2016, 225 thousand).<br/><br/>Time elapsed: 2016 \u2212 1996 = 20 years<br/>Population change: 225 \u2212 61 = 164 thousand<br/><br/>Annual rate of change: $$m = \\frac{164}{20} = 8.2 \\text{ thousand per year}$$",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Extend the linear model to 2020",
+      "content": "From 2016 to 2020 is 4 years. Using the rate of 8.2 thousand per year: $$\\text{Population increase} = 8.2 \\times 4 = 32.8 \\text{ thousand}$$<br/><br/>The 2020 population is: $$x = 225 + 32.8 = 257.8$$<br/><br/>Rounding to the nearest whole number: $$x = 258$$"
+    }
+  ]
+}

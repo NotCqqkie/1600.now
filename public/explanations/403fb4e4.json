@@ -1,0 +1,15 @@
+{
+  "questionId": "403fb4e4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "<strong>Clue:</strong> The sentence introduces an example with 'for instance,' which requires a specific, data-driven contrast to the preceding claim that female farmers <em>constituted the majority</em> in cultivating 'specific types of crops.' The correct answer must isolate a region/crop pairing where women clearly outnumber men."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice C isolates a <em>specific regional/crop subset</em> (non\u2013root vegetables in both <strong>north</strong> and <strong>south</strong> Ondo) where women are the majority (e.g., 68% and 71% respectively). The other three choices either generalize or misalign with the majority claim\u2014A merges two regions/crops without confirming dominance in all; B reverses the crop/region logic; D contradicts the 'majority' emphasis by citing equal proportions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage immediately explains that the Wi-Fi alternative \u201ccan give users a cheap way\u201d to detect people through walls. This is the concrete benefit being described."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "B) inexpensive directly expresses the cost benefit of the Wi-Fi solution. A, C, and D each misidentify the relevant feature\u2014unmistakable and infrequent describe unrelated properties, while impractical contradicts the passage's claim that this alternative works. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the right angle and sides relative to angle B",
+      "content": "In right triangle ABC with angles A and B acute, the right angle is at C. From angle B's perspective, AC is the opposite side and BC is the adjacent side."
+    },
+    {
+      "title": "Set up the tangent equation",
+      "content": "Using the tangent ratio:<br/>$$\\tan B = \\frac{AC}{BC}$$<br/>Substitute the given values $\\tan B = \\frac{1}{3}$ and AC = 28.2:<br/>$$\\frac{28.2}{BC} = \\frac{1}{3}$$",
+      "formula": "$$\\tan(\\text{angle}) = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    },
+    {
+      "title": "Solve for BC",
+      "content": "Multiply both sides by BC and then by 3 to isolate BC:<br/>$$BC = 28.2 \\times 3 = 84.6$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

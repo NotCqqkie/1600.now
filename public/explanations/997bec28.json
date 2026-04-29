@@ -1,0 +1,15 @@
+{
+  "questionId": "997bec28",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the perimeter equation",
+      "content": "Let the unknown third side be $x$. The perimeter is the sum of all three sides: $$24 + 24 + x = 83$$."
+    },
+    {
+      "title": "Backsolving \u2014 testing choice B (35)",
+      "content": "Substitute $x = 35$ into the perimeter equation: $$24 + 24 + 35 = 83$$.<br/>Since the left\u2011hand side equals the given perimeter, choice B satisfies the condition.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

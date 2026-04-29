@@ -1,0 +1,21 @@
+{
+  "questionId": "2f0a43b2",
+  "correctAnswer": ".2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the reciprocal relationship",
+      "content": "Start with $$\\frac{x}{8}=5.$$ Taking the reciprocal of both sides preserves equality (since both sides are non-zero): $$\\frac{8}{x}=\\frac{1}{5}.$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Convert to decimal",
+      "content": "Simplify $$\\frac{1}{5}$$ to a decimal: $$\\frac{1}{5}=0.2.$$ This matches the value we need for $$\\frac{8}{x}$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

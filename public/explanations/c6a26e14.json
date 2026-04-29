@@ -1,0 +1,16 @@
+{
+  "questionId": "c6a26e14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the definition of absolute value",
+      "content": "The absolute value equation $|x+45|=48$ means the expression inside equals either 48 or $-48$:<br/><br/>$$x+45=48 \\quad \\text{or} \\quad x+45=-48$$",
+      "formula": "$$|A|=B \\implies A=B \\text{ or } A=-B$$"
+    },
+    {
+      "title": "Solve both cases and identify the positive solution",
+      "content": "From the first case: $x+45=48$. Subtract 45 from both sides:<br/>$$x=48-45=3$$<br/><br/>From the second case: $x+45=-48$. Subtract 45 from both sides:<br/>$$x=-48-45=-93$$<br/><br/>Since the problem asks for the positive solution, we choose $x=3$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9922b364",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what information the goal requires",
+      "content": "The student's goal is explicitly stated: identify the <strong>year</strong> that <em>The Canon of Medicine</em> was published. The notes directly provide this information: \u201cIt was published in the year 1025 CE.\u201d"
+    },
+    {
+      "title": "Select the option that includes the publication date",
+      "content": "Choice A directly presents the book and its publication year (1025 CE). Choices B, C, and D each reference information from the notes\u2014the author's background, the book's historical use, and its content\u2014but none state when it was published. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

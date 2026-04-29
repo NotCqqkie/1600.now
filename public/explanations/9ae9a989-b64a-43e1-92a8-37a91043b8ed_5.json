@@ -1,0 +1,15 @@
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the passage's two-part arc",
+      "content": "The text opens with a definition of horizontal gene transfer, then pivots to its consequence and practical importance: preventing it could mitigate dangerous pathogens. The defining signal is this progression from concept to significance."
+    },
+    {
+      "title": "Match the arc to the choices",
+      "content": "Choice D directly captures this arc: it describes the biological process and explains why researching it matters for public health.<br/><br/>The other three either invent missing elements (A's historical research angle), misidentify the passage's subject (B's focus on organisms as threats), or ignore its actual content (C's claim about organism comparison).<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

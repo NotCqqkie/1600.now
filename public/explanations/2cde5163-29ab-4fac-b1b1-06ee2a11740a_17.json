@@ -1,0 +1,15 @@
+{
+  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical requirement",
+      "content": "The sentence structure is 'spent over fourteen years [blank] data.' The key is that 'spent' + time amount + verb form creates a pattern where the verb must show the activity."
+    },
+    {
+      "title": "Apply the 'spent time [doing]' rule",
+      "content": "The correct rule is: use the gerund form after 'spent [time]' to show the activity. 'Collecting' is the gerund that completes 'spent years collecting data.' A uses present tense rather than gerund; C uses plural 'were' when the subject is singular; D uses simple past, which doesn't create the correct pattern. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

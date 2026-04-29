@@ -1,0 +1,15 @@
+{
+  "questionId": "ebd457f4",
+  "correctAnswer": "774",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate weekly savings amount",
+      "content": "Brian saves $\\frac{2}{5}$ of $\\$215$ each week. Multiply:<br/>$$\\frac{2}{5} \\times 215 = \\frac{430}{5} = 86$$<br/>Brian saves $\\$86$ per week."
+    },
+    {
+      "title": "Multiply by 9 weeks",
+      "content": "Total savings over 9 weeks at $\\$86$ per week:<br/>$$86 \\times 9 = 774$$<br/>The answer is $\\$774$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total charge function",
+      "content": "The first 25 people cost $25 \\times 22 = 550$ dollars. For $n$ people total, there are $(n - 25)$ additional people at 14 dollars each. The total charge is:<br/>$$f(n) = 550 + 14(n - 25)$$"
+    },
+    {
+      "title": "Simplify to find the function",
+      "content": "Expand and combine like terms:<br/>$$f(n) = 550 + 14n - 350 = 14n + 200$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

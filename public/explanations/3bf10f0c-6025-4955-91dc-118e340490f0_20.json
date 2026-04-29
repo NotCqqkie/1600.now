@@ -1,0 +1,15 @@
+{
+  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize exponential growth",
+      "content": "The phrase <em>for each increase of 1 in $x$, the value of $y$ increases by a factor of 4</em> signals exponential growth with base 4. Exponential functions have the form $y = a \\cdot b^x$ where $a$ is the initial value and $b$ is the multiplicative factor."
+    },
+    {
+      "title": "Determine the parameters",
+      "content": "The growth factor per unit increase in $x$ is $b = 4$. Use the initial condition $x = 0$, $y = 150$:<br/><br/>$$y = a(4)^x$$<br/>$$150 = a(4)^0 = a$$<br/><br/>So $a = 150$, yielding $y = 150(4)^x$. Verify: at $x = 1$, $y = 150(4)^1 = 150 \\times 4 = 600$ (a factor of 4 increase). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures at the boundary",
+      "content": "Left of blank: <strong>the most prestigious</strong> is an adjective phrase (needing a noun).<br/>Right of blank: <strong>the Nobel Prize in Literature</strong> is a noun phrase."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon correctly introduces an elaboration or example that follows. Choice C supplies \u201caward for a person of letters\u201d to complete the adjective phrase, then uses a colon between two noun phrases: the award described and the Nobel Prize as its specific example. A semicolon (A) incorrectly tries to separate two noun phrases instead of independent clauses, and choices B and D create ungrammatical word order. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

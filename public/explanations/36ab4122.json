@@ -1,0 +1,15 @@
+{
+  "questionId": "36ab4122",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up earnings for each work segment",
+      "content": "Megan's total earnings come from two segments:<ul><li>First 8 hours at regular rate: $8p$</li><li>Remaining $10 - 8 = 2$ hours at overtime rate: $2(1.5p) = 3p$</li></ul>"
+    },
+    {
+      "title": "Solve for the regular hourly wage",
+      "content": "Total earnings equal the sum of both segments: $$8p + 3p = 137.50$$ <br/>Combine like terms: $$11p = 137.50$$ <br/>Divide by 11: $$p = \\frac{137.50}{11} = 12.50$$ <br/>Megan's regular hourly wage is $\\$12.50$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

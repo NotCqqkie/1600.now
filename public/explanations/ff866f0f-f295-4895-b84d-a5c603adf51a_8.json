@@ -1,0 +1,15 @@
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated limitation",
+      "content": "The passage directly identifies the drawback: \u201cdata from Places API tend to be restricted to places that are customer facing.\u201d This means not all types of amenities in a neighborhood would be captured."
+    },
+    {
+      "title": "Apply the limitation to the choices",
+      "content": "Choice C directly captures this limitation\u2014if data only include customer-facing places, conclusions won't represent all amenities in the neighborhood. Choices A, B, and D each describe problems not mentioned in the text. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

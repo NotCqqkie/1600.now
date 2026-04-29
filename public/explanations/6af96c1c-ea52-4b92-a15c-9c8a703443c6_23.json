@@ -1,0 +1,15 @@
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage structure",
+      "content": "The passage moves from a general principle\u2014the definition of extinct languages\u2014to a specific illustration using Umbrian. This is a definition-then-example structure that requires a transition signaling illustration."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<em>For example,</em> introduces a specific illustration of the general principle\u2014Umbrian demonstrates the definition by being a language once widely spoken yet no longer in use. The other choices fail because they signal consequence, concession, or conclusion rather than illustration. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

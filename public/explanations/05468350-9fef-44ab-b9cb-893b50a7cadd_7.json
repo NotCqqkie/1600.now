@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation structure",
+      "content": "The equation $10x + 26,255 = 26,950$ takes the form: (initial value) + (coefficient) \u00d7 (unknown) = (final value). Since 10 is the number of years from 2000 to 2010, and $x$ is multiplied by this time span, the structure reveals that $x$ must be some quantity per year or per time unit."
+    },
+    {
+      "title": "Solve for x and interpret its meaning",
+      "content": "Rearranging: $$10x = 26,950 - 26,255 = 695$$ This means $x = \\frac{695}{10} = 69.5$. The value $x$ is the total population change divided by the number of years, which is the average annual increase in population. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

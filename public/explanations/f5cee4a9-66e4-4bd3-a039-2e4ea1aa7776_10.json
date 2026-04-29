@@ -1,0 +1,15 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the y-intercept definition",
+      "content": "The y-intercept occurs at $x = 0$. Substituting into $y = 16^{x+3}$:<br/>$$y = 16^{0+3} = 16^3$$"
+    },
+    {
+      "title": "Evaluate $16^3$",
+      "content": "$16^3 = 16 \\times 16 \\times 16 = 256 \\times 16 = 4096$. The y-intercept is $(0, 4096)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

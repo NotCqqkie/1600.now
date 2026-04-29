@@ -1,0 +1,19 @@
+{
+  "questionId": "6daf8d70",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate total bushes constraint",
+      "content": "The problem states 'no more than 164 total bushes planted.' Since a represents azaleas and b represents boxwoods, this translates to the inequality $$a + b \\leq 164$$."
+    },
+    {
+      "title": "Translate azaleas-to-boxwoods ratio constraint",
+      "content": "The condition 'azaleas will be at most three times boxwoods' means $$a \\leq 3b$$. This establishes the second inequality in the system."
+    },
+    {
+      "title": "Identify system in answer choices",
+      "content": "The system with $$a + b \\leq 164$$ and $$a \\leq 3b$$ matches choice <strong>D</strong>. This system correctly models both constraints from the problem."
+    }
+  ]
+}

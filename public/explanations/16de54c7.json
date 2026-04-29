@@ -1,0 +1,15 @@
+{
+  "questionId": "16de54c7",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the constant term property",
+      "content": "When multiplying $(2x - 3)$ and $(x + k)$, the constant term of the product equals the product of their constant terms. Since $2x^2 + 5x - 12$ has constant term $-12$: $$(-3) \\cdot k = -12$$"
+    },
+    {
+      "title": "Solve for k and verify",
+      "content": "Dividing both sides by $-3$: $$k = \\frac{-12}{-3} = 4$$ <br/> Verify by expanding $(2x - 3)(x + 4)$: $$2x^2 + 8x - 3x - 12 = 2x^2 + 5x - 12$$ \u2713"
+    }
+  ]
+}

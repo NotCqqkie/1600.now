@@ -1,0 +1,15 @@
+{
+  "questionId": "9342ca50",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the parallel lines and transversal",
+      "content": "Line $AC$ cuts through the two parallel lines $BC$ and $AD$, making it a transversal. The angle $x\u00b0$ at point $C$ (between $BC$ and $AC$) and the angle $y\u00b0$ at point $A$ (between $AC$ and $AD$) are interior angles on opposite sides of the transversal."
+    },
+    {
+      "title": "Apply the Alternate Interior Angles Theorem",
+      "content": "When a transversal cuts two parallel lines, alternate interior angles are equal. Here, $\\angle BCA = x\u00b0$ and $\\angle CAD = y\u00b0$ are alternate interior angles. Therefore, $y = x$. <br/><br/>Since $x = 22$, we have $y = 22$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

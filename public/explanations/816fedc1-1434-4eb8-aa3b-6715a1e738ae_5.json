@@ -1,0 +1,19 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex from the given form",
+      "content": "The function $f(x) = \\frac{1}{9}(x-6)^2 + 3$ is already in vertex form $y = a(x-h)^2 + k$. Reading directly, the vertex is $(h, k) = (6, 3)$."
+    },
+    {
+      "title": "Interpret the vertex's coordinates in context",
+      "content": "In this problem:<br/><ul><li>$x$ represents time in seconds</li><li>$f(x)$ represents height in inches</li></ul>The vertex at $(6, 3)$ means at $x = 6$ seconds, the height is 3 inches. Since $a = \\frac{1}{9} > 0$, the parabola opens upward, so this vertex is the minimum point of the function."
+    },
+    {
+      "title": "Determine what the minimum represents",
+      "content": "The minimum height of the parabola is the $y$-coordinate of the vertex: 3 inches. This is the lowest point the toy car reaches on its trajectory. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

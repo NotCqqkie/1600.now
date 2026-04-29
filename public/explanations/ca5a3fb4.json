@@ -1,0 +1,15 @@
+{
+  "questionId": "ca5a3fb4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining evidence",
+      "content": "The single decisive clue is that forest plots with limited logging are \u201cmore robust than plots that haven't been logged at all.\u201d This finding anchors everything the answer must follow from."
+    },
+    {
+      "title": "Match the implication",
+      "content": "If limited logging produces more robust forests, then limited logging must support forest health\u2014which is what A directly states. B, C, and D contradict or miss this by claiming other strategies work better, introducing doubt the evidence doesn't warrant, or arguing for untouched forests that the study shows underperform. That matches choice A\u2014<strong>A</strong> is correct."
+    }
+  ]
+}

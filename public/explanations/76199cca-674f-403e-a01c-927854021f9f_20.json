@@ -1,0 +1,15 @@
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure requiring punctuation",
+      "content": "The sentence reads <em>\u201cincluding the ______ Javanese and Bikol, which are spoken by\u2026\u201d</em> The blank determines what appears between \u201cthe\u201d and the names of two specific languages. The question is whether punctuation should separate the noun from its direct identifiers."
+    },
+    {
+      "title": "Match the correct punctuation choice",
+      "content": "When a noun is directly followed by the specific examples or names that identify it, no punctuation is required. Compare: <strong>\u201cthe colors red and blue\u201d</strong> or <strong>\u201cthe months January and February\u201d</strong>\u2014no commas needed because the names directly specify what the noun refers to. Here, <strong>\u201cthe languages Javanese and Bikol\u201d</strong> works the same way. A comma would form an appositive structure that treats the names as secondary, a colon would introduce a formal list, and an em-dash would create awkward separation. None of these fit when examples directly identify the noun. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

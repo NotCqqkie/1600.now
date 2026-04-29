@@ -1,0 +1,15 @@
+{
+  "questionId": "aab78b25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The blank completes <strong>to determine how much artificial sweetener [?]</strong> \u2014 this is what he was hired to find out. This phrasing is an indirect question (a question embedded within the sentence), not a direct question."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "An indirect question uses normal word order (<strong>most people prefer,</strong> not <strong>do most people prefer</strong>) and ends with a period, not a question mark. Choices A and C end with question marks; B inverts word order. Choice D uses normal word order and a period to close the sentence before <strong>After conducting...</strong> begins.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

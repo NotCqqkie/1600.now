@@ -1,0 +1,15 @@
+{
+  "questionId": "3e63fce0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The final sentence signals the passage's structure: \u201cthey are hopeful that this discovery could aid in the development of new antibiotics for human use.\u201d This isn't just describing the ants \u2014 it's indicating where the finding points, toward further research and application in human medicine."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice A correctly identifies the passage's two-part organization: the first part summarizes the research findings (the ants' ability to treat wounds and the 90% mortality reduction), and the second part identifies an area for further research (developing new human antibiotics based on this discovery). The other choices misread the passage: B falsely claims research methods are detailed, C falsely introduces evolutionary speculation, and D frames the structure as the ants solving their own infection problem, rather than the passage pointing toward human medical applications. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ca9bb527",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given value of y",
+      "content": "The second equation <strong>$y = 19$</strong> directly tells us the $y$-coordinate of our solution. We don't need to solve for $y$; we already have it."
+    },
+    {
+      "title": "Substitute to find x",
+      "content": "Substitute $y = 19$ into the first equation:<br/><br/>$$19 = 4x - 9$$<br/><br/>Add 9 to both sides:<br/><br/>$$28 = 4x$$<br/><br/>Divide by 4:<br/><br/>$$x = 7$$<br/><br/>The solution is $(7, 19)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

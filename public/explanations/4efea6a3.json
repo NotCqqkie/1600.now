@@ -1,0 +1,16 @@
+{
+  "questionId": "4efea6a3",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the rectangle area equation",
+      "content": "The area of a rectangle equals length times width. We know the area is 57 square inches and the longest side is 19 inches. Let $w$ represent the shortest side:<br/>$$57 = 19w$$",
+      "formula": "$$A = lw$$"
+    },
+    {
+      "title": "Solve for the shortest side",
+      "content": "Divide both sides by 19:<br/>$$w = \\frac{57}{19} = 3$$<br/>The shortest side of the rectangle is 3 inches."
+    }
+  ]
+}

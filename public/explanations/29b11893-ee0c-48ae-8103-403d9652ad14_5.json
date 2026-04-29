@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize doubling as exponential growth",
+      "content": "When bacteria double each hour, the population multiplies by 2 each time.<br/>After 1 hour: $44,000 \\cdot 2$<br/>After 2 hours: $44,000 \\cdot 2^2$<br/>After $t$ hours: $44,000 \\cdot 2^t$"
+    },
+    {
+      "title": "Match the formula to an answer choice",
+      "content": "Rewriting with standard notation:<br/>$$y = 44,000(2)^t$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

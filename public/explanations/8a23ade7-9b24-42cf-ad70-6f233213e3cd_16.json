@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures at the blank",
+      "content": "The left side is an independent clause ending with \u201csupernova\u201d as the object. The right side is a noun phrase (\u201cthe explosion of a massive star\u201d) containing an internal relative clause (\u201cwhich blasts...\u201d). The right side elaborates on and renames the preceding noun."
+    },
+    {
+      "title": "Apply the enclosure rule for appositives",
+      "content": "An appositive must be set off by matching punctuation on both sides. Option D correctly frames the appositive with em dashes\u2014opening before \u201cthe\u201d and closing after \u201cspace.\u201d The other three fail: option A's colon and option B's comma don't properly enclose appositives, and option C's period breaks the sentence.<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the dimensions",
+      "content": "From the problem: width = $w$ feet and length = $1.59w$ feet."
+    },
+    {
+      "title": "Apply the area formula",
+      "content": "For a rectangle, Area = length \u00d7 width. Substituting:<br/><br/>$$A = (1.59w)(w)$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

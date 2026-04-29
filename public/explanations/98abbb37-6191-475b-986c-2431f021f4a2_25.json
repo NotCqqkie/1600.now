@@ -1,0 +1,15 @@
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the goal requires",
+      "content": "The student wants to \u201cspecify how much\u201d \u2014 this demands a specific QUANTITY. The notes provide exactly one measurement: 21 mg per 100 g of ascorbic acid (vitamin C)."
+    },
+    {
+      "title": "Choose the answer that includes the quantity",
+      "content": "B includes the specific measurement: \u201c21 mg of vitamin C in every 100 g of blackberries.\u201d The other three omit the amount \u2014 A shifts to animal physiology, while C and D discuss vitamin C without quantifying it. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

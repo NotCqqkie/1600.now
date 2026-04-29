@@ -1,0 +1,15 @@
+{
+  "questionId": "38525983",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two points on the line of best fit",
+      "content": "To find the slope, I need two points that the line clearly passes through. Scanning the graph from left to right, the line passes through approximately (1, 3) on the left and (10, 9) on the right."
+    },
+    {
+      "title": "Apply the slope formula",
+      "content": "Using the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$, I substitute the two points:<br/><br/>$$m = \\frac{9 - 3}{10 - 1} = \\frac{6}{9} = \\frac{2}{3}$$<br/><br/>Converting to a decimal: $\\frac{2}{3} \\approx 0.667$. Among the choices, 0.60 is closest to 0.667. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

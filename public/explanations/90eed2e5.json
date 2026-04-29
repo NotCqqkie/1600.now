@@ -1,0 +1,15 @@
+{
+  "questionId": "90eed2e5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find sample proportion",
+      "content": "We compute proportion of supporters in sample: $$ \\frac{6}{20} = 0.3 $$. That is 30%."
+    },
+    {
+      "content": "Multiply proportion by total council size: $$ 0.3 \\times 50 = 15 $$. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "title": "Estimate total supporters"
+    }
+  ]
+}

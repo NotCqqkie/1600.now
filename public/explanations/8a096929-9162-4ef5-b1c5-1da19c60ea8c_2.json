@@ -1,0 +1,15 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify intersections on the graph",
+      "content": "A solution to the system must be a point (x, y) where both curves pass through the same location. Reading the graph, the line and parabola intersect at two points: one in the second quadrant (upper left) and one in the first quadrant (lower right)."
+    },
+    {
+      "title": "Read coordinates from the grid",
+      "content": "At the left intersection point, the x-coordinate is \u22121 (one unit left of the origin) and the y-coordinate is 5 (five units up from the origin). Reading from the grid, this gives the point (\u22121, 5). This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

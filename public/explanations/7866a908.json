@@ -1,0 +1,19 @@
+{
+  "questionId": "7866a908",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up mass and silicon balance equations",
+      "content": "Let $m_1$ = mass of the first piece (30% silicon) and $m_2$ = mass of the second piece (80% silicon).<br/><br/>The total mass equation is:<br/>$$m_1 + m_2 = 50.0$$<br/><br/>For silicon content, the final sample is 50% silicon by mass, so it contains $0.50 \\times 50.0 = 25.0$ grams of silicon. The silicon balance equation is:<br/>$$0.30m_1 + 0.80m_2 = 25.0$$"
+    },
+    {
+      "title": "Solve for the mass of the second piece",
+      "content": "From the first equation, $m_1 = 50.0 - m_2$. Substitute into the silicon balance equation:<br/>$$0.30(50.0 - m_2) + 0.80m_2 = 25.0$$<br/>$$15.0 - 0.30m_2 + 0.80m_2 = 25.0$$<br/>$$15.0 + 0.50m_2 = 25.0$$<br/>$$0.50m_2 = 10.0$$<br/>$$m_2 = 20.0 \\text{ grams}$$"
+    },
+    {
+      "title": "Calculate silicon mass in the second piece",
+      "content": "The mass of silicon in the second piece is 80% of its total mass:<br/>$$0.80 \\times 20.0 = 16.0 \\text{ grams}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

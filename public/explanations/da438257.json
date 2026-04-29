@@ -1,0 +1,15 @@
+{
+  "questionId": "da438257",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the capital-constraint mechanism",
+      "content": "The student's assertion depends on a specific economic logic: limited capital forced reliance on processing with assembly (firms receive free raw materials and charge only for labor), while processing with inputs requires capital (firms must buy raw materials). If capital constraints \u201cresolved during the 2000s,\u201d we'd expect a dramatic shift toward capital-intensive imports precisely during that decade."
+    },
+    {
+      "title": "Match the supporting pattern to the data",
+      "content": "Processing imports with inputs rose from roughly 650 million dollars (2000) to 2,300 million dollars (2006)\u2014a 1,650-million-dollar increase. Processing with assembly rose from roughly 250 to 750 million dollars\u2014a 500-million-dollar increase. The sharp divergence in growth rates shows that from 2000 to 2006, firms dramatically scaled the capital-intensive strategy, directly confirming that their capital situation improved during that window. Choices A and C focus on 2006 alone or rank categories without timing; choice D compares 2006 assembly to 2000 inputs, missing the within-decade contrast. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

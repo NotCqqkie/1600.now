@@ -1,0 +1,15 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "All datasets share the same mean",
+      "content": "Calculate each sum: A = B = C = D = 235, so each dataset has mean = 235 \u00f7 5 = 47."
+    },
+    {
+      "title": "Identify the tightest clustering around the mean",
+      "content": "Standard deviation measures spread from the mean. Since all datasets have the same mean, the smallest SD belongs to the dataset with values clustering tightest around 47. Examine deviations from the mean:<br/><br/>\n<strong>Choice A:</strong> \u22123, \u22122, 0, 2, 3 (spreads \u00b13)<br/>\n<strong>Choice B:</strong> \u22122, \u22122, 0, 2, 2 (spreads \u00b12)<br/>\n<strong>Choice C:</strong> \u22122, \u22121, 0, 1, 2 (spreads \u00b12)<br/>\n<strong>Choice D:</strong> \u22121, 0, 0, 0, 1 (spreads \u00b11)<br/><br/>\nChoice D has the tightest clustering, with three values exactly at 47 and the remaining two just \u00b11 away. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

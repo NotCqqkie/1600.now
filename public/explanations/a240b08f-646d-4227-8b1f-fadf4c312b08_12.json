@@ -1,0 +1,20 @@
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_12",
+  "correctAnswer": "0.7,7/10,35/50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret conditional probability notation",
+      "content": "We want P(Site A | Red maple), which means: <em>given that a tree is a red maple, what is the probability it comes from Site A?</em> The condition restricts our focus to only red maple trees. We ignore chestnut oaks and site B entirely in the denominator."
+    },
+    {
+      "title": "Extract the counts from the table",
+      "content": "From the table, reading the Red maple row:<br/><ul><li>Red maples at Site A: <strong>35</strong></li><li>Red maples at Site B: 15</li><li>Total red maples: <strong>50</strong></li></ul>These are the only values we need."
+    },
+    {
+      "title": "Calculate the conditional probability",
+      "content": "Out of all 50 red maples in the table, 35 come from Site A. Therefore:<br/><br/>$$P(\\text{Site A} \\mid \\text{Red maple}) = \\frac{35}{50} = \\frac{7}{10} = 0.7$$<br/><br/>The answer is <strong>0.7</strong> or equivalently <strong>7/10</strong> or <strong>35/50</strong>.",
+      "formula": "$$P(A \\mid B) = \\frac{\\text{count of trees satisfying both A and B}}{\\text{count of trees satisfying B}}$$"
+    }
+  ]
+}

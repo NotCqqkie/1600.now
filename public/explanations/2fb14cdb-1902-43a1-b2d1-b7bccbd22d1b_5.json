@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Remove parentheses and identify like terms",
+      "content": "Write out all four terms: $8nr^2 + 2nr + 4n^2r + 3nr$. Identify terms with identical variable powers:<ul><li>$8nr^2$ has powers $n^1r^2$ \u2014 unique</li><li>$4n^2r$ has powers $n^2r^1$ \u2014 unique</li><li>$2nr$ and $3nr$ both have powers $n^1r^1$ \u2014 these are like terms</li></ul>"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the coefficients of $2nr$ and $3nr$: $(2 + 3)nr = 5nr$. Rewrite the complete expression with all terms: $$8nr^2 + 4n^2r + 5nr$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

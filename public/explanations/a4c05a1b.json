@@ -1,0 +1,20 @@
+{
+  "questionId": "a4c05a1b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify co-interior angles from the parallel lines and transversal",
+      "content": "Lines $r$ and $s$ are parallel, and line $m$ is a transversal that intersects both. The angles $x$ and $y$ are co-interior angles (same-side interior angles)\u2014both lie between the two parallel lines on the same side of the transversal.",
+      "formula": "$$\\text{Co-interior angles sum to } 180\u00b0$$"
+    },
+    {
+      "title": "Apply the parallel lines property",
+      "content": "When two parallel lines are cut by a transversal, co-interior angles are supplementary:<br/>$$x + y = 180\u00b0$$<br/>Rearranging for $x$:<br/>$$x = 180\u00b0 - y$$"
+    },
+    {
+      "title": "Use the constraint to find the range of x",
+      "content": "We are given that $y < 65$. Substituting into $x = 180\u00b0 - y$:<br/>$$x = 180\u00b0 - y > 180\u00b0 - 65\u00b0$$<br/>$$x > 115\u00b0$$<br/>This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

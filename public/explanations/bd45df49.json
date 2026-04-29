@@ -1,0 +1,15 @@
+{
+  "questionId": "bd45df49",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute to solve for x",
+      "content": "Since $y = 3x + 9$ is already isolated, substitute into $3y = 8x - 6$:<br/><br/>$$3(3x + 9) = 8x - 6$$<br/>$$9x + 27 = 8x - 6$$<br/>$$x = -33$$"
+    },
+    {
+      "title": "Find y and calculate x - y",
+      "content": "Substitute $x = -33$ into the first equation:<br/>$$y = 3(-33) + 9 = -99 + 9 = -90$$<br/><br/>Calculate $x - y$:<br/>$$x - y = -33 - (-90) = 57$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

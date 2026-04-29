@@ -1,0 +1,15 @@
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage moves from a general claim (sleek vehicles are more aerodynamic) to a specific case (the A320 jet). The transition word must indicate that the A320 is an example of this general principle."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "\u201dFor example\u201d directly marks the A320 as a concrete instance of the general principle just stated. The other choices suggest adding a point, describing simultaneous events, or signaling contrast\u2014none capture the exemplary relationship needed here. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

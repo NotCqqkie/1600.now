@@ -1,0 +1,21 @@
+{
+  "questionId": "e821a26d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the parabola\u2019s direction of opening",
+      "content": "From the scatterplot the points form an \u2229\u2011shaped curve, indicating a downward\u2011opening parabola. For a quadratic $$y = ax^2 + bx + c$$ a downward opening means $$a < 0$$. Therefore the coefficient of $$x^2$$ must be negative. Choices A and C have $$+1.674x^2$$ (positive $$a$$), so they do not match the shape.<br/>That leaves choices B and D \u2014 <strong>B</strong> and <strong>D</strong> remain.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Read the y\u2011intercept",
+      "content": "The scatterplot crosses the vertical axis (year\u202f0) at a value above zero, roughly 700\u202fmillion\u202fMWh. This is the y\u2011intercept, equal to the constant term $$c$$ in $$y = ax^2 + bx + c$$. Hence $$c > 0$$. Choice B has $$c = -745.73$$, which is negative, so it is eliminated.<br/>Only choice D fits both the downward opening and the positive intercept.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

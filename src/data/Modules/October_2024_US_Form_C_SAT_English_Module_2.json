@@ -38,30 +38,30 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "October 2024 US Form C SAT English Module 2",
-    "passage": null,
+    "passage": "The invention in 1958 of the integrated circuit (or microchip) radically altered the semiconductor industry. In fact, some historians argue that it fundamentally ______ the industry by enabling it to take advantage of mass production methods for the first time. Which choice completes the text with the most logical and precise word or phrase?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "1"
+        "text": "overwhelmed"
       },
       {
         "label": "B",
-        "text": "1"
+        "text": "bypassed"
       },
       {
         "label": "C",
-        "text": "1"
+        "text": "obstructed"
       },
       {
         "label": "D",
-        "text": "1"
+        "text": "transformed"
       }
     ],
     "is_fill_in_blank": false,
-    "correct_answer": "A",
-    "rationale": null,
-    "id": "1b5dbecd-2a08-4015-83f5-8ad883233476_3"
+    "correct_answer": "D",
+    "rationale": "Choice D is the best answer because it most logically completes the text’s discussion of the invention of the integrated circuit. As used in this context, \"transformed\" means substantially changed in some way. The text states that the invention radically altered the semiconductor industry, with some historians claiming that it had a fundamental effect on the industry by allowing for mass production for the first time. This context conveys that the invention of the integrated circuit transformed the semiconductor industry.\nChoice A is incorrect. Although the text indicates that the invention of the integrated circuit significantly affected (\"radically altered\") the semiconductor industry, it doesn’t indicate that the invention \"overwhelmed\" the industry, which in this context would mean that it overcame the industry such that the industry struggled or was defeated. Instead, the text conveys that the invention’s effect was positive, since it allowed the semiconductor industry to begin making use of mass production methods. Choice B is incorrect because it wouldn’t make sense in context to say that the invention of the integrated circuit \"bypassed\" the semiconductor industry, which would mean it intentionally avoided the industry. The text indicates that the invention directly affected the semiconductor industry, since it made it possible for the industry to begin engaging in mass production methods. Choice C is incorrect because the text doesn’t indicate that the invention of the integrated circuit \"obstructed\" the semiconductor industry, which would mean that it blocked or hindered the industry in some way. Instead, the text indicates that the invention’s effect was positive, since it made it possible for the semiconductor industry to begin engaging in mass production methods.",
+    "id": "fa014d2d"
   },
   {
     "section": "Reading and Writing",
@@ -230,30 +230,30 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "October 2024 US Form C SAT English Module 2",
-    "passage": null,
+    "passage": "The following text is from Jane Austen’s 1811 novel <em>Sense and Sensibility</em>. Elinor lives with her younger sisters and her mother, Mrs. Dashwood.\nElinor, this eldest daughter, whose advice was so effectual, possessed a strength of understanding, and coolness of judgment, which qualified her, though only nineteen, to be the counsellor of her mother, and enabled her frequently to counteract, to the advantage of them all, that eagerness of mind in Mrs. Dashwood which must generally have led to imprudence. She had an excellent heart;—her disposition was affectionate, and her feelings were strong; but she knew how to govern them: it was a knowledge which her mother had yet to learn; and which one of her sisters had resolved never to be taught. According to the text, what is true about Elinor?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "1"
+        "text": "Elinor often argues with her mother but fails to change her mind."
       },
       {
         "label": "B",
-        "text": "1"
+        "text": "Elinor can be overly sensitive with regard to family matters."
       },
       {
         "label": "C",
-        "text": "11"
+        "text": "Elinor thinks her mother is a bad role model."
       },
       {
         "label": "D",
-        "text": "1"
+        "text": "Elinor is remarkably mature for her age."
       }
     ],
     "is_fill_in_blank": false,
-    "correct_answer": "A",
-    "rationale": null,
-    "id": "1b5dbecd-2a08-4015-83f5-8ad883233476_9"
+    "correct_answer": "D",
+    "rationale": "Choice D is the best answer because it provides a detail about Elinor that is established in the text. The text indicates that although Elinor is “only nineteen,” she gives good advice and exhibits such a high level of understanding and judgment that she serves as “the counsellor of her mother.” Thus, Elinor is mature beyond her years.\nChoice A is incorrect because it isn’t supported by the text: although the text says that Elinor advises her mother and often counteracts her mother’s impulses, there’s no mention of Elinor arguing with her mother or failing to change her mother’s mind. Choice B is incorrect because it isn’t supported by the text: although the text mentions that Elinor has strong feelings, it doesn’t indicate that she’s excessively sensitive when it comes to family issues. Choice C is incorrect because it isn’t supported by the text: there’s no mention of what Elinor thinks about her mother and no suggestion that she thinks her mother is a bad role model. Because she’s described as having “an excellent heart,” Elinor likely doesn’t think ill of her mother.",
+    "id": "3543e6e2"
   },
   {
     "section": "Reading and Writing",

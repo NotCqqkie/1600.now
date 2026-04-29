@@ -1,0 +1,15 @@
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the explicit chromium comparison",
+      "content": "The passage directly states that ferritic stainless steel contains a <strong>higher percentage of chromium (at least 10.5%) than does austenitic stainless steel</strong>. This is the key defining difference between the two steel types."
+    },
+    {
+      "title": "Apply the comparison to the product applications",
+      "content": "Since dishwashers use the 200 series (austenitic) and induction cookers use ferritic, choice D follows directly\u2014dishwashers must have lower chromium than induction cookers. The other three all contradict the passage. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

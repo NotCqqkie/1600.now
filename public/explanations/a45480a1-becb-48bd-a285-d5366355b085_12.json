@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what needs to be supported",
+      "content": "The conclusion is specifically about fungus species counts\u2014which country reported the most. The table has a Fungi column showing damaging fungus species for each country: Poland 25, Austria 51, Hungary 18."
+    },
+    {
+      "title": "Match the evidence to the conclusion",
+      "content": "Choice A states that Austria reported 51 damaging fungus species, which is more than Poland (25) and Hungary (18)\u2014a direct comparison that proves Austria had the greatest number. The other choices either reference the wrong data (B uses tree numbers instead of fungi, C mixes fungus and insect data) or fail to support the comparative claim (D merely describes Hungary without showing Austria's advantage). <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

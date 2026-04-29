@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank follows <strong>Organization</strong>, the final word of the noun phrase \u201cthe International Criminal Police Organization\u201d that renames Interpol. An opening dash precedes this appositive phrase, and after the blank comes <strong>in 1961</strong>, a time expression."
+    },
+    {
+      "title": "Apply the appositive closure rule",
+      "content": "When a dash opens an appositive, a matching dash must close it. <strong>Organization\u2014</strong> provides the necessary closing punctuation to complete the parenthetical structure. The colon, comma, and no punctuation all fail to match the opening dash or create inconsistent punctuation marks. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

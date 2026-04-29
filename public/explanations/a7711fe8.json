@@ -1,0 +1,16 @@
+{
+  "questionId": "a7711fe8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize vertex form",
+      "content": "The function $f(x) = (x-2)^2 - 4$ is in vertex form. Here, $a = 1 > 0$ (opening upward), $h = 2$, and $k = -4$. An upward-opening parabola reaches its minimum at the vertex.",
+      "formula": "$$f(x) = a(x - h)^2 + k \\text{ has vertex at } (h, k)$$"
+    },
+    {
+      "title": "Extract the minimum value",
+      "content": "The vertex is at $(h, k) = (2, -4)$, so the minimum value is $-4$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

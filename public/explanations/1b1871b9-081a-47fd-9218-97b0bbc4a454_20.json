@@ -1,0 +1,20 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand f(x) = (2x - 5)^2",
+      "content": "Apply the binomial square pattern with $a = 2x$ and $b = 5$:\n$$f(x) = (2x)^2 - 2(2x)(5) + 5^2 = 4x^2 - 20x + 25$$",
+      "formula": "$(a - b)^2 = a^2 - 2ab + b^2$"
+    },
+    {
+      "title": "Expand g(x) = 2(2x + 7)",
+      "content": "Distribute the 2:\n$$g(x) = 2(2x) + 2(7) = 4x + 14$$"
+    },
+    {
+      "title": "Add f(x) + g(x) and combine like terms",
+      "content": "$$f(x) + g(x) = (4x^2 - 20x + 25) + (4x + 14)$$\n$$= 4x^2 + (-20x + 4x) + (25 + 14)$$\n$$= 4x^2 - 16x + 39$$\nThat matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

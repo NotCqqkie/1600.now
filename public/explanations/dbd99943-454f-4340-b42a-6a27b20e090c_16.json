@@ -1,0 +1,15 @@
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The sentence contains two independent clauses: <strong>\u201cThe sand at Balos Beach in Greece is a more unusual shade\u201d</strong> and <strong>\u201cdeposits of crushed coral and other organic matter lend the sand a unique pink hue.\u201d</strong> These two independent clauses must be properly separated by punctuation."
+    },
+    {
+      "title": "Apply the semicolon rule for independent clauses",
+      "content": "Two independent clauses require a semicolon to separate them. The word \u201cthough\u201d here functions as a postpositive adverb (similar to \u201cstill\u201d or \u201cyet\u201d) that closes the first clause. When a postpositive adverb ends an independent clause, it must be followed by a semicolon before the next independent clause begins: <strong>IC, though; IC</strong>. The other three choices either omit the required semicolon (A), misuse a colon (B), or incorrectly treat \u201cthough\u201d as parenthetical material (C). That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

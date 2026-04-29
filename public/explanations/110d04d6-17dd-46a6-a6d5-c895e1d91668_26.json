@@ -1,0 +1,15 @@
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key requirement",
+      "content": "The prompt asks to \u201cemphasize how long Hess's sport has been a Paralympic event.\u201d The decisive signal is in the notes: \u201cSwimming has been an event at the Paralympics since 1960\u201d \u2014 this temporal information is what needs to be emphasized."
+    },
+    {
+      "title": "Select the answer that includes swimming's historical timeline",
+      "content": "Choice C directly states that swimming \u201chas been an event at the Paralympic Games since 1960,\u201d answering the prompt's requirement to emphasize the sport's long history. The other three focus on Hess's personal achievements and career span or omit any information about the sport's timeline. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

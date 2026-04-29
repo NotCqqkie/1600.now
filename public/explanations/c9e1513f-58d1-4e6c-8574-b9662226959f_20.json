@@ -1,0 +1,19 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_20",
+  "correctAnswer": "217",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate attendees of first and second webinars",
+      "content": "65% of the 2,000 first-webinar attendees also attended the second webinar: $$0.65 \\times 2,000 = 1,300$$"
+    },
+    {
+      "title": "Calculate attendees of first webinar only (not second)",
+      "content": "Subtract those who attended both from the total first-webinar attendees: $$2,000 - 1,300 = 700$$"
+    },
+    {
+      "title": "Calculate attendees of first and third but not second",
+      "content": "Of the 700 people who attended first but not second, 31% attended the third webinar: $$0.31 \\times 700 = 217$$"
+    }
+  ]
+}

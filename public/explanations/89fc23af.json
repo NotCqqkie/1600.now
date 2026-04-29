@@ -1,0 +1,15 @@
+{
+  "questionId": "89fc23af",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Perform polynomial long division",
+      "content": "To find the equivalent form, divide the numerator $x^2 - 2x - 5$ by the denominator $x - 3$ using polynomial long division.<br/><br/>First, divide the leading terms: $x^2 \\div x = x$. Multiply back and subtract:<br/>$$x(x - 3) = x^2 - 3x$$<br/>$$(x^2 - 2x - 5) - (x^2 - 3x) = x - 5$$<br/><br/>Next, divide the new leading term: $x \\div x = 1$. Multiply back and subtract:<br/>$$1(x - 3) = x - 3$$<br/>$$(x - 5) - (x - 3) = -2$$<br/><br/>The quotient is $x + 1$ and the remainder is $-2$."
+    },
+    {
+      "title": "Express in remainder form and identify the choice",
+      "content": "Using the division algorithm for rational expressions:<br/>$$\\frac{x^2 - 2x - 5}{x - 3} = x + 1 + \\frac{-2}{x - 3} = x + 1 - \\frac{2}{x - 3}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

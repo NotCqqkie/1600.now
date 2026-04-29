@@ -1,0 +1,15 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand and collect C terms",
+      "content": "Distribute $N$ on the right side of $PC = N(44 - C)$ to get $PC = 44N - NC$.<br/>Add $NC$ to both sides:<br/>$$PC + NC = 44N$$"
+    },
+    {
+      "title": "Factor out C and solve",
+      "content": "Factor $C$ from the left side:<br/>$$C(P + N) = 44N$$<br/>Divide both sides by $(P + N)$:<br/>$$C = \\frac{44N}{P + N}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two points on the line of best fit",
+      "content": "From the graph, the line passes through approximately (0, 12) on the y-axis and (10, 1)."
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "Apply the slope formula: $$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{1 - 12}{10 - 0} = \\frac{-11}{10} = -1.1$$<br><br>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    }
+  ]
+}

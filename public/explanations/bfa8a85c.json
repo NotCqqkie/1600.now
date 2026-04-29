@@ -1,0 +1,15 @@
+{
+  "questionId": "bfa8a85c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median of the original dataset",
+      "content": "The original data is 6, 6, 8, 8, 8, 10, 21, which contains 7 values.<br/>For an odd count, the median is the middle value at position 4.<br/>The 4th value is <strong>8</strong>."
+    },
+    {
+      "title": "Find which choice has the same median",
+      "content": "Backsolving \u2014 testing choice B (6, 6, 8, 8, 10, 10): This list has 6 values (even count).<br/>The median is the average of the 3rd and 4th values:<br/>$$\\frac{8 + 8}{2} = 8$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

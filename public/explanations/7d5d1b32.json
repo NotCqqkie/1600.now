@@ -1,0 +1,19 @@
+{
+  "questionId": "7d5d1b32",
+  "correctAnswer": "-.9333",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the left side",
+      "content": "Distribute 2 across the parentheses:<br/>$$2kx - 2n = -\\frac{28}{15}x - \\frac{36}{19}$$"
+    },
+    {
+      "title": "Identify the condition for no solution",
+      "content": "A linear equation has no solution when the coefficients of $x$ are equal on both sides, but the constant terms differ\u2014creating a false statement like $0 = -5$.<br/><br/>For no solution, set the coefficients of $x$ equal:<br/>$$2k = -\\frac{28}{15}$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "Divide both sides by 2:<br/>$$k = -\\frac{28}{30} = -\\frac{14}{15}$$<br/><br/>In decimal form: $k \\approx -0.9333$"
+    }
+  ]
+}

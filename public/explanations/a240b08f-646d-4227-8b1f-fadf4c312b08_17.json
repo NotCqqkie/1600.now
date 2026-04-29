@@ -1,0 +1,19 @@
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_17",
+  "correctAnswer": "-1534",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the midpoint condition to find key distances",
+      "content": "P is the midpoint of $\\overline{NQ}$, so $NP = PQ = 52$ feet. Therefore, $NQ = 52 + 52 = 104$ feet."
+    },
+    {
+      "title": "Calculate the semicircle and rectangle areas",
+      "content": "Since $\\overline{NP}$ is the diameter of the semicircle, the radius is $r = \\frac{52}{2} = 26$ feet.<br/><br/>Semicircle area: $$A_{\\text{semicircle}} = \\frac{1}{2}\\pi r^2 = \\frac{1}{2}\\pi(26)^2 = \\frac{1}{2}\\pi(676) = 338\\pi$$<br/><br/>The rectangle $NQRS$ has width $NQ = 104$ feet and height $NS = 18$ feet:<br/>$$A_{\\text{rectangle}} = 104 \\times 18 = 1872 \\text{ square feet}$$"
+    },
+    {
+      "title": "Find a - b from the total area",
+      "content": "Total area of the figure: $$A_{\\text{total}} = 338\\pi + 1872$$<br/><br/>Comparing to $a\\pi + b$, we have $a = 338$ and $b = 1872$. Therefore, $a - b = 338 - 1872 = -1534$."
+    }
+  ]
+}

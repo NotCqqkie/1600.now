@@ -1,0 +1,12 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7",
+  "correctAnswer": "0.5,1/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Conditional Probability from Table",
+      "content": "We need the probability that a T-shirt is medium given that it's a Hawks T-shirt. From the table, the intersection of the Medium row and Hawks column is 21 T-shirts, and the Hawks column total is 42 T-shirts. Therefore:<br/><br/>$$\\frac{21}{42} = \\frac{1}{2} = 0.5$$",
+      "formula": "$$P(A|B) = \\frac{\\text{count of } A \\text{ and } B}{\\text{count of } B}$$"
+    }
+  ]
+}

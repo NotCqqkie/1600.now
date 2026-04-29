@@ -1,0 +1,15 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the proportional relationship",
+      "content": "The table pairs distance and time values. Since we're looking for a linear equation of the form $t = kd$, time is proportional to distance. To find the constant $k$, divide any time value by its corresponding distance value."
+    },
+    {
+      "title": "Calculate the constant from table data",
+      "content": "Using the first row where $d = 0.18$ miles and $t = 9$ minutes:<br/>$$k = \\frac{t}{d} = \\frac{9}{0.18} = 50$$<br/>Therefore the equation is $t = 50d$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

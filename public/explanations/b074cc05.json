@@ -1,0 +1,15 @@
+{
+  "questionId": "b074cc05",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what computer services matches in 2010 and 2019",
+      "content": "Computer services reaches <strong>6 thousand in 2010</strong>\u2014the same as engineering services. It drops to <strong>5 thousand in 2019</strong>\u2014the same as technical consulting services."
+    },
+    {
+      "title": "Match this trajectory to the correct choice",
+      "content": "Choice B correctly states both transitions: computer services in 2010 equaled engineering services (6 = 6) and in 2019 equaled technical consulting services (5 = 5). A gets the 2010 comparison right but falsely claims computer equals engineering in 2019 (<strong>5 \u2260 6</strong>); C and D make false claims about the 2010 relationship. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

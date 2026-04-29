@@ -1,0 +1,15 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_21",
+  "correctAnswer": "117",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find x and angle T using angle sum",
+      "content": "In triangle $RST$, the three angles sum to $180^\\circ$:<br/><br/>$$39 + x + (5x - 3) = 180$$<br/><br/>Combine like terms:<br/><br/>$$36 + 6x = 180 \\quad \\Rightarrow \\quad x = 24$$<br/><br/>Calculate angle $T$:<br/><br/>$$\\text{Angle } T = 5(24) - 3 = 120 - 3 = 117^\\circ$$"
+    },
+    {
+      "title": "Apply the corresponding angles property",
+      "content": "Since $\\overline{LK} \\parallel \\overline{RT}$, the line segment $ST$ acts as a transversal cutting both parallel lines. At point $K$ on line $LK$, angle $SKL$ is formed. At point $T$ on line $RT$, angle $STR$ (the interior angle of the original triangle) is formed.<br/><br/>These angles occupy corresponding positions at the two intersections: both are on the same side of the transversal, measured from the parallel line to the transversal in the same rotational sense. By the Corresponding Angles Postulate, when a transversal cuts two parallel lines, corresponding angles are equal.<br/><br/>Therefore: $$\\text{Angle } SKL = \\text{Angle } T = 117^\\circ$$"
+    }
+  ]
+}

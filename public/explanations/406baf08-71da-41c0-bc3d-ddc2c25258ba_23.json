@@ -1,0 +1,15 @@
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the transition type needed",
+      "content": "The first sentence establishes that poisonous amphibians safely migrate during the day. The second sentence explains the mechanism\u2014their warning colors protect them from daytime predators. The strongest signal is the shift from stating a fact to explaining how it works."
+    },
+    {
+      "title": "Match the transition to the relationship",
+      "content": "\u201dAt that time\u201d (choice B) means \u201cin that situation\u201d or \u201cin those circumstances,\u201d linking the daytime context stated in the first sentence to the logical explanation about how the amphibians survive in daylight. The other three fail: \u201cHowever\u201d signals a contradiction rather than an explanation, \u201cIn other words\u201d restates the idea instead of explaining it, and \u201cFor example\u201d introduces examples instead of mechanism. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

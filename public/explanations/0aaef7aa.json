@@ -1,0 +1,15 @@
+{
+  "questionId": "0aaef7aa",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We're given $p(n) = 7n^3$ and need $p(n) = 56$. Set the function equal to 56:<br/>$$7n^3 = 56$$"
+    },
+    {
+      "title": "Solve for n",
+      "content": "Divide both sides by 7:<br/>$$n^3 = 8$$<br/>Take the cube root of both sides:<br/>$$n = \\sqrt[3]{8} = 2$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the sequence of past events",
+      "content": "The first sentence states the piece <strong>was featured</strong> in a 2013 exhibition\u2014a completed past event. The second sentence describes the piece being <strong>chosen for the exhibition</strong>, which also happened in the past but must have occurred before the featuring. You cannot feature something that hasn't been chosen yet."
+    },
+    {
+      "title": "Apply the past perfect rule",
+      "content": "<strong>Had been chosen</strong> uses past perfect, which shows an action completed before another past action. Since the piece had to be chosen before it could be featured, this tense correctly shows the sequence. The simple present forms is and is being (A, D) place the action in the present, contradicting the past context; the future will be (C) contradicts the 2013 date.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

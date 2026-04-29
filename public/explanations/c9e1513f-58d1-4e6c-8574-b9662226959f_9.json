@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the slopes of both lines",
+      "content": "Both equations are in slope-intercept form $y = mx + b$.<br/><br/>Line 1: $y = 5x + 10$ has slope $m = 5$<br/>Line 2: $y = 5x - 2$ has slope $m = 5$<br/><br/>Both lines have the same slope but different y-intercepts (10 and -2, respectively)."
+    },
+    {
+      "title": "Parallel lines never intersect",
+      "content": "When two lines have the same slope and different y-intercepts, they are parallel. Parallel lines never intersect in the coordinate plane. Therefore, the graphs meet at zero points. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

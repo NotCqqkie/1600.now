@@ -1,0 +1,15 @@
+{
+  "questionId": "c303ad23",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide the equation by the common factor",
+      "content": "Looking at $3x^2 - 18x - 15 = 0$, all terms are divisible by 3. Divide both sides by 3:<br/><br/>$$x^2 - 6x - 5 = 0$$"
+    },
+    {
+      "title": "Isolate the target expression",
+      "content": "We want to find $x^2 - 6x$. Add 5 to both sides of the equation from Step 1:<br/><br/>$$x^2 - 6x = 5$$"
+    }
+  ]
+}

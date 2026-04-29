@@ -1,0 +1,19 @@
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the x-intercept equation",
+      "content": "To find where the graph crosses the x-axis, set $y = 0$:<br/>$$0 = 9\\left(\\frac{a}{6}\\right)^{x+c} - b$$<br/>Rearranging:<br/>$$9\\left(\\frac{a}{6}\\right)^{x+c} = b$$"
+    },
+    {
+      "title": "Analyze the base and monotonicity",
+      "content": "Since $a > 6$, the base satisfies $\\frac{a}{6} > 1$. When an exponential function has a base greater than 1, it is strictly increasing. Therefore, $f(x) = 9\\left(\\frac{a}{6}\\right)^{x+c}$ is strictly increasing in $x$."
+    },
+    {
+      "title": "Determine the range and count intersections",
+      "content": "As $x$ varies over all real numbers:<br/><ul><li>As $x \\to -\\infty$: $\\left(\\frac{a}{6}\\right)^{x+c} \\to 0$, so $f(x) \\to 0^+$</li><li>As $x \\to \\infty$: $\\left(\\frac{a}{6}\\right)^{x+c} \\to \\infty$, so $f(x) \\to \\infty$</li></ul><br/>The function is continuous and strictly increasing with range $(0, \\infty)$. Since $b > 0$ is a single positive value, the strictly increasing function $f(x)$ equals $b$ at exactly one point. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

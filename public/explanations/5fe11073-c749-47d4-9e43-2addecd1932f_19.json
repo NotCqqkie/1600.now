@@ -1,0 +1,15 @@
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the list of three factors with internal commas",
+      "content": "The sentence introduces three main factors with \u201c\u2014namely,\u201d. The second factor contains an internal comma (\u201cwith higher-velocity meteoroids releasing more energy\u201d), and the third factor also contains an internal comma (\u201csuch as changes in sky conditions\u201d). When list items have commas inside them, they require a stronger separator between items."
+    },
+    {
+      "title": "Apply the semicolon rule for complex lists",
+      "content": "When items in a list contain commas, the SAT uses semicolons to separate the major items, creating the pattern <em>Item 1; Item 2; and Item 3</em>. Here, that means: \u201cthe size and composition of the meteoroids<strong>;</strong> their velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy; and atmospheric fluctuations, such as changes in sky conditions.\u201d Choice A achieves this structure by using a semicolon. Choices C and D use a comma and em dash (both too weak to separate complex items), and choice B uses a period that inappropriately ends the sentence mid-list. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

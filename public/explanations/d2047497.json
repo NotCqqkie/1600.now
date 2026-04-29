@@ -1,0 +1,16 @@
+{
+  "questionId": "d2047497",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the rectangle area formula",
+      "content": "The area of a rectangle is the product of its length and width.",
+      "formula": "$$A = l \\times w$$"
+    },
+    {
+      "title": "Substitute the given dimensions and calculate",
+      "content": "Substitute $l = 17$ cm and $w = 7$ cm:<br/>$$A = 17 \\times 7 = 119\\text{ cm}^2$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

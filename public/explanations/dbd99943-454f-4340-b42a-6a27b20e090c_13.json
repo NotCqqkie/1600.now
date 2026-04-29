@@ -1,0 +1,15 @@
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the paradox",
+      "content": "The passage reports a paradox: CLPs, which are shielded during transmission, declined as temperatures rose, while directly transmitted parasites, which are exposed to conditions, remained stable. This finding contradicts the expectation that shielding provides temperature protection, revealing that CLPs' transmission advantage is insufficient."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "B explains the paradox by showing that CLPs have a transmission advantage, but other temperature-driven factors overcome this protection\u2014accounting for their decline despite their shielding strategy. The other choices either reverse the relationship between shielding and protection (A), compare transmission strategies the passage never discusses (C), or contradict the passage's characterization of directly transmitted parasites as exposed (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

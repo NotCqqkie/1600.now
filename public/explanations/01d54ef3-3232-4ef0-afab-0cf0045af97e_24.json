@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint the task requirement",
+      "content": "The student wants to provide an example of Catlett's sculptures. The notes list two specific works: <em>Mahalia</em> (sculpture, 2002) and <em>Paulina</em> (print, 2009)."
+    },
+    {
+      "title": "Select the choice that fulfills it",
+      "content": "Choice A provides <em>Mahalia</em> as a specific sculpture example with details from the notes (creator, date), fulfilling the task. Choices B, C, and D respectively offer biography, a print instead of a sculpture, and general description\u2014none provide a specific sculpture example. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

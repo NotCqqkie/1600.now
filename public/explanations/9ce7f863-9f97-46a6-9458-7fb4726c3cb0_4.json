@@ -1,0 +1,15 @@
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The passage contrasts two causes of agglomeration: knowledge spillovers drive clustering in one context, but different reasons drive it in another. This signals that the mix of factors driving agglomeration varies by industry."
+    },
+    {
+      "title": "Match the meaning to the blank",
+      "content": "<strong>Heterogeneous</strong> means \u201cdifferent in kind\u201d or \u201cvaried\u201d\u2014the right word for describing a mix of factors that differs by industry. Credible, imperative, and decisive don't capture this sense of variation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

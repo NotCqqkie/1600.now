@@ -1,0 +1,19 @@
+{
+  "questionId": "642519d7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that sample results are estimates, not guarantees",
+      "content": "The survey found 78% satisfaction among 1,000 randomly selected adults from one city. A critical principle: <strong>a sample statistic estimates the population parameter but does not prove it.</strong> Different random samples from the same population will have different sample proportions due to sampling variability."
+    },
+    {
+      "title": "Evaluate why none of the three statements must be true",
+      "content": "Statement I claims the population must be 78% satisfied \u2014 but the sample is just an estimate; the true population proportion could be 74%, 76%, 79%, or another nearby value. Statement II assumes another random sample must also yield exactly 78% \u2014 but sampling variability means different samples produce different results (we might observe 75%, 80%, etc. instead). Statement III claims the result must apply to a different city \u2014 but different populations have different characteristics, and we have no information about satisfaction levels elsewhere. <strong>None of these statements must be true.</strong>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Since none of the three statements logically follows from this single sample survey, that matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

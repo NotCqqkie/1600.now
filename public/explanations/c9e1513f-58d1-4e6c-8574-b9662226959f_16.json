@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the elimination strategy",
+      "content": "Notice that the first equation has $+5y$ and the second has $-5y$. Adding these equations will eliminate $y$, leaving us with a simple equation in $x$."
+    },
+    {
+      "title": "Add the equations and solve for x",
+      "content": "Add the two equations together:<br/><br/>$$x + 5y = 5$$<br/>$$x - 5y = 3$$<br/><br/>The sum gives:<br/><br/>$$2x = 8$$<br/><br/>Dividing both sides by 2:<br/><br/>$$x = 4$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

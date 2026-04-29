@@ -1,0 +1,15 @@
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "Since we need $f(a) = 28$ and $f(x) = 4\\sqrt{x}$, we substitute $a$ for $x$:<br/>$$4\\sqrt{a} = 28$$"
+    },
+    {
+      "title": "Isolate and solve for a",
+      "content": "Divide both sides by 4:<br/>$$\\sqrt{a} = 7$$<br/>Square both sides to eliminate the square root:<br/>$$a = 49$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

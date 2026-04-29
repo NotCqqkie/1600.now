@@ -1,0 +1,15 @@
+{
+  "questionId": "74c03c21",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the distance equation",
+      "content": "Distance equals speed times time. The bus traveled at 55 mph for $x$ hours on the highway, covering $55x$ miles. On local roads, it traveled at 25 mph for $y$ hours, covering $25y$ miles. The total distance is 160 miles, so:<br/>$$55x + 25y = 160$$"
+    },
+    {
+      "title": "Build the time equation and match the system",
+      "content": "The bus traveled for a total of 4 hours: $x$ hours on the highway plus $y$ hours on local roads. This gives:<br/>$$x + y = 4$$<br/>The system of equations is $55x + 25y = 160$ and $x + y = 4$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

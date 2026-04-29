@@ -1,0 +1,15 @@
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the dependent clause needing introduction",
+      "content": "After 'pattern [noun]' comes 'biologists believe can be used to explain...'. This clause cannot stand alone\u2014it depends on being connected to the noun to explain what that noun is or does."
+    },
+    {
+      "title": "Apply the rule for introducing a dependent clause",
+      "content": "A clause that modifies a noun is introduced by 'that' with no comma before 'that'. Option C 'formation that some' correctly uses 'that' to connect noun and clause. The others either separate the noun from its clause with punctuation (A, B) or incorrectly add a comma before 'that' (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

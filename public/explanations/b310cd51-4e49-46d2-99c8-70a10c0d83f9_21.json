@@ -1,0 +1,19 @@
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_21",
+  "correctAnswer": "1458",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor for a 3-unit change",
+      "content": "In an exponential function $f(x) = ab^{\\frac{x}{n}}$, ratios eliminate the constant $a$. Divide the two known values:<br/><br/>$$\\frac{f(5)}{f(2)} = \\frac{ab^{\\frac{5}{n}}}{ab^{\\frac{2}{n}}} = b^{\\frac{3}{n}}$$<br/><br/>$$b^{\\frac{3}{n}} = \\frac{162}{6} = 27$$<br/><br/>This is the multiplicative growth when the input increases by 3."
+    },
+    {
+      "title": "Scale to find the 2-unit growth factor",
+      "content": "To go from $f(5)$ to $f(7)$, the input increases by 2 units. Rewrite the exponent $\\frac{2}{n}$ in terms of what we know:<br/><br/>$$b^{\\frac{2}{n}} = \\left(b^{\\frac{3}{n}}\\right)^{\\frac{2}{3}} = 27^{\\frac{2}{3}}$$<br/><br/>$$27^{\\frac{2}{3}} = (3^3)^{\\frac{2}{3}} = 3^2 = 9$$"
+    },
+    {
+      "title": "Compute f(7) using the growth factor",
+      "content": "Multiply $f(5)$ by the growth factor for a 2-unit change:<br/><br/>$$f(7) = f(5) \\cdot b^{\\frac{2}{n}} = 162 \\cdot 9 = 1458$$"
+    }
+  ]
+}

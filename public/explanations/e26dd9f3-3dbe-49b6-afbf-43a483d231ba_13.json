@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Extract the Amur grape values from the graph",
+      "content": "The graph shows leaf pair orientation for three grapevine species. For Amur grape specifically (the dark gray bar), the opposite-side orientation bar reaches approximately 150 pairs, and the same-side orientation bar reaches approximately 60 pairs. These two numbers must appear in the completed example to accurately represent the data."
+    },
+    {
+      "title": "Match the correct numbers to the choices",
+      "content": "Choice A states <strong>\u201c150 leaf pairs show opposite-side orientation, whereas approximately 60 pairs show same-side orientation,\u201d</strong> which precisely reflects what the graph displays for Amur grape. Choice B misreads the same-side count as 49 instead of 60. Choices C and D incorrectly claim no same-side pairs exist when the graph clearly shows 60. The 150:60 ratio effectively demonstrates that opposite-side orientation is much more common. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

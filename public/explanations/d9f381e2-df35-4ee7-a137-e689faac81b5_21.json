@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the time frame established in the first sentence",
+      "content": "\u201dIn this chapter, we will focus on\u2026\u201d uses future tense, establishing what the chapter will accomplish."
+    },
+    {
+      "title": "Apply the rule of verb tense consistency",
+      "content": "The rule is <strong>verb tense consistency</strong>: related actions in the same narrative must use the same tense, so \u201cwill turn\u201d matches \u201cwill focus.\u201d The others violate this by using past tense (B, C) or future perfect (A). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

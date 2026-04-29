@@ -1,0 +1,15 @@
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the comma splice",
+      "content": "The sentence contains two independent clauses separated only by a comma:<br/><br/><strong>Clause 1:</strong> \u201cThis conceptualization of harmonic opposites did not originate with Collier in 1985\u201d<br/><strong>Clause 2:</strong> \u201cthe idea was first articulated in Levy's book\u201d<br/><br/>A comma alone cannot join two independent clauses\u2014this is a comma splice error."
+    },
+    {
+      "title": "Apply the semicolon rule",
+      "content": "Two independent clauses require a semicolon (not a comma) to separate them properly. Choice B places a semicolon after \u201cthough,\u201d \u2014 where \u201cthough\u201d serves as a parenthetical word expressing concession (like \u201cadmittedly\u201d) right after \u201cCollier.\u201d The semicolon then divides the two clauses: <em>...did not originate with Collier, though; in 1985, the idea was first articulated...</em> The other choices either leave the comma splice unsolved (A and C both retain \u201c...in 1985, the idea\u201d as a continuation after a comma) or place punctuation incorrectly (D uses the conjunctive adverb pattern poorly here). This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "94364a79",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Similar triangles have equal ratios",
+      "content": "Both trees are measured at the same time, so the sun's angle is identical. This creates similar right triangles for both trees, meaning their height-to-shadow ratios must be equal. For tree 1: $$\\frac{10}{5} = 2$$"
+    },
+    {
+      "title": "Backsolve for tree 2's height",
+      "content": "Backsolving \u2014 testing choice C (8): $$\\frac{8}{2} = 4 \\neq 2$$. Fails. Testing choice B (4): $$\\frac{4}{2} = 2$$, matching tree 1's ratio. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

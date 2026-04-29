@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the linear form",
+      "content": "The function $f(x) = \\frac{4}{11}x$ is linear, written in the form $y = mx + b$ where the slope is the coefficient of $x$, namely $m$."
+    },
+    {
+      "title": "Extract the slope",
+      "content": "The coefficient of $x$ in $f(x) = \\frac{4}{11}x$ is $\\frac{4}{11}$, so the slope is $\\frac{4}{11}$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

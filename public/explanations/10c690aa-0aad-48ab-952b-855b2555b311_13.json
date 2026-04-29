@@ -1,0 +1,15 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_13",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the second equation",
+      "content": "The second equation is written as $x + y + y = 115$. This can be rewritten more clearly as:<br/>$$x + 2y = 115$$<br/>Now we have two equations in standard form."
+    },
+    {
+      "title": "Eliminate x by subtracting the equations",
+      "content": "We have:<br/>$$x + y = 105$$<br/>$$x + 2y = 115$$<br/>Subtracting the first equation from the second eliminates $x$:<br/>$$(x + 2y) - (x + y) = 115 - 105$$<br/>$$y = 10$$"
+    }
+  ]
+}

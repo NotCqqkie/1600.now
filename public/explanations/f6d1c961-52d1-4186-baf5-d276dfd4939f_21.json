@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "<em>Find the comparison signal:</em><br/>The passage sets up a clear comparison between the Wright Flyer (first, non-aerodynamic aircraft) and the modern Douglas DC-10 (far more aerodynamic). This indicates a shift from less to more efficient design. <strong>The lift-to-drag ratio provided for each plane highlights this contrast.</strong>"
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<em>Determine what fits:</em><br/>Choice C, \u201cHowever,\u201d captures the contrasting shift exactly between the two planes regarding their aerodynamic efficiency.<br/><br/>The other options either introduce unrelated conclusions (\u201cIn conclusion,\u201d) or fail to effectively show contrast with weaker alternatives like \u201cSpecifically,\u201d and \u201cNevertheless.\u201d<br/><br>This matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

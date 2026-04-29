@@ -1,0 +1,15 @@
+{
+  "questionId": "be9cb6a2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Model the cost structure",
+      "content": "Renting for $x$ days costs 270 dollars for the first day plus 135 dollars for each additional day. With $(x-1)$ additional days: $$y = 270 + 135(x-1)$$"
+    },
+    {
+      "title": "Expand to standard form",
+      "content": "Expanding the parentheses: $$y = 270 + 135x - 135 = 135x + 135$$ This is choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

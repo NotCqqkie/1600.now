@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font System Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Inter+Tight:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --font-display: 'Geist', sans-serif;
+      --font-ui:      'Geist', sans-serif;
+      --font-mono:    'Geist Mono', monospace;
+
+      /* Weights */
+      --w-display: 500;
+      --w-ui:      400;
+      --w-mono:    400;
+
+      /* Palette */
+      --bg:        #0a0a0a;
+      --surface:   #111111;
+      --surface2:  #1a1a1a;
+      --border:    #2a2a2a;
+      --text:      #f5f5f5;
+      --muted:     #888;
+      --accent:    #6366f1;
+      --accent2:   #22d3ee;
+      --green:     #4ade80;
+      --red:       #f87171;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      -webkit-font-smoothing: antialiased;
+      padding: 48px 32px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ── Font Legend ─────────────────────────────── */
+    .legend {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 56px;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 20px;
+      flex: 1;
+      min-width: 220px;
+    }
+    .legend-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .legend-sample-display {
+      font-family: var(--font-display);
+      font-weight: var(--w-display);
+      font-size: 22px;
+    }
+    .legend-sample-ui {
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      font-size: 22px;
+    }
+    .legend-sample-num {
+      font-family: var(--font-mono);
+      font-weight: var(--w-mono);
+      font-size: 22px;
+      font-variant-numeric: tabular-nums;
+    }
+    .legend-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--accent);
+      margin-top: 4px;
+    }
+
+    /* ── Section Labels ──────────────────────────── */
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section { margin-bottom: 56px; }
+
+    /* ── Hero ────────────────────────────────────── */
+    .hero {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 56px 48px;
+      margin-bottom: 56px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(99,102,241,.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      font-size: 13px;
+      color: var(--accent);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .hero-title {
+      font-family: var(--font-display);
+      font-weight: var(--w-display);
+      font-size: 52px;
+      line-height: 1.1;
+      letter-spacing: -.02em;
+      margin-bottom: 20px;
+      max-width: 640px;
+    }
+    .hero-title span { color: var(--accent); }
+    .hero-sub {
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      font-size: 17px;
+      color: var(--muted);
+      line-height: 1.6;
+      max-width: 520px;
+      margin-bottom: 32px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-ui);
+      font-weight: 500;
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-ghost {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+      margin-left: 12px;
+    }
+
+    /* ── Stats ───────────────────────────────────── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+    }
+    .stat-label {
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .stat-value {
+      font-family: var(--font-mono);
+      font-weight: 500;
+      font-size: 30px;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -.01em;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .stat-delta {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+    }
+    .up { color: var(--green); }
+    .down { color: var(--red); }
+
+    /* ── Type Scale ──────────────────────────────── */
+    .type-scale-row {
+      display: flex;
+      align-items: baseline;
+      gap: 24px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .type-scale-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+      width: 180px;
+      flex-shrink: 0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ── Data Table ──────────────────────────────── */
+    .table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    thead tr { border-bottom: 1px solid var(--border); }
+    th {
+      font-family: var(--font-ui);
+      font-weight: 500;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: left;
+      padding: 12px 16px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    td {
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      font-size: 14px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    tr:last-child td { border-bottom: none; }
+    .td-num {
+      font-family: var(--font-mono);
+      font-variant-numeric: tabular-nums;
+      font-size: 14px;
+      text-align: right;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .badge-green { background: rgba(74,222,128,.12); color: var(--green); }
+    .badge-red   { background: rgba(248,113,113,.12); color: var(--red); }
+    .badge-gray  { background: rgba(136,136,136,.12); color: var(--muted); }
+
+    /* ── Form ────────────────────────────────────── */
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .field label {
+      display: block;
+      font-family: var(--font-ui);
+      font-weight: 500;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .field input, .field select {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: var(--text);
+      font-family: var(--font-ui);
+      font-weight: var(--w-ui);
+      font-size: 14px;
+      outline: none;
+    }
+    .field input:focus { border-color: var(--accent); }
+    .field input[type="number"] {
+      font-family: var(--font-mono);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ── Code Block ──────────────────────────────── */
+    .code-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.7;
+      overflow-x: auto;
+    }
+    .tok-kw  { color: #a78bfa; }
+    .tok-fn  { color: var(--accent2); }
+    .tok-str { color: var(--green); }
+    .tok-num { color: #fb923c; font-variant-numeric: tabular-nums; }
+    .tok-cm  { color: var(--muted); font-style: italic; }
+  </style>
+</head>
+<body>
+
+  <!-- LEGEND -->
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-label">Display — Geist 500</div>
+      <div class="legend-sample-display">The quick brown fox</div>
+      <div class="legend-meta">font-weight: 500 · tracking: −0.02em</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-label">UI — Geist 400</div>
+      <div class="legend-sample-ui">The quick brown fox</div>
+      <div class="legend-meta">font-weight: 400 · body, labels, nav</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-label">Numbers — Geist Mono + Inter Tight tnum</div>
+      <div class="legend-sample-num">1,234,567.89</div>
+      <div class="legend-meta">font-variant-numeric: tabular-nums</div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eyebrow">1600 Prep Hub</div>
+    <h1 class="hero-title">Ace the SAT with <span>data‑driven</span> practice</h1>
+    <p class="hero-sub">Personalized question sets, instant scoring, and progress analytics — so every study session moves the needle.</p>
+    <a href="#" class="btn btn-primary">Start practicing</a>
+    <a href="#" class="btn btn-ghost">View demo</a>
+  </div>
+
+  <!-- STATS -->
+  <section>
+    <div class="section-label">Stats — Geist Mono · tabular-nums</div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Total Questions</div>
+        <div class="stat-value">12,480</div>
+        <div class="stat-delta up">↑ 3.2% this week</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Avg. Score</div>
+        <div class="stat-value">1,420</div>
+        <div class="stat-delta up">↑ 40 pts</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Accuracy</div>
+        <div class="stat-value">78.5%</div>
+        <div class="stat-delta down">↓ 1.1%</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Study Streak</div>
+        <div class="stat-value">31</div>
+        <div class="stat-delta" style="color:var(--muted)">days in a row</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPE SCALE -->
+  <section>
+    <div class="section-label">Display type scale — Geist 500</div>
+
+    <div class="type-scale-row">
+      <div class="type-scale-meta">72px / −.03em</div>
+      <span style="font-family:var(--font-display);font-weight:500;font-size:72px;letter-spacing:-.03em;line-height:1">Hero</span>
+    </div>
+    <div class="type-scale-row">
+      <div class="type-scale-meta">48px / −.02em</div>
+      <span style="font-family:var(--font-display);font-weight:500;font-size:48px;letter-spacing:-.02em;line-height:1">Section Heading</span>
+    </div>
+    <div class="type-scale-row">
+      <div class="type-scale-meta">32px / −.01em</div>
+      <span style="font-family:var(--font-display);font-weight:500;font-size:32px;letter-spacing:-.01em">Card Title or Modal</span>
+    </div>
+    <div class="type-scale-row">
+      <div class="type-scale-meta">20px / 0em</div>
+      <span style="font-family:var(--font-display);font-weight:500;font-size:20px">Subsection or feature label</span>
+    </div>
+    <div class="type-scale-row">
+      <div class="type-scale-meta">16px UI / 400</div>
+      <span style="font-family:var(--font-ui);font-weight:400;font-size:16px">Body copy, descriptions, instructions, and helper text all use Geist 400 for readability at scale.</span>
+    </div>
+    <div class="type-scale-row">
+      <div class="type-scale-meta">13px UI / 400 muted</div>
+      <span style="font-family:var(--font-ui);font-weight:400;font-size:13px;color:var(--muted)">Labels, captions, timestamps, metadata</span>
+    </div>
+  </section>
+
+  <!-- DATA TABLE -->
+  <section>
+    <div class="section-label">Data table — numbers in Geist Mono tnum</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>Questions</th>
+            <th style="text-align:right">Accuracy</th>
+            <th style="text-align:right">Avg time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Heart of Algebra</td>
+            <td class="td-num">240</td>
+            <td class="td-num">82.3%</td>
+            <td class="td-num">1:24</td>
+            <td><span class="badge badge-green">Strong</span></td>
+          </tr>
+          <tr>
+            <td>Problem Solving &amp; Data</td>
+            <td class="td-num">180</td>
+            <td class="td-num">71.0%</td>
+            <td class="td-num">2:11</td>
+            <td><span class="badge badge-gray">Review</span></td>
+          </tr>
+          <tr>
+            <td>Passport to Advanced Math</td>
+            <td class="td-num">310</td>
+            <td class="td-num">64.7%</td>
+            <td class="td-num">2:48</td>
+            <td><span class="badge badge-red">Weak</span></td>
+          </tr>
+          <tr>
+            <td>Reading Comprehension</td>
+            <td class="td-num">420</td>
+            <td class="td-num">88.1%</td>
+            <td class="td-num">1:55</td>
+            <td><span class="badge badge-green">Strong</span></td>
+          </tr>
+          <tr>
+            <td>Writing &amp; Language</td>
+            <td class="td-num">195</td>
+            <td class="td-num">79.4%</td>
+            <td class="td-num">1:37</td>
+            <td><span class="badge badge-gray">Review</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section>
+    <div class="section-label">Form — UI labels Geist 400, numeric inputs Geist Mono tnum</div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:28px;max-width:600px">
+      <h3 style="font-family:var(--font-display);font-weight:500;font-size:18px;margin-bottom:20px">New practice session</h3>
+      <div class="form-grid">
+        <div class="field">
+          <label>Topic</label>
+          <select><option>Heart of Algebra</option><option>Reading</option></select>
+        </div>
+        <div class="field">
+          <label>Difficulty</label>
+          <select><option>Mixed</option><option>Hard only</option></select>
+        </div>
+        <div class="field">
+          <label>Question count</label>
+          <input type="number" value="20" min="5" max="100">
+        </div>
+        <div class="field">
+          <label>Time limit (min)</label>
+          <input type="number" value="25" min="5" max="120">
+        </div>
+      </div>
+      <button class="btn btn-primary" style="margin-top:20px">Start session →</button>
+    </div>
+  </section>
+
+  <!-- CODE BLOCK -->
+  <section>
+    <div class="section-label">Code — Geist Mono, numbers inherit tabular-nums</div>
+    <div class="code-block"><span class="tok-cm">// Score calculation — weighted by difficulty tier</span>
+<span class="tok-kw">function</span> <span class="tok-fn">calcScore</span>(answers: Answer[]): <span class="tok-fn">ScoreResult</span> {
+  <span class="tok-kw">const</span> weights = { easy: <span class="tok-num">1.0</span>, medium: <span class="tok-num">1.5</span>, hard: <span class="tok-num">2.0</span> }
+  <span class="tok-kw">const</span> raw = answers.reduce((acc, a) =&gt; {
+    <span class="tok-kw">return</span> acc + (a.correct ? weights[a.difficulty] : <span class="tok-num">0</span>)
+  }, <span class="tok-num">0</span>)
+  <span class="tok-kw">return</span> { raw, scaled: Math.round(raw / answers.length * <span class="tok-num">1600</span>) }
+}</div>
+  </section>
+
+</body>
+</html>

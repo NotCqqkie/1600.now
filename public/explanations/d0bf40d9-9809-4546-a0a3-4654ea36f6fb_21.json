@@ -1,0 +1,19 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the equation of line h from the graph",
+      "content": "Examining the graph, line $h$ has a steep negative slope. Counting grid squares: moving right 1 unit causes the line to drop approximately 10 units vertically. <strong>The slope is \u221210.</strong><br/><br/>The line crosses the y-axis at $y = -8$ (between the labeled marks at \u221210 and the x-axis). So line $h$ is:<br/>$$y = -10x - 8$$<br/>or in standard form:<br/>$$10x + y = -8$$"
+    },
+    {
+      "title": "Apply the parallel lines condition for no solution",
+      "content": "For system with no solution, lines must be <strong>parallel</strong> (same slope, different intercepts).<br/><br/>Line $k$: $sx + 40y = t$ must have the same slope as line $h$.<br/><br/>For parallel lines, coefficient ratios must match:<br/>$$\\frac{s}{10} = \\frac{40}{1}$$<br/>Therefore: $s = 400$<br/><br/>Line $k$ becomes $400x + 40y = t$. Dividing by 40 to match the form of line $h$:<br/>$$10x + y = \\frac{t}{40}$$"
+    },
+    {
+      "title": "Identify which t value breaks the no-solution condition",
+      "content": "Line $h$ is $10x + y = -8$ and line $k$ (with $s = 400$) is $10x + y = \\frac{t}{40}$.<br/><br/>For the system to have <strong>no solution</strong>, the lines must be <strong>distinct</strong>:<br/>$$\\frac{t}{40} \\neq -8$$<br/>$$t \\neq -320$$<br/><br/>This means all values of $t$ <strong>except</strong> $\u2212320$ result in a system with no solution. If $t = -320$, the two equations become identical (infinitely many solutions), violating the no-solution condition. Therefore, $t = -320$ is NOT a possible value. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

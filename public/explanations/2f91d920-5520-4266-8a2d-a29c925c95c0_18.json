@@ -1,0 +1,20 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_18",
+  "correctAnswer": "31.8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find total composition from muscle percentage",
+      "content": "We know muscle is 133 kg and comprises 65.9% of the buffalo's total composition. Using the percentage formula:<br/>$$\\text{Total} = \\frac{133}{0.659} \\approx 201.82 \\text{ kg}$$",
+      "formula": "$$\\text{Total} = \\frac{\\text{Part}}{\\text{Percentage}}$$"
+    },
+    {
+      "title": "Calculate the remaining composition",
+      "content": "Since muscle makes up 65.9%, the remaining composition (bone and fat combined) is 100% - 65.9% = 34.1% of the total:<br/>$$\\text{Remaining} = 201.82 \\times 0.341 \\approx 68.82 \\text{ kg}$$"
+    },
+    {
+      "title": "Find bone mass from the remaining composition",
+      "content": "Of the remaining composition, 46.2% is bone:<br/>$$\\text{Bone} = 68.82 \\times 0.462 \\approx 31.80 \\text{ kg}$$<br/>Rounded to the nearest tenth: <strong>31.8 kg</strong>"
+    }
+  ]
+}

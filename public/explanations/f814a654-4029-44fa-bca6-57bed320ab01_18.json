@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the blank",
+      "content": "The left side is an independent clause: <em>\u201cThe mycorrhizal association...is well documented.\u201d</em> The right side is a participial phrase\u2014<em>\u201csharing nutrients via fungal hyphae and the host tree's roots\u201d</em>\u2014followed by a comma and then an independent clause: <em>\u201cthe organisms form a kind of social system...\u201d</em> So the blank sits between an independent clause and a participial phrase that precedes another independent clause."
+    },
+    {
+      "title": "Apply the semicolon rule for related independent structures",
+      "content": "A semicolon separates an independent clause from a closely related participial phrase and independent clause when the second part elaborates on or provides evidence for the first. Here, <em>\u201csharing nutrients...the organisms form\u201d</em> explains <em>how</em> the association demonstrates itself\u2014how it is documented in practice. The semicolon marks this logical boundary while keeping the two parts tightly connected. <br/><br/>A comma (D) is too weak and blurs the boundary between the main assertion and its substantive elaboration. A colon (B) is more formal and typically introduces a list or quotation, not a participial phrase. No punctuation (A) creates a comma splice by leaving the structures without proper separation. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

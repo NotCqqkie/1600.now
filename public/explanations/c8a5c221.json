@@ -1,0 +1,21 @@
+{
+  "questionId": "c8a5c221",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative signs",
+      "content": "First rewrite the expression by removing parentheses, applying the minus signs: $$(9x^{4}+8x^{3})-(7x^{3}+5x^{2})-(3x^{2}+x)=9x^{4}+8x^{3}-7x^{3}-5x^{2}-3x^{2}-x.$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Now combine the coefficients of each power of $$x$$: <ul><li>$$x^{4}$$: $$9$$ (only term).</li><li>$$x^{3}$$: $$8-7=1$$.</li><li>$$x^{2}$$: $$-5-3=-8$$.</li><li>$$x$$: $$-1$$.</li></ul> This gives $$9x^{4}+x^{3}-8x^{2}-x$$, which matches the form $$9x^{4}+x^{3}+ax^{2}-x$$ with $$a=-8$$.</br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

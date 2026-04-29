@@ -1,0 +1,15 @@
+{
+  "questionId": "6e0c60da",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the progression from impression to reality",
+      "content": "The passage shows a sequence: the visual impact makes your mind wander to distant planets, then [BLANK] the title brings you back to Earth, revealing the truth. The key signal is this shift from initial impression to final understanding."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<strong>Ultimately</strong> (meaning \u201cin the end\u201d or \u201cfinally\u201d) captures the progression\u2014it shows that despite the initial wandering, the title ultimately provides the revelation. The other three either reverse the causal direction, introduce false opposition, or suggest addition rather than resolution. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "questionId": "a2162ea1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the confidence interval from the margin of error",
+      "content": "The sample mean is 23.1 pounds and the margin of error is 0.19 pounds. To find the plausible range for the population mean, subtract and add the margin of error.<br/>$$23.1 - 0.19 = 22.91$$<br/>$$23.1 + 0.19 = 23.29$$<br/>Thus the interval is from 22.91 pounds to 23.29 pounds.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Match the interval to answer choices",
+      "content": "The computed interval 22.91 to 23.29 pounds corresponds to the statement in choice A: plausible values are between 22.91 and 23.29 pounds.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

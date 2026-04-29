@@ -1,0 +1,15 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given point to find the value of p",
+      "content": "Since the graph passes through $(-2, 0)$, we have $h(-2) = 0$. Substitute $x = -2$ into the function:<br/><br/>$$(-2+p)(-2-4)(2(-2)-12) = 0$$<br/><br/>Evaluate the constant factors:<br/><br/>$$(-2+p)(-6)(-16) = 0$$<br/><br/>Since $(-6)(-16) = 96$:<br/><br/>$$96(-2+p) = 0$$<br/><br/>Therefore $p = 2$."
+    },
+    {
+      "title": "Evaluate h(0) using p = 2",
+      "content": "With $p = 2$, the function becomes $h(x) = (x+2)(x-4)(2x-12)$. Now substitute $x = 0$:<br/><br/>$$h(0) = (0+2)(0-4)(2(0)-12)$$<br/><br/>$$= (2)(-4)(-12)$$<br/><br/>$$= 96$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

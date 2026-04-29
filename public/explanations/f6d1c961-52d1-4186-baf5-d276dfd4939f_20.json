@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure of the modifier",
+      "content": "The blank requires a word followed by a modifier that describes the fertilizers. The key question is whether the modifier specifies <em>which</em> fertilizers (restrictive) or adds extra information about already-identified fertilizers (nonrestrictive). The structure is: \u201cagricultural [noun] [modifier] macronutrients like nitrogen, phosphorus, and potassium.\u201d A restrictive modifier (no comma) specifies which fertilizers; a nonrestrictive modifier (comma) adds extra info."
+    },
+    {
+      "title": "Apply the restrictive vs. nonrestrictive rule to the choices",
+      "content": "<strong>C is correct.</strong> The study investigates the relationship with fertilizers that <em>specifically contain</em> these macronutrients\u2014not fertilizers in general. Choice C uses \u201cfertilizers containing\u201d (no comma), a restrictive participial phrase that specifies which type of fertilizers. This is the most accurate representation of the study's focus. Choices B and D add commas, making the modifier nonrestrictive and suggesting the fertilizers are already identified, which softens the specificity. Choice A creates a sentence fragment (\u201cContaining macronutrients...\u201d) after the period. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

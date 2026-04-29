@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The strongest clue is the note <strong>\u2018Euramerica formed about 300 million years ago.\u2019</strong> This directly answers the question\u2019s goal of specifying <em>when</em> Euramerica formed."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The correct choice must include both <strong>\u2018Euramerica\u2019</strong> and the specific time <strong>\u2018300 million years ago.\u2019</strong> <strong>A</strong> pairs these directly. B discusses the supercontinent cycle without specific timing, C provides a general definition, and D mentions both supercontinents generically. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

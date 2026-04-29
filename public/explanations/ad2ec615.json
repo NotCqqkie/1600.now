@@ -1,0 +1,21 @@
+{
+  "questionId": "ad2ec615",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute u = x^2",
+      "content": "Let $u = x^2$. Then the expression becomes $$u^2 - u - 6$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Factor the quadratic and substitute back",
+      "content": "Factor $$u^2 - u - 6 = (u - 3)(u + 2)$$. Replace $u$ with $x^2$: $$(x^2 - 3)(x^2 + 2)$$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

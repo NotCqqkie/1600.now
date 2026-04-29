@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize that the task requires a definition",
+      "content": "The student's goal is to \u201cdefine the term 'georeferencing,'\u201d which means stating what it IS, not describing who used it or what it did. The notes provide the definition directly: georeferencing IS \u201cthe process of assigning geographic coordinates to an image\u201d that enables \u201cmapping software to place the image in its real-world location.\u201d"
+    },
+    {
+      "title": "Identify the choice that provides the definition",
+      "content": "Choice B states the complete definition: \u201cGeoreferencing is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location.\u201d This directly tells us what georeferencing is. Choices A, C, and D describe applications, examples, or uses of the term rather than defining it. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

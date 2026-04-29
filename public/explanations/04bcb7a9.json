@@ -1,0 +1,15 @@
+{
+  "questionId": "04bcb7a9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the fossil's age in the passage",
+      "content": "The passage explicitly states that Wang and colleagues discovered a <strong>164-million-year-old plant fossil</strong> in China. This is the direct answer to the question. The Jurassic period's time range (145\u2013201 million years ago) is mentioned as geological context, not as the age of this fossil."
+    },
+    {
+      "title": "Match the stated age to the correct choice",
+      "content": "The correct answer must state <strong>164 million years old,</strong> exactly as the passage describes the discovered fossil. The other choices either use numbers from the Jurassic period's range or misstate the information. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "61c0f7b3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what emphasizing a difference requires",
+      "content": "The question asks which choice \u201cmost effectively\u201d emphasizes a difference between the eggs. The passage provides specific measurements: 4.46 cm versus 7.22 cm. Emphasizing a difference means using language and structure that highlights the contrast, not just mentioning both species."
+    },
+    {
+      "title": "Find the choice that makes the contrast unmissable",
+      "content": "Choice B places the measurements with the contrast word \u201cwhereas\u201d and explicitly states \u201cwere longer,\u201d which makes the difference impossible to miss. Choices A and C omit the measurements entirely, and Choice D lists them in parentheses without the contrast language that emphasizes the difference.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "271ffad7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex and use symmetry",
+      "content": "<ul><li>Vertex form: $$h(t)=a(t-3)^2+51.1$$</li><li>Since the projectile starts at height 7 m at $$t=0$$, the axis of symmetry passes through the vertex at $$t=3$$.</li><li>For any two times with the same height, their average equals the vertex time: $$\\frac{t_1+t_2}{2}=3$$.</li></ul>"
+    },
+    {
+      "title": "Compute the return time",
+      "content": "<ul><li>Set $$t_1=0$$ (launch) and solve for $$t_2$$: $$\\frac{0+t_2}{2}=3 \\implies t_2=6$$ seconds.</li><li>That matches choice B \u2014 <strong>B</strong> is correct.</li></ul>"
+    }
+  ]
+}

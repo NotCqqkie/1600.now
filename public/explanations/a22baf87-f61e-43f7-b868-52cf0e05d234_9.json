@@ -1,0 +1,11 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolve by testing answer choices",
+      "content": "Substitute each choice's coordinates into both equations to find which point satisfies both.<br/><br/>Backsolving \u2014 testing choice C $(24, 16)$:<br/>First equation: when $x = 24$, $y = -12(24) + 16 = -288 + 16 = -272 \\neq 16$. Fails.<br/><br/>Fails. Testing choice A $(1, 4)$:<br/>First equation: when $x = 1$, $y = -12(1) + 16 = -12 + 16 = 4$ \u2713<br/>Second equation: when $x = 1$, $y = -20(1) + 24 = -20 + 24 = 4$ \u2713<br/>The point $(1, 4)$ satisfies both equations. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

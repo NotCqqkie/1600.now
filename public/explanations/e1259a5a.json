@@ -1,0 +1,15 @@
+{
+  "questionId": "e1259a5a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the solution to a system of equations",
+      "content": "The solution to a system of two linear equations is the point where the two lines intersect on the graph. We need to find the coordinates of that intersection point."
+    },
+    {
+      "title": "Read the intersection point from the graph",
+      "content": "Tracing to where the two lines cross, the intersection occurs at $x = 3$ (three units right) and $y = 9$ (nine units up). The intersection point is $(3, 9)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

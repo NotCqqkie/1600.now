@@ -1,0 +1,15 @@
+{
+  "questionId": "6f6dfe3e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract two points from the table",
+      "content": "From the table, we have the points $(-6, n+184)$, $(-3, n+92)$, and $(0, n)$. Since this is a linear relationship, any two points will give the same slope. We'll use the first two."
+    },
+    {
+      "title": "Apply the slope formula",
+      "content": "Use the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $(-6, n+184)$ and $(-3, n+92)$:\n$$m = \\frac{(n+92) - (n+184)}{-3 - (-6)} = \\frac{n + 92 - n - 184}{-3 + 6} = \\frac{-92}{3} = -\\frac{92}{3}$$\nThe constant $n$ cancels immediately, leaving only the numerical values. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

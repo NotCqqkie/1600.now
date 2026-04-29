@@ -1,0 +1,16 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points from the line of best fit and calculate slope",
+      "content": "The line passes through approximately (0, 175) and (10, 575).<br/><br/>$$\\text{slope} = \\frac{575 - 175}{10 - 0} = \\frac{400}{10} = 40 \\text{ \u00b0F per hour}$$",
+      "formula": "$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Interpret the slope",
+      "content": "The slope is positive (the line rises from left to right), so temperature increases. The magnitude is 40\u00b0F per hour. A constant increase of 40\u00b0F per hour matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

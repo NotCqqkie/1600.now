@@ -1,0 +1,15 @@
+{
+  "questionId": "daad7c32",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope",
+      "content": "The equation $l = 30 + 2w$ is linear. The 2 is the coefficient of $w$, which is the <strong>slope</strong> of the relationship."
+    },
+    {
+      "title": "Interpret the slope in context",
+      "content": "The slope tells us the rate of change: for every 1-unit increase in the independent variable, the dependent variable increases by the slope value. Here, for each 1-newton increase in weight, the spring length increases by 2 centimeters. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

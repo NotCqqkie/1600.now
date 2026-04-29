@@ -1,0 +1,15 @@
+{
+  "questionId": "a16128e2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key hypothesis",
+      "content": "The passage argues that efficient governments increase GDP's influence on urban growth relative to population. The graph shows <strong>Region 1</strong> grew more on GDP in 2000\u20132014 than 1970\u20132000, implying <em>higher efficiency</em> in the later period if the hypothesis is correct."
+    },
+    {
+      "title": "Apply the hypothesis to the graph",
+      "content": "Choice A directly connects Region 1\u2019s increased GDP-driven growth to rising efficiency. B and C misattribute regional comparisons without evidence from the graph, while D conflates both regions despite the hypothesis focusing on directional change in one region. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

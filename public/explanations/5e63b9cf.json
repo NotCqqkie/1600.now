@@ -1,0 +1,15 @@
+{
+  "questionId": "5e63b9cf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept from the graph",
+      "content": "The y-intercept is where the graph crosses the y-axis, occurring at $x = 0$. Reading directly from the graph, when $x = 0$, the height is $y = 8$ inches."
+    },
+    {
+      "title": "Interpret the y-intercept in context",
+      "content": "Since $x$ represents seconds after the marble started moving and $y$ represents height in inches above the ground, the point $(0, 8)$ tells us the marble's height was 8 inches at the moment it started ($x = 0$). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

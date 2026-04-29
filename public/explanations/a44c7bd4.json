@@ -1,0 +1,15 @@
+{
+  "questionId": "a44c7bd4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the central contrast",
+      "content": "The passage contrasts two views: ethicists who judge morality by standards independent of context, versus the Aztec system (per Purcell) that judges actions by how well they accord with the individual's role and community contribution \u2014 explicitly context-dependent factors."
+    },
+    {
+      "title": "Apply the contrast to the answer choices",
+      "content": "Choice A directly states that the Aztecs would dispute assessing morality by \u201cstandards... independent of the individual's social circumstances.\u201d This aligns perfectly with the Aztec system: morality is grounded in role and community, making it dependent on social context, not independent of it. <br/><br/>The other three either introduce outside criteria not in the passage, invert the weighting of factors, or downplay essential components of the system. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

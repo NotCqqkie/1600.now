@@ -1,0 +1,15 @@
+{
+  "questionId": "6a715bed",
+  "correctAnswer": ".3833",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the condition and relevant table entries",
+      "content": "<em>At least 10 years old</em> means the 10\u201319 and 20+ columns combined. From the table: 30 participants aged 10\u201319, and 30 aged 20+, for a total of 60 participants at least 10 years old. Within these 60, Group A has 14 + 9 = 23 participants."
+    },
+    {
+      "title": "Calculate the conditional probability",
+      "content": "Conditional probability restricts the sample space to those meeting the condition, then counts favorable outcomes within it:<br/><br/>$$P(\\text{Group A} \\mid \\text{age} \\geq 10) = \\frac{\\text{Group A and age} \\geq 10}{\\text{Total with age} \\geq 10} = \\frac{23}{60}$$<br/><br/>As a decimal: $23 \\div 60 = 0.3833...$"
+    }
+  ]
+}

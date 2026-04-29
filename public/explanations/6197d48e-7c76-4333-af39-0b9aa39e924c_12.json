@@ -1,0 +1,15 @@
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percent increase to a multiplier",
+      "content": "Each month customers increase by 5%. A 5% increase means the new amount is $1 + 0.05 = 1.05$ times the previous amount.<br/>Each month we multiply by 1.05."
+    },
+    {
+      "title": "Build the exponential formula",
+      "content": "Starting with 800 customers in January 2018:<br/><ul><li>After 1 month ($m = 1$): $800(1.05)^1$</li><li>After 2 months ($m = 2$): $800(1.05)^2$</li><li>After $m$ months: $800(1.05)^m$</li></ul>So the equation is $c = 800(1.05)^m$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange the equation",
+      "content": "Start with the equation $x^2 - \\frac{49}{16} = 0$. Add $\\frac{49}{16}$ to both sides:<br/>$$x^2 = \\frac{49}{16}$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Take the square root of both sides:<br/>$$x = \\pm\\sqrt{\\frac{49}{16}} = \\pm\\frac{7}{4}$$<br/>This gives exactly two distinct real solutions: $x = \\frac{7}{4}$ and $x = -\\frac{7}{4}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

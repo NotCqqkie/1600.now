@@ -1,0 +1,15 @@
+{
+  "questionId": "bba18ecb",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use axis of symmetry for the parabola",
+      "content": "For any parabola, the x-intercepts are symmetric about the vertical line through the vertex. Since the vertex is at $(-3, 6)$, the axis of symmetry is the line $x = -3$."
+    },
+    {
+      "title": "Apply the symmetry formula",
+      "content": "If one x-intercept is at $x = r_1$, the other is at $x = 2h - r_1$, where $h = -3$ is the x-coordinate of the vertex. Substitute $r_1 = -\\frac{17}{4}$:<br><br>$$x = 2(-3) - \\left(-\\frac{17}{4}\\right) = -6 + \\frac{17}{4}$$<br><br>Convert to a common denominator:<br><br>$$x = -\\frac{24}{4} + \\frac{17}{4} = -\\frac{7}{4}$$<br><br>The other x-intercept is $\\left(-\\frac{7}{4}, 0\\right)$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

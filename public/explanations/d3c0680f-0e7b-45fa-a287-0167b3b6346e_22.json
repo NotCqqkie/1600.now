@@ -1,0 +1,15 @@
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject's number",
+      "content": "The subject is \u201cher book's musings on tenth-century Japanese courtly life.\u201d The noun \u201cmusings\u201d is plural, which determines what verb form the sentence requires."
+    },
+    {
+      "title": "Match the verb to the plural subject",
+      "content": "A plural subject requires a plural verb form in present tense; choice A uses \u201cfascinate,\u201d the correct form. Choices B, C, and D all use singular verb forms, violating subject-verb agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

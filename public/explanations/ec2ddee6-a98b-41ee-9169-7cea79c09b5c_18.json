@@ -1,0 +1,15 @@
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot what the phrase requires",
+      "content": "The blank must connect <strong>\u201can important [word]\u201d</strong> with <strong>\u201cHawai'i Register of Historic Places.\u201d</strong> The phrase contains a general noun (<em>list</em>) followed by a specific proper noun (the official name of the register). These two nouns need punctuation to show how they relate."
+    },
+    {
+      "title": "Apply the apposition rule",
+      "content": "A colon introduces a noun phrase that specifies or renames a preceding noun: <strong>\u201can important list: the Hawai'i Register of Historic Places,\u201d</strong> where <strong>\u201cthe Hawai'i Register\u201d</strong> clarifies which list is meant. The other choices either break the sentence into fragments (period in B), misuse punctuation meant for independent clauses (semicolon in C), or leave nouns disconnected without punctuation (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

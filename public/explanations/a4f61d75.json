@@ -1,0 +1,28 @@
+{
+  "questionId": "a4f61d75",
+  "correctAnswer": "either 7, 8, or 13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Vieta's formulas",
+      "content": "For a quadratic $$x^2 + bx + c = 0$$, Vieta\u2019s formulas give the sum of the roots $$=-\\frac{b}{a}$$ and the product $$=\\frac{c}{a}$$ (where the leading coefficient is 1 here).<br/>In $$x^2 - a x + 12 = 0$$ we have $$b = -a$$ and $$c = 12$$.<br/>Therefore<br/>$$\\text{sum of roots}= -\\frac{-a}{1}=a$$<br/>$$\\text{product of roots}= \\frac{12}{1}=12$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Find integer factor pairs of 12",
+      "content": "Since the roots are integers and their product is 12, we look for integer factor pairs of 12.<br/>Both roots must be either both positive or both negative to give a positive product.<br/>Because the sum equals $$a>0$$, the roots cannot both be negative (that would give a negative sum).<br/>Thus we only consider positive pairs:<br/><ul><li>$$1\\times12=12$$ \u2192 sum $$1+12=13$$</li><li>$$2\\times6=12$$ \u2192 sum $$2+6=8$$</li><li>$$3\\times4=12$$ \u2192 sum $$3+4=7$$</li></ul>Hence the possible values of $$a$$ (the sum) are 13, 8, and 7.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Select a possible value",
+      "content": "Choosing one of these, take $$a=8$$ (it satisfies all conditions).<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

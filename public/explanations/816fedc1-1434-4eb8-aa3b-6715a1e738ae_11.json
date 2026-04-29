@@ -1,0 +1,15 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the given point",
+      "content": "The point (5,7) lies on the graph of y = f(x). By definition, when x = 5 the corresponding y-value is f(5). Hence, $$ f(5) = 7 $$."
+    },
+    {
+      "title": "Match the result to the choices",
+      "content": "The computed value 7 matches choice B. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

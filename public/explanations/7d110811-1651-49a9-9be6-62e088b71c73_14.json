@@ -1,0 +1,15 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y-intercept using (0, 0)",
+      "content": "For a linear function $h(x) = mx + b$, the y-intercept is the value of $y$ when $x = 0$. Since the graph passes through the point $(0, 0)$, we have $b = 0$."
+    },
+    {
+      "title": "Find the slope using (1, 40)",
+      "content": "With $b = 0$, the function becomes $h(x) = mx$. Substituting the point $(1, 40)$: $$40 = m(1)$$ Therefore $m = 40$. So $h(x) = 40x$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

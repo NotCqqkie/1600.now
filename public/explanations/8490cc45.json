@@ -1,0 +1,15 @@
+{
+  "questionId": "8490cc45",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the y-intercept represents",
+      "content": "The $y$-intercept is the point where a graph crosses the $y$-axis. Every point on the $y$-axis has $x = 0$. Therefore, to find the $y$-intercept, we evaluate $f(0)$."
+    },
+    {
+      "title": "Substitute x = 0 and simplify",
+      "content": "$$f(0) = (-8)(2)^0 + 22$$<br/><br/>Since any non-zero number raised to the power of 0 equals 1, we have $2^0 = 1$:<br/><br/>$$f(0) = (-8)(1) + 22 = -8 + 22 = 14$$<br/><br/>So the $y$-intercept is the point $(0, 14)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

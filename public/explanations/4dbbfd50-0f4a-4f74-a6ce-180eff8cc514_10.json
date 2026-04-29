@@ -1,0 +1,15 @@
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the data pattern",
+      "content": "Dark irises make pupils appear large; light irises make them appear small. The table shows dogs with dark irises (images 11, 3) scored higher on positive traits: friendly ratings of 3.18\u20133.88 versus 1.61\u20132.08 for light-iris dogs, with similar increases across keep and interact measures."
+    },
+    {
+      "title": "Apply the signal to the answer",
+      "content": "C states that humans responded more positively to large-appearing pupils in dogs. The table confirms this: friendly ratings <strong>jumped from 1.61\u20132.08 (light iris) to 3.18\u20133.88 (dark iris)</strong>, with parallel increases across keep and interact measures. A reverses this relationship, B denies any pattern, and D tests a distinction (actual vs. apparent pupil size) the study never makes. This pattern demonstrates that humans transfer their innate preference for dilated pupils to dogs. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

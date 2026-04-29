@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core demand",
+      "content": "The student's explicit goal\u2014\u201dprovide an explanation and example\u201d\u2014signals the strongest evaluative criterion: an effective answer must state the law clearly <strong>AND</strong> provide a specific, concrete example that illustrates it."
+    },
+    {
+      "title": "Apply that criterion",
+      "content": "Choice D succeeds: it opens with a specific case (Europa's orbit is elliptical), names what the law describes, and clarifies the law's scope (applies to moons as well as planets). The other three fail to accomplish both tasks: A omits an example; B includes an example but contaminates it with irrelevant data (the orbital period); C offers only a vague, generic example instead of the concrete Europa case. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

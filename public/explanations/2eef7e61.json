@@ -1,0 +1,15 @@
+{
+  "questionId": "2eef7e61",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify slope-intercept form parameters",
+      "content": "For a linear function, we use the slope-intercept form: $f(x) = mx + b$ where $m$ is the slope and $b$ is the y-intercept. From the problem:<ul><li>Slope = $\\frac{3}{4}$, so $m = \\frac{3}{4}$</li><li>$f(0) = 3$ means when $x = 0$, the output is 3. This is the y-intercept, so $b = 3$</li></ul>"
+    },
+    {
+      "title": "Write the equation and match the choice",
+      "content": "Substitute $m = \\frac{3}{4}$ and $b = 3$ into the slope-intercept form: $$f(x) = \\frac{3}{4}x + 3$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

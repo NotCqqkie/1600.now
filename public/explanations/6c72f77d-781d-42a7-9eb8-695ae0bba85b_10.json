@@ -1,0 +1,17 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_10",
+  "correctAnswer": "6.75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the volume of the cube",
+      "content": "The volume of a cube with edge length 3.000 cm is:$$V = (3.000)^3 = 27.000 \\text{ cm}^3$$",
+      "formula": "$$V = a^3$$"
+    },
+    {
+      "title": "Calculate the mass using density",
+      "content": "With density = 0.250 g/cm$^3$ and volume = 27.000 cm$^3$:$$\\text{mass} = 0.250 \\times 27.000 = 6.75 \\text{ grams}$$",
+      "formula": "$$\\text{mass} = \\text{density} \\times \\text{volume}$$"
+    }
+  ]
+}

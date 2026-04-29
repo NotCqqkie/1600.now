@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the outlier claim",
+      "content": "Grasby concluded that complementary products' advantage \u201cmay be due to an outlier in the complementary product data\u201d\u2014meaning one complementary product pair is exceptionally strong and artificially boosting that category's average. To support this conclusion, we need evidence showing that removing that outlier product pair eliminates the advantage."
+    },
+    {
+      "title": "Match the finding to the theory",
+      "content": "Choice A demonstrates the theory perfectly: complementary extended brands had higher purchasing rates, but that advantage completely disappeared when tortilla chips and salsa (the complementary products) were removed\u2014confirming they were the outlier. B, C, and D all fail: B suggests the outlier is in substitutable products, not complementary; C claims equal initial rates, contradicting the observed advantage; and D reverses the relationship. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

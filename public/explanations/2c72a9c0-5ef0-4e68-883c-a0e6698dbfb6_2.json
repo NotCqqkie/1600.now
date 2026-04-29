@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand what a point on the graph means",
+      "content": "If a point $(x, y)$ lies on the graph of $y = f(x)$, then by definition, the $y$-value at that point equals $f$ evaluated at the $x$-value. In other words, $f(x) = y$."
+    },
+    {
+      "title": "Apply the definition to the given point",
+      "content": "The graph passes through $(5, 3)$. The $x$-coordinate is 5 and the $y$-coordinate is 3. Therefore, $f(5) = 3$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

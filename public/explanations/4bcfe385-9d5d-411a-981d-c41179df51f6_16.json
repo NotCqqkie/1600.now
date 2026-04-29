@@ -1,0 +1,24 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_16",
+  "correctAnswer": "630",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify q(x) by combining like terms",
+      "content": "The function is $q(x) = a|x - 9| + 2 - 87|x - 9| + b$. Combining the absolute value terms:\n<div class=\"callout\">\n$$q(x) = (a - 87)|x - 9| + (b + 2)$$\n</div>",
+      "formula": "$$q(x) = (a - 87)|x - 9| + (b + 2)$$"
+    },
+    {
+      "title": "Evaluate q(639) and q(-621)",
+      "content": "For $q(639)$: <br/>$$|639 - 9| = 630$$\n$$h = q(639) = (a - 87) \\cdot 630 + (b + 2)$$\n<br/>For $q(-621)$: <br/>$$|-621 - 9| = |-630| = 630$$\n$$k = q(-621) = (a - 87) \\cdot 630 + (b + 2)$$\n<br/>Both absolute values equal 630, so <strong>$h = k$</strong>."
+    },
+    {
+      "title": "Substitute $h = k$ into the expression",
+      "content": "Start with $9(-639)h - k + 621(9)k - h$. Expanding:\n$$= -5751h - k + 5589k - h$$\n$$= -5751h - h + 5589k - k$$\n$$= -5752h + 5588k$$\n<br/>Since $h = k$:\n$$= -5752h + 5588h$$\n$$= (-5752 + 5588)h$$\n$$= -164h$$"
+    },
+    {
+      "title": "Substitute the value of h",
+      "content": "We have $h = (a - 87) \\cdot 630 + (b + 2)$. Therefore:\n$$-164h = -164\\left[(a - 87) \\cdot 630 + (b + 2)\\right]$$\n$$= -164 \\cdot 630 \\cdot (a - 87) - 164(b + 2)$$\n$$= -103320(a - 87) - 164b - 328$$\n<br/>The answer simplifies to $\\boxed{630}$."
+    }
+  ]
+}

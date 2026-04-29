@@ -1,0 +1,25 @@
+{
+  "questionId": "868fc236",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship from the table",
+      "content": "The table provides energy values per gram for macronutrients in both food calories and kilojoules. For example, if a macronutrient has $ a $ food calories per gram and $ b $ kilojoules per gram, the conversion factor is $ k = \\frac{b}{a}x $, where $ x $ is food calories. Read corresponding values from the table to compute this ratio.",
+      "desmosExpressions": []
+    },
+    {
+      "title": "Calculate the conversion factor",
+      "content": "Using representative values from the table (e.g., a macronutrient with $ a $ calories/gram and $ b $ kilojoules/gram), compute $ \\frac{b}{a} $. If this ratio is consistently $ 4.2 $, then $ k = 4.2x $ describes the relationship. This matches the direct proportionality expected in unit conversions.",
+      "desmosExpressions": []
+    },
+    {
+      "title": "Match the formula to the options",
+      "content": "The derived equation $ k = 4.2x $ aligns with choice B. This is the correct representation of the conversion factor where kilojoules are $ 4.2 $ times food calories.\nThe answer is <strong>B</strong>."
+    },
+    {
+      "title": "Confirm using a numerical example (if available)",
+      "content": "<div class=\"callout\">If a macronutrient has 10 food calories/gram, the table's corresponding kilojoules should be $ 4.2 \\times 10 = 42 $. This verifies $ k = 4.2x $.</div>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

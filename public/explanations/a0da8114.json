@@ -1,0 +1,15 @@
+{
+  "questionId": "a0da8114",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what Wang's conclusion actually states",
+      "content": "The notes explicitly say Wang and colleagues \u201cdetermined that the dogs first acquired these mutations by interbreeding with Tibetan wolves around 24,000 years ago.\u201d The conclusion is not just that both animals have the mutations\u2014it's about the <strong>historical origin</strong>: <em>how</em> and <em>when</em> the mastiffs acquired them from the wolves."
+    },
+    {
+      "title": "Match the conclusion to the choices",
+      "content": "Choice D directly presents this origin story: it states that mastiffs acquired the mutations <strong>by interbreeding with wolves around 24,000 years ago</strong>, and ties this to their ability to withstand altitude. This is the Wang study's core finding. The other three either describe a shared capability without explaining its origin (A), list the mutations themselves as background fact (B), or describe one gene's function in isolation (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

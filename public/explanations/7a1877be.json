@@ -1,0 +1,15 @@
+{
+  "questionId": "7a1877be",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states the team\u2019s conclusion that nucleobases <strong>formed in space</strong>, not from Earth contamination. The decisive clue is the <em>need for nucleobases to be absent in the soil sample</em> but present in the meteorite samples. This absence in soil directly counters the contamination hypothesis."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A shows two nucleobases (Isoguanine and purine) <em>present in both meteorite samples but <strong>not in the soil</strong></em>, directly aligning with the conclusion that they originated in space. The other three either show presence in soil (which supports contamination) or focus on inconsistencies between meteorite samples rather than soil absence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

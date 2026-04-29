@@ -1,0 +1,15 @@
+{
+  "questionId": "893c7519",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept location",
+      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis. This always occurs at $x = 0$."
+    },
+    {
+      "title": "Read the y-value directly from the graph",
+      "content": "At $x = 0$ on the exponential curve, trace vertically to find where the graph intersects the <em>y</em>-axis. The curve passes through the point $(0, 3)$, so $y = 3$."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope",
+      "content": "We have $f(0) = 3$ and $f(5) = 3$. The slope of the line is $\\frac{3 - 3}{5 - 0} = 0$."
+    },
+    {
+      "title": "Identify the horizontal line equation",
+      "content": "A linear function with slope 0 is a horizontal line of the form $f(x) = c$. Since $f(0) = 3$, the constant is 3, giving $f(x) = 3$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

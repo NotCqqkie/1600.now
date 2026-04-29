@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_2",
+  "correctAnswer": "100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate x = 3 on the line of best fit",
+      "content": "Find age 3 on the horizontal axis. Trace vertically upward from x = 3 until you reach the line of best fit. Then read horizontally left to the y-axis to find the predicted body length. The line of best fit crosses x = 3 at approximately <strong>100 cm</strong>."
+    },
+    {
+      "title": "Round to the nearest 10 cm",
+      "content": "The value we read from the graph is 100 cm. Since 100 is already a multiple of 10, no rounding adjustment is needed. The predicted body length is <strong>100 cm</strong>."
+    }
+  ]
+}

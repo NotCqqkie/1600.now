@@ -1,0 +1,19 @@
+{
+  "questionId": "5c00c2c1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the exponential growth form",
+      "content": "When a population grows by a fixed percentage each year, use the model $p(t) = p_0 \\times r^t$, where $p_0$ is the initial population and $r$ is the growth factor per year. The initial population at $t = 0$ (year 1788) is 24 jackrabbits."
+    },
+    {
+      "title": "Convert the annual percentage to a growth factor",
+      "content": "A 16.2% increase per year means multiply by $1 + 0.162 = 1.162$ each year. The growth factor is $r = 1.162$."
+    },
+    {
+      "title": "Write the exponential model",
+      "content": "Substitute $p_0 = 24$ and $r = 1.162$ into the general form:<br/><br/>$$p(t) = 24 \\times 1.162^t$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

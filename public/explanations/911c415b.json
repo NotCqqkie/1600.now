@@ -1,0 +1,15 @@
+{
+  "questionId": "911c415b",
+  "correctAnswer": "6632",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute 10 and rewrite the expression",
+      "content": "Apply the distributive property to $10 \\times (10y^2 - 110)$:\n$$10 \\times (10y^2 - 110) = 100y^2 - 1100$$\n\nSubstitute back into the original expression:\n$$(7532 + 100y^2) + (100y^2 - 1100)$$"
+    },
+    {
+      "title": "Combine like terms and calculate a + b",
+      "content": "Group the $y^2$ terms: $100y^2 + 100y^2 = 200y^2$<br/>Group the constants: $7532 - 1100 = 6432$<br/>The expression in the form $ay^2 + b$ is:\n$$200y^2 + 6432$$\n\nIdentify the coefficients: $a = 200$ and $b = 6432$. Therefore:\n$$a + b = 200 + 6432 = 6632$$"
+    }
+  ]
+}

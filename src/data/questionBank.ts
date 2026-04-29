@@ -5,7 +5,6 @@ import readingPastRaw from "./questions/reading_past.json";
 const pastSatQuestionsData = [...mathPastRaw, ...readingPastRaw] as SourceQuestion[];
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
-import { unofficialCompositePrimaryImageIndex } from "./unofficialCompositeImageSelection";
 import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
 import { normalizeReadingText } from "@/lib/readingTextNormalization";
 import {
@@ -33,7 +32,7 @@ export const BANK_SOURCE_LABELS: Record<BankSourceFilter, string> = {
   all: "Both Banks",
 };
 
-export const DEFAULT_BANK_SOURCE: BankSourceId = "unofficial";
+export const DEFAULT_BANK_SOURCE: BankSourceFilter = "all";
 
 interface RawBankSource {
   bankType: BankSourceId;
@@ -85,7 +84,8 @@ export interface BankQuestion {
   rationale?: string | null;
   questionImages?: { src: string; alt: string }[];
   difficulty?: "Easy" | "Medium" | "Hard" | null;
-  active?: boolean | null;
+  /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank — all questions show. */
+  inPracticeTests?: boolean | null;
   /** Category classification */
   category: QuestionCategory;
 }
@@ -121,145 +121,6 @@ const sanitizeMathText = (text: string | null | undefined): string => {
 
 const sanitizeReadingText = (text: string | null | undefined): string => {
   return normalizeReadingText(text);
-};
-
-const CORRECT_ANSWER_MARKER_REGEX = /(?:Choice [A-D] is correct\.|The correct answer is\b)/g;
-const CHOICE_CORRECT_ANSWER_REGEX = /Choice ([A-D]) is correct\./g;
-
-const trimCompositeMathStem = (text: string): string => {
-  const firstQuestionMark = text.indexOf("?");
-  if (firstQuestionMark === -1) return text.trim();
-  return text.slice(0, firstQuestionMark + 1).trim();
-};
-
-const trimContaminatedMathStem = (text: string): string => {
-  const lines = text
-    .split("\n")
-    .map((line) => line.trimEnd())
-    .filter((line) => line.trim().length > 0);
-  const questionLineIndexes = lines.reduce<number[]>((indexes, line, index) => {
-    if (line.includes("?")) indexes.push(index);
-    return indexes;
-  }, []);
-
-  if (questionLineIndexes.length < 2) {
-    return text.trim();
-  }
-
-  const previousQuestionIndex = questionLineIndexes[questionLineIndexes.length - 2];
-  const lastQuestionIndex = questionLineIndexes[questionLineIndexes.length - 1];
-  const actualQuestionLine = lines[lastQuestionIndex] ?? "";
-  const actualSuffix = lines.slice(previousQuestionIndex + 1);
-
-  const shouldPreserveLeadingSetup =
-    /\b(?:equation|graph|table|figure)\s+above\b/i.test(actualQuestionLine);
-
-  if (!shouldPreserveLeadingSetup) {
-    return actualSuffix.join("\n").trim();
-  }
-
-  const leadingSetup = lines.slice(0, previousQuestionIndex).filter((line) => {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.includes("?")) return false;
-    return /^[A-Za-z0-9\s$*(),.+\-=/\\<>:^{}[\]|]+$/.test(trimmed);
-  });
-
-  return [...leadingSetup, ...actualSuffix].join("\n").trim();
-};
-
-const trimCompositeRationale = (rationale: string): string => {
-  const markers = [...rationale.matchAll(CORRECT_ANSWER_MARKER_REGEX)];
-  if (markers.length < 2) return rationale.trim();
-  const secondMarkerIndex = markers[1].index ?? -1;
-  if (secondMarkerIndex <= 0) return rationale.trim();
-  return rationale.slice(0, secondMarkerIndex).trim();
-};
-
-const trimContaminatedCompositeRationale = (rationale: string): string => {
-  const choiceMatch = rationale.match(CHOICE_CORRECT_ANSWER_REGEX);
-  if (!choiceMatch) return rationale.trim();
-
-  const firstChoiceMarkerIndex = rationale.search(CHOICE_CORRECT_ANSWER_REGEX);
-  if (firstChoiceMarkerIndex <= 0) return rationale.trim();
-  return rationale.slice(firstChoiceMarkerIndex).trim();
-};
-
-const pickPrimaryCompositeQuestionImages = (
-  sourceId: string,
-  images: { src: string; alt: string }[] | undefined,
-): { src: string; alt: string }[] | undefined => {
-  if (!images || images.length <= 1) return images;
-  const preferredIndex = unofficialCompositePrimaryImageIndex[sourceId] ?? 0;
-  return [images[Math.min(preferredIndex, images.length - 1)]];
-};
-
-const getCompositeMathQuestionMetadata = (
-  source: RawBankSource,
-  subject: BankSubject,
-  text: string,
-  rationale?: string | null,
-  correctAnswer?: string | null,
-  choices?: SourceQuestion["choices"],
-) => {
-  if (source.bankType !== "unofficial" || subject !== "math" || !rationale) {
-    return {
-      isComposite: false,
-      text,
-      rationale,
-      typeOverride: undefined as SourceQuestion["type"] | undefined,
-      choicesOverride: undefined as SourceQuestion["choices"] | undefined,
-      correctAnswerOverride: undefined as string | null | undefined,
-    };
-  }
-
-  const questionMarkCount = (text.match(/\?/g) || []).length;
-  const correctAnswerMarkerCount = [...rationale.matchAll(CORRECT_ANSWER_MARKER_REGEX)].length;
-
-  if (questionMarkCount < 2 || correctAnswerMarkerCount < 2) {
-    return {
-      isComposite: false,
-      text,
-      rationale,
-      typeOverride: undefined as SourceQuestion["type"] | undefined,
-      choicesOverride: undefined as SourceQuestion["choices"] | undefined,
-      correctAnswerOverride: undefined as string | null | undefined,
-    };
-  }
-
-  const trimmedText = trimCompositeMathStem(text);
-  const trimmedRationale = trimCompositeRationale(rationale);
-  const normalizedCorrectAnswer = (correctAnswer ?? "").trim();
-  const choiceIds = new Set((choices ?? []).map((choice) => choice.id));
-  const choiceAnswerMatches = [...rationale.matchAll(CHOICE_CORRECT_ANSWER_REGEX)];
-  const looksLikePrependedStalePrompt =
-    normalizedCorrectAnswer.length > 0 &&
-    !choiceIds.has(normalizedCorrectAnswer) &&
-    choiceAnswerMatches.length > 0 &&
-    /\b(?:equation|graph|table|figure)\s+above\b/i.test(text);
-
-  if (looksLikePrependedStalePrompt) {
-    return {
-      isComposite: true,
-      text: trimContaminatedMathStem(text),
-      rationale: trimContaminatedCompositeRationale(rationale),
-      typeOverride: "multiple-choice" as const,
-      choicesOverride: choices,
-      correctAnswerOverride: choiceAnswerMatches[0]?.[1] ?? correctAnswer,
-    };
-  }
-
-  const isFirstQuestionFreeResponse =
-    /^\s*The correct answer is\b/i.test(trimmedRationale) ||
-    (normalizedCorrectAnswer.length > 0 && !choiceIds.has(normalizedCorrectAnswer));
-
-  return {
-    isComposite: true,
-    text: trimmedText,
-    rationale: trimmedRationale,
-    typeOverride: isFirstQuestionFreeResponse ? "free-response" : undefined,
-    choicesOverride: isFirstQuestionFreeResponse ? undefined : choices,
-    correctAnswerOverride: undefined as string | null | undefined,
-  };
 };
 
 const inferQuestionSubject = (q: SourceQuestion): QuestionCategory["subject"] | null =>
@@ -314,6 +175,33 @@ const hasRenderableStem = (q: SourceQuestion): boolean => {
   const hasText = Boolean(q.text?.trim());
   const hasImage = Boolean(q.image?.trim());
   return hasText || hasImage;
+};
+
+// Detects choice text that's actually a screen-reader / TTS description of a
+// graph or figure (typically emitted as bullet lists or with phrases like
+// "comma", "open parenthesis"). Used to suppress these when an image is
+// available, since they otherwise duplicate or contradict the image.
+const looksLikeImageDescription = (text: string | null | undefined): boolean => {
+  if (!text) return false;
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  // Has actual math? Then it's not a pure description.
+  if (/\$[^$]+\$/.test(trimmed)) return false;
+  if (/^\s*•/.test(trimmed)) return true;
+  if (/(comma\s+(negative\s+)?\d|open parenthesis|close parenthesis|y\s*-\s*intercept|x\s*-\s*intercept|parabola opens|the curve|the graph|the line passes through|left to right|quadrant\s+\d)/i.test(trimmed)) return true;
+  return false;
+};
+
+// Detects choice sets that are entirely TTS bullet noise with no choice images
+// available — these questions are unsalvageable until choice art is restored.
+const hasUnsalvageableChoices = (q: SourceQuestion): boolean => {
+  if (q.type !== "multiple-choice" || !q.choices?.length) return false;
+  const anyChoiceImage = q.choices.some((c) => Boolean(resolveSatChoiceImage(q.id, c.id, c.image)));
+  if (anyChoiceImage) return false;
+  const allEmptyOrDescriptive = q.choices.every(
+    (c) => !c.text?.trim() || looksLikeImageDescription(c.text),
+  );
+  return allEmptyOrDescriptive;
 };
 
 const mapImages = (q: SourceQuestion) => resolveSatQuestionImages(q.id, q.image);
@@ -381,6 +269,37 @@ const isLikelyPassageBlock = (text: string): boolean => {
   return false;
 };
 
+const splitInlinePromptByPattern = (raw: string): { passage?: string; questionText?: string } | null => {
+  const trimmed = raw.trim();
+  if (!trimmed.endsWith("?")) return null;
+
+  let bestIdx = -1;
+  for (const pattern of QUESTION_PROMPT_PATTERNS) {
+    const body = pattern.source.replace(/^\^/, "");
+    const inline = new RegExp(`(?:[.!?:_]|_{2,}|\\s)\\s*(${body})`, pattern.flags);
+    const found = inline.exec(trimmed);
+    if (found && found.index >= 0) {
+      const promptStart = found.index + found[0].length - found[1].length;
+      if (promptStart > 20 && (bestIdx === -1 || promptStart < bestIdx)) {
+        bestIdx = promptStart;
+      }
+    }
+  }
+
+  if (bestIdx === -1) return null;
+
+  const passage = trimmed.slice(0, bestIdx).trim();
+  const questionText = trimmed.slice(bestIdx).trim();
+  if (!passage || !questionText) return null;
+  if (!questionText.endsWith("?")) return null;
+  if (questionText.length < 8) return null;
+
+  return {
+    passage: sanitizeReadingText(passage),
+    questionText: sanitizeReadingText(questionText),
+  };
+};
+
 const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?: string } => {
   const trimmed = raw.trim();
   if (!trimmed) {
@@ -389,6 +308,9 @@ const splitQuestionFirstStem = (raw: string): { passage?: string; questionText?:
       questionText: undefined,
     };
   }
+
+  const inlineSplit = splitInlinePromptByPattern(trimmed);
+  if (inlineSplit) return inlineSplit;
 
   const newlineIndex = trimmed.indexOf("\n");
   if (newlineIndex !== -1) {
@@ -545,23 +467,13 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     };
 
   const subject: BankSubject = category.subject === "Math" ? "math" : "reading";
-  const normalizedSource = getCompositeMathQuestionMetadata(
-    source,
-    subject,
-    q.text,
-    q.rationale,
-    q.correctAnswer,
-    q.choices,
-  );
-  const normalizedText = normalizedSource.text;
   const sanitizeText = subject === "math" ? sanitizeMathText : sanitizeReadingText;
-  const normalizedRationale = normalizedSource.rationale ? sanitizeText(normalizedSource.rationale) : normalizedSource.rationale;
-  const normalizedType = normalizedSource.typeOverride ?? q.type;
-  const normalizedChoices = normalizedSource.choicesOverride ?? q.choices;
-  const normalizedQuestionImages = normalizedSource.isComposite
-    ? pickPrimaryCompositeQuestionImages(String(q.id), mapImages(q))
-    : mapImages(q);
-  const normalizedCorrectAnswer = normalizedSource.correctAnswerOverride ?? q.correctAnswer;
+  const normalizedText = q.text;
+  const normalizedRationale = q.rationale ? sanitizeText(q.rationale) : q.rationale;
+  const normalizedType = q.type;
+  const normalizedChoices = q.choices;
+  const normalizedQuestionImages = mapImages(q);
+  const normalizedCorrectAnswer = q.correctAnswer;
 
   const prompt = sanitizeText(normalizedText);
   let passage: string | undefined;
@@ -595,11 +507,16 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     questionText,
     choices: normalizedType === "multiple-choice"
       ? (normalizedChoices
-        ? normalizedChoices.map((choice) => ({
-            id: choice.id,
-            text: choice.text ? sanitizeText(choice.text) : undefined,
-            image: resolveSatChoiceImage(q.id, choice.id, choice.image),
-          }))
+        ? normalizedChoices.map((choice) => {
+            const resolvedImage = resolveSatChoiceImage(q.id, choice.id, choice.image);
+            const rawText = choice.text;
+            const suppressText = Boolean(resolvedImage) && looksLikeImageDescription(rawText);
+            return {
+              id: choice.id,
+              text: suppressText ? undefined : (rawText ? sanitizeText(rawText) : undefined),
+              image: resolvedImage,
+            };
+          })
         : undefined)
       : undefined,
     type: normalizedType,
@@ -607,7 +524,7 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     rationale: normalizedRationale,
     questionImages: normalizedQuestionImages,
     difficulty: normalizeDifficulty(q.difficulty),
-    active: q.active ?? null,
+    inPracticeTests: q.inPracticeTests ?? null,
     category,
   };
 };
@@ -630,6 +547,7 @@ const getRawSourceSubjectQuestions = (
   const source = rawSourceMap[sourceId];
   const questions = source.questions.filter((question) => {
     if (!hasRenderableStem(question)) return false;
+    if (hasUnsalvageableChoices(question)) return false;
     const sourceCategory = normalizeCategoryFromSource({
       section: question.section,
       testName: question.testName,

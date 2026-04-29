@@ -1,0 +1,16 @@
+{
+  "questionId": "083ef63a",
+  "correctAnswer": "-13/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify where the minimum occurs",
+      "content": "The function $f(x) = (x-2)(x+15)$ is a quadratic in factored form. The leading coefficient is positive (1), so the parabola opens upward. This means the function reaches its minimum at the vertex, not at the roots."
+    },
+    {
+      "title": "Calculate the vertex x-coordinate using the axis of symmetry",
+      "content": "For a parabola with roots 2 and -15, the vertex lies on the axis of symmetry at the midpoint of these roots:<br/><br/>$$x = \\frac{2 + (-15)}{2} = \\frac{-13}{2}$$<br/><br/>The function reaches its minimum at $x = -\\frac{13}{2}$.",
+      "formula": "$$x = \\frac{r_1 + r_2}{2}$$"
+    }
+  ]
+}

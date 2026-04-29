@@ -1,0 +1,15 @@
+{
+  "questionId": "04dff083",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the researchers' central conclusion",
+      "content": "The passage's key claim is in this sentence: <em>\u201cThe researchers have concluded that these settlements were culturally linked to Izapa because each of the settlements is the same age and configured in the same manner as Izapa.\u201d</em> The word <strong>because</strong> identifies the basis for their conclusion: the settlements match Izapa's architectural design."
+    },
+    {
+      "title": "Find the choice that captures this reasoning",
+      "content": "D directly captures the passage's logic: researchers inferred the settlements were culturally connected to Izapa based on their matching structural design.<br/>The other three either reverse the causal direction, introduce unsupported comparisons about ceremony importance, or shift focus to the discovery itself rather than the reasoning.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

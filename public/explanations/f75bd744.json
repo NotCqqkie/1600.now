@@ -1,0 +1,19 @@
+{
+  "questionId": "f75bd744",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the first equation to slope-intercept form",
+      "content": "Start with $4x - 6y = 10y + 2$. Combine the $y$ terms on the left:<br/>$$4x - 16y = 2$$<br/>Rearrange to slope-intercept form:<br/>$$y = \\frac{1}{4}x - \\frac{1}{8}$$<br/>The slope of the first line is $\\frac{1}{4}$."
+    },
+    {
+      "title": "Rewrite the second equation in slope-intercept form",
+      "content": "Start with $ty = \\frac{1}{2} + 2x$, or equivalently $ty = 2x + \\frac{1}{2}$. Divide both sides by $t$:<br/>$$y = \\frac{2}{t}x + \\frac{1}{2t}$$<br/>The slope of the second line is $\\frac{2}{t}$."
+    },
+    {
+      "title": "Set slopes equal for parallel lines with no solution",
+      "content": "For a system of linear equations to have no solution, the lines must be parallel\u2014same slope but different $y$-intercepts. Set the slopes equal:<br/>$$\\frac{2}{t} = \\frac{1}{4}$$<br/>Cross-multiply:<br/>$$8 = t$$<br/>Verify: when $t = 8$, the second line is $y = \\frac{1}{4}x + \\frac{1}{16}$, and the first line is $y = \\frac{1}{4}x - \\frac{1}{8}$. Both have slope $\\frac{1}{4}$ but different $y$-intercepts, confirming they are parallel with no intersection. Therefore, $t = 8$."
+    }
+  ]
+}

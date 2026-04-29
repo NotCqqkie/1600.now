@@ -1,0 +1,15 @@
+{
+  "questionId": "3918e8bc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that initial height occurs at t = 0",
+      "content": "The object is kicked from a platform at time $t = 0$. To find the initial height, we evaluate the height equation at the moment of launch."
+    },
+    {
+      "title": "Evaluate h at t = 0",
+      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 7t + 9$:<br/><br/>$$h = -4.9(0)^2 + 7(0) + 9 = 9$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

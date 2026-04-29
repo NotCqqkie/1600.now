@@ -1,0 +1,19 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "What causation requires",
+      "content": "Establishing a cause-and-effect relationship means showing that the treatment caused the outcome, not some other difference between groups. The primary threat is <strong>confounding variables</strong> \u2014 unmeasured or uncontrolled differences between treatment and control groups that could explain the outcome. To claim causation, the study must control for confounds by ensuring the groups are comparable except for the treatment."
+    },
+    {
+      "title": "Random assignment controls confounds, random selection does not",
+      "content": "<strong>Random assignment</strong> allocates participants to treatment or control groups randomly. This distributes both measured and unmeasured confounds evenly across groups, ensuring comparability and enabling causal claims.<br/><br/><strong>Random selection</strong> chooses who enters the study from the population. This makes findings generalizable to the population but doesn't control confounds within the study itself.<br/><br/>For causation, what matters is controlling confounds; for generalization, what matters is representativeness."
+    },
+    {
+      "title": "Applying the principle to the choices",
+      "content": "<ul><li>A (equal group sizes): Not required for causation</li><li>B (random assignment): Required\u2014this is what controls confounds</li><li>C (random selection): Helpful for generalization but not necessary for causation within the study</li><li>D (equal ages): Unnecessary; random assignment handles group comparability automatically</li></ul><br/>Random assignment is what allows the study to attribute outcome differences to the treatment rather than to pre-existing group differences. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

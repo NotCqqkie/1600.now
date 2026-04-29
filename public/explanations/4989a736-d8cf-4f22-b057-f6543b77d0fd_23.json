@@ -1,0 +1,15 @@
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The notes give one direct figure: \u201cIn 2021, there were a total of 392 merchant ships registered in Saudi Arabia.\u201d This is the only statement that provides the exact number of ships."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D restates that figure exactly, adding a clarifying phrase about what merchant ships are. <br/>The other three choices discuss deadweight tonnage or define the term, none of which give the ship count. <br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

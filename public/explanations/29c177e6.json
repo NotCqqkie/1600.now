@@ -1,0 +1,15 @@
+{
+  "questionId": "29c177e6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize 10% as a decimal",
+      "content": "10% can be written as $\\frac{10}{100} = 0.10$. To find 10% of a number, multiply by 0.10\u2014or use the mental math shortcut: shift the decimal point one place to the left."
+    },
+    {
+      "title": "Apply to 470",
+      "content": "Shifting the decimal point in 470 one place to the left gives 47.\n\nThat matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

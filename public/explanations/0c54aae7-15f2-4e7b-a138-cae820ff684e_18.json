@@ -1,0 +1,11 @@
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up and simplify the cost formula",
+      "content": "For $x > 3$ hours:<ul><li>First 3 hours: fixed &#36;216</li><li>Remaining $(x - 3)$ hours at &#36;60/hour</li></ul>Total cost: $y = 216 + 60(x - 3)$<br/><br/>Expand and combine:<br/>$$y = 216 + 60x - 180 = 60x + 36$$<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c102f9b0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The blank is part of a participial phrase (\u201cmaking ______ the first time the organization would appoint a Vietnamese leader\u201d) that modifies the main clause. It comes after the verb \u201cmaking\u201d."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must agree in number with its antecedent\u2014the singular appointment event requires singular \u201cthis\u201d. The plural \u201cthese\u201d and \u201cthose\u201d violate number agreement; \u201csome\u201d is indefinite and lacks a clear reference. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

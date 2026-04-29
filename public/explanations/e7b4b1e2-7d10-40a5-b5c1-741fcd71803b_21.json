@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the transition",
+      "content": "The sentence has two parts: <strong>first independent clause:</strong> \u201cScholars wishing to read a work written by the Roman scholar needn't despair\u201d and <strong>second independent clause:</strong> \u201cthey can still procure a copy of Varro's <em>Rerum rusticarum libra tres</em>, a treatise on agriculture.\u201d The word \u201cthough\u201d connects them as a transition showing contrast between the sad news in the first sentence (many works lost) and the reason not to despair (this one is still available)."
+    },
+    {
+      "title": "Apply the SAT punctuation rule for transition words between independent clauses",
+      "content": "When two independent clauses are joined by a transition word like \u201cthough\u201d positioned mid-sentence, the correct pattern is: <strong>comma before the transition, semicolon after</strong> (IC, transition; IC). The semicolon after \u201cthough\u201d marks a stronger break than a comma alone, appropriate for two closely related but distinct complete thoughts. The comma-semicolon pairing shows both the pause at \u201cthough\u201d and the relationship between the contrasting ideas. Options A and B lack the semicolon needed after \u201cthough\u201d to properly separate two independent clauses; option D, while stylistically emphatic, uses an em dash instead of the standard punctuation pattern the SAT tests.<br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

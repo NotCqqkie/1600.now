@@ -1,0 +1,15 @@
+{
+  "questionId": "5670a657",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify where the transitional phrase belongs",
+      "content": "The sentence lists two pivotal events in the Latino rights movement: the founding of the League and the Katzenbach v. Morgan decision. The phrase <em>\u201cfor one\u201d</em> (meaning \u201cfor example\u201d) should attach to the <strong>first</strong> event\u2014the founding of the League\u2014to mark it as one example in the series."
+    },
+    {
+      "title": "Apply the rule for sentence boundaries with transitional phrases",
+      "content": "A transitional phrase marking one item in a series should be attached to that item with a comma before it and a period after, creating a clear boundary before the next item begins as a new sentence. Choice D (1929, for one. The) correctly places the comma after 1929, \u201cfor one,\u201d then a period; this ensures \u201cfor one\u201d modifies the founding and a new sentence introduces the Katzenbach decision with a capital \u201cThe.\u201d Choice A (1929. For one, the) places the period before \u201cfor one,\u201d detaching it from the year and making it appear to introduce the second example instead. Choice B (1929, for one, the) uses only commas, which fails to separate the two examples clearly. Choice C omits the year entirely, removing the historical information. <br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

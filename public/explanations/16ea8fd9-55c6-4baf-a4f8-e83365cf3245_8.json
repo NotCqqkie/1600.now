@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what both texts reveal about bison and elk steroid profiles",
+      "content": "Text 1 explicitly states that bison and elk samples had similar levels of beta-sitosterol and stigmastanol. Text 2 confirms this: steroidal profiles alone cannot distinguish bison from elk, confirming that their profiles are fundamentally similar."
+    },
+    {
+      "title": "Apply the similarity to the answer choices",
+      "content": "Choice A directly captures what both texts demonstrate: bison and elk profiles contain similar concentrations of steroids. Choices B, C, and D either contradict this similarity or require information neither text provides. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

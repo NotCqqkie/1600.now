@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses",
+      "content": "The left side of the blank\u2014\u201dIn many languages, including English, these consonants are\u201d\u2014is an independent clause awaiting its predicate. The right side\u2014\u201din some dialects of Mandarin, however, four such consonants are relatively common\u201d\u2014is a complete independent clause."
+    },
+    {
+      "title": "Apply the semicolon rule",
+      "content": "Choice B correctly applies the rule: <strong>a semicolon separates two independent clauses</strong>. By placing a semicolon after \u201crare,\u201d it joins the two clauses properly. Choices C and D violate this rule by using only commas to join the clauses when a conjunctive adverb is present (comma splice), while choice A creates nonsense by using \u201cand\u201d to link an adjective with a prepositional phrase. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the two components of the relationship",
+      "content": "<em>Twice the value of $x$</em> means $2x$.<br/><em>8 more than</em> a quantity means add 8 to that quantity."
+    },
+    {
+      "title": "Combine to form the equation for $y$",
+      "content": "Taking twice the value of $x$ (which is $2x$) and adding 8 yields:<br/>$$y = 2x + 8$$<br/>This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -18,9 +18,11 @@ interface AuthContextType {
   user: AppUser | null;
   loading: boolean;
   signInWithEmailPassword: (email: string, password: string) => Promise<void>;
-  signUpWithEmailPassword: (email: string, password: string) => Promise<void>;
+  signUpWithEmailPassword: (email: string, password: string) => Promise<{ requiresVerification: boolean }>;
   signInWithGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
+  resendVerificationEmail: () => Promise<void>;
+  reloadUser: () => Promise<boolean>;
 }
 
 const AuthContext = createContext<AuthContextType>({
@@ -28,9 +30,11 @@ const AuthContext = createContext<AuthContextType>({
   user: null,
   loading: true,
   signInWithEmailPassword: async () => {},
-  signUpWithEmailPassword: async () => {},
+  signUpWithEmailPassword: async () => ({ requiresVerification: false }),
   signInWithGoogle: async () => {},
   signOut: async () => {},
+  resendVerificationEmail: async () => {},
+  reloadUser: async () => false,
 });
 
 export const useAuth = () => useContext(AuthContext);
@@ -152,8 +156,38 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const signUpWithEmailPassword = async (email: string, password: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
-    await authModule.createUserWithEmailAndPassword(auth, email, password);
+    const result = await authModule.createUserWithEmailAndPassword(auth, email, password);
     trackSignUp("password");
+    try {
+      await authModule.sendEmailVerification(result.user, {
+        url: `${window.location.origin}/login?verified=1`,
+        handleCodeInApp: false,
+      });
+    } catch {
+      // Don't block signup if the verification email fails to send;
+      // the user can resend from the verify-email screen.
+    }
+    return { requiresVerification: !result.user.emailVerified };
+  };
+
+  const resendVerificationEmail = async () => {
+    const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
+    if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+    if (!auth.currentUser) throw new Error("You must be signed in to resend the verification email.");
+    await authModule.sendEmailVerification(auth.currentUser, {
+      url: `${window.location.origin}/login?verified=1`,
+      handleCodeInApp: false,
+    });
+  };
+
+  const reloadUser = async () => {
+    const { auth } = await loadAuthDependencies();
+    if (!auth?.currentUser) return false;
+    await auth.currentUser.reload();
+    const refreshed = toAppUser(auth.currentUser);
+    setUser(refreshed);
+    setSession(refreshed);
+    return !!auth.currentUser.emailVerified;
   };
 
   const signInWithGoogle = async () => {
@@ -199,6 +233,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         signUpWithEmailPassword,
         signInWithGoogle,
         signOut,
+        resendVerificationEmail,
+        reloadUser,
       }}
     >
       {children}

@@ -1,0 +1,15 @@
+{
+  "questionId": "827afb27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The previous sentence establishes an exception to the evergreen pattern (<em>\u201cnot all conifer species are evergreen\u201d</em>), and the current sentence must show a specific example of this exception."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<em>\u201cFor instance\u201d</em> introduces an example, showing that Larch trees exemplify the non-evergreen conifers just mentioned. The other three suggest contrast, simultaneity, or addition\u2014not exemplification. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

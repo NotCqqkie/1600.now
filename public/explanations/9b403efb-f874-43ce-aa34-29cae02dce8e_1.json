@@ -1,0 +1,15 @@
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast",
+      "content": "The parenthetical statement is crucial: words used in specialized or academic publications are \u201cpoorly represented\u201d in the corpus. This signals that the blank describes words that ARE well-represented\u2014the opposite end of the spectrum."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "\u201dConventional\u201d means standard, commonly-used language\u2014the type of words that would be well-represented in a general corpus, exemplified by \u201cworld\u201d as the eighth most common noun. The other choices misdescribe the word type: trivial emphasizes importance rather than frequency, profound suggests rarity rather than commonness, and accidental is irrelevant to word distribution. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

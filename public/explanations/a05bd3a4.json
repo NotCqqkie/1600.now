@@ -1,0 +1,16 @@
+{
+  "questionId": "a05bd3a4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the difference of squares pattern",
+      "content": "The expression $x^2 - 5$ can be rewritten as $x^2 - (\\sqrt{5})^2$ because $5 = (\\sqrt{5})^2$. This matches the difference of squares pattern $a^2 - b^2$, where $a = x$ and $b = \\sqrt{5}$."
+    },
+    {
+      "title": "Apply the difference of squares formula",
+      "content": "Using the difference of squares formula:<br/>$$x^2 - 5 = x^2 - (\\sqrt{5})^2 = (x + \\sqrt{5})(x - \\sqrt{5})$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$a^2 - b^2 = (a+b)(a-b)$$"
+    }
+  ]
+}

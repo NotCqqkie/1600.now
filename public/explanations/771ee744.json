@@ -1,0 +1,15 @@
+{
+  "questionId": "771ee744",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate 10% as a fraction",
+      "content": "We're told 10% of the marbles are red. Since 10% equals $\\frac{1}{10}$, finding 10% of 320 is the same as dividing 320 by 10."
+    },
+    {
+      "title": "Calculate the number of red marbles",
+      "content": "$$\\frac{320}{10} = 32$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

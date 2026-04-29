@@ -1,0 +1,15 @@
+{
+  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The critic's claim rests on attention, not relaxation. But the study found both heart rate and pupil size decreased. The critic can rationalize the heart rate drop as compatible with attention, yet pupil size presents a harder problem."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D reveals why: pupil size increases during attention. Since the infants' pupils actually constricted, the attention hypothesis fails on this direct physiological measure. The other three either ignore the physiological data (A on preferences, B on novelty), or measure a different marker that wasn't observed (C on blinking).<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

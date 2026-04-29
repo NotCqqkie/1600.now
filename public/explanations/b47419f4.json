@@ -1,0 +1,15 @@
+{
+  "questionId": "b47419f4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "When subtracting the second group, distribute the negative to each term inside the parentheses:<br/>$$\\left(\\frac{1}{2}x + 3\\right) - \\left(\\frac{2}{3}x - 5\\right) = \\frac{1}{2}x + 3 - \\frac{2}{3}x + 5$$<br/>Notice that $-(-5) = +5$."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group the $x$ terms and the constant terms separately.<br/><br/><strong>$x$ terms:</strong> Combine $\\frac{1}{2}x - \\frac{2}{3}x$ using a common denominator of 6:<br/>$$\\frac{1}{2}x - \\frac{2}{3}x = \\frac{3}{6}x - \\frac{4}{6}x = -\\frac{1}{6}x$$<br/><br/><strong>Constant terms:</strong><br/>$$3 + 5 = 8$$<br/><br/>The simplified expression is $-\\frac{1}{6}x + 8$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

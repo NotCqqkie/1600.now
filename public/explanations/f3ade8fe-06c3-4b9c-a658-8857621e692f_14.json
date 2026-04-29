@@ -1,0 +1,19 @@
+{
+  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use perpendicularity of tangent and radius",
+      "content": "A tangent line is perpendicular to the radius at the point of tangency. This means their slopes multiply to give <strong>-1</strong>. The radius connects the center $(3, 7)$ to the tangent point $(a, -4)$, and the tangent has slope $\\frac{5}{4}$."
+    },
+    {
+      "title": "Write the radius slope in terms of a",
+      "content": "Using the slope formula between $(3, 7)$ and $(a, -4)$:<br/><br/>$$m_{\\text{radius}} = \\frac{-4 - 7}{a - 3} = \\frac{-11}{a - 3}$$"
+    },
+    {
+      "title": "Apply perpendicularity and solve for a",
+      "content": "$$\\frac{-11}{a - 3} \\cdot \\frac{5}{4} = -1$$<br/><br/>$$\\frac{-55}{4(a-3)} = -1$$<br/><br/>Multiply both sides by $4(a-3)$:<br/><br/>$$-55 = -4(a - 3)$$<br/><br/>$$-55 = -4a + 12$$<br/><br/>$$-4a = -67$$<br/><br/>$$a = \\frac{67}{4}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

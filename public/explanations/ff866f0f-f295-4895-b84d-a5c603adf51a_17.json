@@ -1,0 +1,15 @@
+{
+  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure around the blank",
+      "content": "The blank connects a singular subject (\u201cMuseum of Modern Art\u201d) to an object within a dependent clause introduced by \u201cthat.\u201d The verb must be finite to serve as the clause's main predicate."
+    },
+    {
+      "title": "Apply the finite verb requirement",
+      "content": "\u201dHouses\u201d is the finite verb in third-person singular form, matching the singular subject. \u201cHousing,\u201d \u201cto house,\u201d and \u201cto have housed\u201d are non-finite forms\u2014a participle and two infinitives\u2014that cannot function as a clause's main verb. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

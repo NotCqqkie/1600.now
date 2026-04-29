@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "\u201dKestrels' surroundings can significantly affect their hormone levels.\u201d This means comparing studies of captive (lab) and wild settings should reveal different hormone levels."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice D presents exactly this difference\u2014luteinizing hormone levels are higher in captive than wild kestrels. The other choices either deny the difference (A), describe individual variation rather than setting effects (B), or compare across species (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

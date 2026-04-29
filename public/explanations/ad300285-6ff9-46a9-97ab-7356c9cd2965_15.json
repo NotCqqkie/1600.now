@@ -1,0 +1,21 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides of $$\frac{42}{x}=7x$$ by $$x$$ (assuming $$x\neq0$$):\n$$42 = 7x^2$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Isolate 7x^2",
+      "content": "The equation $$42 = 7x^2$$ directly gives the value of $$7x^2$$:\n$$7x^2 = 42$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

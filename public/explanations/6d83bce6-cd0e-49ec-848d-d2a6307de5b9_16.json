@@ -1,0 +1,15 @@
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute 95 into the parentheses",
+      "content": "Multiply 95 by each term in $(x - 2)$:<br><br>$$y = 95x - 190 + 228$$"
+    },
+    {
+      "title": "Combine the constants",
+      "content": "Add the constant terms:<br><br>$$y = 95x + 38$$<br><br>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

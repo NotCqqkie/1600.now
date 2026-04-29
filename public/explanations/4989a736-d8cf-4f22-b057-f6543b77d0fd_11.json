@@ -1,0 +1,15 @@
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The sentence specifies \u201ca neighboring species with a negative effect value.\u201d The table displays effect values for neighboring species\u2014some positive, one negative."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<em>leafy spurge</em> is the neighboring species with an effect value of -0.3238\u2014the only negative value in the table. The other three either show neighboring species with positive effect values or aren't neighboring species at all.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

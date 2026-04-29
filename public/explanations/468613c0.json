@@ -1,0 +1,16 @@
+{
+  "questionId": "468613c0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle area formula",
+      "content": "Substitute base = 56 cm and height = 112 cm into the triangle area formula:<br/>$$A = \\frac{1}{2} \\times 56 \\times 112$$",
+      "formula": "$$A = \\frac{1}{2}bh$$"
+    },
+    {
+      "title": "Simplify and compute",
+      "content": "Observe that $\\frac{112}{2} = 56$:<br/>$$A = 56 \\times 56 = 3,136$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

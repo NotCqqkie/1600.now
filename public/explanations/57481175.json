@@ -1,0 +1,15 @@
+{
+  "questionId": "57481175",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the bar graph",
+      "content": "The vervet bar reaches the 12 mark on the vertical axis, and the mandrill bar reaches the 6 mark."
+    },
+    {
+      "title": "Compute the difference",
+      "content": "Subtract the mandrill count from the vervet count: $$12 - 6 = 6$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

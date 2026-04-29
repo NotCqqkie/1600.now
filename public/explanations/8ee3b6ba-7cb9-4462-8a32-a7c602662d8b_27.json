@@ -1,0 +1,15 @@
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what 'specify' requires",
+      "content": "The goal is to specify\u2014to state exactly\u2014the measure of magnesium relative to all elements on Earth. The notes provide the specific value: magnesium's mass fraction is 154,000 ppm."
+    },
+    {
+      "title": "Select the choice that provides this specific value",
+      "content": "Choice C states exactly this: \u201cThe mass fraction of magnesium on Earth is 154,000 ppm.\u201d Since mass fraction is defined in the notes as the ratio of an element's mass to combined mass of all elements, this sentence directly answers the goal by specifying the value. The others omit the value (B), compare to another element (A), or cite zinc's number (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

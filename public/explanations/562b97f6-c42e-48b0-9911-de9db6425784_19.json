@@ -1,0 +1,15 @@
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the noun phrase required",
+      "content": "The phrase \u201cone of the ______\u201d calls for a plural noun after the article <strong>the</strong>. The modifier \u201chundreds of\u201d also expects a plural noun, so the blank must be a plural noun phrase such as \u201chundreds of exhibits\u201d."
+    },
+    {
+      "content": "The correct choice uses the plain plural <strong>exhibits</strong> with no apostrophe, giving \u201chundreds of exhibits\u201d. The other three options either misuse an apostrophe or use a singular form, which breaks the plural\u2011noun requirement. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "title": "Apply the plural\u2011noun rule"
+    }
+  ]
+}

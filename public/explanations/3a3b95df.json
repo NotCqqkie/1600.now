@@ -1,0 +1,15 @@
+{
+  "questionId": "3a3b95df",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 300 into the equation",
+      "content": "We have $d = 16 - \\frac{x}{30}$. When $x = 300$:<br/>$$d = 16 - \\frac{300}{30}$$"
+    },
+    {
+      "title": "Simplify the fraction and subtract",
+      "content": "Divide: $\\frac{300}{30} = 10$.<br/>Then: $$d = 16 - 10 = 6$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the overlap signal",
+      "content": "The passage states: \u201cfor every class of animals examined, there were individual studies showing differences well above the average for arthropods.\u201d This single statement reveals that individual bird studies exceeded the overall arthropod average\u2014creating an overlap between the two groups."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "If individual bird studies exceed the arthropod average, they must surpass some arthropod studies (specifically those below the average), which is exactly what D states. A contradicts the average relationship, B makes an unsubstantiated claim about a specific study, and C introduces information the passage never addresses. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

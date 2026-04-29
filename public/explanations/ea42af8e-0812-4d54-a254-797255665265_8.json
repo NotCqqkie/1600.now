@@ -1,0 +1,15 @@
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "Text 2 explicitly calls the characterization in Text 1 <em>\u201can overgeneralization\u201d</em> and then provides two historical counterexamples."
+    },
+    {
+      "title": "Match to the answer",
+      "content": "The examples of Barrett Browning (who published under her own name) and Willis (who chose a female pseudonym) demonstrate that Text 1's broad claim about women needing male pseudonyms is too sweeping \u2014 exactly what A identifies: \u201chistorical examples that challenge the assumption\u201d in Text 1. The other options misread the relationship \u2014 B suggests Text 2 agrees with Text 1, C attributes unsupported claims about motivation, and D is incomplete. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

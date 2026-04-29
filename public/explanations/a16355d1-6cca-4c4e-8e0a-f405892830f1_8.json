@@ -1,0 +1,15 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the slope direction",
+      "content": "The line slopes downward from left to right, indicating a <strong>negative slope</strong>. <br/><br/> This eliminates: <ul><li>Choice A: $y = x - 16.3$ (positive slope)</li><li>Choice C: $y = x - 2.3$ (positive slope)</li></ul> Remaining options: B and D, both with negative slopes."
+    },
+    {
+      "title": "Identify the y-intercept",
+      "content": "Reading where the line crosses the y-axis at $x = 0$, the $y$-value is approximately 2.3. <ul><li>Choice B has y-intercept 16.3 \u2014 far too large</li><li>Choice D has y-intercept 2.3 \u2014 matches the graph</li></ul> Verify with $x = 2$: the equation $y = -(2) + 2.3 = 0.3$ matches the line's position. <br/><br/> That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

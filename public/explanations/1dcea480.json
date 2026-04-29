@@ -1,0 +1,15 @@
+{
+  "questionId": "1dcea480",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the probability formula and substitute given values",
+      "content": "Probability equals the ratio of favorable outcomes to total outcomes. Given that $P(\\text{blue}) = 0.35$ and there are 60 total marbles:<br/>$$0.35 = \\frac{\\text{blue marbles}}{60}$$"
+    },
+    {
+      "title": "Solve for the number of blue marbles",
+      "content": "Multiply both sides by 60:<br/>$$\\text{blue marbles} = 0.35 \\times 60 = 21$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

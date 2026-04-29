@@ -1,0 +1,15 @@
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures at the blank",
+      "content": "Before the blank: \u201cthe work of Slovak\u201d (noun phrase).<br/>After the blank: \u201cwho aptly describes her photos...\u201d (relative clause).<br/>The blank must be filled with a noun phrase to serve as the antecedent for the relative clause."
+    },
+    {
+      "title": "Apply the rules for appositives and non-restrictive relative clauses",
+      "content": "When a proper name explicitly identifies a noun, the relative clause following it is non-restrictive and must be preceded by a comma. When a proper noun follows a common noun in apposition, no comma separates them. The correct form is \u201cphotographer M\u00e1ria \u0160varbov\u00e1,\u201d \u2014 comma after the noun phrase but not between the noun and name. B omits the required comma before \u201cwho\u201d; C and D wrongly place commas between \u201cphotographer\u201d and the proper name. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

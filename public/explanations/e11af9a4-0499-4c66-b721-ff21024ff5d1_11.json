@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the dominant penalty reason",
+      "content": "The graph shows tax penalties by the reason they were assessed. Across all three years, <strong>undistributed income</strong> (the penalty for failing to meet the minimum charitable distribution requirement) clearly dominates, with bars reaching approximately 40%, 75%, and 55% for 2003, 2004, and 2005 respectively. All other reasons have significantly smaller percentages."
+    },
+    {
+      "title": "Match the claim to the data",
+      "content": "Choice D states that penalties for undistributed income exceeded those for all other reasons combined. The graph confirms this for every year: 2003 shows 40% versus (10%+8%+2%)=20%; 2004 shows 75% versus (40%+15%+2%)=57%; 2005 shows 55% versus (10%+5%+1%)=16%. Choices A and C make weaker single-reason comparisons, and B introduces Form 990 data not shown in the graph. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clarification signal",
+      "content": "The passage introduces the 899 BCE eclipse as \u201cannular,\u201d then immediately explains what this term means: the Moon didn't cover the Sun completely, creating a ring of fire. The transition must signal clarification or elaboration."
+    },
+    {
+      "title": "Apply the clarification transition",
+      "content": "\u201dThat is,\u201d signals we're defining a term\u2014explaining what \u201cannular\u201d means. The other options fail: \u201cFor example,\u201d \u201cMeanwhile,\u201d and \u201cNonetheless\u201d express new instances, simultaneity, and contrast, none fitting here. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

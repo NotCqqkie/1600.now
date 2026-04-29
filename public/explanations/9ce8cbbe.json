@@ -1,0 +1,19 @@
+{
+  "questionId": "9ce8cbbe",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the total number of elements in set K",
+      "content": "Set K contains all positive integers less than or equal to 160, with no repetition. Therefore, K = {1, 2, 3, ..., 160}, giving us a total of <strong>160 elements</strong>."
+    },
+    {
+      "title": "Count the favorable outcomes: even numbers \u2264 50",
+      "content": "We need numbers that satisfy two conditions simultaneously: even AND \u2264 50. The even numbers in this range are {2, 4, 6, 8, ..., 50}. To count them, divide the largest even number \u2264 50 by 2:<br/><br/>$$\\text{Count} = \\frac{50}{2} = 25$$<br/><br/>There are <strong>25 favorable outcomes</strong>."
+    },
+    {
+      "title": "Calculate the probability and identify the answer",
+      "content": "Apply the probability formula:<br/><br/>$$P(\\text{even and} \\leq 50) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{25}{160}$$<br/><br/>Reduce by dividing numerator and denominator by 5:<br/><br/>$$\\frac{25}{160} = \\frac{5}{32}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_3",
+  "correctAnswer": "520",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 4 into the function",
+      "content": "To find $f(4)$, substitute $x = 4$ into the definition $f(x) = 135x - 20$: $$f(4) = 135(4) - 20$$"
+    },
+    {
+      "title": "Evaluate the arithmetic",
+      "content": "Calculate $135 \\times 4 = 540$. Then $540 - 20 = 520$. So $f(4) = 520$."
+    }
+  ]
+}

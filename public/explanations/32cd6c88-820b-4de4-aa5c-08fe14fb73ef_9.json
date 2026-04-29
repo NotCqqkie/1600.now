@@ -1,0 +1,11 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute and evaluate",
+      "content": "Substitute $x = -2$ into $h(x) = 7|x|$:<br/>$$h(-2) = 7|-2| = 7 \\cdot 2 = 14$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

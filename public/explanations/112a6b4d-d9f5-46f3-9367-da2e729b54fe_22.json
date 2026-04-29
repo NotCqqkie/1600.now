@@ -1,0 +1,15 @@
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the logical relationship",
+      "content": "The passage moves from a fact about infrared light to a claim about JWST's advantage. The second statement must be a consequence of the first."
+    },
+    {
+      "title": "Match the causal transition",
+      "content": "\u201dConsequently\u201d marks the logical result: an infrared telescope naturally provides more information about infrared-rich distant galaxies. The other options fail to establish this causal link\u2014they create opposition, treat the ideas as unrelated additions, or misplace emphasis. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

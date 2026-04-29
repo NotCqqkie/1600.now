@@ -1,0 +1,15 @@
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The underlined sentence explains the <strong>foundation</strong> of the new classification system by specifying that it considers 'varying levels of supporting evidence.' This directly introduces the criteria used for scoring, not the system's development or its necessity."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "D directly corresponds to the underlined sentence\u2019s role of outlining the <em>scoring criteria</em> by referencing the 'supporting evidence' framework. A, B, and C misinterpret the sentence\u2019s purpose as focusing on research process, derivation, or justification rather than the system's operational basis. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

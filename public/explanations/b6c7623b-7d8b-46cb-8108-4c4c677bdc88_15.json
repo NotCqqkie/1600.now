@@ -1,0 +1,15 @@
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what happens in large forests",
+      "content": "The passage states that when the model is applied to large forests, \u201cits predictions for large-mammal populations are too high.\u201d"
+    },
+    {
+      "title": "Match this to Beaverhead-Deerlodge",
+      "content": "The model will overestimate the actual population sizes of large mammals. The other three apply the wrong forest type, describe factors not discussed, or mischaracterize the nature of the flaw. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

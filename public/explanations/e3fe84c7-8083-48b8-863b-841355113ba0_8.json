@@ -1,0 +1,20 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the hemisphere volume formula",
+      "content": "A hemisphere is half of a sphere. The volume of a sphere is $V_{sphere} = \\frac{4}{3}\\pi r^3$, so the volume of a hemisphere is half of that:",
+      "formula": "$$V_{hemisphere} = \\frac{2}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Calculate the cube of the radius",
+      "content": "With $r = 83$ inches, compute $83^3$:<br/>$$83^2 = 6,889$$<br/>$$83^3 = 6,889 \\times 83 = 571,787$$"
+    },
+    {
+      "title": "Substitute and compute the volume",
+      "content": "$$V = \\frac{2}{3}\\pi(571,787)$$<br/>Using $\\pi \\approx 3.14159$:<br/>$$V \\approx \\frac{2}{3}(3.14159)(571,787) \\approx 2.0944 \\times 571,787 \\approx 1,197,517$$<br/>This is closest to 1,197,500. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

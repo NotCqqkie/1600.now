@@ -1,0 +1,15 @@
+{
+  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the point from the graph",
+      "content": "The point shown is $$(49,0)$$.<br/>This means the x\u2011coordinate (Player\u202f1 points) is 49 and the y\u2011coordinate (Player\u202f2 points) is 0."
+    },
+    {
+      "title": "Interpret in context",
+      "content": "When Player\u202f1 earns 49 points, Player\u202f2 earns 0 points.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

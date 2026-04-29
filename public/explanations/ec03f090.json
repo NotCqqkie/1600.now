@@ -1,0 +1,15 @@
+{
+  "questionId": "ec03f090",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what illustrating the sestina form requires",
+      "content": "The goal explicitly states \u201cuse ONE of the poems\u201d to illustrate. This signals the answer must select a specific poem and demonstrate the form's characteristics using that particular poem's end words."
+    },
+    {
+      "title": "Find the choice that illustrates with one poem correctly",
+      "content": "Choice B selects \u201cTowards Autumn\u201d specifically and demonstrates the sestina's structure\u2014thirty-nine lines with six end words (<em>daughter</em>, <em>friend</em>, <em>bread</em>, <em>mother</em>, <em>lover</em>, <em>myself</em>) that alternate in a set pattern. The other three fail because A mentions both poems rather than one, while C and D misattribute the end words to the wrong poems. That matches choice <strong>B</strong>\u2014<strong>B</strong> is correct."
+    }
+  ]
+}

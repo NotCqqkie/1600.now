@@ -1,0 +1,19 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isosceles triangles have two equal angles",
+      "content": "An isosceles triangle is defined by having at least two equal angles. Since we're given that angle R = 29\u00b0, triangle RST is isosceles if either angle S = 29\u00b0 (matching R) or if angle S = angle T (making the two non-R angles equal)."
+    },
+    {
+      "title": "Test whether S = T is possible",
+      "content": "If angles S and T are equal, all three angles must sum to 180\u00b0. Setting up the equation: $$29\u00b0 + S + S = 180\u00b0$$ which simplifies to $$2S = 151\u00b0,$$ or $$S = 75.5\u00b0.$$ Since none of the answer choices gives $S = 75.5\u00b0$, the two non-R angles cannot be equal."
+    },
+    {
+      "title": "S must equal R for the triangle to be isosceles",
+      "content": "Since S \u2260 T, we need S = R = 29\u00b0 for the triangle to be isosceles. Looking at the choices, only choice D states angle S = 29\u00b0. Let's verify: if R = 29\u00b0 and S = 29\u00b0, then T = 180\u00b0 \u2212 29\u00b0 \u2212 29\u00b0 = 122\u00b0. All three angles sum to 180\u00b0 \u2713, and R = S \u2713, confirming the triangle is isosceles. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

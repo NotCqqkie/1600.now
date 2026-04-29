@@ -1,0 +1,15 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_22",
+  "correctAnswer": "-35/4,-8.75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange and factor to find the solutions",
+      "content": "Start by moving all terms to the left side:<br/><br/>$$(x-k)^{2}-(k-4a)(x-k) = 0$$<br/><br/>Factor out $(x-k)$:<br/><br/>$$(x-k)\\left[(x-k)-(k-4a)\\right] = 0$$<br/><br/>Simplify the brackets:<br/><br/>$$(x-k)(x - 2k + 4a) = 0$$<br/><br/>This gives two solutions: $x = k$ or $x = 2k - 4a$."
+    },
+    {
+      "title": "Apply the sum condition to find a",
+      "content": "The sum of the two solutions is:<br/><br/>$$k + (2k - 4a) = 3k - 4a$$<br/><br/>We're given this sum equals $3k + 35$:<br/><br/>$$3k - 4a = 3k + 35$$<br/><br/>Subtract $3k$ from both sides:<br/><br/>$$-4a = 35$$<br/><br/>Divide by $-4$:<br/><br/>$$a = -\\frac{35}{4}$$"
+    }
+  ]
+}

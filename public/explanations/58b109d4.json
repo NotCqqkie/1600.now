@@ -1,0 +1,15 @@
+{
+  "questionId": "58b109d4",
+  "correctAnswer": "-10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "Add both equations:<br/>$$(x^2 + y + 7) + (20x + 100 - y) = 7 + 0$$<br/>The $y$ terms cancel, combining the constants:<br/>$$x^2 + 20x + 107 = 7$$<br/>Subtract 7 from both sides:<br/>$$x^2 + 20x + 100 = 0$$"
+    },
+    {
+      "title": "Factor as a perfect square and solve",
+      "content": "The expression $x^2 + 20x + 100$ is a perfect square trinomial:<br/>$$(x + 10)^2 = 0$$<br/>This gives $x + 10 = 0$, so $x = -10$."
+    }
+  ]
+}

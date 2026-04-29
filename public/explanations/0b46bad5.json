@@ -1,0 +1,19 @@
+{
+  "questionId": "0b46bad5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert to slope-intercept form",
+      "content": "From $ax + by = b$, solve for $y$:<br/>$$by = -ax + b$$<br/>$$y = -\\frac{a}{b}x + 1$$<br/>This shows the line has y-intercept $(0, 1)$ and slope $-\\frac{a}{b}$."
+    },
+    {
+      "title": "Analyze the slope given 0 < a < b",
+      "content": "Since $a < b$, the fraction $\\frac{a}{b} < 1$. Combined with $a > 0$ and $b > 0$, we have $0 < \\frac{a}{b} < 1$. Therefore:<br/>$$-1 < -\\frac{a}{b} < 0$$<br/>The slope is negative, but its magnitude is less than 1, creating a gentle negative slope."
+    },
+    {
+      "title": "Find the x-intercept and identify the graph",
+      "content": "Set $y = 0$ in $ax + by = b$:<br/>$$ax = b$$<br/>$$x = \\frac{b}{a}$$<br/>Since $b > a > 0$, we have $\\frac{b}{a} > 1$. The line crosses the x-axis to the right of $x = 1$, passes through $(0, 1)$, and has a gentle negative slope. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

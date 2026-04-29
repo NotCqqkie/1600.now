@@ -1,0 +1,19 @@
+{
+  "questionId": "c8e9a011",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the fraction containing n",
+      "content": "Start by moving $-\\frac{2}{t}$ to the right side:<br/>$$\\frac{12}{n} = -\\frac{2}{w} + \\frac{2}{t}$$<br/>This groups the terms we can combine."
+    },
+    {
+      "title": "Combine the right side over a common denominator",
+      "content": "The right side has denominators $w$ and $t$, so use $tw$ as the common denominator:<br/>$$-\\frac{2}{w} + \\frac{2}{t} = \\frac{-2t}{tw} + \\frac{2w}{tw} = \\frac{2w - 2t}{tw} = \\frac{2(w-t)}{tw}$$<br/>Now we have: $$\\frac{12}{n} = \\frac{2(w-t)}{tw}$$"
+    },
+    {
+      "title": "Invert both sides and simplify",
+      "content": "When $\\frac{12}{n} = \\frac{2(w-t)}{tw}$, take reciprocals of both sides:<br/>$$\\frac{n}{12} = \\frac{tw}{2(w-t)}$$<br/>Multiply both sides by 12:<br/>$$n = \\frac{12tw}{2(w-t)} = \\frac{6tw}{w-t}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

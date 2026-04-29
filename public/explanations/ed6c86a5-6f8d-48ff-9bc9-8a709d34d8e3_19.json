@@ -1,0 +1,15 @@
+{
+  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the perpendicularity property",
+      "content": "A tangent line to a circle is perpendicular to the radius at the point of tangency. The radius goes from the center $(-2, 2)$ to the tangent point $(3, -1)$.<br/><br/>Radius slope: $$m_{\\text{radius}} = \\frac{-1-2}{3-(-2)} = \\frac{-3}{5}$$<br/><br/>Since the tangent line is perpendicular, its slope is the negative reciprocal: $$m_{\\text{tangent}} = \\frac{5}{3}$$"
+    },
+    {
+      "title": "Backsolve to find which point lies on the tangent line",
+      "content": "The tangent line passes through $(3, -1)$ with slope $\\frac{5}{3}$. A point lies on this line if the slope from $(3, -1)$ to that point equals $\\frac{5}{3}$.<br/><br/>Backsolving \u2014 testing choice C $(6, 4)$:<br/>$$\\text{Slope} = \\frac{4-(-1)}{6-3} = \\frac{5}{3}$$<br/><br/>This matches the tangent line's slope. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

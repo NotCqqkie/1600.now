@@ -1,0 +1,15 @@
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the volume pattern",
+      "content": "The passage states: \u201cmusicians tended to listen at higher volumes than nonmusicians did.\u201d This is the decisive clue for predicting how the two types of listeners will play a shared favorite."
+    },
+    {
+      "title": "Determine the nonmusician's volume",
+      "content": "D states the nonmusician plays the favorite at less than 85.5 dB, reflecting the musician-louder pattern. A and B make claims about different songs beyond the shared favorite, while C reverses the musician-nonmusician relationship. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

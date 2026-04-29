@@ -1,0 +1,16 @@
+{
+  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_2",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize vertical angles",
+      "content": "When two lines intersect at a point, they form four angles around the intersection point. The two pairs of opposite angles are called <strong>vertical angles</strong>.",
+      "formula": "\\text{Vertical angles are equal}"
+    },
+    {
+      "title": "Find s using the vertical angles theorem",
+      "content": "In the diagram, angles $s$ and $\\gamma$ are vertical angles\u2014positioned opposite each other at the intersection point. Since vertical angles are equal and $\\gamma = 61\u00b0$, we conclude that $s = 61\u00b0$."
+    }
+  ]
+}

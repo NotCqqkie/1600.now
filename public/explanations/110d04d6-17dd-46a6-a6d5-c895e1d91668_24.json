@@ -1,0 +1,15 @@
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining claim",
+      "content": "The first clause marks upper-atmospheric jets reaching the ionosphere as <strong>outliers</strong> due to extreme altitudes (80+ km). The transition must show how the second clause (about most jets reaching lower heights) connects to this claim."
+    },
+    {
+      "title": "Match the logical relationship",
+      "content": "The second clause provides evidence explaining why they're outliers: most jets reach only 20\u201350 km, making the 80+ km jets extreme by comparison. <strong>Indeed</strong> means \u201cin fact\u201d or \u201ctruly,\u201d introducing supporting evidence that elaborates the outlier claim. The other three either imply a causal result, introduce separate information, or signal contrast\u2014relationships not present here. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

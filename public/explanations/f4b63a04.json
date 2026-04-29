@@ -1,0 +1,15 @@
+{
+  "questionId": "f4b63a04",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clue about the name's origin",
+      "content": "The most direct clue is in the final note: <em>\u201cThe new species was named Mansourasaurus to recognize the team that discovered it.\u201d</em> This tells us exactly why the dinosaur has this name\u2014it comes from the team that discovered it."
+    },
+    {
+      "title": "Apply the clue to find the answer",
+      "content": "Choice D provides the missing detail that makes the explanation complete: the team was from Mansoura University, connecting the species name to its source. The other three choices describe the discovery (location, timing, what was found) but omit the explanation of the name's origin entirely. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

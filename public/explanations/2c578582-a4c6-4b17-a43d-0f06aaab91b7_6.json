@@ -1,0 +1,19 @@
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from two clear points on the graph",
+      "content": "The line passes through $(0, -1)$ and $(1, -6)$.<br/><br/>$$m = \\frac{-6 - (-1)}{1 - 0} = \\frac{-5}{1} = -5$$"
+    },
+    {
+      "title": "Write the equation of the graphed line",
+      "content": "With slope $-5$ and y-intercept $-1$: $$y = -5x - 1$$"
+    },
+    {
+      "title": "Solve for f(x) from the given relationship",
+      "content": "Since the graph shows $y = f(x) + 8$:<br/>$$f(x) + 8 = -5x - 1$$<br/>$$f(x) = -5x - 9$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

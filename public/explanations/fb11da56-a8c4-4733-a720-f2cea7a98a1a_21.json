@@ -1,0 +1,19 @@
+{
+  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish the area conversion factor",
+      "content": "Since 1 meter = 3.28 feet, square both sides to convert area units: <br/>$$1 \\text{ square meter} = (3.28)^2 \\text{ square feet} = 10.7584 \\text{ square feet}$$"
+    },
+    {
+      "title": "Convert the rate to square meters per hour",
+      "content": "Divide by the conversion factor: <br/>$$\\frac{270}{10.7584} \\approx 25.089 \\text{ square meters per hour}$$"
+    },
+    {
+      "title": "Convert per hour to per minute",
+      "content": "Divide by 60 to change the time unit: <br/>$$\\frac{25.089}{60} \\approx 0.418 \\text{ square meters per minute}$$<br/>Rounding 0.418 gives 0.42. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

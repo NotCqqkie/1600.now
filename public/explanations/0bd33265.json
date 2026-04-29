@@ -1,0 +1,19 @@
+{
+  "questionId": "0bd33265",
+  "correctAnswer": "515",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given temperature and remove the constant",
+      "content": "Substitute $h = 467.33$ into the formula and subtract 32 from both sides to isolate the fraction:<br/>$$467.33 = \\frac{9(v-273.15)}{5}+32$$<br/>$$435.33 = \\frac{9(v-273.15)}{5}$$"
+    },
+    {
+      "title": "Clear the denominator and coefficient",
+      "content": "Multiply both sides by 5 to clear the denominator, then divide by 9 to isolate $(v - 273.15)$:<br/>$$2176.65 = 9(v-273.15)$$<br/>$$241.85 = v - 273.15$$"
+    },
+    {
+      "title": "Add the offset constant",
+      "content": "Add 273.15 to both sides to find $v$:<br/>$$v = 241.85 + 273.15 = 515$$<br/>The corresponding temperature is <strong>515 kelvins</strong>."
+    }
+  ]
+}

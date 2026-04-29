@@ -1,0 +1,15 @@
+{
+  "questionId": "01a32c84",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the sentence boundary",
+      "content": "The text contains two independent clauses at the point of the blank: one clause ends with <em>\u201cdependent on these adjustments,\u201d</em> and another begins with <em>\u201cPrior to VisiCalc's release, changing a paper spreadsheet often required redoing the entire sheet by hand.\u201d</em>"
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A period provides the required punctuation. The other choices fail: A creates a fused sentence with no separation, B uses only a comma (not sufficient here), and D uses the ungrammatical phrase \u201cand prior\u201d. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

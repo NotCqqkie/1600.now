@@ -1,0 +1,11 @@
+{
+  "questionId": "bd4d0e0c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 into the function",
+      "content": "To find $f(0)$, substitute $x = 0$ directly into $f(x) = 10x^2 - 32x - 152$.<br/><br/>$$f(0) = 10(0)^2 - 32(0) - 152$$<br/><br/>$$f(0) = 0 - 0 - 152$$<br/><br/>$$f(0) = -152$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

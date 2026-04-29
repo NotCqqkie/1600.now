@@ -35,7 +35,7 @@ import {
 import { BankSourceToggle } from "@/components/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/nearDuplicateSpacing";
 import {
-  getUserProgressStatic,
+  useUserProgress,
   isQuestionSolved,
   isQuestionAnsweredIncorrectly,
   QuestionProgress,
@@ -174,8 +174,8 @@ const BankIndex = () => {
     [bankSource]
   );
 
-  // Get user progress for filtering
-  const userProgress = useMemo(() => getUserProgressStatic(), []);
+  // Get user progress for filtering — scoped to the active user via the hook.
+  const { progress: userProgress } = useUserProgress();
 
   // Helper to get progress for a question
   const getQuestionProgress = useCallback((q: BankQuestion, _subject: BankSubject): QuestionProgress => {
@@ -199,7 +199,7 @@ const BankIndex = () => {
       return activePastQuestionSourceIds.has(q.sourceId);
     }
 
-    return q.active === true;
+    return q.inPracticeTests === true;
   }, []);
 
   // Check if question passes filters

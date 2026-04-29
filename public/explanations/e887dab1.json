@@ -1,0 +1,15 @@
+{
+  "questionId": "e887dab1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the task requires",
+      "content": "The student wants to \u201cindicate how long John Cage's musical piece will last.\u201d The correct choice must directly state the duration from the notes."
+    },
+    {
+      "title": "Apply this requirement to the choices",
+      "content": "Choice C begins with \u201cLasting 639 years,\u201d which directly conveys the duration and fulfills the stated goal. The other three choices focus on the composer, location, and instrument while omitting the duration entirely. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the negation and correction",
+      "content": "The first sentence says metals do NOT maintain bonds by sharing/exchanging electrons. The second sentence must explain what actually happens instead. The transition word must signal this shift\u2014it needs to mean \u201cinstead\u201d or \u201crather.\u201d"
+    },
+    {
+      "title": "Match the corrective transition",
+      "content": "\u201dRather\u201d means \u201cinstead,\u201d perfectly shifting from negation to truth. The other choices fail: \u201cFor example\u201d continues with the negated mechanism; \u201cAccordingly\u201d implies consequence; \u201cLikewise\u201d implies similarity. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

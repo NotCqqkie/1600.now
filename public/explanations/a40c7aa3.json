@@ -1,0 +1,15 @@
+{
+  "questionId": "a40c7aa3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast",
+      "content": "The opening sentence establishes the typical case: most planets discovered orbit G-type stars like our Sun. The next sentence presents a striking exception: a planet around KELT-9, a B-type star far hotter and more massive. The signal is contrast \u2014 exception to pattern."
+    },
+    {
+      "title": "Choose the transition word",
+      "content": "<strong>However</strong> marks a contrast or contradiction. Since the second sentence contradicts the pattern established in the first, this transition word is correct. Likewise suggests similarity, therefore implies consequence, and for example treats the discovery as exemplifying rather than contradicting the pattern. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

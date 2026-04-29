@@ -1,0 +1,19 @@
+{
+  "questionId": "295a41f0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from two points",
+      "content": "The graph passes through the points $(-2, 0)$ and $(0, -4)$. Using the slope formula:<br/>$$m = \\frac{-4 - 0}{0 - (-2)} = \\frac{-4}{2} = -2$$"
+    },
+    {
+      "title": "Write the equation for the line shown",
+      "content": "The line has slope $-2$ and y-intercept $-4$ (since it passes through $(0, -4)$). The equation of the line is:<br/>$$y = f(x) - 11 = -2x - 4$$"
+    },
+    {
+      "title": "Add 11 to both sides to find f(x)",
+      "content": "$$f(x) = -2x - 4 + 11 = -2x + 7$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the data must show to justify the student's surprise",
+      "content": "The passage states the student is surprised the ColecoVision sold \u201crelatively few units.\u201d For this surprise to be justified, the blank must show ColecoVision's actual sales from the table and a comparison system that sold significantly more."
+    },
+    {
+      "title": "Match the correct figures from the table",
+      "content": "From the table, ColecoVision sold 2,000,000 units and Game & Watch sold 18,600,000 units. Choice B correctly pairs these figures, creating the stark contrast needed to explain the student's surprise: 2,000,000 is indeed \u201crelatively few\u201d compared to 18.6 million. The other three choices misread the table's data. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

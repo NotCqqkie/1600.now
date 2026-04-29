@@ -1,0 +1,15 @@
+{
+  "questionId": "4b06557b",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the intersection point",
+      "content": "The solution to a system of linear equations is the point where the two lines intersect. Examining the graph, the two lines cross at the point (4, 1)."
+    },
+    {
+      "title": "Identify the x-coordinate",
+      "content": "From the intersection point (4, 1), the x-coordinate is <strong>4</strong>."
+    }
+  ]
+}

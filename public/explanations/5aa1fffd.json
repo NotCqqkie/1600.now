@@ -1,0 +1,15 @@
+{
+  "questionId": "5aa1fffd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the interrogative structure",
+      "content": "The sentence opens with \u201cWhere,\u201d marking this as an interrogative sentence. In questions formed with interrogative words, English requires subject-verb inversion: the auxiliary verb must precede the subject."
+    },
+    {
+      "title": "Apply the inversion rule",
+      "content": "Choice C correctly inverts the order (\u201cdid\u201d before \u201cthe word\u201d) and uses a question mark, forming a proper interrogative. Choice A has the right word order but uses a period instead of a question mark. Choice B fails the inversion by placing \u201cthe word\u201d before \u201cdid.\u201d Choice D omits the auxiliary entirely. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

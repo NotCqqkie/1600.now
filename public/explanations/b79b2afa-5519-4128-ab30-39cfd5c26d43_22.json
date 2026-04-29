@@ -1,0 +1,15 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that surface area scales with the square of linear dimensions",
+      "content": "When similar solids have linear dimensions (like edge lengths) that scale by a factor $k$, their 2D measurements (like surface area) scale by $k^2$. The edge length of cube Y is $\\frac{3}{64}$ times that of cube X."
+    },
+    {
+      "title": "Calculate the surface area ratio",
+      "content": "The surface area of cube Y is $\\left(\\frac{3}{64}\\right)^2$ times the surface area of cube X, giving:<br/><br/>$$n = \\left(\\frac{3}{64}\\right)^2 = \\frac{9}{4,096}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

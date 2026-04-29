@@ -1,0 +1,15 @@
+{
+  "questionId": "6bc0ba75",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the broad claim",
+      "content": "The third sentence states a sweeping generalization: \u201cevolutionary links between predators and their prey can persist across centuries and continents.\u201d It's not a specific observation or detail\u2014it's a universal principle about how nature works."
+    },
+    {
+      "title": "Match the structure",
+      "content": "This generalization is then exemplified by the story that follows: mimosa and <em>B. terrenus</em> were separated for over 200 years across an ocean, yet when reunited, the beetle attacked 93% of the trees, proving the principle. The other choices misinterpret the sentence as a hypothesis to test, an explanation for why species spread, or an alternative explanation for the findings. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

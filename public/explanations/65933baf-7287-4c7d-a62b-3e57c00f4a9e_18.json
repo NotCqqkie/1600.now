@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the parallel verb structure",
+      "content": "The relative clause contains \u201cwhich typically are woven from willow and ______ colorful beading,\u201d where the subject \u201cwhich\u201d (baskets) connects to two verbs via \u201cand\u201d: first \u201care woven,\u201d then the blank. For these coordinate verbs to work grammatically, they must take the same form."
+    },
+    {
+      "title": "Apply the verb parallelism rule",
+      "content": "Verbs joined by \u201cand\u201d in a compound predicate must be in the same tense. The first verb \u201care woven\u201d is present tense, so the second verb must be too. \u201cFeature\u201d (D) is in simple present, maintaining parallelism. The other options are past forms\u2014featured, had featured, and were featuring\u2014which violate this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

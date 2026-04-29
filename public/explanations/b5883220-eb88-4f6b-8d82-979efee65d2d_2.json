@@ -1,0 +1,15 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Plug in d = 38",
+      "content": "$$3.5c + 7(38) = 266$$<br/>$$3.5c + 266 = 266$$<br/>Subtract 266 from both sides:<br/>$$3.5c = 0$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "$$c = 0$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

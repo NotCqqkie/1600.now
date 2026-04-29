@@ -1,0 +1,19 @@
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the two equations",
+      "content": "Add the two equations to eliminate $$x$$:<br/>$$y + y = \\left(\\frac{x}{4}+6\\right)+\\left(-\\frac{x}{4}+20\\right)$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Simplify to find 2y",
+      "content": "Simplify the right side:<br/>$$2y = \\frac{x}{4}-\\frac{x}{4}+6+20 = 26$$<br/>Therefore, $2y = 26$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "27d9bb69",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining finding",
+      "content": "Dubey's experiment reveals a direct contradiction: when research was presented as having usefulness (medical applications), participants showed greater interest than when the research was not framed as useful. This undermines Text 1's core claim that curiosity is purely non-instrumental\u2014a drive to acquire information solely for its own sake."
+    },
+    {
+      "title": "Apply the finding to the answer",
+      "content": "Choice A expresses this precisely: curiosity is not exclusively motivated by merely acquiring information\u2014usefulness also drives it. The other three options either mischaracterize Dubey's findings, misapply \u201cconceding\u201d as if Dubey agrees with Text 1, or raise methodological objections the experiment doesn't address. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

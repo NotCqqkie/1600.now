@@ -1,0 +1,15 @@
+{
+  "questionId": "ee846db7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the equation structure",
+      "content": "The equation $5.48x + 7.30y = 1,277.94$ represents a revenue model:<br/>$$\\text{(price per smaller container)} \\cdot x + \\text{(price per larger container)} \\cdot y = \\text{total revenue}$$<br/>In this structure, the coefficient multiplying each variable is the unit price of that item."
+    },
+    {
+      "title": "Extract the unit price of the smaller container",
+      "content": "Since $x$ represents the number of smaller containers sold, the coefficient 5.48 paired with $x$ must be the price of each smaller container. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

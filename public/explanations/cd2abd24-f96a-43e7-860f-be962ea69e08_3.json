@@ -1,0 +1,16 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the y-intercept and slope",
+      "content": "At birth (when $ x = 0 $), the whale's length is 157 cm. This is the <strong>y-intercept</strong>. <br/> The whale grows at 4.6 cm per month \u2014 this is the <strong>slope</strong> (rate of change)."
+    },
+    {
+      "title": "Write the linear equation",
+      "content": "Substituting $ m = 4.6 $ and $ b = 157 $ into the linear form: $$y = 4.6x + 157$$ <br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "$$y = mx + b$$"
+    }
+  ]
+}

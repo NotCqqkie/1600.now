@@ -1,0 +1,15 @@
+{
+  "questionId": "3654202f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key cost signal",
+      "content": "The passage contrasts radar and sonar (described as \u201ctoo costly for consumer use\u201d) with a Wi-Fi alternative presented as \u201ca cheap way\u201d to count people and identify gestures. Cost is the defining advantage."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "<em>Inexpensive</em> directly captures the \u201ccheap way\u201d descriptor already present in the sentence. The other three\u2014infrequent, unmistakable, and impractical\u2014describe unrelated qualities the passage does not emphasize. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

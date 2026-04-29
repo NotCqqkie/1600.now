@@ -1,0 +1,15 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Take square roots and find both solutions",
+      "content": "Since $(x-42)^2 = 1$, taking the square root of both sides gives $x - 42 = \\pm 1$.<br/>This means $x - 42 = 1$ or $x - 42 = -1$, so $x = 43$ or $x = 41$."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "The sum is $43 + 41 = 84$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_17",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the vertex from vertex form",
+      "content": "The equation $y = -4.9(x - 9.1)^2 + 10,700$ is already in vertex form $y = a(x - h)^2 + k$. Reading directly: the vertex is at $(9.1, 10,700)$. Since the leading coefficient is $-4.9$ (negative), the parabola opens downward, so the vertex represents the maximum point."
+    },
+    {
+      "title": "Interpret the vertex in the context of the problem",
+      "content": "In this scenario, $x$ represents the number of seconds since the maneuver began, and $y$ represents height in meters. The vertex $(9.1, 10,700)$ tells us that 9.1 seconds after the maneuver started, the plane reached a maximum height of 10,700 meters. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

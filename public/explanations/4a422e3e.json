@@ -1,0 +1,19 @@
+{
+  "questionId": "4a422e3e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test if the sampling is random",
+      "content": "Random sampling requires every person in the population to have an equal chance of selection. Tabitha surveyed only at a playground. Families without children and non-playground visitors are systematically excluded. This violates the requirement for random sampling."
+    },
+    {
+      "title": "Recognize the consequence: selection bias",
+      "content": "When sampling is non-random and location-based, the sample is not representative of the population. Playground families are likely to have more children than the full community. This creates <strong>selection bias</strong>. The sample estimate will be biased\u2014in this case, systematically too high."
+    },
+    {
+      "title": "Find the statement that must be true",
+      "content": "We determined that the sampling method is non-random (flawed) and produces a biased estimate. Choice C states exactly this: <em>The sampling method is flawed and may produce a biased estimate of the mean</em>. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

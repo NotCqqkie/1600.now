@@ -1,0 +1,15 @@
+{
+  "questionId": "369b7bb7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 3 into the function",
+      "content": "Substitute $x = 3$ into $g(x) = \\sqrt{8x+1}$:<br/>$$g(3) = \\sqrt{8(3)+1} = \\sqrt{24+1} = \\sqrt{25}$$"
+    },
+    {
+      "title": "Evaluate the square root",
+      "content": "Simplify:<br/>$$\\sqrt{25} = 5$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_21",
+  "correctAnswer": "-4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the repeated expression",
+      "content": "Notice that $(4 - 7x)$ appears twice. Let $u = 4 - 7x$. Substituting into the original equation:\n$$9 - 8u = 5 - 9u$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Rearrange to isolate $u$:\n$$9 - 8u = 5 - 9u$$\n$$9 - 5 = -9u + 8u$$\n$$4 = -u$$\n$$u = -4$$\nSince $u = 4 - 7x$, the value of $4 - 7x$ is $-4$."
+    }
+  ]
+}

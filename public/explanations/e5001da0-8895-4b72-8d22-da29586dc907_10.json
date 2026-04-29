@@ -1,0 +1,15 @@
+{
+  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total length function",
+      "content": "We start with a chain of length 33 cm. We add x line segments, each with length $(8 - r)$ cm. The total length is: $$f(x) = 33 + x(8 - r)$$"
+    },
+    {
+      "title": "Expand by distributing and match to the choices",
+      "content": "Distribute x to each term in the parentheses: $$f(x) = 33 + 8x - rx$$ Rearranging the terms: $$f(x) = 8x - rx + 33$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

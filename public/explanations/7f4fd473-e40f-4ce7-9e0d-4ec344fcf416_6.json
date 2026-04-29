@@ -1,0 +1,15 @@
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "\u201dWalking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.\u201d This sentence explains why copying one feature from Tokyo\u2014like its population density\u2014cannot be a reliable strategy for increasing walkability elsewhere."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "The passage argues that identifying a reliable way to increase walking is difficult precisely because multiple factors, not a single feature, drive behavior. Answer C states this main purpose directly. A narrows to density alone (which the passage says is insufficient), B frames the issue as actionable improvement (the text only identifies a problem), and D confuses the issue with comparing traffic levels rather than increasing them. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

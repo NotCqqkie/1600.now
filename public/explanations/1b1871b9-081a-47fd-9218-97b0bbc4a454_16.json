@@ -1,0 +1,19 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine terms with a on the left",
+      "content": "Start with $5a = \\frac{4b^2}{a} - 20a$. Add $20a$ to both sides to get $5a + 20a = \\frac{4b^2}{a}$, which simplifies to $25a = \\frac{4b^2}{a}$."
+    },
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides by $a$ to obtain $25a^2 = 4b^2$."
+    },
+    {
+      "title": "Isolate a and take the square root",
+      "content": "Divide both sides by 25:<br/>$$a^2 = \\frac{4b^2}{25}$$<br/>Take the positive square root (since $a > 0$):<br/>$$a = \\sqrt{\\frac{4b^2}{25}} = \\frac{2b}{5}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

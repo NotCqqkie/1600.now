@@ -1,0 +1,16 @@
+{
+  "questionId": "000259aa",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the rate formula",
+      "content": "To find average miles per day, divide total distance by total time:<br/><br/>$$\\frac{2,100 \\text{ miles}}{120 \\text{ days}}$$",
+      "formula": "$$\\text{Average rate} = \\frac{\\text{Total distance}}{\\text{Total time}}$$"
+    },
+    {
+      "title": "Simplify the fraction",
+      "content": "Divide both numerator and denominator to simplify:<br/><br/>$$\\frac{2,100}{120} = \\frac{210}{12} = \\frac{105}{6} = \\frac{35}{2} = 17.5$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "faaf484f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the target percentage",
+      "content": "The question specifies that 88 percent of residents want more bike paths. This is the exact figure we must locate in the table."
+    },
+    {
+      "title": "Find the area with 88 percent support",
+      "content": "South West area shows exactly 88 percent in the table. The other four areas show percentages below 88 percent. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

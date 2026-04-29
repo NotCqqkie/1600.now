@@ -1,0 +1,16 @@
+{
+  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the decay factor",
+      "content": "If the mass decreases by 23%, then 77% of the mass remains after each 11.69-minute period. The decay factor is <strong>0.77</strong>."
+    },
+    {
+      "title": "Build the exponential decay model",
+      "content": "For exponential decay, the exponent $t/T$ represents the number of periods elapsed, where $T$ is the length of one period. <br/>Substituting $M_0 = 100$, $b = 0.77$, and $T = 11.69$:<br/>$$M = 100(0.77)^{t/11.69}$$<br/>This is choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$M = M_0 \\cdot b^{t/T}$$"
+    }
+  ]
+}

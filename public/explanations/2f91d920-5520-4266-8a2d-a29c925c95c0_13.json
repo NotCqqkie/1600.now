@@ -1,0 +1,19 @@
+{
+  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_13",
+  "correctAnswer": "-266",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the transformation",
+      "content": "When a graph is translated up 4 units, every output value increases by 4. This means $g(x) = f(x) + 4$. To find $g(0)$, we need to calculate $f(0) + 4$."
+    },
+    {
+      "title": "Evaluate f(0) using the factored form",
+      "content": "The factored form is efficient here\u2014substitute $x = 0$ directly without expanding:<br/><br/>$$f(0) = (0 - 9)(0 - 6)(0 - 5) = (-9)(-6)(-5)$$<br/><br/>Multiply left to right: $(-9) \\times (-6) = 54$, then $54 \\times (-5) = -270$.<br/><br/>So $f(0) = -270$."
+    },
+    {
+      "title": "Calculate g(0)",
+      "content": "Apply the transformation:<br/><br/>$$g(0) = f(0) + 4 = -270 + 4 = -266$$"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_11",
+  "correctAnswer": "0.038",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the vertex form structure",
+      "content": "The maximum rate of change occurs at population 7,000 with value 0.200. For a quadratic model, the vertex form $r(x) = a(x - h)^2 + k$ directly encodes the vertex $(h, k)$. This is much faster than standard form, which requires solving a system of equations.<br/><br/>With vertex $(7000, 0.200)$:<br/>$$r(x) = a(x - 7000)^2 + 0.200$$"
+    },
+    {
+      "title": "Find the leading coefficient using the point (0, 0)",
+      "content": "Substitute the point where population = 0 and rate of change = 0:<br/>$$0 = a(0 - 7000)^2 + 0.200$$<br/>$$0 = a(7000)^2 + 0.200$$<br/>$$a = -\\frac{0.200}{(7000)^2}$$<br/><br/>The negative coefficient confirms the parabola opens downward, with its maximum at the vertex."
+    },
+    {
+      "title": "Evaluate at population 700 using the distance ratio",
+      "content": "Substitute population = 700:<br/>$$r(700) = -\\frac{0.200}{(7000)^2}(700 - 7000)^2 + 0.200$$<br/>$$= -0.200 \\cdot \\frac{(700 - 7000)^2}{(7000)^2} + 0.200$$<br/><br/>Simplify the ratio of squared distances:<br/>$$\\frac{(700 - 7000)^2}{(7000)^2} = \\left(\\frac{700 - 7000}{7000}\\right)^2 = \\left(\\frac{-6300}{7000}\\right)^2 = (0.9)^2 = 0.81$$<br/><br/>Therefore:<br/>$$r(700) = -0.200 \\times 0.81 + 0.200 = -0.162 + 0.200 = 0.038 \\text{ bacteria per hour}$$"
+    }
+  ]
+}

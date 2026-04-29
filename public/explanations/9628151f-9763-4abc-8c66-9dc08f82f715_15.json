@@ -1,0 +1,15 @@
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_15",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what infinitely many solutions means",
+      "content": "A system has infinitely many solutions when both equations represent the <strong>same line</strong>."
+    },
+    {
+      "title": "Identify the second equation's slope",
+      "content": "Since the equations represent the same line, they have the same slope. The given equation $y = \\frac{2}{9}x + 8$ has slope $\\frac{2}{9}$, so the second equation's slope is also $\\frac{2}{9}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

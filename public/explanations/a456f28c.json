@@ -1,0 +1,15 @@
+{
+  "questionId": "a456f28c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the Vertical Angles Theorem",
+      "content": "When two straight lines intersect at a point, they create four angles. The pairs of angles that are <strong>opposite each other</strong> across the intersection point are called <strong>vertical angles</strong>. A fundamental property: vertical angles are always congruent (equal in measure)."
+    },
+    {
+      "title": "Apply the theorem",
+      "content": "The problem states that angle 1 and angle 2 are vertical angles, with angle 1 measuring $72^\\circ$. Since vertical angles must be congruent, angle 2 has the same measure as angle 1: angle 2 = $72^\\circ$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

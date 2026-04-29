@@ -1,0 +1,15 @@
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage establishes a cause-effect relationship: sleek, streamlined bodies in modern planes lead to greater aerodynamic efficiency. The key signal is the result described in the second sentence \u2014 the sleek design directly explains why modern planes are more aerodynamic."
+    },
+    {
+      "title": "Match the causal transition",
+      "content": "Choice C, 'As a result,' directly ties the streamlined design to increased aerodynamics by signaling causation. The other three either add irrelevant emphasis (A), reverse the expected relationship (B/D), or introduce an illogical contradiction. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

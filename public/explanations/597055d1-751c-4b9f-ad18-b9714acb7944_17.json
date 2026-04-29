@@ -1,0 +1,15 @@
+{
+  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures on each side of the blank",
+      "content": "On the left: the independent clause \u201cdetected a phenomenon occurring in Coma Berenices, 4.7 billion light-years from Earth\u201d is complete but needs what follows. On the right: \u201cthe explosion of a massive star, also known as a supernova, an extremely bright yet transient event that typically results from the collapse of a star's core\u201d is a noun phrase serving as an appositive that explains what the phenomenon is."
+    },
+    {
+      "title": "Apply the rule for connecting an independent clause with an appositive",
+      "content": "A colon introduces an explanation or appositive. Choice D (Earth: the) correctly marks where this explanation of the phenomenon begins. A semicolon (A) requires two independent clauses, not present; a period (C) would awkwardly separate the phenomenon from its explanation; option B adds \u201cit was,\u201d introducing a new clause instead. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

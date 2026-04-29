@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_16",
+  "correctAnswer": "324",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope and equation of line s",
+      "content": "The line $y = 36x + 6$ has slope 36. Since line $s$ is parallel, it has the same slope: 36.<br/><br/>Line $s$ passes through $(0,0)$ with slope 36. Using the slope-intercept form $y = mx + b$:<br/>$$y = 36x + 0 = 36x$$"
+    },
+    {
+      "title": "Evaluate at the point (9, d)",
+      "content": "Since $(9,d)$ lies on line $s$ with equation $y = 36x$, substitute $x = 9$:<br/>$$d = 36(9) = 324$$"
+    }
+  ]
+}

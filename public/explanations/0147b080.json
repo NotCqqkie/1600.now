@@ -1,0 +1,15 @@
+{
+  "questionId": "0147b080",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate el Castillo in the table",
+      "content": "The passage specifies el Castillo was built 1,100 to 1,400 years ago. The table contains only one pyramid with this age range \u2014 el Castillo from Belize."
+    },
+    {
+      "title": "Extract the corresponding height value",
+      "content": "El Castillo's height in the table is 40 meters. The other answer choices (33, 47, 60) are the heights of The Great Pyramid, The Pyramid of Sahure, and The Pyramid of Djoser respectively, and do not apply to el Castillo. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the exposure-ability link",
+      "content": "The conclusion claims that the amount of prior exposure influences the ability to distinguish familiar from unfamiliar languages. Older dogs have had more time to accumulate exposure to their familiar language, so a finding showing they distinguish it more powerfully from unfamiliar languages would support this claim."
+    },
+    {
+      "title": "Find the answer that demonstrates this relationship",
+      "content": "D shows that older dogs display a greater difference in brain activity between familiar and unfamiliar languages, demonstrating that greater exposure strengthens distinction ability. A compares the familiar language only to scrambled noise (not the unfamiliar language), B shows the ability is consistent across all ages but doesn't demonstrate that more exposure strengthens it, and C suggests older dogs distinguish worse. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

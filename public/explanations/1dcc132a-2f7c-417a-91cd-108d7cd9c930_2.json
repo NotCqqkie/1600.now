@@ -1,0 +1,15 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "In the expression $9yz^3 + 6yz + 3yz^3$, we identify terms with identical variable parts. The terms $9yz^3$ and $3yz^3$ both contain $yz^3$, making them like terms. The term $6yz$ contains only $yz$, so it is separate."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the coefficients of the like terms:<br/>$$9yz^3 + 3yz^3 = 12yz^3$$<br/>The complete simplified expression is:<br/>$$12yz^3 + 6yz$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

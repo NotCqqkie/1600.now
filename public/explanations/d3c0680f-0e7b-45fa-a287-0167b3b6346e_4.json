@@ -1,0 +1,15 @@
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The data reveals a stark contrast: 0.20 probability in open-policy countries versus 0.03 in restrictive-policy countries. This decisive difference shows policy environment directly shaped which countries received swap lines."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "<em>\u201cMaterial to\u201d</em> means important or significant to an outcome. The other three choices either reverse the causal direction, imply indirect influence, or deny any connection entirely. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_21",
+  "correctAnswer": "43278",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the radius from the diameter",
+      "content": "The diameter is 33 cm, so the radius is $r = \\frac{33}{2} = 16.5$ cm."
+    },
+    {
+      "title": "Calculate the volume using the sphere formula",
+      "content": "First compute $r^3$:<br/>$$(16.5)^3 = 4,492.125\\text{ cm}^3$$<br/>Substitute into the sphere volume formula with $\\pi = 3.14159$:<br/>$$V = \\frac{4}{3} \\times 3.14159 \\times 4,492.125 \\approx 18,816.55\\text{ cm}^3$$",
+      "formula": "$$V = \\frac{4}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Calculate mass and round to the nearest whole number",
+      "content": "Mass equals density times volume:<br/>$$\\text{mass} = 2.3 \\times 18,816.55 \\approx 43,278.07\\text{ grams}$$<br/>Rounded to the nearest whole number: <strong>43,278 grams</strong>."
+    }
+  ]
+}

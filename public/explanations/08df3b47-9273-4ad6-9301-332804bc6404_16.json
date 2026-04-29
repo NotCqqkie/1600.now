@@ -1,0 +1,15 @@
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the units and set up the conversion",
+      "content": "The rate is 1,650 meters per hour per second, meaning 1,650 m/(h\u00b7s). To convert to ft/s\u00b2, we need: <ul><li>1 meter = 3.28 feet</li><li>1 hour = 3,600 seconds</li></ul>"
+    },
+    {
+      "title": "Apply conversions and calculate",
+      "content": "Multiply by the conversion factors:<br>$$1,650 \\times \\frac{3.28}{3,600} = \\frac{5,412}{3,600} \\approx 1.503 \\text{ ft/s}^2$$<br>This is closest to 1.50. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

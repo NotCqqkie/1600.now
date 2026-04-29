@@ -1,0 +1,15 @@
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's stated goal",
+      "content": "The prompt explicitly states the student wants to specify the shawl's name in Choctaw. Looking at the notes, the Choctaw name for the shawl is <em>anchi</em>."
+    },
+    {
+      "title": "Evaluate which choice provides that specification",
+      "content": "Choice A directly accomplishes the goal by stating the shawl \u201cis called an anchi in Choctaw\u201d. Choices B, C, and D omit the shawl's Choctaw name or include unrelated information. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

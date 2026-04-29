@@ -1,0 +1,20 @@
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find cos R from tan R",
+      "content": "In right triangle $RST$ with $\\angle T = 90\u00b0$ and $\\tan R = \\frac{216}{713}$, we have $\\tan R = \\frac{TS}{RT} = \\frac{216}{713}$. Setting $TS = 216$ and $RT = 713$, the hypotenuse is $$RS = \\sqrt{216^2 + 713^2} = \\sqrt{46656 + 508369} = \\sqrt{555025} = 745$$ Therefore, $$\\cos R = \\frac{RT}{RS} = \\frac{713}{745}$$",
+      "formula": "$$\\cos \\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"
+    },
+    {
+      "title": "Show that angle Z equals angle R",
+      "content": "In triangle $XYZ$, since $X$ lies on line $RS$, $Z$ lies on line $TS$, and $Y$ is positioned with $\\angle XYZ = 90\u00b0$, ray $ZY$ points vertically and ray $ZX$ points along line $RS$ toward $R$. The angle at $Z$ is the angle between these rays, which equals the angle that $RS$ makes with the vertical. In the original triangle $RST$, angle $R$ is $\\angle TRS$\u2014precisely the angle $RS$ makes with the vertical line $RT$. Therefore, $\\angle Z = \\angle R$."
+    },
+    {
+      "title": "Find angle X and compute sin X",
+      "content": "In right triangle $XYZ$: $$\\angle X + \\angle Y + \\angle Z = 180\u00b0$$ Since $\\angle Y = 90\u00b0$ and $\\angle Z = \\angle R$: $$\\angle X = 90\u00b0 - R$$ Therefore: $$\\sin X = \\sin(90\u00b0 - R) = \\cos R = \\frac{713}{745}$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

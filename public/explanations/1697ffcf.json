@@ -1,0 +1,15 @@
+{
+  "questionId": "1697ffcf",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal and factor",
+      "content": "At intersection points, both expressions equal $y$:<br/>$$3x^2 - 14x = x$$<br/>Rearrange to standard form:<br/>$$3x^2 - 15x = 0$$<br/>Factor out $3x$:<br/>$$3x(x - 5) = 0$$<br/>This yields $x = 0$ or $x = 5$."
+    },
+    {
+      "title": "Identify a from the non-zero solution",
+      "content": "We're given that one intersection is $(0, 0)$. The other intersection point is $(a, a)$, which corresponds to $x = 5$ from our factored solutions. Therefore, $a = 5$."
+    }
+  ]
+}

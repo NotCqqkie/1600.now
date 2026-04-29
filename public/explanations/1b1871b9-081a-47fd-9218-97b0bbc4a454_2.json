@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine constant terms on the left",
+      "content": "Add the numbers on the left side of the equation: $25 + 35 = 60$.<br/>The equation becomes $$60 + x = 125$$"
+    },
+    {
+      "title": "Isolate x and solve",
+      "content": "Subtract 60 from both sides:<br/>$$x = 125 - 60 = 65$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

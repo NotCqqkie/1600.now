@@ -1,0 +1,15 @@
+{
+  "questionId": "ec7b0eb8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify relevant totals",
+      "content": "The table shows 415 teens talk on a cell phone daily and 799 teens total."
+    },
+    {
+      "title": "Compute probability and select choice",
+      "content": "Probability = 415/799 = $$\\frac{415}{799}$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

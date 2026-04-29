@@ -1,0 +1,16 @@
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the radian-to-degree conversion factor",
+      "content": "To convert an angle from radians to degrees, multiply by the conversion factor below. Since $\\pi$ radians equals 180\u00b0, we divide 180\u00b0 by $\\pi$ to get our conversion factor.",
+      "formula": "$$\\frac{180\u00b0}{\\pi}$$"
+    },
+    {
+      "title": "Apply the conversion to the given angle",
+      "content": "The angle is $-\\frac{5}{12}\\pi$ radians. Multiply by the conversion factor to convert to degrees: $$-\\frac{5}{12}\\pi \\cdot \\frac{180\u00b0}{\\pi}$$<br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

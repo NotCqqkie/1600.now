@@ -1,0 +1,15 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply 13 by each term",
+      "content": "Using the distributive property, multiply 13 by each term in the parentheses:<br><br>$$13 \\cdot x^2 = 13x^2$$<br>$$13 \\cdot (-7) = -91$$"
+    },
+    {
+      "title": "Combine and match the answer",
+      "content": "Combine the results:<br><br>$$13x^2 - 91$$<br><br>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

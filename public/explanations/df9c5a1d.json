@@ -1,0 +1,15 @@
+{
+  "questionId": "df9c5a1d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The researchers claim that juvenile plants gain an advantage by growing near other plants. Since they established that random distribution would produce only 15% of plants in patches, supporting their claim means showing that actual percentages of juvenile plants in patches exceed this 15% baseline."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice D directly states that for each species, the percentage of juveniles in patches was substantially higher than the 15% expected under random distribution. This demonstrates the claimed proximity advantage by showing juveniles benefit from growing in patches. The other choices either ignore the 15% baseline comparison, name only a single species, or claim percentages fall below the baseline\u2014contradicting the claim of advantage.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

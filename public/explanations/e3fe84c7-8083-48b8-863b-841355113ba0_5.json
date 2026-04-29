@@ -1,0 +1,15 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret 4% annual increase",
+      "content": "When the population increases by 4% each year, the new population is 100% + 4% = 104% of the previous year. As a multiplier, that's 1.04."
+    },
+    {
+      "title": "Build the exponential growth equation",
+      "content": "Starting population in 2008: 5,000. After $x$ years of multiplying by 1.04 each year:<br/><ul><li>Year 1: $5,000 \\times 1.04$</li><li>Year 2: $5,000 \\times (1.04)^2$</li><li>Year $x$: $5,000 \\times (1.04)^x$</li></ul>The general form is $p = 5,000(1.04)^x$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

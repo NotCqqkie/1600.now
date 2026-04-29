@@ -1,0 +1,15 @@
+{
+  "questionId": "9d88a3e3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the motion phases from the graph",
+      "content": "Reading key points from the graph:<br/><ul><li>Time 0\u20135: speed increases from 0 to 7 mph (5 minutes <em>increasing</em>)</li><li>Time 5\u201310: speed stays constant at 7 mph (5 minutes <em>constant</em>)</li><li>Time 10\u201320: speed decreases from 7 to 5 mph (10 minutes <em>decreasing</em>)</li><li>Time 20\u201325: speed increases from 5 to 8 mph (5 minutes <em>increasing</em>)</li><li>Time 25\u201330: speed decreases from 8 to 0 mph (5 minutes <em>decreasing</em>)</li></ul>"
+    },
+    {
+      "title": "Calculate total time increasing vs. decreasing",
+      "content": "Total time <em>increasing</em>: 5 minutes (0\u20135) + 5 minutes (20\u201325) = <strong>10 minutes</strong><br/>Total time <em>decreasing</em>: 10 minutes (10\u201320) + 5 minutes (25\u201330) = <strong>15 minutes</strong><br/>The speed was decreasing for 15 minutes but increasing for only 10 minutes. Statement B claims the speed was increasing for a <em>longer</em> period than it was decreasing\u2014but the opposite is true. That matches choice B \u2014 <strong>B</strong> is not true."
+    }
+  ]
+}

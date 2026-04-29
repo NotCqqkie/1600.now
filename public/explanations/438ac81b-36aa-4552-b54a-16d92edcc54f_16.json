@@ -1,0 +1,15 @@
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main verb position",
+      "content": "The blank must contain the main verb of the clause \u201cShe typically ___ them from sumac and cedar bark.\u201d"
+    },
+    {
+      "title": "Apply the conjugation rule",
+      "content": "The main verb must be conjugated to match its subject. \u201cWeaves\u201d is the present tense form that agrees with the singular subject \u201cShe,\u201d showing what she typically does. Non-conjugated forms like gerunds and infinitives cannot serve as the main verb. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

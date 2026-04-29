@@ -1,0 +1,15 @@
+{
+  "questionId": "40e7a1a9",
+  "correctAnswer": "600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up percent increase formula",
+      "content": "The percent increase from an original value to a new value is given by $$\\frac{\\text{new} - \\text{original}}{\\text{original}} \\times 100\\%.$$ Here the original is 30 and the new is 210."
+    },
+    {
+      "title": "Calculate p",
+      "content": "$$\\frac{210-30}{30} \\times 100 = \\frac{180}{30} \\times 100 = 6 \\times 100 = 600.$$ That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

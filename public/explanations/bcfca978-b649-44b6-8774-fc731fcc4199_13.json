@@ -1,0 +1,15 @@
+{
+  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that <strong>the longer a species has been extinct, the less likely a suitable habitat remains</strong>, so we need the candidate that has been extinct the longest."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice C notes the woolly mammoth went extinct several thousand years before the saber\u2011toothed cat, indicating it has been extinct longer than any other option.<br/>The other three either describe species that died out much more recently (passenger pigeon, Caribbean monk seal) or are younger than the mammoth (saber\u2011toothed cat).<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

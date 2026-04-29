@@ -1,0 +1,15 @@
+{
+  "questionId": "979c6ebc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that both equations represent the same line",
+      "content": "Multiply the first equation by 4:<br/>$$4(7x + 6y) = 4(5)$$<br/>$$28x + 24y = 20$$<br/>This is exactly the second equation, so both describe the same line. Every point on $7x + 6y = 5$ satisfies both equations, giving infinitely many solutions."
+    },
+    {
+      "title": "Parametrize the line by solving for x in terms of y",
+      "content": "Since every point on the line is a solution, solve $7x + 6y = 5$ for $x$:<br/>$$7x = 5 - 6y$$<br/>$$x = -\\frac{6y}{7} + \\frac{5}{7}$$<br/>Setting the parameter $y = r$ gives the point $\\left(-\\frac{6r}{7} + \\frac{5}{7}, r\\right)$ for any real number $r$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

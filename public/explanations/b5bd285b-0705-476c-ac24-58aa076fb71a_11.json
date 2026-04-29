@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what blocks mass production",
+      "content": "Adlhart claims the sponge would be <strong>difficult to mass-produce</strong>. To support this claim directly, we need evidence pointing to a concrete barrier in scaling production\u2014such as a sourcing problem, a process limitation, or a material constraint."
+    },
+    {
+      "title": "Find the material constraint",
+      "content": "Choice D identifies the critical barrier: starch and gelatin, the sponge's main ingredients, are in high demand from the food industry and would be difficult to source in large quantities\u2014a direct obstacle to obtaining sufficient raw materials for mass production. The other choices address pollution sources, shipping logistics, and absorption variability\u2014none bearing on production constraints. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

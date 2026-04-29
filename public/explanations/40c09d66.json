@@ -1,0 +1,19 @@
+{
+  "questionId": "40c09d66",
+  "correctAnswer": "$7 / 6$",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert radicals to exponential form",
+      "content": "Rewrite the numerator and denominator using fractional exponents:<br/>$$\\sqrt{x^5} = x^{5/2}$$<br/>$$\\sqrt[3]{x^4} = x^{4/3}$$<br/>The fraction becomes:<br/>$$\\frac{x^{5/2}}{x^{4/3}}$$"
+    },
+    {
+      "title": "Apply the quotient rule for exponents",
+      "content": "When dividing powers with the same base, subtract the exponents:<br/>$$x^{5/2} \\div x^{4/3} = x^{5/2 - 4/3}$$<br/>To subtract the exponents, use a common denominator of 6:<br/>$$\\frac{5}{2} - \\frac{4}{3} = \\frac{15}{6} - \\frac{8}{6} = \\frac{7}{6}$$"
+    },
+    {
+      "title": "Identify a and b",
+      "content": "We now have $x^{7/6}$, which means:<br/>$$\\frac{a}{b} = \\frac{7}{6}$$"
+    }
+  ]
+}

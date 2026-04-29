@@ -1,0 +1,21 @@
+{
+  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_20",
+  "correctAnswer": "1512",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear scale factor from surface areas",
+      "content": "Since the prisms are similar, surface area scales by the square of the linear scale factor $k$. The ratio of surface areas is:<br/>$$\\frac{\\text{Surface Area of Y}}{\\text{Surface Area of X}} = k^2 = \\frac{1475}{59} = 25$$<br/>Taking the square root: $k = 5$",
+      "formula": "$$\\text{Surface area scales by } k^2$$"
+    },
+    {
+      "title": "Find the volume of X using volume scaling",
+      "content": "Volume scales by the cube of the linear scale factor. Since $k = 5$:<br/>$$\\frac{\\text{Volume of Y}}{\\text{Volume of X}} = k^3 = 5^3 = 125$$<br/>Substituting the known volume of Y:<br/>$$\\frac{1500}{\\text{Volume of X}} = 125$$<br/>$$\\text{Volume of X} = \\frac{1500}{125} = 12 \\text{ cm}^3$$",
+      "formula": "$$\\text{Volume scales by } k^3$$"
+    },
+    {
+      "title": "Sum the volumes",
+      "content": "The total volume is:<br/>$$\\text{Volume of X} + \\text{Volume of Y} = 12 + 1500 = 1512 \\text{ cm}^3$$<br/>The answer is <strong>1512</strong>."
+    }
+  ]
+}

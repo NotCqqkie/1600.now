@@ -1,0 +1,19 @@
+{
+  "questionId": "d0efc1dd",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the condition",
+      "content": "We need to find which value of <em>x</em> is NOT possible given that mean equals median.<br/><br/>The mean is $$\\frac{64 + x}{5}$$<br/>The median is the 3rd value when all five numbers are arranged in order. Testing each choice will determine which one fails this condition."
+    },
+    {
+      "title": "Backsolving \u2014 testing choice A (6)",
+      "content": "When $x = 6$:<br/>Ordered: 6, 14, 15, 17, 18<br/>Median = 15 (the middle value)<br/>$$\\text{Mean} = \\frac{64 + 6}{5} = \\frac{70}{5} = 14$$<br/>Since $15 \\neq 14$, the mean and median are not equal. Choice A does NOT satisfy the condition."
+    },
+    {
+      "title": "Backsolving \u2014 testing choices B, C, and D",
+      "content": "<strong>Choice B ($x = 11$):</strong> Ordered 11, 14, 15, 17, 18 \u2192 median = 15, mean = $\\frac{75}{5} = 15$ \u2713<br/><br/><strong>Choice C ($x = 16$):</strong> Ordered 14, 15, 16, 17, 18 \u2192 median = 16, mean = $\\frac{80}{5} = 16$ \u2713<br/><br/><strong>Choice D ($x = 21$):</strong> Ordered 14, 15, 17, 18, 21 \u2192 median = 17, mean = $\\frac{85}{5} = 17$ \u2713<br/><br/>All three satisfy mean = median. Only choice A fails the required condition. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e3bbde69",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use substitution with the isolated variable",
+      "content": "Since the second equation already gives us $y = 9x + 1$, substitute this expression directly into the first equation:\n$$8x + (9x + 1) = 5$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Combine like terms on the left side:\n$$8x + 9x + 1 = 5$$\n$$17x + 1 = 5$$\nSubtract 1 from both sides:\n$$17x = 4$$\nDivide by 17:\n$$x = \\frac{4}{17}$$\nThat matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

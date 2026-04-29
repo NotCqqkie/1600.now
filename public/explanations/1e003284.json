@@ -1,0 +1,15 @@
+{
+  "questionId": "1e003284",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the x-coordinate from the first equation",
+      "content": "The first equation $x = 49$ directly specifies the x-coordinate of the intersection point."
+    },
+    {
+      "title": "Substitute x = 49 into the second equation to find y",
+      "content": "With $x = 49$, substitute into $y = \\sqrt{x} + 9$:<br/><br/>$$y = \\sqrt{49} + 9 = 7 + 9 = 16$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "74473be4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the discriminant test for no real solutions",
+      "content": "For a quadratic $ax^2 + bx + c = 0$ to have no real solutions, the discriminant must be negative. Looking at all four choices, $b = \\pm 14$, so $b^2 = 196$ for every choice. This means we need $4ac > 196$ to make the discriminant negative.",
+      "formula": "$$\\text{Discriminant} = b^2 - 4ac$$"
+    },
+    {
+      "title": "Eliminate choices with negative c",
+      "content": "Choices A and C both have negative constant terms ($c = -49$), making $4ac \\leq 0$. Since $b^2 = 196 > 0 \\geq 4ac$, the discriminant is positive in both cases\u2014these have real solutions. Focus on B and D, where $c = +49$. For the discriminant to be negative, we need $4ac > 196$, so $4a(49) > 196$, meaning $a > 1$."
+    },
+    {
+      "title": "Compare the remaining choices",
+      "content": "Choice B has $a = 1$, so $4ac = 4(1)(49) = 196$, giving discriminant = $196 - 196 = 0$ (one real solution, not what we want).<br/>Choice D has $a = 5$, so $4ac = 4(5)(49) = 980$, giving discriminant = $196 - 980 = -784 < 0$ (no real solutions). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

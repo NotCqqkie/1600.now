@@ -1,0 +1,15 @@
+{
+  "questionId": "af76771f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The goal explicitly asks to <strong>emphasize a similarity</strong> between the two specimens. From the notes, the key shared fact is that both Sue and Big Mike are members of the genus <em>Tyrannosaurus</em> \u2014 this is the defining similarity that the correct choice must highlight."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice C directly accomplishes the goal by using <strong>both</strong> to state that Sue and Big Mike share the same genus membership (<em>Tyrannosaurus</em>), emphasizing their similarity. A and B mention only one specimen each, and D contrasts their locations with <strong>While</strong> rather than highlighting shared traits.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

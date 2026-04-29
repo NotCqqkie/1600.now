@@ -1,0 +1,15 @@
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the boundary issue",
+      "content": "The sentence attempts to join two independent clauses with a comma: 'the leaves feature veins that provide structural ___' and 'these veins allow the leaves to maintain their size.' This creates a comma splice after 'edges'."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "A period separates two independent clauses when no coordinating conjunction connects them. <strong>Choice A</strong> uses a period after 'support,' ending the first sentence and allowing 'Decreasing in thickness from the center to the edges' to become an introductory participial phrase in the new sentence, properly modifying 'these veins.' Choices B (which creates invalid grammar with 'support decreasing'), C, and D still leave a comma splice between 'edges' and 'these veins allow.' That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

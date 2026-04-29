@@ -1,0 +1,20 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_17",
+  "correctAnswer": "403",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both sides",
+      "content": "Expand the left side: $\\frac{12x+28}{4} = \\frac{12x}{4} + \\frac{28}{4} = 3x + 7$, so it becomes $3x + 7 - \\frac{s}{13}$.<br/><br/>Expand the right side: $r(x-8) = rx - 8r$.<br/><br/>The equation is now:<br/>$$3x + 7 - \\frac{s}{13} = rx - 8r$$"
+    },
+    {
+      "title": "Set conditions for infinitely many solutions",
+      "content": "A linear equation has infinitely many solutions when both sides are identical\u2014the same expression in $x$. Rearrange by moving all terms with $x$ to the left:<br/>$$3x - rx = -8r - 7 + \\frac{s}{13}$$<br/>$$(3 - r)x = -8r - 7 + \\frac{s}{13}$$<br/><br/>For this to be true for all $x$, the coefficient of $x$ must be zero AND the constant on the right must be zero:<div class=\"callout\"><strong>Condition 1:</strong> $3 - r = 0 \\Rightarrow r = 3$<br/><strong>Condition 2:</strong> $-8r - 7 + \\frac{s}{13} = 0$</div>"
+    },
+    {
+      "title": "Substitute and solve for s",
+      "content": "Substitute $r = 3$ into Condition 2:<br/>$$-8(3) - 7 + \\frac{s}{13} = 0$$<br/>$$-24 - 7 + \\frac{s}{13} = 0$$<br/>$$-31 + \\frac{s}{13} = 0$$<br/>$$\\frac{s}{13} = 31$$<br/>$$s = 31 \\times 13 = 403$$<br/><br/>Check: With $s = 403$ and $r = 3$, the left side is $3x + 7 - 31 = 3x - 24$ and the right side is $3(x-8) = 3x - 24$. Both sides are identical, confirming infinitely many solutions.",
+      "formula": "$$s = 403$$"
+    }
+  ]
+}

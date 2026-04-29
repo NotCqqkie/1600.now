@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the causal connection",
+      "content": "The observation raised questions, and then the team conducted an investigation to address those questions. The blank should express what initiated the study."
+    },
+    {
+      "title": "Select the causal relationship",
+      "content": "\u201dPrompted by\u201d expresses this causation\u2014the observation prompted (initiated) the study. The other three either fail to express causation (\u201creleased in,\u201d \u201cacknowledged in\u201d) or contradict the logic (\u201cexcluded by\u201d).<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

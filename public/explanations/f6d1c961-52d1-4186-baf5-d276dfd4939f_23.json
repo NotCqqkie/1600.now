@@ -1,0 +1,15 @@
+{
+  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contradiction between warning and failure",
+      "content": "Engineers warned against multiple track widths, but officials couldn't agree on a single width. This contradiction\u2014between what should happen and what actually happens\u2014is the key signal."
+    },
+    {
+      "title": "Apply the signal to the transition",
+      "content": "Nevertheless works because it signals a contrast: despite the engineers' warning, officials failed to implement a unified system. The other three either wrongly present the sentences as similar (Similarly), reverse causation (For this reason), or treat them as repetition (In other words). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

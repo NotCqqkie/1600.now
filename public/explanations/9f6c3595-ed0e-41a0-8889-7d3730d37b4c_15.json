@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express y from the linear equation",
+      "content": "From the second equation $-x + y = 1$, rearrange to isolate $y$:<br/>$$y = x + 1$$<br/>Now substitute this expression into the first equation."
+    },
+    {
+      "title": "Substitute and solve the resulting quadratic",
+      "content": "Substitute $y = x + 1$ into $x^2 + y = 21$:<br/>$$x^2 + (x + 1) = 21$$<br/>$$x^2 + x + 1 = 21$$<br/>$$x^2 + x - 20 = 0$$<br/>Factor:<br/>$$(x + 5)(x - 4) = 0$$<br/>This yields $x = -5$ or $x = 4$. Since the question asks for a possible value and $-5$ appears in the choices, we have found it. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

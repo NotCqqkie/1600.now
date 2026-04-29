@@ -1,0 +1,15 @@
+{
+  "questionId": "5a5e22b5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the sentence must accomplish",
+      "content": "The student wants to present both LIGO's <strong>aim</strong> (its purpose or goal) and its <strong>methodology</strong> (how it works). From the notes: the aim is to \u201cdetect and analyze gravitational waves,\u201d and the methodology is to use \u201ca pair of massive interferometers that are thousands of miles apart.\u201d"
+    },
+    {
+      "title": "Which choice presents both elements?",
+      "content": "Choice D explicitly states LIGO's aim in its opening phrase\u2014\u201da physics study designed to detect and analyze gravitational waves\u201d\u2014and then presents the methodology\u2014\u201duses a pair of massive interferometers that are thousands of miles apart.\u201d Choices A and B focus on specific outcomes and timing rather than the broader aim and methodology, while C presents methodology without clearly stating the aim. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

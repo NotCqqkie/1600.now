@@ -1,0 +1,15 @@
+{
+  "questionId": "df8caadd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the determining factor",
+      "content": "The passage establishes that extinction duration directly determines the severity of the habitat problem\u2014the longer a species has been extinct, the less likely suitable habitat remains."
+    },
+    {
+      "title": "Find the longest extinction in the table",
+      "content": "The saber-toothed cat became extinct 11,000 years ago, the longest duration among all candidates in the table. The other choices either identify species extinct far more recently (passenger pigeon 1914, Caribbean monk seal 1952) or misstate the table's data about extinction dates (woolly mammoth at 6,400 years, not \u201cseveral thousand years before\u201d the cat's 11,000 years). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

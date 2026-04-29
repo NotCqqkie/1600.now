@@ -1,0 +1,19 @@
+{
+  "questionId": "54d93874",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate Andrew's mean",
+      "content": "Sum Andrew's six measurements: $2.4 + 2.5 + 3.6 + 3.1 + 2.5 + 2.7 = 16.8$ kilograms.<br/>Mean: $\\frac{16.8}{6} = 2.8$ kilograms"
+    },
+    {
+      "title": "Set up Maria's mean equation",
+      "content": "Sum Maria's five known values: $3.1 + 2.7 + 2.9 + 3.3 + 2.8 = 14.8$ kilograms.<br/>Maria's total with $x$: $x + 14.8$<br/>Maria's mean: $\\frac{x + 14.8}{6}$<br/>Given: Maria's mean is 0.1 kg greater than Andrew's mean, so it equals $2.8 + 0.1 = 2.9$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Set the equation: $$\\frac{x + 14.8}{6} = 2.9$$<br/>Multiply both sides by 6: $$x + 14.8 = 17.4$$<br/>Subtract 14.8: $$x = 2.6$$<br/>That is the value of <em>x</em> \u2014 <strong>2.6</strong>"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "967ef685",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common coefficient",
+      "content": "Both terms contain $42a$. Factor it out to simplify:<br/><br/>$$\\frac{42a}{k}+42ak = 42a\\left(\\frac{1}{k} + k\\right)$$"
+    },
+    {
+      "title": "Combine terms in parentheses with common denominator",
+      "content": "To add $\\frac{1}{k}$ and $k$, express $k$ with denominator $k$:<br/><br/>$$\\frac{1}{k} + k = \\frac{1}{k} + \\frac{k^2}{k} = \\frac{1 + k^2}{k}$$"
+    },
+    {
+      "title": "Substitute back and identify the answer",
+      "content": "Replace the simplified parenthetical expression:<br/><br/>$$42a \\cdot \\frac{1 + k^2}{k} = \\frac{42a(1 + k^2)}{k} = \\frac{42a(k^2 + 1)}{k}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

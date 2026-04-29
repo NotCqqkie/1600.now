@@ -1,0 +1,15 @@
+{
+  "questionId": "7f2781fd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the comparison requires",
+      "content": "To compare extinction risks, the answer must present both species and their contrasting risk levels. The notes show <em>C. olivacea</em> has high risk, while <em>C. furcatus</em> has little risk."
+    },
+    {
+      "title": "Find which choice presents this contrast",
+      "content": "Choice A directly states that <em>C. olivacea</em> has a higher risk than <em>C. furcatus</em>. The others either reverse the facts (B), omit the actual risk comparison (C), or describe only one species (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank contains a noun phrase in which <strong>Mark A. Lee</strong> is in apposition to <strong>researcher</strong> \u2014 it identifies which specific researcher led the study. The question tests how to punctuate this appositive."
+    },
+    {
+      "title": "Apply the appositive rule",
+      "content": "When an appositive is restrictive (essential to identify the noun), it requires no commas: <strong>researcher Mark A. Lee</strong> is correct. Choices A and D lack periods after initials, and Choice B misplaces a comma after the name. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

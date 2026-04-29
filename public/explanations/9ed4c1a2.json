@@ -1,0 +1,15 @@
+{
+  "questionId": "9ed4c1a2",
+  "correctAnswer": "13.75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the fraction across the parentheses",
+      "content": "Apply the distributive property:<br/>$$y = \\frac{1}{4}(27x + 15) + 7x = \\frac{27x}{4} + \\frac{15}{4} + 7x$$"
+    },
+    {
+      "title": "Combine the x terms and identify the slope",
+      "content": "Rewrite $7x$ with denominator 4 so we can add it to $\\frac{27x}{4}$:<br/>$$7x = \\frac{28x}{4}$$<br/>Combine the $x$ terms:<br/>$$\\frac{27x}{4} + \\frac{28x}{4} = \\frac{55x}{4}$$<br/>So $y = \\frac{55x}{4} + \\frac{15}{4}$. In slope-intercept form $y = mx + b$, the slope is the coefficient of $x$: <strong>13.75</strong>."
+    }
+  ]
+}

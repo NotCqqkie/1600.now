@@ -1,0 +1,15 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_11",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second equation to match the structure of the first",
+      "content": "Starting with $\\frac{cx}{4y} = 76$, I can factor this expression by separating the constant from the variable ratio:<br/><br/>$$\\frac{cx}{4y} = \\frac{c}{4} \\cdot \\frac{x}{y}$$<br/><br/>This factoring reveals that the second equation contains the same ratio $\\frac{x}{y}$ that appears in the first equation."
+    },
+    {
+      "title": "Substitute the known ratio and solve for c",
+      "content": "From the first equation, I know that $\\frac{x}{y} = 76$. Substituting this into the factored form of the second equation:<br/><br/>$$\\frac{c}{4} \\cdot 76 = 76$$<br/><br/>Dividing both sides by 76:<br/><br/>$$\\frac{c}{4} = 1$$<br/><br/>Multiplying both sides by 4:<br/><br/>$$c = 4$$"
+    }
+  ]
+}

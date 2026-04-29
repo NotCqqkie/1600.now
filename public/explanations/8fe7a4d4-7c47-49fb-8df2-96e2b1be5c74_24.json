@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signal",
+      "content": "The text contrasts a demonstrated success (NASA&rsquo;s 2022 asteroid experiment) with an unproven claim (about primary objects). The blank must signal this <strong>opposition</strong> between known and unknown outcomes."
+    },
+    {
+      "title": "Match the logical shift",
+      "content": "B introduces the necessary contrast, showing doubt about applying the experiment&rsquo;s success to primary objects. C and D continue in the same positive direction, while A adds an irrelevant example. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

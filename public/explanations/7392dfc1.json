@@ -1,0 +1,15 @@
+{
+  "questionId": "7392dfc1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the pattern",
+      "content": "Every term in $4x + 6 = 12$ is even (divisible by 2). To find an equivalent equation, divide all terms by their common factor, 2."
+    },
+    {
+      "title": "Divide through by 2",
+      "content": "Dividing the entire equation by 2:<br/>$$\\frac{4x + 6}{2} = \\frac{12}{2}$$<br/>$$2x + 3 = 6$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

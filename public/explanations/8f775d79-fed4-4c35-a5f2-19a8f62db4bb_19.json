@@ -1,0 +1,15 @@
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine fractions on the right side",
+      "content": "Start with the given equation: $$\\frac{1}{q} = \\frac{1}{p} + \\frac{1}{r} + \\frac{1}{s}$$<br/>To combine the fractions on the right, use the common denominator $prs$:<br/>$$\\frac{1}{q} = \\frac{rs}{prs} + \\frac{ps}{prs} + \\frac{pr}{prs} = \\frac{rs + ps + pr}{prs}$$"
+    },
+    {
+      "title": "Invert both sides to solve for q",
+      "content": "Taking the reciprocal of both sides: $$q = \\frac{prs}{pr + ps + rs}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "97e50fa2",
+  "correctAnswer": "either 2 or 8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the functions equal to find where they intersect",
+      "content": "To find values of $a$ where $f(a) = g(a)$, we set:<br/>$$-\\frac{1}{2}(a-4)^2 + 10 = -a + 10$$<br/>Subtract 10 from both sides, then multiply by \u22122 to clear the fraction:<br/>$$(a-4)^2 = 2a$$",
+      "desmosExpressions": [
+        "f(x) = -\\frac{1}{2}(x-4)^2 + 10",
+        "g(x) = -x + 10"
+      ]
+    },
+    {
+      "title": "Expand and rearrange into standard form",
+      "content": "Expand the left side:<br/>$$a^2 - 8a + 16 = 2a$$<br/>Move all terms to the left:<br/>$$a^2 - 10a + 16 = 0$$"
+    },
+    {
+      "title": "Factor the quadratic to find both solutions",
+      "content": "The quadratic factors as:<br/>$$(a - 2)(a - 8) = 0$$<br/>This gives $a = 2$ or $a = 8$. Since the question asks for one possible value, either answer is correct."
+    }
+  ]
+}

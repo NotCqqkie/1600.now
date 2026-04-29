@@ -1,0 +1,15 @@
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence's subject",
+      "content": "Despite the multiple names appearing early, the subject is <strong>analysis</strong> (singular). The possessive construction \u201cLegal scholars James Melton and Tom Ginsburg's\u201d modifies <em>analysis</em>, which is the noun that determines verb agreement."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "<strong>Identifies</strong> is the only choice that conjugates for singular agreement. The other options \u2014 <em>have identified</em>, <em>are identifying</em>, and <em>identify</em> \u2014 all use plural forms. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "74ce2f05",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive and what follows",
+      "content": "The blank contains the appositive phrase <em>carbon-13 (13C)</em>, which renames <em>a rare carbon isotope</em>, and it is immediately followed by <em>due to the higher 13C levels</em>."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "When an appositive is followed by additional text, it needs a boundary comma after it, and the appositive itself must stay as a single unit. Option D achieves this: <em>carbon-13 (13C)</em>,. Options A and C wrongly place a comma inside the appositive between the term and its abbreviation; Option B lacks the closing comma. This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

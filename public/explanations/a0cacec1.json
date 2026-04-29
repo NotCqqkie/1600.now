@@ -1,0 +1,16 @@
+{
+  "questionId": "a0cacec1",
+  "correctAnswer": "192",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the radian-to-degree conversion formula",
+      "content": "To convert from radians to degrees, multiply by $\\frac{180}{\\pi}$. For this angle:<br/>$$\\frac{16\\pi}{15} \\times \\frac{180}{\\pi}$$",
+      "formula": "$$\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$$"
+    },
+    {
+      "title": "Cancel \u03c0 and compute",
+      "content": "The $\\pi$ cancels from numerator and denominator:<br/>$$\\frac{16 \\times 180}{15}$$<br/>Calculate the product: $16 \\times 180 = 2880$<br/>$$\\frac{2880}{15} = 192$$<br/>The angle measures <strong>192 degrees</strong>."
+    }
+  ]
+}

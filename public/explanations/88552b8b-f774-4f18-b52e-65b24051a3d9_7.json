@@ -1,0 +1,15 @@
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast between elevation and prominence",
+      "content": "The passage points out that elevation is not as good an indicator of how high a mountain appears as prominence, noting the two values can differ significantly."
+    },
+    {
+      "content": "Choice A provides elevation and prominence for Saser Kangri III, showing a high elevation of 7,495 meters paired with a much lower prominence of 850 meters, which illustrates the elevation\u2011prominence contrast. The other choices either compare only prominences, introduce unrelated range details, or give elevation without prominence, so they do not show the elevation\u2011prominence difference. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "title": "Apply the contrast to the choices"
+    }
+  ]
+}

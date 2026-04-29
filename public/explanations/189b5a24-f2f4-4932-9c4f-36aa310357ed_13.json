@@ -1,0 +1,15 @@
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key relationship",
+      "content": "The study found that when both a musician and nonmusician prefer the same recording, the musician's optimal listening volume is higher than the nonmusician's. Since the musician in this case prefers 84.8 decibels for their favorite recording, the nonmusician's optimal volume must be lower."
+    },
+    {
+      "title": "Determine the expected outcome",
+      "content": "At 84.8 decibels, the nonmusician would be listening above their optimal volume, making it less enjoyable than a lower setting\u2014exactly what choice A describes. The other options misapply the pattern to different recordings or reverse the relationship. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9b5b23fc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percentage to a function",
+      "content": "The function equals 201 percent of $x$. Converting: $\\frac{201}{100} = 2.01$. Therefore: $$f(x) = 2.01x$$"
+    },
+    {
+      "title": "Identify the function type and behavior",
+      "content": "The equation $f(x) = 2.01x$ has the form $f(x) = mx + b$ where $m = 2.01$ (the slope) and $b = 0$. This is a <strong>linear function</strong> with positive slope. Since $m = 2.01 > 0$, the function is <strong>increasing</strong> as $x$ increases.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

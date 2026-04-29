@@ -1,0 +1,15 @@
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plant with the highest average power generation",
+      "content": "Comparing the values in the \u201cAverage power generation (MWh)\u201d column\u20142,004; 14,126; 196,220; and 10,693\u2014Hiwassee Dam clearly has the highest at 196,220 MWh."
+    },
+    {
+      "title": "Identify the water source for this plant",
+      "content": "According to the table, Hiwassee Dam is located on the Hiwassee River\u2014making that the water source of the highest-generating plant. The other three choices correspond to plants with lower power generation. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

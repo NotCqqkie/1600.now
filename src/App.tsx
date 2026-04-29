@@ -7,16 +7,19 @@ import { Suspense, lazy, type ReactNode } from "react";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { AuthReturnTracker } from "@/components/AuthReturnTracker";
 import { AccountSync } from "@/components/AccountSync";
+import { EmailVerificationGuard } from "@/components/EmailVerificationGuard";
 import { AnalyticsPageTracker } from "@/components/AnalyticsPageTracker";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/LegalDisclaimer";
 import { AppShell } from "@/components/AppShell";
 import { Seo } from "@/components/Seo";
+import { OnboardingTour } from "@/components/OnboardingTour";
 import "@/lib/personalization";
 
 const Home = lazy(() => import("./pages/Home"));
 const Login = lazy(() => import("./pages/Login"));
 const Signup = lazy(() => import("./pages/Signup"));
+const VerifyEmail = lazy(() => import("./pages/VerifyEmail"));
 const Index = lazy(() => import("./pages/Index"));
 const HardQuestionsIntro = lazy(() => import("./pages/HardQuestionsIntro"));
 const Question = lazy(() => import("./pages/Question"));
@@ -93,6 +96,7 @@ const App = () => (
           <ScrollToTop />
           <AuthReturnTracker />
           <AccountSync />
+          <EmailVerificationGuard />
           <AnalyticsPageTracker />
           <Routes>
             <Route path="/" element={withSuspense(<Home />)} />
@@ -108,6 +112,7 @@ const App = () => (
             <Route path="/modules/:moduleId/review" element={withSuspense(<ModulePracticeReview />)} />
             <Route path="/modules/:moduleId/results" element={withSuspense(<ModulePracticeResults />)} />
             <Route path="/signup" element={withSuspense(<Signup />)} />
+            <Route path="/verify-email" element={withSuspense(<VerifyEmail />)} />
             <Route path="/profile" element={withShellSuspense(<Profile />)} />
             <Route path="/profile/personalization" element={withShellSuspense(<Personalization />)} />
             <Route path="/score-calculator" element={withShellSuspense(<ScoreCalculator />)} />
@@ -184,6 +189,7 @@ const App = () => (
 <Route path="*" element={withShellSuspense(<NotFound />)} />
           </Routes>
           <LegalDisclaimer />
+          <OnboardingTour />
         </BrowserRouter>
       </AuthProvider>
     </TooltipProvider>

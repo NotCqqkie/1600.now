@@ -1,0 +1,16 @@
+{
+  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Margin of error defines the confidence interval",
+      "content": "The margin of error tells us the range around the sample estimate where the true population value is likely to fall. This range extends equally in both directions from the point estimate.",
+      "formula": "$$\\text{Confidence Interval} = [\\text{estimate} - \\text{ME}, \\text{estimate} + \\text{ME}]$$"
+    },
+    {
+      "title": "Calculate the bounds and match to the choice",
+      "content": "Subtract the margin of error from the sample estimate to find the lower bound: $66\\% - 2.91\\% = 63.09\\%$. Add the margin of error to find the upper bound: $66\\% + 2.91\\% = 68.91\\%$. The plausible values for the percent of all registered voters in favor of the new law fall between these bounds. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

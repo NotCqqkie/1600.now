@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its number",
+      "content": "The subject of the sentence is <strong>lost works</strong> (plural noun). The parenthetical phrase \u201cno copy of which exists\u201d is set off by dashes and doesn't change the subject number. The verb must agree with <strong>lost works</strong>."
+    },
+    {
+      "title": "Match the verb to the plural subject",
+      "content": "A plural subject requires a plural verb. <strong>Have become</strong> is the only plural form among the choices, matching the plural subject. B, C, and D are all singular verbs, which violate subject-verb agreement with the plural subject. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

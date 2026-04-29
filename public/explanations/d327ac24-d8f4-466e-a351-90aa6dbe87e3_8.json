@@ -1,0 +1,15 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percentage statement to an equation",
+      "content": "The phrase <em>5% of w is 741.41</em> means:<br/>$$0.05w = 741.41$$"
+    },
+    {
+      "title": "Solve for w by dividing both sides by 0.05",
+      "content": "$$w = \\frac{741.41}{0.05}$$<br/>Dividing by 0.05 is equivalent to multiplying by 20:<br/>$$w = 741.41 \\times 20 = 14,828.2$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

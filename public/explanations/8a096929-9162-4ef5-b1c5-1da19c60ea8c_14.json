@@ -1,0 +1,15 @@
+{
+  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_14",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the rate of water addition per second",
+      "content": "The faucet produces one 0.03-milliliter drop every 3 seconds. To find the rate in milliliters per second, divide the drop size by the time interval:<br/><br/>$$\\text{Rate} = \\frac{0.03 \\text{ mL}}{3 \\text{ seconds}} = 0.01 \\text{ mL per second}$$<br/><br/>After $t$ seconds, the total volume added from the faucet is $0.01t$ milliliters."
+    },
+    {
+      "title": "Write the linear equation for total volume",
+      "content": "The container starts with 24 milliliters. As water drips in, the total volume equals the initial amount plus the amount added over time:<br/><br/>$$v = 24 + 0.01t$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

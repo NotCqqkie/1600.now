@@ -1,0 +1,21 @@
+{
+  "questionId": "6c71f3ec",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total earnings inequality",
+      "content": "Total earnings consist of base salary $$x$$ plus commission $$0.11s$$ (since commission is 11% of sales $$s$$).<br/>The goal is that total earnings be at least $$3x$$ and at most $$4x$$:<br/>$$3x \\le x + 0.11s \\le 4x$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for s",
+      "content": "Subtract $$x$$ from each part:<br/>$$3x - x \\le 0.11s \\le 4x - x$$ simplifies to $$2x \\le 0.11s \\le 3x$$.<br/>Divide by $$0.11$$ (positive, so inequality direction stays):<br/>$$\\frac{2x}{0.11} \\le s \\le \\frac{3x}{0.11}$$<br/>This matches the form in choice B.<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

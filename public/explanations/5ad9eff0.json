@@ -1,0 +1,21 @@
+{
+  "questionId": "5ad9eff0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express length",
+      "content": "$$ \\text{Length} = w + 6 $$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute perimeter",
+      "content": "$$ P = 2(\\text{width} + \\text{length}) = 2(w + (w+6)) = 2(2w+6) = 4w+12 $$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "29e9b28c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the perimeter equation",
+      "content": "The perimeter of a triangle is the sum of all three sides. With the given information:\n\n$$x + y + z = 22$$\n\nSubstitute $x = 9$ and $y = 7$:\n\n$$9 + 7 + z = 22$$\n\n$$16 + z = 22$$"
+    },
+    {
+      "title": "Solve for z",
+      "content": "Subtract 16 from both sides:\n\n$$z = 22 - 16 = 6$$\n\nThat matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

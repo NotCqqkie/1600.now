@@ -1,0 +1,19 @@
+{
+  "questionId": "1b2b20b9",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the radius squared from Circle A's equation",
+      "content": "Circle A is given as $x^2 + (y-6)^2 = 7$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r^2$. Therefore the radius squared is $r^2 = 7$."
+    },
+    {
+      "title": "Apply the horizontal translation to find Circle B's center",
+      "content": "Circle A has center $(0, 6)$ from its equation. Circle B has the same radius but is translated 96 units to the right. A rightward translation adds 96 to the $x$-coordinate of the center: new center is $(0 + 96, 6) = (96, 6)$."
+    },
+    {
+      "title": "Write Circle B's equation and calculate 4a",
+      "content": "With center $(96, 6)$ and radius squared 7, Circle B's equation is $(x - 96)^2 + (y - 6)^2 = 7$. In the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore: $$4a = 4 \\cdot 7 = 28$$ That matches the expected answer \u2014 <strong>28</strong> is correct."
+    }
+  ]
+}

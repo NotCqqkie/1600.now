@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the signal",
+      "content": "The phrase \u201caccomplished far more than simply concealing his authorship\u201d creates an expectation that the next sentence will explain what that accomplishment was. This key signal determines which transition is correct."
+    },
+    {
+      "title": "Apply the signal to find the answer",
+      "content": "\u201dIndeed\u201d signals confirmation and elaboration\u2014fitting where the second sentence explains what the pseudonym's accomplishment was. The others signal contrast or addition, not the clarification needed. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

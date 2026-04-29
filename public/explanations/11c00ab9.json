@@ -1,0 +1,15 @@
+{
+  "questionId": "11c00ab9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the specific data point requested",
+      "content": "The question asks for the impact of invasive mongooses on threatened mammals. Locate the mongooses row and the threatened mammals column in the table."
+    },
+    {
+      "title": "Find the intersection and match to the choices",
+      "content": "Where the mongooses row meets the threatened mammals column, the table shows 0.75. The other choices either don't appear in the table or represent values at different intersections, making them incorrect for this specific question. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

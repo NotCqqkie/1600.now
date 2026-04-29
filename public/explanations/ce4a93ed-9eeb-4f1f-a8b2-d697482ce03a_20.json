@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures at the blank",
+      "content": "The blank separates two independent clauses: the first defines the Nobel Prize criteria (subject: prize, verb: <em>is given</em>), and the second provides a 2004 example (subject: judges, verb: <em>recognized</em>)."
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "A semicolon joins two independent clauses within a single sentence, with the closing quotation mark preceding it per American English conventions. Choice D correctly applies this rule, yielding \u201cdirection\u201d; in 2004, for instance... The other options either omit a connector (A), create a comma splice (C), or use improper punctuation (B). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

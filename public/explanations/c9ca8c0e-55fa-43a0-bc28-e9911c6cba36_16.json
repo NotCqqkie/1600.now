@@ -1,0 +1,15 @@
+{
+  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun and what follows it",
+      "content": "The word <strong>fungus</strong> names the organism. The scientific name <strong>Hydnum albidum</strong> immediately follows to identify which fungus. After that comes a comma-enclosed phrase, <strong>commonly referred to as white hedgehog</strong>, that adds extra information."
+    },
+    {
+      "title": "Apply punctuation for identifying names",
+      "content": "When a specific name directly identifies which noun you mean, no punctuation separates them\u2014the scientific name <strong>Hydnum albidum</strong> identifies which fungus, so no punctuation should follow <strong>fungus</strong>. A period ends the sentence early, a colon introduces lists rather than identifying names, and a comma over-punctuates this identifying relationship. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

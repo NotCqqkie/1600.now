@@ -1,0 +1,15 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize slope-intercept form",
+      "content": "The equation $y=\\frac{9}{17}x$ is in slope-intercept form $y = mx + b$, where the slope is the coefficient of $x$."
+    },
+    {
+      "title": "Identify the slope",
+      "content": "Reading the coefficient of $x$ from the equation: the slope is $\\frac{9}{17}$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

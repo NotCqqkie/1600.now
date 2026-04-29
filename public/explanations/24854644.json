@@ -1,0 +1,15 @@
+{
+  "questionId": "24854644",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the slope from the parallel line",
+      "content": "Parallel lines have identical slopes. The given line $y = 7x + 4$ has slope $m = 7$, so our line must also have slope 7."
+    },
+    {
+      "title": "Find the y-intercept using the given point",
+      "content": "Our line has the form $y = 7x + b$. Since it passes through $(0, 5)$, substitute into this equation: $$5 = 7(0) + b$$ $$b = 5$$ The equation is $y = 7x + 5$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

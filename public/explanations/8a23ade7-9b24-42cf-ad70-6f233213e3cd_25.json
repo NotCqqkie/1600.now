@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the core similarity between the discoveries",
+      "content": "The key signal is that both discoveries reveal DNA mobility\u2014McClintock's mobile DNA segments move within a genome, and Lederberg's phage DNA moves from virus into a host cell. Any meaningful comparison must highlight this shared element of DNA movement."
+    },
+    {
+      "title": "Choose the answer that captures this similarity accurately",
+      "content": "Choice A correctly compares the discoveries through \u201cLike...also,\u201d accurately describing McClintock's moving DNA segments and showing Lederberg's phage DNA incorporation. The other three either reverse the discoveries, conflate them, or misattribute work to the wrong scientist. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

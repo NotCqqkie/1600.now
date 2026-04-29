@@ -1,0 +1,15 @@
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core challenge",
+      "content": "The passage emphasizes a central problem: when multiple substrates contain similar features or grammar, determining which substrate contributed a particular word or feature to the creole becomes difficult or impossible to do."
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "Option D shows this exact scenario: Hawaiian Pidgin's verb <strong>\u201cste\u201d</strong> has comparable usage to verbs from three different substrates (\u014clelo Hawai'i, Portuguese, and Spanish), making definitive attribution impossible. The other choices either resolve the attribution problem through confirmation (A), present an already-credited feature despite overlapping sources (B), or address speech variation unrelated to substrate origins (C). That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

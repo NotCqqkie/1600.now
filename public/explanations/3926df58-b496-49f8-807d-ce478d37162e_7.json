@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the passage's defining claim",
+      "content": "The passage opens by asserting that women like Dorothy T. Blum made important early contributions to cryptology, and its closing emphasizes that these early contributions enabled later women to enter the field. The passage's defining signal is women's progressive role in shaping cryptology."
+    },
+    {
+      "title": "Apply the claim to the answer",
+      "content": "Choice B expresses exactly what the passage emphasizes: women have made contributions to cryptology, as shown through Blum and Baginski. A treats the definition of cryptology as the main point. C falsely claims the two women collaborated. D advocates for educational changes the passage doesn't propose. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

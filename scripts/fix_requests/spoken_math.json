@@ -1,0 +1,158 @@
+[
+  {
+    "id": "06fc1726",
+    "url": "/bank/math/338?bankType=unofficial",
+    "issues": [
+      "spoken_math"
+    ],
+    "note": "If <em> f</em> is the function defined by f of x equals, the fraction with",
+    "question": {
+      "id": "06fc1726",
+      "type": "multiple-choice",
+      "text": "If <em> f</em> is the function defined by f of x equals, the fraction with numerator 2 x minus 1, and denominator 3, what is the value of $f(5)$?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. If <em> f of x, equals the fraction with numerator 2 x minus 1, and denominator 3</em>, then f of 5, equals the fraction with numerator 2 times 5, minus 1, and denominator 3, which equals the fraction with numerator 10 minus 1, and denominator 3, which equals the fraction 9 over 3, which equals 3.\nChoice A is incorrect and may result from not multiplying <em>x</em> by 2 in the numerator. Choice B is incorrect and may result from dividing 2<em>x</em> by 3 and then subtracting 1. Choice D is incorrect and may result from evaluating only the numerator 2<em>x </em>\u2013 1.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$\\frac{4}{3}$",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{7}{3}$",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "3",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "9",
+          "image": null
+        }
+      ],
+      "section_idx": 338,
+      "url": "/bank/math/338?bankType=unofficial"
+    }
+  },
+  {
+    "id": "023c0a8d",
+    "url": "/bank/math/772?bankType=unofficial",
+    "issues": [
+      "spoken_math"
+    ],
+    "note": "For the function <em>f</em>, if f of open parenthesis, 3 x, close parenthesis, e",
+    "question": {
+      "id": "023c0a8d",
+      "type": "multiple-choice",
+      "text": "For the function <em>f</em>, if f of open parenthesis, 3 x, close parenthesis, equals x minus 6 for all values of <em>x</em>, what is the value of $f(6)$?",
+      "correctAnswer": "B",
+      "rationale": "Choice B is correct. It\u2019s given that f of 3 x, equals x minus 6 for all values of <em>x</em>. If $3x = 6$, then f of 3 x will equal f of 6. Dividing both sides of $3x = 6$ by 3 gives $x = 2$. Therefore, substituting 2 for <em>x</em> in the given equation yields f of, open parenthesis, 3 times 2, close parenthesis, equals 2 minus 6, which can be rewritten as f of 6, equals negative 4.\nChoice A is incorrect. This is the value of the constant in the given equation for <em>f</em>. Choice C is incorrect and may result from substituting $x = 6$, rather than $x = 2$, into the given equation. Choice D is incorrect. This is the value of <em>x</em> that yields f of 6 for the left-hand side of the given equation; it\u2019s not the value of f of 6.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-6$",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "$-4$",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "0",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "2",
+          "image": null
+        }
+      ],
+      "section_idx": 772,
+      "url": "/bank/math/772?bankType=unofficial"
+    }
+  },
+  {
+    "id": "e117d3b8",
+    "url": "/bank/math/1659?bankType=unofficial",
+    "issues": [
+      "spoken_math"
+    ],
+    "note": "4 spoken math terms",
+    "question": {
+      "id": "e117d3b8",
+      "type": "multiple-choice",
+      "text": "If <em>a</em> and <em>c</em> are positive numbers, which of the following is equivalent to the square root of, open parenthesis, a plus c, close parenthesis, cubed, end root, times, $\\sqrt{a plus c}$?",
+      "correctAnswer": "C",
+      "rationale": "Choice C is correct. Using the property that the square root of x, end root, times the square root of y, end root, equals the square root of x y, end root for positive numbers <em>x</em> and <em>y</em>, with <em>x</em> = (<em>a </em>+<em> c</em>)<sup>3</sup> and <em>y </em>= <em>a</em> + <em>c</em>, it follows that the square root of, open parenthesis, a, plus c, close parenthesis, cubed, end root, times, the square root of a, plus c, end root, equals the square root of, open parenthesis a, plus c, end parenthesis to the power 4, end root. By rewriting (<em>a</em> + <em>c</em>)<sup>4</sup> as ((<em>a</em> + <em>c</em>)<sup>2</sup>)<sup>2</sup>, it is possible to simplify the square root expression as follows: the square root of, open outer parenthesis, open inner parenthesis, a, plus c, close inner parenthesis, squared, close outer parenthesis, squared, end root, equals, open parenthesis, a, plus c, close parenthesis, squared, which equals a, squared, plus 2 a, c, plus c squared.\nChoice A is incorrect and may be the result of the square root of, open parenthesis, a, plus c, close parenthesis, cubed, end root, divided by the square root of, a, plus c, end root. Choice B is incorrect and may be the result of incorrectly rewriting (<em>a </em>+ <em>c</em>)<sup>2</sup> as <em>a</em><sup>2</sup> + <em>c</em><sup>2</sup>. Choice D is incorrect and may be the result of incorrectly applying properties of exponents.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$a + c$",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "$a^2 + c^2$",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "$a^2 + 2a c + c^2$",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "$a^2 \\times c^2$",
+          "image": null
+        }
+      ],
+      "section_idx": 1659,
+      "url": "/bank/math/1659?bankType=unofficial"
+    }
+  },
+  {
+    "id": "1a722d7d",
+    "url": "/bank/math/1741?bankType=unofficial",
+    "issues": [
+      "spoken_math"
+    ],
+    "note": "Question text uses spoken/narrative form instead of mathematical symbols",
+    "question": {
+      "id": "1a722d7d",
+      "type": "multiple-choice",
+      "text": "Let the function <em>p</em> be defined as p of x equals, the fraction with numerator, open parenthesis, x minus c, close parenthesis, squared, plus, 160, and denominator, 2 c, end fraction, where <em>c</em> is a constant. If p of c equals, 10, what is the value of $p(12)$?",
+      "correctAnswer": "D",
+      "rationale": "Choice D is correct. The value of <em>p</em>(12) depends on the value of the constant <em>c</em>, so the value of <em>c</em> must first be determined. It is given that <em>p</em>(<em>c</em>) = 10. Based on the definition of <em>p</em>, it follows that:\np of c equals, the fraction with numerator open parenthesis, c minus c, close parenthesis, squared, plus 160, and denominator 2 c, end fraction, which equals 10\nthe fraction 160 over 2 c, end fraction, equals 10\n$2c = 16$\n$c = 8$\nThis means that p of x equals, the fraction with numerator open parenthesis, x minus 8, close parenthesis, squared, plus 160, and denominator 16 for all values of <em>x</em>. Therefore:\np of 12 equals, the fraction with numerator open parenthesis, 12 minus 8, close parenthesis, squared, plus 160, and denominator 16\nwhich equals the fraction with numerator 16 plus 160, and denominator 16\nwhich equals 11\nChoice A is incorrect. It is the value of <em>p</em>(8), not <em>p</em>(12). Choices B and C are incorrect. If one of these values were correct, then<em> x</em> = 12 and the selected value of <em>p</em>(12) could be substituted into the equation to solve for <em>c</em>. However, the values of <em>c</em> that result from choices B and C each result in <em>p</em>(<em>c</em>) < 10.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10.00",
+          "image": null
+        },
+        {
+          "id": "B",
+          "text": "10.25",
+          "image": null
+        },
+        {
+          "id": "C",
+          "text": "10.75",
+          "image": null
+        },
+        {
+          "id": "D",
+          "text": "11.00",
+          "image": null
+        }
+      ],
+      "section_idx": 1741,
+      "url": "/bank/math/1741?bankType=unofficial"
+    }
+  }
+]

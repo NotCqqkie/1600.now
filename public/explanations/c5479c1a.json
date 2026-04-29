@@ -1,0 +1,15 @@
+{
+  "questionId": "c5479c1a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "Let $x$ be the number of 5-pound boxes. The total weight is the sum of weights from both types of boxes:<br/>$$5x + 10(13) = 220$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Simplify and isolate $x$:<br/>$$5x + 130 = 220$$<br/>$$5x = 90$$<br/>$$x = 18$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

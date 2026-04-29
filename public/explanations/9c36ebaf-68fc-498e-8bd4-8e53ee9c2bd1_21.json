@@ -1,0 +1,19 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify horizontal asymptote from negative x behavior",
+      "content": "The scatterplot shows points clustering near $y \u2248 22$ for negative x values (around $x = \u22124$ to $\u22121$), with relatively flat behavior. This indicates a <strong>horizontal asymptote</strong>. The form $y = a(b)^{x} + c$ has asymptote at $y = c$, while $y = a(b)^{x}$ has asymptote at $y = 0$. Since the data approaches ~22, not 0, <strong>choice A is eliminated</strong>."
+    },
+    {
+      "title": "Test the y-intercept to narrow remaining choices",
+      "content": "At $x = 0$, every exponential equals 1, so the y-intercept is determined solely by the constant term. The scatterplot shows the point at $(0, \u224825)$:<br/><br/>Choice B: $y = 24(1) + 18 = 42$ \u2717 (too high)<br/>Choice C: $y = (1) + 23 = 24$ \u2713 (close)<br/>Choice D: $y = 6(1) + 18 = 24$ \u2713 (close)<br/><br/><strong>Choice B is eliminated.</strong>"
+    },
+    {
+      "title": "Compare growth rates at x = 3",
+      "content": "At $x = 3$, the scatterplot shows a point near $y \u2248 42$. Calculate each remaining choice:<br/><br/>Choice C: $y = (1.55)^{3} + 23 = 3.72 + 23 \u2248 26.7$ \u2717 (growth too weak)<br/><br/>Choice D: $y = 6(1.55)^{3} + 18 = 6(3.72) + 18 \u2248 40.3$ \u2713 (matches data)<br/><br/>Choice D's exponential growth matches the data much better. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

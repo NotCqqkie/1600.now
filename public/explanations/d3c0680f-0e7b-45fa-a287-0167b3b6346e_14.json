@@ -1,0 +1,15 @@
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical constraint",
+      "content": "The passage establishes that inefficient redox reactions bottleneck electron transfer in MFCs, limiting power output. Adding silver (a highly conductive material) more than doubles the output. The researchers' hypothesis must explain how conductivity overcomes this bottleneck."
+    },
+    {
+      "title": "Connect conductivity to the constraint",
+      "content": "Since silver conducts electricity efficiently, the logical hypothesis is that it provides a bypass around the inefficient redox reactions\u2014allowing electrons to transfer directly to the electrode. The other three misidentify the problem (A and C focus on electron quantity or biofilm density) or lack logic (B's sequence is backwards).<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

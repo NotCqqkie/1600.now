@@ -1,0 +1,15 @@
+{
+  "questionId": "b988eeec",
+  "correctAnswer": "-12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find h(x) by combining f(x) and g(x)",
+      "content": "Add the two functions:<br/>$$h(x) = f(x) + g(x) = \\left(\\frac{1}{4}x - 9\\right) + \\left(\\frac{3}{4}x + 21\\right)$$<br/>Combine like terms:<br/>$$h(x) = \\frac{1}{4}x + \\frac{3}{4}x - 9 + 21 = x + 12$$"
+    },
+    {
+      "title": "Set h(x) = 0 and solve",
+      "content": "The x-intercept is where $y = 0$:<br/>$$x + 12 = 0$$<br/>$$x = -12$$"
+    }
+  ]
+}

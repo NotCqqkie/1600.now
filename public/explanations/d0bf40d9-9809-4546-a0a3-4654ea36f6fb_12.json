@@ -1,0 +1,16 @@
+{
+  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_12",
+  "correctAnswer": "16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the maximum and minimum values",
+      "content": "In the list 17, 4, 20, 17, 18, 6, the maximum value is 20 and the minimum value is 4."
+    },
+    {
+      "title": "Calculate the range",
+      "content": "Subtract the minimum from the maximum: $$20 - 4 = 16$$",
+      "formula": "$$\\text{Range} = \\text{Maximum} - \\text{Minimum}$$"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "99ea3715",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find original y-intercept",
+      "content": "Set $$x=0$$ in $$27x+33y=297$$ to get $$33y=297$$.<br/>Solve: $$y=\\frac{297}{33}=9$$.<br/>So the original y\u2011intercept is $$(0,9)$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Apply downward shift",
+      "content": "Shifting the graph down 5 units subtracts 5 from every y\u2011coordinate.<br/>New y\u2011intercept: $$9-5=4$$.<br/>Thus the shifted graph\u2019s y\u2011intercept is $$(0,4)$$ That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

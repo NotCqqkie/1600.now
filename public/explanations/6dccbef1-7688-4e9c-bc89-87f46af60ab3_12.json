@@ -1,0 +1,19 @@
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope using the given point and y-intercept",
+      "content": "The line has y-intercept $(0, -16)$, so its equation is $y = mx - 16$. Using the point $(-12, 44)$ from the table:\n\n$$44 = m(-12) - 16$$\n\n$$60 = -12m$$\n\n$$m = -5$$"
+    },
+    {
+      "title": "Find a and b using the equation y = -5x - 16",
+      "content": "From the table, when $y = 14$:\n\n$$14 = -5a - 16$$\n\n$$30 = -5a$$\n\n$$a = -6$$\n\nWhen $x = 2$:\n\n$$b = -5(2) - 16 = -26$$"
+    },
+    {
+      "title": "Calculate a + b",
+      "content": "$$a + b = (-6) + (-26) = -32$$\n\nThat matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

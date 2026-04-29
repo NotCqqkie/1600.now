@@ -1,0 +1,15 @@
+{
+  "questionId": "5e4e082c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the timing dispute",
+      "content": "The decisive signal is when the Mo increase occurred. Anbar et al. conclude the Mo spike at 2.5 Ga reflects an atmospheric oxygen increase at that same time. Slotznick et al.'s key finding is that the volcanic debris underwent oxidative weathering <em>\u201clong after debris deposition,\u201d</em> so the Mo increase could come from much later chemical activity, not from 2.5 Ga."
+    },
+    {
+      "title": "Match the timing to the choices",
+      "content": "Choice B asks if the Mo increase is <em>\u201cindicative of an increase in atmospheric oxygen dating to the same time\u201d</em> (2.5 Ga). Anbar et al. would answer yes\u2014they tie the O2 surge directly to 2.5 Ga based on the Mo timing\u2014while Slotznick et al. would answer no because the Mo could result from weathering occurring much later. Choices A, C, and D test either a mechanism both teams agree on (oxidative weathering) or a detail neither disputes (the Mo increase itself). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

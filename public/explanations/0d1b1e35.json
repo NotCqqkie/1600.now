@@ -1,0 +1,15 @@
+{
+  "questionId": "0d1b1e35",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate calcium from ice cream",
+      "content": "There are 4 cups of ice cream, each containing 276 mg of calcium. Total calcium from ice cream:<br/>$$4 \\times 276 = 1,104 \\text{ mg}$$"
+    },
+    {
+      "title": "Find calcium per banana",
+      "content": "The batch contains 1,114 mg total. Calcium from the 2 bananas is:<br/>$$1,114 - 1,104 = 10 \\text{ mg}$$<br/>Calcium in 1 banana:<br/>$$\\frac{10}{2} = 5 \\text{ mg}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause structure and what's needed",
+      "content": "After the blank is the phrase \u201ca 'power wall' in which more heat was produced than could be efficiently dissipated led developers to invent the dual-core chip in the early 2000s.\u201d This sentence contains the verb \u201cled,\u201d which is the main verb of an independent clause. An independent clause requires a grammatical subject."
+    },
+    {
+      "title": "Determine which choice provides the required subject",
+      "content": "A gerund phrase can serve as the subject of an independent clause. Option A provides the gerund phrase \u201cHitting a 'power wall'\u2026\u201d as the subject for \u201cled.\u201d Options B, C, and D each fail to provide correct grammar\u2014B creates a dependent clause without a proper main clause, C creates two independent clauses without proper joining, and D leaves the verb \u201cled\u201d without a subject. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "cee5b352",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract slope and y-intercept from the problem",
+      "content": "This describes a linear relationship. In the form $y = mx + b$:<br/><ul><li>At birth ($x = 0$), length is 162 cm, so the y-intercept is $b = 162$</li><li>The whale grows 4.8 cm per month, so the slope is $m = 4.8$</li></ul>",
+      "formula": "$$y = mx + b$$"
+    },
+    {
+      "title": "Write the equation and match to choices",
+      "content": "With $m = 4.8$ and $b = 162$:<br/>$$y = 4.8x + 162$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

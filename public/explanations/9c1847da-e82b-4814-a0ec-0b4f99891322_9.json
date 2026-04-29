@@ -1,0 +1,15 @@
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving \u2014 testing choice B",
+      "content": "Backsolving \u2014 testing choice B (-x^9 -13x -6):<br/>Compute the given expression: $$(6x^{3}-6x+4)-(7x^{2}+7x-2) = 6x^{3}-7x^{2}-13x+6$$.<br/>Choice B is $$-x^{9}-13x-6$$; it includes an $$x^{9}$$ term, whereas the simplified expression has highest degree 3, so the two cannot be identical.<br/>Fails."
+    },
+    {
+      "title": "Testing choice C",
+      "content": "Testing choice C (-7x^2+6x^3-13x+6):<br/>Distribute the minus sign and combine like terms: $$(6x^{3}-6x+4)-(7x^{2}+7x-2) = 6x^{3}-7x^{2}-13x+6$$.<br/>Reordering terms gives $$-7x^{2}+6x^{3}-13x+6$$, which is exactly choice C.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

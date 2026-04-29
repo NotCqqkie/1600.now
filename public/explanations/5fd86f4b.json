@@ -1,0 +1,15 @@
+{
+  "questionId": "5fd86f4b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the grammatical subject",
+      "content": "The subject is \u201ceach one of a ghazal's couplets,\u201d where \u201ceach one\u201d is the head noun phrase. The prepositional phrase \u201cof a ghazal's couplets\u201d does not change the subject's number\u2014it remains singular."
+    },
+    {
+      "title": "Match the verb to the subject's number",
+      "content": "Subject-verb agreement requires a singular subject to take a singular verb. \u201cIs\u201d is singular. The other choices are non-singular forms that violate this rule. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

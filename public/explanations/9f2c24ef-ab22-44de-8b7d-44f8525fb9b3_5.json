@@ -1,0 +1,15 @@
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line",
+      "content": "The horizontal line at $y = 33$ separates shaded from unshaded regions. Since it's horizontal, the inequality involves only the variable $y$, narrowing the choices to either $y \\geq 33$ or $y \\leq 33$."
+    },
+    {
+      "title": "Determine which side is shaded",
+      "content": "The shaded (gray) region extends above the horizontal line, meaning all points in the shaded area have $y$-coordinates greater than or equal to 33. Therefore, the inequality is $y \\geq 33$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

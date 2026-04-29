@@ -1,0 +1,15 @@
+{
+  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate 8x",
+      "content": "The coefficients of $8x$ are $+5$ and $-5$, which are opposites. Adding the equations eliminates this variable:<br/>$$[5(8x) + 4(6y)] + [-5(8x) + 4(6y)] = 12 + 12$$<br/>$$8(6y) = 24$$<br/>$$6y = 3$$"
+    },
+    {
+      "title": "Substitute and calculate 8x + 6y",
+      "content": "Substitute $6y = 3$ into the first equation to find $8x$:<br/>$$5(8x) + 4(3) = 12$$<br/>$$5(8x) = 0$$<br/>$$8x = 0$$<br/>Now compute the sum:<br/>$$8x + 6y = 0 + 3 = 3$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "5bf5136d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle inequality for the lower bound",
+      "content": "The third side must be longer than the difference of the two known sides: $$|12-6| < x$$.<br/>Since $$|12-6| = 6$$, we get $$6 < x$$.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Apply the triangle inequality for the upper bound and combine",
+      "content": "The third side must be shorter than the sum of the two known sides: $$x < 12+6$$.<br/>Thus $$x < 18$$.<br/>Combining both inequalities gives $$6 < x < 18$$.<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

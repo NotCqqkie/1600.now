@@ -1,0 +1,11 @@
+{
+  "questionId": "80f1f3a9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the bar graph for the color with frequency 70",
+      "content": "Reading the bar graph directly: the y-axis shows frequency, and we locate the bar that reaches 70. The Green bar reaches exactly 70 on the y-axis. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

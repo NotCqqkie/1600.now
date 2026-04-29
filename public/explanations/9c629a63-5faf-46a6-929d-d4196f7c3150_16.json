@@ -1,0 +1,15 @@
+{
+  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_16",
+  "correctAnswer": "70",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Take the square root of both sides",
+      "content": "From $(x - 35)^2 = 1$, take the square root of both sides to eliminate the squared expression:<br/>$$x - 35 = \\pm 1$$"
+    },
+    {
+      "title": "Solve both equations and sum the solutions",
+      "content": "From $x - 35 = 1$, we get $x = 36$.<br/>From $x - 35 = -1$, we get $x = 34$.<br/>The sum is $36 + 34 = 70$."
+    }
+  ]
+}

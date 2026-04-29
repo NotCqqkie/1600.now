@@ -1,0 +1,15 @@
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what life stages are present at the garden",
+      "content": "The passage observes 6,000 M. robustus individuals at the Octopus Garden: \u201cadults, hatchlings, and eggs.\u201d The key detail: \u201cno juveniles were present.\u201d"
+    },
+    {
+      "title": "Match this pattern to the answer choices",
+      "content": "Choice D states M. robustus \u201cleave the Octopus Garden upon reaching an intermediary stage of development\u201d\u2014meaning they depart before or upon reaching juvenility, the phase between hatchling and adult. This matches the data: juveniles are absent while hatchlings and adults are present, so they must exit during the juvenile stage. Choices A, B, and C describe observations unsupported by the text: population stability despite temperature changes in A, a feeding ground in B, and egg-size comparisons in C. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

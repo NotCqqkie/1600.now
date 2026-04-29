@@ -1,0 +1,15 @@
+{
+  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the independent clauses on each side of the blank",
+      "content": "The blank sits between two independent clauses: one ending with \u201c...international photography festival in\u201d and another beginning with \u201cthe exhibited photographs, with their vivid pastel colors, overexposed tones, and mirror like symmetry, captivated audiences.\u201d"
+    },
+    {
+      "title": "Apply the rule for joining independent clauses",
+      "content": "A semicolon separates two independent clauses; commas set off parenthetical phrases. Here, \u201cfor example\u201d is parenthetical (clarifying that Italy is one example location), and the correct pattern is: (clause, parenthetical;) second clause. <br/>Choice A places the comma before \u201cfor example\u201d and the semicolon after it, exactly matching this pattern. <br/>Choices B and D use only a comma between the clauses (comma splice), while choice C places the semicolon immediately after Italy, making \u201cfor example,\u201d a transitional phrase introducing the second clause rather than a parenthetical clarifying the location. <br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

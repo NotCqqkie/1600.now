@@ -1,0 +1,15 @@
+{
+  "questionId": "3a9d60b2",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "First, notice that both terms contain the same absolute\u2011value expression $|4-x|$. Add the coefficients: $$2|4-x|+3|4-x| = (2+3)|4-x| = 5|4-x|.$$ Then set this equal to 25: $$5|4-x| = 25.$$ Divide both sides by 5 to isolate the absolute value: $$|4-x| = 5.$$"
+    },
+    {
+      "title": "Solve the absolute\u2011value equation",
+      "content": "The equation $|4-x|=5$ means $4-x=5$ or $4-x=-5$. Solve each: <br/> $$4-x=5 \\Rightarrow\\ -x = 1 \\Rightarrow\\ x = -1$$ <br/> $$4-x=-5 \\Rightarrow\\ -x = -9 \\Rightarrow\\ x = 9.$$ The positive solution is $x=9$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "cf0ae57a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate x = 1.2 AU on the scatterplot",
+      "content": "The line of best fit on the scatterplot allows us to predict the density for any given distance. To find the predicted density at 1.2 AU, first locate 1.2 on the horizontal axis labeled <em>Distance from the Sun (AU)</em>."
+    },
+    {
+      "title": "Trace to the line and read the density",
+      "content": "From x = 1.2, trace vertically up to where your path intersects the line of best fit. At that intersection, read the corresponding y-value on the vertical axis labeled <em>Density (g/cm\u00b3)</em>. The density is approximately 4.6 g/cm\u00b3. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

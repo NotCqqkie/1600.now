@@ -1,0 +1,15 @@
+{
+  "questionId": "742fd8ba",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the decisive comparison",
+      "content": "The hypothesis predicts kanamycin alters metal uptake. Because the graph compares two conditions\u2014plants with and without kanamycin\u2014the supporting evidence must show a difference in metal content between them."
+    },
+    {
+      "title": "Match the data pattern",
+      "content": "From the graph, kanamycin-exposed plants contain lower levels of both iron (\u2248220 ppm vs. \u2248620 ppm in controls) and zinc (\u2248300 ppm vs. \u2248390 ppm in controls), demonstrating that kanamycin reduced metal uptake.<br/><br/>Choices A and C misread the graph values; choice B is factually true but shows no difference between conditions and thus doesn't support altered uptake.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

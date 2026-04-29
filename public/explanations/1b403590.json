@@ -1,0 +1,16 @@
+{
+  "questionId": "1b403590",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the density formula",
+      "content": "Density is mass divided by volume. With mass = 168 grams and volume = 24 cubic centimeters: $$\\text{density} = \\frac{168}{24}$$",
+      "formula": "$$\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$$"
+    },
+    {
+      "title": "Simplify to find density",
+      "content": "Divide 168 by 24. Since $24 \\times 7 = 168$, we have $$\\frac{168}{24} = 7$$. The density is 7 grams per cubic centimeter. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

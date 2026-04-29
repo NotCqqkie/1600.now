@@ -1,0 +1,15 @@
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures on each side",
+      "content": "Left side: An incomplete independent clause\u2014\u201dThe pedagogy...is rooted in several central ___.\u201d Right side: A prepositional phrase, followed by a relative clause (\u201cwho sought to parallel the linguistic learning environment\u201d), followed by an independent clause with a new subject (\u201cthe method emphasizes...\u201d)."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "A comma cannot separate two independent clauses; a period or semicolon is required. Choice C uses a period after \u201ctenets,\u201d which correctly creates a sentence boundary, allowing the second sentence to open with \u201cDeveloped by Japanese violinist Shinichi Suzuki\u201d\u2014a participial phrase that precedes the relative clause and main clause in proper order. Choices A and B preserve both independent clauses in a single sentence, violating the rule; choice D is ungrammatical. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

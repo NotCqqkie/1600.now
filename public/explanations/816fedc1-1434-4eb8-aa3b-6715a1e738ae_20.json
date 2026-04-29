@@ -1,0 +1,15 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_20",
+  "correctAnswer": "363",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute t = 0 into the function",
+      "content": "The question asks for the temperature <em>when the beaker was placed on the table</em>, which is the initial time $t = 0$. Substitute into the given function:<br/>$$g(0) = 294 + (363 - 294)(2.72)^{-0.103(0)}$$"
+    },
+    {
+      "title": "Simplify and calculate",
+      "content": "The exponent becomes $-0.103(0) = 0$. Since any nonzero number raised to the power 0 equals 1:<br/>$$(2.72)^{0} = 1$$<br/>Therefore:<br/>$$g(0) = 294 + (363 - 294)(1) = 294 + 69 = 363$$<br/>The temperature of the liquid when the beaker was first placed on the table was approximately <strong>363 kelvins</strong>."
+    }
+  ]
+}

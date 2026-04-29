@@ -1,0 +1,15 @@
+{
+  "questionId": "be1b8c74",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the coefficient of a",
+      "content": "In $x = 8a(b+9)$, the variable $a$ is multiplied by the term $8(b+9)$. To isolate $a$, we divide both sides by this term."
+    },
+    {
+      "title": "Divide and isolate a",
+      "content": "Dividing both sides by $8(b+9)$:<br/>$$\\frac{x}{8(b+9)} = \\frac{8a(b+9)}{8(b+9)}$$<br/>The right side simplifies:<br/>$$a = \\frac{x}{8(b+9)}$$<br/>This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

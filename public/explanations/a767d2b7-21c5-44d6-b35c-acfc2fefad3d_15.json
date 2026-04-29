@@ -1,0 +1,15 @@
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent and required number",
+      "content": "The blank must refer to \u201cthe substance\u201d from the previous sentence \u2014 a singular noun."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "\u201dIt\u201d is the standard singular pronoun. \u201cThey\u201d and \u201cthose\u201d are plural, violating the agreement rule; \u201cthat,\u201d while singular, is a demonstrative form, not the standard choice. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

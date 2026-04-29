@@ -1,0 +1,15 @@
+{
+  "questionId": "3a1239d2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical relationships",
+      "content": "The left side has a plural subject <em>scientists</em>. The right side begins with <em>for evidence</em>, which is a participial phrase modifying the action of the subject. The blank requires a past-tense verb to maintain tense agreement with the context of a <strong>recent study</strong> (a completed action)."
+    },
+    {
+      "title": "Apply the correct verb form",
+      "content": "The correct verb must be singular-plural agreeable and in simple past tense: <strong>A) searched</strong>. Choices B and D violate subject-verb agreement (B is a participle, D is present perfect) or tense alignment with <em>recent study</em>. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "Distribute the negative through the second parentheses:<br/>$$(3x^{3}-4x+9)-(6x^{6}+8x-4) = 3x^{3}-4x+9-6x^{6}-8x+4$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Organize by degree and combine like terms:<ul><li>$x^{6}$ terms: $-6x^{6}$</li><li>$x^{3}$ terms: $3x^{3}$</li><li>$x$ terms: $-4x-8x=-12x$</li><li>Constants: $9+4=13$</li></ul>$$-6x^{6}+3x^{3}-12x+13$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

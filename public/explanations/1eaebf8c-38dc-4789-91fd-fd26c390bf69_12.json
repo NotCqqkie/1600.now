@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Paradox",
+      "content": "The passage sets up a contrast: CLPs are <strong>shielded</strong> from the external environment by their transmission strategy, while directly transmitted parasites are <strong>exposed</strong> to external conditions. Yet the data shows the opposite of what we'd expect: CLP abundance <strong>decreased</strong> with warming, while directly transmitted parasite abundance remained <strong>stable</strong>. This contradiction is the key signal\u2014the shielding advantage didn't prevent decline."
+    },
+    {
+      "title": "What the Data Really Suggests",
+      "content": "CLPs' transmission strategy shields them, yet they still declined with warming\u2014meaning their shielding advantage is real but insufficient against other temperature-driven factors. Choice A directly states this: advantages exist but \u201cdid not completely offset the negative effects of other temperature-driven factors.\u201d The other three either invent unsupported distinctions (B), contradict the data by claiming more hosts improve temperature protection (C), or claim directly transmitted parasites have shielding when the passage explicitly says they're exposed (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

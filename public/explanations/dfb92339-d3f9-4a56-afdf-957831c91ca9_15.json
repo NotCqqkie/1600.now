@@ -1,0 +1,15 @@
+{
+  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key chromium comparison",
+      "content": "The passage directly states that ferritic stainless steel contains \u201ca higher percentage of chromium\u201d than austenitic stainless steel. Cooking utensils use ferritic steel; washing machines use 200 series austenitic steel. This comparison is the decisive clue."
+    },
+    {
+      "title": "Apply the comparison",
+      "content": "C correctly states that washing machines will have lower chromium than cooking utensils. The other choices contradict facts or lack support: A wrongly attributes crystalline structure to ferritic, D ignores the iron requirement for magnetic properties, B creates an unsupported distinction between austenitic types. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

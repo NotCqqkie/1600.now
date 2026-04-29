@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the triangle angle sum theorem",
+      "content": "In any triangle, the sum of the three interior angles equals 180\u00b0. We have angle A = 53\u00b0, angle B = 90\u00b0, and angle C = <em>(k/2)</em>\u00b0. Setting up the equation:\n\n$$53 + 90 + \\frac{k}{2} = 180$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "Simplify the left side:\n\n$$143 + \\frac{k}{2} = 180$$\n\nSubtract 143 from both sides:\n\n$$\\frac{k}{2} = 37$$\n\nMultiply both sides by 2:\n\n$$k = 74$$\n\nThat matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

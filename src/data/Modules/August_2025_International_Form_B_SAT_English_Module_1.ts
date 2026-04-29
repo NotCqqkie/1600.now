@@ -38,40 +38,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Craft and Structure",
-    "skill": "Words in Context",
-    "difficulty": "Easy",
-    "rationale": null,
-    "id": "302c1069-d3cf-4e1c-b0bd-57e018252a85_2",
-    "testName": "August 2025 International Form B SAT English Module 1",
-    "text": "Which choice completes the text with the most logical and precise word or phrase?\nThe mihrab (or niche) is one of many features that are foundational to traditional mosque architecture and is therefore considered ______ aspect of mosque design. Even mosques that exhibit elements of multiple architectural styles, such as the KH Hasyim Asy'ari Grand Mosque, which incorporates elements from the Betawi and Indonesian Islamic styles, will also include several of these standard features.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "an imposing"
-      },
-      {
-        "id": "B",
-        "text": "an embellished"
-      },
-      {
-        "id": "C",
-        "text": "a quintessential"
-      },
-      {
-        "id": "D",
-        "text": "an unprecedented"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice A is the best answer because it most logically completes the text’s discussion of how the flow of information between two regions of the brain may affect the ease of people’s decision making. In this context, \"reduced\" means decreased. The text presents the finding from a team of neuroeconomists that decision making may be connected to communication between the prefrontal cortex and the parietal cortex. In presenting this finding, the text suggests a contrast between people who tend to be more decisive and people who make decisions more slowly. According to the text, people tend to be more decisive when the flow of information between the two brain regions is intensified, or strengthened. On the other hand, this context suggests that people make choices more slowly when the flow of information between the two brain regions is decreased.\nChoice B is incorrect because \"evaluated\" means assessed, which wouldn’t make sense in context. According to the text, people tend to be more decisive when the flow of information between two brain regions is intensified, or strengthened. This suggests that people’s ease of decision making varies based on the rate of information traveling between the regions, not based on an effort to assess the information. Choice C is incorrect because \"determined\" means judged or influenced, neither of which would make sense in context. According to the text, people tend to be more decisive when the flow of information between two brain regions is intensified, or strengthened. This suggests that people’s ease of decision making varies based on the rate of information traveling between the regions, not based on an effort to judge or influence the information. Choice D is incorrect because \"acquired\" means developed or attained, neither of which would make sense in context. According to the text, people tend to be more decisive when the flow of information between two brain regions is intensified, or strengthened. This suggests that people’s ease of decision making varies based on the rate of information traveling between the regions, not based on the development or attainment of the information.",
+      "id": "c977cfcf",
+      "testName": "SAT Question Bank",
+      "text": "According to a team of neuroeconomists from the University of Zurich, ease of decision making may be linked to communication between two brain regions, the prefrontal cortex and the parietal cortex. Individuals tend to be more decisive if the information flow between the regions is intensified, whereas they make choices more slowly when information flow is ______. Which choice completes the text with the most logical and precise word or phrase?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "reduced"
+          },
+          {
+              "id": "B",
+              "text": "evaluated"
+          },
+          {
+              "id": "C",
+              "text": "determined"
+          },
+          {
+              "id": "D",
+              "text": "acquired"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

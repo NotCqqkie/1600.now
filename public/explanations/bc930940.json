@@ -1,0 +1,15 @@
+{
+  "questionId": "bc930940",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated goal",
+      "content": "The prompt is explicit: the student wants to <strong>indicate the year</strong> <em>Yosemite Falls</em> was completed. This is the decisive requirement. Any choice missing the year fails the objective."
+    },
+    {
+      "title": "Match the goal to the choices",
+      "content": "C states the painting's title with the completion year 1930. Choices A, B, and D mention other details from the notes but omit the essential year. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

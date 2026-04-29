@@ -1,0 +1,15 @@
+{
+  "questionId": "94660ba8",
+  "correctAnswer": "14.1",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "We need to convert 24,816 yards per hour to miles per hour. Given that 1 mile = 1,760 yards, we divide the speed in yards by 1,760 to get the speed in miles."
+    },
+    {
+      "title": "Calculate the speed in miles per hour",
+      "content": "$$\\frac{24,816}{1,760} = 14.1$$<br/><br/>The average speed is 14.1 miles per hour."
+    }
+  ]
+}

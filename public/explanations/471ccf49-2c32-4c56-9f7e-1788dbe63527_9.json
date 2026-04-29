@@ -1,0 +1,19 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "With 25 objects, the median is the middle value. The median position is $\\frac{n+1}{2} = \\frac{25+1}{2} = 13$, meaning the 13th object (when ordered by height) is the median."
+    },
+    {
+      "title": "Build cumulative frequency to locate the interval",
+      "content": "Instead of listing all heights, use the cumulative count:<br/><ul><li>0\u2013100 cm: cumulative count = 8</li><li>101\u2013200 cm: cumulative count = 8 + 6 = 14</li><li>201\u2013300 cm: cumulative count = 14 + 5 = 19</li></ul>The 13th value falls between position 8 and position 14, so it lies in the 101\u2013200 cm interval."
+    },
+    {
+      "title": "Match to the answer choice",
+      "content": "Check which choice falls in the 101\u2013200 cm range:<ul><li>A) 355 cm \u2192 in 301\u2013400 range</li><li>B) 255 cm \u2192 in 201\u2013300 range</li><li>C) 155 cm \u2192 in 101\u2013200 range \u2713</li><li>D) 55 cm \u2192 in 0\u2013100 range</li></ul>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

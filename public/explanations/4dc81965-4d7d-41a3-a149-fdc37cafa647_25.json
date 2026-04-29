@@ -1,0 +1,15 @@
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The key signal is <em>\u201ccould do exactly that.\u201d</em> This phrase refers back to the specific problem stated in the first sentence\u2014Curiosity's inability to preserve samples for future analysis. The passage then pivots to describing NASA's response: designing Perseverance with a mechanism that could address this exact limitation."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Hence expresses consequence, which is the logical link required here: a problem with Curiosity prompted a solution in Perseverance. The other three don't establish this cause-and-effect relationship \u2014 Specifically suggests clarification, Earlier reverses the chronology, and Similarly implies comparison instead of consequence. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

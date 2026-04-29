@@ -1,0 +1,19 @@
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify Circle A's center and radius",
+      "content": "The equation $x^2 + (y-5)^2 = 7$ is in standard form $(x-h)^2 + (y-k)^2 = r^2$. Comparing directly: center is $(0, 5)$ and radius squared is $r^2 = 7$."
+    },
+    {
+      "title": "Apply the translation to find Circle B's equation",
+      "content": "Translating 91 units to the right shifts the center from $(0, 5)$ to $(91, 5)$. The radius remains unchanged at $r^2 = 7$. Circle B's equation is $(x - 91)^2 + (y - 5)^2 = 7$."
+    },
+    {
+      "title": "Find $a$ and calculate $4a$",
+      "content": "Comparing $(x - 91)^2 + (y - 5)^2 = 7$ to the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore, $4a = 4 \\cdot 7 = 28$."
+    }
+  ]
+}

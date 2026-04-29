@@ -1,0 +1,15 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the condition for no real solution",
+      "content": "The left side $-(3x-7)^2$ is the negative of a perfect square, so it is always non-positive. Its maximum value is 0 (at $x = \\frac{7}{3}$), meaning the left side can achieve any value in the interval $(-\\infty, 0]$. <br/><br/>For the equation to have a real solution, the right side $p + 17$ must lie in this achievable range. For no real solution, the right side must be outside the range: $p + 17 > 0$, which gives $p > -17$."
+    },
+    {
+      "title": "Find the least integer value of p",
+      "content": "We need the smallest integer satisfying $p > -17$. That integer is $p = -16$. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

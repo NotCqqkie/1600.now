@@ -1,0 +1,15 @@
+{
+  "questionId": "458b4a11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The word \u201callowed\u201d signals the finding's importance: the unchanged community composition \u201callowed Ka\u0161tovsk\u00e1 et al. to attribute the acceleration to temperature-induced increases in microorganism activity.\u201d This word reveals that the finding was essential for reaching their conclusion."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice C identifies the critical function: the unchanged composition ruled out the alternative that different microorganisms caused the acceleration, allowing researchers to attribute the faster cycling to temperature-induced activity increases. A, B, and D address something else\u2014the acceleration's occurrence, geographic reach, or organism-dependent activity variation. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

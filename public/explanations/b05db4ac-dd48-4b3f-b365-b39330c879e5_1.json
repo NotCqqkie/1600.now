@@ -1,0 +1,15 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the substitution for f(0)",
+      "content": "To find $f(0)$, substitute $x = 0$ into the function: $$f(0) = 10(0)^2 - 38(0) - 150$$"
+    },
+    {
+      "title": "Evaluate each term",
+      "content": "Any term with a factor of 0 equals 0, so $10(0)^2 = 0$, $-38(0) = 0$, and $-150$ remains. Combining these: $$f(0) = 0 + 0 - 150 = -150$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

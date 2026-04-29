@@ -1,0 +1,28 @@
+{
+  "questionId": "194ae3b1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving \u2014 testing choice B (116,300)",
+      "content": "$$113{,}000 \\times 1.29 = 145{,}770$$<br/>This is far greater than 116,300, so choice B is too low.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Fails. Testing choice C (142,000)",
+      "content": "$$113{,}000 \\times 1.29 = 145{,}770$$<br/>This is still greater than 142,000, so choice C is also too low.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Fails. Testing choice D (145,800)",
+      "content": "$$113{,}000 \\times 1.29 = 145{,}770$$<br/>The projected number 145,770 is only 30 less than 145,800, making choice D the closest.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

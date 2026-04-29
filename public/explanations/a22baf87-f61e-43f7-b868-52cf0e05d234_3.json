@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the weekly decrease",
+      "content": "Each week, the number of toys <em>decreases by 1/2 of the previous amount</em>. This means: $\\text{new amount} = \\text{previous} - \\frac{1}{2} \\cdot \\text{previous} = \\frac{1}{2} \\cdot \\text{previous}$<br/>So the collection is multiplied by $\\frac{1}{2}$ each week."
+    },
+    {
+      "title": "Build the exponential formula",
+      "content": "Starting with 2,800 toys, applying a factor of $\\frac{1}{2}$ for each of $w$ weeks:<br/>$$c = 2,800 \\left(\\frac{1}{2}\\right)^w$$<br/>Verify at $w = 1$: $c = 2,800 \\cdot \\frac{1}{2} = 1,400$ (half of 2,800\u2014correct for one week).<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

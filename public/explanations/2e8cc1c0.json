@@ -1,0 +1,28 @@
+{
+  "questionId": "2e8cc1c0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Given equation",
+      "content": "We are given that <strong>4x=3</strong>. We need to find the value of 24x. To do this, we can multiply both sides of the equation by a factor.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Multiplying through",
+      "content": "To find <strong>24x</strong>, notice that 24 is just 6 times 4. Therefore, we multiply both sides of the given equation by 6: \\[6\\cdot(4x) = 6\\cdot3\\] This simplifies to: $$24x=18$$",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Obtaining the final answer",
+      "content": "From this calculation, we see that the value of <strong>24x</strong> is 18. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": null,
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

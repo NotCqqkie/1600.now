@@ -6,7 +6,7 @@ const columns = [
     links: [
       { label: "SAT Score Calculator", to: "/score-calculator" },
       { label: "SAT Question Bank", to: "/bank" },
-      { label: "Practice Modules", to: "/modules" },
+      { label: "Practice Tests", to: "/modules" },
       { label: "100 Hard Math Questions", to: "/hard" },
       { label: "Vocabulary Flashcards", to: "/vocab" },
     ],
@@ -58,7 +58,7 @@ const columns = [
     links: [
       { label: "Privacy Policy", to: "/privacy" },
       { label: "Terms of Service", to: "/terms" },
-      { label: "Contact Us", to: "mailto:questions@1600.now" },
+      { label: "Contact Us", to: "mailto:info@1600.now" },
     ],
   },
 ];

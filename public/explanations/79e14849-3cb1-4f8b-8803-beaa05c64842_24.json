@@ -1,0 +1,15 @@
+{
+  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the specific goal",
+      "content": "The goal is to specify how many chromosomes the fennec fox has \u2014 not to compare it to another species, explain what chromosomes do, or address a different animal. The goal requires a direct, specific number."
+    },
+    {
+      "title": "Find the choice that directly answers the goal",
+      "content": "Choice B directly provides the specific number for the fennec fox (sixty-four chromosomes), combining the species identification with the exact chromosome count and fulfilling the goal. A) provides only a comparison without the specific number, C) explains what chromosomes do rather than the count, and D) gives a number but for the red fox instead. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

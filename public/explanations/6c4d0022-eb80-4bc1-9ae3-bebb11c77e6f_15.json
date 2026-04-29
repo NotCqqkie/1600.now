@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core tension in the passage",
+      "content": "The ONE strongest clue is the logical structure: consumers demand increasingly fast delivery, companies innovate to meet those demands, but every innovation \u201cengenders its own complications.\u201d This pattern suggests that attempting to fulfill consumer expectations creates unavoidable problems\u2014a sign that the expectations themselves may be fundamentally unrealistic."
+    },
+    {
+      "title": "Match the logical conclusion to the choices",
+      "content": "Choice D states that consumer expectations \u201cmay be outstripping what is viable for delivery companies to provide.\u201d <strong>Outstripping</strong> means exceeding what is actually achievable. If every innovation to meet delivery speed fails because it introduces new complications, then the underlying problem is not poor execution or lack of investment\u2014it's that the expectation itself may exceed what's realistically possible. Choices A and B assume more resources and better planning will help, which contradicts the passage's point that innovation itself backfires; choice C suggests insufficient incentive, but the passage shows companies ARE innovating, just unsuccessfully. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

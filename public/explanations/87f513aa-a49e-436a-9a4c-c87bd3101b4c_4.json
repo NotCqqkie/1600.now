@@ -1,0 +1,11 @@
+{
+  "questionId": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_4",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the wind chill at 27\u00b0F and 20 mph",
+      "content": "Locate the row for air temperature 27\u00b0F and the column for wind chill temperature at wind speed 20 mph in the table. Their intersection gives <strong>13</strong>\u00b0F."
+    }
+  ]
+}

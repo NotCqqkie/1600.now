@@ -1,0 +1,19 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex from the problem",
+      "content": "The problem states that 2 seconds after launch, the object reaches a maximum height of 203 feet. This is the vertex of the parabola:<br/><ul><li>Time at maximum: $h = 2$</li><li>Maximum height: $k = 203$</li><li>Vertex: $(2, 203)$</li></ul>"
+    },
+    {
+      "title": "Apply vertex form of a parabola",
+      "content": "The vertex form of a parabola is $f(t) = a(t - h)^2 + k$, where $(h, k)$ is the vertex. Substituting $h = 2$ and $k = 203$:<br/><br/>$$f(t) = a(t - 2)^2 + 203$$<br/><br/>Now I need to find $a$."
+    },
+    {
+      "title": "Find the coefficient using the initial condition",
+      "content": "The object is launched from 139 feet above the ground, so $f(0) = 139$:<br/><br/>$$139 = a(0 - 2)^2 + 203$$<br/>$$139 = 4a + 203$$<br/>$$4a = -64$$<br/>$$a = -16$$<br/><br/>Therefore, $f(t) = -16(t - 2)^2 + 203$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

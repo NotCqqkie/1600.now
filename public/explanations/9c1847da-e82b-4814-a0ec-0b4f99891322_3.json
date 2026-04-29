@@ -1,0 +1,11 @@
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common factor",
+      "content": "$$6x+36 = 6(x+6)$$$$6(x+6)=18$$ Divide both sides by 6: $$x+6 = \\frac{18}{6} = 3$$ That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

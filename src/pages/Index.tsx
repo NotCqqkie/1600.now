@@ -120,24 +120,30 @@ const Index = () => {
 
   // Load real counts after initial render
   useEffect(() => {
+    let cancelled = false;
+    let timeoutId: ReturnType<typeof setTimeout> | null = null;
     const loadCounts = async () => {
       try {
-        // Dynamic import to avoid blocking initial load
         const { getSkillCounts } = await import("@/data/questionBank");
-        
-        // Use setTimeout to allow UI to render first
-        setTimeout(() => {
+        if (cancelled) return;
+        timeoutId = setTimeout(() => {
+          if (cancelled) return;
           const mathCounts = getSkillCounts("math");
           const readingCounts = getSkillCounts("reading");
           setSkillCounts({ ...mathCounts, ...readingCounts });
           setIsLoading(false);
         }, 100);
       } catch (error) {
+        if (cancelled) return;
         console.error("Failed to load skill counts:", error);
         setIsLoading(false);
       }
     };
     loadCounts();
+    return () => {
+      cancelled = true;
+      if (timeoutId !== null) clearTimeout(timeoutId);
+    };
   }, []);
 
   const handleSkillClick = (subject: string, skill: string) => {
@@ -222,7 +228,7 @@ const Index = () => {
                 <Layers className="h-8 w-8 text-orange-600" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Practice Modules</h3>
+                <h3 className="text-xl font-bold">Practice Tests</h3>
                 <p className="text-sm text-muted-foreground">Full exams by year & level</p>
               </div>
             </div>

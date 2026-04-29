@@ -1,0 +1,15 @@
+{
+  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure",
+      "content": "The sentence lists three parallel destinations as items in a series: Wellington, Walgett, and Moree. Each item contains a dependent clause introduced with \u201cwhere,\u201d which means a comma appears within each item."
+    },
+    {
+      "title": "Apply the semicolon rule for complex series",
+      "content": "A semicolon replaces a comma to separate items in a series when those items contain internal punctuation. Option B correctly creates \u201ccinema; and to Moree,\u201d which produces the proper structure: <em>\u201cdrove to Wellington, where they interviewed locals; to Walgett, where they picketed a segregated cinema; and to Moree, where they staged a protest at a segregated public pool.\u201d</em> Options A, C, and D either use commas where semicolons are needed, place a semicolon incorrectly, or employ a colon improperly.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

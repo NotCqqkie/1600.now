@@ -1,0 +1,15 @@
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the coordinate structure",
+      "content": "The participial phrase \u201cstudying connections between...\u201d contains two noun phrases being coordinated: the physical location phrase and the post's content phrase. The blank must complete the first phrase's relative clause before \u201cand\u201d introduces the second."
+    },
+    {
+      "title": "Apply the coordination rule",
+      "content": "Coordinating two items with \u201cand\u201d requires no comma before the conjunction\u2014commas precede \u201cand\u201d only when joining independent clauses or in series of three or more items. Choice B correctly uses \u201ccreated and the post's content\u201d with no commas, while the other options violate this rule by adding commas either before \u201cand\u201d or after \u201ccontent.\u201d That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "df91532e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the hidden assumption",
+      "content": "The researchers predict that fluency and cultural pride will lead to language transmission in adulthood. The assumption they're making but not stating: these effects must persist into adulthood. If they fade away during secondary or higher education, the prediction collapses."
+    },
+    {
+      "title": "Find the choice that validates the assumption",
+      "content": "Choice D directly validates this by confirming former students maintain their fluency and cultural pride through secondary and higher education. This proves the effects last\u2014they're still there in adulthood when transmission happens. Choices A, B, and C don't address persistence: A says pride exists equally in non-attendees, B introduces unrelated academic performance, and C only confirms staying in the community. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

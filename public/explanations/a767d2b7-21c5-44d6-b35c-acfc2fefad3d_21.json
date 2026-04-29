@@ -1,0 +1,15 @@
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_21",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The sentence presents two connected ideas: an observation (the supernova dimmed over a few weeks) and a clarifying explanation (supernovas are short-lived despite being powerful). The word \u201calthough\u201d signals that the second part explains or contextualizes the first. We need punctuation that properly marks the transition between these two related thoughts."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "When \u201chowever\u201d is used as a parenthetical transition word to bridge an observation and its explanatory clause, the pattern is <strong>IC, transition; explanatory clause</strong> \u2014 a comma before the transition word and a semicolon after it, which creates the necessary separation before the dependent clause. Option B uses <em>weeks, however;</em> which correctly applies this punctuation structure. Options A and C place \u201cHowever\u201d and \u201calthough\u201d in succession, creating an awkward double-contrast that muddies the logical flow; option D treats \u201chowever\u201d as a mid-sentence interrupter without the semicolon needed to separate it from the following dependent clause. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

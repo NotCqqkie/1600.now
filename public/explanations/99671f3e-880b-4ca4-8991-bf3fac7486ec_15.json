@@ -1,0 +1,15 @@
+{
+  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast",
+      "content": "The passage states that early quasars formed \u201cwithout the need for ultraviolet backgrounds or other extreme and implausible environmental conditions that models of the early universe have included.\u201d This reveals that previous models relied on implausible assumptions that the new research shows were unnecessary."
+    },
+    {
+      "title": "Evaluate the choices",
+      "content": "A directly follows: if previous models relied on assumptions now shown unnecessary, new models can rest on better-supported assumptions. B contradicts the passage by doubting quasars' existence; C reverses the logical direction; D inverts the cause-consequence relationship. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

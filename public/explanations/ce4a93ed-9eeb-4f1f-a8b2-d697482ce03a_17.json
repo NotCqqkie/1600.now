@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the complex list structure",
+      "content": "The sentence lists three deserts. Each item contains an internal comma (for instance, \u201cthe Syrian Desert, ranked ninth in size\u201d). This is the key signal: when list items contain commas within them, semicolons must separate the items instead."
+    },
+    {
+      "title": "Apply the semicolon rule",
+      "content": "Choice B correctly uses semicolons to separate the three desert items with their rankings: the Syrian Desert, ranked ninth in size; the Kyzylkum Desert, ranked sixteenth; and the Ferlo Desert, ranked thirty-second. The other choices either lack the necessary punctuation (A), place semicolons incorrectly and break the series structure (C), or inconsistently mix punctuation (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

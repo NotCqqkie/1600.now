@@ -1,0 +1,19 @@
+{
+  "questionId": "d0a7871e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Since both expressions equal $y$, we can set them equal to find where they intersect:<br/>$$x + 1 = x^2 + x$$"
+    },
+    {
+      "title": "Simplify and solve for x",
+      "content": "Subtract $x$ from both sides:<br/>$$1 = x^2$$<br/>This gives us $x = 1$ or $x = -1$."
+    },
+    {
+      "title": "Check against the choices",
+      "content": "Among the choices A) \u20131, B) 0, C) 2, D) 3, only $x = -1$ is a solution from our work. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

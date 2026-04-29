@@ -1,0 +1,16 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identifying the growth factor",
+      "content": "When the number of customers is 8% greater than the previous month, we keep all 100% of the previous value and add 8% more. This gives us 100% + 8% = 108% = 1.08. So each month, the customer count is multiplied by 1.08."
+    },
+    {
+      "title": "Building the exponential formula",
+      "content": "Starting with 700 customers in January 2018 (where $m = 0$), each subsequent month multiplies by 1.08:<br/><br/>After 1 month: $700 \\times 1.08$<br/>After 2 months: $700 \\times (1.08)^2$<br/>After $m$ months: $$c = 700(1.08)^m$$<br/><br/>This matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$c = a \\cdot r^m$$"
+    }
+  ]
+}

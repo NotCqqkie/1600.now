@@ -1,0 +1,15 @@
+{
+  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median of data set A",
+      "content": "Data set A contains 21 values, so the median is at position $\\frac{21+1}{2}=11$ when ordered from smallest to largest.<br/><br/>Build a cumulative count from the frequency table:<ul><li>0 eagles: 1 day (cumulative: 1)</li><li>1 eagle: 3 days (cumulative: 4)</li><li>2 eagles: 4 days (cumulative: 8)</li><li>3 eagles: 5 days (cumulative: 13)</li></ul>Position 11 falls in the range [9, 13], which corresponds to 3 eagles. Therefore, the median of data set A is 3."
+    },
+    {
+      "title": "Find the median of data set B and compare",
+      "content": "Data set B has 20 values (after 19 is removed), so the median is the average of the values at positions 10 and 11.<br/><br/>The cumulative counts remain the same (without 19):<ul><li>0 eagles: cumulative 1</li><li>1 eagle: cumulative 4</li><li>2 eagles: cumulative 8</li><li>3 eagles: cumulative 13</li></ul>Both positions 10 and 11 fall in the range [9, 13], which corresponds to 3 eagles. The median of data set B is $\\frac{3+3}{2}=3$.<br/><br/>Both medians equal 3. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast signal",
+      "content": "The passage notes that Roman numerals indicate the order in which the moons were named, not their distance from Jupiter, which creates a contrast between the numeral\u2019s implication and the actual proximity."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "The word however, signals a contrast or correction, matching the idea that it is incorrect to assume Elara is the seventh moon from Jupiter.<br/>The other three choices\u2014then,, moreover,, and finally\u2014do not convey contrast; they suggest addition or sequence, which does not fit the need to correct a mistaken assumption.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

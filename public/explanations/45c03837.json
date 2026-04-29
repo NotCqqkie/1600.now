@@ -1,0 +1,15 @@
+{
+  "questionId": "45c03837",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern needing explanation",
+      "content": "The two human-caused sound conditions produced <strong>negligible differences</strong> in their effects on narwhal diving, despite one containing an additional acoustic element (sonic pulses). Why doesn't the added stimulus create an additional behavioral change?"
+    },
+    {
+      "title": "Match the explanation to the choices",
+      "content": "Choice B explains this directly: ship sounds alone are so acoustically dominant that they saturate the narwhals' auditory environment and already suppress deep diving to a maximum degree. Adding sonic pulses creates negligible additional change in that environment, so the behavioral response remains essentially the same.<br/><br/>The other choices either discuss acoustic propagation properties (A, irrelevant to why responses are similar), contradict the finding by describing an actual difference (C), or explain the overall magnitude of the effect rather than why two different exposures produce identical responses (D).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

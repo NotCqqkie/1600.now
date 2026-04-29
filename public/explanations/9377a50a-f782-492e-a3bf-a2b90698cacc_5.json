@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median of the given list",
+      "content": "With 7 values (odd count), the median is the middle value\u2014the 4th element when sorted.<br/>Given: 12, 22, 24, <strong>33</strong>, 39, 42, 44<br/>Median = 33"
+    },
+    {
+      "title": "Identify which choice has the same median",
+      "content": "Each answer choice has 7 values, so the median is again the 4th element:<ul><li>Choice A: 22, 25, 35, <strong>38</strong>, 49, 50, 54</li><li>Choice B: 22, 28, 33, <strong>39</strong>, 41, 43, 46</li><li>Choice C: 12, 15, 28, <strong>33</strong>, 35, 39, 39</li><li>Choice D: 22, 25, 26, <strong>28</strong>, 33, 33, 39</li></ul>Only Choice C has 33 in the 4th position, matching the original median. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

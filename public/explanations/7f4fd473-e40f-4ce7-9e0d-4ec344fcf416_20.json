@@ -1,0 +1,15 @@
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The dependent clause establishes <strong>\u201ca given industry\u201d</strong> (singular) as its subject. The main clause needs a pronoun that correctly refers to this singular noun."
+    },
+    {
+      "title": "Apply standard pronoun reference",
+      "content": "<strong>\u201cIt\u201d</strong> is the standard form for referring back to a previously mentioned singular noun, and \u201cit often consists\u201d correctly establishes pronoun-antecedent agreement with \u201cindustry.\u201d The other options either use plural pronouns (<strong>they</strong>, <strong>these</strong>) that don't match the singular antecedent, or use <strong>\u201cthis,\u201d</strong> a less standard choice. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

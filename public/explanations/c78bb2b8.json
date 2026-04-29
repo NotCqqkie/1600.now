@@ -1,0 +1,16 @@
+{
+  "questionId": "c78bb2b8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the sum from each group",
+      "content": "For Muskeget Island (240 seals, mean 88 inches): $240 \\times 88 = 21,120$ inches. For Sable Island (120 seals, mean 94 inches): $120 \\times 94 = 11,280$ inches."
+    },
+    {
+      "title": "Find the combined mean using the weighted average formula",
+      "content": "Add the group sums: $21,120 + 11,280 = 32,400$ inches. Divide by the total count: $$\\frac{32,400}{360} = 90$$ inches. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\bar{x}_{combined} = \\frac{n_1 \\bar{x}_1 + n_2 \\bar{x}_2}{n_1 + n_2}$$"
+    }
+  ]
+}

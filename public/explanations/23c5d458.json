@@ -1,0 +1,15 @@
+{
+  "questionId": "23c5d458",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from the table pattern",
+      "content": "Reading the table, each time $x$ increases by 1, $g(x)$ decreases by a constant amount: <br/> $32 \\to 28 \\to 24 \\to 20$ <br/> The difference between consecutive values is $28 - 32 = -4$, $24 - 28 = -4$, $20 - 24 = -4$. <br/> Therefore, the slope is $m = -4$."
+    },
+    {
+      "title": "Extrapolate backwards to x = 0",
+      "content": "Since the function decreases by 4 for each unit increase in $x$, we can work backwards from $x = 1$ to $x = 0$. <br/> At $x = 1$: $g(1) = 32$ <br/> Moving from $x = 1$ to $x = 0$ means going back one unit, so $g(x)$ increases by 4: <br/> $$g(0) = 32 + 4 = 36$$ <br/> Since $g(0) = b$ in the form $g(x) = mx + b$, we have $b = 36$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

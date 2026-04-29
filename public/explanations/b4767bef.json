@@ -1,0 +1,15 @@
+{
+  "questionId": "b4767bef",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the perimeter equation",
+      "content": "The perimeter of a triangle equals the sum of all three sides. We're given two sides (4 cm and 6 cm) and the perimeter (18 cm). Let the unknown side be $x$:<br/>$$4 + 6 + x = 18$$"
+    },
+    {
+      "title": "Solve for the third side",
+      "content": "Combine the known sides on the left:<br/>$$10 + x = 18$$<br/>Subtract 10 from both sides:<br/>$$x = 8$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

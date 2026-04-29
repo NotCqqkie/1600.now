@@ -1,0 +1,24 @@
+{
+  "questionId": "2d2cb85e",
+  "correctAnswer": "156",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use isosceles triangle RTU to express x in terms of one variable",
+      "content": "Since $RT = TU$, triangle $RTU$ is isosceles. Therefore, the base angles are equal: let $\\angle TUR = \\angle TRU = \\beta$. The angle we seek is the vertex angle:\n$$x = \\angle RTU = 180\u00b0 - 2\\beta$$\nNow we solve for $\\beta$ using the given angle conditions.",
+      "formula": "$$\\angle RTU = 180\u00b0 - 2\\beta$$"
+    },
+    {
+      "title": "Find angle relationships using collinearity",
+      "content": "From the figure, points $U$, $T$, and $S$ are collinear, and points $U$, $V$, and $R$ are collinear (on the base).\n<br/>Since $U$, $V$, $R$ are collinear and $\\angle RVS = 41\u00b0$:\n$$\\angle UVS = 180\u00b0 - 41\u00b0 = 139\u00b0$$\nLet $\\angle TVS = \\gamma$. Since ray $VT$ lies between rays $VU$ and $VS$:\n$$\\angle UVT = 139\u00b0 - \\gamma$$\nBecause $U$, $T$, $S$ are collinear, the angles at $T$ are supplementary:\n$$\\angle VTU + \\angle VTS = 180\u00b0$$"
+    },
+    {
+      "title": "Apply triangle angle sums to solve for \u03b2",
+      "content": "In triangle $VTS$:\n$$\\angle VTS = 180\u00b0 - \\angle TVS - \\angle VST = 180\u00b0 - \\gamma - 29\u00b0 = 151\u00b0 - \\gamma$$\nIn triangle $VTU$:\n$$\\angle VTU = 180\u00b0 - \\angle UVT - \\angle TUV = 180\u00b0 - (139\u00b0 - \\gamma) - \\beta = 41\u00b0 + \\gamma - \\beta$$\nUsing the supplementary angle constraint $\\angle VTU + \\angle VTS = 180\u00b0$:\n$$(41\u00b0 + \\gamma - \\beta) + (151\u00b0 - \\gamma) = 180\u00b0$$\n$$192\u00b0 - \\beta = 180\u00b0$$\n$$\\beta = 12\u00b0$$"
+    },
+    {
+      "title": "Calculate the final answer",
+      "content": "Substituting $\\beta = 12\u00b0$ back:\n$$x = 180\u00b0 - 2(12\u00b0) = 180\u00b0 - 24\u00b0 = 156\u00b0$$\nThat matches choice <strong>156</strong> \u2014 <strong>156</strong> is correct."
+    }
+  ]
+}

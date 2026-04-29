@@ -1,0 +1,15 @@
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parabola opens upward and line has positive slope",
+      "content": "The parabola opens upward, so its leading coefficient must be positive (eliminates A and B, which have $y = -\\frac{7}{16}x^2$). The line rises from lower left to upper right, so its slope must be positive (eliminates C, which has $y = -\\frac{7}{4}x$). Only choice D has $y = \\frac{7}{16}x^2$ with positive coefficient and $y = \\frac{7}{4}x$ with positive slope."
+    },
+    {
+      "title": "Verify with the intersection point",
+      "content": "At the visible intersection point $(4, 7)$ on the graph, test choice D: the parabola gives $y = \\frac{7}{16}(4)^2 = \\frac{7}{16} \\cdot 16 = 7$ and the line gives $y = \\frac{7}{4}(4) = 7$. Both equations match this point on the graph. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

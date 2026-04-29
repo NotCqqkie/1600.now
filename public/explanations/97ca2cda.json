@@ -1,0 +1,15 @@
+{
+  "questionId": "97ca2cda",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explanation signal",
+      "content": "The word \u201cparticularly\u201d introduces a specific explanation for the preceding claim.<br/>It connects \u201cadvertisers hesitated to jump into a new space\u201d with the concrete reason: \u201cthe manufacturing of new television sets was stalled due to the US's involvement in World War II.\u201d"
+    },
+    {
+      "title": "Match the function to the choices",
+      "content": "The phrase gives a specific reason (WWII manufacturing delays) for why advertisers hesitated to support television, which directly matches what choice B describes.<br/>The other choices reference comparisons between radio and TV, broadcaster persuasion tactics, and programming popularity \u2014 none of which the phrase does.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

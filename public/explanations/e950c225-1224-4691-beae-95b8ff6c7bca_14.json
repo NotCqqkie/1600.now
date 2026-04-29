@@ -1,0 +1,15 @@
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what would support the researcher's claim",
+      "content": "The passage contrasts a general declining trend with the researcher's claim: <strong>\u201csome lakes have instead seen an increase in the duration of ice.\u201d</strong> For data to support this, the table must show a specific lake with <strong>more ice days in 2005-06 than in 1980-81</strong>."
+    },
+    {
+      "title": "Find the evidence of increase",
+      "content": "Choice A describes Lake Baikal having <strong>fewer days in 1980-81 than in 2005-06</strong>\u2014which is an increase, exactly matching the researcher's claim. Choice C shows a decrease (the opposite), while B and D make comparisons between two different lakes without demonstrating any lake's change over time. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

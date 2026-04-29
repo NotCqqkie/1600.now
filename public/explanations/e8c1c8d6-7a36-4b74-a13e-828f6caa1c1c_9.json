@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage notes that queen honeybees exceeded the positive\u2011charge threshold needed to attract stamens."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice C says red mason bees can also attract the stamens, which follows because the graph shows their charge meets or exceeds the same threshold.<br/>The other three either claim attraction fails despite higher charge, suggest repulsion with no basis, or assert a specific threshold value not indicated by the data.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

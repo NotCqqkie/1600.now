@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality",
+      "content": "Carmen has 64 signatures and needs at least 100. Let $x$ be the number of additional signatures needed. This gives us:<br/>$$64 + x \\geq 100$$"
+    },
+    {
+      "title": "Solve for the minimum",
+      "content": "Subtract 64 from both sides of the inequality:<br/>$$x \\geq 36$$<br/>The minimum number of additional signatures Carmen needs is 36. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

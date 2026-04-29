@@ -1,0 +1,15 @@
+{
+  "questionId": "a819d8b6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal signal",
+      "content": "The first sentence states that Cajal's 1873 discovery \u201cwent against earlier assumptions.\u201d This setup signals that the next sentence explains what those earlier assumptions were\u2014establishing a temporal relationship between past beliefs and a discovery that contradicted them."
+    },
+    {
+      "title": "Match the transition to the sequence",
+      "content": "\"Previously\" directly marks the temporal shift\u2014scientists held this belief <strong>before</strong> Cajal's discovery. The other three choices fail to establish the necessary temporal relationship between past assumptions and the new discovery. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

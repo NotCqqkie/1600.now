@@ -1,0 +1,15 @@
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that we're isolating the expression, not solving for x",
+      "content": "The question asks for the value of $2(x - 9)$, not $x$. Notice that this expression already appears in the given equation $48 = 18 + 2(x - 9)$. We can isolate it directly without expanding or solving for the variable."
+    },
+    {
+      "title": "Isolate 2(x - 9) by subtracting 18",
+      "content": "From $48 = 18 + 2(x - 9)$, subtract 18 from both sides:<br/>$$48 - 18 = 2(x - 9)$$<br/>$$30 = 2(x - 9)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

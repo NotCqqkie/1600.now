@@ -161,10 +161,10 @@ const Modules = () => {
               color: "hsl(var(--foreground))",
             }}
           >
-            SAT Module Practice
+            Practice Tests
           </h1>
           <p className="mt-1 text-xs leading-5 text-muted-foreground sm:text-sm">
-            Practice full SAT modules grouped into complete reading and math sets.
+            Full SAT practice tests grouped by year, form, subject, and module.
           </p>
         </div>
       </div>
@@ -181,10 +181,15 @@ const Modules = () => {
                   {mostRecentSession.module.publicTitle}
                 </div>
                 <div className="text-xs text-muted-foreground">
-                  Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.session.questionCount}
+                  Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.module.questionCount}
                   {" · "}
                   {mostRecentSession.session.settings.timed
-                    ? `${Math.max(0, Math.floor((mostRecentSession.session.remainingSeconds ?? 0) / 60))} min remaining`
+                    ? (() => {
+                        const secs = Math.max(0, mostRecentSession.session.remainingSeconds ?? 0);
+                        const m = Math.floor(secs / 60);
+                        const s = secs % 60;
+                        return `${m}:${String(s).padStart(2, "0")} left`;
+                      })()
                     : "Untimed"}
                 </div>
               </div>

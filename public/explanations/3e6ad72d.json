@@ -1,0 +1,15 @@
+{
+  "questionId": "3e6ad72d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The underlined sentence begins with \u201cUsing data\u201d and describes what the team did with the data\u2014comparing forecasts to actual results. This signals a description of the study\u2019s procedure."
+    },
+    {
+      "title": "Match the signal to the choice",
+      "content": "It explains how the researchers gathered and compared information, which is part of the methodology. The other three choices refer to results, an example, or a difficulty, none of which are presented in that sentence.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

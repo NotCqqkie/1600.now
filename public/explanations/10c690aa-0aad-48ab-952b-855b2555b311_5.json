@@ -1,0 +1,11 @@
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert mass from kilograms to grams",
+      "content": "The conversion is straightforward. We multiply the dog's mass in kilograms by the number of grams per kilogram.<br/>Since 1 kilogram = 1,000 grams, we have:<br/>$$36 \\text{ kg} \\cdot 1,000 \\frac{\\text{grams}}{\\text{kilograms}}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

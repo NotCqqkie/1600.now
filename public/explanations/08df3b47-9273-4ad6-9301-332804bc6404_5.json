@@ -1,0 +1,15 @@
+{
+  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out 3 from the left side",
+      "content": "The expression $3x - 18$ can be written as $3(x - 6)$. The equation becomes:<br/><br/>$$3(x - 6) = -12$$<br/><br/>Since we're asked to find $x - 6$, this factorization reveals exactly what we need."
+    },
+    {
+      "title": "Divide both sides by 3 to isolate x - 6",
+      "content": "Dividing both sides by 3:<br/><br/>$$\\frac{3(x - 6)}{3} = \\frac{-12}{3}$$<br/><br/>$$x - 6 = -4$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

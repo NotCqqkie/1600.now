@@ -7,6 +7,7 @@ import {
   ChevronLeft,
   ChevronRight,
   GraduationCap,
+  HelpCircle,
   Home,
   LogIn,
   LogOut,
@@ -39,18 +40,26 @@ import { applyTheme } from "@/lib/theme";
 const COLLAPSED_DESKTOP_WIDTH_CLASS = "lg:w-[4.5rem]";
 const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
 
-const primaryItems = [
-  { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/" },
-  { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank") },
-  { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard") },
-  { label: "Practice Modules", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules") },
-  { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator") },
-  { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab") },
+type SidebarItem = {
+  label: string;
+  href: string;
+  icon: typeof Home;
+  match: (pathname: string) => boolean;
+  tourId?: string;
+};
+
+const primaryItems: SidebarItem[] = [
+  { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/", tourId: "nav-home" },
+  { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank"), tourId: "nav-bank" },
+  { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard"), tourId: "nav-hard" },
+  { label: "Practice Tests", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules"), tourId: "nav-modules" },
+  { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator"), tourId: "nav-calc" },
+  { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab"), tourId: "nav-vocab" },
 ];
 
-const secondaryItems = [
-  { label: "Settings", href: "/profile", icon: Settings, match: (pathname: string) => pathname.startsWith("/profile") },
-  { label: "Statistics", href: "/analysis", icon: BarChart3, match: (pathname: string) => pathname.startsWith("/analysis") },
+const secondaryItems: SidebarItem[] = [
+  { label: "Settings", href: "/profile", icon: Settings, match: (pathname: string) => pathname.startsWith("/profile"), tourId: "nav-settings" },
+  { label: "Statistics", href: "/analysis", icon: BarChart3, match: (pathname: string) => pathname.startsWith("/analysis"), tourId: "nav-stats" },
 ];
 
 const SidebarLink = ({
@@ -59,18 +68,21 @@ const SidebarLink = ({
   icon: Icon,
   active,
   showLabel = false,
+  tourId,
 }: {
   href: string;
   label: string;
   icon: typeof Home;
   active: boolean;
   showLabel?: boolean;
+  tourId?: string;
 }) => {
   return (
     <Link
       to={href}
       aria-label={label}
       title={label}
+      data-tour={tourId}
       className={cn(
         "flex h-9 items-center overflow-hidden rounded-lg text-[13px] font-medium transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
         showLabel ? "w-full pr-2" : "w-9 pr-0",
@@ -102,6 +114,7 @@ const FooterActionButton = ({
   variant = "ghost",
   className,
   title,
+  tourId,
 }: {
   label: string;
   icon: typeof Home;
@@ -110,6 +123,7 @@ const FooterActionButton = ({
   variant?: "ghost" | "outline";
   className?: string;
   title?: string;
+  tourId?: string;
 }) => {
   return (
     <button
@@ -117,6 +131,7 @@ const FooterActionButton = ({
       onClick={onClick}
       aria-label={label}
       title={title ?? label}
+      data-tour={tourId}
       className={cn(
         "flex h-9 items-center overflow-hidden rounded-lg text-[13px] font-medium transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
         expanded ? "w-full pr-2" : "w-9 pr-0",
@@ -201,6 +216,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
       )}
 
       <aside
+        data-tour="sidebar"
         className={cn(
           "fixed inset-y-0 left-0 z-40 flex flex-col border-r border-border/60 bg-card/95 py-3 backdrop-blur transition-[width,transform] duration-200 ease-out lg:px-4",
           isSidebarHidden
@@ -246,6 +262,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 icon={item.icon}
                 active={activePrimary === item.label}
                 showLabel={showExpandedContent}
+                tourId={item.tourId}
               />
             ))}
           </div>
@@ -270,6 +287,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                 icon={item.icon}
                 active={activeSecondary === item.label}
                 showLabel={showExpandedContent}
+                tourId={item.tourId}
               />
             ))}
           </div>
@@ -278,12 +296,22 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
         <div className="border-t border-border/70 pt-2.5">
           <div className="space-y-1.5 pb-1">
             <FooterActionButton
+              label="Replay tour"
+              icon={HelpCircle}
+              expanded={showExpandedContent}
+              onClick={() => window.dispatchEvent(new CustomEvent("onboarding:replay"))}
+              variant="outline"
+              title="Replay the intro tour"
+              tourId="tour-replay"
+            />
+            <FooterActionButton
               label={isDark ? "Light" : "Dark"}
               icon={SunMoon}
               expanded={showExpandedContent}
               onClick={handleThemeToggle}
               variant="outline"
               title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+              tourId="theme-toggle"
             />
 
             {user ? (

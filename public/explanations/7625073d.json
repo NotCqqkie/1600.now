@@ -1,0 +1,15 @@
+{
+  "questionId": "7625073d",
+  "correctAnswer": "49",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Divide both sides of $$7g+7b=840$$ by 7: $$g+b=120$$."
+    },
+    {
+      "title": "Solve for green tiles",
+      "content": "Substitute $b=71$ into $$g+b=120$$: $$g+71=120$$.<br/>Subtract 71 from both sides: $$g=49$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

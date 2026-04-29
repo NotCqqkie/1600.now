@@ -1,0 +1,19 @@
+{
+  "questionId": "0af701e7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the absolute value function",
+      "content": "First, simplify the expression inside the absolute value: $x - 4x = -3x$. Therefore, $f(x) = |-3x| = 3|x|$."
+    },
+    {
+      "title": "Evaluate f(5) and set up the equation",
+      "content": "Calculate $f(5) = 3|5| = 15$.<br/><br/>Using the given condition $f(5) - f(a) = -15$:<br/>$$15 - f(a) = -15$$<br/>$$f(a) = 30$$"
+    },
+    {
+      "title": "Solve for a",
+      "content": "Since $f(a) = 3|a|$, we have:<br/>$$3|a| = 30$$<br/>$$|a| = 10$$<br/><br/>This gives $a = 10$ or $a = -10$. Among the answer choices, only $a = 10$ appears. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

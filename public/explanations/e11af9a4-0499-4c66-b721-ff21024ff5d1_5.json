@@ -1,0 +1,15 @@
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical trigger in the 'too...to' construction",
+      "content": "The key signal is the phrase \u201ceconomic issues cannot remain the domain only of experts\u201d combined with \u201ctoo ______ to leave to economists alone.\u201d This structure means: because economics has a certain property, it cannot be confined to experts\u2014the public must be involved. What property would make something too important for experts to monopolize?"
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Critical (essential/crucial to a functioning democracy) fits the logic: if economics is too important, the public must understand it and experts cannot have sole control. The other three fail: complex would suggest experts should handle it more, while respectable and accessible don't explain why public involvement is necessary. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

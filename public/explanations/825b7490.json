@@ -1,0 +1,15 @@
+{
+  "questionId": "825b7490",
+  "correctAnswer": "980",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the proportion",
+      "content": "Since the ratio 140 to $m$ is equivalent to the ratio 4 to 28, we can write: $$\\frac{140}{m} = \\frac{4}{28}$$"
+    },
+    {
+      "title": "Simplify and solve",
+      "content": "Simplify the right side: $\\frac{4}{28} = \\frac{1}{7}$<br/><br/>So $\\frac{140}{m} = \\frac{1}{7}$. Cross-multiplying gives $140 \\cdot 7 = m$, therefore $m = 980$."
+    }
+  ]
+}

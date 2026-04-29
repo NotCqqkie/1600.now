@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure requiring connection",
+      "content": "The sentence has two independent clauses that need joining: <br/><strong>\u201cIt began to dim over the next few weeks\u201d</strong> (main clause completed) and <strong>\u201csupernovas are short-lived phenomena\u201d</strong> (main clause following the dependent clause \u201calthough they are extremely powerful\u201d). The task is choosing how to connect them."
+    },
+    {
+      "title": "Apply the rule for conjunctive adverbs",
+      "content": "When joining two independent clauses with a conjunctive adverb like \u201chowever,\u201d the standard pattern is: <strong>semicolon before the adverb, comma after</strong>. This produces: <em>It began to dim over the next few weeks; however, although they are extremely powerful, supernovas are short-lived phenomena.</em> Option C uses only a comma before \u201chowever,\u201d which violates this rule. Option D places a comma before and semicolon after, which reverses the correct pattern. Option B creates two separate sentences\u2014acceptable but not the SAT's preferred pattern when a close relationship between clauses exists. <strong>A</strong> is correct."
+    }
+  ]
+}

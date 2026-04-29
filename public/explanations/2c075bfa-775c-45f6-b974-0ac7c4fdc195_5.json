@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The underlined sentence begins with \u201cThis evidence is exciting because\u201d\u2014it explicitly labels the findings as significant AND provides a reason. This dual structure is the decisive clue about the sentence's function."
+    },
+    {
+      "title": "Match the function to the choices",
+      "content": "C directly matches: the sentence explains <em>why</em> the team's finding matters (the synganglion discovery helps us understand arthropod relationships). A contradicts the passage's positive framing of the evidence. B mistakes this for a definition when synganglion was already defined earlier. D misreads the passage\u2014both cave crickets and krill are presented as arthropods. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

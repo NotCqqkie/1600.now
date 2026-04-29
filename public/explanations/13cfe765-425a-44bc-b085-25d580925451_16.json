@@ -1,0 +1,15 @@
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the punctuation pattern",
+      "content": "The sentence uses an em dash to set off the appositive \u201cnow known as the Maunder Minimum.\u201d The next element\u2014\u201dwhen sunspots were notably scarce\u201d\u2014is a dependent clause that must be properly connected to the noun phrase it modifies."
+    },
+    {
+      "title": "Choose the em dash to maintain parallel structure",
+      "content": "An em dash before \u201cwhen\u201d (choice A) creates a parallel structure with the earlier em-dash, properly introducing the dependent clause. Options B, C, and D fail: B omits the necessary connector; C incorrectly uses a colon before a dependent clause (colons introduce lists or independent clauses); D uses a comma, which inconsistently mixes punctuation styles. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

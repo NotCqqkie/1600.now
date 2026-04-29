@@ -1,0 +1,15 @@
+{
+  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the coordinated verbs",
+      "content": "The relative clause links two verbs with and: are woven from sumac and [blank] bold colors, both applying to the plural subject which."
+    },
+    {
+      "title": "Apply the parallel verb structure rule",
+      "content": "Verbs joined by and must maintain parallel tense and subject agreement. Since <em>are woven</em> is present tense, option A (<em>feature</em>) is also present tense plural, maintaining parallelism. Options B, C, and D use past tenses, violating the rule. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key data point",
+      "content": "The study found that participants recruited through social networks showed much higher retention than those recruited by strangers. This comparison is the key to understanding what the finding suggests."
+    },
+    {
+      "title": "Determine what the comparison suggests",
+      "content": "Choice A directly identifies the mechanism: social connection creates obligation to persist. Choices B and C address recruitment likelihood and regional effectiveness (neither explained in the passage), while D contradicts the advantage by implying social networks include strangers. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

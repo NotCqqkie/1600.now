@@ -1,0 +1,19 @@
+{
+  "questionId": "3a01a5ee",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the absolute value definition",
+      "content": "When we have $|A| = B$ where $B > 0$, this means $A = B$ or $A = -B$.<br/>So $|-5x + 13| = 73$ gives us two cases to solve:<br/>$$-5x + 13 = 73 \\quad \\text{or} \\quad -5x + 13 = -73$$"
+    },
+    {
+      "title": "Solve both linear equations",
+      "content": "<ul><li><strong>Case 1:</strong> $-5x + 13 = 73$<br/>$$-5x = 60$$<br/>$$x = -12$$</li><li><strong>Case 2:</strong> $-5x + 13 = -73$<br/>$$-5x = -86$$<br/>$$x = \\frac{86}{5}$$</li></ul>"
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "Add the two solutions together:<br/>$$-12 + \\frac{86}{5} = \\frac{-60}{5} + \\frac{86}{5} = \\frac{26}{5}$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

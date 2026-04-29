@@ -1,0 +1,15 @@
+{
+  "questionId": "3cce51ea",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Subtract 61 from both sides of the equation:<br/>$$|p| + 61 = 65$$<br/>$$|p| = 65 - 61 = 4$$"
+    },
+    {
+      "title": "Solve for p",
+      "content": "The absolute value equation $|p| = 4$ has two solutions: $p = 4$ and $p = -4$. Looking at the answer choices, only 4 appears as an option. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

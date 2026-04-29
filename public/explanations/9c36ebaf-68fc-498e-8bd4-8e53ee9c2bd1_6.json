@@ -1,0 +1,15 @@
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two points on the line",
+      "content": "Reading from the graph, the line passes through two clear lattice points: $(-6, -7)$ on the left and $(6, -5)$ on the right."
+    },
+    {
+      "title": "Calculate slope using rise over run",
+      "content": "Use the slope formula:<br/>$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-5 - (-7)}{6 - (-6)} = \\frac{2}{12} = \\frac{1}{6}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

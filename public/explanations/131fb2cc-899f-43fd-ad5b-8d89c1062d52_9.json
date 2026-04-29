@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cross-multiply the proportion",
+      "content": "The equation $\\frac{2}{x} = \\frac{1}{7}$ is a proportion. Cross-multiply by setting the product of outer terms equal to the product of inner terms:<br/>$$2 \\cdot 7 = 1 \\cdot x$$"
+    },
+    {
+      "title": "Simplify to solve for x",
+      "content": "Calculate the left side: $2 \\cdot 7 = 14$. Therefore, $x = 14$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

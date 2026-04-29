@@ -1,0 +1,15 @@
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "The blank separates two seemingly contradictory strategies for naming a band: one emphasizes uniqueness/originality, the other references an <em>already recognizable</em> song. The transition must highlight this contrast."
+    },
+    {
+      "title": "Choose the logic that signals contradiction",
+      "content": "\u201cAlternatively\u201d introduces a contrasting option to the first strategy, aligning with the shift from \u201cunique and original\u201d to \u201crecognizable song.\u201d The other three confuse the relationship: \u201cThus\u201d implies causality, \u201cIn other words\u201d suggests restatement, and \u201cFor instance\u201d would logically follow the first strategy\u2014not contradict it. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast needing correction",
+      "content": "The sentence structure is \u201cChaucer didn't write in Modern English; [blank] he wrote in Middle English.\u201d The key signal is that the second clause provides an alternative to the negation in the first clause\u2014this is a direct correction."
+    },
+    {
+      "title": "Match the correction to the choices",
+      "content": "\u201dRather\u201d introduces a correction or alternative using the pattern \u201cnot X; rather, Y.\u201d The other options introduce causation, comparison, and sequence, which don't fit the corrective logic here. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

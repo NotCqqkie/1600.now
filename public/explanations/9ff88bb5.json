@@ -1,0 +1,15 @@
+{
+  "questionId": "9ff88bb5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understanding what the x-intercept represents",
+      "content": "An x-intercept is where the graph crosses the x-axis, which occurs when $y = 0$. In this problem, $y$ is the diver's height above the water in meters. When $y = 0$, the height is zero\u2014the diver is at the water's surface. Therefore, the x-intercept represents the moment the diver hits the water."
+    },
+    {
+      "title": "Reading the x-intercept from the graph",
+      "content": "The parabola crosses the x-axis at $x = 1.6$ seconds. This is the x-intercept, representing the time when the diver hits the water. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the two independent clauses that need coordination",
+      "content": "The sentence contains two independent clauses with the same subject (<strong>The resulting course</strong>): one about length (<em>was 2,500 miles long</em>) and one about representation (<em>modeled a vision of the EU's unifying aims</em>). The blank must connect these clauses while incorporating the detail about crossing borders."
+    },
+    {
+      "title": "Apply the coordination rule",
+      "content": "Option D (<strong>and, crossing</strong>) correctly coordinates the two independent clauses with <em>and</em>, inserting the participial phrase <em>crossing seven separate borders of neighboring countries</em> between the connector and the second verb <em>modeled</em> to create the pattern [IC], and [participial phrase], [IC], which is Standard English; A, B, and C mishandle this structure through punctuation (A), tense issues (B), or leaving \u201cmodeled\u201d uncoordinated (C). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "The first sentence states Spain's voting age is 18. The second introduces Brazil's voting age as 16. The key signal is that these two requirements directly oppose each other\u2014one is higher, one is lower."
+    },
+    {
+      "title": "Match the contrast to the choices",
+      "content": "<strong>By contrast</strong> directly signals opposition between Spain's higher voting age and Brazil's lower one. The other three transitions miss this contrast: \u201cFor example\u201d would incorrectly suggest Brazil exemplifies Spain's rule, \u201cFirstly\u201d implies a sequence, and \u201cTherefore\u201d suggests a logical consequence. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

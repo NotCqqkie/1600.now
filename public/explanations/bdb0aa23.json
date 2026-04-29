@@ -1,0 +1,15 @@
+{
+  "questionId": "bdb0aa23",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the greatest common factor",
+      "content": "Looking at $5x^5 - 6x^4 + 8x^3$: the coefficients 5, 6, and 8 share no common factor other than 1. The powers of $x$ are $x^5$, $x^4$, and $x^3$\u2014the minimum is $x^3$. So the GCF is $x^3$."
+    },
+    {
+      "title": "Factor out the GCF",
+      "content": "Divide each term by $x^3$:<br/><ul><li>$5x^5 \\div x^3 = 5x^2$</li><li>$-6x^4 \\div x^3 = -6x$</li><li>$8x^3 \\div x^3 = 8$</li></ul>Therefore: $$5x^5 - 6x^4 + 8x^3 = x^3(5x^2 - 6x + 8)$$This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

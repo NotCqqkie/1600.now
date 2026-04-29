@@ -1,0 +1,19 @@
+{
+  "questionId": "f04d40b2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Establish the confidence interval from margin of error",
+      "content": "The survey estimates 35% support with a margin of error of 3%. This means the true percentage supporting the legislation is plausibly between 35% \u2212 3% = 32% and 35% + 3% = 38%."
+    },
+    {
+      "title": "Convert percentage bounds to population counts",
+      "content": "The population is 50,000 people. Apply the percentage bounds:<br/>Lower bound: 0.32 \u00d7 50,000 = 16,000<br/>Upper bound: 0.38 \u00d7 50,000 = 19,000<br/>So a plausible value for the number of supporters falls between 16,000 and 19,000 people."
+    },
+    {
+      "title": "Check which choice falls in the plausible range",
+      "content": "Test each option:<ul><li>A) 350 \u2192 represents 0.7% of the population, far too small</li><li>B) 650 \u2192 represents 1.3% of the population, far too small</li><li>C) 16,750 \u2192 represents 33.5% of 50,000, which lies within [32%, 38%]</li><li>D) 31,750 \u2192 represents 63.5% of the population, far too large</li></ul>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

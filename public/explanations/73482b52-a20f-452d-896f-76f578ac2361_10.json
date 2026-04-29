@@ -1,0 +1,15 @@
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal: how the passage defines relaxation",
+      "content": "The passage explicitly states that \u201ca reduced heart rate is considered a measure of relaxation\u201d and that Bainbridge's claim is the lullaby \u201cdid indeed relax the infants.\u201d To support this claim directly, any finding must show heart rates dropped during the lullaby compared to the non-lullaby."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "Choice B directly reports substantially lower heart rates during the lullaby\u2014precisely the metric the passage identifies as proof of relaxation. A contradicts by showing irregularity rather than reduction; C relies on subjective parent preference instead of physiological measurement; D addresses methodology without evidence of the relaxation effect. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

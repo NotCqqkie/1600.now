@@ -1,0 +1,19 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the greatest common factor",
+      "content": "Both terms share the factor $p^{17}$ (the lower power of $p$). Factor it out:<br/>$$49p^{19}-121p^{17} = p^{17}(49p^2 - 121)$$"
+    },
+    {
+      "title": "Recognize the difference of squares pattern",
+      "content": "The remaining expression $49p^2 - 121$ is a difference of squares. Notice $49p^2 = (7p)^2$ and $121 = 11^2$, so:<br/>$$49p^2 - 121 = (7p)^2 - 11^2 = (7p - 11)(7p + 11)$$"
+    },
+    {
+      "title": "Write the complete factorization and identify the matching factor",
+      "content": "Substituting back gives:<br/>$$49p^{19}-121p^{17} = p^{17}(7p - 11)(7p + 11)$$<br/>The factors of the original expression are $p^{17}$, $(7p - 11)$, and $(7p + 11)$. The expression $7p + 11$ appears as a factor, which matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

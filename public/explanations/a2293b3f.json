@@ -1,0 +1,15 @@
+{
+  "questionId": "a2293b3f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank sits between \u201cinstrument\u201d (the final word of the subject noun phrase) and \u201care\u201d (the main verb of the independent clause). It marks the boundary between subject and verb."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "A subject and its main verb must not be separated by punctuation in standard English. The correct answer is B\u2014\u201dinstrument\u201d connects directly to \u201care\u201d without any punctuation. All three alternatives violate this rule by inserting a mark (colon, dash, or comma) at the subject-verb boundary. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

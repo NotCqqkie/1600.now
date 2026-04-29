@@ -1,0 +1,17 @@
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate x",
+      "content": "$$ y = \\frac{x}{3}+4 $$<br/>$$ y = -\\frac{x}{3}+40 $$<br/>Adding the left\u2011hand sides gives $$ y+y = 2y $$.<br/>Adding the right\u2011hand sides gives $$ \\left(\\frac{x}{3}+4\\right)+\\left(-\\frac{x}{3}+40\\right) $$.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Simplify to find 2y",
+      "content": "$$ \\left(\\frac{x}{3}+4\\right)+\\left(-\\frac{x}{3}+40\\right) = \\frac{x}{3}-\\frac{x}{3}+4+40 = 44 $$.<br/>Thus $$ 2y = 44 $$.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

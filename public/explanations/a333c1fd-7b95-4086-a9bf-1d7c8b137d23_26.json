@@ -1,0 +1,15 @@
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the location reference",
+      "content": "The first sentence names India as the country of origin. The blank must connect the production statistic to that same location."
+    },
+    {
+      "title": "Apply the location signal",
+      "content": "B (There) functions as a locative adverb pointing back to India, establishing where the production statistic applies. The other three don't establish the location reference; they introduce consequence, emphasis, or elaboration instead.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

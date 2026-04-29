@@ -1,0 +1,15 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the condition for a solution",
+      "content": "A system of two linear equations has at least one solution if and only if the lines are <strong>not parallel</strong>. The lines can either be identical (infinitely many solutions) or intersecting (one solution)."
+    },
+    {
+      "title": "Test each equation to determine which could be in the system",
+      "content": "<strong>Equation \u2160: $10.5x + 7.5y = 3$</strong><br/>Divide by 1.5 to check if it's a scalar multiple of the original: $7x + 5y = 2$. Yes, \u2160 is the same line. \u2713<br/><br/><strong>Equation \u2161: $10.5x - 7.5y = 3$</strong><br/>Rewrite the original in slope form: $y = -\\frac{7}{5}x + \\frac{2}{5}$ (slope $-\\frac{7}{5}$).<br/>Rewrite \u2161: $y = \\frac{7}{5}x - \\frac{2}{5}$ (slope $\\frac{7}{5}$).<br/>Different slopes mean the lines intersect. \u2713<br/><br/>Both equations allow the system to have at least one solution. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

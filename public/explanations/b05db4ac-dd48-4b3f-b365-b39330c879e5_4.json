@@ -1,0 +1,19 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle relationship",
+      "content": "Line $s$ is a transversal cutting two parallel lines $q$ and $r$. The angle of 61\u00b0 is marked at the intersection with line $q$ (above the line), and angle $y$ is marked at the intersection with line $r$ (in the interior region between the parallel lines, on the left side of the transversal). These are <strong>co-interior angles</strong> (also called same-side interior angles)."
+    },
+    {
+      "title": "Apply the co-interior angle property",
+      "content": "When a transversal cuts two parallel lines, co-interior angles are supplementary\u2014they sum to 180\u00b0. Therefore:<br/><br/>$$61\u00b0 + y\u00b0 = 180\u00b0$$<br/><br/>Solving for $y$:<br/><br/>$$y\u00b0 = 180\u00b0 - 61\u00b0 = 119\u00b0$$"
+    },
+    {
+      "title": "Substitute into the equation and solve for $x$",
+      "content": "We're given that $y = 2x + 9$. Since $y = 119$:<br/><br/>$$119 = 2x + 9$$<br/><br/>$$110 = 2x$$<br/><br/>$$x = 55$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

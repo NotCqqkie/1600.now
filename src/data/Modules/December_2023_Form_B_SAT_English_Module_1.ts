@@ -650,40 +650,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Standard English Conventions",
-    "skill": "Boundaries",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "25547537-4b75-4c1c-8c86-e3b70293c301_19",
-    "testName": "December 2023 Form B SAT English Module 1",
-    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nJulia Alvarez's 1994 novel *In the Time of the Butterflies*, a fictionalized account of the lives of the Mirabal ______ can serve as a starting point for those wanting to explore how the rule of dictator Rafael Trujillo has been represented in Dominican American literature.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Sisters, and"
-      },
-      {
-        "id": "B",
-        "text": "sisters and"
-      },
-      {
-        "id": "C",
-        "text": "sisters,"
-      },
-      {
-        "id": "D",
-        "text": "sisters"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Standard English Conventions",
       "skill": "Boundaries",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice C is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon to correctly join the first main clause (“The Mission…parks”) and the second main clause that begins with “it.”\nChoice A is incorrect. When coordinating two longer main clauses such as these, it’s conventional to use a comma before the coordinating conjunction. Choice B is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction. Choice D is incorrect because it results in a comma splice. Without a conjunction following it, a comma can’t be used in this way to join two main clauses.",
+      "id": "89fbc3eb",
+      "testName": "SAT Question Bank",
+      "text": "The Mission 66 initiative, which was approved by Congress in 1956, represented a major investment in the infrastructure of overburdened national ______ it prioritized physical improvements to the parks’ roads, utilities, employee housing, and visitor facilities while also establishing educational programming for the public. Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "correctAnswer": "C",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "parks and"
+          },
+          {
+              "id": "B",
+              "text": "parks"
+          },
+          {
+              "id": "C",
+              "text": "parks;"
+          },
+          {
+              "id": "D",
+              "text": "parks,"
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

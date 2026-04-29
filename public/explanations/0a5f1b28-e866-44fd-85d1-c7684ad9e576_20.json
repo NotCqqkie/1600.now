@@ -1,0 +1,15 @@
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two independent clauses requiring connection",
+      "content": "The sentence presents two related independent clauses: <em>\u201cShe was not alone in her efforts\u201d</em> and <em>\u201cFernando Orejuela and Stephanie Shonekan, among other scholars, also contributed to the project.\u201d</em> The transition word \u201chowever\u201d must connect them."
+    },
+    {
+      "title": "Apply the rule for punctuating a conjunctive adverb between independent clauses",
+      "content": "Two independent clauses joined by a conjunctive adverb require: IC<strong>;</strong> however<strong>,</strong> IC (semicolon before, comma after). When unavailable, a colon can introduce an elaborating clause: IC<strong>:</strong> however<strong>,</strong> IC. The second clause here elaborates on why she was not alone, making a colon appropriate. A incorrectly places a comma before and a semicolon after \u201chowever\u201d; B omits all punctuation (creating a run-on); D mistakenly uses comma-however-comma. This matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

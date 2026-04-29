@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the internal comma in the appositive phrase",
+      "content": "The phrase <strong>\u201csuch as 'karst,' which refers to limestone terrain riddled with caves or sinkholes\u201d</strong> provides examples of the terms and is a non-restrictive appositive. The key signal is the internal comma after <em>\u201ckarst,\u201d</em> which determines what punctuation can properly separate this phrase from the noun."
+    },
+    {
+      "title": "Apply the punctuation rule for appositives with internal punctuation",
+      "content": "A dash is required to separate an appositive phrase containing internal commas from its noun, preventing the external punctuation from merging with those internal commas and blurring the phrase boundary. A comma would create confusion with the internal comma; a colon doesn't function for appositives; no punctuation leaves the structure unclear. The dash also echoes the dash before <strong>\u201cillustrate\u201d</strong> at the sentence's end, framing the appositive phrase. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

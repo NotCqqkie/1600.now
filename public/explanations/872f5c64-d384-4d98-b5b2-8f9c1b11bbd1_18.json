@@ -1,0 +1,15 @@
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main subject",
+      "content": "The main subject is \u201cBlaise Pascal's Pascaline device\u201d (a singular noun phrase). The em-dash phrase provides additional context but doesn't change the subject."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "A singular subject requires a singular finite verb form. \u201cwas\u201d (C) is the only choice that works. \u201cbeing\u201d (A) is not a finite verb; \u201cwere\u201d (B) and \u201care\u201d (D) are both plural forms that violate agreement. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

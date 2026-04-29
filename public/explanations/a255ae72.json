@@ -1,0 +1,16 @@
+{
+  "questionId": "a255ae72",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given expressions and simplify",
+      "content": "Given $x^2 = a + b$ and $y^2 = a + c$:\n$$x^2 - y^2 = (a + b) - (a + c) = b - c$$\nThe $a$ terms cancel, leaving just $b - c$."
+    },
+    {
+      "title": "Square the difference and identify the answer",
+      "content": "We need $(x^2 - y^2)^2 = (b - c)^2$.\n\nApplying the perfect square formula with $p = b$ and $q = c$:\n$$(b - c)^2 = b^2 - 2bc + c^2$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$(p - q)^2 = p^2 - 2pq + q^2$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate labor costs for total hours",
+      "content": "The company charges $112 for the first hour and $40 for each additional hour. For $x > 1$, total labor cost is:<br/><br/>$$112 + 40(x - 1)$$<br/><br/>Simplify by distributing and combining constants: $$112 + 40x - 40 = 40x + 72$$"
+    },
+    {
+      "title": "Add the cost of parts to the total",
+      "content": "The total cost $y$ includes the labor cost $40x + 72$ plus the parts cost $z$:<br/><br/>$$y = 40x + 72 + z$$<br/><br/>Rearranged, this becomes $$y = 40x + z + 72$$, which matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

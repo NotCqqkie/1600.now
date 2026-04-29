@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b6f0d1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the term with 4x",
+      "content": "To find an equation with the same solution, subtract 6 from both sides of $4x + 6 = 18$:<br/>$$4x + 6 - 6 = 18 - 6$$<br/>$$4x = 12$$"
+    },
+    {
+      "title": "Identify the equivalent equation",
+      "content": "The simplified form $4x = 12$ is equivalent to the original equation. This is choice C. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f79fffba",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = -2 into the function definition",
+      "content": "Since we need to find $h(-2)$, substitute $x = -2$ into the given function:<br/>$$h(-2) = 3(-2) - 7$$"
+    },
+    {
+      "title": "Simplify to find the result",
+      "content": "Multiply first, then subtract:<br/>$$h(-2) = -6 - 7 = -13$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

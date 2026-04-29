@@ -1,0 +1,15 @@
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign and group by degree",
+      "content": "Distribute the negative sign across the second polynomial: $(6t^4 - 3t^2 + 3t - 6) - (2t^4 - 4t^3 + 6t^2 - 6)$ becomes $$6t^4 - 3t^2 + 3t - 6 - 2t^4 + 4t^3 - 6t^2 + 6$$ Group terms by degree: <ul><li>$t^4$ terms: $6t^4 - 2t^4$</li><li>$t^3$ terms: $4t^3$</li><li>$t^2$ terms: $-3t^2 - 6t^2$</li><li>$t$ terms: $3t$</li><li>Constants: $-6 + 6$</li></ul>"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add each group: <ul><li>$t^4$: $6t^4 - 2t^4 = 4t^4$</li><li>$t^3$: $4t^3$</li><li>$t^2$: $-3t^2 - 6t^2 = -9t^2$</li><li>$t$: $3t$</li><li>Constants: $-6 + 6 = 0$</li></ul> The simplified expression is $4t^4 + 4t^3 - 9t^2 + 3t$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

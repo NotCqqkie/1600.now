@@ -1,0 +1,15 @@
+{
+  "questionId": "5222ffab",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the key finding",
+      "content": "The notes state <strong>\u201cThey found that certain fibers allow the brain to toggle from one method of processing smells to another\u201d</strong> and then specify both methods: capturing information at a given moment, and tracking changes over time. An effective summary must present this discovery\u2014the toggle mechanism and both processing approaches."
+    },
+    {
+      "title": "Match the finding to the choices",
+      "content": "Choice D directly reports both methods of smell processing and the toggle between them\u2014exactly what the study found. Choices A, B, and C fail to summarize the findings: A foregrounds the methodology instead, B describes only one method, and C describes the research goal rather than what was discovered. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

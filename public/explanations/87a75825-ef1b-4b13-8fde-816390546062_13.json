@@ -1,0 +1,15 @@
+{
+  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_13",
+  "correctAnswer": "26/3,8.666,8.667",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value and convert to a quadratic",
+      "content": "Start with $-8|3x - 13| + 4 = -36$. Subtract 4 and divide by $-8$:<br/>$$|3x - 13| = 5$$<br/>Square both sides to eliminate the absolute value:<br/>$$(3x - 13)^2 = 25$$<br/>$$9x^2 - 78x + 169 = 25$$<br/>$$9x^2 - 78x + 144 = 0$$"
+    },
+    {
+      "title": "Apply Vieta's formula for the sum of roots",
+      "content": "For a quadratic $ax^2 + bx + c = 0$, the sum of the roots equals $-\\frac{b}{a}$. We don't need to solve the equation.<br/><br/>In $9x^2 - 78x + 144 = 0$: $a = 9$ and $b = -78$.<br/><br/>Sum of roots = $-\\frac{(-78)}{9} = \\frac{78}{9} = \\frac{26}{3}$"
+    }
+  ]
+}

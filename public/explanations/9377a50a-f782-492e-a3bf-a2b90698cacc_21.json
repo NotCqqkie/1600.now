@@ -1,0 +1,15 @@
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up and expand the factorization",
+      "content": "If $(x + 28y)$ is a factor of $x^2 + bxy + cy^2$, then the expression equals $(x + 28y)(x + ay)$. Expanding:\n$$x^2 + axy + 28xy + 28ay^2 = x^2 + (a+28)xy + 28ay^2$$\n\nComparing coefficients:\n<ul><li>From the $y^2$ term: $c = 28a$, so $a = \\frac{c}{28}$</li><li>From the $xy$ term: $b = a + 28 = \\frac{c}{28} + 28$</li></ul>"
+    },
+    {
+      "title": "Find the matching choice",
+      "content": "For <strong>Choice A</strong> with $x^2 + 29xy + 28y^2$: We have $c = 28$, so $a = \\frac{28}{28} = 1$. Then $b = 1 + 28 = 29$, which matches the given middle coefficient. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

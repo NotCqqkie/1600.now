@@ -1,0 +1,19 @@
+{
+  "questionId": "b1e1c2f5",
+  "correctAnswer": "54",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the ratio of E's position on AC",
+      "content": "Given CE = 2AE and E is on segment AC, we can write: AC = AE + CE = AE + 2AE = 3AE. Therefore: $$\\frac{AE}{AC} = \\frac{1}{3}$$"
+    },
+    {
+      "title": "Apply similar triangles theorem",
+      "content": "Since DE \u2225 BC, triangle ADE is similar to triangle ABC. The ratio of corresponding sides from vertex A equals: $$\\frac{DE}{BC} = \\frac{AE}{AC} = \\frac{1}{3}$$"
+    },
+    {
+      "title": "Calculate DE",
+      "content": "Using $\\frac{DE}{BC} = \\frac{1}{3}$ with BC = 162: $$DE = \\frac{1}{3} \\times 162 = 54$$"
+    }
+  ]
+}

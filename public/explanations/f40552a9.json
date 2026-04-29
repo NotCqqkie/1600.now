@@ -1,0 +1,15 @@
+{
+  "questionId": "f40552a9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the y-intercept represents",
+      "content": "The y-intercept is the point where a line crosses the y-axis, which occurs when $x = 0$."
+    },
+    {
+      "title": "Read the y-coordinate from the graph",
+      "content": "Looking at where the line intersects the y-axis on the graph, the crossing point is at $y = 8$. The y-intercept is the point $(0, 8)$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

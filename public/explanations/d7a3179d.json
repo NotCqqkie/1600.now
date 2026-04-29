@@ -1,0 +1,15 @@
+{
+  "questionId": "d7a3179d",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the division",
+      "content": "To convert inches to yards, divide by the conversion factor 36 (since 1 yard = 36 inches):<br/>$$\\frac{1,116}{36}$$"
+    },
+    {
+      "title": "Evaluate the division",
+      "content": "Calculating the result:<br/>$$\\frac{1,116}{36} = 31$$<br/>Therefore, <strong>31 yards</strong> is the answer."
+    }
+  ]
+}

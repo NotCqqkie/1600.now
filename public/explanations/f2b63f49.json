@@ -1,0 +1,15 @@
+{
+  "questionId": "f2b63f49",
+  "correctAnswer": "130",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "On the left side, combine $8x$ and $-7x$:<br/>$$8x - 7x = x$$<br/>The equation becomes: $$x + 130 = 260$$"
+    },
+    {
+      "title": "Isolate x",
+      "content": "Subtract 130 from both sides:<br/>$$x + 130 - 130 = 260 - 130$$<br/>$$x = 130$$"
+    }
+  ]
+}

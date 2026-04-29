@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_18",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the structure",
+      "content": "The blank falls between the noun \u201canalysis\u201d and the phrase \u201con historical context...might yield.\u201d Since \u201cmight yield\u201d functions as the sentence's main verb, the blank must provide a modifier of \u201canalysis,\u201d not another main verb."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Using the participle \u201cfocusing\u201d forms a participial phrase that modifies \u201canalysis\u201d while \u201cmight yield\u201d remains the sole main verb. This conforms to the rule that participles modifying nouns must be non-finite. The other options\u2014would focus, focuses, and would be focusing\u2014are all finite verbs that would create two main verbs in one clause, violating this rule. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

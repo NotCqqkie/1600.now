@@ -1,0 +1,28 @@
+{
+  "questionId": "c4d49134",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Backsolving \u2014 testing choice B (43)",
+      "content": "Backsolving \u2014 testing choice B (43):<br/>Plug $t = 5$ into the given equation:<br/>$$s = 40 + 3t$$<br/>$$s = 40 + 3(5) = 40 + 15 = 55$$<br/>The tested value 43 does not equal 55, so choice B is incorrect.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Backsolving \u2014 testing choice C (45)",
+      "content": "Backsolving \u2014 testing choice C (45):<br/>Plug $t = 5$ into the given equation:<br/>$$s = 40 + 3t$$<br/>$$s = 40 + 3(5) = 40 + 15 = 55$$<br/>The tested value 45 does not equal 55, so choice C is incorrect.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Backsolving \u2014 testing choice D (55)",
+      "content": "Backsolving \u2014 testing choice D (55):<br/>Plug $t = 5$ into the given equation:<br/>$$s = 40 + 3t$$<br/>$$s = 40 + 3(5) = 40 + 15 = 55$$<br/>The tested value 55 equals the computed speed.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

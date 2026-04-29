@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "After the semicolon, the structure is subject (\u201cthis function\u201d) with an embedded modifying phrase, followed by the blank, then a prepositional phrase (\u201cfrom the biocompatible properties of these particles\u201d). An independent clause requires a finite verb as its main verb."
+    },
+    {
+      "title": "Apply the rule and choose",
+      "content": "A semicolon separates two independent clauses; the second clause must have a finite verb. \u201cStems,\u201d a simple present-tense verb that agrees with the singular subject \u201cthis function,\u201d serves as the main verb. Participles (\u201cstemming,\u201d \u201chaving stemmed\u201d) and an infinitive (\u201cto stem\u201d) cannot function as a clause's main verb. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

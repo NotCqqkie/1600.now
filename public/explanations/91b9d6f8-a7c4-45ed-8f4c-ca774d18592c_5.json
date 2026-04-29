@@ -1,0 +1,15 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "When subtracting the entire expression, distribute the negative sign to both terms in the second parentheses:<br/>$$-1(4c^3 - 6) = -4c^3 + 6$$<br/>So: $(9c + 8) - (4c^3 - 6) = 9c + 8 - 4c^3 + 6$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group terms by type: the $c^3$ term is $-4c^3$, the $c$ term is $9c$, and combine the constants $8 + 6 = 14$.<br/>$$-4c^3 + 9c + 14$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

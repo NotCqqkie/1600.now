@@ -1,0 +1,19 @@
+{
+  "questionId": "9f6f96ff",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the system of equations from the problem",
+      "content": "The wire is cut into two parts totaling 106 inches:<br/>$$x + y = 106$$<br/>The problem states x is 6 more than 4 times y:<br/>$$x = 4y + 6$$"
+    },
+    {
+      "title": "Substitute and solve for y",
+      "content": "Substitute the second equation into the first:<br/>$$(4y + 6) + y = 106$$<br/>$$5y + 6 = 106$$<br/>$$5y = 100$$<br/>$$y = 20$$"
+    },
+    {
+      "title": "Calculate x and identify the choice",
+      "content": "Substitute $y = 20$ into $x = 4y + 6$:<br/>$$x = 4(20) + 6$$<br/>$$x = 80 + 6$$<br/>$$x = 86$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

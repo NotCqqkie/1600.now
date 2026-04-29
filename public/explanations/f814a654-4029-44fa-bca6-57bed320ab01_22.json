@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signal",
+      "content": "The opening sentence establishes \u201cMost solar eclipses from long ago have been forgotten, but not all.\u201d This \u201cbut not all\u201d sets up an expectation that the next sentence will provide a specific eclipse that was remembered\u2014an example illustrating the exception to the general rule."
+    },
+    {
+      "title": "Choose the matching transition",
+      "content": "\u201dFor example\u201d directly introduces a specific instance that proves the \u201cbut not all\u201d claim. Next implies sequencing, Regardless implies dismissal or contradiction, and In summary implies conclusion\u2014none of which fit the need to present a concrete example. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

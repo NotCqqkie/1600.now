@@ -1,0 +1,15 @@
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the evidence pattern shows",
+      "content": "The key signal is <em>\u201cseveral other studies conducted outside North America... showed similar results to the North American studies, while few have produced results similar to those of Porvari and Verta's study.\u201d</em> Most studies across regions found the positive association; few found no correlation."
+    },
+    {
+      "title": "Apply this pattern to the answer choices",
+      "content": "Choice D expresses the logical conclusion: <em>\u201cdissolved organic carbon and mercury levels do typically rise and fall together in fresh water.\u201d</em> When most evidence points to the positive association globally, that association is typical and widespread. The other three contradict this\u2014A wrongly claims the association is particular to North America when it's actually found widely, while B and C introduce irrelevant concerns the passage doesn't support. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

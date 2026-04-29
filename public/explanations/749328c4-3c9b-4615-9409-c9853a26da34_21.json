@@ -1,0 +1,15 @@
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the general-to-specific relationship",
+      "content": "The first sentence states that Downs draws on \u201ca variety of Mexican musical genres\u201d \u2014 a broad claim. The second sentence immediately names specific examples: corridos, rancheras, and other northern Mexican genres. The transition must signal movement from a general statement to concrete examples."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "\u201dSpecifically\u201d introduces concrete examples that elaborate on the general claim. The other three\u2014\u201dTherefore,\u201d \u201cIn conclusion,\u201d and \u201cRather\u201d\u2014either suggest logical consequence, closure, or contradiction, none of which apply here. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

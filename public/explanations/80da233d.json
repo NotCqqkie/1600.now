@@ -1,0 +1,19 @@
+{
+  "questionId": "80da233d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constraint on daily weight gain",
+      "content": "The elephant gains <em>more than 2 but less than 3</em> pounds per day. In inequality form:<br/>$$2 < \\text{daily gain} < 3$$"
+    },
+    {
+      "title": "Find the range of total weight gain over 365 days",
+      "content": "Multiply all parts by 365 to find the range of total weight gained over 365 days:<br/>$$2 \\times 365 < \\text{daily gain} \\times 365 < 3 \\times 365$$<br/>$$730 < \\text{total gain} < 1,095$$"
+    },
+    {
+      "title": "Calculate the final weight w",
+      "content": "The final weight equals initial weight plus total gain. Since $730 < \\text{total gain} < 1,095$, add 200 to all parts:<br/>$$200 + 730 < w < 200 + 1,095$$<br/>$$930 < w < 1,295$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the row being requested",
+      "content": "The passage specifies <em>\u201cthe area of the Yakama Nation in Washington\u201d</em> \u2014 this exactly identifies which row in the table to use."
+    },
+    {
+      "title": "Extract the correct value",
+      "content": "The Yakama Nation, Washington row displays 2,188 square miles in the area column. The other options are all real values from the table but correspond to different nations. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

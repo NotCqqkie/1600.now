@@ -1,0 +1,15 @@
+{
+  "questionId": "64d1f49f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle relationship at the intersection",
+      "content": "Two straight lines intersect at a point, creating four angles. The angles $w\u00b0$ and $z\u00b0$ are positioned opposite each other at the intersection point, which makes them <strong>vertical angles</strong>."
+    },
+    {
+      "title": "Apply the vertical angles theorem",
+      "content": "Vertical angles\u2014the opposite angles formed by two intersecting lines\u2014are always congruent. Since $w$ and $z$ are vertical angles:<br/>$$z = w = 136$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

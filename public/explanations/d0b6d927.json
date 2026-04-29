@@ -1,0 +1,16 @@
+{
+  "questionId": "d0b6d927",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the rectangle area formula",
+      "content": "The area of a rectangle is found using <strong>Area = length \u00d7 width</strong>. We know the area is 63 square meters and the length is 9 meters. Substituting these values into the formula:\n\n$$63 = 9 \\times \\text{width}$$",
+      "formula": "$$A = l \\times w$$"
+    },
+    {
+      "title": "Solve for width",
+      "content": "Divide both sides by 9 to isolate the width:\n\n$$\\text{width} = \\frac{63}{9} = 7$$\n\nThe width is 7 meters. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "c7789423",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the two cases from the absolute value",
+      "content": "For $|x-2| = 9$, the absolute value definition tells us that either $x - 2 = 9$ or $x - 2 = -9$.",
+      "formula": "$$|A| = B \\quad \\Rightarrow \\quad A = B \\text{ or } A = -B$$"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "<strong>Case 1:</strong> If $x - 2 = 9$, then<br/>$$x = 11$$<strong>Case 2:</strong> If $x - 2 = -9$, then<br/>$$x = -7$$<br/>Since the problem asks for one possible solution, 11 is a valid answer."
+    }
+  ]
+}

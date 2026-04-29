@@ -1,0 +1,15 @@
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The notes emphasize <strong>1969</strong> as the year Marvin Minsky won the A.M. Turing Award. This specific year is the decisive clue for emphasizing <em>when</em> he won the award, not his contributions or the award\u2019s description."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice B starts with <em>\u2018It was in 1969\u2026\u2019</em>, placing the year at the forefront to stress timing. The other choices mention the award\u2019s prestige (C), Minsky\u2019s category as a winner (D), or restate his contributions (A), none of which emphasize the year. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

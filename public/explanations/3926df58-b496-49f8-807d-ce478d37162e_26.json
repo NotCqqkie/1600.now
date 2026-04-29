@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_26",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key contrast signal",
+      "content": "To contrast the compounds, the answer must highlight what's different about them. The notes show that dichloromethane (an HCC) contains hydrogen, chlorine, and carbon, while tetradecafluorohexane (a PFC) contains fluorine and carbon\u2014the elemental difference that distinguishes them."
+    },
+    {
+      "title": "Find the choice that creates the contrast",
+      "content": "Choice A presents the two compounds' compositions in parallel form, exposing their elemental differences. Choices B, C, and D either stress what the compounds share or mention only one compound. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

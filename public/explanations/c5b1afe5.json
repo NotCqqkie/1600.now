@@ -1,0 +1,15 @@
+{
+  "questionId": "c5b1afe5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast",
+      "content": "The sentence contrasts \u201csome locations\u201d with \u201cother areas with insufficient supply,\u201d where insufficient supply means too few bicycles. The blank must describe the opposite condition for those other locations."
+    },
+    {
+      "title": "Match the supply condition",
+      "content": "\u201dSaturated with\u201d means overstocked or filled to capacity\u2014the word that captures how one-way trips create an imbalance, leaving some locations with excess bicycles and others with shortages. The other choices don't work: \u201csusceptible to\u201d and \u201ccontingent on\u201d are contextually inappropriate, and \u201cdepleted of\u201d would repeat the insufficient-supply problem rather than show the contrast. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

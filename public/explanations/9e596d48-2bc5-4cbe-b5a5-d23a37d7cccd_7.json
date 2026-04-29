@@ -1,0 +1,28 @@
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_7",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal to form a quadratic",
+      "content": "$$y = -0.5 = x^2 + 10x + a$$<br/>$$x^2 + 10x + a + 0.5 = 0$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Apply the discriminant condition for no real solutions",
+      "content": "For $$Ax^2 + Bx + C = 0$$, no real solutions when discriminant $$B^2 - 4AC < 0$$.<br/>Here $$A=1, B=10, C = a+0.5$$.<br/>So $$10^2 - 4(1)(a+0.5) < 0$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve the inequality for a",
+      "content": "$$100 - 4a - 2 < 0$$<br/>$$98 - 4a < 0$$<br/>$$4a > 98$$<br/>$$a > 24.5$$<br/>Since $$a$$ is a positive integer, the least possible value is $$a = 25$$.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

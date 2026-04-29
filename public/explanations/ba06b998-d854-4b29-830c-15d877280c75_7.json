@@ -1,0 +1,16 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_7",
+  "correctAnswer": "3510",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up and sum all five masses",
+      "content": "The mean is the sum of all values divided by the count. Add the five masses:<br/>$$3,810 + 3,810 + 3,030 + 3,850 + 3,050$$<br/>Working left to right:<br/>$$3,810 + 3,810 = 7,620$$<br/>$$7,620 + 3,030 = 10,650$$<br/>$$10,650 + 3,850 = 14,500$$<br/>$$14,500 + 3,050 = 17,550$$",
+      "formula": "$$\\text{mean} = \\frac{\\text{sum of all values}}{\\text{number of values}}$$"
+    },
+    {
+      "title": "Divide by the count to find the mean",
+      "content": "Now divide the sum by 5 (the number of lemurs):<br/>$$\\frac{17,550}{5} = 3,510$$<br/>The mean mass is <strong>3,510 grams</strong>."
+    }
+  ]
+}

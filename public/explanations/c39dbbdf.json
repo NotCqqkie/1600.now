@@ -1,0 +1,15 @@
+{
+  "questionId": "c39dbbdf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel lines property: they have the same slope",
+      "content": "Since line <em>s</em> is parallel to line <em>r</em>, both lines have the same slope. I need to find the slope of line <em>r</em> from its equation $4x - 9y = 3$ by converting to slope-intercept form."
+    },
+    {
+      "title": "Rewrite the equation to find the slope",
+      "content": "Solve for $y$:<br/><br/>$$-9y = -4x + 3$$<br/><br/>$$y = \\frac{4}{9}x - \\frac{1}{3}$$<br/><br/>In slope-intercept form, the slope is the coefficient of $x$, which is $\\frac{4}{9}$. Therefore, the slope of line <em>s</em> is $\\frac{4}{9}$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

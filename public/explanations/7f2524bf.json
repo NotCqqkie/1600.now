@@ -1,0 +1,19 @@
+{
+  "questionId": "7f2524bf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the y-intercept represents",
+      "content": "The <strong>y-intercept</strong> is where the curve crosses the y-axis, which occurs at $x = 0$. Since $x$ represents the number of months <strong>after purchase</strong>, setting $x = 0$ means the moment of purchase. The y-intercept therefore shows the tablet's initial value."
+    },
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "Looking at the graph at $x = 0$, the curve begins at $y = 225$ dollars."
+    },
+    {
+      "title": "Interpret in context",
+      "content": "The y-intercept value of 225 represents what the tablet was worth at $x = 0$ months after purchase\u2014that is, at the moment it was purchased. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

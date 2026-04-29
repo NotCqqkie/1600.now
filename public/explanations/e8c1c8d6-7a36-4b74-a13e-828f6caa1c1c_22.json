@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The first sentence states that the probe shortened the orbital period by <strong>32 minutes</strong>; the sentence after the blank provides the <strong>specific times before and after</strong> (11 hours 55 minutes to 11 hours 23 minutes). The transition needs to show that the second statement clarifies or illustrates the first."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<strong>\u201cThat is,\u201d</strong> means \u201cin other words\u201d \u2014 it clarifies or restates a previous point with more specific information. The other choices don't work for a clarification: Furthermore adds new information, Meanwhile shows parallel action, and For example presents a separate case. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

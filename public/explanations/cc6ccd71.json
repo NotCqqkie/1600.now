@@ -1,0 +1,15 @@
+{
+  "questionId": "cc6ccd71",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that f(x) = 0 means x-intercepts",
+      "content": "The question asks for how many values of $x$ the function $f(x) = 0$. This is asking us to count how many times the graph crosses the x-axis."
+    },
+    {
+      "title": "Trace the curve left to right and count crossings",
+      "content": "Starting from the left side of the graph:<br/><ul><li>Around $x = -4$: the curve crosses the x-axis, moving from above to below</li><li>Around $x = 0$: the curve crosses the x-axis again, moving from below to above</li><li>Around $x = 5$: the curve crosses the x-axis a third time, moving from above to below</li></ul>To the right of $x = 5$, the curve remains below the x-axis and does not cross again. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

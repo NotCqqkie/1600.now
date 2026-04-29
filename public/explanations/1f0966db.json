@@ -1,0 +1,21 @@
+{
+  "questionId": "1f0966db",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "We start with $$f(x)=\\frac{9}{7}x+\\frac{8}{7}=5$$. Multiply both sides by 7 to eliminate fractions: $$7\\cdot\\left(\\frac{9}{7}x+\\frac{8}{7}\\right)=7\\cdot5$$. Simplify: $$9x+8=35$$.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for x",
+      "content": "From $$9x+8=35$$, subtract 8: $$9x=27$$. Divide by 9: $$x=3$$. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

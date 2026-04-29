@@ -1,0 +1,19 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_12",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the total number of items",
+      "content": "Green items represent 25% of the total. Let T be the total number of items. Then $$0.25T = 40$$.<br/>Solving gives $$T = \\frac{40}{0.25} = 160$$.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Calculate the number of blue items",
+      "content": "Blue items are 35% of the total. So $$0.35 \\times 160 = 56$$.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

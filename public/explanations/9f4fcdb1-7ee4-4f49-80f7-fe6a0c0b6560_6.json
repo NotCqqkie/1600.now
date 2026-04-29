@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shared prerequisite",
+      "content": "Text 1 calls root-to-root separation an \u201cessential step\u201d and Text 2 calls it \u201cthe necessary precaution.\u201d Despite disagreeing on whether Wang's full design succeeds, both authors agree that separating root systems is a required foundation for properly examining whether a CMN transfers nutrients."
+    },
+    {
+      "title": "Match the prerequisite to the choices",
+      "content": "Choice C directly states what both authors treat as a prerequisite: without precluding root-to-root transfer, determining the CMN mechanism is impossible. <br/> The other three either invent unsupported claims (A), confuse necessity with sufficiency (B), or impose unstated requirements (D). <br/> That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

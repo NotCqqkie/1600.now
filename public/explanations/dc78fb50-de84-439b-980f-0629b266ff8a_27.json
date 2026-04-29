@@ -1,0 +1,15 @@
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the formula's weighting",
+      "content": "The decisive clue is that the formula weighs land area (1.8 points) much more heavily than population (1 point). This weighting directly determines which districts are overrepresented."
+    },
+    {
+      "title": "Apply the weighting to refute the claim",
+      "content": "Choice A applies this weighting to show that rural districts (less populated, larger land area) are overrepresented\u2014directly contradicting the claim that urban districts are favored. The other three either ignore the formula's specifics, contradict the notes about which districts benefit, or provide only a general definition of malapportionment. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

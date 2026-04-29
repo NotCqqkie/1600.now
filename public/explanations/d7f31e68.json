@@ -1,0 +1,15 @@
+{
+  "questionId": "d7f31e68",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The notes explicitly state: \u201cShe is best known for a 2011 YouTube video that has been viewed over two million times.\u201d This sentence directly identifies Wu's most well-known achievement."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice C uses the exact language \u201cis best known for\u201d and includes all the key details \u2014 the year (2011), the platform (YouTube video), the work title (<em>Three Beats for Beatbox Flute</em>), and the view count (over two million times). Choices A and B focus on competitions and education; choice D shifts to the composer. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

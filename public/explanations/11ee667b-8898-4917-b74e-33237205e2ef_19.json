@@ -1,0 +1,15 @@
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify angle relationships",
+      "content": "At the intersection of two lines, vertical angles are equal and adjacent angles are supplementary (sum to 180\u00b0). From the diagram, angle $ x $ and angle $ w $ are adjacent. So $ x + w = 180$.<br/><br/>$$x = 180 - w$$"
+    },
+    {
+      "title": "Substitute known value",
+      "content": "Substitute $ w = 112 $ into the equation:<br/>$$x = 180 - 112 = 68$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

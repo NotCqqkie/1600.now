@@ -1,0 +1,15 @@
+{
+  "questionId": "4ba99a6f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side is an independent clause ending with a blank that needs a noun object (to complete \u201ccraft a 10-by-13-inch ___\u201d). The right side is an independent clause beginning with \u201cin 2014, she arranged.\u201d"
+    },
+    {
+      "title": "Apply the joining rule",
+      "content": "Choice B\u2014\u201dsampler;\u201d\u2014is correct because a semicolon joins two independent clauses when there is no coordinating conjunction. The other options fail by using only a comma (creating a comma splice) or by adding \u201clater,\u201d which contradicts the specific date \u201cin 2014.\u201d This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

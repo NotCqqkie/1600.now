@@ -1,0 +1,1 @@
+{"questionId": "4702da8f", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Substitute x = 7 into the function", "content": "$$f(x)=80-6x$$<br/>To find $f(7)$, replace $x$ with 7:$$f(7)=80-6\\cdot7$$"}, {"title": "Compute the result", "content": "$$80-6\\cdot7 = 80-42 = 38$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the dissociation we need",
+      "content": "The prediction was that positive feedback would produce two effects: psychological (enhanced enjoyment) and physical (improved endurance). The question asks for a finding where this prediction partially fails\u2014where positive feedback worked psychologically but not physically. We're looking for: greater enjoyment but similar (not improved) exercise duration."
+    },
+    {
+      "title": "Match the dissociation",
+      "content": "Choice A directly shows this dissociation: participants receiving positive feedback reported greater enjoyment but maintained their heart and pedaling rates for approximately the same duration as those receiving negative or neutral feedback. The other three choices either highlight different feedback groups, obscure positive feedback's specific effects, or suggest positive feedback actually did improve physical endurance. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

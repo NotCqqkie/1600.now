@@ -1,0 +1,15 @@
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the causal claim",
+      "content": "The conclusion states that low crop variety reduces total pollen collection. Since Kampar is monoculture (low variety) and Kerinci has diverse crops, the prediction is: Kampar colonies have less total pollen than Kerinci colonies."
+    },
+    {
+      "title": "Match the prediction to the answer",
+      "content": "Choice B directly shows this\u2014honey from Kerinci colonies contained significantly higher pollen concentrations than Kampar colonies, confirming that greater variety increases total pollen collection. The other three don't directly measure total pollen between sites\u2014they track foraging activity, pollen source diversity, and within-site variation instead. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

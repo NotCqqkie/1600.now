@@ -1,0 +1,16 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize 39 as the y-intercept",
+      "content": "The function $f(x) = 39 - 0.18x$ can be written as $f(x) = -0.18x + 39$, which shows 39 is the constant term. In any linear function, this constant is the <strong>y-intercept</strong> \u2014 the value when $x = 0$. So $b = 39$.",
+      "formula": "$$f(x) = mx + b$$"
+    },
+    {
+      "title": "Evaluate at the start of the experiment",
+      "content": "Since $x$ represents days after the start, $x = 0$ is the start of the experiment. Evaluating there:<br/>$$f(0) = 39 - 0.18(0) = 39$$<br/>The water height at the start is 39 cm. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

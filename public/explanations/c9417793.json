@@ -1,0 +1,19 @@
+{
+  "questionId": "c9417793",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value expression",
+      "content": "Subtract 45 from both sides:<br/>$$|x-9| = 18$$"
+    },
+    {
+      "title": "Apply the definition of absolute value",
+      "content": "The equation $|x-9| = 18$ means the expression inside equals 18 or -18:<ul><li>$x - 9 = 18$ gives $x = 27$</li><li>$x - 9 = -18$ gives $x = -9$</li></ul>"
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "Add the two solutions:<br/>$$27 + (-9) = 18$$"
+    }
+  ]
+}

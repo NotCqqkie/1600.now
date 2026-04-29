@@ -1,0 +1,15 @@
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the crucial habitat constraint",
+      "content": "The passage establishes that aphids thrive on stable woody surfaces and that small colonies trigger ants to prey instead of protect. Kwon's two grassland habitats\u2014lacking the woody environment aphids need\u2014represent the exact condition that activates the predatory dynamic."
+    },
+    {
+      "title": "Match the constraint to the observed pattern",
+      "content": "Grassland forces small aphid colonies, which triggers ants to prey on aphids instead of maintaining mutualism, creating a negative correlation where ants suppress aphid numbers. Choices A and B describe unrelated patterns, while D compares between habitats rather than explaining what both demonstrate. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

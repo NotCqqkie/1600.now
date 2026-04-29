@@ -1,0 +1,15 @@
+{
+  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the research question asks for",
+      "content": "\u201dAn outstanding question is whether perceived category similarity predicts consumers' likelihood of purchasing brand extensions.\u201d This explicit statement defines the two variables needed: perceived category similarity and likelihood of purchase. The study already measured the likelihood (probability changes for each pair); the missing piece is perceived category similarity."
+    },
+    {
+      "title": "Find the design that provides the missing variable",
+      "content": "Choice A asks households to rate category similarity for each pair, then correlates those ratings with the probability changes already calculated\u2014directly testing whether perceived similarity predicts purchase behavior. The other three pursue different variables (brand recognition in C and D; within-category similarity in B) or use flawed methodology, none of which would answer the research question. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

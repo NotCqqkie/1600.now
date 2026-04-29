@@ -1,0 +1,19 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the radian-to-degree conversion factor",
+      "content": "To convert an angle from radians to degrees, multiply by the conversion factor $\\frac{180^\\circ}{\\pi}$."
+    },
+    {
+      "title": "Eliminate wrong conversion directions and factors",
+      "content": "<ul><li>Choice B multiplies by $\\frac{\\pi}{180^\\circ}$, which converts degrees to radians (opposite direction). Eliminate.</li><li>Choice D multiplies by $\\frac{360^\\circ}{\\pi}$, not the correct $\\frac{180^\\circ}{\\pi}$. Eliminate.</li></ul>"
+    },
+    {
+      "title": "Identify the correct expression",
+      "content": "Choice C shows $-\\frac{5\\pi}{12} \\cdot \\frac{180^\\circ}{\\pi}$, which correctly multiplies the radian measure by the degree conversion factor. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

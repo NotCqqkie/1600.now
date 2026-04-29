@@ -1,0 +1,15 @@
+{
+  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the hypothesis's core assumption",
+      "content": "The student inferred same egg-laying depth from identical pre-hatching temperatures (20\u201322\u00b0C). This reasoning assumes that identical temperatures in different regions correspond to identical depths."
+    },
+    {
+      "title": "Test which finding breaks that assumption",
+      "content": "Choice C breaks this assumption by introducing regional temperature variation: if the same depth has different temperatures in the two regions, then identical temperatures across regions point to different depths. The others don't target this logic: A supports the hypothesis, B focuses on post-hatching mobility, and D addresses suitability. <br><br>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

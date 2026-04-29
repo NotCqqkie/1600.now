@@ -1,0 +1,15 @@
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The word \u201cHowever\u201d sets up a contrast: the three\u2011host CLP\u2019s abundance dropped with rising temperature while the directly transmitted parasite\u2019s abundance stayed stable."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice B captures this contrast by saying the advantages of the three\u2011host transmission strategy did not completely offset the negative temperature effects, which matches the observed drop.<br/>The other three choices either claim CLPs were less dependent on affected hosts, claim directly transmitted parasites were more shielded, or claim more hosts give better protection\u2014all of which conflict with the data.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

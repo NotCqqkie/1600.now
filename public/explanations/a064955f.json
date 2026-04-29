@@ -1,0 +1,15 @@
+{
+  "questionId": "a064955f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The key signal is \u201cdifferent\u201d\u2014reindeer are exceptions to the typical pattern described in the first sentence. The transition must mark a CONTRAST or EXCEPTION."
+    },
+    {
+      "title": "Apply the contrast transition",
+      "content": "\u201dHowever\u201d is a contrast word that correctly introduces the exception. The other three fail to signal contrast, instead suggesting agreement, sequencing, or logical consequence. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9da41c80",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial height and decay pattern",
+      "content": "The ball is dropped from 22 feet. After each bounce, the maximum height is 85% of the previous maximum height. We need to find h(n), the height after n ground hits."
+    },
+    {
+      "title": "Build the formula for the geometric sequence",
+      "content": "Each bounce multiplies the height by 0.85:<br/><ul><li>After bounce 1: $h(1) = 22 \\times 0.85$</li><li>After bounce 2: $h(2) = 22 \\times 0.85 \\times 0.85 = 22(0.85)^2$</li><li>After bounce n: $h(n) = 22(0.85)^n$</li></ul>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

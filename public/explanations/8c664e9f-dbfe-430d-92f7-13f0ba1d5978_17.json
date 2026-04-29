@@ -1,0 +1,15 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the relationship between equations",
+      "content": "Examine whether one equation is a scalar multiple of the other. The second equation has coefficients that are exactly 2 times those of the first: $30 = 2 \\cdot 15$, $2 = 2 \\cdot 1$, and $26 = 2 \\cdot 13$. Verify by multiplying the first equation by 2:<br/><br/>$$2(15x + y) = 2(13)$$<br/>$$30x + 2y = 26$$<br/><br/>The second equation is identical to 2 times the first equation."
+    },
+    {
+      "title": "Conclude the number of solutions",
+      "content": "When a system has two equations that are scalar multiples of each other, they represent the same line geometrically. Every point on this line is a solution to both equations simultaneously. A line contains infinitely many points, so the system has infinitely many solutions. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

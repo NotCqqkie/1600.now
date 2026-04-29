@@ -1,0 +1,15 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_22",
+  "correctAnswer": "38115",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine the scaling factor",
+      "content": "We know the model is $$ y = 900 a x^2 $$. Since 900 and a are constants, y varies directly with the square of x: $$ y \\propto x^2 $$.<br/>Therefore, for two ropes with circumferences x\u2081 and x\u2082, $$ \\frac{y_2}{y_1} = \\left(\\frac{x_2}{x_1}\\right)^2 $$.<br/>Here x\u2081 = 2.75 in, x\u2082 = 5.50 in, so $$ \\frac{x_2}{x_1} = \\frac{5.50}{2.75} = 2 $$.<br/>Thus $$ \\left(\\frac{x_2}{x_1}\\right)^2 = 2^2 = 4 $$, meaning the breaking strength for the 5.50\u2011inch rope is 4 times that for the 2.75\u2011inch rope."
+    },
+    {
+      "title": "Compute the breaking strength for 5.50\u2011inch rope",
+      "content": "Multiply the known strength by the factor 4: $$ y_2 = 9528.75 \\times 4 = 38115 $$ pounds.<br/>That matches choice E \u2014 <strong>E</strong> is correct."
+    }
+  ]
+}

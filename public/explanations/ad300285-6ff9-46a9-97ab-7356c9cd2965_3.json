@@ -1,0 +1,16 @@
+{
+  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify slope and y-intercept",
+      "content": "We are given the slope $m = \\frac{1}{4}$ and that the line passes through $(0, 5)$. Since this point has $x = 0$, it lies on the $y$-axis and represents the $y$-intercept: $b = 5$."
+    },
+    {
+      "title": "Write the equation using slope-intercept form",
+      "content": "Substituting $m = \\frac{1}{4}$ and $b = 5$ into the general form:<br/>$$f(x) = \\frac{1}{4}x + 5$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$f(x) = mx + b$$"
+    }
+  ]
+}

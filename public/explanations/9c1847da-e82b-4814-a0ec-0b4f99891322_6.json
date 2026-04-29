@@ -1,0 +1,15 @@
+{
+  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute the third side using perimeter",
+      "content": "The perimeter is 32 m and two sides are 8 m and 9 m. Let the third side be $x$. Then<br/>$$x = 32 - 8 - 9 = 15$$<br/>So the third side must be 15 meters."
+    },
+    {
+      "title": "Verify triangle inequality and obtuse condition",
+      "content": "Check triangle inequality:<br/>$$8 + 9 > 15$$ (true)<br/>$$8 + 15 > 9$$ (true)<br/>$$9 + 15 > 8$$ (true)<br/>All three hold, so a triangle exists.<br/>To be obtuse, the square of the longest side must exceed the sum of the squares of the other two sides. The longest side is 15 m:<br/>$$15^2 = 225$$<br/>$$8^2 + 9^2 = 64 + 81 = 145$$<br/>Since $$225 > 145$$, the triangle is obtuse.<br/>Therefore the length 15 meters satisfies all conditions. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "47624288",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read Lion votes from the table",
+      "content": "From the Lion row, the Total column shows 20 students voted for Lion. There are 80 total students.",
+      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "$$P = \\frac{20}{80}$$ Divide numerator and denominator by 20: $$\\frac{1}{4}$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

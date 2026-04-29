@@ -1,0 +1,19 @@
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_22",
+  "correctAnswer": "15435",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the scaling between the two circumferences",
+      "content": "The problem gives us breaking strength at $x = 1.75$ inches and asks for breaking strength at $x = 3.50$ inches. Notice that $3.50 = 2 \\times 1.75$, so the circumference is being doubled."
+    },
+    {
+      "title": "Apply the quadratic scaling relationship",
+      "content": "Since the equation is $y = 900ax^2$, this is a quadratic function. For a quadratic relationship, when the input is multiplied by a factor $k$, the output is multiplied by $k^2$.<br/><br/>Multiplying circumference by 2 means multiplying breaking strength by $2^2 = 4$."
+    },
+    {
+      "title": "Calculate the breaking strength at 3.50 inches",
+      "content": "The breaking strength at 1.75 inches is 3,858.75 pounds. Multiply by 4 to get the breaking strength at 3.50 inches:<br/><br/>$$4 \\times 3,858.75 = 15,435$$<br/><br/>The estimated breaking strength of a rope with circumference 3.50 inches is <strong>15,435 pounds</strong>."
+    }
+  ]
+}

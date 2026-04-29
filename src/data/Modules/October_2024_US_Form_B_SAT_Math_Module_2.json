@@ -156,30 +156,30 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "October 2024 US Form B SAT Math Module 2",
-    "passage": "The solution to the given system of equations is $ (x, y) $. What is the value of $ y $?",
+    "passage": "Hiro and Sofia purchased shirts and pants from a store. The price of each shirt purchased was the same and the price of each pair of pants purchased was the same. Hiro purchased 4 shirts and 2 pairs of pants for $\\$86$, and Sofia purchased 3 shirts and 5 pairs of pants for $\\$166$. Which of the following systems of linear equations represents the situation, if <em>x</em> represents the price, in dollars, of each shirt and <em>y</em> represents the price, in dollars, of each pair of pants?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "-18"
+        "text": "x plus 2 y, equals 86, and, 3 x plus 5 y, equals 166"
       },
       {
         "label": "B",
-        "text": "-4"
+        "text": "x plus 3 y, equals 86, and, 2 x plus 5 y, equals 166"
       },
       {
         "label": "C",
-        "text": "-3"
+        "text": "x plus 2 y, equals 166, and, 3 x plus 5 y, equals 86"
       },
       {
         "label": "D",
-        "text": "-2"
+        "text": "x plus 3 y, equals 166, and, 2 x plus 5 y, equals 86"
       }
     ],
     "is_fill_in_blank": false,
-    "correct_answer": "C",
-    "rationale": null,
-    "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_6"
+    "correct_answer": "A",
+    "rationale": "Choice A is correct. Hiro purchased 4 shirts and each shirt cost <em>x</em> dollars, so he spent a total of 4<em>x</em> dollars on shirts. Likewise, Hiro purchased 2 pairs of pants, and each pair of pants cost <em>y</em> dollars, so he spent a total of 2<em>y</em> dollars on pants. Therefore, the total amount that Hiro spent was 4<em>x</em> + 2<em>y</em>. Since Hiro spent \\$86 in total, this can be modeled by the equation 4<em>x</em> + 2<em>y</em> = 86. Using the same reasoning, Sofia bought 3 shirts at <em>x</em> dollars each and 5 pairs of pants at <em>y</em> dollars each, so she spent a total of 3<em>x</em> + 5<em>y</em> dollars on shirts and pants. Since Sofia spent \\$166 in total, this can be modeled by the equation 3<em>x</em> + 5<em>y</em> = 166.\nChoice B is incorrect and may be the result of switching the number of shirts Sofia purchased with the number of pairs of pants Hiro purchased. Choice C is incorrect and may be the result of switching the total price each person paid. Choice D is incorrect and may be the result of switching the total price each person paid as well as switching the number of shirts Sofia purchased with the number of pairs of pants Hiro purchased.",
+    "id": "b86123af"
   },
   {
     "section": "Math",

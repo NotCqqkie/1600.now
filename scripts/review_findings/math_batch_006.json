@@ -1,0 +1,194 @@
+[
+  {
+    "id": "0b46bad5",
+    "url": "/bank/math/521?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "$a x + b y = b$\nIn the equation above, <em>a</em> and <em>b</em> are constant..."
+  },
+  {
+    "id": "0d5495a6",
+    "url": "/bank/math/469?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$h(x)=x+b$\nFor the linear function $h$, $b$ is a constant and $h(0)=45$. What..."
+  },
+  {
+    "id": "1362ccde",
+    "url": "/bank/math/503?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$y=4x+1$\n$4y=15x-8$\nThe solution to the given system of equations is $\\left(x..."
+  },
+  {
+    "id": "1a621af4",
+    "url": "/bank/math/475?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "A number $x$ is at most $2$ less than $3$ times the value of $y$. If the valu..."
+  },
+  {
+    "id": "271f7e3f",
+    "url": "/bank/math/514?bankType=unofficial",
+    "issues": [
+      "mixed_choice_format"
+    ],
+    "note": "$f(x) = \\frac{x + 7}{4}$\nFor the function <em>f</em> defined above, what is t..."
+  },
+  {
+    "id": "4047cfa7",
+    "url": "/bank/math/459?bankType=unofficial",
+    "issues": [
+      "wrong_subject"
+    ],
+    "note": "For a literature class, a student's essay needs to have no more than $5,000$ ..."
+  },
+  {
+    "id": "52cb8ea4",
+    "url": "/bank/math/506?bankType=unofficial",
+    "issues": [
+      "mixed_choice_format"
+    ],
+    "note": "$7x -5y = 4. 4x -8y = 9.$\nIf $(x, y)$ is the solution to the system of equati..."
+  },
+  {
+    "id": "6ba39da5",
+    "url": "/bank/math/471?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$2a+8b=198$\n$2a+4b=98$\nThe solution to the given system of equations is $\\lef..."
+  },
+  {
+    "id": "72a5fd28",
+    "url": "/bank/math/520?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "For a party, $50$ dinner rolls are needed. Dinner rolls are sold in packages ..."
+  },
+  {
+    "id": "7b17f86a",
+    "url": "/bank/math/485?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$f\\left(x\\right)=x+\\frac{8}{11}$\nThe function $f$ is defined by the given equ..."
+  },
+  {
+    "id": "7d5d1b32",
+    "url": "/bank/math/524?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$2\\left(kx-n\\right)=-\\frac{28}{15}x-\\frac{36}{19}$\nIn the given equation, $k$..."
+  },
+  {
+    "id": "9c7741c6",
+    "url": "/bank/math/453?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "On a 210-mile trip, Cameron drove at an average speed of 60 miles per hour fo..."
+  },
+  {
+    "id": "aeaba0b6",
+    "url": "/bank/math/500?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$f(x)=14+4x$\nThe function $f$ represents the total cost, in dollars, of atten..."
+  },
+  {
+    "id": "b31c3117",
+    "url": "/bank/math/522?bankType=unofficial",
+    "issues": [
+      "duplicate_choices"
+    ],
+    "note": "$h = 120p + 60$\nThe Karvonen formula above shows the relationship between Ali..."
+  },
+  {
+    "id": "b78cd5df",
+    "url": "/bank/math/519?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "An event planner is planning a party. It costs the event planner a onetime fe..."
+  },
+  {
+    "id": "b8fa27db",
+    "url": "/bank/math/483?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "Line $j$ is shown in the <em>xy</em>-plane. Line $k$ (not shown) is parallel ..."
+  },
+  {
+    "id": "b9835972",
+    "url": "/bank/math/484?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "In the <em>xy</em>-plane, line $l$ passes through the point $\\left(0,0\\right)..."
+  },
+  {
+    "id": "b988eeec",
+    "url": "/bank/math/462?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "The functions $f$ and $g$ are defined as $f(x)=\\frac{1}{4}x-9$ and $g(x)=\\fra..."
+  },
+  {
+    "id": "c81f1c2f",
+    "url": "/bank/math/458?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "$f\\left(x\\right)=45x+600$\nThe function $f$ gives the monthly fee $f\\left(x\\ri..."
+  },
+  {
+    "id": "db0107df",
+    "url": "/bank/math/482?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "The <em>y</em>-intercept of the graph of $12x+2y=18$ in the <em>xy</em>-plane..."
+  },
+  {
+    "id": "df32b09c",
+    "url": "/bank/math/491?bankType=unofficial",
+    "issues": [
+      "wrong_subject"
+    ],
+    "note": "Tom scored 85, 78, and 98 on his first three exams in history class. Solving ..."
+  },
+  {
+    "id": "e0f59119",
+    "url": "/bank/math/487?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "What is the slope of the graph of $y=\\frac{1}{3}\\left(29x+10\\right)+5x$ in th..."
+  },
+  {
+    "id": "e1248a5c",
+    "url": "/bank/math/492?bankType=unofficial",
+    "issues": [
+      "mixed_choice_format"
+    ],
+    "note": "In the system of equations below, <em>a</em> and <em>c</em> are constants.\nEq..."
+  },
+  {
+    "id": "ebd457f4",
+    "url": "/bank/math/486?bankType=unofficial",
+    "issues": [
+      "answer_mismatch"
+    ],
+    "note": "Brian saves $\\frac{2}{5}$ of the $\\$215$ he earns each week from his job. If ..."
+  }
+]

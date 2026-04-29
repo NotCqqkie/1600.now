@@ -1,0 +1,15 @@
+{
+  "questionId": "5b7599a6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify intercepts from the graph",
+      "content": "The line crosses the $y$-axis at $(0, 2)$ and the $x$-axis at $(2, 0)$."
+    },
+    {
+      "title": "Test choice C by substituting both points",
+      "content": "Choice C is $18x + Ry = 36$.<br/><br/>At $(0, 2)$: $18(0) + R(2) = 36 \\Rightarrow 2R = 36 \\Rightarrow R = 18$<br/><br/>Verify at $(2, 0)$: $18(2) + 18(0) = 36 + 0 = 36$ \u2713<br/><br/>Since $R = 18$ is positive and satisfies both points, this equation represents the relationship. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

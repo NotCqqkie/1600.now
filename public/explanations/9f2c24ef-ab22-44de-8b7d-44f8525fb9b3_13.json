@@ -1,0 +1,15 @@
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "The line crosses the y-axis at the point $(0, 2)$."
+    },
+    {
+      "title": "Substitute the point into the equation to find B",
+      "content": "Substitute $(0, 2)$ into $4x + By = 12$:<br/><br/>$$4(0) + B(2) = 12$$<br/>$$2B = 12$$<br/>$$B = 6$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

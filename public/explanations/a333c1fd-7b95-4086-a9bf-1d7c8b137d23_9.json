@@ -1,0 +1,15 @@
+{
+  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs to show",
+      "content": "The passage states that while the number of women judges increased in most countries, \u201cthere are also countries where the number decreased or remained unchanged.\u201d The blank must provide specific examples of countries exhibiting one or both of these patterns between 2009 and 2013."
+    },
+    {
+      "title": "Match the graph data to the required patterns",
+      "content": "Reading the graph from 2009 to 2013: Slovenia goes from 4 to 6 (increased\u2014doesn't fit the blank), Finland stays at 8 to 8 (remained unchanged\u2014fits), and the Dominican Republic drops from 5 to 4 (decreased\u2014fits). Choice D demonstrates both required patterns: the Dominican Republic decreased while Finland remained the same. The other choices either include Slovenia's increase, which contradicts the blank's purpose, or fail to show both types of change the blank calls for. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

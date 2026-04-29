@@ -1,0 +1,15 @@
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical requirement",
+      "content": "The passage emphasizes 'bird species that are capable of flight' and then contrasts with 'But not all flying birds are so light.' The example must be a flying bird (capable of flight: Yes) with mass significantly heavier than the under-1-kg norm to prove the 'not so light' claim."
+    },
+    {
+      "title": "Apply the requirement to the choices",
+      "content": "The mute swan at 11.9 kg is a flying bird whose mass dramatically contradicts the under-1-kg baseline \u2014 exactly what the passage needs. The Andean condor is also flying but the choice misstates its mass (table shows 11.3 kg, not below 10 kg); the Somali ostrich and dwarf cassowary are both flightless birds and irrelevant to the passage's focus on flying species. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

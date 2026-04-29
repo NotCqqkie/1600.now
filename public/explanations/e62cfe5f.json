@@ -1,0 +1,15 @@
+{
+  "questionId": "e62cfe5f",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the model to an equation",
+      "content": "The statement \u201chead width equals 0.6 added to four times body weight\u201d becomes: $$h = 0.6 + 4w$$ where $h$ is head width in mm and $w$ is body weight in grams."
+    },
+    {
+      "title": "Substitute the body weight and compute",
+      "content": "With $w = 0.5$ grams, substitute directly: $$h = 0.6 + 4(0.5) = 0.6 + 2 = 2.6$$ The head width is <strong>2.6 millimeters</strong>."
+    }
+  ]
+}

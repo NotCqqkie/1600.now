@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the plural noun",
+      "content": "The sentence introduces <strong>the judges for the 1974 Nobel Prize in Literature</strong>\u2014plural\u2014as the entity making the decision. The subject pronoun in the blank must be plural to maintain pronoun-antecedent agreement."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "<strong>They</strong> correctly refers to <strong>the judges</strong> with matching plurality.<br/>Options <strong>it</strong>, <strong>you</strong>, and <strong>anyone</strong> are all singular and cannot agree with a plural antecedent.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

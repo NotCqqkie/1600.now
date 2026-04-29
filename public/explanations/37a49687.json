@@ -1,0 +1,15 @@
+{
+  "questionId": "37a49687",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern to demonstrate",
+      "content": "The sentence states \u201cFor some species, more fish were collected in the winter than the other two seasons\u201d and asks for an example. The key signal is: find a choice that shows a specific species with winter count exceeding both spring and fall, using the graph data."
+    },
+    {
+      "title": "Check which choice demonstrates the pattern with data",
+      "content": "Choice A directly names common silver-biddy (winter: 35, spring: 17, fall: 10) and milkfish (winter: 12, spring: 7, fall: 0)\u2014both clearly show winter exceeding other seasons. Choices B and C compare species <em>within</em> seasons rather than across seasons, and C also misnames the species; choice D focuses on fall. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

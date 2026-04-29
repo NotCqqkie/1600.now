@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given side length",
+      "content": "Triangle A has each side equal to <strong>270 millimeters</strong>."
+    },
+    {
+      "title": "Apply the doubling relationship",
+      "content": "Triangle B's sides are double the length of triangle A's sides. Multiply:<br/>$$2 \\times 270 = 540 \\text{ millimeters}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

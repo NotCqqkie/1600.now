@@ -1,0 +1,15 @@
+{
+  "questionId": "e4a588ca",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 4 into the function",
+      "content": "We need to find $f(4)$. Since $f(x) = \\frac{1}{2}(x+6)$, substitute $x = 4$:\n\n$$f(4) = \\frac{1}{2}(4 + 6)$$"
+    },
+    {
+      "title": "Simplify and evaluate",
+      "content": "Inside the parentheses: $4 + 6 = 10$.\n\n$$f(4) = \\frac{1}{2}(10) = 5$$\n\nThat matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

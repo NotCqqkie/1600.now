@@ -1,0 +1,15 @@
+{
+  "questionId": "802549ac",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that backsolving is efficient for simple integer choices",
+      "content": "The answer choices are simple integers, so we can test each value directly in the equation $(x + 2)(x + 3) = (x - 2)(x - 3) + 10$ rather than solving algebraically."
+    },
+    {
+      "title": "Test the choices",
+      "content": "<strong>Backsolving \u2014 testing choice B (0):</strong><br/>Left: $(0+2)(0+3) = 2 \\times 3 = 6$<br/>Right: $(0-2)(0-3)+10 = 6+10 = 16$<br/>Since $6 \\neq 16$, B fails.<br/><br/><strong>Testing choice C (-2):</strong><br/>Left: $(-2+2)(-2+3) = 0 \\times 1 = 0$<br/>Right: $(-2-2)(-2-3)+10 = 20+10 = 30$<br/>Since $0 \\neq 30$, C fails.<br/><br/><strong>Testing choice A (1):</strong><br/>Left: $(1+2)(1+3) = 3 \\times 4 = 12$<br/>Right: $(1-2)(1-3)+10 = 2+10 = 12$<br/>Since $12 = 12$, choice A works. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

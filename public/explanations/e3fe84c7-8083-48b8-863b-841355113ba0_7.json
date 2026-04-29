@@ -1,0 +1,15 @@
+{
+  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square both sides to eliminate the square root",
+      "content": "Start with $r = \\sqrt{9w - 5}$. To undo the square root, square both sides:<br/>$$r^2 = 9w - 5$$<br/>This gives us an equation we can solve for $w$ without radicals."
+    },
+    {
+      "title": "Solve for w by isolating it",
+      "content": "From $r^2 = 9w - 5$, add 5 to both sides:<br/>$$r^2 + 5 = 9w$$<br/>Now divide both sides by 9:<br/>$$w = \\frac{r^2 + 5}{9}$$<br/>Rewrite this as separate fractions:<br/>$$w = \\frac{r^2}{9} + \\frac{5}{9}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relative clause boundary",
+      "content": "The blank comes between \u201can ecological\u201d and the clause \u201ccompared the lengths of eggs produced by different bird species found Calidris alpina eggs to be longer, on average, than Oriolus xanthonotus eggs.\u201d This clause modifies \u201cstudy,\u201d and the grammar depends on whether it's restrictive (essential to identifying the noun) or non-restrictive (additional information)."
+    },
+    {
+      "title": "Apply the restrictive clause rule",
+      "content": "Restrictive relative clauses, which provide essential information, use <strong>that</strong> with no comma: \u201cstudy that compared...\u201d Non-restrictive clauses, which provide extra information, use <strong>which</strong> with a comma: \u201cstudy, which compared...\u201d Here, the clause defines what the study did and found\u2014essential information for understanding its purpose. Use <strong>that</strong> without punctuation. Option D violates the rule by placing a comma before <strong>that</strong>; option C treats essential information as non-restrictive; option B eliminates the relative pronoun, creating an awkward structure. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

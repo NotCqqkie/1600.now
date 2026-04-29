@@ -1,0 +1,15 @@
+{
+  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the Key Signal",
+      "content": "The first sentence claims Rogerson's calculation was more accurate. The second sentence provides the explanation: the earlier calculation used only rudimentary equipment. The transition must introduce this explanation as something natural or self-evident."
+    },
+    {
+      "title": "Match the Meaning",
+      "content": "\u201dOf course\u201d means \u201cnaturally,\u201d introducing the equipment explanation as obvious and inevitable. \u201cUltimately,\u201d \u201cLikewise,\u201d and \u201cTo that end\u201d all signal different logical relationships (final outcome, similarity, purpose) that don't match the need for justification. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the explanatory relationship",
+      "content": "The first clause introduces a concept: \u201cThe visual magnitude scale is reverse logarithmic.\u201d The second clause must clarify what that concept means. The transition needs to signal this clarification."
+    },
+    {
+      "title": "Apply the clarifying transition",
+      "content": "\u201dIn other words\u201d directly fits because it indicates the next clause will clarify what \u201creverse logarithmic\u201d means. The other choices suggest similarity, opposition, or a specific example, which don't fit. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

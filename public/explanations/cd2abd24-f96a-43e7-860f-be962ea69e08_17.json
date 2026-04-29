@@ -1,0 +1,11 @@
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 0 to find the y-intercept",
+      "content": "The $y$-intercept is the point where a graph crosses the $y$-axis. This occurs when $x = 0$. Substituting $x = 0$ into the equation:<br/><br/>$$y = \\frac{32}{0-4} = \\frac{32}{-4} = -8$$<br/><br/>The $y$-intercept is the point $(0, -8)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

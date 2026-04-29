@@ -1,0 +1,15 @@
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the cubic structure from the graph",
+      "content": "The graph shows a cubic function with a negative leading coefficient $a$ (curve descends on the right side where $x \\to \\infty$). There are two turning points: a local maximum in the region near $x = -1$ with a positive $y$-value, and a local minimum near $x = 2$ with $y \\approx -12$."
+    },
+    {
+      "title": "Count x-intercepts by tracing from left to right",
+      "content": "Trace the curve across the x-axis:<ul><li>Coming from the upper-left ($y \\to +\\infty$ as $x \\to -\\infty$), the curve crosses the x-axis around $x \\approx -4$ (first intercept)</li><li>The curve rises to its local maximum above the x-axis, then descends and crosses again around $x \\approx 0$ to $x \\approx 1$ (second intercept)</li><li>The curve then reaches its local minimum below the x-axis at $y \\approx -12$</li><li>For all $x > 2$, the curve remains negative and continues descending, never crossing the x-axis again</li></ul>The total count is 2 distinct x-intercepts where $f(x) = 0$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

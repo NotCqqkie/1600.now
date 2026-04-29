@@ -1,0 +1,15 @@
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the passage's organizing principle",
+      "content": "The passage is organized around one idea: women made important contributions to cryptology. It opens with Kenny as an example of an early contributor, then shows how such women enabled later women like Lysyanskaya to enter the field. The entire structure emphasizes women's contributions across time."
+    },
+    {
+      "title": "Match the principle to the choices",
+      "content": "Choice A directly captures the passage's core claim: women have contributed to cryptology, using the exact figures the passage emphasizes. Choices B, C, and D all miss this\u2014one elevates a definitional detail, one fabricates a collaboration, and one adds a prescriptive argument\u2014so none reflect the passage's actual focus. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

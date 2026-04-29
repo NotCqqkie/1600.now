@@ -398,40 +398,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "fa92720e-d9b2-485a-9313-5041b77e5352_12",
-    "testName": "August 2025 US Form B SAT English Module 2",
-    "text": "Which quotation from “The Monster” most effectively illustrates the claim?\n“The Monster” is an 1898 story by Stephen Crane. In the story, the character of Jim, a young boy, is playing in his yard while his father mows the lawn; while playing, Jim accidentally damages a peony (a flower). Crane emphasizes Jim’s energy and his distracted absorption in his play by writing, ______",
-    "choices": [
-      {
-        "id": "A",
-        "text": "“[Jim] went on to the lawn, very slowly, and kicking wretchedly at the turf. Presently his father came along with the whirring machine, while the sweet, new grass blades spun from the knives.”"
-      },
-      {
-        "id": "B",
-        "text": "“Jim could do no reparation. He looked again towards his father.”"
-      },
-      {
-        "id": "C",
-        "text": "“[W]hen [Jim] swung around the curve at the flower-bed, a wheel of his cart destroyed a peony.”"
-      },
-      {
-        "id": "D",
-        "text": "“Little Jim was, for the time, engine Number 36, and he was making the run between Syracuse and Rochester. He was fourteen minutes behind time, and the throttle was wide open.”"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
-      "confidence": "high"
-    }
+      "difficulty": "Easy",
+      "rationale": "Choice C is the best answer because it most effectively uses data from the table to complete the statement. The table shows that on day 1, the menu for NASA’s Gemini missions included sugar cookie cubes for meal B.\nChoice A is incorrect because according to the table, shrimp cocktail was served on day 4, not day 1; moreover, the item was served for meal C, not meal B, as this choice claims. Choice B is incorrect because according to the table, hot cocoa was served on day 3, not on day 1; moreover, the item was served for meal A, not for meal C, as this choice claims. Choice D is incorrect because according to the table, chicken and vegetables were served on day 2, not on day 1; moreover, the item was served for meal B, not for meal A, as this choice claims.",
+      "id": "75e07a4d",
+      "testName": "SAT Question Bank",
+      "text": "To make sure they got the nutrition they needed while in space, the astronauts of NASA’s Gemini missions were given menus for three meals a day (meals A, B, and C) on a four-day rotating schedule. Looking at the sample of food items from these menus, a student notes that on day 1, the menu included ______ Which choice most effectively uses data from the table to complete the statement?",
+      "correctAnswer": "C",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "shrimp cocktail for meal B."
+          },
+          {
+              "id": "B",
+              "text": "hot cocoa for meal C."
+          },
+          {
+              "id": "C",
+              "text": "sugar cookie cubes for meal B."
+          },
+          {
+              "id": "D",
+              "text": "chicken and vegetables for meal A."
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

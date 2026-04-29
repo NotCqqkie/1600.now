@@ -1,0 +1,23 @@
+[
+  {
+    "id": "b8fa27db",
+    "url": "/bank/math/483?bankType=unofficial",
+    "haiku_verdict": "CANNOT_DETERMINE",
+    "sonnet_verdict": "CANNOT_DETERMINE",
+    "note": "Requires xy-plane figure to confirm points (0,5) and (1,9) are on line j"
+  },
+  {
+    "id": "8156d446",
+    "url": "/bank/math/1157?bankType=unofficial",
+    "haiku_verdict": "CANNOT_DETERMINE",
+    "sonnet_verdict": "CANNOT_DETERMINE",
+    "note": "Requires scatterplot figure to read line-of-best-fit value at x=32°C"
+  },
+  {
+    "id": "79340403",
+    "url": "/bank/math/1163?bankType=unofficial",
+    "haiku_verdict": "CANNOT_DETERMINE",
+    "sonnet_verdict": "CANNOT_DETERMINE",
+    "note": "Requires bar graph figure to verify group 1 bar height equals 30"
+  }
+]

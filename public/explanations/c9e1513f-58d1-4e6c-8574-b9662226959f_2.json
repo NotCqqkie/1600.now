@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x = 2 into the function",
+      "content": "We need to find $f(2)$ where $f(x) = x^2 + 15$. Substitute $x = 2$:<br/>$$f(2) = 2^2 + 15$$"
+    },
+    {
+      "title": "Calculate the result",
+      "content": "Evaluate the expression: $2^2 = 4$, so<br/>$$f(2) = 4 + 15 = 19$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

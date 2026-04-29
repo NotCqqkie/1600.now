@@ -308,6 +308,7 @@ const normalizeBareMathFragments = (content: string): string => {
     (match, prefix: string, candidate: string, suffix: string) => {
       const trimmed = candidate.trim();
       if (!trimmed || trimmed.includes("$")) return match;
+      if (/<\/?[a-zA-Z]/.test(trimmed)) return match;
       if (!/[=^+\-*/()0-9A-Za-z]/.test(trimmed)) return match;
       const wrapped = wrapMath(trimmed);
       if (wrapped === trimmed) return match;
@@ -341,6 +342,190 @@ const wrapBareLatexSegments = (content: string): string => {
       return `${leading}$${trimmed}$${trailing}`;
     })
     .join("");
+};
+
+const normalizeAdjacentTextBlocks = (content: string): string => {
+  const containsLower = (s: string): boolean => /[a-z]/.test(s);
+  const needsSpace = (x: string, y: string): boolean =>
+    (containsLower(x) || containsLower(y)) && !/\s$/.test(x);
+
+  let result = content;
+  let prev: string;
+  do {
+    prev = result;
+    result = result.replace(
+      /\\text\{([^{}]*)\}(\{?)\\text\{([^{}]*)\}/g,
+      (match, x: string, brace: string, y: string) =>
+        needsSpace(x, y) ? `\\text{${x} }${brace}\\text{${y}}` : match,
+    );
+    result = result.replace(
+      /\\text\{([^{}]*)\}\{\\text\{([^{}]*)\}\}/g,
+      (match, x: string, y: string) =>
+        needsSpace(x, y) ? `\\text{${x} }{\\text{${y}}}` : match,
+    );
+  } while (result !== prev);
+
+  result = result.replace(
+    /(\d)\\text\{([a-z])/g,
+    (_, digit: string, letter: string) => `${digit}\\text{ ${letter}`,
+  );
+
+  // Patch F: `\text{abc}1\text{xyz}` → `\text{abc }1\text{ xyz}`
+  // (digit immediately following a closing \text{...} that ended in a letter)
+  result = result.replace(
+    /\\text\{([^{}]*[a-z])\}(?=\d)/gi,
+    "\\text{$1 }",
+  );
+
+  return result;
+};
+
+// Patch E: Inside math ($...$), some choices contain TTS spellings of math
+// operators ("n plus 12", "x times, open parenthesis") because the data was
+// generated from screen-reader strings. Convert those phrases back to symbols.
+const normalizeTtsMathPhrasesInsideMath = (content: string): string => {
+  let result = "";
+  let cursor = 0;
+  while (cursor < content.length) {
+    if (content[cursor] !== "$" || isEscapedAt(content, cursor)) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+    const isDisplayMath =
+      content[cursor + 1] === "$" && !isEscapedAt(content, cursor + 1);
+    const delimiterLength: 1 | 2 = isDisplayMath ? 2 : 1;
+    const closing = findClosingMathDelimiter(content, cursor, delimiterLength);
+    if (closing === -1) {
+      result += content[cursor];
+      cursor += 1;
+      continue;
+    }
+    const inner = content.slice(cursor + delimiterLength, closing);
+    let fixed = inner;
+    fixed = fixed.replace(/,?\s*open parenthesis,?\s*/gi, "(");
+    fixed = fixed.replace(/,?\s*close parenthesis/gi, ")");
+    fixed = fixed.replace(/\s+plus\s+/gi, "+");
+    fixed = fixed.replace(/\s+minus\s+/gi, "-");
+    fixed = fixed.replace(/\s+times,?\s+/gi, " \\cdot ");
+    fixed = fixed.replace(/\s+times(?=[A-Za-z(])/gi, " \\cdot ");
+    fixed = fixed.replace(/\s+divided by\s+/gi, "/");
+    fixed = fixed.replace(/,\s+negative\s+/gi, ",-");
+    fixed = fixed.replace(/(?<=[(\s,])negative\s+/gi, "-");
+    fixed = fixed.replace(/\bcomma\s+/gi, ",");
+    fixed = fixed.replace(/\b([A-Za-z0-9]+)\s+(?:raised\s+to\s+the\s+|to\s+the\s+)([a-z]+)(?:\s+power)?\b/gi, (_match, base: string, power: string) => {
+      const numeric = ({
+        zeroth: 0, first: 1, second: 2, third: 3, fourth: 4, fifth: 5,
+        sixth: 6, seventh: 7, eighth: 8, ninth: 9, tenth: 10,
+      } as Record<string, number>)[power.toLowerCase()];
+      return numeric === undefined ? `${base}^{${power}}` : `${base}^{${numeric}}`;
+    });
+    result += content.slice(cursor, cursor + delimiterLength) + fixed + content.slice(closing, closing + delimiterLength);
+    cursor = closing + delimiterLength;
+  }
+  return result;
+};
+
+// Patch C.1: data sources sometimes wrap a math expression in *nested* math
+// delimiters: `$\frac{$\sqrt{...}$}{$\sqrt[3]{...}$}$`. The inner `$`s split
+// the outer math span before our parser sees it, so KaTeX never gets a chance.
+// First strip the inner `$`s structurally, *then* run the per-span cleanup.
+const normalizeNestedDollarSigns = (content: string): string => {
+  // Structural strip: inner `${command}` or `}{...$}` patterns.
+  let pre = content;
+  let prev: string;
+  do {
+    prev = pre;
+    pre = pre
+      // `{$\command` → `{\command`  and  `[$\command` → `[\command`
+      .replace(/\{\$(\\[a-zA-Z])/g, "{$1")
+      .replace(/\[\$(\\[a-zA-Z])/g, "[$1")
+      // Inner `$}` adjacent to a `{`/`}`/end-of-span → strip the `$`
+      .replace(/\$\}(?=[{}])/g, "}")
+      // `}{$` (segment boundary where an inner `$` was lost) — strip leftover
+      .replace(/\}\{\$(?=\\[a-zA-Z])/g, "}{")
+      // Trailing `$}<closing-$>` of inner span just before outer closer
+      .replace(/\$\}\$/g, "}$");
+  } while (pre !== prev);
+
+  // Per-span cleanup pass for any remaining `{$...$}` adjacency inside a span.
+  let result = "";
+  let cursor = 0;
+  while (cursor < pre.length) {
+    if (pre[cursor] !== "$" || isEscapedAt(pre, cursor)) {
+      result += pre[cursor];
+      cursor += 1;
+      continue;
+    }
+    const isDisplayMath =
+      pre[cursor + 1] === "$" && !isEscapedAt(pre, cursor + 1);
+    const delimiterLength: 1 | 2 = isDisplayMath ? 2 : 1;
+    const closing = findClosingMathDelimiter(pre, cursor, delimiterLength);
+    if (closing === -1) {
+      result += pre[cursor];
+      cursor += 1;
+      continue;
+    }
+    const inner = pre.slice(cursor + delimiterLength, closing);
+    const cleaned = inner.replace(/\{\$/g, "{").replace(/\$\}/g, "}");
+    result += pre.slice(cursor, cursor + delimiterLength) + cleaned + pre.slice(closing, closing + delimiterLength);
+    cursor = closing + delimiterLength;
+  }
+  return result;
+};
+
+// Patch C.2: source HTML sometimes constrains tables with hard-coded inline
+// widths (`style="width: 25%;"`) that squash cells to one character per row.
+// Strip width-related inline styles from `<table>` tags (preserve the rest).
+const stripTableInlineWidths = (content: string): string => {
+  return content.replace(/<table\b([^>]*)>/gi, (_match, attrs: string) => {
+    const cleanedAttrs = attrs
+      .replace(/\sstyle\s*=\s*"([^"]*)"/i, (_attr, styleValue: string) => {
+        const filtered = styleValue
+          .split(";")
+          .map((decl) => decl.trim())
+          .filter((decl) => decl && !/^\s*(?:max-)?width\s*:/i.test(decl))
+          .join("; ");
+        return filtered ? ` style="${filtered}"` : "";
+      })
+      .replace(/\swidth\s*=\s*"[^"]*"/i, "");
+    return `<table${cleanedAttrs}>`;
+  });
+};
+
+// Patch C.3: convert `<span class="italic">x</span>` → `<em>x</em>` so it
+// renders as italic. Also normalize stray `<u>` to `<em>` (SAT data uses `<u>`
+// to mark the focal word, but most renderers won't underline inside math).
+const normalizeInlineHtmlEmphasis = (content: string): string =>
+  content
+    .replace(/<span\b[^>]*class\s*=\s*"[^"]*\bitalic\b[^"]*"[^>]*>([\s\S]*?)<\/span>/gi, "<em>$1</em>")
+    .replace(/<u\b[^>]*>([\s\S]*?)<\/u>/gi, "<em>$1</em>");
+
+// Bullet items in choice text often contain TTS narration of graph features
+// ("• The vertex is at the point (2 comma negative 6)"). Convert the high-
+// confidence verbal patterns to symbolic form so the text reads cleanly.
+// Scoped to bullet lines to avoid mangling prose elsewhere.
+const normalizeBulletTtsNarration = (content: string): string => {
+  if (!/(^|\n)\s*•/.test(content)) return content;
+  return content.replace(/((?:^|\n)\s*•[^\n]*)/g, (line) => {
+    let out = line;
+    // StartFraction X Over Y EndFraction -> $\frac{X}{Y}$
+    out = out.replace(
+      /(?:negative\s+)?StartFraction\s+([^]+?)\s+Over\s+([^]+?)\s+EndFraction/gi,
+      (m, num, den) => {
+        const sign = /^negative\b/i.test(m) ? "-" : "";
+        return `$${sign}\\frac{${num.trim()}}{${den.trim()}}$`;
+      },
+    );
+    // (N comma M), (N comma negative M), (negative N comma M), (negative N comma negative M)
+    out = out.replace(
+      /\(\s*(negative\s+)?(\d[\d,]*)\s+comma\s+(negative\s+)?(\d[\d,]*)\s*\)/gi,
+      (_m, sN, n, sM, mNum) => `(${sN ? "-" : ""}${n}, ${sM ? "-" : ""}${mNum})`,
+    );
+    // Standalone "negative N" before a digit-only token elsewhere in the bullet
+    out = out.replace(/\bnegative\s+(\d[\d,]*)/gi, "-$1");
+    return out;
+  });
 };
 
 const normalizePlainTextWrappedMath = (content: string): string => {
@@ -390,6 +575,14 @@ const normalizePlainTextWrappedMath = (content: string): string => {
 export function normalizeTextForMathRendering(text: string | null | undefined): string {
   if (!text) return text || "";
 
+  const preprocessed = normalizeTtsMathPhrasesInsideMath(
+    normalizeNestedDollarSigns(
+      stripTableInlineWidths(
+        normalizeBulletTtsNarration(normalizeInlineHtmlEmphasis(text)),
+      ),
+    ),
+  );
+
   const normalizedCurrency = normalizeInlineMathSpacing(
     normalizeMathWrappedCurrency(
       normalizeMathWrappedPercentages(
@@ -400,7 +593,9 @@ export function normalizeTextForMathRendering(text: string | null | undefined): 
                 normalizeDecimalCommas(
                   normalizeFullWidthMathPunctuation(
                     wrapBareLatexSegments(
-                      normalizeAsteriskWrappedMath(text),
+                      normalizeAdjacentTextBlocks(
+                        normalizeAsteriskWrappedMath(preprocessed),
+                      ),
                     ),
                   ),
                 ),

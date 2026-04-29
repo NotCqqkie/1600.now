@@ -639,39 +639,16 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "27590f35-8d6e-45c6-b665-222acb5e516d_22",
-    "testName": "May 2024 International Form A SAT Math Module 1",
-    "text": "f(x)= $\\sqrt{5x+6}$\nThe function f is defined by the given equation, If f(a)=-5a, where a is a constant,\nwhat is the value of a?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "$\\frac{3}{5}$"
-      },
-      {
-        "id": "B",
-        "text": "$\\frac{2}{5}$"
-      },
-      {
-        "id": "C",
-        "text": "- $\\frac{2}{5}$"
-      },
-      {
-        "id": "D",
-        "text": "- $\\frac{3}{5}$"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Linear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "The correct answer is 2.6. According to the model, the head width, in millimeters, of a worker bumblebee can be estimated by adding 0.6 to 4 times the body weight, in grams, of the bee. Let <em>x</em> represent the body weight, in grams, of a worker bumblebee and let <em>y</em> represent the head width, in millimeters. Translating the verbal description of the model into an equation yields $y = 0.6 + 4x$. Substituting 0.5 grams for <em>x</em> in this equation yields $y = 0.6 + 4 \\times 0.5$, or $y = 2.6$. Therefore, a worker bumblebee with a body weight of 0.5 grams has an estimated head width of 2.6 millimeters. Note that 2.6 and 13/5 are examples of ways to enter a correct answer.",
+      "id": "e62cfe5f",
+      "testName": "SAT Question Bank",
+      "text": "According to a model, the head width, in millimeters, of a worker bumblebee can be estimated by adding 0.6 to four times the body weight of the bee, in grams. According to the model, what would be the head width, in millimeters, of a worker bumblebee that has a body weight of 0.5 grams?",
+      "correctAnswer": "2",
+      "type": "free-response",
+      "choices": []
   }
 ];

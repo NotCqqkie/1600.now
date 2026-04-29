@@ -1,0 +1,15 @@
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret x in the function k(x)",
+      "content": "The function $ k(x) $ models the number of students $ x $ years after the organization's establishment. Here, $ x = 4 $ represents <strong>4 years after the start</strong>. The output $ k(4) = 44 $ directly means the estimated number of students at that point."
+    },
+    {
+      "title": "Match the interpretation to the correct choice",
+      "content": "Choice C states: '...44 students in the organization <strong>4 years after</strong> it was established.' This aligns with $ k(4) = 44 $, where the input $ x = 4 $ years directly maps to the described time period. Other choices incorrectly associate 44 students with 0 or 10 years."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the conclusion's key pattern",
+      "content": "The researchers concluded that in only one country are there more insect species than fungus species\u2014meaning the other two must have more fungi than insects."
+    },
+    {
+      "title": "Match the table data to the pattern",
+      "content": "Choice C directly shows Bulgaria as the only country with more insects (16) than fungi (14), while Great Britain and Belgium both have more fungi than insects\u2014exactly the pattern the researchers' conclusion describes. The other choices either misstate Bulgaria's numbers or cite data without establishing this comparative pattern. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

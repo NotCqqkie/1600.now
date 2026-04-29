@@ -1,0 +1,15 @@
+{
+  "questionId": "beb86a0c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the greatest common factor",
+      "content": "Both terms have a factor of $$x$$. Factoring $$x$$ out gives $$9x^2+5x = x(9x+5)$$."
+    },
+    {
+      "title": "Identify the equivalent choice",
+      "content": "This matches choice A: $$x(9x+5)$$.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

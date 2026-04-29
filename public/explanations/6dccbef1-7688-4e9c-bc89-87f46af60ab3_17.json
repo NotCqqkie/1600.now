@@ -1,0 +1,16 @@
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_17",
+  "correctAnswer": ".9966,0.996,0.997",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percentage decrease to a decimal multiplier",
+      "content": "Decreasing by 0.34% means we subtract 0.34% from 100%, leaving 99.66% of the original. In decimal form: $99.66\\% = 0.9966$. This is our multiplier.",
+      "formula": "$$\\text{Decrease by } p\\% \\Rightarrow \\text{multiply by } \\left(1 - \\frac{p}{100}\\right)$$"
+    },
+    {
+      "title": "Identify the coefficient k",
+      "content": "The decreased force equals the multiplier times the original: $$0.9966x = kx$$ Therefore, $k = 0.9966$."
+    }
+  ]
+}

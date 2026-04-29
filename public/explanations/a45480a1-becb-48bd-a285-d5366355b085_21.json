@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the narrowing move",
+      "content": "The first sentence makes a broad claim: Diker is \u201cwell known for his work as a puppeteer.\u201d The second sentence narrows to specify: \u201che specializes in shadow puppetry.\u201d The transition signals movement from general point to specific detail."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "\u201dIn particular\u201d introduces a specific detail when discussing a general topic\u2014here, it clarifies which type of puppetry Diker specializes in. The other three choices introduce relationships not present in the passage: opposition, consequence, or enumeration. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "5e422ff9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y from first equation into second equation",
+      "content": "Replace y in the second equation using the expression from the first equation: $$3(2x - 3) = 5x$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Expand and simplify: $$6x - 9 = 5x$$ $$x = 9$$<br/>Now substitute $x = 9$ into the first equation."
+    },
+    {
+      "title": "Find y using x = 9",
+      "content": "Calculate: $$y = 2(9) - 3 = 15$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

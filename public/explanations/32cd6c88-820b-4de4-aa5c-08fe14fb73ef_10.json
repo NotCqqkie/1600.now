@@ -1,0 +1,15 @@
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two clear points on the line",
+      "content": "The line of best fit passes through the y-intercept at approximately (0, 10) and extends to approximately (8, 4) on the right side of the graph. These are clear reference points visible on the grid."
+    },
+    {
+      "title": "Apply the slope formula",
+      "content": "Use the slope formula with the two points (0, 10) and (8, 4):<br/><br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{4 - 10}{8 - 0} = \\frac{-6}{8} = -0.75$$<br/><br/>The slope is negative (line descends left to right) and has a magnitude of about 0.75. Among the choices, \u22120.84 is the closest value. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

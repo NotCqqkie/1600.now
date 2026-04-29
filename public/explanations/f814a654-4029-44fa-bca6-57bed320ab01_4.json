@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key shift",
+      "content": "The passage opens with a fact about <em>P. seppenradensis</em>'s size, then immediately signals a problem: \u201cscientists have been perplexed by its size.\u201d This establishes a <strong>scientific mystery</strong> waiting for explanation."
+    },
+    {
+      "title": "Match the structure to the choices",
+      "content": "The passage then describes how researchers addressed this: \u201cAfter examining 154 ammonite fossils... paleontologist Christina Ifrim, Andrew S. Gale, and colleagues concluded...\u201d This is a <strong>research team's attempt to solve the mystery</strong>. Choice A incorrectly invokes an assumption being overturned; Choices C and D misrepresent the passage's focus. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "67e866b5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "In the expression $9x^2 + 7x^2 + 9x$, the first two terms both contain $x^2$ and can be combined. The term $9x$ is not a like term with these, so it stays separate."
+    },
+    {
+      "title": "Combine the x2 terms and write the result",
+      "content": "Combining the coefficients of $x^2$: $$9x^2 + 7x^2 = (9 + 7)x^2 = 16x^2$$ The complete simplified expression is $16x^2 + 9x$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

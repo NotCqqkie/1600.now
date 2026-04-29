@@ -1,0 +1,16 @@
+{
+  "questionId": "5b2b8866",
+  "correctAnswer": "2592/5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the scale factor for each dimension",
+      "content": "Each dimension increases by 20%, so the new dimension is 120% of the original. This corresponds to a scale factor of $k = 1.2 = \\frac{6}{5}$."
+    },
+    {
+      "title": "Apply the area scaling rule to find the new area",
+      "content": "When all linear dimensions scale by factor $k$, area scales by factor $k^2$.<br/><br/>The area scaling factor is: $k^2 = (1.2)^2 = \\frac{36}{25}$<br/><br/>The new area is:<br/>$$360 \\times \\frac{36}{25} = \\frac{360 \\times 36}{25} = \\frac{12960}{25} = \\frac{2592}{5} \\text{ square inches}$$",
+      "formula": "$$A_{\\text{new}} = A_{\\text{old}} \\times k^2$$"
+    }
+  ]
+}

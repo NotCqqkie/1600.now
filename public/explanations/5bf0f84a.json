@@ -1,0 +1,15 @@
+{
+  "questionId": "5bf0f84a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize what the constant term represents",
+      "content": "In any function <em>h</em>(<em>t</em>), when we set <em>t</em> = 0, all terms containing <em>t</em> vanish and only the constant term remains. Since <em>t</em> = 0 represents the launch moment, the constant term gives the initial height. In $h(t) = -16t^2 + 110t + 72$, the constant term is 72."
+    },
+    {
+      "title": "Evaluate h(0) to find the initial height",
+      "content": "$$h(0) = -16(0)^2 + 110(0) + 72 = 72 \\text{ feet}$$<br/>At the moment of launch (<em>t</em> = 0), the object is at a height of 72 feet above the ground. This is the initial height of the object. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

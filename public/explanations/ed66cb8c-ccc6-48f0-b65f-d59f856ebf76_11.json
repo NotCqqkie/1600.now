@@ -1,0 +1,15 @@
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The claim directly states that people usually spend <strong>more time</strong> viewing art in a museum than online. To support this, we need evidence showing a <strong>time difference</strong> between these two viewing contexts."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A directly provides the specific time comparison: three minutes at the museum versus one minute online. The other three choices discuss unrelated topics\u2014whether other works are online, where visitors come from, and museum collection scope\u2014none of which show a difference in viewing time. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

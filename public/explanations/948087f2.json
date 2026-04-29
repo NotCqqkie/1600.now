@@ -1,0 +1,15 @@
+{
+  "questionId": "948087f2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we are checking",
+      "content": "A point satisfies this system if it makes both inequalities true. We need to verify both $y \\leq 3x + 1$ AND $x - y > 1$ for our answer."
+    },
+    {
+      "title": "Backsolve through the choices",
+      "content": "Backsolving \u2014 testing choice A $(-2, -1)$:<br/>Is $-1 \\leq 3(-2) + 1 = -5$? No. Fails.<br/><br/>Testing choice B $(-1, 3)$:<br/>Is $3 \\leq 3(-1) + 1 = -2$? No. Fails.<br/><br/>Testing choice C $(1, 5)$:<br/>Is $5 \\leq 3(1) + 1 = 4$? No. Fails.<br/><br/>Testing choice D $(2, -1)$:<br/>Inequality 1: Is $-1 \\leq 3(2) + 1 = 7$? Yes. \u2713<br/>Inequality 2: Is $2 - (-1) = 3 > 1$? Yes. \u2713<br/>Both inequalities satisfied. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

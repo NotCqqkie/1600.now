@@ -1,0 +1,15 @@
+{
+  "questionId": "6e5bf3a8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "On the left: \u201cA recent study\u201d is a noun phrase serving as the sentence subject. On the right: \u201cwhy: [explanation]\u201d follows the blank. The blank must contain the main verb of an independent clause."
+    },
+    {
+      "title": "Apply the finite verb rule",
+      "content": "The main verb of an independent clause must be a finite verb\u2014a conjugated form showing tense and subject agreement. \u201cExplains\u201d is the only finite verb among the choices and correctly serves as the main predicate. The other three are non-finite forms (two participles and an infinitive) that cannot function as a clause's main verb and would create a sentence fragment. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

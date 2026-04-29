@@ -1,0 +1,15 @@
+{
+  "questionId": "a3bf0a9d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between sentences",
+      "content": "The first sentence makes a broad claim about supernovas' dual role (bubble creation AND star formation). The second sentence then explains HOW\u2014the specific mechanism through which the bubble trapped clouds that became stars. The pattern is general claim followed by specific details."
+    },
+    {
+      "title": "Match the transition",
+      "content": "\u201dSpecifically\u201d marks the shift from a general claim to its particular details\u2014here, from the broad finding about supernovas to the specific mechanism of cloud trapping. The other choices signal mismatched relationships: a consequence (Hence), a contrast (However), or a concession (Admittedly). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_6",
+  "correctAnswer": "448",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equation",
+      "content": "We need to find the value of x for which $g(x) = 224$. Since $g(x) = \\frac{x}{2}$, we set up the equation:<br><br>$$\\frac{x}{2} = 224$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Multiply both sides by 2 to isolate x:<br><br>$$x = 224 \\times 2 = 448$$"
+    }
+  ]
+}

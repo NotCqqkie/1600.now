@@ -1,0 +1,15 @@
+{
+  "questionId": "e818241b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast that frames the problem",
+      "content": "The second sentence uses \u201chowever\u201d to shift from what astronomers ARE confident about (the supernova will occur) to what they are NOT (when it will occur). The reason given\u2014\u201dinternal characteristics of Betelgeuse that are largely unknown\u201d\u2014identifies the core knowledge gap that drives the entire passage."
+    },
+    {
+      "title": "Connect the problem to Nance's investigation",
+      "content": "The second sentence establishes a specific, unsolved problem: we don't know Betelgeuse's internal characteristics, so we can't predict when it will explode. The third sentence immediately describes how Nance and colleagues attempted to solve this exact problem\u2014investigating whether acoustic waves could reveal those characteristics\u2014but concluded the method did not work sufficiently. Choices A, B, and D describe elements of the third sentence or mischaracterize the second sentence's role. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

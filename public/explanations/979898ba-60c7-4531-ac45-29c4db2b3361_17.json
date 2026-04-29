@@ -1,0 +1,15 @@
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor and complete the square",
+      "content": "To convert to vertex form, factor 7 from the $x$ terms:<br/>$$y = 7\\left(x^2 - \\frac{b}{7}x\\right) - 6$$<br/>To complete the square, find half the coefficient of $x$ and square it. Half of $-\\frac{b}{7}$ is $-\\frac{b}{14}$, squared is $\\frac{b^2}{196}$. Therefore:<br/>$$x^2 - \\frac{b}{7}x = \\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}$$"
+    },
+    {
+      "title": "Substitute back and simplify",
+      "content": "Substitute into the original equation:<br/>$$y = 7\\left[\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{196}\\right] - 6$$<br/>Distribute the 7:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - 7 \\cdot \\frac{b^2}{196} - 6$$<br/>Simplify $7 \\cdot \\frac{b^2}{196} = \\frac{b^2}{28}$:<br/>$$y = 7\\left(x - \\frac{b}{14}\\right)^2 - \\frac{b^2}{28} - 6$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

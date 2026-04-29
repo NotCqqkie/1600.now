@@ -1,0 +1,20 @@
+{
+  "questionId": "6a3fbec3",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the altitude-to-hypotenuse configuration",
+      "content": "The figure shows triangle $ABC$ with point $D$ on side $AC$, where $BD \\perp AC$ (marked by the right angle). This is the classic setup for a right triangle with altitude drawn from the right angle to the hypotenuse. Triangle $ABC$ has a right angle at $B$, $AC$ is the hypotenuse, and $BD$ is the altitude dividing the hypotenuse into segments $AD = 8$ and $DC$ (unknown)."
+    },
+    {
+      "title": "Apply the geometric mean altitude theorem",
+      "content": "In a right triangle, when an altitude is drawn from the right angle to the hypotenuse, the altitude is the geometric mean of the two segments of the hypotenuse. This gives us the formula:",
+      "formula": "$$BD^2 = AD \\cdot DC$$"
+    },
+    {
+      "title": "Substitute values and solve for DC",
+      "content": "Substitute $BD = 6$ and $AD = 8$ into the formula:<br/><br/>$$6^2 = 8 \\cdot DC$$<br/>$$36 = 8 \\cdot DC$$<br/>$$DC = \\frac{36}{8} = \\frac{9}{2} = 4.5$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

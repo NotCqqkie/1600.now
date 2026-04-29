@@ -1,0 +1,19 @@
+{
+  "questionId": "104bff62",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine fractions with common denominator",
+      "content": "Notice that $\\frac{x^{2}}{\\sqrt{x^{2}-c^{2}}}$ and $\\frac{c^{2}}{\\sqrt{x^{2}-c^{2}}}$ share the same denominator. Move the second fraction to the left side:<br/><br/>$$\\frac{x^{2}}{\\sqrt{x^{2}-c^{2}}} - \\frac{c^{2}}{\\sqrt{x^{2}-c^{2}}} = 39$$<br/><br/>Combine into a single fraction:<br/><br/>$$\\frac{x^{2} - c^{2}}{\\sqrt{x^{2}-c^{2}}} = 39$$"
+    },
+    {
+      "title": "Use substitution to simplify the radical",
+      "content": "Let $u = \\sqrt{x^{2}-c^{2}}$, which means $u^{2} = x^{2} - c^{2}$. Substitute into the equation:<br/><br/>$$\\frac{u^{2}}{u} = 39$$<br/><br/>Cancel the $u$ in numerator and denominator:<br/><br/>$$u = 39$$"
+    },
+    {
+      "title": "Solve for x and identify the solution",
+      "content": "Back-substitute $u = 39$ into $u = \\sqrt{x^{2}-c^{2}}$:<br/><br/>$$\\sqrt{x^{2}-c^{2}} = 39$$<br/><br/>Square both sides:<br/><br/>$$x^{2} - c^{2} = 1521$$<br/><br/>Since $1521 = 39^{2}$:<br/><br/>$$x^{2} = c^{2} + 39^{2}$$<br/><br/>Therefore:<br/><br/>$$x = \\pm\\sqrt{c^{2} + 39^{2}}$$<br/><br/>The negative solution is $-\\sqrt{c^{2} + 39^{2}}$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

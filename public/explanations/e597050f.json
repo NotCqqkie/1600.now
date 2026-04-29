@@ -1,0 +1,11 @@
+{
+  "questionId": "e597050f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "Group the <em>x</em> terms together and the <em>y</em> terms together.<br/><br/>$$9x + 6x + 2y + 3y = (9x + 6x) + (2y + 3y)$$<br/><br/>For the <em>x</em> terms: $9x + 6x = 15x$<br/><br/>For the <em>y</em> terms: $2y + 3y = 5y$<br/><br/>Combining these: $15x + 5y$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

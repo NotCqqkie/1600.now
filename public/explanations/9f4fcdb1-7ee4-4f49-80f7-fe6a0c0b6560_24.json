@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the reinforcement signal",
+      "content": "The first sentence claims that using \u201cphilo-Publius\u201d accomplished <strong>far more than simply concealing his authorship.</strong> The blank must transition to a sentence that explains what that \u201cfar more\u201d actually was."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dIndeed\u201d introduces a reinforcing elaboration\u2014the second sentence confirms the first's claim by specifying that the pseudonym was a deliberate rhetorical strategy. The other three either introduce contrast where none exists or suggest an unrelated new point. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

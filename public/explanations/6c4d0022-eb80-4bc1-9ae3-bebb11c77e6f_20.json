@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the parallel structure",
+      "content": "The sentence contains a list of exemplars from three fields. Each item in the list should begin with a location marker\u2014<em>in astronomy, in chemistry, in mathematics</em>\u2014to maintain consistent parallel structure."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "A colon introduces a list. Option A uses <em>abound:</em> with <em>in astronomy,</em> as the start of the first list item, maintaining parallel structure where all items begin with a location marker. Option B places <em>in astronomy</em> in the main clause, leaving the first list item (<em>there is the Cassegrain reflector</em>) without the location marker that the other items have, breaking parallelism. Options C and D use incorrect punctuation for introducing or separating list items. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

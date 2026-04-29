@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_7",
+  "correctAnswer": "0.3,3/10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute x equals 6",
+      "content": "Replace $x$ with 6 in the function $f(x) = \\frac{x-3}{x^2-7x+16}$:<br><br>$$f(6) = \\frac{6-3}{6^2-7(6)+16}$$"
+    },
+    {
+      "title": "Evaluate the numerator and denominator",
+      "content": "<strong>Numerator:</strong> $6 - 3 = 3$<br><strong>Denominator:</strong> $36 - 42 + 16 = 10$<br><br>$$f(6) = \\frac{3}{10} = 0.3$$"
+    }
+  ]
+}

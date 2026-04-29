@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the evaluation",
+      "content": "The airplane's height after 3 minutes is found by evaluating $f(3)$, since $x$ represents time in minutes."
+    },
+    {
+      "title": "Calculate f(3)",
+      "content": "$$f(3) = -40(3) + 340$$<br/>$$f(3) = -120 + 340$$<br/>$$f(3) = 220$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

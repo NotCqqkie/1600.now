@@ -1,0 +1,15 @@
+{
+  "questionId": "6762772f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the limiting signal",
+      "content": "The passage describes artificial leaves, then introduces the critical point: the technology is <strong>\u201cnot yet commercially viable as a large-scale energy source.\u201d</strong> This structure signals that the main idea concerns what must still be done, not what has been achieved."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice A states that continued research and development is required before wide use becomes possible\u2014exactly the reality the passage describes. The other three either claim commercial deployment has already occurred, isolate an unsupported technical comparison, or frame an unfulfilled goal as already accomplished. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

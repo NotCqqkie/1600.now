@@ -1,0 +1,15 @@
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the scaling relationship",
+      "content": "We're given a maximum of 92 trees per acre. Since the number of trees scales proportionally with acreage, we multiply the per-acre maximum by the total number of acres."
+    },
+    {
+      "title": "Calculate the total for 2 acres",
+      "content": "$$92 \\times 2 = 184 \\text{ trees}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

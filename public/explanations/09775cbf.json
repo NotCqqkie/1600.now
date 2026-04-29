@@ -1,0 +1,15 @@
+{
+  "questionId": "09775cbf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the original effect",
+      "content": "The original experiments showed that participants regarded products as significantly more valuable when the product-to-space ratio was <em>low</em> (items spread far apart) than when it was <em>high</em> (items crowded close together). The question asks which finding would support the claim that an inexpensive store context <em>moderates</em> (weakens or reduces) this effect."
+    },
+    {
+      "title": "Match the signal to the finding",
+      "content": "To directly support the conclusion, the finding must show that the original effect (far apart > close together) still occurs, but is <strong>weaker at the inexpensive retailer</strong> than at the upscale one. Choice A does exactly this: at both Tiffany and Forever 21, far-apart spacing increases perceived value over close spacing\u2014preserving the original effect\u2014yet the difference is <em>substantially</em> larger at Tiffany and only <em>slightly</em> larger at Forever 21. This demonstrates the inexpensive store context reduces the magnitude of the spacing effect. The other choices reverse the original effect or fail to show how the spacing-value relationship differs across store types. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

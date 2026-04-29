@@ -1,0 +1,15 @@
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the causal relationship",
+      "content": "The passage states that box models lack organic realism, then immediately indicates that post-modeling processes are needed. These statements form a cause-and-effect pair: the limitation identified in the first clause directly necessitates the solution in the second clause."
+    },
+    {
+      "title": "Apply the causal signal",
+      "content": "\u201dConsequently\u201d conveys that post-modeling processes are a necessary result of the realism limitation\u2014showing a direct causal link between problem and solution. \u201cSimilarly,\u201d \u201cin sum,\u201d and \u201chowever\u201d each suggest comparison, summary, or general contrast rather than causation. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

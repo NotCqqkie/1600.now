@@ -1,0 +1,15 @@
+{
+  "questionId": "7b1a3200",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the 16-inch column on the dot plot",
+      "content": "Find the vertical line above the 16-inch mark on the horizontal axis of the dot plot. This column contains all the sea stars with a diameter of 16 inches."
+    },
+    {
+      "title": "Count the dots in the 16-inch column",
+      "content": "Count each dot stacked vertically above 16 inches, from bottom to top: 1, 2, 3, 4, 5, 6. There are 6 dots in this column. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

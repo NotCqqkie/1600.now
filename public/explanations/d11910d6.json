@@ -1,0 +1,15 @@
+{
+  "questionId": "d11910d6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall that the y-intercept occurs where x = 0",
+      "content": "The <em>y</em>-intercept is the point where a line crosses the <em>y</em>-axis. This always happens when $x = 0$. We need to find the <em>y</em>-coordinate of that point."
+    },
+    {
+      "title": "Read the y-value from the graph",
+      "content": "Looking at the graph, trace up the <em>y</em>-axis to find where the line intersects it. At $x = 0$, the line crosses the <em>y</em>-axis at $y = 2$. Therefore, the <em>y</em>-intercept is the ordered pair $(0, 2)$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept of the original line from the graph",
+      "content": "Trace the line of best fit to where it crosses the y-axis (at $x = 0$). The line intersects the y-axis at approximately $y \\approx 54.57$."
+    },
+    {
+      "title": "Apply the transformation to the entire line",
+      "content": "When data set B is created by subtracting 9 from each $y$-value, every point shifts down by 9 units vertically. This means the entire line of best fit shifts down by exactly 9 units. If the original line has equation $y = mx + 54.57$, the new line has equation $y = mx + (54.57 - 9)$."
+    },
+    {
+      "title": "Calculate the new y-intercept",
+      "content": "The $y$-intercept of the line of best fit for data set B is:<br/>$$y\\text{-intercept} = 54.57 - 9 = 45.57$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

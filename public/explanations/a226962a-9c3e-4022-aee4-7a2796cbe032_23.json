@@ -1,0 +1,15 @@
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The key signal is <em>\u201cmore accurate\u201d</em>\u2014a comparison that demands explanation. The sentence after the blank provides that explanation: the 1920 calculation used primitive equipment."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "<em>\u201cOf course\u201d</em> signals that an explanation follows\u2014one justifying the preceding claim about accuracy. The 1920 calculation's primitive equipment explains its inferior accuracy compared to the 2015 version. The other three suggest similarity, signal purpose, or indicate finality. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

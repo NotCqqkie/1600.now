@@ -1,0 +1,15 @@
+{
+  "questionId": "a31417d1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the exponential decay model",
+      "content": "When a quantity declines by a constant percentage each year, it follows exponential decay of the form $C = C_0(b)^t$. Here, $C_0 = 600$ million is the initial value in 2005, and $b$ is the yearly multiplier (what we multiply by each year)."
+    },
+    {
+      "title": "Convert the decline rate to a multiplier",
+      "content": "Declined by 15% each year means we multiply by $1 - 0.15 = 0.85$ each year. So the yearly multiplier is $b = 0.85$. Substituting into the exponential model: $$C = 600(0.85)^t$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_20",
+  "correctAnswer": "1200",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form with the maximum point",
+      "content": "The object reaches maximum height 1,600 feet at t = 10 seconds. This is the vertex of the parabola. We can write the quadratic directly in vertex form without expanding:<br><br>$$f(t) = a(t - 10)^2 + 1600$$<br><br>where $a$ is the leading coefficient (unknown for now).",
+      "formula": "$$f(t) = a(t - h)^2 + k$$"
+    },
+    {
+      "title": "Find the coefficient a from the initial condition",
+      "content": "The object was launched from height 0, so $f(0) = 0$. Substitute into the equation:<br><br>$$0 = a(0 - 10)^2 + 1600$$<br><br>$$0 = 100a + 1600$$<br><br>$$a = -16$$<br><br>The parabola opens downward (as expected for an object under gravity)."
+    },
+    {
+      "title": "Evaluate the height at t = 15 seconds",
+      "content": "Now we have the complete function: $f(t) = -16(t - 10)^2 + 1600$. Substitute $t = 15$:<br><br>$$f(15) = -16(15 - 10)^2 + 1600$$<br><br>$$f(15) = -16(5)^2 + 1600$$<br><br>$$f(15) = -16(25) + 1600$$<br><br>$$f(15) = -400 + 1600 = 1200$$<br><br>The height at 15 seconds is <strong>1200</strong> feet."
+    }
+  ]
+}

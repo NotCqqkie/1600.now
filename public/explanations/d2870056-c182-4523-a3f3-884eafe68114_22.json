@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "The line crosses the y-axis at the point $(0, 2)$."
+    },
+    {
+      "title": "Substitute the point into the equation",
+      "content": "Substitute $(0, 2)$ into $6x + By = 18$:<br/><br/>$$6(0) + B(2) = 18$$<br/>$$2B = 18$$<br/>$$B = 9$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

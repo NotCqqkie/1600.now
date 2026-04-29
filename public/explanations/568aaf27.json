@@ -1,0 +1,15 @@
+{
+  "questionId": "568aaf27",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute to form a quadratic equation",
+      "content": "Since $y = x^2$ and $x + y = 12$, substitute the parabola into the linear equation:<br/>$$x + x^2 = 12$$<br/>$$x^2 + x - 12 = 0$$"
+    },
+    {
+      "title": "Factor and identify the answer",
+      "content": "Factoring: $(x + 4)(x - 3) = 0$ gives $x = -4$ or $x = 3$. Only $x = 3$ appears among the choices. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

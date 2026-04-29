@@ -1,0 +1,15 @@
+{
+  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "From the table, when x = -3, f(x) = 0; when x = 0, f(x) = -15.<br/>Compute the slope: $$m = \\frac{-15 - 0}{0 - (-3)} = \\frac{-15}{3} = -5$$"
+    },
+    {
+      "title": "Write the equation using point-slope",
+      "content": "Using point-slope form with point (\u22123,0): $$y - 0 = -5(x - (-3))$$<br/>Simplify: $$y = -5(x + 3)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize what relationship the transition must express",
+      "content": "The passage first explains what Roman numerals indicate, then immediately states a consequence: an incorrect assumption you shouldn't make. The transition must bridge these two ideas as a logical result."
+    },
+    {
+      "title": "Match the relationship to the correct transition",
+      "content": "\"Then\" marks this consequence: it shows how the second idea follows from the first. The other options fail: \"however\" suggests contradiction rather than consequence, while \"finally\" and \"moreover\" introduce sequence or addition. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

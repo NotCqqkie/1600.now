@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the key property of equal fractions",
+      "content": "We have $\\frac{x-17}{18}=\\frac{x-17}{6}$. Notice that both fractions have the same numerator $(x-17)$ but different denominators (18 and 6). For two fractions with identical numerators to be equal, they must both equal zero, because otherwise $\\frac{A}{18} = \\frac{A}{6}$ would require $A = 3A$, which is only true when $A = 0$."
+    },
+    {
+      "title": "Set the numerator to zero and find x",
+      "content": "Since the numerator must be zero:<br/><br/>$$x - 17 = 0$$<br/><br/>$$x = 17$$<br/><br/>Therefore, $x + 17 = 17 + 17 = 34$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

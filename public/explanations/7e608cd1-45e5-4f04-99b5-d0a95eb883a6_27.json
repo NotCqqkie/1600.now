@@ -1,0 +1,15 @@
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core contradiction",
+      "content": "The notes reveal that scientists hypothesized collapse temperature would vary with molecular properties, but the 2023 study found it <em>\u201cnearly independent of material and fluid properties, contrary to previous theories.\u201d</em> This is the assumption being refuted."
+    },
+    {
+      "title": "Match the refutation",
+      "content": "C directly refutes the assumption by stating collapse temperature <em>\u201cdoes not vary depending on material and fluid properties,\u201d</em> matching the study's finding. A addresses the wrong phenomenon, B claims the opposite of what the study found, and D conflates formation and collapse, obscuring the specific refutation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

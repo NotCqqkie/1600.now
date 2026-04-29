@@ -1,0 +1,15 @@
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive structure",
+      "content": "The blank contains an appositive\u2014a noun phrase where \u201cStephen Graham Jones\u201d renames \u201cnovelist.\u201d The sentence structure is: \u201cturned to the novelist [appositive] to craft...\u201d The key is determining whether this appositive should be set off by commas."
+    },
+    {
+      "title": "Apply the appositive rule",
+      "content": "A restrictive appositive (specifying <em>which</em> person) takes <strong>no commas</strong>; a non-restrictive appositive (providing extra information) takes commas on both sides. Here, \u201cStephen Graham Jones\u201d identifies <em>which</em> novelist the editors consulted, making it restrictive\u2014no commas needed. Additionally, the infinitive phrase \u201cto craft\u201d must follow without a comma, which is standard for expressions of purpose. Choice B correctly applies both rules. A adds an incorrect comma before \u201cto craft,\u201d C adds unnecessary commas treating the appositive as non-restrictive, and D creates an asymmetrical comma pattern. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

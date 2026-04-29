@@ -1,0 +1,19 @@
+{
+  "questionId": "17d0e87d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the left side",
+      "content": "The left side $\\frac{14x}{7y}$ simplifies to $\\frac{2x}{y}$, so the equation becomes: $$\\frac{2x}{y} = 2\\sqrt{w+19}$$ <br/>Divide both sides by 2 to isolate the square root: $$\\frac{x}{y} = \\sqrt{w+19}$$"
+    },
+    {
+      "title": "Square both sides",
+      "content": "To eliminate the square root, square both sides: $$\\left(\\frac{x}{y}\\right)^2 = w + 19$$"
+    },
+    {
+      "title": "Isolate w",
+      "content": "Subtract 19 from both sides: $$w = \\left(\\frac{x}{y}\\right)^2 - 19$$ <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what we need to find",
+      "content": "The problem asks for the height 2 minutes after the airplane begins to descend, so we need to evaluate $f(2)$."
+    },
+    {
+      "title": "Substitute and calculate",
+      "content": "$$f(2) = -30(2) + 310$$<br/>$$= -60 + 310$$<br/>$$= 250$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

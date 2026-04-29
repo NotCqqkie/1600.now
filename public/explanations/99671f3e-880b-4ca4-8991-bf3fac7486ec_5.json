@@ -1,0 +1,15 @@
+{
+  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the earlier claim",
+      "content": "The sentence states that our understanding of walking decisions is <strong>\u201cinsufficiently robust\u201d</strong>\u2014this key assertion requires explanation."
+    },
+    {
+      "title": "Match the underlined portion's function",
+      "content": "The underlined portion elaborates on <strong>\u201cinsufficiently robust\u201d</strong> by showing what that means in practice: various studies examine different factors (norms, sidewalk width), but walking decisions are made in contexts with multiple conditions. The other choices mischaracterize the function: A treats variety of emphases as disagreement, B confuses explanation for summary, and D invents an objection. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

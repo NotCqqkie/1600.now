@@ -1,0 +1,15 @@
+{
+  "questionId": "ba0edc30",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quadratic formula",
+      "content": "For $x^2 - 2x - 9 = 0$ with $a = 1$, $b = -2$, $c = -9$, use the quadratic formula. First compute the discriminant:<br/><br/>$$b^2 - 4ac = (-2)^2 - 4(1)(-9) = 4 + 36 = 40$$<br/><br/>Then substitute into the formula:<br/><br/>$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{2 \\pm \\sqrt{40}}{2}$$"
+    },
+    {
+      "title": "Simplify the radical and extract k",
+      "content": "Simplify $\\sqrt{40} = \\sqrt{4 \\cdot 10} = 2\\sqrt{10}$. Substitute back to get:<br/><br/>$$x = \\frac{2 \\pm 2\\sqrt{10}}{2} = \\frac{2(1 \\pm \\sqrt{10})}{2} = 1 \\pm \\sqrt{10}$$<br/><br/>One solution is $x = 1 + \\sqrt{10}$. Comparing to the form $1 + \\sqrt{k}$, we see that $k = 10$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

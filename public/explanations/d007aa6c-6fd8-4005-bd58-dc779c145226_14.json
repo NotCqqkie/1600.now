@@ -1,0 +1,15 @@
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the core requirement",
+      "content": "The claim is that sounds are \u201cdirected primarily at predators,\u201d meaning they function as anti-predator signals rather than for intraspecies communication (which the passage mentions as an alternative). To support this claim directly, we need evidence of predators responding to the sounds."
+    },
+    {
+      "title": "Match the evidence to the predator-directed function",
+      "content": "Choice C shows chickens and yellow warblers (actual predators) stop attacking when they hear caterpillar sounds. This demonstrates the sounds have a defensive effect on predators, confirming they function as anti-predator signals. Choices A, B, and D address frequency characteristics, production consistency, and species specificity respectively, but none establish that predators actually respond to the sounds. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

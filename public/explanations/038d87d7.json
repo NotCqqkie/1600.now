@@ -1,0 +1,19 @@
+{
+  "questionId": "038d87d7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the equation components",
+      "content": "The equation $2x + 35y = 3,934$ has coefficients 2 and 35 representing the park and residential area in hectares. These multiply with variables to sum to 3,934 total trees."
+    },
+    {
+      "title": "Recognize what the equation structure means",
+      "content": "For the equation to equal the total number of trees, each product (area \u00d7 variable) must represent the trees in that region. Therefore:<br/>$$2x = \\text{trees in park}$$<br/>$$35y = \\text{trees in residential area}$$"
+    },
+    {
+      "title": "Interpret x",
+      "content": "Since $2x$ equals the trees in the park and 2 is the park's area in hectares, $x$ must be the number of trees per hectare:<br/>$$x = \\frac{\\text{trees in park}}{2} = \\text{trees per hectare in park}$$<br/>This is the average number of trees per hectare in the park. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

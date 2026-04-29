@@ -1,0 +1,15 @@
+{
+  "questionId": "2c6f214f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sequence type",
+      "content": "This is a geometric sequence: it starts at 9, and each term is 4 times the previous one. The first term is $a = 9$ and the common ratio is $r = 4$."
+    },
+    {
+      "title": "Apply the geometric sequence formula",
+      "content": "For any geometric sequence, the $n$-th term is given by $a \\cdot r^{n-1}$. Substituting $a = 9$ and $r = 4$:<br/><br/>$$w = 9 \\cdot 4^{n-1}$$<br/><br/>Verify: $n = 1$ gives $w = 9(4^0) = 9$ \u2713; $n = 2$ gives $w = 9(4^1) = 36$ \u2713<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

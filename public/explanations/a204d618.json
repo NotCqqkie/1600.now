@@ -1,0 +1,15 @@
+{
+  "questionId": "a204d618",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sequential pattern",
+      "content": "The passage uses \u201cfirst\u201d to mark the initial step and \u201cLastly\u201d to mark the final step. The blank must contain the transition for the middle step."
+    },
+    {
+      "title": "Match the sequential marker",
+      "content": "\u201dNext\u201d signals the second step in a sequence\u2014exactly what fits between \u201cfirst\u201d scraped and \u201cLastly\u201d smoothed. The other three either introduce examples (A), draw similarities (C), or show contrast (D), none of which fit a procedural sequence. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

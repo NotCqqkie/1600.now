@@ -1,0 +1,15 @@
+{
+  "questionId": "3b4b8831",
+  "correctAnswer": "-3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide both sides by 38",
+      "content": "The coefficient 38 appears on both sides. Divide to simplify:<br/>$$x^2 = 9$$"
+    },
+    {
+      "title": "Take square roots to find both solutions",
+      "content": "Taking the square root of both sides:<br/>$$x = \\pm\\sqrt{9} = \\pm 3$$<br/>The two solutions are $x = 3$ and $x = -3$. The negative solution is $x = -3$."
+    }
+  ]
+}

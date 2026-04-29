@@ -1,0 +1,19 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the median position for 11 values",
+      "content": "With 11 values, the median is at position $\\frac{11 + 1}{2} = 6$. We need the 6th value in each dataset when listed in order."
+    },
+    {
+      "title": "Find the 6th value in data set A",
+      "content": "Data set A: 2, 2, 2, 5, 5, <strong>8</strong>, 11, 11, 14, 14, 14<br/>Counting to the 6th position: 2, 2, 2, 5, 5, then 8. The median of data set A is 8."
+    },
+    {
+      "title": "Find the 6th value in data set B and compare",
+      "content": "Data set B: 2, 5, 5, 8, 8, <strong>8</strong>, 8, 8, 11, 11, 14<br/>Counting to the 6th position: 2, 5, 5, 8, 8, then 8. The median of data set B is 8.<br/>Both datasets have a median of 8. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

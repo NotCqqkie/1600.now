@@ -1,0 +1,15 @@
+{
+  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept from the graph",
+      "content": "From the graph, the line crosses the y-axis at the point (0, 10)."
+    },
+    {
+      "title": "Substitute the y-intercept into the equation and solve for B",
+      "content": "Substitute the point (0, 10) into $10x + By = 50$:<br/><br/>$$10(0) + B(10) = 50$$<br/>$$10B = 50$$<br/>$$B = 5$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

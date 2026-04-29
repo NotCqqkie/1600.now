@@ -1,0 +1,19 @@
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope of line l using perpendicularity",
+      "content": "When two lines are perpendicular, their slopes multiply to $-1$. Since line $k$ has slope $m$, the slope of line $l$ is:<br/>$$m_{\\text{line } l} \\cdot m = -1$$$$m_{\\text{line } l} = -\\frac{1}{m}$$"
+    },
+    {
+      "title": "Use point-slope form to write the equation of line l",
+      "content": "Line $l$ passes through $(2, 9)$ with slope $-\\frac{1}{m}$:<br/>$$y - 9 = -\\frac{1}{m}(x - 2)$$"
+    },
+    {
+      "title": "Substitute $x = 3$ to find the $y$-coordinate",
+      "content": "Plug $x = 3$ into the equation of line $l$:<br/>$$y - 9 = -\\frac{1}{m}(3 - 2)$$$$y - 9 = -\\frac{1}{m}$$$$y = 9 - \\frac{1}{m}$$<br/>The point that lies on line $l$ is $\\left(3, 9 - \\frac{1}{m}\\right)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

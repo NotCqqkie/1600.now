@@ -1,0 +1,15 @@
+{
+  "questionId": "40049d49",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the condition for infinitely many solutions",
+      "content": "An equation has infinitely many solutions when both sides are identical expressions \u2014 true for all values of $x$. The given equation is $4x+12=\\frac{a(x+3)}{2}$. Notice the left side factors: $4x + 12 = 4(x+3)$, so rewrite it as $$4(x+3) = \\frac{a(x+3)}{2}$$"
+    },
+    {
+      "title": "Solve for a by matching coefficients",
+      "content": "Multiply both sides by 2 to clear the fraction: $$8(x+3) = a(x+3)$$ For this to be true for all values of $x$, the coefficients of $(x+3)$ on both sides must be equal. Therefore $a = 8$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

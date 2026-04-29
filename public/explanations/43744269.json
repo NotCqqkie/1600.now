@@ -1,0 +1,19 @@
+{
+  "questionId": "43744269",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify constant rate of change",
+      "content": "The airplane descends at a constant rate of 400 feet per minute. When a quantity changes by a <em>constant amount</em> over time, it is modeled by a <strong>linear function</strong>. Exponential functions involve constant percentage change, which is not mentioned here."
+    },
+    {
+      "title": "Determine increasing or decreasing",
+      "content": "Since the altitude is <em>decreasing</em> over time, the function must be <strong>decreasing</strong>. Exponential functions require a multiplicative relationship (not applicable here). Linear functions with negative slopes describe constant decreases."
+    },
+    {
+      "title": "Conclusion",
+      "content": "The scenario involves a constant rate of decrease \u2192 linear function with negative slope. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

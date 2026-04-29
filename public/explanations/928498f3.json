@@ -1,0 +1,16 @@
+{
+  "questionId": "928498f3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify coefficients from the standard form",
+      "content": "From $6x^2 + 5x - 7 = 0$, we identify $a = 6$, $b = 5$, $c = -7$."
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "Apply the quadratic formula by substituting the coefficients:<br/><ul><li>Numerator: $-b = -5$</li><li>Denominator: $2a = 2(6) = 12$</li><li>Discriminant: $b^2 - 4ac = 5^2 - 4(6)(-7) = 25 - (-168) = 25 + 168$</li></ul>Therefore, the solution is $x = \\frac{-5 \\pm \\sqrt{25 + 168}}{12}$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+    }
+  ]
+}

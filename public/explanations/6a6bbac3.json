@@ -1,0 +1,15 @@
+{
+  "questionId": "6a6bbac3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The decisive clue is the phrase <strong>'difference in the numbers of tools of each type'</strong> across depths. This signals the need to connect the data in the table to the idea that seafloor shells were harder to obtain, despite being preferred."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Choice A points to the difference in tool numbers to argue that beach shells were easier to collect, directly supporting the claim that seafloor tools were 'more challenging to obtain.' The other choices either misinterpret the data (B, D), focus on irrelevant details (B), or invert the relationship by linking numbers to durability (C). <br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

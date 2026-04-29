@@ -1,0 +1,16 @@
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate percentage growth to a multiplier",
+      "content": "When a quantity grows by 4% each period, we multiply by <strong>1.04</strong> each time, not 0.04. After one month, we have the original 200 plus 4% of it: this equals $200 \\times (1 + 0.04) = 200 \\times 1.04 = 208$ customers.",
+      "formula": "$$\\text{Multiplier} = 1 + \\text{growth rate} = 1 + 0.04 = 1.04$$"
+    },
+    {
+      "title": "Apply exponential growth formula",
+      "content": "When we multiply by the same factor each month, the total grows exponentially. After 1 month: $200 \\times 1.04$. After 2 months: $200 \\times 1.04^2$. After $m$ months: $c = 200(1.04)^m$. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

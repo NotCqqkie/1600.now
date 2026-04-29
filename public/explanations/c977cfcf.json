@@ -1,0 +1,15 @@
+{
+  "questionId": "c977cfcf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast signal",
+      "content": "The word \u201cwhereas\u201d creates a direct logical opposition between two conditions affecting decision-making speed. The passage establishes that intensified information flow leads to faster, more decisive choices. The blank must describe a contrasting state that explains why decisions slow down\u2014specifically, the opposite of \u201cintensified.\u201d"
+    },
+    {
+      "title": "Match the target meaning",
+      "content": "The blank requires the opposite of \u201cintensified.\u201d <strong>Reduced</strong> expresses this precisely\u2014when information flow is reduced between brain regions, decision-making becomes slower, maintaining the causal logic of the passage. The other three (evaluated, determined, acquired) do not establish opposition to \u201cintensified\u201d and fail to explain a causal effect on decision speed. This fulfills the \u201cwhereas\u201d structure: more intensified flow \u2192 faster decisions; reduced flow \u2192 slower decisions. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

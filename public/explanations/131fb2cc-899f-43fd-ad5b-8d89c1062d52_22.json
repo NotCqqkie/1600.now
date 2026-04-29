@@ -1,0 +1,16 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the annual percentage increase",
+      "content": "When a quantity increases by 4.5% each year, it retains its full value (100%) and gains an additional 4.5%. This means each year, the value is multiplied by:<br/><br/>$$1 + 0.045 = 1.045$$"
+    },
+    {
+      "title": "Build the exponential growth function",
+      "content": "Starting with 181,000, after $x$ years of compound growth (multiplying by 1.045 each year):<br/><br/>$$f(x) = 181000(1.045)^x$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "formula": "$$f(x) = P(1 + r)^x$$"
+    }
+  ]
+}

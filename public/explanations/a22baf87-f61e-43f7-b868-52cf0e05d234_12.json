@@ -1,0 +1,15 @@
+{
+  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the zeros from x-intercepts",
+      "content": "The graph passes through $(-3, 0)$, $(1, 0)$, and $(4, 0)$. These are the x-intercepts, meaning $f(-3) = 0$, $f(1) = 0$, and $f(4) = 0$."
+    },
+    {
+      "title": "Apply Factor Theorem to match the choices",
+      "content": "By the Factor Theorem: if $f(a) = 0$, then $(x - a)$ is a factor. Our zeros give us factors $(x + 3)$, $(x - 1)$, and $(x - 4)$. Looking at the answer choices, only $(x - 1)$ appears as a factor. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f1c81b3b",
+  "correctAnswer": "11875",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base a from the given condition",
+      "content": "Use $g(3) = 2375$ with the given function $g(x) = 19 \\cdot a^x$. Substituting: $$19 \\cdot a^3 = 2375$$ Divide by 19: $$a^3 = 125$$ Take the cube root: $$a = 5$$"
+    },
+    {
+      "title": "Calculate g(4) using the exponential relationship",
+      "content": "In an exponential function, each unit increase in the exponent multiplies the output by the base $a$. Therefore: $$g(4) = g(3) \\cdot a = 2375 \\cdot 5 = 11875$$"
+    }
+  ]
+}

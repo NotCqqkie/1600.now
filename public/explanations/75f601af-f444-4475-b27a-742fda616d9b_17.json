@@ -1,0 +1,15 @@
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "Left side of blank: start of sentence (period before). Right side of blank: noun phrase (\u201ca 'power wall' in which more heat was produced than could be efficiently dissipated\u201d) immediately followed by a verb phrase (\u201cled developers to invent...\u201d). For a complete sentence, the blank must introduce a subject positioned before the noun phrase."
+    },
+    {
+      "title": "Apply the gerund-subject rule",
+      "content": "A gerund phrase (a gerund form of a verb functioning as a noun, paired with a following object) can serve as a sentence's subject. Inserting \u201cHitting\u201d creates the gerund phrase \u201cHitting a 'power wall' in which more heat was produced than could be efficiently dissipated\u201d as the subject of the verb \u201cled developers to invent the dual-core chip.\u201d This expresses the intended meaning: the encounter with a power wall led developers to innovate. The other options fail: A presents two disconnected independent clauses, C creates a dependent clause without a matching main clause subject, and D offers a prepositional phrase that cannot function as a subject. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

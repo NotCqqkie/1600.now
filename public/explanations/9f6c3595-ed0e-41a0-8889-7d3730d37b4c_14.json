@@ -1,0 +1,15 @@
+{
+  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize two pairs of corresponding angles are already equal",
+      "content": "We are given $\\angle D = \\angle R = 47\u00b0$ and $\\angle E = \\angle S = 97\u00b0$. Under the natural correspondence ($D \\leftrightarrow R$, $E \\leftrightarrow S$), we already have two pairs of corresponding angles that are congruent."
+    },
+    {
+      "title": "Apply AA similarity criterion",
+      "content": "The AA (Angle-Angle) criterion for similarity states: if two pairs of corresponding angles are congruent, the triangles are similar. We already have this condition satisfied: $\\angle D = \\angle R$ and $\\angle E = \\angle S$. Therefore, $\\triangle DEF \\sim \\triangle RST$ without needing to know the measures of angles $F$ and $T$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

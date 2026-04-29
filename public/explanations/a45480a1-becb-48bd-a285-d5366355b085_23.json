@@ -1,0 +1,15 @@
+{
+  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the decisive signal",
+      "content": "The passage defines soft vs. hard commodities by <strong>origin</strong> (grown/farmed vs. mined/drilled), not durability. This rule is the key to the transition that follows."
+    },
+    {
+      "title": "Apply the signal to the transition",
+      "content": "<strong>\u201cBy this definition\u201d</strong> directly applies the rule: since pine lumber is grown, it's soft by definition, which explains why it counts as soft despite being durable.<br/><br/>The other choices offer a partial reason, claim an exception where none exists, or misidentify the operation. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the general-to-specific structure",
+      "content": "The first sentence states a general principle: energy transfers across trophic levels. The sentence after the blank provides a specific illustration\u2014it names actual organisms and traces how energy flows through them."
+    },
+    {
+      "title": "Apply to choices",
+      "content": "<strong>For example</strong> transitions from a general principle to a specific illustration. The second sentence delivers exactly this: it traces energy through particular organisms (plants \u2192 herbivores \u2192 carnivores), demonstrating how the principle works. Likewise, However, and By contrast all misrepresent the relationship by suggesting similarity, contradiction, or opposition rather than illustration. This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated reason for the discrepancy",
+      "content": "The passage directly explains the discrepancy: <em>\u201chistorians of capitalism tend to focus on longitudinal economic data drawn from archival records, which do not exist for much of precolonial Africa.\u201d</em> Since Alfagali found evidence of capitalism in that period despite the absence of these records, they must be using different sources of evidence."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A directly follows. While historians rely on archival records that don't exist for precolonial Africa, Alfagali found capitalism, proving they use different evidence. The others either claim they refine the same method (contradicting the passage), identify the wrong reason, or lack support. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

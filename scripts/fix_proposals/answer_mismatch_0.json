@@ -1,0 +1,156 @@
+[
+  {
+    "id": "0d5495a6",
+    "url": "/bank/math/469?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "45",
+    "proposed_correctAnswer": "45",
+    "rationale_states": "b = 45 from h(0) = 0+b = 45",
+    "my_solution": "h(0) = 0+b = 45, so b = 45",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "1362ccde",
+    "url": "/bank/math/503?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "35",
+    "proposed_correctAnswer": "35",
+    "rationale_states": "x = -12, y = -47, so x-y = 35",
+    "my_solution": "Solving system: x = -12, y = -47, x-y = 35",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "1a621af4",
+    "url": "/bank/math/475?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "-14",
+    "proposed_correctAnswer": "-14",
+    "rationale_states": "x ≤ 3y-2, so x ≤ 3(-4)-2 = -14; greatest value is -14",
+    "my_solution": "3(-4)-2 = -14, so maximum x is -14",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "6ba39da5",
+    "url": "/bank/math/471?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "25",
+    "proposed_correctAnswer": "25",
+    "rationale_states": "Subtract equations: 4b = 100, so b = 25",
+    "my_solution": "4b = 100, b = 25",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "72a5fd28",
+    "url": "/bank/math/520?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "5",
+    "proposed_correctAnswer": "5",
+    "rationale_states": "12p ≥ 50 gives p ≥ 4.17, minimum whole p is 5",
+    "my_solution": "50/12 = 4.166..., round up to 5",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "7b17f86a",
+    "url": "/bank/math/485?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "1",
+    "proposed_correctAnswer": "1",
+    "rationale_states": "f(3/11) = 3/11 + 8/11 = 11/11 = 1",
+    "my_solution": "3/11 + 8/11 = 11/11 = 1",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "7d5d1b32",
+    "url": "/bank/math/524?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "-.9333",
+    "proposed_correctAnswer": "-.9333",
+    "rationale_states": "k = -14/15; equation has no solution when coefficients match",
+    "my_solution": "k = -14/15 ≈ -0.9333",
+    "confidence": "high",
+    "note": "Decimal -0.9333 is acceptable form of -14/15"
+  },
+  {
+    "id": "9c7741c6",
+    "url": "/bank/math/453?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "3",
+    "proposed_correctAnswer": "3",
+    "rationale_states": "60(1) + 50y = 210 gives y = 3",
+    "my_solution": "60 + 50y = 210, so y = 3",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "aeaba0b6",
+    "url": "/bank/math/500?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "11",
+    "proposed_correctAnswer": "11",
+    "rationale_states": "58 = 14 + 4x gives x = 11",
+    "my_solution": "58 = 14 + 4x, so x = 11",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "b78cd5df",
+    "url": "/bank/math/519?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "25",
+    "proposed_correctAnswer": "25",
+    "rationale_states": "35 + 10.25x ≤ 300 gives x ≤ 25.854, max whole number is 25",
+    "my_solution": "265 / 10.25 = 25.853..., so max is 25",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "b8fa27db",
+    "url": "/bank/math/483?bankType=unofficial",
+    "verdict": "CANNOT_DETERMINE",
+    "current_correctAnswer": "4",
+    "proposed_correctAnswer": "4",
+    "rationale_states": "Slope of j using points (0,5) and (1,9) is 4",
+    "my_solution": "Cannot verify without seeing figure",
+    "confidence": "medium",
+    "note": "Requires xy-plane figure to confirm points"
+  },
+  {
+    "id": "b9835972",
+    "url": "/bank/math/484?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "24",
+    "proposed_correctAnswer": "24",
+    "rationale_states": "Line l: y = 8x (slope 8, passes through origin); d = 8(3) = 24",
+    "my_solution": "Parallel to y=8x with slope 8, through (0,0): y=8x, so d=24",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "b988eeec",
+    "url": "/bank/math/462?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "-12",
+    "proposed_correctAnswer": "-12",
+    "rationale_states": "h(x) = x + 12; x-intercept at x = -12",
+    "my_solution": "h(x) = (1/4 + 3/4)x + (-9+21) = x + 12; x-intercept is -12",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  },
+  {
+    "id": "c81f1c2f",
+    "url": "/bank/math/458?bankType=unofficial",
+    "verdict": "BOTH_CONSISTENT",
+    "current_correctAnswer": "2850",
+    "proposed_correctAnswer": "2850",
+    "rationale_states": "f(50) = 45(50) + 600 = 2850",
+    "my_solution": "f(50) = 2250 + 600 = 2850",
+    "confidence": "high",
+    "note": "Answer and rationale agree"
+  }
+]

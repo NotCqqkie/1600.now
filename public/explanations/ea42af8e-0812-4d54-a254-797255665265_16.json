@@ -1,0 +1,15 @@
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The blank separates two independent clauses: the first ends with \u201csupervised machine [learning]\u201d and has a complete verb (works), the second begins with \u201cSupervised machine learning\u201d and has its own complete verb (involves)."
+    },
+    {
+      "title": "Apply the sentence boundary rule",
+      "content": "Two independent clauses cannot be separated by a comma alone\u2014that creates a comma splice. Choice C correctly uses a period (learning. Supervised). Choice B creates a comma splice, while A and D produce ungrammatical structures. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

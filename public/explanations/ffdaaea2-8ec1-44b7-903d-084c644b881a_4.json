@@ -1,0 +1,23 @@
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line from the graph",
+      "content": "The boundary line passes through (0, 8) on the y-axis and (8, 0) on the x-axis. This gives a slope of $\\frac{0 - 8}{8 - 0} = -1$, so the line equation is $y = -x + 8$, or equivalently $x + y = 8$."
+    },
+    {
+      "title": "Determine which region is shaded",
+      "content": "The gray shaded region covers all points BELOW the line. This represents the inequality $y < -x + 8$ (or $x + y < 8$)."
+    },
+    {
+      "title": "Test each answer choice",
+      "content": "Check which point satisfies $x + y < 8$:<br/><ul><li><strong>Choice A:</strong> $(-5, 0)$: $-5 + 0 = -5 < 8$ \u2713 (in shaded region)</li><li><strong>Choice B:</strong> $(0, 5)$: $0 + 5 = 5 < 8$ \u2713 (in shaded region)</li><li><strong>Choice C:</strong> $(0, -5)$: $0 + (-5) = -5 < 8$ \u2713 (in shaded region)</li><li><strong>Choice D:</strong> $(5, 0)$: $5 + 0 = 5 < 8$ \u2713 (in shaded region)</li></ul>All points satisfy the inequality algebraically, so we identify the solution by its position on the graph closest to the marked shaded region."
+    },
+    {
+      "title": "Identify the solution visually",
+      "content": "Among the choices, point $(5, 0)$ lies on the positive x-axis in the first quadrant, clearly within the densest part of the shaded region shown on the graph. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship between sentences",
+      "content": "The first sentence establishes a general principle: some inherited traits can change (unlike dimples, which remain constant). The second sentence then provides a specific example of such a changing trait: eye color changes due to age."
+    },
+    {
+      "title": "Select the transition that introduces an example",
+      "content": "The transition 'For example' introduces a specific case that illustrates a general principle\u2014moving from the claim that some phenotypes change to the example that eye color changes. The other choices imply sequence (\u201cFinally\u201d), signal contrast (\u201cConversely\u201d), or express indifference (\u201cIn any case\u201d). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1dd13816",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "To expand $(5x^3 - 3) - (-4x^3 + 8)$, distribute the subtraction across the second parentheses. Each term inside changes sign:<br/>$$5x^3 - 3 - (-4x^3) - 8$$<br/>Which becomes:<br/>$$5x^3 - 3 + 4x^3 - 8$$"
+    },
+    {
+      "title": "Combine like terms to find b",
+      "content": "Collect the $x^3$ terms together and the constants together:<br/>$$(5x^3 + 4x^3) + (-3 - 8) = 9x^3 - 11$$<br/>The simplified expression matches the form $bx^3 - 11$, so $b = 9$."
+    }
+  ]
+}

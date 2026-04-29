@@ -1,0 +1,15 @@
+{
+  "questionId": "f942646f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the capacity problem",
+      "content": "The passage establishes rail's advantage for short-haul flights: it avoids air travel's 3-hour lead time requirement. The critical shift comes with <strong>\u201cHowever\u201d</strong> \u2014 as rail passenger volumes approach capacity limits, long lead times emerge for rail. This threatens rail's viability as a competitive alternative to short-haul flights. The blank must address this capacity-driven problem."
+    },
+    {
+      "title": "Apply the logic to the choices",
+      "content": "Scheduling additional trains expands capacity and prevents the long lead times that would emerge as demand increases, keeping rail viable for short-haul travel. The other choices either misidentify the problem (A discusses route distribution, not capacity), suggest adopting the procedures that create lead times (C), or accept worse conditions instead of solving the problem (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

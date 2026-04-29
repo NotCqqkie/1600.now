@@ -1,0 +1,15 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_17",
+  "correctAnswer": "1008",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate 9(y - 13)",
+      "content": "Adding the two equations eliminates the $9(y - 13)$ terms (they have opposite signs):<br/><br/>$$\\frac{x}{2} + 9(y - 13) = 27$$<br/>$$\\frac{x}{7} - 9(y - 13) = 45$$<br/><br/>Adding yields:<br/><br/>$$\\frac{x}{2} + \\frac{x}{7} = 72$$"
+    },
+    {
+      "title": "Solve for 9x",
+      "content": "Combine fractions on the left with common denominator 14:<br/><br/>$$\\frac{7x + 2x}{14} = 72$$<br/><br/>$$\\frac{9x}{14} = 72$$<br/><br/>Multiply both sides by 14:<br/><br/>$$9x = 1008$$"
+    }
+  ]
+}

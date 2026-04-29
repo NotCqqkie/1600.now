@@ -1,0 +1,16 @@
+{
+  "questionId": "fe4c1c9e",
+  "correctAnswer": "180",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given information",
+      "content": "We are given a constant production rate of <strong>60 items per hour</strong> and a time period of <strong>3 hours</strong>. We need to find the total number of items produced."
+    },
+    {
+      "title": "Apply the rate formula to find total production",
+      "content": "Substituting our values into the rate formula:<br/><br/>$$60 \\text{ items/hour} \\times 3 \\text{ hours} = 180 \\text{ items}$$<br/><br/>The mechanical device will produce <strong>180 items</strong> in 3 hours.",
+      "formula": "$$\\text{Total} = \\text{Rate} \\times \\text{Time}$$"
+    }
+  ]
+}

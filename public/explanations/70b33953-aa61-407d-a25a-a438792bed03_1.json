@@ -1,0 +1,16 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply Pythagorean Theorem to find the other side",
+      "content": "The diagonal of a rectangle forms a right triangle with its two adjacent sides. Starting with side $a = 4$ and diagonal $d = \\sqrt{65}$:<br/>$$(\\sqrt{65})^2 = 4^2 + b^2$$<br/>$$65 = 16 + b^2$$<br/>$$b^2 = 49$$<br/>$$b = 7$$",
+      "formula": "$$a^2 + b^2 = d^2$$"
+    },
+    {
+      "title": "Calculate the perimeter",
+      "content": "With both sides now known (4 and 7):<br/>$$P = 2(4 + 7) = 2 \\cdot 11 = 22$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

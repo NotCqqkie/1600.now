@@ -1,0 +1,15 @@
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the strongest clue about the change",
+      "content": "The key signal is <em>\u201cenabling it to take advantage of mass production methods for the first time.\u201d</em> This shows the invention fundamentally changed the industry's capabilities \u2014 it gave access to something new, not blocked, overwhelmed, or avoided it."
+    },
+    {
+      "title": "Match the word to that transformation",
+      "content": "<strong>Transformed</strong> directly expresses a fundamental change in nature or character, which is what \u201cfundamentally ______ the industry\u201d requires. The other three contradict this logic: obstructed and overwhelmed describe harmful blocking, while bypassed means evaded rather than enabled access. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d46ac7e7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical context",
+      "content": "The blank contains a verb that coordinates with \u201cwon\u201d (connected by \u201cand\u201d). The \u201cwhen he joined the New York Knicks for the 1947-48 season\u201d clause gives a reference point in the past. Serving in WWII (1941-45) occurred before this reference point."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "To show that one past action was completed before another past moment, use past perfect tense (\u201chad\u201d + past participle). \u201cHad already served\u201d correctly indicates WWII service was complete before joining the Knicks. Simple past (A) and continuous (B) don't establish this temporal relationship, and present tense (C) is factually wrong. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

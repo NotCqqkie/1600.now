@@ -1,0 +1,15 @@
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the genetic-behavioral framework",
+      "content": "The first study reveals that genetic similarities between breeds explain their behavioral similarities in trainability. The second study finds bulldogs and French bulldogs display similar trainability. <br/><br/>Combining these findings: <strong>similar trainability suggests shared genetics</strong>."
+    },
+    {
+      "title": "Apply the framework to the answer choices",
+      "content": "C correctly concludes that similar trainability could result from <strong>shared genetic factors</strong>. The other choices either compare to breeds not discussed (A), contradict the similarity finding (B), or speculate about future change (D). <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

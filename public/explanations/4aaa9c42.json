@@ -1,0 +1,19 @@
+{
+  "questionId": "4aaa9c42",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express (b+c) in terms of b",
+      "content": "From $b = 0.83c$, we get $c = b/0.83$. Therefore:<br/>$$b + c = b + \\frac{b}{0.83} = b\\left(1 + \\frac{1}{0.83}\\right) = b\\left(\\frac{1.83}{0.83}\\right)$$"
+    },
+    {
+      "title": "Calculate the ratio a/b",
+      "content": "Using $a = 22.41(b + c)$:<br/>$$\\frac{a}{b} = 22.41 \\cdot \\frac{b + c}{b} = 22.41 \\cdot \\frac{1.83}{0.83}$$<br/>Compute: $22.41 \\times 1.83 = 41.0103$, then $41.0103 \\div 0.83 = 49.41$."
+    },
+    {
+      "title": "Convert to a percentage",
+      "content": "$$\\frac{a}{b} \\times 100\\% = 49.41 \\times 100\\% = 4941\\%$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

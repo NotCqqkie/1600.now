@@ -1,0 +1,19 @@
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Statement I: The Mean",
+      "content": "When G is formed by adding 10 to F: $$\\text{mean}_G = \\frac{\\text{sum}_F + 10}{56}$$ All values in F are at least 150. Since 10 is far below 150, and we're also dividing by a larger denominator (56 instead of 55), the mean decreases. Therefore, Statement I is true."
+    },
+    {
+      "title": "Statement II: The Median",
+      "content": "When sorted, F (55 values) has median = the 28th value. When sorted, G (56 values) has median = the average of the 28th and 29th values.<br/><br/>The integer 10 is the smallest value (all F values are \u2265 150), so it becomes position 1 when sorted: $$\\text{median}_G = \\frac{\\text{27th value of F} + \\text{28th value of F}}{2}$$ If the 27th and 28th values are identical, then $\\text{median}_G = \\text{median}_F$. Since tied values are possible, the median need not decrease. Therefore, Statement II is not required."
+    },
+    {
+      "title": "Answer",
+      "content": "Only Statement I must be less for G than for F. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

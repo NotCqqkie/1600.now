@@ -1,0 +1,15 @@
+{
+  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the percentage calculation",
+      "content": "Stefan used 80% of his total fencing. To find how many feet he used, we need to calculate 80% of 500 feet."
+    },
+    {
+      "title": "Calculate 80% of 500",
+      "content": "Convert the percentage to a decimal and multiply:<br/>$$0.80 \\times 500 = 400$$<br/>Stefan used 400 feet of fencing to surround the vegetable garden. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

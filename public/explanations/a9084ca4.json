@@ -1,0 +1,15 @@
+{
+  "questionId": "a9084ca4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the y-intercept",
+      "content": "The $y$-intercept occurs where $x = 0$:<br/>$$f(0) = 9,000(0.66)^0 = 9,000$$"
+    },
+    {
+      "title": "Interpret and identify the answer",
+      "content": "The variable $x$ represents <em>years since 1997</em>, so $x = 0$ is the year 1997. The $y$-intercept value of 9,000 represents the estimated number of advertisements sent in 1997.<br/><br/>Choices A and B incorrectly describe this as a minimum value. Choice C states the wrong number (1,708). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

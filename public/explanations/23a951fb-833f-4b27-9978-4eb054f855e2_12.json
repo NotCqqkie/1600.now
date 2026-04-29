@@ -1,0 +1,16 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the degree-to-radian conversion formula",
+      "content": "Angle Z measures 45\u00b0. To convert to radians, we use this formula:",
+      "formula": "$$\\text{radians} = \\text{degrees} \\times \\frac{\\pi}{180}$$"
+    },
+    {
+      "title": "Substitute and simplify",
+      "content": "$$45 \\times \\frac{\\pi}{180} = \\frac{45\\pi}{180}$$<br/><br/>Divide numerator and denominator by 45:<br/><br/>$$\\frac{45\\pi}{180} = \\frac{\\pi}{4}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_12",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equations equal",
+      "content": "Since both equations equal $y$, set the right sides equal to each other: $$-\\frac{1}{7}x = \\frac{1}{5}x$$"
+    },
+    {
+      "title": "Rearrange and solve",
+      "content": "Move all terms to one side: $$-\\frac{1}{7}x - \\frac{1}{5}x = 0$$ Factor out $x$: $$x\\left(-\\frac{1}{7} - \\frac{1}{5}\\right) = 0$$ Since the coefficient $-\\frac{1}{7} - \\frac{1}{5}$ is nonzero, the only solution is $x = 0$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

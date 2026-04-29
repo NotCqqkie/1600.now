@@ -1,0 +1,21 @@
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_5",
+  "correctAnswer": "32",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant ratio",
+      "content": "Since the ratio of $k$ to $p$ is constant, we have $$\\frac{k}{p} = \\text{constant}.$$ Using the given values $k=4$ and $p=3$, $$\\frac{k}{p} = \\frac{4}{3}.$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Compute k for p=24",
+      "content": "For $p=24$, multiply the constant ratio by $p$: $$k = \\frac{4}{3} \\times 24 = 4 \\times 8 = 32.$$ That matches choice E \u2014 <strong>E</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

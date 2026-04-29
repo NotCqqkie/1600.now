@@ -1,0 +1,15 @@
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core requirement",
+      "content": "The question asks where Discoglossus nigriventer was identified. The notes state it was identified <em>in Israel</em> in 2011 \u2014 the location is the critical detail to include."
+    },
+    {
+      "title": "Apply the requirement to the choices",
+      "content": "Choice B directly includes both the organism and the location: <em>in Israel</em>. The other three all fail: A focuses on the wrong species, C omits the location while describing a general concept, and D includes the year but not the required location. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

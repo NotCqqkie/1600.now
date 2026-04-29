@@ -1,0 +1,15 @@
+{
+  "questionId": "4b99b481",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the storage mechanism",
+      "content": "The notes explain that when molten salt solidifies (turns solid at room temperature), energy stops flowing and is stored. The student's task is to explain HOW salt enables storage, which requires showing this cause-and-effect relationship between solidification and storage."
+    },
+    {
+      "title": "Match the mechanism to the correct choice",
+      "content": "Choice C states: \u201cWhen the molten salt... solidifies at room temperature, energy stops flowing and can be stored in the battery.\u201d This directly shows the mechanism\u2014solidification causes energy to stop flowing, enabling storage. The other three either list salt properties without explaining their connection to storage (A), describe using stored energy rather than how storage occurs (B), or mention a retention percentage unrelated to the storage process (D). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

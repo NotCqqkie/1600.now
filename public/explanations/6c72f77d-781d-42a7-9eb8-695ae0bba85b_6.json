@@ -1,0 +1,19 @@
+{
+  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use substitution since y is isolated",
+      "content": "The first equation already has $y$ isolated as $y = 6x + 16$. Substitute this expression into the second equation $-7x - y = 36$:<br/><br/>$$-7x - (6x + 16) = 36$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Expand and combine like terms:<br/><br/>$$-7x - 6x - 16 = 36$$<br/>$$-13x - 16 = 36$$<br/>$$-13x = 52$$<br/>$$x = -4$$"
+    },
+    {
+      "title": "Substitute back to find y",
+      "content": "Use $x = -4$ in the first equation $y = 6x + 16$:<br/><br/>$$y = 6(-4) + 16$$<br/>$$y = -24 + 16$$<br/>$$y = -8$$<br/><br/>The solution is $(x, y) = (-4, -8)$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key contrast",
+      "content": "The <em>Dreadnought</em> and <em>Royal George</em> both have three decks, but only the <em>Royal George</em> is ranked first-rate."
+    },
+    {
+      "title": "Apply the contrast to the choices",
+      "content": "Choice D captures the logical conclusion: having three decks is not sufficient for first-rate ranking. Choices A, B, and C either misstate the <em>Dreadnought</em>'s crew size, contradict the evidence with the <em>Dreadnought</em>, or speculate about operational needs not in the passage. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

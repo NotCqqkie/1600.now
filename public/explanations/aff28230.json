@@ -1,0 +1,11 @@
+{
+  "questionId": "aff28230",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute to find y",
+      "content": "From the first equation, $x = 10$. Substitute this into the second equation:<br/>$$y = x + 21$$<br/>$$y = 10 + 21 = 31$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

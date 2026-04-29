@@ -1,0 +1,15 @@
+{
+  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table values",
+      "content": "From the table: Elementary school classroom libraries average 359 books, and high school classroom libraries average 107 books."
+    },
+    {
+      "title": "Calculate the difference",
+      "content": "Subtract to find how much greater the elementary average is: $$359 - 107 = 252$$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

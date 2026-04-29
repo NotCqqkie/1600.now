@@ -1,0 +1,15 @@
+{
+  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "Subtract 2 from both sides:<br/>$$8x = 10 - 2$$<br/>$$8x = 8$$<br/><br/>Divide both sides by 8:<br/>$$x = 1$$"
+    },
+    {
+      "title": "Count the solutions",
+      "content": "We found exactly one value of $x$ that satisfies the equation. A linear equation in one variable yields exactly one solution when the coefficient of the variable is non-zero. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "59afe8db",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute and combine like terms",
+      "content": "Distribute the 5: $5(x+4) = 5x + 20$<br/><br/>The equation becomes: $3x + 5x + 20 = 76$<br/><br/>Combine the $x$ terms on the left: $8x + 20 = 76$"
+    },
+    {
+      "title": "Isolate x and solve",
+      "content": "Subtract 20 from both sides: $8x = 56$<br/><br/>Divide both sides by 8: $x = \\frac{56}{8} = 7$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

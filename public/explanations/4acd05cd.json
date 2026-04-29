@@ -1,0 +1,16 @@
+{
+  "questionId": "4acd05cd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify y-intercept and slope from the graph",
+      "content": "The line on the graph passes through the y-axis at (0, -5), so the y-intercept is -5. The slope (rise over run) between (0, -5) and (1, -3) is $\\frac{-3 - (-5)}{1 - 0} = \\frac{2}{1} = 2$. Thus, the equation is $y = 2x - 5$."
+    },
+    {
+      "title": "Test x-values in each choice",
+      "content": "Plug $x = 0, 1, 2$ into $y = 2x - 5$:<br/>- $x=0$: $y = -5$<br/>- $x=1$: $y = 2(1) - 5 = -3$<br/>- $x=2$: $y = 2(2) - 5 = -1$. <br/>Only choice <strong>D</strong> matches all three values. <strong>D</strong> is correct.",
+      "formula": "$$y = 2x - 5$$"
+    }
+  ]
+}

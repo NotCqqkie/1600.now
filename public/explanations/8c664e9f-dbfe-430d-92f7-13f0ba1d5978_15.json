@@ -1,0 +1,19 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify corresponding sides in similar triangles",
+      "content": "Since \u25b3 QPR ~ \u25b3 STR, the vertices correspond in order: Q \u2194 S, P \u2194 T, R \u2194 R. From the figure, both triangles have right angles at P and T, with vertical and horizontal legs. The corresponding sides are:<br/><ul><li>QP \u2194 ST (vertical legs)</li><li>PR \u2194 TR (horizontal legs)</li><li>QR \u2194 SR (hypotenuses)</li></ul>"
+    },
+    {
+      "title": "Set up a proportion using known pairs",
+      "content": "For similar triangles, the ratios of corresponding sides are equal. We know QP = 18, ST = 11, and QR = 30. Using the pair of hypotenuses and one known pair:<br/>$$\\frac{QP}{ST} = \\frac{QR}{SR}$$<br/>Substitute the known values:<br/>$$\\frac{18}{11} = \\frac{30}{SR}$$"
+    },
+    {
+      "title": "Solve for SR using cross multiplication",
+      "content": "Cross multiply to isolate SR:<br/>$$18 \\cdot SR = 30 \\cdot 11$$<br/>$$18 \\cdot SR = 330$$<br/>$$SR = \\frac{330}{18}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

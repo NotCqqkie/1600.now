@@ -1,0 +1,15 @@
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structural position",
+      "content": "The blank appears between <strong>profile</strong> and <strong>in the Navajo Times on August 22, 2013</strong>. We need a word that modifies \u201cprofile\u201d to complete the noun phrase <strong>a profile _____ in the Navajo Times</strong>."
+    },
+    {
+      "title": "Apply the participial modifier rule",
+      "content": "<strong>appearing</strong> is a participle that modifies \u201cprofile\u201d \u2014 <strong>a profile appearing in the Navajo Times on August 22, 2013</strong> is a standard noun phrase construction. A participle (an -ing verb form) can modify a noun directly in this position.<br/><br/>The other choices use finite verbs (has appeared, appeared, appears) that cannot modify a noun; they would require a relative pronoun like \u201cthat\u201d to work, creating <strong>a profile that appeared</strong> instead of fitting the available blank.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

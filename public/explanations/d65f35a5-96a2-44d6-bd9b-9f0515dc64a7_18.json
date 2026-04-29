@@ -1,0 +1,15 @@
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_18",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percentage increase to a growth factor",
+      "content": "A 2.4% annual increase means each year the value grows to 100% + 2.4% = 102.4% of what it was. In decimal form:<br/><br/>$$1 + 0.024 = 1.024$$<br/><br/>Each year, the house value is multiplied by the growth factor <strong>1.024</strong>."
+    },
+    {
+      "title": "Apply the exponential growth model",
+      "content": "Starting with $174,000 and multiplying by 1.024 each year for $x$ years gives:<br/><br/>$$f(x) = 174,000(1.024)^x$$<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

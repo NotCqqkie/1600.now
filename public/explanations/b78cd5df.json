@@ -1,0 +1,15 @@
+{
+  "questionId": "b78cd5df",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the cost inequality",
+      "content": "Let $a$ be the number of attendees. The total cost is the one-time venue fee plus the per-attendee cost:<br/>$$35 + 10.25a \\leq 300$$"
+    },
+    {
+      "title": "Solve for the maximum integer value",
+      "content": "Subtract 35:<br/>$$10.25a \\leq 265$$<br/>Divide by 10.25 (which is $\\frac{41}{4}$):<br/>$$a \\leq \\frac{265 \\times 4}{41} = \\frac{1060}{41}$$<br/>Since $41 \\times 25 = 1025$ and $1060 - 1025 = 35$, we have $a \\leq 25 + \\frac{35}{41} \\approx 25.85$<br/>The number of attendees must be a whole number, so the greatest value is <strong>25</strong>. Verify: $35 + 10.25(25) = 291.25 \\leq 300$ \u2713"
+    }
+  ]
+}

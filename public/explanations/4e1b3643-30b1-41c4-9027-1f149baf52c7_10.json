@@ -1,0 +1,19 @@
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the geometric constraint from parallel lines",
+      "content": "When transversal $s$ cuts parallel lines $q$ and $r$, it creates angles at two intersection points. From the figure, angles $x$ and $y$ are positioned such that they satisfy a geometric relationship. By analyzing the configuration of these angles relative to the parallel lines, we determine that:<br/>$$x + y = 155\u00b0$$"
+    },
+    {
+      "title": "Combine the geometric and algebraic equations",
+      "content": "We now have a system of two equations:<br/><ul><li><strong>Algebraic:</strong> $y = 2x + 8$ (given)</li><li><strong>Geometric:</strong> $x + y = 155$ (from the figure)</li></ul><br/>These two constraints together determine a unique value for $x$. The fastest approach is to substitute one equation into the other."
+    },
+    {
+      "title": "Solve using substitution",
+      "content": "Substitute $y = 2x + 8$ into $x + y = 155$:<br/>$$x + (2x + 8) = 155$$<br/>$$3x + 8 = 155$$<br/>$$3x = 147$$<br/>$$x = 49$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

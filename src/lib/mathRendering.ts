@@ -22,6 +22,37 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
     processedText = processedText.replace(/\\\\/g, "<br />");
     processedText = processedText.replace(/\\n/g, "<br />");
   }
+  // Convert two or more consecutive bullet-prefixed lines (e.g. "\n• item")
+  // into a Roman-numeral ordered list. SAT "I/II/III only" questions reference
+  // these bullets as Roman numerals in the answer choices.
+  processedText = processedText.replace(
+    /(?:(?:^|\n)\s*•\s*[^\n]+){2,}/g,
+    (block: string) => {
+      const items = block
+        .split(/\n/)
+        .map((line) => line.replace(/^\s*•\s*/, "").trim())
+        .filter((line) => line.length > 0);
+      if (items.length < 2) return block;
+      const lis = items.map((item) => `<li>${item}</li>`).join("");
+      return `\n<ol type="I" class="bullet-list">${lis}</ol>\n`;
+    },
+  );
+  // Pre-unescape \$...\$ inside HTML table cells so they render as math.
+  // The data exporter sometimes escapes dollar signs in <th>/<td> cells even
+  // though the surrounding text uses bare $...$ delimiters.
+  processedText = processedText.replace(
+    /(<t[hd]\b[^>]*>)([\s\S]*?)(<\/t[hd]>)/gi,
+    (_, open: string, inner: string, close: string) =>
+      `${open}${inner.replace(/\\\$/g, "$")}${close}`,
+  );
+  // Collapse whitespace between HTML structural tags so newlines inside a
+  // `<table>...</table>` don't get converted into stacks of empty <br /> tags
+  // that produce huge blank vertical space before the table.
+  processedText = processedText.replace(/>\s*\n\s*</g, "><");
+  // Block elements (table/list) provide their own visual spacing — don't add
+  // <br /> tags immediately after them, which produce excess gap before the
+  // following text.
+  processedText = processedText.replace(/(<\/(?:table|ol|ul|tbody|thead|tr)>)\s*\n+\s*/g, "$1");
   processedText = processedText.replace(/\n/g, "<br />");
   if (normalizeMath) {
     processedText = normalizeTextForMathRendering(processedText);
@@ -96,12 +127,14 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
 
     html = html.replace(/<strong>([\s\S]*?)<\/strong>/gi, (_, inner: string) => {
       const trimmed = inner.trim();
-      return trimmed ? `<strong>${trimmed}</strong>` : _;
+      if (trimmed) return `<strong>${trimmed}</strong>`;
+      return inner.length > 0 ? " " : "";
     });
 
     html = html.replace(/<em>([\s\S]*?)<\/em>/gi, (_, inner: string) => {
       const trimmed = inner.trim();
-      return trimmed ? `<em>${trimmed}</em>` : _;
+      if (trimmed) return `<em>${trimmed}</em>`;
+      return inner.length > 0 ? " " : "";
     });
 
     html = html.replace(/\*\*([^*]+?)\*\*/g, (_, inner: string) => {

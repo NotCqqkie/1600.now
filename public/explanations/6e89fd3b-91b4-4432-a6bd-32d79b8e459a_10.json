@@ -1,0 +1,15 @@
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the key claim",
+      "content": "The passage's central assertion comes after <strong>However</strong>: because the bird is highly specialized, it is especially vulnerable to environmental changes. This specialization-vulnerability link is the main point."
+    },
+    {
+      "title": "Match to choices",
+      "content": "Choice C directly states the bird is \u201chighly specialized and therefore particularly susceptible to habitat disturbances,\u201d with the word <strong>therefore</strong> reflecting the passage's cause-and-effect claim. Choices A, B, and D either misrepresent relationships in the text, omit the vulnerability point, or overgeneralize.<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

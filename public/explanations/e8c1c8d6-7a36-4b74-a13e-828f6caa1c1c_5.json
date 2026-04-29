@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the logical chain",
+      "content": "The underlined statement establishes a trait in modern animals that prompts a hypothesis about mammoths; the passage then reveals data that contradicts this hypothesis."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A correctly identifies the function: the observation about modern animals explains the hypothesis about mammoths, which the data failed to support. The other three misread the passage\u2014B invents pattern exceptions, C falsely claims the method didn't work, and D focuses on trait origins instead of behavioral similarity.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

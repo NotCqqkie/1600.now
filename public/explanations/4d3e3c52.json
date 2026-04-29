@@ -1,0 +1,15 @@
+{
+  "questionId": "4d3e3c52",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the scaling problem",
+      "content": "The most decisive clue is that conventional fabrication loses up to 80% of solution, explicitly \u201cincreasing the cost of manufacturing at scale.\u201d"
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "Choice A correctly concludes that conventional is less suitable for large-volume manufacturing than spray coating. Choices B, C, and D either reference different architectures (B), mischaracterize spray coating as \u201cestablished\u201d (C), or claim unsupported effects on cell effectiveness (D).<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

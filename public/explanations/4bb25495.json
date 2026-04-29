@@ -1,0 +1,15 @@
+{
+  "questionId": "4bb25495",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Sum all five land areas from the table",
+      "content": "From the table: Monaco (2.0), Nauru (21), San Marino (61), Tuvalu (26), Vatican City (0.44) square kilometers. Adding them: $$2.0 + 21 + 61 + 26 + 0.44 = 110.44$$"
+    },
+    {
+      "title": "Calculate mean and round to the nearest square kilometer",
+      "content": "Mean is $$\\frac{110.44}{5} = 22.088$$. Rounded to the nearest square kilometer: 22. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

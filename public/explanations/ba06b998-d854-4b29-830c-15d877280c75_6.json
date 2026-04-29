@@ -1,0 +1,15 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Minimum value definition",
+      "content": "The minimum value of a data set is the smallest value that occurs at least once (frequency > 0)."
+    },
+    {
+      "title": "Table lookup",
+      "content": "Scanning the table, the smallest value with a non\u2011zero frequency is 20 (row for value 20, frequency column shows a positive count). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -902,40 +902,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Expression of Ideas",
-    "skill": "Rhetorical Synthesis",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_26",
-    "testName": "August 2025 International Form B SAT English Module 2",
-    "text": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two flags?\nWhile researching a topic, a student has taken the following notes:\n• Vexillology is the study of flags.\n• The flags of many countries include symbols like animals, plants, or landforms.\n• These symbols often represent an aspect of the region’s history, culture, or landscape.\n• The flag of El Salvador includes a palm branch.\n• The flag of Zambia includes an eagle.",
-    "choices": [
-      {
-        "id": "A",
-        "text": "Vexillologists study flags, like those of El Salvador and Zambia."
-      },
-      {
-        "id": "B",
-        "text": "Many countries feature symbols on their flags, such as animals, plants, or landforms, and the study of these designs is known as vexillology."
-      },
-      {
-        "id": "C",
-        "text": "Countries like El Salvador and Zambia use symbols on their flags; examples include plants and animals."
-      },
-      {
-        "id": "D",
-        "text": "El Salvador includes a plant on its flag, whereas Zambia’s flag includes an animal."
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Expression of Ideas",
       "skill": "Rhetorical Synthesis",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice A is the best answer. It describes the reason Bhosale’s team wanted to study the structures of bird nests—that is to say, the study’s primary aim.\nChoice B is incorrect. This choice doesn’t present the primary aim of the research study. It describes how the study worked, but not why it was done. Choice C is incorrect. This choice doesn’t present the primary aim of the research study. It describes a result of the experiment, but not why it was carried out. Choice D is incorrect. This choice doesn’t present the primary aim of the research study.",
+      "id": "afec1a70",
+      "testName": "SAT Question Bank",
+      "text": "While researching a topic, a student has taken the following notes:\n• As engineered structures, many bird nests are uniquely flexible yet cohesive.\n• A research team led by Yashraj Bhosale wanted to better understand the mechanics behind these structural properties.\n• Bhosale’s team used laboratory models that simulated the arrangement of flexible sticks into nest-like structures.\n• The researchers analyzed the points where sticks touched one another.\n• When pressure was applied to the model nests, the number of contact points between the sticks increased, making the structures stiffer.\nThe student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "Bhosale’s team wanted to better understand the mechanics behind bird nests’ uniquely flexible yet cohesive structural properties."
+          },
+          {
+              "id": "B",
+              "text": "The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another."
+          },
+          {
+              "id": "C",
+              "text": "After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied."
+          },
+          {
+              "id": "D",
+              "text": "As analyzed by Bhosale’s team, bird nests are uniquely flexible yet cohesive engineered structures."
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

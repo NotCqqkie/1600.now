@@ -1,0 +1,15 @@
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage notes that after Deezer\u2019s free tier was limited to five hours a month, users of that tier visited licensed and unlicensed music\u2011seller sites about 2% less."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "B states that limiting how much music can be streamed for free reduces listeners\u2019 interest in purchasing music, which matches the observed drop in visits to music\u2011seller sites.<br/>A, C, and D either introduce ideas not supported by the passage (such as a drop in total users, a shift to the paid tier, or a reluctance to buy physical copies) or contradict the evidence.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the standard circle equation",
+      "content": "The standard form of a circle equation is shown below, where $(h, k)$ is the center and $r$ is the radius. <strong>Key:</strong> the right side must be $r^2$ (radius squared), not just $r$.",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+    },
+    {
+      "title": "Substitute the given center and radius",
+      "content": "From the problem, the center is $(14, 19)$ and the radius is $7k$.<br/><br/>Substituting into the standard form:<br/>$(x - 14)^2 + (y - 19)^2 = (7k)^2 = 49k^2$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

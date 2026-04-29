@@ -1,0 +1,15 @@
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the disparity in seed dispersal",
+      "content": "The passage states bulbuls disperse more seeds from non-native plants than from native plants at risk, because non-natives are more abundant."
+    },
+    {
+      "title": "Apply the population consequence",
+      "content": "More seeds dispersed from non-native plants means faster population growth for those plants. Choice A states this outcome directly: non-native plants increase in population faster than vulnerable native plants. Choices B, C, and D introduce information not discussed in the passage\u2014when the non-native shift began, where natives currently grow\u2014or contradict it (night-blooming jessamine is thriving, not endangered).<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3f5398a6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the given ratio as an equation",
+      "content": "The ratio <em>m</em> to <em>k</em> is 1 to 5 means:<br/>$$\\frac{m}{k} = \\frac{1}{5}$$"
+    },
+    {
+      "title": "Substitute the time interval and solve for distance",
+      "content": "Given that the time interval is 25 seconds, substitute k = 25:<br/>$$\\frac{m}{25} = \\frac{1}{5}$$<br/>Multiply both sides by 25:<br/>$$m = 25 \\times \\frac{1}{5} = 5$$<br/><br/>The person is 5 miles from the lightning flash. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the expected shift",
+      "content": "The passage moves from explaining tickers' historical role to revealing they were \u201clong since retired\u201d by 2008. The signal \u201clong since\u201d conveys that this absence is expected and established\u2014not surprising or caused by the parade."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dOf course\u201d works because it signals that the retirement is natural and expected\u2014what \u201clong since\u201d conveys. The other three miss this by adding parallel information, introducing examples, or reversing causality. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

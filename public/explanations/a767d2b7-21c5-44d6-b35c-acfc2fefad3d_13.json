@@ -1,0 +1,15 @@
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage\u2019s decisive clue is the claim that traffic congestion worsened over time in smaller areas while also being present in large cities."
+    },
+    {
+      "title": "Match the signal to the choices",
+      "content": "Choice D states that Miami\u2019s delay was always greater than Boise\u2019s each year, yet the delay rose in both areas from 1990 to 2000, showing that congestion existed in both and increased over time. The other three choices either give a single\u2011year value, note a low value without a trend, or reverse the size comparison, none of which support the claim of worsening congestion in both large and small areas. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

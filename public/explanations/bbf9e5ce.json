@@ -1,0 +1,15 @@
+{
+  "questionId": "bbf9e5ce",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the fixed and variable costs",
+      "content": "The first 25 people cost: $$25 \\times 21 = 525 \\text{ dollars}$$<br/>The remaining $(n - 25)$ people cost $14 each.<br/>Combining both parts:<br/>$$f(n) = 525 + 14(n - 25)$$"
+    },
+    {
+      "title": "Expand and simplify the formula",
+      "content": "Distribute the 14:<br/>$$f(n) = 525 + 14n - 350$$<br/>Combine constants:<br/>$$f(n) = 14n + 175$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

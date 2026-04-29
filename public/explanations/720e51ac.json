@@ -1,0 +1,19 @@
+{
+  "questionId": "720e51ac",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two clear points on the line",
+      "content": "From the graph, the line passes through two easy-to-read points: the y-intercept at $(0, 100)$ and the point $(100, 225)$. The slope is $$m = \\frac{225 - 100}{100 - 0} = \\frac{125}{100} = \\frac{5}{4}$$"
+    },
+    {
+      "title": "Write the equation of the line",
+      "content": "With slope $m = \\frac{5}{4}$ and y-intercept $b = 100$, the equation is $$y = \\frac{5}{4}x + 100$$"
+    },
+    {
+      "title": "Substitute x = 60 to find the cost",
+      "content": "At $x = 60$ rings: $$y = \\frac{5}{4}(60) + 100 = 75 + 100 = 175$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

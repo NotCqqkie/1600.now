@@ -1,0 +1,15 @@
+{
+  "questionId": "11df9b99",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast",
+      "content": "The passage establishes how achiral molecules behave when flipped (yields identical molecule), then shifts to chiral molecules. The key signal is <em>\u201crather than an identical one\u201d</em> \u2014 this phrase emphasizes the contrast: chiral molecules produce inverted molecules, not identical ones like achiral molecules."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "\u201dBy contrast,\u201d is the only choice that explicitly marks a shift between opposing behaviors. The other three either suggest restatement, exemplification, or similarity \u2014 none appropriate for contrasting two different processes. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express g in terms of linear f",
+      "content": "Since $f$ is linear, write $f(x) = ax + b$. Then by definition, $$g(x) = \\frac{f(x)}{x+3} = \\frac{ax + b}{x + 3}$$ We have three data points; we'll use the ones where $x = -9$ and $x = -21$."
+    },
+    {
+      "title": "Use g(-9) = 0 to relate a and b",
+      "content": "At $x = -9$, we have $g(-9) = 0$. Since the denominator $-9 + 3 = -6$ is nonzero, the numerator must be zero: $$f(-9) = -9a + b = 0$$ Therefore, $b = 9a$."
+    },
+    {
+      "title": "Use g(-21) = 2 to solve for a",
+      "content": "At $x = -21$, we have $g(-21) = 2$. Substituting $b = 9a$: $$2 = \\frac{-21a + 9a}{-21 + 3} = \\frac{-12a}{-18} = \\frac{2a}{3}$$ Multiplying both sides by 3: $6 = 2a$, so $a = 3$. Then $b = 9(3) = 27$. The $y$-intercept of the graph of $y = f(x)$ is the point $(0, f(0)) = (0, b) = (0, 27)$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2be01bd9",
+  "correctAnswer": ".14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine angle correspondence",
+      "content": "Since triangle ABC \u223c triangle DEF with angle A \u2194 angle D and angle C \u2194 angle F, we have angle B \u2194 angle E. Thus angle B = angle E."
+    },
+    {
+      "title": "Use complementary angles to find tan(E)",
+      "content": "In right triangle ABC with right angle at C, angles A and B are complementary. For complementary angles, $\\tan(B) = \\frac{1}{\\tan(A)} = \\frac{1}{\\frac{50}{7}} = \\frac{7}{50}$. Since angle E = angle B, we have:<br/>$$\\tan(E) = \\frac{7}{50} = 0.14$$"
+    }
+  ]
+}

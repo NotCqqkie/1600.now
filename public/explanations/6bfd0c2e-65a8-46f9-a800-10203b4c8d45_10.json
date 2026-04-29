@@ -1,0 +1,15 @@
+{
+  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_10",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize like terms",
+      "content": "All three terms contain the same factor $x^6$. Since they have identical variable and exponent, they are like terms that can be combined."
+    },
+    {
+      "title": "Combine the coefficients",
+      "content": "Add and subtract the coefficients of the like terms:<br/>$$7 + 9 - 8 = 16 - 8 = 8$$<br/>Therefore, $7x^6 + 9x^6 - 8x^6 = 8x^6$, which means $b = 8$."
+    }
+  ]
+}

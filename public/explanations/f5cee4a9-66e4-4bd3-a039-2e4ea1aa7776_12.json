@@ -1,0 +1,16 @@
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify angle x\u00b0 and its relative sides",
+      "content": "The angle $x\u00b0$ is at the top-right corner. From this angle:<br/><ul><li>Opposite side = 40</li><li>Adjacent side = 39</li></ul>"
+    },
+    {
+      "title": "Use the tangent ratio to find c",
+      "content": "Using opposite = 40 and adjacent = 39:<br/>$$\\tan x\u00b0 = \\frac{40}{39}$$<br/><br/>Since we know $\\tan x\u00b0 = \\frac{c}{39}$, directly comparing gives $c = 40$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "$$\\tan(\\text{angle}) = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    }
+  ]
+}

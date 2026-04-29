@@ -1,0 +1,15 @@
+{
+  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_11",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the walnut bars and compare their relative heights",
+      "content": "The dark bars show walnut prices across the four seasons from 2016/17 to 2019/20. Looking left to right, one bar is visibly shorter than the rest."
+    },
+    {
+      "title": "Match the lowest price to the correct season",
+      "content": "The bar for 2018/19 represents the lowest walnut price among the four seasons shown. The bars for 2016/17, 2017/18, and 2019/20 are all taller, indicating higher prices. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

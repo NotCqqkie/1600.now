@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the core task",
+      "content": "The student needs to <strong>compare the vitamin C content</strong> of brussels sprouts and apples."
+    },
+    {
+      "title": "Match the comparison requirement",
+      "content": "Choice B directly fulfills this by <strong>comparing both foods</strong> \u2014 stating that brussels sprouts and apples both contain vitamin C, but brussels sprouts contain more. Choices A, C, and D either present data without comparison, classify by food type, or discuss vitamin C sourcing without comparing the two. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

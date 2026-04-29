@@ -1,0 +1,19 @@
+{
+  "questionId": "9551cd91",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points from the table",
+      "content": "From the table, when the number of cars c=0, the passenger-crew total is p=9.<br/>When c=1, the total is p=64."
+    },
+    {
+      "title": "Find slope and intercept",
+      "content": "The slope is $$m = \\frac{64-9}{1-0}=55$$ passengers per car.<br/>Using p = mc + b and the point (0,9) gives b=9, so $$p = 55c + 9$$."
+    },
+    {
+      "title": "Write equation in given form and match choice",
+      "content": "Rewrite as $55c - p = -9$.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

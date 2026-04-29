@@ -1,0 +1,19 @@
+{
+  "questionId": "8027db3f",
+  "correctAnswer": ".8823",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that angles K and L are complementary",
+      "content": "Since angle J is a right angle (90\u00b0), and the sum of angles in a triangle is 180\u00b0, we have J + K + L = 180\u00b0. Substituting J = 90\u00b0: 90\u00b0 + K + L = 180\u00b0, which simplifies to K + L = 90\u00b0. This means K and L are complementary angles."
+    },
+    {
+      "title": "Apply the cofunction identity for complementary angles",
+      "content": "When two angles sum to 90\u00b0, their trigonometric functions are cofunctions of each other: $\\cos(K) = \\sin(L)$ and $\\sin(K) = \\cos(L)$. Given that $\\cos(K) = \\frac{24}{51}$, we can immediately write $\\sin(L) = \\frac{24}{51}$."
+    },
+    {
+      "title": "Solve for cos(L) using the Pythagorean identity",
+      "content": "Applying the Pythagorean identity $\\sin^2(L) + \\cos^2(L) = 1$:<br/><br/>$$\\left(\\frac{24}{51}\\right)^2 + \\cos^2(L) = 1$$<br/><br/>$$\\frac{576}{2601} + \\cos^2(L) = 1$$<br/><br/>$$\\cos^2(L) = 1 - \\frac{576}{2601} = \\frac{2601 - 576}{2601} = \\frac{2025}{2601}$$<br/><br/>$$\\cos(L) = \\sqrt{\\frac{2025}{2601}} = \\frac{\\sqrt{2025}}{\\sqrt{2601}} = \\frac{45}{51} = \\frac{15}{17}$$"
+    }
+  ]
+}

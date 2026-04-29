@@ -1,0 +1,15 @@
+{
+  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_10",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central contrast",
+      "content": "The passage shows that researchers successfully extracted historical DNA from specimens, yet emphasizes the approach remains <strong>relatively underutilized because archival specimens are sometimes stored in ways that compromise DNA quality</strong>. This condition is <strong>not easily remediable</strong> with current technology, revealing a key reality: specimens contain valuable genetic data, but storage sometimes prevents their use."
+    },
+    {
+      "title": "Match signal to answer",
+      "content": "Choice A\u2014specimens may contain valuable genomic data, but not all yield usable hDNA\u2014directly reflects this dual reality. The other choices either contradict the underutilization claim (B), introduce unsupported extraction difficulties (C), or inappropriately narrow scope to a single study (D). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,16 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import {
-  ChevronUp,
-  ChevronDown,
-  Loader2,
-  Lightbulb,
-  AlertTriangle,
-} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ChevronUp, ChevronDown } from "lucide-react";
 import { renderMixedContent } from "@/lib/mathRendering";
 import {
-  generateExplanation,
   getCachedExplanation,
   type ExplanationData,
   type ExplanationStep,
@@ -35,12 +28,10 @@ interface StepByStepExplanationProps {
   questionImages?: { src: string; alt: string }[];
 }
 
-export function StepByStepExplanation({ questionId, question, questionImages }: StepByStepExplanationProps) {
+export function StepByStepExplanation({ questionId, question }: StepByStepExplanationProps) {
   const [data, setData] = useState<ExplanationData | null>(null);
   const [revealedUpTo, setRevealedUpTo] = useState(0);
   const [currentStep, setCurrentStep] = useState(0);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [animKey, setAnimKey] = useState(0);
 
@@ -50,12 +41,16 @@ export function StepByStepExplanation({ questionId, question, questionImages }: 
       setData(cached);
       setRevealedUpTo(0);
       setCurrentStep(0);
-      setError(null);
-    } else {
-      setData(null);
-      setRevealedUpTo(0);
-      setCurrentStep(0);
+      return;
     }
+    setData(null);
+    setRevealedUpTo(0);
+    setCurrentStep(0);
+    const id = questionId;
+    fetch(`/explanations/${questionId}.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(json => { if (json?.steps && id === questionId) setData(json); })
+      .catch(() => {});
   }, [questionId]);
 
   const goToStep = useCallback((target: number, dir: 1 | -1) => {
@@ -81,69 +76,6 @@ export function StepByStepExplanation({ questionId, question, questionImages }: 
     }
   }, [currentStep, goToStep]);
 
-
-  const handleGenerate = async () => {
-    setLoading(true);
-    setError(null);
-    try {
-      const imageUrls: string[] = [];
-      if (questionImages) {
-        for (const img of questionImages) {
-          imageUrls.push(img.src);
-        }
-      }
-      if (question.choices) {
-        for (const c of question.choices) {
-          if (c.image) imageUrls.push(c.image);
-        }
-      }
-      const result = await generateExplanation(questionId, question, imageUrls);
-      setData(result);
-      setRevealedUpTo(0);
-      setCurrentStep(0);
-    } catch (err: any) {
-      setError(err.message || "Failed to generate explanation");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  // ── Not generated yet ────────────────────────────────────────────
-  if (!data && !loading) {
-    return (
-      <div className="flex flex-col items-center justify-center gap-4 py-8 px-4">
-        <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
-          <Lightbulb className="w-7 h-7 text-primary" />
-        </div>
-        <div className="text-center">
-          <h3 className="text-base font-semibold">Step-by-Step Walkthrough</h3>
-          <p className="text-xs text-muted-foreground mt-1">
-            AI-powered breakdown of this question
-          </p>
-        </div>
-        <Button onClick={handleGenerate} className="gap-2">
-          <Lightbulb className="w-4 h-4" />
-          Generate Explanation
-        </Button>
-        {error && (
-          <div className="flex items-center gap-2 text-destructive text-xs mt-2 px-2">
-            <AlertTriangle className="w-4 h-4 flex-shrink-0" />
-            <span className="break-all">{error}</span>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  // ── Loading ──────────────────────────────────────────────────────
-  if (loading) {
-    return (
-      <div className="flex flex-col items-center justify-center gap-4 py-12">
-        <Loader2 className="w-8 h-8 animate-spin text-primary" />
-        <p className="text-xs text-muted-foreground animate-pulse">Generating explanation...</p>
-      </div>
-    );
-  }
 
   if (!data) return null;
 

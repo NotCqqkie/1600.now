@@ -1,0 +1,16 @@
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the sum-of-roots shortcut",
+      "content": "The question asks specifically for the sum of solutions, not the individual roots. This is a red flag to use Vieta's formula instead of solving the full quadratic equation.",
+      "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$"
+    },
+    {
+      "title": "Apply Vieta's formula",
+      "content": "In $x^2 - 15x + 12 = 0$, we have $a = 1$ and $b = -15$. Substitute directly into Vieta's formula:<br/>$$-\\frac{b}{a} = -\\frac{(-15)}{1} = 15$$That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

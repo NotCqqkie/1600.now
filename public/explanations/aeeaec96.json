@@ -1,0 +1,15 @@
+{
+  "questionId": "aeeaec96",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up unit conversion",
+      "content": "Since 1 yard equals 36 inches, to convert 612 inches to yards, we divide by the conversion factor: $$\\frac{612}{36}$$."
+    },
+    {
+      "title": "Evaluate the division",
+      "content": "$$\\frac{612}{36} = 17$$. Therefore, 612 inches is equivalent to 17 yards. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

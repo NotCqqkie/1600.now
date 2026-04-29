@@ -1,0 +1,15 @@
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main verb and its required subject",
+      "content": "The word <strong>bestows</strong> is clearly the main verb, appearing with objects and prepositional phrases at the sentence's end. The subject must begin with \u201cHelical\u201d and come before \u201cbestows.\u201d Between the potential subject and verb stands the phrase \u201cwidely understood to confer stability and efficiency in the locomotion of a variety of microscopic organisms\u2014including bacteria, eukaryotic algae, and ciliates,\u201d which is a <strong>participial phrase</strong> (a modifier using the past participle \u201cunderstood\u201d)\u2014not a second main verb."
+    },
+    {
+      "title": "Apply the punctuation rule for intervening modifiers",
+      "content": "When a participial phrase interrupts between a subject and its main verb, it must be set off by punctuation. Choice D, \u201cswimming,\u201d creates the subject \u201cHelical swimming\u201d followed by a comma that opens the participial phrase \u201cwidely understood to confer...ciliates,\u201d which closes with the em dash before the main verb \u201cbestows,\u201d establishing the proper [Subject], [participial phrase\u2014], [main verb] structure. Choices A, B, and C each insert a verb (\u201cis,\u201d \u201chas been\u201d) into the modifier, creating two independent clauses that cannot be properly joined. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

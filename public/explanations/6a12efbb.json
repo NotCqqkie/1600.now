@@ -1,0 +1,11 @@
+{
+  "questionId": "6a12efbb",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute y = 8 into the perimeter equation",
+      "content": "The given perimeter equation for the rectangular rug is \\( 46 = 2x + 2y \\). The width \\( y \\) of the rug is given as 8 feet. Substitute this value into the equation: <br/>$$ 46 = 2x + 2(8) $$<br/><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1be909aa",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quotient rule for exponents",
+      "content": "When dividing powers with the same base, subtract the exponents. Apply this separately to $h$ and $q$:<br/><br/>$$\\frac{h^{15}}{h^5} = h^{15-5} = h^{10}$$<br/>$$\\frac{q^{7}}{q^{21}} = q^{7-21} = q^{-14}$$"
+    },
+    {
+      "title": "Rewrite with positive exponents and match the choice",
+      "content": "A negative exponent in the numerator moves to the denominator as a positive exponent:<br/><br/>$$q^{-14} = \\frac{1}{q^{14}}$$<br/><br/>So the complete simplified expression is $\\frac{h^{10}}{q^{14}}$, which matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

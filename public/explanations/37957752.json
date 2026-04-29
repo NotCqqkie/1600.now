@@ -1,0 +1,15 @@
+{
+  "questionId": "37957752",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause-and-effect relationship",
+      "content": "The first sentence presents a challenge for seals during deep dives: they must generate enough power to dive deep while keeping their heart rate low to avoid oxygen depletion. The second sentence describes how seals actually respond\u2014by conserving energy through minimal flipper movement. The transition must show that this response is a direct result of the challenge."
+    },
+    {
+      "title": "Match the transition to the causal link",
+      "content": "<em>For this reason</em> directly signals that the seal's energy-conserving behavior is a consequence of the oxygen-related challenge described in the first sentence. The other three don't express this causal relationship: <em>In the first place</em> is used to enumerate sequential points, <em>On the other hand</em> signals contrast, and <em>In comparison</em> signals comparison. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

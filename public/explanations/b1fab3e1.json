@@ -1,0 +1,15 @@
+{
+  "questionId": "b1fab3e1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal in the logical chain",
+      "content": "The passage establishes that modern and Cremonese violins use the same woods, ruling out wood <em>type</em> as the explanation for superior sound. Then it reveals the real difference: Cremonese wood was <strong>chemically treated by the makers</strong>. This treatment is what researchers would logically infer explains the superior sound."
+    },
+    {
+      "title": "Match the answer to the inference",
+      "content": "<strong>Choice B</strong> states that the sound quality \u201cresults in part from a method the craftspeople used to alter the wood.\u201d This directly identifies the chemical treatment as the cause of superior sound. The other choices either deny the superior sound claim (A), speculate about wrong wood types while ignoring the treatment finding (C), or claim modern makers use the same chemical process that old makers did, contradicting the discovery (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "questionId": "203774bc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Define Variables and Equation",
+      "content": "Let the smaller integer be $ x $. The larger integer is $ 2x + 11 $. Their product is $ x(2x + 11) = 546 $.",
+      "formula": "$$x(2x + 11) = 546$$"
+    },
+    {
+      "title": "Form Quadratic Equation",
+      "content": "Expand and rearrange the equation: $$2x^2 + 11x - 546 = 0$$. Apply the quadratic formula $ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} $ where $ a = 2 $, $ b = 11 $, $ c = -546 $.",
+      "formula": "$$x = \\frac{-11 \\pm \\sqrt{11^2 - 4(2)(-546)}}{2(2)}$$"
+    },
+    {
+      "title": "Calculate Discriminant and Roots",
+      "content": "Compute the discriminant: $ 121 + 4368 = 4489 $. The square root of 4489 is 67. Roots: $$x = \\frac{-11 + 67}{4} = 14\\quad\\text{and}\\quad x = \\frac{-11 - 67}{4} = -19.5$$. Only $ x = 14 $ is a valid positive integer.",
+      "formula": "$$x = \\frac{-11 \\pm 67}{4}$$"
+    },
+    {
+      "title": "Identify Smaller Integer",
+      "content": "The smaller integer is $ x = 14 $. Verify the product: $ 14 \times (2 \times 14 + 11) = 14 \times 39 = 546 $. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

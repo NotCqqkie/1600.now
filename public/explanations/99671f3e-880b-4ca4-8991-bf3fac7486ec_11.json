@@ -1,0 +1,15 @@
+{
+  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what would support the resolution-dependency claim",
+      "content": "The researchers' conclusion states that <em>variations in the landscape affect net CO\u2082 in ways that most models are too coarse to capture</em>. To support this, a finding must show that FINER-resolution models (1 km\u00b2) and COARSER-resolution models (10 km\u00b2) produce <strong>different results</strong> for the same metric\u2014proving that landscape variations matter and are lost in coarser grids."
+    },
+    {
+      "title": "Match the resolution differences to the choices",
+      "content": "Choice C reports different heterotrophic respiration rates for autumn between the 1 km\u00b2 and 10 km\u00b2 models. This directly proves that landscape variations are captured differently at different resolutions, which is precisely what the conclusion claims. The other choices either describe seasonal patterns (A), report independence between variables (B), or show models reached identical conclusions despite different data (D)\u2014none demonstrating that coarse models miss landscape information. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

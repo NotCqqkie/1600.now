@@ -1,0 +1,15 @@
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key detail about the batteries",
+      "content": "The passage describes batteries \u201cthat can't be easily taken out and swapped for new ones.\u201d This tells us they're permanently integrated into the devices, not replaceable components. The blank needs a verb for what devices do with such batteries."
+    },
+    {
+      "title": "Find the word that expresses this relationship",
+      "content": "<strong>Contain</strong> is correct: it means the devices hold batteries inside them. The other three don't describe the relationship between devices and batteries. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

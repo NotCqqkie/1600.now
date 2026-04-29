@@ -1,0 +1,15 @@
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the correlation values and their meaning",
+      "content": "The graph shows model-predicted ratings achieved a 0.58 correlation with P1's actual impressionist ratings, but only a 0.14 correlation with P1's actual color-field ratings. A much higher correlation for one style means the model's predictions aligned closely with how P1 actually rated that style; a low correlation means the model's predictions diverged significantly from P1's actual ratings."
+    },
+    {
+      "title": "Use the data gap to infer the model's prediction",
+      "content": "We're told P1 gave <em>equal</em> overall ratings to both styles. Yet the model achieved vastly different correlations (0.58 vs. 0.14), indicating the model predicted something fundamentally different about how P1 would rate the two styles. If the model had predicted equal ratings for both (option D), the correlations would track more symmetrically. Instead, the high correlation for impressionist and low correlation for color-field reveals the model predicted P1 would rate them <em>differently</em>\u2014likely assigning greater variation, differentiation, or preference to one style than the other. The model did not predict they would be equal; it predicted they would differ. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

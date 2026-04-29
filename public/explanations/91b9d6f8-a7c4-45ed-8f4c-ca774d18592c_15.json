@@ -1,0 +1,15 @@
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_15",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Equate the two kinetic energy formulas",
+      "content": "Since both expressions describe the kinetic energy of the same object, they must be equal:<br/> $$\\frac{1}{2}mv^2 = 32v^2$$"
+    },
+    {
+      "title": "Solve for mass",
+      "content": "Divide both sides by $v^2$ (assuming $v \\neq 0$):<br/> $$\\frac{1}{2}m = 32$$<br/> Multiply both sides by 2:<br/> $$m = 64$$<br/> That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

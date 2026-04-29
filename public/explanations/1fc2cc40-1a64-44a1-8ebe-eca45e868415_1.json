@@ -1,0 +1,15 @@
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the greatest common factor",
+      "content": "Both terms contain $v^3$ as a factor: $v^4 = v \\cdot v^3$ and $590v^3 = 590 \\cdot v^3$. The GCF is $v^3$."
+    },
+    {
+      "title": "Factor out the GCF",
+      "content": "$$v^4 - 590v^3 = v^3(v - 590)$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

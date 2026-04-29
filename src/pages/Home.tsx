@@ -87,19 +87,7 @@ const HeroQuestionPreview = memo(({
   subject: "math" | "reading";
   difficulty: "Easy" | "Medium" | "Hard" | null;
 }) => {
-  const [questionId, setQuestionId] = useState<number>(() => {
-    const cached = heroQuestionIdCache.get(`${subject}|${difficulty ?? ""}`);
-    return cached ?? 1;
-  });
-  useEffect(() => {
-    let cancelled = false;
-    void resolveHeroQuestionId(subject, difficulty).then((id) => {
-      if (!cancelled) setQuestionId(id);
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [subject, difficulty]);
+  const [questionId] = useState<number>(1);
   const src = `/bank/${subject}/${questionId}?bankType=past&embed=1${
     difficulty ? `&difficulty=${difficulty}` : ""
   }`;
@@ -407,8 +395,8 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
             position: "absolute",
             inset: 0,
             background: isDarkMode
-              ? "radial-gradient(ellipse at 68% 50%, transparent 18%, rgba(0,0,0,0.78) 58%)"
-              : "radial-gradient(ellipse at 68% 50%, transparent 18%, rgba(10,18,32,0.55) 58%)",
+              ? "radial-gradient(circle at 62% 50%, transparent 18%, rgba(0,0,0,0.78) 50%)"
+              : "radial-gradient(circle at 62% 50%, transparent 18%, rgba(10,18,32,0.55) 50%)",
             opacity: dimOpacity * 0.95,
             pointerEvents: "none",
             zIndex: 2,
@@ -441,7 +429,6 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
                 marginBottom: 18,
               }}
             >
-              — Walk-through explanations
             </div>
             <h2
               style={{
@@ -469,10 +456,10 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
                 margin: "0 0 28px",
               }}
             >
-              Every question unfolds step by step — the setup, the key move, the interpretation. Scroll to walk through the reasoning.
+              Learn step-by-step through every solution.
             </p>
             <button
-              onClick={() => navigate("/hard")}
+              onClick={() => navigate("/bank")}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -487,7 +474,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
                 fontFamily: "'Outfit', sans-serif",
               }}
             >
-              Try a hard question
+              Open question bank
               <ArrowRight size={14} />
             </button>
           </div>
@@ -586,6 +573,24 @@ const FilterFeatureSection = memo(({
   const navigate = useNavigate();
   const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyPill[]>(["easy", "medium", "hard"]);
   const [selectedSkills, setSelectedSkills] = useState<Set<string>>(new Set());
+  const chipsRef = useRef<HTMLDivElement>(null);
+  const [chipsInView, setChipsInView] = useState(false);
+
+  useEffect(() => {
+    const el = chipsRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setChipsInView(true);
+          obs.disconnect();
+        }
+      },
+      { threshold: 0.15 },
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
 
   const toggleDifficulty = useCallback((d: DifficultyPill) => {
     setSelectedDifficulties((prev) =>
@@ -636,7 +641,8 @@ const FilterFeatureSection = memo(({
     fontSize: 12,
     fontWeight: 500,
     cursor: "pointer",
-    transition: "border-color 0.15s, background 0.15s, color 0.15s",
+    transition:
+      "border-color 0.15s, background 0.15s, color 0.15s, opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1)",
     border: "1px solid",
     userSelect: "none",
   };
@@ -663,7 +669,6 @@ const FilterFeatureSection = memo(({
             </em>
           </h2>
           <p style={{ fontSize: 15, color: "hsl(var(--muted-foreground))", margin: 0 }}>
-            Toggle skills and difficulty below, then jump straight to what you need.
           </p>
         </div>
 
@@ -703,6 +708,7 @@ const FilterFeatureSection = memo(({
 
         {/* Skill chips */}
         <div
+          ref={chipsRef}
           style={{
             display: "flex",
             flexWrap: "wrap",
@@ -711,7 +717,7 @@ const FilterFeatureSection = memo(({
             marginBottom: 32,
           }}
         >
-          {SKILL_ORBIT.map((chip) => {
+          {SKILL_ORBIT.map((chip, chipIdx) => {
             const active = selectedSkills.has(chip.label);
             const diffFraction = selectedDifficulties.length === 0 ? 1 : selectedDifficulties.length / 3;
             const displayCount = Math.round(chip.count * diffFraction);
@@ -720,8 +726,10 @@ const FilterFeatureSection = memo(({
                 key={chip.label}
                 type="button"
                 onClick={() => toggleSkill(chip.label)}
+                className={`chip-cascade${chipsInView ? " in" : ""}`}
                 style={{
                   ...chipBase,
+                  transitionDelay: chipsInView ? `${chipIdx * 38}ms` : "0ms",
                   background: active
                     ? isDarkMode ? "rgba(125,211,252,0.18)" : "rgba(56,189,248,0.12)"
                     : isDarkMode ? "rgba(20,30,48,0.6)" : "rgba(255,255,255,0.85)",
@@ -1283,13 +1291,623 @@ const FeatureRow = memo(({
 });
 FeatureRow.displayName = "FeatureRow";
 
+// ─── Rotating typewriter subtitle ──────────────────────────────────────────
+
+const ROTATING_PHRASES = [
+  "No paywalls.",
+  "No account required.",
+  "Built from real tests.",
+];
+
+const RotatingSubtitle = memo(() => {
+  const [text, setText] = useState("");
+  const [phraseIdx, setPhraseIdx] = useState(0);
+  const [phase, setPhase] = useState<"typing" | "hold" | "deleting">("typing");
+
+  useEffect(() => {
+    const phrase = ROTATING_PHRASES[phraseIdx];
+    if (phase === "typing") {
+      if (text.length < phrase.length) {
+        const t = setTimeout(() => setText(phrase.slice(0, text.length + 1)), 55);
+        return () => clearTimeout(t);
+      }
+      const t = setTimeout(() => setPhase("hold"), 1700);
+      return () => clearTimeout(t);
+    }
+    if (phase === "hold") {
+      setPhase("deleting");
+      return;
+    }
+    if (text.length > 0) {
+      const t = setTimeout(() => setText(text.slice(0, -1)), 28);
+      return () => clearTimeout(t);
+    }
+    setPhraseIdx((i) => (i + 1) % ROTATING_PHRASES.length);
+    setPhase("typing");
+  }, [text, phase, phraseIdx]);
+
+  return (
+    <span style={{ display: "inline-block", minWidth: "1ch" }}>
+      {text}
+      <span className="typewriter-cursor" aria-hidden>|</span>
+    </span>
+  );
+});
+RotatingSubtitle.displayName = "RotatingSubtitle";
+
+// ─── Slot-machine digit counter ────────────────────────────────────────────
+
+const SlotDigit = memo(({ digit, delay }: { digit: number; delay: number }) => (
+  <span
+    style={{
+      display: "inline-block",
+      height: "1em",
+      lineHeight: 1,
+      overflow: "hidden",
+      verticalAlign: "top",
+    }}
+  >
+    <span
+      style={{
+        display: "block",
+        transform: `translateY(-${digit}em)`,
+        transition: `transform 1.1s cubic-bezier(0.22, 1, 0.36, 1) ${delay}ms`,
+      }}
+    >
+      {Array.from({ length: 10 }).map((_, i) => (
+        <span key={i} style={{ display: "block", height: "1em", lineHeight: 1 }}>{i}</span>
+      ))}
+    </span>
+  </span>
+));
+SlotDigit.displayName = "SlotDigit";
+
+const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 1600 }: { value: number; startValue?: number; countDuration?: number }) => {
+  const [displayed, setDisplayed] = useState(startValue);
+  const rafRef = useRef<number>(0);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      const begin = performance.now();
+      const range = value - startValue;
+      const tick = (now: number) => {
+        const t = Math.min((now - begin) / countDuration, 1);
+        const eased = t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+        setDisplayed(Math.round(startValue + range * eased));
+        if (t < 1) rafRef.current = requestAnimationFrame(tick);
+      };
+      rafRef.current = requestAnimationFrame(tick);
+    }, 400);
+    return () => {
+      clearTimeout(delay);
+      cancelAnimationFrame(rafRef.current);
+    };
+  }, [value, startValue, countDuration]);
+
+  return (
+    <span style={{ fontVariantNumeric: "tabular-nums" }}>
+      {displayed.toLocaleString()}
+    </span>
+  );
+});
+SlotMachineCounter.displayName = "SlotMachineCounter";
+
+// ─── Floating math symbols (hero ambient) ──────────────────────────────────
+
+const MATH_SYMBOLS = ["∑", "π", "√", "∫", "∞", "θ", "Δ", "λ", "φ", "Ω", "α", "β"];
+
+const FloatingMathSymbols = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
+  const items = useMemo(() => {
+    const seedRand = (seed: number) => {
+      const x = Math.sin(seed * 12.9898) * 43758.5453;
+      return x - Math.floor(x);
+    };
+    return Array.from({ length: 18 }).map((_, i) => ({
+      sym: MATH_SYMBOLS[i % MATH_SYMBOLS.length],
+      left: seedRand(i * 7.3) * 100,
+      delay: seedRand(i * 11.1) * 22,
+      duration: 18 + seedRand(i * 13.7) * 16,
+      size: 24 + seedRand(i * 17.2) * 42,
+      opacity: 0.05 + seedRand(i * 19.5) * 0.07,
+    }));
+  }, []);
+  return (
+    <div
+      style={{
+        position: "absolute",
+        inset: 0,
+        pointerEvents: "none",
+        overflow: "hidden",
+        zIndex: 0,
+      }}
+    >
+      {items.map((it, i) => (
+        <span
+          key={i}
+          className="float-sym"
+          style={{
+            left: `${it.left}%`,
+            fontSize: it.size,
+            opacity: isDarkMode ? it.opacity * 1.5 : it.opacity,
+            animationDelay: `${it.delay}s`,
+            animationDuration: `${it.duration}s`,
+            color: isDarkMode ? "rgba(125,211,252,1)" : "rgba(15,23,42,1)",
+          }}
+        >
+          {it.sym}
+        </span>
+      ))}
+    </div>
+  );
+});
+FloatingMathSymbols.displayName = "FloatingMathSymbols";
+
+// ─── Mouse-parallax tilt wrapper ───────────────────────────────────────────
+
+const ParallaxTilt = memo(({
+  children,
+  max = 4,
+}: {
+  children: React.ReactNode;
+  max?: number;
+}) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const onMove = useCallback((e: React.MouseEvent) => {
+    const el = ref.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    el.style.transform = `perspective(1400px) rotateX(${(-y * max).toFixed(2)}deg) rotateY(${(x * max).toFixed(2)}deg)`;
+  }, [max]);
+  const onLeave = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    el.style.transform = "perspective(1400px) rotateX(0deg) rotateY(0deg)";
+  }, []);
+  return (
+    <div
+      ref={ref}
+      onMouseMove={onMove}
+      onMouseLeave={onLeave}
+      style={{
+        transition: "transform 0.45s cubic-bezier(0.22, 1, 0.36, 1)",
+        willChange: "transform",
+        transformStyle: "preserve-3d",
+      }}
+    >
+      {children}
+    </div>
+  );
+});
+ParallaxTilt.displayName = "ParallaxTilt";
+
+// ─── Score dial section (scroll-driven gauge 400 → 1600) ───────────────────
+
+const ScoreDialSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
+  const navigate = useNavigate();
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    let raf = 0;
+    let pending = false;
+    const compute = () => {
+      pending = false;
+      const el = sectionRef.current;
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      const total = rect.height - window.innerHeight;
+      const raw = total > 0 ? -rect.top / total : 0;
+      setProgress(Math.max(0, Math.min(1, raw)));
+    };
+    const schedule = () => {
+      if (pending) return;
+      pending = true;
+      raf = requestAnimationFrame(compute);
+    };
+    compute();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+    };
+  }, []);
+
+  const sweep = Math.max(0, Math.min(1, (progress - 0.18) / 0.64));
+  const score = Math.round((400 + sweep * 1200) / 10) * 10;
+  const inSpotlight = progress > 0.1 && progress < 0.92;
+
+  const RADIUS = 160;
+  const STROKE = 24;
+  const W = (RADIUS + STROKE) * 2;
+  const H = RADIUS + STROKE * 2 + 8;
+  const CIRC = Math.PI * RADIUS;
+
+  return (
+    <div ref={sectionRef} style={{ position: "relative", height: "240vh" }}>
+      <div
+        style={{
+          position: "sticky",
+          top: 0,
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          overflow: "hidden",
+        }}
+      >
+        <div
+          style={{
+            textAlign: "center",
+            maxWidth: 760,
+            padding: "0 24px",
+            opacity: inSpotlight ? 1 : 0.35,
+            transition: "opacity 0.5s ease",
+          }}
+        >
+          <div
+            style={{
+              fontSize: 11,
+              letterSpacing: "0.18em",
+              textTransform: "uppercase",
+              color: "hsl(201,100%,60%)",
+              fontWeight: 600,
+              marginBottom: 18,
+            }}
+          >
+            — Score calculator
+          </div>
+          <h2
+            style={{
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(40px, 5.5vw, 68px)",
+              lineHeight: 0.98,
+              letterSpacing: "-0.025em",
+              color: "hsl(var(--foreground))",
+              margin: "0 0 28px",
+            }}
+          >
+            Know exactly where
+            <br />
+            <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>you stand.</em>
+          </h2>
+          <div style={{ position: "relative", display: "inline-block" }}>
+            <svg
+              width={W}
+              height={H}
+              viewBox={`0 0 ${W} ${H}`}
+              overflow="visible"
+              style={{ display: "block", maxWidth: "min(560px, 90vw)", height: "auto" }}
+            >
+              <defs>
+                <linearGradient id="scoreDialGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stopColor="hsl(0, 75%, 60%)" />
+                  <stop offset="35%" stopColor="hsl(35, 95%, 58%)" />
+                  <stop offset="70%" stopColor="hsl(80, 70%, 52%)" />
+                  <stop offset="100%" stopColor="hsl(150, 75%, 48%)" />
+                </linearGradient>
+              </defs>
+              <path
+                d={`M ${STROKE},${RADIUS + STROKE} A ${RADIUS} ${RADIUS} 0 0 1 ${W - STROKE},${RADIUS + STROKE}`}
+                fill="none"
+                stroke={isDarkMode ? "rgba(255,255,255,0.08)" : "rgba(15,23,42,0.08)"}
+                strokeWidth={STROKE}
+                strokeLinecap="round"
+              />
+              <path
+                d={`M ${STROKE},${RADIUS + STROKE} A ${RADIUS} ${RADIUS} 0 0 1 ${W - STROKE},${RADIUS + STROKE}`}
+                fill="none"
+                stroke="url(#scoreDialGrad)"
+                strokeWidth={STROKE}
+                strokeLinecap="round"
+                strokeDasharray={CIRC}
+                strokeDashoffset={CIRC * (1 - sweep)}
+                style={{ transition: "stroke-dashoffset 0.12s linear" }}
+              />
+              {[400, 800, 1200, 1600].map((tick) => {
+                const t = (tick - 400) / 1200;
+                const angle = Math.PI * (1 - t);
+                const cx = RADIUS + STROKE + Math.cos(angle) * (RADIUS + STROKE / 2 + 16);
+                const cy = RADIUS + STROKE - Math.sin(angle) * (RADIUS + STROKE / 2 + 16);
+                return (
+                  <text
+                    key={tick}
+                    x={cx}
+                    y={cy}
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fontSize="11"
+                    fontFamily="'Space Mono', monospace"
+                    fill={isDarkMode ? "rgba(255,255,255,0.45)" : "rgba(15,23,42,0.5)"}
+                    fontWeight="600"
+                  >
+                    {tick}
+                  </text>
+                );
+              })}
+            </svg>
+            <div
+              style={{
+                position: "absolute",
+                left: 0,
+                right: 0,
+                top: "58%",
+                transform: "translateY(-50%)",
+                textAlign: "center",
+                pointerEvents: "none",
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "'Inter Tight', sans-serif",
+                  fontSize: "clamp(56px, 8vw, 92px)",
+                  fontWeight: 800,
+                  color: "hsl(var(--foreground))",
+                  lineHeight: 1,
+                  fontVariantNumeric: "tabular-nums",
+                  letterSpacing: "-0.04em",
+                }}
+              >
+                {score}
+              </div>
+            </div>
+          </div>
+          <p
+            style={{
+              maxWidth: 460,
+              margin: "28px auto 28px",
+              fontSize: 16,
+              lineHeight: 1.6,
+              fontWeight: 300,
+              color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
+            }}
+          >
+            Convert raw practice results into a real Digital SAT score using official scoring curves.
+          </p>
+          <button
+            onClick={() => navigate("/score-calculator")}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "13px 30px",
+              borderRadius: 10,
+              background: "hsl(201,100%,42%)",
+              color: "#fff",
+              fontWeight: 600,
+              fontSize: 14,
+              border: "none",
+              cursor: "pointer",
+              fontFamily: "'Outfit', sans-serif",
+              transition: "background 0.15s",
+            }}
+            onMouseEnter={(e) => ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,36%)")}
+            onMouseLeave={(e) => ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,42%)")}
+          >
+            Try the score calculator
+            <ArrowRight size={14} />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+});
+ScoreDialSection.displayName = "ScoreDialSection";
+
+// ─── Streak heatmap section (scroll-driven contribution grid) ──────────────
+
+const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
+  const navigate = useNavigate();
+  const COLS = 26;
+  const ROWS = 7;
+  const TOTAL = COLS * ROWS;
+
+  const intensities = useMemo(() => {
+    const seedRand = (seed: number) => {
+      const x = Math.sin(seed * 12.9898) * 43758.5453;
+      return x - Math.floor(x);
+    };
+    return Array.from({ length: TOTAL }).map((_, i) => {
+      const trend = (i / TOTAL) * 0.55;
+      const noise = seedRand(i + 1);
+      if (noise < 0.18) return 0;
+      return Math.max(0, Math.min(1, trend + noise * 0.65 - 0.05));
+    });
+  }, []);
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    let raf = 0;
+    let pending = false;
+    const compute = () => {
+      pending = false;
+      const el = sectionRef.current;
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      const total = rect.height - window.innerHeight;
+      const raw = total > 0 ? -rect.top / total : 0;
+      setProgress(Math.max(0, Math.min(1, raw)));
+    };
+    const schedule = () => {
+      if (pending) return;
+      pending = true;
+      raf = requestAnimationFrame(compute);
+    };
+    compute();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+    };
+  }, []);
+
+  const sweep = Math.max(0, Math.min(1, (progress - 0.1) / 0.75));
+  const fillCount = Math.floor(sweep * TOTAL);
+
+  return (
+    <div ref={sectionRef} style={{ position: "relative", height: "200vh" }}>
+      <div
+        style={{
+          position: "sticky",
+          top: 0,
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          padding: "0 24px",
+        }}
+      >
+      <div
+        style={{
+          maxWidth: 1200,
+          margin: "0 auto",
+          width: "100%",
+          display: "grid",
+          gridTemplateColumns: "minmax(0, 1fr) minmax(0, 1.1fr)",
+          gap: 64,
+          alignItems: "center",
+        }}
+        className="streak-section-grid"
+      >
+        <div>
+          <div
+            style={{
+              fontSize: 11,
+              letterSpacing: "0.18em",
+              textTransform: "uppercase",
+              color: "hsl(201,100%,60%)",
+              fontWeight: 600,
+              marginBottom: 18,
+            }}
+          >
+            — Daily streaks
+          </div>
+          <h2
+            style={{
+              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontSize: "clamp(40px, 5.5vw, 68px)",
+              lineHeight: 0.98,
+              letterSpacing: "-0.025em",
+              color: "hsl(var(--foreground))",
+              margin: "0 0 22px",
+            }}
+          >
+            A little every day,
+            <br />
+            <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>adds up fast.</em>
+          </h2>
+          <p
+            style={{
+              fontSize: 16,
+              lineHeight: 1.65,
+              fontWeight: 300,
+              color: isDarkMode ? "rgba(255,255,255,0.55)" : "rgba(15,23,42,0.62)",
+              maxWidth: 420,
+              margin: "0 0 28px",
+            }}
+          >
+            Turn consistent studying into meaningful score improvements.
+          </p>
+          <button
+            onClick={() => navigate("/bank")}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 6,
+              fontSize: 14,
+              fontWeight: 600,
+              color: "hsl(201,100%,70%)",
+              background: "transparent",
+              border: "none",
+              cursor: "pointer",
+              padding: 0,
+              fontFamily: "'Outfit', sans-serif",
+            }}
+          >
+            Start a streak
+            <ArrowRight size={14} />
+          </button>
+        </div>
+        <div style={{ position: "relative" }}>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: `repeat(${COLS}, 1fr)`,
+              gap: 4,
+            }}
+          >
+            {Array.from({ length: COLS * ROWS }).map((_, idx) => {
+              const c = idx % COLS;
+              const r = Math.floor(idx / COLS);
+              const visitOrder = c * ROWS + r;
+              const visible = visitOrder < fillCount;
+              const v = intensities[visitOrder];
+              let color: string;
+              if (!visible || v === 0) {
+                color = isDarkMode ? "rgba(255,255,255,0.045)" : "rgba(15,23,42,0.06)";
+              } else {
+                const alpha = 0.35 + v * 0.6;
+                const lightness = 75 - v * 28;
+                color = `hsla(201, 100%, ${lightness}%, ${alpha})`;
+              }
+              return (
+                <div
+                  key={idx}
+                  style={{
+                    aspectRatio: "1 / 1",
+                    background: color,
+                    borderRadius: 3,
+                    transition: "background 0.4s cubic-bezier(0.22, 1, 0.36, 1)",
+                  }}
+                />
+              );
+            })}
+          </div>
+          <div
+            style={{
+              marginTop: 14,
+              display: "flex",
+              justifyContent: "flex-end",
+              alignItems: "center",
+              gap: 6,
+              fontSize: 11,
+              color: isDarkMode ? "rgba(255,255,255,0.4)" : "rgba(15,23,42,0.45)",
+            }}
+          >
+            <span>Less</span>
+            {[0.15, 0.4, 0.65, 0.9].map((v) => (
+              <div
+                key={v}
+                style={{
+                  width: 12,
+                  height: 12,
+                  borderRadius: 2,
+                  background: `hsla(201, 100%, ${75 - v * 28}%, ${0.35 + v * 0.6})`,
+                }}
+              />
+            ))}
+            <span>More</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  );
+});
+StreakHeatmapSection.displayName = "StreakHeatmapSection";
+
 // ─── Home page ─────────────────────────────────────────────────────────────
 
 const Home = () => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
   const [questionBankTotal, setQuestionBankTotal] = useState(DEFAULT_QUESTION_BANK_TOTAL);
-  const countValueRef = useRef<HTMLDivElement>(null);
   const [difficulties, setDifficulties] = useState<DifficultyPill[]>([]);
   const [subjects, setSubjects] = useState<SubjectPill[]>([]);
   const [isHeaderScrolled, setIsHeaderScrolled] = useState(false);
@@ -1342,6 +1960,42 @@ const Home = () => {
       .explanation-step-slide {
         animation: explanationStepSlide 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
       }
+      @keyframes floatSymUp {
+        0%   { transform: translateY(0) rotate(-4deg); opacity: 0; }
+        12%  { opacity: 1; }
+        88%  { opacity: 1; }
+        100% { transform: translateY(-130vh) rotate(18deg); opacity: 0; }
+      }
+      .float-sym {
+        position: absolute;
+        bottom: -80px;
+        font-family: 'Instrument Serif', Georgia, serif;
+        font-style: italic;
+        animation: floatSymUp linear infinite;
+        pointer-events: none;
+        user-select: none;
+        will-change: transform, opacity;
+      }
+      @keyframes typewriterBlink {
+        0%, 49%   { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .typewriter-cursor {
+        display: inline-block;
+        margin-left: 2px;
+        font-weight: 200;
+        color: hsl(201,100%,70%);
+        animation: typewriterBlink 1s step-end infinite;
+      }
+      .chip-cascade {
+        opacity: 0;
+        transform: translateY(14px);
+        transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .chip-cascade.in {
+        opacity: 1;
+        transform: translateY(0);
+      }
       .h-fade-1 { animation: homeFadeUp 0.75s ease 0.1s both; }
       .h-fade-2 { animation: homeFadeUp 0.75s ease 0.22s both; }
       .h-fade-3 { animation: homeFadeUp 0.75s ease 0.36s both; }
@@ -1358,6 +2012,11 @@ const Home = () => {
           animation: none !important;
           opacity: 1 !important;
           transform: none !important;
+        }
+        .float-sym { display: none !important; }
+        .streak-section-grid {
+          grid-template-columns: 1fr !important;
+          gap: 32px !important;
         }
         .home-hero {
           padding: 32px 16px 0 !important;
@@ -1417,47 +2076,6 @@ const Home = () => {
     };
   }, []);
 
-  // Count-up animation — writes directly to a DOM ref to avoid re-rendering
-  // the entire page on every frame. Starts at 85% of target so the element
-  // never shows 0 — even if rendered before the CSS fade-in completes.
-  const countTargetRef = useRef(totalQuestions);
-  countTargetRef.current = totalQuestions;
-  useEffect(() => {
-    let frame = 0;
-    let startTime = 0;
-    const catchUpDuration = 400;
-    const node = countValueRef.current;
-    if (!node) return;
-    let displayed = 0;
-    let from = Math.round(countTargetRef.current * 0.85);
-    let to = countTargetRef.current;
-    let duration = 900;
-    // Pre-fill immediately so the node never renders as empty or "0".
-    node.textContent = from.toLocaleString();
-    const tick = (time: number) => {
-      if (!startTime) startTime = time;
-      const progress = Math.min((time - startTime) / duration, 1);
-      const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
-      displayed = Math.floor(from + eased * (to - from));
-      node.textContent = displayed.toLocaleString();
-      // Target changed mid-flight (e.g. async data load) — re-aim without rewinding.
-      if (progress >= 1 && countTargetRef.current !== to) {
-        from = displayed;
-        to = countTargetRef.current;
-        startTime = 0;
-        duration = catchUpDuration;
-      }
-      if (progress < 1 || countTargetRef.current !== displayed) {
-        frame = requestAnimationFrame(tick);
-      }
-    };
-    // Start immediately — the h-fade-5 element is opacity-0 during its 640ms
-    // CSS delay, so by the time it fades in the count is already near-final.
-    frame = requestAnimationFrame(tick);
-    return () => {
-      cancelAnimationFrame(frame);
-    };
-  }, []);
 
   useEffect(() => {
     const updateHeaderState = () => {
@@ -1503,7 +2121,7 @@ const Home = () => {
               to="/modules"
               className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
             >
-              Practice Modules
+              Practice Tests
             </Link>
             <Link
               to="/score-calculator"
@@ -1589,6 +2207,8 @@ const Home = () => {
             pointerEvents: "none",
           }}
         />
+        {/* Floating math symbols */}
+        <FloatingMathSymbols isDarkMode={isDarkMode} />
         {/* Glow blobs */}
         <div
           style={{
@@ -1672,7 +2292,7 @@ const Home = () => {
           >
             Accurate SAT practice built from real past tests.
             <br />
-            No paywalls.
+            <RotatingSubtitle />
           </p>
 
           {/* CTAs */}
@@ -1729,7 +2349,7 @@ const Home = () => {
             </button>
 
             <button
-              onClick={() => navigate("/hard")}
+              onClick={() => navigate("/modules")}
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -1764,26 +2384,25 @@ const Home = () => {
                   isDarkMode ? "rgba(255,255,255,0.11)" : "rgba(15,23,42,0.12)";
               }}
             >
-              100 Hard Math Questions
+              Practice Tests
             </button>
           </div>
 
           {/* Counter */}
           <div className="h-fade-5 home-counter" style={{ marginBottom: 88 }}>
             <div
-              ref={countValueRef}
               className="home-count-num"
               style={{
-              fontSize: "clamp(38px, 5.5vw, 64px)",
-              fontFamily: "'Space Mono', monospace",
-              fontWeight: 700,
+              fontSize: "clamp(47px, 6.3vw, 74px)",
+              fontFamily: "'Inter Tight', sans-serif",
+              fontWeight: 800,
               color: "hsl(var(--foreground))",
-              letterSpacing: "-0.025em",
+              letterSpacing: "-0.04em",
               lineHeight: 1,
               fontVariantNumeric: "tabular-nums",
               }}
             >
-              0
+              <SlotMachineCounter value={totalQuestions} />
             </div>
             <div
               style={{
@@ -1844,8 +2463,7 @@ const Home = () => {
                   : "rgba(15,23,42,0.62)",
               }}
             >
-              Seriously &mdash; that little window below is the real thing.
-              Click around.
+              Seriously &mdash; that window below is the real thing. Click around.
             </p>
           </div>
 
@@ -1860,11 +2478,13 @@ const Home = () => {
               pointerEvents: "none",
             }}
           />
-          <HeroQuestionPreview
-            isDarkMode={isDarkMode}
-            subject={heroSubject}
-            difficulty={heroDifficulty}
-          />
+          <ParallaxTilt max={3}>
+            <HeroQuestionPreview
+              isDarkMode={isDarkMode}
+              subject={heroSubject}
+              difficulty={heroDifficulty}
+            />
+          </ParallaxTilt>
         </div>
 
         {/* Fade gradient into next section — tall + immediate so the
@@ -1893,13 +2513,18 @@ const Home = () => {
         <ExplanationFeatureSection isDarkMode={isDarkMode} />
       </section>
 
+      {/* ── SCORE DIAL ─────────────────────────────────────────────────── */}
+      <section className="bg-background">
+        <ScoreDialSection isDarkMode={isDarkMode} />
+      </section>
+
       {/* ── FEATURE ROW — PROGRESS ─────────────────────────────────────── */}
       <section className="bg-background">
         <FeatureRow
           eyebrow="Progress tracking"
           title="Watch your"
           titleEm="accuracy climb."
-          body="Per-domain accuracy, trends over time, and a clear view of which skills to focus on next. Free, forever."
+          body="Per-domain accuracy, trends over time, and a clear view of which skills to focus on next."
           ctaLabel={user ? "View your stats" : "Create free account"}
           ctaHref={user ? "/analysis" : "/signup"}
           demo={<AnimatedAccuracyChart isDarkMode={isDarkMode} />}
@@ -1908,8 +2533,13 @@ const Home = () => {
         />
       </section>
 
+      {/* ── STREAK HEATMAP ─────────────────────────────────────────────── */}
+      <section className="bg-background">
+        <StreakHeatmapSection isDarkMode={isDarkMode} />
+      </section>
+
       {/* ── CTA ────────────────────────────────────────────────────────── */}
-      <section className="home-cta-final" style={{ padding: "40px 24px 96px" }}>
+      <section className="home-cta-final" style={{ padding: "0px 24px 96px" }}>
         <div style={{ maxWidth: 960, margin: "0 auto", textAlign: "center" }}>
           <h2
             style={{
@@ -1966,7 +2596,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ── FOOTER ─────────────────────────────────────────────────────── */}
+{/* ── FOOTER ─────────────────────────────────────────────────────── */}
       <footer className="border-t border-border bg-card mt-auto">
         <div className="container mx-auto px-4 py-5 text-xs text-muted-foreground flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <div className="flex items-center gap-2">

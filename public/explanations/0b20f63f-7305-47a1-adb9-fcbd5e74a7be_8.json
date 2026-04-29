@@ -1,0 +1,15 @@
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parallel lines have the same slope",
+      "content": "Since line s is parallel to line r, I need to find the slope of line r."
+    },
+    {
+      "title": "Find the slope of line r",
+      "content": "Rearranging $6x - 5y = 6$ to isolate y:<br/>$$-5y = -6x + 6$$<br/>$$y = \\frac{6}{5}x - \\frac{6}{5}$$<br/><br/>The slope is $\\frac{6}{5}$. Since line s is parallel to line r, it has the same slope. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

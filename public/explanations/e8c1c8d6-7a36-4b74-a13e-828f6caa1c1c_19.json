@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "The left side ends with an incomplete independent clause: <strong>\u201cThe Australian Desert in Australasia is an arid [____]\u201d</strong> (the verb <em>is</em> needs a noun complement). <br/><br/> The right side contains an independent clause preceded by a prepositional phrase: <strong>\u201cwith a total area of about 2,700,000 km 2, it is one of the largest deserts of any type\u201d</strong> (subject <em>it</em>, verb <em>is</em>)."
+    },
+    {
+      "title": "Apply the joining rule",
+      "content": "To join such a structure, a comma + coordinating conjunction is required. <strong>\u201cdesert, and\u201d</strong> provides the missing noun and the needed comma + and. Options A and D omit the conjunction altogether; option C creates ungrammatical coordination (\u201cdesert and with\u201d). <br/><br/> That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

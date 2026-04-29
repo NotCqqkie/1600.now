@@ -1,0 +1,15 @@
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_7",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the two equations equal",
+      "content": "Since both expressions equal $y$, set them equal:<br/>$$4x + 12 = (x+2)^2$$"
+    },
+    {
+      "title": "Expand and solve for x\u00b2",
+      "content": "Expand the right side:<br/>$$(x+2)^2 = x^2 + 4x + 4$$<br/>So the equation becomes:<br/>$$4x + 12 = x^2 + 4x + 4$$<br/>Subtract $4x$ from both sides:<br/>$$12 = x^2 + 4$$<br/>Subtract 4 from both sides:<br/>$$x^2 = 8$$"
+    }
+  ]
+}

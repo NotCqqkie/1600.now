@@ -1,0 +1,15 @@
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the multiplicative factor for each unit increase in w",
+      "content": "When $w$ increases by 1, compute the ratio of successive function values:<br/>$$\\frac{z(w+1)}{z(w)} = \\frac{(0.829)^{2(w+1)}}{(0.829)^{2w}}$$<br/>Since the exponent in the numerator is $2(w+1) = 2w + 2$ and in the denominator is $2w$, the exponent difference is 2:<br/>$$\\frac{z(w+1)}{z(w)} = (0.829)^{2}$$<br/>So the function value is multiplied by $(0.829)^2$ whenever $w$ increases by 1."
+    },
+    {
+      "title": "Calculate the percentage decrease",
+      "content": "Compute $(0.829)^2$:<br/>$$(0.829)^2 = 0.687241$$<br/>This means $z(w+1) = 0.687241 \\cdot z(w)$. The value retains approximately 68.72% of its previous amount.<br/><br/>The percentage decrease is:<br/>$$p = (1 - 0.687241) \\times 100\\% = 31.28\\%$$<br/>This rounds to 31.3%. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

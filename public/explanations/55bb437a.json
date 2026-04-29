@@ -1,0 +1,15 @@
+{
+  "questionId": "55bb437a",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the 3-4-5 ratio for both similar triangles",
+      "content": "When $\\tan B = \\frac{3}{4}$ in a right triangle, the sides are in the ratio 3:4:5. <br/> In triangle BDE: $BD = 4k$, $DE = 3k$, $BE = 5k$ for some constant $k$. <br/> In triangle BAC (which shares the same angle B): $BA = 4m$, $AC = 3m$, $BC = 5m$ for some constant $m$. <br/> Given $bc = 15$, we have $BC = 5m = 15$, so $m = 3$ and: $$BA = 4m = 12.$$"
+    },
+    {
+      "title": "Solve for k and find DE",
+      "content": "Since $BA = BD + DA = 4k + 4$ and $BA = 12$: $$4k + 4 = 12 \\implies k = 2.$$ Therefore: $$DE = 3k = 6.$$"
+    }
+  ]
+}

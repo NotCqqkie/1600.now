@@ -1,0 +1,15 @@
+{
+  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signaled by <em>however</em>",
+      "content": "The passage presents two opposing views: political scientists say ads should reduce knowledge gaps (reduce the differences in political knowledge), while cognitive scientists note that prior knowledge helps learning (existing domain knowledge facilitates acquisition). The word \u201chowever\u201d marks this direct contrast."
+    },
+    {
+      "content": "Choice B states that the ads produced an effect opposite to what political scientists expect, which aligns with the cognitive scientists\u2019 idea that prior knowledge facilitates learning. The other choices either describe the expected narrowing of gaps, claim the cognitive phenomenon didn\u2019t happen, or restrict the predicted benefit to high\u2011knowledge voters, none of which follow from the contrast signaled by \u201chowever\u201d. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "title": "Apply the contrast to the answer choices"
+    }
+  ]
+}

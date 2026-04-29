@@ -1,0 +1,15 @@
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract 5 to isolate the x term",
+      "content": "$$\\frac{1}{6}x + 5 = 8$$<br/>Subtract 5 from both sides:<br/>$$\\frac{1}{6}x = 3$$"
+    },
+    {
+      "title": "Multiply by 6 to find 6x",
+      "content": "Multiply both sides by 6:<br/>$$6 \\cdot \\frac{1}{6}x = 6 \\cdot 3$$<br/>$$x = 18$$<br/><br/>Therefore, $6x = 6(18) = 108$. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

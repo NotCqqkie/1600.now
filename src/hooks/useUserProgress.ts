@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
 import { db } from '@/lib/firebase';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
@@ -8,7 +8,16 @@ import {
   type PersonalizationPreferences,
 } from '@/lib/personalization';
 
-const VOCAB_STORAGE_KEY = 'vocab-progress';
+const PROGRESS_KEY_PREFIX = 'userProgress:';
+const VOCAB_KEY_PREFIX = 'vocabProgress:';
+const LEGACY_PROGRESS_KEY = 'userProgress';
+const LEGACY_VOCAB_KEY = 'vocab-progress';
+const ANON_SUFFIX = 'anon';
+
+export const progressStorageKey = (uid: string | null | undefined) =>
+  `${PROGRESS_KEY_PREFIX}${uid ?? ANON_SUFFIX}`;
+export const vocabStorageKey = (uid: string | null | undefined) =>
+  `${VOCAB_KEY_PREFIX}${uid ?? ANON_SUFFIX}`;
 
 export interface Attempt {
   timestamp: number;
@@ -25,34 +34,73 @@ export interface QuestionProgress {
   totalTimeSpentSeconds: number;
 }
 
-// Storage key for user progress
-const STORAGE_KEY = 'userProgress';
-
-// Helper to get initial progress from localStorage
-const getStoredProgress = (): Record<string, QuestionProgress> => {
+// One-time migration: move pre-update global keys ('userProgress', 'vocab-progress')
+// into the anonymous slot so existing local data isn't lost. Old keys are removed
+// after migration so they can't leak into a different user's account on login.
+let legacyMigrationDone = false;
+const migrateLegacyKeysOnce = () => {
+  if (legacyMigrationDone) return;
+  legacyMigrationDone = true;
+  if (typeof window === 'undefined') return;
   try {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) {
-      return JSON.parse(stored);
+    const legacyProg = localStorage.getItem(LEGACY_PROGRESS_KEY);
+    if (legacyProg) {
+      if (!localStorage.getItem(progressStorageKey(null))) {
+        localStorage.setItem(progressStorageKey(null), legacyProg);
+      }
+      localStorage.removeItem(LEGACY_PROGRESS_KEY);
     }
+    const legacyVocab = localStorage.getItem(LEGACY_VOCAB_KEY);
+    if (legacyVocab) {
+      if (!localStorage.getItem(vocabStorageKey(null))) {
+        localStorage.setItem(vocabStorageKey(null), legacyVocab);
+      }
+      localStorage.removeItem(LEGACY_VOCAB_KEY);
+    }
+  } catch {
+    // ignore
+  }
+};
+
+if (typeof window !== 'undefined') migrateLegacyKeysOnce();
+
+const readProgressFor = (uid: string | null | undefined): Record<string, QuestionProgress> => {
+  if (typeof window === 'undefined') return {};
+  try {
+    const raw = localStorage.getItem(progressStorageKey(uid));
+    return raw ? JSON.parse(raw) : {};
   } catch (error) {
     console.error('Failed to parse user progress:', error);
+    return {};
   }
-  return {};
 };
 
-// Static methods for getting progress without using the hook
-export const getUserProgressStatic = (): Record<string, QuestionProgress> => {
-  return getStoredProgress();
+const readVocabFor = (uid: string | null | undefined): Record<string, unknown> => {
+  if (typeof window === 'undefined') return {};
+  try {
+    const raw = localStorage.getItem(vocabStorageKey(uid));
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
 };
 
-export const getQuestionProgressStatic = (questionId: string): QuestionProgress => {
-  const progress = getStoredProgress();
-  return progress[questionId] || {
+// Static read-only accessors used outside hooks. Pass the active uid to scope
+// to a specific user; omit (or pass null) to read the anonymous slot.
+export const getUserProgressStatic = (
+  uid?: string | null,
+): Record<string, QuestionProgress> => readProgressFor(uid);
+
+export const getQuestionProgressStatic = (
+  questionId: string,
+  uid?: string | null,
+): QuestionProgress => {
+  const all = readProgressFor(uid);
+  return all[questionId] || {
     questionId,
     isMarkedForReview: false,
     attempts: [],
-    totalTimeSpentSeconds: 0
+    totalTimeSpentSeconds: 0,
   };
 };
 
@@ -94,15 +142,6 @@ const mergeProgress = (
   return merged;
 };
 
-const readVocabLocal = (): Record<string, unknown> => {
-  try {
-    const raw = localStorage.getItem(VOCAB_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch {
-    return {};
-  }
-};
-
 // Filter helpers
 export const isQuestionSolved = (progress: QuestionProgress): boolean => {
   return progress.attempts.some(a => a.result === 'correct');
@@ -129,12 +168,26 @@ export const getTimeSpentRange = (seconds: number): string => {
 
 export const useUserProgress = () => {
   const { user } = useAuth();
-  const [progress, setProgress] = useState<Record<string, QuestionProgress>>(getStoredProgress);
+  const uid = user?.id ?? null;
+  const [progress, setProgress] = useState<Record<string, QuestionProgress>>(() =>
+    readProgressFor(uid),
+  );
+  const lastUidRef = useRef<string | null | undefined>(undefined);
+  const migratedAnonRef = useRef<Set<string>>(new Set());
 
-  // Sync with localStorage changes from other tabs
+  // When the active user changes (login / logout / account switch), swap state
+  // to that user's local cache so progress never bleeds across accounts.
   useEffect(() => {
+    if (lastUidRef.current === uid) return;
+    lastUidRef.current = uid;
+    setProgress(readProgressFor(uid));
+  }, [uid]);
+
+  // Cross-tab sync — only react to the active user's storage key.
+  useEffect(() => {
+    const key = progressStorageKey(uid);
     const handleStorageChange = (e: StorageEvent) => {
-      if (e.key === STORAGE_KEY && e.newValue) {
+      if (e.key === key && e.newValue) {
         try {
           setProgress(JSON.parse(e.newValue));
         } catch (error) {
@@ -142,12 +195,12 @@ export const useUserProgress = () => {
         }
       }
     };
-
     window.addEventListener('storage', handleStorageChange);
     return () => window.removeEventListener('storage', handleStorageChange);
-  }, []);
+  }, [uid]);
 
-  // Sync with Firestore on user login
+  // On login, sync with Firestore and (once per session per user) merge any
+  // anonymous-session data into the account.
   useEffect(() => {
     if (!user || !db) return;
 
@@ -163,13 +216,43 @@ export const useUserProgress = () => {
             }
           | undefined;
 
-        const localProgress = getStoredProgress();
-        const remoteProgress = remote?.data ?? {};
-        const mergedProgress = mergeProgress(localProgress, remoteProgress);
+        const userLocalProgress = readProgressFor(user.id);
+        const userLocalVocab = readVocabFor(user.id);
 
-        const localVocab = readVocabLocal();
+        // First login on this device for this user: pull in anonymous-slot data,
+        // then clear it so a different user signing in next won't inherit it.
+        const sessionFlagKey = `userProgress:migrated:${user.id}`;
+        const alreadyMigrated =
+          migratedAnonRef.current.has(user.id) ||
+          sessionStorage.getItem(sessionFlagKey) === '1';
+
+        let migratedProgress = userLocalProgress;
+        let migratedVocab = userLocalVocab;
+
+        if (!alreadyMigrated) {
+          const anonProgress = readProgressFor(null);
+          const anonVocab = readVocabFor(null);
+          if (Object.keys(anonProgress).length > 0) {
+            migratedProgress = mergeProgress(userLocalProgress, anonProgress);
+          }
+          if (Object.keys(anonVocab).length > 0) {
+            migratedVocab = { ...userLocalVocab, ...anonVocab };
+          }
+          try {
+            localStorage.removeItem(progressStorageKey(null));
+            localStorage.removeItem(vocabStorageKey(null));
+          } catch {
+            // ignore
+          }
+          sessionStorage.setItem(sessionFlagKey, '1');
+          migratedAnonRef.current.add(user.id);
+        }
+
+        const remoteProgress = remote?.data ?? {};
+        const mergedProgress = mergeProgress(migratedProgress, remoteProgress);
+
         const remoteVocab = remote?.vocab ?? {};
-        const mergedVocab = { ...remoteVocab, ...localVocab };
+        const mergedVocab = { ...remoteVocab, ...migratedVocab };
 
         const localPers = getPersonalizationPreferences();
         const remotePers = remote?.personalization;
@@ -177,8 +260,8 @@ export const useUserProgress = () => {
         const mergedPers = remotePers ?? localPers;
 
         setProgress(mergedProgress);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(mergedProgress));
-        localStorage.setItem(VOCAB_STORAGE_KEY, JSON.stringify(mergedVocab));
+        localStorage.setItem(progressStorageKey(user.id), JSON.stringify(mergedProgress));
+        localStorage.setItem(vocabStorageKey(user.id), JSON.stringify(mergedVocab));
         if (remotePers) applyPersonalizationPreferences(remotePers);
 
         await setDoc(
@@ -201,12 +284,12 @@ export const useUserProgress = () => {
   }, [user]);
 
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
+    localStorage.setItem(progressStorageKey(uid), JSON.stringify(newProgress));
     if (user && db) {
       const progressRef = doc(db, 'user_progress', user.id);
       await setDoc(progressRef, { user_id: user.id, data: newProgress }, { merge: true });
     }
-  }, [user]);
+  }, [user, uid]);
 
   const saveProgress = useCallback((newProgress: Record<string, QuestionProgress>) => {
     setProgress(newProgress);
@@ -216,12 +299,12 @@ export const useUserProgress = () => {
   const resetProgress = useCallback(async () => {
     const empty = {};
     setProgress(empty);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(empty));
+    localStorage.setItem(progressStorageKey(uid), JSON.stringify(empty));
     if (user && db) {
         const progressRef = doc(db, 'user_progress', user.id);
         await setDoc(progressRef, { user_id: user.id, data: empty }, { merge: true });
     }
-  }, [user]);
+  }, [user, uid]);
 
   const addAttempt = useCallback((
     questionId: string,
@@ -237,7 +320,7 @@ export const useUserProgress = () => {
         attempts: [],
         totalTimeSpentSeconds: 0
       };
-      
+
       const newAttempt: Attempt = {
         timestamp: Date.now(),
         durationSeconds,
@@ -245,7 +328,7 @@ export const useUserProgress = () => {
         answer,
         explanation
       };
-      
+
       const updated = {
         ...prev,
         [questionId]: {
@@ -254,7 +337,7 @@ export const useUserProgress = () => {
           totalTimeSpentSeconds: current.totalTimeSpentSeconds + durationSeconds
         }
       };
-      
+
       persist(updated);
       return updated;
     });
@@ -268,7 +351,7 @@ export const useUserProgress = () => {
         attempts: [],
         totalTimeSpentSeconds: 0
       };
-      
+
       const updated = {
         ...prev,
         [questionId]: {
@@ -276,7 +359,7 @@ export const useUserProgress = () => {
           totalTimeSpentSeconds: current.totalTimeSpentSeconds + seconds
         }
       };
-      
+
       persist(updated);
       return updated;
     });
@@ -290,7 +373,7 @@ export const useUserProgress = () => {
         attempts: [],
         totalTimeSpentSeconds: 0
       };
-      
+
       const updated = {
         ...prev,
         [questionId]: {
@@ -298,7 +381,7 @@ export const useUserProgress = () => {
           isMarkedForReview: !current.isMarkedForReview
         }
       };
-      
+
       persist(updated);
       return updated;
     });

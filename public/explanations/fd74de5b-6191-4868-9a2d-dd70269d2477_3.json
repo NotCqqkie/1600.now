@@ -1,0 +1,15 @@
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what creates the problem",
+      "content": "The passage states that stored energy can mitigate effects of \u201c______ solar energy collection caused by unpredictable shifts in cloud cover and haze.\u201d The phrase \u201cunpredictable shifts\u201d reveals what causes the problem storage must address."
+    },
+    {
+      "title": "Select the word for instability",
+      "content": "<strong>Fluctuations in</strong> directly expresses the ups and downs in solar output. Incentives (financial motivation), calibrations (technical adjustments), and developments (growth) all describe something unrelated to variable output levels. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

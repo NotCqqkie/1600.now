@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_18",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original y-intercept",
+      "content": "To find where the graph of $9x + 10y = 19$ crosses the $y$-axis, set $x = 0$:<br/>$$10y = 19$$<br/>$$y = \\frac{19}{10}$$"
+    },
+    {
+      "title": "Apply the vertical shift",
+      "content": "A vertical shift up 6 units adds 6 to every $y$-coordinate. The new $y$-intercept is:<br/>$$\\frac{19}{10} + 6 = \\frac{19}{10} + \\frac{60}{10} = \\frac{79}{10}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "5910bfff",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the term containing H",
+      "content": "From $D = T - \\frac{9}{25}(100 - H)$, subtract $T$ from both sides:<br/>$$D - T = -\\frac{9}{25}(100 - H)$$"
+    },
+    {
+      "title": "Clear the fraction by multiplying",
+      "content": "Multiply both sides by $-\\frac{25}{9}$ to isolate the $(100 - H)$ term:<br/>$$\\frac{25}{9}(T - D) = 100 - H$$"
+    },
+    {
+      "title": "Isolate H and match the answer",
+      "content": "Rearrange to isolate $H$:<br/>$$H = 100 - \\frac{25}{9}(T - D)$$<br/>Rewrite by flipping the sign in the parentheses:<br/>$$H = \\frac{25}{9}(D - T) + 100$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

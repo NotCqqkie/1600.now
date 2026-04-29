@@ -1,0 +1,15 @@
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the key fact",
+      "content": "The passage directly states one measurable fact about the Hispanic Society: \u201chas more than 18,000 objects in its museum collection.\u201d This is the only specific claim about the institution's collection."
+    },
+    {
+      "title": "Match the fact to the choices",
+      "content": "Choice D says \u201cover 18,000 objects,\u201d which directly corresponds to \u201cmore than 18,000 objects\u201d in the passage. The other three either directly contradict statements in the passage (like the founding date or current location) or assert facts the text never supports (like comparative visitor numbers). This matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

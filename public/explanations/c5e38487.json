@@ -1,0 +1,21 @@
+{
+  "questionId": "c5e38487",
+  "correctAnswer": "46",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Define variable and set up equation",
+      "content": "Let w be the volume of water in mL. The total volume is the sum of water and acetic acid: $$w + 10 = 56.$$",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Solve for water volume",
+      "content": "Subtract 10 from both sides: $$w = 56 - 10 = 46.$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "formula": "",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

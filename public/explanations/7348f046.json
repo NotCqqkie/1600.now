@@ -1,0 +1,15 @@
+{
+  "questionId": "7348f046",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the negative sign",
+      "content": "The negative sign in front of the second group changes the signs of both terms within it:<br/>$$(2x + 3) - (x - 7) = 2x + 3 - x + 7$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group the $x$ terms and constants separately, then simplify:<br/>$$(2x - x) + (3 + 7)$$<br/>$$x + 10$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "83272c51",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understanding average rate of change",
+      "content": "To find the greatest average rate of decrease, we calculate the temperature drop over each 10-minute interval: $$\\text{Average rate} = \\frac{\\text{Temperature change}}{10 \\text{ minutes}}$$ The most negative value indicates the steepest decline."
+    },
+    {
+      "title": "Read temperatures from the graph",
+      "content": "From the scatterplot, identify the temperature at each relevant time: <ul><li>At 0 min: 200\u00b0F</li><li>At 10 min: 160\u00b0F</li><li>At 30 min: 130\u00b0F</li><li>At 40 min: 120\u00b0F</li><li>At 50 min: 110\u00b0F</li><li>At 60 min: 100\u00b0F</li><li>At 90 min: 80\u00b0F</li><li>At 100 min: 75\u00b0F</li></ul>"
+    },
+    {
+      "title": "Calculate average rate for each interval",
+      "content": "<strong>Choice A</strong> (0\u201310 min): $\\frac{160 - 200}{10} = \\frac{-40}{10} = -4\u00b0F/\\text{min}$ <br/> <strong>Choice B</strong> (30\u201340 min): $\\frac{120 - 130}{10} = \\frac{-10}{10} = -1\u00b0F/\\text{min}$ <br/> <strong>Choice C</strong> (50\u201360 min): $\\frac{100 - 110}{10} = \\frac{-10}{10} = -1\u00b0F/\\text{min}$ <br/> <strong>Choice D</strong> (90\u2013100 min): $\\frac{75 - 80}{10} = \\frac{-5}{10} = -0.5\u00b0F/\\text{min}$ <br/><br/> The largest rate of decrease is \u22124\u00b0F/min between 0 and 10 minutes. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

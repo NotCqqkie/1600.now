@@ -1,0 +1,15 @@
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the critical gap",
+      "content": "The passage marks a turning point with explicit contrast: <em>\u201cWhile neither <strong>History</strong> nor any works that predate it mention Arthur's famous Round Table, <strong>Le Morte d'Arthur</strong> does.\u201d</em> The question is asking: why does Malory's text include something that Geoffrey's and earlier sources don't?"
+    },
+    {
+      "title": "Apply to the choices",
+      "content": "Choice C answers directly: Malory found the Round Table in a source that Geoffrey of Monmouth never encountered, explaining why the detail appears in <strong>Le Morte d'Arthur</strong> but not in <strong>History</strong> or earlier texts. Choices A and B both assume Malory worked exclusively from Geoffrey (which would exclude the Round Table), while D makes an irrelevant similarity comparison.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

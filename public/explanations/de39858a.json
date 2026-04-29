@@ -1,0 +1,19 @@
+{
+  "questionId": "de39858a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the first point to find b",
+      "content": "Since $(0, 10)$ lies on the graph, $h(0) = 10$. Substituting into $h(x) = a^x + b$:<br/>$$a^0 + b = 10$$<br/>$$1 + b = 10$$<br/>$$b = 9$$"
+    },
+    {
+      "title": "Use the second point to find a",
+      "content": "Since $(-2, \\frac{325}{36})$ lies on the graph, $h(-2) = \\frac{325}{36}$. Substituting $b = 9$:<br/>$$a^{-2} + 9 = \\frac{325}{36}$$<br/>$$\\frac{1}{a^2} = \\frac{325}{36} - 9$$<br/>$$\\frac{1}{a^2} = \\frac{325 - 324}{36} = \\frac{1}{36}$$<br/>$$a^2 = 36$$<br/>$$a = 6$$ (since $a > 0$)"
+    },
+    {
+      "title": "Compute ab",
+      "content": "Multiply the values we found:<br/>$$ab = 6 \\cdot 9 = 54$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

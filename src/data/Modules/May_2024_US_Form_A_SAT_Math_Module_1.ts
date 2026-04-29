@@ -311,23 +311,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear functions",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "08df3b47-9273-4ad6-9301-332804bc6404_11",
-    "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "f(x) = 3(x − 2)(x − 7)(x − 9)\nIf the given function f is graphed in the xy -plane, where y = f(x), what is the x -coordinate of an x -intercept of the graph?",
-    "choices": [],
-    "correctAnswer": "2,7,9",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Linear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Easy",
+      "rationale": "Choice C is correct. It’s given that the function $f$ is defined by $f\\left(x\\right)=25x+30$. Substituting $2$ for $x$ in this equation yields $f\\left(2\\right)=25\\left(2\\right)+30$, which is equivalent to $f\\left(2\\right)=50+30$, or $f\\left(2\\right)=80$. Therefore, the value of $f\\left(x\\right)$ is $80$ when $x=2$.\nChoice A is incorrect. This is the value of $25\\left(2\\right)$, not $25\\left(2\\right)+30$.\nChoice B is incorrect. This is the value of $25+2+30$, not $25\\left(2\\right)+30$.\nChoice D is incorrect. This is the value of $\\left(25+30\\right)\\left(2\\right)$, not $25\\left(2\\right)+30$.",
+      "id": "3d1070c9",
+      "testName": "SAT Question Bank",
+      "text": "The function $f$ is defined by $f(x)=25x+30$. What is the value of $f\\left(x\\right)$ when $x=2$?",
+      "correctAnswer": "C",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "$50$"
+          },
+          {
+              "id": "B",
+              "text": "$57$"
+          },
+          {
+              "id": "C",
+              "text": "$80$"
+          },
+          {
+              "id": "D",
+              "text": "$110$"
+          }
+      ]
   },
   {
     "section": "Math",

@@ -1,0 +1,15 @@
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_12",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The researcher claims some lakes increased in ice duration\u2014opposite to the general trend of decline. The example must show a lake with more ice days in 2005-06 than in 1980-81."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "B identifies Lake Baikal as having more ice days in 2005-06 than in 1980-81, directly demonstrating the researcher's claim of increased duration. The other choices either cite lakes that did not increase based on the graph or use isolated single-period values rather than demonstrating growth across time periods. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

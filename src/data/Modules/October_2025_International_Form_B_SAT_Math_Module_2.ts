@@ -218,40 +218,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Linear inequalities in one or two variables",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "659cbbc1-2d38-4d45-8ecb-79f43367862e_7",
-    "testName": "October 2025 International Form B SAT Math Module 2",
-    "text": "$y\nWhich point (x,y) is a solution to the given inequality in the xy -plane?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "(0,19)"
-      },
-      {
-        "id": "B",
-        "text": "(-1,22)"
-      },
-      {
-        "id": "C",
-        "text": "(-3,0)"
-      },
-      {
-        "id": "D",
-        "text": "(7,-1)"
-      }
-    ],
-    "correctAnswer": "C",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice C is correct. Let <em>a</em> equal the number of 120-pound packages, and let <em>b</em> equal the number of 100-pound packages. It’s given that the total weight of the packages can be at most 1,100 pounds: the inequality 120 a, plus 100 b, is less than or equal to 1,100 represents this situation. It’s also given that the helicopter must carry at least 10 packages: the inequality a, plus b, is greater than or equal to 10 represents this situation. Values of <em>a</em> and <em>b</em> that satisfy these two inequalities represent the allowable numbers of 120-pound packages and 100-pound packages the helicopter can transport. To maximize the number of 120-pound packages, <em>a</em>, in the helicopter, the number of 100-pound packages, <em>b</em>, in the helicopter needs to be minimized. Expressing <em>b</em> in terms of <em>a</em> in the second inequality yields b is greater than or equal to, 10 minus a, so the minimum value of <em>b</em> is equal to $10 - a$. Substituting $10 - a$ for <em>b</em> in the first inequality results in 120 a, plus 100, times, open parenthesis, 10 minus a, close parenthesis, is less than or equal to 1,100. Using the distributive property to rewrite this inequality yields 120 a, plus 1,000, minus 100 a, is less than or equal to 1,100, or 20 a, plus 1,000, is less than or equal to 1,100. Subtracting 1,000 from both sides of this inequality yields 20 a, is less than or equal to 100. Dividing both sides of this inequality by 20 results in a, is less than or equal to 5. This means that the maximum number of 120-pound packages that the helicopter can carry per trip is 5.\nChoices A, B, and D are incorrect and may result from incorrectly creating or solving the system of inequalities.",
+      "id": "f224df07",
+      "testName": "SAT Question Bank",
+      "text": "A cargo helicopter delivers only 100-pound packages and 120-pound packages. For each delivery trip, the helicopter must carry at least 10 packages, and the total weight of the packages can be at most 1,100 pounds. What is the maximum number of 120-pound packages that the helicopter can carry per trip?",
+      "correctAnswer": "C",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "2"
+          },
+          {
+              "id": "B",
+              "text": "4"
+          },
+          {
+              "id": "C",
+              "text": "5"
+          },
+          {
+              "id": "D",
+              "text": "6"
+          }
+      ]
   },
   {
     "section": "Math",

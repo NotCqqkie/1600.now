@@ -1,0 +1,15 @@
+{
+  "questionId": "eae29760",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what \u201cexplain an advantage\u201d requires",
+      "content": "To explain an advantage means showing WHY something is better, not just that it is. The notes show that Hanke-Henry's 364-day structure (divisible by 7) produces a specific result: calendar dates fall on the same day of the week each year. The notes explicitly connect this to the advantage: \u201csupports more predictable scheduling.\u201d An effective answer must link the reason to the benefit."
+    },
+    {
+      "title": "Find the choice connecting reason to advantage",
+      "content": "Choice C does this directly: it explains that the calendar was designed so dates occur on the same day of the week each year, then names the resulting advantage of more predictable scheduling. The other choices either omit any advantage statement (A and D describe only facts about the calendars) or mention an advantage so vaguely that it isn't actually explained (B uses the word \u201csolve\u201d without saying what the advantage actually is). That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

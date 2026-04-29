@@ -1,0 +1,15 @@
+{
+  "questionId": "6081831f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the logical relationship",
+      "content": "The first sentence asserts that Zhao made Academy Award history, but doesn't explain why. The second sentence must provide the explanation by establishing what came before her win."
+    },
+    {
+      "title": "Supply the temporal anchor",
+      "content": "\u201dPreviously\u201d introduces the prior condition\u2014that only one other woman had been named best director\u2014which explains why Zhao's win is historic. \u201cAs a result\u201d wrongly suggests consequence, \u201cHowever\u201d invokes a missing contrast, and \u201cLikewise\u201d suggests an unfounded parallel. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

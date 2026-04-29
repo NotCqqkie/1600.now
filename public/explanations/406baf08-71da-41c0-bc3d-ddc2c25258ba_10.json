@@ -1,0 +1,15 @@
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the evidence the claim requires",
+      "content": "The passage asserts that countries with large populations can be less densely populated than countries with small populations. Supporting this requires comparing a <strong>large-population country with low density</strong> against a <strong>small-population country with high density</strong>."
+    },
+    {
+      "title": "Match the evidence to the choices",
+      "content": "Choice B pairs Angola (population 25,022,000, density 20.1) with Sao Tom\u00e9 and Principe (population 190,000, density 189.8). This directly shows how a much larger country can have much lower density. The other choices either omit the density comparison (A), indicate similar rather than contrasting densities (C), or compare population across different years (D). That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

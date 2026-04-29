@@ -1,0 +1,15 @@
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the modeling simplification",
+      "content": "The passage explains that because observational data are too sparse and discrepant to determine Titan's methane levels precisely, the model's developers responded with a simplification: they prescribed a uniform methane mole fraction. This single fixed value is the model's deliberate solution to real-world uncertainty."
+    },
+    {
+      "title": "Determine the logical consequence",
+      "content": "A simplified model that reduces uncertain, variable reality to a single fixed value will necessarily produce some discrepancies with actual observations\u2014choice D directly captures this by stating that disagreements are \u201cto be expected\u201d. The other choices either make claims about direction unsupported by the passage (A), reverse what better observations would actually enable (C), or focus on inconsistencies within the model rather than between the model and reality (B). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

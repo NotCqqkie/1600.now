@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the challenge signal",
+      "content": "The passage says the data <em>challenge</em> the proposal that arc melting causes high fracture toughness, telling us to look for evidence that arc melting does NOT guarantee high toughness or that another factor explains toughness."
+    },
+    {
+      "title": "Apply the signal to the choices",
+      "content": "Choice A notes HEA 18 was processed with arc melting yet has low fracture toughness (2.10) and shows that higher amounts of cobalt, chromium, and nickel correspond to higher toughness, indicating arc melting alone does not predict toughness and suggesting composition as an alternative explanation.<br/>The other three choices either claim arc melting leads to high toughness, misstate the data, or focus on unrelated elements, so they do not support the claim that the data challenge the arc\u2011melting proposal.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

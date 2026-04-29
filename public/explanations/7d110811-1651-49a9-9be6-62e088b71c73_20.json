@@ -1,0 +1,15 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out x and identify the condition for no solution",
+      "content": "Factor out $x$ from the left side:<br/>$$x(-3 + 18p) = 90$$<br/>For a linear equation of the form $ax = b$ to have no solution, the coefficient of $x$ must equal zero while the right side is non-zero (creating a contradiction). Since $90 \\neq 0$, we need:<br/>$$-3 + 18p = 0$$"
+    },
+    {
+      "title": "Solve for p",
+      "content": "From $-3 + 18p = 0$:<br/>$$18p = 3$$<br/>$$p = \\frac{3}{18} = \\frac{1}{6}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

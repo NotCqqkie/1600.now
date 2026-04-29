@@ -1,0 +1,15 @@
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the comparison the conclusion requires",
+      "content": "The researchers concluded Austria had a <strong>greater number of damaging fungus species</strong> than Bulgaria or Belgium. The evidence must directly compare Austria's fungus count to the fungus counts of the other two countries."
+    },
+    {
+      "title": "Match the table values to the choices",
+      "content": "Choice D states Austria reported 51 damaging fungus species and directly compares it to Bulgaria's and Belgium's counts. From the table: Bulgaria reported 14 fungi and Belgium reported 13 fungi, so Austria's 51 is indeed greater than both. The other choices either omit Austria's data entirely (A), compare Austria's fungi to Bulgaria's insects\u2014different threat types (B), or misquote fungus counts by using tree numbers instead (C cites 9 and 4, which are tree counts, not fungi counts of 14 and 13). That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up equations from the two students' costs",
+      "content": "Let $I$ denote the introductory fee for the first 3 lessons, and $r$ denote the fee per additional lesson. Student 1 took 6 lessons: the first 3 cost $I$, and the remaining 3 cost $3r$, giving $I + 3r = 150$. Student 2 took 17 lessons: the first 3 cost $I$, and the remaining 14 cost $14r$, giving $I + 14r = 480$."
+    },
+    {
+      "title": "Eliminate the intro fee to find the per-lesson rate",
+      "content": "Subtract the first equation from the second to eliminate $I$:<br/>$$(I + 14r) - (I + 3r) = 480 - 150$$<br/>$$11r = 330$$<br/>$$r = 30$$<br/>Substitute $r = 30$ back into the first equation: $I + 3(30) = 150$, giving $I = 60$."
+    },
+    {
+      "title": "Form the function and verify",
+      "content": "For $x$ lessons, the cost is the introductory fee plus the per-lesson fee for the additional $(x - 3)$ lessons:<br/>$$f(x) = 60 + 30(x - 3)$$<br/>$$f(x) = 60 + 30x - 90$$<br/>$$f(x) = 30x - 30$$<br/>Check: $f(6) = 30(6) - 30 = 180 - 30 = 150$ \u2713 and $f(17) = 30(17) - 30 = 510 - 30 = 480$ \u2713. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

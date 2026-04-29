@@ -1,0 +1,15 @@
+{
+  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank requires a noun and a relative clause: \u201cmaterials that Palma Rodriguez uses in his art.\u201d The relative clause is dependent and introduced by \u201cthat.\u201d"
+    },
+    {
+      "title": "Apply the rule about restrictive relative clauses",
+      "content": "<strong>A relative clause introduced by \u201cthat\u201d is restrictive and takes no commas because it's essential to identifying which noun is meant.</strong> Choices A and D incorrectly add a comma before \u201cthat,\u201d and C incorrectly adds a comma after the clause.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4626102e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the effect of adding a constant to all values",
+      "content": "When a constant is added to every value in a dataset, two key things happen: <ul><li><strong>The median shifts</strong> by that same constant. If you add 56 to all values, the median also increases by 56.</li><li><strong>The range stays the same.</strong> Range = max \u2212 min. When both the maximum and minimum shift by 56, their difference remains unchanged.</li></ul>"
+    },
+    {
+      "title": "Apply the rule to data set B",
+      "content": "Data set B is formed by adding 56 to each value in data set A. <ul><li>Median of B = Median of A + 56, so median of B is <strong>greater than</strong> median of A.</li><li>Range of B = (max<sub>B</sub> \u2212 min<sub>B</sub>) = (max<sub>A</sub> + 56) \u2212 (min<sub>A</sub> + 56) = max<sub>A</sub> \u2212 min<sub>A</sub> = Range of A, so the ranges are <strong>equal.</strong></li></ul> This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

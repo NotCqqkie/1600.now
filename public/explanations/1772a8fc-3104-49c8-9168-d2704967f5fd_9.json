@@ -1,0 +1,15 @@
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage states that infrared heating results in \u201creducing industrial cooking times\u201d when compared to conventional methods. This comparison reveals the disadvantage."
+    },
+    {
+      "title": "Match the signal to the answer",
+      "content": "If infrared reduces cooking times, then conventional methods must have longer cooking times as their disadvantage. The other three choices mention issues\u2014technological breakdown, size limitations, and energy requirements\u2014that the passage never discusses. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

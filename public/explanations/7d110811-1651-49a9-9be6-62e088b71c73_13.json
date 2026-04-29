@@ -1,0 +1,15 @@
+{
+  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply both sides by y",
+      "content": "Multiply both sides by $y$ to cancel the denominator and isolate $x$:<br/>$$y(b - 20) = x$$"
+    },
+    {
+      "title": "Distribute and identify the answer",
+      "content": "Distribute $y$ across the left side:<br/>$$x = by - 20y$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

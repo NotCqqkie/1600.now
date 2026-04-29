@@ -1,0 +1,15 @@
+{
+  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The blank occupies the subject position in an independent clause and must refer to <em>cottonseed oil</em> (singular, non-human)."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "A pronoun must agree with its antecedent in number and person. <em>It</em> is the singular pronoun for this non-human referent. <em>They</em> and <em>those</em> are plural (wrong number), and <em>that</em> is not a personal pronoun. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

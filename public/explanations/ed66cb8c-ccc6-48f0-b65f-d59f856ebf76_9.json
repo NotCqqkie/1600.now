@@ -1,0 +1,15 @@
+{
+  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the genetic affinity evidence",
+      "content": "The passage acknowledges that tool similarities could result from imitation or trade, but reveals a key finding: Alt\u0131n\u0131\u015f\u0131k et al. discovered \u201cgenetic affinity among the populations\u201d of these settlements\u2014evidence that these populations were biologically connected."
+    },
+    {
+      "title": "Apply genetic affinity to the answer choices",
+      "content": "Genetic affinity indicates biological connection between populations, which explains their similar tools through population blending rather than requiring imitation or trade.<br/>The other three either misuse genetic evidence to infer imitation patterns or migration order, or introduce unsupported assumptions about cultural differences.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

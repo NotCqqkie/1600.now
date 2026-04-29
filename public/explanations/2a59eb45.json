@@ -1,0 +1,15 @@
+{
+  "questionId": "2a59eb45",
+  "correctAnswer": "44",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the sum of heights for each data set",
+      "content": "First, find the total height for each set: $$75 \\times 32 = 2400$$ meters for set A and $$50 \\times 62 = 3100$$ meters for set B.<br/>"
+    },
+    {
+      "title": "Compute the combined mean",
+      "content": "Then add the sums and divide by the total number of buildings: $$(2400+3100) \\div (75+50) = 5500 \\div 125 = 44$$ meters.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

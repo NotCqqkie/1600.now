@@ -1,0 +1,15 @@
+{
+  "questionId": "6863c7ce",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the form of the linear equation",
+      "content": "The equation $d = 16t$ is a linear relationship where 16 is the coefficient of $t$. In a linear function, the coefficient of the independent variable represents how much the dependent variable changes for each unit increase of the independent variable."
+    },
+    {
+      "title": "Interpret the coefficient as a rate",
+      "content": "The coefficient 16 means: when $t$ increases by 1 second, $d$ increases by 16 inches. Since $d$ is distance in inches and $t$ is time in seconds, the rate of change is 16 inches per second\u2014the speed at which the object is moving. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

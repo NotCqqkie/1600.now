@@ -1,0 +1,15 @@
+{
+  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The subject is the noun phrase <em>the country's name</em>, which is singular. The blank must be filled with a verb that connects this subject to the adjective <em>pronounced</em>."
+    },
+    {
+      "title": "Apply the rule of subject-verb agreement",
+      "content": "<em>Is</em> (choice A) provides the singular form required. The other options are all plural or progressive, violating subject-verb agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

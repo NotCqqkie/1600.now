@@ -1,0 +1,15 @@
+{
+  "questionId": "df32b09c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the condition to an inequality",
+      "content": "The problem states Tom needs a mean of <em>at least</em> 90 on four exams. With three known scores (85, 78, 98) and an unknown fourth score G, the mean of these four exams is: $$\\frac{G + 85 + 78 + 98}{4}$$"
+    },
+    {
+      "title": "Set up the mean inequality",
+      "content": "For the mean to be at least 90, we write: $$\\frac{G + 85 + 78 + 98}{4} \\ge 90$$ That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated goal",
+      "content": "The student's goal is explicitly stated: indicate <em>when</em> the board game was released. The notes contain one piece of information that directly answers this: \u201cIt was released in 2005.\u201d"
+    },
+    {
+      "title": "Select the choice that fulfills the goal",
+      "content": "Choice B uses the release date (2005) from the notes to accomplish the stated goal. The other three choices reference the designer, the horror story source, or Lovecraft's authorship\u2014information that does not address when the game was released. That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

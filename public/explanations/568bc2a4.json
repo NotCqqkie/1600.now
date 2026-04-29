@@ -1,0 +1,19 @@
+{
+  "questionId": "568bc2a4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find feet in one furlong",
+      "content": "$$220 \\text{ yd} \\times 3 \\frac{\\text{ft}}{\\text{yd}} = 660 \\text{ ft}$$",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    },
+    {
+      "title": "Convert 354 furlongs to feet",
+      "content": "$$354 \\times 660 = 233,640 \\text{ ft}$$ That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": [],
+      "desmosGraphs": []
+    }
+  ]
+}

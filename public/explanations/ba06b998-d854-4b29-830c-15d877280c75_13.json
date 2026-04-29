@@ -1,0 +1,11 @@
+{
+  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify using exponent rule",
+      "content": "Recognize that the exponent $\\frac{1}{2}$ denotes a square root: $$(133y)^{1/2} = \\sqrt{133y}$$ . This matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

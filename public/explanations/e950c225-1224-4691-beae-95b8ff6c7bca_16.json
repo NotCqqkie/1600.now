@@ -1,0 +1,15 @@
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the present-tense context",
+      "content": "The entire passage uses present tense: the languages \u201chave a clear difference,\u201d \u201cis an object-oriented language,\u201d \u201cis not,\u201d and both \u201crequire\u201d technical knowledge. This consistent present tense indicates a general statement about how languages work."
+    },
+    {
+      "title": "Select the present-tense verb",
+      "content": "\u201dStruggle\u201d matches this present-tense context by describing a timeless difficulty that people face with the languages. The other choices shift to past tense, which would contradict the general nature of the statement. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

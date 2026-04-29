@@ -1,0 +1,15 @@
+{
+  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_17",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun phrase requirements",
+      "content": "The blank is the subject of \u201cadapted\u201d and must be a noun phrase agreeing in number with the plural pronoun \u201ctheir.\u201d The passage describes residents from one island."
+    },
+    {
+      "title": "Apply possessive form and number agreement",
+      "content": "For correct possessive form and number agreement, pair a singular possessive modifier with a plural noun. Choice A \u201cisland's residents\u201d correctly pairs \u201cisland's\u201d with \u201cresidents,\u201d agreeing with \u201ctheir.\u201d Choices B and D misuse possessive and non-possessive forms together, while C creates a double possessive. This matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

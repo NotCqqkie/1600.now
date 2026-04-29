@@ -1,0 +1,15 @@
+{
+  "questionId": "2cdefcb1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the conversion factor",
+      "content": "We need to convert 51 meters to centimeters. The given conversion is 1 meter = 100 centimeters."
+    },
+    {
+      "title": "Multiply by the conversion factor",
+      "content": "To convert 51 meters to centimeters, multiply:$$51 \\text{ meters} \\times 100 = 5,100 \\text{ centimeters}$$That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

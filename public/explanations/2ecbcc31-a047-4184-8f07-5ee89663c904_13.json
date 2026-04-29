@@ -1,0 +1,15 @@
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pressure\u2011fluctuation clue",
+      "content": "The passage states that as vortex size grows, pressure fluctuations at the snout increase for narrow\u2011headed and intermediate\u2011headed fish but stay low for wide\u2011headed fish. <br/>This tells us which head shapes experience high versus low fluctuations when vortices are large."
+    },
+    {
+      "title": "Apply the clue to the answer choices",
+      "content": "Choice C shows that, with large vortices in low visibility, the wide\u2011headed Synodontis macropunctata bumped into obstructions more often than the intermediate\u2011headed dusky smooth\u2011hound did. Since wide\u2011headed fish have low pressure fluctuations and intermediate\u2011headed fish have high fluctuations under those conditions, this pattern \u2014 more bumping (less avoidance) when fluctuations are low and less bumping (more avoidance) when fluctuations are high \u2014 directly matches the hypothesis that greater snout pressure fluctuations make a fish more likely to avoid an obstruction. <br/>The other three choices either give no comparison between high\u2011 and low\u2011fluctuation groups, report data for only one group, or look at variation within a single group, none of which directly tests the fluctuation\u2011avoidance link. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the first ratio to find the target value",
+      "content": "Simplify the first ratio:<br/>$$\\frac{6}{3} = 2$$<br/>Both equivalent ratios must equal 2."
+    },
+    {
+      "title": "Set up an equation with the second ratio and solve for k",
+      "content": "For the ratios to be equivalent:<br/>$$\\frac{24}{3k} = 2$$<br/>Multiply both sides by $3k$:<br/>$$24 = 2(3k) = 6k$$<br/>Divide both sides by 6:<br/>$$k = 4$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

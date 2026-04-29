@@ -1,0 +1,16 @@
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the area formula for a square",
+      "content": "For a square with side length $s$, the area is found by multiplying the side length by itself.",
+      "formula": "$$A = s^2$$"
+    },
+    {
+      "title": "Apply the given side length",
+      "content": "The solar sail has side length $8.75w$ meters. Substituting this into the area formula gives us:<br/><br/>$$A = (8.75w)(8.75w)$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

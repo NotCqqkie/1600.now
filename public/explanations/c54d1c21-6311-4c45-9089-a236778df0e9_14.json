@@ -1,0 +1,15 @@
+{
+  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what supports a 'predator-directed' claim",
+      "content": "The researchers claim sounds are <em>\u201cdirected primarily at predators.\u201d</em> To support this claim, we need evidence that predators actually respond to these sounds."
+    },
+    {
+      "title": "Find evidence of predator response",
+      "content": "Choice B directly demonstrates that predators stop attacking in response to caterpillar sounds\u2014proving the sounds function as a predator defense. A, C, and D focus on variation between species, consistency within species, and frequency detection respectively, but none show that predators respond to the sounds. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

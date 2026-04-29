@@ -1,0 +1,15 @@
+{
+  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the consumption capacity for each whale",
+      "content": "The passage states the northern right whale \u201ccan consume as much as 24,000 kg of krill per day.\u201d For the pygmy right whale, the passage says baleen whales can eat \u201cup to 30 percent of their total mass per day,\u201d and the pygmy right whale's maximum mass is 3,500 kg\u2014so its maximum is 1,050 kg daily."
+    },
+    {
+      "title": "Apply the numbers to the choices",
+      "content": "Choice C asserts that the northern right whale eats more krill per day\u2014a claim directly supported by the passage's consumption figures (24,000 kg vs. 1,050 kg). The other choices either infer unsupported ecological impacts, contradict the consumption figures, or misstate which whales eat krill. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

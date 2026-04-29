@@ -1,0 +1,15 @@
+{
+  "questionId": "290a5d77",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the parallel structure",
+      "content": "The passage lists two regulatory functions of guard cells in sequence: regulating carbon dioxide and regulating water loss. The transition must connect these as related, complementary functions."
+    },
+    {
+      "title": "Apply the signal to find the transition",
+      "content": "<strong>Additionally,</strong> properly connects these parallel functions by signaling \u201cin addition\u201d\u2014we're adding another function guard cells perform. The other three choices misframe the relationship as temporal (Previously), conclusive (In conclusion), or oppositional (Instead). That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

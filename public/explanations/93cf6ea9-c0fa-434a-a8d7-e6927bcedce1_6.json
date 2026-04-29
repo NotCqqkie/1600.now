@@ -1,0 +1,15 @@
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's key move",
+      "content": "The passage reports park usage data for two cities (53.5% and 44.7%), then uses those results to test and reject a possible explanation: that the difference stems from access to nonpark amenities. The phrase \u201cthe difference in park use can't be explained by\u201d marks this as a consider-and-reject structure."
+    },
+    {
+      "title": "Match the structure to the answer",
+      "content": "Choice C identifies exactly this progression: a study is introduced, results are presented, a possible explanation is considered, and that explanation is rejected. A misattributes the findings to methodology, B invents an opening question, and D miscasts the data as two separate studies meant to corroborate. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

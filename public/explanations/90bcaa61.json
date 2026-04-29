@@ -1,0 +1,23 @@
+{
+  "questionId": "90bcaa61",
+  "correctAnswer": "410",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial population and target",
+      "content": "At $t = 0$, $f(0) = 60,000 \\cdot 2^0 = 60,000$ bacteria. To double the population, we need $f(t) = 120,000$."
+    },
+    {
+      "title": "Set up the equation",
+      "content": "We need to solve: $$60,000 \\cdot 2^{\\frac{t}{410}} = 120,000$$"
+    },
+    {
+      "title": "Isolate the exponential",
+      "content": "Divide both sides by 60,000: $$2^{\\frac{t}{410}} = 2$$"
+    },
+    {
+      "title": "Equate exponents and solve",
+      "content": "Since $2 = 2^1$, we have $2^{\\frac{t}{410}} = 2^1$. Therefore, $\\frac{t}{410} = 1$, which gives $t = 410$ minutes."
+    }
+  ]
+}

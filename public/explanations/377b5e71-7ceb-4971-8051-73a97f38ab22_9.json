@@ -1,0 +1,15 @@
+{
+  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the highest bar",
+      "content": "The question asks for \u201cthe highest percentage of lithium recovered.\u201d Looking at all four bars on the graph, the dark bar for Type B (recycling process 2) reaches the highest point on the y-axis."
+    },
+    {
+      "title": "Read the value and select the answer",
+      "content": "This bar reaches approximately 75% on the lithium recovered scale. The remaining three bars show percentages between 30% and 55%, confirming this is the maximum. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

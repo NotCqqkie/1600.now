@@ -1,0 +1,15 @@
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the unknown coefficient",
+      "content": "We're given $8x = 9$ and need to find $56x$. Notice that 56 is a multiple of 8:<br/>$$56 = 7 \\times 8$$"
+    },
+    {
+      "title": "Substitute and calculate",
+      "content": "Apply this: $56x = 7(8x) = 7(9) = 63$. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

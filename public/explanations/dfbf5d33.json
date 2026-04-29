@@ -1,0 +1,15 @@
+{
+  "questionId": "dfbf5d33",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "Before the blank: adverbial phrase (\u201cUpon recovering two years later,\u201d). <br/>After the blank: participial phrase (\u201cforcing an angered Richard from the royal court and precipitating a series of battles...\u201d). <br/>The blank must contain an independent clause whose subject will be modified by the following participial phrase."
+    },
+    {
+      "title": "Apply the logical modification rule",
+      "content": "A participial phrase modifies the subject of the main clause, and that modification must be logically appropriate. In \u201cHenry resumed his reign, forcing an angered Richard from the royal court,\u201d Henry is the subject, and it logically makes sense that Henry (a person) would force Richard from court. <br/><br/>Choices B and C make \u201cthe reign\u201d the grammatical subject, which would illogically suggest the reign itself (not Henry) forced Richard out. Choice D unnecessarily complicates the sentence with a cleft construction. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

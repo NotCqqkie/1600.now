@@ -1,0 +1,20 @@
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_10",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the perfect square trinomial structure",
+      "content": "The first three terms match the pattern $A^2 + 2AB + B^2$:<br/><br/>$x^4 + 14ax^2 + 49a^2 = (x^2)^2 + 2(x^2)(7a) + (7a)^2 = (x^2 + 7a)^2$<br/><br/>So the full expression becomes:<br/>$$(x^2 + 7a)^2 - 64 = (x^2 + 7a)^2 - 8^2$$<br/>This is a difference of squares."
+    },
+    {
+      "title": "Apply the difference of squares formula",
+      "content": "Let $A = x^2 + 7a$ and $B = 8$. Then:<br/>$$(x^2 + 7a)^2 - 8^2 = [(x^2 + 7a) - 8][(x^2 + 7a) + 8]$$<br/>$$= (x^2 + 7a - 8)(x^2 + 7a + 8)$$",
+      "formula": "$$A^2 - B^2 = (A - B)(A + B)$$"
+    },
+    {
+      "title": "Match the factor to the choices",
+      "content": "The factorization gives us two factors: $x^2 + 7a - 8$ and $x^2 + 7a + 8$. Checking the answer choices, $x^2 + 7a + 8$ appears as option A. That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

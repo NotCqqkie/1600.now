@@ -1,0 +1,15 @@
+{
+  "questionId": "191d167b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert percentage to decimal and set up multiplication",
+      "content": "The phrase <em>147% of last year's number</em> means we multiply 200 by 147% in decimal form. Since 147% = 1.47, we set up: $$1.47 \\times 200$$"
+    },
+    {
+      "title": "Compute the product and identify the answer",
+      "content": "$$1.47 \\times 200 = 294$$ That matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

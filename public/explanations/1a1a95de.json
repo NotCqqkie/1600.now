@@ -1,0 +1,15 @@
+{
+  "questionId": "1a1a95de",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constraint equation and x-intercept",
+      "content": "At the $x$-intercept on the graph, $y = 0$ (no K-type stars). The mass equation $m_M \\cdot x + m_K \\cdot y = 127,882$ becomes $m_M \\cdot x = 127,882$. This allows us to find the mass of each M-star directly from the intercept."
+    },
+    {
+      "title": "Solve for M-star mass using the intercept",
+      "content": "From the graph, the $x$-intercept is at $x \\approx 160$. Therefore: $$m_M \\cdot 160 = 127,882$$ $$m_M = \\frac{127,882}{160} \\approx 799.26$$ This is closest to choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}

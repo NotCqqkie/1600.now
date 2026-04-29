@@ -1,0 +1,15 @@
+{
+  "questionId": "949cd96b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express 89% of the height algebraically",
+      "content": "When we say the base is <em>89% of the height</em>, this means base = 89% $\\times$ $h$. We need to convert the percentage to decimal form."
+    },
+    {
+      "title": "Convert percentage to decimal",
+      "content": "$$89\\% = \\frac{89}{100} = 0.89$$<br/>Therefore, the base length is $0.89h$. That matches choice D \u2014 <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key constraint",
+      "content": "The notes describe chain-melt guest atoms as \u201cconfined to one-dimensional movement by the host.\u201d Since a liquid requires atoms to move freely in three dimensions, this confinement is the decisive clue explaining why the state is not fully liquid."
+    },
+    {
+      "title": "Match the explanation to the goal",
+      "content": "Choice B answers the goal by identifying the mechanism: the solid lattice prevents the free three-dimensional movement that defines liquidity. The other choices describe structure, contradict the findings, or cite an incomplete reason. This matches choice B \u2014 <strong>B</strong> is correct."
+    }
+  ]
+}

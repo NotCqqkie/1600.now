@@ -1,0 +1,15 @@
+{
+  "questionId": "4042ff0b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the stark contrast in comfort ratings",
+      "content": "The stem claims all three wanted cooler temps. But examine the comfort ratings: participant 20 reported \u22122 (feeling cold), while participants 1 and 21 both reported +1 (feeling warm). That's a three-point gap on the \u22123 to +3 scale. The question signals a <em>but</em> \u2014 expecting us to explain why these different comfort levels coexist with the same temperature preference."
+    },
+    {
+      "title": "Match the data to the answer",
+      "content": "Choice C directly captures this contrast: participant 20 reported feeling significantly colder (\u22122) than the other two (+1 each). This gap is not incidental; it explains why all three want cooler temps despite very different starting comfort levels. Choices A denies the difference, B references info not in the table, and D reverses the relationship. That matches choice C \u2014 <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "114bbce6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's stated goal",
+      "content": "The key signal is the goal stated in the prompt: emphasize a <strong>similarity</strong> between P and S waves. The correct answer must identify what they have in common."
+    },
+    {
+      "title": "Find what both waves share",
+      "content": "Choice A directly states both P and S waves travel beneath Earth's surface and both cause the ground to move\u2014the two shared characteristics evident in the notes. B contrasts their speeds, C focuses on P waves alone, and D explicitly emphasizes difference, not similarity.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+    }
+  ]
+}
