@@ -3,7 +3,7 @@
 batch_offset: 2270
 batch_size: 50
 total: 3443
-status: audit complete
+status: AUDIT COMPLETE
 
 ## Completed batches
 - src/data/unofficialQuestions.ts | 2170 | 2219 | 0 issues fixed
