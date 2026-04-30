@@ -1,3 +1,4 @@
-batch_offset=1628
+batch_offset=1678
 batch_size=50
-log=0
+fix_count=0
+status: AUDIT COMPLETE
