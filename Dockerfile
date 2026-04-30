@@ -3,6 +3,13 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
+# Chromium for the puppeteer-driven prerender step. Alpine's musl libc cannot
+# run Google's bundled Chrome, so use the distro Chromium and skip the download.
+RUN apk add --no-cache chromium nss freetype harfbuzz ca-certificates ttf-freefont
+ENV PUPPETEER_SKIP_DOWNLOAD=true \
+    PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser \
+    PRERENDER_NO_SANDBOX=1
+
 # Copy package files
 COPY package.json package-lock.json ./
 
