@@ -79,6 +79,11 @@ export default defineConfig(({ mode }) => ({
     modulePreload: { polyfill: false },
     rollupOptions: {
       output: {
+        // Manual chunks are restricted to pure data files (no React imports).
+        // Splitting node_modules into named vendor chunks caused a cross-chunk
+        // init order race where chunks imported React.forwardRef /
+        // React.createContext before the React chunk had executed. Letting
+        // Rollup auto-chunk node_modules avoids the race.
         manualChunks(id) {
           if (id.includes("/src/data/unofficialQuestions.ts")) {
             return "bank-data-unofficial";
@@ -117,61 +122,6 @@ export default defineConfig(({ mode }) => ({
             id.includes("/src/data/midFrequencyWords.ts")
           ) {
             return "vocab-data";
-          }
-
-          if (id.includes("/node_modules/firebase/")) {
-            return "vendor-firebase";
-          }
-
-          if (id.includes("/node_modules/katex/")) {
-            return "vendor-katex";
-          }
-
-          if (
-            id.includes("/node_modules/recharts/") ||
-            id.includes("/node_modules/d3-") ||
-            id.includes("/node_modules/victory-vendor/")
-          ) {
-            return "vendor-recharts";
-          }
-
-          if (id.includes("/node_modules/@radix-ui/")) {
-            return "vendor-radix";
-          }
-
-          if (id.includes("/node_modules/lucide-react/")) {
-            return "vendor-icons";
-          }
-
-          if (
-            id.includes("/node_modules/react-router") ||
-            id.includes("/node_modules/@remix-run/")
-          ) {
-            return "vendor-router";
-          }
-
-          if (id.includes("/node_modules/@tanstack/")) {
-            return "vendor-query";
-          }
-
-          if (id.includes("/node_modules/date-fns/")) {
-            return "vendor-datefns";
-          }
-
-          if (id.includes("/node_modules/dompurify/")) {
-            return "vendor-dompurify";
-          }
-
-          if (
-            id.includes("/node_modules/react/") ||
-            id.includes("/node_modules/react-dom/") ||
-            id.includes("/node_modules/scheduler/")
-          ) {
-            return "vendor-react";
-          }
-
-          if (id.includes("/node_modules/")) {
-            return "vendor";
           }
         },
       },

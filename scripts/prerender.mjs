@@ -94,14 +94,14 @@ async function main() {
   // Sandbox flags are gated behind PRERENDER_NO_SANDBOX so CI containers that
   // genuinely need them can opt in, while local/dev runs keep the sandbox on.
   const launchArgs = process.env.PRERENDER_NO_SANDBOX === "1"
-    ? ["--no-sandbox", "--disable-setuid-sandbox"]
+    ? ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--single-process"]
     : [];
   const browser = await puppeteer.launch({
     headless: true,
     args: launchArgs,
   });
 
-  const concurrency = 6;
+  const concurrency = 10;
   let cursor = 0;
   let done = 0;
   let failed = 0;
@@ -115,9 +115,19 @@ async function main() {
       const route = routes[i];
       try {
         await page.goto(`http://localhost:${PORT}${route}`, {
-          waitUntil: "networkidle0",
-          timeout: 30000,
+          waitUntil: "domcontentloaded",
+          timeout: 20000,
         });
+        // Wait for React to mount and populate #root. Lazy route chunks need
+        // to load before content appears, so polling the DOM is more reliable
+        // than networkidle (which waits for ALL traffic to settle).
+        await page.waitForFunction(
+          () => {
+            const root = document.getElementById("root");
+            return !!root && root.children.length > 0;
+          },
+          { timeout: 15000, polling: 100 },
+        );
         await page.evaluate(
           () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))),
         );
