@@ -1,3 +1,3 @@
-batch_offset: 345
+batch_offset: 395
 batch_size: 50
-fixes: 2
+fixes: 0
