@@ -651,7 +651,6 @@ export const OnboardingTour = () => {
     run();
 
     return () => { cancelled = true; };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, index]);
 
   // Re-resolve rect on resize / scroll while on a spotlight step

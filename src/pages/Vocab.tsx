@@ -1055,7 +1055,6 @@ function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySta
     }
     const t = window.setTimeout(() => setTimeLeft(s => s - 1), 1000);
     return () => window.clearTimeout(t);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeLeft, done]);
 
   const goNext = (wasCorrect: boolean) => {
