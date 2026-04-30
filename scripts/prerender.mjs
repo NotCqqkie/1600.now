@@ -85,8 +85,15 @@ async function main() {
     process.exit(1);
   }
 
-  const routes = urlsFromSitemap();
-  console.log(`Prerendering ${routes.length} routes...`);
+  // Skip /college/* (1,491 routes). They're data-driven templates from
+  // colleges.json — Googlebot runs JS now, so client rendering is sufficient
+  // and prerendering them dominated build time without proportional SEO win.
+  const allRoutes = urlsFromSitemap();
+  const skippedColleges = allRoutes.filter((r) => r.startsWith("/college/")).length;
+  const routes = allRoutes.filter((r) => !r.startsWith("/college/"));
+  console.log(
+    `Prerendering ${routes.length} routes (skipped ${skippedColleges} /college/* routes)...`,
+  );
 
   const server = serveStaticSpa();
   await new Promise((r) => server.listen(PORT, r));
@@ -99,6 +106,10 @@ async function main() {
   const browser = await puppeteer.launch({
     headless: true,
     args: launchArgs,
+    // Default 30s caused intermittent "Runtime.callFunctionOn timed out"
+    // failures on slower routes in the DO build container. 90s is generous
+    // and only kicks in when something is genuinely stuck.
+    protocolTimeout: 90_000,
   });
 
   const concurrency = 10;
