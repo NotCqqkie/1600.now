@@ -1,6 +1,6 @@
-batch_offset=3206
+batch_offset=3255
 batch_size=50
-last_batch_start=3156
-last_batch_end=3205
-last_fix_count=4
-audit_status=IN_PROGRESS
+last_batch_start=3206
+last_batch_end=3254
+last_fix_count=3
+audit_status=AUDIT_COMPLETE
