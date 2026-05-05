@@ -1,8 +1,8 @@
 # Image Audit State – Worker 23
 
-**cursor:** 12  
+**cursor:** 15  
 **batch_size:** 3  
-**batch_count:** 4
+**batch_count:** 5
 
 ## Resolved (Batch 0: cursor 0-2)
 
@@ -37,5 +37,14 @@ All contain HTML tables with numeric data; no visual diagrams requiring images.
 - `0301c5dc` (unofficialQuestions): State parks contingency table — renders as HTML
 - `3f2ee20a` (unofficialQuestions): Men's height survey table — renders as HTML
 - `3f236a64` (unofficialQuestions): Function x/y table — renders as HTML
+
+All contain HTML tables with numeric data; no visual diagrams requiring images.
+
+## Resolved (Batch 4: cursor 12-14)
+
+### resolved-false-positive
+- `07f2829b` (unofficialQuestions): Tourist arrivals table — renders as HTML
+- `ec7b0eb8` (unofficialQuestions): Texting behavior contingency table — renders as HTML
+- `7b65bb28` (unofficialQuestions): Station measurements table — renders as HTML
 
 All contain HTML tables with numeric data; no visual diagrams requiring images.
