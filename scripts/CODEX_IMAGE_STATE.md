@@ -1,6 +1,6 @@
 # Image Audit Worker State
 
-## Cursor: 6
+## Cursor: 9
 ## Batch Size: 3
 
 ### Processed
@@ -48,4 +48,19 @@
 #### d4413871 (cursor 8)
 - Status: resolved-image-mapped
 - Found: /images/SAT-Style%20Questions/d4413871_q_01.png, d4413871_q_02.png (+ 4 choice images)
+- Mapped to: src/data/unofficialQuestionImageMap.ts
+
+#### 0301c5dc (cursor 9)
+- Status: resolved-image-mapped
+- Found: /images/SAT-Style%20Questions/0301c5dc_q_01.png, 0301c5dc_q_02.png (+ 4 choice images)
+- Mapped to: src/data/unofficialQuestionImageMap.ts
+
+#### 3f2ee20a (cursor 10)
+- Status: resolved-image-mapped
+- Found: /images/SAT-Style%20Questions/3f2ee20a_q_01.png, 3f2ee20a_q_02.png
+- Mapped to: src/data/unofficialQuestionImageMap.ts
+
+#### 3f236a64 (cursor 11)
+- Status: resolved-image-mapped
+- Found: /images/SAT-Style%20Questions/3f236a64_q_01.png
 - Mapped to: src/data/unofficialQuestionImageMap.ts

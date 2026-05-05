@@ -3883,5 +3883,43 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       "W": "/images/SAT-Style%20Questions/d4413871_choice_W_01.png",
       "c": "/images/SAT-Style%20Questions/d4413871_choice_c_01.png"
     }
+  },
+  "0301c5dc": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0301c5dc_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0301c5dc_q_02.png",
+        "alt": ""
+      }
+    ],
+    "choiceImages": {
+      "A": "/images/SAT-Style%20Questions/0301c5dc_choice_A_01.png",
+      "L": "/images/SAT-Style%20Questions/0301c5dc_choice_L_01.png",
+      "W": "/images/SAT-Style%20Questions/0301c5dc_choice_W_01.png",
+      "c": "/images/SAT-Style%20Questions/0301c5dc_choice_c_01.png"
+    }
+  },
+  "3f2ee20a": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/3f2ee20a_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/3f2ee20a_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "3f236a64": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/3f236a64_q_01.png",
+        "alt": ""
+      }
+    ]
   }
 };
