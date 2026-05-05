@@ -3841,5 +3841,47 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "alt": ""
       }
     ]
+  },
+  "e1ad3d41": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_03.png",
+        "alt": ""
+      }
+    ]
+  },
+  "46545dd6": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/46545dd6_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "d4413871": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/d4413871_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/d4413871_q_02.png",
+        "alt": ""
+      }
+    ],
+    "choiceImages": {
+      "A": "/images/SAT-Style%20Questions/d4413871_choice_A_01.png",
+      "L": "/images/SAT-Style%20Questions/d4413871_choice_L_01.png",
+      "W": "/images/SAT-Style%20Questions/d4413871_choice_W_01.png",
+      "c": "/images/SAT-Style%20Questions/d4413871_choice_c_01.png"
+    }
   }
 };

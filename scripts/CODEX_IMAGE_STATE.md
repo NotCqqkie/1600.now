@@ -34,3 +34,18 @@
 - Status: resolved-image-mapped
 - Found: /images/SAT-Style%20Questions/d89c1513_q_01.png, d89c1513_q_02.png
 - Mapped to: src/data/unofficialQuestionImageMap.ts
+
+#### e1ad3d41 (cursor 6)
+- Status: resolved-image-mapped
+- Found: /images/SAT-Style%20Questions/e1ad3d41_q_01.png, e1ad3d41_q_02.png, e1ad3d41_q_03.png
+- Mapped to: src/data/unofficialQuestionImageMap.ts
+
+#### 46545dd6 (cursor 7)
+- Status: resolved-image-mapped
+- Found: /images/SAT-Style%20Questions/46545dd6_q_01.png
+- Mapped to: src/data/unofficialQuestionImageMap.ts
+
+#### d4413871 (cursor 8)
+- Status: resolved-image-mapped
+- Found: /images/SAT-Style%20Questions/d4413871_q_01.png, d4413871_q_02.png (+ 4 choice images)
+- Mapped to: src/data/unofficialQuestionImageMap.ts
