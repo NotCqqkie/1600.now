@@ -1,9 +1,10 @@
 # Concat Audit State — Worker 51: unofficialQuestions.ts
 
-batch_offset: 839
+batch_offset: 887
 batch_size: 50
 total: 3443
-status: IN_PROGRESS
+status: AUDIT COMPLETE
 
 ## Completed batches
 - src/data/unofficialQuestions.ts | 789 | 838 | 0 issues fixed
+- src/data/unofficialQuestions.ts | 839 | 886 | 0 issues fixed
