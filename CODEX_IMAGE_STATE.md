@@ -1,8 +1,8 @@
 # Image Audit State – Worker 23
 
-**cursor:** 6  
+**cursor:** 9  
 **batch_size:** 3  
-**batch_count:** 2
+**batch_count:** 3
 
 ## Resolved (Batch 0: cursor 0-2)
 
@@ -19,5 +19,14 @@ All contain HTML tables with numeric data; no visual diagrams requiring images.
 - `b1b5300b` (unofficialQuestions): Contingency table (car prices) — renders as HTML
 - `4c774b00` (unofficialQuestions): Frequency table (student ages) — renders as HTML
 - `d89c1513` (unofficialQuestions): Contingency table (gas station purchases) — renders as HTML
+
+All contain HTML tables with numeric data; no visual diagrams requiring images.
+
+## Resolved (Batch 2: cursor 6-8)
+
+### resolved-false-positive
+- `e1ad3d41` (unofficialQuestions): Nested data tables — renders as HTML
+- `46545dd6` (unofficialQuestions): Student internships table — renders as HTML
+- `d4413871` (unofficialQuestions): Blood type contingency table — renders as HTML
 
 All contain HTML tables with numeric data; no visual diagrams requiring images.
