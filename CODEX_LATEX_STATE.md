@@ -52,3 +52,4 @@ Worker 1 is responsible for LaTeX audit of math_past.json.
 
 ## Status: COMPLETE
 All questions (0-1984) have been audited. Final batch (1985-2034) processed by worker 1.
+- 2035-2084: 0 questions processed (out of range)
