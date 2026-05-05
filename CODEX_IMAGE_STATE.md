@@ -1,8 +1,8 @@
 # Image Audit State – Worker 23
 
-**cursor:** 24  
+**cursor:** 27  
 **batch_size:** 3  
-**batch_count:** 8
+**batch_count:** 9
 
 ## Resolved (Batch 0: cursor 0-2)
 
@@ -73,5 +73,14 @@ All contain HTML tables with numeric data; no visual diagrams requiring images.
 - `2d31caae` (unofficialQuestions): Call ratings data table — renders as HTML
 - `54d93874` (unofficialQuestions): Numeric data table — renders as HTML
 - `a3384df0` (unofficialQuestions): Penguin exhibit table — renders as HTML
+
+All contain HTML tables with numeric data; no visual diagrams requiring images.
+
+## Resolved (Batch 8: cursor 24-26)
+
+### resolved-false-positive
+- `6670e407` (unofficialQuestions): High school internships table — renders as HTML
+- `af142f8d` (unofficialQuestions): Nested data tables — renders as HTML
+- `9ee22c16` (unofficialQuestions): Voter preferences contingency table — renders as HTML
 
 All contain HTML tables with numeric data; no visual diagrams requiring images.
