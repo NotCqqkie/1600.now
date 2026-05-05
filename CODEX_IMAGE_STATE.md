@@ -1,8 +1,8 @@
 # Image Audit State – Worker 23
 
-**cursor:** 15  
+**cursor:** 18  
 **batch_size:** 3  
-**batch_count:** 5
+**batch_count:** 6
 
 ## Resolved (Batch 0: cursor 0-2)
 
@@ -46,5 +46,14 @@ All contain HTML tables with numeric data; no visual diagrams requiring images.
 - `07f2829b` (unofficialQuestions): Tourist arrivals table — renders as HTML
 - `ec7b0eb8` (unofficialQuestions): Texting behavior contingency table — renders as HTML
 - `7b65bb28` (unofficialQuestions): Station measurements table — renders as HTML
+
+All contain HTML tables with numeric data; no visual diagrams requiring images.
+
+## Resolved (Batch 5: cursor 15-17)
+
+### resolved-false-positive
+- `7e6c745f` (unofficialQuestions): Food/protein/cost table — renders as HTML
+- `912cd125` (unofficialQuestions): Rain occurrence data table — renders as HTML
+- `c54b92a2` (unofficialQuestions): Tractor wheel production table — renders as HTML
 
 All contain HTML tables with numeric data; no visual diagrams requiring images.
