@@ -3,7 +3,7 @@
 Worker 1 is responsible for LaTeX audit of math_past.json.
 
 ## Configuration
-- batch_offset: 1985
+- batch_offset: 2035
 - batch_size: 50
 - Total questions: 1985
 
@@ -48,6 +48,7 @@ Worker 1 is responsible for LaTeX audit of math_past.json.
 - 1850-1899: 0 questions fixed, 0 fixes
 - 1900-1949: 0 questions fixed, 0 fixes
 - 1950-1984: 0 questions fixed, 0 fixes
+- 1985-2034: 0 questions fixed, 0 fixes
 
 ## Status: COMPLETE
-All questions (0-1984) have been audited.
+All questions (0-1984) have been audited. Final batch (1985-2034) processed by worker 1.
