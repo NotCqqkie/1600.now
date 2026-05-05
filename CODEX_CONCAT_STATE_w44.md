@@ -1,5 +1,7 @@
-batch_offset: 148
+batch_offset: 198
 batch_size: 50
-last_batch_fix_count: 2
-last_batch_range: 98-147
-status: IN_PROGRESS
+total: 3443
+status: AUDIT_COMPLETE
+
+## Completed batches
+- src/data/unofficialQuestions.ts | 148 | 196 | 0 issues fixed
