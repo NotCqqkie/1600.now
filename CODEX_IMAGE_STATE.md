@@ -1,8 +1,8 @@
 # Image Audit State – Worker 23
 
-**cursor:** 21  
+**cursor:** 24  
 **batch_size:** 3  
-**batch_count:** 7
+**batch_count:** 8
 
 ## Resolved (Batch 0: cursor 0-2)
 
@@ -64,5 +64,14 @@ All contain HTML tables with numeric data; no visual diagrams requiring images.
 - `4bb25495` (unofficialQuestions): Five smallest countries table — renders as HTML
 - `b6569d0e` (unofficialQuestions): US presidents table — renders as HTML
 - `5dc386fb` (unofficialQuestions): State-level taxes contingency table — renders as HTML
+
+All contain HTML tables with numeric data; no visual diagrams requiring images.
+
+## Resolved (Batch 7: cursor 21-23)
+
+### resolved-false-positive
+- `2d31caae` (unofficialQuestions): Call ratings data table — renders as HTML
+- `54d93874` (unofficialQuestions): Numeric data table — renders as HTML
+- `a3384df0` (unofficialQuestions): Penguin exhibit table — renders as HTML
 
 All contain HTML tables with numeric data; no visual diagrams requiring images.
