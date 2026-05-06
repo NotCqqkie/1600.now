@@ -1,15 +1,1 @@
-{
-  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_3",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express 24x as a multiple of 4x",
-      "content": "We're given $4x = 7$ and need to find $24x$. The key insight is to rewrite $24x$ in terms of the expression we already know: $$24x = 6 \\cdot 4x$$"
-    },
-    {
-      "title": "Substitute and compute",
-      "content": "Since $4x = 7$, we can substitute directly: $$24x = 6 \\cdot 4x = 6 \\cdot 7 = 42$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_3","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $24x = 6 \\cdot 4x$, and $4x=7$."},{"title":"Compute the target value","content":"So $24x = 6 \\cdot 7 = 42$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

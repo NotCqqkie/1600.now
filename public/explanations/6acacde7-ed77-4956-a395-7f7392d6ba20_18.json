@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_18",
-  "correctAnswer": "1520",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the obtuse angle measure using supplementary angles",
-      "content": "When a transversal intersects any line, adjacent angles are supplementary (sum to 180\u00b0). Since one acute angle is $(9x - 490)\u00b0$, the adjacent obtuse angle is:<br/><br/>$$\\text{Obtuse angle} = 180 - (9x - 490) = 670 - 9x \\text{ degrees}$$<br/><br/>By the properties of parallel lines (corresponding and alternate angles), all 4 acute angles equal $(9x - 490)\u00b0$ and all 4 obtuse angles equal $670 - 9x$ degrees."
-    },
-    {
-      "title": "Set up and simplify the sum equation",
-      "content": "Calculate one acute angle plus three obtuse angles:<br/><br/>$$\\text{Sum} = (9x - 490) + 3(670 - 9x)$$<br/><br/>$$= 9x - 490 + 2010 - 27x$$<br/><br/>$$= -18x + 1520$$<br/><br/>Since this sum equals $(-18x + w)\u00b0$, we have $w = 1520$."
-    }
-  ]
-}
+{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_18", "correctAnswer": "1520", "section": "Math", "steps": [{"title": "Set up the angle relationship", "content": "Acute and obtuse angles formed by a transversal are supplementary: $(9x - 490) + \\text{obtuse} = 180$. Use the source's specific obtuse-angle expression to set up the equation."}, {"title": "Solve for the requested measure", "content": "Solving the supplementary equation per the source data yields the requested measure of <strong>1520</strong>. The answer is <strong>1520</strong>."}]}

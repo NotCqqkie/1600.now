@@ -1,15 +1,1 @@
-{
-  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_2",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute 8 to each term",
-      "content": "Using the distributive property, multiply 8 by each term inside the parentheses:<br/>$$8(x^2 + 6) = 8 \\cdot x^2 + 8 \\cdot 6$$"
-    },
-    {
-      "title": "Simplify the products",
-      "content": "Evaluate each multiplication:<br/>$$8x^2 + 48$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ceb2e234-3ab3-4376-b66a-cf8535278d77_2","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $8$:$$8(x^2+6)=8x^2+48$$"},{"title":"Match to the answer choices","content":"The simplified expression is $8x^2+48$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

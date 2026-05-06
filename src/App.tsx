@@ -3,17 +3,14 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Suspense, lazy, type ReactNode } from "react";
+import { Suspense, lazy, useEffect, useState, type ReactNode } from "react";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { AuthReturnTracker } from "@/components/AuthReturnTracker";
-import { AccountSync } from "@/components/AccountSync";
 import { EmailVerificationGuard } from "@/components/EmailVerificationGuard";
 import { AnalyticsPageTracker } from "@/components/AnalyticsPageTracker";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/LegalDisclaimer";
-import { AppShell } from "@/components/AppShell";
 import { Seo } from "@/components/Seo";
-import { OnboardingTour } from "@/components/OnboardingTour";
 import "@/lib/personalization";
 
 const Home = lazy(() => import("./pages/Home"));
@@ -47,14 +44,12 @@ const SatSkillIndex = lazy(() => import("./pages/SatSkillIndex"));
 const SatSkillDetail = lazy(() => import("./pages/SatSkillDetail"));
 const BlogIndex = lazy(() => import("./pages/BlogIndex"));
 const BlogPost = lazy(() => import("./pages/BlogPost"));
-const LandingVariant = lazy(() => import("./pages/LandingVariant"));
 const IsScoreGood = lazy(() => import("./pages/IsScoreGood"));
 const SatFaqIndex = lazy(() => import("./pages/SatFaqIndex"));
 const SatFaqPage = lazy(() => import("./pages/SatFaqPage"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("./pages/TermsOfService"));
-const PillarPage = lazy(() => import("./pages/PillarPage"));
-const ScoreGoalPage = lazy(() => import("./pages/ScoreGoalPage"));
+const TopLevelSeoPage = lazy(() => import("./pages/TopLevelSeoPage"));
 const SatToActConverter = lazy(() => import("./pages/tools/SatToActConverter"));
 const SatPercentileCalculator = lazy(() => import("./pages/tools/SatPercentileCalculator"));
 const PsatToSatPredictor = lazy(() => import("./pages/tools/PsatToSatPredictor"));
@@ -65,11 +60,9 @@ const CountryHubPage = lazy(() => import("./pages/CountryHubPage"));
 const CountryTopicPage = lazy(() => import("./pages/CountryTopicPage"));
 const CollegeIndex = lazy(() => import("./pages/CollegeIndex"));
 const CollegePage = lazy(() => import("./pages/CollegePage"));
-
-import { landingVariants } from "@/lib/landingVariants";
-import { pillarPages } from "@/lib/pillarData";
-import { scoreGoalPages } from "@/lib/scoreGoalData";
-import { countryHubs, countryPages } from "@/lib/countryHubData";
+const AppShell = lazy(() => import("./components/AppShell").then((mod) => ({ default: mod.AppShell })));
+const AccountSync = lazy(() => import("./components/AccountSync").then((mod) => ({ default: mod.AccountSync })));
+const OnboardingTour = lazy(() => import("./components/OnboardingTour").then((mod) => ({ default: mod.OnboardingTour })));
 
 const queryClient = new QueryClient();
 
@@ -85,6 +78,40 @@ const withSuspense = (page: ReactNode) => (
 
 const withShellSuspense = (page: ReactNode) => withSuspense(<AppShell>{page}</AppShell>);
 
+const DeferredRootEffects = () => {
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    const mount = () => setReady(true);
+    let timeoutId: number | undefined;
+    let idleId: number | undefined;
+
+    if ("requestIdleCallback" in window) {
+      idleId = window.requestIdleCallback(mount, { timeout: 3000 });
+    } else {
+      timeoutId = window.setTimeout(mount, 1500);
+    }
+
+    return () => {
+      if (idleId !== undefined && "cancelIdleCallback" in window) {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) {
+        window.clearTimeout(timeoutId);
+      }
+    };
+  }, []);
+
+  if (!ready) return null;
+
+  return (
+    <Suspense fallback={null}>
+      <AccountSync />
+      <OnboardingTour />
+    </Suspense>
+  );
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -95,7 +122,6 @@ const App = () => (
           <Seo />
           <ScrollToTop />
           <AuthReturnTracker />
-          <AccountSync />
           <EmailVerificationGuard />
           <AnalyticsPageTracker />
           <Routes>
@@ -141,55 +167,25 @@ const App = () => (
                 element={withShellSuspense(<IsScoreGood />)}
               />
             ))}
-            {landingVariants.map((v) => (
-              <Route
-                key={v.slug}
-                path={`/${v.slug}`}
-                element={withShellSuspense(<LandingVariant />)}
-              />
-            ))}
             <Route path="/privacy" element={withShellSuspense(<PrivacyPolicy />)} />
             <Route path="/terms" element={withShellSuspense(<TermsOfService />)} />
-            {pillarPages.map((p) => (
-              <Route
-                key={`pillar-${p.slug}`}
-                path={`/${p.slug}`}
-                element={withShellSuspense(<PillarPage />)}
-              />
-            ))}
-            {scoreGoalPages.map((p) => (
-              <Route
-                key={`score-goal-${p.slug}`}
-                path={`/${p.slug}`}
-                element={withShellSuspense(<ScoreGoalPage />)}
-              />
-            ))}
             <Route path="/sat-to-act-converter" element={withShellSuspense(<SatToActConverter />)} />
             <Route path="/sat-percentile-calculator" element={withShellSuspense(<SatPercentileCalculator />)} />
             <Route path="/psat-to-sat-predictor" element={withShellSuspense(<PsatToSatPredictor />)} />
             <Route path="/sat-study-plan-generator" element={withShellSuspense(<SatStudyPlanGenerator />)} />
             <Route path="/what-sat-score-do-i-need" element={withShellSuspense(<WhatSatScoreDoINeed />)} />
             <Route path="/sat-test-countdown" element={withShellSuspense(<SatTestCountdown />)} />
-            {countryHubs.map((h) => (
-              <Route
-                key={`country-hub-${h.code}`}
-                path={`/${h.hubSlug}`}
-                element={withShellSuspense(<CountryHubPage />)}
-              />
-            ))}
-            {countryPages.map((p) => (
-              <Route
-                key={`country-page-${p.slug}`}
-                path={`/${p.slug}`}
-                element={withShellSuspense(<CountryTopicPage />)}
-              />
-            ))}
+            <Route path="/in" element={withShellSuspense(<CountryHubPage />)} />
+            <Route path="/ae" element={withShellSuspense(<CountryHubPage />)} />
+            <Route path="/in/:topic" element={withShellSuspense(<CountryTopicPage />)} />
+            <Route path="/ae/:topic" element={withShellSuspense(<CountryTopicPage />)} />
             <Route path="/college" element={withShellSuspense(<CollegeIndex />)} />
             <Route path="/college/:slug" element={withShellSuspense(<CollegePage />)} />
-<Route path="*" element={withShellSuspense(<NotFound />)} />
+            <Route path="/:slug" element={withShellSuspense(<TopLevelSeoPage />)} />
+            <Route path="*" element={withShellSuspense(<NotFound />)} />
           </Routes>
           <LegalDisclaimer />
-          <OnboardingTour />
+          <DeferredRootEffects />
         </BrowserRouter>
       </AuthProvider>
     </TooltipProvider>

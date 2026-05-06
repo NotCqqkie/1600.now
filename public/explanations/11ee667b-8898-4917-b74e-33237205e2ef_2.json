@@ -1,16 +1,1 @@
-{
-  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_2",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the distributive property",
-      "content": "To expand $7(x^{2}+5)$, multiply 7 by each term inside the parentheses:<br/><br/>$$7(x^{2}+5) = 7 \\cdot x^{2} + 7 \\cdot 5$$",
-      "formula": "$$a(b+c) = ab + ac$$"
-    },
-    {
-      "title": "Simplify and match to the choices",
-      "content": "Evaluate each product:<br/><br/>$$7x^{2} + 7(5) = 7x^{2} + 35$$<br/><br/>This simplified form matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"11ee667b-8898-4917-b74e-33237205e2ef_2","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $7$:$$7(x^2+5)=7x^2+35$$"},{"title":"Match to the answer choices","content":"The simplified expression is $7x^2+35$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_17",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Divide both sides by 7",
-      "content": "Starting with $$7|x - 7| = 42$$, divide both sides by 7 to get $$|x - 7| = 6$$."
-    },
-    {
-      "title": "Find the sum of solutions using the standard pattern",
-      "content": "For any equation $|x - a| = b$, the sum of the two solutions equals $2a$ (since the solutions are $a - b$ and $a + b$, which sum to $2a$).<br/><br/>In our case, $a = 7$, so the sum is $2(7) = 14$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"27590f35-8d6e-45c6-b665-222acb5e516d_17","correctAnswer":"C","section":"Math","steps":[{"title":"Solve the equation","content":"Divide by 7: $|x-7|=6$. So $x-7=6$ or $x-7=-6$, giving $x=13$ or $x=1$."},{"title":"Sum the solutions","content":"Add: $13+1=14$. (Shortcut: $|x-a|=b$ gives sum $2a=14$.)<br/><br/>The answer is <strong>C</strong>."}]}

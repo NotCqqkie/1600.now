@@ -1,16 +1,1 @@
-{
-  "questionId": "64c1f044",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the right triangle and angle x",
-      "content": "The triangle has a right angle at the bottom left, with the vertical side measuring 7 and the horizontal side measuring 26. Angle $x\u00b0$ is at the top left, formed between the vertical side and the hypotenuse."
-    },
-    {
-      "title": "Apply the tangent ratio to angle x",
-      "content": "From angle $x\u00b0$'s perspective:<br/><ul><li><strong>Opposite side:</strong> the horizontal side = 26</li><li><strong>Adjacent side:</strong> the vertical side = 7</li></ul>Using the tangent ratio:<br/>$$\\tan x\u00b0 = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{26}{7}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$\\tan(\\text{angle}) = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
-    }
-  ]
-}
+{"questionId": "64c1f044", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the sides", "content": "In a right triangle, $\\tan\\theta=\\dfrac{\\text{opposite}}{\\text{adjacent}}$. From the figure, the side opposite $x^\\circ$ is 26 and the adjacent side is 7."}, {"title": "Identify the answer", "content": "So $\\tan x^\\circ = \\frac{26}{7}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_11",
-  "correctAnswer": "25",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the square root term",
-      "content": "The equation is $\\sqrt{w} + 38 = 43$. Subtract 38 from both sides to isolate $\\sqrt{w}$:<br/>$$\\sqrt{w} = 43 - 38 = 5$$"
-    },
-    {
-      "title": "Square both sides to find w",
-      "content": "Square both sides to eliminate the square root:<br/>$$w = 5^2 = 25$$"
-    }
-  ]
-}
+{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_11", "correctAnswer": "25", "section": "Math", "steps": [{"title": "Isolate the radical", "content": "Subtract $38$ from both sides: $$\\sqrt{w}=43-38=5.$$"}, {"title": "Solve for the variable", "content": "Square both sides: $w=25$. The answer is <strong>25</strong>."}]}

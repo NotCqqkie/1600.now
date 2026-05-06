@@ -56,7 +56,7 @@ export const launchPracticeTest = ({
   if (!targetQuestion) return;
 
   navigate(
-    `/bank/${targetQuestion.subject}/${targetQuestion.id}?bankType=past&practice=true&idx=${targetIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
+    `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${targetIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
   );
 };
 
@@ -80,6 +80,6 @@ export const resumePracticeTestFromRoute = (
   if (!targetQuestion) return;
 
   navigate(
-    `/bank/${targetQuestion.subject}/${targetQuestion.id}?bankType=past&practice=true&idx=${session.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
+    `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${session.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
   );
 };

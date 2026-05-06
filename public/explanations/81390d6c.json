@@ -1,15 +1,1 @@
-{
-  "questionId": "81390d6c",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the substitution needed",
-      "content": "We need to find $h(50)$, which means evaluating the function $h(x) = x + 200$ at $x = 50$. To evaluate a function, we substitute the input value into the function definition."
-    },
-    {
-      "title": "Substitute and compute",
-      "content": "Substitute $x = 50$ into $h(x) = x + 200$:<br/>$$h(50) = 50 + 200 = 250$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "81390d6c", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Substitute the value x = 50", "content": "Replace $x$ with $50$ in $$h(x) = x + 200.$$ This gives $$h(50) = 50 + 200.$$"}, {"title": "Compute the result", "content": "Simplify: $$h(50) = 250.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

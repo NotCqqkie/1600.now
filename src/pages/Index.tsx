@@ -156,7 +156,7 @@ const Index = () => {
       <div className="container mx-auto px-4 pt-8 pb-2">
         <h1
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(24px, 3vw, 32px)",
             fontWeight: 400,
             letterSpacing: "-0.02em",
@@ -240,7 +240,7 @@ const Index = () => {
       <main className="container mx-auto px-4 py-4">
         <h2
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(20px, 2.5vw, 26px)",
             fontWeight: 400,
             letterSpacing: "-0.015em",

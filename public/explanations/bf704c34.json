@@ -1,15 +1,1 @@
-{
-  "questionId": "bf704c34",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate c by undoing the subtraction",
-      "content": "The equation $c - 7 = 25p + k$ shows $c$ decreased by 7. To isolate $c$, we add 7 to both sides."
-    },
-    {
-      "title": "Simplify and match to a choice",
-      "content": "Adding 7 to both sides: $$c - 7 + 7 = 25p + k + 7$$ which simplifies to $$c = 25p + k + 7$$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bf704c34", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Add $7$ to both sides of $c-7=25p+k$ to get $$c=25p+k+7.$$"}, {"title": "Match to the answer choices", "content": "The form $c=25p+k+7$ matches choice A. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

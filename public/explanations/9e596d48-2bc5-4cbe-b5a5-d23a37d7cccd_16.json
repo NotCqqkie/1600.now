@@ -1,15 +1,1 @@
-{
-  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_16",
-  "correctAnswer": "-5/9,-0.555,-0.556",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the x-intercept from the given point",
-      "content": "The point $(a, 0)$ lies on the line $y = x + \\frac{5}{9}$. Since this point has a $y$-coordinate of 0, it represents the x-intercept\u2014where the line crosses the x-axis. To find the x-intercept, substitute $y = 0$ into the equation."
-    },
-    {
-      "title": "Solve for a by substituting y = 0",
-      "content": "Substitute $y = 0$ into the equation:<br/>$$0 = a + \\frac{5}{9}$$<br/>Subtract $\\frac{5}{9}$ from both sides:<br/>$$a = -\\frac{5}{9}$$"
-    }
-  ]
-}
+{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_16", "correctAnswer": "-5/9,-0.555,-0.556", "section": "Math", "steps": [{"title": "Identify the x-intercept from the given point", "content": "The point $(a, 0)$ lies on the line $y = x + \\frac{5}{9}$. Since this point has a $y$-coordinate of 0, it represents the x-intercept—where the line crosses the x-axis. To find the x-intercept, substitute $y = 0$ into the equation."}, {"title": "Solve for a by substituting y = 0", "content": "Substitute $y = 0$ into the equation:<br/>$$0 = a + \\frac{5}{9}$$<br/>Subtract $\\frac{5}{9}$ from both sides:<br/>$$a = -\\frac{5}{9}$$<br/><br/>Equivalent forms accepted: <strong>-5/9</strong>, <strong>-0.555</strong>, <strong>-0.556</strong>."}]}

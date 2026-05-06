@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the contrast signal",
-      "content": "The passage notes that Roman numerals indicate the order in which the moons were named, not their distance from Jupiter, which creates a contrast between the numeral\u2019s implication and the actual proximity."
+      "title": "Identify the logical relationship",
+      "content": "The first two sentences explain that Roman numerals on Jupiter's moons indicate <em>naming order</em>, not distance. The blank sits inside a follow-up that draws the inference: <em>It is incorrect to assume, ______ that Elara is the seventh moon from Jupiter in terms of proximity.</em> The transition needs to mark this as a <strong>conclusion drawn from</strong> the prior facts."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "The word however, signals a contrast or correction, matching the idea that it is incorrect to assume Elara is the seventh moon from Jupiter.<br/>The other three choices\u2014then,, moreover,, and finally\u2014do not convey contrast; they suggest addition or sequence, which does not fit the need to correct a mistaken assumption.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Match the signal to the choices",
+      "content": "<strong>then,</strong> introduces an inference or consequence — exactly what is needed here, since the conclusion follows from the explanation that came before.<br/><br/><strong>however,</strong> would signal contrast, but the sentence is not opposing the prior fact — it is reasoning from it.<br/><strong>moreover,</strong> would add a new related point, not draw a conclusion.<br/><strong>finally,</strong> would close a sequence, which doesn't fit either.<br/><br/>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -45,58 +45,48 @@ export const DesmosDialog = ({
   compressed = false,
 }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hasEverOpened, setHasEverOpened] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const calcRef = useRef<DesmosCalculator | null>(null);
 
   const handleToggle = () => {
-    if (!isOpen && onFocus) {
-      onFocus();
-    }
-    setIsOpen(!isOpen);
+    if (!isOpen && onFocus) onFocus();
+    setIsOpen((prev) => {
+      const next = !prev;
+      if (next) setHasEverOpened(true);
+      return next;
+    });
   };
 
-  // Initialize Desmos calculator when the window opens
+  // Initialize the calculator exactly once on the first open. After that the
+  // window is kept mounted (display:none when closed), so the instance and the
+  // user's expressions persist for the lifetime of the page.
   useEffect(() => {
-    if (!isOpen) return;
+    if (!hasEverOpened) return;
+    if (calcRef.current) return;
 
     let cancelled = false;
-    let calc: DesmosCalculator | null = null;
-
     loadDesmos()
       .then(() => {
         if (cancelled || !containerRef.current || !window.Desmos) return;
-
-        // SAT-matching configuration:
-        // Mirrors College Board's Desmos restrictions for the Digital SAT
-        calc = window.Desmos.GraphingCalculator(containerRef.current, {
-          // Core graphing features
+        calcRef.current = window.Desmos.GraphingCalculator(containerRef.current, {
           expressions: true,
           expressionsTopbar: true,
           settingsMenu: true,
           zoomButtons: true,
           pointsOfInterest: true,
           trace: true,
-
-          // Angle mode: degrees by default (SAT standard)
           degreeMode: true,
-
-          // Disabled features (matching CB SAT restrictions)
-          images: false,          // No image upload
-          folders: false,         // No folders
-          notes: false,           // No notes
-          links: false,           // No sharing links
-          qwertyKeyboard: true,   // On-screen keyboard available
-
-          // UI restrictions
-          lockViewport: false,    // Allow panning/zooming
-          border: false,          // Clean look
+          images: false,
+          folders: false,
+          notes: false,
+          links: false,
+          qwertyKeyboard: true,
+          lockViewport: false,
+          border: false,
           expressionsCollapsed: false,
-
-          // Colors and theming — follow app theme
           backgroundColor: "#ffffff",
         });
-
-        calcRef.current = calc;
       })
       .catch(() => {
         // Desmos failed to load — dialog stays open but graph area is empty
@@ -104,22 +94,28 @@ export const DesmosDialog = ({
 
     return () => {
       cancelled = true;
-      calc?.destroy();
+    };
+  }, [hasEverOpened]);
+
+  // Tear down only on full unmount of this component (route change, etc).
+  useEffect(() => {
+    return () => {
+      calcRef.current?.destroy();
       calcRef.current = null;
     };
-  }, [isOpen]);
+  }, []);
 
-  // Resize calculator when the window dimensions change
+  // Resize the calculator after the window becomes visible or its layout
+  // changes, since Desmos needs to be told its container resized.
   useEffect(() => {
-    if (isOpen && calcRef.current) {
-      const timer = setTimeout(() => calcRef.current?.resize(), 100);
-      return () => clearTimeout(timer);
-    }
+    if (!isOpen || !calcRef.current) return;
+    const timer = setTimeout(() => calcRef.current?.resize(), 100);
+    return () => clearTimeout(timer);
   }, [isOpen, isSidebarred, splitPosition]);
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={handleToggle}>
+      <Button variant="outline" size="sm" onClick={handleToggle} data-tour="desmos-button">
         <Calculator className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Desmos"}
       </Button>
@@ -140,6 +136,7 @@ export const DesmosDialog = ({
         constrainToLeft={constrainToLeft}
         isSidebarred={isSidebarred}
         onSidebarToggle={onSidebarToggle}
+        keepMountedWhenClosed={hasEverOpened}
       >
         <div ref={containerRef} className="w-full h-full" />
       </DraggableWindow>

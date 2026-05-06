@@ -19,7 +19,7 @@ const CountryTopicPage = () => {
   if (!page) return <Navigate to="/" replace />;
 
   const hub = countryHubByCode.get(page.country);
-  if (!hub) return <Navigate to="/" replace />;
+  if (!hub) return <Navigate to={`/${page.country}`} replace />;
 
   const url = `https://1600.now/${page.slug}`;
   const hubUrl = `https://1600.now/${hub.hubSlug}`;

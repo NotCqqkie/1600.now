@@ -1,15 +1,1 @@
-{
-  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the rental cost structure",
-      "content": "The cost is $92 for the first day, then $46 for each additional day. For $d$ days, there is 1 first day plus $(d-1)$ additional days:<br/>$$C(d) = 92 + 46(d-1)$$"
-    },
-    {
-      "title": "Simplify and match the answer",
-      "content": "Distribute the 46 and combine constants:<br/>$$C(d) = 92 + 46d - 46 = 46d + 46$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate the rental cost structure", "content": "The cost is \\$92 for the first day, then \\$46 for each additional day. For $d$ days, there is 1 first day plus $(d-1)$ additional days:<br/>$$C(d) = 92 + 46(d-1)$$"}, {"title": "Simplify and match the answer", "content": "Distribute the 46 and combine constants:<br/>$$C(d) = 92 + 46d - 46 = 46d + 46$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

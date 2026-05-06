@@ -127,6 +127,16 @@ const PracticeTestStart = () => {
   };
 
   const launchSession = (resumeExisting: boolean) => {
+    if (
+      !resumeExisting &&
+      savedSession &&
+      savedSession.status !== "submitted" &&
+      !window.confirm(
+        "Starting a new attempt will discard your saved progress for this practice test. Continue?",
+      )
+    ) {
+      return;
+    }
     launchPracticeTest({
       practiceSet,
       navigate,
@@ -152,7 +162,7 @@ const PracticeTestStart = () => {
       <div className="space-y-2">
         <h1
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(32px, 4vw, 50px)",
             fontWeight: 400,
             letterSpacing: "-0.04em",
@@ -171,7 +181,9 @@ const PracticeTestStart = () => {
           <CardContent className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="space-y-1 text-sm text-muted-foreground">
               <p>
-                Question {savedSession.currentIndex + 1} of {practiceSet.modules.reduce((sum, module) => sum + module.questionCount, 0)}
+                {activeModule
+                  ? `Question ${Math.min(savedSession.currentIndex - activeModule.startIndex + 1, activeModule.questionCount)} of ${activeModule.questionCount}`
+                  : `Question ${savedSession.currentIndex + 1} of ${practiceSet.modules.reduce((sum, module) => sum + module.questionCount, 0)}`}
               </p>
               <p>
                 {savedSession.phase === "review"

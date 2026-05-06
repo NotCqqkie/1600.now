@@ -1,15 +1,1 @@
-{
-  "questionId": "73b5f330",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation",
-      "content": "We need to find the value of $x$ where $f(x) = 58$. Since $f(x) = 5x + 8$, we set: $$5x + 8 = 58$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Subtract 8 from both sides: <br/> $$5x = 50$$ <br/> Divide both sides by 5: <br/> $$x = 10$$ <br/> That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73b5f330", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $f(x)=58$ and write the equation.<br><br>$$5x+8=58$$"}, {"title": "Solve for x", "content": "Subtract $8$, then divide by $5$.<br><br>$$5x=50\\;\\Rightarrow\\;x=10$$<br><br>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

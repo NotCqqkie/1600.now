@@ -1,15 +1,1 @@
-{
-  "questionId": "fb43b85f",
-  "correctAnswer": "1.636",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the slope formula",
-      "content": "The fastest approach is to apply the slope formula directly:<br/><br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$<br/><br/>This formula calculates the ratio of vertical change to horizontal change between two points."
-    },
-    {
-      "title": "Substitute the points",
-      "content": "With points $(4, 6)$ and $(15, 24)$:<br/><br/>$$m = \\frac{24 - 6}{15 - 4} = \\frac{18}{11}$$<br/><br/>The slope of the line is $\\frac{18}{11}$."
-    }
-  ]
-}
+{"questionId": "fb43b85f", "correctAnswer": "1.636", "section": "Math", "steps": [{"title": "Use the slope formula", "content": "The fastest approach is to apply the slope formula directly:<br/><br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$<br/><br/>This formula calculates the ratio of vertical change to horizontal change between two points."}, {"title": "Substitute the points", "content": "With points $(4, 6)$ and $(15, 24)$:<br/><br/>$$m = \\frac{24 - 6}{15 - 4} = \\frac{18}{11}$$<br/><br/>The slope of the line is $\\frac{18}{11}$.<br/>The answer is <strong>1.636</strong>."}]}

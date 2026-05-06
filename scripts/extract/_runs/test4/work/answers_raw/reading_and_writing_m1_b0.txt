@@ -1,0 +1,34 @@
+===Q1===
+ANSWER: B
+RATIONALE: It most logically completes the text's discussion of the OSIRIS-REx spacecraft's contact with the asteroid 101955 Bennu. In this context, "collected" means acquired and took away. The text indicates that although the boulders on the asteroid's surface caused some unforeseen problems, OSIRIS-REx was able to gather a sample to return to Earth. This context suggests that OSIRIS-REx successfully collected a sample of 101955 Bennu.
+WRONG_A: In this context "attached" means connected or affixed. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to bring to Earth; it doesn't suggest that the spacecraft attached anything to the asteroid.
+WRONG_C: In this context "followed" means tracked or traveled behind and the text discusses OSIRIS-REx's brief encounter with 101955 Bennu during which the spacecraft gathered a sample to bring to Earth. The text doesn't suggest that the spacecraft tracked the sample, and it's not clear what it would mean for the spacecraft to travel behind the sample it collected.
+WRONG_D: In this context "replaced" means put back or returned. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to bring to Earth but doesn't suggest that anything was returned to the asteroid.
+
+===Q2===
+ANSWER: A
+RATIONALE: It most logically completes the text's discussion of the Moon's surface. In this context, "reflect" means show or make apparent. The text states that because the surface of the Moon was softer when the Moon was still forming than it is now, early asteroid and meteoroid impacts "would have left less of an impression" and, as a result, evidence of them may no longer exist. This context supports the idea that the surface of the Moon may not accurately reflect signs of early impact events.
+WRONG_B: It wouldn't make sense to say that the surface of the Moon may not accurately "receive," or acquire or experience, early impacts from asteroids or meteoroids. The text indicates that the impacts have already occurred, and it isn't clear how the Moon's surface could be accurate or inaccurate in experiencing them.
+WRONG_C: It is incorrect because it wouldn't make sense to say that the surface of the Moon may not accurately "evaluate," or determine the significance or condition of, early impacts from asteroids or meteoroids, since that would suggest that it's possible for the Moon's surface to make a decision of any kind.
+WRONG_D: In this context, "mimic" would mean to deliberately simulate or closely imitate something. It wouldn't make sense to say that the surface of the Moon may not accurately mimic early asteroid and meteoroid impacts, since that would suggest that it's possible for the Moon to deliberately imitate something.
+
+===Q3===
+ANSWER: A
+RATIONALE: It most logically completes the text's discussion about handedness in animals. As used in this context, "recognizable" means apparent or identifiable. The text indicates that handedness is "easy to observe in humans," but that animal behavior researchers use several tasks to determine handedness in other animals. This context and the use of "less" before the blank indicate that compared with handedness in humans, handedness in other animals is less recognizable.
+WRONG_B: It is incorrect because there's nothing in the text to suggest that handedness is less "intriguing," or fascinating, in nonhuman animals than it is in humans. The text focuses on how easy it is to observe handedness in humans as compared with other animals; the text doesn't suggest that handedness is more fascinating in humans.
+WRONG_C: It is incorrect because there's nothing in the text to suggest that handedness is less "significant," or important or meaningful, in nonhuman animals than it is in humans. The text focuses on how easy it is to observe handedness in humans as compared with other animals; the text doesn't suggest that handedness is more significant in humans.
+WRONG_D: It is incorrect because "useful," or functional or helpful, wouldn't make sense in context. The text focuses on the ease with which researchers can determine whether an animal or person is right- or left-handed, not on how useful handedness in nonhuman animals is compared with handedness in humans.
+
+===Q4===
+ANSWER: C
+RATIONALE: It most logically completes the text's discussion of the influences on Banisadr's work. As used in this context, "unimportant" means trivial or lacking value. "It is by no means" establishes that the word that goes in the blank is contradicted by other information; the material that follows "indeed" later in the sentence provides the contradicting information—namely, that Banisadr himself cites Bosch as an inspiration. In other words, the sentence indicates that Bosch's influence on Banisadr is significant, and thus recognizing that influence is by no means unimportant.
+WRONG_A: It is incorrect because it wouldn't make sense to say that recognizing Bosch's influence on Banisadr isn't "substantial," or meaningful. The text states that Banisadr himself cites Bosch as an influence.
+WRONG_B: It is incorrect because it wouldn't make sense to say that it isn't "satisfying," or pleasing, to recognize Bosch's influence on Banisadr. The text states that Banisadr himself cites Bosch as an influence.
+WRONG_D: It is incorrect because it wouldn't make sense to say that recognizing Bosch's influence on Banisadr isn't "appropriate," or suitable. The text indicates that Banisadr himself notes that Bosch's work has had an effect on him.
+
+===Q5===
+ANSWER: A
+RATIONALE: It most accurately describes the main purpose of the text. The text begins by stating that the new picture "seems to fit in" with the other items that the shop owner has. The text goes on to illustrate that point by describing the other pictures the shop owner has, indicating that the shop owner is fussy because she doesn't think the new picture belongs in the store. In the second paragraph, however, the text indicates that the shop owner is "secretly proud of his acquisition." The main purpose of the text is thus to reveal the shop owner's conflicted feelings about the new picture.
+WRONG_B: It is incorrect because the text doesn't suggest that the shop owner resents the young man who sold him the new picture; in fact, the text gives no indication of the owner's feelings about the young man at all.
+WRONG_C: Although the text indicates that the new picture is different from the other items in the shop, there's no suggestion in the text that the shop owner prizes either the new picture or the pictures of the city, pets, and landscapes more than he prizes any other items.
+WRONG_D: It is incorrect because the text doesn't describe what the new picture looks like; rather, the text identifies some of the other kinds of images that the shop owner has and states that they're different from the new picture without explaining how they're different.

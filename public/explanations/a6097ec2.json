@@ -1,16 +1,1 @@
-{
-  "questionId": "a6097ec2",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify sides relative to angle x\u00b0",
-      "content": "The angle $x\u00b0$ is at the top left corner of the right triangle. From this angle's perspective:<ul><li>The <strong>opposite</strong> side is the horizontal base = 63</li><li>The <strong>hypotenuse</strong> is the slanted side = 73</li></ul>"
-    },
-    {
-      "title": "Apply the sine ratio",
-      "content": "Sine is the ratio of the opposite side to the hypotenuse.<br/><br/>$$\\sin x\u00b0 = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{63}{73}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$\\sin \\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
-    }
-  ]
-}
+{"questionId":"a6097ec2","correctAnswer":"C","section":"Math","steps":[{"title":"Identify the relationship (Pythagoras / SOH-CAH-TOA)","content":"From angle $x°$, the opposite side is $63$ and the hypotenuse is $73$. Apply SOH:<br/>$$\\sin(x°) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"},{"title":"Solve for the missing side","content":"Substitute:<br/>$$\\sin(x°) = \\frac{63}{73}$$<br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

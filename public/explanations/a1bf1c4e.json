@@ -1,15 +1,1 @@
-{
-  "questionId": "a1bf1c4e",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the perfect square trinomial",
-      "content": "To complete the square for $x^2 + 6x + 4$, divide the coefficient of $x$ by 2: $6 \\div 2 = 3$.<br/>This means we build $(x+3)^2 = x^2 + 6x + 9$."
-    },
-    {
-      "title": "Rewrite the original expression",
-      "content": "Since $(x+3)^2 = x^2 + 6x + 9$ and we need $x^2 + 6x + 4$, adjust for the difference:<br/>$$x^2 + 6x + 4 = (x+3)^2 - 9 + 4 = (x+3)^2 - 5$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a1bf1c4e", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Expand the square (and other terms)", "content": "Complete the square: $x^2+6x=(x+3)^2-9$, so $$x^2+6x+4=(x+3)^2-9+4.$$"}, {"title": "Combine and simplify", "content": "Simplify: $(x+3)^2-5$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

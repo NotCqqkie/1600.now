@@ -1,15 +1,1 @@
-{
-  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_19",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand both sides and combine into standard form",
-      "content": "Expand the left side: $x(x+4) - 140 = x^2 + 4x - 140$.<br/>Expand the right side: $3x(x-10) = 3x^2 - 30x$.<br/>Setting them equal and moving everything to one side:<br/>$$x^2 + 4x - 140 = 3x^2 - 30x$$<br/>$$x^2 + 4x - 140 - 3x^2 + 30x = 0$$<br/>$$-2x^2 + 34x - 140 = 0$$<br/>Divide by $-2$ to simplify:<br/>$$x^2 - 17x + 70 = 0$$<br/>Now in standard form $ax^2 + bx + c = 0$ with $a = 1$, $b = -17$, and $c = 70$."
-    },
-    {
-      "title": "Apply Vieta's formula for the sum of roots",
-      "content": "The question asks for the sum of the solutions, not the individual roots. For any quadratic $ax^2 + bx + c = 0$, Vieta's formula tells us that the sum of the two solutions is $-\\frac{b}{a}$.<br/>Substituting $a = 1$ and $b = -17$:<br/>$$\\text{Sum} = -\\frac{-17}{1} = 17$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ba06b998-d854-4b29-830c-15d877280c75_19","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the equation","content":"Expand: $x^2+4x-140=3x^2-30x$. Move all terms to one side: $-2x^2+34x-140=0$, or $x^2-17x+70=0$."},{"title":"Sum the solutions","content":"By Vieta's ($a=1$, $b=-17$), sum $=-b/a=17$.<br/><br/>The answer is <strong>D</strong>."}]}

@@ -1,0 +1,782 @@
+[
+  {
+    "question_number": 1,
+    "text": "The fashion resale market, in which consumers purchase secondhand clothing from stores and online sellers, generated nearly $30 billion globally in 2019. Expecting to see continued growth, some analysts ______ that revenues will more than double by 2028.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "produced"
+      },
+      {
+        "id": "B",
+        "text": "denied"
+      },
+      {
+        "id": "C",
+        "text": "worried"
+      },
+      {
+        "id": "D",
+        "text": "predicted"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 2,
+    "text": "Artificially delivering biomolecules to plant cells is an important component of protecting plants from pathogens, but it is difficult to transmit biomolecules through the layers of the plant cell wall. Markita del Carpio Landry and her colleagues have shown that it may be possible to ______ this problem by transmitting molecules through carbon nanotubes, which can cross cell walls.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "conceptualize"
+      },
+      {
+        "id": "B",
+        "text": "neglect"
+      },
+      {
+        "id": "C",
+        "text": "illustrate"
+      },
+      {
+        "id": "D",
+        "text": "overcome"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 3,
+    "text": "Particle physicists like Ayana Holloway Arce and Aida El-Khadra spend much of their time ______ what is invisible to the naked eye using sophisticated technology; they closely examine the behavior of subatomic particles, the smallest detectable parts of matter.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "selecting"
+      },
+      {
+        "id": "B",
+        "text": "inspecting"
+      },
+      {
+        "id": "C",
+        "text": "creating"
+      },
+      {
+        "id": "D",
+        "text": "deciding"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 4,
+    "text": "Anthropologist Kristian J. Carlson and colleagues examined the fossilized clavicle and shoulder bones of a 3.6-million-year-old early hominin known as \"Little Foot.\" They found that these bones were ______ the clavicle and shoulder bones of modern apes that are frequent climbers, such as gorillas and chimpanzees, suggesting that Little Foot had adapted to life in the trees.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "surpassed by"
+      },
+      {
+        "id": "B",
+        "text": "comparable to"
+      },
+      {
+        "id": "C",
+        "text": "independent of"
+      },
+      {
+        "id": "D",
+        "text": "obtained from"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 5,
+    "text": "Rydra Wong, the protagonist of Samuel R. Delany's 1966 novel Babel-17, is a poet, an occupation which, in Delany's work, is not ______ nearly a dozen of the characters that populate his novels are poets or writers.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "infallible"
+      },
+      {
+        "id": "B",
+        "text": "atypical"
+      },
+      {
+        "id": "C",
+        "text": "lucrative"
+      },
+      {
+        "id": "D",
+        "text": "tedious"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 6,
+    "text": "For a 2020 exhibition, photographer and neurobiologist Okunola Jeyifous ______ a series of new images based on a series of alphabet posters from the 1970s known as the \"Black ABCs,\" which featured Black children from Chicago. Jeyifous photographed the now-adult models and layered the photos over magnified images of the models' cells, resulting in what he called \"micro and macro portraiture.\"\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "validated"
+      },
+      {
+        "id": "B",
+        "text": "created"
+      },
+      {
+        "id": "C",
+        "text": "challenged"
+      },
+      {
+        "id": "D",
+        "text": "restored"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 7,
+    "text": "In addition to being an accomplished psychologist himself, Francis Cecil Sumner was a ______ increasing the opportunity for Black students to study psychology, helping to found the psychology department at Howard University, a historically Black university, in 1930.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "proponent of"
+      },
+      {
+        "id": "B",
+        "text": "supplement to"
+      },
+      {
+        "id": "C",
+        "text": "beneficiary of"
+      },
+      {
+        "id": "D",
+        "text": "distraction for"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 8,
+    "text": "Whether the reign of a French monarch such as Hugh Capet or Henry I was historically consequential or relatively uneventful, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the factors that allowed the monarch to ______ his right to hold the throne.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "reciprocate"
+      },
+      {
+        "id": "B",
+        "text": "annotate"
+      },
+      {
+        "id": "C",
+        "text": "buttress"
+      },
+      {
+        "id": "D",
+        "text": "disengage"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 9,
+    "text": "Some bird species don't raise their own chicks. Instead, adult females lay their eggs in other nests, next to another bird species' own eggs. Female cuckoos have been seen quickly laying eggs in the nests of other bird species when those birds are out looking for food. After the eggs hatch, the noncuckoo parents will typically raise the cuckoo chicks as if they were their own offspring, even if the cuckoos look very different from the other chicks.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It introduces a physical feature of female cuckoos that is described later in the text."
+      },
+      {
+        "id": "B",
+        "text": "It describes the appearance of the cuckoo nests mentioned earlier in the text."
+      },
+      {
+        "id": "C",
+        "text": "It offers a detail about how female cuckoos carry out the behavior discussed in the text."
+      },
+      {
+        "id": "D",
+        "text": "It explains how other birds react to the female cuckoo behavior discussed in the text."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 10,
+    "text": "Cats can judge unseen people's positions in space by the sound of their voices and thus react with surprise when the same person calls to them from two different locations in a short span of time. Saho Takagi and colleagues reached this conclusion by measuring cats' levels of surprise based on their ear and head movements while the cats heard recordings of their owners' voices from two speakers spaced far apart. Cats exhibited a low level of surprise when owners' voices were played twice from the same speaker, but they showed a high level of surprise when the voice was played once each from the two different speakers.\n\nAccording to the text, how did the researchers determine the level of surprise displayed by the cats in the study?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They watched how each cat moved its ears and head."
+      },
+      {
+        "id": "B",
+        "text": "They examined how each cat reacted to the voice of a stranger."
+      },
+      {
+        "id": "C",
+        "text": "They studied how each cat physically interacted with its owner."
+      },
+      {
+        "id": "D",
+        "text": "They tracked how each cat moved around the room."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 11,
+    "text": "A student performs an experiment testing her hypothesis that a slightly acidic soil environment is more beneficial for the growth of the plant Brassica rapa parachinensis (a vegetable commonly known as choy sum) than a neutral soil environment. She plants sixteen seeds of choy sum in a mixture of equal amounts of coffee grounds (which are highly acidic) and potting soil and another sixteen seeds in potting soil without coffee grounds as the control for the experiment. The two groups of seeds were exposed to the same growing conditions and monitored for three weeks.\n\nWhich finding, if true, would most directly weaken the student's hypothesis?\n\nA) The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds.\n\nB) The choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds.\n\nC) The choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds.\n\nD) Significantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds.",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds."
+      },
+      {
+        "id": "B",
+        "text": "The choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds."
+      },
+      {
+        "id": "C",
+        "text": "The choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds."
+      },
+      {
+        "id": "D",
+        "text": "Significantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 12,
+    "text": "\"The Young Girl\" is a 1920 short story by Katherine Mansfield. In the story, the narrator takes an unnamed seventeen-year-old girl and her younger brother out for a meal. In describing the teenager, Mansfield frequently contrasts the character's pleasant appearance with her unpleasant attitude, as when Mansfield writes of the teenager, ______.\n\nWhich quotation from \"The Young Girl\" most effectively illustrates the claim?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\"I heard her murmur, 'I can't bear flowers on a table.' They had evidently been giving her intense pain, for she positively closed her eyes as I moved them away.\""
+      },
+      {
+        "id": "B",
+        "text": "\"While we waited she took out a little, gold powder-box with a mirror in the lid, shook the poor little puff as though she loathed it, and dabbed her lovely nose.\""
+      },
+      {
+        "id": "C",
+        "text": "\"I saw, after that, she couldn't stand this place a moment longer, and, indeed, she jumped up and turned away while I went through the vulgar act of paying for the tea.\""
+      },
+      {
+        "id": "D",
+        "text": "\"She didn't even take her gloves off. She lowered her eyes and drummed on the table. When a faint violin sounded she winced and bit her lip again. Silence.\""
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 13,
+    "text": "High levels of public uncertainty about which economic policies a country will adopt can make planning difficult for businesses, but measures of such uncertainty have not tended to be very detailed. Recently, however, economist Sandile Hlatshwayo analyzed trends in news reports to derive measures not only for general economic policy uncertainty but also for uncertainty related to specific areas of economic policy, like tax or trade policy. One revelation of her work is that a general measure may not fully reflect uncertainty about specific areas of policy, as in the case of the United Kingdom, where general economic policy uncertainty _______\n\nWhich choice most effectively uses data from the graph to illustrate the claim?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "aligned closely with uncertainty about tax and public spending policy in 2005 but differed from uncertainty about tax and public spending policy by a large amount in 2009."
+      },
+      {
+        "id": "B",
+        "text": "was substantially lower than uncertainty about tax and public spending policy each year from 2005 to 2010."
+      },
+      {
+        "id": "C",
+        "text": "reached its highest level between 2005 and 2010 in the same year that uncertainty about trade policy and tax and public spending policy reached their lowest levels."
+      },
+      {
+        "id": "D",
+        "text": "was substantially lower than uncertainty about trade policy and substantially higher than uncertainty about trade policy in 2010."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": true,
+    "figure_description": "Bar chart titled 'Economic Policy Uncertainty in the United Kingdom, 2005\u20132010' with years 2005\u20132010 on the x-axis and Uncertainty (larger values = more uncertainty) on the y-axis (0\u2013200). Three grouped bars per year represent: tax and public spending policy, trade policy, and general economic policy.",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 14,
+    "text": "Linguist Deborah Tannen has cautioned against framing contentious issues in terms of two highly competitive perspectives, such as pro versus con. According to Tannen, this debate-driven approach can strip issues of their complexity and, when used in front of an audience, can be less informative than the presentation of multiple perspectives in a noncompetitive format. To test Tannen's hypothesis, students conducted a study in which they showed participants one of three different versions of local news commentary about the same issue. Each version featured a debate between two commentators with opposing views, a panel of three commentators with various views, or a single commentator.\n\nWhich finding from the students' study, if true, would most strongly support Tannen's hypothesis?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "On average, participants perceived commentators in the debate as more knowledgeable about the issue than commentators in the panel."
+      },
+      {
+        "id": "B",
+        "text": "On average, participants perceived commentators in the panel as more knowledgeable about the issue than the single commentator."
+      },
+      {
+        "id": "C",
+        "text": "On average, participants who watched the panel correctly answered more questions about the issue than those who watched the debate or the single commentator."
+      },
+      {
+        "id": "D",
+        "text": "On average, participants who watched the single commentator correctly answered more questions about the issue than those who watched the debate did."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 15,
+    "text": "King Lear is a circa 1606 play by William Shakespeare. In the play, the character of King Lear attempts to test his daughters' devotion to him. He later expresses regret for his actions, as is evident when he _______\n\nWhich choice most effectively uses a quotation from King Lear to illustrate the claim?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "says of himself, \"I am a man / more sinned against than sinning.\""
+      },
+      {
+        "id": "B",
+        "text": "says during a growing storm, \"This tempest will not give me leave to ponder / On things would hurt me more.\""
+      },
+      {
+        "id": "C",
+        "text": "says to himself while striking his head, \"Beat at this gate that let thy folly in / And thy dear judgement out!\""
+      },
+      {
+        "id": "D",
+        "text": "says of himself, \"I will do such things\u2014 / What they are yet, I know not; but they shall be / The terrors of the earth!\""
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 16,
+    "text": "Many of William Shakespeare's tragedies address broad themes that still appeal to today's audiences. For instance, Romeo and Juliet, which is set in the Italy of Shakespeare's time, tackles the themes of parents versus children and love versus hate, and the play continues to be read and produced widely around the world. But understanding Shakespeare's so-called history plays can require a knowledge of several centuries of English history. Consequently, _______\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "many theatergoers and readers today are likely to find Shakespeare's history plays less engaging than the tragedies."
+      },
+      {
+        "id": "B",
+        "text": "some of Shakespeare's tragedies are more relevant to today's audiences than twentieth-century plays."
+      },
+      {
+        "id": "C",
+        "text": "Romeo and Juliet is the most thematically accessible of all Shakespeare's tragedies."
+      },
+      {
+        "id": "D",
+        "text": "experts in English history tend to prefer Shakespeare's history plays to his other works."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 17,
+    "text": "Ancestral Puebloans, the civilization from which present-day Pueblo tribes descended, emerged as early as 1500 B.C.E. in an area of what is now the southwestern United States and dispersed suddenly in the late 1200s C.E., abandoning established villages with systems for farming crops and turkeys. Recent analysis comparing turkey remains at Mesa Verde, one such village in southern Colorado, to samples from modern turkey populations in the Rio Grande Valley of north central New Mexico determined that the latter birds descended in part from turkeys cultivated at Mesa Verde, with shared genetic markers appearing only after 1280. Thus, researchers concluded that ______.\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "conditions of the terrains in the Rio Grande Valley and Mesa Verde had greater similarities in the past than they do today."
+      },
+      {
+        "id": "B",
+        "text": "some Ancestral Puebloans migrated to the Rio Grande Valley in the late 1200s and carried farming practices with them."
+      },
+      {
+        "id": "C",
+        "text": "Indigenous peoples living in the Rio Grande Valley primarily planted crops and did not cultivate turkeys before 1280."
+      },
+      {
+        "id": "D",
+        "text": "the Ancestral Puebloans of Mesa Verde likely adopted the farming practices of Indigenous peoples living in other regions."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 18,
+    "text": "One challenge when researching whether holding elected office changes a person's behavior is the problem of ensuring that the experiment has an appropriate control group. To reveal the effect of holding office, researchers must compare people who hold elected office with people who do not hold office but who are otherwise similar to the office-holders. Since researchers are unable to control which politicians win elections, they therefore ______.\n\nWhich choice most logically completes the text?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "struggle to find valid data about the behavior of politicians who do not currently hold office."
+      },
+      {
+        "id": "B",
+        "text": "can only conduct valid studies with people who have previously held office rather than people who presently hold office."
+      },
+      {
+        "id": "C",
+        "text": "should select a control group of people who differ from office holders in several significant ways."
+      },
+      {
+        "id": "D",
+        "text": "will find it difficult to identify a group of people who can function as an appropriate control group for their studies."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 19,
+    "text": "In his groundbreaking book Bengali Harlem and the Lost Histories of South Asian America, Vivek Bald uses newspaper articles, census records, ships' logs, and memoirs to tell the ______ who made New York City their home in the early twentieth century.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "story's of the South Asian immigrants"
+      },
+      {
+        "id": "B",
+        "text": "story's of the South Asian immigrants'"
+      },
+      {
+        "id": "C",
+        "text": "stories of the South Asian immigrants"
+      },
+      {
+        "id": "D",
+        "text": "stories' of the South Asian immigrant's"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 20,
+    "text": "In her two major series \"Memory Test\" and \"Autobiography,\" painter Howardena Pindell explored themes ______ healing, self-discovery, and memory by cutting and sewing back together pieces of canvas and inserting personal artifacts, such as postcards, into some of the paintings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "of,"
+      },
+      {
+        "id": "C",
+        "text": "of\u2014"
+      },
+      {
+        "id": "D",
+        "text": "of:"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 21,
+    "text": "Both Sona Charaipotra, an Indian American, and Dhonielle Clayton, an African American, grew up frustrated by the lack of diverse characters in books for young people. In 2011, these two writers joined forces to found CAKE Literary, a book packaging ______ specializes in the creation and promotion of stories told from diverse perspectives for children and young adults.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "company,"
+      },
+      {
+        "id": "B",
+        "text": "company that"
+      },
+      {
+        "id": "C",
+        "text": "company"
+      },
+      {
+        "id": "D",
+        "text": "company, that"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 22,
+    "text": "A study led by scientist Rebecca Kirby at the University of Wisconsin\u2013Madison found that black bears that eat human food before hibernation have increased levels of a rare carbon isotope, ______ due to the higher $^{13}$C levels in corn and cane sugar. Bears with these elevated levels were also found to have much shorter hibernation periods on average.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "carbon-13 ($^{13}$C)"
+      },
+      {
+        "id": "B",
+        "text": "carbon-13 ($^{13}$C,)"
+      },
+      {
+        "id": "C",
+        "text": "carbon-13, ($^{13}$C)"
+      },
+      {
+        "id": "D",
+        "text": "carbon-13 ($^{13}$C),"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 23,
+    "text": "In 2010, archaeologist Noel Hidalgo Tan was visiting the twelfth-century temple of Angkor Wat in Cambodia when he noticed markings of red paint on the temple. ______ the help of digital imaging techniques, he discovered the markings to be part of an elaborate mural containing over 200 paintings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "walls, with"
+      },
+      {
+        "id": "B",
+        "text": "walls with"
+      },
+      {
+        "id": "C",
+        "text": "walls, so with"
+      },
+      {
+        "id": "D",
+        "text": "walls. With"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 27,
+    "text": "During a 2021 launch, Rocket Labs' Electron rocket experienced an unexpected failure: its second-stage booster shut down suddenly after ignition. ______ instead of downplaying the incident, Rocket Labs' CEO publicly acknowledged what happened and apologized for the loss of the rocket's payload, which had consisted of two satellites.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Afterward,"
+      },
+      {
+        "id": "B",
+        "text": "Additionally,"
+      },
+      {
+        "id": "C",
+        "text": "Indeed;"
+      },
+      {
+        "id": "D",
+        "text": "Similarly,"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 28,
+    "text": "When soil becomes contaminated by toxic metals, it can be removed from the ground and disposed of in a landfill. ______ contaminated soil can be detoxified via phytoremediation: plants that can withstand high concentrations of metals absorb the pollutants and store them in their shoots, which are then cut off and safely disposed of, preserving the health of the plants.\n\nWhich choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Alternatively,"
+      },
+      {
+        "id": "B",
+        "text": "Specifically,"
+      },
+      {
+        "id": "C",
+        "text": "For example,"
+      },
+      {
+        "id": "D",
+        "text": "As a result,"
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 29,
+    "text": "While researching a topic, a student has taken the following notes:\n\n- The calendar used by most of the world (the Gregorian calendar) has 365 days.\n- Because 365 days can't be divided evenly by 7 (the number of days in a week), calendar dates fall on a different day of the week each year.\n- The Hanke-Henry permanent calendar, developed as an alternative to the Gregorian calendar, has 364 days.\n- Because 364 can be divided evenly by 7, calendar dates fall on the same day of the week each year, which supports more predictable scheduling.\n\nThe student wants to explain an advantage of the Hanke-Henry calendar. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The Gregorian calendar has 365 days, which is one day longer than the Hanke-Henry permanent calendar."
+      },
+      {
+        "id": "B",
+        "text": "Adopting the Hanke-Henry permanent calendar would help solve a problem with the Gregorian calendar."
+      },
+      {
+        "id": "C",
+        "text": "Designed so calendar dates would occur on the same day of the week each year, the Hanke-Henry calendar supports more predictable scheduling than does the Gregorian calendar."
+      },
+      {
+        "id": "D",
+        "text": "The Hanke-Henry permanent calendar was developed as an alternative to the Gregorian calendar, which is currently the most-used calendar in the world."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 30,
+    "text": "While researching a topic, a student has taken the following notes:\n\n- The Haudenosaunee Confederacy is a nearly 1,000-year-old alliance of six Native nations in the northeastern US.\n- The members are bound by a centuries-old agreement known as the Great Law of Peace.\n- Historian Bruce Johansen is one of several scholars who believe that the principles of the Great Law of Peace influenced the US Constitution.\n- This theory is called the influence theory.\n- Johansen cites the fact that Benjamin Franklin and Thomas Jefferson both studied the Haudenosaunee Confederacy.\n\nThe student wants to present the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Historian Bruce Johansen believes that the Great Law of Peace was very influential."
+      },
+      {
+        "id": "B",
+        "text": "The influence theory is supported by the fact that Benjamin Franklin and Thomas Jefferson both studied the Haudenosaunee Confederacy."
+      },
+      {
+        "id": "C",
+        "text": "The influence theory holds that the principles of the Great Law of Peace, a centuries-old agreement binding six Native nations in the northeastern US, influenced the US Constitution."
+      },
+      {
+        "id": "D",
+        "text": "Native people, including the members of the Haudenosaunee Confederacy, influenced the founding of the US in many different ways."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 31,
+    "text": "While researching a topic, a student has taken the following notes:\n\n- In 1999, astronomer Todd Henry studied the differences in surface temperature between the Sun and nearby stars.\n- His team mapped all stars within 10 parsecs (approximately 200 trillion miles) of the Sun.\n- The surface temperature of the Sun is around 9,800\u00b0F, which classifies it as a G star.\n- 327 of the 357 stars in the study were classified as K or M stars, with surface temperatures under 8,900\u00b0F (cooler than the Sun).\n- 11 of the 357 stars in the study were classified as A or F stars, with surface temperatures greater than 10,300\u00b0F (hotter than the Sun).\n\nThe student wants to emphasize how hot the Sun is relative to nearby stars. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "At around 9,800\u00b0F, which classifies it as a G star, the Sun is hotter than most but not all of the stars within 10 parsecs of it."
+      },
+      {
+        "id": "B",
+        "text": "Astronomer Todd Henry determined that the Sun, at around 9,800\u00b0F, is a G star, and several other stars within a 10-parsec range are A or F stars."
+      },
+      {
+        "id": "C",
+        "text": "Of the 357 stars within ten parsecs of the Sun, 327 are classified as K or M stars, with surface temperatures under 8,900\u00b0F."
+      },
+      {
+        "id": "D",
+        "text": "While most of the stars within 10 parsecs of the Sun are classified as K, M, A, or F stars, the Sun is classified as a G star due to its surface temperature of 9,800\u00b0F."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 32,
+    "text": "While researching a topic, a student has taken the following notes:\n\n- The Atlantic Monthly magazine was first published in 1857.\n- The magazine focused on politics, art, and literature.\n- In 2019, historian Cathryn Halverson published the book Faraway Women and the \"Atlantic Monthly.\"\n- Its subject is female authors whose autobiographies appeared in the magazine in the early 1900s.\n- One of the authors discussed is Juanita Harrison.\n\nThe student wants to introduce Cathryn Halverson's book to a reader already familiar with the Atlantic Monthly. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cathryn Halverson's Faraway Women and the \"Atlantic Monthly\" discusses female authors whose autobiographies appeared in the magazine in the early 1900s."
+      },
+      {
+        "id": "B",
+        "text": "A magazine called the Atlantic Monthly, referred to in Cathryn Halverson's book's title, was first published in 1857."
+      },
+      {
+        "id": "C",
+        "text": "Faraway Women and the \"Atlantic Monthly,\" first published in 1857 as a magazine focusing on politics, art, and literature."
+      },
+      {
+        "id": "D",
+        "text": "An author discussed by Cathryn Halverson is Juanita Harrison, whose autobiography appeared in the Atlantic Monthly in the early 1900s."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  },
+  {
+    "question_number": 33,
+    "text": "While researching a topic, a student has taken the following notes:\n\n- The magnificent frigatebird (Fregata magnificens) is a species of seabird that feeds mainly on fish, tuna, squid, and other small sea animals.\n- It is unusual among seabirds in that it doesn't dive into the water for prey.\n- One way it acquires food is by using its hook-tipped bill to snatch prey from the surface of the water.\n- Another way it acquires food is by taking it from weaker birds by force.\n- This behavior is known as kleptoparasitism.\n\nThe student wants to emphasize a similarity between the two ways a magnificent frigatebird acquires food. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A magnificent frigatebird never dives into the water, instead using its hook-tipped bill to snatch prey from the surface."
+      },
+      {
+        "id": "B",
+        "text": "Neither of a magnificent frigatebird's two ways of acquiring food requires the bird to dive into the water."
+      },
+      {
+        "id": "C",
+        "text": "Of the magnificent frigatebird's two ways of acquiring food, only one is known as kleptoparasitism."
+      },
+      {
+        "id": "D",
+        "text": "In addition to snatching prey from the water with its hook-tipped bill, a magnificent frigatebird takes food from other birds by force."
+      }
+    ],
+    "type": "multiple-choice",
+    "has_figure": false,
+    "figure_description": "",
+    "choice_has_figure": false
+  }
+]

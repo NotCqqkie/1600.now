@@ -1,15 +1,1 @@
-{
-  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_14",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add equations to eliminate y",
-      "content": "The two equations have $y$-coefficients of 4 and \u22124, making them ideal for elimination. Add them together:<br/><br/>$$(4y) + (\u22124y) = (9x + 14) + (5x \u2212 23)$$<br/><br/>The $y$ terms cancel:<br/><br/>$$0 = 14x \u2212 9$$<br/><br/>Rearrange:<br/><br/>$$14x = 9$$"
-    },
-    {
-      "title": "Calculate 56x by scaling",
-      "content": "Notice that $56 = 14 \\cdot 4$. Multiply both sides of $14x = 9$ by 4:<br/><br/>$$56x = 4 \\cdot 9 = 36$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8c664e9f-dbfe-430d-92f7-13f0ba1d5978_14","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Add the two equations to eliminate $y$: $$0=14x-9,$$ so $14x=9$."},{"title":"Find $56x$","content":"Multiply both sides by $4$: $$56x=4\\cdot 14x=4\\cdot 9=36.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

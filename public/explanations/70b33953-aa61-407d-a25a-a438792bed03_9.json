@@ -1,11 +1,1 @@
-{
-  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_9",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = 2 into the function",
-      "content": "To find $k(2)$, substitute $x = 2$ into the definition $k(x) = x^3 + 20$:<br/><br/>$$k(2) = 2^3 + 20$$<br/><br/>Evaluate the exponent: $2^3 = 8$<br/><br/>$$k(2) = 8 + 20 = 28$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute", "content": "Plug $x=2$ into $k(x)=x^{3}+20$.<br><br>$$k(2)=2^{3}+20$$"}, {"title": "Compute the result", "content": "Cube then add.<br><br>$$k(2)=8+20=28$$<br><br>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

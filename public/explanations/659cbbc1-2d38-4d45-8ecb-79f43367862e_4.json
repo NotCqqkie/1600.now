@@ -1,15 +1,1 @@
-{
-  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add the equations to eliminate y",
-      "content": "The first equation has $5y$ and the second has $-5y$. Adding them will cancel the $y$ terms. <br/>$$5y + (-5y) = (6x + 17) + (7x - 23)$$<br/>$$0 = 13x - 6$$<br/>This simplifies to $13x = 6$."
-    },
-    {
-      "title": "Find 39x using the relationship between 39 and 13",
-      "content": "Notice that $39 = 3 \\times 13$, so we can express $39x$ in terms of $13x$:<br/>$$39x = 3(13x) = 3(6) = 18$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"659cbbc1-2d38-4d45-8ecb-79f43367862e_4","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Add $5y=6x+17$ and $-5y=7x-23$: $$0 = 13x - 6 \\Rightarrow x = \\tfrac{6}{13}.$$"},{"title":"Find $39x$","content":"Then $$39x = 39 \\cdot \\tfrac{6}{13} = 18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

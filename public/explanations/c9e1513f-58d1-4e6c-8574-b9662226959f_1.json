@@ -1,15 +1,1 @@
-{
-  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what to substitute",
-      "content": "The equation is $s = 50 + 4t$ where $s$ is speed in mph and $t$ is time in seconds. We need the speed at $t = 5$ seconds, so substitute $t = 5$ into the equation."
-    },
-    {
-      "title": "Substitute and evaluate",
-      "content": "$$s = 50 + 4(5)$$\n$$s = 50 + 20$$\n$$s = 70$$\n\nThe speed is 70 miles per hour. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the rate of change/intercept", "content": "The equation $s = 50 + 4t$ is in the form $s = b + mt$. The constant $b = 50$ is the value of $s$ when $t = 0$."}, {"title": "Interpret the coefficient", "content": "$t = 0$ corresponds to the moment the car began to accelerate, so 50 is the initial speed in mi/h. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

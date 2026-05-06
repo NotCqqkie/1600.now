@@ -1,15 +1,1 @@
-{
-  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_10",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find p using the given point",
-      "content": "The graph passes through $(-6, 0)$, so $h(-6) = 0$. Substitute $x = -6$ into $h(x) = (x+p)(x-4)(2x-6)$:<br/><br/>$$(-6 + p)(-6 - 4)(2(-6) - 6) = 0$$<br/><br/>$$(-6 + p)(-10)(-18) = 0$$<br/><br/>Since $(-10)(-18) = 180 \\neq 0$, the product equals zero only if $-6 + p = 0$, so $p = 6$."
-    },
-    {
-      "title": "Evaluate h(0) with p = 6",
-      "content": "Now substitute $x = 0$ and $p = 6$ into the function:<br/><br/>$$h(0) = (0 + 6)(0 - 4)(2(0) - 6)$$<br/><br/>$$h(0) = (6)(-4)(-6)$$<br/><br/>Evaluate: $6 \\cdot (-4) = -24$, then $(-24) \\cdot (-6) = 144$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e3fe84c7-8083-48b8-863b-841355113ba0_10","correctAnswer":"A","section":"Math","steps":[{"title":"Identify roots from the factored form","content":"$h(x)=(x+p)(x-4)(2x-6)$ has zeros at $x=-p,\\ x=4,\\ x=3$."},{"title":"Use the given point to set up an equation in p","content":"Since $(-6,0)$ is a zero and $-6\\ne 4,3$, we need $-6+p=0$, so $p=6$."},{"title":"Compute h(0) and conclude","content":"$h(0)=(6)(-4)(-6)=144$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

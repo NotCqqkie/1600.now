@@ -1,15 +1,1 @@
-{
-  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_1",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the pattern in the expression",
-      "content": "Observe that $-18 - 2x$ can be rewritten as $-2(9 + x)$: $$-18 - 2x = -2(9 + x)$$ This allows us to use the given equation directly."
-    },
-    {
-      "title": "Substitute the given value and calculate",
-      "content": "Since $9 + x = 6$, we substitute: $$-2(9 + x) = -2(6) = -12$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e4f2c33b-9282-40a7-810c-d633e5197f95_1","correctAnswer":"A","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $-18-2x = -2(9+x)$, and $9+x=6$."},{"title":"Compute the target value","content":"So $-18-2x = -2 \\cdot 6 = -12$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

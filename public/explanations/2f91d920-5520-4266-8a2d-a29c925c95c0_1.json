@@ -1,15 +1,1 @@
-{
-  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the relationship between 2x and 4x",
-      "content": "We want to find $4x$, and we're given $2x = 10$. Notice that $4x$ is twice $2x$: $$4x = 2 \\cdot (2x)$$"
-    },
-    {
-      "title": "Substitute and calculate",
-      "content": "Since $2x = 10$, substitute into the relationship: $$4x = 2 \\cdot (2x) = 2 \\cdot 10 = 20$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2f91d920-5520-4266-8a2d-a29c925c95c0_1","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $4x = 2 \\cdot 2x$, and $2x=10$."},{"title":"Compute the target value","content":"So $4x = 2 \\cdot 10 = 20$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

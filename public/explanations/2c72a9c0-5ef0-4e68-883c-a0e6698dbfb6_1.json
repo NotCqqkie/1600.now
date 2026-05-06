@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the angles in the triangle",
-      "content": "The right triangle has three interior angles: 90\u00b0 (the right angle at the bottom left), 24\u00b0 (at the top), and $a$ (at the bottom right, which we need to find)."
-    },
-    {
-      "title": "Apply the angle sum property",
-      "content": "The sum of interior angles in any triangle is 180\u00b0. Setting up the equation:<br/><br/>$$90\u00b0 + 24\u00b0 + a = 180\u00b0$$<br/><br/>Solving for $a$:<br/>$$a = 180\u00b0 - 90\u00b0 - 24\u00b0 = 66\u00b0$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the relationship (Pythagoras / SOH-CAH-TOA)","content":"The triangle has a right angle ($90°$), an angle of $24°$, and the unknown angle $a$. Use the triangle angle-sum: the three interior angles sum to $180°$.<br/>$$90° + 24° + a = 180°$$"},{"title":"Solve for the missing side","content":"Solve for $a$:<br/>$$a = 180° - 90° - 24° = 66°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

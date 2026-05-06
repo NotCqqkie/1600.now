@@ -1,11 +1,1 @@
-{
-  "questionId": "fcb78856",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Divide both sides by 42f to isolate c",
-      "content": "Starting with $b = 42cf$, to isolate $c$ we divide both sides by the coefficient $42f$: $$\\frac{b}{42f} = \\frac{42cf}{42f}$$ $$c = \\frac{b}{42f}$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fcb78856", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Divide both sides of $b=42cf$ by $42f$ to get $$c=\\frac{b}{42f}.$$"}, {"title": "Match to the answer choices", "content": "The form $c=\\frac{b}{42f}$ matches choice A. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

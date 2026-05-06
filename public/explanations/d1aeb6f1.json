@@ -1,15 +1,1 @@
-{
-  "questionId": "d1aeb6f1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve the first equation for x",
-      "content": "Solve $10x = 110$ by dividing both sides by 10:<br/>$$x = \\frac{110}{10} = 11$$"
-    },
-    {
-      "title": "Substitute x into the second equation",
-      "content": "The second equation is $y = 6x - 63$. Substitute $x = 11$:<br/>$$y = 6(11) - 63 = 66 - 63 = 3$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d1aeb6f1","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by substitution","content":"From $10x=110$, $x=11$. Substitute into $6x-63=y$: $$y = 6(11)-63 = 66-63 = 3.$$"},{"title":"Find $y$","content":"So $y=3$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

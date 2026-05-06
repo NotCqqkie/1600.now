@@ -1,15 +1,1 @@
-{
-  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_5",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add the equations to eliminate y",
-      "content": "The first equation has $5y$ and the second has $-5y$. Adding them cancels the $y$ terms immediately.<br/><br/>$$5y = 6x + 17$$$$-5y = 7x - 23$$<br/>Adding both sides:<br/>$$5y + (-5y) = (6x + 17) + (7x - 23)$$$$0 = 13x - 6$$$$13x = 6$$"
-    },
-    {
-      "title": "Multiply by 3 to find 39x",
-      "content": "Since $13x = 6$, multiply both sides by 3:<br/>$$39x = 18$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_5","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Add the two equations to eliminate $y$: $$0=13x-6,$$ so $13x=6$."},{"title":"Find $39x$","content":"Multiply both sides by $3$: $$39x=3\\cdot 13x=18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

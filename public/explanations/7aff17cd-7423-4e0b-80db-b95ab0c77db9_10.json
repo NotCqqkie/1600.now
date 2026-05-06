@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal about cheaper production",
-      "content": "The passage establishes that when tariffs vanish, cheaper domestic producers expand (no longer needing protection) while expensive ones contract (losing to cheaper imports). So to prove Argentina and the United States have cheaper production than India and Russia, we should see their output expand under tariff elimination."
+      "title": "Identify the claim to support",
+      "content": "The student claims that Argentina and the United States produce more cheaply than India and Russia. Per the passage, when tariffs are removed, cheaper producers <em>expand</em> output while more expensive ones <em>contract</em>."
     },
     {
       "title": "Match the signal to the data",
-      "content": "Choice C shows Argentina and the United States as the only countries with both production increases and price decreases. This combination\u2014<em>expanding output while lowering prices</em>\u2014marks globally competitive, cost-efficient producers. The other choices either show only partial evidence (A demonstrates production change alone), contradict the expected pattern (B predicts price increases), or measure total output unrelated to production cost (D). That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Choice A directly captures the predicted contrast: production decreasing in India and Russia but increasing in Argentina and the United States — exactly the asymmetry that signals Argentina and the United States are the cheaper producers. The other choices either focus on prices (B), describe price/production effects without the cross-country contrast (C), or compare absolute output rather than the change in output (D). That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

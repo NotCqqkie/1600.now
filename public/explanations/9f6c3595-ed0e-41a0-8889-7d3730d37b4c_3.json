@@ -1,15 +1,1 @@
-{
-  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_3",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the structure and factor the left side",
-      "content": "We need to find $x + 6$, not just $x$. Notice that $6x + 36 = 6(x + 6)$. Rewriting the equation:<br/>$$6(x + 6) = 54$$"
-    },
-    {
-      "title": "Divide both sides by 6 to isolate x + 6",
-      "content": "$$\\frac{6(x + 6)}{6} = \\frac{54}{6}$$<br/>$$x + 6 = 9$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_3","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Factor $6$ on the left: $6(x+6)=54$."},{"title":"Compute the target value","content":"Divide by $6$: $x+6 = 9$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

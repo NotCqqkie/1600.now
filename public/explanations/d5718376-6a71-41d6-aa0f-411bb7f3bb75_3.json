@@ -1,15 +1,1 @@
-{
-  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that we need to isolate 12x",
-      "content": "The original equation is $12x + 40 = 160$. To find an equivalent equation in the form $12x = ?$, we must isolate the 12x term on one side. This requires subtracting 40 from both sides."
-    },
-    {
-      "title": "Subtract 40 from both sides",
-      "content": "Subtract 40 from both sides:<br/>$$12x + 40 - 40 = 160 - 40$$<br/>Simplify both sides:<br/>$$12x = 120$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_3", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Starting from $$12x+40=160,$$ subtract 40 on both sides to isolate the variable term."}, {"title": "Identify the answer", "content": "This gives $$12x=120.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

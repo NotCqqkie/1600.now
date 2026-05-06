@@ -1,15 +1,1 @@
-{
-  "questionId": "bc1b8a42",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The student argues that all areas need more shaded shelters because the highest percentage of bus stops with shaded shelter is <strong>only</strong> ______."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "C correctly fills the blank with the highest value (90%) from the table, showing that even the best area falls short of meeting the student\u2019s implied threshold for adequacy. The other three choices (50%, 15%, 29%) either use smaller percentages that weaken the argument or contradict the idea of the highest value. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc1b8a42", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The student argues that all areas need more shaded shelters because the highest percentage of bus stops with shaded shelter is <strong>only</strong> ______. The word \"only\" indicates the value should be small enough to support the claim that improvement is needed."}, {"title": "Match the meaning", "content": "Reading the table, the highest percentage of bus stops with shaded shelter across all areas is <strong>29%</strong> — a relatively small share, supporting the student's argument that all areas need improvement. Choices A (50%) and C (90%) don't appear in the table; choice B (15%) is not the highest value in the table. The answer is <strong>D</strong> (29%)."}]}

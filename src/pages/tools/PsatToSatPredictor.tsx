@@ -120,11 +120,14 @@ const PsatToSatPredictor = () => {
             <input
               type="number"
               min={0}
-              max={24}
+              max={12}
               value={months}
               onChange={(e) => setMonths(e.target.value)}
               className="mt-2 w-full rounded-lg border border-border bg-background px-3 py-2"
             />
+            <p className="mt-1 text-xs text-muted-foreground">
+              Growth modeling caps at 12 months — beyond that, gains taper without a refreshed plan.
+            </p>
           </div>
         </div>
         {result ? (

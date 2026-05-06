@@ -1,15 +1,1 @@
-{
-  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_16",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out the common factor",
-      "content": "The equation $4x^2 - 32x - 40 = 0$ has 4 as a common factor in every term.<br/><br/>Factor it out: $$4(x^2 - 8x - 10) = 0$$<br/><br/>Divide both sides by 4: $$x^2 - 8x - 10 = 0$$"
-    },
-    {
-      "title": "Isolate the target expression",
-      "content": "Rearrange to isolate $x^2 - 8x$:<br/><br/>$$x^2 - 8x = 10$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_16","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Divide both sides by $4$: $x^{2}-8x-10=0$."},{"title":"Compute the target value","content":"So $x^{2}-8x = 10$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

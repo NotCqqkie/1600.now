@@ -1,15 +1,1 @@
-{
-  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute the coefficient to each term",
-      "content": "The expression $9(x^{2}+6)$ has the coefficient 9 multiplying a binomial. Using the distributive property, we distribute 9 to both terms inside the parentheses: $$9(x^{2}+6) = 9 \\cdot x^{2} + 9 \\cdot 6$$"
-    },
-    {
-      "title": "Simplify the products",
-      "content": "Compute each product: $9 \\cdot x^{2} = 9x^{2}$ and $9 \\cdot 6 = 54$. Combining these gives us $$9x^{2} + 54$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_2","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $9$ across each term in the parentheses:$$9(x^2+6)=9x^2+54$$"},{"title":"Match to the answer choices","content":"The simplified expression is $9x^2+54$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

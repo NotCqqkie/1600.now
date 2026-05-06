@@ -1,15 +1,1 @@
-{
-  "questionId": "72ebc024",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the GCF of both terms",
-      "content": "The original expression is $16x^3y^2 + 14xy$. To factor, find the greatest common factor of the two terms.<br/><ul><li>Coefficients: $\\gcd(16, 14) = 2$</li><li>Variable $x$: minimum power is $x^1$</li><li>Variable $y$: minimum power is $y^1$</li></ul>The GCF is $2xy$."
-    },
-    {
-      "title": "Factor out the GCF",
-      "content": "Divide each term by $2xy$:<br/>$$\\frac{16x^3y^2}{2xy} = 8x^2y$$<br/>$$\\frac{14xy}{2xy} = 7$$<br/>Factoring out $2xy$ from the original expression:<br/>$$16x^3y^2 + 14xy = 2xy(8x^2y + 7)$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"72ebc024","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF of $16x^3y^2$ and $14xy$ is $2xy$. Factor it out:$$16x^3y^2+14xy=2xy(8x^2y+7)$$"},{"title":"Match to the answer choices","content":"The factored form is $2xy(8x^2y+7)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

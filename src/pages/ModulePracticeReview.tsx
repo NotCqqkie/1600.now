@@ -64,7 +64,7 @@ const ModulePracticeReview = () => {
         <div className="space-y-3 text-center">
           <h1
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(34px, 4.3vw, 60px)",
               fontWeight: 400,
               letterSpacing: "-0.05em",
@@ -112,7 +112,7 @@ const ModulePracticeReview = () => {
                 key={question.stableId}
                 onClick={() =>
                   navigate(
-                    `/bank/${module.subject}/${module.questions[question.number - 1]?.bankQuestion.id}?bankType=past&practice=true&idx=${question.number}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`,
+                    `/bank/${module.subject}/${module.questions[question.number - 1]?.bankQuestion.sourceId}?bankType=past&practice=true&idx=${question.number}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`,
                   )
                 }
                 className={cn(
@@ -137,7 +137,7 @@ const ModulePracticeReview = () => {
             className="bg-transparent"
             asChild
           >
-            <Link to={`/bank/${module.subject}/${module.questions[Math.min(session.currentIndex, module.questions.length - 1)]?.bankQuestion.id}?bankType=past&practice=true&idx=${session.currentIndex + 1}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`}>
+            <Link to={`/bank/${module.subject}/${module.questions[Math.min(session.currentIndex, module.questions.length - 1)]?.bankQuestion.sourceId}?bankType=past&practice=true&idx=${session.currentIndex + 1}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`}>
               Back
             </Link>
           </Button>

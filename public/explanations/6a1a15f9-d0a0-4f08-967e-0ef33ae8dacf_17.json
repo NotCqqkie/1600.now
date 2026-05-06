@@ -1,15 +1,1 @@
-{
-  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures around the blank",
-      "content": "The left side is <strong>an independent clause:</strong> \u201cSuch interpretations are ultimately speculative\u201d (subject + verb + complement).<br/><br/>The right side is <strong>a complete clause that will become dependent</strong> once \u201cthough\u201d is placed before it: \u201cthe object's gray coloration may be an incidental effect...\u201d<br/><br/>This is a joining problem: we need the right punctuation to connect an independent clause to a dependent clause."
-    },
-    {
-      "title": "Apply the subordinating conjunction rule",
-      "content": "\u201dThough\u201d is a <strong>subordinating conjunction</strong> \u2014 it introduces a dependent (subordinate) clause. The rule: <strong>join an independent clause to a dependent clause with a comma.</strong><br/><br/>The correct form is IC, SC: \u201cSuch interpretations are ultimately speculative, though the object's gray coloration may be an incidental effect...\u201d<br/><br/>Choice A introduces a semicolon after \u201cthough\u201d (breaking the dependent clause with extra punctuation), choice B adds a comma after \u201cthough\u201d (creating a comma splice), and choice C uses a semicolon before the dependent clause (violating the subordinating conjunction rule\u2014semicolons join two independent clauses, not IC + DC).<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures around the blank", "content": "The left side is <strong>an independent clause:</strong> “Such interpretations are ultimately speculative” (subject + verb + complement).<br/><br/>The right side is <strong>a complete clause that will become dependent</strong> once “though” is placed before it: “the object's gray coloration may be an incidental effect...”<br/><br/>This is a joining problem: we need the right punctuation to connect an independent clause to a dependent clause."}, {"title": "Apply the subordinating conjunction rule", "content": "The keyed punctuation is choice A (“speculative, though;”): the comma sets off the connector “though,” and the semicolon then breaks before the next clause. Choice B doubles the comma after “though,” choice C inserts a semicolon before “though,” and choice D omits the semicolon needed before the next clause. That matches choice A — <strong>A</strong> is correct."}]}

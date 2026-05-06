@@ -1,15 +1,1 @@
-{
-  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_10",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the slope from equal outputs",
-      "content": "Since $f(0) = 7$ and $f(2) = 7$, the linear function outputs the same $y$-value at two different $x$-values. This is only possible if the slope is 0. A linear function with slope 0 is a horizontal line."
-    },
-    {
-      "title": "Write and verify the equation",
-      "content": "With slope 0 and $f(0) = 7$, the $y$-intercept is 7. The equation is $f(x) = 7$. Verify: $f(0) = 7$ \u2713 and $f(2) = 7$ \u2713. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_10", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the slope", "content": "Two points on the line have the same output: $f(0)=f(\\cdot)=7$. Slope $=\\dfrac{7-7}{\\Delta x}=0$, so $f$ is constant."}, {"title": "Identify the answer", "content": "A constant function with value $7$ is $f(x)=7$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

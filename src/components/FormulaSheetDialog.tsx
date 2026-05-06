@@ -43,7 +43,7 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={handleToggle}>
+      <Button variant="outline" size="sm" onClick={handleToggle} data-tour="reference-button">
         <FileText className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Reference Sheet"}
       </Button>

@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_5",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast signal",
-      "content": "The phrase <strong>\u201con the other hand\u201d</strong> marks where the sentence shifts from defining vertical gene transfer to defining horizontal gene transfer. This contrast structure is how the sentence functions\u2014one process is explained through its distinction from the other."
-    },
-    {
-      "title": "Match the function to the choices",
-      "content": "B correctly identifies the function: the sentence explains one biological process (horizontal gene transfer) by contrasting it with a similar but distinct process (vertical gene transfer). The other three fail to recognize this contrastive purpose\u2014A proposes future research, C argues they're more similar than shown, and D misattributes later analytical work. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cea66aee-3a10-4bb9-b653-46ec49321824_5","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify the function","content":"The underlined sentence uses <em>on the other hand</em> to define horizontal gene transfer by contrasting it with vertical gene transfer. Its job is to explain one process via its distinction from a similar one."},{"title":"Match to the choices","content":"That contrastive purpose is exactly what choice B describes. A (future research), C (claims similarity), and D (flawed perception) all miss the contrast structure. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

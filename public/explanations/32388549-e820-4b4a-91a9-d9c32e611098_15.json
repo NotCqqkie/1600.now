@@ -1,15 +1,1 @@
-{
-  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_15",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read intercepts",
-      "content": "From the graph, the line crosses the x\u2011axis at <strong>(3,0)</strong> and the y\u2011axis at <strong>(0,\u22125)</strong>."
-    },
-    {
-      "title": "Derive equation from intercepts",
-      "content": "Using intercept form $$\frac{x}{3} + \frac{y}{-5} = 1$$ multiply both sides by 15: $$5x - 3y = 15.$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "32388549-e820-4b4a-91a9-d9c32e611098_15", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read intercepts", "content": "From the graph, the line crosses the x‑axis at <strong>(3,0)</strong> and the y‑axis at <strong>(0,−5)</strong>."}, {"title": "Derive equation from intercepts", "content": "Using intercept form $$\\frac{x}{3} + \\frac{y}{-5} = 1$$ multiply both sides by 15: $$5x - 3y = 15.$$ That matches choice A — <strong>A</strong> is correct."}]}

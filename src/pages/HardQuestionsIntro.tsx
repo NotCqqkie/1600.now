@@ -18,7 +18,7 @@ const HardQuestionsIntro = () => {
           <div className="relative px-6 pb-10 pt-10 sm:px-10 sm:pt-12">
             <h1
               className="max-w-3xl text-[clamp(2.4rem,5vw,4.6rem)] leading-[0.94] tracking-[-0.04em] text-foreground"
-              style={{ fontFamily: "'Instrument Serif', Georgia, serif" }}
+              style={{ fontFamily: "'Geist', Georgia, serif" }}
             >
               100 Hard Math
               <br />
@@ -26,7 +26,7 @@ const HardQuestionsIntro = () => {
             </h1>
 
             <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              These questions mirror the hardest problems on the real SAT — the ones that appear at the end of each math module. Master them and you'll handle ~80% of the hardest questions on both modules with confidence.
+              These questions mirror the hardest problems on the real SAT — the ones appearing from 17-22 on math modules. Master them and you'll be able to handle any question with confidence.
             </p>
 
             <div className="mt-8">

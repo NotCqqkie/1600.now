@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_10",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize as difference of squares",
-      "content": "The equation is $x^2 - \\frac{25}{81} = 0$. Recognize that $\\frac{25}{81} = \\left(\\frac{5}{9}\\right)^2$, so we can rewrite as: $$x^2 - \\left(\\frac{5}{9}\\right)^2 = 0$$"
-    },
-    {
-      "title": "Factor and identify solutions",
-      "content": "Apply the difference of squares formula: $$\\left(x - \\frac{5}{9}\\right)\\left(x + \\frac{5}{9}\\right) = 0$$ Each factor equals zero when $x = \\frac{5}{9}$ or $x = -\\frac{5}{9}$. These are two distinct real solutions. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_10", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Isolate $x^2$: $$x^2=\\tfrac{25}{81}.$$ The right side is positive, so $x=\\pm\\tfrac{5}{9}$."}, {"title": "Count the solutions", "content": "There are two real solutions, $\\tfrac{5}{9}$ and $-\\tfrac{5}{9}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_3",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor 63 and x\u00b2",
-      "content": "To express $63x^2$ as a product, factor both parts:$$63x^2 = (7 \\times 9) \\cdot (x \\times x)$$"
-    },
-    {
-      "title": "Regroup as the product of two factors",
-      "content": "Pair each factor of 63 with a factor of $x^2$:$$(7 \\times 9) \\cdot (x \\times x) = (7 \\cdot x) \\cdot (9 \\cdot x) = (7x)(9x)$$That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"471ccf49-2c32-4c56-9f7e-1788dbe63527_3","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the expression","content":"Rewrite $63x^2$ as a product. Since $63=7\\cdot 9$ and $x^2=x\\cdot x$:$$63x^2=(7x)(9x)$$"},{"title":"Match to the answer choices","content":"The factored form is $(7x)(9x)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "5805e747",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute the negative sign",
-      "content": "Rewrite the subtraction by distributing the negative sign to each term in the second group: $$7x^3 + 7x - 6x^3 - (-3x) = 7x^3 + 7x - 6x^3 + 3x$$"
-    },
-    {
-      "title": "Combine like terms",
-      "content": "Collect the $x^3$ terms and the $x$ terms separately:<ul><li>$x^3$ terms: $7x^3 - 6x^3 = x^3$</li><li>$x$ terms: $7x + 3x = 10x$</li></ul>The simplified expression is $x^3 + 10x$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5805e747","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute the negative and combine like terms:$$=7x^3+7x-6x^3+3x$$$$=x^3+10x$$"},{"title":"Match to the answer choices","content":"The simplified expression is $x^3+10x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

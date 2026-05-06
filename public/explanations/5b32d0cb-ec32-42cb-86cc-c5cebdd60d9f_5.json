@@ -1,15 +1,1 @@
-{
-  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute y = 0 into the second equation",
-      "content": "Since the first equation gives $y = 0$, substitute it into the second equation:\n$$0 = 8(x^2 - 36)$$\nDivide both sides by 8:\n$$x^2 - 36 = 0$$"
-    },
-    {
-      "title": "Solve for x and match to the choices",
-      "content": "Rearrange to $x^2 = 36$. Taking square roots: $x = 6$ or $x = -6$. <br/> When $y = 0$, the ordered pairs are $(6, 0)$ and $(-6, 0)$. Only $(6, 0)$ appears in the choices. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5","correctAnswer":"C","section":"Math","steps":[{"title":"Test the choices in each equation","content":"We need $y=0$ and $y=8(x^2-36)$. Setting $0=8(x^2-36)$ gives $x^2=36$, so $x=\\pm 6$. The pair $(6,0)$ satisfies both."},{"title":"Identify the matching pair","content":"Only $(6,0)$ from the list works in both equations. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

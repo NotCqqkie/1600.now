@@ -1,11 +1,1 @@
-{
-  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_15",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by x to isolate 6x\u00b2",
-      "content": "Start with $\\frac{48}{x}=6x$. Multiply both sides by $x$ to eliminate the fraction:<br/><br/>$$x \\cdot \\frac{48}{x} = x \\cdot 6x$$<br/><br/>$$48 = 6x^2$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ceb2e234-3ab3-4376-b66a-cf8535278d77_15","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the cross-multiplication from the given condition","content":"Multiply both sides by $x$: $48 = 6x^{2}$."},{"title":"Compute the target value","content":"So $6x^{2} = 48$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

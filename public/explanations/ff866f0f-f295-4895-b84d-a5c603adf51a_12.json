@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the evidence needed for the claim",
-      "content": "The passage asserts that forest regrowth began by the mid-1980s following deforestation. The supporting evidence must show forest cover <strong>increasing</strong> after that deforestation period."
-    },
-    {
-      "title": "Match that increase to the data",
-      "content": "The graph shows increases in all three land use classes from 1979 through 2000\u2014from the deforestation low point to well into the recovery period. This directly demonstrates the regrowth the passage claims. Choices A, C, and D either compare amounts at single time points, show the deforestation period itself, or illustrate similarity rather than growth. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_12","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify the claim","content":"The blank must give graph data showing <em>natural forest regrowth</em> after the mid-1980s. The completing evidence must show forest cover <strong>increasing</strong> in the post-1980s period."},{"title":"Match the data","content":"An increase in forest cover for all classes from 1979 to 2000 directly evidences regrowth across the recovery period. The other options describe declines, single-year comparisons, or similarities that don't demonstrate growth. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

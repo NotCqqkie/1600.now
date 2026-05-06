@@ -1,15 +1,1 @@
-{
-  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive",
-      "content": "\u201dCosta Rica\u201d clarifies which \u201cfellow OECD nations\u201d are being referenced. This is an appositive \u2014 a noun phrase that specifies or renames a general category."
-    },
-    {
-      "title": "Apply appositive punctuation",
-      "content": "Standard English requires a comma to mark the boundary between the general noun \u201cnations\u201d and its appositive \u201cCosta Rica,\u201d giving us \u201cfellow OECD nations, Costa Rica and Switzerland.\u201d The other choices either omit the comma, use a colon to introduce a list, or use a semicolon for independent clauses\u2014none of which correctly punctuate an appositive. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The phrase \"fellow OECD member <em>Costa Rica</em>\" treats the country name as a restrictive appositive — it specifies which member nation is meant, so it must <em>not</em> be set off by punctuation."}, {"title": "Match to choices", "content": "Only the choice with no punctuation between \"nation\" and \"Costa Rica\" is correct. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

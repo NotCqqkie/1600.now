@@ -1,5 +1,5 @@
 const loadAnalyticsBundle = async () => {
-  const { analyticsPromise } = await import("./firebase");
+  const { analyticsPromise } = await import("./firebaseAnalytics");
   return analyticsPromise;
 };
 

@@ -44,7 +44,7 @@ const Profile = () => {
         <div className="flex items-center justify-between gap-4">
           <h1
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(24px, 3vw, 32px)",
               fontWeight: 400,
               letterSpacing: "-0.02em",

@@ -1,0 +1,790 @@
+[
+  {
+    "question_number": 1,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "The height of each bar in the bar graph given represents the number of students that voted for the activity specified at the bottom of the bar. The bar for activity 3 has a height that is between 35 and 40. In other words, the number of students that chose activity 3 is between 35 students and 40 students. Of the given choices, 39 is the only value between 35 and 40. Therefore, 39 students chose activity 3.",
+    "incorrect_explanations": {
+      "A": "It may result from conceptual errors.",
+      "C": "This is the number of students that chose activity 5, not activity 3.",
+      "D": "It may result from conceptual errors."
+    }
+  },
+  {
+    "question_number": 2,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "Let $x$ represent the percentage of 300 that is 75. This can be written as $\\frac{x}{100}(300) = 75$, or $3x = 75$. Dividing both sides of this equation by 3 yields $x = 25$. Therefore, 25% of 300 is 75.",
+    "incorrect_explanations": {
+      "B": "50% Of 300 is 150, not 75.",
+      "C": "75% Of 300 is 225, not 75.",
+      "D": "225% Of 300 is 675, not 75."
+    }
+  },
+  {
+    "question_number": 3,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "Multiplying the left- and right-hand sides of the given equation by 25 yields $x^2 = 900$. Taking the square root of the left- and right-hand sides of this equation yields $x = 30$ or $x = -30$. Of these two solutions, only 30 is given as a choice.",
+    "incorrect_explanations": {
+      "A": "This is a solution to the equation $x^2 = 36$.",
+      "C": "It may result from conceptual or calculation errors.",
+      "D": "It may result from conceptual or calculation errors."
+    }
+  },
+  {
+    "question_number": 4,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "The given phrase \"8 times a number $x$\" can be represented by the expression $8x$. The given phrase \"3 more than\" indicates an increase of 3 to a quantity. Therefore \"3 more than 8 times a number $x$\" can be represented by the expression $8x + 3$. Since it's given that 3 more than 8 times a number $x$ is equal to 83, it follows that $8x + 3$ is equal to 83, or $8x + 3 = 83$. Therefore, the equation that represents this situation is $8x + 3 = 83$.",
+    "incorrect_explanations": {
+      "A": "This equation represents 3 times the quantity 8 times a number $x$ is equal to 83.",
+      "B": "This equation represents 8 times a number $x$ is equal to 3 more than 83.",
+      "C": "This equation represents 8 more than 3 times a number $x$ is equal to 83."
+    }
+  },
+  {
+    "question_number": 5,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "It's given that $t$ represents the number of monthly deposits. In the given function $f(t) = 100 + 25t$, the coefficient of $t$ is 25. This means that for every increase in the value of $t$ by 1, the value of $f(t)$ increases by 25. It follows that with each monthly deposit, the amount in Hana's bank account increased by $25.",
+    "incorrect_explanations": {
+      "B": "Before Hana made any monthly deposits, the amount in her bank account was $100.",
+      "C": "After 1 monthly deposit, the amount in Hana's bank account was $125.",
+      "D": "It may result from conceptual errors."
+    }
+  },
+  {
+    "question_number": 6,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "9",
+    "rationale": "It's given that the customer spent $27 to purchase oranges at $3 per pound. Therefore, the number of pounds of oranges the customer purchased is $\\frac{\\$27}{\\$3\\text{ per pound}}$, or 9 pounds.",
+    "incorrect_explanations": {}
+  },
+  {
+    "question_number": 7,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "10",
+    "rationale": "It's given that the cost for the entire purchase was $27 after a coupon was used for $63 off the entire purchase. Adding the amount of the coupon to the purchase price yields $27 + 63 = 90$. Thus, the cost for the entire purchase before using the coupon was $90. It's given that Nasir bought 9 storage bins. The original price for 1 storage bin can be found by dividing the total cost by 9. Therefore, the original price, in dollars, for 1 storage bin is $\\frac{90}{9}$, or 10.",
+    "incorrect_explanations": {}
+  },
+  {
+    "question_number": 8,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "An equation that defines a linear function $f$ can be written in the form $f(x) = mx + b$, where $m$ and $b$ are constants. It's given in the table that when $x = 0$, $f(x) = 29$. Substituting 0 for $x$ and 29 for $f(x)$ in the equation $f(x) = mx + b$ yields $29 = m(0) + b$, or $29 = b$. Substituting 29 for $b$ in the equation $f(x) = mx + b$ yields $f(x) = mx + 29$. It's also given in the table that when $x = 1$, $f(x) = 32$. Substituting 1 for $x$ and 32 for $f(x)$ in the equation $f(x) = mx + 29$ yields $32 = m(1) + 29$. Subtracting 29 from both sides of this equation yields $3 = m$. Substituting 3 for $m$ in the equation $f(x) = mx + 29$ yields $f(x) = 3x + 29$.",
+    "incorrect_explanations": {
+      "B": "It may result from conceptual or calculation errors.",
+      "C": "It may result from conceptual or calculation errors."
+    }
+  },
+  {
+    "question_number": 9,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "In similar triangles, corresponding angles are congruent. It's given that right triangles $PQR$ and $STU$ are similar, where angle $P$ corresponds to angle $S$. It follows that angle $P$ is congruent to angle $S$. In the triangles shown, angle $R$ and angle $U$ are both marked as right angles, so angle $R$ and angle $U$ are corresponding angles, and angle $Q$ and angle $T$ are corresponding angles, and thus, angle $Q$ is congruent to angle $T$. It's given that the measure of angle $Q$ is $18\u00b0$, so the measure of angle $T$ is also $18\u00b0$. Angle $U$ is a right angle, so the measure of angle $U$ is $90\u00b0$. The sum of the measures of the interior angles of a triangle is $180\u00b0$. Thus, the sum of the measures of angles $S$, $T$, and $U$ is $180\u00b0$. Let $s$ represent the measure, in degrees, of angle $S$. It follows that $s + 18 + 90 = 180$, or $s + 108 = 180$. Subtracting 108 from both sides of this equation yields $s = 72$. Therefore, if the measure of angle $Q$ is 18 degrees, then the measure of angle $S$ is 72 degrees.",
+    "incorrect_explanations": {
+      "A": "This is the measure of angle $T$.",
+      "C": "It may result from conceptual errors.",
+      "D": "This is the sum of the measures of angle $S$ and angle $U$."
+    }
+  },
+  {
+    "question_number": 10,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "The data points suggest that as the variable $x$ increases, the variable $y$ decreases, which implies that an appropriate linear model for the data has a negative slope. The data points also show that when $x$ is close to 0, $y$ is greater than 9. Therefore, the $y$-intercept of the graph of an appropriate linear model has a $y$-coordinate greater than 9. An equation of an appropriate linear model is of the form $y = a + bx$, where $a$ and $b$ are constants, has a $y$-intercept with a $y$-coordinate of $a$ and a slope of $b$. Of the given choices, only Choice D represents a graph that has a negative slope and a $y$-intercept with a $y$-coordinate greater than 9.",
+    "incorrect_explanations": {
+      "A": "The graph of this equation has a positive slope, not a negative slope, and a $y$-intercept with a $y$-coordinate less than 1, not greater than 9.",
+      "B": "The graph of this equation has a $y$-intercept with a $y$-coordinate less than 1, not greater than 9.",
+      "C": "The graph of this equation has a positive slope, not a negative slope."
+    }
+  },
+  {
+    "question_number": 11,
+    "section": "Math",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "The number of birds can be found by calculating the value of $b$ when $r = 16$. Substituting 16 for $r$ in the given equation yields $b = f(16)$.",
+    "incorrect_explanations": {}
+  },
+  {
+    "question_number": 1,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "It most logically completes the text's discussion of the OSIRIS-REx spacecraft's contact with the asteroid 101955 Bennu. In this context, \"collected\" means acquired and took away. The text indicates that although the boulders on the asteroid's surface caused some unforeseen problems, OSIRIS-REx was able to gather a sample to return to Earth. This context suggests that OSIRIS-REx successfully collected a sample of 101955 Bennu.",
+    "incorrect_explanations": {
+      "A": "In this context \"attached\" means connected or affixed. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to bring to Earth; it doesn't suggest that the spacecraft attached anything to the asteroid.",
+      "C": "In this context \"followed\" means tracked or traveled behind and the text discusses OSIRIS-REx's brief encounter with 101955 Bennu during which the spacecraft gathered a sample to bring to Earth. The text doesn't suggest that the spacecraft tracked the sample, and it's not clear what it would mean for the spacecraft to travel behind the sample it collected.",
+      "D": "In this context \"replaced\" means put back or returned. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to bring to Earth but doesn't suggest that anything was returned to the asteroid."
+    }
+  },
+  {
+    "question_number": 2,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "It most logically completes the text's discussion of the Moon's surface. In this context, \"reflect\" means show or make apparent. The text states that because the surface of the Moon was softer when the Moon was still forming than it is now, early asteroid and meteoroid impacts \"would have left less of an impression\" and, as a result, evidence of them may no longer exist. This context supports the idea that the surface of the Moon may not accurately reflect signs of early impact events.",
+    "incorrect_explanations": {
+      "B": "It wouldn't make sense to say that the surface of the Moon may not accurately \"receive,\" or acquire or experience, early impacts from asteroids or meteoroids. The text indicates that the impacts have already occurred, and it isn't clear how the Moon's surface could be accurate or inaccurate in experiencing them.",
+      "C": "It is incorrect because it wouldn't make sense to say that the surface of the Moon may not accurately \"evaluate,\" or determine the significance or condition of, early impacts from asteroids or meteoroids, since that would suggest that it's possible for the Moon's surface to make a decision of any kind.",
+      "D": "In this context, \"mimic\" would mean to deliberately simulate or closely imitate something. It wouldn't make sense to say that the surface of the Moon may not accurately mimic early asteroid and meteoroid impacts, since that would suggest that it's possible for the Moon to deliberately imitate something."
+    }
+  },
+  {
+    "question_number": 3,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "It most logically completes the text's discussion about handedness in animals. As used in this context, \"recognizable\" means apparent or identifiable. The text indicates that handedness is \"easy to observe in humans,\" but that animal behavior researchers use several tasks to determine handedness in other animals. This context and the use of \"less\" before the blank indicate that compared with handedness in humans, handedness in other animals is less recognizable.",
+    "incorrect_explanations": {
+      "B": "It is incorrect because there's nothing in the text to suggest that handedness is less \"intriguing,\" or fascinating, in nonhuman animals than it is in humans. The text focuses on how easy it is to observe handedness in humans as compared with other animals; the text doesn't suggest that handedness is more fascinating in humans.",
+      "C": "It is incorrect because there's nothing in the text to suggest that handedness is less \"significant,\" or important or meaningful, in nonhuman animals than it is in humans. The text focuses on how easy it is to observe handedness in humans as compared with other animals; the text doesn't suggest that handedness is more significant in humans.",
+      "D": "It is incorrect because \"useful,\" or functional or helpful, wouldn't make sense in context. The text focuses on the ease with which researchers can determine whether an animal or person is right- or left-handed, not on how useful handedness in nonhuman animals is compared with handedness in humans."
+    }
+  },
+  {
+    "question_number": 4,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "C",
+    "rationale": "It most logically completes the text's discussion of the influences on Banisadr's work. As used in this context, \"unimportant\" means trivial or lacking value. \"It is by no means\" establishes that the word that goes in the blank is contradicted by other information; the material that follows \"indeed\" later in the sentence provides the contradicting information\u2014namely, that Banisadr himself cites Bosch as an inspiration. In other words, the sentence indicates that Bosch's influence on Banisadr is significant, and thus recognizing that influence is by no means unimportant.",
+    "incorrect_explanations": {
+      "A": "It is incorrect because it wouldn't make sense to say that recognizing Bosch's influence on Banisadr isn't \"substantial,\" or meaningful. The text states that Banisadr himself cites Bosch as an influence.",
+      "B": "It is incorrect because it wouldn't make sense to say that it isn't \"satisfying,\" or pleasing, to recognize Bosch's influence on Banisadr. The text states that Banisadr himself cites Bosch as an influence.",
+      "D": "It is incorrect because it wouldn't make sense to say that recognizing Bosch's influence on Banisadr isn't \"appropriate,\" or suitable. The text indicates that Banisadr himself notes that Bosch's work has had an effect on him."
+    }
+  },
+  {
+    "question_number": 5,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "It most accurately describes the main purpose of the text. The text begins by stating that the new picture \"seems to fit in\" with the other items that the shop owner has. The text goes on to illustrate that point by describing the other pictures the shop owner has, indicating that the shop owner is fussy because she doesn't think the new picture belongs in the store. In the second paragraph, however, the text indicates that the shop owner is \"secretly proud of his acquisition.\" The main purpose of the text is thus to reveal the shop owner's conflicted feelings about the new picture.",
+    "incorrect_explanations": {
+      "B": "It is incorrect because the text doesn't suggest that the shop owner resents the young man who sold him the new picture; in fact, the text gives no indication of the owner's feelings about the young man at all.",
+      "C": "Although the text indicates that the new picture is different from the other items in the shop, there's no suggestion in the text that the shop owner prizes either the new picture or the pictures of the city, pets, and landscapes more than he prizes any other items.",
+      "D": "It is incorrect because the text doesn't describe what the new picture looks like; rather, the text identifies some of the other kinds of images that the shop owner has and states that they're different from the new picture without explaining how they're different."
+    }
+  },
+  {
+    "question_number": 6,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "It most accurately describes the overall structure of the text. First, the speaker describes observing a \"most beautiful\" sight: a tree (\"black cypress\") standing out from the golden sky behind it, looking like a person's finger \"pointing upwards\" and appearing \"sensitive\" and \"exquisite.\" Then the speaker wonders about the image's meaning, asking why the finger is black and why it's pointing upward. Thus, the text moves from the speaker's description of a distinctive sight in nature to her pondering about what meaning to attribute to that sight.",
+    "incorrect_explanations": {
+      "A": "The speaker assesses a natural sight\u2014a \"black cypress\" tree standing \"against a gold, gold sky\" like a pointed finger\u2014but doesn't question the accuracy of her own assessment. Although she wonders why the finger, which is really a tree, is black and why it's pointing, the speaker doesn't suggest that her belief that the tree resembles a finger is wrong.",
+      "C": "Although the speaker describes seeing a \"black cypress\" tree standing \"against a gold, gold sky\" like a pointed finger, she wonders about that natural image (asking why the finger, which is really a tree, is black and why it's pointing) and doesn't give any indication that any people are present in the scene.",
+      "D": "Although the speaker examines and wonders about her surroundings\u2014a \"black cypress\" tree standing \"against a gold, gold sky\" like a pointed finger\u2014she doesn't address her own emotional state or consider how it's affected by her surroundings."
+    }
+  },
+  {
+    "question_number": 7,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "It best describes the overall structure of the text. The speaker begins by stating that he has heard that others are accusing him of seeking to destroy institutions. The speaker then addresses this criticism by stating that he is \"neither for nor against institutions.\" Instead, the speaker states that his ultimate goal is to instill \"the institution of the dear love of comrades\" everywhere in the country. Therefore, the overall structure of the text is best described as an address of criticism followed by an announcement of a grand ambition.",
+    "incorrect_explanations": {
+      "A": "While the speaker does address an opinion of him that he believes to be untrue, he doesn't indicate that this attitude has become increasingly prevalent. The speaker also concludes by explaining his goal for the future rather than by sharing a new view.",
+      "B": "The text doesn't portray the speaker as isolated or regretful, and the speaker gestures toward a hope for societal change but doesn't offer an explicit prediction that it will happen.",
+      "C": "The speaker addresses criticism of him that he believes to be false; he doesn't admit any personal shortcomings. Moreover, the speaker concludes by stating a goal he has rather than showcasing his achievements."
+    }
+  },
+  {
+    "question_number": 8,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "It most accurately describes the function of the third sentence within the overall structure of the text. The third sentence makes a generalization, asserting that evolutionary links between predators and prey can persist across great expanses of time and distance. This generalization is exemplified by the text's discussion of the relationship between mimosa trees and *B. terrenus* beetles. When mimosa trees were introduced to North America in 1785, no *B. terrenus* beetles were present, so the relationship between the trees and the beetles that exists in their native East Asia was disrupted. When the beetles were introduced to North America more than 200 years later, however, they quickly attacked mimosa trees, illustrating the generalization that links between predators and prey \"can persist across centuries and continents.\"",
+    "incorrect_explanations": {
+      "A": "The text doesn't indicate that Chang and colleagues were investigating any particular hypothesis. According to the text, Chang and colleagues were simply monitoring mimosa trees when the beetles happened to be introduced to the area.",
+      "C": "The third sentence doesn't discuss any particular species (either the species mentioned elsewhere in the text or any other) and doesn't help explain why species spread to new locations."
+    }
+  },
+  {
+    "question_number": 9,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "It describes the most likely way that Graeber and Wengrow (Text 2) would respond to the \"conventional wisdom\" presented in Text 1. According to Text 1, the conventional wisdom about human social systems is that they developed through stages, beginning with hunter-gatherer bands, then moving to clan associations, then chiefdoms, and finally arriving at states with bureaucratic structures. Text 2 indicates that Graeber and Wengrow believe that human social systems have been flexible, shifting between different types of structures, including both hierarchical and collective systems, and that these shifts may have even occurred seasonally. This suggests that Graeber and Wengrow would dispute the idea that developments in social structures have followed a linear progression through distinct stages.",
+    "incorrect_explanations": {
+      "A": "Nothing in Text 2 suggests that Graeber and Wengrow believe that decentralized collective societies are more significant than hierarchical systems. Text 2 is focused on Graeber and Wengrow's view that humans have flexibly shifted among various social structures, not on the importance of particular structures relative to others.",
+      "C": "Text 2 doesn't include any information suggesting that Graeber and Wengrow believe that hierarchies didn't emerge until after the rise of agriculture. In fact, Text 2 indicates that Graeber and Wengrow cite evidence suggesting that some hunter-gatherer groups formed social structures with hierarchical elements (\"communities that included esteemed individuals\") 50,000 years ago, long before the rise of agriculture, which Text 1 says occurred around 12,000 years ago."
+    }
+  },
+  {
+    "question_number": 10,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "It most accurately states the main idea of the text. The text describes Mary's activities in an overgrown hidden garden. It says that she was \"very much absorbed\" and was \"only becoming more pleased with her work every hour\" rather than getting tired of it. She also thinks of garden activities as a \"fascinating sort of play.\" Thus, the main idea of the text is that Mary feels very satisfied when taking care of the garden.",
+    "incorrect_explanations": {
+      "A": "The text never makes any mention of Mary's chores.",
+      "B": "The text indicates that Mary finds pulling up weeds to be fascinating, not boring.",
+      "C": "Mary thinks of garden activities as play, not as something necessary to do to create a space to play."
+    }
+  },
+  {
+    "question_number": 11,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "C",
+    "rationale": "It presents a description of how the human mind is like a flower that is directly supported by the text. The text compares the needs of a \"fragile and lovely flower\" to those of the speaker's \"tender mind\": both need to be fed if they're going to survive. Without such feeding, they'll \"beginneth straightway to languish,\" or weaken. Thus, the text suggests that the human mind is like a flower in that they both need proper nourishment in order to thrive.",
+    "incorrect_explanations": {
+      "A": "The text doesn't address the passage of time or describe either the human mind or a flower as becoming increasingly vigorous.",
+      "B": "The text doesn't suggest that human minds or flowers draw strength from changes in weather. The references to rain in the text pertain to a flower's need for water rather than the general effects of changing weather.",
+      "D": "The text doesn't suggest that the human mind or a flower will persist regardless of challenging circumstances. In fact, the text indicates that they'll both languish right away if not given what they need."
+    }
+  },
+  {
+    "question_number": 12,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "It most accurately states the main idea of the text. The text conveys that Buck views most people \"as nothing.\" The text explains that Buck won't acknowledge people other than Thornton unless they appear friendly toward Thornton, and even then he's only reluctantly accepting. Thus, the text focuses on the idea that Thornton has a special status in Buck's mind, with Buck holding him in higher regard than other people.",
+    "incorrect_explanations": {
+      "A": "The text conveys that Buck isn't social with people other than Thornton but doesn't address Buck's life or temperament before he lived with Thornton.",
+      "B": "The text conveys that Buck doesn't really care about people other than Thornton and is aloof toward them. However, there's no indication that Buck mistrusts and avoids people generally; indeed, he accepts Thornton, who is a human.",
+      "C": "The text refers to random travelers praising and petting Buck and Thornton's partners giving Buck favors, but there's no indication that any of these people are Thornton's friends or that they have a particular fondness for Buck."
+    }
+  },
+  {
+    "question_number": 13,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "It uses data from the graph to accurately complete the text. The graph shows the number of organic farms located in each of six US states in 2016: between 2,600 and 2,900 in California; between 1,200 and 1,400 in Wisconsin; between 1,000 and 1,200 in New York; approximately 800 in Pennsylvania; and between 600 and 800 in both Iowa and Washington. The last sentence of the text provides information about the number of organic farms in 2016, first describing the number in California. The best completion of the sentence is the choice that accurately describes the number of organic farms in 2016 in another state, which is the assertion that Washington had between 600 and 800 organic farms.",
+    "incorrect_explanations": {
+      "B": "The graph indicates that there were between 1,000 and 1,200 organic farms in New York, not fewer than 800 organic farms.",
+      "C": "While the graph indicates that there were between 1,200 and 1,400 organic farms in Wisconsin in 2016, there were only between 600 and 800 in Iowa.",
+      "D": "The graph indicates that in 2016 there were approximately 800 organic farms in Pennsylvania, not more than 1,200."
+    }
+  },
+  {
+    "question_number": 18,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "It presents the conclusion that most logically completes the text's discussion about the significance of the cupid found at Pompeii. The text indicates that the cupid is near a statue of a female figure who is fishing, and it goes on to indicate that because Venus is associated with cupids, some scholars believe the female figure to be the goddess Venus. But the text then says that, according to archaeologist Carla Brain, cupids may have also been associated with the activity of fishing, which, if true, would suggest that the mere appearance of a cupid near a female figure engaged in fishing does not indicate with certainty that the figure is Venus (that is, the cupid might be associated with fishing, and the figure might be anyone at all).",
+    "incorrect_explanations": {
+      "B": "The text says nothing about how often Venus was depicted fishing in Roman art; it only implies that in certain instances a female figure may or may not be Venus.",
+      "C": "Carla Brain's proposed explanation for the presence of the cupids makes no reference to the female figure, and so the possibility that the figure in the mosaic is in fact Venus cannot be definitively eliminated.",
+      "D": "There is nothing in the text to suggest that the only reasonable way to interpret the figure is as Venus."
+    }
+  },
+  {
+    "question_number": 19,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "The convention being tested is the use of plural and possessive nouns. The plural possessive noun \"people's\" and the plural noun \"stories\" correctly indicate that there are multiple stories from multiple people.",
+    "incorrect_explanations": {
+      "B": "The context requires the plural possessive noun \"people's\" and the plural noun \"stories,\" not the plural noun \"peoples\" and the singular possessive noun \"story's.\"",
+      "C": "The context requires the plural possessive noun \"people's,\" not the plural noun \"peoples.\"",
+      "D": "The context requires the plural possessive noun \"people's,\" not the singular possessive noun \"story's.\""
+    }
+  },
+  {
+    "question_number": 20,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "The convention being tested is the use of verbs to express tense. In this choice, the present tense verb \"survives\" correctly indicates that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.",
+    "incorrect_explanations": {
+      "A": "The past perfect verb \"had survived\" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.",
+      "B": "The past tense verb \"survived\" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.",
+      "C": "The conditional verb \"would survive\" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose."
+    }
+  },
+  {
+    "question_number": 21,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (\"Defying\u2026fast\") and another sentence that begins with a supplementary phrase (\"During\u2026Olympics\").",
+    "incorrect_explanations": {
+      "A": "When a dash is present in a sentence (\"ran\u2014fast\"), it's not conventional to use another dash (\"fast\u2014during\") to mark the boundary between sentences because it creates a potentially confusing sentence. In this context, a period, semicolon, or colon would be clear and more conventional.",
+      "B": "The sentences (\"Defying\u2026fast\") and (\"during\u2026Olympics\") are fused without punctuation and/or a conjunction.",
+      "C": "A comma can't be used in this way to mark the boundary between sentences."
+    }
+  },
+  {
+    "question_number": 22,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "The convention being tested is subject-verb agreement. The singular verb \"is\" agrees in number with the singular subject \"the triangle.\"",
+    "incorrect_explanations": {
+      "A": "The plural verb \"are\" doesn't agree in number with the singular subject \"the triangle.\"",
+      "B": "The plural verb \"have been\" doesn't agree in number with the singular subject \"the triangle.\"",
+      "C": "The plural verb \"were\" doesn't agree in number with the singular subject \"the triangle.\""
+    }
+  },
+  {
+    "question_number": 23,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon in a conventional way to join the first main clause (\"In 2004\u2026sampler\") and the second main clause (\"in 2014\u2026pillars\").",
+    "incorrect_explanations": {
+      "A": "It results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word \"later\" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction.",
+      "C": "It results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word \"later\" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction.",
+      "D": "It results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word \"later\" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction."
+    }
+  },
+  {
+    "question_number": 24,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "C",
+    "rationale": "The convention being tested is subject-modifier placement. This choice makes the noun phrase \"Julian's 1935 synthesis\" the subject of the sentence and places it immediately after the modifying phrase \"named\u2026years.\" In doing so, this choice clearly establishes that Julian's 1935 synthesis of the alkaloid physostigmine\u2014and not another noun in the sentence\u2014was named in 1999 as one of the greatest achievements by a US chemist in the past hundred years.",
+    "incorrect_explanations": {
+      "A": "It results in a dangling modifier. The placement of the noun \"Julian\" immediately after the modifying phrase illogically suggests that Julian himself was named as one of the greatest achievements by a US chemist in the past hundred years.",
+      "B": "It results in a dangling modifier. The placement of the prepositional phrase \"in 1935\" immediately after the modifying phrase illogically and confusingly suggests that \"in 1935\" was named as one of the greatest achievements by a US chemist in the past hundred years.",
+      "D": "It results in a dangling modifier. The placement of the noun phrase \"the alkaloid physostigmine\" immediately after the modifying phrase illogically and confusingly suggests that the alkaloid physostigmine itself (not the synthesis of it) was named as one of the greatest achievements by a US chemist in the past hundred years."
+    }
+  },
+  {
+    "question_number": 25,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "B",
+    "rationale": "The convention being tested is the punctuation of items in a complex series including internal punctuation. The semicolon after \"nonnative\" is correctly used to separate the first item (\"growing diverse plant species, both native and nonnative\") and the second item (\"fostering scientific research\") in the series of things that botanical gardens are dedicated to. Further, the comma after \"species\" is correctly used to separate the noun phrase \"diverse plant species\" and the supplementary phrase \"both native and nonnative\" that modifies it.",
+    "incorrect_explanations": {
+      "A": "A comma (specifically, the comma after \"nonnative\") can't be used in this way to separate items in a complex series.",
+      "C": "A semicolon can't be used in this way to separate the noun phrase \"diverse plant species\" and the supplementary phrase \"both native and nonnative\" that modifies it. Further, a comma can't be used in this way to separate items in a complex series.",
+      "D": "It fails to use appropriate punctuation to separate \"diverse plant species\" and the supplementary phrase \"both native and nonnative\" that modifies it. Further, a comma can't be used in this way to separate items in a complex series."
+    }
+  },
+  {
+    "question_number": 26,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "The convention being tested is the punctuation of a supplementary word or phrase between two main clauses. This choice correctly uses a comma to separate the supplementary adverb \"however\" from the preceding main clause (\"Okinaka doesn't...single-handedly\") and a semicolon to join the next main clause (\"all...culture\") to the rest of the sentence. Further, placing the semicolon after \"however\" correctly indicates that the information in the preceding main clause (Okinaka doesn't make such decisions single-handedly) is contrary to what might be assumed from the information in the previous sentence (Okinaka sits on the review board that adds new sites to the Hawaii Register of Historic Places).",
+    "incorrect_explanations": {
+      "B": "Placing the semicolon after \"single-handedly\" and the comma after \"however\" illogically indicates that the information in the next main clause (all historical designations must be approved by a group of experts) is contrary to the information in the previous clause (Okinaka doesn't make such decisions single-handedly). Further, it results in a run-on sentence. Commas can't be used in this way to punctuate a supplementary word or phrase between two main clauses.",
+      "C": "It results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction.",
+      "D": "It results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction."
+    }
+  },
+  {
+    "question_number": 27,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "C",
+    "rationale": "\"Finally\" logically signals that the bill passing\u2014following many attempts between 1968 and 1983\u2014is the final, concluding event in the sequence described in the previous sentences.",
+    "incorrect_explanations": {
+      "A": "\"Instead\" illogically signals that the bill passing is an alternative to one of the events described in the previous sentences. It is the final event in the sequence.",
+      "B": "\"Likewise\" illogically signals that the bill passing is similar to one of the events described in the previous sentences. Instead, it is the final event in the sequence.",
+      "D": "\"Additionally\" illogically signals that the bill passing is merely another event described along with the events of the previous sentences. Instead, it is the final, concluding event in the sequence."
+    }
+  },
+  {
+    "question_number": 28,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "\"However\" logically signals that this sentence, which indicates that the Puhahonu volcano may be larger than the Mauna Loa volcano, offers a contrast to or refutation of the previous assumption that Mauna Loa is the largest shield volcano.",
+    "incorrect_explanations": {
+      "A": "\"Secondly\" illogically signals that this sentence merely offers an additional or second thought concerning the previous assumption that Mauna Loa is the largest shield volcano. Instead, the sentence offers a contrast to or refutation of that assumption.",
+      "B": "\"Consequently\" illogically signals that this sentence offers a result or consequence of the previous assumption that Mauna Loa is the largest shield volcano. Instead, the sentence offers a contrast to or refutation of that assumption.",
+      "C": "\"Moreover\" illogically signals that this sentence merely adds to the previous assumption that Mauna Loa is the largest shield volcano. Instead, the sentence offers a contrast to or refutation of that assumption."
+    }
+  },
+  {
+    "question_number": 29,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "\"In addition\" logically signals that the detail in this sentence\u2014that Coleridge-Taylor included traditional African music in his classical compositions\u2014adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way.",
+    "incorrect_explanations": {
+      "B": "\"Actually\" illogically signals that the detail in this sentence is surprising in light of the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry.",
+      "C": "\"However\" illogically signals that the detail in this sentence contrasts with the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry.",
+      "D": "\"Despite\" illogically signals that the detail in this sentence is true despite the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry."
+    }
+  },
+  {
+    "question_number": 30,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "A",
+    "rationale": "\"Therefore\" logically signals that the action described in this sentence\u2014the researchers theorizing that the dish was named for its effect on diners\u2014is a result or consequence of the previous observation that the dish had a calming effect.",
+    "incorrect_explanations": {
+      "B": "\"Alternately\" illogically signals that the action described in this sentence offers an alternative or contrast to the previous observation that the dish had a calming effect. The action is a result or consequence of that observation.",
+      "C": "\"Nevertheless\" illogically signals that the action described in this sentence occurs despite the previous observation that the dish had a calming effect. The action is a result or consequence of that observation.",
+      "D": "\"Likewise\" illogically signals that this sentence merely adds a second, similar detail to the previous observation that the dish had a calming effect. Instead, this sentence describes an action that is a result or consequence of that observation."
+    }
+  },
+  {
+    "question_number": 31,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "C",
+    "rationale": "This sentence emphasizes a difference between baking soda and baking powder, noting that baking soda needs to be mixed with an acidic ingredient to produce carbon dioxide but baking powder doesn't.",
+    "incorrect_explanations": {
+      "A": "The sentence focuses on what bakers use to make batters rise; it doesn't emphasize a difference between baking soda and baking powder.",
+      "B": "The sentence provides a general description of baking soda"
+    }
+  },
+  {
+    "question_number": 32,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "D",
+    "rationale": "The sentence effectively describes *Unwoven Light* to an audience unfamiliar with Park, noting that Seo Sunny Park is a Korean American artist and that the 2013 work consists of colorful prisms formed by light passing through iridescent tiles.",
+    "incorrect_explanations": {
+      "A": "The sentence describes aspects of *Unwoven Light* but doesn't mention who Park is; it thus doesn't effectively describe the work to an audience unfamiliar with Park.",
+      "B": "Although the sentence indicates when the work was created and who Park is, it lacks descriptive details and thus doesn't effectively describe *Unwoven Light*.",
+      "C": "The sentence mentions Park and describes an aspect of *Unwoven Light*\u2014the chain-link fence\u2014but doesn't effectively describe the overall work to an audience unfamiliar with the artist."
+    }
+  },
+  {
+    "question_number": 33,
+    "section": "Reading and Writing",
+    "module": 1,
+    "correct_answer": "C",
+    "rationale": "The sentence effectively presents Tan's research to an audience unfamiliar with Angkor Wat, explaining the results of the research and identifying Angkor Wat as a temple in Cambodia.",
+    "incorrect_explanations": {
+      "A": "While the sentence presents Tan's research, it fails to explain what Angkor Wat is for an audience unfamiliar with the temple.",
+      "B": "The sentence emphasizes the role that deceleration stretch analysis played in Tan's research; it doesn't present the research, which would require specifying where it was conducted.",
+      "D": "While the sentence explains what Angkor Wat is, it fails to present Tan's research."
+    }
+  },
+  {
+    "question_number": 1,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "D",
+    "rationale": "It most logically completes the text's discussion of the fashion resale market's continued growth. As used in this context, \"predicted\" means forecast, or indicated that something would happen in the future. The text indicates that the fashion resale market made a lot of money in 2019 and that some analysts expected the market to continue to grow. This context suggests that the analysts believed that the fashion resale market was going to make more money than it had already made, with the analysts indicating that revenues would more than double by 2028.",
+    "incorrect_explanations": {
+      "A": "It wouldn't make sense in context to say that some analysts \"produced,\" or manufactured or brought about, the increase in future revenues of the fashion resale market. The analysts themselves couldn't have brought about the future revenue growth, since, as the text suggests, they were merely in the position of drawing conclusions about future fashion resale market revenue based on 2019 revenue.",
+      "B": "It is incorrect because the text indicates that some analysts expected the fashion resale market to continue to grow in the future, not that they \"denied,\" or rejected, this notion. Nothing in the text supports the idea that these analysts thought the revenues wouldn't grow.",
+      "C": "It is incorrect because the text indicates that some analysts expected the fashion resale market to continue to grow in the future, not that they \"worried,\" or felt concerned, that revenue would significantly increase by 2028. Nothing in the text suggests that the analysts felt concerned about the increase; rather, the text suggests that the increase would represent a favorable outcome, since it would mean that the fashion resale market grew to generate even more revenue."
+    }
+  },
+  {
+    "question_number": 2,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "D",
+    "rationale": "It most logically completes the text's discussion of the difficulty of moving biomolecules to plant cells. In this context, \"overcome\" means to succeed in dealing with an obstacle. The text suggests that although it's difficult to move biomolecules through plant cell walls, Landry and her colleagues have shown that carbon nanotubes may be useful, since they can cross cell walls. This context conveys that Landry and her colleagues think it's possible, using carbon nanotubes, to succeed in dealing with the obstacle of transmitting biomolecules to plant cells.",
+    "incorrect_explanations": {
+      "A": "It wouldn't make sense in context to say that Landry and her colleagues have shown that it may be possible to \"conceptualize,\" or form an idea of, the difficulty of transmitting biomolecules through the walls of plant cells. The text presents this difficulty as a known problem that Landry and her colleagues think they may have solved, not as a mysterious occurrence that they have yet to form ideas about.",
+      "B": "It is incorrect because it wouldn't make sense in context to say that Landry and her colleagues think it may be possible to \"neglect,\" or simply to disregard and ignore the problem.",
+      "C": "It is incorrect because it wouldn't make sense in context to say that Landry and her colleagues have shown that it may be possible to \"illustrate,\" or demonstrate, the difficulty of transmitting biomolecules through the walls of plant cells by using carbon nanotubes. According to the text, carbon nanotubes allow molecules to be transmitted to plant cells\u2014something that is otherwise difficult to do. The text therefore presents carbon nanotubes as a way of possibly solving a problem, not as a means of demonstrating the problem."
+    }
+  },
+  {
+    "question_number": 3,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "It most logically completes the text's discussion of the work of particle physicists. In this context, \"inspecting\" means viewing closely in order to examine. The text indicates that as particle physicists, Arce and El-Khadra's work involves using advanced technology to \"closely examine\" subatomic particles. In other words, they use technology to inspect small parts of matter that can't be seen by the naked eye.",
+    "incorrect_explanations": {
+      "A": "It is incorrect because nothing in the text suggests that Arce and El-Khadra spend time \"selecting,\" or choosing, subatomic particles for some purpose; the text simply states that the particle physicists use advanced technology to see and study the behavior of those tiny parts of matter.",
+      "C": "It is incorrect because nothing in the text suggests that Arce and El-Khadra spend time \"creating\" subatomic particles, or bringing them into existence; the text simply states that the particle physicists use advanced technology to see and study the behavior of those tiny parts of matter.",
+      "D": "It is incorrect because in this context, \"deciding\" would mean making a final choice or judgment about something. It wouldn't make sense to say that particle physicists get to choose what is and isn't visible to the naked eye, especially when the text presents it as fact that subatomic particles are the smallest detectable parts of matter and would therefore be invisible. The text focuses on Arce and El-Khadra's close observation of those particles, not on any decisions they might make."
+    }
+  },
+  {
+    "question_number": 4,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "It most logically completes the text's discussion of the hominin known as Little Foot. As used in this context, \"comparable to\" would mean similar to. The text indicates that the relationship between the fossilized clavicle and shoulder bones of Little Foot and the clavicle and shoulder bones of \"frequent climbers,\" such as chimpanzees and gorillas, suggests that Little Foot had adapted to moving around in trees. This context suggests that the relationship between the fossilized bones of Little Foot and the bones of chimpanzees and gorillas is one of similarity\u2014the Little Foot fossils are likely comparable to the modern ape bones.",
+    "incorrect_explanations": {
+      "A": "It is incorrect because \"surpassed by,\" or exceeded by or made inferior to, the bones of modern apes that are frequent climbers. It wouldn't suggest, as the text says, that Little Foot was adapted to moving around in trees. If anything, learning that Little Foot's clavicle and shoulder bones were surpassed by those of chimpanzees and gorillas would suggest that Little Foot was poorly adapted to climbing.",
+      "C": "It is incorrect because if Little Foot's fossilized clavicle and shoulder bones were \"independent of,\" or not influenced by or affiliated with, the bones of modern apes that climb often, it wouldn't suggest, as the text says, that Little Foot was adapted to moving around in trees.",
+      "D": "It is incorrect because the text indicates that Little Foot's fossilized bones date to 3.6 million years ago, so they couldn't have been \"obtained from,\" or acquired from, the bones of modern apes."
+    }
+  },
+  {
+    "question_number": 5,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "It most logically completes the text's discussion of Samuel R. Delany's character Rydra Wong. As used in this context, \"typical\" would mean unrepresentative or not common. The text indicates that Rydra Wong is one of \"nearly a dozen\" characters in Delany's novels who are poets or writers. This context conveys that being a poet isn't an atypical occupation for a character in one of Delany's works.",
+    "incorrect_explanations": {
+      "A": "It is incorrect because \"infallible\" means to be accurate or without fault, which wouldn't make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn't infallible, not problematic.",
+      "C": "It is incorrect because \"lucrative\" means profitable, which wouldn't make sense in context. If writing poet characters were profitable, it wouldn't be logical to indicate that Delany gave many of his characters the same occupation.",
+      "D": "It is incorrect because \"tedious\" means to be boring, which wouldn't make sense in context. The text focuses on the fact that Delany has written many characters who are poets and writers. This context suggests that the occupation isn't atypical for Delany, not that the occupation isn't tedious."
+    }
+  },
+  {
+    "question_number": 12,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "It most effectively illustrates the claim in the text that in describing the teenaged girl, Mansfield contrasts the character's pleasant appearance with her unpleasant attitude. In the quotation, Mansfield describes the teenager as having a \"lovely nose\" (a compliment about her appearance) but also as treating her makeup puff \"as though she loathed it\" (a judgment suggesting her unpleasant attitude).",
+    "incorrect_explanations": {
+      "A": "The teenager's reaction to the flowers doesn't make it clear that she has an unpleasant attitude, and nothing in the quotation indicates that any part of her appearance is pleasant.",
+      "C": "The quotation suggests that the teenager has an unpleasant attitude (being upset with the location and leaving the table before the narrator has paid for the meal) but doesn't give any indication that she has a pleasant appearance.",
+      "D": "The quotation suggests that the teenager may have an unpleasant attitude (lowering her eyes, wincing, and sitting in silence) but doesn't give any indication that any part of her appearance is pleasant."
+    }
+  },
+  {
+    "question_number": 13,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "D",
+    "rationale": "It uses data from the graph to effectively illustrate the text's claim about general economic policy uncertainty in the United Kingdom. The graph presents values for economic policy uncertainty in tax and public spending policy, trade policy, and general economic policy in the UK from 2005 to 2010. The graph shows that in 2005, the value for general economic policy uncertainty (approximately 90) was substantially lower than the value for uncertainty about trade policy specifically (approximately 160). It also shows that in 2010, the value for general economic policy uncertainty (approximately 120) was substantially lower than the value for uncertainty about trade policy (approximately 70). The substantial differences between these values in 2005 and 2010 support the claim that a general measure may not fully reflect uncertainty about specific areas of policy.",
+    "incorrect_explanations": {
+      "A": "The graph shows that the level of general economic policy uncertainty was similar to the level of uncertainty about tax and public spending policy in both 2005 (with values of approximately 90 and 100, respectively) and 2009 (with values of approximately 80 and 75, respectively).",
+      "B": "The graph shows that general economic policy uncertainty was higher than uncertainty about tax and public spending policy in 2006, 2007, and 2008, not that it was lower each year from 2005 to 2010.",
+      "C": "The graph shows that general economic policy uncertainty reached its highest level in 2010, which was when uncertainty about tax and public spending policy also reached its highest level, not its lowest level."
+    }
+  },
+  {
+    "question_number": 14,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "C",
+    "rationale": "It presents the finding that, if true, would most strongly support Tannen's hypothesis. According to the text, Tannen's hypothesis is that multiple perspectives presented in a noncompetitive format is more informative than a debate between opposing viewpoints is. If participants who saw a panel of three commentators with various views about an issue answered more questions about the issue correctly than did participants who saw a debate, that would support Tannen's hypothesis since it would show that participants who heard multiple varied perspectives were better informed than were participants who heard a debate between opposing viewpoints.",
+    "incorrect_explanations": {
+      "A": "Finding that participants perceived commentators in the debate as more knowledgeable than commentators in the panel is irrelevant to Tannen's hypothesis, which is that presenting multiple perspectives on an issue is more informative to the audience than presenting opposing views of the issue is.",
+      "B": "Participants' perception of how knowledgeable panelists are has no bearing on how much participants learn from the panelists.",
+      "D": "Finding that participants perceived commentators in the panel as more knowledgeable than a single commentator is irrelevant to Tannen's hypothesis, which is that presenting multiple perspectives on an issue is more informative to the audience than presenting opposing views of the issue is. Participants' perception of how knowledgeable panelists are has no bearing on how much participants learn from the panelists, and Tannen's hypothesis says nothing about how informative single commentators are."
+    }
+  },
+  {
+    "question_number": 15,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "C",
+    "rationale": "It most effectively uses a quotation from King Lear to illustrate the claim that King Lear expresses regret for his actions. In the quotation, Lear describes striking himself on the head\u2014the same act he's engaged in as he speaks\u2014in a way that suggests he's deeply upset with himself. Referring to himself in the second person (with \"thy\"), the character exclaims \"Beat at this gate that let thy folly in / And thy dear judgement out!\" Lear refers metaphorically to his own mind as a gate that has allowed folly, or poor judgement, to enter and good judgement to escape. This suggests that Lear regrets his attempts to test his three daughters' devotion to him, regarding those attempts as examples of the folly that has entered the gate of his mind.",
+    "incorrect_explanations": {
+      "A": "This quotation doesn't express King Lear's sense of regret over his own actions; instead, it expresses his belief that the harm that others have done to him (to the extent to which they have \"sinned against\" him) outweighs whatever harm he himself has caused by \"sinning.\"",
+      "B": "This quotation doesn't express King Lear's sense of regret over his own actions; instead, it expresses his thoughts about an approaching storm (\"this tempest\"), which he believes \"will not give [him] leave to ponder,\" or time to consider, the harm that he will continue to experience (\"things\" that \"would hurt [him] more\").",
+      "D": "This quotation expresses King Lear's vow to commit terrible actions (or \"things\" that \"shall be / The terrors of the earth\") in the future, not his regret over actions that he's already taken."
+    }
+  },
+  {
+    "question_number": 16,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "It most logically completes the text's discussion of the relative appeal of different kinds of plays by Shakespeare to today's audiences. According to the text, Shakespeare's tragedies address broad themes that continue to appeal to today's audiences. Indeed, the text suggests that these themes are timeless, as illustrated by the example of Romeo and Juliet, which the text states is still read and widely performed despite being set in the Italy of Shakespeare's time. In contrast, the text indicates that audiences and readers may need to be familiar with several centuries of English history in order to understand Shakespeare's history plays. Because many theatergoers and readers are unlikely to possess such extensive historical knowledge, it follows that they are likely to find Shakespeare's history plays less engaging than his more accessible tragedies.",
+    "incorrect_explanations": {
+      "B": "The text never introduces a comparison between Shakespeare's tragedies and twentieth-century plays, only between Shakespeare's tragedies and his history plays. Since twentieth-century plays aren't mentioned, there's no basis in the text for the idea that some of Shakespeare's tragedies are more relevant than twentieth-century plays to today's audiences.",
+      "C": "Although the text indicates that Romeo and Juliet is thematically accessible to today's audiences, it doesn't suggest that Romeo and Juliet is more accessible than Shakespeare's other tragedies. Rather, the text presents Romeo and Juliet as an example to support the idea that Shakespeare's tragedies hold continued appeal for today's readers and theatergoers.",
+      "D": "Although experts in English history would likely possess the knowledge needed to understand Shakespeare's history plays, the text never mentions such experts or suggests that they would enjoy the history plays more than Shakespeare's other works."
+    }
+  },
+  {
+    "question_number": 17,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "It presents the conclusion that most logically follows from the text's discussion of Ancestral Puebloans' migration to the Rio Grande Valley. The text states that in the late 1200s C.E., the Ancestral Puebloan civilization abandoned villages in its original homeland, which included the Mesa Verde site. The text goes on to say that recent genetic analysis has demonstrated that the modern turkey population in the Rio Grande Valley descends partly from the ancient turkeys raised at Mesa Verde, and that the genetic markers shared by the two turkey populations first appeared at Mesa Verde only after 1280 C.E. Therefore, it can reasonably be concluded that some Ancestral Puebloans migrated to the Rio Grande Valley in the late 1200s and carried their agricultural practices\u2014including the farming of turkeys\u2014to their new home.",
+    "incorrect_explanations": {
+      "A": "The text never compares the condition of the Rio Grande Valley's terrain to that of Mesa Verde's terrain, either in the present or in the past.",
+      "C": "Although genetic analysis has demonstrated that the modern turkey population in the Rio Grande valley descended in part from the turkey population raised by the Ancestral Puebloans of Mesa Verde before their migration to the valley in 1280, this finding doesn't eliminate the possibility that Indigenous peoples living in the valley before 1280 might also have farmed turkeys.",
+      "D": "The text doesn't consider the possibility that before their migration to the Rio Grande Valley after 1280, the Ancestral Puebloans of Mesa Verde might have adopted turkey farming from an outside Indigenous civilization in another region; instead, the text provides evidence suggesting that the Ancestral Puebloans brought turkey farming to another region\u2014the Rio Grande Valley\u2014after 1280."
+    }
+  },
+  {
+    "question_number": 18,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "D",
+    "rationale": "It most logically follows from the text's discussion of the challenge researchers face when studying the effects of holding elected office on a person's behavior. The text explains that it's hard for researchers to test for the effects that elected office has on a person because finding people to serve as a control group is difficult. The text indicates that a control group needs to be made up of people who share characteristics of the group being tested but don't have the variable being tested (in this case, holding elected office). Because researchers already know who wins elections, they won't be able to identify a suitable group to determine who would serve as an appropriately similar member of a control group. Thus, it logically follows that researchers will find it difficult to identify a group of people who can function as an appropriate control group for their studies.",
+    "incorrect_explanations": {
+      "A": "The text focuses on the difficulty of putting together a control group for experiments; it doesn't suggest that finding information about politicians' behavior is difficult.",
+      "B": "Studying people who have already held elected office wouldn't provide an opportunity to note any behavioral changes that the position might cause.",
+      "C": "The text describes people in a control group as those \"who are otherwise similar to the office-holders\"; selecting people who differ from the office-holders wouldn't fit the criteria for an appropriate control group."
+    }
+  },
+  {
+    "question_number": 19,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "C",
+    "rationale": "The convention being tested is the use of plural and possessive nouns. The plural nouns \"stories\" and \"immigrants\" correctly indicate that the memoir tells multiple stories of multiple immigrants.",
+    "incorrect_explanations": {
+      "A": "The context requires the plural noun \"stories,\" not the singular possessive noun \"story's.\"",
+      "B": "The context requires the plural nouns \"stories\" and \"immigrants,\" not the singular possessive noun \"story's\" and the plural possessive noun \"immigrants'.\"",
+      "D": "The context requires the plural nouns \"stories\" and \"immigrants,\" not the plural possessive noun \"stories'\" and the singular possessive noun \"immigrant's.\""
+    }
+  },
+  {
+    "question_number": 20,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "The convention being tested is punctuation between a preposition and its complement. No punctuation is needed between the preposition \"of\" and its complement, the noun phrase \"healing, self-discovery, and memory.\"",
+    "incorrect_explanations": {
+      "B": "No punctuation is needed between a preposition and its complement.",
+      "C": "No punctuation is needed between a preposition and its complement.",
+      "D": "No punctuation is needed between a preposition and its complement."
+    }
+  },
+  {
+    "question_number": 21,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "The convention being tested is the use and punctuation of an integrated relative clause. This choice correctly uses the relative pronoun \"that\" and no punctuation to create an integrated relative clause that provides essential information about the noun phrase (\"a book packaging company\") that it modifies.",
+    "incorrect_explanations": {
+      "A": "It doesn't use a relative pronoun to link the verb phrase beginning with \"specializes\" to the noun phrase that it modifies (\"a book packaging company\").",
+      "C": "It doesn't use a relative pronoun to link the verb phrase beginning with \"specializes\" to the noun phrase that it modifies (\"a book packaging company\").",
+      "D": "No punctuation is needed between the integrated relative clause beginning with \"that specializes\" and the noun phrase that it modifies (\"a book packaging company\")."
+    }
+  },
+  {
+    "question_number": 22,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "D",
+    "rationale": "The convention being tested is the punctuation of a supplementary element within a sentence. The comma after \")\" pairs with the comma after \"isotope\" to separate the supplementary element \"carbon-13 (\u00b9\u00b3C)\" from the rest of the sentence. This supplementary element defines the \"rare carbon isotope,\" and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
+    "incorrect_explanations": {
+      "A": "It fails to use appropriate punctuation to separate the supplementary element \"carbon-13 (\u00b9\u00b3C)\" from the rest of the sentence.",
+      "B": "It fails to use appropriate punctuation to separate the supplementary element \"carbon-13 (\u00b9\u00b3C)\" from the rest of the sentence.",
+      "C": "It fails to use appropriate punctuation to separate the supplementary element \"carbon-13 (\u00b9\u00b3C)\" from the rest of the sentence. The comma after \"carbon-13\" isn't necessary because the parentheses around \"\u00b9\u00b3C\" already separate this element from the rest of the sentence."
+    }
+  },
+  {
+    "question_number": 23,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "The convention being tested is punctuation use between sentences. In this choice, the period after \"walls\" is used correctly to mark the boundary between the first sentence (\"In...walls\") and the second sentence (\"With...techniques\"), which starts with a supplementary phrase.",
+    "incorrect_explanations": {
+      "A": "It results in a comma splice. A comma can't be used in this way to mark the boundary between two sentences.",
+      "B": "It results in a run-on sentence. The sentences (\"In...walls\" and \"with...paintings\") are fused without punctuation and/or a conjunction.",
+      "C": "Without a comma preceding it, the conjunction \"so\" can't be used in this way to join sentences."
+    }
+  },
+  {
+    "question_number": 24,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "The convention being tested is the use of finite and nonfinite verb forms within a sentence. The nonfinite to-infinitive \"to forge\" is correctly used to form a nonfinite (infinitive) clause that explains why the chemists re-created and reprogrammed the DNA-cleaving bacteria.",
+    "incorrect_explanations": {
+      "B": "Without a comma separating the main clause (\"chemists...bacteria\") from the participle \"forging,\" this choice illogically suggests that the bacteria are forging a tool, which doesn't make sense.",
+      "C": "Without a coordinating conjunction such as \"and\" placed before it, the finite past tense verb \"forged\" can't be used in this way to describe the chemists' actions.",
+      "D": "If read as a finite verb, the present progressive verb \"forging\" isn't consistent with the past tense verbs used in this sentence to describe the actions of the chemists. If read as a nonfinite verb, the participle \"forging\" can't be used in this way because there is no following main clause for it to modify."
+    }
+  },
+  {
+    "question_number": 25,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "The convention being tested is subject-modifier placement. This choice makes the noun phrase \"the bioswales\" the subject of the sentence and places it immediately after the modifying phrase \"By reducing...sewers.\" In doing so, this choice clearly establishes that the bioswales\u2014and not another noun in the sentence\u2014are reducing runoff flowing into city sewers.",
+    "incorrect_explanations": {
+      "A": "It results in a dangling modifier. The placement of the noun phrase \"the mitigation...waterways\" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for \"reducing the runoff\": the bioswales or some other noun in the sentence.",
+      "C": "It results in a dangling modifier. The placement of the noun phrase \"the bioswales' mitigation...waterways\" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for \"reducing the runoff\": the bioswales or some other noun in the sentence.",
+      "D": "It results in a dangling modifier. The placement of the noun phrase \"street flooding and the resulting pollution\" immediately after the modifying phrase illogically suggests that the \"flooding and pollution\" are reducing runoff flowing into city sewers."
+    }
+  },
+  {
+    "question_number": 26,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "The convention being tested is punctuation use between a main clause and a supplementary phrase. In this choice, a colon is correctly used to mark the boundary between the main clause (\"A study...continents\") and the supplementary phrase (\"geological...above\") and to introduce the following explanation of the origin of Earth's continents.",
+    "incorrect_explanations": {
+      "A": "It fails to mark the boundary between the main clause (\"A study...continents\") and the supplementary phrase (\"geological...above\") with appropriate punctuation.",
+      "C": "A semicolon can't be used in this way to join the main clause (\"A study...continents\") and the supplementary phrase (\"geological...above\"). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, making it the better choice in this context.",
+      "D": "It results in a rhetorically unacceptable sentence fragment beginning with \"geological.\""
+    }
+  },
+  {
+    "question_number": 27,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "\"Afterward\" logically signals that the events described in this sentence\u2014the CEO's public acknowledgment and apology\u2014occurred after the rocket booster's failure and are part of a chronological sequence of events.",
+    "incorrect_explanations": {
+      "B": "\"Additionally\" illogically signals that the events described in this sentence merely occurred in addition to the rocket booster's failure. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.",
+      "C": "\"Indeed\" illogically signals that the events described in this sentence emphasize or strengthen a statement made in the previous sentence. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.",
+      "D": "\"Similarly\" illogically signals that the events described in this sentence emphasize how the events are similar to the rocket booster's failure. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events."
+    }
+  },
+  {
+    "question_number": 28,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "\"Alternatively\" logically signals that the soil decontamination method described in this sentence\u2014removing toxic metals from the soil via phytoremediation\u2014offers an alternative to the previously described method (removing the contaminated soil from the ground).",
+    "incorrect_explanations": {
+      "B": "\"Specifically\" illogically signals that the soil decontamination method described in this sentence specifies or elaborates on an aspect of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.",
+      "C": "\"For example\" illogically signals that the soil decontamination method described in this sentence is an example of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.",
+      "D": "\"As a result\" illogically signals that the soil decontamination method described in this sentence is a result or consequence of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method."
+    }
+  },
+  {
+    "question_number": 29,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "C",
+    "rationale": "The sentence explains an advantage of the Hanke-Henry calendar, noting that it supports more predictable scheduling than does the Gregorian calendar and describing how it does so (by having calendar dates occur on the same day each year).",
+    "incorrect_explanations": {
+      "A": "The sentence compares the number of days in the Gregorian and Hanke-Henry calendars; it doesn't explain an advantage of the Hanke-Henry calendar.",
+      "B": "While the sentence refers to a possible reason to adopt the Hanke-Henry calendar\u2014that doing so would help solve a problem with the Gregorian calendar\u2014it doesn't identify the problem or the solution and thus doesn't explain the advantage of the Hanke-Henry calendar.",
+      "D": "The sentence describes the origins of the Hanke-Henry calendar; it doesn't explain an advantage of it."
+    }
+  },
+  {
+    "question_number": 30,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "C",
+    "rationale": "The sentence effectively presents the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy, explaining the theory's position that the Great Law of Peace influenced the US Constitution while avoiding mention of the Haudenosaunee Confederacy itself.",
+    "incorrect_explanations": {
+      "A": "The sentence broadly emphasizes Johansen's ideas about the Great Law of Peace; it doesn't identify the influence theory or effectively present it.",
+      "B": "The sentence emphasizes one fact that supports the influence theory; it doesn't effectively present the theory to an audience unfamiliar with the Haudenosaunee Confederacy.",
+      "D": "The sentence makes a broad generalization about Native people's influence on the founding of the US; it doesn't effectively present the influence theory."
+    }
+  },
+  {
+    "question_number": 31,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "Noting that the Sun (6,800\u00b0F) is hotter than most stars within 10 parsecs of it, the sentence emphasizes how hot the Sun is relative to nearby stars.",
+    "incorrect_explanations": {
+      "B": "The sentence explains that astronomer Todd Henry determined the classifications for the Sun and several other stars nearby; it doesn't emphasize how hot the Sun is relative to nearby stars.",
+      "C": "The sentence explains that the majority of stars near the Sun are classified as K or M stars; it doesn't indicate the Sun's temperature or emphasize how hot it is relative to nearby stars.",
+      "D": "While the sentence indicates that the Sun is classified differently than most nearby stars due to its surface temperature, it doesn't emphasize how hot the Sun is relative to nearby stars."
+    }
+  },
+  {
+    "question_number": 32,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "A",
+    "rationale": "The sentence effectively introduces Cathryn Halverson's book to an audience already familiar with the Atlantic Monthly, noting the title of Halverson's book and describing its content without providing background information about the Atlantic Monthly.",
+    "incorrect_explanations": {
+      "B": "The sentence introduces the Atlantic Monthly and mentions that it's referred to in Cathryn Halverson's book; it doesn't effectively introduce Halverson's book. The sentence assumes that the audience is unfamiliar with the Atlantic Monthly, providing background information about the magazine; it doesn't effectively introduce Halverson's book to an audience already familiar with the Atlantic Monthly.",
+      "C": "The sentence assumes that the audience is unfamiliar with the Atlantic Monthly, providing background information about the magazine; it doesn't effectively introduce Halverson's book.",
+      "D": "While the sentence assumes that the audience is familiar with the Atlantic Monthly, it doesn't effectively introduce Cathryn Halverson's book."
+    }
+  },
+  {
+    "question_number": 33,
+    "section": "Reading and Writing",
+    "module": 2,
+    "correct_answer": "B",
+    "rationale": "The sentence emphasizes a similarity between the two ways a magnificent frigatebird acquires food, noting that neither way requires the seabird to dive into the water.",
+    "incorrect_explanations": {
+      "A": "The sentence describes how a magnificent frigatebird captures prey without diving into water; it doesn't emphasize a similarity between the two ways the seabird acquires food.",
+      "C": "The sentence notes the term used to describe one of the two ways that magnificent frigatebirds acquire food; it doesn't emphasize a similarity between the two ways.",
+      "D": "The sentence describes the two ways that a magnificent frigatebird acquires food; it doesn't emphasize a similarity between the two ways."
+    }
+  }
+]

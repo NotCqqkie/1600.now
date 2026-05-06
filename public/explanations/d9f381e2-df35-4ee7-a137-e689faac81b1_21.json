@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast",
-      "content": "The passage sets up a contrast: 'many elements' were isolated quickly, but 'this wasn\u2019t the case with all elements.' The blank precedes a specific example (radium) that illustrates this exception, requiring a transition signaling a shift to a contrasting detail."
+      "title": "Read the logical setup",
+      "content": "The previous sentence states that for many elements isolation came soon after discovery, <em>but this wasn't the case with all elements.</em> The blank precedes <em>the isolation process took years</em>, with radium given as an example. The transition needs to introduce a frequency/qualifier — that <strong>in some cases</strong>, isolation took years."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "B) However introduces a direct contrast, aligning with the established tension between 'many' and 'not all.' A) Thus signals consequence (but the example doesn\u2019t prove a result), C) Moreover implies addition (but the example isn\u2019t additional support), and D) Sometimes fails as a transition word in this context. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Match the signal to the choices",
+      "content": "<em>Sometimes,</em> conveys exactly that — for some elements, the process took years — and is supported by the radium example that follows.<br/><br/><em>However,</em> would signal direct contrast, but the contrast was already established in the prior sentence; the blank is naming a pattern, not opposing one. <em>Thus,</em> would signal a logical conclusion, which doesn't fit. <em>Moreover,</em> would add a parallel point, which doesn't fit either.<br/><br/>The answer is <strong>D</strong>."
     }
   ]
 }

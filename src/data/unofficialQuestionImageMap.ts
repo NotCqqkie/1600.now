@@ -3741,5 +3741,477 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
         "alt": ""
       }
     ]
+  },
+  "36200a38": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/36200a38_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/36200a38_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "d62ad380": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/d62ad380_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "0366d965": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0366d965_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "b2de69bd": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/b2de69bd_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/b2de69bd_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "78391fcc": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/78391fcc_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/78391fcc_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/78391fcc_q_03.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/78391fcc_q_04.png",
+        "alt": ""
+      }
+    ]
+  },
+  "85939da5": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/85939da5_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "b1b5300b": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/b1b5300b_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "4c774b00": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/4c774b00_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/4c774b00_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "d89c1513": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/d89c1513_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/d89c1513_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "e1ad3d41": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_03.png",
+        "alt": ""
+      }
+    ]
+  },
+  "46545dd6": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/46545dd6_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "d4413871": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/d4413871_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/d4413871_q_02.png",
+        "alt": ""
+      }
+    ],
+    "choiceImages": {
+      "A": "/images/SAT-Style%20Questions/d4413871_choice_A_01.png",
+      "L": "/images/SAT-Style%20Questions/d4413871_choice_L_01.png",
+      "W": "/images/SAT-Style%20Questions/d4413871_choice_W_01.png",
+      "c": "/images/SAT-Style%20Questions/d4413871_choice_c_01.png"
+    }
+  },
+  "0301c5dc": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0301c5dc_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0301c5dc_q_02.png",
+        "alt": ""
+      }
+    ],
+    "choiceImages": {
+      "A": "/images/SAT-Style%20Questions/0301c5dc_choice_A_01.png",
+      "L": "/images/SAT-Style%20Questions/0301c5dc_choice_L_01.png",
+      "W": "/images/SAT-Style%20Questions/0301c5dc_choice_W_01.png",
+      "c": "/images/SAT-Style%20Questions/0301c5dc_choice_c_01.png"
+    }
+  },
+  "3f2ee20a": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/3f2ee20a_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/3f2ee20a_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "3f236a64": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/3f236a64_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "07f2829b": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/07f2829b_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/07f2829b_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "ec7b0eb8": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/ec7b0eb8_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "7b65bb28": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7b65bb28_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/7b65bb28_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/7b65bb28_q_03.png",
+        "alt": ""
+      }
+    ]
+  },
+  "7e6c745f": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7e6c745f_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/7e6c745f_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "912cd125": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/912cd125_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "c54b92a2": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/c54b92a2_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/c54b92a2_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "4bb25495": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/4bb25495_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/4bb25495_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "b6569d0e": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/b6569d0e_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "5dc386fb": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/5dc386fb_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "2d31caae": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/2d31caae_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "54d93874": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/54d93874_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "a3384df0": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/a3384df0_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/a3384df0_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "6670e407": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6670e407_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "af142f8d": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/af142f8d_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/af142f8d_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "9ee22c16": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9ee22c16_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "f8696cd8": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/f8696cd8_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/f8696cd8_q_02.png",
+        "alt": ""
+      }
+    ]
+  },
+  "94237701": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/94237701_q_01.png",
+        "alt": ""
+      }
+    ]
+  },
+  "263f9937": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/263f9937_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/263f9937_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/263f9937_q_03.png",
+        "alt": ""
+      }
+    ]
+  },
+  "0121a235": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_03.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_04.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_05.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_06.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_07.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_08.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_09.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/0121a235_q_10.png",
+        "alt": ""
+      }
+    ]
+  },
+  "dba7432e": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/dba7432e_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/dba7432e_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/dba7432e_q_03.png",
+        "alt": ""
+      }
+    ]
+  },
+  "43926bd9": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_01.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_02.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_03.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_04.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_05.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_06.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_07.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_08.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_09.png",
+        "alt": ""
+      },
+      {
+        "src": "/images/SAT-Style%20Questions/43926bd9_q_10.png",
+        "alt": ""
+      }
+    ]
   }
 };

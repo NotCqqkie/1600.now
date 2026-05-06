@@ -1,15 +1,1 @@
-{
-  "questionId": "b4553284",
-  "correctAnswer": "54",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve for x",
-      "content": "Divide both sides of $2x = 12$ by 2.<br/>$$x = \\frac{12}{2} = 6$$"
-    },
-    {
-      "title": "Calculate 9x",
-      "content": "Substitute $x = 6$ into $9x$.<br/>$$9x = 9 \\cdot 6 = 54$$"
-    }
-  ]
-}
+{"questionId":"b4553284","correctAnswer":"54","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"Divide by $2$: $x=6$."},{"title":"Compute the target value","content":"Then $9x = 9 \\cdot 6 = 54$. The answer is <strong>54</strong>."}]}

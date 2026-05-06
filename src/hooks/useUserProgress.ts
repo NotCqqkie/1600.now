@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
-import { db } from '@/lib/firebase';
+import { db } from '@/lib/firebaseDb';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import {
   applyPersonalizationPreferences,
@@ -174,6 +174,10 @@ export const useUserProgress = () => {
   );
   const lastUidRef = useRef<string | null | undefined>(undefined);
   const migratedAnonRef = useRef<Set<string>>(new Set());
+  const progressSnapshotRef = useRef(progress);
+  useEffect(() => {
+    progressSnapshotRef.current = progress;
+  }, [progress]);
 
   // When the active user changes (login / logout / account switch), swap state
   // to that user's local cache so progress never bleeds across accounts.
@@ -280,7 +284,6 @@ export const useUserProgress = () => {
     };
 
     fetchProgress();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
@@ -291,9 +294,9 @@ export const useUserProgress = () => {
     }
   }, [user, uid]);
 
-  const saveProgress = useCallback((newProgress: Record<string, QuestionProgress>) => {
+  const saveProgress = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
     setProgress(newProgress);
-    persist(newProgress);
+    await persist(newProgress);
   }, [persist]);
 
   const resetProgress = useCallback(async () => {
@@ -306,85 +309,85 @@ export const useUserProgress = () => {
     }
   }, [user, uid]);
 
-  const addAttempt = useCallback((
+  const addAttempt = useCallback(async (
     questionId: string,
     result: "correct" | "incorrect",
     durationSeconds: number,
     answer: string,
     explanation?: string
   ) => {
-    setProgress(prev => {
-      const current = prev[questionId] || {
-        questionId,
-        isMarkedForReview: false,
-        attempts: [],
-        totalTimeSpentSeconds: 0
-      };
+    const prev = progressSnapshotRef.current;
+    const current = prev[questionId] || {
+      questionId,
+      isMarkedForReview: false,
+      attempts: [],
+      totalTimeSpentSeconds: 0
+    };
 
-      const newAttempt: Attempt = {
-        timestamp: Date.now(),
-        durationSeconds,
-        result,
-        answer,
-        explanation
-      };
+    const newAttempt: Attempt = {
+      timestamp: Date.now(),
+      durationSeconds,
+      result,
+      answer,
+      explanation
+    };
 
-      const updated = {
-        ...prev,
-        [questionId]: {
-          ...current,
-          attempts: [...current.attempts, newAttempt],
-          totalTimeSpentSeconds: current.totalTimeSpentSeconds + durationSeconds
-        }
-      };
+    const updated = {
+      ...prev,
+      [questionId]: {
+        ...current,
+        attempts: [...current.attempts, newAttempt],
+        totalTimeSpentSeconds: current.totalTimeSpentSeconds + durationSeconds
+      }
+    };
 
-      persist(updated);
-      return updated;
-    });
+    setProgress(updated);
+    progressSnapshotRef.current = updated;
+    await persist(updated);
   }, [persist]);
 
-  const addTimeSpent = useCallback((questionId: string, seconds: number) => {
-    setProgress(prev => {
-      const current = prev[questionId] || {
-        questionId,
-        isMarkedForReview: false,
-        attempts: [],
-        totalTimeSpentSeconds: 0
-      };
+  const addTimeSpent = useCallback(async (questionId: string, seconds: number) => {
+    const prev = progressSnapshotRef.current;
+    const current = prev[questionId] || {
+      questionId,
+      isMarkedForReview: false,
+      attempts: [],
+      totalTimeSpentSeconds: 0
+    };
 
-      const updated = {
-        ...prev,
-        [questionId]: {
-          ...current,
-          totalTimeSpentSeconds: current.totalTimeSpentSeconds + seconds
-        }
-      };
+    const updated = {
+      ...prev,
+      [questionId]: {
+        ...current,
+        totalTimeSpentSeconds: current.totalTimeSpentSeconds + seconds
+      }
+    };
 
-      persist(updated);
-      return updated;
-    });
+    setProgress(updated);
+    progressSnapshotRef.current = updated;
+    await persist(updated);
   }, [persist]);
 
-  const toggleReview = useCallback((questionId: string) => {
-    setProgress(prev => {
-      const current = prev[questionId] || {
-        questionId,
-        isMarkedForReview: false,
-        attempts: [],
-        totalTimeSpentSeconds: 0
-      };
+  const toggleReview = useCallback(async (questionId: string) => {
+    const prev = progressSnapshotRef.current;
+    const current = prev[questionId] || {
+      questionId,
+      isMarkedForReview: false,
+      attempts: [],
+      totalTimeSpentSeconds: 0
+    };
 
-      const updated = {
-        ...prev,
-        [questionId]: {
-          ...current,
-          isMarkedForReview: !current.isMarkedForReview
-        }
-      };
+    const updated = {
+      ...prev,
+      [questionId]: {
+        ...current,
+        isMarkedForReview: !current.isMarkedForReview
+      }
+    };
 
-      persist(updated);
-      return updated;
-    });
+    setProgress(updated);
+    progressSnapshotRef.current = updated;
+    await persist(updated);
   }, [persist]);
 
   const getProgress = useCallback((questionId: string): QuestionProgress => {

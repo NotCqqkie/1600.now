@@ -1,15 +1,1 @@
-{
-  "questionId": "beb86a0c",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out the greatest common factor",
-      "content": "Both terms have a factor of $$x$$. Factoring $$x$$ out gives $$9x^2+5x = x(9x+5)$$."
-    },
-    {
-      "title": "Identify the equivalent choice",
-      "content": "This matches choice A: $$x(9x+5)$$.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"beb86a0c","correctAnswer":"A","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $x$. Factor it out:$$9x^2+5x=x(9x+5)$$"},{"title":"Match to the answer choices","content":"The factored form is $x(9x+5)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

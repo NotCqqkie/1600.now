@@ -1,11 +1,1 @@
-{
-  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5",
-  "correctAnswer": "14",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Look up the wind chill in the table",
-      "content": "The row for air temperature 26\u00b0F and the column for wind speed 15 mph intersect at 14\u00b0F."
-    }
-  ]
-}
+{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5", "correctAnswer": "14", "section": "Math", "steps": [{"title": "Locate the row", "content": "Find the row corresponding to an air temperature of $26\\text{°F}$ in the table."}, {"title": "Read the value", "content": "In that row, the column for a wind speed of $15$ mph gives a wind chill of $14\\text{°F}$. The answer is <strong>14</strong>."}]}

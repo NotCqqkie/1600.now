@@ -1,5 +1,6 @@
 import type { PracticeModule } from "@/data/modulePracticeBank";
 import type { BankQuestion } from "@/data/questionBank";
+import { answersEquivalent } from "@/lib/answerEquivalence";
 
 export type ModulePracticeQuestionStatus =
   | "unanswered"
@@ -114,9 +115,6 @@ const readJson = <T>(storage: Storage, key: string): T | null => {
 const writeJson = (storage: Storage, key: string, value: unknown) => {
   storage.setItem(key, JSON.stringify(value));
 };
-
-const normalizeAnswer = (answer: string | null | undefined) =>
-  (answer ?? "").toString().trim().toLowerCase().replace(/\s+/g, "");
 
 const getSessionKey = (moduleSlug: string) => `${ACTIVE_SESSION_PREFIX}${moduleSlug}`;
 
@@ -256,7 +254,7 @@ const resolveQuestionStatus = (
       return questionState.status;
     }
 
-    const isCorrect = normalizeAnswer(answer) === normalizeAnswer(question.correctAnswer);
+    const isCorrect = answersEquivalent(answer, question.correctAnswer);
     if (isCorrect) {
       return questionState.attemptCount > 1 ? "correct-later" : "correct-first";
     }
@@ -277,9 +275,7 @@ export const buildModulePracticeResult = (
     const userAnswer =
       question.type === "free-response" ? state.freeResponseAnswer : state.answer;
     const isAnswered = Boolean(userAnswer);
-    const isCorrect =
-      isAnswered &&
-      normalizeAnswer(userAnswer) === normalizeAnswer(question.correctAnswer);
+    const isCorrect = isAnswered && answersEquivalent(userAnswer, question.correctAnswer);
     const status = resolveQuestionStatus(state, question, session.settings.allowCheckingAnswers);
 
     return {

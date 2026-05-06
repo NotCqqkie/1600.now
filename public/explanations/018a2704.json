@@ -1,15 +1,1 @@
-{
-  "questionId": "018a2704",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the target expression",
-      "content": "The equation $46 = 16 + 2\\left(x-8\\right)$ contains $2\\left(x-8\\right)$ as a complete grouped unit on the right side. Rather than solving for $x$, we can isolate this expression directly."
-    },
-    {
-      "title": "Isolate 2(x-8) by subtraction",
-      "content": "Subtract 16 from both sides:<br/><br/>$$46 - 16 = 2\\left(x-8\\right)$$<br/><br/>$$30 = 2\\left(x-8\\right)$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"018a2704","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the rearrangement from the given condition","content":"Subtract $16$: $2(x-8) = 46-16$."},{"title":"Compute the target value","content":"So $2(x-8) = 30$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

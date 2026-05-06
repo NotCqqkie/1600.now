@@ -1,15 +1,1 @@
-{
-  "questionId": "b0fc3166",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the solution as the intersection of the two lines",
-      "content": "The solution to a system of linear equations is the point where both lines meet on the graph. This point satisfies both equations simultaneously."
-    },
-    {
-      "title": "Read the coordinates of the intersection point",
-      "content": "On the graph, the two lines intersect at the point where $x = 2$ (two units to the right of the origin) and $y = 3$ (three units above the origin). Therefore, the solution is $(2, 3)$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b0fc3166","correctAnswer":"C","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=2,\\ y=3$."},{"title":"State the ordered pair","content":"The solution is $(2,3)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

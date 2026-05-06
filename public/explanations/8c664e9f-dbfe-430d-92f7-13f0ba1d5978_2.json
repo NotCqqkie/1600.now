@@ -1,15 +1,1 @@
-{
-  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out the common multiple",
-      "content": "The target expression $70x + 50$ is exactly 10 times the given expression $7x + 5$: $$70x + 50 = 10(7x + 5)$$"
-    },
-    {
-      "title": "Substitute and simplify",
-      "content": "We're given that $7x + 5 = 47$, so substitute this value: $$70x + 50 = 10(7x + 5) = 10(47) = 470$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8c664e9f-dbfe-430d-92f7-13f0ba1d5978_2","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $70x+50 = 10(7x+5)$, and $7x+5=47$."},{"title":"Compute the target value","content":"So $70x+50 = 10 \\cdot 47 = 470$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

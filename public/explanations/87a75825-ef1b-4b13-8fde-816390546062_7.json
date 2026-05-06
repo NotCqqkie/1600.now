@@ -1,15 +1,1 @@
-{
-  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the substitution pattern",
-      "content": "The expression $(x+6)$ appears on both sides of the equation. Rather than expanding and collecting like terms, we can substitute a single variable to simplify. Let $u = x+6$."
-    },
-    {
-      "title": "Substitute and solve",
-      "content": "Rewrite the equation using $u = x+6$:<br/>$$7u = 6u + 68$$<br/>Subtract $6u$ from both sides:<br/>$$u = 68$$<br/>Since $u = x+6$, the value of $x+6$ is 68. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"87a75825-ef1b-4b13-8fde-816390546062_7","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $6(x+6)$: $(x+6)=68$."},{"title":"Compute the target value","content":"So $x+6 = 68$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

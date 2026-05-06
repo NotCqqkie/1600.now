@@ -1,15 +1,1 @@
-{
-  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Subtract 5x from both sides",
-      "content": "$$5x + 3 - 5x = 5x + 7 - 5x$$<br/>$$3 = 7$$"
-    },
-    {
-      "title": "Recognize the contradiction",
-      "content": "When simplification produces a false statement like $3 = 7$, no value of $x$ can satisfy the original equation. Therefore, there are zero solutions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Subtract $5x$ from both sides of $5x+3=5x+7$: $$3=7.$$ This is false for every $x$."}, {"title": "Count the solutions", "content": "There are zero solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

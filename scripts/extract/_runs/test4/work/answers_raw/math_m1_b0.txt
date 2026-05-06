@@ -1,0 +1,66 @@
+===Q1===
+ANSWER: B
+RATIONALE: The height of each bar in the bar graph given represents the number of students that voted for the activity specified at the bottom of the bar. The bar for activity 3 has a height that is between 35 and 40. In other words, the number of students that chose activity 3 is between 35 students and 40 students. Of the given choices, 39 is the only value between 35 and 40. Therefore, 39 students chose activity 3.
+WRONG_A: It may result from conceptual errors.
+WRONG_C: This is the number of students that chose activity 5, not activity 3.
+WRONG_D: It may result from conceptual errors.
+
+===Q2===
+ANSWER: A
+RATIONALE: Let $x$ represent the percentage of 300 that is 75. This can be written as $\frac{x}{100}(300) = 75$, or $3x = 75$. Dividing both sides of this equation by 3 yields $x = 25$. Therefore, 25% of 300 is 75.
+WRONG_B: 50% of 300 is 150, not 75.
+WRONG_C: 75% of 300 is 225, not 75.
+WRONG_D: 225% of 300 is 675, not 75.
+
+===Q3===
+ANSWER: B
+RATIONALE: Multiplying the left- and right-hand sides of the given equation by 25 yields $x^2 = 900$. Taking the square root of the left- and right-hand sides of this equation yields $x = 30$ or $x = -30$. Of these two solutions, only 30 is given as a choice.
+WRONG_A: This is a solution to the equation $x^2 = 36$.
+WRONG_C: It may result from conceptual or calculation errors.
+WRONG_D: It may result from conceptual or calculation errors.
+
+===Q4===
+ANSWER: D
+RATIONALE: The given phrase "8 times a number $x$" can be represented by the expression $8x$. The given phrase "3 more than" indicates an increase of 3 to a quantity. Therefore "3 more than 8 times a number $x$" can be represented by the expression $8x + 3$. Since it's given that 3 more than 8 times a number $x$ is equal to 83, it follows that $8x + 3$ is equal to 83, or $8x + 3 = 83$. Therefore, the equation that represents this situation is $8x + 3 = 83$.
+WRONG_A: This equation represents 3 times the quantity 8 times a number $x$ is equal to 83.
+WRONG_B: This equation represents 8 times a number $x$ is equal to 3 more than 83.
+WRONG_C: This equation represents 8 more than 3 times a number $x$ is equal to 83.
+
+===Q5===
+ANSWER: A
+RATIONALE: It's given that $t$ represents the number of monthly deposits. In the given function $f(t) = 100 + 25t$, the coefficient of $t$ is 25. This means that for every increase in the value of $t$ by 1, the value of $f(t)$ increases by 25. It follows that with each monthly deposit, the amount in Hana's bank account increased by $25.
+WRONG_B: Before Hana made any monthly deposits, the amount in her bank account was $100.
+WRONG_C: After 1 monthly deposit, the amount in Hana's bank account was $125.
+WRONG_D: It may result from conceptual errors.
+
+===Q6===
+ANSWER: 9
+RATIONALE: It's given that the customer spent $27 to purchase oranges at $3 per pound. Therefore, the number of pounds of oranges the customer purchased is $\frac{\$27}{\$3\text{ per pound}}$, or 9 pounds.
+
+===Q7===
+ANSWER: 10
+RATIONALE: It's given that the cost for the entire purchase was $27 after a coupon was used for $63 off the entire purchase. Adding the amount of the coupon to the purchase price yields $27 + 63 = 90$. Thus, the cost for the entire purchase before using the coupon was $90. It's given that Nasir bought 9 storage bins. The original price for 1 storage bin can be found by dividing the total cost by 9. Therefore, the original price, in dollars, for 1 storage bin is $\frac{90}{9}$, or 10.
+
+===Q8===
+ANSWER: A
+RATIONALE: An equation that defines a linear function $f$ can be written in the form $f(x) = mx + b$, where $m$ and $b$ are constants. It's given in the table that when $x = 0$, $f(x) = 29$. Substituting 0 for $x$ and 29 for $f(x)$ in the equation $f(x) = mx + b$ yields $29 = m(0) + b$, or $29 = b$. Substituting 29 for $b$ in the equation $f(x) = mx + b$ yields $f(x) = mx + 29$. It's also given in the table that when $x = 1$, $f(x) = 32$. Substituting 1 for $x$ and 32 for $f(x)$ in the equation $f(x) = mx + 29$ yields $32 = m(1) + 29$. Subtracting 29 from both sides of this equation yields $3 = m$. Substituting 3 for $m$ in the equation $f(x) = mx + 29$ yields $f(x) = 3x + 29$.
+WRONG_B: It may result from conceptual or calculation errors.
+WRONG_C: It may result from conceptual or calculation errors.
+
+===Q9===
+ANSWER: B
+RATIONALE: In similar triangles, corresponding angles are congruent. It's given that right triangles $PQR$ and $STU$ are similar, where angle $P$ corresponds to angle $S$. It follows that angle $P$ is congruent to angle $S$. In the triangles shown, angle $R$ and angle $U$ are both marked as right angles, so angle $R$ and angle $U$ are corresponding angles, and angle $Q$ and angle $T$ are corresponding angles, and thus, angle $Q$ is congruent to angle $T$. It's given that the measure of angle $Q$ is $18°$, so the measure of angle $T$ is also $18°$. Angle $U$ is a right angle, so the measure of angle $U$ is $90°$. The sum of the measures of the interior angles of a triangle is $180°$. Thus, the sum of the measures of angles $S$, $T$, and $U$ is $180°$. Let $s$ represent the measure, in degrees, of angle $S$. It follows that $s + 18 + 90 = 180$, or $s + 108 = 180$. Subtracting 108 from both sides of this equation yields $s = 72$. Therefore, if the measure of angle $Q$ is 18 degrees, then the measure of angle $S$ is 72 degrees.
+WRONG_A: This is the measure of angle $T$.
+WRONG_C: It may result from conceptual errors.
+WRONG_D: This is the sum of the measures of angle $S$ and angle $U$.
+
+===Q10===
+ANSWER: D
+RATIONALE: The data points suggest that as the variable $x$ increases, the variable $y$ decreases, which implies that an appropriate linear model for the data has a negative slope. The data points also show that when $x$ is close to 0, $y$ is greater than 9. Therefore, the $y$-intercept of the graph of an appropriate linear model has a $y$-coordinate greater than 9. An equation of an appropriate linear model is of the form $y = a + bx$, where $a$ and $b$ are constants, has a $y$-intercept with a $y$-coordinate of $a$ and a slope of $b$. Of the given choices, only Choice D represents a graph that has a negative slope and a $y$-intercept with a $y$-coordinate greater than 9.
+WRONG_A: The graph of this equation has a positive slope, not a negative slope, and a $y$-intercept with a $y$-coordinate less than 1, not greater than 9.
+WRONG_B: The graph of this equation has a $y$-intercept with a $y$-coordinate less than 1, not greater than 9.
+WRONG_C: The graph of this equation has a positive slope, not a negative slope.
+
+===Q11===
+ANSWER: A
+RATIONALE: The number of birds can be found by calculating the value of $b$ when $r = 16$. Substituting 16 for $r$ in the given equation yields $b = f(16)$.

@@ -1,15 +1,1 @@
-{
-  "questionId": "70774aa4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express 15x in terms of 5x",
-      "content": "Observe that $15x = 3 \\cdot 5x$. Since the given equation tells us that $5x = 20$, we can use this relationship directly without solving for $x$ explicitly."
-    },
-    {
-      "title": "Multiply to find 15x",
-      "content": "Substitute $5x = 20$ into our expression: $$15x = 3(5x) = 3(20) = 60$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"70774aa4","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $15x = 3 \\cdot 5x$, and $5x=20$."},{"title":"Compute the target value","content":"So $15x = 3 \\cdot 20 = 60$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

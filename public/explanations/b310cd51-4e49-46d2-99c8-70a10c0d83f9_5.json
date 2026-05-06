@@ -1,15 +1,1 @@
-{
-  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_5",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the probability of room C",
-      "content": "Since the probabilities of all mutually exclusive outcomes sum to 1:<br/><br/>$$0.64 + 0.32 + P(C) = 1$$<br/>$$P(C) = 1 - 0.96 = 0.04$$"
-    },
-    {
-      "title": "Convert probability to visitor count",
-      "content": "Multiply the probability by the total number of visitors:<br/><br/>$$0.04 \\times 375 = \\frac{4}{100} \\times 375 = \\frac{4 \\times 375}{100} = \\frac{1500}{100} = 15$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b310cd51-4e49-46d2-99c8-70a10c0d83f9_5","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the favorable/total counts","content":"Total visitors $= 375$. Since every visitor is in room A, B, or C, the probabilities sum to 1. So $P(C) = 1 - 0.64 - 0.32 = 0.04$."},{"title":"Compute the probability","content":"Multiply by the total to get the count in room C:<br/>$$0.04 \\times 375 = 15$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_12",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Check GCD of the coefficients",
-      "content": "For an expression to factor a polynomial, it must divide every term evenly. The coefficients are 3, 57, and 15. Check if they share a common factor:<br/><ul><li>$3 = 3 \\times 1$</li><li>$57 = 3 \\times 19$</li><li>$15 = 3 \\times 5$</li></ul>All three are divisible by 3, so GCD = 3."
-    },
-    {
-      "title": "Factor out 3",
-      "content": "$$3x^2 + 57x + 15 = 3(x^2 + 19x + 5)$$<br/>The factorization confirms that 3 divides all terms evenly. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1b1871b9-081a-47fd-9218-97b0bbc4a454_12","correctAnswer":"C","section":"Math","steps":[{"title":"Factor out the common factor","content":"Each term has factor $3$: $$3x^2 + 57x + 15 = 3(x^2 + 19x + 5).$$"},{"title":"Check the remaining quadratic","content":"The quadratic $x^2+19x+5$ has irrational roots and doesn't match the linear choices."},{"title":"Identify the matching factor","content":"So the visible factor is $3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

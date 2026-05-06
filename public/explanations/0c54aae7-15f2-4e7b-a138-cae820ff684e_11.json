@@ -1,16 +1,1 @@
-{
-  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_11",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the quadratic formula to find the solutions",
-      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$",
-      "content": "For the equation $3x^2 - 5x - 5 = 0$, identify $a = 3$, $b = -5$, and $c = -5$.<br/><br/>Using the quadratic formula:<br/><br/>$$x = \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(3)(-5)}}{2(3)}$$<br/><br/>$$x = \\frac{5 \\pm \\sqrt{25 + 60}}{6}$$<br/><br/>$$x = \\frac{5 \\pm \\sqrt{85}}{6}$$"
-    },
-    {
-      "title": "Identify the greatest solution",
-      "content": "The quadratic formula gives two solutions:<br/><br/>$$x_1 = \\frac{5 - \\sqrt{85}}{6} \\quad \\text{and} \\quad x_2 = \\frac{5 + \\sqrt{85}}{6}$$<br/><br/>Since $\\sqrt{85} > 0$, the solution with the plus sign is larger. We can rewrite this as:<br/><br/>$$\\frac{5 + \\sqrt{85}}{6} = \\frac{5}{6} + \\frac{\\sqrt{85}}{6}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"0c54aae7-15f2-4e7b-a138-cae820ff684e_11","correctAnswer":"B","section":"Math","steps":[{"title":"Find the roots","content":"Apply the quadratic formula with $a=3, b=-5, c=-5$: $$x=\\frac{5\\pm\\sqrt{25+60}}{6}=\\frac{5\\pm\\sqrt{85}}{6}.$$"},{"title":"Identify the greatest solution","content":"The larger root is $\\tfrac{5}{6}+\\tfrac{\\sqrt{85}}{6}$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

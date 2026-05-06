@@ -1,15 +1,1 @@
-{
-  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_22",
-  "correctAnswer": "-196",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the roots and the vertex x-coordinate",
-      "content": "The function $f(x) = (2x - 20)(2x + 8)$ is in factored form. The roots occur where each factor equals zero:<br/>$$2x - 20 = 0 \\Rightarrow x = 10$$$$2x + 8 = 0 \\Rightarrow x = -4$$<br/>The vertex of a parabola lies midway between its roots. Since the leading coefficient is positive ($(2x) \\cdot (2x) = 4x^2 > 0$), the parabola opens upward and the vertex represents a minimum:<br/>$$x = \\frac{10 + (-4)}{2} = 3$$"
-    },
-    {
-      "title": "Evaluate the function at the vertex",
-      "content": "Substitute $x = 3$ into the original expression:<br/>$$f(3) = (2(3) - 20)(2(3) + 8)$$$$= (6 - 20)(6 + 8)$$$$= (-14)(14)$$$$= -196$$<br/>The minimum value of the function is $-196$."
-    }
-  ]
-}
+{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_22","correctAnswer":"-196","section":"Math","steps":[{"title":"Expand and use the vertex formula","content":"Expand: $f(x)=(2x-20)(2x+8)=4x^2-24x-160$. Vertex at $$x = -\\tfrac{-24}{2 \\cdot 4} = 3.$$"},{"title":"Substitute to find $f(3)$","content":"$$f(3) = 4(9) - 24(3) - 160 = 36 - 72 - 160 = -196.$$"},{"title":"State the minimum","content":"The minimum value is $-196$. The answer is <strong>-196</strong>."}]}

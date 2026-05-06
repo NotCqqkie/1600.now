@@ -1,15 +1,1 @@
-{
-  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_19",
-  "correctAnswer": "1840",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use parallel line angle relationships",
-      "content": "When a transversal intersects two parallel lines, all acute angles are congruent to each other, all obtuse angles are congruent to each other, and any acute angle is supplementary to any adjacent obtuse angle.<br/><br/>Given that one acute angle is $(9x - 650)\u00b0$, the obtuse angle must satisfy:<br/>$$(9x - 650) + \\text{obtuse} = 180$$<br/>Solving for the obtuse angle:<br/>$$\\text{obtuse} = 830 - 9x$$"
-    },
-    {
-      "title": "Substitute into the sum equation and solve",
-      "content": "We're told that one acute angle plus three obtuse angles equals $(-18x + w)\u00b0$:<br/>$$(9x - 650) + 3(830 - 9x) = -18x + w$$<br/>Expanding the left side:<br/>$$9x - 650 + 2490 - 27x = -18x + w$$<br/>Combining like terms:<br/>$$-18x + 1840 = -18x + w$$<br/>Therefore, $w = 1840$."
-    }
-  ]
-}
+{"questionId":"979898ba-60c7-4531-ac45-29c4db2b3361_19","correctAnswer":"1840","section":"Math","steps":[{"title":"Set up the angle relationship","content":"Each obtuse angle is $180-(9x-650)$. The sum of one acute and three obtuse is $$(9x-650)+3[180-(9x-650)] = 540 - 2(9x-650).$$"},{"title":"Solve for the requested measure","content":"Simplify: $540 - 18x + 1300 = -18x + 1840$, so $$w = 1840.$$ The answer is <strong>1840</strong>."}]}

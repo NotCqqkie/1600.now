@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_15",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Complete the square to find the circle's radius",
-      "content": "Rearrange the equation to group $x$ and $y$ terms:<br/><br/>$$x^2 - 6x + y^2 - 4y = 51$$<br/><br/>Complete the square for $x$: $x^2 - 6x + 9 - 9 = (x-3)^2 - 9$<br/><br/>Complete the square for $y$: $y^2 - 4y + 4 - 4 = (y-2)^2 - 4$<br/><br/>Substitute back:<br/><br/>$$(x-3)^2 - 9 + (y-2)^2 - 4 = 51$$<br/><br>$$(x-3)^2 + (y-2)^2 = 64$$<br/><br/>The circle has center $(3, 2)$ and radius $r = \\sqrt{64} = 8$."
-    },
-    {
-      "title": "Apply the inscribed circle property",
-      "content": "When a circle is inscribed in a square, the circle touches all four sides, so the <strong>diameter of the circle equals the side length of the square</strong>.<br/><br/>Diameter = $2r = 2(8) = 16$<br/><br/>Side length of square = 16<br/><br/>Perimeter = $4 \\times 16 = 64$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_15", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Complete the square for x and y", "content": "$x^2 - 6x + y^2 - 4y - 51 = 0$ becomes $(x-3)^2 - 9 + (y-2)^2 - 4 - 51 = 0$, so $(x-3)^2 + (y-2)^2 = 64$."}, {"title": "Identify the center and radius", "content": "Center $(3, 2)$, radius $r = \\sqrt{64} = 8$."}, {"title": "Compute the requested value", "content": "Square side $= 2r = 16$, so perimeter $= 4 \\times 16 = 64$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

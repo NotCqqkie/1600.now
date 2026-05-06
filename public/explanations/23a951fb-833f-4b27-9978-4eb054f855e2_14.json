@@ -1,16 +1,1 @@
-{
-  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_14",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the fractional exponent rule",
-      "content": "The exponent $\\frac{1}{2}$ converts directly to a square root.",
-      "formula": "$$a^{\\frac{1}{2}} = \\sqrt{a}$$"
-    },
-    {
-      "title": "Convert the expression",
-      "content": "Apply this rule to $(39y)^{\\frac{1}{2}}$. The exponent applies to the entire quantity $(39y)$:<br/><br/>$$(39y)^{\\frac{1}{2}} = \\sqrt{39y}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_14", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "A $\\tfrac{1}{2}$ exponent is a square root: $$(39y)^{1/2}=\\sqrt{39y}.$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

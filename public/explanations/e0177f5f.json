@@ -1,15 +1,1 @@
-{
-  "questionId": "e0177f5f",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "ISOLVE: Substitute x=4 into y=5-x",
-      "content": "Given <em>x</em> = 4, we can substitute this value directly into the second equation to find <em>y</em>.<br/>\n$$y = 5 - 4$$"
-    },
-    {
-      "title": "Calculate and match choice",
-      "content": "$$y = 1.$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e0177f5f","correctAnswer":"A","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $x=4$ into $y=5-x$: $$y = 5 - 4 = 1.$$"},{"title":"Find $y$","content":"So $y=1$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

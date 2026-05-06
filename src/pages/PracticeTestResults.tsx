@@ -1,10 +1,11 @@
 import { useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
+import { StepByStepExplanation } from "@/components/StepByStepExplanation";
 import {
   getLatestPracticeTestResult,
   getPracticeTestResult,
@@ -71,6 +72,7 @@ const PracticeTestResults = () => {
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
   const [hideCorrectAnswers, setHideCorrectAnswers] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
+  const [showExplanation, setShowExplanation] = useState<Set<string>>(() => new Set());
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const [moduleFilter, setModuleFilter] = useState<string>("all");
@@ -91,6 +93,25 @@ const PracticeTestResults = () => {
       ),
     );
   }, [practiceSet]);
+  const orderedQuestions = useMemo(() => {
+    if (!result) return [];
+    const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
+
+    const filtered =
+      moduleFilter === "all"
+        ? result.questions
+        : result.questions.filter((question) => question.moduleSlug === moduleFilter);
+
+    return [...filtered].sort((left, right) => {
+      if (questionSortMode === "correct") {
+        const correctnessDifference =
+          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
+        if (correctnessDifference !== 0) return correctnessDifference;
+      }
+
+      return (left.globalQuestionNumber - right.globalQuestionNumber) * directionMultiplier;
+    });
+  }, [moduleFilter, questionSortDirection, questionSortMode, result]);
 
   if (!practiceSet || !result) {
     return (
@@ -109,25 +130,6 @@ const PracticeTestResults = () => {
       </div>
     );
   }
-
-  const orderedQuestions = useMemo(() => {
-    const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
-
-    const filtered =
-      moduleFilter === "all"
-        ? result.questions
-        : result.questions.filter((question) => question.moduleSlug === moduleFilter);
-
-    return [...filtered].sort((left, right) => {
-      if (questionSortMode === "correct") {
-        const correctnessDifference =
-          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
-        if (correctnessDifference !== 0) return correctnessDifference;
-      }
-
-      return (left.globalQuestionNumber - right.globalQuestionNumber) * directionMultiplier;
-    });
-  }, [moduleFilter, questionSortDirection, questionSortMode, result.questions]);
 
   const toggleExpandedQuestion = (storageId: string) => {
     setExpandedQuestions((previous) => {
@@ -162,7 +164,7 @@ const PracticeTestResults = () => {
       <div className="space-y-3">
         <h1
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(34px, 4.5vw, 56px)",
             fontWeight: 400,
             letterSpacing: "-0.04em",
@@ -176,65 +178,57 @@ const PracticeTestResults = () => {
         </div>
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-[1.15fr_0.85fr]">
-        <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
-          <CardHeader>
-            <CardTitle>Total Score</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            <div className="text-7xl font-semibold tracking-[-0.08em]">
-              {result.totalScore}
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30 sm:col-span-2 lg:col-span-2">
+          <CardContent className="flex items-center gap-6 pt-6">
+            <div>
+              <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Total Score</div>
+              <div className="mt-1 text-6xl font-semibold tracking-[-0.08em]">
+                {result.totalScore}
+              </div>
             </div>
+            <div className="h-16 w-px bg-border/60" />
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
-                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                  Reading and Writing
+                <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                  Reading & Writing
                 </div>
-                <div className="mt-2 text-4xl font-semibold tracking-[-0.04em] text-foreground">
+                <div className="mt-1 text-3xl font-semibold tracking-[-0.04em] text-foreground">
                   {result.readingWritingScore}
                 </div>
               </div>
               <div>
-                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
                   Math
                 </div>
-                <div className="mt-2 text-4xl font-semibold tracking-[-0.04em] text-foreground">
+                <div className="mt-1 text-3xl font-semibold tracking-[-0.04em] text-foreground">
                   {result.mathScore}
                 </div>
               </div>
             </div>
           </CardContent>
         </Card>
-
-        <div className="grid gap-4">
-          <Card className="border-border/70 bg-card">
-            <CardContent className="pt-6">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Accuracy</div>
-              <div className="mt-3 text-4xl font-semibold tracking-[-0.04em] text-foreground">{result.accuracy}%</div>
-              <div className="mt-2 text-sm text-muted-foreground">
-                {result.correctCount} correct of {result.questions.length}
-              </div>
-            </CardContent>
-          </Card>
-          <Card className="border-border/70 bg-card">
-            <CardContent className="pt-6">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Answered</div>
-              <div className="mt-3 text-4xl font-semibold tracking-[-0.04em] text-foreground">{result.answeredCount}</div>
-              <div className="mt-2 text-sm text-muted-foreground">
-                {result.unansweredCount} unanswered
-              </div>
-            </CardContent>
-          </Card>
-          <Card className="border-border/70 bg-card">
-            <CardContent className="pt-6">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Time Used</div>
-              <div className="mt-3 flex items-center gap-2 text-3xl font-semibold tracking-[-0.03em] text-foreground">
-                <Clock3 className="h-6 w-6 text-muted-foreground" />
-                {formatTime(result.elapsedSeconds)}
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+        <Card className="border-border/70 bg-card">
+          <CardContent className="pt-6">
+            <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Accuracy</div>
+            <div className="mt-2 text-3xl font-semibold tracking-[-0.04em] text-foreground">{result.accuracy}%</div>
+            <div className="mt-1 text-sm text-muted-foreground">
+              {result.correctCount} / {result.questions.length}
+            </div>
+          </CardContent>
+        </Card>
+        <Card className="border-border/70 bg-card">
+          <CardContent className="pt-6">
+            <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Time Used</div>
+            <div className="mt-2 flex items-center gap-2 text-3xl font-semibold tracking-[-0.03em] text-foreground">
+              <Clock3 className="h-5 w-5 text-muted-foreground" />
+              {formatTime(result.elapsedSeconds)}
+            </div>
+            <div className="mt-1 text-sm text-muted-foreground">
+              {result.answeredCount} answered · {result.unansweredCount} skipped
+            </div>
+          </CardContent>
+        </Card>
       </div>
 
       <Card className="border-border/70 bg-card">
@@ -531,13 +525,72 @@ const PracticeTestResults = () => {
                           Rationale
                         </div>
                         <div
-                          className="question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert [&_img]:my-3 [&_img]:block [&_img]:max-w-full [&_img]:h-auto [&_img]:mx-auto [&_img]:object-contain"
+                          className="question-html mt-2 break-words prose prose-stone max-w-none text-sm leading-7 text-foreground dark:prose-invert"
                           dangerouslySetInnerHTML={{
                             __html: getRenderedContentHtml(question.subject, sourceQuestion.rationale),
                           }}
                         />
                       </div>
                     )}
+
+                    <div className="col-span-full mt-1">
+                      {!showExplanation.has(question.storageId) ? (
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          className="gap-2 bg-transparent"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setShowExplanation((prev) => new Set(prev).add(question.storageId));
+                          }}
+                        >
+                          <Lightbulb className="h-4 w-4" />
+                          Show Step-by-Step Explanation
+                        </Button>
+                      ) : (
+                        <div className="rounded-xl border border-border/60 bg-muted/10 p-4">
+                          <div className="mb-3 flex items-center justify-between">
+                            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                              <Lightbulb className="h-3.5 w-3.5" />
+                              Step-by-Step Explanation
+                            </div>
+                            <button
+                              type="button"
+                              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setShowExplanation((prev) => {
+                                  const next = new Set(prev);
+                                  next.delete(question.storageId);
+                                  return next;
+                                });
+                              }}
+                            >
+                              Hide
+                            </button>
+                          </div>
+                          <StepByStepExplanation
+                            questionId={question.storageId}
+                            question={{
+                              section: question.subject === "math" ? "Math" : "Reading and Writing",
+                              passage: sourceQuestion.passage || "",
+                              questionText: sourceQuestion.questionText || sourceQuestion.prompt,
+                              choices: sourceQuestion.choices?.map((c) => ({
+                                label: c.id,
+                                text: c.text ?? "",
+                                image: c.image,
+                              })),
+                              correctAnswer: question.correctAnswer,
+                              domain: question.domain || sourceQuestion.domain,
+                              skill: question.skill,
+                              difficulty: sourceQuestion.difficulty,
+                              isFillInBlank: sourceQuestion.type === "fill-in-blank",
+                            }}
+                            questionImages={sourceQuestion.questionImages}
+                          />
+                        </div>
+                      )}
+                    </div>
                   </div>
                 ) : null}
               </div>

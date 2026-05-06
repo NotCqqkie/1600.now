@@ -1,15 +1,1 @@
-{
-  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the cost components",
-      "content": "Antonia's $7.20 total consists of two parts:<ul><li>Pasta: $2</li><li>Tomatoes: $1.30 per pound for $p$ pounds, totaling $1.30p$ dollars</li></ul>"
-    },
-    {
-      "title": "Set up the equation",
-      "content": "The total amount spent equals pasta cost plus tomato cost:<br/>$$1.30p + 2 = 7.20$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the cost components", "content": "Antonia's \\$7.20 total consists of two parts:<ul><li>Pasta: \\$2</li><li>Tomatoes: \\$1.30 per pound for $p$ pounds, totaling $1.30p$ dollars</li></ul>"}, {"title": "Set up the equation", "content": "The total amount spent equals pasta cost plus tomato cost:<br/>$$1.30p + 2 = 7.20$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

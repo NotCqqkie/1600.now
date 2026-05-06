@@ -1,16 +1,1 @@
-{
-  "questionId": "ff2e5c76",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the quadratic form and recognize the shortcut",
-      "content": "The equation $x^2 - 40x - 10 = 0$ is a quadratic in standard form $ax^2 + bx + c = 0$ with $a = 1$, $b = -40$, and $c = -10$. We're asked for the sum of solutions\u2014this is a classic case for using Vieta's formulas instead of solving."
-    },
-    {
-      "title": "Apply Vieta's formula for sum of roots",
-      "content": "By Vieta's formulas, the sum of the roots equals $-b/a$.<br/><br/>Substituting $a = 1$ and $b = -40$:<br/>$$\\text{Sum} = -\\frac{(-40)}{1} = 40$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$"
-    }
-  ]
-}
+{"questionId":"ff2e5c76","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the equation","content":"The quadratic $x^2-40x-10=0$ has $a=1$, $b=-40$. We apply Vieta's directly."},{"title":"Sum the solutions","content":"By Vieta's, sum $=-b/a=-(-40)/1=40$.<br/><br/>The answer is <strong>D</strong>."}]}

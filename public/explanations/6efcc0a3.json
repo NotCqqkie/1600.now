@@ -1,16 +1,1 @@
-{
-  "questionId": "6efcc0a3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the y-intercept to find b",
-      "content": "For a linear function, substituting $h(0) = 41$ directly gives the y-intercept: $b = 41$.",
-      "formula": "$$h(x) = mx + b$$"
-    },
-    {
-      "title": "Use the second point to find slope m",
-      "content": "With $b = 41$, we have $h(x) = mx + 41$. Using $h(1) = 40$:<br/>$$40 = m(1) + 41$$<br/>$$m = -1$$<br/>Therefore $h(x) = -x + 41$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6efcc0a3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the slope", "content": "Slope $=\\dfrac{40-41}{1-0}=-1$. Use a known point to find the intercept: $h(x)=-x+41$."}, {"title": "Identify the answer", "content": "The function is $$h(x)=-x+41.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

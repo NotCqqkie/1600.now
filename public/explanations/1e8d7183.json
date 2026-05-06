@@ -1,16 +1,1 @@
-{
-  "questionId": "1e8d7183",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the perfect squares",
-      "content": "Examine each term in $256w^2 - 676$. <br/> $256w^2 = (16w)^2$ because $16^2 = 256$. <br/> $676 = 26^2$ because $26^2 = 676$. <br/> So the expression is $(16w)^2 - 26^2$, which is a difference of squares."
-    },
-    {
-      "title": "Apply the difference of squares formula",
-      "content": "With $a = 16w$ and $b = 26$, we get: $(16w - 26)(16w + 26)$. <br/> That matches choice D \u2014 <strong>D</strong> is correct.",
-      "formula": "$$a^2 - b^2 = (a-b)(a+b)$$"
-    }
-  ]
-}
+{"questionId":"1e8d7183","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"Recognize a difference of squares: $256w^2=(16w)^2$ and $676=26^2$. Therefore:$$256w^2-676=(16w-26)(16w+26)$$"},{"title":"Match to the answer choices","content":"The factored form is $(16w-26)(16w+26)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

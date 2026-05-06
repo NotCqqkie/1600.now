@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship",
-      "content": "The phrase \u201cincluding languages [BLANK] the Madurese and Bikol\u201d presents a category (languages) followed by specific examples (the Madurese and Bikol)."
-    },
-    {
-      "title": "Apply the rule for introducing examples",
-      "content": "A colon introduces examples, lists, or elaborations after a category term. \u201cIncluding languages: the Madurese and Bikol\u201d correctly uses a colon to signal that specific examples follow. The other choices either omit the needed connector (A), nest em-dashes awkwardly within the existing em-dashed parenthetical (B), or use a comma, which is less standard for introducing a list of examples (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The blank sits between \"including\" and the noun phrase \"the Madurese and Bikol.\" The whole list is already enclosed in em-dashes (\"—including ______ the Madurese and Bikol, which...—\"), so the parenthetical is already set off."}, {"title": "Apply the rule", "content": "\"Including\" functions here as a preposition introducing the items in the list. No punctuation is needed between \"including\" and its object; adding a colon, em-dash, or comma would over-punctuate the parenthetical that's already inside em-dashes. The answer is <strong>A</strong> (no punctuation)."}]}

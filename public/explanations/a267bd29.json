@@ -1,16 +1,1 @@
-{
-  "questionId": "a267bd29",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the quadratic formula with coefficients",
-      "content": "The equation $w^2 + 12w - 40 = 0$ is in standard form with $a = 1$, $b = 12$, and $c = -40$. Apply the quadratic formula.",
-      "formula": "$$w = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
-    },
-    {
-      "title": "Compute the solutions",
-      "content": "Compute the discriminant: $b^2 - 4ac = 12^2 - 4(1)(-40) = 144 + 160 = 304$. Since $304 = 16 \\cdot 19$, we have $\\sqrt{304} = 4\\sqrt{19}$.<br/>Substitute into the formula:<br/>$$w = \\frac{-12 \\pm 4\\sqrt{19}}{2} = -6 \\pm 2\\sqrt{19}$$<br/>The two solutions are $-6 + 2\\sqrt{19}$ and $-6 - 2\\sqrt{19}$. The solution $-6 + 2\\sqrt{19}$ matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a267bd29","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the quadratic","content":"Apply the quadratic formula with $a=1, b=12, c=-40$: $$w=\\frac{-12\\pm\\sqrt{144+160}}{2}=\\frac{-12\\pm\\sqrt{304}}{2}.$$ Since $\\sqrt{304}=4\\sqrt{19}$, $w=-6\\pm 2\\sqrt{19}$."},{"title":"Identify the matching solution","content":"The two solutions are $-6+2\\sqrt{19}$ and $-6-2\\sqrt{19}$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

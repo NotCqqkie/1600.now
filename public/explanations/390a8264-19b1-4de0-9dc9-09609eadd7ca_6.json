@@ -1,15 +1,1 @@
-{
-  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_6",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute to eliminate the repeated expression",
-      "content": "Notice that $(x + 7)$ appears on both sides of the equation. Let $u = x + 7$. The equation becomes:<br/>$$8u = 7u + 68$$"
-    },
-    {
-      "title": "Solve for the substituted variable",
-      "content": "Subtract $7u$ from both sides:<br/>$$8u - 7u = 68$$<br/>$$u = 68$$<br/>Since $u = x + 7$ and the question asks for $x + 7$, we have $x + 7 = 68$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_6","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $7(x+7)$: $(x+7)=68$."},{"title":"Compute the target value","content":"So $x+7 = 68$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

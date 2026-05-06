@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from "react";
 import { matchPath, useLocation } from "react-router-dom";
-import { hreflangGroup } from "@/lib/countryHubData";
+import { hreflangGroup } from "@/lib/hreflangData";
 import {
   BRAND_ALTERNATE,
   BRAND_NAME,
@@ -347,7 +347,7 @@ export const Seo = () => {
         url: SITE_URL,
       },
     });
-  }, [metadata]);
+  }, [metadata, location.pathname]);
 
   return null;
 };

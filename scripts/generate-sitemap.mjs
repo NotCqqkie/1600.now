@@ -108,7 +108,6 @@ const pagesBucket = [
   { url: "/browse", lastmod: MTIME_BROWSE },
   { url: "/bank", lastmod: MTIME_BANK },
   { url: "/vocab", lastmod: MTIME_VOCAB },
-  { url: "/analysis", lastmod: MTIME_ANALYSIS },
   { url: "/hard", lastmod: MTIME_HARD },
   { url: "/sat-vocabulary", lastmod: MTIME_VOCAB_INDEX },
   { url: "/sat-score", lastmod: MTIME_SCORES },

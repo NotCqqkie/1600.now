@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the appositive structure",
-      "content": "\u201dCreated by Niklaus Wirth\u201d is an appositive phrase\u2014a non-essential explanation that provides more detail about Pascal. <strong>Appositives must be set off with matching punctuation marks on both sides.</strong>"
+      "title": "Spot the existing dash",
+      "content": "The original sentence already contains an em-dash before <em>was released in 1970</em>: <em>...for teaching programming skills—was released in 1970.</em> Whatever fills the blank must pair with that closing em-dash."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "Choice B correctly uses paired commas to enclose the appositive: \u201cPascal, created by Niklaus Wirth,\u201d and lets \u201cfor teaching programming skills\u201d stand separately. Option A pairs em-dashes but groups two distinct information types together; options C and D lack or misuse punctuation. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Pair the dashes",
+      "content": "Em-dashes used as parenthetical marks must come in matching pairs. Choice A opens with an em-dash after <em>Pascal</em>: <em>Pascal—created by Niklaus Wirth</em>, which pairs with the existing closing dash to set off the non-essential information cleanly: <em>Pascal—created by Niklaus Wirth—for teaching programming skills—was released in 1970.</em><br/><br/>Choices B and D mix commas with the existing em-dash, breaking the symmetry. Choice C omits punctuation entirely.<br/><br/>The answer is <strong>A</strong>."
     }
   ]
 }

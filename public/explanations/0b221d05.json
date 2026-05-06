@@ -1,16 +1,1 @@
-{
-  "questionId": "0b221d05",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the inequality from the boundary line",
-      "content": "The boundary line passes through (0, -4) and (2, 4).<br/><br/>Slope: $$\\frac{4-(-4)}{2-0} = 4$$<br/><br/>Equation: $$y = 4x - 4$$<br/><br/>The shaded region lies below the line, so solutions must satisfy $y &lt; 4x - 4$.",
-      "formula": "$$y = 4x - 4$$"
-    },
-    {
-      "title": "Test answer choices",
-      "content": "For each choice, check if $y &lt; 4x - 4$:<br/><ul><li>A $(-5, -6)$: $-6 &lt; 4(-5) - 4 = -24$? No.</li><li>B $(-2, 5)$: $5 &lt; 4(-2) - 4 = -12$? No.</li><li>C $(1, 4)$: $4 &lt; 4(1) - 4 = 0$? No.</li><li>D $(6, -2)$: $-2 &lt; 4(6) - 4 = 20$? Yes.</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0b221d05", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the inequality from the boundary line", "content": "The boundary line passes through (0, -4) and (2, 4).<br/><br/>Slope: $$\\frac{4-(-4)}{2-0} = 4$$<br/><br/>Equation: $$y = 4x - 4$$<br/><br/>The shaded region lies below the line, so solutions must satisfy $y < 4x - 4$.", "formula": "$$y = 4x - 4$$"}, {"title": "Test answer choices", "content": "For each choice, check if $y < 4x - 4$:<br/><ul><li>A $(-5, -6)$: $-6 < 4(-5) - 4 = -24$? No.</li><li>B $(-2, 5)$: $5 < 4(-2) - 4 = -12$? No.</li><li>C $(1, 4)$: $4 < 4(1) - 4 = 0$? No.</li><li>D $(6, -2)$: $-2 < 4(6) - 4 = 20$? Yes.</li></ul>That matches choice D — <strong>D</strong> is correct."}]}

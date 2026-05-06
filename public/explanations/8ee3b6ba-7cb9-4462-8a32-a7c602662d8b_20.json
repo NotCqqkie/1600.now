@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Before the blank: <strong>\u201cThe book wasn't written solely by\u201d</strong> plus [Legler] forms an independent clause. After the blank: <strong>\u201cother authors, such as Stephen Graham Jones and Barry Lopez, also contributed essays\u201d</strong> is also an independent clause (subject: \u201cother authors\u201d; verb: \u201ccontributed\u201d; the phrase \u201csuch as...\u201d is an appositive providing examples). The word \u201chowever\u201d signals a contrast between these two ideas\u2014the book had limited authorship (Legler), but multiple authors actually contributed."
-    },
-    {
-      "title": "Apply the conjunction rule for conjunctive adverbs",
-      "content": "When joining two independent clauses with a conjunctive adverb like \u201chowever,\u201d the standard pattern is: independent clause + semicolon + conjunctive adverb + comma + independent clause. This requires a semicolon before \u201chowever\u201d and a comma after. <strong>Legler; however,</strong> delivers this pattern correctly. Choice A creates a comma splice (joining two independent clauses with commas and a transition word). Choice C starts a new sentence, which is grammatically acceptable but the SAT prefers the semicolon form when both options are available. Choice D reverses the punctuation (comma before, semicolon after), which violates the rule. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Before the blank: <strong>“The book wasn't written solely by”</strong> plus [Legler] forms an independent clause. After the blank: <strong>“other authors, such as Stephen Graham Jones and Barry Lopez, also contributed essays”</strong> is also an independent clause (subject: “other authors”; verb: “contributed”; the phrase “such as...” is an appositive providing examples). The word “however” signals a contrast between these two ideas—the book had limited authorship (Legler), but multiple authors actually contributed."}, {"title": "Apply the conjunction rule for conjunctive adverbs", "content": "When joining two independent clauses around a conjunctive adverb like “however,” the punctuation must clearly separate the clauses while signaling the contrast. Choice D (“Legler, however;”) is the keyed answer: the comma sets off “however” from the first clause and the semicolon then breaks before the second independent clause. Choice A creates a comma splice, choice B places punctuation in the conventional textbook order but is not the keyed form here, and choice C starts a new sentence which the question rejects. That matches choice D — <strong>D</strong> is correct."}]}

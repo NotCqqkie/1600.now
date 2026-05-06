@@ -1,15 +1,1 @@
-{
-  "questionId": "317e80f9",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate x using the second equation",
-      "content": "The second equation is $5y = x$, which directly gives us $x = 5y$."
-    },
-    {
-      "title": "Substitute and solve for y",
-      "content": "Substitute $x = 5y$ into the first equation $x + y = 18$:<br/><br/>$$5y + y = 18$$<br/><br/>Combine like terms:<br/><br/>$$6y = 18$$<br/><br/>Divide by 6:<br/><br/>$$y = 3$$<br/><br/>Now use $x = 5y$ to find $x$:<br/><br/>$$x = 5(3) = 15$$<br/><br/>The solution is $(x, y) = (15, 3)$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "317e80f9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $5y=x$, substitute into $x+y=18$: $$5y+y=18.$$ So $6y=18$ and $y=3$."}, {"title": "Find the matching ordered pair", "content": "Then $x=5(3)=15$. The answer is <strong>(A) $(15,3)$</strong>."}]}

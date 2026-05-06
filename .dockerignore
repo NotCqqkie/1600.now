@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.env
+.env.local
+.env.*.local
+.vscode
+.idea
+*.log
+npm-debug.log*
+.DS_Store
+flag*.png
+font-mockup.html
+font-sampler.html

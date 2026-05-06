@@ -85,8 +85,15 @@ async function main() {
     process.exit(1);
   }
 
-  const routes = urlsFromSitemap();
-  console.log(`Prerendering ${routes.length} routes...`);
+  // Skip /college/* (1,491 routes). They're data-driven templates from
+  // colleges.json — Googlebot runs JS now, so client rendering is sufficient
+  // and prerendering them dominated build time without proportional SEO win.
+  const allRoutes = urlsFromSitemap();
+  const skippedColleges = allRoutes.filter((r) => r.startsWith("/college/")).length;
+  const routes = allRoutes.filter((r) => !r.startsWith("/college/"));
+  console.log(
+    `Prerendering ${routes.length} routes (skipped ${skippedColleges} /college/* routes)...`,
+  );
 
   const server = serveStaticSpa();
   await new Promise((r) => server.listen(PORT, r));
@@ -94,14 +101,18 @@ async function main() {
   // Sandbox flags are gated behind PRERENDER_NO_SANDBOX so CI containers that
   // genuinely need them can opt in, while local/dev runs keep the sandbox on.
   const launchArgs = process.env.PRERENDER_NO_SANDBOX === "1"
-    ? ["--no-sandbox", "--disable-setuid-sandbox"]
+    ? ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--single-process"]
     : [];
   const browser = await puppeteer.launch({
     headless: true,
     args: launchArgs,
+    // Default 30s caused intermittent "Runtime.callFunctionOn timed out"
+    // failures on slower routes in the DO build container. 90s is generous
+    // and only kicks in when something is genuinely stuck.
+    protocolTimeout: 90_000,
   });
 
-  const concurrency = 6;
+  const concurrency = 10;
   let cursor = 0;
   let done = 0;
   let failed = 0;
@@ -115,9 +126,19 @@ async function main() {
       const route = routes[i];
       try {
         await page.goto(`http://localhost:${PORT}${route}`, {
-          waitUntil: "networkidle0",
-          timeout: 30000,
+          waitUntil: "domcontentloaded",
+          timeout: 20000,
         });
+        // Wait for React to mount and populate #root. Lazy route chunks need
+        // to load before content appears, so polling the DOM is more reliable
+        // than networkidle (which waits for ALL traffic to settle).
+        await page.waitForFunction(
+          () => {
+            const root = document.getElementById("root");
+            return !!root && root.children.length > 0;
+          },
+          { timeout: 15000, polling: 100 },
+        );
         await page.evaluate(
           () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))),
         );

@@ -1,15 +1,1 @@
-{
-  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Goal: find an equivalent equation",
-      "content": "We need to find which choice is equivalent to $13x + 50 = 180$. Two equations are equivalent if they have the same solution. To find the answer, simplify the given equation by isolating the $13x$ term."
-    },
-    {
-      "title": "Subtract 50 from both sides",
-      "content": "Subtract 50 from both sides:<br/><br/>$$13x + 50 - 50 = 180 - 50$$<br/>$$13x = 130$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Starting from $$13x+50=180,$$ subtract 50 on both sides to isolate the variable term."}, {"title": "Identify the answer", "content": "This gives $$13x=130.$$ That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

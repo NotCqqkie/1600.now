@@ -14,12 +14,16 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
 
   if (/\\[A-Za-z]+/.test(trimmed)) return true;
   if (/[\\^_{}]/.test(trimmed)) return true;
-  if (/[=<>+*/]/.test(trimmed)) return true;
-  if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
 
+  // Reject English prose before short-circuiting on operators. Otherwise
+  // "Substitute x = 7 into the function" wraps as $...$ and KaTeX strips
+  // its spaces, rendering "Substitutex=7intothefunction".
   const proseCandidate = trimmed.replace(/\\[A-Za-z]+/g, " ");
   const proseWords = proseCandidate.match(/[A-Za-z]{3,}/g) ?? [];
   if (proseWords.length >= 2) return false;
+
+  if (/[=<>+*/]/.test(trimmed)) return true;
+  if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
 
   if (/^\d[\d.,]*$/.test(trimmed)) return true;
   if (/^[A-Za-z][A-Za-z0-9]{0,3}$/.test(trimmed)) return true;
@@ -572,13 +576,69 @@ const normalizePlainTextWrappedMath = (content: string): string => {
   return result;
 };
 
+// LLMs sometimes escape the OPENING dollar of a math span — emitting `\$28$`
+// when they meant `$28$`. The escape was almost certainly added because the
+// span opens with a number, which the model misread as currency. Repair the
+// pattern when the inner content is plausibly math and the closer is not
+// followed by another `$` (so we don't disturb display math).
+//
+// Crucially, only fire when we're OUTSIDE an existing math span. Otherwise we
+// destroy legitimate escaped-currency-inside-math patterns like `$\$641$`
+// (487+ occurrences in the question bank), turning the whole sentence after it
+// into one giant unclosed math run.
+const repairLlmEscapedMathOpen = (content: string): string => {
+  let result = "";
+  let cursor = 0;
+  let inMathSpan = false;
+
+  while (cursor < content.length) {
+    const ch = content[cursor];
+
+    if (ch === "$" && !isEscapedAt(content, cursor)) {
+      const isDisplay =
+        content[cursor + 1] === "$" && !isEscapedAt(content, cursor + 1);
+      if (isDisplay) {
+        result += "$$";
+        cursor += 2;
+        continue;
+      }
+      result += "$";
+      cursor += 1;
+      inMathSpan = !inMathSpan;
+      continue;
+    }
+
+    if (!inMathSpan && ch === "\\" && content[cursor + 1] === "$") {
+      const tail = content.slice(cursor);
+      const match = tail.match(/^\\\$([^$\n<]{1,80}?)\$(?!\$)/);
+      if (match) {
+        const inner = match[1];
+        const trimmed = inner.trim();
+        const proseWords = trimmed.match(/[A-Za-z]{3,}/g) ?? [];
+        if (trimmed && proseWords.length < 2 && isLikelyInlineMath(trimmed)) {
+          result += `$${inner}$`;
+          cursor += match[0].length;
+          continue;
+        }
+      }
+    }
+
+    result += ch;
+    cursor += 1;
+  }
+
+  return result;
+};
+
 export function normalizeTextForMathRendering(text: string | null | undefined): string {
   if (!text) return text || "";
 
   const preprocessed = normalizeTtsMathPhrasesInsideMath(
     normalizeNestedDollarSigns(
       stripTableInlineWidths(
-        normalizeBulletTtsNarration(normalizeInlineHtmlEmphasis(text)),
+        normalizeBulletTtsNarration(
+          normalizeInlineHtmlEmphasis(repairLlmEscapedMathOpen(text)),
+        ),
       ),
     ),
   );

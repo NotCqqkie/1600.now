@@ -1,15 +1,1 @@
-{
-  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_15",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert to vertex form by completing the square",
-      "content": "Factor the leading coefficient from the first two terms:\n\n$$p(x) = 2(x^2 + 10x) + 15$$\n\nComplete the square inside the parentheses by adding and subtracting $(\\frac{10}{2})^2 = 25$:\n\n$$= 2(x^2 + 10x + 25 - 25) + 15$$\n\n$$= 2((x + 5)^2 - 25) + 15$$\n\n$$= 2(x + 5)^2 - 50 + 15$$\n\n$$= 2(x + 5)^2 - 35$$"
-    },
-    {
-      "title": "Identify the minimum from vertex form",
-      "content": "The vertex form is $p(x) = 2(x + 5)^2 - 35$, which shows the vertex at $(-5, -35)$. Since the coefficient of the squared term is positive, the parabola opens upward and has a minimum value of $-35$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_15", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the vertex formula", "content": "For $p(x) = 2x^2 + 20x + 15$, the vertex's $x$-coordinate is $x = -\\frac{b}{2a} = -\\frac{20}{2(2)} = -5$."}, {"title": "Substitute to find $p(-5)$", "content": "$p(-5) = 2(-5)^2 + 20(-5) + 15 = 50 - 100 + 15 = -35$."}, {"title": "State the minimum", "content": "Since $a = 2 > 0$, the parabola opens upward and the minimum is $-35$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

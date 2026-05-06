@@ -1,16 +1,1 @@
-{
-  "questionId": "04bbce67",
-  "correctAnswer": "-7",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize vertex form",
-      "content": "The function $f(x) = (x+7)^2 + 4$ is in vertex form $f(x) = a(x-h)^2 + k$. <br/>Rewriting to match this pattern: $f(x) = (x - (-7))^2 + 4$. <br/>The vertex is at $(h, k) = (-7, 4)$.",
-      "formula": "$$f(x) = a(x-h)^2 + k \\quad \\text{vertex: } (h,k)$$"
-    },
-    {
-      "title": "Find the minimum",
-      "content": "Since $a = 1 > 0$, the parabola opens upward, making the vertex the minimum point. <br/>Therefore, $f(x)$ reaches its minimum at $x = -7$."
-    }
-  ]
-}
+{"questionId": "04bbce67", "correctAnswer": "-7", "section": "Math", "steps": [{"title": "Identify the roots", "content": "$f(x) = (x+7)^2 + 4$ is in vertex form $a(x-h)^2 + k$ with $a = 1$, $h = -7$, $k = 4$."}, {"title": "Apply the new function definition", "content": "Since $a > 0$, the parabola opens upward and has its minimum at the vertex $x = h$."}, {"title": "Compute the answer", "content": "The minimum occurs at $x = -7$. The answer is <strong>-7</strong>."}]}
