@@ -36,3 +36,7 @@ scripts/**/*_checkpoint.json
 scripts/**/*_log.json
 *.bak
 rescraped_images_*/
+
+# Auto-generated worker state and debug artifacts
+.playwright-mcp/
+CODEX_*.md
