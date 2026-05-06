@@ -1,0 +1,442 @@
+[
+  {
+    "question_id": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_14",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/August_2024_International_Form_B_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "\"All day long [the soldiers] rode through the canyon, up and down the steep, round hills, dirty and bald as a man's head, hill after hill in endless succession. At last, late in the afternoon, they descried several stone church towers in the heart of a bluish ridge, and, beyond, the white road with its curling spirals of dust and its gray telegraph poles.\"",
+    "reason": "Normal prose. 'and' appears in proper narrative context, not as screen-reader math notation."
+  },
+  {
+    "question_id": "6c5588e4-f326-44d2-afd6-39547f4bb40a_16",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/June_2023_Form_A_SAT_English_Module_2.json",
+    "needs_fix": false,
+    "original_value": "cut, bent, and,",
+    "reason": "List of adjectives. 'and' is normal conjunction, not math notation. Trailing comma is TTS artifact but doesn't constitute screen-reader math."
+  },
+  {
+    "question_id": "97534841-3541-4563-86b8-0a919d0bde5b_18",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/June_2024_US_Form_C_SAT_English_Module_2.json",
+    "needs_fix": false,
+    "original_value": "nurses, and, among",
+    "reason": "Normal prose fragment. 'and' is standard conjunction connecting list items."
+  },
+  {
+    "question_id": "d4413871",
+    "field": "rationale",
+    "file": "src/data/Modules/June_2025_International_Form_A_SAT_Math_Module_2.json",
+    "needs_fix": true,
+    "original_value": "The correct answer is 8. In this group, $\\frac{1}{9}$ of the people who are rhesus negative have blood type B. The total number of people who are rhesus negative in the group is $7 + 2 + 1 + x$, and there are 2 people who are rhesus negative with blood type B. Therefore, the fraction with numerator 2, and denominator, 7 plus 2, plus 1, plus x, end fraction, equals one ninth. Combining like terms on the left-hand side of the equation yields the fraction with numerator 2, and denominator, 10 plus x, end fraction, equals one ninth. Multiplying both sides of this equation by 9 yields the fraction with numerator 18, and denominator, 10 plus x, end fraction, equals 1, and multiplying both sides of this equation by $(10 + x)$ yields $18 = 10 + x$. Subtracting 10 from both sides of this equation yields $8 = x$.",
+    "corrected_value": "The correct answer is 8. In this group, $\\frac{1}{9}$ of the people who are rhesus negative have blood type B. The total number of people who are rhesus negative in the group is $7 + 2 + 1 + x$, and there are 2 people who are rhesus negative with blood type B. Therefore, $\\frac{2}{7+2+1+x} = \\frac{1}{9}$. Combining like terms on the left-hand side of the equation yields $\\frac{2}{10+x} = \\frac{1}{9}$. Multiplying both sides of this equation by 9 yields $\\frac{18}{10+x} = 1$, and multiplying both sides of this equation by $(10 + x)$ yields $18 = 10 + x$. Subtracting 10 from both sides of this equation yields $8 = x$."
+  },
+  {
+    "question_id": "1772a8fc-3104-49c8-9168-d2704967f5fd_10",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/March_2024_International_Form_C_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "3c95093c",
+    "field": "rationale",
+    "file": "src/data/Modules/March_2025_International_Form_A_SAT_Math_Module_1.json",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield 2 x minus 3 y, is greater than 4.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $0, - 1.5$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D.",
+    "corrected_value": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield $2x - 3y > 4$.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $(0, -1.5)$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D."
+  },
+  {
+    "question_id": "e9aed539",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/May_2024_International_Form_E_SAT_Math_Module_1.json",
+    "needs_fix": true,
+    "original_value": "• The parabola opens upward.\n• The vertex is at the point (negative 2 comma negative 2).\n• The parabola passes through the following points:\n• (negative 3 comma negative nine tenths)\n• (negative 2 comma negative 2)\n• (negative 1 comma negative nine tenths)",
+    "corrected_value": "• The parabola opens upward.\n• The vertex is at the point $(-2, -2)$.\n• The parabola passes through the following points:\n• $(-3, -\\frac{9}{10})$\n• $(-2, -2)$\n• $(-1, -\\frac{9}{10})$"
+  },
+  {
+    "question_id": "91e7ea5e",
+    "field": "rationale",
+    "file": "src/data/Modules/May_2025_US_Form_A_SAT_Math_Module_1.json",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. It's given that the graph of y equals, h of x intersects the <em>x</em>-axis at the point with coordinates 0 comma 0 and the point with coordinates t comma 0, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when h of x equals 0, it follows that h of 0 equals 0 and h of t equals 0. If h of t equals 0, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors.",
+    "corrected_value": "Choice D is correct. It's given that the graph of $y = h(x)$ intersects the <em>x</em>-axis at the point with coordinates $(0, 0)$ and the point with coordinates $(t, 0)$, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when $h(x) = 0$, it follows that $h(0) = 0$ and $h(t) = 0$. If $h(t) = 0$, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors."
+  },
+  {
+    "question_id": "d007aa6c-6fd8-4005-bd58-dc779c145226_8",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/November_2023_Form_B_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "c54d1c21-6311-4c45-9089-a236778df0e9_8",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/November_2023_Form_C_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_11",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/November_2024_International_Form_B_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "\"All day long the [soldiers] rode through the canyon, up and down the steep, round hills, dirty and bald as a man's head, hill after hill in endless succession. At last, late in the afternoon, they descried several stone church towers in the heart of a bluish ridge, and, beyond, the white road with its curling spirals of dust and its gray telegraph poles.\"",
+    "reason": "Normal prose. 'and' appears in proper narrative context, not as screen-reader math notation."
+  },
+  {
+    "question_id": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_9",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_International_Form_B_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "348385bf-0e3c-48f0-85b8-e84dfdf12196_9",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_International_Form_C_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_10",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_US_Form_A_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "b86123af",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_US_Form_B_SAT_Math_Module_2.json",
+    "needs_fix": true,
+    "original_value": "x plus 2 y, equals 86, and, 3 x plus 5 y, equals 166",
+    "corrected_value": "$x + 2y = 86$ and $3x + 5y = 166$"
+  },
+  {
+    "question_id": "b86123af",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_US_Form_B_SAT_Math_Module_2.json",
+    "needs_fix": true,
+    "original_value": "x plus 3 y, equals 86, and, 2 x plus 5 y, equals 166",
+    "corrected_value": "$x + 3y = 86$ and $2x + 5y = 166$"
+  },
+  {
+    "question_id": "b86123af",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_US_Form_B_SAT_Math_Module_2.json",
+    "needs_fix": true,
+    "original_value": "x plus 2 y, equals 166, and, 3 x plus 5 y, equals 86",
+    "corrected_value": "$x + 2y = 166$ and $3x + 5y = 86$"
+  },
+  {
+    "question_id": "b86123af",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_US_Form_B_SAT_Math_Module_2.json",
+    "needs_fix": true,
+    "original_value": "x plus 3 y, equals 166, and, 2 x plus 5 y, equals 86",
+    "corrected_value": "$x + 3y = 166$ and $2x + 5y = 86$"
+  },
+  {
+    "question_id": "262137dd-b309-4356-982d-630e0212b16e_9",
+    "field": "choices[?].text",
+    "file": "src/data/Modules/October_2024_US_Form_C_SAT_English_Module_1.json",
+    "needs_fix": false,
+    "original_value": "Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.",
+    "reason": "Normal prose. 'equals' is a regular verb in non-math context."
+  },
+  {
+    "question_id": "f224df07",
+    "field": "rationale",
+    "file": "src/data/Modules/October_2025_International_Form_B_SAT_Math_Module_2.json",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Let <em>a</em> equal the number of 120-pound packages, and let <em>b</em> equal the number of 100-pound packages. It's given that the total weight of the packages can be at most 1,100 pounds: the inequality 120 a, plus 100 b, is less than or equal to 1,100 represents this situation. It's also given that the helicopter must carry at least 10 packages: the inequality a, plus b, is greater than or equal to 10 represents this situation. Values of <em>a</em> and <em>b</em> that satisfy these two inequalities represent the allowable numbers of 120-pound packages and 100-pound packages the helicopter can transport. To maximize the number of 120-pound packages, <em>a</em>, in the helicopter, the number of 100-pound packages, <em>b</em>, in the helicopter needs to be minimized. Expressing <em>b</em> in terms of <em>a</em> in the second inequality yields b is greater than or equal to, 10 minus a, so the minimum value of <em>b</em> is equal to $10 - a$. Substituting $10 - a$ for <em>b</em> in the first inequality results in 120 a, plus 100, times, open parenthesis, 10 minus a, close parenthesis, is less than or equal to 1,100. Using the distributive property to rewrite this inequality yields 120 a, plus 1,000, minus 100 a, is less than or equal to 1,100, or 20 a, plus 1,000, is less than or equal to 1,100. Subtracting 1,000 from both sides of this inequality yields 20 a, is less than or equal to 100. Dividing both sides of this inequality by 20 results in a, is less than or equal to 5. This means that the maximum number of 120-pound packages that the helicopter can carry per trip is 5.\nChoices A, B, and D are incorrect and may result from incorrectly creating or solving the system of inequalities.",
+    "corrected_value": "Choice C is correct. Let <em>a</em> equal the number of 120-pound packages, and let <em>b</em> equal the number of 100-pound packages. It's given that the total weight of the packages can be at most 1,100 pounds: the inequality $120a + 100b \\leq 1,100$ represents this situation. It's also given that the helicopter must carry at least 10 packages: the inequality $a + b \\geq 10$ represents this situation. Values of <em>a</em> and <em>b</em> that satisfy these two inequalities represent the allowable numbers of 120-pound packages and 100-pound packages the helicopter can transport. To maximize the number of 120-pound packages, <em>a</em>, in the helicopter, the number of 100-pound packages, <em>b</em>, in the helicopter needs to be minimized. Expressing <em>b</em> in terms of <em>a</em> in the second inequality yields $b \\geq 10 - a$, so the minimum value of <em>b</em> is equal to $10 - a$. Substituting $10 - a$ for <em>b</em> in the first inequality results in $120a + 100(10 - a) \\leq 1,100$. Using the distributive property to rewrite this inequality yields $120a + 1,000 - 100a \\leq 1,100$, or $20a + 1,000 \\leq 1,100$. Subtracting 1,000 from both sides of this inequality yields $20a \\leq 100$. Dividing both sides of this inequality by 20 results in $a \\leq 5$. This means that the maximum number of 120-pound packages that the helicopter can carry per trip is 5.\nChoices A, B, and D are incorrect and may result from incorrectly creating or solving the system of inequalities."
+  },
+  {
+    "question_id": "d03e29f1",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is correct. The equation of a circle in the <em>xy</em>-plane can be written as ${\\left(x-h\\right)}^{2}+{\\left(y-k\\right)}^{2}={r}^{2}$, where the center of the circle is $(h,k)$ and the radius of the circle is $r$. The graph of the given equation, ${\\left(x-6\\right)}^{2}+{\\left(y-3\\right)}^{2}=81$, is a circle in the <em>xy</em>-plane. This equation can be written as ${\\left(x-6\\right)}^{2}+{\\left(y-3\\right)}^{2}={9}^{2}$, where $h=6$, $k=3$, and $r=9$. Therefore, the radius of this circle is $9$.\nChoice A is incorrect. This is the <em>y</em>-coordinate of the center, not the radius, of the circle defined by the given equation.\nChoice B is incorrect. This is the <em>x</em>-coordinate of the center, not the radius, of the circle defined by the given equation.\nChoice D is incorrect. This is the value of the radius squared, not the radius, of the circle defined by the given equation.",
+    "reason": "Already in proper LaTeX format with squared notation using ^2 syntax."
+  },
+  {
+    "question_id": "d2047497",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is correct. The area of a rectangle with length $l$ and width $w$ can be found using the formula $A=lw$. It's given that the rectangle has a length of $17\\text{cm}$ and a width of $7\\text{cm}$. Therefore, the area of this rectangle is $A=17\\left(7\\right)$, or $119{\\text{cm}}^{2}$.\nChoice A is incorrect. This is the sum of the length and width of the rectangle, not the area.\nChoice B is incorrect. This is the perimeter of the rectangle, not the area.\nChoice D is incorrect. This is the sum of the length and width of the rectangle squared, not the area.",
+    "reason": "Already in proper LaTeX format with squared notation."
+  },
+  {
+    "question_id": "92eb236a",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "In a right triangle, the tangent of one of the two acute angles is the fraction with numerator $\\sqrt{3}$, and denominator 3. What is the tangent of the other acute angle?",
+    "corrected_value": "In a right triangle, the tangent of one of the two acute angles is $\\frac{\\sqrt{3}}{3}$. What is the tangent of the other acute angle?"
+  },
+  {
+    "question_id": "92eb236a",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. The tangent of a nonright angle in a right triangle is defined as the ratio of the length of the leg opposite the angle to the length of the leg adjacent to the angle. Using that definition for tangent, in a right triangle with legs that have lengths <em>a</em> and <em>b</em>, the tangent of one acute angle is the fraction a, over b and the tangent for the other acute angle is the fraction b over a. It follows that the tangents of the acute angles in a right triangle are reciprocals of each other. Therefore, the tangent of the other acute angle in the given triangle is the reciprocal of the fraction, the square root of 3, end root, over 3, end fraction or the fraction, 3 over the square root of 3, end fraction.\nChoice A is incorrect and may result from assuming that the tangent of the other acute angle is the negative of the tangent of the angle described. Choice B is incorrect and may result from assuming that the tangent of the other acute angle is the negative of the reciprocal of the tangent of the angle described. Choice C is incorrect and may result from interpreting the tangent of the other acute angle as equal to the tangent of the angle described.",
+    "corrected_value": "Choice D is correct. The tangent of a nonright angle in a right triangle is defined as the ratio of the length of the leg opposite the angle to the length of the leg adjacent to the angle. Using that definition for tangent, in a right triangle with legs that have lengths <em>a</em> and <em>b</em>, the tangent of one acute angle is $\\frac{a}{b}$ and the tangent for the other acute angle is $\\frac{b}{a}$. It follows that the tangents of the acute angles in a right triangle are reciprocals of each other. Therefore, the tangent of the other acute angle in the given triangle is the reciprocal of $\\frac{\\sqrt{3}}{3}$ or $\\frac{3}{\\sqrt{3}}$.\nChoice A is incorrect and may result from assuming that the tangent of the other acute angle is the negative of the tangent of the angle described. Choice B is incorrect and may result from assuming that the tangent of the other acute angle is the negative of the reciprocal of the tangent of the angle described. Choice C is incorrect and may result from interpreting the tangent of the other acute angle as equal to the tangent of the angle described."
+  },
+  {
+    "question_id": "92eb236a",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "the negative of the fraction with numerator $\\sqrt{3}$, and denominator 3",
+    "corrected_value": "the negative of $\\frac{\\sqrt{3}}{3}$"
+  },
+  {
+    "question_id": "92eb236a",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "the negative of the fraction with numerator 3, and denominator $\\sqrt{3}$",
+    "corrected_value": "the negative of $\\frac{3}{\\sqrt{3}}$"
+  },
+  {
+    "question_id": "92eb236a",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "the fraction with numerator $\\sqrt{3}$, and denominator 3",
+    "corrected_value": "$\\frac{\\sqrt{3}}{3}$"
+  },
+  {
+    "question_id": "92eb236a",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "the fraction with numerator 3, and denominator $\\sqrt{3}$",
+    "corrected_value": "$\\frac{3}{\\sqrt{3}}$"
+  },
+  {
+    "question_id": "4420e500",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice B is correct. The area of a rectangle with length $l$ and width $w$ can be found using the formula $A=lw$. It's given that the rectangle has a length of $4\\text{cm}$ and a width of $2\\text{cm}$. Therefore, the area of this rectangle is $\\left(4\\text{cm}\\right)(2\\text{cm})$, or $8{\\text{cm}}^{2}$.\nChoice A is incorrect. This is the sum, $\\text{in}\\text{cm}$, of the length and width of the rectangle, not the area, $\\text{in}{\\text{cm}}^{2}$.\nChoice C is incorrect. This is the perimeter, $\\text{in}\\text{cm}$, of the rectangle, not the area, $\\text{in}{\\text{cm}}^{2}$.\nChoice D is incorrect. This is the sum of the length and width of the rectangle squared, not the area.",
+    "reason": "Already in proper LaTeX format with squared notation."
+  },
+  {
+    "question_id": "4c95c7d4",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. It's given that the logo is in the shape of a trapezoid that consists of three congruent equilateral triangles, and that the perimeter of the trapezoid is 20 centimeters (cm). Since the perimeter of the trapezoid is the sum of the lengths of 5 of the sides of the triangles, the length of each side of an equilateral triangle is the fraction 20 over 5 equals 4 centimeters. Dividing up one equilateral triangle into two right triangles yields a pair of congruent 30°-60°-90° triangles. The shorter leg of each right triangle is half the length of the side of an equilateral triangle, or 2 cm. Using the Pythagorean Theorem, $a^2 + b^2 = c^2$, the height of the equilateral triangle can be found. Substituting $a = 2$ and $c = 4$ and solving for <em>b</em> yields the square root of, 4 squared, minus 2 squared, end root, equals the square root of 12, which equals, 2 times the square root of 3 centimeters cm. The area of one equilateral triangle is $\\frac{1}{2} b h$, where $b = 2$ and h equals, 2 times the square root of 3. Therefore, the area of one equilateral triangle is one half times 4, times, open parenthesis, 2 times the square root of 3, close parenthesis, equals, 4 times the square root of 3 centimeters squared. The shaded area consists of two such triangles, so its area is 2 times 4, times the square root of 3, equals, 8 times the square root of 3 centimeters squared.\nAlternate approach: The area of a trapezoid can be found by evaluating the expression one half times, open parenthesis, b sub 1 plus b sub 2, close parenthesis, times h, where b sub 1 is the length of one base, b sub 2 is the length of the other base, and <em>h</em> is the height of the trapezoid. Substituting b sub 1 equals 8, b sub 2 equals 4, and h equals, 2 times the square root of 3 yields the expression one half times, open parenthesis, 8 plus 4, close parenthesis, times, open parenthesis, 2 times the square root of 3, close parenthesis, or one half times 12, times, open parenthesis, 2 times the square root of 3, close parenthesis, which gives an area of 12 times the square root of 3 centimeters squared for the trapezoid. Since two-thirds of the trapezoid is shaded, the area of the shaded region is two thirds times, 12 times the square root of 3, equals, 8 times the square root of 3.\nChoice A is incorrect. This is the height of the trapezoid. Choice B is incorrect. This is the area of one of the equilateral triangles, not two. Choice D is incorrect and may result from using a height of 4 for each triangle rather than the height of 2 times the square root of 3.",
+    "corrected_value": "Choice C is correct. It's given that the logo is in the shape of a trapezoid that consists of three congruent equilateral triangles, and that the perimeter of the trapezoid is 20 centimeters (cm). Since the perimeter of the trapezoid is the sum of the lengths of 5 of the sides of the triangles, the length of each side of an equilateral triangle is $\\frac{20}{5} = 4$ centimeters. Dividing up one equilateral triangle into two right triangles yields a pair of congruent 30°-60°-90° triangles. The shorter leg of each right triangle is half the length of the side of an equilateral triangle, or 2 cm. Using the Pythagorean Theorem, $a^2 + b^2 = c^2$, the height of the equilateral triangle can be found. Substituting $a = 2$ and $c = 4$ and solving for <em>b</em> yields $\\sqrt{4^2 - 2^2} = \\sqrt{12} = 2\\sqrt{3}$ centimeters. The area of one equilateral triangle is $\\frac{1}{2} b h$, where $b = 4$ and $h = 2\\sqrt{3}$. Therefore, the area of one equilateral triangle is $\\frac{1}{2} \\cdot 4 \\cdot 2\\sqrt{3} = 4\\sqrt{3}$ square centimeters. The shaded area consists of two such triangles, so its area is $2 \\cdot 4\\sqrt{3} = 8\\sqrt{3}$ square centimeters.\nAlternate approach: The area of a trapezoid can be found by evaluating the expression $\\frac{1}{2}(b_1 + b_2) \\cdot h$, where $b_1$ is the length of one base, $b_2$ is the length of the other base, and <em>h</em> is the height of the trapezoid. Substituting $b_1 = 8$, $b_2 = 4$, and $h = 2\\sqrt{3}$ yields the expression $\\frac{1}{2}(8 + 4) \\cdot 2\\sqrt{3} = \\frac{1}{2} \\cdot 12 \\cdot 2\\sqrt{3}$, which gives an area of $12\\sqrt{3}$ square centimeters for the trapezoid. Since two-thirds of the trapezoid is shaded, the area of the shaded region is $\\frac{2}{3} \\cdot 12\\sqrt{3} = 8\\sqrt{3}$.\nChoice A is incorrect. This is the height of the trapezoid. Choice B is incorrect. This is the area of one of the equilateral triangles, not two. Choice D is incorrect and may result from using a height of 4 for each triangle rather than the height of $2\\sqrt{3}$."
+  },
+  {
+    "question_id": "55bb437a",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 6. Since tangent of B equals three fourths, triangle A, B C and triangle D B E are both similar to 3-4-5 triangles. This means that they are both similar to the right triangle with sides of lengths 3, 4, and 5. Since the length of side B C equals 15, which is 3 times as long as the hypotenuse of the 3-4-5 triangle, the similarity ratio of triangle A, B C to the 3-4-5 triangle is 3:1. Therefore, the length of side A, C (the side opposite to angle B) is $3 \\times 3 = 9$, and the length of side A, B (the side adjacent to angle B) is $4 \\times 3 = 12$. It is also given that the length of side D A, equals 4. Since the length of side A, B equals, the length of side D A, plus the length of side D B and the length of side A, B equals 12, it follows that the length of side D B equals 8, which means that the similarity ratio of triangle D B E to the 3-4-5 triangle is 2:1 (side D B is the side adjacent to angle B). Therefore, the length of side D E, which is the side opposite to angle B, is $3 \\times 2 = 6$.",
+    "corrected_value": "The correct answer is 6. Since $\\tan(B) = \\frac{3}{4}$, triangle $ABC$ and triangle $DBE$ are both similar to 3-4-5 triangles. This means that they are both similar to the right triangle with sides of lengths 3, 4, and 5. Since the length of side $BC$ equals 15, which is 3 times as long as the hypotenuse of the 3-4-5 triangle, the similarity ratio of triangle $ABC$ to the 3-4-5 triangle is 3:1. Therefore, the length of side $AC$ (the side opposite to angle B) is $3 \\times 3 = 9$, and the length of side $AB$ (the side adjacent to angle B) is $4 \\times 3 = 12$. It is also given that the length of side $DA$ equals 4. Since the length of side $AB$ equals the length of side $DA$ plus the length of side $DB$ and the length of side $AB$ equals 12, it follows that the length of side $DB$ equals 8, which means that the similarity ratio of triangle $DBE$ to the 3-4-5 triangle is 2:1 (side $DB$ is the side adjacent to angle B). Therefore, the length of side $DE$, which is the side opposite to angle B, is $3 \\times 2 = 6$."
+  },
+  {
+    "question_id": "6933b3d9",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 0. Note that no matter where point <em>W </em>is on side R T, the sum of the measures of angle R S W and angle W S T is equal to the measure of angle R S T, which is 90 degrees. Thus, angle R S W and angle W S T are complementary angles. Since the cosine of an angle is equal to the sine of its complementary angle, the cosine of angle R S W, equals, the sine of angle W S T. Therefore, the cosine of angle R S W, minus, the sine of angle W S T, equals 0.",
+    "corrected_value": "The correct answer is 0. Note that no matter where point <em>W </em>is on side $RT$, the sum of the measures of angle $RSW$ and angle $WST$ is equal to the measure of angle $RST$, which is 90 degrees. Thus, angle $RSW$ and angle $WST$ are complementary angles. Since the cosine of an angle is equal to the sine of its complementary angle, $\\cos(\\angle RSW) = \\sin(\\angle WST)$. Therefore, $\\cos(\\angle RSW) - \\sin(\\angle WST) = 0$."
+  },
+  {
+    "question_id": "6a3fbec3",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 4.5. According to the properties of right triangles, <em>BD</em> divides triangle <em>ABC</em> into two similar triangles, <em>ABD</em> and <em>BCD</em>. The corresponding sides of <em>ABD</em> and <em>BCD</em> are proportional, so the ratio of <em>BD</em> to <em>AD</em> is the same as the ratio of <em>DC</em> to <em>BD</em>. Expressing this information as a proportion gives six eighths equals, the fraction D C, over 6. Solving the proportion for <em>DC</em> results in $d c = 4.5$. Note that 4.5 and 9/2 are examples of ways to enter a correct answer.",
+    "corrected_value": "The correct answer is 4.5. According to the properties of right triangles, <em>BD</em> divides triangle <em>ABC</em> into two similar triangles, <em>ABD</em> and <em>BCD</em>. The corresponding sides of <em>ABD</em> and <em>BCD</em> are proportional, so the ratio of <em>BD</em> to <em>AD</em> is the same as the ratio of <em>DC</em> to <em>BD</em>. Expressing this information as a proportion gives $\\frac{6}{8} = \\frac{DC}{6}$. Solving the proportion for <em>DC</em> results in $DC = 4.5$. Note that 4.5 and 9/2 are examples of ways to enter a correct answer."
+  },
+  {
+    "question_id": "c8d60e48",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. Since the length of A, B equals the length of A, C, the measures of their corresponding angles, angle A, B C and angle A, C B, are equal. Since angle A, B C has a measure of 67 degrees, the measure of angle A, C B is also 67 degrees. Since the sum of the measures of the interior angles in a triangle is 180 degrees, it follows that $67 + 67 + x = 180$, or $134 + x = 180$. Subtracting by 134 on both sides of this equation yields $x = 46$.\nChoices A, C, and D are incorrect and may result from calculation errors.",
+    "corrected_value": "Choice B is correct. Since the length of $AB$ equals the length of $AC$, the measures of their corresponding angles, angle $ABC$ and angle $ACB$, are equal. Since angle $ABC$ has a measure of 67 degrees, the measure of angle $ACB$ is also 67 degrees. Since the sum of the measures of the interior angles in a triangle is 180 degrees, it follows that $67 + 67 + x = 180$, or $134 + x = 180$. Subtracting 134 from both sides of this equation yields $x = 46$.\nChoices A, C, and D are incorrect and may result from calculation errors."
+  },
+  {
+    "question_id": "902dc959",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Angle <em>A</em> is an acute angle in a right triangle, so the value of tan(<em>A</em>) is equivalent to the ratio of the length of the side opposite angle <em>A</em>, 20, to the length of the nonhypotenuse side adjacent to angle <em>A</em>, 21. Therefore, tangent A, equals 20 over 21.\nChoice A is incorrect. This is the value of sin(<em>A</em>). Choice B is incorrect. This is the value of cos(<em>A</em>). Choice D is incorrect. This is the value of tan(<em>B</em>).",
+    "corrected_value": "Choice C is correct. Angle <em>A</em> is an acute angle in a right triangle, so the value of $\\tan(A)$ is equivalent to the ratio of the length of the side opposite angle <em>A</em>, 20, to the length of the nonhypotenuse side adjacent to angle <em>A</em>, 21. Therefore, $\\tan(A) = \\frac{20}{21}$.\nChoice A is incorrect. This is the value of $\\sin(A)$. Choice B is incorrect. This is the value of $\\cos(A)$. Choice D is incorrect. This is the value of $\\tan(B)$."
+  },
+  {
+    "question_id": "5afbdc8e",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. The area <em>A</em> of a circle with radius <em>r</em> is given by the formula $a = \\pi \\times r^2$. Thus, a circle with radius 2 has area $\\pi \\times 2^2$, which can be rewritten as $4 \\pi$. The area of a square with side length <em>s</em> is given by the formula $a = s^2$. Thus, if a square has the same area as a circle with radius 2, then $s^2 = 4 \\pi$. Since the side length of a square must be a positive number, taking the square root of both sides of $s^2 = 4 \\pi$ gives s equals, the square root of 4 pi, end root. Using the properties of square roots, the square root of 4 pi, end root can be rewritten as open parenthesis, the square root of 4, close parenthesis, times, open parenthesis, the square root of pi, close parenthesis, which is equivalent to 2 times the square root of pi. Therefore, s equals, 2 times the square root of pi.\nChoice A is incorrect. The side length of the square isn't equal to the radius of the circle. Choices B and D are incorrect and may result from incorrectly simplifying the expression the square root of 4 pi, end root.",
+    "corrected_value": "Choice C is correct. The area <em>A</em> of a circle with radius <em>r</em> is given by the formula $a = \\pi \\times r^2$. Thus, a circle with radius 2 has area $\\pi \\times 2^2$, which can be rewritten as $4 \\pi$. The area of a square with side length <em>s</em> is given by the formula $a = s^2$. Thus, if a square has the same area as a circle with radius 2, then $s^2 = 4 \\pi$. Since the side length of a square must be a positive number, taking the square root of both sides of $s^2 = 4 \\pi$ gives $s = \\sqrt{4\\pi}$. Using the properties of square roots, $\\sqrt{4\\pi}$ can be rewritten as $\\sqrt{4} \\cdot \\sqrt{\\pi}$, which is equivalent to $2\\sqrt{\\pi}$. Therefore, $s = 2\\sqrt{\\pi}$.\nChoice A is incorrect. The side length of the square isn't equal to the radius of the circle. Choices B and D are incorrect and may result from incorrectly simplifying the expression $\\sqrt{4\\pi}$."
+  },
+  {
+    "question_id": "69b0d79d",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. Because segments <em>OA</em> and <em>OB</em> are radii of the circle centered at point <em>O</em>, these segments have equal lengths. Therefore, triangle <em>AOB</em> is an isosceles triangle, where angles <em>OAB</em> and <em>OBA</em> are congruent base angles of the triangle. It's given that angle <em>OAB</em> measures 30 degrees. Therefore, angle <em>OBA</em> also measures 30 degrees. Let x degrees represent the measure of angle <em>AOB</em>. Since the sum of the measures of the three angles of any triangle is 180 degrees, it follows that 30 degrees plus 30 degrees, plus x degrees, equals 180 degrees, or 60 degrees plus x degrees, equals 180 degrees. Subtracting 60 degrees from both sides of this equation yields x degrees equals 120 degrees, or the fraction 2 pi over 3 radians. Therefore, the measure of angle <em>AOB, </em>and thus the measure of arc A, B, is the fraction 2 pi over 3 radians. Since the line segment O C is a radius of the given circle and its length is 18, the length of the radius of the circle is 18. Therefore, the length of arc A, B can be calculated as the fraction 2 pi over 3, end fraction, times 18, or $12 \\pi$.\nChoices A, C, and D are incorrect and may result from conceptual or computational errors.",
+    "corrected_value": "Choice B is correct. Because segments <em>OA</em> and <em>OB</em> are radii of the circle centered at point <em>O</em>, these segments have equal lengths. Therefore, triangle <em>AOB</em> is an isosceles triangle, where angles <em>OAB</em> and <em>OBA</em> are congruent base angles of the triangle. It's given that angle <em>OAB</em> measures 30 degrees. Therefore, angle <em>OBA</em> also measures 30 degrees. Let <em>x</em> degrees represent the measure of angle <em>AOB</em>. Since the sum of the measures of the three angles of any triangle is 180 degrees, it follows that $30° + 30° + x° = 180°$, or $60° + x° = 180°$. Subtracting 60 degrees from both sides of this equation yields $x° = 120°$, or $\\frac{2\\pi}{3}$ radians. Therefore, the measure of angle <em>AOB</em>, and thus the measure of arc $AB$, is $\\frac{2\\pi}{3}$ radians. Since the line segment $OC$ is a radius of the given circle and its length is 18, the length of the radius of the circle is 18. Therefore, the length of arc $AB$ can be calculated as $\\frac{2\\pi}{3} \\times 18 = 12\\pi$.\nChoices A, C, and D are incorrect and may result from conceptual or computational errors."
+  },
+  {
+    "question_id": "dfc420b2",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. It's given that $x = 100$ ; therefore, substituting 100 for <em>x</em> in triangle <em>ABC</em> gives two known angle measures for this triangle. The sum of the measures of the interior angles of any triangle equals 180°. Subtracting the two known angle measures of triangle <em>ABC</em> from 180° gives the third angle measure: 180 degrees minus 100 degrees, minus 20 degrees, equals 60 degrees. This is the measure of angle <em>BCA</em>. Since vertical angles are congruent, the measure of angle <em>DCE</em> is also 60°. Subtracting the two known angle measures of triangle <em>CDE</em> from 180° gives the third angle measure: 180 degrees minus 60 degrees, minus 40 degrees, equals 80 degrees. Therefore, the value of <em>y</em> is 80.\nChoice A is incorrect and may result from a calculation error. Choice B is incorrect and may result from classifying angle <em>CDE</em> as a right angle. Choice D is incorrect and may result from finding the measure of angle <em>BCA</em> or <em>DCE</em> instead of the measure of angle <em>CDE</em>.",
+    "corrected_value": "Choice C is correct. It's given that $x = 100$; therefore, substituting 100 for <em>x</em> in triangle <em>ABC</em> gives two known angle measures for this triangle. The sum of the measures of the interior angles of any triangle equals 180°. Subtracting the two known angle measures of triangle <em>ABC</em> from 180° gives the third angle measure: $180° - 100° - 20° = 60°$. This is the measure of angle <em>BCA</em>. Since vertical angles are congruent, the measure of angle <em>DCE</em> is also 60°. Subtracting the two known angle measures of triangle <em>CDE</em> from 180° gives the third angle measure: $180° - 60° - 40° = 80°$. Therefore, the value of <em>y</em> is 80.\nChoice A is incorrect and may result from a calculation error. Choice B is incorrect and may result from classifying angle <em>CDE</em> as a right angle. Choice D is incorrect and may result from finding the measure of angle <em>BCA</em> or <em>DCE</em> instead of the measure of angle <em>CDE</em>."
+  },
+  {
+    "question_id": "eeb4143c",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is either the fraction 10 over 3, the fraction 15 over 4, or the fraction 25 over 6. The area of triangle <em>ABC</em> can be expressed as $\\frac{1}{2} \\times (5 + 7) \\times y$ or 6 y. It's given that the area of triangle <em>ABC</em> is at least 48 but no more than 60. It follows that 48 is less than or equal to 6 y, which is less than or equal to 60. Dividing by 6 to isolate <em>y</em> in this compound inequality yields 8 is less than or equal to y, which is less than or equal to 10. Since <em>y</em> is an integer, <em> y equals 8, 9, or 10</em>. In the given figure, the two right triangles shown are similar because they have two pairs of congruent angles: their respective right angles and angle <em>A</em>. Therefore, the following proportion is true: the fraction x over y equals the fraction 5 over 12. Substituting 8 for <em>y</em> in the proportion results in the fraction x over 8 equals the fraction 5 over 12. Cross multiplying and solving for <em>x</em> yields the fraction 10 over 3. Substituting 9 for <em>y</em> in the proportion results in the fraction x over 9 equals the fraction 5 over 12. Cross multiplying and solving for <em>x</em> yields the fraction 15 over 4. Substituting 10 for <em>y</em> in the proportion results in the fraction x over 10 equals the fraction 5 over 12. Cross multiplying and solving for <em>x</em> yields the fraction 25 over 6. Note that 10/3, 15/4, 25/6, 3.333, 3.75, 4.166, and 4.167 are examples of ways to enter a correct answer.",
+    "corrected_value": "The correct answer is either $\\frac{10}{3}$, $\\frac{15}{4}$, or $\\frac{25}{6}$. The area of triangle <em>ABC</em> can be expressed as $\\frac{1}{2} \\times (5 + 7) \\times y$ or $6y$. It's given that the area of triangle <em>ABC</em> is at least 48 but no more than 60. It follows that $48 \\leq 6y \\leq 60$. Dividing by 6 to isolate <em>y</em> in this compound inequality yields $8 \\leq y \\leq 10$. Since <em>y</em> is an integer, $y = 8, 9,$ or $10$. In the given figure, the two right triangles shown are similar because they have two pairs of congruent angles: their respective right angles and angle <em>A</em>. Therefore, the following proportion is true: $\\frac{x}{y} = \\frac{5}{12}$. Substituting 8 for <em>y</em> in the proportion results in $\\frac{x}{8} = \\frac{5}{12}$. Cross multiplying and solving for <em>x</em> yields $\\frac{10}{3}$. Substituting 9 for <em>y</em> in the proportion results in $\\frac{x}{9} = \\frac{5}{12}$. Cross multiplying and solving for <em>x</em> yields $\\frac{15}{4}$. Substituting 10 for <em>y</em> in the proportion results in $\\frac{x}{10} = \\frac{5}{12}$. Cross multiplying and solving for <em>x</em> yields $\\frac{25}{6}$. Note that 10/3, 15/4, 25/6, 3.333, 3.75, 4.166, and 4.167 are examples of ways to enter a correct answer."
+  },
+  {
+    "question_id": "95ba2d09",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Because points <em>T</em>, <em>O</em>, and <em>P</em> all lie on the <em>x</em>-axis, they form a line. Since the angles on a line add up to 180 degrees, and i t's given that angles <em>POQ</em> and <em>ROT</em> each measure 30 degrees, it follows that the measure of angle <em>QOR </em> is 180 degrees minus 30 degrees, minus 30 degrees, equals 120 degrees. Since the arc of a complete circle is 360 degrees or $2 \\pi$ radians, a proportion can be set up to convert the measure of angle <em>QOR </em>from degrees to radians: the fraction 360 degrees over 2 pi radians, equals, the fraction 120 degrees over x radians, where <em>x</em> is the radian measure of angle <em>QOR</em>. Multiplying each side of the proportion by $2 \\pi x$ gives $360x = 240 \\pi$. Solving for <em>x</em> gives the fraction 240 over 360 times pi, or $\\frac{2}{3} \\pi$.\nChoice A is incorrect and may result from subtracting only angle <em>POQ</em> from 180 degrees to get a value of 150 degrees and then finding the radian measure equivalent to that value. Choice B is incorrect and may result from a calculation error. Choice D is incorrect and may result from calculating the sum of the angle measures, in radians, of angles <em>POQ </em>and <em>ROT</em>.",
+    "corrected_value": "Choice C is correct. Because points <em>T</em>, <em>O</em>, and <em>P</em> all lie on the <em>x</em>-axis, they form a line. Since the angles on a line add up to 180 degrees, and it's given that angles <em>POQ</em> and <em>ROT</em> each measure 30 degrees, it follows that the measure of angle <em>QOR</em> is $180° - 30° - 30° = 120°$. Since the arc of a complete circle is 360 degrees or $2\\pi$ radians, a proportion can be set up to convert the measure of angle <em>QOR</em> from degrees to radians: $\\frac{360°}{2\\pi \\text{ rad}} = \\frac{120°}{x \\text{ rad}}$, where <em>x</em> is the radian measure of angle <em>QOR</em>. Multiplying each side of the proportion by $2\\pi x$ gives $360x = 240\\pi$. Solving for <em>x</em> gives $\\frac{240\\pi}{360} = \\frac{2\\pi}{3}$.\nChoice A is incorrect and may result from subtracting only angle <em>POQ</em> from 180 degrees to get a value of 150 degrees and then finding the radian measure equivalent to that value. Choice B is incorrect and may result from a calculation error. Choice D is incorrect and may result from calculating the sum of the angle measures, in radians, of angles <em>POQ</em> and <em>ROT</em>."
+  },
+  {
+    "question_id": "fb58c0db",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is $\\frac{1}{6}$. The circumference, <em>C</em>, of a circle is $c = 2 \\pi r$, where <em>r</em> is the length of the radius of the circle. For the given circle with a radius of 1, the circumference is $c = 2 \\pi \\times 1$, or $c = 2 \\pi$. To find what fraction of the circumference the length of arc A, B is, divide the length of the arc by the circumference, which gives the fraction pi over 3, end fraction, divided by 2 pi. This division can be represented by the fraction pi over 3, end fraction, times the fraction 1 over 2 pi, end fraction, equals one sixth. Note that 1/6,.1666,.1667, 0.166, and 0.167 are examples of ways to enter a correct answer.",
+    "corrected_value": "The correct answer is $\\frac{1}{6}$. The circumference, <em>C</em>, of a circle is $c = 2\\pi r$, where <em>r</em> is the length of the radius of the circle. For the given circle with a radius of 1, the circumference is $c = 2\\pi \\times 1 = 2\\pi$. To find what fraction of the circumference the length of arc $AB$ is, divide the length of the arc by the circumference, which gives $\\frac{\\pi/3}{2\\pi}$. This division can be represented by $\\frac{\\pi}{3} \\times \\frac{1}{2\\pi} = \\frac{1}{6}$. Note that 1/6, .1666, .1667, 0.166, and 0.167 are examples of ways to enter a correct answer."
+  },
+  {
+    "question_id": "37dde49f",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. Using the volume formula V equals, the fraction with numerator 7 pi times k cubed, and denominator 48 and the given information that the volume of the glass is 473 cubic centimeters, the value of <em>k</em> can be found as follows:\n473 equals, the fraction with numerator 7 pi times k cubed, and denominator 48\nk cubed equals, the fraction with numerator 473 times 48, and denominator 7 pi, end fraction\nk equals, the cube root of the fraction with numerator 473 times 48, and denominator 7 pi, end fraction, end root, which is approximately equal to 10 point 1 0 6 9 0\nTherefore, the value of <em>k</em> is approximately 10.11 centimeters.\nChoices A, B, and C are incorrect. Substituting the values of <em>k</em> from these choices in the formula results in volumes of approximately 7 cubic centimeters, 207 cubic centimeters, and 217 cubic centimeters, respectively, all of which contradict the given information that the volume of the glass is 473 cubic centimeters.",
+    "corrected_value": "Choice D is correct. Using the volume formula $V = \\frac{7\\pi k^3}{48}$ and the given information that the volume of the glass is 473 cubic centimeters, the value of <em>k</em> can be found as follows:\n$473 = \\frac{7\\pi k^3}{48}$\n$k^3 = \\frac{473 \\times 48}{7\\pi}$\n$k = \\sqrt[3]{\\frac{473 \\times 48}{7\\pi}} \\approx 10.10690$\nTherefore, the value of <em>k</em> is approximately 10.11 centimeters.\nChoices A, B, and C are incorrect. Substituting the values of <em>k</em> from these choices in the formula results in volumes of approximately 7 cubic centimeters, 207 cubic centimeters, and 217 cubic centimeters, respectively, all of which contradict the given information that the volume of the glass is 473 cubic centimeters."
+  },
+  {
+    "question_id": "f88f27e5",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 97. The intersecting lines form a triangle, and the angle with measure of x degrees is an exterior angle of this triangle. The measure of an exterior angle of a triangle is equal to the sum of the measures of the two nonadjacent interior angles of the triangle. One of these angles has measure of 23 degrees and the other, which is supplementary to the angle with measure 106 degrees, has measure of 180 degrees minus 106 degrees, equals 74 degrees. Therefore, the value of <em>x</em> is $23 + 74 = 97$.",
+    "corrected_value": "The correct answer is 97. The intersecting lines form a triangle, and the angle with measure of <em>x</em> degrees is an exterior angle of this triangle. The measure of an exterior angle of a triangle is equal to the sum of the measures of the two nonadjacent interior angles of the triangle. One of these angles has measure of 23 degrees and the other, which is supplementary to the angle with measure 106 degrees, has measure of $180° - 106° = 74°$. Therefore, the value of <em>x</em> is $23 + 74 = 97$."
+  },
+  {
+    "question_id": "901e3285",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. The sum of the three interior angles in a triangle is 180 degrees. It's given that angle <em>A</em> measures 50 degrees. If angle <em>B</em> measured 100 degrees, the measure of angle <em>C</em> would be 180 degrees minus, open parenthesis, 50 degrees plus 100 degrees, close parenthesis, equals 30 degrees. Thus, the measures of the angles in the triangle would be 50 degrees, 100 degrees, and 30 degrees. However, an isosceles triangle has two angles of equal measure. Therefore, angle <em>B</em> can't measure 100 degrees.\nChoice A is incorrect. If angle <em>B</em> has measure 50 degrees, then angle <em>C</em> would measure 180 degrees minus, open parenthesis, 50 degrees plus 50 degrees, close parenthesis, equals 80 degrees, and 50 degrees, 50 degrees, and 80 degrees could be the angle measures of an isosceles triangle. Choice B is incorrect. If angle <em>B</em> has measure 65 degrees, then angle <em>C</em> would measure 180 degrees minus, open parenthesis, 65 degrees plus 50 degrees, close parenthesis, equals 65 degrees, and 50 degrees, 65 degrees, and 65 degrees could be the angle measures of an isosceles triangle. Choice <em>C</em> is incorrect. If angle <em>B</em> has measure 80 degrees, then angle <em>C</em> would measure 180 degrees minus, open parenthesis, 80 degrees plus 50 degrees, close parenthesis, equals 50 degrees, and 50 degrees, 80 degrees, and 50 degrees could be the angle measures of an isosceles triangle.",
+    "corrected_value": "Choice D is correct. The sum of the three interior angles in a triangle is 180 degrees. It's given that angle <em>A</em> measures 50 degrees. If angle <em>B</em> measured 100 degrees, the measure of angle <em>C</em> would be $180° - (50° + 100°) = 30°$. Thus, the measures of the angles in the triangle would be 50°, 100°, and 30°. However, an isosceles triangle has two angles of equal measure. Therefore, angle <em>B</em> can't measure 100 degrees.\nChoice A is incorrect. If angle <em>B</em> has measure 50 degrees, then angle <em>C</em> would measure $180° - (50° + 50°) = 80°$, and 50°, 50°, and 80° could be the angle measures of an isosceles triangle. Choice B is incorrect. If angle <em>B</em> has measure 65 degrees, then angle <em>C</em> would measure $180° - (65° + 50°) = 65°$, and 50°, 65°, and 65° could be the angle measures of an isosceles triangle. Choice <em>C</em> is incorrect. If angle <em>B</em> has measure 80 degrees, then angle <em>C</em> would measure $180° - (80° + 50°) = 50°$, and 50°, 80°, and 50° could be the angle measures of an isosceles triangle."
+  },
+  {
+    "question_id": "740bf79f",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. First, line segment M P is the hypotenuse of right triangle M N P, whose legs have lengths 3 and 4. Therefore, open parenthesis, the length of line segment M P, close parenthesis, squared, equals, 3 squared plus 4 squared, so open parenthesis, the length of line segment M P, close parenthesis, squared, equals 25 and the length of line segment M P equals 5. Second, because angle M N P corresponds to angle N Q P and because angle M P N corresponds to angle N P Q, triangle M N P is similar to triangle N Q P. The ratio of corresponding sides of similar triangles is constant, so the length of line segment N Q over the length of line segment M N equals the length of line segment N P over the length of line segment M P. Since $m p = 5$ and it's given that the length of line segment M N equals 3 and the length of line segment N P equals 4, the length of line segment N Q, over 3, equals 4 over 5. Solving for <em>NQ</em> results in the length of line segment N Q equals 12 over 5, or 2.4.\nChoices A, B, and D are incorrect and may result from setting up incorrect ratios.",
+    "corrected_value": "Choice C is correct. First, line segment $MP$ is the hypotenuse of right triangle $MNP$, whose legs have lengths 3 and 4. Therefore, $(MP)^2 = 3^2 + 4^2$, so $(MP)^2 = 25$ and $MP = 5$. Second, because angle $MNP$ corresponds to angle $NQP$ and because angle $MPN$ corresponds to angle $NPQ$, triangle $MNP$ is similar to triangle $NQP$. The ratio of corresponding sides of similar triangles is constant, so $\\frac{NQ}{MN} = \\frac{NP}{MP}$. Since $MP = 5$ and it's given that the length of line segment $MN$ equals 3 and the length of line segment $NP$ equals 4, $\\frac{NQ}{3} = \\frac{4}{5}$. Solving for <em>NQ</em> results in $NQ = \\frac{12}{5} = 2.4$.\nChoices A, B, and D are incorrect and may result from setting up incorrect ratios."
+  },
+  {
+    "question_id": "a6dbad6b",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. Let the measure of the third angle in the smaller triangle be a, degrees. Since lines $l$ and <em>m</em> are parallel and cut by transversals, it follows that the corresponding angles formed are congruent. So a degrees, equals y degrees, which equals 20 degrees. The sum of the measures of the interior angles of a triangle is 180 degrees, which for the interior angles in the smaller triangle yields $a + x + z = 180$. Given that $z = 60$ and $a = 20$, it follows that $20 + x + 60 = 180$. Solving for <em>x</em> gives $x = 180 - 60 - 20$, or $x = 100$.\nChoice A is incorrect and may result from incorrectly assuming that angles $x + z = 180$. Choice C is incorrect and may result from incorrectly assuming that the smaller triangle is a right triangle, with <em>x</em> as the right angle. Choice D is incorrect and may result from a misunderstanding of the exterior angle theorem and incorrectly assuming that $x = y + z$.",
+    "corrected_value": "Choice B is correct. Let the measure of the third angle in the smaller triangle be <em>a</em> degrees. Since lines $l$ and <em>m</em> are parallel and cut by transversals, it follows that the corresponding angles formed are congruent. So $a° = y° = 20°$. The sum of the measures of the interior angles of a triangle is 180 degrees, which for the interior angles in the smaller triangle yields $a + x + z = 180$. Given that $z = 60$ and $a = 20$, it follows that $20 + x + 60 = 180$. Solving for <em>x</em> gives $x = 180 - 60 - 20 = 100$.\nChoice A is incorrect and may result from incorrectly assuming that $x + z = 180$. Choice C is incorrect and may result from incorrectly assuming that the smaller triangle is a right triangle, with <em>x</em> as the right angle. Choice D is incorrect and may result from a misunderstanding of the exterior angle theorem and incorrectly assuming that $x = y + z$."
+  },
+  {
+    "question_id": "c8345903",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. The ratio of the lengths of two arcs of a circle is equal to the ratio of the measures of the central angles that subtend the arcs. It's given that arc A D C is subtended by a central angle with measure 100°. Since the sum of the measures of the angles about a point is 360°, it follows that arc A B C is subtended by a central angle with measure 360 degrees minus 100 degrees, equals 260 degrees. If <em>s</em> is the length of arc A B C, then <em>s</em> must satisfy the ratio the fraction s over 5 pi, end fraction equals, the fraction 260 over 100. Reducing the fraction $260 / 100$ to its simplest form gives the fraction 13 over 5. Therefore, the fraction s over 5 pi, end fraction, equals, the fraction 13 over 5. Multiplying both sides of the fraction s over 5 pi, end fraction, equals, the fraction 13 over 5 by $5 \\pi$ yields $s = 13 \\pi$.\nChoice A is incorrect. This is the length of an arc consisting of exactly half of the circle, but arc A B C is greater than half of the circle. Choice C is incorrect. This is the total circumference of the circle. Choice D is incorrect. This is half the length of arc A B C, not its full length.",
+    "corrected_value": "Choice B is correct. The ratio of the lengths of two arcs of a circle is equal to the ratio of the measures of the central angles that subtend the arcs. It's given that arc $ADC$ is subtended by a central angle with measure 100°. Since the sum of the measures of the angles about a point is 360°, it follows that arc $ABC$ is subtended by a central angle with measure $360° - 100° = 260°$. If <em>s</em> is the length of arc $ABC$, then <em>s</em> must satisfy the ratio $\\frac{s}{5\\pi} = \\frac{260}{100}$. Reducing the fraction $\\frac{260}{100}$ to its simplest form gives $\\frac{13}{5}$. Therefore, $\\frac{s}{5\\pi} = \\frac{13}{5}$. Multiplying both sides by $5\\pi$ yields $s = 13\\pi$.\nChoice A is incorrect. This is the length of an arc consisting of exactly half of the circle, but arc $ABC$ is greater than half of the circle. Choice C is incorrect. This is the total circumference of the circle. Choice D is incorrect. This is half the length of arc $ABC$, not its full length."
+  },
+  {
+    "question_id": "933fee1a",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. In right triangle <em>ABC</em>, the measure of angle <em>B</em> must be 58° because the sum of the measure of angle <em>A</em>, which is 32°, and the measure of angle <em>B</em> is 90°. Angle <em>D</em> in the right triangle <em>DEF</em> has measure 58°. Hence, triangles <em>ABC</em> and <em>DEF</em> are similar (by angle-angle similarity). Since side B C is the side opposite to the angle with measure 32° and <em>AB</em> is the hypotenuse in right triangle <em>ABC</em>, the ratio the length of side B C over the length of side A, B is equal to the length of side D F over the length of side D E.\nAlternate approach: The trigonometric ratios can be used to answer this question. In right triangle <em>ABC</em>, the ratio the length of side B C over the length of side A, B equals, the sine of 32 degrees. The angle <em>E</em> in triangle <em>DEF</em> has measure 32° because the measure of angle D, plus the measure of angle E, equals 90 degrees. In triangle <em>DEF</em>, the ratio the length of side D F over the length of side D E, equals the sine of 32 degrees. Therefore, the length of side D F over the length of side D E, equals, the length of side B C over the length of side A, B.\nChoice A is incorrect because the length of side D E over the length of side D F is the reciprocal of the ratio the length of side B C over the length of side A, B. Choice C is incorrect because the length of side D F over the length of side D E, equals the length of side B C over the length of side A, C, not the length of side B C over the length of side A, B. Choice D is incorrect because the length of side E F over the length of side D E, equals, the length of side A, C over the length of side A, B, not the length of side B C over the length of side A, B.",
+    "corrected_value": "Choice B is correct. In right triangle <em>ABC</em>, the measure of angle <em>B</em> must be 58° because the sum of the measure of angle <em>A</em>, which is 32°, and the measure of angle <em>B</em> is 90°. Angle <em>D</em> in the right triangle <em>DEF</em> has measure 58°. Hence, triangles <em>ABC</em> and <em>DEF</em> are similar (by angle-angle similarity). Since side $BC$ is the side opposite to the angle with measure 32° and $AB$ is the hypotenuse in right triangle <em>ABC</em>, the ratio $\\frac{BC}{AB}$ is equal to $\\frac{DF}{DE}$.\nAlternate approach: The trigonometric ratios can be used to answer this question. In right triangle <em>ABC</em>, the ratio $\\frac{BC}{AB} = \\sin(32°)$. The angle <em>E</em> in triangle <em>DEF</em> has measure 32° because $m\\angle D + m\\angle E = 90°$. In triangle <em>DEF</em>, the ratio $\\frac{DF}{DE} = \\sin(32°)$. Therefore, $\\frac{DF}{DE} = \\frac{BC}{AB}$.\nChoice A is incorrect because $\\frac{DE}{DF}$ is the reciprocal of $\\frac{BC}{AB}$. Choice C is incorrect because $\\frac{DF}{DE} = \\frac{BC}{AC}$, not $\\frac{BC}{AB}$. Choice D is incorrect because $\\frac{EF}{DE} = \\frac{AC}{AB}$, not $\\frac{BC}{AB}$."
+  },
+  {
+    "question_id": "947a3cde",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 30. It is given that the measure of angle Q P R is 60 degrees. Angle <em>MPR</em> and angle Q P R are collinear and therefore are supplementary angles. This means that the sum of the two angle measures is 180 degrees, and so the measure of angle M P R is 120 degrees. The sum of the angles in a triangle is 180 degrees. Subtracting the measure of angle M P R from 180 degrees yields the sum of the other angles in the triangle MPR. Since $180 - 120 = 60$, the sum of the measures of angle Q M R and angle N R M is 60 degrees. It is given that the length of side M P equals the length of side P R, so it follows that triangle <em>MPR</em> is isosceles. Therefore angle Q M R and angle N R M must be congruent. Since the sum of the measure of these two angles is 60 degrees, it follows that the measure of each angle is 30 degrees.\nAn alternate approach would be to use the exterior angle theorem, noting that the measure of angle Q P R is equal to the sum of the measures of angle Q M R and angle N R M. Since both angles are equal, each of them has a measure of 30 degrees.",
+    "corrected_value": "The correct answer is 30. It is given that the measure of angle $QPR$ is 60°. Angle $MPR$ and angle $QPR$ are collinear and therefore are supplementary angles. This means that the sum of the two angle measures is 180°, and so the measure of angle $MPR$ is 120°. The sum of the angles in a triangle is 180°. Subtracting the measure of angle $MPR$ from 180° yields the sum of the other angles in triangle $MPR$. Since $180° - 120° = 60°$, the sum of the measures of angle $QMR$ and angle $NRM$ is 60°. It is given that the length of side $MP$ equals the length of side $PR$, so it follows that triangle $MPR$ is isosceles. Therefore angle $QMR$ and angle $NRM$ must be congruent. Since the sum of the measure of these two angles is 60°, it follows that the measure of each angle is 30°.\nAn alternate approach would be to use the exterior angle theorem, noting that the measure of angle $QPR$ is equal to the sum of the measures of angle $QMR$ and angle $NRM$. Since both angles are equal, each of them has a measure of 30°."
+  },
+  {
+    "question_id": "bd87bc09",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 24. The sine of an acute angle in a right triangle is equal to the ratio of the length of the side opposite the angle to the length of the hypotenuse. In the triangle shown, the sine of angle <em>B</em>, or sine of B, is equal to the ratio of the length of side A, C to the length of side A, B <em>.</em> It's given that the length of side A, B is 26 and that sine of B equals, 5 over 13. Therefore, the fraction 5 over 13, equals, the fraction A, B over 26. Multiplying both sides of this equation by 26 yields $a c = 10$.\nBy the Pythagorean Theorem, the relationship between the lengths of the sides of triangle <em>ABC</em> is as follows: $26^2 = 10^2 + b c^2$, or $676 = 100 + b c^2$. Subtracting 100 from both sides of $676 = 100 + b c^2$ yields $576 = b c^2$. Taking the square root of both sides of $576 = b c^2$ yields $24 = b c$.",
+    "corrected_value": "The correct answer is 24. The sine of an acute angle in a right triangle is equal to the ratio of the length of the side opposite the angle to the length of the hypotenuse. In the triangle shown, $\\sin(B) = \\frac{AC}{AB}$. It's given that the length of side $AB$ is 26 and that $\\sin(B) = \\frac{5}{13}$. Therefore, $\\frac{5}{13} = \\frac{AC}{26}$. Multiplying both sides of this equation by 26 yields $AC = 10$.\nBy the Pythagorean Theorem, the relationship between the lengths of the sides of triangle <em>ABC</em> is as follows: $26^2 = 10^2 + BC^2$, or $676 = 100 + BC^2$. Subtracting 100 from both sides of $676 = 100 + BC^2$ yields $576 = BC^2$. Taking the square root of both sides of $576 = BC^2$ yields $BC = 24$."
+  },
+  {
+    "question_id": "bd7f6e30",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Since the length of side R T equals the length of side T U, it follows that triangle R T U is an isosceles triangle with base <em>RU</em>. Therefore, angle T R U and angle T U R are the base angles of an isosceles triangle and are congruent. Let the measures of both angle T R U and angle T U R be t degrees. According to the triangle sum theorem, the sum of the measures of the three angles of a triangle is 180 degrees. Therefore, 114 degrees plus 2 t degrees, equals 180 degrees, so $t = 33$.\nNote that angle T U R is the same angle as angle S U V. Thus, the measure of angle S U V is 33 degrees. According to the triangle exterior angle theorem, an external angle of a triangle is equal to the sum of the opposite interior angles. Therefore, x degrees is equal to the sum of the measures of angle V S U and angle S U V ; that is, 31 degrees plus 33 degrees, equals 64 degrees. Thus, the value of <em>x</em> is 64.\nChoice B is incorrect. This is the measure of angle S T R, but angle S T R is not congruent to angle S V R. Choices A and D are incorrect and may result from a calculation error.",
+    "corrected_value": "Choice C is correct. Since the length of side $RT$ equals the length of side $TU$, it follows that triangle $RTU$ is an isosceles triangle with base $RU$. Therefore, angle $TRU$ and angle $TUR$ are the base angles of an isosceles triangle and are congruent. Let the measures of both angle $TRU$ and angle $TUR$ be <em>t</em> degrees. According to the triangle sum theorem, the sum of the measures of the three angles of a triangle is 180 degrees. Therefore, $114° + 2t° = 180°$, so $t = 33$.\nNote that angle $TUR$ is the same angle as angle $SUV$. Thus, the measure of angle $SUV$ is 33°. According to the triangle exterior angle theorem, an external angle of a triangle is equal to the sum of the opposite interior angles. Therefore, <em>x</em> degrees is equal to the sum of the measures of angle $VSU$ and angle $SUV$; that is, $31° + 33° = 64°$. Thus, the value of <em>x</em> is 64.\nChoice B is incorrect. This is the measure of angle $STR$, but angle $STR$ is not congruent to angle $SVR$. Choices A and D are incorrect and may result from a calculation error."
+  },
+  {
+    "question_id": "0837c3b9",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Triangle <em>ABC</em> and triangle <em>DEF</em> are similar triangles, where line segment A B and line segment D E are corresponding sides. If the length of line segment D E equals, 2 times the length of line segment A B and the perimeter of triangle <em>ABC</em> is 20, what is the perimeter of triangle <em>DEF </em>?",
+    "corrected_value": "Triangle <em>ABC</em> and triangle <em>DEF</em> are similar triangles, where line segment $AB$ and line segment $DE$ are corresponding sides. If the length of line segment $DE$ equals 2 times the length of line segment $AB$ and the perimeter of triangle <em>ABC</em> is 20, what is the perimeter of triangle <em>DEF</em>?"
+  },
+  {
+    "question_id": "0837c3b9",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. Since triangles <em>ABC</em> and <em>DEF</em> are similar and the length of side D E equals, 2 times the length of side A B, the length of each side of triangle <em>DEF</em> is two times the length of its corresponding side in triangle <em>ABC</em>. Therefore, the perimeter of triangle <em>DEF</em> is two times the perimeter of triangle <em>ABC</em>. Since the perimeter of triangle <em>ABC</em> is 20, the perimeter of triangle <em>DEF</em> is 40.\nChoice A is incorrect. This is half, not two times, the perimeter of triangle <em>ABC</em>. Choice C is incorrect. This is two times the perimeter of triangle <em>DEF</em> rather than two times the perimeter of triangle <em>ABC</em>. Choice D is incorrect. This is six times, not two times, the perimeter of triangle <em>ABC</em>.",
+    "corrected_value": "Choice B is correct. Since triangles <em>ABC</em> and <em>DEF</em> are similar and the length of side $DE$ equals 2 times the length of side $AB$, the length of each side of triangle <em>DEF</em> is 2 times the length of its corresponding side in triangle <em>ABC</em>. Therefore, the perimeter of triangle <em>DEF</em> is 2 times the perimeter of triangle <em>ABC</em>. Since the perimeter of triangle <em>ABC</em> is 20, the perimeter of triangle <em>DEF</em> is 40.\nChoice A is incorrect. This is half, not 2 times, the perimeter of triangle <em>ABC</em>. Choice C is incorrect. This is 2 times the perimeter of triangle <em>DEF</em> rather than 2 times the perimeter of triangle <em>ABC</em>. Choice D is incorrect. This is 6 times, not 2 times, the perimeter of triangle <em>ABC</em>."
+  },
+  {
+    "question_id": "dc71597b",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice A is correct. The equation for the volume of a right circular cone is $v = \\frac{1}{3} \\pi r^2 \\times h$. It's given that the volume of the right circular cone is $\\frac{1}{3} \\pi$ cubic feet and the height is 9 feet. Substituting these values for <em>V</em> and <em>h</em>, respectively, gives $\\frac{1}{3} \\pi = \\frac{1}{3} \\pi r^2 \\times 9$. Dividing both sides of the equation by $\\frac{1}{3} \\pi$ gives $1 = r^2 \\times 9$. Dividing both sides of the equation by 9 gives $\\frac{1}{9} = r^2$. Taking the square root of both sides results in two possible values for the radius, the square root of one ninth or the negative of the square root of one ninth. Since the radius can't have a negative value, that leaves the square root of one ninth as the only possibility. Applying the quotient property of square roots, the square root of the fraction a, over b, equals, the fraction the square root of a, over the square root of b, results in r equals, the fraction the square root of 1 over the square root of 9, or $r = \\frac{1}{3}$.\nChoices B and C are incorrect and may result from incorrectly evaluating the square root of one ninth. Choice D is incorrect and may result from solving $r^2 = 9$ instead of $r^2 = \\frac{1}{9}$.",
+    "corrected_value": "Choice A is correct. The equation for the volume of a right circular cone is $V = \\frac{1}{3}\\pi r^2 h$. It's given that the volume of the right circular cone is $\\frac{1}{3}\\pi$ cubic feet and the height is 9 feet. Substituting these values for <em>V</em> and <em>h</em>, respectively, gives $\\frac{1}{3}\\pi = \\frac{1}{3}\\pi r^2 \\times 9$. Dividing both sides of the equation by $\\frac{1}{3}\\pi$ gives $1 = 9r^2$. Dividing both sides of the equation by 9 gives $r^2 = \\frac{1}{9}$. Taking the square root of both sides results in two possible values for the radius, $\\sqrt{\\frac{1}{9}}$ or $-\\sqrt{\\frac{1}{9}}$. Since the radius can't have a negative value, that leaves $\\sqrt{\\frac{1}{9}}$ as the only possibility. Applying the quotient property of square roots, $\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$, results in $r = \\frac{\\sqrt{1}}{\\sqrt{9}} = \\frac{1}{3}$.\nChoices B and C are incorrect and may result from incorrectly evaluating $\\sqrt{\\frac{1}{9}}$. Choice D is incorrect and may result from solving $r^2 = 9$ instead of $r^2 = \\frac{1}{9}$."
+  },
+  {
+    "question_id": "9e44284b",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice A is correct. One way to find the radius of the circle is to rewrite the given equation in standard form, $(x - h)^2 + (y - k)^2 = r^2$, where the ordered pair h comma k is the center of the circle and the radius of the circle is <em>r</em>. To do this, divide the original equation, $2x^2 - 6x + 2y^2 + 2y = 45$, by 2 to make the leading coefficients of $x^2$ and $y^2$ each equal to 1: as follows: x squared, minus 3 x, plus y squared, plus y, equals 22 point 5. Then complete the square to put the equation in standard form. To do so, first rewrite $x^2 - 3x + y^2 + y = 22.5$ as $(x^2 - 3x + 2.25) - 2.25 + (y^2 + y + 0.25) - 0.25 = 22.5$. Second, add 2.25 and 0.25 to both sides of the equation: $(x^2 - 3x + 2.25) + (y^2 + y + 0.25) = 25$. Since $x^2 - 3x + 2.25 = (x - 1.5)^2$, $y^2 + y + 0.25 = (y + 0.5)^2$, and $25 = 5^2$, it follows that $(x - 1.5)^2 + (y + 0.5)^2 = 5^2$. Therefore, the radius of the circle is 5.\nChoices B, C, and D are incorrect and may be the result of errors in manipulating the equation or of a misconception about the standard form of the equation of a circle in the <em>xy</em>-plane.",
+    "corrected_value": "Choice A is correct. One way to find the radius of the circle is to rewrite the given equation in standard form, $(x - h)^2 + (y - k)^2 = r^2$, where the ordered pair $(h, k)$ is the center of the circle and the radius of the circle is <em>r</em>. To do this, divide the original equation, $2x^2 - 6x + 2y^2 + 2y = 45$, by 2 to make the leading coefficients of $x^2$ and $y^2$ each equal to 1, as follows: $x^2 - 3x + y^2 + y = 22.5$. Then complete the square to put the equation in standard form. To do so, first rewrite $x^2 - 3x + y^2 + y = 22.5$ as $(x^2 - 3x + 2.25) - 2.25 + (y^2 + y + 0.25) - 0.25 = 22.5$. Second, add 2.25 and 0.25 to both sides of the equation: $(x^2 - 3x + 2.25) + (y^2 + y + 0.25) = 25$. Since $x^2 - 3x + 2.25 = (x - 1.5)^2$, $y^2 + y + 0.25 = (y + 0.5)^2$, and $25 = 5^2$, it follows that $(x - 1.5)^2 + (y + 0.5)^2 = 5^2$. Therefore, the radius of the circle is 5.\nChoices B, C, and D are incorrect and may be the result of errors in manipulating the equation or of a misconception about the standard form of the equation of a circle in the <em>xy</em>-plane."
+  }
+]

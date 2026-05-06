@@ -1,0 +1,314 @@
+[
+  {
+    "question_id": "928498f3",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "the fraction with numerator negative 5, plus or minus $\\sqrt{36 minus 168}$, and denominator 12",
+    "corrected_value": "$\\frac{-5 \\pm \\sqrt{36 - 168}}{12}$"
+  },
+  {
+    "question_id": "928498f3",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "the fraction with numerator negative 6, plus or minus $\\sqrt{36 minus 168}$, and denominator 12",
+    "corrected_value": "$\\frac{-6 \\pm \\sqrt{36 - 168}}{12}$"
+  },
+  {
+    "question_id": "b47419f4",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "negative one-third x squared, plus one-half x, plus 15",
+    "corrected_value": "$-\\frac{1}{3}x^2 + \\frac{1}{2}x + 15$"
+  },
+  {
+    "question_id": "b47419f4",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "negative one-third x squared, minus nine halves x, minus 15",
+    "corrected_value": "$-\\frac{1}{3}x^2 - \\frac{9}{2}x - 15$"
+  },
+  {
+    "question_id": "fc3dfa26",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Each fraction in the given equation can be expressed with the common denominator $x^2 - 9$. Multiplying the fraction with numerator 2 x, and denominator x plus 3, end fraction by <sup> the fraction with numerator x minus 3, and denominator x minus 3, end fraction </sup> yields the fraction with numerator 2 x squared, minus 6, and denominator x squared minus 9, end fraction, and multiplying the fraction with numerator 1, and denominator x minus 3, end fraction by the fraction with numerator x plus 3, and denominator x plus 3, end fraction yields the fraction with numerator x plus 3, and denominator x squared minus 9, end fraction. Therefore, the given equation can be written as the fraction with numerator 4 x squared, and denominator x squared minus 9, minus, the fraction with numerator 2 x squared, minus 6 x, and denominator x squared minus 9, end fraction, equals, the fraction with numerator x plus 3, and denominator x squared minus 9, end fraction. Multiplying each fraction by the denominator results in the equation $4x^2 - (2x^2 - 6x) = x + 3$, or $2x^2 + 6x = x + 3$. This equation can be solved by setting a quadratic expression equal to 0, then solving for <em>x</em>. Subtracting $x + 3$ from both sides of this equation yields $2x^2 + 5x - 3 = 0$. The expression $2x^2 + 5x - 3$ can be factored, resulting in the equation $(2x - 1) \\times (x + 3) = 0$. By the zero product property, $2x - 1 = 0$ or $x + 3 = 0$. To solve for <em>x</em> in $2x - 1 = 0$, 1 can be added to both sides of the equation, resulting in $2x = 1$. Dividing both sides of this equation by 2 results in $x = \\frac{1}{2}$. Solving for <em>x </em>in $x + 3 = 0$ yields $x = - 3$. However, this value of <em>x</em> would result in the second fraction of the original equation having a denominator of 0. Therefore, $x = - 3$ is an extraneous solution. Thus, the only value of <em>x</em> that satisfies the given equation is $x = \\frac{1}{2}$.\nChoice A is incorrect and may result from solving $x + 3 = 0$ but not realizing that this solution is extraneous because it would result in a denominator of 0 in the second fraction. Choice B is incorrect and may result from a sign error when solving $2x - 1 = 0$ for <em>x</em>. Choice D is incorrect and may result from a calculation error.",
+    "corrected_value": "Choice C is correct. Each fraction in the given equation can be expressed with the common denominator $x^2 - 9$. Multiplying $\\frac{2x}{x + 3}$ by <sup>$\\frac{x - 3}{x - 3}$</sup> yields $\\frac{2x^2 - 6}{x^2 - 9}$, and multiplying $\\frac{1}{x - 3}$ by $\\frac{x + 3}{x + 3}$ yields $\\frac{x + 3}{x^2 - 9}$. Therefore, the given equation can be written as $\\frac{4x^2}{x^2 - 9} - \\frac{2x^2 - 6x}{x^2 - 9} = \\frac{x + 3}{x^2 - 9}$. Multiplying each fraction by the denominator results in the equation $4x^2 - (2x^2 - 6x) = x + 3$, or $2x^2 + 6x = x + 3$. This equation can be solved by setting a quadratic expression equal to 0, then solving for <em>x</em>. Subtracting $x + 3$ from both sides of this equation yields $2x^2 + 5x - 3 = 0$. The expression $2x^2 + 5x - 3$ can be factored, resulting in the equation $(2x - 1) \\times (x + 3) = 0$. By the zero product property, $2x - 1 = 0$ or $x + 3 = 0$. To solve for <em>x</em> in $2x - 1 = 0$, 1 can be added to both sides of the equation, resulting in $2x = 1$. Dividing both sides of this equation by 2 results in $x = \\frac{1}{2}$. Solving for <em>x </em>in $x + 3 = 0$ yields $x = - 3$. However, this value of <em>x</em> would result in the second fraction of the original equation having a denominator of 0. Therefore, $x = - 3$ is an extraneous solution. Thus, the only value of <em>x</em> that satisfies the given equation is $x = \\frac{1}{2}$.\nChoice A is incorrect and may result from solving $x + 3 = 0$ but not realizing that this solution is extraneous because it would result in a denominator of 0 in the second fraction. Choice B is incorrect and may result from a sign error when solving $2x - 1 = 0$ for <em>x</em>. Choice D is incorrect and may result from a calculation error."
+  },
+  {
+    "question_id": "b0543157",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice A is correct. It's given that in the <em>xy</em>-plane, the graph of $y=g(x)$ passes through the point $(0,22)$. It follows that $g(0)=22$. Substituting $0$ for $x$ and $22$ for $g(x)$ in the given equation yields $22=\\frac{{0}^{2}-0-a}{{0}^{3}-0-b}$, which is equivalent to $22=\\frac{-a}{-b}$, or $22=\\frac{a}{b}$. Multiplying each side of this equation by $b$ yields $22b=a$. Substituting $22b$ for $a$ in the equation defining the function $g$ yields $g\\left(x\\right)=\\frac{{x}^{2}-x-22b}{{x}^{3}-x-b}$. It's given that $g(-22)=0$. Substituting $-22$ for $x$ and $0$ for $g(x)$ in the equation $g\\left(x\\right)=\\frac{{x}^{2}-x-22b}{{x}^{3}-x-b}$ yields $0=\\frac{(-22{)}^{2}-(-22)-22b}{(-22{)}^{3}-(-22)-b}$. Since a rational expression equals $0$ if and only if its numerator is $0$, it follows that ${(-22)}^{2}-\\left(-22\\right)-22b=0$, or ${22}^{2}+22-22b=0$. Dividing each side of this equation by $22$ yields $22+1-b=0$, or $23-b=0$. Adding $b$ to each side of this equation yields $23=b$, so the value of $b$ is $23$.\nChoice B is incorrect. This is the value of $g(0)$, not the value of $b$.\nChoice C is incorrect. This is a value of $x$ for which $g(x)=0$, not the value of $b$.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+    "reason": "All math expressions are already in proper LaTeX notation or already correct. The 'equals' signals are part of standard mathematical exposition, not screen-reader-style spelled-out math."
+  },
+  {
+    "question_id": "d0a53ef5",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The correct answer is $-3$. Squaring both sides of the given equation yields ${\\left(x-2\\right)}^{2}=3x+34$, which can be rewritten as ${x}^{2}-4x+4=3x+34$. Subtracting $3x$ and $34$ from both sides of this equation yields ${x}^{2}-7x-30=0$. This quadratic equation can be rewritten as $\\left(x-10\\right)\\left(x+3\\right)=0$. According to the zero product property, $\\left(x-10\\right)\\left(x+3\\right)$ equals zero when either $x-10=0$ or $x+3=0$. Solving each of these equations for $x$ yields $x=10$ or $x=-3$. Therefore, the given equation has two solutions, $10$ and $-3$. Of these two solutions, $-3$ is the smallest solution to the given equation.",
+    "reason": "All math is properly expressed in LaTeX. The 'equals' and other signals refer to mathematical exposition in the text, not screen-reader-style spelled-out math."
+  },
+  {
+    "question_id": "dd3b1e1a",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The correct answer is $17$. It's given that the graph of $y=f(x)$ in the <em>xy</em>-plane passes through the point $(0,b)$, where $b$ is a constant. It follows that $f(0)$ equals $b$. Substituting $0$ for $x$ in the given function yields $f(0)={0}^{5}+9(0)+17$, or $f(0)=17$. Therefore, the value of $b$ is $17$.",
+    "reason": "All math is properly expressed in LaTeX. 'equals' is used as normal text describing mathematical relationships, not as screen-reader-style spelled-out math."
+  },
+  {
+    "question_id": "71014fb1",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice D is correct. Any quantity that is positive or negative in value has a positive value when squared. Therefore, the left-hand side of the given equation is either positive or zero for any value of $x$. Since the right-hand side of the given equation is negative, there is no value of $x$ for which the given equation is true. Thus, the number of distinct real solutions for the given equation is zero.\nChoices A, B, and C are incorrect and may result from conceptual errors.",
+    "reason": "'squared' here is used in the context of normal prose explaining mathematical concepts, not as screen-reader-style math notation."
+  },
+  {
+    "question_id": "45df91ee",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice A is correct. The <em>x</em>-coordinate of any <em>y</em>-intercept of a graph is $0$. Substituting $0$ for $x$ in the given equation yields $g\\left(0\\right)=11{\\left(\\frac{1}{12}\\right)}^{0}$. Since any nonzero number raised to the $0\\text{th}$ power is $1$, this gives $g(0)=11·1$, or $g(0)=11$. The <em>y</em>-intercept of the graph is, therefore, the point $\\left(0,11\\right)$.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.\nChoice D is incorrect and may result from conceptual or calculation errors.",
+    "reason": "'raised to the 0th power' is already properly expressed in LaTeX as an exponent. The 'power_words' signal refers to this already-correct expression."
+  },
+  {
+    "question_id": "0b3d25c5",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Which of the following is equivalent to the fourth root of, x squared, plus 8 x, plus 16, end root, where x is greater than 0?",
+    "corrected_value": "Which of the following is equivalent to $\\sqrt[4]{x^2 + 8x + 16}$, where $x > 0$?"
+  },
+  {
+    "question_id": "0b3d25c5",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. The given expression can also be written as open parenthesis, x squared, plus 8, x, plus 16, close parenthesis, raised to the one fourth power. The trinomial $x^2 + 8x + 16$ can be rewritten in factored form as $(x + 4)^2$. Thus, the entire expression can be rewritten as open parenthesis, open parenthesis, x plus 4, close parenthesis, squared, close parenthesis, raised to the one fourth power. Simplifying the exponents yields open parenthesis, x plus 4, close parenthesis, raised to the one half power.\nChoices A, B, and C are incorrect and may result from errors made when simplifying the exponents in the expression open parenthesis, open parenthesis, x plus 4, close parenthesis, squared, close parenthesis, raised to the one fourth power.",
+    "corrected_value": "Choice D is correct. The given expression can also be written as $(x^2 + 8x + 16)^{1/4}$. The trinomial $x^2 + 8x + 16$ can be rewritten in factored form as $(x + 4)^2$. Thus, the entire expression can be rewritten as $((x + 4)^2)^{1/4}$. Simplifying the exponents yields $(x + 4)^{1/2}$.\nChoices A, B, and C are incorrect and may result from errors made when simplifying the exponents in the expression $((x + 4)^2)^{1/4}$."
+  },
+  {
+    "question_id": "9f2ecade",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 210. Since $- 5$, 6, and 7 are zeros of the function, the function can be rewritten as h of x equals, open parenthesis, x plus 5, close parenthesis, times, open parenthesis, x minus 6, close parenthesis, times, open parenthesis, x minus 7, close parenthesis. Expanding the function yields h of x equals, x cubed, minus 8, x squared, minus 23 x, plus 210. Thus, $a = - 8$, $b = - 23$, and $c = 210$. Therefore, the value of <em>c</em> is 210.",
+    "corrected_value": "The correct answer is 210. Since $-5$, 6, and 7 are zeros of the function, the function can be rewritten as $h(x) = (x + 5)(x - 6)(x - 7)$. Expanding the function yields $h(x) = x^3 - 8x^2 - 23x + 210$. Thus, $a = -8$, $b = -23$, and $c = 210$. Therefore, the value of <em>c</em> is 210."
+  },
+  {
+    "question_id": "e117d3b8",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Using the property that the square root of x, end root, times the square root of y, end root, equals the square root of x y, end root for positive numbers <em>x</em> and <em>y</em>, with <em>x</em> = (<em>a </em>+<em> c</em>)<sup>3</sup> and <em>y </em>= <em>a</em> + <em>c</em>, it follows that the square root of, open parenthesis, a, plus c, close parenthesis, cubed, end root, times, the square root of a, plus c, end root, equals the square root of, open parenthesis a, plus c, end parenthesis to the power 4, end root. By rewriting (<em>a</em> + <em>c</em>)<sup>4</sup> as ((<em>a</em> + <em>c</em>)<sup>2</sup>)<sup>2</sup>, it is possible to simplify the square root expression as follows: the square root of, open outer parenthesis, open inner parenthesis, a, plus c, close inner parenthesis, squared, close outer parenthesis, squared, end root, equals, open parenthesis, a, plus c, close parenthesis, squared, which equals a, squared, plus 2 a, c, plus c squared.\nChoice A is incorrect and may be the result of the square root of, open parenthesis, a, plus c, close parenthesis, cubed, end root, divided by the square root of, a, plus c, end root. Choice B is incorrect and may be the result of incorrectly rewriting (<em>a </em>+ <em>c</em>)<sup>2</sup> as <em>a</em><sup>2</sup> + <em>c</em><sup>2</sup>. Choice D is incorrect and may be the result of incorrectly applying properties of exponents.",
+    "corrected_value": "Choice C is correct. Using the property that $\\sqrt{x} \\cdot \\sqrt{y} = \\sqrt{xy}$ for positive numbers <em>x</em> and <em>y</em>, with <em>x</em> = (<em>a </em>+<em> c</em>)<sup>3</sup> and <em>y </em>= <em>a</em> + <em>c</em>, it follows that $\\sqrt{(a + c)^3} \\cdot \\sqrt{a + c} = \\sqrt{(a + c)^4}$. By rewriting (<em>a</em> + <em>c</em>)<sup>4</sup> as ((<em>a</em> + <em>c</em>)<sup>2</sup>)<sup>2</sup>, it is possible to simplify the square root expression as follows: $\\sqrt{((a + c)^2)^2} = (a + c)^2 = a^2 + 2ac + c^2$.\nChoice A is incorrect and may be the result of $\\frac{\\sqrt{(a + c)^3}}{\\sqrt{a + c}}$. Choice B is incorrect and may be the result of incorrectly rewriting (<em>a </em>+ <em>c</em>)<sup>2</sup> as <em>a</em><sup>2</sup> + <em>c</em><sup>2</sup>. Choice D is incorrect and may be the result of incorrectly applying properties of exponents."
+  },
+  {
+    "question_id": "f5e8ccf1",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. The graph of the function <em>f</em> in the <em>xy</em>-plane has <em>x</em>-intercepts at the points with coordinates x comma y, where y equals f of x, which equals 0. Substituting 0 for f of x in the given equation yields $0 = (x + 4) \\times (x - 1) \\times (2x - 3)$. By the zero product property, if $0 = (x + 4) \\times (x - 1) \\times (2x - 3)$, then $x + 4 = 0$, $x - 1 = 0$, or $2x - 3 = 0$. Solving each of these linear equations for <em>x</em>, it follows that $x = - 4$, $x = 1$, and $x = \\frac{3}{2}$, respectively. This means that the graph of the function <em>f</em> in the <em>xy</em>-plane has three <em>x</em>-intercepts: the point with coordinates negative 4 comma 0, the point with coordinates 1 comma 0, and the point with coordinates three halves comma 0. Therefore, the point with coordinates negative two thirds comma 0 isn't an <em>x</em>-intercept of the graph of the function <em>f</em>.\nAlternate approach: Substitution may be used. Since by definition an <em>x</em>-intercept of any graph is a point in the form $k,0$ where <em>k </em>is a constant, and since all points in the options are in this form, it need only be checked whether the points in the options lie on the graph of the function <em>f</em>. Substituting $- \\frac{2}{3}$ for <em>x</em> and 0 for f of x in the given equation yields $0 = (- \\frac{2}{3} + 4) \\times (- \\frac{2}{3} - 1) \\times (2 \\times - \\frac{2}{3} - 3)$, or 0 equals, the fraction 650 over 27. Therefore, the point with coordinates negative two thirds comma 0 doesn't lie on the graph of the function <em>f</em> and can't be an <em>x</em>-intercept of the graph.\nChoices A, C, and D are incorrect because each of these points is an <em>x</em>-intercept of the graph of the function <em>f</em> in the<em> xy</em>-plane. By definition, an <em>x</em>-intercept is a point on the graph of the form $k,0$, where <em>k</em> is a constant. Substituting $- 4$ for <em>x</em> and 0 for f of x in the given equation yields $0 = (- 4 + 4) \\times (- 4 - 1) \\times (2 \\times - 4 - 3)$, or $0 = 0$. Since this is a true statement, the point with coordinates negative 4 comma 0 lies on the graph of the function <em>f</em> and is an <em>x</em>-intercept of the graph. Performing similar substitution using the points with coordinates 1 comma 0 and $\\frac{3}{2},0$ also yields the true statement $0 = 0$, illustrating that these points also lie on the graph of the function <em>f </em>and are <em>x</em>-intercepts of the graph.",
+    "corrected_value": "Choice B is correct. The graph of the function <em>f</em> in the <em>xy</em>-plane has <em>x</em>-intercepts at the points with coordinates $(x, y)$ where $y = f(x) = 0$. Substituting 0 for f of x in the given equation yields $0 = (x + 4) \\times (x - 1) \\times (2x - 3)$. By the zero product property, if $0 = (x + 4) \\times (x - 1) \\times (2x - 3)$, then $x + 4 = 0$, $x - 1 = 0$, or $2x - 3 = 0$. Solving each of these linear equations for <em>x</em>, it follows that $x = -4$, $x = 1$, and $x = \\frac{3}{2}$, respectively. This means that the graph of the function <em>f</em> in the <em>xy</em>-plane has three <em>x</em>-intercepts: $(-4, 0)$, $(1, 0)$, and $\\left(\\frac{3}{2}, 0\\right)$. Therefore, the point $\\left(-\\frac{2}{3}, 0\\right)$ isn't an <em>x</em>-intercept of the graph of the function <em>f</em>.\nAlternate approach: Substitution may be used. Since by definition an <em>x</em>-intercept of any graph is a point in the form $(k,0)$ where <em>k </em>is a constant, and since all points in the options are in this form, it need only be checked whether the points in the options lie on the graph of the function <em>f</em>. Substituting $- \\frac{2}{3}$ for <em>x</em> and 0 for f of x in the given equation yields $0 = \\left(- \\frac{2}{3} + 4\\right) \\times \\left(- \\frac{2}{3} - 1\\right) \\times \\left(2 \\times - \\frac{2}{3} - 3\\right)$, or $0 = \\frac{650}{27}$. Therefore, the point $\\left(-\\frac{2}{3}, 0\\right)$ doesn't lie on the graph of the function <em>f</em> and can't be an <em>x</em>-intercept of the graph.\nChoices A, C, and D are incorrect because each of these points is an <em>x</em>-intercept of the graph of the function <em>f</em> in the<em> xy</em>-plane. By definition, an <em>x</em>-intercept is a point on the graph of the form $(k,0)$, where <em>k</em> is a constant. Substituting $- 4$ for <em>x</em> and 0 for f of x in the given equation yields $0 = (- 4 + 4) \\times (- 4 - 1) \\times (2 \\times - 4 - 3)$, or $0 = 0$. Since this is a true statement, the point $(-4, 0)$ lies on the graph of the function <em>f</em> and is an <em>x</em>-intercept of the graph. Performing similar substitution using the points $(1, 0)$ and $\\left(\\frac{3}{2},0\\right)$ also yields the true statement $0 = 0$, illustrating that these points also lie on the graph of the function <em>f </em>and are <em>x</em>-intercepts of the graph."
+  },
+  {
+    "question_id": "7eed640d",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. The positive <em>x</em>-intercept of the graph of y equals, h of x is a point with coordinates x comma y for which $y = 0$. Since y equals, h of x models the height above the ground, in feet, of the projectile, a <em>y</em>-value of 0 must correspond to the height of the projectile when it is 0 feet above ground or, in other words, when the projectile is on the ground. Since <em>x</em> represents the time since the projectile was launched, it follows that the positive <em>x</em>-intercept, the point with coordinates x comma 0, represents the time at which the projectile hits the ground.\nChoice A is incorrect and may result from misidentifying the <em>y</em>-intercept as a positive <em>x</em>-intercept. Choice B is incorrect and may result from misidentifying the <em>y</em>-value of the vertex of the graph of the function as an <em>x</em>-intercept. Choice C is incorrect and may result from misidentifying the <em>x</em>-value of the vertex of the graph of the function as an <em>x</em>-intercept.",
+    "corrected_value": "Choice D is correct. The positive <em>x</em>-intercept of the graph of $y = h(x)$ is a point with coordinates $(x, y)$ for which $y = 0$. Since $y = h(x)$ models the height above the ground, in feet, of the projectile, a <em>y</em>-value of 0 must correspond to the height of the projectile when it is 0 feet above ground or, in other words, when the projectile is on the ground. Since <em>x</em> represents the time since the projectile was launched, it follows that the positive <em>x</em>-intercept, the point with coordinates $(x, 0)$, represents the time at which the projectile hits the ground.\nChoice A is incorrect and may result from misidentifying the <em>y</em>-intercept as a positive <em>x</em>-intercept. Choice B is incorrect and may result from misidentifying the <em>y</em>-value of the vertex of the graph of the function as an <em>x</em>-intercept. Choice C is incorrect and may result from misidentifying the <em>x</em>-value of the vertex of the graph of the function as an <em>x</em>-intercept."
+  },
+  {
+    "question_id": "43926bd9",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 8. The values of f of x for the exponential function <em>f</em> shown in the table increase by a factor of a, to the fourth power for each increase of 1 in <em>x</em>. This relationship can be represented by the equation f of x equals, a, raised to the 4 x plus b power, where <em>b</em> is a constant. It's given that when $x = 2$, f of x equals, a, to the fifth power. Substituting 2 for <em>x</em> and a, to the fifth power for f of x into f of x equals, a, raised to the 4 x plus b power yields a, to the fifth power equals, a, raised to the 4 times 2, plus b power. Since $4 \\times 2 + b = 5$, it follows that $b = - 3$. Thus, an equation that defines the function <em>f</em> is f of x equals, a, raised to the 4 x minus 3 power. It follows that the value of <em>k</em> such that f of k equals, a, to the twenty ninth power can be found by solving the equation $4k - 3 = 29$, which yields $k = 8$.",
+    "corrected_value": "The correct answer is 8. The values of $f(x)$ for the exponential function <em>f</em> shown in the table increase by a factor of $a^4$ for each increase of 1 in <em>x</em>. This relationship can be represented by the equation $f(x) = a^{4x + b}$, where <em>b</em> is a constant. It's given that when $x = 2$, $f(x) = a^5$. Substituting 2 for <em>x</em> and $a^5$ for $f(x)$ into $f(x) = a^{4x + b}$ yields $a^5 = a^{4(2) + b}$. Since $4 \\times 2 + b = 5$, it follows that $b = -3$. Thus, an equation that defines the function <em>f</em> is $f(x) = a^{4x - 3}$. It follows that the value of <em>k</em> such that $f(k) = a^{29}$ can be found by solving the equation $4k - 3 = 29$, which yields $k = 8$."
+  },
+  {
+    "question_id": "aa95fb33",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "• Moving from left to right:\n• The curve passes from quadrant 1 to quadrant 4.\n• The curve trends down sharply to x equals 3.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line y equals negative 5.\n• The curve passes through the following points:\n• (2 comma negative one half)\n• (3 comma negative 2)\n• (6 comma negative seven halves)",
+    "corrected_value": "• Moving from left to right:\n• The curve passes from quadrant 1 to quadrant 4.\n• The curve trends down sharply to $x = 3$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = -5$.\n• The curve passes through the following points:\n• $(2, -0.5)$\n• $(3, -2)$\n• $(6, -3.5)$"
+  },
+  {
+    "question_id": "aa95fb33",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "• Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to x equals 1.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line y equals 0.\n• The curve passes through the following points:\n• (2 comma nine tenths)\n• (3 comma three fifths)\n• (6 comma three tenths)",
+    "corrected_value": "• Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to $x = 1$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = 0$.\n• The curve passes through the following points:\n• $(2, 0.9)$\n• $(3, 0.6)$\n• $(6, 0.3)$"
+  },
+  {
+    "question_id": "aa95fb33",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "• Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to x equals 2.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line y equals 0.\n• The curve passes through the following points:\n• (2 comma 7)\n• (3 comma StartFraction 14 Over 3 EndFraction)\n• (6 comma seven thirds)",
+    "corrected_value": "• Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to $x = 2$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = 0$.\n• The curve passes through the following points:\n• $(2, 7)$\n• $\\left(3, \\frac{14}{3}\\right)$\n• $\\left(6, \\frac{7}{3}\\right)$"
+  },
+  {
+    "question_id": "aa95fb33",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "• Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to x equals 3.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line y equals 5.\n• The curve passes through the following points:\n• (2 comma StartFraction 19 Over 2 EndFraction)\n• (3 comma 8)\n• (6 comma StartFraction 13 Over 2 EndFraction)",
+    "corrected_value": "• Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to $x = 3$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = 5$.\n• The curve passes through the following points:\n• $\\left(2, \\frac{19}{2}\\right)$\n• $(3, 8)$\n• $\\left(6, \\frac{13}{2}\\right)$"
+  },
+  {
+    "question_id": "1a722d7d",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is correct. The value of <em>p</em>(12) depends on the value of the constant <em>c</em>, so the value of <em>c</em> must first be determined. It is given that <em>p</em>(<em>c</em>) = 10. Based on the definition of <em>p</em>, it follows that:\np of c equals, the fraction with numerator open parenthesis, c minus c, close parenthesis, squared, plus 160, and denominator 2 c, end fraction, which equals 10\nthe fraction 160 over 2 c, end fraction, equals 10\n$2c = 16$\n$c = 8$\nThis means that p of x equals, the fraction with numerator open parenthesis, x minus 8, close parenthesis, squared, plus 160, and denominator 16 for all values of <em>x</em>. Therefore:\np of 12 equals, the fraction with numerator open parenthesis, 12 minus 8, close parenthesis, squared, plus 160, and denominator 16\nwhich equals the fraction with numerator 16 plus 160, and denominator 16\nwhich equals 11\nChoice A is incorrect. It is the value of <em>p</em>(8), not <em>p</em>(12). Choices B and C are incorrect. If one of these values were correct, then<em> x</em> = 12 and the selected value of <em>p</em>(12) could be substituted into the equation to solve for <em>c</em>. However, the values of <em>c</em> that result from choices B and C each result in <em>p</em>(<em>c</em>) < 10.",
+    "corrected_value": "Choice D is correct. The value of <em>p</em>(12) depends on the value of the constant <em>c</em>, so the value of <em>c</em> must first be determined. It is given that <em>p</em>(<em>c</em>) = 10. Based on the definition of <em>p</em>, it follows that:\n$p(c) = \\frac{(c - c)^2 + 160}{2c} = 10$\n$\\frac{160}{2c} = 10$\n$2c = 16$\n$c = 8$\nThis means that $p(x) = \\frac{(x - 8)^2 + 160}{16}$ for all values of <em>x</em>. Therefore:\n$p(12) = \\frac{(12 - 8)^2 + 160}{16} = \\frac{16 + 160}{16} = 11$\nChoice A is incorrect. It is the value of <em>p</em>(8), not <em>p</em>(12). Choices B and C are incorrect. If one of these values were correct, then<em> x</em> = 12 and the selected value of <em>p</em>(12) could be substituted into the equation to solve for <em>c</em>. However, the values of <em>c</em> that result from choices B and C each result in <em>p</em>(<em>c</em>) < 10."
+  },
+  {
+    "question_id": "ee05c84e",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Adding the like terms <em>x</em> and $0.25x$ yields the equation f of x equals, 1 point 2 5 x times, open parenthesis, 50 minus x, close parenthesis. Substituting 20 for <em>x</em> yields f of 20 equals, open parenthesis, 1 point 2 5 times 20, close parenthesis, times, open parenthesis, 50 minus 20, close parenthesis. The product $1.25 \\times 20$ is equal to 25, and the difference $50 - 20$ is equal to 30. Substituting these values in the given equation gives f of 20 equals, 25 times 30, and multiplying 25 by 30 results in f of 20 equals 750.\nChoices A, B, and D are incorrect and may result from conceptual or computational errors when finding the value of f of 20.",
+    "corrected_value": "Choice C is correct. Adding the like terms <em>x</em> and $0.25x$ yields the equation $f(x) = 1.25x(50 - x)$. Substituting 20 for <em>x</em> yields $f(20) = (1.25 \\times 20)(50 - 20)$. The product $1.25 \\times 20$ is equal to 25, and the difference $50 - 20$ is equal to 30. Substituting these values in the given equation gives $f(20) = 25 \\times 30$, and multiplying 25 by 30 results in $f(20) = 750$.\nChoices A, B, and D are incorrect and may result from conceptual or computational errors when finding the value of f of 20."
+  },
+  {
+    "question_id": "5c00c2c1",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. This exponential growth model can be written in the form p of t equals, A, times, open parenthesis, 1 plus r, close parenthesis, raised to the t power, where p of t is the population <em>t</em> years after 1788, <em>A</em> is the initial population, and <em>r</em> is the yearly growth rate, expressed as a decimal. Since there were 24 jackrabbits in Australia in 1788, $a = 24$. Since the number of jackrabbits increased by an average of 16.2\\% each year, $r = 0.162$. Therefore, the equation that best models this situation is p of t equals, 24 times, 1 point 1 6 2 raised to the t power.\nChoices A, B, and D are incorrect and may result from misinterpreting the form of an exponential growth model.",
+    "corrected_value": "Choice C is correct. This exponential growth model can be written in the form $p(t) = A(1 + r)^t$, where $p(t)$ is the population <em>t</em> years after 1788, <em>A</em> is the initial population, and <em>r</em> is the yearly growth rate, expressed as a decimal. Since there were 24 jackrabbits in Australia in 1788, $A = 24$. Since the number of jackrabbits increased by an average of 16.2\\% each year, $r = 0.162$. Therefore, the equation that best models this situation is $p(t) = 24(1.162)^t$.\nChoices A, B, and D are incorrect and may result from misinterpreting the form of an exponential growth model."
+  },
+  {
+    "question_id": "a7711fe8",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice A is correct. The given quadratic function <em>f</em> is in vertex form, f of x equals, open parenthesis, x minus h, close parenthesis, squared, plus k, where the point with coordinates h comma k is the vertex of the graph of y equals f of x in the <em>xy</em>-plane. Therefore, the vertex of the graph of y equals f of x is the point with coordinates 2 comma negative 4. In addition, the <em>y</em>-coordinate of the vertex represents either the minimum or maximum value of a quadratic function, depending on whether the graph of the function opens upward or downward. Since the leading coefficient of <em>f</em> (the coefficient of the term $(x - 2)^2$) is 1, which is positive, the graph of <em> y equals f of x</em> opens upward. It follows that at $x = 2$, the minimum value of the function <em>f</em> is $- 4$.\nChoice B is incorrect and may result from making a sign error and from using the <em>x</em>-coordinate of the vertex. Choice C is incorrect and may result from using the <em>x</em>-coordinate of the vertex. Choice D is incorrect and may result from making a sign error.",
+    "corrected_value": "Choice A is correct. The given quadratic function <em>f</em> is in vertex form, $f(x) = (x - h)^2 + k$, where the point $(h, k)$ is the vertex of the graph of $y = f(x)$ in the <em>xy</em>-plane. Therefore, the vertex of the graph of $y = f(x)$ is the point $(2, -4)$. In addition, the <em>y</em>-coordinate of the vertex represents either the minimum or maximum value of a quadratic function, depending on whether the graph of the function opens upward or downward. Since the leading coefficient of <em>f</em> (the coefficient of the term $(x - 2)^2$) is 1, which is positive, the graph of <em>y = f(x)</em> opens upward. It follows that at $x = 2$, the minimum value of the function <em>f</em> is $-4$.\nChoice B is incorrect and may result from making a sign error and from using the <em>x</em>-coordinate of the vertex. Choice C is incorrect and may result from using the <em>x</em>-coordinate of the vertex. Choice D is incorrect and may result from making a sign error."
+  },
+  {
+    "question_id": "5336f2e4",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The following text is adapted from Zora Neale Hurston's 1921 short story \"John Redding Goes to Sea.\" John is a child who lives in a town in the woods.\nPerhaps ten-year-old John was puzzling to the folk there in the Florida woods for he was an imaginative child and fond of day-dreams. The St. John River flowed a scarce three hundred feet from his back door. On its banks at this point grow numerous palms, luxuriant magnolias and bay trees. On the bosom of the stream float millions of delicately colored hyacinths. <u>[John Redding] loved to wander down to the water's edge, and, casting in dry twigs, watch them sail away down stream to Jacksonville, the sea, the wide world and [he] wanted to follow them.</u> Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "reason": "The 'and' in 'and, casting in' and 'and [he]' are part of normal literary prose, not screen-reader-style math notation."
+  },
+  {
+    "question_id": "6286dd96",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The following text is adapted from Frances Hodgson Burnett's 1905 novel <em>A Little Princess</em>. Sara is a young student at a school in London.\nSara not only could tell stories, but she adored telling them. When she sat or stood in the midst of a circle and began to <u>invent</u> wonderful things, her green eyes grew big and shining, her cheeks flushed, and, without knowing that she was doing it, she began to act and made what she told lovely or alarming by the raising or dropping of her voice. As used in the text, what does the word \"invent\" most nearly mean?",
+    "reason": "The 'and' is part of normal prose sentence structure, not screen-reader-style math."
+  },
+  {
+    "question_id": "c6bd3447",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The following text is from Virginia Woolf's 1919 novel <em>Night and Day</em>. The text describes a gathering of young artists and intellectuals.\nOne person after another rose, and, as with <u>an ill-balanced axe, attempted to hew out</u> his conception of art a little more clearly, and sat down with the feeling that, for some reason which he could not grasp, his <u>strokes had gone awry</u>. As they sat down they turned almost invariably to the person sitting next them, and rectified and continued what they had just said in public. Which choice best describes the function of the underlined portions in the text as a whole?",
+    "reason": "The 'and' markers are part of normal literary prose, not screen-reader-style spelled-out math."
+  },
+  {
+    "question_id": "145d5ca7",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "waterways, and, the fact that",
+    "reason": "'and' is part of normal grammatical structure listing items, not screen-reader math."
+  },
+  {
+    "question_id": "dddfa043",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is the best answer. The convention being tested is punctuation between a supplementary phrase and a main clause. This choice correctly uses a comma to mark the boundary between the introductory supplementary phrase (\"By linking the Hudson River to Lake Erie\"), which identifies how the canal reduced transport time, and the main clause (\"the canal reduced transport time to nine days and cut costs to six dollars per ton\").\nChoice A is incorrect because a semicolon can't be used in this way to mark the boundary between a supplementary phrase (\"By…Erie\") and the main clause (\"the canal...ton\"). Choice B is incorrect because an open parenthesis can't be used in this way to mark the boundary between a supplementary phrase (\"By…Erie\") and the main clause (\"the canal...ton\"). Choice D is incorrect because a colon can't be used in this way to mark the boundary between an introductory supplementary phrase (\"By…Erie\") and the main clause (\"the canal...ton\").",
+    "reason": "'open parenthesis' refers to punctuation as part of English grammar instruction, not screen-reader math."
+  },
+  {
+    "question_id": "a5079e0d",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Horsepower is a unit of measurement used to determine how much power a vehicle produces. The measurement is based on how much and how quickly weight can be ______ one unit of mechanical horsepower is equivalent to the amount of power it takes to lift 550 pounds one foot off the ground in one second. Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "reason": "'power' and 'horsepower' are technical terms, not screen-reader-style math. The 'power_words' signal is a false positive here."
+  },
+  {
+    "question_id": "f8244f7c",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice D is the best answer because it most effectively uses data from the table to support Probst and colleagues' conclusion about the hypothesis regarding the relationship between birds' bill size and habitat temperature. The text states that although it has been hypothesized that birds' bill size should increase with habitat temperature (an adaptation that reflects the fact that birds can release excess heat through their bills), Probst and colleagues concluded after studying mean bill surface area in North American thrashers that this hypothesis was not fully supported. In other words, Probst and colleagues did not observe the predicted positive relationship between mean bill surface area and habitat temperature in the thrashers they studied. The data in the table about the ocellated thrasher support Probst and colleagues' conclusion because this species has the greatest mean bill surface area (3.26 cm<sup>2</sup> cm squared), but its habitat has the lowest mean maximum temperature in the warmest month (27.56°C). If the hypothesis were fully supported, species such as the ocellated thrasher that have colder habitats would likely also have smaller bills. Similarly, the data about the Bendire's thrasher support Probst and colleagues' conclusion because this species has the second-smallest mean bill surface area (1.98 cm<sup>2</sup> cm squared), yet its habitat has the highest mean maximum temperature in the warmest month (36.57°C). If the hypothesis were fully supported, the Bendire's thrasher and other species with warmer habitats would also have larger bills. Because data in the table show that the ocellated thrasher and the Bendire's thrasher have the opposite or near opposite of the hypothesized relationship between bill size and habitat temperature, these examples support Probst and colleagues' conclusion that this hypothesis isn't fully supported.\nChoice A is incorrect because it misrepresents the data in the table. Although the Bendire's thrasher has the second-smallest mean bill surface area of the species that are included in the table and although its habitat has the second-lowest mean minimum temperature in the coldest month, this habitat has the highest (rather than the lowest) mean maximum temperature in the warmest month. Moreover, the data about this species' bill surface area and mean minimum temperature suggest that smaller bills are associated with colder habitats, supporting rather than challenging the hypothesis that bill size increases with habitat temperature. Choice B is incorrect because it misrepresents the data in the table. Although the Cozumel thrasher has the second-greatest mean bill surface area of the species that are included in the table, its habitat's mean maximum temperature in the warmest month is not \"significantly higher\" than the mean maximum temperatures of the other habitats. On the contrary, the mean maximum temperature of the Cozumel thrasher's habitat is lower than that observed for the habitats of both the Bendire's thrasher and the long-billed thrasher. Choice C is incorrect because it misrepresents the data in the table. Although this choice accurately describes the brown thrasher's mean bill surface area and habitat temperature, it incorrectly states that the long-billed thrasher has the second-largest (rather than the third-largest) mean bill surface area of the species included. In addition, instead of revealing a lack of support for the hypothesis that bill size increases with habitat temperature, the data in this choice broadly reflect the hypothesized relationship.",
+    "corrected_value": "Choice D is the best answer because it most effectively uses data from the table to support Probst and colleagues' conclusion about the hypothesis regarding the relationship between birds' bill size and habitat temperature. The text states that although it has been hypothesized that birds' bill size should increase with habitat temperature (an adaptation that reflects the fact that birds can release excess heat through their bills), Probst and colleagues concluded after studying mean bill surface area in North American thrashers that this hypothesis was not fully supported. In other words, Probst and colleagues did not observe the predicted positive relationship between mean bill surface area and habitat temperature in the thrashers they studied. The data in the table about the ocellated thrasher support Probst and colleagues' conclusion because this species has the greatest mean bill surface area ($3.26 \\text{ cm}^2$), but its habitat has the lowest mean maximum temperature in the warmest month (27.56°C). If the hypothesis were fully supported, species such as the ocellated thrasher that have colder habitats would likely also have smaller bills. Similarly, the data about the Bendire's thrasher support Probst and colleagues' conclusion because this species has the second-smallest mean bill surface area ($1.98 \\text{ cm}^2$), yet its habitat has the highest mean maximum temperature in the warmest month (36.57°C). If the hypothesis were fully supported, the Bendire's thrasher and other species with warmer habitats would also have larger bills. Because data in the table show that the ocellated thrasher and the Bendire's thrasher have the opposite or near opposite of the hypothesized relationship between bill size and habitat temperature, these examples support Probst and colleagues' conclusion that this hypothesis isn't fully supported.\nChoice A is incorrect because it misrepresents the data in the table. Although the Bendire's thrasher has the second-smallest mean bill surface area of the species that are included in the table and although its habitat has the second-lowest mean minimum temperature in the coldest month, this habitat has the highest (rather than the lowest) mean maximum temperature in the warmest month. Moreover, the data about this species' bill surface area and mean minimum temperature suggest that smaller bills are associated with colder habitats, supporting rather than challenging the hypothesis that bill size increases with habitat temperature. Choice B is incorrect because it misrepresents the data in the table. Although the Cozumel thrasher has the second-greatest mean bill surface area of the species that are included in the table, its habitat's mean maximum temperature in the warmest month is not \"significantly higher\" than the mean maximum temperatures of the other habitats. On the contrary, the mean maximum temperature of the Cozumel thrasher's habitat is lower than that observed for the habitats of both the Bendire's thrasher and the long-billed thrasher. Choice C is incorrect because it misrepresents the data in the table. Although this choice accurately describes the brown thrasher's mean bill surface area and habitat temperature, it incorrectly states that the long-billed thrasher has the second-largest (rather than the third-largest) mean bill surface area of the species included. In addition, instead of revealing a lack of support for the hypothesis that bill size increases with habitat temperature, the data in this choice broadly reflect the hypothesized relationship."
+  },
+  {
+    "question_id": "d102706f",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "\"I saw, after that, she couldn't stand this place a moment longer, and, indeed, she jumped up and turned away while I went through the vulgar act of paying for the tea.\"",
+    "reason": "The 'and' here is part of normal literary prose and dialogue, not screen-reader math."
+  },
+  {
+    "question_id": "d102706f",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The largest tyrannosaurids—the family of carnivorous dinosaurs that includes <em>Tarbosaurus</em>, <em>Albertosaurus</em>, and, most famously, <em>Tyrannosaurus</em> <em>rex</em>—are thought to have had the strongest bites of any land animals in Earth's history. Determining the bite force of extinct animals can be difficult, however, and paleontologists Paul Barrett and Emily Rayfield have suggested that an estimate of dinosaur bite force may be significantly influenced by the methodology used in generating that estimate. Which choice best describes data from the table that support Barrett and Rayfield's suggestion?",
+    "reason": "The 'and' is part of normal prose listing items in a series, not screen-reader math."
+  },
+  {
+    "question_id": "38facbad",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Studies conducted in individual Western societies have demonstrated associations between personality traits and five musical factors (mellowness, unpretentiousness, sophistication, intensity, and contemporariness) underlying individual preferences for styles of Western music. To investigate these associations across cultures, David M. Greenberg et al. collected music-preference assessments for Western genres and self-reported personality traits from participants in fifty-three countries across six continents. The study confirmed that the five-factor framework accurately captured participants' tastes in Western music, and, moreover, the study found similar correlations between patterns of these factors and of personality traits, suggesting that ______ Which choice most logically completes the text?",
+    "reason": "The 'and' is part of normal prose connecting clauses, not screen-reader-style math."
+  },
+  {
+    "question_id": "af125459",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is the best answer because it most effectively uses data from the table to complete the statement about the depth at which the highest number of tools made from clamshells that Neanderthals collected from the beach was found. The table presents the depths at which Neanderthal clamshell tools were found, and, for each depth, the number of those tools made from clamshells that washed up on the beach and the number made from clamshells harvested from the seafloor. The table indicates that the highest number made from clamshells collected from the beach was 99 and that these tools were found at a depth of 3–4 meters.\nChoice A is incorrect because the table indicates that 18 tools made from clamshells collected from the beach were found at a depth of 5–6 meters, which is fewer than the 99 tools found at a depth of 3–4 meters. Choice B is incorrect because the table indicates that 2 tools made from clamshells collected from the beach were found at a depth of 4–5 meters, which is fewer than the 99 tools found at a depth of 3–4 meters. Choice D is incorrect because the table indicates that 1 tool made from clamshells collected from the beach was found at a depth of 6–7 meters, which is fewer than the 99 tools found at a depth of 3–4 meters.",
+    "reason": "'and' is part of normal prose construction for listing and connecting clauses, not screen-reader math."
+  },
+  {
+    "question_id": "45eaf7fb",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "While researching a topic, a student has taken the following notes:\n• Tecozautla is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is street lighting.\n• Tecozautla covers an area of roughly 535 km² km squared.\n• Hidalgo is divided into 84 municipalities.\nThe student wants to emphasize the size of Tecozautla. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "corrected_value": "While researching a topic, a student has taken the following notes:\n• Tecozautla is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is street lighting.\n• Tecozautla covers an area of roughly $535 \\text{ km}^2$.\n• Hidalgo is divided into 84 municipalities.\nThe student wants to emphasize the size of Tecozautla. Which choice most effectively uses relevant information from the notes to accomplish this goal?"
+  },
+  {
+    "question_id": "45eaf7fb",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice A is the best answer. The sentence emphasizes the size of Tecozautla, noting that it covers an area of roughly 535 km² km squared.\nChoice B is incorrect. The sentence gives an example of a public service that municipalities provide; it doesn't emphasize the size of Tecozautla. Choice C is incorrect. While the sentence provides information about Tecozautla, it doesn't emphasize Tecozautla's size. Choice D is incorrect. While the sentence provides information about Tecozautla, it doesn't emphasize Tecozautla's size.",
+    "corrected_value": "Choice A is the best answer. The sentence emphasizes the size of Tecozautla, noting that it covers an area of roughly $535 \\text{ km}^2$.\nChoice B is incorrect. The sentence gives an example of a public service that municipalities provide; it doesn't emphasize the size of Tecozautla. Choice C is incorrect. While the sentence provides information about Tecozautla, it doesn't emphasize Tecozautla's size. Choice D is incorrect. While the sentence provides information about Tecozautla, it doesn't emphasize Tecozautla's size."
+  },
+  {
+    "question_id": "45eaf7fb",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The municipality of Tecozautla in Hidalgo, Mexico, covers an area of roughly 535 km&sup2; km squared.",
+    "corrected_value": "The municipality of Tecozautla in Hidalgo, Mexico, covers an area of roughly $535 \\text{ km}^2$."
+  }
+]

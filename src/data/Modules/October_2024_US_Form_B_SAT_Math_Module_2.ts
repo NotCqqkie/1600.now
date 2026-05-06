@@ -178,19 +178,19 @@ export const questions: Question[] = [
       "choices": [
           {
               "id": "A",
-              "text": "x plus 2 y, equals 86, and, 3 x plus 5 y, equals 166"
+              "text": "$x + 2y = 86$ and $3x + 5y = 166$"
           },
           {
               "id": "B",
-              "text": "x plus 3 y, equals 86, and, 2 x plus 5 y, equals 166"
+              "text": "$x + 3y = 86$ and $2x + 5y = 166$"
           },
           {
               "id": "C",
-              "text": "x plus 2 y, equals 166, and, 3 x plus 5 y, equals 86"
+              "text": "$x + 2y = 166$ and $3x + 5y = 86$"
           },
           {
               "id": "D",
-              "text": "x plus 3 y, equals 166, and, 2 x plus 5 y, equals 86"
+              "text": "$x + 3y = 166$ and $2x + 5y = 86$"
           }
       ]
   },

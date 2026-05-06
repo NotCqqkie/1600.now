@@ -1239,7 +1239,7 @@ function Question() {
     ];
 
     const findIntroBoundary = (line: string): number | null => {
-      const sentenceBoundaryMatch = line.match(/[.?!](?=\s+[A-Z["“'(<])/);
+      const sentenceBoundaryMatch = line.match(/[.?!]["”’')\]]?(?=\s+[A-Z["“'(<])/);
       if (sentenceBoundaryMatch?.index !== undefined) {
         return sentenceBoundaryMatch.index + sentenceBoundaryMatch[0].length;
       }

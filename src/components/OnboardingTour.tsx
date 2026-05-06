@@ -83,18 +83,23 @@ const STEPS: Step[] = [
     key: "welcome",
     icon: Sparkles,
     title: "Welcome to 1600.now",
-    body: "Quick tour — we'll walk you through the real pages so you know exactly where everything lives.",
+    body: "Quick tour. We'll walk you through the real pages so you know exactly where everything is.",
     accent: "sky",
   },
   // 1 — sidebar overview
+  // We pin a route here so the tour always lands on a known page with the
+  // sidebar mounted before highlighting it. Without this, replaying the tour
+  // from a page that doesn't render AppShell (or has the sidebar hidden
+  // off-canvas) would point the spotlight at nothing.
   {
     kind: "spotlight",
     key: "sidebar",
     icon: LayoutGrid,
     title: "Your home base",
-    body: "Every tool lives in this sidebar. It's always one click away — collapse it with the chevron when you want more room.",
+    body: "Every tool lives here. Always one click away — hit the arrow to collapse it when you need more room.",
     accent: "indigo",
     target: "sidebar",
+    route: "/bank",
     pad: 6,
   },
   // 2 — Question Bank nav
@@ -103,7 +108,7 @@ const STEPS: Step[] = [
     key: "bank",
     icon: BookOpen,
     title: "Question Bank",
-    body: "Let's start with the bank. 5,000+ real SAT questions, organized by skill and difficulty.",
+    body: "Start here. Thousands of real SAT questions, sorted by skill and difficulty.",
     accent: "violet",
     target: "nav-bank",
     route: "/bank",
@@ -115,7 +120,7 @@ const STEPS: Step[] = [
     key: "filters",
     icon: Filter,
     title: "Filter to what you need",
-    body: "Slice by subject, difficulty, skill, source, marked-for-review — the bank reshapes around your filters live.",
+    body: "Pick by subject, difficulty, skill, source, or marked-for-review.",
     accent: "violet",
     target: "bank-filters",
     route: "/bank",
@@ -128,7 +133,7 @@ const STEPS: Step[] = [
     key: "modules",
     icon: GraduationCap,
     title: "Practice Tests",
-    body: "Full-length, timed exams that mirror the real SAT — section scores and a breakdown when you're done.",
+    body: "Full-length, timed exams that mirror the real SAT. Section scores and a full breakdown when you finish.",
     accent: "emerald",
     target: "nav-modules",
     route: "/modules",
@@ -140,7 +145,7 @@ const STEPS: Step[] = [
     key: "hard",
     icon: Flame,
     title: "100 Hard Math",
-    body: "The 100 hardest math questions we could find. Crush these and the real test feels gentle.",
+    body: "The 100 hardest math questions we could make. Beat these and the real test feels easy.",
     accent: "rose",
     target: "nav-hard",
     route: "/hard",
@@ -152,7 +157,7 @@ const STEPS: Step[] = [
     key: "vocab",
     icon: BookA,
     title: "Vocabulary",
-    body: "Quick-fire flashcards with spaced repetition — the words the SAT actually loves to test.",
+    body: "Spaced-repetition flashcards on the words the SAT actually tests.",
     accent: "amber",
     target: "nav-vocab",
     route: "/vocab",
@@ -164,7 +169,7 @@ const STEPS: Step[] = [
     key: "stats",
     icon: BarChart3,
     title: "Your statistics",
-    body: "Track accuracy by skill, difficulty, and section over time. The data you actually need to study smarter.",
+    body: "Accuracy by skill, difficulty, and section — tracked over time. The data you need to study smarter.",
     accent: "indigo",
     target: "nav-stats",
     route: "/analysis",
@@ -175,8 +180,8 @@ const STEPS: Step[] = [
     kind: "spotlight",
     key: "question-toolbar",
     icon: Compass,
-    title: "Inside any question",
-    body: "We just dropped you into a real question. Up here is your toolbar — let's open the tools.",
+    title: "Inside a question",
+    body: "You're now in a real question. Let's open the toolbar up.",
     accent: "cyan",
     target: "reference-button",
     route: "/hard/1",
@@ -188,8 +193,8 @@ const STEPS: Step[] = [
     kind: "spotlight",
     key: "reference-window",
     icon: FileText,
-    title: "Reference sheet — for real",
-    body: "Every formula the College Board hands out, one tap away. Drag it, dock it, or pin it side-by-side.",
+    title: "Reference sheet",
+    body: "Every formula and shape the College Board gives you, one click away.",
     accent: "fuchsia",
     target: "window-referenceSheet",
     clickFirst: "reference-button",
@@ -202,7 +207,7 @@ const STEPS: Step[] = [
     key: "desmos-button",
     icon: Calculator,
     title: "Desmos lives here",
-    body: "Same calculator the real SAT ships with — graph anything, no extra tabs needed.",
+    body: "The exact calculator the real SAT ships with. Graph anything without leaving the page.",
     accent: "teal",
     target: "desmos-button",
     pad: 6,
@@ -214,7 +219,7 @@ const STEPS: Step[] = [
     key: "desmos-window",
     icon: LineChart,
     title: "Built-in Desmos",
-    body: "Drag it around, resize it, graph anything. Try y = x² when this tour ends.",
+    body: "Drag it, resize it, graph anything.",
     accent: "teal",
     target: "window-desmos",
     clickFirst: "desmos-button",
@@ -225,8 +230,8 @@ const STEPS: Step[] = [
     kind: "spotlight",
     key: "desmos-sidebar-toggle",
     icon: PanelRight,
-    title: "Or pop it to the side",
-    body: "See this button at the top-left of the Desmos window? Click it to dock the calculator to the side of the screen.",
+    title: "Or dock it to the side",
+    body: "See the button at the top-left of the Desmos window? Click it to pin the calculator alongside your question.",
     accent: "teal",
     target: "sidebar-toggle-desmos",
     pad: 4,
@@ -238,7 +243,7 @@ const STEPS: Step[] = [
     key: "desmos-sidebarred",
     icon: Columns2,
     title: "Side-by-side mode",
-    body: "Now Desmos is docked next to the question — graph and answer at the same time. Click the same button again to pop it back out.",
+    body: "Desmos is now docked next to your question. Click the same button to pop it back out.",
     accent: "teal",
     target: "window-desmos",
     clickFirst: "sidebar-toggle-desmos",
@@ -251,8 +256,8 @@ const STEPS: Step[] = [
     kind: "spotlight",
     key: "replay",
     icon: HelpCircle,
-    title: "Lost? Replay this tour",
-    body: "Click here whenever you want to see this walkthrough again. No tour-FOMO.",
+    title: "Lost? Replay the tour",
+    body: "Click here anytime to run this walkthrough again. No FOMO.",
     accent: "emerald",
     target: "tour-replay",
     route: "/bank",
@@ -263,7 +268,7 @@ const STEPS: Step[] = [
     key: "ready",
     icon: PartyPopper,
     title: "You're all set",
-    body: "Head to the Question Bank to dive in, or pick anywhere from the sidebar. Good luck — we're rooting for you.",
+    body: "Head to the Question Bank to dive in, or pick anything from the sidebar. Good luck — we're rooting for you.",
     accent: "fuchsia",
   },
 ];
@@ -427,7 +432,7 @@ const SplashCard = ({ step, onNext, onSkip, index, total }: {
       <FloatingBlobs accent={step.accent} />
 
       {/* Orbiting micro-icons */}
-      <div aria-hidden className="pointer-events-none absolute inset-0">
+      <div aria-hidden className="pointer-events-none absolute inset-0 z-20">
         {[0, 1, 2, 3, 4, 5].map((i) => {
           const r = 180 + (i % 3) * 60;
           const dur = 18 + (i % 4) * 6;
@@ -453,28 +458,28 @@ const SplashCard = ({ step, onNext, onSkip, index, total }: {
       <div className="relative z-10 max-w-xl text-center">
         <div className="relative mx-auto mb-8 h-24 w-24">
           <div className={`absolute inset-0 rounded-3xl ${c.bg} blur-xl tour-splash-orb`} />
-          <div className={`relative flex h-24 w-24 items-center justify-center rounded-3xl border border-border/60 bg-card/80 backdrop-blur ${c.text} tour-splash-orb`}>
+          <div className={`relative flex h-24 w-24 items-center justify-center rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur ${c.text} tour-splash-orb`}>
             <Icon className="h-12 w-12" />
           </div>
           <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed ${c.ring} tour-ring-spin`} />
         </div>
         <h2
-          className="mb-4 text-foreground tour-splash-text"
+          className="mb-4 text-white tour-splash-text"
           style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}
         >
           {step.title}
         </h2>
-        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-muted-foreground tour-splash-text" style={{ animationDelay: "60ms" }}>
+        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-white/75 tour-splash-text" style={{ animationDelay: "60ms" }}>
           {step.body}
         </p>
         <div className="mt-9 flex items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
-          <Button variant="ghost" onClick={onSkip} className="text-muted-foreground hover:text-foreground">Skip tour</Button>
+          <Button variant="ghost" onClick={onSkip} className="text-white/70 hover:text-white hover:bg-white/10">Skip tour</Button>
           <Button size="lg" onClick={onNext} className="gap-2 px-6">
             Take the tour
             <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
-        <div className="mt-8 text-xs text-muted-foreground tabular-nums">{index + 1} / {total}</div>
+        <div className="mt-8 text-xs text-white/60 tabular-nums">{index + 1} / {total}</div>
       </div>
     </div>
   );
@@ -494,7 +499,7 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
        * as the user lingers on the finale. Each particle is one of 6
        * celebration colors, rotated to a different bearing, and travels a
        * different distance. */}
-      <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2">
+      <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2 z-20">
         {Array.from({ length: 36 }).map((_, i) => {
           const rot = (i * 360) / 36;
           const dist = 180 + (i % 6) * 50;
@@ -520,7 +525,7 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
 
       {/* Orbiting celebration glyphs — same trick the splash uses, rotated
        * with the celebration-themed icon set so the finale feels alive. */}
-      <div aria-hidden className="pointer-events-none absolute inset-0">
+      <div aria-hidden className="pointer-events-none absolute inset-0 z-20">
         {[0, 1, 2, 3, 4, 5].map((i) => {
           const r = 200 + (i % 3) * 60;
           const dur = 22 + (i % 4) * 6;
@@ -548,23 +553,23 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
           {/* Soft ambient pulse so the orb isn't static. */}
           <div className={`absolute -inset-2 rounded-full ${c.bg} blur-2xl tour-splash-orb`} style={{ animation: "tour-card-glow 3.6s ease-in-out infinite" }} />
           <div className={`absolute inset-0 rounded-full ${c.bg} blur-xl tour-splash-orb`} />
-          <div className={`relative flex h-28 w-28 items-center justify-center rounded-full border border-border/60 bg-card/80 backdrop-blur ${c.text} tour-splash-orb`}>
+          <div className={`relative flex h-28 w-28 items-center justify-center rounded-full border border-white/10 bg-slate-900/80 backdrop-blur ${c.text} tour-splash-orb`}>
             <Icon className="h-14 w-14" />
           </div>
           {/* Spinning dashed ring matching the splash's vibe. */}
           <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed ${c.ring} tour-ring-spin`} />
         </div>
-        <h2 className="mb-4 text-foreground tour-splash-text" style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
+        <h2 className="mb-4 text-white tour-splash-text" style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
           {step.title}
         </h2>
-        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-muted-foreground tour-splash-text" style={{ animationDelay: "60ms" }}>
+        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-white/75 tour-splash-text" style={{ animationDelay: "60ms" }}>
           {step.body}
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
-          <Button variant="outline" onClick={() => onJump("/bank")} className="gap-2">
+          <Button variant="outline" onClick={() => onJump("/bank")} className="gap-2 border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white">
             <BookOpen className="h-4 w-4" /> Question Bank
           </Button>
-          <Button variant="outline" onClick={() => onJump("/modules")} className="gap-2">
+          <Button variant="outline" onClick={() => onJump("/modules")} className="gap-2 border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white">
             <GraduationCap className="h-4 w-4" /> Practice Tests
           </Button>
           <Button size="lg" onClick={onClose} className="gap-2 px-6">
@@ -572,7 +577,7 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
             <Wand2 className="h-4 w-4" />
           </Button>
         </div>
-        <div className="mt-8 text-xs text-muted-foreground tabular-nums">{index + 1} / {total}</div>
+        <div className="mt-8 text-xs text-white/60 tabular-nums">{index + 1} / {total}</div>
       </div>
     </div>
   );

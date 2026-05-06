@@ -224,10 +224,15 @@ const Modules = () => {
           const title = isModule
             ? mostRecentSession.module.publicTitle
             : `Practice Set ${mostRecentSession.practiceSet.setNumber}`;
+          const activeModule = !isModule
+            ? mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]
+            : null;
           const questionCount = isModule
             ? mostRecentSession.module.questionCount
-            : mostRecentSession.practiceSet.modules.reduce((sum, m) => sum + m.questions.length, 0);
-          const currentIndex = mostRecentSession.session.currentIndex;
+            : (activeModule?.questionCount ?? 0);
+          const currentIndex = isModule
+            ? mostRecentSession.session.currentIndex
+            : mostRecentSession.session.currentIndex - (activeModule?.startIndex ?? 0);
           const timed = mostRecentSession.session.settings.timed;
           const remainingSeconds = isModule
             ? mostRecentSession.session.remainingSeconds ?? 0

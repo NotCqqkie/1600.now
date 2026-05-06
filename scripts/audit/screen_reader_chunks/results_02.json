@@ -1,0 +1,442 @@
+[
+  {
+    "question_id": "271f7e3f",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. The value of f of 9 minus f of 1 can be calculated by finding the values of f of 9 and f of 1. The value of f of 9 can be found by substituting 9 for <em>x</em> in the given function: f of 9 equals, the fraction with numerator, open parenthesis, 9 plus 7, close parenthesis, and denominator 4. This equation can be rewritten as f of 9 equals, 16 over 4, or 4. Then, the value of f of 1 can be found by substituting 1 for <em>x </em>in the given function: <em> f of 1 equals, the fraction with numerator, open parenthesis, 1 plus 7, close parenthesis, and denominator 4</em>. This equation can be rewritten as f of 1 equals, 8 over 4, or 2. Therefore, f of 9 minus f of 1, equals, 4 minus 2, which is equivalent to 2.\nChoices A, C, and D are incorrect and may result from incorrectly substituting values of <em>x</em> in the given function or making computational errors.",
+    "corrected_value": "Choice B is correct. The value of $f(9) - f(1)$ can be calculated by finding the values of $f(9)$ and $f(1)$. The value of $f(9)$ can be found by substituting 9 for <em>x</em> in the given function: $f(9) = \\frac{9 + 7}{4}$. This equation can be rewritten as $f(9) = \\frac{16}{4}$ or $4$. Then, the value of $f(1)$ can be found by substituting 1 for <em>x </em>in the given function: <em>$f(1) = \\frac{1 + 7}{4}$</em>. This equation can be rewritten as $f(1) = \\frac{8}{4}$ or $2$. Therefore, $f(9) - f(1) = 4 - 2$, which is equivalent to 2.\nChoices A, C, and D are incorrect and may result from incorrectly substituting values of <em>x</em> in the given function or making computational errors."
+  },
+  {
+    "question_id": "0b46bad5",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. The given equation $a x + b y = b$ can be rewritten in slope-intercept form, $y = m x + k$, where <em>m</em> represents the slope of the line represented by the equation, and <em>k</em> represents the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. Subtracting <em>ax</em> from both sides of the equation yields $b y = - a x + b$, and dividing both sides of this equation by <em>b</em> yields y equals, the negative of the fraction a over b, end fraction, times x, plus, the fraction b over b, end fraction, or y equals, the negative of the fraction a over b, end fraction, times x, plus 1. With the equation now in slope-intercept form, it shows that $k = 1$, which means the <em>y</em>-coordinate of the <em>y</em>-intercept is 1. It's given that <em>a</em> and <em>b</em> are both greater than 0 (positive) and that a is less than b. Since m equals, the negative of the fraction a over b, the slope of the line must be a value between $- 1$ and 0. Choice C is the only graph of a line that has a <em>y</em>-value of the <em>y</em>-intercept that is 1 and a slope that is between $- 1$ and 0.\nChoices A, B, and D are incorrect because the slopes of the lines in these graphs aren't between $- 1$ and 0.",
+    "corrected_value": "Choice C is correct. The given equation $ax + by = b$ can be rewritten in slope-intercept form, $y = mx + k$, where <em>m</em> represents the slope of the line represented by the equation, and <em>k</em> represents the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. Subtracting <em>ax</em> from both sides of the equation yields $by = -ax + b$, and dividing both sides of this equation by <em>b</em> yields $y = -\\frac{a}{b}x + \\frac{b}{b}$ or $y = -\\frac{a}{b}x + 1$. With the equation now in slope-intercept form, it shows that $k = 1$, which means the <em>y</em>-coordinate of the <em>y</em>-intercept is 1. It's given that <em>a</em> and <em>b</em> are both greater than 0 (positive) and that $a < b$. Since $m = -\\frac{a}{b}$, the slope of the line must be a value between $-1$ and $0$. Choice C is the only graph of a line that has a <em>y</em>-value of the <em>y</em>-intercept that is 1 and a slope that is between $-1$ and $0$.\nChoices A, B, and D are incorrect because the slopes of the lines in these graphs aren't between $-1$ and $0$."
+  },
+  {
+    "question_id": "b31c3117",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice A is correct. When Alice trains, it's recommended that <em>p</em> be between 0.5 and 0.85. Therefore, her target training heart rate is represented by the values of <em>H</em> corresponding to 0 point 5 is less than or equal to p, which is less than or equal to 0 point 8 5. When $p = 0.5$, $h = 120 \\times 0.5 + 60$, or $h = 120$. When $p = 0.85$, $h = 120 \\times 0.85 + 60$, or $h = 162$. Therefore, the inequality that describes Alice's target training heart rate is 120 is less than or equal to H, which is less than or equal to 162.\nChoice B is incorrect. This inequality describes Alice's target heart rate for 0 point 3 5 is less than or equal to p, which is less than or equal to 0 point 5. Choice C is incorrect. This inequality describes her target heart rate for 0 is less than or equal to p, which is less than or equal to 0 point 8 5. Choice D is incorrect. This inequality describes her target heart rate for 0 is less than or equal to p, which is less than or equal to 0 point 3 5.",
+    "corrected_value": "Choice A is correct. When Alice trains, it's recommended that <em>p</em> be between 0.5 and 0.85. Therefore, her target training heart rate is represented by the values of <em>H</em> corresponding to $0.5 \\le p \\le 0.85$. When $p = 0.5$, $h = 120 \\times 0.5 + 60$, or $h = 120$. When $p = 0.85$, $h = 120 \\times 0.85 + 60$, or $h = 162$. Therefore, the inequality that describes Alice's target training heart rate is $120 \\le H \\le 162$.\nChoice B is incorrect. This inequality describes Alice's target heart rate for $0.35 \\le p \\le 0.5$. Choice C is incorrect. This inequality describes her target heart rate for $0 \\le p \\le 0.85$. Choice D is incorrect. This inequality describes her target heart rate for $0 \\le p \\le 0.35$."
+  },
+  {
+    "question_id": "dd797fe2",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is correct. Since Mario purchased 4 binders that cost <em>x</em> dollars each, the expression 4 x represents the total cost, in dollars, of the 4 binders he purchased. Since Mario purchased 3 notebooks that cost <em>y</em> dollars each, the expression 3 y represents the total cost, in dollars, of the 3 notebooks he purchased. Therefore, the expression $4x + 3y$ represents the total cost, in dollars, for all binders and notebooks he purchased. In the given equation, the expression $4x + 3y$ is equal to 24. Therefore, it follows that 24 is the total cost, in dollars, for all binders and notebooks purchased.\nChoice A is incorrect. This is represented by the expression 4 x in the given equation. Choice B is incorrect. This is represented by the expression 3 y in the given equation. Choice D is incorrect. This is represented by the expression the absolute value of, 4 x minus 3 y, end absolute value.",
+    "reason": "Phrase '4 x' and '3 y' in prose context (total cost, number of items) is normal English, not screen-reader math needing LaTeX. Already has proper LaTeX for equations."
+  },
+  {
+    "question_id": "16889ef3",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. It is assumed that the oil and gas production decreased at a constant rate. Therefore, the function <em>f </em>that best models the production <em>t</em> years after the year 2000 can be written as a linear function, f of t equals, m, t plus b, where <em>m</em> is the rate of change of the oil and gas production and <em>b </em>is the oil and gas production, in millions of barrels, in the year 2000. Since there were 4 million barrels of oil and gas produced in 2000, $b = 4$. The rate of change, <em>m</em>, can be calculated as the fraction with numerator 4 minus 1 point 9, and denominator 0 minus 13, end fraction, equals, the negative of the fraction 2 point 1 over 13, which is equivalent to the negative of the fraction 21 over 130, the rate of change in choice C.\nChoices A and B are incorrect because each of these functions has a positive rate of change. Since the oil and gas production decreased over time, the rate of change must be negative. Choice D is incorrect. This model may result from misinterpreting 1.9 million barrels as the amount by which the production decreased.",
+    "corrected_value": "Choice C is correct. It is assumed that the oil and gas production decreased at a constant rate. Therefore, the function <em>f </em>that best models the production <em>t</em> years after the year 2000 can be written as a linear function, $f(t) = mt + b$, where <em>m</em> is the rate of change of the oil and gas production and <em>b </em>is the oil and gas production, in millions of barrels, in the year 2000. Since there were 4 million barrels of oil and gas produced in 2000, $b = 4$. The rate of change, <em>m</em>, can be calculated as $m = \\frac{4 - 1.9}{0 - 13} = -\\frac{2.1}{13}$, which is equivalent to $-\\frac{21}{130}$, the rate of change in choice C.\nChoices A and B are incorrect because each of these functions has a positive rate of change. Since the oil and gas production decreased over time, the rate of change must be negative. Choice D is incorrect. This model may result from misinterpreting 1.9 million barrels as the amount by which the production decreased."
+  },
+  {
+    "question_id": "c651cc56",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. A linear function has a constant rate of change, and any two rows of the table shown can be used to calculate this rate. From the first row to the second, the value of <em>x</em> is increased by 2 and the value of f of x is increased by $6 = 4 - - 2$. So the values of f of x increase by 3 for every increase by 1 in the value of <em>x</em>. Since f of 2, equals 4, it follows that f of, open parenthesis, 2 plus 1, close parenthesis, equals, 4 plus 3, which equals 7. Therefore, f of 3, equals 7.\nChoice A is incorrect. This is the third <em>x</em>-value in the table, not f of 3. Choices C and D are incorrect and may result from errors when calculating the function's rate of change.",
+    "corrected_value": "Choice B is correct. A linear function has a constant rate of change, and any two rows of the table shown can be used to calculate this rate. From the first row to the second, the value of <em>x</em> is increased by 2 and the value of $f(x)$ is increased by $6 = 4 - (-2)$. So the values of $f(x)$ increase by 3 for every increase by 1 in the value of <em>x</em>. Since $f(2) = 4$, it follows that $f(2 + 1) = 4 + 3$, which equals 7. Therefore, $f(3) = 7$.\nChoice A is incorrect. This is the third <em>x</em>-value in the table, not $f(3)$. Choices C and D are incorrect and may result from errors when calculating the function's rate of change."
+  },
+  {
+    "question_id": "c22b5f25",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. A linear function can be written in the form f of x equals, m x plus b, where <em>m</em> is the slope and <em>b</em> is the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. The slope of the graph can be found using the formula m equals, the fraction with numerator y sub 2 minus y sub 1, and denominator x sub 2 minus x sub 1, end fraction. Substituting the values of the given points into this formula yields m equals, the fraction with numerator negative 5 minus 3, and denominator 4 minus negative 2, end fraction or $m = - 8 / 6$, which simplifies to $m = - \\frac{4}{3}$. Only choice C shows an equation with this slope.\nChoices A, B, and D are incorrect and may result from computation errors or misinterpreting the given information.",
+    "corrected_value": "Choice C is correct. A linear function can be written in the form $f(x) = mx + b$, where <em>m</em> is the slope and <em>b</em> is the <em>y</em>-coordinate of the <em>y</em>-intercept of the line. The slope of the graph can be found using the formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Substituting the values of the given points into this formula yields $m = \\frac{-5 - 3}{4 - (-2)} = \\frac{-8}{6} = -\\frac{4}{3}$. Only choice C shows an equation with this slope.\nChoices A, B, and D are incorrect and may result from computation errors or misinterpreting the given information."
+  },
+  {
+    "question_id": "11e1ab81",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "d equals, one-half m",
+    "corrected_value": "$d = \\frac{1}{2}m$"
+  },
+  {
+    "question_id": "d62ad380",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. The relationship between <em>s</em> and <em>P</em> can be modeled by a linear equation of the form <em>P</em> = <em>ks</em> + <em>a</em>, where <em>k</em> and <em>a</em> are constants. The table shows that <em>P</em> increases by 10 when <em>s</em> increases by 3, so <em>k</em> = the fraction 10 over 3. To solve for <em>a</em>, substitute one of the given pairs of values for <em>s</em> and <em>P</em>: when <em>s</em> = 3, <em>P</em> = 8, so 8 equals, the fraction 10 over 3, end fraction, times 3, plus a, which yields <em>a</em> = –2. The solution is therefore P equals, the fraction 10 over 3, end fraction, times s minus 2.\nChoice A is incorrect. When <em>s</em> = 3, <em>P</em> = 8, but 3(3) + 10 = 19 ≠︀ 8. Choice B is incorrect. This may result from using the first number given for <em>P</em> in the table as the constant term <em>a </em>in the linear equation <em>P<em> = </em>ks<em> + </em>a, which is true only when <em>s</em> = 0. Choice D is incorrect and may result from using the reciprocal of the slope of the line.",
+    "corrected_value": "Choice C is correct. The relationship between <em>s</em> and <em>P</em> can be modeled by a linear equation of the form <em>P</em> = <em>ks</em> + <em>a</em>, where <em>k</em> and <em>a</em> are constants. The table shows that <em>P</em> increases by 10 when <em>s</em> increases by 3, so $k = \\frac{10}{3}$. To solve for <em>a</em>, substitute one of the given pairs of values for <em>s</em> and <em>P</em>: when <em>s</em> = 3, <em>P</em> = 8, so $8 = \\frac{10}{3} \\times 3 + a$, which yields <em>a</em> = –2. The solution is therefore $P = \\frac{10}{3}s - 2$.\nChoice A is incorrect. When <em>s</em> = 3, <em>P</em> = 8, but 3(3) + 10 = 19 ≠︀ 8. Choice B is incorrect. This may result from using the first number given for <em>P</em> in the table as the constant term <em>a </em>in the linear equation <em>P = ks + a, which is true only when <em>s</em> = 0. Choice D is incorrect and may result from using the reciprocal of the slope of the line."
+  },
+  {
+    "question_id": "868fc236",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. The relationship between <em>x</em> food calories and <em>k</em> kilojoules can be modeled as a proportional relationship. Let the ordered pair x sub 1 comma k sub 1 and the ordered pair x sub 2 comma k sub 2 represent the values in the first two rows in the table: the ordered pair 4 point 0 comma 16 point 7 and the ordered pair 9 point 0 comma 37 point 7. The rate of change, or the fraction with numerator, k sub 2 minus k sub 1, and denominator x sub 2 minus x sub 1, end fraction, is $21 / 5 = 4.2$ ; therefore, the equation that best represents the relationship between <em>x</em> and <em>k</em> is $k = 4.2x$.\nChoice A is incorrect and may be the result of calculating the rate of change using the fraction with numerator, x sub 2 minus x sub 1, and denominator k sub 2 minus k sub 1, end fraction. Choice C is incorrect because the number of kilojoules is greater than the number of food calories. Choice D is incorrect and may be the result of an error when setting up the equation.",
+    "corrected_value": "Choice B is correct. The relationship between <em>x</em> food calories and <em>k</em> kilojoules can be modeled as a proportional relationship. Let the ordered pair $(x_1, k_1)$ and the ordered pair $(x_2, k_2)$ represent the values in the first two rows in the table: the ordered pair $(4.0, 16.7)$ and the ordered pair $(9.0, 37.7)$. The rate of change, or $\\frac{k_2 - k_1}{x_2 - x_1}$, is $21 / 5 = 4.2$; therefore, the equation that best represents the relationship between <em>x</em> and <em>k</em> is $k = 4.2x$.\nChoice A is incorrect and may be the result of calculating the rate of change using $\\frac{x_2 - x_1}{k_2 - k_1}$. Choice C is incorrect because the number of kilojoules is greater than the number of food calories. Choice D is incorrect and may be the result of an error when setting up the equation."
+  },
+  {
+    "question_id": "e8f9e117",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 20. For the given circuit, the resistance <em>R</em> is 500 ohms, and the total potential difference <em>V</em> generated by <em>n</em> batteries is 6 n volts. It's also given that the circuit is to have a current of no more than 0.25 ampere, which can be expressed as I is less than 0 point 2 5. Since Ohm's law says that $i = v / r$, the given values for <em>V</em> and <em>R</em> can be substituted for <em>I</em> in this inequality, which yields 6 n over 500 is less than 0 point 2 5. Multiplying both sides of this inequality by 500 yields 6 n is less than 125, and dividing both sides of this inequality by 6 yields n is less than 20 point 8 3 3. Since the number of batteries must be a whole number less than 20.833, the greatest number of batteries that can be used in this circuit is 20.",
+    "corrected_value": "The correct answer is 20. For the given circuit, the resistance <em>R</em> is 500 ohms, and the total potential difference <em>V</em> generated by <em>n</em> batteries is 6n volts. It's also given that the circuit is to have a current of no more than 0.25 ampere, which can be expressed as $I \\le 0.25$. Since Ohm's law says that $i = v / r$, the given values for <em>V</em> and <em>R</em> can be substituted for <em>I</em> in this inequality, which yields $\\frac{6n}{500} < 0.25$. Multiplying both sides of this inequality by 500 yields $6n < 125$, and dividing both sides of this inequality by 6 yields $n < 20.833$. Since the number of batteries must be a whole number less than 20.833, the greatest number of batteries that can be used in this circuit is 20."
+  },
+  {
+    "question_id": "ee031767",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "b plus 35 g, equals 881, and, b plus g, equals 28",
+    "corrected_value": "$b + 35g = 881$ and $b + g = 28$"
+  },
+  {
+    "question_id": "ee031767",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "g plus 35 b, equals 28, and, b plus g, equals 881",
+    "corrected_value": "$g + 35b = 28$ and $b + g = 881$"
+  },
+  {
+    "question_id": "ee031767",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "g plus 35 b, equals 881, and, b plus g, equals 28",
+    "corrected_value": "$g + 35b = 881$ and $b + g = 28$"
+  },
+  {
+    "question_id": "0366d965",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 30. The slope of a line can be found by using the slope formula, the fraction with numerator y sub 2 minus y sub 1, and denominator x sub 2 minus x sub 1, end fraction. It's given that the slope of the line is 2; therefore, the fraction with numerator y sub 2 minus y sub 1, and denominator x sub 2 minus x sub 1, end fraction, equals 2. According to the table, the points with coordinates 3 comma 7 and with coordinates k comma 11 lie on the line. Substituting the coordinates of these points into the equation gives the fraction with numerator 11 minus 7, and denominator k minus 3, end fraction, equals 2. Multiplying both sides of this equation by $k - 3$ gives $11 - 7 = 2 \\times (k - 3)$, or $11 - 7 = 2k - 6$. Solving for <em>k</em> gives $k = 5$. According to the table, the points with coordinates 3 comma 7 and with coordinates 12 comma n also lie on the line. Substituting the coordinates of these points into the fraction with numerator y sub 2 minus y sub 1, and denominator x sub 2 minus x sub 1, end fraction, equals 2 gives the fraction with numerator n minus 7, and denominator 12 minus 3, end fraction, equals 2. Solving for <em>n</em> gives $n = 25$. Therefore, $k + n = 5 + 25$, or 30.",
+    "corrected_value": "The correct answer is 30. The slope of a line can be found by using the slope formula, $\\frac{y_2 - y_1}{x_2 - x_1}$. It's given that the slope of the line is 2; therefore, $\\frac{y_2 - y_1}{x_2 - x_1} = 2$. According to the table, the points with coordinates $(3, 7)$ and with coordinates $(k, 11)$ lie on the line. Substituting the coordinates of these points into the equation gives $\\frac{11 - 7}{k - 3} = 2$. Multiplying both sides of this equation by $k - 3$ gives $11 - 7 = 2 \\times (k - 3)$, or $11 - 7 = 2k - 6$. Solving for <em>k</em> gives $k = 5$. According to the table, the points with coordinates $(3, 7)$ and with coordinates $(12, n)$ also lie on the line. Substituting the coordinates of these points into $\\frac{y_2 - y_1}{x_2 - x_1} = 2$ gives $\\frac{n - 7}{12 - 3} = 2$. Solving for <em>n</em> gives $n = 25$. Therefore, $k + n = 5 + 25 = 30$."
+  },
+  {
+    "question_id": "963da34c",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice A is correct. If <em>x</em> is the width, in inches, of the box, then the length of the box is 2.5<em>x</em> inches. It follows that the perimeter of the base is $2 \\times (2.5x + x)$, or 7<em>x</em> inches. The height of the box is given to be 60 inches. According to the restriction, the sum of the perimeter of the base and the height of the box should not exceed 130 inches. Algebraically, this can be represented by 7 x plus 60, is less than or equal to 130, or 7 x is less than or equal to 70. Dividing both sides of the inequality by 7 gives x is less than or equal to 10. Since <em>x</em> represents the width of the box, <em>x</em> must also be a positive number. Therefore, the inequality 0 is less than x, which is less than or equal to 10 represents all the allowable values of <em>x</em> that satisfy the given conditions.\nChoices B, C, and D are incorrect and may result from calculation errors or misreading the given information.",
+    "reason": "Prose phrases like '7 x plus 60, is less than or equal to 130' are mixed with normal English describing restriction context. The subsequent arithmetic explanation with 'Dividing both sides' is standard mathematical explanation, not screen-reader markup. The LaTeX $2 \\times (2.5x + x)$ already renders properly."
+  },
+  {
+    "question_id": "de6fe450",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. It's given that the city's minimum hourly wage will increase by \\$0.50 on the first day of the year for the 5 years after January 1, 2015. Therefore, the total increase, in dollars, in the minimum hourly wage <em>x</em> years after January 1, 2015, is represented by $0.50x$. Since the minimum hourly wage on January 1, 2015, was \\$9.25, it follows that the minimum hourly wage, in dollars, <em>x</em> years after January 1, 2015, is represented by $9.25 + 0.50x$. Therefore, the function f of x equals, 9 point 2 5, plus 0 point 5 0 x best models this situation.\nChoices A, B, and D are incorrect. In choice A, the function models a situation where the minimum hourly wage is \\$9.25 on January 1, 2015, but decreases by \\$0.50 on the first day of the year for the next 5 years. The functions in choices B and D both model a situation where the minimum hourly wage is increasing by \\$9.25 on the first day of the year for the 5 years after January 1, 2015.",
+    "corrected_value": "Choice C is correct. It's given that the city's minimum hourly wage will increase by \\$0.50 on the first day of the year for the 5 years after January 1, 2015. Therefore, the total increase, in dollars, in the minimum hourly wage <em>x</em> years after January 1, 2015, is represented by $0.50x$. Since the minimum hourly wage on January 1, 2015, was \\$9.25, it follows that the minimum hourly wage, in dollars, <em>x</em> years after January 1, 2015, is represented by $9.25 + 0.50x$. Therefore, the function $f(x) = 9.25 + 0.50x$ best models this situation.\nChoices A, B, and D are incorrect. In choice A, the function models a situation where the minimum hourly wage is \\$9.25 on January 1, 2015, but decreases by \\$0.50 on the first day of the year for the next 5 years. The functions in choices B and D both model a situation where the minimum hourly wage is increasing by \\$9.25 on the first day of the year for the 5 years after January 1, 2015."
+  },
+  {
+    "question_id": "de6fe450",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, 9 point 2 5, minus 0 point 5 0 x",
+    "corrected_value": "$f(x) = 9.25 - 0.50x$"
+  },
+  {
+    "question_id": "de6fe450",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, 9 point 2 5 x, minus 0 point 5 0",
+    "corrected_value": "$f(x) = 9.25x - 0.50$"
+  },
+  {
+    "question_id": "de6fe450",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, 9 point 2 5, plus 0 point 5 0 x",
+    "corrected_value": "$f(x) = 9.25 + 0.50x$"
+  },
+  {
+    "question_id": "de6fe450",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, 9 point 2 5 x, plus 0 point 5 0",
+    "corrected_value": "$f(x) = 9.25x + 0.50$"
+  },
+  {
+    "question_id": "78391fcc",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. The equation of a linear function can be written in the form $y = m x + b$, where y equals f of x, <em>m</em> is the slope of the graph of y equals f of x, and <em>b</em> is the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph. The value of <em>m</em> can be found using the slope formula, m equals the fraction with numerator y sub 2 minus y sub 1, and denominator x sub 2 minus x sub 1, end fraction. According to the table, the points with coordinates negative 11 comma 21 and with coordinates negative 10 comma 18 lie on the graph of y equals f of x. Using these two points in the slope formula yields m equals the fraction with numerator 18 minus 21, and denominator negative 10 plus 11, end fraction, or $- 3$. Substituting $- 3$ for <em>m</em> in the slope-intercept form of the equation yields $y = - 3x + b$. The value of <em>b</em> can be found by substituting values from the table and solving; for example, substituting the coordinates of the point with coordinates negative 11 comma 21 into the equation $y = - 3x + b$ gives $21 = - 3 \\times - 11 + b$, which yields $b = - 12$. This means the function given by the table can be represented by the equation $y = - 3x - 12$. The value of the <em>x</em>-intercept of the graph of y equals f of x can be determined by finding the value of <em>x</em> when $y = 0$. Substituting $y = 0$ into $y = - 3x - 12$ yields $0 = - 3x - 12$, or $x = - 4$. This corresponds to the point with coordinates negative 4 comma 0.\nChoice A is incorrect and may result from substituting the value of the slope for the <em>x</em>-coordinate of the <em>x</em>-intercept. Choice C is incorrect and may result from a calculation error. Choice D is incorrect and may result from substituting the <em>y</em>-coordinate of the <em>y</em>-intercept for the <em>x</em>-coordinate of the <em>x</em>-intercept.",
+    "corrected_value": "Choice B is correct. The equation of a linear function can be written in the form $y = mx + b$, where $y = f(x)$, <em>m</em> is the slope of the graph of $y = f(x)$, and <em>b</em> is the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph. The value of <em>m</em> can be found using the slope formula, $m = \\frac{y_2 - y_1}{x_2 - x_1}$. According to the table, the points with coordinates $(-11, 21)$ and with coordinates $(-10, 18)$ lie on the graph of $y = f(x)$. Using these two points in the slope formula yields $m = \\frac{18 - 21}{-10 + 11} = \\frac{-3}{1} = -3$. Substituting $-3$ for <em>m</em> in the slope-intercept form of the equation yields $y = -3x + b$. The value of <em>b</em> can be found by substituting values from the table and solving; for example, substituting the coordinates of the point $(-11, 21)$ into the equation $y = -3x + b$ gives $21 = -3 \\times (-11) + b$, which yields $b = -12$. This means the function given by the table can be represented by the equation $y = -3x - 12$. The value of the <em>x</em>-intercept of the graph of $y = f(x)$ can be determined by finding the value of <em>x</em> when $y = 0$. Substituting $y = 0$ into $y = -3x - 12$ yields $0 = -3x - 12$, or $x = -4$. This corresponds to the point with coordinates $(-4, 0)$.\nChoice A is incorrect and may result from substituting the value of the slope for the <em>x</em>-coordinate of the <em>x</em>-intercept. Choice C is incorrect and may result from a calculation error. Choice D is incorrect and may result from substituting the <em>y</em>-coordinate of the <em>y</em>-intercept for the <em>x</em>-coordinate of the <em>x</em>-intercept."
+  },
+  {
+    "question_id": "b8e73b5b",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice C is correct. Ken earned \\$8 per hour for the first 10 hours he worked, so he earned a total of \\$80 for the first 10 hours he worked. For the rest of the week, Ken was paid at the rate of \\$10 per hour. Let <em>x</em> be the number of hours he will work for the rest of the week. The total of Ken's earnings, in dollars, for the week will be $10x + 80$. He saves 90% of his earnings each week, so this week he will save $0.9 \\times (10x + 80)$ dollars. The inequality 0 point 9 times, open parenthesis, 10 x plus 80, close parenthesis, is greater than or equal to 270 represents the condition that he will save at least \\$270 for the week. Factoring 10 out of the expression $10x + 80$ gives $10 \\times (x + 8)$. The product of 10 and 0.9 is 9, so the inequality can be rewritten as 9 times, open parenthesis, x plus 8, close parenthesis, is greater than or equal to 270. Dividing both sides of this inequality by 9 yields x plus 8, is greater than or equal to 30, so x is greater than or equal to 22. Therefore, the least number of hours Ken must work the rest of the week to save at least \\$270 for the week is 22.\nChoices A and B are incorrect because Ken can save \\$270 by working fewer hours than 38 or 33 for the rest of the week. Choice D is incorrect. If Ken worked 16 hours for the rest of the week, his total earnings for the week will be 80 dollars plus 160 dollars, equals 240 dollars, which is less than \\$270. Since he saves only 90% of his earnings each week, he would save even less than \\$240 for the week.",
+    "corrected_value": "Choice C is correct. Ken earned \\$8 per hour for the first 10 hours he worked, so he earned a total of \\$80 for the first 10 hours he worked. For the rest of the week, Ken was paid at the rate of \\$10 per hour. Let <em>x</em> be the number of hours he will work for the rest of the week. The total of Ken's earnings, in dollars, for the week will be $10x + 80$. He saves 90% of his earnings each week, so this week he will save $0.9 \\times (10x + 80)$ dollars. The inequality $0.9(10x + 80) \\ge 270$ represents the condition that he will save at least \\$270 for the week. Factoring 10 out of the expression $10x + 80$ gives $10(x + 8)$. The product of 10 and 0.9 is 9, so the inequality can be rewritten as $9(x + 8) \\ge 270$. Dividing both sides of this inequality by 9 yields $x + 8 \\ge 30$, so $x \\ge 22$. Therefore, the least number of hours Ken must work the rest of the week to save at least \\$270 for the week is 22.\nChoices A and B are incorrect because Ken can save \\$270 by working fewer hours than 38 or 33 for the rest of the week. Choice D is incorrect. If Ken worked 16 hours for the rest of the week, his total earnings for the week will be $80 + 160 = 240$ dollars, which is less than \\$270. Since he saves only 90% of his earnings each week, he would save even less than \\$240 for the week."
+  },
+  {
+    "question_id": "830120b0",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. Subtracting the same number from each side of an inequality gives an equivalent inequality. Hence, subtracting 1 from each side of the inequality 2 x is greater than 5 gives 2 x minus 1, is greater than 4. So the given system of inequalities is equivalent to the system of inequalities y is greater than, 2 x minus 1 and 2 x minus 1, is greater than 4, which can be rewritten as y is greater than, 2 x minus 1, which is greater than 4. Using the transitive property of inequalities, it follows that y is greater than 4.\nChoice A is incorrect because there are points with a <em>y</em>-coordinate less than 6 that satisfy the given system of inequalities. For example, the point with coordinates 3 comma 5 point 5 satisfies both inequalities. Choice C is incorrect. This may result from solving the inequality 2 x is greater than 5 for <em>x</em>, then replacing <em>x</em> with <em>y</em>. Choice D is incorrect because this inequality allows <em>y</em>-values that are not the <em>y</em>-coordinate of any point that satisfies both inequalities. For example, $y = 2$ is contained in the set y is greater than three halves ; however, if 2 is substituted into the first inequality for <em>y</em>, the result is x is less than three halves. This cannot be true because the second inequality gives x is greater than five halves.",
+    "corrected_value": "Choice B is correct. Subtracting the same number from each side of an inequality gives an equivalent inequality. Hence, subtracting 1 from each side of the inequality $2x > 5$ gives $2x - 1 > 4$. So the given system of inequalities is equivalent to the system of inequalities $y > 2x - 1$ and $2x - 1 > 4$, which can be rewritten as $y > 2x - 1 > 4$. Using the transitive property of inequalities, it follows that $y > 4$.\nChoice A is incorrect because there are points with a <em>y</em>-coordinate less than 6 that satisfy the given system of inequalities. For example, the point with coordinates $(3, 5.5)$ satisfies both inequalities. Choice C is incorrect. This may result from solving the inequality $2x > 5$ for <em>x</em>, then replacing <em>x</em> with <em>y</em>. Choice D is incorrect because this inequality allows <em>y</em>-values that are not the <em>y</em>-coordinate of any point that satisfies both inequalities. For example, $y = 2$ is contained in the set $y > \\frac{3}{2}$; however, if 2 is substituted into the first inequality for <em>y</em>, the result is $x < \\frac{3}{2}$. This cannot be true because the second inequality gives $x > \\frac{5}{2}$."
+  },
+  {
+    "question_id": "e744499e",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "x plus y, is greater than or equal to 20, and, 3 x plus 4 y, is less than or equal to 80",
+    "corrected_value": "$x + y \\ge 20$ and $3x + 4y \\le 80$"
+  },
+  {
+    "question_id": "e744499e",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "x plus y, is greater than or equal to 20, and, 3 x plus 4 y, is greater than or equal to 80",
+    "corrected_value": "$x + y \\ge 20$ and $3x + 4y \\ge 80$"
+  },
+  {
+    "question_id": "e744499e",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "x plus 4 y, is less than or equal to 20, and, x plus y, is greater than or equal to 80",
+    "corrected_value": "$x + 4y \\le 20$ and $x + y \\ge 80$"
+  },
+  {
+    "question_id": "e744499e",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "x plus y, is less than or equal to 20, and, 3 x plus 4 y, is greater than or equal to 80",
+    "corrected_value": "$x + y \\le 20$ and $3x + 4y \\ge 80$"
+  },
+  {
+    "question_id": "2704399f",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Equation 1: y equals three halves. Equation 2: x equals 0",
+    "corrected_value": "$y = \\frac{3}{2}$ and $x = 0$"
+  },
+  {
+    "question_id": "2704399f",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Equation 1: y equals 0. Equation 2: x equals 1",
+    "corrected_value": "$y = 0$ and $x = 1$"
+  },
+  {
+    "question_id": "2704399f",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Equation 1: y equals 1. Equation 2: x equals 0",
+    "corrected_value": "$y = 1$ and $x = 0$"
+  },
+  {
+    "question_id": "023c0a8d",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. It's given that f of 3 x, equals x minus 6 for all values of <em>x</em>. If $3x = 6$, then f of 3 x will equal f of 6. Dividing both sides of $3x = 6$ by 3 gives $x = 2$. Therefore, substituting 2 for <em>x</em> in the given equation yields f of, open parenthesis, 3 times 2, close parenthesis, equals 2 minus 6, which can be rewritten as f of 6, equals negative 4.\nChoice A is incorrect. This is the value of the constant in the given equation for <em>f</em>. Choice C is incorrect and may result from substituting $x = 6$, rather than $x = 2$, into the given equation. Choice D is incorrect. This is the value of <em>x</em> that yields f of 6 for the left-hand side of the given equation; it's not the value of f of 6.",
+    "corrected_value": "Choice B is correct. It's given that $f(3x) = x - 6$ for all values of <em>x</em>. If $3x = 6$, then $f(3x) = f(6)$. Dividing both sides of $3x = 6$ by 3 gives $x = 2$. Therefore, substituting 2 for <em>x</em> in the given equation yields $f(3 \\times 2) = 2 - 6$, which can be rewritten as $f(6) = -4$.\nChoice A is incorrect. This is the value of the constant in the given equation for <em>f</em>. Choice C is incorrect and may result from substituting $x = 6$, rather than $x = 2$, into the given equation. Choice D is incorrect. This is the value of <em>x</em> that yields $f(6)$ for the left-hand side of the given equation; it's not the value of $f(6)$."
+  },
+  {
+    "question_id": "90bd9ef8",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "25,000 is greater than, open parenthesis, 4,334 minus 2,712, close parenthesis, times t",
+    "corrected_value": "$25,000 > (4,334 - 2,712) \\times t$"
+  },
+  {
+    "question_id": "90bd9ef8",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "25,000 is less than, open parenthesis, 4,334 minus 2,712, close parenthesis, times t",
+    "corrected_value": "$25,000 < (4,334 - 2,712) \\times t$"
+  },
+  {
+    "question_id": "90bd9ef8",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "25,000 minus 4,334, is greater than 2,712 t",
+    "corrected_value": "$25,000 - 4,334 > 2,712t$"
+  },
+  {
+    "question_id": "46f68129",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice B is correct. Subtracting the number of books left over from the total number of books results in $43 - 7 = 36$, which is the number of books distributed. Dividing the number of books distributed by the number of books given to each child results in the fraction 36 over 2, equals 18.\nChoice A is incorrect and results from dividing the total number of books by the number of books given to each child, the fraction 43 over 2, is approximately equal to 22, then subtracting the number of books left over from the result, $22 - 7 = 15$. Choice C is incorrect and results from adding the number of books left over to the total number of books, $43 + 7 = 50$, then dividing the result by the number of books given to each child, the fraction 50 over 2, equals 25. Choice D is incorrect and results from dividing the total number of books by the number of books given to each child, the fraction 43 over 2, is approximately equal to 22, then adding the number of books left over, $22 + 7 = 29$.",
+    "reason": "Mixed prose and LaTeX descriptions of arithmetic operations. Phrases like 'the fraction 36 over 2, equals 18' describe a mathematical computation in English; overall context is explanatory narrative about an arithmetic error, not screen-reader-spelled math needing conversion."
+  },
+  {
+    "question_id": "2eef7e61",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "The graph of the function <em>f</em> is a line in the <em>xy</em>-plane. If the line has slope three-fourths and $f(0)$, equals 3, which of the following defines <em>f</em>?",
+    "reason": "Phrase 'three-fourths' is normal English prose (ordinal/fractional name), not screen-reader math. Already has proper LaTeX $f(0)$."
+  },
+  {
+    "question_id": "2eef7e61",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "Choice B is correct. The equation for the function <em>f</em> in the <em>xy</em>-plane can be represented by f of x equals, m x plus b, where <em>m</em> is the slope and <em>b</em> is the <em>y</em>-coordinate of the <em>y</em>-intercept. Since it's given that the line has a slope of $\\frac{3}{4}$, it follows that $m = \\frac{3}{4}$ in f of x equals, m x plus b, which yields $y = \\frac{3}{4} x + b$. It's given that f of 0 equals 3. This implies that the graph of the function <em>f</em> in the <em>xy</em>-plane passes through the point with coordinates 0 comma 3. Thus, the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph is 3, so $b = 3$ in f of x equals, three fourths x, plus b, which yields f of x equals, three fourths x, plus 3. Therefore, the equation f of x equals, three fourths x, plus 3 defines the function <em>f. </em>\nChoice A is incorrect and may result from a sign error for the <em>y</em>-intercept. Choice C is incorrect and may result from using the denominator of the given slope as <em>m</em> in f of x equals, m x plus b, in addition to a sign error for the <em>y</em>-intercept. Choice D is incorrect and may result from using the denominator of the given slope as <em>m</em> in f of x equals, m x plus b.",
+    "corrected_value": "Choice B is correct. The equation for the function <em>f</em> in the <em>xy</em>-plane can be represented by $f(x) = mx + b$, where <em>m</em> is the slope and <em>b</em> is the <em>y</em>-coordinate of the <em>y</em>-intercept. Since it's given that the line has a slope of $\\frac{3}{4}$, it follows that $m = \\frac{3}{4}$ in $f(x) = mx + b$, which yields $y = \\frac{3}{4}x + b$. It's given that $f(0) = 3$. This implies that the graph of the function <em>f</em> in the <em>xy</em>-plane passes through the point with coordinates $(0, 3)$. Thus, the <em>y</em>-coordinate of the <em>y</em>-intercept of the graph is 3, so $b = 3$ in $f(x) = \\frac{3}{4}x + b$, which yields $f(x) = \\frac{3}{4}x + 3$. Therefore, the equation $f(x) = \\frac{3}{4}x + 3$ defines the function <em>f</em>.\nChoice A is incorrect and may result from a sign error for the <em>y</em>-intercept. Choice C is incorrect and may result from using the denominator of the given slope as <em>m</em> in $f(x) = mx + b$ in addition to a sign error for the <em>y</em>-intercept. Choice D is incorrect and may result from using the denominator of the given slope as <em>m</em> in $f(x) = mx + b$."
+  },
+  {
+    "question_id": "2eef7e61",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, three fourths x, minus 3",
+    "corrected_value": "$f(x) = \\frac{3}{4}x - 3$"
+  },
+  {
+    "question_id": "2eef7e61",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, three fourths x, plus 3",
+    "corrected_value": "$f(x) = \\frac{3}{4}x + 3$"
+  },
+  {
+    "question_id": "2eef7e61",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, 4 x, minus 3",
+    "corrected_value": "$f(x) = 4x - 3$"
+  },
+  {
+    "question_id": "2eef7e61",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f of x equals, 4 x, plus 3",
+    "corrected_value": "$f(x) = 4x + 3$"
+  },
+  {
+    "question_id": "8da536c6",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is correct. It's given that in $2010$, a swim club had a total of $35$ swimmers, each classified as either advanced or intermediate, and that $a$ represents the number of advanced swimmers in $2010$ and $b$ represents the number of intermediate swimmers in $2010$. It's also given that from $2010$ to $2020$, the number of advanced swimmers in the club increased by approximately $53%$ and the number of intermediate swimmers in the club increased by approximately $44%$. Thus, in $2020$, the approximate number of advanced swimmers in the club can be represented as $1.53a$ and the approximate number of intermediate swimmers in the club can be represented as $1.44b$. It's given that the total number of swimmers in the club increased by approximately $49%$ from $2010$ to $2020$. Since the club had $35$ swimmers in $2010$, it follows that the total number of swimmers in $2020$ can be represented as $35(1.49)$. Since the sum of the number of advanced swimmers in $2020$ and the number of intermediate swimmers in $2020$ equals the total number of swimmers in $2020$, the equation $1.53a+1.44b=35(1.49)$ best represents this situation.\nChoice A is incorrect. This equation represents a situation where the number of intermediate swimmers in the club in $2020$ increased by approximately $49%$, not $44%$, and the total number of swimmers in the club in $2020$ increased by approximately $44%$, not $49%$.\nChoice B is incorrect and may result from conceptual errors.\nChoice D is incorrect. This equation represents a situation where the number of advanced swimmers in the club in $2020$ increased by approximately $44%$, not $53%$, and the number of intermediate swimmers in the club in $2020$ increased by approximately $53%$, not $44%$.",
+    "reason": "All math is already properly LaTeX-formatted ($2010$, $35$, $53%$, $44%$, etc.). No screen-reader markup detected."
+  },
+  {
+    "question_id": "b544a348",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 7. Subtracting the second equation from the first equation eliminates the variable <em>y</em>.\nEquation 1, 5 x, plus 3 y, equals 38; Equation 2, x plus 3 y, equals 10; Subtracting equation 2 from equation 1 yields equation 3, which is 4 x, equals 28.\nDividing both sides of the resulting equation by 4 yields <em>x</em> = 7.",
+    "corrected_value": "The correct answer is 7. Subtracting the second equation from the first equation eliminates the variable <em>y</em>.\nEquation 1: $5x + 3y = 38$; Equation 2: $x + 3y = 10$; Subtracting equation 2 from equation 1 yields equation 3: $4x = 28$.\nDividing both sides of the resulting equation by 4 yields $x = 7$."
+  },
+  {
+    "question_id": "b75f7812",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The correct answer is 4. The equation 60 h plus 10, is less than or equal to 280, where <em>h</em> is the number of hours the boat has been rented, can be written to represent the situation. Subtracting 10 from both sides and then dividing by 60 yields h is less than or equal to 4 point 5. Since the boat can be rented only for whole numbers of hours, the maximum number of hours for which Maria can rent the boat is 4.",
+    "corrected_value": "The correct answer is 4. The equation $60h + 10 \\le 280$, where <em>h</em> is the number of hours the boat has been rented, can be written to represent the situation. Subtracting 10 from both sides and then dividing by 60 yields $h \\le 4.5$. Since the boat can be rented only for whole numbers of hours, the maximum number of hours for which Maria can rent the boat is 4."
+  },
+  {
+    "question_id": "eafdbbbd",
+    "field": "rationale",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": false,
+    "original_value": "Choice C is correct. For the given equation, $\\left(x+5\\right)$ is a factor of both terms on the left-hand side. Therefore, the given equation can be rewritten as $\\left(\\frac{1}{4}-\\frac{1}{3}\\right)\\left(x+5\\right)=-7$, or $\\left(\\frac{3}{12}-\\frac{4}{12}\\right)\\left(x+5\\right)=-7$, which is equivalent to $-\\frac{1}{12}\\left(x+5\\right)=-7$. Multiplying both sides of this equation by $-12$ yields $x+5=84$. Subtracting $5$ from both sides of this equation yields $x=79$.\nChoice A is incorrect. This is the value of $x$ for which the left-hand side of the given equation equals $\\frac{7}{12}$, not $-7$.\nChoice B is incorrect. This is the value of $x$ for which the left-hand side of the given equation equals $0$, not $-7$.\nChoice D is incorrect. This is the value of $x$ for which the left-hand side of the given equation equals $-\\frac{209}{12}$, not $-7$.",
+    "reason": "All math is already properly LaTeX-formatted. No screen-reader markup."
+  },
+  {
+    "question_id": "7d89376f",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "open brace, x plus y equals 120, and, 90 x plus 250 y equals 27,600",
+    "corrected_value": "$\\begin{cases} x + y = 120 \\\\ 90x + 250y = 27,600 \\end{cases}$"
+  },
+  {
+    "question_id": "7d89376f",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "open brace, x plus y equals 120, and, 90 x plus 250 y equals 120 times 27,600",
+    "corrected_value": "$\\begin{cases} x + y = 120 \\\\ 90x + 250y = 120 \\times 27,600 \\end{cases}$"
+  },
+  {
+    "question_id": "7d89376f",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "open brace, x plus y equals 27,600, and, 90 x plus 250 y equals 120 times 27,600",
+    "corrected_value": "$\\begin{cases} x + y = 27,600 \\\\ 90x + 250y = 120 \\times 27,600 \\end{cases}$"
+  },
+  {
+    "question_id": "7d89376f",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "open brace, 90 x equals 250 y, and, 120 x plus 120 y equals 27,600",
+    "corrected_value": "$\\begin{cases} 90x = 250y \\\\ 120x + 120y = 27,600 \\end{cases}$"
+  },
+  {
+    "question_id": "17f176ec",
+    "field": "choices[A].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f plus r, equals 2,145, and, 11 f plus 8 point 2 5 r, equals 214",
+    "corrected_value": "$f + r = 2,145$ and $11f + 8.25r = 214$"
+  },
+  {
+    "question_id": "17f176ec",
+    "field": "choices[B].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f plus r, equals 214, and, 11 f plus 8 point 2 5 r, equals 2,145",
+    "corrected_value": "$f + r = 214$ and $11f + 8.25r = 2,145$"
+  },
+  {
+    "question_id": "17f176ec",
+    "field": "choices[C].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f plus r, equals 214, and, 8 point 2 5 f plus 11 r, equals 2,145",
+    "corrected_value": "$f + r = 214$ and $8.25f + 11r = 2,145$"
+  },
+  {
+    "question_id": "17f176ec",
+    "field": "choices[D].text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "f plus r, equals 2,145, and, 8 point 2 5 f plus 11 r, equals 214",
+    "corrected_value": "$f + r = 2,145$ and $8.25f + 11r = 214$"
+  },
+  {
+    "question_id": "8a6de407",
+    "field": "text",
+    "file": "src/data/unofficialQuestions.ts",
+    "needs_fix": true,
+    "original_value": "The function <em>f</em> is defined by f of x equals, m x plus b, where <em>m</em> and <em>b</em> are constants. If $f(0)$ equals 18 and $f(1)$ equals 20, what is the value of <em>m</em>?",
+    "corrected_value": "The function <em>f</em> is defined by $f(x) = mx + b$, where <em>m</em> and <em>b</em> are constants. If $f(0) = 18$ and $f(1) = 20$, what is the value of <em>m</em>?"
+  }
+]

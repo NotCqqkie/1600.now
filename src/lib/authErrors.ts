@@ -44,6 +44,10 @@ export function describeAuthError(error: unknown, mode: "signin" | "signup"): Fr
       return { title: "Use a different sign-in method", description: "An account with this email exists with a different sign-in method (e.g., Google). Try that instead." };
     case "auth/operation-not-allowed":
       return { title: "Sign-in method disabled", description: "This sign-in method isn't enabled for this app." };
+    case "auth/unauthorized-domain":
+      return { title: "Domain not authorized", description: "Open the app on localhost or the production domain configured in Firebase Authentication." };
+    case "auth/missing-initial-state":
+      return { title: "Google sign-in couldn't finish", description: "The OAuth return state was blocked by the browser. Try again on the app's main domain." };
     case "auth/requires-recent-login":
       return { title: "Please sign in again", description: "For security, sign in again before continuing." };
     default:

@@ -166,7 +166,7 @@
     "difficulty": "Easy",
     "question_number": 6,
     "test_name": "March 2025 International Form A SAT Math Module 2",
-    "passage": "For $x>0$, the function $f$ is defined as follows:\n$f(x)$ equals $293\\%$ of $x$\nWhich of the following could describe this function?",
+    "passage": "For $x>0$, the function $f$ is defined as follows:\n$f(x) = 2.93x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {

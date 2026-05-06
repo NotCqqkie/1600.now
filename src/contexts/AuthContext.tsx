@@ -1,5 +1,5 @@
 
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
 import type { Auth, User as FirebaseUser } from "firebase/auth";
 import { identifyUser, trackLogin, trackSignUp } from "@/lib/analytics";
 
@@ -24,6 +24,8 @@ interface AuthContextType {
   resendVerificationEmail: () => Promise<void>;
   reloadUser: () => Promise<boolean>;
   sendPasswordReset: (email: string) => Promise<void>;
+  redirectError: unknown;
+  clearRedirectError: () => void;
 }
 
 const AuthContext = createContext<AuthContextType>({
@@ -37,6 +39,8 @@ const AuthContext = createContext<AuthContextType>({
   resendVerificationEmail: async () => {},
   reloadUser: async () => false,
   sendPasswordReset: async () => {},
+  redirectError: null,
+  clearRedirectError: () => {},
 });
 
 export const useAuth = () => useContext(AuthContext);
@@ -83,10 +87,45 @@ const toAppUser = (firebaseUser: FirebaseUser | null): AppUser | null => {
   };
 };
 
+const GOOGLE_SIGN_IN_PENDING_PARAM = "googleSignIn";
+
+const getLocalhostAuthUrl = (): string | null => {
+  if (!import.meta.env.DEV || typeof window === "undefined") return null;
+  if (window.location.hostname !== "127.0.0.1") return null;
+  const url = new URL(window.location.href);
+  url.hostname = "localhost";
+  url.searchParams.set(GOOGLE_SIGN_IN_PENDING_PARAM, "1");
+  return url.toString();
+};
+
+const consumePendingGoogleSignIn = (): boolean => {
+  if (typeof window === "undefined") return false;
+  const url = new URL(window.location.href);
+  if (url.searchParams.get(GOOGLE_SIGN_IN_PENDING_PARAM) !== "1") return false;
+  url.searchParams.delete(GOOGLE_SIGN_IN_PENDING_PARAM);
+  window.history.replaceState(window.history.state, document.title, `${url.pathname}${url.search}${url.hash}`);
+  return true;
+};
+
+const createGoogleProvider = (authModule: typeof import("firebase/auth")) => {
+  const provider = new authModule.GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: "select_account" });
+  return provider;
+};
+
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [session, setSession] = useState<AppUser | null>(null);
   const [user, setUser] = useState<AppUser | null>(null);
   const [loading, setLoading] = useState(true);
+  const [redirectError, setRedirectError] = useState<unknown>(null);
+  const clearRedirectError = useCallback(() => setRedirectError(null), []);
+  const applyFirebaseUser = useCallback((firebaseUser: FirebaseUser | null) => {
+    const appUser = toAppUser(firebaseUser);
+    setSession(appUser);
+    setUser(appUser);
+    setLoading(false);
+    void identifyUser(appUser?.uid ?? null);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -100,6 +139,15 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       if (!auth) {
         setLoading(false);
         return;
+      }
+
+      if (consumePendingGoogleSignIn()) {
+        try {
+          await authModule.signInWithRedirect(auth, createGoogleProvider(authModule));
+          return;
+        } catch (error: unknown) {
+          setRedirectError(error);
+        }
       }
 
       // Process any pending redirect result (from signInWithRedirect flow).
@@ -117,16 +165,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           // No redirect pending — common, ignore.
           if (code === "auth/no-auth-event") return;
           console.error("Redirect sign-in failed:", error);
+          setRedirectError(error);
         });
 
       unsubscribe = authModule.onAuthStateChanged(auth, (firebaseUser) => {
         if (cancelled) return;
-
-        const appUser = toAppUser(firebaseUser);
-        setSession(appUser);
-        setUser(appUser);
-        setLoading(false);
-        void identifyUser(appUser?.uid ?? null);
+        applyFirebaseUser(firebaseUser);
       });
     };
 
@@ -149,12 +193,13 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         window.clearTimeout(idleCallback as number);
       }
     };
-  }, []);
+  }, [applyFirebaseUser]);
 
   const signInWithEmailPassword = async (email: string, password: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
-    await authModule.signInWithEmailAndPassword(auth, email, password);
+    const result = await authModule.signInWithEmailAndPassword(auth, email, password);
+    applyFirebaseUser(result.user);
     trackLogin("password");
   };
 
@@ -162,12 +207,10 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
     const result = await authModule.createUserWithEmailAndPassword(auth, email, password);
+    applyFirebaseUser(result.user);
     trackSignUp("password");
     try {
-      await authModule.sendEmailVerification(result.user, {
-        url: `${window.location.origin}/login?verified=1`,
-        handleCodeInApp: false,
-      });
+      await authModule.sendEmailVerification(result.user);
     } catch {
       // Don't block signup if the verification email fails to send;
       // the user can resend from the verify-email screen.
@@ -179,10 +222,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
     if (!auth.currentUser) throw new Error("You must be signed in to resend the verification email.");
-    await authModule.sendEmailVerification(auth.currentUser, {
-      url: `${window.location.origin}/login?verified=1`,
-      handleCodeInApp: false,
-    });
+    await authModule.sendEmailVerification(auth.currentUser);
   };
 
   const reloadUser = async () => {
@@ -199,27 +239,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
 
-    const provider = new authModule.GoogleAuthProvider();
-    provider.setCustomParameters({ prompt: "select_account" });
-
-    try {
-      const result = await authModule.signInWithPopup(auth, provider);
-      const info = authModule.getAdditionalUserInfo(result);
-      if (info?.isNewUser) trackSignUp("google");
-      else trackLogin("google");
-    } catch (error) {
-      const code = (error as { code?: string })?.code;
-      if (
-        code === "auth/popup-blocked" ||
-        code === "auth/cancelled-popup-request" ||
-        code === "auth/operation-not-supported-in-this-environment"
-      ) {
-        await authModule.signInWithRedirect(auth, provider);
-        return;
-      }
-
-      throw error;
+    const localhostAuthUrl = getLocalhostAuthUrl();
+    if (localhostAuthUrl) {
+      window.location.assign(localhostAuthUrl);
+      return;
     }
+
+    // Use redirect rather than popup. Popup auth fails silently when modern
+    // browsers block third-party cookies / COOP isolates the popup window —
+    // signInWithPopup never resolves and the user is stuck on /login with no
+    // error. Redirect navigates the whole window and is reliable.
+    await authModule.signInWithRedirect(auth, createGoogleProvider(authModule));
   };
 
   const signOut = async () => {
@@ -231,10 +261,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const sendPasswordReset = async (email: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
-    await authModule.sendPasswordResetEmail(auth, email, {
-      url: `${window.location.origin}/login`,
-      handleCodeInApp: false,
-    });
+    await authModule.sendPasswordResetEmail(auth, email);
   };
 
   return (
@@ -250,6 +277,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         resendVerificationEmail,
         reloadUser,
         sendPasswordReset,
+        redirectError,
+        clearRedirectError,
       }}
     >
       {children}

@@ -33,7 +33,7 @@ const Login = () => {
   const [resetOpen, setResetOpen] = useState(false);
   const [resetEmail, setResetEmail] = useState("");
   const [resetSubmitting, setResetSubmitting] = useState(false);
-  const { signInWithGoogle, signInWithEmailPassword, sendPasswordReset, user, loading: authLoading } = useAuth();
+  const { signInWithGoogle, signInWithEmailPassword, sendPasswordReset, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
@@ -42,6 +42,13 @@ const Login = () => {
     if (!user.emailVerified) navigate("/verify-email", { replace: true });
     else navigate(getAuthReturnTo(), { replace: true });
   }, [user, authLoading, navigate]);
+
+  useEffect(() => {
+    if (!redirectError) return;
+    const friendly = describeAuthError(redirectError, "signin");
+    toast({ variant: "destructive", title: friendly.title, description: friendly.description });
+    clearRedirectError();
+  }, [redirectError, toast, clearRedirectError]);
 
   // Both handlers leave navigation to the user-change useEffect above.
   // That effect routes verified users to the saved return path and

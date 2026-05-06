@@ -174,6 +174,133 @@ const btnPrimary: CSSProperties = {
 };
 
 /* ═══════════════════════════════════════════════
+   Set picker (tier × number grid)
+   ═══════════════════════════════════════════════ */
+
+const TIER_ORDER = ["Foundational", "Intermediate", "Advanced", "Expert"] as const;
+
+function SetPicker({
+  setOptions,
+  activeSetId,
+  onPick,
+}: {
+  setOptions: { id: string; name: string }[];
+  activeSetId: string;
+  onPick: (id: string) => void;
+}) {
+  const groups = new Map<string, { id: string; num: string; raw: string }[]>();
+  const ungrouped: { id: string; name: string }[] = [];
+  for (const s of setOptions) {
+    const m = s.name.match(/^(.+?)\s+(\S+)$/);
+    if (m && (TIER_ORDER as readonly string[]).includes(m[1])) {
+      const arr = groups.get(m[1]) ?? [];
+      arr.push({ id: s.id, num: m[2], raw: s.name });
+      groups.set(m[1], arr);
+    } else {
+      ungrouped.push(s);
+    }
+  }
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: "calc(100% + 6px)",
+        right: 0,
+        background: cardBg,
+        border: `1px solid ${borderC}`,
+        borderRadius: 12,
+        boxShadow: "0 12px 32px -16px rgba(15,23,42,.25)",
+        padding: 12,
+        zIndex: 20,
+        display: "flex",
+        flexDirection: "column",
+        gap: 10,
+        width: "max-content",
+      }}
+    >
+      {TIER_ORDER.filter(t => groups.has(t)).map(tier => {
+        const items = groups.get(tier)!;
+        return (
+          <div key={tier} style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div
+              style={{
+                fontSize: 11,
+                fontWeight: 600,
+                letterSpacing: ".04em",
+                textTransform: "uppercase",
+                color: muted,
+                width: 92,
+                flexShrink: 0,
+              }}
+            >
+              {tier}
+            </div>
+            <div style={{ display: "flex", gap: 4 }}>
+              {items.map(it => {
+                const on = it.id === activeSetId;
+                return (
+                  <button
+                    key={it.id}
+                    onClick={() => onPick(it.id)}
+                    title={it.raw}
+                    style={{
+                      width: 30,
+                      height: 30,
+                      borderRadius: 7,
+                      border: `1px solid ${on ? fg : borderC}`,
+                      background: on ? fg : "transparent",
+                      color: on ? "hsl(var(--background))" : fg,
+                      cursor: "pointer",
+                      fontFamily: "inherit",
+                      fontSize: 13,
+                      fontWeight: on ? 600 : 500,
+                      padding: 0,
+                      transition: "all .15s",
+                    }}
+                  >
+                    {it.num}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
+      {ungrouped.length > 0 && (
+        <div style={{ display: "flex", flexDirection: "column", gap: 2, paddingTop: 6, borderTop: `1px solid ${borderC}` }}>
+          {ungrouped.map(s => {
+            const on = s.id === activeSetId;
+            return (
+              <button
+                key={s.id}
+                onClick={() => onPick(s.id)}
+                style={{
+                  display: "block",
+                  width: "100%",
+                  textAlign: "left",
+                  padding: "8px 10px",
+                  borderRadius: 6,
+                  border: "none",
+                  background: on ? surface : "transparent",
+                  color: fg,
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  fontSize: 13,
+                  fontWeight: on ? 600 : 500,
+                }}
+              >
+                {s.name}
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════
    Header
    ═══════════════════════════════════════════════ */
 
@@ -251,49 +378,14 @@ function Header({
             Change set
           </button>
           {open && (
-            <div
-              style={{
-                position: "absolute",
-                top: "calc(100% + 6px)",
-                right: 0,
-                background: cardBg,
-                border: `1px solid ${borderC}`,
-                borderRadius: 10,
-                boxShadow: "0 12px 32px -16px rgba(15,23,42,.25)",
-                minWidth: 240,
-                padding: 4,
-                zIndex: 20,
+            <SetPicker
+              setOptions={setOptions}
+              activeSetId={activeSetId}
+              onPick={id => {
+                onSetChange(id);
+                setOpen(false);
               }}
-            >
-              {setOptions.map(s => {
-                const on = s.id === activeSetId;
-                return (
-                  <button
-                    key={s.id}
-                    onClick={() => {
-                      onSetChange(s.id);
-                      setOpen(false);
-                    }}
-                    style={{
-                      display: "block",
-                      width: "100%",
-                      textAlign: "left",
-                      padding: "9px 12px",
-                      borderRadius: 7,
-                      border: "none",
-                      background: on ? surface : "transparent",
-                      color: fg,
-                      cursor: "pointer",
-                      fontFamily: "inherit",
-                      fontSize: 13,
-                      fontWeight: on ? 600 : 500,
-                    }}
-                  >
-                    {s.name}
-                  </button>
-                );
-              })}
-            </div>
+            />
           )}
         </div>
       </div>
@@ -348,39 +440,238 @@ function Flashcards({
   deck,
   isDark,
   onMark,
+  onResetSet,
+  setName,
 }: {
   deck: Word[];
   isDark: boolean;
   onMark: (id: string, status: StudyStatus) => void;
+  onResetSet: () => void;
+  setName: string;
 }) {
-  const [i, setI] = useState(0);
+  // Session-only state. Queue holds IDs of cards still to be answered this round.
+  // mastered/learning are sets tracking what the user did this round, used for the summary
+  // and for "continue with still-learning" restart.
+  const [queue, setQueue] = useState<string[]>([]);
+  const [masteredThisRound, setMasteredThisRound] = useState<Set<string>>(new Set());
+  const [learningThisRound, setLearningThisRound] = useState<Set<string>>(new Set());
   const [flipped, setFlipped] = useState(false);
-  const safeI = deck.length ? i % deck.length : 0;
-  const card = deck[safeI];
+  const [confirmReset, setConfirmReset] = useState(false);
 
-  const next = () => {
-    setFlipped(false);
-    setTimeout(() => setI(x => (x + 1) % Math.max(deck.length, 1)), 150);
-  };
-  const prev = () => {
-    setFlipped(false);
-    setTimeout(() => setI(x => (x - 1 + deck.length) % Math.max(deck.length, 1)), 150);
-  };
+  const byId = useMemo(() => {
+    const m = new Map<string, Word>();
+    for (const w of deck) m.set(w.id, w);
+    return m;
+  }, [deck]);
+
+  // Hold the latest deck in a ref so we can read mastery during init without
+  // adding `deck` to the effect deps (which would reset the round on every mark).
+  const deckRef = useRef(deck);
+  deckRef.current = deck;
+
+  // Reset round only when the active SET changes. Word IDs are stable while
+  // mastery values update, so a join of IDs gives us a deck-identity dep.
+  const deckIds = deck.map(w => w.id).join("|");
 
   useEffect(() => {
+    const d = deckRef.current;
+    const unmastered = d.filter(w => w.mastery < 0.8).map(w => w.id);
+    setQueue(unmastered.length > 0 ? unmastered : d.map(w => w.id));
+    setMasteredThisRound(new Set());
+    setLearningThisRound(new Set());
+    setFlipped(false);
+    setConfirmReset(false);
+  }, [deckIds]);
+
+  const cardId = queue[0];
+  const card = cardId ? byId.get(cardId) : undefined;
+  const done = !card && deck.length > 0;
+
+  const animate = (after: () => void) => {
+    if (flipped) {
+      setFlipped(false);
+      setTimeout(after, 150);
+    } else {
+      after();
+    }
+  };
+
+  const markGotIt = () => {
+    if (!card) return;
+    const id = card.id;
+    onMark(id, "mastered");
+    setMasteredThisRound(s => {
+      const n = new Set(s);
+      n.add(id);
+      return n;
+    });
+    animate(() => setQueue(q => q.slice(1)));
+  };
+
+  const markStudyAgain = () => {
+    if (!card) return;
+    const id = card.id;
+    onMark(id, "learning");
+    setLearningThisRound(s => {
+      const n = new Set(s);
+      n.add(id);
+      return n;
+    });
+    animate(() =>
+      setQueue(q => {
+        if (q.length <= 1) return q;
+        const [first, ...rest] = q;
+        return [...rest, first];
+      }),
+    );
+  };
+
+  const skipNext = () => animate(() =>
+    setQueue(q => {
+      if (q.length <= 1) return q;
+      const [first, ...rest] = q;
+      return [...rest, first];
+    }),
+  );
+  const skipPrev = () => animate(() =>
+    setQueue(q => {
+      if (q.length <= 1) return q;
+      const last = q[q.length - 1];
+      return [last, ...q.slice(0, -1)];
+    }),
+  );
+
+  const restartFull = () => {
+    setQueue(deckRef.current.map(w => w.id));
+    setMasteredThisRound(new Set());
+    setLearningThisRound(new Set());
+    setFlipped(false);
+  };
+
+  const restartLearning = () => {
+    const ids = Array.from(learningThisRound).filter(id => !masteredThisRound.has(id));
+    if (ids.length === 0) return;
+    setQueue(ids);
+    setMasteredThisRound(new Set());
+    setLearningThisRound(new Set());
+    setFlipped(false);
+  };
+
+  const resetAndStart = () => {
+    onResetSet();
+    setQueue(deckRef.current.map(w => w.id));
+    setMasteredThisRound(new Set());
+    setLearningThisRound(new Set());
+    setFlipped(false);
+    setConfirmReset(false);
+  };
+
+  // Keyboard shortcuts: Space flips, ←/→ navigate, 1 = study again, 2 = got it.
+  useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if ((e.target as HTMLElement).tagName === "INPUT") return;
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      if (!card) return;
       if (e.key === " ") {
         e.preventDefault();
         setFlipped(f => !f);
-      } else if (e.key === "ArrowRight") next();
-      else if (e.key === "ArrowLeft") prev();
+      } else if (e.key === "ArrowRight") skipNext();
+      else if (e.key === "ArrowLeft") skipPrev();
+      else if (e.key === "1") markStudyAgain();
+      else if (e.key === "2") markGotIt();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [deck.length]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [card?.id, queue.length, flipped]);
 
-  if (!card) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words in this set.</div>;
+  if (deck.length === 0) {
+    return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words in this set.</div>;
+  }
+
+  if (done) {
+    const masteredCount = masteredThisRound.size;
+    const stillLearningCount = Array.from(learningThisRound).filter(id => !masteredThisRound.has(id)).length;
+    const allMastered = deck.every(w => w.mastery >= 0.8);
+
+    return (
+      <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+        <div
+          style={{
+            padding: "32px 28px",
+            borderRadius: 16,
+            background: cardBg,
+            border: `1px solid ${borderC}`,
+            boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
+          }}
+        >
+          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Round complete</h2>
+          <p style={{ margin: "10px 0 6px", color: muted, fontSize: 15 }}>
+            {masteredCount > 0 && <>{masteredCount} mastered</>}
+            {masteredCount > 0 && stillLearningCount > 0 && " · "}
+            {stillLearningCount > 0 && <>{stillLearningCount} still learning</>}
+            {masteredCount === 0 && stillLearningCount === 0 && "No cards reviewed."}
+          </p>
+          {allMastered && (
+            <p style={{ color: okFg, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
+              You've mastered every word in {setName}.
+            </p>
+          )}
+          {!allMastered && <div style={{ height: 16 }} />}
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {stillLearningCount > 0 && (
+              <button onClick={restartLearning} style={{ ...btnPrimary, padding: "0 24px" }}>
+                Continue with still-learning ({stillLearningCount})
+              </button>
+            )}
+            <button onClick={restartFull} style={{ ...btnSecondary, padding: "0 24px" }}>
+              Restart full set ({deck.length})
+            </button>
+            {!confirmReset ? (
+              <button
+                onClick={() => setConfirmReset(true)}
+                style={{
+                  ...btnSecondary,
+                  padding: "0 24px",
+                  color: muted,
+                }}
+              >
+                Reset progress for this set
+              </button>
+            ) : (
+              <div style={{ display: "flex", gap: 8 }}>
+                <button
+                  onClick={() => setConfirmReset(false)}
+                  style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={resetAndStart}
+                  style={{
+                    ...btnPrimary,
+                    padding: "0 18px",
+                    flex: 1,
+                    background: errFg,
+                    borderColor: errFg,
+                  }}
+                >
+                  Confirm reset
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!card) return null;
+
+  const totalForBar = deck.length;
+  const masteredAllTime = deck.filter(w => w.mastery >= 0.8).length;
+  const remaining = queue.length;
+  const masteredPct = (masteredAllTime / Math.max(totalForBar, 1)) * 100;
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
@@ -396,19 +687,36 @@ function Flashcards({
         }}
       >
         <span style={{ whiteSpace: "nowrap" }}>
-          {safeI + 1} of {deck.length}
+          {remaining} left · {masteredThisRound.size} this round
         </span>
-        <div style={{ flex: 1, height: 3, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}>
+        <div
+          style={{ flex: 1, height: 3, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}
+          title={`${masteredAllTime} of ${totalForBar} mastered overall`}
+        >
           <div
             style={{
               height: "100%",
-              width: `${((safeI + 1) / deck.length) * 100}%`,
+              width: `${masteredPct}%`,
               background: primary,
               transition: "width .3s",
             }}
           />
         </div>
-        <span style={{ whiteSpace: "nowrap" }}>Space to flip</span>
+        <button
+          onClick={restartFull}
+          title="Restart this round"
+          style={{
+            background: "transparent",
+            border: "none",
+            color: muted,
+            cursor: "pointer",
+            fontSize: 13,
+            padding: "2px 6px",
+            fontFamily: "inherit",
+          }}
+        >
+          ↺ Restart
+        </button>
       </div>
 
       <div
@@ -425,7 +733,6 @@ function Flashcards({
             transform: flipped ? "rotateY(180deg)" : "none",
           }}
         >
-          {/* Front */}
           <div
             style={{
               position: "absolute",
@@ -458,34 +765,21 @@ function Flashcards({
             </h2>
             <div style={{ marginTop: 14, fontSize: 13, color: muted }}>Tap to reveal</div>
           </div>
-          {/* Back */}
           <FlashcardBack card={card} isDark={isDark} />
         </div>
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "48px 1fr 1fr 48px", gap: 10 }}>
-        <button onClick={prev} style={btnIcon} aria-label="Previous">
+        <button onClick={skipPrev} style={btnIcon} aria-label="Previous" title="Previous (←)">
           ←
         </button>
-        <button
-          onClick={() => {
-            onMark(card.id, "learning");
-            next();
-          }}
-          style={btnSecondary}
-        >
+        <button onClick={markStudyAgain} style={btnSecondary} title="Study again (1)">
           Study again
         </button>
-        <button
-          onClick={() => {
-            onMark(card.id, "mastered");
-            next();
-          }}
-          style={btnPrimary}
-        >
+        <button onClick={markGotIt} style={btnPrimary} title="Got it (2)">
           Got it
         </button>
-        <button onClick={next} style={btnIcon} aria-label="Next">
+        <button onClick={skipNext} style={btnIcon} aria-label="Next" title="Next (→)">
           →
         </button>
       </div>
@@ -732,21 +1026,70 @@ function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
    Learn
    ═══════════════════════════════════════════════ */
 
-function Learn({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark: (id: string, s: StudyStatus) => void }) {
+const LEARN_ROUND_SIZE = 10;
+
+function buildLearnRound(deck: Word[]): string[] {
+  // Prefer unmastered words; if none, use the full deck. Within each pool we shuffle.
+  const unmastered = deck.filter(w => w.mastery < 0.8);
+  const fallback = unmastered.length ? unmastered : deck;
+  const ids = fallback.map(w => w.id);
+  for (let i = ids.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [ids[i], ids[j]] = [ids[j], ids[i]];
+  }
+  return ids.slice(0, Math.min(LEARN_ROUND_SIZE, ids.length));
+}
+
+function Learn({
+  deck,
+  isDark,
+  onMark,
+  onResetSet,
+}: {
+  deck: Word[];
+  isDark: boolean;
+  onMark: (id: string, s: StudyStatus) => void;
+  onResetSet: () => void;
+}) {
   const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
   const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
   const errFgL = isDark ? "hsl(0 70% 68%)" : errFg;
   const errBgL = isDark ? "hsl(0 50% 17%)" : errBg;
-  const [idx, setIdx] = useState(0);
-  const [picked, setPicked] = useState<number | null>(null);
-  const safeIdx = deck.length ? idx % deck.length : 0;
-  const w = deck[safeIdx];
 
+  const [round, setRound] = useState<string[]>([]);
+  const [pos, setPos] = useState(0);
+  const [picked, setPicked] = useState<number | null>(null);
+  const [correctIds, setCorrectIds] = useState<Set<string>>(new Set());
+  const [wrongIds, setWrongIds] = useState<Set<string>>(new Set());
+  const [confirmReset, setConfirmReset] = useState(false);
+
+  const deckRef = useRef(deck);
+  deckRef.current = deck;
+  const byId = useMemo(() => {
+    const m = new Map<string, Word>();
+    for (const w of deck) m.set(w.id, w);
+    return m;
+  }, [deck]);
+
+  const deckIds = deck.map(w => w.id).join("|");
+  useEffect(() => {
+    setRound(buildLearnRound(deckRef.current));
+    setPos(0);
+    setPicked(null);
+    setCorrectIds(new Set());
+    setWrongIds(new Set());
+    setConfirmReset(false);
+  }, [deckIds]);
+
+  const w = round[pos] ? byId.get(round[pos]) : undefined;
+  const total = round.length;
+  const done = total > 0 && pos >= total;
+
+  // Generate options with stable seed so re-renders don't reshuffle.
   const { options, correct } = useMemo(() => {
     if (!w) return { options: [] as string[], correct: 0 };
-    const others = deck.filter(d => d.id !== w.id);
-    // pseudo-random but deterministic per word
-    const h = hashStr(w.w);
+    const others = deckRef.current.filter(d => d.id !== w.id);
+    const h = hashStr(w.w + "::learn");
     const distractors: string[] = [];
     const seen = new Set<string>();
     let k = 0;
@@ -766,19 +1109,145 @@ function Learn({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
       else opts.push(distractors[di++] ?? "—");
     }
     return { options: opts, correct: correctIdx };
-  }, [w, deck]);
+  }, [w?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const revealed = picked !== null;
 
-  const advance = () => {
-    setPicked(null);
-    setIdx(i => (i + 1) % Math.max(deck.length, 1));
+  const choose = (i: number) => {
+    if (!w || revealed) return;
+    setPicked(i);
+    if (i === correct) {
+      onMark(w.id, "mastered");
+      setCorrectIds(s => {
+        const n = new Set(s);
+        n.add(w.id);
+        return n;
+      });
+    } else {
+      onMark(w.id, "learning");
+      setWrongIds(s => {
+        const n = new Set(s);
+        n.add(w.id);
+        return n;
+      });
+    }
   };
 
-  if (!w) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  const advance = () => {
+    setPicked(null);
+    setPos(p => p + 1);
+  };
+
+  const restart = () => {
+    setRound(buildLearnRound(deckRef.current));
+    setPos(0);
+    setPicked(null);
+    setCorrectIds(new Set());
+    setWrongIds(new Set());
+  };
+
+  const restartWrongOnly = () => {
+    const ids = Array.from(wrongIds).filter(id => !correctIds.has(id));
+    if (ids.length === 0) return;
+    setRound(ids);
+    setPos(0);
+    setPicked(null);
+    setCorrectIds(new Set());
+    setWrongIds(new Set());
+  };
+
+  const resetAndStart = () => {
+    onResetSet();
+    setRound(deckRef.current.map(w => w.id).slice(0, LEARN_ROUND_SIZE));
+    setPos(0);
+    setPicked(null);
+    setCorrectIds(new Set());
+    setWrongIds(new Set());
+    setConfirmReset(false);
+  };
+
+  if (deck.length === 0) {
+    return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  }
+
+  if (done) {
+    const correctCount = correctIds.size;
+    const missedCount = Array.from(wrongIds).filter(id => !correctIds.has(id)).length;
+    return (
+      <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+        <div
+          style={{
+            padding: "32px 28px",
+            borderRadius: 16,
+            background: cardBg,
+            border: `1px solid ${borderC}`,
+            boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
+          }}
+        >
+          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Round complete</h2>
+          <p style={{ margin: "10px 0 22px", color: muted, fontSize: 15 }}>
+            {correctCount} correct · {missedCount} missed
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {missedCount > 0 && (
+              <button onClick={restartWrongOnly} style={{ ...btnPrimary, padding: "0 24px" }}>
+                Practice missed ({missedCount})
+              </button>
+            )}
+            <button onClick={restart} style={{ ...btnSecondary, padding: "0 24px" }}>
+              New round
+            </button>
+            {!confirmReset ? (
+              <button
+                onClick={() => setConfirmReset(true)}
+                style={{ ...btnSecondary, padding: "0 24px", color: muted }}
+              >
+                Reset progress for this set
+              </button>
+            ) : (
+              <div style={{ display: "flex", gap: 8 }}>
+                <button
+                  onClick={() => setConfirmReset(false)}
+                  style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={resetAndStart}
+                  style={{ ...btnPrimary, padding: "0 18px", flex: 1, background: errFg, borderColor: errFg }}
+                >
+                  Confirm reset
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!w) return null;
 
   return (
     <div style={{ maxWidth: 640, margin: "0 auto" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginBottom: 16,
+          fontSize: 13,
+          color: muted,
+        }}
+      >
+        <span>
+          Question {pos + 1} of {total}
+        </span>
+        <span>
+          {correctIds.size} correct · {wrongIds.size} wrong
+        </span>
+      </div>
+
       <div style={{ marginBottom: 24 }}>
         <Tag pos={w.pos} isDark={isDark} />
         <h2 style={{ margin: "10px 0 4px", fontSize: 40, fontWeight: 500, letterSpacing: "-.02em", color: fg }}>
@@ -809,12 +1278,7 @@ function Learn({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
           return (
             <button
               key={i}
-              onClick={() => {
-                if (!revealed) {
-                  setPicked(i);
-                  onMark(w.id, i === correct ? "mastered" : "learning");
-                }
-              }}
+              onClick={() => choose(i)}
               style={{
                 textAlign: "left",
                 padding: "16px 18px",
@@ -858,15 +1322,27 @@ function Learn({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
       {revealed && (
         <div style={{ padding: "16px 18px", borderRadius: 12, background: surface, border: `1px solid ${borderC}` }}>
           <div style={{ fontSize: 13, color: muted, marginBottom: 6 }}>Why it sticks</div>
-          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.55, color: fg }}>
-            The key meaning: {w.def}.
-          </p>
+          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.55, color: fg }}>The key meaning: {w.def}.</p>
         </div>
       )}
 
-      <div style={{ marginTop: 20, display: "flex", justifyContent: "flex-end" }}>
-        <button onClick={advance} style={{ ...btnPrimary, padding: "0 24px" }}>
-          {revealed ? "Next word" : "Skip"}
+      <div style={{ marginTop: 20, display: "flex", justifyContent: "flex-end", gap: 10 }}>
+        {!revealed && (
+          <button onClick={advance} style={{ ...btnSecondary, padding: "0 18px" }}>
+            Skip
+          </button>
+        )}
+        <button
+          onClick={advance}
+          disabled={!revealed && picked === null}
+          style={{
+            ...btnPrimary,
+            padding: "0 24px",
+            opacity: !revealed ? 0.5 : 1,
+            cursor: !revealed ? "not-allowed" : "pointer",
+          }}
+        >
+          {pos + 1 >= total ? "See results" : "Next word"}
         </button>
       </div>
     </div>
@@ -877,34 +1353,78 @@ function Learn({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
    Match — pick-then-drop
    ═══════════════════════════════════════════════ */
 
-function Match({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark: (id: string, s: StudyStatus) => void }) {
+const MATCH_POOL_SIZE = 6;
+
+function buildMatchPool(deck: Word[]): Word[] {
+  const unmastered = deck.filter(w => w.mastery < 0.8);
+  const mastered = deck.filter(w => w.mastery >= 0.8);
+  const shuffled = [...unmastered];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  const out = shuffled.slice(0, MATCH_POOL_SIZE);
+  if (out.length < MATCH_POOL_SIZE && mastered.length) {
+    const fill = [...mastered];
+    for (let i = fill.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [fill[i], fill[j]] = [fill[j], fill[i]];
+    }
+    out.push(...fill.slice(0, MATCH_POOL_SIZE - out.length));
+  }
+  return out;
+}
+
+function Match({
+  deck,
+  isDark,
+  onMark,
+  onResetSet,
+}: {
+  deck: Word[];
+  isDark: boolean;
+  onMark: (id: string, s: StudyStatus) => void;
+  onResetSet: () => void;
+}) {
   const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
   const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
   const errFgL = isDark ? "hsl(0 70% 68%)" : errFg;
   const errBgL = isDark ? "hsl(0 50% 17%)" : errBg;
-  const pool = useMemo(() => deck.slice(0, Math.min(6, deck.length)), [deck]);
+
+  const deckRef = useRef(deck);
+  deckRef.current = deck;
+
+  const [pool, setPool] = useState<Word[]>([]);
   const [defOrder, setDefOrder] = useState<number[]>([]);
   const [links, setLinks] = useState<Record<number, number>>({});
   const [selected, setSelected] = useState<number | null>(null);
+  const [confirmReset, setConfirmReset] = useState(false);
 
-  // Only reset when the actual word identities change, not when mastery values update
-  const poolIds = pool.map(w => w.id).join(',');
-  useEffect(() => {
-    const order = pool.map((_, i) => i);
+  const startRound = () => {
+    const next = buildMatchPool(deckRef.current);
+    const order = next.map((_, i) => i);
     for (let i = order.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [order[i], order[j]] = [order[j], order[i]];
     }
+    setPool(next);
     setDefOrder(order);
     setLinks({});
     setSelected(null);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [poolIds]);
+    setConfirmReset(false);
+  };
+
+  const deckIds = deck.map(w => w.id).join("|");
+  useEffect(() => {
+    startRound();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [deckIds]);
 
   const pick = (wi: number) => {
     if (links[wi] !== undefined) return;
     setSelected(wi);
   };
+
   const drop = (slot: number) => {
     if (selected === null) return;
     if (Object.values(links).includes(slot)) return;
@@ -915,10 +1435,22 @@ function Match({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
     const target = pool[wi];
     if (target) onMark(target.id, correct ? "mastered" : "learning");
   };
+
   const matched = (wi: number, slot: number) => wi === defOrder[slot];
   const resolved = Object.keys(links).length;
+  const total = pool.length;
+  const correctCount = Object.entries(links).filter(([wi, slot]) => Number(wi) === defOrder[slot]).length;
+  const wrongCount = resolved - correctCount;
+  const done = total > 0 && resolved >= total;
 
-  if (!pool.length) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  const resetAndStart = () => {
+    onResetSet();
+    setTimeout(() => startRound(), 0);
+  };
+
+  if (deck.length === 0) {
+    return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
+  }
 
   return (
     <div style={{ maxWidth: 960, margin: "0 auto" }}>
@@ -931,11 +1463,29 @@ function Match({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
           fontSize: 14,
           color: muted,
           gap: 16,
+          flexWrap: "wrap",
         }}
       >
         <span>Pair each word with its meaning</span>
-        <span style={{ flexShrink: 0, whiteSpace: "nowrap" }}>
-          {resolved} / {pool.length}
+        <span style={{ display: "flex", gap: 14, alignItems: "center" }}>
+          <span style={{ whiteSpace: "nowrap" }}>
+            {resolved} / {total}
+          </span>
+          <button
+            onClick={startRound}
+            title="Restart round"
+            style={{
+              background: "transparent",
+              border: "none",
+              color: muted,
+              cursor: "pointer",
+              fontSize: 13,
+              padding: "2px 6px",
+              fontFamily: "inherit",
+            }}
+          >
+            ↺ Restart
+          </button>
         </span>
       </div>
 
@@ -1009,6 +1559,68 @@ function Match({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
           })}
         </div>
       </div>
+
+      {done && (
+        <div
+          style={{
+            marginTop: 22,
+            padding: "20px 22px",
+            borderRadius: 14,
+            background: cardBg,
+            border: `1px solid ${borderC}`,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            gap: 16,
+            flexWrap: "wrap",
+          }}
+        >
+          <div>
+            <div style={{ fontSize: 16, fontWeight: 600, color: fg }}>
+              {correctCount} of {total} correct
+            </div>
+            {wrongCount > 0 && (
+              <div style={{ fontSize: 13, color: muted, marginTop: 4 }}>
+                Missed pairs are now flagged as still-learning.
+              </div>
+            )}
+          </div>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+            <button onClick={startRound} style={{ ...btnPrimary, padding: "0 22px", height: 42 }}>
+              Next round
+            </button>
+            {!confirmReset ? (
+              <button
+                onClick={() => setConfirmReset(true)}
+                style={{ ...btnSecondary, padding: "0 18px", height: 42, color: muted }}
+              >
+                Reset progress
+              </button>
+            ) : (
+              <>
+                <button
+                  onClick={() => setConfirmReset(false)}
+                  style={{ ...btnSecondary, padding: "0 14px", height: 42 }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={resetAndStart}
+                  style={{
+                    ...btnPrimary,
+                    padding: "0 14px",
+                    height: 42,
+                    background: errFg,
+                    borderColor: errFg,
+                  }}
+                >
+                  Confirm reset
+                </button>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -1020,28 +1632,58 @@ function Match({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark
 const TEST_QUESTION_COUNT = 12;
 const TEST_PER_Q_SECONDS = 45;
 
-function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudyStatus) => void }) {
-  const questions = useMemo(() => {
-    const pool = [...deck];
-    for (let i = pool.length - 1; i > 0; i--) {
+function buildTestQuestions(deck: Word[]): Word[] {
+  const unmastered = deck.filter(w => w.mastery < 0.8);
+  const mastered = deck.filter(w => w.mastery >= 0.8);
+  const shuffle = (arr: Word[]) => {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [pool[i], pool[j]] = [pool[j], pool[i]];
+      [a[i], a[j]] = [a[j], a[i]];
     }
-    return pool.slice(0, Math.min(TEST_QUESTION_COUNT, pool.length));
-  }, [deck]);
+    return a;
+  };
+  const pool = shuffle(unmastered);
+  if (pool.length < TEST_QUESTION_COUNT) pool.push(...shuffle(mastered));
+  return pool.slice(0, Math.min(TEST_QUESTION_COUNT, pool.length));
+}
 
+function Test({
+  deck,
+  onMark,
+  onResetSet,
+}: {
+  deck: Word[];
+  onMark: (id: string, s: StudyStatus) => void;
+  onResetSet: () => void;
+}) {
+  const deckRef = useRef(deck);
+  deckRef.current = deck;
+
+  const [questions, setQuestions] = useState<Word[]>([]);
   const [qIdx, setQIdx] = useState(0);
   const [sel, setSel] = useState<number | null>(null);
-  const [answered, setAnswered] = useState<boolean[]>([]);
   const [correctCount, setCorrectCount] = useState(0);
   const [timeLeft, setTimeLeft] = useState(TEST_PER_Q_SECONDS);
   const [done, setDone] = useState(false);
+  const [confirmReset, setConfirmReset] = useState(false);
+
+  const deckIds = deck.map(w => w.id).join("|");
+  useEffect(() => {
+    setQuestions(buildTestQuestions(deckRef.current));
+    setQIdx(0);
+    setSel(null);
+    setCorrectCount(0);
+    setTimeLeft(TEST_PER_Q_SECONDS);
+    setDone(false);
+    setConfirmReset(false);
+  }, [deckIds]);
 
   const q = questions[qIdx];
 
   const options = useMemo(() => {
     if (!q) return { words: [] as string[], correct: 0 };
-    const others = deck.filter(d => d.id !== q.id);
+    const others = deckRef.current.filter(d => d.id !== q.id);
     const h = hashStr(q.w + "opts");
     const seen = new Set<string>();
     const distractors: string[] = [];
@@ -1062,33 +1704,27 @@ function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySta
       else words.push(distractors[di++] ?? "—");
     }
     return { words, correct: correctIdx };
-  }, [q, deck]);
+  }, [q?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Reset timer when question changes
   useEffect(() => {
     setTimeLeft(TEST_PER_Q_SECONDS);
     setSel(null);
   }, [qIdx]);
 
-  // Tick
   useEffect(() => {
     if (done) return;
+    if (!questions.length) return;
     if (timeLeft <= 0) {
-      // auto-advance as skip
       goNext(false);
       return;
     }
     const t = window.setTimeout(() => setTimeLeft(s => s - 1), 1000);
     return () => window.clearTimeout(t);
-  }, [timeLeft, done]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [timeLeft, done, questions.length]);
 
   const goNext = (wasCorrect: boolean) => {
     if (q) onMark(q.id, wasCorrect ? "mastered" : "learning");
-    setAnswered(prev => {
-      const next = [...prev];
-      next[qIdx] = true;
-      return next;
-    });
     if (wasCorrect) setCorrectCount(c => c + 1);
     if (qIdx + 1 >= questions.length) {
       setDone(true);
@@ -1098,12 +1734,25 @@ function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySta
   };
 
   const restart = () => {
+    setQuestions(buildTestQuestions(deckRef.current));
     setQIdx(0);
     setSel(null);
-    setAnswered([]);
     setCorrectCount(0);
     setTimeLeft(TEST_PER_Q_SECONDS);
     setDone(false);
+  };
+
+  const resetAndStart = () => {
+    onResetSet();
+    setTimeout(() => {
+      setQuestions(buildTestQuestions(deckRef.current));
+      setQIdx(0);
+      setSel(null);
+      setCorrectCount(0);
+      setTimeLeft(TEST_PER_Q_SECONDS);
+      setDone(false);
+      setConfirmReset(false);
+    }, 0);
   };
 
   if (!deck.length) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
@@ -1124,9 +1773,34 @@ function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySta
           <p style={{ margin: "10px 0 22px", color: muted, fontSize: 15 }}>
             {correctCount} / {questions.length} correct
           </p>
-          <button onClick={restart} style={{ ...btnPrimary, padding: "0 24px" }}>
-            Study again
-          </button>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            <button onClick={restart} style={{ ...btnPrimary, padding: "0 24px" }}>
+              New test
+            </button>
+            {!confirmReset ? (
+              <button
+                onClick={() => setConfirmReset(true)}
+                style={{ ...btnSecondary, padding: "0 24px", color: muted }}
+              >
+                Reset progress for this set
+              </button>
+            ) : (
+              <div style={{ display: "flex", gap: 8 }}>
+                <button
+                  onClick={() => setConfirmReset(false)}
+                  style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={resetAndStart}
+                  style={{ ...btnPrimary, padding: "0 18px", flex: 1, background: errFg, borderColor: errFg }}
+                >
+                  Confirm reset
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     );
@@ -1291,9 +1965,18 @@ function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySta
    Browse
    ═══════════════════════════════════════════════ */
 
-function Browse({ deck, isDark }: { deck: Word[]; isDark: boolean }) {
+function Browse({
+  deck,
+  isDark,
+  onResetSet,
+}: {
+  deck: Word[];
+  isDark: boolean;
+  onResetSet: () => void;
+}) {
   const [q, setQ] = useState("");
   const [filter, setFilter] = useState<"all" | "new" | "learning" | "mastered">("all");
+  const [confirmReset, setConfirmReset] = useState(false);
 
   const filtered = useMemo(() => {
     return deck.filter(w => {
@@ -1312,6 +1995,8 @@ function Browse({ deck, isDark }: { deck: Word[]; isDark: boolean }) {
     ["learning", "Learning", deck.filter(w => w.mastery > 0 && w.mastery < 0.8).length],
     ["mastered", "Mastered", deck.filter(w => w.mastery >= 0.8).length],
   ];
+
+  const hasProgress = deck.some(w => w.mastery > 0);
 
   return (
     <div>
@@ -1383,6 +2068,65 @@ function Browse({ deck, isDark }: { deck: Word[]; isDark: boolean }) {
             );
           })}
         </div>
+        {hasProgress && (
+          !confirmReset ? (
+            <button
+              onClick={() => setConfirmReset(true)}
+              style={{
+                padding: "0 14px",
+                height: 36,
+                borderRadius: 8,
+                border: `1px solid ${borderC}`,
+                background: cardBg,
+                color: muted,
+                fontSize: 13,
+                fontFamily: "inherit",
+                cursor: "pointer",
+              }}
+            >
+              Reset progress
+            </button>
+          ) : (
+            <div style={{ display: "flex", gap: 6 }}>
+              <button
+                onClick={() => setConfirmReset(false)}
+                style={{
+                  padding: "0 12px",
+                  height: 36,
+                  borderRadius: 8,
+                  border: `1px solid ${borderC}`,
+                  background: cardBg,
+                  color: fg,
+                  fontSize: 13,
+                  fontFamily: "inherit",
+                  cursor: "pointer",
+                }}
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => {
+                  onResetSet();
+                  setConfirmReset(false);
+                }}
+                style={{
+                  padding: "0 14px",
+                  height: 36,
+                  borderRadius: 8,
+                  border: `1px solid ${errFg}`,
+                  background: errFg,
+                  color: "#fff",
+                  fontSize: 13,
+                  fontFamily: "inherit",
+                  cursor: "pointer",
+                  fontWeight: 600,
+                }}
+              >
+                Confirm reset
+              </button>
+            </div>
+          )
+        )}
       </div>
 
       <div style={{ borderRadius: 12, border: `1px solid ${borderC}`, background: cardBg, overflow: "hidden" }}>
@@ -1484,6 +2228,22 @@ const Vocab = () => {
     });
   };
 
+  const resetSet = (setId: string) => {
+    setProgress(prev => {
+      const prefix = `${setId}::`;
+      const next: StoredProgress = {};
+      let changed = false;
+      for (const [k, v] of Object.entries(prev)) {
+        if (k.startsWith(prefix)) {
+          changed = true;
+          continue;
+        }
+        next[k] = v;
+      }
+      return changed ? next : prev;
+    });
+  };
+
   const activeSet = vocabularySets.find(s => s.id === activeSetId) ?? vocabularySets[0];
 
   const deck: Word[] = useMemo(() => {
@@ -1508,12 +2268,27 @@ const Vocab = () => {
 
   const setOptions = vocabularySets.map(s => ({ id: s.id, name: s.name }));
 
+  const resetActive = () => {
+    if (activeSet) resetSet(activeSet.id);
+  };
+
   let content: React.ReactNode = null;
-  if (mode === "flashcards") content = <Flashcards deck={deck} isDark={isDark} onMark={markWord} />;
-  else if (mode === "learn") content = <Learn deck={deck} isDark={isDark} onMark={markWord} />;
-  else if (mode === "match") content = <Match deck={deck} isDark={isDark} onMark={markWord} />;
-  else if (mode === "test") content = <Test deck={deck} onMark={markWord} />;
-  else if (mode === "browse") content = <Browse deck={deck} isDark={isDark} />;
+  if (mode === "flashcards")
+    content = (
+      <Flashcards
+        deck={deck}
+        isDark={isDark}
+        onMark={markWord}
+        onResetSet={resetActive}
+        setName={activeSet?.name ?? ""}
+      />
+    );
+  else if (mode === "learn")
+    content = <Learn deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
+  else if (mode === "match")
+    content = <Match deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
+  else if (mode === "test") content = <Test deck={deck} onMark={markWord} onResetSet={resetActive} />;
+  else if (mode === "browse") content = <Browse deck={deck} isDark={isDark} onResetSet={resetActive} />;
 
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "32px 40px 80px" }}>

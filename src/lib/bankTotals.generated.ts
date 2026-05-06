@@ -2,19 +2,19 @@
 // Counts the past-bank questions; Home.tsx uses these so the displayed totals
 // track the real bank without needing to load the full bank chunk.
 
-export const BANK_TOTAL_PAST_MATH = 1985;
-export const BANK_TOTAL_PAST_READING = 3627;
-export const BANK_TOTAL_PAST = 5612;
+export const BANK_TOTAL_PAST_MATH = 1982;
+export const BANK_TOTAL_PAST_READING = 3626;
+export const BANK_TOTAL_PAST = 5608;
 
 export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
   "Ratios, rates, proportional relationships, and units": 72,
-  "Nonlinear functions": 143,
+  "Nonlinear functions": 142,
   "Linear equations in one variable": 140,
   "Equivalent expressions": 303,
   "Linear inequalities in one or two variables": 74,
   "Linear functions": 285,
   "Lines, angles, and triangles": 89,
-  "Systems of two linear equations in two variables": 154,
+  "Systems of two linear equations in two variables": 152,
   "Linear equations in two variables": 152,
   "Area and volume": 86,
   "Right triangles and trigonometry": 53,
@@ -29,7 +29,7 @@ export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
   "Words in Context": 549,
   "Text Structure and Purpose": 318,
   "Central Ideas and Details": 196,
-  "Command of Evidence": 521,
+  "Command of Evidence": 520,
   "Rhetorical Synthesis": 493,
   "Inferences": 276,
   "Form, Structure, and Sense": 321,

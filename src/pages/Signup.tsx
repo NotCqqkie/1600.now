@@ -28,7 +28,7 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading } = useAuth();
+  const { signInWithGoogle, signUpWithEmailPassword, user, loading: authLoading, redirectError, clearRedirectError } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
@@ -40,6 +40,13 @@ const Signup = () => {
       navigate(getAuthReturnTo(), { replace: true });
     }
   }, [user, authLoading, navigate]);
+
+  useEffect(() => {
+    if (!redirectError) return;
+    const friendly = describeAuthError(redirectError, "signup");
+    toast({ variant: "destructive", title: friendly.title, description: friendly.description });
+    clearRedirectError();
+  }, [redirectError, toast, clearRedirectError]);
 
   // Both handlers defer navigation to the user-change useEffect above.
   // The effect handles the verified/unverified split and the onboarding
@@ -145,9 +152,6 @@ const Signup = () => {
             >
               Create account
             </h2>
-            <p className="text-sm text-muted-foreground">
-              No paid features — ever.
-            </p>
           </div>
 
           <div className="space-y-4">

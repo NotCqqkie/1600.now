@@ -379,7 +379,9 @@ const ScoreSummaryCard = ({
   themeColors,
 }: ScoreSummaryCardProps) => {
   const totalProgress = (scores.total / 1600) * 100;
-  const ringBackground = `conic-gradient(${scores.totalColor} 0deg, ${scores.totalColor} ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) 360deg)`;
+  const ringBackground = totalProgress >= 100
+    ? scores.totalColor
+    : `conic-gradient(${scores.totalColor} 0deg, ${scores.totalColor} ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) ${totalProgress * 3.6}deg, rgba(148,163,184,0.18) 360deg)`;
 
   return (
     <div
@@ -398,8 +400,8 @@ const ScoreSummaryCard = ({
       <div style={{ display: "grid", placeItems: "center", marginBottom: 20 }}>
         <div
           style={{
-            width: 180,
-            height: 180,
+            width: 200,
+            height: 200,
             borderRadius: "50%",
             background: ringBackground,
             padding: 12,
@@ -424,8 +426,11 @@ const ScoreSummaryCard = ({
                 className="score-number"
                 style={
                   {
-                    fontFamily: "'Geist', Georgia, serif",
-                    fontSize: 64,
+                    fontFamily: "'Inter Tight', sans-serif",
+                    fontWeight: 800,
+                    letterSpacing: "-0.04em",
+                    fontVariantNumeric: "tabular-nums",
+                    fontSize: 56,
                     lineHeight: 0.9,
                     color: scores.totalColor,
                     marginBottom: 6,
@@ -476,9 +481,11 @@ const ScoreSummaryCard = ({
             </span>
             <span
               style={{
-                fontFamily: "'Space Mono', monospace",
+                fontFamily: "'Inter Tight', sans-serif",
+                fontVariantNumeric: "tabular-nums",
+                letterSpacing: "-0.02em",
                 fontSize: 22,
-                fontWeight: 700,
+                fontWeight: 800,
                 color: themeColors.textColor,
                 flexShrink: 0,
               }}

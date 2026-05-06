@@ -122,6 +122,35 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  /* Smooth fade between light/dark themes — fallback for browsers without
+     View Transitions (currently Firefox). Only active for ~320ms during a
+     theme toggle (class added by applyTheme in src/lib/theme.ts) so it doesn't
+     slow down hover/focus state changes the rest of the time. */
+  .theme-transitioning,
+  .theme-transitioning *,
+  .theme-transitioning *::before,
+  .theme-transitioning *::after {
+    transition:
+      background-color 280ms ease,
+      background-image 280ms ease,
+      border-color 280ms ease,
+      color 280ms ease,
+      fill 280ms ease,
+      stroke 280ms ease,
+      box-shadow 280ms ease !important;
+  }
+
+  /* View Transitions API crossfade — runs in modern browsers (Chrome/Edge
+     111+, Safari 18+). The browser snapshots the page, applies the theme
+     swap, and crossfades old→new at one uniform rate, so gradients, shadows,
+     and unregistered custom properties (like Tailwind's --tw-gradient-from)
+     all fade in lockstep instead of snapping at different speeds. */
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 280ms;
+    animation-timing-function: ease;
+  }
+
   html {
     scrollbar-gutter: stable;
     background-color: hsl(var(--background));
@@ -716,6 +745,24 @@ table.table_WithBorder th {
 }
 .cb-table .para_center { text-align: center; }
 .cb-table .para_right  { text-align: right; }
+
+/* Single-column question-bank tables (e.g. stacked systems of equations) are
+   used purely for vertical layout, not data. Strip the cell borders so each
+   equation isn't wrapped in its own box. */
+.cb-table:not(:has(tr > *:nth-child(2))),
+table.tableWithBorder:not(:has(tr > *:nth-child(2))),
+table.table_WithBorder:not(:has(tr > *:nth-child(2))) {
+  border: none;
+}
+.cb-table:not(:has(tr > *:nth-child(2))) th,
+.cb-table:not(:has(tr > *:nth-child(2))) td,
+table.tableWithBorder:not(:has(tr > *:nth-child(2))) th,
+table.tableWithBorder:not(:has(tr > *:nth-child(2))) td,
+table.table_WithBorder:not(:has(tr > *:nth-child(2))) th,
+table.table_WithBorder:not(:has(tr > *:nth-child(2))) td {
+  border: none;
+  padding: 0.1em 0;
+}
 
 /* Roman-numeral list emitted by the bullet-to-list preprocessor in
    mathRendering. SAT "I/II/III only" questions reference these. */

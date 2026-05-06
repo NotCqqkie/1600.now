@@ -483,7 +483,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "November 2024 International Form B SAT Math Module 1",
-    "passage": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 111% of $x$\nWhich of the following could describe this function?",
+    "passage": "For $x > 0$, the function $f$ is defined as follows:\n$f(x) = 1.11x$\nWhich of the following could describe this function?",
     "question_text": null,
     "choices": [
       {

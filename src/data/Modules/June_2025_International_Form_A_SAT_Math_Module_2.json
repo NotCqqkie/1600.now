@@ -462,7 +462,7 @@
     "choices": [],
     "is_fill_in_blank": true,
     "correct_answer": "8",
-    "rationale": "The correct answer is 8. In this group, $\\frac{1}{9}$ of the people who are rhesus negative have blood type B. The total number of people who are rhesus negative in the group is $7 + 2 + 1 + x$, and there are 2 people who are rhesus negative with blood type B. Therefore, the fraction with numerator 2, and denominator, 7 plus 2, plus 1, plus x, end fraction, equals one ninth. Combining like terms on the left-hand side of the equation yields the fraction with numerator 2, and denominator, 10 plus x, end fraction, equals one ninth. Multiplying both sides of this equation by 9 yields the fraction with numerator 18, and denominator, 10 plus x, end fraction, equals 1, and multiplying both sides of this equation by $(10 + x)$ yields $18 = 10 + x$. Subtracting 10 from both sides of this equation yields $8 = x$.",
+    "rationale": "The correct answer is 8. In this group, $\\frac{1}{9}$ of the people who are rhesus negative have blood type B. The total number of people who are rhesus negative in the group is $7 + 2 + 1 + x$, and there are 2 people who are rhesus negative with blood type B. Therefore, $\\frac{2}{7+2+1+x} = \\frac{1}{9}$. Combining like terms on the left-hand side of the equation yields $\\frac{2}{10+x} = \\frac{1}{9}$. Multiplying both sides of this equation by 9 yields $\\frac{18}{10+x} = 1$, and multiplying both sides of this equation by $(10 + x)$ yields $18 = 10 + x$. Subtracting 10 from both sides of this equation yields $8 = x$.",
     "id": "d4413871"
   },
   {

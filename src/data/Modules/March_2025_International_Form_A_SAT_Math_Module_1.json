@@ -296,7 +296,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "B",
-    "rationale": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield 2 x minus 3 y, is greater than 4.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $0, - 1.5$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D.",
+    "rationale": "Choice B is correct. Both sides of the given inequality can be divided by 3 to yield $2x - 3y > 4$.\nChoices A, C, and D are incorrect because they are not equivalent to (do not have the same solution set as) the given inequality. For example, the ordered pair $(0, -1.5)$ is a solution to the given inequality, but it is not a solution to any of the inequalities in choices A, C, or D.",
     "id": "3c95093c"
   },
   {

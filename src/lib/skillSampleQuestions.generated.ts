@@ -249,31 +249,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "systems-of-linear-equations": [
     {
-      "id": "3bf10f0c-6025-4955-91dc-118e340490f0_9",
-      "difficulty": "Easy",
-      "testName": "May 2024 International Form E SAT Math Module 1",
-      "text": "Which ordered pair (x,y) is a solution to the given system of equations?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "$(2, 49)$"
-        },
-        {
-          "id": "B",
-          "text": "$(2, 2)$"
-        },
-        {
-          "id": "C",
-          "text": "$(2, 35)$"
-        },
-        {
-          "id": "D",
-          "text": "$(2, 7)$"
-        }
-      ],
-      "correctAnswer": "A"
-    },
-    {
       "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15",
       "difficulty": "Easy",
       "testName": "September 2025 US Form A SAT Math Module 1",
@@ -297,6 +272,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "D"
+    },
+    {
+      "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_7",
+      "difficulty": "Easy",
+      "testName": "May 2024 International Form D SAT Math Module 1",
+      "text": "Given the system of equations:\n$x = 5$\n$-2x + y = -5$\nWhat is the value of $x + y$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "-20"
+        },
+        {
+          "id": "B",
+          "text": "-10"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": "C"
     },
     {
       "id": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_6",
@@ -325,6 +325,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
     }
   ],
   "linear-inequalities": [
+    {
+      "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_16",
+      "difficulty": "Easy",
+      "testName": "June 2025 International Form A SAT Math Module 2",
+      "text": "$y = 95(x - 2) + 228$\nWhich equation is equivalent to the given equation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$y = 95x + 228$"
+        },
+        {
+          "id": "B",
+          "text": "$y = 228x + 418$"
+        },
+        {
+          "id": "C",
+          "text": "$y = 95x + 38$"
+        },
+        {
+          "id": "D",
+          "text": "$y = 228x + 95$"
+        }
+      ],
+      "correctAnswer": "C"
+    },
     {
       "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_2",
       "difficulty": "Easy",
@@ -374,31 +399,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "A"
-    },
-    {
-      "id": "00907d99-e579-47a8-ac65-658aadef4aa7_7",
-      "difficulty": "Easy",
-      "testName": "March 2025 US Form B SAT Math Module 1",
-      "text": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
-      "choices": [
-        {
-          "id": "A",
-          "text": "$0.67x + 2 \\le 12$"
-        },
-        {
-          "id": "B",
-          "text": "$0.67 + 2 \\ge 12$"
-        },
-        {
-          "id": "C",
-          "text": "$0.67x - 2 \\le 12$"
-        },
-        {
-          "id": "D",
-          "text": "$0.67x - 2 \\ge 12$"
-        }
-      ],
-      "correctAnswer": "C"
     }
   ],
   "nonlinear-equations-and-systems": [
@@ -428,6 +428,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "correctAnswer": "C"
     },
     {
+      "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_20",
+      "difficulty": "Easy",
+      "testName": "May 2024 US Form B SAT Math Module 2",
+      "text": "$x^2 - 97 = -97 + x^2$\nHow many solutions does the given equation have?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Zero"
+        },
+        {
+          "id": "B",
+          "text": "Exactly one"
+        },
+        {
+          "id": "C",
+          "text": "Exactly two"
+        },
+        {
+          "id": "D",
+          "text": "Infinitely many"
+        }
+      ],
+      "correctAnswer": "D"
+    },
+    {
       "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_9",
       "difficulty": "Easy",
       "testName": "May 2025 International Form B SAT Math Module 1",
@@ -451,31 +476,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "B"
-    },
-    {
-      "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_5",
-      "difficulty": "Easy",
-      "testName": "May 2024 International Form A SAT Math Module 2",
-      "text": "$x^2 = 2,601$\nHow many distinct real solutions does the given equation have?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "Zero"
-        },
-        {
-          "id": "B",
-          "text": "Exactly one"
-        },
-        {
-          "id": "C",
-          "text": "Exactly two"
-        },
-        {
-          "id": "D",
-          "text": "Infinitely many"
-        }
-      ],
-      "correctAnswer": "C"
     }
   ],
   "nonlinear-functions": [
@@ -1053,7 +1053,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "choices": [
         {
           "id": "A",
-          "text": "$150 \\leq x \\leq 180$"
+          "text": "$50 \\leq x \\leq 60$"
         },
         {
           "id": "B",
@@ -1061,11 +1061,11 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "C",
-          "text": "$150 \\leq x \\leq 180$"
+          "text": "$50 \\leq x \\leq 180$"
         },
         {
           "id": "D",
-          "text": "$150 \\leq x \\leq 180$"
+          "text": "$150 \\leq x \\leq 60$"
         }
       ],
       "correctAnswer": "B"
@@ -1613,7 +1613,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_7",
       "difficulty": "Medium",
       "testName": "August 2025 International Form A SAT English Module 2",
-      "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T.L. Hulme’s 1912 poem “Above the Dock.” Text 2 is from Amy Lowell’s 1912 poem “The Crescent Moon.”\nText 1\nAbove the quiet dock in midnight,\nTangled in the tall mast’s corded height,\nHangs the moon. What seemed so far away\nIs but a child’s balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
+      "text": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?\nText 1 is T.L. Hulme's 1912 poem \"Above the Dock.\" Text 2 is from Amy Lowell's 1912 poem \"The Crescent Moon.\"\nText 1\nAbove the quiet dock in midnight,\nTangled in the tall mast's corded height,\nHangs the moon. What seemed so far away\nIs but a child's balloon, forgotten after play.\nText 2\nSlipping softly through the sky\nLittle horned, happy moon,\nCan you hear me up so high?\nWill you come down soon?",
       "choices": [
         {
           "id": "A",
@@ -1621,7 +1621,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "B",
-          "text": "While both speakers present the moon as a tangible object, only the speaker of Text 1 addresses the moon’s beauty."
+          "text": "While both speakers present the moon as a tangible object, only the speaker of Text 1 addresses the moon's beauty."
         },
         {
           "id": "C",
@@ -1629,7 +1629,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "D",
-          "text": "While the speaker of Text 1 presents the moon as seeming to be very close, the speaker of Text 2 emphasizes the moon’s distance from the speaker."
+          "text": "While the speaker of Text 1 presents the moon as seeming to be very close, the speaker of Text 2 emphasizes the moon's distance from the speaker."
         }
       ],
       "correctAnswer": "D"
@@ -1638,15 +1638,15 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "97534841-3541-4563-86b8-0a919d0bde5b_6",
       "difficulty": "Medium",
       "testName": "June 2024 US Form C SAT English Module 2",
-      "text": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today’s sloths spend most of their time high up in trees. The sloths’ inaccessibility has made it hard for scientists to study them. Text 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
+      "text": "The author of Text 1 and the author of Text 2 both discuss which topic? Text 1\nFrom the extinct giant ground sloth to the living pygmy three-toed sloth, sloths are among the most appealing animals native to the Americas. But scientists still have a lot to learn about them. Unlike their ancient ground-dwelling relations, today's sloths spend most of their time high up in trees. The sloths' inaccessibility has made it hard for scientists to study them. Text 2\nBy using a backpack monitor, biologist Rebecca Cliffe and colleagues can at last discover the previously hidden activities of sloths. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
       "choices": [
         {
           "id": "A",
-          "text": "Scientists’ efforts to understand sloths"
+          "text": "Scientists' efforts to understand sloths"
         },
         {
           "id": "B",
-          "text": "Changes in sloths’ habitats"
+          "text": "Changes in sloths' habitats"
         },
         {
           "id": "C",
@@ -1771,19 +1771,19 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "choices": [
         {
           "id": "A",
-          "text": "“How [the sailor] haunted my dreams, I need scarcely tell you. On stormy nights, when the wind shook the four corners of the house and the surf roared along the cove and up the cliffs, I would see him in a thousand forms, and with a thousand diabolical expressions.”"
+          "text": "\"How [the sailor] haunted my dreams, I need scarcely tell you. On stormy nights, when the wind shook the four corners of the house and the surf roared along the cove and up the cliffs, I would see him in a thousand forms, and with a thousand diabolical expressions.\""
         },
         {
           "id": "B",
-          "text": "“I remember [the sailor] as if it were yesterday, as he came plodding to the inn door, his sea chest following behind him in a hand-barrow.”"
+          "text": "\"I remember [the sailor] as if it were yesterday, as he came plodding to the inn door, his sea chest following behind him in a hand-barrow.\""
         },
         {
           "id": "C",
-          "text": "“[The sailor] was a very silent man by custom. All day he hung round the cove or upon the cliffs with a brass telescope.”"
+          "text": "\"[The sailor] was a very silent man by custom. All day he hung round the cove or upon the cliffs with a brass telescope.\""
         },
         {
           "id": "D",
-          "text": "“All the time he lived with us [the sailor] made no change whatever in his dress but to buy some stockings from a hawker. One of the [corners] of his hat having fallen down, he let it hang from that day forth, though it was a great annoyance when it blew.”"
+          "text": "\"All the time he lived with us [the sailor] made no change whatever in his dress but to buy some stockings from a hawker. One of the [corners] of his hat having fallen down, he let it hang from that day forth, though it was a great annoyance when it blew.\""
         }
       ],
       "correctAnswer": "A"
@@ -1796,19 +1796,19 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "choices": [
         {
           "id": "A",
-          "text": "“How careful ought we to be to speak nothing but the truth, even in regard to the most trifling circumstances; and not only so, but to be well assured that what we suppose to be true, is truth, before we receive it as such.”"
+          "text": "\"How careful ought we to be to speak nothing but the truth, even in regard to the most trifling circumstances; and not only so, but to be well assured that what we suppose to be true, is truth, before we receive it as such.\""
         },
         {
           "id": "B",
-          "text": "“Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.”"
+          "text": "\"Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.\""
         },
         {
           "id": "C",
-          "text": "“Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.”"
+          "text": "\"Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.\""
         },
         {
           "id": "D",
-          "text": "“To give some idea of the high esteem in which the subject of the following narrative is held, and the strong interest her misfortunes have excited, a few, from the great number of recommendations in her possession, are selected.”"
+          "text": "\"To give some idea of the high esteem in which the subject of the following narrative is held, and the strong interest her misfortunes have excited, a few, from the great number of recommendations in her possession, are selected.\""
         }
       ],
       "correctAnswer": "B"
@@ -1921,7 +1921,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_21",
       "difficulty": "Easy",
       "testName": "June 2024 US Form C SAT English Module 1",
-      "text": "Which choice completes the text with the most logical transition?\nIn Spain, citizens must be at least 18 years old to vote in their country’s elections. ______ citizens in Brazil need only be 16 years old to cast their vote.",
+      "text": "Which choice completes the text with the most logical transition?\nIn Spain, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Brazil need only be 16 years old to cast their vote.",
       "choices": [
         {
           "id": "A",

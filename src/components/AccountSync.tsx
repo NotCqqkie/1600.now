@@ -1,10 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { doc, setDoc } from "firebase/firestore";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { db } from "@/lib/firebaseDb";
 import {
   getPersonalizationPreferences,
+  resetPersonalizationPreferences,
   subscribeToPersonalization,
 } from "@/lib/personalization";
 
@@ -16,6 +17,18 @@ export const AccountSync = () => {
   useUserProgress();
 
   const { user } = useAuth();
+  const previousUidRef = useRef<string | null>(null);
+
+  // On sign-out, wipe personalization so the signed-out session reverts to
+  // defaults instead of inheriting the previous user's font/size choices.
+  useEffect(() => {
+    const prevUid = previousUidRef.current;
+    const currentUid = user?.id ?? null;
+    if (prevUid !== null && currentUid === null) {
+      resetPersonalizationPreferences();
+    }
+    previousUidRef.current = currentUid;
+  }, [user?.id]);
 
   useEffect(() => {
     if (!user || !db) return;

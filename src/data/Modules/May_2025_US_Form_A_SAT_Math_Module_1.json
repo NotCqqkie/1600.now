@@ -505,7 +505,7 @@
     ],
     "is_fill_in_blank": false,
     "correct_answer": "D",
-    "rationale": "Choice D is correct. It’s given that the graph of y equals, h of x intersects the <em>x</em>-axis at the point with coordinates 0 comma 0 and the point with coordinates t comma 0, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when h of x equals 0, it follows that h of 0 equals 0 and h of t equals 0. If h of t equals 0, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors.",
+    "rationale": "Choice D is correct. It's given that the graph of $y = h(x)$ intersects the <em>x</em>-axis at the point with coordinates $(0, 0)$ and the point with coordinates $(t, 0)$, where <em>t</em> is a constant. Since this graph intersects the <em>x</em>-axis when $y = 0$ or when $h(x) = 0$, it follows that $h(0) = 0$ and $h(t) = 0$. If $h(t) = 0$, then $0 = 2 \\times (t - 4)^2 - 32$. Adding 32 to both sides of this equation yields $32 = 2 \\times (t - 4)^2$. Dividing both sides of this equation by 2 yields $16 = (t - 4)^2$. Taking the square root of both sides of this equation yields $4 = t - 4$. Adding 4 to both sides of this equation yields $8 = t$. Therefore, the value of <em>t</em> is 8.\nChoices A, B, and C are incorrect and may result from calculation errors.",
     "id": "91e7ea5e"
   },
   {

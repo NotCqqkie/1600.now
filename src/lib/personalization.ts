@@ -86,16 +86,32 @@ export const getPersonalizationPreferences = (): PersonalizationPreferences => {
   return cachedPrefs;
 };
 
-export const applyPersonalizationPreferences = (
-  prefs: PersonalizationPreferences,
-) => {
+const writePrefsToDocument = (prefs: PersonalizationPreferences) => {
   if (typeof document === "undefined") return;
   const root = document.documentElement;
   root.style.setProperty("--question-font-family", fontStackFor(prefs.font));
   root.style.setProperty("--question-font-scale", String(scaleFor(prefs.textSize)));
+};
+
+export const applyPersonalizationPreferences = (
+  prefs: PersonalizationPreferences,
+) => {
+  writePrefsToDocument(prefs);
 
   if (typeof window !== "undefined") {
     localStorage.setItem(PERSONALIZATION_STORAGE_KEY, JSON.stringify(prefs));
+    window.dispatchEvent(new Event(PERSONALIZATION_EVENT));
+  }
+};
+
+// Wipe any stored personalization and revert the document to defaults.
+// Called on sign-out so a signed-out session never inherits the previous
+// user's font/size choices from localStorage.
+export const resetPersonalizationPreferences = () => {
+  writePrefsToDocument(DEFAULT_PERSONALIZATION);
+
+  if (typeof window !== "undefined") {
+    localStorage.removeItem(PERSONALIZATION_STORAGE_KEY);
     window.dispatchEvent(new Event(PERSONALIZATION_EVENT));
   }
 };
