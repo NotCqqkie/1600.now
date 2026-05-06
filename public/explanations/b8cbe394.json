@@ -1,15 +1,1 @@
-{
-  "questionId": "b8cbe394",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Step 1: Testing choice B",
-      "content": "Backsolving \u2014 testing choice B (c=10(d+11)):<br/>Plug in d=0 days:<br/>$$c = 10(0+11) = 110$$<br/>But the expected cost for zero days is just the insurance fee of 10 dollars.<br/>Since 110 \u2260 10, choice B fails."
-    },
-    {
-      "title": "Step 2: Testing choice C",
-      "content": "Fails. Testing choice C (c=11d+10):<br/>Plug in d=0 days:<br/>$$c = 11\u00b70 + 10 = 10$$<br/>This matches the insurance fee of 10 dollars for zero days.<br/>Testing another value, say d=1 day:<br/>$$c = 11\u00b71 + 10 = 21$$<br/>Expected cost: 11 dollars for one day plus 10 dollars insurance = 21 dollars.<br/>Since both checks succeed, choice C is correct.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b8cbe394", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Testing choice B", "content": "Backsolving — testing choice B (c=10(d+11)):<br/>Plug in d=0 days:<br/>$$c = 10(0+11) = 110$$<br/>But the expected cost for zero days is just the insurance fee of 10 dollars.<br/>Since 110 ≠ 10, choice B fails."}, {"title": "Testing choice C", "content": "Fails. Testing choice C (c=11d+10):<br/>Plug in d=0 days:<br/>$$c = 11·0 + 10 = 10$$<br/>This matches the insurance fee of 10 dollars for zero days.<br/>Testing another value, say d=1 day:<br/>$$c = 11·1 + 10 = 21$$<br/>Expected cost: 11 dollars for one day plus 10 dollars insurance = 21 dollars.<br/>Since both checks succeed, choice C is correct.<br/>That matches choice C — <strong>C</strong> is correct."}]}
