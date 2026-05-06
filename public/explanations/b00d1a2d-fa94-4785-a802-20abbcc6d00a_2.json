@@ -1,15 +1,1 @@
-{
-  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_2",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract two data points and calculate the slope",
-      "content": "From the table, use the first and second rows: area of 560 ft\u00b2 drains 1,008 gallons, and area of 840 ft\u00b2 drains 1,512 gallons.<br/><br/>The rate of water drained per square foot is:<br/>$$m = \\frac{1,512 - 1,008}{840 - 560} = \\frac{504}{280}$$<br/><br/>Simplify by dividing both numerator and denominator by 56:<br/>$$m = \\frac{504 \\div 56}{280 \\div 56} = \\frac{9}{5} = 1.8$$"
-    },
-    {
-      "title": "Write the linear function and identify the choice",
-      "content": "Since the relationship is linear and passes through the origin (no area means no water drained), the equation is $f(x) = mx$ where $m = 1.8$.<br/><br/>$$f(x) = 1.8x$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract two data points and calculate the slope", "content": "From the table, use the first and second rows: area of 560 ft² drains 1,008 gallons, and area of 840 ft² drains 1,512 gallons.<br/><br/>The rate of water drained per square foot is:<br/>$$m = \\frac{1,512 - 1,008}{840 - 560} = \\frac{504}{280}$$<br/>Simplify by dividing both numerator and denominator by 56:<br/>$$m = \\frac{504 \\div 56}{280 \\div 56} = \\frac{9}{5} = 1.8$$"}, {"title": "Write the linear function and identify the choice", "content": "Since the relationship is linear and passes through the origin (no area means no water drained), the equation is $f(x) = mx$ where $m = 1.8$.<br/>$$f(x) = 1.8x$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

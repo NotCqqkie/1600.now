@@ -1,15 +1,1 @@
-{
-  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_2",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept of the line of best fit for data set A",
-      "content": "Trace the line of best fit on the scatterplot. Extend it to where it crosses the y-axis (at $x = 0$). The line intersects the y-axis at approximately $y = 52.75$ for data set A."
-    },
-    {
-      "title": "Apply the transformation to the line",
-      "content": "Data set B is created by subtracting 11 from every $y$-value in data set A. When you shift all data points down by the same amount, the line of best fit shifts down by that same amount. Therefore, the new y-intercept is:<br/><br/>$$b_{B} = b_{A} - 11 = 52.75 - 11 = 41.75$$<br/><br/>The value 41.75 is closest to 42.75. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the y-intercept of the line of best fit for data set A", "content": "Trace the line of best fit on the scatterplot. Extend it to where it crosses the y-axis (at $x = 0$). The line intersects the y-axis at approximately $y = 52.75$ for data set A."}, {"title": "Apply the transformation to the line", "content": "Data set B is created by subtracting 11 from every $y$-value in data set A. When you shift all data points down by the same amount, the line of best fit shifts down by that same amount. Therefore, the new y-intercept is:<br/>$$b_{B} = b_{A} - 11 = 52.75 - 11 = 41.75$$<br/>The value 41.75 is closest to 42.75. That matches choice C — <strong>C</strong> is correct."}]}

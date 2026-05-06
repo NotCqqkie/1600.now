@@ -1,15 +1,1 @@
-{
-  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_17",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the perimeter formula",
-      "content": "The perimeter of a rectangle is $P = 2(\\text{length} + \\text{width})$. With the given dimensions (length $x + 35$, width $x$):<br/><br/>$$P = 2((x + 35) + x) = 2(2x + 35) = 4x + 70$$"
-    },
-    {
-      "title": "Convert the perimeter constraint to an inequality",
-      "content": "The phrase <em>at least 520</em> means the perimeter must be greater than or equal to 520 centimeters. Therefore:<br/><br/>$$4x + 70 \\geq 520$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_17", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the perimeter formula", "content": "The perimeter of a rectangle is $P = 2(\\text{length} + \\text{width})$. With the given dimensions (length $x + 35$, width $x$):<br/>$$P = 2((x + 35) + x) = 2(2x + 35) = 4x + 70$$"}, {"title": "Convert the perimeter constraint to an inequality", "content": "The phrase <em>at least 520</em> means the perimeter must be greater than or equal to 520 centimeters. Therefore:<br/>$$4x + 70 \\geq 520$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

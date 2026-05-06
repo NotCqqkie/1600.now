@@ -1,15 +1,1 @@
-{
-  "questionId": "776cfa7c",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the linear function form",
-      "content": "The function is<br/><br/>$$f(t) = 100 + 25t$$<br/><br/>This is a linear function in the standard form $f(t) = b + mt$, where:<br/><ul><li>$b = 100$ is the y-intercept (initial value when $t = 0$)</li><li>$m = 25$ is the slope (coefficient of $t$, representing the rate of change)</li></ul>"
-    },
-    {
-      "title": "Interpret the slope in context",
-      "content": "The slope of a linear function represents how much the output changes for each unit increase in the input. Since $t$ is the number of monthly deposits, a slope of 25 means the account balance increases by $\\$25$ for each additional deposit. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "776cfa7c", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize the linear function form", "content": "The function is<br/>$$f(t) = 100 + 25t$$<br/>This is a linear function in the standard form $f(t) = b + mt$, where:<br/><ul><li>$b = 100$ is the y-intercept (initial value when $t = 0$)</li><li>$m = 25$ is the slope (coefficient of $t$, representing the rate of change)</li></ul>"}, {"title": "Interpret the slope in context", "content": "The slope of a linear function represents how much the output changes for each unit increase in the input. Since $t$ is the number of monthly deposits, a slope of 25 means the account balance increases by $\\$25$ for each additional deposit. That matches choice A — <strong>A</strong> is correct."}]}

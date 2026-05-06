@@ -1,15 +1,1 @@
-{
-  "questionId": "1073d70c",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert the percent increase to a growth factor",
-      "content": "When the number of comments increases by 190%, the new value is the original value plus 190% of it. Mathematically:<br/><br/>$$\\text{new} = \\text{old} + 1.90 \\times \\text{old} = \\text{old}(1 + 1.90) = \\text{old} \\times 2.9$$<br/><br/>So the growth factor per hour is 2.9."
-    },
-    {
-      "title": "Apply the exponential model formula",
-      "content": "For exponential growth, the model is $C = C_0 r^t$, where $C_0$ is the initial value and $r$ is the growth factor per time unit. Here, $C_0 = 40$ and $r = 2.9$, giving:<br/><br/>$$C = 40(2.9)^t$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1073d70c", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert the percent increase to a growth factor", "content": "When the number of comments increases by 190%, the new value is the original value plus 190% of it. Mathematically:<br/>$$\\text{new} = \\text{old} + 1.90 \\times \\text{old} = \\text{old}(1 + 1.90) = \\text{old} \\times 2.9$$<br/>So the growth factor per hour is 2.9."}, {"title": "Apply the exponential model formula", "content": "For exponential growth, the model is $C = C_0 r^t$, where $C_0$ is the initial value and $r$ is the growth factor per time unit. Here, $C_0 = 40$ and $r = 2.9$, giving:<br/>$$C = 40(2.9)^t$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

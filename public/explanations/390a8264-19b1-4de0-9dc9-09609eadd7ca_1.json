@@ -1,16 +1,1 @@
-{
-  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_1",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize slope-intercept form",
-      "content": "The equation of a line has the form shown below, where $m$ is the slope and $b$ is the y-intercept. We're given $m = -\\frac{1}{4}$ and need to find $b$.",
-      "formula": "$$y = mx + b$$"
-    },
-    {
-      "title": "Find the y-intercept and write the equation",
-      "content": "The point $(0, 19)$ lies on the y-axis, so $b = 19$. Substituting $m = -\\frac{1}{4}$ and $b = 19$:<br/><br/>$$y = -\\frac{1}{4}x + 19$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recognize slope-intercept form", "content": "The equation of a line has the form shown below, where $m$ is the slope and $b$ is the y-intercept. We're given $m = -\\frac{1}{4}$ and need to find $b$.", "formula": "$$y = mx + b$$"}, {"title": "Find the y-intercept and write the equation", "content": "The point $(0, 19)$ lies on the y-axis, so $b = 19$. Substituting $m = -\\frac{1}{4}$ and $b = 19$:<br/>$$y = -\\frac{1}{4}x + 19$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

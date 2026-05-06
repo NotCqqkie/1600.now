@@ -1,15 +1,1 @@
-{
-  "questionId": "8e2e424e",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate '36% greater than 50'",
-      "content": "When a number is 36% greater than 50, we multiply 50 by $(1 + 0.36)$:<br/>$$k = 50(1 + 0.36) = 50(1.36)$$"
-    },
-    {
-      "title": "Find r using the condition k = 50r",
-      "content": "We are told that $k = 50r$. Since $k = 50(1.36)$, we can substitute:<br/>$$50(1.36) = 50r$$<br/><br/>Dividing both sides by 50 gives:<br/>$$r = 1.36$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8e2e424e", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Translate '36% greater than 50'", "content": "When a number is 36% greater than 50, we multiply 50 by $(1 + 0.36)$:<br/>$$k = 50(1 + 0.36) = 50(1.36)$$"}, {"title": "Find r using the condition k = 50r", "content": "We are told that $k = 50r$. Since $k = 50(1.36)$, we can substitute:<br/>$$50(1.36) = 50r$$<br/>Dividing both sides by 50 gives:<br/>$$r = 1.36$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

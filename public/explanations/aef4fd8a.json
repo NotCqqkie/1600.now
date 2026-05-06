@@ -1,16 +1,1 @@
-{
-  "questionId": "aef4fd8a",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the area formula for a square",
-      "content": "For any square with side length $s$, the area equals the side length multiplied by itself.",
-      "formula": "$$\\text{Area} = s \\times s$$"
-    },
-    {
-      "title": "Apply the given side length and find the answer",
-      "content": "The side length is 94 cm. Substituting into the formula:<br/>$$94 \\cdot 94$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "aef4fd8a", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recall the area formula for a square", "content": "For any square with side length $s$, the area equals the side length multiplied by itself.", "formula": "$$\\text{Area} = s \\times s$$"}, {"title": "Apply the given side length and find the answer", "content": "The side length is 94 cm. Substituting into the formula:<br/>$$94 \\cdot 94$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

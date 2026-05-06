@@ -1,15 +1,1 @@
-{
-  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_5",
-  "correctAnswer": "18",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "At the x-intercept, y equals zero",
-      "content": "The x-intercept occurs where the graph crosses the x-axis. At this point, $y = 0$, so we solve $g(x) = 0$."
-    },
-    {
-      "title": "Solve the equation for x",
-      "content": "Set $g(x) = 0$ and substitute:<br/><br/>$$x - 18 = 0$$<br/><br/>$$x = 18$$"
-    }
-  ]
-}
+{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_5", "correctAnswer": "18", "section": "Math", "steps": [{"title": "At the x-intercept, y equals zero", "content": "The x-intercept occurs where the graph crosses the x-axis. At this point, $y = 0$, so we solve $g(x) = 0$."}, {"title": "Solve the equation for x", "content": "Set $g(x) = 0$ and substitute:<br/>$$x - 18 = 0$$<br/>$$x = 18$$"}]}

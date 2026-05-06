@@ -1,15 +1,1 @@
-{
-  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_13",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distinguish vertical and horizontal translations",
-      "content": "Vertical translations (up or down) change the <strong>constant term</strong> in $y = mx + b$, while horizontal translations (left or right) change the <strong>x-term</strong>. Since we're translating down (vertical), we need to modify the constant term, not the x-term."
-    },
-    {
-      "title": "Apply the vertical translation",
-      "content": "A translation 8 units <strong>down</strong> means every y-value decreases by 8, so we subtract 8 from the original equation. Starting with $y = 9x$ and subtracting 8:<br/><br/>$$y = 9x - 8$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_13", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Distinguish vertical and horizontal translations", "content": "Vertical translations (up or down) change the <strong>constant term</strong> in $y = mx + b$, while horizontal translations (left or right) change the <strong>x-term</strong>. Since we're translating down (vertical), we need to modify the constant term, not the x-term."}, {"title": "Apply the vertical translation", "content": "A translation 8 units <strong>down</strong> means every y-value decreases by 8, so we subtract 8 from the original equation. Starting with $y = 9x$ and subtracting 8:<br/>$$y = 9x - 8$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

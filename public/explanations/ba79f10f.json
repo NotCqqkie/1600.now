@@ -1,15 +1,1 @@
-{
-  "questionId": "ba79f10f",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract the y-intercept from the table",
-      "content": "When $x = 0$, the table shows $y = 18$. For a linear equation $y = mx + b$, the y-intercept is the $y$-value when $x = 0$. Therefore, $b = 18$."
-    },
-    {
-      "title": "Calculate the slope and identify the equation",
-      "content": "Using the points $(0, 18)$ and $(1, 13)$ from the table:<br/><br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{13 - 18}{1 - 0} = \\frac{-5}{1} = -5$$<br/><br/>With slope $m = -5$ and y-intercept $b = 18$, the equation is $y = -5x + 18$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ba79f10f", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Extract the y-intercept from the table", "content": "When $x = 0$, the table shows $y = 18$. For a linear equation $y = mx + b$, the y-intercept is the $y$-value when $x = 0$. Therefore, $b = 18$."}, {"title": "Calculate the slope and identify the equation", "content": "Using the points $(0, 18)$ and $(1, 13)$ from the table:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{13 - 18}{1 - 0} = \\frac{-5}{1} = -5$$<br/>With slope $m = -5$ and y-intercept $b = 18$, the equation is $y = -5x + 18$. That matches choice D — <strong>D</strong> is correct."}]}

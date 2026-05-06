@@ -1,15 +1,1 @@
-{
-  "questionId": "60caadfd",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the igneous frequency from the table",
-      "content": "Looking at the frequency table: igneous rocks have a frequency of 10. The problem states there are 70 rocks total in the collection."
-    },
-    {
-      "title": "Apply the probability formula",
-      "content": "Probability of selecting a rock is the ratio of favorable outcomes to total outcomes:<br/><br/>$$P(\\text{igneous}) = \\frac{\\text{Number of igneous rocks}}{\\text{Total number of rocks}} = \\frac{10}{70}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "60caadfd", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Read the igneous frequency from the table", "content": "Looking at the frequency table: igneous rocks have a frequency of 10. The problem states there are 70 rocks total in the collection."}, {"title": "Apply the probability formula", "content": "Probability of selecting a rock is the ratio of favorable outcomes to total outcomes:<br/>$$P(\\text{igneous}) = \\frac{\\text{Number of igneous rocks}}{\\text{Total number of rocks}} = \\frac{10}{70}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

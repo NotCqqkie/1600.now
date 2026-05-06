@@ -1,16 +1,1 @@
-{
-  "questionId": "1993561d",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept",
-      "content": "The point $(0, 5)$ tells us that when $x = 0$, we have $y = 5$. This is the y-intercept: $b = 5$."
-    },
-    {
-      "title": "Write the equation using slope-intercept form",
-      "content": "With slope $m = \\frac{1}{4}$ and y-intercept $b = 5$, substitute into the form to get:<br/><br/>$$f(x) = \\frac{1}{4}x + 5$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$y = mx + b$$"
-    }
-  ]
-}
+{"questionId": "1993561d", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the y-intercept", "content": "The point $(0, 5)$ tells us that when $x = 0$, we have $y = 5$. This is the y-intercept: $b = 5$."}, {"title": "Write the equation using slope-intercept form", "content": "With slope $m = \\frac{1}{4}$ and y-intercept $b = 5$, substitute into the form to get:<br/>$$f(x) = \\frac{1}{4}x + 5$$<br/>This matches choice A — <strong>A</strong> is correct.", "formula": "$$y = mx + b$$"}]}

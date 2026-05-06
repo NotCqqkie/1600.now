@@ -1,15 +1,1 @@
-{
-  "questionId": "974d33dc",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Arrange terms by degree",
-      "content": "We need to find $(r^3 + 5r^2 + 7) + (r^2 + 8r + 12)$. Organize both polynomials by degree:<br/><br/>$$r^3 + 5r^2 + 0r + 7$$<br/>$$+ 0r^3 + r^2 + 8r + 12$$"
-    },
-    {
-      "title": "Combine like terms",
-      "content": "Add coefficients of each degree:<ul><li>$r^3$ terms: $1 + 0 = 1$, so $r^3$</li><li>$r^2$ terms: $5 + 1 = 6$, so $6r^2$</li><li>$r$ terms: $0 + 8 = 8$, so $8r$</li><li>Constants: $7 + 12 = 19$</li></ul><br/>The sum is $r^3 + 6r^2 + 8r + 19$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "974d33dc", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Arrange terms by degree", "content": "We need to find $(r^3 + 5r^2 + 7) + (r^2 + 8r + 12)$. Organize both polynomials by degree:<br/>$$r^3 + 5r^2 + 0r + 7$$<br/>$$+ 0r^3 + r^2 + 8r + 12$$"}, {"title": "Combine like terms", "content": "Add coefficients of each degree:<ul><li>$r^3$ terms: $1 + 0 = 1$, so $r^3$</li><li>$r^2$ terms: $5 + 1 = 6$, so $6r^2$</li><li>$r$ terms: $0 + 8 = 8$, so $8r$</li><li>Constants: $7 + 12 = 19$</li></ul><br/>The sum is $r^3 + 6r^2 + 8r + 19$. That matches choice D — <strong>D</strong> is correct."}]}

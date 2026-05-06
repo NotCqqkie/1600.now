@@ -1,15 +1,1 @@
-{
-  "questionId": "30281058",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the coordinates of both intersection points",
-      "content": "The parabola equation is $y = x^2 - 9$. At the first point where $x = 1$:<br/>$$y = 1^2 - 9 = 1 - 9 = -8$$<br/>So $a = -8$ and the first point is $(1, -8)$.<br/><br/>At the second point where $x = 5$:<br/>$$y = 5^2 - 9 = 25 - 9 = 16$$<br/>So $b = 16$ and the second point is $(5, 16)$."
-    },
-    {
-      "title": "Calculate the slope between the two points",
-      "content": "Using the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $(1, -8)$ and $(5, 16)$:<br/>$$m = \\frac{16 - (-8)}{5 - 1} = \\frac{24}{4} = 6$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "30281058", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the coordinates of both intersection points", "content": "The parabola equation is $y = x^2 - 9$. At the first point where $x = 1$:<br/>$$y = 1^2 - 9 = 1 - 9 = -8$$<br/>So $a = -8$ and the first point is $(1, -8)$.<br/><br/>At the second point where $x = 5$:<br/>$$y = 5^2 - 9 = 25 - 9 = 16$$<br/>So $b = 16$ and the second point is $(5, 16)$."}, {"title": "Calculate the slope between the two points", "content": "Using the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $(1, -8)$ and $(5, 16)$:<br/>$$m = \\frac{16 - (-8)}{5 - 1} = \\frac{24}{4} = 6$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

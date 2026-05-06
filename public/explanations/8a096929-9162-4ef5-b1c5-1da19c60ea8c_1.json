@@ -1,16 +1,1 @@
-{
-  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert the percentage to a multiplier",
-      "content": "The phrase <em>200% of</em> means we multiply by the decimal equivalent of 200%. So Levi's collection is 2 times (or twice) the size of Marissa's collection.",
-      "formula": "$$200\\% = \\frac{200}{100} = 2$$"
-    },
-    {
-      "title": "Calculate Levi's stamp count",
-      "content": "Multiply Marissa's stamp count by the multiplier we found:<br/><br/>$$\\text{Levi's stamps} = 2 \\times 460 = 920$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Convert the percentage to a multiplier", "content": "The phrase <em>200% of</em> means we multiply by the decimal equivalent of 200%. So Levi's collection is 2 times (or twice) the size of Marissa's collection.", "formula": "$$200\\% = \\frac{200}{100} = 2$$"}, {"title": "Calculate Levi's stamp count", "content": "Multiply Marissa's stamp count by the multiplier we found:<br/>$$\\text{Levi's stamps} = 2 \\times 460 = 920$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

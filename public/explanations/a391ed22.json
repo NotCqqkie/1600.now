@@ -1,15 +1,1 @@
-{
-  "questionId": "a391ed22",
-  "correctAnswer": "$\\frac{5}{2}$",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up FOIL to find the coefficient of x",
-      "content": "When multiplying $(\\frac{1}{2}x + \\frac{3}{2}) \\times (\\frac{3}{2}x + \\frac{1}{2})$, we use FOIL to expand. The coefficient of $x$ comes only from the outer and inner products\u2014we can skip the first and last products."
-    },
-    {
-      "title": "Calculate the outer and inner products",
-      "content": "<strong>Outer product:</strong><br/>$$\\frac{1}{2}x \\cdot \\frac{1}{2} = \\frac{1}{4}x$$<br/><br/><strong>Inner product:</strong><br/>$$\\frac{3}{2} \\cdot \\frac{3}{2}x = \\frac{9}{4}x$$<br/><br/><strong>Combine the $x$ terms:</strong><br/>$$\\frac{1}{4}x + \\frac{9}{4}x = \\frac{10}{4}x = \\frac{5}{2}x$$<br/><br/>Therefore, $b = \\frac{5}{2}$."
-    }
-  ]
-}
+{"questionId": "a391ed22", "correctAnswer": "$\\frac{5}{2}$", "section": "Math", "steps": [{"title": "Set up FOIL to find the coefficient of x", "content": "When multiplying $(\\frac{1}{2}x + \\frac{3}{2}) \\times (\\frac{3}{2}x + \\frac{1}{2})$, we use FOIL to expand. The coefficient of $x$ comes only from the outer and inner products—we can skip the first and last products."}, {"title": "Calculate the outer and inner products", "content": "<strong>Outer product:</strong><br/>$$\\frac{1}{2}x \\cdot \\frac{1}{2} = \\frac{1}{4}x$$<br/><strong>Inner product:</strong><br/>$$\\frac{3}{2} \\cdot \\frac{3}{2}x = \\frac{9}{4}x$$<br/><strong>Combine the $x$ terms:</strong><br/>$$\\frac{1}{4}x + \\frac{9}{4}x = \\frac{10}{4}x = \\frac{5}{2}x$$<br/>Therefore, $b = \\frac{5}{2}$."}]}

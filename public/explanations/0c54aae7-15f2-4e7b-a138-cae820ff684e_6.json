@@ -1,15 +1,1 @@
-{
-  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_6",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope using the two points",
-      "content": "From the table, we have the points $(4, 17)$ and $(6, 23)$. For a linear function, the slope is constant:<br/><br/>$$m = \\frac{\\Delta h(x)}{\\Delta x} = \\frac{23 - 17}{6 - 4} = \\frac{6}{2} = 3$$"
-    },
-    {
-      "title": "Use the slope and one point to find b",
-      "content": "With slope $m = 3$, use the point $(4, 17)$ in the linear form $h(x) = mx + b$:<br/><br/>$$17 = 3(4) + b$$$$17 = 12 + b$$$$b = 5$$<br/><br/>Therefore $h(x) = 3x + 5$. Verify with the second point: $h(6) = 3(6) + 5 = 23$ \u2713<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_6", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope using the two points", "content": "From the table, we have the points $(4, 17)$ and $(6, 23)$. For a linear function, the slope is constant:<br/>$$m = \\frac{\\Delta h(x)}{\\Delta x} = \\frac{23 - 17}{6 - 4} = \\frac{6}{2} = 3$$"}, {"title": "Use the slope and one point to find b", "content": "With slope $m = 3$, use the point $(4, 17)$ in the linear form $h(x) = mx + b$:<br/>$$17 = 3(4) + b$$$$17 = 12 + b$$$$b = 5$$<br/>Therefore $h(x) = 3x + 5$. Verify with the second point: $h(6) = 3(6) + 5 = 23$ ✓<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "44d65912",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Write the equation for the first game",
-      "content": "Angela scored 700 points by collecting 20 coins and 10 stars. Since each coin is worth $c$ points and each star is worth $s$ points:<br/>$$20c + 10s = 700$$"
-    },
-    {
-      "title": "Write the equation for the second game and identify the answer",
-      "content": "Angela scored 850 points by collecting 25 coins and 12 stars:<br/>$$25c + 12s = 850$$<br/><br/>The system of equations is:<br/>$$20c + 10s = 700$$<br/>$$25c + 12s = 850$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "44d65912", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Write the equation for the first game", "content": "Angela scored 700 points by collecting 20 coins and 10 stars. Since each coin is worth $c$ points and each star is worth $s$ points:<br/>$$20c + 10s = 700$$"}, {"title": "Write the equation for the second game and identify the answer", "content": "Angela scored 850 points by collecting 25 coins and 12 stars:<br/>$$25c + 12s = 850$$<br/>The system of equations is:<br/>$$20c + 10s = 700$$<br/>$$25c + 12s = 850$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the key quantity is already known",
-      "content": "We're given that $5c = 15$. Rather than solve for $c$ and then substitute back, notice that the expression $5c - 8$ contains the exact quantity we already know: $5c$. This is the fastest approach\u2014work directly with the known value instead of finding $c$ first."
-    },
-    {
-      "title": "Substitute and evaluate",
-      "content": "Since $5c = 15$, substitute directly into the target expression:<br/><br/>$$5c - 8 = 15 - 8 = 7$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_7", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Recognize the key quantity is already known", "content": "We're given that $5c = 15$. Rather than solve for $c$ and then substitute back, notice that the expression $5c - 8$ contains the exact quantity we already know: $5c$. This is the fastest approach—work directly with the known value instead of finding $c$ first."}, {"title": "Substitute and evaluate", "content": "Since $5c = 15$, substitute directly into the target expression:<br/>$$5c - 8 = 15 - 8 = 7$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

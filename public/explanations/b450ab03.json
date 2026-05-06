@@ -1,15 +1,1 @@
-{
-  "questionId": "b450ab03",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the rates and variables",
-      "content": "Let $x$ = number of sandwiches and $y$ = number of salads. Each sandwich takes 1.5 minutes and each salad takes 1.9 minutes. The employee spends a total of 46.1 minutes preparing all items."
-    },
-    {
-      "title": "Build the total time equation",
-      "content": "For each item type, multiply the time per item by the quantity:<br/><ul><li>Sandwiches: $1.5x$ minutes</li><li>Salads: $1.9y$ minutes</li></ul><br/>Setting the sum of these times equal to the total:<br/>$$1.5x + 1.9y = 46.1$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b450ab03", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the rates and variables", "content": "Let $x$ = number of sandwiches and $y$ = number of salads. Each sandwich takes 1.5 minutes and each salad takes 1.9 minutes. The employee spends a total of 46.1 minutes preparing all items."}, {"title": "Build the total time equation", "content": "For each item type, multiply the time per item by the quantity:<br/><ul><li>Sandwiches: $1.5x$ minutes</li><li>Salads: $1.9y$ minutes</li></ul><br/>Setting the sum of these times equal to the total:<br/>$$1.5x + 1.9y = 46.1$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

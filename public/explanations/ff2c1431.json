@@ -1,15 +1,1 @@
-{
-  "questionId": "ff2c1431",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Divide both sides by 5",
-      "content": "Starting with $7m = 5(n+p)$, divide both sides by 5 to remove the coefficient on the right side:<br/><br/>$$\\frac{7m}{5} = n + p$$"
-    },
-    {
-      "title": "Subtract p to isolate n",
-      "content": "Subtract $p$ from both sides:<br/><br/>$$\\frac{7m}{5} - p = n$$<br/><br/>Rearranging, $n = \\frac{7m}{5} - p$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff2c1431", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Divide both sides by 5", "content": "Starting with $7m = 5(n+p)$, divide both sides by 5 to remove the coefficient on the right side:<br/>$$\\frac{7m}{5} = n + p$$"}, {"title": "Subtract p to isolate n", "content": "Subtract $p$ from both sides:<br/>$$\\frac{7m}{5} - p = n$$<br/>Rearranging, $n = \\frac{7m}{5} - p$. That matches choice B — <strong>B</strong> is correct."}]}

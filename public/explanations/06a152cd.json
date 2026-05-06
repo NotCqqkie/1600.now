@@ -1,15 +1,1 @@
-{
-  "questionId": "06a152cd",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate total ounces of chocolate needed",
-      "content": "Each muffin requires 2.5 ounces, and we're making 48 muffins.<br/><br/>$$2.5 \\text{ ounces/muffin} \\times 48 \\text{ muffins} = 120 \\text{ ounces}$$"
-    },
-    {
-      "title": "Convert ounces to pounds",
-      "content": "The problem asks for the answer in pounds. Use the given conversion: 1 pound = 16 ounces.<br/><br/>$$\\frac{120 \\text{ ounces}}{16 \\text{ ounces/pound}} = 7.5 \\text{ pounds}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "06a152cd", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Calculate total ounces of chocolate needed", "content": "Each muffin requires 2.5 ounces, and we're making 48 muffins.<br/>$$2.5 \\text{ ounces/muffin} \\times 48 \\text{ muffins} = 120 \\text{ ounces}$$"}, {"title": "Convert ounces to pounds", "content": "The problem asks for the answer in pounds. Use the given conversion: 1 pound = 16 ounces.<br/>$$\\frac{120 \\text{ ounces}}{16 \\text{ ounces/pound}} = 7.5 \\text{ pounds}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

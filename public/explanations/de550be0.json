@@ -1,16 +1,1 @@
-{
-  "questionId": "de550be0",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the right triangle and sides",
-      "content": "The small square at the bottom right indicates a right angle. The triangle has:<ul><li>Hypotenuse (longest side, opposite the right angle) = 21</li><li>One leg (vertical side) = 6</li><li>Other leg (horizontal side) = $a$ (what we're solving for)</li></ul>"
-    },
-    {
-      "title": "Apply the Pythagorean theorem and solve for a",
-      "content": "For a right triangle, the Pythagorean theorem states:<br/>$$a^2 + b^2 = c^2$$<br/><br/>Substitute the known values:<br/>$$a^2 + 6^2 = 21^2$$<br/><br/>Isolate $a^2$:<br/>$$a^2 = 21^2 - 6^2$$<br/><br/>Take the square root of both sides:<br/>$$a = \\sqrt{21^2 - 6^2}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$a = \\sqrt{21^2 - 6^2}$$"
-    }
-  ]
-}
+{"questionId": "de550be0", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the right triangle and sides", "content": "The small square at the bottom right indicates a right angle. The triangle has:<ul><li>Hypotenuse (longest side, opposite the right angle) = 21</li><li>One leg (vertical side) = 6</li><li>Other leg (horizontal side) = $a$ (what we're solving for)</li></ul>"}, {"title": "Apply the Pythagorean theorem and solve for a", "content": "For a right triangle, the Pythagorean theorem states:<br/>$$a^2 + b^2 = c^2$$<br/>Substitute the known values:<br/>$$a^2 + 6^2 = 21^2$$<br/>Isolate $a^2$:<br/>$$a^2 = 21^2 - 6^2$$<br/>Take the square root of both sides:<br/>$$a = \\sqrt{21^2 - 6^2}$$<br/>That matches choice A — <strong>A</strong> is correct.", "formula": "$$a = \\sqrt{21^2 - 6^2}$$"}]}

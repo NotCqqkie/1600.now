@@ -1,16 +1,1 @@
-{
-  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_11",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the constant c using function p",
-      "content": "Since $p$ is linear with slope 8, we can write $p(x) = 8x + b$. Using $p(4) = 38$:<br/><br/>$$8(4) + b = 38$$<br/>$$32 + b = 38$$<br/>$$b = 6$$<br/><br/>So $p(x) = 8x + 6$. Now use the condition $p(c) = -2$:<br/><br/>$$8c + 6 = -2$$<br/>$$8c = -8$$<br/>$$c = -1$$"
-    },
-    {
-      "title": "Find the slope of t using two points",
-      "content": "We now know $c = -1$, so $t(c) = t(-1) = -3$. We also know $t(5) = 51$. Using the slope formula with two points $(x_1, y_1) = (-1, -3)$ and $(x_2, y_2) = (5, 51)$:<br/><br/>$$m = \\frac{51 - (-3)}{5 - (-1)} = \\frac{54}{6} = 9$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
-    }
-  ]
-}
+{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_11", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the constant c using function p", "content": "Since $p$ is linear with slope 8, we can write $p(x) = 8x + b$. Using $p(4) = 38$:<br/>$$8(4) + b = 38$$<br/>$$32 + b = 38$$<br/>$$b = 6$$<br/>So $p(x) = 8x + 6$. Now use the condition $p(c) = -2$:<br/>$$8c + 6 = -2$$<br/>$$8c = -8$$<br/>$$c = -1$$"}, {"title": "Find the slope of t using two points", "content": "We now know $c = -1$, so $t(c) = t(-1) = -3$. We also know $t(5) = 51$. Using the slope formula with two points $(x_1, y_1) = (-1, -3)$ and $(x_2, y_2) = (5, 51)$:<br/>$$m = \\frac{51 - (-3)}{5 - (-1)} = \\frac{54}{6} = 9$$<br/>That matches choice D — <strong>D</strong> is correct.", "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"}]}

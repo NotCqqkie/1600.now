@@ -1,16 +1,1 @@
-{
-  "questionId": "284303f1",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the percentage calculation",
-      "content": "We need to find what 6% of 250 equals. Using the percentage formula, we identify: percent = 6%, whole = 250 trees.",
-      "formula": "$$\\text{part} = \\frac{\\text{percent}}{100} \\times \\text{whole}$$"
-    },
-    {
-      "title": "Calculate the number of birch trees",
-      "content": "Number of birch trees = $\\frac{6}{100} \\times 250$. Simplify:<br/>$$\\frac{6 \\times 250}{100} = \\frac{1500}{100} = 15$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "284303f1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the percentage calculation", "content": "We need to find what 6% of 250 equals. Using the percentage formula, we identify: percent = 6%, whole = 250 trees.", "formula": "$$\\text{part} = \\frac{\\text{percent}}{100} \\times \\text{whole}$$"}, {"title": "Calculate the number of birch trees", "content": "Number of birch trees = $\\frac{6}{100} \\times 250$. Simplify:<br/>$$\\frac{6 \\times 250}{100} = \\frac{1500}{100} = 15$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

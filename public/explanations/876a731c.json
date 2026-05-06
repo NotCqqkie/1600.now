@@ -1,15 +1,1 @@
-{
-  "questionId": "876a731c",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify the linear equation",
-      "content": "Expand and simplify the second equation:<br/><br/>$$2y + 6 = 2(x + 3)$$<br/>$$2y + 6 = 2x + 6$$<br/>$$2y = 2x$$<br/>$$y = x$$"
-    },
-    {
-      "title": "Substitute and solve for the positive root",
-      "content": "Now we have two expressions for $y$:<br/><ul><li>From the first equation: $y = x^2$</li><li>From the simplified equation: $y = x$</li></ul><br/>Set them equal:<br/><br/>$$x^2 = x$$<br/>$$x^2 - x = 0$$<br/>$$x(x - 1) = 0$$<br/><br/>This gives $x = 0$ or $x = 1$. Since $x > 0$, we have $x = 1$.<br/><br/>Substituting back: $y = x = 1$, so $xy = 1 \\cdot 1 = 1$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "876a731c", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Simplify the linear equation", "content": "Expand and simplify the second equation:<br/>$$2y + 6 = 2(x + 3)$$<br/>$$2y + 6 = 2x + 6$$<br/>$$2y = 2x$$<br/>$$y = x$$"}, {"title": "Substitute and solve for the positive root", "content": "Now we have two expressions for $y$:<br/><ul><li>From the first equation: $y = x^2$</li><li>From the simplified equation: $y = x$</li></ul><br/>Set them equal:<br/>$$x^2 = x$$<br/>$$x^2 - x = 0$$<br/>$$x(x - 1) = 0$$<br/>This gives $x = 0$ or $x = 1$. Since $x > 0$, we have $x = 1$.<br/><br/>Substituting back: $y = x = 1$, so $xy = 1 \\cdot 1 = 1$. That matches choice A — <strong>A</strong> is correct."}]}

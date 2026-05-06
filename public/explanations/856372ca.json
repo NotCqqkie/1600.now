@@ -1,16 +1,1 @@
-{
-  "questionId": "856372ca",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the standard circle equation",
-      "content": "The standard equation of a circle with center $(h, k)$ and radius $r$ is given by the formula below.<br/><br/>From the problem, the center is at $(-8, 6)$ and the radius is 5. Therefore:<ul><li>$h = -8$</li><li>$k = 6$</li><li>$r^2 = 5^2 = 25$</li></ul>",
-      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
-    },
-    {
-      "title": "Substitute and simplify",
-      "content": "Substitute the center coordinates and radius-squared into the standard form:<br/><br/>$$(x - (-8))^2 + (y - 6)^2 = 25$$<br/><br/>Simplify the double negative in the first term:<br/><br/>$$(x + 8)^2 + (y - 6)^2 = 25$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "856372ca", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the standard circle equation", "content": "The standard equation of a circle with center $(h, k)$ and radius $r$ is given by the formula below.<br/><br/>From the problem, the center is at $(-8, 6)$ and the radius is 5. Therefore:<ul><li>$h = -8$</li><li>$k = 6$</li><li>$r^2 = 5^2 = 25$</li></ul>", "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"}, {"title": "Substitute and simplify", "content": "Substitute the center coordinates and radius-squared into the standard form:<br/>$$(x - (-8))^2 + (y - 6)^2 = 25$$<br/>Simplify the double negative in the first term:<br/>$$(x + 8)^2 + (y - 6)^2 = 25$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

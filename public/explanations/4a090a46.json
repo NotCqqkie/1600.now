@@ -1,15 +1,1 @@
-{
-  "questionId": "4a090a46",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the inequality",
-      "content": "Julissa needs at least 100 hours total and currently has 86 hours. If we let $x$ = additional hours needed, then her total will be $86 + x$. The requirement becomes:<br/><br/>$$86 + x \\geq 100$$"
-    },
-    {
-      "title": "Solve for the minimum",
-      "content": "Subtract 86 from both sides to isolate $x$:<br/><br/>$$x \\geq 100 - 86$$<br/><br/>$$x \\geq 14$$<br/><br/>The minimum number of additional hours is 14. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4a090a46", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the inequality", "content": "Julissa needs at least 100 hours total and currently has 86 hours. If we let $x$ = additional hours needed, then her total will be $86 + x$. The requirement becomes:<br/>$$86 + x \\geq 100$$"}, {"title": "Solve for the minimum", "content": "Subtract 86 from both sides to isolate $x$:<br/>$$x \\geq 100 - 86$$<br/>$$x \\geq 14$$<br/>The minimum number of additional hours is 14. That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "379ffefb",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the Pythagorean theorem",
-      "content": "For a right triangle with legs $a$ and $b$ and hypotenuse $c$, we have $a^2 + b^2 = c^2$. With legs of 11 and 9 centimeters:<br/><br/>$$11^2 + 9^2 = c^2$$"
-    },
-    {
-      "title": "Calculate the hypotenuse",
-      "content": "Square the legs and add:<br/><br/>$$121 + 81 = c^2$$<br/>$$202 = c^2$$<br/>$$c = \\sqrt{202}$$<br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "379ffefb", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the Pythagorean theorem", "content": "For a right triangle with legs $a$ and $b$ and hypotenuse $c$, we have $a^2 + b^2 = c^2$. With legs of 11 and 9 centimeters:<br/>$$11^2 + 9^2 = c^2$$"}, {"title": "Calculate the hypotenuse", "content": "Square the legs and add:<br/>$$121 + 81 = c^2$$<br/>$$202 = c^2$$<br/>$$c = \\sqrt{202}$$<br/>This matches choice B — <strong>B</strong> is correct."}]}

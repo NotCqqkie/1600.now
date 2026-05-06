@@ -1,15 +1,1 @@
-{
-  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_3",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the initial value from the table",
-      "content": "At $x = 0$, the table shows $h(0) = 1.25$. For an exponential function of the form $h(x) = a \\cdot b^x$, when $x = 0$ we have $a \\cdot b^0 = a$. So the coefficient is 1.25, which eliminates choices A and B (both have coefficient 1.20)."
-    },
-    {
-      "title": "Calculate the base using another data point",
-      "content": "Using the point $(2, 1.80)$ from the table:<br/><br/>$$1.25 \\cdot b^2 = 1.80$$<br/><br/>$$b^2 = \\frac{1.80}{1.25} = 1.44$$<br/><br/>$$b = \\sqrt{1.44} = 1.2$$<br/><br/>Therefore, $h(x) = 1.25(1.20)^x$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the initial value from the table", "content": "At $x = 0$, the table shows $h(0) = 1.25$. For an exponential function of the form $h(x) = a \\cdot b^x$, when $x = 0$ we have $a \\cdot b^0 = a$. So the coefficient is 1.25, which eliminates choices A and B (both have coefficient 1.20)."}, {"title": "Calculate the base using another data point", "content": "Using the point $(2, 1.80)$ from the table:<br/>$$1.25 \\cdot b^2 = 1.80$$<br/>$$b^2 = \\frac{1.80}{1.25} = 1.44$$<br/>$$b = \\sqrt{1.44} = 1.2$$<br/>Therefore, $h(x) = 1.25(1.20)^x$. That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "9c0a0eca",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the triangle area formula",
-      "content": "The area of a triangle is one-half the product of its base and height:",
-      "formula": "$$A = \\frac{1}{2}bh$$"
-    },
-    {
-      "title": "Substitute the given values and calculate",
-      "content": "With base $b = 10$ cm and height $h = 70$ cm:<br/><br/>$$A = \\frac{1}{2} \\cdot 10 \\cdot 70$$<br/><br/>$$A = \\frac{700}{2} = 350$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9c0a0eca", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recall the triangle area formula", "content": "The area of a triangle is one-half the product of its base and height:", "formula": "$$A = \\frac{1}{2}bh$$"}, {"title": "Substitute the given values and calculate", "content": "With base $b = 10$ cm and height $h = 70$ cm:<br/>$$A = \\frac{1}{2} \\cdot 10 \\cdot 70$$<br/>$$A = \\frac{700}{2} = 350$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

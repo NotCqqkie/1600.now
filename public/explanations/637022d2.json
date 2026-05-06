@@ -1,15 +1,1 @@
-{
-  "questionId": "637022d2",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given value for reptiles",
-      "content": "We know $r = 16$. Substitute this into the equation $2.5b + 5r = 80$:<br/><br/>$$2.5b + 5(16) = 80$$<br/>$$2.5b + 80 = 80$$"
-    },
-    {
-      "title": "Solve for the number of birds",
-      "content": "Subtract 80 from both sides to isolate the term with $b$:<br/><br/>$$2.5b = 0$$<br/><br/>Divide both sides by 2.5:<br/><br/>$$b = 0$$<br/><br/>The business can care for 0 birds on this day. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "637022d2", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the given value for reptiles", "content": "We know $r = 16$. Substitute this into the equation $2.5b + 5r = 80$:<br/>$$2.5b + 5(16) = 80$$<br/>$$2.5b + 80 = 80$$"}, {"title": "Solve for the number of birds", "content": "Subtract 80 from both sides to isolate the term with $b$:<br/>$$2.5b = 0$$<br/>Divide both sides by 2.5:<br/>$$b = 0$$<br/>The business can care for 0 birds on this day. That matches choice A — <strong>A</strong> is correct."}]}

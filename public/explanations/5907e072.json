@@ -1,15 +1,1 @@
-{
-  "questionId": "5907e072",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given condition into the function",
-      "content": "The function is $f(x) = x + b$. We're told that when $x = 0$, $f(0) = 30$. Substituting these values into the function:<br/><br/>$$f(0) = 0 + b = 30$$"
-    },
-    {
-      "title": "Solve for b",
-      "content": "From the equation $0 + b = 30$, we immediately get $b = 30$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5907e072", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute the given condition into the function", "content": "The function is $f(x) = x + b$. We're told that when $x = 0$, $f(0) = 30$. Substituting these values into the function:<br/>$$f(0) = 0 + b = 30$$"}, {"title": "Solve for b", "content": "From the equation $0 + b = 30$, we immediately get $b = 30$. That matches choice D — <strong>D</strong> is correct."}]}

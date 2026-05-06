@@ -1,15 +1,1 @@
-{
-  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_19",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Complete the square to find vertex form",
-      "content": "Since the coefficient of $x^2$ is positive, the parabola opens upward and has a minimum at its vertex. The fastest approach is to complete the square. Take half the coefficient of $x$: $\\frac{1}{2} \\cdot \\frac{27}{2} = \\frac{27}{4}$. Then add and subtract the square of this value:<br/><br/>$$g(x) = x^2 + \\frac{27}{2}x + \\left(\\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$$<br/><br/>$$= \\left(x + \\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$$"
-    },
-    {
-      "title": "Extract the minimum value from vertex form",
-      "content": "In the form $g(x) = \\left(x + \\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$, the squared term $\\left(x + \\frac{27}{4}\\right)^2$ is always non-negative. Therefore, the minimum value occurs when this term equals 0:<br/><br/>$$g_{min} = 0 - \\left(\\frac{27}{4}\\right)^2 = -\\left(\\frac{27}{4}\\right)^2$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_19", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Complete the square to find vertex form", "content": "Since the coefficient of $x^2$ is positive, the parabola opens upward and has a minimum at its vertex. The fastest approach is to complete the square. Take half the coefficient of $x$: $\\frac{1}{2} \\cdot \\frac{27}{2} = \\frac{27}{4}$. Then add and subtract the square of this value:<br/>$$g(x) = x^2 + \\frac{27}{2}x + \\left(\\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$$<br/>$$= \\left(x + \\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$$"}, {"title": "Extract the minimum value from vertex form", "content": "In the form $g(x) = \\left(x + \\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$, the squared term $\\left(x + \\frac{27}{4}\\right)^2$ is always non-negative. Therefore, the minimum value occurs when this term equals 0:<br/>$$g_{min} = 0 - \\left(\\frac{27}{4}\\right)^2 = -\\left(\\frac{27}{4}\\right)^2$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

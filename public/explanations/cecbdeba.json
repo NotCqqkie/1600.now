@@ -1,16 +1,1 @@
-{
-  "questionId": "cecbdeba",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the cylinder volume formula",
-      "content": "The volume of a right circular cylinder is the product of its base area and height.<br/><br/>$$V = B \\cdot h$$<br/><br/>where $B$ is the base area and $h$ is the height. We're given $V = 432$ cubic centimeters and $B = 24$ square centimeters.",
-      "formula": "$$V = B \\cdot h$$"
-    },
-    {
-      "title": "Substitute and solve for height",
-      "content": "Substituting the known values:<br/><br/>$$432 = 24h$$<br/><br/>Divide both sides by 24:<br/><br/>$$h = \\frac{432}{24} = 18$$<br/><br/>The height is 18 centimeters. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cecbdeba", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the cylinder volume formula", "content": "The volume of a right circular cylinder is the product of its base area and height.<br/>$$V = B \\cdot h$$<br/>where $B$ is the base area and $h$ is the height. We're given $V = 432$ cubic centimeters and $B = 24$ square centimeters.", "formula": "$$V = B \\cdot h$$"}, {"title": "Substitute and solve for height", "content": "Substituting the known values:<br/>$$432 = 24h$$<br/>Divide both sides by 24:<br/>$$h = \\frac{432}{24} = 18$$<br/>The height is 18 centimeters. That matches choice A — <strong>A</strong> is correct."}]}

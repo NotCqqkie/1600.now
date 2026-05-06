@@ -1,16 +1,1 @@
-{
-  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_21",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the scale factor between the similar parallelograms",
-      "content": "Since each side of parallelogram PQRS is 2 times the length of the corresponding side of ABCD, the scale factor is $k = 2$."
-    },
-    {
-      "title": "Apply the area scaling rule for similar figures",
-      "content": "When two similar figures have a linear scale factor of $k$, their areas scale by $k^2$. Therefore:<br/><br/>$$\\text{Area of PQRS} = k^2 \\times \\text{Area of ABCD} = 2^2 \\times 30 = 4 \\times 30 = 120 \\text{ square cm}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$\\text{Area scales by } k^2 \\text{ for scale factor } k$$"
-    }
-  ]
-}
+{"questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_21", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the scale factor between the similar parallelograms", "content": "Since each side of parallelogram PQRS is 2 times the length of the corresponding side of ABCD, the scale factor is $k = 2$."}, {"title": "Apply the area scaling rule for similar figures", "content": "When two similar figures have a linear scale factor of $k$, their areas scale by $k^2$. Therefore:<br/>$$\\text{Area of PQRS} = k^2 \\times \\text{Area of ABCD} = 2^2 \\times 30 = 4 \\times 30 = 120 \\text{ square cm}$$<br/>That matches choice C — <strong>C</strong> is correct.", "formula": "$$\\text{Area scales by } k^2 \\text{ for scale factor } k$$"}]}

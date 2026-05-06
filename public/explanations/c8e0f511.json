@@ -1,15 +1,1 @@
-{
-  "questionId": "c8e0f511",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate each type of bottle into liters",
-      "content": "<strong>One-liter bottles:</strong> $x$ bottles \u00d7 1 liter per bottle = $x$ liters<br/><strong>Three-liter bottles:</strong> $y$ bottles \u00d7 3 liters per bottle = $3y$ liters"
-    },
-    {
-      "title": "Sum the contributions for the total",
-      "content": "Total water = (liters from one-liter bottles) + (liters from three-liter bottles)<br/>Total water = $x + 3y$<br/><br/>Since the total is 240 liters:<br/>$$x + 3y = 240$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c8e0f511", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate each type of bottle into liters", "content": "<strong>One-liter bottles:</strong> $x$ bottles × 1 liter per bottle = $x$ liters<br/><strong>Three-liter bottles:</strong> $y$ bottles × 3 liters per bottle = $3y$ liters"}, {"title": "Sum the contributions for the total", "content": "Total water = (liters from one-liter bottles) + (liters from three-liter bottles)<br/>Total water = $x + 3y$<br/><br/>Since the total is 240 liters:<br/>$$x + 3y = 240$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

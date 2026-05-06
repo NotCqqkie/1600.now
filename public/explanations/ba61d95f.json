@@ -1,16 +1,1 @@
-{
-  "questionId": "ba61d95f",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understanding percentage increase",
-      "content": "When a quantity increases by 7%, the new value equals the original amount plus 7% of the original. Mathematically:<br/><br/>$$\\text{New} = \\text{Original} + 0.07 \\times \\text{Original}$$<br/><br/>Factoring out the original:<br/><br/>$$\\text{New} = \\text{Original}(1 + 0.07) = 1.07 \\times \\text{Original}$$",
-      "formula": "$$1 + \\frac{p}{100}$$"
-    },
-    {
-      "title": "Finding the multiplier k",
-      "content": "From our calculation, the 2016 population equals 1.07 times the 2015 population. We're told the 2016 population equals k times the 2015 population. Therefore:<br/><br/>$$k = 1.07$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ba61d95f", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Understanding percentage increase", "content": "When a quantity increases by 7%, the new value equals the original amount plus 7% of the original. Mathematically:<br/>$$\\text{New} = \\text{Original} + 0.07 \\times \\text{Original}$$<br/>Factoring out the original:<br/>$$\\text{New} = \\text{Original}(1 + 0.07) = 1.07 \\times \\text{Original}$$", "formula": "$$1 + \\frac{p}{100}$$"}, {"title": "Finding the multiplier k", "content": "From our calculation, the 2016 population equals 1.07 times the 2015 population. We're told the 2016 population equals k times the 2015 population. Therefore:<br/>$$k = 1.07$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

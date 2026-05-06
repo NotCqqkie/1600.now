@@ -1,12 +1,1 @@
-{
-  "questionId": "40f0ee70",
-  "correctAnswer": "8",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the mean time",
-      "content": "From the table, the five tasks took 5, 2, 15, 9, and 9 minutes. The mean is:<br/><br/>$$\\text{Mean} = \\frac{5 + 2 + 15 + 9 + 9}{5} = \\frac{40}{5} = 8 \\text{ minutes}$$<br/><br/>Robert's mean time per task is <strong>8 minutes</strong>.",
-      "formula": "$$\\text{Mean} = \\frac{\\sum \\text{values}}{n}$$"
-    }
-  ]
-}
+{"questionId": "40f0ee70", "correctAnswer": "8", "section": "Math", "steps": [{"title": "Calculate the mean time", "content": "From the table, the five tasks took 5, 2, 15, 9, and 9 minutes. The mean is:<br/>$$\\text{Mean} = \\frac{5 + 2 + 15 + 9 + 9}{5} = \\frac{40}{5} = 8 \\text{ minutes}$$<br/>Robert's mean time per task is <strong>8 minutes</strong>.", "formula": "$$\\text{Mean} = \\frac{\\sum \\text{values}}{n}$$"}]}

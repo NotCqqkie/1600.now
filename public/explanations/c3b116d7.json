@@ -1,15 +1,1 @@
-{
-  "questionId": "c3b116d7",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Test expression I using the Factor Theorem",
-      "content": "By the Factor Theorem, $(x - 9)$ is a factor if and only if $f(9) = 0$. <br/><br/>$$f(9) = 3(9)^2 + 20(9) - 63 = 243 + 180 - 63 = 360$$<br/><br/>Since $f(9) = 360 \\neq 0$, expression I is NOT a factor."
-    },
-    {
-      "title": "Test expression II using the Factor Theorem",
-      "content": "By the Factor Theorem, $(3x - 7)$ is a factor if and only if $f(7/3) = 0$ (setting $3x - 7 = 0$ gives $x = 7/3$). <br/><br/>$$f(7/3) = 3\\left(\\frac{7}{3}\\right)^2 + 20\\left(\\frac{7}{3}\\right) - 63 = \\frac{49}{3} + \\frac{140}{3} - 63 = \\frac{189}{3} - 63 = 0$$<br/><br/>Since $f(7/3) = 0$, expression II IS a factor. Only statement II is a factor. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c3b116d7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Test expression I using the Factor Theorem", "content": "By the Factor Theorem, $(x - 9)$ is a factor if and only if $f(9) = 0$. <br/>$$f(9) = 3(9)^2 + 20(9) - 63 = 243 + 180 - 63 = 360$$<br/>Since $f(9) = 360 \\neq 0$, expression I is NOT a factor."}, {"title": "Test expression II using the Factor Theorem", "content": "By the Factor Theorem, $(3x - 7)$ is a factor if and only if $f(7/3) = 0$ (setting $3x - 7 = 0$ gives $x = 7/3$). <br/>$$f(7/3) = 3\\left(\\frac{7}{3}\\right)^2 + 20\\left(\\frac{7}{3}\\right) - 63 = \\frac{49}{3} + \\frac{140}{3} - 63 = \\frac{189}{3} - 63 = 0$$<br/>Since $f(7/3) = 0$, expression II IS a factor. Only statement II is a factor. That matches choice B — <strong>B</strong> is correct."}]}

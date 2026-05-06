@@ -1,17 +1,1 @@
-{
-  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_10",
-  "correctAnswer": "-12",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Write the equation using point-slope form",
-      "content": "We have a point $(16, 0)$ (the x-intercept) and slope $m = \\frac{3}{4}$. Apply the point-slope form:<br/><br/>$$y - 0 = \\frac{3}{4}(x - 16)$$",
-      "formula": "$$y - y_1 = m(x - x_1)$$"
-    },
-    {
-      "title": "Simplify to slope-intercept form to find the y-intercept",
-      "content": "Expand and simplify:<br/><br/>$$y = \\frac{3}{4}x - \\frac{3}{4} \\cdot 16$$<br/><br/>$$y = \\frac{3}{4}x - 12$$<br/><br/>In slope-intercept form, the y-intercept is the constant term: $-12$.",
-      "formula": "$$y = mx + b$$"
-    }
-  ]
-}
+{"questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_10", "correctAnswer": "-12", "section": "Math", "steps": [{"title": "Write the equation using point-slope form", "content": "We have a point $(16, 0)$ (the x-intercept) and slope $m = \\frac{3}{4}$. Apply the point-slope form:<br/>$$y - 0 = \\frac{3}{4}(x - 16)$$", "formula": "$$y - y_1 = m(x - x_1)$$"}, {"title": "Simplify to slope-intercept form to find the y-intercept", "content": "Expand and simplify:<br/>$$y = \\frac{3}{4}x - \\frac{3}{4} \\cdot 16$$<br/>$$y = \\frac{3}{4}x - 12$$<br/>In slope-intercept form, the y-intercept is the constant term: $-12$.", "formula": "$$y = mx + b$$"}]}

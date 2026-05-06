@@ -1,15 +1,1 @@
-{
-  "questionId": "9ed9f54d",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize and factor the common expression",
-      "content": "The expression $(x^2 - x)$ appears in both terms. Factor it out:<br/><br/>$$2(x^2 - x) + 3(x^2 - x) = (2+3)(x^2 - x)$$<br/><br/>Combine the coefficients: $(2+3)(x^2 - x) = 5(x^2 - x)$"
-    },
-    {
-      "title": "Distribute the coefficient",
-      "content": "Multiply 5 by each term inside the parentheses:<br/><br/>$$5(x^2 - x) = 5x^2 - 5x$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ed9f54d", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize and factor the common expression", "content": "The expression $(x^2 - x)$ appears in both terms. Factor it out:<br/>$$2(x^2 - x) + 3(x^2 - x) = (2+3)(x^2 - x)$$<br/>Combine the coefficients: $(2+3)(x^2 - x) = 5(x^2 - x)$"}, {"title": "Distribute the coefficient", "content": "Multiply 5 by each term inside the parentheses:<br/>$$5(x^2 - x) = 5x^2 - 5x$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

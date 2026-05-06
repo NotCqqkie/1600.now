@@ -1,11 +1,1 @@
-{
-  "questionId": "b680e76d",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the total to find the missing cell",
-      "content": "From the table: males who play = 312, females who play = 220, females who don't play = 216. Since all 1,000 students must be accounted for, males who don't play equals the total minus the three known cell values:<br/><br/>$$1,000 - (312 + 220 + 216) = 1,000 - 748 = 252$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b680e76d", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Use the total to find the missing cell", "content": "From the table: males who play = 312, females who play = 220, females who don't play = 216. Since all 1,000 students must be accounted for, males who don't play equals the total minus the three known cell values:<br/>$$1,000 - (312 + 220 + 216) = 1,000 - 748 = 252$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

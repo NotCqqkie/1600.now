@@ -1,16 +1,1 @@
-{
-  "questionId": "7b731fc3",
-  "correctAnswer": "161",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate 'X% greater than Y' into multiplication",
-      "content": "When a number is X% greater than Y, we compute $Y \\times (1 + \\frac{X}{100})$.<br/><br/>For 40% greater than 115:<br/>$$115 \\times (1 + 0.40) = 115 \\times 1.40$$",
-      "formula": "$$\\text{Result} = \\text{Original} \\times \\left(1 + \\frac{\\text{Percent}}{100}\\right)$$"
-    },
-    {
-      "title": "Multiply 115 by 1.40",
-      "content": "Split the multiplication:<br/>$$115 \\times 1.40 = 115 + 115 \\times 0.40$$<br/><br/>Find 40% of 115:<br/>$$115 \\times 0.40 = 46$$<br/><br/>Add:<br/>$$115 + 46 = 161$$"
-    }
-  ]
-}
+{"questionId": "7b731fc3", "correctAnswer": "161", "section": "Math", "steps": [{"title": "Translate 'X% greater than Y' into multiplication", "content": "When a number is X% greater than Y, we compute $Y \\times (1 + \\frac{X}{100})$.<br/><br/>For 40% greater than 115:<br/>$$115 \\times (1 + 0.40) = 115 \\times 1.40$$", "formula": "$$\\text{Result} = \\text{Original} \\times \\left(1 + \\frac{\\text{Percent}}{100}\\right)$$"}, {"title": "Multiply 115 by 1.40", "content": "Split the multiplication:<br/>$$115 \\times 1.40 = 115 + 115 \\times 0.40$$<br/>Find 40% of 115:<br/>$$115 \\times 0.40 = 46$$<br/>Add:<br/>$$115 + 46 = 161$$"}]}

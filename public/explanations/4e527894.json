@@ -1,16 +1,1 @@
-{
-  "questionId": "4e527894",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify favorable and total outcomes",
-      "content": "We need to find the probability of selecting a white button. Count the favorable outcomes: there are <strong>8 white buttons</strong>. Count the total number of buttons in the bag: <strong>20 total</strong>."
-    },
-    {
-      "title": "Apply the probability formula",
-      "content": "The probability of selecting a white button is:<br/><br/>$$P(\\text{white}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{8}{20}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct.",
-      "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
-    }
-  ]
-}
+{"questionId": "4e527894", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify favorable and total outcomes", "content": "We need to find the probability of selecting a white button. Count the favorable outcomes: there are <strong>8 white buttons</strong>. Count the total number of buttons in the bag: <strong>20 total</strong>."}, {"title": "Apply the probability formula", "content": "The probability of selecting a white button is:<br/>$$P(\\text{white}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{8}{20}$$<br/>That matches choice B — <strong>B</strong> is correct.", "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"}]}

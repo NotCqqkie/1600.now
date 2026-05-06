@@ -1,15 +1,1 @@
-{
-  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_11",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate equivalent ratios into a proportion",
-      "content": "The ratio 5 to x is equivalent to the ratio y to 8. When two ratios are equivalent, we can express them as a proportion:<br/><br/>$$\\frac{5}{x} = \\frac{y}{8}$$"
-    },
-    {
-      "title": "Cross-multiply to solve for x",
-      "content": "To solve for x, cross-multiply the proportion. Multiply both sides by x and 8:<br/><br/>$$5 \\cdot 8 = y \\cdot x$$<br/><br/>$$40 = xy$$<br/><br/>Divide both sides by y:<br/><br/>$$x = \\frac{40}{y}$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_11", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Translate equivalent ratios into a proportion", "content": "The ratio 5 to x is equivalent to the ratio y to 8. When two ratios are equivalent, we can express them as a proportion:<br/>$$\\frac{5}{x} = \\frac{y}{8}$$"}, {"title": "Cross-multiply to solve for x", "content": "To solve for x, cross-multiply the proportion. Multiply both sides by x and 8:<br/>$$5 \\cdot 8 = y \\cdot x$$<br/>$$40 = xy$$<br/>Divide both sides by y:<br/>$$x = \\frac{40}{y}$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

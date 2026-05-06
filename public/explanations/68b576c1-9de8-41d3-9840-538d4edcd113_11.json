@@ -1,15 +1,1 @@
-{
-  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_11",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add the equations to eliminate y",
-      "content": "The system consists of:<br/>$19 = x + y$<br/>$x - y = 9$<br/><br/>Adding these equations together eliminates $y$:<br/>$(x + y) + (x - y) = 19 + 9$<br/>$$2x = 28$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Divide both sides by 2:<br/>$$x = 14$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_11", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Add the equations to eliminate y", "content": "The system consists of:<br/>$19 = x + y$<br/>$x - y = 9$<br/><br/>Adding these equations together eliminates $y$:<br/>$(x + y) + (x - y) = 19 + 9$<br/>$$2x = 28$$"}, {"title": "Solve for x", "content": "Divide both sides by 2:<br/>$$x = 14$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_18",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the percent increase formula",
-      "content": "If the butterfly count increased by 18.75% from May 1 to June 15, then the June 15 count equals the May 1 count multiplied by $(1 + 0.1875)$.<br/><br/>$$114 = x \\times 1.1875$$<br/><br/>where $x$ is the number of butterflies on May 1."
-    },
-    {
-      "title": "Backsolve the answer choices",
-      "content": "Backsolving \u2014 testing choice C (93):<br/>$$93 \\times 1.1875 = 110.4375 \\neq 114$$<br/>Fails. Testing choice D (96):<br/>$$96 \\times 1.1875 = 114$$<br/>This works! That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_18", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the percent increase formula", "content": "If the butterfly count increased by 18.75% from May 1 to June 15, then the June 15 count equals the May 1 count multiplied by $(1 + 0.1875)$.<br/>$$114 = x \\times 1.1875$$<br/>where $x$ is the number of butterflies on May 1."}, {"title": "Backsolve the answer choices", "content": "Backsolving — testing choice C (93):<br/>$$93 \\times 1.1875 = 110.4375 \\neq 114$$<br/>Fails. Testing choice D (96):<br/>$$96 \\times 1.1875 = 114$$<br/>This works! That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_20",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert percent increase to a multiplier",
-      "content": "A 676% increase means multiply the original by $(1 + 676/100)$. Calculate this multiplier:<br/><br/>$$1 + \\frac{676}{100} = 1 + 6.76 = 7.76$$",
-      "formula": "$$\\text{Final Value} = \\text{Original} \\times \\left(1 + \\frac{P}{100}\\right)$$"
-    },
-    {
-      "title": "Calculate the final mass",
-      "content": "The kangaroo's mass at 160 days old is:<br/><br/>$$7.76k$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_20", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Convert percent increase to a multiplier", "content": "A 676% increase means multiply the original by $(1 + 676/100)$. Calculate this multiplier:<br/>$$1 + \\frac{676}{100} = 1 + 6.76 = 7.76$$", "formula": "$$\\text{Final Value} = \\text{Original} \\times \\left(1 + \\frac{P}{100}\\right)$$"}, {"title": "Calculate the final mass", "content": "The kangaroo's mass at 160 days old is:<br/>$$7.76k$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

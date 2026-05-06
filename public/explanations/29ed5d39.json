@@ -1,15 +1,1 @@
-{
-  "questionId": "29ed5d39",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Subtract 20 from both sides to isolate the fraction",
-      "content": "Start with the given equation: $p = 20 + \\frac{16}{n}$<br/><br/>Subtract 20 from both sides:<br/>$$p - 20 = \\frac{16}{n}$$"
-    },
-    {
-      "title": "Solve for n by multiplying and dividing",
-      "content": "From $p - 20 = \\frac{16}{n}$, multiply both sides by $n$:<br/>$$n(p - 20) = 16$$<br/><br/>Divide both sides by $(p - 20)$:<br/>$$n = \\frac{16}{p - 20}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "29ed5d39", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Subtract 20 from both sides to isolate the fraction", "content": "Start with the given equation: $p = 20 + \\frac{16}{n}$<br/><br/>Subtract 20 from both sides:<br/>$$p - 20 = \\frac{16}{n}$$"}, {"title": "Solve for n by multiplying and dividing", "content": "From $p - 20 = \\frac{16}{n}$, multiply both sides by $n$:<br/>$$n(p - 20) = 16$$<br/>Divide both sides by $(p - 20)$:<br/>$$n = \\frac{16}{p - 20}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

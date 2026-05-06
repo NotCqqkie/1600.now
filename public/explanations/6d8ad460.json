@@ -1,16 +1,1 @@
-{
-  "questionId": "6d8ad460",
-  "correctAnswer": "1.2",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope of line k using two points",
-      "content": "From the graph, line k passes through two clear points: $(-6, 0)$ and $(0, -5)$. Using the slope formula:<br/><br/>$$m_k = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-5 - 0}{0 - (-6)} = \\frac{-5}{6}$$<br/><br/>So line k has slope $-\\frac{5}{6}$."
-    },
-    {
-      "title": "Apply the perpendicular slope relationship",
-      "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. If line k has slope $m_k$, then line j has slope $m_j = -\\frac{1}{m_k}$.<br/><br/>$$m_j = -\\frac{1}{-\\frac{5}{6}} = \\frac{6}{5} = 1.2$$<br/><br/>The slope of line j is <strong>1.2</strong>.",
-      "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
-    }
-  ]
-}
+{"questionId": "6d8ad460", "correctAnswer": "1.2", "section": "Math", "steps": [{"title": "Find the slope of line k using two points", "content": "From the graph, line k passes through two clear points: $(-6, 0)$ and $(0, -5)$. Using the slope formula:<br/>$$m_k = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-5 - 0}{0 - (-6)} = \\frac{-5}{6}$$<br/>So line k has slope $-\\frac{5}{6}$."}, {"title": "Apply the perpendicular slope relationship", "content": "When two lines are perpendicular, their slopes are negative reciprocals of each other. If line k has slope $m_k$, then line j has slope $m_j = -\\frac{1}{m_k}$.<br/>$$m_j = -\\frac{1}{-\\frac{5}{6}} = \\frac{6}{5} = 1.2$$<br/>The slope of line j is <strong>1.2</strong>.", "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "a4ed5285",
-  "correctAnswer": "7.5",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the right triangle dimensions",
-      "content": "The figure shows a right triangle with a right angle marked at the bottom-left corner. The two legs of the triangle (the sides that form the right angle) are labeled: vertical leg = 3 inches, horizontal leg = 5 inches."
-    },
-    {
-      "title": "Apply the right triangle area formula",
-      "content": "For a right triangle, the area equals half the product of the two legs:<br/><br/>$$\\text{Area} = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$$<br/><br/>$$\\text{Area} = \\frac{1}{2} \\times 5 \\times 3 = \\frac{15}{2} = 7.5$$<br/><br/>The area is <strong>7.5 square inches</strong>.",
-      "formula": "$$\\text{Area} = \\frac{1}{2} \\times b \\times h$$"
-    }
-  ]
-}
+{"questionId": "a4ed5285", "correctAnswer": "7.5", "section": "Math", "steps": [{"title": "Identify the right triangle dimensions", "content": "The figure shows a right triangle with a right angle marked at the bottom-left corner. The two legs of the triangle (the sides that form the right angle) are labeled: vertical leg = 3 inches, horizontal leg = 5 inches."}, {"title": "Apply the right triangle area formula", "content": "For a right triangle, the area equals half the product of the two legs:<br/>$$\\text{Area} = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$$<br/>$$\\text{Area} = \\frac{1}{2} \\times 5 \\times 3 = \\frac{15}{2} = 7.5$$<br/>The area is <strong>7.5 square inches</strong>.", "formula": "$$\\text{Area} = \\frac{1}{2} \\times b \\times h$$"}]}

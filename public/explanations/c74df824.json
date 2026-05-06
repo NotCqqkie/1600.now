@@ -1,15 +1,1 @@
-{
-  "questionId": "c74df824",
-  "correctAnswer": "157.8",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Square the linear conversion factor",
-      "content": "When converting areas between units, we must square the linear conversion factor. Since $1\\text{ nautical mile} = 1.852\\text{ km}$:<br/><br/>$$(1.852)^2 = 3.430304$$"
-    },
-    {
-      "title": "Apply the conversion factor to the given area",
-      "content": "Multiply the 46 square nautical miles by this conversion factor:<br/><br/>$$k = 46 \\times 3.430304 = 157.793984$$<br/><br/>Rounded to the nearest tenth: $k = 157.8$"
-    }
-  ]
-}
+{"questionId": "c74df824", "correctAnswer": "157.8", "section": "Math", "steps": [{"title": "Square the linear conversion factor", "content": "When converting areas between units, we must square the linear conversion factor. Since $1\\text{ nautical mile} = 1.852\\text{ km}$:<br/>$$(1.852)^2 = 3.430304$$"}, {"title": "Apply the conversion factor to the given area", "content": "Multiply the 46 square nautical miles by this conversion factor:<br/>$$k = 46 \\times 3.430304 = 157.793984$$<br/>Rounded to the nearest tenth: $k = 157.8$"}]}

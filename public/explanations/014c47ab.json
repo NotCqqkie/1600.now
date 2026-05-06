@@ -1,15 +1,1 @@
-{
-  "questionId": "014c47ab",
-  "correctAnswer": "0.7",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret the conditional probability",
-      "content": "<em>Given that the flower is a tulip</em>, we need to find what fraction of the tulips are from Site A. This is expressed as:<br/><br/>$$P(\\text{Site A | Tulip}) = \\frac{\\text{Tulips from Site A}}{\\text{Total tulips}}$$"
-    },
-    {
-      "title": "Extract values and calculate",
-      "content": "From the Tulip row of the table: Site A has 35 tulips out of 50 total.<br/><br/>$$P(\\text{Site A | Tulip}) = \\frac{35}{50} = \\frac{7}{10} = 0.7$$"
-    }
-  ]
-}
+{"questionId": "014c47ab", "correctAnswer": "0.7", "section": "Math", "steps": [{"title": "Interpret the conditional probability", "content": "<em>Given that the flower is a tulip</em>, we need to find what fraction of the tulips are from Site A. This is expressed as:<br/>$$P(\\text{Site A | Tulip}) = \\frac{\\text{Tulips from Site A}}{\\text{Total tulips}}$$"}, {"title": "Extract values and calculate", "content": "From the Tulip row of the table: Site A has 35 tulips out of 50 total.<br/>$$P(\\text{Site A | Tulip}) = \\frac{35}{50} = \\frac{7}{10} = 0.7$$"}]}

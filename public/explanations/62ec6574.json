@@ -1,16 +1,1 @@
-{
-  "questionId": "62ec6574",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the width of the rectangular base",
-      "content": "The base area is the product of length and width. We have:<br/><br/>$$\\text{Base area} = l \\times w$$<br/>$$24t = \\frac{8}{3} \\times w$$<br/><br/>Divide both sides by $\\frac{8}{3}$:<br/>$$w = 24t \\div \\frac{8}{3} = 24t \\times \\frac{3}{8} = \\frac{72t}{8} = 9t \\text{ cm}$$<br/><br/>Now we have all three dimensions: length $= \\frac{8}{3}$ cm, width $= 9t$ cm, height $= 15$ cm."
-    },
-    {
-      "title": "Calculate surface area using the rectangular prism formula",
-      "formula": "$$SA = 2(lw + lh + wh)$$",
-      "content": "Calculate each face pair:<ul><li>$lw = \\frac{8}{3} \\times 9t = \\frac{72t}{3} = 24t$</li><li>$lh = \\frac{8}{3} \\times 15 = \\frac{120}{3} = 40$</li><li>$wh = 9t \\times 15 = 135t$</li></ul><br/>Sum the three pairs:<br/>$$lw + lh + wh = 24t + 40 + 135t = 159t + 40$$<br/><br/>Multiply by 2:<br/>$$SA = 2(159t + 40) = 318t + 80$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62ec6574", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the width of the rectangular base", "content": "The base area is the product of length and width. We have:<br/>$$\\text{Base area} = l \\times w$$<br/>$$24t = \\frac{8}{3} \\times w$$<br/>Divide both sides by $\\frac{8}{3}$:<br/>$$w = 24t \\div \\frac{8}{3} = 24t \\times \\frac{3}{8} = \\frac{72t}{8} = 9t \\text{ cm}$$<br/>Now we have all three dimensions: length $= \\frac{8}{3}$ cm, width $= 9t$ cm, height $= 15$ cm."}, {"title": "Calculate surface area using the rectangular prism formula", "formula": "$$SA = 2(lw + lh + wh)$$", "content": "Calculate each face pair:<ul><li>$lw = \\frac{8}{3} \\times 9t = \\frac{72t}{3} = 24t$</li><li>$lh = \\frac{8}{3} \\times 15 = \\frac{120}{3} = 40$</li><li>$wh = 9t \\times 15 = 135t$</li></ul><br/>Sum the three pairs:<br/>$$lw + lh + wh = 24t + 40 + 135t = 159t + 40$$<br/>Multiply by 2:<br/>$$SA = 2(159t + 40) = 318t + 80$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

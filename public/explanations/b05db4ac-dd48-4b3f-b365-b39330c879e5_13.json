@@ -1,16 +1,1 @@
-{
-  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_13",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize vertex form with the given maximum",
-      "content": "The problem specifies that the object reaches its maximum height of 70.56 feet at t = 2.1 seconds. This is the vertex of the parabola. In vertex form, f(t) = a(t - h)^2 + k, the vertex is located at (h, k).<br/><br/>Substituting our vertex coordinates h = 2.1 and k = 70.56:<br/>$$f(t) = a(t - 2.1)^2 + 70.56$$<br/><br/>Check which choices match this h-value:<ul><li>Choices A and D: $(t - 2.1)^2$ \u2014 correct vertex t-coordinate</li><li>Choices B and C: $(t + 2.1)^2$ \u2014 incorrect (vertex would be at t = -2.1)</li></ul>Choices B and C are eliminated.",
-      "formula": "$$f(t) = a(t - h)^2 + k$$"
-    },
-    {
-      "title": "Determine the sign of the leading coefficient",
-      "content": "A projectile launched upward from ground level rises to a peak, then falls back down. This motion traces a downward-opening parabola, which requires a negative leading coefficient: a &lt; 0.<br/><br/>Check the remaining choices:<ul><li>Choice A: a = -16 (negative) \u2713</li><li>Choice D: a = 16 (positive) \u2717</li></ul>Only choice A satisfies both the vertex form and the downward-opening requirement. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize vertex form with the given maximum", "content": "The problem specifies that the object reaches its maximum height of 70.56 feet at t = 2.1 seconds. This is the vertex of the parabola. In vertex form, f(t) = a(t - h)^2 + k, the vertex is located at (h, k).<br/><br/>Substituting our vertex coordinates h = 2.1 and k = 70.56:<br/>$$f(t) = a(t - 2.1)^2 + 70.56$$<br/>Check which choices match this h-value:<ul><li>Choices A and D: $(t - 2.1)^2$ — correct vertex t-coordinate</li><li>Choices B and C: $(t + 2.1)^2$ — incorrect (vertex would be at t = -2.1)</li></ul>Choices B and C are eliminated.", "formula": "$$f(t) = a(t - h)^2 + k$$"}, {"title": "Determine the sign of the leading coefficient", "content": "A projectile launched upward from ground level rises to a peak, then falls back down. This motion traces a downward-opening parabola, which requires a negative leading coefficient: a &lt; 0.<br/><br/>Check the remaining choices:<ul><li>Choice A: a = -16 (negative) ✓</li><li>Choice D: a = 16 (positive) ✗</li></ul>Only choice A satisfies both the vertex form and the downward-opening requirement. That matches choice A — <strong>A</strong> is correct."}]}

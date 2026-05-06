@@ -1,15 +1,1 @@
-{
-  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Check for exponential pattern with constant ratio",
-      "content": "For exponential functions, consecutive y-values have a constant ratio. For linear functions, consecutive y-values have a constant difference.<br/><br/>Calculate the ratio between consecutive outputs:<br/>$$\\frac{f(0)}{f(-1)} = \\frac{1}{1/69} = 69$$<br/>$$\\frac{f(1)}{f(0)} = \\frac{69}{1} = 69$$<br/>$$\\frac{f(2)}{f(1)} = \\frac{4761}{69} = 69$$<br/><br/>The ratio is constant at 69 across all intervals. This constant multiplicative ratio is the hallmark of an exponential function, ruling out the linear choices A and B."
-    },
-    {
-      "title": "Determine direction of exponential function",
-      "content": "Since the constant ratio (69) is greater than 1, each step increase in $x$ multiplies $f(x)$ by 69. This creates exponential growth, making the function increase rather than decrease. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Check for exponential pattern with constant ratio", "content": "For exponential functions, consecutive y-values have a constant ratio. For linear functions, consecutive y-values have a constant difference.<br/><br/>Calculate the ratio between consecutive outputs:<br/>$$\\frac{f(0)}{f(-1)} = \\frac{1}{1/69} = 69$$<br/>$$\\frac{f(1)}{f(0)} = \\frac{69}{1} = 69$$<br/>$$\\frac{f(2)}{f(1)} = \\frac{4761}{69} = 69$$<br/>The ratio is constant at 69 across all intervals. This constant multiplicative ratio is the hallmark of an exponential function, ruling out the linear choices A and B."}, {"title": "Determine direction of exponential function", "content": "Since the constant ratio (69) is greater than 1, each step increase in $x$ multiplies $f(x)$ by 69. This creates exponential growth, making the function increase rather than decrease. That matches choice C — <strong>C</strong> is correct."}]}

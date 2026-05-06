@@ -1,12 +1,1 @@
-{
-  "questionId": "f60bb551",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the area formula to find width",
-      "content": "For a rectangle, area equals length times width. We have area = 630 and length = 70, so:<br/><br/>$$630 = 70 \\times w$$<br/><br/>Divide both sides by 70:<br/><br/>$$w = \\frac{630}{70} = 9$$<br/><br/>The width is 9 inches. That matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$A = L \\times W$$"
-    }
-  ]
-}
+{"questionId": "f60bb551", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the area formula to find width", "content": "For a rectangle, area equals length times width. We have area = 630 and length = 70, so:<br/>$$630 = 70 \\times w$$<br/>Divide both sides by 70:<br/>$$w = \\frac{630}{70} = 9$$<br/>The width is 9 inches. That matches choice A — <strong>A</strong> is correct.", "formula": "$$A = L \\times W$$"}]}

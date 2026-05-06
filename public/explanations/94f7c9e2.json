@@ -1,15 +1,1 @@
-{
-  "questionId": "94f7c9e2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the right triangle and label the sides relative to angle Q",
-      "content": "The right angle is at $R$. From angle $Q$'s perspective:<ul><li><strong>Opposite side:</strong> $SR = 18$</li><li><strong>Adjacent side:</strong> $QR$ (vertical)</li><li><strong>Hypotenuse:</strong> $QS$ (the side we need)</li></ul>"
-    },
-    {
-      "title": "Apply the sine ratio to find QS",
-      "content": "From angle $Q$, sine relates the opposite side to the hypotenuse:<br/><br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{SR}{QS} = \\frac{18}{QS}$$<br/><br/>Solving for $QS$ by multiplying both sides by $QS$ and dividing by $\\sin Q$:<br/><br/>$$QS = \\frac{18}{\\sin Q}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "94f7c9e2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the right triangle and label the sides relative to angle Q", "content": "The right angle is at $R$. From angle $Q$'s perspective:<ul><li><strong>Opposite side:</strong> $SR = 18$</li><li><strong>Adjacent side:</strong> $QR$ (vertical)</li><li><strong>Hypotenuse:</strong> $QS$ (the side we need)</li></ul>"}, {"title": "Apply the sine ratio to find QS", "content": "From angle $Q$, sine relates the opposite side to the hypotenuse:<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{SR}{QS} = \\frac{18}{QS}$$<br/>Solving for $QS$ by multiplying both sides by $QS$ and dividing by $\\sin Q$:<br/>$$QS = \\frac{18}{\\sin Q}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

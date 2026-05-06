@@ -1,15 +1,1 @@
-{
-  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept from the given point",
-      "content": "The line passes through $(0, 12)$. Since this point has $x = 0$, it lies on the $y$-axis, making its $y$-coordinate the $y$-intercept. Therefore, $b = 12$."
-    },
-    {
-      "title": "Apply slope-intercept form",
-      "content": "Using the slope-intercept form $y = mx + b$ with slope $m = 2$ and $y$-intercept $b = 12$:<br/><br/>$$y = 2x + 12$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the y-intercept from the given point", "content": "The line passes through $(0, 12)$. Since this point has $x = 0$, it lies on the $y$-axis, making its $y$-coordinate the $y$-intercept. Therefore, $b = 12$."}, {"title": "Apply slope-intercept form", "content": "Using the slope-intercept form $y = mx + b$ with slope $m = 2$ and $y$-intercept $b = 12$:<br/>$$y = 2x + 12$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

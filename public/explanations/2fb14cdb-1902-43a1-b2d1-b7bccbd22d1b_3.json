@@ -1,16 +1,1 @@
-{
-  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert radians to degrees",
-      "content": "To convert from radians to degrees, multiply by $\\frac{180}{\\pi}$.<br/><br/>$$\\frac{\\pi}{10} \\text{ rad} \\times \\frac{180}{\\pi} = \\frac{180}{10} = 18\u00b0$$<br/><br/>So angle G measures 18 degrees.",
-      "formula": "$$\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$$"
-    },
-    {
-      "title": "Solve for n",
-      "content": "We're told that angle G equals $9n$ degrees. Since we found that angle G = 18 degrees:<br/><br/>$$9n = 18$$<br/><br/>$$n = 2$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Convert radians to degrees", "content": "To convert from radians to degrees, multiply by $\\frac{180}{\\pi}$.<br/>$$\\frac{\\pi}{10} \\text{ rad} \\times \\frac{180}{\\pi} = \\frac{180}{10} = 18°$$<br/>So angle G measures 18 degrees.", "formula": "$$\\text{degrees} = \\text{radians} \\times \\frac{180}{\\pi}$$"}, {"title": "Solve for n", "content": "We're told that angle G equals $9n$ degrees. Since we found that angle G = 18 degrees:<br/>$$9n = 18$$<br/>$$n = 2$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

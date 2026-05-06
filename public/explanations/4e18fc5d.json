@@ -1,15 +1,1 @@
-{
-  "questionId": "4e18fc5d",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by 150x to remove the denominator",
-      "content": "Starting with $v = -\\frac{w}{150x}$, multiply both sides by $150x$:<br/><br/>$$v \\cdot 150x = -\\frac{w}{150x} \\cdot 150x$$<br/><br/>$$150vx = -w$$"
-    },
-    {
-      "title": "Multiply both sides by \u22121 to solve for w",
-      "content": "Multiply both sides by $-1$:<br/><br/>$$-150vx = w$$<br/><br/>Rearranging: $w = -150vx$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4e18fc5d", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Multiply both sides by 150x to remove the denominator", "content": "Starting with $v = -\\frac{w}{150x}$, multiply both sides by $150x$:<br/>$$v \\cdot 150x = -\\frac{w}{150x} \\cdot 150x$$<br/>$$150vx = -w$$"}, {"title": "Multiply both sides by −1 to solve for w", "content": "Multiply both sides by $-1$:<br/>$$-150vx = w$$<br/>Rearranging: $w = -150vx$. That matches choice A — <strong>A</strong> is correct."}]}

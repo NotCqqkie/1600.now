@@ -1,15 +1,1 @@
-{
-  "questionId": "39617468",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the given information",
-      "content": "The equation $x + y = 350$ relates maple trees ($x$) and birch trees ($y$). We know that $x = 245$ maple trees were planted, and we need to find $y$ birch trees."
-    },
-    {
-      "title": "Substitute and solve for birch trees",
-      "content": "Substitute $x = 245$ into the equation:<br/><br/>$$245 + y = 350$$<br/><br/>Subtract 245 from both sides:<br/><br/>$$y = 350 - 245 = 105$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39617468", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the given information", "content": "The equation $x + y = 350$ relates maple trees ($x$) and birch trees ($y$). We know that $x = 245$ maple trees were planted, and we need to find $y$ birch trees."}, {"title": "Substitute and solve for birch trees", "content": "Substitute $x = 245$ into the equation:<br/>$$245 + y = 350$$<br/>Subtract 245 from both sides:<br/>$$y = 350 - 245 = 105$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

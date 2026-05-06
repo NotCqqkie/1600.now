@@ -1,15 +1,1 @@
-{
-  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_7",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the function structure",
-      "content": "The function $f(x) = 5x + 7$ is linear, with form $f(x) = mx + b$. Here, 5 is the slope (rate of change per year) and 7 is the y-intercept (the value when $x = 0$)."
-    },
-    {
-      "title": "Apply the context",
-      "content": "Since $x$ represents years <em>after</em> the tree height was first measured, $x = 0$ corresponds to the initial measurement time. At that moment:<br/><br/>$$f(0) = 5(0) + 7 = 7 \\text{ feet}$$<br/><br/>The tree's estimated height was 7 feet when it was first measured. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_7", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize the function structure", "content": "The function $f(x) = 5x + 7$ is linear, with form $f(x) = mx + b$. Here, 5 is the slope (rate of change per year) and 7 is the y-intercept (the value when $x = 0$)."}, {"title": "Apply the context", "content": "Since $x$ represents years <em>after</em> the tree height was first measured, $x = 0$ corresponds to the initial measurement time. At that moment:<br/>$$f(0) = 5(0) + 7 = 7 \\text{ feet}$$<br/>The tree's estimated height was 7 feet when it was first measured. That matches choice D — <strong>D</strong> is correct."}]}

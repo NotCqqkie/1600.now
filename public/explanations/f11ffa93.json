@@ -1,15 +1,1 @@
-{
-  "questionId": "f11ffa93",
-  "correctAnswer": "117",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Square both sides to eliminate the square root",
-      "content": "We have $\\sqrt{x + 4} = 11$. To eliminate the square root, square both sides of the equation:<br/><br/>$$(\\sqrt{x + 4})^2 = 11^2$$<br/><br/>$$x + 4 = 121$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Subtract 4 from both sides:<br/><br/>$$x + 4 - 4 = 121 - 4$$<br/><br/>$$x = 117$$"
-    }
-  ]
-}
+{"questionId": "f11ffa93", "correctAnswer": "117", "section": "Math", "steps": [{"title": "Square both sides to eliminate the square root", "content": "We have $\\sqrt{x + 4} = 11$. To eliminate the square root, square both sides of the equation:<br/>$$(\\sqrt{x + 4})^2 = 11^2$$<br/>$$x + 4 = 121$$"}, {"title": "Solve for x", "content": "Subtract 4 from both sides:<br/>$$x + 4 - 4 = 121 - 4$$<br/>$$x = 117$$"}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_14",
-  "correctAnswer": "-45",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the one-solution trigger",
-      "content": "The phrase <em>exactly one real solution</em> is our trigger to use the discriminant shortcut. When a quadratic equation has exactly one real solution, its discriminant $b^2 - 4ac$ equals zero.<br/><br/>Rearrange the equation to standard form:<br/>$$4x^2 - 32x + (19 - r) = 0$$<br/><br/>Identify the coefficients: $a = 4$, $b = -32$, $c = 19 - r$."
-    },
-    {
-      "title": "Apply the discriminant condition and solve for r",
-      "content": "Set the discriminant equal to zero:<br/>$$b^2 - 4ac = 0$$<br/><br/>Substitute the coefficients:<br/>$$(-32)^2 - 4(4)(19 - r) = 0$$<br/>$$1024 - 16(19 - r) = 0$$<br/>$$1024 - 304 + 16r = 0$$<br/>$$720 + 16r = 0$$<br/>$$r = -45$$"
-    }
-  ]
-}
+{"questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_14", "correctAnswer": "-45", "section": "Math", "steps": [{"title": "Recognize the one-solution trigger", "content": "The phrase <em>exactly one real solution</em> is our trigger to use the discriminant shortcut. When a quadratic equation has exactly one real solution, its discriminant $b^2 - 4ac$ equals zero.<br/><br/>Rearrange the equation to standard form:<br/>$$4x^2 - 32x + (19 - r) = 0$$<br/>Identify the coefficients: $a = 4$, $b = -32$, $c = 19 - r$."}, {"title": "Apply the discriminant condition and solve for r", "content": "Set the discriminant equal to zero:<br/>$$b^2 - 4ac = 0$$<br/>Substitute the coefficients:<br/>$$(-32)^2 - 4(4)(19 - r) = 0$$<br/>$$1024 - 16(19 - r) = 0$$<br/>$$1024 - 304 + 16r = 0$$<br/>$$720 + 16r = 0$$<br/>$$r = -45$$"}]}

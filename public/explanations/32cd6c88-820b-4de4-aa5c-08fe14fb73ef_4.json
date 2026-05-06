@@ -1,15 +1,1 @@
-{
-  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept",
-      "content": "From the table, (0, 22) is a data point. In any linear equation $y = mx + b$, the y-intercept $b$ equals the $y$-value when $x = 0$. Therefore, $b = 22$. Of the four choices, only choice A has a constant term of 22."
-    },
-    {
-      "title": "Calculate the slope and verify",
-      "content": "Using two points from the table, (0, 22) and (1, 23), calculate the slope:<br/><br/>$$m = \\frac{23 - 22}{1 - 0} = 1$$<br/><br/>With $m = 1$ and $b = 22$, the equation is $y = x + 22$. Verify with the remaining point (2, 24): when $x = 2$, $y = 2 + 22 = 24$ \u2713. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the y-intercept", "content": "From the table, (0, 22) is a data point. In any linear equation $y = mx + b$, the y-intercept $b$ equals the $y$-value when $x = 0$. Therefore, $b = 22$. Of the four choices, only choice A has a constant term of 22."}, {"title": "Calculate the slope and verify", "content": "Using two points from the table, (0, 22) and (1, 23), calculate the slope:<br/>$$m = \\frac{23 - 22}{1 - 0} = 1$$<br/>With $m = 1$ and $b = 22$, the equation is $y = x + 22$. Verify with the remaining point (2, 24): when $x = 2$, $y = 2 + 22 = 24$ ✓. That matches choice A — <strong>A</strong> is correct."}]}

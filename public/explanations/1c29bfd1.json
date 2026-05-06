@@ -1,16 +1,1 @@
-{
-  "questionId": "1c29bfd1",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the linear pressure function",
-      "content": "Pressure at any depth equals initial pressure plus the pressure increase from descent.<br/><br/>At sea level (depth = 0): 14.70 psi<br/>For each foot descended: pressure increases by 0.44 psi<br/><br/>This gives us the linear function where $d$ is depth in feet:",
-      "formula": "$$P = 14.70 + 0.44d$$"
-    },
-    {
-      "title": "Substitute depth and calculate",
-      "content": "Substitute $d = 105$ feet into the function:<br/><br/>$$P = 14.70 + 0.44(105)$$<br/><br/>Calculate the product: $0.44 \\times 105 = 46.2$<br/><br/>$$P = 14.70 + 46.2 = 60.90 \\text{ psi}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1c29bfd1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the linear pressure function", "content": "Pressure at any depth equals initial pressure plus the pressure increase from descent.<br/><br/>At sea level (depth = 0): 14.70 psi<br/>For each foot descended: pressure increases by 0.44 psi<br/><br/>This gives us the linear function where $d$ is depth in feet:", "formula": "$$P = 14.70 + 0.44d$$"}, {"title": "Substitute depth and calculate", "content": "Substitute $d = 105$ feet into the function:<br/>$$P = 14.70 + 0.44(105)$$<br/>Calculate the product: $0.44 \\times 105 = 46.2$<br/>$$P = 14.70 + 46.2 = 60.90 \\text{ psi}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

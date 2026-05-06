@@ -1,15 +1,1 @@
-{
-  "questionId": "12dbe3de",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the probability formula",
-      "content": "The probability of selecting a defective MP3 player is:<br/><br/>$$P(\\text{defective}) = \\frac{\\text{Number of defective players}}{\\text{Total number of players}} = \\frac{4}{1,000}$$"
-    },
-    {
-      "title": "Convert to decimal and identify the answer",
-      "content": "Divide the numerator by the denominator:<br/>$$4 \\div 1,000 = 0.004$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "12dbe3de", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the probability formula", "content": "The probability of selecting a defective MP3 player is:<br/>$$P(\\text{defective}) = \\frac{\\text{Number of defective players}}{\\text{Total number of players}} = \\frac{4}{1,000}$$"}, {"title": "Convert to decimal and identify the answer", "content": "Divide the numerator by the denominator:<br/>$$4 \\div 1,000 = 0.004$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

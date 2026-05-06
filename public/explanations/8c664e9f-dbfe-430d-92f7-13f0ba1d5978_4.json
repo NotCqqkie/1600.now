@@ -1,15 +1,1 @@
-{
-  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope from two graph points",
-      "content": "From the graph, at x = 100 K, the volume is approximately 4.5 L. At x = 300 K, the volume is approximately 13.5 L.<br/><br/>Using the slope formula:<br/>$$m = \\frac{13.5 - 4.5}{300 - 100} = \\frac{9}{200}$$"
-    },
-    {
-      "title": "Write the equation and evaluate at x = 200 K",
-      "content": "The relationship is linear and passes through the origin, so the equation is $y = \\frac{9}{200}x$.<br/><br/>At x = 200:<br/>$$y = \\frac{9}{200} \\cdot 200 = 9 \\text{ liters}$$<br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope from two graph points", "content": "From the graph, at x = 100 K, the volume is approximately 4.5 L. At x = 300 K, the volume is approximately 13.5 L.<br/><br/>Using the slope formula:<br/>$$m = \\frac{13.5 - 4.5}{300 - 100} = \\frac{9}{200}$$"}, {"title": "Write the equation and evaluate at x = 200 K", "content": "The relationship is linear and passes through the origin, so the equation is $y = \\frac{9}{200}x$.<br/><br/>At x = 200:<br/>$$y = \\frac{9}{200} \\cdot 200 = 9 \\text{ liters}$$<br/>This matches choice B — <strong>B</strong> is correct."}]}

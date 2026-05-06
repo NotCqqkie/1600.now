@@ -1,15 +1,1 @@
-{
-  "questionId": "53487897",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the slope from the rate of change",
-      "content": "The problem states: <em>for every increase in $x$ by 1, the value of $y$ increases by 8</em>. This rate of change is the slope, so $m = 8$, and the equation has the form $y = 8x + b$.<br/><br/>Checking the choices:<ul><li>A: $y = 2x + 18$ (slope = 2)</li><li>B: $y = 2x + 8$ (slope = 2)</li><li>C: $y = 8x + 2$ (slope = 8) \u2713</li><li>D: $y = 3x + 26$ (slope = 3)</li></ul>Only choice C has slope 8."
-    },
-    {
-      "title": "Find the y-intercept using the given point",
-      "content": "Use the point $(2, 18)$ to find $b$:<br/>$$18 = 8(2) + b$$<br/>$$18 = 16 + b$$<br/>$$b = 2$$<br/><br/>The equation is $y = 8x + 2$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "53487897", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the slope from the rate of change", "content": "The problem states: <em>for every increase in $x$ by 1, the value of $y$ increases by 8</em>. This rate of change is the slope, so $m = 8$, and the equation has the form $y = 8x + b$.<br/><br/>Checking the choices:<ul><li>A: $y = 2x + 18$ (slope = 2)</li><li>B: $y = 2x + 8$ (slope = 2)</li><li>C: $y = 8x + 2$ (slope = 8) ✓</li><li>D: $y = 3x + 26$ (slope = 3)</li></ul>Only choice C has slope 8."}, {"title": "Find the y-intercept using the given point", "content": "Use the point $(2, 18)$ to find $b$:<br/>$$18 = 8(2) + b$$<br/>$$18 = 16 + b$$<br/>$$b = 2$$<br/>The equation is $y = 8x + 2$. That matches choice C — <strong>C</strong> is correct."}]}

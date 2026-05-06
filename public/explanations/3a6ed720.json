@@ -1,16 +1,1 @@
-{
-  "questionId": "3a6ed720",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up and simplify the fraction",
-      "formula": "$$\\text{Percentage} = \\frac{\\text{part}}{\\text{whole}} \\times 100$$",
-      "content": "Apply the percentage formula to find what percent 828,000 is of 900,000:<br/>$$\\frac{828,000}{900,000} \\times 100$$<br/><br/>Cancel the thousands and simplify by dividing both numerator and denominator by their GCD of 36:<br/>$$\\frac{828}{900} = \\frac{23}{25}$$"
-    },
-    {
-      "title": "Convert the fraction to percentage",
-      "content": "Convert $\\frac{23}{25}$ to a percentage by multiplying numerator and denominator by 4:<br/>$$\\frac{23}{25} = \\frac{92}{100} = 92\\%$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3a6ed720", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up and simplify the fraction", "formula": "$$\\text{Percentage} = \\frac{\\text{part}}{\\text{whole}} \\times 100$$", "content": "Apply the percentage formula to find what percent 828,000 is of 900,000:<br/>$$\\frac{828,000}{900,000} \\times 100$$<br/>Cancel the thousands and simplify by dividing both numerator and denominator by their GCD of 36:<br/>$$\\frac{828}{900} = \\frac{23}{25}$$"}, {"title": "Convert the fraction to percentage", "content": "Convert $\\frac{23}{25}$ to a percentage by multiplying numerator and denominator by 4:<br/>$$\\frac{23}{25} = \\frac{92}{100} = 92\\%$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

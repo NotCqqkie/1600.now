@@ -1,16 +1,1 @@
-{
-  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_18",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find vertex x-coordinate",
-      "content": "For a horizontal line to intersect a parabola at exactly one point, it must be tangent to the parabola at the vertex. For $y = -x^2 + 7x - 76$, we have $a = -1$ and $b = 7$. Applying the vertex formula:<br/><br/>$$x = -\\frac{7}{2(-1)} = \\frac{7}{2}$$",
-      "formula": "$$x = -\\frac{b}{2a}$$"
-    },
-    {
-      "title": "Evaluate parabola at vertex",
-      "content": "Substitute $x = \\frac{7}{2}$ into $y = -x^2 + 7x - 76$:<br/><br/>$$y = -\\left(\\frac{7}{2}\\right)^2 + 7\\left(\\frac{7}{2}\\right) - 76 = -\\frac{49}{4} + \\frac{49}{2} - 76$$<br/><br/>Convert to a common denominator of 4:<br/><br/>$$= -\\frac{49}{4} + \\frac{98}{4} - \\frac{304}{4} = \\frac{-255}{4}$$<br/><br/>Therefore $c = -\\frac{255}{4}$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_18", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find vertex x-coordinate", "content": "For a horizontal line to intersect a parabola at exactly one point, it must be tangent to the parabola at the vertex. For $y = -x^2 + 7x - 76$, we have $a = -1$ and $b = 7$. Applying the vertex formula:<br/>$$x = -\\frac{7}{2(-1)} = \\frac{7}{2}$$", "formula": "$$x = -\\frac{b}{2a}$$"}, {"title": "Evaluate parabola at vertex", "content": "Substitute $x = \\frac{7}{2}$ into $y = -x^2 + 7x - 76$:<br/>$$y = -\\left(\\frac{7}{2}\\right)^2 + 7\\left(\\frac{7}{2}\\right) - 76 = -\\frac{49}{4} + \\frac{49}{2} - 76$$<br/>Convert to a common denominator of 4:<br/>$$= -\\frac{49}{4} + \\frac{98}{4} - \\frac{304}{4} = \\frac{-255}{4}$$<br/>Therefore $c = -\\frac{255}{4}$. That matches choice D — <strong>D</strong> is correct."}]}

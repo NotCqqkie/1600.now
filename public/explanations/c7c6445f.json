@@ -1,15 +1,1 @@
-{
-  "questionId": "c7c6445f",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the area conversion rule: square the linear scale factor",
-      "content": "When converting between units, area scales by the square of the linear conversion factor. Since 1 mile = 1,760 yards, we have:<br/><br/>$$1 \\text{ square mile} = (1,760)^2 \\text{ square yards}$$<br/><br/>Calculate the conversion factor:<br/><br/>$$1,760^2 = 3,097,600 \\text{ square yards per square mile}$$"
-    },
-    {
-      "title": "Multiply the town's area by the conversion factor",
-      "content": "Convert 4.36 square miles to square yards:<br/><br/>$$4.36 \\times 3,097,600 = 13,505,536 \\text{ square yards}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c7c6445f", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the area conversion rule: square the linear scale factor", "content": "When converting between units, area scales by the square of the linear conversion factor. Since 1 mile = 1,760 yards, we have:<br/>$$1 \\text{ square mile} = (1,760)^2 \\text{ square yards}$$<br/>Calculate the conversion factor:<br/>$$1,760^2 = 3,097,600 \\text{ square yards per square mile}$$"}, {"title": "Multiply the town's area by the conversion factor", "content": "Convert 4.36 square miles to square yards:<br/>$$4.36 \\times 3,097,600 = 13,505,536 \\text{ square yards}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

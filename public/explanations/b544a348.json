@@ -1,15 +1,1 @@
-{
-  "questionId": "b544a348",
-  "correctAnswer": "7",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the matching y coefficient",
-      "content": "Both equations contain the term $3y$, which means we can eliminate $y$ by subtracting one equation from the other without needing to multiply either equation first."
-    },
-    {
-      "title": "Subtract the equations to solve for x",
-      "content": "Subtract equation 2 from equation 1:<br/><br/>$$(5x + 3y) - (x + 3y) = 38 - 10$$<br/><br/>Simplify by combining like terms:<br/><br/>$$4x = 28$$<br/><br/>Divide both sides by 4:<br/><br/>$$x = 7$$"
-    }
-  ]
-}
+{"questionId": "b544a348", "correctAnswer": "7", "section": "Math", "steps": [{"title": "Recognize the matching y coefficient", "content": "Both equations contain the term $3y$, which means we can eliminate $y$ by subtracting one equation from the other without needing to multiply either equation first."}, {"title": "Subtract the equations to solve for x", "content": "Subtract equation 2 from equation 1:<br/>$$(5x + 3y) - (x + 3y) = 38 - 10$$<br/>Simplify by combining like terms:<br/>$$4x = 28$$<br/>Divide both sides by 4:<br/>$$x = 7$$"}]}

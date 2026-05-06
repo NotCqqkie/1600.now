@@ -1,15 +1,1 @@
-{
-  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21",
-  "correctAnswer": "638",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify absolute values when a is negative",
-      "content": "Since $a < 0$, both $15a$ and $8a$ are negative. Therefore $|15a| = -15a$ and $|8a| = -8a$. Substituting into the function:<br/><br/>$$f(15a) = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/><br/>$$f(8a) = \\frac{-8a}{a} - 14 = -8 - 14 = -22$$"
-    },
-    {
-      "title": "Calculate the product",
-      "content": "$$(-29) \\times (-22) = 638$$"
-    }
-  ]
-}
+{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_21", "correctAnswer": "638", "section": "Math", "steps": [{"title": "Simplify absolute values when a is negative", "content": "Since $a < 0$, both $15a$ and $8a$ are negative. Therefore $|15a| = -15a$ and $|8a| = -8a$. Substituting into the function:<br/>$$f(15a) = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$f(8a) = \\frac{-8a}{a} - 14 = -8 - 14 = -22$$"}, {"title": "Calculate the product", "content": "$$(-29) \\times (-22) = 638$$"}]}

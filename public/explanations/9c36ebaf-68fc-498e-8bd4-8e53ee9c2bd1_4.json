@@ -1,15 +1,1 @@
-{
-  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_4",
-  "correctAnswer": "17",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand infinitely many solutions",
-      "content": "An equation has infinitely many solutions when it is an identity\u2014when both sides of the equation are exactly the same expression. This means the equation is true for <em>every</em> possible value of the variable."
-    },
-    {
-      "title": "Equate the constant terms",
-      "content": "In the equation $9x + 17 = 9x + k$, the $9x$ terms are already identical on both sides. For the equation to hold for all values of $x$, the constant terms must also be equal:<br/><br/>$$17 = k$$<br/><br/>Therefore, $k = 17$."
-    }
-  ]
-}
+{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_4", "correctAnswer": "17", "section": "Math", "steps": [{"title": "Understand infinitely many solutions", "content": "An equation has infinitely many solutions when it is an identity—when both sides of the equation are exactly the same expression. This means the equation is true for <em>every</em> possible value of the variable."}, {"title": "Equate the constant terms", "content": "In the equation $9x + 17 = 9x + k$, the $9x$ terms are already identical on both sides. For the equation to hold for all values of $x$, the constant terms must also be equal:<br/>$$17 = k$$<br/>Therefore, $k = 17$."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_19",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify point values for each game outcome",
-      "content": "The problem tells us:<ul><li>Each draw gives 1 point</li><li>Each win gives 3 points</li><li>The team has earned 21 total points</li><li>$d$ = number of draws, $w$ = number of wins</li></ul>"
-    },
-    {
-      "title": "Build the equation from total points",
-      "content": "Total points come from two sources:<br/><strong>Points from draws:</strong> 1 point per draw \u00d7 $d$ draws = $d$ points<br/><strong>Points from wins:</strong> 3 points per win \u00d7 $w$ wins = $3w$ points<br/><br/>Setting the sum equal to 21 points:<br/>$$d + 3w = 21$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_19", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify point values for each game outcome", "content": "The problem tells us:<ul><li>Each draw gives 1 point</li><li>Each win gives 3 points</li><li>The team has earned 21 total points</li><li>$d$ = number of draws, $w$ = number of wins</li></ul>"}, {"title": "Build the equation from total points", "content": "Total points come from two sources:<br/><strong>Points from draws:</strong> 1 point per draw × $d$ draws = $d$ points<br/><strong>Points from wins:</strong> 3 points per win × $w$ wins = $3w$ points<br/><br/>Setting the sum equal to 21 points:<br/>$$d + 3w = 21$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

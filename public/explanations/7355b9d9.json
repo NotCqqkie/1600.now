@@ -1,15 +1,1 @@
-{
-  "questionId": "7355b9d9",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the Factor Theorem",
-      "content": "If $(k-x)$ is a factor of the expression, then by the Factor Theorem, the expression must equal 0 when $x = k$."
-    },
-    {
-      "title": "Substitute and solve for n",
-      "content": "Set $x = k$ in $-x^2 + \\frac{1}{29}nk^2$:<br/><br/>$$-k^2 + \\frac{1}{29}nk^2 = 0$$<br/><br/>Factor out $k^2$:<br/><br/>$$k^2\\left(-1 + \\frac{1}{29}n\\right) = 0$$<br/><br/>Since $k > 0$, we have $k^2 \\neq 0$, so:<br/><br/>$$-1 + \\frac{1}{29}n = 0$$<br/><br/>$$\\frac{1}{29}n = 1$$<br/><br/>$$n = 29$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7355b9d9", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the Factor Theorem", "content": "If $(k-x)$ is a factor of the expression, then by the Factor Theorem, the expression must equal 0 when $x = k$."}, {"title": "Substitute and solve for n", "content": "Set $x = k$ in $-x^2 + \\frac{1}{29}nk^2$:<br/>$$-k^2 + \\frac{1}{29}nk^2 = 0$$<br/>Factor out $k^2$:<br/>$$k^2\\left(-1 + \\frac{1}{29}n\\right) = 0$$<br/>Since $k > 0$, we have $k^2 \\neq 0$, so:<br/>$$-1 + \\frac{1}{29}n = 0$$<br/>$$\\frac{1}{29}n = 1$$<br/>$$n = 29$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

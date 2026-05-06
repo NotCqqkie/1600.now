@@ -1,15 +1,1 @@
-{
-  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_12",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the slope-intercept form with known values",
-      "content": "We have slope $m = -\\frac{1}{2}$ and the line passes through $(6, 4)$. Use the slope-intercept form $y = mx + b$ and substitute the point to find the y-intercept."
-    },
-    {
-      "title": "Solve for the y-intercept and write the equation",
-      "content": "Substitute $(6, 4)$ into $y = mx + b$:<br/>$$4 = -\\frac{1}{2}(6) + b$$<br/>$$4 = -3 + b$$<br/>$$b = 7$$<br/><br/>The equation is $y = -\\frac{1}{2}x + 7$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_12", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the slope-intercept form with known values", "content": "We have slope $m = -\\frac{1}{2}$ and the line passes through $(6, 4)$. Use the slope-intercept form $y = mx + b$ and substitute the point to find the y-intercept."}, {"title": "Solve for the y-intercept and write the equation", "content": "Substitute $(6, 4)$ into $y = mx + b$:<br/>$$4 = -\\frac{1}{2}(6) + b$$<br/>$$4 = -3 + b$$<br/>$$b = 7$$<br/>The equation is $y = -\\frac{1}{2}x + 7$. That matches choice D — <strong>D</strong> is correct."}]}

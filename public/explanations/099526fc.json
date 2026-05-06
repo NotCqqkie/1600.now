@@ -1,16 +1,1 @@
-{
-  "questionId": "099526fc",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the endpoints and calculate the segment length",
-      "content": "From the graph, the line segment connects the points (\u22125, 4) and (4, 10). Using the distance formula:<br/><br/>$$\\text{Distance} = \\sqrt{(4 - (-5))^2 + (10 - 4)^2} = \\sqrt{9^2 + 6^2} = \\sqrt{81 + 36} = \\sqrt{117}$$<br/><br/>Factor 117: $117 = 9 \\cdot 13$, so $\\sqrt{117} = 3\\sqrt{13}$<br/><br/>The shown leg has length $3\\sqrt{13}$ units.",
-      "formula": "$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$"
-    },
-    {
-      "title": "Use the area formula to find the other leg",
-      "content": "For a right triangle, Area $= \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$. Substitute the known values:<br/><br/>$$36\\sqrt{13} = \\frac{1}{2} \\times 3\\sqrt{13} \\times \\text{leg}_2$$<br/><br/>Multiply both sides by 2:<br/><br/>$$72\\sqrt{13} = 3\\sqrt{13} \\times \\text{leg}_2$$<br/><br/>Divide both sides by $3\\sqrt{13}$:<br/><br/>$$\\text{leg}_2 = \\frac{72\\sqrt{13}}{3\\sqrt{13}} = 24$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "099526fc", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the endpoints and calculate the segment length", "content": "From the graph, the line segment connects the points (−5, 4) and (4, 10). Using the distance formula:<br/>$$\\text{Distance} = \\sqrt{(4 - (-5))^2 + (10 - 4)^2} = \\sqrt{9^2 + 6^2} = \\sqrt{81 + 36} = \\sqrt{117}$$<br/>Factor 117: $117 = 9 \\cdot 13$, so $\\sqrt{117} = 3\\sqrt{13}$<br/><br/>The shown leg has length $3\\sqrt{13}$ units.", "formula": "$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$"}, {"title": "Use the area formula to find the other leg", "content": "For a right triangle, Area $= \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$. Substitute the known values:<br/>$$36\\sqrt{13} = \\frac{1}{2} \\times 3\\sqrt{13} \\times \\text{leg}_2$$<br/>Multiply both sides by 2:<br/>$$72\\sqrt{13} = 3\\sqrt{13} \\times \\text{leg}_2$$<br/>Divide both sides by $3\\sqrt{13}$:<br/>$$\\text{leg}_2 = \\frac{72\\sqrt{13}}{3\\sqrt{13}} = 24$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b76a2815",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the goal",
-      "content": "We start with $P = \\frac{W}{t}$ and need to isolate $W$ on one side of the equation to express it in terms of $P$ and $t$."
-    },
-    {
-      "title": "Multiply both sides by t to isolate W",
-      "content": "Multiply both sides by $t$:<br/><br/>$$P \\cdot t = \\frac{W}{t} \\cdot t$$<br/><br/>The $t$ cancels on the right side:<br/><br/>$$W = Pt$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b76a2815", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the goal", "content": "We start with $P = \\frac{W}{t}$ and need to isolate $W$ on one side of the equation to express it in terms of $P$ and $t$."}, {"title": "Multiply both sides by t to isolate W", "content": "Multiply both sides by $t$:<br/>$$P \\cdot t = \\frac{W}{t} \\cdot t$$<br/>The $t$ cancels on the right side:<br/>$$W = Pt$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

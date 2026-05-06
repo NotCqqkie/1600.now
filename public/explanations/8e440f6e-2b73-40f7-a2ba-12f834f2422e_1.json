@@ -1,15 +1,1 @@
-{
-  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the density formula",
-      "content": "Population density equals total population divided by total area:<br><br>$$\\text{Density} = \\frac{\\text{Population}}{\\text{Area}} = \\frac{2{,}278}{134} \\text{ muskrats per acre}$$"
-    },
-    {
-      "title": "Backsolve to find the density",
-      "content": "Backsolving \u2014 testing choice C (151):<br>If density is 151, then population $= 151 \\times 134 = 20{,}234$ muskrats. This exceeds 2,278 far too much.<br><br>Backsolving \u2014 testing choice A (17):<br>If density is 17, then population $= 17 \\times 134 = 17 \\times 100 + 17 \\times 34 = 1{,}700 + 578 = 2{,}278$ muskrats. This matches exactly. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the density formula", "content": "Population density equals total population divided by total area:<br/>$$\\text{Density} = \\frac{\\text{Population}}{\\text{Area}} = \\frac{2{,}278}{134} \\text{ muskrats per acre}$$"}, {"title": "Backsolve to find the density", "content": "Backsolving — testing choice C (151):<br>If density is 151, then population $= 151 \\times 134 = 20{,}234$ muskrats. This exceeds 2,278 far too much.<br><br>Backsolving — testing choice A (17):<br>If density is 17, then population $= 17 \\times 134 = 17 \\times 100 + 17 \\times 34 = 1{,}700 + 578 = 2{,}278$ muskrats. This matches exactly. That matches choice A — <strong>A</strong> is correct."}]}

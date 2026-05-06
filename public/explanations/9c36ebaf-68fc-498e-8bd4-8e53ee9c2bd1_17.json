@@ -1,16 +1,1 @@
-{
-  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_17",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the standard form using the given center",
-      "content": "For a circle, we substitute the center $(-4, 1)$ into the standard form where $(h, k) = (-4, 1)$, giving $h = -4$ and $k = 1$:<br/><br/>$$(x + 4)^2 + (y - 1)^2 = r^2$$",
-      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
-    },
-    {
-      "title": "Find the radius using the point on the circle",
-      "content": "The point $(-8, 4)$ lies on the circle. The radius is the distance from the center $(-4, 1)$ to this point:<br/><br/>$$r = \\sqrt{(-8 - (-4))^2 + (4 - 1)^2}$$<br/><br/>$$r = \\sqrt{(-4)^2 + 3^2}$$<br/><br/>$$r = \\sqrt{16 + 9} = \\sqrt{25} = 5$$<br/><br/>Therefore $r^2 = 25$, giving us:<br/><br/>$$(x + 4)^2 + (y - 1)^2 = 25$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_17", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the standard form using the given center", "content": "For a circle, we substitute the center $(-4, 1)$ into the standard form where $(h, k) = (-4, 1)$, giving $h = -4$ and $k = 1$:<br/>$$(x + 4)^2 + (y - 1)^2 = r^2$$", "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"}, {"title": "Find the radius using the point on the circle", "content": "The point $(-8, 4)$ lies on the circle. The radius is the distance from the center $(-4, 1)$ to this point:<br/>$$r = \\sqrt{(-8 - (-4))^2 + (4 - 1)^2}$$<br/>$$r = \\sqrt{(-4)^2 + 3^2}$$<br/>$$r = \\sqrt{16 + 9} = \\sqrt{25} = 5$$<br/>Therefore $r^2 = 25$, giving us:<br/>$$(x + 4)^2 + (y - 1)^2 = 25$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

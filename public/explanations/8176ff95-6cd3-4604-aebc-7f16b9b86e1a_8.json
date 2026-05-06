@@ -1,16 +1,1 @@
-{
-  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_8",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the slope between the two points",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$",
-      "content": "Using the points (4, 190) and (10, 670):<br/>$$m = \\frac{670 - 190}{10 - 4} = \\frac{480}{6} = 80$$"
-    },
-    {
-      "title": "Find the y-intercept and write the equation",
-      "content": "Substitute the slope and point (4, 190) into $y = mx + b$:<br/>$$190 = 80(4) + b$$<br/>$$190 = 320 + b$$<br/>$$b = -130$$<br/><br/>Therefore $f(x) = 80x - 130$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_8", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Calculate the slope between the two points", "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$", "content": "Using the points (4, 190) and (10, 670):<br/>$$m = \\frac{670 - 190}{10 - 4} = \\frac{480}{6} = 80$$"}, {"title": "Find the y-intercept and write the equation", "content": "Substitute the slope and point (4, 190) into $y = mx + b$:<br/>$$190 = 80(4) + b$$<br/>$$190 = 320 + b$$<br/>$$b = -130$$<br/>Therefore $f(x) = 80x - 130$. That matches choice D — <strong>D</strong> is correct."}]}

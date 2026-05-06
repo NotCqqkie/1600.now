@@ -1,15 +1,1 @@
-{
-  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert line r to slope-intercept form",
-      "content": "To find the slope of line $r$, convert $6x - 5y = 9$ to slope-intercept form:<br/><br/>$$6x - 5y = 9$$<br/>$$-5y = -6x + 9$$<br/>$$y = \\frac{6}{5}x - \\frac{9}{5}$$<br/><br/>The slope of line $r$ is $\\frac{6}{5}$."
-    },
-    {
-      "title": "Apply the parallel lines property",
-      "content": "Parallel lines have equal slopes. Since line $s$ is parallel to line $r$, the slope of line $s$ equals the slope of line $r$, which is $\\frac{6}{5}$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert line r to slope-intercept form", "content": "To find the slope of line $r$, convert $6x - 5y = 9$ to slope-intercept form:<br/>$$6x - 5y = 9$$<br/>$$-5y = -6x + 9$$<br/>$$y = \\frac{6}{5}x - \\frac{9}{5}$$<br/>The slope of line $r$ is $\\frac{6}{5}$."}, {"title": "Apply the parallel lines property", "content": "Parallel lines have equal slopes. Since line $s$ is parallel to line $r$, the slope of line $s$ equals the slope of line $r$, which is $\\frac{6}{5}$. That matches choice D — <strong>D</strong> is correct."}]}

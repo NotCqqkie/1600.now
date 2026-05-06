@@ -1,15 +1,1 @@
-{
-  "questionId": "6a87902f",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set the equations equal to find intersection points",
-      "content": "When two graphs intersect, they meet at a point where both equations are true simultaneously \u2014 that is, they have the same $y$-value for the same $x$-value. So we set the right-hand sides equal:<br/>$$2x + 10 = 2x - 1$$"
-    },
-    {
-      "title": "Simplify and identify the contradiction",
-      "content": "Subtracting $2x$ from both sides:<br/>$$10 = -1$$<br/><br/>This is false \u2014 an impossible equation. Since there's no $x$ value that makes both original equations have the same $y$-value, the graphs cannot intersect. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6a87902f", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set the equations equal to find intersection points", "content": "When two graphs intersect, they meet at a point where both equations are true simultaneously — that is, they have the same $y$-value for the same $x$-value. So we set the right-hand sides equal:<br/>$$2x + 10 = 2x - 1$$"}, {"title": "Simplify and identify the contradiction", "content": "Subtracting $2x$ from both sides:<br/>$$10 = -1$$<br/>This is false — an impossible equation. Since there's no $x$ value that makes both original equations have the same $y$-value, the graphs cannot intersect. That matches choice A — <strong>A</strong> is correct."}]}

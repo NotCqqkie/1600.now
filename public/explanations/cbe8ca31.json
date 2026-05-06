@@ -1,15 +1,1 @@
-{
-  "questionId": "cbe8ca31",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the triangle angle sum property",
-      "content": "The sum of the three angles in any triangle is always 180\u00b0. Since we know \u2220X = 24\u00b0 and \u2220Y = 98\u00b0, we can write:<br/><br/>$$\u2220X + \u2220Y + \u2220Z = 180\u00b0$$"
-    },
-    {
-      "title": "Substitute known values and solve for \u2220Z",
-      "content": "Substitute the known angle measures:<br/><br/>$$24\u00b0 + 98\u00b0 + \u2220Z = 180\u00b0$$<br/><br/>Combine the known angles:<br/><br/>$$122\u00b0 + \u2220Z = 180\u00b0$$<br/><br/>Subtract 122\u00b0 from both sides:<br/><br/>$$\u2220Z = 180\u00b0 \u2212 122\u00b0 = 58\u00b0$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbe8ca31", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the triangle angle sum property", "content": "The sum of the three angles in any triangle is always 180°. Since we know ∠X = 24° and ∠Y = 98°, we can write:<br/>$$∠X + ∠Y + ∠Z = 180°$$"}, {"title": "Substitute known values and solve for ∠Z", "content": "Substitute the known angle measures:<br/>$$24° + 98° + ∠Z = 180°$$<br/>Combine the known angles:<br/>$$122° + ∠Z = 180°$$<br/>Subtract 122° from both sides:<br/>$$∠Z = 180° − 122° = 58°$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

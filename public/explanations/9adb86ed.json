@@ -1,15 +1,1 @@
-{
-  "questionId": "9adb86ed",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the radii",
-      "content": "Since $Q$ and $R$ lie on the circle with center $P$ and radius 9 inches, both $PQ$ and $PR$ are radii of the circle. Therefore, $PQ = 9$ and $PR = 9$."
-    },
-    {
-      "title": "Apply the perimeter constraint",
-      "content": "The perimeter of triangle $PQR$ is the sum of all three sides:<br><br>$$PQ + PR + QR = 31$$<br><br>Substituting the known values:<br><br>$$9 + 9 + QR = 31$$<br>$$18 + QR = 31$$<br>$$QR = 13$$<br><br>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9adb86ed", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the radii", "content": "Since $Q$ and $R$ lie on the circle with center $P$ and radius 9 inches, both $PQ$ and $PR$ are radii of the circle. Therefore, $PQ = 9$ and $PR = 9$."}, {"title": "Apply the perimeter constraint", "content": "The perimeter of triangle $PQR$ is the sum of all three sides:<br/>$$PQ + PR + QR = 31$$<br>Substituting the known values:<br/>$$9 + 9 + QR = 31$$<br>$$18 + QR = 31$$<br>$$QR = 13$$<br>That matches choice B — <strong>B</strong> is correct."}]}

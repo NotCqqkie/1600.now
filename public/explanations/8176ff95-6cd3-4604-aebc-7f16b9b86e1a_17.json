@@ -1,15 +1,1 @@
-{
-  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_17",
-  "correctAnswer": "9",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the perfect square pattern",
-      "content": "Rearrange the equation to standard form: $121x^2 + 110x - 56 = 0$<br/><br/>Notice that the first two terms match the expansion of $(11x + 5)^2 = 121x^2 + 110x + 25$. We can rewrite the equation as:<br/>$$(11x + 5)^2 - 25 - 56 = 0$$<br/>$$(11x + 5)^2 = 81$$"
-    },
-    {
-      "title": "Solve for 11x + 5 using the given constraint",
-      "content": "Taking the square root of both sides:<br/>$$11x + 5 = \\pm 9$$<br/><br/>We obtain two potential values: $11x + 5 = 9$ or $11x + 5 = -9$. Since the problem specifies $11x + 5 > 0$, we select the positive value: $11x + 5 = 9$."
-    }
-  ]
-}
+{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_17", "correctAnswer": "9", "section": "Math", "steps": [{"title": "Recognize the perfect square pattern", "content": "Rearrange the equation to standard form: $121x^2 + 110x - 56 = 0$<br/><br/>Notice that the first two terms match the expansion of $(11x + 5)^2 = 121x^2 + 110x + 25$. We can rewrite the equation as:<br/>$$(11x + 5)^2 - 25 - 56 = 0$$<br/>$$(11x + 5)^2 = 81$$"}, {"title": "Solve for 11x + 5 using the given constraint", "content": "Taking the square root of both sides:<br/>$$11x + 5 = \\pm 9$$<br/>We obtain two potential values: $11x + 5 = 9$ or $11x + 5 = -9$. Since the problem specifies $11x + 5 > 0$, we select the positive value: $11x + 5 = 9$."}]}

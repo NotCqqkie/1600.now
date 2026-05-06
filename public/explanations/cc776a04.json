@@ -1,16 +1,1 @@
-{
-  "questionId": "cc776a04",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand the perfect square binomial",
-      "content": "Apply the perfect square pattern to $(1.5x - 2.4)^2$ with $a = 1.5x$ and $b = 2.4$. Calculate each component:<br/><br/>$$(1.5x)^2 = 2.25x^2$$<br/><br/>$$-2(1.5x)(2.4) = -7.2x$$<br/><br/>$$(2.4)^2 = 5.76$$<br/><br/>Combine these terms:<br/>$$(1.5x - 2.4)^2 = 2.25x^2 - 7.2x + 5.76$$",
-      "formula": "$$(a - b)^2 = a^2 - 2ab + b^2$$"
-    },
-    {
-      "title": "Subtract the second expression and combine like terms",
-      "content": "Now subtract $(5.2x^2 - 6.4)$ from the expanded form:<br/><br/>$$(2.25x^2 - 7.2x + 5.76) - (5.2x^2 - 6.4)$$<br/><br/>Distribute the negative sign and group like terms:<br/>$$= 2.25x^2 - 5.2x^2 - 7.2x + 5.76 + 6.4$$<br/><br/>Simplify each group:<br/><ul><li>$x^2$ terms: $2.25 - 5.2 = -2.95$</li><li>$x$ terms: $-7.2x$ remains unchanged</li><li>Constants: $5.76 + 6.4 = 12.16$</li></ul><br/>$$= -2.95x^2 - 7.2x + 12.16$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cc776a04", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Expand the perfect square binomial", "content": "Apply the perfect square pattern to $(1.5x - 2.4)^2$ with $a = 1.5x$ and $b = 2.4$. Calculate each component:<br/>$$(1.5x)^2 = 2.25x^2$$<br/>$$-2(1.5x)(2.4) = -7.2x$$<br/>$$(2.4)^2 = 5.76$$<br/>Combine these terms:<br/>$$(1.5x - 2.4)^2 = 2.25x^2 - 7.2x + 5.76$$", "formula": "$$(a - b)^2 = a^2 - 2ab + b^2$$"}, {"title": "Subtract the second expression and combine like terms", "content": "Now subtract $(5.2x^2 - 6.4)$ from the expanded form:<br/>$$(2.25x^2 - 7.2x + 5.76) - (5.2x^2 - 6.4)$$<br/>Distribute the negative sign and group like terms:<br/>$$= 2.25x^2 - 5.2x^2 - 7.2x + 5.76 + 6.4$$<br/>Simplify each group:<br/><ul><li>$x^2$ terms: $2.25 - 5.2 = -2.95$</li><li>$x$ terms: $-7.2x$ remains unchanged</li><li>Constants: $5.76 + 6.4 = 12.16$</li></ul><br/>$$= -2.95x^2 - 7.2x + 12.16$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_21",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the zero condition to relate a and b",
-      "content": "Since $g(-9) = 0$ and $g(x) = \\frac{f(x)}{x+3}$, the numerator must be zero: $f(-9) = 0$.<br/>For $f(x) = ax + b$, this gives $-9a + b = 0$, so $b = 9a$."
-    },
-    {
-      "title": "Find the coefficients and y-intercept",
-      "content": "Use $x = -21, g(-21) = 2$:<br/>$$2 = \\frac{-21a + b}{-21 + 3} = \\frac{-21a + b}{-18}$$<br/>$$-36 = -21a + b$$<br/><br/>Substitute $b = 9a$:<br/>$$-36 = -21a + 9a = -12a$$<br/>$$a = 3$$<br/><br/>Therefore $b = 9(3) = 27$, so $f(x) = 3x + 27$.<br/><br/>The $y$-intercept is $(0, 27)$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Use the zero condition to relate a and b", "content": "Since $g(-9) = 0$ and $g(x) = \\frac{f(x)}{x+3}$, the numerator must be zero: $f(-9) = 0$.<br/>For $f(x) = ax + b$, this gives $-9a + b = 0$, so $b = 9a$."}, {"title": "Find the coefficients and y-intercept", "content": "Use $x = -21, g(-21) = 2$:<br/>$$2 = \\frac{-21a + b}{-21 + 3} = \\frac{-21a + b}{-18}$$<br/>$$-36 = -21a + b$$<br/>Substitute $b = 9a$:<br/>$$-36 = -21a + 9a = -12a$$<br/>$$a = 3$$<br/>Therefore $b = 9(3) = 27$, so $f(x) = 3x + 27$.<br/><br/>The $y$-intercept is $(0, 27)$. That matches choice D — <strong>D</strong> is correct."}]}

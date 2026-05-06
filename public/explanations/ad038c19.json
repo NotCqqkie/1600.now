@@ -1,16 +1,1 @@
-{
-  "questionId": "ad038c19",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the perfect square formula",
-      "content": "To expand $(a + \\frac{b}{2})^2$, we identify $x = a$ and $y = \\frac{b}{2}$. The perfect square formula gives us:<br/><br/>$$a^2 + 2 \\cdot a \\cdot \\frac{b}{2} + \\left(\\frac{b}{2}\\right)^2$$",
-      "formula": "$$(x + y)^2 = x^2 + 2xy + y^2$$"
-    },
-    {
-      "title": "Simplify each term",
-      "content": "Simplify each term:<br/><ul><li>First: $a^2$</li><li>Middle: $2 \\cdot a \\cdot \\frac{b}{2} = ab$</li><li>Last: $\\left(\\frac{b}{2}\\right)^2 = \\frac{b^2}{4}$</li></ul><br/>Combined result: $a^2 + ab + \\frac{b^2}{4}$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ad038c19", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Apply the perfect square formula", "content": "To expand $(a + \\frac{b}{2})^2$, we identify $x = a$ and $y = \\frac{b}{2}$. The perfect square formula gives us:<br/>$$a^2 + 2 \\cdot a \\cdot \\frac{b}{2} + \\left(\\frac{b}{2}\\right)^2$$", "formula": "$$(x + y)^2 = x^2 + 2xy + y^2$$"}, {"title": "Simplify each term", "content": "Simplify each term:<br/><ul><li>First: $a^2$</li><li>Middle: $2 \\cdot a \\cdot \\frac{b}{2} = ab$</li><li>Last: $\\left(\\frac{b}{2}\\right)^2 = \\frac{b^2}{4}$</li></ul><br/>Combined result: $a^2 + ab + \\frac{b^2}{4}$. That matches choice D — <strong>D</strong> is correct."}]}

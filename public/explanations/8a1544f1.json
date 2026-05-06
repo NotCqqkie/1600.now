@@ -1,15 +1,1 @@
-{
-  "questionId": "8a1544f1",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify key points on the line",
-      "content": "The line crosses the y-axis at (0, 3) and passes through (1, 0)."
-    },
-    {
-      "title": "Calculate slope and write the equation",
-      "content": "Using the slope formula:<br/><br/>$$m = \\frac{0 - 3}{1 - 0} = -3$$<br/><br/>With $m = -3$ and $b = 3$, the equation is:<br/><br/>$$y = -3x + 3$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a1544f1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify key points on the line", "content": "The line crosses the y-axis at (0, 3) and passes through (1, 0)."}, {"title": "Calculate slope and write the equation", "content": "Using the slope formula:<br/>$$m = \\frac{0 - 3}{1 - 0} = -3$$<br/>With $m = -3$ and $b = 3$, the equation is:<br/>$$y = -3x + 3$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the multiplication factor when x increases by 1",
-      "content": "When $x$ increases by 1, we go from $f(x)$ to $f(x+1)$:<br/><br/>$$f(x+1) = 66b^{x+1} = 66 \\cdot b \\cdot b^x = b(66b^x) = b \\cdot f(x)$$<br/><br/>The function value is multiplied by $b$."
-    },
-    {
-      "title": "Convert multiplication to percentage increase",
-      "content": "When a quantity is multiplied by $b$, the percentage increase is $(b-1) \\times 100\\%$. Here's why:<br/><br/>$$\\text{percentage increase} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\% = \\frac{b \\cdot V - V}{V} \\times 100\\% = (b-1) \\times 100\\%$$<br/><br/>Therefore $c = 100(b-1)$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_20", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the multiplication factor when x increases by 1", "content": "When $x$ increases by 1, we go from $f(x)$ to $f(x+1)$:<br/>$$f(x+1) = 66b^{x+1} = 66 \\cdot b \\cdot b^x = b(66b^x) = b \\cdot f(x)$$<br/>The function value is multiplied by $b$."}, {"title": "Convert multiplication to percentage increase", "content": "When a quantity is multiplied by $b$, the percentage increase is $(b-1) \\times 100\\%$. Here's why:<br/>$$\\text{percentage increase} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\% = \\frac{b \\cdot V - V}{V} \\times 100\\% = (b-1) \\times 100\\%$$<br/>Therefore $c = 100(b-1)$. That matches choice D — <strong>D</strong> is correct."}]}

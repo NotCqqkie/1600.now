@@ -1,15 +1,1 @@
-{
-  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_22",
-  "correctAnswer": "420",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert time and set up the system",
-      "content": "Convert 15 hours to minutes: $15 \\times 60 = 900$ minutes.<br/><br/>Let $f$ = minutes with fence and $n$ = minutes without fence. From the problem:<br/>$$f + n = 900$$<br/>$$1.03f + 0.56n = 701.40$$"
-    },
-    {
-      "title": "Solve using substitution",
-      "content": "From the time equation: $n = 900 - f$.<br/><br/>Substitute into the revenue equation:<br/>$$1.03f + 0.56(900 - f) = 701.40$$<br/>$$1.03f + 504 - 0.56f = 701.40$$<br/>$$0.47f = 197.40$$<br/>$$f = \\frac{197.40}{0.47} = 420$$<br/><br/>Jackson spends <strong>420 minutes</strong> mowing lawns with a fence."
-    }
-  ]
-}
+{"questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_22", "correctAnswer": "420", "section": "Math", "steps": [{"title": "Convert time and set up the system", "content": "Convert 15 hours to minutes: $15 \\times 60 = 900$ minutes.<br/><br/>Let $f$ = minutes with fence and $n$ = minutes without fence. From the problem:<br/>$$f + n = 900$$<br/>$$1.03f + 0.56n = 701.40$$"}, {"title": "Solve using substitution", "content": "From the time equation: $n = 900 - f$.<br/><br/>Substitute into the revenue equation:<br/>$$1.03f + 0.56(900 - f) = 701.40$$<br/>$$1.03f + 504 - 0.56f = 701.40$$<br/>$$0.47f = 197.40$$<br/>$$f = \\frac{197.40}{0.47} = 420$$<br/>Jackson spends <strong>420 minutes</strong> mowing lawns with a fence."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "768f3b7c",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope between two data points",
-      "content": "Using points $(-2s, 24)$ and $(-s, 21)$:<br/>$$\\text{slope} = \\frac{21 - 24}{(-s) - (-2s)} = \\frac{-3}{s}$$"
-    },
-    {
-      "title": "Use point-slope form to find the equation",
-      "content": "With point $(-s, 21)$ and slope $-\\frac{3}{s}$, apply point-slope form:<br/>$$y - 21 = -\\frac{3}{s}(x + s)$$<br/><br/>Multiply both sides by $s$:<br/>$$s(y - 21) = -3(x + s)$$<br/>$$sy - 21s = -3x - 3s$$<br/>$$3x + sy = 18s$$<br/><br/>Verify with all three points: $3(-2s) + s(24) = 18s$ \u2713, $3(-s) + s(21) = 18s$ \u2713, $3(s) + s(15) = 18s$ \u2713<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "768f3b7c", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope between two data points", "content": "Using points $(-2s, 24)$ and $(-s, 21)$:<br/>$$\\text{slope} = \\frac{21 - 24}{(-s) - (-2s)} = \\frac{-3}{s}$$"}, {"title": "Use point-slope form to find the equation", "content": "With point $(-s, 21)$ and slope $-\\frac{3}{s}$, apply point-slope form:<br/>$$y - 21 = -\\frac{3}{s}(x + s)$$<br/>Multiply both sides by $s$:<br/>$$s(y - 21) = -3(x + s)$$<br/>$$sy - 21s = -3x - 3s$$<br/>$$3x + sy = 18s$$<br/>Verify with all three points: $3(-2s) + s(24) = 18s$ ✓, $3(-s) + s(21) = 18s$ ✓, $3(s) + s(15) = 18s$ ✓<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

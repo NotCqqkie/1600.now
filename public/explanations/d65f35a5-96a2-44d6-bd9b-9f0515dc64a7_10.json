@@ -1,15 +1,1 @@
-{
-  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_10",
-  "correctAnswer": "80",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the function structure",
-      "content": "The function $W(x) = 4x + 80$ is linear, in slope-intercept form $W(x) = mx + b$. The coefficient 4 represents the time per plant watered, and 80 is the constant term\u2014the part of total time that does not depend on the number of plants."
-    },
-    {
-      "title": "Find the constant by evaluating at x = 0",
-      "content": "To isolate mowing time alone, evaluate the function when no plants are watered ($x = 0$):<br/><br/>$$W(0) = 4(0) + 80 = 80$$<br/><br/>Since watering zero plants contributes zero minutes, the entire 80 minutes represents time spent mowing the grass. The answer is <strong>80</strong> minutes."
-    }
-  ]
-}
+{"questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_10", "correctAnswer": "80", "section": "Math", "steps": [{"title": "Recognize the function structure", "content": "The function $W(x) = 4x + 80$ is linear, in slope-intercept form $W(x) = mx + b$. The coefficient 4 represents the time per plant watered, and 80 is the constant term—the part of total time that does not depend on the number of plants."}, {"title": "Find the constant by evaluating at x = 0", "content": "To isolate mowing time alone, evaluate the function when no plants are watered ($x = 0$):<br/>$$W(0) = 4(0) + 80 = 80$$<br/>Since watering zero plants contributes zero minutes, the entire 80 minutes represents time spent mowing the grass. The answer is <strong>80</strong> minutes."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the growth multiplier",
-      "content": "An 8% annual increase means each year the population is 1.08 times the previous year (100% + 8% = 108% = 1.08). Starting value: 3,000 in 2007."
-    },
-    {
-      "title": "Build the exponential formula",
-      "content": "After $x$ years of 8% growth:<br/>Year 1: $p = 3,000(1.08)^1$<br/>Year 2: $p = 3,000(1.08)^2$<br/>Year $x$: $$p = 3,000(1.08)^x$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_4", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the growth multiplier", "content": "An 8% annual increase means each year the population is 1.08 times the previous year (100% + 8% = 108% = 1.08). Starting value: 3,000 in 2007."}, {"title": "Build the exponential formula", "content": "After $x$ years of 8% growth:<br/>Year 1: $p = 3,000(1.08)^1$<br/>Year 2: $p = 3,000(1.08)^2$<br/>Year $x$: $$p = 3,000(1.08)^x$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

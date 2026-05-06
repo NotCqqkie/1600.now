@@ -1,15 +1,1 @@
-{
-  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_16",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the diagonal formula to find the side length",
-      "content": "A square with side length $s$ has diagonal $d = s\\sqrt{2}$. Substituting $d = 228$:<br/><br/>$$228 = s\\sqrt{2}$$<br/>$$s = \\frac{228}{\\sqrt{2}} = \\frac{228\\sqrt{2}}{2} = 114\\sqrt{2}$$"
-    },
-    {
-      "title": "Find the inscribed circle's radius and area",
-      "content": "For a circle inscribed in a square, the radius equals half the side length. With $s = 114\\sqrt{2}$:<br/><br/>$$r = \\frac{s}{2} = 57\\sqrt{2}$$<br/><br/>The circle's area is:<br/><br/>$$A = \\pi r^2 = \\pi(57\\sqrt{2})^2 = \\pi \\cdot 57^2 \\cdot 2 = \\pi \\cdot 3249 \\cdot 2 = 6498\\pi$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_16", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the diagonal formula to find the side length", "content": "A square with side length $s$ has diagonal $d = s\\sqrt{2}$. Substituting $d = 228$:<br/>$$228 = s\\sqrt{2}$$<br/>$$s = \\frac{228}{\\sqrt{2}} = \\frac{228\\sqrt{2}}{2} = 114\\sqrt{2}$$"}, {"title": "Find the inscribed circle's radius and area", "content": "For a circle inscribed in a square, the radius equals half the side length. With $s = 114\\sqrt{2}$:<br/>$$r = \\frac{s}{2} = 57\\sqrt{2}$$<br/>The circle's area is:<br/>$$A = \\pi r^2 = \\pi(57\\sqrt{2})^2 = \\pi \\cdot 57^2 \\cdot 2 = \\pi \\cdot 3249 \\cdot 2 = 6498\\pi$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

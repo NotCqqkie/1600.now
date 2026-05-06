@@ -1,16 +1,1 @@
-{
-  "questionId": "6ae1360d",
-  "correctAnswer": "4.41",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the area formula for a circle",
-      "content": "The area of a circle depends on its radius. We're given that the area is $b\\pi$ square inches, so we need to find the value of $b$.",
-      "formula": "$$A = \\pi r^2$$"
-    },
-    {
-      "title": "Substitute the radius and calculate b",
-      "content": "With radius $r = 2.1$ inches, substitute into the formula:<br/><br/>$$A = \\pi (2.1)^2$$<br/><br/>Calculate $(2.1)^2$:<br/><br/>$$(2.1)^2 = 4.41$$<br/><br/>Therefore, the area is $4.41\\pi$ square inches, so $b = 4.41$."
-    }
-  ]
-}
+{"questionId": "6ae1360d", "correctAnswer": "4.41", "section": "Math", "steps": [{"title": "Recall the area formula for a circle", "content": "The area of a circle depends on its radius. We're given that the area is $b\\pi$ square inches, so we need to find the value of $b$.", "formula": "$$A = \\pi r^2$$"}, {"title": "Substitute the radius and calculate b", "content": "With radius $r = 2.1$ inches, substitute into the formula:<br/>$$A = \\pi (2.1)^2$$<br/>Calculate $(2.1)^2$:<br/>$$(2.1)^2 = 4.41$$<br/>Therefore, the area is $4.41\\pi$ square inches, so $b = 4.41$."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "74d8b897",
-  "correctAnswer": "81",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the radians-to-degrees conversion formula",
-      "content": "To convert from radians to degrees, multiply by $$\\frac{180\u00b0}{\\pi}$$. Set up the calculation with the given angle of $\\frac{9\\pi}{20}$ radians:<br/>$$\\frac{9\\pi}{20} \\times \\frac{180\u00b0}{\\pi}$$"
-    },
-    {
-      "title": "Cancel pi and simplify",
-      "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{9 \\times 180\u00b0}{20}$$<br/><br/>Compute the numerator and divide:<br/>$$\\frac{1620\u00b0}{20} = 81\u00b0$$<br/><br/>The angle measures <strong>81 degrees</strong>."
-    }
-  ]
-}
+{"questionId": "74d8b897", "correctAnswer": "81", "section": "Math", "steps": [{"title": "Apply the radians-to-degrees conversion formula", "content": "To convert from radians to degrees, multiply by $$\\frac{180°}{\\pi}$$. Set up the calculation with the given angle of $\\frac{9\\pi}{20}$ radians:<br/>$$\\frac{9\\pi}{20} \\times \\frac{180°}{\\pi}$$"}, {"title": "Cancel pi and simplify", "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{9 \\times 180°}{20}$$<br/>Compute the numerator and divide:<br/>$$\\frac{1620°}{20} = 81°$$<br/>The angle measures <strong>81 degrees</strong>."}]}

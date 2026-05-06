@@ -1,16 +1,1 @@
-{
-  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify that the minimum occurs at the vertex",
-      "content": "The function $f(x) = 18x^2 - 45x + 13$ is a quadratic with a positive leading coefficient ($a = 18 > 0$), so the parabola opens upward and has a minimum at its vertex. For any quadratic $f(x) = ax^2 + bx + c$, the x-coordinate of the vertex is given by:",
-      "formula": "$$x = -\\frac{b}{2a}$$"
-    },
-    {
-      "title": "Apply the vertex formula with the coefficients",
-      "content": "From the function, $a = 18$ and $b = -45$. Substitute into the formula:<br/><br/>$$x = -\\frac{(-45)}{2(18)} = \\frac{45}{36}$$<br/><br/>Reduce the fraction by dividing by the GCD (9):<br/><br/>$$x = \\frac{5}{4} = 1.25$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify that the minimum occurs at the vertex", "content": "The function $f(x) = 18x^2 - 45x + 13$ is a quadratic with a positive leading coefficient ($a = 18 > 0$), so the parabola opens upward and has a minimum at its vertex. For any quadratic $f(x) = ax^2 + bx + c$, the x-coordinate of the vertex is given by:", "formula": "$$x = -\\frac{b}{2a}$$"}, {"title": "Apply the vertex formula with the coefficients", "content": "From the function, $a = 18$ and $b = -45$. Substitute into the formula:<br/>$$x = -\\frac{(-45)}{2(18)} = \\frac{45}{36}$$<br/>Reduce the fraction by dividing by the GCD (9):<br/>$$x = \\frac{5}{4} = 1.25$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

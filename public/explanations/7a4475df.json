@@ -1,15 +1,1 @@
-{
-  "questionId": "7a4475df",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret 3% annual increase as a growth factor",
-      "content": "A 3% increase means the population becomes 103% of the original, or 1.03 times the original.<br/><br/>So each year, the population is multiplied by the growth factor 1.03."
-    },
-    {
-      "title": "Apply the exponential growth formula",
-      "content": "For exponential growth with constant factor $k$ per unit time:<br/><br/>$$p(x) = P_0 \\cdot k^x$$<br/><br/>Here, $P_0 = 2,000$ and $k = 1.03$:<br/><br/>$$p(x) = 2,000(1.03)^x$$<br/><br/>Verify at $x = 1$: $p(1) = 2,000 \\cdot 1.03 = 2,060$, which is indeed 3% more than 2,000. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7a4475df", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Interpret 3% annual increase as a growth factor", "content": "A 3% increase means the population becomes 103% of the original, or 1.03 times the original.<br/><br/>So each year, the population is multiplied by the growth factor 1.03."}, {"title": "Apply the exponential growth formula", "content": "For exponential growth with constant factor $k$ per unit time:<br/>$$p(x) = P_0 \\cdot k^x$$<br/>Here, $P_0 = 2,000$ and $k = 1.03$:<br/>$$p(x) = 2,000(1.03)^x$$<br/>Verify at $x = 1$: $p(1) = 2,000 \\cdot 1.03 = 2,060$, which is indeed 3% more than 2,000. That matches choice C — <strong>C</strong> is correct."}]}

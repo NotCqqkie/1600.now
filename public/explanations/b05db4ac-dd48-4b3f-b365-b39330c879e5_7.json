@@ -1,17 +1,1 @@
-{
-  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_7",
-  "correctAnswer": "4.59",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the volume of the cube",
-      "content": "For a cube with edge length $a = 3.000$ cm, calculate:<br/><br/>$$V = (3.000)^3 = 27.000 \\text{ cm}^3$$",
-      "formula": "$$V = a^3$$"
-    },
-    {
-      "title": "Apply the density formula to find mass",
-      "content": "Use the relationship between mass, density, and volume. Substitute the known values:<br/><br/>$$\\text{mass} = 0.170 \\text{ g/cm}^3 \\times 27.000 \\text{ cm}^3 = 4.59 \\text{ grams}$$<br/><br/>The mass of the cube is <strong>4.59 grams</strong>.",
-      "formula": "$$\\text{mass} = \\text{density} \\times \\text{volume}$$"
-    }
-  ]
-}
+{"questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_7", "correctAnswer": "4.59", "section": "Math", "steps": [{"title": "Find the volume of the cube", "content": "For a cube with edge length $a = 3.000$ cm, calculate:<br/>$$V = (3.000)^3 = 27.000 \\text{ cm}^3$$", "formula": "$$V = a^3$$"}, {"title": "Apply the density formula to find mass", "content": "Use the relationship between mass, density, and volume. Substitute the known values:<br/>$$\\text{mass} = 0.170 \\text{ g/cm}^3 \\times 27.000 \\text{ cm}^3 = 4.59 \\text{ grams}$$<br/>The mass of the cube is <strong>4.59 grams</strong>.", "formula": "$$\\text{mass} = \\text{density} \\times \\text{volume}$$"}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_17",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the triangle area formula",
-      "content": "The area of a triangle is given by:<br/><br/>$$A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$<br/><br/>We are given base = 4 inches and height = 17 inches."
-    },
-    {
-      "title": "Substitute and calculate",
-      "content": "Substitute the values into the formula:<br/><br/>$$A = \\frac{1}{2} \\times 4 \\times 17$$<br/><br/>Simplify:<br/><br/>$$A = 2 \\times 17 = 34$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d2870056-c182-4523-a3f3-884eafe68114_17", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recall the triangle area formula", "content": "The area of a triangle is given by:<br/>$$A = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$<br/>We are given base = 4 inches and height = 17 inches."}, {"title": "Substitute and calculate", "content": "Substitute the values into the formula:<br/>$$A = \\frac{1}{2} \\times 4 \\times 17$$<br/>Simplify:<br/>$$A = 2 \\times 17 = 34$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

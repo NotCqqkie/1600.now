@@ -1,15 +1,1 @@
-{
-  "questionId": "a07ed090",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the volume equation",
-      "content": "The volume of a cylinder is $V = \\pi r^2 h$. The first cylinder has volume $V_1 = \\pi r^2 h$. The second cylinder has volume $V_2 = 392 V_1$, so:<br/><br/>$$\\pi R^2 H = 392\\pi r^2 h$$<br/><br/>Dividing both sides by $\\pi$:<br/><br/>$$R^2 H = 392 r^2 h$$"
-    },
-    {
-      "title": "Backsolve the choices",
-      "content": "Backsolving \u2014 testing choice B ($R = 8r$ and $H = 49h$):<br/>$$R^2 H = (8r)^2(49h) = 64r^2 \\cdot 49h = 3136r^2h$$<br/>This is too large. Fails.<br/><br/>Backsolving \u2014 testing choice C ($R = 7r$ and $H = 8h$):<br/>$$R^2 H = (7r)^2(8h) = 49r^2 \\cdot 8h = 392r^2h$$<br/>This matches exactly. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a07ed090", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the volume equation", "content": "The volume of a cylinder is $V = \\pi r^2 h$. The first cylinder has volume $V_1 = \\pi r^2 h$. The second cylinder has volume $V_2 = 392 V_1$, so:<br/>$$\\pi R^2 H = 392\\pi r^2 h$$<br/>Dividing both sides by $\\pi$:<br/>$$R^2 H = 392 r^2 h$$"}, {"title": "Backsolve the choices", "content": "Backsolving — testing choice B ($R = 8r$ and $H = 49h$):<br/>$$R^2 H = (8r)^2(49h) = 64r^2 \\cdot 49h = 3136r^2h$$<br/>This is too large. Fails.<br/><br/>Backsolving — testing choice C ($R = 7r$ and $H = 8h$):<br/>$$R^2 H = (7r)^2(8h) = 49r^2 \\cdot 8h = 392r^2h$$<br/>This matches exactly. That matches choice C — <strong>C</strong> is correct."}]}

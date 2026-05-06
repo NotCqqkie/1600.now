@@ -1,15 +1,1 @@
-{
-  "questionId": "05195d8a",
-  "correctAnswer": "110",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the percentage equation",
-      "content": "We know that 80% of items are faulty and there are 88 faulty items. This relationship is:<br/><br/>$$0.80 \\times \\text{Total} = 88$$"
-    },
-    {
-      "title": "Solve for total items",
-      "content": "Divide both sides by 0.80:<br/><br/>$$\\text{Total} = \\frac{88}{0.80} = \\frac{88}{\\frac{4}{5}} = 88 \\times \\frac{5}{4} = \\frac{440}{4} = 110$$<br/><br/>The sample contains <strong>110 total items</strong>."
-    }
-  ]
-}
+{"questionId": "05195d8a", "correctAnswer": "110", "section": "Math", "steps": [{"title": "Set up the percentage equation", "content": "We know that 80% of items are faulty and there are 88 faulty items. This relationship is:<br/>$$0.80 \\times \\text{Total} = 88$$"}, {"title": "Solve for total items", "content": "Divide both sides by 0.80:<br/>$$\\text{Total} = \\frac{88}{0.80} = \\frac{88}{\\frac{4}{5}} = 88 \\times \\frac{5}{4} = \\frac{440}{4} = 110$$<br/>The sample contains <strong>110 total items</strong>."}]}

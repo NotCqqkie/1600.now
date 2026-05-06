@@ -1,15 +1,1 @@
-{
-  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_21",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract points on f(x) and find the slope",
-      "content": "Use $f(x) = g(x)(x+3)$ to find values of $f$:<br/><ul><li>At $x = -6$: $f(-6) = 0 \\cdot (-3) = 0$ \u2192 point $(-6, 0)$</li><li>At $x = 9$: $f(9) = 5 \\cdot 12 = 60$ \u2192 point $(9, 60)$</li></ul><br/>The slope is:<br/>$$m = \\frac{60 - 0}{9 - (-6)} = \\frac{60}{15} = 4$$"
-    },
-    {
-      "title": "Find the y-intercept",
-      "content": "Using $f(x) = 4x + b$ and the point $(-6, 0)$:<br/>$$0 = 4(-6) + b$$<br/>$$b = 24$$<br/><br/>The $y$-intercept is $(0, 24)$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Extract points on f(x) and find the slope", "content": "Use $f(x) = g(x)(x+3)$ to find values of $f$:<br/><ul><li>At $x = -6$: $f(-6) = 0 \\cdot (-3) = 0$ → point $(-6, 0)$</li><li>At $x = 9$: $f(9) = 5 \\cdot 12 = 60$ → point $(9, 60)$</li></ul><br/>The slope is:<br/>$$m = \\frac{60 - 0}{9 - (-6)} = \\frac{60}{15} = 4$$"}, {"title": "Find the y-intercept", "content": "Using $f(x) = 4x + b$ and the point $(-6, 0)$:<br/>$$0 = 4(-6) + b$$<br/>$$b = 24$$<br/>The $y$-intercept is $(0, 24)$. That matches choice D — <strong>D</strong> is correct."}]}

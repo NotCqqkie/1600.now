@@ -1,15 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert 50% to decimal form",
-      "content": "The phrase <em>50% of 600</em> means multiply 600 by 50%.<br/><br/>$$50\\% = \\frac{50}{100} = 0.5$$<br/><br/>So the calculation becomes: $600 \\times 0.5$"
-    },
-    {
-      "title": "Multiply to find the result",
-      "content": "$$600 \\times 0.5 = 300$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_1", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Convert 50% to decimal form", "content": "The phrase <em>50% of 600</em> means multiply 600 by 50%.<br/>$$50\\% = \\frac{50}{100} = 0.5$$<br/>So the calculation becomes: $600 \\times 0.5$"}, {"title": "Multiply to find the result", "content": "$$600 \\times 0.5 = 300$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

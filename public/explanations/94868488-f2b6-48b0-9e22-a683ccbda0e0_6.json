@@ -1,15 +1,1 @@
-{
-  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_6",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = -10 into g(x) to find g(-10)",
-      "content": "We need to work from the inside out. First, evaluate $g(-10)$ using the definition $g(x) = |13x - 9|$:<br/><br/>$$g(-10) = |13(-10) - 9|$$<br/>$$= |-130 - 9|$$<br/>$$= |-139|$$<br/>$$= 139$$"
-    },
-    {
-      "title": "Substitute g(-10) into f(x) to find f(-10)",
-      "content": "Now use the result from Step 1 to evaluate $f(-10)$ using the definition $f(x) = 5(g(x)) - 2$:<br/><br/>$$f(-10) = 5(g(-10)) - 2$$<br/>$$= 5(139) - 2$$<br/>$$= 695 - 2$$<br/>$$= 693$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_6", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute x = -10 into g(x) to find g(-10)", "content": "We need to work from the inside out. First, evaluate $g(-10)$ using the definition $g(x) = |13x - 9|$:<br/>$$g(-10) = |13(-10) - 9|$$<br/>$$= |-130 - 9|$$<br/>$$= |-139|$$<br/>$$= 139$$"}, {"title": "Substitute g(-10) into f(x) to find f(-10)", "content": "Now use the result from Step 1 to evaluate $f(-10)$ using the definition $f(x) = 5(g(x)) - 2$:<br/>$$f(-10) = 5(g(-10)) - 2$$<br/>$$= 5(139) - 2$$<br/>$$= 695 - 2$$<br/>$$= 693$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

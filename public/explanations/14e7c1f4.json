@@ -1,15 +1,1 @@
-{
-  "questionId": "14e7c1f4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize complementary angles from cos(Q) = sin(R)",
-      "content": "The equation $\\cos(Q) = \\sin(R)$ indicates that Q and R are complementary angles. Using the identity $\\sin(\\theta) = \\cos(90\u00b0 - \\theta)$:<br/>$$Q + R = 90\u00b0$$"
-    },
-    {
-      "title": "Substitute and solve for x",
-      "content": "Use the angle measures $Q = x + 61$ and $R = 4x + 4$ in the complementary angle equation:<br/>$$(x + 61) + (4x + 4) = 90$$<br/>Simplify:<br/>$$5x + 65 = 90$$<br/>$$5x = 25$$<br/>$$x = 5$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "14e7c1f4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize complementary angles from cos(Q) = sin(R)", "content": "The equation $\\cos(Q) = \\sin(R)$ indicates that Q and R are complementary angles. Using the identity $\\sin(\\theta) = \\cos(90° - \\theta)$:<br/>$$Q + R = 90°$$"}, {"title": "Substitute and solve for x", "content": "Use the angle measures $Q = x + 61$ and $R = 4x + 4$ in the complementary angle equation:<br/>$$(x + 61) + (4x + 4) = 90$$<br/>Simplify:<br/>$$5x + 65 = 90$$<br/>$$5x = 25$$<br/>$$x = 5$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

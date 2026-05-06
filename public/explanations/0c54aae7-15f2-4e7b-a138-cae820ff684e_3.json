@@ -1,15 +1,1 @@
-{
-  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_3",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange to expose the no-solution condition",
-      "content": "For a linear equation to have no solution, all variable terms must cancel when rearranged, leaving a contradiction. Starting with $5x + 3 = rx + 7$, collect the $x$ terms on one side:<br/><br/>$$5x - rx = 7 - 3$$<br/>$$(5 - r)x = 4$$<br/><br/>For this equation to have <strong>no solution</strong>, the coefficient of $x$ must be zero (so we get $0 \\cdot x = 4$, or $0 = 4$, which is false). Therefore:<br/><br/>$$5 - r = 0$$<br/>$$r = 5$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    },
-    {
-      "title": "Verify the no-solution condition",
-      "content": "Substituting $r = 5$ back into the original equation confirms:<br/><br/>$$5x + 3 = 5x + 7$$<br/>$$3 = 7$$<br/><br/>This is a contradiction (3 never equals 7), so there is no value of $x$ that satisfies the equation, confirming our answer."
-    }
-  ]
-}
+{"questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Rearrange to expose the no-solution condition", "content": "For a linear equation to have no solution, all variable terms must cancel when rearranged, leaving a contradiction. Starting with $5x + 3 = rx + 7$, collect the $x$ terms on one side:<br/>$$5x - rx = 7 - 3$$<br/>$$(5 - r)x = 4$$<br/>For this equation to have <strong>no solution</strong>, the coefficient of $x$ must be zero (so we get $0 \\cdot x = 4$, or $0 = 4$, which is false). Therefore:<br/>$$5 - r = 0$$<br/>$$r = 5$$<br/>That matches choice D — <strong>D</strong> is correct."}, {"title": "Verify the no-solution condition", "content": "Substituting $r = 5$ back into the original equation confirms:<br/>$$5x + 3 = 5x + 7$$<br/>$$3 = 7$$<br/>This is a contradiction (3 never equals 7), so there is no value of $x$ that satisfies the equation, confirming our answer."}]}

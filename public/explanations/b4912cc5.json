@@ -1,15 +1,1 @@
-{
-  "questionId": "b4912cc5",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that population change depends on density change",
-      "content": "Since <strong>Population = Density \u00d7 Area</strong>, and Iceland's land area is constant at 100,250 km\u00b2, the population increase equals (change in density) \u00d7 (constant area).<br/><br/>Change in density: $3.3 - 2.5 = 0.8$ people per km\u00b2"
-    },
-    {
-      "title": "Multiply the change in density by the constant area",
-      "content": "Population increase = $$0.8 \\times 100,250 = 80,200 \\text{ people}$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b4912cc5", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize that population change depends on density change", "content": "Since <strong>Population = Density × Area</strong>, and Iceland's land area is constant at 100,250 km², the population increase equals (change in density) × (constant area).<br/><br/>Change in density: $3.3 - 2.5 = 0.8$ people per km²"}, {"title": "Multiply the change in density by the constant area", "content": "Population increase = $$0.8 \\times 100,250 = 80,200 \\text{ people}$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

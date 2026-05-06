@@ -1,15 +1,1 @@
-{
-  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21",
-  "correctAnswer": "-6",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the slope from two points",
-      "content": "Using points (0, 31) and (2, 43) from the table:<br/><br/>$$m = \\frac{43 - 31}{2 - 0} = \\frac{12}{2} = 6$$"
-    },
-    {
-      "title": "Use the slope-to-ratio relationship",
-      "content": "Rearranging $Ax + By = C$ to slope-intercept form:<br/><br/>$$y = -\\frac{A}{B}x + \\frac{C}{B}$$<br/><br/>The slope equals the coefficient of $x$, so $-\\frac{A}{B} = 6$. Therefore:<br/><br/>$$\\frac{A}{B} = -6$$"
-    }
-  ]
-}
+{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21", "correctAnswer": "-6", "section": "Math", "steps": [{"title": "Calculate the slope from two points", "content": "Using points (0, 31) and (2, 43) from the table:<br/>$$m = \\frac{43 - 31}{2 - 0} = \\frac{12}{2} = 6$$"}, {"title": "Use the slope-to-ratio relationship", "content": "Rearranging $Ax + By = C$ to slope-intercept form:<br/>$$y = -\\frac{A}{B}x + \\frac{C}{B}$$<br/>The slope equals the coefficient of $x$, so $-\\frac{A}{B} = 6$. Therefore:<br/>$$\\frac{A}{B} = -6$$"}]}

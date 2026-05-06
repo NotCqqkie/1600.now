@@ -1,15 +1,1 @@
-{
-  "questionId": "45cfb9de",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up total time for each option",
-      "content": "Walking takes 20 minutes.<br/>The bus requires waiting $w$ minutes plus a 5-minute ride, for a total of $w + 5$ minutes."
-    },
-    {
-      "title": "Write the inequality for walking to be faster",
-      "content": "Walking is faster when its time is less than the bus time:<br/><br/>$$20 < w + 5$$<br/><br/>This is equivalent to:<br/><br/>$$w + 5 > 20$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "45cfb9de", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up total time for each option", "content": "Walking takes 20 minutes.<br/>The bus requires waiting $w$ minutes plus a 5-minute ride, for a total of $w + 5$ minutes."}, {"title": "Write the inequality for walking to be faster", "content": "Walking is faster when its time is less than the bus time:<br/>$$20 < w + 5$$<br/>This is equivalent to:<br/>$$w + 5 > 20$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

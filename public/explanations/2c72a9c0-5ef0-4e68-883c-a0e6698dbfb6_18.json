@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express a and b in terms of c",
-      "content": "From <em>A is 6,000% of C</em>:<br/>$$a = \\frac{6000}{100}c = 60c$$<br/><br/>From <em>C is 0.008% of B</em>:<br/>$$c = 0.00008b$$<br/>Solving for $b$:<br/>$$b = \\frac{c}{0.00008} = 12500c$$"
-    },
-    {
-      "title": "Sum a and b",
-      "content": "$$a + b = 60c + 12500c = 12560c$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Express a and b in terms of c", "content": "From <em>A is 6,000% of C</em>:<br/>$$a = \\frac{6000}{100}c = 60c$$<br/>From <em>C is 0.008% of B</em>:<br/>$$c = 0.00008b$$<br/>Solving for $b$:<br/>$$b = \\frac{c}{0.00008} = 12500c$$"}, {"title": "Sum a and b", "content": "$$a + b = 60c + 12500c = 12560c$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_10",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract center and radius from circle A",
-      "content": "From the standard form $(x - h)^2 + (y - k)^2 = r^2$, the equation $(x - 2)^2 + (y - 3)^2 = 9$ tells us:<br/><ul><li>Center: $(2, 3)$</li><li>Radius: $r_A = \\sqrt{9} = 3$</li></ul>"
-    },
-    {
-      "title": "Find circle B's radius and write its equation",
-      "content": "Circle B has the same center $(2, 3)$ but radius twice as large: $r_B = 2 \\times 3 = 6$.<br/><br/>Squaring the radius: $r_B^2 = 6^2 = 36$.<br/><br/>The equation for circle B is:<br/>$$(x - 2)^2 + (y - 3)^2 = 36$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_10", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract center and radius from circle A", "content": "From the standard form $(x - h)^2 + (y - k)^2 = r^2$, the equation $(x - 2)^2 + (y - 3)^2 = 9$ tells us:<br/><ul><li>Center: $(2, 3)$</li><li>Radius: $r_A = \\sqrt{9} = 3$</li></ul>"}, {"title": "Find circle B's radius and write its equation", "content": "Circle B has the same center $(2, 3)$ but radius twice as large: $r_B = 2 \\times 3 = 6$.<br/><br/>Squaring the radius: $r_B^2 = 6^2 = 36$.<br/><br/>The equation for circle B is:<br/>$$(x - 2)^2 + (y - 3)^2 = 36$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

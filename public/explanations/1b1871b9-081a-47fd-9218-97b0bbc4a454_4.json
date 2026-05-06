@@ -1,15 +1,1 @@
-{
-  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_4",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the constraint into an equation",
-      "content": "Carmen needs at least 100 signatures total. She has 51. We need to find the minimum number of additional signatures she requires.<br/><br/>If she has 51 and needs at least 100, then:<br/>$$51 + x \\geq 100$$<br/>where $x$ is the number of additional signatures."
-    },
-    {
-      "title": "Solve for the minimum additional signatures",
-      "content": "For the minimum, we set the inequality to equality (she needs exactly 100 at minimum):<br/>$$51 + x = 100$$<br/>$$x = 100 - 51 = 49$$<br/><br/>Therefore, Carmen needs exactly 49 additional signatures to reach the 100-signature minimum. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Translate the constraint into an equation", "content": "Carmen needs at least 100 signatures total. She has 51. We need to find the minimum number of additional signatures she requires.<br/><br/>If she has 51 and needs at least 100, then:<br/>$$51 + x \\geq 100$$<br/>where $x$ is the number of additional signatures."}, {"title": "Solve for the minimum additional signatures", "content": "For the minimum, we set the inequality to equality (she needs exactly 100 at minimum):<br/>$$51 + x = 100$$<br/>$$x = 100 - 51 = 49$$<br/>Therefore, Carmen needs exactly 49 additional signatures to reach the 100-signature minimum. That matches choice C — <strong>C</strong> is correct."}]}

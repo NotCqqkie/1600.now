@@ -1,15 +1,1 @@
-{
-  "questionId": "b31c3117",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate the formula at the boundaries of the training intensity range",
-      "content": "At $p = 0.5$ (minimum training intensity):<br/>$$h = 120(0.5) + 60 = 60 + 60 = 120 \\text{ bpm}$$<br/><br/>At $p = 0.85$ (maximum training intensity):<br/>$$h = 120(0.85) + 60 = 102 + 60 = 162 \\text{ bpm}$$"
-    },
-    {
-      "title": "Express the training heart rate as an inequality",
-      "content": "Since $h = 120p + 60$ is linear with positive slope, the training heart rate range directly corresponds to the intensity range $0.5 \\leq p \\leq 0.85$:<br/>$$120 \\leq h \\leq 162$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b31c3117", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Evaluate the formula at the boundaries of the training intensity range", "content": "At $p = 0.5$ (minimum training intensity):<br/>$$h = 120(0.5) + 60 = 60 + 60 = 120 \\text{ bpm}$$<br/>At $p = 0.85$ (maximum training intensity):<br/>$$h = 120(0.85) + 60 = 102 + 60 = 162 \\text{ bpm}$$"}, {"title": "Express the training heart rate as an inequality", "content": "Since $h = 120p + 60$ is linear with positive slope, the training heart rate range directly corresponds to the intensity range $0.5 \\leq p \\leq 0.85$:<br/>$$120 \\leq h \\leq 162$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

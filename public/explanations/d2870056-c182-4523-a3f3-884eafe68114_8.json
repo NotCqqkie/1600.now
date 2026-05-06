@@ -1,15 +1,1 @@
-{
-  "questionId": "d2870056-c182-4523-a3f3-884eafe68114_8",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Locate color Y frequency in the table",
-      "content": "Reading the frequency table, color Y has a frequency of <strong>6</strong>."
-    },
-    {
-      "title": "Apply the probability formula",
-      "content": "The probability of selecting color Y is:<br/><br/>$$P(\\text{color Y}) = \\frac{\\text{frequency of color Y}}{\\text{total number of flowers}} = \\frac{6}{181}$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d2870056-c182-4523-a3f3-884eafe68114_8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Locate color Y frequency in the table", "content": "Reading the frequency table, color Y has a frequency of <strong>6</strong>."}, {"title": "Apply the probability formula", "content": "The probability of selecting color Y is:<br/>$$P(\\text{color Y}) = \\frac{\\text{frequency of color Y}}{\\text{total number of flowers}} = \\frac{6}{181}$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "946ab892",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the linear form",
-      "content": "Since the slope is 2, the linear function has the form $g(x) = 2x + b$ where $b$ is the y-intercept to find."
-    },
-    {
-      "title": "Find b using the given point",
-      "content": "Substitute the point $(1, 14)$ into the equation:<br/><br/>$$14 = 2(1) + b$$<br/>$$14 = 2 + b$$<br/>$$b = 12$$<br/><br/>Therefore $g(x) = 2x + 12$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "946ab892", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the linear form", "content": "Since the slope is 2, the linear function has the form $g(x) = 2x + b$ where $b$ is the y-intercept to find."}, {"title": "Find b using the given point", "content": "Substitute the point $(1, 14)$ into the equation:<br/>$$14 = 2(1) + b$$<br/>$$14 = 2 + b$$<br/>$$b = 12$$<br/>Therefore $g(x) = 2x + 12$. That matches choice C — <strong>C</strong> is correct."}]}

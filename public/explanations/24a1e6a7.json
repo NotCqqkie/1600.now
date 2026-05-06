@@ -1,16 +1,1 @@
-{
-  "questionId": "24a1e6a7",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify two clear points on the line",
-      "content": "Reading the graph, the line passes through:<ul><li>The y-intercept at $(0, 14)$</li><li>A point at approximately $(12, 0)$</li></ul>These are easy to read directly from the grid."
-    },
-    {
-      "title": "Calculate the slope using the two points",
-      "formula": "$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1}$$",
-      "content": "Apply the formula with $(x_1, y_1) = (0, 14)$ and $(x_2, y_2) = (12, 0)$:<br><br>$$\\frac{0 - 14}{12 - 0} = \\frac{-14}{12} = -\\frac{7}{6} \\approx -1.167$$<br><br>This value is closest to choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "24a1e6a7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify two clear points on the line", "content": "Reading the graph, the line passes through:<ul><li>The y-intercept at $(0, 14)$</li><li>A point at approximately $(12, 0)$</li></ul>These are easy to read directly from the grid."}, {"title": "Calculate the slope using the two points", "formula": "$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1}$$", "content": "Apply the formula with $(x_1, y_1) = (0, 14)$ and $(x_2, y_2) = (12, 0)$:<br/>$$\\frac{0 - 14}{12 - 0} = \\frac{-14}{12} = -\\frac{7}{6} \\approx -1.167$$<br>This value is closest to choice B — <strong>B</strong> is correct."}]}

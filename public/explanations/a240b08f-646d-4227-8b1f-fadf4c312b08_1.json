@@ -1,15 +1,1 @@
-{
-  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_1",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the target total",
-      "content": "We need two flower types that sum to exactly $\\frac{2}{5}$ of the florist's stock.<br/><br/>$$\\frac{2}{5} \\times 700 = 280 \\text{ flowers}$$"
-    },
-    {
-      "title": "Read values and identify the matching pair",
-      "content": "From the bar graph: Daisy 60, Orchid 100, Tulip 190, Lily 180, Sunflower 170.<br/><br/>Backsolving \u2014 testing choice B (Orchid and Lily): $100 + 180 = 280$. This equals our target exactly. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the target total", "content": "We need two flower types that sum to exactly $\\frac{2}{5}$ of the florist's stock.<br/>$$\\frac{2}{5} \\times 700 = 280 \\text{ flowers}$$"}, {"title": "Read values and identify the matching pair", "content": "From the bar graph: Daisy 60, Orchid 100, Tulip 190, Lily 180, Sunflower 170.<br/><br/>Backsolving — testing choice B (Orchid and Lily): $100 + 180 = 280$. This equals our target exactly. That matches choice B — <strong>B</strong> is correct."}]}

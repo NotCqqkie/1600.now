@@ -1,15 +1,1 @@
-{
-  "questionId": "ae041e52",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the relationship between the inscribed square and circle",
-      "content": "When a square is inscribed in a circle, all four vertices touch the circle. The key insight: the diagonal of the square equals the diameter of the circle, since the diagonal passes through the center.<br/><br/>The diameter is:<br/>$$D = 2r = 2 \\cdot \\frac{20\\sqrt{2}}{2} = 20\\sqrt{2}$$"
-    },
-    {
-      "title": "Use the diagonal formula for a square",
-      "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$ (from the Pythagorean theorem on a right triangle formed by two sides and the diagonal).<br/><br/>Since the diagonal equals the diameter:<br/>$$s\\sqrt{2} = 20\\sqrt{2}$$<br/><br/>Divide both sides by $\\sqrt{2}$:<br/>$$s = 20$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ae041e52", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the relationship between the inscribed square and circle", "content": "When a square is inscribed in a circle, all four vertices touch the circle. The key insight: the diagonal of the square equals the diameter of the circle, since the diagonal passes through the center.<br/><br/>The diameter is:<br/>$$D = 2r = 2 \\cdot \\frac{20\\sqrt{2}}{2} = 20\\sqrt{2}$$"}, {"title": "Use the diagonal formula for a square", "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$ (from the Pythagorean theorem on a right triangle formed by two sides and the diagonal).<br/><br/>Since the diagonal equals the diameter:<br/>$$s\\sqrt{2} = 20\\sqrt{2}$$<br/>Divide both sides by $\\sqrt{2}$:<br/>$$s = 20$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

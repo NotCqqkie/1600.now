@@ -1,15 +1,1 @@
-{
-  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_20",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find tan(Y) from the right triangle formed by the altitude",
-      "content": "The altitude $WX$ from the right angle vertex $X$ to the hypotenuse $YZ$ creates a right triangle $XWY$ (right angle at $W$). In this triangle:<br/><br/>$$\\tan(Y) = \\frac{WX}{YW} = \\frac{459}{612} = \\frac{3}{4}$$"
-    },
-    {
-      "title": "Apply complementary angles to find tan(Z)",
-      "content": "In right triangle $XYZ$ with right angle at $X$, angles $Y$ and $Z$ are complementary ($Y + Z = 90\u00b0$). Therefore:<br/><br/>$$\\tan(Z) = \\frac{1}{\\tan(Y)} = \\frac{1}{\\frac{3}{4}} = \\frac{4}{3}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_20", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find tan(Y) from the right triangle formed by the altitude", "content": "The altitude $WX$ from the right angle vertex $X$ to the hypotenuse $YZ$ creates a right triangle $XWY$ (right angle at $W$). In this triangle:<br/>$$\\tan(Y) = \\frac{WX}{YW} = \\frac{459}{612} = \\frac{3}{4}$$"}, {"title": "Apply complementary angles to find tan(Z)", "content": "In right triangle $XYZ$ with right angle at $X$, angles $Y$ and $Z$ are complementary ($Y + Z = 90°$). Therefore:<br/>$$\\tan(Z) = \\frac{1}{\\tan(Y)} = \\frac{1}{\\frac{3}{4}} = \\frac{4}{3}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

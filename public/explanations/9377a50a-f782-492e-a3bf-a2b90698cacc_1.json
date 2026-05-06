@@ -1,15 +1,1 @@
-{
-  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_1",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the known value into the equation",
-      "content": "We have the equation $x + y = 1440$ where $x$ represents daylight minutes and $y$ represents non-daylight minutes. Since this day has $x = 840$ minutes of daylight, substitute into the equation:<br/><br/>$$840 + y = 1440$$"
-    },
-    {
-      "title": "Solve for non-daylight minutes",
-      "content": "Subtract 840 from both sides:<br/><br/>$$y = 1440 - 840 = 600$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the known value into the equation", "content": "We have the equation $x + y = 1440$ where $x$ represents daylight minutes and $y$ represents non-daylight minutes. Since this day has $x = 840$ minutes of daylight, substitute into the equation:<br/>$$840 + y = 1440$$"}, {"title": "Solve for non-daylight minutes", "content": "Subtract 840 from both sides:<br/>$$y = 1440 - 840 = 600$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

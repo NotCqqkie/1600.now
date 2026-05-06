@@ -1,15 +1,1 @@
-{
-  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_14",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the height formula for equilateral triangles",
-      "content": "For an equilateral triangle with side $s$, the height formula is $h = \\frac{s\\sqrt{3}}{2}$.<br/><br/>With height $h = 49\\sqrt{3}$, substitute to get:<br/>$$49\\sqrt{3} = \\frac{s\\sqrt{3}}{2}$$"
-    },
-    {
-      "title": "Solve for the side",
-      "content": "Multiply both sides by 2:<br/>$$98\\sqrt{3} = s\\sqrt{3}$$<br/><br/>Divide both sides by $\\sqrt{3}$:<br/>$$s = \\frac{98\\sqrt{3}}{\\sqrt{3}} = 98$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_14", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply the height formula for equilateral triangles", "content": "For an equilateral triangle with side $s$, the height formula is $h = \\frac{s\\sqrt{3}}{2}$.<br/><br/>With height $h = 49\\sqrt{3}$, substitute to get:<br/>$$49\\sqrt{3} = \\frac{s\\sqrt{3}}{2}$$"}, {"title": "Solve for the side", "content": "Multiply both sides by 2:<br/>$$98\\sqrt{3} = s\\sqrt{3}$$<br/>Divide both sides by $\\sqrt{3}$:<br/>$$s = \\frac{98\\sqrt{3}}{\\sqrt{3}} = 98$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

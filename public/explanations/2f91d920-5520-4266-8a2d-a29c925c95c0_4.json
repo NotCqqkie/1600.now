@@ -1,15 +1,1 @@
-{
-  "questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_4",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand what an x-intercept means",
-      "content": "An $x$-intercept is a point where the graph crosses the $x$-axis. At any such point, the $y$-coordinate is 0. <br/><br/>If $(a, 0)$ is an $x$-intercept of the graph of $y = f(x)$, then by definition $f(a) = 0$.<br/><br/>The problem tells us the graph has $x$-intercepts at $(-2, 0)$, $(3, 0)$, and $(10, 0)$. Therefore:<br/><br/>$$f(-2) = 0 \\quad f(3) = 0 \\quad f(10) = 0$$"
-    },
-    {
-      "title": "Match an x-intercept to the choices",
-      "content": "Now evaluate each choice against what we know must be true:<br/><ul><li><strong>Choice A:</strong> $f(0) = -2$ \u2014 We have no information about the output at $x = 0$. Not necessarily true.</li><li><strong>Choice B:</strong> $f(0) = 3$ \u2014 Same issue. Not necessarily true.</li><li><strong>Choice D:</strong> $f(2) = 0$ \u2014 We do not have an $x$-intercept at $x = 2$. Not necessarily true.</li><li><strong>Choice C:</strong> $f(10) = 0$ \u2014 We are given that $(10, 0)$ is an $x$-intercept, so this must be true.</li></ul>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f91d920-5520-4266-8a2d-a29c925c95c0_4", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Understand what an x-intercept means", "content": "An $x$-intercept is a point where the graph crosses the $x$-axis. At any such point, the $y$-coordinate is 0. <br/><br/>If $(a, 0)$ is an $x$-intercept of the graph of $y = f(x)$, then by definition $f(a) = 0$.<br/><br/>The problem tells us the graph has $x$-intercepts at $(-2, 0)$, $(3, 0)$, and $(10, 0)$. Therefore:<br/>$$f(-2) = 0 \\quad f(3) = 0 \\quad f(10) = 0$$"}, {"title": "Match an x-intercept to the choices", "content": "Now evaluate each choice against what we know must be true:<br/><ul><li><strong>Choice A:</strong> $f(0) = -2$ — We have no information about the output at $x = 0$. Not necessarily true.</li><li><strong>Choice B:</strong> $f(0) = 3$ — Same issue. Not necessarily true.</li><li><strong>Choice D:</strong> $f(2) = 0$ — We do not have an $x$-intercept at $x = 2$. Not necessarily true.</li><li><strong>Choice C:</strong> $f(10) = 0$ — We are given that $(10, 0)$ is an $x$-intercept, so this must be true.</li></ul>That matches choice C — <strong>C</strong> is correct."}]}

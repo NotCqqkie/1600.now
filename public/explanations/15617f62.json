@@ -1,15 +1,1 @@
-{
-  "questionId": "15617f62",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the population density formula",
-      "content": "Population density tells us people per unit area. The relationship is:<br/><br/>$$\\text{Population Density} = \\frac{\\text{Population}}{\\text{Area}}$$<br/><br/>Rearranging to solve for area:<br/><br/>$$\\text{Area} = \\frac{\\text{Population}}{\\text{Population Density}}$$"
-    },
-    {
-      "title": "Substitute and divide",
-      "content": "Substituting the given values:<br/><br/>$$\\text{Area} = \\frac{92,800}{290}$$<br/><br/>Divide: $92,800 \\div 290 = 320$ square miles.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "15617f62", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the population density formula", "content": "Population density tells us people per unit area. The relationship is:<br/>$$\\text{Population Density} = \\frac{\\text{Population}}{\\text{Area}}$$<br/>Rearranging to solve for area:<br/>$$\\text{Area} = \\frac{\\text{Population}}{\\text{Population Density}}$$"}, {"title": "Substitute and divide", "content": "Substituting the given values:<br/>$$\\text{Area} = \\frac{92,800}{290}$$<br/>Divide: $92,800 \\div 290 = 320$ square miles.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

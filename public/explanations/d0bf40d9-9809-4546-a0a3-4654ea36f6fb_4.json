@@ -1,16 +1,1 @@
-{
-  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the rate-distance-time relationship",
-      "content": "When an object travels at a constant rate, the distance covered equals the rate multiplied by the time elapsed.",
-      "formula": "$$D = r \\cdot t$$"
-    },
-    {
-      "title": "Calculate the distance flown",
-      "content": "The pigeon flies at 16 meters per second for 4 seconds. Substituting into the formula:<br/><br/>$$D = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the rate-distance-time relationship", "content": "When an object travels at a constant rate, the distance covered equals the rate multiplied by the time elapsed.", "formula": "$$D = r \\cdot t$$"}, {"title": "Calculate the distance flown", "content": "The pigeon flies at 16 meters per second for 4 seconds. Substituting into the formula:<br/>$$D = 16 \\text{ m/s} \\times 4 \\text{ s} = 64 \\text{ m}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

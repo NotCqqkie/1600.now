@@ -1,16 +1,1 @@
-{
-  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_22",
-  "correctAnswer": "-13",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "No real solutions requires negative discriminant",
-      "content": "When a quadratic has no real solutions, the discriminant is negative. For $-x^2 + bx - 49 = 0$, identify $a = -1$, the coefficient of $x$ is $b$, and $c = -49$. We need the discriminant to be less than zero:",
-      "formula": "$$\\Delta = b^2 - 4ac < 0$$"
-    },
-    {
-      "title": "Solve the inequality for the least integer b",
-      "content": "Substitute the values:<br/>$$b^2 - 4(-1)(-49) < 0$$<br/>$$b^2 - 196 < 0$$<br/>$$b^2 < 196$$<br/>$$|b| < 14$$<br/><br/>This gives $-14 < b < 14$. Since $b$ is an integer, the possible values are $\\{-13, -12, ..., 12, 13\\}$. The least value of $b$ is <strong>\u221213</strong>."
-    }
-  ]
-}
+{"questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_22", "correctAnswer": "-13", "section": "Math", "steps": [{"title": "No real solutions requires negative discriminant", "content": "When a quadratic has no real solutions, the discriminant is negative. For $-x^2 + bx - 49 = 0$, identify $a = -1$, the coefficient of $x$ is $b$, and $c = -49$. We need the discriminant to be less than zero:", "formula": "$$\\Delta = b^2 - 4ac < 0$$"}, {"title": "Solve the inequality for the least integer b", "content": "Substitute the values:<br/>$$b^2 - 4(-1)(-49) < 0$$<br/>$$b^2 - 196 < 0$$<br/>$$b^2 < 196$$<br/>$$|b| < 14$$<br/>This gives $-14 < b < 14$. Since $b$ is an integer, the possible values are $\\{-13, -12, ..., 12, 13\\}$. The least value of $b$ is <strong>−13</strong>."}]}

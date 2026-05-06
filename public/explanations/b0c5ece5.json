@@ -1,16 +1,1 @@
-{
-  "questionId": "b0c5ece5",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the triangle structure",
-      "content": "The right angle marker (small square) at the bottom right confirms this is a right triangle. The vertical side has length 4, the horizontal side has length b, and the hypotenuse (opposite the right angle) has length 19."
-    },
-    {
-      "title": "Apply the Pythagorean theorem",
-      "content": "For any right triangle, the sum of the squares of the two legs equals the square of the hypotenuse:<br/><br/>$$\\text{(leg)}_1^2 + \\text{(leg)}_2^2 = \\text{(hypotenuse)}^2$$<br/><br/>Substituting the side lengths 4, b, and 19:<br/><br/>$$4^2 + b^2 = 19^2$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$a^2 + b^2 = c^2$$"
-    }
-  ]
-}
+{"questionId": "b0c5ece5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the triangle structure", "content": "The right angle marker (small square) at the bottom right confirms this is a right triangle. The vertical side has length 4, the horizontal side has length b, and the hypotenuse (opposite the right angle) has length 19."}, {"title": "Apply the Pythagorean theorem", "content": "For any right triangle, the sum of the squares of the two legs equals the square of the hypotenuse:<br/>$$\\text{(leg)}_1^2 + \\text{(leg)}_2^2 = \\text{(hypotenuse)}^2$$<br/>Substituting the side lengths 4, b, and 19:<br/>$$4^2 + b^2 = 19^2$$<br/>That matches choice C — <strong>C</strong> is correct.", "formula": "$$a^2 + b^2 = c^2$$"}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "7a8ad237",
-  "correctAnswer": "21",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find angle C in triangle ABC using angle sum",
-      "content": "In triangle ABC, the angles sum to 180\u00b0. With angle A = 69\u00b0 and angle B = 90\u00b0:<br/><br/>$$69\u00b0 + 90\u00b0 + C = 180\u00b0$$<br/>$$C = 21\u00b0$$",
-      "formula": "$$A + B + C = 180\u00b0$$"
-    },
-    {
-      "title": "Use congruence to determine angle F",
-      "content": "Triangles ABC and DEF are congruent with A corresponding to D. Since both B and E are right angles, B corresponds to E. Therefore, C corresponds to F. In congruent triangles, corresponding angles are equal, so angle F = C = 21\u00b0."
-    }
-  ]
-}
+{"questionId": "7a8ad237", "correctAnswer": "21", "section": "Math", "steps": [{"title": "Find angle C in triangle ABC using angle sum", "content": "In triangle ABC, the angles sum to 180°. With angle A = 69° and angle B = 90°:<br/>$$69° + 90° + C = 180°$$<br/>$$C = 21°$$", "formula": "$$A + B + C = 180°$$"}, {"title": "Use congruence to determine angle F", "content": "Triangles ABC and DEF are congruent with A corresponding to D. Since both B and E are right angles, B corresponds to E. Therefore, C corresponds to F. In congruent triangles, corresponding angles are equal, so angle F = C = 21°."}]}

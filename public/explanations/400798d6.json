@@ -1,15 +1,1 @@
-{
-  "questionId": "400798d6",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the triangle's side lengths into the equation",
-      "content": "The equation 2x + y = 37 involves the sides of triangle QRS, where QR = x, RS = x, and SQ = y. We can rewrite the left side:<br/><br/>$$2x + y = x + x + y = \\text{QR} + \\text{RS} + \\text{SQ}$$<br/><br/>This shows that 2x + y is the sum of all three side lengths of the triangle."
-    },
-    {
-      "title": "Recognize that the sum of the three sides is the perimeter",
-      "content": "The sum of all three side lengths of a triangle is called the perimeter. Since 2x + y = 37, the value 37 represents the perimeter of triangle QRS\u2014the sum of the lengths of the three sides. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "400798d6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Substitute the triangle's side lengths into the equation", "content": "The equation 2x + y = 37 involves the sides of triangle QRS, where QR = x, RS = x, and SQ = y. We can rewrite the left side:<br/>$$2x + y = x + x + y = \\text{QR} + \\text{RS} + \\text{SQ}$$<br/>This shows that 2x + y is the sum of all three side lengths of the triangle."}, {"title": "Recognize that the sum of the three sides is the perimeter", "content": "The sum of all three side lengths of a triangle is called the perimeter. Since 2x + y = 37, the value 37 represents the perimeter of triangle QRS—the sum of the lengths of the three sides. That matches choice C — <strong>C</strong> is correct."}]}

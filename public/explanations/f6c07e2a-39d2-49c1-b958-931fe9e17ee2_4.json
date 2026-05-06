@@ -1,15 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the slope-intercept form",
-      "content": "A linear function has the form $y = mx + b$ where $m$ is the slope and $b$ is the y-intercept.<br/><br/>From the problem:<ul><li>Slope: $m = \\frac{1}{3}$</li><li>The graph passes through $(0, 2)$, which is the y-intercept, so $b = 2$</li></ul>"
-    },
-    {
-      "title": "Substitute to find f(x)",
-      "content": "Substitute $m = \\frac{1}{3}$ and $b = 2$ into $y = mx + b$:<br/><br/>$$f(x) = \\frac{1}{3}x + 2$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the slope-intercept form", "content": "A linear function has the form $y = mx + b$ where $m$ is the slope and $b$ is the y-intercept.<br/><br/>From the problem:<ul><li>Slope: $m = \\frac{1}{3}$</li><li>The graph passes through $(0, 2)$, which is the y-intercept, so $b = 2$</li></ul>"}, {"title": "Substitute to find f(x)", "content": "Substitute $m = \\frac{1}{3}$ and $b = 2$ into $y = mx + b$:<br/>$$f(x) = \\frac{1}{3}x + 2$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

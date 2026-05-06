@@ -1,15 +1,1 @@
-{
-  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_6",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand vertical translation",
-      "content": "Translating down by 8 units means every y-coordinate decreases by 8. We apply this by subtracting 8 from the right side of the equation."
-    },
-    {
-      "title": "Write the translated equation",
-      "content": "Original equation: $y = 9x$<br/><br/>After translating down 8 units:<br/>$$y = 9x - 8$$<br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_6", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Understand vertical translation", "content": "Translating down by 8 units means every y-coordinate decreases by 8. We apply this by subtracting 8 from the right side of the equation."}, {"title": "Write the translated equation", "content": "Original equation: $y = 9x$<br/><br/>After translating down 8 units:<br/>$$y = 9x - 8$$<br/>This matches choice B — <strong>B</strong> is correct."}]}

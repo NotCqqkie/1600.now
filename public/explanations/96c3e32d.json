@@ -1,15 +1,1 @@
-{
-  "questionId": "96c3e32d",
-  "correctAnswer": "16606",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the force-pressure-area formula",
-      "content": "Pressure is force per unit area:<br/>$$\\text{Force} = \\text{Pressure} \\times \\text{Area}$$<br/><br/>With pressure = 19 lb/in\u00b2 and area = 874 in\u00b2:<br/>$$\\text{Force} = 19 \\times 874$$"
-    },
-    {
-      "title": "Calculate the product",
-      "content": "Distribute using 874 = 800 + 74:<br/>$$19 \\times 874 = (19 \\times 800) + (19 \\times 74)$$<br/>$$= 15,200 + 1,406$$<br/>$$= 16,606 \\text{ pounds}$$"
-    }
-  ]
-}
+{"questionId": "96c3e32d", "correctAnswer": "16606", "section": "Math", "steps": [{"title": "Apply the force-pressure-area formula", "content": "Pressure is force per unit area:<br/>$$\\text{Force} = \\text{Pressure} \\times \\text{Area}$$<br/>With pressure = 19 lb/in² and area = 874 in²:<br/>$$\\text{Force} = 19 \\times 874$$"}, {"title": "Calculate the product", "content": "Distribute using 874 = 800 + 74:<br/>$$19 \\times 874 = (19 \\times 800) + (19 \\times 74)$$<br/>$$= 15,200 + 1,406$$<br/>$$= 16,606 \\text{ pounds}$$"}]}

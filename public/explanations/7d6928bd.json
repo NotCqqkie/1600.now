@@ -1,15 +1,1 @@
-{
-  "questionId": "7d6928bd",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate 'at most' to inequality notation",
-      "content": "The phrase <em>at most 14</em> describes a maximum value\u2014the number of places cannot exceed 14. In mathematics, <em>at most</em> is represented by $\\le$ (less than or equal to)."
-    },
-    {
-      "title": "Set up the inequality",
-      "content": "The total number of places cleaned is $f + h$ (offices plus homes). Since this total can be at most 14:<br/><br/>$$f + h \\le 14$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d6928bd", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate 'at most' to inequality notation", "content": "The phrase <em>at most 14</em> describes a maximum value—the number of places cannot exceed 14. In mathematics, <em>at most</em> is represented by $\\le$ (less than or equal to)."}, {"title": "Set up the inequality", "content": "The total number of places cleaned is $f + h$ (offices plus homes). Since this total can be at most 14:<br/>$$f + h \\le 14$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "e86f0651",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the circle area formula",
-      "content": "For any circle with radius $r$, we apply the standard area formula.",
-      "formula": "$$A = \\pi r^2$$"
-    },
-    {
-      "title": "Substitute the radius and compute",
-      "content": "With $r = 43$ meters:<br/><br/>$$A = \\pi (43)^2$$<br/><br/>Since $43^2 = 1,849$:<br/><br/>$$A = 1,849\\pi$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e86f0651", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recall the circle area formula", "content": "For any circle with radius $r$, we apply the standard area formula.", "formula": "$$A = \\pi r^2$$"}, {"title": "Substitute the radius and compute", "content": "With $r = 43$ meters:<br/>$$A = \\pi (43)^2$$<br/>Since $43^2 = 1,849$:<br/>$$A = 1,849\\pi$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

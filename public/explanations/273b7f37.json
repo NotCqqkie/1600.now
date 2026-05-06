@@ -1,15 +1,1 @@
-{
-  "questionId": "273b7f37",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what we need to calculate",
-      "content": "Isabel saved 10% of the 760 potatoes she harvested. We need to find 10% of 760."
-    },
-    {
-      "title": "Calculate using the 10% shortcut",
-      "content": "10% equals $\\frac{1}{10}$, so we divide by 10 instead of multiplying by 0.10.<br/><br/>$$760 \\div 10 = 76$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "273b7f37", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify what we need to calculate", "content": "Isabel saved 10% of the 760 potatoes she harvested. We need to find 10% of 760."}, {"title": "Calculate using the 10% shortcut", "content": "10% equals $\\frac{1}{10}$, so we divide by 10 instead of multiplying by 0.10.<br/>$$760 \\div 10 = 76$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

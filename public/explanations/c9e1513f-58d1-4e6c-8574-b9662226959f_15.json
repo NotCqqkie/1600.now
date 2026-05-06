@@ -1,15 +1,1 @@
-{
-  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_15",
-  "correctAnswer": "49",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope from the constant rate of change in the table",
-      "content": "From the table, each unit increase in $x$ corresponds to a constant decrease in $g(x)$:<br/><ul><li>From $(1, 46)$ to $(2, 43)$: change of $-3$</li><li>From $(2, 43)$ to $(3, 40)$: change of $-3$</li></ul><br/>The slope is $m = -3$."
-    },
-    {
-      "title": "Use a point to solve for $b$ in $g(x) = mx + b$",
-      "content": "Substitute the point $(1, 46)$:<br/><br/>$$46 = -3(1) + b$$$$b = 49$$<br/><br/>The y-intercept is <strong>49</strong>."
-    }
-  ]
-}
+{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_15", "correctAnswer": "49", "section": "Math", "steps": [{"title": "Find the slope from the constant rate of change in the table", "content": "From the table, each unit increase in $x$ corresponds to a constant decrease in $g(x)$:<br/><ul><li>From $(1, 46)$ to $(2, 43)$: change of $-3$</li><li>From $(2, 43)$ to $(3, 40)$: change of $-3$</li></ul><br/>The slope is $m = -3$."}, {"title": "Use a point to solve for $b$ in $g(x) = mx + b$", "content": "Substitute the point $(1, 46)$:<br/>$$46 = -3(1) + b$$$$b = 49$$<br/>The y-intercept is <strong>49</strong>."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "5267c3c7",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret increasing by 400%",
-      "content": "When a quantity is increased by a percentage, we add that percentage of the original to itself. A 400% increase adds 400% of $x$ to $x$:<br/><br/>$$x + 4x = 5x$$",
-      "formula": "$$\\text{Increasing by } p\\% \\text{ gives: } x\\left(1 + \\frac{p}{100}\\right)$$"
-    },
-    {
-      "title": "Set up and solve the equation",
-      "content": "The problem states the result of this increase is 60:<br/><br/>$$5x = 60$$<br/><br/>Dividing both sides by 5:<br/><br/>$$x = 12$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5267c3c7", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Interpret increasing by 400%", "content": "When a quantity is increased by a percentage, we add that percentage of the original to itself. A 400% increase adds 400% of $x$ to $x$:<br/>$$x + 4x = 5x$$", "formula": "$$\\text{Increasing by } p\\% \\text{ gives: } x\\left(1 + \\frac{p}{100}\\right)$$"}, {"title": "Set up and solve the equation", "content": "The problem states the result of this increase is 60:<br/>$$5x = 60$$<br/>Dividing both sides by 5:<br/>$$x = 12$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

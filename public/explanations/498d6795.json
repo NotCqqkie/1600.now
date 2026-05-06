@@ -1,15 +1,1 @@
-{
-  "questionId": "498d6795",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the Pythagorean theorem",
-      "content": "Since angle $B$ is the right angle, $AC$ is the hypotenuse. Apply the Pythagorean theorem:<br/><br/>$$AC^2 = (10\\sqrt{37})^2 + (24\\sqrt{37})^2$$<br/><br/>Expand each term:<br/><br/>$$AC^2 = 100 \\cdot 37 + 576 \\cdot 37$$<br/><br/>Factor out 37:<br/><br/>$$AC^2 = 37(100 + 576) = 37 \\cdot 676$$"
-    },
-    {
-      "title": "Recognize the perfect square",
-      "content": "Observe that $100 + 576 = 676 = 26^2$ (note: $10^2 + 24^2 = 26^2$, a Pythagorean triple). Therefore:<br/><br/>$$AC^2 = 37 \\cdot 26^2 = (26\\sqrt{37})^2$$<br/><br/>Taking the positive square root:<br/><br/>$$AC = 26\\sqrt{37}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "498d6795", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Apply the Pythagorean theorem", "content": "Since angle $B$ is the right angle, $AC$ is the hypotenuse. Apply the Pythagorean theorem:<br/>$$AC^2 = (10\\sqrt{37})^2 + (24\\sqrt{37})^2$$<br/>Expand each term:<br/>$$AC^2 = 100 \\cdot 37 + 576 \\cdot 37$$<br/>Factor out 37:<br/>$$AC^2 = 37(100 + 576) = 37 \\cdot 676$$"}, {"title": "Recognize the perfect square", "content": "Observe that $100 + 576 = 676 = 26^2$ (note: $10^2 + 24^2 = 26^2$, a Pythagorean triple). Therefore:<br/>$$AC^2 = 37 \\cdot 26^2 = (26\\sqrt{37})^2$$<br/>Taking the positive square root:<br/>$$AC = 26\\sqrt{37}$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

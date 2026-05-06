@@ -1,15 +1,1 @@
-{
-  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_16",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract center and radius from circle M",
-      "content": "The equation $(x-3)^{2}+(y-6)^{2}=4$ is in standard circle form $(x-h)^{2}+(y-k)^{2}=r^{2}$. The center is $(3,6)$ and the radius squared is 4, so the radius is $\\sqrt{4}=2$."
-    },
-    {
-      "title": "Apply constraints to find circle P's equation",
-      "content": "Circle $P$ has the same center $(3,6)$ but its radius is twice circle $M$'s radius: $r_P = 2 \\times 2 = 4$. <br/><br/>The equation for circle $P$ is:<br/>$$(x-3)^{2}+(y-6)^{2}=4^{2}=16$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a7146625-47ea-49cb-9061-578e226240d5_16", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract center and radius from circle M", "content": "The equation $(x-3)^{2}+(y-6)^{2}=4$ is in standard circle form $(x-h)^{2}+(y-k)^{2}=r^{2}$. The center is $(3,6)$ and the radius squared is 4, so the radius is $\\sqrt{4}=2$."}, {"title": "Apply constraints to find circle P's equation", "content": "Circle $P$ has the same center $(3,6)$ but its radius is twice circle $M$'s radius: $r_P = 2 \\times 2 = 4$. <br/><br/>The equation for circle $P$ is:<br/>$$(x-3)^{2}+(y-6)^{2}=4^{2}=16$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

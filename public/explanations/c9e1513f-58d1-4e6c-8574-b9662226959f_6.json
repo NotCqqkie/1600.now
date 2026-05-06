@@ -1,15 +1,1 @@
-{
-  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_6",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify point values for each round",
-      "content": "First round correct responses are worth 2 points each, so $f$ correct responses contribute $2f$ points. Second round correct responses are worth 5 points each, so $s$ correct responses contribute $5s$ points."
-    },
-    {
-      "title": "Build the total points inequality",
-      "content": "The total points scored is the sum: $2f + 5s$. The contestant needs to score <strong>at least</strong> 100 points, which means the total must be greater than or equal to 100. Therefore:<br/><br/>$$2f + 5s \\geq 100$$<br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_6", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify point values for each round", "content": "First round correct responses are worth 2 points each, so $f$ correct responses contribute $2f$ points. Second round correct responses are worth 5 points each, so $s$ correct responses contribute $5s$ points."}, {"title": "Build the total points inequality", "content": "The total points scored is the sum: $2f + 5s$. The contestant needs to score <strong>at least</strong> 100 points, which means the total must be greater than or equal to 100. Therefore:<br/>$$2f + 5s \\geq 100$$<br/>This matches choice B — <strong>B</strong> is correct."}]}

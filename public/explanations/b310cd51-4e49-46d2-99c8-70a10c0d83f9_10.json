@@ -1,15 +1,1 @@
-{
-  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_10",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the constant c using the given information about function p",
-      "content": "Function $p$ is linear with slope 8, so its equation is $p(x) = 8x + b$ for some y-intercept $b$.<br/><br/>From $p(5) = 42$:<br/>$$8(5) + b = 42$$<br/>$$40 + b = 42$$<br/>$$b = 2$$<br/><br/>Therefore, $p(x) = 8x + 2$.<br/><br/>From $p(c) = -6$:<br/>$$8c + 2 = -6$$<br/>$$8c = -8$$<br/>$$c = -1$$"
-    },
-    {
-      "title": "Find the slope of t using two known points",
-      "content": "Now that we know $c = -1$, function $t$ passes through two points:<ul><li>$(c, t(c)) = (-1, -7)$</li><li>$(6, t(6)) = (6, 56)$</li></ul><br/>Using the slope formula:<br/>$$m_t = \\frac{56 - (-7)}{6 - (-1)} = \\frac{63}{7} = 9$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_10", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the constant c using the given information about function p", "content": "Function $p$ is linear with slope 8, so its equation is $p(x) = 8x + b$ for some y-intercept $b$.<br/><br/>From $p(5) = 42$:<br/>$$8(5) + b = 42$$<br/>$$40 + b = 42$$<br/>$$b = 2$$<br/>Therefore, $p(x) = 8x + 2$.<br/><br/>From $p(c) = -6$:<br/>$$8c + 2 = -6$$<br/>$$8c = -8$$<br/>$$c = -1$$"}, {"title": "Find the slope of t using two known points", "content": "Now that we know $c = -1$, function $t$ passes through two points:<ul><li>$(c, t(c)) = (-1, -7)$</li><li>$(6, t(6)) = (6, 56)$</li></ul><br/>Using the slope formula:<br/>$$m_t = \\frac{56 - (-7)}{6 - (-1)} = \\frac{63}{7} = 9$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

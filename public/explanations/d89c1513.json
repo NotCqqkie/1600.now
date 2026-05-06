@@ -1,15 +1,1 @@
-{
-  "questionId": "d89c1513",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify customers who did not purchase gasoline",
-      "content": "From the <em>Gasoline not purchased</em> row (Total column), there are 50 customers who did not purchase gasoline out of 135 total customers."
-    },
-    {
-      "title": "Apply the probability formula",
-      "content": "Probability is calculated as: $$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$<br/><br/>Therefore: $$P(\\text{did not purchase gasoline}) = \\frac{50}{135}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d89c1513", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify customers who did not purchase gasoline", "content": "From the <em>Gasoline not purchased</em> row (Total column), there are 50 customers who did not purchase gasoline out of 135 total customers."}, {"title": "Apply the probability formula", "content": "Probability is calculated as: $$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$<br/>Therefore: $$P(\\text{did not purchase gasoline}) = \\frac{50}{135}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

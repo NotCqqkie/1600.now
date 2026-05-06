@@ -1,15 +1,1 @@
-{
-  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_21",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert area units from square feet to square meters",
-      "content": "The conversion factor is given: 1 meter = 3.28 feet. Since we're working with area (square units), we must square the conversion factor:<br/><br/>$$1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$$<br/><br/>To convert 310 square feet per hour to square meters per hour, divide by the conversion factor:<br/><br/>$$\\frac{310 \\text{ ft}^2}{\\text{hr}} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} = \\frac{310}{10.7584} \\approx 28.81 \\text{ m}^2/\\text{hr}$$"
-    },
-    {
-      "title": "Convert time units from per hour to per minute",
-      "content": "Now convert from square meters per hour to square meters per minute. Since 1 hour = 60 minutes, divide by 60:<br/><br/>$$\\frac{28.81 \\text{ m}^2}{\\text{hr}} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{28.81}{60} \\approx 0.4802 \\text{ m}^2/\\text{min}$$<br/><br/>Rounding to match the precision of the answer choices, this is approximately 0.48 square meters per minute. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert area units from square feet to square meters", "content": "The conversion factor is given: 1 meter = 3.28 feet. Since we're working with area (square units), we must square the conversion factor:<br/>$$1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$$<br/>To convert 310 square feet per hour to square meters per hour, divide by the conversion factor:<br/>$$\\frac{310 \\text{ ft}^2}{\\text{hr}} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} = \\frac{310}{10.7584} \\approx 28.81 \\text{ m}^2/\\text{hr}$$"}, {"title": "Convert time units from per hour to per minute", "content": "Now convert from square meters per hour to square meters per minute. Since 1 hour = 60 minutes, divide by 60:<br/>$$\\frac{28.81 \\text{ m}^2}{\\text{hr}} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{28.81}{60} \\approx 0.4802 \\text{ m}^2/\\text{min}$$<br/>Rounding to match the precision of the answer choices, this is approximately 0.48 square meters per minute. That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "95ca2683",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the angle sum property of triangles",
-      "content": "The angles in any triangle sum to 180\u00b0. We have angle A = 54\u00b0, angle B = 90\u00b0, and angle C = (k/2)\u00b0.<br/><br/>Setting up the equation:<br/>$$54 + 90 + \\frac{k}{2} = 180$$<br/><br/>Simplifying the left side:<br/>$$144 + \\frac{k}{2} = 180$$<br/><br/>Isolating the term with k:<br/>$$\\frac{k}{2} = 36$$"
-    },
-    {
-      "title": "Solve for k",
-      "content": "From $\\frac{k}{2} = 36$, multiply both sides by 2:<br/>$$k = 72$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "95ca2683", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Use the angle sum property of triangles", "content": "The angles in any triangle sum to 180°. We have angle A = 54°, angle B = 90°, and angle C = (k/2)°.<br/><br/>Setting up the equation:<br/>$$54 + 90 + \\frac{k}{2} = 180$$<br/>Simplifying the left side:<br/>$$144 + \\frac{k}{2} = 180$$<br/>Isolating the term with k:<br/>$$\\frac{k}{2} = 36$$"}, {"title": "Solve for k", "content": "From $\\frac{k}{2} = 36$, multiply both sides by 2:<br/>$$k = 72$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

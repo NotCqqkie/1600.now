@@ -1,15 +1,1 @@
-{
-  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_12",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the exponential decay per 5-second interval",
-      "content": "Every 5 seconds, points decrease by 20%, meaning they are multiplied by $(1 - 0.20) = 0.80$.<br/><br/>Tracking the pattern:<ul><li>At $x = 5$ (one 5-second interval): points become $490 \\times 0.80$</li><li>At $x = 10$ (two intervals): points become $490 \\times 0.80 \\times 0.80 = 490 \\times (0.80)^2$</li><li>At $x = 15$ (three intervals): points become $490 \\times (0.80)^3$</li></ul>In general:<br/>$$490 \\times (0.80)^{\\text{(number of 5-second intervals)}}$$"
-    },
-    {
-      "title": "Express the exponent in terms of x",
-      "content": "In $x$ seconds, there are exactly $\\frac{x}{5}$ complete 5-second intervals.<br/><br/>Substituting into the exponential pattern:<br/>$$f(x) = 490(0.80)^{\\frac{x}{5}}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_12", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize the exponential decay per 5-second interval", "content": "Every 5 seconds, points decrease by 20%, meaning they are multiplied by $(1 - 0.20) = 0.80$.<br/><br/>Tracking the pattern:<ul><li>At $x = 5$ (one 5-second interval): points become $490 \\times 0.80$</li><li>At $x = 10$ (two intervals): points become $490 \\times 0.80 \\times 0.80 = 490 \\times (0.80)^2$</li><li>At $x = 15$ (three intervals): points become $490 \\times (0.80)^3$</li></ul>In general:<br/>$$490 \\times (0.80)^{\\text{(number of 5-second intervals)}}$$"}, {"title": "Express the exponent in terms of x", "content": "In $x$ seconds, there are exactly $\\frac{x}{5}$ complete 5-second intervals.<br/><br/>Substituting into the exponential pattern:<br/>$$f(x) = 490(0.80)^{\\frac{x}{5}}$$<br/>That matches choice A — <strong>A</strong> is correct."}]}

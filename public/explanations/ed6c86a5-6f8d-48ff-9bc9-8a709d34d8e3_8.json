@@ -1,16 +1,1 @@
-{
-  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_8",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the vertex from the given information",
-      "content": "The vertex form of a quadratic function has its vertex (the maximum or minimum point) at $(h, k)$. The problem states that at $t = 3$ seconds, the object reaches a maximum height of 268 feet. Therefore, the vertex is at $(h, k) = (3, 268)$.",
-      "formula": "$$f(t) = a(t-h)^2 + k$$"
-    },
-    {
-      "title": "Apply the standard gravity coefficient and write the equation",
-      "content": "For projectile motion with height measured in feet, the standard gravitational coefficient is $a = -16$ (negative because the parabola opens downward). Substituting $h = 3$, $k = 268$, and $a = -16$:<br/><br/>$$f(t) = -16(t-3)^2 + 268$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_8", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the vertex from the given information", "content": "The vertex form of a quadratic function has its vertex (the maximum or minimum point) at $(h, k)$. The problem states that at $t = 3$ seconds, the object reaches a maximum height of 268 feet. Therefore, the vertex is at $(h, k) = (3, 268)$.", "formula": "$$f(t) = a(t-h)^2 + k$$"}, {"title": "Apply the standard gravity coefficient and write the equation", "content": "For projectile motion with height measured in feet, the standard gravitational coefficient is $a = -16$ (negative because the parabola opens downward). Substituting $h = 3$, $k = 268$, and $a = -16$:<br/>$$f(t) = -16(t-3)^2 + 268$$<br/>This matches choice D — <strong>D</strong> is correct."}]}

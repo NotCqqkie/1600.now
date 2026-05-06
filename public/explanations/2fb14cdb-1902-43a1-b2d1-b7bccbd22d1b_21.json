@@ -1,15 +1,1 @@
-{
-  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_21",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the perpendicularity property of tangent lines",
-      "content": "A tangent line to a circle is perpendicular to the radius at the point of tangency. Since line $t$ has slope $\\frac{6}{5}$, the radius from center $(2, 9)$ to point $(a, -4)$ must have slope $-\\frac{5}{6}$ (the negative reciprocal)."
-    },
-    {
-      "title": "Solve for a using the slope equation",
-      "content": "The slope of the radius connecting $(2, 9)$ to $(a, -4)$ is $\\frac{-13}{a - 2}$, which must equal $-\\frac{5}{6}$:<br/><br/>$$\\frac{-13}{a - 2} = -\\frac{5}{6}$$<br/>$$-13 \\cdot 6 = -5(a - 2)$$<br/>$$-78 = -5a + 10$$<br/>$$-88 = -5a$$<br/>$$a = \\frac{88}{5}$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Use the perpendicularity property of tangent lines", "content": "A tangent line to a circle is perpendicular to the radius at the point of tangency. Since line $t$ has slope $\\frac{6}{5}$, the radius from center $(2, 9)$ to point $(a, -4)$ must have slope $-\\frac{5}{6}$ (the negative reciprocal)."}, {"title": "Solve for a using the slope equation", "content": "The slope of the radius connecting $(2, 9)$ to $(a, -4)$ is $\\frac{-13}{a - 2}$, which must equal $-\\frac{5}{6}$:<br/>$$\\frac{-13}{a - 2} = -\\frac{5}{6}$$<br/>$$-13 \\cdot 6 = -5(a - 2)$$<br/>$$-78 = -5a + 10$$<br/>$$-88 = -5a$$<br/>$$a = \\frac{88}{5}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
