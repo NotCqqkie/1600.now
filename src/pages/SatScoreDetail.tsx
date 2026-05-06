@@ -106,8 +106,8 @@ const SatScoreDetail = () => {
           {profile.tierDescription}
         </p>
         <p className="mt-3 text-sm">
-          <Link to={`/is-a-${Math.round(score / 50) * 50}-a-good-sat-score`} className="underline">
-            Is a {Math.round(score / 50) * 50} a good SAT score? →
+          <Link to={`/is-a-${score}-a-good-sat-score`} className="underline">
+            Is a {score} a good SAT score? →
           </Link>
         </p>
       </header>
@@ -213,21 +213,29 @@ const SatScoreDetail = () => {
       </section>
 
       <section className="mt-10 flex items-center justify-between rounded-xl border border-border p-4">
-        <Link
-          className="text-sm underline"
-          to={`/sat-score/${prevDown}`}
-        >
-          ← {prevDown} SAT Score
-        </Link>
+        {score > 400 ? (
+          <Link
+            className="text-sm underline"
+            to={`/sat-score/${prevDown}`}
+          >
+            ← {prevDown} SAT Score
+          </Link>
+        ) : (
+          <span />
+        )}
         <Link className="text-sm underline" to="/sat-score">
           All scores
         </Link>
-        <Link
-          className="text-sm underline"
-          to={`/sat-score/${nextUp}`}
-        >
-          {nextUp} SAT Score →
-        </Link>
+        {score < 1600 ? (
+          <Link
+            className="text-sm underline"
+            to={`/sat-score/${nextUp}`}
+          >
+            {nextUp} SAT Score →
+          </Link>
+        ) : (
+          <span />
+        )}
       </section>
     </div>
   );

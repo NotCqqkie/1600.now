@@ -1,15 +1,1 @@
-{
-  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_9",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Complete the square",
-      "content": "Starting with $x^2 + 2x = 72$, I'll rewrite the left side as a perfect square trinomial by adding 1 to both sides:<br/>$$x^2 + 2x + 1 = 72 + 1$$<br/>$$(x + 1)^2 = 73$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Taking the square root of both sides:<br/>$$x + 1 = \\pm\\sqrt{73}$$<br/>$$x = -1 \\pm\\sqrt{73}$$<br/><br/>This gives two solutions: $x = -1 + \\sqrt{73}$ and $x = -1 - \\sqrt{73}$. The first solution matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f3ade8fe-06c3-4b9c-a658-8857621e692f_9","correctAnswer":"C","section":"Math","steps":[{"title":"Complete the square","content":"Add $1$ to both sides of $x^{2}+2x=72$ so the left becomes a perfect square: $$(x+1)^{2}=73.$$"},{"title":"Solve and match","content":"Take square roots: $x+1=\\pm\\sqrt{73}$, so $x=-1\\pm\\sqrt{73}$. The choice given is $-1+\\sqrt{73}$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."}]}

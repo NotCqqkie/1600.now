@@ -1,15 +1,1 @@
-{
-  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_18",
-  "correctAnswer": "1470",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Eliminate the common term using addition",
-      "content": "The equations both contain the term $5(y-14)$ with opposite signs: it appears as $+5(y-14)$ in the first equation and $-5(y-14)$ in the second. This makes them perfect for elimination. Adding the two equations together:<br/><br/>$$\\left[\\frac{x}{7}+5(y-14)\\right]+\\left[\\frac{x}{3}-5(y-14)\\right]=29+41$$<br/><br/>The $5(y-14)$ terms cancel, leaving:<br/><br/>$$\\frac{x}{7}+\\frac{x}{3}=70$$"
-    },
-    {
-      "title": "Combine fractions and solve for 10x",
-      "content": "To add the fractions on the left, find the least common denominator of 7 and 3, which is 21:<br/><br/>$$\\frac{3x}{21}+\\frac{7x}{21}=70$$<br/><br/>$$\\frac{10x}{21}=70$$<br/><br/>Multiply both sides by 21 to isolate $10x$:<br/><br/>$$10x = 70 \\times 21 = 1470$$"
-    }
-  ]
-}
+{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_18", "correctAnswer": "1470", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the equations: $\\frac{x}{7} + \\frac{x}{3} = 70$. Multiply by 21: $3x + 7x = 1470$, so $10x = 1470$."}, {"title": "Find $10x$", "content": "$10x = 1470$. The answer is <strong>1470</strong>."}]}

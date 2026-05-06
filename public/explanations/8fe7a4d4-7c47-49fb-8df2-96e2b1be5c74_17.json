@@ -1,15 +1,1 @@
-{
-  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive relationship",
-      "content": "The blank separates \u201cFrench portrait artist\u201d from \u201cMarie-Denise Villers (1774\u20131821).\u201d The second noun phrase is an appositive\u2014it renames or identifies the artist."
-    },
-    {
-      "title": "Apply the appositive punctuation rule",
-      "content": "Appositives are set off with commas when they provide additional information about an already-identified noun. B omits punctuation entirely, while C and A use punctuation that doesn't suit appositives. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive relationship", "content": "The blank separates “French portrait artist” from “Marie-Denise Villers (1774–1821).” The second noun phrase is an appositive—it renames or identifies the artist."}, {"title": "Apply the appositive punctuation rule", "content": "Here “Marie-Denise Villers (1774–1821)” functions as an essential (restrictive) appositive identifying the previously unidentified “little-known French portrait artist,” so no punctuation is required between “artist” and the name. Choices A (em dash), C (colon), and D (comma) all signal nonessential phrasing, which doesn’t suit a restrictive appositive. That matches choice B — <strong>B</strong> is correct."}]}

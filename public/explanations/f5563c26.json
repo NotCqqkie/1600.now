@@ -1,15 +1,1 @@
-{
-  "questionId": "f5563c26",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Write down the given system",
-      "content": "$$y=4$$<br/>$$x=y+6$$"
-    },
-    {
-      "title": "Substitute and solve for x",
-      "content": "$$y=4$$<br/>Sub into $$x=y+6$$: $$x=4+6$$<br/>$$x=10$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f5563c26", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $y = 4$, substitute into $x = y + 6$: $x = 4 + 6$."}, {"title": "Find $x$", "content": "$x = 10$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

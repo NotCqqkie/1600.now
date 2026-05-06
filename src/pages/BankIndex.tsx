@@ -82,6 +82,11 @@ const multiSelectModeCheckboxClass =
 const topicCheckboxClass =
   `absolute left-0 top-0 ${multiSelectModeCheckboxClass}`;
 
+const getTopicSkills = (subject: "math" | "reading", domain: string): string[] =>
+  subject === "math"
+    ? mathDomainSkills[domain as keyof typeof mathDomainSkills]
+    : englishDomainSkills[domain as keyof typeof englishDomainSkills];
+
 const TopicCheckboxSlot = ({
   visible,
   checked,
@@ -195,11 +200,7 @@ const BankIndex = () => {
   }, [searchParams, setSearchParams]);
 
   const isQuestionActive = useCallback((q: BankQuestion): boolean => {
-    if (q.bankType === "past") {
-      return activePastQuestionSourceIds.has(q.sourceId);
-    }
-
-    return q.inPracticeTests === true;
+    return q.inPracticeTests === true || activePastQuestionSourceIds.has(q.sourceId);
   }, []);
 
   // Check if question passes filters
@@ -319,13 +320,11 @@ const BankIndex = () => {
   const toggleSubject = useCallback((subject: "math" | "reading", checked: boolean) => {
     setTopicSelection(prev => {
       const domains = subject === "math" ? allMathDomains : allEnglishDomains;
-      const skillsMap = subject === "math" ? mathDomainSkills : englishDomainSkills;
-      
       const newDomains: Record<string, { selected: boolean; skills: Record<string, boolean> }> = {};
       for (const domain of domains) {
         newDomains[domain] = {
           selected: checked,
-          skills: Object.fromEntries((skillsMap as any)[domain].map((s: string) => [s, checked])),
+          skills: Object.fromEntries(getTopicSkills(subject, domain).map((s) => [s, checked])),
         };
       }
       
@@ -338,8 +337,7 @@ const BankIndex = () => {
 
   const toggleDomain = useCallback((subject: "math" | "reading", domain: string, checked: boolean) => {
     setTopicSelection(prev => {
-      const skillsMap = subject === "math" ? mathDomainSkills : englishDomainSkills;
-      const skills = (skillsMap as any)[domain] as string[];
+      const skills = getTopicSkills(subject, domain);
       
       const newDomains = {
         ...prev[subject].domains,
@@ -364,8 +362,7 @@ const BankIndex = () => {
 
   const toggleSkill = useCallback((subject: "math" | "reading", domain: string, skill: string, checked: boolean) => {
     setTopicSelection(prev => {
-      const skillsMap = subject === "math" ? mathDomainSkills : englishDomainSkills;
-      const skills = (skillsMap as any)[domain] as string[];
+      const skills = getTopicSkills(subject, domain);
       
       const newSkills = {
         ...prev[subject].domains[domain].skills,
@@ -853,7 +850,7 @@ const BankIndex = () => {
             <div>
               <h1
                 style={{
-                  fontFamily: "'Instrument Serif', Georgia, serif",
+                  fontFamily: "'Geist', Georgia, serif",
                   fontSize: "clamp(26px, 3.5vw, 36px)",
                   fontWeight: 400,
                   letterSpacing: "-0.02em",
@@ -870,6 +867,7 @@ const BankIndex = () => {
           </div>
 
           {/* Filter Panel */}
+          <div data-tour="bank-filters">
           <QuestionBankFilterPanel
             filters={filters}
             onFiltersChange={setFilters}
@@ -902,6 +900,7 @@ const BankIndex = () => {
               </div>
             }
           />
+          </div>
 
           {/* Main Content */}
           {renderBrowseView()}
@@ -911,19 +910,18 @@ const BankIndex = () => {
       {/* Create Practice Set Button - Fixed at bottom right */}
       {selectedTopicsInfo.totalSelected > 0 && (
         <div className="fixed bottom-6 right-6 z-50 flex gap-2">
-          <Button 
-            size="icon" 
-            variant="secondary"
+          <Button
+            size="icon"
             onClick={() => handleCreatePracticeSet(true)}
             className="shadow-lg h-12 w-12 rounded-full"
             title="Create Shuffled Practice Set"
           >
             <Shuffle className="h-5 w-5" />
           </Button>
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             onClick={() => handleCreatePracticeSet(false)}
-            className="shadow-lg gap-2 bg-[#B4E1FF] text-[#0a0a0a] hover:bg-[#95D4FF] border border-[#95D4FF] dark:bg-[#1a6fa3] dark:text-white dark:hover:bg-[#1d7db5] dark:border-[#1d7db5]"
+            className="shadow-lg gap-2"
           >
             <Play className="h-4 w-4" />
             Create Practice Set ({selectedQuestions.length} questions)

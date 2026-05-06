@@ -1,15 +1,1 @@
-{
-  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that adding equations eliminates y",
-      "content": "The first equation is $x + 10 = -9y + 5$ and the second is $x - 10 = 9y + 7$. The coefficients of $y$ are $-9$ and $+9$ \u2014 they are opposites. Adding the two equations will eliminate $y$."
-    },
-    {
-      "title": "Add the equations to find 2x",
-      "content": "Add left sides: $(x + 10) + (x - 10) = 2x$<br/>Add right sides: $(-9y + 5) + (9y + 7) = 12$<br/>Therefore $2x = 12$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_7", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the two equations: $(x + 10) + (x - 10) = (-9y + 5) + (9y + 7)$, giving $2x = 12$."}, {"title": "Find $2x$", "content": "$2x = 12$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

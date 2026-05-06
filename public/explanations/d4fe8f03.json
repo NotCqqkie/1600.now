@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure on each side",
-      "content": "The phrase before the blank \u2014 <strong>'Paintings by the renowned twentieth-century US'</strong> \u2014 ends with a noun (<strong>'US'</strong>) followed by the blank. The phrase after the blank \u2014 <strong>'Thomas Hart Benton and Jackson Pollock'</strong> \u2014 is a list of two names. The blank must bridge the noun 'US' and the list of names."
+      "title": "Identify the structure",
+      "content": "The blank sits between the noun <strong>'artists'</strong> and the names <strong>'Thomas Hart Benton and Jackson Pollock.'</strong> The names directly identify which artists are meant — they form a single, tightly bound noun phrase: <em>US artists Thomas Hart Benton and Jackson Pollock</em>."
     },
     {
-      "title": "Apply the colon rule for introducing a list",
-      "content": "A <strong>colon separates two independent clauses</strong> or <strong>introduces a list or elaboration</strong>. Here, 'artists' precedes a list, requiring a colon: <strong>'US artists: Thomas Hart Benton and Jackson Pollock'</strong>. Choices A\u2013C violate this rule by using extra commas or missing punctuation, while D uses a comma where a colon is necessary. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Apply the punctuation rule",
+      "content": "When a specifying noun phrase (the names) is essential to identifying the noun (<em>artists</em>), no punctuation separates them — the same way we write <em>my friend Sarah</em>, not <em>my friend, Sarah,</em>.<br/><br/>Choice A inserts a colon, but a colon needs a complete independent clause before it. Choice C adds a stray comma between the two names. Choice D adds a comma that wrongly treats the names as a non-essential aside.<br/><br/>The answer is <strong>B</strong>."
     }
   ]
 }

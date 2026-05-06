@@ -49,6 +49,6 @@ export const launchModulePractice = ({
   if (!targetQuestion) return;
 
   navigate(
-    `/bank/${targetQuestion.subject}/${targetQuestion.id}?bankType=past&practice=true&idx=${targetIndex + 1}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`,
+    `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${targetIndex + 1}&modulePractice=${module.slug}&moduleSession=${session.sessionId}`,
   );
 };

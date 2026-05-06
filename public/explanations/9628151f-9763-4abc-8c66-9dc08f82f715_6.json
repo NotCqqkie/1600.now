@@ -1,15 +1,1 @@
-{
-  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_6",
-  "correctAnswer": "1240",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation",
-      "content": "We are given $$g(x)=\\frac{x}{2}$$ and need $$g(x)=620$$. Substitute the expression for $$g(x)$$:$$ \\frac{x}{2}=620 $$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Multiply both sides by 2 to isolate $$x$$: $$ x = 620 \\times 2 = 1240 $$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_6", "correctAnswer": "1240", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $g(x)=620$ and write the equation.<br><br>$$\\dfrac{x}{2}=620$$"}, {"title": "Solve for x", "content": "Multiply both sides by $2$.<br><br>$$x=1{,}240$$<br><br>The answer is <strong>1240</strong>."}]}

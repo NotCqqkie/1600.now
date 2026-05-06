@@ -1,15 +1,1 @@
-{
-  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_18",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract the given value",
-      "content": "The equation $x-2=3$ tells us the value of the quantity $(x-2)$. Rather than solving for $x$ separately, we recognize that $(x-2)$ is already defined in the problem."
-    },
-    {
-      "title": "Substitute into the target expression",
-      "content": "We need to find $3(x-2)$. Since $(x-2)=3$:<br/><br/>$$3(x-2) = 3 \\cdot 3 = 9$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"39729166-8e92-42cc-8ed6-76acdb673a3c_18","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Multiply both sides by $3$: $3(x-2) = 3 \\cdot 3$."},{"title":"Compute the target value","content":"So $3(x-2) = 9$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

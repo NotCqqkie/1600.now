@@ -1,0 +1,1 @@
+{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_4", "correctAnswer": "36", "section": "Math", "steps": [{"title": "Evaluate each function at $x = 3$", "content": "$m(3) = 5(3) + 3 = 18$<br/>$p(3) = 3 - 3 = 0$"}, {"title": "Compute $2m(3) - p(3)$", "content": "$$2m(3) - p(3) = 2(18) - 0 = 36$$<br/>The answer is <strong>36</strong>."}]}

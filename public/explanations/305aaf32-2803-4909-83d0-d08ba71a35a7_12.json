@@ -1,15 +1,1 @@
-{
-  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_12",
-  "correctAnswer": "12",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the variable coefficient",
-      "content": "From $2x + 5 = 9$, subtract 5 from both sides to isolate the term with $x$:<br/>$$2x = 4$$"
-    },
-    {
-      "title": "Scale and evaluate the target expression",
-      "content": "To find $8x - 4$, observe that $8x = 4 \\cdot 2x$. Since $2x = 4$:<br/>$$8x = 4(4) = 16$$<br/>Therefore, the value of $8x - 4$ is:<br/>$$8x - 4 = 16 - 4 = 12$$"
-    }
-  ]
-}
+{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_12","correctAnswer":"12","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"From $2x+5=9$ we get $2x=4$, so $x=2$."},{"title":"Compute the target value","content":"Then $8x-4 = 16-4 = 12$. The answer is <strong>12</strong>."}]}

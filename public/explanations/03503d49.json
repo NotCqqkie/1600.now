@@ -1,15 +1,1 @@
-{
-  "questionId": "03503d49",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the budget constraint",
-      "content": "The business owner is purchasing 81 chairs at price $p$ per chair (before sales tax). After applying a 7% sales tax, the total cost becomes $81p \\cdot 1.07$. This total cannot exceed the budget of $\\$14,000$:<br/><br/>$$81p \\cdot 1.07 \\leq 14,000$$"
-    },
-    {
-      "title": "Solve for the maximum price per chair",
-      "content": "Divide both sides by $81 \\cdot 1.07$ to isolate $p$:<br/><br/>$$p \\leq \\frac{14,000}{81 \\cdot 1.07}$$<br/><br/>First, compute the denominator:<br/><br/>$$81 \\cdot 1.07 = 86.67$$<br/><br/>Now divide:<br/><br/>$$p \\leq \\frac{14,000}{86.67} \\approx 161.53$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "03503d49", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the budget constraint", "content": "The business owner is purchasing 81 chairs at price $p$ per chair (before sales tax). After applying a 7% sales tax, the total cost becomes $81p \\cdot 1.07$. This total cannot exceed the budget of \\$14,000:<br/><br/>$$81p \\cdot 1.07 \\leq 14,000$$"}, {"title": "Solve for the maximum price per chair", "content": "Divide both sides by $81 \\cdot 1.07$ to isolate $p$:<br/><br/>$$p \\leq \\frac{14,000}{81 \\cdot 1.07}$$<br/><br/>First, compute the denominator:<br/><br/>$$81 \\cdot 1.07 = 86.67$$<br/><br/>Now divide:<br/><br/>$$p \\leq \\frac{14,000}{86.67} \\approx 161.53$$<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Read the values from the 1986 data point on the graph",
-      "content": "At 1986, the graph shows three data points corresponding to the three land use classes: Class VIII is at approximately 50 hectares, Class VI is at approximately 25 hectares, and Class VII is at approximately 50 hectares. Across all three classes in that year, forest patch sizes ranged from a minimum of about 25 hectares to a maximum of about 50 hectares."
-    },
-    {
-      "title": "Match the range to the correct choice",
-      "content": "The sentence reads <em>\u201cIn that year, they were between _____ and [choice] hectares.\u201d</em> The graph shows that in 1986, patch sizes ranged from approximately 25 to 50 hectares. Choice D completes this with \u201cand 50 hectares,\u201d giving \u201cbetween 25 and 50 hectares\u201d\u2014the exact minimum and maximum values observed that year. Choices A, B, and C all propose upper bounds (125, 150, and 250 hectares) that far exceed the highest value actually recorded on the graph. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify the claim","content":"The blank must give graph data on 1986 mean forest patch sizes, which had <em>dropped considerably</em>. The completing evidence must give the smallest 1986 range across classes."},{"title":"Match the data","content":"At 1986, the graph shows mean patch sizes ranging from roughly 0 to 50 hectares — the lowest range, consistent with a considerable drop. The other upper bounds (125, 150, 250) far exceed the values observed. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

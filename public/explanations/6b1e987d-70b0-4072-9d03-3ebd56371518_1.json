@@ -1,15 +1,1 @@
-{
-  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the distributive property",
-      "content": "Distribute $6xy$ to each term: $$6xy(2x^2 + 5y) = 6xy \\cdot 2x^2 + 6xy \\cdot 5y$$"
-    },
-    {
-      "title": "Simplify each term",
-      "content": "<ul><li>First term: $6xy \\cdot 2x^2 = 12x^3y$ (multiply coefficients: $6 \\cdot 2 = 12$, combine $x$ powers: $x \\cdot x^2 = x^3$)</li><li>Second term: $6xy \\cdot 5y = 30xy^2$ (multiply coefficients: $6 \\cdot 5 = 30$, combine $y$ powers: $y \\cdot y = y^2$)</li></ul>$$12x^3y + 30xy^2$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6b1e987d-70b0-4072-9d03-3ebd56371518_1","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $6xy$ to each term inside the parentheses:$$6xy\\cdot 2x^2=12x^3y\\quad\\text{and}\\quad 6xy\\cdot 5y=30xy^2$$So the result has the form $\\#x^3y+30xy^2$."},{"title":"Match to the answer choices","content":"Among the choices, only one ends in $30xy^2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

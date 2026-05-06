@@ -1,15 +1,1 @@
-{
-  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_4",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add to eliminate y",
-      "content": "The equations have opposite $y$-coefficients: $+5y$ and $-5y$. Adding the two equations eliminates $y$:<br/>$$(x + 5y) + (x - 5y) = 5 + 7$$<br/>Simplifying:<br/>$$2x = 12$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Divide both sides by 2:<br/>$$x = 6$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_4","correctAnswer":"C","section":"Math","steps":[{"title":"Combine the equations","content":"Add the two equations to eliminate $y$: $$(x+5y)+(x-5y)=5+7.$$"},{"title":"Solve for $x$","content":"This gives $2x=12$, so $x=6$."},{"title":"Match the answer","content":"That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

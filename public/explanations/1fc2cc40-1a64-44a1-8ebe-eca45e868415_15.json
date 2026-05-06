@@ -1,15 +1,1 @@
-{
-  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add the equations to eliminate y",
-      "content": "The coefficients of $y$ are $+1$ and $-1$, so adding the two equations eliminates $y$:<br/><br/>$$(3x + y) + (9x - y) = 21 + 3$$<br/>$$12x = 24$$<br/>$$x = 2$$"
-    },
-    {
-      "title": "Conclude the number of solutions",
-      "content": "Obtaining a unique value for $x$ means the system has exactly one solution. The two linear equations represent lines that intersect at exactly one point. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Compare the coefficients", "content": "Form ratios of the matching $x$, $y$, and constant terms in $$3x + y = 21$$ and $$9x - y = 3$$. This gives $\\frac{9}{3}=3$ but $\\frac{-1}{1}=-1$."}, {"title": "Identify the answer", "content": "The $x$ and $y$ coefficient ratios differ, so the lines intersect once — exactly one solution. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

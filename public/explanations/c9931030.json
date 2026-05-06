@@ -1,15 +1,1 @@
-{
-  "questionId": "c9931030",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Verify the right angle and use correspondence",
-      "content": "Check the Pythagorean theorem: $20^2 + 48^2 = 400 + 2304 = 2704 = 52^2$. This means $RS^2 + ST^2 = TR^2$, so the right angle is at $S$. Since triangle $RST$ is similar to triangle $UVW$ with $T$ corresponding to $W$, angle $T$ in $RST$ equals angle $W$ in $UVW$. Therefore, $\\tan W = \\tan T$."
-    },
-    {
-      "title": "Calculate tan T",
-      "content": "In right triangle $RST$ with right angle at $S$, for angle $T$:<br/> Opposite side $= RS = 20$, Adjacent side $= ST = 48$<br/> $$\\tan T = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{20}{48} = \\frac{5}{12}$$ Since $\\tan W = \\tan T$, that matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"c9931030","correctAnswer":"B","section":"Math","steps":[{"title":"Locate the right angle and the angle equal to $W$","content":"Check the Pythagorean theorem: $20^2+48^2=2704=52^2$, so the right angle is at $S$ and $TR$ is the hypotenuse. Since $T$ corresponds to $W$, $\\tan W=\\tan T$."},{"title":"Compute the tangent ratio","content":"For angle $T$, the opposite leg is $RS=20$ and the adjacent leg is $ST=48$. $$\\tan W=\\tan T=\\frac{20}{48}=\\frac{5}{12}.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

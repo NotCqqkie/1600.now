@@ -1,15 +1,1 @@
-{
-  "questionId": "01682aa5",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert line p to slope-intercept form",
-      "content": "Starting with $2y + 18x = 9$, solve for $y$:<br/>$$2y = -18x + 9$$<br/>$$y = -9x + \\frac{9}{2}$$<br/>The slope of line $p$ is $-9$."
-    },
-    {
-      "title": "Apply the perpendicular slopes rule",
-      "content": "When two lines are perpendicular, their slopes are negative reciprocals. Since line $p$ has slope $-9$, line $r$ has slope:<br/>$$m_r = -\\frac{1}{-9} = \\frac{1}{9}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01682aa5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the slope of the given line", "content": "Rewrite in slope-intercept form: $2y+18x=9 → y=-9x+9/2$. So the slope of the given line is $-9$."}, {"title": "Identify the answer", "content": "Perpendicular slopes are negative reciprocals, so the slope of the perpendicular line is $1/9$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -64,6 +64,16 @@ const ModuleStart = () => {
   }
 
   const launchSession = (resumeExisting: boolean) => {
+    if (
+      !resumeExisting &&
+      savedSession &&
+      savedSession.status !== "submitted" &&
+      !window.confirm(
+        "Starting fresh will discard your saved progress for this module. Continue?",
+      )
+    ) {
+      return;
+    }
     launchModulePractice({
       module,
       navigate,
@@ -89,7 +99,7 @@ const ModuleStart = () => {
       <div className="space-y-3">
         <h1
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(32px, 4vw, 50px)",
             fontWeight: 400,
             letterSpacing: "-0.04em",

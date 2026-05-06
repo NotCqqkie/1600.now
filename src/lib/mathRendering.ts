@@ -48,7 +48,7 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
   // Collapse whitespace between HTML structural tags so newlines inside a
   // `<table>...</table>` don't get converted into stacks of empty <br /> tags
   // that produce huge blank vertical space before the table.
-  processedText = processedText.replace(/>\s*\n\s*</g, "><");
+  processedText = processedText.replace(/<\/(table|thead|tbody|tr|td|th)>\s*\n\s*</g, "</$1><");
   // Block elements (table/list) provide their own visual spacing — don't add
   // <br /> tags immediately after them, which produce excess gap before the
   // following text.
@@ -179,7 +179,7 @@ export function renderMixedContent(text: string, options: RenderMixedContentOpti
           return katex.renderToString(part.value, {
             displayMode: part.displayMode,
             throwOnError: false,
-            trust: true,
+            trust: false,
             strict: false,
             output: "html",
           });

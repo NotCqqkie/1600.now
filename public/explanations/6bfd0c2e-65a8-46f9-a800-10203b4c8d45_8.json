@@ -1,16 +1,1 @@
-{
-  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_8",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize slope-intercept form",
-      "content": "The given function is $f(x) = 3x - \\frac{1}{4}$. This is already in slope-intercept form where $m = 3$ (the slope) and $b = -\\frac{1}{4}$ (the y-intercept).",
-      "formula": "$$y = mx + b$$"
-    },
-    {
-      "title": "Extract the y-intercept point",
-      "content": "In slope-intercept form, the constant term gives us the y-intercept point. Since $b = -\\frac{1}{4}$, the y-intercept is $(0, -\\frac{1}{4})$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value x=0", "content": "The $y$-intercept occurs at $x=0$: $f(0)=3(0)-\\tfrac{1}{4}$."}, {"title": "Compute the y-intercept", "content": "$f(0)=-\\tfrac{1}{4}$, so the intercept is $(0,-\\tfrac{1}{4})$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

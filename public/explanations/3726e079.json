@@ -1,15 +1,1 @@
-{
-  "questionId": "3726e079",
-  "correctAnswer": "24",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rewrite the second equation to isolate the ratio from the first equation",
-      "content": "The second equation is $$\\frac{24x}{ny} = 4$$. Rearrange this by separating constants from the variable ratio:\n$$\\frac{24}{n} \\cdot \\frac{x}{y} = 4$$\nNow the expression contains $\\frac{x}{y}$, which we know from the first equation."
-    },
-    {
-      "title": "Substitute and solve for n",
-      "content": "Substitute $\\frac{x}{y} = 4$ into the rearranged equation:\n$$\\frac{24}{n} \\cdot 4 = 4$$\n\nDivide both sides by 4:\n$$\\frac{24}{n} = 1$$\n\nMultiply both sides by $n$:\n$$24 = n$$\n\nTherefore, <strong>n = 24</strong>."
-    }
-  ]
-}
+{"questionId":"3726e079","correctAnswer":"24","section":"Math","steps":[{"title":"Factor the second equation","content":"Rewrite: $\\dfrac{24x}{ny}=\\dfrac{24}{n}\\cdot\\dfrac{x}{y}=4$."},{"title":"Combine and compute","content":"Substitute $\\dfrac{x}{y}=4$: $\\dfrac{24}{n}\\cdot 4=4$, so $\\dfrac{24}{n}=1$ and $n=24$.<br/><br/>The answer is <strong>24</strong>."}]}

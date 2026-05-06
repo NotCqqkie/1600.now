@@ -1,15 +1,1 @@
-{
-  "questionId": "f5929f7a",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set the equations equal",
-      "content": "Both equations are solved for $y$. Since they both equal the same variable, set the right sides equal to each other:<br/><br/>$$-\\frac{1}{9}x = \\frac{1}{2}x$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Collect all $x$ terms on the left side:<br/><br/>$$-\\frac{1}{9}x - \\frac{1}{2}x = 0$$<br/><br/>Convert to common denominator 18:<br/><br/>$$-\\frac{2}{18}x - \\frac{9}{18}x = 0$$<br/><br/>$$-\\frac{11}{18}x = 0$$<br/><br/>$$x = 0$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f5929f7a", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Set the right sides equal: $$-\\tfrac{1}{9}x=\\tfrac{1}{2}x\\Rightarrow -2x=9x\\Rightarrow 11x=0.$$"}, {"title": "Find $x$", "content": "Thus $x=0$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

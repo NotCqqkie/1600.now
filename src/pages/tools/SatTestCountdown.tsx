@@ -38,7 +38,9 @@ const SatTestCountdown = () => {
 
   const upcoming = useMemo(
     () =>
-      TEST_DATES.filter((t) => new Date(t.date).getTime() >= today.getTime()),
+      TEST_DATES.filter(
+        (t) => new Date(`${t.date}T00:00:00`).getTime() >= today.getTime(),
+      ),
     [today],
   );
 
@@ -46,7 +48,7 @@ const SatTestCountdown = () => {
     upcoming[0]?.date ?? TEST_DATES[0].date,
   );
 
-  const selectedDate = new Date(selected);
+  const selectedDate = new Date(`${selected}T00:00:00`);
   const days = daysBetween(today, selectedDate);
   const weeks = Math.floor(days / 7);
   const remainderDays = days % 7;

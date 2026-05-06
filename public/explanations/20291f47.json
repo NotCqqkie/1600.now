@@ -1,15 +1,1 @@
-{
-  "questionId": "20291f47",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify the second fraction and add with common denominator",
-      "content": "Factor the denominator of the second fraction: $x^2y - 8xy = xy(x-8)$. This means the second fraction reduces to:<br/><br/>$$\\frac{y(x-8)}{xy(x-8)} = \\frac{1}{x}$$<br/><br/>Now we have $\\frac{y+12}{x-8} + \\frac{1}{x}$. Using common denominator $x(x-8)$:<br/><br/>$$\\frac{x(y+12) + (x-8)}{x(x-8)} = \\frac{xy + 12x + x - 8}{x(x-8)} = \\frac{xy + 13x - 8}{x(x-8)}$$"
-    },
-    {
-      "title": "Scale to match the answer choice denominator",
-      "content": "The answer choices express the denominator as $xy(x-8)$ rather than $x(x-8)$. Multiply numerator and denominator by $y$:<br/><br/>$$\\frac{xy + 13x - 8}{x(x-8)} \\cdot \\frac{y}{y} = \\frac{y(xy + 13x - 8)}{xy(x-8)}$$<br/><br/>Expand the numerator:<br/><br/>$$\\frac{xy^2 + 13xy - 8y}{x^2y - 8xy}$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"20291f47","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Note $x^2y-8xy=xy(x-8)$. Get the common denominator and combine:$$\\frac{(y+12)\\cdot xy}{x^2y-8xy}+\\frac{y(x-8)}{x^2y-8xy}=\\frac{xy^2+12xy+xy-8y}{x^2y-8xy}=\\frac{xy^2+13xy-8y}{x^2y-8xy}$$"},{"title":"Match to the answer choices","content":"The simplified expression is $\\dfrac{xy^2+13xy-8y}{x^2y-8xy}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

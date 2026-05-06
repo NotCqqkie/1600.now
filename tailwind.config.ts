@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -15,6 +16,25 @@ export default {
     extend: {
       fontFamily: {
         'minion': ['"Minion Pro"', '"Source Serif 4"', 'Georgia', 'serif'],
+        sans: ['Geist', 'system-ui', 'sans-serif'],
+        num:  ['"Inter Tight"', 'sans-serif'],
+        mono: ['"Geist Mono"', 'ui-monospace', 'monospace'],
+      },
+      fontSize: {
+        'hero':    ['clamp(44px, 6.2vw, 84px)', { lineHeight: '0.98', letterSpacing: '-0.035em', fontWeight: '500' }],
+        'lede':    ['19px', { lineHeight: '1.55', fontWeight: '300' }],
+        'h2':      ['30px', { lineHeight: '1',    letterSpacing: '-0.02em',  fontWeight: '500' }],
+        'h3':      ['20px', { lineHeight: '1.2',  letterSpacing: '-0.015em', fontWeight: '500' }],
+        'h3-sm':   ['17px', { lineHeight: '1.2',  letterSpacing: '-0.01em',  fontWeight: '500' }],
+        'stat-xl': ['72px', { lineHeight: '0.95', letterSpacing: '-0.04em',  fontWeight: '600' }],
+        'stat-lg': ['34px', { lineHeight: '1',    letterSpacing: '-0.025em', fontWeight: '600' }],
+        'stat':    ['15px', { lineHeight: '1',    letterSpacing: '-0.01em',  fontWeight: '600' }],
+        'body':    ['16px', { lineHeight: '1.6' }],
+        'ui':      ['14px', { lineHeight: '1' }],
+        'ui-sm':   ['13px', { lineHeight: '1.5' }],
+        'meta':    ['12px', { lineHeight: '1' }],
+        'eyebrow': ['11px', { lineHeight: '1', letterSpacing: '0.12em' }],
+        'kbd':     ['10px', { lineHeight: '1', letterSpacing: '0.04em' }],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -178,5 +198,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;

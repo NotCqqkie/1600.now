@@ -1,16 +1,1 @@
-{
-  "questionId": "69f4bbdc",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the three angles in the right triangle",
-      "content": "The triangle has a right angle at the bottom left (90\u00b0), an angle of 13\u00b0 at the top, and an unknown angle $a$ at the bottom right."
-    },
-    {
-      "title": "Apply the triangle angle sum theorem",
-      "content": "All angles in a triangle sum to 180\u00b0:<br/><br/>$$90\u00b0 + 13\u00b0 + a = 180\u00b0$$<br/><br/>Solving for $a$:<br/>$$a = 180\u00b0 - 90\u00b0 - 13\u00b0 = 77\u00b0$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct.",
-      "formula": "$$A + B + C = 180\u00b0$$"
-    }
-  ]
-}
+{"questionId":"69f4bbdc","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the relationship (Pythagoras / SOH-CAH-TOA)","content":"The triangle has a right angle ($90°$), an angle of $13°$, and unknown angle $a$. Apply the triangle angle-sum theorem:<br/>$$90° + 13° + a = 180°$$"},{"title":"Solve for the missing side","content":"Solve for $a$:<br/>$$a = 180° - 90° - 13° = 77°$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_17",
-  "correctAnswer": "9",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize slope-intercept form",
-      "content": "For a linear function, the $y$-intercept is the constant term when the function is written in slope-intercept form.",
-      "formula": "$$y = mx + b$$"
-    },
-    {
-      "title": "Identify the constant in the given function",
-      "content": "In $f(x) = -9x + 9$, the constant term (the number not multiplied by $x$) is 9. Therefore, the $y$-coordinate of the $y$-intercept is 9."
-    }
-  ]
-}
+{"questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_17", "correctAnswer": "9", "section": "Math", "steps": [{"title": "Set up the intercept", "content": "The $y$-intercept of $y=f(x)$ occurs where $x=0$, so evaluate $f(0)$."}, {"title": "Solve for the value", "content": "Substituting gives $$f(0)=-9(0)+9=9.$$ The answer is <strong>9</strong>."}]}

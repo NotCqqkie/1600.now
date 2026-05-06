@@ -1,15 +1,1 @@
-{
-  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what the given equation expresses",
-      "content": "We are given that $m = 6(n + p)$. This equation already expresses $m$ directly in terms of the variables $n$ and $p$. The question asks us to identify which choice matches this relationship."
-    },
-    {
-      "title": "Match to the correct choice",
-      "content": "Comparing the given equation to the choices:<br/><ul><li>Choice A: $m = \\frac{6(n+p)}{11}$ \u2014 introduces a division by 11 not in the given equation</li><li>Choice B: $m = 6(n + p)$ \u2014 exact match</li><li>Choice C: $m = 6(n + p) - 11$ \u2014 introduces a subtraction of 11</li><li>Choice D: $m = 6 - n - p - 11$ \u2014 completely different structure</li></ul>The given equation matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "08df3b47-9273-4ad6-9301-332804bc6404_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the given equation", "content": "The given equation is $m = 6(n + p)$. The question asks which choice expresses $m$ in terms of $n$ and $p$ — meaning which choice is the literal restatement (or an equivalent form) of the given equation."}, {"title": "Match the equation to a choice", "content": "Choice B states $m = 6(n + p)$, which is identical to the given equation. The other choices add extra terms or factors that change the value. That matches choice B — <strong>B</strong> is correct."}]}

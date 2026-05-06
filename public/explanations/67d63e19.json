@@ -1,15 +1,1 @@
-{
-  "questionId": "67d63e19",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the cost formula",
-      "content": "The first day costs $52, and each additional day costs $26. For $d$ days, there is 1 first day and $(d-1)$ additional days, so the total cost is:<br/>$$C(d) = 52 + 26(d-1)$$"
-    },
-    {
-      "title": "Expand and simplify to match a choice",
-      "content": "Distribute the 26:<br/>$$C(d) = 52 + 26d - 26$$<br/>Combine like terms:<br/>$$C(d) = 26d + 26$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "67d63e19", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the cost formula", "content": "The first day costs \\$52, and each additional day costs \\$26. For $d$ days, there is 1 first day and $(d-1)$ additional days, so the total cost is:<br/>$$C(d) = 52 + 26(d-1)$$"}, {"title": "Expand and simplify to match a choice", "content": "Distribute the 26:<br/>$$C(d) = 52 + 26d - 26$$<br/>Combine like terms:<br/>$$C(d) = 26d + 26$$<br/>This matches choice A — <strong>A</strong> is correct."}]}

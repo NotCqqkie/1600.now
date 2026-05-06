@@ -1,15 +1,1 @@
-{
-  "questionId": "a1696f3e",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x=4 into g(x) and set equal to 31",
-      "content": "We know that \\(g(4) = 31\\). Substitute \\(x = 4\\) into the function definition \\(g(x) = 5x + a\\):$$g(4) = 5(4) + a = 31.$$Solve for <em>a</em>."
-    },
-    {
-      "title": "Calculate and solve for a",
-      "content": "\\(20 + a = 31\\), so subtracting 20 from both sides we get \\(a = 11\\).<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a1696f3e", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Substitute x=4 into g(x) and set equal to 31", "content": "We know that $g(4) = 31$. Substitute $x = 4$ into the function definition $g(x) = 5x + a$:$$g(4) = 5(4) + a = 31.$$Solve for <em>a</em>."}, {"title": "Calculate and solve for a", "content": "$20 + a = 31$, so subtracting 20 from both sides we get $a = 11$.<br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_11",
-  "correctAnswer": "4.55",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the retail price",
-      "content": "The retail price is 260% of the wholesale price.\n\n$$\\text{Retail price} = 2.60 \\times 7.00 = \\$18.20$$"
-    },
-    {
-      "title": "Apply the discount using the complement percentage",
-      "content": "The key to speed: <em>75% off</em> means the customer pays the remaining <strong>25%</strong> of the retail price. Don't calculate the discount amount separately\u2014multiply the retail price by 0.25 directly.\n\n$$\\text{Discounted price} = 0.25 \\times 18.20 = \\$4.55$$"
-    }
-  ]
-}
+{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_11", "correctAnswer": "4.55", "section": "Math", "steps": [{"title": "Calculate the retail price", "content": "The retail price is 260% of the wholesale price.\n\n$$\\text{Retail price} = 2.60 \\times 7.00 = $18.20$$"}, {"title": "Apply the discount using the complement percentage", "content": "The key to speed: <em>75% off</em> means the customer pays the remaining <strong>25%</strong> of the retail price. Don't calculate the discount amount separately—multiply the retail price by 0.25 directly.\n\n$$\\text{Discounted price} = 0.25 \\times 18.20 = $4.55$$"}]}

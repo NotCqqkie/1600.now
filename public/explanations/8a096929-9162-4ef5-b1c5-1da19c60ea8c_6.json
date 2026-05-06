@@ -1,15 +1,1 @@
-{
-  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_6",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate the original expression at a test value",
-      "content": "Substitute $x = 1$ into $2(x-\\frac{3}{2})(x+14)$:<br/>$$2(1-\\frac{3}{2})(1+14) = 2 \\cdot \\left(-\\frac{1}{2}\\right) \\cdot 15 = (-1)(15) = -15$$"
-    },
-    {
-      "title": "Backsolve by testing choice C",
-      "content": "Backsolving \u2014 testing choice C (-15): At $x = 1$, it evaluates to $2(1)^2+25(1)-42 = 2+25-42 = -15$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8a096929-9162-4ef5-b1c5-1da19c60ea8c_6","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"First multiply the two binomials, then multiply by $2$:$$\\left(x-\\tfrac{3}{2}\\right)(x+14)=x^2+\\tfrac{25}{2}x-21$$$$2\\left(x^2+\\tfrac{25}{2}x-21\\right)=2x^2+25x-42$$"},{"title":"Match to the answer choices","content":"The simplified expression is $2x^2+25x-42$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the scaling relationship",
-      "content": "Notice that $80x + 70 = 10(8x + 7)$. The target expression is exactly 10 times the left side of the given equation."
-    },
-    {
-      "title": "Apply the substitution",
-      "content": "The given equation is $8x + 7 = 79$. Therefore, $80x + 70 = 10(8x + 7) = 10(79) = 790$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_3","correctAnswer":"A","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $80x+70 = 10(8x+7)$, and $8x+7=79$."},{"title":"Compute the target value","content":"So $80x+70 = 10 \\cdot 79 = 790$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

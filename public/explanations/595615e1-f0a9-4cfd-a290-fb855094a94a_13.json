@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The phrase \u201cAssuming participant P6 gave equal ratings to the abstract and cubist paintings\u201d tells us the model\u2019s prediction must match that equality."
+      "content": "We're told to <em>assume P6 gave equal actual ratings</em> to abstract and cubist paintings. We need to infer what the graph implies about the model's <em>predicted</em> ratings for P6 on these two styles."
     },
     {
       "title": "Match the meaning to the choices",
-      "content": "Choice C states the model predicted equal ratings, which directly follows from the assumption. The other three options either claim a difference or a preference, contradicting the equal\u2011rating condition. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "If the graph shows different correlations for abstract vs. cubist while P6's actual ratings were identical for both, the <em>predicted</em> ratings must differ between the styles — equal predictions can't produce two distinct correlations against an identical actual signal. So P6's predicted ratings for abstract and cubist paintings would differ from one another. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

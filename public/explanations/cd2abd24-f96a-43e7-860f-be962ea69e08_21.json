@@ -1,15 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_21",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the zero product property",
-      "content": "A product equals zero if and only if at least one factor equals zero.<br/><br/>Set the first factor equal to zero:<br/>$$3x + 8 = 0$$<br/>$$3x = -8$$<br/>$$x = -\\frac{8}{3}$$<br/><br/>Set the second factor equal to zero:<br/>$$4x - 3 = 0$$<br/>$$4x = 3$$<br/>$$x = \\frac{3}{4}$$"
-    },
-    {
-      "title": "Match the solutions to the given choices",
-      "content": "Among the given choices, $x = -\\frac{8}{3}$ appears as an option. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cd2abd24-f96a-43e7-860f-be962ea69e08_21","correctAnswer":"A","section":"Math","steps":[{"title":"Solve the quadratic","content":"Set each factor of $(3x+8)(4x-3)=0$ to zero: $3x+8=0$ gives $x=-\\tfrac{8}{3}$, and $4x-3=0$ gives $x=\\tfrac{3}{4}$."},{"title":"Identify the matching solution","content":"The solutions are $-\\tfrac{8}{3}$ and $\\tfrac{3}{4}$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

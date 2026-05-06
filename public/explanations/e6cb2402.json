@@ -1,15 +1,1 @@
-{
-  "questionId": "e6cb2402",
-  "correctAnswer": ".9411",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand and rearrange",
-      "content": "Expand the left side: $$3(kx + 13) = 3kx + 39$$ <br/><br/>The equation becomes: $$3kx + 39 = \\frac{48}{17}x + 36$$ <br/><br/>Move all x-terms to one side: $$3kx - \\frac{48}{17}x = -3$$ $$\\left(3k - \\frac{48}{17}\\right)x = -3$$"
-    },
-    {
-      "title": "Apply the no-solution condition",
-      "content": "A linear equation has no solution when the coefficient of $x$ is zero but the right side is non-zero\u2014creating the impossible statement $0 = -3$. <br/><br/>Set the x-coefficient to zero: $$3k - \\frac{48}{17} = 0$$ $$3k = \\frac{48}{17}$$ $$k = \\frac{48}{51} = \\frac{16}{17}$$"
-    }
-  ]
-}
+{"questionId": "e6cb2402", "correctAnswer": ".9411", "section": "Math", "steps": [{"title": "Expand and rearrange", "content": "Expand the left side: $$3(kx + 13) = 3kx + 39$$ <br/><br/>The equation becomes: $$3kx + 39 = \\frac{48}{17}x + 36$$ <br/><br/>Move all x-terms to one side: $$3kx - \\frac{48}{17}x = -3$$ $$\\left(3k - \\frac{48}{17}\\right)x = -3$$"}, {"title": "Apply the no-solution condition", "content": "A linear equation has no solution when the coefficient of $x$ is zero but the right side is non-zero—creating the impossible statement $0 = -3$. <br/><br/>Set the x-coefficient to zero: $$3k - \\frac{48}{17} = 0$$ $$3k = \\frac{48}{17}$$ $$k = \\frac{48}{51} = \\frac{16}{17}$$<br/>The answer is <strong>.9411</strong>."}]}

@@ -1,1 +1,15 @@
-{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the known angles in the triangle", "content": "From the diagram, the right angle is at $B$ (marked with a small square), so $\\angle B = 90°$. The angle at $A$ is labeled as \\$56°$. We need to find $\\angle C$."}, {"title": "Apply the angle sum property of triangles", "content": "The sum of all angles in any triangle equals \\$180°$:<br/>$$\\angle A + \\angle B + \\angle C = 180°$$<br/>$$56° + 90° + \\angle C = 180°$$<br/>$$\\angle C = 180° - 146° = 34°$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the known angles in the triangle",
+      "content": "From the diagram, the right angle is at $B$ (marked with a small square), so $\\angle B = 90°$. The angle at $A$ is labeled as $56°$. We need to find $\\angle C$."
+    },
+    {
+      "title": "Apply the angle sum property of triangles",
+      "content": "The sum of all angles in any triangle equals $180°$:<br/>$$\\angle A + \\angle B + \\angle C = 180°$$<br/>$$56° + 90° + \\angle C = 180°$$<br/>$$\\angle C = 180° - 146° = 34°$$<br/>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

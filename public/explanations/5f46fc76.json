@@ -1,15 +1,1 @@
-{
-  "questionId": "5f46fc76",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that the solution is the intersection point",
-      "content": "The solution to a system of linear equations is the point $(x, y)$ where both lines intersect. Looking at the graph, the two lines cross at a single point."
-    },
-    {
-      "title": "Read the coordinates from the graph",
-      "content": "Locate the intersection point on the grid. Trace from the intersection point straight down to the $x$-axis: it aligns with $x = -4$. Trace from the intersection point straight left to the $y$-axis: it aligns with $y = -3$. Therefore, the solution is $(-4, -3)$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5f46fc76","correctAnswer":"C","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=-4,\\ y=-3$."},{"title":"State the ordered pair","content":"The solution is $(-4,-3)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

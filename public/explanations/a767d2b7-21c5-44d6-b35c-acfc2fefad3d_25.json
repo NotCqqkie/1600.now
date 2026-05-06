@@ -1,15 +1,1 @@
-{
-  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the intensity difference",
-      "content": "Winged kelp has moderate umami intensity; arame has high intensity."
-    },
-    {
-      "title": "Find which choice compares them",
-      "content": "Choice C directly compares their intensities using the contrast word \u201cAlthough\u201d followed by \u201cthe latter's umami flavor is more intense.\u201d The other three either introduce unrelated foods (A), treat both seaweeds as equivalent examples (B), or focus on their shared category without noting intensity differences (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize a <em>difference</em> between winged kelp (moderate umami) and arame (high umami). The correct choice must contrast the two intensities."}, {"title": "Match to choices", "content": "Only one choice highlights that arame's umami is more intense than winged kelp's. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

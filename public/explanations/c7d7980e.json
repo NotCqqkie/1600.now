@@ -1,15 +1,1 @@
-{
-  "questionId": "c7d7980e",
-  "correctAnswer": "8",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate x terms",
-      "content": "First, add <em>x</em> to both sides of the equation to get all <em>x</em>-terms on one side.<br/>$$13x = 112 - x\\quad \\Rightarrow \\quad14x = 112$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Now, divide both sides by 14 to solve for <em>x</em>.<br/>$$14x = 112\\quad \\Rightarrow \\quad x = \\frac{112}{14} = 8$$That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"c7d7980e","correctAnswer":"8","section":"Math","steps":[{"title":"Combine x terms","content":"Add $x$ to both sides of $13x=112-x$ to gather all $x$-terms on the left: $$14x=112.$$"},{"title":"Solve for x","content":"Divide both sides by $14$: $x=\\tfrac{112}{14}=8$. The answer is <strong>8</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_14",
-  "correctAnswer": "16,10",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the Zero Product Property",
-      "content": "When a product of factors equals zero, at least one factor must be zero. Set each factor equal to zero:<br/>$$x - 16 = 0 \\quad \\text{or} \\quad x - 10 = 0 \\quad \\text{or} \\quad x + 7 = 0 \\quad \\text{or} \\quad x + 17 = 0$$"
-    },
-    {
-      "title": "Solve Each Equation",
-      "content": "Solving each factor equation:<ul><li>$x - 16 = 0 \\Rightarrow x = 16$</li><li>$x - 10 = 0 \\Rightarrow x = 10$</li><li>$x + 7 = 0 \\Rightarrow x = -7$</li><li>$x + 17 = 0 \\Rightarrow x = -17$</li></ul>The question asks for a positive solution. Both $x = 16$ and $x = 10$ are positive solutions to the equation."
-    }
-  ]
-}
+{"questionId":"f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_14","correctAnswer":"16,10","section":"Math","steps":[{"title":"Find the roots","content":"Set each factor of $(x-16)(x-10)(x+7)(x+17)=0$ to zero: $x=16$, $x=10$, $x=-7$, and $x=-17$."},{"title":"Identify the positive solution","content":"The positive solutions are $16$ and $10$. The answer is <strong>16</strong> or <strong>10</strong>."}]}

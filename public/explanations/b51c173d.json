@@ -11,7 +11,7 @@
     },
     {
       "title": "Substitute given slope and intercept",
-      "content": "Substitute $m = 2$ and $b = -5$$ into $$y = mx + b$$ to get $$y = 2x - 5$$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "content": "Substitute $m = 2$ and $b = -5$ into $$y = mx + b$$ to get $$y = 2x - 5$$. That matches choice D \u2014 <strong>D</strong> is correct.",
       "desmosExpressions": [],
       "desmosGraphs": []
     }

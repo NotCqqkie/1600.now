@@ -1,15 +1,1 @@
-{
-  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_8",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the quadratic formula",
-      "content": "For the equation $w^2 + 8w - 28 = 0$, identify the coefficients: $a = 1$, $b = 8$, $c = -28$.<br><br>Using the quadratic formula: $$w = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$<br><br>Compute the discriminant: $b^2 - 4ac = 8^2 - 4(1)(-28) = 64 + 112 = 176$<br><br>Substitute: $$w = \\frac{-8 \\pm \\sqrt{176}}{2}$$"
-    },
-    {
-      "title": "Simplify and identify the answer",
-      "content": "Simplify the radical: $\\sqrt{176} = \\sqrt{16 \\cdot 11} = 4\\sqrt{11}$.<br><br>Substitute back: $$w = \\frac{-8 \\pm 4\\sqrt{11}}{2} = \\frac{-8}{2} \\pm \\frac{4\\sqrt{11}}{2} = -4 \\pm 2\\sqrt{11}$$<br><br>The solution $-4 + 2\\sqrt{11}$ matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"32388549-e820-4b4a-91a9-d9c32e611098_8","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the quadratic","content":"Apply the quadratic formula to $w^2+8w-28=0$ with $a=1, b=8, c=-28$: $$w=\\frac{-8\\pm\\sqrt{64+112}}{2}=\\frac{-8\\pm\\sqrt{176}}{2}.$$ Since $\\sqrt{176}=4\\sqrt{11}$, $w=-4\\pm 2\\sqrt{11}$."},{"title":"Identify the matching solution","content":"The two solutions are $-4+2\\sqrt{11}$ and $-4-2\\sqrt{11}$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

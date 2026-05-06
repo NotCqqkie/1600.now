@@ -1,15 +1,1 @@
-{
-  "questionId": "465c73ad",
-  "correctAnswer": "8.6",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Divide both sides by 10 to isolate x",
-      "content": "We have the equation $10x = 86$. To solve for $x$, divide both sides by 10: $$x = \\frac{86}{10}$$"
-    },
-    {
-      "title": "Simplify the fraction",
-      "content": "Simplify: $$x = \\frac{86}{10} = 8.6$$"
-    }
-  ]
-}
+{"questionId":"465c73ad","correctAnswer":"8.6","section":"Math","steps":[{"title":"Isolate x","content":"Divide both sides of $10x=86$ by $10$: $$x=\\tfrac{86}{10}.$$"},{"title":"Simplify","content":"Compute the quotient: $x=8.6$. The answer is <strong>8.6</strong>."}]}

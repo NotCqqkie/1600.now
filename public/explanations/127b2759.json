@@ -1,15 +1,1 @@
-{
-  "questionId": "127b2759",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Combine constant terms",
-      "content": "In the expression $8+d^{2}+3$, identify the constant terms (8 and 3) and the variable term ($d^{2}$). Add the constants together: $8+3=11$."
-    },
-    {
-      "title": "Write the simplified expression",
-      "content": "The variable term $d^{2}$ remains unchanged, and the combined constants give us $d^{2}+11$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"127b2759","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Add the constants:$$8+d^2+3=d^2+11$$"},{"title":"Match to the answer choices","content":"The simplified expression is $d^2+11$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

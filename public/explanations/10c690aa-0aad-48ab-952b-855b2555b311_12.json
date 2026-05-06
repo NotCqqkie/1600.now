@@ -1,15 +1,1 @@
-{
-  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_12",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Margin of error defines a confidence interval",
-      "content": "The margin of error tells us the range around the sample mean where the true population mean is expected to fall. We construct this interval by adding and subtracting the margin of error from the sample mean:<br/>$$\\text{Confidence interval} = [\\text{Sample mean} - \\text{Margin of error}, \\text{Sample mean} + \\text{Margin of error}]$$"
-    },
-    {
-      "title": "Calculate the interval bounds",
-      "content": "Substitute the given values:<br/>$$\\text{Lower bound} = 3.28 - 0.06 = 3.22$$<br/>$$\\text{Upper bound} = 3.28 + 0.06 = 3.34$$<br/>The true population mean is plausible to lie between $3.22 and $3.34. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "10c690aa-0aad-48ab-952b-855b2555b311_12", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Margin of error defines a confidence interval", "content": "The margin of error tells us the range around the sample mean where the true population mean is expected to fall. We construct this interval by adding and subtracting the margin of error from the sample mean:<br/>$$\\text{Confidence interval} = [\\text{Sample mean} - \\text{Margin of error}, \\text{Sample mean} + \\text{Margin of error}]$$"}, {"title": "Calculate the interval bounds", "content": "Substitute the given values:<br/>$$\\text{Lower bound} = 3.28 - 0.06 = 3.22$$<br/>$$\\text{Upper bound} = 3.28 + 0.06 = 3.34$$<br/>The true population mean is plausible to lie between \\$3.22 and \\$3.34. That matches choice A — <strong>A</strong> is correct."}]}

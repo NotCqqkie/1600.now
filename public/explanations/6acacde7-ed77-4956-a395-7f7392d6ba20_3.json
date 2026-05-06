@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_3",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = 4 into both functions",
-      "content": "For $f(x) = x + 3$:<br/>$$f(4) = 4 + 3 = 7$$<br/><br/>For $g(x) = 3x$:<br/>$$g(4) = 3(4) = 12$$"
-    },
-    {
-      "title": "Calculate 7f(4) - g(4)",
-      "content": "$$7f(4) - g(4) = 7(7) - 12 = 49 - 12 = 37$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6acacde7-ed77-4956-a395-7f7392d6ba20_3","correctAnswer":"D","section":"Math","steps":[{"title":"Evaluate each function at x = 4","content":"Substitute $x=4$: $f(4)=4+3=7$ and $g(4)=3(4)=12$."},{"title":"Combine and compute","content":"$7f(4)-g(4)=7(7)-12=49-12=37$.<br/><br/>The answer is <strong>D</strong>."}]}

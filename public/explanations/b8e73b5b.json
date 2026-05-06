@@ -1,15 +1,1 @@
-{
-  "questionId": "b8e73b5b",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the savings inequality",
-      "content": "Ken earns $8 per hour for the first 10 hours: $8 \u00d7 10 = $80.<br/>Let $x$ = hours worked at $10/hour for the rest of the week.<br/>Total earnings: $80 + $10x.<br/>Ken saves 90% of his earnings, so: $$0.90(80 + 10x) \\geq 270$$"
-    },
-    {
-      "title": "Solve for the minimum hours",
-      "content": "Simplify by distributing: $$72 + 9x \\geq 270$$<br/>Subtract 72 from both sides: $$9x \\geq 198$$<br/>Divide by 9: $$x \\geq 22$$<br/>The least number of hours Ken must work is 22. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b8e73b5b", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the savings inequality", "content": "Ken earns \\$8 per hour for the first 10 hours: \\$8 × 10 = \\$80.<br/>Let $x$ = hours worked at \\$10/hour for the rest of the week.<br/>Total earnings: $80 + $10x.<br/>Ken saves 90% of his earnings, so: $$0.90(80 + 10x) \\geq 270$$"}, {"title": "Solve for the minimum hours", "content": "Simplify by distributing: $$72 + 9x \\geq 270$$<br/>Subtract 72 from both sides: $$9x \\geq 198$$<br/>Divide by 9: $$x \\geq 22$$<br/>The least number of hours Ken must work is 22. That matches choice C — <strong>C</strong> is correct."}]}

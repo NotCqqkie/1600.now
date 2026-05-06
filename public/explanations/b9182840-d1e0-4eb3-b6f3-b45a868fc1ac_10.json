@@ -1,15 +1,1 @@
-{
-  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_10",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the greatest common factor",
-      "content": "In $7x^{6}-14x^{2}$, both terms share common factors:<ul><li>Coefficients: 7 and 14 are both divisible by 7</li><li>Variables: $x^6$ and $x^2$ are both divisible by $x^2$</li></ul>The GCF is $7x^2$."
-    },
-    {
-      "title": "Factor out the GCF",
-      "content": "Dividing each term by $7x^2$:<br/>$7x^6 \u00f7 7x^2 = x^4$ and $14x^2 \u00f7 7x^2 = 2$<br/><br/>So:<br/>$$7x^{6}-14x^{2} = 7x^{2}(x^{4}-2)$$This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_10", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "Factor out the GCF $7x^{2}$: $$7x^{6}-14x^{2}=7x^{2}(x^{4}-2).$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

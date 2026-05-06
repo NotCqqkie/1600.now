@@ -1,15 +1,1 @@
-{
-  "questionId": "a130fcdc",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate g(x) at x = \u20131, 0, 1",
-      "content": "$$g(-1)=11(-1)+4=-11+4=-7$$<br/>$$g(0)=11(0)+4=0+4=4$$<br/>$$g(1)=11(1)+4=11+4=15$$"
-    },
-    {
-      "title": "Identify the matching table",
-      "content": "Only choice C lists the pairs (-1, -7), (0, 4), and (1, 15).<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a130fcdc", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Evaluate the value g(x) at x = –1, 0, 1", "content": "$$g(-1)=11(-1)+4=-11+4=-7$$<br/>$$g(0)=11(0)+4=0+4=4$$<br/>$$g(1)=11(1)+4=11+4=15$$"}, {"title": "Identify the matching table", "content": "Only choice C lists the pairs (-1, -7), (0, 4), and (1, 15).<br/>That matches choice C — <strong>C</strong> is correct."}]}

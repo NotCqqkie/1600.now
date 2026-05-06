@@ -1,15 +1,1 @@
-{
-  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_5",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the probability for room C using complementary probability",
-      "content": "Since every visitor is in exactly one of three rooms, the probabilities must sum to 1. We have:<br/><br/>$$P(\\text{A}) + P(\\text{B}) + P(\\text{C}) = 1$$<br/><br/>Substituting the given probabilities:<br/><br/>$$0.68 + 0.24 + P(\\text{C}) = 1$$<br/><br/>$$P(\\text{C}) = 1 - 0.68 - 0.24 = 0.08$$"
-    },
-    {
-      "title": "Convert probability to visitor count",
-      "content": "The number of visitors in room C equals the probability of room C times the total number of visitors:<br/><br/>$$\\text{Number in C} = P(\\text{C}) \\times \\text{Total} = 0.08 \\times 375$$<br/><br/>$$0.08 \\times 375 = \\frac{8}{100} \\times 375 = \\frac{3000}{100} = 30$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_5","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the favorable/total counts","content":"Total visitors $= 375$. Since every visitor is in room A, B, or C, the probabilities sum to 1. So $P(C) = 1 - 0.68 - 0.24 = 0.08$."},{"title":"Compute the probability","content":"Multiply by the total to get the count in room C:<br/>$$0.08 \\times 375 = 30$$<br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

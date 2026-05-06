@@ -1,15 +1,1 @@
-{
-  "questionId": "8637294f",
-  "correctAnswer": ".0625",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Divide the equations to eliminate variables",
-      "content": "Divide the first equation by the second:<br/>$$\\frac{\\frac{4a}{b}}{\\frac{a}{bn}} = \\frac{6.7}{26.8}$$<br/><br/>Invert and multiply on the left:<br/>$$\\frac{4a}{b} \\cdot \\frac{bn}{a} = \\frac{6.7}{26.8}$$<br/><br/>Cancel $a$ and $b$:<br/>$$4n = \\frac{6.7}{26.8}$$"
-    },
-    {
-      "title": "Divide by 4 and simplify the fraction",
-      "content": "$$n = \\frac{6.7}{4 \\times 26.8} = \\frac{6.7}{107.2} = \\frac{67}{1072}$$<br/><br/>Factor 1072 as $16 \\times 67$:<br/>$$n = \\frac{67}{16 \\times 67} = \\frac{1}{16} = 0.0625$$"
-    }
-  ]
-}
+{"questionId":"8637294f","correctAnswer":".0625","section":"Math","steps":[{"title":"Find a/b from the first equation","content":"From $\\dfrac{4a}{b}=6.7$: $\\dfrac{a}{b}=\\dfrac{6.7}{4}=1.675$."},{"title":"Combine and compute","content":"Rewrite $\\dfrac{a}{bn}=\\dfrac{a}{b}\\cdot\\dfrac{1}{n}=26.8$. Substitute: $1.675\\cdot\\dfrac{1}{n}=26.8$, so $\\dfrac{1}{n}=16$ and $n=\\dfrac{1}{16}=0.0625$.<br/><br/>The answer is <strong>0.0625</strong>."}]}

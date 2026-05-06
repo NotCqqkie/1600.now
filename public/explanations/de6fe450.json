@@ -1,15 +1,1 @@
-{
-  "questionId": "de6fe450",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract the starting wage and rate of change",
-      "content": "The minimum wage on January 1, 2015 is <strong>$9.25</strong> (at x=0). The wage increases by <strong>$0.50</strong> each subsequent year."
-    },
-    {
-      "title": "Write the linear function",
-      "content": "With initial value 9.25 and a yearly increase of 0.50:<br/><br/>$$f(x) = 9.25 + 0.50x$$<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "de6fe450", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Extract the starting wage and rate of change", "content": "The minimum wage on January 1, 2015 is <strong>\\$9.25</strong> (at x=0). The wage increases by <strong>\\$0.50</strong> each subsequent year."}, {"title": "Write the linear function", "content": "With initial value 9.25 and a yearly increase of 0.50:<br/><br/>$$f(x) = 9.25 + 0.50x$$<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

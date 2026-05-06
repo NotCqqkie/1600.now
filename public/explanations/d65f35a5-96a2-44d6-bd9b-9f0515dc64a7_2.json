@@ -1,15 +1,1 @@
-{
-  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2",
-  "correctAnswer": "61",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the angle relationship",
-      "content": "When two lines intersect at a point, they form four angles. The angles opposite each other are called <strong>vertical angles</strong> (or vertically opposite angles). From the figure, $r\u00b0$ and $s\u00b0$ are vertical angles."
-    },
-    {
-      "title": "Apply the vertical angles theorem",
-      "content": "The Vertical Angles Theorem states that vertical angles are congruent\u2014they have equal measures. Since $r$ and $s$ are vertical angles: <br/>$$s = r$$<br/> Substituting $r = 61$: $$s = 61$$<br/>That matches the expected result \u2014 $s = 61$."
-    }
-  ]
-}
+{"questionId":"d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2","correctAnswer":"61","section":"Math","steps":[{"title":"Identify vertical angles","content":"Two intersecting lines form four angles. From the figure, $r$ and $s$ sit opposite each other at the vertex, so they are <strong>vertical angles</strong>."},{"title":"Apply the vertical angles theorem","content":"Vertical angles are equal, so $s=r=61$.<br/>The answer is <strong>61</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "042aa429",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate f(2) and g(2) by substitution",
-      "content": "Substitute $x = 2$ into each function.<br/><br/>$$f(2) = 2 + 7 = 9$$<br/><br/>$$g(2) = 7(2) = 14$$"
-    },
-    {
-      "title": "Compute 4f(2) - g(2)",
-      "content": "Substitute these values into the expression:<br/><br/>$$4f(2) - g(2) = 4(9) - 14 = 36 - 14 = 22$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"042aa429","correctAnswer":"C","section":"Math","steps":[{"title":"Evaluate each function at x = 2","content":"Substitute $x=2$: $f(2)=2+7=9$ and $g(2)=7(2)=14$."},{"title":"Combine and compute","content":"$4f(2)-g(2)=4(9)-14=36-14=22$.<br/><br/>The answer is <strong>C</strong>."}]}

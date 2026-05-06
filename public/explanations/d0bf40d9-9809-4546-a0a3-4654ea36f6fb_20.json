@@ -1,15 +1,1 @@
-{
-  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_20",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Observe: same numerator, different denominators",
-      "content": "Both sides have numerator $x - 16$ but different denominators (27 and 9). If the numerator were nonzero, then $\\frac{x-16}{27}$ and $\\frac{x-16}{9}$ would be different values. The only way they can be equal is if the numerator equals zero: $$x - 16 = 0$$"
-    },
-    {
-      "title": "Solve for x and find x + 16",
-      "content": "From $x - 16 = 0$, we get $x = 16$. Therefore: $$x + 16 = 16 + 16 = 32$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d0bf40d9-9809-4546-a0a3-4654ea36f6fb_20","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the equality from the given condition","content":"Equal fractions with different denominators force $x-16=0$, so $x=16$."},{"title":"Compute the target value","content":"Then $x+16 = 32$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

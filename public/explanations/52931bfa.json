@@ -1,15 +1,1 @@
-{
-  "questionId": "52931bfa",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out the common factor in the numerator",
-      "content": "In the numerator $8x(x-7) - 3(x-7)$, both terms contain $(x-7)$ as a factor. Factor it out:<br/><br/>$$8x(x-7) - 3(x-7) = (x-7)(8x-3)$$<br/><br/>The denominator factors as:<br/><br/>$$2x - 14 = 2(x-7)$$<br/><br/>So the original expression becomes:<br/><br/>$$\\frac{(x-7)(8x-3)}{2(x-7)}$$"
-    },
-    {
-      "title": "Cancel the common factor and simplify",
-      "content": "Since $x > 7$, we know $x - 7 \\neq 0$, so the $(x-7)$ factor cancels:<br/><br/>$$\\frac{(x-7)(8x-3)}{2(x-7)} = \\frac{8x-3}{2}$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "52931bfa", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "Factor $(x-7)$ from the numerator and $2$ from the denominator, then cancel: $$\\frac{(8x-3)(x-7)}{2(x-7)}=\\frac{8x-3}{2}.$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

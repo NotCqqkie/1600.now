@@ -118,7 +118,7 @@ const SatPercentileCalculator = () => {
               <div className="text-lg font-semibold">{result.tier}</div>
             </div>
             <div>
-              <div className="text-sm text-muted-foreground">You scored higher than</div>
+              <div className="text-sm text-muted-foreground">You scored at or above</div>
               <div className="text-lg">
                 ~{result.betterThan}% of Digital SAT test takers.
               </div>

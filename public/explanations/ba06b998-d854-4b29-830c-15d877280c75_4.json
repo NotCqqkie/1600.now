@@ -1,15 +1,1 @@
-{
-  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_4",
-  "correctAnswer": "24",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out 8 from the target expression",
-      "content": "The expression $56 + 8x$ can be rewritten by factoring out 8: $$56 + 8x = 8(7 + x)$$"
-    },
-    {
-      "title": "Substitute and evaluate",
-      "content": "We're given that $7 + x = 3$. Substituting into our factored form: $$8(7 + x) = 8(3) = 24$$"
-    }
-  ]
-}
+{"questionId":"ba06b998-d854-4b29-830c-15d877280c75_4","correctAnswer":"24","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $56+8x = 8(7+x)$, and $7+x=3$."},{"title":"Compute the target value","content":"So $56+8x = 8 \\cdot 3 = 24$. The answer is <strong>24</strong>."}]}

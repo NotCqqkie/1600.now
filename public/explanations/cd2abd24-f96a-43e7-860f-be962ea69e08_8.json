@@ -1,16 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_8",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept",
-      "content": "The given point $(0, 80)$ has $x = 0$, which means it lies on the y-axis. This point is the y-intercept of line $r$, so $b = 80$."
-    },
-    {
-      "title": "Apply slope-intercept form",
-      "content": "With slope $m = -3$ and y-intercept $b = 80$, the equation is:<br/><br/>$$y = -3x + 80$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$y = mx + b$$"
-    }
-  ]
-}
+{"questionId":"cd2abd24-f96a-43e7-860f-be962ea69e08_8","correctAnswer":"A","section":"Math","steps":[{"title":"Plug the slope and point into $y=mx+b$","content":"With $m=-3$ and the point $(0,80)$: $$80=-3(0)+b=b.$$"},{"title":"Solve for $b$ and write the equation","content":"So $b=80$, giving $$y=-3x+80.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

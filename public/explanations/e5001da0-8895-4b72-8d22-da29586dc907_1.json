@@ -1,15 +1,1 @@
-{
-  "questionId": "e5001da0-8895-4b72-8d22-da29586dc907_1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply slope-intercept form with slope 5",
-      "content": "For a linear function with slope 5, the equation is $y = 5x + b$. Looking at the answer choices, only choice D has the correct slope coefficient of 5."
-    },
-    {
-      "title": "Substitute the point (2, 47) to find the y-intercept",
-      "content": "Substitute $x = 2$ and $y = 47$ into $y = 5x + b$:<br/>$$47 = 5(2) + b$$<br/>$$47 = 10 + b$$<br/>$$b = 37$$<br/>Therefore, $g(x) = 5x + 37$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e5001da0-8895-4b72-8d22-da29586dc907_1","correctAnswer":"D","section":"Math","steps":[{"title":"Use point-slope form","content":"With slope $5$ through $(2,47)$: $y-47=5(x-2)$, which rearranges to $g(x)=5x+b$."},{"title":"Solve for the unknown","content":"Plugging $(2,47)$: $47=5(2)+b\\Rightarrow b=37$, so $g(x)=5x+37$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

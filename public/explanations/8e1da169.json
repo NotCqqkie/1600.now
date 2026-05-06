@@ -1,15 +1,1 @@
-{
-  "questionId": "8e1da169",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the factored quadratic",
-      "content": "The function $f(x) = (x-44)(x-46)$ is a quadratic in factored form with roots at $x = 44$ and $x = 46$. Since multiplying the $x$ terms gives $x^2$ with a positive coefficient, the parabola opens upward."
-    },
-    {
-      "title": "Find the minimum using the axis of symmetry",
-      "content": "For an upward-opening parabola, the minimum occurs at the axis of symmetry, which lies at the midpoint between the two roots:\n\n$$x = \\frac{44 + 46}{2} = \\frac{90}{2} = 45$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8e1da169","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the roots","content":"$f(x)=(x-44)(x-46)$ has roots $x=44$ and $x=46$."},{"title":"Apply the new function definition","content":"The vertex of an upward parabola lies midway: $$x = \\tfrac{44+46}{2} = 45.$$"},{"title":"Compute the answer","content":"So the minimum occurs at $x=45$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

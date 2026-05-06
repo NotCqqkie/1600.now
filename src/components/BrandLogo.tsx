@@ -10,6 +10,8 @@ interface BrandLogoProps {
   collapsed?: boolean;
 }
 
+const highPriorityImageProps = { fetchpriority: "high" } as const;
+
 export const BrandLogo = ({
   className,
   imageClassName,
@@ -45,7 +47,7 @@ export const BrandLogo = ({
             )}
             loading="eager"
             decoding="sync"
-            fetchPriority="high"
+            {...highPriorityImageProps}
           />
           <img
             src={markSrc}
@@ -57,7 +59,7 @@ export const BrandLogo = ({
             )}
             loading="eager"
             decoding="sync"
-            fetchPriority="high"
+            {...highPriorityImageProps}
           />
         </>
       ) : (
@@ -70,7 +72,7 @@ export const BrandLogo = ({
           )}
           loading="eager"
           decoding="sync"
-          fetchPriority="high"
+          {...highPriorityImageProps}
         />
       )}
     </span>

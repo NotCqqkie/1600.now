@@ -1,16 +1,1 @@
-{
-  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_22",
-  "correctAnswer": "1/12,.0833",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply Vieta's formula for sum of roots",
-      "content": "For the quadratic $24x^2 - (12a+2b)x + ab = 0$, the sum of solutions equals $-\\frac{B}{A}$ where $A = 24$ and $B = -(12a+2b)$.<br/><br/>$$\\text{Sum} = -\\frac{-(12a+2b)}{24} = \\frac{12a+2b}{24}$$",
-      "formula": "$$\\text{Sum of roots} = -\\frac{B}{A}$$"
-    },
-    {
-      "title": "Simplify to find k",
-      "content": "Factor out 2 from the numerator and reduce:<br/><br/>$$\\frac{12a+2b}{24} = \\frac{2(6a+b)}{24} = \\frac{6a+b}{12} = \\frac{1}{12}(6a+b)$$<br/><br/>Matching the form $k(6a+b)$, we have $k = \\frac{1}{12} = 0.0833...$"
-    }
-  ]
-}
+{"questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_22", "correctAnswer": "1/12,.0833", "section": "Math", "steps": [{"title": "Apply Vieta's formula for sum of roots", "content": "For the quadratic $24x^2 - (12a+2b)x + ab = 0$, the sum of solutions equals $-\\frac{B}{A}$ where $A = 24$ and $B = -(12a+2b)$.<br/><br/>$$\\text{Sum} = -\\frac{-(12a+2b)}{24} = \\frac{12a+2b}{24}$$", "formula": "$$\\text{Sum of roots} = -\\frac{B}{A}$$"}, {"title": "Simplify to find k", "content": "Factor out 2 from the numerator and reduce:<br/><br/>$$\\frac{12a+2b}{24} = \\frac{2(6a+b)}{24} = \\frac{6a+b}{12} = \\frac{1}{12}(6a+b)$$<br/><br/>Matching the form $k(6a+b)$, we have $k = \\frac{1}{12} = 0.0833...$<br/><br/>Equivalent forms accepted: <strong>1/12</strong>, <strong>.0833</strong>."}]}

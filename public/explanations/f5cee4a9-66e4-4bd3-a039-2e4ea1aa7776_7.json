@@ -1,15 +1,1 @@
-{
-  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_7",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given value into the equation",
-      "content": "We know $d = 12$. Substitute into the equation $2.5c + 5d = 60$:<br/>$$2.5c + 5(12) = 60$$<br/>$$2.5c + 60 = 60$$"
-    },
-    {
-      "title": "Solve for the number of cats",
-      "content": "Subtract 60 from both sides:<br/>$$2.5c = 0$$<br/>Divide by 2.5:<br/>$$c = 0$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_7", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value", "content": "Plug $d=12$ into $2.5c+5d=60$ to get $$2.5c+5(12)=60.$$"}, {"title": "Solve for the variable", "content": "Simplify to $2.5c+60=60$, so $2.5c=0$ and $c=0$."}, {"title": "Match the choice", "content": "The business can care for $0$ cats. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

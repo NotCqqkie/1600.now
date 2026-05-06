@@ -44,7 +44,6 @@ const ScoreGoalPage = () => {
   if (!page) return <Navigate to="/" replace />;
 
   const url = `https://1600.now/${page.slug}`;
-  const pageMtime = new Date().toISOString().slice(0, 10);
 
   let faqs: { question: string; answer: string }[] = [];
   let body: ReactNode;
@@ -484,7 +483,6 @@ const ScoreGoalPage = () => {
             description: page.metaDescription,
             url,
             datePublished: SCORE_GOAL_PUBLISHED,
-            dateModified: pageMtime,
           }),
           buildFaqJsonLd(faqs),
         ]}

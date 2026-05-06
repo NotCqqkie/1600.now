@@ -1,15 +1,1 @@
-{
-  "questionId": "771bd0ca",
-  "correctAnswer": "-22",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out the common term (t+3)",
-      "content": "Notice that $(t+3)$ appears in both terms on the left side. Factor it out:<br/><br/>$$5(t+3)-7(t+3)=(5-7)(t+3)=-2(t+3)$$<br/><br/>The equation becomes:<br/>$$-2(t+3)=38$$"
-    },
-    {
-      "title": "Solve for t",
-      "content": "Divide both sides by $-2$:<br/>$$t+3=\\frac{38}{-2}=-19$$<br/><br/>Subtract 3 from both sides:<br/>$$t=-19-3=-22$$"
-    }
-  ]
-}
+{"questionId":"771bd0ca","correctAnswer":"-22","section":"Math","steps":[{"title":"Combine like terms","content":"Factor $(t+3)$ from the left: $5(t+3)-7(t+3)=-2(t+3)$, so $$-2(t+3)=38.$$"},{"title":"Solve for t","content":"Divide by $-2$: $t+3=-19$, then subtract $3$: $t=-22$. The answer is <strong>-22</strong>."}]}

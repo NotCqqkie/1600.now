@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by v^2 and divide by 49",
-      "content": "Starting with $49 = \\frac{2K}{v^2}$, multiply both sides by $v^2$ to clear the denominator:<br/><br/>$$49v^2 = 2K$$<br/><br/>Now divide both sides by 49 to isolate $v^2$:<br/><br/>$$v^2 = \\frac{2K}{49}$$"
-    },
-    {
-      "title": "Take the square root to solve for v",
-      "content": "Since $v$ is positive, take the positive square root of both sides:<br/><br/>$$v = \\sqrt{\\frac{2K}{49}}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Multiply both sides by $v^2$ and divide by 49", "content": "Starting with $49 = \\frac{2K}{v^2}$, multiply both sides by $v^2$ to clear the denominator:<br/><br/>$$49v^2 = 2K$$<br/><br/>Now divide both sides by 49 to isolate $v^2$:<br/><br/>$$v^2 = \\frac{2K}{49}$$"}, {"title": "Take the square root to solve for v", "content": "Since $v$ is positive, take the positive square root of both sides:<br/><br/>$$v = \\sqrt{\\frac{2K}{49}}$$<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

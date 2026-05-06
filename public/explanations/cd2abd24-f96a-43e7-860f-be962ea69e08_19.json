@@ -1,15 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_19",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor the difference of squares",
-      "content": "Using the identity $a^2 - b^2 = (a-b)(a+b)$, rewrite the first equation:<br/>$$x^2 - y^2 = (x - y)(x + y)$$<br/>Since the left side equals 39, we have<br/>$$(x - y)(x + y) = 39.$$"
-    },
-    {
-      "title": "Substitute the known difference",
-      "content": "We are given $x - y = 3$. Substitute into the factored form:<br/>$$3 \\cdot (x + y) = 39$$<br/>Divide both sides by 3:<br/>$$x + y = \\frac{39}{3} = 13.$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_19", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Factor the first equation: $x^{2}-y^{2}=(x-y)(x+y)$. Substitute $x-y=3$: $$3(x+y)=39.$$"}, {"title": "Find the value of $x + y$", "content": "Divide: $x+y=13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

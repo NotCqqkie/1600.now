@@ -1,15 +1,1 @@
-{
-  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_4",
-  "correctAnswer": "13",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x equals 36 into the function",
-      "content": "We need to find $f(36)$ where $f(x) = 7 + \\sqrt{x}$.<br/>Substitute $x = 36$:<br/>$$f(36) = 7 + \\sqrt{36}$$"
-    },
-    {
-      "title": "Evaluate the square root and compute the sum",
-      "content": "$\\sqrt{36} = 6$ (since $6^2 = 36$).<br/>Therefore:<br/>$$7 + 6 = 13$$<br/>We enter <strong>13</strong> in the grid."
-    }
-  ]
-}
+{"questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_4", "correctAnswer": "13", "section": "Math", "steps": [{"title": "Substitute the value x = 36", "content": "Replace $x$ with $36$ in $$f(x) = 7 + \\sqrt{x}.$$ This gives $$f(36) = 7 + \\sqrt{36}.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(36) = 7 + 6 = 13.$$ The answer is <strong>13</strong>."}]}

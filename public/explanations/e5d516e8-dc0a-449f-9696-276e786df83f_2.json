@@ -1,15 +1,1 @@
-{
-  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_2",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the greatest common factor",
-      "content": "Examine the terms $7x^5$, $-5x^4$, and $9x^3$. The coefficients (7, 5, 9) share no common factor. The powers of $x$ are $x^5$, $x^4$, and $x^3$, so the greatest common factor is $x^3$."
-    },
-    {
-      "title": "Factor out the GCF",
-      "content": "When we factor out $x^3$ from each term:<br/><ul><li>$7x^5 \\div x^3 = 7x^2$</li><li>$-5x^4 \\div x^3 = -5x$</li><li>$9x^3 \\div x^3 = 9$</li></ul><br/>Therefore: $7x^5 - 5x^4 + 9x^3 = x^3(7x^2 - 5x + 9)$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e5d516e8-dc0a-449f-9696-276e786df83f_2","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $x^3$. Factor it out:$$7x^5-5x^4+9x^3=x^3(7x^2-5x+9)$$"},{"title":"Match to the answer choices","content":"The factored form is $x^3(7x^2-5x+9)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

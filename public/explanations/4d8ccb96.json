@@ -1,15 +1,1 @@
-{
-  "questionId": "4d8ccb96",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Salt from each mixture",
-      "content": "Low\u2011salt mixture: 2% of x kg \u2192 $$0.02x$$ kg salt.<br/>High\u2011salt mixture: 96% of y kg \u2192 $$0.96y$$ kg salt."
-    },
-    {
-      "title": "Total salt required",
-      "content": "Desired mixture: 24 kg at 4% salt \u2192 total salt needed = $$0.04\times24$$ kg.<br/>Set sum of contributions equal to required salt: $$0.02x+0.96y = 0.04\times24$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4d8ccb96", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Salt from each mixture", "content": "Low‑salt mixture: 2% of x kg → $$0.02x$$ kg salt.<br/>High‑salt mixture: 96% of y kg → $$0.96y$$ kg salt."}, {"title": "Total salt required", "content": "Desired mixture: 24 kg at 4% salt → total salt needed = $$0.04\\times24$$ kg.<br/>Set sum of contributions equal to required salt: $$0.02x+0.96y = 0.04\\times24$$.<br/>That matches choice B — <strong>B</strong> is correct."}]}

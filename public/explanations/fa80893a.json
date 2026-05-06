@@ -1,15 +1,1 @@
-{
-  "questionId": "fa80893a",
-  "correctAnswer": "17",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the variable term",
-      "content": "From $2x + 3 = 9$, subtract 3 from both sides:<br/>$$2x = 6$$"
-    },
-    {
-      "title": "Find 6x and evaluate",
-      "content": "Since $6x = 3 \\cdot 2x$ and $2x = 6$:<br/>$$6x = 3 \\cdot 6 = 18$$<br/>Subtracting 1:<br/>$$6x - 1 = 18 - 1 = 17$$"
-    }
-  ]
-}
+{"questionId":"fa80893a","correctAnswer":"17","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"From $2x+3=9$ we get $2x=6$, so $x=3$."},{"title":"Compute the target value","content":"Then $6x-1 = 18-1 = 17$. The answer is <strong>17</strong>."}]}

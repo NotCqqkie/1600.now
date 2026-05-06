@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Identify the price relationship",
-      "content": "We're told that $x$ is the price of a ticket <strong>during</strong> the event, and the price during the event is $3 less than before. This means:<br/><br/>$$\\text{Price before event} = x + 3$$<br/><br/>We need this relationship to set up the revenue expressions correctly."
+      "content": "We're told that $x$ is the price of a ticket <strong>during</strong> the event, and the price during the event is \\$3 less than before. This means:<br/><br/>$$\\text{Price before event} = x + 3$$<br/><br/>We need this relationship to set up the revenue expressions correctly."
     },
     {
       "title": "Build the revenue equation",

@@ -1,15 +1,1 @@
-{
-  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_10",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Parse the formula structure",
-      "content": "The formula $y = (73w)(w)$ is written as a product of two factors. Since the area of a rectangle equals length times width, and we know $y$ is the area, the two factors must be length and width. We're told $w$ is the width, so $(73w)$ must represent the length."
-    },
-    {
-      "title": "Match against the problem statement",
-      "content": "The problem says <em>the length is 73 times its width</em>. If width = $w$, then length = $73w$. This directly confirms that $73w$ is the length of the rectangle, in feet. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a22baf87-f61e-43f7-b868-52cf0e05d234_10","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the dimensions","content":"Width is $w$ feet. The length is $73$ times the width, so length $=73w$ feet. Area $=$ length $\\times$ width gives $$y=(73w)(w).$$"},{"title":"Interpret the factor","content":"In $(73w)(w)$, the factor $w$ is the width, so $(73w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

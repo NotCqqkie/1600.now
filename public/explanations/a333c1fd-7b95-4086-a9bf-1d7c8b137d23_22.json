@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key relationship",
-      "content": "<strong>Chile</strong> is a proper noun that directly specifies which member/nation the sentence is referring to. This is essential information, not a side comment or optional detail."
-    },
-    {
-      "title": "Match the punctuation to the relationship",
-      "content": "When a proper noun directly specifies the preceding noun as essential information, Standard English uses no punctuation between them. <strong>\u201cNation Chile\u201d</strong> correctly omits punctuation. The other choices incorrectly add punctuation (comma, colon, em dash) that would signal extra or parenthetical information, which isn't appropriate when the proper noun is the essential identifier. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The phrase \"fellow OECD member <em>Chile</em>\" treats the country name as a restrictive appositive — it specifies which member nation is meant, so it must <em>not</em> be set off by punctuation."}, {"title": "Match to choices", "content": "Only the choice with no punctuation between \"nation\" and \"Chile\" is correct. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -25,9 +25,13 @@ import { Badge } from "@/components/ui/badge";
 import { InlineDesmos } from "@/components/InlineDesmos";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { renderMixedContent } from "@/lib/mathRendering";
+import {
+  BANK_COUNT_BY_OFFICIAL_SKILL,
+  BANK_TOTAL_PAST,
+} from "@/lib/bankTotals.generated";
 import "katex/dist/katex.min.css";
 
-const DEFAULT_QUESTION_BANK_TOTAL = 5880;
+const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_PAST;
 
 // Pinned to a real bank question: past/math/(x-4)^2+6, minimum value
 const DEMO_Q_SOURCE_ID = "6197d48e-7c76-4333-af39-0b9aa39e924c_21";
@@ -432,7 +436,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
             </div>
             <h2
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: "clamp(40px, 5.5vw, 68px)",
                 lineHeight: 0.98,
                 letterSpacing: "-0.025em",
@@ -442,7 +446,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
             >
               See how every
               <br />
-              <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
+              <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>
                 answer is built.
               </em>
             </h2>
@@ -471,7 +475,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
                 border: "none",
                 cursor: "pointer",
                 padding: 0,
-                fontFamily: "'Outfit', sans-serif",
+                fontFamily: "'Geist', sans-serif",
               }}
             >
               Open question bank
@@ -538,23 +542,26 @@ type SkillEntry = {
   subject: SubjectPill;
 };
 
+const skillCount = (officialSkill: string): number =>
+  BANK_COUNT_BY_OFFICIAL_SKILL[officialSkill] ?? 0;
+
 const SKILL_ORBIT: SkillEntry[] = [
-  { label: "Linear functions",       bankSkill: "Linear functions",                                                   bankDomain: "Algebra",                            count: 612, subject: "math" },
-  { label: "Nonlinear functions",    bankSkill: "Nonlinear functions",                                                bankDomain: "Advanced Math",                      count: 548, subject: "math" },
-  { label: "Equivalent expressions", bankSkill: "Equivalent expressions",                                             bankDomain: "Advanced Math",                      count: 421, subject: "math" },
-  { label: "Ratios & rates",         bankSkill: "Ratios, rates, proportional relationships, and units",               bankDomain: "Problem-Solving and Data Analysis",  count: 376, subject: "math" },
-  { label: "Percentages",            bankSkill: "Percentages",                                                        bankDomain: "Problem-Solving and Data Analysis",  count: 289, subject: "math" },
-  { label: "One-variable data",      bankSkill: "One-variable data: Distributions and measures of center and spread", bankDomain: "Problem-Solving and Data Analysis",  count: 312, subject: "math" },
-  { label: "Probability",            bankSkill: "Probability and conditional probability",                             bankDomain: "Problem-Solving and Data Analysis",  count: 244, subject: "math" },
-  { label: "Area & volume",          bankSkill: "Area and volume",                                                    bankDomain: "Geometry and Trigonometry",          count: 268, subject: "math" },
-  { label: "Right triangles",        bankSkill: "Right triangles and trigonometry",                                   bankDomain: "Geometry and Trigonometry",          count: 231, subject: "math" },
-  { label: "Circles",                bankSkill: "Circles",                                                            bankDomain: "Geometry and Trigonometry",          count: 198, subject: "math" },
-  { label: "Words in Context",       bankSkill: "Words in Context",                                                   bankDomain: "Craft and Structure",                count: 487, subject: "reading" },
-  { label: "Transitions",            bankSkill: "Transitions",                                                        bankDomain: "Expression of Ideas",               count: 403, subject: "reading" },
-  { label: "Inferences",             bankSkill: "Inferences",                                                         bankDomain: "Information and Ideas",             count: 356, subject: "reading" },
-  { label: "Boundaries",             bankSkill: "Boundaries",                                                         bankDomain: "Standard English Conventions",       count: 298, subject: "reading" },
-  { label: "Form & Structure",       bankSkill: "Form, Structure, and Sense",                                         bankDomain: "Standard English Conventions",       count: 342, subject: "reading" },
-  { label: "Central Ideas",          bankSkill: "Central Ideas and Details",                                          bankDomain: "Information and Ideas",             count: 274, subject: "reading" },
+  { label: "Linear functions",       bankSkill: "Linear functions",                                                   bankDomain: "Algebra",                            count: skillCount("Linear functions"),                                                   subject: "math" },
+  { label: "Nonlinear functions",    bankSkill: "Nonlinear functions",                                                bankDomain: "Advanced Math",                      count: skillCount("Nonlinear functions"),                                                subject: "math" },
+  { label: "Equivalent expressions", bankSkill: "Equivalent expressions",                                             bankDomain: "Advanced Math",                      count: skillCount("Equivalent expressions"),                                             subject: "math" },
+  { label: "Ratios & rates",         bankSkill: "Ratios, rates, proportional relationships, and units",               bankDomain: "Problem-Solving and Data Analysis",  count: skillCount("Ratios, rates, proportional relationships, and units"),               subject: "math" },
+  { label: "Percentages",            bankSkill: "Percentages",                                                        bankDomain: "Problem-Solving and Data Analysis",  count: skillCount("Percentages"),                                                        subject: "math" },
+  { label: "One-variable data",      bankSkill: "One-variable data: Distributions and measures of center and spread", bankDomain: "Problem-Solving and Data Analysis",  count: skillCount("One-variable data: Distributions and measures of center and spread"), subject: "math" },
+  { label: "Probability",            bankSkill: "Probability and conditional probability",                            bankDomain: "Problem-Solving and Data Analysis",  count: skillCount("Probability and conditional probability"),                            subject: "math" },
+  { label: "Area & volume",          bankSkill: "Area and volume",                                                    bankDomain: "Geometry and Trigonometry",          count: skillCount("Area and volume"),                                                    subject: "math" },
+  { label: "Right triangles",        bankSkill: "Right triangles and trigonometry",                                   bankDomain: "Geometry and Trigonometry",          count: skillCount("Right triangles and trigonometry"),                                   subject: "math" },
+  { label: "Circles",                bankSkill: "Circles",                                                            bankDomain: "Geometry and Trigonometry",          count: skillCount("Circles"),                                                            subject: "math" },
+  { label: "Words in Context",       bankSkill: "Words in Context",                                                   bankDomain: "Craft and Structure",                count: skillCount("Words in Context"),                                                   subject: "reading" },
+  { label: "Transitions",            bankSkill: "Transitions",                                                        bankDomain: "Expression of Ideas",                count: skillCount("Transitions"),                                                        subject: "reading" },
+  { label: "Inferences",             bankSkill: "Inferences",                                                         bankDomain: "Information and Ideas",              count: skillCount("Inferences"),                                                         subject: "reading" },
+  { label: "Boundaries",             bankSkill: "Boundaries",                                                         bankDomain: "Standard English Conventions",       count: skillCount("Boundaries"),                                                         subject: "reading" },
+  { label: "Form & Structure",       bankSkill: "Form, Structure, and Sense",                                         bankDomain: "Standard English Conventions",       count: skillCount("Form, Structure, and Sense"),                                         subject: "reading" },
+  { label: "Central Ideas",          bankSkill: "Central Ideas and Details",                                          bankDomain: "Information and Ideas",              count: skillCount("Central Ideas and Details"),                                          subject: "reading" },
 ];
 
 const DIFFICULTY_COLORS: Record<DifficultyPill, { bg: string; border: string; text: string }> = {
@@ -655,7 +662,7 @@ const FilterFeatureSection = memo(({
         <div className="text-center mb-10">
           <h2
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(30px, 4vw, 52px)",
               lineHeight: 1,
               letterSpacing: "-0.025em",
@@ -664,7 +671,7 @@ const FilterFeatureSection = memo(({
             }}
           >
             Every question,{" "}
-            <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
+            <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>
               instantly filterable.
             </em>
           </h2>
@@ -698,6 +705,21 @@ const FilterFeatureSection = memo(({
                   borderColor: active ? colors.border : isDarkMode ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.12)",
                   color: active ? colors.text : "hsl(var(--muted-foreground))",
                   boxShadow: active ? `0 0 0 2px ${colors.border}` : "none",
+                }}
+                onMouseEnter={(e) => {
+                  const el = e.currentTarget;
+                  if (active) {
+                    el.style.filter = "brightness(0.92)";
+                  } else {
+                    el.style.background = isDarkMode ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.06)";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  const el = e.currentTarget;
+                  el.style.filter = "";
+                  el.style.background = active
+                    ? colors.bg
+                    : isDarkMode ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.03)";
                 }}
               >
                 {d.charAt(0).toUpperCase() + d.slice(1)}
@@ -746,6 +768,20 @@ const FilterFeatureSection = memo(({
                     : isDarkMode
                     ? "0 2px 6px rgba(0,0,0,0.25)"
                     : "0 2px 6px rgba(15,23,42,0.06)",
+                }}
+                onMouseEnter={(e) => {
+                  const el = e.currentTarget;
+                  if (active) {
+                    el.style.background = isDarkMode ? "rgba(125,211,252,0.28)" : "rgba(56,189,248,0.2)";
+                  } else {
+                    el.style.background = isDarkMode ? "rgba(125,211,252,0.1)" : "rgba(56,189,248,0.08)";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  const el = e.currentTarget;
+                  el.style.background = active
+                    ? isDarkMode ? "rgba(125,211,252,0.18)" : "rgba(56,189,248,0.12)"
+                    : isDarkMode ? "rgba(20,30,48,0.6)" : "rgba(255,255,255,0.85)";
                 }}
               >
                 <span>{chip.label}</span>
@@ -1225,7 +1261,7 @@ const FeatureRow = memo(({
         </div>
         <h2
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(40px, 5.5vw, 68px)",
             lineHeight: 0.98,
             letterSpacing: "-0.025em",
@@ -1235,7 +1271,7 @@ const FeatureRow = memo(({
         >
           {title}
           <br />
-          <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
+          <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>
             {titleEm}
           </em>
         </h2>
@@ -1266,7 +1302,7 @@ const FeatureRow = memo(({
             border: "none",
             cursor: "pointer",
             padding: 0,
-            fontFamily: "'Outfit', sans-serif",
+            fontFamily: "'Geist', sans-serif",
           }}
         >
           {ctaLabel}
@@ -1291,49 +1327,6 @@ const FeatureRow = memo(({
 });
 FeatureRow.displayName = "FeatureRow";
 
-// ─── Rotating typewriter subtitle ──────────────────────────────────────────
-
-const ROTATING_PHRASES = [
-  "No paywalls.",
-  "No account required.",
-  "Built from real tests.",
-];
-
-const RotatingSubtitle = memo(() => {
-  const [text, setText] = useState("");
-  const [phraseIdx, setPhraseIdx] = useState(0);
-  const [phase, setPhase] = useState<"typing" | "hold" | "deleting">("typing");
-
-  useEffect(() => {
-    const phrase = ROTATING_PHRASES[phraseIdx];
-    if (phase === "typing") {
-      if (text.length < phrase.length) {
-        const t = setTimeout(() => setText(phrase.slice(0, text.length + 1)), 55);
-        return () => clearTimeout(t);
-      }
-      const t = setTimeout(() => setPhase("hold"), 1700);
-      return () => clearTimeout(t);
-    }
-    if (phase === "hold") {
-      setPhase("deleting");
-      return;
-    }
-    if (text.length > 0) {
-      const t = setTimeout(() => setText(text.slice(0, -1)), 28);
-      return () => clearTimeout(t);
-    }
-    setPhraseIdx((i) => (i + 1) % ROTATING_PHRASES.length);
-    setPhase("typing");
-  }, [text, phase, phraseIdx]);
-
-  return (
-    <span style={{ display: "inline-block", minWidth: "1ch" }}>
-      {text}
-      <span className="typewriter-cursor" aria-hidden>|</span>
-    </span>
-  );
-});
-RotatingSubtitle.displayName = "RotatingSubtitle";
 
 // ─── Slot-machine digit counter ────────────────────────────────────────────
 
@@ -1362,26 +1355,21 @@ const SlotDigit = memo(({ digit, delay }: { digit: number; delay: number }) => (
 ));
 SlotDigit.displayName = "SlotDigit";
 
-const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 1600 }: { value: number; startValue?: number; countDuration?: number }) => {
+const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 2000 }: { value: number; startValue?: number; countDuration?: number }) => {
   const [displayed, setDisplayed] = useState(startValue);
   const rafRef = useRef<number>(0);
 
   useEffect(() => {
-    const delay = setTimeout(() => {
-      const begin = performance.now();
-      const range = value - startValue;
-      const tick = (now: number) => {
-        const t = Math.min((now - begin) / countDuration, 1);
-        const eased = t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
-        setDisplayed(Math.round(startValue + range * eased));
-        if (t < 1) rafRef.current = requestAnimationFrame(tick);
-      };
-      rafRef.current = requestAnimationFrame(tick);
-    }, 400);
-    return () => {
-      clearTimeout(delay);
-      cancelAnimationFrame(rafRef.current);
+    const begin = performance.now();
+    const range = value - startValue;
+    const tick = (now: number) => {
+      const t = Math.min((now - begin) / countDuration, 1);
+      const eased = 1 - Math.pow(1 - t, 3);
+      setDisplayed(Math.round(startValue + range * eased));
+      if (t < 1) rafRef.current = requestAnimationFrame(tick);
     };
+    rafRef.current = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(rafRef.current);
   }, [value, startValue, countDuration]);
 
   return (
@@ -1562,7 +1550,7 @@ const ScoreDialSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           </div>
           <h2
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(40px, 5.5vw, 68px)",
               lineHeight: 0.98,
               letterSpacing: "-0.025em",
@@ -1572,7 +1560,7 @@ const ScoreDialSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           >
             Know exactly where
             <br />
-            <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>you stand.</em>
+            <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>you stand.</em>
           </h2>
           <div style={{ position: "relative", display: "inline-block" }}>
             <svg
@@ -1681,7 +1669,7 @@ const ScoreDialSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
               fontSize: 14,
               border: "none",
               cursor: "pointer",
-              fontFamily: "'Outfit', sans-serif",
+              fontFamily: "'Geist', sans-serif",
               transition: "background 0.15s",
             }}
             onMouseEnter={(e) => ((e.currentTarget as HTMLButtonElement).style.background = "hsl(201,100%,36%)")}
@@ -1704,6 +1692,15 @@ const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const COLS = 26;
   const ROWS = 7;
   const TOTAL = COLS * ROWS;
+
+  const [hoveredCell, setHoveredCell] = useState<{ idx: number; x: number; y: number } | null>(null);
+
+  useEffect(() => {
+    if (hoveredCell === null) return;
+    const dismiss = () => setHoveredCell(null);
+    window.addEventListener("scroll", dismiss, { passive: true, capture: true });
+    return () => window.removeEventListener("scroll", dismiss, { capture: true });
+  }, [hoveredCell]);
 
   const intensities = useMemo(() => {
     const seedRand = (seed: number) => {
@@ -1790,7 +1787,7 @@ const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           </div>
           <h2
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(40px, 5.5vw, 68px)",
               lineHeight: 0.98,
               letterSpacing: "-0.025em",
@@ -1800,7 +1797,7 @@ const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           >
             A little every day,
             <br />
-            <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>adds up fast.</em>
+            <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>adds up fast.</em>
           </h2>
           <p
             style={{
@@ -1827,7 +1824,7 @@ const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
               border: "none",
               cursor: "pointer",
               padding: 0,
-              fontFamily: "'Outfit', sans-serif",
+              fontFamily: "'Geist', sans-serif",
             }}
           >
             Start a streak
@@ -1840,6 +1837,7 @@ const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
               display: "grid",
               gridTemplateColumns: `repeat(${COLS}, 1fr)`,
               gap: 4,
+              position: "relative",
             }}
           >
             {Array.from({ length: COLS * ROWS }).map((_, idx) => {
@@ -1856,18 +1854,66 @@ const StreakHeatmapSection = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
                 const lightness = 75 - v * 28;
                 color = `hsla(201, 100%, ${lightness}%, ${alpha})`;
               }
+              const daysAgo = TOTAL - 1 - visitOrder;
+              const cellDate = new Date(Date.now() - daysAgo * 86400000);
+              const questions = visible && v > 0 ? Math.max(1, Math.round(v * 22)) : 0;
+              const isFilled = visible && v > 0;
               return (
                 <div
                   key={idx}
+                  onMouseEnter={isFilled ? (e) => {
+                    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+                    setHoveredCell({ idx: visitOrder, x: rect.left + rect.width / 2, y: rect.top });
+                  } : undefined}
+                  onMouseLeave={isFilled ? () => setHoveredCell(null) : undefined}
                   style={{
                     aspectRatio: "1 / 1",
                     background: color,
                     borderRadius: 3,
                     transition: "background 0.4s cubic-bezier(0.22, 1, 0.36, 1)",
+                    cursor: isFilled ? "default" : undefined,
                   }}
+                  data-visit={visitOrder}
+                  data-date={cellDate.toISOString().slice(0, 10)}
+                  data-questions={questions}
                 />
               );
             })}
+            {hoveredCell !== null && (() => {
+              const daysAgo = TOTAL - 1 - hoveredCell.idx;
+              const cellDate = new Date(Date.now() - daysAgo * 86400000);
+              const v = intensities[hoveredCell.idx];
+              const questions = v > 0 ? Math.max(1, Math.round(v * 22)) : 0;
+              const dateStr = cellDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+              return (
+                <div
+                  style={{
+                    position: "fixed",
+                    left: hoveredCell.x,
+                    top: hoveredCell.y - 8,
+                    transform: "translate(-50%, -100%)",
+                    background: isDarkMode ? "rgba(15,23,42,0.95)" : "rgba(255,255,255,0.97)",
+                    border: `1px solid ${isDarkMode ? "rgba(255,255,255,0.1)" : "rgba(15,23,42,0.1)"}`,
+                    borderRadius: 8,
+                    padding: "7px 11px",
+                    fontSize: 12,
+                    fontWeight: 500,
+                    color: isDarkMode ? "rgba(255,255,255,0.85)" : "rgba(15,23,42,0.85)",
+                    whiteSpace: "nowrap",
+                    pointerEvents: "none",
+                    zIndex: 9999,
+                    boxShadow: "0 4px 16px rgba(0,0,0,0.18)",
+                    fontFamily: "'Geist', sans-serif",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  <div style={{ color: "hsl(201,100%,65%)", fontWeight: 600, marginBottom: 2 }}>
+                    {questions === 0 ? "No questions" : `${questions} question${questions === 1 ? "" : "s"}`}
+                  </div>
+                  <div style={{ opacity: 0.65, fontSize: 11 }}>{dateStr}</div>
+                </div>
+              );
+            })()}
           </div>
           <div
             style={{
@@ -1969,25 +2015,14 @@ const Home = () => {
       .float-sym {
         position: absolute;
         bottom: -80px;
-        font-family: 'Instrument Serif', Georgia, serif;
+        font-family: 'Geist', Georgia, serif;
         font-style: italic;
         animation: floatSymUp linear infinite;
         pointer-events: none;
         user-select: none;
         will-change: transform, opacity;
       }
-      @keyframes typewriterBlink {
-        0%, 49%   { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
-      .typewriter-cursor {
-        display: inline-block;
-        margin-left: 2px;
-        font-weight: 200;
-        color: hsl(201,100%,70%);
-        animation: typewriterBlink 1s step-end infinite;
-      }
-      .chip-cascade {
+.chip-cascade {
         opacity: 0;
         transform: translateY(14px);
         transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
@@ -2092,7 +2127,7 @@ const Home = () => {
   return (
     <div
       className="min-h-screen flex flex-col"
-      style={{ fontFamily: "'Outfit', sans-serif" }}
+      style={{ fontFamily: "'Geist', sans-serif" }}
     >
       <header
         className={`sticky top-0 z-20 border-b transition-[background-color,border-color,box-shadow,backdrop-filter] duration-300 ${
@@ -2256,43 +2291,42 @@ const Home = () => {
           <h1
             className="h-fade-2"
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
-              fontSize: "clamp(54px, 9.5vw, 112px)",
-              lineHeight: 0.94,
+              fontFamily: "'Geist', sans-serif",
+              fontWeight: 500,
+              fontSize: "clamp(44px, 6.2vw, 84px)",
+              lineHeight: 0.98,
               color: "hsl(var(--foreground))",
               margin: "0 0 26px",
-              letterSpacing: "-0.025em",
+              letterSpacing: "-0.035em",
             }}
           >
             Reach your
             <br />
-            <em
+            <strong
               style={{
-                fontStyle: "italic",
+                fontFamily: "'Geist', sans-serif",
+                fontWeight: isDarkMode ? 600 : 500,
                 color: "hsl(201,100%,80%)",
               }}
             >
               best score.
-            </em>
+            </strong>
           </h1>
 
           {/* Subtitle */}
           <p
             className="h-fade-3 home-subtitle"
             style={{
-              fontSize: "clamp(15px, 2.2vw, 19px)",
-              color: isDarkMode
-                ? "rgba(255,255,255,0.46)"
-                : "rgba(15,23,42,0.68)",
+              fontFamily: "'Geist', sans-serif",
+              fontSize: 19,
+              color: isDarkMode ? "#C8CFDC" : "rgba(15,23,42,0.68)",
               maxWidth: 460,
               margin: "0 auto 38px",
-              lineHeight: 1.65,
+              lineHeight: 1.55,
               fontWeight: 300,
             }}
           >
             Accurate SAT practice built from real past tests.
-            <br />
-            <RotatingSubtitle />
           </p>
 
           {/* CTAs */}
@@ -2320,7 +2354,7 @@ const Home = () => {
                 fontSize: 15,
                 border: "none",
                 cursor: "pointer",
-                fontFamily: "'Outfit', sans-serif",
+                fontFamily: "'Geist', sans-serif",
                 boxShadow:
                   isDarkMode
                     ? "0 0 36px rgba(125,211,252,0.28), 0 4px 18px rgba(0,0,0,0.22)"
@@ -2368,7 +2402,7 @@ const Home = () => {
                   ? "1px solid rgba(255,255,255,0.11)"
                   : "1px solid rgba(15,23,42,0.12)",
                 cursor: "pointer",
-                fontFamily: "'Outfit', sans-serif",
+                fontFamily: "'Geist', sans-serif",
                 transition: "background 0.14s, border-color 0.14s",
               }}
               onMouseEnter={(e) => {
@@ -2452,19 +2486,6 @@ const Home = () => {
             >
               An interface so easy, you can use it right here.
             </h2>
-            <p
-              className="home-demo-subtitle"
-              style={{
-                marginTop: 14,
-                fontSize: 16,
-                lineHeight: 1.55,
-                color: isDarkMode
-                  ? "rgba(255,255,255,0.6)"
-                  : "rgba(15,23,42,0.62)",
-              }}
-            >
-              Seriously &mdash; that window below is the real thing. Click around.
-            </p>
           </div>
 
           {/* Ambient glow behind the window */}
@@ -2543,7 +2564,7 @@ const Home = () => {
         <div style={{ maxWidth: 960, margin: "0 auto", textAlign: "center" }}>
           <h2
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(36px, 5vw, 60px)",
               fontWeight: 400,
               letterSpacing: "-0.025em",
@@ -2557,7 +2578,7 @@ const Home = () => {
             ) : (
               <>
                 Always{" "}
-                <em style={{ fontStyle: "italic", color: "hsl(201,100%,70%)" }}>
+                <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>
                   free.
                 </em>
               </>
@@ -2577,7 +2598,7 @@ const Home = () => {
               fontSize: 15,
               border: "none",
               cursor: "pointer",
-              fontFamily: "'Outfit', sans-serif",
+              fontFamily: "'Geist', sans-serif",
               boxShadow: isDarkMode
                 ? "0 0 36px rgba(125,211,252,0.28)"
                 : "0 10px 30px rgba(56,189,248,0.22)",

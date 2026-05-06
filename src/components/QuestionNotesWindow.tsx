@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { DraggableWindow } from "./DraggableWindow";
 
 interface QuestionNotesWindowProps {
@@ -23,17 +23,39 @@ export const QuestionNotesWindow = ({
   constrainToLeft,
 }: QuestionNotesWindowProps) => {
   const [note, setNote] = useState("");
+  const writeTimerRef = useRef<number | null>(null);
+  const pendingValueRef = useRef<string | null>(null);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     setNote(storageArea.getItem(storageKey) || "");
   }, [storageArea, storageKey]);
 
+  useEffect(() => {
+    return () => {
+      if (writeTimerRef.current !== null) {
+        window.clearTimeout(writeTimerRef.current);
+        if (pendingValueRef.current !== null) {
+          storageArea.setItem(storageKey, pendingValueRef.current);
+        }
+      }
+    };
+  }, [storageArea, storageKey]);
+
   const handleChange = (value: string) => {
     setNote(value);
-    if (typeof window !== "undefined") {
-      storageArea.setItem(storageKey, value);
+    if (typeof window === "undefined") return;
+    pendingValueRef.current = value;
+    if (writeTimerRef.current !== null) {
+      window.clearTimeout(writeTimerRef.current);
     }
+    writeTimerRef.current = window.setTimeout(() => {
+      if (pendingValueRef.current !== null) {
+        storageArea.setItem(storageKey, pendingValueRef.current);
+        pendingValueRef.current = null;
+      }
+      writeTimerRef.current = null;
+    }, 250);
   };
 
   return (

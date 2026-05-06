@@ -63,6 +63,62 @@ const PracticeTestReview = () => {
     setSession(practiceSet ? getPracticeTestSession(practiceSet.id) : null);
   }, [practiceSet, sessionId]);
 
+  const submitCurrentModule = useCallback((sessionToSubmit: typeof session) => {
+    if (!practiceSet || !sessionToSubmit) return;
+
+    if (sessionToSubmit.activeModuleIndex === sessionToSubmit.modules.length - 1) {
+      const result = buildPracticeTestResult(practiceSet, {
+        ...sessionToSubmit,
+        status: "submitted",
+      });
+      savePracticeTestResult(result);
+      clearPracticeTestSession(practiceSet.id);
+      sessionStorage.removeItem("practiceSet");
+      sessionStorage.removeItem("practiceExitTo");
+      navigate(`/practice-tests/${practiceSet.id}/results?session=${result.sessionId}`);
+      return;
+    }
+
+    const nextSession = buildPracticeTestSessionAfterCurrentModuleSubmit(sessionToSubmit);
+    if (!nextSession) return;
+
+    setSession(nextSession);
+    savePracticeTestSession(nextSession);
+    navigate(
+      `/practice-tests/${practiceSet.id}/transition?session=${sessionToSubmit.sessionId}&kind=${sessionToSubmit.activeModuleIndex === 1 ? "break" : "module"}`,
+    );
+  }, [navigate, practiceSet]);
+
+  const handleSubmit = useCallback(() => {
+    submitCurrentModule(session);
+  }, [session, submitCurrentModule]);
+
+  useEffect(() => {
+    if (!practiceSet || !session || !sessionId || session.sessionId !== sessionId) return;
+    if (session.status !== "active" || !activeModule) return;
+    if (isTimerPaused) return;
+
+    const timerId = window.setInterval(() => {
+      const latestSession = getPracticeTestSession(practiceSet.id);
+      if (!latestSession || latestSession.sessionId !== sessionId || latestSession.status !== "active") {
+        window.clearInterval(timerId);
+        return;
+      }
+
+      const nextSession = tickPracticeTestActiveModule(latestSession);
+      setSession(nextSession);
+      savePracticeTestSession(nextSession);
+    }, 1000);
+
+    return () => window.clearInterval(timerId);
+  }, [activeModule, practiceSet, session, sessionId, isTimerPaused]);
+
+  useEffect(() => {
+    if (!session || session.status !== "active" || !session.settings.timed || !activeModule) return;
+    if (activeModule.remainingSeconds !== 0) return;
+    submitCurrentModule(session);
+  }, [activeModule, session, submitCurrentModule]);
+
   if (!practiceSet || !session || !sessionId || session.sessionId !== sessionId || !questionSet) {
     return (
       <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6">
@@ -101,61 +157,6 @@ const PracticeTestReview = () => {
     ? activeModule.remainingSeconds ?? 0
     : activeModule.elapsedSeconds;
 
-  const submitCurrentModule = useCallback((sessionToSubmit: typeof session) => {
-    if (!practiceSet || !sessionToSubmit) return;
-
-    if (sessionToSubmit.activeModuleIndex === sessionToSubmit.modules.length - 1) {
-      const result = buildPracticeTestResult(practiceSet, {
-        ...sessionToSubmit,
-        status: "submitted",
-      });
-      savePracticeTestResult(result);
-      clearPracticeTestSession(practiceSet.id);
-      sessionStorage.removeItem("practiceSet");
-      sessionStorage.removeItem("practiceExitTo");
-      navigate(`/practice-tests/${practiceSet.id}/results?session=${result.sessionId}`);
-      return;
-    }
-
-    const nextSession = buildPracticeTestSessionAfterCurrentModuleSubmit(sessionToSubmit);
-    if (!nextSession) return;
-
-    setSession(nextSession);
-    savePracticeTestSession(nextSession);
-    navigate(
-      `/practice-tests/${practiceSet.id}/transition?session=${sessionToSubmit.sessionId}&kind=${sessionToSubmit.activeModuleIndex === 1 ? "break" : "module"}`,
-    );
-  }, [navigate, practiceSet]);
-
-  const handleSubmit = useCallback(() => {
-    submitCurrentModule(session);
-  }, [session, submitCurrentModule]);
-
-  useEffect(() => {
-    if (!practiceSet || !session || !sessionId || session.sessionId !== sessionId) return;
-    if (session.status !== "active" || !activeModule) return;
-
-    const timerId = window.setInterval(() => {
-      const latestSession = getPracticeTestSession(practiceSet.id);
-      if (!latestSession || latestSession.sessionId !== sessionId || latestSession.status !== "active") {
-        window.clearInterval(timerId);
-        return;
-      }
-
-      const nextSession = tickPracticeTestActiveModule(latestSession);
-      setSession(nextSession);
-      savePracticeTestSession(nextSession);
-    }, 1000);
-
-    return () => window.clearInterval(timerId);
-  }, [activeModule, practiceSet, session, sessionId]);
-
-  useEffect(() => {
-    if (!session || session.status !== "active" || !session.settings.timed || !activeModule) return;
-    if (activeModule.remainingSeconds !== 0) return;
-    submitCurrentModule(session);
-  }, [activeModule, session, submitCurrentModule]);
-
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Fixed timer header */}
@@ -191,7 +192,7 @@ const PracticeTestReview = () => {
         <div className="space-y-3 text-center">
           <h1
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(34px, 4.3vw, 60px)",
               fontWeight: 400,
               letterSpacing: "-0.05em",
@@ -214,16 +215,16 @@ const PracticeTestReview = () => {
             <div>
               <div className="text-2xl font-semibold tracking-[-0.03em]">{activeModule.moduleTitle}</div>
               <div className="mt-1 text-sm text-muted-foreground">
-                {answeredCount} of {moduleQuestions.length} answered
+                <span className="font-medium text-foreground">{answeredCount}</span> of {moduleQuestions.length} answered
               </div>
             </div>
             <div className="flex flex-wrap items-center gap-4 text-[13px] text-muted-foreground">
               <div className="flex items-center gap-1.5">
-                <div className="h-4 w-4 rounded-md border-2 border-dashed border-border bg-background/40" />
+                <div className="h-4 w-4 rounded-md border-2 border-dashed border-amber-400/60 bg-amber-50/30 dark:bg-amber-950/20" />
                 Unanswered
               </div>
               <div className="flex items-center gap-1.5">
-                <div className="h-4 w-4 rounded-md border border-border bg-muted shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]" />
+                <div className="h-4 w-4 rounded-md border border-emerald-500/40 bg-emerald-500/10" />
                 Answered
               </div>
               <div className="flex items-center gap-1.5">
@@ -243,14 +244,14 @@ const PracticeTestReview = () => {
                   key={question.storageId}
                   onClick={() =>
                     navigate(
-                      `/bank/${question.subject}/${question.id}?bankType=past&practice=true&idx=${question.globalQuestionNumber}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
+                      `/bank/${question.subject}/${question.sourceId}?bankType=past&practice=true&idx=${question.globalQuestionNumber}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`,
                     )
                   }
                   className={cn(
                     "relative flex h-10 items-center justify-center rounded-lg text-base font-semibold transition-colors sm:h-11 sm:text-lg",
                     answered
-                      ? "border border-border bg-muted text-foreground shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] hover:bg-muted/85"
-                      : "border-2 border-dashed border-border bg-background/50 text-muted-foreground hover:bg-muted/25",
+                      ? "border border-emerald-500/40 bg-emerald-500/10 text-foreground hover:bg-emerald-500/20"
+                      : "border-2 border-dashed border-amber-400/60 bg-amber-50/30 text-muted-foreground hover:bg-amber-100/40 dark:bg-amber-950/20 dark:hover:bg-amber-950/30",
                   )}
                 >
                   {state.isMarkedForReview ? (
@@ -266,7 +267,7 @@ const PracticeTestReview = () => {
         <div className="flex flex-wrap justify-between gap-3">
           <Button variant="outline" className="bg-transparent" asChild>
             <Link
-              to={`/bank/${currentQuestion.subject}/${currentQuestion.id}?bankType=past&practice=true&idx=${session.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`}
+              to={`/bank/${currentQuestion.subject}/${currentQuestion.sourceId}?bankType=past&practice=true&idx=${session.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${session.sessionId}`}
             >
               Back
             </Link>

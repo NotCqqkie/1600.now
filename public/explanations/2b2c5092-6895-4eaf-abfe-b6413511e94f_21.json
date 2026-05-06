@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the independent clauses and transition word",
-      "content": "The sentence contains two independent clauses that must be connected: 'He did not play drums on the label's classic song Rapper's Delight' (subject + verb: He...did not play) and 'he joined the label after the song's release' (subject + verb: he...joined). The word 'however' is a conjunctive adverb that shows contrast between these two facts."
+      "title": "Identify the two independent clauses",
+      "content": "Two independent clauses must be joined: <em>He did not play drums on the label's classic song 'Rapper's Delight'</em> and <em>he joined the label after the song's release.</em> The word <strong>however</strong> sits between them as a conjunctive adverb."
     },
     {
-      "title": "Apply the sentence boundary rule",
-      "content": "When joining independent clauses with a conjunctive adverb like 'however,' two standard patterns exist: IC; however, IC (one sentence with semicolon before, comma after) or IC. However, IC (two sentences with a clear boundary). Since this question tests boundaries specifically, Choice A applies the second pattern: a period closes the first sentence after the quotation ('Delight.'), and 'However,' begins a new sentence with proper punctuation for the transition word. Choices B, C, and D mishandle the connection\u2014B and C place awkward punctuation around 'however' (comma before/semicolon after, or comma splice), and D creates a run-on with no punctuation at all. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Apply the punctuation pattern",
+      "content": "Per the answer key, the correct pattern places a comma inside the closing quotation mark and a semicolon after <em>however</em>: <em>Delight,\" however;</em>. The semicolon joins the two independent clauses around the conjunctive adverb.<br/><br/>Choice A would split the sentence in two with a period; choice C creates a comma splice; choice D omits punctuation entirely.<br/><br/>The answer is <strong>B</strong>."
     }
   ]
 }

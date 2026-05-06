@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_3",
-  "correctAnswer": "42",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the circumference formula",
-      "content": "The circumference of a circle is related to its diameter by the formula: $$C = \\pi d$$ where $C$ is the circumference and $d$ is the diameter."
-    },
-    {
-      "title": "Substitute and solve for the diameter",
-      "content": "We're given that $C = 42\\pi$. Substituting into the formula:<br/>$$42\\pi = \\pi d$$<br/>Dividing both sides by $\\pi$:<br/>$$d = 42$$<br/>The diameter is 42 centimeters."
-    }
-  ]
-}
+{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_3","correctAnswer":"42","section":"Math","steps":[{"title":"Apply the circumference formula","content":"The circumference of a circle is $C=\\pi d$, where $d$ is the diameter. Substitute the given $C=42\\pi$: $$42\\pi=\\pi d.$$"},{"title":"Solve for diameter/radius","content":"Divide both sides by $\\pi$: $$d=42.$$ The answer is <strong>42</strong>."}]}

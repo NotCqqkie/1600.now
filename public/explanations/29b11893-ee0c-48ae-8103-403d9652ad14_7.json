@@ -1,15 +1,1 @@
-{
-  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by y to isolate x",
-      "content": "Starting with $b - 22 = \\frac{x}{y}$, multiply both sides by $y$:<br/>$$y(b - 22) = x$$"
-    },
-    {
-      "title": "Expand and identify the correct choice",
-      "content": "Expanding $y(b - 22) = x$ by distributing $y$:<br/>$$by - 22y = x$$<br/>Therefore $x = by - 22y$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_7", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Multiply both sides of $b-22=\\frac{x}{y}$ by $y$: $$y(b-22)=x,$$ which expands to $x=by-22y$."}, {"title": "Match to the answer choices", "content": "The form $x=by-22y$ matches choice C. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

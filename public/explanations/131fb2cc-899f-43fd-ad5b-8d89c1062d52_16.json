@@ -1,15 +1,1 @@
-{
-  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_16",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given value pu = 99",
-      "content": "We're told that $pu = 99$. The second equation is $(11a)(pu) = 99$. Since we know the value of $pu$, we can substitute it directly:<br/>$$(11a)(99) = 99$$"
-    },
-    {
-      "title": "Solve for a",
-      "content": "Divide both sides by 99 to isolate $11a$:<br/>$$11a = \\frac{99}{99} = 1$$<br/>Now divide both sides by 11:<br/>$$a = \\frac{1}{11}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_16", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value pu = 99", "content": "From $(11a)(pu)=99$ with $pu=99$: $(11a)(99)=99$."}, {"title": "Combine and compute", "content": "Divide both sides by 99: $11a=1$, so $a=\\dfrac{1}{11}$.<br/><br/>The answer is <strong>A</strong>."}]}

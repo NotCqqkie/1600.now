@@ -3,7 +3,6 @@ import type { Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import * as fs from "node:fs";
 import path from "node:path";
-import { componentTagger } from "lovable-tagger";
 
 const SAT_IMAGE_ROUTE = "/images/SAT-Style-Questions/";
 const SAT_IMAGE_SOURCE_DIR = path.resolve(__dirname, "public/images/SAT-Style Questions");
@@ -117,10 +116,7 @@ export default defineConfig(({ mode }) => ({
             return "bank-data-images";
           }
 
-          if (
-            id.includes("/src/data/vocabulary.ts") ||
-            id.includes("/src/data/midFrequencyWords.ts")
-          ) {
+          if (id.includes("/src/data/vocabulary.ts")) {
             return "vocab-data";
           }
         },
@@ -130,7 +126,7 @@ export default defineConfig(({ mode }) => ({
   esbuild: {
     legalComments: "none",
   },
-  plugins: [satImageAliasPlugin(), react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [satImageAliasPlugin(), react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

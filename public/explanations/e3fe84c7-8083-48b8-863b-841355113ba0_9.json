@@ -1,15 +1,1 @@
-{
-  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_9",
-  "correctAnswer": "25515",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the coefficient from the given data point",
-      "content": "From the equation $y = 900ax^2$, rearrange to find $900a = \\frac{y}{x^2}$.<br/><br/>Using the given values $x = 0.75$ inches and $y = 708.75$ pounds:<br/><br/>$$900a = \\frac{708.75}{(0.75)^2} = \\frac{708.75}{0.5625} = 1260$$<br/><br/>This constant factor applies to all ropes of this type."
-    },
-    {
-      "title": "Calculate breaking strength at x = 4.50 inches",
-      "content": "With the constant factor $900a = 1260$ and $x = 4.50$ inches, use the equation $y = 900ax^2$:<br/><br/>$$y = 1260 \\times (4.50)^2 = 1260 \\times 20.25 = 25515$$<br/><br/>The estimated breaking strength of a rope with circumference 4.50 inches is <strong>25515 pounds</strong>."
-    }
-  ]
-}
+{"questionId":"e3fe84c7-8083-48b8-863b-841355113ba0_9","correctAnswer":"25515","section":"Math","steps":[{"title":"Substitute the given values","content":"Substitute $x=0.75$, $y=708.75$: $$900a(0.75)^{2}=708.75 \\Rightarrow 900a\\cdot 0.5625=708.75,$$ so $900a=1260$."},{"title":"Solve for the unknown","content":"For $x=4.50$: $$y=1260\\cdot(4.50)^2=1260\\cdot 20.25=25{,}515.$$ The answer is <strong>25515</strong>."}]}

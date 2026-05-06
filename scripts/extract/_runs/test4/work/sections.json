@@ -1,0 +1,30 @@
+[
+  {
+    "section": "rw",
+    "module": 1,
+    "section_id": "rw_module1",
+    "start_page": 4,
+    "end_page": 17
+  },
+  {
+    "section": "rw",
+    "module": 2,
+    "section_id": "rw_module2",
+    "start_page": 18,
+    "end_page": 31
+  },
+  {
+    "section": "math",
+    "module": 1,
+    "section_id": "math_module1",
+    "start_page": 32,
+    "end_page": 39
+  },
+  {
+    "section": "math",
+    "module": 2,
+    "section_id": "math_module2",
+    "start_page": 40,
+    "end_page": 48
+  }
+]

@@ -1,11 +1,1 @@
-{
-  "questionId": "18c7c3e0",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Combine like terms",
-      "content": "Both terms contain $x^2$, so we combine them by subtracting the coefficients:<br/>$$13x^2 - 7x^2 = (13 - 7)x^2 = 6x^2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"18c7c3e0","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Subtract the $x^2$ terms:$$13x^2-7x^2=6x^2$$"},{"title":"Match to the answer choices","content":"The simplified expression is $6x^2$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

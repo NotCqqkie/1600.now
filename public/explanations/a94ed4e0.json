@@ -1,15 +1,1 @@
-{
-  "questionId": "a94ed4e0",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add the equations to eliminate y",
-      "content": "The $y$ coefficients are $3y$ and $-3y$ \u2014 they're opposites. Adding the equations eliminates $y$:<br/>$$3y + (-3y) = (4x + 17) + (9x - 23)$$<br/>$$0 = 13x - 6$$<br/>$$13x = 6$$"
-    },
-    {
-      "title": "Calculate 39x directly",
-      "content": "Since the problem asks for $39x$ and $39 = 3 \\times 13$:<br/>$$39x = 3 \\times (13x) = 3 \\times 6 = 18$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a94ed4e0","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Add the two equations to eliminate $y$: $$0=13x-6,$$ so $13x=6$."},{"title":"Find $39x$","content":"Multiply both sides by $3$: $$39x=3\\cdot 13x=18.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

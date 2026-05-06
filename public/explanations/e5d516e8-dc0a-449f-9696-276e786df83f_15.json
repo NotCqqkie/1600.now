@@ -1,15 +1,1 @@
-{
-  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_15",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand what x-intercepts mean for a cubic",
-      "content": "The question asks for the number of distinct values of $x$ where $f(x) = 0$, which are the x-intercepts. For a cubic function that has a local maximum and local minimum (as shown here), the graph can cross the x-axis either 1 or 3 times."
-    },
-    {
-      "title": "Count the x-intercepts on the graph",
-      "content": "Trace the curve from left to right and count how many times it crosses the x-axis:<br><ul><li>One crossing occurs on the left side of the local maximum (curve transitions from below to above the axis)</li><li>One crossing occurs between the local maximum and local minimum (curve transitions from above to below the axis)</li><li>One crossing occurs on the right side of the local minimum (curve transitions from below to above the axis)</li></ul>The graph displays exactly three x-intercepts. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_15", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Understand what 'distinct values' means for x-intercepts", "content": "An x-intercept is a value of $x$ where $f(x) = 0$. The question asks for the number of <strong>distinct</strong> $x$-values where this happens — repeated roots (where the graph touches the axis without crossing) count only once."}, {"title": "Count the distinct x-intercepts on the graph", "content": "From the graph: the curve <strong>touches</strong> the x-axis at one point (tangent — a double root) and <strong>crosses</strong> it at one other point. That gives <strong>two</strong> distinct values of $x$ where $f(x) = 0$. That matches choice B — <strong>B</strong> is correct."}]}

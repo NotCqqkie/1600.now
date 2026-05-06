@@ -1,15 +1,1 @@
-{
-  "questionId": "d964bc26",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate y by undoing the subtraction",
-      "content": "The equation $y - 57 = px$ has $y$ on the left side with 57 subtracted from it. To isolate $y$, we need to undo this subtraction by adding 57 to both sides of the equation."
-    },
-    {
-      "title": "Solve for y",
-      "content": "Adding 57 to both sides:<br/>$$y - 57 + 57 = px + 57$$<br/>Simplifying:<br/>$$y = px + 57$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d964bc26", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Add $57$ to both sides of $y-57=px$ to get $$y=px+57.$$"}, {"title": "Match to the answer choices", "content": "The form $y=px+57$ matches choice B. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

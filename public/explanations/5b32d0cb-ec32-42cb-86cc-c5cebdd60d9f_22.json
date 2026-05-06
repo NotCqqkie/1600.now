@@ -1,15 +1,1 @@
-{
-  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22",
-  "correctAnswer": "-13/14,-0.928,-0.929",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand and identify when a linear equation has no solution",
-      "content": "Expanding the left side:<br/>$$5kx - 5n = -\\frac{65}{14}x - \\frac{85}{18}$$<br/>A linear equation has no solution when the coefficients of $x$ are equal but the constants differ. This means:<br/>$$5k = -\\frac{65}{14}$$"
-    },
-    {
-      "title": "Solve for k",
-      "content": "$$k = -\\frac{65}{70} = -\\frac{13}{14}$$<br/>Check: With this value, the constants are $-5n$ and $-\\frac{85}{18}$. Since $n > 1$ implies $5n > 5 > \\frac{85}{18}$, we have $-5n \\neq -\\frac{85}{18}$, confirming no solution exists."
-    }
-  ]
-}
+{"questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_22", "correctAnswer": "-13/14,-0.928,-0.929", "section": "Math", "steps": [{"title": "Expand and identify when a linear equation has no solution", "content": "Expanding the left side:<br/>$$5kx - 5n = -\\frac{65}{14}x - \\frac{85}{18}$$<br/>A linear equation has no solution when the coefficients of $x$ are equal but the constants differ. This means:<br/>$$5k = -\\frac{65}{14}$$"}, {"title": "Solve for k", "content": "$$k = -\\frac{65}{70} = -\\frac{13}{14}$$<br/>Check: With this value, the constants are $-5n$ and $-\\frac{85}{18}$. Since $n > 1$ implies $5n > 5 > \\frac{85}{18}$, we have $-5n \\neq -\\frac{85}{18}$, confirming no solution exists.<br/><br/>Equivalent forms accepted: <strong>-13/14</strong>, <strong>-0.928</strong>, <strong>-0.929</strong>."}]}

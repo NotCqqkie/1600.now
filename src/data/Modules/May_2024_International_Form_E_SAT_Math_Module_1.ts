@@ -402,40 +402,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Advanced Math",
-    "skill": "Nonlinear functions",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_16",
-    "testName": "May 2024 International Form E SAT Math Module 1",
-    "text": "The function f is defined by f (x) = (−5)(6) x + 25. What is the y -intercept of the graph of y = f(x) in the xy - plane?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "(0, 20)"
-      },
-      {
-        "id": "B",
-        "text": "(0, 6)"
-      },
-      {
-        "id": "C",
-        "text": "(0, 25)"
-      },
-      {
-        "id": "D",
-        "text": "(0,-5)"
-      }
-    ],
-    "correctAnswer": "A",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
-      "confidence": "high"
-    }
+      "difficulty": "Easy",
+      "rationale": "Choice A is correct. When a graph is translated up $4$ units, each point on the resulting graph is $4$ units above the point on the original graph. In other words, the <em>y</em>-value of each point on the graph increases by $4$. The graph shown passes through the points $\\left(1,-1\\right)$, $\\left(2,-2\\right)$, and $\\left(3,-1\\right)$. It follows that when the graph shown is translated up $4$ units, the resulting graph will pass through the points $\\left(1,-1+4\\right)$, $\\left(2,-2+4\\right)$, and $\\left(3,-1+4\\right)$. These points are $\\left(1,3\\right)$, $\\left(2,2\\right)$, and $\\left(3,3\\right)$, respectively. Of the given choices, only the graph in choice A passes through the points $\\left(1,3\\right)$, $\\left(2,2\\right)$, and $\\left(3,3\\right)$.\nChoice B is incorrect. This is the result of translating the graph down, rather than up, $4$ units.\nChoice C is incorrect. This is the result of translating the graph left, rather than up, $4$ units.\nChoice D is incorrect. This is the result of translating the graph right, rather than up, $4$ units.",
+      "id": "e9aed539",
+      "testName": "SAT Question Bank",
+      "text": "The graph shown will be translated up $4$ units. Which of the following will be the resulting graph?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma 2).\n• The parabola passes through the following points:\n• (1 comma StartFraction 31 Over 10 EndFraction)\n• (2 comma 2)\n• (3 comma StartFraction 31 Over 10 EndFraction)"
+          },
+          {
+              "id": "B",
+              "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma negative 6).\n• The parabola passes through the following points:\n• (1 comma negative StartFraction 49 Over 10 EndFraction)\n• (2 comma negative 6)\n• (3 comma negative StartFraction 49 Over 10 EndFraction)"
+          },
+          {
+              "id": "C",
+              "text": "• The parabola opens upward.\n• The vertex is at the point (negative 2 comma negative 2).\n• The parabola passes through the following points:\n• (negative 3 comma negative nine tenths)\n• (negative 2 comma negative 2)\n• (negative 1 comma negative nine tenths)"
+          },
+          {
+              "id": "D",
+              "text": "• The parabola opens upward.\n• The vertex is at the point (6 comma negative 2).\n• The parabola passes through the following points:\n• (5 comma negative nine tenths)\n• (6 comma negative 2)\n• (7 comma negative nine tenths)"
+          }
+      ]
   },
   {
     "section": "Math",

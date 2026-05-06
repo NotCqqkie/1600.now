@@ -1,16 +1,1 @@
-{
-  "questionId": "38517165",
-  "correctAnswer": "31",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the circumference formula",
-      "formula": "$$C = \\pi d$$",
-      "content": "We know the circumference is $31\\pi$ centimeters. We'll use the relationship between circumference and diameter."
-    },
-    {
-      "title": "Solve for diameter",
-      "content": "Substituting into the formula:\n$$31\\pi = \\pi d$$\n\nDivide both sides by $\\pi$:\n$$d = 31$$\n\nThe diameter is <strong>31 centimeters</strong>."
-    }
-  ]
-}
+{"questionId":"38517165","correctAnswer":"31","section":"Math","steps":[{"title":"Apply the circumference formula","content":"The circumference of a circle is $C=\\pi d$, where $d$ is the diameter. Substitute the given $C=31\\pi$: $$31\\pi=\\pi d.$$"},{"title":"Solve for diameter/radius","content":"Divide both sides by $\\pi$: $$d=31.$$ The answer is <strong>31</strong>."}]}

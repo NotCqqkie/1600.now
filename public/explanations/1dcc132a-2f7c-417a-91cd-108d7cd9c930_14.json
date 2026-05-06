@@ -1,15 +1,1 @@
-{
-  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_14",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what we're solving for",
-      "content": "We need the value of $(x-1)$. The given equation is $\\sqrt{x-1}=2$."
-    },
-    {
-      "title": "Square both sides to eliminate the radical",
-      "content": "Square both sides:<br/><br/>$$(\\sqrt{x-1})^2 = 2^2$$<br/><br/>$$(x-1) = 4$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_14","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the squaring from the given condition","content":"Square both sides of $\\sqrt{x-1}=2$."},{"title":"Compute the target value","content":"So $x-1 = 4$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

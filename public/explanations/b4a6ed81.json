@@ -1,15 +1,1 @@
-{
-  "questionId": "b4a6ed81",
-  "correctAnswer": "6",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand the right side to match the form of the left side",
-      "content": "Distribute $ry^4$ through the parentheses on the right side:<br/>$$ry^4(15y - 9) = 15ry^5 - 9ry^4$$<br/>Now both sides are in expanded form:<br/>Left: $90y^5 - 54y^4$<br/>Right: $15ry^5 - 9ry^4$"
-    },
-    {
-      "title": "Match coefficients and solve for r",
-      "content": "For two polynomials to be equivalent, coefficients of matching powers of $y$ must be equal.<br/>Looking at the $y^5$ terms:<br/>$$15r = 90$$<br/>Divide both sides by 15:<br/>$$r = \\frac{90}{15} = 6$$"
-    }
-  ]
-}
+{"questionId":"b4a6ed81","correctAnswer":"6","section":"Math","steps":[{"title":"Multiply the expressions","content":"Factor the left side: $90y^5-54y^4=y^4(90y-54)$. Factor a $6$ from the parenthesis: $$90y^5-54y^4=6y^4(15y-9).$$"},{"title":"Identify b","content":"Comparing $6y^4(15y-9)=ry^4(15y-9)$ gives $r=6$. The answer is <strong>6</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "5a7ab8e8",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify the equation",
-      "content": "The equation is $66x = 66x$. Since both sides are identical, subtracting $66x$ from both sides gives:<br/>$$0 = 0$$"
-    },
-    {
-      "title": "Interpret the result",
-      "content": "The equation $0 = 0$ is always true, independent of $x$. This means every real number satisfies the original equation. Therefore, there are infinitely many solutions.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a7ab8e8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Simplify the equation", "content": "Subtract $66x$ from both sides of $66x=66x$ to get $$0=0.$$"}, {"title": "Count the solutions", "content": "This is true for every value of $x$, so the equation has infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

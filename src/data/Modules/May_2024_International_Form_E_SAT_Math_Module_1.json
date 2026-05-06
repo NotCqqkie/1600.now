@@ -389,30 +389,30 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "The function $f$ is defined by $f(x) = (-5)(6)x + 25$. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+    "passage": "The graph shown will be translated up $4$ units. Which of the following will be the resulting graph?",
     "question_text": null,
     "choices": [
       {
         "label": "A",
-        "text": "$(0, 20)$"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma 2).\n• The parabola passes through the following points:\n• (1 comma StartFraction 31 Over 10 EndFraction)\n• (2 comma 2)\n• (3 comma StartFraction 31 Over 10 EndFraction)"
       },
       {
         "label": "B",
-        "text": "$(0, 6)$"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (2 comma negative 6).\n• The parabola passes through the following points:\n• (1 comma negative StartFraction 49 Over 10 EndFraction)\n• (2 comma negative 6)\n• (3 comma negative StartFraction 49 Over 10 EndFraction)"
       },
       {
         "label": "C",
-        "text": "$(0, 25)$"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (negative 2 comma negative 2).\n• The parabola passes through the following points:\n• (negative 3 comma negative nine tenths)\n• (negative 2 comma negative 2)\n• (negative 1 comma negative nine tenths)"
       },
       {
         "label": "D",
-        "text": "$(0, -5)$"
+        "text": "• The parabola opens upward.\n• The vertex is at the point (6 comma negative 2).\n• The parabola passes through the following points:\n• (5 comma negative nine tenths)\n• (6 comma negative 2)\n• (7 comma negative nine tenths)"
       }
     ],
     "is_fill_in_blank": false,
     "correct_answer": "A",
-    "rationale": null,
-    "id": "3bf10f0c-6025-4955-91dc-118e340490f0_16"
+    "rationale": "Choice A is correct. When a graph is translated up $4$ units, each point on the resulting graph is $4$ units above the point on the original graph. In other words, the <em>y</em>-value of each point on the graph increases by $4$. The graph shown passes through the points $\\left(1,-1\\right)$, $\\left(2,-2\\right)$, and $\\left(3,-1\\right)$. It follows that when the graph shown is translated up $4$ units, the resulting graph will pass through the points $\\left(1,-1+4\\right)$, $\\left(2,-2+4\\right)$, and $\\left(3,-1+4\\right)$. These points are $\\left(1,3\\right)$, $\\left(2,2\\right)$, and $\\left(3,3\\right)$, respectively. Of the given choices, only the graph in choice A passes through the points $\\left(1,3\\right)$, $\\left(2,2\\right)$, and $\\left(3,3\\right)$.\nChoice B is incorrect. This is the result of translating the graph down, rather than up, $4$ units.\nChoice C is incorrect. This is the result of translating the graph left, rather than up, $4$ units.\nChoice D is incorrect. This is the result of translating the graph right, rather than up, $4$ units.",
+    "id": "e9aed539"
   },
   {
     "section": "Math",

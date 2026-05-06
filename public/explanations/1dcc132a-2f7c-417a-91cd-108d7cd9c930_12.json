@@ -1,15 +1,1 @@
-{
-  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_12",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the given point to find the value of p",
-      "content": "Since the graph passes through $(-2, 0)$, we have $h(-2) = 0$. Substitute $x = -2$ into the function:<br/><br/>$$(-2+p)(-2-4)(2(-2)-12) = 0$$<br/><br/>Evaluate the constant factors:<br/><br/>$$(-2+p)(-6)(-16) = 0$$<br/><br/>Since $(-6)(-16) = 96$:<br/><br/>$$96(-2+p) = 0$$<br/><br/>Therefore $p = 2$."
-    },
-    {
-      "title": "Evaluate h(0) using p = 2",
-      "content": "With $p = 2$, the function becomes $h(x) = (x+2)(x-4)(2x-12)$. Now substitute $x = 0$:<br/><br/>$$h(0) = (0+2)(0-4)(2(0)-12)$$<br/><br/>$$= (2)(-4)(-12)$$<br/><br/>$$= 96$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_12","correctAnswer":"D","section":"Math","steps":[{"title":"Identify roots from the factored form","content":"$h(x)=(x+p)(x-4)(2x-12)$ has zeros at $x=-p,\\ x=4,\\ x=6$."},{"title":"Use the given point to set up an equation in p","content":"Since $(-2,0)$ is a zero and $-2\\ne 4,6$, we need $-2+p=0$, so $p=2$."},{"title":"Compute h(0) and conclude","content":"$h(0)=(2)(-4)(-12)=96$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

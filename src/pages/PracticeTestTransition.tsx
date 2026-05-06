@@ -39,7 +39,7 @@ const PracticeTestTransition = () => {
     sessionStorage.setItem("practiceSet", JSON.stringify(questionSet));
 
     navigate(
-      `/bank/${targetQuestion.subject}/${targetQuestion.id}?bankType=past&practice=true&idx=${activeSession.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${activeSession.sessionId}`,
+      `/bank/${targetQuestion.subject}/${targetQuestion.sourceId}?bankType=past&practice=true&idx=${activeSession.currentIndex + 1}&practiceTest=${practiceSet.id}&practiceTestSession=${activeSession.sessionId}`,
     );
   };
 
@@ -119,7 +119,7 @@ const PracticeTestTransition = () => {
           <CardContent className="flex flex-col items-center gap-6 py-12 text-center">
             <h1
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: "clamp(36px, 5vw, 62px)",
                 fontWeight: 400,
                 letterSpacing: "-0.05em",
@@ -131,9 +131,6 @@ const PracticeTestTransition = () => {
           <div className="text-6xl font-semibold tracking-[-0.06em] tabular-nums text-foreground">
             {formatClock(session.breakRemainingSeconds)}
           </div>
-          <p className="text-sm text-muted-foreground">
-            On the real SAT, this break is mandatory.
-          </p>
           <Button variant="outline" onClick={skipBreak}>
             Skip break
           </Button>
@@ -151,7 +148,7 @@ const PracticeTestTransition = () => {
           <div>
             <h1
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: "clamp(34px, 4.5vw, 56px)",
                 fontWeight: 400,
                 letterSpacing: "-0.05em",

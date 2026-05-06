@@ -1,15 +1,1 @@
-{
-  "questionId": "a0203977",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the one strongest clue: what we need",
-      "content": "The passage states \u201cmost had annual increases... but that trend wasn't universal.\u201d This directly signals we need an example of a country that did <strong>not</strong> follow the universal pattern of increases."
-    },
-    {
-      "title": "Match that requirement to the choices",
-      "content": "South Korea's revenue fell from $21.0 billion in 2016 to $17.2 billion in 2017, providing exactly that counterexample. The other three fail because A uses data outside the table, B is factually false (Japan grew from $33.5B to $45.3B), and D doesn't show any break from the upward trend. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a0203977", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the one strongest clue: what we need", "content": "The passage states “most had annual increases... but that trend wasn't universal.” This directly signals we need an example of a country that did <strong>not</strong> follow the universal pattern of increases."}, {"title": "Match that requirement to the choices", "content": "South Korea's revenue fell from \\$21.0 billion in 2016 to \\$17.2 billion in 2017, providing exactly that counterexample. The other three fail because A uses data outside the table, B is factually false (Japan grew from \\$33.5B to \\$45.3B), and D doesn't show any break from the upward trend. That matches choice C — <strong>C</strong> is correct."}]}

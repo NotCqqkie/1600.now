@@ -1,16 +1,1 @@
-{
-  "questionId": "002dba45",
-  "correctAnswer": ".1764",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the perpendicular lines rule",
-      "content": "When two lines are perpendicular in the coordinate plane, their slopes are <strong>negative reciprocals</strong> of each other.",
-      "formula": "$$m_{\\perp} = -\\frac{1}{m}$$"
-    },
-    {
-      "title": "Extract line k's slope and find the perpendicular slope",
-      "content": "From the equation $y = -\\frac{17}{3}x + 5$, line $k$ has slope $m_k = -\\frac{17}{3}$.<br/><br/>Apply the perpendicular slope formula:<br/>$$m_j = -\\frac{1}{m_k} = -\\frac{1}{-\\frac{17}{3}}$$<br/><br/>A negative divided by a negative gives a positive, so the negatives cancel:<br/>$$m_j = \\frac{1}{\\frac{17}{3}} = \\frac{3}{17}$$<br/><br/>The slope of line $j$ is $\\frac{3}{17}$."
-    }
-  ]
-}
+{"questionId": "002dba45", "correctAnswer": ".1764", "section": "Math", "steps": [{"title": "Find the slope of the given line", "content": "Rewrite in slope-intercept form: $y=-17/3 x + 5$. So the slope of the given line is $-17/3$."}, {"title": "Identify the answer", "content": "Perpendicular slopes are negative reciprocals, so the slope of the perpendicular line is $3/17$. The answer is <strong>.1764</strong>."}]}

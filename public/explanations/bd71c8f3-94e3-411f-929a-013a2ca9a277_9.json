@@ -1,15 +1,1 @@
-{
-  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_9",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor out the common term",
-      "content": "Notice that both terms in $x^2 - 28x = 0$ contain a factor of $x$. Factor it out:<br/>$$x(x - 28) = 0$$"
-    },
-    {
-      "title": "Apply zero product property",
-      "content": "When a product equals zero, at least one factor must equal zero. Either $x = 0$ or $x - 28 = 0$.<br/>Solving $x - 28 = 0$ gives $x = 28$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_9","correctAnswer":"B","section":"Math","steps":[{"title":"Solve the quadratic","content":"Factor $x^2-28x=0$ as $x(x-28)=0$, giving solutions $x=0$ and $x=28$."},{"title":"Identify the matching solution","content":"The solutions are $0$ and $28$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

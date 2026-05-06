@@ -1,15 +1,1 @@
-{
-  "questionId": "6acdcece",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by y to isolate x",
-      "content": "Starting with: $$b - 72 = \\frac{x}{y}$$<br/>Multiply both sides by $y$: $$y(b - 72) = x$$"
-    },
-    {
-      "title": "Expand to find the final answer",
-      "content": "Distribute $y$ to get: $$x = by - 72y$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6acdcece", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Multiply both sides of $b-72=\\frac{x}{y}$ by $y$: $$y(b-72)=x,$$ which expands to $x=by-72y$."}, {"title": "Match to the answer choices", "content": "The form $x=by-72y$ matches choice D. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

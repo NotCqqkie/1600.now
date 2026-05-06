@@ -1,15 +1,1 @@
-{
-  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_12",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find f(3) and g(3)",
-      "content": "Substitute $x = 3$ into each function:<br/>$$f(3) = 3 + 3 = 6$$<br/>$$g(3) = 3(3) = 9$$"
-    },
-    {
-      "title": "Compute 6f(3) - g(3)",
-      "content": "Substitute the values from Step 1:<br/>$$6f(3) - g(3) = 6(6) - 9 = 36 - 9 = 27$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_12","correctAnswer":"D","section":"Math","steps":[{"title":"Evaluate each function at x = 3","content":"Substitute $x=3$: $f(3)=3+3=6$ and $g(3)=3(3)=9$."},{"title":"Combine and compute","content":"$6f(3)-g(3)=6(6)-9=36-9=27$.<br/><br/>The answer is <strong>D</strong>."}]}

@@ -182,9 +182,6 @@ export function QuestionBankFilterPanel({
                       aria-label={["Minimum time spent", "Maximum time spent"]}
                     />
                   </div>
-                  <p className="text-xs text-muted-foreground">
-                    Filter questions by total time spent per question.
-                  </p>
                 </div>
               </FilterCard>
 

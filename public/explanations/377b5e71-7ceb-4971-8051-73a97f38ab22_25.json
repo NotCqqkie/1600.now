@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining difference in the notes",
-      "content": "The study rated sea palm's umami as <strong>\u201cmoderate\u201d</strong> and ma-konbu's as <strong>\u201chigh.\u201d</strong> This intensity contrast is what the student needs to highlight."
-    },
-    {
-      "title": "Find the choice that emphasizes this contrast",
-      "content": "Choice A uses <strong>\u201cthe latter's umami flavor is more intense\u201d</strong> \u2014 capturing the intensity contrast the student must emphasize. The other three either fail to compare umami intensity or stray from the seaweed focus. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize a <em>difference</em> between sea palm (moderate umami) and ma-konbu (high umami). The correct choice must contrast the two intensities."}, {"title": "Match to choices", "content": "Only one choice highlights that ma-konbu's umami is more intense than sea palm's. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

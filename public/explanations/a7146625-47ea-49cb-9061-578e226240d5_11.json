@@ -1,15 +1,1 @@
-{
-  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_11",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the repeated expression",
-      "content": "Notice that $(7-8x)$ appears in both the left and right sides of the equation. Rather than expanding everything, use substitution to simplify. Let $u = 7-8x$.<br/><br/>The equation becomes: $$9u + 2 = 8u + 17$$"
-    },
-    {
-      "title": "Solve for u and identify the answer",
-      "content": "Subtract $8u$ from both sides and subtract 2:<br/>$$9u - 8u = 17 - 2$$<br/>$$u = 15$$<br/><br/>Since $u = 7-8x$, we have $7-8x = 15$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a7146625-47ea-49cb-9061-578e226240d5_11","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $8(7-8x)+2$ from both sides: $(7-8x) = 17-2 = 15$."},{"title":"Compute the target value","content":"So $7-8x = 15$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
