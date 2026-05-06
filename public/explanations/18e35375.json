@@ -1,15 +1,1 @@
-{
-  "questionId": "18e35375",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the roots from factored form",
-      "content": "The function is given as $f(x) = (x-14)(x+19)$. Setting each factor equal to zero:<br/>$x - 14 = 0 \\Rightarrow x = 14$<br/>$x + 19 = 0 \\Rightarrow x = -19$<br/>These are the two roots of the parabola."
-    },
-    {
-      "title": "Find the minimum using the axis of symmetry",
-      "content": "When a quadratic is written in factored form with a positive leading coefficient, the parabola opens upward. The minimum occurs at the vertex, which lies on the axis of symmetry\u2014exactly at the midpoint of the two roots:<br/>$$x = \\frac{14 + (-19)}{2} = \\frac{-5}{2}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "18e35375", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the roots", "content": "$f(x) = (x-14)(x+19) = 0$ has roots $x = 14$ and $x = -19$."}, {"title": "Apply the new function definition", "content": "A product of two factors $(x-14)(x+19)$ is a parabola opening upward with vertex midway between the roots."}, {"title": "Compute the answer", "content": "The minimum occurs at $x = \\frac{14 + (-19)}{2} = \\frac{-5}{2} = -2.5$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

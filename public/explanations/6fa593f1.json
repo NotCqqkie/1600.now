@@ -1,15 +1,1 @@
-{
-  "questionId": "6fa593f1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given value into the expression",
-      "content": "We are given $x = 40$ and need to find $x + 6$. Substitute $x = 40$ directly into the expression."
-    },
-    {
-      "title": "Compute the sum",
-      "content": "$$x + 6 = 40 + 6 = 46$$\nThis matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6fa593f1","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the substitution from the given condition","content":"Substitute $x=40$ into $x+6$."},{"title":"Compute the target value","content":"So $x+6 = 46$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,11 +1,1 @@
-{
-  "questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_1",
-  "correctAnswer": "21",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Locate the correct row and column in the table",
-      "content": "Find the row where air temperature is <strong>33\u00b0F</strong> and the column labeled <strong>Wind chill temperature at wind speed 20 mph</strong>. The value at their intersection is <strong>21\u00b0F</strong>. That matches the answer <strong>21</strong>."
-    }
-  ]
-}
+{"questionId": "3bf10f0c-6025-4955-91dc-118e340490f0_1", "correctAnswer": "21", "section": "Math", "steps": [{"title": "Locate the row", "content": "Find the row corresponding to an air temperature of $33\\text{°F}$ in the table."}, {"title": "Read the value", "content": "In that row, the column for a wind speed of $20$ mph gives a wind chill of $21\\text{°F}$. The answer is <strong>21</strong>."}]}

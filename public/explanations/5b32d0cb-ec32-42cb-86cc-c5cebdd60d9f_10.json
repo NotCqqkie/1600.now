@@ -1,15 +1,1 @@
-{
-  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_10",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify like terms",
-      "content": "In the expression $$20x^{2}+3+5x^{2}$$, look for terms that have the same variable raised to the same power. The terms $20x^2$ and $5x^2$ are like terms because both contain $x^2$. The constant 3 stands alone with no like terms."
-    },
-    {
-      "title": "Combine the coefficients",
-      "content": "Add the coefficients of the like terms while keeping the variable and exponent the same: $$20x^2 + 5x^2 = (20 + 5)x^2 = 25x^2$$. Including the constant, the simplified expression is $$25x^2 + 3$$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_10","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Combine the $x^2$ terms:$$20x^2+3+5x^2=25x^2+3$$"},{"title":"Match to the answer choices","content":"The simplified expression is $25x^2+3$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

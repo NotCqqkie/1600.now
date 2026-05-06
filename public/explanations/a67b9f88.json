@@ -1,15 +1,1 @@
-{
-  "questionId": "a67b9f88",
-  "correctAnswer": ".9811",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what we need for sin R",
-      "content": "To find $\\sin R$, we need the ratio $\\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{TS}{TR}$. We know the hypotenuse TR = 53 and one leg RS = \\sqrt{105}. Use the Pythagorean theorem to find the other leg, TS."
-    },
-    {
-      "title": "Calculate TS, then find sin R",
-      "content": "With hypotenuse TR = 53 and leg RS = \\sqrt{105}:<br/>$$53^2 = (\\sqrt{105})^2 + TS^2$$<br/>$$2809 = 105 + TS^2$$<br/>$$TS^2 = 2704$$<br/>$$TS = 52$$<br/><br/>The side opposite angle R is TS = 52 and the hypotenuse is TR = 53, so $\\sin R = \\frac{52}{53}$."
-    }
-  ]
-}
+{"questionId":"a67b9f88","correctAnswer":".9811","section":"Math","steps":[{"title":"Find the missing side using Pythagoras","content":"The right angle is at $T$, so $TR$ is the hypotenuse with $TR = 53$ and leg $RS = \\sqrt{105}$. Apply the Pythagorean theorem to find leg $TS$:<br/>$$TS^2 = TR^2 - RS^2 = 53^2 - 105 = 2809 - 105 = 2704$$<br/>$$TS = 52$$"},{"title":"Compute the sine ratio","content":"From angle $R$, the opposite side is $TS = 52$ and the hypotenuse is $TR = 53$:<br/>$$\\sin R = \\frac{TS}{TR} = \\frac{52}{53} \\approx 0.9811$$<br/>The answer is <strong>.9811</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Break down the cost structure",
-      "content": "The company charges <strong>$195 for the first hour</strong> plus <strong>$75 for each additional hour</strong> plus <strong>gas cost $w$</strong>. Since $x$ is the total number of hours rented, the number of additional hours is $(x - 1)$."
-    },
-    {
-      "title": "Write the total cost equation",
-      "content": "Sum all three components:<br/><br/>$$y = 195 + 75(x-1) + w$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Break down the cost structure", "content": "The company charges <strong>\\$195 for the first hour</strong> plus <strong>\\$75 for each additional hour</strong> plus <strong>gas cost $w$</strong>. Since $x$ is the total number of hours rented, the number of additional hours is $(x - 1)$."}, {"title": "Write the total cost equation", "content": "Sum all three components:<br/><br/>$$y = 195 + 75(x-1) + w$$<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

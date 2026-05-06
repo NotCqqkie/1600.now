@@ -1,15 +1,1 @@
-{
-  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_6",
-  "correctAnswer": "38",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the parts and set up the equation",
-      "content": "The 125 cm segment is divided into three parts: one part is 49 cm, and the other two parts are equal. Let $x$ represent the length of each equal part.<br/><br/>Since the three parts make up the total length:<br/>$$49 + x + x = 125$$<br/>$$49 + 2x = 125$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Subtract 49 from both sides:<br/>$$2x = 125 - 49$$<br/>$$2x = 76$$<br/><br/>Divide both sides by 2:<br/>$$x = 38$$<br/><br/>Each of the two equal parts is 38 cm. Verify: $49 + 38 + 38 = 125$ \u2713"
-    }
-  ]
-}
+{"questionId":"11ee667b-8898-4917-b74e-33237205e2ef_6","correctAnswer":"38","section":"Math","steps":[{"title":"Set up the equation from the parts","content":"Let $x$ be the length of one equal part. The three parts sum to the total length: $$49 + 2x = 125.$$"},{"title":"Solve for the requested length","content":"Subtract and divide: $2x = 125 - 49 = 76$, so $x = 38$. The answer is <strong>38</strong>."}]}

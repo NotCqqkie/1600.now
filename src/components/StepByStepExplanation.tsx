@@ -156,6 +156,12 @@ function cleanStepContent(raw: string): string {
   s = s.replace(/<\/?think>/gi, "");
   s = s.replace(/(?:^|\n)>\s*(?:Reasoning|Think|Note to self|Internal)[^\n]*/gi, "");
   s = s.replace(/\*\*(?:Reasoning|Internal note)\*\*:?[^\n]*/gi, "");
+  // The bolded choice letter alone confirms the answer; the older "<strong>X</strong> is correct"
+  // tail just repeats the letter. Drop the tail and ensure the choice letter is bolded once.
+  s = s.replace(/\s*[—–-]+\s*<strong>[A-Z]<\/strong>\s+is\s+(?:correct|the\s+answer|right)\.?/gi, ".");
+  s = s.replace(/\s*[—–-]+\s*[A-Z]\s+is\s+(?:correct|the\s+answer|right)\.?/g, ".");
+  s = s.replace(/(<\/strong>)\s*[—–-]+\s*[^<.]{1,30}?\s+is\s+(?:correct|the\s+answer|right)\.?/gi, "$1.");
+  s = s.replace(/\b(matches\s+choice\s+)([A-Z])\b(?!<\/strong>)/gi, "$1<strong>$2</strong>");
   return s.trim();
 }
 
@@ -178,16 +184,16 @@ function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; s
         </div>
       </div>
 
-      <div
-        className="text-[15px] leading-snug pl-9 explanation-content"
-        dangerouslySetInnerHTML={{ __html: contentHtml }}
-      />
-
       {step.formula && (
         <div className="ml-9 p-2 rounded-lg bg-primary/5 border border-primary/20">
           <div className="text-center text-base" dangerouslySetInnerHTML={{ __html: renderMixedContent(step.formula, { convertTexLineBreaks: false }) }} />
         </div>
       )}
+
+      <div
+        className="text-[15px] leading-snug pl-9 explanation-content"
+        dangerouslySetInnerHTML={{ __html: contentHtml }}
+      />
 
       {step.desmosExpressions && step.desmosExpressions.length > 0 && (
         <div className="ml-9 mt-2">

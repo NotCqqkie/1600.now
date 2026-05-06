@@ -1,15 +1,1 @@
-{
-  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_9",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Write each person's total charge",
-      "content": "Antwan charges $10 + 8.5x$ (his $10 equipment fee plus $8.50 per hour), and Taylor charges $7 + 9.5x$ (her $7 equipment fee plus $9.50 per hour)."
-    },
-    {
-      "title": "Solve for when Taylor's charge is greater",
-      "content": "Set up the inequality for when Taylor's total exceeds Antwan's:<br/>$$7 + 9.5x > 10 + 8.5x$$<br/>Combining like terms:<br/>$$9.5x - 8.5x > 10 - 7$$<br/>$$x > 3$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_9", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Write each person's total charge", "content": "Antwan charges $10 + 8.5x$ (his \\$10 equipment fee plus \\$8.50 per hour), and Taylor charges $7 + 9.5x$ (her \\$7 equipment fee plus \\$9.50 per hour)."}, {"title": "Solve for when Taylor's charge is greater", "content": "Set up the inequality for when Taylor's total exceeds Antwan's:<br/>$$7 + 9.5x > 10 + 8.5x$$<br/>Combining like terms:<br/>$$9.5x - 8.5x > 10 - 7$$<br/>$$x > 3$$<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

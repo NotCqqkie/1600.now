@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures on each side of the blank",
-      "content": "On the left: \u201cThis designation is hypothetical\u201d is an independent clause (can stand alone). On the right: \u201cProto-Nilo-Saharan is only postulated, its characteristics being inferred...\u201d is also an independent clause."
+      "title": "Identify the structure",
+      "content": "Before the blank: <em>This designation is hypothetical</em> — a complete clause. After the blank: <em>Proto-Nilo-Saharan is only postulated, its characteristics being inferred from the linguistic properties of its 199 daughters</em> — a clause that <strong>elaborates</strong> on what makes the designation hypothetical."
     },
     {
-      "title": "Apply the conjunctive adverb rule",
-      "content": "When a conjunctive adverb like <strong>however</strong> connects two independent clauses, it must either follow a semicolon in one sentence (IC; however, IC) or start a new sentence after a period (IC. However, IC). Choice C follows the second pattern: period before \u201cHowever,\u201d with a comma after it to begin the new sentence. Choices A, B, and D violate this rule with incorrect commas and colons. This matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Apply the punctuation pattern",
+      "content": "Per the answer key, the right pattern is <em>hypothetical, however:</em>. The comma sets off <em>however</em> after the first clause, and the colon introduces the elaboration that explains the hypothetical nature.<br/><br/>Choice A (comma after <em>however</em>) creates a comma splice; choice C splits the thought into two sentences and loses the elaborating link; choice D's colon before <em>however</em> places the colon in the wrong spot.<br/><br/>The answer is <strong>B</strong>."
     }
   ]
 }

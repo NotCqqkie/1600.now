@@ -1,15 +1,1 @@
-{
-  "questionId": "3c4ce699",
-  "correctAnswer": "27",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express target in terms of given expression",
-      "content": "The expression $18+3x$ can be rewritten as $3(6+x)$. This is useful because we know the value of $6+x$."
-    },
-    {
-      "title": "Substitute and compute",
-      "content": "Since $6+x=9$, we have:<br/>$$18+3x = 3(6+x) = 3 \\cdot 9 = 27$$"
-    }
-  ]
-}
+{"questionId":"3c4ce699","correctAnswer":"27","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $18+3x = 3(6+x)$, and $6+x=9$."},{"title":"Compute the target value","content":"So $18+3x = 3 \\cdot 9 = 27$. The answer is <strong>27</strong>."}]}

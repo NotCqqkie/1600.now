@@ -1,15 +1,1 @@
-{
-  "questionId": "fd4b2aa0",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify like terms",
-      "content": "Both terms contain $x^3$, so they are like terms and can be combined directly."
-    },
-    {
-      "title": "Combine coefficients",
-      "content": "Since the terms are like, subtract the coefficients while keeping $x^3$ unchanged:<br/><br/>$$12x^3 - 5x^3 = (12-5)x^3 = 7x^3$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"fd4b2aa0","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Subtract the $x^3$ terms:$$12x^3-5x^3=7x^3$$"},{"title":"Match to the answer choices","content":"The simplified expression is $7x^3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

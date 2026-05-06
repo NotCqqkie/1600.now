@@ -1,11 +1,1 @@
-{
-  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_9",
-  "correctAnswer": "31",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate water volume using total mixture volume",
-      "content": "The total volume of the mixture is the sum of the water and isopropanol volumes. Given the total volume is 41 mL and isopropanol is 10 mL, subtract the isopropanol volume from the total: $41 - 10 = 31$.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_9", "correctAnswer": "31", "section": "Math", "steps": [{"title": "Calculate water volume using total mixture volume", "content": "The total volume of the mixture is the sum of the water and isopropanol volumes. Given the total volume is 41 mL and isopropanol is 10 mL, subtract the isopropanol volume from the total: $41 - 10 = 31$.<br/><br/>The answer is <strong>31</strong>."}]}

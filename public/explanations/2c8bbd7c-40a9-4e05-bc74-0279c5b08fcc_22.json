@@ -1,15 +1,1 @@
-{
-  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_22",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the roots to write the factored form and expand",
-      "content": "Since the parabola passes through $(9, 0)$ and $(-2, 0)$, these are the $x$-intercepts. With leading coefficient $a$:\n$$f(x) = a(x - 9)(x + 2)$$\nExpanding:\n$$f(x) = a(x^2 - 7x - 18) = ax^2 - 7ax - 18a$$\nComparing to $f(x) = ax^2 + bx + c$, we have $b = -7a$."
-    },
-    {
-      "title": "Find the possible values of a + b",
-      "content": "Calculate $a + b$:\n$$a + b = a + (-7a) = -6a$$\nSince $a$ is an integer greater than 1, $a \\in \\{2, 3, 4, 5, ...\\}$, so $a + b \\in \\{-12, -18, -24, -30, ...\\}$.\n\nOnly choice D ($-12$) matches a possible value, occurring when $a = 2$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_22","correctAnswer":"D","section":"Math","steps":[{"title":"Use the factored form","content":"Since the parabola has roots $9$ and $-2$, $f(x)=a(x-9)(x-(-2))$ for integer $a>1$."},{"title":"Expand to find $a+b$","content":"Expanding gives $f(x)=ax^2-a(9+(-2))x+a(9)(-2)$, so $b=-a(7)$ and $$a+b=a(1-(7))=-6a.$$"},{"title":"Pick a valid $a$","content":"With $a=2$ (integer $>1$), $a+b=-6\\cdot2=-12$. The answer is <strong>D</strong>."}]}

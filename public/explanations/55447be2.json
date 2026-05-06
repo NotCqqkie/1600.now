@@ -1,15 +1,1 @@
-{
-  "questionId": "55447be2",
-  "correctAnswer": "24",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set the equations equal",
-      "content": "Since both expressions equal $y$:<br/><br/>$$\\frac{1}{3}x - 14 = -x + 18$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Add $x$ to both sides and add 14 to both sides:<br/><br/>$$\\frac{1}{3}x + x = 18 + 14$$<br/><br/>Rewrite with a common denominator:<br/><br/>$$\\frac{1}{3}x + \\frac{3}{3}x = 32$$<br/><br/>$$\\frac{4}{3}x = 32$$<br/><br/>Multiply both sides by $\\frac{3}{4}$:<br/><br/>$$x = 32 \\cdot \\frac{3}{4} = 24$$"
-    }
-  ]
-}
+{"questionId": "55447be2", "correctAnswer": "24", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Set the two expressions for $y$ equal: $\\frac{1}{3}x - 14 = -x + 18$. Multiply by 3: $x - 42 = -3x + 54$."}, {"title": "Find $x$", "content": "$4x = 96$, so $x = 24$. The answer is <strong>24</strong>."}]}

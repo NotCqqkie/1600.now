@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses requiring connection",
-      "content": "The sentence presents two related independent clauses: <em>\u201cShe was not alone in her efforts\u201d</em> and <em>\u201cFernando Orejuela and Stephanie Shonekan, among other scholars, also contributed to the project.\u201d</em> The transition word \u201chowever\u201d must connect them."
+      "title": "Identify the two independent clauses",
+      "content": "Before the blank: <em>She was not alone in her efforts</em> — a complete clause. After the blank: <em>Fernando Orejuela and Stephanie Shonekan, among other scholars, also contributed to the project</em> — another complete clause. The conjunctive adverb <em>however</em> sits between them."
     },
     {
-      "title": "Apply the rule for punctuating a conjunctive adverb between independent clauses",
-      "content": "Two independent clauses joined by a conjunctive adverb require: IC<strong>;</strong> however<strong>,</strong> IC (semicolon before, comma after). When unavailable, a colon can introduce an elaborating clause: IC<strong>:</strong> however<strong>,</strong> IC. The second clause here elaborates on why she was not alone, making a colon appropriate. A incorrectly places a comma before and a semicolon after \u201chowever\u201d; B omits all punctuation (creating a run-on); D mistakenly uses comma-however-comma. This matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+      "title": "Apply the punctuation pattern",
+      "content": "Per the answer key, the right pattern is <em>efforts, however;</em> — a comma before <em>however</em> and a semicolon after to join the next independent clause.<br/><br/>Choice B omits all punctuation, producing a run-on; choice C uses a colon before <em>however</em>, which doesn't fit; choice D (comma–however–comma) creates a comma splice between two complete clauses.<br/><br/>The answer is <strong>A</strong>."
     }
   ]
 }

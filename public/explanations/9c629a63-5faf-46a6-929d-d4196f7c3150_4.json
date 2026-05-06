@@ -1,15 +1,1 @@
-{
-  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_4",
-  "correctAnswer": "21",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the connection to the given constraint",
-      "content": "The expression $42 + 7x$ can be factored to reveal a connection to $6 + x$:<br/>$$42 + 7x = 7(6 + x)$$<br/>This shows that the target expression is simply 7 times the given constraint expression."
-    },
-    {
-      "title": "Substitute the constraint and evaluate",
-      "content": "We know that $6 + x = 3$. Substitute this directly into the factored form:<br/>$$42 + 7x = 7(6 + x) = 7(3) = 21$$"
-    }
-  ]
-}
+{"questionId":"9c629a63-5faf-46a6-929d-d4196f7c3150_4","correctAnswer":"21","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $42+7x = 7(6+x)$, and $6+x=3$."},{"title":"Compute the target value","content":"So $42+7x = 7 \\cdot 3 = 21$. The answer is <strong>21</strong>."}]}

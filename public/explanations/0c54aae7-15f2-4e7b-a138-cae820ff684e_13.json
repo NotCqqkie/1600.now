@@ -1,15 +1,1 @@
-{
-  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_13",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify y-intercept condition",
-      "content": "The graph crosses the y-axis where $ x = 0 $. Substitute $ x = 0 $ into the equation: $$ y = \\left(\frac{8}{13}\right)^{0+1} = \\left(\frac{8}{13}\right)^1 = \frac{8}{13} $$<br/><br/>All y-intercepts have the form $ (0, y) $."
-    },
-    {
-      "title": "Match to answer format",
-      "content": "The point is $ (0, \frac{8}{13}) $.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_13", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set the appropriate variable to 0", "content": "For the $y$-intercept, set $x=0$ in $y=\\left(\\tfrac{8}{13}\\right)^{x+1}$: $$y=\\left(\\tfrac{8}{13}\\right)^{0+1}=\\tfrac{8}{13}.$$"}, {"title": "Compute the intercept", "content": "So the $y$-intercept is $\\left(0,\\tfrac{8}{13}\\right)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

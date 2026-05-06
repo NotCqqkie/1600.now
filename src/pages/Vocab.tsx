@@ -3,6 +3,8 @@ import { vocabularySets } from "@/data/vocabulary";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
+import { db } from "@/lib/firebaseDb";
+import { doc, setDoc } from "firebase/firestore";
 
 /* ═══════════════════════════════════════════════
    Types
@@ -47,10 +49,15 @@ const errFg = "hsl(0 70% 50%)";
 const errBg = "hsl(0 70% 97%)";
 
 
-const TAG: Record<Pos, { bg: string; fg: string }> = {
+const TAG_LIGHT: Record<Pos, { bg: string; fg: string }> = {
   adj: { bg: "hsl(201 100% 94%)", fg: "hsl(201 100% 32%)" },
   verb: { bg: "hsl(32 100% 92%)", fg: "hsl(24 70% 30%)" },
   noun: { bg: "hsl(122 40% 92%)", fg: "hsl(122 40% 24%)" },
+};
+const TAG_DARK: Record<Pos, { bg: string; fg: string }> = {
+  adj: { bg: "hsl(201 70% 18%)", fg: "hsl(201 100% 72%)" },
+  verb: { bg: "hsl(32 60% 18%)", fg: "hsl(32 100% 70%)" },
+  noun: { bg: "hsl(122 35% 16%)", fg: "hsl(122 55% 65%)" },
 };
 
 /* ═══════════════════════════════════════════════
@@ -66,8 +73,6 @@ function hashStr(s: string): number {
   return Math.abs(h);
 }
 
-const POS_CHOICES: Pos[] = ["adj", "verb", "noun"];
-
 function statusToMastery(s: StudyStatus): number {
   if (s === "mastered") return 1;
   if (s === "learning") return 0.5;
@@ -75,21 +80,28 @@ function statusToMastery(s: StudyStatus): number {
 }
 
 function synthesizeWord(
-  raw: { word: string; definition: string; setId: string; setName: string },
+  raw: {
+    word: string;
+    definition: string;
+    pos: Pos;
+    synonyms: string[];
+    antonyms: string[];
+    inUse: string;
+    difficulty: number;
+    setId: string;
+    setName: string;
+  },
   status: StudyStatus,
 ): Word {
-  const h = hashStr(raw.word);
-  const pos = POS_CHOICES[h % 3];
-  const freq = 50 + (h % 46); // 50..95
   return {
     id: `${raw.setId}::${raw.word.toLowerCase()}`,
     w: raw.word,
-    pos,
+    pos: raw.pos,
     def: raw.definition,
-    ex: "",
-    syn: [],
-    ant: [],
-    freq,
+    ex: raw.inUse,
+    syn: raw.synonyms,
+    ant: raw.antonyms,
+    freq: Math.round((11 - raw.difficulty) * 10),
     mastery: statusToMastery(status),
     etym: raw.setName,
     setName: raw.setName,
@@ -100,11 +112,13 @@ function synthesizeWord(
    Shared UI bits
    ═══════════════════════════════════════════════ */
 
-function Tag({ pos }: { pos: Pos }) {
-  const c = TAG[pos];
+function Tag({ pos, isDark }: { pos: Pos; isDark: boolean }) {
+  const c = (isDark ? TAG_DARK : TAG_LIGHT)[pos];
   return (
     <span
       style={{
+        display: "inline-block",
+        width: "fit-content",
         fontSize: 11,
         padding: "3px 9px",
         borderRadius: 999,
@@ -112,6 +126,7 @@ function Tag({ pos }: { pos: Pos }) {
         color: c.fg,
         fontWeight: 600,
         letterSpacing: ".02em",
+        whiteSpace: "nowrap",
       }}
     >
       {pos}
@@ -427,7 +442,7 @@ function Flashcards({
               padding: "32px 40px",
             }}
           >
-            <Tag pos={card.pos} />
+            <Tag pos={card.pos} isDark={isDark} />
             <h2
               style={{
                 margin: "18px 0 0",
@@ -555,7 +570,7 @@ function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
       >
         <span
           style={{
-            fontFamily: '"Instrument Serif",serif',
+            fontFamily: '"Geist",serif',
             fontStyle: "italic",
             fontSize: 26,
             color: headAccent,
@@ -717,7 +732,11 @@ function FlashcardBack({ card, isDark }: { card: Word; isDark: boolean }) {
    Learn
    ═══════════════════════════════════════════════ */
 
-function Learn({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudyStatus) => void }) {
+function Learn({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark: (id: string, s: StudyStatus) => void }) {
+  const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
+  const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
+  const errFgL = isDark ? "hsl(0 70% 68%)" : errFg;
+  const errBgL = isDark ? "hsl(0 50% 17%)" : errBg;
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const safeIdx = deck.length ? idx % deck.length : 0;
@@ -761,7 +780,7 @@ function Learn({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
   return (
     <div style={{ maxWidth: 640, margin: "0 auto" }}>
       <div style={{ marginBottom: 24 }}>
-        <Tag pos={w.pos} />
+        <Tag pos={w.pos} isDark={isDark} />
         <h2 style={{ margin: "10px 0 4px", fontSize: 40, fontWeight: 500, letterSpacing: "-.02em", color: fg }}>
           {w.w}
         </h2>
@@ -780,12 +799,12 @@ function Learn({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
             bg = primary2;
           }
           if (isCorrect) {
-            b = okFg;
-            bg = okBg;
+            b = okFgL;
+            bg = okBgL;
           }
           if (isWrong) {
-            b = errFg;
-            bg = errBg;
+            b = errFgL;
+            bg = errBgL;
           }
           return (
             <button
@@ -818,7 +837,7 @@ function Learn({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
                   height: 28,
                   borderRadius: 999,
                   border: `1.5px solid ${b}`,
-                  background: isCorrect ? okFg : isWrong ? errFg : isPicked ? primary : "transparent",
+                  background: isCorrect ? okFgL : isWrong ? errFgL : isPicked ? primary : "transparent",
                   color: isCorrect || isWrong || isPicked ? "#fff" : fg,
                   display: "flex",
                   alignItems: "center",
@@ -858,14 +877,19 @@ function Learn({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
    Match — pick-then-drop
    ═══════════════════════════════════════════════ */
 
-function Match({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudyStatus) => void }) {
+function Match({ deck, isDark, onMark }: { deck: Word[]; isDark: boolean; onMark: (id: string, s: StudyStatus) => void }) {
+  const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
+  const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
+  const errFgL = isDark ? "hsl(0 70% 68%)" : errFg;
+  const errBgL = isDark ? "hsl(0 50% 17%)" : errBg;
   const pool = useMemo(() => deck.slice(0, Math.min(6, deck.length)), [deck]);
   const [defOrder, setDefOrder] = useState<number[]>([]);
   const [links, setLinks] = useState<Record<number, number>>({});
   const [selected, setSelected] = useState<number | null>(null);
 
+  // Only reset when the actual word identities change, not when mastery values update
+  const poolIds = pool.map(w => w.id).join(',');
   useEffect(() => {
-    // shuffle def order deterministically on pool change
     const order = pool.map((_, i) => i);
     for (let i = order.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -874,7 +898,8 @@ function Match({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
     setDefOrder(order);
     setLinks({});
     setSelected(null);
-  }, [pool]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [poolIds]);
 
   const pick = (wi: number) => {
     if (links[wi] !== undefined) return;
@@ -920,8 +945,8 @@ function Match({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
             const linked = links[i] !== undefined;
             const isSel = selected === i;
             const correct = linked && matched(i, links[i]);
-            const b = correct ? okFg : linked ? errFg : isSel ? primary : borderC;
-            const bg = correct ? okBg : linked ? errBg : isSel ? primary2 : cardBg;
+            const b = correct ? okFgL : linked ? errFgL : isSel ? primary : borderC;
+            const bg = correct ? okBgL : linked ? errBgL : isSel ? primary2 : cardBg;
             return (
               <button
                 key={i}
@@ -945,7 +970,7 @@ function Match({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
               >
                 <span style={{ fontSize: 18, fontWeight: 500 }}>{w.w}</span>
                 {linked && (
-                  <span style={{ fontSize: 16, color: correct ? okFg : errFg }}>{correct ? "✓" : "✕"}</span>
+                  <span style={{ fontSize: 16, color: correct ? okFgL : errFgL }}>{correct ? "✓" : "✕"}</span>
                 )}
               </button>
             );
@@ -957,8 +982,8 @@ function Match({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySt
             const linkedFrom = Object.entries(links).find(([, v]) => v === slot);
             const filled = linkedFrom !== undefined;
             const correct = filled && matched(Number(linkedFrom![0]), slot);
-            const b = correct ? okFg : filled ? errFg : selected !== null ? primary : borderC;
-            const bg = correct ? okBg : filled ? errBg : cardBg;
+            const b = correct ? okFgL : filled ? errFgL : selected !== null ? primary : borderC;
+            const bg = correct ? okBgL : filled ? errBgL : cardBg;
             return (
               <button
                 key={slot}
@@ -1266,7 +1291,7 @@ function Test({ deck, onMark }: { deck: Word[]; onMark: (id: string, s: StudySta
    Browse
    ═══════════════════════════════════════════════ */
 
-function Browse({ deck }: { deck: Word[] }) {
+function Browse({ deck, isDark }: { deck: Word[]; isDark: boolean }) {
   const [q, setQ] = useState("");
   const [filter, setFilter] = useState<"all" | "new" | "learning" | "mastered">("all");
 
@@ -1367,7 +1392,7 @@ function Browse({ deck }: { deck: Word[] }) {
             className="vocab-row"
             style={{
               display: "grid",
-              gridTemplateColumns: "200px 70px 1fr 120px 90px",
+              gridTemplateColumns: "200px auto 1fr",
               gap: 20,
               padding: "16px 20px",
               alignItems: "center",
@@ -1377,19 +1402,8 @@ function Browse({ deck }: { deck: Word[] }) {
             }}
           >
             <div style={{ fontSize: 17, fontWeight: 500, color: fg, letterSpacing: "-.01em" }}>{w.w}</div>
-            <Tag pos={w.pos} />
+            <Tag pos={w.pos} isDark={isDark} />
             <div style={{ fontSize: 14, color: fg, opacity: 0.8, lineHeight: 1.4 }}>{w.def}</div>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ flex: 1, height: 4, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}>
-                <div style={{ height: "100%", width: `${w.freq}%`, background: primary }} />
-              </div>
-              <span style={{ fontSize: 12, color: muted, minWidth: 28, textAlign: "right", fontWeight: 500 }}>
-                {w.freq}%
-              </span>
-            </div>
-            <div style={{ display: "flex", justifyContent: "flex-end" }}>
-              <MasteryDots v={w.mastery} />
-            </div>
           </div>
         ))}
         {filtered.length === 0 && (
@@ -1413,43 +1427,55 @@ const Vocab = () => {
   const [activeSetId, setActiveSetId] = useState<string>(vocabularySets[0]?.id ?? "");
   const [progress, setProgress] = useState<StoredProgress>({});
 
-  // Load persisted progress whenever the active user changes (login/logout/switch).
+  // Single load+persist effect. The loadedUidRef guards against the
+  // load/persist race when uid changes: the persist branch only runs
+  // when `progress` corresponds to the currently-active uid, so we
+  // never write the previous user's data into the new user's slot.
+  const loadedUidRef = useRef<string | null | undefined>(undefined);
   useEffect(() => {
-    try {
-      const raw = window.localStorage.getItem(vocabStorageKey(uid));
-      if (!raw) {
-        setProgress({});
-        return;
-      }
-      const parsed = JSON.parse(raw);
-      if (parsed && typeof parsed === "object") {
-        // Accept either the new flat {id: status} shape or the legacy {id: {status,...}} shape
-        const next: StoredProgress = {};
-        for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
-          if (typeof v === "string" && (v === "new" || v === "learning" || v === "mastered")) {
-            next[k] = v;
-          } else if (v && typeof v === "object" && "status" in (v as object)) {
-            const s = (v as { status?: unknown }).status;
-            if (s === "new" || s === "learning" || s === "mastered") next[k] = s;
-          }
+    if (loadedUidRef.current !== uid) {
+      loadedUidRef.current = uid;
+      try {
+        const raw = window.localStorage.getItem(vocabStorageKey(uid));
+        if (!raw) {
+          setProgress({});
+          return;
         }
-        setProgress(next);
-      } else {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === "object") {
+          // Accept either the new flat {id: status} shape or the legacy {id: {status,...}} shape
+          const next: StoredProgress = {};
+          for (const [k, v] of Object.entries(parsed as Record<string, unknown>)) {
+            if (typeof v === "string" && (v === "new" || v === "learning" || v === "mastered")) {
+              next[k] = v;
+            } else if (v && typeof v === "object" && "status" in (v as object)) {
+              const s = (v as { status?: unknown }).status;
+              if (s === "new" || s === "learning" || s === "mastered") next[k] = s;
+            }
+          }
+          setProgress(next);
+        } else {
+          setProgress({});
+        }
+      } catch {
         setProgress({});
       }
-    } catch {
-      setProgress({});
+      return;
     }
-  }, [uid]);
 
-  // Persist
-  useEffect(() => {
     try {
       window.localStorage.setItem(vocabStorageKey(uid), JSON.stringify(progress));
     } catch {
-      // ignore
+      // ignore quota errors
     }
-  }, [progress, uid]);
+
+    if (user && db) {
+      const ref = doc(db, "user_progress", user.id);
+      setDoc(ref, { user_id: user.id, vocab: progress }, { merge: true }).catch(
+        (err) => console.error("Failed to sync vocab to Firestore:", err),
+      );
+    }
+  }, [progress, uid, user]);
 
   const markWord = (id: string, status: StudyStatus) => {
     setProgress(prev => {
@@ -1464,7 +1490,17 @@ const Vocab = () => {
     if (!activeSet) return [];
     return activeSet.words.map(w =>
       synthesizeWord(
-        { word: w.word, definition: w.definition, setId: activeSet.id, setName: activeSet.name },
+        {
+          word: w.word,
+          definition: w.definition,
+          pos: w.pos,
+          synonyms: w.synonyms,
+          antonyms: w.antonyms,
+          inUse: w.inUse,
+          difficulty: w.difficulty,
+          setId: activeSet.id,
+          setName: activeSet.name,
+        },
         progress[`${activeSet.id}::${w.word.toLowerCase()}`] ?? "new",
       ),
     );
@@ -1474,10 +1510,10 @@ const Vocab = () => {
 
   let content: React.ReactNode = null;
   if (mode === "flashcards") content = <Flashcards deck={deck} isDark={isDark} onMark={markWord} />;
-  else if (mode === "learn") content = <Learn deck={deck} onMark={markWord} />;
-  else if (mode === "match") content = <Match deck={deck} onMark={markWord} />;
+  else if (mode === "learn") content = <Learn deck={deck} isDark={isDark} onMark={markWord} />;
+  else if (mode === "match") content = <Match deck={deck} isDark={isDark} onMark={markWord} />;
   else if (mode === "test") content = <Test deck={deck} onMark={markWord} />;
-  else if (mode === "browse") content = <Browse deck={deck} />;
+  else if (mode === "browse") content = <Browse deck={deck} isDark={isDark} />;
 
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "32px 40px 80px" }}>

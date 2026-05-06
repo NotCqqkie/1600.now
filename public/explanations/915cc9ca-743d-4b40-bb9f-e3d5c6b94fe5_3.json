@@ -1,15 +1,1 @@
-{
-  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what w and 92w represent",
-      "content": "The width of the rectangle is $w$ feet. The problem states that the length is 92 times the width, so the length is $92w$ feet."
-    },
-    {
-      "title": "Recognize the structure of the area formula",
-      "content": "For a rectangle, area equals length times width. The given function is $y = (92w)(w)$, which is structured as (first term) \u00d7 (second term) = area. The second term is the width ($w$), so the first term $(92w)$ must be the length. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_3","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the dimensions","content":"Width is $w$ feet. The length is $92$ times the width, so length $=92w$ feet. Area $=$ length $\\times$ width gives $$y=(92w)(w).$$"},{"title":"Interpret the factor","content":"In $(92w)(w)$, the factor $w$ is the width, so $(92w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

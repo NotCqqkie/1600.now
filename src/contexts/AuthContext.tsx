@@ -23,6 +23,7 @@ interface AuthContextType {
   signOut: () => Promise<void>;
   resendVerificationEmail: () => Promise<void>;
   reloadUser: () => Promise<boolean>;
+  sendPasswordReset: (email: string) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType>({
@@ -35,6 +36,7 @@ const AuthContext = createContext<AuthContextType>({
   signOut: async () => {},
   resendVerificationEmail: async () => {},
   reloadUser: async () => false,
+  sendPasswordReset: async () => {},
 });
 
 export const useAuth = () => useContext(AuthContext);
@@ -57,7 +59,7 @@ const loadAuthDependencies = async () => {
   if (!authDependenciesPromise) {
     authDependenciesPromise = Promise.all([
       import("firebase/auth"),
-      import("@/lib/firebase"),
+      import("@/lib/firebaseAuth"),
     ]).then(([authModule, firebaseModule]) => ({
       auth: firebaseModule.auth,
       firebaseConfigError: firebaseModule.firebaseConfigError,
@@ -110,8 +112,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
           if (info?.isNewUser) trackSignUp("google");
           else trackLogin("google");
         })
-        .catch(() => {
-          // No redirect pending — ignore.
+        .catch((error: unknown) => {
+          const code = (error as { code?: string } | null)?.code;
+          // No redirect pending — common, ignore.
+          if (code === "auth/no-auth-event") return;
+          console.error("Redirect sign-in failed:", error);
         });
 
       unsubscribe = authModule.onAuthStateChanged(auth, (firebaseUser) => {
@@ -202,8 +207,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       const info = authModule.getAdditionalUserInfo(result);
       if (info?.isNewUser) trackSignUp("google");
       else trackLogin("google");
-    } catch (error: any) {
-      const code = error?.code;
+    } catch (error) {
+      const code = (error as { code?: string })?.code;
       if (
         code === "auth/popup-blocked" ||
         code === "auth/cancelled-popup-request" ||
@@ -223,6 +228,15 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     await authModule.signOut(auth);
   };
 
+  const sendPasswordReset = async (email: string) => {
+    const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
+    if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+    await authModule.sendPasswordResetEmail(auth, email, {
+      url: `${window.location.origin}/login`,
+      handleCodeInApp: false,
+    });
+  };
+
   return (
     <AuthContext.Provider
       value={{
@@ -235,6 +249,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         signOut,
         resendVerificationEmail,
         reloadUser,
+        sendPasswordReset,
       }}
     >
       {children}

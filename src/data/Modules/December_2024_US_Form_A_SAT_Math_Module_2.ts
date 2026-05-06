@@ -218,40 +218,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_7",
-    "testName": "December 2024 US Form A SAT Math Module 2",
-    "text": "$y>17$\n$4x+y\nThe point (x, 54) is a solution to the given system of inequalities in the xy-plane. Which of the following could be the value of x?",
-    "choices": [
-      {
-        "id": "A",
-        "text": "9"
-      },
-      {
-        "id": "B",
-        "text": "5"
-      },
-      {
-        "id": "C",
-        "text": "-5"
-      },
-      {
-        "id": "D",
-        "text": "-9"
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "Choice D is correct. A line in the <em>xy</em>-plane that passes through the points $\\left({x}_{1},{y}_{1}\\right)$ and $\\left({x}_{2},{y}_{2}\\right)$ has slope $m$, where $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$, and can be defined by an equation of the form $y-{y}_{1}=m\\left(x-{x}_{1}\\right)$. One of the lines shown in the graph passes through the points $\\left(8,0\\right)$ and $\\left(3,4\\right)$. Substituting $8$ for ${x}_{1}$, $0$ for ${y}_{1}$, $3$ for ${x}_{2}$, and $4$ for ${y}_{2}$ in the equation $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$ yields $m=\\frac{4-0}{3-8}$, or $m=-\\frac{4}{5}$. Substituting $-\\frac{4}{5}$ for $m$, $8$ for ${x}_{1}$ and $0$ for ${y}_{1}$ in the equation $y-{y}_{1}=m\\left(x-{x}_{1}\\right)$ yields $y-0=-\\frac{4}{5}\\left(x-8\\right)$, which is equivalent to $y=-\\frac{4}{5}x+\\frac{32}{5}$. Adding $\\frac{4}{5}x$ to both sides of this equation yields $\\frac{4}{5}x+y=\\frac{32}{5}$. Multiplying both sides of this equation by $-10$ yields $-8x-10y=-64$. Therefore, an equation of this line is $-8x-10y=-64$. Similarly, the other line shown in the graph passes through the points $\\left(8,0\\right)$ and $\\left(3,2\\right)$. Substituting $8$ for ${x}_{1}$, $0$ for ${y}_{1}$, $3$ for ${x}_{2}$, and $2$ for ${y}_{2}$ in the equation $m=\\frac{{y}_{2}-{y}_{1}}{{x}_{2}-{x}_{1}}$ yields $m=\\frac{2-0}{3-8}$, or $m=-\\frac{2}{5}$. Substituting $-\\frac{2}{5}$ for $m$, $8$ for ${x}_{1}$, and $0$ for ${y}_{1}$ in the equation $y-{y}_{1}=m\\left(x-{x}_{1}\\right)$ yields $y-0=-\\frac{2}{5}\\left(x-8\\right)$, which is equivalent to $y=-\\frac{2}{5}x+\\frac{16}{5}$. Adding $\\frac{2}{5}x$ to both sides of this equation yields $\\frac{2}{5}x+y=\\frac{16}{5}$. Multiplying both sides of this equation by $10$ yields $4x+10y=32$. Therefore, an equation of this line is $4x+10y=32$. So, the system of linear equations represented by the lines shown is $4x+10y=32$ and $-8x-10y=-64$.\nChoice A is incorrect and may result from conceptual or calculation errors.\nChoice B is incorrect and may result from conceptual or calculation errors.\nChoice C is incorrect and may result from conceptual or calculation errors.",
+      "id": "3f5a3602",
+      "testName": "SAT Question Bank",
+      "text": "What system of linear equations is represented by the lines shown?",
+      "correctAnswer": "D",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "$8x+4y=32$\n$-10x-4y=-64$"
+          },
+          {
+              "id": "B",
+              "text": "$8x-4y=32$\n$-10x+4y=-64$"
+          },
+          {
+              "id": "C",
+              "text": "$4x-10y=32$\n$-8x+10y=-64$"
+          },
+          {
+              "id": "D",
+              "text": "$4x+10y=32$\n$-8x-10y=-64$"
+          }
+      ]
   },
   {
     "section": "Math",

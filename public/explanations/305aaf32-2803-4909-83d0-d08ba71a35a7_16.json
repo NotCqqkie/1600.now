@@ -1,15 +1,1 @@
-{
-  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_16",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the slope-intercept form",
-      "content": "We know the line has slope $m = \\frac{1}{8}$, so it has the form $y = \\frac{1}{8}x + b$."
-    },
-    {
-      "title": "Use the point to find the y-intercept",
-      "content": "The line passes through $(40, -6)$. Substitute into the equation:<br/>$$-6 = \\frac{1}{8}(40) + b$$<br/>Simplify: $-6 = 5 + b$, so $b = -11$.<br/>The equation is $y = \\frac{1}{8}x - 11$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"305aaf32-2803-4909-83d0-d08ba71a35a7_16","correctAnswer":"B","section":"Math","steps":[{"title":"Plug the slope and point into $y=mx+b$","content":"With $m=\\tfrac{1}{8}$ and the point $(40,-6)$: $$-6=\\tfrac{1}{8}(40)+b=5+b.$$"},{"title":"Solve for $b$ and write the equation","content":"So $b=-11$, giving $$y=\\tfrac{x}{8}-11.$$ That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_6",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply FOIL to expand the binomial product",
-      "content": "Use FOIL (First, Outer, Inner, Last) on $(w + 7)(3w - 10)$:<br/><ul><li><strong>First:</strong> $w \\cdot 3w = 3w^2$</li><li><strong>Outer:</strong> $w \\cdot (-10) = -10w$</li><li><strong>Inner:</strong> $7 \\cdot 3w = 21w$</li><li><strong>Last:</strong> $7 \\cdot (-10) = -70$</li></ul>This gives us $3w^2 - 10w + 21w - 70$."
-    },
-    {
-      "title": "Combine like terms",
-      "content": "The middle terms are $-10w$ and $21w$. Adding them: $-10w + 21w = 11w$.<br/>The expanded form is $3w^2 + 11w - 70$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_6","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Use FOIL on $(w+7)(3w-10)$:$$=3w^2-10w+21w-70$$$$=3w^2+11w-70$$"},{"title":"Match to the answer choices","content":"The simplified expression is $3w^2+11w-70$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

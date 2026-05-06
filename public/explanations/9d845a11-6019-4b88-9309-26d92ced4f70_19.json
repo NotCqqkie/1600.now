@@ -1,15 +1,1 @@
-{
-  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_19",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the equations as lines and extract their slopes",
-      "content": "The equations $y = x + 21$ and $y = 12x$ are in slope-intercept form $y = mx + b$, where $m$ is the slope. Each represents a line in the plane:<br/><ul><li>$y = x + 21$ has slope 1</li><li>$y = 12x$ has slope 12</li></ul>"
-    },
-    {
-      "title": "Apply the parallel lines test",
-      "content": "Two distinct lines either are parallel (zero intersections) or intersect at exactly one point. Parallel lines have equal slopes. Since the slopes are different ($1 \\neq 12$), these lines are not parallel. Therefore, they intersect at exactly one point. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9d845a11-6019-4b88-9309-26d92ced4f70_19","correctAnswer":"B","section":"Math","steps":[{"title":"Set the equations equal","content":"Set $x+21 = 12x$, giving $$11x = 21 \\Rightarrow x = \\tfrac{21}{11}.$$"},{"title":"Count the intersection points","content":"Two distinct lines with different slopes meet at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

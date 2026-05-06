@@ -1,15 +1,1 @@
-{
-  "questionId": "05468350-9fef-44ab-b9cb-893b50a7cadd_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand the squared term",
-      "content": "We know $(x+2)^2 = 18$. Expand the left side:<br/>$$(x+2)^2 = x^2 + 4x + 4$$<br/>The expression $x^2 + 4x$ appears directly in this expansion \u2014 we don't need to solve for $x$ first."
-    },
-    {
-      "title": "Isolate the target expression",
-      "content": "Since $(x+2)^2 = 18$:<br/>$$x^2 + 4x + 4 = 18$$<br/>Subtract 4 from both sides:<br/>$$x^2 + 4x = 14$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"05468350-9fef-44ab-b9cb-893b50a7cadd_4","correctAnswer":"A","section":"Math","steps":[{"title":"Apply the expansion from the given condition","content":"Expand: $(x+2)^{2} = x^{2}+4x+4 = 18$."},{"title":"Compute the target value","content":"Subtract $4$: $x^{2}+4x = 14$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the key expression",
-      "content": "We're asked to find $2(x-8)$, not $x$. Notice that $2(x-8)$ already appears on the right side of the equation:<br/>$$46=16+2(x-8)$$<br/>This means we can isolate it directly without solving for $x$."
-    },
-    {
-      "title": "Isolate by subtracting 16",
-      "content": "Subtract 16 from both sides of the equation:<br/>$$46 - 16 = 16 + 2(x-8) - 16$$<br/>$$30 = 2(x-8)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_7","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the rearrangement from the given condition","content":"Subtract $16$: $2(x-8) = 46-16$."},{"title":"Compute the target value","content":"So $2(x-8) = 30$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,0 +1,58 @@
+rules_version = '2';
+
+// Deploy with: firebase deploy --only firestore:rules
+//
+// Threat model:
+//   - Each user owns exactly one doc at /user_progress/{uid}.
+//   - /question_reports/{questionId} is a community-aggregate record. Any
+//     signed-in user may file a report (uses FieldValue.increment); reads
+//     are allowed so the report dialog can show "previously reported N times".
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Per-user progress, vocab, and personalization. Only the owning user
+    // (with a verified email) may read or write their own doc, and the
+    // document's user_id field must match the auth uid.
+    match /user_progress/{uid} {
+      allow read: if request.auth != null
+                  && request.auth.uid == uid
+                  && request.auth.token.email_verified == true;
+
+      allow create, update: if request.auth != null
+                            && request.auth.uid == uid
+                            && request.auth.token.email_verified == true
+                            && request.resource.data.user_id == uid;
+
+      allow delete: if false;
+    }
+
+    // Aggregate question reports. Any signed-in, email-verified user may
+    // submit one report at a time. Each write must increment totalReports by
+    // exactly 1 and may append at most one comment, which prevents a single
+    // request from forging arbitrary counts or wiping comments.
+    match /question_reports/{questionId} {
+      allow read: if request.auth != null
+                  && request.auth.token.email_verified == true;
+
+      allow create: if request.auth != null
+                    && request.auth.token.email_verified == true
+                    && request.resource.data.questionId == questionId
+                    && request.resource.data.totalReports == 1
+                    && request.resource.data.otherComments.size() <= 1;
+
+      allow update: if request.auth != null
+                    && request.auth.token.email_verified == true
+                    && request.resource.data.questionId == questionId
+                    && request.resource.data.totalReports == resource.data.totalReports + 1
+                    && request.resource.data.otherComments.size() <= resource.data.otherComments.size() + 1
+                    && request.resource.data.otherComments.size() <= 200;
+
+      allow delete: if false;
+    }
+
+    // Default deny.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,15 +1,1 @@
-{
-  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_15",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize we need 6x\u00b2 directly, not x",
-      "content": "The problem asks for $6x^2$, not the value of $x$. The given equation is $\\frac{72}{x} = 6x$. Notice that $6x$ appears on the right side\u2014this is the key insight that we can find $6x^2$ without actually solving for $x$."
-    },
-    {
-      "title": "Multiply both sides by x",
-      "content": "Starting from $\\frac{72}{x} = 6x$, multiply both sides by $x$:<br/><br/>$$72 = 6x^2$$<br/><br/>Therefore $6x^2 = 72$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"00907d99-e579-47a8-ac65-658aadef4aa7_15","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the cross-multiplication from the given condition","content":"Multiply both sides by $x$: $72 = 6x^{2}$."},{"title":"Compute the target value","content":"So $6x^{2} = 72$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

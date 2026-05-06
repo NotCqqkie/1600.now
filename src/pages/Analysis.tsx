@@ -23,8 +23,14 @@ import {
   TrendingDown,
   TrendingUp,
   User,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import { useThemeMode } from "@/hooks/useThemeMode";
+import {
+  getAllPracticeTestResults,
+  type PracticeTestResult,
+} from "@/lib/practiceTestSession";
 
 // ─── Category map (same as Profile.tsx) ───────────────────────────────────
 
@@ -507,7 +513,7 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
             zIndex: 9999,
             whiteSpace: "nowrap",
             boxShadow: "0 4px 16px rgba(0,0,0,0.18)",
-            fontFamily: "'Outfit', sans-serif",
+            fontFamily: "'Geist', sans-serif",
           }}
         >
           <strong style={{ color: "hsl(var(--foreground))" }}>
@@ -525,6 +531,216 @@ const ActivityHeatmap = ({ dailyCounts }: { dailyCounts: Record<string, number> 
   );
 };
 
+// ─── Past tests strip ─────────────────────────────────────────────────────
+
+const formatTestDate = (timestamp: number) =>
+  new Date(timestamp).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+
+const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
+  const navigate = useNavigate();
+  const scrollerRef = useRef<HTMLDivElement | null>(null);
+
+  const scrollBy = (delta: number) => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    el.scrollLeft += delta;
+  };
+
+  return (
+    <section className="stats-fade" style={{ animationDelay: "0s" }}>
+      <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", marginBottom: 20, gap: 12 }}>
+        <div>
+          <h2
+            style={{
+              fontFamily: "'Geist', Georgia, serif",
+              fontSize: "clamp(20px, 2.5vw, 28px)",
+              fontWeight: 400,
+              color: "hsl(var(--foreground))",
+              margin: "0 0 4px",
+            }}
+          >
+            Past practice tests
+          </h2>
+          <p style={{ fontSize: 13, color: "hsl(var(--muted-foreground))", margin: 0 }}>
+            {results.length} full test{results.length === 1 ? "" : "s"} completed
+          </p>
+        </div>
+        <div style={{ display: "flex", gap: 6 }}>
+          <button
+            type="button"
+            onClick={() => scrollBy(-320)}
+            aria-label="Scroll past tests left"
+            style={{
+              width: 32,
+              height: 32,
+              borderRadius: 999,
+              border: "1px solid hsl(var(--border))",
+              background: "hsl(var(--card))",
+              color: "hsl(var(--foreground))",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+            }}
+          >
+            <ChevronLeft size={16} />
+          </button>
+          <button
+            type="button"
+            onClick={() => scrollBy(320)}
+            aria-label="Scroll past tests right"
+            style={{
+              width: 32,
+              height: 32,
+              borderRadius: 999,
+              border: "1px solid hsl(var(--border))",
+              background: "hsl(var(--card))",
+              color: "hsl(var(--foreground))",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+            }}
+          >
+            <ChevronRight size={16} />
+          </button>
+        </div>
+      </div>
+      <div
+        ref={scrollerRef}
+        style={{
+          display: "flex",
+          gap: 16,
+          overflowX: "auto",
+          overflowY: "hidden",
+          scrollSnapType: "x proximity",
+          paddingBottom: 8,
+          WebkitOverflowScrolling: "touch",
+          scrollbarWidth: "thin",
+        }}
+      >
+        {results.map((result) => (
+          <div
+            key={result.sessionId}
+            style={{
+              flex: "0 0 auto",
+              width: 280,
+              scrollSnapAlign: "start",
+              background: "hsl(var(--card))",
+              border: "1px solid hsl(var(--border))",
+              borderRadius: 16,
+              padding: "20px 22px",
+              display: "flex",
+              flexDirection: "column",
+              gap: 14,
+            }}
+          >
+            <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+              <span
+                style={{
+                  fontSize: 11,
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  color: "hsl(var(--muted-foreground))",
+                  fontWeight: 500,
+                }}
+              >
+                Practice Test {result.practiceSetNumber} · {formatTestDate(result.submittedAt)}
+              </span>
+              <div
+                style={{
+                  fontFamily: "'Space Mono', monospace",
+                  fontSize: 40,
+                  fontWeight: 700,
+                  color: "hsl(var(--foreground))",
+                  letterSpacing: "-0.02em",
+                  lineHeight: 1,
+                }}
+              >
+                {result.totalScore}
+              </div>
+              <span style={{ fontSize: 12, color: "hsl(var(--muted-foreground))" }}>
+                Total score · out of 1600
+              </span>
+            </div>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr",
+                gap: 8,
+                paddingTop: 12,
+                borderTop: "1px solid hsl(var(--border))",
+              }}
+            >
+              <div>
+                <div
+                  style={{
+                    fontSize: 10,
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    color: "hsl(var(--muted-foreground))",
+                    marginBottom: 2,
+                  }}
+                >
+                  Reading & Writing
+                </div>
+                <div
+                  style={{
+                    fontFamily: "'Space Mono', monospace",
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#fb923c",
+                  }}
+                >
+                  {result.readingWritingScore}
+                </div>
+              </div>
+              <div>
+                <div
+                  style={{
+                    fontSize: 10,
+                    letterSpacing: "0.06em",
+                    textTransform: "uppercase",
+                    color: "hsl(var(--muted-foreground))",
+                    marginBottom: 2,
+                  }}
+                >
+                  Math
+                </div>
+                <div
+                  style={{
+                    fontFamily: "'Space Mono', monospace",
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#60a5fa",
+                  }}
+                >
+                  {result.mathScore}
+                </div>
+              </div>
+            </div>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() =>
+                navigate(`/practice-tests/${result.practiceSetId}/results?session=${result.sessionId}`)
+              }
+              className="gap-2"
+            >
+              Review
+              <ArrowRight size={14} />
+            </Button>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
 // ─── Main component ────────────────────────────────────────────────────────
 
 const Analysis = () => {
@@ -533,6 +749,7 @@ const Analysis = () => {
   const { progress } = useUserProgress();
   const isDarkMode = useThemeMode();
   const liveCategoryMap = useMemo(() => buildLiveCategoryMap(), []);
+  const pastTests = useMemo(() => getAllPracticeTestResults(), []);
 
   useEffect(() => {
     const link = document.createElement("link");
@@ -812,7 +1029,7 @@ const Analysis = () => {
   return (
     <div
       className="min-h-screen"
-      style={{ fontFamily: "'Outfit', sans-serif" }}
+      style={{ fontFamily: "'Geist', sans-serif" }}
     >
       {/* ── DARK HERO BANNER ─────────────────────────────────────────── */}
       <section
@@ -885,7 +1102,7 @@ const Analysis = () => {
 
           <h1
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(30px, 4.5vw, 52px)",
               fontWeight: 400,
               color: isDarkMode ? "white" : "hsl(220,35%,15%)",
@@ -989,6 +1206,12 @@ const Analysis = () => {
       <main
         style={{ maxWidth: 1080, margin: "0 auto", padding: "0 24px 88px" }}
       >
+        {pastTests.length > 0 && (
+          <div style={{ paddingTop: 4, marginBottom: 40 }}>
+            <PastTestsStrip results={pastTests} />
+          </div>
+        )}
+
         {!user ? (
           /* Not signed in */
           <div
@@ -1007,7 +1230,7 @@ const Analysis = () => {
             <p
               style={{
                 fontSize: 20,
-                fontFamily: "'Instrument Serif', serif",
+                fontFamily: "'Geist', serif",
                 fontWeight: 400,
                 color: "hsl(var(--foreground))",
                 marginBottom: 10,
@@ -1050,7 +1273,7 @@ const Analysis = () => {
             <p
               style={{
                 fontSize: 20,
-                fontFamily: "'Instrument Serif', serif",
+                fontFamily: "'Geist', serif",
                 fontWeight: 400,
                 color: "hsl(var(--foreground))",
                 marginBottom: 10,
@@ -1081,7 +1304,7 @@ const Analysis = () => {
               <div style={{ marginBottom: 20 }}>
                 <h2
                   style={{
-                    fontFamily: "'Instrument Serif', Georgia, serif",
+                    fontFamily: "'Geist', Georgia, serif",
                     fontSize: "clamp(20px, 2.5vw, 28px)",
                     fontWeight: 400,
                     color: "hsl(var(--foreground))",
@@ -1112,7 +1335,7 @@ const Analysis = () => {
                 <div style={{ marginBottom: 20 }}>
                   <h2
                     style={{
-                      fontFamily: "'Instrument Serif', Georgia, serif",
+                      fontFamily: "'Geist', Georgia, serif",
                       fontSize: "clamp(20px, 2.5vw, 28px)",
                       fontWeight: 400,
                       color: "hsl(var(--foreground))",
@@ -1195,7 +1418,7 @@ const Analysis = () => {
                           border: "1px solid hsl(var(--border))",
                           borderRadius: 8,
                           fontSize: 12,
-                          fontFamily: "'Outfit', sans-serif",
+                          fontFamily: "'Geist', sans-serif",
                         }}
                         formatter={(value: number, _name: string) => [
                           `${value}%`,
@@ -1235,7 +1458,7 @@ const Analysis = () => {
                   <TrendingDown size={16} style={{ color: "#f87171" }} />
                   <h3
                     style={{
-                      fontFamily: "'Instrument Serif', serif",
+                      fontFamily: "'Geist', serif",
                       fontSize: "clamp(18px, 2vw, 24px)",
                       fontWeight: 400,
                       color: "hsl(var(--foreground))",
@@ -1288,7 +1511,7 @@ const Analysis = () => {
                   <TrendingUp size={16} style={{ color: "#38bdf8" }} />
                   <h3
                     style={{
-                      fontFamily: "'Instrument Serif', serif",
+                      fontFamily: "'Geist', serif",
                       fontSize: "clamp(18px, 2vw, 24px)",
                       fontWeight: 400,
                       color: "hsl(var(--foreground))",

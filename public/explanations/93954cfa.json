@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Set up the calculation",
-      "content": "At $2 per pound, the cost for $c$ pounds is found by multiplying the rate by the quantity."
+      "content": "At \\$2 per pound, the cost for $c$ pounds is found by multiplying the rate by the quantity."
     },
     {
       "title": "Multiply to find the total cost",

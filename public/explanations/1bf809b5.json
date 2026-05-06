@@ -1,15 +1,1 @@
-{
-  "questionId": "1bf809b5",
-  "correctAnswer": ".3928",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the sides relative to angle x\u00b0",
-      "content": "The right angle is marked at the bottom-left corner. Angle $x\u00b0$ is at the top-left vertex. For this angle, the <strong>adjacent side</strong> (the side touching $x\u00b0$ that is not the hypotenuse) is the vertical leg with length <strong>11</strong>. The <strong>hypotenuse</strong> (opposite the right angle) is labeled <strong>28</strong>."
-    },
-    {
-      "title": "Apply the cosine ratio",
-      "content": "Cosine is defined as the ratio of the adjacent side to the hypotenuse:<br/><br/>$$\\cos(x\u00b0) = \\frac{\\text{adjacent}}{\\text{hypotenuse}} = \\frac{11}{28}$$<br/><br/>Calculating the decimal value: $\\frac{11}{28} = 0.3928$."
-    }
-  ]
-}
+{"questionId": "1bf809b5", "correctAnswer": ".3928", "section": "Math", "steps": [{"title": "Identify the sides", "content": "In a right triangle, $\\cos\\theta=\\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$. From the figure, the side adjacent to $x^\\circ$ divided by the hypotenuse evaluates to about $0.3928$."}, {"title": "Identify the answer", "content": "So $\\cos x^\\circ \\approx 0.3928$. The answer is <strong>.3928</strong>."}]}

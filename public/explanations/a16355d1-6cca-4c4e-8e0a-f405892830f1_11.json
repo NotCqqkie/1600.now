@@ -1,15 +1,1 @@
-{
-  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_11",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand the function structure",
-      "content": "The function $y = (72w)(w)$ represents area as a product of two factors. Since area = length $\\times$ width, and we're told that length = 72 times the width, the two factors must represent (length) $\\times$ (width)."
-    },
-    {
-      "title": "Identify what 72w represents",
-      "content": "The second factor $w$ is the width. The first factor $(72w)$ represents $72 \\times w$, which is 72 times the width. The problem states that length = 72 times the width, so $(72w)$ is the length. Therefore, $72w$ is the length of the rectangle, in feet. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a16355d1-6cca-4c4e-8e0a-f405892830f1_11","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the dimensions","content":"Width is $w$ feet. The length is $72$ times the width, so length $=72w$ feet. Area $=$ length $\\times$ width gives $$y=(72w)(w).$$"},{"title":"Interpret the factor","content":"In $(72w)(w)$, the factor $w$ is the width, so $(72w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

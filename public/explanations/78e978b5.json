@@ -1,15 +1,1 @@
-{
-  "questionId": "78e978b5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The sentence pairs two countries with two prices: 62 USD in one location and 110 USD in Luxembourg (marked by \u201crespectively\u201d). The blank comes right after \u201cOECD\u201d and must allow the sentence to name which OECD nations are being priced. The phrase \u201cand Luxembourg\u201d follows immediately, so the blank must complete \u201cOECD ______\u201d as a single unit that identifies the first nation or nations."
-    },
-    {
-      "title": "Apply the appositive punctuation rule",
-      "content": "The structure \u201cnations, Chile and Luxembourg\u201d uses an <strong>appositive</strong>\u2014a noun phrase that renames or clarifies the preceding noun. The comma after \u201cnations\u201d introduces the clarifying examples \u201cChile and Luxembourg\u201d that specify which OECD nations are meant. This is the standard punctuation rule for appositives. A semicolon (B) separates independent clauses, which these are not. A colon (C) can introduce a list but is less standard for this construction. No punctuation (D) leaves \u201cnations\u201d and \u201cChile\u201d grammatically unattached, creating an error. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "78e978b5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The sentence pairs two countries with two prices: 62 USD in one location and 110 USD in Luxembourg (marked by “respectively”). The blank comes right after “OECD” and must allow the sentence to name which OECD nations are being priced. The phrase “and Luxembourg” follows immediately, so the blank must complete “OECD ______” as a single unit that identifies the first nation or nations."}, {"title": "Apply the appositive punctuation rule", "content": "“Chile and Luxembourg” functions as a restrictive appositive identifying which OECD nations are meant, so no punctuation is needed between “nations” and “Chile.” Choice A inserts a comma that would treat the names as nonessential, choice B adds an unwarranted semicolon, and choice C uses a colon that interrupts the noun phrase. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

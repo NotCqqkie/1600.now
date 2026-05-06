@@ -1,16 +1,1 @@
-{
-  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_16",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute 15 to both terms",
-      "content": "Apply the distributive property to $15(x + 10)$. Multiply 15 by each term in the parentheses:<br/>$$15 \\cdot x = 15x$$<br/>$$15 \\cdot 10 = 150$$",
-      "formula": "$$a(b+c) = ab + ac$$"
-    },
-    {
-      "title": "Combine to get the equivalent expression",
-      "content": "Adding the products together: $$15x + 150$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ffdaaea2-8ec1-44b7-903d-084c644b881a_16","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $15$:$$15(x+10)=15x+150$$"},{"title":"Match to the answer choices","content":"The simplified expression is $15x+150$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -227,6 +227,16 @@ const sortPracticeModules = (left: PracticeModule, right: PracticeModule) => {
 const pastMathBank = getAllBankQuestions("math", "past");
 const pastReadingBank = getAllBankQuestions("reading", "past");
 
+const synthesizedBankQuestions: Record<BankSubject, Map<string, BankQuestion>> = {
+  math: new Map(),
+  reading: new Map(),
+};
+
+export const getSynthesizedPracticeQuestion = (
+  subject: BankSubject,
+  sourceId: string,
+): BankQuestion | null => synthesizedBankQuestions[subject].get(sourceId) ?? null;
+
 const synthesizeBankQuestion = (
   rawQuestion: RawModuleQuestion,
   subject: BankSubject,
@@ -479,9 +489,11 @@ const practiceModules = rawModuleSources
       const rawQuestion = questionsBySlot.get(slot);
 
       if (rawQuestion) {
-        const bankQuestion =
-          bankQuestionIndexBySubject[moduleSource.subject].get(rawQuestion.id) ??
-          synthesizeBankQuestion(rawQuestion, moduleSource.subject);
+        let bankQuestion = bankQuestionIndexBySubject[moduleSource.subject].get(rawQuestion.id);
+        if (!bankQuestion) {
+          bankQuestion = synthesizeBankQuestion(rawQuestion, moduleSource.subject);
+          synthesizedBankQuestions[moduleSource.subject].set(bankQuestion.sourceId, bankQuestion);
+        }
         practiceQuestions.push({
           slot,
           bankQuestion,

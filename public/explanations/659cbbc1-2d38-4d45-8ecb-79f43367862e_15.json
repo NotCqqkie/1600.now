@@ -1,0 +1,1 @@
+{"questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_15", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up gallons needed", "content": "Painting an area of $w$ once needs $\\frac{w}{70}$ gallons. Painting twice doubles the area covered, requiring:<br/><br/>$$P=\\frac{2w}{70}=\\frac{w}{35}$$<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

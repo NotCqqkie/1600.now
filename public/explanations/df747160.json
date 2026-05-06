@@ -1,16 +1,1 @@
-{
-  "questionId": "df747160",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the difference of squares pattern",
-      "content": "The expression inside the parentheses is $x^2 - 100y^2$. This fits the pattern $a^2 - b^2$ where $a = x$ and $b = 10y$ (since $(10y)^2 = 100y^2$).",
-      "formula": "$$a^2 - b^2 = (a-b)(a+b)$$"
-    },
-    {
-      "title": "Apply the factorization formula",
-      "content": "Substitute $a = x$ and $b = 10y$ into the difference of squares formula:<br/>$$x^2 - 100y^2 = (x - 10y)(x + 10y)$$<br/>Therefore:<br/>$$17(x^2 - 100y^2) = 17(x - 10y)(x + 10y)$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"df747160","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"Inside the parentheses, $x^2-100y^2$ is a difference of squares: $(x-10y)(x+10y)$. Therefore:$$17(x^2-100y^2)=17(x-10y)(x+10y)$$"},{"title":"Match to the answer choices","content":"The factored form is $17(x-10y)(x+10y)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

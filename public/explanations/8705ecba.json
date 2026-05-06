@@ -1,15 +1,1 @@
-{
-  "questionId": "8705ecba",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the sales tax amount",
-      "content": "Sales tax equals 5% of the original price. Calculate: $$0.05 \\times \\$20 = \\$1$$"
-    },
-    {
-      "title": "Add the tax to the original price",
-      "content": "Total cost equals the original price plus sales tax: $$\\$20 + \\$1 = \\$21$$ That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8705ecba", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Calculate the sales tax amount", "content": "Sales tax equals 5% of the original price. Calculate: $$0.05 \\times \\$20 = $1$$"}, {"title": "Add the tax to the original price", "content": "Total cost equals the original price plus sales tax: $$\\$20 + \\$1 = $21$$ That matches choice C — <strong>C</strong> is correct."}]}

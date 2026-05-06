@@ -1,16 +1,1 @@
-{
-  "questionId": "2cd6b22d",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the discriminant shortcut for real solutions",
-      "content": "The equation $5x^2 + 10x + 16 = 0$ is quadratic. Rather than solving for $x$, we use the discriminant to determine the number of distinct real solutions:<br/><ul><li>If discriminant $> 0$: two distinct real solutions</li><li>If discriminant $= 0$: exactly one real solution</li><li>If discriminant $< 0$: zero real solutions</li></ul>",
-      "formula": "$$b^2 - 4ac$$"
-    },
-    {
-      "title": "Calculate the discriminant",
-      "content": "From $5x^2 + 10x + 16 = 0$, we identify $a = 5$, $b = 10$, and $c = 16$. Compute:<br/>$$10^2 - 4(5)(16) = 100 - 320 = -220$$<br/>Since the discriminant equals $-220 < 0$, the equation has zero distinct real solutions. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2cd6b22d", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Compute the discriminant of $5x^2+10x+16=0$: $$b^2-4ac=100-320=-220<0.$$ A negative discriminant means no real roots."}, {"title": "Count the solutions", "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

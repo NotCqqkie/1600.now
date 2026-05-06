@@ -9,7 +9,7 @@
     },
     {
       "title": "Count the x-intercepts from the graph",
-      "content": "Scanning the cubic curve from left to right:<br/><ul><li>First intercept: near $x = -2$, the curve crosses from below to above the x-axis</li><li>Second intercept: near $x = 1$, the curve crosses from above to below the x-axis</li><li>Third intercept: near $x = 3$, the curve crosses from below to above the x-axis</li></ul>The cubic function crosses the x-axis exactly three times. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Reading the graph carefully, the cubic touches/crosses the x-axis at exactly two distinct x-values — at one location it crosses through, and at another it touches the axis (a double root from the squared factor) without changing sign. So there are two distinct values of $x$ for which $f(x) = 0$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

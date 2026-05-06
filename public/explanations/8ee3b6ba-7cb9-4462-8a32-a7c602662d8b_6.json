@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_6",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The underlined sentence uses 'While' to set up a direct contrast: horizontal gene transfer is common in prokaryotes but has rarely been observed in eukaryotes."
-    },
-    {
-      "title": "Match the contrast to the correct choice",
-      "content": "Choice B correctly identifies the function: the sentence contrasts the frequency with which horizontal gene transfer has been detected in two categories of organisms (prokaryotes show common occurrence; eukaryotes show rare occurrence). The other choices either focus on distinguishing mechanics between different processes, treat the sentence as explaining why a perception is flawed, or claim it argues for similarity\u2014none of which applies here. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_6","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify the function","content":"The underlined sentence uses <em>While</em> to oppose two frequencies: HGT is <strong>common</strong> in prokaryotes but <strong>rarely observed</strong> in eukaryotes. Its job is to contrast detection frequency across organism categories."},{"title":"Match to the choices","content":"Choice B captures that frequency contrast across two organism categories. A (mechanics), C (flawed perception), and D (similarity) all miss the frequency comparison. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_18",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor the target expression",
-      "content": "Notice that $-21 - 3x$ can be rewritten by factoring out $-3$: $$-21 - 3x = -3(7 + x)$$"
-    },
-    {
-      "title": "Substitute the given equation",
-      "content": "We know that $7 + x = 5$ from the given equation. Substitute this directly: $$-21 - 3x = -3(7 + x) = -3(5) = -15$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"70b33953-aa61-407d-a25a-a438792bed03_18","correctAnswer":"A","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $-21-3x = -3(7+x)$, and $7+x=5$."},{"title":"Compute the target value","content":"So $-21-3x = -3 \\cdot 5 = -15$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

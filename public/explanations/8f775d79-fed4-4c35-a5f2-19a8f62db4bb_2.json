@@ -1,15 +1,1 @@
-{
-  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_2",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the quadratic and set up the discriminant check",
-      "content": "The equation $x^2 + 100 = 0$ is quadratic. In standard form $ax^2 + bx + c = 0$, we have $a = 1$, $b = 0$, and $c = 100$. The discriminant $\\Delta = b^2 - 4ac$ determines the number of real solutions: if $\\Delta > 0$ there are two solutions, if $\\Delta = 0$ there is one solution, and if $\\Delta < 0$ there are no real solutions."
-    },
-    {
-      "title": "Calculate the discriminant and determine the number of solutions",
-      "content": "$$\\Delta = (0)^2 - 4(1)(100) = 0 - 400 = -400$$<br/>Since $\\Delta = -400 < 0$, the equation has zero real solutions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_2", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Isolating gives $$x^2=-100,$$ but a real square cannot be negative."}, {"title": "Count the solutions", "content": "There are zero real solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

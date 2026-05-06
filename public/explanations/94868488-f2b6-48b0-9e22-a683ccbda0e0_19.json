@@ -1,15 +1,1 @@
-{
-  "questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_19",
-  "correctAnswer": "29",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply Vieta's formula for the product of solutions",
-      "content": "For a quadratic $ax^2 + bx + c = 0$, the product of the solutions is $\\frac{c}{a}$. <br/> In our equation, $a = \\frac{1}{58}$ and $c = -st$. <br/> Product = $\\frac{-st}{\\frac{1}{58}} = -st \\cdot 58 = -58st$."
-    },
-    {
-      "title": "Solve for the constant k",
-      "content": "We are given that the product of solutions equals $-2kst$. <br/> Setting our result equal to this: $$-58st = -2kst$$ <br/> Dividing both sides by $-2st$: $$k = \\frac{58}{2} = 29$$"
-    }
-  ]
-}
+{"questionId": "94868488-f2b6-48b0-9e22-a683ccbda0e0_19", "correctAnswer": "29", "section": "Math", "steps": [{"title": "Apply Vieta's formula", "content": "For $ax^2+bx+c=0$, the product of solutions is $\\frac{c}{a}$. Here $a=\\frac{1}{58}$ and $c=-st$, so the product is $\\frac{-st}{1/58}=-58st$."}, {"title": "Compute the constant", "content": "Setting $-58st=-2kst$ gives $$k=\\frac{58}{2}=29.$$ The answer is <strong>29</strong>."}]}

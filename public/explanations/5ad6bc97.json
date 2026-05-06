@@ -1,11 +1,1 @@
-{
-  "questionId": "5ad6bc97",
-  "correctAnswer": "50",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x equals 7 and evaluate",
-      "content": "The function $f(x) = 7x + 1$ gives the total people for $x$ managers. Substituting $x = 7$:<br/><br/>$$f(7) = 7(7) + 1 = 49 + 1 = 50$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5ad6bc97", "correctAnswer": "50", "section": "Math", "steps": [{"title": "Substitute x equals 7 and evaluate", "content": "The function $f(x) = 7x + 1$ gives the total people for $x$ managers. Substituting $x = 7$:<br/><br/>$$f(7) = 7(7) + 1 = 49 + 1 = 50$$<br/><br/>The answer is <strong>50</strong>."}]}

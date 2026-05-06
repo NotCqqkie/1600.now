@@ -1,15 +1,1 @@
-{
-  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_25",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key difference in the notes",
-      "content": "The notes rate winged kelp's umami as moderate and arame's as high. The goal is to emphasize this difference in intensity."
-    },
-    {
-      "title": "Find the choice that emphasizes this difference",
-      "content": "Choice B uses \u201calthough\u201d to set up a contrast\u2014both are brown seaweed, but one has greater umami intensity. Choices A and C don't signal any difference, and D shifts focus to other foods. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize a <em>difference</em> between winged kelp (moderate umami) and arame (high umami). The correct choice must contrast the two intensities."}, {"title": "Match to choices", "content": "Only one choice highlights that arame's umami is more intense than winged kelp's. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

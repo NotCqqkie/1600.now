@@ -26,7 +26,7 @@ const NotFound = () => {
 
         <h1
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(22px, 3vw, 28px)",
             fontWeight: 400,
             letterSpacing: "-0.02em",

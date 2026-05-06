@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Translate the savings into an equation",
-      "content": "Hannah saves $\\frac{1}{5}$ of her salary, which equals $\\frac{1}{5}h$ dollars. Wyatt saves $\\frac{2}{7}$ of his salary, which equals $\\frac{2}{7}w$ dollars. Since together they save $3,270 each month:<br/><br/>$$\\frac{1}{5}h + \\frac{2}{7}w = 3,270$$"
+      "content": "Hannah saves $\\frac{1}{5}$ of her salary, which equals $\\frac{1}{5}h$ dollars. Wyatt saves $\\frac{2}{7}$ of his salary, which equals $\\frac{2}{7}w$ dollars. Since together they save \\$3,270 each month:<br/><br/>$$\\frac{1}{5}h + \\frac{2}{7}w = 3,270$$"
     },
     {
       "title": "Clear fractions by multiplying by the LCD",

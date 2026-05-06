@@ -1,15 +1,1 @@
-{
-  "questionId": "772de699",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the greatest common factor",
-      "content": "Each term contains at least one factor of $x$: $23x^3 = 23x^2 \\cdot x$, $2x^2 = 2x \\cdot x$, $9x = 9 \\cdot x$. The coefficients 23, 2, and 9 have no common factor. Therefore, the GCF of the entire expression is $x$."
-    },
-    {
-      "title": "Factor and match",
-      "content": "Divide each term by $x$ to find what remains:<br/>$$\\frac{23x^3}{x} = 23x^2, \\quad \\frac{2x^2}{x} = 2x, \\quad \\frac{9x}{x} = 9$$<br/>The factored form is:<br/>$$23x^3 + 2x^2 + 9x = x(23x^2 + 2x + 9)$$<br/>This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"772de699","correctAnswer":"C","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $x$. Factor it out:$$23x^3+2x^2+9x=x(23x^2+2x+9)$$"},{"title":"Match to the answer choices","content":"The factored form is $x(23x^2+2x+9)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

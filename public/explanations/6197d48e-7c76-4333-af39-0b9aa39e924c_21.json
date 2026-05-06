@@ -1,15 +1,1 @@
-{
-  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_21",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize vertex form",
-      "content": "The function $f(x) = (x-4)^2 + 6$ is in vertex form $y = a(x-h)^2 + k$. Reading directly: $a = 1$, $h = 4$, $k = 6$. The vertex is at $(4, 6)$."
-    },
-    {
-      "title": "Find the minimum value",
-      "content": "Since $a = 1 > 0$, the parabola opens upward. For an upward-opening parabola, the vertex represents the minimum point. The minimum value is the $y$-coordinate of the vertex: $k = 6$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_21","correctAnswer":"C","section":"Math","steps":[{"title":"Identify the vertex form","content":"The function is in vertex form $f(x)=(x-h)^{2}+k$ with vertex $(4,6)$. The squared term is $\\ge 0$, so the minimum is at $x=4$."},{"title":"Substitute to find $f(4)$","content":"Substituting: $$f(4)=(4-4)^{2}+6=0+6=6.$$"},{"title":"State the minimum","content":"The minimum value is $6$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

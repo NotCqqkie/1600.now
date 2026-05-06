@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the participial phrase",
-      "content": "The words after the blank \u2013 allowing only some light to pass through \u2013 form a participial phrase that describes krotite. A participial phrase must be set off from the noun it modifies by a comma."
+      "title": "Identify the sentence boundary",
+      "content": "The text describes two minerals. The first sentence is about krotite (classified as <strong>transparent</strong>). The second sentence is about beryl, beginning with a participial phrase: <em>Allowing only some light to pass through</em>, which modifies beryl. So a sentence break is needed after <strong>transparent</strong>."
     },
     {
-      "content": "Choice C inserts a comma after transparent, giving 'transparent, allowing' and correctly setting off the participial phrase. The other three either lack the required comma, use 'and' to create a faulty coordination, or run the words together without punctuation. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "title": "Apply the comma rule"
+      "content": "Choice A uses a period and capitalizes <em>Allowing</em>, correctly ending the krotite sentence and starting a new sentence whose participial phrase modifies <em>beryl</em>. Choice B has no punctuation (run-on), C has only a comma (comma splice between independent clauses), and D inserts <em>and</em> in a way that doesn't connect the two clauses correctly. That matches choice A — <strong>A</strong> is correct.",
+      "title": "Apply the boundary punctuation"
     }
   ]
 }

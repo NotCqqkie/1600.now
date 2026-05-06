@@ -1,16 +1,1 @@
-{
-  "questionId": "508344ac",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the distributive property",
-      "content": "To expand $16(x+15)$, we distribute 16 to each term inside the parentheses:<br/><br/>$$16(x+15) = 16 \\cdot x + 16 \\cdot 15$$",
-      "formula": "$$a(b+c) = ab + ac$$"
-    },
-    {
-      "title": "Calculate and combine the terms",
-      "content": "Evaluate each product:<br/><br/>$$16 \\cdot x = 16x\\quad\\text{and}\\quad 16 \\cdot 15 = 240$$<br/><br/>Therefore, $16(x+15) = 16x + 240$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"508344ac","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $16$:$$16(x+15)=16x+240$$"},{"title":"Match to the answer choices","content":"The simplified expression is $16x+240$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

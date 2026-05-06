@@ -1,15 +1,1 @@
-{
-  "questionId": "26eb61c1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the GCF of the two terms",
-      "content": "The expression $6x^8y^2 + 12x^2y^2$ has two terms. To factor, identify the greatest common factor:<br/><ul><li>Coefficients: GCF(6, 12) = 6</li><li>Powers of $x$: GCF($x^8$, $x^2$) = $x^2$</li><li>Powers of $y$: GCF($y^2$, $y^2$) = $y^2$</li></ul>The overall GCF is $6x^2y^2$."
-    },
-    {
-      "title": "Factor and match to a choice",
-      "content": "Divide each term by the GCF $6x^2y^2$:<br/>$$\\frac{6x^8y^2}{6x^2y^2} = x^6$$<br/>$$\\frac{12x^2y^2}{6x^2y^2} = 2$$<br/>The factored form is:<br/>$$6x^2y^2(x^6 + 2)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"26eb61c1","correctAnswer":"C","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $6x^2y^2$. Factor it out:$$6x^8y^2+12x^2y^2=6x^2y^2(x^6+2)$$"},{"title":"Match to the answer choices","content":"The factored form is $6x^2y^2(x^6+2)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b00ad7f2",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract y from the simpler equation",
-      "content": "From the second equation $5x = 2y$, divide both sides by 2:<br/>$$y = \\frac{5x}{2}$$"
-    },
-    {
-      "title": "Substitute into the first equation and solve",
-      "content": "Substitute $y = \\frac{5x}{2}$ into $y - 9x = 13$:<br/>$$\\frac{5x}{2} - 9x = 13$$<br/>Multiply both sides by 2 to clear the fraction:<br/>$$5x - 18x = 26$$<br/>$$-13x = 26$$<br/>$$x = -2$$<br/><br/>Back-substitute to find $y$:<br/>$$y = \\frac{5(-2)}{2} = \\frac{-10}{2} = -5$$<br/><br/>The solution is $(-2, -5)$, which matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b00ad7f2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $5x=2y$, write $y=\\tfrac{5x}{2}$ and substitute into $y-9x=13$: $$\\tfrac{5x}{2}-9x=13.$$ Multiply by $2$: $-13x=26$, so $x=-2$."}, {"title": "Find the matching ordered pair", "content": "Then $y=\\tfrac{5(-2)}{2}=-5$. The answer is <strong>(C) $(-2,-5)$</strong>."}]}

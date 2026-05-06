@@ -1,15 +1,1 @@
-{
-  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_12",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Spot the common factor",
-      "content": "All three terms contain $x$: $17x^3$, $2x^2$, and $7x$."
-    },
-    {
-      "title": "Factor out and match",
-      "content": "Factor out $x$:<br/>$$17x^3 + 2x^2 + 7x = x(17x^2 + 2x + 7)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"301d8663-e49a-4c21-9635-ef2d02614b43_12","correctAnswer":"C","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $x$. Factor it out:$$17x^3+2x^2+7x=x(17x^2+2x+7)$$"},{"title":"Match to the answer choices","content":"The factored form is $x(17x^2+2x+7)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

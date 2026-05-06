@@ -1,16 +1,1 @@
-{
-  "questionId": "5b6af6b1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute (d-6) across each term",
-      "content": "Multiply each term in the first binomial by each term in the second:<br/><ul><li>$d \\times 8d^2 = 8d^3$</li><li>$d \\times (-3) = -3d$</li><li>$(-6) \\times 8d^2 = -48d^2$</li><li>$(-6) \\times (-3) = +18$</li></ul>Combining all terms: $8d^3 - 3d - 48d^2 + 18$",
-      "formula": "$$(a+b)(c+d) = ac + ad + bc + bd$$"
-    },
-    {
-      "title": "Rearrange by degree and match to the choices",
-      "content": "Reorder $8d^3 - 3d - 48d^2 + 18$ in standard form (descending powers):<br/><br/>$$8d^3 - 48d^2 - 3d + 18$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5b6af6b1","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Use FOIL on $(d-6)(8d^2-3)$:$$=8d^3-3d-48d^2+18$$$$=8d^3-48d^2-3d+18$$"},{"title":"Match to the answer choices","content":"The simplified expression is $8d^3-48d^2-3d+18$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

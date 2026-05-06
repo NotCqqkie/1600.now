@@ -1,15 +1,1 @@
-{
-  "questionId": "4e400635",
-  "correctAnswer": "1",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Subtract the second equation from the first",
-      "content": "Both equations have $3x$ on the left. Subtract equation 2 from equation 1 to eliminate $x$:<br/><br/>$$(3x + 6) - (3x + 4) = 4y - 2y$$<br/><br/>$$2 = 2y$$"
-    },
-    {
-      "title": "Solve for y",
-      "content": "Divide both sides by 2:<br/><br/>$$y = 1$$<br/><br/>The value of $y$ is <strong>1</strong>."
-    }
-  ]
-}
+{"questionId":"4e400635","correctAnswer":"1","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Subtract the second equation from the first: $$(3x+6)-(3x+4)=4y-2y,$$ giving $2=2y$."},{"title":"Find $y$","content":"So $y=1$. The answer is <strong>1</strong>."}]}

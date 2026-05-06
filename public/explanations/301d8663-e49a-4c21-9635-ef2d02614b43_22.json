@@ -1,15 +1,1 @@
-{
-  "questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_22",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange to isolate the squared term",
-      "content": "Add $\\frac{64}{25}$ to both sides:<br/>$$x^2 = \\frac{64}{25}$$"
-    },
-    {
-      "title": "Recognize the form and solve",
-      "content": "When $x^2$ equals a positive constant, taking square roots gives both positive and negative roots:<br/>$$x = \\pm\\sqrt{\\frac{64}{25}} = \\pm\\frac{8}{5}$$<br/>We get two distinct solutions: $x = \\frac{8}{5}$ and $x = -\\frac{8}{5}$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "301d8663-e49a-4c21-9635-ef2d02614b43_22", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Isolate $x^2$: $$x^2=\\tfrac{64}{25}.$$ The right side is positive, so $x=\\pm\\tfrac{8}{5}$."}, {"title": "Count the solutions", "content": "There are two real solutions, $\\tfrac{8}{5}$ and $-\\tfrac{8}{5}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

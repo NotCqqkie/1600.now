@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute the negative sign",
-      "content": "When we subtract the second polynomial, we distribute the negative sign to each of its terms:<br/>$$(6t^{4}-6t^{2}+4t-2)-(5t^{4}-3t^{3}+7t^{2}-2)$$<br/>$$= 6t^{4}-6t^{2}+4t-2 - 5t^{4} + 3t^{3} - 7t^{2} + 2$$<br/>Notice: $-(5t^{4}-3t^{3}+7t^{2}-2)$ becomes $-5t^{4} + 3t^{3} - 7t^{2} + 2$ as all signs flip."
-    },
-    {
-      "title": "Combine like terms",
-      "content": "Group terms by degree:<ul><li>$t^4$: $6t^4 - 5t^4 = t^4$</li><li>$t^3$: $3t^3$</li><li>$t^2$: $-6t^2 - 7t^2 = -13t^2$</li><li>$t$: $4t$</li><li>Constants: $-2 + 2 = 0$</li></ul>The simplified expression is:<br/>$$t^{4}+3t^{3}-13t^{2}+4t$$That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6acacde7-ed77-4956-a395-7f7392d6ba20_6","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Flip every sign in the second polynomial, then group like terms:$$=6t^4-6t^2+4t-2-5t^4+3t^3-7t^2+2$$Combining yields:$$t^4+3t^3-13t^2+4t$$"},{"title":"Match to the answer choices","content":"The simplified expression is $t^4+3t^3-13t^2+4t$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

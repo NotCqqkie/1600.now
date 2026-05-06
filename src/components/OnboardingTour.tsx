@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback, useMemo } from "react";
+import { useEffect, useState, useCallback, useMemo, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
@@ -10,38 +10,43 @@ import {
   BookOpen,
   Calculator,
   ClipboardList,
+  Columns2,
   Compass,
+  FileText,
+  Filter,
   Flame,
   GraduationCap,
   HelpCircle,
   LayoutGrid,
   LineChart,
-  MousePointer2,
+  PanelRight,
   PartyPopper,
   Sparkles,
-  SunMoon,
   Target,
-  X,
+  Wand2,
 } from "lucide-react";
 
 type LucideIcon = React.ComponentType<{ className?: string }>;
 
 type AccentName = "sky" | "violet" | "emerald" | "amber" | "rose" | "cyan" | "fuchsia" | "indigo" | "teal" | "orange";
 
+// Tailwind 500-level for solid accents (text/border) — visible on both light & dark.
+// /25 backgrounds and /30 chip backgrounds chosen so the tinted surfaces actually
+// show against `bg-card` in dark mode without being garish in light mode.
+// `chip` text uses 600 in light mode and 300 in dark via the `dark:` prefix,
+// since the same tint reads differently on each canvas.
 const ACCENT_CLASSES: Record<AccentName, { text: string; ring: string; bg: string; chip: string; grad: string }> = {
-  sky:      { text: "text-sky-500",     ring: "ring-sky-400/40",     bg: "bg-sky-500/15",     chip: "bg-sky-500/20 text-sky-400",     grad: "from-sky-500/30 via-sky-500/10 to-transparent" },
-  violet:   { text: "text-violet-500",  ring: "ring-violet-400/40",  bg: "bg-violet-500/15",  chip: "bg-violet-500/20 text-violet-400", grad: "from-violet-500/30 via-violet-500/10 to-transparent" },
-  emerald:  { text: "text-emerald-500", ring: "ring-emerald-400/40", bg: "bg-emerald-500/15", chip: "bg-emerald-500/20 text-emerald-400", grad: "from-emerald-500/30 via-emerald-500/10 to-transparent" },
-  amber:    { text: "text-amber-500",   ring: "ring-amber-400/40",   bg: "bg-amber-500/15",   chip: "bg-amber-500/20 text-amber-400",   grad: "from-amber-500/30 via-amber-500/10 to-transparent" },
-  rose:     { text: "text-rose-500",    ring: "ring-rose-400/40",    bg: "bg-rose-500/15",    chip: "bg-rose-500/20 text-rose-400",    grad: "from-rose-500/30 via-rose-500/10 to-transparent" },
-  cyan:     { text: "text-cyan-500",    ring: "ring-cyan-400/40",    bg: "bg-cyan-500/15",    chip: "bg-cyan-500/20 text-cyan-400",    grad: "from-cyan-500/30 via-cyan-500/10 to-transparent" },
-  fuchsia:  { text: "text-fuchsia-500", ring: "ring-fuchsia-400/40", bg: "bg-fuchsia-500/15", chip: "bg-fuchsia-500/20 text-fuchsia-400", grad: "from-fuchsia-500/30 via-fuchsia-500/10 to-transparent" },
-  indigo:   { text: "text-indigo-500",  ring: "ring-indigo-400/40",  bg: "bg-indigo-500/15",  chip: "bg-indigo-500/20 text-indigo-400", grad: "from-indigo-500/30 via-indigo-500/10 to-transparent" },
-  teal:     { text: "text-teal-500",    ring: "ring-teal-400/40",    bg: "bg-teal-500/15",    chip: "bg-teal-500/20 text-teal-400",    grad: "from-teal-500/30 via-teal-500/10 to-transparent" },
-  orange:   { text: "text-orange-500",  ring: "ring-orange-400/40",  bg: "bg-orange-500/15",  chip: "bg-orange-500/20 text-orange-400", grad: "from-orange-500/30 via-orange-500/10 to-transparent" },
+  sky:      { text: "text-sky-500",     ring: "ring-sky-400/40",     bg: "bg-sky-500/25",     chip: "bg-sky-500/30 text-sky-700 dark:text-sky-200",         grad: "from-sky-500/30 via-sky-500/10 to-transparent" },
+  violet:   { text: "text-violet-500",  ring: "ring-violet-400/40",  bg: "bg-violet-500/25",  chip: "bg-violet-500/30 text-violet-700 dark:text-violet-200", grad: "from-violet-500/30 via-violet-500/10 to-transparent" },
+  emerald:  { text: "text-emerald-600", ring: "ring-emerald-400/40", bg: "bg-emerald-500/25", chip: "bg-emerald-500/30 text-emerald-700 dark:text-emerald-200", grad: "from-emerald-500/30 via-emerald-500/10 to-transparent" },
+  amber:    { text: "text-amber-500",   ring: "ring-amber-400/40",   bg: "bg-amber-500/25",   chip: "bg-amber-500/30 text-amber-700 dark:text-amber-200",   grad: "from-amber-500/30 via-amber-500/10 to-transparent" },
+  rose:     { text: "text-rose-500",    ring: "ring-rose-400/40",    bg: "bg-rose-500/25",    chip: "bg-rose-500/30 text-rose-700 dark:text-rose-200",     grad: "from-rose-500/30 via-rose-500/10 to-transparent" },
+  cyan:     { text: "text-cyan-600",    ring: "ring-cyan-400/40",    bg: "bg-cyan-500/25",    chip: "bg-cyan-500/30 text-cyan-700 dark:text-cyan-200",     grad: "from-cyan-500/30 via-cyan-500/10 to-transparent" },
+  fuchsia:  { text: "text-fuchsia-500", ring: "ring-fuchsia-400/40", bg: "bg-fuchsia-500/25", chip: "bg-fuchsia-500/30 text-fuchsia-700 dark:text-fuchsia-200", grad: "from-fuchsia-500/30 via-fuchsia-500/10 to-transparent" },
+  indigo:   { text: "text-indigo-500",  ring: "ring-indigo-400/40",  bg: "bg-indigo-500/25",  chip: "bg-indigo-500/30 text-indigo-700 dark:text-indigo-200", grad: "from-indigo-500/30 via-indigo-500/10 to-transparent" },
+  teal:     { text: "text-teal-600",    ring: "ring-teal-400/40",    bg: "bg-teal-500/25",    chip: "bg-teal-500/30 text-teal-700 dark:text-teal-200",     grad: "from-teal-500/30 via-teal-500/10 to-transparent" },
+  orange:   { text: "text-orange-500",  ring: "ring-orange-400/40",  bg: "bg-orange-500/25",  chip: "bg-orange-500/30 text-orange-700 dark:text-orange-200", grad: "from-orange-500/30 via-orange-500/10 to-transparent" },
 };
-
-type StepKind = "splash" | "spotlight" | "panel" | "finale";
 
 interface BaseStep {
   key: string;
@@ -55,21 +60,33 @@ interface SpotlightStep extends BaseStep {
   kind: "spotlight";
   target: string; // data-tour value
   route?: string;
-  pad?: number; // extra spotlight padding
+  pad?: number;
+  /** data-tour key to click via JS after navigation but before resolving target.
+   *  Used to programmatically open dialogs. */
+  clickFirst?: string;
+  /** data-tour key to click when leaving the step (toggles dialogs closed). */
+  clickOnExit?: string;
+  /** Position the coach card on the opposite side rather than auto-best */
+  preferSide?: "right" | "left" | "bottom" | "top";
+  /** When set, drop the dim opacity so the destination page content shows
+   *  through, and pin the coach card to the bottom-right corner so it doesn't
+   *  block what the user just landed on. Used for sidebar-nav steps. */
+  revealContent?: boolean;
 }
-interface PanelStep extends BaseStep { kind: "panel"; panel: "desmos" | "reference" | "modules" }
 interface FinaleStep extends BaseStep { kind: "finale" }
-type Step = SplashStep | SpotlightStep | PanelStep | FinaleStep;
+type Step = SplashStep | SpotlightStep | FinaleStep;
 
 const STEPS: Step[] = [
+  // 0 — splash
   {
     kind: "splash",
     key: "welcome",
     icon: Sparkles,
-    title: "Welcome to 1600",
-    body: "We'll take you on a quick tour so you know exactly where everything lives. Use the arrow keys, or just hit Next.",
+    title: "Welcome to 1600.now",
+    body: "Quick tour — we'll walk you through the real pages so you know exactly where everything lives.",
     accent: "sky",
   },
+  // 1 — sidebar overview
   {
     kind: "spotlight",
     key: "sidebar",
@@ -80,102 +97,156 @@ const STEPS: Step[] = [
     target: "sidebar",
     pad: 6,
   },
+  // 2 — Question Bank nav
   {
     kind: "spotlight",
     key: "bank",
     icon: BookOpen,
     title: "Question Bank",
-    body: "5,000+ real SAT questions, organized by skill and difficulty. Filter, study, and review at your own pace.",
+    body: "Let's start with the bank. 5,000+ real SAT questions, organized by skill and difficulty.",
     accent: "violet",
     target: "nav-bank",
     route: "/bank",
+    revealContent: true,
   },
+  // 3 — bank filters showcase
+  {
+    kind: "spotlight",
+    key: "filters",
+    icon: Filter,
+    title: "Filter to what you need",
+    body: "Slice by subject, difficulty, skill, source, marked-for-review — the bank reshapes around your filters live.",
+    accent: "violet",
+    target: "bank-filters",
+    route: "/bank",
+    pad: 8,
+    preferSide: "bottom",
+  },
+  // 4 — Practice Tests nav
   {
     kind: "spotlight",
     key: "modules",
     icon: GraduationCap,
     title: "Practice Tests",
-    body: "Full-length, timed exams that mirror the real SAT. You get section scores and a breakdown when you're done.",
+    body: "Full-length, timed exams that mirror the real SAT — section scores and a breakdown when you're done.",
     accent: "emerald",
     target: "nav-modules",
     route: "/modules",
+    revealContent: true,
   },
-  {
-    kind: "panel",
-    key: "in-test-tools",
-    icon: Compass,
-    title: "Tools inside the test",
-    body: "While you take a practice test, you'll have the full SAT toolkit on screen — Desmos for graphing and the reference sheet for formulas.",
-    accent: "cyan",
-    panel: "modules",
-  },
-  {
-    kind: "panel",
-    key: "desmos",
-    icon: LineChart,
-    title: "Built-in Desmos",
-    body: "The same Desmos calculator the real SAT ships with — drag it around, dock it, or split-screen it next to the question.",
-    accent: "teal",
-    panel: "desmos",
-  },
-  {
-    kind: "panel",
-    key: "reference",
-    icon: ClipboardList,
-    title: "Reference sheet",
-    body: "Every formula the College Board hands out, one tap away. Pin it open during a section if you want it nearby.",
-    accent: "fuchsia",
-    panel: "reference",
-  },
+  // 5 — 100 Hard Math
   {
     kind: "spotlight",
     key: "hard",
     icon: Flame,
     title: "100 Hard Math",
-    body: "The 100 hardest math questions we could find. If you can crush these, you can crush the test.",
+    body: "The 100 hardest math questions we could find. Crush these and the real test feels gentle.",
     accent: "rose",
     target: "nav-hard",
     route: "/hard",
+    revealContent: true,
   },
+  // 6 — Vocab
   {
     kind: "spotlight",
     key: "vocab",
     icon: BookA,
     title: "Vocabulary",
-    body: "The words the SAT loves to test, with quick-fire flashcards and spaced repetition that actually stick.",
+    body: "Quick-fire flashcards with spaced repetition — the words the SAT actually loves to test.",
     accent: "amber",
     target: "nav-vocab",
     route: "/vocab",
+    revealContent: true,
   },
-  {
-    kind: "spotlight",
-    key: "calc",
-    icon: Calculator,
-    title: "Score Calculator",
-    body: "Plug in your raw scores and see exactly what you'd hit on the real test. No guesswork.",
-    accent: "orange",
-    target: "nav-calc",
-    route: "/score-calculator",
-  },
+  // 7 — Statistics
   {
     kind: "spotlight",
     key: "stats",
     icon: BarChart3,
     title: "Your statistics",
     body: "Track accuracy by skill, difficulty, and section over time. The data you actually need to study smarter.",
-    accent: "violet",
+    accent: "indigo",
     target: "nav-stats",
     route: "/analysis",
+    revealContent: true,
   },
+  // 8 — Inside the question viewer (live page) — highlight reference button
   {
     kind: "spotlight",
-    key: "theme",
-    icon: SunMoon,
-    title: "Light or dark — your call",
-    body: "Toggle the theme any time. The whole app adapts, including charts and question rendering.",
-    accent: "sky",
-    target: "theme-toggle",
+    key: "question-toolbar",
+    icon: Compass,
+    title: "Inside any question",
+    body: "We just dropped you into a real question. Up here is your toolbar — let's open the tools.",
+    accent: "cyan",
+    target: "reference-button",
+    route: "/hard/1",
+    pad: 6,
+    preferSide: "bottom",
   },
+  // 9 — Live reference sheet
+  {
+    kind: "spotlight",
+    key: "reference-window",
+    icon: FileText,
+    title: "Reference sheet — for real",
+    body: "Every formula the College Board hands out, one tap away. Drag it, dock it, or pin it side-by-side.",
+    accent: "fuchsia",
+    target: "window-referenceSheet",
+    clickFirst: "reference-button",
+    clickOnExit: "reference-button",
+    pad: 4,
+  },
+  // 10 — Desmos button
+  {
+    kind: "spotlight",
+    key: "desmos-button",
+    icon: Calculator,
+    title: "Desmos lives here",
+    body: "Same calculator the real SAT ships with — graph anything, no extra tabs needed.",
+    accent: "teal",
+    target: "desmos-button",
+    pad: 6,
+    preferSide: "bottom",
+  },
+  // 11 — Live Desmos (floating). Window stays open for the next two steps.
+  {
+    kind: "spotlight",
+    key: "desmos-window",
+    icon: LineChart,
+    title: "Built-in Desmos",
+    body: "Drag it around, resize it, graph anything. Try y = x² when this tour ends.",
+    accent: "teal",
+    target: "window-desmos",
+    clickFirst: "desmos-button",
+    pad: 4,
+  },
+  // 12 — Highlight the sidebar-toggle button on the open Desmos window
+  {
+    kind: "spotlight",
+    key: "desmos-sidebar-toggle",
+    icon: PanelRight,
+    title: "Or pop it to the side",
+    body: "See this button at the top-left of the Desmos window? Click it to dock the calculator to the side of the screen.",
+    accent: "teal",
+    target: "sidebar-toggle-desmos",
+    pad: 4,
+    preferSide: "right",
+  },
+  // 13 — Click the toggle, show Desmos in sidebar mode
+  {
+    kind: "spotlight",
+    key: "desmos-sidebarred",
+    icon: Columns2,
+    title: "Side-by-side mode",
+    body: "Now Desmos is docked next to the question — graph and answer at the same time. Click the same button again to pop it back out.",
+    accent: "teal",
+    target: "window-desmos",
+    clickFirst: "sidebar-toggle-desmos",
+    clickOnExit: "desmos-button",
+    pad: 4,
+    preferSide: "right",
+  },
+  // 14 — Replay tour
   {
     kind: "spotlight",
     key: "replay",
@@ -184,7 +255,9 @@ const STEPS: Step[] = [
     body: "Click here whenever you want to see this walkthrough again. No tour-FOMO.",
     accent: "emerald",
     target: "tour-replay",
+    route: "/bank",
   },
+  // 13 — Finale
   {
     kind: "finale",
     key: "ready",
@@ -196,6 +269,57 @@ const STEPS: Step[] = [
 ];
 
 const tourKey = (uid: string | undefined) => `onboarding-seen:${uid ?? "anon"}`;
+
+/**
+ * Maximum account age (in ms) for the tour to auto-open.
+ *
+ * Beyond this, the tour will only appear if the user explicitly clicks the
+ * "Replay tour" button in the sidebar footer. The intent: brand-new users
+ * get the tour as part of onboarding; long-time users who never saw it
+ * shouldn't get a surprise tour popping up.
+ *
+ * Trade-offs:
+ *   - 24 * 60 * 60 * 1000 (24h): captures "signed up yesterday, came back today"
+ *   - 7 * 24 * 60 * 60 * 1000 (1 week): more lenient, but anyone who has
+ *     used the app for a week probably knows their way around
+ *   - 60 * 60 * 1000 (1h): only "literally just signed up" — you'd want
+ *     this if signups are immediate and verification is instant
+ *
+ * Note: regardless of this gate, we ALSO auto-open if the post-signup
+ * `onboarding-pending` sessionStorage flag is set, so the tour always runs
+ * once right after a fresh signup even if the threshold were 0.
+ */
+const NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS = 24 * 60 * 60 * 1000;
+
+const isAccountWithinWindow = (creationTime: string | undefined, windowMs: number) => {
+  if (!creationTime) return false;
+  const created = new Date(creationTime).getTime();
+  if (Number.isNaN(created)) return false;
+  return Date.now() - created < windowMs;
+};
+
+/**
+ * Warm the lazy-loaded route chunks the tour will visit. The pages in
+ * App.tsx are wrapped in `React.lazy()`, which means `navigate("/bank")`
+ * triggers a chunk fetch the first time. If we wait until the tour clicks
+ * Next, the user stares at the navigation mask for as long as the network
+ * round-trip takes (sometimes 1–2s on a cold cache).
+ *
+ * Calling these dynamic imports at tour open kicks off the fetches in
+ * parallel and Vite caches the modules. By the time the user clicks
+ * through, `navigate()` resolves the lazy boundary instantly.
+ *
+ * We deliberately ignore the promises — we don't need to *await* the
+ * fetch, just start it. The browser does the rest.
+ */
+const preloadTourRoutes = () => {
+  void import("@/pages/BankIndex");
+  void import("@/pages/Modules");
+  void import("@/pages/HardQuestionsIntro");
+  void import("@/pages/Vocab");
+  void import("@/pages/Analysis");
+  void import("@/pages/Question");
+};
 
 type Rect = { x: number; y: number; w: number; h: number };
 
@@ -212,31 +336,40 @@ const findTargetRect = (target: string, pad = 4): Rect | null => {
   };
 };
 
-const waitForTarget = (target: string, pad: number, timeoutMs = 2500): Promise<Rect | null> => {
+const waitForTarget = (target: string, pad: number, timeoutMs = 3500): Promise<Rect | null> => {
   return new Promise((resolve) => {
     const immediate = findTargetRect(target, pad);
     if (immediate) return resolve(immediate);
-    const start = performance.now();
+    let settled = false;
+    const finish = (value: Rect | null) => {
+      if (settled) return;
+      settled = true;
+      observer.disconnect();
+      window.clearTimeout(timeoutId);
+      resolve(value);
+    };
     const observer = new MutationObserver(() => {
       const r = findTargetRect(target, pad);
-      if (r) {
-        observer.disconnect();
-        resolve(r);
-      } else if (performance.now() - start > timeoutMs) {
-        observer.disconnect();
-        resolve(null);
-      }
+      if (r) finish(r);
     });
-    observer.observe(document.body, { childList: true, subtree: true });
-    window.setTimeout(() => {
-      observer.disconnect();
-      resolve(findTargetRect(target, pad));
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true });
+    const timeoutId = window.setTimeout(() => {
+      finish(findTargetRect(target, pad));
     }, timeoutMs);
   });
 };
 
-// Compute coach card position relative to a rect, picking the side with most room.
-const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18) => {
+const clickByTour = (target: string) => {
+  const el = document.querySelector<HTMLElement>(`[data-tour="${target}"]`);
+  if (!el) return;
+  // Synthesize a full MouseEvent — some component libraries listen on
+  // `mousedown` only, and `el.click()` alone doesn't fire mousedown handlers.
+  el.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, cancelable: true, button: 0 }));
+  el.dispatchEvent(new MouseEvent("mouseup", { bubbles: true, cancelable: true, button: 0 }));
+  el.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, button: 0 }));
+};
+
+const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18, prefer?: "right" | "left" | "bottom" | "top") => {
   const vw = window.innerWidth;
   const vh = window.innerHeight;
   const rightSpace = vw - (rect.x + rect.w);
@@ -245,11 +378,20 @@ const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18) => {
   const topSpace = rect.y;
 
   let side: "right" | "left" | "bottom" | "top" = "right";
-  const max = Math.max(rightSpace, leftSpace, bottomSpace, topSpace);
-  if (max === rightSpace) side = "right";
-  else if (max === leftSpace) side = "left";
-  else if (max === bottomSpace) side = "bottom";
-  else side = "top";
+  if (prefer && (
+    (prefer === "right" && rightSpace >= cardW + gap + 12) ||
+    (prefer === "left" && leftSpace >= cardW + gap + 12) ||
+    (prefer === "bottom" && bottomSpace >= cardH + gap + 12) ||
+    (prefer === "top" && topSpace >= cardH + gap + 12)
+  )) {
+    side = prefer;
+  } else {
+    const max = Math.max(rightSpace, leftSpace, bottomSpace, topSpace);
+    if (max === rightSpace) side = "right";
+    else if (max === leftSpace) side = "left";
+    else if (max === bottomSpace) side = "bottom";
+    else side = "top";
+  }
 
   let left = 0, top = 0;
   if (side === "right")  { left = rect.x + rect.w + gap; top = rect.y + rect.h / 2 - cardH / 2; }
@@ -257,7 +399,6 @@ const computeCoachPos = (rect: Rect, cardW = 380, cardH = 240, gap = 18) => {
   if (side === "bottom") { top = rect.y + rect.h + gap; left = rect.x + rect.w / 2 - cardW / 2; }
   if (side === "top")    { top = rect.y - cardH - gap; left = rect.x + rect.w / 2 - cardW / 2; }
 
-  // Clamp within viewport
   left = Math.max(12, Math.min(left, vw - cardW - 12));
   top = Math.max(12, Math.min(top, vh - cardH - 12));
   return { left, top, side };
@@ -315,31 +456,24 @@ const SplashCard = ({ step, onNext, onSkip, index, total }: {
           <div className={`relative flex h-24 w-24 items-center justify-center rounded-3xl border border-border/60 bg-card/80 backdrop-blur ${c.text} tour-splash-orb`}>
             <Icon className="h-12 w-12" />
           </div>
-          {/* Spinning ring */}
           <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed ${c.ring} tour-ring-spin`} />
         </div>
         <h2
           className="mb-4 text-foreground tour-splash-text"
-          style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
-            fontSize: 56,
-            lineHeight: 1.02,
-          }}
+          style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}
         >
           {step.title}
         </h2>
-        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-muted-foreground tour-splash-text" style={{ animationDelay: "120ms" }}>
+        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-muted-foreground tour-splash-text" style={{ animationDelay: "60ms" }}>
           {step.body}
         </p>
-
-        <div className="mt-9 flex items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "240ms" }}>
+        <div className="mt-9 flex items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
           <Button variant="ghost" onClick={onSkip} className="text-muted-foreground hover:text-foreground">Skip tour</Button>
           <Button size="lg" onClick={onNext} className="gap-2 px-6">
             Take the tour
             <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
-
         <div className="mt-8 text-xs text-muted-foreground tabular-nums">{index + 1} / {total}</div>
       </div>
     </div>
@@ -355,14 +489,19 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
     <div className="relative flex h-full w-full items-center justify-center px-6">
       <FloatingBlobs accent={step.accent} />
 
-      {/* Confetti burst */}
+      {/* Continuous confetti shower — particles fall on a long loop with
+       * staggered delays so the burst keeps replenishing itself for as long
+       * as the user lingers on the finale. Each particle is one of 6
+       * celebration colors, rotated to a different bearing, and travels a
+       * different distance. */}
       <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2">
-        {Array.from({ length: 28 }).map((_, i) => {
-          const rot = (i * 360) / 28;
-          const dist = 180 + (i % 5) * 40;
+        {Array.from({ length: 36 }).map((_, i) => {
+          const rot = (i * 360) / 36;
+          const dist = 180 + (i % 6) * 50;
           const colors = ["#ec4899", "#a855f7", "#22d3ee", "#facc15", "#34d399", "#f97316"];
           const color = colors[i % colors.length];
-          const delay = (i % 6) * 0.05;
+          const delay = (i * 137) % 2400;
+          const dur = 2400 + ((i * 91) % 1600);
           return (
             <span
               key={i}
@@ -372,35 +511,56 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
                 background: color,
                 ["--c-rot" as never]: `${rot}deg`,
                 ["--c-dist" as never]: `${dist}px`,
-                animation: `tour-confetti 1.4s cubic-bezier(0.22, 1, 0.36, 1) ${delay}s forwards`,
+                animation: `tour-confetti ${dur}ms cubic-bezier(0.22, 1, 0.36, 1) ${delay}ms infinite`,
               }}
             />
           );
         })}
       </div>
 
+      {/* Orbiting celebration glyphs — same trick the splash uses, rotated
+       * with the celebration-themed icon set so the finale feels alive. */}
+      <div aria-hidden className="pointer-events-none absolute inset-0">
+        {[0, 1, 2, 3, 4, 5].map((i) => {
+          const r = 200 + (i % 3) * 60;
+          const dur = 22 + (i % 4) * 6;
+          const delay = i * -4;
+          const Glyph = [Sparkles, PartyPopper, Wand2, Sparkles, Sparkles, PartyPopper][i];
+          return (
+            <div
+              key={i}
+              className="absolute left-1/2 top-1/2 h-7 w-7"
+              style={{
+                ["--orbit-r" as never]: `${r}px`,
+                animation: `tour-orbit ${dur}s linear infinite`,
+                animationDelay: `${delay}s`,
+                opacity: 0.32,
+              }}
+            >
+              <Glyph className={`h-7 w-7 ${c.text}`} />
+            </div>
+          );
+        })}
+      </div>
+
       <div className="relative z-10 max-w-xl text-center">
         <div className="relative mx-auto mb-8 h-28 w-28">
+          {/* Soft ambient pulse so the orb isn't static. */}
+          <div className={`absolute -inset-2 rounded-full ${c.bg} blur-2xl tour-splash-orb`} style={{ animation: "tour-card-glow 3.6s ease-in-out infinite" }} />
           <div className={`absolute inset-0 rounded-full ${c.bg} blur-xl tour-splash-orb`} />
           <div className={`relative flex h-28 w-28 items-center justify-center rounded-full border border-border/60 bg-card/80 backdrop-blur ${c.text} tour-splash-orb`}>
             <Icon className="h-14 w-14" />
           </div>
+          {/* Spinning dashed ring matching the splash's vibe. */}
+          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed ${c.ring} tour-ring-spin`} />
         </div>
-        <h2
-          className="mb-4 text-foreground tour-splash-text"
-          style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
-            fontSize: 56,
-            lineHeight: 1.02,
-          }}
-        >
+        <h2 className="mb-4 text-foreground tour-splash-text" style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
           {step.title}
         </h2>
-        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-muted-foreground tour-splash-text" style={{ animationDelay: "120ms" }}>
+        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-muted-foreground tour-splash-text" style={{ animationDelay: "60ms" }}>
           {step.body}
         </p>
-
-        <div className="mt-9 flex flex-wrap items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "240ms" }}>
+        <div className="mt-9 flex flex-wrap items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
           <Button variant="outline" onClick={() => onJump("/bank")} className="gap-2">
             <BookOpen className="h-4 w-4" /> Question Bank
           </Button>
@@ -409,175 +569,10 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
           </Button>
           <Button size="lg" onClick={onClose} className="gap-2 px-6">
             I'm ready
-            <Sparkles className="h-4 w-4" />
+            <Wand2 className="h-4 w-4" />
           </Button>
         </div>
-
         <div className="mt-8 text-xs text-muted-foreground tabular-nums">{index + 1} / {total}</div>
-      </div>
-    </div>
-  );
-};
-
-// ─── Mock panels for in-test tools ────────────────────────────────────
-
-const MockQuestionPanel = ({ accent }: { accent: AccentName }) => {
-  const c = ACCENT_CLASSES[accent];
-  return (
-    <div className="tour-mock-fade w-[min(640px,90vw)] rounded-2xl border border-border/70 bg-card/95 shadow-2xl backdrop-blur">
-      <div className="flex items-center justify-between border-b border-border/60 px-4 py-2.5">
-        <div className="flex items-center gap-2 text-xs text-muted-foreground">
-          <span className={`inline-block h-2 w-2 rounded-full ${c.bg}`} />
-          Module 1 · Question 7 of 22
-        </div>
-        <div className="flex items-center gap-2">
-          <span className="rounded-md border border-border/70 bg-background/60 px-2 py-1 text-[11px] text-muted-foreground">📐 Reference</span>
-          <span className={`rounded-md border border-border/70 bg-background/60 px-2 py-1 text-[11px] ${c.text}`}>📊 Calculator</span>
-          <span className="rounded-md border border-border/70 bg-background/60 px-2 py-1 text-[11px] text-muted-foreground tabular-nums">12:43</span>
-        </div>
-      </div>
-      <div className="p-5">
-        <div className="mb-3 h-3 w-2/3 rounded bg-muted/70" />
-        <div className="mb-2 h-3 w-full rounded bg-muted/50" />
-        <div className="mb-5 h-3 w-5/6 rounded bg-muted/50" />
-        <div className="space-y-2">
-          {["A", "B", "C", "D"].map((l, i) => (
-            <div key={l} className={`flex items-center gap-3 rounded-lg border px-3 py-2.5 ${i === 1 ? `${c.ring} ring-2 border-transparent ${c.bg}` : "border-border/70 bg-background/40"}`}>
-              <span className="flex h-6 w-6 items-center justify-center rounded-full border border-border/70 text-[11px] font-semibold">{l}</span>
-              <span className="h-3 flex-1 rounded bg-muted/40" />
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const MockReferenceSheet = ({ accent }: { accent: AccentName }) => {
-  const c = ACCENT_CLASSES[accent];
-  return (
-    <div className={`tour-mock-fade tour-float-y w-[min(360px,80vw)] rounded-xl border ${c.ring} ring-2 bg-card/95 shadow-2xl backdrop-blur`}>
-      <div className="flex items-center justify-between border-b border-border/60 px-3 py-2 text-xs text-muted-foreground">
-        <span className="font-semibold uppercase tracking-wider">Reference</span>
-        <X className="h-3 w-3 opacity-50" />
-      </div>
-      <div className="space-y-3 p-4 text-[12px]">
-        <div className="rounded-md bg-muted/40 p-3 font-mono">
-          A = πr²
-          <br />C = 2πr
-        </div>
-        <div className="rounded-md bg-muted/40 p-3 font-mono">
-          a² + b² = c²
-        </div>
-        <div className="rounded-md bg-muted/40 p-3 font-mono">
-          V = lwh
-          <br />V = (4/3)πr³
-        </div>
-        <div className="rounded-md bg-muted/40 p-3 font-mono text-center text-[11px]">
-          30°-60°-90° · 45°-45°-90°
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const MockDesmos = ({ accent }: { accent: AccentName }) => {
-  const c = ACCENT_CLASSES[accent];
-  return (
-    <div className={`tour-mock-fade tour-float-y w-[min(420px,85vw)] rounded-xl border ${c.ring} ring-2 bg-card/95 shadow-2xl backdrop-blur`}>
-      <div className="flex items-center justify-between border-b border-border/60 px-3 py-2 text-xs text-muted-foreground">
-        <span className="font-semibold uppercase tracking-wider">Desmos</span>
-        <X className="h-3 w-3 opacity-50" />
-      </div>
-      <div className="grid grid-cols-[110px_1fr]">
-        <div className="space-y-1.5 border-r border-border/60 p-2 text-[11px]">
-          <div className={`rounded-md ${c.bg} px-2 py-1.5 font-mono ${c.text}`}>y = x² − 3</div>
-          <div className="rounded-md bg-muted/40 px-2 py-1.5 font-mono text-muted-foreground">y = 2x + 1</div>
-          <div className="rounded-md bg-muted/40 px-2 py-1.5 font-mono text-muted-foreground">+ add</div>
-        </div>
-        <div className="relative h-[180px] overflow-hidden bg-background/40">
-          {/* Grid */}
-          <svg className="absolute inset-0 h-full w-full" viewBox="0 0 200 180" preserveAspectRatio="none">
-            <defs>
-              <pattern id="tourgrid" width="20" height="20" patternUnits="userSpaceOnUse">
-                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="currentColor" strokeWidth="0.5" className="text-muted-foreground/30" />
-              </pattern>
-            </defs>
-            <rect width="200" height="180" fill="url(#tourgrid)" />
-            <line x1="0" y1="90" x2="200" y2="90" stroke="currentColor" strokeWidth="1" className="text-muted-foreground/60" />
-            <line x1="100" y1="0" x2="100" y2="180" stroke="currentColor" strokeWidth="1" className="text-muted-foreground/60" />
-            {/* Parabola */}
-            <path
-              d="M 20 30 Q 100 200 180 30"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              className={c.text}
-            />
-            {/* Line */}
-            <line x1="20" y1="150" x2="180" y2="40" stroke="currentColor" strokeWidth="2" className="text-muted-foreground/70" strokeDasharray="4 3" />
-          </svg>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const MockModulesGrid = ({ accent }: { accent: AccentName }) => {
-  const c = ACCENT_CLASSES[accent];
-  return (
-    <div className="tour-mock-fade w-[min(520px,90vw)] rounded-2xl border border-border/70 bg-card/95 p-4 shadow-2xl backdrop-blur">
-      <div className="mb-3 flex items-center justify-between">
-        <span className="text-sm font-semibold">Practice tests</span>
-        <span className={`rounded-full ${c.chip} px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider`}>Timed</span>
-      </div>
-      <div className="grid grid-cols-2 gap-3">
-        {[1, 2, 3, 4].map((i) => (
-          <div key={i} className="rounded-lg border border-border/70 bg-background/40 p-3">
-            <div className={`mb-2 inline-flex h-7 w-7 items-center justify-center rounded-md ${c.bg} ${c.text}`}>
-              <GraduationCap className="h-4 w-4" />
-            </div>
-            <div className="mb-1 h-3 w-3/4 rounded bg-muted/60" />
-            <div className="mb-3 h-2.5 w-1/2 rounded bg-muted/40" />
-            <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted/40">
-              <div className={`h-full ${c.bg} brightness-150`} style={{ width: `${20 + i * 18}%` }} />
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const PanelStage = ({ step }: { step: PanelStep }) => {
-  return (
-    <div className="relative flex h-full w-full items-center justify-center px-6">
-      <FloatingBlobs accent={step.accent} />
-      <div className="relative z-10 flex flex-col items-center gap-6">
-        {step.panel === "modules" && (
-          <div className="relative">
-            <MockModulesGrid accent={step.accent} />
-            <div className="absolute -bottom-3 -right-3 tour-cursor-tap">
-              <MousePointer2 className="h-7 w-7 text-foreground drop-shadow-lg" />
-            </div>
-          </div>
-        )}
-        {step.panel === "desmos" && (
-          <div className="relative">
-            <MockQuestionPanel accent={step.accent} />
-            <div className="absolute -right-10 -top-6 z-10">
-              <MockDesmos accent={step.accent} />
-            </div>
-          </div>
-        )}
-        {step.panel === "reference" && (
-          <div className="relative">
-            <MockQuestionPanel accent={step.accent} />
-            <div className="absolute -left-10 -top-6 z-10">
-              <MockReferenceSheet accent={step.accent} />
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );
@@ -596,30 +591,47 @@ export const OnboardingTour = () => {
   const step = STEPS[index];
   const total = STEPS.length;
 
-  // Open logic: first visit or post-signup pending flag
+  // Open logic. Two paths to auto-open:
+  //   1. `onboarding-pending` flag set right after a fresh signup/verify —
+  //      always honored.
+  //   2. User has never closed the tour AND the account is younger than
+  //      NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS. Older accounts that never saw the
+  //      tour can still launch it via the sidebar's Replay button.
   useEffect(() => {
     if (loading || !user) return;
+    if (!user.emailVerified) return;
     const pending = sessionStorage.getItem("onboarding-pending");
     const seen = localStorage.getItem(tourKey(user.uid));
-    if (pending === "1" || !seen) {
+    const creationTime = user.raw?.metadata?.creationTime;
+    const isNewAccount = isAccountWithinWindow(creationTime, NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS);
+    if (pending === "1" || (!seen && isNewAccount)) {
       setOpen(true);
       sessionStorage.removeItem("onboarding-pending");
     }
   }, [user, loading]);
 
-  // External replay trigger (sidebar button)
+  // External replay
   useEffect(() => {
     const replay = () => { setIndex(0); setRect(null); setOpen(true); };
     window.addEventListener("onboarding:replay", replay);
     return () => window.removeEventListener("onboarding:replay", replay);
   }, []);
 
-  // Lock body scroll
+  // Lock scroll AND tag the body so we can target tour-only CSS adjustments
+  // (e.g. crossfading the sidebar's active tab so it eases between items
+  // along with the spotlight, instead of snapping).
+  // Also kick off route preloads here so chunks are already in cache when
+  // the user starts clicking Next.
   useEffect(() => {
     if (!open) return;
-    const prev = document.body.style.overflow;
+    preloadTourRoutes();
+    const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    return () => { document.body.style.overflow = prev; };
+    document.body.classList.add("tour-active");
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      document.body.classList.remove("tour-active");
+    };
   }, [open]);
 
   const close = useCallback(() => {
@@ -629,9 +641,55 @@ export const OnboardingTour = () => {
     setRect(null);
   }, [user]);
 
-  // Resolve target rect when step changes (with optional route navigation)
+  // Run leave-cleanup for the previous spotlight step (close any dialog it
+  // opened) when the index actually changes. We use a ref-tracked previous
+  // index so HMR / Fast-Refresh effect re-runs don't spuriously re-fire it.
+  const prevIndexRef = useRef<number | null>(null);
   useEffect(() => {
-    if (!open) return;
+    if (!open) {
+      prevIndexRef.current = null;
+      return;
+    }
+    const prev = prevIndexRef.current;
+    if (prev !== null && prev !== index) {
+      const outgoing = STEPS[prev];
+      if (outgoing.kind === "spotlight" && outgoing.clickOnExit) {
+        clickByTour(outgoing.clickOnExit);
+      }
+    }
+    prevIndexRef.current = index;
+  }, [index, open]);
+
+  // Resolve target rect on each spotlight step. Gated by a ref so HMR /
+  // Fast-Refresh re-runs of this effect don't re-click dialog buttons or
+  // re-navigate.
+  //
+  // We deliberately do NOT clear `rect` to null between steps. Keeping the
+  // previous rect lets the spotlight smoothly slide from the old element to
+  // the new one (CSS transitions on left/top/width/height handle the rest).
+  // Calling setRect(null) here would yank the spotlight to the corner and
+  // back — that's the "snap" the user reported.
+  //
+  // `isNavigating` masks the brief moment when React Router is unmounting the
+  // old route and mounting the new one. We darken the dim during that window
+  // so the page swap doesn't flash through.
+  const lastResolvedKeyRef = useRef<string>("");
+  const [isNavigating, setIsNavigating] = useState(false);
+  // The content-area mask spans from the sidebar's right edge to the viewport
+  // right edge. We resolve this lazily right before each navigation so it
+  // tracks sidebar collapse state and viewport changes.
+  const [contentLeft, setContentLeft] = useState(0);
+  useEffect(() => {
+    if (!open) {
+      lastResolvedKeyRef.current = "";
+      setIsNavigating(false);
+      return;
+    }
+    const fingerprint = `${index}:${step.key}`;
+    if (lastResolvedKeyRef.current === fingerprint) {
+      return;
+    }
+    lastResolvedKeyRef.current = fingerprint;
     if (step.kind !== "spotlight") {
       setRect(null);
       return;
@@ -639,21 +697,61 @@ export const OnboardingTour = () => {
     let cancelled = false;
 
     const run = async () => {
-      if (step.route && step.route !== location.pathname) {
-        navigate(step.route);
+      // Navigate if needed. We snapshot location.pathname here because
+      // including it in the effect deps would cancel this run() the moment
+      // navigation completes and the path updates — leaving isNavigating
+      // stuck at true and the content-area mask fully opaque (which is
+      // exactly the "page doesn't render" bug).
+      const startingPath = location.pathname;
+      const willNavigate = step.route && step.route !== startingPath;
+      if (willNavigate) {
+        const aside = document.querySelector<HTMLElement>('aside[data-tour="sidebar"]');
+        if (aside) setContentLeft(Math.round(aside.getBoundingClientRect().right));
+        setIsNavigating(true);
+        // Just slightly longer than the mask's CSS opacity transition (160ms)
+        // so the mask is essentially opaque when navigate() fires. Going much
+        // beyond this is what created the "weird waiting period" — the user
+        // saw a fully-blank dark area for hundreds of extra ms while we
+        // padded the mount + settle waits.
+        await new Promise((r) => setTimeout(r, 170));
+        if (cancelled) return;
+        navigate(step.route!);
+        // Pages mount fast in this app — 90ms is enough.
+        await new Promise((r) => setTimeout(r, 90));
+      } else {
+        await new Promise((r) => requestAnimationFrame(() => r(null)));
       }
-      // Give the page a tick to mount
-      await new Promise((r) => requestAnimationFrame(() => r(null)));
+      if (cancelled) return;
+
+      // Programmatically click any "before" target (open a dialog)
+      if (step.clickFirst) {
+        // Wait for the click target to exist first
+        await waitForTarget(step.clickFirst, 0, 2500);
+        if (cancelled) return;
+        clickByTour(step.clickFirst);
+        await new Promise((r) => setTimeout(r, 220));
+      }
+      if (cancelled) return;
+
       const r = await waitForTarget(step.target, step.pad ?? 4);
       if (cancelled) return;
-      setRect(r);
+      // Only update rect if we found something — otherwise keep the previous
+      // rect so the spotlight stays "anchored" on whatever it was last on.
+      if (r) setRect(r);
+      if (willNavigate) {
+        // Brief settle so the spotlight rect has had time to start sliding
+        // before we expose it again. Cut from 180 → 60ms.
+        await new Promise((res) => setTimeout(res, 60));
+        if (!cancelled) setIsNavigating(false);
+      }
     };
     run();
 
     return () => { cancelled = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, index]);
 
-  // Re-resolve rect on resize / scroll while on a spotlight step
+  // Reposition on resize / scroll
   useEffect(() => {
     if (!open || step.kind !== "spotlight") return;
     const reposition = () => {
@@ -668,12 +766,8 @@ export const OnboardingTour = () => {
     };
   }, [open, step]);
 
-  const next = useCallback(() => {
-    setIndex((i) => Math.min(i + 1, total - 1));
-  }, [total]);
-  const prev = useCallback(() => {
-    setIndex((i) => Math.max(i - 1, 0));
-  }, []);
+  const next = useCallback(() => setIndex((i) => Math.min(i + 1, total - 1)), [total]);
+  const prev = useCallback(() => setIndex((i) => Math.max(i - 1, 0)), []);
 
   // Keyboard nav
   useEffect(() => {
@@ -688,9 +782,9 @@ export const OnboardingTour = () => {
   }, [open, next, prev, close]);
 
   const coachPos = useMemo(() => {
-    if (!rect) return null;
-    return computeCoachPos(rect);
-  }, [rect]);
+    if (!rect || step.kind !== "spotlight") return null;
+    return computeCoachPos(rect, 380, 260, 18, step.preferSide);
+  }, [rect, step]);
 
   if (!open) return null;
 
@@ -700,7 +794,6 @@ export const OnboardingTour = () => {
   const c = ACCENT_CLASSES[accent];
   const Icon = step.icon;
 
-  // Render
   return (
     <div
       className="fixed inset-0 z-[200] animate-onboarding-fade"
@@ -708,131 +801,156 @@ export const OnboardingTour = () => {
       aria-modal="true"
       aria-labelledby="onboarding-title"
     >
-      {/* Backdrop layer (only used when there's NO spotlight; spotlight uses its own dimming) */}
-      {step.kind !== "spotlight" && (
+      {/* Backdrop. We tweak two things per step:
+       *   - revealContent: drop dim opacity so the destination page shows.
+       *   - isNavigating: temporarily darken to mask the route swap flash.
+       * The transition is intentionally long (700ms) so changes feel like a
+       * smooth gradient shift rather than a hard cut. */}
+      {(() => {
+        const reveal = step.kind === "spotlight" && (step as SpotlightStep).revealContent;
+        const dimVar = isNavigating
+          ? "rgba(2, 6, 14, 0.85)"
+          : reveal
+            ? "rgba(2, 6, 14, 0.32)"
+            : "rgba(2, 6, 14, 0.65)";
+        const blur = isNavigating ? "blur(14px)" : reveal ? "blur(2px)" : "blur(8px)";
+        // Non-spotlight steps OR spotlight steps without a rect still need a
+        // full-screen backdrop. Spotlight WITH a rect gets dimming via the
+        // box-shadow trick on the rect itself.
+        const showFlatDim = step.kind !== "spotlight" || !rect;
+        if (!showFlatDim) return null;
+        return (
+          <div
+            className="absolute inset-0"
+            style={{
+              background: dimVar,
+              backdropFilter: blur,
+              transition: "background 400ms cubic-bezier(0.22, 1, 0.36, 1), backdrop-filter 400ms cubic-bezier(0.22, 1, 0.36, 1)",
+            }}
+          />
+        );
+      })()}
+
+      {/* Content-area fade mask. During tour navigation we don't want the
+       * destination page to flash in — instead, we fade the *content area*
+       * (everything to the right of the persistent sidebar) to the app's
+       * background color, let the new route mount behind it, then fade back.
+       * The sidebar stays visible the whole time because it doesn't change
+       * between routes. The mask renders unconditionally with opacity tied
+       * to isNavigating, so the fade-in/out is just a CSS opacity transition. */}
+      {step.kind === "spotlight" && (
         <div
-          className="absolute inset-0"
-          style={{ background: "rgba(7, 11, 22, 0.78)", backdropFilter: "blur(10px)" }}
-        />
-      )}
-      {step.kind === "spotlight" && !rect && (
-        <div
-          className="absolute inset-0 transition-opacity duration-300"
-          style={{ background: "rgba(7, 11, 22, 0.78)", backdropFilter: "blur(10px)" }}
+          aria-hidden
+          className="pointer-events-none absolute"
+          style={{
+            left: contentLeft,
+            right: 0,
+            top: 0,
+            bottom: 0,
+            background: "hsl(var(--background))",
+            opacity: isNavigating ? 1 : 0,
+            transition: "opacity 180ms cubic-bezier(0.22, 1, 0.36, 1)",
+          }}
         />
       )}
 
-      {/* Spotlight cutout — uses massive box-shadow trick to dim everything outside the rect */}
-      {step.kind === "spotlight" && rect && (
-        <>
-          <div
-            className="tour-spot-pulse pointer-events-none absolute rounded-xl"
-            style={{
-              left: rect.x,
-              top: rect.y,
-              width: rect.w,
-              height: rect.h,
-              transition: "left 480ms cubic-bezier(0.22, 1, 0.36, 1), top 480ms cubic-bezier(0.22, 1, 0.36, 1), width 480ms cubic-bezier(0.22, 1, 0.36, 1), height 480ms cubic-bezier(0.22, 1, 0.36, 1)",
-              backdropFilter: "blur(0px)",
-            }}
-          />
-          {/* Animated dashed ring */}
-          <div
-            className={`pointer-events-none absolute rounded-xl border-2 border-dashed ${c.text}`}
-            style={{
-              left: rect.x - 6,
-              top: rect.y - 6,
-              width: rect.w + 12,
-              height: rect.h + 12,
-              transition: "left 480ms cubic-bezier(0.22, 1, 0.36, 1), top 480ms cubic-bezier(0.22, 1, 0.36, 1), width 480ms cubic-bezier(0.22, 1, 0.36, 1), height 480ms cubic-bezier(0.22, 1, 0.36, 1)",
-              borderColor: "currentColor",
-            }}
-          />
-          {/* Outer glow ring */}
-          <div
-            className={`pointer-events-none absolute rounded-2xl ${c.bg}`}
-            style={{
-              left: rect.x - 14,
-              top: rect.y - 14,
-              width: rect.w + 28,
-              height: rect.h + 28,
-              filter: "blur(14px)",
-              opacity: 0.45,
-              transition: "left 480ms cubic-bezier(0.22, 1, 0.36, 1), top 480ms cubic-bezier(0.22, 1, 0.36, 1), width 480ms cubic-bezier(0.22, 1, 0.36, 1), height 480ms cubic-bezier(0.22, 1, 0.36, 1)",
-            }}
-          />
-          {/* Animated cursor pointer */}
-          <div
-            className="pointer-events-none absolute"
-            style={{
-              left: rect.x + rect.w - 6,
-              top: rect.y + rect.h - 6,
-              transition: "left 480ms cubic-bezier(0.22, 1, 0.36, 1), top 480ms cubic-bezier(0.22, 1, 0.36, 1)",
-            }}
-          >
-            <div className="tour-cursor-tap">
-              <MousePointer2 className={`h-6 w-6 ${c.text} drop-shadow-lg`} fill="currentColor" />
-            </div>
-          </div>
-        </>
-      )}
+      {/* Spotlight cutout. The rect itself paints a 9999px box-shadow in the
+       * dim color — that's what darkens everything outside. The dim is
+       * overall 25% lighter than before. Revealed content steps drop further
+       * so the destination page is fully readable. */}
+      {step.kind === "spotlight" && rect && (() => {
+        const reveal = (step as SpotlightStep).revealContent;
+        const dimColor = isNavigating
+          ? "rgba(2, 6, 14, 0.85)"
+          : reveal
+            ? "rgba(2, 6, 14, 0.32)"
+            : "rgba(2, 6, 14, 0.65)";
+        const TR = "400ms cubic-bezier(0.22, 1, 0.36, 1)";
+        const transitionGeom = `left ${TR}, top ${TR}, width ${TR}, height ${TR}`;
+        const transitionDim = `box-shadow 400ms cubic-bezier(0.22, 1, 0.36, 1)`;
+        return (
+          <>
+            {/* Dim cutout */}
+            <div
+              className="pointer-events-none absolute rounded-xl"
+              style={{
+                left: rect.x, top: rect.y, width: rect.w, height: rect.h,
+                boxShadow: `0 0 0 9999px ${dimColor}`,
+                transition: `${transitionGeom}, ${transitionDim}`,
+              }}
+            />
+            {/* Bright accent border + outward glow. The glow is created via
+             * box-shadow so it lives entirely OUTSIDE the rect — the element
+             * inside stays free of any tint or fill. */}
+            <div
+              className={`pointer-events-none absolute rounded-xl ${c.text}`}
+              style={{
+                left: rect.x - 4, top: rect.y - 4, width: rect.w + 8, height: rect.h + 8,
+                border: "2px solid currentColor",
+                boxShadow: "0 0 28px 6px currentColor, 0 0 12px 2px currentColor",
+                opacity: 0.75,
+                transition: transitionGeom,
+              }}
+            />
+          </>
+        );
+      })()}
 
-      {/* Splash / panel / finale stages */}
+      {/* Splash / finale stages */}
       <div className="absolute inset-0">
         {step.kind === "splash" && (
           <SplashCard step={step} onNext={next} onSkip={close} index={index} total={total} />
         )}
-        {step.kind === "panel" && <PanelStage step={step as PanelStep} />}
         {step.kind === "finale" && (
-          <FinaleCard
-            step={step}
-            onClose={close}
-            onJump={(p) => { close(); navigate(p); }}
-            index={index}
-            total={total}
-          />
+          <FinaleCard step={step} onClose={close} onJump={(p) => { close(); navigate(p); }} index={index} total={total} />
         )}
       </div>
 
-      {/* Coach card for spotlight + panel steps */}
-      {(step.kind === "spotlight" || step.kind === "panel") && (
+      {/* Coach card for spotlight steps. For revealContent steps we pin the
+       * card to the bottom-right corner so it never blocks the destination
+       * page — the user just landed on the page they're being told about and
+       * we want them to actually see it. */}
+      {step.kind === "spotlight" && (() => {
+        const reveal = (step as SpotlightStep).revealContent;
+        const TR = "350ms cubic-bezier(0.22, 1, 0.36, 1)";
+        const allTR = `left ${TR}, top ${TR}, right ${TR}, bottom ${TR}, transform ${TR}`;
+        let positionStyle: React.CSSProperties;
+        if (reveal) {
+          positionStyle = { right: 24, bottom: 24, left: "auto", top: "auto", transform: "none", transition: allTR };
+        } else if (coachPos) {
+          positionStyle = { left: coachPos.left, top: coachPos.top, right: "auto", bottom: "auto", transform: "none", transition: allTR };
+        } else {
+          positionStyle = { left: "50%", top: "auto", bottom: 32, right: "auto", transform: "translateX(-50%)", transition: allTR };
+        }
+        return (
         <div
-          key={step.key}
-          className="tour-coach-in absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.6),0_0_0_1px_hsl(var(--border))]"
-          style={
-            step.kind === "spotlight" && coachPos
-              ? { left: coachPos.left, top: coachPos.top, transition: "left 380ms cubic-bezier(0.22, 1, 0.36, 1), top 380ms cubic-bezier(0.22, 1, 0.36, 1)" }
-              : { left: "50%", top: "auto", bottom: 32, transform: "translateX(-50%)" }
-          }
+          // Apply the step's accent class to the card itself so a 3px top
+          // border can pick it up via currentColor. This makes the colored
+          // accent FOLLOW the card's `rounded-2xl` curve at the corners
+          // instead of sitting as a flat line that looks tacked-on.
+          className={`tour-coach-card absolute z-10 w-[380px] max-w-[92vw] rounded-2xl border border-border bg-card shadow-[0_24px_60px_-15px_rgba(0,0,0,0.55)] ${c.text}`}
+          style={{
+            ...positionStyle,
+            borderTop: "3px solid currentColor",
+            transition: `${positionStyle.transition}, border-top-color ${TR}`,
+          }}
         >
-          {/* Shimmer top border */}
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-px overflow-hidden rounded-t-2xl">
-            <div className={`absolute inset-y-0 w-1/3 ${c.bg}`} style={{ animation: "tour-shimmer-sweep 2.4s ease-in-out infinite" }} />
-          </div>
 
-          <button
-            onClick={close}
-            aria-label="Skip tour"
-            className="absolute right-2.5 top-2.5 z-10 rounded-md p-1.5 text-muted-foreground transition-colors hover:bg-muted/60 hover:text-foreground"
-          >
-            <X className="h-4 w-4" />
-          </button>
-
-          <div className="p-5">
+          <div className="relative p-5">
             <div className="mb-3 flex items-center gap-2.5">
-              <div className={`flex h-9 w-9 items-center justify-center rounded-xl ${c.bg} ${c.text} animate-onboarding-icon`}>
+              <div className={`flex h-9 w-9 items-center justify-center rounded-xl ${c.bg} ${c.text}`} style={{ transition: `background ${TR}, color ${TR}` }}>
                 <Icon className="h-5 w-5" />
               </div>
-              <span className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${c.chip}`}>
+              <span className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${c.chip}`} style={{ transition: `background ${TR}, color ${TR}` }}>
                 Step {index + 1} of {total}
               </span>
             </div>
 
             <h3
               id="onboarding-title"
-              className="mb-1.5 text-foreground animate-onboarding-slide"
+              className="mb-1.5 text-foreground"
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: 26,
                 lineHeight: 1.1,
                 letterSpacing: "-0.01em",
@@ -840,17 +958,16 @@ export const OnboardingTour = () => {
             >
               {step.title}
             </h3>
-            <p className="text-[14px] leading-relaxed text-muted-foreground animate-onboarding-slide" style={{ animationDelay: "60ms" }}>
+            <p className="text-[14px] leading-relaxed text-muted-foreground">
               {step.body}
             </p>
 
-            {/* Progress bar */}
-            <div className="mt-4 h-1 w-full overflow-hidden rounded-full bg-muted/40">
+            <div className="relative mt-4 h-1.5 w-full overflow-hidden rounded-full bg-muted/40">
               <div
                 className={`h-full rounded-full ${c.bg} brightness-150`}
                 style={{
                   width: `${((index + 1) / total) * 100}%`,
-                  transition: "width 380ms cubic-bezier(0.22, 1, 0.36, 1)",
+                  transition: `width 280ms cubic-bezier(0.22, 1, 0.36, 1), background ${TR}`,
                 }}
               />
             </div>
@@ -871,7 +988,8 @@ export const OnboardingTour = () => {
             </div>
           </div>
         </div>
-      )}
+        );
+      })()}
     </div>
   );
 };

@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_19",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure on each side of the blank",
-      "content": "The phrase before the blank is a <strong>prepositional phrase</strong> (\u2018with ______\u2019), and the phrase after the blank is an <strong>independent clause</strong> (\u2018another research team...\u2019)."
-    },
-    {
-      "title": "Apply the rule for connecting a prepositional phrase and an independent clause with a conjunctive adverb",
-      "content": "A semicolon connects an independent clause to a conjunctive adverb like \u2018for instance\u2019 <strong>before it</strong> and uses a comma after the adverb. Choice B places the semicolon before \u2018for instance\u2019 and the comma after, following the rule. The other three either reverse the punctuation (A), omit the semicolon entirely (C), or use commas incorrectly for a conjunctive adverb (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The blank sits between two complete clauses. Before the blank: \"A team led by researcher Maria K. Hartley collected arthropods with sweep nets, for instance\" — an independent clause with the parenthetical \"for instance\" set off by commas. After the blank: \"another research team, led by Kimberly J. La Pierre, gathered them with bug vacuums\" — also an independent clause."}, {"title": "Apply the punctuation rule", "content": "Two independent clauses must be joined by either a period or a semicolon (not a comma). The parenthetical \"for instance\" stays inside the first clause, surrounded by commas: \"...sweep nets, for instance;\". Choice <strong>A</strong> uses this exact pattern. Choice B reverses the punctuation by putting the semicolon before \"for instance\" (which incorrectly cuts off the parenthetical from its clause). Choices C and D fail to join the two independent clauses with a semicolon. The answer is <strong>A</strong>."}]}

@@ -198,9 +198,9 @@ const BankBrowse = () => {
                 <AccordionItem
                   key={domain}
                   value={domain}
-                  className="overflow-hidden rounded-xl border bg-card px-0"
+                  className="relative overflow-hidden rounded-xl border bg-card px-0"
                 >
-                  <AccordionTrigger className="px-4 py-0 hover:no-underline">
+                  <AccordionTrigger className="px-4 py-0 pr-40 hover:no-underline sm:pr-48">
                     <div className="flex min-h-[5rem] w-full items-center gap-3">
                       <span className="text-xl">{icon}</span>
                       <div className="flex-1 text-left">
@@ -211,34 +211,34 @@ const BankBrowse = () => {
                           </Badge>
                         </div>
                       </div>
-                      <div className="mr-2 flex shrink-0 items-center gap-1">
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          className="h-8 w-8"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleShuffleDomain(domain);
-                          }}
-                          title="Shuffle Domain"
-                        >
-                          <Shuffle className="h-4 w-4" />
-                        </Button>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            handleDomainClick(domain);
-                          }}
-                          className="text-xs"
-                        >
-                          Practice All
-                          <ChevronRight className="ml-1 h-3 w-3" />
-                        </Button>
-                      </div>
                     </div>
                   </AccordionTrigger>
+                  <div className="absolute right-10 top-10 z-10 flex -translate-y-1/2 items-center gap-1 sm:right-12">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="h-8 w-8"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleShuffleDomain(domain);
+                      }}
+                      title="Shuffle Domain"
+                    >
+                      <Shuffle className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleDomainClick(domain);
+                      }}
+                      className="text-xs"
+                    >
+                      Practice All
+                      <ChevronRight className="ml-1 h-3 w-3" />
+                    </Button>
+                  </div>
                   <AccordionContent className="pb-4">
                     <div className="grid gap-2 pl-8">
                       {skills.map((skill) => {

@@ -1,16 +1,1 @@
-{
-  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_20",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize this is a sum of solutions problem",
-      "content": "The equation $x^2 - 84x - 14 = 0$ asks for the sum of solutions. This is the perfect trigger for Vieta's formulas\u2014a shortcut that gives us the answer directly without solving. From the standard form, we identify $a = 1$ and $b = -84$."
-    },
-    {
-      "title": "Apply Vieta's formula for the sum",
-      "content": "Vieta's formula tells us the sum of solutions is $-b/a$. Substituting: $-(-84)/1 = 84$. That matches choice D \u2014 <strong>D</strong> is correct.",
-      "formula": "$$\\text{Sum of solutions} = -\\frac{b}{a}$$"
-    }
-  ]
-}
+{"questionId":"a16355d1-6cca-4c4e-8e0a-f405892830f1_20","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the equation","content":"The quadratic $x^2-84x-14=0$ has $a=1$, $b=-84$. Rather than solving, we apply Vieta's directly."},{"title":"Sum the solutions","content":"By Vieta's, sum $=-b/a=-(-84)/1=84$.<br/><br/>The answer is <strong>D</strong>."}]}

@@ -4,12 +4,20 @@ import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { getAuthReturnTo } from "@/components/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/authErrors";
-import { Loader2, BookOpen, Target, BarChart3, ArrowLeft } from "lucide-react";
+import { Loader2, ArrowLeft } from "lucide-react";
 
 // Google SVG icon
 const GoogleIcon = () => (
@@ -18,17 +26,14 @@ const GoogleIcon = () => (
   </svg>
 );
 
-const features = [
-  { icon: BookOpen, text: "5,000+ real SAT questions" },
-  { icon: Target, text: "100 curated hard math questions" },
-  { icon: BarChart3, text: "Per-skill progress tracking" },
-];
-
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const { signInWithGoogle, signInWithEmailPassword, user, loading: authLoading } = useAuth();
+  const [resetOpen, setResetOpen] = useState(false);
+  const [resetEmail, setResetEmail] = useState("");
+  const [resetSubmitting, setResetSubmitting] = useState(false);
+  const { signInWithGoogle, signInWithEmailPassword, sendPasswordReset, user, loading: authLoading } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
 
@@ -38,12 +43,15 @@ const Login = () => {
     else navigate(getAuthReturnTo(), { replace: true });
   }, [user, authLoading, navigate]);
 
+  // Both handlers leave navigation to the user-change useEffect above.
+  // That effect routes verified users to the saved return path and
+  // unverified users to /verify-email — navigating here would consume the
+  // return path before the verified check runs.
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
       await signInWithEmailPassword(email, password);
-      navigate(getAuthReturnTo(), { replace: true });
     } catch (error: unknown) {
       const friendly = describeAuthError(error, "signin");
       toast({ variant: "destructive", title: friendly.title, description: friendly.description });
@@ -55,10 +63,34 @@ const Login = () => {
   const handleGoogleLogin = async () => {
     try {
       await signInWithGoogle();
-      navigate(getAuthReturnTo(), { replace: true });
     } catch (error: unknown) {
       const friendly = describeAuthError(error, "signin");
       toast({ variant: "destructive", title: friendly.title, description: friendly.description });
+    }
+  };
+
+  const openResetDialog = () => {
+    setResetEmail(email);
+    setResetOpen(true);
+  };
+
+  const handlePasswordReset = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const trimmed = resetEmail.trim();
+    if (!trimmed) return;
+    setResetSubmitting(true);
+    try {
+      await sendPasswordReset(trimmed);
+      toast({
+        title: "Check your inbox",
+        description: `If an account exists for ${trimmed}, we sent a reset link.`,
+      });
+      setResetOpen(false);
+    } catch (error: unknown) {
+      const friendly = describeAuthError(error, "signin");
+      toast({ variant: "destructive", title: friendly.title, description: friendly.description });
+    } finally {
+      setResetSubmitting(false);
     }
   };
 
@@ -77,7 +109,7 @@ const Login = () => {
           <div className="mb-8">
             <h2
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: 32,
                 fontWeight: 400,
                 letterSpacing: "-0.02em",
@@ -120,7 +152,16 @@ const Login = () => {
                 />
               </div>
               <div className="space-y-1.5">
-                <Label htmlFor="password">Password</Label>
+                <div className="flex items-center justify-between">
+                  <Label htmlFor="password">Password</Label>
+                  <button
+                    type="button"
+                    onClick={openResetDialog}
+                    className="text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+                  >
+                    Forgot password?
+                  </button>
+                </div>
                 <Input
                   id="password"
                   type="password"
@@ -144,6 +185,45 @@ const Login = () => {
           </p>
         </div>
       </div>
+
+      <Dialog open={resetOpen} onOpenChange={setResetOpen}>
+        <DialogContent className="sm:max-w-sm">
+          <form onSubmit={handlePasswordReset}>
+            <DialogHeader>
+              <DialogTitle>Reset your password</DialogTitle>
+              <DialogDescription>
+                Enter the email on your account and we'll send a link to set a new password.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="mt-4 space-y-1.5">
+              <Label htmlFor="reset-email">Email</Label>
+              <Input
+                id="reset-email"
+                type="email"
+                value={resetEmail}
+                onChange={(e) => setResetEmail(e.target.value)}
+                placeholder="you@example.com"
+                required
+                autoFocus
+              />
+            </div>
+            <DialogFooter className="mt-6 gap-2 sm:gap-2">
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => setResetOpen(false)}
+                disabled={resetSubmitting}
+              >
+                Cancel
+              </Button>
+              <Button type="submit" disabled={resetSubmitting || !resetEmail.trim()}>
+                {resetSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+                Send reset link
+              </Button>
+            </DialogFooter>
+          </form>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };

@@ -1,0 +1,1 @@
+{"questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_9", "correctAnswer": "15", "section": "Math", "steps": [{"title": "Plug in the value $x=0$", "content": "The $y$-intercept occurs where $x=0$. Substitute:<br/><br/>$$y = 0^2 + 15 = 15$$"}, {"title": "Result", "content": "The $y$-intercept is $(0, 15)$, so $y=15$.<br/><br/>The answer is <strong>15</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the linear equation form",
-      "content": "A linear function is written as $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. We're given the slope: $m = -54$. Since the line passes through $(0, 0)$, the y-intercept must be $b = 0$."
-    },
-    {
-      "title": "Write the equation",
-      "content": "Substituting $m = -54$ and $b = 0$ into $y = mx + b$:<br/>$$f(x) = -54x$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a7146625-47ea-49cb-9061-578e226240d5_4","correctAnswer":"A","section":"Math","steps":[{"title":"Use point-slope form","content":"With slope $-54$ through $(0,0)$: $y-0=-54(x-0)$, so $f(x)=-54x+b$ with $b$ to determine."},{"title":"Solve for the unknown","content":"Plugging $(0,0)$: $0=-54(0)+b\\Rightarrow b=0$, so $f(x)=-54x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

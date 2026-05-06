@@ -1,15 +1,1 @@
-{
-  "questionId": "e8779461",
-  "correctAnswer": "99",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve the linear equation for x",
-      "content": "The system includes one linear equation we can solve directly. From $x + 8 = 11$, subtract 8 from both sides to get $x = 3$."
-    },
-    {
-      "title": "Substitute into the parabola equation",
-      "content": "With $x = 3$, substitute into $y = x^2 + 14x + 48$:<br/><br/>$$y = (3)^2 + 14(3) + 48$$<br/><br/>Evaluate: $3^2 = 9$ and $14 \\times 3 = 42$, so:<br/><br/>$$y = 9 + 42 + 48 = 99$$"
-    }
-  ]
-}
+{"questionId": "e8779461", "correctAnswer": "99", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $x + 8 = 11$, $x = 3$. Substitute into $y = x^2 + 14x + 48$."}, {"title": "Find $y$", "content": "$y = 9 + 42 + 48 = 99$. The answer is <strong>99</strong>."}]}

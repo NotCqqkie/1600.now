@@ -1,15 +1,1 @@
-{
-  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_20",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute to eliminate the repeated expression",
-      "content": "Notice that $(5 - 2x)$ appears in both terms on both sides of the equation. Let $u = (5 - 2x)$. The equation becomes: $$8u + 3 = 7u + 18$$"
-    },
-    {
-      "title": "Solve for u",
-      "content": "Subtract $7u$ from both sides: $$u + 3 = 18$$ Subtract 3 from both sides: $$u = 15$$ Since $u = (5 - 2x)$, we have $(5 - 2x) = 15$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"659cbbc1-2d38-4d45-8ecb-79f43367862e_20","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $7(5-2x)+3$ from both sides: $(5-2x) = 18-3 = 15$."},{"title":"Compute the target value","content":"So $5-2x = 15$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

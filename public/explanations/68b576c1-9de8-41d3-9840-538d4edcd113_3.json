@@ -1,15 +1,1 @@
-{
-  "questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_3",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x equals 7 into the function",
-      "content": "We need to find $f(7)$ where $f(x) = 5x^2$. Substitute $x = 7$ into the function: $$f(7) = 5(7)^2$$"
-    },
-    {
-      "title": "Evaluate the expression",
-      "content": "Evaluate the exponent: $(7)^2 = 49$. Then multiply by 5: $$f(7) = 5 \\cdot 49 = 245$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "68b576c1-9de8-41d3-9840-538d4edcd113_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute the value x = 7", "content": "Replace $x$ with $7$ in $$f(x) = 5x^2.$$ This gives $$f(7) = 5(7)^2.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(7) = 5(49) = 245.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

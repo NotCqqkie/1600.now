@@ -1,0 +1,48 @@
+===Q25===
+ANSWER: B
+RATIONALE: The convention being tested is subject-modifier placement. This choice makes the noun phrase "the bioswales" the subject of the sentence and places it immediately after the modifying phrase "By reducing...sewers." In doing so, this choice clearly establishes that the bioswales—and not another noun in the sentence—are reducing runoff flowing into city sewers.
+WRONG_A: It results in a dangling modifier. The placement of the noun phrase "the mitigation...waterways" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for "reducing the runoff": the bioswales or some other noun in the sentence.
+WRONG_C: It results in a dangling modifier. The placement of the noun phrase "the bioswales' mitigation...waterways" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for "reducing the runoff": the bioswales or some other noun in the sentence.
+WRONG_D: It results in a dangling modifier. The placement of the noun phrase "street flooding and the resulting pollution" immediately after the modifying phrase illogically suggests that the "flooding and pollution" are reducing runoff flowing into city sewers.
+
+===Q26===
+ANSWER: B
+RATIONALE: The convention being tested is punctuation use between a main clause and a supplementary phrase. In this choice, a colon is correctly used to mark the boundary between the main clause ("A study...continents") and the supplementary phrase ("geological...above") and to introduce the following explanation of the origin of Earth's continents.
+WRONG_A: It fails to mark the boundary between the main clause ("A study...continents") and the supplementary phrase ("geological...above") with appropriate punctuation.
+WRONG_C: A semicolon can't be used in this way to join the main clause ("A study...continents") and the supplementary phrase ("geological...above"). A semicolon is conventionally used to join two main clauses, whereas a colon is conventionally used to introduce an element that explains or amplifies the information in the preceding clause, making it the better choice in this context.
+WRONG_D: It results in a rhetorically unacceptable sentence fragment beginning with "geological."
+
+===Q27===
+ANSWER: A
+RATIONALE: "Afterward" logically signals that the events described in this sentence—the CEO's public acknowledgment and apology—occurred after the rocket booster's failure and are part of a chronological sequence of events.
+WRONG_B: "Additionally" illogically signals that the events described in this sentence merely occurred in addition to the rocket booster's failure. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.
+WRONG_C: "Indeed" illogically signals that the events described in this sentence emphasize or strengthen a statement made in the previous sentence. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.
+WRONG_D: "Similarly" illogically signals that the events described in this sentence emphasize how the events are similar to the rocket booster's failure. Instead, they occurred after the rocket booster's failure and are part of a chronological sequence of events.
+
+===Q28===
+ANSWER: A
+RATIONALE: "Alternatively" logically signals that the soil decontamination method described in this sentence—removing toxic metals from the soil via phytoremediation—offers an alternative to the previously described method (removing the contaminated soil from the ground).
+WRONG_B: "Specifically" illogically signals that the soil decontamination method described in this sentence specifies or elaborates on an aspect of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.
+WRONG_C: "For example" illogically signals that the soil decontamination method described in this sentence is an example of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.
+WRONG_D: "As a result" illogically signals that the soil decontamination method described in this sentence is a result or consequence of the previously described method (removing the contaminated soil from the ground). Instead, phytoremediation is an alternative to that method.
+
+===Q29===
+ANSWER: C
+RATIONALE: The sentence explains an advantage of the Hanke-Henry calendar, noting that it supports more predictable scheduling than does the Gregorian calendar and describing how it does so (by having calendar dates occur on the same day each year).
+WRONG_A: The sentence compares the number of days in the Gregorian and Hanke-Henry calendars; it doesn't explain an advantage of the Hanke-Henry calendar.
+WRONG_B: While the sentence refers to a possible reason to adopt the Hanke-Henry calendar—that doing so would help solve a problem with the Gregorian calendar—it doesn't identify the problem or the solution and thus doesn't explain the advantage of the Hanke-Henry calendar.
+WRONG_D: The sentence describes the origins of the Hanke-Henry calendar; it doesn't explain an advantage of it.
+
+===Q30===
+ANSWER: C
+RATIONALE: The sentence effectively presents the influence theory to an audience unfamiliar with the Haudenosaunee Confederacy, explaining the theory's position that the Great Law of Peace influenced the US Constitution while avoiding mention of the Haudenosaunee Confederacy itself.
+WRONG_A: The sentence broadly emphasizes Johansen's ideas about the Great Law of Peace; it doesn't identify the influence theory or effectively present it.
+WRONG_B: The sentence emphasizes one fact that supports the influence theory; it doesn't effectively present the theory to an audience unfamiliar with the Haudenosaunee Confederacy.
+WRONG_D: The sentence makes a broad generalization about Native people's influence on the founding of the US; it doesn't effectively present the influence theory.
+
+===Q31===
+ANSWER: A
+RATIONALE: Noting that the Sun (6,800°F) is hotter than most stars within 10 parsecs of it, the sentence emphasizes how hot the Sun is relative to nearby stars.
+WRONG_B: The sentence explains that astronomer Todd Henry determined the classifications for the Sun and several other stars nearby; it doesn't emphasize how hot the Sun is relative to nearby stars.
+WRONG_C: The sentence explains that the majority of stars near the Sun are classified as K or M stars; it doesn't indicate the Sun's temperature or emphasize how hot it is relative to nearby stars.
+WRONG_D: While the sentence indicates that the Sun is classified differently than most nearby stars due to its surface temperature, it doesn't emphasize how hot the Sun is relative to nearby stars.

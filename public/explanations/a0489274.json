@@ -1,15 +1,1 @@
-{
-  "questionId": "a0489274",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set the equations equal to solve for x",
-      "content": "Since both equations are set equal to $y$, we can equate them:<br/>$$-\\frac{1}{5}x = \\frac{1}{7}x$$"
-    },
-    {
-      "title": "Rearrange and factor to find x",
-      "content": "Move all terms to one side:<br/>$$-\\frac{1}{5}x - \\frac{1}{7}x = 0$$<br/><br/>Factor out $x$:<br/>$$x\\left(-\\frac{1}{5} - \\frac{1}{7}\\right) = 0$$<br/><br/>For a product to equal zero, one of the factors must be zero. The coefficient $-\\frac{1}{5} - \\frac{1}{7} = -\\frac{12}{35}$ is non-zero, so $x = 0$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a0489274", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Set the right sides equal: $$-\\tfrac{1}{5}x=\\tfrac{1}{7}x\\Rightarrow -7x=5x\\Rightarrow 12x=0.$$"}, {"title": "Find $x$", "content": "Thus $x=0$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

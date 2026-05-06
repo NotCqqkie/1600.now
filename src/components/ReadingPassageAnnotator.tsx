@@ -434,7 +434,7 @@ export const ReadingPassageAnnotator = ({
         <div
           ref={selectionPopupRef}
           className={cn(
-            "fixed z-[90] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
+            "fixed z-[150] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
             POPUP_SHADOW,
           )}
           style={pendingSelectionPlacement ?? undefined}
@@ -465,7 +465,7 @@ export const ReadingPassageAnnotator = ({
         <div
           ref={annotationPopupRef}
           className={cn(
-            "fixed z-[90] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
+            "fixed z-[150] border border-border bg-background/95 backdrop-blur rounded-full px-2 py-1.5",
             POPUP_SHADOW,
           )}
           style={activeAnnotationPlacement ?? undefined}

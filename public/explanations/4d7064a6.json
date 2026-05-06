@@ -1,15 +1,1 @@
-{
-  "questionId": "4d7064a6",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract roots from factored form",
-      "content": "From $f(x) = (x-10)(x+13)$, we identify the roots directly: $x = 10$ and $x = -13$. Expanding to $f(x) = x^2 + 3x - 130$ shows the leading coefficient is positive, so the parabola opens upward and has a minimum."
-    },
-    {
-      "title": "Find the minimum using axis of symmetry",
-      "content": "The minimum occurs at the axis of symmetry, which is the average of the two roots:<br/><br/>$$x = \\frac{10 + (-13)}{2} = \\frac{-3}{2}$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4d7064a6", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the roots", "content": "$f(x) = (x-10)(x+13) = 0$ has roots $x = 10$ and $x = -13$."}, {"title": "Apply the new function definition", "content": "The parabola opens upward; its minimum occurs at the vertex midway between the roots."}, {"title": "Compute the answer", "content": "The minimum is at $x = \\frac{10 + (-13)}{2} = -\\frac{3}{2} = -1.5$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

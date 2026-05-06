@@ -1,15 +1,1 @@
-{
-  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_5",
-  "correctAnswer": "62",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = 2 into the function",
-      "content": "We need to find $f(2)$ where $f(x) = 7x^3 + 6$. Substitute $x = 2$:<br/>$$f(2) = 7(2)^3 + 6$$"
-    },
-    {
-      "title": "Evaluate the arithmetic",
-      "content": "Evaluate the exponent: $2^3 = 8$.<br/>$$f(2) = 7(8) + 6$$<br/>Multiply: $7 \\cdot 8 = 56$.<br/>$$f(2) = 56 + 6 = 62$$"
-    }
-  ]
-}
+{"questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_5", "correctAnswer": "62", "section": "Math", "steps": [{"title": "Substitute the value x = 2", "content": "Replace $x$ with $2$ in $$f(x) = 7x^3 + 6.$$ This gives $$f(2) = 7(2)^3 + 6.$$"}, {"title": "Compute the result", "content": "Simplify: $$f(2) = 7(8) + 6 = 56 + 6 = 62.$$ The answer is <strong>62</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a456cfd2",
-  "correctAnswer": "14",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the frequency table to identify which values appear in the dataset",
-      "content": "A frequency of 0 means that value does not appear in the dataset. Reading the table from top to bottom:<ul><li>Data values 6, 7, 8, 9, 10, 11, 12 all have frequencies > 0</li><li>Data value 13 has frequency 0 \u2014 it does NOT appear</li><li>Data value 14 has frequency 6 \u2014 it DOES appear</li></ul>The dataset includes only the values with positive frequencies."
-    },
-    {
-      "title": "Identify the maximum data value",
-      "content": "The maximum data value is the largest value in the table that actually appears in the dataset (frequency > 0). Scanning the data value column from highest to lowest: 14 is the largest value, and it has frequency 6, confirming it appears in the dataset. That matches choice <strong>14</strong> \u2014 <strong>14</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a456cfd2", "correctAnswer": "14", "section": "Math", "steps": [{"title": "Read the frequency table to identify which values appear in the dataset", "content": "A frequency of 0 means that value does not appear in the dataset. Reading the table from top to bottom:<ul><li>Data values 6, 7, 8, 9, 10, 11, 12 all have frequencies > 0</li><li>Data value 13 has frequency 0 — it does NOT appear</li><li>Data value 14 has frequency 6 — it DOES appear</li></ul>The dataset includes only the values with positive frequencies."}, {"title": "Identify the maximum data value", "content": "The maximum data value is the largest value in the table that actually appears in the dataset (frequency > 0). Scanning the data value column from highest to lowest: 14 is the largest value, and it has frequency 6, confirming it appears in the dataset. The answer is <strong>14</strong>. — <strong>14</strong> is correct."}]}

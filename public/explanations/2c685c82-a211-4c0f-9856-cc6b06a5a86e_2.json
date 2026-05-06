@@ -1,16 +1,1 @@
-{
-  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_2",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the fractional exponent rule",
-      "content": "The exponent $\\frac{1}{2}$ is shorthand for taking a square root. The general rule is that any number or expression to the power $\\frac{1}{2}$ equals its square root. In this expression, the exponent applies to the entire quantity inside the parentheses, which is $57y$.",
-      "formula": "$$a^{\\frac{1}{2}} = \\sqrt{a}$$"
-    },
-    {
-      "title": "Apply the rule directly",
-      "content": "Using the rule with $a = 57y$:<br/>$$(57y)^{\\frac{1}{2}} = \\sqrt{57y}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "A $\\tfrac{1}{2}$ exponent is a square root: $$(57y)^{1/2}=\\sqrt{57y}.$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

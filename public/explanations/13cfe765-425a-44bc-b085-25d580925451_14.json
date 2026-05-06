@@ -1,15 +1,1 @@
-{
-  "questionId": "13cfe765-425a-44bc-b085-25d580925451_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the evidence of success",
-      "content": "The passage establishes that the Kwakwaka'wakw terraced clam gardens corresponded with increased clam size and abundance despite greater harvesting pressure."
-    },
-    {
-      "title": "Interpret what the success demonstrates",
-      "content": "The success demonstrates that if the clam ecotypes are <em>locally adapted</em>, their adaptation encompasses the full environmental context created by the Kwakwaka'wakw\u2014not water alone, but the terraced structures, substrate, current patterns, and ecological niche. <br/><br/>The other choices introduce unsupported claims, deny the evident success, or mischaracterize the study. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "13cfe765-425a-44bc-b085-25d580925451_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the demonstration", "content": "The passage establishes that ecological information can be maintained in Indigenous songs, then shows that the Kwakwaka'wakw clam-garden practice (preserved through Wathl'thla's songs) corresponded to <strong>growth in clam size and abundance despite increased harvesting pressure</strong>. The blank must capture what this finding demonstrates."}, {"title": "Match the demonstration to a choice", "content": "The finding demonstrates that the practices preserved in Indigenous songs aren't merely cultural records — they encode genuinely effective ecological knowledge worth taking seriously. Choice B captures this: the song-preserved practices constitute <strong>valid ecological knowledge</strong>. The other choices either overclaim exclusivity (A), deny the demonstrated link between the practices and the outcome (C), or wrongly elevate one form of evidence over the other (D). That matches choice B — <strong>B</strong> is correct."}]}

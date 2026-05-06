@@ -1,15 +1,1 @@
-{
-  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_8",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute the negative sign through the parentheses",
-      "content": "Start with $5x^3 - 3x + 8 - (9x^6 + 5x - 3)$. The negative sign applies to every term inside the parentheses:<br/><br/>$$5x^3 - 3x + 8 - 9x^6 - 5x + 3$$"
-    },
-    {
-      "title": "Combine like terms",
-      "content": "Group terms by degree:<br/><ul><li>$x^6$ terms: $-9x^6$</li><li>$x^3$ terms: $5x^3$</li><li>$x$ terms: $-3x - 5x = -8x$</li><li>Constants: $8 + 3 = 11$</li></ul><br/>Combining these gives:<br/><br/>$$-9x^6 + 5x^3 - 8x + 11$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_8","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute the negative and combine:$$=5x^3-3x+8-9x^6-5x+3$$$$=-9x^6+5x^3-8x+11$$"},{"title":"Match to the answer choices","content":"The simplified expression is $-9x^6+5x^3-8x+11$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

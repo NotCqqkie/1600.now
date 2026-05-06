@@ -362,40 +362,34 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Reading and Writing",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence",
-    "difficulty": "Medium",
-    "rationale": null,
-    "id": "e11af9a4-0499-4c66-b721-ff21024ff5d1_11",
-    "testName": "September 2025 International Form A SAT English Module 2",
-    "text": "Which choice most effectively uses data from the graph to complete the assertion?\nWhile US public charities, like Commonfund, must file Form 990 yearly with the IRS, private foundations, such as the David and Lucile Packard Foundation, must file a different form, 990-PF. In addition, foundations that engage in certain prohibited activities must also file Form 4720 and pay a penalty tax on the money involved. Private foundations are prohibited from holding excess interests in a business enterprise, “self-dealing” (conducting activities that benefit foundation insiders), making taxable expenditures such as outlays for lobbying, and failing to cross a required threshold in making charitable distributions from income. Out of the organizations that filed Form 990-PF in the years 2003–2005, ______",
-    "choices": [
-      {
-        "id": "A",
-        "text": "a smaller percentage of those that also filed Form 4720 did so because they engaged in self-dealing than the percentage of those that filed Form 4720 because they did not meet the minimum charitable distribution requirement."
-      },
-      {
-        "id": "B",
-        "text": "those that also filed Form 4720 paid a larger penalty for failing to meet a minimum charitable distribution requirement than those organizations that filed Form 990 but also filed Form 4720 for the same reason."
-      },
-      {
-        "id": "C",
-        "text": "those that were also required to file Form 4720 because they had excess holdings in a business enterprise paid, on average, a larger penalty than those organizations that filed Form 4720 because they made taxable expenditures."
-      },
-      {
-        "id": "D",
-        "text": "those that also filed Form 4720 collectively paid larger penalties for failing to meet the minimum charitable distribution requirement than for other reasons."
-      }
-    ],
-    "correctAnswer": "D",
-    "type": "multiple-choice",
-    "category": {
-      "subject": "English",
+      "section": "Reading and Writing",
       "domain": "Information and Ideas",
       "skill": "Command of Evidence",
-      "confidence": "high"
-    }
+      "difficulty": "Medium",
+      "rationale": "Choice A is the best answer. The text says that LINE transposons are important in the human hippocampus, which supports complex cognition. If the LINE transposon found in octopuses is active in a similar part of their brain, that would suggest that LINE transposons support complex cognition in octopuses too, which in turn supports the hypothesis that LINE transposons are linked to advanced cognition in general.\nChoice B is incorrect. This choice doesn’t support the hypothesis. It doesn’t include anything about how LINE transposons function in species other than humans. Choice C is incorrect. This choice doesn’t support the hypothesis. It doesn’t include anything about how the LINE transposon in octopuses might support advanced cognition. Choice D is incorrect. This choice doesn’t support the hypothesis. It doesn’t include anything about how the LINE transposon in octopuses might support advanced cognition.",
+      "id": "22e4d633",
+      "testName": "SAT Question Bank",
+      "text": "Although many transposons, DNA sequences that move within an organism’s genome through shuffling or duplication, have become corrupted and inactive over time, those from the long interspersed nuclear elements (LINE) family appear to remain active in the genomes of some species. In humans, they are functionally important within the hippocampus, a brain structure that supports complex cognitive processes. When the results of molecular analysis of two species of octopus—an animal known for its intelligence—were announced in 2022, the confirmation of a LINE transposon in <em>Octopus vulgaris</em> and <em>Octopus bimaculoides</em> genomes prompted researchers to hypothesize that that transposon family is tied to a species’ capacity for advanced cognition. Which finding, if true, would most directly support the researchers’ hypothesis?",
+      "correctAnswer": "A",
+      "type": "multiple-choice",
+      "choices": [
+          {
+              "id": "A",
+              "text": "The LINE transposon in <em>O. vulgaris </em>and <em>O. bimaculoides</em> genomes is active in an octopus brain structure that functions similarly to the human hippocampus."
+          },
+          {
+              "id": "B",
+              "text": "The human genome contains multiple transposons from the LINE family that are all primarily active in the hippocampus."
+          },
+          {
+              "id": "C",
+              "text": "A consistent number of copies of LINE transposons is present across the genomes of most octopus species, with few known corruptions."
+          },
+          {
+              "id": "D",
+              "text": "<em>O. vulgaris </em>and <em>O. bimaculoides</em> have smaller brains than humans do relative to body size, but their genomes contain sequences from a wider variety of transposon families."
+          }
+      ]
   },
   {
     "section": "Reading and Writing",

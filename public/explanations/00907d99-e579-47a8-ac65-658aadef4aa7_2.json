@@ -1,15 +1,1 @@
-{
-  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_2",
-  "correctAnswer": "24",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor to reveal the given expression",
-      "content": "We need to evaluate $42 + 6x$. Both terms share a common factor of 6: $$42 + 6x = 6 \\cdot 7 + 6 \\cdot x = 6(7 + x)$$"
-    },
-    {
-      "title": "Substitute the given equation",
-      "content": "We are given that $7 + x = 4$. Substituting into our factored expression: $$6(7 + x) = 6 \\cdot 4 = 24$$"
-    }
-  ]
-}
+{"questionId":"00907d99-e579-47a8-ac65-658aadef4aa7_2","correctAnswer":"24","section":"Math","steps":[{"title":"Apply the factoring from the given condition","content":"Note $42+6x = 6(7+x)$, and $7+x=4$."},{"title":"Compute the target value","content":"So $42+6x = 6 \\cdot 4 = 24$. The answer is <strong>24</strong>."}]}

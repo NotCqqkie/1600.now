@@ -15,6 +15,10 @@ export const loadDesmos = (): Promise<void> => {
       `script[src="${DESMOS_SRC}"]`,
     );
     if (existing) {
+      if ((window as typeof window & { Desmos?: unknown }).Desmos) {
+        resolve();
+        return;
+      }
       existing.addEventListener("load", () => resolve(), { once: true });
       existing.addEventListener(
         "error",

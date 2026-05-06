@@ -1,15 +1,1 @@
-{
-  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_8",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the greatest common factor",
-      "content": "The expression is $24x + 30$. The greatest common divisor of 24 and 30 is 6, since: $24 = 6 \\times 4$ and $30 = 6 \\times 5$."
-    },
-    {
-      "title": "Factor and match to the answer",
-      "content": "Factoring out 6: $$24x + 30 = 6(4x + 5)$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d5718376-6a71-41d6-aa0f-411bb7f3bb75_8","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF of $24$ and $30$ is $6$. Factor it out:$$24x+30=6(4x+5)$$"},{"title":"Match to the answer choices","content":"The factored form is $6(4x+5)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

@@ -290,7 +290,7 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /value of x \+ y/i,
       /value of x - y/i,
       /ordered pair.*solution/i,
-      /\d+x\s*[+\-]\s*\d*y\s*=.*\d+x\s*[+\-]\s*\d*y\s*=/i, // Two equations like 3y=-24, 6x-3y=18
+      /\d+x\s*[+-]\s*\d*y\s*=.*\d+x\s*[+-]\s*\d*y\s*=/i, // Two equations like 3y=-24, 6x-3y=18
       /what is the value of [xy]\s*\?.*\d+[xy]/i, // Question asking for x or y with equation containing both
     ],
   },
@@ -316,7 +316,7 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
     domain: "Algebra",
     patterns: [
       /linear.*function|function.*linear/i,
-      /f\s*\(\s*x\s*\)\s*=\s*\d*x\s*[+\-]/i,
+      /f\s*\(\s*x\s*\)\s*=\s*\d*x\s*[+-]/i,
       /slope.*intercept|y-intercept|x-intercept/i,
       /rate of change/i,
       /constant rate/i,
@@ -338,8 +338,8 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /what value of [a-z] satisfies/i,
       /solution to the given equation/i,
       /value of [a-z] is/i,
-      /[a-z]\s*[+\-]\s*\d+\s*=\s*\d+/i, // x + 5 = 10
-      /\d+\s*[+\-]\s*\d+[a-z]\s*=\s*\d+/i, // 7 + 3x = 19
+      /[a-z]\s*[+-]\s*\d+\s*=\s*\d+/i, // x + 5 = 10
+      /\d+\s*[+-]\s*\d+[a-z]\s*=\s*\d+/i, // 7 + 3x = 19
     ],
   },
   {
@@ -372,8 +372,8 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /equivalent form/i,
       /rational exponent/i,
       /radical form/i,
-      /\d+[a-z]\^?\d*\s*[+\-]\s*\d+[a-z]\^?\d*\s*[+\-]\s*\d+[a-z]/i, // combining like terms: 7b²−4b²+9b
-      /\([a-z][+\-]\d+\)\s*\([a-z][+\-]\d+\)/i, // FOIL: (x+4)(x-6)
+      /\d+[a-z]\^?\d*\s*[+-]\s*\d+[a-z]\^?\d*\s*[+-]\s*\d+[a-z]/i, // combining like terms: 7b²−4b²+9b
+      /\([a-z][+-]\d+\)\s*\([a-z][+-]\d+\)/i, // FOIL: (x+4)(x-6)
     ],
   },
   {
@@ -383,7 +383,7 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /quadratic.*equation|equation.*quadratic/i,
       /[a-z]\^2\s*=\s*\d+/i, // y²=49
       /[a-z]²\s*=\s*\d+/i, // y²=49 (unicode)
-      /\d+[a-z]\^?2\s*[+\-\=]/i, // 3x² in equation context
+      /\d+[a-z]\^?2\s*[-+=]/i, // 3x² in equation context
       /solution.*to.*equation/i,
       /solutions.*equation.*[a-z]/i,
       /parabola.*intersect/i,
@@ -391,7 +391,7 @@ const mathPatterns: { skill: MathSkill; patterns: RegExp[]; domain: MathDomain }
       /vertex of the parabola/i,
       /zeros of the function/i,
       /roots of the equation/i,
-      /\|[a-z][+\-\−]\d+\|\s*=/i, // absolute value equation |y-4|=10
+      /\|[a-z][-+−]\d+\|\s*=/i, // absolute value equation |y-4|=10
       /system.*linear.*nonlinear|nonlinear.*system/i,
       /one linear equation and one nonlinear/i,
       /negative solution to the equation/i,

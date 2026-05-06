@@ -1,16 +1,1 @@
-{
-  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_8",
-  "correctAnswer": "18",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Separate coefficients and variable powers",
-      "content": "Rewrite $(6x^2)(3x^7)$ by grouping the numerical coefficients and the powers of $x$ separately using the associative property: $(6 \\cdot 3) \\cdot (x^2 \\cdot x^7)$."
-    },
-    {
-      "title": "Multiply and apply the exponent rule",
-      "content": "Multiply the coefficients: $6 \\cdot 3 = 18$. For the powers of $x$, apply the product rule for exponents: $x^2 \\cdot x^7 = x^{2+7} = x^9$. Combining these results gives $(6x^2)(3x^7) = 18x^9$. Since this is equivalent to $bx^9$, we have $b = 18$.",
-      "formula": "$$x^m \\cdot x^n = x^{m+n}$$"
-    }
-  ]
-}
+{"questionId":"9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_8","correctAnswer":"18","section":"Math","steps":[{"title":"Multiply the expressions","content":"Multiply coefficients and add exponents: $$(6x^2)(3x^7)=18x^{9}.$$"},{"title":"Identify b","content":"Comparing $18x^9=bx^9$ gives $b=18$. The answer is <strong>18</strong>."}]}

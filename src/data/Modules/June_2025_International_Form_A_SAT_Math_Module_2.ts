@@ -472,23 +472,17 @@ export const questions: Question[] = [
     }
   },
   {
-    "section": "Math",
-    "domain": "Algebra",
-    "skill": "Systems of two linear equations in two variables",
-    "difficulty": "Hard",
-    "rationale": null,
-    "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_17",
-    "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "$y=-6.5$\n$y=x^{2}+8x+a$\nIn the given system of equations, a is a positive integer constant. The system has no real solutions. What is the least possible value of a?",
-    "choices": [],
-    "correctAnswer": "10",
-    "type": "free-response",
-    "category": {
-      "subject": "Math",
+      "section": "Math",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
-      "confidence": "high"
-    }
+      "difficulty": "Hard",
+      "rationale": "The correct answer is $3$. Adding the second equation to the first equation in the given system of equations yields $\\left(2\\left(8x\\right)-2\\left(8x\\right)\\right)+\\left(4\\left(7y\\right)+4\\left(7y\\right)\\right)=12+12$, or $8\\left(7y\\right)=24$. Dividing both sides of this equation by $8$ yields $7y=3$. Substituting $3$ for $7y$ in the first equation, $2\\left(8x\\right)+4\\left(7y\\right)=12$, yields$2\\left(8x\\right)+4\\left(3\\right)=12$, or $2\\left(8x\\right)+12=12$. Subtracting $12$ from both sides of this equation yields $2\\left(8x\\right)=0$. Dividing both sides of this equation by $2$ yields $8x=0$. Substituting $0$ for $8x$ and $3$ for $7y$ in the expression $8x+7y$ yields $0+3$, or $3$. Therefore, the value of $8x+7y$ is $3$.",
+      "id": "edc1b7b7",
+      "testName": "SAT Question Bank",
+      "text": "$2\\left(8x\\right)+4\\left(7y\\right)=12$\n$-2\\left(8x\\right)+4\\left(7y\\right)=12$\nThe solution to the given system of equations is $\\left(x,y\\right)$. What is the value of $8x+7y$?",
+      "correctAnswer": "3",
+      "type": "free-response",
+      "choices": []
   },
   {
     "section": "Math",

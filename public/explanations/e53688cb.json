@@ -1,15 +1,1 @@
-{
-  "questionId": "e53688cb",
-  "correctAnswer": "18",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use 3y = 11 directly in the first equation",
-      "content": "The second equation already isolates $3y = 11$. Since $3y$ appears as a complete unit in the first equation, substitute this value directly instead of solving for $y$ separately:<br/><br/>$$x + 3y = 29$$<br/>$$x + 11 = 29$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Subtract 11 from both sides:<br/><br/>$$x = 29 - 11 = 18$$"
-    }
-  ]
-}
+{"questionId":"e53688cb","correctAnswer":"18","section":"Math","steps":[{"title":"Solve the system by substitution","content":"Substitute $3y=11$ into $x+3y=29$: $$x + 11 = 29 \\Rightarrow x = 18.$$"},{"title":"Find $x$","content":"So $x=18$. The answer is <strong>18</strong>."}]}

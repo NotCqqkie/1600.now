@@ -1,15 +1,1 @@
-{
-  "questionId": "eac739b2",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Factor the target expression",
-      "content": "Notice that $16x+8 = 4(4x+2)$. The target expression is exactly 4 times the given equation."
-    },
-    {
-      "title": "Substitute and compute",
-      "content": "Since $4x+2=12$, substitute into the factored form:<br/>$$16x+8 = 4(4x+2) = 4 \\cdot 12 = 48$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"eac739b2","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $16x+8 = 4(4x+2)$, and $4x+2=12$."},{"title":"Compute the target value","content":"So $16x+8 = 4 \\cdot 12 = 48$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

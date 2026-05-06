@@ -1,15 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_17",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the y-intercept by setting x = 0",
-      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which occurs when $x = 0$. We need to evaluate $f(0)$."
-    },
-    {
-      "title": "Evaluate f(0)",
-      "content": "Substitute $x = 0$ into $f(x) = (-2)(3)^x + 21$:<br/><br/>$$f(0) = (-2)(3)^0 + 21$$<br/><br/>Since $3^0 = 1$:<br/><br/>$$f(0) = (-2)(1) + 21 = -2 + 21 = 19$$<br/><br/>The $y$-intercept is the point $(0, 19)$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_17", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value x=0", "content": "The $y$-intercept occurs at $x=0$: $f(0)=(-2)(3)^{0}+21$."}, {"title": "Compute the y-intercept", "content": "$f(0)=(-2)(1)+21=19$, so the intercept is $(0,19)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_3",
-  "correctAnswer": "18",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "The y-intercept occurs at x = 0",
-      "content": "The $y$-intercept is the point where the graph crosses the $y$-axis. On the $y$-axis, all points have $x = 0$. To find the $y$-intercept, I substitute $x = 0$ into the function."
-    },
-    {
-      "title": "Evaluate f(0)",
-      "content": "Substituting $x = 0$ into $f(x) = 12x + 18$:<br/><br/>$$f(0) = 12(0) + 18 = 0 + 18 = 18$$<br/><br/>The $y$-coordinate of the $y$-intercept is <strong>18</strong>."
-    }
-  ]
-}
+{"questionId": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_3", "correctAnswer": "18", "section": "Math", "steps": [{"title": "Set up the intercept", "content": "The $y$-intercept of $y=f(x)$ occurs where $x=0$, so evaluate $f(0)$."}, {"title": "Solve for the value", "content": "Substituting gives $$f(0)=12(0)+18=18.$$ The answer is <strong>18</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_16",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange to collect all x terms on one side",
-      "content": "Subtract $5,180x$ from both sides:<br/>$$2,590x - 5,180x = 0$$"
-    },
-    {
-      "title": "Simplify and count solutions",
-      "content": "Combine the coefficients of $x$:<br/>$$(2,590 - 5,180)x = 0$$<br/>$$-2,590x = 0$$<br/>Since the coefficient of $x$ is nonzero, we can divide both sides to get:<br/>$$x = 0$$<br/>This linear equation has exactly one solution. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_16", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Simplify the equation", "content": "Subtract $2{,}590x$ from both sides of $2{,}590x=5{,}180x$ to get $$0=2{,}590x.$$"}, {"title": "Count the solutions", "content": "Dividing by $2{,}590$ gives the unique solution $x=0$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

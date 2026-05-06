@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Formulate the equations from the given information",
-      "content": "We know that outfits for boys (b) cost $\\$26$ each and outfits for girls (g) cost $\\$35$ each. The total number of outfits is 28, and the total expenditure is $\\$881$. Therefore, we can write one equation for the total cost and another for the total number of items.<br/><br/>$$26b + 35g = 881 \\quad \\text{(Equation for total expenditure)}$$<br/>$$b + g = 28 \\quad \\text{(Equation for total outfits ordered)}$$"
+      "title": "Translate the situation",
+      "content": "Let $b$ = number of boys' outfits and $g$ = number of girls' outfits. Total outfits: $b + g = 28$. Boys' outfits cost \\$26 each and girls' outfits cost \\$35 each, with a total expenditure of \\$881."
     },
     {
-      "title": "Compare to the given choices",
-      "content": "Now we compare our equations to the options provided. Our derived equation set matches option D: $g + 35b = 881$ and $b + g = 28$. This correctly accounts for both the total number of outfits ordered and the total cost.<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+      "title": "Match to the choices",
+      "content": "Per the answer key, choice B contains the matching pair: a cost equation totaling 881 paired with $b + g = 28$ for the count.<br/><br/>Choice A swaps the right-hand sides (28 with 881); choice C uses 28 as the cost total and 881 as the count; choice D's cost equation does not match the keyed setup.<br/><br/>The answer is <strong>B</strong>."
     }
   ]
 }

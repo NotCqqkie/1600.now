@@ -1,15 +1,1 @@
-{
-  "questionId": "620abf36",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the repeating unit",
-      "content": "Notice that $(x+4)$ appears on both sides of the equation. Rather than expanding, let $u = x + 4$ to simplify the problem. The equation becomes:<br/>$$5u = 4u + 29$$"
-    },
-    {
-      "title": "Solve for the value we seek",
-      "content": "Subtract $4u$ from both sides:<br/>$$5u - 4u = 29$$<br/>$$u = 29$$<br/><br/>Since $u = x + 4$, we have $x + 4 = 29$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"620abf36","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $4(x+4)$: $(x+4) = 29$."},{"title":"Compute the target value","content":"So $x+4 = 29$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

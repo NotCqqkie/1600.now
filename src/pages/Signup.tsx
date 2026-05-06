@@ -41,17 +41,15 @@ const Signup = () => {
     }
   }, [user, authLoading, navigate]);
 
+  // Both handlers defer navigation to the user-change useEffect above.
+  // The effect handles the verified/unverified split and the onboarding
+  // flag; navigating here would race the auth state and consume the
+  // return path before the verified check runs.
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const { requiresVerification } = await signUpWithEmailPassword(email, password);
-      if (requiresVerification) {
-        navigate("/verify-email", { replace: true });
-      } else {
-        sessionStorage.setItem("onboarding-pending", "1");
-        navigate(getAuthReturnTo(), { replace: true });
-      }
+      await signUpWithEmailPassword(email, password);
     } catch (error: unknown) {
       const friendly = describeAuthError(error, "signup");
       toast({ variant: "destructive", title: friendly.title, description: friendly.description });
@@ -63,8 +61,6 @@ const Signup = () => {
   const handleGoogleLogin = async () => {
     try {
       await signInWithGoogle();
-      sessionStorage.setItem("onboarding-pending", "1");
-      navigate(getAuthReturnTo(), { replace: true });
     } catch (error: unknown) {
       const friendly = describeAuthError(error, "signup");
       toast({ variant: "destructive", title: friendly.title, description: friendly.description });
@@ -103,7 +99,7 @@ const Signup = () => {
             <h1
               className="text-foreground"
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: "clamp(36px, 3.4vw, 50px)",
                 lineHeight: 1.0,
                 marginBottom: 16,
@@ -139,7 +135,7 @@ const Signup = () => {
           <div className="mb-8">
             <h2
               style={{
-                fontFamily: "'Instrument Serif', Georgia, serif",
+                fontFamily: "'Geist', Georgia, serif",
                 fontSize: 32,
                 fontWeight: 400,
                 letterSpacing: "-0.02em",

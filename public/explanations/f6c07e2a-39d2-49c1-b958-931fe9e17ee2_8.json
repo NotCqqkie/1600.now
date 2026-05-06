@@ -1,15 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_8",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve the linear equation for x",
-      "content": "From $x + 4 = 8$, subtract 4 from both sides:<br/>$$x = 4$$"
-    },
-    {
-      "title": "Substitute x into the second equation",
-      "content": "With $x = 4$, substitute into $(x + 4)^2 = y$:<br/>$$(4 + 4)^2 = y$$<br/>$$8^2 = y$$<br/>$$64 = y$$<br/><br/>We get the ordered pair $(4, 64)$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f6c07e2a-39d2-49c1-b958-931fe9e17ee2_8","correctAnswer":"A","section":"Math","steps":[{"title":"Test the choices in each equation","content":"From $x+4=8$ we need $x=4$. Then $(x+4)^2 = (4+4)^2 = 64$, so $y=64$."},{"title":"Identify the matching pair","content":"The pair $(4,64)$ satisfies both equations. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

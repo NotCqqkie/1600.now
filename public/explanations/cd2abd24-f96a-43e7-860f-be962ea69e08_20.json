@@ -1,15 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_20",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify and compare both sides",
-      "content": "The left side is $x^2 - 97$.<br/>The right side is $-97 + x^2$, which rearranges to $x^2 - 97$.<br/><br/>Both sides are algebraically identical."
-    },
-    {
-      "title": "Recognize an identity and determine the number of solutions",
-      "content": "When an equation has the form expression = expression (the same expression on both sides), it is an identity. An identity is true for every value of the variable. Therefore, any real number substituted for $x$ satisfies the equation. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cd2abd24-f96a-43e7-860f-be962ea69e08_20","correctAnswer":"D","section":"Math","steps":[{"title":"Compare both sides","content":"Rewriting the right side: $-97+x^{2}=x^{2}-97$, which is identical to the left side. The equation reduces to $$x^{2}-97=x^{2}-97.$$"},{"title":"Interpret the identity","content":"Both sides are equal for every real $x$, so the equation has infinitely many solutions. That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."}]}

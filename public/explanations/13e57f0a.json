@@ -1,15 +1,1 @@
-{
-  "questionId": "13e57f0a",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange to standard form",
-      "content": "Move all terms to one side: $$-4x^2 - 7x + 36 = 0$$"
-    },
-    {
-      "title": "Backsolve to find the positive solution",
-      "content": "Backsolving \u2014 testing choice B (9/4): Substitute $x = \\frac{9}{4}$ into the equation.<br/>$$-4\\left(\\frac{9}{4}\\right)^2 - 7\\left(\\frac{9}{4}\\right) + 36$$<br/>$$= -4 \\cdot \\frac{81}{16} - \\frac{63}{4} + 36$$<br/>$$= -\\frac{81}{4} - \\frac{63}{4} + 36$$<br/>$$= -\\frac{144}{4} + 36 = -36 + 36 = 0$$<br/><br/>This works, and $\\frac{9}{4} > 0$ is positive, so that matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "13e57f0a", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Rewrite as $4x^2+7x-36=0$ and factor: $$(4x-9)(x+4)=0.$$ The roots are $x=\\tfrac{9}{4}$ and $x=-4$."}, {"title": "Identify the positive solution", "content": "Take the positive root. The answer is <strong>(B) $\\tfrac{9}{4}$</strong>."}]}

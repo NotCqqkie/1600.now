@@ -1,4 +1,5 @@
 import {
+  arrayUnion,
   collection,
   doc,
   getDoc,
@@ -7,7 +8,8 @@ import {
   serverTimestamp,
   setDoc,
 } from "firebase/firestore";
-import { db } from "@/lib/firebase";
+
+import { db } from "@/lib/firebaseDb";
 
 export const REPORT_REASONS = [
   { key: "incorrectAnswer", label: "Incorrect answer" },
@@ -42,7 +44,7 @@ export const submitQuestionReport = async (args: {
 }): Promise<void> => {
   if (!db) throw new Error("Reporting is unavailable right now.");
   const { questionId, reasons, otherText, userId } = args;
-  const trimmedOther = otherText?.trim() ?? "";
+  const trimmedOther = (otherText?.trim() ?? "").slice(0, 500);
   if (reasons.length === 0 && !trimmedOther) {
     throw new Error("Pick at least one reason or describe the issue.");
   }
@@ -52,27 +54,21 @@ export const submitQuestionReport = async (args: {
   for (const r of reasons) countsUpdate[`counts.${r}`] = increment(1);
   if (trimmedOther) countsUpdate["counts.other"] = increment(1);
 
-  const existing = await getDoc(ref);
-  const existingComments =
-    (existing.data()?.otherComments as QuestionReport["otherComments"]) ?? [];
-  const nextComments = trimmedOther
-    ? [
-        ...existingComments,
-        { text: trimmedOther, timestamp: Date.now(), ...(userId ? { userId } : {}) },
-      ]
-    : existingComments;
+  const payload: Record<string, unknown> = {
+    questionId,
+    ...countsUpdate,
+    totalReports: increment(1),
+    lastReportedAt: serverTimestamp(),
+  };
+  if (trimmedOther) {
+    payload.otherComments = arrayUnion({
+      text: trimmedOther,
+      timestamp: Date.now(),
+      ...(userId ? { userId } : {}),
+    });
+  }
 
-  await setDoc(
-    ref,
-    {
-      questionId,
-      ...countsUpdate,
-      totalReports: increment(1),
-      lastReportedAt: serverTimestamp(),
-      otherComments: nextComments,
-    },
-    { merge: true },
-  );
+  await setDoc(ref, payload, { merge: true });
 };
 
 export const getQuestionReport = async (

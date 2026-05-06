@@ -1,15 +1,1 @@
-{
-  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_10",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Group and factor the polynomial",
-      "content": "Rearrange and group the terms to identify a common factor:<br/><br/>$$(x^9 + x^8 y) + (x y^4 + y^5)$$<br/>Factor the greatest common factor from each group:<br/><br/>$$x^8(x + y) + y^4(x + y)$$<br/>Both groups contain $(x + y)$. Extract this common factor:<br/><br/>$$(x + y)(x^8 + y^4)$$"
-    },
-    {
-      "title": "Match to an answer choice",
-      "content": "The original polynomial factors as $(x + y)(x^8 + y^4)$, making both $(x + y)$ and $(x^8 + y^4)$ factors of the original expression. Looking at the choices, $x^8 + y^4$ appears directly as choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_10", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Group and factor each pair", "content": "Group: $$(x^9+x^8y)+(xy^4+y^5).$$"}, {"title": "Apply the common-factor step", "content": "Factor each: $x^8(x+y)+y^4(x+y)=(x+y)(x^8+y^4)$."}, {"title": "Identify the matching factor", "content": "So $x^8+y^4$ is a factor. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

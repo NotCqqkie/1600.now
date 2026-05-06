@@ -1,15 +1,1 @@
-{
-  "questionId": "2e92cc21",
-  "correctAnswer": "9.87",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Compute b as 90% less than 47",
-      "content": "<ul><li>90% less than 47 means subtract 90% of 47 from 47.</li><li>$$b = 47 - 0.90 \\times 47 = 47(1-0.90) = 47 \\times 0.10 = 4.7$$</li></ul>"
-    },
-    {
-      "title": "Compute a as 110% greater than b",
-      "content": "<ul><li>110% greater than b means add 110% of b to b.</li><li>$$a = b + 1.10b = b(1+1.10) = 2.10b = 2.10 \\times 4.7 = 9.87$$</li><li>That matches choice E \u2014 <strong>E</strong> is correct.</li></ul>"
-    }
-  ]
-}
+{"questionId": "2e92cc21", "correctAnswer": "9.87", "section": "Math", "steps": [{"title": "Compute b as 90% less than 47", "content": "<ul><li>90% less than 47 means subtract 90% of 47 from 47.</li><li>$$b = 47 - 0.90 \\times 47 = 47(1-0.90) = 47 \\times 0.10 = 4.7$$</li></ul>"}, {"title": "Compute a as 110% greater than b", "content": "<ul><li>110% greater than b means add 110% of b to b.</li><li>$$a = b + 1.10b = b(1+1.10) = 2.10b = 2.10 \\times 4.7 = 9.87$$</li><li>The answer is <strong>9.87</strong>.</li></ul>"}]}

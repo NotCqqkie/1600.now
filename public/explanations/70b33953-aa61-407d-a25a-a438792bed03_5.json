@@ -1,15 +1,1 @@
-{
-  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_5",
-  "correctAnswer": ".25,0.25,1/4",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation by substituting into the function",
-      "content": "Since $g(a) = 29$ and $g(x) = 16x + 25$, substitute $a$ for $x$:<br/><br/>$$16a + 25 = 29$$"
-    },
-    {
-      "title": "Solve for a",
-      "content": "Subtract 25 from both sides:<br/><br/>$$16a = 4$$<br/><br/>Divide both sides by 16:<br/><br/>$$a = \\frac{4}{16} = \\frac{1}{4} = 0.25$$"
-    }
-  ]
-}
+{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_5", "correctAnswer": ".25,0.25,1/4", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $g(a)=29$ and write the equation.<br><br>$$16a+25=29$$"}, {"title": "Solve for x", "content": "Subtract $25$, then divide by $16$.<br><br>$$16a=4\\;\\Rightarrow\\;a=\\tfrac{1}{4}$$<br><br>The answer is <strong>1/4</strong>."}]}

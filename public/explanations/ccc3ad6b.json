@@ -1,15 +1,1 @@
-{
-  "questionId": "ccc3ad6b",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that the solution is the intersection point",
-      "content": "The solution to a system of linear equations is the point where the two lines cross on the graph. This point has coordinates that satisfy both equations at once."
-    },
-    {
-      "title": "Read the intersection coordinates from the grid",
-      "content": "Identify where the two lines meet. Tracing vertically to the $x$-axis shows $x = 4$, and tracing horizontally to the $y$-axis shows $y = -5$. The intersection point is $(4, -5)$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ccc3ad6b","correctAnswer":"A","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=4,\\ y=-5$."},{"title":"State the ordered pair","content":"The solution is $(4,-5)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

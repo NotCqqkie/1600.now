@@ -1,11 +1,1 @@
-{
-  "questionId": "70f98ab4",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate q by adding 29r to both sides",
-      "content": "We start with $q - 29r = s$. To solve for $q$, add $29r$ to both sides:<br/>$$q - 29r + 29r = s + 29r$$<br/>$$q = s + 29r$$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "70f98ab4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Add $29r$ to both sides of $q-29r=s$ to get $$q=s+29r.$$"}, {"title": "Match to the answer choices", "content": "The form $q=s+29r$ matches choice B. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

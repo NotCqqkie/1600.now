@@ -1,15 +1,1 @@
-{
-  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_5",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the length",
-      "content": "The width is $$8 \\text{ cm}$$.<br/>Length = width + 50 = $$8 + 50 = 58\\text{ cm}$$."
-    },
-    {
-      "title": "Compute the area",
-      "content": "Area = width \u00d7 length = $$8 \\times 58 = 464\\text{ cm}^2$$.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6bfd0c2e-65a8-46f9-a800-10203b4c8d45_5","correctAnswer":"D","section":"Math","steps":[{"title":"Identify the dimensions","content":"The width is $w=8$ cm. The length is $50$ cm longer than the width, so $\\ell = 8 + 50 = 58$ cm."},{"title":"Apply the perimeter/area formula","content":"Area of a rectangle is $A = \\ell \\cdot w$, so $A = 58 \\cdot 8 = 464$ square cm. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

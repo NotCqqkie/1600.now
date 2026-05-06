@@ -1,15 +1,1 @@
-{
-  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_10",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify like terms",
-      "content": "In $4yz^3 + 5yz + 3yz^3$, look for terms with identical variable parts. The terms $4yz^3$ and $3yz^3$ both contain the factor $yz^3$, so they are like terms. The term $5yz$ has $z$ to the first power, not the third, so it cannot be combined with the $yz^3$ terms."
-    },
-    {
-      "title": "Combine like terms and simplify",
-      "content": "Add the coefficients of the $yz^3$ terms:<br/>$$4yz^3 + 3yz^3 = 7yz^3$$<br/>Keep $5yz$ unchanged. The simplified expression is $7yz^3 + 5yz$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"00907d99-e579-47a8-ac65-658aadef4aa7_10","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Combine the $yz^3$ terms:$$4yz^3+3yz^3+5yz=7yz^3+5yz$$"},{"title":"Match to the answer choices","content":"The simplified expression is $7yz^3+5yz$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

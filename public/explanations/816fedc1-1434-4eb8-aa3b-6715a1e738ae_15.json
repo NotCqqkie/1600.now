@@ -1,15 +1,1 @@
-{
-  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_15",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate and factor the squared expression",
-      "content": "Start with $\\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^2 - 64 = 0$. Rearrange to isolate the squared term: $$\\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^2 = 64$$<br/>Now factor out $\\frac{1}{2}$ from the left side. Notice that $\\frac{1}{2}x - \\frac{33}{2} = \\frac{1}{2}(x - 33)$, so: $$\\left[\\frac{1}{2}(x - 33)\\right]^2 = 64$$"
-    },
-    {
-      "title": "Expand and solve for the target",
-      "content": "Using the power rule, expand the left side: $$\\left(\\frac{1}{2}\\right)^2(x - 33)^2 = 64$$$$\\frac{1}{4}(x - 33)^2 = 64$$<br/>Multiply both sides by 4 to isolate $(x - 33)^2$: $$(x - 33)^2 = 256$$That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_15","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the factoring identity from the given condition","content":"Factor: $\\bigl(\\tfrac{x-33}{2}\\bigr)^{2}=64$, so $(x-33)^{2}/4=64$."},{"title":"Compute the target value","content":"Multiply by $4$: $(x-33)^{2} = 256$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

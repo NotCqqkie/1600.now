@@ -1,15 +1,1 @@
-{
-  "questionId": "ffb371f5",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve the first equation for x",
-      "content": "The first equation is $3x = 12$. Divide both sides by 3 to isolate $x$:<br/>$$x = \\frac{12}{3} = 4$$"
-    },
-    {
-      "title": "Substitute x = 4 into the second equation",
-      "content": "Substitute $x = 4$ into the second equation $-3x + y = -6$:<br/>$$-3(4) + y = -6$$<br/>$$-12 + y = -6$$<br/>$$y = 6$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ffb371f5", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $3x=12$, $x=4$. Substitute into $-3x+y=-6$: $-12+y=-6$."}, {"title": "Find $y$", "content": "So $y=6$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

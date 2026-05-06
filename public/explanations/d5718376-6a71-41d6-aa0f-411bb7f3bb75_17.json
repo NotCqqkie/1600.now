@@ -1,15 +1,1 @@
-{
-  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_17",
-  "correctAnswer": "7",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify like terms",
-      "content": "All three terms in the expression $7x^4 + 10x^4 - 10x^4$ contain the factor $x^4$, so they are like terms and can be combined."
-    },
-    {
-      "title": "Combine coefficients",
-      "content": "Since all terms are like terms, add and subtract their coefficients:\n$$7 + 10 - 10 = 7$$\n\nTherefore, $7x^4 + 10x^4 - 10x^4 = 7x^4$, which means $b = 7$."
-    }
-  ]
-}
+{"questionId":"d5718376-6a71-41d6-aa0f-411bb7f3bb75_17","correctAnswer":"7","section":"Math","steps":[{"title":"Multiply the expressions","content":"Combine like terms: $$7x^4+10x^4-10x^4=(7+10-10)x^4=7x^4.$$"},{"title":"Identify b","content":"Comparing $7x^4=bx^4$ gives $b=7$. The answer is <strong>7</strong>."}]}

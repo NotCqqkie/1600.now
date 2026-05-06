@@ -1,10 +1,11 @@
 import { useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
+import { StepByStepExplanation } from "@/components/StepByStepExplanation";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import {
   getLatestModulePracticeResult,
@@ -58,6 +59,7 @@ const ModulePracticeResults = () => {
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
   const [hideCorrectAnswers, setHideCorrectAnswers] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
+  const [showExplanation, setShowExplanation] = useState<Set<string>>(() => new Set());
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const sessionId = searchParams.get("session");
@@ -72,6 +74,20 @@ const ModulePracticeResults = () => {
     }
     return getLatestModulePracticeResult(module.slug);
   }, [module, sessionId]);
+  const orderedQuestions = useMemo(() => {
+    if (!result) return [];
+    const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
+
+    return [...result.questions].sort((left, right) => {
+      if (questionSortMode === "correct") {
+        const correctnessDifference =
+          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
+        if (correctnessDifference !== 0) return correctnessDifference;
+      }
+
+      return (left.questionNumber - right.questionNumber) * directionMultiplier;
+    });
+  }, [questionSortDirection, questionSortMode, result]);
 
   if (!module || !result) {
     return (
@@ -159,20 +175,6 @@ const ModulePracticeResults = () => {
     .sort((left, right) => right.timeSpentSeconds - left.timeSpentSeconds);
   const highestTimeQuestions = timedQuestions.slice(0, 3);
   const lowestTimeQuestions = [...timedQuestions].reverse().slice(0, 3);
-  const orderedQuestions = useMemo(() => {
-    const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
-
-    return [...result.questions].sort((left, right) => {
-      if (questionSortMode === "correct") {
-        const correctnessDifference =
-          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
-        if (correctnessDifference !== 0) return correctnessDifference;
-      }
-
-      return (left.questionNumber - right.questionNumber) * directionMultiplier;
-    });
-  }, [questionSortDirection, questionSortMode, result.questions]);
-
   const scrollToQuestion = (storageId: string) => {
     setExpandedQuestions((previous) => {
       const next = new Set(previous);
@@ -199,7 +201,7 @@ const ModulePracticeResults = () => {
       <div className="space-y-3">
         <h1
           style={{
-            fontFamily: "'Instrument Serif', Georgia, serif",
+            fontFamily: "'Geist', Georgia, serif",
             fontSize: "clamp(34px, 4.5vw, 56px)",
             fontWeight: 400,
             letterSpacing: "-0.04em",
@@ -589,6 +591,65 @@ const ModulePracticeResults = () => {
                           </div>
                         )}
                       </div>
+                    </div>
+
+                    <div className="col-span-full mt-1">
+                      {!showExplanation.has(question.storageId) ? (
+                        <Button
+                          variant="outline"
+                          size="sm"
+                          className="gap-2 bg-transparent"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setShowExplanation((prev) => new Set(prev).add(question.storageId));
+                          }}
+                        >
+                          <Lightbulb className="h-4 w-4" />
+                          Show Step-by-Step Explanation
+                        </Button>
+                      ) : (
+                        <div className="rounded-xl border border-border/60 bg-muted/10 p-4">
+                          <div className="mb-3 flex items-center justify-between">
+                            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
+                              <Lightbulb className="h-3.5 w-3.5" />
+                              Step-by-Step Explanation
+                            </div>
+                            <button
+                              type="button"
+                              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setShowExplanation((prev) => {
+                                  const next = new Set(prev);
+                                  next.delete(question.storageId);
+                                  return next;
+                                });
+                              }}
+                            >
+                              Hide
+                            </button>
+                          </div>
+                          <StepByStepExplanation
+                            questionId={question.storageId}
+                            question={{
+                              section: module.subject === "math" ? "Math" : "Reading and Writing",
+                              passage: sourceQuestion.passage || "",
+                              questionText: sourceQuestion.questionText || sourceQuestion.prompt,
+                              choices: sourceQuestion.choices?.map((c) => ({
+                                label: c.id,
+                                text: c.text ?? "",
+                                image: c.image,
+                              })),
+                              correctAnswer: question.correctAnswer,
+                              domain: question.domain || sourceQuestion.domain,
+                              skill: question.skill,
+                              difficulty: sourceQuestion.difficulty,
+                              isFillInBlank: sourceQuestion.type === "fill-in-blank",
+                            }}
+                            questionImages={sourceQuestion.questionImages}
+                          />
+                        </div>
+                      )}
                     </div>
                   </div>
                 ) : null}

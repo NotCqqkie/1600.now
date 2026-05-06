@@ -1,11 +1,1 @@
-{
-  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_19",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the y-intercept by setting x = 0",
-      "content": "The y-intercept occurs where the graph crosses the y-axis, at $x = 0$. Substitute $x = 0$ into the equation:<br/>$$y = 6^0 + 12$$<br/>Since $6^0 = 1$:<br/>$$y = 1 + 12 = 13$$<br/>The y-intercept is $(0, 13)$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_19", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set the appropriate variable to 0", "content": "For the $y$-intercept, set $x=0$ in $y=6^{x}+12$: $$y=6^{0}+12=1+12.$$"}, {"title": "Compute the intercept", "content": "This gives $y=13$, so the $y$-intercept is $(0,13)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

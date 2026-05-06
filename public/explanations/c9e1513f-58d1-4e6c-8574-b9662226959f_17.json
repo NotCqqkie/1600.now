@@ -1,16 +1,1 @@
-{
-  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_17",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify complementary angles in the right triangle",
-      "content": "Triangle ACE has a right angle at E. Since the sum of angles in a triangle is 180\u00b0, we have: $$A + C + 90\u00b0 = 180\u00b0$$ Therefore, $A + C = 90\u00b0$, meaning angles A and C are complementary angles."
-    },
-    {
-      "title": "Apply the complementary angle identity",
-      "content": "For complementary angles, the sine of one angle equals the cosine of the other: $$\\sin C = \\cos A$$ Since we're given that $\\cos A = 0.55$, we have: $$\\sin C = 0.55$$ This matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$\\sin \\theta = \\cos(90\u00b0 - \\theta)$$"
-    }
-  ]
-}
+{"questionId":"c9e1513f-58d1-4e6c-8574-b9662226959f_17","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the complementary-angle identity from the given condition","content":"In a right triangle the two acute angles are complementary, so $\\sin C = \\cos A$. Given $\\cos A = 0.55$."},{"title":"Compute the target value","content":"Therefore $\\sin C = 0.55$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

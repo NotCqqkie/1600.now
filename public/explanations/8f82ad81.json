@@ -1,11 +1,1 @@
-{
-  "questionId": "8f82ad81",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute 4 to both terms",
-      "content": "Multiply 4 by each term inside the parentheses:<br/>$$4(x^2 + 6) = 4 \\cdot x^2 + 4 \\cdot 6 = 4x^2 + 24$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8f82ad81","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $4$:$$4(x^2+6)=4x^2+24$$"},{"title":"Match to the answer choices","content":"The simplified expression is $4x^2+24$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

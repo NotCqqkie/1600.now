@@ -1,11 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the data point from the scatterplot at wind speed 8 m/s",
-      "content": "Locate $x = 8$ m/s on the horizontal axis of the scatterplot. Find the corresponding data point directly above that wind speed. The point aligns with the horizontal grid line at $y = 800$ watts on the vertical axis. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read the data point from the scatterplot at wind speed 8 m/s", "content": "Locate $x = 8$ m/s on the horizontal axis of the scatterplot. The corresponding data point sits closest to $y = 640$ watts on the vertical axis. Among the choices ($640$, $800$, $840$, $900$), $640$ is the closest match. That matches choice A — <strong>A</strong> is correct."}]}

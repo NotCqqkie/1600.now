@@ -1,11 +1,1 @@
-{
-  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_13",
-  "correctAnswer": "26",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Add the equations to eliminate x",
-      "content": "Notice that $9x$ and $-9x$ are opposites, so adding the two equations eliminates $x$:<br/>$$(9x + 5y) + (-9x - 3y) = 19 + 7$$<br/>Combining like terms:<br/>$$2y = 26$$<br/>Since the problem asks for $2y$, the answer is <strong>26</strong>."
-    }
-  ]
-}
+{"questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_13", "correctAnswer": "26", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the equations: $(9x - 9x) + (5y - 3y) = 19 + 7$, giving $2y = 26$."}, {"title": "Find $2y$", "content": "$2y = 26$. The answer is <strong>26</strong>."}]}
