@@ -1,18 +1,1 @@
-{
-  "questionId": "12b04e68",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Define variables and relationship",
-      "content": "Let $T$ be total people, $D$ donors, $V$ volunteers. The relationship is $$T = D + V$$.",
-      "formula": "",
-      "desmosExpressions": [],
-      "desmosGraphs": []
-    },
-    {
-      "title": "Compute volunteers and select answer",
-      "content": "Substitute $T=165$ and $D=130$: $$V = 165 - 130 = 35$$.<br/>Thus 35 people volunteered.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "12b04e68", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Define variables and relationship", "content": "Let $T$ be total people, $D$ donors, $V$ volunteers. The relationship is $$T = D + V$$."}, {"title": "Compute volunteers and select answer", "content": "Substitute $T=165$ and $D=130$: $$V = 165 - 130 = 35$$.<br/>Thus 35 people volunteered.<br/>That matches choice A — <strong>A</strong> is correct."}]}
