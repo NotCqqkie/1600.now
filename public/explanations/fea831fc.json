@@ -1,15 +1,1 @@
-{
-  "questionId": "fea831fc",
-  "correctAnswer": "25",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the speed formula for miles per hour",
-      "content": "To convert a rate from miles per minute to miles per hour, multiply by the conversion factor 60 minutes/hour. Speed is distance divided by time, so:<br/><br/>$$\\text{speed (mph)} = \\frac{\\text{distance (miles)} \\times 60}{\\text{time (minutes)}}$$"
-    },
-    {
-      "title": "Calculate the average speed and round",
-      "content": "Substituting the given values: distance = 11 miles, time = 26 minutes:<br/><br/>$$\\text{speed} = \\frac{11 \\times 60}{26} = \\frac{660}{26} = 25.384...$$<br/><br/>Rounding to the nearest tenth of a mile per hour gives <strong>25.4 mph</strong>."
-    }
-  ]
-}
+{"questionId": "fea831fc", "correctAnswer": "25.4", "section": "Math", "steps": [{"title": "Set up the speed formula for miles per hour", "content": "To convert a rate from miles per minute to miles per hour, multiply by the conversion factor 60 minutes/hour. Speed is distance divided by time, so:<br/><br/>$$\\text{speed (mph)} = \\frac{\\text{distance (miles)} \\times 60}{\\text{time (minutes)}}$$"}, {"title": "Calculate the average speed and round", "content": "Substituting the given values: distance = 11 miles, time = 26 minutes:<br/><br/>$$\\text{speed} = \\frac{11 \\times 60}{26} = \\frac{660}{26} = 25.384...$$<br/><br/>Rounding to the nearest tenth of a mile per hour gives <strong>25.4 mph</strong>."}]}

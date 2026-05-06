@@ -1,15 +1,1 @@
-{
-  "questionId": "cb58833c",
-  "correctAnswer": "1",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set y = 0 to find the x-intercept",
-      "content": "The x-intercept occurs where the line crosses the x-axis, which is when $y = 0$. Substitute $y = 0$ into the equation:<br/>$$\\frac{4}{5}x + \\frac{1}{3}(0) = 1$$<br/>$$\\frac{4}{5}x = 1$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Multiply both sides by $\\frac{5}{4}$ (the reciprocal of $\\frac{4}{5}$):<br/>$$x = 1 \\cdot \\frac{5}{4} = \\frac{5}{4}$$"
-    }
-  ]
-}
+{"questionId": "cb58833c", "correctAnswer": "5/4", "section": "Math", "steps": [{"title": "Set y = 0 to find the x-intercept", "content": "The x-intercept occurs where the line crosses the x-axis, which is when $y = 0$. Substitute $y = 0$ into the equation:<br/>$$\\frac{4}{5}x + \\frac{1}{3}(0) = 1$$<br/>$$\\frac{4}{5}x = 1$$"}, {"title": "Solve for x", "content": "Multiply both sides by $\\frac{5}{4}$ (the reciprocal of $\\frac{4}{5}$):<br/>$$x = 1 \\cdot \\frac{5}{4} = \\frac{5}{4}$$"}]}
