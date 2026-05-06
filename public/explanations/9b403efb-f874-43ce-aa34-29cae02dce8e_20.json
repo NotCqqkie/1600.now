@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures",
-      "content": "The left side contains the subject <strong>\u201cThe powerful blast\u201d</strong> (noun phrase). The right side begins with a prepositional phrase <strong>\u201cfrom the collapse of the star's core under the force of its own gravity\u201d</strong> and continues with <strong>\u201cejected particles,\u201d</strong> where <strong>\u201cejected\u201d</strong> is a verb with its object."
-    },
-    {
-      "title": "Apply the correct form",
-      "content": "The blank must allow <strong>\u201cejected\u201d</strong> to function as the main verb. A finite verb (results, resulted, had resulted) would create an independent clause \u2014 <strong>\u201cThe powerful blast resulted from the collapse...\u201d</strong> \u2014 leaving <strong>\u201cejected particles\u201d</strong> unattached to the sentence structure. A participle instead creates a modifying phrase: <strong>\u201cThe powerful blast resulting from the collapse...\u201d</strong> that allows <strong>\u201cejected\u201d</strong> to be the main verb. The finite verbs break the sentence into disconnected parts; the participle form enables a grammatical structure. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "The left side contains the subject <strong>“The powerful blast”</strong> (noun phrase).<br/><br/>The right side begins with a prepositional phrase <strong>“from the collapse of the star's core under the force of its own gravity”</strong> and continues with <strong>“ejected particles,”</strong> where <strong>“ejected”</strong> is a verb with its object."}, {"title": "Apply the correct form", "content": "The blank must allow <strong>“ejected”</strong> to function as the main verb.<br/><br/>A finite verb (results, resulted, had resulted) would create an independent clause — <strong>“The powerful blast resulted from the collapse...”</strong> — leaving <strong>“ejected particles”</strong> unattached to the sentence structure.<br/><br/>A participle instead creates a modifying phrase: <strong>“The powerful blast resulting from the collapse...”</strong> that allows <strong>“ejected”</strong> to be the main verb.<br/><br/>The finite verbs break the sentence into disconnected parts; the participle form enables a grammatical structure.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

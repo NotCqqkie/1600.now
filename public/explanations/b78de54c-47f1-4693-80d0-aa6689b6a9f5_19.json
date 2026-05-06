@@ -1,15 +1,1 @@
-{
-  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the punctuation issue",
-      "content": "The main clause ends with \u201c...collective defense,\u201d followed immediately by a comma and \u201ceach NATO member ______ to defend the others if necessary.\u201d The key issue is what grammatical structure can correctly follow a comma after an independent clause."
-    },
-    {
-      "title": "Apply the comma rule",
-      "content": "A comma cannot join two independent clauses; it requires the second structure to be a non-finite form like a participial phrase. \u201cPledging\u201d is a participle that creates a valid participial phrase. \u201cHas pledged,\u201d \u201cpledges,\u201d and \u201cis pledging\u201d are finite verbs that form independent clauses, which cannot be joined to the main clause with just a comma. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the punctuation issue", "content": "The main clause ends with “...collective defense,” followed immediately by a comma and “each NATO member ______ to defend the others if necessary.” The key issue is what grammatical structure can correctly follow a comma after an independent clause."}, {"title": "Apply the comma rule", "content": "A comma cannot join two independent clauses; it requires the second structure to be a non-finite form like a participial phrase. “Pledging” is a participle that creates a valid participial phrase. “Has pledged,” “pledges,” and “is pledging” are finite verbs that form independent clauses, which cannot be joined to the main clause with just a comma.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

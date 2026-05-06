@@ -1,15 +1,1 @@
-{
-  "questionId": "8889d6e2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what Text 1's claim depends on",
-      "content": "Text 1 concludes that humans occupied the cave 33,150 years ago based on interpreting crude stone pieces as tools. This entire argument rests on one critical assumption: that these objects were intentionally made by humans, not naturally formed."
-    },
-    {
-      "title": "Match Text 2's objection",
-      "content": "Text 2 directly targets the assumption underlying Text 1's claim: that the stone pieces are human-made tools. The evidence Text 2 provides\u2014they could be naturally fractured, and no other human activity or DNA is present\u2014demonstrates the claim rests on an unsupported assumption, which is exactly what B identifies. The other choices misread Text 2's skepticism as acceptance of plausibility (A, C) or misattribute claims Text 2 doesn't make (D).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8889d6e2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what Text 1's claim depends on", "content": "Text 1 concludes that humans occupied the cave 33,150 years ago based on interpreting crude stone pieces as tools. This entire argument rests on one critical assumption: that these objects were intentionally made by humans, not naturally formed."}, {"title": "Match Text 2's objection", "content": "Text 2 directly targets the assumption underlying Text 1's claim: that the stone pieces are human-made tools.<br/><br/>The evidence Text 2 provides—they could be naturally fractured, and no other human activity or DNA is present—demonstrates the claim rests on an unsupported assumption, which is exactly what B identifies.<br/><br/>The other choices misread Text 2's skepticism as acceptance of plausibility (A, C) or misattribute claims Text 2 doesn't make (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the student's goal",
-      "content": "The student wants to emphasize how many participants selected an altered version. From the notes, that figure is 13.1%."
-    },
-    {
-      "title": "Match the emphasis to the choices",
-      "content": "Choice D directly states that \u201c13.1% of participants chose an altered version,\u201d which is exactly the emphasis the student needs. Choices A, B, and C either emphasize the wrong metric, provide no percentages, or fail to focus on the altered selection. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the student's goal", "content": "The student wants to emphasize how many participants selected an altered version. From the notes, that figure is 13.1%."}, {"title": "Match the emphasis to the choices", "content": "Choice D directly states that “13.1% of participants chose an altered version,” which is exactly the emphasis the student needs.<br/><br/>Choices A, B, and C either emphasize the wrong metric, provide no percentages, or fail to focus on the altered selection.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

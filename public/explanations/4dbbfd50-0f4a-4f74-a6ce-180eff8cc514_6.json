@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Map the passage's two-part structure",
-      "content": "The passage opens by citing two specific buildings as exemplars of a design trend, then explains the principles underlying that trend. The key signal is this two-part structure: concrete examples followed by explanation of underlying principles."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "D is correct because it accurately describes what the passage does: it \u201ccites examples of a design trend\u201d (the two buildings) and \u201cestablishes the principles underlying the trend\u201d (post-WWII technology emphasis and traditional preservation). A, B, and C all mischaracterize the second part \u2014 A points to historical origins, B to past material uses, and C to one aesthetic dominating the other. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Map the passage's two-part structure", "content": "The passage opens by citing two specific buildings as exemplars of a design trend, then explains the principles underlying that trend. The key signal is this two-part structure: concrete examples followed by explanation of underlying principles."}, {"title": "Apply to the choices", "content": "D is correct because it accurately describes what the passage does: it “cites examples of a design trend” (the two buildings) and “establishes the principles underlying the trend” (post-WWII technology emphasis and traditional preservation).<br/><br/>A, B, and <ul><li>C all mischaracterize the second part — A points to historical origins</li><li>B to past material uses</li><li>C to one aesthetic dominating the other</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

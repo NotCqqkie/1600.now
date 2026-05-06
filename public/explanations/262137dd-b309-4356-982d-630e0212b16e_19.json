@@ -1,15 +1,1 @@
-{
-  "questionId": "262137dd-b309-4356-982d-630e0212b16e_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Before the blank: an independent clause with an appositive phrase (<strong>\"the site with the highest elevation\"</strong>). After the blank: an independent clause with subject \"it\" and verb \"had shifted.\""
-    },
-    {
-      "title": "Apply the comma-conjunction rule",
-      "content": "The rule is: a comma + coordinating conjunction properly joins two independent clauses. Choice D \"elevation, and\" correctly closes the appositive with a comma, then uses \"and\" to join the second clause. The other choices fail because they either lack the conjunction entirely (creating a boundary error) or embed it improperly within the appositive. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "262137dd-b309-4356-982d-630e0212b16e_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Before the blank: an independent clause with an appositive phrase (<strong>\"the site with the highest elevation\"</strong>). After the blank: an independent clause with subject \"it\" and verb \"had shifted.\""}, {"title": "Apply the comma-conjunction rule", "content": "The rule is: a comma + coordinating conjunction properly joins two independent clauses.<br/><br/>Choice D \"elevation, and\" correctly closes the appositive with a comma, then uses \"and\" to join the second clause.<br/><br/>The other choices fail because they either lack the conjunction entirely (creating a boundary error) or embed it improperly within the appositive.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

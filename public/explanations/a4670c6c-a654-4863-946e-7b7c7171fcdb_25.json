@@ -1,15 +1,1 @@
-{
-  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_25",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the student must accomplish",
-      "content": "The student's goal is to <strong>compare the sizes</strong> of the two mountains. The notes provide the specific measurements: 1,360 mi\u00b2 for Peloncillo-Pan Duro and 63 mi\u00b2 for Sierrita."
-    },
-    {
-      "title": "Find the choice that directly compares these sizes",
-      "content": "B does this\u2014it states which mountain is larger and includes both exact measurements. A discusses the number of sky islands, C makes a vague claim about size variation without comparing these two mountains specifically, and D focuses on environmental features. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the student must accomplish", "content": "The student's goal is to <strong>compare the sizes</strong> of the two mountains. The notes provide the specific measurements: 1,360 mi² for Peloncillo-Pan Duro and 63 mi² for Sierrita."}, {"title": "Find the choice that directly compares these sizes", "content": "B does this—it states which mountain is larger and includes both exact measurements.<br/><br/><ul><li>A discusses the number of sky islands</li><li>C makes a vague claim about size variation without comparing these two mountains specifically</li><li>D focuses on environmental features</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

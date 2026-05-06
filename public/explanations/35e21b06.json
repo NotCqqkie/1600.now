@@ -1,15 +1,1 @@
-{
-  "questionId": "35e21b06",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify Text 2's counter to Text 1's interpretation",
-      "content": "Text 2 directly challenges the conclusion that magpies are attempting to help by offering an alternative: the magpies might simply be curious about the <em>equipment's novelty</em>, pecking at it without intent to assist."
-    },
-    {
-      "title": "Evaluate the choices",
-      "content": "D correctly identifies that the behavior doesn't require assuming attempted assistance. A misidentifies the source of novelty, C bases objections on frequency rather than interpretation, and B contradicts both texts by proposing self-benefit.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "35e21b06", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify Text 2's counter to Text 1's interpretation", "content": "Text 2 directly challenges the conclusion that magpies are attempting to help by offering an alternative: the magpies might simply be curious about the <em>equipment's novelty</em>, pecking at it without intent to assist."}, {"title": "Evaluate the choices", "content": "D correctly identifies that the behavior doesn't require assuming attempted assistance.<br/><br/><ul><li>A misidentifies the source of novelty</li><li>C bases objections on frequency rather than interpretation</li><li>B contradicts both texts by proposing self-benefit</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

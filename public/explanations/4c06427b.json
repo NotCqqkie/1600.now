@@ -1,15 +1,1 @@
-{
-  "questionId": "4c06427b",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject",
-      "content": "The blank needs a verb for the subject <em>many of whom</em>, which is plural (referring to multiple biomedical scientists)."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "The verb must be in plural form. <strong>Study</strong> is the plural present tense form that agrees with the subject. The other three\u2014<strong>is studying</strong>, <strong>has studied</strong>, and <strong>studies</strong>\u2014are all singular forms that violate subject-verb agreement. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4c06427b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the subject", "content": "The blank needs a verb for the subject <em>many of whom</em>, which is plural (referring to multiple biomedical scientists)."}, {"title": "Apply subject-verb agreement", "content": "The verb must be in plural form. <strong>Study</strong> is the plural present tense form that agrees with the subject.<br/><br/>The other three—<strong>is studying</strong>, <strong>has studied</strong>, and <strong>studies</strong>—are all singular forms that violate subject-verb agreement.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

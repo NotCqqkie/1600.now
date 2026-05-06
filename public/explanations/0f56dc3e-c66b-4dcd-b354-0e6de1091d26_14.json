@@ -1,15 +1,1 @@
-{
-  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_14",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the protection paradox",
-      "content": "CLPs are shielded from external conditions by their transmission strategy, yet their abundance decreased as sea temperatures rose, while directly transmitted parasites (exposed to external conditions) remained stable. This contradicts what the shielding advantage would predict."
-    },
-    {
-      "title": "Explain why the advantage didn't prevent decline",
-      "content": "Choice D explains the paradox: the transmission advantage \u201cdid not completely offset the negative effects of other temperature driven factors.\u201d Despite being shielded, CLPs were harmed by other temperature-related causes. The other choices contradict the findings, reverse the host-complexity relationship, or mischaracterize the protection mechanisms. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the protection paradox", "content": "CLPs are shielded from external conditions by their transmission strategy, yet their abundance decreased as sea temperatures rose, while directly transmitted parasites (exposed to external conditions) remained stable. This contradicts what the shielding advantage would predict."}, {"title": "Explain why the advantage didn't prevent decline", "content": "Choice D explains the paradox: the transmission advantage “did not completely offset the negative effects of other temperature driven factors.” Despite being shielded, CLPs were harmed by other temperature-related causes.<br/><br/>The other choices contradict the findings, reverse the host-complexity relationship, or mischaracterize the protection mechanisms.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

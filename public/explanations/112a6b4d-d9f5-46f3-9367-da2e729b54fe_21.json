@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank appears in an attribution that combines a professional descriptor with a person's name: <strong>\u201cclaims dendrochronologist _____ Valerie Trouet.\u201d</strong>"
-    },
-    {
-      "title": "Apply the descriptor-name rule",
-      "content": "When a professional descriptor immediately precedes a person's name in an attribution, no punctuation separates them\u2014like <strong>\u201cclaims expert John\u201d</strong> or <strong>\u201ctells scientist Maria.\u201d</strong> Options A, B, and C all insert separating punctuation that would incorrectly break the descriptor from the name it identifies. The descriptor and name must form a single unit: <strong>\u201cdendrochronologist Valerie Trouet.\u201d</strong> That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank appears in an attribution that combines a professional descriptor with a person's name: <strong>“claims dendrochronologist _____ Valerie Trouet.”</strong>"}, {"title": "Apply the descriptor-name rule", "content": "When a professional descriptor immediately precedes a person's name in an attribution, no punctuation separates them—like <strong>“claims expert John”</strong> or <strong>“tells scientist Maria.”</strong> Options A, B, and C all insert separating punctuation that would incorrectly break the descriptor from the name it identifies.<br/><br/>The descriptor and name must form a single unit: <strong>“dendrochronologist Valerie Trouet.”</strong> That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

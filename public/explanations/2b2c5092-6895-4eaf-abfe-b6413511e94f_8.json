@@ -1,15 +1,1 @@
-{
-  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what both texts scrutinize",
-      "content": "Text 1 faults Zhang's study for not excluding other nutrient pathways\u2014it lacked the \u201ccrucial step\u201d that Fernandez took (using barriers). Text 2 faults Fernandez's barriers for allowing liquids to pass through, preventing the researchers from isolating CMN. The shared concern: both texts question whether the studies can actually eliminate non-CMN pathways."
-    },
-    {
-      "title": "Find the question yielding the same answer",
-      "content": "B asks whether Zhang's study effectively excluded other pathways. Text 1 explicitly states Zhang did not take the crucial barrier step; Text 2, though focused on Fernandez, reveals that even Fernandez's more rigorous design failed to exclude pathways, so Zhang's would certainly fail as well. Both authors would answer No. The other choices either address concerns not shared by both authors (A, D) or would draw opposite answers from the two texts (Text 1 suggests Fernandez's barriers were sufficient; Text 2 says they weren't). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what both texts scrutinize", "content": "Text 1 faults Zhang's study for not excluding other nutrient pathways—it lacked the “crucial step” that Fernandez took (using barriers).<br/><br/>Text 2 faults Fernandez's barriers for allowing liquids to pass through, preventing the researchers from isolating CMN.<br/><br/>The shared concern: both texts question whether the studies can actually eliminate non-CMN pathways."}, {"title": "Find the question yielding the same answer", "content": "B asks whether Zhang's study effectively excluded other pathways.<br/><br/>Text 1 explicitly states Zhang did not take the crucial barrier step; Text 2, though focused on Fernandez, reveals that even Fernandez's more rigorous design failed to exclude pathways, so Zhang's would certainly fail as well.<br/><br/>Both authors would answer No. The other choices either address concerns not shared by both authors (A, D) or would draw opposite answers from the two texts (Text 1 suggests Fernandez's barriers were sufficient; Text 2 says they weren't).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_19",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses requiring separation",
-      "content": "The sentence contains two independent clauses: <strong>\"A team... collected arthropods with [blank]\"</strong> and <strong>\"another research team... gathered them with bug vacuums.\"</strong> These must be properly separated by punctuation."
-    },
-    {
-      "title": "Match punctuation to the parenthetical transitional phrase",
-      "content": "The blank must contain <strong>\"sweep nets\"</strong> plus the parenthetical phrase <strong>\"for instance\"</strong> (meaning \"as an instance/example\"), which describes sweep nets as an example of a collection method. When this phrase ends the first independent clause, it takes a comma before it, and a semicolon separates the two clauses: <strong>\"sweep nets, for instance;\"</strong> This structure properly uses the semicolon rule for independent clauses while integrating the parenthetical transition. The other options either reverse this punctuation, create a comma splice, or omit punctuation entirely. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses requiring separation", "content": "The sentence contains two independent clauses: <strong>\"A team... collected arthropods with [blank]\"</strong> and <strong>\"another research team... gathered them with bug vacuums.\"</strong> These must be properly separated by punctuation."}, {"title": "Match punctuation to the parenthetical transitional phrase", "content": "The blank must contain <strong>\"sweep nets\"</strong> plus the parenthetical phrase <strong>\"for instance\"</strong> (meaning \"as an instance/example\"), which describes sweep nets as an example of a collection method.<br/><br/>When this phrase ends the first independent clause, it takes a comma before it, and a semicolon separates the two clauses: <strong>\"sweep nets, for instance;\"</strong> This structure properly uses the semicolon rule for independent clauses while integrating the parenthetical transition.<br/><br/>The other options either reverse this punctuation, create a comma splice, or omit punctuation entirely.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

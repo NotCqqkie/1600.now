@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key evidence pattern",
-      "content": "The conclusion claims Poland reported the greatest number of damaging insect species. To support this, the correct choice must show Poland's insect count exceeds both Italy's and Finland's \u2014 a direct numerical comparison across all three countries."
-    },
-    {
-      "title": "Match the data comparison to the choices",
-      "content": "Choice B directly provides this evidence: Poland reported 105 damaging insect species, which is more than Italy (42) and Finland (28) reported. This demonstrates exactly what the conclusion claims \u2014 that Poland's insect species count surpasses the other countries. Choices A and C either mix categories or focus on fungi instead of insects, and D incorrectly cites tree counts rather than insect species numbers. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key evidence pattern", "content": "The conclusion claims Poland reported the greatest number of damaging insect species. To support this, the correct choice must show Poland's insect count exceeds both Italy's and Finland's — a direct numerical comparison across all three countries."}, {"title": "Match the data comparison to the choices", "content": "Choice B directly provides this evidence: Poland reported 105 damaging insect species, which is more than Italy (42) and Finland (28) reported.<br/><br/>This demonstrates exactly what the conclusion claims — that Poland's insect species count surpasses the other countries.<br/><br/>Choices A and C either mix categories or focus on fungi instead of insects, and D incorrectly cites tree counts rather than insect species numbers.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

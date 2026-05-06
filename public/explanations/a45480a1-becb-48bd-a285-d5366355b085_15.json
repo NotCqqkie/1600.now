@@ -1,15 +1,1 @@
-{
-  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the logical gap",
-      "content": "Native plants depend on fruit-eating birds for seed dispersal. All native fruit-eating birds have gone extinct. Yet introduced birds are now spreading seeds from these native plants. This shows that introduced birds have taken on a role the extinct native birds can no longer perform."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A directly addresses this gap: non-native birds play a role that native birds used to fill. The others speculate about extinction risk or population growth without textual support, or make unsupported comparative claims about seed quantities. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the logical gap", "content": "Native plants depend on fruit-eating birds for seed dispersal. All native fruit-eating birds have gone extinct. Yet introduced birds are now spreading seeds from these native plants. This shows that introduced birds have taken on a role the extinct native birds can no longer perform."}, {"title": "Apply the signal to the choices", "content": "Choice A directly addresses this gap: non-native birds play a role that native birds used to fill.<br/><br/>The others speculate about extinction risk or population growth without textual support, or make unsupported comparative claims about seed quantities.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

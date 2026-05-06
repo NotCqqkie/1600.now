@@ -1,15 +1,1 @@
-{
-  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the experimental limitation",
-      "content": "The researchers explicitly state that the shielding didn't tell them how much loss was \u201cdue specifically to excluding honeybees.\u201d This signals that something beyond just honeybees was affected by the shielding."
-    },
-    {
-      "title": "Identify the confounding factor",
-      "content": "C directly proves this: squash bees also pollinate cucumbers, and the shielding blocked them too. The 40\u201390% loss thus stems from excluding all pollinators, not honeybees alone\u2014exactly why the researchers claim they cannot isolate honeybee effects. A only confirms pollination matters, B discusses a different crop, and D notes relative usage rather than experimental limitations. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the experimental limitation", "content": "The researchers explicitly state that the shielding didn't tell them how much loss was “due specifically to excluding honeybees.” This signals that something beyond just honeybees was affected by the shielding."}, {"title": "Identify the confounding factor", "content": "C directly proves this: squash bees also pollinate cucumbers, and the shielding blocked them too.<br/><br/>The 40–90% loss thus stems from excluding all pollinators, not honeybees alone—exactly why the researchers claim they cannot isolate honeybee effects.<br/><br/><ul><li>A only confirms pollination matters</li><li>B discusses a different crop</li><li>D notes relative usage rather than experimental limitations</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

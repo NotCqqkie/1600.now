@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states that steady energy loads are \u201can absolute prerequisite for wireless communication devices to be powered piezoelectrically.\u201d A prerequisite is something essential\u2014wireless devices require it to function."
-    },
-    {
-      "title": "Match evidence to the claim",
-      "content": "To support that steady energy is required, we need evidence that wireless devices truly require it or fail without it. Choice C provides this directly\u2014it states that intermittent or unpredictable supply undermines wireless device efficacy, proving steady energy is necessary. The other choices either focus on supply sources (A), explain how the solution works rather than why steady energy is necessary (B), or contradict the passage (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states that steady energy loads are “an absolute prerequisite for wireless communication devices to be powered piezoelectrically.” A prerequisite is something essential—wireless devices require it to function."}, {"title": "Match evidence to the claim", "content": "To support that steady energy is required, we need evidence that wireless devices truly require it or fail without it.<br/><br/>Choice C provides this directly—it states that intermittent or unpredictable supply undermines wireless device efficacy, proving steady energy is necessary.<br/><br/>The other choices either focus on supply sources (A), explain how the solution works rather than why steady energy is necessary (B), or contradict the passage (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

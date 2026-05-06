@@ -1,15 +1,1 @@
-{
-  "questionId": "13cfe765-425a-44bc-b085-25d580925451_9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key ranking for project leaders",
-      "content": "The city planner concludes that advertisements to project leaders should emphasize pollination. This conclusion only makes sense if <strong>pollination is what project leaders value most</strong>\u2014that is, if the data shows pollination ranked highest among their priorities."
-    },
-    {
-      "title": "Check which comparison supports this targeting",
-      "content": "Choice C states that enhancement of pollination is ranked <strong>1</strong> for project leaders, higher than conservation of genetic variability (5), urban aesthetics (8), soil erosion (13), and social cohesion (17). The other three choices either make cross-group comparisons unrelated to the planner's strategy or contradict the data. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "13cfe765-425a-44bc-b085-25d580925451_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key ranking for project leaders", "content": "The city planner concludes that advertisements to project leaders should emphasize pollination. This conclusion only makes sense if <strong>pollination is what project leaders value most</strong>—that is, if the data shows pollination ranked highest among their priorities."}, {"title": "Check which comparison supports this targeting", "content": "Choice C states that enhancement of pollination is ranked <strong>1</strong> for project leaders, higher than conservation of genetic variability (5), urban aesthetics (8), soil erosion (13), and social cohesion (17).<br/><br/>The other three choices either make cross-group comparisons unrelated to the planner's strategy or contradict the data.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

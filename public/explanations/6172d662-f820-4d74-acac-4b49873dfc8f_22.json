@@ -1,15 +1,1 @@
-{
-  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast",
-      "content": "The first sentence says the volcanoes \u201cmay look similar from afar.\u201d The second immediately pivots: volcanologists \u201ccan tell...that\u201d they are actually different types. The key signal is the contradiction between what we observe (appearance-based similarity) and what experts know (difference in formation)."
-    },
-    {
-      "title": "Apply the contrast",
-      "content": "\u201dThough\u201d is a contrast word that captures this exact shift: despite looking similar, volcanologists recognize they are fundamentally different. The other three either add without contrasting (\u201cin addition\u201d), suggest false causation (\u201ctherefore\u201d), or introduce an unrelated example (\u201cfor example\u201d). This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The first sentence says the volcanoes “may look similar from afar.” The second immediately pivots: volcanologists “can tell...that” they are actually different types.<br/><br/>The key signal is the contradiction between what we observe (appearance-based similarity) and what experts know (difference in formation)."}, {"title": "Apply the contrast", "content": "”Though” is a contrast word that captures this exact shift: despite looking similar, volcanologists recognize they are fundamentally different.<br/><br/>The other three either add without contrasting (“in addition”), suggest false causation (“therefore”), or introduce an unrelated example (“for example”).<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

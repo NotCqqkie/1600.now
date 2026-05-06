@@ -1,15 +1,1 @@
-{
-  "questionId": "4411e15b",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Extract minimum inner fiber measurements from the table",
-      "content": "The passage emphasizes inner fiber characteristics throughout (Merino's softness for delicate garments, mouflon's finer inner coat, Navajo-Churro's marked distinction). The table shows the minimum inner fiber diameter for each breed: <strong>Mouflon 15 microns, Merino 17 microns</strong> (minimum of 17\u201321), <strong>Navajo-Churro 10 microns</strong> (minimum of 10\u201335)."
-    },
-    {
-      "title": "Verify which choice accurately describes these measurements",
-      "content": "Choice A correctly identifies the key finding: Navajo-Churro's inner fiber at its softest is finer than both mouflon's and Merino's. This unexpected outcome explains why the passage uses yet before the blank\u2014despite selection for overall coarseness, Navajo-Churro's inner fiber is actually the finest. <br/><br/>The other choices contradict the data by either mischaracterizing fiber ranges or asserting that domestication uniformly increased inner fiber diameter. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4411e15b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Extract minimum inner fiber measurements from the table", "content": "The passage emphasizes inner fiber characteristics throughout (Merino's softness for delicate garments, mouflon's finer inner coat, Navajo-Churro's marked distinction).<br/><br/>The table shows the minimum inner fiber diameter for each breed: <strong>Mouflon 15 microns, Merino 17 microns</strong> (minimum of 17–21), <strong>Navajo-Churro 10 microns</strong> (minimum of 10–35)."}, {"title": "Verify which choice accurately describes these measurements", "content": "Choice A correctly identifies the key finding: Navajo-Churro's inner fiber at its softest is finer than both mouflon's and Merino's. This unexpected outcome explains why the passage uses yet before the blank—despite selection for overall coarseness, Navajo-Churro's inner fiber is actually the finest. <br/><br/>The other choices contradict the data by either mischaracterizing fiber ranges or asserting that domestication uniformly increased inner fiber diameter. <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

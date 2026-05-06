@@ -1,15 +1,1 @@
-{
-  "questionId": "eaea6f8f",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states that researchers \u201cdiscovered ways to mitigate these factors, resulting in bubbles that can last for a year or more,\u201d then introduces the underlined portion with \u201cFor example.\u201d This signals that the underlined portion will exemplify one of those mitigation methods\u2014a solution that increases bubble lifespan."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A correctly identifies that the underlined portion describes the effects of a process devised by researchers that increases bubble longevity\u2014showing how glycerol enables bubbles to draw water from air and prevent evaporation. The others misidentify the purpose entirely: as explaining what prompted the research, reversing the logic about why bubbles fail, or adding unsupported claims about future testing. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "eaea6f8f", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states that researchers “discovered ways to mitigate these factors, resulting in bubbles that can last for a year or more,” then introduces the underlined portion with “For example.” This signals that the underlined portion will exemplify one of those mitigation methods—a solution that increases bubble lifespan."}, {"title": "Match the meaning", "content": "Choice A correctly identifies that the underlined portion describes the effects of a process devised by researchers that increases bubble longevity—showing how glycerol enables bubbles to draw water from air and prevent evaporation.<br/><br/>The others misidentify the purpose entirely: as explaining what prompted the research, reversing the logic about why bubbles fail, or adding unsupported claims about future testing.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

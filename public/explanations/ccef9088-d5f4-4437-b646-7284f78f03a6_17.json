@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_17",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parallel clause structures",
-      "content": "The first clause is \u201cthe word 'lasso' (a rope) comes from the Spanish word lazo\u201d\u2014an independent clause with a simple present verb. The <strong>and</strong> introduces a second independent clause with the same pattern: 'stockade' (a fence) __________ from estacada."
-    },
-    {
-      "title": "Apply the parallelism rule",
-      "content": "The rule of parallelism requires parallel independent clauses to use the same verb tense. The first clause uses simple present (\u201ccomes\u201d), so the second must also use simple present\u2014\u201dcomes\u201d in choice C. The other three options use different tenses, violating the parallelism requirement. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_17", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel clause structures", "content": "The first clause is “the word 'lasso' (a rope) comes from the Spanish word lazo”—an independent clause with a simple present verb. The <strong>and</strong> introduces a second independent clause with the same pattern: 'stockade' (a fence) __________ from estacada."}, {"title": "Apply the parallelism rule", "content": "The rule of parallelism requires parallel independent clauses to use the same verb tense.<br/><br/>The first clause uses simple present (“comes”), so the second must also use simple present—”comes” in choice C.<br/><br/>The other three options use different tenses, violating the parallelism requirement.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

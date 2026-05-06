@@ -1,15 +1,1 @@
-{
-  "questionId": "0ed8f24f",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The word <strong>\u201cpreceding\u201d</strong> establishes the sequence: the corona's brightness occurs <strong>before</strong> the flare. At the moment the brightness appears, the flare hasn't yet happened\u2014it's about to."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dImpending\u201d means \u201cabout to occur,\u201d which precisely captures what the flare is when the corona shows brightness. The other choices fail because \u201cantecedent\u201d describes a reversed relationship, \u201cinnocuous\u201d contradicts the destructive flares described earlier, and \u201cperpetual\u201d conflicts with the temporary, event-triggered nature of the phenomenon. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ed8f24f", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The word <strong>“preceding”</strong> establishes the sequence: the corona's brightness occurs <strong>before</strong> the flare. At the moment the brightness appears, the flare hasn't yet happened—it's about to."}, {"title": "Apply the signal to the choices", "content": "”Impending” means “about to occur,” which precisely captures what the flare is when the corona shows brightness.<br/><br/>The other choices fail because “antecedent” describes a reversed relationship, “innocuous” contradicts the destructive flares described earlier, and “perpetual” conflicts with the temporary, event-triggered nature of the phenomenon.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

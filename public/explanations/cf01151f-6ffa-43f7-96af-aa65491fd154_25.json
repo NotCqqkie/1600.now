@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what emphasizing the Mohs scale number means",
-      "content": "To emphasize a fact means to state it directly as the central focus of the sentence, not as a supporting detail."
-    },
-    {
-      "title": "Find which choice puts fluorite's number at the center",
-      "content": "C opens with \u201cFluorite has a Mohs scale number of 4,\u201d positioning fluorite's number as the explicit focus. A presents fluorite's number only as a parenthetical detail while centering quartz; B omits fluorite entirely; D avoids any specific numbers. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what emphasizing the Mohs scale number means", "content": "To emphasize a fact means to state it directly as the central focus of the sentence, not as a supporting detail."}, {"title": "Find which choice puts fluorite's number at the center", "content": "C opens with “Fluorite has a Mohs scale number of 4,” positioning fluorite's number as the explicit focus.<br/><br/><ul><li>A presents fluorite's number only as a parenthetical detail while centering quartz</li><li>B omits fluorite entirely</li><li>D avoids any specific numbers</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

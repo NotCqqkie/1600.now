@@ -1,15 +1,1 @@
-{
-  "questionId": "87d8a2ff",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sequence",
-      "content": "The passage describes a rocket failure, then the CEO's response to it. The transition word must mark: what happened next."
-    },
-    {
-      "title": "Match the sequence marker",
-      "content": "\u201dAfterward\u201d directly marks what happened next\u2014the CEO's response follows the failure. The other choices either add to a list (\u201cAdditionally\u201d), confirm something (\u201cIndeed\u201d), or indicate similarity (\u201cSimilarly\u201d), none of which establish the time relationship between events. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "87d8a2ff", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the sequence", "content": "The passage describes a rocket failure, then the CEO's response to it. The transition word must mark: what happened next."}, {"title": "Match the sequence marker", "content": "”Afterward” directly marks what happened next—the CEO's response follows the failure.<br/><br/>The other choices either add to a list (“Additionally”), confirm something (“Indeed”), or indicate similarity (“Similarly”), none of which establish the time relationship between events.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

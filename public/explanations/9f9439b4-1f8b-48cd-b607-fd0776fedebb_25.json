@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_25",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the student's goal requires",
-      "content": "The student wants to \u201cemphasize the order in which the super continents were formed\u201d\u2014this requires showing which supercontinent formed first and which formed later."
-    },
-    {
-      "title": "Determine which choice shows temporal order",
-      "content": "B accomplishes this by explicitly stating that Euramerica formed \u201clong after\u201d Vaalbara, establishing clear temporal order. A, C, and D instead focus on the general process, a single supercontinent, or shared definitions\u2014none establishing relative sequence. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the student's goal requires", "content": "The student wants to “emphasize the order in which the super continents were formed”—this requires showing which supercontinent formed first and which formed later."}, {"title": "Determine which choice shows temporal order", "content": "B accomplishes this by explicitly stating that Euramerica formed “long after” Vaalbara, establishing clear temporal order.<br/><br/>A, C, and D instead focus on the general process, a single supercontinent, or shared definitions—none establishing relative sequence.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

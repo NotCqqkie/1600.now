@@ -1,15 +1,1 @@
-{
-  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The text opens by establishing that \u201cseveral primates other than humans use tools\u201d and then immediately uses an example: \u201cFor example, in Thailand, they have observed crab-eating macaques using stone tools.\u201d The phrase \u201cseveral primates\u201d followed by a specific example signals that the macaques are <strong>one of multiple primate species</strong> that use tools."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A states that the macaques are \u201conly one of several primate species to use tools\u201d\u2014this directly expresses the text's classification. Choices B, C, and D each claim something not mentioned in the passage: additional tools besides stone tools, skill comparisons between species, or a longer timeline of tool use. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The text opens by establishing that “several primates other than humans use tools” and then immediately uses an example: “For example, in Thailand, they have observed crab-eating macaques using stone tools.” The phrase “several primates” followed by a specific example signals that the macaques are <strong>one of multiple primate species</strong> that use tools."}, {"title": "Apply the signal to the choices", "content": "Choice A states that the macaques are “only one of several primate species to use tools”—this directly expresses the text's classification.<br/><br/>Choices B, C, and D each claim something not mentioned in the passage: additional tools besides stone tools, skill comparisons between species, or a longer timeline of tool use.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key constraint in the sediment evidence",
-      "content": "The strongest signal is that fine mudstone\u2014the predominant sediment type\u2014shows episodic desiccation cracks. This reveals two requirements: a persistent water environment (to deposit mudstone) that periodically dried, plus the coarse sandstone intervals indicate flowing water at times."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice A directly proposes this: a prolonged lake that occasionally dried with intermittent streams. It's the only choice that explains all three features of the evidence in a coherent sequence. B reverses the temporal order, C contradicts the desiccation data, and D eliminates the lake.<br/><br/>That matches choice A\u2014<strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key constraint in the sediment evidence", "content": "The strongest signal is that fine mudstone—the predominant sediment type—shows episodic desiccation cracks. This reveals two requirements: a persistent water environment (to deposit mudstone) that periodically dried, plus the coarse sandstone intervals indicate flowing water at times."}, {"title": "Match to the choices", "content": "Choice A directly proposes this: a prolonged lake that occasionally dried with intermittent streams.<br/><br/>It's the only choice that explains all three features of the evidence in a coherent sequence.<br/><br/><ul><li>B reverses the temporal order</li><li>C contradicts the desiccation data</li><li>D eliminates the lake</li></ul>.<br/><br/>That matches choice A—<strong>A</strong> is correct."}]}

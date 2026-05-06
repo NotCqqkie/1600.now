@@ -1,15 +1,1 @@
-{
-  "questionId": "7c21b4b5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the relevant row in the table",
-      "content": "The question asks which group of participants viewed <em>onetime passcodes</em> as most secure. The row for onetime passcodes shows the percentage of participants in each country choosing that method."
-    },
-    {
-      "title": "Identify the highest percentage",
-      "content": "According to the table, the highest percentage for onetime passcodes belongs to Japan, so the sentence is best completed by naming participants in Japan. Choice A (UK) and choice B (India) report lower percentages for that method, and choice D duplicates B.<br/><br/>The answer is <strong>C</strong>."
-    }
-  ]
-}
+{"questionId": "7c21b4b5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Locate the relevant row in the table", "content": "The question asks which group of participants viewed <em>onetime passcodes</em> as most secure. The row for onetime passcodes shows the percentage of participants in each country choosing that method."}, {"title": "Identify the highest percentage", "content": "According to the table, the highest percentage for onetime passcodes belongs to Japan, so the sentence is best completed by naming participants in Japan.<br/><br/>Choice A (UK) and choice B (India) report lower percentages for that method, and choice D duplicates B.<br/><br/>The answer is <strong>C</strong>."}]}

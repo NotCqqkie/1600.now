@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_12",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the mechanism explaining the timing effect",
-      "content": "The researchers conclude that early snow (before soil freezes) increases net CO\u2082. To support this, we need evidence of why early snow would favor respiration over plant uptake."
-    },
-    {
-      "title": "Apply this mechanism to the choices",
-      "content": "Choice D directly explains it: snow insulation allows soil respiration to continue during the period when plants aren't growing, creating a window of uncompensated CO\u2082 release\u2014the mechanism driving net CO\u2082 increase. The other three either isolate effects that don't account for the timing (A), suggest both processes are reduced without showing net CO\u2082 increase (B), or describe a geographic pattern unrelated to the temporal causation (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the mechanism explaining the timing effect", "content": "The researchers conclude that early snow (before soil freezes) increases net CO₂. To support this, we need evidence of why early snow would favor respiration over plant uptake."}, {"title": "Apply this mechanism to the choices", "content": "Choice D directly explains it: snow insulation allows soil respiration to continue during the period when plants aren't growing, creating a window of uncompensated CO₂ release—the mechanism driving net CO₂ increase.<br/><br/>The other three either isolate effects that don't account for the timing (A), suggest both processes are reduced without showing net CO₂ increase (B), or describe a geographic pattern unrelated to the temporal causation (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

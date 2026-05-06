@@ -1,15 +1,1 @@
-{
-  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the explicitly stated fact",
-      "content": "The passage explicitly states that the Hispanic Society \u201chas more than 18,000 objects in its museum collection.\u201d"
-    },
-    {
-      "title": "Match the fact to the answer",
-      "content": "Choice A directly states that the collection contains over 18,000 objects\u2014exactly what the passage says. Choices B and C contradict the passage (current NYC location and 1904 founding date, respectively), while D claims information about comparative visitor numbers that the passage never provides. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the explicitly stated fact", "content": "The passage explicitly states that the Hispanic Society “has more than 18,000 objects in its museum collection.”"}, {"title": "Match the fact to the answer", "content": "Choice A directly states that the collection contains over 18,000 objects—exactly what the passage says.<br/><br/>Choices B and C contradict the passage (current NYC location and 1904 founding date, respectively), while D claims information about comparative visitor numbers that the passage never provides.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sex-based prediction",
-      "content": "The hypothesis predicts that immature males should direct a higher proportion of peering at immigrants than females do, because males (unlike females) will disperse to new regions and must adapt to them."
-    },
-    {
-      "title": "Match data showing the sex difference",
-      "content": "Choice C directly demonstrates this sex difference: females (individuals 1 and 6) directed a lower proportion at immigrants than males (individuals 15 and 16). Choices A, B, and D either ignore sex differences, measure total counts instead of proportions, or fail to show the predicted pattern. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the sex-based prediction", "content": "The hypothesis predicts that immature males should direct a higher proportion of peering at immigrants than females do, because males (unlike females) will disperse to new regions and must adapt to them."}, {"title": "Match data showing the sex difference", "content": "Choice C directly demonstrates this sex difference: females (individuals 1 and 6) directed a lower proportion at immigrants than males (individuals 15 and 16).<br/><br/>Choices A, B, and D either ignore sex differences, measure total counts instead of proportions, or fail to show the predicted pattern.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

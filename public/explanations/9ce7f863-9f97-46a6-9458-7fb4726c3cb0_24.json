@@ -1,15 +1,1 @@
-{
-  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key difference in the notes",
-      "content": "The notes state that the fennec fox has sixty\u2011four chromosomes while the red fox has thirty\u2011four, highlighting a numerical difference."
-    },
-    {
-      "title": "Apply the difference to the choices",
-      "content": "Choice B directly uses the chromosome numbers to show the foxes differ: it notes both are fox species but points out the sixty\u2011four versus thirty\u2011four contrast. The other choices either omit the chromosome numbers, fail to compare the two species, or only describe one fox. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key difference in the notes", "content": "The notes state that the fennec fox has sixty‑four chromosomes while the red fox has thirty‑four, highlighting a numerical difference."}, {"title": "Apply the difference to the choices", "content": "Choice B directly uses the chromosome numbers to show the foxes differ: it notes both are fox species but points out the sixty‑four versus thirty‑four contrast.<br/><br/>The other choices either omit the chromosome numbers, fail to compare the two species, or only describe one fox.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

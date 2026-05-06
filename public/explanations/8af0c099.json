@@ -1,15 +1,1 @@
-{
-  "questionId": "8af0c099",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the hypothesis's prediction",
-      "content": "The hypothesis states: <em>\u201cinteractions indicating high levels of cognitive engagement with ad content would result in relatively high levels of ad recall.\u201d</em> For a finding to directly support this, it must demonstrate that high-cognitive-engagement interactions actually produce higher ad recall than low-engagement interactions."
-    },
-    {
-      "title": "Apply this to the answer choices",
-      "content": "Choice C directly compares commenting (high-engagement) with clicking links (lower-engagement) and shows commenters had significantly better ad recall two days later. The other choices measure different outcomes (A shows frequency, B measures purchasing behavior) or fail to compare engagement levels (D shows only high-engagement results without a low-engagement comparison). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8af0c099", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the hypothesis's prediction", "content": "The hypothesis states: <em>“interactions indicating high levels of cognitive engagement with ad content would result in relatively high levels of ad recall.”</em> For a finding to directly support this, it must demonstrate that high-cognitive-engagement interactions actually produce higher ad recall than low-engagement interactions."}, {"title": "Apply this to the answer choices", "content": "Choice C directly compares commenting (high-engagement) with clicking links (lower-engagement) and shows commenters had significantly better ad recall two days later.<br/><br/>The other choices measure different outcomes (A shows frequency, B measures purchasing behavior) or fail to compare engagement levels (D shows only high-engagement results without a low-engagement comparison).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

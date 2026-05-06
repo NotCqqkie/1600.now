@@ -1,15 +1,1 @@
-{
-  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The subject is the singular noun phrase <strong>Mathematician Grigori Perelman</strong> (the parenthetical \u201cin conjunction with...\u201d modifier doesn't change this). The blank precedes the past participle <strong>credited</strong>, and needs an auxiliary verb."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires a singular verb to match Perelman, so <strong>is</strong> provides the correct singular present form. The other choices violate agreement: <strong>are</strong> and <strong>are being</strong> are plural, while <strong>have been</strong> uses plural conjugation instead of singular <strong>has been</strong>. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The subject is the singular noun phrase <strong>Mathematician Grigori Perelman</strong> (the parenthetical “in conjunction with...” modifier doesn't change this). The blank precedes the past participle <strong>credited</strong>, and needs an auxiliary verb."}, {"title": "Apply subject-verb agreement", "content": "Subject-verb agreement requires a singular verb to match Perelman, so <strong>is</strong> provides the correct singular present form.<br/><br/>The other choices violate agreement: <strong>are</strong> and <strong>are being</strong> are plural, while <strong>have been</strong> uses plural conjugation instead of singular <strong>has been</strong>.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

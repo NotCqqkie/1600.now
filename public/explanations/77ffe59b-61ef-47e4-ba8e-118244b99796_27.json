@@ -1,15 +1,1 @@
-{
-  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal and the key insight",
-      "content": "Goal: emphasize <strong>SIMILARITY</strong> between the two materials. The notes show both materials undergo torsional heating when twisted, even though the temperature increases differ (3.5\u00b0C vs 21.3\u00b0C). An effective choice will treat them as sharing the same behavior, not contrast their differences."
-    },
-    {
-      "title": "Match to the answer",
-      "content": "<strong>B</strong> uses \u201cBoth\u201d and presents a single shared behavior: both heat up when twisted. The others fail the goal: A mentions both without establishing similarity; C explicitly contrasts their temperature changes; D generalizes about torsional heating without focusing on the two materials. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal and the key insight", "content": "Goal: emphasize <strong>SIMILARITY</strong> between the two materials.<br/><br/>The notes show both materials undergo torsional heating when twisted, even though the temperature increases differ (3.5°C vs 21.3°C).<br/><br/>An effective choice will treat them as sharing the same behavior, not contrast their differences."}, {"title": "Match to the answer", "content": "<strong>B</strong> uses “Both” and presents a single shared behavior: both heat up when twisted.<br/><br/>The others fail the goal: <ul><li>A mentions both without establishing similarity</li><li>C explicitly contrasts their temperature changes</li><li>D generalizes about torsional heating without focusing on the two materials</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

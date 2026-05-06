@@ -1,15 +1,1 @@
-{
-  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope of line \u03b3",
-      "content": "When two lines are perpendicular, their slopes are negative reciprocals. Since line $k$ has slope $m$, line $\\gamma$ must have slope $-\\frac{1}{m}$."
-    },
-    {
-      "title": "Use the slope to find the point on \u03b3 when x equals 8",
-      "content": "Line $\\gamma$ passes through $(7, 5)$ with slope $-\\frac{1}{m}$. When we move from $x = 7$ to $x = 8$ (a horizontal change of 1), the vertical change is: $$\\Delta y = -\\frac{1}{m} \\cdot 1 = -\\frac{1}{m}$$ So the $y$-coordinate at $x = 8$ is $5 - \\frac{1}{m}$, making the point $(8, 5 - \\frac{1}{m})$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the slope of line γ", "content": "When two lines are perpendicular, their slopes are negative reciprocals. Since line $k$ has slope $m$, line $\\gamma$ must have slope $-\\frac{1}{m}$."}, {"title": "Use the slope to find the point on γ when x equals 8", "content": "Line $\\gamma$ passes through $(7, 5)$ with slope $-\\frac{1}{m}$.<br/><br/>When we move from $x = 7$ to $x = 8$ (a horizontal change of 1), the vertical change is: $$\\Delta y = -\\frac{1}{m} \\cdot 1 = -\\frac{1}{m}$$ So the $y$-coordinate at $x = 8$ is $5 - \\frac{1}{m}$, making the point $(8, 5 - \\frac{1}{m})$.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

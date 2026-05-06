@@ -1,15 +1,1 @@
-{
-  "questionId": "a13c1c66",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the logical gap",
-      "content": "The scientists say known benefits seem insufficient to explain why deep sleep\u2014which makes animals vulnerable\u2014became so widespread. The key signal: a risky behavior that's too widespread to be explained by known benefits alone."
-    },
-    {
-      "title": "The answer that resolves it",
-      "content": "Choice A claims deep sleep has undiscovered advantages\u2014the only way to account for widespread adoption despite insufficient known benefits. B generalizes to all traits, C shifts focus away from function, and D frames it as a generic benefit-risk trade-off. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a13c1c66", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the logical gap", "content": "The scientists say known benefits seem insufficient to explain why deep sleep—which makes animals vulnerable—became so widespread. The key signal: a risky behavior that's too widespread to be explained by known benefits alone."}, {"title": "The answer that resolves it", "content": "Choice A claims deep sleep has undiscovered advantages—the only way to account for widespread adoption despite insufficient known benefits.<br/><br/><ul><li>B generalizes to all traits</li><li>C shifts focus away from function</li><li>D frames it as a generic benefit-risk trade-off</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

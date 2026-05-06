@@ -1,15 +1,1 @@
-{
-  "questionId": "2dd1b8bf",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the most direct causal structure",
-      "content": "The sentence must connect three linked ideas: (1) silica glass has a specific physical property, (2) that property creates a disadvantage, and (3) the atoms cannot re-bond as a consequence. The strongest signal is the need to express this causal chain cleanly without introducing evaluative language that clouds the direct cause-and-effect relationship."
-    },
-    {
-      "title": "Apply the causal chain to the choices",
-      "content": "Choice D states the property directly\u2014\"atomic arrangement is more dispersed\"\u2014then uses \"resulting in a significant disadvantage\" to link it to a consequence, and the colon introduces the specific manifestation: atoms far apart and unable to re-form bonds. This creates a clean progression from physical fact to outcome to explanation. Choice A adds evaluative language (\"is at a significant disadvantage\") in the main clause, which is unnecessary since the colon clarifies the disadvantage anyway. Choice C incorrectly equates the disadvantage with the property itself (arrangement being dispersed) rather than the consequence of that property. Choice B works similarly to D but with slightly more distance between subject and result.<br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2dd1b8bf", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the most direct causal structure", "content": "The sentence must connect three linked ideas: (1) silica glass has a specific physical property, (2) that property creates a disadvantage, and (3) the atoms cannot re-bond as a consequence.<br/><br/>The strongest signal is the need to express this causal chain cleanly without introducing evaluative language that clouds the direct cause-and-effect relationship."}, {"title": "Apply the causal chain to the choices", "content": "Choice D states the property directly—\"atomic arrangement is more dispersed\"—then uses \"resulting in a significant disadvantage\" to link it to a consequence, and the colon introduces the specific manifestation: atoms far apart and unable to re-form bonds.<br/><br/>This creates a clean progression from physical fact to outcome to explanation.<br/><br/>Choice A adds evaluative language (\"is at a significant disadvantage\") in the main clause, which is unnecessary since the colon clarifies the disadvantage anyway.<br/><br/>Choice C incorrectly equates the disadvantage with the property itself (arrangement being dispersed) rather than the consequence of that property.<br/><br/>Choice B works similarly to D but with slightly more distance between subject and result.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

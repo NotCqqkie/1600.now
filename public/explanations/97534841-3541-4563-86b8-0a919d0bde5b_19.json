@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the three-item series",
-      "content": "The sentence lists three pieces of data being shown: length (62 km), slip rate (between 0.2 and 1.0 mm/yr), and most recent deformation (less than 15 thousand years ago). In Standard English, a three-item series requires proper punctuation to separate items and parenthetical details must attach directly to their nouns."
-    },
-    {
-      "title": "Apply the correct series punctuation",
-      "content": "Choice C correctly keeps parenthetical details attached directly to their nouns\u2014<strong>length (62 km), slip rate (between 0.2 and 1.0 mm/yr)</strong>\u2014then uses commas to separate all three series items before <em>and</em> most recent deformation. Choices A, B, and D all violate series punctuation: A wrongly substitutes semicolons for commas, B inserts commas between nouns and their parenthetical details, and D omits the comma between the first two items. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the three-item series", "content": "The sentence lists three pieces of data being shown: length (62 km), slip rate (between 0.2 and 1.0 mm/yr), and most recent deformation (less than 15 thousand years ago).<br/><br/>In Standard English, a three-item series requires proper punctuation to separate items and parenthetical details must attach directly to their nouns."}, {"title": "Apply the correct series punctuation", "content": "Choice C correctly keeps parenthetical details attached directly to their nouns—<strong>length (62 km), slip rate (between 0.2 and 1.0 mm/yr)</strong>—then uses commas to separate all three series items before <em>and</em> most recent deformation.<br/><br/>Choices A, B, and <ul><li>D all violate series punctuation: A wrongly substitutes semicolons for commas</li><li>B inserts commas between nouns and their parenthetical details</li><li>D omits the comma between the first two items</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

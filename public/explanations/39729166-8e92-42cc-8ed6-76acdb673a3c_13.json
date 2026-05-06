@@ -1,15 +1,1 @@
-{
-  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_13",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the annual decay factor from the exponent structure",
-      "content": "The function is $f(x) = 3,600(0.28)^{\\frac{x}{12}}$ where $x$ is in months. The exponent $\\frac{x}{12}$ tells us that each time $x$ increases by 12 (one year), the exponent increases by 1. This means the base 0.28 is the multiplier applied each year. After exactly 1 year: $$f(x+12) = 3,600(0.28)^{\\frac{x+12}{12}} = 3,600(0.28)^{\\frac{x}{12}+1} = f(x) \\cdot 0.28$$ So the equipment value is multiplied by 0.28 each year."
-    },
-    {
-      "title": "Convert the decay factor to percentage loss",
-      "content": "If the value is multiplied by 0.28 each year, then after one year the equipment is worth 28% of its original value. This means it lost $100\\% - 28\\% = 72\\%$ of its value each year. Therefore $p = 72$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_13", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the annual decay factor from the exponent structure", "content": "The function is $f(x) = 3,600(0.28)^{\\frac{x}{12}}$ where $x$ is in months.<br/><br/>The exponent $\\frac{x}{12}$ tells us that each time $x$ increases by 12 (one year), the exponent increases by 1.<br/><br/>This means the base 0.28 is the multiplier applied each year.<br/><br/>After exactly 1 year: $$f(x+12) = 3,600(0.28)^{\\frac{x+12}{12}} = 3,600(0.28)^{\\frac{x}{12}+1} = f(x) \\cdot 0.28$$ So the equipment value is multiplied by 0.28 each year."}, {"title": "Convert the decay factor to percentage loss", "content": "If the value is multiplied by 0.28 each year, then after one year the equipment is worth 28% of its original value. This means it lost $100\\% - 28\\% = 72\\%$ of its value each year. Therefore $p = 72$. That matches choice D — <strong>D</strong> is correct."}]}

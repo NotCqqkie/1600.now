@@ -1,15 +1,1 @@
-{
-  "questionId": "38facbad",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining cross-cultural finding",
-      "content": "The study's key result is <strong>\u201csimilar correlations between patterns of these factors and of personality traits\u201d</strong> across all 53 countries. This means the relationship between personality traits and musical preferences remained consistent across cultures."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A expresses what the finding directly implies: people who share personality traits tend to prefer similar Western music across cultural contexts. The other options either import unsupported elements (B extends to non-Western music, D invokes familiarity) or make claims without evidence (C compares to prior assumptions the passage never mentions). That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "38facbad", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the defining cross-cultural finding", "content": "The study's key result is <strong>“similar correlations between patterns of these factors and of personality traits”</strong> across all 53 countries. This means the relationship between personality traits and musical preferences remained consistent across cultures."}, {"title": "Apply the signal to the choices", "content": "Choice A expresses what the finding directly implies: people who share personality traits tend to prefer similar Western music across cultural contexts.<br/><br/>The other options either import unsupported elements (B extends to non-Western music, D invokes familiarity) or make claims without evidence (C compares to prior assumptions the passage never mentions).<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

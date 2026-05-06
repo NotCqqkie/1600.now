@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify Salman-Engin's key finding",
-      "content": "Text 1 explicitly frames their research as departing from typical studies: while prior research focused on <em>ongoing relationships</em>, Salman-Engin and colleagues demonstrated that brief interactions with strangers (a shuttle driver) produce positive effects on well-being."
-    },
-    {
-      "title": "Recognize what the model overlooks",
-      "content": "The model in Text 2 organizes all connections as existing social network ties of varying closeness. Salman-Engin would note that this framework highlights a research gap: stranger interactions, which their study showed to be beneficial, are entirely absent from the model. Answer A states that the model underscores research's failure to capture this beneficial connection category. The other answers misidentify the issue: B concerns longevity (not Salman-Engin's focus), C reverses their findings (they found strangers positive), and D addresses distinctions among close relationships rather than strangers outside the network. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify Salman-Engin's key finding", "content": "Text 1 explicitly frames their research as departing from typical studies: while prior research focused on <em>ongoing relationships</em>, Salman-Engin and colleagues demonstrated that brief interactions with strangers (a shuttle driver) produce positive effects on well-being."}, {"title": "Recognize what the model overlooks", "content": "The model in Text 2 organizes all connections as existing social network ties of varying closeness.<br/><br/>Salman-Engin would note that this framework highlights a research gap: stranger interactions, which their study showed to be beneficial, are entirely absent from the model.<br/><br/>Answer A states that the model underscores research's failure to capture this beneficial connection category.<br/><br/>The other answers misidentify the issue: <ul><li>B concerns longevity (not Salman-Engin's focus)</li><li>C reverses their findings (they found strangers positive)</li><li>D addresses distinctions among close relationships rather than strangers outside the network</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

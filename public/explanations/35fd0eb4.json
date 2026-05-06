@@ -1,15 +1,1 @@
-{
-  "questionId": "35fd0eb4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the causal signal",
-      "content": "The passage states that the sheer number of minor planets\u2014over 500,000\u2014\u201dmakes the already challenging task of finding a unique name for each nearly ______.\u201d The real-world evidence (astronomers have stopped naming recent discoveries, using only identification numbers instead) reveals that the blank must describe a state where the task is no longer practicable."
-    },
-    {
-      "title": "Match the difficulty to the choices",
-      "content": "<strong>A) insurmountable</strong> means nearly impossible to accomplish. If naming each body is \u201cnearly insurmountable,\u201d it perfectly explains why astronomers have abandoned individual names for recent discoveries in favor of identification numbers. The other options contradict or misdirect: <strong>feasible</strong> suggests the task is still possible (directly opposite of the logic), <strong>substantial</strong> describes only the magnitude of the challenge without addressing feasibility, and <strong>unnecessary</strong> wrongly frames naming as unneeded rather than impractical. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "35fd0eb4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the causal signal", "content": "The passage states that the sheer number of minor planets—over 500,000—”makes the already challenging task of finding a unique name for each nearly ______.” The real-world evidence (astronomers have stopped naming recent discoveries, using only identification numbers instead) reveals that the blank must describe a state where the task is no longer practicable."}, {"title": "Match the difficulty to the choices", "content": "<strong>A) insurmountable</strong> means nearly impossible to accomplish.<br/><br/>If naming each body is “nearly insurmountable,” it perfectly explains why astronomers have abandoned individual names for recent discoveries in favor of identification numbers.<br/><br/>The other options contradict or misdirect: <strong>feasible</strong> suggests the task is still possible (directly opposite of the logic), <strong>substantial</strong> describes only the magnitude of the challenge without addressing feasibility, and <strong>unnecessary</strong> wrongly frames naming as unneeded rather than impractical.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

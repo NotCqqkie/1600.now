@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the text's positioning of the Algeria example",
-      "content": "The passage presents Algeria's fuel shift alongside the claim that such shifts are \u201coften explained\u201d by the energy ladder. This establishes Algeria as an example of the phenomenon the model addresses. The text then uses Heltberg's finding that the model is \u201creductive\u201d to show this standard explanation is incomplete."
-    },
-    {
-      "title": "Match this function to the choices",
-      "content": "Choice D captures the function precisely: Algeria shows a \u201cphenomenon\u201d that is \u201cfrequently but inadequately accounted for by the energy ladder.\u201d The passage says shifts are \u201coften explained\u201d by the model and then demonstrates through Heltberg that this explanation is incomplete. The other choices either misread the example's role (A), invent alternative views the text rejects (B), or mistake the text's argument (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the text's positioning of the Algeria example", "content": "The passage presents Algeria's fuel shift alongside the claim that such shifts are “often explained” by the energy ladder.<br/><br/>This establishes Algeria as an example of the phenomenon the model addresses.<br/><br/>The text then uses Heltberg's finding that the model is “reductive” to show this standard explanation is incomplete."}, {"title": "Match this function to the choices", "content": "Choice D captures the function precisely: Algeria shows a “phenomenon” that is “frequently but inadequately accounted for by the energy ladder.” The passage says shifts are “often explained” by the model and then demonstrates through Heltberg that this explanation is incomplete.<br/><br/>The other choices either misread the example's role (A), invent alternative views the text rejects (B), or mistake the text's argument (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

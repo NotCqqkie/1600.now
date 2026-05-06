@@ -1,15 +1,1 @@
-{
-  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses",
-      "content": "The sentence contains two complete thoughts separated by the blank: (1) \u201cHer work challenges conventional notions of race, gender, history, [blank]\u201d and (2) \u201cshe is credited with expanding the horizons of conceptual photographic art.\u201d Each has its own subject and verb and can stand alone."
-    },
-    {
-      "title": "Apply the rule for joining independent clauses with a coordinating conjunction",
-      "content": "When a coordinating conjunction like \u201cand\u201d connects two independent clauses, standard English requires a comma before the conjunction\u2014the pattern is: IC, and IC. Choice A provides \u201cmemory, and,\u201d which creates this exact structure. Option B omits the required comma before \u201cand.\u201d Options C and D fail to provide any proper connector\u2014C creates a comma splice (two independent clauses with only a comma), and D leaves the clauses fused with no punctuation at all.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "The sentence contains two complete thoughts separated by the blank: (1) “Her work challenges conventional notions of race, gender, history, [blank]” and (2) “she is credited with expanding the horizons of conceptual photographic art.” Each has its own subject and verb and can stand alone."}, {"title": "Apply the rule for joining independent clauses with a coordinating conjunction", "content": "When a coordinating conjunction like “and” connects two independent clauses, standard English requires a comma before the conjunction—the pattern is: IC, and IC.<br/><br/>Choice A provides “memory, and,” which creates this exact structure.<br/><br/>Option B omits the required comma before “and.” Options C and D fail to provide any proper connector—C creates a comma splice (two independent clauses with only a comma), and D leaves the clauses fused with no punctuation at all.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

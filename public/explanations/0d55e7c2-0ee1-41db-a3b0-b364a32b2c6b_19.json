@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relative clause structure",
-      "content": "The relative clause starts with <strong>that</strong> and already contains a main verb: <strong>traces</strong>. The blank is positioned between commas, signaling that it should contain a modifying phrase rather than a second main verb."
-    },
-    {
-      "title": "Match the verb form to the structure",
-      "content": "<strong>integrating</strong> is a present participle that describes how the resource traces history. Additional verbal ideas in a clause can only be expressed through non-finite forms like participles. Finite verbs (A, B, D) would place two main verbs in the clause without a coordinating conjunction. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the relative clause structure", "content": "The relative clause starts with <strong>that</strong> and already contains a main verb: <strong>traces</strong>. The blank is positioned between commas, signaling that it should contain a modifying phrase rather than a second main verb."}, {"title": "Match the verb form to the structure", "content": "<strong>integrating</strong> is a present participle that describes how the resource traces history.<br/><br/>Additional verbal ideas in a clause can only be expressed through non-finite forms like participles.<br/><br/>Finite verbs (A, B, D) would place two main verbs in the clause without a coordinating conjunction.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

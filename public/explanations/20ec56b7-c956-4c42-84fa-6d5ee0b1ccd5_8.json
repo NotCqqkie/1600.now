@@ -1,15 +1,1 @@
-{
-  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_8",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the central question",
-      "content": "The passage explicitly poses the guiding question: \u201cWhat explains its rise in popularity?\u201d This is the question the entire passage attempts to answer."
-    },
-    {
-      "title": "Match the question to the choices",
-      "content": "The passage explains why y'all rose in popularity: it fills a gap in many varieties of English that lack a specific plural \u201cyou\u201d pronoun, enabling more precise communication. This directly answers choice D, which asks why y'all became more widely used in the US. The other three choices ask about information the passage never addresses. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_8", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the central question", "content": "The passage explicitly poses the guiding question: “What explains its rise in popularity?” This is the question the entire passage attempts to answer."}, {"title": "Match the question to the choices", "content": "The passage explains why y'all rose in popularity: it fills a gap in many varieties of English that lack a specific plural “you” pronoun, enabling more precise communication.<br/><br/>This directly answers choice D, which asks why y'all became more widely used in the US.<br/><br/>The other three choices ask about information the passage never addresses.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

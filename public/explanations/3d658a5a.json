@@ -1,15 +1,1 @@
-{
-  "questionId": "3d658a5a",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states that bees \u201cforage beyond patches of low species richness to acquire multiple resource types.\u201d This directly reveals why bees ignore the density model: dense patches must lack variety in flower types."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Homogeneous flowers (all the same type) explain why bees abandon a dense patch \u2014 even though flowers are abundant, they're all identical, forcing bees to travel beyond for different resource types. Depleted, immature, and dispersed either miss the species richness issue or contradict the dense patch premise itself. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3d658a5a", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states that bees “forage beyond patches of low species richness to acquire multiple resource types.” This directly reveals why bees ignore the density model: dense patches must lack variety in flower types."}, {"title": "Match the meaning", "content": "Homogeneous flowers (all the same type) explain why bees abandon a dense patch — even though flowers are abundant, they're all identical, forcing bees to travel beyond for different resource types.<br/><br/>Depleted, immature, and dispersed either miss the species richness issue or contradict the dense patch premise itself.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

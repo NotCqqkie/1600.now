@@ -1,15 +1,1 @@
-{
-  "questionId": "dd428136",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject number requirement",
-      "content": "The verb <strong>affect</strong> is plural, so the subject must be plural. We're discussing multiple snow grains, not a single one."
-    },
-    {
-      "title": "Match the number requirement",
-      "content": "<strong>Grains'</strong> (plural possessive) with <strong>properties</strong> (plural noun) creates the required plural subject. The other choices use singular forms (A: <strong>grain's</strong>; C: <strong>property's</strong>) or lack possessive marking (D).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dd428136", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the subject number requirement", "content": "The verb <strong>affect</strong> is plural, so the subject must be plural. We're discussing multiple snow grains, not a single one."}, {"title": "Match the number requirement", "content": "<strong>Grains'</strong> (plural possessive) with <strong>properties</strong> (plural noun) creates the required plural subject.<br/><br/>The other choices use singular forms (A: <strong>grain's</strong>; C: <strong>property's</strong>) or lack possessive marking (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

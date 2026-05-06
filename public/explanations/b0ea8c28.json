@@ -1,15 +1,1 @@
-{
-  "questionId": "b0ea8c28",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage lists works from \u201cfive generations\u201d\u2014great-grandfather, grandmother, mother, niece, and Gonz\u00e1lez\u2014showing the exhibition covers a <strong>range across multiple family generations</strong>."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dSpans\u201d means to extend across a range, and directly expresses this\u2014the exhibition spans five generations. The other three either describe actions unsupported by the text (borrowing, judging) or contradict the evidence (neglecting, when these generations are clearly featured). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b0ea8c28", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage lists works from “five generations”—great-grandfather, grandmother, mother, niece, and González—showing the exhibition covers a <strong>range across multiple family generations</strong>."}, {"title": "Match the meaning", "content": "”Spans” means to extend across a range, and directly expresses this—the exhibition spans five generations.<br/><br/>The other three either describe actions unsupported by the text (borrowing, judging) or contradict the evidence (neglecting, when these generations are clearly featured).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

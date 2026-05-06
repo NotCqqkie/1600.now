@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure",
-      "content": "The sentence opens with an introductory participial phrase (\u201cRising 11,371 feet above sea level\u201d) and the subject (\u201cMount Leuser\u201d). After the blank comes the prepositional phrase (\u201camong the world's tallest mountains\u201d)."
-    },
-    {
-      "title": "Choose the correct verb form",
-      "content": "An independent clause must have a finite verb as its main verb. \u201cIs ranked\u201d (choice A) is a finite verb in passive voice. The other choices\u2014\u201dto rank\u201d (infinitive), \u201cranking\u201d (present participle), and \u201chaving ranked\u201d (past participle)\u2014are non-finite verb forms that cannot function as the main verb of an independent clause. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence opens with an introductory participial phrase (“Rising 11,371 feet above sea level”) and the subject (“Mount Leuser”). After the blank comes the prepositional phrase (“among the world's tallest mountains”)."}, {"title": "Choose the correct verb form", "content": "An independent clause must have a finite verb as its main verb. “Is ranked” (choice A) is a finite verb in passive voice.<br/><br/>The other choices—”to rank” (infinitive), “ranking” (present participle), and “having ranked” (past participle)—are non-finite verb forms that cannot function as the main verb of an independent clause.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

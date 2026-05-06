@@ -1,15 +1,1 @@
-{
-  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the passage",
-      "content": "The passage states that the maximum positive charge of foraging honeybees is sufficiently high to facilitate electrostatic pollen transfer. This tells us that any pollinator with a charge at least that high would also enable transfer."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B says Anna\u2019s hummingbirds should also demonstrate this capacity, which follows if their charge meets or exceeds the honeybee level shown in the graph. The other three either add unsupported opposites, claim insufficient charge, or introduce a minimum threshold not in the data.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the passage", "content": "The passage states that the maximum positive charge of foraging honeybees is sufficiently high to facilitate electrostatic pollen transfer. This tells us that any pollinator with a charge at least that high would also enable transfer."}, {"title": "Apply the signal to the choices", "content": "Choice B says Anna’s hummingbirds should also demonstrate this capacity, which follows if their charge meets or exceeds the honeybee level shown in the graph.<br/><br/>The other three either add unsupported opposites, claim insufficient charge, or introduce a minimum threshold not in the data.<br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal signal",
-      "content": "The plant absorbs and stores manganese; [blank] soil concentrations decrease. The blank needs a word showing consequence or result."
-    },
-    {
-      "title": "Apply the causal signal to the choices",
-      "content": "\u201dIn turn\u201d expresses consequence\u2014the plant's absorption directly yields the decrease in soil concentrations. \u201cNevertheless\u201d signals contrast, \u201cin addition\u201d signals accumulation, and \u201cspecifically\u201d signals narrowing or specification, none of which show cause-and-effect. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the causal signal", "content": "The plant absorbs and stores manganese; [blank] soil concentrations decrease. The blank needs a word showing consequence or result."}, {"title": "Apply the causal signal to the choices", "content": "”In turn” expresses consequence—the plant's absorption directly yields the decrease in soil concentrations. “Nevertheless” signals contrast, “in addition” signals accumulation, and “specifically” signals narrowing or specification, none of which show cause-and-effect.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

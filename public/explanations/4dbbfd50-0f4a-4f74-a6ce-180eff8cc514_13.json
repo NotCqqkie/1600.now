@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the conclusion relies on",
-      "content": "The conclusion states that Hikwama provided more specificity in its data. The passage defines the detail rating as measuring \u201creported data with more detail,\u201d so specificity in data is determined by the detail rating. This means the conclusion rests on Hikwama having a higher detail rating than Townsend."
-    },
-    {
-      "title": "Find the direct contradiction",
-      "content": "Choice B directly contradicts the detail rating comparison that the conclusion assumes: it states that Hikwama had a lower detail rating than Townsend. Choices A and D address traceability or Townsend's absolute ratings without contradicting the comparative claim; choice C supports the conclusion instead. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the conclusion relies on", "content": "The conclusion states that Hikwama provided more specificity in its data.<br/><br/>The passage defines the detail rating as measuring “reported data with more detail,” so specificity in data is determined by the detail rating.<br/><br/>This means the conclusion rests on Hikwama having a higher detail rating than Townsend."}, {"title": "Find the direct contradiction", "content": "Choice B directly contradicts the detail rating comparison that the conclusion assumes: it states that Hikwama had a lower detail rating than Townsend.<br/><br/>Choices A and D address traceability or Townsend's absolute ratings without contradicting the comparative claim; choice C supports the conclusion instead.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

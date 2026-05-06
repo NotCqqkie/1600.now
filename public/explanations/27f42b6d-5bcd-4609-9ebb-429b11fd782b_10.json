@@ -1,15 +1,1 @@
-{
-  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the smallest maximum depth value",
-      "content": "Scan the \u201cMaximum depth\u201d column across all four species. The values are 115, 5, 30, and 25 meters. The smallest is <strong>5 meters</strong>, which belongs to <em>Acropora bushyensis</em> in Indo-Pacific waters."
-    },
-    {
-      "title": "Match the depth to its zone",
-      "content": "A maximum depth of 5 meters falls within the shallow zone (less than 30 meters), not the mesophotic zone (30 to 150 meters). The other three choices either misidentify which species has the smallest maximum depth or incorrectly place it in the mesophotic zone. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the smallest maximum depth value", "content": "Scan the “Maximum depth” column across all four species. The values are 115, 5, 30, and 25 meters. The smallest is <strong>5 meters</strong>, which belongs to <em>Acropora bushyensis</em> in Indo-Pacific waters."}, {"title": "Match the depth to its zone", "content": "A maximum depth of 5 meters falls within the shallow zone (less than 30 meters), not the mesophotic zone (30 to 150 meters).<br/><br/>The other three choices either misidentify which species has the smallest maximum depth or incorrectly place it in the mesophotic zone.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

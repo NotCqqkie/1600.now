@@ -1,15 +1,1 @@
-{
-  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_13",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what x and y represent",
-      "content": "The equation defines $y$ as the estimated stock price in dollars and $x$ as the number of days after the company went public. Each point $(x, y)$ on this curve represents a specific day and its corresponding stock price."
-    },
-    {
-      "title": "Interpret the coordinates",
-      "content": "The point $(x, y) = (1, 70)$ directly tells us: when $x = 1$ (meaning 1 day after going public), we have $y = 70$ (meaning the stock price is \\$70). Reading the coordinates through their meanings, 1 day after the company went public, the company's estimated stock price is \\$70. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify what x and y represent", "content": "The equation defines $y$ as the estimated stock price in dollars and $x$ as the number of days after the company went public. Each point $(x, y)$ on this curve represents a specific day and its corresponding stock price."}, {"title": "Interpret the coordinates", "content": "The point $(x, y) = (1, 70)$ directly tells us: when $x = 1$ (meaning 1 day after going public), we have $y = 70$ (meaning the stock price is \\$70). Reading the coordinates through their meanings, 1 day after the company went public, the company's estimated stock price is \\$70.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

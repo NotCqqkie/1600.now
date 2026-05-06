@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core problem",
-      "content": "The strongest signal is the claim that <em>\u201csimply replicating a feature...may be insufficient to induce increased walking in other cities.\u201d</em> This establishes that copying one city's success cannot be counted on to automatically increase walking elsewhere."
-    },
-    {
-      "title": "Match the problem to the purpose",
-      "content": "The text explains this through Alfonzo: walking decisions are complex, involving multiple factors\u2014not just architecture. So the main purpose is to discuss why finding a reliable method to increase walking is difficult. D captures this directly. A, B, and C either misidentify the focus (A on effects, B on comparison) or frame the text as solution-focused (C)\u2014That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the core problem", "content": "The strongest signal is the claim that <em>“simply replicating a feature...may be insufficient to induce increased walking in other cities.”</em> This establishes that copying one city's success cannot be counted on to automatically increase walking elsewhere."}, {"title": "Match the problem to the purpose", "content": "The text explains this through Alfonzo: walking decisions are complex, involving multiple factors—not just architecture.<br/><br/>So the main purpose is to discuss why finding a reliable method to increase walking is difficult.<br/><br/>D captures this directly. A, B, and C either misidentify the focus (A on effects, B on comparison) or frame the text as solution-focused (C)—That matches choice D — <strong>D</strong> is correct."}]}

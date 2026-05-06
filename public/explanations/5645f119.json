@@ -1,15 +1,1 @@
-{
-  "questionId": "5645f119",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize what the task requires",
-      "content": "The goal is to present the findings\u2014the empirical results. The study has TWO findings: phosphorus removal (52% improvement) and bloom yield (65 per square meter). An effective presentation must convey both."
-    },
-    {
-      "title": "Find the answer that includes both findings",
-      "content": "C presents both findings\u2014phosphorus removal and market-quality blooms\u2014using the not only...but also structure to show their dual significance. The others fail: A states a conclusion rather than findings; B wrongly assigns the 52% statistic to blooms instead of phosphorus; D attempts both but ambiguously phrases the phosphorus result. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5645f119", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Recognize what the task requires", "content": "The goal is to present the findings—the empirical results. The study has TWO findings: phosphorus removal (52% improvement) and bloom yield (65 per square meter). An effective presentation must convey both."}, {"title": "Find the answer that includes both findings", "content": "C presents both findings—phosphorus removal and market-quality blooms—using the not only...but also structure to show their dual significance.<br/><br/>The others fail: <ul><li>A states a conclusion rather than findings</li><li>B wrongly assigns the 52% statistic to blooms instead of phosphorus</li><li>D attempts both but ambiguously phrases the phosphorus result</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

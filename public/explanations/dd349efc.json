@@ -1,15 +1,1 @@
-{
-  "questionId": "dd349efc",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states \u201cevaluations varied widely depending on which occupation was being considered.\u201d The example must compare different occupations to demonstrate this variation."
-    },
-    {
-      "title": "Match the contrast across occupations",
-      "content": "Choice C presents tour guide at 82% likely versus surgeon at only 16% likely\u2014a dramatic difference between occupations that directly illustrates the variation. Choices A and D provide single-occupation data without comparison, while B highlights matching percentages rather than variation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dd349efc", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states “evaluations varied widely depending on which occupation was being considered.” The example must compare different occupations to demonstrate this variation."}, {"title": "Match the contrast across occupations", "content": "Choice C presents tour guide at 82% likely versus surgeon at only 16% likely—a dramatic difference between occupations that directly illustrates the variation.<br/><br/>Choices A and D provide single-occupation data without comparison, while B highlights matching percentages rather than variation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

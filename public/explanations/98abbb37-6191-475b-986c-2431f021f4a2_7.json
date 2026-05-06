@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the main claim",
-      "content": "The passage opens with what people typically think (feathered dinosaurs were winged), then uses \u201cHowever\u201d to introduce the actual main point: many non-winged dinosaurs also had feathers, exemplified by <em>Yutyrannus</em>."
-    },
-    {
-      "title": "Match the main claim to the purpose",
-      "content": "The passage's purpose is to discuss the presence of feathers on different types of dinosaurs\u2014both winged and wingless. Choice A directly expresses this. The remaining choices introduce topics absent from the text: bird feather differences (B), extinction (C), and a false claim of single-species exclusivity (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the main claim", "content": "The passage opens with what people typically think (feathered dinosaurs were winged), then uses “However” to introduce the actual main point: many non-winged dinosaurs also had feathers, exemplified by <em>Yutyrannus</em>."}, {"title": "Match the main claim to the purpose", "content": "The passage's purpose is to discuss the presence of feathers on different types of dinosaurs—both winged and wingless.<br/><br/>Choice A directly expresses this. The remaining choices introduce topics absent from the text: bird feather differences (B), extinction (C), and a false claim of single-species exclusivity (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

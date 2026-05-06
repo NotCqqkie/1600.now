@@ -1,15 +1,1 @@
-{
-  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The dash introduces: \u201cthe museum staff consulted numerous sources to ensure the accuracy of the displays.\u201d This shows the research was thorough and carefully done."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dRigor\u201d directly expresses strict attention to detail and thoroughness\u2014the quality demonstrated by consulting multiple sources to ensure accuracy. The others don't capture this quality: \u201cobscurity\u201d suggests unclear research, \u201cshallowness\u201d contradicts careful work, and \u201cnovelty\u201d refers to newness. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The dash introduces: “the museum staff consulted numerous sources to ensure the accuracy of the displays.” This shows the research was thorough and carefully done."}, {"title": "Apply the signal to the choices", "content": "”Rigor” directly expresses strict attention to detail and thoroughness—the quality demonstrated by consulting multiple sources to ensure accuracy.<br/><br/>The others don't capture this quality: “obscurity” suggests unclear research, “shallowness” contradicts careful work, and “novelty” refers to newness.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

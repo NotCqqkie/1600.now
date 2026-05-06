@@ -1,15 +1,1 @@
-{
-  "questionId": "0d402146",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the historical constraint signaled by the passage",
-      "content": "The phrase \u201conly ______ red and green lights until the three-light signal was developed in the 1920s\u201d signals that early signals had a limited, specific composition."
-    },
-    {
-      "title": "Find the word matching the meaning",
-      "content": "The target meaning is that early signals contained only red and green lights. Featured means \u201cdisplayed\u201d or \u201cincluded,\u201d so \u201cTraffic lights only featured red and green lights until the three-light signal was developed\u201d correctly expresses this. The other choices either reverse the meaning (avoided, disregarded) or lack contextual sense (appreciated). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d402146", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the historical constraint signaled by the passage", "content": "The phrase “only ______ red and green lights until the three-light signal was developed in the 1920s” signals that early signals had a limited, specific composition."}, {"title": "Find the word matching the meaning", "content": "The target meaning is that early signals contained only red and green lights.<br/><br/>Featured means “displayed” or “included,” so “Traffic lights only featured red and green lights until the three-light signal was developed” correctly expresses this.<br/><br/>The other choices either reverse the meaning (avoided, disregarded) or lack contextual sense (appreciated).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

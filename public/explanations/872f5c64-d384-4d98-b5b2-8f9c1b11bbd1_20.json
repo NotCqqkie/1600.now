@@ -1,15 +1,1 @@
-{
-  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure of the inserted phrase",
-      "content": "The phrase <em>according to legal researchers James Melton and Tom Ginsburg</em> is placed between the subject <em>Iceland's constitution</em> and the verb <em>contains</em>. It breaks the main clause into two parts."
-    },
-    {
-      "title": "Apply the rule for inserted phrases",
-      "content": "When a phrase is inserted between a subject and verb, it needs commas on both sides to mark its boundaries. One comma already appears after <em>constitution</em> to open the phrase, so a closing comma must come after the phrase and before <em>contains</em>. Option C provides this closing comma, creating the correct structure: <em>Iceland's constitution, according to legal researchers James Melton and Tom Ginsburg, contains \u2026</em> The other options either omit the closing comma or introduce a period, breaking the sentence. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure of the inserted phrase", "content": "The phrase <em>according to legal researchers James Melton and Tom Ginsburg</em> is placed between the subject <em>Iceland's constitution</em> and the verb <em>contains</em>. It breaks the main clause into two parts."}, {"title": "Apply the rule for inserted phrases", "content": "When a phrase is inserted between a subject and verb, it needs commas on both sides to mark its boundaries.<br/><br/>One comma already appears after <em>constitution</em> to open the phrase, so a closing comma must come after the phrase and before <em>contains</em>.<br/><br/>Option C provides this closing comma, creating the correct structure: <em>Iceland's constitution, according to legal researchers James Melton and Tom Ginsburg, contains …</em> The other options either omit the closing comma or introduce a period, breaking the sentence.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

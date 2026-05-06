@@ -1,15 +1,1 @@
-{
-  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the missing piece",
-      "content": "The research question asks whether <em>perceived category similarity</em> predicts purchase likelihood. Grasby et al. already have a measure of actual purchase likelihood (the probability changes they calculated for each extended-brand pair), but they need a corresponding measure of <em>how similar consumers perceive those categories to be</em>."
-    },
-    {
-      "title": "Match the design to the research question",
-      "content": "Choice A directly measures perceived category similarity for each extended-brand pair and correlates it with the probability changes\u2014the exact comparison needed to test whether category similarity predicts purchase behavior. Choices B, C, and D instead measure within-category similarity, brand recognition, and product cost respectively, none of which answer the research question. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the missing piece", "content": "The research question asks whether <em>perceived category similarity</em> predicts purchase likelihood.<br/><br/>Grasby et al. already have a measure of actual purchase likelihood (the probability changes they calculated for each extended-brand pair), but they need a corresponding measure of <em>how similar consumers perceive those categories to be</em>."}, {"title": "Match the design to the research question", "content": "Choice A directly measures perceived category similarity for each extended-brand pair and correlates it with the probability changes—the exact comparison needed to test whether category similarity predicts purchase behavior.<br/><br/>Choices B, C, and D instead measure within-category similarity, brand recognition, and product cost respectively, none of which answer the research question.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's key signal",
-      "content": "The final sentence reveals that the temperature reductions in the underlined portion directly <em>\u201cinspired\u201d</em> the air-cooling device. This causal link shows the observation is foundational to the practical application, not peripheral detail."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D identifies the underlined portion as establishing a finding central to the practical application\u2014precisely its function in motivating the cooling device. The other choices misidentify this role by calling it tangential (A), treating it as supporting evidence only (B), or misplacing it in the timeline (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's key signal", "content": "The final sentence reveals that the temperature reductions in the underlined portion directly <em>“inspired”</em> the air-cooling device. This causal link shows the observation is foundational to the practical application, not peripheral detail."}, {"title": "Apply the signal to the choices", "content": "Choice D identifies the underlined portion as establishing a finding central to the practical application—precisely its function in motivating the cooling device.<br/><br/>The other choices misidentify this role by calling it tangential (A), treating it as supporting evidence only (B), or misplacing it in the timeline (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

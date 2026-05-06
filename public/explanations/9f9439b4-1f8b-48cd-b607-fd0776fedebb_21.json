@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_21",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Before the blank: the noun phrase <strong>Disyllabic words</strong> (subject). After the blank: content ending with the main verb <strong>consist</strong>. The blank position requires a modifier phrase, not a finite verb."
-    },
-    {
-      "title": "Apply the rule for reduced relative clauses",
-      "content": "To maintain a single main predicate, use a past participle in a reduced relative clause rather than a finite verb. The participle <strong>classified</strong> correctly modifies <strong>words</strong>, leaving <strong>consist</strong> as the sole main verb. Options A, C, and D use finite verbs, creating two uncoordinated predicates. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Before the blank: the noun phrase <strong>Disyllabic words</strong> (subject). After the blank: content ending with the main verb <strong>consist</strong>. The blank position requires a modifier phrase, not a finite verb."}, {"title": "Apply the rule for reduced relative clauses", "content": "To maintain a single main predicate, use a past participle in a reduced relative clause rather than a finite verb.<br/><br/>The participle <strong>classified</strong> correctly modifies <strong>words</strong>, leaving <strong>consist</strong> as the sole main verb.<br/><br/>Options A, C, and D use finite verbs, creating two uncoordinated predicates.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

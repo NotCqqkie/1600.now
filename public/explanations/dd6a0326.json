@@ -1,15 +1,1 @@
-{
-  "questionId": "dd6a0326",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the target of the participial phrase",
-      "content": "The opening participial phrase \u201cNamed in 1999 as one of the greatest achievements by a US chemist in the past hundred years\u201d must modify the subject of the main clause. That subject must be the thing that was named: the synthesis, not Julian or the alkaloid compound."
-    },
-    {
-      "title": "Apply the participial modifier rule",
-      "content": "C correctly places \u201cJulian's 1935 synthesis of the alkaloid physostigmine\u201d as the subject, so the participial phrase modifies what it refers to. A, B, and D all fail: A and B place \u201cJulian\u201d (misplacing the participle to the wrong noun), and D creates a compound predicate with mismatched voice. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dd6a0326", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the target of the participial phrase", "content": "The opening participial phrase “Named in 1999 as one of the greatest achievements by a US chemist in the past hundred years” must modify the subject of the main clause. That subject must be the thing that was named: the synthesis, not Julian or the alkaloid compound."}, {"title": "Apply the participial modifier rule", "content": "C correctly places “Julian's 1935 synthesis of the alkaloid physostigmine” as the subject, so the participial phrase modifies what it refers to.<br/><br/>A, B, and D all fail: A and B place “Julian” (misplacing the participle to the wrong noun), and D creates a compound predicate with mismatched voice.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining claim",
-      "content": "The key insight is that a Foucault pendulum appears to change its swing path over time due to Earth's rotation, not because of changes in its physical setup. This point directly connects the mechanics of the pendulum with evidence for planetary movement."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice B captures this exact idea, stating that despite a constant swing path from the pendulum\u2019s perspective, Earth's rotation causes observers to see changes in its motion. The other options either omit the critical aspect of Earth's rotation impacting observed swings or focus too narrowly on physical properties like cable length without emphasizing the evidence for Earth\u2019s movement. <br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the defining claim", "content": "The key insight is that a Foucault pendulum appears to change its swing path over time due to Earth's rotation, not because of changes in its physical setup. This point directly connects the mechanics of the pendulum with evidence for planetary movement."}, {"title": "Match the meaning", "content": "Choice B captures this exact idea, stating that despite a constant swing path from the pendulum’s perspective, Earth's rotation causes observers to see changes in its motion.<br/><br/>The other options either omit the critical aspect of Earth's rotation impacting observed swings or focus too narrowly on physical properties like cable length without emphasizing the evidence for Earth’s movement. <br/>That matches choice B — <strong>B</strong> is correct."}]}

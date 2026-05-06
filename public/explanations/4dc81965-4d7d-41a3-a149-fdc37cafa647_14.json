@@ -1,15 +1,1 @@
-{
-  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key relationship",
-      "content": "The passage establishes that for the same favorite recording, musicians prefer higher optimal volumes than nonmusicians. This finding is the decisive pattern for the inference."
-    },
-    {
-      "title": "Apply the relationship to the scenario",
-      "content": "The musician's optimal for <em>'Heartbeats'</em> is 82.2 decibels. Since musicians choose higher volumes than nonmusicians for the same recording, the nonmusician's optimal must be lower than 82.2 decibels. At 82.2, therefore, the nonmusician would find the recording less enjoyable than at a lower volume. The other choices either compare different recordings or overstate the relationship. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key relationship", "content": "The passage establishes that for the same favorite recording, musicians prefer higher optimal volumes than nonmusicians. This finding is the decisive pattern for the inference."}, {"title": "Apply the relationship to the scenario", "content": "The musician's optimal for <em>'Heartbeats'</em> is 82.2 decibels.<br/><br/>Since musicians choose higher volumes than nonmusicians for the same recording, the nonmusician's optimal must be lower than 82.2 decibels.<br/><br/>At 82.2, therefore, the nonmusician would find the recording less enjoyable than at a lower volume.<br/><br/>The other choices either compare different recordings or overstate the relationship.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "bbb77c84",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key tension",
-      "content": "The passage describes a genome that is the largest known and carries high biological costs. Evolutionary logic predicts such a costly trait would be replaced by a more efficient alternative."
-    },
-    {
-      "title": "Match the answer to the logic",
-      "content": "\u201dSuperseded\u201d (replaced or succeeded by) directly completes this. Despite extreme costs, this genome is unlikely to be superseded\u2014meaning evolution hasn't favored replacing it with a smaller, more efficient genome. The other choices don't address this dynamic: \u201cprotracted\u201d (prolonged) is irrelevant to evolutionary replacement, \u201ccurtailed\u201d (reduced) doesn't capture the competitive pressure, and \u201cobviated\u201d (made unnecessary) doesn't fit the context. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bbb77c84", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key tension", "content": "The passage describes a genome that is the largest known and carries high biological costs. Evolutionary logic predicts such a costly trait would be replaced by a more efficient alternative."}, {"title": "Match the answer to the logic", "content": "”Superseded” (replaced or succeeded by) directly completes this.<br/><br/>Despite extreme costs, this genome is unlikely to be superseded—meaning evolution hasn't favored replacing it with a smaller, more efficient genome.<br/><br/>The other choices don't address this dynamic: “protracted” (prolonged) is irrelevant to evolutionary replacement, “curtailed” (reduced) doesn't capture the competitive pressure, and “obviated” (made unnecessary) doesn't fit the context.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

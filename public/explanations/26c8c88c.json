@@ -1,15 +1,1 @@
-{
-  "questionId": "26c8c88c",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the clause types",
-      "content": "On the left of the blank: <strong>\u201cAlthough most meteorites are fragments of asteroids\u201d</strong> is a dependent clause\u2014it starts with \u201cAlthough,\u201d a subordinating conjunction, and cannot be a complete sentence on its own. On the right: <strong>\u201cseveral hundred have been identified as being from the Moon or Mars\u201d</strong> is an independent clause\u2014it has a subject and verb and can stand alone."
-    },
-    {
-      "title": "Apply the comma rule",
-      "content": "When a dependent clause comes first, use a comma to separate it from the independent clause that follows. Choice B correctly places a comma here. The other choices violate this rule: A creates a sentence fragment by ending with a period, C misuses a semicolon (which requires two independent clauses, not one dependent and one independent), and D misuses a colon (which introduces lists or elaborations, not contrasting information). That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "26c8c88c", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the clause types", "content": "On the left of the blank: <strong>“Although most meteorites are fragments of asteroids”</strong> is a dependent clause—it starts with “Although,” a subordinating conjunction, and cannot be a complete sentence on its own.<br/><br/>On the right: <strong>“several hundred have been identified as being from the Moon or Mars”</strong> is an independent clause—it has a subject and verb and can stand alone."}, {"title": "Apply the comma rule", "content": "When a dependent clause comes first, use a comma to separate it from the independent clause that follows.<br/><br/>Choice B correctly places a comma here. The other choices violate this rule: A creates a sentence fragment by ending with a period, C misuses a semicolon (which requires two independent clauses, not one dependent and one independent), and D misuses a colon (which introduces lists or elaborations, not contrasting information).<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

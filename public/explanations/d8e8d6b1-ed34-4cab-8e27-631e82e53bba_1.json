@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The contrast word <strong>\u201cNonetheless\u201d</strong> followed by the example of <strong>\u201cthe third most commonly used password\u201d</strong>\u2014<strong>\u201c123456789\u201d</strong>\u2014reveals what people actually choose, despite expert advice for complicated passwords."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Popular</strong> captures what people actually choose, as the example of <strong>\u201cthe third most commonly used password\u201d</strong> demonstrates\u2014people select convenient passwords over secure ones. The other choices either lack connection to user behavior or contradict the convenience-focused point.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The contrast word <strong>“Nonetheless”</strong> followed by the example of <strong>“the third most commonly used password”</strong>—<strong>“123456789”</strong>—reveals what people actually choose, despite expert advice for complicated passwords."}, {"title": "Match the meaning to the choices", "content": "<strong>Popular</strong> captures what people actually choose, as the example of <strong>“the third most commonly used password”</strong> demonstrates—people select convenient passwords over secure ones.<br/><br/>The other choices either lack connection to user behavior or contradict the convenience-focused point.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what property the corpus measures",
-      "content": "The passage explains that corpora empirically test \u201chow ______ a word is\u201d using its incidence\u2014its frequency in spoken and written English. The example demonstrates this by proving \u201cfirst\u201d is the \u201cthird most commonly used adjective,\u201d confirming the blank refers to how common a word is."
-    },
-    {
-      "title": "Match frequency to the correct choice",
-      "content": "<em>Pervasive</em> means widespread or prevalent\u2014directly capturing the frequency being measured. The other choices don't address word frequency: <em>credible</em> relates to believability, <em>assertive</em> to confidence, and <em>profound</em> to depth. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what property the corpus measures", "content": "The passage explains that corpora empirically test “how ______ a word is” using its incidence—its frequency in spoken and written English. The example demonstrates this by proving “first” is the “third most commonly used adjective,” confirming the blank refers to how common a word is."}, {"title": "Match frequency to the correct choice", "content": "<em>Pervasive</em> means widespread or prevalent—directly capturing the frequency being measured.<br/><br/>The other choices don't address word frequency: <em>credible</em> relates to believability, <em>assertive</em> to confidence, and <em>profound</em> to depth.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

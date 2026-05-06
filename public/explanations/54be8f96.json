@@ -1,15 +1,1 @@
-{
-  "questionId": "54be8f96",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states that for TRAPPIST planets, the orbital period must equal the rotational period of each planet. The example must demonstrate this principle for TRAPPIST-1e using the table data."
-    },
-    {
-      "title": "Apply the signal to the table data",
-      "content": "Choice B demonstrates the principle: it states TRAPPIST-1e's orbital period as 6.1 days (from the table) and confirms the rotational period is also 6.1 days. A and C reference different planets' orbital periods (TRAPPIST-1b's 1.51 days and TRAPPIST-1f's 9.21 days), while D gets the orbital period right but contradicts the principle by giving a different rotational period (0.92 days). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "54be8f96", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that for TRAPPIST planets, the orbital period must equal the rotational period of each planet. The example must demonstrate this principle for TRAPPIST-1e using the table data."}, {"title": "Apply the signal to the table data", "content": "Choice B demonstrates the principle: it states TRAPPIST-1e's orbital period as 6.1 days (from the table) and confirms the rotational period is also 6.1 days.<br/><br/>A and C reference different planets' orbital periods (TRAPPIST-1b's 1.51 days and TRAPPIST-1f's 9.21 days), while D gets the orbital period right but contradicts the principle by giving a different rotational period (0.92 days).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

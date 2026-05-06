@@ -1,15 +1,1 @@
-{
-  "questionId": "b30a2613",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the logical gap in \u201centirely attributable\u201d",
-      "content": "The student claims the reduction is \u201centirely\u201d due to lizards. To weaken an exclusive causal claim, you need evidence the same outcome also occurs without that cause."
-    },
-    {
-      "title": "Identify the weakening data",
-      "content": "The graph shows the no-lizards enclosure also declined substantially (from ~85 to ~42 by day 30), proving factors other than lizards drive population loss, which contradicts the \u201centirely attributable to lizards\u201d claim. Choice A is just baseline data, C is timing information unrelated to causation, and D actually supports the student's conclusion. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b30a2613", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize the logical gap in “entirely attributable”", "content": "The student claims the reduction is “entirely” due to lizards. To weaken an exclusive causal claim, you need evidence the same outcome also occurs without that cause."}, {"title": "Identify the weakening data", "content": "The graph shows the no-lizards enclosure also declined substantially (from ~85 to ~42 by day 30), proving factors other than lizards drive population loss, which contradicts the “entirely attributable to lizards” claim.<br/><br/>Choice <ul><li>A is just baseline data</li><li>C is timing information unrelated to causation</li><li>D actually supports the student's conclusion</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

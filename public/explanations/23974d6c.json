@@ -1,15 +1,1 @@
-{
-  "questionId": "23974d6c",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The word <strong>but</strong> sets up a contrast: despite prediction failures, campaigns should NOT do something to polling. The phrase <strong>entirely</strong> and the supporting explanation about polling's strategic value signal that we need a word meaning to stop using or relying on polling."
-    },
-    {
-      "title": "Match the word to the logic",
-      "content": "<strong>Neglect</strong> means to fail to care for or use something\u2014the exact action the passage warns against. The other three don't fit: <em>distort</em> and <em>enact</em> describe actions that don't apply to polling, while <em>supplement</em> moves in the opposite direction (adding, not removing). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23974d6c", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The word <strong>but</strong> sets up a contrast: despite prediction failures, campaigns should NOT do something to polling. The phrase <strong>entirely</strong> and the supporting explanation about polling's strategic value signal that we need a word meaning to stop using or relying on polling."}, {"title": "Match the word to the logic", "content": "<strong>Neglect</strong> means to fail to care for or use something—the exact action the passage warns against.<br/><br/>The other three don't fit: <em>distort</em> and <em>enact</em> describe actions that don't apply to polling, while <em>supplement</em> moves in the opposite direction (adding, not removing).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

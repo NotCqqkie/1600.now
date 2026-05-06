@@ -1,15 +1,1 @@
-{
-  "questionId": "cbdd5287",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify which gene drives A. sicerae survival",
-      "content": "Type A flies (with <em>DptA</em> silenced but <em>DptB</em> active) maintain <strong>~90% survival</strong> against <em>A. sicerae</em>, while Type B flies (with <em>DptB</em> silenced but <em>DptA</em> active) plummet to nearly <strong>0%</strong>. The decisive clue is that survival correlates with the presence of <em>DptB</em>, not <em>DptA</em>."
-    },
-    {
-      "title": "Determine what the differential survival suggests",
-      "content": "Since <em>DptB</em> alone confers robust defense against <em>A. sicerae</em>, the gene likely evolved specifically for protection against this bacterium\u2014particularly given that <em>DptB</em> does not help against <em>P. rettgeri</em> (stated in the passage). The other choices either reverse which gene provides defense, make unsupported claims about multi-species protection, or assume data not shown. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbdd5287", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify which gene drives A. sicerae survival", "content": "Type A flies (with <em>DptA</em> silenced but <em>DptB</em> active) maintain <strong>~90% survival</strong> against <em>A. sicerae</em>, while Type B flies (with <em>DptB</em> silenced but <em>DptA</em> active) plummet to nearly <strong>0%</strong>.<br/><br/>The decisive clue is that survival correlates with the presence of <em>DptB</em>, not <em>DptA</em>."}, {"title": "Determine what the differential survival suggests", "content": "Since <em>DptB</em> alone confers robust defense against <em>A. sicerae</em>, the gene likely evolved specifically for protection against this bacterium—particularly given that <em>DptB</em> does not help against <em>P. rettgeri</em> (stated in the passage).<br/><br/>The other choices either reverse which gene provides defense, make unsupported claims about multi-species protection, or assume data not shown.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

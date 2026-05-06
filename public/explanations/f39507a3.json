@@ -1,15 +1,1 @@
-{
-  "questionId": "f39507a3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The phrase \"since researchers are unable to control... therefore\" creates a <strong>causal relationship</strong>. The first clause states a constraint (can\u2019t control who wins elections), and the blank must show its consequence. The passage\u2019s main challenge is finding comparable control groups, so the blank should directly reflect this difficulty."
-    },
-    {
-      "title": "Match the consequence in the text",
-      "content": "D captures the problem of identifying a suitable control group given the researchers' lack of control over election outcomes. A, B, and C address unrelated issues (data limitations in A, timing of studies in B, or irrelevant group differences in C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f39507a3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The phrase \"since researchers are unable to control... therefore\" creates a <strong>causal relationship</strong>.<br/><br/>The first clause states a constraint (can’t control who wins elections), and the blank must show its consequence.<br/><br/>The passage’s main challenge is finding comparable control groups, so the blank should directly reflect this difficulty."}, {"title": "Match the consequence in the text", "content": "D captures the problem of identifying a suitable control group given the researchers' lack of control over election outcomes.<br/><br/>A, B, and C address unrelated issues (data limitations in A, timing of studies in B, or irrelevant group differences in C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

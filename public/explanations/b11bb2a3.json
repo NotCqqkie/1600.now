@@ -1,15 +1,1 @@
-{
-  "questionId": "b11bb2a3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key defining phrase",
-      "content": "The strongest clue is <strong>\u201cA void and silent space between two worlds.\u201d</strong> The speaker directly equates the void with a <strong>\u201csilent space\u201d</strong> \u2014 an empty gap or interval."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "<strong>\u201cEmpty\u201d</strong> directly expresses the meaning of the \u201csilent space\u201d in the passage \u2014 a gap where inspiration and feeling are absent. \u201cUseless\u201d contradicts the passage (the void enables gathering strength), and \u201cforgotten\u201d and \u201cincomplete\u201d introduce unsupported concepts. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b11bb2a3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key defining phrase", "content": "The strongest clue is <strong>“A void and silent space between two worlds.”</strong> The speaker directly equates the void with a <strong>“silent space”</strong> — an empty gap or interval."}, {"title": "Match to the choices", "content": "<strong>“Empty”</strong> directly expresses the meaning of the “silent space” in the passage — a gap where inspiration and feeling are absent. “Useless” contradicts the passage (the void enables gathering strength), and “forgotten” and “incomplete” introduce unsupported concepts.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

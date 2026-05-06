@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures on each side",
-      "content": "Before the blank: \u201cofficially patented on April 10,\u201d is within a relative clause. After the blank: \u201c[blank] only model had been suspiciously destroyed...\u201d is an independent clause needing \u201cPage's\u201d as subject."
-    },
-    {
-      "title": "Apply the sentence boundary rule",
-      "content": "An independent clause requires a period (starting a new sentence) or semicolon/conjunction (continuing one sentence), not a comma alone. Choice D uses \u201c1906\u2014roughly six weeks earlier.\u201d \u2014 the period creates a sentence boundary, allowing \u201cPage's only model had been...\u201d to begin as a new, complete sentence. The em dashes set off \u201croughly six weeks earlier\u201d as explanatory. Choices A and C create comma splices, while B has a formatting error. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures on each side", "content": "Before the blank: “officially patented on April 10,” is within a relative clause. After the blank: “[blank] only model had been suspiciously destroyed...” is an independent clause needing “Page's” as subject."}, {"title": "Apply the sentence boundary rule", "content": "An independent clause requires a period (starting a new sentence) or semicolon/conjunction (continuing one sentence), not a comma alone.<br/><br/>Choice D uses “1906—roughly six weeks earlier.” — the period creates a sentence boundary, allowing “Page's only model had been...” to begin as a new, complete sentence.<br/><br/>The em dashes set off “roughly six weeks earlier” as explanatory.<br/><br/>Choices A and C create comma splices, while B has a formatting error.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

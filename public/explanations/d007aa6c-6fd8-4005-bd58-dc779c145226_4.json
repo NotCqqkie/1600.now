@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the testing dynamic",
-      "content": "The passage shows that analysis can \u201csupport\u201d your [blank]. The word \u201csupport\u201d means confirming something initially uncertain \u2014 so the blank names an unproven assumption, not something established."
-    },
-    {
-      "title": "Apply supposition to the blank",
-      "content": "\u201dSupposition\u201d directly means an assumption or belief held without certain proof \u2014 precisely the kind of preliminary guess that corpus analysis would then support or refute. The other choices fall short: scheme describes an organized plan or system, synopsis is a brief summary, and recognition denotes acknowledgment of something already established. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the testing dynamic", "content": "The passage shows that analysis can “support” your [blank]. The word “support” means confirming something initially uncertain — so the blank names an unproven assumption, not something established."}, {"title": "Apply supposition to the blank", "content": "”Supposition” directly means an assumption or belief held without certain proof — precisely the kind of preliminary guess that corpus analysis would then support or refute.<br/><br/>The other choices fall short: scheme describes an organized plan or system, synopsis is a brief summary, and recognition denotes acknowledgment of something already established.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

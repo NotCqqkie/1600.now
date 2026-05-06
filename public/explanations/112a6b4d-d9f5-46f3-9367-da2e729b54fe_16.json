@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relative clause position",
-      "content": "The blank will be filled with a noun (\u201cTrail\u201d) followed by a relative clause (\u201cwhich is 4.36 miles long\u201d). This clause is introduced by \u201cwhich\u201d and appears between the subject noun phrase and the main verb \u201chave become.\u201d"
-    },
-    {
-      "title": "Apply the non-restrictive clause punctuation rule",
-      "content": "Relative clauses introduced by \u201cwhich\u201d are non-restrictive and must be set off with commas on both sides when they appear in the middle of a sentence. Choice D correctly places both required commas: \u201cTrail, which is 4.36 miles long,\u201d \u2014 one before the clause and one after. The other choices violate this rule by omitting one or both of these commas or substituting incorrect punctuation. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relative clause position", "content": "The blank will be filled with a noun (“Trail”) followed by a relative clause (“which is 4.36 miles long”). This clause is introduced by “which” and appears between the subject noun phrase and the main verb “have become.”"}, {"title": "Apply the non-restrictive clause punctuation rule", "content": "Relative clauses introduced by “which” are non-restrictive and must be set off with commas on both sides when they appear in the middle of a sentence.<br/><br/>Choice D correctly places both required commas: “Trail, which is 4.36 miles long,” — one before the clause and one after.<br/><br/>The other choices violate this rule by omitting one or both of these commas or substituting incorrect punctuation.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

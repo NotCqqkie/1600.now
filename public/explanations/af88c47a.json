@@ -1,15 +1,1 @@
-{
-  "questionId": "af88c47a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining goal",
-      "content": "The student wants to <em>begin a narrative</em> about Wong's award-nominated web series. An effective narrative opening must introduce both Wong as the creator and the series as the main subject, along with contextual details that frame the story."
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "A opens with Wong's name and role, the year (2012), the series name, and a defining descriptor (action-comedy)\u2014exactly what an effective narrative beginning requires. The other three either omit Wong from the opening sentence, misframe his relationship to the series, or use vague language that fails to accomplish the narrative beginning. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "af88c47a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining goal", "content": "The student wants to <em>begin a narrative</em> about Wong's award-nominated web series. An effective narrative opening must introduce both Wong as the creator and the series as the main subject, along with contextual details that frame the story."}, {"title": "Match the goal to the choices", "content": "A opens with Wong's name and role, the year (2012), the series name, and a defining descriptor (action-comedy)—exactly what an effective narrative beginning requires.<br/><br/>The other three either omit Wong from the opening sentence, misframe his relationship to the series, or use vague language that fails to accomplish the narrative beginning.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

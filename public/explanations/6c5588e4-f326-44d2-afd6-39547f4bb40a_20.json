@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and tense context",
-      "content": "The singular subject \u201cthe song\u201d is coordinated with \u201chad spent\u201d (past tense) in a compound predicate. The blank needs a verb matching both the singular subject and past-tense context."
-    },
-    {
-      "title": "Apply subject-verb agreement and tense rules",
-      "content": "In a compound predicate, verbs must agree with their subject in number and maintain consistent tense. B (was ranked) is correct: \u201cwas\u201d is singular (agreeing with \u201cthe song\u201d) and past tense (matching \u201chad spent\u201d). A and D violate tense (present forms in a past-tense context); C violates agreement (plural \u201cwere\u201d with singular subject). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and tense context", "content": "The singular subject “the song” is coordinated with “had spent” (past tense) in a compound predicate. The blank needs a verb matching both the singular subject and past-tense context."}, {"title": "Apply subject-verb agreement and tense rules", "content": "In a compound predicate, verbs must agree with their subject in number and maintain consistent tense.<br/><br/>B (was ranked) is correct: “was” is singular (agreeing with “the song”) and past tense (matching “had spent”).<br/><br/>A and D violate tense (present forms in a past-tense context); C violates agreement (plural “were” with singular subject).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

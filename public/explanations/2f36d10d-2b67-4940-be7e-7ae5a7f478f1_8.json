@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify how Green and Extavour's approach differs",
-      "content": "The passage describes Chan studying one genetic mechanism for convergence and Steiner studying a different one. There's a knowledge gap: \u201cthe relative prevalence of convergence through shared and different genetic processes is still poorly understood.\u201d Green and Extavour's innovation was to \u201cevaluate both types of convergence in a single study\u201d\u2014studying both mechanisms together rather than separately."
-    },
-    {
-      "title": "Match the difference to the choices",
-      "content": "C states their study addresses convergent evolution \u201cmore comprehensively,\u201d which is exactly right: they studied both mechanisms in one study, while Chan and Steiner had each studied only one. The other choices either assume prior consensus the passage doesn't establish (A), mischaracterize the scope of Chan's research (B), or claim methodology the passage never mentions (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify how Green and Extavour's approach differs", "content": "The passage describes Chan studying one genetic mechanism for convergence and Steiner studying a different one.<br/><br/>There's a knowledge gap: “the relative prevalence of convergence through shared and different genetic processes is still poorly understood.” Green and Extavour's innovation was to “evaluate both types of convergence in a single study”—studying both mechanisms together rather than separately."}, {"title": "Match the difference to the choices", "content": "C states their study addresses convergent evolution “more comprehensively,” which is exactly right: they studied both mechanisms in one study, while Chan and Steiner had each studied only one.<br/><br/>The other choices either assume prior consensus the passage doesn't establish (A), mischaracterize the scope of Chan's research (B), or claim methodology the passage never mentions (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

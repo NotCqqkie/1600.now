@@ -1,15 +1,1 @@
-{
-  "questionId": "d95a0bb8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal for the inference",
-      "content": "The passage states that the developers of the IPSL model <strong>prescribed a uniform methane mole fraction</strong> due to sparse and discrepant observational data. This decision creates an implication about potential limitations in the model\u2019s accuracy."
-    },
-    {
-      "title": "Match the logical consequence",
-      "content": "Choice A warns that discrepancies between the model and actual Titan conditions are expected, directly addressing the risk of simplifying the model with a uniform value. The other three either misattribute causality, assume unmentioned conclusions, or contradict the passage\u2019s focus. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d95a0bb8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal for the inference", "content": "The passage states that the developers of the IPSL model <strong>prescribed a uniform methane mole fraction</strong> due to sparse and discrepant observational data. This decision creates an implication about potential limitations in the model’s accuracy."}, {"title": "Match the logical consequence", "content": "Choice A warns that discrepancies between the model and actual Titan conditions are expected, directly addressing the risk of simplifying the model with a uniform value.<br/><br/>The other three either misattribute causality, assume unmentioned conclusions, or contradict the passage’s focus.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

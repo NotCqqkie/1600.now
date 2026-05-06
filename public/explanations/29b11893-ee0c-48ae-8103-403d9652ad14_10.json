@@ -1,15 +1,1 @@
-{
-  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_10",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Corresponding angles in similar triangles",
-      "content": "Since triangles ABC and DEF are similar with A corresponding to D, the corresponding angles must be equal. Therefore angle D = angle A = 26\u00b0. <strong>Statement I is true.</strong>"
-    },
-    {
-      "title": "Corresponding sides in similar triangles are proportional, not equal",
-      "content": "While A corresponds to D and B corresponds to E (making AB correspond to DE), similar triangles have proportional sides, not equal sides. The scale factor could be anything. Triangle DEF could be twice as large (DE = 8), half as large (DE = 2), or the same size (DE = 4)\u2014we cannot determine which without more information. <strong>Statement II is not necessarily true.</strong> Only Statement I must be true. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_10", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Corresponding angles in similar triangles", "content": "Since triangles ABC and DEF are similar with A corresponding to D, the corresponding angles must be equal. Therefore angle D = angle A = 26°. <strong>Statement I is true.</strong>"}, {"title": "Corresponding sides in similar triangles are proportional, not equal", "content": "While A corresponds to D and B corresponds to E (making AB correspond to DE), similar triangles have proportional sides, not equal sides.<br/><br/>The scale factor could be anything. Triangle DEF could be twice as large (DE = 8), half as large (DE = 2), or the same size (DE = 4)—we cannot determine which without more information. <strong>Statement II is not necessarily true.</strong> Only Statement I must be true.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

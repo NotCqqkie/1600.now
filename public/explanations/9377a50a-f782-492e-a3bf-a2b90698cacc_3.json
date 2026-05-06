@@ -1,15 +1,1 @@
-{
-  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_3",
-  "correctAnswer": "21",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the angle relationship",
-      "content": "Lines <em>r</em> and <em>s</em> are parallel, crossed by transversal <em>t</em>. The angle 21\u00b0 is formed at the intersection with line <em>s</em> on the left side of the transversal, below the line. The angle <em>x</em>\u00b0 is formed at the intersection with line <em>r</em> on the right side of the transversal, above the line. These angles are on opposite sides of the transversal and both exterior to (outside) the parallel lines, making them <strong>alternate exterior angles</strong>."
-    },
-    {
-      "title": "Apply the alternate exterior angles theorem",
-      "content": "When a transversal crosses two parallel lines, alternate exterior angles are congruent. Therefore: $$x\u00b0 = 21\u00b0$$ which gives <strong><em>x</em> = 21</strong>."
-    }
-  ]
-}
+{"questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_3", "correctAnswer": "21", "section": "Math", "steps": [{"title": "Identify the angle relationship", "content": "Lines <em>r</em> and <em>s</em> are parallel, crossed by transversal <em>t</em>.<br/><br/>The angle 21° is formed at the intersection with line <em>s</em> on the left side of the transversal, below the line.<br/><br/>The angle <em>x</em>° is formed at the intersection with line <em>r</em> on the right side of the transversal, above the line.<br/><br/>These angles are on opposite sides of the transversal and both exterior to (outside) the parallel lines, making them <strong>alternate exterior angles</strong>."}, {"title": "Apply the alternate exterior angles theorem", "content": "When a transversal crosses two parallel lines, alternate exterior angles are congruent. Therefore: $$x° = 21°$$ which gives <strong><em>x</em> = 21</strong>."}]}

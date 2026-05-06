@@ -1,15 +1,1 @@
-{
-  "questionId": "23e2421a",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's key claim about the data",
-      "content": "The passage states the data illustrated people's tendency to overlook the <em>possibility of removing things</em>. This means the graph must show that subtractive suggestions\u2014those proposing removal\u2014are dramatically fewer than additive ones, demonstrating a bias toward adding rather than removing."
-    },
-    {
-      "title": "Match the clearest contrast to the claim",
-      "content": "Choice C compares fewer than 100 subtractive suggestions directly against more than 550 additive suggestions, showing a stark disparity where people submit roughly 5\u20136 times more ideas for adding than for removing. The other choices either compare irrelevant categories (neither/additive, invalid/subtractive) or misread the actual bar heights. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23e2421a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's key claim about the data", "content": "The passage states the data illustrated people's tendency to overlook the <em>possibility of removing things</em>. This means the graph must show that subtractive suggestions—those proposing removal—are dramatically fewer than additive ones, demonstrating a bias toward adding rather than removing."}, {"title": "Match the clearest contrast to the claim", "content": "Choice C compares fewer than 100 subtractive suggestions directly against more than 550 additive suggestions, showing a stark disparity where people submit roughly 5–6 times more ideas for adding than for removing.<br/><br/>The other choices either compare irrelevant categories (neither/additive, invalid/subtractive) or misread the actual bar heights.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

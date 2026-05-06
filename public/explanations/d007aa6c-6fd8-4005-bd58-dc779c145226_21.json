@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_21",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the boundary between two independent clauses",
-      "content": "After the blank, the text contains two independent clauses: <em>\u201cthe hole's small size restricts light to a single ray\u201d</em> and <em>\u201call light passing through the hole can only arrive at a single destination.\u201d</em> These must be properly separated or connected."
-    },
-    {
-      "title": "Apply the correct sentence boundary rule",
-      "content": "Option B uses a period to create a clear sentence break, then starts a new sentence with a dependent clause (<strong>Because the hole's small size restricts light to a single ray</strong>) followed by a comma and an independent clause. A period marks a sentence boundary, and a dependent clause followed by a comma and an independent clause is standard, correct structure. <br/><br/>Options A, C, and D fail to properly separate the clauses: A leaves them ambiguously connected in one sentence, C creates a comma splice, and D ambiguously connects them after \"because.\" <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the boundary between two independent clauses", "content": "After the blank, the text contains two independent clauses: <em>“the hole's small size restricts light to a single ray”</em> and <em>“all light passing through the hole can only arrive at a single destination.”</em> These must be properly separated or connected."}, {"title": "Apply the correct sentence boundary rule", "content": "Option B uses a period to create a clear sentence break, then starts a new sentence with a dependent clause (<strong>Because the hole's small size restricts light to a single ray</strong>) followed by a comma and an independent clause. A period marks a sentence boundary, and a dependent clause followed by a comma and an independent clause is standard, correct structure. <br/><br/>Options A, C, and <ul><li>D fail to properly separate the clauses: A leaves them ambiguously connected in one sentence</li><li>C creates a comma splice</li><li>D ambiguously connects them after \"because</li></ul>.\" <br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

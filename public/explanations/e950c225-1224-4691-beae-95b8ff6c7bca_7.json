@@ -1,15 +1,1 @@
-{
-  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's two-part structure",
-      "content": "The passage first explains how 3D vision works in cats and toads, then introduces a study examining whether and how mantises have 3D vision."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice B states: the text \u201cdiscusses 3D vision in cats and toads, then introduces a study about this kind of vision in praying mantises.\u201d This precisely describes the passage. The other choices either invent a comparison between cats and toads (A), mischaracterize the study as confirming similarities when the passage says mantis 3D vision is \u201cunlike\u201d other animals (C), or overstate the study's challenge to the description (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's two-part structure", "content": "The passage first explains how 3D vision works in cats and toads, then introduces a study examining whether and how mantises have 3D vision."}, {"title": "Match to the choices", "content": "Choice B states: the text “discusses 3D vision in cats and toads, then introduces a study about this kind of vision in praying mantises.” This precisely describes the passage.<br/><br/>The other choices either invent a comparison between cats and toads (A), mischaracterize the study as confirming similarities when the passage says mantis 3D vision is “unlike” other animals (C), or overstate the study's challenge to the description (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

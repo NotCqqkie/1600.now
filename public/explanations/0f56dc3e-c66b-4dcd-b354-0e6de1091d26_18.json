@@ -1,15 +1,1 @@
-{
-  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_18",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "On the left of the blank is a complete independent clause about what astronomers detected: \u201cCanadian astronomers detected a striking and unusual phenomenon occurring in the constellation Lepus, 160 million light-years from Earth.\u201d On the right is a noun phrase that identifies what the phenomenon is: \u201cthe explosion of a massive star, also known as a supernova, an extremely bright yet transient event...\u201d"
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "A colon is used to introduce a noun phrase that explains or identifies a preceding noun. The colon correctly introduces \u201cthe explosion of a massive star\u201d to clarify what the phenomenon is.<br/><br/>Choices A, B, and D all fail: A creates a sentence fragment, B creates a comma splice, and D incorrectly uses a semicolon (semicolons join independent clauses, not a clause and noun phrase).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "On the left of the blank is a complete independent clause about what astronomers detected: “Canadian astronomers detected a striking and unusual phenomenon occurring in the constellation Lepus, 160 million light-years from Earth.” On the right is a noun phrase that identifies what the phenomenon is: “the explosion of a massive star, also known as a supernova, an extremely bright yet transient event...”"}, {"title": "Apply the colon rule", "content": "A colon is used to introduce a noun phrase that explains or identifies a preceding noun. The colon correctly introduces “the explosion of a massive star” to clarify what the phenomenon is.<br/><br/>Choices A, B, and <ul><li>D all fail: A creates a sentence fragment</li><li>B creates a comma splice</li><li>D incorrectly uses a semicolon (semicolons join independent clauses</li></ul>, not a clause and noun phrase).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

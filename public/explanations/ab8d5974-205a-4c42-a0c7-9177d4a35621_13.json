@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the hypothesis's prediction",
-      "content": "The second team predicts that intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions creating large vortices in low-visibility. More likely to detect = fewer collisions in a test."
-    },
-    {
-      "title": "Find the study showing the predicted advantage",
-      "content": "Choice C directly compares both fish types in the specified conditions and shows narrow-headed fish bumping into more obstructions. The others either show equal performance (A), test only narrow-headed fish (B), or measure within-species variation (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the hypothesis's prediction", "content": "The second team predicts that intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions creating large vortices in low-visibility. More likely to detect = fewer collisions in a test."}, {"title": "Find the study showing the predicted advantage", "content": "Choice C directly compares both fish types in the specified conditions and shows narrow-headed fish bumping into more obstructions.<br/><br/>The others either show equal performance (A), test only narrow-headed fish (B), or measure within-species variation (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

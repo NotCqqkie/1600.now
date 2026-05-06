@@ -1,15 +1,1 @@
-{
-  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the claim to support",
-      "content": "The student claims that Argentina and the United States produce more cheaply than India and Russia. Per the passage, when tariffs are removed, cheaper producers <em>expand</em> output while more expensive ones <em>contract</em>."
-    },
-    {
-      "title": "Match the signal to the data",
-      "content": "Choice A directly captures the predicted contrast: production decreasing in India and Russia but increasing in Argentina and the United States — exactly the asymmetry that signals Argentina and the United States are the cheaper producers. The other choices either focus on prices (B), describe price/production effects without the cross-country contrast (C), or compare absolute output rather than the change in output (D). That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the claim to support", "content": "The student claims that Argentina and the United States produce more cheaply than India and Russia. Per the passage, when tariffs are removed, cheaper producers <em>expand</em> output while more expensive ones <em>contract</em>."}, {"title": "Match the signal to the data", "content": "Choice A directly captures the predicted contrast: production decreasing in India and Russia but increasing in Argentina and the United States — exactly the asymmetry that signals Argentina and the United States are the cheaper producers.<br/><br/>The other choices either focus on prices (B), describe price/production effects without the cross-country contrast (C), or compare absolute output rather than the change in output (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_23",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the task the question requires",
-      "content": "The question asks which choice explains advantages of onshore wind farms over offshore ones. From the notes, the defining advantage is cost: offshore farms are more expensive to build and maintain than onshore farms."
-    },
-    {
-      "title": "Match the task to the choice that effectively accomplishes it",
-      "content": "Choice A directly synthesizes this advantage by highlighting the cost benefit while acknowledging the electricity output trade-off, effectively explaining why onshore farms are preferable. Choices B, C, and D either isolate facts unrelated to the comparison (B and C), or explicitly treat the two types as equivalent without identifying any advantages (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_23", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the task the question requires", "content": "The question asks which choice explains advantages of onshore wind farms over offshore ones. From the notes, the defining advantage is cost: offshore farms are more expensive to build and maintain than onshore farms."}, {"title": "Match the task to the choice that effectively accomplishes it", "content": "Choice A directly synthesizes this advantage by highlighting the cost benefit while acknowledging the electricity output trade-off, effectively explaining why onshore farms are preferable.<br/><br/>Choices B, C, and D either isolate facts unrelated to the comparison (B and C), or explicitly treat the two types as equivalent without identifying any advantages (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

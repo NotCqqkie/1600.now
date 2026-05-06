@@ -1,15 +1,1 @@
-{
-  "questionId": "4830ab87",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states that balance \u201caffects how viewers perceive\u201d the photograph \u2014 establishing that balance determines what's conveyed. The blank requires a word expressing this relationship of dependency."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The phrase \u201ccontingent on\u201d means dependent on \u2014 directly expressing that what a photo conveys depends on how it's balanced. The other three suggest prevention (\u201cinhibited by\u201d), obligation (\u201cobligated to\u201d), or designation (\u201creserved for\u201d) rather than dependency. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4830ab87", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that balance “affects how viewers perceive” the photograph — establishing that balance determines what's conveyed. The blank requires a word expressing this relationship of dependency."}, {"title": "Match the meaning", "content": "The phrase “contingent on” means dependent on — directly expressing that what a photo conveys depends on how it's balanced.<br/><br/>The other three suggest prevention (“inhibited by”), obligation (“obligated to”), or designation (“reserved for”) rather than dependency.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

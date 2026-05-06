@@ -1,15 +1,1 @@
-{
-  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_6",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what the variables represent",
-      "content": "In the function $f(x) = 4,000(1.02)^x$, the variable $x$ represents <strong>years after the initial investment</strong>, and $f(x)$ represents the <strong>value of the CD in dollars</strong>."
-    },
-    {
-      "title": "Interpret f(2) \u2248 4,186.12 in context",
-      "content": "The statement $f(2) \\approx 4,186.12$ means we substitute $x = 2$ into the function. Since $x$ is measured in years and $f(x)$ gives the dollar value, this means <strong>2 years after the investment was made, the value of the CD was approximately 4,186.12 dollars</strong>. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify what the variables represent", "content": "In the function $f(x) = 4,000(1.02)^x$, the variable $x$ represents <strong>years after the initial investment</strong>, and $f(x)$ represents the <strong>value of the CD in dollars</strong>."}, {"title": "Interpret f(2) ≈ 4,186.12 in context", "content": "The statement $f(2) \\approx 4,186.12$ means we substitute $x = 2$ into the function.<br/><br/>Since $x$ is measured in years and $f(x)$ gives the dollar value, this means <strong>2 years after the investment was made, the value of the CD was approximately 4,186.12 dollars</strong>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

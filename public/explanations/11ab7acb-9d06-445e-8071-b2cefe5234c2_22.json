@@ -1,15 +1,1 @@
-{
-  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast between the sentences",
-      "content": "Sentence 1 says kyudo was <strong>not</strong> a medal sport. Sentence 2 says it <strong>was</strong> featured, but as a demonstration sport \u2014 a qualification that corrects the initial impression."
-    },
-    {
-      "title": "Find the transition that marks this contrast",
-      "content": "<strong>Rather</strong> marks exactly this kind of contrast \u2014 it means \u201con the contrary\u201d and signals when a second statement qualifies or corrects a first one. The other three choices don't work: <strong>thus</strong> suggests consequence, <strong>additionally</strong> suggests adding more information in the same direction, and <strong>for example</strong> introduces an example. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between the sentences", "content": "Sentence 1 says kyudo was <strong>not</strong> a medal sport. Sentence 2 says it <strong>was</strong> featured, but as a demonstration sport — a qualification that corrects the initial impression."}, {"title": "Find the transition that marks this contrast", "content": "<strong>Rather</strong> marks exactly this kind of contrast — it means “on the contrary” and signals when a second statement qualifies or corrects a first one.<br/><br/>The other three choices don't work: <strong>thus</strong> suggests consequence, <strong>additionally</strong> suggests adding more information in the same direction, and <strong>for example</strong> introduces an example.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

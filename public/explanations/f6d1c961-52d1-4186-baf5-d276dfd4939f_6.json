@@ -1,15 +1,1 @@
-{
-  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_6",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the common standard",
-      "content": "Both texts evaluate how well experimental designs exclude nutrient pathways other than CMN. Text 1 emphasizes that Xiao used barriers to separate roots\u2014a crucial step Wahbi did not take. Text 2 then exposes why even barriers fail: they must be permeable to hyphae, which means they must also allow liquids."
-    },
-    {
-      "title": "Apply the standard to each answer",
-      "content": "Both authors would answer \u201cNo\u201d\u2014Wahbi's study did not effectively exclude other pathways. Text 1 directly faults Wahbi for omitting barriers; Text 2's logic (barriers permit liquids, leaving alternative routes open) strengthens that verdict for a design without barriers. Questions A, C, and D disrupt agreement: A asks whether Xiao's barriers actually work (the authors disagree), C asserts a biological mechanism neither text establishes, and D concerns ideal barrier materials (only Text 2 addresses). This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the common standard", "content": "Both texts evaluate how well experimental designs exclude nutrient pathways other than CMN.<br/><br/>Text 1 emphasizes that Xiao used barriers to separate roots—a crucial step Wahbi did not take.<br/><br/>Text 2 then exposes why even barriers fail: they must be permeable to hyphae, which means they must also allow liquids."}, {"title": "Apply the standard to each answer", "content": "Both authors would answer “No”—Wahbi's study did not effectively exclude other pathways.<br/><br/>Text 1 directly faults Wahbi for omitting barriers; Text 2's logic (barriers permit liquids, leaving alternative routes open) strengthens that verdict for a design without barriers.<br/><br/>Questions A, C, and <ul><li>D disrupt agreement: A asks whether Xiao's barriers actually work (the authors disagree)</li><li>C asserts a biological mechanism neither text establishes</li><li>D concerns ideal barrier materials (only Text 2 addresses)</li></ul>.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

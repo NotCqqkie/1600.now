@@ -1,15 +1,1 @@
-{
-  "questionId": "ed80971c",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what needs to be emphasized",
-      "content": "The student wants to emphasize how long the museum has existed. The key information from the notes is the specific founding date: 1992."
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "Choice B accomplishes this with \u201chas served the Pueblo of Zuni since 1992.\u201d The phrase \u201chas served...since\u201d directly emphasizes continuous operation over time, and the specific year shows exactly how long that is. The other three omit the precise date, use vague language like \u201cfounded in the 1990s,\u201d or focus on the museum's mission instead. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed80971c", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what needs to be emphasized", "content": "The student wants to emphasize how long the museum has existed. The key information from the notes is the specific founding date: 1992."}, {"title": "Match the goal to the choices", "content": "Choice B accomplishes this with “has served the Pueblo of Zuni since 1992.” The phrase “has served...since” directly emphasizes continuous operation over time, and the specific year shows exactly how long that is.<br/><br/>The other three omit the precise date, use vague language like “founded in the 1990s,” or focus on the museum's mission instead.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

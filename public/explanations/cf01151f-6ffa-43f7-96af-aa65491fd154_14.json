@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the key contrast about lighting sensitivity",
-      "content": "The passage establishes a key contrast: poor street lighting deters new or inexperienced cyclists from riding, but has little effect on experienced cyclists. This distinction reveals which group's behavior would change if lighting improved."
-    },
-    {
-      "title": "Apply this sensitivity to the inference",
-      "content": "If poor lighting deters inexperienced cyclists, then better lighting (more streetlights) would remove that barrier and enable more inexperienced cyclists to ride. The other choices either focus on experienced cyclists (whom the passage says aren't affected by lighting) or reverse the relationship. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the key contrast about lighting sensitivity", "content": "The passage establishes a key contrast: poor street lighting deters new or inexperienced cyclists from riding, but has little effect on experienced cyclists. This distinction reveals which group's behavior would change if lighting improved."}, {"title": "Apply this sensitivity to the inference", "content": "If poor lighting deters inexperienced cyclists, then better lighting (more streetlights) would remove that barrier and enable more inexperienced cyclists to ride.<br/><br/>The other choices either focus on experienced cyclists (whom the passage says aren't affected by lighting) or reverse the relationship.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the author's challenge to the energy ladder",
-      "content": "The passage presents the energy ladder as a common explanation for fuel choice shifts, then immediately uses <em>however</em> and calls the model <em>reductive.</em> This signals the author is questioning whether the model adequately explains fuel choice decisions."
-    },
-    {
-      "title": "Match the challenge to the choices",
-      "content": "Choice A\u2014to challenge a common explanation\u2014is the direct match for what calling something <em>reductive</em> accomplishes. The other three either misidentify the target (fuel prices, not choice), reverse causality, or mistake the purpose (comparing countries rather than evaluating a model's adequacy). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the author's challenge to the energy ladder", "content": "The passage presents the energy ladder as a common explanation for fuel choice shifts, then immediately uses <em>however</em> and calls the model <em>reductive.</em> This signals the author is questioning whether the model adequately explains fuel choice decisions."}, {"title": "Match the challenge to the choices", "content": "Choice A—to challenge a common explanation—is the direct match for what calling something <em>reductive</em> accomplishes.<br/><br/>The other three either misidentify the target (fuel prices, not choice), reverse causality, or mistake the purpose (comparing countries rather than evaluating a model's adequacy).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

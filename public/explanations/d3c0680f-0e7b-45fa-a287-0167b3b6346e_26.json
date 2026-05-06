@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_26",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "An effective comparison must identify the actual difference between the two hypotheses. The notes show that Fodor applies modularity selectively (low-level yes, high-level no), while Carruthers extends it universally\u2014this scope difference is the decisive clue."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "C directly identifies this scope difference: Fodorian modularity covers \u201csome but not all cognitive systems,\u201d while MMH is \u201cnot as expansive\u201d (meaning it includes all). The other choices either reframe the relationship as agreement (A) or misidentify the source of disagreement\u2014both theories agree that innate structures and low-level systems are modular; they differ only on scope.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_26", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "An effective comparison must identify the actual difference between the two hypotheses. The notes show that Fodor applies modularity selectively (low-level yes, high-level no), while Carruthers extends it universally—this scope difference is the decisive clue."}, {"title": "Match the meaning", "content": "C directly identifies this scope difference: Fodorian modularity covers “some but not all cognitive systems,” while MMH is “not as expansive” (meaning it includes all).<br/><br/>The other choices either reframe the relationship as agreement (A) or misidentify the source of disagreement—both theories agree that innate structures and low-level systems are modular; they differ only on scope.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

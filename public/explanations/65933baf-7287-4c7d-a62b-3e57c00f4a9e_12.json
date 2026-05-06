@@ -1,15 +1,1 @@
-{
-  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in context",
-      "content": "The passage establishes that the largest home land covers nearly 100 square miles, but \u201cMost of the home lands are much smaller.\u201d The phrase \u201cFor example\u201d signals that the sentence about Kalamaula and Makuu is meant to illustrate this claim about smaller home lands. To complete the example, we need the value from the table that represents Makuu's total area."
-    },
-    {
-      "title": "Match the table data to the example",
-      "content": "The table lists Makuu at 3.44 square miles. This value completes the example: Kalamaula (7.95) and Makuu (3.44) are both significantly smaller than the 100-square-mile benchmark, directly supporting the claim that most home lands are much smaller. The other choices represent different home lands in the table (37.26 is Kahikaiui, 15.99 is Kawailoa, 23.57 is Kaena) and do not match Makuu's area. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in context", "content": "The passage establishes that the largest home land covers nearly 100 square miles, but “Most of the home lands are much smaller.” The phrase “For example” signals that the sentence about Kalamaula and Makuu is meant to illustrate this claim about smaller home lands.<br/><br/>To complete the example, we need the value from the table that represents Makuu's total area."}, {"title": "Match the table data to the example", "content": "The table lists Makuu at 3.44 square miles. This value completes the example: Kalamaula (7.95) and Makuu (3.44) are both significantly smaller than the 100-square-mile benchmark, directly supporting the claim that most home lands are much smaller.<br/><br/>The other choices represent different home lands in the table (37.26 is Kahikaiui, 15.99 is Kawailoa, 23.57 is Kaena) and do not match Makuu's area.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_19",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive phrase structure",
-      "content": "The phrase <em>a metrical foot ______ to in English metrical verse as a trochee</em> follows a comma after an independent clause. This phrase must be an appositive\u2014a noun phrase that renames or elaborates on a preceding noun\u2014not an independent clause."
-    },
-    {
-      "title": "Choose the form that maintains the noun phrase",
-      "content": "A past participle, <strong>referred,</strong> works as an adjective within the noun phrase: <em>a metrical foot referred to in English metrical verse as a trochee.</em> A conjugated verb form like <em>is referred</em> would create an independent clause, resulting in a comma splice; <em>referring</em> and <em>refers</em> fail idiomatically because each requires a different syntactic structure. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive phrase structure", "content": "The phrase <em>a metrical foot ______ to in English metrical verse as a trochee</em> follows a comma after an independent clause. This phrase must be an appositive—a noun phrase that renames or elaborates on a preceding noun—not an independent clause."}, {"title": "Choose the form that maintains the noun phrase", "content": "A past participle, <strong>referred,</strong> works as an adjective within the noun phrase: <em>a metrical foot referred to in English metrical verse as a trochee.</em> A conjugated verb form like <em>is referred</em> would create an independent clause, resulting in a comma splice; <em>referring</em> and <em>refers</em> fail idiomatically because each requires a different syntactic structure.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

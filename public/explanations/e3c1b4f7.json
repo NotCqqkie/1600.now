@@ -1,15 +1,1 @@
-{
-  "questionId": "e3c1b4f7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence structure",
-      "content": "The decisive clue is the positioning of \u201cthough\u201d between an introductory infinitive phrase (\u201cTo manifest...\u201d) and the main clause (\u201cshe occasionally relies...\u201d). The word \u201cthough\u201d must function as a transitional element connecting these parts."
-    },
-    {
-      "title": "Apply the parenthetical punctuation rule",
-      "content": "When a transitional word like \u201cthough\u201d interrupts between an introductory phrase and a main clause, it must be enclosed by commas on both sides to mark it as a parenthetical element. Option A correctly applies this rule: work, though, creates the proper punctuation. Option B, C, and D violate this punctuation rule\u2014B drops the closing comma, C misapplies a semicolon before a non-independent phrase, and D incorrectly places a semicolon after \u201cthough.\u201d That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e3c1b4f7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structure", "content": "The decisive clue is the positioning of “though” between an introductory infinitive phrase (“To manifest...”) and the main clause (“she occasionally relies...”). The word “though” must function as a transitional element connecting these parts."}, {"title": "Apply the parenthetical punctuation rule", "content": "When a transitional word like “though” interrupts between an introductory phrase and a main clause, it must be enclosed by commas on both sides to mark it as a parenthetical element.<br/><br/>Option A correctly applies this rule: work, though, creates the proper punctuation.<br/><br/>Option B, C, and <ul><li>D violate this punctuation rule—B drops the closing comma</li><li>C misapplies a semicolon before a non-independent phrase</li><li>D incorrectly places a semicolon after “though</li></ul>.” That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

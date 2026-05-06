@@ -1,15 +1,1 @@
-{
-  "questionId": "2aaee77f",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the operational details",
-      "content": "The opening sentences introduce a general behavior\u2014some birds lay eggs in other nests. The underlined sentence then provides specific details about how this behavior is executed: female cuckoos lay eggs quickly, timed for when the other birds are away foraging."
-    },
-    {
-      "title": "Match the function to the answer",
-      "content": "The underlined sentence provides the operational details of how female cuckoos execute the egg-laying behavior described earlier. The other options incorrectly claim the sentence introduces physical features (A), describes nest appearance (B), or explains how other birds react (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2aaee77f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the operational details", "content": "The opening sentences introduce a general behavior—some birds lay eggs in other nests. The underlined sentence then provides specific details about how this behavior is executed: female cuckoos lay eggs quickly, timed for when the other birds are away foraging."}, {"title": "Match the function to the answer", "content": "The underlined sentence provides the operational details of how female cuckoos execute the egg-laying behavior described earlier.<br/><br/>The other options incorrectly claim the sentence introduces physical features (A), describes nest appearance (B), or explains how other birds react (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

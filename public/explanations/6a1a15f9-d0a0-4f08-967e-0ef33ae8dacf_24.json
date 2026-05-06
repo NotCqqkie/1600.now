@@ -1,15 +1,1 @@
-{
-  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key goal",
-      "content": "The goal is to \u201cemphasize the order in which the supercontinents were formed\u201d\u2014meaning the answer must show which supercontinent came first and which came second, using the dates from the notes."
-    },
-    {
-      "title": "Match the answer to that goal",
-      "content": "Choice A directly shows that Columbia formed \u201clong after\u201d Ur, establishing the chronological order (Ur first at 3.1 billion years ago, Columbia later at 1.8 billion years ago) and emphasizing the temporal gap. Choices B, C, and D fail to establish this sequence: B focuses on Ur alone, C discusses general supercontinent traits without ordering specific examples, and D names both but omits their dates. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key goal", "content": "The goal is to “emphasize the order in which the supercontinents were formed”—meaning the answer must show which supercontinent came first and which came second, using the dates from the notes."}, {"title": "Match the answer to that goal", "content": "Choice A directly shows that Columbia formed “long after” Ur, establishing the chronological order (Ur first at 3.1 billion years ago, Columbia later at 1.8 billion years ago) and emphasizing the temporal gap.<br/><br/>Choices B, C, and <ul><li>D fail to establish this sequence: B focuses on Ur alone</li><li>C discusses general supercontinent traits without ordering specific examples</li><li>D names both but omits their dates</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

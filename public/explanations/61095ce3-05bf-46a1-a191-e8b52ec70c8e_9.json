@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the conclusion requires",
-      "content": "The conclusion is that <em>M. collaris</em> associates <em>T. caesius</em> alarm calls specifically with danger. To support this, evidence must show the birds' reaction is to these alarm calls in particular\u2014not just any loud or unfamiliar sound."
-    },
-    {
-      "title": "Find the control that proves specificity",
-      "content": "Choice D shows random noise produces no response from <em>M. collaris</em>, proving their freezing/scattering is specific to <em>T. caesius</em> alarm calls, not a generic startle to any sound. This directly supports the danger-association conclusion. The other choices either confound the evidence (A), observe other species (B), or show consistency without proving the danger-meaning (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the conclusion requires", "content": "The conclusion is that <em>M. collaris</em> associates <em>T. caesius</em> alarm calls specifically with danger. To support this, evidence must show the birds' reaction is to these alarm calls in particular—not just any loud or unfamiliar sound."}, {"title": "Find the control that proves specificity", "content": "Choice D shows random noise produces no response from <em>M. collaris</em>, proving their freezing/scattering is specific to <em>T. caesius</em> alarm calls, not a generic startle to any sound.<br/><br/>This directly supports the danger-association conclusion. The other choices either confound the evidence (A), observe other species (B), or show consistency without proving the danger-meaning (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

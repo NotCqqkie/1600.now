@@ -1,15 +1,1 @@
-{
-  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrasting eclipse scenarios",
-      "content": "The passage describes what observers would have witnessed on July 9, 1926 (an annular eclipse) followed by what stargazers would have seen on December 24, 1927 (a partial eclipse). These are two different eclipse events with different visual effects."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dOn the other hand,\u201d introduces a contrasting observation\u2014the transition needed to connect two different eclipse types. The other choices impose wrong relationships: A wrongly suggests causation between the events, C contradicts the different dates by requiring simultaneity, and D suggests the second observation reinforces rather than contrasts with the first. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "41223f98-85cf-4192-b791-4708f442a85c_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrasting eclipse scenarios", "content": "The passage describes what observers would have witnessed on July 9, 1926 (an annular eclipse) followed by what stargazers would have seen on December 24, 1927 (a partial eclipse). These are two different eclipse events with different visual effects."}, {"title": "Apply the signal to the choices", "content": "”On the other hand,” introduces a contrasting observation—the transition needed to connect two different eclipse types.<br/><br/>The other choices impose wrong relationships: <ul><li>A wrongly suggests causation between the events</li><li>C contradicts the different dates by requiring simultaneity</li><li>D suggests the second observation reinforces rather than contrasts with the first</li></ul>.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

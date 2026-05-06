@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Left side of the blank: an independent clause (\u201cRelatively few of these particles are likely to reach Earth's surface\u201d) <br> Right side of the blank: a dependent clause beginning with \u201csince\u201d (\u201csince the meteoroids' compression of the air surrounding them causes the vast majority to burn up...\u201d)"
-    },
-    {
-      "title": "Apply the rule for transition words within sentences",
-      "content": "When a transition word like \u201chowever\u201d is inserted within a sentence (not between two independent clauses), it must be surrounded by commas. Choice B correctly places commas on both sides of \u201chowever,\u201d to treat it as a parenthetical transition within the sentence. The other choices violate the rule: A places a semicolon after \u201chowever,\u201d C uses a semicolon as if connecting two independent clauses (but \u201csince\u201d introduces a dependent clause), and D breaks the sentence with a period, leaving only a fragment. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Left side of the blank: an independent clause (“Relatively few of these particles are likely to reach Earth's surface”) <br> Right side of the blank: a dependent clause beginning with “since” (“since the meteoroids' compression of the air surrounding them causes the vast majority to burn up...”)"}, {"title": "Apply the rule for transition words within sentences", "content": "When a transition word like “however” is inserted within a sentence (not between two independent clauses), it must be surrounded by commas.<br/><br/>Choice B correctly places commas on both sides of “however,” to treat it as a parenthetical transition within the sentence.<br/><br/>The other choices violate the rule: A places a semicolon after “however,” C uses a semicolon as if connecting two independent clauses (but “since” introduces a dependent clause), and D breaks the sentence with a period, leaving only a fragment.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

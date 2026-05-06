@@ -1,15 +1,1 @@
-{
-  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the phrase structure",
-      "content": "The blank requires a noun that serves as part of the subject. That noun <strong>\u201ceconomists\u201d</strong> is directly followed by an appositive \u2014 <strong>\u201cLaura Gee and Muriel Niederle\u201d</strong> \u2014 a phrase that renames or identifies the noun."
-    },
-    {
-      "title": "Apply the rule for essential appositives",
-      "content": "The names identify <em>which</em> behavioral economists are the subject of the sentence, making the appositive essential. Appositives that are essential to the meaning are not set off by commas. Option B correctly presents the noun and appositive together without punctuation: <strong>\u201ceconomists Laura Gee and Muriel Niederle.\u201d</strong> Options A and D incorrectly introduce commas around or after the appositive, while C adds a comma within it. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the phrase structure", "content": "The blank requires a noun that serves as part of the subject. That noun <strong>“economists”</strong> is directly followed by an appositive — <strong>“Laura Gee and Muriel Niederle”</strong> — a phrase that renames or identifies the noun."}, {"title": "Apply the rule for essential appositives", "content": "The names identify <em>which</em> behavioral economists are the subject of the sentence, making the appositive essential.<br/><br/>Appositives that are essential to the meaning are not set off by commas.<br/><br/>Option B correctly presents the noun and appositive together without punctuation: <strong>“economists Laura Gee and Muriel Niederle.”</strong> Options A and D incorrectly introduce commas around or after the appositive, while C adds a comma within it.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

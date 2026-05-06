@@ -1,15 +1,1 @@
-{
-  "questionId": "ac8eb085",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cause-and-effect structure",
-      "content": "The passage establishes that air is owned and sold by companies, then the blank precedes a statement about what people must do. The transition must connect the setup to what logically follows from it."
-    },
-    {
-      "title": "Apply the consequence transition",
-      "content": "\u201dAs a result\u201d directly expresses that purchasing air is the logical consequence of companies owning and selling it. The other choices fail to show this cause-effect relationship: \u201cNevertheless\u201d and \u201cIn any case\u201d imply contradiction or reluctant acceptance despite obstacles, while \u201cEarlier\u201d introduces temporal reference that doesn't apply. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ac8eb085", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the cause-and-effect structure", "content": "The passage establishes that air is owned and sold by companies, then the blank precedes a statement about what people must do. The transition must connect the setup to what logically follows from it."}, {"title": "Apply the consequence transition", "content": "”As a result” directly expresses that purchasing air is the logical consequence of companies owning and selling it.<br/><br/>The other choices fail to show this cause-effect relationship: “Nevertheless” and “In any case” imply contradiction or reluctant acceptance despite obstacles, while “Earlier” introduces temporal reference that doesn't apply.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

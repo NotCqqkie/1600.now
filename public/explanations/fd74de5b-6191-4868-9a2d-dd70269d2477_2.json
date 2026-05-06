@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the timing condition",
-      "content": "The \u201cif instead\u201d clause reveals the crucial question: if the extinction happened before humans could have altered the habitat, then climate change (not humans) caused it. This shows the blank must express whether the extinction and human arrival occurred at the same time."
-    },
-    {
-      "title": "Apply the simultaneity word",
-      "content": "<em>Coincided with</em> expresses simultaneous occurrence. If extinction coincided with human arrival, humans could have caused the extinction; if instead extinction happened first, climate change or other factors caused it. The other choices describe causality, conflict, or transformation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the timing condition", "content": "The “if instead” clause reveals the crucial question: if the extinction happened before humans could have altered the habitat, then climate change (not humans) caused it. This shows the blank must express whether the extinction and human arrival occurred at the same time."}, {"title": "Apply the simultaneity word", "content": "<em>Coincided with</em> expresses simultaneous occurrence. If extinction coincided with human arrival, humans could have caused the extinction; if instead extinction happened first, climate change or other factors caused it.<br/><br/>The other choices describe causality, conflict, or transformation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

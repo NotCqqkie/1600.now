@@ -1,15 +1,1 @@
-{
-  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal: crown ages versus the geographic timeline",
-      "content": "Text 1 establishes that Gondwana split from Grande Terre 80 million years ago, and describes how some Gondwanan clades may have persisted by using nearby islands as refuge. Text 2 gives us two crown ages: harvest spiders at 48.9 million years, and cockroaches at 2.7 million years. These ages tell us when each clade's founder lived. The critical comparison is between each crown age and the 80-million-year-old split: which clade's timeline makes Gondwanan ancestry plausible?"
-    },
-    {
-      "title": "Match the timing to Gondwanan ancestry",
-      "content": "The harvest spiders' crown age of 48.9 million years is relatively old\u2014old enough that the texts' hypothesis of Gondwanan clades persisting through refugia during submersion (which lasted from 80 to 37 million years ago) plausibly applies to them. Their age suggests they likely descend from Gondwanan stock that survived during the submersion period. The cockroaches, by contrast, have a crown age of only 2.7 million years, far too recent to have any plausible Gondwanan heritage. The other choices either apply Gondwanan origin to both clades (contradicting the different ages) or rule it out entirely for both. Choice A captures the key distinction: harvest spiders' older crown age makes Gondwanan ancestry necessary to explain their presence, while cockroaches' youth leaves it inconclusive. <strong>That matches choice A \u2014 A is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal: crown ages versus the geographic timeline", "content": "Text 1 establishes that Gondwana split from Grande Terre 80 million years ago, and describes how some Gondwanan clades may have persisted by using nearby islands as refuge.<br/><br/>Text 2 gives us two crown ages: harvest spiders at 48.9 million years, and cockroaches at 2.7 million years.<br/><br/>These ages tell us when each clade's founder lived. The critical comparison is between each crown age and the 80-million-year-old split: which clade's timeline makes Gondwanan ancestry plausible?"}, {"title": "Match the timing to Gondwanan ancestry", "content": "The harvest spiders' crown age of 48.9 million years is relatively old—old enough that the texts' hypothesis of Gondwanan clades persisting through refugia during submersion (which lasted from 80 to 37 million years ago) plausibly applies to them.<br/><br/>Their age suggests they likely descend from Gondwanan stock that survived during the submersion period.<br/><br/>The cockroaches, by contrast, have a crown age of only 2.7 million years, far too recent to have any plausible Gondwanan heritage.<br/><br/>The other choices either apply Gondwanan origin to both clades (contradicting the different ages) or rule it out entirely for both.<br/><br/>Choice A captures the key distinction: harvest spiders' older crown age makes Gondwanan ancestry necessary to explain their presence, while cockroaches' youth leaves it inconclusive. <strong>That matches choice A — A is correct.</strong>"}]}

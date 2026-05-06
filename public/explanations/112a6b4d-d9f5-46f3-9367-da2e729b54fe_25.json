@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find what makes the calendars different",
-      "content": "The student's goal is to emphasize a DIFFERENCE between the two calendars. Among the notes, one statement directly identifies a difference: <strong>\u201cthe timelines for the months don't match\u201d</strong>. This is reinforced by examples such as Vent\u00f3se (FR month 6) aligning with February (Gregorian month 2), and Flor\u00e9al (FR month 8) aligning with April (Gregorian month 4)."
-    },
-    {
-      "title": "Pick the choice that highlights that difference",
-      "content": "C directly identifies and exemplifies the difference in month timelines. The others either describe only one calendar or mention a shared feature rather than a difference. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find what makes the calendars different", "content": "The student's goal is to emphasize a DIFFERENCE between the two calendars.<br/><br/>Among the notes, one statement directly identifies a difference: <strong>“the timelines for the months don't match”</strong>.<br/><br/>This is reinforced by examples such as Ventóse (FR month 6) aligning with February (Gregorian month 2), and Floréal (FR month 8) aligning with April (Gregorian month 4)."}, {"title": "Pick the choice that highlights that difference", "content": "C directly identifies and exemplifies the difference in month timelines. The others either describe only one calendar or mention a shared feature rather than a difference. That matches choice C — <strong>C</strong> is correct."}]}

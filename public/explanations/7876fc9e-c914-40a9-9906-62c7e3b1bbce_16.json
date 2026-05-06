@@ -1,15 +1,1 @@
-{
-  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the present-time signal",
-      "content": "\u201dCurrently\u201d directly indicates that the painting's location and state at this moment in time are being described."
-    },
-    {
-      "title": "Apply the present-tense rule",
-      "content": "Simple present tense expresses what is currently true. \u201changs\u201d is simple present and correctly describes the painting's location at the museum. \u201cwill have hung,\u201d \u201chung,\u201d and \u201cwas hanging\u201d all use past or future tenses that contradict the \u201cCurrently\u201d signal. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the present-time signal", "content": "”Currently” directly indicates that the painting's location and state at this moment in time are being described."}, {"title": "Apply the present-tense rule", "content": "Simple present tense expresses what is currently true. “hangs” is simple present and correctly describes the painting's location at the museum. “will have hung,” “hung,” and “was hanging” all use past or future tenses that contradict the “Currently” signal.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the relationship between the two concepts",
-      "content": "Sentence 3 describes the <strong>cohesion species concept</strong>, which defines species by phenotypic cohesion. Sentence 4 introduces the <strong>genetic species concept</strong>, which organizes species by genetic similarity. The passage is presenting two different, competing approaches to the same problem\u2014not one building on the other, but contrasting with it."
-    },
-    {
-      "title": "Match the transition to the contrast",
-      "content": "<strong>\u201cOn the other hand\u201d</strong> signals that a second approach or viewpoint is being introduced in contrast to the first. The cohesion concept and genetic concept use entirely different criteria (phenotypic vs. genetic), so they are alternative frameworks competing within the field\u2014exactly what \u201con the other hand\u201d conveys. A, B, and C each misread the relationship: \u201cfor instance\u201d treats it as an example of the cohesion concept, \u201ctherefore\u201d suggests a consequence, and \u201cin fact\u201d adds emphasis rather than introducing an alternative. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the relationship between the two concepts", "content": "Sentence 3 describes the <strong>cohesion species concept</strong>, which defines species by phenotypic cohesion.<br/><br/>Sentence 4 introduces the <strong>genetic species concept</strong>, which organizes species by genetic similarity.<br/><br/>The passage is presenting two different, competing approaches to the same problem—not one building on the other, but contrasting with it."}, {"title": "Match the transition to the contrast", "content": "<strong>“On the other hand”</strong> signals that a second approach or viewpoint is being introduced in contrast to the first.<br/><br/>The cohesion concept and genetic concept use entirely different criteria (phenotypic vs. genetic), so they are alternative frameworks competing within the field—exactly what “on the other hand” conveys.<br/><br/>A, B, and C each misread the relationship: “for instance” treats it as an example of the cohesion concept, “therefore” suggests a consequence, and “in fact” adds emphasis rather than introducing an alternative.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

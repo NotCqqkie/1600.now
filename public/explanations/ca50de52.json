@@ -1,15 +1,1 @@
-{
-  "questionId": "ca50de52",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what animators prioritize",
-      "content": "The passage states that \u201cMany computer animators prioritize this question\u201d as they strive to create realistic environments and lighting. The question is introduced as representing a primary focus or goal for these animators."
-    },
-    {
-      "title": "Match the function to the answer",
-      "content": "Choice A directly reflects this: the question expresses a primary goal that many animators have for specific components (environments and lighting). The other three either misidentify who's asking (D: audiences rather than animators), reverse what these animators value (B: uniqueness over realism), or invent concerns not mentioned in the passage (C: technological limitations).<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ca50de52", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what animators prioritize", "content": "The passage states that “Many computer animators prioritize this question” as they strive to create realistic environments and lighting. The question is introduced as representing a primary focus or goal for these animators."}, {"title": "Match the function to the answer", "content": "Choice A directly reflects this: the question expresses a primary goal that many animators have for specific components (environments and lighting).<br/><br/>The other three either misidentify who's asking (D: audiences rather than animators), reverse what these animators value (B: uniqueness over realism), or invent concerns not mentioned in the passage (C: technological limitations).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

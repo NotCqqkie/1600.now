@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the target plant pair in the table",
-      "content": "The table lists neighboring species, their paired target species, and locations. Look for \u201cmusk thistle\u201d as a neighboring species to find its corresponding target species and location. The first row shows musk thistle paired with Peruvian lily in a specific country."
-    },
-    {
-      "title": "Match the location to the plant pair",
-      "content": "The table directly shows musk thistle grows alongside Peruvian lily in Argentina. The other three countries (United States, Japan, and United Kingdom) all appear in the table, but each pairs with different plants\u2014not with musk and Peruvian lily. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "76199cca-674f-403e-a01c-927854021f9f_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Locate the target plant pair in the table", "content": "The table lists neighboring species, their paired target species, and locations. Look for “musk thistle” as a neighboring species to find its corresponding target species and location. The first row shows musk thistle paired with Peruvian lily in a specific country."}, {"title": "Match the location to the plant pair", "content": "The table directly shows musk thistle grows alongside Peruvian lily in Argentina.<br/><br/>The other three countries (United States, Japan, and United Kingdom) all appear in the table, but each pairs with different plants—not with musk and Peruvian lily.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

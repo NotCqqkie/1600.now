@@ -1,15 +1,1 @@
-{
-  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the cause-effect relationship",
-      "content": "The passage establishes that the 900 is <em>so rare</em> that every successful execution is historic. The blank then introduces a consequence: because of this rarity, Brusco and Pappas became titans after landing their 900s. The transition must signal this cause-and-effect: rarity \u2192 reverence."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "<strong>For this reason</strong> directly expresses consequence. It tells us that what follows (their reverence as titans) results from what came before (the rarity of the 900). The other three misfire: <em>In conclusion</em> wraps up multiple points, <em>By comparison</em> introduces a comparison, and <em>Regardless</em> signals contrast\u2014none of which connect the rarity to the reverence. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the cause-effect relationship", "content": "The passage establishes that the 900 is <em>so rare</em> that every successful execution is historic. The blank then introduces a consequence: because of this rarity, Brusco and Pappas became titans after landing their 900s. The transition must signal this cause-and-effect: rarity → reverence."}, {"title": "Match the signal to the choices", "content": "<strong>For this reason</strong> directly expresses consequence.<br/><br/>It tells us that what follows (their reverence as titans) results from what came before (the rarity of the 900).<br/><br/>The other three misfire: <em>In conclusion</em> wraps up multiple points, <em>By comparison</em> introduces a comparison, and <em>Regardless</em> signals contrast—none of which connect the rarity to the reverence.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

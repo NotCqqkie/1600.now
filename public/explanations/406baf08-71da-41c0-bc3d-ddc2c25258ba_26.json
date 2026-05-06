@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_26",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal and the relevant information",
-      "content": "The goal is to emphasize the <strong>SIZE</strong> of Tepeapulco. Looking at the notes, the only information that directly addresses size is: \u201cTepeapulco covers an area of roughly 243 km\u00b2.\u201d To accomplish the goal, the answer must include this specific measurement."
-    },
-    {
-      "title": "Match the goal to the answer choices",
-      "content": "Choice D is the only one that includes the 243 km\u00b2 measurement and uses it to convey Tepeapulco's size, directly fulfilling the rhetorical goal. Choices A, B, and C omit the size measurement entirely\u2014discussing water treatment, public services, or the number of municipalities instead\u2014and therefore fail to emphasize size. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_26", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the goal and the relevant information", "content": "The goal is to emphasize the <strong>SIZE</strong> of Tepeapulco. Looking at the notes, the only information that directly addresses size is: “Tepeapulco covers an area of roughly 243 km².” To accomplish the goal, the answer must include this specific measurement."}, {"title": "Match the goal to the answer choices", "content": "Choice D is the only one that includes the 243 km² measurement and uses it to convey Tepeapulco's size, directly fulfilling the rhetorical goal.<br/><br/>Choices A, B, and C omit the size measurement entirely—discussing water treatment, public services, or the number of municipalities instead—and therefore fail to emphasize size.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

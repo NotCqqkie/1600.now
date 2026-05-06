@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural pivot",
-      "content": "The word <em>atypical</em> signals a shift from describing the exhibition to comparing it against the Nasher Museum's normal curatorial practice."
-    },
-    {
-      "title": "Match the structure to the choices",
-      "content": "The text opens with an overview of the exhibition\u2014its location, artists, and artistic disciplines\u2014then closes by explaining what makes it unusual for the institution: its reliance on borrowed works instead of the permanent collection. A compares to other exhibitions broadly, B invents curator goals, and D claims the passage explains why disciplines were selected (it only lists them). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structural pivot", "content": "The word <em>atypical</em> signals a shift from describing the exhibition to comparing it against the Nasher Museum's normal curatorial practice."}, {"title": "Match the structure to the choices", "content": "The text opens with an overview of the exhibition—its location, artists, and artistic disciplines—then closes by explaining what makes it unusual for the institution: its reliance on borrowed works instead of the permanent collection.<br/><br/><ul><li>A compares to other exhibitions broadly</li><li>B invents curator goals</li><li>D claims the passage explains why disciplines were selected (it only lists them)</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

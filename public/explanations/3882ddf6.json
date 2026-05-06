@@ -1,15 +1,1 @@
-{
-  "questionId": "3882ddf6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key chronological signal",
-      "content": "The passage shows a temporal shift in isotope composition: rocks from 4.02 bya resemble plume-setting rocks, while rocks from 3.75 bya and 3.6 bya resemble subduction-setting rocks. This transition is marked by the contrast word <em>By contrast</em>."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A states the logical conclusion: 3.75 bya rocks show subduction characteristics, so subduction must have begun by then\u2014precisely what \u201cno later than 3.75 bya\u201d expresses. The other choices either place subduction's dominance at 4.02 bya (contradicting the plume evidence from that era), overreach by claiming most of the Acasta complex is subduction-formed, or insert unaddressed dating claims. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3882ddf6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key chronological signal", "content": "The passage shows a temporal shift in isotope composition: rocks from 4.02 bya resemble plume-setting rocks, while rocks from 3.75 bya and 3.6 bya resemble subduction-setting rocks. This transition is marked by the contrast word <em>By contrast</em>."}, {"title": "Apply the signal to the choices", "content": "Choice A states the logical conclusion: 3.75 bya rocks show subduction characteristics, so subduction must have begun by then—precisely what “no later than 3.75 bya” expresses.<br/><br/>The other choices either place subduction's dominance at 4.02 bya (contradicting the plume evidence from that era), overreach by claiming most of the Acasta complex is subduction-formed, or insert unaddressed dating claims.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

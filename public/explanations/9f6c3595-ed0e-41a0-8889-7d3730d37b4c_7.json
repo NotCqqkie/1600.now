@@ -1,16 +1,1 @@
-{
-  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_7",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the confidence interval",
-      "content": "The margin of error defines the range around the sample mean where the true population mean likely falls:<br/>$$6.8 \\pm 1.1 = [5.7, \\, 7.9]$$<br/>This interval [5.7, 7.9] contains all plausible values for the true population mean.",
-      "formula": "$$\\text{Confidence interval} = \\text{sample mean} \\pm \\text{margin of error}$$"
-    },
-    {
-      "title": "Match to the correct interpretation",
-      "content": "Since [5.7, 7.9] is the plausible range for the true mean, any statement claiming a value outside this range is implausible. Choice A (mean < 5.7) and Choice D (mean > 7.9) both claim values outside the interval. Choice C confuses the population mean with individual employee values. Choice B correctly identifies [5.7, 7.9] as the plausible range for the true mean. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the confidence interval", "content": "The margin of error defines the range around the sample mean where the true population mean likely falls:<br/>$$6.8 \\pm 1.1 = [5.7, \\, 7.9]$$<br/>This interval [5.7, 7.9] contains all plausible values for the true population mean.", "formula": "$$\\text{Confidence interval} = \\text{sample mean} \\pm \\text{margin of error}$$"}, {"title": "Match to the correct interpretation", "content": "Since [5.7, 7.9] is the plausible range for the true mean, any statement claiming a value outside this range is implausible.<br/><br/>Choice A (mean < 5.7) and Choice D (mean > 7.9) both claim values outside the interval.<br/><br/>Choice C confuses the population mean with individual employee values.<br/><br/>Choice B correctly identifies [5.7, 7.9] as the plausible range for the true mean.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

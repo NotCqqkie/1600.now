@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the paradox",
-      "content": "The strongest clue is the inversion: CLPs are protected during transmission yet declined with warming, while directly transmitted parasites are exposed yet remained stable. This contradicts what transmission exposure alone would predict."
-    },
-    {
-      "title": "Apply the paradox to the choices",
-      "content": "B explains why CLPs declined despite protection: \u201cother temperature driven factors\u201d harm them more than directly transmitted parasites, overwhelming the transmission advantage. Temperature affects parasites through multiple pathways (host disruption, ecosystem change, food web shifts) beyond transmission safety. A contradicts the data by claiming more hosts ensure better protection; D reverses the passage by claiming directly transmitted parasites are shielded; C discusses irrelevant distinctions. This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the paradox", "content": "The strongest clue is the inversion: CLPs are protected during transmission yet declined with warming, while directly transmitted parasites are exposed yet remained stable. This contradicts what transmission exposure alone would predict."}, {"title": "Apply the paradox to the choices", "content": "B explains why CLPs declined despite protection: “other temperature driven factors” harm them more than directly transmitted parasites, overwhelming the transmission advantage.<br/><br/>Temperature affects parasites through multiple pathways (host disruption, ecosystem change, food web shifts) beyond transmission safety.<br/><br/><ul><li>A contradicts the data by claiming more hosts ensure better protection</li><li>D reverses the passage by claiming directly transmitted parasites are shielded</li><li>C discusses irrelevant distinctions</li></ul>.<br/><br/>This matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship",
-      "content": "The first sentences claim the DC-10 is far more aerodynamic than the Wright Flyer. The next sentence supplies the specific data point — its lift-to-drag ratio is more than twice the Wright Flyer's — that illustrates the claim."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Because the second sentence provides a specific example/data point that <em>illustrates</em> the prior claim (rather than contrasting with it or concluding the passage), <strong>Specifically,</strong> is the right transition. <em>However</em> and <em>Nevertheless</em> would falsely signal contrast; <em>In conclusion</em> would falsely signal a closing summary. That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship", "content": "The first sentences claim the DC-10 is far more aerodynamic than the Wright Flyer. The next sentence supplies the specific data point — its lift-to-drag ratio is more than twice the Wright Flyer's — that illustrates the claim."}, {"title": "Match the meaning", "content": "Because the second sentence provides a specific example/data point that <em>illustrates</em> the prior claim (rather than contrasting with it or concluding the passage), <strong>Specifically,</strong> is the right transition. <em>However</em> and <em>Nevertheless</em> would falsely signal contrast; <em>In conclusion</em> would falsely signal a closing summary.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

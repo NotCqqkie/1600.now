@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the missing subject",
-      "content": "The <strong>main clause</strong> ('Zitk\u00e1la-\u0160\u00e1 was the cofounder of the National Council of American Indians') precedes the blank. The phrase that follows ('advocated for Native American civil rights throughout the 1920s and 1930s') is a <strong>verb phrase lacking a clear subject</strong>. The signal is that these parts need to be properly connected."
-    },
-    {
-      "title": "Apply the relative pronoun rule",
-      "content": "Choice D correctly pairs the relative pronoun 'which' with a comma to introduce a relative clause modifying 'National Council of American Indians' and providing the subject for 'advocated.' A relative pronoun introduces a dependent clause separated from the main clause by a comma. The other choices either omit the relative pronoun or mishandle the punctuation. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the missing subject", "content": "The <strong>main clause</strong> ('Zitkála-Šá was the cofounder of the National Council of American Indians') precedes the blank.<br/><br/>The phrase that follows ('advocated for Native American civil rights throughout the 1920s and 1930s') is a <strong>verb phrase lacking a clear subject</strong>.<br/><br/>The signal is that these parts need to be properly connected."}, {"title": "Apply the relative pronoun rule", "content": "Choice D correctly pairs the relative pronoun 'which' with a comma to introduce a relative clause modifying 'National Council of American Indians' and providing the subject for 'advocated.' A relative pronoun introduces a dependent clause separated from the main clause by a comma.<br/><br/>The other choices either omit the relative pronoun or mishandle the punctuation.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the repeated structure",
-      "content": "The first sentence establishes that humans inherit physical traits from their parents. The second sentence presents the identical claim about dogs \u2014 they too inherit physical traits from their parents. The structure repeats with different subjects, signaling a comparison or analogy."
-    },
-    {
-      "title": "Choose the comparison transition",
-      "content": "\u201dSimilarly,\u201d means \u201cin the same way,\u201d and correctly introduces the second example as parallel to the first. \u201cIn other words,\u201d would restate a single idea (not applicable when subjects differ), \u201cAs a result,\u201d would indicate causation (no causal relationship exists), and \u201cIn conclusion,\u201d would mark a summary (this is an illustrative example, not a conclusion). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the repeated structure", "content": "The first sentence establishes that humans inherit physical traits from their parents. The second sentence presents the identical claim about dogs — they too inherit physical traits from their parents. The structure repeats with different subjects, signaling a comparison or analogy."}, {"title": "Choose the comparison transition", "content": "”Similarly,” means “in the same way,” and correctly introduces the second example as parallel to the first. “In other words,” would restate a single idea (not applicable when subjects differ), “As a result,” would indicate causation (no causal relationship exists), and “In conclusion,” would mark a summary (this is an illustrative example, not a conclusion).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

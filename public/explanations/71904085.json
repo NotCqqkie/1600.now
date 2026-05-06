@@ -1,15 +1,1 @@
-{
-  "questionId": "71904085",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The decisive clue is Tannen\u2019s claim that noncompetitive formats with multiple perspectives are <strong>\u201cmore informative than the presentation of multiple perspectives in a noncompetitive format.\u201d</strong> This directly links to the study\u2019s goal of comparing which news format increases participants\u2019 understanding."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice C aligns with Tannen\u2019s hypothesis by showing that the panel format (noncompetitive, multiperspective) leads to participants answering more questions correctly than the debate or single commentator. A and B focus on <em>perceived</em> knowledge, which Tannen doesn\u2019t prioritize. D compares a single commentator to a debate, ignoring the panel altogether. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "71904085", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The decisive clue is Tannen’s claim that noncompetitive formats with multiple perspectives are <strong>“more informative than the presentation of multiple perspectives in a noncompetitive format.”</strong> This directly links to the study’s goal of comparing which news format increases participants’ understanding."}, {"title": "Match the meaning", "content": "Choice C aligns with Tannen’s hypothesis by showing that the panel format (noncompetitive, multiperspective) leads to participants answering more questions correctly than the debate or single commentator.<br/><br/>A and B focus on <em>perceived</em> knowledge, which Tannen doesn’t prioritize.<br/><br/>D compares a single commentator to a debate, ignoring the panel altogether.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

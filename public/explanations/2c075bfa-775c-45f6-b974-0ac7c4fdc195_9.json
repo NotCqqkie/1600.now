@@ -1,15 +1,1 @@
-{
-  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The author's decisive claim is that population density, though associated with walkability in Tokyo, is just one variable in a larger system: <em>\u201cmany factors influence people's decision-making about whether to walk\u201d</em> and <em>\u201cnone of these factors in isolation fully explains pedestrian habits in a given city.\u201d</em> The passage groups density with personal preference, perceived safety, and other factors as interdependent elements, not standalone causes."
-    },
-    {
-      "title": "Match the author's view of density",
-      "content": "The correct answer must reflect density as one factor among several, not as a solitary or dominant driver. Choice B states exactly this\u2014density <em>\u201cshould be understood as just one of several factors that influence pedestrian activity in Tokyo.\u201d</em> The other three misrepresent the passage: A invents a reversed effect in other cities, C ranks density as less important than other factors (unsupported), and D flips the causal direction, treating density as an outcome rather than an input.<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The author's decisive claim is that population density, though associated with walkability in Tokyo, is just one variable in a larger system: <em>“many factors influence people's decision-making about whether to walk”</em> and <em>“none of these factors in isolation fully explains pedestrian habits in a given city.”</em> The passage groups density with personal preference, perceived safety, and other factors as interdependent elements, not standalone causes."}, {"title": "Match the author's view of density", "content": "The correct answer must reflect density as one factor among several, not as a solitary or dominant driver.<br/><br/>Choice B states exactly this—density <em>“should be understood as just one of several factors that influence pedestrian activity in Tokyo.”</em> The other three misrepresent the passage: <ul><li>A invents a reversed effect in other cities</li><li>C ranks density as less important than other factors (unsupported)</li><li>D flips the causal direction</li></ul>, treating density as an outcome rather than an input.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

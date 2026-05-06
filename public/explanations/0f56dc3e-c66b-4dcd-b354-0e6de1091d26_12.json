@@ -1,15 +1,1 @@
-{
-  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast between actual and predicted",
-      "content": "The stem tells us P6 gave <em>equal</em> ratings to abstract and cubist paintings. But the graph shows markedly different correlations for the two styles: abstract at 0.42 (higher) and cubist at 0.27 (lower). This gap reveals something about what the model predicted."
-    },
-    {
-      "title": "Infer the model's prediction from the correlation mismatch",
-      "content": "When two variables have different correlations across categories\u2014while one variable (P6's actual ratings) stayed equal\u2014the other variable (the model's predictions) must have differed between them. If the model predicted <em>equal</em> average enjoyment for both styles, the correlation patterns should match. Since they don't, the model must have predicted <em>unequal</em> ratings. Choices C and D specify a direction; choice B claims the opposite direction. Choice A states simply that the model predicted a difference, which is the logical inference: the model predicted P6's ratings would differ, even though P6 actually gave equal ratings.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between actual and predicted", "content": "The stem tells us P6 gave <em>equal</em> ratings to abstract and cubist paintings. But the graph shows markedly different correlations for the two styles: abstract at 0.42 (higher) and cubist at 0.27 (lower). This gap reveals something about what the model predicted."}, {"title": "Infer the model's prediction from the correlation mismatch", "content": "When two variables have different correlations across categories—while one variable (P6's actual ratings) stayed equal—the other variable (the model's predictions) must have differed between them.<br/><br/>If the model predicted <em>equal</em> average enjoyment for both styles, the correlation patterns should match.<br/><br/>Since they don't, the model must have predicted <em>unequal</em> ratings.<br/><br/>Choices C and D specify a direction; choice B claims the opposite direction.<br/><br/>Choice A states simply that the model predicted a difference, which is the logical inference: the model predicted P6's ratings would differ, even though P6 actually gave equal ratings.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ead0fd9b",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the acoustic barrier",
-      "content": "The passage establishes that the seating arrangement angles the viola's f-holes (sound openings) away from the audience. Since f-holes are how the instrument projects sound, this positioning prevents the viola solo from carrying clearly to the audience. This is the specific problem the violist must overcome."
-    },
-    {
-      "title": "Find the action that solves the barrier",
-      "content": "To project sound to the audience, the violist must reorient the instrument so the f-holes face outward. Shifting position to face the audience accomplishes exactly this \u2014 it changes the instrument's angle so sound now travels toward rather than away from the listeners. The other choices ignore this physical constraint (asking colleagues to play louder, matching the cellist's volume) or address something unrelated to acoustics (looking at sheet music). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ead0fd9b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the acoustic barrier", "content": "The passage establishes that the seating arrangement angles the viola's f-holes (sound openings) away from the audience.<br/><br/>Since f-holes are how the instrument projects sound, this positioning prevents the viola solo from carrying clearly to the audience.<br/><br/>This is the specific problem the violist must overcome."}, {"title": "Find the action that solves the barrier", "content": "To project sound to the audience, the violist must reorient the instrument so the f-holes face outward.<br/><br/>Shifting position to face the audience accomplishes exactly this — it changes the instrument's angle so sound now travels toward rather than away from the listeners.<br/><br/>The other choices ignore this physical constraint (asking colleagues to play louder, matching the cellist's volume) or address something unrelated to acoustics (looking at sheet music).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_12",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify why SAGE requires extensive funding",
-      "content": "SAGE's funding need comes from collecting data <strong>over timescales and at intervals</strong>\u2014a requirement for tracking trends across time. The <strong>But</strong> signals the sociology study operates under different constraints."
-    },
-    {
-      "title": "Explain why different constraints mean lower funding",
-      "content": "Choice D identifies the difference: the sociology study doesn't try to identify trends, only to obtain one statistic (average age). Since it needs data from just one time point, not across multiple intervals, it avoids the extended data collection that makes SAGE's budget so high. The other three identify peripheral factors (participant size, priority, scope) rather than the actual difference in data collection demands. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify why SAGE requires extensive funding", "content": "SAGE's funding need comes from collecting data <strong>over timescales and at intervals</strong>—a requirement for tracking trends across time. The <strong>But</strong> signals the sociology study operates under different constraints."}, {"title": "Explain why different constraints mean lower funding", "content": "Choice D identifies the difference: the sociology study doesn't try to identify trends, only to obtain one statistic (average age).<br/><br/>Since it needs data from just one time point, not across multiple intervals, it avoids the extended data collection that makes SAGE's budget so high.<br/><br/>The other three identify peripheral factors (participant size, priority, scope) rather than the actual difference in data collection demands.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

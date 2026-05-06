@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining claim being tested",
-      "content": "The researchers claim the sounds are \u201cdirected primarily at predators\u201d\u2014a defensive function. To support this, you need evidence that predators actually respond to the sounds."
-    },
-    {
-      "title": "Find evidence of predator response",
-      "content": "Choice B demonstrates that when predators (chickens and yellow warblers) hear caterpillar sounds, they stop attacking\u2014directly confirming the sounds serve a protective function against predators. Choices A, C, and D address species variation, frequency detection, or sound consistency, none of which shows that predator behavior changes in response to the sounds. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the defining claim being tested", "content": "The researchers claim the sounds are “directed primarily at predators”—a defensive function. To support this, you need evidence that predators actually respond to the sounds."}, {"title": "Find evidence of predator response", "content": "Choice B demonstrates that when predators (chickens and yellow warblers) hear caterpillar sounds, they stop attacking—directly confirming the sounds serve a protective function against predators.<br/><br/>Choices A, C, and D address species variation, frequency detection, or sound consistency, none of which shows that predator behavior changes in response to the sounds.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

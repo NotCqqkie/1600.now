@@ -1,15 +1,1 @@
-{
-  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_15",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the crucial contrast",
-      "content": "The passage contrasts: arthropod average > bird average, but individual bird studies exceeded the arthropod average. This overlap is the pivotal signal."
-    },
-    {
-      "title": "Apply the contrast to the choices",
-      "content": "C captures this overlap: some bird studies found larger effects than some arthropod studies. A adds unsupported specifics, B contradicts the stated average, and D references information never discussed.<br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the crucial contrast", "content": "The passage contrasts: arthropod average > bird average, but individual bird studies exceeded the arthropod average. This overlap is the pivotal signal."}, {"title": "Apply the contrast to the choices", "content": "C captures this overlap: some bird studies found larger effects than some arthropod studies. <ul><li>A adds unsupported specifics</li><li>B contradicts the stated average</li><li>D references information never discussed</li></ul>.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

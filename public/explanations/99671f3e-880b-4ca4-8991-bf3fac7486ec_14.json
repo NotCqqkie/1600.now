@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal: college students' highest risk perception",
-      "content": "The Brazil study found that among all demographic groups, college students had the highest perception of the product's environmental risks."
-    },
-    {
-      "title": "Apply Tarabieh's rule to college students' perception",
-      "content": "Since Tarabieh found that high environmental harm perception reduces purchase likelihood, and college students have the highest environmental risk perception in the Brazil study, assuming Tarabieh's results apply broadly means college students should be the least likely to purchase the product. The other choices contradict this logic or make unsupported claims. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal: college students' highest risk perception", "content": "The Brazil study found that among all demographic groups, college students had the highest perception of the product's environmental risks."}, {"title": "Apply Tarabieh's rule to college students' perception", "content": "Since Tarabieh found that high environmental harm perception reduces purchase likelihood, and college students have the highest environmental risk perception in the Brazil study, assuming Tarabieh's results apply broadly means college students should be the least likely to purchase the product.<br/><br/>The other choices contradict this logic or make unsupported claims.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

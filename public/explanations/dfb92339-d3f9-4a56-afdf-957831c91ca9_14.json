@@ -1,15 +1,1 @@
-{
-  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_14",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the research finding about optimal volume",
-      "content": "The decisive signal is <em>\u201coptimal volume tended to be higher for the musician than for the nonmusician\u201d</em> when both identified the same recording as their favorite. This comparison establishes what we'd expect for the nonmusician's optimal volume relative to 84.8 dB."
-    },
-    {
-      "title": "Apply the finding to the scenario",
-      "content": "At 84.8 dB, the nonmusician is above their optimal point and would find the recording more enjoyable at a lower volume. The other three choices either reference different recordings or imply zero enjoyment\u2014none follow from the finding about optimal volumes for the shared favorite recording. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the research finding about optimal volume", "content": "The decisive signal is <em>“optimal volume tended to be higher for the musician than for the nonmusician”</em> when both identified the same recording as their favorite. This comparison establishes what we'd expect for the nonmusician's optimal volume relative to 84.8 dB."}, {"title": "Apply the finding to the scenario", "content": "At 84.8 dB, the nonmusician is above their optimal point and would find the recording more enjoyable at a lower volume.<br/><br/>The other three choices either reference different recordings or imply zero enjoyment—none follow from the finding about optimal volumes for the shared favorite recording.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

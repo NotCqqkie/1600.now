@@ -1,15 +1,1 @@
-{
-  "questionId": "299c5303",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical signal",
-      "content": "The phrase \u201cit is therefore unsurprising that\u201d indicates the blank must contain a logical consequence of the preceding claim. The passage has just established that choreographers, like playwrights and musical theater writers, care deeply about storytelling and characterization\u2014specifically, some choreographers describe their dances as \u201cexpressions of narrative through movement.\u201d The passage has also explained that dramaturges help playwrights and musical writers refine their narratives and characters. The natural inference: choreographers working with narrative would engage the same specialist."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B directly completes the logical chain: choreographers developing dances with narrative elements would naturally engage dramaturges to refine those elements\u2014exactly as playwrights do. This is the consequence of establishing that choreographers care about narrative just as much as theater writers do. The other three fail: A merely restates the dramaturges' known functions in theater; C introduces an unsupported claim about audience accessibility; D contradicts the passage's positive tone with a criticism of over-reliance. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "299c5303", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical signal", "content": "The phrase “it is therefore unsurprising that” indicates the blank must contain a logical consequence of the preceding claim.<br/><br/>The passage has just established that choreographers, like playwrights and musical theater writers, care deeply about storytelling and characterization—specifically, some choreographers describe their dances as “expressions of narrative through movement.” The passage has also explained that dramaturges help playwrights and musical writers refine their narratives and characters.<br/><br/>The natural inference: choreographers working with narrative would engage the same specialist."}, {"title": "Apply the signal to the choices", "content": "Choice B directly completes the logical chain: choreographers developing dances with narrative elements would naturally engage dramaturges to refine those elements—exactly as playwrights do.<br/><br/>This is the consequence of establishing that choreographers care about narrative just as much as theater writers do.<br/><br/>The other three fail: <ul><li>A merely restates the dramaturges' known functions in theater</li><li>C introduces an unsupported claim about audience accessibility</li><li>D contradicts the passage's positive tone with a criticism of over-reliance</li></ul>. <br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

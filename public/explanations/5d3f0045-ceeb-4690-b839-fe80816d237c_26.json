@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the chronological signal",
-      "content": "The student's explicit goal is to \u201cemphasize the order in which the two films were released\u201d\u2014showing which film came first and which came second."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A uses temporal language (\u201cearly in her career,\u201d \u201cyears later\u201d) to frame the two dates as distinct points in a timeline, directly emphasizing their chronological relationship. The other choices either focus on her changing roles (B), present both films as examples without highlighting sequence (C), or mention only one film (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the chronological signal", "content": "The student's explicit goal is to “emphasize the order in which the two films were released”—showing which film came first and which came second."}, {"title": "Apply the signal to the choices", "content": "Choice A uses temporal language (“early in her career,” “years later”) to frame the two dates as distinct points in a timeline, directly emphasizing their chronological relationship.<br/><br/>The other choices either focus on her changing roles (B), present both films as examples without highlighting sequence (C), or mention only one film (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

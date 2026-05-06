@@ -1,15 +1,1 @@
-{
-  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the target similarity",
-      "content": "The goal is to emphasize a similarity. The notes show that <em>Artemia franciscana</em> and <em>Achromobacter</em> share one defining characteristic: both live in the southern portion of the Great Salt Lake."
-    },
-    {
-      "title": "Select the choice that establishes this shared feature",
-      "content": "Choice D directly presents both organisms and states they \u201cboth live in the southern portion of the Great Salt Lake\u201d\u2014making their shared habitat explicit. The other three choices either name only one organism or neither, failing to show any relationship. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the target similarity", "content": "The goal is to emphasize a similarity. The notes show that <em>Artemia franciscana</em> and <em>Achromobacter</em> share one defining characteristic: both live in the southern portion of the Great Salt Lake."}, {"title": "Select the choice that establishes this shared feature", "content": "Choice D directly presents both organisms and states they “both live in the southern portion of the Great Salt Lake”—making their shared habitat explicit.<br/><br/>The other three choices either name only one organism or neither, failing to show any relationship.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

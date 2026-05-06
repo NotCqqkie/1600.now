@@ -1,15 +1,1 @@
-{
-  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_27",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signal",
-      "content": "The notes provide two specific examples of the same sound written and pronounced very differently: <em>\u201ckorrrr\u201d</em> (Batak) and <em>\u201chu lu\u201d</em> (Mandarin), both representing snoring. To accomplish the goal, the response must show this contrast using both examples."
-    },
-    {
-      "title": "Identify the answer",
-      "content": "Choice A opens with <em>\u201cThough they both represent the sound of snoring\u201d</em> and closes with <em>\u201care written and pronounced very differently,\u201d</em> explicitly pairing the shared sound with the contrasting forms using both specific examples. The others each lack a critical element: the examples, the shared sound, or the contrasting forms. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signal", "content": "The notes provide two specific examples of the same sound written and pronounced very differently: <em>“korrrr”</em> (Batak) and <em>“hu lu”</em> (Mandarin), both representing snoring. To accomplish the goal, the response must show this contrast using both examples."}, {"title": "Identify the answer", "content": "Choice A opens with <em>“Though they both represent the sound of snoring”</em> and closes with <em>“are written and pronounced very differently,”</em> explicitly pairing the shared sound with the contrasting forms using both specific examples.<br/><br/>The others each lack a critical element: the examples, the shared sound, or the contrasting forms.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

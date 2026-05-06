@@ -1,15 +1,1 @@
-{
-  "questionId": "7d5c32e6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Understand what 'within its historical context' means",
-      "content": "Placing an argument within its historical context requires the answer to state the actual argument AND show how it fits the larger narrative of quantum theory's development \u2014 not just mention that a debate occurred."
-    },
-    {
-      "title": "Match this understanding to the choices",
-      "content": "A states Einstein's specific argument (independent reality), places it in time (the dawn of quantum theory), and shows its historical context (that Bohr's opposite view would become widely accepted). B, C, and D either misrepresent or omit his position, failing the core requirement. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d5c32e6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Understand what 'within its historical context' means", "content": "Placing an argument within its historical context requires the answer to state the actual argument AND show how it fits the larger narrative of quantum theory's development — not just mention that a debate occurred."}, {"title": "Match this understanding to the choices", "content": "A states Einstein's specific argument (independent reality), places it in time (the dawn of quantum theory), and shows its historical context (that Bohr's opposite view would become widely accepted).<br/><br/>B, C, and D either misrepresent or omit his position, failing the core requirement.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

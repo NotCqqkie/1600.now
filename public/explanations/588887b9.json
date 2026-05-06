@@ -1,15 +1,1 @@
-{
-  "questionId": "588887b9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the verb tense relationship",
-      "content": "The main clause says Faure\u2019s design increased the electricity the battery could hold \u2014 a past\u2011tense action. The relative clause \u201cwhich Gaston Plant\u00e9 ______ fifteen years earlier\u201d describes what happened to that battery before the increase. Therefore the verb in the blank must show an action completed earlier than the main clause\u2019s past action."
-    },
-    {
-      "title": "Choose the past perfect form",
-      "content": "Past perfect is formed with had + past participle (had invented), which exactly matches choice D. The other three options use present or future forms and do not show the earlier past action. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "588887b9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the verb tense relationship", "content": "The main clause says Faure’s design increased the electricity the battery could hold — a past‑tense action.<br/><br/>The relative clause “which Gaston Planté ______ fifteen years earlier” describes what happened to that battery before the increase.<br/><br/>Therefore the verb in the blank must show an action completed earlier than the main clause’s past action."}, {"title": "Choose the past perfect form", "content": "Past perfect is formed with had + past participle (had invented), which exactly matches choice D. The other three options use present or future forms and do not show the earlier past action. That matches choice D — <strong>D</strong> is correct."}]}

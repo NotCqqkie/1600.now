@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the main verb and what separates it from the subject",
-      "content": "On the left of the blank is the noun phrase \u201cAslanian's macroanalysis\u201d (the subject). On the right is another noun phrase \u201cnearly 1,000 book titles published between 1512 and 1800\u201d followed by the verb \u201cshows\u201d."
-    },
-    {
-      "title": "Apply the one-main-verb rule",
-      "content": "The rule: an independent clause has only one main verb unless verbs are coordinated. The present participle \u201cexamining\u201d modifies the subject noun \u201cmacroanalysis\u201d without creating a second main verb; it allows \u201cshows\u201d to remain the sentence's only main verb. The other three choices are finite verbs that would create two uncoordinated main verbs. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the main verb and what separates it from the subject", "content": "On the left of the blank is the noun phrase “Aslanian's macroanalysis” (the subject). On the right is another noun phrase “nearly 1,000 book titles published between 1512 and 1800” followed by the verb “shows”."}, {"title": "Apply the one-main-verb rule", "content": "The rule: an independent clause has only one main verb unless verbs are coordinated.<br/><br/>The present participle “examining” modifies the subject noun “macroanalysis” without creating a second main verb; it allows “shows” to remain the sentence's only main verb.<br/><br/>The other three choices are finite verbs that would create two uncoordinated main verbs.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

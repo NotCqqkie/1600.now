@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the main verb already present in the sentence",
-      "content": "The sentence contains the finite verb \u201coffers\u201d later on, with the same subject (\u201ca compensatory measure\u201d). The structure shows one subject describing two aspects: what the measure does to the organelle's decline, and what explanation it provides."
-    },
-    {
-      "title": "Choose the form that avoids creating two independent clauses",
-      "content": "If the blank were a finite verb like \u201ccounteracts,\u201d the sentence would create a comma splice\u2014two independent clauses separated only by commas with no coordinating conjunction. \u201cCounteracting\u201d is a participle that modifies \u201cmeasure\u201d without creating an independent clause, leaving \u201coffers\u201d as the sole main verb. Using this participle correctly conveys that a compensatory measure counteracting the decline offers a unique explanation of mitochondrial reproduction. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the main verb already present in the sentence", "content": "The sentence contains the finite verb “offers” later on, with the same subject (“a compensatory measure”). The structure shows one subject describing two aspects: what the measure does to the organelle's decline, and what explanation it provides."}, {"title": "Choose the form that avoids creating two independent clauses", "content": "If the blank were a finite verb like “counteracts,” the sentence would create a comma splice—two independent clauses separated only by commas with no coordinating conjunction. “Counteracting” is a participle that modifies “measure” without creating an independent clause, leaving “offers” as the sole main verb.<br/><br/>Using this participle correctly conveys that a compensatory measure counteracting the decline offers a unique explanation of mitochondrial reproduction.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

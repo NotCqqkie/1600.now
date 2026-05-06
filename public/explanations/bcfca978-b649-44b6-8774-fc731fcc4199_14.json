@@ -1,15 +1,1 @@
-{
-  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_14",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The study established that genetic similarities correlate with behavioral similarities. The decisive clue is the phrase &ldquo;similar trainability behavior, suggesting that____&rdquo; \u2014 it directly references the prior claim that genetic links <strong>explain</strong> behavioral overlaps."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice D explicitly ties the observed behavior in French bulldogs and bullmastiffs to a shared genetic basis, mirroring the study&rsquo;s pattern. A and C misinterpret the study&rsquo;s scope (comparisons or individual differences), while B reverses the genetic-behavioral causality. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The study established that genetic similarities correlate with behavioral similarities. The decisive clue is the phrase &ldquo;similar trainability behavior, suggesting that____&rdquo; — it directly references the prior claim that genetic links <strong>explain</strong> behavioral overlaps."}, {"title": "Match the meaning", "content": "Choice D explicitly ties the observed behavior in French bulldogs and bullmastiffs to a shared genetic basis, mirroring the study&rsquo;s pattern.<br/><br/>A and C misinterpret the study&rsquo;s scope (comparisons or individual differences), while B reverses the genetic-behavioral causality.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

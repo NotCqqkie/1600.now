@@ -1,15 +1,1 @@
-{
-  "questionId": "82bdf676",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the predicted crossover point",
-      "content": "The passage states the original ranking \u201cpersisted except among the participants with high ignobility scores\u201d\u2014meaning the admirable-trait advantage holds for low ignobility participants, but reverses or disappears for high ignobility participants. So the graph should show a crossover: admirable-trait candidates rated higher at low scores, but ignoble-trait candidates rated equal or higher at high scores."
-    },
-    {
-      "title": "Match the pattern to the correct answer",
-      "content": "The graph shows exactly this shift: at ignobility scores 1\u20135, the solid line (admirable-trait) stays above the dashed line (ignoble-trait); at scores 6\u20137, the dashed line rises above or meets the solid line. Choice B captures this threshold precisely\u2014at 5 or less, admirable-trait candidates are more likable; at 6 or more, ignoble-trait candidates become equally or more likable. The other choices either identify a correlation that reverses (choice A), claim the ratings don't change meaningfully (choice C), or misidentify where the shift occurs (choice D). That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "82bdf676", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the predicted crossover point", "content": "The passage states the original ranking “persisted except among the participants with high ignobility scores”—meaning the admirable-trait advantage holds for low ignobility participants, but reverses or disappears for high ignobility participants.<br/><br/>So the graph should show a crossover: admirable-trait candidates rated higher at low scores, but ignoble-trait candidates rated equal or higher at high scores."}, {"title": "Match the pattern to the correct answer", "content": "The graph shows exactly this shift: at ignobility scores 1–5, the solid line (admirable-trait) stays above the dashed line (ignoble-trait); at scores 6–7, the dashed line rises above or meets the solid line.<br/><br/>Choice B captures this threshold precisely—at 5 or less, admirable-trait candidates are more likable; at 6 or more, ignoble-trait candidates become equally or more likable.<br/><br/>The other choices either identify a correlation that reverses (choice A), claim the ratings don't change meaningfully (choice C), or misidentify where the shift occurs (choice D).<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the comprehensive claim",
-      "content": "The student claims that congestion worsened over time in all three areas \u2014 both smaller cities and the large city of NYC."
-    },
-    {
-      "title": "Apply the claim to the data",
-      "content": "The graph shows traffic delay increased in all three urban areas from 1990 to 2000, confirming that congestion worsened everywhere during this period. The other choices either miss the overall worsening trend, misstate geographic relationships, or focus on single data points. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the comprehensive claim", "content": "The student claims that congestion worsened over time in all three areas — both smaller cities and the large city of NYC."}, {"title": "Apply the claim to the data", "content": "The graph shows traffic delay increased in all three urban areas from 1990 to 2000, confirming that congestion worsened everywhere during this period.<br/><br/>The other choices either miss the overall worsening trend, misstate geographic relationships, or focus on single data points.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

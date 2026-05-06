@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural requirement for the relative clause",
-      "content": "After \u201cwhose body of [blank],\u201d the word \u201cinterdisciplinary\u201d (an adjective) appears with no verb between it and its subject. The relative clause introduced by \u201cwhose\u201d needs a finite verb to form a complete predicate with its predicate adjective."
-    },
-    {
-      "title": "Apply the finite verb requirement",
-      "content": "Only \u201cis\u201d provides a finite verb, creating the correct structure: \u201cwhose body of work is interdisciplinary.\u201d Choices A, C, and D provide non-finite forms\u2014an infinitive, a past participle, and a present participle\u2014that cannot serve as the main verb of a relative clause. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structural requirement for the relative clause", "content": "After “whose body of [blank],” the word “interdisciplinary” (an adjective) appears with no verb between it and its subject. The relative clause introduced by “whose” needs a finite verb to form a complete predicate with its predicate adjective."}, {"title": "Apply the finite verb requirement", "content": "Only “is” provides a finite verb, creating the correct structure: “whose body of work is interdisciplinary.” Choices A, C, and D provide non-finite forms—an infinitive, a past participle, and a present participle—that cannot serve as the main verb of a relative clause.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

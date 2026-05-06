@@ -1,15 +1,1 @@
-{
-  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the plant pair named in the passage",
-      "content": "The passage states that sticky catchfly is an example of a neighboring species that grows alongside the common cow-wheat. This specific pairing must be located in the table."
-    },
-    {
-      "title": "Read the location for that pairing from the table",
-      "content": "Looking at the table, the row with sticky catchfly (neighboring species) and common cow-wheat (target species) lists Sweden as the location. Spain pairs with Bermuda buttercup and white rocket, the United States pairs with Virginia spring beauty and star chickweed, and Japan does not appear in the table data. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the plant pair named in the passage", "content": "The passage states that sticky catchfly is an example of a neighboring species that grows alongside the common cow-wheat. This specific pairing must be located in the table."}, {"title": "Read the location for that pairing from the table", "content": "Looking at the table, the row with sticky catchfly (neighboring species) and common cow-wheat (target species) lists Sweden as the location.<br/><br/>Spain pairs with Bermuda buttercup and white rocket, the United States pairs with Virginia spring beauty and star chickweed, and Japan does not appear in the table data.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

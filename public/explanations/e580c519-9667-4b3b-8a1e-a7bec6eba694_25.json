@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the most effective introduction strategy",
-      "content": "To present a concept to an unfamiliar audience, the most effective tool is a clear definition that explains what it is and what distinguishes it. Examples, contrasts, or topic shifts come later; definitions come first."
-    },
-    {
-      "title": "Confirm with the choices",
-      "content": "Choice A provides the definition: historical analysis is an approach to art criticism that considers the historical context in which a work was created. Choices B, C, and D offer an example, switch to stylistic analysis, or contrast approaches without defining historical analysis itself. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize the most effective introduction strategy", "content": "To present a concept to an unfamiliar audience, the most effective tool is a clear definition that explains what it is and what distinguishes it. Examples, contrasts, or topic shifts come later; definitions come first."}, {"title": "Confirm with the choices", "content": "Choice A provides the definition: historical analysis is an approach to art criticism that considers the historical context in which a work was created.<br/><br/>Choices B, C, and D offer an example, switch to stylistic analysis, or contrast approaches without defining historical analysis itself.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

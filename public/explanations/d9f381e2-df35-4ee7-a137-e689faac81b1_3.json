@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the contrast warns against",
-      "content": "The authors acknowledge it's tempting to treat Manchester's textiles as representative of agglomeration generally, but caution against [blank] this example. The contrast signals they're warning against a specific misuse of this single case."
-    },
-    {
-      "title": "Match the warning to the answer",
-      "content": "Extrapolating from an example means reaching broad conclusions from a single limited case\u2014the exact mistake the authors warn against. Textiles had knowledge spillovers, but leather clothing didn't, so you can't use textiles to represent all industries. Convening with, corroborating, and scrutinizing don't fit this logic. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the contrast warns against", "content": "The authors acknowledge it's tempting to treat Manchester's textiles as representative of agglomeration generally, but caution against [blank] this example. The contrast signals they're warning against a specific misuse of this single case."}, {"title": "Match the warning to the answer", "content": "Extrapolating from an example means reaching broad conclusions from a single limited case—the exact mistake the authors warn against.<br/><br/>Textiles had knowledge spillovers, but leather clothing didn't, so you can't use textiles to represent all industries.<br/><br/>Convening with, corroborating, and scrutinizing don't fit this logic.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

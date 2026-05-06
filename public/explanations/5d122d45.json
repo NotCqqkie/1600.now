@@ -1,15 +1,1 @@
-{
-  "questionId": "5d122d45",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signal that would test the claim",
-      "content": "The researchers claim awe inspires altruistic behavior. The study tests this with an awe condition (tall trees) and a control (nondescript building), measuring whether participants help pick up spilled pens. The key signal is whether the awe-exposed group shows more helping."
-    },
-    {
-      "title": "Match this signal to the choices",
-      "content": "Choice A shows the predicted pattern: tree-gazers helped significantly more, confirming that awe prompted altruism. The other three choices either measure unrelated factors (language, attention), fail to prove awe caused the helping, or contradict the theory by showing non-helpers felt awe. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d122d45", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signal that would test the claim", "content": "The researchers claim awe inspires altruistic behavior. The study tests this with an awe condition (tall trees) and a control (nondescript building), measuring whether participants help pick up spilled pens. The key signal is whether the awe-exposed group shows more helping."}, {"title": "Match this signal to the choices", "content": "Choice A shows the predicted pattern: tree-gazers helped significantly more, confirming that awe prompted altruism.<br/><br/>The other three choices either measure unrelated factors (language, attention), fail to prove awe caused the helping, or contradict the theory by showing non-helpers felt awe.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the move from general to specific",
-      "content": "Sentence 2 introduces a broad claim: some of the 206 parades honored aviation. Sentence 3 then specifies: Corrigan's parade was one of 16 honoring pilots. The transition must signal this shift from general statement to particular confirmation."
-    },
-    {
-      "title": "Match the transition that marks confirmation",
-      "content": "\u201dIndeed\u201d works here because it reinforces or confirms what was just claimed generally \u2014 it signals that what follows validates the general point. \u201cIn addition\u201d would indicate separate information, \u201cTherefore\u201d would wrongly imply consequence, and \u201cNevertheless\u201d would wrongly introduce contrast. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the move from general to specific", "content": "Sentence 2 introduces a broad claim: some of the 206 parades honored aviation. Sentence 3 then specifies: Corrigan's parade was one of 16 honoring pilots. The transition must signal this shift from general statement to particular confirmation."}, {"title": "Match the transition that marks confirmation", "content": "”Indeed” works here because it reinforces or confirms what was just claimed generally — it signals that what follows validates the general point. “In addition” would indicate separate information, “Therefore” would wrongly imply consequence, and “Nevertheless” would wrongly introduce contrast.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

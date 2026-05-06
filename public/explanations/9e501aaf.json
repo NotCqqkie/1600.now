@@ -1,15 +1,1 @@
-{
-  "questionId": "9e501aaf",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The crucial phrase is <em>\u201cevidence of early impacts may no longer be present.\u201d</em> This tells us the Moon's surface can't preserve or show evidence from those early times. The blank needs a word meaning <strong>to show or display evidence of</strong>."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Reflect</strong> means to show or be evidence of \u2014 the surface can't display evidence of early impacts because that evidence has vanished. The other three don't fit this meaning: receive (accepting), evaluate (assessing), mimic (copying). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9e501aaf", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The crucial phrase is <em>“evidence of early impacts may no longer be present.”</em> This tells us the Moon's surface can't preserve or show evidence from those early times. The blank needs a word meaning <strong>to show or display evidence of</strong>."}, {"title": "Match the meaning", "content": "<strong>Reflect</strong> means to show or be evidence of — the surface can't display evidence of early impacts because that evidence has vanished.<br/><br/>The other three don't fit this meaning: receive (accepting), evaluate (assessing), mimic (copying).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

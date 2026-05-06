@@ -1,15 +1,1 @@
-{
-  "questionId": "4dcedc31",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures surrounding the blank",
-      "content": "Left of blank: <strong>chemistry</strong> \u2014 a noun beginning a noun phrase. Right of blank: <strong>and his colleagues at Temple University recently developed...</strong> \u2014 a coordinating conjunction plus a second noun phrase, creating a compound subject. The blank must complete the first element of this compound."
-    },
-    {
-      "title": "Match the rule for title-name pairings in compound subjects",
-      "content": "In a compound subject, a title directly followed by a name forms a single noun phrase without intervening punctuation. Option A correctly places <strong>professor Yugang Sun</strong> immediately after <strong>chemistry</strong> with no commas, forming the unified phrase <strong>chemistry professor Yugang Sun</strong> as the first element of the compound subject paired with <strong>his colleagues</strong> by <strong>and</strong>. Options B, C, and D each violate this rule by inserting commas that either break the title from the name (C, D) or add unnecessary punctuation (B) where none is required. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dcedc31", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures surrounding the blank", "content": "Left of blank: <strong>chemistry</strong> — a noun beginning a noun phrase.<br/><br/>Right of blank: <strong>and his colleagues at Temple University recently developed...</strong> — a coordinating conjunction plus a second noun phrase, creating a compound subject.<br/><br/>The blank must complete the first element of this compound."}, {"title": "Match the rule for title-name pairings in compound subjects", "content": "In a compound subject, a title directly followed by a name forms a single noun phrase without intervening punctuation.<br/><br/>Option A correctly places <strong>professor Yugang Sun</strong> immediately after <strong>chemistry</strong> with no commas, forming the unified phrase <strong>chemistry professor Yugang Sun</strong> as the first element of the compound subject paired with <strong>his colleagues</strong> by <strong>and</strong>.<br/><br/>Options B, C, and D each violate this rule by inserting commas that either break the title from the name (C, D) or add unnecessary punctuation (B) where none is required.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

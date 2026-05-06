@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The conclusion rests on one fundamental assumption: spontaneous and volitional laughter are acoustically distinct enough that listeners can reliably tell them apart."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A states that volitional laughter \u201coften shares certain acoustic qualities\u201d with spontaneous laughter in real-world contexts. If the two types share acoustic properties, the discrimination task is harder, directly undermining the claim that a universal ability to distinguish them is demonstrated. B, C, and D either identify distinguishing features or confirm methodological details; none undermines the core assumption. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The conclusion rests on one fundamental assumption: spontaneous and volitional laughter are acoustically distinct enough that listeners can reliably tell them apart."}, {"title": "Match the meaning", "content": "Choice A states that volitional laughter “often shares certain acoustic qualities” with spontaneous laughter in real-world contexts.<br/><br/>If the two types share acoustic properties, the discrimination task is harder, directly undermining the claim that a universal ability to distinguish them is demonstrated.<br/><br/>B, C, and D either identify distinguishing features or confirm methodological details; none undermines the core assumption.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

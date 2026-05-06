@@ -1,15 +1,1 @@
-{
-  "questionId": "f768090a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The sentence has a noun phrase on the left (<em>These extensive ______</em>), followed by a series of noun phrases that elaborate on it, followed by a main verb and object (<em>reflected</em>\u2026)."
-    },
-    {
-      "title": "Apply the rule for elaborating lists",
-      "content": "A comma plus a participle like <em>including</em> introduces a list that elaborates on a noun without creating a second main verb. Option A correctly uses \u201cchanges, including\u201d to introduce the list. Options B and C introduce full verbs (\u201cwould include,\u201d \u201cincluded\u201d) that would create two competing main verbs, and Option D is ungrammatical. <strong>That matches choice A \u2014 the participle introduces the list correctly.</strong>"
-    }
-  ]
-}
+{"questionId": "f768090a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The sentence has a noun phrase on the left (<em>These extensive ______</em>), followed by a series of noun phrases that elaborate on it, followed by a main verb and object (<em>reflected</em>…)."}, {"title": "Apply the rule for elaborating lists", "content": "A comma plus a participle like <em>including</em> introduces a list that elaborates on a noun without creating a second main verb.<br/><br/>Option A correctly uses “changes, including” to introduce the list.<br/><br/>Options B and C introduce full verbs (“would include,” “included”) that would create two competing main verbs, and Option D is ungrammatical. <strong>That matches choice A — the participle introduces the list correctly.</strong>"}]}

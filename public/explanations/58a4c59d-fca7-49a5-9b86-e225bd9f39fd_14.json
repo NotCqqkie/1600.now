@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the connecting principle",
-      "content": "The first study shows that genetic differences explain behavioral differences between breeds\u2014especially for attachment and attention-seeking."
-    },
-    {
-      "title": "Apply to the breed-specific finding",
-      "content": "The second study found that French bulldogs and cairn terriers differ in attachment and attention-seeking. Since genetic variation explains this behavioral difference between breeds, these two breeds must differ in the genetic basis for this trait. Choice A directly captures this implication. The other choices discuss temporal genetic change (B), absolute comparative levels (C), or individual variation (D), none of which follow from the evidence. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the connecting principle", "content": "The first study shows that genetic differences explain behavioral differences between breeds—especially for attachment and attention-seeking."}, {"title": "Apply to the breed-specific finding", "content": "The second study found that French bulldogs and cairn terriers differ in attachment and attention-seeking.<br/><br/>Since genetic variation explains this behavioral difference between breeds, these two breeds must differ in the genetic basis for this trait.<br/><br/>Choice A directly captures this implication. The other choices discuss temporal genetic change (B), absolute comparative levels (C), or individual variation (D), none of which follow from the evidence.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

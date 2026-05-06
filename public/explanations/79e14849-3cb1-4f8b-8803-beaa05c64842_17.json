@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure around the blank",
-      "content": "Left side: <em>the hit</em> \u2014 noun phrase with determiner + adjective<br/>Right side: <em>'Oh What a Day' by the Dells</em> \u2014 the title and attribution<br/>The blank needs a noun to connect them."
-    },
-    {
-      "title": "Apply the rule for nouns and quotation-mark titles",
-      "content": "The rule is: a noun and its immediately following quotation-mark title are not separated by punctuation\u2014they form a single unit. D applies this rule correctly by using no punctuation. A, B, and C each violate this rule by adding a colon, comma, or semicolon respectively, incorrectly fragmenting the noun phrase. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure around the blank", "content": "Left side: <em>the hit</em> — noun phrase with determiner + adjective<br/>Right side: <em>'Oh What a Day' by the Dells</em> — the title and attribution<br/>The blank needs a noun to connect them."}, {"title": "Apply the rule for nouns and quotation-mark titles", "content": "The rule is: a noun and its immediately following quotation-mark title are not separated by punctuation—they form a single unit.<br/><br/>D applies this rule correctly by using no punctuation. A, B, and C each violate this rule by adding a colon, comma, or semicolon respectively, incorrectly fragmenting the noun phrase.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the hypothesis as comparative",
-      "content": "The hypothesis makes a <strong>comparison</strong>: in low-visibility conditions, wider-headed fish will be <strong>less likely than narrower-headed fish</strong> to detect obstructions. To directly support this prediction, evidence must show two fish with different head shapes tested under the same conditions\u2014with the wider-headed one detecting fewer obstacles."
-    },
-    {
-      "title": "Match the comparison to the choices",
-      "content": "<strong>Choice B directly compares two species with different head shapes</strong>: the wider-headed bristlemouth bumped into obstructions more often than the narrower-headed dusky smooth-hound in the specified test conditions. This demonstrates exactly what the hypothesis predicts. <br/><br/>The others lack this comparative structure: one shows only one head shape without comparison, one shows equal performance, and one examines within-species variation. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize the hypothesis as comparative", "content": "The hypothesis makes a <strong>comparison</strong>: in low-visibility conditions, wider-headed fish will be <strong>less likely than narrower-headed fish</strong> to detect obstructions.<br/><br/>To directly support this prediction, evidence must show two fish with different head shapes tested under the same conditions—with the wider-headed one detecting fewer obstacles."}, {"title": "Match the comparison to the choices", "content": "<strong>Choice B directly compares two species with different head shapes</strong>: the wider-headed bristlemouth bumped into obstructions more often than the narrower-headed dusky smooth-hound in the specified test conditions. This demonstrates exactly what the hypothesis predicts. <br/><br/>The others lack this comparative structure: one shows only one head shape without comparison, one shows equal performance, and one examines within-species variation. <br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d9dad012",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first sentence establishes a confirmed use of quipus for recording countable information. The second sentence introduces a speculative possibility that they may have also used quipus differently\u2014to record complex information. The blank needs a transition that signals this move from established fact to a new, possible additional use."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "\u201dIn addition\u201d correctly marks the introduction of a new, speculative use being added to the already-confirmed one. The others impose false logical relationships that don't match the shift from established fact to speculative addition. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9dad012", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The first sentence establishes a confirmed use of quipus for recording countable information.<br/><br/>The second sentence introduces a speculative possibility that they may have also used quipus differently—to record complex information.<br/><br/>The blank needs a transition that signals this move from established fact to a new, possible additional use."}, {"title": "Apply to the choices", "content": "”In addition” correctly marks the introduction of a new, speculative use being added to the already-confirmed one. The others impose false logical relationships that don't match the shift from established fact to speculative addition. That matches choice C — <strong>C</strong> is correct."}]}

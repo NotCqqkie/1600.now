@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The second sentence claims that Montaigne questions his own ideas \u201cno matter the essay topic.\u201d The third sentence repeats this exact claim using different wording: he \u201cquestions his own perspective, regardless of subject matter.\u201d This is a confirmation pattern\u2014the second statement reinforces the first's central point."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dIndeed\u201d is a confirmation transition used when a statement reinforces what was just said. The third sentence reinforces the claim from the second sentence by restating Montaigne's approach to questioning himself. The other choices don't fit: \u201cFor example\u201d introduces a specific case, \u201cAt that time\u201d implies a time shift, and \u201cHowever\u201d signals contradiction. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The second sentence claims that Montaigne questions his own ideas “no matter the essay topic.” The third sentence repeats this exact claim using different wording: he “questions his own perspective, regardless of subject matter.” This is a confirmation pattern—the second statement reinforces the first's central point."}, {"title": "Match the meaning", "content": "”Indeed” is a confirmation transition used when a statement reinforces what was just said.<br/><br/>The third sentence reinforces the claim from the second sentence by restating Montaigne's approach to questioning himself.<br/><br/>The other choices don't fit: “For example” introduces a specific case, “At that time” implies a time shift, and “However” signals contradiction.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

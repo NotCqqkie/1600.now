@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the consequence relationship",
-      "content": "The first sentence states a limitation: Curiosity couldn't preserve samples. The second sentence describes NASA's response when building Perseverance: they sought to <em>implement a mechanism that could do exactly that.</em> This phrase ties the new rover's design directly to overcoming Curiosity's limitation\u2014a classic cause-and-effect signal."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<em>Thus</em> correctly introduces the consequence: because Curiosity lacked the ability to preserve samples, NASA created Perseverance to address that specific gap. The other three fail to convey this cause-and-effect relationship, instead suggesting time reversals, elaborations, or false parallels.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the consequence relationship", "content": "The first sentence states a limitation: Curiosity couldn't preserve samples.<br/><br/>The second sentence describes NASA's response when building Perseverance: they sought to <em>implement a mechanism that could do exactly that.</em> This phrase ties the new rover's design directly to overcoming Curiosity's limitation—a classic cause-and-effect signal."}, {"title": "Apply the signal to the choices", "content": "<em>Thus</em> correctly introduces the consequence: because Curiosity lacked the ability to preserve samples, NASA created Perseverance to address that specific gap.<br/><br/>The other three fail to convey this cause-and-effect relationship, instead suggesting time reversals, elaborations, or false parallels.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

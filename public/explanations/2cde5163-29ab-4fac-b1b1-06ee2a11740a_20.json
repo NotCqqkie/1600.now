@@ -1,15 +1,1 @@
-{
-  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence structures",
-      "content": "The first clause <em>(\u201cFrom 2009 to 2019, travelers flew out of major urban airports with increasing [noun]\u201d)</em> is independent. The second clause <em>(\u201cWashington Dulles International Airport in Washington, DC, saw a 6.9 percent increase\u201d)</em> is independent. The phrase <strong>\u201cfor example\u201d</strong> must transition between them."
-    },
-    {
-      "title": "Apply the boundary rule",
-      "content": "The rule against comma splices requires that two independent clauses be separated by a period, semicolon, or coordinating conjunction. Choice D places a period after the first clause and begins the new sentence with <strong>\u201cFor example,\u201d</strong> to introduce the example. Options A and C violate this rule by joining independent clauses with commas alone, while B uses improper punctuation (a comma before a semicolon). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structures", "content": "The first clause <em>(“From 2009 to 2019, travelers flew out of major urban airports with increasing [noun]”)</em> is independent.<br/><br/>The second clause <em>(“Washington Dulles International Airport in Washington, DC, saw a 6.9 percent increase”)</em> is independent.<br/><br/>The phrase <strong>“for example”</strong> must transition between them."}, {"title": "Apply the boundary rule", "content": "The rule against comma splices requires that two independent clauses be separated by a period, semicolon, or coordinating conjunction.<br/><br/>Choice D places a period after the first clause and begins the new sentence with <strong>“For example,”</strong> to introduce the example.<br/><br/>Options A and C violate this rule by joining independent clauses with commas alone, while B uses improper punctuation (a comma before a semicolon).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "0ec15b5a",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The question asks which occupational field has the \u201chighest incorporated self-employment rate.\u201d Scan the table's Incorporated self-employment rate column and identify the largest percentage."
-    },
-    {
-      "title": "Match the value to the correct field",
-      "content": "Management, business, and financial services shows 8.9% incorporated self-employment\u2014the highest rate in the column. Construction and resource extraction (4.4%), sales and related (5.8%), and installation, maintenance, and repair (2.7%) all show lower rates. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ec15b5a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The question asks which occupational field has the “highest incorporated self-employment rate.” Scan the table's Incorporated self-employment rate column and identify the largest percentage."}, {"title": "Match the value to the correct field", "content": "Management, business, and financial services shows 8.9% incorporated self-employment—the highest rate in the column.<br/><br/>Construction and resource extraction (4.4%), sales and related (5.8%), and installation, maintenance, and repair (2.7%) all show lower rates.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the correlation difference",
-      "content": "For P3, the model's correlation is 0.30 for cubist paintings but only 0.16 for abstract paintings. This is a substantial difference \u2014 the model's predictions aligned much better with P3's actual cubist ratings than with the actual abstract ratings."
-    },
-    {
-      "title": "Apply the constraint to eliminate choices",
-      "content": "The constraint states P3 actually gave equal ratings to abstract and cubist paintings. If the model had predicted equal ratings for both styles (choice B), the correlations should be equal too. Since they're not \u2014 one is roughly twice the other \u2014 the model's predictions must have differed between the two styles. The model predicted higher accuracy for one style, which is only possible if it made different predictions. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the correlation difference", "content": "For P3, the model's correlation is 0.30 for cubist paintings but only 0.16 for abstract paintings. This is a substantial difference — the model's predictions aligned much better with P3's actual cubist ratings than with the actual abstract ratings."}, {"title": "Apply the constraint to eliminate choices", "content": "The constraint states P3 actually gave equal ratings to abstract and cubist paintings.<br/><br/>If the model had predicted equal ratings for both styles (choice B), the correlations should be equal too.<br/><br/>Since they're not — one is roughly twice the other — the model's predictions must have differed between the two styles.<br/><br/>The model predicted higher accuracy for one style, which is only possible if it made different predictions.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

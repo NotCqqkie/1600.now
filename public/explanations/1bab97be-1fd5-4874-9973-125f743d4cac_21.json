@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_21",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the independent clause structure",
-      "content": "The sentence has one main verb: <strong>ensured</strong>. The subject is \u201cA plano-convex lens,\u201d followed by a phrase \u201cthe laser on the center of the 10-millimeter-long crystal,\u201d and then the main verb. The blank must be filled with a form that describes the lens's action without creating a second independent clause."
-    },
-    {
-      "title": "Apply the participle rule",
-      "content": "Choice C uses <strong>focusing</strong>, a present participle. This creates a participial phrase that modifies the subject: \u201cA plano-convex lens focusing the laser on the center of the 10-millimeter-long crystal\u201d becomes the complete subject, and \u201censured\u201d stands as the single main verb of the sentence. Choices A, B, and D use finite verb forms that would create two independent verbs in the same clause without proper coordination. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the independent clause structure", "content": "The sentence has one main verb: <strong>ensured</strong>. The subject is “A plano-convex lens,” followed by a phrase “the laser on the center of the 10-millimeter-long crystal,” and then the main verb.<br/><br/>The blank must be filled with a form that describes the lens's action without creating a second independent clause."}, {"title": "Apply the participle rule", "content": "Choice C uses <strong>focusing</strong>, a present participle.<br/><br/>This creates a participial phrase that modifies the subject: “A plano-convex lens focusing the laser on the center of the 10-millimeter-long crystal” becomes the complete subject, and “ensured” stands as the single main verb of the sentence.<br/><br/>Choices A, B, and D use finite verb forms that would create two independent verbs in the same clause without proper coordination.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

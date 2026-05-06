@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_1",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The key signal is \u201cthe eighth most commonly used password\u201d\u2014the passage is highlighting a widespread pattern in actual human behavior."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<strong>Popular</strong> is the only word that directly captures widespread adoption and prevalence. The other three (creative, complex, useful) describe qualities rather than scale, and <strong>complex</strong> actively contradicts the passage's claim about the approach favoring convenience over security. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the key signal", "content": "The key signal is “the eighth most commonly used password”—the passage is highlighting a widespread pattern in actual human behavior."}, {"title": "Apply the signal to the choices", "content": "<strong>Popular</strong> is the only word that directly captures widespread adoption and prevalence.<br/><br/>The other three (creative, complex, useful) describe qualities rather than scale, and <strong>complex</strong> actively contradicts the passage's claim about the approach favoring convenience over security.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

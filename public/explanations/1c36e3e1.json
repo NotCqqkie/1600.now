@@ -1,15 +1,1 @@
-{
-  "questionId": "1c36e3e1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between the examples",
-      "content": "The first example shows <strong>180 sunspots in November 2001</strong>, and the blank introduces a second example: <strong>2 sunspots in December 2008</strong>. These are extreme opposites\u2014high versus low\u2014presenting a stark contrast that proves the opening claim: sunspot numbers <strong>\u201ccan vary greatly.\u201d</strong>"
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "<strong>\u201cBy comparison\u201d</strong> explicitly marks this as a comparative statement, which is what the sentence structure requires. The other three choices fail: <strong>\u201cSimilarly\u201d</strong> wrongly suggests equivalence, <strong>\u201cIn other words\u201d</strong> falsely implies restatement, and <strong>\u201cTherefore\u201d</strong> imposes a non-existent causal relationship. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1c36e3e1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the examples", "content": "The first example shows <strong>180 sunspots in November 2001</strong>, and the blank introduces a second example: <strong>2 sunspots in December 2008</strong>.<br/><br/>These are extreme opposites—high versus low—presenting a stark contrast that proves the opening claim: sunspot numbers <strong>“can vary greatly.”</strong>"}, {"title": "Match the transition to the relationship", "content": "<strong>“By comparison”</strong> explicitly marks this as a comparative statement, which is what the sentence structure requires.<br/><br/>The other three choices fail: <strong>“Similarly”</strong> wrongly suggests equivalence, <strong>“In other words”</strong> falsely implies restatement, and <strong>“Therefore”</strong> imposes a non-existent causal relationship.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

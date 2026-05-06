@@ -1,15 +1,1 @@
-{
-  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the causal statement",
-      "content": "The passage opens with a direct causal claim: <em>\u201cWe are creatures of the sun. We love light and life. That is why we crowd into the towns and cities.\u201d</em> This statement links human nature to urban settlement."
-    },
-    {
-      "title": "Match the motivation to the choices",
-      "content": "Choice A identifies those exact psychological drivers: being creatures of light and needing human connection motivate people to cities. The other three either reverse the passage's logic (B claims isolation in cities, C says country is preferred) or miss the causal point entirely (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the causal statement", "content": "The passage opens with a direct causal claim: <em>“We are creatures of the sun. We love light and life. That is why we crowd into the towns and cities.”</em> This statement links human nature to urban settlement."}, {"title": "Match the motivation to the choices", "content": "Choice A identifies those exact psychological drivers: being creatures of light and needing human connection motivate people to cities.<br/><br/>The other three either reverse the passage's logic (B claims isolation in cities, C says country is preferred) or miss the causal point entirely (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

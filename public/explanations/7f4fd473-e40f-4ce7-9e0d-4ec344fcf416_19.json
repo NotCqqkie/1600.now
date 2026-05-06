@@ -1,15 +1,1 @@
-{
-  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures around the blank",
-      "content": "Left side: an independent clause (\u201cthe student discovered biographical sketches of two other Black Americans who served in Congress\u201d). Right side: a noun phrase listing two specific people."
-    },
-    {
-      "title": "Apply the rule for introducing lists",
-      "content": "A colon introduces a list or elaboration\u2014and here we have exactly that: a list of names. A period (A) creates a fragment; a semicolon (C) is for independent clauses, but the right side is a noun phrase; lowercase \u201ccongress\u201d (D) violates proper noun rules. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structures around the blank", "content": "Left side: an independent clause (“the student discovered biographical sketches of two other Black Americans who served in Congress”). Right side: a noun phrase listing two specific people."}, {"title": "Apply the rule for introducing lists", "content": "A colon introduces a list or elaboration—and here we have exactly that: a list of names.<br/><br/>A period (A) creates a fragment; a semicolon (C) is for independent clauses, but the right side is a noun phrase; lowercase “congress” (D) violates proper noun rules.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a75d5984",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural requirement",
-      "content": "The main subject \u201cSeveral advantages\u201d (with its appositive explanation set off by em dashes) must be followed by a verb to create a complete clause. The blank must contain that verb, connecting the subject to \u201cacoustic waves as a promising alternative...\u201d"
-    },
-    {
-      "title": "Apply the finite verb rule",
-      "content": "An independent clause requires a finite verb. \u201cHave positioned\u201d is a finite verb phrase that creates the complete main clause: \u201cSeveral advantages have positioned acoustic waves as a promising alternative...\u201d Choices B, C, and D use non-finite forms\u2014participles (positioning, having positioned) and a prepositional phrase (by positioning)\u2014which cannot function as the main verb of an independent clause. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a75d5984", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structural requirement", "content": "The main subject “Several advantages” (with its appositive explanation set off by em dashes) must be followed by a verb to create a complete clause. The blank must contain that verb, connecting the subject to “acoustic waves as a promising alternative...”"}, {"title": "Apply the finite verb rule", "content": "An independent clause requires a finite verb. “Have positioned” is a finite verb phrase that creates the complete main clause: “Several advantages have positioned acoustic waves as a promising alternative...” Choices B, C, and D use non-finite forms—participles (positioning, having positioned) and a prepositional phrase (by positioning)—which cannot function as the main verb of an independent clause.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

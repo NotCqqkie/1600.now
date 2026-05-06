@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the revealing behavior pattern",
-      "content": "Musicians and nonmusicians have equal hearing ability, yet musicians consistently prefer higher volumes to maximize pleasure. This shows the brain difference affects the pleasure response mechanism itself, not sound detection ability."
-    },
-    {
-      "title": "Explain the volume preference",
-      "content": "B proposes that musicians' brain alterations suppress the hedonic response at normal volumes, which means musicians would need higher volume to achieve the same pleasure peak\u2014exactly what the study found. The other choices either contradict the evidence about equal hearing ability, dismiss the significance of brain differences, or fail to address the volume preference finding. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the revealing behavior pattern", "content": "Musicians and nonmusicians have equal hearing ability, yet musicians consistently prefer higher volumes to maximize pleasure. This shows the brain difference affects the pleasure response mechanism itself, not sound detection ability."}, {"title": "Explain the volume preference", "content": "B proposes that musicians' brain alterations suppress the hedonic response at normal volumes, which means musicians would need higher volume to achieve the same pleasure peak—exactly what the study found.<br/><br/>The other choices either contradict the evidence about equal hearing ability, dismiss the significance of brain differences, or fail to address the volume preference finding.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

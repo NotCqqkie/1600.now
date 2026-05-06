@@ -1,15 +1,1 @@
-{
-  "questionId": "b6560e5a",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure on each side",
-      "content": "The phrase before the blank\u2014ending with \u201cruthenium\u201d\u2014is an independent clause. The phrase after the blank\u2014beginning with \u201cthe alloy\u201d\u2014is also an independent clause."
-    },
-    {
-      "title": "Apply the comma-conjunction rule",
-      "content": "A comma and a coordinating conjunction join two independent clauses. Choice D provides both: the comma and \u201cbut,\u201d which also expresses the contrast between the attempted improvement and the unsuitable result. The other choices lack either the comma, the conjunction, or both. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b6560e5a", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure on each side", "content": "The phrase before the blank—ending with “ruthenium”—is an independent clause. The phrase after the blank—beginning with “the alloy”—is also an independent clause."}, {"title": "Apply the comma-conjunction rule", "content": "A comma and a coordinating conjunction join two independent clauses.<br/><br/>Choice D provides both: the comma and “but,” which also expresses the contrast between the attempted improvement and the unsuitable result.<br/><br/>The other choices lack either the comma, the conjunction, or both.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

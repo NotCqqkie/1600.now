@@ -1,15 +1,1 @@
-{
-  "questionId": "70aacc03",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage\u2019s defining clue is the contrast word <em>counterintuitive</em>, which signals that the main idea hinges on an expectation being reversed. The text presents a correlation (resource-rich developing countries receive less foreign investment) and explains it as the opposite of what one might initially expect."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice C captures the reversed expectation: it notes that <strong>one might expect investment to increase</strong> with resource reliance and explains that it <strong>instead decreases</strong> due to instability. The other three either contradict the explanation (<em>e.g.</em>, A misattributes the reason for investment decline to unmentioned initial costs), describe scenarios not discussed (<em>e.g.</em>, B\u2019s focus on dependency), or reverse the actual relationship (<em>e.g.</em>, D claims investment increases with stabilization). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "70aacc03", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage’s defining clue is the contrast word <em>counterintuitive</em>, which signals that the main idea hinges on an expectation being reversed.<br/><br/>The text presents a correlation (resource-rich developing countries receive less foreign investment) and explains it as the opposite of what one might initially expect."}, {"title": "Match the meaning", "content": "Choice C captures the reversed expectation: it notes that <strong>one might expect investment to increase</strong> with resource reliance and explains that it <strong>instead decreases</strong> due to instability.<br/><br/>The other three either contradict the explanation (<em>e.g.</em>, A misattributes the reason for investment decline to unmentioned initial costs), describe scenarios not discussed (<em>e.g.</em>, B’s focus on dependency), or reverse the actual relationship (<em>e.g.</em>, D claims investment increases with stabilization).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast and its consequence",
-      "content": "The passage explicitly states that boredom \u201ccreates an anxious tension in the absence of a place to fix attention\u201d and therefore induces \u201cnot somnolence but ______.\u201d The key signal is the contrast: the blank must name the agitated, uneasy state that boredom causes\u2014not sleep or drowsiness."
-    },
-    {
-      "title": "Match the anxious state to the answer",
-      "content": "<strong>Perturbation</strong> means disturbance and agitation\u2014the anxious unease boredom creates rather than sleep. The other three fail to capture this restlessness: <em>fortitude</em> is unrelated to psychological effect, <em>nonchalance</em> contradicts the tension described, and <em>indolence</em> still implies sluggishness. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast and its consequence", "content": "The passage explicitly states that boredom “creates an anxious tension in the absence of a place to fix attention” and therefore induces “not somnolence but ______.” The key signal is the contrast: the blank must name the agitated, uneasy state that boredom causes—not sleep or drowsiness."}, {"title": "Match the anxious state to the answer", "content": "<strong>Perturbation</strong> means disturbance and agitation—the anxious unease boredom creates rather than sleep.<br/><br/>The other three fail to capture this restlessness: <em>fortitude</em> is unrelated to psychological effect, <em>nonchalance</em> contradicts the tension described, and <em>indolence</em> still implies sluggishness.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

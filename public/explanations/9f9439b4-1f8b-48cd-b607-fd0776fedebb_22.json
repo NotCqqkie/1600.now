@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cause-and-effect relationship",
-      "content": "The plant absorbs and stores cadmium from the soil\u2014soil cadmium concentrations decrease. These two clauses are connected as cause and effect, not as separate ideas or a contradiction."
-    },
-    {
-      "title": "Select the transition showing consequence",
-      "content": "<strong>\u201cIn turn\u201d</strong> introduces the effect that results from the cause: the plant's absorption of cadmium causes the soil concentrations to drop. The other choices mischaracterize the logical relationship: <strong>\u201cspecifically\u201d</strong> frames the second clause as a specific instance of the first, <strong>\u201cin addition\u201d</strong> treats both as separate facts, and <strong>\u201cnevertheless\u201d</strong> signals contradiction. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the cause-and-effect relationship", "content": "The plant absorbs and stores cadmium from the soil—soil cadmium concentrations decrease. These two clauses are connected as cause and effect, not as separate ideas or a contradiction."}, {"title": "Select the transition showing consequence", "content": "<strong>“In turn”</strong> introduces the effect that results from the cause: the plant's absorption of cadmium causes the soil concentrations to drop.<br/><br/>The other choices mischaracterize the logical relationship: <strong>“specifically”</strong> frames the second clause as a specific instance of the first, <strong>“in addition”</strong> treats both as separate facts, and <strong>“nevertheless”</strong> signals contradiction.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

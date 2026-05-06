@@ -1,15 +1,1 @@
-{
-  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Pinpoint the hypothesis's key prediction",
-      "content": "The hypothesis claims that greater pressure fluctuations at the snout lead to better avoidance of obstructions in low visibility. To directly challenge this claim, a finding must demonstrate that this predicted relationship fails."
-    },
-    {
-      "title": "Find the finding that breaks the relationship",
-      "content": "Choice B directly falsifies the hypothesis by showing that intermediate-headed fish (higher pressure fluctuations) and wide-headed fish (lower pressure fluctuations) collide with obstructions at the same rate, contradicting the predicted advantage for higher pressure. The other three either confirm the hypothesis (C), involve individual variation unrelated to the link (D), or present a single counterexample lacking comparative force (A). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Pinpoint the hypothesis's key prediction", "content": "The hypothesis claims that greater pressure fluctuations at the snout lead to better avoidance of obstructions in low visibility. To directly challenge this claim, a finding must demonstrate that this predicted relationship fails."}, {"title": "Find the finding that breaks the relationship", "content": "Choice B directly falsifies the hypothesis by showing that intermediate-headed fish (higher pressure fluctuations) and wide-headed fish (lower pressure fluctuations) collide with obstructions at the same rate, contradicting the predicted advantage for higher pressure.<br/><br/>The other three either confirm the hypothesis (C), involve individual variation unrelated to the link (D), or present a single counterexample lacking comparative force (A).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

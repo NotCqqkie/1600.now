@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the shared pattern in the notes",
-      "content": "Both notes describe the same thing: a designer created a board game inspired by a novel. The similarity to emphasize is that both games originate from fiction."
-    },
-    {
-      "title": "Choose the answer that explicitly compares both games",
-      "content": "B states \u201cBoth Svanoe's and Dorn's games were inspired by works of fiction,\u201d explicitly connecting both designers and their shared characteristic. The other choices each focus on only one game or designer, missing the comparison needed to accomplish the goal. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the shared pattern in the notes", "content": "Both notes describe the same thing: a designer created a board game inspired by a novel. The similarity to emphasize is that both games originate from fiction."}, {"title": "Choose the answer that explicitly compares both games", "content": "B states “Both Svanoe's and Dorn's games were inspired by works of fiction,” explicitly connecting both designers and their shared characteristic.<br/><br/>The other choices each focus on only one game or designer, missing the comparison needed to accomplish the goal.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the plural noun form needed",
-      "content": "The blank requires a possessive noun phrase. The noun is <strong>nanoparticles</strong> in its plural form, and we need to show that the properties belong to it."
-    },
-    {
-      "title": "Apply the plural possessive rule",
-      "content": "For a regular plural noun ending in <em>-s</em>, the possessive is formed by adding an apostrophe only (no additional <em>s</em>): <strong>nanoparticles' properties</strong>. Choice A incorrectly adds a second apostrophe to <em>properties</em>, choice B omits the apostrophe entirely, and choice D uses the singular possessive form. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the plural noun form needed", "content": "The blank requires a possessive noun phrase. The noun is <strong>nanoparticles</strong> in its plural form, and we need to show that the properties belong to it."}, {"title": "Apply the plural possessive rule", "content": "For a regular plural noun ending in <em>-s</em>, the possessive is formed by adding an apostrophe only (no additional <em>s</em>): <strong>nanoparticles' properties</strong>.<br/><br/>Choice A incorrectly adds a second apostrophe to <em>properties</em>, choice B omits the apostrophe entirely, and choice D uses the singular possessive form.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Understand the researchers' conclusion about latitude",
-      "content": "The researchers concluded that the prevalence of the trait (the proportion of species that have it) is mediated by absolute latitude \u2014 meaning the trait should be more common in some latitude zones than others."
-    },
-    {
-      "title": "Find evidence showing how prevalence varies with latitude",
-      "content": "Choice B provides the key evidence: 34% of species at 0\u00b0\u201330\u00b0 latitude have the trait compared to 60% at 50\u00b0\u201380\u00b0 latitude, showing that prevalence increases with latitude. The other options either deny the latitude-dependent pattern, introduce confounding exceptions, or describe distribution without measuring prevalence variation. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Understand the researchers' conclusion about latitude", "content": "The researchers concluded that the prevalence of the trait (the proportion of species that have it) is mediated by absolute latitude — meaning the trait should be more common in some latitude zones than others."}, {"title": "Find evidence showing how prevalence varies with latitude", "content": "Choice B provides the key evidence: 34% of species at 0°–30° latitude have the trait compared to 60% at 50°–80° latitude, showing that prevalence increases with latitude.<br/><br/>The other options either deny the latitude-dependent pattern, introduce confounding exceptions, or describe distribution without measuring prevalence variation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

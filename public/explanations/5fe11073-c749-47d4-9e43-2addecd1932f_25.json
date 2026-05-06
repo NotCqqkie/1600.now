@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the goal requires",
-      "content": "The question asks to emphasize a difference between Bengali and Danish nouns. The focus must be on directly contrasting how nouns function in each language, not on language families or other properties."
-    },
-    {
-      "title": "Find the choice that directly contrasts noun behavior",
-      "content": "Choice A directly compares how nouns work: Bengali appends a suffix to the noun to indicate location, while Danish leaves the noun unchanged and uses a preposition instead. The other three options either focus on language families, mention noun change but shift to language families, or explain noun behavior as a consequence of language family rather than as a direct contrast of how nouns themselves are used. This direct parallel comparison of noun functions accomplishes exactly what the goal requires.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the goal requires", "content": "The question asks to emphasize a difference between Bengali and Danish nouns. The focus must be on directly contrasting how nouns function in each language, not on language families or other properties."}, {"title": "Find the choice that directly contrasts noun behavior", "content": "Choice A directly compares how nouns work: Bengali appends a suffix to the noun to indicate location, while Danish leaves the noun unchanged and uses a preposition instead.<br/><br/>The other three options either focus on language families, mention noun change but shift to language families, or explain noun behavior as a consequence of language family rather than as a direct contrast of how nouns themselves are used.<br/><br/>This direct parallel comparison of noun functions accomplishes exactly what the goal requires.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the requirement",
-      "content": "The goal asks to compare the hardness of <em>all three</em> minerals."
-    },
-    {
-      "title": "Find which choice accomplishes this",
-      "content": "Choice A directly ranks all three minerals by their Mohs numbers (diamond 10, quartz 7, fluorite 4), showing their complete hardness comparison. Choices B and D each compare only two minerals, while C merely describes the scale without providing the ranking. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the requirement", "content": "The goal asks to compare the hardness of <em>all three</em> minerals."}, {"title": "Find which choice accomplishes this", "content": "Choice A directly ranks all three minerals by their Mohs numbers (diamond 10, quartz 7, fluorite 4), showing their complete hardness comparison.<br/><br/>Choices B and D each compare only two minerals, while C merely describes the scale without providing the ranking.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

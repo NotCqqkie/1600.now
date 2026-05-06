@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key claim needing evidence",
-      "content": "The text asserts there was \u201ca clear indication of competitive advantage for birds.\u201d This is the characterization that the study results must directly support."
-    },
-    {
-      "title": "Find the result proving bird advantage",
-      "content": "C directly proves bird competitive advantage through two connected findings: wasps initiated nesting much more often in bird-excluded manipulated boxes than in unmanipulated boxes, proving birds were actively preventing wasp occupancy; and when both species initially occupied unmanipulated boxes, wasps abandoned in 80% of those instances while birds persisted, explicitly demonstrating birds win direct competition. The other options either fail to show the outcome of direct competition or describe patterns inconsistent with bird advantage. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the key claim needing evidence", "content": "The text asserts there was “a clear indication of competitive advantage for birds.” This is the characterization that the study results must directly support."}, {"title": "Find the result proving bird advantage", "content": "C directly proves bird competitive advantage through two connected findings: wasps initiated nesting much more often in bird-excluded manipulated boxes than in unmanipulated boxes, proving birds were actively preventing wasp occupancy; and when both species initially occupied unmanipulated boxes, wasps abandoned in 80% of those instances while birds persisted, explicitly demonstrating birds win direct competition.<br/><br/>The other options either fail to show the outcome of direct competition or describe patterns inconsistent with bird advantage.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

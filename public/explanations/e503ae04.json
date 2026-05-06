@@ -1,15 +1,1 @@
-{
-  "questionId": "e503ae04",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key phrase that drives the conclusion",
-      "content": "The crucial observation is that \u201cinnovations tend to engender their own complications.\u201d This reveals that attempts to solve the delivery problem don't actually resolve the core challenge\u2014they create new obstacles instead. This pattern is what signals the researchers' conclusion."
-    },
-    {
-      "title": "Infer what repeated barriers suggest about expectations",
-      "content": "If every solution to fast delivery creates new obstacles, the logical inference is that the expectation itself\u2014consumers' demand for ever-faster delivery\u2014may exceed what is actually achievable. Choice A directly states this: expectations may be <em>outstripping</em> viability. Choices B, C, and D focus on alternative concerns (better understanding, continued investment, or finding incentive) that don't address the pattern of recurring complications. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e503ae04", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the key phrase that drives the conclusion", "content": "The crucial observation is that “innovations tend to engender their own complications.” This reveals that attempts to solve the delivery problem don't actually resolve the core challenge—they create new obstacles instead. This pattern is what signals the researchers' conclusion."}, {"title": "Infer what repeated barriers suggest about expectations", "content": "If every solution to fast delivery creates new obstacles, the logical inference is that the expectation itself—consumers' demand for ever-faster delivery—may exceed what is actually achievable.<br/><br/>Choice A directly states this: expectations may be <em>outstripping</em> viability.<br/><br/>Choices B, C, and D focus on alternative concerns (better understanding, continued investment, or finding incentive) that don't address the pattern of recurring complications.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "07456405",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key mechanism",
-      "content": "The formula's weighting\u20141.8 points per unit of land versus 1 per resident\u2014is the decisive clue to who actually benefits from malapportionment."
-    },
-    {
-      "title": "Apply the mechanism to the choices",
-      "content": "Choice D names the formula's weighting and directly shows its result: less populated rural districts with large land tracts are overrepresented.<br/>A contradicts the notes by saying rural districts are underrepresented instead, B wrongly claims more populated (urban) districts are overrepresented, and C just restates what malapportionment is. That matches choice D\u2014<strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "07456405", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key mechanism", "content": "The formula's weighting—1.8 points per unit of land versus 1 per resident—is the decisive clue to who actually benefits from malapportionment."}, {"title": "Apply the mechanism to the choices", "content": "Choice D names the formula's weighting and directly shows its result: less populated rural districts with large land tracts are overrepresented.<br/><ul><li>A contradicts the notes by saying rural districts are underrepresented instead</li><li>B wrongly claims more populated (urban) districts are overrepresented</li><li>C just restates what malapportionment is</li></ul>.<br/><br/>That matches choice D—<strong>D</strong> is correct."}]}

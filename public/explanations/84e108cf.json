@@ -1,15 +1,1 @@
-{
-  "questionId": "84e108cf",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the efficiency advantage",
-      "content": "The notes contrast traditional catalysts (require large amounts of platinum) with Tang's catalyst (highly effective with only trace amounts). Since platinum is rare and expensive, using far less of it while staying effective is the advantage."
-    },
-    {
-      "title": "Choose the answer that expresses this comparison",
-      "content": "D directly states the advantage: the new catalyst is highly effective yet requires far less platinum than traditional catalysts. The other choices either describe what the catalyst is without showing the advantage, wrongly suggest it resembles other catalysts, or address the problem without explaining the solution. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "84e108cf", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the efficiency advantage", "content": "The notes contrast traditional catalysts (require large amounts of platinum) with Tang's catalyst (highly effective with only trace amounts). Since platinum is rare and expensive, using far less of it while staying effective is the advantage."}, {"title": "Choose the answer that expresses this comparison", "content": "D directly states the advantage: the new catalyst is highly effective yet requires far less platinum than traditional catalysts.<br/><br/>The other choices either describe what the catalyst is without showing the advantage, wrongly suggest it resembles other catalysts, or address the problem without explaining the solution.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

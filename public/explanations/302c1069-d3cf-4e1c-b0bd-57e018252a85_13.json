@@ -1,15 +1,1 @@
-{
-  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage concludes that invasives benefit more than natives when subfreezing temperatures arrive later in autumn."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A shows that both species leaf out later in warm years, but the invasive knotgrass extends its leaf period far more than the native dogwood, exactly the advantage the researchers concluded. The other three either describe equal effects, introduce unrelated spring timing, or show no variation, which does not support the advantage claim. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage concludes that invasives benefit more than natives when subfreezing temperatures arrive later in autumn."}, {"title": "Apply the signal to the choices", "content": "Choice A shows that both species leaf out later in warm years, but the invasive knotgrass extends its leaf period far more than the native dogwood, exactly the advantage the researchers concluded.<br/><br/>The other three either describe equal effects, introduce unrelated spring timing, or show no variation, which does not support the advantage claim.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

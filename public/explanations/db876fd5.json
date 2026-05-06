@@ -1,15 +1,1 @@
-{
-  "questionId": "db876fd5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the causal link",
-      "content": "The passage provides two key pieces: (1) nestlings show an early preference for their own local dialect, and (2) <em>\u201csong preference plays a role in songbird mate selection.\u201d</em> This sets up a causal inference: if young birds develop a preference for local songs <em>and</em> song preference influences who they choose to mate with, then that early preference should predict their future reproductive choices. The blank must complete this chain."
-    },
-    {
-      "title": "Match the causal chain to the choices",
-      "content": "Choice C directly connects the early preference to future behavior: the nestlings' early dialect preference would <em>\u201cdrive them when they mature to reproduce with other F. hypoleuca from local rather than nonlocal populations.\u201d</em> This is the logical consequence of the evidence\u2014early preference \u2192 future mate selection. <br/><br/>A reverses the prediction (the preference disappears, which contradicts why the early finding matters), B invents an unsupported claim about food rewards not mentioned in the study, and D extends the finding to other songbird species that were never tested. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "db876fd5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the causal link", "content": "The passage provides two key pieces: (1) nestlings show an early preference for their own local dialect, and (2) <em>“song preference plays a role in songbird mate selection.”</em> This sets up a causal inference: if young birds develop a preference for local songs <em>and</em> song preference influences who they choose to mate with, then that early preference should predict their future reproductive choices.<br/><br/>The blank must complete this chain."}, {"title": "Match the causal chain to the choices", "content": "Choice C directly connects the early preference to future behavior: the nestlings' early dialect preference would <em>“drive them when they mature to reproduce with other F. hypoleuca from local rather than nonlocal populations.”</em> This is the logical consequence of the evidence—early preference → future mate selection. <br/><br/>A reverses the prediction (the preference disappears, which contradicts why the early finding matters), B invents an unsupported claim about food rewards not mentioned in the study, and D extends the finding to other songbird species that were never tested. <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

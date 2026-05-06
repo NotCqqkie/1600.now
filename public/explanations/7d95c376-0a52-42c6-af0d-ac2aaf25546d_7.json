@@ -1,15 +1,1 @@
-{
-  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the pivot point that reveals the purpose",
-      "content": "The word <strong>\u201cHowever\u201d</strong> at the start of the second sentence signals a sharp turn. The text introduces L\u00f6nnstedt's 2013 conclusion about ocean acidification's effect on fish behavior, then immediately pivots to a methodological critique: the study used only about 28 fish. This structural move\u2014present a finding, then raise concerns about its reliability\u2014is the defining signal of the text's purpose."
-    },
-    {
-      "title": "Match the signal to the correct choice",
-      "content": "Choice <strong>A</strong> captures this purpose directly: the text <em>notes a potential concern</em> about the findings by highlighting that a small sample size can increase the risk of biased analysis and exaggerated effects. Clements' 2022 review explicitly <strong>\u201ccautions\u201d</strong> against this methodological flaw in the original study. Choices B, C, and D misidentify the focus\u2014B treats the passage as a broader discussion of overlooked aspects of ocean acidification, C invents a debate about causes, and D claims the text tracks behavioral changes over time, none of which occur. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the pivot point that reveals the purpose", "content": "The word <strong>“However”</strong> at the start of the second sentence signals a sharp turn.<br/><br/>The text introduces Lönnstedt's 2013 conclusion about ocean acidification's effect on fish behavior, then immediately pivots to a methodological critique: the study used only about 28 fish.<br/><br/>This structural move—present a finding, then raise concerns about its reliability—is the defining signal of the text's purpose."}, {"title": "Match the signal to the correct choice", "content": "Choice <strong>A</strong> captures this purpose directly: the text <em>notes a potential concern</em> about the findings by highlighting that a small sample size can increase the risk of biased analysis and exaggerated effects.<br/><br/>Clements' 2022 review explicitly <strong>“cautions”</strong> against this methodological flaw in the original study.<br/><br/>Choices B, C, and <ul><li>D misidentify the focus—B treats the passage as a broader discussion of overlooked aspects of ocean acidification</li><li>C invents a debate about causes</li><li>D claims the text tracks behavioral changes over time</li></ul>, none of which occur. <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

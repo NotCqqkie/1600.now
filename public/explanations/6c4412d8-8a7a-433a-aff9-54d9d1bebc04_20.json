@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the main verb and the constraint on the blank",
-      "content": "The sentence's main clause is \u201cSuch meticulous documentation of mundane information... became Kawara's life's work,\u201d where \u201cbecame\u201d is the only main verb. The blank must add description of what the documentation accomplishes without introducing a second main verb."
-    },
-    {
-      "title": "Apply the participial phrase rule",
-      "content": "A comma before a participle introduces a <strong>participial phrase</strong>\u2014a verb form that modifies a noun without creating a second main clause. Choice C uses this correctly: the comma before \u201cgenerating artworks\u201d signals it describes the documentation rather than competing with \u201cbecame.\u201d A and B introduce actual competing main verbs (\u201chas generated\u201d and \u201cgenerates\u201d), while D's \u201cgenerated\u201d is ambiguous\u2014it could be a second main verb or a past participle. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the main verb and the constraint on the blank", "content": "The sentence's main clause is “Such meticulous documentation of mundane information... became Kawara's life's work,” where “became” is the only main verb. The blank must add description of what the documentation accomplishes without introducing a second main verb."}, {"title": "Apply the participial phrase rule", "content": "A comma before a participle introduces a <strong>participial phrase</strong>—a verb form that modifies a noun without creating a second main clause.<br/><br/>Choice C uses this correctly: the comma before “generating artworks” signals it describes the documentation rather than competing with “became.” A and B introduce actual competing main verbs (“has generated” and “generates”), while D's “generated” is ambiguous—it could be a second main verb or a past participle.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

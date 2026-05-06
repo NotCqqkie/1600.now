@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the moisture-to-fat relationship",
-      "content": "The passage establishes that water evaporates from the crust, creating voids that oil fills, thereby increasing fat content. This creates a direct link: greater moisture loss leads to greater fat gain."
-    },
-    {
-      "title": "Apply the inverse relationship",
-      "content": "If less moisture is lost, fewer voids form and less fat is gained\u2014exactly what choice A states. The other three introduce unsupported factors (B's temperature), misapply the mechanism (C's permeability), or reverse the expected outcome (D's crispiness). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the moisture-to-fat relationship", "content": "The passage establishes that water evaporates from the crust, creating voids that oil fills, thereby increasing fat content. This creates a direct link: greater moisture loss leads to greater fat gain."}, {"title": "Apply the inverse relationship", "content": "If less moisture is lost, fewer voids form and less fat is gained—exactly what choice A states.<br/><br/>The other three introduce unsupported factors (B's temperature), misapply the mechanism (C's permeability), or reverse the expected outcome (D's crispiness).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

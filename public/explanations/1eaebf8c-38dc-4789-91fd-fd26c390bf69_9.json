@@ -1,15 +1,1 @@
-{
-  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining question",
-      "content": "The passage states their research question: whether \u201cperceived category similarity\u201d predicts \u201cconsumers' likelihood of purchasing brand extensions.\u201d Since they already have likelihood data (the probability changes for each pair), they need to measure perceived category similarity for each extended-brand pair."
-    },
-    {
-      "title": "Evaluate the designs",
-      "content": "Choice A obtains similarity ratings for each category pair and correlates them with the team's probability data\u2014providing both variables needed to test whether one predicts the other. The others measure brand recognition (B, C) or within-category rather than between-category similarity (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the defining question", "content": "The passage states their research question: whether “perceived category similarity” predicts “consumers' likelihood of purchasing brand extensions.” Since they already have likelihood data (the probability changes for each pair), they need to measure perceived category similarity for each extended-brand pair."}, {"title": "Evaluate the designs", "content": "Choice A obtains similarity ratings for each category pair and correlates them with the team's probability data—providing both variables needed to test whether one predicts the other.<br/><br/>The others measure brand recognition (B, C) or within-category rather than between-category similarity (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_18",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical requirement",
-      "content": "The blank precedes \u201c105th in a global ranking of the shortest constitutions,\u201d forming an incomplete clause that requires a subject pronoun and linking verb."
-    },
-    {
-      "title": "Apply the it's/its distinction",
-      "content": "It's (it is) provides the subject pronoun \u201cit\u201d and verb \u201cis\u201d needed to complete the clause as \u201cit is 105th in a global ranking.\u201d The other choices fail to meet this requirement: its and their are possessive forms unsuitable for a subject position, while they're uses a plural verb with a singular subject. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "76199cca-674f-403e-a01c-927854021f9f_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical requirement", "content": "The blank precedes “105th in a global ranking of the shortest constitutions,” forming an incomplete clause that requires a subject pronoun and linking verb."}, {"title": "Apply the it's/its distinction", "content": "It's (it is) provides the subject pronoun “it” and verb “is” needed to complete the clause as “it is 105th in a global ranking.” The other choices fail to meet this requirement: its and their are possessive forms unsuitable for a subject position, while they're uses a plural verb with a singular subject.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

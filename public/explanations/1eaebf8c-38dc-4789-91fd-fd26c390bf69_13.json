@@ -1,15 +1,1 @@
-{
-  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states mammals showed larger average differences than birds, but then emphasizes: <em>\u201cfor every class of animals examined, there were individual studies showing differences well above the average for mammals.\u201d</em> This reveals that some bird studies exceeded the mammal average."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice D concludes that some bird studies produced larger effects than some mammal studies. When individual bird studies exceeded the mammal average\u2014and that average sits above some mammal studies\u2014this conclusion is unavoidable. The other choices either reverse the stated comparison (B), claim effects were detrimental (A, unsupported), or speculate about one study (C). That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states mammals showed larger average differences than birds, but then emphasizes: <em>“for every class of animals examined, there were individual studies showing differences well above the average for mammals.”</em> This reveals that some bird studies exceeded the mammal average."}, {"title": "Match to the choices", "content": "Choice D concludes that some bird studies produced larger effects than some mammal studies.<br/><br/>When individual bird studies exceeded the mammal average—and that average sits above some mammal studies—this conclusion is unavoidable.<br/><br/>The other choices either reverse the stated comparison (B), claim effects were detrimental (A, unsupported), or speculate about one study (C).<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

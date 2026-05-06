@@ -1,15 +1,1 @@
-{
-  "questionId": "00460c13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify which notes directly answer the goal",
-      "content": "The goal is to identify the setting of My \u00c1ntonia. The notes explicitly state that some novels \u201care set in Nebraska\u201d and list \u201cMy \u00c1ntonia (1918)\u201d as one of these novels \u2014 directly indicating Nebraska as its setting."
-    },
-    {
-      "title": "Match the setting information to the answer choices",
-      "content": "Answer A directly states \u201cMy \u00c1ntonia is set in Nebraska,\u201d using the setting information from the notes to fulfill the goal. Choices B, C, and D either omit the setting, mention Nebraska without identifying My \u00c1ntonia specifically, or describe what the novels contain rather than where they're set. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "00460c13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify which notes directly answer the goal", "content": "The goal is to identify the setting of My Ántonia. The notes explicitly state that some novels “are set in Nebraska” and list “My Ántonia (1918)” as one of these novels — directly indicating Nebraska as its setting."}, {"title": "Match the setting information to the answer choices", "content": "Answer A directly states “My Ántonia is set in Nebraska,” using the setting information from the notes to fulfill the goal.<br/><br/>Choices B, C, and D either omit the setting, mention Nebraska without identifying My Ántonia specifically, or describe what the novels contain rather than where they're set.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

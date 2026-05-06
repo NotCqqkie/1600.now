@@ -1,15 +1,1 @@
-{
-  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what must be emphasized",
-      "content": "The prompt explicitly asks to emphasize <strong>when</strong> and <strong>where</strong> <em>Argentum</em> debuted. The notes provide: 2018 (the when) and New York City, New York (the where)."
-    },
-    {
-      "title": "Match the timing and location to the choices",
-      "content": "C places both \u201cIn 2018\u201d and \u201cin New York City, New York\u201d at the sentence's opening, making the debut's timing and location immediately clear. A, B, and D either omit the work entirely, fail to specify the year or location clearly, or bury the timing in brackets without naming the location. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what must be emphasized", "content": "The prompt explicitly asks to emphasize <strong>when</strong> and <strong>where</strong> <em>Argentum</em> debuted. The notes provide: 2018 (the when) and New York City, New York (the where)."}, {"title": "Match the timing and location to the choices", "content": "C places both “In 2018” and “in New York City, New York” at the sentence's opening, making the debut's timing and location immediately clear.<br/><br/>A, B, and D either omit the work entirely, fail to specify the year or location clearly, or bury the timing in brackets without naming the location.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

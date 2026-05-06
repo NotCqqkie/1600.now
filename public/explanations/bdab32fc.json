@@ -1,15 +1,1 @@
-{
-  "questionId": "bdab32fc",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the human action accomplished",
-      "content": "When mastodons died, cucurbits faced extinction. The word \u201chowever\u201d signals a reversal: Indigenous peoples began raising cucurbits as crops. The blank must express what this cultivation achieved."
-    },
-    {
-      "title": "Match the action to its precise meaning",
-      "content": "Cultivating the plants guaranteed their survival\u2014\u201densuring\u201d means to make certain something happens. <br/>\u201cVerifying\u201d means confirming what's already known (wrong direction), while \u201cmultiplying\u201d and \u201ccomforting\u201d don't fit the context of preventing extinction. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bdab32fc", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the human action accomplished", "content": "When mastodons died, cucurbits faced extinction. The word “however” signals a reversal: Indigenous peoples began raising cucurbits as crops. The blank must express what this cultivation achieved."}, {"title": "Match the action to its precise meaning", "content": "Cultivating the plants guaranteed their survival—”ensuring” means to make certain something happens. <br/>“Verifying” means confirming what's already known (wrong direction), while “multiplying” and “comforting” don't fit the context of preventing extinction.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

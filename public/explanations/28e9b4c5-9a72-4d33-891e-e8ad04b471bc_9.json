@@ -1,15 +1,1 @@
-{
-  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the author's core assertion",
-      "content": "The author explicitly states that \u201cmass extinctions, while abrupt in geological terms, unfold over thousands or millions of years\u201d and that \u201cit's likely that multiple factors drove widespread species loss.\u201d"
-    },
-    {
-      "title": "Match the assertion to the answer",
-      "content": "Answer A is correct because it directly aligns with the author's stated position: the extinction occurred over a prolonged period and involved multiple causal factors. Choices B, C, and D all make claims unsupported by the passage. The author's emphasis on prolonged timescales and multiple causes directly supports only answer A. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the author's core assertion", "content": "The author explicitly states that “mass extinctions, while abrupt in geological terms, unfold over thousands or millions of years” and that “it's likely that multiple factors drove widespread species loss.”"}, {"title": "Match the assertion to the answer", "content": "Answer A is correct because it directly aligns with the author's stated position: the extinction occurred over a prolonged period and involved multiple causal factors.<br/><br/>Choices B, C, and D all make claims unsupported by the passage.<br/><br/>The author's emphasis on prolonged timescales and multiple causes directly supports only answer A.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

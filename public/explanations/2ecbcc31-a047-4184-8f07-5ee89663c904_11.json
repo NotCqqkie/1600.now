@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the specific data point in the table",
-      "content": "The passage provides examples of Hawaiian home lands to illustrate that <em>\u201cmost of the home lands are much smaller\u201d</em> than the largest. It gives Kamoku-Kapulena's area directly (7.47 square miles) and asks for Nanakuli's area using the same data source."
-    },
-    {
-      "title": "Read Nanakuli's area directly from the table",
-      "content": "The table shows Nanakuli in the first row with an area of 3.61 square miles. This value completes the passage's two concrete examples of smaller home lands. Choices A, C, and D list other home lands from the table (Kahikiau, Waimea, and Kawaihae) but not Nanakuli. <br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the specific data point in the table", "content": "The passage provides examples of Hawaiian home lands to illustrate that <em>“most of the home lands are much smaller”</em> than the largest. It gives Kamoku-Kapulena's area directly (7.47 square miles) and asks for Nanakuli's area using the same data source."}, {"title": "Read Nanakuli's area directly from the table", "content": "The table shows Nanakuli in the first row with an area of 3.61 square miles.<br/><br/>This value completes the passage's two concrete examples of smaller home lands.<br/><br/>Choices A, C, and D list other home lands from the table (Kahikiau, Waimea, and Kawaihae) but not Nanakuli. <br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

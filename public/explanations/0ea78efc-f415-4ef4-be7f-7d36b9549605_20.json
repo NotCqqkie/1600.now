@@ -1,15 +1,1 @@
-{
-  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the unclosed parenthetical",
-      "content": "The phrase <strong>\u201cmustang\u201d (a wild horse)</strong> properly closes its parenthetical, but <strong>\u201crodeo\u201d (a ______</strong> leaves the parenthetical open\u2014there's an opening parenthesis with no closing match."
-    },
-    {
-      "title": "Close the parenthetical",
-      "content": "A parenthetical expression that begins with an opening parenthesis must close with a matching closing parenthesis. Choice B, <strong>roundup)</strong>, closes the parenthetical and mirrors the first example's structure. Choices A, C, and D leave the parenthesis unclosed by using comma, semicolon, or em-dash instead. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the unclosed parenthetical", "content": "The phrase <strong>“mustang” (a wild horse)</strong> properly closes its parenthetical, but <strong>“rodeo” (a ______</strong> leaves the parenthetical open—there's an opening parenthesis with no closing match."}, {"title": "Close the parenthetical", "content": "A parenthetical expression that begins with an opening parenthesis must close with a matching closing parenthesis.<br/><br/>Choice B, <strong>roundup)</strong>, closes the parenthetical and mirrors the first example's structure.<br/><br/>Choices A, C, and D leave the parenthesis unclosed by using comma, semicolon, or em-dash instead.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

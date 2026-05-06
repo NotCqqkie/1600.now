@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first sentence establishes that <em>Najas marina</em> thrives in nickel soil\u2014an exceptional ability compared to other plants. The second sentence explains the mechanism: it's a hyperaccumulator that absorbs nickel. This is elaboration, not a consequence or contradiction."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dWhat's more\u201d signals the introduction of additional information that elaborates on or extends the previous point. A implies the hyperaccumulation is a consequence of thriving (backwards), B and D wrongly suggest the second sentence contradicts or opposes the first. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The first sentence establishes that <em>Najas marina</em> thrives in nickel soil—an exceptional ability compared to other plants. The second sentence explains the mechanism: it's a hyperaccumulator that absorbs nickel. This is elaboration, not a consequence or contradiction."}, {"title": "Match the meaning", "content": "”What's more” signals the introduction of additional information that elaborates on or extends the previous point.<br/><br/>A implies the hyperaccumulation is a consequence of thriving (backwards), B and D wrongly suggest the second sentence contradicts or opposes the first.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

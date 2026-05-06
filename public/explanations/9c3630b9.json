@@ -1,15 +1,1 @@
-{
-  "questionId": "9c3630b9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure of the compound list",
-      "content": "The sentence lists multiple materials using the format \u201c[Category], such as [example].\u201d Because each item in the list contains both a category and an example, each item has an internal comma. The blank follows \u201cdried\u201d and precedes \u201csuch as plastic bags,\u201d indicating that the blank should contain one or more items from this list."
-    },
-    {
-      "title": "Apply the semicolon rule for complex lists",
-      "content": "When list items each contain internal punctuation (commas), the items must be separated from each other by semicolons, not commas. B uses \u201cleaves; man-made trash,\u201d to create: \u201cnatural debris, such as dried leaves; man-made trash, such as plastic bags; and more traditional art supplies, such as tree glue.\u201d This produces three semicolon-separated items, each properly formatted. C fails by using only commas to separate items, which blurs boundaries when nested \u201csuch as\u201d phrases are involved. A and D apply wrong punctuation marks (colon and extra semicolon). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9c3630b9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure of the compound list", "content": "The sentence lists multiple materials using the format “[Category], such as [example].” Because each item in the list contains both a category and an example, each item has an internal comma.<br/><br/>The blank follows “dried” and precedes “such as plastic bags,” indicating that the blank should contain one or more items from this list."}, {"title": "Apply the semicolon rule for complex lists", "content": "When list items each contain internal punctuation (commas), the items must be separated from each other by semicolons, not commas.<br/><br/>B uses “leaves; man-made trash,” to create: “natural debris, such as dried leaves; man-made trash, such as plastic bags; and more traditional art supplies, such as tree glue.” This produces three semicolon-separated items, each properly formatted.<br/><br/>C fails by using only commas to separate items, which blurs boundaries when nested “such as” phrases are involved.<br/><br/>A and D apply wrong punctuation marks (colon and extra semicolon).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

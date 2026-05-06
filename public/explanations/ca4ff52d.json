@@ -1,15 +1,1 @@
-{
-  "questionId": "ca4ff52d",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what needs to happen",
-      "content": "The goal is explicit: \u201cemphasize a difference between the two muslins.\u201d The decisive clue is that any correct answer must present both Dhaka muslin and sheeting muslin side-by-side and highlight their key differences\u2014not just mention one or assert they're different."
-    },
-    {
-      "title": "Find the sentence that contrasts both types",
-      "content": "Choice A uses <strong>while</strong> to directly contrast the two types on their key differences\u2014handmade with fine weave versus machine-made with coarse weave\u2014accomplishing the goal. Choices B, C, and D fail the goal: B asserts difference without showing it, C addresses uses instead of types, and D presents only one type. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ca4ff52d", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what needs to happen", "content": "The goal is explicit: “emphasize a difference between the two muslins.” The decisive clue is that any correct answer must present both Dhaka muslin and sheeting muslin side-by-side and highlight their key differences—not just mention one or assert they're different."}, {"title": "Find the sentence that contrasts both types", "content": "Choice A uses <strong>while</strong> to directly contrast the two types on their key differences—handmade with fine weave versus machine-made with coarse weave—accomplishing the goal.<br/><br/>Choices B, C, and <ul><li>D fail the goal: B asserts difference without showing it</li><li>C addresses uses instead of types</li><li>D presents only one type</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

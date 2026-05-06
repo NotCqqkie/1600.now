@@ -1,15 +1,1 @@
-{
-  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the past time reference",
-      "content": "The phrase \u201cin 1868\u201d establishes a specific point in the past, signaling that the verb must express a completed historical action."
-    },
-    {
-      "title": "Apply the finite verb rule",
-      "content": "A main clause requires a finite verb in simple past tense for a specific past event. <strong>B</strong> (began) is the only finite, past-tense form here. The other choices are non-finite forms (infinitive, participles) that cannot function as main verbs.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the past time reference", "content": "The phrase “in 1868” establishes a specific point in the past, signaling that the verb must express a completed historical action."}, {"title": "Apply the finite verb rule", "content": "A main clause requires a finite verb in simple past tense for a specific past event. <strong>B</strong> (began) is the only finite, past-tense form here.<br/><br/>The other choices are non-finite forms (infinitive, participles) that cannot function as main verbs.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

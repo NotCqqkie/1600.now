@@ -1,15 +1,1 @@
-{
-  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The second sentence claims that \u201ctime did not stand still during these intervening years\u201d\u2014explaining why the material is missing. This is not contradicting the first sentence; it's the natural explanation for the observed missing material."
-    },
-    {
-      "title": "Apply the transition",
-      "content": "\u201dOf course\u201d signals that geological activity during the intervening years is the natural, expected explanation for the missing material. The other three choices fail: \u201cOn the contrary\u201d wrongly suggests contradiction, \u201cAs a result\u201d reverses the causality, and \u201cIn particular\u201d introduces an irrelevant detail. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The second sentence claims that “time did not stand still during these intervening years”—explaining why the material is missing. This is not contradicting the first sentence; it's the natural explanation for the observed missing material."}, {"title": "Apply the transition", "content": "”Of course” signals that geological activity during the intervening years is the natural, expected explanation for the missing material.<br/><br/>The other three choices fail: “On the contrary” wrongly suggests contradiction, “As a result” reverses the causality, and “In particular” introduces an irrelevant detail.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

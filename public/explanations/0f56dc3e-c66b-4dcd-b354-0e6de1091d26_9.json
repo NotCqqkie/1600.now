@@ -1,15 +1,1 @@
-{
-  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key causal contrast",
-      "content": "The passage's key signal is the contrast between two competing explanations: Philip's defaults were caused by short-term liquidity crises, <strong>not</strong> long-term unsustainable debts. This reveals the research's value\u2014newly compiled evidence that eliminates one explanation and confirms another."
-    },
-    {
-      "title": "Match to the answer",
-      "content": "Choice A captures this exactly: they used newly compiled evidence to eliminate one possible reason Philip defaulted and affirm another. The remaining choices either reverse the causal relationship or misidentify the source of the hypothesis. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key causal contrast", "content": "The passage's key signal is the contrast between two competing explanations: Philip's defaults were caused by short-term liquidity crises, <strong>not</strong> long-term unsustainable debts.<br/><br/>This reveals the research's value—newly compiled evidence that eliminates one explanation and confirms another."}, {"title": "Match to the answer", "content": "Choice A captures this exactly: they used newly compiled evidence to eliminate one possible reason Philip defaulted and affirm another. The remaining choices either reverse the causal relationship or misidentify the source of the hypothesis. That matches choice A — <strong>A</strong> is correct."}]}

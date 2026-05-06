@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence boundary",
-      "content": "The text describes two minerals. The first sentence is about krotite (classified as <strong>transparent</strong>). The second sentence is about beryl, beginning with a participial phrase: <em>Allowing only some light to pass through</em>, which modifies beryl. So a sentence break is needed after <strong>transparent</strong>."
-    },
-    {
-      "content": "Choice A uses a period and capitalizes <em>Allowing</em>, correctly ending the krotite sentence and starting a new sentence whose participial phrase modifies <em>beryl</em>. Choice B has no punctuation (run-on), C has only a comma (comma splice between independent clauses), and D inserts <em>and</em> in a way that doesn't connect the two clauses correctly. That matches choice A — <strong>A</strong> is correct.",
-      "title": "Apply the boundary punctuation"
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence boundary", "content": "The text describes two minerals. The first sentence is about krotite (classified as <strong>transparent</strong>).<br/><br/>The second sentence is about beryl, beginning with a participial phrase: <em>Allowing only some light to pass through</em>, which modifies beryl.<br/><br/>So a sentence break is needed after <strong>transparent</strong>."}, {"content": "Choice A uses a period and capitalizes <em>Allowing</em>, correctly ending the krotite sentence and starting a new sentence whose participial phrase modifies <em>beryl</em>.<br/><br/>Choice <ul><li>B has no punctuation (run-on)</li><li>C has only a comma (comma splice between independent clauses)</li><li>D inserts <em>and</em> in a way that doesn't connect the two clauses correctly</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct.", "title": "Apply the boundary punctuation"}]}

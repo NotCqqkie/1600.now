@@ -1,15 +1,1 @@
-{
-  "questionId": "df34b586",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signal",
-      "content": "The passage needs an example showing that demand \u201cgrew significantly\u201d\u2014the blank should display growth."
-    },
-    {
-      "title": "Match the data to the signal",
-      "content": "The Philippines sales jumped from roughly 3,000 in 1908 to 45,000 in 1918, directly demonstrating the growth the passage describes. The other three countries show flat, stable, or declining sales patterns throughout the period, contradicting the growth narrative. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df34b586", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signal", "content": "The passage needs an example showing that demand “grew significantly”—the blank should display growth."}, {"title": "Match the data to the signal", "content": "The Philippines sales jumped from roughly 3,000 in 1908 to 45,000 in 1918, directly demonstrating the growth the passage describes.<br/><br/>The other three countries show flat, stable, or declining sales patterns throughout the period, contradicting the growth narrative.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

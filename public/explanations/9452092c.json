@@ -1,15 +1,1 @@
-{
-  "questionId": "9452092c",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what would contradict the setup",
-      "content": "The student expected the two mycorrhizal hosts to benefit substantially from fungi while the non-mycorrhizal species (broccoli) would not benefit or be harmed. The surprising finding would be data that contradicts this prior knowledge."
-    },
-    {
-      "title": "Find which data point contradicts expectations",
-      "content": "Broccoli (non-mycorrhizal) with fungi measured 7.5 g versus 7 g without fungi\u2014a slight benefit from fungi despite being a non-host. This contradicts the expectation that non-hosts don't benefit from mycorrhizal fungi and would genuinely surprise the student. The other choices either describe expected results (B: hosts outperforming non-hosts; C: hosts benefiting substantially) or misstate the data (D claims corn was highest in treated soil when broccoli actually was). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9452092c", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what would contradict the setup", "content": "The student expected the two mycorrhizal hosts to benefit substantially from fungi while the non-mycorrhizal species (broccoli) would not benefit or be harmed. The surprising finding would be data that contradicts this prior knowledge."}, {"title": "Find which data point contradicts expectations", "content": "Broccoli (non-mycorrhizal) with fungi measured 7.5 g versus 7 g without fungi—a slight benefit from fungi despite being a non-host.<br/><br/>This contradicts the expectation that non-hosts don't benefit from mycorrhizal fungi and would genuinely surprise the student.<br/><br/>The other choices either describe expected results (B: hosts outperforming non-hosts; C: hosts benefiting substantially) or misstate the data (D claims corn was highest in treated soil when broccoli actually was).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

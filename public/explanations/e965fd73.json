@@ -1,15 +1,1 @@
-{
-  "questionId": "e965fd73",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The first sentence establishes a general claim: Singletary \u201coften collaborates with other artists.\u201d The next sentence then provides a specific case: \u201che has worked with Tewa pottery artist Jody Naranjo several times.\u201d"
-    },
-    {
-      "title": "Match the transition",
-      "content": "<em>For example</em> directly signals that Naranjo is one concrete instance of the broader collaboration pattern. The other choices misread the relationship: <em>In conclusion</em> suggests the passage is ending, <em>However</em> introduces a false contradiction, and <em>In comparison</em> creates an inappropriate comparison. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e965fd73", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first sentence establishes a general claim: Singletary “often collaborates with other artists.” The next sentence then provides a specific case: “he has worked with Tewa pottery artist Jody Naranjo several times.”"}, {"title": "Match the transition", "content": "<em>For example</em> directly signals that Naranjo is one concrete instance of the broader collaboration pattern.<br/><br/>The other choices misread the relationship: <em>In conclusion</em> suggests the passage is ending, <em>However</em> introduces a false contradiction, and <em>In comparison</em> creates an inappropriate comparison.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

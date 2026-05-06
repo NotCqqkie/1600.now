@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The first two sentences explain that Roman numerals on Jupiter's moons indicate <em>naming order</em>, not distance. The blank sits inside a follow-up that draws the inference: <em>It is incorrect to assume, ______ that Elara is the seventh moon from Jupiter in terms of proximity.</em> The transition needs to mark this as a <strong>conclusion drawn from</strong> the prior facts."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "<strong>then,</strong> introduces an inference or consequence — exactly what is needed here, since the conclusion follows from the explanation that came before.<br/><br/><strong>however,</strong> would signal contrast, but the sentence is not opposing the prior fact — it is reasoning from it.<br/><strong>moreover,</strong> would add a new related point, not draw a conclusion.<br/><strong>finally,</strong> would close a sequence, which doesn't fit either.<br/><br/>The answer is <strong>B</strong>."
-    }
-  ]
-}
+{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first two sentences explain that Roman numerals on Jupiter's moons indicate <em>naming order</em>, not distance.<br/><br/>The blank sits inside a follow-up that draws the inference: <em>It is incorrect to assume, ______ that Elara is the seventh moon from Jupiter in terms of proximity.</em> The transition needs to mark this as a <strong>conclusion drawn from</strong> the prior facts."}, {"title": "Match the signal to the choices", "content": "<strong>then,</strong> introduces an inference or consequence — exactly what is needed here, since the conclusion follows from the explanation that came before.<br/><br/><strong>however,</strong> would signal contrast, but the sentence is not opposing the prior fact — it is reasoning from it.<br/><strong>moreover,</strong> would add a new related point, not draw a conclusion.<br/><strong>finally,</strong> would close a sequence, which doesn't fit either.<br/><br/>The answer is <strong>B</strong>."}]}

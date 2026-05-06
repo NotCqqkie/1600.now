@@ -1,15 +1,1 @@
-{
-  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_3",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The contrast word <strong>but</strong> marks the turning point. Faggio's research shows that \u201ccertain factors influence some industry groupings <strong>more strongly than others</strong>\u201c\u2014meaning the strength of these factors varies across sectors. The economists must have assumed something different."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Consistent</strong> expresses the assumption that reasons for clustering are the same across all sectors\u2014exactly what economists believed before Faggio contradicted them. <strong>Variable</strong> would describe what Faggio actually found (varying strength), not what economists incorrectly assumed; <strong>combined</strong> and <strong>artificial</strong> don't fit the context. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The contrast word <strong>but</strong> marks the turning point.<br/><br/>Faggio's research shows that “certain factors influence some industry groupings <strong>more strongly than others</strong>“—meaning the strength of these factors varies across sectors.<br/><br/>The economists must have assumed something different."}, {"title": "Match the meaning", "content": "<strong>Consistent</strong> expresses the assumption that reasons for clustering are the same across all sectors—exactly what economists believed before Faggio contradicted them. <strong>Variable</strong> would describe what Faggio actually found (varying strength), not what economists incorrectly assumed; <strong>combined</strong> and <strong>artificial</strong> don't fit the context.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

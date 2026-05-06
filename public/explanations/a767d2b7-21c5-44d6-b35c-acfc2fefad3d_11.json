@@ -1,15 +1,1 @@
-{
-  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the absence signal",
-      "content": "The passage states <em>\u201cthey did not observe even one\u201d</em> \u2014 the blank needs a species and time period where the graph shows zero individuals. Reading the graph: barred flagtail (solid line) shows 15, 10, 8, and 16 individuals across the four months; combtooth blenny (dotted line) shows 62, 3, 3, and 2 individuals. Only the lined rockskipper (dashed line with squares) sits at zero for all four months \u2014 January, April, July, and October."
-    },
-    {
-      "title": "Match the zero readings",
-      "content": "The lined rockskipper is the only species that was entirely absent (zero observations) from the tide pool. Choice D correctly names this species and specifically references two of the months\u2014April and July 2001\u2014where the graph shows zero individuals observed. Choices A, B, and C all cite months where their respective species were actually present in measurable numbers, making them factually incorrect. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the absence signal", "content": "The passage states <em>“they did not observe even one”</em> — the blank needs a species and time period where the graph shows zero individuals.<br/><br/>Reading the graph: barred flagtail (solid line) shows 15, 10, 8, and 16 individuals across the four months; combtooth blenny (dotted line) shows 62, 3, 3, and 2 individuals.<br/><br/>Only the lined rockskipper (dashed line with squares) sits at zero for all four months — January, April, July, and October."}, {"title": "Match the zero readings", "content": "The lined rockskipper is the only species that was entirely absent (zero observations) from the tide pool.<br/><br/>Choice D correctly names this species and specifically references two of the months—April and July 2001—where the graph shows zero individuals observed.<br/><br/>Choices A, B, and C all cite months where their respective species were actually present in measurable numbers, making them factually incorrect.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

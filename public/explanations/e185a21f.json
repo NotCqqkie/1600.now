@@ -1,15 +1,1 @@
-{
-  "questionId": "e185a21f",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage contrasts two theories of bipedalism\u2019s origin: ground-based knuckle-walking and tree-based observations in orangutans. The decisive signal is the contrast word \"But\" introducing the orangutan example as an alternative to the ground-based theory."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A suggests that bipedalism could have evolved advantageous for tree-dwelling ancestors, directly aligning with the orangutan evidence as an alternative to the ground-based theory. The other three either reverse the relationship (B, C) or conflate knuckle-walking with tree movement (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e185a21f", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage contrasts two theories of bipedalism’s origin: ground-based knuckle-walking and tree-based observations in orangutans. The decisive signal is the contrast word \"But\" introducing the orangutan example as an alternative to the ground-based theory."}, {"title": "Match the meaning", "content": "Choice A suggests that bipedalism could have evolved advantageous for tree-dwelling ancestors, directly aligning with the orangutan evidence as an alternative to the ground-based theory.<br/><br/>The other three either reverse the relationship (B, C) or conflate knuckle-walking with tree movement (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

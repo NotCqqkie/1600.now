@@ -1,15 +1,1 @@
-{
-  "questionId": "8f3a200e",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive contrast",
-      "content": "The passage contrasts two findings: on <strong>rocky planets</strong>, detectable NH\u2083 requires biological activity; on <strong>mini-Neptunes</strong>, it forms naturally from atmospheric conditions."
-    },
-    {
-      "title": "Apply the distinction to the choices",
-      "content": "Since NH\u2083's origin differs by planet type, the researchers would treat it as a <strong>biosignature on rocky planets</strong> (where it indicates life) but <strong>not on mini-Neptunes</strong> (where it occurs naturally)\u2014the exact distinction in choice C. The other three ignore this distinction, reverse its implications, or contradict the passage's claim about natural formation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8f3a200e", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the decisive contrast", "content": "The passage contrasts two findings: on <strong>rocky planets</strong>, detectable NH₃ requires biological activity; on <strong>mini-Neptunes</strong>, it forms naturally from atmospheric conditions."}, {"title": "Apply the distinction to the choices", "content": "Since NH₃'s origin differs by planet type, the researchers would treat it as a <strong>biosignature on rocky planets</strong> (where it indicates life) but <strong>not on mini-Neptunes</strong> (where it occurs naturally)—the exact distinction in choice C.<br/><br/>The other three ignore this distinction, reverse its implications, or contradict the passage's claim about natural formation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

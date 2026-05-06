@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contradiction to the hypothesis",
-      "content": "The hypothesis claims the association exists only in undisturbed waters (based on Gu\u00e9dron's wastewater-disturbed findings showing no association). But Tjerngren found the association in urban-development-disturbed waters, contradicting the hypothesis."
-    },
-    {
-      "title": "Interpret the logical consequence",
-      "content": "Since different disturbances produce different results on the association\u2014wastewater breaks it; urban development preserves it\u2014Gu\u00e9dron's findings don't represent all disturbances. A directly states this: wastewater's effects shouldn't be taken as indicative of all human disturbances. The other three either invent methodological differences (B), make unsupported claims about scale (C), or misread what levels were compared (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contradiction to the hypothesis", "content": "The hypothesis claims the association exists only in undisturbed waters (based on Guédron's wastewater-disturbed findings showing no association). But Tjerngren found the association in urban-development-disturbed waters, contradicting the hypothesis."}, {"title": "Interpret the logical consequence", "content": "Since different disturbances produce different results on the association—wastewater breaks it; urban development preserves it—Guédron's findings don't represent all disturbances.<br/><br/>A directly states this: wastewater's effects shouldn't be taken as indicative of all human disturbances.<br/><br/>The other three either invent methodological differences (B), make unsupported claims about scale (C), or misread what levels were compared (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

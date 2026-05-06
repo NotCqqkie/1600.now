@@ -1,15 +1,1 @@
-{
-  "questionId": "dd1757fd",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The underlined sentence uses a strong contrast \u2014 'has less to do with similarity between the neural networks and biological brains than it does with the rules programmed into the networks.' This shift signals the claim: the grid-cell-like behavior in networks stems from programmed rules, not from their resemblance to actual brains."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A directly supports this claim by stating that the programmed rules used to mimic grid cells have no biological equivalent. This proves the networks\u2019 behavior is due to their programming, not brain-like structure. The other three choices either ignore the contrast entirely (B, D) or discuss unrelated aspects of network behavior (C). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dd1757fd", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The underlined sentence uses a strong contrast — 'has less to do with similarity between the neural networks and biological brains than it does with the rules programmed into the networks.' This shift signals the claim: the grid-cell-like behavior in networks stems from programmed rules, not from their resemblance to actual brains."}, {"title": "Match the meaning", "content": "Choice A directly supports this claim by stating that the programmed rules used to mimic grid cells have no biological equivalent.<br/><br/>This proves the networks’ behavior is due to their programming, not brain-like structure.<br/><br/>The other three choices either ignore the contrast entirely (B, D) or discuss unrelated aspects of network behavior (C).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

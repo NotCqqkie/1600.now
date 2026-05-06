@@ -1,15 +1,1 @@
-{
-  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage directly states why the kiwikiu is highly specialized: it \u201cbecame highly specialized as it adapted to survive in a specific island habitat.\u201d"
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Choice B directly matches the passage's explanation \u2014 adaptation to a specific habitat is why the kiwikiu became specialized. The other three either add unsupported details (isolation in A, cohabitation in C) or mistake a consequence for a cause (stressors in D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage directly states why the kiwikiu is highly specialized: it “became highly specialized as it adapted to survive in a specific island habitat.”"}, {"title": "Match the meaning to the choices", "content": "Choice B directly matches the passage's explanation — adaptation to a specific habitat is why the kiwikiu became specialized.<br/><br/>The other three either add unsupported details (isolation in A, cohabitation in C) or mistake a consequence for a cause (stressors in D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

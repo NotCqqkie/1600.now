@@ -1,15 +1,1 @@
-{
-  "questionId": "6fac7f45",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what follows the blank",
-      "content": "After the blank is a description that shows <strong>how</strong> the painting uses the spectrum: a swimmer with rainbow goggles splashing through rainbow water. This description elaborates on the preceding statement about using the spectrum."
-    },
-    {
-      "title": "Choose punctuation for elaboration",
-      "content": "A colon introduces an elaboration or example of a preceding statement. The description of the swimmer elaborates on <strong>how</strong> the painting achieves its goal of using the spectrum, making the colon the correct choice. Options A, C, and D either lack proper punctuation or use <strong>while</strong> to signal a temporal relationship rather than elaboration. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6fac7f45", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what follows the blank", "content": "After the blank is a description that shows <strong>how</strong> the painting uses the spectrum: a swimmer with rainbow goggles splashing through rainbow water. This description elaborates on the preceding statement about using the spectrum."}, {"title": "Choose punctuation for elaboration", "content": "A colon introduces an elaboration or example of a preceding statement.<br/><br/>The description of the swimmer elaborates on <strong>how</strong> the painting achieves its goal of using the spectrum, making the colon the correct choice.<br/><br/>Options A, C, and D either lack proper punctuation or use <strong>while</strong> to signal a temporal relationship rather than elaboration.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

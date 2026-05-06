@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the outcome Henry found",
-      "content": "Economists predicted that liberalization would help companies raise money. Henry examined 11 countries and found that companies received significant investment increases following liberalization. This is the exact outcome that was predicted."
-    },
-    {
-      "title": "Match this finding to the correct answer",
-      "content": "D states that empirical evidence was consistent with the scholarly consensus about liberalization's consequences. A misreads when benefits occurred, B invents unsupported negative effects, and C speculates beyond the evidence provided. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the outcome Henry found", "content": "Economists predicted that liberalization would help companies raise money. Henry examined 11 countries and found that companies received significant investment increases following liberalization. This is the exact outcome that was predicted."}, {"title": "Match this finding to the correct answer", "content": "D states that empirical evidence was consistent with the scholarly consensus about liberalization's consequences. <ul><li>A misreads when benefits occurred</li><li>B invents unsupported negative effects</li><li>C speculates beyond the evidence provided</li></ul>. This matches choice D — <strong>D</strong> is correct."}]}

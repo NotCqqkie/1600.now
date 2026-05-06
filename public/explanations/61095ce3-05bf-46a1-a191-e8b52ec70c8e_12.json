@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the evidence distribution",
-      "content": "The passage presents multiple studies\u2014North American and international (Finland and others)\u2014that found a positive association between dissolved organic carbon and mercury. The Brazil study is the outlier: no correlation. The critical detail is \u201cfew have produced results similar to those of Fagnani, Guimara, and Fadini's study,\u201d meaning few studies matched Brazil's result. This distribution\u2014many confirming the positive association, few dissenting\u2014is the decisive signal."
-    },
-    {
-      "title": "Apply the distribution to the choices",
-      "content": "C states the positive association is typical. This exactly matches: when most studies show a pattern and few show the opposite, the pattern is typical. A wrongly claims the association is particular to North America, contradicted by Finland's findings. B misinterprets Pyhtil\u00e4's study as having measurement problems, when it actually confirmed the positive association. D addresses absolute concentration levels rather than correlation, which is not the passage's focus. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the evidence distribution", "content": "The passage presents multiple studies—North American and international (Finland and others)—that found a positive association between dissolved organic carbon and mercury.<br/><br/>The Brazil study is the outlier: no correlation. The critical detail is “few have produced results similar to those of Fagnani, Guimara, and Fadini's study,” meaning few studies matched Brazil's result.<br/><br/>This distribution—many confirming the positive association, few dissenting—is the decisive signal."}, {"title": "Apply the distribution to the choices", "content": "C states the positive association is typical. This exactly matches: when most studies show a pattern and few show the opposite, the pattern is typical.<br/><br/>A wrongly claims the association is particular to North America, contradicted by Finland's findings.<br/><br/>B misinterprets Pyhtilä's study as having measurement problems, when it actually confirmed the positive association.<br/><br/>D addresses absolute concentration levels rather than correlation, which is not the passage's focus.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

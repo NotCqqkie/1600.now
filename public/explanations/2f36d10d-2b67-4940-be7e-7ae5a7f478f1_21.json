@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_21",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the clause types",
-      "content": "Left of the blank: \u201cThat the geographic center of North America lay in the state of North Dakota was conceded by all\u201d is a clause that can stand on its own (the \u2018That\u2026\u2019 part serves as the subject).<br/>Right of the blank: \u201cestablishing its precise coordinates proved more divisive\u201d is also a clause that can stand on its own (the gerund phrase 'establishing \u2026' serves as the subject)."
-    },
-    {
-      "title": "Pick the punctuation",
-      "content": "A semicolon separates two independent clauses, so choice C (\u201cinvolved;\u201d) correctly joins the clauses.<br/>Choices A, B, and D each fail: A lacks punctuation creating a run\u2011on, B uses a colon which requires an explanation or list, and D uses only a comma causing a comma splice.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the clause types", "content": "Left of the blank: “That the geographic center of North America lay in the state of North Dakota was conceded by all” is a clause that can stand on its own (the ‘That…’ part serves as the subject).<br/>Right of the blank: “establishing its precise coordinates proved more divisive” is also a clause that can stand on its own (the gerund phrase 'establishing …' serves as the subject)."}, {"title": "Pick the punctuation", "content": "A semicolon separates two independent clauses, so choice C (“involved;”) correctly joins the clauses.<br/>Choices A, B, and <ul><li>D each fail: A lacks punctuation creating a run‑on</li><li>B uses a colon which requires an explanation or list</li><li>D uses only a comma causing a comma splice</li></ul>.<br/>That matches choice C — <strong>C</strong> is correct."}]}

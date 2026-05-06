@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast in orbital positions",
-      "content": "The first sentence emphasizes that the JWST orbits almost one million miles beyond Earth. The next sentence introduces the Hubble Telescope, which orbits only 340 miles above Earth. The key signal is the sharp opposition in distance."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<strong>By contrast</strong> explicitly marks opposition between two positions\u2014exactly what the passage needs. The other three choices signal consequence (Therefore), similarity (Similarly), or enumeration (Secondly), none of which describe opposing orbital distances. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast in orbital positions", "content": "The first sentence emphasizes that the JWST orbits almost one million miles beyond Earth. The next sentence introduces the Hubble Telescope, which orbits only 340 miles above Earth. The key signal is the sharp opposition in distance."}, {"title": "Apply the signal to the choices", "content": "<strong>By contrast</strong> explicitly marks opposition between two positions—exactly what the passage needs.<br/><br/>The other three choices signal consequence (Therefore), similarity (Similarly), or enumeration (Secondly), none of which describe opposing orbital distances.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

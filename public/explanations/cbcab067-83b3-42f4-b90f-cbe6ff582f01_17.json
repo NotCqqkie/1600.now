@@ -1,15 +1,1 @@
-{
-  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The noun phrase <em>liquid compounds</em> is followed by an appositive phrase naming hexafluorobenzene and benzene. This appositive identifies which specific compounds have those molar masses\u2014it's essential identifying information."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Appositives that are essential to identifying a noun use no commas. The compound names identify which compounds, so they must run directly after <em>compounds</em> without punctuation. Choices A, B, and C all use commas, treating the names as optional information. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The noun phrase <em>liquid compounds</em> is followed by an appositive phrase naming hexafluorobenzene and benzene. This appositive identifies which specific compounds have those molar masses—it's essential identifying information."}, {"title": "Apply the punctuation rule", "content": "Appositives that are essential to identifying a noun use no commas.<br/><br/>The compound names identify which compounds, so they must run directly after <em>compounds</em> without punctuation.<br/><br/>Choices A, B, and C all use commas, treating the names as optional information.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "9f737b2a",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify which nouns require possessive forms",
-      "content": "The passage names \u201cRacetrack Playa\u201d (singular) and describes \u201c162 rocks\u201d (plural). The sentence must form two possessions: the sediment of the playa and the migration of the rocks."
-    },
-    {
-      "title": "Match singular and plural possessive forms",
-      "content": "Singular nouns form the possessive with 's; plural nouns with s' (apostrophe only). C correctly pairs <strong>playa's</strong> (singular) with <strong>rocks'</strong> (plural). B omits the possessive on \u201crocks,\u201d and D incorrectly uses plural form \u201cplayas'\u201d for the one playa. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f737b2a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify which nouns require possessive forms", "content": "The passage names “Racetrack Playa” (singular) and describes “162 rocks” (plural). The sentence must form two possessions: the sediment of the playa and the migration of the rocks."}, {"title": "Match singular and plural possessive forms", "content": "Singular nouns form the possessive with 's; plural nouns with s' (apostrophe only).<br/><br/>C correctly pairs <strong>playa's</strong> (singular) with <strong>rocks'</strong> (plural).<br/><br/>B omits the possessive on “rocks,” and D incorrectly uses plural form “playas'” for the one playa.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

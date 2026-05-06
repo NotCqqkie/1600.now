@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the past event sequence",
-      "content": "The sentence describes a film the critic least enjoyed <strong>before</strong> a past event (watching <em>The Maltese Falcon</em>). The verb following 'enjoyed' must reflect an action that occurred <em>earlier than</em> another past action."
-    },
-    {
-      "title": "Apply past perfect tense for sequential past actions",
-      "content": "B uses 'had been' to show the disapproval of <em>Slumdog Millionaire</em> happened before the critic watched <em>The Maltese Falcon</em>. Past perfect (had + past participle) is required to sequence events. A and C violate time order (present perfect/present tense). D misuses past continuous. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the past event sequence", "content": "The sentence describes a film the critic least enjoyed <strong>before</strong> a past event (watching <em>The Maltese Falcon</em>). The verb following 'enjoyed' must reflect an action that occurred <em>earlier than</em> another past action."}, {"title": "Apply past perfect tense for sequential past actions", "content": "B uses 'had been' to show the disapproval of <em>Slumdog Millionaire</em> happened before the critic watched <em>The Maltese Falcon</em>.<br/><br/>Past perfect (had + past participle) is required to sequence events.<br/><br/>A and C violate time order (present perfect/present tense). D misuses past continuous. That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal structure",
-      "content": "\u201dWhen we arrived\u201d is a past-tense dependent clause introducing the main clause beginning with \u201cwe.\u201d"
-    },
-    {
-      "title": "Apply verb tense consistency",
-      "content": "Verbs in dependent and main clauses must match in tense. \u201cNoticed\u201d (past, choice D) aligns with \u201carrived\u201d to show both actions occurred simultaneously. Choices A, B, and C shift to present, present continuous, or future tense, breaking the required consistency. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal structure", "content": "”When we arrived” is a past-tense dependent clause introducing the main clause beginning with “we.”"}, {"title": "Apply verb tense consistency", "content": "Verbs in dependent and main clauses must match in tense. “Noticed” (past, choice D) aligns with “arrived” to show both actions occurred simultaneously.<br/><br/>Choices A, B, and C shift to present, present continuous, or future tense, breaking the required consistency.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

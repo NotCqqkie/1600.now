@@ -1,15 +1,1 @@
-{
-  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_10",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "<strong>Least suited to a full migration to the mesophotic zone</strong> means we look for the coral whose current depth range stays the shallowest, i.e., the one with the smallest maximum depth, because it is farthest from the 30\u2011meter start of the mesophotic zone."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<strong>Plerogyra discus</strong> has a maximum depth of only 15\u202fm, the lowest maximum depth among the choices, so it is the least able to reach the mesophotic zone. The other three either have greater maximum depths or cite minimum depth, which does not show a limitation on going deeper.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "<strong>Least suited to a full migration to the mesophotic zone</strong> means we look for the coral whose current depth range stays the shallowest, i.e., the one with the smallest maximum depth, because it is farthest from the 30‑meter start of the mesophotic zone."}, {"title": "Apply the signal to the choices", "content": "<strong>Plerogyra discus</strong> has a maximum depth of only 15 m, the lowest maximum depth among the choices, so it is the least able to reach the mesophotic zone.<br/><br/>The other three either have greater maximum depths or cite minimum depth, which does not show a limitation on going deeper.<br/>That matches choice B — <strong>B</strong> is correct."}]}

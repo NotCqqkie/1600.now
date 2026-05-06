@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot what refutation requires",
-      "content": "To refute the \u201cboring\u201d claim using a quotation, the answer must explicitly reject that characterization and use Heller's praise as evidence."
-    },
-    {
-      "title": "Find the working refutation",
-      "content": "C opens by directly rejecting the boring claim, then uses Heller's quotation as supporting evidence. A uses the quotation but never addresses the boring claim; B presents both viewpoints without actually refuting; D reinforces the boring claim rather than opposing it. Only C combines explicit refutation with the supporting quotation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot what refutation requires", "content": "To refute the “boring” claim using a quotation, the answer must explicitly reject that characterization and use Heller's praise as evidence."}, {"title": "Find the working refutation", "content": "C opens by directly rejecting the boring claim, then uses Heller's quotation as supporting evidence.<br/><br/><ul><li>A uses the quotation but never addresses the boring claim</li><li>B presents both viewpoints without actually refuting</li><li>D reinforces the boring claim rather than opposing it</li></ul>.<br/><br/>Only C combines explicit refutation with the supporting quotation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

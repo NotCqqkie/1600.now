@@ -1,15 +1,1 @@
-{
-  "questionId": "92fe0ed7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first sentence establishes Mauna Loa as the <strong>long-considered</strong> largest shield volcano. The second sentence introduces a new, contradictory claim <em>according to a 2020 study</em> that P\u016bh\u0101honu is <strong>significantly larger</strong>. The key signal is the <strong>contrast</strong> between an established belief and a conflicting new claim."
-    },
-    {
-      "title": "Match the transition to the signal",
-      "content": "The correct transition must signal this contrast <em>clearly</em>. \"However\" directly matches the opposing relationship between the two claims. The other three choices \u2014 \"Secondly,\" \"Consequently,\" and \"Moreover\" \u2014 all imply <strong>addition or support</strong>, which contradicts the passage\u2019s contradictory structure. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "92fe0ed7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The first sentence establishes Mauna Loa as the <strong>long-considered</strong> largest shield volcano.<br/><br/>The second sentence introduces a new, contradictory claim <em>according to a 2020 study</em> that Pūhāhonu is <strong>significantly larger</strong>.<br/><br/>The key signal is the <strong>contrast</strong> between an established belief and a conflicting new claim."}, {"title": "Match the transition to the signal", "content": "The correct transition must signal this contrast <em>clearly</em>. \"However\" directly matches the opposing relationship between the two claims.<br/><br/>The other three choices — \"Secondly,\" \"Consequently,\" and \"Moreover\" — all imply <strong>addition or support</strong>, which contradicts the passage’s contradictory structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

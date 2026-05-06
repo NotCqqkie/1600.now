@@ -1,15 +1,1 @@
-{
-  "questionId": "80aa7690",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "The blank contains two noun elements: \u201clinguist\u201d (a common noun) and \u201cDiane Massam\u201d (a proper name). The name immediately follows the title, creating an appositive\u2014a grammatical structure where one noun renames or specifies another."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "A restrictive appositive takes no comma. Since \u201cDiane Massam\u201d is essential to identifying which linguist (it specifies a particular person), it's restrictive, so no punctuation should separate it from \u201clinguist.\u201d Options A and B violate this by adding commas; option D adds a colon, which is inappropriate. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "80aa7690", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "The blank contains two noun elements: “linguist” (a common noun) and “Diane Massam” (a proper name). The name immediately follows the title, creating an appositive—a grammatical structure where one noun renames or specifies another."}, {"title": "Apply the restrictive appositive rule", "content": "A restrictive appositive takes no comma. Since “Diane Massam” is essential to identifying which linguist (it specifies a particular person), it's restrictive, so no punctuation should separate it from “linguist.” Options A and B violate this by adding commas; option D adds a colon, which is inappropriate.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

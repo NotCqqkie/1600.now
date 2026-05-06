@@ -1,15 +1,1 @@
-{
-  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_2",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical operation",
-      "content": "The sentence presents tracking citation frequency as a method of understanding importance. The example confirms this: Mester's high citation rate indicates her work's significance."
-    },
-    {
-      "title": "Match the operation",
-      "content": "Choice D, <strong>measure</strong>, is the only word meaning assess or determine. Tracking citation frequency is exactly how one measures research importance. The other three either reverse the logic (diminish, increase) or are unrelated (vary). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical operation", "content": "The sentence presents tracking citation frequency as a method of understanding importance. The example confirms this: Mester's high citation rate indicates her work's significance."}, {"title": "Match the operation", "content": "Choice D, <strong>measure</strong>, is the only word meaning assess or determine.<br/><br/>Tracking citation frequency is exactly how one measures research importance.<br/><br/>The other three either reverse the logic (diminish, increase) or are unrelated (vary).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

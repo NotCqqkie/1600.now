@@ -1,15 +1,1 @@
-{
-  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the requirement for the proxy to work",
-      "content": "For L. stagnalis to serve as a reliable proxy for X. laevis bioaccumulation, the two species must show comparable bioaccumulation patterns and rates."
-    },
-    {
-      "title": "Find what breaks that requirement",
-      "content": "Choice B directly weakens the hypothesis: if uptake rates differ between species in ways researchers don't yet understand, then L. stagnalis bioaccumulation cannot reliably represent X. laevis bioaccumulation. Choices A and D support the hypothesis (consistent patterns and practical benefits), while C shifts to broader nanoparticle profiles rather than proxy validity. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the requirement for the proxy to work", "content": "For L. stagnalis to serve as a reliable proxy for X. laevis bioaccumulation, the two species must show comparable bioaccumulation patterns and rates."}, {"title": "Find what breaks that requirement", "content": "Choice B directly weakens the hypothesis: if uptake rates differ between species in ways researchers don't yet understand, then L. stagnalis bioaccumulation cannot reliably represent X. laevis bioaccumulation.<br/><br/>Choices A and D support the hypothesis (consistent patterns and practical benefits), while C shifts to broader nanoparticle profiles rather than proxy validity.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

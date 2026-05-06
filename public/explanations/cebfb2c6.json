@@ -1,15 +1,1 @@
-{
-  "questionId": "cebfb2c6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the striking age gap",
-      "content": "The table reveals that Chang'e 5 samples are 2.0 billion years old, while Apollo 11, 15, and 17 samples are dated at 3.6, 3.3, and 3.8 billion years old respectively. Chang'e 5 is dramatically younger than every Apollo mission\u2014at minimum 1.3 billion years younger."
-    },
-    {
-      "title": "Match the age data to the claim",
-      "content": "Choice A directly reflects what the table demonstrates: Chang'e 5 samples are much younger than all Apollo samples, making them scientifically significant. The other choices either reference the wrong landing site, misstate the age comparison, or lack support in the data. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cebfb2c6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the striking age gap", "content": "The table reveals that Chang'e 5 samples are 2.0 billion years old, while Apollo 11, 15, and 17 samples are dated at 3.6, 3.3, and 3.8 billion years old respectively. Chang'e 5 is dramatically younger than every Apollo mission—at minimum 1.3 billion years younger."}, {"title": "Match the age data to the claim", "content": "Choice A directly reflects what the table demonstrates: Chang'e 5 samples are much younger than all Apollo samples, making them scientifically significant.<br/><br/>The other choices either reference the wrong landing site, misstate the age comparison, or lack support in the data.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

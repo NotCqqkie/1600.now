@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_18",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural requirement",
-      "content": "The sentence contains an independent subject (\u201cSarah McAnulty\u201d) followed by a prepositional phrase and participial modifier (\u201cas a biologist at the University of Connecticut, studying squids\u201d). The blank sits between the subject and these modifying phrases."
-    },
-    {
-      "title": "Apply the main verb requirement",
-      "content": "A sentence requires a finite verb (a verb that carries tense) as its main verb. \u201cWas working\u201d (choice B) is a finite verb in the past tense that matches \u201cIn 2021\u201d and completes the independent clause. Working is a participle that needs a helping verb, while to work and to have worked are infinitives that cannot serve as main verbs. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structural requirement", "content": "The sentence contains an independent subject (“Sarah McAnulty”) followed by a prepositional phrase and participial modifier (“as a biologist at the University of Connecticut, studying squids”). The blank sits between the subject and these modifying phrases."}, {"title": "Apply the main verb requirement", "content": "A sentence requires a finite verb (a verb that carries tense) as its main verb. “Was working” (choice B) is a finite verb in the past tense that matches “In 2021” and completes the independent clause.<br/><br/>Working is a participle that needs a helping verb, while to work and to have worked are infinitives that cannot serve as main verbs.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

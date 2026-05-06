@@ -1,15 +1,1 @@
-{
-  "questionId": "a266d876",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The word \u201coutliers\u201d signals that jets reaching the ionosphere are exceptional. The blank must introduce information that reinforces this claim."
-    },
-    {
-      "title": "Match the confirming transition",
-      "content": "\u201dIndeed\u201d introduces information that reinforces a previous point. In context, it introduces the fact that most jets reach only 20\u201350 km\u2014which confirms the exceptional status of those reaching 80+ km. The other choices don't establish this confirming function: \u201cnevertheless\u201d introduces contradiction, \u201cconsequently\u201d implies causation, and \u201cin addition\u201d treats the information as independent. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a266d876", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The word “outliers” signals that jets reaching the ionosphere are exceptional. The blank must introduce information that reinforces this claim."}, {"title": "Match the confirming transition", "content": "”Indeed” introduces information that reinforces a previous point.<br/><br/>In context, it introduces the fact that most jets reach only 20–50 km—which confirms the exceptional status of those reaching 80+ km.<br/><br/>The other choices don't establish this confirming function: “nevertheless” introduces contradiction, “consequently” implies causation, and “in addition” treats the information as independent.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

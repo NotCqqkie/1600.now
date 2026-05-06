@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The word <strong>\u201cHowever\u201d</strong> is a contrast marker that indicates the second part of the passage contradicts, questions, or qualifies the first part."
-    },
-    {
-      "title": "Match the signal to the answer choices",
-      "content": "D describes a result being presented and then a concern being raised about it, exactly matching the <strong>\u201cHowever\u201d</strong> structure. The other three misidentify what the passage does \u2014 A treats the fish species as central, B falsely claims a solution is offered, and C invents a similarity. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The word <strong>“However”</strong> is a contrast marker that indicates the second part of the passage contradicts, questions, or qualifies the first part."}, {"title": "Match the signal to the answer choices", "content": "D describes a result being presented and then a concern being raised about it, exactly matching the <strong>“However”</strong> structure.<br/><br/>The other three misidentify what the passage does — <ul><li>A treats the fish species as central</li><li>B falsely claims a solution is offered</li><li>C invents a similarity</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

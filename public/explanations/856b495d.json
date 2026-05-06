@@ -1,15 +1,1 @@
-{
-  "questionId": "856b495d",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify whether these nouns show possession",
-      "content": "The key signal is the grammatical function of each noun. <em>Musicians</em> is part of the subject with Joseph Kekuku, and <em>audiences</em> is the direct object of <em>introduced</em>. Neither noun shows possession of anything else."
-    },
-    {
-      "title": "Apply the plural rule",
-      "content": "Both nouns are simple plurals without possessive meaning, so neither takes an apostrophe: <em>musicians</em> and <em>audiences</em>. Choices B and C incorrectly add apostrophes to both; choice D incorrectly makes only <em>musicians</em> possessive. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "856b495d", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify whether these nouns show possession", "content": "The key signal is the grammatical function of each noun. <em>Musicians</em> is part of the subject with Joseph Kekuku, and <em>audiences</em> is the direct object of <em>introduced</em>. Neither noun shows possession of anything else."}, {"title": "Apply the plural rule", "content": "Both nouns are simple plurals without possessive meaning, so neither takes an apostrophe: <em>musicians</em> and <em>audiences</em>.<br/><br/>Choices B and C incorrectly add apostrophes to both; choice D incorrectly makes only <em>musicians</em> possessive.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

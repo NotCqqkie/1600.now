@@ -1,15 +1,1 @@
-{
-  "questionId": "eca09a92",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage establishes that melanosomes are <strong>shaped differently depending on which colors they produce</strong>. This shape-color correlation is the key to answering the question."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice B applies this directly: scientists can determine the bird's colors by examining the melanosomes' appearance. The other choices address unrelated topics (finding melanosomes in other species, explaining preservation) or propose something illogical (identifying colors from fossils that lack melanosomes). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "eca09a92", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage establishes that melanosomes are <strong>shaped differently depending on which colors they produce</strong>. This shape-color correlation is the key to answering the question."}, {"title": "Match the signal to the choices", "content": "Choice B applies this directly: scientists can determine the bird's colors by examining the melanosomes' appearance.<br/><br/>The other choices address unrelated topics (finding melanosomes in other species, explaining preservation) or propose something illogical (identifying colors from fossils that lack melanosomes).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

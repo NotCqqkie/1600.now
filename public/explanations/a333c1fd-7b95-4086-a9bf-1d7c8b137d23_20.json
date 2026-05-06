@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses",
-      "content": "We have two complete thoughts that need proper punctuation between them:<br/><strong>\u201cOkinaka doesn't make such decisions single-handedly\u201d</strong> (independent clause)<br/><strong>\u201cAll historical designations must be approved by a group of nine other experts\u201d</strong> (independent clause)<br/>The word <strong>\u201chowever\u201d</strong> signals a contrast between them."
-    },
-    {
-      "title": "Apply the SAT rule for conjunctive adverbs",
-      "content": "When a conjunctive adverb like <strong>\u201chowever\u201d</strong> joins two independent clauses, the SAT standard patterns are: <strong>IC; however, IC</strong> (semicolon before, comma after) or <strong>IC. However, IC</strong> (period before, starting a new sentence). Choice D shows the second pattern\u2014the period after <em>\u201chowever\u201d</em> ends the first sentence, and the capital <em>\u201cA\u201d</em> in <em>\u201cAll\u201d</em> begins the second. The other choices fail because they lack proper punctuation before \u201chowever\u201d (A and C both have only a comma before it, which violates the rule) or add an irrelevant word (B). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "We have two complete thoughts that need proper punctuation between them:<br/><strong>“Okinaka doesn't make such decisions single-handedly”</strong> (independent clause)<br/><strong>“All historical designations must be approved by a group of nine other experts”</strong> (independent clause)<br/>The word <strong>“however”</strong> signals a contrast between them."}, {"title": "Apply the SAT rule for conjunctive adverbs", "content": "When a conjunctive adverb like <strong>“however”</strong> joins two independent clauses, the SAT standard patterns are: <strong>IC; however, IC</strong> (semicolon before, comma after) or <strong>IC.<br/><br/>However, IC</strong> (period before, starting a new sentence).<br/><br/>Choice D shows the second pattern—the period after <em>“however”</em> ends the first sentence, and the capital <em>“A”</em> in <em>“All”</em> begins the second.<br/><br/>The other choices fail because they lack proper punctuation before “however” (A and C both have only a comma before it, which violates the rule) or add an irrelevant word (B).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

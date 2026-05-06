@@ -1,15 +1,1 @@
-{
-  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_2",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the vertically opposite angle at m",
-      "content": "The labeled <strong>111\u00b0</strong> lies below line $m$ on the left side of transversal $k$. Its vertically opposite angle (above line $m$, right side) is also <strong>111\u00b0</strong>."
-    },
-    {
-      "title": "Apply corresponding angles property",
-      "content": "The angle $x\u00b0$ at line $l$ (above the line, right side of $k$) and the angle at line $m$ (above the line, right side of $k$) are in the same relative position at their respective intersections. When a transversal crosses parallel lines, such corresponding angles are equal: $$x = 111$$ That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the vertically opposite angle at m", "content": "The labeled <strong>111°</strong> lies below line $m$ on the left side of transversal $k$. Its vertically opposite angle (above line $m$, right side) is also <strong>111°</strong>."}, {"title": "Apply corresponding angles property", "content": "The angle $x°$ at line $l$ (above the line, right side of $k$) and the angle at line $m$ (above the line, right side of $k$) are in the same relative position at their respective intersections.<br/><br/>When a transversal crosses parallel lines, such corresponding angles are equal: $$x = 111$$ That matches choice C — <strong>C</strong> is correct."}]}

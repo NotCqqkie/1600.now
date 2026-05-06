@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal claim being made",
-      "content": "The passage states that Aburto-Oropeza \u201cattribute[s] this difference [in trophic composition] to the two reefs' difference in regulatory status\u201d \u2014 arguing that protection <strong>causes</strong> higher percentages of top-level species. To support this causal attribution, we need evidence of the mechanism linking protection to trophic composition."
-    },
-    {
-      "title": "Find the mechanism linking regulatory status to trophic composition",
-      "content": "Choice D reveals it: fishers disproportionately remove top-level species. If fishers preferentially target top predators, the unprotected reef (subject to fishing) would have fewer of them by percentage, while the protected reef would preserve them \u2014 matching the observed 34% vs 10% difference. The other three address total biomass variations, access costs, or species composition, none establishing the causal link between protection and trophic structure. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the causal claim being made", "content": "The passage states that Aburto-Oropeza “attribute[s] this difference [in trophic composition] to the two reefs' difference in regulatory status” — arguing that protection <strong>causes</strong> higher percentages of top-level species.<br/><br/>To support this causal attribution, we need evidence of the mechanism linking protection to trophic composition."}, {"title": "Find the mechanism linking regulatory status to trophic composition", "content": "Choice D reveals it: fishers disproportionately remove top-level species.<br/><br/>If fishers preferentially target top predators, the unprotected reef (subject to fishing) would have fewer of them by percentage, while the protected reef would preserve them — matching the observed 34% vs 10% difference.<br/><br/>The other three address total biomass variations, access costs, or species composition, none establishing the causal link between protection and trophic structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

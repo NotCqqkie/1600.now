@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the barrier to knowing results",
-      "content": "Text 2 grants that studies report positive results but then pivots: methodological shortcomings prevent firm conclusions. The Hansemark example drives this\u2014a 19-student sample makes it \u201cdifficult to say whether the training actually had an effect.\u201d This uncertainty directly answers the question \u201cBut what results do such programs produce?\u201d"
-    },
-    {
-      "title": "Match the critique to the choices",
-      "content": "Choice B correctly states that results are unknown because studies lack adequate design for definitive conclusions. Choices A, C, and D either overstate the evidence, miss the target of the critique, or introduce claims Text 2 doesn't make. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the barrier to knowing results", "content": "Text 2 grants that studies report positive results but then pivots: methodological shortcomings prevent firm conclusions.<br/><br/>The Hansemark example drives this—a 19-student sample makes it “difficult to say whether the training actually had an effect.” This uncertainty directly answers the question “But what results do such programs produce?”"}, {"title": "Match the critique to the choices", "content": "Choice B correctly states that results are unknown because studies lack adequate design for definitive conclusions. Choices A, C, and D either overstate the evidence, miss the target of the critique, or introduce claims Text 2 doesn't make. That matches choice B — <strong>B</strong> is correct."}]}

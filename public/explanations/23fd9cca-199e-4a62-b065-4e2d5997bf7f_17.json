@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the verb + object + infinitive structure",
-      "content": "The sentence reads \u201cLand [blank] his technology to invent...\u201d This structure\u2014where a verb takes a direct object followed by an infinitive\u2014requires a main verb in this position."
-    },
-    {
-      "title": "Apply the finite verb rule",
-      "content": "The main verb must be finite (fully conjugated). Choice A, \u201cused,\u201d is finite: \u201cLand used his technology to invent the world's first instant camera.\u201d Choices B and C are infinitive forms, and choice D is a participle; none of them can function as the main verb. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the verb + object + infinitive structure", "content": "The sentence reads “Land [blank] his technology to invent...” This structure—where a verb takes a direct object followed by an infinitive—requires a main verb in this position."}, {"title": "Apply the finite verb rule", "content": "The main verb must be finite (fully conjugated). Choice A, “used,” is finite: “Land used his technology to invent the world's first instant camera.” Choices B and C are infinitive forms, and choice D is a participle; none of them can function as the main verb.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

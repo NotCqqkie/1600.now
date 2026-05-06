@@ -1,15 +1,1 @@
-{
-  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the explicit contrast",
-      "content": "The passage explicitly identifies different Indigenous language sources for each word\u2014Nahuatl for cocoa, Quechua for alpaca."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B names these exact language sources: Nahuatl for cocoa and Quechua for alpaca. The other three introduce claims unsupported by the passage: when the words entered English (A), meaning changes during borrowing (C), and public misconceptions about origins (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the explicit contrast", "content": "The passage explicitly identifies different Indigenous language sources for each word—Nahuatl for cocoa, Quechua for alpaca."}, {"title": "Apply the signal to the choices", "content": "Choice B names these exact language sources: Nahuatl for cocoa and Quechua for alpaca.<br/><br/>The other three introduce claims unsupported by the passage: when the words entered English (A), meaning changes during borrowing (C), and public misconceptions about origins (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

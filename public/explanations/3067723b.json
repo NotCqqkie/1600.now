@@ -1,15 +1,1 @@
-{
-  "questionId": "3067723b",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the goal: compare the lengths",
-      "content": "The passage states the student's goal explicitly: \u201ccompare the lengths of the two rail tunnels.\u201d This means the answer must include both tunnels' specific lengths and show how they relate."
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "Choice B provides both tunnels' specific lengths (33 miles and 31 miles) and compares them with \u201cwhile\u201d and \u201cslightly shorter,\u201d directly accomplishing the stated goal. The other three either mention only one tunnel, omit the lengths entirely, or focus on unrelated details instead of the comparison needed. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3067723b", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the goal: compare the lengths", "content": "The passage states the student's goal explicitly: “compare the lengths of the two rail tunnels.” This means the answer must include both tunnels' specific lengths and show how they relate."}, {"title": "Match the goal to the choices", "content": "Choice B provides both tunnels' specific lengths (33 miles and 31 miles) and compares them with “while” and “slightly shorter,” directly accomplishing the stated goal.<br/><br/>The other three either mention only one tunnel, omit the lengths entirely, or focus on unrelated details instead of the comparison needed.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

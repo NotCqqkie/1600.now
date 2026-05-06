@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The key signal is the word \u201cbut\u201d in Text\u202f2, which introduces a counter\u2011example to the claim that automated genre classification has failed and reached its technological limit."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D asserts that it is possible to improve automated classification systems, matching the Text\u202f2 point that a solution was found despite earlier struggles. The other three choices either discuss listener opinions, criticism of past research, or disagreement among listeners\u2014none of which are supported by Text\u202f2.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the contrast signal", "content": "The key signal is the word “but” in Text 2, which introduces a counter‑example to the claim that automated genre classification has failed and reached its technological limit."}, {"title": "Apply the signal to the choices", "content": "Choice D asserts that it is possible to improve automated classification systems, matching the Text 2 point that a solution was found despite earlier struggles.<br/><br/>The other three choices either discuss listener opinions, criticism of past research, or disagreement among listeners—none of which are supported by Text 2.<br/>That matches choice D — <strong>D</strong> is correct."}]}

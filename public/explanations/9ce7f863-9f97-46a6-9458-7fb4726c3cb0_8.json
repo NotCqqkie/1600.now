@@ -1,15 +1,1 @@
-{
-  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrasting signal",
-      "content": "The passage opens with L\u00f6nnstedt's conclusion about ocean acidification's effect on <em>Pomacentrus amboinensis</em>, but the \u201cHowever\u201d immediately signals a critical limitation: the study used only about 28 fish. The 2022 review reinforces why this matters\u2014small sample sizes increase the risk of biased analysis and exaggerated findings. The key signal is this methodological weakness as the passage's central concern."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice A directly names the shortcoming: \u201cA possible shortcoming of a study involving <em>Pomacentrus amboinensis</em>.\u201d The other three miss or distort the main point: B discusses evolution (never mentioned), C incorrectly places the behavior discovery in 2022 (it was 2013), and D addresses causes of ocean acidification rather than methodological issues. The passage's structure\u2014pivoting with \u201cHowever\u201d to the limitation, then citing a 2022 caution about bias\u2014confirms that the shortcoming is the topic. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the contrasting signal", "content": "The passage opens with Lönnstedt's conclusion about ocean acidification's effect on <em>Pomacentrus amboinensis</em>, but the “However” immediately signals a critical limitation: the study used only about 28 fish.<br/><br/>The 2022 review reinforces why this matters—small sample sizes increase the risk of biased analysis and exaggerated findings.<br/><br/>The key signal is this methodological weakness as the passage's central concern."}, {"title": "Match to the choices", "content": "Choice A directly names the shortcoming: “A possible shortcoming of a study involving <em>Pomacentrus amboinensis</em>.” The other three miss or distort the main point: <ul><li>B discusses evolution (never mentioned)</li><li>C incorrectly places the behavior discovery in 2022 (it was 2013)</li><li>D addresses causes of ocean acidification rather than methodological issues</li></ul>.<br/><br/>The passage's structure—pivoting with “However” to the limitation, then citing a 2022 caution about bias—confirms that the shortcoming is the topic.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

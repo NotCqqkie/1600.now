@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the chromium comparison",
-      "content": "The passage establishes that ferritic stainless steel contains at least 10.5% chromium and more chromium than austenitic stainless steel. Since ferritic's minimum is 10.5% and austenitic is always less than ferritic, austenitic must be below 10.5%."
-    },
-    {
-      "title": "Connect to the applications",
-      "content": "Since washing machines use 200 series (austenitic) and furnaces use 300 series (austenitic), both have less than 10.5% chromium\u2014exactly what choice A states. B reverses the nickel relationship, C falsely denies the cubic structure to storage containers, and D incorrectly equates nitrogen levels between austenitic and ferritic types. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "76199cca-674f-403e-a01c-927854021f9f_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the chromium comparison", "content": "The passage establishes that ferritic stainless steel contains at least 10.5% chromium and more chromium than austenitic stainless steel. Since ferritic's minimum is 10.5% and austenitic is always less than ferritic, austenitic must be below 10.5%."}, {"title": "Connect to the applications", "content": "Since washing machines use 200 series (austenitic) and furnaces use 300 series (austenitic), both have less than 10.5% chromium—exactly what choice A states.<br/><br/><ul><li>B reverses the nickel relationship</li><li>C falsely denies the cubic structure to storage containers</li><li>D incorrectly equates nitrogen levels between austenitic and ferritic types</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the complete second sentence",
-      "content": "The passage provides a second sentence that begins with \u201cUsed to record length and volume, respectively, the sheep and heqat have since fallen out of use.\u201d This sentence is already grammatically complete, with a participial phrase opening. The question asks where the first sentence should end to maintain proper structure."
-    },
-    {
-      "title": "Apply the sentence boundary",
-      "content": "A period after \u201cmeasurement\u201d (choice B) ends the first sentence cleanly, allowing the second sentence to stand as its own complete thought. Choices C and D include \u201cused to record length and volume, respectively\u201d in the first sentence as well, creating redundant information across both sentences. Choice A is grammatically incorrect. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize the complete second sentence", "content": "The passage provides a second sentence that begins with “Used to record length and volume, respectively, the sheep and heqat have since fallen out of use.” This sentence is already grammatically complete, with a participial phrase opening.<br/><br/>The question asks where the first sentence should end to maintain proper structure."}, {"title": "Apply the sentence boundary", "content": "A period after “measurement” (choice B) ends the first sentence cleanly, allowing the second sentence to stand as its own complete thought.<br/><br/>Choices C and D include “used to record length and volume, respectively” in the first sentence as well, creating redundant information across both sentences.<br/><br/>Choice A is grammatically incorrect. That matches choice B — <strong>B</strong> is correct."}]}

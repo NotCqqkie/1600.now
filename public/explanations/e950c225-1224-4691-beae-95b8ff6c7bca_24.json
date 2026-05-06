@@ -1,15 +1,1 @@
-{
-  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the misconception needing correction",
-      "content": "The student must correct the false belief that Pangaea formed before Kenorland. The key signal is whether a choice directly establishes the correct chronological order, proving that Kenorland came first."
-    },
-    {
-      "title": "Apply chronological evidence to the choices",
-      "content": "Choice B directly corrects the misunderstanding by establishing the chronological order with specific dates: Kenorland formed 2.6 billion years ago, long before Pangaea at 300 million years ago. The other choices either ignore chronology entirely or merely note a difference in timing without clarifying which came first. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the misconception needing correction", "content": "The student must correct the false belief that Pangaea formed before Kenorland. The key signal is whether a choice directly establishes the correct chronological order, proving that Kenorland came first."}, {"title": "Apply chronological evidence to the choices", "content": "Choice B directly corrects the misunderstanding by establishing the chronological order with specific dates: Kenorland formed 2.6 billion years ago, long before Pangaea at 300 million years ago.<br/><br/>The other choices either ignore chronology entirely or merely note a difference in timing without clarifying which came first.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the noun and appositive structure",
-      "content": "The blank contains a noun (\u201ccompounds\u201d) followed by a phrase (\u201cquindoxin and isobutylene\u201d) that specifies or describes the noun. This is an appositive construction, and the question tests whether the appositive should be set off with commas."
-    },
-    {
-      "title": "Apply the appositive punctuation rule",
-      "content": "An appositive is set off with commas when it provides extra information about an already-clear noun, but requires no commas when it's necessary to identify the noun. Here, \u201cquindoxin and isobutylene\u201d is essential\u2014it specifies which particular gaseous compounds have those molar masses. The other choices either mishandle punctuation (B and C create unmatched or incomplete structures) or incorrectly treat the appositive as optional rather than necessary (A). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the noun and appositive structure", "content": "The blank contains a noun (“compounds”) followed by a phrase (“quindoxin and isobutylene”) that specifies or describes the noun. This is an appositive construction, and the question tests whether the appositive should be set off with commas."}, {"title": "Apply the appositive punctuation rule", "content": "An appositive is set off with commas when it provides extra information about an already-clear noun, but requires no commas when it's necessary to identify the noun.<br/><br/>Here, “quindoxin and isobutylene” is essential—it specifies which particular gaseous compounds have those molar masses.<br/><br/>The other choices either mishandle punctuation (B and C create unmatched or incomplete structures) or incorrectly treat the appositive as optional rather than necessary (A).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the most relevant information from the notes for the goal",
-      "content": "The student wants to specify how long Despina's orbit takes. The directly relevant information from the notes is: <em>\u201cDespina completes an orbit of Neptune in 0.33 Earth days on average.\u201d</em> The notes also mention Kepler's laws, but these provide background context rather than information needed to specify the duration."
-    },
-    {
-      "title": "Check which choice uses that relevant information most effectively",
-      "content": "Choice A directly states that Despina <em>\u201ccompletes its orbit of the planet in 0.33 Earth days on average\u201d</em>\u2014using the exact relevant information to accomplish the goal efficiently. The other choices either omit the duration, state it incorrectly, or bury it in unnecessary background. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the most relevant information from the notes for the goal", "content": "The student wants to specify how long Despina's orbit takes.<br/><br/>The directly relevant information from the notes is: <em>“Despina completes an orbit of Neptune in 0.33 Earth days on average.”</em> The notes also mention Kepler's laws, but these provide background context rather than information needed to specify the duration."}, {"title": "Check which choice uses that relevant information most effectively", "content": "Choice A directly states that Despina <em>“completes its orbit of the planet in 0.33 Earth days on average”</em>—using the exact relevant information to accomplish the goal efficiently.<br/><br/>The other choices either omit the duration, state it incorrectly, or bury it in unnecessary background.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

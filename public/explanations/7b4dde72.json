@@ -1,15 +1,1 @@
-{
-  "questionId": "7b4dde72",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the correspondence",
-      "content": "Morris rejects industrialization; the Kelmscott editions use handmade, medieval-style materials. The key signal is that his philosophy is directly embodied in these design choices."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dManifest in\u201d means \u201cis clearly displayed in.\u201d His rejection of industrialization is displayed in the handmade materials. The others don't capture this correspondence: \u201cinsensible to\u201d reverses the relationship, while \u201cscrutinized by\u201d and \u201ccomplicated by\u201d describe examination or obstruction. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7b4dde72", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the correspondence", "content": "Morris rejects industrialization; the Kelmscott editions use handmade, medieval-style materials. The key signal is that his philosophy is directly embodied in these design choices."}, {"title": "Match the meaning", "content": "”Manifest in” means “is clearly displayed in.” His rejection of industrialization is displayed in the handmade materials.<br/><br/>The others don't capture this correspondence: “insensible to” reverses the relationship, while “scrutinized by” and “complicated by” describe examination or obstruction.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

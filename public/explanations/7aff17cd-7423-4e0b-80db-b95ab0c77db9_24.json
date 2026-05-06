@@ -1,15 +1,1 @@
-{
-  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the purpose the student wants to emphasize",
-      "content": "The notes explain that each day was named \u201cas a way of honoring an aspect of rural life.\u201d This is the core fact the student needs to highlight."
-    },
-    {
-      "title": "Select the choice that emphasizes this purpose with evidence",
-      "content": "Choice A states the purpose (days honored \u201can aspect of rural life\u201d) and supports it with a specific example (the goose, an animal). Choices B, C, and D describe structural mechanics (B) or the distinctiveness of names (C, D), none of which conveys how the calendar honored rural life. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the purpose the student wants to emphasize", "content": "The notes explain that each day was named “as a way of honoring an aspect of rural life.” This is the core fact the student needs to highlight."}, {"title": "Select the choice that emphasizes this purpose with evidence", "content": "Choice A states the purpose (days honored “an aspect of rural life”) and supports it with a specific example (the goose, an animal).<br/><br/>Choices B, C, and D describe structural mechanics (B) or the distinctiveness of names (C, D), none of which conveys how the calendar honored rural life.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

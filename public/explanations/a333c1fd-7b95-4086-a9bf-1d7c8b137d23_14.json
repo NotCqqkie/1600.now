@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key pattern the simulation tests",
-      "content": "The passage establishes a core finding: plant species with narrow geographical ranges are genetically homogeneous, while those with extensive ranges are less so. The simulation examines what would happen if <em>M. klissingiana</em> expanded from its narrow range (Tamaulipas only) to new habitats \u2014 a shift from narrow to extensive range."
-    },
-    {
-      "title": "Apply the pattern to the outcome",
-      "content": "When a species expands from narrow to extensive range, the established pattern predicts genetic homogeneity should decrease. Choice B captures this exactly: genetic homogeneity of <em>M. klissingiana</em> decreased. The other three discuss other species or locations, not the genetic change in <em>M. klissingiana</em> when it spreads.<br><br>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key pattern the simulation tests", "content": "The passage establishes a core finding: plant species with narrow geographical ranges are genetically homogeneous, while those with extensive ranges are less so.<br/><br/>The simulation examines what would happen if <em>M. klissingiana</em> expanded from its narrow range (Tamaulipas only) to new habitats — a shift from narrow to extensive range."}, {"title": "Apply the pattern to the outcome", "content": "When a species expands from narrow to extensive range, the established pattern predicts genetic homogeneity should decrease.<br/><br/>Choice B captures this exactly: genetic homogeneity of <em>M. klissingiana</em> decreased.<br/><br/>The other three discuss other species or locations, not the genetic change in <em>M. klissingiana</em> when it spreads.<br><br>That matches choice B — <strong>B</strong> is correct."}]}

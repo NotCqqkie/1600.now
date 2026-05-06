@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the qualifier that undercuts the finding",
-      "content": "The passage reports that supplementation appeared unaffected, then immediately adds: \u201chowever, supplementation was rare, highly varied, and poorly tracked.\u201d This \u201chowever\u201d is the decisive signal\u2014poor data quality means the conclusion cannot be taken as definitive."
-    },
-    {
-      "title": "Infer what the unreliable data logically permits us to claim",
-      "content": "When data is unreliable, you cannot rule out alternative possibilities. The poor supplementation tracking means you cannot exclude the possibility that supplementation would actually benefit chimpanzees, particularly during autumn when vitamin D is naturally lower. The other three either assert unsupported differences (A), contradict the data (C), or reverse the causal relationship (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the qualifier that undercuts the finding", "content": "The passage reports that supplementation appeared unaffected, then immediately adds: “however, supplementation was rare, highly varied, and poorly tracked.” This “however” is the decisive signal—poor data quality means the conclusion cannot be taken as definitive."}, {"title": "Infer what the unreliable data logically permits us to claim", "content": "When data is unreliable, you cannot rule out alternative possibilities.<br/><br/>The poor supplementation tracking means you cannot exclude the possibility that supplementation would actually benefit chimpanzees, particularly during autumn when vitamin D is naturally lower.<br/><br/>The other three either assert unsupported differences (A), contradict the data (C), or reverse the causal relationship (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

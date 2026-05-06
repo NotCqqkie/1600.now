@@ -1,15 +1,1 @@
-{
-  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the main structural pattern",
-      "content": "The passage moves in two stages: it opens with a specific historical achievement (Sengstacke founding the NNPA in 1940), then closes by introducing an organization (NABJ, founded in 1975) whose purpose is to preserve that history and honor figures like Sengstacke."
-    },
-    {
-      "title": "Match the structure to the choices",
-      "content": "Choice D describes exactly this progression: a specific achievement followed by an organization dedicated to upholding that history. Choices A, B, and C either invert the order, introduce elements not in the text, or misidentify what's being discussed. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the main structural pattern", "content": "The passage moves in two stages: it opens with a specific historical achievement (Sengstacke founding the NNPA in 1940), then closes by introducing an organization (NABJ, founded in 1975) whose purpose is to preserve that history and honor figures like Sengstacke."}, {"title": "Match the structure to the choices", "content": "Choice D describes exactly this progression: a specific achievement followed by an organization dedicated to upholding that history.<br/><br/>Choices A, B, and C either invert the order, introduce elements not in the text, or misidentify what's being discussed.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

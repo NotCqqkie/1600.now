@@ -1,15 +1,1 @@
-{
-  "questionId": "7fdba7ad",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The researchers claim the thick disk formed in \u201ctwo distinct phases\u201d\u2014meaning at two different times. To support this, we need evidence that thick disk stars have different ages."
-    },
-    {
-      "title": "Match the finding to the claim",
-      "content": "Choice B shows an age difference of 2 billion years among thick disk stars, indicating they formed at two separate times. The other choices discuss galaxies outside the Milky Way, star ratios between disks, or chemical similarity\u2014none address formation timing. This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7fdba7ad", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The researchers claim the thick disk formed in “two distinct phases”—meaning at two different times. To support this, we need evidence that thick disk stars have different ages."}, {"title": "Match the finding to the claim", "content": "Choice B shows an age difference of 2 billion years among thick disk stars, indicating they formed at two separate times.<br/><br/>The other choices discuss galaxies outside the Milky Way, star ratios between disks, or chemical similarity—none address formation timing.<br/><br/>This matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

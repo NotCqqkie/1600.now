@@ -1,15 +1,1 @@
-{
-  "questionId": "d3ca5d59",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The final sentence provides the crucial detail: <strong>\u201cMany critics focus their attention on art that is cryptic or overtly challenging.\u201d</strong> This single fact explains the gap in the passage."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>\u201cAccessible\u201d</strong> fits because it expresses straightforward, easy-to-understand art \u2014 the opposite of the cryptic or challenging work that engages critics. The other choices don't explain why critics would overlook the paintings: innovative and subversive suggest qualities critics value, while profound doesn't create the necessary opposition.<br><br>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3ca5d59", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The final sentence provides the crucial detail: <strong>“Many critics focus their attention on art that is cryptic or overtly challenging.”</strong> This single fact explains the gap in the passage."}, {"title": "Match the meaning to the choices", "content": "<strong>“Accessible”</strong> fits because it expresses straightforward, easy-to-understand art — the opposite of the cryptic or challenging work that engages critics.<br/><br/>The other choices don't explain why critics would overlook the paintings: innovative and subversive suggest qualities critics value, while profound doesn't create the necessary opposition.<br><br>This matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "c4d43991",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage highlights a clear temporal pattern: the rare form of lead is present in Shang dynasty artifacts but absent from all later Chinese bronze artifacts."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B states the logical inference: if the lead source was used only through the Shang dynasty, later artifacts would lack it\u2014which precisely matches the pattern. The other three wrongly focus on irrelevant factors (A on value, D on analysis methods) or misread the facts (C falsely claims bronze was abandoned). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c4d43991", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage highlights a clear temporal pattern: the rare form of lead is present in Shang dynasty artifacts but absent from all later Chinese bronze artifacts."}, {"title": "Apply the signal to the choices", "content": "Choice B states the logical inference: if the lead source was used only through the Shang dynasty, later artifacts would lack it—which precisely matches the pattern.<br/><br/>The other three wrongly focus on irrelevant factors (A on value, D on analysis methods) or misread the facts (C falsely claims bronze was abandoned).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

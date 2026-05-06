@@ -1,15 +1,1 @@
-{
-  "questionId": "d76ea360",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what weakens an origin claim",
-      "content": "The claim concludes PR guinea pigs came from Colombia based on trade routes. To directly weaken a claim about origin, we need genetic evidence showing they descended from a different population."
-    },
-    {
-      "title": "Apply genetic evidence to the choices",
-      "content": "Choice A shows ancient PR guinea pigs were genetically more similar to Peruvian than Colombian ones\u2014the strongest evidence they descended from Peru, not Colombia. Choices B and C address cultural artifacts without revealing origin; choice D mentions population size, which doesn't determine descent. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d76ea360", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what weakens an origin claim", "content": "The claim concludes PR guinea pigs came from Colombia based on trade routes. To directly weaken a claim about origin, we need genetic evidence showing they descended from a different population."}, {"title": "Apply genetic evidence to the choices", "content": "Choice A shows ancient PR guinea pigs were genetically more similar to Peruvian than Colombian ones—the strongest evidence they descended from Peru, not Colombia.<br/><br/>Choices B and C address cultural artifacts without revealing origin; choice D mentions population size, which doesn't determine descent.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

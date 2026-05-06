@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_19",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures around the blank",
-      "content": "On the left of the blank: an incomplete independent clause (\u201cThe Great Salt Desert in western Asia is an arid\u201d). On the right: a complete independent clause (\u201cit is one of the largest deserts in the world, with a total area of about 77,000 km\u00b2\u201d)."
-    },
-    {
-      "title": "Apply the rule for independent clause separation",
-      "content": "Two independent clauses require proper separation using a semicolon, period, or comma plus coordinating conjunction. <strong>A</strong> uses a semicolon to correctly separate the two clauses; the phrase \u201cfor example\u201d is embedded in the first clause, clarifying that the Great Salt Desert is an instance of an arid desert mentioned in the prior sentence. Options B, C, and D either fail to properly separate the two independent clauses through insufficient punctuation, or they misuse \u201cfor example\u201d as a standalone transition that doesn't logically fit the relationship between the clauses. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures around the blank", "content": "On the left of the blank: an incomplete independent clause (“The Great Salt Desert in western Asia is an arid”). On the right: a complete independent clause (“it is one of the largest deserts in the world, with a total area of about 77,000 km²”)."}, {"title": "Apply the rule for independent clause separation", "content": "Two independent clauses require proper separation using a semicolon, period, or comma plus coordinating conjunction. <strong>A</strong> uses a semicolon to correctly separate the two clauses; the phrase “for example” is embedded in the first clause, clarifying that the Great Salt Desert is an instance of an arid desert mentioned in the prior sentence.<br/><br/>Options B, C, and D either fail to properly separate the two independent clauses through insufficient punctuation, or they misuse “for example” as a standalone transition that doesn't logically fit the relationship between the clauses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the example needs to demonstrate",
-      "content": "The passage hypothesizes that helicopter surveying leads to <strong>OVERESTIMATES</strong> of cougar density. To complete the example, we need data showing a study with notably high density values\u2014a result that would exemplify the overestimate pattern."
-    },
-    {
-      "title": "Find the study with the highest reported density",
-      "content": "Choice B shows David M. Choate et al. reported 10.24 individuals per 100 square kilometers, explicitly higher than other studies in the table\u2014exactly the kind of anomalously high result needed to exemplify an overestimate. The other choices either focus on irrelevant metrics, show lower densities that contradict the overestimate claim, or fail to emphasize the key comparative finding. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the example needs to demonstrate", "content": "The passage hypothesizes that helicopter surveying leads to <strong>OVERESTIMATES</strong> of cougar density. To complete the example, we need data showing a study with notably high density values—a result that would exemplify the overestimate pattern."}, {"title": "Find the study with the highest reported density", "content": "Choice B shows David M. Choate et al. reported 10.24 individuals per 100 square kilometers, explicitly higher than other studies in the table—exactly the kind of anomalously high result needed to exemplify an overestimate.<br/><br/>The other choices either focus on irrelevant metrics, show lower densities that contradict the overestimate claim, or fail to emphasize the key comparative finding.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

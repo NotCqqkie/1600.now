@@ -1,15 +1,1 @@
-{
-  "questionId": "3a2d77d7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive boundary",
-      "content": "The text introduces <em>\u201canother instrument\u201d</em> and immediately needs to specify <em>\u201cthe flute\u201d</em> as that instrument. This is an appositive relationship requiring clear punctuation. The key signal: after naming the flute, the text describes it as <em>\u201crelatively quiet\u201d</em> and why it mattered\u2014a separate idea that needs its own sentence boundary."
-    },
-    {
-      "title": "Apply the colon and period rule",
-      "content": "A colon introduces an elaboration or appositive, making <em>\u201cmusic: the flute\u201d</em> the correct connection. A period after <em>\u201cflute\u201d</em> then marks a sentence boundary, allowing <em>\u201cA relatively quiet instrument\u201d</em> to start a new sentence where <em>\u201cits full range of sound was finally audible\u201d</em> is clearly the predicate. This removes ambiguity: is <em>\u201cThe flute\u201d</em> or <em>\u201cits full range of sound\u201d</em> the subject? Choice D makes it unmistakably <em>\u201cA relatively quiet instrument\u201d</em> (with <em>\u201cits full range of sound\u201d</em> as an appositive elaboration).<br/><br/>The other choices fail: A creates a comma-separated list that incorrectly includes a predicate clause; B omits the period after flute, leaving the sentence structure ambiguous; C misuses a semicolon, since the second part isn't an independent clause.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3a2d77d7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive boundary", "content": "The text introduces <em>“another instrument”</em> and immediately needs to specify <em>“the flute”</em> as that instrument.<br/><br/>This is an appositive relationship requiring clear punctuation.<br/><br/>The key signal: after naming the flute, the text describes it as <em>“relatively quiet”</em> and why it mattered—a separate idea that needs its own sentence boundary."}, {"title": "Apply the colon and period rule", "content": "A colon introduces an elaboration or appositive, making <em>“music: the flute”</em> the correct connection. A period after <em>“flute”</em> then marks a sentence boundary, allowing <em>“A relatively quiet instrument”</em> to start a new sentence where <em>“its full range of sound was finally audible”</em> is clearly the predicate. This removes ambiguity: is <em>“The flute”</em> or <em>“its full range of sound”</em> the subject? Choice D makes it unmistakably <em>“A relatively quiet instrument”</em> (with <em>“its full range of sound”</em> as an appositive elaboration).<br/><br/>The other choices fail: A creates a comma-separated list that incorrectly includes a predicate clause; B omits the period after flute, leaving the sentence structure ambiguous; C misuses a semicolon, since the second part isn't an independent clause.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

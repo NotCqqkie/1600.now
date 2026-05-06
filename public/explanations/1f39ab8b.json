@@ -1,15 +1,1 @@
-{
-  "questionId": "1f39ab8b",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the starting structure",
-      "content": "The sentence begins with <strong>How</strong>, a question word, indicating an interrogative sentence. We need to complete it with an independent clause that forms a grammatically correct question."
-    },
-    {
-      "title": "Apply the question word sentence rule",
-      "content": "Questions starting with question words like <strong>How</strong> require subject-verb inversion and must end with a question mark. Choice D alone satisfies both requirements with \u201cwill Umuofia's traditions be affected?\u201d A and C lack subject-verb inversion; B inverts correctly but ends with a period instead of a question mark. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1f39ab8b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the starting structure", "content": "The sentence begins with <strong>How</strong>, a question word, indicating an interrogative sentence. We need to complete it with an independent clause that forms a grammatically correct question."}, {"title": "Apply the question word sentence rule", "content": "Questions starting with question words like <strong>How</strong> require subject-verb inversion and must end with a question mark.<br/><br/>Choice D alone satisfies both requirements with “will Umuofia's traditions be affected?” A and C lack subject-verb inversion; B inverts correctly but ends with a period instead of a question mark.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

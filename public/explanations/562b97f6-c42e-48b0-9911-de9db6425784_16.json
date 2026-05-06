@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the opening em-dash",
-      "content": "An opening em-dash appears before \u201cfirst published\u201d: \u2026\u2014first published in [BLANK] is essential... The opening punctuation signals a parenthetical aside requiring a matching close."
-    },
-    {
-      "title": "Apply the em-dash pairing rule",
-      "content": "A parenthetical aside opened with an em-dash must be closed with a matching em-dash. Choice A (1689\u2014) correctly closes the structure: \u2026\u2014first published in 1689\u2014is essential reading... Choices B, C, and D fail to complete the parenthetical by omitting the em-dash or using incompatible punctuation. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the opening em-dash", "content": "An opening em-dash appears before “first published”: …—first published in [BLANK] is essential... The opening punctuation signals a parenthetical aside requiring a matching close."}, {"title": "Apply the em-dash pairing rule", "content": "A parenthetical aside opened with an em-dash must be closed with a matching em-dash.<br/><br/>Choice A (1689—) correctly closes the structure: …—first published in 1689—is essential reading...<br/><br/>Choices B, C, and D fail to complete the parenthetical by omitting the em-dash or using incompatible punctuation.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

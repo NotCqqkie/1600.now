@@ -1,15 +1,1 @@
-{
-  "questionId": "ff8d2125",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the question requires",
-      "content": "The student must <strong>compare the causes</strong> of crown shyness proposed in the two theories. The notes identify two different mechanisms: Jacobs says branches brush and break, while Ng says branches detect shade and stop growing."
-    },
-    {
-      "title": "Apply the requirement to the choices",
-      "content": "Choice A directly compares both causes using a contrast structure (<strong>\u201cWhile Jacobs proposes... Ng posits...\u201d</strong>), providing each theory's specific mechanism. The other three lack this comparison\u2014they're either generic, mention only one theory, or omit Ng. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff8d2125", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question requires", "content": "The student must <strong>compare the causes</strong> of crown shyness proposed in the two theories. The notes identify two different mechanisms: Jacobs says branches brush and break, while Ng says branches detect shade and stop growing."}, {"title": "Apply the requirement to the choices", "content": "Choice A directly compares both causes using a contrast structure (<strong>“While Jacobs proposes...<br/><br/>Ng posits...”</strong>), providing each theory's specific mechanism.<br/><br/>The other three lack this comparison—they're either generic, mention only one theory, or omit Ng.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

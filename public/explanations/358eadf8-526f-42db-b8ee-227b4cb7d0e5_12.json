@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the extreme difference in correlation values",
-      "content": "P1's correlation with the model predictions is dramatically different across the two styles: 0.57 for impressionist paintings versus 0.14 for color-field paintings. A correlation of 0.57 means the model's predictions tracked P1's actual ratings closely for impressionist paintings. A correlation of 0.14 means the model's predictions tracked P1's actual ratings poorly for color-field paintings. This stark gap signals that P1's rating behavior was inconsistent across the two styles\u2014not uniform."
-    },
-    {
-      "title": "Match the divergence to the choices",
-      "content": "When the model performs well on one style (high correlation) and poorly on another (low correlation), it indicates that P1's actual ratings themselves differed between the styles. If P1 had rated impressionist and color-field equally, the correlation values would be similar. Instead, the large gap suggests P1's ratings were fundamentally different across the two styles\u2014P1 gave varied or distinct ratings to impressionist paintings but different ratings to color-field paintings. Choices A and B claim a specific direction (which style P1 enjoyed more), but the correlation data only reveals that the ratings differed, not the direction of difference; choice D contradicts the evidence entirely. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the extreme difference in correlation values", "content": "P1's correlation with the model predictions is dramatically different across the two styles: 0.57 for impressionist paintings versus 0.14 for color-field paintings.<br/><br/>A correlation of 0.57 means the model's predictions tracked P1's actual ratings closely for impressionist paintings.<br/><br/>A correlation of 0.14 means the model's predictions tracked P1's actual ratings poorly for color-field paintings.<br/><br/>This stark gap signals that P1's rating behavior was inconsistent across the two styles—not uniform."}, {"title": "Match the divergence to the choices", "content": "When the model performs well on one style (high correlation) and poorly on another (low correlation), it indicates that P1's actual ratings themselves differed between the styles.<br/><br/>If P1 had rated impressionist and color-field equally, the correlation values would be similar.<br/><br/>Instead, the large gap suggests P1's ratings were fundamentally different across the two styles—P1 gave varied or distinct ratings to impressionist paintings but different ratings to color-field paintings.<br/><br/>Choices A and B claim a specific direction (which style P1 enjoyed more), but the correlation data only reveals that the ratings differed, not the direction of difference; choice D contradicts the evidence entirely.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

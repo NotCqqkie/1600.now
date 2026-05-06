@@ -1,15 +1,1 @@
-{
-  "questionId": "2c06139b",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship that needs supporting data",
-      "content": "The researchers concluded that increased competition drove bufadienolide production at the expense of growth. This is a trade-off: the conclusion claims that as competition increases, toxin production increases while growth decreases."
-    },
-    {
-      "title": "Match the trade-off to the choices",
-      "content": "Choice B is correct. It shows tadpoles in low and medium population density conditions had substantially lower bufadienolide concentrations but greater body masses than those in high population density. This directly supports the researchers' conclusion by demonstrating the trade-off: more competition correlates with more toxin production and less growth. The other choices either omit bufadienolides entirely, use contradictory language, or focus on toxin variety rather than production. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c06139b", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship that needs supporting data", "content": "The researchers concluded that increased competition drove bufadienolide production at the expense of growth. This is a trade-off: the conclusion claims that as competition increases, toxin production increases while growth decreases."}, {"title": "Match the trade-off to the choices", "content": "Choice B is correct. It shows tadpoles in low and medium population density conditions had substantially lower bufadienolide concentrations but greater body masses than those in high population density.<br/><br/>This directly supports the researchers' conclusion by demonstrating the trade-off: more competition correlates with more toxin production and less growth.<br/><br/>The other choices either omit bufadienolides entirely, use contradictory language, or focus on toxin variety rather than production.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

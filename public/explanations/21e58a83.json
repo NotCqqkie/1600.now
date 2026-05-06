@@ -1,15 +1,1 @@
-{
-  "questionId": "21e58a83",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The left side of the blank ends mid-clause: <em>Jetties can sometimes have the opposite [blank]</em> — an incomplete independent clause. The right side is: <em>obstructing the natural flow of sand along the shore can lead to increased erosion in some areas</em> — a complete independent clause."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Among the four options, choice A uses the punctuation pattern that correctly handles the connection at the blank — pairing the transition <strong>though</strong> with punctuation that joins the surrounding clauses cleanly. The other three options either misplace the semicolon, omit a needed comma, or create a comma splice. That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "21e58a83", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The left side of the blank ends mid-clause: <em>Jetties can sometimes have the opposite [blank]</em> — an incomplete independent clause. The right side is: <em>obstructing the natural flow of sand along the shore can lead to increased erosion in some areas</em> — a complete independent clause."}, {"title": "Apply the punctuation rule", "content": "Among the four options, choice A uses the punctuation pattern that correctly handles the connection at the blank — pairing the transition <strong>though</strong> with punctuation that joins the surrounding clauses cleanly.<br/><br/>The other three options either misplace the semicolon, omit a needed comma, or create a comma splice.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

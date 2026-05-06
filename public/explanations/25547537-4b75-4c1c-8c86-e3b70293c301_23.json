@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The transition must link the need for standards to the development of the SI system. The first sentence establishes a principle (precise standards ensure validity), while the second introduces the solution (SI units based on natural values). The strongest clue is the <em>cause-and-effect relationship</em> between the first sentence's claim and the second's explanation of implementation."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice D, &quot;For this reason,&quot; directly pairs with the cause-and-effect logic: scientists rely on precise standards (cause), so metrologists developed the SI system (effect). The other three choices either introduce a contrast (A), disregard context (B), or imply additional unrelated information (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The transition must link the need for standards to the development of the SI system.<br/><br/>The first sentence establishes a principle (precise standards ensure validity), while the second introduces the solution (SI units based on natural values).<br/><br/>The strongest clue is the <em>cause-and-effect relationship</em> between the first sentence's claim and the second's explanation of implementation."}, {"title": "Match the meaning", "content": "Choice D, &quot;For this reason,&quot; directly pairs with the cause-and-effect logic: scientists rely on precise standards (cause), so metrologists developed the SI system (effect).<br/><br/>The other three choices either introduce a contrast (A), disregard context (B), or imply additional unrelated information (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

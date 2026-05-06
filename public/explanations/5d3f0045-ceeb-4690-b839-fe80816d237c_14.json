@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the evidence gap",
-      "content": "The passage claims perceived vulnerability drives interaction inclination but states \u201cas illustrated by the finding that...\u201d without providing the evidence. The blank must supply specific image data comparing interaction preference to maturity ratings."
-    },
-    {
-      "title": "Match the data to the mechanism",
-      "content": "B shows images <strong>2 and 11</strong> were favored (higher interaction inclination) and rated less mature, while images <strong>20 and 16</strong> were rated more mature\u2014directly tying maturity to preference. Choices A and C omit the preference comparison, and D substitutes friendliness for vulnerability. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the evidence gap", "content": "The passage claims perceived vulnerability drives interaction inclination but states “as illustrated by the finding that...” without providing the evidence. The blank must supply specific image data comparing interaction preference to maturity ratings."}, {"title": "Match the data to the mechanism", "content": "B shows images <strong>2 and 11</strong> were favored (higher interaction inclination) and rated less mature, while images <strong>20 and 16</strong> were rated more mature—directly tying maturity to preference.<br/><br/>Choices A and C omit the preference comparison, and D substitutes friendliness for vulnerability.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

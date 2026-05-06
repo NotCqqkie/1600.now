@@ -1,15 +1,1 @@
-{
-  "questionId": "69f031ab",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the phrase structure at the blank",
-      "content": "The sentence reads: \u201cthe first ______ humans in North America as far back as 10,000 years ago.\u201d<br/>Between \u201cthe first\u201d (article + ordinal adjective) and \u201chumans\u201d (noun), the blank must complete the noun phrase that serves as the predicate nominative."
-    },
-    {
-      "title": "Apply the infinitive rule",
-      "content": "The infinitive \u201cto place\u201d correctly creates the phrase \u201cthe first to place humans,\u201d meaning the finding provided the first evidence of humans in North America. This construction follows the rule that an infinitive phrase (to + base verb) must complete \u201cthe first\u201d in a predicate nominative. The other choices\u2014places, placed, place\u2014each violate this rule by failing to form the required infinitive phrase.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "69f031ab", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the phrase structure at the blank", "content": "The sentence reads: “the first ______ humans in North America as far back as 10,000 years ago.”<br/>Between “the first” (article + ordinal adjective) and “humans” (noun), the blank must complete the noun phrase that serves as the predicate nominative."}, {"title": "Apply the infinitive rule", "content": "The infinitive “to place” correctly creates the phrase “the first to place humans,” meaning the finding provided the first evidence of humans in North America.<br/><br/>This construction follows the rule that an infinitive phrase (to + base verb) must complete “the first” in a predicate nominative.<br/><br/>The other choices—places, placed, place—each violate this rule by failing to form the required infinitive phrase.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

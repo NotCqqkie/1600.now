@@ -1,15 +1,1 @@
-{
-  "questionId": "805e361d",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the benefit-then-challenge structure",
-      "content": "The passage introduces customized products as a growing trend, then explains why companies benefit (consumers pay more and wait longer) before using <strong>Still</strong> to signal a pivot to the core challenge: keeping costs low with customization. This benefit-then-challenge pattern defines the text's structure."
-    },
-    {
-      "title": "Match to the correct choice",
-      "content": "Choice C correctly captures this structure: the passage introduces the trend, then explains both its benefits to companies and the challenge it creates. A claims manufacturing innovations are discussed (they aren't), B frames this as a success story with causal factors (wrong pattern), and D mistakenly describes contrasting techniques (the passage presents one approach, not contrasted methods). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "805e361d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the benefit-then-challenge structure", "content": "The passage introduces customized products as a growing trend, then explains why companies benefit (consumers pay more and wait longer) before using <strong>Still</strong> to signal a pivot to the core challenge: keeping costs low with customization.<br/><br/>This benefit-then-challenge pattern defines the text's structure."}, {"title": "Match to the correct choice", "content": "Choice C correctly captures this structure: the passage introduces the trend, then explains both its benefits to companies and the challenge it creates.<br/><br/><ul><li>A claims manufacturing innovations are discussed (they aren't)</li><li>B frames this as a success story with causal factors (wrong pattern)</li><li>D mistakenly describes contrasting techniques (the passage presents one approach</li></ul>, not contrasted methods).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

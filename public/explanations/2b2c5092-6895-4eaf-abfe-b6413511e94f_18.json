@@ -1,15 +1,1 @@
-{
-  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key contrast",
-      "content": "The sentence presents two independent clauses: \u201cOkinaka doesn't make such decisions single-handedly\u201d and \u201chistorical designations must be approved by a group of nine other experts.\u201d The word \u201chowever\u201d signals a contrast between them. We need punctuation that properly joins two independent clauses with this transition word."
-    },
-    {
-      "title": "Apply the rule for conjunctive adverbs",
-      "content": "A conjunctive adverb like \u201chowever\u201d connecting two independent clauses requires either a semicolon before and comma after (<strong>IC; however, IC</strong>) when they're in the same sentence, or a period before and comma after (<strong>IC. However, IC</strong>) when they're separate sentences. Choice A's period after \u201chowever\u201d creates this second pattern, with the capital <strong>A</strong> in \u201cAll\u201d confirming a new sentence begins. The other choices either lack proper punctuation around \u201chowever\u201d (B), add an illogical conjunction (C), or create a double-comma pattern without a clear sentence boundary (D). <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key contrast", "content": "The sentence presents two independent clauses: “Okinaka doesn't make such decisions single-handedly” and “historical designations must be approved by a group of nine other experts.” The word “however” signals a contrast between them.<br/><br/>We need punctuation that properly joins two independent clauses with this transition word."}, {"title": "Apply the rule for conjunctive adverbs", "content": "A conjunctive adverb like “however” connecting two independent clauses requires either a semicolon before and comma after (<strong>IC; however, IC</strong>) when they're in the same sentence, or a period before and comma after (<strong>IC.<br/><br/>However, IC</strong>) when they're separate sentences. Choice A's period after “however” creates this second pattern, with the capital <strong>A</strong> in “All” confirming a new sentence begins.<br/><br/>The other choices either lack proper punctuation around “however” (B), add an illogical conjunction (C), or create a double-comma pattern without a clear sentence boundary (D). <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

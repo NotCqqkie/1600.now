@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_21",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the temporal shift",
-      "content": "The passage describes how genes currently pass traits from parents to children, then shifts to what may happen in the future\u2014when traits inherited by the child are passed to the child's own descendants."
-    },
-    {
-      "title": "Find the forward-looking word",
-      "content": "The word \u201cSomeday\u201d signals a future time, matching the shift from describing present inheritance to what may happen in the future. The other choices either introduce examples, clarify details, or suggest opposition\u2014none of which fit a temporal progression. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the temporal shift", "content": "The passage describes how genes currently pass traits from parents to children, then shifts to what may happen in the future—when traits inherited by the child are passed to the child's own descendants."}, {"title": "Find the forward-looking word", "content": "The word “Someday” signals a future time, matching the shift from describing present inheritance to what may happen in the future.<br/><br/>The other choices either introduce examples, clarify details, or suggest opposition—none of which fit a temporal progression.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

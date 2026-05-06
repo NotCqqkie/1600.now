@@ -1,15 +1,1 @@
-{
-  "questionId": "4802f6a5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the decisive evidence",
-      "content": "The O157:H7 test turned purple while all others turned pink, showing that the aptamers bound specifically to their target and rejected all non-targets in the real-world pear juice."
-    },
-    {
-      "title": "Match the findings to the inference",
-      "content": "D correctly concludes that the aptamers bound to O157:H7 and displayed high specificity in real-world food. A, B, and C misframe these results\u2014either comparing different target pathogens, failing to see that results resolve rather than explain prior uncertainty, or claiming binding occurred to non-targets. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4802f6a5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the decisive evidence", "content": "The O157:H7 test turned purple while all others turned pink, showing that the aptamers bound specifically to their target and rejected all non-targets in the real-world pear juice."}, {"title": "Match the findings to the inference", "content": "D correctly concludes that the aptamers bound to O157:H7 and displayed high specificity in real-world food.<br/><br/>A, B, and C misframe these results—either comparing different target pathogens, failing to see that results resolve rather than explain prior uncertainty, or claiming binding occurred to non-targets.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

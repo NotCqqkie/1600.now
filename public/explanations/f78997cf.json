@@ -1,15 +1,1 @@
-{
-  "questionId": "f78997cf",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses",
-      "content": "The sentence contains two independent clauses that must be properly connected: (1) <em>\u201cSuch interpretations are ultimately speculative,\u201d</em> and (2) <em>\u201cthe object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.\u201d</em> Both have a subject and verb and can stand alone. The blank must provide punctuation and a connector that properly joins them."
-    },
-    {
-      "title": "Apply the rule for \u201cthough\u201d as a conjunctive adverb",
-      "content": "The word <em>\u201cthough\u201d</em> here functions as a transition word (similar to <em>\u201chowever\u201d</em>) introducing a contrasting clause. When <em>\u201cthough\u201d</em> connects two independent clauses, a comma precedes it, and a semicolon follows to separate the main ideas. This creates the pattern: <strong>IC, though; IC</strong>. The comma attaches the transition to the first clause, and the semicolon marks the separation before the second independent clause begins. Options A and C omit necessary punctuation; option A treats <em>\u201cthough\u201d</em> as a subordinating conjunction (creating a dependent clause), while option C places the semicolon before <em>\u201cthough\u201d</em> rather than after. Option D adds an extra comma, creating faulty punctuation. <strong>That matches choice B \u2014 B is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "f78997cf", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "The sentence contains two independent clauses that must be properly connected: (1) <em>“Such interpretations are ultimately speculative,”</em> and (2) <em>“the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.”</em> Both have a subject and verb and can stand alone.<br/><br/>The blank must provide punctuation and a connector that properly joins them."}, {"title": "Apply the rule for “though” as a conjunctive adverb", "content": "The word <em>“though”</em> here functions as a transition word (similar to <em>“however”</em>) introducing a contrasting clause.<br/><br/>When <em>“though”</em> connects two independent clauses, a comma precedes it, and a semicolon follows to separate the main ideas.<br/><br/>This creates the pattern: <strong>IC, though; IC</strong>. The comma attaches the transition to the first clause, and the semicolon marks the separation before the second independent clause begins.<br/><br/>Options A and C omit necessary punctuation; option A treats <em>“though”</em> as a subordinating conjunction (creating a dependent clause), while option C places the semicolon before <em>“though”</em> rather than after.<br/><br/>Option D adds an extra comma, creating faulty punctuation. <strong>That matches choice B — B is correct.</strong>"}]}

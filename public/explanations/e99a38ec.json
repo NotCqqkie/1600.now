@@ -1,15 +1,1 @@
-{
-  "questionId": "e99a38ec",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the hypothesis being tested",
-      "content": "The passage claims that leaders who <em>reflect on lessons learned from past mistakes</em> are likely to exhibit more humility than those who don't. For the data to support this conclusion, the group that reflected on a mistake resulting in learning should score higher in humility than both the control group and the group that reflected without learning."
-    },
-    {
-      "title": "Match the graph to the conclusion",
-      "content": "The graph shows the group reflecting on a mistake with learning averages 3.1 in humility, the group reflecting without learning averages 2.7, and the control group averages 2.9. Choice C directly states that managers who reflected on learning exhibited more humility than the other two groups\u2014exactly what the data displays. The other three choices either cite an isolated fact about score ranges (A), claim the control group was nearly equal to both experimental groups on average (B), or reference expectations not shown in the graph (D).<br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e99a38ec", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the hypothesis being tested", "content": "The passage claims that leaders who <em>reflect on lessons learned from past mistakes</em> are likely to exhibit more humility than those who don't.<br/><br/>For the data to support this conclusion, the group that reflected on a mistake resulting in learning should score higher in humility than both the control group and the group that reflected without learning."}, {"title": "Match the graph to the conclusion", "content": "The graph shows the group reflecting on a mistake with learning averages 3.1 in humility, the group reflecting without learning averages 2.7, and the control group averages 2.9.<br/><br/>Choice C directly states that managers who reflected on learning exhibited more humility than the other two groups—exactly what the data displays.<br/><br/>The other three choices either cite an isolated fact about score ranges (A), claim the control group was nearly equal to both experimental groups on average (B), or reference expectations not shown in the graph (D).<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

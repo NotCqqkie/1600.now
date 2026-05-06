@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the example-support pattern",
-      "content": "The passage states a general principle (sleek vehicles are more aerodynamic), then illustrates it with a specific contrast: the Cessna 310 jet (sleek) versus a semitruck (bulky). The blank must signal that this Cessna example demonstrates the principle."
-    },
-    {
-      "title": "Match the exemplifying word",
-      "content": "\u201dFor example,\u201d introduces the streamlined nose as a concrete example of the general principle about sleek vehicles, which is the passage's exact pattern: general claim followed by specific examples. The other three options either signal contradiction, listing, or simultaneous action rather than exemplification. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the example-support pattern", "content": "The passage states a general principle (sleek vehicles are more aerodynamic), then illustrates it with a specific contrast: the Cessna 310 jet (sleek) versus a semitruck (bulky). The blank must signal that this Cessna example demonstrates the principle."}, {"title": "Match the exemplifying word", "content": "”For example,” introduces the streamlined nose as a concrete example of the general principle about sleek vehicles, which is the passage's exact pattern: general claim followed by specific examples.<br/><br/>The other three options either signal contradiction, listing, or simultaneous action rather than exemplification.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast",
-      "content": "The key signal is the opposition between the two eclipse scenarios: a partial eclipse in 1902 (where the Moon blocks only part of the Sun) and a total eclipse in 1921 (where it completely blocks the Sun)."
-    },
-    {
-      "title": "Choose the word that signals the shift",
-      "content": "\u201dOn the other hand\u201d introduces a contrasting scenario, which fits the shift from a partial to a total eclipse. The other choices suggest causation, reinforce the first scenario rather than create a contrast, or contradict the 19-year gap between dates. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The key signal is the opposition between the two eclipse scenarios: a partial eclipse in 1902 (where the Moon blocks only part of the Sun) and a total eclipse in 1921 (where it completely blocks the Sun)."}, {"title": "Choose the word that signals the shift", "content": "”On the other hand” introduces a contrasting scenario, which fits the shift from a partial to a total eclipse.<br/><br/>The other choices suggest causation, reinforce the first scenario rather than create a contrast, or contradict the 19-year gap between dates.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

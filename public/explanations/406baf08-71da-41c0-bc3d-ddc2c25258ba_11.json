@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the pattern that weakens the claim",
-      "content": "The student claims FTAs increase growth rates. Evidence that would weaken this claim must show growth rates were <em>higher before</em> joining an FTA than after\u2014the opposite of what the claim predicts."
-    },
-    {
-      "title": "Match the pattern to the choices",
-      "content": "Choice B presents this exact pattern for Nicaragua: the growth rate before CAFTA-DR exceeded the growth rate after CAFTA-DR, directly contradicting the student's claim. The other choices show patterns supporting FTA benefits (positive post-FTA growth, positive reversals, or explicitly higher post-FTA rates), all supporting rather than weakening the claim. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the pattern that weakens the claim", "content": "The student claims FTAs increase growth rates. Evidence that would weaken this claim must show growth rates were <em>higher before</em> joining an FTA than after—the opposite of what the claim predicts."}, {"title": "Match the pattern to the choices", "content": "Choice B presents this exact pattern for Nicaragua: the growth rate before CAFTA-DR exceeded the growth rate after CAFTA-DR, directly contradicting the student's claim.<br/><br/>The other choices show patterns supporting FTA benefits (positive post-FTA growth, positive reversals, or explicitly higher post-FTA rates), all supporting rather than weakening the claim.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The claim states \u201cmarks a significant change in Martin's artistic development\u201d \u2014 the supporting quote must show what came before <em>Harbor Number 1</em> and how the work represents a departure from it."
-    },
-    {
-      "title": "Apply the signal",
-      "content": "Choice C distinguishes an \u201cearlier style\u201d that Martin never returned to, placing <em>Harbor Number 1</em> at the threshold of a new creative phase. Choices A, B, and D focus on interpretation, influence, and artistic value without showing a shift in her development. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The claim states “marks a significant change in Martin's artistic development” — the supporting quote must show what came before <em>Harbor Number 1</em> and how the work represents a departure from it."}, {"title": "Apply the signal", "content": "Choice C distinguishes an “earlier style” that Martin never returned to, placing <em>Harbor Number 1</em> at the threshold of a new creative phase.<br/><br/>Choices A, B, and D focus on interpretation, influence, and artistic value without showing a shift in her development.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_7",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's key signal",
-      "content": "The passage reports that microorganism-mediated nutrient cycling accelerated in transplanted cores where the temperature was warmer. Crucially, it emphasizes that microorganism community composition was unchanged\u2014this detail is flagged as essential to the study's conclusion."
-    },
-    {
-      "title": "Determine what the unchanged composition enabled",
-      "content": "If the microbial community had changed at the lower elevation, that compositional shift could explain the acceleration instead of temperature. By confirming the community composition remained the same, the researchers eliminated this alternative explanation and could confidently attribute the acceleration to temperature-driven activity increases of the existing microorganisms. A mistakes the finding for initial evidence of acceleration (acceleration was directly observed), B overgeneralizes to a broader trend not supported by a single transplant study, and D inverts the result by suggesting composition and activity levels are linked. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's key signal", "content": "The passage reports that microorganism-mediated nutrient cycling accelerated in transplanted cores where the temperature was warmer. Crucially, it emphasizes that microorganism community composition was unchanged—this detail is flagged as essential to the study's conclusion."}, {"title": "Determine what the unchanged composition enabled", "content": "If the microbial community had changed at the lower elevation, that compositional shift could explain the acceleration instead of temperature.<br/><br/>By confirming the community composition remained the same, the researchers eliminated this alternative explanation and could confidently attribute the acceleration to temperature-driven activity increases of the existing microorganisms.<br/><br/><ul><li>A mistakes the finding for initial evidence of acceleration (acceleration was directly observed)</li><li>B overgeneralizes to a broader trend not supported by a single transplant study</li><li>D inverts the result by suggesting composition and activity levels are linked</li></ul>.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key cause and effect",
-      "content": "The passage states: water evaporates from the crust, creating voids that oil fills, thereby increasing fat content. This directly links moisture loss to fat increase."
-    },
-    {
-      "title": "Apply the logic to less moisture loss",
-      "content": "If less moisture is lost, fewer voids form, so less oil fills them\u2014meaning less fat increase. Choice B expresses this directly: \u201cthe less the fat content is increased through frying.\u201d The other choices reverse the logic, shift focus, or introduce unsupported details. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key cause and effect", "content": "The passage states: water evaporates from the crust, creating voids that oil fills, thereby increasing fat content. This directly links moisture loss to fat increase."}, {"title": "Apply the logic to less moisture loss", "content": "If less moisture is lost, fewer voids form, so less oil fills them—meaning less fat increase.<br/><br/>Choice B expresses this directly: “the less the fat content is increased through frying.” The other choices reverse the logic, shift focus, or introduce unsupported details.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

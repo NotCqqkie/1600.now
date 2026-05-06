@@ -1,15 +1,1 @@
-{
-  "questionId": "5105ca38",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify Brain's undermining observation",
-      "content": "The scholars conclude the figure is Venus because cupids are linked with Venus in Roman culture. Brain's key observation undermines this: cupids may also be associated with fishing generally, creating an alternative explanation for the cupid's presence."
-    },
-    {
-      "title": "Determine what logically follows",
-      "content": "A correctly states the consequence: the cupid is not conclusive evidence that the figure is Venus. The others either overstate the conclusion (C rules out Venus entirely) or contradict the logic (B claims Venus was often depicted fishing; D suggests the cupid would be difficult to explain if it's not Venus). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5105ca38", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify Brain's undermining observation", "content": "The scholars conclude the figure is Venus because cupids are linked with Venus in Roman culture. Brain's key observation undermines this: cupids may also be associated with fishing generally, creating an alternative explanation for the cupid's presence."}, {"title": "Determine what logically follows", "content": "A correctly states the consequence: the cupid is not conclusive evidence that the figure is Venus.<br/><br/>The others either overstate the conclusion (C rules out Venus entirely) or contradict the logic (B claims Venus was often depicted fishing; D suggests the cupid would be difficult to explain if it's not Venus).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

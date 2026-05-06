@@ -1,15 +1,1 @@
-{
-  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the shift from general principle to specific example",
-      "content": "The first sentence makes a broad claim about energy transfer across trophic levels. The second sentence immediately illustrates this principle with concrete examples: plants providing energy to herbivores, herbivores to carnivores, and so on. The transition must signal that what follows demonstrates the general principle just stated."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "<strong>For example,</strong> directly signals that the following content illustrates the preceding claim.<br/>The other three misfire: <strong>however</strong> and <strong>by contrast</strong> suggest contradiction that doesn't exist; <strong>likewise</strong> suggests a parallel statement rather than an example.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the shift from general principle to specific example", "content": "The first sentence makes a broad claim about energy transfer across trophic levels.<br/><br/>The second sentence immediately illustrates this principle with concrete examples: plants providing energy to herbivores, herbivores to carnivores, and so on.<br/><br/>The transition must signal that what follows demonstrates the general principle just stated."}, {"title": "Match the signal to the choices", "content": "<strong>For example,</strong> directly signals that the following content illustrates the preceding claim.<br/>The other three misfire: <strong>however</strong> and <strong>by contrast</strong> suggest contradiction that doesn't exist; <strong>likewise</strong> suggests a parallel statement rather than an example.<br/>That matches choice C — <strong>C</strong> is correct."}]}

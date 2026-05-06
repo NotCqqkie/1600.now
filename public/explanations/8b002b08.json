@@ -1,15 +1,1 @@
-{
-  "questionId": "8b002b08",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize two independent clauses joined by 'but'",
-      "content": "\u201dThis bat-and-ball game was derived from cricket\u201d ends one complete thought. \u201cKilikiti differs from cricket in a few key ways\u201d starts another. The word \u201cbut\u201d between them signals a contrast."
-    },
-    {
-      "title": "Apply the comma-before-conjunction rule",
-      "content": "A comma before a coordinating conjunction joins two independent clauses. Here, that's \u201ccricket, but kilikiti differs...\u201d The other options either position the comma after \u201cbut\u201d (wrong position) or use a colon (incorrect for coordinating conjunctions). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8b002b08", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Recognize two independent clauses joined by 'but'", "content": "”This bat-and-ball game was derived from cricket” ends one complete thought. “Kilikiti differs from cricket in a few key ways” starts another. The word “but” between them signals a contrast."}, {"title": "Apply the comma-before-conjunction rule", "content": "A comma before a coordinating conjunction joins two independent clauses.<br/><br/>Here, that's “cricket, but kilikiti differs...” The other options either position the comma after “but” (wrong position) or use a colon (incorrect for coordinating conjunctions).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

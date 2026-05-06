@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_15",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify when the Round Table enters the written record",
-      "content": "The passage establishes that the Round Table appears in <em>Roman de Brut</em> (1155) but in nothing written before that date. This pinpoints the documented origin of the Round Table in the literary tradition."
-    },
-    {
-      "title": "Infer what all later references must trace back to",
-      "content": "Any Arthurian legend written after 1155 that mentions the Round Table must be descended from <em>Roman de Brut</em>, since that's where the Round Table first appears in writing. The other choices either contradict the passage's relationships or introduce unsupported claims. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify when the Round Table enters the written record", "content": "The passage establishes that the Round Table appears in <em>Roman de Brut</em> (1155) but in nothing written before that date. This pinpoints the documented origin of the Round Table in the literary tradition."}, {"title": "Infer what all later references must trace back to", "content": "Any Arthurian legend written after 1155 that mentions the Round Table must be descended from <em>Roman de Brut</em>, since that's where the Round Table first appears in writing.<br/><br/>The other choices either contradict the passage's relationships or introduce unsupported claims.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

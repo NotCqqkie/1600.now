@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the turning point",
-      "content": "The <em>\u201cBut\u201d</em> signals a shift: D&V's unique contribution is the reconstruction of fiscal records, which allowed them to determine the true cause of Philip's defaults."
-    },
-    {
-      "title": "Match the main idea",
-      "content": "B names both the method (assembling fiscal records) and the result (insight into Philip's defaults), matching how the passage frames their contribution. A and C focus narrowly on one element; D mischaracterizes the work as building on earlier findings. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the turning point", "content": "The <em>“But”</em> signals a shift: D&V's unique contribution is the reconstruction of fiscal records, which allowed them to determine the true cause of Philip's defaults."}, {"title": "Match the main idea", "content": "B names both the method (assembling fiscal records) and the result (insight into Philip's defaults), matching how the passage frames their contribution.<br/><br/>A and C focus narrowly on one element; D mischaracterizes the work as building on earlier findings.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

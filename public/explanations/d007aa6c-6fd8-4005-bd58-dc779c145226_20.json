@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "<strong>Side 1</strong> is an independent clause (\u201cDeposits of crushed volcanic rock...visitors\u201d with a subject and verb) that ends at the blank.<br/><br/><strong>Side 2</strong> is a dependent clause starting with \u201cWhen they take...\u201d (dependent on the first clause for full meaning)."
-    },
-    {
-      "title": "Apply the rule for independent + dependent clauses",
-      "content": "An independent clause followed by a dependent clause that begins with \u201cWhen\u201d requires no punctuation between them. <strong>Choice C</strong> adds a period and capitalizes \u201cWhen,\u201d turning the second clause into an independent clause, which violates the sentence boundary rules for dependent clauses. The comma in <strong>B</strong> incorrectly separates an independent and dependent clause. Periods in <strong>A, B, C</strong> misapply sentence boundaries. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "<strong>Side 1</strong> is an independent clause (“Deposits of crushed volcanic rock...visitors” with a subject and verb) that ends at the blank.<br/><br/><strong>Side 2</strong> is a dependent clause starting with “When they take...” (dependent on the first clause for full meaning)."}, {"title": "Apply the rule for independent + dependent clauses", "content": "An independent clause followed by a dependent clause that begins with “When” requires no punctuation between them. <strong>Choice C</strong> adds a period and capitalizes “When,” turning the second clause into an independent clause, which violates the sentence boundary rules for dependent clauses.<br/><br/>The comma in <strong>B</strong> incorrectly separates an independent and dependent clause.<br/><br/>Periods in <strong>A, B, C</strong> misapply sentence boundaries.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cfe23776",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the punctuation boundary",
-      "content": "The comma after \u201camendment\u201d signals the start of a non-restrictive modifier (\u201cratified in ______\u201d) that must be properly closed. This opening punctuation pattern indicates that the phrase requires a matching closing comma before the main verb."
-    },
-    {
-      "title": "Apply the boundary rule",
-      "content": "The blank needs both the year and a closing comma to properly complete the non-restrictive participial phrase. Choice B (1804,) provides both: the year and the comma that closes the phrase before \u201cseparated\u201d begins. The other choices either lack the closing comma, use incorrect punctuation marks, or omit the year.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cfe23776", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the punctuation boundary", "content": "The comma after “amendment” signals the start of a non-restrictive modifier (“ratified in ______”) that must be properly closed. This opening punctuation pattern indicates that the phrase requires a matching closing comma before the main verb."}, {"title": "Apply the boundary rule", "content": "The blank needs both the year and a closing comma to properly complete the non-restrictive participial phrase.<br/><br/>Choice B (1804,) provides both: the year and the comma that closes the phrase before “separated” begins.<br/><br/>The other choices either lack the closing comma, use incorrect punctuation marks, or omit the year.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

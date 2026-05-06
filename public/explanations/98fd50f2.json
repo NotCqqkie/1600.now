@@ -1,15 +1,1 @@
-{
-  "questionId": "98fd50f2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what would prove the concern unjustified",
-      "content": "The concern is that virtual tours would make in-person visits seem unnecessary \u2014 that tours would replace in-person attendance. To prove this concern unjustified, the museum needs evidence from in-person visitors showing that virtual tours don't suppress visitation. The strongest proof would be that virtual tours actually encourage in-person visits."
-    },
-    {
-      "title": "Find the survey result that directly refutes the fear",
-      "content": "Choice A states that virtual tours convinced many in-person visitors to plan their visit \u2014 proving the opposite of what was feared. The other three either show tours weren't a factor (B), provide unrelated demographics (C), or suggest tours serve as a complement after visits (D) without proving they encourage attendance. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98fd50f2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what would prove the concern unjustified", "content": "The concern is that virtual tours would make in-person visits seem unnecessary — that tours would replace in-person attendance.<br/><br/>To prove this concern unjustified, the museum needs evidence from in-person visitors showing that virtual tours don't suppress visitation.<br/><br/>The strongest proof would be that virtual tours actually encourage in-person visits."}, {"title": "Find the survey result that directly refutes the fear", "content": "Choice A states that virtual tours convinced many in-person visitors to plan their visit — proving the opposite of what was feared.<br/><br/>The other three either show tours weren't a factor (B), provide unrelated demographics (C), or suggest tours serve as a complement after visits (D) without proving they encourage attendance.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

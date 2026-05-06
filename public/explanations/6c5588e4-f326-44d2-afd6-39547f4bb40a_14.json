@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining detail in the anomaly",
-      "content": "The passage specifies that papers discussing <em>sounds</em> from tractor engines appeared in the \u201cTwitter\u201d search results. This is the key signal: the word \u201ctwitter\u201d itself means to make chirping or twittering sounds \u2014 like those machines produce. The overlap between the search term's meaning and these papers' subject matter is the crucial bridge."
-    },
-    {
-      "title": "Match the word's dual meaning to the explanation",
-      "content": "C captures this logic exactly: \u201ctwitter\u201d can mean both the social media platform and the sounds machines make. Papers discussing tractor engine sounds would contain the word \u201ctwitter\u201d in the sound-related sense and thus be indexed by the database. The other three choices don't explain how these sound-related papers ended up in the \u201cTwitter\u201d search results. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the defining detail in the anomaly", "content": "The passage specifies that papers discussing <em>sounds</em> from tractor engines appeared in the “Twitter” search results.<br/><br/>This is the key signal: the word “twitter” itself means to make chirping or twittering sounds — like those machines produce.<br/><br/>The overlap between the search term's meaning and these papers' subject matter is the crucial bridge."}, {"title": "Match the word's dual meaning to the explanation", "content": "C captures this logic exactly: “twitter” can mean both the social media platform and the sounds machines make.<br/><br/>Papers discussing tractor engine sounds would contain the word “twitter” in the sound-related sense and thus be indexed by the database.<br/><br/>The other three choices don't explain how these sound-related papers ended up in the “Twitter” search results.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

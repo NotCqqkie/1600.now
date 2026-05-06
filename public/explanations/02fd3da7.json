@@ -1,15 +1,1 @@
-{
-  "questionId": "02fd3da7",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core disagreement",
-      "content": "Fowler argues mandatory voting makes results \u201cbetter reflect the preferences of the country as a whole.\u201d Singh and Roy contradict this: forced voters spend less time researching, so \u201cvotes from these voters may not reflect their actual preferences.\u201d"
-    },
-    {
-      "title": "Determine which answer reflects Singh and Roy's response",
-      "content": "Choice C directly states that mandatory voting \u201cdoes not necessarily lead to election outcomes that better represent the preferences of the country as a whole\u201d \u2014 the opposite of what Fowler claims. The other three choices propose consequences not discussed in the texts: population-size thresholds (A), increased civic engagement (B), or easier voting procedures (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "02fd3da7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the core disagreement", "content": "Fowler argues mandatory voting makes results “better reflect the preferences of the country as a whole.” Singh and Roy contradict this: forced voters spend less time researching, so “votes from these voters may not reflect their actual preferences.”"}, {"title": "Determine which answer reflects Singh and Roy's response", "content": "Choice C directly states that mandatory voting “does not necessarily lead to election outcomes that better represent the preferences of the country as a whole” — the opposite of what Fowler claims.<br/><br/>The other three choices propose consequences not discussed in the texts: population-size thresholds (A), increased civic engagement (B), or easier voting procedures (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

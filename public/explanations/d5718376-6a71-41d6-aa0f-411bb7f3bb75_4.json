@@ -1,11 +1,1 @@
-{
-  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept on the graph",
-      "content": "The $y$-intercept is the point where the line crosses the $y$-axis, which occurs when $x = 0$. Looking at the graph, trace vertically from $x = 0$ to where the line intersects. The line crosses the $y$-axis at $y = -7$, giving the point $(0, -7)$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_4", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the y-intercept on the graph", "content": "The $y$-intercept is the point where the line crosses the $y$-axis, which occurs when $x = 0$.<br/><br/>Looking at the graph, trace vertically from $x = 0$ to where the line intersects.<br/><br/>The line crosses the $y$-axis at $y = -7$, giving the point $(0, -7)$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

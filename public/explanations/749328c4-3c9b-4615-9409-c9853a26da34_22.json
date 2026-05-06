@@ -1,15 +1,1 @@
-{
-  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining contrast",
-      "content": "The passage moves from the 2006 World Cup with 32 teams from six continents to 1958 with \u201conly 16 teams, all from Europe and the Americas.\u201d The word \u201conly\u201d and the shift from global to regional scope signal that the two tournaments differ fundamentally in scale and geographic reach."
-    },
-    {
-      "title": "Match the contrast to the choices",
-      "content": "<strong>In contrast</strong> directly marks the opposition between the two World Cups: the 2006 tournament had 32 teams from six continents, while 1958 had only 16 teams from two regions. The other three mark different relationships: consequence (\u201cTherefore\u201d), exemplification (\u201cFor instance\u201d), or restatement (\u201cIn other words\u201d), none of which fit a contrast structure. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the defining contrast", "content": "The passage moves from the 2006 World Cup with 32 teams from six continents to 1958 with “only 16 teams, all from Europe and the Americas.” The word “only” and the shift from global to regional scope signal that the two tournaments differ fundamentally in scale and geographic reach."}, {"title": "Match the contrast to the choices", "content": "<strong>In contrast</strong> directly marks the opposition between the two World Cups: the 2006 tournament had 32 teams from six continents, while 1958 had only 16 teams from two regions.<br/><br/>The other three mark different relationships: consequence (“Therefore”), exemplification (“For instance”), or restatement (“In other words”), none of which fit a contrast structure.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

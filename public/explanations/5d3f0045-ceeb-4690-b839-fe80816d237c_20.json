@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the main verb signal",
-      "content": "The comma before \"emphasizes\" (given in the original text) is the decisive clue. This comma signals that \"emphasizes\" is the main verb of the relative clause modifying \"an approach to music instruction.\" The blank must properly connect \"to teach music naturally\" with this main verb while keeping the sentence grammatical."
-    },
-    {
-      "title": "Apply the parenthetical comma rule",
-      "content": "When a participial phrase interrupts a clause, it must be set off with commas on both sides. Option C correctly uses \"that, aiming to teach music in the same natural way children learn language,\" treating this as a parenthetical phrase. This leaves \"that...emphasizes\" as the grammatical core of the relative clause, with \"that\" as subject and \"emphasizes\" as the main verb. Options A and B use incorrect verb forms (\"is aiming\" and \"has aimed\" don't fit this context), and D omits the comma punctuation needed to signal a parenthetical phrase. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the main verb signal", "content": "The comma before \"emphasizes\" (given in the original text) is the decisive clue.<br/><br/>This comma signals that \"emphasizes\" is the main verb of the relative clause modifying \"an approach to music instruction.\" The blank must properly connect \"to teach music naturally\" with this main verb while keeping the sentence grammatical."}, {"title": "Apply the parenthetical comma rule", "content": "When a participial phrase interrupts a clause, it must be set off with commas on both sides.<br/><br/>Option C correctly uses \"that, aiming to teach music in the same natural way children learn language,\" treating this as a parenthetical phrase.<br/><br/>This leaves \"that...emphasizes\" as the grammatical core of the relative clause, with \"that\" as subject and \"emphasizes\" as the main verb.<br/><br/>Options A and B use incorrect verb forms (\"is aiming\" and \"has aimed\" don't fit this context), and D omits the comma punctuation needed to signal a parenthetical phrase.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

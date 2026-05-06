@@ -1,15 +1,1 @@
-{
-  "questionId": "059f7201",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify Text 1's key assumption",
-      "content": "Text 1 claims that graphic novels use language only \u201csparingly\u201d and are \u201cexperienced as series of images\u201d\u2014positioning images as primary and language as secondary."
-    },
-    {
-      "title": "Evaluate Text 2's counter-argument",
-      "content": "Text 2 contradicts Text 1 by arguing that language is essential\u2014without text, illustrations are incomprehensible\u2014and can be as literary as standard novels. The other choices mischaracterize Text 2's position by suggesting it concedes a flaw, redirects focus, or agrees with Text 1. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "059f7201", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify Text 1's key assumption", "content": "Text 1 claims that graphic novels use language only “sparingly” and are “experienced as series of images”—positioning images as primary and language as secondary."}, {"title": "Evaluate Text 2's counter-argument", "content": "Text 2 contradicts Text 1 by arguing that language is essential—without text, illustrations are incomprehensible—and can be as literary as standard novels.<br/><br/>The other choices mischaracterize Text 2's position by suggesting it concedes a flaw, redirects focus, or agrees with Text 1.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

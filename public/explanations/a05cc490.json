@@ -1,15 +1,1 @@
-{
-  "questionId": "a05cc490",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence boundary issue",
-      "content": "The sentence contains two complete independent clauses that need to be connected: (1) \u201cimprovements in efficiency often correlate negatively with resource conservation\u201d and (2) \u201cefficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises.\u201d The word \u201cthough\u201d serves as a transition showing the paradoxical relationship between these ideas\u2014efficiency improves, yet demand and consumption rise."
-    },
-    {
-      "title": "Apply the correct joining rule for independent clauses and a conjunctive adverb",
-      "content": "When two independent clauses are joined by a conjunctive adverb like \u201cthough\u201d (meaning <em>however</em>), the standard rule requires a <strong>semicolon before the conjunctive adverb</strong>: <strong>IC; though IC</strong>. This punctuation marks the boundary between the two complete thoughts while signaling their relationship. Choices A and C misplace or overuse commas and semicolons; choice D uses only a comma, creating a comma splice between two independent clauses. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a05cc490", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence boundary issue", "content": "The sentence contains two complete independent clauses that need to be connected: (1) “improvements in efficiency often correlate negatively with resource conservation” and (2) “efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises.” The word “though” serves as a transition showing the paradoxical relationship between these ideas—efficiency improves, yet demand and consumption rise."}, {"title": "Apply the correct joining rule for independent clauses and a conjunctive adverb", "content": "When two independent clauses are joined by a conjunctive adverb like “though” (meaning <em>however</em>), the standard rule requires a <strong>semicolon before the conjunctive adverb</strong>: <strong>IC; though IC</strong>.<br/><br/>This punctuation marks the boundary between the two complete thoughts while signaling their relationship.<br/><br/>Choices A and C misplace or overuse commas and semicolons; choice D uses only a comma, creating a comma splice between two independent clauses.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

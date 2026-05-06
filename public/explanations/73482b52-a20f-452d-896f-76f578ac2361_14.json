@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The \u201cbut\u201d signals a contrast: the habitat explanation clashes with the fact that the region is \u201cnotoriously inaccessible.\u201d This suggests the absence might be due to insufficient exploration of the region, not unsuitable habitat."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Inaccessibility suggests the region hasn't been thoroughly explored, making the \u201cperceived absence\u201d a product of incomplete searching rather than unsuitable habitat. A focuses on species confusion, B reverses the relationship (limited access yields fewer observed species, not more), and D simply restates the habitat explanation the \u201cbut\u201d is meant to question. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The “but” signals a contrast: the habitat explanation clashes with the fact that the region is “notoriously inaccessible.” This suggests the absence might be due to insufficient exploration of the region, not unsuitable habitat."}, {"title": "Apply the signal to the choices", "content": "Inaccessibility suggests the region hasn't been thoroughly explored, making the “perceived absence” a product of incomplete searching rather than unsuitable habitat.<br/><br/>A focuses on species confusion, B reverses the relationship (limited access yields fewer observed species, not more), and D simply restates the habitat explanation the “but” is meant to question.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

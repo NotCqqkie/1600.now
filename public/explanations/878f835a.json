@@ -1,15 +1,1 @@
-{
-  "questionId": "878f835a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the detail that emphasizes the thickness",
-      "content": "The goal is to <em>emphasize</em> the thickness of lead-208's neutron skin. To emphasize means to give special importance or prominence to something. The notes provide a specific measurement: 0.28 trillionths of a millimeter. This precise number is exactly what's needed to accomplish the goal of emphasizing the thickness."
-    },
-    {
-      "title": "Find the choice that includes this measurement",
-      "content": "Choice A provides the specific thickness measurement \u2014 \u201cmeasures about 0.28 trillionths of a millimeter\u201d \u2014 that emphasizes the thickness as requested. Choices C and D mention lead-208 but omit the thickness measurement entirely, while B shifts focus to general atomic properties rather than to lead-208's specific characteristics. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "878f835a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the detail that emphasizes the thickness", "content": "The goal is to <em>emphasize</em> the thickness of lead-208's neutron skin.<br/><br/>To emphasize means to give special importance or prominence to something.<br/><br/>The notes provide a specific measurement: 0.28 trillionths of a millimeter.<br/><br/>This precise number is exactly what's needed to accomplish the goal of emphasizing the thickness."}, {"title": "Find the choice that includes this measurement", "content": "Choice A provides the specific thickness measurement — “measures about 0.28 trillionths of a millimeter” — that emphasizes the thickness as requested.<br/><br/>Choices C and D mention lead-208 but omit the thickness measurement entirely, while B shifts focus to general atomic properties rather than to lead-208's specific characteristics.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

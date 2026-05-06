@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_18",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural boundary",
-      "content": "The sentence contains two independent clauses: one about when van Gogh completed the artwork (<em>It was April of 1885 when Vincent van Gogh completed [title]</em>), and a second about the drawing's significance (<em>The drawing is an important part of Van Gogh's body of work</em>). The second clause needs proper sentence-boundary punctuation to separate it from the first."
-    },
-    {
-      "title": "Apply the sentence boundary rule",
-      "content": "Option B correctly places a period after the title, starting a fresh sentence: <em>The drawing, one of dozens to be featured in the upcoming exhibition, is an important part of Van Gogh's body of work.</em> The subject \u201cThe drawing\u201d is properly followed by an appositive phrase in commas, then the verb \u201cis\u201d\u2014a grammatically correct structure. Option A violates the sentence boundary rule by joining two independent clauses with only a comma, while options C and D place an incorrect comma between the subject and main verb. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structural boundary", "content": "The sentence contains two independent clauses: one about when van Gogh completed the artwork (<em>It was April of 1885 when Vincent van Gogh completed [title]</em>), and a second about the drawing's significance (<em>The drawing is an important part of Van Gogh's body of work</em>).<br/><br/>The second clause needs proper sentence-boundary punctuation to separate it from the first."}, {"title": "Apply the sentence boundary rule", "content": "Option B correctly places a period after the title, starting a fresh sentence: <em>The drawing, one of dozens to be featured in the upcoming exhibition, is an important part of Van Gogh's body of work.</em> The subject “The drawing” is properly followed by an appositive phrase in commas, then the verb “is”—a grammatically correct structure.<br/><br/>Option A violates the sentence boundary rule by joining two independent clauses with only a comma, while options C and D place an incorrect comma between the subject and main verb.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

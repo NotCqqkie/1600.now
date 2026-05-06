@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the defining contrast",
-      "content": "The notes reveal two specific structural differences: first-class levers place the fulcrum between effort and load, while second-class levers place the load between effort and fulcrum. A contrast requires showing these distinct positions."
-    },
-    {
-      "title": "Select the answer stating both positions",
-      "content": "D lays out the exact positional difference: fulcrum-between in first-class, load-between in second-class. The other three either define shared properties, use vague language about differences, or actually emphasize similarity instead of contrast. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the defining contrast", "content": "The notes reveal two specific structural differences: first-class levers place the fulcrum between effort and load, while second-class levers place the load between effort and fulcrum. A contrast requires showing these distinct positions."}, {"title": "Select the answer stating both positions", "content": "D lays out the exact positional difference: fulcrum-between in first-class, load-between in second-class.<br/><br/>The other three either define shared properties, use vague language about differences, or actually emphasize similarity instead of contrast.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

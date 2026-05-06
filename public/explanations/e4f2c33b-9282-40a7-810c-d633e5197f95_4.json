@@ -1,15 +1,1 @@
-{
-  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Determine the linear equation from the graph",
-      "content": "Reading two clear points from the graph: at $x = 0$, $y \\approx 65\u00b0C$, and at $x = 100$, $y \\approx 105\u00b0C$. The slope is $$\\text{slope} = \\frac{105 - 65}{100 - 0} = \\frac{40}{100} = \\frac{2}{5}$$ This establishes the linear equation $y = 65 + \\frac{2}{5}x$ and confirms that <strong>choice A is true</strong>."
-    },
-    {
-      "title": "Test choice D at x = 98",
-      "content": "For a DNA molecule with $x = 98\\%$ GC content, use the equation: $$y = 65 + \\frac{2}{5}(98) = 65 + 39.2 = 104.2\u00b0C$$ The calculated temperature of $104.2\u00b0C$ is far above the claimed range of $80\u00b0C$ to $90\u00b0C$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_4", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Determine the linear equation from the graph", "content": "Reading two clear points from the graph: at $x = 0$, $y \\approx 65°C$, and at $x = 100$, $y \\approx 105°C$.<br/><br/>The slope is $$\\text{slope} = \\frac{105 - 65}{100 - 0} = \\frac{40}{100} = \\frac{2}{5}$$ This establishes the linear equation $y = 65 + \\frac{2}{5}x$ and confirms that <strong>choice A is true</strong>."}, {"title": "Test choice D at x = 98", "content": "For a DNA molecule with $x = 98\\%$ GC content, use the equation: $$y = 65 + \\frac{2}{5}(98) = 65 + 39.2 = 104.2°C$$ The calculated temperature of $104.2°C$ is far above the claimed range of $80°C$ to $90°C$. That matches choice D — <strong>D</strong> is correct."}]}

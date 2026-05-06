@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what 'how long' requires",
-      "content": "The goal is to <em>specify how long</em> Mozambique officially used the escudo. This requires stating the complete duration \u2014 both when the escudo began <strong>and</strong> when it ended, using the dates from the notes (1914 and 1980)."
-    },
-    {
-      "title": "Match both dates to the answer",
-      "content": "Choice C states \u201cThe escudo was Mozambique's official currency from 1914 to 1980,\u201d directly providing both dates to establish the complete duration. The other three either lack at least one date or shift focus to the metical rather than specifying the escudo's duration. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what 'how long' requires", "content": "The goal is to <em>specify how long</em> Mozambique officially used the escudo. This requires stating the complete duration — both when the escudo began <strong>and</strong> when it ended, using the dates from the notes (1914 and 1980)."}, {"title": "Match both dates to the answer", "content": "Choice C states “The escudo was Mozambique's official currency from 1914 to 1980,” directly providing both dates to establish the complete duration.<br/><br/>The other three either lack at least one date or shift focus to the metical rather than specifying the escudo's duration.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

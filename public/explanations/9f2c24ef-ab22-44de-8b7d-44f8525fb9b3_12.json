@@ -1,16 +1,1 @@
-{
-  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_12",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the confidence interval from margin of error",
-      "content": "The margin of error defines the range where the true population value plausibly lies. We calculate: lower bound = $8.5\\% - 2.73\\% = 5.77\\%$ and upper bound = $8.5\\% + 2.73\\% = 11.23\\%$.",
-      "formula": "$$[\\text{estimate} - \\text{MOE}, \\text{estimate} + \\text{MOE}]$$"
-    },
-    {
-      "title": "Interpret the interval to identify the correct answer",
-      "content": "The interval [5.77%, 11.23%] represents plausible values for the true defect rate. (A) incorrectly identifies 2.73% as the defect percentage. (C) gives only the point estimate 8.5%, ignoring uncertainty. (D) claims values above 11.23% are plausible, contradicting the upper bound. The correct conclusion is that it is plausible the true defect rate is between 5.77% and 11.23%. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_12", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the confidence interval from margin of error", "content": "The margin of error defines the range where the true population value plausibly lies. We calculate: lower bound = $8.5\\% - 2.73\\% = 5.77\\%$ and upper bound = $8.5\\% + 2.73\\% = 11.23\\%$.", "formula": "$$[\\text{estimate} - \\text{MOE}, \\text{estimate} + \\text{MOE}]$$"}, {"title": "Interpret the interval to identify the correct answer", "content": "The interval [5.77%, 11.23%] represents plausible values for the true defect rate. (A) incorrectly identifies 2.73% as the defect percentage. (C) gives only the point estimate 8.5%, ignoring uncertainty. (D) claims values above 11.23% are plausible, contradicting the upper bound.<br/><br/>The correct conclusion is that it is plausible the true defect rate is between 5.77% and 11.23%.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "fdb16e20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the interrupting phrase",
-      "content": "The phrase <strong>\u201cin the process\u201d</strong> interrupts between the two coordinated actions <strong>\u201calter the particles\u201d</strong> and <strong>\u201cdismantle any information.\u201d</strong> It's non-essential\u2014it clarifies the relationship between the actions but could be removed without breaking the sentence."
-    },
-    {
-      "title": "Apply the matching-punctuation rule",
-      "content": "An interrupting or parenthetical phrase must be enclosed by matching punctuation on both sides (commas, dashes, or parentheses). Here, <strong>\u201cin the process\u201d</strong> requires a comma both before and after it. Choice B provides both: <strong>\u201cand, in the process,\u201d</strong> The other choices fail this rule by missing either the opening comma (A, C) or the closing comma (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fdb16e20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the interrupting phrase", "content": "The phrase <strong>“in the process”</strong> interrupts between the two coordinated actions <strong>“alter the particles”</strong> and <strong>“dismantle any information.”</strong> It's non-essential—it clarifies the relationship between the actions but could be removed without breaking the sentence."}, {"title": "Apply the matching-punctuation rule", "content": "An interrupting or parenthetical phrase must be enclosed by matching punctuation on both sides (commas, dashes, or parentheses).<br/><br/>Here, <strong>“in the process”</strong> requires a comma both before and after it.<br/><br/>Choice B provides both: <strong>“and, in the process,”</strong> The other choices fail this rule by missing either the opening comma (A, C) or the closing comma (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

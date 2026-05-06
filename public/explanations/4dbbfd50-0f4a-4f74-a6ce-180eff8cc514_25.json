@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the cause-and-effect relationship",
-      "content": "The first sentence establishes that the graphics lack organic realism because they're built from perfect geometric shapes. The second sentence describes what this deficiency looks like: unnaturally precise angles and curves. The transition must connect these as cause and consequence."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "\u201dAs such\u201d expresses a consequence\u2014it directly shows that the unnaturally precise angles and curves result from the graphics lacking organic realism. The other three fail to capture this relationship: \u201cIn addition\u201d treats it as separate information, \u201cIn conclusion\u201d wrongly implies finality, and \u201cHowever\u201d introduces a non-existent contrast. This transition completes the logical chain from the problem (lack of realism) to its visible manifestation (precise angles and curves). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the cause-and-effect relationship", "content": "The first sentence establishes that the graphics lack organic realism because they're built from perfect geometric shapes. The second sentence describes what this deficiency looks like: unnaturally precise angles and curves. The transition must connect these as cause and consequence."}, {"title": "Match the meaning to the choices", "content": "”As such” expresses a consequence—it directly shows that the unnaturally precise angles and curves result from the graphics lacking organic realism.<br/><br/>The other three fail to capture this relationship: “In addition” treats it as separate information, “In conclusion” wrongly implies finality, and “However” introduces a non-existent contrast.<br/><br/>This transition completes the logical chain from the problem (lack of realism) to its visible manifestation (precise angles and curves).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_15",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal link being tested",
-      "content": "The passage establishes Sheffield United wore red, enjoyed home success, then presents research on how red affects people\u2014associations with power/dominance and responses of caution/hesitation (like with stop signs). The pivot is crucial: \u201cThese findings, if applicable in the context of athletic competitions, could suggest that...\u201d This conditional statement signals that opponents must have experienced a specific psychological effect linked to red. That effect fills the blank."
-    },
-    {
-      "title": "Match the effect to the correct choice",
-      "content": "If research on red's psychological impact applies to opponents facing Sheffield United's uniforms, those opponents would have been influenced by the color. Choice C directly states this: \u201cinfluenced by the color of Sheffield United's uniforms.\u201d A rules out any influence, B shifts to a counterfactual about opponents' own uniforms (not discussed), and D claims conscious awareness rather than the subconscious psychological response the passage implies. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the causal link being tested", "content": "The passage establishes Sheffield United wore red, enjoyed home success, then presents research on how red affects people—associations with power/dominance and responses of caution/hesitation (like with stop signs).<br/><br/>The pivot is crucial: “These findings, if applicable in the context of athletic competitions, could suggest that...” This conditional statement signals that opponents must have experienced a specific psychological effect linked to red.<br/><br/>That effect fills the blank."}, {"title": "Match the effect to the correct choice", "content": "If research on red's psychological impact applies to opponents facing Sheffield United's uniforms, those opponents would have been influenced by the color.<br/><br/>Choice C directly states this: “influenced by the color of Sheffield United's uniforms.” <ul><li>A rules out any influence</li><li>B shifts to a counterfactual about opponents' own uniforms (not discussed)</li><li>D claims conscious awareness rather than the subconscious psychological response the passage implies</li></ul>.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

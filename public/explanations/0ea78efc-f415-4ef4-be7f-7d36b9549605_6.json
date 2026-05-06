@@ -1,15 +1,1 @@
-{
-  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the opening question",
-      "content": "The passage opens with \u201cWere penguins always flightless?\u201d This question immediately frames what the rest of the text addresses."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "The underlined sentence answers that opening question by presenting Cole's team's position on penguin evolution. The other choices either claim it contradicts the next sentence, suggest the question is unresearched, or attribute terminology work to it\u2014none of which describes the sentence's actual function. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the opening question", "content": "The passage opens with “Were penguins always flightless?” This question immediately frames what the rest of the text addresses."}, {"title": "Apply the signal to the choices", "content": "The underlined sentence answers that opening question by presenting Cole's team's position on penguin evolution.<br/><br/>The other choices either claim it contradicts the next sentence, suggest the question is unresearched, or attribute terminology work to it—none of which describes the sentence's actual function.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

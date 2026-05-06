@@ -1,15 +1,1 @@
-{
-  "questionId": "5fa51c86",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what complete relative-size emphasis requires",
-      "content": "To emphasize how two cities' populations compare <em>relative</em> to each other, you need both the raw numbers and meaningful context. The notes provide absolute populations (Ulaanbaatar: 907,802; Hanoi: 7,781,631) and each city's share of its country (31.98% and 8.14%). A full comparison uses both."
-    },
-    {
-      "title": "Evaluate how each choice compares the two capitals",
-      "content": "C makes the absolute size difference explicit with \u201cis larger than,\u201d then pivots to reveal the proportional contrast with \u201caccounts for more of its country's population.\u201d A and D merely list populations without emphasizing the comparison, and B focuses only on percentages without the direct size contrast. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fa51c86", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what complete relative-size emphasis requires", "content": "To emphasize how two cities' populations compare <em>relative</em> to each other, you need both the raw numbers and meaningful context.<br/><br/>The notes provide absolute populations (Ulaanbaatar: 907,802; Hanoi: 7,781,631) and each city's share of its country (31.98% and 8.14%).<br/><br/>A full comparison uses both."}, {"title": "Evaluate how each choice compares the two capitals", "content": "C makes the absolute size difference explicit with “is larger than,” then pivots to reveal the proportional contrast with “accounts for more of its country's population.” A and D merely list populations without emphasizing the comparison, and B focuses only on percentages without the direct size contrast.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

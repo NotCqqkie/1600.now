@@ -1,15 +1,1 @@
-{
-  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states that \u201cdifferences between diving behaviors in the two exposure types were negligible\u201d\u2014meaning the narwhals behaved similarly when exposed to ship sounds alone and when exposed to ship sounds <em>plus</em> sonic pulses. The blank must explain why adding sonic pulses to ship sounds didn't change the narwhals' diving behavior compared to ship sounds alone."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice D explains this directly: if ship sounds already dominate the overall sound level, then adding sonic pulses produces no meaningful change to the acoustic environment, so the narwhals' response remains similar in both conditions. The other three choices either describe a false pattern (A contradicts \u201cnegligible differences\u201d), address sound propagation irrelevantly (B), or misrepresent the narwhals' sensitivity (C\u2014they clearly reacted to noise). That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that “differences between diving behaviors in the two exposure types were negligible”—meaning the narwhals behaved similarly when exposed to ship sounds alone and when exposed to ship sounds <em>plus</em> sonic pulses.<br/><br/>The blank must explain why adding sonic pulses to ship sounds didn't change the narwhals' diving behavior compared to ship sounds alone."}, {"title": "Match the signal to the choices", "content": "Choice D explains this directly: if ship sounds already dominate the overall sound level, then adding sonic pulses produces no meaningful change to the acoustic environment, so the narwhals' response remains similar in both conditions.<br/><br/>The other three choices either describe a false pattern (A contradicts “negligible differences”), address sound propagation irrelevantly (B), or misrepresent the narwhals' sensitivity (C—they clearly reacted to noise).<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

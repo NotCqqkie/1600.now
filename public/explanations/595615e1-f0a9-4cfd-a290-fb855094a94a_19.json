@@ -1,15 +1,1 @@
-{
-  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive type",
-      "content": "\u201dDrummer\u201d and \u201cDennis Chambers\u201d form an appositive pair. Since \u201cDennis Chambers\u201d is essential for identifying the drummer, it's a restrictive appositive."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Restrictive appositives use no commas. \u201cAmerican drummer Dennis Chambers\u201d correctly keeps both elements together without punctuation. Choice C uses non-restrictive punctuation (commas on both sides); choices A and D have comma placement errors that violate standard conventions. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive type", "content": "”Drummer” and “Dennis Chambers” form an appositive pair. Since “Dennis Chambers” is essential for identifying the drummer, it's a restrictive appositive."}, {"title": "Apply the punctuation rule", "content": "Restrictive appositives use no commas. “American drummer Dennis Chambers” correctly keeps both elements together without punctuation.<br/><br/>Choice C uses non-restrictive punctuation (commas on both sides); choices A and D have comma placement errors that violate standard conventions.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

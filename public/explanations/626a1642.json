@@ -1,15 +1,1 @@
-{
-  "questionId": "626a1642",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the em dash signal",
-      "content": "The em dash before <em>cannot explain</em> signals that a descriptive clause should be enclosed by matching em dashes on both sides."
-    },
-    {
-      "title": "Apply the em dash enclosure rule",
-      "content": "A relative clause providing descriptive information must be enclosed by matching em dashes when em dashes are used. Since an em dash already precedes <em>cannot explain</em>, an opening em dash must precede <em>which</em>. Choice A provides this: models \u2014 which. Choices B, C, and D either mix inconsistent punctuation (comma in B), omit the opening mark entirely (C), or place the dash incorrectly and break the clause (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "626a1642", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the em dash signal", "content": "The em dash before <em>cannot explain</em> signals that a descriptive clause should be enclosed by matching em dashes on both sides."}, {"title": "Apply the em dash enclosure rule", "content": "A relative clause providing descriptive information must be enclosed by matching em dashes when em dashes are used.<br/><br/>Since an em dash already precedes <em>cannot explain</em>, an opening em dash must precede <em>which</em>.<br/><br/>Choice A provides this: models — which. Choices B, C, and D either mix inconsistent punctuation (comma in B), omit the opening mark entirely (C), or place the dash incorrectly and break the clause (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

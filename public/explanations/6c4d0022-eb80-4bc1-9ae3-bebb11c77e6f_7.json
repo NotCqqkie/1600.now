@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the definitional signal",
-      "content": "The underlined portion is a parenthetical definition of \u201cconvergent evolution\u201d that appears early in the passage\u2014it's the fundamental concept that frames everything discussed next."
-    },
-    {
-      "title": "Apply the definition to the choices",
-      "content": "Choice D is correct: the definition provides the baseline understanding of convergent evolution, the phenomenon that frames the entire discussion\u2014from Protas and Moczek's different genetic approaches to Green and Extavour's combined study. Choices A, B, and C misidentify its function: A suggests the studies were unclear, B treats it as examples of how the phenomenon was studied, and C mistakes it for a method discussed later. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the definitional signal", "content": "The underlined portion is a parenthetical definition of “convergent evolution” that appears early in the passage—it's the fundamental concept that frames everything discussed next."}, {"title": "Apply the definition to the choices", "content": "Choice D is correct: the definition provides the baseline understanding of convergent evolution, the phenomenon that frames the entire discussion—from Protas and Moczek's different genetic approaches to Green and Extavour's combined study.<br/><br/>Choices A, B, and <ul><li>C misidentify its function: A suggests the studies were unclear</li><li>B treats it as examples of how the phenomenon was studied</li><li>C mistakes it for a method discussed later</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2c61e0b9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what \u201cgeneralization about the kind of study\u201d means",
-      "content": "The task is not to report a specific finding about \u201cIn My Life\u201d or the 18.9% probability. The word \u201cgeneralization\u201d signals that the student must step back and describe the <strong>type or method</strong> of research itself\u2014what approach Glickman, Brown, and Song used and what kinds of questions it can answer. The notes reveal they applied <strong>statistical methods to study authorship questions</strong>, and this pattern (the method applied to the field) is what needs to be generalized."
-    },
-    {
-      "title": "Match the generalization to the choices",
-      "content": "Choice D states: \u201cResearchers have used statistical methods to address questions of authorship within the field of music.\u201d This generalizes the methodology (statistical methods) and the research focus (authorship questions) without getting trapped in case-specific details. Choices A, B, and C all describe specific details\u2014the probability for McCartney, the conclusion about \u201cIn My Life,\u201d or the likelihood that Lennon wrote the verse\u2014rather than stepping back to characterize the <strong>kind</strong> of study. They report findings, not the research approach itself. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c61e0b9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what “generalization about the kind of study” means", "content": "The task is not to report a specific finding about “In My Life” or the 18.9% probability.<br/><br/>The word “generalization” signals that the student must step back and describe the <strong>type or method</strong> of research itself—what approach Glickman, Brown, and Song used and what kinds of questions it can answer.<br/><br/>The notes reveal they applied <strong>statistical methods to study authorship questions</strong>, and this pattern (the method applied to the field) is what needs to be generalized."}, {"title": "Match the generalization to the choices", "content": "Choice D states: “Researchers have used statistical methods to address questions of authorship within the field of music.” This generalizes the methodology (statistical methods) and the research focus (authorship questions) without getting trapped in case-specific details.<br/><br/>Choices A, B, and C all describe specific details—the probability for McCartney, the conclusion about “In My Life,” or the likelihood that Lennon wrote the verse—rather than stepping back to characterize the <strong>kind</strong> of study.<br/><br/>They report findings, not the research approach itself. That matches choice D — <strong>D</strong> is correct."}]}

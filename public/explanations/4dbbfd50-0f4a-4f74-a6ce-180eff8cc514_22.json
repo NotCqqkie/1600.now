@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal flow",
-      "content": "The word \u201conce\u201d at the start of the second sentence marks what comes next in the electoral process\u2014after voters cast votes for parties, those votes are counted and seats are distributed."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dThen\u201d establishes this temporal sequence: voters first vote for parties, then votes are counted and seats are distributed accordingly. Conversely and However suggest unwarranted contrast, while In other words suggests the second clause restates rather than extends the first. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal flow", "content": "The word “once” at the start of the second sentence marks what comes next in the electoral process—after voters cast votes for parties, those votes are counted and seats are distributed."}, {"title": "Match the meaning", "content": "”Then” establishes this temporal sequence: voters first vote for parties, then votes are counted and seats are distributed accordingly.<br/><br/>Conversely and However suggest unwarranted contrast, while In other words suggests the second clause restates rather than extends the first.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

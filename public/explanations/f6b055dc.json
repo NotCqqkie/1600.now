@@ -1,11 +1,1 @@
-{
-  "questionId": "f6b055dc",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the intersection point on the graph",
-      "content": "The solution to a system of linear equations is the point where the two lines intersect. The line with negative slope descends from left to right, passing through points like $(0, 4)$ and $(4, 0)$. The line with positive slope rises from left to right, passing through the origin. Tracing each line on the grid, they meet at the point where $x = 2$ and $y = 2$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6b055dc", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the intersection point on the graph", "content": "The solution to a system of linear equations is the point where the two lines intersect.<br/><br/>The line with negative slope descends from left to right, passing through points like $(0, 4)$ and $(4, 0)$.<br/><br/>The line with positive slope rises from left to right, passing through the origin.<br/><br/>Tracing each line on the grid, they meet at the point where $x = 2$ and $y = 2$.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

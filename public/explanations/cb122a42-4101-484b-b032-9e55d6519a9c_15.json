@@ -1,15 +1,1 @@
-{
-  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "Before the blank: <strong>\u201cPuerto Rico's\u201d</strong> (a possessive phrase needing a noun to complete it)<br/>After the blank: <strong>\u201cshowcase\u201d</strong> (a verb, beginning the predicate)<br/>The blank is filled with <em>museums</em>, completing the subject noun phrase <strong>\u201cPuerto Rico's museums\u201d</strong>."
-    },
-    {
-      "title": "Apply the rule for subject-verb punctuation",
-      "content": "The rule is: a subject noun phrase and its verb must not be separated by punctuation. Choice A uses no punctuation, correctly connecting the subject <strong>\u201cPuerto Rico's museums\u201d</strong> to the verb <strong>\u201cshowcase\u201d</strong>. Choices B, C, and D all insert punctuation (colon, comma, em dash) between the subject and verb, violating this fundamental rule. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "Before the blank: <strong>“Puerto Rico's”</strong> (a possessive phrase needing a noun to complete it)<br/>After the blank: <strong>“showcase”</strong> (a verb, beginning the predicate)<br/>The blank is filled with <em>museums</em>, completing the subject noun phrase <strong>“Puerto Rico's museums”</strong>."}, {"title": "Apply the rule for subject-verb punctuation", "content": "The rule is: a subject noun phrase and its verb must not be separated by punctuation.<br/><br/>Choice A uses no punctuation, correctly connecting the subject <strong>“Puerto Rico's museums”</strong> to the verb <strong>“showcase”</strong>.<br/><br/>Choices B, C, and D all insert punctuation (colon, comma, em dash) between the subject and verb, violating this fundamental rule.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

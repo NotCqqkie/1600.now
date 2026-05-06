@@ -1,15 +1,1 @@
-{
-  "questionId": "73d457b6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Isolate the claim being weakened",
-      "content": "The archaeologist asserts that the notches represent numerical recording\u2014they were made <strong>\u201cas a means of counting something.\u201d</strong> This interpretation rests on the pattern and method indicating counting rather than another purpose."
-    },
-    {
-      "title": "Find evidence that undermines counting as the explanation",
-      "content": "Choice D weakens the claim by establishing that Neanderthals also used this same pattern\u2014unevenly spaced parallel lines\u2014in decorative art. Since the pattern appears in ornamental contexts, it is not unique to numerical notation, which undermines the archaeologist's argument that the notches must represent counting. <br/><br/>A supports the counting interpretation (parallel lines are used for numbers), B describes a different artifact, and C explains the pattern's spacing without challenging its numerical purpose. <br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73d457b6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Isolate the claim being weakened", "content": "The archaeologist asserts that the notches represent numerical recording—they were made <strong>“as a means of counting something.”</strong> This interpretation rests on the pattern and method indicating counting rather than another purpose."}, {"title": "Find evidence that undermines counting as the explanation", "content": "Choice D weakens the claim by establishing that Neanderthals also used this same pattern—unevenly spaced parallel lines—in decorative art. Since the pattern appears in ornamental contexts, it is not unique to numerical notation, which undermines the archaeologist's argument that the notches must represent counting. <br/><br/><ul><li>A supports the counting interpretation (parallel lines are used for numbers)</li><li>B describes a different artifact</li><li>C explains the pattern's spacing without challenging its numerical purpose</li></ul>. <br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

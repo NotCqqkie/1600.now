@@ -1,15 +1,1 @@
-{
-  "questionId": "7afb470b",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The passage contrasts diadromous fish's obligate migration with euryhaline fish that merely tolerate salinity without migratory requirements \u2014 signaling that these are fundamentally different categories."
-    },
-    {
-      "title": "Match the target meaning",
-      "content": "The target meaning is \u201cdistinguished from\u201d \u2014 the author needs to show why these fish types are fundamentally different. <em>Demarcated from</em> means exactly that: marked with a boundary or separated. The other choices either merge the categories as similar (conflated with), describe an unsupported transformation (reconstituted as), or claim an origin never discussed (derived from). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7afb470b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The passage contrasts diadromous fish's obligate migration with euryhaline fish that merely tolerate salinity without migratory requirements — signaling that these are fundamentally different categories."}, {"title": "Match the target meaning", "content": "The target meaning is “distinguished from” — the author needs to show why these fish types are fundamentally different. <em>Demarcated from</em> means exactly that: marked with a boundary or separated.<br/><br/>The other choices either merge the categories as similar (conflated with), describe an unsupported transformation (reconstituted as), or claim an origin never discussed (derived from).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

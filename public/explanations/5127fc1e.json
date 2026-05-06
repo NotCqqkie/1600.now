@@ -1,15 +1,1 @@
-{
-  "questionId": "5127fc1e",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the structural signal",
-      "content": "<em>\u201cInspired by the navigational strategies of some insects and birds, researchers devised a method\u201d</em> \u2014 this phrase is the passage's hinge. It shows the text moves from an obstacle (NCP only visible at night) through an inspiration (animal navigation strategies) to a solution (the researchers' method)."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D identifies the obstacle (NCP only visible at night), the animal navigation that inspired researchers, and how they mimicked it with an optical device. The other choices either mischaracterize the animal behavior as an alternative method, invent details like accuracy comparisons not in the text, or miss the problem-solution structure. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5127fc1e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the structural signal", "content": "<em>“Inspired by the navigational strategies of some insects and birds, researchers devised a method”</em> — this phrase is the passage's hinge.<br/><br/>It shows the text moves from an obstacle (NCP only visible at night) through an inspiration (animal navigation strategies) to a solution (the researchers' method)."}, {"title": "Apply the signal to the choices", "content": "Choice D identifies the obstacle (NCP only visible at night), the animal navigation that inspired researchers, and how they mimicked it with an optical device.<br/><br/>The other choices either mischaracterize the animal behavior as an alternative method, invent details like accuracy comparisons not in the text, or miss the problem-solution structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states that something about the book \u201chas been very positive,\u201d supported by evidence of reviewer praise and an award. The blank requires a noun phrase that logically pairs with \u201cpositive.\u201d"
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dResponse to\u201d captures the target meaning\u2014the critical response to the book is what can logically be \u201cpositive.\u201d The other three choices either contradict a positive reception (neglect and confusion are inherently negative) or describe something unrelated to how the book was received (inspiration for refers to what inspired the book's creation). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states that something about the book “has been very positive,” supported by evidence of reviewer praise and an award. The blank requires a noun phrase that logically pairs with “positive.”"}, {"title": "Match the meaning", "content": "”Response to” captures the target meaning—the critical response to the book is what can logically be “positive.” The other three choices either contradict a positive reception (neglect and confusion are inherently negative) or describe something unrelated to how the book was received (inspiration for refers to what inspired the book's creation).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

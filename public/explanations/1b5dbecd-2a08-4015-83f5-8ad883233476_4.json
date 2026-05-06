@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the explanatory structure",
-      "content": "The phrase \u201cof the fact that\u201d introduces a reason for the speed difference. The blank must be a word that works with this phrase to show how the difference relates to the given reason."
-    },
-    {
-      "title": "Find the relationship word",
-      "content": "\u201dA consequence\u201d means a result\u2014so \u201cthe difference is a consequence of the fact\u201d expresses that the fact causes the difference. The other choices don't work: repudiation denies rather than explains, objective implies a goal, and explanation reverses the causal direction.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize the explanatory structure", "content": "The phrase “of the fact that” introduces a reason for the speed difference. The blank must be a word that works with this phrase to show how the difference relates to the given reason."}, {"title": "Find the relationship word", "content": "”A consequence” means a result—so “the difference is a consequence of the fact” expresses that the fact causes the difference.<br/><br/>The other choices don't work: repudiation denies rather than explains, objective implies a goal, and explanation reverses the causal direction.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

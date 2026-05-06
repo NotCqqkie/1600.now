@@ -1,15 +1,1 @@
-{
-  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize that 'introduce' means identifying who someone is",
-      "content": "The task asks us to introduce Marie Hall to a new audience. Introducing someone means providing information about who they are\u2014their identity. The notes identify Marie Hall as a British violinist."
-    },
-    {
-      "title": "Match identity information to the choices",
-      "content": "Choice B directly introduces Marie Hall by identifying her as a British violinist who owned a Stradivarius. The other three fail to introduce her: A and D pivot to Stradivari instead, while C mentions her only as a name without explaining who she was. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize that 'introduce' means identifying who someone is", "content": "The task asks us to introduce Marie Hall to a new audience. Introducing someone means providing information about who they are—their identity. The notes identify Marie Hall as a British violinist."}, {"title": "Match identity information to the choices", "content": "Choice B directly introduces Marie Hall by identifying her as a British violinist who owned a Stradivarius.<br/><br/>The other three fail to introduce her: A and D pivot to Stradivari instead, while C mentions her only as a name without explaining who she was.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

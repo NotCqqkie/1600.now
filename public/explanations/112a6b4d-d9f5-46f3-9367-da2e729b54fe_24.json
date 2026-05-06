@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement",
-      "content": "The question asks for a choice that emphasizes a difference between the two birds. We need a choice that directly compares the two birds and highlights what makes them different."
-    },
-    {
-      "title": "Find the choice with the clearest contrast",
-      "content": "Choice B uses distinguish and whereas to set up a direct contrast between the bills: the great-billed hermit's is curved whereas the amethyst woodstar's is straight. The other three either describe one bird in isolation (A, D) or mention both without highlighting their differences (C). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key requirement", "content": "The question asks for a choice that emphasizes a difference between the two birds. We need a choice that directly compares the two birds and highlights what makes them different."}, {"title": "Find the choice with the clearest contrast", "content": "Choice B uses distinguish and whereas to set up a direct contrast between the bills: the great-billed hermit's is curved whereas the amethyst woodstar's is straight.<br/><br/>The other three either describe one bird in isolation (A, D) or mention both without highlighting their differences (C).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

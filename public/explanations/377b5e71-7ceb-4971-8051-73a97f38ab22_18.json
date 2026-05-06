@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_18",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the series of three deserts",
-      "content": "This sentence lists three deserts, each with a ranking description. The Chihuahuan's ranking is incomplete at the blank; the Karakum entry occupies the entire blank; and the Taklamakan's entry follows after, introduced by <em>and</em>."
-    },
-    {
-      "title": "Use semicolons to separate series items with internal commas",
-      "content": "When items in a series contain commas internally (between name and ranking, like <em>Desert name, ranked number</em>), separate the items with semicolons. Choice D correctly provides <strong>eleventh in size; the Karakum Desert, ranked twelfth;</strong> \u2014 maintaining the semicolon separators between all three desert entries. Choices A, B, and C violate this rule by disrupting the parallel structure, omitting separators, or mixing punctuation. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Recognize the series of three deserts", "content": "This sentence lists three deserts, each with a ranking description. The Chihuahuan's ranking is incomplete at the blank; the Karakum entry occupies the entire blank; and the Taklamakan's entry follows after, introduced by <em>and</em>."}, {"title": "Use semicolons to separate series items with internal commas", "content": "When items in a series contain commas internally (between name and ranking, like <em>Desert name, ranked number</em>), separate the items with semicolons.<br/><br/>Choice D correctly provides <strong>eleventh in size; the Karakum Desert, ranked twelfth;</strong> — maintaining the semicolon separators between all three desert entries.<br/><br/>Choices A, B, and C violate this rule by disrupting the parallel structure, omitting separators, or mixing punctuation.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

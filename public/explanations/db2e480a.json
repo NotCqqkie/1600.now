@@ -1,15 +1,1 @@
-{
-  "questionId": "db2e480a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal clause structure",
-      "content": "The blank appears in a dependent clause introduced by \u201cBy the time,\u201d and the main clause uses past perfect tense (\u201chad drastically increased\u201d), showing the increase was already complete at that point."
-    },
-    {
-      "title": "Apply the sequence of tenses",
-      "content": "The sequence of tenses rule requires simple past when the main clause is in past perfect, which is what \u201cascended\u201d (A) provides. Choices B, C, and D use future, present, and present progressive tenses respectively, each violating tense consistency. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "db2e480a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal clause structure", "content": "The blank appears in a dependent clause introduced by “By the time,” and the main clause uses past perfect tense (“had drastically increased”), showing the increase was already complete at that point."}, {"title": "Apply the sequence of tenses", "content": "The sequence of tenses rule requires simple past when the main clause is in past perfect, which is what “ascended” (A) provides.<br/><br/>Choices B, C, and D use future, present, and present progressive tenses respectively, each violating tense consistency.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

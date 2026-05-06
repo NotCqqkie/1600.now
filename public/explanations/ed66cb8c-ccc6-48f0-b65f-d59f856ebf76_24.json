@@ -1,15 +1,1 @@
-{
-  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the temporal range of the artifacts",
-      "content": "The notes mention two artifacts with specific dates: a cup from 1891 and a stickball collar from 2016. These dates, spanning more than a century, are the key data for making a generalization about the archive."
-    },
-    {
-      "title": "Find the choice that generalizes from this range",
-      "content": "Choice D uses these two dates to make a broad claim about the archive's scope \u2014 it concludes the archive includes items from beyond the 1800s. Choices A, B, and C report individual facts from the notes rather than making a generalization about the archive. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the temporal range of the artifacts", "content": "The notes mention two artifacts with specific dates: a cup from 1891 and a stickball collar from 2016. These dates, spanning more than a century, are the key data for making a generalization about the archive."}, {"title": "Find the choice that generalizes from this range", "content": "Choice D uses these two dates to make a broad claim about the archive's scope — it concludes the archive includes items from beyond the 1800s.<br/><br/>Choices A, B, and C report individual facts from the notes rather than making a generalization about the archive.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

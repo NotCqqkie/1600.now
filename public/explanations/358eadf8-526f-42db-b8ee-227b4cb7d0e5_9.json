@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the crucial qualifier",
-      "content": "The passage explains the approach's underutilization: <em>\u201carchival specimens are sometimes stored in ways that compromise DNA quality.\u201d</em> The word <strong>sometimes</strong> is crucial\u2014it signals the problem is selective, affecting certain specimens rather than all."
-    },
-    {
-      "title": "Match the logic to the choices",
-      "content": "D states that specimens <em>\u201cmay contain valuable genomic data\u201d</em> while <em>\u201cnot all of them can yield usable hDNA,\u201d</em> capturing both the passage's acknowledgment of benefits and the variable quality from storage issues. A contradicts the passage's praise for the approach, B adds unsupported claims about extraction timelines, and C misidentifies their primary use. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the crucial qualifier", "content": "The passage explains the approach's underutilization: <em>“archival specimens are sometimes stored in ways that compromise DNA quality.”</em> The word <strong>sometimes</strong> is crucial—it signals the problem is selective, affecting certain specimens rather than all."}, {"title": "Match the logic to the choices", "content": "D states that specimens <em>“may contain valuable genomic data”</em> while <em>“not all of them can yield usable hDNA,”</em> capturing both the passage's acknowledgment of benefits and the variable quality from storage issues.<br/><br/><ul><li>A contradicts the passage's praise for the approach</li><li>B adds unsupported claims about extraction timelines</li><li>C misidentifies their primary use</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

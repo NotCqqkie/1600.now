@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the independent clauses",
-      "content": "Clause 1: \u201cThe sand at Spiaggia Rosa Beach in Italy is a more unusual shade\u201d<br/>Clause 2: \u201cdeposits of crushed coral and other organic matter lend the sand a unique pink hue\u201d"
-    },
-    {
-      "title": "Apply the punctuation rule for independent clauses with terminal elements",
-      "content": "Two independent clauses are properly separated by a semicolon. When the first clause ends with a contrasting word like \u201cthough,\u201d a comma precedes it and a semicolon follows it. This comma-though-semicolon pattern correctly shows the relationship between the ideas while maintaining proper clause boundaries. Options A and B position \u201cthough\u201d incorrectly within the clause structure, while option C fails to use a comma and places \u201cthough\u201d at the start of the second clause. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the independent clauses", "content": "Clause 1: “The sand at Spiaggia Rosa Beach in Italy is a more unusual shade”<br/>Clause 2: “deposits of crushed coral and other organic matter lend the sand a unique pink hue”"}, {"title": "Apply the punctuation rule for independent clauses with terminal elements", "content": "Two independent clauses are properly separated by a semicolon.<br/><br/>When the first clause ends with a contrasting word like “though,” a comma precedes it and a semicolon follows it.<br/><br/>This comma-though-semicolon pattern correctly shows the relationship between the ideas while maintaining proper clause boundaries.<br/><br/>Options A and B position “though” incorrectly within the clause structure, while option C fails to use a comma and places “though” at the start of the second clause.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core crisis and its solution",
-      "content": "The passage identifies the crisis root: coins below 80% silver were unsuitable for trade, depleting confidence. To relieve this crisis, Abd'astart I must restore coins to above 80% silver."
-    },
-    {
-      "title": "Match the solution to the choices",
-      "content": "Choice A achieves this: keeping each coin's absolute silver amount (as in 367 BCE coins) while decreasing weight increases the silver percentage above 80%, making coins suitable for trade again. Choices B, C, and D fail to restore coins above 80%\u2014B proclaims a future standard without solving current unsuitability; D maintains the problematic 74.2% proportion; C adds copper, worsening debasement. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the core crisis and its solution", "content": "The passage identifies the crisis root: coins below 80% silver were unsuitable for trade, depleting confidence. To relieve this crisis, Abd'astart I must restore coins to above 80% silver."}, {"title": "Match the solution to the choices", "content": "Choice A achieves this: keeping each coin's absolute silver amount (as in 367 BCE coins) while decreasing weight increases the silver percentage above 80%, making coins suitable for trade again.<br/><br/>Choices B, C, and D fail to restore coins above 80%—B proclaims a future standard without solving current unsuitability; D maintains the problematic 74.2% proportion; C adds copper, worsening debasement.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

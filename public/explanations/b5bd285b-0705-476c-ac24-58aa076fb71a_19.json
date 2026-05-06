@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses",
-      "content": "\u201dThis has not always been the case\u201d is an independent clause. The second part, \u201cthroughout geologic history, Earth's magnetic poles have swapped places several times through a process called polar wandering,\u201d is also an independent clause (with an introductory prepositional phrase). The word \u201cthough\u201d will serve as a transitional interjection between these two clauses."
-    },
-    {
-      "title": "Apply the rule for separating independent clauses with an interjection",
-      "content": "Two independent clauses must be separated by a semicolon. When an interjection like \u201cthough\u201d interrupts between the clauses, the comma before it sets the interjection off, and the semicolon after still performs its job of separating the two main clauses. Choice C correctly applies this with \u201c...case, though; throughout geologic history...\u201d The other options either use a semicolon before \u201cthough\u201d (violating the rule for parenthetical placement), fail to include a separating semicolon after \u201cthough,\u201d or use commas without the required clause separator. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "”This has not always been the case” is an independent clause.<br/><br/>The second part, “throughout geologic history, Earth's magnetic poles have swapped places several times through a process called polar wandering,” is also an independent clause (with an introductory prepositional phrase).<br/><br/>The word “though” will serve as a transitional interjection between these two clauses."}, {"title": "Apply the rule for separating independent clauses with an interjection", "content": "Two independent clauses must be separated by a semicolon. When an interjection like “though” interrupts between the clauses, the comma before it sets the interjection off, and the semicolon after still performs its job of separating the two main clauses.<br/><br/>Choice C correctly applies this with “...case, though; throughout geologic history...” The other options either use a semicolon before “though” (violating the rule for parenthetical placement), fail to include a separating semicolon after “though,” or use commas without the required clause separator.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

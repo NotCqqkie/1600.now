@@ -1,15 +1,1 @@
-{
-  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_18",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the appositive that needs punctuation",
-      "content": "The sentence has two ways to describe the person: \u201cessayist\u201d (her role) and \u201cauthor of <em>Of Landscape and Longing</em>\u201c (her published work). The phrase \u201cauthor of <em>Of Landscape and Longing</em>\u201c is an appositive\u2014it provides additional information about the noun it follows. Appositives must be set off by commas when they provide non-essential detail."
-    },
-    {
-      "title": "Match punctuation to structure",
-      "content": "\u201d<strong>Essayist Carolyn Servid</strong>\u201c forms a complete noun phrase: the role followed by the name that identifies which essayist. Because the proper noun restrictively identifies which essayist (no comma needed between them), the noun phrase stays tight. The comma then belongs <em>after</em> \u201cServid,\u201d immediately before the appositive \u201cauthor of\u2026\u201d to properly set it off. <br/><br/>Options A and B fail to place a comma before the appositive, leaving \u201cauthor of\u201d unpunctuated. Option D unnecessarily separates \u201cCarolyn Servid\u201d with commas, treating it as a standalone appositive when it already restrictively identifies the essayist. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the appositive that needs punctuation", "content": "The sentence has two ways to describe the person: “essayist” (her role) and “author of <em>Of Landscape and Longing</em>“ (her published work).<br/><br/>The phrase “author of <em>Of Landscape and Longing</em>“ is an appositive—it provides additional information about the noun it follows.<br/><br/>Appositives must be set off by commas when they provide non-essential detail."}, {"title": "Match punctuation to structure", "content": "”<strong>Essayist Carolyn Servid</strong>“ forms a complete noun phrase: the role followed by the name that identifies which essayist. Because the proper noun restrictively identifies which essayist (no comma needed between them), the noun phrase stays tight. The comma then belongs <em>after</em> “Servid,” immediately before the appositive “author of…” to properly set it off. <br/><br/>Options A and B fail to place a comma before the appositive, leaving “author of” unpunctuated. Option D unnecessarily separates “Carolyn Servid” with commas, treating it as a standalone appositive when it already restrictively identifies the essayist. <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

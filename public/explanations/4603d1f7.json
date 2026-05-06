@@ -1,15 +1,1 @@
-{
-  "questionId": "4603d1f7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrasting outcomes",
-      "content": "The passage contrasts two musicians using the same pricing model: Harvey Danger earned disappointingly when 99% of listeners paid nothing, while Jane Siberry earned significantly because listeners paid <em>more</em> than the suggested price. This contrast is the decisive clue."
-    },
-    {
-      "title": "Match the pattern to the choices",
-      "content": "The model \u201cmay prove financially successful for some musicians but disappointing for others\u201d\u2014this directly captures the contrasting outcomes shown by the examples. The other three choices either contradict the examples (B), introduce unsupported claims about lowering prices (C), or make unmentioned comparisons to traditional pricing (D). This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4603d1f7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrasting outcomes", "content": "The passage contrasts two musicians using the same pricing model: Harvey Danger earned disappointingly when 99% of listeners paid nothing, while Jane Siberry earned significantly because listeners paid <em>more</em> than the suggested price. This contrast is the decisive clue."}, {"title": "Match the pattern to the choices", "content": "The model “may prove financially successful for some musicians but disappointing for others”—this directly captures the contrasting outcomes shown by the examples.<br/><br/>The other three choices either contradict the examples (B), introduce unsupported claims about lowering prices (C), or make unmentioned comparisons to traditional pricing (D).<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

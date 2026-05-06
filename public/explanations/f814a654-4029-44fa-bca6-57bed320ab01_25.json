@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what a generalization requires",
-      "content": "The task asks the student to \u201cmake a <strong>generalization</strong>.\u201d A generalization strips away specific details\u2014author names, dates, locations\u2014to reveal the common pattern across multiple sources."
-    },
-    {
-      "title": "Match the choice that removes specific details",
-      "content": "Choice A does exactly this: it presents the shared conclusion without naming researchers, dates, or locations. Choices B and C remain tied to specific details and authors (B focuses on one study, C lists both with years), while D sidesteps the finding entirely to define a term. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what a generalization requires", "content": "The task asks the student to “make a <strong>generalization</strong>.” A generalization strips away specific details—author names, dates, locations—to reveal the common pattern across multiple sources."}, {"title": "Match the choice that removes specific details", "content": "Choice A does exactly this: it presents the shared conclusion without naming researchers, dates, or locations.<br/><br/>Choices B and C remain tied to specific details and authors (B focuses on one study, C lists both with years), while D sidesteps the finding entirely to define a term.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

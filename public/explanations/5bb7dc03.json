@@ -1,15 +1,1 @@
-{
-  "questionId": "5bb7dc03",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the core requirement",
-      "content": "The student wants to emphasize a <strong>difference</strong> in the origins of the two words. To accomplish this, the answer must name <em>both</em> origins explicitly and show a contrast between them."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "Choice A explicitly states both origins\u2014\u201dguerdon\u201d from Anglo-French and \u201cLaodicean\u201d from ancient Greek\u2014using \u201cwhile\u201d to emphasize the contrast between them. Choices B, C, and D either omit the origins entirely, cover only one word's origin, or mention both words without specifying their distinct origins. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5bb7dc03", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the core requirement", "content": "The student wants to emphasize a <strong>difference</strong> in the origins of the two words. To accomplish this, the answer must name <em>both</em> origins explicitly and show a contrast between them."}, {"title": "Apply to the choices", "content": "Choice A explicitly states both origins—”guerdon” from Anglo-French and “Laodicean” from ancient Greek—using “while” to emphasize the contrast between them.<br/><br/>Choices B, C, and D either omit the origins entirely, cover only one word's origin, or mention both words without specifying their distinct origins.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the specific metric for measuring stress reduction",
-      "content": "The passage specifies that researchers \u201ccompared the percent change between baseline and peak heart rate\u201d with \u201chigher values indicating higher stress levels.\u201d For social buffering to occur, a companion should reduce this stress metric."
-    },
-    {
-      "title": "Match the measurement to the choice",
-      "content": "Choice C directly states that \u201cthe average percent change in heart rate was lower among <em>C. helleri</em> with a companion than among solitary <em>C. helleri</em> and <em>C. helleri</em> with a rope\u201d\u2014this is exactly what the researchers measured, and a lower percent change directly demonstrates that companions reduce stress response. Choices A and B report absolute heart rate values rather than percent change, while D contradicts social buffering by showing percent change is smaller when solitary. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the specific metric for measuring stress reduction", "content": "The passage specifies that researchers “compared the percent change between baseline and peak heart rate” with “higher values indicating higher stress levels.” For social buffering to occur, a companion should reduce this stress metric."}, {"title": "Match the measurement to the choice", "content": "Choice C directly states that “the average percent change in heart rate was lower among <em>C. helleri</em> with a companion than among solitary <em>C. helleri</em> and <em>C. helleri</em> with a rope”—this is exactly what the researchers measured, and a lower percent change directly demonstrates that companions reduce stress response.<br/><br/>Choices A and B report absolute heart rate values rather than percent change, while D contradicts social buffering by showing percent change is smaller when solitary.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

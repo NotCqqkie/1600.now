@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the specific examples",
-      "content": "The second sentence names exact mushroom species and the specific compounds Ferreira detected in each\u2014concrete instances of the phenolic compounds mentioned in the first sentence."
-    },
-    {
-      "title": "Apply the correct transition",
-      "content": "\u201dFor example\u201d introduces specific instances that illustrate a general claim. The other three choices falsely imply different logical relationships: \u201cHowever\u201d and \u201cNevertheless\u201d suggest contradiction, while \u201cFor this reason\u201d implies causation\u2014neither fits the exemplification pattern here. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ea42af8e-0812-4d54-a254-797255665265_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the specific examples", "content": "The second sentence names exact mushroom species and the specific compounds Ferreira detected in each—concrete instances of the phenolic compounds mentioned in the first sentence."}, {"title": "Apply the correct transition", "content": "”For example” introduces specific instances that illustrate a general claim.<br/><br/>The other three choices falsely imply different logical relationships: “However” and “Nevertheless” suggest contradiction, while “For this reason” implies causation—neither fits the exemplification pattern here.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the central contrast in the claim",
-      "content": "The student contrasts one age group where popularity peaked against older groups where it declined. To support this, the data must show a younger age group consistently having higher participation than an older age group throughout 1992\u20131995."
-    },
-    {
-      "title": "Locate this contrast in the table",
-      "content": "Brownies (6\u20138 years) are the peak participation group, consistently outnumbering Seniors (14\u201317 years) by orders of magnitude: 1,319 versus 50, 1,225 versus 43, 1,181 versus 45, 1,142 versus 52. Choice D precisely documents this: for each year, fewer Seniors than Brownies. The other choices either contradict the data (A says Ambassadors exceeded Brownies once, which never happened; C says Daisies always exceeded Ambassadors, which is false) or isolate Brownies' decline without the age-group comparison (B). This age-based contrast directly supports the claim.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the central contrast in the claim", "content": "The student contrasts one age group where popularity peaked against older groups where it declined. To support this, the data must show a younger age group consistently having higher participation than an older age group throughout 1992–1995."}, {"title": "Locate this contrast in the table", "content": "Brownies (6–8 years) are the peak participation group, consistently outnumbering Seniors (14–17 years) by orders of magnitude: 1,319 versus 50, 1,225 versus 43, 1,181 versus 45, 1,142 versus 52.<br/><br/>Choice D precisely documents this: for each year, fewer Seniors than Brownies.<br/><br/>The other choices either contradict the data (A says Ambassadors exceeded Brownies once, which never happened; C says Daisies always exceeded Ambassadors, which is false) or isolate Brownies' decline without the age-group comparison (B).<br/><br/>This age-based contrast directly supports the claim.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

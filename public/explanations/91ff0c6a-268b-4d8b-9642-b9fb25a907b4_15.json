@@ -1,15 +1,1 @@
-{
-  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the replication pattern",
-      "content": "The passage describes how the geographic language distribution from China\u2014Mandarin in the north, Cantonese/Fuzhounese in the south\u2014replicates in New York City when those same regional groups immigrate: northerners settle in Queens, southerners in Manhattan."
-    },
-    {
-      "title": "Match the inference",
-      "content": "Choice B directly expresses this: regional language patterns from an origin country can replicate in a destination country when immigrants settle. A and C introduce topics never discussed (language change rates, linguistic variation), while D's correlation between country size and language count is unrelated to the pattern shown. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the replication pattern", "content": "The passage describes how the geographic language distribution from China—Mandarin in the north, Cantonese/Fuzhounese in the south—replicates in New York City when those same regional groups immigrate: northerners settle in Queens, southerners in Manhattan."}, {"title": "Match the inference", "content": "Choice B directly expresses this: regional language patterns from an origin country can replicate in a destination country when immigrants settle.<br/><br/>A and C introduce topics never discussed (language change rates, linguistic variation), while D's correlation between country size and language count is unrelated to the pattern shown.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

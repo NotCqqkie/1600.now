@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the exception the researcher is describing",
-      "content": "The passage says lakes generally <strong>lose</strong> ice days, but the researcher claims some have <strong>instead increased</strong> in ice duration. This is the key signal: we need a lake with <strong>more</strong> ice days in 2005-06 than in 1980-81."
-    },
-    {
-      "title": "Find the lake showing the increase",
-      "content": "Lake Baikal rose from roughly 100 days to roughly 110-115 days, directly demonstrating the increase the researcher claimed. The other three choices either include Kalmarinj\u00e4rvi (which actually declined from 200 to 160 days) or don't show an increase in ice duration.<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the exception the researcher is describing", "content": "The passage says lakes generally <strong>lose</strong> ice days, but the researcher claims some have <strong>instead increased</strong> in ice duration. This is the key signal: we need a lake with <strong>more</strong> ice days in 2005-06 than in 1980-81."}, {"title": "Find the lake showing the increase", "content": "Lake Baikal rose from roughly 100 days to roughly 110-115 days, directly demonstrating the increase the researcher claimed.<br/><br/>The other three choices either include Kalmarinjärvi (which actually declined from 200 to 160 days) or don't show an increase in ice duration.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

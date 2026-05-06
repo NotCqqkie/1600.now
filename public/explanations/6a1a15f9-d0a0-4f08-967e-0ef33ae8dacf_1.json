@@ -1,15 +1,1 @@
-{
-  "questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the problem-solution dynamic",
-      "content": "The passage describes a research limitation caused by limited data, then shifts to show researchers acquiring new data. The blank asks what they did to the shortcoming after this breakthrough. The key signal: new data directly addresses the root cause of the limitation."
-    },
-    {
-      "title": "Match the verb to the improvement",
-      "content": "<strong>Mitigate</strong> means to reduce or lessen something harmful \u2014 which is exactly what new data does to the previous limitation on research scope. Presuppose contradicts the timeline of gaining data, validate applies to evidence rather than shortcomings, and categorize is unrelated to addressing limitations. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the problem-solution dynamic", "content": "The passage describes a research limitation caused by limited data, then shifts to show researchers acquiring new data. The blank asks what they did to the shortcoming after this breakthrough. The key signal: new data directly addresses the root cause of the limitation."}, {"title": "Match the verb to the improvement", "content": "<strong>Mitigate</strong> means to reduce or lessen something harmful — which is exactly what new data does to the previous limitation on research scope.<br/><br/>Presuppose contradicts the timeline of gaining data, validate applies to evidence rather than shortcomings, and categorize is unrelated to addressing limitations.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

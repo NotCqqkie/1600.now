@@ -1,15 +1,1 @@
-{
-  "questionId": "995d55fd",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the researchers' central claim",
-      "content": "The passage leads with the key statement: <strong>\u201cResearchers now claim that the ridges' formation mechanism mirrors that of a strikingly similar pair on Greenland's ice sheet.\u201d</strong> It then details Greenland's mechanism. The closing delivers the main point: though Europa lacks surface water, <strong>\u201cthe same process could be driven by the moon's subsurface ocean.\u201d</strong> In other words, researchers propose a single mechanism for both sets of ridges\u2014powered by different water sources."
-    },
-    {
-      "title": "Apply the claim to the choices",
-      "content": "Choice A directly states the researchers' proposal: the same process formed both ridges despite Europa's lack of surface water. The other choices either contradict the passage (B wrongly depicts Europa's ridges as non-parallel when the text calls them <strong>\u201cdistinctive sets of parallel ridges\u201d</strong>), add unsupported information (C introduces a timeline), or misread the tone (D frames the ridges as an unsolved puzzle when the passage offers a solution). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "995d55fd", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the researchers' central claim", "content": "The passage leads with the key statement: <strong>“Researchers now claim that the ridges' formation mechanism mirrors that of a strikingly similar pair on Greenland's ice sheet.”</strong> It then details Greenland's mechanism.<br/><br/>The closing delivers the main point: though Europa lacks surface water, <strong>“the same process could be driven by the moon's subsurface ocean.”</strong> In other words, researchers propose a single mechanism for both sets of ridges—powered by different water sources."}, {"title": "Apply the claim to the choices", "content": "Choice A directly states the researchers' proposal: the same process formed both ridges despite Europa's lack of surface water.<br/><br/>The other choices either contradict the passage (B wrongly depicts Europa's ridges as non-parallel when the text calls them <strong>“distinctive sets of parallel ridges”</strong>), add unsupported information (C introduces a timeline), or misread the tone (D frames the ridges as an unsolved puzzle when the passage offers a solution).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

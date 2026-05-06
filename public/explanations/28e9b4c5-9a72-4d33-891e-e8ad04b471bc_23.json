@@ -1,15 +1,1 @@
-{
-  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the agreement signal",
-      "content": "The word \u201cconcurring\u201d is the key signal\u2014it indicates that Rehren is supporting the same conclusion about glass availability that Hodgkinson reached."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dLikewise\u201d directly expresses this parallelism\u2014the transition shows both researchers making comparable points. The other three wrongly suggest different relationships: \u201cAs such\u201d and \u201cConsequently\u201d imply causation, while \u201cNonetheless\u201d introduces contrast. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the agreement signal", "content": "The word “concurring” is the key signal—it indicates that Rehren is supporting the same conclusion about glass availability that Hodgkinson reached."}, {"title": "Apply the signal to the choices", "content": "”Likewise” directly expresses this parallelism—the transition shows both researchers making comparable points.<br/><br/>The other three wrongly suggest different relationships: “As such” and “Consequently” imply causation, while “Nonetheless” introduces contrast.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

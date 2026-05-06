@@ -1,15 +1,1 @@
-{
-  "questionId": "ac285054",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the timeline paradox",
-      "content": "The DNA analysis found Polynesian sweet potato varieties diverged from South American ones over 100,000 years ago, yet Polynesia was peopled only 3,000 years ago. This 97,000-year gap\u2014the varieties were genetically distinct long before humans could have arrived\u2014is the decisive clue."
-    },
-    {
-      "title": "Conclude what human activity couldn't explain",
-      "content": "Human activity could not have introduced the plant, since the genetic divergence predates human settlement by roughly 97,000 years. The Polynesian varieties must have arrived through natural means. A contradicts the passage's South American origin, B claims recent introduction despite the DNA evidence, and D addresses domestication rather than introduction. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ac285054", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the timeline paradox", "content": "The DNA analysis found Polynesian sweet potato varieties diverged from South American ones over 100,000 years ago, yet Polynesia was peopled only 3,000 years ago. This 97,000-year gap—the varieties were genetically distinct long before humans could have arrived—is the decisive clue."}, {"title": "Conclude what human activity couldn't explain", "content": "Human activity could not have introduced the plant, since the genetic divergence predates human settlement by roughly 97,000 years.<br/><br/>The Polynesian varieties must have arrived through natural means.<br/><br/><ul><li>A contradicts the passage's South American origin</li><li>B claims recent introduction despite the DNA evidence</li><li>D addresses domestication rather than introduction</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical function",
-      "content": "The blank must be a possessive word modifying <strong>narrative</strong>. The antecedent noun is <strong>poem</strong>, which is singular."
-    },
-    {
-      "title": "Apply the singular possessive form",
-      "content": "<strong>Its</strong> is the singular possessive adjective that agrees with <strong>poem</strong>. The other choices are either plural (<strong>their</strong>) or contractions that do not express possession (<strong>they're</strong> and <strong>it's</strong>). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical function", "content": "The blank must be a possessive word modifying <strong>narrative</strong>. The antecedent noun is <strong>poem</strong>, which is singular."}, {"title": "Apply the singular possessive form", "content": "<strong>Its</strong> is the singular possessive adjective that agrees with <strong>poem</strong>.<br/><br/>The other choices are either plural (<strong>their</strong>) or contractions that do not express possession (<strong>they're</strong> and <strong>it's</strong>).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

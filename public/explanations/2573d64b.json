@@ -1,15 +1,1 @@
-{
-  "questionId": "2573d64b",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural pivot",
-      "content": "The passage initially emphasizes the work's impressive scope and comprehensiveness, then pivots with <em>But</em> to reveal a meaningful flaw: it lacks <strong>a clear authorial point of view</strong> to unify the various accounts."
-    },
-    {
-      "title": "Match the structure to the correct choice",
-      "content": "Choice D expresses the passage's core argument: the work represents a genuine, valuable effort with an important methodological limitation. The other three misidentify this limitation (A claims missing information about events, not absent authorial perspective) or fabricate unsupported details (B and C invent claims about account ratios and non-participation). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2573d64b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structural pivot", "content": "The passage initially emphasizes the work's impressive scope and comprehensiveness, then pivots with <em>But</em> to reveal a meaningful flaw: it lacks <strong>a clear authorial point of view</strong> to unify the various accounts."}, {"title": "Match the structure to the correct choice", "content": "Choice D expresses the passage's core argument: the work represents a genuine, valuable effort with an important methodological limitation.<br/><br/>The other three misidentify this limitation (A claims missing information about events, not absent authorial perspective) or fabricate unsupported details (B and C invent claims about account ratios and non-participation).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

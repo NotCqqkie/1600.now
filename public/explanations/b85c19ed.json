@@ -1,15 +1,1 @@
-{
-  "questionId": "b85c19ed",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the noun the pronoun must refer to",
-      "content": "In \u201cmaking ______ lighter overall,\u201d the blank is the direct object of the verb \u201cmaking.\u201d The sentence describes two improvements: flattening the instrument's curves (explicitly mentioned) and making [something] lighter overall. Since the first action targets the curves, the second action must target the violin itself."
-    },
-    {
-      "title": "Select the pronoun with correct number agreement",
-      "content": "A pronoun must agree with its antecedent in number: \u201cIt\u201d is singular and correctly refers to \u201ca traditional violin,\u201d creating \u201cmaking it lighter overall.\u201d Plural pronouns (them, those) violate this agreement. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b85c19ed", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the noun the pronoun must refer to", "content": "In “making ______ lighter overall,” the blank is the direct object of the verb “making.” The sentence describes two improvements: flattening the instrument's curves (explicitly mentioned) and making [something] lighter overall.<br/><br/>Since the first action targets the curves, the second action must target the violin itself."}, {"title": "Select the pronoun with correct number agreement", "content": "A pronoun must agree with its antecedent in number: “It” is singular and correctly refers to “a traditional violin,” creating “making it lighter overall.” Plural pronouns (them, those) violate this agreement. That matches choice D — <strong>D</strong> is correct."}]}

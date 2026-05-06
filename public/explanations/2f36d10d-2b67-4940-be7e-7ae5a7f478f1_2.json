@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage contrasts voters' claimed preference for nuanced and compromising candidates with their actual preference for &quot;unyielding rhetoric&quot; when comparing speeches. The key signal is the <strong>contrast between</strong> 'nuanced perspectives' and 'willingness to compromise' versus a phrase that directly opposes these traits while fitting the 'unyielding' descriptor."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Dogmatic</strong> precisely conveys rigidity in opinion, aligning with 'unyielding rhetoric.' The other choices either misrepresent the context (e.g., 'vacillating' implies indecision, 'banal' relates to banality, 'disingenuous' implies insincerity) or fail to reflect the contrast between flexible and rigid viewpoints. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage contrasts voters' claimed preference for nuanced and compromising candidates with their actual preference for &quot;unyielding rhetoric&quot; when comparing speeches.<br/><br/>The key signal is the <strong>contrast between</strong> 'nuanced perspectives' and 'willingness to compromise' versus a phrase that directly opposes these traits while fitting the 'unyielding' descriptor."}, {"title": "Match the meaning", "content": "<strong>Dogmatic</strong> precisely conveys rigidity in opinion, aligning with 'unyielding rhetoric.' The other choices either misrepresent the context (e.g., 'vacillating' implies indecision, 'banal' relates to banality, 'disingenuous' implies insincerity) or fail to reflect the contrast between flexible and rigid viewpoints.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_18",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures around the blank",
-      "content": "The left side is a singular noun phrase (the subject: <em>Iceland's 4,089-word constitution</em>), with a parenthetical phrase interrupting between subject and verb. The right side is a prepositional phrase."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "A singular subject requires a singular verb (subject-verb agreement). <strong>ranks</strong> (choice D) is the only singular verb form and matches the subject. Choices A, B, and C are all plural verb forms and violate agreement with the singular subject. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures around the blank", "content": "The left side is a singular noun phrase (the subject: <em>Iceland's 4,089-word constitution</em>), with a parenthetical phrase interrupting between subject and verb. The right side is a prepositional phrase."}, {"title": "Apply subject-verb agreement", "content": "A singular subject requires a singular verb (subject-verb agreement). <strong>ranks</strong> (choice D) is the only singular verb form and matches the subject.<br/><br/>Choices A, B, and C are all plural verb forms and violate agreement with the singular subject.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

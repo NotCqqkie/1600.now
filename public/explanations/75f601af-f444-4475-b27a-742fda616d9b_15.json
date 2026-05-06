@@ -1,15 +1,1 @@
-{
-  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The experimental simulation without bark water predicted decreased lichen survival during summer due to evaporative water loss, while the control simulation with bark water did not."
-    },
-    {
-      "title": "Match the answer to the data",
-      "content": "Bark water must offset seasonal water loss for certain species\u2014this explains why their survival depends on having access to it. The other choices either mischaracterize the mechanism (A), overstate the extent (C claims most water is bark water), or contradict the data (D claims bark water reduces biomass). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "75f601af-f444-4475-b27a-742fda616d9b_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key contrast", "content": "The experimental simulation without bark water predicted decreased lichen survival during summer due to evaporative water loss, while the control simulation with bark water did not."}, {"title": "Match the answer to the data", "content": "Bark water must offset seasonal water loss for certain species—this explains why their survival depends on having access to it.<br/><br/>The other choices either mischaracterize the mechanism (A), overstate the extent (C claims most water is bark water), or contradict the data (D claims bark water reduces biomass).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the application of Malthus's economic principle",
-      "content": "The passage shows Darwin citing Malthus\u2014a 1798 economist\u2014as the source for his fall 1838 thinking about population versus resources, then using nearly identical language (\u201cgrand crush of population\u201d) in his October 1838 notebook. This sequence demonstrates that Darwin was applying an economic concept to biological systems."
-    },
-    {
-      "title": "Apply the economic-to-biology insight",
-      "content": "C captures this exactly: Darwin determined that a postulate from economics (Malthus on population and production) might apply to biology. A merely notes the date range of entries without addressing the economic insight, B reverses the source and influence, and D falsely credits economists with articulating natural selection concepts. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the application of Malthus's economic principle", "content": "The passage shows Darwin citing Malthus—a 1798 economist—as the source for his fall 1838 thinking about population versus resources, then using nearly identical language (“grand crush of population”) in his October 1838 notebook.<br/><br/>This sequence demonstrates that Darwin was applying an economic concept to biological systems."}, {"title": "Apply the economic-to-biology insight", "content": "C captures this exactly: Darwin determined that a postulate from economics (Malthus on population and production) might apply to biology.<br/><br/><ul><li>A merely notes the date range of entries without addressing the economic insight</li><li>B reverses the source and influence</li><li>D falsely credits economists with articulating natural selection concepts</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

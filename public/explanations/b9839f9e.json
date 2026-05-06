@@ -1,15 +1,1 @@
-{
-  "questionId": "b9839f9e",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the cost equation structure",
-      "content": "The equation $f = 2.50x + 7.00y$ represents a total cost formula. The general form is:<br/><div class=\"callout\">Total = (unit price) \u00d7 (quantity) + (unit price) \u00d7 (quantity)</div><br/>In this context, each coefficient (2.50 and 7.00) represents a unit price, and each variable ($x$ and $y$) represents a quantity."
-    },
-    {
-      "title": "Determine what 7.00 represents",
-      "content": "Since 7.00 is the coefficient multiplying $y$, and $y$ represents the number of salads, we know that 7.00 is the unit price of a salad. In other words, 7.00 is the price, in dollars, of one salad. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b9839f9e", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recognize the cost equation structure", "content": "The equation $f = 2.50x + 7.00y$ represents a total cost formula.<br/><br/>The general form is:<br/><div class=\"callout\">Total = (unit price) × (quantity) + (unit price) × (quantity)</div><br/>In this context, each coefficient (2.50 and 7.00) represents a unit price, and each variable ($x$ and $y$) represents a quantity."}, {"title": "Determine what 7.00 represents", "content": "Since 7.00 is the coefficient multiplying $y$, and $y$ represents the number of salads, we know that 7.00 is the unit price of a salad. In other words, 7.00 is the price, in dollars, of one salad. That matches choice B — <strong>B</strong> is correct."}]}

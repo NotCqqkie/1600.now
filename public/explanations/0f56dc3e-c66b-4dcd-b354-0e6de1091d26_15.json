@@ -1,15 +1,1 @@
-{
-  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the critical overlap",
-      "content": "The passage says mammal studies showed larger average effects than amphibian studies, yet individual amphibian studies showed differences well above the mammal average. This overlap is the key."
-    },
-    {
-      "title": "Determine what this proves",
-      "content": "If some amphibian studies exceeded the mammal average, they must have exceeded at least some individual mammal studies\u2014so some amphibian studies found larger effects than some mammal studies. The other three rest on unsupported claims about reporting (B), reverse the stated average (C), or cannot be verified regarding Shier (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the critical overlap", "content": "The passage says mammal studies showed larger average effects than amphibian studies, yet individual amphibian studies showed differences well above the mammal average. This overlap is the key."}, {"title": "Determine what this proves", "content": "If some amphibian studies exceeded the mammal average, they must have exceeded at least some individual mammal studies—so some amphibian studies found larger effects than some mammal studies.<br/><br/>The other three rest on unsupported claims about reporting (B), reverse the stated average (C), or cannot be verified regarding Shier (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

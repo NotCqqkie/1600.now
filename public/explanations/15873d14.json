@@ -1,15 +1,1 @@
-{
-  "questionId": "15873d14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Read the 2012/2013 data and the previous year",
-      "content": "In 2012/2013, Argentina is at approximately 70% (down from ~80% in 2011/2012), Brazil is at ~30%, and the United States is at ~8%. This establishes both Argentina's trend and the three-country ranking for that year."
-    },
-    {
-      "title": "Check which choice matches this pattern",
-      "content": "Choice C directly matches: Argentina decreased and remained the highest among the three. The other choices each fail\u2014A and B mischaracterize Brazil (flat value, not increasing, and never surpassing Argentina), while D incorrectly claims the US peaked in 2012/2013 when its ~8% is actually one of its lowest values on the graph. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "15873d14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Read the 2012/2013 data and the previous year", "content": "In 2012/2013, Argentina is at approximately 70% (down from ~80% in 2011/2012), Brazil is at ~30%, and the United States is at ~8%. This establishes both Argentina's trend and the three-country ranking for that year."}, {"title": "Check which choice matches this pattern", "content": "Choice C directly matches: Argentina decreased and remained the highest among the three.<br/><br/>The other choices each fail—A and B mischaracterize Brazil (flat value, not increasing, and never surpassing Argentina), while D incorrectly claims the US peaked in 2012/2013 when its ~8% is actually one of its lowest values on the graph.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

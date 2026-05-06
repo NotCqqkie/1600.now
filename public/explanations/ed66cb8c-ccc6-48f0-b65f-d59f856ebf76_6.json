@@ -1,15 +1,1 @@
-{
-  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_6",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the opening structure",
-      "content": "The passage begins with a direct question\u2014<em>\u201cWhat is a city?\u201d</em>\u2014then immediately states <em>\u201cThe answer depends on where you live!\u201d</em> This opening signals that the passage will explain why one question has multiple valid answers."
-    },
-    {
-      "title": "Match the structure to the choices",
-      "content": "The passage poses the question and then explains it through examples: different countries define cities using different thresholds (Albania's 400 minimum, Greece's 10,000 minimum, and other factors). This is exactly what choice B identifies. The other choices either focus on what's being measured rather than why answers vary, misread the examples, or claim a recommendation where none is offered. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the opening structure", "content": "The passage begins with a direct question—<em>“What is a city?”</em>—then immediately states <em>“The answer depends on where you live!”</em> This opening signals that the passage will explain why one question has multiple valid answers."}, {"title": "Match the structure to the choices", "content": "The passage poses the question and then explains it through examples: different countries define cities using different thresholds (Albania's 400 minimum, Greece's 10,000 minimum, and other factors).<br/><br/>This is exactly what choice B identifies. The other choices either focus on what's being measured rather than why answers vary, misread the examples, or claim a recommendation where none is offered.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

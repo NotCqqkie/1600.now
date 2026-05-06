@@ -1,15 +1,1 @@
-{
-  "questionId": "6df33868",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states the speaker \"predicts future success,\" so the strongest clue is the explicit claim that the answer must directly <strong>express an unavoidable or guaranteed outcome</strong> of success."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "D states \"We shall never know defeat,\" which directly frames success as a <strong>definitive, unbeatable outcome</strong>. A asks a question, B gives a command, and C refers to duty\u2014none of which convey a guaranteed future success. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6df33868", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states the speaker \"predicts future success,\" so the strongest clue is the explicit claim that the answer must directly <strong>express an unavoidable or guaranteed outcome</strong> of success."}, {"title": "Match the meaning", "content": "D states \"We shall never know defeat,\" which directly frames success as a <strong>definitive, unbeatable outcome</strong>. <ul><li>A asks a question</li><li>B gives a command</li><li>C refers to duty—none of which convey a guaranteed future success</li></ul>. That matches choice D — <strong>D</strong> is correct."}]}

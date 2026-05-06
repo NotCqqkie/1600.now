@@ -1,15 +1,1 @@
-{
-  "questionId": "1b9b29f1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the causal factor",
-      "content": "Replacing ELF3 eliminated flowering acceleration at 27\u00b0C but left basic flowering at 22\u00b0C unchanged. This directly implicates ELF3 as the enabling agent."
-    },
-    {
-      "title": "Connect ELF3 to the response",
-      "content": "Choice C states that ELF3 enables <em>A. thaliana</em> to respond to increased temperatures. When ELF3 is swapped for a stiff brome version, the acceleration disappears\u2014confirming ELF3's causal role. The other three either overstate uniqueness, speculate about untested production mechanisms, or misread what the temperatures reveal. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b9b29f1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the causal factor", "content": "Replacing ELF3 eliminated flowering acceleration at 27°C but left basic flowering at 22°C unchanged. This directly implicates ELF3 as the enabling agent."}, {"title": "Connect ELF3 to the response", "content": "Choice C states that ELF3 enables <em>A. thaliana</em> to respond to increased temperatures.<br/><br/>When ELF3 is swapped for a stiff brome version, the acceleration disappears—confirming ELF3's causal role.<br/><br/>The other three either overstate uniqueness, speculate about untested production mechanisms, or misread what the temperatures reveal.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

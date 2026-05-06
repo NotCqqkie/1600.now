@@ -1,15 +1,1 @@
-{
-  "questionId": "4eee64fa",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's main content",
-      "content": "The passage reports specific findings from an experiment: what <strong>happened</strong> to plants exposed to lunar regolith (stunted roots, stress symptoms, molecular evidence). It presents <strong>findings</strong>, not unresolved questions, methodological comparisons, or failed attempts."
-    },
-    {
-      "title": "Apply to the answer choices",
-      "content": "Choice D states exactly what the text does: discusses findings of a study evaluating the effects of lunar soil on plants. The other three misidentify the purpose: A frames it as addressing a question about soil resemblance, B treats it as comparing assessment methods rather than reporting results, and C contradicts the passage by claiming germination is unattainable when it explicitly succeeded. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4eee64fa", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's main content", "content": "The passage reports specific findings from an experiment: what <strong>happened</strong> to plants exposed to lunar regolith (stunted roots, stress symptoms, molecular evidence). It presents <strong>findings</strong>, not unresolved questions, methodological comparisons, or failed attempts."}, {"title": "Apply to the answer choices", "content": "Choice D states exactly what the text does: discusses findings of a study evaluating the effects of lunar soil on plants.<br/><br/>The other three misidentify the purpose: <ul><li>A frames it as addressing a question about soil resemblance</li><li>B treats it as comparing assessment methods rather than reporting results</li><li>C contradicts the passage by claiming germination is unattainable when it explicitly succeeded</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

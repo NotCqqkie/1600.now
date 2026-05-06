@@ -1,15 +1,1 @@
-{
-  "questionId": "a15b3219",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the hypothesis",
-      "content": "The political scientists' hypothesis centers on whether <em>announcement timing</em> (before vs. after elections) influences <strong>municipalities\u2019 likelihood to respond</strong> or offer incentives. The graph must show a lack of significant difference between the two groups to weaken the hypothesis."
-    },
-    {
-      "title": "Match the meaning to the data",
-      "content": "Choice B states the proportion of responding municipalities and incentives offered was nearly identical between pre- and post-election announcement groups. This directly contradicts the hypothesis that election timing would drive responses. The other three choices focus on either partial data (nonresponse rates in A/D) or internal rates of incentives (C) without comparing across groups. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a15b3219", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the hypothesis", "content": "The political scientists' hypothesis centers on whether <em>announcement timing</em> (before vs. after elections) influences <strong>municipalities’ likelihood to respond</strong> or offer incentives.<br/><br/>The graph must show a lack of significant difference between the two groups to weaken the hypothesis."}, {"title": "Match the meaning to the data", "content": "Choice B states the proportion of responding municipalities and incentives offered was nearly identical between pre- and post-election announcement groups.<br/><br/>This directly contradicts the hypothesis that election timing would drive responses.<br/><br/>The other three choices focus on either partial data (nonresponse rates in A/D) or internal rates of incentives (C) without comparing across groups.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

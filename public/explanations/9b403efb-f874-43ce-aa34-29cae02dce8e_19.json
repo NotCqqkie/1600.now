@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures",
-      "content": "Two independent clauses surround the blank: <em>improvements in efficiency often correlate negatively with resource conservation, though</em> and <em>efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises</em>."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Choice D uses <em>conservation, though;</em> — the comma sets off the trailing transition <strong>though</strong>, and the semicolon joins the two independent clauses. A misplaces the semicolon before <em>though</em>; B and C use commas where a semicolon (or stronger punctuation) is required between the clauses. That matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "Two independent clauses surround the blank: <em>improvements in efficiency often correlate negatively with resource conservation, though</em> and <em>efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises</em>."}, {"title": "Apply the punctuation rule", "content": "Choice D uses <em>conservation, though;</em> — the comma sets off the trailing transition <strong>though</strong>, and the semicolon joins the two independent clauses.<br/><br/>A misplaces the semicolon before <em>though</em>; B and C use commas where a semicolon (or stronger punctuation) is required between the clauses.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

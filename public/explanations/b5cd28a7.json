@@ -1,15 +1,1 @@
-{
-  "questionId": "b5cd28a7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the explicit goal",
-      "content": "The prompt directly states the task: \u201cindicate the title of a novel that won a Nebula Award.\u201d Success requires naming the specific novel AND stating the award."
-    },
-    {
-      "title": "Match to the goal",
-      "content": "Choice A directly accomplishes this by naming Babel-17 and explicitly stating it \u201cwon a Nebula Award\u201d in 1967. The other three either hide the novel's title, avoid naming the award specifically, or use vague language like \u201camong the best works\u201d instead of directly stating the Nebula Award. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5cd28a7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the explicit goal", "content": "The prompt directly states the task: “indicate the title of a novel that won a Nebula Award.” Success requires naming the specific novel AND stating the award."}, {"title": "Match to the goal", "content": "Choice A directly accomplishes this by naming Babel-17 and explicitly stating it “won a Nebula Award” in 1967.<br/><br/>The other three either hide the novel's title, avoid naming the award specifically, or use vague language like “among the best works” instead of directly stating the Nebula Award.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

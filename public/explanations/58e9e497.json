@@ -1,15 +1,1 @@
-{
-  "questionId": "58e9e497",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states that Euro-American farmers used Haudenosaunee techniques \"<strong>without</strong>\" having seen them firsthand, and it rules out independent development. This creates a<strong> causality signal</strong> \u2014 how could the techniques spread without direct observation or duplication?"
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A explains the spread via intermediaries \u2014 people \"<em>more directly influenced</em>\" than the farmers. This directly addresses the causality gap implied by the signal. The other choices ignore or reverse the logic: B shifts focus to crops (not techniques), C misplaces the timeline/region, and D contradicts the \"early nineteenth century\" timeframe. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58e9e497", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage states that Euro-American farmers used Haudenosaunee techniques \"<strong>without</strong>\" having seen them firsthand, and it rules out independent development. This creates a<strong> causality signal</strong> — how could the techniques spread without direct observation or duplication?"}, {"title": "Match the meaning", "content": "Choice A explains the spread via intermediaries — people \"<em>more directly influenced</em>\" than the farmers.<br/><br/>This directly addresses the causality gap implied by the signal.<br/><br/>The other choices ignore or reverse the logic: <ul><li>B shifts focus to crops (not techniques)</li><li>C misplaces the timeline/region</li><li>D contradicts the \"early nineteenth century\" timeframe</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

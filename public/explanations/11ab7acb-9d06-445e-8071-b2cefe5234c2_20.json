@@ -1,15 +1,1 @@
-{
-  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the relationship between the claims",
-      "content": "The sentence makes a claim about striking differences in behavior, then shifts to explain what those differences actually are. The second part elaborates the first\u2014it illustrates the differences with specific details about each object."
-    },
-    {
-      "title": "Apply the colon rule for elaborations",
-      "content": "A colon introduces an elaboration or explanation of the preceding statement. Option D uses the colon to frame the explanation of the differences, with \u201cwhile\u201d signaling the contrast between the two objects' opposite properties (one active, one dormant). Option A breaks the thought into separate sentences; Option B uses a comma + \u201cwhile\u201d to create subordination instead of elaboration; Option C joins clauses with a semicolon without the explanatory force. The colon directly introduces the contrasting details that explain the claimed differences. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the relationship between the claims", "content": "The sentence makes a claim about striking differences in behavior, then shifts to explain what those differences actually are. The second part elaborates the first—it illustrates the differences with specific details about each object."}, {"title": "Apply the colon rule for elaborations", "content": "A colon introduces an elaboration or explanation of the preceding statement.<br/><br/>Option D uses the colon to frame the explanation of the differences, with “while” signaling the contrast between the two objects' opposite properties (one active, one dormant).<br/><br/>Option A breaks the thought into separate sentences; Option B uses a comma + “while” to create subordination instead of elaboration; Option C joins clauses with a semicolon without the explanatory force.<br/><br/>The colon directly introduces the contrasting details that explain the claimed differences.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

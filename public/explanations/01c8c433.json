@@ -1,15 +1,1 @@
-{
-  "questionId": "01c8c433",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the result-showing relationship",
-      "content": "The sentence pairs a problematic payment system (recipients weren't always willing or able to pay) with its direct consequences: slow/arduous collection and accumulated unpaid mail. The transition must show that the second part follows as a result of the first."
-    },
-    {
-      "title": "Find the consequence word",
-      "content": "<strong>Consequently</strong> directly expresses this cause-and-effect relationship. <em>Regardless</em>, <em>On the contrary</em>, and <em>For example</em> express contradiction, contrast, and illustration\u2014none show how one thing results from another. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01c8c433", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the result-showing relationship", "content": "The sentence pairs a problematic payment system (recipients weren't always willing or able to pay) with its direct consequences: slow/arduous collection and accumulated unpaid mail. The transition must show that the second part follows as a result of the first."}, {"title": "Find the consequence word", "content": "<strong>Consequently</strong> directly expresses this cause-and-effect relationship. <em>Regardless</em>, <em>On the contrary</em>, and <em>For example</em> express contradiction, contrast, and illustration—none show how one thing results from another.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the performance comparison",
-      "content": "The passage contrasts the road-map method (described as \u201cnot very accurate\u201d) with Hosseini's program, which \u201cmore accurately identified sidewalks, and it even distinguished between concrete and brick.\u201d The key signal is that the program outperformed the baseline."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Superior</strong> means higher in quality or performance\u2014exactly what the program demonstrated. The other three fail to capture this superiority: \u201cchanged\u201d is directionless, \u201csimilar\u201d implies equal performance (contradicting the accuracy difference), and \u201csupportive\u201d doesn't measure performance quality. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the performance comparison", "content": "The passage contrasts the road-map method (described as “not very accurate”) with Hosseini's program, which “more accurately identified sidewalks, and it even distinguished between concrete and brick.” The key signal is that the program outperformed the baseline."}, {"title": "Match the meaning to the choices", "content": "<strong>Superior</strong> means higher in quality or performance—exactly what the program demonstrated.<br/><br/>The other three fail to capture this superiority: “changed” is directionless, “similar” implies equal performance (contradicting the accuracy difference), and “supportive” doesn't measure performance quality.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

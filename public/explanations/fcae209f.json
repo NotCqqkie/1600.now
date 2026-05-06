@@ -1,15 +1,1 @@
-{
-  "questionId": "fcae209f",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the transmission pattern",
-      "content": "The strongest clue is that the fungus spreads <strong>\u201cfrom tree to nearby tree through the air\u201d</strong> \u2014 meaning transmission depends on proximity. The trees in question are located in a <strong>\u201chard-to-reach valley,\u201d</strong> emphasizing their geographic isolation."
-    },
-    {
-      "title": "Connect isolation to survival",
-      "content": "C explains survival through distance: if these Nacional trees were too far from the infected ones, the fungus couldn't reach them since it requires tree-to-tree proximity. A and B address the timing of knowledge and discovery rather than the actual mechanism of survival, while D discusses chocolate value, which is unrelated to disease avoidance. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fcae209f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the transmission pattern", "content": "The strongest clue is that the fungus spreads <strong>“from tree to nearby tree through the air”</strong> — meaning transmission depends on proximity. The trees in question are located in a <strong>“hard-to-reach valley,”</strong> emphasizing their geographic isolation."}, {"title": "Connect isolation to survival", "content": "C explains survival through distance: if these Nacional trees were too far from the infected ones, the fungus couldn't reach them since it requires tree-to-tree proximity.<br/><br/>A and B address the timing of knowledge and discovery rather than the actual mechanism of survival, while D discusses chocolate value, which is unrelated to disease avoidance.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

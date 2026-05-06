@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage's crucial clue is that gold was \u201cmuch rarer than bronze\u201d\u2014this scarcity determines the logical consequence in the blank."
-    },
-    {
-      "title": "Determine why the answer fits",
-      "content": "Not all hoards would contain a rare item; some lack gold entirely. <strong>Choice A</strong> states this directly: some hoards contained no gold, exemplified by Parc-y-Meirch. Choices B, C, and D introduce unrelated concepts: melting, manufacturing, and discovery. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage's crucial clue is that gold was “much rarer than bronze”—this scarcity determines the logical consequence in the blank."}, {"title": "Determine why the answer fits", "content": "Not all hoards would contain a rare item; some lack gold entirely. <strong>Choice A</strong> states this directly: some hoards contained no gold, exemplified by Parc-y-Meirch.<br/><br/>Choices B, C, and D introduce unrelated concepts: melting, manufacturing, and discovery.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

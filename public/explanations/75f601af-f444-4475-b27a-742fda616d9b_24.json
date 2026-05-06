@@ -1,15 +1,1 @@
-{
-  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The first sentence states that era names <strong>uniformly</strong> describe evolutionary phases. The second sentence immediately introduces period names and says they are of <strong>diverse origins</strong>. These are opposing ideas: uniformity versus diversity. The transition must signal this contrast."
-    },
-    {
-      "title": "Match the contrast to the choices",
-      "content": "<strong>On the other hand</strong> directly expresses opposition: eras follow one pattern, but periods follow another. The other three transitions fail to capture this relationship\u2014<em>therefore</em> suggests consequence, <em>in turn</em> suggests sequence, and <em>furthermore</em> suggests addition. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "75f601af-f444-4475-b27a-742fda616d9b_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The first sentence states that era names <strong>uniformly</strong> describe evolutionary phases.<br/><br/>The second sentence immediately introduces period names and says they are of <strong>diverse origins</strong>.<br/><br/>These are opposing ideas: uniformity versus diversity. The transition must signal this contrast."}, {"title": "Match the contrast to the choices", "content": "<strong>On the other hand</strong> directly expresses opposition: eras follow one pattern, but periods follow another.<br/><br/>The other three transitions fail to capture this relationship—<em>therefore</em> suggests consequence, <em>in turn</em> suggests sequence, and <em>furthermore</em> suggests addition.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

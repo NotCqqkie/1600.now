@@ -1,15 +1,1 @@
-{
-  "questionId": "1755eaf0",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The strongest clue is \"therefore,\" which indicates Ghisbain is drawing a conclusion based on the preceding information about bumblebees\u2019 social behavior and dietary generalism. The prior sentence establishes that these traits are linked to resilience to environmental changes, but the text doesn\u2019t claim bumblebees are inherently more resilient overall\u2014only that they have features that help them withstand <em>some specific</em> environmental changes."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The blank must explain why bumblebees\u2019 traits matter. <strong>D</strong> links their unique traits to a warning that researchers cannot generalize findings about <em>all</em> wild bees just because bumblebees are well-studied. A, B, and C either reverse the relationship between traits and caution, introduce unsupported claims about specific risk factors (like climate variation vs. habitat destruction), or misrepresent the text\u2019s assertion that bumblebees can be more resilient to <em>some</em> changes. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1755eaf0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The strongest clue is \"therefore,\" which indicates Ghisbain is drawing a conclusion based on the preceding information about bumblebees’ social behavior and dietary generalism.<br/><br/>The prior sentence establishes that these traits are linked to resilience to environmental changes, but the text doesn’t claim bumblebees are inherently more resilient overall—only that they have features that help them withstand <em>some specific</em> environmental changes."}, {"title": "Match the meaning", "content": "The blank must explain why bumblebees’ traits matter. <strong>D</strong> links their unique traits to a warning that researchers cannot generalize findings about <em>all</em> wild bees just because bumblebees are well-studied.<br/><br/>A, B, and C either reverse the relationship between traits and caution, introduce unsupported claims about specific risk factors (like climate variation vs. habitat destruction), or misrepresent the text’s assertion that bumblebees can be more resilient to <em>some</em> changes.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

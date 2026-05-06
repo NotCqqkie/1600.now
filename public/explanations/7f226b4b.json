@@ -1,15 +1,1 @@
-{
-  "questionId": "7f226b4b",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "Before the blank: the start of a possessive noun phrase (\u201cthe plant's [noun]\u201d). After the blank: an appositive phrase (\u201cthe cellular organs that generate energy from light\u201d) followed in the text by an em-dash."
-    },
-    {
-      "title": "Apply the matching em-dash rule for appositives",
-      "content": "Appositives set off by an em-dash require matching em-dashes on both sides. Choice D (<strong>chloroplasts\u2014</strong>) provides the opening em-dash to pair with the one already present after the appositive. Choices A, B, and C lack the necessary matching em-dash. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7f226b4b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "Before the blank: the start of a possessive noun phrase (“the plant's [noun]”). After the blank: an appositive phrase (“the cellular organs that generate energy from light”) followed in the text by an em-dash."}, {"title": "Apply the matching em-dash rule for appositives", "content": "Appositives set off by an em-dash require matching em-dashes on both sides.<br/><br/>Choice D (<strong>chloroplasts—</strong>) provides the opening em-dash to pair with the one already present after the appositive.<br/><br/>Choices A, B, and C lack the necessary matching em-dash. That matches choice D — <strong>D</strong> is correct."}]}

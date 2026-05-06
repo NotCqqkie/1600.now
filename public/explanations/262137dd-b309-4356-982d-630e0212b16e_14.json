@@ -1,15 +1,1 @@
-{
-  "questionId": "262137dd-b309-4356-982d-630e0212b16e_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the genetic basis for trainability",
-      "content": "The passage states that genetic variations explain behavioral differences between breeds, and this is <strong>especially pronounced for trainability</strong>. This establishes trainability as the standout case where genetics drives behavioral variation."
-    },
-    {
-      "title": "Apply the genetic logic",
-      "content": "Since trainability differences have a genetic basis and English mastiffs and Yorkshire terriers demonstrably differ in trainability, they must differ genetically in trainability. The other three choices either posit future genetic changes, shift to individual variation within breeds, or make unsupported comparative rankings. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "262137dd-b309-4356-982d-630e0212b16e_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the genetic basis for trainability", "content": "The passage states that genetic variations explain behavioral differences between breeds, and this is <strong>especially pronounced for trainability</strong>. This establishes trainability as the standout case where genetics drives behavioral variation."}, {"title": "Apply the genetic logic", "content": "Since trainability differences have a genetic basis and English mastiffs and Yorkshire terriers demonstrably differ in trainability, they must differ genetically in trainability.<br/><br/>The other three choices either posit future genetic changes, shift to individual variation within breeds, or make unsupported comparative rankings.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

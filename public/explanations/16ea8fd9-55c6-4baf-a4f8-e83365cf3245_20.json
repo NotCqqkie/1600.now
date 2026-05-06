@@ -1,15 +1,1 @@
-{
-  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the comma splice",
-      "content": "After \u201cLaura A. Burkle,\u201d there's a comma, and then \u201cthe study examined\u201d is an independent clause. This creates a comma splice\u2014two independent clauses improperly joined by a comma."
-    },
-    {
-      "title": "Fix the boundary correctly",
-      "content": "Option D uses a period after \u201cUnited States\u201d to separate the two independent clauses, fixing the comma splice. The comma after the introductory phrase \u201cLed by the researcher Laura A. Burkle\u201d is then correct, as introductory phrases require a comma before the main clause. Options A, B, and C maintain the comma splice by keeping a comma before \u201cthe study examined.\u201d<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the comma splice", "content": "After “Laura A. Burkle,” there's a comma, and then “the study examined” is an independent clause. This creates a comma splice—two independent clauses improperly joined by a comma."}, {"title": "Fix the boundary correctly", "content": "Option D uses a period after “United States” to separate the two independent clauses, fixing the comma splice.<br/><br/>The comma after the introductory phrase “Led by the researcher Laura A.<br/><br/>Burkle” is then correct, as introductory phrases require a comma before the main clause.<br/><br/>Options A, B, and C maintain the comma splice by keeping a comma before “the study examined.”<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

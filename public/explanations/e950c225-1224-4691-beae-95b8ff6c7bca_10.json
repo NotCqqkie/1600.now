@@ -1,15 +1,1 @@
-{
-  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Understand what weakens a prediction claim",
-      "content": "The student claims opening weekend earnings can <strong>reliably predict</strong> Oscar recognition. To weaken such a claim, you need data showing a case where opening weekend earnings fail to produce the predicted outcome."
-    },
-    {
-      "title": "Find the counterexample",
-      "content": "Choice A shows the needed counterexample: <em>The Girl Who Played with Fire</em> had much higher opening weekend earnings (~7.5 million) than <em>Crouching Tiger, Hidden Dragon</em> (~5.9 million), yet wasn't nominated for an Oscar while <em>Crouching Tiger</em> was, proving that opening weekend earnings don't reliably predict Oscar recognition. Choices B, C, and D either compare unrelated metrics (lifetime earnings, not opening weekend), contain inaccurate data, or address irrelevant factors. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Understand what weakens a prediction claim", "content": "The student claims opening weekend earnings can <strong>reliably predict</strong> Oscar recognition. To weaken such a claim, you need data showing a case where opening weekend earnings fail to produce the predicted outcome."}, {"title": "Find the counterexample", "content": "Choice A shows the needed counterexample: <em>The Girl Who Played with Fire</em> had much higher opening weekend earnings (~7.5 million) than <em>Crouching Tiger, Hidden Dragon</em> (~5.9 million), yet wasn't nominated for an Oscar while <em>Crouching Tiger</em> was, proving that opening weekend earnings don't reliably predict Oscar recognition.<br/><br/>Choices B, C, and D either compare unrelated metrics (lifetime earnings, not opening weekend), contain inaccurate data, or address irrelevant factors.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

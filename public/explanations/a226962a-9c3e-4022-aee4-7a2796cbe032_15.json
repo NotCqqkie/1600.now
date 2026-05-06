@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key alignment",
-      "content": "Henry's empirical finding\u2014that companies received significant investment increases after liberalization\u2014directly matches what the standard economic view predicted. This match is the decisive signal in the text."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A states the relationship precisely: the empirical evidence was consistent with the scholarly consensus. When Henry found companies receiving significant investment increases\u2014exactly what economists predicted\u2014it confirmed rather than contradicted their view. The other three either introduce unsupported claims (negative effects, delayed benefits, country-specific comparisons) or contradict what the passage describes.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key alignment", "content": "Henry's empirical finding—that companies received significant investment increases after liberalization—directly matches what the standard economic view predicted. This match is the decisive signal in the text."}, {"title": "Apply the signal to the choices", "content": "Choice A states the relationship precisely: the empirical evidence was consistent with the scholarly consensus.<br/><br/>When Henry found companies receiving significant investment increases—exactly what economists predicted—it confirmed rather than contradicted their view.<br/><br/>The other three either introduce unsupported claims (negative effects, delayed benefits, country-specific comparisons) or contradict what the passage describes.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's dual benefits",
-      "content": "The passage explicitly states two major benefits of community science: promoting community engagement by assisting with conservation efforts, and greatly increasing data collection. Both are presented as equally important advantages."
-    },
-    {
-      "title": "Match the complete framework to the answer",
-      "content": "C directly captures both benefits: community science increases conservation efforts AND generates large amounts of data, benefiting both communities and researchers. The other choices either focus on a single example, misrepresent the passage's benefits, or add unsupported claims. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's dual benefits", "content": "The passage explicitly states two major benefits of community science: promoting community engagement by assisting with conservation efforts, and greatly increasing data collection. Both are presented as equally important advantages."}, {"title": "Match the complete framework to the answer", "content": "C directly captures both benefits: community science increases conservation efforts AND generates large amounts of data, benefiting both communities and researchers.<br/><br/>The other choices either focus on a single example, misrepresent the passage's benefits, or add unsupported claims. <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

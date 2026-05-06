@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the most relevant information",
-      "content": "The notes provide a specific example \u2014 Tethys, a moon with an elliptical orbit \u2014 and explicitly state that Kepler's laws apply to moons as well as planets. To effectively explain and exemplify Kepler's first law using the notes, the answer must leverage this specific example and acknowledge that the law applies beyond just planets."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "B uses Tethys's elliptical orbit as the concrete example and explicitly notes that the law applies to moons \u2014 precisely what makes it the most effective use of relevant information from the notes. The other choices either include irrelevant details, focus on a secondary aspect of the law, or fail to use the specific Tethys information provided. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the most relevant information", "content": "The notes provide a specific example — Tethys, a moon with an elliptical orbit — and explicitly state that Kepler's laws apply to moons as well as planets.<br/><br/>To effectively explain and exemplify Kepler's first law using the notes, the answer must leverage this specific example and acknowledge that the law applies beyond just planets."}, {"title": "Apply the signal to the choices", "content": "B uses Tethys's elliptical orbit as the concrete example and explicitly notes that the law applies to moons — precisely what makes it the most effective use of relevant information from the notes.<br/><br/>The other choices either include irrelevant details, focus on a secondary aspect of the law, or fail to use the specific Tethys information provided.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

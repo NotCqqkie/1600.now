@@ -1,15 +1,1 @@
-{
-  "questionId": "54227b8e",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two-part requirement",
-      "content": "The student needs to both define \u201cLazarus species\u201d and provide a specific example. An effective response must address both goals, not just one."
-    },
-    {
-      "title": "Apply the requirement to the choices",
-      "content": "Choice A accomplishes both goals by defining \u201cLazarus species\u201d and providing the mountain pygmy possum as an example within a single sentence. The other three fail because they each omit a key component: B provides <strong>only an example</strong>, C provides <strong>only a fact</strong>, and D provides <strong>only a general definition</strong>. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "54227b8e", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two-part requirement", "content": "The student needs to both define “Lazarus species” and provide a specific example. An effective response must address both goals, not just one."}, {"title": "Apply the requirement to the choices", "content": "Choice A accomplishes both goals by defining “Lazarus species” and providing the mountain pygmy possum as an example within a single sentence.<br/><br/>The other three fail because they each omit a key component: <ul><li>B provides <strong>only an example</strong></li><li>C provides <strong>only a fact</strong></li><li>D provides <strong>only a general definition</strong></li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

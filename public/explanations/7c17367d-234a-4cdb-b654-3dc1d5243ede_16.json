@@ -1,15 +1,1 @@
-{
-  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure",
-      "content": "The cleft construction with the pattern [noun] is what has ______ requires the blank to be filled with a past participle (following the auxiliary \u201chas\u201d) plus its objects to complete the relative clause."
-    },
-    {
-      "title": "Apply the grammar and punctuation rule",
-      "content": "A verb phrase with auxiliary \u201chas\u201d requires a past participle in standard word order (verb \u2192 indirect object \u2192 direct object), and a declarative sentence ends with a period. Choice D correctly applies this rule with \u201cearned him his enduring fame.\u201d The other three choices violate this rule: A and B end with question marks (contradicting the declarative mood), and C places a noun before the verb (\u201chis enduring fame earned him\u201d), violating the cleft construction structure.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure", "content": "The cleft construction with the pattern [noun] is what has ______ requires the blank to be filled with a past participle (following the auxiliary “has”) plus its objects to complete the relative clause."}, {"title": "Apply the grammar and punctuation rule", "content": "A verb phrase with auxiliary “has” requires a past participle in standard word order (verb → indirect object → direct object), and a declarative sentence ends with a period.<br/><br/>Choice D correctly applies this rule with “earned him his enduring fame.” The other three choices violate this rule: A and B end with question marks (contradicting the declarative mood), and C places a noun before the verb (“his enduring fame earned him”), violating the cleft construction structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

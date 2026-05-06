@@ -1,15 +1,1 @@
-{
-  "questionId": "cef79fb9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the evidence structure",
-      "content": "The strongest signal is <strong>\u201cFor example\u201d</strong> paired with a specific comparison: the first join exhibits <strong>\u201cclear misalignment,\u201d</strong> whereas the later joins are <strong>\u201cvirtually invisible.\u201d</strong> This structure provides concrete evidence for a claim made earlier."
-    },
-    {
-      "title": "Connect to the answer",
-      "content": "This is evidence supporting an argument about the workers\u2014the function choice B identifies. The other choices describe functions absent from the sentence: identifying depicted subjects, comparing to other tapestries, or explaining research methods. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cef79fb9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the evidence structure", "content": "The strongest signal is <strong>“For example”</strong> paired with a specific comparison: the first join exhibits <strong>“clear misalignment,”</strong> whereas the later joins are <strong>“virtually invisible.”</strong> This structure provides concrete evidence for a claim made earlier."}, {"title": "Connect to the answer", "content": "This is evidence supporting an argument about the workers—the function choice B identifies.<br/><br/>The other choices describe functions absent from the sentence: identifying depicted subjects, comparing to other tapestries, or explaining research methods.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

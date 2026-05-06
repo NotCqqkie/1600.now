@@ -1,15 +1,1 @@
-{
-  "questionId": "1872cd6d",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the structure: two separate anti-counterfeiting techniques",
-      "content": "The passage first describes Franklin weaving blue threads and muscovite into the paper, then introduces a completely different technique: stamping the notes with sage leaf imprints. These are separate anti-counterfeiting methods, not variations of the same approach."
-    },
-    {
-      "title": "Choose the transition for adding a second method",
-      "content": "\u201dMoreover\u201d signals an additional measure\u2014the right choice when moving from one anti-counterfeiting technique to another. \u201cFor example\u201d would misframe the sage leaves as an instance of the threading method; the others don't fit the additive structure. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1872cd6d", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the structure: two separate anti-counterfeiting techniques", "content": "The passage first describes Franklin weaving blue threads and muscovite into the paper, then introduces a completely different technique: stamping the notes with sage leaf imprints. These are separate anti-counterfeiting methods, not variations of the same approach."}, {"title": "Choose the transition for adding a second method", "content": "”Moreover” signals an additional measure—the right choice when moving from one anti-counterfeiting technique to another. “For example” would misframe the sage leaves as an instance of the threading method; the others don't fit the additive structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

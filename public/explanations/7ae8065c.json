@@ -1,15 +1,1 @@
-{
-  "questionId": "7ae8065c",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key evidence",
-      "content": "Archaeological evidence shows clam size and abundance both increased during the period when the terraced garden method was documented as being used. This measurable outcome demonstrates effectiveness."
-    },
-    {
-      "title": "Match evidence to the conclusion",
-      "content": "Choice A directly reflects the evidence: <strong>effectively maintained</strong> means the clams persisted, while <strong>promoted its robustness</strong> matches the increases in size and abundance. The other three either add unsupported claims about adoption or comparisons, or discuss contemporary practice not addressed in the passage. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7ae8065c", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key evidence", "content": "Archaeological evidence shows clam size and abundance both increased during the period when the terraced garden method was documented as being used. This measurable outcome demonstrates effectiveness."}, {"title": "Match evidence to the conclusion", "content": "Choice A directly reflects the evidence: <strong>effectively maintained</strong> means the clams persisted, while <strong>promoted its robustness</strong> matches the increases in size and abundance.<br/><br/>The other three either add unsupported claims about adoption or comparisons, or discuss contemporary practice not addressed in the passage.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

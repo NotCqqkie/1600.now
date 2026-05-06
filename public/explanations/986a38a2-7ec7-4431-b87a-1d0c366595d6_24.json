@@ -1,15 +1,1 @@
-{
-  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The passage first highlights Cuba\u2019s enduring Spanish\u2011speaking legacy, then introduces Sardinia as a former colony where the tie to the empire is so weak that Spanish is seldom spoken."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "On the other hand signals a contrast, matching the shift from Cuba\u2019s strong legacy to Sardinia\u2019s weak tie. The other three choices either add information, suggest simultaneity, or convey vague frequency, none of which express the needed contrast. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the contrast signal", "content": "The passage first highlights Cuba’s enduring Spanish‑speaking legacy, then introduces Sardinia as a former colony where the tie to the empire is so weak that Spanish is seldom spoken."}, {"title": "Apply the signal to the choices", "content": "On the other hand signals a contrast, matching the shift from Cuba’s strong legacy to Sardinia’s weak tie.<br/><br/>The other three choices either add information, suggest simultaneity, or convey vague frequency, none of which express the needed contrast.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

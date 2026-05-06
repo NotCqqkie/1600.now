@@ -1,15 +1,1 @@
-{
-  "questionId": "403d7bb5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify structures on each side of the blank",
-      "content": "Left side: \u201cwhile\u201d introduces a dependent clause. <br/> Right side: \u201cis\u201d is the main verb of the sentence."
-    },
-    {
-      "title": "Apply the boundaries rule for subject and main verb",
-      "content": "A noun phrase subject must directly precede its main verb without punctuation inserted between them. The subject is \u201cthe reason seeds... while falling,\u201d which must connect directly to the main verb \u201cis.\u201d All three incorrect choices insert punctuation that breaks this connection. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "403d7bb5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify structures on each side of the blank", "content": "Left side: “while” introduces a dependent clause. <br/> Right side: “is” is the main verb of the sentence."}, {"title": "Apply the boundaries rule for subject and main verb", "content": "A noun phrase subject must directly precede its main verb without punctuation inserted between them.<br/><br/>The subject is “the reason seeds... while falling,” which must connect directly to the main verb “is.” All three incorrect choices insert punctuation that breaks this connection.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Left side: independent clause \u2014 \u201ctravelers flew out of major urban airports with increasing frequency\u201d<br/>Right side: independent clause \u2014 \u201cSan Diego International Airport in San Diego, California, saw a 49.7 percent increase...\u201d"
-    },
-    {
-      "title": "Apply the transition rule",
-      "content": "A transition word like \u201cFor example\u201d requires a period before it (when beginning a new sentence) and a comma after it. Choice C correctly uses \u201cfrequency. For example,\u201d \u2014 this establishes the example as a supporting illustration of the preceding claim. Choices A and B incorrectly place \u201cfor example\u201d at the end of the first clause, while choice D creates a comma splice by joining the ideas with only commas. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Left side: independent clause — “travelers flew out of major urban airports with increasing frequency”<br/>Right side: independent clause — “San Diego International Airport in San Diego, California, saw a 49.7 percent increase...”"}, {"title": "Apply the transition rule", "content": "A transition word like “For example” requires a period before it (when beginning a new sentence) and a comma after it.<br/><br/>Choice C correctly uses “frequency. For example,” — this establishes the example as a supporting illustration of the preceding claim.<br/><br/>Choices A and B incorrectly place “for example” at the end of the first clause, while choice D creates a comma splice by joining the ideas with only commas.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize what evidence would directly support the claim",
-      "content": "The claim asserts that Bianchini's calculations contain the earliest example of a decimal point. To support this, we need evidence of a dot in Bianchini's actual astronomical work being used in a mathematical context to denote a non-whole number\u2014the defining feature of a decimal point."
-    },
-    {
-      "title": "Identify the finding that provides direct evidence",
-      "content": "Choice C documents exactly this: a dot in Bianchini's 1404 astronomical manuscript <em>Tabulae primi mobilis B</em> appearing between two numbers in a context indicating a non-whole value\u2014the precise notation that would establish the earliest decimal point in his work. The other findings either explain dots as common punctuation (A), shift focus to Clavius's later work (B), or reveal limitations in Bianchini's methods without demonstrating actual decimal usage (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Recognize what evidence would directly support the claim", "content": "The claim asserts that Bianchini's calculations contain the earliest example of a decimal point. To support this, we need evidence of a dot in Bianchini's actual astronomical work being used in a mathematical context to denote a non-whole number—the defining feature of a decimal point."}, {"title": "Identify the finding that provides direct evidence", "content": "Choice C documents exactly this: a dot in Bianchini's 1404 astronomical manuscript <em>Tabulae primi mobilis B</em> appearing between two numbers in a context indicating a non-whole value—the precise notation that would establish the earliest decimal point in his work.<br/><br/>The other findings either explain dots as common punctuation (A), shift focus to Clavius's later work (B), or reveal limitations in Bianchini's methods without demonstrating actual decimal usage (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

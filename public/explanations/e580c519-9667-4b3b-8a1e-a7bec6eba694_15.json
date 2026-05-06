@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the model's shortcut",
-      "content": "The passage shows observational data can't constrain the actual methane range, yet the model prescribes a single uniform value\u2014this is a simplification."
-    },
-    {
-      "title": "Determine what this simplification implies",
-      "content": "Since methane controls precipitation and humidity, a uniform value cannot match real variation, so model-reality disagreements are to be expected. The other three either reverse the problem, focus on internal inconsistencies, or speculate without evidence.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the model's shortcut", "content": "The passage shows observational data can't constrain the actual methane range, yet the model prescribes a single uniform value—this is a simplification."}, {"title": "Determine what this simplification implies", "content": "Since methane controls precipitation and humidity, a uniform value cannot match real variation, so model-reality disagreements are to be expected.<br/><br/>The other three either reverse the problem, focus on internal inconsistencies, or speculate without evidence.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2b512e65",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure in the blank",
-      "content": "The blank must be a noun phrase serving as the subject of the clause <strong>have a special genetic ability</strong>. It consists of a noun (<strong>cephalopods</strong>) followed by an appositive phrase that elaborates on it."
-    },
-    {
-      "title": "Apply the rule for appositives",
-      "content": "A non-restrictive appositive phrase must be enclosed with matching punctuation on both sides. Since the appositive contains internal commas, em dashes are preferred to commas for clarity. Choice D correctly uses matching em dashes to set off the entire appositive phrase, with no trailing punctuation because <strong>have</strong> follows directly. Choices A and B either leave the appositive unclosed or split it incorrectly, and C misplaces a colon. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b512e65", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure in the blank", "content": "The blank must be a noun phrase serving as the subject of the clause <strong>have a special genetic ability</strong>. It consists of a noun (<strong>cephalopods</strong>) followed by an appositive phrase that elaborates on it."}, {"title": "Apply the rule for appositives", "content": "A non-restrictive appositive phrase must be enclosed with matching punctuation on both sides.<br/><br/>Since the appositive contains internal commas, em dashes are preferred to commas for clarity.<br/><br/>Choice D correctly uses matching em dashes to set off the entire appositive phrase, with no trailing punctuation because <strong>have</strong> follows directly.<br/><br/>Choices A and B either leave the appositive unclosed or split it incorrectly, and C misplaces a colon.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

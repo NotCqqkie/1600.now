@@ -1,15 +1,1 @@
-{
-  "questionId": "59e41600",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical need",
-      "content": "The blank must be the main verb of the sentence, positioned after the subject \u201cScientists\u201d to introduce the that-clause."
-    },
-    {
-      "title": "Apply the finite verb rule",
-      "content": "A finite verb is required as the main verb of an independent clause; \u201cexplain\u201d (A) is the finite form that agrees with \u201cscientists\u201d and directly governs the that-clause. The participles (B, C) and infinitive (D) cannot serve as main verbs of independent clauses. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "59e41600", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical need", "content": "The blank must be the main verb of the sentence, positioned after the subject “Scientists” to introduce the that-clause."}, {"title": "Apply the finite verb rule", "content": "A finite verb is required as the main verb of an independent clause; “explain” (A) is the finite form that agrees with “scientists” and directly governs the that-clause.<br/><br/>The participles (B, C) and infinitive (D) cannot serve as main verbs of independent clauses.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

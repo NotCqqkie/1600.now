@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "Two artist names immediately follow the noun <em>artists</em> to specify which particular artists we mean. This is an appositive phrase positioning."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Appositives that specify which noun we're talking about (not adding extra information) require no commas. Choice C follows this rule exactly\u2014no punctuation between <em>artists</em> and the names. Choices A and D add unnecessary commas; choice B uses an incorrect colon and retains an extra comma. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "Two artist names immediately follow the noun <em>artists</em> to specify which particular artists we mean. This is an appositive phrase positioning."}, {"title": "Apply the punctuation rule", "content": "Appositives that specify which noun we're talking about (not adding extra information) require no commas.<br/><br/>Choice C follows this rule exactly—no punctuation between <em>artists</em> and the names.<br/><br/>Choices A and D add unnecessary commas; choice B uses an incorrect colon and retains an extra comma.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

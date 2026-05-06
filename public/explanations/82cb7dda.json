@@ -1,15 +1,1 @@
-{
-  "questionId": "82cb7dda",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key finding",
-      "content": "The passage explains dopamine-based signaling in mammals, then uses <em>but</em> to introduce Huang's observation that honeybees also exhibit the same process. The core finding is that this physiological mechanism appears in both groups."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "Choice C directly states the main purpose: the passage summarizes a finding showing that brain mechanisms in insects resemble those in mammals. The other choices either describe something the passage doesn't do (A), mischaracterize the focus as insect expression of feelings (B), or emphasize behavior instead of mechanism as the main point (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "82cb7dda", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key finding", "content": "The passage explains dopamine-based signaling in mammals, then uses <em>but</em> to introduce Huang's observation that honeybees also exhibit the same process. The core finding is that this physiological mechanism appears in both groups."}, {"title": "Apply to the choices", "content": "Choice C directly states the main purpose: the passage summarizes a finding showing that brain mechanisms in insects resemble those in mammals.<br/><br/>The other choices either describe something the passage doesn't do (A), mischaracterize the focus as insect expression of feelings (B), or emphasize behavior instead of mechanism as the main point (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

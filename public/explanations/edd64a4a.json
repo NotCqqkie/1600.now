@@ -1,15 +1,1 @@
-{
-  "questionId": "edd64a4a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find what \u201cdetermine\u201d does in context",
-      "content": "The passage shows that he needs to \u201cdetermine the time when he would ask her.\u201d This describes the action of choosing or settling on a specific moment \u2014 not influencing, demonstrating, or measuring anything. He's making a timing decision."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A (Choose) directly matches the required action \u2014 he must choose when to propose. The other choices have different meanings: \u201cinfluence\u201d means to affect something, \u201cdemonstrate\u201d means to show something, and \u201cmeasure\u201d means to quantify \u2014 none describe deciding on a timing. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "edd64a4a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find what “determine” does in context", "content": "The passage shows that he needs to “determine the time when he would ask her.” This describes the action of choosing or settling on a specific moment — not influencing, demonstrating, or measuring anything. He's making a timing decision."}, {"title": "Match the meaning", "content": "Choice A (Choose) directly matches the required action — he must choose when to propose.<br/><br/>The other choices have different meanings: “influence” means to affect something, “demonstrate” means to show something, and “measure” means to quantify — none describe deciding on a timing.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "30438650",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parallel structure",
-      "content": "The passage emphasizes that the collection features <em>multiple stories about romantic relationships</em>, then names the first story. The blank precedes the second story in this list.<br/><br/>The key signal: We're moving from one example to another example of the same type."
-    },
-    {
-      "title": "Match the transition",
-      "content": "<em>Likewise</em> signals parallel examples\u2014the second story mirrors the first in illustrating Lahiri's treatment of romantic relationships. The other choices fail to establish this parallelism: <em>granted</em> introduces a concession, <em>for example</em> presumes a general-to-specific relationship that doesn't apply, and <em>hence</em> signals consequence. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "30438650", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel structure", "content": "The passage emphasizes that the collection features <em>multiple stories about romantic relationships</em>, then names the first story. The blank precedes the second story in this list.<br/><br/>The key signal: We're moving from one example to another example of the same type."}, {"title": "Match the transition", "content": "<em>Likewise</em> signals parallel examples—the second story mirrors the first in illustrating Lahiri's treatment of romantic relationships.<br/><br/>The other choices fail to establish this parallelism: <em>granted</em> introduces a concession, <em>for example</em> presumes a general-to-specific relationship that doesn't apply, and <em>hence</em> signals consequence.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

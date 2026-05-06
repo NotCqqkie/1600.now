@@ -1,15 +1,1 @@
-{
-  "questionId": "ce282575",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the student's specific requirement",
-      "content": "The student's goal is to CONTRAST the purposes of the two maps. This means the answer must explicitly state what each map's purpose is and show how they differ."
-    },
-    {
-      "title": "Match the student's need to the choices",
-      "content": "Choice A directly states both purposes and contrasts them: the opening map introduces readers to the fictional world they are about to enter, while the closing map allows them to reconstruct the story they have just read. Choices B and D omit the purposes (focusing on publication details instead), while Choice C mentions purposes without explaining what they are. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ce282575", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the student's specific requirement", "content": "The student's goal is to CONTRAST the purposes of the two maps. This means the answer must explicitly state what each map's purpose is and show how they differ."}, {"title": "Match the student's need to the choices", "content": "Choice A directly states both purposes and contrasts them: the opening map introduces readers to the fictional world they are about to enter, while the closing map allows them to reconstruct the story they have just read.<br/><br/>Choices B and D omit the purposes (focusing on publication details instead), while Choice C mentions purposes without explaining what they are.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

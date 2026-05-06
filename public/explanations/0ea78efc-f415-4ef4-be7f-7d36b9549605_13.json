@@ -1,15 +1,1 @@
-{
-  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what \u201csuperior\u201d means for recruitment techniques",
-      "content": "To support the conclusion, we need evidence that snowball sampling works better than purposive sampling at the core task: successfully recruiting participants in rural areas."
-    },
-    {
-      "title": "Find which finding directly proves superiority",
-      "content": "Choice A demonstrates snowball sampling recruited significantly more participants with the desired characteristics than purposive sampling\u2014the exact head-to-head comparison proving one technique's advantage over the other. The other findings measure different issues: past research participation (C), compare snowball to a random baseline rather than the purposive alternative (B), or highlight potential weaknesses in sample consistency (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what “superior” means for recruitment techniques", "content": "To support the conclusion, we need evidence that snowball sampling works better than purposive sampling at the core task: successfully recruiting participants in rural areas."}, {"title": "Find which finding directly proves superiority", "content": "Choice A demonstrates snowball sampling recruited significantly more participants with the desired characteristics than purposive sampling—the exact head-to-head comparison proving one technique's advantage over the other.<br/><br/>The other findings measure different issues: past research participation (C), compare snowball to a random baseline rather than the purposive alternative (B), or highlight potential weaknesses in sample consistency (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

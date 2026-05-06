@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_18",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the list structure and complexity",
-      "content": "The sentence states \u201cthree main factors\u2014namely\u201d and then lists them. The second and third items contain internal commas: \u201ctheir velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy\u201d and \u201catmospheric fluctuations, such as changes in humidity.\u201d This makes the list complex."
-    },
-    {
-      "title": "Apply the complex-list rule",
-      "content": "When listing items and at least one item contains internal punctuation (commas), Standard English uses semicolons to separate the main items for clarity: \u201cItem 1; Item 2; and Item 3.\u201d The comma (<strong>B</strong>) would blur the boundaries between factors because commas appear inside the second and third factors. The em dash (<strong>A</strong>) wrongly suggests elaboration rather than listing. The period (<strong>D</strong>) would incorrectly end the sentence. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the list structure and complexity", "content": "The sentence states “three main factors—namely” and then lists them.<br/><br/>The second and third items contain internal commas: “their velocity upon entering Earth's mesosphere, with higher-velocity meteoroids releasing more energy” and “atmospheric fluctuations, such as changes in humidity.” This makes the list complex."}, {"title": "Apply the complex-list rule", "content": "When listing items and at least one item contains internal punctuation (commas), Standard English uses semicolons to separate the main items for clarity: “Item 1; Item 2; and Item 3.” The comma (<strong>B</strong>) would blur the boundaries between factors because commas appear inside the second and third factors.<br/><br/>The em dash (<strong>A</strong>) wrongly suggests elaboration rather than listing.<br/><br/>The period (<strong>D</strong>) would incorrectly end the sentence.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

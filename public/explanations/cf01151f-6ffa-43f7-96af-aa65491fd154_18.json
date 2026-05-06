@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank comes between \u201cThough it was designated as mission\u201d (a dependent clause introduced by Though) and \u201cmission was actually the forty-sixth flight\u201d (an independent clause with subject and verb)."
-    },
-    {
-      "title": "Apply the rule to the choices",
-      "content": "A comma separates a dependent clause from a following independent clause, and choice A correctly uses one after STS-45 to join these two parts. The other choices violate this rule: B adds an unnecessary conjunction (and), C uses a period which creates a sentence fragment, and D omits punctuation. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank comes between “Though it was designated as mission” (a dependent clause introduced by Though) and “mission was actually the forty-sixth flight” (an independent clause with subject and verb)."}, {"title": "Apply the rule to the choices", "content": "A comma separates a dependent clause from a following independent clause, and choice A correctly uses one after STS-45 to join these two parts.<br/><br/>The other choices violate this rule: <ul><li>B adds an unnecessary conjunction (and)</li><li>C uses a period which creates a sentence fragment</li><li>D omits punctuation</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "35ec767c",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the 'yet' that signals decoupling",
-      "content": "The passage establishes that vocabulary accompanying crops as they diffuse is a global phenomenon. Then it shifts with \u201cyet\u201d: <strong>corn cultivation became ubiquitous among the Southeastern tribes, yet ______.</strong> The \u201cyet\u201d introduces a contradiction\u2014we need to show that vocabulary did NOT universally accompany the crop's spread into the Southeast."
-    },
-    {
-      "title": "Choose the data showing vocabulary didn't follow the crop",
-      "content": "Choice A directly proves decoupling: the corn words in Cherokee and Muskogean languages show \u201cno demonstrable relationship to Totozoquean vocabulary.\u201d Choices B, C, and D either catalog regional languages without addressing vocabulary origins, describe vocabulary that did travel and transformed, or detail internal Muskogean relationships\u2014none completing the \u201cyet\u201d contrast. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "35ec767c", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the 'yet' that signals decoupling", "content": "The passage establishes that vocabulary accompanying crops as they diffuse is a global phenomenon.<br/><br/>Then it shifts with “yet”: <strong>corn cultivation became ubiquitous among the Southeastern tribes, yet ______.</strong> The “yet” introduces a contradiction—we need to show that vocabulary did NOT universally accompany the crop's spread into the Southeast."}, {"title": "Choose the data showing vocabulary didn't follow the crop", "content": "Choice A directly proves decoupling: the corn words in Cherokee and Muskogean languages show “no demonstrable relationship to Totozoquean vocabulary.” Choices B, C, and D either catalog regional languages without addressing vocabulary origins, describe vocabulary that did travel and transformed, or detail internal Muskogean relationships—none completing the “yet” contrast.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

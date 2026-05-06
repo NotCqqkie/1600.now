@@ -1,15 +1,1 @@
-{
-  "questionId": "cbecb873",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the scaling constraint",
-      "content": "The passage emphasizes one specific point: surface area of baleen plates does not increase with body length to the same degree as water volume engulfed. This mismatch between water volume and filtering capacity directly explains why filter time changes across species."
-    },
-    {
-      "title": "Match the data pattern",
-      "content": "C shows fin whales (18\u201322 meters) averaging 31.30 seconds to filter, while minke whales (7\u201310 meters) average 8.88 seconds. A falsely claims the filter times are similar, B addresses lunges rather than filter time, and D incorrectly asserts blue whales have the most lunges per dive. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbecb873", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the scaling constraint", "content": "The passage emphasizes one specific point: surface area of baleen plates does not increase with body length to the same degree as water volume engulfed. This mismatch between water volume and filtering capacity directly explains why filter time changes across species."}, {"title": "Match the data pattern", "content": "C shows fin whales (18–22 meters) averaging 31.30 seconds to filter, while minke whales (7–10 meters) average 8.88 seconds.<br/><br/><ul><li>A falsely claims the filter times are similar</li><li>B addresses lunges rather than filter time</li><li>D incorrectly asserts blue whales have the most lunges per dive</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

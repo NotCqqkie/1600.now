@@ -1,15 +1,1 @@
-{
-  "questionId": "6d883838",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast",
-      "content": "The key signal is the contrast. The first clause describes majoritarian elections producing two-party systems; the second introduces a different electoral system with opposite results."
-    },
-    {
-      "title": "Match the contrast signal",
-      "content": "<strong>Conversely</strong> marks the opposition between these electoral systems. When majoritarian elections produce two-party dominance, proportional-representation yields multi-partyism. The other three signal causation, exemplification, and restatement.<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6d883838", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast", "content": "The key signal is the contrast. The first clause describes majoritarian elections producing two-party systems; the second introduces a different electoral system with opposite results."}, {"title": "Match the contrast signal", "content": "<strong>Conversely</strong> marks the opposition between these electoral systems.<br/><br/>When majoritarian elections produce two-party dominance, proportional-representation yields multi-partyism.<br/><br/>The other three signal causation, exemplification, and restatement.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the pattern",
-      "content": "The first study established a correlation: behavioral similarities correspond to genetic similarities (especially for chasing). The second study documents behavioral similarity in chasing between French bulldogs and bullmastiffs."
-    },
-    {
-      "title": "Complete the logic",
-      "content": "If behavioral similarity indicates genetic similarity, then observing chasing similarity between these breeds points to genetic similarity. Choice A applies this logic directly. Choices B, C, and D address intensity levels, cross-breed comparisons, or future changes\u2014none follow from the genetic-behavioral correlation.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize the pattern", "content": "The first study established a correlation: behavioral similarities correspond to genetic similarities (especially for chasing). The second study documents behavioral similarity in chasing between French bulldogs and bullmastiffs."}, {"title": "Complete the logic", "content": "If behavioral similarity indicates genetic similarity, then observing chasing similarity between these breeds points to genetic similarity.<br/><br/>Choice A applies this logic directly. Choices B, C, and D address intensity levels, cross-breed comparisons, or future changes—none follow from the genetic-behavioral correlation.<br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the notes say both concepts share",
-      "content": "The notes explicitly state that mass fraction indicates \u201cthe relative abundance of chromium on Earth\u201d and mole fraction likewise indicates \u201cthe relative abundance of chromium on Earth.\u201d Both measures reveal the same underlying information\u2014relative abundance\u2014despite using different metrics (total mass vs. total atom count)."
-    },
-    {
-      "title": "Select the choice that unites the concepts",
-      "content": "Choice B states \u201cboth indicate the relative abundance of elements on Earth,\u201d which is precisely the similarity the question asks for. The other choices either fail to identify any connection (A), misdefine mole fraction (C), or emphasize differences over similarity (D).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the notes say both concepts share", "content": "The notes explicitly state that mass fraction indicates “the relative abundance of chromium on Earth” and mole fraction likewise indicates “the relative abundance of chromium on Earth.” Both measures reveal the same underlying information—relative abundance—despite using different metrics (total mass vs. total atom count)."}, {"title": "Select the choice that unites the concepts", "content": "Choice B states “both indicate the relative abundance of elements on Earth,” which is precisely the similarity the question asks for.<br/><br/>The other choices either fail to identify any connection (A), misdefine mole fraction (C), or emphasize differences over similarity (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

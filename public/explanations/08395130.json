@@ -1,15 +1,1 @@
-{
-  "questionId": "08395130",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining claim",
-      "content": "Young and colleagues recommend a new space telescope \u201cdedicated exclusively to solar-system observations.\u201d The word <strong>exclusively</strong> signals that current resources are not primarily devoted to this work. The passage supports this with concrete data: only 6% of HST observations are of solar-system bodies, meaning the remaining 94% are extrasolar."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A directly captures what the recommendation implies: that HST's dedicated focus is extrasolar. The other choices either contradict explicit passage facts (D claims HST lacks UV sensors when it revolutionized UV imaging), overstate the recommendation (B implies complete discontinuation), or misrepresent what Young and colleagues want (C proposes modification when they advocate for a new dedicated instrument).<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "08395130", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the defining claim", "content": "Young and colleagues recommend a new space telescope “dedicated exclusively to solar-system observations.” The word <strong>exclusively</strong> signals that current resources are not primarily devoted to this work.<br/><br/>The passage supports this with concrete data: only 6% of HST observations are of solar-system bodies, meaning the remaining 94% are extrasolar."}, {"title": "Apply the signal to the choices", "content": "Choice A directly captures what the recommendation implies: that HST's dedicated focus is extrasolar.<br/><br/>The other choices either contradict explicit passage facts (D claims HST lacks UV sensors when it revolutionized UV imaging), overstate the recommendation (B implies complete discontinuation), or misrepresent what Young and colleagues want (C proposes modification when they advocate for a new dedicated instrument).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

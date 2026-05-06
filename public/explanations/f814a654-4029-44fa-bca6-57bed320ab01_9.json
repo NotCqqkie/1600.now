@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Pinpoint the core of the conclusion",
-      "content": "The team claims that head shape (anatomical feature) affects the ability to distinguish speech from nonspeech\u2014this is the specific ability being explained, not language recognition more broadly."
-    },
-    {
-      "title": "Match findings to the core claim",
-      "content": "Choice B shows that compared with shorter-headed dogs, longer-headed dogs have a greater difference in brain activity when hearing speech (Spanish or Hungarian) than when hearing nonspeech (the scrambled recording). The other choices focus on language-to-language distinctions, confound variables, or omit head-shape comparisons. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Pinpoint the core of the conclusion", "content": "The team claims that head shape (anatomical feature) affects the ability to distinguish speech from nonspeech—this is the specific ability being explained, not language recognition more broadly."}, {"title": "Match findings to the core claim", "content": "Choice B shows that compared with shorter-headed dogs, longer-headed dogs have a greater difference in brain activity when hearing speech (Spanish or Hungarian) than when hearing nonspeech (the scrambled recording).<br/><br/>The other choices focus on language-to-language distinctions, confound variables, or omit head-shape comparisons.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core mechanism",
-      "content": "The notes show that UV light cures the resin layer by layer (through the dead zone mechanism), then oven baking completes the cure."
-    },
-    {
-      "title": "Find the answer that directly expresses this mechanism",
-      "content": "C does\u2014it shows UV light projected into the resin pool curing a 3D object layer by layer, then oven baking completing the cure. The others either misidentify what the dead zone does, misstate when curing completes, or bury the mechanism in awkward phrasing and extraneous detail. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the core mechanism", "content": "The notes show that UV light cures the resin layer by layer (through the dead zone mechanism), then oven baking completes the cure."}, {"title": "Find the answer that directly expresses this mechanism", "content": "C does—it shows UV light projected into the resin pool curing a 3D object layer by layer, then oven baking completing the cure.<br/><br/>The others either misidentify what the dead zone does, misstate when curing completes, or bury the mechanism in awkward phrasing and extraneous detail.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

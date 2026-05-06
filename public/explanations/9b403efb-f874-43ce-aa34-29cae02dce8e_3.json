@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signal about uncertainty",
-      "content": "The passage emphasizes that statistical analysis achieved \u201cconfirming the signal at a confidence level of over 99%.\u201d This high confidence level tells us the analysis rules out any remaining uncertainty about the signal."
-    },
-    {
-      "title": "Choose the word for uncertainty or lack of clarity",
-      "content": "\u201dAmbiguity\u201d \u2014 lacking clarity or allowing multiple interpretations \u2014 precisely names what 99%+ confidence eliminates. The scientific confirmation shown by such high confidence leaves no ambiguity about the detection's authenticity. \u201cDiscretion\u201d is unrelated, \u201cprobability\u201d inverts the relationship, and \u201cinconspicuousness\u201d addresses the skeptics' physical concern about faintness rather than what confidence intervals measure.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the signal about uncertainty", "content": "The passage emphasizes that statistical analysis achieved “confirming the signal at a confidence level of over 99%.” This high confidence level tells us the analysis rules out any remaining uncertainty about the signal."}, {"title": "Choose the word for uncertainty or lack of clarity", "content": "”Ambiguity” — lacking clarity or allowing multiple interpretations — precisely names what 99%+ confidence eliminates.<br/><br/>The scientific confirmation shown by such high confidence leaves no ambiguity about the detection's authenticity. “Discretion” is unrelated, “probability” inverts the relationship, and “inconspicuousness” addresses the skeptics' physical concern about faintness rather than what confidence intervals measure.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

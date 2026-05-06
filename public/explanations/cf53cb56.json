@@ -1,15 +1,1 @@
-{
-  "questionId": "cf53cb56",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the vertices and diagonal structure",
-      "content": "The figure shows a square with vertices at C(0, 5), D(5, 0), A(0, \u22125), and B(\u22125, 0). Since the diagonals lie on the coordinate axes, they are perpendicular and bisect each other at the origin. The diagonals divide the square into 4 congruent right triangles, each with legs extending 5 units from the center to a vertex on the nearest axis."
-    },
-    {
-      "title": "Calculate the area using triangle decomposition",
-      "content": "Each right triangle has legs of length 5 and 5, so its area is:<br/>$$\\text{Area of one triangle} = \\frac{1}{2} \\times 5 \\times 5 = 12.5 \\text{ square units}$$<br/>The total area of the square is the sum of all 4 triangles:<br/>$$\\text{Total area} = 4 \\times 12.5 = 50 \\text{ square units}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf53cb56", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the vertices and diagonal structure", "content": "The figure shows a square with vertices at C(0, 5), D(5, 0), A(0, −5), and B(−5, 0).<br/><br/>Since the diagonals lie on the coordinate axes, they are perpendicular and bisect each other at the origin.<br/><br/>The diagonals divide the square into 4 congruent right triangles, each with legs extending 5 units from the center to a vertex on the nearest axis."}, {"title": "Calculate the area using triangle decomposition", "content": "Each right triangle has legs of length 5 and 5, so its area is:<br/>$$\\text{Area of one triangle} = \\frac{1}{2} \\times 5 \\times 5 = 12.5 \\text{ square units}$$<br/>The total area of the square is the sum of all 4 triangles:<br/>$$\\text{Total area} = 4 \\times 12.5 = 50 \\text{ square units}$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

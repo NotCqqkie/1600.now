@@ -1,15 +1,1 @@
-{
-  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the passage conclusion requires as support",
-      "content": "The team concluded that exposure amount influences distinction ability. A finding supporting this must show that dogs with <strong>more exposure</strong> have a <strong>stronger ability</strong> to distinguish their familiar language from unfamiliar ones."
-    },
-    {
-      "title": "Locate the finding that demonstrates this relationship",
-      "content": "Choice B directly supports the conclusion: older dogs (more exposure) show the greatest difference in brain activity between familiar and unfamiliar languages, meaning more exposure correlates with stronger discrimination ability. Choices A, C, and D either lack an exposure-ability connection, address different language comparisons, or both.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage conclusion requires as support", "content": "The team concluded that exposure amount influences distinction ability. A finding supporting this must show that dogs with <strong>more exposure</strong> have a <strong>stronger ability</strong> to distinguish their familiar language from unfamiliar ones."}, {"title": "Locate the finding that demonstrates this relationship", "content": "Choice B directly supports the conclusion: older dogs (more exposure) show the greatest difference in brain activity between familiar and unfamiliar languages, meaning more exposure correlates with stronger discrimination ability.<br/><br/>Choices A, C, and D either lack an exposure-ability connection, address different language comparisons, or both.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

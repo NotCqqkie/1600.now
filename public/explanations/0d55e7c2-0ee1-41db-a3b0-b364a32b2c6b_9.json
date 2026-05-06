@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining claim",
-      "content": "The decisive signal is <em>'an understanding of how to prevent horizontal gene transfer might result in the mitigation of dangerous pathogens'</em>. The passage concludes by emphasizing the <strong>potential application</strong> of studying this process to address real-world issues like antibiotic resistance."
-    },
-    {
-      "title": "Match the meaning to the correct choice",
-      "content": "Choice D directly reflects the conclusion that studying horizontal gene transfer could yield beneficial applications. A, B, and C either misrepresent the content (B misuses the claim of 'more common' without evidence) or focus on hypothetical debates not presented (A and C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the defining claim", "content": "The decisive signal is <em>'an understanding of how to prevent horizontal gene transfer might result in the mitigation of dangerous pathogens'</em>.<br/><br/>The passage concludes by emphasizing the <strong>potential application</strong> of studying this process to address real-world issues like antibiotic resistance."}, {"title": "Match the meaning to the correct choice", "content": "Choice D directly reflects the conclusion that studying horizontal gene transfer could yield beneficial applications.<br/><br/>A, B, and C either misrepresent the content (B misuses the claim of 'more common' without evidence) or focus on hypothetical debates not presented (A and C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

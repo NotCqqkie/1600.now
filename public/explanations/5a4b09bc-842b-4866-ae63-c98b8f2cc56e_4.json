@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the counterintuitive signal",
-      "content": "The passage explicitly labels this a \u201ccounterintuitive effect\u201d \u2014 the key signal that demand moved opposite to what normal economics predicts. Normally, higher prices kill demand; the next sentence reveals that demand actually increased (buyers \u201cthronged the market\u201d). The blank must describe what happened to demand: it was created or produced, not destroyed."
-    },
-    {
-      "title": "Match the meaning to the effect",
-      "content": "Engendering means to produce or cause, so \u201cengendering demand\u201d describes how rising prices actually <strong>created</strong> demand \u2014 the exact counterintuitive reversal. Monetizing refers to converting to profit, appraising refers to assessing value, and exploiting refers to taking unfair advantage \u2014 none describe what happened to the level of demand itself. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the counterintuitive signal", "content": "The passage explicitly labels this a “counterintuitive effect” — the key signal that demand moved opposite to what normal economics predicts.<br/><br/>Normally, higher prices kill demand; the next sentence reveals that demand actually increased (buyers “thronged the market”).<br/><br/>The blank must describe what happened to demand: it was created or produced, not destroyed."}, {"title": "Match the meaning to the effect", "content": "Engendering means to produce or cause, so “engendering demand” describes how rising prices actually <strong>created</strong> demand — the exact counterintuitive reversal.<br/><br/>Monetizing refers to converting to profit, appraising refers to assessing value, and exploiting refers to taking unfair advantage — none describe what happened to the level of demand itself.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

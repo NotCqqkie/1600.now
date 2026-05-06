@@ -1,15 +1,1 @@
-{
-  "questionId": "1bf2173e",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the workload shift",
-      "content": "Infected workers \u201ccease their share of labor\u201d while uninfected workers \u201cfeed, groom, and transport them.\u201d"
-    },
-    {
-      "title": "Connect the burden to the outcome",
-      "content": "Choice B directly identifies the cause: uninfected workers must compensate for the infected workers' lost contributions while also providing all their care\u2014a double burden that explains their shortened lifespans. Choices A and C introduce unsupported scenarios (uninfected workers becoming infected despite no mention of transmission; predator attacks never discussed), and choice D merely restates baseline data unrelated to the shortened lifespans observed in parasitized colonies.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bf2173e", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the workload shift", "content": "Infected workers “cease their share of labor” while uninfected workers “feed, groom, and transport them.”"}, {"title": "Connect the burden to the outcome", "content": "Choice B directly identifies the cause: uninfected workers must compensate for the infected workers' lost contributions while also providing all their care—a double burden that explains their shortened lifespans.<br/><br/>Choices A and C introduce unsupported scenarios (uninfected workers becoming infected despite no mention of transmission; predator attacks never discussed), and choice D merely restates baseline data unrelated to the shortened lifespans observed in parasitized colonies.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

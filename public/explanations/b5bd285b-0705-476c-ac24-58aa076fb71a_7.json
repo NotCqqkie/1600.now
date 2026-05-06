@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the language signaling the sentence's function",
-      "content": "The phrase \u201cpublished a study concluding that ocean acidification has a strong effect...\u201d directly indicates the sentence states the study's conclusion."
-    },
-    {
-      "title": "Match to the answer",
-      "content": "Choice D identifies the correct function: the sentence \u201cstates the conclusion reached by Allan and colleagues in their 2013 study.\u201d The other three options misidentify the function\u2014A confuses the conclusion with the critique that follows, B invents traits, and C references a location never mentioned. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the language signaling the sentence's function", "content": "The phrase “published a study concluding that ocean acidification has a strong effect...” directly indicates the sentence states the study's conclusion."}, {"title": "Match to the answer", "content": "Choice D identifies the correct function: the sentence “states the conclusion reached by Allan and colleagues in their 2013 study.” The other three options misidentify the function—<ul><li>A confuses the conclusion with the critique that follows</li><li>B invents traits</li><li>C references a location never mentioned</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

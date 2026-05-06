@@ -1,15 +1,1 @@
-{
-  "questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_26",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage specifies that <em>Lost in the Shuffle</em> depicts two young men floating in the <strong>\u2018bottom left and upper right corners\u2019</strong> of the canvas. This exact phrasing about location is critical."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice C <strong>directly states</strong> that two young men are in the bottom left and upper right corners, aligning with this specific detail. The other three either focus on unrelated aspects (size in A, color in B, mood in D) or omit location info entirely. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c54d28b8-d1aa-4370-ad6c-356768c9033c_26", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage specifies that <em>Lost in the Shuffle</em> depicts two young men floating in the <strong>‘bottom left and upper right corners’</strong> of the canvas. This exact phrasing about location is critical."}, {"title": "Match the meaning", "content": "Choice C <strong>directly states</strong> that two young men are in the bottom left and upper right corners, aligning with this specific detail.<br/><br/>The other three either focus on unrelated aspects (size in A, color in B, mood in D) or omit location info entirely.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

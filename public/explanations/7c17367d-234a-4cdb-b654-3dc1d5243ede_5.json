@@ -1,15 +1,1 @@
-{
-  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence's role",
-      "content": "The sentence moves beyond describing a problem; it proposes a remedy. Earlier sentences establish that visitor travel creates carbon emissions. This sentence suggests a way to address that: encouraging people to visit closer parks instead."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice C correctly identifies the sentence as suggesting a course of action to address the carbon emission problem described earlier. The other three miss what the sentence actually does: A treats it as presenting a new harm, B as chronicling policymaker efforts, and D as rephrasing an earlier claim. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence's role", "content": "The sentence moves beyond describing a problem; it proposes a remedy. Earlier sentences establish that visitor travel creates carbon emissions. This sentence suggests a way to address that: encouraging people to visit closer parks instead."}, {"title": "Apply the signal to the choices", "content": "Choice C correctly identifies the sentence as suggesting a course of action to address the carbon emission problem described earlier.<br/><br/>The other three miss what the sentence actually does: <ul><li>A treats it as presenting a new harm</li><li>B as chronicling policymaker efforts</li><li>D as rephrasing an earlier claim</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

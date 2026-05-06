@@ -1,15 +1,1 @@
-{
-  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the task: list specific activities",
-      "content": "The student's explicit goal is to \u201clist activities that the Heritage Trail can be used for.\u201d The decisive clue is the word \u201cactivities\u201d\u2014the choice must enumerate specific uses, not provide background context."
-    },
-    {
-      "title": "Apply the goal to the choices",
-      "content": "Choice C directly lists three specific activities: biking, in-line skating, and cross-country skiing. Choices A, B, and D provide background information (how corridors become trails, the trail's origin, and the trail's location) but none enumerate activities. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the task: list specific activities", "content": "The student's explicit goal is to “list activities that the Heritage Trail can be used for.” The decisive clue is the word “activities”—the choice must enumerate specific uses, not provide background context."}, {"title": "Apply the goal to the choices", "content": "Choice C directly lists three specific activities: biking, in-line skating, and cross-country skiing.<br/><br/>Choices A, B, and D provide background information (how corridors become trails, the trail's origin, and the trail's location) but none enumerate activities.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

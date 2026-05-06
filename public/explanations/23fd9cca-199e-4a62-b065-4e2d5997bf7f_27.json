@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal and the shared feature",
-      "content": "The student wants to emphasize a <strong>similarity</strong> between the two programs. The notes define slow TV as programs that document \u201cordinary events in real time\u201d\u2014this is the characteristic both programs explicitly share."
-    },
-    {
-      "title": "Match the shared characteristic to the answer choices",
-      "content": "Choice <strong>D</strong> directly establishes the shared characteristic by stating that both programs document ordinary events in real time and belong to the slow TV genre. The other three either feature only one program or emphasize differences rather than similarities. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the goal and the shared feature", "content": "The student wants to emphasize a <strong>similarity</strong> between the two programs. The notes define slow TV as programs that document “ordinary events in real time”—this is the characteristic both programs explicitly share."}, {"title": "Match the shared characteristic to the answer choices", "content": "Choice <strong>D</strong> directly establishes the shared characteristic by stating that both programs document ordinary events in real time and belong to the slow TV genre.<br/><br/>The other three either feature only one program or emphasize differences rather than similarities.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

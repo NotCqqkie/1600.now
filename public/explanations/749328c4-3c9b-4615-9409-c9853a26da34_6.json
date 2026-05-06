@@ -1,15 +1,1 @@
-{
-  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the claim-then-details structure",
-      "content": "The first sentence makes a broad claim: community science is \u201ceffective and engaging.\u201d The underlined sentence immediately provides three specific benefits that explain why."
-    },
-    {
-      "title": "Match the function to the choices",
-      "content": "Choice A is correct: the underlined sentence offers specific details (increased data, scientific insight, youth engagement) that clarify why community science is effective and engaging\u2014directly supporting the previous claim. The other three misidentify or invent functions the sentence doesn't perform. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the claim-then-details structure", "content": "The first sentence makes a broad claim: community science is “effective and engaging.” The underlined sentence immediately provides three specific benefits that explain why."}, {"title": "Match the function to the choices", "content": "Choice A is correct: the underlined sentence offers specific details (increased data, scientific insight, youth engagement) that clarify why community science is effective and engaging—directly supporting the previous claim.<br/><br/>The other three misidentify or invent functions the sentence doesn't perform.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

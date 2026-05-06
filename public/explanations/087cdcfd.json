@@ -1,15 +1,1 @@
-{
-  "questionId": "087cdcfd",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the angle configuration",
-      "content": "Three lines intersect at point P: a horizontal line and two diagonal lines. Looking at the upper side of the horizontal line, the angles $x\u00b0$, an angle formed between the two diagonals, and $z\u00b0$ span from the left horizontal ray to the right horizontal ray. The angle between the two diagonals is labeled $y\u00b0$ in the figure."
-    },
-    {
-      "title": "Apply the straight angle property",
-      "content": "The three angles on the upper side of the horizontal line must sum to a straight angle. Therefore:<br/>$$x\u00b0 + y\u00b0 + z\u00b0 = 180\u00b0$$<br/>Substituting $x = 65$ and $y = 75$:<br/>$$65 + 75 + z\u00b0 = 180\u00b0$$<br/>$$140 + z\u00b0 = 180\u00b0$$<br/>$$z\u00b0 = 40\u00b0$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "087cdcfd", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the angle configuration", "content": "Three lines intersect at point P: a horizontal line and two diagonal lines.<br/><br/>Looking at the upper side of the horizontal line, the angles $x°$, an angle formed between the two diagonals, and $z°$ span from the left horizontal ray to the right horizontal ray.<br/><br/>The angle between the two diagonals is labeled $y°$ in the figure."}, {"title": "Apply the straight angle property", "content": "The three angles on the upper side of the horizontal line must sum to a straight angle. Therefore:<br/>$$x° + y° + z° = 180°$$<br/>Substituting $x = 65$ and $y = 75$:<br/>$$65 + 75 + z° = 180°$$<br/>$$140 + z° = 180°$$<br/>$$z° = 40°$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "be19faa1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The conclusion hinges on a <strong>contrast based on temperature change</strong>: higher surface temperatures increase the percentage of sites where thermal pollution can meet home heating needs. The strongest clue is the shift in <em>effect</em> (more sites becoming viable) under the maximum plausible temperature scenario."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice D shows that under maximum temperatures, the portion of sites <strong>unable</strong> to use thermal pollution drops below 20%, which directly supports the conclusion (since if 80% of sites can now meet needs, the percentage of viable sites has increased). A, B, and C either misrepresent the direction of change or fail to show a meaningful increase in viable sites. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "be19faa1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The conclusion hinges on a <strong>contrast based on temperature change</strong>: higher surface temperatures increase the percentage of sites where thermal pollution can meet home heating needs.<br/><br/>The strongest clue is the shift in <em>effect</em> (more sites becoming viable) under the maximum plausible temperature scenario."}, {"title": "Match the meaning", "content": "Choice D shows that under maximum temperatures, the portion of sites <strong>unable</strong> to use thermal pollution drops below 20%, which directly supports the conclusion (since if 80% of sites can now meet needs, the percentage of viable sites has increased).<br/><br/>A, B, and C either misrepresent the direction of change or fail to show a meaningful increase in viable sites.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

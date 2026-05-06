@@ -1,15 +1,1 @@
-{
-  "questionId": "b0a525be",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the opening comma that signals a parenthetical phrase",
-      "content": "The sentence contains: subject \u201cThe arrangement of the figures,\u201d \u2192 phrase \u201caccording to Swentzell\u201d \u2192 verb \u201crepresents...\u201d The comma before \u201caccording to\u201d indicates this phrase is being set apart as extra information. Removing it confirms the core is complete: \u201cThe arrangement of the figures represents her idea.\u201d"
-    },
-    {
-      "title": "Apply the enclosing-comma rule",
-      "content": "A comma pairs with the opening comma to enclose the parenthetical phrase between subject and verb. A colon introduces elaborations rather than enclosing; a dash without pairing is non-standard; no punctuation orphans the opening. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b0a525be", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the opening comma that signals a parenthetical phrase", "content": "The sentence contains: subject “The arrangement of the figures,” → phrase “according to Swentzell” → verb “represents...” The comma before “according to” indicates this phrase is being set apart as extra information.<br/><br/>Removing it confirms the core is complete: “The arrangement of the figures represents her idea.”"}, {"title": "Apply the enclosing-comma rule", "content": "A comma pairs with the opening comma to enclose the parenthetical phrase between subject and verb. A colon introduces elaborations rather than enclosing; a dash without pairing is non-standard; no punctuation orphans the opening. That matches choice B — <strong>B</strong> is correct."}]}

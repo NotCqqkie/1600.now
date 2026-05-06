@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the author's main disagreement",
-      "content": "The word <em>However</em> marks where the author shifts from describing what people currently celebrate to identifying a problem: listeners overlook Joplin's lesser-known works. This signals the passage's core argument."
-    },
-    {
-      "title": "Match the argument to the choices",
-      "content": "Choice A directly captures the author's main argument about giving more attention to lesser-known works. The others either focus on a secondary detail rather than the primary call (B), expand the scope incorrectly (C), or describe content not in the passage (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the author's main disagreement", "content": "The word <em>However</em> marks where the author shifts from describing what people currently celebrate to identifying a problem: listeners overlook Joplin's lesser-known works. This signals the passage's core argument."}, {"title": "Match the argument to the choices", "content": "Choice A directly captures the author's main argument about giving more attention to lesser-known works.<br/><br/>The others either focus on a secondary detail rather than the primary call (B), expand the scope incorrectly (C), or describe content not in the passage (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

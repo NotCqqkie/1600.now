@@ -1,15 +1,1 @@
-{
-  "questionId": "39d1a519",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The passage describes Dalla Ragione using centuries-old cooking ingredient lists to discover fruit varieties, then introduces her analysis of Renaissance paintings as another source. Both methods serve the same investigative purpose. The logical relationship is <strong>addition</strong>: one method plus another method, not replacement or conclusion."
-    },
-    {
-      "title": "Match the transition",
-      "content": "\u201dAdditionally\u201d marks that paintings are another research method she employs alongside ingredient lists. \u201cInstead\u201d would falsely signal switching from one method to the other, \u201cIn sum\u201d would suggest summary, and \u201cThus\u201d would imply consequence rather than a parallel approach. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39d1a519", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The passage describes Dalla Ragione using centuries-old cooking ingredient lists to discover fruit varieties, then introduces her analysis of Renaissance paintings as another source.<br/><br/>Both methods serve the same investigative purpose. The logical relationship is <strong>addition</strong>: one method plus another method, not replacement or conclusion."}, {"title": "Match the transition", "content": "”Additionally” marks that paintings are another research method she employs alongside ingredient lists. “Instead” would falsely signal switching from one method to the other, “In sum” would suggest summary, and “Thus” would imply consequence rather than a parallel approach.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

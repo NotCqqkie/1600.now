@@ -1,15 +1,1 @@
-{
-  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The first sentence establishes JWST nearly one million miles beyond Earth. The second sentence introduces Hubble at only 340 miles above Earth. The key signal is the stark opposition in these distances\u2014vastly far versus relatively near."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dBy contrast,\u201d directly expresses the opposition between JWST's distant position and Hubble's proximity. The other three\u2014Therefore, Similarly, and Secondly\u2014misrepresent the relationship as consequence, likeness, or sequence, missing the essential contrast. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key contrast", "content": "The first sentence establishes JWST nearly one million miles beyond Earth. The second sentence introduces Hubble at only 340 miles above Earth. The key signal is the stark opposition in these distances—vastly far versus relatively near."}, {"title": "Apply the signal to the choices", "content": "”By contrast,” directly expresses the opposition between JWST's distant position and Hubble's proximity.<br/><br/>The other three—Therefore, Similarly, and Secondly—misrepresent the relationship as consequence, likeness, or sequence, missing the essential contrast.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify What Makes a Claim Effective",
-      "content": "The task asks to both make and support a claim. The evidence that actually proves kale is a better source is the quantitative comparison in the notes: kale contains 120 mg of vitamin C per 100g, while blueberries contain 10 mg per 100g."
-    },
-    {
-      "title": "Find the Choice That Uses This Evidence",
-      "content": "Choice B uses the quantitative evidence from the notes\u2014showing kale contains 120 mg to blueberries' 10 mg per 100g\u2014to directly support the claim. Choices A and D don't compare the fruits, while C makes the assertion without supporting evidence. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify What Makes a Claim Effective", "content": "The task asks to both make and support a claim. The evidence that actually proves kale is a better source is the quantitative comparison in the notes: kale contains 120 mg of vitamin C per 100g, while blueberries contain 10 mg per 100g."}, {"title": "Find the Choice That Uses This Evidence", "content": "Choice B uses the quantitative evidence from the notes—showing kale contains 120 mg to blueberries' 10 mg per 100g—to directly support the claim.<br/><br/>Choices A and D don't compare the fruits, while C makes the assertion without supporting evidence.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

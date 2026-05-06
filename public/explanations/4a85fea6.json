@@ -1,15 +1,1 @@
-{
-  "questionId": "4a85fea6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the research promise",
-      "content": "The passage sets up a problem: current herbicides kill harmless plants nearby. The solution being researched is engineered DNA that would offer <strong>exclusively targeting E. esula</strong>\u2014a way to affect only the invasive plant, not others."
-    },
-    {
-      "title": "Match the consequence",
-      "content": "The logical consequence of exclusively targeting E. esula is reducing its numbers without harming other organisms\u2014solving the collateral damage problem that current herbicides create. The other three either ignore this exclusive-targeting advantage, contradict the passage's claims, or focus on a different issue. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4a85fea6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the research promise", "content": "The passage sets up a problem: current herbicides kill harmless plants nearby. The solution being researched is engineered DNA that would offer <strong>exclusively targeting E. esula</strong>—a way to affect only the invasive plant, not others."}, {"title": "Match the consequence", "content": "The logical consequence of exclusively targeting E. esula is reducing its numbers without harming other organisms—solving the collateral damage problem that current herbicides create.<br/><br/>The other three either ignore this exclusive-targeting advantage, contradict the passage's claims, or focus on a different issue.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

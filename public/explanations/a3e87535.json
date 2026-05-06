@@ -1,15 +1,1 @@
-{
-  "questionId": "a3e87535",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "The phrase \u201ca fictionalized account of the lives of the Mirabal [blank]\u201d is an appositive that describes the novel. It's already introduced by a comma after \u201cButterflies.\u201d The main verb \u201ccan serve\u201d follows the blank immediately."
-    },
-    {
-      "title": "Apply the punctuation rule for appositives",
-      "content": "When an appositive is introduced by a comma, it must be closed by a comma before the main clause, so \u201csisters,\u201d provides the required closing comma. Options A and B add \u201cand,\u201d which has nothing parallel to connect, while option D omits the closing comma entirely. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a3e87535", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "The phrase “a fictionalized account of the lives of the Mirabal [blank]” is an appositive that describes the novel. It's already introduced by a comma after “Butterflies.” The main verb “can serve” follows the blank immediately."}, {"title": "Apply the punctuation rule for appositives", "content": "When an appositive is introduced by a comma, it must be closed by a comma before the main clause, so “sisters,” provides the required closing comma.<br/><br/>Options A and B add “and,” which has nothing parallel to connect, while option D omits the closing comma entirely.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the hypothesis requires",
-      "content": "The hypothesis claims intermediate-headed fish will be <strong>more likely than narrow-headed fish</strong> to detect obstructions in low-visibility conditions with large vortices. Support requires direct evidence that intermediate-headed fish outperform narrow-headed fish."
-    },
-    {
-      "title": "Match the direct comparison",
-      "content": "Choice A directly compares narrow-headed sturgeon to intermediate-headed smooth-hound and shows the narrow-headed fish bumped into obstructions more often\u2014proving intermediate-headed fish detected them better. The other three either measure only one head type's performance without comparison or examine variation within a single species, so none establish the required relative advantage. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the hypothesis requires", "content": "The hypothesis claims intermediate-headed fish will be <strong>more likely than narrow-headed fish</strong> to detect obstructions in low-visibility conditions with large vortices. Support requires direct evidence that intermediate-headed fish outperform narrow-headed fish."}, {"title": "Match the direct comparison", "content": "Choice A directly compares narrow-headed sturgeon to intermediate-headed smooth-hound and shows the narrow-headed fish bumped into obstructions more often—proving intermediate-headed fish detected them better.<br/><br/>The other three either measure only one head type's performance without comparison or examine variation within a single species, so none establish the required relative advantage.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "123bd312",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage proposes that high atmospheric CO2 caused sauropod gigantism. The key signal is the word <strong>However</strong>, paired with the critical fact: <strong>there is no evidence of significant spikes in carbon dioxide</strong> at the three key evolutionary moments when sauropods evolved larger sizes."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B states that sauropod size evolution <strong>did not depend on increased atmospheric carbon dioxide</strong>. The absence of CO2 spikes at the evolutionary moments where the theory predicts they should appear directly refutes the proposed cause-and-effect relationship. Choices A and C attempt to preserve the CO2 hypothesis despite the missing evidence, while D reverses the causal relationship. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "123bd312", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage proposes that high atmospheric CO2 caused sauropod gigantism.<br/><br/>The key signal is the word <strong>However</strong>, paired with the critical fact: <strong>there is no evidence of significant spikes in carbon dioxide</strong> at the three key evolutionary moments when sauropods evolved larger sizes."}, {"title": "Apply the signal to the choices", "content": "Choice B states that sauropod size evolution <strong>did not depend on increased atmospheric carbon dioxide</strong>.<br/><br/>The absence of CO2 spikes at the evolutionary moments where the theory predicts they should appear directly refutes the proposed cause-and-effect relationship.<br/><br/>Choices A and C attempt to preserve the CO2 hypothesis despite the missing evidence, while D reverses the causal relationship.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

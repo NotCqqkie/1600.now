@@ -1,15 +1,1 @@
-{
-  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast structure",
-      "content": "The underlined portion describes what other contemporary manuscripts contained (\u201ccelebrated medieval authors, elite readings\u201d), immediately followed by \u201cwhereas,\u201d which signals a shift to what makes HM distinctive."
-    },
-    {
-      "title": "Match the function",
-      "content": "Choice A names it correctly: providing context for HM's outlier status. The underlined portion shows typical contemporary manuscript content before the \u201cwhereas\u201d contrast reveals HM's difference, establishing the baseline this comparison needs. Choices B, C, and D misidentify or contradict this function. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast structure", "content": "The underlined portion describes what other contemporary manuscripts contained (“celebrated medieval authors, elite readings”), immediately followed by “whereas,” which signals a shift to what makes HM distinctive."}, {"title": "Match the function", "content": "Choice A names it correctly: providing context for HM's outlier status.<br/><br/>The underlined portion shows typical contemporary manuscript content before the “whereas” contrast reveals HM's difference, establishing the baseline this comparison needs.<br/><br/>Choices B, C, and D misidentify or contradict this function.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

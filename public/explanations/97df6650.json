@@ -1,15 +1,1 @@
-{
-  "questionId": "97df6650",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject",
-      "content": "The sentence's subject is \u201cThe village of Panduyacu in Ecuador.\u201d Although a prepositional phrase immediately follows the noun, such phrases modify the head noun without changing its number. \u201cVillage\u201d is singular."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires a singular subject to take a singular verb. <strong>Is</strong> is the singular present-tense form of <em>be</em>. Choices A and D both use the plural form <em>are</em>; choice B uses <em>have been</em>, which is plural present perfect. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97df6650", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the subject", "content": "The sentence's subject is “The village of Panduyacu in Ecuador.” Although a prepositional phrase immediately follows the noun, such phrases modify the head noun without changing its number. “Village” is singular."}, {"title": "Apply subject-verb agreement", "content": "Subject-verb agreement requires a singular subject to take a singular verb. <strong>Is</strong> is the singular present-tense form of <em>be</em>.<br/><br/>Choices A and D both use the plural form <em>are</em>; choice B uses <em>have been</em>, which is plural present perfect.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

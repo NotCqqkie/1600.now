@@ -1,15 +1,1 @@
-{
-  "questionId": "61228830",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core limitations",
-      "content": "The passage emphasizes that heliographs were effective \u201conly during the daytime\u201d and their range \u201cdepended on factors such as the opacity of the air and line of sight.\u201d The word \u201cTherefore\u201d signals that replacement technology directly addressed these environmental constraints."
-    },
-    {
-      "title": "Match the answer to those constraints",
-      "content": "Choice B\u2014\u201dnot so constrained by environmental circumstances\u201d\u2014directly overcomes the daytime-only limitation and the dependence on opacity and line of sight. The other three address irrelevant concerns and fail to solve the core environmental constraints. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61228830", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core limitations", "content": "The passage emphasizes that heliographs were effective “only during the daytime” and their range “depended on factors such as the opacity of the air and line of sight.” The word “Therefore” signals that replacement technology directly addressed these environmental constraints."}, {"title": "Match the answer to those constraints", "content": "Choice B—”not so constrained by environmental circumstances”—directly overcomes the daytime-only limitation and the dependence on opacity and line of sight.<br/><br/>The other three address irrelevant concerns and fail to solve the core environmental constraints.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

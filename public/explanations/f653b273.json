@@ -1,15 +1,1 @@
-{
-  "questionId": "f653b273",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key acknowledgment",
-      "content": "Text 2 paleontologists state \u201cthe skulls looked avian at first\u201d while explaining that detailed studies revealed these were actually unusual lizards. This acknowledges that the initial observation of avian-like features was valid, explaining why the researchers' initial thought made sense."
-    },
-    {
-      "title": "Apply to the researchers' initial thought",
-      "content": "Choice A expresses exactly what Text 2 paleontologists would conclude: the initial thought is understandable because the fossil features do look avian, yet <em>O. khaungraae</em> is probably a lizard based on detailed evidence. The other three either mischaracterize what confused the researchers, wrongly attribute their assumptions, or introduce unsupported details.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f653b273", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key acknowledgment", "content": "Text 2 paleontologists state “the skulls looked avian at first” while explaining that detailed studies revealed these were actually unusual lizards. This acknowledges that the initial observation of avian-like features was valid, explaining why the researchers' initial thought made sense."}, {"title": "Apply to the researchers' initial thought", "content": "Choice A expresses exactly what Text 2 paleontologists would conclude: the initial thought is understandable because the fossil features do look avian, yet <em>O. khaungraae</em> is probably a lizard based on detailed evidence.<br/><br/>The other three either mischaracterize what confused the researchers, wrongly attribute their assumptions, or introduce unsupported details.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

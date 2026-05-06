@@ -1,15 +1,1 @@
-{
-  "questionId": "dede8260",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the methodology requirement",
-      "content": "The goal is to emphasize <strong>methodology</strong> \u2014 the actual research process. From the notes, Kind's team reviewed 132 medical school websites, examining their policies. We need the choice that describes this research action."
-    },
-    {
-      "title": "Find the process description",
-      "content": "B explicitly states the action the researchers took: <em>\u201cexamined the student policies of 132 medical schools.\u201d</em> Choice A describes where data is located, C presents the results, and D states the research goal \u2014 none of these convey the actual research process. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dede8260", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the methodology requirement", "content": "The goal is to emphasize <strong>methodology</strong> — the actual research process. From the notes, Kind's team reviewed 132 medical school websites, examining their policies. We need the choice that describes this research action."}, {"title": "Find the process description", "content": "B explicitly states the action the researchers took: <em>“examined the student policies of 132 medical schools.”</em> Choice <ul><li>A describes where data is located</li><li>C presents the results</li><li>D states the research goal — none of these convey the actual research process</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement",
-      "content": "The student's goal is stated explicitly: indicate that <strong>both</strong> soundscapes are on the list. The key requirement is naming both the crickets at Yodo River and the water at Nachi Falls, then confirming both are on the list."
-    },
-    {
-      "title": "Apply the requirement to the choices",
-      "content": "Choice A explicitly names both soundscapes\u2014<em>\u201cBoth the sound of crickets on the banks of the Yodo River and the sound of water flowing over Nachi Falls are on the list\u201d</em>\u2014and confirms both are included. The other three choices each fail to establish both soundscapes: B names only Nachi Falls, C omits both soundscapes, and D names only the crickets as an example. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key requirement", "content": "The student's goal is stated explicitly: indicate that <strong>both</strong> soundscapes are on the list. The key requirement is naming both the crickets at Yodo River and the water at Nachi Falls, then confirming both are on the list."}, {"title": "Apply the requirement to the choices", "content": "Choice A explicitly names both soundscapes—<em>“Both the sound of crickets on the banks of the Yodo River and the sound of water flowing over Nachi Falls are on the list”</em>—and confirms both are included.<br/><br/>The other three choices each fail to establish both soundscapes: <ul><li>B names only Nachi Falls</li><li>C omits both soundscapes</li><li>D names only the crickets as an example</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

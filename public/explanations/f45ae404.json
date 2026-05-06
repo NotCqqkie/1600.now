@@ -1,15 +1,1 @@
-{
-  "questionId": "f45ae404",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures on each side",
-      "content": "The left side ends with 'crowd-monitoring,' a modifier awaiting its head noun. The right side contains 'video streamed from cameras in heavily touristed areas,' a noun phrase, followed by 'the AI algorithm determines crowd sizes...,' which is an independent clause. These two elements must be properly separated."
-    },
-    {
-      "title": "Apply the rule for sentence boundaries and introductory phrases",
-      "content": "A period after 'system' (choice C) allows 'Analyzing video streamed from cameras in heavily touristed areas' to function as an introductory participial phrase in a new sentence, properly separated by a comma from the main clause 'the AI algorithm determines crowd sizes...' Choices A (nested em-dashes), B, and D all place 'the AI algorithm determines' in the same sentence without proper separation, creating comma splices. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f45ae404", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures on each side", "content": "The left side ends with 'crowd-monitoring,' a modifier awaiting its head noun.<br/><br/>The right side contains 'video streamed from cameras in heavily touristed areas,' a noun phrase, followed by 'the AI algorithm determines crowd sizes...,' which is an independent clause.<br/><br/>These two elements must be properly separated."}, {"title": "Apply the rule for sentence boundaries and introductory phrases", "content": "A period after 'system' (choice C) allows 'Analyzing video streamed from cameras in heavily touristed areas' to function as an introductory participial phrase in a new sentence, properly separated by a comma from the main clause 'the AI algorithm determines crowd sizes...' Choices A (nested em-dashes), B, and D all place 'the AI algorithm determines' in the same sentence without proper separation, creating comma splices. <br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

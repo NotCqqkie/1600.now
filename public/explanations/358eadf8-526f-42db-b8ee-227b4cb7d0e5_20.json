@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what's on both sides of the blank",
-      "content": "Independent clause on the left: <em>\u201cThe Suzuki method is an approach to music instruction.\u201d</em> On the right, within the relative clause beginning with <strong>that</strong>, we need to fit both an -ing phrase (about teaching music naturally) and the main verb <strong>emphasizes</strong> (describing what the approach emphasizes)."
-    },
-    {
-      "title": "Apply the punctuation rule for -ing phrases",
-      "content": "When an -ing phrase interrupts the middle of a sentence or clause, it must be enclosed by commas on both sides. Choice B correctly uses <strong>aiming</strong> as the -ing phrase, with commas properly enclosing it: <em>\u201cthat, aiming to teach music in the same natural way children learn language, emphasizes...\u201d</em> This leaves <strong>emphasizes</strong> as the clear main verb of the relative clause. The other choices fail by either creating awkward punctuation after \u201cthat\u201d (A) or using multiple verbs without proper coordination (C, D). That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what's on both sides of the blank", "content": "Independent clause on the left: <em>“The Suzuki method is an approach to music instruction.”</em> On the right, within the relative clause beginning with <strong>that</strong>, we need to fit both an -ing phrase (about teaching music naturally) and the main verb <strong>emphasizes</strong> (describing what the approach emphasizes)."}, {"title": "Apply the punctuation rule for -ing phrases", "content": "When an -ing phrase interrupts the middle of a sentence or clause, it must be enclosed by commas on both sides.<br/><br/>Choice B correctly uses <strong>aiming</strong> as the -ing phrase, with commas properly enclosing it: <em>“that, aiming to teach music in the same natural way children learn language, emphasizes...”</em> This leaves <strong>emphasizes</strong> as the clear main verb of the relative clause.<br/><br/>The other choices fail by either creating awkward punctuation after “that” (A) or using multiple verbs without proper coordination (C, D).<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

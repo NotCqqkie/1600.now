@@ -1,15 +1,1 @@
-{
-  "questionId": "b2e54b50",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Interpret the strength comparison",
-      "content": "The researchers concluded \u201ccorrelations with velocity are stronger than those with density\u201d\u2014meaning velocity correlations must have greater absolute distance from 0 than density correlations."
-    },
-    {
-      "title": "Match the claim to the data",
-      "content": "Choice D states that for each rating, velocity correlations are further from 0 than density correlations. The data confirms this across all three: Before (|\u22120.9357| > |0.8592|), After (|\u22120.9518| > |0.7308|), Overall (|\u22120.8587| > |0.7447|). The other choices either don't compare velocity to density systematically, or describe the sign pattern rather than the relative strength of correlations. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b2e54b50", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Interpret the strength comparison", "content": "The researchers concluded “correlations with velocity are stronger than those with density”—meaning velocity correlations must have greater absolute distance from 0 than density correlations."}, {"title": "Match the claim to the data", "content": "Choice D states that for each rating, velocity correlations are further from 0 than density correlations.<br/><br/>The data confirms this across all three: Before (|−0.9357| > |0.8592|), After (|−0.9518| > |0.7308|), Overall (|−0.8587| > |0.7447|).<br/><br/>The other choices either don't compare velocity to density systematically, or describe the sign pattern rather than the relative strength of correlations.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

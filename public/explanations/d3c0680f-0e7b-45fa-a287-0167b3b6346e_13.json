@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot what constrains success",
-      "content": "The passage's key finding is that innovations like autonomous robots have been \u201cconstrained\u201d by their own complications\u2014they move slowly and struggle with obstacles. This constraint on success is the crucial detail."
-    },
-    {
-      "title": "Conclude from the constraint",
-      "content": "D states the natural conclusion: companies are unlikely to overcome impediments in the near term. The passage's finding that innovations face constraining complications directly supports this prognosis. The other three choices fail to reflect this reality\u2014A overstates what robots can accomplish right now, B reverses the causal relationship, and C suggests action unsupported by the passage. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot what constrains success", "content": "The passage's key finding is that innovations like autonomous robots have been “constrained” by their own complications—they move slowly and struggle with obstacles. This constraint on success is the crucial detail."}, {"title": "Conclude from the constraint", "content": "D states the natural conclusion: companies are unlikely to overcome impediments in the near term.<br/><br/>The passage's finding that innovations face constraining complications directly supports this prognosis.<br/><br/>The other three choices fail to reflect this reality—<ul><li>A overstates what robots can accomplish right now</li><li>B reverses the causal relationship</li><li>C suggests action unsupported by the passage</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

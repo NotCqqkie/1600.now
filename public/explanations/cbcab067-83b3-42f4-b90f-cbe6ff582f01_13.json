@@ -1,15 +1,1 @@
-{
-  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the paradox",
-      "content": "Males prefer green females for mating, yet 28% of females remain blue. If sexual selection alone drove coloration, blue should nearly disappear."
-    },
-    {
-      "title": "Identify the non-mating driver",
-      "content": "Blue must be maintained by factors other than mating selection. Males show less antagonism toward blue in resource competition, creating a survival advantage that explains blue's persistence despite male mate preference for green. B captures this: blue is driven by non-mating factors. A predicts the opposite (blue would decline under mate preference). C makes an unrelated claim about perception. D restates antagonism without explaining blue's persistence.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the paradox", "content": "Males prefer green females for mating, yet 28% of females remain blue. If sexual selection alone drove coloration, blue should nearly disappear."}, {"title": "Identify the non-mating driver", "content": "Blue must be maintained by factors other than mating selection.<br/><br/>Males show less antagonism toward blue in resource competition, creating a survival advantage that explains blue's persistence despite male mate preference for green.<br/><br/>B captures this: blue is driven by non-mating factors. A predicts the opposite (blue would decline under mate preference).<br/><br/>C makes an unrelated claim about perception. D restates antagonism without explaining blue's persistence.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_23",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The key signal is <strong>\u201cextremely influential\u201d</strong>\u2014the sentence after the blank must show what that influence actually produced."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>\u201cSpecifically\u201d</strong> provides exactly this\u2014it presents the treaty as a concrete example proving the claimed influence. <strong>\u201cRegardless,\u201d</strong> <strong>\u201cHowever,\u201d</strong> and <strong>\u201cEarlier\u201d</strong> each create logical problems\u2014false contrast or temporal confusion. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_23", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The key signal is <strong>“extremely influential”</strong>—the sentence after the blank must show what that influence actually produced."}, {"title": "Match the meaning", "content": "<strong>“Specifically”</strong> provides exactly this—it presents the treaty as a concrete example proving the claimed influence. <strong>“Regardless,”</strong> <strong>“However,”</strong> and <strong>“Earlier”</strong> each create logical problems—false contrast or temporal confusion.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

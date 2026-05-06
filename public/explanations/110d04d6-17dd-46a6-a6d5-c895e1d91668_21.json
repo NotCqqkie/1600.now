@@ -1,15 +1,1 @@
-{
-  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject structure",
-      "content": "The sentence reads: \u201cHanseatic League member ______ was serendipitiously located...\u201d The blank must contain a noun phrase serving as the subject of the verb \u201cwas\u201d. You need to pair \u201ccity\u201d with \u201cRostock\u201d to identify which city."
-    },
-    {
-      "title": "Apply the rule for noun identification",
-      "content": "When a common noun is directly followed by a proper noun for identification, no comma separates them: \u201ccity Rostock\u201d is the correct form. A, B, and C all introduce commas incorrectly\u2014A between subject and verb, C unclosed, and B to mark \u201cRostock\u201d as extra detail when it's essential identification. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject structure", "content": "The sentence reads: “Hanseatic League member ______ was serendipitiously located...” The blank must contain a noun phrase serving as the subject of the verb “was”. You need to pair “city” with “Rostock” to identify which city."}, {"title": "Apply the rule for noun identification", "content": "When a common noun is directly followed by a proper noun for identification, no comma separates them: “city Rostock” is the correct form.<br/><br/>A, B, and C all introduce commas incorrectly—A between subject and verb, C unclosed, and B to mark “Rostock” as extra detail when it's essential identification.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

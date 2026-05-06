@@ -1,15 +1,1 @@
-{
-  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The phrase \u201che wondered if it was real\u201d reveals that \u201cconsidered\u201d must mean something involving doubt or reflection about his power."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>\u201cPondered\u201d</strong> captures the act of thinking deeply and reflecting about something, matching Ezeulu's act of doubting whether his power is truly real. The other three choices describe unrelated actions that don't fit this reflective context. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the key signal", "content": "The phrase “he wondered if it was real” reveals that “considered” must mean something involving doubt or reflection about his power."}, {"title": "Match the meaning", "content": "<strong>“Pondered”</strong> captures the act of thinking deeply and reflecting about something, matching Ezeulu's act of doubting whether his power is truly real.<br/><br/>The other three choices describe unrelated actions that don't fit this reflective context.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

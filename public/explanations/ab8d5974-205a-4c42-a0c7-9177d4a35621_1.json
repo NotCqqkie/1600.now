@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key context clue",
-      "content": "The strongest signal is the explanation that follows: <em>\u201cnew batteries can't be put in once the old ones no longer work.\u201d</em> This directly reveals what the blank should mean\u2014that old batteries cannot be substituted with fresh ones."
-    },
-    {
-      "title": "Match the meaning to the correct choice",
-      "content": "The target meaning is the act of substituting old batteries with new ones. <strong>replaced</strong> directly expresses this idea\u2014it means to substitute something old with something new. The other three choices (rated, invented, prevented) do not address battery exchange. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key context clue", "content": "The strongest signal is the explanation that follows: <em>“new batteries can't be put in once the old ones no longer work.”</em> This directly reveals what the blank should mean—that old batteries cannot be substituted with fresh ones."}, {"title": "Match the meaning to the correct choice", "content": "The target meaning is the act of substituting old batteries with new ones. <strong>replaced</strong> directly expresses this idea—it means to substitute something old with something new.<br/><br/>The other three choices (rated, invented, prevented) do not address battery exchange.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

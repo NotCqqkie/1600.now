@@ -1,15 +1,1 @@
-{
-  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_5",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The phrase \u201cMOMA claims\u201d signals MOMA's stated justification. The immediately following \u201cbut\u201d shows the author challenging that justification."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice B identifies the exact function: MOMA's rationale for a decision (showing certain games only in video), which the author then critiques. The other three mischaracterize the underlined portion\u2014reversing the author's relationship to the claim, confusing the stated decision with claims about video games, or misidentifying what kind of statement it is.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_5", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the key signal", "content": "The phrase “MOMA claims” signals MOMA's stated justification. The immediately following “but” shows the author challenging that justification."}, {"title": "Match the signal to the choices", "content": "Choice B identifies the exact function: MOMA's rationale for a decision (showing certain games only in video), which the author then critiques.<br/><br/>The other three mischaracterize the underlined portion—reversing the author's relationship to the claim, confusing the stated decision with claims about video games, or misidentifying what kind of statement it is.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

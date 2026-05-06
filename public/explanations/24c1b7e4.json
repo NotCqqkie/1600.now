@@ -1,15 +1,1 @@
-{
-  "questionId": "24c1b7e4",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Decode the logical requirement",
-      "content": "\u201dNecessary but not sufficient\u201d means: every decrease in government size (total outlays) occurs when Congress is divided <em>(necessary)</em>, but a divided Congress can exist without causing a decrease <em>(not sufficient)</em>. The data must show both patterns: all reductions with divided Congresses, and at least one divided Congress with an increase instead."
-    },
-    {
-      "title": "Match the data pattern",
-      "content": "Choice D shows all divided Congresses except 1975\u20131976 with reductions in total outlays, while all undivided Congresses had increases. This proves necessity: all reductions occurred under divided Congresses. It also proves non-sufficiency: 1975\u20131976 was divided but increased. The other choices either focus on spending components (A, C) or incorrectly claim all divided Congresses produced reductions (B).<br><br>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "24c1b7e4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Decode the logical requirement", "content": "”Necessary but not sufficient” means: every decrease in government size (total outlays) occurs when Congress is divided <em>(necessary)</em>, but a divided Congress can exist without causing a decrease <em>(not sufficient)</em>.<br/><br/>The data must show both patterns: all reductions with divided Congresses, and at least one divided Congress with an increase instead."}, {"title": "Match the data pattern", "content": "Choice D shows all divided Congresses except 1975–1976 with reductions in total outlays, while all undivided Congresses had increases.<br/><br/>This proves necessity: all reductions occurred under divided Congresses.<br/><br/>It also proves non-sufficiency: 1975–1976 was divided but increased.<br/><br/>The other choices either focus on spending components (A, C) or incorrectly claim all divided Congresses produced reductions (B).<br><br>That matches choice D — <strong>D</strong> is correct."}]}

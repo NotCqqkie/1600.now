@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the clarification pattern",
-      "content": "The first sentence presents a <strong>general</strong> claim: Radiohead chose their name in tribute to another band. The second sentence immediately elaborates with <strong>specific</strong> details: the exact song (\u201cRadio Head\u201d) and band (Talking Heads). The transition word must signal movement from general statement to precise elaboration."
-    },
-    {
-      "title": "Apply the pattern to the choices",
-      "content": "<strong>Specifically</strong> works because it introduces precise details that elaborate on a general claim. The other three signal sequence (A), dismissal (B), or contradiction (C) \u2014 none fitting a clarification pattern. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the clarification pattern", "content": "The first sentence presents a <strong>general</strong> claim: Radiohead chose their name in tribute to another band.<br/><br/>The second sentence immediately elaborates with <strong>specific</strong> details: the exact song (“Radio Head”) and band (Talking Heads).<br/><br/>The transition word must signal movement from general statement to precise elaboration."}, {"title": "Apply the pattern to the choices", "content": "<strong>Specifically</strong> works because it introduces precise details that elaborate on a general claim. The other three signal sequence (A), dismissal (B), or contradiction (C) — none fitting a clarification pattern. That matches choice D — <strong>D</strong> is correct."}]}

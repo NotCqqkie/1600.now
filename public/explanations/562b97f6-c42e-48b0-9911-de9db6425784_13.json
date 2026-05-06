@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage notes that \u201cinvasive\u201d and \u201cnative\u201d are labels that describe temporary circumstances."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Choice B captures the idea that the label could change because climate shifts make the categories temporary. The other three either claim the bullfrog was already native, assert it should be labeled native now, or speculate about it becoming native elsewhere, none of which follow from the suggestion about temporary labels. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage notes that “invasive” and “native” are labels that describe temporary circumstances."}, {"title": "Match the meaning to the choices", "content": "Choice B captures the idea that the label could change because climate shifts make the categories temporary.<br/><br/>The other three either claim the bullfrog was already native, assert it should be labeled native now, or speculate about it becoming native elsewhere, none of which follow from the suggestion about temporary labels.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

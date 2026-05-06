@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_18",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The noun phrase \u201can ecological [blank]\u201d is followed by a verb phrase \u201ccompared the lengths of eggs...\u201d that modifies or describes the study. To properly connect this verb phrase to the noun, a <strong>relative pronoun</strong> is needed."
-    },
-    {
-      "title": "Apply the restrictive relative clause rule",
-      "content": "Relative clauses that identify or specify a noun are <strong>restrictive</strong> and use \u201cthat\u201d without a comma. Option C (\u201cstudy that\u201d) correctly forms a restrictive relative clause. The other three either add a non-standard comma before \u201cthat\u201d (A), omit the relative pronoun entirely (B), or use \u201cwhich\u201d with a comma (D), which is for non-restrictive clauses. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The noun phrase “an ecological [blank]” is followed by a verb phrase “compared the lengths of eggs...” that modifies or describes the study. To properly connect this verb phrase to the noun, a <strong>relative pronoun</strong> is needed."}, {"title": "Apply the restrictive relative clause rule", "content": "Relative clauses that identify or specify a noun are <strong>restrictive</strong> and use “that” without a comma.<br/><br/>Option C (“study that”) correctly forms a restrictive relative clause.<br/><br/>The other three either add a non-standard comma before “that” (A), omit the relative pronoun entirely (B), or use “which” with a comma (D), which is for non-restrictive clauses.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

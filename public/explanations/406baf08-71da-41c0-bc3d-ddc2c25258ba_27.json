@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key distinction to emphasize",
-      "content": "The notes show that <em>Pipturus albidus</em> is native while <em>Psidium cattleyanum</em> is non-native. This origin difference is what the student needs to highlight."
-    },
-    {
-      "title": "Match the distinction to the answer choices",
-      "content": "Choice B states \u201conly the former plant is native,\u201d which effectively highlights that one is native and one is not\u2014precisely what the student needs to accomplish. The other choices either ignore one plant (A), focus on the study method (C), or highlight what the plants share instead of what differs (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key distinction to emphasize", "content": "The notes show that <em>Pipturus albidus</em> is native while <em>Psidium cattleyanum</em> is non-native. This origin difference is what the student needs to highlight."}, {"title": "Match the distinction to the answer choices", "content": "Choice B states “only the former plant is native,” which effectively highlights that one is native and one is not—precisely what the student needs to accomplish.<br/><br/>The other choices either ignore one plant (A), focus on the study method (C), or highlight what the plants share instead of what differs (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

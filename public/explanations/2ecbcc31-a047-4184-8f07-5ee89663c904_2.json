@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage emphasizes <strong>\u201cthe sheer number\u201d of minor planets</strong> (more than 500,000) and notes that most receive only identification numbers. This volume constraint signals why naming each would create a problem."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Impractical directly explains why most planets don't get names: with 500,000+ objects requiring unique names, naming all of them would be unfeasible. Presumptuous, ambiguous, and customary don't address the feasibility issue\u2014they suggest arrogance, confusion about naming clarity, and false normalcy, respectively. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage emphasizes <strong>“the sheer number” of minor planets</strong> (more than 500,000) and notes that most receive only identification numbers. This volume constraint signals why naming each would create a problem."}, {"title": "Match the meaning", "content": "Impractical directly explains why most planets don't get names: with 500,000+ objects requiring unique names, naming all of them would be unfeasible.<br/><br/>Presumptuous, ambiguous, and customary don't address the feasibility issue—they suggest arrogance, confusion about naming clarity, and false normalcy, respectively.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

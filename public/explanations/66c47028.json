@@ -1,15 +1,1 @@
-{
-  "questionId": "66c47028",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage describes a shift: Wigner\u2019s 1934 conjecture about a crystal \"remained largely conjecture\" until 2021, when researchers captured the first image. The key signal is the claim that Wang\u2019s team achieved <strong>the first visual confirmation</strong>. This defines the core new development the text is emphasizing."
-    },
-    {
-      "title": "Match the evidence to the main claim",
-      "content": "Choice A directly states the confirmed evidence for the Wigner crystal, mirroring the phrase \"first visual confirmation.\" B focuses on the method (inserting graphene) rather than confirmation, C narrows the focus to a component (graphene), and D misrepresents the difficulty as inherent to the structure, not the scientific gap. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "66c47028", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage describes a shift: Wigner’s 1934 conjecture about a crystal \"remained largely conjecture\" until 2021, when researchers captured the first image.<br/><br/>The key signal is the claim that Wang’s team achieved <strong>the first visual confirmation</strong>.<br/><br/>This defines the core new development the text is emphasizing."}, {"title": "Match the evidence to the main claim", "content": "Choice A directly states the confirmed evidence for the Wigner crystal, mirroring the phrase \"first visual confirmation.\" <ul><li>B focuses on the method (inserting graphene) rather than confirmation</li><li>C narrows the focus to a component (graphene)</li><li>D misrepresents the difficulty as inherent to the structure</li></ul>, not the scientific gap.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

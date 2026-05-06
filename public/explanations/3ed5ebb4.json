@@ -1,15 +1,1 @@
-{
-  "questionId": "3ed5ebb4",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the function of the phrase after the quotation",
-      "content": "\u201dAn apt assessment given that...\u201d clarifies the quotation rather than introducing a separate independent thought."
-    },
-    {
-      "title": "Apply the correct punctuation rule",
-      "content": "A comma properly introduces clarifying material after a quotation. The other options fail: A uses a semicolon (which joins independent clauses), B adds \u201cand\u201d (suggesting parallel items), D omits the punctuation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3ed5ebb4", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the function of the phrase after the quotation", "content": "”An apt assessment given that...” clarifies the quotation rather than introducing a separate independent thought."}, {"title": "Apply the correct punctuation rule", "content": "A comma properly introduces clarifying material after a quotation. The other options fail: <ul><li>A uses a semicolon (which joins independent clauses)</li><li>B adds “and” (suggesting parallel items)</li><li>D omits the punctuation</li></ul>. That matches choice C — <strong>C</strong> is correct."}]}

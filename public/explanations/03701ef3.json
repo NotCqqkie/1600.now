@@ -1,15 +1,1 @@
-{
-  "questionId": "03701ef3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the capability that resin casting lacks",
-      "content": "The passage emphasizes that CT can record measurements <em>throughout the entire burrow-building process</em>\u2014a continuous tracking capability. The passage explicitly states this is impossible with resin casting."
-    },
-    {
-      "title": "Determine why resin casting can't measure the same burrow repeatedly",
-      "content": "Resin casting destroys the burrow when recovering the model, making multiple measurements of the same burrow impossible. The other choices cite unrelated constraints: size limits, processing speed, and shape distortion don't prevent you from measuring the same burrow multiple times. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "03701ef3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the capability that resin casting lacks", "content": "The passage emphasizes that CT can record measurements <em>throughout the entire burrow-building process</em>—a continuous tracking capability. The passage explicitly states this is impossible with resin casting."}, {"title": "Determine why resin casting can't measure the same burrow repeatedly", "content": "Resin casting destroys the burrow when recovering the model, making multiple measurements of the same burrow impossible.<br/><br/>The other choices cite unrelated constraints: size limits, processing speed, and shape distortion don't prevent you from measuring the same burrow multiple times.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

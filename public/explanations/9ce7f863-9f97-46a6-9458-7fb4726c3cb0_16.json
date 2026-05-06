@@ -1,15 +1,1 @@
-{
-  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the verb-object structure",
-      "content": "The blank comes after 'allows researchers' (verb + direct object) and before 'chemical reactions' (noun phrase). This is a verb + object + [blank] + noun arrangement."
-    },
-    {
-      "title": "Apply the infinitive requirement",
-      "content": "The verb 'allow' requires the infinitive form: allow [someone] to [action]. Therefore, only 'to study' properly completes the pattern by expressing what the technique enables, while the other options violate the infinitive requirement and fail to convey the enabled action.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the verb-object structure", "content": "The blank comes after 'allows researchers' (verb + direct object) and before 'chemical reactions' (noun phrase). This is a verb + object + [blank] + noun arrangement."}, {"title": "Apply the infinitive requirement", "content": "The verb 'allow' requires the infinitive form: allow [someone] to [action].<br/><br/>Therefore, only 'to study' properly completes the pattern by expressing what the technique enables, while the other options violate the infinitive requirement and fail to convey the enabled action.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

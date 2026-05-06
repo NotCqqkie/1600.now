@@ -1,15 +1,1 @@
-{
-  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the central mismatch",
-      "content": "The phrase \u201cfail to ______\u201d indicates a discrepancy between trial results and practitioner conclusions. The explanation reveals that practitioners overlook confounding variables, meaning their conclusions are incomplete. The blank requires a word expressing that trials don't confirm what practitioners concluded."
-    },
-    {
-      "title": "Select the word for confirmation",
-      "content": "Corroborate means to confirm or support. Trial results that \u201cfail to corroborate\u201d practitioner conclusions means the trials don't confirm what practitioners observed\u2014the exact divergence the passage describes. The other choices do not express confirmation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the central mismatch", "content": "The phrase “fail to ______” indicates a discrepancy between trial results and practitioner conclusions.<br/><br/>The explanation reveals that practitioners overlook confounding variables, meaning their conclusions are incomplete.<br/><br/>The blank requires a word expressing that trials don't confirm what practitioners concluded."}, {"title": "Select the word for confirmation", "content": "Corroborate means to confirm or support. Trial results that “fail to corroborate” practitioner conclusions means the trials don't confirm what practitioners observed—the exact divergence the passage describes.<br/><br/>The other choices do not express confirmation. That matches choice C — <strong>C</strong> is correct."}]}

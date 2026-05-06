@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first sentence introduces the principle, and the second sentence explains how it is applied. The blank requires a transition that shows <strong>logical consequence</strong>, since the second sentence follows directly from the principle in the first."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The transition <strong>&quot;Accordingly,&quot;</strong> shows that the action or conclusion in the second sentence logically results from the principle stated. The other three choices either <em>add</em> (Moreover), <em>state purpose</em> (To this end), or <em>contrast</em> (That being said), which do not align with the cause-effect relationship. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The first sentence introduces the principle, and the second sentence explains how it is applied. The blank requires a transition that shows <strong>logical consequence</strong>, since the second sentence follows directly from the principle in the first."}, {"title": "Match the meaning", "content": "The transition <strong>&quot;Accordingly,&quot;</strong> shows that the action or conclusion in the second sentence logically results from the principle stated.<br/><br/>The other three choices either <em>add</em> (Moreover), <em>state purpose</em> (To this end), or <em>contrast</em> (That being said), which do not align with the cause-effect relationship.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

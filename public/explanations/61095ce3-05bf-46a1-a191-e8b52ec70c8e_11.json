@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the correlation gap",
-      "content": "P6 actually gave equal ratings to abstract and cubist paintings (stated assumption). However, the model's predictions achieved different correlations with P6's actual ratings: 0.42 for abstract versus 0.27 for cubist. This gap in correlation strength is the key signal."
-    },
-    {
-      "title": "Interpret the correlation difference",
-      "content": "If the model had predicted abstract and cubist equally, both correlations should be equally strong. The model's higher correlation for abstract (0.42 versus 0.27 for cubist) means the model's predictions must have differed between the two styles\u2014that is, the model predicted P6 would rate them differently. Choices A and D claim a specific direction that the correlation data don't determine; choice B says the predictions are equal, contradicting the different correlations. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the correlation gap", "content": "P6 actually gave equal ratings to abstract and cubist paintings (stated assumption). However, the model's predictions achieved different correlations with P6's actual ratings: 0.42 for abstract versus 0.27 for cubist. This gap in correlation strength is the key signal."}, {"title": "Interpret the correlation difference", "content": "If the model had predicted abstract and cubist equally, both correlations should be equally strong.<br/><br/>The model's higher correlation for abstract (0.42 versus 0.27 for cubist) means the model's predictions must have differed between the two styles—that is, the model predicted P6 would rate them differently.<br/><br/>Choices A and D claim a specific direction that the correlation data don't determine; choice B says the predictions are equal, contradicting the different correlations.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

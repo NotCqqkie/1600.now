@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than riprap \u2014 bulkheads damage waterbirds more than riprap does."
-    },
-    {
-      "title": "Choose the comparison that directly isolates this difference",
-      "content": "Choice C compares Old Road (high bulkheads, lower IWCI) to Miles (high riprap, higher IWCI), directly demonstrating that bulkheads harm waterbird integrity more than riprap does. The other choices fail to isolate this comparison: A combines both types without distinguishing them, B shows an insignificant difference between similar sites, and D compares equal versus unequal percentages. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than riprap — bulkheads damage waterbirds more than riprap does."}, {"title": "Choose the comparison that directly isolates this difference", "content": "Choice C compares Old Road (high bulkheads, lower IWCI) to Miles (high riprap, higher IWCI), directly demonstrating that bulkheads harm waterbird integrity more than riprap does.<br/><br/>The other choices fail to isolate this comparison: <ul><li>A combines both types without distinguishing them</li><li>B shows an insignificant difference between similar sites</li><li>D compares equal versus unequal percentages</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

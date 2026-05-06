@@ -1,15 +1,1 @@
-{
-  "questionId": "9421ed62",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's main development",
-      "content": "The passage traces a progression from context (book digitizing) through a problem (scanners can't read distorted words) to a solution (reCAPTCHA invention). The bulk of the text focuses on what reCAPTCHA is and how it works, making the invention itself the passage's primary subject."
-    },
-    {
-      "title": "Match the purpose to the choices",
-      "content": "Choice A correctly identifies reCAPTCHA's invention as the passage's central focus. The other three choices misidentify the text's purpose by focusing on aspects the passage either doesn't explain (how scanners work), relegates to background (the book-digitizing project), or never discusses at all (reCAPTCHA's popularity). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9421ed62", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's main development", "content": "The passage traces a progression from context (book digitizing) through a problem (scanners can't read distorted words) to a solution (reCAPTCHA invention). The bulk of the text focuses on what reCAPTCHA is and how it works, making the invention itself the passage's primary subject."}, {"title": "Match the purpose to the choices", "content": "Choice A correctly identifies reCAPTCHA's invention as the passage's central focus.<br/><br/>The other three choices misidentify the text's purpose by focusing on aspects the passage either doesn't explain (how scanners work), relegates to background (the book-digitizing project), or never discusses at all (reCAPTCHA's popularity).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

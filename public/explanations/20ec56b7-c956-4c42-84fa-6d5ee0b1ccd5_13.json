@@ -1,15 +1,1 @@
-{
-  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the claim",
-      "content": "The researchers claim caterpillar sounds are \u201cdirected primarily at predators,\u201d not at members of the same species. To support this claim, we need evidence showing the sounds function as a <strong>threat response</strong>\u2014something triggered by predator attacks, not ongoing communication between caterpillars."
-    },
-    {
-      "title": "Match the answer to the signal",
-      "content": "Choice A directly demonstrates this: sounds occur exclusively during simulated attacks and stop within ten seconds after, which is the behavioral signature of a defensive mechanism. The other choices address the diversity and specificity of sounds produced, but none establish whether the sounds function as predator defense or intraspecific communication. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the claim", "content": "The researchers claim caterpillar sounds are “directed primarily at predators,” not at members of the same species.<br/><br/>To support this claim, we need evidence showing the sounds function as a <strong>threat response</strong>—something triggered by predator attacks, not ongoing communication between caterpillars."}, {"title": "Match the answer to the signal", "content": "Choice A directly demonstrates this: sounds occur exclusively during simulated attacks and stop within ten seconds after, which is the behavioral signature of a defensive mechanism.<br/><br/>The other choices address the diversity and specificity of sounds produced, but none establish whether the sounds function as predator defense or intraspecific communication.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

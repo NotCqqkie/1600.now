@@ -1,15 +1,1 @@
-{
-  "questionId": "869a32f1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the median, mode, and mean",
-      "content": "Order the data: 80, 81, 81, 81, 82. The median (middle value of 5) is the 3rd value: <strong>81\u00b0F</strong>. The mode (most frequent value) is <strong>81\u00b0F</strong>, which appears 3 times compared to 80 and 82 each appearing once. The mean is (80 + 81 + 81 + 81 + 82) \u00f7 5 = 405 \u00f7 5 = <strong>81\u00b0F</strong>."
-    },
-    {
-      "title": "Calculate the range",
-      "content": "The range is the difference between the maximum and minimum values: 82 - 80 = <strong>2\u00b0F</strong>. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "869a32f1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the median, mode, and mean", "content": "Order the data: 80, 81, 81, 81, 82. The median (middle value of 5) is the 3rd value: <strong>81°F</strong>.<br/><br/>The mode (most frequent value) is <strong>81°F</strong>, which appears 3 times compared to 80 and 82 each appearing once.<br/><br/>The mean is (80 + 81 + 81 + 81 + 82) ÷ 5 = 405 ÷ 5 = <strong>81°F</strong>."}, {"title": "Calculate the range", "content": "The range is the difference between the maximum and minimum values: 82 - 80 = <strong>2°F</strong>. That matches choice D — <strong>D</strong> is correct."}]}

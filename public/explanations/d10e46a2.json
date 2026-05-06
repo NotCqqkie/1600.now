@@ -1,15 +1,1 @@
-{
-  "questionId": "d10e46a2",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship between sentences",
-      "content": "The first sentence makes a general claim: Spartans were known for laconic wit and maintained it even in peril. The second sentence introduces a specific historical incident. The transition must signal that what follows is a concrete example supporting the claim in the first sentence."
-    },
-    {
-      "title": "Match the transition type to the choices",
-      "content": "\u201dFor instance\u201d directly introduces an example to illustrate a preceding point\u2014exactly what this passage does: it states a quality Spartans possessed, then demonstrates it with the Philip II anecdote. The other three signal different relationships: <em>Rather</em> suggests correction or alternative; <em>In other words</em> signals rephrasing; <em>That said</em> introduces a contrast. None fit moving from a claim to its supporting example. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d10e46a2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between sentences", "content": "The first sentence makes a general claim: Spartans were known for laconic wit and maintained it even in peril. The second sentence introduces a specific historical incident. The transition must signal that what follows is a concrete example supporting the claim in the first sentence."}, {"title": "Match the transition type to the choices", "content": "”For instance” directly introduces an example to illustrate a preceding point—exactly what this passage does: it states a quality Spartans possessed, then demonstrates it with the Philip II anecdote.<br/><br/>The other three signal different relationships: <em>Rather</em> suggests correction or alternative; <em>In other words</em> signals rephrasing; <em>That said</em> introduces a contrast.<br/><br/>None fit moving from a claim to its supporting example. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

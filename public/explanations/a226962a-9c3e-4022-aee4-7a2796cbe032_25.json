@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core requirement \u2014 both lengths in one comparison",
-      "content": "To compare the lengths effectively, the answer must present both measurements together. The notes provide: Mickelson Trail = 109 miles; Cannon Valley Trail = 19.7 miles."
-    },
-    {
-      "title": "Find the choice presenting both lengths with clear comparison",
-      "content": "D includes both specific lengths (109 miles for the Mickelson Trail and 19.7 miles for the Cannon Valley Trail) and compares them directly. The other three either omit one crucial measurement, make a false claim, or avoid presenting specific numbers. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the core requirement — both lengths in one comparison", "content": "To compare the lengths effectively, the answer must present both measurements together. The notes provide: Mickelson Trail = 109 miles; Cannon Valley Trail = 19.7 miles."}, {"title": "Find the choice presenting both lengths with clear comparison", "content": "D includes both specific lengths (109 miles for the Mickelson Trail and 19.7 miles for the Cannon Valley Trail) and compares them directly.<br/><br/>The other three either omit one crucial measurement, make a false claim, or avoid presenting specific numbers.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

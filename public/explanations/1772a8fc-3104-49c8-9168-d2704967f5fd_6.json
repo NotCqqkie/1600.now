@@ -1,15 +1,1 @@
-{
-  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The opening sentence establishes what people typically think: \u201cfeathered dinosaurs\u201d are winged ones like Microraptor. The word \u201cHowever\u201d signals a direct contrast \u2014 the underlined sentence contradicts this narrow view by explaining that many non-winged dinosaurs also had feathers."
-    },
-    {
-      "title": "Match the contrast function to the answer",
-      "content": "D correctly describes the function: the sentence indicates that the dinosaurs mentioned earlier (the winged Microraptor) weren't the only ones with feathers \u2014 it expands our understanding beyond that initial, limited scope. The other choices all misidentify what the sentence does \u2014 A invents discussion of purpose, B mistakes the claim for an example (the example comes next), and C invokes a definition that doesn't exist. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The opening sentence establishes what people typically think: “feathered dinosaurs” are winged ones like Microraptor. The word “However” signals a direct contrast — the underlined sentence contradicts this narrow view by explaining that many non-winged dinosaurs also had feathers."}, {"title": "Match the contrast function to the answer", "content": "D correctly describes the function: the sentence indicates that the dinosaurs mentioned earlier (the winged Microraptor) weren't the only ones with feathers — it expands our understanding beyond that initial, limited scope.<br/><br/>The other choices all misidentify what the sentence does — <ul><li>A invents discussion of purpose</li><li>B mistakes the claim for an example (the example comes next)</li><li>C invokes a definition that doesn't exist</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

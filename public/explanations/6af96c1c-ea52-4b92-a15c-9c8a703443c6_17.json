@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures around the blank",
-      "content": "Before the blank: incomplete participial phrase \u201ccommencing Mission\u201d<br/>After the blank: a noun phrase (the mission designation), then a time phrase, then an independent clause: \u201cthe mission ended when the shuttle landed...\u201d"
-    },
-    {
-      "title": "Apply the rule for separating independent clauses",
-      "content": "Choice D applies the rule: <strong>A period separates two independent clauses.</strong> By placing a period after \u201cSTS-53,\u201d D properly ends the first sentence and begins a second sentence: \u201cLasting seven days and seven hours, the mission ended...\u201d (participial phrase introducing the main clause). Options A, B, and C violate this rule by attempting to keep both independent clauses in a single sentence, connected only by commas. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures around the blank", "content": "Before the blank: incomplete participial phrase “commencing Mission”<br/>After the blank: a noun phrase (the mission designation), then a time phrase, then an independent clause: “the mission ended when the shuttle landed...”"}, {"title": "Apply the rule for separating independent clauses", "content": "Choice D applies the rule: <strong>A period separates two independent clauses.</strong> By placing a period after “STS-53,” D properly ends the first sentence and begins a second sentence: “Lasting seven days and seven hours, the mission ended...” (participial phrase introducing the main clause).<br/><br/>Options A, B, and C violate this rule by attempting to keep both independent clauses in a single sentence, connected only by commas.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

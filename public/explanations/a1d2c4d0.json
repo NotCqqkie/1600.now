@@ -1,15 +1,1 @@
-{
-  "questionId": "a1d2c4d0",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the counterargument",
-      "content": "The passage states a concern: pteropods are vulnerable to acidification. But it then presents findings that provide protection: the periostracum prevents dissolution, and pteropods can rebuild damage. This protective evidence is presented as surprising\u2014unexpected in relation to the initial concern."
-    },
-    {
-      "title": "Link the evidence to the purpose",
-      "content": "Choice D correctly identifies the arc: the findings suggest the concern \u201cmay be unwarranted\u201d because the protective mechanisms discovered indicate pteropods aren't as vulnerable as claimed. The other three either invent content absent from the passage or misrepresent the study's focus. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a1d2c4d0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the counterargument", "content": "The passage states a concern: pteropods are vulnerable to acidification. But it then presents findings that provide protection: the periostracum prevents dissolution, and pteropods can rebuild damage. This protective evidence is presented as surprising—unexpected in relation to the initial concern."}, {"title": "Link the evidence to the purpose", "content": "Choice D correctly identifies the arc: the findings suggest the concern “may be unwarranted” because the protective mechanisms discovered indicate pteropods aren't as vulnerable as claimed.<br/><br/>The other three either invent content absent from the passage or misrepresent the study's focus.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

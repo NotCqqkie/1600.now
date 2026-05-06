@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the counter-intuitive effect",
-      "content": "The phrase \u201ccounter-intuitive effect\u201d is the key signal. Rising prices normally reduce demand, but the passage describes the opposite \u2014 the price surge paradoxically increased demand among new buyers who expected further appreciation. The blank needs a word meaning to cause or generate."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Engendering means to bring about or cause, which precisely captures how the price increase generated the unexpected demand surge. The others either don't convey causation (appraising evaluates value, monetizing converts to profit) or create nonsensical phrases (exploiting). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the counter-intuitive effect", "content": "The phrase “counter-intuitive effect” is the key signal. Rising prices normally reduce demand, but the passage describes the opposite — the price surge paradoxically increased demand among new buyers who expected further appreciation. The blank needs a word meaning to cause or generate."}, {"title": "Match the meaning to the choices", "content": "Engendering means to bring about or cause, which precisely captures how the price increase generated the unexpected demand surge.<br/><br/>The others either don't convey causation (appraising evaluates value, monetizing converts to profit) or create nonsensical phrases (exploiting).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

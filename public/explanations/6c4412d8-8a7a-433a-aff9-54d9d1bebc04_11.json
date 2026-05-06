@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the hypothesis requires",
-      "content": "Schober's hypothesis claims watercourts were designed to foster conch. To weaken this claim, we need evidence that the watercourts cannot actually create the conditions conch need to thrive."
-    },
-    {
-      "title": "Find the finding that contradicts the design's capability",
-      "content": "Choice C shows that watercourt dimensions are suitable for fish but <strong>not</strong> for the shallow seagrass environments snails require. This directly proves the watercourts' physical design cannot support snail growth, contradicting the hypothesis. A, B, and D either suggest snails did succeed in watercourts, address initial resource abundance, or show conch as a minority of remains\u2014none establish that the design itself is unsuitable. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the hypothesis requires", "content": "Schober's hypothesis claims watercourts were designed to foster conch. To weaken this claim, we need evidence that the watercourts cannot actually create the conditions conch need to thrive."}, {"title": "Find the finding that contradicts the design's capability", "content": "Choice C shows that watercourt dimensions are suitable for fish but <strong>not</strong> for the shallow seagrass environments snails require.<br/><br/>This directly proves the watercourts' physical design cannot support snail growth, contradicting the hypothesis.<br/><br/>A, B, and D either suggest snails did succeed in watercourts, address initial resource abundance, or show conch as a minority of remains—none establish that the design itself is unsuitable.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

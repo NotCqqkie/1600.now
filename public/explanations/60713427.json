@@ -1,15 +1,1 @@
-{
-  "questionId": "60713427",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parenthetical interruption",
-      "content": "The phrase \u201camong their many roles\u201d is followed by a comma before \u201cprovide\u201d\u2014this signals that the phrase is parenthetical, offering extra information within the sentence structure."
-    },
-    {
-      "title": "Match paired punctuation for the parenthetical phrase",
-      "content": "The rule is that parenthetical phrases require punctuation both before and after. The closing comma is already present after \u201croles,\u201d so an opening comma after \u201cthat\u201d completes the pairing. The semicolon, colon, and em-dash don't create this required pairing for a parenthetical insertion. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "60713427", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the parenthetical interruption", "content": "The phrase “among their many roles” is followed by a comma before “provide”—this signals that the phrase is parenthetical, offering extra information within the sentence structure."}, {"title": "Match paired punctuation for the parenthetical phrase", "content": "The rule is that parenthetical phrases require punctuation both before and after.<br/><br/>The closing comma is already present after “roles,” so an opening comma after “that” completes the pairing.<br/><br/>The semicolon, colon, and em-dash don't create this required pairing for a parenthetical insertion.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

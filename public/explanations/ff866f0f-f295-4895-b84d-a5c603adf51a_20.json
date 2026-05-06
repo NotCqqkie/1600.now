@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures at the boundary",
-      "content": "Left side: independent clause with a relative clause needing an object (\u201cwho served in\u201d needs completion). Right side: noun phrase with no verb."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "A colon introduces a list, elaboration, or clarification that follows a complete statement. It signals that the names of the two Americans follow as specific examples. A period would create a sentence fragment; a semicolon requires an independent clause on the second side, which this noun phrase is not; and no punctuation creates an awkward construction. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structures at the boundary", "content": "Left side: independent clause with a relative clause needing an object (“who served in” needs completion). Right side: noun phrase with no verb."}, {"title": "Apply the colon rule", "content": "A colon introduces a list, elaboration, or clarification that follows a complete statement.<br/><br/>It signals that the names of the two Americans follow as specific examples.<br/><br/>A period would create a sentence fragment; a semicolon requires an independent clause on the second side, which this noun phrase is not; and no punctuation creates an awkward construction.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

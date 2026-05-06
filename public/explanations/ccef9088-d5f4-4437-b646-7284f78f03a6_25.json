@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signal for contrasting the orbits",
-      "content": "The student's goal is to contrast the two moons' orbits\u2014to highlight their differences. The notes contain a decisive fact: Callisto completes an orbit in 16.69 Earth days, while Adrastea completes one in just 0.30 Earth days. This massive difference in orbital period is the key to contrasting the two."
-    },
-    {
-      "title": "Match the contrast to the correct choice",
-      "content": "Choice A directly uses the orbital period difference from the notes\u201416.69 days for Callisto versus 0.30 days for Adrastea\u2014to show that Adrastea orbits many times faster, which effectively contrasts the two moons' orbits. The other choices either describe similarities in how both moons orbit (B and C) or make claims about orbit shapes unsupported by the notes (D).<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signal for contrasting the orbits", "content": "The student's goal is to contrast the two moons' orbits—to highlight their differences.<br/><br/>The notes contain a decisive fact: Callisto completes an orbit in 16.69 Earth days, while Adrastea completes one in just 0.30 Earth days.<br/><br/>This massive difference in orbital period is the key to contrasting the two."}, {"title": "Match the contrast to the correct choice", "content": "Choice A directly uses the orbital period difference from the notes—16.69 days for Callisto versus 0.30 days for Adrastea—to show that Adrastea orbits many times faster, which effectively contrasts the two moons' orbits.<br/><br/>The other choices either describe similarities in how both moons orbit (B and C) or make claims about orbit shapes unsupported by the notes (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

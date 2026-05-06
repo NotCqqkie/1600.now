@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the conclusion to support",
-      "content": "Alegado and colleagues concluded that neither C. crescentus nor S. ruber played a significant role in the development of multicellular organisms."
-    },
-    {
-      "title": "Determine what evidence rules out both bacteria",
-      "content": "For both bacteria to be ruled out, S. rosetta must show no colony-forming response to either one. The research treats colony formation as evidence of involvement in multicellular evolution, so no response rules out involvement. Choice C shows exactly this: no colonies formed in response to either bacterium. Choices A, B, and D each show at least one response, contradicting the \u201cneither\u201d conclusion.<br><br>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the conclusion to support", "content": "Alegado and colleagues concluded that neither C. crescentus nor S. ruber played a significant role in the development of multicellular organisms."}, {"title": "Determine what evidence rules out both bacteria", "content": "For both bacteria to be ruled out, S. rosetta must show no colony-forming response to either one.<br/><br/>The research treats colony formation as evidence of involvement in multicellular evolution, so no response rules out involvement.<br/><br/>Choice C shows exactly this: no colonies formed in response to either bacterium.<br/><br/>Choices A, B, and D each show at least one response, contradicting the “neither” conclusion.<br><br>That matches choice C — <strong>C</strong> is correct."}]}

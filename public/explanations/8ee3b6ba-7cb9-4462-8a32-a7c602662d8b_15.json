@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the range overlap",
-      "content": "The passage establishes that individual amphibian studies showed differences <strong>well above the average for mammals</strong>, even though mammal studies showed larger average differences overall. This reveals that the ranges of effects overlap."
-    },
-    {
-      "title": "Apply the overlap to the choices",
-      "content": "Since individual amphibian studies exceeded the mammal average, some amphibian studies must have found larger effects than some mammal studies\u2014exactly what choice B concludes. Choices A, C, and D either contradict the stated trend, lack textual support, or reference information not discussed in the passage. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the range overlap", "content": "The passage establishes that individual amphibian studies showed differences <strong>well above the average for mammals</strong>, even though mammal studies showed larger average differences overall. This reveals that the ranges of effects overlap."}, {"title": "Apply the overlap to the choices", "content": "Since individual amphibian studies exceeded the mammal average, some amphibian studies must have found larger effects than some mammal studies—exactly what choice B concludes.<br/><br/>Choices A, C, and D either contradict the stated trend, lack textual support, or reference information not discussed in the passage.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

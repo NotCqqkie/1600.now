@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the noun and its identifying title",
-      "content": "The left side of the blank contains the noun \u201csong\u201d (in \u201cthe hit song\u201d). The right side begins with a title in quotation marks, \u201cLittle Marie,\u201d that directly identifies the song."
-    },
-    {
-      "title": "Apply the punctuation rule for titles",
-      "content": "When a noun is immediately followed by a title, no punctuation separates them. Choice A correctly keeps the noun and its title together without punctuation. The other options incorrectly insert punctuation between a noun and its identifying title. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the noun and its identifying title", "content": "The left side of the blank contains the noun “song” (in “the hit song”). The right side begins with a title in quotation marks, “Little Marie,” that directly identifies the song."}, {"title": "Apply the punctuation rule for titles", "content": "When a noun is immediately followed by a title, no punctuation separates them.<br/><br/>Choice A correctly keeps the noun and its title together without punctuation.<br/><br/>The other options incorrectly insert punctuation between a noun and its identifying title.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

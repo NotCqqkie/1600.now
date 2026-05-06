@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key assumption",
-      "content": "Text 1 asserts as obvious that the UNESCO honor has automatically brought awareness and boosted tourism\u2014no additional effort required."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A argues that cities should still make deliberate efforts to boost tourism, meaning the honor alone is insufficient\u2014directly contradicting Text 1's assumption that the honor automatically generates benefits. The other three choices discuss unrelated topics: who deserved credit for the selection, additional benefits besides tourism, and timeliness of the honor. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key assumption", "content": "Text 1 asserts as obvious that the UNESCO honor has automatically brought awareness and boosted tourism—no additional effort required."}, {"title": "Apply the signal to the choices", "content": "Choice A argues that cities should still make deliberate efforts to boost tourism, meaning the honor alone is insufficient—directly contradicting Text 1's assumption that the honor automatically generates benefits.<br/><br/>The other three choices discuss unrelated topics: who deserved credit for the selection, additional benefits besides tourism, and timeliness of the honor.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

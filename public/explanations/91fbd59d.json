@@ -1,15 +1,1 @@
-{
-  "questionId": "91fbd59d",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures",
-      "content": "The blank separates a dependent clause starting with while from an independent clause beginning with the subject Howe."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "When a dependent clause precedes an independent clause, a comma separates them. Choice B correctly uses a comma with no additional punctuation. Choices A and C add a coordinating conjunction that shouldn't be there, and choice D lacks the required comma. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91fbd59d", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "The blank separates a dependent clause starting with while from an independent clause beginning with the subject Howe."}, {"title": "Apply the punctuation rule", "content": "When a dependent clause precedes an independent clause, a comma separates them.<br/><br/>Choice B correctly uses a comma with no additional punctuation.<br/><br/>Choices A and C add a coordinating conjunction that shouldn't be there, and choice D lacks the required comma.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

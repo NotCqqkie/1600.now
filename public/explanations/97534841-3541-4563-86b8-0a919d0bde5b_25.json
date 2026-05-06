@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_25",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The prompt requires us to \u201cemphasize a difference.\u201d The strongest signal is that we need a sentence making a direct CONTRAST between the two isthmuses, not just defining them or describing one in isolation."
-    },
-    {
-      "title": "Match the signal to the best choice",
-      "content": "Choice B accomplishes this contrast: \u201cThe Isthmus of Panama is located in Central America, while the Isthmus of Ierapetra is located in the Mediterranean Sea.\u201d The word \u201cwhile\u201d directly signals the comparison between the two locations. Choices A, C, and D fail to create a contrast\u2014A describes only one isthmus, C mentions only one location, and D provides only a definition. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The prompt requires us to “emphasize a difference.” The strongest signal is that we need a sentence making a direct CONTRAST between the two isthmuses, not just defining them or describing one in isolation."}, {"title": "Match the signal to the best choice", "content": "Choice B accomplishes this contrast: “The Isthmus of Panama is located in Central America, while the Isthmus of Ierapetra is located in the Mediterranean Sea.” The word “while” directly signals the comparison between the two locations.<br/><br/>Choices A, C, and <ul><li>D fail to create a contrast—A describes only one isthmus</li><li>C mentions only one location</li><li>D provides only a definition</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

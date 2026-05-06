@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core goal",
-      "content": "The question asks for a choice that emphasizes <strong>a similarity</strong> between P waves and S waves. The correct answer must highlight what they share, not differences."
-    },
-    {
-      "title": "Match the shared features",
-      "content": "Choice A directly states two shared characteristics: both P and S waves travel beneath Earth's surface and both cause the ground to move. B contrasts their speeds, C mentions only P waves, and D uses \u201cAlthough\u201d and \u201cvery differently\u201d to emphasize differences. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the core goal", "content": "The question asks for a choice that emphasizes <strong>a similarity</strong> between P waves and S waves. The correct answer must highlight what they share, not differences."}, {"title": "Match the shared features", "content": "Choice A directly states two shared characteristics: both P and S waves travel beneath Earth's surface and both cause the ground to move.<br/><br/><ul><li>B contrasts their speeds</li><li>C mentions only P waves</li><li>D uses “Although” and “very differently” to emphasize differences</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

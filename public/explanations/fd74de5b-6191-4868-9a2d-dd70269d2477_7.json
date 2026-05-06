@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining claim about ohmic heating",
-      "content": "The passage explicitly states that ohmic heating is \u201cgenerally considered to be an improvement over more conventional thermal preservation methods,\u201d then explains the specific advantage: ohmic heating generates heat throughout the food, whereas conventional methods transfer heat only from the surface inward."
-    },
-    {
-      "title": "Match the claim to the choices",
-      "content": "Choice B correctly identifies what the passage does: it introduces ohmic heating as a preservation technology and points to a specific advantage\u2014the way it generates heat throughout the food, unlike conventional methods. The other three misread the text: A invents unmentioned flaws, C frames the content as a research overview, and D claims the passage explains conventional methods' popularity, which it does not. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the defining claim about ohmic heating", "content": "The passage explicitly states that ohmic heating is “generally considered to be an improvement over more conventional thermal preservation methods,” then explains the specific advantage: ohmic heating generates heat throughout the food, whereas conventional methods transfer heat only from the surface inward."}, {"title": "Match the claim to the choices", "content": "Choice B correctly identifies what the passage does: it introduces ohmic heating as a preservation technology and points to a specific advantage—the way it generates heat throughout the food, unlike conventional methods.<br/><br/>The other three misread the text: <ul><li>A invents unmentioned flaws</li><li>C frames the content as a research overview</li><li>D claims the passage explains conventional methods' popularity</li></ul>, which it does not.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

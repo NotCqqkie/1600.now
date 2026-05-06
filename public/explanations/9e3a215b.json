@@ -1,15 +1,1 @@
-{
-  "questionId": "9e3a215b",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between sentences",
-      "content": "The first sentence makes a general claim about what the study investigated\u2014the relationship between nonprofit spending and performance. The second sentence provides the specific details: which metrics were measured (overhead spending and event attendance), how many organizations (22,328), and the methodology. The blank must transition from this general claim to these specific details."
-    },
-    {
-      "title": "Apply the transition signal",
-      "content": "<strong>Specifically</strong> is the transition word that introduces precise details elaborating on a general statement. The other options create wrong relationships: Thus marks a consequence, In addition introduces a separate point, and By comparison sets up a contrast\u2014none of which fit here. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9e3a215b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between sentences", "content": "The first sentence makes a general claim about what the study investigated—the relationship between nonprofit spending and performance.<br/><br/>The second sentence provides the specific details: which metrics were measured (overhead spending and event attendance), how many organizations (22,328), and the methodology.<br/><br/>The blank must transition from this general claim to these specific details."}, {"title": "Apply the transition signal", "content": "<strong>Specifically</strong> is the transition word that introduces precise details elaborating on a general statement.<br/><br/>The other options create wrong relationships: Thus marks a consequence, In addition introduces a separate point, and By comparison sets up a contrast—none of which fit here.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

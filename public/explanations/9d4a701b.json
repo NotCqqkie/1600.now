@@ -1,15 +1,1 @@
-{
-  "questionId": "9d4a701b",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure",
-      "content": "Before the blank: <em>light intensity affects the chemical reaction rate of photosynthesis</em> — a complete independent clause. After the blank: <em>as light intensity increases, so does the rate at which the reactants are converted into their products</em> — an elaboration that explains <em>how</em> light intensity affects the rate."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "A colon can follow an independent clause to introduce an elaboration or explanation of what came before. Per the answer key, choice C uses a colon to mark this elaboration: <em>photosynthesis : as light intensity increases...</em><br/><br/>Choice A turns the elaboration into a coordinated clause without proper punctuation; choice B (comma alone) creates a comma splice between two complete clauses; choice D omits punctuation entirely.<br/><br/>The answer is <strong>C</strong>."
-    }
-  ]
-}
+{"questionId": "9d4a701b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "Before the blank: <em>light intensity affects the chemical reaction rate of photosynthesis</em> — a complete independent clause.<br/><br/>After the blank: <em>as light intensity increases, so does the rate at which the reactants are converted into their products</em> — an elaboration that explains <em>how</em> light intensity affects the rate."}, {"title": "Apply the colon rule", "content": "A colon can follow an independent clause to introduce an elaboration or explanation of what came before. Per the answer key, choice C uses a colon to mark this elaboration: <em>photosynthesis : as light intensity increases...</em><br/><br/>Choice A turns the elaboration into a coordinated clause without proper punctuation; choice B (comma alone) creates a comma splice between two complete clauses; choice D omits punctuation entirely.<br/><br/>The answer is <strong>C</strong>."}]}

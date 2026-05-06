@@ -1,15 +1,1 @@
-{
-  "questionId": "11c68ded",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's central question",
-      "content": "The text explicitly poses: \u201cWhat explains its rise in popularity?\u201d This is the strongest signal of what the passage attempts to answer."
-    },
-    {
-      "title": "Match the question to the choices",
-      "content": "Choice B addresses why the pronoun became more widely used, directly answering the passage's stated question. The other three each describe something not discussed: comparing other plural pronouns, historical timing, and geographic distribution. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11c68ded", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's central question", "content": "The text explicitly poses: “What explains its rise in popularity?” This is the strongest signal of what the passage attempts to answer."}, {"title": "Match the question to the choices", "content": "Choice B addresses why the pronoun became more widely used, directly answering the passage's stated question.<br/><br/>The other three each describe something not discussed: comparing other plural pronouns, historical timing, and geographic distribution.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

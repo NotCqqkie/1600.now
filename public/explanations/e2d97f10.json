@@ -1,15 +1,1 @@
-{
-  "questionId": "e2d97f10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what 'findings' requires",
-      "content": "The prompt asks to \u201cpresent the study and its findings.\u201d Findings are conclusions and results \u2014 what the researcher discovered. The choice must state what Chinsamy-Turan concluded about the jawbones."
-    },
-    {
-      "title": "Find the choice that states the conclusion",
-      "content": "Choice D directly states the conclusion: the jawbones belonged to juveniles, supported by the specific evidence (few growth lines relative to fully grown pterosaurs). Choices A, B, and C either focus on initial uncertainty (A), provide insufficient detail (B), or describe the methodology without revealing the conclusion (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e2d97f10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what 'findings' requires", "content": "The prompt asks to “present the study and its findings.” Findings are conclusions and results — what the researcher discovered. The choice must state what Chinsamy-Turan concluded about the jawbones."}, {"title": "Find the choice that states the conclusion", "content": "Choice D directly states the conclusion: the jawbones belonged to juveniles, supported by the specific evidence (few growth lines relative to fully grown pterosaurs).<br/><br/>Choices A, B, and C either focus on initial uncertainty (A), provide insufficient detail (B), or describe the methodology without revealing the conclusion (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

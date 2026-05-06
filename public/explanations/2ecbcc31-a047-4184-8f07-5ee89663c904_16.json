@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_16",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the object of the preposition",
-      "content": "The blank must be the object of the preposition \u201cby\u201d in \u201cused by ______.\u201d The rest of the sentence continues with an appositive phrase and the main clause."
-    },
-    {
-      "title": "Apply the possessive rule",
-      "content": "Possessive forms express ownership or close association. This sentence identifies chemists as agents using the emulsifiers, not as possessors, so use the simple plural \u201ccosmetic chemists\u201d without possessive marking. Choices A, B, and D all violate this rule by adding unnecessary possessive forms. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the object of the preposition", "content": "The blank must be the object of the preposition “by” in “used by ______.” The rest of the sentence continues with an appositive phrase and the main clause."}, {"title": "Apply the possessive rule", "content": "Possessive forms express ownership or close association. This sentence identifies chemists as agents using the emulsifiers, not as possessors, so use the simple plural “cosmetic chemists” without possessive marking.<br/><br/>Choices A, B, and D all violate this rule by adding unnecessary possessive forms.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

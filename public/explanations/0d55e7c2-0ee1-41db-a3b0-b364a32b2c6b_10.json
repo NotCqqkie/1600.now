@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_10",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement from the passage",
-      "content": "The passage claims discoveries \u201chave persisted into the 2000s\u201d\u2014the example must show a hoard discovered in the 2000s."
-    },
-    {
-      "title": "Find the 2000s entry and match it to the choices",
-      "content": "The table lists only one hoard discovered in the 2000s: Carrick-on-Suir (2013). Choice B states this directly, providing the specific evidence needed to support the passage's claim. The other choices either mix this with pre-2000 discoveries, don't highlight the 2000s timeframe, or contain factual errors. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key requirement from the passage", "content": "The passage claims discoveries “have persisted into the 2000s”—the example must show a hoard discovered in the 2000s."}, {"title": "Find the 2000s entry and match it to the choices", "content": "The table lists only one hoard discovered in the 2000s: Carrick-on-Suir (2013).<br/><br/>Choice B states this directly, providing the specific evidence needed to support the passage's claim.<br/><br/>The other choices either mix this with pre-2000 discoveries, don't highlight the 2000s timeframe, or contain factual errors.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

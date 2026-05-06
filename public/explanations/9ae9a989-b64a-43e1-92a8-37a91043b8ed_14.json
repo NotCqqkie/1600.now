@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage establishes that resistance develops when repellents activate <strong>multiple</strong> receptors, but Ke Dong's breakthrough is that EBF repels mosquitoes by activating <strong>just one receptor\u2014Or31\u2014which is present in all disease-carrying species</strong>. The \u201cTherefore\u201d signals that the next step should extend this single-receptor strategy."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "The most useful approach for developing new repellents is to identify other molecular components that also target Or31, giving researchers multiple options based on this successful single-receptor pattern. The other three choices pursue extraction methods, receptor location mapping, or activating multiple receptors\u2014none of which follow from discovering that single-receptor activation solves the resistance problem. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage establishes that resistance develops when repellents activate <strong>multiple</strong> receptors, but Ke Dong's breakthrough is that EBF repels mosquitoes by activating <strong>just one receptor—Or31—which is present in all disease-carrying species</strong>.<br/><br/>The “Therefore” signals that the next step should extend this single-receptor strategy."}, {"title": "Match the signal to the choices", "content": "The most useful approach for developing new repellents is to identify other molecular components that also target Or31, giving researchers multiple options based on this successful single-receptor pattern.<br/><br/>The other three choices pursue extraction methods, receptor location mapping, or activating multiple receptors—none of which follow from discovering that single-receptor activation solves the resistance problem.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

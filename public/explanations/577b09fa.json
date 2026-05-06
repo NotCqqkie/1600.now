@@ -1,15 +1,1 @@
-{
-  "questionId": "577b09fa",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parallel structure",
-      "content": "Three verb phrases follow <strong>can</strong>: <strong>clone themselves</strong>, <strong>enter a dormant state in times of drought</strong>, and <strong>grow in areas that don't have soil</strong>. All three are parallel items within a single independent clause."
-    },
-    {
-      "title": "Apply the comma rule for series",
-      "content": "Commas separate parallel items in a series: <strong>can A, B, and C</strong>. A comma after <strong>clone themselves</strong> follows this rule. Choices A and C incorrectly use punctuation (semicolon, period) that separates independent clauses, and choice D omits the required comma. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "577b09fa", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel structure", "content": "Three verb phrases follow <strong>can</strong>: <strong>clone themselves</strong>, <strong>enter a dormant state in times of drought</strong>, and <strong>grow in areas that don't have soil</strong>. All three are parallel items within a single independent clause."}, {"title": "Apply the comma rule for series", "content": "Commas separate parallel items in a series: <strong>can A, B, and C</strong>.<br/><br/>A comma after <strong>clone themselves</strong> follows this rule.<br/><br/>Choices A and C incorrectly use punctuation (semicolon, period) that separates independent clauses, and choice D omits the required comma.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

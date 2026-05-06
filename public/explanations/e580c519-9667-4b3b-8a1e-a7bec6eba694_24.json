@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement in the goal",
-      "content": "The goal asks to \u201cprovide an example of a country that uses the word 'dollar' in the name of its currency.\u201d The decisive signal is \u201cexample of a country\u201d \u2014 the answer must name a specific country and show it uses \u201cdollar\u201d in its currency name."
-    },
-    {
-      "title": "Match the requirement to the choices",
-      "content": "A provides the specific example requested: it names Kiribati and its \u201cKiribati dollar.\u201d B, C, and D either make negative claims about Kiribati, explain etymological background, or generalize about multiple countries instead of naming a single example. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key requirement in the goal", "content": "The goal asks to “provide an example of a country that uses the word 'dollar' in the name of its currency.” The decisive signal is “example of a country” — the answer must name a specific country and show it uses “dollar” in its currency name."}, {"title": "Match the requirement to the choices", "content": "A provides the specific example requested: it names Kiribati and its “Kiribati dollar.” B, C, and D either make negative claims about Kiribati, explain etymological background, or generalize about multiple countries instead of naming a single example.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

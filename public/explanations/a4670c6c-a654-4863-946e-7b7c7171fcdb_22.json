@@ -1,15 +1,1 @@
-{
-  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical position",
-      "content": "The subject <em>a team of researchers</em> (singular) is followed by a blank, then the infinitive phrase <em>to find connections</em>. The sentence later contains <em>analyzed</em> as the main verb. This structure calls for a modifier of the subject, not an independent verb clause that would compete with <em>analyzed</em> for main-verb status."
-    },
-    {
-      "title": "Match the participle form",
-      "content": "The participle <em>hoping</em> creates a modifying phrase that describes the researchers' purpose while leaving <em>analyzed</em> as the clear main action. Finite verb forms like <em>was hoping</em> or <em>hoped</em> would create an awkward independent clause structure. Only the non-finite participle properly functions as a modifier describing the subject. This matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical position", "content": "The subject <em>a team of researchers</em> (singular) is followed by a blank, then the infinitive phrase <em>to find connections</em>.<br/><br/>The sentence later contains <em>analyzed</em> as the main verb.<br/><br/>This structure calls for a modifier of the subject, not an independent verb clause that would compete with <em>analyzed</em> for main-verb status."}, {"title": "Match the participle form", "content": "The participle <em>hoping</em> creates a modifying phrase that describes the researchers' purpose while leaving <em>analyzed</em> as the clear main action.<br/><br/>Finite verb forms like <em>was hoping</em> or <em>hoped</em> would create an awkward independent clause structure.<br/><br/>Only the non-finite participle properly functions as a modifier describing the subject.<br/><br/>This matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1853bb35",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify exponential decay form",
-      "content": "When a quantity decreases by a fixed percentage for each unit increase in $x$, the function has the form $q(x) = a \\cdot b^x$. <br/> A 45% decrease means the value retains 55% of its previous amount each time, so the base is $b = 0.55$. The initial condition $q(0) = 14$ tells us that $a = 14$ (since $b^0 = 1$)."
-    },
-    {
-      "title": "Write the equation",
-      "content": "Substituting $a = 14$ and $b = 0.55$: $$q(x) = 14(0.55)^x$$ That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1853bb35", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify exponential decay form", "content": "When a quantity decreases by a fixed percentage for each unit increase in $x$, the function has the form $q(x) = a \\cdot b^x$. <br/> A 45% decrease means the value retains 55% of its previous amount each time, so the base is $b = 0.55$.<br/><br/>The initial condition $q(0) = 14$ tells us that $a = 14$ (since $b^0 = 1$)."}, {"title": "Write the equation", "content": "Substituting $a = 14$ and $b = 0.55$: $$q(x) = 14(0.55)^x$$ That matches choice C — <strong>C</strong> is correct."}]}

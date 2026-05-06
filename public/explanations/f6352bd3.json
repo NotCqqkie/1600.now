@@ -1,15 +1,1 @@
-{
-  "questionId": "f6352bd3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the directional shift",
-      "content": "The word \u201cHowever\u201d marks where the passage changes direction\u2014from stating what archaeologists assume to introducing a recent discovery that contradicts it."
-    },
-    {
-      "title": "Match the structure",
-      "content": "The passage presents a common view, then pivots to evidence that challenges it. Choice A names this structure directly: common view, then recent finding that challenges it. The other choices describe different structures\u2014B compares methods, C resolves contradictions that were never raised, and D addresses research gaps the passage doesn't identify. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6352bd3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the directional shift", "content": "The word “However” marks where the passage changes direction—from stating what archaeologists assume to introducing a recent discovery that contradicts it."}, {"title": "Match the structure", "content": "The passage presents a common view, then pivots to evidence that challenges it.<br/><br/>Choice A names this structure directly: common view, then recent finding that challenges it.<br/><br/>The other choices describe different structures—<ul><li>B compares methods</li><li>C resolves contradictions that were never raised</li><li>D addresses research gaps the passage doesn't identify</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

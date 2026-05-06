@@ -1,15 +1,1 @@
-{
-  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the main verb that governs the structure",
-      "content": "The sentence contains \u201cadapted the test,\u201d a clear past tense finite verb expressing the primary action. Its position signals that the blank cannot contain another finite verb."
-    },
-    {
-      "title": "Match the verb form to the sentence structure",
-      "content": "The participle \u201csearching\u201d creates a modifying phrase for \u201cscientists\u201d and establishes \u201cadapted the test\u201d as the sentence's sole main verb. Using any finite verb (searched, were searching, have searched) would place two main verbs in a sequence that requires a conjunction like \u201cand\u201d or a semicolon to be properly joined\u2014neither of which appears here. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the main verb that governs the structure", "content": "The sentence contains “adapted the test,” a clear past tense finite verb expressing the primary action. Its position signals that the blank cannot contain another finite verb."}, {"title": "Match the verb form to the sentence structure", "content": "The participle “searching” creates a modifying phrase for “scientists” and establishes “adapted the test” as the sentence's sole main verb.<br/><br/>Using any finite verb (searched, were searching, have searched) would place two main verbs in a sequence that requires a conjunction like “and” or a semicolon to be properly joined—neither of which appears here.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

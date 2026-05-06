@@ -1,15 +1,1 @@
-{
-  "questionId": "2df730d0",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what evidence would support the claim",
-      "content": "The passage establishes that larger rotor diameter produces more energy. The student claims energy per newly installed turbine <em>increased</em> between 2011 and 2021. To support this, we need evidence showing turbines became substantially <strong>larger on average</strong> over the decade\u2014a shift from smaller to larger sizes in the distribution."
-    },
-    {
-      "title": "Match the distribution shift to the choices",
-      "content": "Choice D shows exactly this pattern: in 2011, most turbines were less than 100 meters, but by 2021, most turbines had rotor diameters of at least 115 meters. This shift toward larger turbines directly supports the claim that energy per turbine increased, since bigger rotors generate more energy. Choices A, B, and C either describe only one year (B), misread the 2021 data by claiming a majority had diameters greater than 130 meters when only ~20% did (C), or show the > 130 meter category fluctuating rather than consistently growing (A). <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2df730d0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what evidence would support the claim", "content": "The passage establishes that larger rotor diameter produces more energy.<br/><br/>The student claims energy per newly installed turbine <em>increased</em> between 2011 and 2021.<br/><br/>To support this, we need evidence showing turbines became substantially <strong>larger on average</strong> over the decade—a shift from smaller to larger sizes in the distribution."}, {"title": "Match the distribution shift to the choices", "content": "Choice D shows exactly this pattern: in 2011, most turbines were less than 100 meters, but by 2021, most turbines had rotor diameters of at least 115 meters.<br/><br/>This shift toward larger turbines directly supports the claim that energy per turbine increased, since bigger rotors generate more energy.<br/><br/>Choices A, B, and C either describe only one year (B), misread the 2021 data by claiming a majority had diameters greater than 130 meters when only ~20% did (C), or show the > 130 meter category fluctuating rather than consistently growing (A). <br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

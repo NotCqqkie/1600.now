@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what earlier snow must explain",
-      "content": "The researchers concluded that net CO\u2082 increases when snow arrives earlier relative to the onset of soil surface freezing. For a finding to support this, it must explain the mechanism underlying this conclusion\u2014why would earlier snow lead to increased net CO\u2082?"
-    },
-    {
-      "title": "Apply the mechanism to the choices",
-      "content": "If snow arrives before soil surface freezing, it insulates the soil and maintains conditions warm enough for heterotrophic respiration (CO\u2082 released by soil microorganisms) to continue. But <em>O. secunda</em> and other plants remain dormant during subfreezing periods and cannot grow to absorb CO\u2082. Choice B directly identifies this dynamic: snow insulation enables respiration to continue when plants are typically not growing. <br/>Choice A contradicts the mechanism by lowering respiration, C addresses the relative strength of effects rather than the arrival-timing mechanism, and D focuses on where snow persists rather than when it arrives. <br/>This directly supports the conclusion: early snow's insulation sustains respiration during a period when plants cannot offset it through growth, resulting in a net increase in CO\u2082. <br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what earlier snow must explain", "content": "The researchers concluded that net CO₂ increases when snow arrives earlier relative to the onset of soil surface freezing. For a finding to support this, it must explain the mechanism underlying this conclusion—why would earlier snow lead to increased net CO₂?"}, {"title": "Apply the mechanism to the choices", "content": "If snow arrives before soil surface freezing, it insulates the soil and maintains conditions warm enough for heterotrophic respiration (CO₂ released by soil microorganisms) to continue. But <em>O. secunda</em> and other plants remain dormant during subfreezing periods and cannot grow to absorb CO₂. Choice B directly identifies this dynamic: snow insulation enables respiration to continue when plants are typically not growing. <br/>Choice <ul><li>A contradicts the mechanism by lowering respiration</li><li>C addresses the relative strength of effects rather than the arrival-timing mechanism</li><li>D focuses on where snow persists rather than when it arrives</li></ul>. <br/>This directly supports the conclusion: early snow's insulation sustains respiration during a period when plants cannot offset it through growth, resulting in a net increase in CO₂. <br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

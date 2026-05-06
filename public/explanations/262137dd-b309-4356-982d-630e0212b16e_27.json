@@ -1,15 +1,1 @@
-{
-  "questionId": "262137dd-b309-4356-982d-630e0212b16e_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the requirement and the key difference",
-      "content": "The goal is to emphasize a DIFFERENCE between the two keepers. The notes show they served in different centuries: Barbara from 1832\u20131862 and Flora from 1904\u20131920."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice C directly compares both keepers and highlights their temporal difference (\u201cearlier century than did Flora McNeil\u201d), accomplishing the goal. The other choices either present them as similar (A says \u201cboth played crucial roles\u201d), or mention only one keeper instead of contrasting the two (B and D).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "262137dd-b309-4356-982d-630e0212b16e_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the requirement and the key difference", "content": "The goal is to emphasize a DIFFERENCE between the two keepers. The notes show they served in different centuries: Barbara from 1832–1862 and Flora from 1904–1920."}, {"title": "Match to the choices", "content": "Choice C directly compares both keepers and highlights their temporal difference (“earlier century than did Flora McNeil”), accomplishing the goal.<br/><br/>The other choices either present them as similar (A says “both played crucial roles”), or mention only one keeper instead of contrasting the two (B and D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

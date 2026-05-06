@@ -1,15 +1,1 @@
-{
-  "questionId": "df37c087",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what determines the conclusion",
-      "content": "Meng's conclusion rests on a specific ratio: payload capacity = holding force \u00f7 weight (higher ratio = greater capacity). The passage establishes that Ultra-Fast has 4\u00d7 Yale Model T's holding force (56 newtons vs. roughly 14 newtons). To support the conclusion that Ultra-Fast has higher capacity, the graph must show that this 4\u00d7 holding-force advantage isn't canceled by a proportionally larger weight."
-    },
-    {
-      "title": "Match the graph data to the ratio calculation",
-      "content": "Choice D shows Ultra-Fast weighs only slightly more than Yale (~505 vs. ~490 grams). With 4\u00d7 the holding force but nearly equal weight, Ultra-Fast's holding force-to-weight ratio is far greater, directly supporting the conclusion. Choices A, B, and C either don't compare these two robots' relative capacity or introduce comparisons irrelevant to the Ultra-Fast\u2013Yale holding force ratio. <strong>That matches choice D \u2014 D is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "df37c087", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what determines the conclusion", "content": "Meng's conclusion rests on a specific ratio: payload capacity = holding force ÷ weight (higher ratio = greater capacity).<br/><br/>The passage establishes that Ultra-Fast has 4× Yale Model T's holding force (56 newtons vs. roughly 14 newtons).<br/><br/>To support the conclusion that Ultra-Fast has higher capacity, the graph must show that this 4× holding-force advantage isn't canceled by a proportionally larger weight."}, {"title": "Match the graph data to the ratio calculation", "content": "Choice D shows Ultra-Fast weighs only slightly more than Yale (~505 vs. ~490 grams).<br/><br/>With 4× the holding force but nearly equal weight, Ultra-Fast's holding force-to-weight ratio is far greater, directly supporting the conclusion.<br/><br/>Choices A, B, and C either don't compare these two robots' relative capacity or introduce comparisons irrelevant to the Ultra-Fast–Yale holding force ratio. <strong>That matches choice D — D is correct.</strong>"}]}

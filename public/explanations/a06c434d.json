@@ -1,15 +1,1 @@
-{
-  "questionId": "a06c434d",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The word <strong>tension</strong> is the defining clue \u2014 the passage states that Cannon's work derives its power <strong>from the tension among his _____ influences</strong>. Tension signals conflict or opposition between different forces."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<strong>Disparate</strong> means fundamentally different or conflicting\u2014which explains the tension. The influences listed pull in opposite directions: portraiture emphasizes realistic depth, pop art emphasizes vivid color, and flatstyle rejects depth entirely. Complementary and interchangeable contradict the stated tension, while unknown mischaracterizes clearly named influences. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a06c434d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The word <strong>tension</strong> is the defining clue — the passage states that Cannon's work derives its power <strong>from the tension among his _____ influences</strong>. Tension signals conflict or opposition between different forces."}, {"title": "Apply the signal to the choices", "content": "<strong>Disparate</strong> means fundamentally different or conflicting—which explains the tension.<br/><br/>The influences listed pull in opposite directions: portraiture emphasizes realistic depth, pop art emphasizes vivid color, and flatstyle rejects depth entirely.<br/><br/>Complementary and interchangeable contradict the stated tension, while unknown mischaracterizes clearly named influences.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

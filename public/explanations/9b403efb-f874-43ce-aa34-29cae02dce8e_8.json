@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the evidence to test the view",
-      "content": "The researchers claim organisms on Grande Terre descended from clades that inhabited nearby islands before Grande Terre emerged 37 million years ago. The test is whether each clade's crown age\u2014the age of its most recent common ancestor\u2014is older or younger than 37 million years."
-    },
-    {
-      "title": "Test the view against each clade",
-      "content": "The stick insect crown age of 41.1 million years predates Grande Terre's emergence, supporting the view for that group; the flea beetle crown age of 12.8 million years postdates it, contradicting the view for that group. The other choices misread the evidence\u2014reversing Buckley's findings (B), conflating crown age with emergence date (C), or treating empirical results as inaccurate (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the evidence to test the view", "content": "The researchers claim organisms on Grande Terre descended from clades that inhabited nearby islands before Grande Terre emerged 37 million years ago. The test is whether each clade's crown age—the age of its most recent common ancestor—is older or younger than 37 million years."}, {"title": "Test the view against each clade", "content": "The stick insect crown age of 41.1 million years predates Grande Terre's emergence, supporting the view for that group; the flea beetle crown age of 12.8 million years postdates it, contradicting the view for that group.<br/><br/>The other choices misread the evidence—reversing Buckley's findings (B), conflating crown age with emergence date (C), or treating empirical results as inaccurate (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

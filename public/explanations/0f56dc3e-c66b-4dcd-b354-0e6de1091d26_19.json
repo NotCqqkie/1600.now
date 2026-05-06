@@ -1,15 +1,1 @@
-{
-  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The passage shifts from one idea (particles enter Earth's atmosphere at high speed) to a contrasting one (relatively few of these particles reach Earth's surface). The word \u201chowever\u201d marks this contrast. The dependent clause starting with \u201csince\u201d then explains <em>why</em> few reach the surface\u2014they burn up due to air compression."
-    },
-    {
-      "title": "Apply the punctuation rule for parenthetical transition words",
-      "content": "When a transitional word like \u201chowever\u201d appears within a sentence to show a contrast or qualification, it must be set off by commas on both sides: \u201cIC, however, DC.\u201d This structure allows the contrast to be noted while the dependent clause following \u201csince\u201d explains the reason. <br/><br/>The other three choices violate this rule: a colon doesn't precede a parenthetical word (A), a period creates a sentence boundary that leaves a dependent clause stranded as a fragment (C), and a semicolon and comma together don't correctly enclose a parenthetical word (D).<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The passage shifts from one idea (particles enter Earth's atmosphere at high speed) to a contrasting one (relatively few of these particles reach Earth's surface).<br/><br/>The word “however” marks this contrast. The dependent clause starting with “since” then explains <em>why</em> few reach the surface—they burn up due to air compression."}, {"title": "Apply the punctuation rule for parenthetical transition words", "content": "When a transitional word like “however” appears within a sentence to show a contrast or qualification, it must be set off by commas on both sides: “IC, however, DC.” This structure allows the contrast to be noted while the dependent clause following “since” explains the reason. <br/><br/>The other three choices violate this rule: a colon doesn't precede a parenthetical word (A), a period creates a sentence boundary that leaves a dependent clause stranded as a fragment (C), and a semicolon and comma together don't correctly enclose a parenthetical word (D).<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

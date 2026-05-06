@@ -1,15 +1,1 @@
-{
-  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated requirement",
-      "content": "The student must provide an example of one of Catlett's <em>sculptures</em> \u2014 not just any artwork, but specifically a sculpture."
-    },
-    {
-      "title": "Determine which choice fulfills it",
-      "content": "C specifically names <em>Star Gazer</em> as Catlett's sculpture. A presents a print rather than sculpture, B discusses her general style without naming a specific work, and D provides only biographical information. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the stated requirement", "content": "The student must provide an example of one of Catlett's <em>sculptures</em> — not just any artwork, but specifically a sculpture."}, {"title": "Determine which choice fulfills it", "content": "C specifically names <em>Star Gazer</em> as Catlett's sculpture. <ul><li>A presents a print rather than sculpture</li><li>B discusses her general style without naming a specific work</li><li>D provides only biographical information</li></ul>. That matches choice C — <strong>C</strong> is correct."}]}

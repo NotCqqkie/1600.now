@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_4",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the hypothesis signal",
-      "content": "The passage states the researchers' hypothesis directly: <strong>steel is more suitable than concrete</strong> for the lower floors of a tall building."
-    },
-    {
-      "title": "Match the evidence to the hypothesis",
-      "content": "Choice B shows the concrete\u2011floored building losing several inches of height while the steel\u2011floored one stayed taller, indicating steel better resists compression and settlement \u2014 exactly what more suitable predicts. The other three either show steel deforming more, vibrating longer, or changing size in a way that does not demonstrate superiority. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the hypothesis signal", "content": "The passage states the researchers' hypothesis directly: <strong>steel is more suitable than concrete</strong> for the lower floors of a tall building."}, {"title": "Match the evidence to the hypothesis", "content": "Choice B shows the concrete‑floored building losing several inches of height while the steel‑floored one stayed taller, indicating steel better resists compression and settlement — exactly what more suitable predicts.<br/><br/>The other three either show steel deforming more, vibrating longer, or changing size in a way that does not demonstrate superiority.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

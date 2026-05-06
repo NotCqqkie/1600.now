@@ -1,16 +1,1 @@
-{
-  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_14",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the exponential function form",
-      "content": "The function is $f(t) = 28,000(2)^t$. In the standard exponential form $f(t) = a \\cdot b^t$:<ul><li>The coefficient $a = 28,000$ represents the initial value (the population when $t = 0$)</li><li>The base $b = 2$ is the growth factor (bacteria double every hour)</li></ul>",
-      "formula": "$$f(t) = a \\cdot b^t$$"
-    },
-    {
-      "title": "Evaluate at t = 0 to find the initial value",
-      "content": "Since $t$ represents hours after the initial measurement, the initial measurement corresponds to $t = 0$. Evaluate the function:<br/>$$f(0) = 28,000(2)^0 = 28,000 \\cdot 1 = 28,000$$<br/>This shows that 28,000 is the bacterial population at the initial measurement. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_14", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the exponential function form", "content": "The function is $f(t) = 28,000(2)^t$. In the standard exponential form $f(t) = a \\cdot b^t$:<ul><li>The coefficient $a = 28,000$ represents the initial value (the population when $t = 0$)</li><li>The base $b = 2$ is the growth factor (bacteria double every hour)</li></ul>", "formula": "$$f(t) = a \\cdot b^t$$"}, {"title": "Evaluate at t = 0 to find the initial value", "content": "Since $t$ represents hours after the initial measurement, the initial measurement corresponds to $t = 0$.<br/><br/>Evaluate the function:<br/>$$f(0) = 28,000(2)^0 = 28,000 \\cdot 1 = 28,000$$<br/>This shows that 28,000 is the bacterial population at the initial measurement.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

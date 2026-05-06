@@ -1,15 +1,1 @@
-{
-  "questionId": "e9aee0d8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the elaborating noun phrase",
-      "content": "The passage shows \u201csomething far more extensive\u201d being immediately followed by \u201cnetwork of such committees\u201d\u2014the text explains what the extensive thing is."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "A colon introduces an elaboration that explains what precedes it. Choice A correctly uses this: the colon + \u201ca\u201d clarifies that the \u201csomething far more extensive\u201d is \u201ca network of such committees.\u201d A semicolon requires independent clauses (B doesn't provide them), \u201cit was\u201d is redundant (C), and a period creates a fragment (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e9aee0d8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the elaborating noun phrase", "content": "The passage shows “something far more extensive” being immediately followed by “network of such committees”—the text explains what the extensive thing is."}, {"title": "Apply the colon rule", "content": "A colon introduces an elaboration that explains what precedes it.<br/><br/>Choice A correctly uses this: the colon + “a” clarifies that the “something far more extensive” is “a network of such committees.” A semicolon requires independent clauses (B doesn't provide them), “it was” is redundant (C), and a period creates a fragment (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

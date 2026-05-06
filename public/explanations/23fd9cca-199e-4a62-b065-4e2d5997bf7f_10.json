@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the claim needs",
-      "content": "The student's claim directly compares viewing times: people spend <strong>more time</strong> viewing art in museums than online. To support this comparison, evidence must provide actual time measurements from both locations."
-    },
-    {
-      "title": "Find the choice with viewing-time evidence",
-      "content": "Choice A provides specific viewing times from both settings: three minutes at the museum versus one minute online. This directly measures the comparison the claim asserts. Choices B, C, and D address the work's online availability, visitor origins, and museum collections\u2014none of which measure actual viewing time. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the claim needs", "content": "The student's claim directly compares viewing times: people spend <strong>more time</strong> viewing art in museums than online. To support this comparison, evidence must provide actual time measurements from both locations."}, {"title": "Find the choice with viewing-time evidence", "content": "Choice A provides specific viewing times from both settings: three minutes at the museum versus one minute online.<br/><br/>This directly measures the comparison the claim asserts. Choices B, C, and D address the work's online availability, visitor origins, and museum collections—none of which measure actual viewing time.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

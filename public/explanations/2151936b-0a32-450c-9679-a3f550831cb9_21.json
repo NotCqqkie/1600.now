@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_21",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Left side: \u201cthe units sa and shesep were used to measure area and ___\u201d is an independent clause (subject \u201cunits,\u201d verb \u201cwere used\u201d). Right side: \u201cneither unit is commonly used today\u201d is an independent clause (subject \u201cunit,\u201d verb \u201cis\u201d). The word \u201crespectively\u201d appears in the answer choices as a transition element."
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "Two independent clauses must be joined with a semicolon (not a comma alone), so Choice C correctly uses \u201clength, respectively;\u201d \u2014 a comma to set off the transition word and a semicolon to join the two clauses. Choices A misplaces the semicolon before \u201crespectively,\u201d B omits the necessary punctuation, and D uses only a comma to join the clauses. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Left side: “the units sa and shesep were used to measure area and ___” is an independent clause (subject “units,” verb “were used”).<br/><br/>Right side: “neither unit is commonly used today” is an independent clause (subject “unit,” verb “is”).<br/><br/>The word “respectively” appears in the answer choices as a transition element."}, {"title": "Apply the rule for joining independent clauses", "content": "Two independent clauses must be joined with a semicolon (not a comma alone), so Choice C correctly uses “length, respectively;” — a comma to set off the transition word and a semicolon to join the two clauses.<br/><br/>Choices A misplaces the semicolon before “respectively,” B omits the necessary punctuation, and D uses only a comma to join the clauses.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

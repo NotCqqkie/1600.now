@@ -1,15 +1,1 @@
-{
-  "questionId": "02913383",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject of the relative clause",
-      "content": "The blank appears in a relative clause: <em>\u201ca writing technique that ______ emphasis.\u201d</em> The relative pronoun <strong>that</strong> is the subject and refers to the singular noun <strong>antimetabole</strong>."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires a singular subject to use a singular verb. <strong>Creates</strong> is the only singular form. The other choices violate this rule: <em>create</em> and <em>are creating</em> are plural forms, and <em>have created</em> uses <em>have</em> instead of <em>has.</em> That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "02913383", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject of the relative clause", "content": "The blank appears in a relative clause: <em>“a writing technique that ______ emphasis.”</em> The relative pronoun <strong>that</strong> is the subject and refers to the singular noun <strong>antimetabole</strong>."}, {"title": "Apply subject-verb agreement", "content": "Subject-verb agreement requires a singular subject to use a singular verb. <strong>Creates</strong> is the only singular form.<br/><br/>The other choices violate this rule: <em>create</em> and <em>are creating</em> are plural forms, and <em>have created</em> uses <em>have</em> instead of <em>has.</em> That matches choice D — <strong>D</strong> is correct."}]}

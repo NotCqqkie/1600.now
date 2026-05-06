@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast between compositions",
-      "content": "The sentence describes Esmail's work across two pieces: <em>Jhula-jhule</em> intertwines folk melodies, while TaReKiTa features onomatopoeic notes. These represent different compositional approaches that must be shown in clear relationship to each other. The blank punctuation must signal a 'whereas' or contrasting relationship between them."
-    },
-    {
-      "title": "Match the contrast signal to the choices",
-      "content": "Choice D uses \"while\" (meaning 'whereas') after a comma \u2014 the standard SAT pattern for contrasting two independent clauses. The commas around \"for instance\" properly set off that parenthetical phrase. The other three options fail: A leaves the ideas structurally unclear, B places a period before \"while,\" creating an ungrammatical new sentence, and C uses a semicolon with \"for instance,\" implying the second composition exemplifies the first rather than contrasting with it. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between compositions", "content": "The sentence describes Esmail's work across two pieces: <em>Jhula-jhule</em> intertwines folk melodies, while TaReKiTa features onomatopoeic notes.<br/><br/>These represent different compositional approaches that must be shown in clear relationship to each other.<br/><br/>The blank punctuation must signal a 'whereas' or contrasting relationship between them."}, {"title": "Match the contrast signal to the choices", "content": "Choice D uses \"while\" (meaning 'whereas') after a comma — the standard SAT pattern for contrasting two independent clauses.<br/><br/>The commas around \"for instance\" properly set off that parenthetical phrase.<br/><br/>The other three options fail: A leaves the ideas structurally unclear, B places a period before \"while,\" creating an ungrammatical new sentence, and C uses a semicolon with \"for instance,\" implying the second composition exemplifies the first rather than contrasting with it.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

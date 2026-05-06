@@ -1,15 +1,1 @@
-{
-  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the matching scenario",
-      "content": "The passage documents one flaw: predictions are too high for large mammals in large forests. Since Beaverhead-Deerlodge is a large forest, this error applies."
-    },
-    {
-      "title": "Apply the documented error",
-      "content": "When predictions are too high, the model overestimates actual population sizes. For this large forest, it would overestimate large-mammal populations. Choices A and C either misidentify the affected animals or introduce mechanisms not discussed, while D characterizes the error as reflecting other factors. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the matching scenario", "content": "The passage documents one flaw: predictions are too high for large mammals in large forests. Since Beaverhead-Deerlodge is a large forest, this error applies."}, {"title": "Apply the documented error", "content": "When predictions are too high, the model overestimates actual population sizes.<br/><br/>For this large forest, it would overestimate large-mammal populations.<br/><br/>Choices A and C either misidentify the affected animals or introduce mechanisms not discussed, while D characterizes the error as reflecting other factors.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

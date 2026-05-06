@@ -1,15 +1,1 @@
-{
-  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the flight mechanism shift",
-      "content": "The passage establishes that the K\u00e1rm\u00e1n line marks where aircraft no longer remain aloft using lift, then describes what happens past this altitude\u2014aircraft sustain flight by velocity instead. The key signal is the substitution of one mechanism for another."
-    },
-    {
-      "title": "Match the substitution to the choices",
-      "content": "\u201dInstead\u201d directly signals this substitution\u2014aircraft switch from relying on lift to relying on velocity. The other three don't mark this substitution: they either introduce examples, offer reluctant acknowledgment, or suggest the new information doesn't affect the previous claim. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the flight mechanism shift", "content": "The passage establishes that the Kármán line marks where aircraft no longer remain aloft using lift, then describes what happens past this altitude—aircraft sustain flight by velocity instead. The key signal is the substitution of one mechanism for another."}, {"title": "Match the substitution to the choices", "content": "”Instead” directly signals this substitution—aircraft switch from relying on lift to relying on velocity.<br/><br/>The other three don't mark this substitution: they either introduce examples, offer reluctant acknowledgment, or suggest the new information doesn't affect the previous claim.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

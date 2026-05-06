@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage ties oxygen-18 levels in a nautilid\u2019s shell septum to the depth of water where that segment formed."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "D states that sex has no effect on oxygen-18 uptake or deposition, so any difference in oxygen-18 between the male and female samples must reflect the depth at which each septum formed, directly backing the conclusion that F04 formed higher than M17. The other three either invoke sex-based differences in growth or oxygen-18 (A, B) or discuss depth preferences without linking them to the oxygen-18-depth signal (C), which do not bolster the depth inference. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage ties oxygen-18 levels in a nautilid’s shell septum to the depth of water where that segment formed."}, {"title": "Apply the signal to the choices", "content": "D states that sex has no effect on oxygen-18 uptake or deposition, so any difference in oxygen-18 between the male and female samples must reflect the depth at which each septum formed, directly backing the conclusion that F04 formed higher than M17.<br/><br/>The other three either invoke sex-based differences in growth or oxygen-18 (A, B) or discuss depth preferences without linking them to the oxygen-18-depth signal (C), which do not bolster the depth inference.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

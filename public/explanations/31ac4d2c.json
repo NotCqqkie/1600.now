@@ -1,15 +1,1 @@
-{
-  "questionId": "31ac4d2c",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core demand",
-      "content": "The student wants to specify the fanner basket's name in Choctaw. The notes provide this information: <em>ufko tapushik</em>."
-    },
-    {
-      "title": "Match the goal to the answer",
-      "content": "B accomplishes the goal by stating \u201cis called an <em>ufko tapushik</em> in Choctaw,\u201d which directly provides the fanner basket's Choctaw name. The other choices either omit the Choctaw name entirely (A, C) or shift focus to the archive's name instead (D).<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "31ac4d2c", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core demand", "content": "The student wants to specify the fanner basket's name in Choctaw. The notes provide this information: <em>ufko tapushik</em>."}, {"title": "Match the goal to the answer", "content": "B accomplishes the goal by stating “is called an <em>ufko tapushik</em> in Choctaw,” which directly provides the fanner basket's Choctaw name.<br/><br/>The other choices either omit the Choctaw name entirely (A, C) or shift focus to the archive's name instead (D).<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

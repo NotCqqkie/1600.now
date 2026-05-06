@@ -1,15 +1,1 @@
-{
-  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core disagreement",
-      "content": "Text 1 concludes <em>Ollantay</em> was created in the late 1700s based on its Spanish writing style. Text 2 argues it's an authentic Inca work from the 1500s based on accurate Inca details and dramatic structure. The authors fundamentally disagree on when the play originated and whether it was created by the Inca or much later."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B names exactly this disagreement: whether <em>Ollantay</em> is a 1500s Inca play or a 1700s creation. The other choices either miss the core dispute (A and D focus on inspiration and popularity trends) or misread the texts (C falsely assumes an ancient Inca author aware of Spanish plays).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core disagreement", "content": "Text 1 concludes <em>Ollantay</em> was created in the late 1700s based on its Spanish writing style.<br/><br/>Text 2 argues it's an authentic Inca work from the 1500s based on accurate Inca details and dramatic structure.<br/><br/>The authors fundamentally disagree on when the play originated and whether it was created by the Inca or much later."}, {"title": "Apply the signal to the choices", "content": "Choice B names exactly this disagreement: whether <em>Ollantay</em> is a 1500s Inca play or a 1700s creation.<br/><br/>The other choices either miss the core dispute (A and D focus on inspiration and popularity trends) or misread the texts (C falsely assumes an ancient Inca author aware of Spanish plays).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

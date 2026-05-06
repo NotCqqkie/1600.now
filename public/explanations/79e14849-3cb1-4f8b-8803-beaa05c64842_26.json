@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what \u201chistorical context\u201d requires",
-      "content": "The goal is to place Einstein's argument within its historical context. Historical context here means explaining what he argued and how his view fared compared to the competing interpretation. The notes provide all pieces: Einstein's position (independent reality), Bohr's opposite position, and the historical fact that Bohr's became dominant."
-    },
-    {
-      "title": "Verify A provides complete context",
-      "content": "A establishes when this happened (\u201cdawn of quantum theory\u201d), states what Einstein argued (independent reality), identifies Bohr's opposing view, and shows the historical result: Bohr's interpretation became widely accepted. The others either don't explain Einstein's actual position, focus only on Bohr's view without showing the contrast, or reverse which physicist held which position. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what “historical context” requires", "content": "The goal is to place Einstein's argument within its historical context.<br/><br/>Historical context here means explaining what he argued and how his view fared compared to the competing interpretation.<br/><br/>The notes provide all pieces: Einstein's position (independent reality), Bohr's opposite position, and the historical fact that Bohr's became dominant."}, {"title": "Verify A provides complete context", "content": "A establishes when this happened (“dawn of quantum theory”), states what Einstein argued (independent reality), identifies Bohr's opposing view, and shows the historical result: Bohr's interpretation became widely accepted.<br/><br/>The others either don't explain Einstein's actual position, focus only on Bohr's view without showing the contrast, or reverse which physicist held which position.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

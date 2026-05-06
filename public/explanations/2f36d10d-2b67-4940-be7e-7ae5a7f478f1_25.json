@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal relationship in the notes",
-      "content": "The question asks <em>why</em> Billy Budd, Sailor entered the public domain. The notes establish a causal rule: \u201cWhen a book's copyright expires, the book enters the public domain.\u201d An effective answer must explain this cause-and-effect relationship."
-    },
-    {
-      "title": "Match the causal mechanism to the correct choice",
-      "content": "Choice D directly states that copyright expiration in 2020 caused the novella to enter the public domain, using the exact causal rule from the notes. Choices A, B, and C describe the state before entry, the resulting availability, or the consequences after entry\u2014but none establish the cause-and-effect mechanism that explains why the transition occurred. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the causal relationship in the notes", "content": "The question asks <em>why</em> Billy Budd, Sailor entered the public domain. The notes establish a causal rule: “When a book's copyright expires, the book enters the public domain.” An effective answer must explain this cause-and-effect relationship."}, {"title": "Match the causal mechanism to the correct choice", "content": "Choice D directly states that copyright expiration in 2020 caused the novella to enter the public domain, using the exact causal rule from the notes.<br/><br/>Choices A, B, and C describe the state before entry, the resulting availability, or the consequences after entry—but none establish the cause-and-effect mechanism that explains why the transition occurred.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

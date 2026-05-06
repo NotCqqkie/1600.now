@@ -1,15 +1,1 @@
-{
-  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the exception that needs explaining",
-      "content": "The first sentence establishes a contrast: neon isolated quickly, but \u201cthis wasn't the case with all elements.\u201d The next sentence must elaborate on how that exception actually appears."
-    },
-    {
-      "title": "Choose the transition that explains the exception",
-      "content": "\u201dSometimes the isolation process took years\u201d directly supplies this elaboration: for some instances, the process took years.<br/>The other three either falsely introduce a contrast (However), create a nonexistent consequence relationship (Thus), or add information without explanation (Moreover). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the exception that needs explaining", "content": "The first sentence establishes a contrast: neon isolated quickly, but “this wasn't the case with all elements.” The next sentence must elaborate on how that exception actually appears."}, {"title": "Choose the transition that explains the exception", "content": "”Sometimes the isolation process took years” directly supplies this elaboration: for some instances, the process took years.<br/>The other three either falsely introduce a contrast (However), create a nonexistent consequence relationship (Thus), or add information without explanation (Moreover).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "3c5b19ef",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Eliminate choices with incorrect y-intercepts",
-      "content": "The line crosses the y-axis at approximately $n = 16,000$ when $t = 0$. This is the y-intercept. Choices B and D have y-intercepts of approximately 4,690 and 9,060, which don't match the graph. Only choices A and C have y-intercepts close to 16,090."
-    },
-    {
-      "title": "Use slope to select between A and C",
-      "content": "Choice A has slope 4,680; Choice C has slope 9,060. To determine which is correct, calculate the slope using two clear points on the line. Using $(0, 16,000)$ and $(10, 64,000)$: $$m = \\frac{64,000 - 16,000}{10} = 4,800$$ <br/> Since 4,800 is much closer to 4,680 than to 9,060, the equation with slope 4,680 matches the line shown. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3c5b19ef", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Eliminate choices with incorrect y-intercepts", "content": "The line crosses the y-axis at approximately $n = 16,000$ when $t = 0$. This is the y-intercept. Choices B and D have y-intercepts of approximately 4,690 and 9,060, which don't match the graph. Only choices A and C have y-intercepts close to 16,090."}, {"title": "Use slope to select between A and C", "content": "Choice A has slope 4,680; Choice C has slope 9,060. To determine which is correct, calculate the slope using two clear points on the line.<br/><br/>Using $(0, 16,000)$ and $(10, 64,000)$: $$m = \\frac{64,000 - 16,000}{10} = 4,800$$ <br/> Since 4,800 is much closer to 4,680 than to 9,060, the equation with slope 4,680 matches the line shown.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

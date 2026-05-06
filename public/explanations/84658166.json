@@ -1,15 +1,1 @@
-{
-  "questionId": "84658166",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure and signal",
-      "content": "The sentence expresses two connected ideas: (1) Hopper's career involved more than just solving equations, and (2) as a pioneering programmer, she helped usher in the digital age. These ideas stand in contrast\u2014<em>though</em> her work seemed narrow (equations), it was actually far broader and more transformative. We need punctuation that properly expresses and separates these two parts."
-    },
-    {
-      "title": "Apply the boundary punctuation rule",
-      "content": "A colon after a transition word like <em>though</em> introduces an elaboration or contrasting independent clause. In formal writing, this pattern\u2014<em>independent clause, though: [elaboration]</em>\u2014correctly sets up what follows as an explanation of the contrast. This matches choice A: <strong>equations, though:</strong> introduces the contrasting idea about her role as a pioneering programmer. The other options either mishandle the punctuation (commas around <em>though</em> create awkward parenthetical placement, a period fragments the thought, or no punctuation leaves ambiguous boundaries). <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "84658166", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure and signal", "content": "The sentence expresses two connected ideas: (1) Hopper's career involved more than just solving equations, and (2) as a pioneering programmer, she helped usher in the digital age.<br/><br/>These ideas stand in contrast—<em>though</em> her work seemed narrow (equations), it was actually far broader and more transformative.<br/><br/>We need punctuation that properly expresses and separates these two parts."}, {"title": "Apply the boundary punctuation rule", "content": "A colon after a transition word like <em>though</em> introduces an elaboration or contrasting independent clause.<br/><br/>In formal writing, this pattern—<em>independent clause, though: [elaboration]</em>—correctly sets up what follows as an explanation of the contrast.<br/><br/>This matches choice A: <strong>equations, though:</strong> introduces the contrasting idea about her role as a pioneering programmer.<br/><br/>The other options either mishandle the punctuation (commas around <em>though</em> create awkward parenthetical placement, a period fragments the thought, or no punctuation leaves ambiguous boundaries). <br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

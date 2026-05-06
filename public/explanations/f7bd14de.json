@@ -1,15 +1,1 @@
-{
-  "questionId": "f7bd14de",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the turning point",
-      "content": "The author uses \u201cnot inconceivable\u201d to acknowledge the late-dating theory is plausible, then pivots with \u201cbut\u201d: advocates have not justified why contextual fit should override <em>linguistic evidence</em> pointing to an eighth- or seventh-century composition. The passage is not questioning the historical conditions\u2014it is challenging the prioritization of contextual fit over linguistic evidence."
-    },
-    {
-      "title": "Match the answer",
-      "content": "D directly matches the passage's argument structure. A mischaracterizes the issue as evidence being \u201ccalled into question\u201d; B redirects the problem to \u201ccontroversial interpretation\u201d of conditions; C adds an unsupported symmetric-fit claim. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f7bd14de", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the turning point", "content": "The author uses “not inconceivable” to acknowledge the late-dating theory is plausible, then pivots with “but”: advocates have not justified why contextual fit should override <em>linguistic evidence</em> pointing to an eighth- or seventh-century composition.<br/><br/>The passage is not questioning the historical conditions—it is challenging the prioritization of contextual fit over linguistic evidence."}, {"title": "Match the answer", "content": "D directly matches the passage's argument structure. <ul><li>A mischaracterizes the issue as evidence being “called into question”</li><li>B redirects the problem to “controversial interpretation” of conditions</li><li>C adds an unsupported symmetric-fit claim</li></ul>. That matches choice D — <strong>D</strong> is correct."}]}

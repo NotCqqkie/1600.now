@@ -1,15 +1,1 @@
-{
-  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the constraint",
-      "content": "The key signal is <em>\u201cno access to inorganic soil additives.\u201d</em> Since NPK fertilizer is explicitly described as inorganic, choice A is eliminated immediately. Only choices B, C, and D are viable."
-    },
-    {
-      "title": "Compare the viable options using the data",
-      "content": "The data shows biochar and compost produces 979.3g weight (153.4g increase from the 825.9g control) and 6.76cm length (0.62cm increase), the largest gains among all options. Biochar alone and compost alone produce substantially smaller improvements of 89.8g and 38.9g weight increases respectively. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the constraint", "content": "The key signal is <em>“no access to inorganic soil additives.”</em> Since NPK fertilizer is explicitly described as inorganic, choice A is eliminated immediately. Only choices B, C, and D are viable."}, {"title": "Compare the viable options using the data", "content": "The data shows biochar and compost produces 979.3g weight (153.4g increase from the 825.9g control) and 6.76cm length (0.62cm increase), the largest gains among all options.<br/><br/>Biochar alone and compost alone produce substantially smaller improvements of 89.8g and 38.9g weight increases respectively.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

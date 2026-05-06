@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key timing fact",
-      "content": "Grande Terre emerged 37 million years ago, but Sauquet et al. found the crown age of southern beeches on Grande Terre is 16.4 million years \u2014 so the clade's most recent common ancestor lived after the island emerged."
-    },
-    {
-      "title": "Connect the timeline to the answer",
-      "content": "A clade whose most recent common ancestor lived 16.4 million years ago could not have existed when Grande Terre was emerging 37 million years ago. Choice C expresses this conclusion: the southern beeches are not members of a clade that existed before the island completely emerged. The other choices contradict the timing\u2014A falsely claims origin outside the South Pacific (where crown age is identical), B falsely places the ancestor before the emergence\u2014or lack supporting evidence (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key timing fact", "content": "Grande Terre emerged 37 million years ago, but Sauquet et al. found the crown age of southern beeches on Grande Terre is 16.4 million years — so the clade's most recent common ancestor lived after the island emerged."}, {"title": "Connect the timeline to the answer", "content": "A clade whose most recent common ancestor lived 16.4 million years ago could not have existed when Grande Terre was emerging 37 million years ago.<br/><br/>Choice C expresses this conclusion: the southern beeches are not members of a clade that existed before the island completely emerged.<br/><br/>The other choices contradict the timing—A falsely claims origin outside the South Pacific (where crown age is identical), B falsely places the ancestor before the emergence—or lack supporting evidence (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

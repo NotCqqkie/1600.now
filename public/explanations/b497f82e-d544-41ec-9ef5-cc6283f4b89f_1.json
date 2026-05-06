@@ -1,15 +1,1 @@
-{
-  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage's evidence is <em>the sixth most commonly used password</em>. This statistic ranks actual passwords by popularity, not by complexity or creativity. The entire example centers on frequency of real user choices."
-    },
-    {
-      "title": "Match the signal",
-      "content": "<strong>Popular</strong> directly answers the blank \u2014 the example proves that users gravitate toward the most-used (popular) password options when prioritizing convenience. The other three choices either contradict the point (complex) or don't match the frequency-based evidence (creative, useful).<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage's evidence is <em>the sixth most commonly used password</em>. This statistic ranks actual passwords by popularity, not by complexity or creativity. The entire example centers on frequency of real user choices."}, {"title": "Match the signal", "content": "<strong>Popular</strong> directly answers the blank — the example proves that users gravitate toward the most-used (popular) password options when prioritizing convenience.<br/><br/>The other three choices either contradict the point (complex) or don't match the frequency-based evidence (creative, useful).<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

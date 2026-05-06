@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining feature of synthetic languages",
-      "content": "The notes establish that synthetic languages are defined by case systems where nouns change their form based on grammatical function \u2014 the key feature that distinguishes them from analytic languages, which use word order and auxiliaries instead."
-    },
-    {
-      "title": "Apply the feature to the choices",
-      "content": "C directly explains why Cree is synthetic by identifying its case system and how nouns change forms based on function. The other choices either describe analytic languages (A), set up a vague contrast (B), or mention noun roles without the mechanism (D).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the defining feature of synthetic languages", "content": "The notes establish that synthetic languages are defined by case systems where nouns change their form based on grammatical function — the key feature that distinguishes them from analytic languages, which use word order and auxiliaries instead."}, {"title": "Apply the feature to the choices", "content": "C directly explains why Cree is synthetic by identifying its case system and how nouns change forms based on function.<br/><br/>The other choices either describe analytic languages (A), set up a vague contrast (B), or mention noun roles without the mechanism (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

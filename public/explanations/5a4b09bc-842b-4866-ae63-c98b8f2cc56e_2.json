@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The parenthetical \u201c(discontinued in 2021)\u201d reveals that the required software no longer exists\u2014the reason the artworks are inaccessible."
-    },
-    {
-      "title": "Match the correct word",
-      "content": "\u201dDefunct\u201d directly names software no longer in operation\u2014precisely fitting Flash's discontinued status. The other three either contradict the situation (ubiquitous suggests widespread availability; extraneous suggests unnecessary software when the artworks require it) or miss the actual issue (arcane means obscure, not unavailable). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The parenthetical “(discontinued in 2021)” reveals that the required software no longer exists—the reason the artworks are inaccessible."}, {"title": "Match the correct word", "content": "”Defunct” directly names software no longer in operation—precisely fitting Flash's discontinued status.<br/><br/>The other three either contradict the situation (ubiquitous suggests widespread availability; extraneous suggests unnecessary software when the artworks require it) or miss the actual issue (arcane means obscure, not unavailable).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

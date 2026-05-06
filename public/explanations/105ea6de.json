@@ -1,15 +1,1 @@
-{
-  "questionId": "105ea6de",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key assertion",
-      "content": "Text 1 warns that conjugation can turn harmless nanomaterials into dangerous ones."
-    },
-    {
-      "title": "Apply Text 2's response",
-      "content": "Text 2 explicitly acknowledges the toxicity concern \u201chas drawn deserved attention,\u201d validating Text 1's warning. But the example of silicon dioxide and zinc oxide\u2014which actually reduced DNA damage risk\u2014proves this negative outcome is not inevitable. The other choices either deny the risk exists, overstate the benefits argument, or wrongly claim researchers underestimated complexity. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "105ea6de", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key assertion", "content": "Text 1 warns that conjugation can turn harmless nanomaterials into dangerous ones."}, {"title": "Apply Text 2's response", "content": "Text 2 explicitly acknowledges the toxicity concern “has drawn deserved attention,” validating Text 1's warning.<br/><br/>But the example of silicon dioxide and zinc oxide—which actually reduced DNA damage risk—proves this negative outcome is not inevitable.<br/><br/>The other choices either deny the risk exists, overstate the benefits argument, or wrongly claim researchers underestimated complexity.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

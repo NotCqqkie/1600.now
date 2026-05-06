@@ -1,15 +1,1 @@
-{
-  "questionId": "0d088ae0",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The strongest clue: scientists theorized about phlogiston to explain combustion, and Priestley's naming of oxygen as \u201cdephlogisticated air\u201d reveals he was interpreting the discovery within that same framework."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dFor this reason\u201d establishes the causal relationship: the phlogiston theory explains why Priestley named the newly discovered gas within that framework. The other three don't establish causation\u2014\u201dIn other words\u201d suggests restatement, while \u201cAlternatively\u201d and \u201cNevertheless\u201d signal opposition or contrast rather than consequence. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d088ae0", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The strongest clue: scientists theorized about phlogiston to explain combustion, and Priestley's naming of oxygen as “dephlogisticated air” reveals he was interpreting the discovery within that same framework."}, {"title": "Apply the signal to the choices", "content": "”For this reason” establishes the causal relationship: the phlogiston theory explains why Priestley named the newly discovered gas within that framework.<br/><br/>The other three don't establish causation—”In other words” suggests restatement, while “Alternatively” and “Nevertheless” signal opposition or contrast rather than consequence.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal setup",
-      "content": "The passage establishes that red causes people to associate it with power and respond with caution/hesitation. It then says <strong>\u201cthese findings, if applicable in the context of athletic competitions, could suggest\u201d</strong> an effect on opponents. The blank asks what opponents may have experienced."
-    },
-    {
-      "title": "Apply the inference to the choices",
-      "content": "Opponents may have been influenced by the red uniforms\u2014this completes the logical chain explaining Sheffield United's home success. The other three either deny the effect (C), shift focus to the opponents' own uniforms (B), or introduce self-awareness the passage doesn't support (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the causal setup", "content": "The passage establishes that red causes people to associate it with power and respond with caution/hesitation.<br/><br/>It then says <strong>“these findings, if applicable in the context of athletic competitions, could suggest”</strong> an effect on opponents.<br/><br/>The blank asks what opponents may have experienced."}, {"title": "Apply the inference to the choices", "content": "Opponents may have been influenced by the red uniforms—this completes the logical chain explaining Sheffield United's home success.<br/><br/>The other three either deny the effect (C), shift focus to the opponents' own uniforms (B), or introduce self-awareness the passage doesn't support (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "On both sides of the blank are <strong>independent clauses</strong> \u2014 \u201chow this works\u201d is a noun clause functioning as the direct object of 'reveals,' and \u201cthe hole's small size restricts light...\u201d is a complete clause with its own subject and verb. Neither side is a dependent clause or phrase."
-    },
-    {
-      "title": "Apply the correct punctuation rule",
-      "content": "The correct choice uses a <strong>period followed by a comma after the conjunctive adverb 'Because'</strong> (B). This separates the two independent clauses with a full stop, then properly introduces the dependent clause \u201cBecause the hole's small size\u2026\u201d that explains the reason. All other options either split sentences incorrectly (A,C with comma splice), use a colon inappropriately (D), or violate the SAT's strict preference for avoiding sentence fragments starting with 'Because' (B is the only one conforming to this)."
-    }
-  ]
-}
+{"questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "On both sides of the blank are <strong>independent clauses</strong> — “how this works” is a noun clause functioning as the direct object of 'reveals,' and “the hole's small size restricts light...” is a complete clause with its own subject and verb. Neither side is a dependent clause or phrase."}, {"title": "Apply the correct punctuation rule", "content": "The correct choice uses a <strong>period followed by a comma after the conjunctive adverb 'Because'</strong> (B).<br/><br/>This separates the two independent clauses with a full stop, then properly introduces the dependent clause “Because the hole's small size…” that explains the reason.<br/><br/>All other options either split sentences incorrectly (A,C with comma splice), use a colon inappropriately (D), or violate the SAT's strict preference for avoiding sentence fragments starting with 'Because' (B is the only one conforming to this)."}]}

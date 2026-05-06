@@ -1,15 +1,1 @@
-{
-  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the rule for time expressions",
-      "content": "In Standard English, durations with <em>ago</em> require plural, non-possessive forms. You say \u201c160 years ago,\u201d not \u201c160 year's ago\u201d or \u201c160 years' ago.\u201d"
-    },
-    {
-      "title": "Apply the rule to select the correct forms",
-      "content": "D provides plural, non-possessive forms: <em>artists</em> and <em>over 160 years</em>, which correctly creates \u201cover 160 years ago.\u201d Choices A and B violate the rule by adding possessives to the time unit (<em>year's</em>, <em>years'</em>), while C unnecessarily makes <em>artists</em> possessive. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the rule for time expressions", "content": "In Standard English, durations with <em>ago</em> require plural, non-possessive forms. You say “160 years ago,” not “160 year's ago” or “160 years' ago.”"}, {"title": "Apply the rule to select the correct forms", "content": "D provides plural, non-possessive forms: <em>artists</em> and <em>over 160 years</em>, which correctly creates “over 160 years ago.” Choices A and B violate the rule by adding possessives to the time unit (<em>year's</em>, <em>years'</em>), while C unnecessarily makes <em>artists</em> possessive.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

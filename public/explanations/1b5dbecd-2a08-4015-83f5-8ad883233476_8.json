@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_8",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "Text 2 explains why Hurley's study (no predation relief effect) differs from other studies like Byrom's (predation relief effect) by pointing to one decisive factor: the <strong>type of prey studied</strong>. The author states that studies showing predation relief \u201coften focus on small, rapidly reproducing prey, like birds, squirrels, and rabbits,\u201d while Hurley's study involved \u201clarge, slowly reproducing prey, like mule deer, which could account for the difference between those results.\u201d"
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The author of Text 2 would agree that differences in <strong>prey characteristics</strong> explain why predation relief works in some studies but not others. Since arctic ground squirrels are small and rapidly reproducing (like the birds, squirrels, and rabbits mentioned), while mule deer are large and slowly reproducing, Byrom's findings reflect what happens when those specific prey traits are present. Choices A and B focus on predator traits, which Text 2 never discusses. Choice C claims the response is unique to arctic ground squirrels, but Text 2 explicitly says \u201cmany other\u201d studies on small, rapidly reproducing prey (birds, rabbits) show the same pattern. Choice D directly matches Text 2's explanation: prey characteristics account for the difference in predation relief outcomes.<br><br>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_8", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Text 2 explains why Hurley's study (no predation relief effect) differs from other studies like Byrom's (predation relief effect) by pointing to one decisive factor: the <strong>type of prey studied</strong>.<br/><br/>The author states that studies showing predation relief “often focus on small, rapidly reproducing prey, like birds, squirrels, and rabbits,” while Hurley's study involved “large, slowly reproducing prey, like mule deer, which could account for the difference between those results.”"}, {"title": "Match the meaning", "content": "The author of Text 2 would agree that differences in <strong>prey characteristics</strong> explain why predation relief works in some studies but not others.<br/><br/>Since arctic ground squirrels are small and rapidly reproducing (like the birds, squirrels, and rabbits mentioned), while mule deer are large and slowly reproducing, Byrom's findings reflect what happens when those specific prey traits are present.<br/><br/>Choices A and B focus on predator traits, which Text 2 never discusses.<br/><br/>Choice C claims the response is unique to arctic ground squirrels, but Text 2 explicitly says “many other” studies on small, rapidly reproducing prey (birds, rabbits) show the same pattern.<br/><br/>Choice D directly matches Text 2's explanation: prey characteristics account for the difference in predation relief outcomes.<br><br>That matches choice D — <strong>D</strong> is correct."}]}

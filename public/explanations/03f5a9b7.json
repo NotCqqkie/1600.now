@@ -1,15 +1,1 @@
-{
-  "questionId": "03f5a9b7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining clue",
-      "content": "The oyster larvae that heard healthy reef sounds <strong>were twice as likely as other groups to show signs of making a permanent home.</strong> This behavioral difference reveals what characteristic these larvae possessed."
-    },
-    {
-      "title": "Match the word to their reaction",
-      "content": "<strong>Responsive</strong> directly captures what these oyster larvae demonstrated: a strong reaction to environmental cues. The other choices fail: <em>inactive</em> contradicts their strong reaction, <em>liked</em> doesn't describe environmental stimulus-response, and <em>distressed</em> contradicts the positive outcome. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "03f5a9b7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining clue", "content": "The oyster larvae that heard healthy reef sounds <strong>were twice as likely as other groups to show signs of making a permanent home.</strong> This behavioral difference reveals what characteristic these larvae possessed."}, {"title": "Match the word to their reaction", "content": "<strong>Responsive</strong> directly captures what these oyster larvae demonstrated: a strong reaction to environmental cues.<br/><br/>The other choices fail: <em>inactive</em> contradicts their strong reaction, <em>liked</em> doesn't describe environmental stimulus-response, and <em>distressed</em> contradicts the positive outcome.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

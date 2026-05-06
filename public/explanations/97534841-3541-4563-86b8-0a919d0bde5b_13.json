@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the manganese ranking",
-      "content": "The passage directly states that 200 series has more manganese than the 300 series. Since 300 series is used for aerospace tubing, this establishes that 300 series has less manganese than 200 series."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "The blank asks about aerospace tubing vs. dishwashers. Dishwashers are water-exposed household appliances similar to water tanks (which use 200 series), so dishwashers would also use 200 series. Therefore, aerospace tubing (300 series) has less manganese than dishwashers (200 series), which is exactly what choice D states. The other three choices either address magnetic properties rather than manganese, reverse the nickel relationship, or introduce percentage thresholds unsupported by the passage.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Locate the manganese ranking", "content": "The passage directly states that 200 series has more manganese than the 300 series. Since 300 series is used for aerospace tubing, this establishes that 300 series has less manganese than 200 series."}, {"title": "Apply to the choices", "content": "The blank asks about aerospace tubing vs. dishwashers. Dishwashers are water-exposed household appliances similar to water tanks (which use 200 series), so dishwashers would also use 200 series.<br/><br/>Therefore, aerospace tubing (300 series) has less manganese than dishwashers (200 series), which is exactly what choice D states.<br/><br/>The other three choices either address magnetic properties rather than manganese, reverse the nickel relationship, or introduce percentage thresholds unsupported by the passage.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

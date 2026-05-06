@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal",
-      "content": "The student explicitly wants to emphasize a <strong>similarity</strong> between the two sculptures. The key signal is finding what both sculptures share in common, not their differences."
-    },
-    {
-      "title": "Apply the goal to the choices",
-      "content": "C directly establishes their similarity through the parallel structure <em>\u201cis...as is,\u201d</em> which states that both are LED light sculptures made by Grimanesa Amoros. The other three contradict the goal by describing only one sculpture (A), emphasizing a size difference (B), or explicitly contrasting their materials (D). This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student explicitly wants to emphasize a <strong>similarity</strong> between the two sculptures. The key signal is finding what both sculptures share in common, not their differences."}, {"title": "Apply the goal to the choices", "content": "C directly establishes their similarity through the parallel structure <em>“is...as is,”</em> which states that both are LED light sculptures made by Grimanesa Amoros.<br/><br/>The other three contradict the goal by describing only one sculpture (A), emphasizing a size difference (B), or explicitly contrasting their materials (D).<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

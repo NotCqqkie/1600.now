@@ -1,15 +1,1 @@
-{
-  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the root cause of the myth's persistence",
-      "content": "Text 2 directly states the motivation: <em>\u201cOur belief that the coming of film was transformative is so strong that we invented and keep retelling a founding myth.\u201d</em> The signal is clear \u2014 the story persists not due to factual evidence but because of our perception about film's significance."
-    },
-    {
-      "title": "Match the signal to the correct answer",
-      "content": "C directly articulates this: the description is <em>\u201cmore motivated by a perception of the significance of the invention of film than by facts.\u201d</em> The other three either mischaracterize the myth's structure (A), reverse historians' actual stance (B), or treat the myth as factually grounded rather than invented (D). This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the root cause of the myth's persistence", "content": "Text 2 directly states the motivation: <em>“Our belief that the coming of film was transformative is so strong that we invented and keep retelling a founding myth.”</em> The signal is clear — the story persists not due to factual evidence but because of our perception about film's significance."}, {"title": "Match the signal to the correct answer", "content": "C directly articulates this: the description is <em>“more motivated by a perception of the significance of the invention of film than by facts.”</em> The other three either mischaracterize the myth's structure (A), reverse historians' actual stance (B), or treat the myth as factually grounded rather than invented (D).<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

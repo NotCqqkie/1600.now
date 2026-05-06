@@ -1,15 +1,1 @@
-{
-  "questionId": "c384987b",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key link to non-visual communication",
-      "content": "The researchers\u2019 claim hinges on <strong>giraffes using sounds when visual signaling is impossible</strong>. The passage explicitly connects the humming sounds to situations where visibility is blocked. This makes any finding that <em>directly ties the sounds to conditions preventing visual communication</em> the strongest support."
-    },
-    {
-      "title": "Match the evidence to the claim",
-      "content": "Choice B shows <strong>humming occurs only at night when visibility is low</strong>, directly linking the sound to the absence of visual signals. The other choices either are irrelevant (A), weaken the claim (C), or provide unrelated comparisons (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c384987b", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key link to non-visual communication", "content": "The researchers’ claim hinges on <strong>giraffes using sounds when visual signaling is impossible</strong>.<br/><br/>The passage explicitly connects the humming sounds to situations where visibility is blocked.<br/><br/>This makes any finding that <em>directly ties the sounds to conditions preventing visual communication</em> the strongest support."}, {"title": "Match the evidence to the claim", "content": "Choice B shows <strong>humming occurs only at night when visibility is low</strong>, directly linking the sound to the absence of visual signals.<br/><br/>The other choices either are irrelevant (A), weaken the claim (C), or provide unrelated comparisons (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

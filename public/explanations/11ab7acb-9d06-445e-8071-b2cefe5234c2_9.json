@@ -1,15 +1,1 @@
-{
-  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the criterion for suitability",
-      "content": "The question asks which species is \u201cleast suited\u201d to full migration to the mesophotic zone (30\u2013150 meters). The key signal is that a species currently found only in shallow water has never adapted to the conditions there. Therefore, the species with the shallowest maximum depth\u2014furthest from 30 meters\u2014would be least suited."
-    },
-    {
-      "title": "Apply the criterion to the data",
-      "content": "Acropora anthocercis has a maximum depth of only 10 meters\u2014furthest from the 30-meter threshold\u2014so it's never experienced mesophotic conditions. The others have either greater maximum depths or minimum depths indicating deeper ranges. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the criterion for suitability", "content": "The question asks which species is “least suited” to full migration to the mesophotic zone (30–150 meters).<br/><br/>The key signal is that a species currently found only in shallow water has never adapted to the conditions there.<br/><br/>Therefore, the species with the shallowest maximum depth—furthest from 30 meters—would be least suited."}, {"title": "Apply the criterion to the data", "content": "Acropora anthocercis has a maximum depth of only 10 meters—furthest from the 30-meter threshold—so it's never experienced mesophotic conditions. The others have either greater maximum depths or minimum depths indicating deeper ranges. That matches choice B — <strong>B</strong> is correct."}]}

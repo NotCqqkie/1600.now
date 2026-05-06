@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key logical structure",
-      "content": "The passage presents a seeming contradiction: Panama City residents use parks more (53.5% vs. 35.7%), yet they live closer to parks less often than Fortaleza residents. The final sentence explicitly draws a conclusion from this contradiction: <em>\u201cgreater proximity alone can't explain the difference in park use.\u201d</em> The word \u201calone\u201d is decisive\u2014it tells you that something beyond proximity must account for the difference."
-    },
-    {
-      "title": "Match the conclusion to the choices",
-      "content": "Choice D states exactly this point: the difference <em>\u201cis caused by something other than the parks' proximity to the residents.\u201d</em> The other three introduce ideas nowhere in the text\u2014researcher expectations, survey errors, or outdated sources. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key logical structure", "content": "The passage presents a seeming contradiction: Panama City residents use parks more (53.5% vs. 35.7%), yet they live closer to parks less often than Fortaleza residents.<br/><br/>The final sentence explicitly draws a conclusion from this contradiction: <em>“greater proximity alone can't explain the difference in park use.”</em> The word “alone” is decisive—it tells you that something beyond proximity must account for the difference."}, {"title": "Match the conclusion to the choices", "content": "Choice D states exactly this point: the difference <em>“is caused by something other than the parks' proximity to the residents.”</em> The other three introduce ideas nowhere in the text—researcher expectations, survey errors, or outdated sources.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

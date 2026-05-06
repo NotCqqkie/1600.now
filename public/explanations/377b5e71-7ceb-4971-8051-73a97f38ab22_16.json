@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and the temporal context",
-      "content": "The subject <strong>\u201cthe Wheeling National Heritage Area\u201d</strong> is singular. The phrase <strong>\u201chas long been known\u201d</strong> uses present perfect tense, anchoring the region's defining attributes to the present moment."
-    },
-    {
-      "title": "Apply subject-verb agreement and select the appropriate tense",
-      "content": "The verb must be singular to match the subject. <strong>Is</strong> (present tense) aligns with the present perfect tense of \u201chas long been known,\u201d indicating the region's attributes extend into the present. The plural forms in C and D violate subject-verb agreement, and <strong>was</strong> would incorrectly place these defining attributes in the past. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and the temporal context", "content": "The subject <strong>“the Wheeling National Heritage Area”</strong> is singular. The phrase <strong>“has long been known”</strong> uses present perfect tense, anchoring the region's defining attributes to the present moment."}, {"title": "Apply subject-verb agreement and select the appropriate tense", "content": "The verb must be singular to match the subject. <strong>Is</strong> (present tense) aligns with the present perfect tense of “has long been known,” indicating the region's attributes extend into the present.<br/><br/>The plural forms in C and D violate subject-verb agreement, and <strong>was</strong> would incorrectly place these defining attributes in the past.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the passage fundamentally does",
-      "content": "The passage walks through Raccoon Mountain's operational cycle: water pumped upward during low demand (storing energy), water released downward during peak demand (generating power). This sequential explanation of how the technology operates is the passage's defining feature."
-    },
-    {
-      "title": "Match the operation to the choices",
-      "content": "Choice B states the passage explains how a specific technology works\u2014exactly what it does. Choices A, C, and D either describe elements absent from the text (comparing methods, encouraging construction) or reverse the main-versus-supporting hierarchy (benefits over mechanism). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ea42af8e-0812-4d54-a254-797255665265_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage fundamentally does", "content": "The passage walks through Raccoon Mountain's operational cycle: water pumped upward during low demand (storing energy), water released downward during peak demand (generating power). This sequential explanation of how the technology operates is the passage's defining feature."}, {"title": "Match the operation to the choices", "content": "Choice B states the passage explains how a specific technology works—exactly what it does.<br/><br/>Choices A, C, and D either describe elements absent from the text (comparing methods, encouraging construction) or reverse the main-versus-supporting hierarchy (benefits over mechanism).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the evidence demonstrates",
-      "content": "The passage shows that \u201clife\u201d is the ninth most commonly used noun in a corpus. This evidence would support a hypothesis that \u201clife\u201d is something <strong>very frequent and widespread</strong> in written English."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Ubiquitous</strong> means present everywhere and very commonly found \u2014 exactly what the evidence demonstrates. The other three contradict or miss the point: \u201cauthoritative\u201d relates to credibility rather than frequency, \u201cdiminishing\u201d contradicts the high frequency shown, and \u201cmisused\u201d describes incorrect usage rather than how common a word is. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "75f601af-f444-4475-b27a-742fda616d9b_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the evidence demonstrates", "content": "The passage shows that “life” is the ninth most commonly used noun in a corpus. This evidence would support a hypothesis that “life” is something <strong>very frequent and widespread</strong> in written English."}, {"title": "Match the meaning to the choices", "content": "<strong>Ubiquitous</strong> means present everywhere and very commonly found — exactly what the evidence demonstrates.<br/><br/>The other three contradict or miss the point: “authoritative” relates to credibility rather than frequency, “diminishing” contradicts the high frequency shown, and “misused” describes incorrect usage rather than how common a word is.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

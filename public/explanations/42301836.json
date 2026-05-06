@@ -1,15 +1,1 @@
-{
-  "questionId": "42301836",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The phrase <em>\u201cin honor of its discoverer\u201d</em> reveals the implicit connection: Miyake's discovery leads to the phenomenon being named after her. The naming is presented as an appropriate, natural outcome."
-    },
-    {
-      "title": "Apply the signal to the answer choices",
-      "content": "<strong>Fittingly</strong> captures this as an appropriate, expected outcome. The other choices either suggest a nonexistent parallel (<em>Similarly</em>), a nonexistent contradiction (<em>However</em>), or restatement rather than new information (<em>In other words</em>). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "42301836", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The phrase <em>“in honor of its discoverer”</em> reveals the implicit connection: Miyake's discovery leads to the phenomenon being named after her. The naming is presented as an appropriate, natural outcome."}, {"title": "Apply the signal to the answer choices", "content": "<strong>Fittingly</strong> captures this as an appropriate, expected outcome.<br/><br/>The other choices either suggest a nonexistent parallel (<em>Similarly</em>), a nonexistent contradiction (<em>However</em>), or restatement rather than new information (<em>In other words</em>).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the surprising contrast",
-      "content": "The second sentence begins with <em>Yet</em>, signaling a contrast. It claims that Ross's parents \u201cwould have been correct\u201d if they'd made a prediction about his career. This tells us the first sentence must describe something rare or unexpected."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dAnticipate\u201d means to predict or expect, and the sentence reads: \u201cFew new parents anticipate that their baby will someday become an astronaut.\u201d This is logical\u2014most parents don't expect their child will have this specific ambitious future. The other three either describe different actions or fail to express prediction. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the surprising contrast", "content": "The second sentence begins with <em>Yet</em>, signaling a contrast. It claims that Ross's parents “would have been correct” if they'd made a prediction about his career. This tells us the first sentence must describe something rare or unexpected."}, {"title": "Match the meaning", "content": "”Anticipate” means to predict or expect, and the sentence reads: “Few new parents anticipate that their baby will someday become an astronaut.” This is logical—most parents don't expect their child will have this specific ambitious future.<br/><br/>The other three either describe different actions or fail to express prediction.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

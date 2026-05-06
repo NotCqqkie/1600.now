@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining details",
-      "content": "The question asks which choice <strong>emphasizes when and where</strong> <em>Mariposa Dorada</em> debuted. The notes specify <strong>2019</strong> and <strong>Havana, Cuba</strong> as the key temporal-spatial facts. The correct choice must highlight <em>both</em> the year and location directly, not incidentally."
-    },
-    {
-      "title": "Anchor to precise details",
-      "content": "Choice A <strong>opens with 2019</strong> and <strong>names Havana, Cuba</strong> explicitly, centering the debut\u2019s timing and place. The other choices either omit the location (C), omit the year (D), or focus on unrelated details like materials or scale (B). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the defining details", "content": "The question asks which choice <strong>emphasizes when and where</strong> <em>Mariposa Dorada</em> debuted.<br/><br/>The notes specify <strong>2019</strong> and <strong>Havana, Cuba</strong> as the key temporal-spatial facts.<br/><br/>The correct choice must highlight <em>both</em> the year and location directly, not incidentally."}, {"title": "Anchor to precise details", "content": "Choice A <strong>opens with 2019</strong> and <strong>names Havana, Cuba</strong> explicitly, centering the debut’s timing and place.<br/><br/>The other choices either omit the location (C), omit the year (D), or focus on unrelated details like materials or scale (B).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

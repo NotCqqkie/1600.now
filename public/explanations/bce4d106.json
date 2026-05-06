@@ -1,15 +1,1 @@
-{
-  "questionId": "bce4d106",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the widespread distribution pattern",
-      "content": "The passage describes these beads found across <em>many</em> sites in western North Africa, then explains this pattern using two factors: the evolution of symbolic behavior and the shells' availability. The blank must name what needs explaining."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Ubiquity</strong> means widespread presence \u2014 the geographic distribution of beads across multiple sites. This fits perfectly: symbolic behavior evolution and shell availability together explain why ornamental beads are ubiquitous in the region. Heterogeneity (variety), expediency (practical convenience), and fecundity (fertility) each fail to describe this widespread distribution. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bce4d106", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the widespread distribution pattern", "content": "The passage describes these beads found across <em>many</em> sites in western North Africa, then explains this pattern using two factors: the evolution of symbolic behavior and the shells' availability. The blank must name what needs explaining."}, {"title": "Match the meaning", "content": "<strong>Ubiquity</strong> means widespread presence — the geographic distribution of beads across multiple sites.<br/><br/>This fits perfectly: symbolic behavior evolution and shell availability together explain why ornamental beads are ubiquitous in the region.<br/><br/>Heterogeneity (variety), expediency (practical convenience), and fecundity (fertility) each fail to describe this widespread distribution.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

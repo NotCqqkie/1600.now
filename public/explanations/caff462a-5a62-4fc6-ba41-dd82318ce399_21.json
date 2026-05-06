@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the main verb that follows the blank",
-      "content": "The sentence ends with the independent clause \u201cconsist of one stressed syllable followed by two unstressed syllables.\u201d The blank cannot introduce another main verb, or there will be two independent clauses separated only by a comma."
-    },
-    {
-      "title": "Determine what verb form avoids this error",
-      "content": "A comma splice occurs when two independent clauses are joined only by a comma. Option A uses \u201cclassified,\u201d a non-finite participle modifying the subject without creating a second main verb. Options B, C, and D introduce finite verb forms, creating the error. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the main verb that follows the blank", "content": "The sentence ends with the independent clause “consist of one stressed syllable followed by two unstressed syllables.” The blank cannot introduce another main verb, or there will be two independent clauses separated only by a comma."}, {"title": "Determine what verb form avoids this error", "content": "A comma splice occurs when two independent clauses are joined only by a comma.<br/><br/>Option A uses “classified,” a non-finite participle modifying the subject without creating a second main verb.<br/><br/>Options B, C, and D introduce finite verb forms, creating the error.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

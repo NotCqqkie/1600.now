@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The decisive phrase signals that greater proximity alone can't explain the difference in park use, revealing a contradiction with a simpler explanation: <strong>\u201cgreater proximity alone\u201d</strong>. The passage states that despite closer parks for Bogot\u00e1 residents, their lower park usage rate suggests another factor might be at play."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice C captures this nuance by stating the difference is caused by something other than proximity. <br/>Choices A, B, and D miss or misinterpret this key point, focusing on expectations, sources, or inaccuracies rather than an alternative variable affecting park use.<strong><br/></strong>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The decisive phrase signals that greater proximity alone can't explain the difference in park use, revealing a contradiction with a simpler explanation: <strong>“greater proximity alone”</strong>.<br/><br/>The passage states that despite closer parks for Bogotá residents, their lower park usage rate suggests another factor might be at play."}, {"title": "Match the meaning", "content": "Choice C captures this nuance by stating the difference is caused by something other than proximity. <br/>Choices A, B, and D miss or misinterpret this key point, focusing on expectations, sources, or inaccuracies rather than an alternative variable affecting park use.<strong><br/></strong>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the time signal",
-      "content": "Both Sierra Leone and West Africa experienced urbanization during the same five-year interval (2015\u20132020, referenced as \u201cthat five-year period\u201d). The transition word must express simultaneity."
-    },
-    {
-      "title": "Match the simultaneity",
-      "content": "\u201dConcurrently\u201d means \u201cat the same time,\u201d capturing the parallel timing of the two urbanization trends. \u201cFor example,\u201d \u201cIn other words,\u201d and \u201cEventually\u201d convey different relationships\u2014illustration, restatement, and forward-in-time\u2014that don't fit a simultaneous scenario. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the time signal", "content": "Both Sierra Leone and West Africa experienced urbanization during the same five-year interval (2015–2020, referenced as “that five-year period”). The transition word must express simultaneity."}, {"title": "Match the simultaneity", "content": "”Concurrently” means “at the same time,” capturing the parallel timing of the two urbanization trends. “For example,” “In other words,” and “Eventually” convey different relationships—illustration, restatement, and forward-in-time—that don't fit a simultaneous scenario.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

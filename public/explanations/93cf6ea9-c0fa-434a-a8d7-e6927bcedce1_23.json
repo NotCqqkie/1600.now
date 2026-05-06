@@ -1,15 +1,1 @@
-{
-  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the shift from general to specific",
-      "content": "The first sentence refers to \u201ccertain grains\u201d as the broad cause of transformation. The second sentence is about to specify which grains (maize and wheat) and how they operated. The transition must bridge this movement from the general to the concrete."
-    },
-    {
-      "title": "Choose the transition that introduces specificity",
-      "content": "\u201dIn particular\u201d introduces specific examples within a broader category, capturing the shift from \u201ccertain grains\u201d to \u201cmaize and wheat.\u201d The other choices either suggest comparison, assume a prior first item, or offer an alternative\u2014none capture this narrowing. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the shift from general to specific", "content": "The first sentence refers to “certain grains” as the broad cause of transformation. The second sentence is about to specify which grains (maize and wheat) and how they operated. The transition must bridge this movement from the general to the concrete."}, {"title": "Choose the transition that introduces specificity", "content": "”In particular” introduces specific examples within a broader category, capturing the shift from “certain grains” to “maize and wheat.” The other choices either suggest comparison, assume a prior first item, or offer an alternative—none capture this narrowing.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "3233c162",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Understand the contrast in the researchers' conclusion",
-      "content": "The passage states the researchers concluded oxygenation <strong>may have been important in Alboran but not</strong> in Mauritania. This \u201cbut\u201d creates a key contrast: to justify these opposite conclusions, their evidence must differ between the two locations."
-    },
-    {
-      "title": "Apply the contrast to find the supporting data pattern",
-      "content": "For oxygenation to be important in Alboran but not in Mauritania, the data must show oxygenation changed when <em>L. pertusa</em> declined in Alboran (suggesting a possible cause) but remained stable in Mauritania (suggesting no causation). B matches exactly: substantial decline in oxygenation in Alboran paired with little local change in Mauritania at the times of decline. The other choices fail to show this required contrast in whether oxygenation actually shifted when populations declined. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3233c162", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Understand the contrast in the researchers' conclusion", "content": "The passage states the researchers concluded oxygenation <strong>may have been important in Alboran but not</strong> in Mauritania. This “but” creates a key contrast: to justify these opposite conclusions, their evidence must differ between the two locations."}, {"title": "Apply the contrast to find the supporting data pattern", "content": "For oxygenation to be important in Alboran but not in Mauritania, the data must show oxygenation changed when <em>L. pertusa</em> declined in Alboran (suggesting a possible cause) but remained stable in Mauritania (suggesting no causation).<br/><br/>B matches exactly: substantial decline in oxygenation in Alboran paired with little local change in Mauritania at the times of decline.<br/><br/>The other choices fail to show this required contrast in whether oxygenation actually shifted when populations declined.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

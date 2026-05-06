@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure",
-      "content": "The blank is introduced by a participial phrase followed by a main clause with a subject and predicate."
-    },
-    {
-      "title": "Apply the modifier rule",
-      "content": "An introductory participial phrase must logically modify the sentence subject. Choice D correctly uses <strong>amorphous ice</strong> as the subject, fitting the description in the participle. The other three either mistakenly begin with <strong>ice Ih</strong> (contradicting the description) or use an abstract noun that cannot be modified by molecular structure. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ea42af8e-0812-4d54-a254-797255665265_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The blank is introduced by a participial phrase followed by a main clause with a subject and predicate."}, {"title": "Apply the modifier rule", "content": "An introductory participial phrase must logically modify the sentence subject.<br/><br/>Choice D correctly uses <strong>amorphous ice</strong> as the subject, fitting the description in the participle.<br/><br/>The other three either mistakenly begin with <strong>ice Ih</strong> (contradicting the description) or use an abstract noun that cannot be modified by molecular structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

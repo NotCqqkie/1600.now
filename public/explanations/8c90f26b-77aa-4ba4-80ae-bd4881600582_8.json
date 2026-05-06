@@ -1,15 +1,1 @@
-{
-  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's core instruction",
-      "content": "The passage's central claim is that readers must think of the Aubrey/Maturin series as a single incredibly long work. Everything in the passage\u2014the explanation of the abrupt ending and the comparison to Proust\u2014serves to teach this necessary understanding."
-    },
-    {
-      "title": "Match this understanding to the choices",
-      "content": "Choice B matches the passage: understanding the series' structure is helpful for appreciating it. The other three either claim unsubstantiated critical status, misrepresent structure as a flaw, or overstate the complexity of specific books. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's core instruction", "content": "The passage's central claim is that readers must think of the Aubrey/Maturin series as a single incredibly long work. Everything in the passage—the explanation of the abrupt ending and the comparison to Proust—serves to teach this necessary understanding."}, {"title": "Match this understanding to the choices", "content": "Choice B matches the passage: understanding the series' structure is helpful for appreciating it.<br/><br/>The other three either claim unsubstantiated critical status, misrepresent structure as a flaw, or overstate the complexity of specific books.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

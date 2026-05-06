@@ -1,15 +1,1 @@
-{
-  "questionId": "8fb67890",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the passage announces upfront",
-      "content": "The opening sentence introduces a specific discovery: a runestone found in Norway. This is the passage's primary subject, not the dating method, battles, or any expert's research agenda."
-    },
-    {
-      "title": "Match this announcement to the choices",
-      "content": "Choice B directly states the opening subject: a runestone found in Norway. The other options either address topics the passage doesn't cover (A brings in battles; C focuses on dating methodology) or mistake a supporting detail for the main point (D spotlights an expert mentioned only at the end). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8fb67890", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage announces upfront", "content": "The opening sentence introduces a specific discovery: a runestone found in Norway. This is the passage's primary subject, not the dating method, battles, or any expert's research agenda."}, {"title": "Match this announcement to the choices", "content": "Choice B directly states the opening subject: a runestone found in Norway.<br/><br/>The other options either address topics the passage doesn't cover (A brings in battles; C focuses on dating methodology) or mistake a supporting detail for the main point (D spotlights an expert mentioned only at the end).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

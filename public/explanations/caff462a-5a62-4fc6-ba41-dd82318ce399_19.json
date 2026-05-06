@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure around the blank",
-      "content": "The first side of the blank is the noun phrase <em>US civil rights history</em>, and the second side begins with the participial phrase <em>the former establishing...</em>. Participial phrases modifying a noun typically require a comma to separate them, not a period or semicolon."
-    },
-    {
-      "title": "Apply the punctuation rule for noun + participial phrase",
-      "content": "Choice B adds <strong>\u2018, the\u2019</strong> to create <em>US civil rights history, the former establishing...</em>, which correctly uses a comma to separate the noun from the explanatory participial phrase. Choices A, C, and D use or omit punctuation that disrupts this relationship (A creates a run-on, C adds an unnecessary subordinating conjunction, D splits the sentence incorrectly into two fragments). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure around the blank", "content": "The first side of the blank is the noun phrase <em>US civil rights history</em>, and the second side begins with the participial phrase <em>the former establishing...</em>. Participial phrases modifying a noun typically require a comma to separate them, not a period or semicolon."}, {"title": "Apply the punctuation rule for noun + participial phrase", "content": "Choice B adds <strong>‘, the’</strong> to create <em>US civil rights history, the former establishing...</em>, which correctly uses a comma to separate the noun from the explanatory participial phrase.<br/><br/>Choices A, C, and <ul><li>D use or omit punctuation that disrupts this relationship (A creates a run-on</li><li>C adds an unnecessary subordinating conjunction</li><li>D splits the sentence incorrectly into two fragments)</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

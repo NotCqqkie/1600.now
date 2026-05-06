@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the compound predicate structure",
-      "content": "The sentence contains a compound predicate with two verbs connected by 'and hence': 'he ______ for this groundbreaking research with the Robert A. Welch Award and the Priestley Medal from the American Chemical Society and hence would become known as the father of femtochemistry.' The second verb is 'would become known.'"
-    },
-    {
-      "title": "Apply parallel structure to the compound predicate",
-      "content": "Verbs in a compound predicate must have parallel forms. Since the second verb is 'would become known,' the first verb must match the modal structure: 'would be honored.' This creates the pattern 'would be honored...and would become known.' The other three choices \u2014 <em>is honored</em>, <em>will be honored</em>, and <em>had been honored</em> \u2014 use incompatible verb forms. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the compound predicate structure", "content": "The sentence contains a compound predicate with two verbs connected by 'and hence': 'he ______ for this groundbreaking research with the Robert A.<br/><br/>Welch Award and the Priestley Medal from the American Chemical Society and hence would become known as the father of femtochemistry.' The second verb is 'would become known.'"}, {"title": "Apply parallel structure to the compound predicate", "content": "Verbs in a compound predicate must have parallel forms. Since the second verb is 'would become known,' the first verb must match the modal structure: 'would be honored.' This creates the pattern 'would be honored...and would become known.' The other three choices — <em>is honored</em>, <em>will be honored</em>, and <em>had been honored</em> — use incompatible verb forms.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

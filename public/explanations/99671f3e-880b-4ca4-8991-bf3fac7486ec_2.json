@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "\u201dConversely\u201d marks a direct contrast between \u201chistorically significant\u201d and the blank. We need the opposite of significance."
-    },
-    {
-      "title": "Match the opposite meaning",
-      "content": "\u201dInconsequential\u201d directly opposes \u201chistorically significant\u201d by denoting lack of importance. The other choices either describe unrelated attributes (benevolent = kind, genuine = authentic) or paradoxically reinforce rather than oppose the original (momentous emphasizes importance). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "”Conversely” marks a direct contrast between “historically significant” and the blank. We need the opposite of significance."}, {"title": "Match the opposite meaning", "content": "”Inconsequential” directly opposes “historically significant” by denoting lack of importance.<br/><br/>The other choices either describe unrelated attributes (benevolent = kind, genuine = authentic) or paradoxically reinforce rather than oppose the original (momentous emphasizes importance).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

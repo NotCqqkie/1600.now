@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the list structure",
-      "content": "The sentence lists three deserts. Each desert is named and then immediately followed by a comma and its ranking."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "When list items contain internal commas, separate the items with semicolons. Choice B uses this pattern\u2014semicolons between the deserts, commas within each item's ranking description. The other choices either use commas where semicolons should separate items, omit punctuation, or place semicolons incorrectly. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the list structure", "content": "The sentence lists three deserts. Each desert is named and then immediately followed by a comma and its ranking."}, {"title": "Apply the punctuation rule", "content": "When list items contain internal commas, separate the items with semicolons.<br/><br/>Choice B uses this pattern—semicolons between the deserts, commas within each item's ranking description.<br/><br/>The other choices either use commas where semicolons should separate items, omit punctuation, or place semicolons incorrectly.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

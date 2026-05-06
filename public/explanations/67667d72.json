@@ -1,15 +1,1 @@
-{
-  "questionId": "67667d72",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the clause boundary",
-      "content": "The key signal is that \"humans were likely inhabiting the area\" (after \"In 1420 CE, according to Burger,\") is an independent clause with its own subject and verb, requiring a proper sentence boundary from the main clause about the team's evidence."
-    },
-    {
-      "title": "Apply the sentence separation rule",
-      "content": "A period correctly separates two independent clauses into two sentences. Choice A produces: \"...evidence that it was occupied earlier. In 1420 CE, according to Burger, humans were likely inhabiting the area.\" with proper punctuation at the boundary. The other three options place a comma instead, creating a comma splice that improperly joins two independent clauses. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "67667d72", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the clause boundary", "content": "The key signal is that \"humans were likely inhabiting the area\" (after \"In 1420 CE, according to Burger,\") is an independent clause with its own subject and verb, requiring a proper sentence boundary from the main clause about the team's evidence."}, {"title": "Apply the sentence separation rule", "content": "A period correctly separates two independent clauses into two sentences.<br/><br/>Choice A produces: \"...evidence that it was occupied earlier.<br/><br/>In 1420 CE, according to Burger, humans were likely inhabiting the area.\" with proper punctuation at the boundary.<br/><br/>The other three options place a comma instead, creating a comma splice that improperly joins two independent clauses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

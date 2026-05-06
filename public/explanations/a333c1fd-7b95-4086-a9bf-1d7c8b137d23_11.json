@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_11",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the comparison the journalist needs",
-      "content": "The journalist claims UN estimates likely included people from metropolitan areas beyond city proper. To prove this claim with table data, we'd need evidence showing UN estimates are significantly larger than city proper populations."
-    },
-    {
-      "title": "Identify which data demonstrates this gap",
-      "content": "Choice A provides this exact evidence: the UN estimate for Bogota is 10,574,000, which is significantly larger than the city proper population. This demonstrates that UN's count extended beyond city proper boundaries. Choices B and D address land area rather than the population discrepancy central to the claim, and Choice C merely compares two city proper populations without addressing the UN versus city proper gap. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the comparison the journalist needs", "content": "The journalist claims UN estimates likely included people from metropolitan areas beyond city proper. To prove this claim with table data, we'd need evidence showing UN estimates are significantly larger than city proper populations."}, {"title": "Identify which data demonstrates this gap", "content": "Choice A provides this exact evidence: the UN estimate for Bogota is 10,574,000, which is significantly larger than the city proper population.<br/><br/>This demonstrates that UN's count extended beyond city proper boundaries.<br/><br/>Choices B and D address land area rather than the population discrepancy central to the claim, and Choice C merely compares two city proper populations without addressing the UN versus city proper gap.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

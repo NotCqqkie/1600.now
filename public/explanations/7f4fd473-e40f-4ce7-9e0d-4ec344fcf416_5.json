@@ -1,15 +1,1 @@
-{
-  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage opens by stating pteropods are <em>\u201cthought to be especially vulnerable\u201d</em> to ocean acidification, then immediately shifts to present recent findings about protective mechanisms (the periostracum and shell rebuilding). This contrast between the initial concern and the newly discovered protections is the decisive signal."
-    },
-    {
-      "title": "Match the signal to the answers",
-      "content": "Choice D captures this shift precisely\u2014the findings suggest the original vulnerability concern <em>\u201cmay be unwarranted.\u201d</em> A claims the passage calls for additional research (it doesn't), B mistakes the focus as behavioral change rather than structural protection, and C reverses the protection relationship. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage opens by stating pteropods are <em>“thought to be especially vulnerable”</em> to ocean acidification, then immediately shifts to present recent findings about protective mechanisms (the periostracum and shell rebuilding).<br/><br/>This contrast between the initial concern and the newly discovered protections is the decisive signal."}, {"title": "Match the signal to the answers", "content": "Choice D captures this shift precisely—the findings suggest the original vulnerability concern <em>“may be unwarranted.”</em> <ul><li>A claims the passage calls for additional research (it doesn't)</li><li>B mistakes the focus as behavioral change rather than structural protection</li><li>C reverses the protection relationship</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

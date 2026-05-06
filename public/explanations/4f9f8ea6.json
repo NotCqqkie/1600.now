@@ -1,15 +1,1 @@
-{
-  "questionId": "4f9f8ea6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the breakdown of the honest signal",
-      "content": "The passage establishes that saturated feather colors are \u201chonest signals\u201d because carotenoids both produce the color AND confer health\u2014so color reflects fitness. But tanagers use microstructures to create <strong>appearance of saturation without necessarily eating carotenoids</strong>. This breaks the appearance-fitness link."
-    },
-    {
-      "title": "Connect the separation to the signal type",
-      "content": "A signal is \u201chonest\u201d only if it truthfully indicates fitness. Since tanagers can appear saturated without being healthy/fit, their appearance is deceptive\u2014a <strong>dishonest signal</strong>. The alternatives either call it honest signaling despite the deception (A), compare effectiveness not discussed in the passage (B), or address a different aspect entirely (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4f9f8ea6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the breakdown of the honest signal", "content": "The passage establishes that saturated feather colors are “honest signals” because carotenoids both produce the color AND confer health—so color reflects fitness.<br/><br/>But tanagers use microstructures to create <strong>appearance of saturation without necessarily eating carotenoids</strong>.<br/><br/>This breaks the appearance-fitness link."}, {"title": "Connect the separation to the signal type", "content": "A signal is “honest” only if it truthfully indicates fitness.<br/><br/>Since tanagers can appear saturated without being healthy/fit, their appearance is deceptive—a <strong>dishonest signal</strong>.<br/><br/>The alternatives either call it honest signaling despite the deception (A), compare effectiveness not discussed in the passage (B), or address a different aspect entirely (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

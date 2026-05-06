@@ -1,15 +1,1 @@
-{
-  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_18",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure",
-      "content": "Before the blank: subject noun phrase with appositive (\u201cLouisiana resident Oscar James Dunn\u201d and its description). After the blank: direct object and time expression (\u201chis term as lieutenant governor in 1868\u201d)."
-    },
-    {
-      "title": "Apply the main verb requirement",
-      "content": "A complete main clause requires a finite verb in this position. All of A, B, and C are non-finite forms (infinitive and participles) that cannot serve as a main verb. Began is the simple past tense finite verb that completes the main clause and matches the time reference \u201cin 1868.\u201d That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure", "content": "Before the blank: subject noun phrase with appositive (“Louisiana resident Oscar James Dunn” and its description). After the blank: direct object and time expression (“his term as lieutenant governor in 1868”)."}, {"title": "Apply the main verb requirement", "content": "A complete main clause requires a finite verb in this position.<br/><br/>All of A, B, and C are non-finite forms (infinitive and participles) that cannot serve as a main verb.<br/><br/>Began is the simple past tense finite verb that completes the main clause and matches the time reference “in 1868.” That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

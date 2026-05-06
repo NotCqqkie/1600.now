@@ -1,15 +1,1 @@
-{
-  "questionId": "5e93039f",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the hidden contrast",
-      "content": "The geyser appears \u201cinhospitable to life\u201d in the opening, but Boyd's quote reveals it's \u201calmost like a cradle for biodiversity.\u201d The transition must show this contradiction."
-    },
-    {
-      "title": "Match the contrast to the correct word",
-      "content": "<strong>Still</strong> means \u201cnevertheless\u201d\u2014the word that shows the geyser's inhospitable appearance contradicts the reality of its biodiversity. The other three suggest logical consequence, narrowing, or restatement\u2014none express contradiction. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5e93039f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the hidden contrast", "content": "The geyser appears “inhospitable to life” in the opening, but Boyd's quote reveals it's “almost like a cradle for biodiversity.” The transition must show this contradiction."}, {"title": "Match the contrast to the correct word", "content": "<strong>Still</strong> means “nevertheless”—the word that shows the geyser's inhospitable appearance contradicts the reality of its biodiversity.<br/><br/>The other three suggest logical consequence, narrowing, or restatement—none express contradiction.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

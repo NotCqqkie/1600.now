@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize what 'contrast' requires",
-      "content": "The prompt explicitly asks the student to <strong>contrast</strong> the two samples \u2014 this means highlighting a <strong>difference</strong> between them, not describing what they have in common or explaining a general principle."
-    },
-    {
-      "title": "Find the choice that directly compares",
-      "content": "Choice D directly states the NiTi wire sample was thicker than the spandex sample \u2014 a concrete, measurable difference between the two test subjects. Choices A, B, and C either describe what both samples shared, generalize about torsional heating, or mention both samples without comparison. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Recognize what 'contrast' requires", "content": "The prompt explicitly asks the student to <strong>contrast</strong> the two samples — this means highlighting a <strong>difference</strong> between them, not describing what they have in common or explaining a general principle."}, {"title": "Find the choice that directly compares", "content": "Choice D directly states the NiTi wire sample was thicker than the spandex sample — a concrete, measurable difference between the two test subjects.<br/><br/>Choices A, B, and C either describe what both samples shared, generalize about torsional heating, or mention both samples without comparison.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

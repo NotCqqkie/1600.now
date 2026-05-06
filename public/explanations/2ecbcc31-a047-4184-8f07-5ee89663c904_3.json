@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_3",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The defining contrast in the passage is \u201cDrivers who strongly believe the toll is currently too high <strong>are likely to be</strong> ______ arguments for increasing it.\u201d The key signal is the expectation that these drivers would resist or reject arguments opposing their belief, creating a direct opposite of support for the proposal."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice C directly captures the resistance implied by the belief that the toll is already too high; unsympathetic to means the drivers would actively oppose or dismiss arguments for raising it. The other three either reverse the relationship (e.g., suggesting support) or introduce unrelated reactions (e.g., being placated). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The defining contrast in the passage is “Drivers who strongly believe the toll is currently too high <strong>are likely to be</strong> ______ arguments for increasing it.” The key signal is the expectation that these drivers would resist or reject arguments opposing their belief, creating a direct opposite of support for the proposal."}, {"title": "Match the meaning", "content": "Choice C directly captures the resistance implied by the belief that the toll is already too high; unsympathetic to means the drivers would actively oppose or dismiss arguments for raising it.<br/><br/>The other three either reverse the relationship (e.g., suggesting support) or introduce unrelated reactions (e.g., being placated).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

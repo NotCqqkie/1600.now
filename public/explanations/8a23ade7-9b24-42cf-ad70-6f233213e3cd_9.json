@@ -1,15 +1,1 @@
-{
-  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify which methodology would artificially inflate the difference",
-      "content": "Sweanor (radio-collar tracking, New Mexico): 2.00 cougars per 100 sq km<br/>Choate (helicopter surveying, Utah): 10.24 cougars per 100 sq km<br/>For their 8.24 difference to be artificially large, one method must be systematically undercounting."
-    },
-    {
-      "title": "Determine which method causes underestimation",
-      "content": "If radio-collar tracking underestimates density, Sweanor's 2.00 is artificially low; the true New Mexico density is higher, making the actual difference smaller than the reported 8.24. Choices A and D address method logistics or prevalence rather than measurement bias; C would cause the gap to be understated, not artificially inflated. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify which methodology would artificially inflate the difference", "content": "Sweanor (radio-collar tracking, New Mexico): 2.00 cougars per 100 sq km<br/>Choate (helicopter surveying, Utah): 10.24 cougars per 100 sq km<br/>For their 8.24 difference to be artificially large, one method must be systematically undercounting."}, {"title": "Determine which method causes underestimation", "content": "If radio-collar tracking underestimates density, Sweanor's 2.00 is artificially low; the true New Mexico density is higher, making the actual difference smaller than the reported 8.24.<br/><br/>Choices A and D address method logistics or prevalence rather than measurement bias; C would cause the gap to be understated, not artificially inflated.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

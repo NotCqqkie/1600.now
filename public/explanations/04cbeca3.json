@@ -1,15 +1,1 @@
-{
-  "questionId": "04cbeca3",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The assertion claims Henry was motivated by \u201cperceived financial opportunities.\u201d To support this, we need evidence showing Henry assessed the financial worth of monastery properties before seizing them."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice C reveals that Henry commissioned a survey in January 1535 to determine the value of church holdings, right before the Dissolution began\u2014direct evidence he perceived financial opportunities in these properties. Choices A, B, and D describe demographics, what happened to monastery contents, and social impacts respectively\u2014none address Henry's financial motivation. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "04cbeca3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The assertion claims Henry was motivated by “perceived financial opportunities.” To support this, we need evidence showing Henry assessed the financial worth of monastery properties before seizing them."}, {"title": "Apply the signal to the choices", "content": "Choice C reveals that Henry commissioned a survey in January 1535 to determine the value of church holdings, right before the Dissolution began—direct evidence he perceived financial opportunities in these properties.<br/><br/>Choices A, B, and D describe demographics, what happened to monastery contents, and social impacts respectively—none address Henry's financial motivation.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

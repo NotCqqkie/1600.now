@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core claim",
-      "content": "Bura argues that clicks and chirps \u201ceducate\u201d predators\u2014training them to associate the sound with a chemical defense\u2014rather than startling them."
-    },
-    {
-      "title": "Identify supporting evidence",
-      "content": "Choice A states that short-duration sounds are effective in training animals to associate behavior with consequence, which is precisely the education mechanism Bura describes. The others address volume (B), audibility (C), or general attack-stopping (D), none of which support the education-vs.-startle distinction. <strong>That matches choice A \u2014 A is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the core claim", "content": "Bura argues that clicks and chirps “educate” predators—training them to associate the sound with a chemical defense—rather than startling them."}, {"title": "Identify supporting evidence", "content": "Choice A states that short-duration sounds are effective in training animals to associate behavior with consequence, which is precisely the education mechanism Bura describes.<br/><br/>The others address volume (B), audibility (C), or general attack-stopping (D), none of which support the education-vs.-startle distinction. <strong>That matches choice A — A is correct.</strong>"}]}

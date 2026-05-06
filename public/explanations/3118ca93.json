@@ -1,15 +1,1 @@
-{
-  "questionId": "3118ca93",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the forecasting context",
-      "content": "The phrase \u201cExpecting to see continued growth\u201d indicates analysts have a positive outlook. The blank needs a verb for what analysts do when they make statements about future revenues based on that expectation."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The target meaning is: making a forward-looking statement based on positive expectations. \u201cPredicted\u201d expresses exactly this \u2014 it's how analysts state what will happen when they expect growth. The others fail: denied and worried contradict the optimistic context, while produced doesn't work syntactically with \u201cthat\u201d + clause.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3118ca93", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the forecasting context", "content": "The phrase “Expecting to see continued growth” indicates analysts have a positive outlook. The blank needs a verb for what analysts do when they make statements about future revenues based on that expectation."}, {"title": "Match the meaning", "content": "The target meaning is: making a forward-looking statement based on positive expectations. “Predicted” expresses exactly this — it's how analysts state what will happen when they expect growth.<br/><br/>The others fail: denied and worried contradict the optimistic context, while produced doesn't work syntactically with “that” + clause.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

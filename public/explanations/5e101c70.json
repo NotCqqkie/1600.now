@@ -1,15 +1,1 @@
-{
-  "questionId": "5e101c70",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast between the texts",
-      "content": "The defining signal is the gap between Text 1's optimistic framing\u2014the EGR discovery is \u201cespecially promising\u201d\u2014and Text 2's qualification: the gene \u201clikely functions very differently\u201d between humans and worms, and human function \u201cremains unclear.\u201d"
-    },
-    {
-      "title": "Judge Text 1's characterization from Text 2's perspective",
-      "content": "Text 2 would deem Text 1's assessment overly optimistic, because while the shared gene is noteworthy, Text 2 emphasizes the limitations: the gene works very differently, and its human mechanism is still unknown. This makes Text 1's promise seem premature. Choice A wrongly claims they've identified how EGR operates in humans; the others misread Text 2's view of excitement or Text 1's tone. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5e101c70", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between the texts", "content": "The defining signal is the gap between Text 1's optimistic framing—the EGR discovery is “especially promising”—and Text 2's qualification: the gene “likely functions very differently” between humans and worms, and human function “remains unclear.”"}, {"title": "Judge Text 1's characterization from Text 2's perspective", "content": "Text 2 would deem Text 1's assessment overly optimistic, because while the shared gene is noteworthy, Text 2 emphasizes the limitations: the gene works very differently, and its human mechanism is still unknown.<br/><br/>This makes Text 1's promise seem premature. Choice A wrongly claims they've identified how EGR operates in humans; the others misread Text 2's view of excitement or Text 1's tone.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "55df0275",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core principle",
-      "content": "The passage establishes that material in slower-moving dust (SPC, AST) has lower ablation rates than the same material in faster-moving dust (HTC, OCC). The example gives iron from AST at 28% and asks for a completion that illustrates this principle."
-    },
-    {
-      "title": "Apply the principle to the data",
-      "content": "Iron from HTC dust is 90%, demonstrating the same element from a faster source with dramatically higher ablation. The other choices either use a different element, stay within slower-moving sources, or fail to show how dust speed affects ablation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "55df0275", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the core principle", "content": "The passage establishes that material in slower-moving dust (SPC, AST) has lower ablation rates than the same material in faster-moving dust (HTC, OCC). The example gives iron from AST at 28% and asks for a completion that illustrates this principle."}, {"title": "Apply the principle to the data", "content": "Iron from HTC dust is 90%, demonstrating the same element from a faster source with dramatically higher ablation.<br/><br/>The other choices either use a different element, stay within slower-moving sources, or fail to show how dust speed affects ablation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

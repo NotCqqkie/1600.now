@@ -1,15 +1,1 @@
-{
-  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the energy ladder model's mechanism",
-      "content": "The passage defines the energy ladder model as one where \u201cfuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise).\u201d This is the central claim an advocate would use to explain any fuel shift."
-    },
-    {
-      "title": "Apply the mechanism to Brazil's change",
-      "content": "Choice A directly applies this logic: household incomes rose, enabling households to shift to high-technology fuels. The other choices either cite a different causal factor\u2014fuel availability (B) or relative pricing (C)\u2014or contradict the model by suggesting income weakened its explanatory power (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the energy ladder model's mechanism", "content": "The passage defines the energy ladder model as one where “fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise).” This is the central claim an advocate would use to explain any fuel shift."}, {"title": "Apply the mechanism to Brazil's change", "content": "Choice A directly applies this logic: household incomes rose, enabling households to shift to high-technology fuels.<br/><br/>The other choices either cite a different causal factor—fuel availability (B) or relative pricing (C)—or contradict the model by suggesting income weakened its explanatory power (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

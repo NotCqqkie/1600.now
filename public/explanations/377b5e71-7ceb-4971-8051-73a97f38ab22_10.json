@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the species with zero observations",
-      "content": "The example requires a species that was \u201c<em>entirely absent</em>\u201c \u2014 meaning zero fish observed. Scanning the graph, the three-lined rainbowfish line (dashed with squares) sits directly on the zero line across three consecutive measurement months, while both the combtooth blenny (solid line) and barred flagtail (dotted line) maintain positive populations throughout."
-    },
-    {
-      "title": "Match the zero-population months to a choice",
-      "content": "The three-lined rainbowfish was at zero in January, April, <strong>and</strong> July 2001 \u2014 all three months matching choice D's scope. The other choices name species that showed positive numbers during their stated times: barred flagtail had ~13 individuals in January and ~3 in October; combtooth blenny had ~62 in January. Only D identifies a species with no observations during all the months claimed. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the species with zero observations", "content": "The example requires a species that was “<em>entirely absent</em>“ — meaning zero fish observed.<br/><br/>Scanning the graph, the three-lined rainbowfish line (dashed with squares) sits directly on the zero line across three consecutive measurement months, while both the combtooth blenny (solid line) and barred flagtail (dotted line) maintain positive populations throughout."}, {"title": "Match the zero-population months to a choice", "content": "The three-lined rainbowfish was at zero in January, April, <strong>and</strong> July 2001 — all three months matching choice D's scope.<br/><br/>The other choices name species that showed positive numbers during their stated times: barred flagtail had ~13 individuals in January and ~3 in October; combtooth blenny had ~62 in January.<br/><br/>Only D identifies a species with no observations during all the months claimed.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

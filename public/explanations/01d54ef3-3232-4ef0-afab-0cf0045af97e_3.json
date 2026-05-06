@@ -1,15 +1,1 @@
-{
-  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining characteristic",
-      "content": "The passage emphasizes the delta's defining feature through two phrases: \u201cconstantly evolving\u201d and \u201cchange in size and shape as the river deposits new sedimentary particles.\u201d These establish that the landscape undergoes continuous physical transformation."
-    },
-    {
-      "title": "Match the capacity for change",
-      "content": "\u201dMutable\u201d means capable of or subject to change, directly fitting the described constant transformation. The other three choices either describe unrelated properties (habitable addresses suitability for living; secluded suggests isolation) or contradict the transformation (homogeneous implies uniformity). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the defining characteristic", "content": "The passage emphasizes the delta's defining feature through two phrases: “constantly evolving” and “change in size and shape as the river deposits new sedimentary particles.” These establish that the landscape undergoes continuous physical transformation."}, {"title": "Match the capacity for change", "content": "”Mutable” means capable of or subject to change, directly fitting the described constant transformation.<br/><br/>The other three choices either describe unrelated properties (habitable addresses suitability for living; secluded suggests isolation) or contradict the transformation (homogeneous implies uniformity).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

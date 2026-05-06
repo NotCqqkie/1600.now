@@ -1,15 +1,1 @@
-{
-  "questionId": "13cfe765-425a-44bc-b085-25d580925451_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the trend reversal",
-      "content": "During low competition, mammal bodies grew faster than brains (ratio shrank). The passage then shows competition intensifying as populations swelled. The established principle states that competition favors intelligence and large, complex brains. The blank must describe what evolutionary conditions intensified competition would create."
-    },
-    {
-      "title": "Match the principle to the answer",
-      "content": "Choice A directly applies this principle: intensified competition <em>favored an evolutionary increase in brain size relative to body size</em> \u2014 the exact reversal of the earlier shrinkage, aligning with the principle that competition favors large, complex brains. The other three either introduce unsupported resource scarcity (B), discuss ecological niche adaptation rather than the brain-to-body ratio (C), or contradict the principle by favoring body size (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "13cfe765-425a-44bc-b085-25d580925451_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the trend reversal", "content": "During low competition, mammal bodies grew faster than brains (ratio shrank).<br/><br/>The passage then shows competition intensifying as populations swelled.<br/><br/>The established principle states that competition favors intelligence and large, complex brains.<br/><br/>The blank must describe what evolutionary conditions intensified competition would create."}, {"title": "Match the principle to the answer", "content": "Choice A directly applies this principle: intensified competition <em>favored an evolutionary increase in brain size relative to body size</em> — the exact reversal of the earlier shrinkage, aligning with the principle that competition favors large, complex brains.<br/><br/>The other three either introduce unsupported resource scarcity (B), discuss ecological niche adaptation rather than the brain-to-body ratio (C), or contradict the principle by favoring body size (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

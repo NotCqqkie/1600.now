@@ -1,15 +1,1 @@
-{
-  "questionId": "cf11282b",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast in isolation speed",
-      "content": "Selenium was isolated the same year it was discovered, while molybdenum was isolated three years after discovery. The passage sets up an explicit contrast between how quickly these two elements were isolated."
-    },
-    {
-      "title": "Apply the contrast signal",
-      "content": "\u201dBy contrast\u201d directly signals the opposition between the two timelines \u2014 selenium's immediate isolation versus molybdenum's delayed isolation. Thus signals consequence, Similarly signals equivalence, and For instance signals exemplification \u2014 none of which match this contrast. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf11282b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast in isolation speed", "content": "Selenium was isolated the same year it was discovered, while molybdenum was isolated three years after discovery. The passage sets up an explicit contrast between how quickly these two elements were isolated."}, {"title": "Apply the contrast signal", "content": "”By contrast” directly signals the opposition between the two timelines — selenium's immediate isolation versus molybdenum's delayed isolation.<br/><br/>Thus signals consequence, Similarly signals equivalence, and For instance signals exemplification — none of which match this contrast.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

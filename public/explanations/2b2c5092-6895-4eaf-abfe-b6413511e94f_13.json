@@ -1,15 +1,1 @@
-{
-  "questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the predicted pattern",
-      "content": "The hypothesis predicts an inverse relationship between body size and sensitivity to warning signals\u2014smaller birds should be MORE sensitive to predator alarm calls. Since <em>M. collaris</em> (10 grams) is much smaller than <em>S. grossus</em> (45 grams), the hypothesis directly predicts that the gnatwren should be highly responsive to alarm calls while the grosbeak should show little or no response."
-    },
-    {
-      "title": "Find the choice showing this inverse relationship",
-      "content": "Choice D presents <em>M. collaris</em> displaying avoidance behavior in response to the alarm calls while <em>S. grossus</em> does not\u2014exactly the inverse relationship the hypothesis predicts based on their size difference. The other choices either reverse this relationship, fail to test genuine sensitivity to the signal, or add complexity unrelated to the core prediction. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b2c5092-6895-4eaf-abfe-b6413511e94f_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the predicted pattern", "content": "The hypothesis predicts an inverse relationship between body size and sensitivity to warning signals—smaller birds should be MORE sensitive to predator alarm calls.<br/><br/>Since <em>M. collaris</em> (10 grams) is much smaller than <em>S. grossus</em> (45 grams), the hypothesis directly predicts that the gnatwren should be highly responsive to alarm calls while the grosbeak should show little or no response."}, {"title": "Find the choice showing this inverse relationship", "content": "Choice D presents <em>M. collaris</em> displaying avoidance behavior in response to the alarm calls while <em>S. grossus</em> does not—exactly the inverse relationship the hypothesis predicts based on their size difference.<br/><br/>The other choices either reverse this relationship, fail to test genuine sensitivity to the signal, or add complexity unrelated to the core prediction.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

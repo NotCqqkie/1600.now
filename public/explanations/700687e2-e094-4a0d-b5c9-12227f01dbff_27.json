@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the \u201conly one\u201d signal",
-      "content": "The researchers stated Pbact was the \u201conly one\u201d with both a sufficiently high yield and a purity rate close to the ideal of 1.8. This reveals the dual criterion that defines success, explaining why CTAB 2X and Pplant each failed."
-    },
-    {
-      "title": "Match the answer emphasizing the shared failure",
-      "content": "B identifies the significance of their shared weakness: both CTAB 2X and Pplant were deemed less effective than Pbact due to insufficient yield or purity. The other choices either list numbers without significance, claim false equivalence, or focus on comparison rather than shared failure. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the “only one” signal", "content": "The researchers stated Pbact was the “only one” with both a sufficiently high yield and a purity rate close to the ideal of 1.8. This reveals the dual criterion that defines success, explaining why CTAB 2X and Pplant each failed."}, {"title": "Match the answer emphasizing the shared failure", "content": "B identifies the significance of their shared weakness: both CTAB 2X and Pplant were deemed less effective than Pbact due to insufficient yield or purity.<br/><br/>The other choices either list numbers without significance, claim false equivalence, or focus on comparison rather than shared failure.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

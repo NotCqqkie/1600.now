@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the surprising gene distribution",
-      "content": "The key signal is that anterior genes are active across the sea star's entire body while posterior genes appear only at the margins\u2014a pattern fundamentally different from bilateral ancestors where these genes localize to distinct head and tail regions."
-    },
-    {
-      "title": "Recognize what anterior dominance suggests",
-      "content": "Choice C explains that sea stars expanded their head genetic program (anterior genes) throughout their body rather than losing it during evolution. The other choices either contradict the passage (D rejects stated bilateral ancestry), provide no explanation (B simply notes genetic differences), or misidentify the responsible genes (A). This resolves the puzzle: sea stars aren't truly headless; they achieved radial form because their anterior genetic program dominates throughout. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the surprising gene distribution", "content": "The key signal is that anterior genes are active across the sea star's entire body while posterior genes appear only at the margins—a pattern fundamentally different from bilateral ancestors where these genes localize to distinct head and tail regions."}, {"title": "Recognize what anterior dominance suggests", "content": "Choice C explains that sea stars expanded their head genetic program (anterior genes) throughout their body rather than losing it during evolution.<br/><br/>The other choices either contradict the passage (D rejects stated bilateral ancestry), provide no explanation (B simply notes genetic differences), or misidentify the responsible genes (A).<br/><br/>This resolves the puzzle: sea stars aren't truly headless; they achieved radial form because their anterior genetic program dominates throughout.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

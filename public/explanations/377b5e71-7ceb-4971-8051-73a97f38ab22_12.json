@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the claim requires",
-      "content": "The student asserts that congestion rose in both NYC and smaller cities, with smaller cities remaining less affected. The correct choice must demonstrate two things: a persistent gap where a large city consistently exceeds a small city in delay hours, and upward trends in both across the decade."
-    },
-    {
-      "title": "Match the data to both parts of the claim",
-      "content": "Choice B demonstrates both: NYC's delay is consistently higher than Boise's for each year from 1990 to 2000 (rising from roughly 43 to 65 hours, versus Boise rising from roughly 18 to 28), and both cities show clear upward trends. The other choices either misread the data (A claims Albuquerque exceeded NYC when the graph shows the opposite), focus on an isolated single-year value rather than trends (C), or cite an irrelevant low point (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the claim requires", "content": "The student asserts that congestion rose in both NYC and smaller cities, with smaller cities remaining less affected. The correct choice must demonstrate two things: a persistent gap where a large city consistently exceeds a small city in delay hours, and upward trends in both across the decade."}, {"title": "Match the data to both parts of the claim", "content": "Choice B demonstrates both: NYC's delay is consistently higher than Boise's for each year from 1990 to 2000 (rising from roughly 43 to 65 hours, versus Boise rising from roughly 18 to 28), and both cities show clear upward trends.<br/><br/>The other choices either misread the data (A claims Albuquerque exceeded NYC when the graph shows the opposite), focus on an isolated single-year value rather than trends (C), or cite an irrelevant low point (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

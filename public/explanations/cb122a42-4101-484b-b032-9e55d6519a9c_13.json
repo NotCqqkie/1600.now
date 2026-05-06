@@ -1,15 +1,1 @@
-{
-  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the moisture-void-oil relationship",
-      "content": "The passage explicitly traces a causal chain: water evaporates from the crust \u2192 creates voids \u2192 oil (a pure fat) fills those voids. The clear implication is that <strong>more water loss means more voids, and therefore more oil infiltration</strong>."
-    },
-    {
-      "title": "Apply the relationship to sections losing less moisture",
-      "content": "Sections that lose <em>less</em> moisture undergo <em>less</em> water evaporation, which creates <em>fewer</em> voids for oil to fill. With fewer voids, less oil can infiltrate into those sections, producing a lower final fat content. The other choices address crust thickness, permeability rate, and temperature\u2014none of which follow directly from the moisture-void-oil pathway the passage describes. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the moisture-void-oil relationship", "content": "The passage explicitly traces a causal chain: water evaporates from the crust → creates voids → oil (a pure fat) fills those voids. The clear implication is that <strong>more water loss means more voids, and therefore more oil infiltration</strong>."}, {"title": "Apply the relationship to sections losing less moisture", "content": "Sections that lose <em>less</em> moisture undergo <em>less</em> water evaporation, which creates <em>fewer</em> voids for oil to fill.<br/><br/>With fewer voids, less oil can infiltrate into those sections, producing a lower final fat content.<br/><br/>The other choices address crust thickness, permeability rate, and temperature—none of which follow directly from the moisture-void-oil pathway the passage describes.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

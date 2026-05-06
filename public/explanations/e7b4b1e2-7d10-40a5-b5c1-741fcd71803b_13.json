@@ -1,15 +1,1 @@
-{
-  "questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the source of the underestimation",
-      "content": "The team concludes previous assessments underestimated capacity. The decisive clue: alkaline extraction (which removes wax) recovered 53.8%, while water recovered only 7.6%\u2014revealing that particles accumulate in wax that basic extraction methods cannot reach."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice A directly supports this: if prior studies used extraction methods that don't affect wax (as A states), they would have measured much less than the true amount, explaining the underestimation. Choices B, C, and D address tree diversity, concentrations exceeding 53.8%, and treatment order\u2014factors unrelated to the extraction-method limitation. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the source of the underestimation", "content": "The team concludes previous assessments underestimated capacity. The decisive clue: alkaline extraction (which removes wax) recovered 53.8%, while water recovered only 7.6%—revealing that particles accumulate in wax that basic extraction methods cannot reach."}, {"title": "Match to the choices", "content": "Choice A directly supports this: if prior studies used extraction methods that don't affect wax (as A states), they would have measured much less than the true amount, explaining the underestimation.<br/><br/>Choices B, C, and D address tree diversity, concentrations exceeding 53.8%, and treatment order—factors unrelated to the extraction-method limitation.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

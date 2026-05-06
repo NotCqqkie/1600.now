@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the comparison structure",
-      "content": "The key signal is the comparison: <em>\u201cfeatures that are [blank] for running restrict speeds more than the features needed for flying.\u201d</em> The passage explains why speeds differ by contrasting how each set of features restricts speed."
-    },
-    {
-      "title": "Match the meaning to the signal",
-      "content": "<strong>Essential</strong> (necessary/required) parallels <em>\u201cneeded\u201d</em> to explain why running's structural requirements restrict speed more than flying's do. The other options either lack necessity's meaning (trivial, approved) or don't address speed restrictions (challenging). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the comparison structure", "content": "The key signal is the comparison: <em>“features that are [blank] for running restrict speeds more than the features needed for flying.”</em> The passage explains why speeds differ by contrasting how each set of features restricts speed."}, {"title": "Match the meaning to the signal", "content": "<strong>Essential</strong> (necessary/required) parallels <em>“needed”</em> to explain why running's structural requirements restrict speed more than flying's do.<br/><br/>The other options either lack necessity's meaning (trivial, approved) or don't address speed restrictions (challenging).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

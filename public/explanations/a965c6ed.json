@@ -1,15 +1,1 @@
-{
-  "questionId": "a965c6ed",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the cause-and-effect relationship",
-      "content": "The shell's external appearance is the reason people mistakenly assume it's an exoskeleton\u2014the misconception directly stems from what the shell looks like."
-    },
-    {
-      "title": "Apply the causal transition",
-      "content": "\u201dHence\u201d means \u201ctherefore\u201d\u2014it connects the external appearance to the resulting misconception, showing that people's mistaken assumption flows directly from what the shell looks like. \u201cHowever\u201d introduces contradiction; \u201cThat being said\u201d signals a separate point; \u201cFor instance\u201d suggests an example\u2014none of these capture the causal relationship here. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a965c6ed", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the cause-and-effect relationship", "content": "The shell's external appearance is the reason people mistakenly assume it's an exoskeleton—the misconception directly stems from what the shell looks like."}, {"title": "Apply the causal transition", "content": "”Hence” means “therefore”—it connects the external appearance to the resulting misconception, showing that people's mistaken assumption flows directly from what the shell looks like. “However” introduces contradiction; “That being said” signals a separate point; “For instance” suggests an example—none of these capture the causal relationship here.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

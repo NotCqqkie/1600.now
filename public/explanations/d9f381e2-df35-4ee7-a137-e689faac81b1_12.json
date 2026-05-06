@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast",
-      "content": "The word <strong>However</strong> introduces evidence that Pyhtil\u0101's Finland study replicated the North American findings, while few studies matched Fagnani's Brazil study that found no correlation. This pattern reveals the positive association is widespread, not confined to North America."
-    },
-    {
-      "title": "Match to the evidence",
-      "content": "Choice A captures the evidence pattern\u2014most studies, including those outside North America, found the positive association; only Fagnani's study and few others didn't. Choices B, C, and D either misread Pyhtil\u0101's findings, reaffirm the rejected hypothesis, or ignore the correlation question. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The word <strong>However</strong> introduces evidence that Pyhtilā's Finland study replicated the North American findings, while few studies matched Fagnani's Brazil study that found no correlation. This pattern reveals the positive association is widespread, not confined to North America."}, {"title": "Match to the evidence", "content": "Choice A captures the evidence pattern—most studies, including those outside North America, found the positive association; only Fagnani's study and few others didn't.<br/><br/>Choices B, C, and D either misread Pyhtilā's findings, reaffirm the rejected hypothesis, or ignore the correlation question.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

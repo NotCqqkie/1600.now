@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the cause-and-effect relationship",
-      "content": "The first sentence describes an action (the lion opens its mouth). The second sentence then explains what this action enables (the scent reaching sensory receptors). The transition word must show that the second event is the direct result of the first action."
-    },
-    {
-      "title": "Match the causal relationship",
-      "content": "\u201dBy doing so\u201d directly expresses this cause-and-effect relationship: opening the mouth is how the scent reaches the receptors. The other three choices don't fit because Nowadays signals a time shift, while However and On the other hand introduce contrasts \u2014 but the second sentence explains a consequence, not a time change or disagreement. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ea42af8e-0812-4d54-a254-797255665265_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the cause-and-effect relationship", "content": "The first sentence describes an action (the lion opens its mouth). The second sentence then explains what this action enables (the scent reaching sensory receptors). The transition word must show that the second event is the direct result of the first action."}, {"title": "Match the causal relationship", "content": "”By doing so” directly expresses this cause-and-effect relationship: opening the mouth is how the scent reaches the receptors.<br/><br/>The other three choices don't fit because Nowadays signals a time shift, while However and On the other hand introduce contrasts — but the second sentence explains a consequence, not a time change or disagreement.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the evolutionary logic test",
-      "content": "The key signal is Laidre's conditional setup: \u201cif the tusk serves such an important purpose, then...\u201d set against the fact that many narwhals don't have tusks. She's testing whether a trait with such a critical function would logically be rare in the population."
-    },
-    {
-      "title": "Test the evolutionary consequence",
-      "content": "If a trait serves a critical survival function, natural selection would make it widespread\u2014so more narwhals would have the tusk if it were truly important. Yet many don't, which is Laidre's implicit challenge to the explanation. Choices A, C, and D describe unrelated outcomes that don't follow from the importance of a trait. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the evolutionary logic test", "content": "The key signal is Laidre's conditional setup: “if the tusk serves such an important purpose, then...” set against the fact that many narwhals don't have tusks. She's testing whether a trait with such a critical function would logically be rare in the population."}, {"title": "Test the evolutionary consequence", "content": "If a trait serves a critical survival function, natural selection would make it widespread—so more narwhals would have the tusk if it were truly important.<br/><br/>Yet many don't, which is Laidre's implicit challenge to the explanation.<br/><br/>Choices A, C, and D describe unrelated outcomes that don't follow from the importance of a trait.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

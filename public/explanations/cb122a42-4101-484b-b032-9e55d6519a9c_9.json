@@ -1,15 +1,1 @@
-{
-  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the publication timeline for The Federalist Papers",
-      "content": "The passage explicitly states that The Federalist Papers were published among the <em>Daily Advertiser</em> and other New York newspapers in <strong>1787\u201388</strong>. Both \u201cConcerning Dangers from Dissensions between the States\u201d and \u201cThe Senate\u201d are part of this collection."
-    },
-    {
-      "title": "Confirm the shared publication window",
-      "content": "Since both essays are part of The Federalist Papers, they automatically share its publication period, making choice B correct. The other choices either conflict with the authorship details stated in the passage or falsely claim that both essays appeared in the same specific newspaper. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the publication timeline for The Federalist Papers", "content": "The passage explicitly states that The Federalist Papers were published among the <em>Daily Advertiser</em> and other New York newspapers in <strong>1787–88</strong>. Both “Concerning Dangers from Dissensions between the States” and “The Senate” are part of this collection."}, {"title": "Confirm the shared publication window", "content": "Since both essays are part of The Federalist Papers, they automatically share its publication period, making choice B correct.<br/><br/>The other choices either conflict with the authorship details stated in the passage or falsely claim that both essays appeared in the same specific newspaper.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

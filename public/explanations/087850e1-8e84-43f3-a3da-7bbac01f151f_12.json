@@ -1,15 +1,1 @@
-{
-  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the transition's defining mechanism",
-      "content": "The passage explains that the tectonic plate regime allows lithospheric and mantle material to mix. The most direct evidence of when this transition occurred would show lithospheric material appearing in mantle-derived rocks after 3.2 billion years ago, but absent in older mantle rocks."
-    },
-    {
-      "title": "Find the evidence of when mixing began",
-      "content": "Choice C states that mantle-derived rocks younger than 3.2 billion years contain material found in older lithospheric rocks, while older mantle-derived rocks lack this material. This directly proves mixing started at 3.2 billion years ago\u2014exactly when the transition occurred. The others address compositional diversity, statistical correlations, or population ratios rather than evidence of actual material mixing. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the transition's defining mechanism", "content": "The passage explains that the tectonic plate regime allows lithospheric and mantle material to mix. The most direct evidence of when this transition occurred would show lithospheric material appearing in mantle-derived rocks after 3.2 billion years ago, but absent in older mantle rocks."}, {"title": "Find the evidence of when mixing began", "content": "Choice C states that mantle-derived rocks younger than 3.2 billion years contain material found in older lithospheric rocks, while older mantle-derived rocks lack this material.<br/><br/>This directly proves mixing started at 3.2 billion years ago—exactly when the transition occurred.<br/><br/>The others address compositional diversity, statistical correlations, or population ratios rather than evidence of actual material mixing.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

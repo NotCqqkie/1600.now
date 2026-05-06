@@ -1,15 +1,1 @@
-{
-  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what limits power output",
-      "content": "The passage identifies the core problem: electrons must pass through inefficient redox reactions to reach the electrode, limiting power output. Adding highly conductive silver nanoparticles more than doubles the power. The question asks what mechanism explains this boost."
-    },
-    {
-      "title": "Apply the conductivity solution",
-      "content": "Silver nanoparticles allow electrons to bypass the inefficient redox reactions and transfer directly to the electrode\u2014exactly what choice D says. The other options either misidentify the problem (A suggests increased electron production; B raises biofilm density) or contradict the solution (C describes silver as catalyzing the reactions it should avoid). This directly explains how conductivity solves the bottleneck. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what limits power output", "content": "The passage identifies the core problem: electrons must pass through inefficient redox reactions to reach the electrode, limiting power output. Adding highly conductive silver nanoparticles more than doubles the power. The question asks what mechanism explains this boost."}, {"title": "Apply the conductivity solution", "content": "Silver nanoparticles allow electrons to bypass the inefficient redox reactions and transfer directly to the electrode—exactly what choice D says.<br/><br/>The other options either misidentify the problem (A suggests increased electron production; B raises biofilm density) or contradict the solution (C describes silver as catalyzing the reactions it should avoid).<br/><br/>This directly explains how conductivity solves the bottleneck.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

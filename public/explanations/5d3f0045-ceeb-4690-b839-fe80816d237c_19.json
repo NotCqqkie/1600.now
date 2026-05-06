@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the verb-position conflict",
-      "content": "The sentence has <strong>Antiquarians ______ to read...</strong> followed by <strong>...might procure.</strong> The key signal is that <strong>might procure</strong> is the main verb, so the blank must contain a non-finite verb form."
-    },
-    {
-      "title": "Apply the participle rule",
-      "content": "<strong>hoping</strong> is a present participle that modifies <strong>Antiquarians</strong>, leaving <strong>might procure</strong> as the sole main verb. The rule is: a sentence's main verb must be finite; a participle cannot serve as a main verb. The alternatives\u2014hope, hoped, have hoped\u2014violate this because they are finite forms that would create a second main verb.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the verb-position conflict", "content": "The sentence has <strong>Antiquarians ______ to read...</strong> followed by <strong>...might procure.</strong> The key signal is that <strong>might procure</strong> is the main verb, so the blank must contain a non-finite verb form."}, {"title": "Apply the participle rule", "content": "<strong>hoping</strong> is a present participle that modifies <strong>Antiquarians</strong>, leaving <strong>might procure</strong> as the sole main verb.<br/><br/>The rule is: a sentence's main verb must be finite; a participle cannot serve as a main verb.<br/><br/>The alternatives—hope, hoped, have hoped—violate this because they are finite forms that would create a second main verb.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

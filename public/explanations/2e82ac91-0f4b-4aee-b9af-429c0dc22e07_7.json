@@ -1,15 +1,1 @@
-{
-  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core disagreement",
-      "content": "Anbar et al. attribute the Mo increase to atmospheric oxygen rising at 2.5 Ga. Slotznick et al. present evidence that oxidative weathering of volcanic debris could have occurred long after 2.5 Ga, through fluid reaching the material via microfractures\u2014meaning the Mo spike does not necessarily indicate oxygen levels at that time."
-    },
-    {
-      "title": "Match the disagreement to the answer",
-      "content": "Choice B asks whether the Mo increase indicates an atmospheric oxygen rise at 2.5 Ga\u2014exactly where these teams diverge. Anbar concludes yes; Slotznick's evidence of delayed oxidative weathering implies no. Choices A and C address whether oxidative weathering occurred (both texts acknowledge it did), while choice D concerns pre-2.5 Ga oxygen rather than whether oxygen rose at 2.5 Ga itself. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core disagreement", "content": "Anbar et al. attribute the Mo increase to atmospheric oxygen rising at 2.5 Ga.<br/><br/>Slotznick et al. present evidence that oxidative weathering of volcanic debris could have occurred long after 2.5 Ga, through fluid reaching the material via microfractures—meaning the Mo spike does not necessarily indicate oxygen levels at that time."}, {"title": "Match the disagreement to the answer", "content": "Choice B asks whether the Mo increase indicates an atmospheric oxygen rise at 2.5 Ga—exactly where these teams diverge.<br/><br/>Anbar concludes yes; Slotznick's evidence of delayed oxidative weathering implies no.<br/><br/>Choices A and C address whether oxidative weathering occurred (both texts acknowledge it did), while choice D concerns pre-2.5 Ga oxygen rather than whether oxygen rose at 2.5 Ga itself.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

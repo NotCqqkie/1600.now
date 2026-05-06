@@ -1,15 +1,1 @@
-{
-  "questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast in how the passage treats each figure",
-      "content": "Wladyslaw I Herman is described as <strong>\u201cwell-documented\u201d</strong> and presented straightforwardly. Lestek, by contrast, is introduced with the phrase <strong>\u201cwhose historical actuality is disputed,\u201d</strong> signaling that historians disagree about whether he actually existed. This is the decisive clue."
-    },
-    {
-      "title": "Match the contrast to the correct choice",
-      "content": "Choice B states that historians <strong>agree</strong> Wladyslaw I Herman existed but <strong>disagree</strong> about Lestek's existence\u2014this directly reflects the passage's contrast. The passage doesn't claim the <em>Gesta</em> provides more evidence for Lestek (A rules itself out); it says Lestek's documentation relies on oral tradition unlike later rulers, meaning less reliable evidence. Choice C reverses the timeline\u2014Lestek ruled in the 9th\u201310th centuries, not later than Wladyslaw (1079\u20131102). Choice D incorrectly treats both figures as supported by \u201csimilar stories,\u201d when the passage distinguishes Lestek's oral tradition from Wladyslaw's documented records.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_9", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key contrast in how the passage treats each figure", "content": "Wladyslaw I Herman is described as <strong>“well-documented”</strong> and presented straightforwardly.<br/><br/>Lestek, by contrast, is introduced with the phrase <strong>“whose historical actuality is disputed,”</strong> signaling that historians disagree about whether he actually existed.<br/><br/>This is the decisive clue."}, {"title": "Match the contrast to the correct choice", "content": "Choice B states that historians <strong>agree</strong> Wladyslaw I Herman existed but <strong>disagree</strong> about Lestek's existence—this directly reflects the passage's contrast.<br/><br/>The passage doesn't claim the <em>Gesta</em> provides more evidence for Lestek (A rules itself out); it says Lestek's documentation relies on oral tradition unlike later rulers, meaning less reliable evidence.<br/><br/>Choice C reverses the timeline—Lestek ruled in the 9th–10th centuries, not later than Wladyslaw (1079–1102).<br/><br/>Choice D incorrectly treats both figures as supported by “similar stories,” when the passage distinguishes Lestek's oral tradition from Wladyslaw's documented records.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

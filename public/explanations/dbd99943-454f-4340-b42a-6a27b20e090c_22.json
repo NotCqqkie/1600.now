@@ -1,15 +1,1 @@
-{
-  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the distance opposition",
-      "content": "The passage contrasts JWST's location \u201calmost one million miles beyond Earth's orbit\u201d with Hubble's location \u201conly about 340 miles above Earth's surface.\u201d The key signal is <em>only</em> \u2014 a word that intensifies how much closer Hubble is, setting up opposition between the two telescope positions."
-    },
-    {
-      "title": "Select the contrast transition",
-      "content": "<em>By contrast</em> marks opposition between two pieces of information \u2014 the transitional function needed here. <em>Therefore</em> falsely suggests cause-and-effect, <em>Similarly</em> wrongly indicates likeness, and <em>Secondly</em> treats this as an independent list item. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the distance opposition", "content": "The passage contrasts JWST's location “almost one million miles beyond Earth's orbit” with Hubble's location “only about 340 miles above Earth's surface.” The key signal is <em>only</em> — a word that intensifies how much closer Hubble is, setting up opposition between the two telescope positions."}, {"title": "Select the contrast transition", "content": "<em>By contrast</em> marks opposition between two pieces of information — the transitional function needed here. <em>Therefore</em> falsely suggests cause-and-effect, <em>Similarly</em> wrongly indicates likeness, and <em>Secondly</em> treats this as an independent list item.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

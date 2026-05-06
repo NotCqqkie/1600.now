@@ -1,15 +1,1 @@
-{
-  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_16",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the critical constraint",
-      "content": "The passage provides a specific statistical threshold: a handedness study requires a minimum of 176 individuals to produce a representative result. Both Lockard's and Goodall's studies used only 8 individuals each\u2014far below this threshold."
-    },
-    {
-      "title": "Apply the constraint to the choices",
-      "content": "When both studies fall short of the required sample size, neither can reliably yield representative results about handedness. Choice C directly states this problem: neither study provides sufficient evidence for a meaningful comparison. Choices A and D both treat at least one study as reliable despite its size (contradicting the 176-person standard), and B assumes Goodall's study is large enough to draw\u2014even mistaken\u2014conclusions from it. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the critical constraint", "content": "The passage provides a specific statistical threshold: a handedness study requires a minimum of 176 individuals to produce a representative result. Both Lockard's and Goodall's studies used only 8 individuals each—far below this threshold."}, {"title": "Apply the constraint to the choices", "content": "When both studies fall short of the required sample size, neither can reliably yield representative results about handedness.<br/><br/>Choice C directly states this problem: neither study provides sufficient evidence for a meaningful comparison.<br/><br/>Choices A and D both treat at least one study as reliable despite its size (contradicting the 176-person standard), and B assumes Goodall's study is large enough to draw—even mistaken—conclusions from it.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

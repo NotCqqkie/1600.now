@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the hypothesis's central claim",
-      "content": "The hypothesis predicts that immature females will peer at permanent residents more than males do, because females stay in their home region while males disperse."
-    },
-    {
-      "title": "Match this prediction to the data",
-      "content": "Choice A directly shows females (individuals 6 and 1) directing higher proportions (0.67 and 0.59) at permanent residents than males (individuals 13 and 15, at 0.15 and 0.00)\u2014exactly the sex-specific pattern the hypothesis predicts. Choices B, C, and D either show a range without sex breakdown, compare individual pairs without revealing the sex pattern, or measure total events instead of proportions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the hypothesis's central claim", "content": "The hypothesis predicts that immature females will peer at permanent residents more than males do, because females stay in their home region while males disperse."}, {"title": "Match this prediction to the data", "content": "Choice A directly shows females (individuals 6 and 1) directing higher proportions (0.67 and 0.59) at permanent residents than males (individuals 13 and 15, at 0.15 and 0.00)—exactly the sex-specific pattern the hypothesis predicts.<br/><br/>Choices B, C, and D either show a range without sex breakdown, compare individual pairs without revealing the sex pattern, or measure total events instead of proportions.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

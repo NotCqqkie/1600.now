@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The left side ends with an incomplete subject (\u201cAnn Quinby of\u201d), and the right side begins with a direct object (\u201can important role...\u201d). The blank must complete the subject with a location and provide a main verb."
-    },
-    {
-      "title": "Apply the rule for independent clauses",
-      "content": "An independent clause requires a subject and main verb directly connected with no separating punctuation. Choice D maintains this: <strong>Ann Quinby of Kentucky played an important role</strong> forms one complete independent clause. Choices A, B, and C all violate this rule by inserting punctuation that separates the subject from its verb, creating fragments or misusing punctuation conventions. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The left side ends with an incomplete subject (“Ann Quinby of”), and the right side begins with a direct object (“an important role...”). The blank must complete the subject with a location and provide a main verb."}, {"title": "Apply the rule for independent clauses", "content": "An independent clause requires a subject and main verb directly connected with no separating punctuation.<br/><br/>Choice D maintains this: <strong>Ann Quinby of Kentucky played an important role</strong> forms one complete independent clause.<br/><br/>Choices A, B, and C all violate this rule by inserting punctuation that separates the subject from its verb, creating fragments or misusing punctuation conventions.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

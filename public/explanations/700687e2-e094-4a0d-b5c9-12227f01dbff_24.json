@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between sentences",
-      "content": "The first sentence introduces edge modeling as <em>\u201cone process\u201d</em>\u2014keeping it general and broad. The second sentence shifts to a specific explanation of what that process involves. The transition must signal movement from general to specific."
-    },
-    {
-      "title": "Apply the transition to the relationship",
-      "content": "<em>\u201cSpecifically\u201d</em> marks exactly this shift from general introduction to specific explanation. The other choices signal different logical relationships\u2014adding new facts, drawing conclusions, or making comparisons\u2014none of which fit a general-to-specific elaboration. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between sentences", "content": "The first sentence introduces edge modeling as <em>“one process”</em>—keeping it general and broad. The second sentence shifts to a specific explanation of what that process involves. The transition must signal movement from general to specific."}, {"title": "Apply the transition to the relationship", "content": "<em>“Specifically”</em> marks exactly this shift from general introduction to specific explanation.<br/><br/>The other choices signal different logical relationships—adding new facts, drawing conclusions, or making comparisons—none of which fit a general-to-specific elaboration.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

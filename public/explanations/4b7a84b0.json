@@ -1,15 +1,1 @@
-{
-  "questionId": "4b7a84b0",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the implicit frequency contrast",
-      "content": "The passage states routes are \u201crarely designed to simply reach a summit,\u201d then immediately describes what they focus on instead. The transition word needs to bridge what these routes rarely do versus what they more often do."
-    },
-    {
-      "title": "Apply the frequency shift",
-      "content": "\u201dMore often\u201d directly expresses the shift: routes rarely focus on summits, but more often on recreation and scenery. The other three mischaracterize this relationship\u2014treating recreation as supplementary (Additionally), creating a false contrast (On the other hand), or implying unexpected conflict (Nonetheless) instead of natural consequence. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4b7a84b0", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the implicit frequency contrast", "content": "The passage states routes are “rarely designed to simply reach a summit,” then immediately describes what they focus on instead. The transition word needs to bridge what these routes rarely do versus what they more often do."}, {"title": "Apply the frequency shift", "content": "”More often” directly expresses the shift: routes rarely focus on summits, but more often on recreation and scenery.<br/><br/>The other three mischaracterize this relationship—treating recreation as supplementary (Additionally), creating a false contrast (On the other hand), or implying unexpected conflict (Nonetheless) instead of natural consequence.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

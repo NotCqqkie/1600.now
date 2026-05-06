@@ -1,15 +1,1 @@
-{
-  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The previous sentence establishes that scholars hold a <em>balanced view</em>: they affirm the model's economic sustainability <em>while acknowledging its challenges</em>. The following sentence then describes people who depart from this balance\u2014extremists on both sides who ignore one side of the evidence. The key signal is the <strong>contrast</strong> between the nuanced scholars and those who lack this nuance."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "We need a transition that acknowledges this contrast: yes, scholars are balanced, but others are not. \"That said\" signals exactly this shift\u2014introducing a complicating or contrasting point. The phrase \"some experts overlook such nuance\" directly connects to the balanced view just described and names the problem: <strong>some</strong> (unlike the many scholars mentioned) lack this balance. The examples that follow demonstrate how: those declaring the model unviable discount successes; those championing it understate challenges. Option D reverses the scholars' position (they are not skeptical), option C introduces solutions out of nowhere, and option B pivots to an unrelated claim about overcoming challenges being contentious.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The previous sentence establishes that scholars hold a <em>balanced view</em>: they affirm the model's economic sustainability <em>while acknowledging its challenges</em>.<br/><br/>The following sentence then describes people who depart from this balance—extremists on both sides who ignore one side of the evidence.<br/><br/>The key signal is the <strong>contrast</strong> between the nuanced scholars and those who lack this nuance."}, {"title": "Match the meaning", "content": "We need a transition that acknowledges this contrast: yes, scholars are balanced, but others are not. \"That said\" signals exactly this shift—introducing a complicating or contrasting point.<br/><br/>The phrase \"some experts overlook such nuance\" directly connects to the balanced view just described and names the problem: <strong>some</strong> (unlike the many scholars mentioned) lack this balance.<br/><br/>The examples that follow demonstrate how: those declaring the model unviable discount successes; those championing it understate challenges.<br/><br/>Option D reverses the scholars' position (they are not skeptical), option C introduces solutions out of nowhere, and option B pivots to an unrelated claim about overcoming challenges being contentious.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

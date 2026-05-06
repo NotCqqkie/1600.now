@@ -1,15 +1,1 @@
-{
-  "questionId": "4a2b2535",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The passage explicitly describes the novel's plot as <strong>complicated</strong> and its cast as <strong>enormous</strong>\u2014straightforward markers of intricacy that a brief review cannot fully capture."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "These features\u2014enormous cast, complicated structure, backward pagination\u2014collectively define a single quality: the novel's complexity. <strong>Complexity</strong> directly names what a brief review cannot fully convey. The other three choices either contradict the passage (inactivity opposes the active, complicated plot; restraint contradicts the elaborate design) or address something not discussed. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4a2b2535", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the key signal", "content": "The passage explicitly describes the novel's plot as <strong>complicated</strong> and its cast as <strong>enormous</strong>—straightforward markers of intricacy that a brief review cannot fully capture."}, {"title": "Match the signal to the choices", "content": "These features—enormous cast, complicated structure, backward pagination—collectively define a single quality: the novel's complexity. <strong>Complexity</strong> directly names what a brief review cannot fully convey.<br/><br/>The other three choices either contradict the passage (inactivity opposes the active, complicated plot; restraint contradicts the elaborate design) or address something not discussed.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

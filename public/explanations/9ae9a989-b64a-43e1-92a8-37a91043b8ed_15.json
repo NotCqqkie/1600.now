@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the gap between the opening claim and the survey",
-      "content": "The passage opens by stating volunteering \u201cis also good for society as a whole.\u201d But the survey reveals that most youths believe volunteering helps at the individual level, while only 6% recognize its societal value. This gap\u2014between volunteering's actual societal benefits and what most young people perceive\u2014drives the answer."
-    },
-    {
-      "title": "Match the gap to the correct answer",
-      "content": "Choice B states that volunteering \u201cmay be even more helpful than many young people think it is.\u201d The passage establishes volunteering's societal value upfront, but the survey shows most youths focus only on individual help and largely miss that broader impact. Therefore, volunteering IS more helpful than they realize. The other choices address unsupported elements: geographic limits, access to opportunities, or comparing individual versus societal help by magnitude. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the gap between the opening claim and the survey", "content": "The passage opens by stating volunteering “is also good for society as a whole.” But the survey reveals that most youths believe volunteering helps at the individual level, while only 6% recognize its societal value.<br/><br/>This gap—between volunteering's actual societal benefits and what most young people perceive—drives the answer."}, {"title": "Match the gap to the correct answer", "content": "Choice B states that volunteering “may be even more helpful than many young people think it is.” The passage establishes volunteering's societal value upfront, but the survey shows most youths focus only on individual help and largely miss that broader impact.<br/><br/>Therefore, volunteering IS more helpful than they realize. The other choices address unsupported elements: geographic limits, access to opportunities, or comparing individual versus societal help by magnitude.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

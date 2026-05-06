@@ -1,15 +1,1 @@
-{
-  "questionId": "911c7a87",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the sequential structure",
-      "content": "The passage traces the steps of an archaeological dig in order: <strong>begins with</strong> a surveyor making a grid, <strong>then</strong> the site is dug and artifacts are recorded and mapped. The blank introduces what happens next\u2014the final stage where those artifacts are removed, cataloged, and analyzed."
-    },
-    {
-      "title": "Apply the correct transition",
-      "content": "<strong>Finally</strong> marks the concluding step in a sequence. <em>For instance</em> introduces an example (not a continuation), <em>On the contrary</em> signals contrast where none exists, and <em>Earlier</em> points backward in time when these steps occur after the mapping. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "911c7a87", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the sequential structure", "content": "The passage traces the steps of an archaeological dig in order: <strong>begins with</strong> a surveyor making a grid, <strong>then</strong> the site is dug and artifacts are recorded and mapped.<br/><br/>The blank introduces what happens next—the final stage where those artifacts are removed, cataloged, and analyzed."}, {"title": "Apply the correct transition", "content": "<strong>Finally</strong> marks the concluding step in a sequence. <em>For instance</em> introduces an example (not a continuation), <em>On the contrary</em> signals contrast where none exists, and <em>Earlier</em> points backward in time when these steps occur after the mapping.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

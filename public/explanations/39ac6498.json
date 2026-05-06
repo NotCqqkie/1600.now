@@ -1,15 +1,1 @@
-{
-  "questionId": "39ac6498",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures",
-      "content": "The blank falls between two independent clauses: an interrogative clause on the left (\u201cWhat are atmospheric rivers, and how...\u201d) and a declarative clause on the right (\u201cPart of the water cycle, atmospheric rivers are...\u201d)."
-    },
-    {
-      "title": "Apply question syntax and boundary rules",
-      "content": "The interrogative clause requires the auxiliary verb to come before the subject (\u201cdo they affect\u201d rather than \u201cthey do affect\u201d) and must end with a question mark to properly separate it from the following statement. Choice C provides both correct word order and the required question mark. The other options either use a period instead of a question mark (A and B) or reverse the word order (D). That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39ac6498", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "The blank falls between two independent clauses: an interrogative clause on the left (“What are atmospheric rivers, and how...”) and a declarative clause on the right (“Part of the water cycle, atmospheric rivers are...”)."}, {"title": "Apply question syntax and boundary rules", "content": "The interrogative clause requires the auxiliary verb to come before the subject (“do they affect” rather than “they do affect”) and must end with a question mark to properly separate it from the following statement.<br/><br/>Choice C provides both correct word order and the required question mark.<br/><br/>The other options either use a period instead of a question mark (A and B) or reverse the word order (D).<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

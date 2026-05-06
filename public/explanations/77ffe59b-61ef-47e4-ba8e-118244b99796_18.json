@@ -1,15 +1,1 @@
-{
-  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_18",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what punctuation is needed",
-      "content": "The sentence states the two objects 'exhibit striking differences' in behavior. The explanation that follows must contrast their opposite states\u2014Echeclus is active, YX49 is dormant. The punctuation must signal this contrast clearly."
-    },
-    {
-      "title": "Apply the rule for dependent clauses first",
-      "content": "Option B uses a colon to introduce an explanation, then 'while' (meaning 'whereas') to begin a dependent clause describing Echeclus: <em>while the object 60558 Echeclus is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface)</em>. Standard English requires a comma to separate a dependent clause from the main clause when the dependent clause comes first: <em>2014 YX49, showing no such activity, is considered dormant</em>. The other options either join two independent clauses with only a comma (A), place 'while' without the clarifying colon in a way that makes the structure unclear (C), or fail to properly connect multiple independent predicates (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what punctuation is needed", "content": "The sentence states the two objects 'exhibit striking differences' in behavior. The explanation that follows must contrast their opposite states—Echeclus is active, YX49 is dormant. The punctuation must signal this contrast clearly."}, {"title": "Apply the rule for dependent clauses first", "content": "Option B uses a colon to introduce an explanation, then 'while' (meaning 'whereas') to begin a dependent clause describing Echeclus: <em>while the object 60558 Echeclus is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface)</em>.<br/><br/>Standard English requires a comma to separate a dependent clause from the main clause when the dependent clause comes first: <em>2014 YX49, showing no such activity, is considered dormant</em>.<br/><br/>The other options either join two independent clauses with only a comma (A), place 'while' without the clarifying colon in a way that makes the structure unclear (C), or fail to properly connect multiple independent predicates (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

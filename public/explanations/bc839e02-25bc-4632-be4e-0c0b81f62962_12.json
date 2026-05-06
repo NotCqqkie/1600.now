@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the advantage signal",
-      "content": "The passage claims invasives are advantaged by delays in subfreezing temperatures. For a finding to directly support this, it must show the invasive species responding more favorably to the delayed temperatures than the native species does."
-    },
-    {
-      "title": "Apply the advantage signal",
-      "content": "Choice C directly supports the conclusion by showing that <em>P. aviculare</em> extends its growing season much more than <em>C. canadensis</em> when subfreezing temperatures are delayed, proving the invasive capitalizes more on the extended conditions. The other choices either contradict this advantage, show no differential response to temperature change, or introduce a confounding variable. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the advantage signal", "content": "The passage claims invasives are advantaged by delays in subfreezing temperatures. For a finding to directly support this, it must show the invasive species responding more favorably to the delayed temperatures than the native species does."}, {"title": "Apply the advantage signal", "content": "Choice C directly supports the conclusion by showing that <em>P. aviculare</em> extends its growing season much more than <em>C. canadensis</em> when subfreezing temperatures are delayed, proving the invasive capitalizes more on the extended conditions.<br/><br/>The other choices either contradict this advantage, show no differential response to temperature change, or introduce a confounding variable.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

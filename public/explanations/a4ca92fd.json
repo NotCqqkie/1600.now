@@ -1,15 +1,1 @@
-{
-  "questionId": "a4ca92fd",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states she <strong>continuously worked</strong> to promote health, and describes an effort involving traveling and writing a dictionary. The word <strong>continuously</strong> is the decisive signal \u2014 it shows her effort was ongoing and sustained."
-    },
-    {
-      "title": "Match the answer to the signal",
-      "content": "<strong>Persistent</strong> means continuing steadily or lasting over time \u2014 which directly expresses <strong>continuously</strong>. The other three choices describe different qualities: <em>impartial</em> (neutrality), <em>offhand</em> (casual), and <em>mandatory</em> (obligation) don't capture sustained effort. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4ca92fd", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states she <strong>continuously worked</strong> to promote health, and describes an effort involving traveling and writing a dictionary. The word <strong>continuously</strong> is the decisive signal — it shows her effort was ongoing and sustained."}, {"title": "Match the answer to the signal", "content": "<strong>Persistent</strong> means continuing steadily or lasting over time — which directly expresses <strong>continuously</strong>.<br/><br/>The other three choices describe different qualities: <em>impartial</em> (neutrality), <em>offhand</em> (casual), and <em>mandatory</em> (obligation) don't capture sustained effort.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

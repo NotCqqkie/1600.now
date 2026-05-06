@@ -1,15 +1,1 @@
-{
-  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal and key data",
-      "content": "The student wants to <strong>compare the NUMBER of native and non-native species catalogued</strong>. The notes provide the exact counts from the 2019 study: 15 native species and 29 non-native species. The correct answer must present this numerical relationship."
-    },
-    {
-      "title": "Determine which choice makes the comparison",
-      "content": "Choice D directly states the relationship: <em>\u201cresearchers found more non-native seed species than native species,\u201d</em> which is exactly the comparison the student needs using the data from the notes. Choices A, B, and C either name specific plants without totals (A), describe the study without the numbers (B), or discuss Oahu's general bird composition instead of study findings (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the goal and key data", "content": "The student wants to <strong>compare the NUMBER of native and non-native species catalogued</strong>. The notes provide the exact counts from the 2019 study: 15 native species and 29 non-native species. The correct answer must present this numerical relationship."}, {"title": "Determine which choice makes the comparison", "content": "Choice D directly states the relationship: <em>“researchers found more non-native seed species than native species,”</em> which is exactly the comparison the student needs using the data from the notes.<br/><br/>Choices A, B, and C either name specific plants without totals (A), describe the study without the numbers (B), or discuss Oahu's general bird composition instead of study findings (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

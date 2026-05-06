@@ -1,15 +1,1 @@
-{
-  "questionId": "9debe79a",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage emphasizes that the Navajo Nation\u2019s large size and varying elevations lead to <strong>different climate conditions across communities</strong>. The example sentence requires a July temperature comparison that showcases this contrast."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Option C highlights a 16\u00b0 difference (Ramah, 83\u00b0, vs. Cameron, 99\u00b0), directly illustrating the climate variation caused by differing elevations. The other choices either report identical temperatures (A and D) or describe near-equal differences (B), which contradict the passage\u2019s focus on meaningful climate disparities. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9debe79a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage emphasizes that the Navajo Nation’s large size and varying elevations lead to <strong>different climate conditions across communities</strong>. The example sentence requires a July temperature comparison that showcases this contrast."}, {"title": "Match the meaning", "content": "Option C highlights a 16° difference (Ramah, 83°, vs. Cameron, 99°), directly illustrating the climate variation caused by differing elevations.<br/><br/>The other choices either report identical temperatures (A and D) or describe near-equal differences (B), which contradict the passage’s focus on meaningful climate disparities.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

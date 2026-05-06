@@ -1,15 +1,1 @@
-{
-  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining relationship",
-      "content": "The passage's central claim is that for TRAPPIST planets, <strong>the orbital period equals the rotational period</strong> due to gravitational forces. To complete the example correctly, the answer must demonstrate this equality for TRAPPIST-1e."
-    },
-    {
-      "title": "Apply the relationship to TRAPPIST-1e's data",
-      "content": "Choice C correctly uses TRAPPIST-1e's orbital period of 6.1 days from the table and states the rotational period is also 6.1 days, fulfilling the passage's key relationship. Choice A confuses planet radius with rotational period, while choices B and D provide data from different planets. <br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the defining relationship", "content": "The passage's central claim is that for TRAPPIST planets, <strong>the orbital period equals the rotational period</strong> due to gravitational forces. To complete the example correctly, the answer must demonstrate this equality for TRAPPIST-1e."}, {"title": "Apply the relationship to TRAPPIST-1e's data", "content": "Choice C correctly uses TRAPPIST-1e's orbital period of 6.1 days from the table and states the rotational period is also 6.1 days, fulfilling the passage's key relationship.<br/><br/>Choice A confuses planet radius with rotational period, while choices B and D provide data from different planets. <br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

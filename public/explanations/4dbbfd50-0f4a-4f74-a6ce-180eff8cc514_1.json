@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage describes how the previous observation \u201craised questions about thermoregulation in fungi.\u201d This shows a cause-and-effect sequence: the observation leads to further action."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dPrompted by\u201d directly expresses this cause-and-effect relationship: the observation motivated the study. The other three choices either contradict the investigation occurring (\u201cexcluded by\u201d), present only passive acknowledgment (\u201cacknowledged in\u201d), or are semantically impossible (\u201creleased in\u201d). This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage describes how the previous observation “raised questions about thermoregulation in fungi.” This shows a cause-and-effect sequence: the observation leads to further action."}, {"title": "Match the meaning", "content": "”Prompted by” directly expresses this cause-and-effect relationship: the observation motivated the study.<br/><br/>The other three choices either contradict the investigation occurring (“excluded by”), present only passive acknowledgment (“acknowledged in”), or are semantically impossible (“released in”).<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

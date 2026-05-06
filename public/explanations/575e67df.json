@@ -1,15 +1,1 @@
-{
-  "questionId": "575e67df",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the experimental signal",
-      "content": "When the middle ring's formation was delayed in the simulation, the innermost ring produced super-Earths instead of normal planets. This shows that the middle ring's timing directly affects what the innermost ring creates."
-    },
-    {
-      "title": "Apply the signal to the hypothesis",
-      "content": "Since Earth formed from the innermost ring, and the experiment proved the middle ring's formation timing controls what that ring produces, the middle ring's timing must determine Earth's eventual size. Choice B states exactly this. The other choices either reverse the causal relationship, test an untested variable, or overstate the experimental findings. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "575e67df", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the experimental signal", "content": "When the middle ring's formation was delayed in the simulation, the innermost ring produced super-Earths instead of normal planets. This shows that the middle ring's timing directly affects what the innermost ring creates."}, {"title": "Apply the signal to the hypothesis", "content": "Since Earth formed from the innermost ring, and the experiment proved the middle ring's formation timing controls what that ring produces, the middle ring's timing must determine Earth's eventual size.<br/><br/>Choice B states exactly this. The other choices either reverse the causal relationship, test an untested variable, or overstate the experimental findings.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

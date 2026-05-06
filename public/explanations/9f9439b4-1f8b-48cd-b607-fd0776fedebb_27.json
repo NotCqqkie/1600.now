@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what must be emphasized",
-      "content": "The prompt requires emphasizing <strong>WHEN</strong> Judea Pearl won the award\u2014the timing. The notes provide exactly one date: 2011."
-    },
-    {
-      "title": "Find which choice emphasizes the timing",
-      "content": "Choice B is the only one that includes 2011 and structures the sentence to emphasize it\u2014\u201dIt was in 2011 that...\u201d puts the year at the front where it stands out. The other three all omit the date and thus cannot satisfy the prompt's requirement to emphasize timing. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what must be emphasized", "content": "The prompt requires emphasizing <strong>WHEN</strong> Judea Pearl won the award—the timing. The notes provide exactly one date: 2011."}, {"title": "Find which choice emphasizes the timing", "content": "Choice B is the only one that includes 2011 and structures the sentence to emphasize it—”It was in 2011 that...” puts the year at the front where it stands out.<br/><br/>The other three all omit the date and thus cannot satisfy the prompt's requirement to emphasize timing.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

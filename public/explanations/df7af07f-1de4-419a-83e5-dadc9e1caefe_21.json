@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sequence structure",
-      "content": "The passage describes a causal chain using explicit sequential markers: \u201cFirst\u201d signals the opening step, and \u201cFinally\u201d signals the closing step. The blank falls between these, requiring a transition word that advances the sequence."
-    },
-    {
-      "title": "Select the sequential transition",
-      "content": "\u201dNext,\u201d advances from step 1 to step 2, matching the sequential structure. \u201cSimilarly\u201d treats steps as parallel, \u201cOn the contrary\u201d introduces contrast, and \u201cFirst of all\u201d redundantly repeats the initial \u201cFirst.\u201d The sequence requires a forward-moving transition to connect the opening step to the final result. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sequence structure", "content": "The passage describes a causal chain using explicit sequential markers: “First” signals the opening step, and “Finally” signals the closing step. The blank falls between these, requiring a transition word that advances the sequence."}, {"title": "Select the sequential transition", "content": "”Next,” advances from step 1 to step 2, matching the sequential structure. “Similarly” treats steps as parallel, “On the contrary” introduces contrast, and “First of all” redundantly repeats the initial “First.” The sequence requires a forward-moving transition to connect the opening step to the final result.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

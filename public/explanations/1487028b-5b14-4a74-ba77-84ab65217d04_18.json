@@ -1,15 +1,1 @@
-{
-  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures",
-      "content": "Two independent clauses need to be joined: <em>Dickens's novel originally had a different title, though</em> and <em>while writing and editing, Dickens had planned to call the novel Mag's Diversions</em>. The transition <strong>though</strong> caps the first clause."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Choice A uses <em>title, though;</em> — a comma sets off the trailing transition <strong>though</strong>, and the semicolon then joins the two independent clauses. Choice B uses a comma after <em>though</em>, creating a comma splice. Choices C and D drop the needed punctuation between the independent clauses. That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "Two independent clauses need to be joined: <em>Dickens's novel originally had a different title, though</em> and <em>while writing and editing, Dickens had planned to call the novel Mag's Diversions</em>. The transition <strong>though</strong> caps the first clause."}, {"title": "Apply the punctuation rule", "content": "Choice A uses <em>title, though;</em> — a comma sets off the trailing transition <strong>though</strong>, and the semicolon then joins the two independent clauses.<br/><br/>Choice B uses a comma after <em>though</em>, creating a comma splice.<br/><br/>Choices C and D drop the needed punctuation between the independent clauses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

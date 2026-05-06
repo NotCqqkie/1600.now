@@ -1,15 +1,1 @@
-{
-  "questionId": "cdbbbf94",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures",
-      "content": "Before the blank is an independent clause: \u201can extra leap second is added.\u201d The word \u201cwhenever\u201d begins a dependent clause: \u201ctime based on the planet's rotation lags a full nine-tenths of a second behind time kept by precise atomic clocks.\u201d"
-    },
-    {
-      "title": "Apply the subordinating conjunction rule",
-      "content": "A subordinating conjunction connects an independent clause to a dependent clause directly, with no punctuation. Choice D applies this rule. The other choices add punctuation that either breaks the connection (A's comma), incorrectly uses semicolon syntax meant for independent clauses (B), or fragments the sentence (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cdbbbf94", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "Before the blank is an independent clause: “an extra leap second is added.” The word “whenever” begins a dependent clause: “time based on the planet's rotation lags a full nine-tenths of a second behind time kept by precise atomic clocks.”"}, {"title": "Apply the subordinating conjunction rule", "content": "A subordinating conjunction connects an independent clause to a dependent clause directly, with no punctuation.<br/><br/>Choice D applies this rule. The other choices add punctuation that either breaks the connection (A's comma), incorrectly uses semicolon syntax meant for independent clauses (B), or fragments the sentence (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

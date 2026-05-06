@@ -1,15 +1,1 @@
-{
-  "questionId": "98d0a5d7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the pattern the evidence must show",
-      "content": "The researchers conclude that electric lighting prompted a behavioral shift\u2014more nighttime activity. The evidence supporting this must show increased nighttime activity references in novels published after electric lighting spread in the late 1800s."
-    },
-    {
-      "title": "Find which choice demonstrates more nighttime activity after lighting spread",
-      "content": "B shows the pattern exactly: novels after 1880 contain significantly more references to activities occurring after 10 p.m., revealing the behavioral change that electric lighting enabled. A, C, and D either address daytime hours (irrelevant to lighting), track reference types rather than actual behavior, or show no temporal shift. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98d0a5d7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the pattern the evidence must show", "content": "The researchers conclude that electric lighting prompted a behavioral shift—more nighttime activity. The evidence supporting this must show increased nighttime activity references in novels published after electric lighting spread in the late 1800s."}, {"title": "Find which choice demonstrates more nighttime activity after lighting spread", "content": "B shows the pattern exactly: novels after 1880 contain significantly more references to activities occurring after 10 p.m., revealing the behavioral change that electric lighting enabled.<br/><br/>A, C, and D either address daytime hours (irrelevant to lighting), track reference types rather than actual behavior, or show no temporal shift.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

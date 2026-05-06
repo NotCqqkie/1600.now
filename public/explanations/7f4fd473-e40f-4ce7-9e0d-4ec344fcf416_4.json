@@ -1,15 +1,1 @@
-{
-  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_4",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast",
-      "content": "The passage shows GRB 230307A lasted 200 seconds, then immediately notes that neutron merger bursts typically last fewer than 2 seconds. This stark discrepancy signals that the blank should convey something unexpected or unusual about this burst."
-    },
-    {
-      "title": "Find the word expressing 'unexpected'",
-      "content": "The blank requires a word meaning \u201csomething unexpected or strange.\u201d \u201cAn oddity\u201d expresses this exactly\u2014it captures how atypical a 200-second burst is for a neutron merger event. The other three fail to convey this sense of scientific unusualness: \u201cincident\u201d is neutral, \u201creprieve\u201d suggests relief, and \u201ccoincidence\u201d implies randomness. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The passage shows GRB 230307A lasted 200 seconds, then immediately notes that neutron merger bursts typically last fewer than 2 seconds. This stark discrepancy signals that the blank should convey something unexpected or unusual about this burst."}, {"title": "Find the word expressing 'unexpected'", "content": "The blank requires a word meaning “something unexpected or strange.” “An oddity” expresses this exactly—it captures how atypical a 200-second burst is for a neutron merger event.<br/><br/>The other three fail to convey this sense of scientific unusualness: “incident” is neutral, “reprieve” suggests relief, and “coincidence” implies randomness.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

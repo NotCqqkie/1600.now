@@ -1,15 +1,1 @@
-{
-  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the critical signal",
-      "content": "The passage shows that something caused ecologists to \u201cexpress reservations\u201d about the traditional descriptions' utility. Reservations\u2014skepticism about a theory\u2014arise when new findings contradict the old theory."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "\u201dDiscrepancies between\u201d captures the contradictions between traditional descriptions and recent observations\u2014exactly what would trigger doubts about the old theory's usefulness. The other three suggest announcements, repetitions, or similarities rather than conflict. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3926df58-b496-49f8-807d-ce478d37162e_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the critical signal", "content": "The passage shows that something caused ecologists to “express reservations” about the traditional descriptions' utility. Reservations—skepticism about a theory—arise when new findings contradict the old theory."}, {"title": "Match the meaning to the choices", "content": "”Discrepancies between” captures the contradictions between traditional descriptions and recent observations—exactly what would trigger doubts about the old theory's usefulness.<br/><br/>The other three suggest announcements, repetitions, or similarities rather than conflict.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

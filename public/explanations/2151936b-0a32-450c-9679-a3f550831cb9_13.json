@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the redirection pattern",
-      "content": "The passage states that FTAs sometimes incentivize countries to redirect existing trade from nonmember countries to FTA partners. This means exports to the US (the FTA partner) should increase, while total exports overall should decrease\u2014showing that trade was shifted, not newly created."
-    },
-    {
-      "title": "Match the pattern to the data",
-      "content": "Morocco shows the redirection pattern exactly: its rate of exports to the US rose from about 1% to 6%, while its total agricultural exports fell from about 3% to 1%\u2014indicating trade shifted toward the US. The other three countries all fail the pattern\u2014Jordan's total exports stayed flat, Australia's exports to the US actually fell, and Panama's total exports increased rather than decreased. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the redirection pattern", "content": "The passage states that FTAs sometimes incentivize countries to redirect existing trade from nonmember countries to FTA partners. This means exports to the US (the FTA partner) should increase, while total exports overall should decrease—showing that trade was shifted, not newly created."}, {"title": "Match the pattern to the data", "content": "Morocco shows the redirection pattern exactly: its rate of exports to the US rose from about 1% to 6%, while its total agricultural exports fell from about 3% to 1%—indicating trade shifted toward the US.<br/><br/>The other three countries all fail the pattern—Jordan's total exports stayed flat, Australia's exports to the US actually fell, and Panama's total exports increased rather than decreased.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

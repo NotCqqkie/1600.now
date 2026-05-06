@@ -1,15 +1,1 @@
-{
-  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its structure",
-      "content": "The blank comes after \u201cHaving proportionally large populations,\u201d which is a gerund phrase acting as the subject of the sentence."
-    },
-    {
-      "title": "Apply the subject-verb agreement rule",
-      "content": "Gerund phrases, regardless of their objects, function as singular subjects and require a singular verb. \u201cIs\u201d is the correct singular choice. The other three are plural verbs (were, are, have been), which violate subject-verb agreement with this singular subject. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and its structure", "content": "The blank comes after “Having proportionally large populations,” which is a gerund phrase acting as the subject of the sentence."}, {"title": "Apply the subject-verb agreement rule", "content": "Gerund phrases, regardless of their objects, function as singular subjects and require a singular verb. “Is” is the correct singular choice.<br/><br/>The other three are plural verbs (were, are, have been), which violate subject-verb agreement with this singular subject.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

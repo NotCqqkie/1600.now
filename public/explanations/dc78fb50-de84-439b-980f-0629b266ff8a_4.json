@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The sentence contains the phrase <em>architectural tourists... can easily recognize how its style draws inspiration</em>. This shows the Spanish influence is something clearly noticeable throughout California\u2014an observable, tangible presence."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The word <strong>palpable</strong> means <em>easily perceived</em> or <em>clearly present</em>, directly aligning with the tourists' ability to recognize the influence. The other three choices either reverse the meaning (understated), suggest conflict (disputed), or provide irrelevant concepts (corroborated). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The sentence contains the phrase <em>architectural tourists... can easily recognize how its style draws inspiration</em>. This shows the Spanish influence is something clearly noticeable throughout California—an observable, tangible presence."}, {"title": "Match the meaning", "content": "The word <strong>palpable</strong> means <em>easily perceived</em> or <em>clearly present</em>, directly aligning with the tourists' ability to recognize the influence.<br/><br/>The other three choices either reverse the meaning (understated), suggest conflict (disputed), or provide irrelevant concepts (corroborated).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

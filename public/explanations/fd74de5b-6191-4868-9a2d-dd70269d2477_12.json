@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what supports the researcher's claim",
-      "content": "The researcher claims that some lakes have seen a decline in ice duration from 1980-81 to 2005-06. To support this claim, we need a lake that shows <strong>fewer days of ice in 2005-06 than in 1980-81</strong>."
-    },
-    {
-      "title": "Match the evidence to the claim",
-      "content": "Choice B shows Lake Kallavesi with approximately 175 days of ice in 1980-81 and approximately 145 days in 2005-06\u2014a loss of roughly 30 days. The other three choices either show an increase over time, deny that any decline occurred, or describe only 2005-06 values without proving decline across both periods.<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what supports the researcher's claim", "content": "The researcher claims that some lakes have seen a decline in ice duration from 1980-81 to 2005-06. To support this claim, we need a lake that shows <strong>fewer days of ice in 2005-06 than in 1980-81</strong>."}, {"title": "Match the evidence to the claim", "content": "Choice B shows Lake Kallavesi with approximately 175 days of ice in 1980-81 and approximately 145 days in 2005-06—a loss of roughly 30 days.<br/><br/>The other three choices either show an increase over time, deny that any decline occurred, or describe only 2005-06 values without proving decline across both periods.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

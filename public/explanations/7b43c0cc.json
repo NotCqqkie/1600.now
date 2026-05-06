@@ -1,15 +1,1 @@
-{
-  "questionId": "7b43c0cc",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The colon introduces an explanation: members \u201cnot only contributed to its composition but also must be included in all performances.\u201d The <strong>not only...but also</strong> construction emphasizes that their role is <strong>fundamental</strong>\u2014essential in both creating and performing the piece."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Integral</strong> means essential and fundamental\u2014exactly what the passage describes with its emphasis on their dual role in composition and mandatory presence in performances. The other choices either minimize the role (tangential implies peripheral involvement), describe timing rather than importance (subsequent means later), or suggest comparison (analogous means similar), none of which fit the core claim. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7b43c0cc", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The colon introduces an explanation: members “not only contributed to its composition but also must be included in all performances.” The <strong>not only...but also</strong> construction emphasizes that their role is <strong>fundamental</strong>—essential in both creating and performing the piece."}, {"title": "Match the meaning to the choices", "content": "<strong>Integral</strong> means essential and fundamental—exactly what the passage describes with its emphasis on their dual role in composition and mandatory presence in performances.<br/><br/>The other choices either minimize the role (tangential implies peripheral involvement), describe timing rather than importance (subsequent means later), or suggest comparison (analogous means similar), none of which fit the core claim.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

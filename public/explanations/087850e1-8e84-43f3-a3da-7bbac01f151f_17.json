@@ -1,15 +1,1 @@
-{
-  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify where two independent clauses meet",
-      "content": "The sentence contains two complete thoughts (independent clauses): \u201cHer work challenges conventional notions of race, gender, history, and [blank]\u201d and \u201cshe is credited with expanding the horizons of conceptual photographic art.\u201d In the same sentence, these need proper connection."
-    },
-    {
-      "title": "Apply the joining rule",
-      "content": "A comma with a coordinating conjunction joins two clauses in the same sentence. Choice B (\u201cmemory, and\u201d) uses this structure correctly: \u201c...and memory, and she is credited with...\u201d The first \u201cand\u201d finishes the list of notions; the second \u201cand\u201d (after the comma) is the coordinating conjunction that joins the two clauses. Choices A, C, and D omit the necessary comma, conjunction, or both. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify where two independent clauses meet", "content": "The sentence contains two complete thoughts (independent clauses): “Her work challenges conventional notions of race, gender, history, and [blank]” and “she is credited with expanding the horizons of conceptual photographic art.” In the same sentence, these need proper connection."}, {"title": "Apply the joining rule", "content": "A comma with a coordinating conjunction joins two clauses in the same sentence.<br/><br/>Choice B (“memory, and”) uses this structure correctly: “...and memory, and she is credited with...” The first “and” finishes the list of notions; the second “and” (after the comma) is the coordinating conjunction that joins the two clauses.<br/><br/>Choices A, C, and D omit the necessary comma, conjunction, or both.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

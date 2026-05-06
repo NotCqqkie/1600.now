@@ -1,15 +1,1 @@
-{
-  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The conclusion is that \u201ccontrasting markings were a deterrent\u201d\u2014meaning spiders should avoid attacking striped termites and instead target solid-color ones. The data must show spiders preferring solid colors over stripes, regardless of which termite caught their initial attention."
-    },
-    {
-      "title": "Match the evidence to the choices",
-      "content": "Reading across the table rows (each showing what spiders attacked after initially looking at each cape type): spiders that first looked at solid black attacked solid colors 86% of the time and stripes only 13%; those that first looked at solid white attacked solid colors 100% and stripes 0%; those that first looked at striped attacked solid colors 75% and stripes 25%. All three rows show a large majority attacking solid-color capes, not striped ones. Choice A describes specific percentages without demonstrating the overall pattern, choice B falsely claims striped capes attracted a majority (only 25%), and choice D captures just one row. Choice C directly states that across all initial-interest types, the large majority of attacks targeted solid-color capes\u2014the exact pattern needed to support a deterrent effect for striped markings. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The conclusion is that “contrasting markings were a deterrent”—meaning spiders should avoid attacking striped termites and instead target solid-color ones. The data must show spiders preferring solid colors over stripes, regardless of which termite caught their initial attention."}, {"title": "Match the evidence to the choices", "content": "Reading across the table rows (each showing what spiders attacked after initially looking at each cape type): spiders that first looked at solid black attacked solid colors 86% of the time and stripes only 13%; those that first looked at solid white attacked solid colors 100% and stripes 0%; those that first looked at striped attacked solid colors 75% and stripes 25%.<br/><br/>All three rows show a large majority attacking solid-color capes, not striped ones.<br/><br/>Choice A describes specific percentages without demonstrating the overall pattern, choice B falsely claims striped capes attracted a majority (only 25%), and choice D captures just one row.<br/><br/>Choice C directly states that across all initial-interest types, the large majority of attacks targeted solid-color capes—the exact pattern needed to support a deterrent effect for striped markings.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

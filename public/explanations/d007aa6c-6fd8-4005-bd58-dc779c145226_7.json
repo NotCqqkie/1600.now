@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive flaw in Text 2's critique",
-      "content": "Among the three shortcomings Text 2 identifies, the most relevant to Text 1's causal claim is the \u201clack of control groups.\u201d Without a control group to compare against, there's no way to prove the training itself caused the outcome."
-    },
-    {
-      "title": "Connect the flaw to the objection",
-      "content": "The missing control group allows the objection that participants would have shown high likelihood of creating new businesses regardless of whether they received training\u2014exactly what B states. Choices A, C, and D concern unrelated issues: observer bias, sample size mechanics, and training duration. Text 2's critique centers on methodological design, so its author would specifically want assurance that a control group was used to rule out this alternative explanation. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the decisive flaw in Text 2's critique", "content": "Among the three shortcomings Text 2 identifies, the most relevant to Text 1's causal claim is the “lack of control groups.” Without a control group to compare against, there's no way to prove the training itself caused the outcome."}, {"title": "Connect the flaw to the objection", "content": "The missing control group allows the objection that participants would have shown high likelihood of creating new businesses regardless of whether they received training—exactly what B states.<br/><br/>Choices A, C, and D concern unrelated issues: observer bias, sample size mechanics, and training duration.<br/><br/>Text 2's critique centers on methodological design, so its author would specifically want assurance that a control group was used to rule out this alternative explanation.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "08df3b47-9273-4ad6-9301-332804bc6404_20",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize vertex form",
-      "content": "The problem states the object reaches maximum height 27.04 feet at t = 1.3 seconds. This is the vertex. Using vertex form $f(t) = a(t - h)^2 + k$ where the vertex is $(h, k)$, we have $(h, k) = (1.3, 27.04)$. Therefore: $$f(t) = a(t - 1.3)^2 + 27.04$$",
-      "formula": "$$f(t) = a(t - h)^2 + k$$"
-    },
-    {
-      "title": "Determine the sign of the leading coefficient",
-      "content": "The object is launched from ground level and reaches a maximum before falling back down. This means the parabola opens downward, so $a < 0$. Among the answer choices, we need the form with $(t - 1.3)^2$ (not $(t + 1.3)^2$) and a negative coefficient. This gives us: $$f(t) = -16(t - 1.3)^2 + 27.04$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "08df3b47-9273-4ad6-9301-332804bc6404_20", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize vertex form", "content": "The problem states the object reaches maximum height 27.04 feet at t = 1.3 seconds. This is the vertex. Using vertex form $f(t) = a(t - h)^2 + k$ where the vertex is $(h, k)$, we have $(h, k) = (1.3, 27.04)$. Therefore: $$f(t) = a(t - 1.3)^2 + 27.04$$", "formula": "$$f(t) = a(t - h)^2 + k$$"}, {"title": "Determine the sign of the leading coefficient", "content": "The object is launched from ground level and reaches a maximum before falling back down.<br/><br/>This means the parabola opens downward, so $a < 0$. Among the answer choices, we need the form with $(t - 1.3)^2$ (not $(t + 1.3)^2$) and a negative coefficient.<br/><br/>This gives us: $$f(t) = -16(t - 1.3)^2 + 27.04$$ That matches choice A — <strong>A</strong> is correct."}]}

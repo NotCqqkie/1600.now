@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase \u201cforced to ______ the throne\u201d signals that the missing word describes an action a monarch would be compelled to take if lacking legitimacy."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Abandon means to give up or leave, which matches the idea of being forced to relinquish the throne due to legitimacy concerns. The other three verbs\u2014reciprocate, annotate, equalize\u2014do not convey relinquishing a position and therefore do not fit the context. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase “forced to ______ the throne” signals that the missing word describes an action a monarch would be compelled to take if lacking legitimacy."}, {"title": "Apply the signal to the choices", "content": "Abandon means to give up or leave, which matches the idea of being forced to relinquish the throne due to legitimacy concerns.<br/><br/>The other three verbs—reciprocate, annotate, equalize—do not convey relinquishing a position and therefore do not fit the context.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

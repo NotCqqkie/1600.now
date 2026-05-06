@@ -1,15 +1,1 @@
-{
-  "questionId": "33b1b285",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the claim's two components",
-      "content": "The historian claims carpa theater had slapstick comedy (exaggerated physical humor) that was shaped by audience reactions. A supporting quotation must illustrate both elements in El Teatro's style."
-    },
-    {
-      "title": "Match both elements to the choices",
-      "content": "Choice A shows both: actos with \u201cexaggerated physical humor\u201d and audience reactions that \u201cpromoted improvisation.\u201d This directly illustrates the slapstick-and-audience-responsive style of carpa theater. The other three address humor's social role, the troupe's aesthetic choices, or staging simplicity, but don't show this stylistic influence. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "33b1b285", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the claim's two components", "content": "The historian claims carpa theater had slapstick comedy (exaggerated physical humor) that was shaped by audience reactions. A supporting quotation must illustrate both elements in El Teatro's style."}, {"title": "Match both elements to the choices", "content": "Choice A shows both: actos with “exaggerated physical humor” and audience reactions that “promoted improvisation.” This directly illustrates the slapstick-and-audience-responsive style of carpa theater.<br/><br/>The other three address humor's social role, the troupe's aesthetic choices, or staging simplicity, but don't show this stylistic influence.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

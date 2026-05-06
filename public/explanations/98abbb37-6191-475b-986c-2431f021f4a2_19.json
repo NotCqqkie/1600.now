@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures",
-      "content": "The left side is an independent clause ending at the blank (<em>...is one of the longest suspension bridges in the ______</em>). The right side is a separate independent clause (<em>the Yavuz Sultan Selim Bridge...is even longer</em>). Two independent clauses must be properly connected."
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "A comma + coordinating conjunction correctly joins two independent clauses. The contrast between the sentences (one bridge ranks among the longest; the other is longer) indicates <strong>but</strong> as the right conjunction, so <strong>world, but</strong> is correct. A) adds an unwanted comma after <strong>but</strong>, B) omits the conjunction (creating a comma splice), and D) drops the required comma before <strong>but</strong>\u2014all violate the joining rule. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "The left side is an independent clause ending at the blank (<em>...is one of the longest suspension bridges in the ______</em>). The right side is a separate independent clause (<em>the Yavuz Sultan Selim Bridge...is even longer</em>). Two independent clauses must be properly connected."}, {"title": "Apply the rule for joining independent clauses", "content": "A comma + coordinating conjunction correctly joins two independent clauses.<br/><br/>The contrast between the sentences (one bridge ranks among the longest; the other is longer) indicates <strong>but</strong> as the right conjunction, so <strong>world, but</strong> is correct.<br/><br/>A) adds an unwanted comma after <strong>but</strong>, B) omits the conjunction (creating a comma splice), and D) drops the required comma before <strong>but</strong>—all violate the joining rule.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

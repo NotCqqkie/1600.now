@@ -1,15 +1,1 @@
-{
-  "questionId": "a20b7511",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The contrast word <strong>\u201cbut\u201d</strong> signals that new evidence overturns the scholars' original belief. The evidence reveals silk was used at least <strong>1,000 years earlier</strong> than the supposed second century CE \u2014 a direct contradiction."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>\u201cContradicted\u201d</strong> means a previous belief is disproven by contrary evidence. That directly matches the situation: new evidence proves the scholars' timeline wrong. The other three choices describe different concepts \u2014 investigation, miscommunication, or prediction \u2014 none of which capture the disproof. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a20b7511", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The contrast word <strong>“but”</strong> signals that new evidence overturns the scholars' original belief. The evidence reveals silk was used at least <strong>1,000 years earlier</strong> than the supposed second century CE — a direct contradiction."}, {"title": "Match the meaning", "content": "<strong>“Contradicted”</strong> means a previous belief is disproven by contrary evidence.<br/><br/>That directly matches the situation: new evidence proves the scholars' timeline wrong.<br/><br/>The other three choices describe different concepts — investigation, miscommunication, or prediction — none of which capture the disproof.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

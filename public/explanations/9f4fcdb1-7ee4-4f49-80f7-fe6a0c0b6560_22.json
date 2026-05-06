@@ -1,15 +1,1 @@
-{
-  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage provides examples of state soil designations from different years (1983, 1985), indicating that years pass between selection and official designation."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dIn many cases,\u201d correctly indicates that delays between selection and designation are frequent, not exceptional. The other choices fail because \u201cTherefore\u201d falsely treats the examples as logical premises, \u201cIndeed\u201d confirms something not yet stated, and \u201cSimilarly\u201d creates a nonexistent comparison. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage provides examples of state soil designations from different years (1983, 1985), indicating that years pass between selection and official designation."}, {"title": "Apply the signal to the choices", "content": "”In many cases,” correctly indicates that delays between selection and designation are frequent, not exceptional.<br/><br/>The other choices fail because “Therefore” falsely treats the examples as logical premises, “Indeed” confirms something not yet stated, and “Similarly” creates a nonexistent comparison.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

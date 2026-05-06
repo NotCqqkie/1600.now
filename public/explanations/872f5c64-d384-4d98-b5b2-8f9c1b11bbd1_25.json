@@ -1,15 +1,1 @@
-{
-  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify which works the notes call most famous",
-      "content": "The notes explicitly identify E.M. Forster's most famous novels as <em>A Room with a View</em> (1908) and <em>Howards End</em> (1910). To provide a specific example of one of his most famous works, the answer must reference one of these two novels."
-    },
-    {
-      "title": "Find the choice that names one of these famous works",
-      "content": "Choice C identifies <em>A Room with a View</em> and calls it \u201cone of E.M. Forster's most famous works.\u201d The other choices either provide only general information about Forster without naming a specific famous work (A), or name \u201cAlbergo Empedocle,\u201d which the notes describe as his first published work, not one of his most famous (B and D).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify which works the notes call most famous", "content": "The notes explicitly identify E.M. Forster's most famous novels as <em>A Room with a View</em> (1908) and <em>Howards End</em> (1910). To provide a specific example of one of his most famous works, the answer must reference one of these two novels."}, {"title": "Find the choice that names one of these famous works", "content": "Choice C identifies <em>A Room with a View</em> and calls it “one of E.M.<br/><br/>Forster's most famous works.” The other choices either provide only general information about Forster without naming a specific famous work (A), or name “Albergo Empedocle,” which the notes describe as his first published work, not one of his most famous (B and D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

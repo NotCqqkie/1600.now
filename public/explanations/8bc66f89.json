@@ -1,15 +1,1 @@
-{
-  "questionId": "8bc66f89",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's problem-solution structure",
-      "content": "The passage presents a problem: the soil's tough crust prevents seeds from germinating. It then introduces birds as potentially helpful. The underlined portion immediately follows this setup\u2014positioned to answer the implicit question: <em>how do these birds actually help?</em>"
-    },
-    {
-      "title": "Determine what the underlined portion explains",
-      "content": "The underlined portion states that birds \u201cchurn the soil, exposing buried seeds to moisture and nutrients\u201d\u2014this directly explains the mechanism by which their digging promotes germination. The other choices focus on different aspects: A on the crust problem, B on seed deposition, C on bird motivation. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8bc66f89", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's problem-solution structure", "content": "The passage presents a problem: the soil's tough crust prevents seeds from germinating. It then introduces birds as potentially helpful. The underlined portion immediately follows this setup—positioned to answer the implicit question: <em>how do these birds actually help?</em>"}, {"title": "Determine what the underlined portion explains", "content": "The underlined portion states that birds “churn the soil, exposing buried seeds to moisture and nutrients”—this directly explains the mechanism by which their digging promotes germination.<br/><br/>The other choices focus on different aspects: <ul><li>A on the crust problem</li><li>B on seed deposition</li><li>C on bird motivation</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

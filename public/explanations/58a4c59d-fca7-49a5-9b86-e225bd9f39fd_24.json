@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast between achieved success and unproven claim",
-      "content": "NASA successfully altered a secondary object's orbit, yet scientists have <em>yet to demonstrate</em> the same works for primary objects. The opposition between this achievement and the lack of proof is the decisive signal. The transition must capture this contrast."
-    },
-    {
-      "title": "Match the transition signal to the choices",
-      "content": "Though signals the needed contrast: even though secondary objects were successfully altered, scientists still haven't demonstrated the same for primary objects. The other three choices fail to create this opposition\u2014one introduces an example, one suggests a similarity not yet proven, and one simply adds information. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast between achieved success and unproven claim", "content": "NASA successfully altered a secondary object's orbit, yet scientists have <em>yet to demonstrate</em> the same works for primary objects. The opposition between this achievement and the lack of proof is the decisive signal. The transition must capture this contrast."}, {"title": "Match the transition signal to the choices", "content": "Though signals the needed contrast: even though secondary objects were successfully altered, scientists still haven't demonstrated the same for primary objects.<br/><br/>The other three choices fail to create this opposition—one introduces an example, one suggests a similarity not yet proven, and one simply adds information.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

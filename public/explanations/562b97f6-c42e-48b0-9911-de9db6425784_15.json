@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "A participial phrase \u201cHaving 9,721 feet of prominence,\u201d is followed by a blank space that must be filled with an independent clause."
-    },
-    {
-      "title": "Apply the dangling modifier rule",
-      "content": "A participial phrase must be immediately followed by the noun it logically modifies. Choice A correctly places \u201cPico do Ramelau\u201d (the mountain with prominence) as this noun. B, C, and D violate this rule by positioning nouns (the list, geographers, the ranking) that cannot logically possess prominence. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "A participial phrase “Having 9,721 feet of prominence,” is followed by a blank space that must be filled with an independent clause."}, {"title": "Apply the dangling modifier rule", "content": "A participial phrase must be immediately followed by the noun it logically modifies.<br/><br/>Choice A correctly places “Pico do Ramelau” (the mountain with prominence) as this noun.<br/><br/>B, C, and D violate this rule by positioning nouns (the list, geographers, the ranking) that cannot logically possess prominence.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

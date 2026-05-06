@@ -1,15 +1,1 @@
-{
-  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what objective to emphasize",
-      "content": "The student must emphasize the study's primary aim. The notes state this explicitly: to determine the benefits of UNAs in European cities."
-    },
-    {
-      "title": "Find which choice emphasizes it",
-      "content": "C makes determining UNA benefits the sentence's main point: <em>\u201cDetermining the benefits of UNAs in European cities was a primary aim of the GREEN SURGE study.\u201d</em> A describes the study's scope, B mentions an objective without stating what it is, and D discusses what parks do biologically. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what objective to emphasize", "content": "The student must emphasize the study's primary aim. The notes state this explicitly: to determine the benefits of UNAs in European cities."}, {"title": "Find which choice emphasizes it", "content": "C makes determining UNA benefits the sentence's main point: <em>“Determining the benefits of UNAs in European cities was a primary aim of the GREEN SURGE study.”</em> <ul><li>A describes the study's scope</li><li>B mentions an objective without stating what it is</li><li>D discusses what parks do biologically</li></ul>.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

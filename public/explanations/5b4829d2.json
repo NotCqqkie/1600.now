@@ -1,15 +1,1 @@
-{
-  "questionId": "5b4829d2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what varied between the groups",
-      "content": "The study shows that participants were divided into two groups: some saw a less detailed initial ad, others a more detailed one. This difference in detail level directly correlates with their subsequent ratings\u2014those who saw less detail gave higher opinions of the second ad, while those who saw more detail gave lower opinions."
-    },
-    {
-      "title": "Apply the variable to the choices",
-      "content": "The answer must identify what characteristic of the first ad determined how people rated the second. Choice C names the key variable that differed between groups: the amount of detail in previous ads. The other three reference variables never present in the study: viewer count, viewing duration, and time of day. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5b4829d2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what varied between the groups", "content": "The study shows that participants were divided into two groups: some saw a less detailed initial ad, others a more detailed one.<br/><br/>This difference in detail level directly correlates with their subsequent ratings—those who saw less detail gave higher opinions of the second ad, while those who saw more detail gave lower opinions."}, {"title": "Apply the variable to the choices", "content": "The answer must identify what characteristic of the first ad determined how people rated the second.<br/><br/>Choice C names the key variable that differed between groups: the amount of detail in previous ads.<br/><br/>The other three reference variables never present in the study: viewer count, viewing duration, and time of day.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

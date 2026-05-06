@@ -1,15 +1,1 @@
-{
-  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_7",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The phrase <em>\u201can important exception:\u201d</em> marks the passage structure \u2014 it indicates that what follows will contradict the overemphasized interpretation introduced in the first sentence."
-    },
-    {
-      "title": "Match the structure",
-      "content": "C directly identifies this structure: it describes how an interpretation has been perpetuated in a field and then provides a counterexample showing the interpretation isn't always accurate. The others mischaracterize the structure: A treats the examples as main research subjects, B overstates the consensus aspect and adds unsupported controversy, and D reverses the relationship between ideas.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the key signal", "content": "The phrase <em>“an important exception:”</em> marks the passage structure — it indicates that what follows will contradict the overemphasized interpretation introduced in the first sentence."}, {"title": "Match the structure", "content": "C directly identifies this structure: it describes how an interpretation has been perpetuated in a field and then provides a counterexample showing the interpretation isn't always accurate.<br/><br/>The others mischaracterize the structure: <ul><li>A treats the examples as main research subjects</li><li>B overstates the consensus aspect and adds unsupported controversy</li><li>D reverses the relationship between ideas</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

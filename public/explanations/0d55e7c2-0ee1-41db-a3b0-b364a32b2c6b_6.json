@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_6",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the sentence introduces",
-      "content": "The underlined sentence introduces a specific term\u2014\u201dthe hyoid\u201d\u2014that the very next sentence immediately begins using (\u201cOcelots...have a rigid hyoid\u201d) and that continues throughout the explanation."
-    },
-    {
-      "title": "Match the function to the answer",
-      "content": "The sentence introduces the term \u201chyoid,\u201d which immediately becomes the focal point for comparing the two species in what follows. The other three options attribute functions not performed here\u2014explaining the hypothesis, identifying location, or summarizing the text. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the sentence introduces", "content": "The underlined sentence introduces a specific term—”the hyoid”—that the very next sentence immediately begins using (“Ocelots...have a rigid hyoid”) and that continues throughout the explanation."}, {"title": "Match the function to the answer", "content": "The sentence introduces the term “hyoid,” which immediately becomes the focal point for comparing the two species in what follows.<br/><br/>The other three options attribute functions not performed here—explaining the hypothesis, identifying location, or summarizing the text.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

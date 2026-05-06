@@ -1,15 +1,1 @@
-{
-  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrasting outcomes",
-      "content": "The passage begins by praising a success: historians <strong>have deduced</strong> the authorship of Publius and many related essays. Then it shifts to other pen names that <strong>remain as elusive as they once were</strong> \u2014 unsolved. The transition must bridge between two opposite outcomes: solved <em>versus</em> unsolved."
-    },
-    {
-      "title": "Select the concessive transition",
-      "content": "We need a word that acknowledges the contrast: \u201cYes, we solved Publius, <strong>but</strong> these others remain elusive.\u201d \u201cThough\u201d serves as a concessive transition, expressing this expected-versus-actual contrast\u2014these names were perhaps expected to be solved (like Publius), yet they remain unsolved. The other choices fail to capture the opposition: \u201cindeed\u201d merely reinforces the elusiveness without contrasting it to the Publius success, \u201clikewise\u201d falsely suggests similarity between solved and unsolved cases, and \u201cfor example\u201d incorrectly positions these names as instances of the solved ones. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the contrasting outcomes", "content": "The passage begins by praising a success: historians <strong>have deduced</strong> the authorship of Publius and many related essays.<br/><br/>Then it shifts to other pen names that <strong>remain as elusive as they once were</strong> — unsolved.<br/><br/>The transition must bridge between two opposite outcomes: solved <em>versus</em> unsolved."}, {"title": "Select the concessive transition", "content": "We need a word that acknowledges the contrast: “Yes, we solved Publius, <strong>but</strong> these others remain elusive.” “Though” serves as a concessive transition, expressing this expected-versus-actual contrast—these names were perhaps expected to be solved (like Publius), yet they remain unsolved.<br/><br/>The other choices fail to capture the opposition: “indeed” merely reinforces the elusiveness without contrasting it to the Publius success, “likewise” falsely suggests similarity between solved and unsolved cases, and “for example” incorrectly positions these names as instances of the solved ones.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

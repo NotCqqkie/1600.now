@@ -1,15 +1,1 @@
-{
-  "questionId": "26f5c4ba",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the paradox",
-      "content": "The signal: \u201ceven when the green option was cheaper.\u201d Calculation Mode aims to minimize financial cost, yet these participants selected the more expensive standard plan\u2014a contradiction that requires explanation."
-    },
-    {
-      "title": "Explain the decision",
-      "content": "Answer C explains the paradox: the green plan imposes a burden (capping usage = inconvenience) that these participants weighed against the financial savings, and concluded inconvenience dominated. The other choices either misattribute to social factors (B), assume they ignored financial data (A), or suggest doubt about the costs (D)\u2014none fitting a two-factor decision model. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "26f5c4ba", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the paradox", "content": "The signal: “even when the green option was cheaper.” Calculation Mode aims to minimize financial cost, yet these participants selected the more expensive standard plan—a contradiction that requires explanation."}, {"title": "Explain the decision", "content": "Answer C explains the paradox: the green plan imposes a burden (capping usage = inconvenience) that these participants weighed against the financial savings, and concluded inconvenience dominated.<br/><br/>The other choices either misattribute to social factors (B), assume they ignored financial data (A), or suggest doubt about the costs (D)—none fitting a two-factor decision model.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

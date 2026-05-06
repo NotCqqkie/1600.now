@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the conclusion",
-      "content": "The team concludes: \u201cthe younger the dog, the worse it may be at differentiating between familiar and unfamiliar languages.\u201d Any supporting finding must show that younger dogs exhibit a smaller or weaker difference in neural response when comparing known versus unknown languages."
-    },
-    {
-      "title": "Match the evidence to that signal",
-      "content": "Choice B directly demonstrates this requirement: \u201cthe difference in brain activity decreased as the age of the dog scanned decreased\u201d means younger dogs show smaller neural distinctions between languages they know and don't know, proving weaker differentiation. The other choices either show all ages respond identically (A), measure overall activity levels rather than language-specific differences (C), or examine the wrong comparison\u2014scrambled speech versus unfamiliar language (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the conclusion", "content": "The team concludes: “the younger the dog, the worse it may be at differentiating between familiar and unfamiliar languages.” Any supporting finding must show that younger dogs exhibit a smaller or weaker difference in neural response when comparing known versus unknown languages."}, {"title": "Match the evidence to that signal", "content": "Choice B directly demonstrates this requirement: “the difference in brain activity decreased as the age of the dog scanned decreased” means younger dogs show smaller neural distinctions between languages they know and don't know, proving weaker differentiation.<br/><br/>The other choices either show all ages respond identically (A), measure overall activity levels rather than language-specific differences (C), or examine the wrong comparison—scrambled speech versus unfamiliar language (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

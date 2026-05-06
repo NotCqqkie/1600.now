@@ -1,15 +1,1 @@
-{
-  "questionId": "01989d77",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key contrast",
-      "content": "The passage contrasts methane levels in tanks with watermilfoil (lower) versus duckweed and algae (higher), signaling a causal relationship between plant type and methane escape."
-    },
-    {
-      "title": "Match the causal inference",
-      "content": "A links the lower methane in watermilfoil tanks directly to its ability to prevent emission, aligning with the experiment's logic. B and C introduce irrelevant comparisons or unstudied claims, while D contradicts the results by suggesting a mix of plants would help. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01989d77", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key contrast", "content": "The passage contrasts methane levels in tanks with watermilfoil (lower) versus duckweed and algae (higher), signaling a causal relationship between plant type and methane escape."}, {"title": "Match the causal inference", "content": "A links the lower methane in watermilfoil tanks directly to its ability to prevent emission, aligning with the experiment's logic.<br/><br/>B and C introduce irrelevant comparisons or unstudied claims, while D contradicts the results by suggesting a mix of plants would help.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

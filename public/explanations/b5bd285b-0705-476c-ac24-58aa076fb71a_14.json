@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the shared preference",
-      "content": "The passage states that <strong>both herons prefer areas with standing water for more than 60 days per year</strong>. This shared preference is the key to identifying what neither species would be drawn to."
-    },
-    {
-      "title": "Apply the preference to the blank",
-      "content": "Choice A directly names the opposite of their shared preference: areas with far fewer than 60 days of standing water. This is the condition they would logically avoid. The other three choices introduce unrelated factors: other species' breeding seasons, features unique to one heron type, or water depth that only one species values. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the shared preference", "content": "The passage states that <strong>both herons prefer areas with standing water for more than 60 days per year</strong>. This shared preference is the key to identifying what neither species would be drawn to."}, {"title": "Apply the preference to the blank", "content": "Choice A directly names the opposite of their shared preference: areas with far fewer than 60 days of standing water.<br/><br/>This is the condition they would logically avoid. The other three choices introduce unrelated factors: other species' breeding seasons, features unique to one heron type, or water depth that only one species values.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

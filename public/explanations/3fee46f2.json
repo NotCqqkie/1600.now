@@ -1,15 +1,1 @@
-{
-  "questionId": "3fee46f2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses",
-      "content": "Before the blank, \u201cGitlin's use of the term referenced TV studios' practice of repackaging successful narrative formulas as new content\u201d is a complete independent clause. After the blank, \u201cin that era, even shows that varied only slightly from other shows still attracted sizeable audiences\u201d is another independent clause."
-    },
-    {
-      "title": "Apply the semicolon rule",
-      "content": "A semicolon joins two independent clauses, so choice B correctly uses a semicolon to separate the two complete thoughts. The other three choices attempt to join two independent clauses with a comma alone, creating a comma splice. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3fee46f2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "Before the blank, “Gitlin's use of the term referenced TV studios' practice of repackaging successful narrative formulas as new content” is a complete independent clause.<br/><br/>After the blank, “in that era, even shows that varied only slightly from other shows still attracted sizeable audiences” is another independent clause."}, {"title": "Apply the semicolon rule", "content": "A semicolon joins two independent clauses, so choice B correctly uses a semicolon to separate the two complete thoughts.<br/><br/>The other three choices attempt to join two independent clauses with a comma alone, creating a comma splice.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

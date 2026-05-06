@@ -1,15 +1,1 @@
-{
-  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal: show temporal order",
-      "content": "The prompt asks to \u201cemphasize the order in which the supercontinents were formed\u201d\u2014meaning to clearly show which supercontinent formed first and which came later."
-    },
-    {
-      "title": "Match sequence to the choices",
-      "content": "Choice B uses \u201cformed long after,\u201d directly showing that Euramerica came much later than Vaalbara\u2014the exact temporal relationship the prompt asks for. A lists both supercontinents but no temporal link; C describes the general supercontinent cycle rather than the specific order; D includes only one supercontinent. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3926df58-b496-49f8-807d-ce478d37162e_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal: show temporal order", "content": "The prompt asks to “emphasize the order in which the supercontinents were formed”—meaning to clearly show which supercontinent formed first and which came later."}, {"title": "Match sequence to the choices", "content": "Choice B uses “formed long after,” directly showing that Euramerica came much later than Vaalbara—the exact temporal relationship the prompt asks for.<br/><br/><ul><li>A lists both supercontinents but no temporal link</li><li>C describes the general supercontinent cycle rather than the specific order</li><li>D includes only one supercontinent</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

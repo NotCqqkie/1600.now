@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage notes that Anna Lysyanskaya works in and teaches digital cryptography, showing her direct involvement in cryptology, just like Juanita Moody\u2019s early contributions as a cryptanalyst."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Answer A says they both have contributed to the field of cryptology, which matches the passage\u2019s point that Moody\u2019s early work paved the way for Lysyanskaya\u2019s current work in digital cryptography. The other three either describe activities not mentioned in the text or add details that the passage never states. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage notes that Anna Lysyanskaya works in and teaches digital cryptography, showing her direct involvement in cryptology, just like Juanita Moody’s early contributions as a cryptanalyst."}, {"title": "Match the signal to the choices", "content": "Answer A says they both have contributed to the field of cryptology, which matches the passage’s point that Moody’s early work paved the way for Lysyanskaya’s current work in digital cryptography.<br/><br/>The other three either describe activities not mentioned in the text or add details that the passage never states.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

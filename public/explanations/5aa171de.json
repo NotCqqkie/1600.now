@@ -1,15 +1,1 @@
-{
-  "questionId": "5aa171de",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the independent clauses",
-      "content": "The sentence contains two independent clauses: <strong>\u201cThey are hardly [word]\u201d</strong> and <strong>\u201cmany chondrites experience aqueous alteration as a result of exposure to fluids, as well as fracturing, veining, and localized melting due to collisions with other objects.\u201d</strong> The blank needs \u201cpristine\u201d\u2014they are hardly pristine means they are not in good condition. These two complete thoughts must be properly separated by punctuation."
-    },
-    {
-      "title": "Apply the boundary rule for joining independent clauses",
-      "content": "A semicolon separates two independent clauses; a comma alone creates a comma splice. <strong>\u201cThough\u201d</strong> serves as a transitional word showing the relationship between the clauses. Option A omits the required semicolon, leaving only a comma between the clauses. Option C places the semicolon incorrectly\u2014before \u201cthough\u201d instead of between the main clauses. Option D uses commas around \u201cthough\u201d as a parenthetical, which doesn't properly separate the independent clauses. Option B correctly inserts a semicolon to mark the boundary between the two independent clauses: <strong>\u201cThey are hardly pristine, though; many chondrites experience...\u201d</strong><br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5aa171de", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the independent clauses", "content": "The sentence contains two independent clauses: <strong>“They are hardly [word]”</strong> and <strong>“many chondrites experience aqueous alteration as a result of exposure to fluids, as well as fracturing, veining, and localized melting due to collisions with other objects.”</strong> The blank needs “pristine”—they are hardly pristine means they are not in good condition.<br/><br/>These two complete thoughts must be properly separated by punctuation."}, {"title": "Apply the boundary rule for joining independent clauses", "content": "A semicolon separates two independent clauses; a comma alone creates a comma splice. <strong>“Though”</strong> serves as a transitional word showing the relationship between the clauses.<br/><br/>Option A omits the required semicolon, leaving only a comma between the clauses.<br/><br/>Option C places the semicolon incorrectly—before “though” instead of between the main clauses.<br/><br/>Option D uses commas around “though” as a parenthetical, which doesn't properly separate the independent clauses.<br/><br/>Option B correctly inserts a semicolon to mark the boundary between the two independent clauses: <strong>“They are hardly pristine, though; many chondrites experience...”</strong><br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

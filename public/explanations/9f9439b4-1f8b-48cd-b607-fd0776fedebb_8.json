@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the text's central claim",
-      "content": "The passage concludes that \u201cgreater proximity alone can't explain the difference in park use.\u201d This is the text's answer to what drives the difference between the proportions: something other than proximity."
-    },
-    {
-      "title": "Match the answer to the claim",
-      "content": "Choice A directly states that the difference is caused by something other than proximity \u2014 which follows logically from the passage ruling out proximity as the sole explanation. The other choices mention researcher expectations, source timing, and survey accuracy, none of which the passage discusses. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the text's central claim", "content": "The passage concludes that “greater proximity alone can't explain the difference in park use.” This is the text's answer to what drives the difference between the proportions: something other than proximity."}, {"title": "Match the answer to the claim", "content": "Choice A directly states that the difference is caused by something other than proximity — which follows logically from the passage ruling out proximity as the sole explanation.<br/><br/>The other choices mention researcher expectations, source timing, and survey accuracy, none of which the passage discusses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

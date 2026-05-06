@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "The blank contains \u201cdrummer\u201d and \u201cDennis Chambers,\u201d where the name functions as an appositive renaming or clarifying the descriptor."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "A restrictive appositive provides essential identifying information and uses no commas. Since \u201cDennis Chambers\u201d is the essential identification for which drummer is meant, the correct form is \u201cAmerican drummer Dennis Chambers.\u201d Choices A and D incorrectly add commas (treating it as nonrestrictive), and choice B adds only a trailing comma. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "The blank contains “drummer” and “Dennis Chambers,” where the name functions as an appositive renaming or clarifying the descriptor."}, {"title": "Apply the restrictive appositive rule", "content": "A restrictive appositive provides essential identifying information and uses no commas.<br/><br/>Since “Dennis Chambers” is the essential identification for which drummer is meant, the correct form is “American drummer Dennis Chambers.” Choices A and D incorrectly add commas (treating it as nonrestrictive), and choice B adds only a trailing comma.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

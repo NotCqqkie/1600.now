@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5d4e3e",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the question-and-answer structure",
-      "content": "The passage opens with a direct question\u2014\u201dWere penguins always flightless?\u201d\u2014and the underlined sentence immediately answers it. Theresa Cole's claim that penguins \u201ccould fly at some point, but that they lost that ability more than 60 million years ago\u201d directly responds to that opening question."
-    },
-    {
-      "title": "Match the function to the answer",
-      "content": "Choice C correctly identifies this as an answer to the preceding question. The other choices misidentify the function: some describe elements not present in the sentence (a defined term, a contradiction), while others mischaracterize it as noting absent research rather than presenting research findings. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5d4e3e", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the question-and-answer structure", "content": "The passage opens with a direct question—”Were penguins always flightless?”—and the underlined sentence immediately answers it. Theresa Cole's claim that penguins “could fly at some point, but that they lost that ability more than 60 million years ago” directly responds to that opening question."}, {"title": "Match the function to the answer", "content": "Choice C correctly identifies this as an answer to the preceding question.<br/><br/>The other choices misidentify the function: some describe elements not present in the sentence (a defined term, a contradiction), while others mischaracterize it as noting absent research rather than presenting research findings.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

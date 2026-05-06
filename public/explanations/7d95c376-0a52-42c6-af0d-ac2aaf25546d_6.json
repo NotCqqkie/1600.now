@@ -1,15 +1,1 @@
-{
-  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence's role",
-      "content": "The underlined sentence immediately follows specific examples and announces what those examples illustrate: \u201cThis phenomenon...is called reduplication,\u201d followed by a definition of the general concept. This is the signature structure of a definition statement\u2014naming and explaining the principle behind the examples."
-    },
-    {
-      "title": "Match the role to the answer",
-      "content": "Choice D correctly describes this role: the sentence provides a general definition of the phenomenon discussed. The other three options misidentify what the sentence does\u2014explaining geographic origin (A), contrasting languages (B), or providing translations (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence's role", "content": "The underlined sentence immediately follows specific examples and announces what those examples illustrate: “This phenomenon...is called reduplication,” followed by a definition of the general concept.<br/><br/>This is the signature structure of a definition statement—naming and explaining the principle behind the examples."}, {"title": "Match the role to the answer", "content": "Choice D correctly describes this role: the sentence provides a general definition of the phenomenon discussed.<br/><br/>The other three options misidentify what the sentence does—explaining geographic origin (A), contrasting languages (B), or providing translations (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

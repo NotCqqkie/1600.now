@@ -1,15 +1,1 @@
-{
-  "questionId": "54c6128b",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical movement",
-      "content": "The underlined sentence uses <strong>Because</strong> to move from a specific finding (wood from distant Jura) to a broader claim about Roman trade complexity. This is the payoff moment where evidence yields a larger insight."
-    },
-    {
-      "title": "Determine the function",
-      "content": "The sentence presents a conclusion about Roman trade routes based on the team's findings. B invents a question never asked, C addresses a material choice unmentioned, and D describes construction techniques absent from the text. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "54c6128b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical movement", "content": "The underlined sentence uses <strong>Because</strong> to move from a specific finding (wood from distant Jura) to a broader claim about Roman trade complexity. This is the payoff moment where evidence yields a larger insight."}, {"title": "Determine the function", "content": "The sentence presents a conclusion about Roman trade routes based on the team's findings. <ul><li>B invents a question never asked</li><li>C addresses a material choice unmentioned</li><li>D describes construction techniques absent from the text</li></ul>. This matches choice A — <strong>A</strong> is correct."}]}

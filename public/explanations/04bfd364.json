@@ -1,15 +1,1 @@
-{
-  "questionId": "04bfd364",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The phrase \u201censuring that proteins retain their original configurations\u201d completes the first clause. What follows\u2014\u201dTMAO is found in high concentrations...\u201d\u2014begins a new independent clause with its own subject and verb."
-    },
-    {
-      "title": "Apply the sentence boundary rule",
-      "content": "A period separates two independent clauses into separate sentences. <strong>Choice A</strong> is correct\u2014it uses a period after \u201cconfigurations,\u201d properly creating two sentences. The other choices violate this rule: B fuses the clauses together with no punctuation, C creates a comma splice, and D improperly uses \u201cand.\u201d <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "04bfd364", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The phrase “ensuring that proteins retain their original configurations” completes the first clause. What follows—”TMAO is found in high concentrations...”—begins a new independent clause with its own subject and verb."}, {"title": "Apply the sentence boundary rule", "content": "A period separates two independent clauses into separate sentences. <strong>Choice A</strong> is correct—it uses a period after “configurations,” properly creating two sentences.<br/><br/>The other choices violate this rule: <ul><li>B fuses the clauses together with no punctuation</li><li>C creates a comma splice</li><li>D improperly uses “and</li></ul>.” <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

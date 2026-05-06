@@ -1,15 +1,1 @@
-{
-  "questionId": "d6c77ae5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify Putirka and Xu's core criticism",
-      "content": "The key signal is Putirka and Xu's argument that the detected elements could come from multiple sources beyond Earth-like continental crusts\u2014Holland's conclusion doesn't adequately consider these alternatives."
-    },
-    {
-      "title": "Apply the signal to the characterization",
-      "content": "Holland's conclusion assumes the detected elements point exclusively to Earth-like continental crusts, but this reasoning is flawed because it doesn't account for alternative sources\u2014making it <strong>questionable</strong> rather than simply wrong. The other three characterizations miss this logical incompleteness: unexpected and premature focus on prior beliefs or timing, while puzzling misidentifies the problem as unusual detection rather than flawed interpretation. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d6c77ae5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify Putirka and Xu's core criticism", "content": "The key signal is Putirka and Xu's argument that the detected elements could come from multiple sources beyond Earth-like continental crusts—Holland's conclusion doesn't adequately consider these alternatives."}, {"title": "Apply the signal to the characterization", "content": "Holland's conclusion assumes the detected elements point exclusively to Earth-like continental crusts, but this reasoning is flawed because it doesn't account for alternative sources—making it <strong>questionable</strong> rather than simply wrong.<br/><br/>The other three characterizations miss this logical incompleteness: unexpected and premature focus on prior beliefs or timing, while puzzling misidentifies the problem as unusual detection rather than flawed interpretation.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

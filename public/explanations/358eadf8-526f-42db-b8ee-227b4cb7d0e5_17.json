@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the opening em dash and the parenthetical phrase",
-      "content": "The em dash after \u201cInterpol\u2014\u201d opens a parenthetical phrase: \u201cthe International Criminal Police Organization,\u201d which explains what Interpol is."
-    },
-    {
-      "title": "Apply the matching em-dash rule",
-      "content": "An em dash opening a parenthetical phrase must be closed with a matching em dash. After \u201cOrganization,\u201d an em dash properly closes the parenthetical phrase, creating \u201cInterpol\u2014the International Criminal Police Organization\u2014in 1971.\u201d Using a comma, nothing, or a colon fails to close a parenthetical em-dash phrase. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the opening em dash and the parenthetical phrase", "content": "The em dash after “Interpol—” opens a parenthetical phrase: “the International Criminal Police Organization,” which explains what Interpol is."}, {"title": "Apply the matching em-dash rule", "content": "An em dash opening a parenthetical phrase must be closed with a matching em dash.<br/><br/>After “Organization,” an em dash properly closes the parenthetical phrase, creating “Interpol—the International Criminal Police Organization—in 1971.” Using a comma, nothing, or a colon fails to close a parenthetical em-dash phrase.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

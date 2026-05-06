@@ -1,15 +1,1 @@
-{
-  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core demand",
-      "content": "The question asks for a choice that makes a generalization about symbols on flags and then supports it with evidence."
-    },
-    {
-      "title": "Find the choice that generalizes and supports",
-      "content": "D makes a generalization (\u201cThe flags of some countries include symbols of animals\u201d) and backs it up with a concrete example from the notes (\u201cKazakhstan's, for example, includes an eagle.\u201d) The other three fail because A doesn't support its generalization (only defines vexillology), B doesn't generalize (just details one example), and C doesn't address symbols (discusses studying flags instead). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the core demand", "content": "The question asks for a choice that makes a generalization about symbols on flags and then supports it with evidence."}, {"title": "Find the choice that generalizes and supports", "content": "D makes a generalization (“The flags of some countries include symbols of animals”) and backs it up with a concrete example from the notes (“Kazakhstan's, for example, includes an eagle.”) The other three fail because A doesn't support its generalization (only defines vexillology), B doesn't generalize (just details one example), and C doesn't address symbols (discusses studying flags instead).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

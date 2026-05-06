@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_2",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core problem",
-      "content": "Data exists on obsolete technologies that can no longer be accessed, yet researchers need it available. This describes a <strong>recovery situation</strong>, not a quality or clarity issue."
-    },
-    {
-      "title": "Match the meaning to the answer",
-      "content": "\u201dSalvage\u201d means to recover something valuable from being lost or trapped \u2014 capturing the exact action a data-transfer project must take. \u201cImprove,\u201d \u201csimplify,\u201d and \u201camend\u201d each assume the data itself is flawed or needs enhancement, not extraction from inaccessible storage. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the core problem", "content": "Data exists on obsolete technologies that can no longer be accessed, yet researchers need it available. This describes a <strong>recovery situation</strong>, not a quality or clarity issue."}, {"title": "Match the meaning to the answer", "content": "”Salvage” means to recover something valuable from being lost or trapped — capturing the exact action a data-transfer project must take. “Improve,” “simplify,” and “amend” each assume the data itself is flawed or needs enhancement, not extraction from inaccessible storage.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

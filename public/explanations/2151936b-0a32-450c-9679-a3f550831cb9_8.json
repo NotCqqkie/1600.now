@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The word <strong>However</strong> signals a shift from the benefit of specialization to its downside."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B states that the 'akeke'e is highly specialized and therefore especially susceptible to habitat disturbances, which matches the idea introduced after <strong>However</strong>. The other three either miss the vulnerability claim, describe unrelated relationships, or add details not in the passage. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the contrast signal", "content": "The word <strong>However</strong> signals a shift from the benefit of specialization to its downside."}, {"title": "Apply the signal to the choices", "content": "Choice B states that the 'akeke'e is highly specialized and therefore especially susceptible to habitat disturbances, which matches the idea introduced after <strong>However</strong>.<br/><br/>The other three either miss the vulnerability claim, describe unrelated relationships, or add details not in the passage.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

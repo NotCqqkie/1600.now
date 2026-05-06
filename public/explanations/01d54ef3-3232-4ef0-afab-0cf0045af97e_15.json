@@ -1,15 +1,1 @@
-{
-  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_15",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the critical shift",
-      "content": "Plant survival depends on bird-mediated seed dispersal, and despite native birds being extinct, non-native birds are now providing it."
-    },
-    {
-      "title": "Apply the inference",
-      "content": "This makes the non-native birds potentially necessary for the plants' continued survival\u2014which is what choice C states. Options A, B, and D all make claims not supported by the passage: comparing quantities without evidence, assuming unstated preferences, or speculating about unmentioned activities.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the critical shift", "content": "Plant survival depends on bird-mediated seed dispersal, and despite native birds being extinct, non-native birds are now providing it."}, {"title": "Apply the inference", "content": "This makes the non-native birds potentially necessary for the plants' continued survival—which is what choice C states.<br/><br/>Options A, B, and D all make claims not supported by the passage: comparing quantities without evidence, assuming unstated preferences, or speculating about unmentioned activities.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

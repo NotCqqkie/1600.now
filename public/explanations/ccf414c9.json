@@ -1,15 +1,1 @@
-{
-  "questionId": "ccf414c9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage contrasts two types of books: fiction genres (meant to be read straight through) versus nonfiction reference genres (requiring readers to flip back and forth). The claim is that e-books succeeded with fiction but failed with reference genres. To illustrate this, we need data that directly compares e-book adoption across these two different types."
-    },
-    {
-      "title": "Match the contrast to the choices",
-      "content": "Choice A compares 2016 cookbook e-book sales (10.5%, a reference genre requiring flipping) with 2016 science fiction and fantasy e-book sales (36.7%, a straight-through fiction genre). This shows the claimed gap: the fiction genre's e-book adoption is 3.5 times higher than the reference genre's\u2014exactly what the passage predicts. Choices B and D show growth within a single genre over time rather than a cross-genre comparison; choice C compares two fiction genres to each other in 2006, which contradicts the fiction-vs.-reference distinction being tested.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccf414c9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage contrasts two types of books: fiction genres (meant to be read straight through) versus nonfiction reference genres (requiring readers to flip back and forth).<br/><br/>The claim is that e-books succeeded with fiction but failed with reference genres.<br/><br/>To illustrate this, we need data that directly compares e-book adoption across these two different types."}, {"title": "Match the contrast to the choices", "content": "Choice A compares 2016 cookbook e-book sales (10.5%, a reference genre requiring flipping) with 2016 science fiction and fantasy e-book sales (36.7%, a straight-through fiction genre).<br/><br/>This shows the claimed gap: the fiction genre's e-book adoption is 3.5 times higher than the reference genre's—exactly what the passage predicts.<br/><br/>Choices B and D show growth within a single genre over time rather than a cross-genre comparison; choice C compares two fiction genres to each other in 2006, which contradicts the fiction-vs.-reference distinction being tested.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

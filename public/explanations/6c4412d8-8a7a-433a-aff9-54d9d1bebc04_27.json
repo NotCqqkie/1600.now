@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the alignment",
-      "content": "The strongest clue is that nautical miles directly equal <strong>one minute (1/60th degree) of latitude</strong>. This precise structural correspondence is the deciding factor."
-    },
-    {
-      "title": "Connect the reasoning",
-      "content": "<strong>C</strong> establishes the full causal chain: because nautical miles correspond to coordinates on nautical charts, and those coordinates account for Earth's curvature, nautical miles enable efficient distance calculation. A and B mention relevant information without completing the connection, while D claims latitude/longitude doesn't account for curvature\u2014contradicting the notes. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the alignment", "content": "The strongest clue is that nautical miles directly equal <strong>one minute (1/60th degree) of latitude</strong>. This precise structural correspondence is the deciding factor."}, {"title": "Connect the reasoning", "content": "<strong>C</strong> establishes the full causal chain: because nautical miles correspond to coordinates on nautical charts, and those coordinates account for Earth's curvature, nautical miles enable efficient distance calculation.<br/><br/>A and B mention relevant information without completing the connection, while D claims latitude/longitude doesn't account for curvature—contradicting the notes.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

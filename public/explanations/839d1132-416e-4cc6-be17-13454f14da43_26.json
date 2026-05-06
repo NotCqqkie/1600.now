@@ -1,15 +1,1 @@
-{
-  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated goal",
-      "content": "The student explicitly wants to emphasize \u201cwhose point of view the novel is told from.\u201d This is the decisive criterion that determines which choice answers the prompt."
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "Choice A directly accomplishes this by explicitly stating the novel is \u201cfrom the character Kaikeyi's point of view.\u201d The other choices either ignore the POV question entirely (C only describes how Kaikeyi is portrayed, D only describes the original epic), or confuse it (B frames it as <em>The Ramayana</em>'s perspective rather than the novel's). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the stated goal", "content": "The student explicitly wants to emphasize “whose point of view the novel is told from.” This is the decisive criterion that determines which choice answers the prompt."}, {"title": "Match the goal to the choices", "content": "Choice A directly accomplishes this by explicitly stating the novel is “from the character Kaikeyi's point of view.” The other choices either ignore the POV question entirely (C only describes how Kaikeyi is portrayed, D only describes the original epic), or confuse it (B frames it as <em>The Ramayana</em>'s perspective rather than the novel's).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

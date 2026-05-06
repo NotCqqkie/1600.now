@@ -1,15 +1,1 @@
-{
-  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the explicit statement about the collection",
-      "content": "The passage directly states the museum \u201chas more than 4,800 objects in its collection.\u201d This is a clear factual claim in the text."
-    },
-    {
-      "title": "Match the statement to the choices",
-      "content": "Only choice C can be directly verified from the text. The other options either contradict explicit facts (B claims founded after 2000, but the text says 1991; D claims no longer in Denver, but the text states it is located there) or introduce unsupported claims (A on visitor comparisons). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the explicit statement about the collection", "content": "The passage directly states the museum “has more than 4,800 objects in its collection.” This is a clear factual claim in the text."}, {"title": "Match the statement to the choices", "content": "Only choice C can be directly verified from the text. The other options either contradict explicit facts (B claims founded after 2000, but the text says 1991; D claims no longer in Denver, but the text states it is located there) or introduce unsupported claims (A on visitor comparisons).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

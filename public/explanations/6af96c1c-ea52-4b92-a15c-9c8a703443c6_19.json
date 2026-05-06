@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the time anchor",
-      "content": "The sentence places the action in a specific historical moment (\u201cIn 1613\u201d) and immediately coordinates it with a past-tense verb: \u201cignited.\u201d This setup requires the blank verb to use past tense."
-    },
-    {
-      "title": "Apply tense consistency",
-      "content": "When describing a sequence of historical actions in the same time period, all verbs must use simple past. B) malfunctioned uses simple past and aligns with \u201cignited.\u201d The other choices use present perfect (A), future (C), or simple present (D), none of which maintain consistency with the established past tense. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the time anchor", "content": "The sentence places the action in a specific historical moment (“In 1613”) and immediately coordinates it with a past-tense verb: “ignited.” This setup requires the blank verb to use past tense."}, {"title": "Apply tense consistency", "content": "When describing a sequence of historical actions in the same time period, all verbs must use simple past.<br/><br/>B) malfunctioned uses simple past and aligns with “ignited.” The other choices use present perfect (A), future (C), or simple present (D), none of which maintain consistency with the established past tense.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

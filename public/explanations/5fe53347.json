@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe53347",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The follow-up sentence is decisive: \u201calterations maples may undergo in response to a changing climate.\u201d This reveals that the blank should express how maples respond to climate variation."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dAdapt to\u201d is the fitting phrase\u2014it describes an organism adjusting itself to new conditions, exactly matching the passage's discussion of alterations maples undergo. The other three are incorrect: \u201crelocate from\u201d suggests unnecessary movement (contradicting that maples thrive everywhere), while \u201crefer to\u201d and \u201coriginate from\u201d are nonsensical in biological context. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe53347", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The follow-up sentence is decisive: “alterations maples may undergo in response to a changing climate.” This reveals that the blank should express how maples respond to climate variation."}, {"title": "Match the meaning", "content": "”Adapt to” is the fitting phrase—it describes an organism adjusting itself to new conditions, exactly matching the passage's discussion of alterations maples undergo.<br/><br/>The other three are incorrect: “relocate from” suggests unnecessary movement (contradicting that maples thrive everywhere), while “refer to” and “originate from” are nonsensical in biological context.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

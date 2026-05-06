@@ -1,15 +1,1 @@
-{
-  "questionId": "e1d5d5df",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast signal",
-      "content": "The phrase \u201con the other hand\u201d marks a direct contrast: one plant with insect damage and visible symptoms (discolored, felty growth), and one without those symptoms (smooth surfaces, uniform green coloration). The blank must name the opposite condition."
-    },
-    {
-      "title": "Match to the plant's condition",
-      "content": "A healthy plant would not develop insect damage symptoms, so it maintains smooth, uniformly green leaves as described. The other choices either imply ongoing weakness (struggling), lack relevance to plant health (beneficial), or don't describe the condition being contrasted (simple). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e1d5d5df", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast signal", "content": "The phrase “on the other hand” marks a direct contrast: one plant with insect damage and visible symptoms (discolored, felty growth), and one without those symptoms (smooth surfaces, uniform green coloration). The blank must name the opposite condition."}, {"title": "Match to the plant's condition", "content": "A healthy plant would not develop insect damage symptoms, so it maintains smooth, uniformly green leaves as described.<br/><br/>The other choices either imply ongoing weakness (struggling), lack relevance to plant health (beneficial), or don't describe the condition being contrasted (simple).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2390e956",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The sentence immediately tells us how the three perspectives work: \u201cThe first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.\u201d This shows three separate, different viewpoints."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<em>Distinct</em> means clearly different or separate, which captures how each family member provides a unique perspective. The other three\u2014<em>required</em> (necessity), <em>unintended</em> (planning), <em>unknown</em> (knowledge)\u2014refer to different concepts altogether. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2390e956", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The sentence immediately tells us how the three perspectives work: “The first section of the novel is from the mother Haesu's perspective, the second is from the father Chun's perspective, and the last is from the daughter Faye's perspective.” This shows three separate, different viewpoints."}, {"title": "Match the meaning", "content": "<em>Distinct</em> means clearly different or separate, which captures how each family member provides a unique perspective.<br/><br/>The other three—<em>required</em> (necessity), <em>unintended</em> (planning), <em>unknown</em> (knowledge)—refer to different concepts altogether.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

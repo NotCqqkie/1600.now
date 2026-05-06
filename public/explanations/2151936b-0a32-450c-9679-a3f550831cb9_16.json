@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal context",
-      "content": "The phrase \u201cAs nanotechnology evolves\u201d uses present tense to describe an ongoing, forward-looking process. This establishes the temporal frame that determines what verb form the main clause needs."
-    },
-    {
-      "title": "Apply the future-tense rule",
-      "content": "The rule is: when an \u201cas\u201d clause describes a future or ongoing condition, the main clause must use future tense. \u201cWill likely continue\u201d (B) correctly applies this rule by expressing what will happen as nanotechnology evolves. The other choices violate this by using past or past-conditional forms instead of future tense. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal context", "content": "The phrase “As nanotechnology evolves” uses present tense to describe an ongoing, forward-looking process. This establishes the temporal frame that determines what verb form the main clause needs."}, {"title": "Apply the future-tense rule", "content": "The rule is: when an “as” clause describes a future or ongoing condition, the main clause must use future tense. “Will likely continue” (B) correctly applies this rule by expressing what will happen as nanotechnology evolves.<br/><br/>The other choices violate this by using past or past-conditional forms instead of future tense.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

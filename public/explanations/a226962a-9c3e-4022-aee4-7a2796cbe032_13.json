@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the graph's decisive data",
-      "content": "The passage constrains us to organizations filing Form 990-PF, and the question asks which choice <strong>most effectively uses data from the graph</strong>. The key is finding a claim about penalty percentages that you can directly verify from the bar heights."
-    },
-    {
-      "title": "Verify the claim against the graph",
-      "content": "Choice D asserts that undistributed income penalties were a larger share of the total in 2003 than in 2005. The graph confirms this directly: undistributed income shows 55% in 2003 vs. 40% in 2005. Choices A, B, and C fail this test\u2014A introduces Form 990 filers outside the graph's scope, B claims averages the percentage chart doesn't provide, and C misstates the self-dealing trend. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the graph's decisive data", "content": "The passage constrains us to organizations filing Form 990-PF, and the question asks which choice <strong>most effectively uses data from the graph</strong>. The key is finding a claim about penalty percentages that you can directly verify from the bar heights."}, {"title": "Verify the claim against the graph", "content": "Choice D asserts that undistributed income penalties were a larger share of the total in 2003 than in 2005.<br/><br/>The graph confirms this directly: undistributed income shows 55% in 2003 vs. 40% in 2005.<br/><br/>Choices A, B, and <ul><li>C fail this test—A introduces Form 990 filers outside the graph's scope</li><li>B claims averages the percentage chart doesn't provide</li><li>C misstates the self-dealing trend</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

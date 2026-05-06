@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_21",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures needing connection",
-      "content": "The sentence describes two actions of the researchers: seeking to find connections and analyzing posts. Both involve the same subject and must be expressed in one sentence."
-    },
-    {
-      "title": "Apply the rule for joining multiple verbs of the same subject",
-      "content": "A participle (<em>hoping</em>) subordinates the first action into a modifying phrase: \u201ca team of researchers, hoping to find connections..., analyzed geotagged social media posts.\u201d The other options (hoped, was hoping, were hoping) would create two independent clauses without coordination, violating the rule for joining such clauses. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures needing connection", "content": "The sentence describes two actions of the researchers: seeking to find connections and analyzing posts. Both involve the same subject and must be expressed in one sentence."}, {"title": "Apply the rule for joining multiple verbs of the same subject", "content": "A participle (<em>hoping</em>) subordinates the first action into a modifying phrase: “a team of researchers, hoping to find connections..., analyzed geotagged social media posts.” The other options (hoped, was hoping, were hoping) would create two independent clauses without coordination, violating the rule for joining such clauses.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

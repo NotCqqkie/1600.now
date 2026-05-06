@@ -1,15 +1,1 @@
-{
-  "questionId": "31d0bd9a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key clue about timing",
-      "content": "The passage emphasizes the dodder flowers \u201cat the same time\u201d as the host plant. This signals we need a word meaning to align or coordinate the timing of two things."
-    },
-    {
-      "title": "Match synchronization to the passage's scenario",
-      "content": "\u201dThe tiny dodder achieves this synchronization with its host\u201d describes the dodder timing its flowering to match the host's bloom \u2014 the exact mechanism the passage describes. The other three choices (hibernation is dormancy, prediction is forecasting, moderation is restraint) describe concepts that have nothing to do with this mechanism.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "31d0bd9a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the key clue about timing", "content": "The passage emphasizes the dodder flowers “at the same time” as the host plant. This signals we need a word meaning to align or coordinate the timing of two things."}, {"title": "Match synchronization to the passage's scenario", "content": "”The tiny dodder achieves this synchronization with its host” describes the dodder timing its flowering to match the host's bloom — the exact mechanism the passage describes.<br/><br/>The other three choices (hibernation is dormancy, prediction is forecasting, moderation is restraint) describe concepts that have nothing to do with this mechanism.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

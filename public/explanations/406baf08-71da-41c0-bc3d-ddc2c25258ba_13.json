@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key phrase in the conclusion",
-      "content": "The phrase \u201ctook time to become apparent\u201d signals that at 12 weeks, EET's advantage wasn't clear, but at 12 months it should be obvious."
-    },
-    {
-      "title": "Match the data pattern to the signal",
-      "content": "At 12 weeks, EET (268) and EHP (282) are nearly identical; at 12 months, EET drops to 171 while EHP rises to 436. This pattern\u2014starting similar and then diverging sharply in EET's favor\u2014directly illustrates how the result \u201ctook time to become apparent.\u201d The other choices either misstate EET's trajectory, claim unsupported distinctions, or show the gap shrinking rather than widening. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key phrase in the conclusion", "content": "The phrase “took time to become apparent” signals that at 12 weeks, EET's advantage wasn't clear, but at 12 months it should be obvious."}, {"title": "Match the data pattern to the signal", "content": "At 12 weeks, EET (268) and EHP (282) are nearly identical; at 12 months, EET drops to 171 while EHP rises to 436.<br/><br/>This pattern—starting similar and then diverging sharply in EET's favor—directly illustrates how the result “took time to become apparent.” The other choices either misstate EET's trajectory, claim unsupported distinctions, or show the gap shrinking rather than widening.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

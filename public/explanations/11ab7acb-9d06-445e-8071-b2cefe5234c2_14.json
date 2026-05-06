@@ -1,15 +1,1 @@
-{
-  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the limiting factor",
-      "content": "The passage clearly states that electrons must pass through inefficient redox reactions to reach the electrode, and this inefficiency limits power output to 0.30 mW/cm\u00b2. When silver nanoparticles were added, power output nearly doubled to 0.66 mW/cm\u00b2."
-    },
-    {
-      "title": "Apply conductivity to address the bottleneck",
-      "content": "The logical hypothesis is that the highly conductive nanoparticles provide an alternative pathway around the inefficient reactions. Choice C states exactly this: the nanoparticles allow electrons to bypass the redox reactions and transfer directly to the electrode.<br/>The other choices either misidentify what silver should improve (A focuses on bacterial metabolism rather than electron transport), negate silver's role (B claims the effect is independent of it), or confuse the mechanism (D suggests silver catalyzes the problematic reactions).<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the limiting factor", "content": "The passage clearly states that electrons must pass through inefficient redox reactions to reach the electrode, and this inefficiency limits power output to 0.30 mW/cm². When silver nanoparticles were added, power output nearly doubled to 0.66 mW/cm²."}, {"title": "Apply conductivity to address the bottleneck", "content": "The logical hypothesis is that the highly conductive nanoparticles provide an alternative pathway around the inefficient reactions.<br/><br/>Choice C states exactly this: the nanoparticles allow electrons to bypass the redox reactions and transfer directly to the electrode.<br/>The other choices either misidentify what silver should improve (A focuses on bacterial metabolism rather than electron transport), negate silver's role (B claims the effect is independent of it), or confuse the mechanism (D suggests silver catalyzes the problematic reactions).<br/>That matches choice C — <strong>C</strong> is correct."}]}

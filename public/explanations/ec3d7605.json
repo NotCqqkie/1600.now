@@ -1,15 +1,1 @@
-{
-  "questionId": "ec3d7605",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase \u201cjust as fascinating and engaging as exploring in person\u201d explains concretely why research is \u201cits own reward.\u201d The transition must signal this is supporting evidence for the initial claim."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dIn fact\u201d signals that what follows is the evidence or elaboration supporting the preceding claim\u2014it means \u201cactually, here's how.\u201d The other three don't signal this evidence relationship: by contrast implies opposition, likewise treats them as parallel claims, and besides merely adds information. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ec3d7605", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase “just as fascinating and engaging as exploring in person” explains concretely why research is “its own reward.” The transition must signal this is supporting evidence for the initial claim."}, {"title": "Apply the signal to the choices", "content": "”In fact” signals that what follows is the evidence or elaboration supporting the preceding claim—it means “actually, here's how.” The other three don't signal this evidence relationship: by contrast implies opposition, likewise treats them as parallel claims, and besides merely adds information.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

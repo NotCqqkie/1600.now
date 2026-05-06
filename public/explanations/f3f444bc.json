@@ -1,15 +1,1 @@
-{
-  "questionId": "f3f444bc",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key finding",
-      "content": "The passage shows that EBF repels mosquitoes by activating Or31, a single receptor present in all disease-carrying mosquito species."
-    },
-    {
-      "title": "Complete the logical next step",
-      "content": "To develop new repellents that achieve EBF's success, researchers should identify other molecular components that target Or31 as well. Choice A directly states this approach. Choices B, C, and D address extraction methods, anatomical verification, and receptor limits\u2014none of which follow from this finding. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f3f444bc", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key finding", "content": "The passage shows that EBF repels mosquitoes by activating Or31, a single receptor present in all disease-carrying mosquito species."}, {"title": "Complete the logical next step", "content": "To develop new repellents that achieve EBF's success, researchers should identify other molecular components that target Or31 as well.<br/><br/>Choice A directly states this approach. Choices B, C, and D address extraction methods, anatomical verification, and receptor limits—none of which follow from this finding.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

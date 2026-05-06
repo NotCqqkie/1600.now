@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the comparison signal",
-      "content": "The phrase makes a direct comparison, connecting the mantis-study filters to 3D movie glasses. This link between something technical and something familiar signals a clarifying comparison meant to aid understanding."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "A comparison to a familiar example helps readers understand the experimental setup by making it relatable. Choices B, C, and D misidentify the phrase's function: B wrongly treats it as comparing research methods, C misreads it as describing an earlier use rather than as a clarifying analogy, and D invents a problem that doesn't exist. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the comparison signal", "content": "The phrase makes a direct comparison, connecting the mantis-study filters to 3D movie glasses. This link between something technical and something familiar signals a clarifying comparison meant to aid understanding."}, {"title": "Apply the signal to the choices", "content": "A comparison to a familiar example helps readers understand the experimental setup by making it relatable.<br/><br/>Choices B, C, and <ul><li>D misidentify the phrase's function: B wrongly treats it as comparing research methods</li><li>C misreads it as describing an earlier use rather than as a clarifying analogy</li><li>D invents a problem that doesn't exist</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

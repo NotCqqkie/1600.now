@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage's final sentence gives the answer directly: \u201cThe difficulty of determining No. 62's author arises not from a lack of evidence but from too much contradictory evidence.\u201d This is the decisive clue explaining why authorship is difficult to determine."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A is correct: contradictory evidence creates a situation where strong cases exist for either author \u2014 exactly what choice A describes. Choices B, C, and D misread the passage \u2014 B invents a detail about separate versions, C contradicts the passage by claiming evidence is missing, and D misconstrues the either-or as collaboration. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage's final sentence gives the answer directly: “The difficulty of determining No. 62's author arises not from a lack of evidence but from too much contradictory evidence.” This is the decisive clue explaining why authorship is difficult to determine."}, {"title": "Apply the signal to the choices", "content": "Choice A is correct: contradictory evidence creates a situation where strong cases exist for either author — exactly what choice A describes.<br/><br/>Choices B, C, and <ul><li>D misread the passage — B invents a detail about separate versions</li><li>C contradicts the passage by claiming evidence is missing</li><li>D misconstrues the either-or as collaboration</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

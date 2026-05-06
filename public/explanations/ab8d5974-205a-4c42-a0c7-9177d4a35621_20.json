@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures",
-      "content": "<strong>The vessel took six days to dislodge</strong> is an independent clause. <strong>It is as heavy as two thousand blue whales when fully loaded</strong> is an independent clause that follows."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "A colon can connect independent clauses when the second elaborates on or explains the first\u2014choice B correctly applies this rule. Choices A and C violate the rule by using commas (creating comma splices), and choice D violates it by using no punctuation. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "<strong>The vessel took six days to dislodge</strong> is an independent clause. <strong>It is as heavy as two thousand blue whales when fully loaded</strong> is an independent clause that follows."}, {"title": "Apply the colon rule", "content": "A colon can connect independent clauses when the second elaborates on or explains the first—choice B correctly applies this rule.<br/><br/>Choices A and C violate the rule by using commas (creating comma splices), and choice D violates it by using no punctuation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

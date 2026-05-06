@@ -1,15 +1,1 @@
-{
-  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the transition structure needed",
-      "content": "The passage states Alkaid is less bright than Gamma Velorum, then pivots to explain Alkaid's brightness by its proximity to Earth. The transition must concede the comparison while introducing the compensating explanation."
-    },
-    {
-      "title": "Match the transition to the choices",
-      "content": "The word <em>Granted</em> concedes the previous point while introducing an explanation\u2014the transition structure needed here. The other three fail to create this concessive pivot: they either reinforce the comparison without explanation, force unsupported causation, or suggest similarity where contrast is key. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the transition structure needed", "content": "The passage states Alkaid is less bright than Gamma Velorum, then pivots to explain Alkaid's brightness by its proximity to Earth. The transition must concede the comparison while introducing the compensating explanation."}, {"title": "Match the transition to the choices", "content": "The word <em>Granted</em> concedes the previous point while introducing an explanation—the transition structure needed here.<br/><br/>The other three fail to create this concessive pivot: they either reinforce the comparison without explanation, force unsupported causation, or suggest similarity where contrast is key.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

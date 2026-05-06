@@ -1,15 +1,1 @@
-{
-  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The nitrogen-treated SiC fiber exhibited a lower minimum creep rate compared to the two polymer-derived fibers. Since minimum creep rate measures how quickly a material deforms under stress, a lower rate indicates superior resistance to deformation."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B states that composites with the nitrogen-treated fiber can withstand stress longer than those with polymer-derived fibers\u2014precisely what the superior creep resistance implies. The other choices either contradict the finding, add unsupported conditions, or don't follow from the comparison. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The nitrogen-treated SiC fiber exhibited a lower minimum creep rate compared to the two polymer-derived fibers. Since minimum creep rate measures how quickly a material deforms under stress, a lower rate indicates superior resistance to deformation."}, {"title": "Apply the signal to the choices", "content": "Choice B states that composites with the nitrogen-treated fiber can withstand stress longer than those with polymer-derived fibers—precisely what the superior creep resistance implies.<br/><br/>The other choices either contradict the finding, add unsupported conditions, or don't follow from the comparison.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

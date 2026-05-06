@@ -1,15 +1,1 @@
-{
-  "questionId": "13cfe765-425a-44bc-b085-25d580925451_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the strongest clue",
-      "content": "The strongest clue is that the answer's conclusion must be directly supported by specific data in the table. Look for a choice that makes numerical comparisons between age groups using exact percentages shown."
-    },
-    {
-      "title": "Apply the clue",
-      "content": "D makes two specific claims comparing 50-64 and 30-49 age groups: higher personal relationship percentages (58 vs 53) and lower finance percentages (56 vs 63). Both comparisons are directly verified by the table's data. The others cannot be verified: one assumes individual behavior the aggregate data doesn't show, one overgeneralizes to all US adults when only resolution makers are covered, and one contradicts the actual percentages. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "13cfe765-425a-44bc-b085-25d580925451_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the strongest clue", "content": "The strongest clue is that the answer's conclusion must be directly supported by specific data in the table. Look for a choice that makes numerical comparisons between age groups using exact percentages shown."}, {"title": "Apply the clue", "content": "D makes two specific claims comparing 50-64 and 30-49 age groups: higher personal relationship percentages (58 vs 53) and lower finance percentages (56 vs 63).<br/><br/>Both comparisons are directly verified by the table's data. The others cannot be verified: one assumes individual behavior the aggregate data doesn't show, one overgeneralizes to all US adults when only resolution makers are covered, and one contradicts the actual percentages.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

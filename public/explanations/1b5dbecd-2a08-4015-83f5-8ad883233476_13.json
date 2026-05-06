@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The model's correlation is much higher for impressionist paintings <strong>(0.41)</strong> than for color-field paintings <strong>(0.10)</strong>."
-    },
-    {
-      "title": "Apply the signal",
-      "content": "The model's predictions correlated with P3's actual ratings, with a stronger correlation for impressionist (0.41) than for color-field (0.10). Since P3 is assumed to have given equal actual ratings to both styles, the model's <em>predicted</em> ratings must differ between the two styles — otherwise both correlations would behave identically. So the graph supports the claim that P3's predicted ratings for impressionist and color-field paintings would differ from one another. That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The model's correlation is much higher for impressionist paintings <strong>(0.41)</strong> than for color-field paintings <strong>(0.10)</strong>."}, {"title": "Apply the signal", "content": "The model's predictions correlated with P3's actual ratings, with a stronger correlation for impressionist (0.41) than for color-field (0.10).<br/><br/>Since P3 is assumed to have given equal actual ratings to both styles, the model's <em>predicted</em> ratings must differ between the two styles — otherwise both correlations would behave identically.<br/><br/>So the graph supports the claim that P3's predicted ratings for impressionist and color-field paintings would differ from one another.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

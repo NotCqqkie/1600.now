@@ -1,15 +1,1 @@
-{
-  "questionId": "47598085",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence's function",
-      "content": "The first sentence has the structure of a <strong>definition</strong>: \u201cYawn contagion occurs when...\u201d It states what the phenomenon is, not what problem needs solving, what hypothesis needs testing, or what claim needs challenging. The definitional structure is the decisive signal."
-    },
-    {
-      "title": "Match the function to the answer",
-      "content": "The sentence defines yawn contagion, and the rest of the passage discusses this defined phenomenon through research findings\u2014studies in primates, wild vs. captive populations, and patterns by gender and social group. Choices B, C, and D mischaracterize the first sentence: it doesn't introduce a problem to examine, challenge a claim, or present a hypothesis to evaluate. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "47598085", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence's function", "content": "The first sentence has the structure of a <strong>definition</strong>: “Yawn contagion occurs when...” It states what the phenomenon is, not what problem needs solving, what hypothesis needs testing, or what claim needs challenging. The definitional structure is the decisive signal."}, {"title": "Match the function to the answer", "content": "The sentence defines yawn contagion, and the rest of the passage discusses this defined phenomenon through research findings—studies in primates, wild vs. captive populations, and patterns by gender and social group.<br/><br/>Choices B, C, and D mischaracterize the first sentence: it doesn't introduce a problem to examine, challenge a claim, or present a hypothesis to evaluate.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

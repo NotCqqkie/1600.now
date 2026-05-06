@@ -1,15 +1,1 @@
-{
-  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what determines suitability for migration",
-      "content": "To find the species least suited to migrate to the mesophotic zone (30\u2013150 meters), look for the one most restricted to shallow water. That's the species with the lowest maximum depth\u2014it's never experienced conditions anywhere near the depths it would need to reach."
-    },
-    {
-      "title": "Match the lowest maximum depth to the choices",
-      "content": "<strong>Acropora anthocercis</strong> has a maximum depth of only 10 meters, placing it 20 meters below where the mesophotic zone begins at 30 meters. This species has never been found at depths remotely close to mesophotic conditions. Choices A and B wrongly focus on minimum depth, which indicates only where a species starts being found, not how deep it can survive; choice D shows a species that has already reached 25 meters, much closer to the threshold. <br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what determines suitability for migration", "content": "To find the species least suited to migrate to the mesophotic zone (30–150 meters), look for the one most restricted to shallow water. That's the species with the lowest maximum depth—it's never experienced conditions anywhere near the depths it would need to reach."}, {"title": "Match the lowest maximum depth to the choices", "content": "<strong>Acropora anthocercis</strong> has a maximum depth of only 10 meters, placing it 20 meters below where the mesophotic zone begins at 30 meters.<br/><br/>This species has never been found at depths remotely close to mesophotic conditions.<br/><br/>Choices A and B wrongly focus on minimum depth, which indicates only where a species starts being found, not how deep it can survive; choice D shows a species that has already reached 25 meters, much closer to the threshold. <br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal \u2014 what should data describe",
-      "content": "Liu et al. concluded that these alloys' <em>toughness performance</em> differs from most HEAs and MEAs. To support this conclusion, we need data that clearly describe how their toughness behaves\u2014the actual performance pattern across conditions. The question asks which choice <em>best describes</em> data supporting that conclusion."
-    },
-    {
-      "title": "Match the data to the choices",
-      "content": "Choice D identifies the clearest pattern shown throughout the graph: for <strong>both</strong> alloys, <strong>both</strong> types of toughness are substantially lower at 293 K (room temperature) than at 20 K (cryogenic). CrCoNi initiation drops from \u2248500 to \u2248300; propagation from \u2248550 to \u2248400. CrMnFeCoNi initiation drops from \u2248400 to \u2248250; propagation from \u2248450 to \u2248300. This describes a comprehensive, consistent pattern across all measurements. <br/><br/>Choice A only describes data at one temperature point. Choice B's claim that propagation stays \u201csubstantially higher\u201d than initiation throughout all temperatures is contradicted at 77 K, where they converge. Choice C claims changes are greater between 20 and 77 K than between 77 and 198 K, but for CrCoNi initiation, the drop from 77 to 198 K (\u2248150) exceeds the drop from 20 to 77 K (\u224850), directly contradicting this. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal — what should data describe", "content": "Liu et al. concluded that these alloys' <em>toughness performance</em> differs from most HEAs and MEAs.<br/><br/>To support this conclusion, we need data that clearly describe how their toughness behaves—the actual performance pattern across conditions.<br/><br/>The question asks which choice <em>best describes</em> data supporting that conclusion."}, {"title": "Match the data to the choices", "content": "Choice D identifies the clearest pattern shown throughout the graph: for <strong>both</strong> alloys, <strong>both</strong> types of toughness are substantially lower at 293 K (room temperature) than at 20 K (cryogenic). CrCoNi initiation drops from ≈500 to ≈300; propagation from ≈550 to ≈400. CrMnFeCoNi initiation drops from ≈400 to ≈250; propagation from ≈450 to ≈300. This describes a comprehensive, consistent pattern across all measurements. <br/><br/>Choice A only describes data at one temperature point. Choice B's claim that propagation stays “substantially higher” than initiation throughout all temperatures is contradicted at 77 K, where they converge. Choice C claims changes are greater between 20 and 77 K than between 77 and 198 K, but for CrCoNi initiation, the drop from 77 to 198 K (≈150) exceeds the drop from 20 to 77 K (≈50), directly contradicting this. <br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

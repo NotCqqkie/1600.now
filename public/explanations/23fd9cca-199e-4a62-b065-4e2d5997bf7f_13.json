@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the research finding's contradiction with the empirical data",
-      "content": "Desai et al. found that democratic strength combined with low inequality restrains inflation. Yet Austria\u2014which has both democratic strength and low inequality\u2014experienced 2.08% inflation, higher than Cameroon's 0.64%, despite Cameroon having weak institutions and high inequality. This reversal is the key signal."
-    },
-    {
-      "title": "Apply the signal: what would the research finding suggest?",
-      "content": "This contradiction means Austria's high inflation must stem from factors outside its political structure and inequality levels. Choice A directly states this: other factors contributed to Austria's elevated inflation. The alternatives either appeal to measurement error (C), reverse the causal relationship the data suggests (B), or discuss a hypothetical scenario that doesn't resolve the current anomaly (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the research finding's contradiction with the empirical data", "content": "Desai et al. found that democratic strength combined with low inequality restrains inflation.<br/><br/>Yet Austria—which has both democratic strength and low inequality—experienced 2.08% inflation, higher than Cameroon's 0.64%, despite Cameroon having weak institutions and high inequality.<br/><br/>This reversal is the key signal."}, {"title": "Apply the signal: what would the research finding suggest?", "content": "This contradiction means Austria's high inflation must stem from factors outside its political structure and inequality levels.<br/><br/>Choice A directly states this: other factors contributed to Austria's elevated inflation.<br/><br/>The alternatives either appeal to measurement error (C), reverse the causal relationship the data suggests (B), or discuss a hypothetical scenario that doesn't resolve the current anomaly (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

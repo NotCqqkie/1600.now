@@ -1,15 +1,1 @@
-{
-  "questionId": "81315093",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Notice the contrast in distances between the examples",
-      "content": "The two ultramarathons are 37.3 miles and 261 miles\u2014far apart on the length spectrum. This dramatic range signals what the generalization should address."
-    },
-    {
-      "title": "Find the choice that generalizes from this range",
-      "content": "Choice C does exactly this: <em>Ultramarathons range widely in length, from a few dozen miles to a few hundred</em>\u2014it uses the two specific examples to support a broad statement about the category. The others don't generalize: A just lists examples, B contrasts ultras with marathons rather than characterizing the ultramarathon category, and D highlights duration instead of length. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "81315093", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Notice the contrast in distances between the examples", "content": "The two ultramarathons are 37.3 miles and 261 miles—far apart on the length spectrum. This dramatic range signals what the generalization should address."}, {"title": "Find the choice that generalizes from this range", "content": "Choice C does exactly this: <em>Ultramarathons range widely in length, from a few dozen miles to a few hundred</em>—it uses the two specific examples to support a broad statement about the category.<br/><br/>The others don't generalize: <ul><li>A just lists examples</li><li>B contrasts ultras with marathons rather than characterizing the ultramarathon category</li><li>D highlights duration instead of length</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

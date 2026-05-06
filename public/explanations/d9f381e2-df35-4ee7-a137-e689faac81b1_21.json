@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Read the logical setup",
-      "content": "The previous sentence states that for many elements isolation came soon after discovery, <em>but this wasn't the case with all elements.</em> The blank precedes <em>the isolation process took years</em>, with radium given as an example. The transition needs to introduce a frequency/qualifier — that <strong>in some cases</strong>, isolation took years."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "<em>Sometimes,</em> conveys exactly that — for some elements, the process took years — and is supported by the radium example that follows.<br/><br/><em>However,</em> would signal direct contrast, but the contrast was already established in the prior sentence; the blank is naming a pattern, not opposing one. <em>Thus,</em> would signal a logical conclusion, which doesn't fit. <em>Moreover,</em> would add a parallel point, which doesn't fit either.<br/><br/>The answer is <strong>D</strong>."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read the logical setup", "content": "The previous sentence states that for many elements isolation came soon after discovery, <em>but this wasn't the case with all elements.</em> The blank precedes <em>the isolation process took years</em>, with radium given as an example.<br/><br/>The transition needs to introduce a frequency/qualifier — that <strong>in some cases</strong>, isolation took years."}, {"title": "Match the signal to the choices", "content": "<em>Sometimes,</em> conveys exactly that — for some elements, the process took years — and is supported by the radium example that follows.<br/><br/><em>However,</em> would signal direct contrast, but the contrast was already established in the prior sentence; the blank is naming a pattern, not opposing one. <em>Thus,</em> would signal a logical conclusion, which doesn't fit. <em>Moreover,</em> would add a parallel point, which doesn't fit either.<br/><br/>The answer is <strong>D</strong>."}]}

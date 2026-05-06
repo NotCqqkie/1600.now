@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the paradox",
-      "content": "The decisive signal is the contradiction: CLPs have a shielding advantage in their transmission mechanism, yet their abundance decreased with rising temperatures, while directly transmitted parasites (without this shielding) remained stable."
-    },
-    {
-      "title": "Resolve the contradiction",
-      "content": "Choice C explains why CLPs declined despite their shielding advantage: the transmission strategy's advantages \u201cdid not completely offset the negative effects of other temperature-driven factors.\u201d This directly captures why better-protected parasites fared worse than exposed ones. The other three either reverse the data (A and D) or assume transmission strategies the passage doesn't mention (B). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the paradox", "content": "The decisive signal is the contradiction: CLPs have a shielding advantage in their transmission mechanism, yet their abundance decreased with rising temperatures, while directly transmitted parasites (without this shielding) remained stable."}, {"title": "Resolve the contradiction", "content": "Choice C explains why CLPs declined despite their shielding advantage: the transmission strategy's advantages “did not completely offset the negative effects of other temperature-driven factors.” This directly captures why better-protected parasites fared worse than exposed ones.<br/><br/>The other three either reverse the data (A and D) or assume transmission strategies the passage doesn't mention (B).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

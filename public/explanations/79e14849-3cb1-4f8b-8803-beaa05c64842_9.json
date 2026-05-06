@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Interpret the hypothesis in behavioral terms",
-      "content": "The second team predicts intermediate-headed fish will be \u201cmore likely to detect\u201d obstructions in low-visibility with large vortices. Detecting an obstruction means avoiding it, so better detection = fewer collisions. A supporting finding would show intermediate-headed fish bumping into fewer obstructions than wide-headed fish."
-    },
-    {
-      "title": "Find the result that demonstrates the predicted difference",
-      "content": "Choice C presents this directly: wide-headed fish bumped into obstructions more often than intermediate-headed fish in the exact conditions (large vortices, low-visibility). A, B, and D each fail to demonstrate this comparison\u2014one presents only a single fish type, one compares individuals within a type rather than between types, and one shows equal performance across types. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Interpret the hypothesis in behavioral terms", "content": "The second team predicts intermediate-headed fish will be “more likely to detect” obstructions in low-visibility with large vortices.<br/><br/>Detecting an obstruction means avoiding it, so better detection = fewer collisions.<br/><br/>A supporting finding would show intermediate-headed fish bumping into fewer obstructions than wide-headed fish."}, {"title": "Find the result that demonstrates the predicted difference", "content": "Choice C presents this directly: wide-headed fish bumped into obstructions more often than intermediate-headed fish in the exact conditions (large vortices, low-visibility).<br/><br/>A, B, and D each fail to demonstrate this comparison—one presents only a single fish type, one compares individuals within a type rather than between types, and one shows equal performance across types.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

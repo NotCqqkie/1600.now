@@ -1,15 +1,1 @@
-{
-  "questionId": "ab94d40a",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the ranking effect in the data",
-      "content": "The conclusion predicts ranking makes people focus on the top choice. The British Museum ranks #1 and received 36% of reading time in the ranked group\u2014nearly double its 18% in the unranked group. This disproportionate spike in attention to the top-ranked option is the key evidence."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B states that the ranked group spent \u201cdisproportionately more time reading about the British Museum,\u201d matching the 36%-vs-18% disparity shown in the table. The other choices describe the unranked group's roughly balanced behavior, an unrelated low value on one ranked museum, or a preference in the unranked condition. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab94d40a", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the ranking effect in the data", "content": "The conclusion predicts ranking makes people focus on the top choice. The British Museum ranks #1 and received 36% of reading time in the ranked group—nearly double its 18% in the unranked group. This disproportionate spike in attention to the top-ranked option is the key evidence."}, {"title": "Apply the signal to the choices", "content": "Choice B states that the ranked group spent “disproportionately more time reading about the British Museum,” matching the 36%-vs-18% disparity shown in the table.<br/><br/>The other choices describe the unranked group's roughly balanced behavior, an unrelated low value on one ranked museum, or a preference in the unranked condition.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2e8ab360",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage describes Marcus Aurelius as having an <strong>overly permissive nature</strong> \u2014 his mildness is his only defect. This phrase is the decisive clue: someone with an overly permissive nature does not restrain, punish, or control others' bad behavior; instead, they allow it to happen."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Indulge</strong> means to allow someone to satisfy their desires without restraint or discipline. An overly permissive nature directly leads to indulging \u2014 tolerating and enabling the vices of those around you rather than stopping them. The other three choices all imply restraint or judgment that contradicts permissiveness: despise suggests disapproval, moderate implies limiting excess, and criticize implies expressing disapproval \u2014 none fit a temperament that fails to control others' misconduct. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2e8ab360", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage describes Marcus Aurelius as having an <strong>overly permissive nature</strong> — his mildness is his only defect. This phrase is the decisive clue: someone with an overly permissive nature does not restrain, punish, or control others' bad behavior; instead, they allow it to happen."}, {"title": "Match the meaning to the choices", "content": "<strong>Indulge</strong> means to allow someone to satisfy their desires without restraint or discipline.<br/><br/>An overly permissive nature directly leads to indulging — tolerating and enabling the vices of those around you rather than stopping them.<br/><br/>The other three choices all imply restraint or judgment that contradicts permissiveness: despise suggests disapproval, moderate implies limiting excess, and criticize implies expressing disapproval — none fit a temperament that fails to control others' misconduct.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

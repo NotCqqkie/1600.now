@@ -1,15 +1,1 @@
-{
-  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal and key similarity",
-      "content": "The student wants to <strong>emphasize a similarity</strong> between the two positions. The notes describe first position (Vaganova) and demi-seconde (Royal Academy) \u2014 what do they have in common? Both are <strong>arm positions</strong> in classical ballet methods."
-    },
-    {
-      "title": "Apply the key similarity to the choices",
-      "content": "Choice A identifies what both positions share: they are \u201cpositions for the dancer's arms.\u201d B wrongly places first position in Royal Academy, C emphasizes differences, and D skips the comparison. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the goal and key similarity", "content": "The student wants to <strong>emphasize a similarity</strong> between the two positions. The notes describe first position (Vaganova) and demi-seconde (Royal Academy) — what do they have in common? Both are <strong>arm positions</strong> in classical ballet methods."}, {"title": "Apply the key similarity to the choices", "content": "Choice A identifies what both positions share: they are “positions for the dancer's arms.” <ul><li>B wrongly places first position in Royal Academy</li><li>C emphasizes differences</li><li>D skips the comparison</li></ul>. That matches choice A — <strong>A</strong> is correct."}]}

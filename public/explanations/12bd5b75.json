@@ -1,15 +1,1 @@
-{
-  "questionId": "12bd5b75",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent for the blank",
-      "content": "The blank requires a pronoun that clearly refers to <strong>the Salt Lake Temple</strong>, which is singular and mentioned in the previous sentence."
-    },
-    {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "<strong>\u201cIt was\u201d</strong> correctly uses a singular pronoun that matches the singular noun the Salt Lake Temple, applying the rule that pronouns must agree with their antecedents in number. The other choices either apply plural pronouns to a singular noun or create ambiguous reference. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "12bd5b75", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent for the blank", "content": "The blank requires a pronoun that clearly refers to <strong>the Salt Lake Temple</strong>, which is singular and mentioned in the previous sentence."}, {"title": "Apply pronoun-antecedent agreement", "content": "<strong>“It was”</strong> correctly uses a singular pronoun that matches the singular noun the Salt Lake Temple, applying the rule that pronouns must agree with their antecedents in number.<br/><br/>The other choices either apply plural pronouns to a singular noun or create ambiguous reference.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

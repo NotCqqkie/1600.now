@@ -1,15 +1,1 @@
-{
-  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_5",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the exponential growth model",
-      "content": "This is exponential growth where the population multiplies by the same factor each period. The general form is $y = a \\cdot b^t$, where $a$ is the initial amount and $b$ is the growth factor per time period. Here, $a = 48,000$ (initial bacteria) and $b = 2$ (because <em>doubles every day</em> means multiply by 2)."
-    },
-    {
-      "title": "Apply the formula and verify",
-      "content": "Substitute into the exponential growth formula:<br/>$$y = 48,000(2)^t$$<br/>Test at $t = 1$: $y = 48,000(2)^1 = 96,000$, which shows the population doubled from the initial 48,000. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_5", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the exponential growth model", "content": "This is exponential growth where the population multiplies by the same factor each period.<br/><br/>The general form is $y = a \\cdot b^t$, where $a$ is the initial amount and $b$ is the growth factor per time period.<br/><br/>Here, $a = 48,000$ (initial bacteria) and $b = 2$ (because <em>doubles every day</em> means multiply by 2)."}, {"title": "Apply the formula and verify", "content": "Substitute into the exponential growth formula:<br/>$$y = 48,000(2)^t$$<br/>Test at $t = 1$: $y = 48,000(2)^1 = 96,000$, which shows the population doubled from the initial 48,000. That matches choice D — <strong>D</strong> is correct."}]}

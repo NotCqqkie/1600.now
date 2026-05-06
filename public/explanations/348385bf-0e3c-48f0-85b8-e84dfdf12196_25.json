@@ -1,15 +1,1 @@
-{
-  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what counts as a concrete example of a nickname",
-      "content": "An example must name the specific nickname itself. The notes contain exactly one named nickname: Scotty."
-    },
-    {
-      "title": "Select the choice that names the nickname",
-      "content": "Choice C explicitly provides the nickname by name\u2014Scotty\u2014and identifies what it's the nickname of. Choices A, B, and D either omit the nickname name entirely or discuss nicknames generally without providing the specific example the task demands. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what counts as a concrete example of a nickname", "content": "An example must name the specific nickname itself. The notes contain exactly one named nickname: Scotty."}, {"title": "Select the choice that names the nickname", "content": "Choice C explicitly provides the nickname by name—Scotty—and identifies what it's the nickname of.<br/><br/>Choices A, B, and D either omit the nickname name entirely or discuss nicknames generally without providing the specific example the task demands.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

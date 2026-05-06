@@ -1,15 +1,1 @@
-{
-  "questionId": "b7c404d1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The key signal is that the second sentence confirms the first sentence's claim by explaining the specific features that created the \u201cfamiliar and distant\u201d effect\u2014a video screen (making it feel like a familiar movie theater) placed in a coal slag-encrusted subterranean room (making it feel distant and unfamiliar)."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dIndeed\u201d means \u201cin fact\u201d or \u201cas a matter of fact,\u201d confirming that the second sentence is evidence for the first sentence's claim. Next implies sequence, Nevertheless implies contradiction, and Instead implies substitution\u2014none of which fits how the sentences actually relate. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b7c404d1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The key signal is that the second sentence confirms the first sentence's claim by explaining the specific features that created the “familiar and distant” effect—a video screen (making it feel like a familiar movie theater) placed in a coal slag-encrusted subterranean room (making it feel distant and unfamiliar)."}, {"title": "Match the meaning", "content": "”Indeed” means “in fact” or “as a matter of fact,” confirming that the second sentence is evidence for the first sentence's claim.<br/><br/>Next implies sequence, Nevertheless implies contradiction, and Instead implies substitution—none of which fits how the sentences actually relate.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

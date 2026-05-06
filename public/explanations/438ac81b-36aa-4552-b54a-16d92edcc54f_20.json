@@ -1,15 +1,1 @@
-{
-  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the closing em dash for the appositive",
-      "content": "An em dash appears before <em>reshuffled</em> after <em>the cellular organs that generate energy from light</em>. This signals that the phrase is an appositive being set off by em dashes."
-    },
-    {
-      "title": "Match the opening punctuation",
-      "content": "When an appositive is set off by an em dash on one side, it must have a matching em dash on the other. Choice D with <em>chloroplasts\u2014</em> creates this matching pair to properly frame the appositive phrase. A semicolon (A) is for independent clauses, not appositives; no punctuation (B) fails to mark the appositive; a comma (C) mismatches with the closing em dash. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the closing em dash for the appositive", "content": "An em dash appears before <em>reshuffled</em> after <em>the cellular organs that generate energy from light</em>. This signals that the phrase is an appositive being set off by em dashes."}, {"title": "Match the opening punctuation", "content": "When an appositive is set off by an em dash on one side, it must have a matching em dash on the other.<br/><br/>Choice D with <em>chloroplasts—</em> creates this matching pair to properly frame the appositive phrase.<br/><br/>A semicolon (A) is for independent clauses, not appositives; no punctuation (B) fails to mark the appositive; a comma (C) mismatches with the closing em dash.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

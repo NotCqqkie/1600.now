@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two independent clauses",
-      "content": "Before the blank: <em>This is a hypothetical designation</em> — a complete clause. After the blank: <em>Proto-Indo-European is only postulated, its characteristics being inferred from the linguistic properties of its 448 daughters</em> — another complete clause. The conjunctive adverb <em>however</em> sits between them."
-    },
-    {
-      "title": "Apply the punctuation pattern",
-      "content": "Per the answer key, the right pattern is <em>designation, however;</em> — a comma before <em>however</em> and a semicolon after to join the second independent clause.<br/><br/>Choice A omits punctuation, creating a run-on; choice B splits into two sentences with a period; choice C (semicolon before, comma after) inverts the punctuation order used here.<br/><br/>The answer is <strong>D</strong>."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the two independent clauses", "content": "Before the blank: <em>This is a hypothetical designation</em> — a complete clause.<br/><br/>After the blank: <em>Proto-Indo-European is only postulated, its characteristics being inferred from the linguistic properties of its 448 daughters</em> — another complete clause.<br/><br/>The conjunctive adverb <em>however</em> sits between them."}, {"title": "Apply the punctuation pattern", "content": "Per the answer key, the right pattern is <em>designation, however;</em> — a comma before <em>however</em> and a semicolon after to join the second independent clause.<br/><br/>Choice A omits punctuation, creating a run-on; choice B splits into two sentences with a period; choice C (semicolon before, comma after) inverts the punctuation order used here.<br/><br/>The answer is <strong>D</strong>."}]}

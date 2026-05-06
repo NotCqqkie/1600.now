@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure on each side",
-      "content": "Left side: \u201c*Georgics*, an epic poem of Roman origin, dates back to the [date]\u201d \u2014 an independent clause.<br/>Right side: \u201cthe poem's heroic narrative still captivates modern readers\u201d \u2014 an independent clause."
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "The rule: a comma and a coordinating conjunction join two independent clauses. Choice A applies this rule correctly\u2014the comma precedes \u201cyet,\u201d which signals the contrast between the ancient date and the poem's modern appeal. The other choices violate this rule by either reversing the comma-conjunction order, omitting the conjunction, or removing all punctuation. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure on each side", "content": "Left side: “*Georgics*, an epic poem of Roman origin, dates back to the [date]” — an independent clause.<br/>Right side: “the poem's heroic narrative still captivates modern readers” — an independent clause."}, {"title": "Apply the rule for joining independent clauses", "content": "The rule: a comma and a coordinating conjunction join two independent clauses.<br/><br/>Choice A applies this rule correctly—the comma precedes “yet,” which signals the contrast between the ancient date and the poem's modern appeal.<br/><br/>The other choices violate this rule by either reversing the comma-conjunction order, omitting the conjunction, or removing all punctuation.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the central requirement",
-      "content": "The goal is clear: provide <em>an example of a vegetable that contains vitamin C</em>. This is the benchmark. Any answer that doesn't name a specific vegetable fails to accomplish this goal."
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "Only choice C actually names asparagus as the specific vegetable example and connects it to vitamin C. The other choices discuss either the general link between vegetables and vitamin C (A, D) or animal metabolism (B) \u2014 but none of them names a concrete vegetable as the required example. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the central requirement", "content": "The goal is clear: provide <em>an example of a vegetable that contains vitamin C</em>. This is the benchmark. Any answer that doesn't name a specific vegetable fails to accomplish this goal."}, {"title": "Match the goal to the choices", "content": "Only choice C actually names asparagus as the specific vegetable example and connects it to vitamin C.<br/><br/>The other choices discuss either the general link between vegetables and vitamin C (A, D) or animal metabolism (B) — but none of them names a concrete vegetable as the required example.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

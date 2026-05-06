@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the numerical contrast",
-      "content": "The notes give the specific counts: about 1,200 recorded meteorite falls and over 60,000 recorded meteorite finds. This numerical difference is the clearest signal for contrasting the two categories."
-    },
-    {
-      "title": "Apply the contrast to the choices",
-      "content": "Choice D directly juxtaposes the two numbers with a contrastive conjunction \u201cwhile \u2026\u201d, showing that falls are far fewer than finds. The other three either omit the numbers, give only definitions, or fail to highlight the quantitative difference. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the numerical contrast", "content": "The notes give the specific counts: about 1,200 recorded meteorite falls and over 60,000 recorded meteorite finds. This numerical difference is the clearest signal for contrasting the two categories."}, {"title": "Apply the contrast to the choices", "content": "Choice D directly juxtaposes the two numbers with a contrastive conjunction “while …”, showing that falls are far fewer than finds.<br/><br/>The other three either omit the numbers, give only definitions, or fail to highlight the quantitative difference.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

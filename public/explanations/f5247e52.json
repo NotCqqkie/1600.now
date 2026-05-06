@@ -1,15 +1,1 @@
-{
-  "questionId": "f5247e52",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set equations equal and isolate x\u00b2",
-      "content": "To find where the graphs intersect, set the equations equal:<br/><br/>$$ax^2 - c = a + c$$<br/><br/>$$ax^2 = a + 2c$$<br/><br/>$$x^2 = \\frac{a + 2c}{a}$$"
-    },
-    {
-      "title": "Determine the number of solutions",
-      "content": "Since $a > 0$ and $c > 0$, the right side $\\frac{a + 2c}{a}$ is a positive number. An equation of the form $x^2 = k$ where $k > 0$ has exactly two distinct real solutions: the positive and negative square roots. Therefore, the graphs intersect at exactly two points. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f5247e52", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set equations equal and isolate x²", "content": "To find where the graphs intersect, set the equations equal:<br/><br/>$$ax^2 - c = a + c$$<br/><br/>$$ax^2 = a + 2c$$<br/><br/>$$x^2 = \\frac{a + 2c}{a}$$"}, {"title": "Determine the number of solutions", "content": "Since $a > 0$ and $c > 0$, the right side $\\frac{a + 2c}{a}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k > 0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches choice C — <strong>C</strong> is correct."}]}

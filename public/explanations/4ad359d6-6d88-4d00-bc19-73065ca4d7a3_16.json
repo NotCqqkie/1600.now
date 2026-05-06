@@ -1,15 +1,1 @@
-{
-  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_16",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the structure inside each list item",
-      "content": "The sentence lists multiple measurement units, each with the same internal structure: a name followed by a comma and then a description (for example, \u201cthe <em>sa</em>, a unit of area\u201d and \u201cthe <em>khar</em>, a unit of volume\u201d). This means each list item already contains a comma."
-    },
-    {
-      "title": "Use semicolons to separate items containing commas",
-      "content": "When list items contain internal commas, use semicolons (not commas) to separate the items. Choice C applies this rule correctly: \u201carea; the <em>shesep</em>, a unit of length;\u201d creates the pattern the <em>sa</em>, a unit of area; the <em>shesep</em>, a unit of length; and the <em>khar</em>, a unit of volume\u2014semicolons between items, commas within them. Choices A, B, and D fail by splitting names from descriptions, omitting separators, or mixing punctuation types. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the structure inside each list item", "content": "The sentence lists multiple measurement units, each with the same internal structure: a name followed by a comma and then a description (for example, “the <em>sa</em>, a unit of area” and “the <em>khar</em>, a unit of volume”). This means each list item already contains a comma."}, {"title": "Use semicolons to separate items containing commas", "content": "When list items contain internal commas, use semicolons (not commas) to separate the items.<br/><br/>Choice C applies this rule correctly: “area; the <em>shesep</em>, a unit of length;” creates the pattern the <em>sa</em>, a unit of area; the <em>shesep</em>, a unit of length; and the <em>khar</em>, a unit of volume—semicolons between items, commas within them.<br/><br/>Choices A, B, and D fail by splitting names from descriptions, omitting separators, or mixing punctuation types.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify which services appear on the graph",
-      "content": "The question asks for a comparison of two services where one was rated lower by Project Leaders. The graph displays three services for the Project Leaders group with their contribution ratings: global biodiversity rated approximately 3.8, local microclimate approximately 3.2, and community attachment approximately 3.0. We need a choice that uses two of these graphed services to make a valid comparison."
-    },
-    {
-      "title": "Match the comparison to the graph data",
-      "content": "Project Leaders rated local microclimate at 3.2 and global biodiversity at 3.8, which supports choice A's claim that urban agriculture contributes <em>less</em> to improving the local microclimate than to increasing global biodiversity. The other choices either reference services not displayed on the graph (B and C) or reverse the relationship shown by the data (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify which services appear on the graph", "content": "The question asks for a comparison of two services where one was rated lower by Project Leaders.<br/><br/>The graph displays three services for the Project Leaders group with their contribution ratings: global biodiversity rated approximately 3.8, local microclimate approximately 3.2, and community attachment approximately 3.0.<br/><br/>We need a choice that uses two of these graphed services to make a valid comparison."}, {"title": "Match the comparison to the graph data", "content": "Project Leaders rated local microclimate at 3.2 and global biodiversity at 3.8, which supports choice A's claim that urban agriculture contributes <em>less</em> to improving the local microclimate than to increasing global biodiversity.<br/><br/>The other choices either reference services not displayed on the graph (B and C) or reverse the relationship shown by the data (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

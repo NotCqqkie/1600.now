@@ -1,15 +1,1 @@
-{
-  "questionId": "42cc9236",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what needs a pronoun",
-      "content": "The blank needs to refer to \u201can object,\u201d which is singular and just mentioned in the previous sentence."
-    },
-    {
-      "title": "Apply pronoun rules",
-      "content": "\u201dIt\u201d is the personal pronoun used to refer to a singular noun, and it matches the antecedent in number. \u201cThese\u201d is eliminated for being plural; \u201cthis\u201d and \u201cthat\u201d are demonstrative pronouns, which aren't used for established antecedents in Standard English. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "42cc9236", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what needs a pronoun", "content": "The blank needs to refer to “an object,” which is singular and just mentioned in the previous sentence."}, {"title": "Apply pronoun rules", "content": "”It” is the personal pronoun used to refer to a singular noun, and it matches the antecedent in number. “These” is eliminated for being plural; “this” and “that” are demonstrative pronouns, which aren't used for established antecedents in Standard English.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

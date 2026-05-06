@@ -1,15 +1,1 @@
-{
-  "questionId": "b38935ab",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage uses a contrast word (<strong>\u2018unlike its records of later rulers\u2019</strong>) to show that Siemomys\u0142\u2019s documentation relies on oral tradition, while later rulers (like Mieszko II Lambert) are not described with such limitations."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A focuses on the disagreement about Siemomys\u0142\u2019s existence while highlighting Mieszko II Lambert\u2019s undisputed status, aligning with the passage\u2019s emphasis on documentation certainty. The other three either reverse the relationship or introduce unsupported claims about timelines or evidence quality. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b38935ab", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage uses a contrast word (<strong>‘unlike its records of later rulers’</strong>) to show that Siemomysł’s documentation relies on oral tradition, while later rulers (like Mieszko II Lambert) are not described with such limitations."}, {"title": "Match the meaning", "content": "Choice A focuses on the disagreement about Siemomysł’s existence while highlighting Mieszko II Lambert’s undisputed status, aligning with the passage’s emphasis on documentation certainty.<br/><br/>The other three either reverse the relationship or introduce unsupported claims about timelines or evidence quality.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

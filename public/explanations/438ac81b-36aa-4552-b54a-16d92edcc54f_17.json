@@ -1,15 +1,1 @@
-{
-  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the interrupting phrase",
-      "content": "After the blank comes <em>claims dendrochronologist Valerie Trouet</em> \u2014 an attribution that interrupts the flow from the subject <em>a single tree like [this]</em> to the main predicate <em>can tell the history of the world</em>."
-    },
-    {
-      "title": "Apply the rule for interrupting phrases",
-      "content": "A comma after <em>this</em> sets off the interrupting attribution phrase, keeping the main clause intact: <em>a single tree like this ... can tell the history of the world</em>. No punctuation fails to set off the phrase; a colon suggests elaboration rather than interruption; a semicolon implies separate independent clauses. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the interrupting phrase", "content": "After the blank comes <em>claims dendrochronologist Valerie Trouet</em> — an attribution that interrupts the flow from the subject <em>a single tree like [this]</em> to the main predicate <em>can tell the history of the world</em>."}, {"title": "Apply the rule for interrupting phrases", "content": "A comma after <em>this</em> sets off the interrupting attribution phrase, keeping the main clause intact: <em>a single tree like this ... can tell the history of the world</em>.<br/><br/>No punctuation fails to set off the phrase; a colon suggests elaboration rather than interruption; a semicolon implies separate independent clauses.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cca6fae9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what intermittency requires in the data",
-      "content": "\u201dIntermittent\u201d wastewater means influxes arrive in episodes, not continuously. If they were constant, delta 15-N values would remain elevated throughout. Evidence of intermittency must show values <strong>fluctuating</strong>\u2014rising when wastewater arrives, falling when it doesn't."
-    },
-    {
-      "title": "Match this pattern to the choices",
-      "content": "Choice D shows Akumal Bay and Tulum fluctuated considerably across three measurements: Akumal (3.3 \u2192 2.0 \u2192 6.3) and Tulum (5.9 \u2192 2.3 \u2192 5.5). This <strong>rising-falling-rising pattern</strong> reflects wastewater that comes and goes, supporting the intermittent conclusion. The other choices don't demonstrate this fluctuation: A presents an exception rather than the overall pattern, B focuses on extreme values without showing how they vary over time, and C claims relative stability. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cca6fae9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what intermittency requires in the data", "content": "”Intermittent” wastewater means influxes arrive in episodes, not continuously. If they were constant, delta 15-N values would remain elevated throughout. Evidence of intermittency must show values <strong>fluctuating</strong>—rising when wastewater arrives, falling when it doesn't."}, {"title": "Match this pattern to the choices", "content": "Choice D shows Akumal Bay and Tulum fluctuated considerably across three measurements: Akumal (3.3 → 2.0 → 6.3) and Tulum (5.9 → 2.3 → 5.5).<br/><br/>This <strong>rising-falling-rising pattern</strong> reflects wastewater that comes and goes, supporting the intermittent conclusion.<br/><br/>The other choices don't demonstrate this fluctuation: <ul><li>A presents an exception rather than the overall pattern</li><li>B focuses on extreme values without showing how they vary over time</li><li>C claims relative stability</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

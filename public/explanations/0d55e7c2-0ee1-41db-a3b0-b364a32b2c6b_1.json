@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key location detail",
-      "content": "The passage states manul habitats are in <strong>\u201cout-of-the-way parts\u201d</strong> of Asia. This phrase indicates remoteness and isolation from populated areas."
-    },
-    {
-      "title": "Apply the location signal to find the fit",
-      "content": "<strong>Distant from</strong> precisely captures why these cats are hard to study \u2014 their habitats are separated from human populations, making them difficult to access and research. The other three either contradict the \u201cout-of-the-way\u201d setup, are grammatically wrong, or make no sense. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key location detail", "content": "The passage states manul habitats are in <strong>“out-of-the-way parts”</strong> of Asia. This phrase indicates remoteness and isolation from populated areas."}, {"title": "Apply the location signal to find the fit", "content": "<strong>Distant from</strong> precisely captures why these cats are hard to study — their habitats are separated from human populations, making them difficult to access and research.<br/><br/>The other three either contradict the “out-of-the-way” setup, are grammatically wrong, or make no sense.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

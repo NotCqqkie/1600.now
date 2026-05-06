@@ -1,15 +1,1 @@
-{
-  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the question",
-      "content": "The question asks which choice <strong>emphasizes how long</strong> Mayumi Narita competed. The critical information is the time span: 1996 to 2004. To emphasize duration, the choice must present both the start and end of her career, framing it as a complete period of time."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice C directly states <em>\u201ccompeted as a swimmer from 1996 to 2004,\u201d</em> explicitly showing the full span of her career and emphasizing its length. Choice A focuses on medal count (twenty medals, fifteen gold), choice B shifts focus to swimming's history since 1960, and choice D mentions only her debut year without showing when her career ended. This matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the question", "content": "The question asks which choice <strong>emphasizes how long</strong> Mayumi Narita competed. The critical information is the time span: 1996 to 2004. To emphasize duration, the choice must present both the start and end of her career, framing it as a complete period of time."}, {"title": "Match the signal to the choices", "content": "Choice C directly states <em>“competed as a swimmer from 1996 to 2004,”</em> explicitly showing the full span of her career and emphasizing its length.<br/><br/>Choice A focuses on medal count (twenty medals, fifteen gold), choice B shifts focus to swimming's history since 1960, and choice D mentions only her debut year without showing when her career ended.<br/><br/>This matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

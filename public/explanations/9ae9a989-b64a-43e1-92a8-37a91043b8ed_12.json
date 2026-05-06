@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the deciding clue",
-      "content": "The student claims irrigation is humanity's principal use of water. To support a claim about what water is PRIMARILY used for, we need evidence comparing irrigation to other uses."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B provides the key evidence: \u201cRoughly 70% of the world's water withdrawals... is for irrigation,\u201d establishing that irrigation is indeed humanity's principal use. The other three focus on irrigation's history or technology without comparing it to other water uses. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the deciding clue", "content": "The student claims irrigation is humanity's principal use of water. To support a claim about what water is PRIMARILY used for, we need evidence comparing irrigation to other uses."}, {"title": "Apply the signal to the choices", "content": "Choice B provides the key evidence: “Roughly 70% of the world's water withdrawals... is for irrigation,” establishing that irrigation is indeed humanity's principal use.<br/><br/>The other three focus on irrigation's history or technology without comparing it to other water uses.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

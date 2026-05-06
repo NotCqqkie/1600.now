@@ -1,15 +1,1 @@
-{
-  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the target tribal nation and state in the table",
-      "content": "The question specifies that the student wants to find the area of the White Mountain Apache Tribe <strong>in Arizona</strong>. The blank asks for this single data point to complete the comparison with the Leech Lake Band of Ojibwe (1,311 square miles). The task is to read the correct value directly from the table for this specific row."
-    },
-    {
-      "title": "Read the area value and identify the effective completion",
-      "content": "The White Mountain Apache Tribe row in the table shows 2,631 square miles for Arizona. This directly completes the student's stated goal of comparing her tribal nation's area with tribal lands in other states. The other choices (7,648, 3,606, and 4,419 square miles) are area values for different tribal nations in the table\u2014Chickasaw Nation in Oklahoma, Crow Tribe in Montana, and Cheyenne River Sioux Tribe in South Dakota respectively\u2014not the White Mountain Apache Tribe. <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the target tribal nation and state in the table", "content": "The question specifies that the student wants to find the area of the White Mountain Apache Tribe <strong>in Arizona</strong>.<br/><br/>The blank asks for this single data point to complete the comparison with the Leech Lake Band of Ojibwe (1,311 square miles).<br/><br/>The task is to read the correct value directly from the table for this specific row."}, {"title": "Read the area value and identify the effective completion", "content": "The White Mountain Apache Tribe row in the table shows 2,631 square miles for Arizona.<br/><br/>This directly completes the student's stated goal of comparing her tribal nation's area with tribal lands in other states.<br/><br/>The other choices (7,648, 3,606, and 4,419 square miles) are area values for different tribal nations in the table—Chickasaw Nation in Oklahoma, Crow Tribe in Montana, and Cheyenne River Sioux Tribe in South Dakota respectively—not the White Mountain Apache Tribe. <strong>B</strong> is correct."}]}

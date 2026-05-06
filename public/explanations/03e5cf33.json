@@ -1,15 +1,1 @@
-{
-  "questionId": "03e5cf33",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the team's core prediction",
-      "content": "The team predicts that shifting iridescent colors make insects harder to see than solid colors do."
-    },
-    {
-      "title": "Identify evidence that directly tests this prediction",
-      "content": "Choice A directly shows this: far fewer iridescent wings found compared to most of the purple and blue wings found\u2014proving iridescence impairs detection. The other choices either reverse the prediction (B), miss the key comparison (C), or don't test it at all (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "03e5cf33", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the team's core prediction", "content": "The team predicts that shifting iridescent colors make insects harder to see than solid colors do."}, {"title": "Identify evidence that directly tests this prediction", "content": "Choice A directly shows this: far fewer iridescent wings found compared to most of the purple and blue wings found—proving iridescence impairs detection.<br/><br/>The other choices either reverse the prediction (B), miss the key comparison (C), or don't test it at all (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

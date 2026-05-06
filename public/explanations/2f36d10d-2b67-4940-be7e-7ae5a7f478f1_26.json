@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_26",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal",
-      "content": "The question states the goal: provide \u201ca specific example of what municipalities provide.\u201d The notes include this example: \u201cOne service they provide is water treatment.\u201d"
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "C uses the specific service example (water treatment) to accomplish the stated goal. A provides population statistics, B describes municipality count, and D mentions services generally without naming a specific example. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_26", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The question states the goal: provide “a specific example of what municipalities provide.” The notes include this example: “One service they provide is water treatment.”"}, {"title": "Match the goal to the choices", "content": "C uses the specific service example (water treatment) to accomplish the stated goal. <ul><li>A provides population statistics</li><li>B describes municipality count</li><li>D mentions services generally without naming a specific example</li></ul>. That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key similarity",
-      "content": "The passage states that A. vittata \u201ccorresponds in physiology, behavior, and ecology\u201d to other Amazona species\u2014establishing why the conservation approach has potential across the genus."
-    },
-    {
-      "title": "Match to applicability",
-      "content": "Replicable means the approach can be reproduced or repeated, capturing the passage's implication that a successful method, given species similarities, applies elsewhere. The other three address understanding, observation, or restoration rather than method transfer. That matches choice A\u2014<strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key similarity", "content": "The passage states that A. vittata “corresponds in physiology, behavior, and ecology” to other Amazona species—establishing why the conservation approach has potential across the genus."}, {"title": "Match to applicability", "content": "Replicable means the approach can be reproduced or repeated, capturing the passage's implication that a successful method, given species similarities, applies elsewhere.<br/><br/>The other three address understanding, observation, or restoration rather than method transfer.<br/><br/>That matches choice A—<strong>A</strong> is correct."}]}

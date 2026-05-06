@@ -1,15 +1,1 @@
-{
-  "questionId": "eaf22802",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the key principle",
-      "content": "The student's argument requires evidence that minor infractions matter and must not be overlooked. The phrase \u201cTransgression creeps in unperceived and at last ruins the state\u201d directly expresses this concern."
-    },
-    {
-      "title": "Find the matching evidence",
-      "content": "Choice A presents this exact warning\u2014minor violations accumulate imperceptibly, like small expenditures draining a fortune\u2014and thus supports the student's claim that infractions must be strictly enforced. The other three choices address unrelated topics: preventing corruption through magistrate conduct, preserving constitutions against external threats, and maintaining balance in oligarchies. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "eaf22802", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the key principle", "content": "The student's argument requires evidence that minor infractions matter and must not be overlooked. The phrase “Transgression creeps in unperceived and at last ruins the state” directly expresses this concern."}, {"title": "Find the matching evidence", "content": "Choice A presents this exact warning—minor violations accumulate imperceptibly, like small expenditures draining a fortune—and thus supports the student's claim that infractions must be strictly enforced.<br/><br/>The other three choices address unrelated topics: preventing corruption through magistrate conduct, preserving constitutions against external threats, and maintaining balance in oligarchies.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "f1631638",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key difference in the notes",
-      "content": "The notes specify that Enriquez completed a <strong>painting</strong> of Luis Jimenez in 2003 and a <strong>drawing</strong> of Rudolfo Anaya in 2016. The portraits differ fundamentally in their medium."
-    },
-    {
-      "title": "Match the emphasis to the choices",
-      "content": "Choice C foregrounds this medium difference directly: \u201cthe 2003 portrait of Luis Jimenez is a painting, and the 2016 portrait of Rudolfo Anaya is a drawing.\u201d The others fail to emphasize the portraits' difference\u2014either by minimizing it (grouping them as early 2000s), ignoring it altogether (just listing both), or shifting focus from the portraits to the people depicted. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f1631638", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key difference in the notes", "content": "The notes specify that Enriquez completed a <strong>painting</strong> of Luis Jimenez in 2003 and a <strong>drawing</strong> of Rudolfo Anaya in 2016. The portraits differ fundamentally in their medium."}, {"title": "Match the emphasis to the choices", "content": "Choice C foregrounds this medium difference directly: “the 2003 portrait of Luis Jimenez is a painting, and the 2016 portrait of Rudolfo Anaya is a drawing.” The others fail to emphasize the portraits' difference—either by minimizing it (grouping them as early 2000s), ignoring it altogether (just listing both), or shifting focus from the portraits to the people depicted.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

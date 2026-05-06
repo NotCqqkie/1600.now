@@ -1,15 +1,1 @@
-{
-  "questionId": "ea9dfe27",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the metaphorical shift",
-      "content": "The strongest clue is <em>\u201cFires said we were home, we had drawn the circle, we were safe through the night.\u201d</em> This shifts from practical facts about fires (heating, fog) to metaphorical language revealing their emotional and symbolic meaning."
-    },
-    {
-      "title": "Apply the signal to the answer",
-      "content": "The underlined portion illustrates what (A) states: fires provide comfort beyond physical warmth. The metaphor shows that fires represent emotional security\u2014home, safety, belonging\u2014not just heat. The other choices misread the content (C, D) or misidentify the function (B). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ea9dfe27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the metaphorical shift", "content": "The strongest clue is <em>“Fires said we were home, we had drawn the circle, we were safe through the night.”</em> This shifts from practical facts about fires (heating, fog) to metaphorical language revealing their emotional and symbolic meaning."}, {"title": "Apply the signal to the answer", "content": "The underlined portion illustrates what (A) states: fires provide comfort beyond physical warmth.<br/><br/>The metaphor shows that fires represent emotional security—home, safety, belonging—not just heat.<br/><br/>The other choices misread the content (C, D) or misidentify the function (B).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

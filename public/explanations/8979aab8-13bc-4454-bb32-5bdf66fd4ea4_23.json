@@ -1,15 +1,1 @@
-{
-  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The prompt states the student wants to \u201cdescribe the process of relief printing.\u201d Process means the sequential steps or mechanics of how something works."
-    },
-    {
-      "title": "Apply the signal to find the right answer",
-      "content": "D walks through the actual steps in order: carving an image onto a block, then painting it, then pressing it onto a surface. The other three focus on supplementary details\u2014materials, artistic context, or incomplete information\u2014rather than explaining how relief printing works. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The prompt states the student wants to “describe the process of relief printing.” Process means the sequential steps or mechanics of how something works."}, {"title": "Apply the signal to find the right answer", "content": "D walks through the actual steps in order: carving an image onto a block, then painting it, then pressing it onto a surface.<br/><br/>The other three focus on supplementary details—materials, artistic context, or incomplete information—rather than explaining how relief printing works.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

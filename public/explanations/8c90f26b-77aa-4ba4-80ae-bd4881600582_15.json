@@ -1,15 +1,1 @@
-{
-  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the principle that explains the pattern",
-      "content": "Customer expectations about service directly determine whether they give good or bad comments."
-    },
-    {
-      "title": "Apply expectations to the price difference",
-      "content": "Choice B directly explains the worse comment ratio: people at restaurants have higher expectations because of the higher price (no discount), making them harder to satisfy. The other choices either restate what's observed (C), introduce unrelated information (A), or suggest an unjustified policy (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the principle that explains the pattern", "content": "Customer expectations about service directly determine whether they give good or bad comments."}, {"title": "Apply expectations to the price difference", "content": "Choice B directly explains the worse comment ratio: people at restaurants have higher expectations because of the higher price (no discount), making them harder to satisfy.<br/><br/>The other choices either restate what's observed (C), introduce unrelated information (A), or suggest an unjustified policy (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

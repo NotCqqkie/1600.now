@@ -1,15 +1,1 @@
-{
-  "questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the antecedent's number",
-      "content": "The key signal is that the pronoun must refer to the singular noun phrase \u201ca social media post was created.\u201d This tells us what number the possessive pronoun must be."
-    },
-    {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "A possessive pronoun must match its antecedent in number; <strong>its</strong> is the singular possessive form required. <strong>Their</strong> is plural, and <strong>they're</strong>/<strong>it's</strong> are contractions (meaning \u201cthey are\u201d and \u201cit is\u201d) that cannot serve as possessives modifying a noun. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d95c376-0a52-42c6-af0d-ac2aaf25546d_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the antecedent's number", "content": "The key signal is that the pronoun must refer to the singular noun phrase “a social media post was created.” This tells us what number the possessive pronoun must be."}, {"title": "Apply pronoun-antecedent agreement", "content": "A possessive pronoun must match its antecedent in number; <strong>its</strong> is the singular possessive form required. <strong>Their</strong> is plural, and <strong>they're</strong>/<strong>it's</strong> are contractions (meaning “they are” and “it is”) that cannot serve as possessives modifying a noun.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

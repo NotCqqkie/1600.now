@@ -1,15 +1,1 @@
-{
-  "questionId": "6df020e6",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the independent clauses",
-      "content": "The sentence contains two independent clauses. The first, \u201cBefore the park's construction, the surface temperature 30 meters outside of the park boundary was 0.1\u00b0C cooler than that of a control area,\u201d is complete and can stand alone. The second, \u201cthe temperature 30 meters outside of the boundary was 1.7\u00b0C cooler than that of the control area,\u201d is also a complete independent clause."
-    },
-    {
-      "title": "Apply the sentence boundary rule",
-      "content": "Choice C places a period after \u201carea,\u201d properly separating two independent clauses into distinct sentences. \u201cAfter construction\u201d in the second sentence provides a temporal contrast to \u201cBefore\u201d in the first. Choices A and D join the independent clauses with a comma alone, creating a comma splice, while choice B is structurally incomplete. <br/><br/>This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6df020e6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the independent clauses", "content": "The sentence contains two independent clauses. The first, “Before the park's construction, the surface temperature 30 meters outside of the park boundary was 0.1°C cooler than that of a control area,” is complete and can stand alone.<br/><br/>The second, “the temperature 30 meters outside of the boundary was 1.7°C cooler than that of the control area,” is also a complete independent clause."}, {"title": "Apply the sentence boundary rule", "content": "Choice C places a period after “area,” properly separating two independent clauses into distinct sentences. “After construction” in the second sentence provides a temporal contrast to “Before” in the first.<br/><br/>Choices A and D join the independent clauses with a comma alone, creating a comma splice, while choice B is structurally incomplete. <br/><br/>This matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure needing punctuation",
-      "content": "The sentence reads <strong>wildlife biologist [blank] is on the front lines</strong>. The blank requires a name that functions as an <strong>appositive</strong>\u2014a noun phrase identifying or renaming \u201cwildlife biologist.\u201d"
-    },
-    {
-      "title": "Apply the appositive rule",
-      "content": "Appositives require either <strong>no punctuation</strong> (restrictive appositives, where the name is essential to identify the noun) or <strong>paired commas</strong> (non-restrictive appositives, where the name provides extra information). Since \u201cwildlife biologist\u201d doesn't uniquely identify a person, \u201cDr. Purnima Devi Barman\u201d is <strong>restrictive</strong> and must have no punctuation between the noun and name. The other three incorrectly introduce punctuation (B's colon, C's paired commas) or violate punctuation rules (D's single comma, which requires both commas or none). That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure needing punctuation", "content": "The sentence reads <strong>wildlife biologist [blank] is on the front lines</strong>. The blank requires a name that functions as an <strong>appositive</strong>—a noun phrase identifying or renaming “wildlife biologist.”"}, {"title": "Apply the appositive rule", "content": "Appositives require either <strong>no punctuation</strong> (restrictive appositives, where the name is essential to identify the noun) or <strong>paired commas</strong> (non-restrictive appositives, where the name provides extra information).<br/><br/>Since “wildlife biologist” doesn't uniquely identify a person, “Dr.<br/><br/>Purnima Devi Barman” is <strong>restrictive</strong> and must have no punctuation between the noun and name.<br/><br/>The other three incorrectly introduce punctuation (B's colon, C's paired commas) or violate punctuation rules (D's single comma, which requires both commas or none).<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

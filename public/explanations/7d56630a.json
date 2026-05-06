@@ -1,15 +1,1 @@
-{
-  "questionId": "7d56630a",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the ordinal markers",
-      "content": "The passage contains \u201cSecond\u201d and \u201cFinally\u201d introducing the second and third questions, indicating the first question requires the parallel ordinal marker."
-    },
-    {
-      "title": "Apply the ordinal sequence",
-      "content": "\u201dFirst,\u201d establishes the beginning of an ordinal series, creating parallel structure with \u201cSecond\u201d and \u201cFinally\u201d to list the three research questions. The other choices either introduce causation (as a result), addition without ordinal position (additionally), or contrast (however)\u2014none of which fit a numbered sequence. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d56630a", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the ordinal markers", "content": "The passage contains “Second” and “Finally” introducing the second and third questions, indicating the first question requires the parallel ordinal marker."}, {"title": "Apply the ordinal sequence", "content": "”First,” establishes the beginning of an ordinal series, creating parallel structure with “Second” and “Finally” to list the three research questions.<br/><br/>The other choices either introduce causation (as a result), addition without ordinal position (additionally), or contrast (however)—none of which fit a numbered sequence.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

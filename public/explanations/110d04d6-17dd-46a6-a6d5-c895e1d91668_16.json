@@ -1,15 +1,1 @@
-{
-  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures",
-      "content": "The clause before the blank ends with a complete thought \u2013 '... have won the prestigious World Fantasy Award' \u2013 making it an independent clause. The clause after the blank begins with 'the works received the honor...' which is also an independent clause."
-    },
-    {
-      "title": "Apply the semicolon rule",
-      "content": "A semicolon separates two independent clauses; therefore choice B ('Award;') correctly joins the clauses. Choices A, C, and D either use only a comma, lack needed punctuation, or omit the conjunction needed for a comma+and structure, creating a comma splice or run-on. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures", "content": "The clause before the blank ends with a complete thought – '... have won the prestigious World Fantasy Award' – making it an independent clause. The clause after the blank begins with 'the works received the honor...' which is also an independent clause."}, {"title": "Apply the semicolon rule", "content": "A semicolon separates two independent clauses; therefore choice B ('Award;') correctly joins the clauses.<br/><br/>Choices A, C, and D either use only a comma, lack needed punctuation, or omit the conjunction needed for a comma+and structure, creating a comma splice or run-on.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

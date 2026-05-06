@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The goal is to contrast the orbits\u2014showing a meaningful difference between the two moons. The notes provide specific orbital periods: Iapetus completes its orbit in 79.33 Earth days, while Mimas completes its orbit in 0.94 Earth days. This dramatic difference in orbital time is the decisive clue for distinguishing between them."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice C directly states that Mimas completes its orbit many times faster than Iapetus does, using the orbital-period data from the notes to accomplish the stated goal. The other three either invent unsupported distinctions, describe shared features rather than differences, or suggest identical orbits. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The goal is to contrast the orbits—showing a meaningful difference between the two moons.<br/><br/>The notes provide specific orbital periods: Iapetus completes its orbit in 79.33 Earth days, while Mimas completes its orbit in 0.94 Earth days.<br/><br/>This dramatic difference in orbital time is the decisive clue for distinguishing between them."}, {"title": "Apply the signal to the choices", "content": "Choice C directly states that Mimas completes its orbit many times faster than Iapetus does, using the orbital-period data from the notes to accomplish the stated goal.<br/><br/>The other three either invent unsupported distinctions, describe shared features rather than differences, or suggest identical orbits.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

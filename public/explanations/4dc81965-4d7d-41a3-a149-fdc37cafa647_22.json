@@ -1,15 +1,1 @@
-{
-  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The passage states the dust has \u201ccomplex and opposing effects.\u201d The first effect is introduced with \u201cOn one hand,\u201d: dust enhances ice clouds. The blank must introduce the opposing effect that follows."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dOn the other hand,\u201d is the standard pairing with \u201cOn one hand\u201d and directly introduces the opposing effect: dust weakens the storm. The other choices describe time (Previously), illustration (For example), or restatement (In other words)\u2014none match an opposing relationship. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The passage states the dust has “complex and opposing effects.” The first effect is introduced with “On one hand,”: dust enhances ice clouds. The blank must introduce the opposing effect that follows."}, {"title": "Apply the signal to the choices", "content": "”On the other hand,” is the standard pairing with “On one hand” and directly introduces the opposing effect: dust weakens the storm.<br/><br/>The other choices describe time (Previously), illustration (For example), or restatement (In other words)—none match an opposing relationship.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

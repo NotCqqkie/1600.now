@@ -1,15 +1,1 @@
-{
-  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The claim states that male and female sand catsharks share the same sponge, which means each sponge must contain at least one male and at least one female."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice A says each of the three sponges was inhabited by at least one male and at least one female A. fasciatus, directly showing the shared microhabitat. The other choices either mention only one sex, give undetermined sex, or focus on a single sponge without proving both sexes together. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The claim states that male and female sand catsharks share the same sponge, which means each sponge must contain at least one male and at least one female."}, {"title": "Match the signal to the choices", "content": "Choice A says each of the three sponges was inhabited by at least one male and at least one female A. fasciatus, directly showing the shared microhabitat.<br/><br/>The other choices either mention only one sex, give undetermined sex, or focus on a single sponge without proving both sexes together.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

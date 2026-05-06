@@ -1,15 +1,1 @@
-{
-  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_21",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Check if Equation I is the same line or parallel",
-      "content": "For equation I: $7.5x + 4.5y = 9$, check if coefficients and constant are proportional to the original $5x + 3y = 6$. <br/>The scale factors are: $$\\frac{7.5}{5} = 1.5, \\quad \\frac{4.5}{3} = 1.5, \\quad \\frac{9}{6} = 1.5$$ All ratios equal 1.5, so Equation I is $1.5 \\times$ the original. They represent the same line with infinitely many solutions."
-    },
-    {
-      "title": "Check if Equation II is parallel and conclude",
-      "content": "For equation II: $7.5x - 4.5y = 9$, the coefficient ratios are: $$\\frac{7.5}{5} = 1.5 \\quad \\text{but} \\quad \\frac{-4.5}{3} = -1.5$$ Since the ratios differ, Equation II represents a line that intersects the original line (rather than coinciding or being parallel). Therefore, both tested equations satisfy the requirement of having at least one solution. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_21", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Check if Equation I is the same line or parallel", "content": "For equation I: $7.5x + 4.5y = 9$, check if coefficients and constant are proportional to the original $5x + 3y = 6$. <br/>The scale factors are: $$\\frac{7.5}{5} = 1.5, \\quad \\frac{4.5}{3} = 1.5, \\quad \\frac{9}{6} = 1.5$$ All ratios equal 1.5, so Equation I is $1.5 \\times$ the original.<br/><br/>They represent the same line with infinitely many solutions."}, {"title": "Check if Equation II is parallel and conclude", "content": "For equation II: $7.5x - 4.5y = 9$, the coefficient ratios are: $$\\frac{7.5}{5} = 1.5 \\quad \\text{but} \\quad \\frac{-4.5}{3} = -1.5$$ Since the ratios differ, Equation II represents a line that intersects the original line (rather than coinciding or being parallel).<br/><br/>Therefore, both tested equations satisfy the requirement of having at least one solution.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

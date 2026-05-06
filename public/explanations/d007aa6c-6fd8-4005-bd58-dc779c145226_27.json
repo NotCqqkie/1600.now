@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the requirement",
-      "content": "The question explicitly asks to \u201cemphasize the location.\u201d This is the sole criterion for the correct answer."
-    },
-    {
-      "title": "Match to the location-centered choice",
-      "content": "Choice D emphasizes location by making Mexico City and Mexico the centerpiece of the sentence: \u201cThose wishing to see Casa Luis Barrag\u00e1n in person will have to travel to Mexico City, Mexico.\u201d Choices A, B, and C omit location, instead highlighting the architect, architectural features, or design style. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the requirement", "content": "The question explicitly asks to “emphasize the location.” This is the sole criterion for the correct answer."}, {"title": "Match to the location-centered choice", "content": "Choice D emphasizes location by making Mexico City and Mexico the centerpiece of the sentence: “Those wishing to see Casa Luis Barragán in person will have to travel to Mexico City, Mexico.” Choices A, B, and C omit location, instead highlighting the architect, architectural features, or design style.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the two independent clauses",
-      "content": "The first independent clause describes the temperature at site CC1, with an appositive phrase: \u201cthe air temperature was 17.9\u00b0C at site CC1, the site with the highest ______.\u201d The second independent clause is \u201cit had shifted to 16.2\u00b0C by 8:30 p.m.\u201d"
-    },
-    {
-      "title": "Apply the comma-plus-conjunction rule",
-      "content": "A <strong>comma plus a coordinating conjunction</strong> correctly joins two independent clauses; choice B provides \u201celevation, and,\u201d which both completes the first clause and supplies the required punctuation and conjunction. Choices A, C, and D violate this rule by each omitting a critical element (A: no punctuation or conjunction; C: no comma; D: no conjunction). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the two independent clauses", "content": "The first independent clause describes the temperature at site CC1, with an appositive phrase: “the air temperature was 17.9°C at site CC1, the site with the highest ______.” The second independent clause is “it had shifted to 16.2°C by 8:30 p.m.”"}, {"title": "Apply the comma-plus-conjunction rule", "content": "A <strong>comma plus a coordinating conjunction</strong> correctly joins two independent clauses; choice B provides “elevation, and,” which both completes the first clause and supplies the required punctuation and conjunction.<br/><br/>Choices A, C, and D violate this rule by each omitting a critical element (A: no punctuation or conjunction; C: no comma; D: no conjunction).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

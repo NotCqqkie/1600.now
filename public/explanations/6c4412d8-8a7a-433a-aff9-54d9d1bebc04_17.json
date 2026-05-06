@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two structures separated by the blank",
-      "content": "Left: \u201c...have survived from roughly the sixteenth century to the present [day]\u201d \u2014 an independent clause with a complete main verb and its modifiers.<br/><br/>Right: \u201cbeing passed down through private libraries in the city of Timbuktu, Mali\u201d \u2014 a gerund phrase (a noun phrase formed from the verb \u201cpass down\u201d)."
-    },
-    {
-      "title": "Apply the preposition-gerund rule",
-      "content": "A preposition (here <strong>by</strong>) must connect directly to the gerund phrase that follows without intervening punctuation. Choice A \u201cday by\u201d correctly reads as \u201cpresent day by being passed down...\u201d \u2014 the manuscripts survived <em>by the method of</em> being passed down. Choices B, C, and D break this connection: B improperly uses a semicolon before a phrase (not an independent clause), C creates a sentence fragment with a period, and D adds an unnecessary comma. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two structures separated by the blank", "content": "Left: “...have survived from roughly the sixteenth century to the present [day]” — an independent clause with a complete main verb and its modifiers.<br/><br/>Right: “being passed down through private libraries in the city of Timbuktu, Mali” — a gerund phrase (a noun phrase formed from the verb “pass down”)."}, {"title": "Apply the preposition-gerund rule", "content": "A preposition (here <strong>by</strong>) must connect directly to the gerund phrase that follows without intervening punctuation.<br/><br/>Choice A “day by” correctly reads as “present day by being passed down...” — the manuscripts survived <em>by the method of</em> being passed down.<br/><br/>Choices B, C, and <ul><li>D break this connection: B improperly uses a semicolon before a phrase (not an independent clause)</li><li>C creates a sentence fragment with a period</li><li>D adds an unnecessary comma</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

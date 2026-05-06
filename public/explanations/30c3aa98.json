@@ -1,15 +1,1 @@
-{
-  "questionId": "30c3aa98",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The sentence claims \u201cSeveral states saw rapid growth in the production of this resource\u201d \u2014 the blank requires an example showing substantial increases across multiple states over the full time period shown."
-    },
-    {
-      "title": "Match the evidence",
-      "content": "D directly supports this by showing all three states\u2014Arizona, Michigan, and Montana\u2014experienced significant production increases from 1889 to 1909, with Arizona rising from roughly 30 to 280 million pounds, Montana from roughly 100 to 310 million pounds, and Michigan from roughly 80 to 230 million pounds. A, B, and C either narrow the focus to one state, provide a snapshot of one year, or examine only part of the time period rather than illustrating the broad growth pattern across states. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "30c3aa98", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The sentence claims “Several states saw rapid growth in the production of this resource” — the blank requires an example showing substantial increases across multiple states over the full time period shown."}, {"title": "Match the evidence", "content": "D directly supports this by showing all three states—Arizona, Michigan, and Montana—experienced significant production increases from 1889 to 1909, with Arizona rising from roughly 30 to 280 million pounds, Montana from roughly 100 to 310 million pounds, and Michigan from roughly 80 to 230 million pounds.<br/><br/>A, B, and C either narrow the focus to one state, provide a snapshot of one year, or examine only part of the time period rather than illustrating the broad growth pattern across states.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

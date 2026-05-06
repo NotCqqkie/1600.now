@@ -1,15 +1,1 @@
-{
-  "questionId": "cf08e2fd",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal context",
-      "content": "The passage establishes a completed historical period (1912\u20131951) using past tense verbs (\u201cowned,\u201d \u201coperated,\u201d \u201cwas\u201d), anchoring all described actions in the past."
-    },
-    {
-      "title": "Apply tense consistency",
-      "content": "The rule is tense consistency (verbs in the same temporal context must share the same tense), and \u201cbecame\u201d is the only past tense form, making it correct. The other choices violate this rule\u2014\u201dwill become\u201d is future, \u201cis becoming\u201d is present progressive, and \u201cto become\u201d is infinitive form, none aligning with the past context. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf08e2fd", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal context", "content": "The passage establishes a completed historical period (1912–1951) using past tense verbs (“owned,” “operated,” “was”), anchoring all described actions in the past."}, {"title": "Apply tense consistency", "content": "The rule is tense consistency (verbs in the same temporal context must share the same tense), and “became” is the only past tense form, making it correct.<br/><br/>The other choices violate this rule—”will become” is future, “is becoming” is present progressive, and “to become” is infinitive form, none aligning with the past context.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

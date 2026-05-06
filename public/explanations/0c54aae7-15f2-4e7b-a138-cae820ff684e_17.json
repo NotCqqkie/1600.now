@@ -1,16 +1,1 @@
-{
-  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Compare how concentrated each distribution is around its mean",
-      "content": "<strong>Group A</strong> (mean 2.1): Frequencies 6\u20133\u20132\u20133\u20136 spread across weights 0 through 4. Most objects are far from the mean at weights 0 and 4.<br/><br/><strong>Group B</strong> (mean 11.1): Frequencies 2\u20133\u201310\u20133\u20132 across weights 9 through 13. 10 out of 20 objects sit exactly at weight 11 (the mean), with very few objects in the tails."
-    },
-    {
-      "title": "Recognize that concentration at the mean reduces standard deviation",
-      "content": "Standard deviation measures how spread out data is from the mean. To compare, note that both groups span the same range of deviations from their respective means: \u22122.1, \u22121.1, \u22120.1, 0.9, 1.9. However, Group B places 10 objects at deviation \u22120.1 (nearly zero), while Group A has only 2 objects there. Conversely, Group A places 6 objects at deviation \u22122.1 and another 6 at deviation +1.9, while Group B places only 2 at each. Since larger squared deviations contribute more to the sum, Group A\u2014with more frequency at larger deviations\u2014has a larger variance and standard deviation. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$\\text{Variance} = \\frac{\\sum \\text{(frequency)} \\times (\\text{value} - \\text{mean})^2}{n}$$"
-    }
-  ]
-}
+{"questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_17", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Compare how concentrated each distribution is around its mean", "content": "<strong>Group A</strong> (mean 2.1): Frequencies 6–3–2–3–6 spread across weights 0 through 4.<br/><br/>Most objects are far from the mean at weights 0 and 4.<br/><br/><strong>Group B</strong> (mean 11.1): Frequencies 2–3–10–3–2 across weights 9 through 13. 10 out of 20 objects sit exactly at weight 11 (the mean), with very few objects in the tails."}, {"title": "Recognize that concentration at the mean reduces standard deviation", "content": "Standard deviation measures how spread out data is from the mean.<br/><br/>To compare, note that both groups span the same range of deviations from their respective means: −2.1, −1.1, −0.1, 0.9, 1.9.<br/><br/>However, Group B places 10 objects at deviation −0.1 (nearly zero), while Group A has only 2 objects there.<br/><br/>Conversely, Group A places 6 objects at deviation −2.1 and another 6 at deviation +1.9, while Group B places only 2 at each.<br/><br/>Since larger squared deviations contribute more to the sum, Group A—with more frequency at larger deviations—has a larger variance and standard deviation.<br/><br/>That matches choice C — <strong>C</strong> is correct.", "formula": "$$\\text{Variance} = \\frac{\\sum \\text{(frequency)} \\times (\\text{value} - \\text{mean})^2}{n}$$"}]}

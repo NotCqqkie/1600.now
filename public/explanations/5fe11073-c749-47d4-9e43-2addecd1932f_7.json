@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the turning point",
-      "content": "The passage sets up a widely accepted model (the energy ladder) to explain fuel choice, then immediately signals disagreement with the word <strong>however</strong> and describes the model as <strong>reductive</strong> \u2014 indicating it oversimplifies the reality of household fuel decisions."
-    },
-    {
-      "title": "Match the purpose to the answer",
-      "content": "Choice A directly identifies the passage's purpose: <strong>challenging a common explanation</strong> (the energy ladder model). The other options frame it differently \u2014 B treats it as a country comparison, C reverses the causal relationship, and D describes a model about prices instead of choice. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the turning point", "content": "The passage sets up a widely accepted model (the energy ladder) to explain fuel choice, then immediately signals disagreement with the word <strong>however</strong> and describes the model as <strong>reductive</strong> — indicating it oversimplifies the reality of household fuel decisions."}, {"title": "Match the purpose to the answer", "content": "Choice A directly identifies the passage's purpose: <strong>challenging a common explanation</strong> (the energy ladder model).<br/><br/>The other options frame it differently — <ul><li>B treats it as a country comparison</li><li>C reverses the causal relationship</li><li>D describes a model about prices instead of choice</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

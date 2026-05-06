@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_21",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the causal signal",
-      "content": "The first sentence describes Kelley's extensive research and specialization. The second describes colleagues regarding her book as reliable. The transition must show that the second outcome results from the first cause\u2014her research and expertise led to professional trust."
-    },
-    {
-      "title": "Match the causal relationship",
-      "content": "'Consequently' shows the causal relationship: extensive research resulted in colleagues regarding the book as reliable. The other three all fail to show causation: 'Likewise' indicates a parallel relationship, 'Next' marks only sequence, and 'Nevertheless' creates a false contrast. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "76199cca-674f-403e-a01c-927854021f9f_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the causal signal", "content": "The first sentence describes Kelley's extensive research and specialization. The second describes colleagues regarding her book as reliable. The transition must show that the second outcome results from the first cause—her research and expertise led to professional trust."}, {"title": "Match the causal relationship", "content": "'Consequently' shows the causal relationship: extensive research resulted in colleagues regarding the book as reliable.<br/><br/>The other three all fail to show causation: 'Likewise' indicates a parallel relationship, 'Next' marks only sequence, and 'Nevertheless' creates a false contrast.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

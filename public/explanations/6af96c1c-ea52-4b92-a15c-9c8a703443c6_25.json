@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal",
-      "content": "The student must provide an EXAMPLE of a specific dinosaur fossil specimen's nickname\u2014not just discuss that nicknames exist in general."
-    },
-    {
-      "title": "Find the choice with the specific example",
-      "content": "C names the specific example: <strong>\u201cRoberta\u201d</strong> is the nickname of a <em>Brachylophosaurus</em> specimen. The other three don't provide a named example\u2014A hints at a specimen without naming its nickname, B discusses nicknames only generally, and D omits nicknames entirely. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student must provide an EXAMPLE of a specific dinosaur fossil specimen's nickname—not just discuss that nicknames exist in general."}, {"title": "Find the choice with the specific example", "content": "C names the specific example: <strong>“Roberta”</strong> is the nickname of a <em>Brachylophosaurus</em> specimen.<br/><br/>The other three don't provide a named example—<ul><li>A hints at a specimen without naming its nickname</li><li>B discusses nicknames only generally</li><li>D omits nicknames entirely</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

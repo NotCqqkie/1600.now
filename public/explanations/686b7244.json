@@ -1,15 +1,1 @@
-{
-  "questionId": "686b7244",
-  "correctAnswer": "5",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify hours per course type from the coefficients",
-      "content": "In the equation $10x + 15y = 85$, each coefficient represents the hours for that course type. The coefficient 10 (paired with $x$, on-site courses) means each on-site course is <strong>10 hours</strong>. The coefficient 15 (paired with $y$, online courses) means each online course is <strong>15 hours</strong>."
-    },
-    {
-      "title": "Calculate the difference",
-      "content": "Subtract the on-site hours from the online hours: $$15 - 10 = 5$$ Each online training course takes <strong>5 more hours</strong> than each on-site training course."
-    }
-  ]
-}
+{"questionId": "686b7244", "correctAnswer": "5", "section": "Math", "steps": [{"title": "Identify hours per course type from the coefficients", "content": "In the equation $10x + 15y = 85$, each coefficient represents the hours for that course type.<br/><br/>The coefficient 10 (paired with $x$, on-site courses) means each on-site course is <strong>10 hours</strong>.<br/><br/>The coefficient 15 (paired with $y$, online courses) means each online course is <strong>15 hours</strong>."}, {"title": "Calculate the difference", "content": "Subtract the on-site hours from the online hours: $$15 - 10 = 5$$ Each online training course takes <strong>5 more hours</strong> than each on-site training course."}]}

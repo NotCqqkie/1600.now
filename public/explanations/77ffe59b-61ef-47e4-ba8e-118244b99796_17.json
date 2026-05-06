@@ -1,15 +1,1 @@
-{
-  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank fills a noun phrase consisting of the noun <strong>researchers</strong> followed by <strong>James Melton and Tom Ginsburg</strong> (proper names serving as an appositive). This noun phrase is the object of the preposition <strong>according to legal</strong>, creating an intervening prepositional phrase positioned between the subject and the main verb."
-    },
-    {
-      "title": "Apply the appositive punctuation rule",
-      "content": "When an appositive is essential to identify its noun\u2014as these names are here, specifying which specific researchers are being cited\u2014it is restrictive and requires no comma before it. An intervening prepositional phrase must also close with a comma before the main verb <strong>contains</strong>. <br/>Choice B correctly applies this rule: <strong>\u201cresearchers James Melton and Tom Ginsburg,\u201d</strong> with no internal comma but a closing comma. Choices A, C, and D violate the rule by either omitting the closing comma, incorrectly adding a comma before the restrictive appositive, or both. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank fills a noun phrase consisting of the noun <strong>researchers</strong> followed by <strong>James Melton and Tom Ginsburg</strong> (proper names serving as an appositive).<br/><br/>This noun phrase is the object of the preposition <strong>according to legal</strong>, creating an intervening prepositional phrase positioned between the subject and the main verb."}, {"title": "Apply the appositive punctuation rule", "content": "When an appositive is essential to identify its noun—as these names are here, specifying which specific researchers are being cited—it is restrictive and requires no comma before it.<br/><br/>An intervening prepositional phrase must also close with a comma before the main verb <strong>contains</strong>. <br/>Choice B correctly applies this rule: <strong>“researchers James Melton and Tom Ginsburg,”</strong> with no internal comma but a closing comma.<br/><br/>Choices A, C, and D violate the rule by either omitting the closing comma, incorrectly adding a comma before the restrictive appositive, or both.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

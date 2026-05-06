@@ -1,15 +1,1 @@
-{
-  "questionId": "7c9a65bb",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the protective mechanism",
-      "content": "The passage explains that glass beads allow light to focus on the beads <em>instead of the particles</em>, preventing the particles from absorbing the beam's intense heat."
-    },
-    {
-      "title": "Match the mechanism to the choices",
-      "content": "Choice B directly states that glass beads allow manipulation without directly heating the particles\u2014exactly what the passage describes. Choices A and C describe benefits not mentioned in the passage (faster location and weaker beams), while choice D misunderstands the mechanism as heat transfer rather than heat avoidance. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7c9a65bb", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the protective mechanism", "content": "The passage explains that glass beads allow light to focus on the beads <em>instead of the particles</em>, preventing the particles from absorbing the beam's intense heat."}, {"title": "Match the mechanism to the choices", "content": "Choice B directly states that glass beads allow manipulation without directly heating the particles—exactly what the passage describes.<br/><br/>Choices A and C describe benefits not mentioned in the passage (faster location and weaker beams), while choice D misunderstands the mechanism as heat transfer rather than heat avoidance.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

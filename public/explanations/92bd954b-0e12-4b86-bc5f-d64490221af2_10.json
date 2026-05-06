@@ -1,15 +1,1 @@
-{
-  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the researchers' measure of relaxation",
-      "content": "The passage explicitly states that <strong>\u201ca reduced heart rate is considered a measure of relaxation.\u201d</strong> The researchers measured heart rates to test whether lullabies relax infants, so supporting evidence must demonstrate that the lullaby produced lower heart rates."
-    },
-    {
-      "title": "Apply the measure to the answer choices",
-      "content": "Choice C directly demonstrates the effect the researchers measured\u2014substantially lower infants' heart rates during the lullaby than during the non-lullaby. The remaining choices either measure a different parameter (irregularity rather than reduction), rely on different evidence (parental preference), or include irrelevant context. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the researchers' measure of relaxation", "content": "The passage explicitly states that <strong>“a reduced heart rate is considered a measure of relaxation.”</strong> The researchers measured heart rates to test whether lullabies relax infants, so supporting evidence must demonstrate that the lullaby produced lower heart rates."}, {"title": "Apply the measure to the answer choices", "content": "Choice C directly demonstrates the effect the researchers measured—substantially lower infants' heart rates during the lullaby than during the non-lullaby.<br/><br/>The remaining choices either measure a different parameter (irregularity rather than reduction), rely on different evidence (parental preference), or include irrelevant context.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

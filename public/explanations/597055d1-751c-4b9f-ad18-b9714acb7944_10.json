@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast in P4's correlations",
-      "content": "The graph shows P4's correlation values differ notably: 0.26 for abstract paintings versus 0.37 for cubist paintings. The model's predictions aligned more closely with P4's actual cubist ratings than with abstract ratings."
-    },
-    {
-      "title": "Interpret what this pattern reveals",
-      "content": "Different correlation strengths across the two styles indicate the model identified distinct patterns in P4's responses to each style; if P4 rated both types uniformly, the correlations would be comparable. This means the model learned that P4's responses differ systematically between abstract and cubist paintings\u2014so the model would predict that P4's ratings for the two styles would differ from one another. Choices B and C make specific claims about directional preference (more or less pleasure) not supported by correlation data alone, and choice D contradicts the different correlations shown. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast in P4's correlations", "content": "The graph shows P4's correlation values differ notably: 0.26 for abstract paintings versus 0.37 for cubist paintings. The model's predictions aligned more closely with P4's actual cubist ratings than with abstract ratings."}, {"title": "Interpret what this pattern reveals", "content": "Different correlation strengths across the two styles indicate the model identified distinct patterns in P4's responses to each style; if P4 rated both types uniformly, the correlations would be comparable.<br/><br/>This means the model learned that P4's responses differ systematically between abstract and cubist paintings—so the model would predict that P4's ratings for the two styles would differ from one another.<br/><br/>Choices B and C make specific claims about directional preference (more or less pleasure) not supported by correlation data alone, and choice D contradicts the different correlations shown.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

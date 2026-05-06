@@ -1,15 +1,1 @@
-{
-  "questionId": "40c3589d",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive phrase",
-      "content": "The phrase <em>\u201ca combination of fiction and memoir, poetry and ______\u201d</em> is an appositive that explains what the book is. It begins with an em dash immediately after the title."
-    },
-    {
-      "title": "Apply the em dash pairing rule",
-      "content": "When an appositive is introduced by an opening em dash, it must be closed with a matching em dash before the main verb. Choice D <strong>(prose\u2014)</strong> provides the closing em dash, creating the standard <em>\u201cnoun\u2014appositive\u2014verb\u201d</em> pattern. The other choices either use different punctuation (semicolon, comma) or none at all, which fails to close the em dash pairing. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "40c3589d", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive phrase", "content": "The phrase <em>“a combination of fiction and memoir, poetry and ______”</em> is an appositive that explains what the book is. It begins with an em dash immediately after the title."}, {"title": "Apply the em dash pairing rule", "content": "When an appositive is introduced by an opening em dash, it must be closed with a matching em dash before the main verb.<br/><br/>Choice D <strong>(prose—)</strong> provides the closing em dash, creating the standard <em>“noun—appositive—verb”</em> pattern.<br/><br/>The other choices either use different punctuation (semicolon, comma) or none at all, which fails to close the em dash pairing.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

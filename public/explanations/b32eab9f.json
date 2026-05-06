@@ -1,15 +1,1 @@
-{
-  "questionId": "b32eab9f",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The sentence has a plural subject noun phrase: \u201cThe trailblazing accomplishments of Goldin.\u201d The verb blank must agree with this plural subject."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "The rule is subject-verb agreement: a plural subject requires a plural verb form. Options A (attests), B (has attested), and C (is attesting) are all singular forms. Option D (attest) is the plural form that correctly agrees with the plural subject \u201caccomplishments.\u201d That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b32eab9f", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The sentence has a plural subject noun phrase: “The trailblazing accomplishments of Goldin.” The verb blank must agree with this plural subject."}, {"title": "Apply subject-verb agreement", "content": "The rule is subject-verb agreement: a plural subject requires a plural verb form.<br/><br/>Options A (attests), B (has attested), and C (is attesting) are all singular forms.<br/><br/>Option D (attest) is the plural form that correctly agrees with the plural subject “accomplishments.” That matches choice D — <strong>D</strong> is correct."}]}

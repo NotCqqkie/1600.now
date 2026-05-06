@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key structural marker",
-      "content": "The passage opens with <em>\u201cLike all species of baleen whales,\u201d</em> establishing a shared characteristic\u2014feeding via baleen plates\u2014before pivoting with <em>\u201cAnd while...\u201d</em> to contrast the humpback and fin whale."
-    },
-    {
-      "title": "Match to the structure described in the choices",
-      "content": "Choice D captures this: it first presents the shared feeding mechanism, then illustrates a difference (size) that is directly relevant to that characteristic, since larger whales consume more krill in absolute terms. A reverses the sequence, B invents unmentioned population consequences, and C wrongly treats baleen feeding as unique to humpbacks. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key structural marker", "content": "The passage opens with <em>“Like all species of baleen whales,”</em> establishing a shared characteristic—feeding via baleen plates—before pivoting with <em>“And while...”</em> to contrast the humpback and fin whale."}, {"title": "Match to the structure described in the choices", "content": "Choice D captures this: it first presents the shared feeding mechanism, then illustrates a difference (size) that is directly relevant to that characteristic, since larger whales consume more krill in absolute terms.<br/><br/><ul><li>A reverses the sequence</li><li>B invents unmentioned population consequences</li><li>C wrongly treats baleen feeding as unique to humpbacks</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

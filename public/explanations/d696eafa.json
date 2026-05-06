@@ -1,15 +1,1 @@
-{
-  "questionId": "d696eafa",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what would prove the transition date",
-      "content": "The transition to plate tectonics at 3.2 billion years ago enabled lithosphere and mantle to interact and mix. The strongest evidence would show this interaction occurred after the transition but not before it."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "D directly demonstrates this: mantle rocks younger than 3.2 billion years contain material from lithospheric rocks, yet older mantle rocks lack this material. This transfer of material is the chemical fingerprint of the interaction that began at the transition.<br/><br/>A and B address rock abundance or diversity without demonstrating interaction; C offers a correlation that is ambiguous in direction and lacks a sharp 3.2-billion-year boundary. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d696eafa", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what would prove the transition date", "content": "The transition to plate tectonics at 3.2 billion years ago enabled lithosphere and mantle to interact and mix. The strongest evidence would show this interaction occurred after the transition but not before it."}, {"title": "Match the signal to the choices", "content": "D directly demonstrates this: mantle rocks younger than 3.2 billion years contain material from lithospheric rocks, yet older mantle rocks lack this material.<br/><br/>This transfer of material is the chemical fingerprint of the interaction that began at the transition.<br/><br/>A and B address rock abundance or diversity without demonstrating interaction; C offers a correlation that is ambiguous in direction and lacks a sharp 3.2-billion-year boundary.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

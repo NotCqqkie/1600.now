@@ -1,15 +1,1 @@
-{
-  "questionId": "35b46381",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The crucial signal is that the 2022 paper's justification\u2014that evidence was lacking both for and against antigravity\u2014is directly contradicted by the 2023 findings of experimental evidence against it."
-    },
-    {
-      "title": "Match to the main idea",
-      "content": "Choice B captures this contradiction by explaining the consequence: theorists were justified before 2023, but the evidence now makes their rationale inapplicable. The other choices misread the passage\u2014A assumes an unstated causal relationship, C misconstrues the 2022 paper's position, and D invents unsupported claims. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "35b46381", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key contrast", "content": "The crucial signal is that the 2022 paper's justification—that evidence was lacking both for and against antigravity—is directly contradicted by the 2023 findings of experimental evidence against it."}, {"title": "Match to the main idea", "content": "Choice B captures this contradiction by explaining the consequence: theorists were justified before 2023, but the evidence now makes their rationale inapplicable.<br/><br/>The other choices misread the passage—<ul><li>A assumes an unstated causal relationship</li><li>C misconstrues the 2022 paper's position</li><li>D invents unsupported claims</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

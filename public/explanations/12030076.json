@@ -1,15 +1,1 @@
-{
-  "questionId": "12030076",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage focuses on what the Aspera mission will achieve: using a new telescope to observe warm-hot CGM gas that \u201chaven't previously been observable,\u201d which is crucial to understanding galaxy evolution."
-    },
-    {
-      "title": "Match the answer to the signal",
-      "content": "Choice D states that Aspera will produce \u201cthe first direct observations\u201d of warm-hot CGM gas, which \u201clikely has an important role in the evolution of galaxies.\u201d This directly reflects the passage's focus on a mission delivering a new observation of previously-invisible material critical to galaxy evolution. The other choices either focus on a person (A), describe only the current limitation (B), or generalize about incomplete understanding without the Aspera mission (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "12030076", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage focuses on what the Aspera mission will achieve: using a new telescope to observe warm-hot CGM gas that “haven't previously been observable,” which is crucial to understanding galaxy evolution."}, {"title": "Match the answer to the signal", "content": "Choice D states that Aspera will produce “the first direct observations” of warm-hot CGM gas, which “likely has an important role in the evolution of galaxies.” This directly reflects the passage's focus on a mission delivering a new observation of previously-invisible material critical to galaxy evolution.<br/><br/>The other choices either focus on a person (A), describe only the current limitation (B), or generalize about incomplete understanding without the Aspera mission (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

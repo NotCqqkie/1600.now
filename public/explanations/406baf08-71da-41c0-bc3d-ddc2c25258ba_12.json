@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_12",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the critical baseline",
-      "content": "The passage explicitly states the table shows temperatures <strong>according to a model that assumes the absence of atmosphere.</strong> HD 80653 b is shown at 2,300 kelvins under this no-atmosphere condition."
-    },
-    {
-      "title": "Reason about atmospheric effects",
-      "content": "Adding an atmosphere would alter the baseline surface temperature. An atmosphere moderates extreme temperatures, so the 2,300 kelvins shown would decrease with atmospheric presence. Choices A and C address mass, which doesn't vary with atmospheric presence; choice B specifies 1,400 kelvins without basis. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_12", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the critical baseline", "content": "The passage explicitly states the table shows temperatures <strong>according to a model that assumes the absence of atmosphere.</strong> HD 80653 b is shown at 2,300 kelvins under this no-atmosphere condition."}, {"title": "Reason about atmospheric effects", "content": "Adding an atmosphere would alter the baseline surface temperature.<br/><br/>An atmosphere moderates extreme temperatures, so the 2,300 kelvins shown would decrease with atmospheric presence.<br/><br/>Choices A and C address mass, which doesn't vary with atmospheric presence; choice B specifies 1,400 kelvins without basis.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "3cc2eacc",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal chain",
-      "content": "The passage links three elements: rewards trigger dopamine; dopamine is required for fan cells; fan cells are necessary for associative memories. The word \u201cConsequently\u201d signals we must apply this chain logically."
-    },
-    {
-      "title": "Apply the chain to the answer choices",
-      "content": "Following that sequence, rewards should increase capacity to form associative memories\u2014which is exactly what choice C states. The other three either contradict the dopamine-fan cell mechanism, focus on recognizing differences rather than forming connections, or reverse causality.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3cc2eacc", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the causal chain", "content": "The passage links three elements: rewards trigger dopamine; dopamine is required for fan cells; fan cells are necessary for associative memories. The word “Consequently” signals we must apply this chain logically."}, {"title": "Apply the chain to the answer choices", "content": "Following that sequence, rewards should increase capacity to form associative memories—which is exactly what choice C states.<br/><br/>The other three either contradict the dopamine-fan cell mechanism, focus on recognizing differences rather than forming connections, or reverse causality.<br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "7b55e895",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what both texts observe",
-      "content": "Both Text 1 and Text 2 describe tropical mountain bird species as having <strong>severely restricted geographic ranges</strong>, even though they propose different reasons for this restriction."
-    },
-    {
-      "title": "Match the shared observation to the choices",
-      "content": "Choice A states that tropical mountain bird species are <strong>restricted in where they can live</strong>. Text 1 explicitly says they \u201ctend to be limited in the types of spaces they can call home,\u201d and Text 2 demonstrates this through observation, showing birds \u201cinhabited much smaller geographic areas.\u201d Choices B, C, and D address observation tools, nest construction, and genetic similarity\u2014none of which either text discusses. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7b55e895", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what both texts observe", "content": "Both Text 1 and Text 2 describe tropical mountain bird species as having <strong>severely restricted geographic ranges</strong>, even though they propose different reasons for this restriction."}, {"title": "Match the shared observation to the choices", "content": "Choice A states that tropical mountain bird species are <strong>restricted in where they can live</strong>.<br/><br/>Text 1 explicitly says they “tend to be limited in the types of spaces they can call home,” and Text 2 demonstrates this through observation, showing birds “inhabited much smaller geographic areas.” Choices B, C, and D address observation tools, nest construction, and genetic similarity—none of which either text discusses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

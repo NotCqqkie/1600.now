@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase <em>\u201cthe second most commonly used password\u201d</em> signals that the blank should describe something widely adopted by many users."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Popular</strong> directly answers why such a convenience-focused approach would be widespread \u2014 because many people choose it. The other three fail because <em>creative</em> contradicts the simplicity of the example, <em>useful</em> doesn't explain the widespread adoption, and <em>complex</em> reverses the meaning. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase <em>“the second most commonly used password”</em> signals that the blank should describe something widely adopted by many users."}, {"title": "Match the meaning", "content": "<strong>Popular</strong> directly answers why such a convenience-focused approach would be widespread — because many people choose it.<br/><br/>The other three fail because <em>creative</em> contradicts the simplicity of the example, <em>useful</em> doesn't explain the widespread adoption, and <em>complex</em> reverses the meaning.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

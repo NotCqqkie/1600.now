@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the Central Focus",
-      "content": "The passage opens with a discovery claim\u2014Saturn is the first planet discovered to have more than 100 moons. The middle sentence reports 62 newly detected moons, and the final sentence emphasizes the finding's significance: Saturn now outranks Jupiter in moon count. The text is structured entirely around reporting this astronomical discovery."
-    },
-    {
-      "title": "Determine the Main Purpose",
-      "content": "Choice A directly captures the purpose: to note a new finding about Saturn's moons. The passage opens with the discovery, supports it with specific evidence, and concludes with its significance. Choices B, C, and D address peripheral details that are either not explained or absent from the text\u2014the CFHT's mechanics, Jupiter's atmosphere, and Hawaii's history are irrelevant to the main purpose. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the Central Focus", "content": "The passage opens with a discovery claim—Saturn is the first planet discovered to have more than 100 moons.<br/><br/>The middle sentence reports 62 newly detected moons, and the final sentence emphasizes the finding's significance: Saturn now outranks Jupiter in moon count.<br/><br/>The text is structured entirely around reporting this astronomical discovery."}, {"title": "Determine the Main Purpose", "content": "Choice A directly captures the purpose: to note a new finding about Saturn's moons.<br/><br/>The passage opens with the discovery, supports it with specific evidence, and concludes with its significance.<br/><br/>Choices B, C, and D address peripheral details that are either not explained or absent from the text—the CFHT's mechanics, Jupiter's atmosphere, and Hawaii's history are irrelevant to the main purpose.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d8d33cc5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase \u201cTo improve this system\u201d is the crucial clue. The blank requires a word meaning improvements or systematic changes to fix a problem."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dReforms\u201d directly means systematic changes made to correct a problem\u2014the exact solution type signaled by the context. The other three either refer to studies (\u201cinvestigations\u201d), growth without improvement (\u201cexpansions\u201d), or something wholly unrelated (\u201cpossessions\u201d). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d8d33cc5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase “To improve this system” is the crucial clue. The blank requires a word meaning improvements or systematic changes to fix a problem."}, {"title": "Match the meaning", "content": "”Reforms” directly means systematic changes made to correct a problem—the exact solution type signaled by the context.<br/><br/>The other three either refer to studies (“investigations”), growth without improvement (“expansions”), or something wholly unrelated (“possessions”).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

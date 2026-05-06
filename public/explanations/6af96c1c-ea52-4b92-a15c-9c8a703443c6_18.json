@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_18",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the time frame and tense pattern",
-      "content": "The passage opens with \u201cTrade <strong>was</strong> vital\u201d and \u201cwhich <strong>reigned</strong> in Southeast Asia from around 600 CE to 1200 CE\u201d \u2014 marking a historical period entirely in the past. The next sentence must describe what the people did <strong>during that same period</strong>. The final sentence confirms this pattern: \u201cthey <strong>received</strong> valuable items\u201d is also past tense. The passage establishes a consistent past-tense narrative throughout."
-    },
-    {
-      "title": "Match the verb tense to the historical narrative",
-      "content": "<strong>Produced</strong> is past tense, matching the tense of <em>was</em>, <em>reigned</em>, and <em>received</em>. The other three options (are producing, produce, will produce) shift the narrative to present or future tense, breaking the tense consistency required when narrating historical events from a single time period. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the time frame and tense pattern", "content": "The passage opens with “Trade <strong>was</strong> vital” and “which <strong>reigned</strong> in Southeast Asia from around 600 CE to 1200 CE” — marking a historical period entirely in the past.<br/><br/>The next sentence must describe what the people did <strong>during that same period</strong>.<br/><br/>The final sentence confirms this pattern: “they <strong>received</strong> valuable items” is also past tense.<br/><br/>The passage establishes a consistent past-tense narrative throughout."}, {"title": "Match the verb tense to the historical narrative", "content": "<strong>Produced</strong> is past tense, matching the tense of <em>was</em>, <em>reigned</em>, and <em>received</em>.<br/><br/>The other three options (are producing, produce, will produce) shift the narrative to present or future tense, breaking the tense consistency required when narrating historical events from a single time period.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

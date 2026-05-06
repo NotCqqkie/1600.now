@@ -1,11 +1,1 @@
-{
-  "questionId": "dcc4886a",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify condition for infinitely many solutions",
-      "content": "For a system to have infinitely many solutions, the two equations must be identical. That means both the slope and y-intercept of the second equation $ y = mx + b $ must match the first equation $ y = \\frac{2}{7}x + 3 $. $$\\text{Matching slope: } m = \\frac{2}{7}, \\quad \\text{Matching y-intercept: } b = 3$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dcc4886a", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify condition for infinitely many solutions", "content": "For a system to have infinitely many solutions, the two equations must be identical.<br/><br/>That means both the slope and y-intercept of the second equation $ y = mx + b $ must match the first equation $ y = \\frac{2}{7}x + 3 $. $$\\text{Matching slope: } m = \\frac{2}{7}, \\quad \\text{Matching y-intercept: } b = 3$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

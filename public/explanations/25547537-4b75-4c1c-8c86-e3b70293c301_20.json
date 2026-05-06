@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_20",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast",
-      "content": "The decisive phrase is “though,” which introduces a contrast between focusing on Brooks's immediate surroundings versus her broad literary influences. This pivotal word signals that the correct answer must accommodate this transition appropriately."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "When <strong>though</strong> is used as a parenthetical interrupter between an independent clause and a participial phrase that modifies it, it must be set off by commas on both sides: <em>surroundings, though, considering...</em>. Choice A follows this pattern. B inserts a period mid-sentence, breaking the participial phrase from its clause; C uses a semicolon where a comma is required; D places a semicolon after <strong>though</strong> instead of a comma. That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The decisive phrase is “though,” which introduces a contrast between focusing on Brooks's immediate surroundings versus her broad literary influences. This pivotal word signals that the correct answer must accommodate this transition appropriately."}, {"title": "Apply the punctuation rule", "content": "When <strong>though</strong> is used as a parenthetical interrupter between an independent clause and a participial phrase that modifies it, it must be set off by commas on both sides: <em>surroundings, though, considering...</em>.<br/><br/>Choice A follows this pattern. B inserts a period mid-sentence, breaking the participial phrase from its clause; C uses a semicolon where a comma is required; D places a semicolon after <strong>though</strong> instead of a comma.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The hypothesis claims <em>P. pruinosus</em> can serve as a proxy for <em>X. laevis</em>\u2014meaning measurements in one species must reliably predict measurements in the other. Without this predictive correlation, the proxy has no value."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice C states that <em>P. pruinosus</em> bioaccumulation is NOT predictive of <em>X. laevis</em> bioaccumulation in comparable environments\u2014directly destroying the predictive link the proxy depends on. Choices A and B describe differences between species but don't address whether measurements correlate; choice D would actually strengthen the hypothesis. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The hypothesis claims <em>P. pruinosus</em> can serve as a proxy for <em>X. laevis</em>—meaning measurements in one species must reliably predict measurements in the other. Without this predictive correlation, the proxy has no value."}, {"title": "Apply the signal to the choices", "content": "Choice C states that <em>P. pruinosus</em> bioaccumulation is NOT predictive of <em>X. laevis</em> bioaccumulation in comparable environments—directly destroying the predictive link the proxy depends on.<br/><br/>Choices A and B describe differences between species but don't address whether measurements correlate; choice D would actually strengthen the hypothesis.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

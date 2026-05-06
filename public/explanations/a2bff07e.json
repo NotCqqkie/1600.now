@@ -1,15 +1,1 @@
-{
-  "questionId": "a2bff07e",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship between the sentences",
-      "content": "The first sentence presents Ostrom's empirical finding: common pool resources <em>can</em> be sustainably managed by users. The second sentence then states that Ostrom's work <strong>repudiates</strong> (refutes) the \u201ctragedy of the commons\u201d\u2014the theory claiming inevitable overexploitation. The key signal is that the second statement is a <strong>direct logical consequence</strong> of the first. Proving sustainable management is possible automatically contradicts a theory claiming it's impossible."
-    },
-    {
-      "title": "Match the transition to the cause-effect relationship",
-      "content": "<strong>\u201cAs such\u201d</strong> means \u201cconsequently\u201d or \u201ctherefore,\u201d which directly captures how one statement follows logically from the other. Once Ostrom's evidence shows sustainable management is achievable, it necessarily follows that the tragedy of the commons\u2014predicting inevitable failure\u2014must be false. The other options all describe different relationships: \u201cBy contrast\u201d would suggest two opposing views being presented separately; \u201cFor example\u201d would treat the second statement as an illustration rather than a conclusion; \u201cThat said\u201d would signal a concession or tangential remark, not a direct consequence. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a2bff07e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "The first sentence presents Ostrom's empirical finding: common pool resources <em>can</em> be sustainably managed by users.<br/><br/>The second sentence then states that Ostrom's work <strong>repudiates</strong> (refutes) the “tragedy of the commons”—the theory claiming inevitable overexploitation.<br/><br/>The key signal is that the second statement is a <strong>direct logical consequence</strong> of the first.<br/><br/>Proving sustainable management is possible automatically contradicts a theory claiming it's impossible."}, {"title": "Match the transition to the cause-effect relationship", "content": "<strong>“As such”</strong> means “consequently” or “therefore,” which directly captures how one statement follows logically from the other.<br/><br/>Once Ostrom's evidence shows sustainable management is achievable, it necessarily follows that the tragedy of the commons—predicting inevitable failure—must be false.<br/><br/>The other options all describe different relationships: “By contrast” would suggest two opposing views being presented separately; “For example” would treat the second statement as an illustration rather than a conclusion; “That said” would signal a concession or tangential remark, not a direct consequence. <br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

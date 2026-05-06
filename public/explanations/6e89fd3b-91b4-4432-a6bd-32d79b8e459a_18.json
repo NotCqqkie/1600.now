@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the opening modifier rule",
-      "content": "The sentence opens with a participial phrase (\u201cHaving devised...\u201d). A participial phrase at the start must modify the main clause's subject\u2014meaning the subject must be the one performing the action."
-    },
-    {
-      "title": "Find which choice makes the deviser the subject",
-      "content": "Choice A places \u201cchemist Ahmed Zewail\u201d as the subject, correctly attaching the opening modifier to him. The other choices either create dangling modifiers by using the wrong subject (B and C) or introduce a conditional verb that contradicts the past-tense context (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the opening modifier rule", "content": "The sentence opens with a participial phrase (“Having devised...”). A participial phrase at the start must modify the main clause's subject—meaning the subject must be the one performing the action."}, {"title": "Find which choice makes the deviser the subject", "content": "Choice A places “chemist Ahmed Zewail” as the subject, correctly attaching the opening modifier to him.<br/><br/>The other choices either create dangling modifiers by using the wrong subject (B and C) or introduce a conditional verb that contradicts the past-tense context (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

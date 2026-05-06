@@ -1,15 +1,1 @@
-{
-  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Locate the marked angle at line n",
-      "content": "Where transversal k crosses line n, an angle of 135\u00b0 is explicitly marked in the lower-left region (below line n and to the left of k). At any line-transversal intersection, the four angles consist of two pairs: vertical angles are equal, and adjacent angles are supplementary. Since one angle is 135\u00b0, the four angles measure 135\u00b0, 45\u00b0, 135\u00b0, and 45\u00b0."
-    },
-    {
-      "title": "Identify angle s",
-      "content": "The label <em>s</em> is positioned directly at the 135\u00b0 angle at the intersection of k and n. Since <em>s</em> labels that angle, s = 135\u00b0. By corresponding angles (when a transversal crosses parallel lines, angles in the same relative position are equal), the angle in the corresponding position at line m is also 135\u00b0. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Locate the marked angle at line n", "content": "Where transversal k crosses line n, an angle of 135° is explicitly marked in the lower-left region (below line n and to the left of k).<br/><br/>At any line-transversal intersection, the four angles consist of two pairs: vertical angles are equal, and adjacent angles are supplementary.<br/><br/>Since one angle is 135°, the four angles measure 135°, 45°, 135°, and 45°."}, {"title": "Identify angle s", "content": "The label <em>s</em> is positioned directly at the 135° angle at the intersection of k and n.<br/><br/>Since <em>s</em> labels that angle, s = 135°. By corresponding angles (when a transversal crosses parallel lines, angles in the same relative position are equal), the angle in the corresponding position at line m is also 135°.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

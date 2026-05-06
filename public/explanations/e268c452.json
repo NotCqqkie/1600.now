@@ -1,15 +1,1 @@
-{
-  "questionId": "e268c452",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the sequential pattern",
-      "content": "The passage describes the ebru process using \u201cFirst\u201d and \u201cNext\u201d\u2014marking a step-by-step progression. The blank must continue this temporal sequence to its final step."
-    },
-    {
-      "title": "Complete the temporal progression",
-      "content": "<strong>Finally</strong> marks the concluding action in the process being described. The other three choices either indicate correction (Actually), causation (Therefore), or contrast (Nevertheless)\u2014none of which fit a straightforward procedural description. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e268c452", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the sequential pattern", "content": "The passage describes the ebru process using “First” and “Next”—marking a step-by-step progression. The blank must continue this temporal sequence to its final step."}, {"title": "Complete the temporal progression", "content": "<strong>Finally</strong> marks the concluding action in the process being described.<br/><br/>The other three choices either indicate correction (Actually), causation (Therefore), or contrast (Nevertheless)—none of which fit a straightforward procedural description.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

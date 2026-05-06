@@ -1,15 +1,1 @@
-{
-  "questionId": "e7247766",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage structure",
-      "content": "The passage introduces a hypothesis: parasites could serve as \u201ca mechanism\u201d for horizontal gene transfer between vertebrate species. The colon before the underlined portion signals it will explain <strong>how</strong>. The underlined portion then describes the process: a parasite feeds on one host, acquires a gene, relocates to a different vertebrate species, and transfers the gene there."
-    },
-    {
-      "title": "Match the function to the choices",
-      "content": "The underlined portion describes a means for horizontal gene transfer. Choice D directly names this function: \u201cdescribes a means by which horizontal gene transfer might occur among vertebrates.\u201d The other three introduce elements not in the passage\u2014A compares parasite susceptibility, B explains gene likelihood, and C contrasts vertebrate and invertebrate mechanisms.<br><br>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e7247766", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the passage structure", "content": "The passage introduces a hypothesis: parasites could serve as “a mechanism” for horizontal gene transfer between vertebrate species.<br/><br/>The colon before the underlined portion signals it will explain <strong>how</strong>.<br/><br/>The underlined portion then describes the process: a parasite feeds on one host, acquires a gene, relocates to a different vertebrate species, and transfers the gene there."}, {"title": "Match the function to the choices", "content": "The underlined portion describes a means for horizontal gene transfer.<br/><br/>Choice D directly names this function: “describes a means by which horizontal gene transfer might occur among vertebrates.” The other three introduce elements not in the passage—<ul><li>A compares parasite susceptibility</li><li>B explains gene likelihood</li><li>C contrasts vertebrate and invertebrate mechanisms</li></ul>.<br><br>This matches choice D — <strong>D</strong> is correct."}]}

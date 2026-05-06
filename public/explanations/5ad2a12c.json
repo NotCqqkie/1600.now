@@ -1,15 +1,1 @@
-{
-  "questionId": "5ad2a12c",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the grammatical structure",
-      "content": "The sentence reads: [singular subject <strong>\u201cThe collection\u201d</strong>] + [blank] + [direct object]. This is an independent clause that requires a finite main verb\u2014not an infinitive, gerund, or participle form."
-    },
-    {
-      "title": "Apply the verb agreement rule",
-      "content": "<strong>\u201cIncludes\u201d</strong> is the third-person singular present tense verb that correctly agrees with the singular subject \u201cThe collection.\u201d Options A and C offer infinitives, and option B offers a gerund/participle\u2014none of which can serve as main verbs. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5ad2a12c", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Recognize the grammatical structure", "content": "The sentence reads: [singular subject <strong>“The collection”</strong>] + [blank] + [direct object]. This is an independent clause that requires a finite main verb—not an infinitive, gerund, or participle form."}, {"title": "Apply the verb agreement rule", "content": "<strong>“Includes”</strong> is the third-person singular present tense verb that correctly agrees with the singular subject “The collection.” Options A and C offer infinitives, and option B offers a gerund/participle—none of which can serve as main verbs.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

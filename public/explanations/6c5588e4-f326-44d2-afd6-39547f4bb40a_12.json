@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key claim needing support",
-      "content": "The passage establishes that peaking plants <strong>\u201ccan generate more megawatt-hours of power per year than some run-of-river plants.\u201d</strong> The example must directly show this: a peaking plant producing more annual power than at least one run-of-river plant."
-    },
-    {
-      "title": "Match the claim to the table",
-      "content": "Great Falls (peaking, 124,392 MWh/yr) generates far more power annually than either run-of-river plant in the table (Scanlon: 7,511; Kansas River: 15,345), directly proving the claim. The other three either lack table support (B), compare irrelevant plants (D), or contradict the claim (C). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key claim needing support", "content": "The passage establishes that peaking plants <strong>“can generate more megawatt-hours of power per year than some run-of-river plants.”</strong> The example must directly show this: a peaking plant producing more annual power than at least one run-of-river plant."}, {"title": "Match the claim to the table", "content": "Great Falls (peaking, 124,392 MWh/yr) generates far more power annually than either run-of-river plant in the table (Scanlon: 7,511; Kansas River: 15,345), directly proving the claim.<br/><br/>The other three either lack table support (B), compare irrelevant plants (D), or contradict the claim (C).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "c8540a5b",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures around the blank",
-      "content": "A noun (<strong>method</strong>) is immediately followed by a participial phrase (<strong>called ELISA</strong>) that provides additional information about it."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "A non-restrictive participial phrase is separated from its noun by a comma. Option C correctly uses a comma between <strong>method</strong> and <strong>called ELISA</strong>; since the method is already identified from the previous sentence, this phrase is non-restrictive. Option A creates nested or unbalanced parentheticals, option B uses mixed punctuation (em dash before, comma after), and option D lacks punctuation, treating the phrase as restrictive. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c8540a5b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structures around the blank", "content": "A noun (<strong>method</strong>) is immediately followed by a participial phrase (<strong>called ELISA</strong>) that provides additional information about it."}, {"title": "Apply the punctuation rule", "content": "A non-restrictive participial phrase is separated from its noun by a comma.<br/><br/>Option C correctly uses a comma between <strong>method</strong> and <strong>called ELISA</strong>; since the method is already identified from the previous sentence, this phrase is non-restrictive.<br/><br/>Option A creates nested or unbalanced parentheticals, option B uses mixed punctuation (em dash before, comma after), and option D lacks punctuation, treating the phrase as restrictive.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

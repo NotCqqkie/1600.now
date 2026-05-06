@@ -1,15 +1,1 @@
-{
-  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the new independent clause",
-      "content": "The quotation from Alfred Nobel ends after <em>direction.</em> What follows\u2014<em>In 1952, for instance, judges recognized</em>\u2014is a complete, independent clause (subject: judges; verb: recognized), not a continuation of the quotation."
-    },
-    {
-      "title": "Apply the clause-joining rule",
-      "content": "Two independent clauses in the same sentence must be joined by a semicolon or comma + coordinating conjunction. D uses a semicolon to properly connect the definition with the concrete example. A adds a misplaced <em>and,</em>, B leaves no punctuation (creating ambiguity), and C uses a comma alone (a comma splice). This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the new independent clause", "content": "The quotation from Alfred Nobel ends after <em>direction.</em> What follows—<em>In 1952, for instance, judges recognized</em>—is a complete, independent clause (subject: judges; verb: recognized), not a continuation of the quotation."}, {"title": "Apply the clause-joining rule", "content": "Two independent clauses in the same sentence must be joined by a semicolon or comma + coordinating conjunction.<br/><br/>D uses a semicolon to properly connect the definition with the concrete example.<br/><br/>A adds a misplaced <em>and,</em>, B leaves no punctuation (creating ambiguity), and C uses a comma alone (a comma splice).<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

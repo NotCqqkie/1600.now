@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first clause states that architects took inspiration from the natural world 'when adding finishing touches.' The blank introduces a specific example of this: 'plant- and animal-inspired design flourishes.' The signal is the clear example relationship between the general statement and its elaboration."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The correct transition must indicate a specific example. <strong>B</strong> (<em>'In particular'</em>) directly serves this by narrowing the general statement to a concrete instance. The other three either imply contradiction (C, D), a shift in time or context (A), or reverse the example-main point relationship. <strong>That matches choice B</strong>."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The first clause states that architects took inspiration from the natural world 'when adding finishing touches.' The blank introduces a specific example of this: 'plant- and animal-inspired design flourishes.' The signal is the clear example relationship between the general statement and its elaboration."}, {"title": "Match the meaning", "content": "The correct transition must indicate a specific example. <strong>B</strong> (<em>'In particular'</em>) directly serves this by narrowing the general statement to a concrete instance.<br/><br/>The other three either imply contradiction (C, D), a shift in time or context (A), or reverse the example-main point relationship. <strong>That matches choice B</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the limiting signal",
-      "content": "The phrase <em>This approach has some limits\u2014</em> immediately signals that the underlined text will explain one of those limits."
-    },
-    {
-      "title": "Match the specific flaw to the choices",
-      "content": "The underlined text identifies a specific weakness in the data: Places API restricts coverage to customer-facing places. The other three either discuss unrelated elements (A's neighborhood boundaries), misattribute the function (B's emphasis on utility), or describe a prior part of the passage (C's model introduction). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the limiting signal", "content": "The phrase <em>This approach has some limits—</em> immediately signals that the underlined text will explain one of those limits."}, {"title": "Match the specific flaw to the choices", "content": "The underlined text identifies a specific weakness in the data: Places API restricts coverage to customer-facing places.<br/><br/>The other three either discuss unrelated elements (A's neighborhood boundaries), misattribute the function (B's emphasis on utility), or describe a prior part of the passage (C's model introduction).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

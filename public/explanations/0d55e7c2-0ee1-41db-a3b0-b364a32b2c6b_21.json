@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank is the subject noun phrase, consisting of a title (\u201cGerman biologist\u201d), a name (\u201cGertrud Morlock\u201d), and an additional noun (\u201ccolleagues\u201d) to be conjoined with \u201cand\u201d."
-    },
-    {
-      "title": "Apply the rule",
-      "content": "A restrictive appositive\u2014essential information identifying a noun\u2014is not set off by commas. \u201cGerman biologist\u201d directly identifies Gertrud Morlock, so no comma separates them; the subject is \u201c[German biologist Gertrud Morlock] and [colleagues]\u201d with no comma before \u201cand\u201d. The others incorrectly insert commas before the name (C), before the conjunction (B), or at the subject's end (A). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank is the subject noun phrase, consisting of a title (“German biologist”), a name (“Gertrud Morlock”), and an additional noun (“colleagues”) to be conjoined with “and”."}, {"title": "Apply the rule", "content": "A restrictive appositive—essential information identifying a noun—is not set off by commas. “German biologist” directly identifies Gertrud Morlock, so no comma separates them; the subject is “[German biologist Gertrud Morlock] and [colleagues]” with no comma before “and”.<br/><br/>The others incorrectly insert commas before the name (C), before the conjunction (B), or at the subject's end (A).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the explicit factual claim about the museum's collection",
-      "content": "The passage states directly: \u201chas more than 8,500 objects in its collection.\u201d This is a clear factual assertion about the museum itself."
-    },
-    {
-      "title": "Match the statement to the evidence",
-      "content": "Choice B says the collection \u201cincludes over 8,500 objects\u201d \u2014 which is precisely what \u201cmore than 8,500\u201d means. Choices A and C are directly contradicted by the text (the museum \u201cis located\u201d in New York City now, and was founded \u201cin 1969,\u201d not after 2000), and choice D makes a comparative claim about visitor numbers that the text never addresses. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the explicit factual claim about the museum's collection", "content": "The passage states directly: “has more than 8,500 objects in its collection.” This is a clear factual assertion about the museum itself."}, {"title": "Match the statement to the evidence", "content": "Choice B says the collection “includes over 8,500 objects” — which is precisely what “more than 8,500” means.<br/><br/>Choices A and C are directly contradicted by the text (the museum “is located” in New York City now, and was founded “in 1969,” not after 2000), and choice D makes a comparative claim about visitor numbers that the text never addresses.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

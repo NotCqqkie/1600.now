@@ -1,15 +1,1 @@
-{
-  "questionId": "77e3b3b3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the two-part requirement",
-      "content": "The strongest clue is the explicit requirement: the answer must both make a claim about Iberian orca behavior AND support it with evidence from the notes. No partial credit\u2014both parts are essential."
-    },
-    {
-      "title": "Apply the requirement to the choices",
-      "content": "Choice A makes a clear causal claim\u2014destructive behavior results from understimulation\u2014and supports it directly by linking reduced hunting time to increased vessel interactions. The other choices either lack a claim about orca behavior (C is purely descriptive), address a different topic entirely (B focuses on TAST), or contradict the notes about cause and effect (D reverses the tuna-hunting relationship). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "77e3b3b3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the two-part requirement", "content": "The strongest clue is the explicit requirement: the answer must both make a claim about Iberian orca behavior AND support it with evidence from the notes. No partial credit—both parts are essential."}, {"title": "Apply the requirement to the choices", "content": "Choice A makes a clear causal claim—destructive behavior results from understimulation—and supports it directly by linking reduced hunting time to increased vessel interactions.<br/><br/>The other choices either lack a claim about orca behavior (C is purely descriptive), address a different topic entirely (B focuses on TAST), or contradict the notes about cause and effect (D reverses the tuna-hunting relationship).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the refutation target",
-      "content": "The notes describe the original assumption: scientists hypothesized that both formation and collapse temperatures would vary with molecular variations. The decisive signal is the study's finding that collapse temperature is \u201cnearly independent of material and fluid properties, contrary to previous theories\u201d\u2014this directly contradicts that assumption."
-    },
-    {
-      "title": "Apply the signal to find the refutation",
-      "content": "C applies the signal directly: the choice states collapse temperature \u201cdoes not vary depending on material and fluid properties\u201d while explicitly \u201ccountering previous hypotheses\u201d\u2014matching the refutation exactly. A misidentifies the formation finding as contradicting the hypothesis when it confirms it, B restates the assumption as true, and D uses confusing structure that obscures what actually refutes the original claim. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the refutation target", "content": "The notes describe the original assumption: scientists hypothesized that both formation and collapse temperatures would vary with molecular variations.<br/><br/>The decisive signal is the study's finding that collapse temperature is “nearly independent of material and fluid properties, contrary to previous theories”—this directly contradicts that assumption."}, {"title": "Apply the signal to find the refutation", "content": "C applies the signal directly: the choice states collapse temperature “does not vary depending on material and fluid properties” while explicitly “countering previous hypotheses”—matching the refutation exactly.<br/><br/><ul><li>A misidentifies the formation finding as contradicting the hypothesis when it confirms it</li><li>B restates the assumption as true</li><li>D uses confusing structure that obscures what actually refutes the original claim</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

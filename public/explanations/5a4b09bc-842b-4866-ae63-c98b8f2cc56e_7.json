@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's structure",
-      "content": "The passage describes prior research, identifies what remains unknown, and explicitly states this gap \u201cmotivated\u201d Green and Extavour's study. This progression from existing knowledge to unresolved question is the key."
-    },
-    {
-      "title": "Match to the answer choices",
-      "content": "To situate research in context means showing how existing knowledge and an identified gap make that research meaningful\u2014exactly what this passage does. The others either suggest improvements not stated (B), falsely claim criticism (C), or describe findings rather than motivation (D). <strong>That matches choice A \u2014 A is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's structure", "content": "The passage describes prior research, identifies what remains unknown, and explicitly states this gap “motivated” Green and Extavour's study. This progression from existing knowledge to unresolved question is the key."}, {"title": "Match to the answer choices", "content": "To situate research in context means showing how existing knowledge and an identified gap make that research meaningful—exactly what this passage does.<br/><br/>The others either suggest improvements not stated (B), falsely claim criticism (C), or describe findings rather than motivation (D). <strong>That matches choice A — A is correct.</strong>"}]}

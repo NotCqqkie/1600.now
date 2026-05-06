@@ -1,15 +1,1 @@
-{
-  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the role being described",
-      "content": "The student's goal is to describe the role of refrigerants in freezers. From the notes, the role is clear: refrigerants absorb heat and release cold air."
-    },
-    {
-      "title": "Find the choice that effectively conveys this role",
-      "content": "Choice D states directly that freezers use refrigerants to absorb heat and release cold air, with a concrete example (fluoromethane). The other three either omit refrigerants entirely (A), focus on chemical composition rather than function (B), or describe the phase-change mechanism instead of the actual role (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the role being described", "content": "The student's goal is to describe the role of refrigerants in freezers. From the notes, the role is clear: refrigerants absorb heat and release cold air."}, {"title": "Find the choice that effectively conveys this role", "content": "Choice D states directly that freezers use refrigerants to absorb heat and release cold air, with a concrete example (fluoromethane).<br/><br/>The other three either omit refrigerants entirely (A), focus on chemical composition rather than function (B), or describe the phase-change mechanism instead of the actual role (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

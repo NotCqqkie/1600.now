@@ -1,15 +1,1 @@
-{
-  "questionId": "8de51658",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key mismatch",
-      "content": "Text 1 says microscopic physics should predict reversibility, but Text 2 shows irreversibility occurs at the microscopic level\u2014directly contradicting that prediction."
-    },
-    {
-      "title": "Determine what Text 1's author would conclude",
-      "content": "Seeing this evidence, the author would recognize that the current understanding of microscopic physics must be incomplete. The other three choices either reverse the relationship between the evidence and current understanding, introduce unsupported claims, or focus on concerns absent from the texts. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8de51658", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key mismatch", "content": "Text 1 says microscopic physics should predict reversibility, but Text 2 shows irreversibility occurs at the microscopic level—directly contradicting that prediction."}, {"title": "Determine what Text 1's author would conclude", "content": "Seeing this evidence, the author would recognize that the current understanding of microscopic physics must be incomplete.<br/><br/>The other three choices either reverse the relationship between the evidence and current understanding, introduce unsupported claims, or focus on concerns absent from the texts.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

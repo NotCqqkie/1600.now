@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between methods and financial requirements",
-      "content": "The passage establishes that SAGE requires extensive financial support to perform longitudinal methods for causal analysis. Then it introduces a contrast: when causation is irrelevant, longitudinal methods become unnecessary. The key signal is this necessity chain \u2014 if a method isn't needed, neither is the cost that supports it."
-    },
-    {
-      "title": "Apply this necessity relationship to the choices",
-      "content": "Because the sociology study doesn't need longitudinal methods, it requires significantly less financial outlay than SAGE. The other options either misidentify what's being compared, shift to a different criterion unrelated to necessity and cost, or simply restate what's already established. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between methods and financial requirements", "content": "The passage establishes that SAGE requires extensive financial support to perform longitudinal methods for causal analysis.<br/><br/>Then it introduces a contrast: when causation is irrelevant, longitudinal methods become unnecessary.<br/><br/>The key signal is this necessity chain — if a method isn't needed, neither is the cost that supports it."}, {"title": "Apply this necessity relationship to the choices", "content": "Because the sociology study doesn't need longitudinal methods, it requires significantly less financial outlay than SAGE.<br/><br/>The other options either misidentify what's being compared, shift to a different criterion unrelated to necessity and cost, or simply restate what's already established.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

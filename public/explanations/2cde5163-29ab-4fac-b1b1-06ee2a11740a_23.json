@@ -1,15 +1,1 @@
-{
-  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between the sentences",
-      "content": "The first sentence introduces a general principle\u2014energy transfers across trophic levels in ecosystems. The second sentence then provides a specific illustration of how this works: primary producers provide energy to herbivores, herbivores provide energy to carnivores, and this pattern continues up the food chain. The transition must signal this move from general concept to concrete example."
-    },
-    {
-      "title": "Select the transition that signals exemplification",
-      "content": "\u201dFor example\u201d introduces a specific case that demonstrates the general concept just stated. The other three fail to capture this relationship: \u201cby contrast\u201d and \u201chowever\u201d signal opposition where none exists, while \u201clikewise\u201d suggests a parallel situation in a different context rather than an illustration of the stated principle. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the sentences", "content": "The first sentence introduces a general principle—energy transfers across trophic levels in ecosystems.<br/><br/>The second sentence then provides a specific illustration of how this works: primary producers provide energy to herbivores, herbivores provide energy to carnivores, and this pattern continues up the food chain.<br/><br/>The transition must signal this move from general concept to concrete example."}, {"title": "Select the transition that signals exemplification", "content": "”For example” introduces a specific case that demonstrates the general concept just stated.<br/><br/>The other three fail to capture this relationship: “by contrast” and “however” signal opposition where none exists, while “likewise” suggests a parallel situation in a different context rather than an illustration of the stated principle.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

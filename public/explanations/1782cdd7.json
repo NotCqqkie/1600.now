@@ -1,15 +1,1 @@
-{
-  "questionId": "1782cdd7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the unresolved question",
-      "content": "The passage opens with \u201cit's been unclear what effects these forests may have on stream biodiversity\u201d\u2014the defining signal that sets up an unresolved question about forest effects."
-    },
-    {
-      "title": "Match the answer to the passage's purpose",
-      "content": "The correct answer identifies the text as presenting a study that addresses an unresolved question about forests in agricultural streams\u2014exactly what the passage does. The other three either misidentify the study's focus (A: agricultural yield debates; B: comparing strategies across environments) or misframe its purpose (C: challenging a prior view rather than investigating an open question). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1782cdd7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the unresolved question", "content": "The passage opens with “it's been unclear what effects these forests may have on stream biodiversity”—the defining signal that sets up an unresolved question about forest effects."}, {"title": "Match the answer to the passage's purpose", "content": "The correct answer identifies the text as presenting a study that addresses an unresolved question about forests in agricultural streams—exactly what the passage does.<br/><br/>The other three either misidentify the study's focus (A: agricultural yield debates; B: comparing strategies across environments) or misframe its purpose (C: challenging a prior view rather than investigating an open question).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

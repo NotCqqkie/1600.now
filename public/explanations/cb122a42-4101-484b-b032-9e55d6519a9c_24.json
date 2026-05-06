@@ -1,15 +1,1 @@
-{
-  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the task requires",
-      "content": "The task asks to <strong>explain how</strong> soap removes a contaminant. This requires describing the <strong>mechanism</strong> or <strong>process</strong>\u2014the steps that lead to removal\u2014not just properties or how soap is made."
-    },
-    {
-      "title": "Apply the mechanism requirement to the choices",
-      "content": "C describes the full removal process: soap forms a micelle around the contaminant, then the hydrophilic ends encase the micelle in water, lifting it off the surface. The other choices either describe properties of materials, focus on only part of the process, or explain how soap is made\u2014none trace the complete removal mechanism.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the task requires", "content": "The task asks to <strong>explain how</strong> soap removes a contaminant. This requires describing the <strong>mechanism</strong> or <strong>process</strong>—the steps that lead to removal—not just properties or how soap is made."}, {"title": "Apply the mechanism requirement to the choices", "content": "C describes the full removal process: soap forms a micelle around the contaminant, then the hydrophilic ends encase the micelle in water, lifting it off the surface.<br/><br/>The other choices either describe properties of materials, focus on only part of the process, or explain how soap is made—none trace the complete removal mechanism.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

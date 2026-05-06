@@ -1,15 +1,1 @@
-{
-  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the initial value",
-      "content": "An exponential equation has the form $y = a \\cdot b^x$, where $a$ is the starting value. The problem tells us that when $x=0$, $y=70$. In this form, when $x=0$, we get $y = a \\cdot b^0 = a \\cdot 1 = a$, so $a = 70$. This eliminates choices C and D, both with coefficient 50."
-    },
-    {
-      "title": "Identify the growth factor",
-      "content": "The problem states <em>for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 50% of its previous value.</em> An increase of 50% means multiplying by $(1 + 0.50) = 1.50$ each step. So the base is $b = 1.50$, giving us $y = 70(1.50)^x$, which matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the initial value", "content": "An exponential equation has the form $y = a \\cdot b^x$, where $a$ is the starting value. The problem tells us that when $x=0$, $y=70$. In this form, when $x=0$, we get $y = a \\cdot b^0 = a \\cdot 1 = a$, so $a = 70$. This eliminates choices C and D, both with coefficient 50."}, {"title": "Identify the growth factor", "content": "The problem states <em>for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 50% of its previous value.</em> An increase of 50% means multiplying by $(1 + 0.50) = 1.50$ each step.<br/><br/>So the base is $b = 1.50$, giving us $y = 70(1.50)^x$, which matches choice A — <strong>A</strong> is correct."}]}

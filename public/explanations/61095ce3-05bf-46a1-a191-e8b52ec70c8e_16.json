@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core grammatical relationship",
-      "content": "The sentence contains two independent clauses that must be joined:<br/><strong>Clause 1:</strong> \u201cThe sand at Tangsi Beach in Indonesia is a more unusual shade\u201d<br/><strong>Clause 2:</strong> \u201cdeposits of crushed coral and other organic matter lend the sand a unique pink hue\u201d<br/>The word \u201cthough\u201d serves as a transition between them. These clauses describe related but distinct ideas\u2014the unusual nature of the sand paired with the explanation for it."
-    },
-    {
-      "title": "Apply the punctuation rule for transitional junctures",
-      "content": "When a transition word like \u201cthough\u201d bridges two independent clauses, punctuation both before and after the transition marks the boundary. A comma before \u201cthough\u201d separates it from the first clause; a semicolon after \u201cthough\u201d creates a clear break before the second clause begins, signaling the shift from the main observation to the explanation. This <strong>comma-though-semicolon</strong> pattern correctly articulates the relationship: the sand is unusual, and here is why. The other three options either fail to mark both boundaries (lacking the semicolon after \u201cthough\u201d) or misuse punctuation by treating \u201cthough\u201d as a parenthetical element rather than a transitional connector. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the core grammatical relationship", "content": "The sentence contains two independent clauses that must be joined:<br/><strong>Clause 1:</strong> “The sand at Tangsi Beach in Indonesia is a more unusual shade”<br/><strong>Clause 2:</strong> “deposits of crushed coral and other organic matter lend the sand a unique pink hue”<br/>The word “though” serves as a transition between them. These clauses describe related but distinct ideas—the unusual nature of the sand paired with the explanation for it."}, {"title": "Apply the punctuation rule for transitional junctures", "content": "When a transition word like “though” bridges two independent clauses, punctuation both before and after the transition marks the boundary.<br/><br/>A comma before “though” separates it from the first clause; a semicolon after “though” creates a clear break before the second clause begins, signaling the shift from the main observation to the explanation.<br/><br/>This <strong>comma-though-semicolon</strong> pattern correctly articulates the relationship: the sand is unusual, and here is why.<br/><br/>The other three options either fail to mark both boundaries (lacking the semicolon after “though”) or misuse punctuation by treating “though” as a parenthetical element rather than a transitional connector.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

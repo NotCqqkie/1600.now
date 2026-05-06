@@ -1,15 +1,1 @@
-{
-  "questionId": "15d6d837",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the possession and plurality needed",
-      "content": "The ghostwriters <strong>write other ______</strong> for celebrities and public figures. Given the context about multiple books, we need a noun phrase expressing two things: (1) these stories belong to other people (showing possession), and (2) there are multiple stories (showing plural number)."
-    },
-    {
-      "title": "Apply the correct possessive and plural forms",
-      "content": "We need <strong>people's</strong> (possessive of the already-plural noun <strong>people</strong>) combined with <strong>stories</strong> (plural of <strong>story</strong>). Only choice A provides both forms correctly. B and C use <strong>peoples</strong>, which is not a valid form since <strong>people</strong> is already plural; D pairs <strong>people's</strong> with <strong>story's</strong> (possessive singular rather than plural <strong>stories</strong>). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "15d6d837", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the possession and plurality needed", "content": "The ghostwriters <strong>write other ______</strong> for celebrities and public figures. Given the context about multiple books, we need a noun phrase expressing two things: (1) these stories belong to other people (showing possession), and (2) there are multiple stories (showing plural number)."}, {"title": "Apply the correct possessive and plural forms", "content": "We need <strong>people's</strong> (possessive of the already-plural noun <strong>people</strong>) combined with <strong>stories</strong> (plural of <strong>story</strong>).<br/><br/>Only choice A provides both forms correctly. B and C use <strong>peoples</strong>, which is not a valid form since <strong>people</strong> is already plural; D pairs <strong>people's</strong> with <strong>story's</strong> (possessive singular rather than plural <strong>stories</strong>).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

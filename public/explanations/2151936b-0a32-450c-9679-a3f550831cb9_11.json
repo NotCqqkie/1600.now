@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the assumption to challenge",
-      "content": "The assumption is explicit: <em>snakes do not detect sound traveling through the air.</em> To challenge it directly, a finding must show snakes CAN detect and respond to airborne sound."
-    },
-    {
-      "title": "Spot the finding that proves detection",
-      "content": "Choice D shows all three snake species displaying more than 20 cm of movement in response to airborne sound\u2014matching their response to ground sound. This directly proves the assumption false. The other three choices show either weak or absent airborne detection (A, C) or make a hearing comparison unrelated to detection itself (B). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the assumption to challenge", "content": "The assumption is explicit: <em>snakes do not detect sound traveling through the air.</em> To challenge it directly, a finding must show snakes CAN detect and respond to airborne sound."}, {"title": "Spot the finding that proves detection", "content": "Choice D shows all three snake species displaying more than 20 cm of movement in response to airborne sound—matching their response to ground sound.<br/><br/>This directly proves the assumption false. The other three choices show either weak or absent airborne detection (A, C) or make a hearing comparison unrelated to detection itself (B).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

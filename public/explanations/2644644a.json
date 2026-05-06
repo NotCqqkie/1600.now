@@ -1,15 +1,1 @@
-{
-  "questionId": "2644644a",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core prediction",
-      "content": "The researcher predicts that eliminating left turns will improve traffic flow enough to reduce overall travel times, even if drivers take longer individual routes."
-    },
-    {
-      "title": "Match the evidence",
-      "content": "Choice C proves the prediction: after elimination, delivery drivers reach more addresses daily, showing improved traffic flow actually reduces travel time despite longer routes. The other choices either test different interventions (installing or comparing signals) or directly contradict the prediction. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2644644a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the core prediction", "content": "The researcher predicts that eliminating left turns will improve traffic flow enough to reduce overall travel times, even if drivers take longer individual routes."}, {"title": "Match the evidence", "content": "Choice C proves the prediction: after elimination, delivery drivers reach more addresses daily, showing improved traffic flow actually reduces travel time despite longer routes.<br/><br/>The other choices either test different interventions (installing or comparing signals) or directly contradict the prediction.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

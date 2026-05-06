@@ -1,15 +1,1 @@
-{
-  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the central claim",
-      "content": "The researchers concluded that the trait's prevalence\u2014the percentage of species displaying it\u2014varies systematically with absolute latitude across all avian orders, making latitude the key factor determining how common the trait is."
-    },
-    {
-      "title": "Find evidence of the latitude-prevalence relationship",
-      "content": "C directly demonstrates this: prevalence increases with latitude, from 34% at 0-30\u00b0 to 60% at 50-80\u00b0 absolute latitude across orders. A contradicts the finding by claiming latitude doesn't affect Charadriiforms, B fails to show clear prevalence rates, and D shows only trait distribution by location rather than prevalence variation. This validates the researchers' conclusion that latitude mediates the trait's prevalence across orders.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the central claim", "content": "The researchers concluded that the trait's prevalence—the percentage of species displaying it—varies systematically with absolute latitude across all avian orders, making latitude the key factor determining how common the trait is."}, {"title": "Find evidence of the latitude-prevalence relationship", "content": "C directly demonstrates this: prevalence increases with latitude, from 34% at 0-30° to 60% at 50-80° absolute latitude across orders.<br/><br/><ul><li>A contradicts the finding by claiming latitude doesn't affect Charadriiforms</li><li>B fails to show clear prevalence rates</li><li>D shows only trait distribution by location rather than prevalence variation</li></ul>.<br/><br/>This validates the researchers' conclusion that latitude mediates the trait's prevalence across orders.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

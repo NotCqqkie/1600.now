@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what would prove the claim",
-      "content": "The claim is that putting a work online \u201cincreases the number of people who experience that work.\u201d To support this claim, evidence must show that the digital version reaches a larger audience than the physical work alone."
-    },
-    {
-      "title": "Test each choice against the signal",
-      "content": "Choice A proves the claim: if more people access the online image annually than visit the museum in person, digitization clearly expanded the audience. Choices B, C, and D respectively address critical reception, the museum's reputation as a travel destination, and collection composition\u2014but none show that putting it online increases access. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what would prove the claim", "content": "The claim is that putting a work online “increases the number of people who experience that work.” To support this claim, evidence must show that the digital version reaches a larger audience than the physical work alone."}, {"title": "Test each choice against the signal", "content": "Choice A proves the claim: if more people access the online image annually than visit the museum in person, digitization clearly expanded the audience.<br/><br/>Choices B, C, and D respectively address critical reception, the museum's reputation as a travel destination, and collection composition—but none show that putting it online increases access.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining signal",
-      "content": "The phrase <strong>\u201cFew economists would have predicted\u201d</strong> reveals the core difficulty: the collectibles market is hard because future price movements are unpredictable and often surprising, as shown by the unexpected Beanie Babies price surge."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "<strong>Forecast</strong> means to predict future trends. The passage identifies the collectibles market's core difficulty: predicting future prices is unreliable, as shown by few economists foreseeing the Beanie Babies boom, so <strong>forecast</strong> captures this perfectly. The other choices address unrelated concepts: exchange (trade), monitor (observe), and avoid (stay away). <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining signal", "content": "The phrase <strong>“Few economists would have predicted”</strong> reveals the core difficulty: the collectibles market is hard because future price movements are unpredictable and often surprising, as shown by the unexpected Beanie Babies price surge."}, {"title": "Match the signal to the choices", "content": "<strong>Forecast</strong> means to predict future trends. The passage identifies the collectibles market's core difficulty: predicting future prices is unreliable, as shown by few economists foreseeing the Beanie Babies boom, so <strong>forecast</strong> captures this perfectly.<br/><br/>The other choices address unrelated concepts: exchange (trade), monitor (observe), and avoid (stay away). <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

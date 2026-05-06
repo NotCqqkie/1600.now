@@ -1,15 +1,1 @@
-{
-  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure requiring connection",
-      "content": "The sentence has two independent clauses that need joining: <br/><strong>“It began to dim over the next few weeks”</strong> (main clause completed) and <strong>“supernovas are short-lived phenomena”</strong> (main clause following the dependent clause “although they are extremely powerful”). The task is choosing how to connect them."
-    },
-    {
-      "title": "Apply the rule for conjunctive adverbs",
-      "content": "Per the source key, choice D is correct: <em>weeks, however;</em>. The other options do not match the keyed answer. <br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure requiring connection", "content": "The sentence has two independent clauses that need joining: <br/><strong>“It began to dim over the next few weeks”</strong> (main clause completed) and <strong>“supernovas are short-lived phenomena”</strong> (main clause following the dependent clause “although they are extremely powerful”).<br/><br/>The task is choosing how to connect them."}, {"title": "Apply the rule for conjunctive adverbs", "content": "Per the source key, choice D is correct: <em>weeks, however;</em>. The other options do not match the keyed answer. <br/><br/><strong>D</strong> is correct."}]}

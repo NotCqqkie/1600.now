@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate what historians suggest",
-      "content": "The passage states: \u201cSome historians suggest that Maya mathematicians inherited it from the Olmec civilization, which flourished in the region 2,400\u20133,600 years ago.\u201d This is the explicit claim about what historians suggest about Maya civilization."
-    },
-    {
-      "title": "Match inheritance to the choices",
-      "content": "Choice A uses \u201cacquired\u201d to express inheritance: the Maya received the zero symbol from the Olmec. The other three options reference claims not made in the passage \u2014 respect hierarchies between historians and mathematicians (B), secrecy about achievements (C), or promotion of the writing system (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate what historians suggest", "content": "The passage states: “Some historians suggest that Maya mathematicians inherited it from the Olmec civilization, which flourished in the region 2,400–3,600 years ago.” This is the explicit claim about what historians suggest about Maya civilization."}, {"title": "Match inheritance to the choices", "content": "Choice A uses “acquired” to express inheritance: the Maya received the zero symbol from the Olmec.<br/><br/>The other three options reference claims not made in the passage — respect hierarchies between historians and mathematicians (B), secrecy about achievements (C), or promotion of the writing system (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

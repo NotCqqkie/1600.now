@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural pivot",
-      "content": "The passage shifts at <em>Although</em>\u2014from describing what Byrne and colleagues did (used museum-specimen DNA to investigate a pathogen) to explaining why this approach remains underutilized (degraded DNA is difficult to remediate with current technology)."
-    },
-    {
-      "title": "Match the structure to the choices",
-      "content": "Choice A is correct: the passage presents a study and its methodology, then explains why adoption remains limited.<br/>The others wrongly mischaracterize the text\u2014B suggests solutions when the passage emphasizes the barrier is \u201cnot easily remediable\u201d; C wrongly discusses findings and replication; D wrongly portrays the method as common and the obstacle as adaptation-related. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structural pivot", "content": "The passage shifts at <em>Although</em>—from describing what Byrne and colleagues did (used museum-specimen DNA to investigate a pathogen) to explaining why this approach remains underutilized (degraded DNA is difficult to remediate with current technology)."}, {"title": "Match the structure to the choices", "content": "Choice A is correct: the passage presents a study and its methodology, then explains why adoption remains limited.<br/>The others wrongly mischaracterize the text—<ul><li>B suggests solutions when the passage emphasizes the barrier is “not easily remediable”</li><li>C wrongly discusses findings and replication</li><li>D wrongly portrays the method as common and the obstacle as adaptation-related</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

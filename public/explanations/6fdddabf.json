@@ -1,15 +1,1 @@
-{
-  "questionId": "6fdddabf",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the verb requires",
-      "content": "The left side ends with the linking verb <strong>is</strong>, requiring a complement to complete the sentence. The right side is the noun phrase <strong>the chromophore</strong>, which fills that role."
-    },
-    {
-      "title": "Apply the rule for verbs and complements",
-      "content": "Within an independent clause, a verb and its complement must not be separated by punctuation. Choice B correctly places no punctuation between them. The other choices all wrongly insert punctuation\u2014commas, dashes, or semicolons\u2014that breaks this necessary direct connection. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6fdddabf", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the verb requires", "content": "The left side ends with the linking verb <strong>is</strong>, requiring a complement to complete the sentence. The right side is the noun phrase <strong>the chromophore</strong>, which fills that role."}, {"title": "Apply the rule for verbs and complements", "content": "Within an independent clause, a verb and its complement must not be separated by punctuation.<br/><br/>Choice B correctly places no punctuation between them. The other choices all wrongly insert punctuation—commas, dashes, or semicolons—that breaks this necessary direct connection.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

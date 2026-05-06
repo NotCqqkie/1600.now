@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what comparison requires",
-      "content": "The question asks the student to <strong>compare</strong> the sinuosity of the two rivers using <strong>relevant information</strong>. The decisive signal is that an effective answer must show a direct comparison between the two rivers' sinuosity values using quantitative details from the notes, not just explain concepts or state facts."
-    },
-    {
-      "title": "Apply this to the choices",
-      "content": "Choice C directly compares the two rivers: the Fort Nelson River's ratio exceeds 1.5:1, while the Wadi Al-Hamd River's does not\u2014using the exact numerical threshold from the notes. The other three either explain how sinuosity is determined, state facts without comparing, or describe a method without performing the comparison. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_27", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what comparison requires", "content": "The question asks the student to <strong>compare</strong> the sinuosity of the two rivers using <strong>relevant information</strong>.<br/><br/>The decisive signal is that an effective answer must show a direct comparison between the two rivers' sinuosity values using quantitative details from the notes, not just explain concepts or state facts."}, {"title": "Apply this to the choices", "content": "Choice C directly compares the two rivers: the Fort Nelson River's ratio exceeds 1.5:1, while the Wadi Al-Hamd River's does not—using the exact numerical threshold from the notes.<br/><br/>The other three either explain how sinuosity is determined, state facts without comparing, or describe a method without performing the comparison.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

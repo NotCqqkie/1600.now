@@ -1,15 +1,1 @@
-{
-  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_25",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between the sentences",
-      "content": "The first sentence establishes that Shonte Tucker worked at JPL generally. The second sentence then narrows to one specific part of her work\u2014her role on the Perseverance rover team. The transition must signal this shift from general claim to specific example."
-    },
-    {
-      "title": "Apply the transition to the choices",
-      "content": "\u201dSpecifically\u201d bridges from the general claim about Tucker's work at JPL to the specific example of her role on the Perseverance team. The other three all signal relationships that don't apply here: contrast (Conversely, Nevertheless) or sequence (Finally). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the sentences", "content": "The first sentence establishes that Shonte Tucker worked at JPL generally. The second sentence then narrows to one specific part of her work—her role on the Perseverance rover team. The transition must signal this shift from general claim to specific example."}, {"title": "Apply the transition to the choices", "content": "”Specifically” bridges from the general claim about Tucker's work at JPL to the specific example of her role on the Perseverance team.<br/><br/>The other three all signal relationships that don't apply here: contrast (Conversely, Nevertheless) or sequence (Finally).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

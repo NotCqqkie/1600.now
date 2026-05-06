@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_16",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and determine its number",
-      "content": "The subject is <em>an abstract cubist painting</em> (singular). The phrase in dashes\u2014\u201done of several works that received scorn from critics\u201d\u2014adds information but does not change the subject's number."
-    },
-    {
-      "title": "Apply subject-verb agreement and select the correct tense",
-      "content": "A singular subject requires a singular verb. The painting entered the art canon in the past (sometime after 1913) and that fact remains true now, so we need present perfect: \u201chas entered.\u201d Choices A and D use plural forms, violating subject-verb agreement; choice B uses simple present, which does not show that the action was completed in the past and continues to matter now. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and determine its number", "content": "The subject is <em>an abstract cubist painting</em> (singular). The phrase in dashes—”one of several works that received scorn from critics”—adds information but does not change the subject's number."}, {"title": "Apply subject-verb agreement and select the correct tense", "content": "A singular subject requires a singular verb. The painting entered the art canon in the past (sometime after 1913) and that fact remains true now, so we need present perfect: “has entered.” Choices A and D use plural forms, violating subject-verb agreement; choice B uses simple present, which does not show that the action was completed in the past and continues to matter now.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

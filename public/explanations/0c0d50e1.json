@@ -1,15 +1,1 @@
-{
-  "questionId": "0c0d50e1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relationship between sentences",
-      "content": "The passage moves from a general description of the project (wind turbines off Virginia's coast) to specific concrete details about its configuration. The key signal is the shift from general claim to precise specification."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "<strong>To be exact,</strong> signals that precise details are coming to specify a prior claim. The other transitions signal completion (<em>in conclusion</em>), causation (<em>as a result</em>), or contradiction (<em>in contrast</em>), none of which fit. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0c0d50e1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between sentences", "content": "The passage moves from a general description of the project (wind turbines off Virginia's coast) to specific concrete details about its configuration. The key signal is the shift from general claim to precise specification."}, {"title": "Match the transition to the relationship", "content": "<strong>To be exact,</strong> signals that precise details are coming to specify a prior claim.<br/><br/>The other transitions signal completion (<em>in conclusion</em>), causation (<em>as a result</em>), or contradiction (<em>in contrast</em>), none of which fit.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

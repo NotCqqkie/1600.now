@@ -1,15 +1,1 @@
-{
-  "questionId": "e15c50b2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the parallel structure",
-      "content": "The sentence includes \u201cand monitor seasonal ice zones,\u201d which signals multiple parallel actions. The blank adds another action (\u201ctravel to greater depths\u201d), making three items to coordinate: measure variables, travel to depths, and monitor zones."
-    },
-    {
-      "title": "Apply the series punctuation rule",
-      "content": "Option B provides the correct series punctuation: commas between items and \u201cand\u201d before the last. This creates \u201ccan measure a wider range of variables, travel to greater depths, and monitor seasonal ice zones.\u201d The other options violate this rule with a colon (A), missing punctuation (C), or a semicolon before \u201cand\u201d (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e15c50b2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the parallel structure", "content": "The sentence includes “and monitor seasonal ice zones,” which signals multiple parallel actions. The blank adds another action (“travel to greater depths”), making three items to coordinate: measure variables, travel to depths, and monitor zones."}, {"title": "Apply the series punctuation rule", "content": "Option B provides the correct series punctuation: commas between items and “and” before the last.<br/><br/>This creates “can measure a wider range of variables, travel to greater depths, and monitor seasonal ice zones.” The other options violate this rule with a colon (A), missing punctuation (C), or a semicolon before “and” (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

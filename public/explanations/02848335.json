@@ -1,15 +1,1 @@
-{
-  "questionId": "02848335",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core claim Taylor's conclusion needs",
-      "content": "The passage states the team concluded that spray coating \u201cholds promise for improving the power conversion efficiency.\u201d To support this conclusion, the data must show spray coating is superior to spin coating. The strongest evidence would be a direct head-to-head comparison showing spray coating outperforms spin coating across the board."
-    },
-    {
-      "title": "Match the comparison that proves spray coating's advantage",
-      "content": "Choice B compares the lowest-performing spray-coated ETL (approximately 15.5%) to the highest-performing spin-coated ETL (approximately 13%). Since even the worst spray-coated version beats the best spin-coated version, this demonstrates spray coating's clear superiority\u2014directly supporting why it holds promise for improvement. The other choices fail to make this comparative claim: A shows both methods exceed 10% but doesn't establish spray's advantage; C contains reversed or incorrect values; D discusses variation within spray coating alone rather than comparing methods. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "02848335", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the core claim Taylor's conclusion needs", "content": "The passage states the team concluded that spray coating “holds promise for improving the power conversion efficiency.” To support this conclusion, the data must show spray coating is superior to spin coating.<br/><br/>The strongest evidence would be a direct head-to-head comparison showing spray coating outperforms spin coating across the board."}, {"title": "Match the comparison that proves spray coating's advantage", "content": "Choice B compares the lowest-performing spray-coated ETL (approximately 15.5%) to the highest-performing spin-coated ETL (approximately 13%).<br/><br/>Since even the worst spray-coated version beats the best spin-coated version, this demonstrates spray coating's clear superiority—directly supporting why it holds promise for improvement.<br/><br/>The other choices fail to make this comparative claim: <ul><li>A shows both methods exceed 10% but doesn't establish spray's advantage</li><li>C contains reversed or incorrect values</li><li>D discusses variation within spray coating alone rather than comparing methods</li></ul>.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

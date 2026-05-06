@@ -1,15 +1,1 @@
-{
-  "questionId": "ccb1ab92",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The researchers concluded that REM sleep is <em>not</em> homeostatically regulated in fur seals. If homeostatic regulation existed, all seals deprived of REM in water should show a <strong>consistent, significant increase</strong> in REM sleep after returning to land\u2014to compensate for the deprivation. The evidence must show they failed to demonstrate this predicted pattern."
-    },
-    {
-      "title": "Match the evidence to the conclusion",
-      "content": "Choice C states the seals \u201cdidn't consistently demonstrate a significant increase in REM sleep after their period of deprivation.\u201d Looking at the graph, the three seals show highly variable patterns: Seal A remains elevated but Seal B drops from ~155% to ~90%, and Seal C stays near baseline. This inconsistency\u2014some seals increasing, others decreasing or stable\u2014is the opposite of what homeostatic regulation predicts. <br/><br/>A discusses day-to-day consistency within each seal, B addresses baseline differences unrelated to the deprivation effect, and D claims no difference at all between water and land (contradicted by the elevation visible in the graph). C directly explains why the seals' response contradicts homeostatic regulation: <strong>no consistent significant increase across the group.</strong> That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccb1ab92", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The researchers concluded that REM sleep is <em>not</em> homeostatically regulated in fur seals.<br/><br/>If homeostatic regulation existed, all seals deprived of REM in water should show a <strong>consistent, significant increase</strong> in REM sleep after returning to land—to compensate for the deprivation.<br/><br/>The evidence must show they failed to demonstrate this predicted pattern."}, {"title": "Match the evidence to the conclusion", "content": "Choice C states the seals “didn't consistently demonstrate a significant increase in REM sleep after their period of deprivation.” Looking at the graph, the three seals show highly variable patterns: Seal A remains elevated but Seal B drops from ~155% to ~90%, and Seal C stays near baseline.<br/><br/>This inconsistency—some seals increasing, others decreasing or stable—is the opposite of what homeostatic regulation predicts. <br/><br/><ul><li>A discusses day-to-day consistency within each seal</li><li>B addresses baseline differences unrelated to the deprivation effect</li><li>D claims no difference at all between water and land (contradicted by the elevation visible in the graph)</li></ul>.<br/><br/>C directly explains why the seals' response contradicts homeostatic regulation: <strong>no consistent significant increase across the group.</strong> That matches choice C — <strong>C</strong> is correct."}]}

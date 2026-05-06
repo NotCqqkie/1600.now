@@ -1,15 +1,1 @@
-{
-  "questionId": "7dab4d5d",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what comparison the conclusion requires",
-      "content": "The researchers concluded that longer leave times don't confer <em>greater</em> cognitive benefit than shorter leave times. This means the data should show that 2\u20134 days of leave is not outperformed by 1\u20135 weeks of leave. We need to find which choice directly compares these two leave conditions."
-    },
-    {
-      "title": "Match the consistent data pattern to the conclusion",
-      "content": "Choice C shows that participants with 2\u20134 days of leave had higher attentiveness scores than those with 1\u20135 weeks of leave in both test 2 and test 3. This directly supports the researchers' conclusion: shorter leave is at least as beneficial\u2014in fact more beneficial\u2014than longer leave for cognitive performance. The other choices either compare 2\u20134 days to no leave or don't consistently address the key comparison between the two leave durations. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7dab4d5d", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what comparison the conclusion requires", "content": "The researchers concluded that longer leave times don't confer <em>greater</em> cognitive benefit than shorter leave times. This means the data should show that 2–4 days of leave is not outperformed by 1–5 weeks of leave. We need to find which choice directly compares these two leave conditions."}, {"title": "Match the consistent data pattern to the conclusion", "content": "Choice C shows that participants with 2–4 days of leave had higher attentiveness scores than those with 1–5 weeks of leave in both test 2 and test 3.<br/><br/>This directly supports the researchers' conclusion: shorter leave is at least as beneficial—in fact more beneficial—than longer leave for cognitive performance.<br/><br/>The other choices either compare 2–4 days to no leave or don't consistently address the key comparison between the two leave durations.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

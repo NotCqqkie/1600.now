@@ -1,15 +1,1 @@
-{
-  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage culminates in a practical application: an air-cooling device. The text directly states that \u201cthe reductions inspired an air-cooling device\u201d\u2014the reductions being the underlined observation. This signals that the underlined portion contains the finding that motivated the practical application."
-    },
-    {
-      "title": "Match the finding to its function",
-      "content": "The underlined portion establishes the observation of environmental temperature reduction that directly inspired the practical air-cooling device application, making it central to the text's discussion of this practical outcome. The other choices mischaracterize the function: B treats it as supporting evidence for the mushrooms' internal cooling, C calls it tangential when it's essential, and D reverses the causal order entirely. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage culminates in a practical application: an air-cooling device.<br/><br/>The text directly states that “the reductions inspired an air-cooling device”—the reductions being the underlined observation.<br/><br/>This signals that the underlined portion contains the finding that motivated the practical application."}, {"title": "Match the finding to its function", "content": "The underlined portion establishes the observation of environmental temperature reduction that directly inspired the practical air-cooling device application, making it central to the text's discussion of this practical outcome.<br/><br/>The other choices mischaracterize the function: <ul><li>B treats it as supporting evidence for the mushrooms' internal cooling</li><li>C calls it tangential when it's essential</li><li>D reverses the causal order entirely</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

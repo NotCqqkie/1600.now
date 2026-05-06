@@ -1,15 +1,1 @@
-{
-  "questionId": "9d73c9eb",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the justification signal",
-      "content": "The \u201cbecause\u201d clause introduces the reason: two Osage women were foremost twentieth-century ballet dancers. This precedent justifies the choice of ballet as the medium."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "<strong>Suitable</strong> means appropriate or fitting \u2014 exactly the meaning the context requires when a reason is given for a choice. The other options don't fit: \u201cdetermined\u201d refers to resolve, \u201carbitrary\u201d contradicts the stated reason, and \u201cunpredictable\u201d ignores causality. This matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9d73c9eb", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the justification signal", "content": "The “because” clause introduces the reason: two Osage women were foremost twentieth-century ballet dancers. This precedent justifies the choice of ballet as the medium."}, {"title": "Apply to the choices", "content": "<strong>Suitable</strong> means appropriate or fitting — exactly the meaning the context requires when a reason is given for a choice.<br/><br/>The other options don't fit: “determined” refers to resolve, “arbitrary” contradicts the stated reason, and “unpredictable” ignores causality.<br/><br/>This matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

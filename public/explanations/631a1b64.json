@@ -1,15 +1,1 @@
-{
-  "questionId": "631a1b64",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the cause-and-effect clue",
-      "content": "The sentence reads: \u201cEmploying robots instead of humans will be helpful, as ______ astronauts to maintain the telescope can be expensive.\u201d The word <strong>as</strong> signals a cause-and-effect relationship. The blank must explain what makes using humans expensive\u2014the reason robots are helpful."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dRelying on astronauts\u201d completes the causal chain: this phrase describes depending on humans for maintenance work, and the sentence establishes that this dependency is expensive, which justifies using robots instead. The other three either don't relate to cost (straightening), reverse the necessary logic (forgetting about), or create unclear phrasing (reducing).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "631a1b64", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the cause-and-effect clue", "content": "The sentence reads: “Employing robots instead of humans will be helpful, as ______ astronauts to maintain the telescope can be expensive.” The word <strong>as</strong> signals a cause-and-effect relationship. The blank must explain what makes using humans expensive—the reason robots are helpful."}, {"title": "Match the meaning", "content": "”Relying on astronauts” completes the causal chain: this phrase describes depending on humans for maintenance work, and the sentence establishes that this dependency is expensive, which justifies using robots instead.<br/><br/>The other three either don't relate to cost (straightening), reverse the necessary logic (forgetting about), or create unclear phrasing (reducing).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

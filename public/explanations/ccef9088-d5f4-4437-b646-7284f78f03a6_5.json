@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signaling context",
-      "content": "The passage states microwave heating is generally considered to be an <strong>improvement</strong> immediately before the underlined portion, with a colon indicating what follows will elaborate on this claim."
-    },
-    {
-      "title": "Match the function to the choices",
-      "content": "The underlined portion identifies an advantage of microwave heating by explaining the mechanism difference (it generates heat within the food rather than transferring from the surface) and the practical benefit (reduced cooking times). The other choices either misread the content as describing problems, shift focus to conventional methods, or misidentify the emphasis. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signaling context", "content": "The passage states microwave heating is generally considered to be an <strong>improvement</strong> immediately before the underlined portion, with a colon indicating what follows will elaborate on this claim."}, {"title": "Match the function to the choices", "content": "The underlined portion identifies an advantage of microwave heating by explaining the mechanism difference (it generates heat within the food rather than transferring from the surface) and the practical benefit (reduced cooking times).<br/><br/>The other choices either misread the content as describing problems, shift focus to conventional methods, or misidentify the emphasis.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

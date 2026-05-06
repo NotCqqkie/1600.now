@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the pivotal claim",
-      "content": "The passage opens with Nixon's Watergate scandal, then pivots sharply with <strong>\u201cBut Nixon's legacy is complex:\u201d</strong> \u2014 signaling that the text will balance negative and positive. This claim sets up the passage's structure: acknowledge the scandal, then present counterbalancing achievements (EPA, healthcare reform)."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A assesses Nixon's significance by considering both achievements (EPA, healthcare) and failings (Watergate scandal), which is exactly what the text does through its balanced structure. The other three either introduce a time-passage claim unsupported by the passage (B), wrongly attribute his prominence to associates (C), or ignore the scandal to focus only on achievements (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the pivotal claim", "content": "The passage opens with Nixon's Watergate scandal, then pivots sharply with <strong>“But Nixon's legacy is complex:”</strong> — signaling that the text will balance negative and positive.<br/><br/>This claim sets up the passage's structure: acknowledge the scandal, then present counterbalancing achievements (EPA, healthcare reform)."}, {"title": "Apply the signal to the choices", "content": "Choice A assesses Nixon's significance by considering both achievements (EPA, healthcare) and failings (Watergate scandal), which is exactly what the text does through its balanced structure.<br/><br/>The other three either introduce a time-passage claim unsupported by the passage (B), wrongly attribute his prominence to associates (C), or ignore the scandal to focus only on achievements (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

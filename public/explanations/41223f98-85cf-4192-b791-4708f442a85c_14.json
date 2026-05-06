@@ -1,15 +1,1 @@
-{
-  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the language-geography alignment",
-      "content": "The passage directly connects languages to regions: Mandarin is spoken in north China and is dominant in Flushing; Cantonese and Fuzhounese are spoken in south China and are dominant in Chinatown. This consistent correspondence between language and neighborhood is the decisive clue."
-    },
-    {
-      "title": "Apply the pattern to the settlement inference",
-      "content": "Choice A directly fits this alignment: the correspondence logically suggests that people from north China settled where Mandarin is dominant (Flushing) and people from south China settled where Cantonese and Fuzhounese are dominant (Chinatown). The other choices describe unsupported behaviors, make unmentioned temporal claims, or require population data not provided. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "41223f98-85cf-4192-b791-4708f442a85c_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the language-geography alignment", "content": "The passage directly connects languages to regions: Mandarin is spoken in north China and is dominant in Flushing; Cantonese and Fuzhounese are spoken in south China and are dominant in Chinatown. This consistent correspondence between language and neighborhood is the decisive clue."}, {"title": "Apply the pattern to the settlement inference", "content": "Choice A directly fits this alignment: the correspondence logically suggests that people from north China settled where Mandarin is dominant (Flushing) and people from south China settled where Cantonese and Fuzhounese are dominant (Chinatown).<br/><br/>The other choices describe unsupported behaviors, make unmentioned temporal claims, or require population data not provided.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

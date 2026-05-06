@@ -1,15 +1,1 @@
-{
-  "questionId": "fa36d803",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive and its function",
-      "content": "A proper name, Marie-Denise Villers, directly renames the noun artist. The key signal: Does this name provide <strong>essential</strong> information needed to identify the artist, or is it just extra detail?"
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "The name is essential\u2014it uniquely identifies which artist and is the sentence's central point. In English, restrictive appositives (where the identification is essential) use no punctuation. Non-restrictive appositives (where the noun is already identified) use punctuation. The other options use punctuation, incorrectly treating the name as non-essential information. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fa36d803", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive and its function", "content": "A proper name, Marie-Denise Villers, directly renames the noun artist. The key signal: Does this name provide <strong>essential</strong> information needed to identify the artist, or is it just extra detail?"}, {"title": "Apply the restrictive appositive rule", "content": "The name is essential—it uniquely identifies which artist and is the sentence's central point.<br/><br/>In English, restrictive appositives (where the identification is essential) use no punctuation.<br/><br/>Non-restrictive appositives (where the noun is already identified) use punctuation.<br/><br/>The other options use punctuation, incorrectly treating the name as non-essential information.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

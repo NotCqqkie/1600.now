@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Pinpoint the consultants' role",
-      "content": "The second note directly states: \u201cColor consultants create trend reports on the popular colors at a given Fashion Week.\u201d This describes their function."
-    },
-    {
-      "title": "Find the choice that explains the role",
-      "content": "Choice D directly explains what consultants do: they \u201ccompile reports on the shades that have proved popular with fashion designers.\u201d Choices A and B provide specific examples from reports but don't explain the role itself, and C omits consultants. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Pinpoint the consultants' role", "content": "The second note directly states: “Color consultants create trend reports on the popular colors at a given Fashion Week.” This describes their function."}, {"title": "Find the choice that explains the role", "content": "Choice D directly explains what consultants do: they “compile reports on the shades that have proved popular with fashion designers.” Choices A and B provide specific examples from reports but don't explain the role itself, and C omits consultants.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

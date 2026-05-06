@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the importance contrast",
-      "content": "The passage establishes that delivery speed and tracking are rated <strong>high importance</strong> for customer experience while aesthetics are rated <strong>low importance</strong>. Since customer experience drives customer retention (per prior studies), the importance ratings reveal which factors most influence whether customers make repeat purchases."
-    },
-    {
-      "title": "Match importance to retention",
-      "content": "Choice B directly translates the survey's importance contrast to customer retention: repeat purchases are more closely tied to delivery efficiency and transparency than to package design. Choices A and D request new research or claim new customer benefits not supported by the findings, while C mistakenly shifts focus to reviews. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the importance contrast", "content": "The passage establishes that delivery speed and tracking are rated <strong>high importance</strong> for customer experience while aesthetics are rated <strong>low importance</strong>.<br/><br/>Since customer experience drives customer retention (per prior studies), the importance ratings reveal which factors most influence whether customers make repeat purchases."}, {"title": "Match importance to retention", "content": "Choice B directly translates the survey's importance contrast to customer retention: repeat purchases are more closely tied to delivery efficiency and transparency than to package design.<br/><br/>Choices A and D request new research or claim new customer benefits not supported by the findings, while C mistakenly shifts focus to reviews.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

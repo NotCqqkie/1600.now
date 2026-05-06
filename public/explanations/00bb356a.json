@@ -1,15 +1,1 @@
-{
-  "questionId": "00bb356a",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key demand",
-      "content": "The prompt asks the student to \u201cdescribe HOW the bicycles...are fused together.\u201d The word \u201chow\u201d signals that the correct answer must provide specific details about the fusion mechanism, not just background information or a statement that fusion occurred."
-    },
-    {
-      "title": "Match the mechanism to the choices",
-      "content": "Choice C directly explains the fusion mechanism by specifying how the bicycles are connected: they share the same rear wheel while facing opposite directions. The other choices fail to describe this actual mechanism\u2014A describes the artist and action but lacks specific details, B merely lists what's in the sculpture, and D only provides background about the artist. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "00bb356a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key demand", "content": "The prompt asks the student to “describe HOW the bicycles...are fused together.” The word “how” signals that the correct answer must provide specific details about the fusion mechanism, not just background information or a statement that fusion occurred."}, {"title": "Match the mechanism to the choices", "content": "Choice C directly explains the fusion mechanism by specifying how the bicycles are connected: they share the same rear wheel while facing opposite directions.<br/><br/>The other choices fail to describe this actual mechanism—<ul><li>A describes the artist and action but lacks specific details</li><li>B merely lists what's in the sculpture</li><li>D only provides background about the artist</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

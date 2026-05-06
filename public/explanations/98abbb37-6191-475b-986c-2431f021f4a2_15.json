@@ -1,15 +1,1 @@
-{
-  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the physiological test for the critic's claim",
-      "content": "The critic argues the lullaby decreased heart rate by capturing attention, not relaxing the infants. The passage establishes that pupils enlarge when a stimulus captures attention. So pupil size becomes the direct measure of whether the critic's mechanism actually engaged."
-    },
-    {
-      "title": "Apply the attention test to the choices",
-      "content": "The critic suggests the heart-rate decrease reflects something other than relaxation—for instance, reduced attention. Choice A reports that blinking, a marker of attention, was equally frequent during the lullaby and the non-lullaby. If attention was the same in both conditions, the critic's alternative explanation is undermined, leaving relaxation as the better account. The other choices either reference signals the passage doesn't tie to attention or provide background facts. <br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the physiological test for the critic's claim", "content": "The critic argues the lullaby decreased heart rate by capturing attention, not relaxing the infants. The passage establishes that pupils enlarge when a stimulus captures attention. So pupil size becomes the direct measure of whether the critic's mechanism actually engaged."}, {"title": "Apply the attention test to the choices", "content": "The critic suggests the heart-rate decrease reflects something other than relaxation—for instance, reduced attention.<br/><br/>Choice A reports that blinking, a marker of attention, was equally frequent during the lullaby and the non-lullaby.<br/><br/>If attention was the same in both conditions, the critic's alternative explanation is undermined, leaving relaxation as the better account.<br/><br/>The other choices either reference signals the passage doesn't tie to attention or provide background facts. <br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The crucial phrase is <em>\u201ccontinues to use Apollo's data\u201d</em>. This present-tense action shows that Metzger actively uses the Apollo data today\u2014meaning the missions' value remains relevant and has not diminished."
-    },
-    {
-      "title": "Match the persistent meaning",
-      "content": "The target meaning is that the missions' value persists and remains active today. <em>Ongoing</em> expresses exactly this. The other choices don't work: <em>\u201coriginal\u201d</em> means initial only, <em>\u201cdisplaced\u201d</em> implies removal, and <em>\u201ccontroversial\u201d</em> is unsupported. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The crucial phrase is <em>“continues to use Apollo's data”</em>. This present-tense action shows that Metzger actively uses the Apollo data today—meaning the missions' value remains relevant and has not diminished."}, {"title": "Match the persistent meaning", "content": "The target meaning is that the missions' value persists and remains active today. <em>Ongoing</em> expresses exactly this.<br/><br/>The other choices don't work: <em>“original”</em> means initial only, <em>“displaced”</em> implies removal, and <em>“controversial”</em> is unsupported.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

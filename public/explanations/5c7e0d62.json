@@ -1,15 +1,1 @@
-{
-  "questionId": "5c7e0d62",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "Wace \u201cintroduced\u201d the famous Round Table when adapting Geoffrey's <em>History</em>\u2014this indicates the Round Table is new content Wace added, not something already present in Geoffrey's original work."
-    },
-    {
-      "title": "Apply the signal to the answer choices",
-      "content": "If the Round Table is new (added by Wace after Geoffrey), then it couldn't have appeared in earlier sources\u2014including the legends Vita Sancti Cadoci's 11th-century author drew from. The other choices either assert unsupported facts about Geoffrey's knowledge or what works contained, make irrelevant source comparisons, or confuse content change with historical accuracy. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5c7e0d62", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "Wace “introduced” the famous Round Table when adapting Geoffrey's <em>History</em>—this indicates the Round Table is new content Wace added, not something already present in Geoffrey's original work."}, {"title": "Apply the signal to the answer choices", "content": "If the Round Table is new (added by Wace after Geoffrey), then it couldn't have appeared in earlier sources—including the legends Vita Sancti Cadoci's 11th-century author drew from.<br/><br/>The other choices either assert unsupported facts about Geoffrey's knowledge or what works contained, make irrelevant source comparisons, or confuse content change with historical accuracy.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

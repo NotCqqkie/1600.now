@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the required language type",
-      "content": "The goal demands emphasizing release ORDER \u2014 the temporal relationship between 1928 and 1943. This requires language that puts the passage of time in focus."
-    },
-    {
-      "title": "Match language type to the choices",
-      "content": "A uses <strong>\u201cwas released early\u201d</strong> and <strong>\u201ccame out years later\u201d</strong> to put the temporal sequence in focus. The other three either lack temporal emphasis entirely, omit one of the films, or emphasize role-type contrast instead of release timing.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Recognize the required language type", "content": "The goal demands emphasizing release ORDER — the temporal relationship between 1928 and 1943. This requires language that puts the passage of time in focus."}, {"title": "Match language type to the choices", "content": "A uses <strong>“was released early”</strong> and <strong>“came out years later”</strong> to put the temporal sequence in focus.<br/><br/>The other three either lack temporal emphasis entirely, omit one of the films, or emphasize role-type contrast instead of release timing.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

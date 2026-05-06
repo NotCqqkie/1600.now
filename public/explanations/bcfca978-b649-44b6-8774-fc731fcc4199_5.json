@@ -1,15 +1,1 @@
-{
-  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_5",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage contrasts \u201caverage ratings can be misleading when only a few users have rated\u201d with \u201cover 8,000 users,\u201d positioning the large sample size as a reason to \u201cfeel confident\u201d the rating is reliable. The blank must express that 8,000 is a sufficiently large number."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "\u201dAdequate\u201d directly conveys that 8,000 users is a sufficiently large sample to justify confidence in the rating's reliability. The other three either describe excess, focus on precision rather than quantity, or express insufficiency\u2014none fit the passage's logic. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_5", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage contrasts “average ratings can be misleading when only a few users have rated” with “over 8,000 users,” positioning the large sample size as a reason to “feel confident” the rating is reliable. The blank must express that 8,000 is a sufficiently large number."}, {"title": "Apply to the choices", "content": "”Adequate” directly conveys that 8,000 users is a sufficiently large sample to justify confidence in the rating's reliability.<br/><br/>The other three either describe excess, focus on precision rather than quantity, or express insufficiency—none fit the passage's logic.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

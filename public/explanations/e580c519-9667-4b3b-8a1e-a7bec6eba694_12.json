@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the pattern of constraints",
-      "content": "The passage stacks multiple obstacles\u2014consumer expectations, congestion, and even innovations like drones face complications (lack of landing sites). <strong>\u201cConsequently\u201d</strong> signals what logically follows from these persistent, layered constraints."
-    },
-    {
-      "title": "Determine the logical consequence",
-      "content": "Given that obstacles persist even when solutions are attempted, the logical conclusion is that overcoming them is unlikely in the near term. A directly states this. B reverses the direction, C recommends investment strategy not discussed, and D overstates drones' short-term promise when the passage shows they're currently constrained. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_12", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the pattern of constraints", "content": "The passage stacks multiple obstacles—consumer expectations, congestion, and even innovations like drones face complications (lack of landing sites). <strong>“Consequently”</strong> signals what logically follows from these persistent, layered constraints."}, {"title": "Determine the logical consequence", "content": "Given that obstacles persist even when solutions are attempted, the logical conclusion is that overcoming them is unlikely in the near term.<br/><br/>A directly states this. <ul><li>B reverses the direction</li><li>C recommends investment strategy not discussed</li><li>D overstates drones' short-term promise when the passage shows they're currently constrained</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

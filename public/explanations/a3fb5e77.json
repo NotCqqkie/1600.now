@@ -1,15 +1,1 @@
-{
-  "questionId": "a3fb5e77",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the defining contrast",
-      "content": "The passage sets up two approaches with advantages, then uses \u201cBut\u201d to reveal a key limitation: when results contradict, it exposes that each approach can fail to account for relevant factors affecting the animals' behavior."
-    },
-    {
-      "title": "Select the answer matching this logic",
-      "content": "Choice C describes both approaches as viable (each can be <strong>effectively studied</strong>) while acknowledging that both have <strong>drawbacks that could affect the accuracy of the findings</strong> \u2014 exactly mirroring the passage's structure of advantages followed by a crucial \u201cBut\u201d exposing limitations. Choices A, B, and D either rank one method as superior, claim conflicts are inevitable, or overstate that both studies definitely had flaws rather than the passage's more cautious <strong>one or both</strong>. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a3fb5e77", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the defining contrast", "content": "The passage sets up two approaches with advantages, then uses “But” to reveal a key limitation: when results contradict, it exposes that each approach can fail to account for relevant factors affecting the animals' behavior."}, {"title": "Select the answer matching this logic", "content": "Choice C describes both approaches as viable (each can be <strong>effectively studied</strong>) while acknowledging that both have <strong>drawbacks that could affect the accuracy of the findings</strong> — exactly mirroring the passage's structure of advantages followed by a crucial “But” exposing limitations.<br/><br/>Choices A, B, and D either rank one method as superior, claim conflicts are inevitable, or overstate that both studies definitely had flaws rather than the passage's more cautious <strong>one or both</strong>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

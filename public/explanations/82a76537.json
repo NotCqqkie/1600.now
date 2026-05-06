@@ -1,15 +1,1 @@
-{
-  "questionId": "82a76537",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "To the left is an introductory prepositional phrase (\u201cIn a JSON file storing data about fire belly newts\u201d), ending with a noun. To the right is the transitional phrase \u201cfor instance\u201d followed by an independent clause (\u201cyou could encounter a key such as...\u201d)."
-    },
-    {
-      "title": "Apply the parenthetical punctuation rule",
-      "content": "A parenthetical phrase is set apart from surrounding text by commas on both sides. Choice B correctly uses a comma before \u201cfor instance,\u201d treating it as parenthetical within a single sentence. The other choices violate basic punctuation rules: A creates a sentence fragment, C misuses a colon meant for introducing elaboration, and D applies a semicolon when the left side is not an independent clause.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "82a76537", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "To the left is an introductory prepositional phrase (“In a JSON file storing data about fire belly newts”), ending with a noun. To the right is the transitional phrase “for instance” followed by an independent clause (“you could encounter a key such as...”)."}, {"title": "Apply the parenthetical punctuation rule", "content": "A parenthetical phrase is set apart from surrounding text by commas on both sides.<br/><br/>Choice B correctly uses a comma before “for instance,” treating it as parenthetical within a single sentence.<br/><br/>The other choices violate basic punctuation rules: <ul><li>A creates a sentence fragment</li><li>C misuses a colon meant for introducing elaboration</li><li>D applies a semicolon when the left side is not an independent clause</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

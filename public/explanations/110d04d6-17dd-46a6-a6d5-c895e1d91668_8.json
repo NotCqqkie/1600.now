@@ -1,15 +1,1 @@
-{
-  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the exceptional finding",
-      "content": "The passage first explains the traveling wave rule: when steepness passes a critical threshold, breaking occurs and constrains wave height. Then the decisive clue: spike waves <strong>can exceed that constraint</strong>. This violation of the expected rule is the passage's main point."
-    },
-    {
-      "title": "Match the finding to the choices",
-      "content": "Choice C states that spike waves \u201cmay be higher than would be expected based on the properties of traveling waves\u201d\u2014which is exactly what exceeding a constraint means. The other choices either oversimplify (A), suggest steepness still limits spike waves (B), or focus on traveling waves (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the exceptional finding", "content": "The passage first explains the traveling wave rule: when steepness passes a critical threshold, breaking occurs and constrains wave height. Then the decisive clue: spike waves <strong>can exceed that constraint</strong>. This violation of the expected rule is the passage's main point."}, {"title": "Match the finding to the choices", "content": "Choice C states that spike waves “may be higher than would be expected based on the properties of traveling waves”—which is exactly what exceeding a constraint means.<br/><br/>The other choices either oversimplify (A), suggest steepness still limits spike waves (B), or focus on traveling waves (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

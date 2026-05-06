@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_25",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key dates",
-      "content": "The notes show Josef Albers began attending the Bauhaus in 1920 and Stella Steyn began in 1931, a clear chronological gap that indicates who came first."
-    },
-    {
-      "title": "Choose the sentence that shows Albers before Steyn",
-      "content": "Choice C states that Albers, who began attending in 1920, preceded Steyn, directly mirroring the order shown in the notes. The other choices either leave out the timing, reverse the implied sequence, or discuss unrelated details such as the school\u2019s founders or directors. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key dates", "content": "The notes show Josef Albers began attending the Bauhaus in 1920 and Stella Steyn began in 1931, a clear chronological gap that indicates who came first."}, {"title": "Choose the sentence that shows Albers before Steyn", "content": "Choice C states that Albers, who began attending in 1920, preceded Steyn, directly mirroring the order shown in the notes.<br/><br/>The other choices either leave out the timing, reverse the implied sequence, or discuss unrelated details such as the school’s founders or directors.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the comparison cue",
-      "content": "The passage sets up a blank after describing the tribes\u2019 activity as a single industry, indicating we need to compare its contribution to other industries using the table."
-    },
-    {
-      "title": "Match the contribution to the data",
-      "content": "The table shows the tribal industry\u2019s contribution exceeds that of arts/entertainment/recreation but is less than that of professional services, which fits choice D exactly. The other three choices either claim equality, being lower than both, or exceeding both, which the table does not support. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the comparison cue", "content": "The passage sets up a blank after describing the tribes’ activity as a single industry, indicating we need to compare its contribution to other industries using the table."}, {"title": "Match the contribution to the data", "content": "The table shows the tribal industry’s contribution exceeds that of arts/entertainment/recreation but is less than that of professional services, which fits choice D exactly.<br/><br/>The other three choices either claim equality, being lower than both, or exceeding both, which the table does not support.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

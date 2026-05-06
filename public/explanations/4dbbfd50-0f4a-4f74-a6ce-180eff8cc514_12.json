@@ -1,15 +1,1 @@
-{
-  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what would contradict the partition hypothesis",
-      "content": "The partition hypothesis claims the Devonian had two <strong>distinctly different</strong> biomes, each with its characteristic plant. To show this is inconsistent with Cairo evidence, the strongest finding would be that both characteristic plants coexisted at the same site during the Devonian \u2014 proving the biomes weren't actually distinct."
-    },
-    {
-      "title": "Match the contradiction to the answer",
-      "content": "Choice C shows exactly that \u2014 <em>Eospermatopteris</em> and <em>Archaeopteris</em> both present as contemporaneous fossils during the Devonian. This demolishes the \u201cdistinctly different\u201d foundation; if they grew together, the biomes weren't separate. Choices A and B either support the hypothesis or address a time outside the Devonian, while D adds unrelated species without revealing whether the two key biome-plants coexisted.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what would contradict the partition hypothesis", "content": "The partition hypothesis claims the Devonian had two <strong>distinctly different</strong> biomes, each with its characteristic plant.<br/><br/>To show this is inconsistent with Cairo evidence, the strongest finding would be that both characteristic plants coexisted at the same site during the Devonian — proving the biomes weren't actually distinct."}, {"title": "Match the contradiction to the answer", "content": "Choice C shows exactly that — <em>Eospermatopteris</em> and <em>Archaeopteris</em> both present as contemporaneous fossils during the Devonian.<br/><br/>This demolishes the “distinctly different” foundation; if they grew together, the biomes weren't separate.<br/><br/>Choices A and B either support the hypothesis or address a time outside the Devonian, while D adds unrelated species without revealing whether the two key biome-plants coexisted.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

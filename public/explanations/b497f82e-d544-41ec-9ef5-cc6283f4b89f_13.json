@@ -1,15 +1,1 @@
-{
-  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast between the two studies",
-      "content": "Henry found that investment increased significantly <em>in the three years following</em> liberalization, while Levine and Zervos found that liberalization did <em>not lead to enduring</em> (lasting) increases over the full 1976\u20131993 period. The passage signals this contrast with <strong>\u201chowever\u201d</strong> and asks us to synthesize both findings with <strong>\u201cTaken together, these results suggest.\u201d</strong>"
-    },
-    {
-      "title": "Reconcile both findings to find the completion",
-      "content": "If investment grows in the first three years (Henry) but doesn't endure long-term (Levine and Zervos), the combined picture is an initial boost that diminishes over time. Choice D directly states this pattern: <strong>a boost that fades over time.</strong><br/><br/>The other three choices fail to capture this reconciliation. Choice A claims consistency, which contradicts the evidence of fading effects; choice B invokes economists' expectations without support in the passage; choice C reverses the timeline, suggesting benefits come <em>later</em> rather than <em>initially.</em><br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between the two studies", "content": "Henry found that investment increased significantly <em>in the three years following</em> liberalization, while Levine and Zervos found that liberalization did <em>not lead to enduring</em> (lasting) increases over the full 1976–1993 period.<br/><br/>The passage signals this contrast with <strong>“however”</strong> and asks us to synthesize both findings with <strong>“Taken together, these results suggest.”</strong>"}, {"title": "Reconcile both findings to find the completion", "content": "If investment grows in the first three years (Henry) but doesn't endure long-term (Levine and Zervos), the combined picture is an initial boost that diminishes over time. Choice D directly states this pattern: <strong>a boost that fades over time.</strong><br/><br/>The other three choices fail to capture this reconciliation. Choice A claims consistency, which contradicts the evidence of fading effects; choice B invokes economists' expectations without support in the passage; choice C reverses the timeline, suggesting benefits come <em>later</em> rather than <em>initially.</em><br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

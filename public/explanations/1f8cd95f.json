@@ -1,15 +1,1 @@
-{
-  "questionId": "1f8cd95f",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parallel action and its tense",
-      "content": "Zufall \u201cadvised\u201d McVicker (simple past). The phrase \u201cIn addition\u201d signals that the blank describes another action by Zufall in the same historical period \u2014 these parallel actions require consistent verb tense."
-    },
-    {
-      "title": "Apply consistent verb tense to the blank",
-      "content": "Parallel actions in the same historical timeframe must use the same verb tense. <strong>Suggested</strong> (simple past) matches <strong>advised</strong> and maintains this consistency. The other three choices violate this \u2014 they shift to present, incorrectly signal past perfect timing, or create awkward constructions.<br><br>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1f8cd95f", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel action and its tense", "content": "Zufall “advised” McVicker (simple past). The phrase “In addition” signals that the blank describes another action by Zufall in the same historical period — these parallel actions require consistent verb tense."}, {"title": "Apply consistent verb tense to the blank", "content": "Parallel actions in the same historical timeframe must use the same verb tense. <strong>Suggested</strong> (simple past) matches <strong>advised</strong> and maintains this consistency.<br/><br/>The other three choices violate this — they shift to present, incorrectly signal past perfect timing, or create awkward constructions.<br><br>That matches choice A — <strong>A</strong> is correct."}]}

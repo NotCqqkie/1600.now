@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key constraint",
-      "content": "The clause \u201cno two minor planets are allowed to have the same name\u201d directly establishes what property the chosen name must possess: it must be unique to each planet."
-    },
-    {
-      "title": "Apply the requirement to the answers",
-      "content": "\u201dExclusive to\u201d ensures each name belongs to only one body, which directly addresses the stated rule preventing name duplication. The other choices don't establish this same principle: they address what a name suggests, what's typical or characteristic, or are logically incoherent. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key constraint", "content": "The clause “no two minor planets are allowed to have the same name” directly establishes what property the chosen name must possess: it must be unique to each planet."}, {"title": "Apply the requirement to the answers", "content": "”Exclusive to” ensures each name belongs to only one body, which directly addresses the stated rule preventing name duplication.<br/><br/>The other choices don't establish this same principle: they address what a name suggests, what's typical or characteristic, or are logically incoherent.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

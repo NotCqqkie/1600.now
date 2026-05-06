@@ -1,15 +1,1 @@
-{
-  "questionId": "1ffd60ce",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the unsuitable-coin crisis",
-      "content": "The passage identifies that coins below 80% silver are unsuitable for trade, and Sidon's 367 BCE coins fell below this threshold, triggering a confidence crisis. To relieve this crisis, Abd'a\u0161tart I (Ba'al\u0161illem II's successor) would need to make coins trade-suitable again\u2014that is, restore them above 80% silver."
-    },
-    {
-      "title": "Apply the suitability criterion to the choices",
-      "content": "Choice B keeps the absolute amount of silver per coin constant (preserving intrinsic value) while reducing the total coin weight, which automatically raises the silver percentage above the 80% threshold and restores trade-suitability. The other choices either maintain unsuitable coins, arbitrarily raise standards without improving coins, or address mining rather than minting. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1ffd60ce", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the unsuitable-coin crisis", "content": "The passage identifies that coins below 80% silver are unsuitable for trade, and Sidon's 367 BCE coins fell below this threshold, triggering a confidence crisis.<br/><br/>To relieve this crisis, Abd'aštart I (Ba'alšillem II's successor) would need to make coins trade-suitable again—that is, restore them above 80% silver."}, {"title": "Apply the suitability criterion to the choices", "content": "Choice B keeps the absolute amount of silver per coin constant (preserving intrinsic value) while reducing the total coin weight, which automatically raises the silver percentage above the 80% threshold and restores trade-suitability.<br/><br/>The other choices either maintain unsuitable coins, arbitrarily raise standards without improving coins, or address mining rather than minting.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

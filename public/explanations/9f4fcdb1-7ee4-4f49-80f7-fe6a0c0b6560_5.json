@@ -1,15 +1,1 @@
-{
-  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the passage's two-part structure",
-      "content": "The passage begins with two specific architectural projects as examples of a design trend, then moves to explaining the historical principles and motivations underlying that trend."
-    },
-    {
-      "title": "Match the structure to the choices",
-      "content": "C correctly identifies the passage's structure: examples of a trend, then the principles underlying it. The others mischaracterize it\u2014A claims unequal impact, B frames the explanation as past uses, and D overstates historical causation. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the passage's two-part structure", "content": "The passage begins with two specific architectural projects as examples of a design trend, then moves to explaining the historical principles and motivations underlying that trend."}, {"title": "Match the structure to the choices", "content": "C correctly identifies the passage's structure: examples of a trend, then the principles underlying it.<br/><br/>The others mischaracterize it—<ul><li>A claims unequal impact</li><li>B frames the explanation as past uses</li><li>D overstates historical causation</li></ul>.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

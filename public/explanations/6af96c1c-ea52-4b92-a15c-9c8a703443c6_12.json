@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_12",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the hypothesis's prediction",
-      "content": "The second team predicts that in low-visibility conditions, wider-headed fish will be less likely than narrower-headed fish to detect obstructions."
-    },
-    {
-      "title": "Select evidence matching the prediction",
-      "content": "Choice B makes the required comparison: the wide-headed bristlemouth bumped into more obstructions than the narrow-headed smooth-hound in medium-vortex, low-visibility conditions. Choices A, C, and D either lack this head-type comparison or show equal detection ability between head types. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_12", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the hypothesis's prediction", "content": "The second team predicts that in low-visibility conditions, wider-headed fish will be less likely than narrower-headed fish to detect obstructions."}, {"title": "Select evidence matching the prediction", "content": "Choice B makes the required comparison: the wide-headed bristlemouth bumped into more obstructions than the narrow-headed smooth-hound in medium-vortex, low-visibility conditions.<br/><br/>Choices A, C, and D either lack this head-type comparison or show equal detection ability between head types.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

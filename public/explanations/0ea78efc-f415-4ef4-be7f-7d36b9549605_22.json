@@ -1,15 +1,1 @@
-{
-  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the causal relationship",
-      "content": "Loris Taylor wanted to ensure Native radio stations like KBFT thrived \u2014 her stated goal. The next sentence describes an action she took. The strongest signal is that founding Native Public Media directly resulted from her goal; it was her response to achieve it."
-    },
-    {
-      "title": "Match the consequence transition",
-      "content": "\"Hence\" means \"therefore\" or \"as a result,\" the word that connects a statement to its logical consequence. The other three signal entirely different relationships \u2014 opposition, correction, or restatement \u2014 none of which fit the causal flow in the passage. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the causal relationship", "content": "Loris Taylor wanted to ensure Native radio stations like KBFT thrived — her stated goal. The next sentence describes an action she took. The strongest signal is that founding Native Public Media directly resulted from her goal; it was her response to achieve it."}, {"title": "Match the consequence transition", "content": "\"Hence\" means \"therefore\" or \"as a result,\" the word that connects a statement to its logical consequence.<br/><br/>The other three signal entirely different relationships — opposition, correction, or restatement — none of which fit the causal flow in the passage.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

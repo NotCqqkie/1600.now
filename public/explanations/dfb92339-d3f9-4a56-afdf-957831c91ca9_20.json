@@ -1,15 +1,1 @@
-{
-  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The relative clause <strong>whose body of ______</strong> requires a subject and a finite verb. The text following the blank begins with the adjective <strong>interdisciplinary</strong>, which needs a verb to establish itself as a predicate."
-    },
-    {
-      "title": "Apply the relative clause rule",
-      "content": "A relative clause must have a finite verb as its main predicate. B's <strong>work is</strong> provides this: <strong>whose body of work is interdisciplinary</strong> creates a complete relative clause with <strong>is</strong> as the finite verb and <strong>interdisciplinary</strong> as the predicate adjective. A, C, and D offer only non-finite structures (participial \u201chaving been,\u201d infinitive \u201cto be,\u201d and participle \u201cbeing\u201d) that cannot serve as the main predicate of the clause.<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The relative clause <strong>whose body of ______</strong> requires a subject and a finite verb. The text following the blank begins with the adjective <strong>interdisciplinary</strong>, which needs a verb to establish itself as a predicate."}, {"title": "Apply the relative clause rule", "content": "A relative clause must have a finite verb as its main predicate.<br/><br/>B's <strong>work is</strong> provides this: <strong>whose body of work is interdisciplinary</strong> creates a complete relative clause with <strong>is</strong> as the finite verb and <strong>interdisciplinary</strong> as the predicate adjective.<br/><br/>A, C, and D offer only non-finite structures (participial “having been,” infinitive “to be,” and participle “being”) that cannot serve as the main predicate of the clause.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

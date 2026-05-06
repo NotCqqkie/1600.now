@@ -1,15 +1,1 @@
-{
-  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The passage presents two facts: Quito has a higher park usage rate (82.9%) than Lima (72.7%), yet Quito residents report significantly <em>lower</em> access to other desired amenities near parks. The passage builds its entire conclusion from this contrast."
-    },
-    {
-      "title": "Match the contrast to the main conclusion",
-      "content": "Because Quito has higher park usage <em>despite</em> having fewer nearby amenities, the passage concludes that this difference cannot be explained by amenity access. Choice D directly states this conclusion\u2014the higher park usage in Quito is not due to greater access to nearby amenities. The other choices either reverse the relationship or introduce factors not discussed in the passage. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key contrast", "content": "The passage presents two facts: Quito has a higher park usage rate (82.9%) than Lima (72.7%), yet Quito residents report significantly <em>lower</em> access to other desired amenities near parks. The passage builds its entire conclusion from this contrast."}, {"title": "Match the contrast to the main conclusion", "content": "Because Quito has higher park usage <em>despite</em> having fewer nearby amenities, the passage concludes that this difference cannot be explained by amenity access.<br/><br/>Choice D directly states this conclusion—the higher park usage in Quito is not due to greater access to nearby amenities.<br/><br/>The other choices either reverse the relationship or introduce factors not discussed in the passage.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

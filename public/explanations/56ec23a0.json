@@ -1,15 +1,1 @@
-{
-  "questionId": "56ec23a0",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the passage's two-part movement",
-      "content": "The passage begins with <em>\u201cHiroshi Senju is known worldwide\u201d</em> \u2014 introducing a specific artist \u2014 then details what makes his paintings distinctive: their scale, his compositional choices, and his materials."
-    },
-    {
-      "title": "Identify which choice names that structure",
-      "content": "Choice A matches directly: it names the two-part movement (introduce artist, then explain characteristics of his paintings). The other three either flip the order (B), focus on comparing two paintings (C), or claim the work is overlooked when the passage says he's \u201cknown worldwide\u201d (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "56ec23a0", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the passage's two-part movement", "content": "The passage begins with <em>“Hiroshi Senju is known worldwide”</em> — introducing a specific artist — then details what makes his paintings distinctive: their scale, his compositional choices, and his materials."}, {"title": "Identify which choice names that structure", "content": "Choice A matches directly: it names the two-part movement (introduce artist, then explain characteristics of his paintings).<br/><br/>The other three either flip the order (B), focus on comparing two paintings (C), or claim the work is overlooked when the passage says he's “known worldwide” (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

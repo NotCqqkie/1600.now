@@ -1,15 +1,1 @@
-{
-  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_14",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the conclusion claims",
-      "content": "The passage concludes that both stakeholders and general public regard attitudes/outlooks as an important benefit. Supporting data should show how the general public ranked this service relative to others."
-    },
-    {
-      "title": "Find the choice that demonstrates the general public's regard",
-      "content": "D states that for the general public, attitudes/outlooks was ranked higher (lower number, rank 4) than the other four services (ranks 7, 8, 12, 15). This means it was the general public's top-priority benefit, directly supporting they regard it as important. Choices A and B discuss unrelated services, while C makes a comparison between groups rather than demonstrating the general public's own prioritization. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the conclusion claims", "content": "The passage concludes that both stakeholders and general public regard attitudes/outlooks as an important benefit. Supporting data should show how the general public ranked this service relative to others."}, {"title": "Find the choice that demonstrates the general public's regard", "content": "D states that for the general public, attitudes/outlooks was ranked higher (lower number, rank 4) than the other four services (ranks 7, 8, 12, 15).<br/><br/>This means it was the general public's top-priority benefit, directly supporting they regard it as important.<br/><br/>Choices A and B discuss unrelated services, while C makes a comparison between groups rather than demonstrating the general public's own prioritization.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

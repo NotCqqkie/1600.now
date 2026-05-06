@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parallel structure the example requires",
-      "content": "The passage sets up a comparison: \u201cthe highest count for the combtooth blenny was 62 individuals in January of 2001, whereas the highest count for the yellowtail sergeant was ______.\u201d The word \u201cwhereas\u201d signals a direct contrast, and the combtooth blenny example provides both a count and a month. The blank must be filled with yellowtail sergeant's actual highest count and when it occurred, using the same format."
-    },
-    {
-      "title": "Read the yellowtail sergeant's peak from the graph",
-      "content": "On the graph, the yellowtail sergeant (dashed line with open squares) reaches its highest point at approximately 8 individuals in January 2001. Choices citing other months contradict the graph; the peak clearly occurs in January, not April or later. The answer that provides yellowtail sergeant's actual maximum (8 individuals in January 2001) completes the parallel structure and supplies the data needed to show the contrast\u2014both species peaked in the same month, but yellowtail sergeant was far less abundant than combtooth blenny. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel structure the example requires", "content": "The passage sets up a comparison: “the highest count for the combtooth blenny was 62 individuals in January of 2001, whereas the highest count for the yellowtail sergeant was ______.” The word “whereas” signals a direct contrast, and the combtooth blenny example provides both a count and a month.<br/><br/>The blank must be filled with yellowtail sergeant's actual highest count and when it occurred, using the same format."}, {"title": "Read the yellowtail sergeant's peak from the graph", "content": "On the graph, the yellowtail sergeant (dashed line with open squares) reaches its highest point at approximately 8 individuals in January 2001.<br/><br/>Choices citing other months contradict the graph; the peak clearly occurs in January, not April or later.<br/><br/>The answer that provides yellowtail sergeant's actual maximum (8 individuals in January 2001) completes the parallel structure and supplies the data needed to show the contrast—both species peaked in the same month, but yellowtail sergeant was far less abundant than combtooth blenny.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

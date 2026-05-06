@@ -1,15 +1,1 @@
-{
-  "questionId": "cf9a00e0",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The word <strong>because</strong> introduces a causal relationship at the sentence's core: astrobiologists search for life in Atacama <strong>because</strong> the desert closely mirrors the extreme environment on Mars. This is explaining the <em>reason</em> why they chose this location for research, not describing the desert's conditions or barriers to survival."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice C correctly identifies the function: the sentence indicates <strong>why</strong> astrobiologists choose to conduct research in the Atacama Desert. The <strong>because</strong> clause establishes the causal motivation\u2014they study there because the environment mirrors Mars. The other choices misidentify the function: A describes contrast when the sentence emphasizes similarity, B focuses on why life cannot survive rather than why scientists conduct research there, and D emphasizes limitations rather than the reasoning behind selecting this location. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf9a00e0", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The word <strong>because</strong> introduces a causal relationship at the sentence's core: astrobiologists search for life in Atacama <strong>because</strong> the desert closely mirrors the extreme environment on Mars.<br/><br/>This is explaining the <em>reason</em> why they chose this location for research, not describing the desert's conditions or barriers to survival."}, {"title": "Match the meaning", "content": "Choice C correctly identifies the function: the sentence indicates <strong>why</strong> astrobiologists choose to conduct research in the Atacama Desert.<br/><br/>The <strong>because</strong> clause establishes the causal motivation—they study there because the environment mirrors Mars.<br/><br/>The other choices misidentify the function: <ul><li>A describes contrast when the sentence emphasizes similarity</li><li>B focuses on why life cannot survive rather than why scientists conduct research there</li><li>D emphasizes limitations rather than the reasoning behind selecting this location</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

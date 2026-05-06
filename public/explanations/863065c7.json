@@ -1,15 +1,1 @@
-{
-  "questionId": "863065c7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical subject and its number",
-      "content": "The grammatical subject is \u201canalysis\u201d (singular). \u201cJames Melton and Tom Ginsburg's\u201d is a possessive phrase modifying \u201canalysis\u201d; it does not make the subject plural."
-    },
-    {
-      "title": "Determine subject-verb agreement",
-      "content": "A singular subject requires a singular verb. \u201cIdentifies\u201d matches this requirement with its singular simple present form. The other three choices\u2014\u201didentify,\u201d \u201chave identified,\u201d and \u201care identifying\u201d\u2014are all plural forms that violate the agreement rule. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "863065c7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical subject and its number", "content": "The grammatical subject is “analysis” (singular). “James Melton and Tom Ginsburg's” is a possessive phrase modifying “analysis”; it does not make the subject plural."}, {"title": "Determine subject-verb agreement", "content": "A singular subject requires a singular verb. “Identifies” matches this requirement with its singular simple present form.<br/><br/>The other three choices—”identify,” “have identified,” and “are identifying”—are all plural forms that violate the agreement rule.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

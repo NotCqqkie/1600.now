@@ -1,15 +1,1 @@
-{
-  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure and function",
-      "content": "The phrase <strong>we know that</strong> introduces a noun clause that functions as the object of the verb <strong>know</strong>. Since the main sentence is a statement, the noun clause must represent a fact being stated, not a question being asked."
-    },
-    {
-      "title": "Apply the rule for noun clauses",
-      "content": "A noun clause introduced by <strong>that</strong> uses declarative word order (subject before verb) and statement punctuation (period), not interrogative word order or question marks. <strong>Choice B</strong> correctly uses declarative word order\u2014<em>\u201cthe author's real name was Anne Bront\u00eb\u201d</em>\u2014and ends with a period. The other choices violate this rule by using inverted word order (<strong>A</strong> and <strong>C</strong>) or ending with a question mark (<strong>D</strong>).<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure and function", "content": "The phrase <strong>we know that</strong> introduces a noun clause that functions as the object of the verb <strong>know</strong>. Since the main sentence is a statement, the noun clause must represent a fact being stated, not a question being asked."}, {"title": "Apply the rule for noun clauses", "content": "A noun clause introduced by <strong>that</strong> uses declarative word order (subject before verb) and statement punctuation (period), not interrogative word order or question marks. <strong>Choice B</strong> correctly uses declarative word order—<em>“the author's real name was Anne Brontë”</em>—and ends with a period.<br/><br/>The other choices violate this rule by using inverted word order (<strong>A</strong> and <strong>C</strong>) or ending with a question mark (<strong>D</strong>).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

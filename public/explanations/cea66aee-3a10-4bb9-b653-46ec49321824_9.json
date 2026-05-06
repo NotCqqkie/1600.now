@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical requirement from the key phrase",
-      "content": "The phrase \u201cwas not the lowest count at any station:\u201d sets the logical requirement: the blank must provide an example of a count lower than 36."
-    },
-    {
-      "title": "Match the supporting evidence",
-      "content": "Choice C provides 9 spotted frillgobies at station 3 \u2014 directly from the table \u2014 and 9 is lower than 36, which supports the claim that 36 wasn't the lowest. Choices A and D offer higher counts, contradicting the requirement; B misreads the table. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical requirement from the key phrase", "content": "The phrase “was not the lowest count at any station:” sets the logical requirement: the blank must provide an example of a count lower than 36."}, {"title": "Match the supporting evidence", "content": "Choice C provides 9 spotted frillgobies at station 3 — directly from the table — and 9 is lower than 36, which supports the claim that 36 wasn't the lowest.<br/><br/>Choices A and D offer higher counts, contradicting the requirement; B misreads the table.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the cause-and-effect relationship",
-      "content": "The first sentence states that Arabic-speaking Muslim states ruled Al-Andalus for centuries. The second sentence describes how Arabic words entered the Spanish language. This is a consequence of that prolonged Arabic-language dominance\u2014the linguistic outcome naturally follows from the historical condition."
-    },
-    {
-      "title": "Match the causal signal",
-      "content": "<em>Consequently</em> directly marks a cause-and-effect relationship, showing how centuries of Arabic rule naturally produced linguistic influence in Spanish. The other three fail to establish this logic: <em>instead</em> creates a false contrast, while <em>specifically</em> and <em>for example</em> would require the first sentence to introduce multiple effects or categories to specify or exemplify\u2014which it doesn't. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the cause-and-effect relationship", "content": "The first sentence states that Arabic-speaking Muslim states ruled Al-Andalus for centuries.<br/><br/>The second sentence describes how Arabic words entered the Spanish language.<br/><br/>This is a consequence of that prolonged Arabic-language dominance—the linguistic outcome naturally follows from the historical condition."}, {"title": "Match the causal signal", "content": "<em>Consequently</em> directly marks a cause-and-effect relationship, showing how centuries of Arabic rule naturally produced linguistic influence in Spanish.<br/><br/>The other three fail to establish this logic: <em>instead</em> creates a false contrast, while <em>specifically</em> and <em>for example</em> would require the first sentence to introduce multiple effects or categories to specify or exemplify—which it doesn't.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

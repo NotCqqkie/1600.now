@@ -1,15 +1,1 @@
-{
-  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_22",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up and recognize the vertex form approach",
-      "content": "We have $s(t) = r(t) + 1 = 55t - 2t^2 + 1$, which we rewrite as $s(t) = -2t^2 + 55t + 1$. This is a downward-opening parabola (leading coefficient is negative), so it has a maximum value. The fastest approach is to complete the square to reach vertex form, where the maximum value is simply the constant term."
-    },
-    {
-      "title": "Complete the square to find the maximum",
-      "content": "Factor $-2$ from the quadratic terms:<br/>$$s(t) = -2\\left(t^2 - \\frac{55}{2}t\\right) + 1$$<br/>To complete the square, add and subtract $\\left(\\frac{55}{4}\\right)^2$ inside the parentheses:<br/>$$s(t) = -2\\left[\\left(t - \\frac{55}{4}\\right)^2 - \\left(\\frac{55}{4}\\right)^2\\right] + 1$$<br/>Distribute the $-2$:<br/>$$s(t) = -2\\left(t - \\frac{55}{4}\\right)^2 + 2\\left(\\frac{55}{4}\\right)^2 + 1$$<br/>Since $-2\\left(t - \\frac{55}{4}\\right)^2 \\leq 0$ for all $t$, the maximum occurs when this term equals zero:<br/>$$1 + 2\\left(\\frac{55}{4}\\right)^2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_22", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up and recognize the vertex form approach", "content": "We have $s(t) = r(t) + 1 = 55t - 2t^2 + 1$, which we rewrite as $s(t) = -2t^2 + 55t + 1$.<br/><br/>This is a downward-opening parabola (leading coefficient is negative), so it has a maximum value.<br/><br/>The fastest approach is to complete the square to reach vertex form, where the maximum value is simply the constant term."}, {"title": "Complete the square to find the maximum", "content": "Factor $-2$ from the quadratic terms:<br/>$$s(t) = -2\\left(t^2 - \\frac{55}{2}t\\right) + 1$$<br/>To complete the square, add and subtract $\\left(\\frac{55}{4}\\right)^2$ inside the parentheses:<br/>$$s(t) = -2\\left[\\left(t - \\frac{55}{4}\\right)^2 - \\left(\\frac{55}{4}\\right)^2\\right] + 1$$<br/>Distribute the $-2$:<br/>$$s(t) = -2\\left(t - \\frac{55}{4}\\right)^2 + 2\\left(\\frac{55}{4}\\right)^2 + 1$$<br/>Since $-2\\left(t - \\frac{55}{4}\\right)^2 \\leq 0$ for all $t$, the maximum occurs when this term equals zero:<br/>$$1 + 2\\left(\\frac{55}{4}\\right)^2$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

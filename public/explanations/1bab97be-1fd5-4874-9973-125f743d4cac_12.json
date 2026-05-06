@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "Most studies worldwide\u2014North American and international (like Luo's in China)\u2014found the same positive association between dissolved organic carbon and mercury, while only Porvari and Verta's study produced a different result. This overwhelming agreement across regions demonstrates the association is real and widespread, not region-specific."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dDissolved organic carbon and mercury levels do typically rise and fall together in fresh water\u201d directly reflects the evidence: most studies worldwide found the association, so \u201ctypically\u201d captures the general pattern with rare exceptions. B contradicts this by claiming the association is particular to North America, but Luo's study in China demonstrates the same positive association exists outside North America. A and D address unrelated topics: absolute concentration levels and alleged measurement errors. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "Most studies worldwide—North American and international (like Luo's in China)—found the same positive association between dissolved organic carbon and mercury, while only Porvari and Verta's study produced a different result.<br/><br/>This overwhelming agreement across regions demonstrates the association is real and widespread, not region-specific."}, {"title": "Apply the signal to the choices", "content": "”Dissolved organic carbon and mercury levels do typically rise and fall together in fresh water” directly reflects the evidence: most studies worldwide found the association, so “typically” captures the general pattern with rare exceptions.<br/><br/>B contradicts this by claiming the association is particular to North America, but Luo's study in China demonstrates the same positive association exists outside North America.<br/><br/>A and D address unrelated topics: absolute concentration levels and alleged measurement errors.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the hypothesis predicts",
-      "content": "The hypothesis claims an inverse relationship: smaller birds should associate more with other species for predator detection, while larger birds should remain more solitary."
-    },
-    {
-      "title": "Identify which observation confirms the prediction",
-      "content": "Choice A shows the larger woodpecker observed alone or in single-species flocks and the smaller gnatwren frequently joining multispecies flocks, confirming the inverse relationship. Choice C reverses this pattern, contradicting the hypothesis. Choices B and D test unrelated factors instead of body size.<br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the hypothesis predicts", "content": "The hypothesis claims an inverse relationship: smaller birds should associate more with other species for predator detection, while larger birds should remain more solitary."}, {"title": "Identify which observation confirms the prediction", "content": "Choice A shows the larger woodpecker observed alone or in single-species flocks and the smaller gnatwren frequently joining multispecies flocks, confirming the inverse relationship.<br/><br/>Choice C reverses this pattern, contradicting the hypothesis.<br/><br/>Choices B and D test unrelated factors instead of body size.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

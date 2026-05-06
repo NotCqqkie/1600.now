@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage contrasts two findings: one study found no <em>enduring</em> investment increases after liberalization, while another found a significant increase in the <strong>three years following liberalization</strong>. The key signal is this time-based contrast \u2014 'enduring' vs. 'three years' \u2014 suggesting a <strong>temporary effect</strong> that fades over time."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A captures this logic by stating that liberalization may provide a boost to investment that fades over time. B misstates the studies as confirming economists\u2019 expectations, which the text does not discuss. C incorrectly frames three years as a delay before benefit, while D introduces an irrelevant comparison to non-liberalized countries. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage contrasts two findings: one study found no <em>enduring</em> investment increases after liberalization, while another found a significant increase in the <strong>three years following liberalization</strong>.<br/><br/>The key signal is this time-based contrast — 'enduring' vs. 'three years' — suggesting a <strong>temporary effect</strong> that fades over time."}, {"title": "Match the meaning", "content": "Choice A captures this logic by stating that liberalization may provide a boost to investment that fades over time.<br/><br/>B misstates the studies as confirming economists’ expectations, which the text does not discuss.<br/><br/>C incorrectly frames three years as a delay before benefit, while D introduces an irrelevant comparison to non-liberalized countries.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

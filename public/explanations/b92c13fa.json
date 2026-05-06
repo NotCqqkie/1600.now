@@ -1,15 +1,1 @@
-{
-  "questionId": "b92c13fa",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the predictive claim",
-      "content": "The passage establishes that examining an item's age is the best way to <strong>predict</strong> how much longer it will last."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Indicator</strong> means something that signals or points to something else\u2014exactly what age does as the best predictor of durability. The other options either reverse this relationship (uncertainty suggests age confuses rather than clarifies) or are unrelated to prediction (motivation and criticism). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b92c13fa", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the predictive claim", "content": "The passage establishes that examining an item's age is the best way to <strong>predict</strong> how much longer it will last."}, {"title": "Match the meaning", "content": "<strong>Indicator</strong> means something that signals or points to something else—exactly what age does as the best predictor of durability.<br/><br/>The other options either reverse this relationship (uncertainty suggests age confuses rather than clarifies) or are unrelated to prediction (motivation and criticism).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

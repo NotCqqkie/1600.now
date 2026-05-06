@@ -1,15 +1,1 @@
-{
-  "questionId": "67b59a67",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the signal",
-      "content": "The team's conclusion is that <em>\u201ccertain microbes in the soil might explain the difference\u201d</em> between healthy and diseased plants. To directly support this, I need evidence showing which specific microbes differ between healthy and diseased plants."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A directly shows that healthy plants have significantly higher concentrations of microbes known to inhibit the disease-causing bacterium\u2014the microbial difference that explains their protection. B contradicts this by showing disease bacteria are present equally regardless of plant health, D contradicts it by showing disease happens regardless of microbial differences, and C discusses moisture instead of microbes. <strong>That matches choice A \u2014 A is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "67b59a67", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the signal", "content": "The team's conclusion is that <em>“certain microbes in the soil might explain the difference”</em> between healthy and diseased plants. To directly support this, I need evidence showing which specific microbes differ between healthy and diseased plants."}, {"title": "Apply the signal to the choices", "content": "Choice A directly shows that healthy plants have significantly higher concentrations of microbes known to inhibit the disease-causing bacterium—the microbial difference that explains their protection.<br/><br/><ul><li>B contradicts this by showing disease bacteria are present equally regardless of plant health</li><li>D contradicts it by showing disease happens regardless of microbial differences</li><li>C discusses moisture instead of microbes</li></ul>. <strong>That matches choice A — A is correct.</strong>"}]}

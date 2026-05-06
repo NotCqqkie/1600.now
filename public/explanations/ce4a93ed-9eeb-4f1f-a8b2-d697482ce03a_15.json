@@ -1,15 +1,1 @@
-{
-  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent",
-      "content": "The blank requires a pronoun referring to \u201cthe substance\u201d (chicken fat from the previous sentence) \u2014 a singular, non-human noun."
-    },
-    {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "A pronoun must agree with its antecedent in number. \u201cIt\u201d is the standard singular pronoun for non-human nouns. \u201cThose\u201d and \u201cthey\u201d are plural, violating number agreement, and \u201cthat\u201d is a demonstrative pronoun less natural for neutral back-reference. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent", "content": "The blank requires a pronoun referring to “the substance” (chicken fat from the previous sentence) — a singular, non-human noun."}, {"title": "Apply pronoun-antecedent agreement", "content": "A pronoun must agree with its antecedent in number. “It” is the standard singular pronoun for non-human nouns. “Those” and “they” are plural, violating number agreement, and “that” is a demonstrative pronoun less natural for neutral back-reference.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

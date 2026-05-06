@@ -1,15 +1,1 @@
-{
-  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_2",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what scientists lack",
-      "content": "The final sentence shows \u201cforest researchers regularly dispute one another's classifications\u201d \u2014 scientists disagree. The blank must name something whose absence explains this disagreement."
-    },
-    {
-      "title": "Find the word that expresses the missing element",
-      "content": "\u201dConsensus\u201d means agreement \u2014 exactly what's missing when scientists disagree. Where scientists lack consensus about classifications, different estimates naturally follow. Interest, deliberation, and vigilance don't name something whose absence explains disagreement. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what scientists lack", "content": "The final sentence shows “forest researchers regularly dispute one another's classifications” — scientists disagree. The blank must name something whose absence explains this disagreement."}, {"title": "Find the word that expresses the missing element", "content": "”Consensus” means agreement — exactly what's missing when scientists disagree.<br/><br/>Where scientists lack consensus about classifications, different estimates naturally follow.<br/><br/>Interest, deliberation, and vigilance don't name something whose absence explains disagreement.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The first action\u2014lowering the voting age\u2014directly produces the second outcome\u2014young people gaining voting opportunities. This is cause and effect."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "\u201dConsequently\u201d signals that one event results from another, capturing the causal link. \u201cSimilarly\u201d would pair parallel situations, \u201cBy contrast\u201d would suggest contradiction, and \u201cNevertheless\u201d would imply an unexpected turn\u2014none reflect a straightforward cause-and-effect sequence. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first action—lowering the voting age—directly produces the second outcome—young people gaining voting opportunities. This is cause and effect."}, {"title": "Match the transition to the relationship", "content": "”Consequently” signals that one event results from another, capturing the causal link. “Similarly” would pair parallel situations, “By contrast” would suggest contradiction, and “Nevertheless” would imply an unexpected turn—none reflect a straightforward cause-and-effect sequence.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

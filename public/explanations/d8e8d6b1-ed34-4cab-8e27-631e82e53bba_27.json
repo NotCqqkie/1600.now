@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_27",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key fact that directly contradicts the claim",
-      "content": "The claim to refute is that malapportionment favors small urban districts. The notes directly contradict this by stating that rural districts receive disproportionate representation compared to urban districts."
-    },
-    {
-      "title": "Find the choice that correctly refutes this claim",
-      "content": "Choice A uses the formula's mechanism (1.8 points per land unit vs 1 point per resident) to explain why rural districts are overrepresented, directly refuting the false claim. The other choices either reverse which districts are overrepresented or merely define malapportionment without addressing the specific claim. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key fact that directly contradicts the claim", "content": "The claim to refute is that malapportionment favors small urban districts. The notes directly contradict this by stating that rural districts receive disproportionate representation compared to urban districts."}, {"title": "Find the choice that correctly refutes this claim", "content": "Choice A uses the formula's mechanism (1.8 points per land unit vs 1 point per resident) to explain why rural districts are overrepresented, directly refuting the false claim.<br/><br/>The other choices either reverse which districts are overrepresented or merely define malapportionment without addressing the specific claim.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

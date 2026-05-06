@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key comparison",
-      "content": "The strongest signal in the passage is the explicit <strong>Mohs scale numbers</strong> and the rule that <em>higher-numbered minerals can scratch lower-numbered ones</em>. The student\u2019s goal is to highlight fluorite\u2019s hardness in <strong>relation to talc and quartz</strong>, so the correct answer must directly compare fluorite\u2019s scale number (4) to these other minerals."
-    },
-    {
-      "title": "Apply the scale logic",
-      "content": "Choice B correctly uses fluorite\u2019s position (4) to show it <em>can scratch talc (1) but not quartz (7)</em>, which aligns with the scale\u2019s hierarchy. The other three choices either omit fluorite entirely (C, D) or focus only on quartz\u2019s relationships (A), missing the specific context needed to emphasize fluorite\u2019s hardness. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key comparison", "content": "The strongest signal in the passage is the explicit <strong>Mohs scale numbers</strong> and the rule that <em>higher-numbered minerals can scratch lower-numbered ones</em>.<br/><br/>The student’s goal is to highlight fluorite’s hardness in <strong>relation to talc and quartz</strong>, so the correct answer must directly compare fluorite’s scale number (4) to these other minerals."}, {"title": "Apply the scale logic", "content": "Choice B correctly uses fluorite’s position (4) to show it <em>can scratch talc (1) but not quartz (7)</em>, which aligns with the scale’s hierarchy.<br/><br/>The other three choices either omit fluorite entirely (C, D) or focus only on quartz’s relationships (A), missing the specific context needed to emphasize fluorite’s hardness.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "7f1df833",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence's grammatical structure",
-      "content": "The sentence has a compound subject connected by \u201cand\u201d: <strong>his energetic gestures</strong> announcing when a player had struck out <strong>and his habit</strong> of barreling after a hit ball to see if it would land out of ______. A main verb must follow to govern both subjects and show their effect on the umpire role. The blank falls within the subject phrase, right before the verb that will complete the clause."
-    },
-    {
-      "title": "Match the correct verb structure",
-      "content": "With <strong>bounds helped</strong>, the sentence reads: \u201cHis gestures announcing\u2026 and his habit\u2026 out of bounds helped transform the role.\u201d Here, <strong>helped</strong> is the main verb, and <strong>transform</strong> is an infinitive object (a standard construction: \u201chelped transform\u201d = \u201chelped [to] transform\u201d). This creates a complete, grammatically sound clause: the compound subject performed the action \u201chelped,\u201d with the outcome \u201ctransform the role.\u201d<br/><br/>With <strong>bounds, helping</strong>, the comma would make \u201chelping transform\u201d a participial phrase, but no clear main verb follows\u2014the sentence becomes incomplete. <strong>Bounds that helped</strong> introduces a relative clause with an ambiguous antecedent, and <strong>bounds to help</strong> doesn't fit the sentence's grammatical flow.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7f1df833", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence's grammatical structure", "content": "The sentence has a compound subject connected by “and”: <strong>his energetic gestures</strong> announcing when a player had struck out <strong>and his habit</strong> of barreling after a hit ball to see if it would land out of ______.<br/><br/>A main verb must follow to govern both subjects and show their effect on the umpire role.<br/><br/>The blank falls within the subject phrase, right before the verb that will complete the clause."}, {"title": "Match the correct verb structure", "content": "With <strong>bounds helped</strong>, the sentence reads: “His gestures announcing… and his habit… out of bounds helped transform the role.” Here, <strong>helped</strong> is the main verb, and <strong>transform</strong> is an infinitive object (a standard construction: “helped transform” = “helped [to] transform”). This creates a complete, grammatically sound clause: the compound subject performed the action “helped,” with the outcome “transform the role.”<br/><br/>With <strong>bounds, helping</strong>, the comma would make “helping transform” a participial phrase, but no clear main verb follows—the sentence becomes incomplete. <strong>Bounds that helped</strong> introduces a relative clause with an ambiguous antecedent, and <strong>bounds to help</strong> doesn't fit the sentence's grammatical flow.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

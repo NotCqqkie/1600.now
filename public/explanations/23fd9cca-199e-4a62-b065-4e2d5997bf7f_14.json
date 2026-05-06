@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify where punctuation interrupts the verb-object bond",
-      "content": "The sentence structure is subject + verb + object: \u201cFlorida-based researchers Martha A. Scholl, Maoya Bassiouni, and Angel J. Torres-S\u00e1nchez\u201d (subject) + \u201ccompiled\u201d (verb) + \u201cclimate data from several sites in Puerto Rico's Luquillo Mountains\u201d (object). The blank appears right before \u201ccompiled,\u201d the transitive verb that must connect directly to the object that follows."
-    },
-    {
-      "title": "Match the choice that preserves the necessary connection",
-      "content": "Choice B (\u201ccompiled\u201d alone) correctly places the verb to flow directly into its object without any interruption. Choices A, C, and D all insert punctuation marks\u2014comma, semicolon, and colon respectively\u2014between the verb and its object, fragmenting the grammatical unit that must remain bonded together within the clause. Standard English requires that a transitive verb and its direct object stay connected without separation. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify where punctuation interrupts the verb-object bond", "content": "The sentence structure is subject + verb + object: “Florida-based researchers Martha A.<br/><br/>Scholl, Maoya Bassiouni, and Angel J. Torres-Sánchez” (subject) + “compiled” (verb) + “climate data from several sites in Puerto Rico's Luquillo Mountains” (object).<br/><br/>The blank appears right before “compiled,” the transitive verb that must connect directly to the object that follows."}, {"title": "Match the choice that preserves the necessary connection", "content": "Choice B (“compiled” alone) correctly places the verb to flow directly into its object without any interruption.<br/><br/>Choices A, C, and D all insert punctuation marks—comma, semicolon, and colon respectively—between the verb and its object, fragmenting the grammatical unit that must remain bonded together within the clause.<br/><br/>Standard English requires that a transitive verb and its direct object stay connected without separation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

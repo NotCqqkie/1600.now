@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contradiction with the assumption",
-      "content": "The assumption states that demographic shifts interrupt expertise transmission, causing <strong>simultaneous declines in multiple specialized crafting traditions</strong>. The crucial evidence contradicts this: advanced copper-alloy metallurgy and most other specialized crafting traditions <strong>continued to flourish</strong> around 1500 BCE, even as gold filigree declined during this same period."
-    },
-    {
-      "title": "Infer the demographic context from the pattern",
-      "content": "The persistence of other traditions while gold filigree declined indicates the disruption occurred without demographic change. Since demographic shifts, according to the assumption, cause simultaneous declines in multiple traditions, and we observe only gold filigree declining, no shift occurred\u2014<strong>demographic continuity</strong> must have prevailed instead. Choices B, C, and D all misread the evidence: B discusses what simultaneous declines indicate (irrelevant to this pattern), D invokes cross-cultural transmission to explain copper expansion (off-topic), and C incorrectly asserts shifts occurred despite the thriving other traditions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contradiction with the assumption", "content": "The assumption states that demographic shifts interrupt expertise transmission, causing <strong>simultaneous declines in multiple specialized crafting traditions</strong>.<br/><br/>The crucial evidence contradicts this: advanced copper-alloy metallurgy and most other specialized crafting traditions <strong>continued to flourish</strong> around 1500 BCE, even as gold filigree declined during this same period."}, {"title": "Infer the demographic context from the pattern", "content": "The persistence of other traditions while gold filigree declined indicates the disruption occurred without demographic change.<br/><br/>Since demographic shifts, according to the assumption, cause simultaneous declines in multiple traditions, and we observe only gold filigree declining, no shift occurred—<strong>demographic continuity</strong> must have prevailed instead.<br/><br/>Choices B, C, and <ul><li>D all misread the evidence: B discusses what simultaneous declines indicate (irrelevant to this pattern)</li><li>D invokes cross-cultural transmission to explain copper expansion (off-topic)</li><li>C incorrectly asserts shifts occurred despite the thriving other traditions</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

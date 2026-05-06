@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The noun phrase on the left side ends with a prepositional phrase (<em>\u201clike the Harbor Park bicycle\u201d</em>) that identifies the specific noun. On the right side is a relative clause starting with <em>\u201cwhich,\u201d</em> positioned before the main verb of the sentence."
-    },
-    {
-      "title": "Apply the rule for non-restrictive relative clauses",
-      "content": "The relative clause <em>\u201cwhich is about 0.38 miles long\u201d</em> provides additional information about a noun that is already specifically identified (<em>\u201cthe Harbor Park bicycle path\u201d</em>). Such non-restrictive clauses must be set off from the rest of the sentence by commas. When a non-restrictive clause appears in the middle of a sentence, it needs both a comma before it and a comma after it. The other three options fail to include both required commas, violating this rule.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The noun phrase on the left side ends with a prepositional phrase (<em>“like the Harbor Park bicycle”</em>) that identifies the specific noun. On the right side is a relative clause starting with <em>“which,”</em> positioned before the main verb of the sentence."}, {"title": "Apply the rule for non-restrictive relative clauses", "content": "The relative clause <em>“which is about 0.38 miles long”</em> provides additional information about a noun that is already specifically identified (<em>“the Harbor Park bicycle path”</em>).<br/><br/>Such non-restrictive clauses must be set off from the rest of the sentence by commas.<br/><br/>When a non-restrictive clause appears in the middle of a sentence, it needs both a comma before it and a comma after it.<br/><br/>The other three options fail to include both required commas, violating this rule.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

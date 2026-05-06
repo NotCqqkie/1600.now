@@ -1,15 +1,1 @@
-{
-  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The researchers emphasize that \u201cinvasive\u201d and \u201cnative\u201d describe <strong>temporary circumstances</strong>. The passage then explains that climate changes can shift species' ranges and create new habitats for them. Together, these observations indicate that the walnut twig beetle's current classification might not remain valid indefinitely."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice D captures this exactly: the designation fits <strong>now</strong> but could become inaccurate in the <strong>future</strong> if climate conditions shift. The other three miss this temporal logic\u2014A addresses unmentioned past events, B claims the distinction is fundamentally useless rather than temporary, and C contradicts the climate-change reasoning the passage presents. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The researchers emphasize that “invasive” and “native” describe <strong>temporary circumstances</strong>.<br/><br/>The passage then explains that climate changes can shift species' ranges and create new habitats for them.<br/><br/>Together, these observations indicate that the walnut twig beetle's current classification might not remain valid indefinitely."}, {"title": "Match the signal to the choices", "content": "Choice D captures this exactly: the designation fits <strong>now</strong> but could become inaccurate in the <strong>future</strong> if climate conditions shift.<br/><br/>The other three miss this temporal logic—<ul><li>A addresses unmentioned past events</li><li>B claims the distinction is fundamentally useless rather than temporary</li><li>C contradicts the climate-change reasoning the passage presents</li></ul>.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

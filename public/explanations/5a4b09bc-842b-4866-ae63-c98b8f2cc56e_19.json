@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_19",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures on each side of the blank",
-      "content": "Before the blank: <strong>\u201cthe city of L\u00fcneburg was a member of a powerful mercantile alliance that dominated northern European trade between the 13th and 17th [centuries]\u201d</strong> is a complete independent clause.<br/><br/>After the blank: <strong>\u201cthe Hanseatic League, a loose confederation of cities from eleven modern-day countries that has been described as a precursor to today's European Union\u201d</strong> is a noun phrase (with an appositive and relative clause), not an independent clause."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "A colon introduces an explanation or identification following an independent clause. Here, the Hanseatic League identifies the mercantile alliance just described, so the colon appropriately introduces that identification and elaboration. Option B (no punctuation) creates a run-on sentence, Option C (period) creates a sentence fragment with no main verb, and Option D (semicolon) violates the rule that a semicolon joins only two independent clauses.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures on each side of the blank", "content": "Before the blank: <strong>“the city of Lüneburg was a member of a powerful mercantile alliance that dominated northern European trade between the 13th and 17th [centuries]”</strong> is a complete independent clause.<br/><br/>After the blank: <strong>“the Hanseatic League, a loose confederation of cities from eleven modern-day countries that has been described as a precursor to today's European Union”</strong> is a noun phrase (with an appositive and relative clause), not an independent clause."}, {"title": "Apply the punctuation rule", "content": "A colon introduces an explanation or identification following an independent clause.<br/><br/>Here, the Hanseatic League identifies the mercantile alliance just described, so the colon appropriately introduces that identification and elaboration.<br/><br/>Option B (no punctuation) creates a run-on sentence, Option C (period) creates a sentence fragment with no main verb, and Option D (semicolon) violates the rule that a semicolon joins only two independent clauses.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

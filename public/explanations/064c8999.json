@@ -1,15 +1,1 @@
-{
-  "questionId": "064c8999",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal: provide an overview",
-      "content": "The student wants to \u201cprovide an overview of the Haber-Bosch process.\u201d For an industrial process, an effective overview must explain what the process is, what inputs it uses, and how it works \u2014 the essential mechanism and conditions. History and applications are peripheral to understanding the core process itself."
-    },
-    {
-      "title": "Select the choice that covers the essential mechanism",
-      "content": "Choice B describes what the process produces (ammonia), what it combines (nitrogen and hydrogen), and the essential conditions (iron catalyst, high temperatures and pressures). The other choices skip critical details: A doesn't state the output, C prioritizes history and application over the mechanism itself, and D lists only one condition while omitting inputs and what's produced. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "064c8999", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal: provide an overview", "content": "The student wants to “provide an overview of the Haber-Bosch process.” For an industrial process, an effective overview must explain what the process is, what inputs it uses, and how it works — the essential mechanism and conditions.<br/><br/>History and applications are peripheral to understanding the core process itself."}, {"title": "Select the choice that covers the essential mechanism", "content": "Choice B describes what the process produces (ammonia), what it combines (nitrogen and hydrogen), and the essential conditions (iron catalyst, high temperatures and pressures).<br/><br/>The other choices skip critical details: A doesn't state the output, C prioritizes history and application over the mechanism itself, and D lists only one condition while omitting inputs and what's produced.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

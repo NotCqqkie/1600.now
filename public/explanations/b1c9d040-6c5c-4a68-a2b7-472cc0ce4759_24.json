@@ -1,15 +1,1 @@
-{
-  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the second sentence does",
-      "content": "The first sentence makes a general claim: sleek vehicles are more aerodynamic than bulky ones. The second sentence immediately introduces a specific aircraft (F-4 Phantom) with a specific design feature. This shift from <strong>general principle to concrete example</strong> signals what kind of transition is needed."
-    },
-    {
-      "title": "Select the transition that introduces examples",
-      "content": "<strong>For example</strong> transitions from a general statement to a specific instance illustrating it. Here, the F-4 Phantom's streamlined nose becomes the concrete case demonstrating why sleek vehicles are more aerodynamic. <strong>However</strong> signals contradiction, <strong>meanwhile</strong> implies simultaneous events, and <strong>additionally</strong> marks a separate supporting point\u2014none match a transition from general principle to specific example. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the second sentence does", "content": "The first sentence makes a general claim: sleek vehicles are more aerodynamic than bulky ones.<br/><br/>The second sentence immediately introduces a specific aircraft (F-4 Phantom) with a specific design feature.<br/><br/>This shift from <strong>general principle to concrete example</strong> signals what kind of transition is needed."}, {"title": "Select the transition that introduces examples", "content": "<strong>For example</strong> transitions from a general statement to a specific instance illustrating it.<br/><br/>Here, the F-4 Phantom's streamlined nose becomes the concrete case demonstrating why sleek vehicles are more aerodynamic. <strong>However</strong> signals contradiction, <strong>meanwhile</strong> implies simultaneous events, and <strong>additionally</strong> marks a separate supporting point—none match a transition from general principle to specific example. <br/>That matches choice C — <strong>C</strong> is correct."}]}

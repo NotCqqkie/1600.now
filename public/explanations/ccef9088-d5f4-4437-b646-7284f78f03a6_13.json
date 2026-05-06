@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast",
-      "content": "The passage explains that longitudinal studies like NEPS require extensive funding because they collect data \u201cover timescales and at intervals\u201d to track trends. The \u201cBut\u201d introduces a different study type\u2014a transportation count seeking average daily usage\u2014that is much less funding-dependent. What makes this transportation study fundamentally different?"
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A states that such studies \u201care not trying to identify trends over time.\u201d A study measuring average daily usage avoids the repeated measurements across years that characterize longitudinal research. <br/><br/> The other choices discuss funding priority (B), participant recruitment (C), or scope expansion (D), none explaining the funding difference. <br/><br/> That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The passage explains that longitudinal studies like NEPS require extensive funding because they collect data “over timescales and at intervals” to track trends.<br/><br/>The “But” introduces a different study type—a transportation count seeking average daily usage—that is much less funding-dependent.<br/><br/>What makes this transportation study fundamentally different?"}, {"title": "Apply the signal to the choices", "content": "Choice A states that such studies “are not trying to identify trends over time.” A study measuring average daily usage avoids the repeated measurements across years that characterize longitudinal research. <br/><br/> The other choices discuss funding priority (B), participant recruitment (C), or scope expansion (D), none explaining the funding difference. <br/><br/> That matches choice A — <strong>A</strong> is correct."}]}

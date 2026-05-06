@@ -1,15 +1,1 @@
-{
-  "questionId": "e9521fd1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the vocabulary timeline mismatch",
-      "content": "The branches share vocabulary for botanical terms inherited from their common ancestor, but lack shared vocabulary for maize\u2014despite both cultivating it universally. This selective sharing of older vocabulary but not newer terminology suggests the crop's arrival postdates the language split."
-    },
-    {
-      "title": "Apply the timing constraint",
-      "content": "If the split between northern and southern branches preceded maize's arrival, each branch would independently acquire maize vocabulary from its regional sources (the south from Mexico, the north from neighboring peoples). The alternatives either invoke transfer mechanisms that would contradict the vocabulary evidence, misattribute the mismatch to cultivation methods rather than acquisition timing, or assume simultaneous adoption contradicting the archaeological record of gradual diffusion. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e9521fd1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the vocabulary timeline mismatch", "content": "The branches share vocabulary for botanical terms inherited from their common ancestor, but lack shared vocabulary for maize—despite both cultivating it universally. This selective sharing of older vocabulary but not newer terminology suggests the crop's arrival postdates the language split."}, {"title": "Apply the timing constraint", "content": "If the split between northern and southern branches preceded maize's arrival, each branch would independently acquire maize vocabulary from its regional sources (the south from Mexico, the north from neighboring peoples).<br/><br/>The alternatives either invoke transfer mechanisms that would contradict the vocabulary evidence, misattribute the mismatch to cultivation methods rather than acquisition timing, or assume simultaneous adoption contradicting the archaeological record of gradual diffusion.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

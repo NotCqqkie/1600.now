@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key contrast",
-      "content": "One book achieves more words in fewer pages; the other spreads fewer words across more pages. <em>A Moment in the Sun</em> has 1,100 pages and 625,000 words, while <em>1Q84</em> has 1,157 pages and 407,000 words."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<em>A Moment in the Sun</em> must contain more words per page \u2014 fitting more total words into fewer pages is the only way to achieve this. The other choices either speculate unsupported properties (B's claim about translation, D's claim about paper) or contradict the data (C claims page count is reliable when the example shows wide variation in word counts across similar page counts). That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the key contrast", "content": "One book achieves more words in fewer pages; the other spreads fewer words across more pages. <em>A Moment in the Sun</em> has 1,100 pages and 625,000 words, while <em>1Q84</em> has 1,157 pages and 407,000 words."}, {"title": "Match the meaning", "content": "<em>A Moment in the Sun</em> must contain more words per page — fitting more total words into fewer pages is the only way to achieve this.<br/><br/>The other choices either speculate unsupported properties (B's claim about translation, D's claim about paper) or contradict the data (C claims page count is reliable when the example shows wide variation in word counts across similar page counts).<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

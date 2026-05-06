@@ -1,15 +1,1 @@
-{
-  "questionId": "a30567fd",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The main clause \u201clent Fairuz a timeless, cross-generational appeal\u201d is independent. The phrase following the blank\u2014\u201dher the moniker\u201d\u2014lacks an explicit subject."
-    },
-    {
-      "title": "Apply the rule for participles after commas",
-      "content": "After a comma following an independent clause, a participle (not a finite verb) introduces a modifying phrase. <strong>Earning her the moniker</strong> is a participle phrase expressing the result of the main action. \u201cEarned\u201d and \u201chad earned\u201d create a comma splice (two independent clauses without a coordinating conjunction); \u201cearn\u201d is a bare infinitive unsuitable here. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a30567fd", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "The main clause “lent Fairuz a timeless, cross-generational appeal” is independent. The phrase following the blank—”her the moniker”—lacks an explicit subject."}, {"title": "Apply the rule for participles after commas", "content": "After a comma following an independent clause, a participle (not a finite verb) introduces a modifying phrase. <strong>Earning her the moniker</strong> is a participle phrase expressing the result of the main action. “Earned” and “had earned” create a comma splice (two independent clauses without a coordinating conjunction); “earn” is a bare infinitive unsuitable here.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

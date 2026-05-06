@@ -1,15 +1,1 @@
-{
-  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_9",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret the function notation F(4) = 28",
-      "content": "In the context of F(m) = 7m, the statement F(4) = 28 means we are evaluating the function at $m = 4$ kilograms. The result is 28 newtons. In context: the input is mass 4 kg, and the output is force 28 N."
-    },
-    {
-      "title": "Match the interpretation to the correct choice",
-      "content": "We established that when the mass is 4 kilograms, the force is 28 newtons. Looking at the choices, choice A states: <em>The estimated force acting on an object with a mass of 4 kilograms is 28 newtons.</em> This exactly matches our interpretation. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Interpret the function notation F(4) = 28", "content": "In the context of F(m) = 7m, the statement F(4) = 28 means we are evaluating the function at $m = 4$ kilograms. The result is 28 newtons. In context: the input is mass 4 kg, and the output is force 28 N."}, {"title": "Match the interpretation to the correct choice", "content": "We established that when the mass is 4 kilograms, the force is 28 newtons.<br/><br/>Looking at the choices, choice A states: <em>The estimated force acting on an object with a mass of 4 kilograms is 28 newtons.</em> This exactly matches our interpretation.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

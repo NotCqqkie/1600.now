@@ -1,15 +1,1 @@
-{
-  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the confound the researchers are describing",
-      "content": "The word <strong>\u201cspecifically\u201d</strong> in the researchers' claim reveals the issue: the shielding must have blocked insects <strong>other than honeybees.</strong> This means the 40\u201390% production drop could result from excluded honeybees, excluded other insects, or both. To support the researchers' claim that they can't tell, we need evidence that other insects pollinate cucumbers and were blocked too."
-    },
-    {
-      "title": "Match the evidence to this experimental confound",
-      "content": "B directly identifies this confound: squash bees pollinate cucumber plants and the shielding blocked them too, which explains why the experiment can't distinguish honeybee effects from other-insect effects. A focuses on onion pollination, C discusses the relative frequency of honeybee use, and D addresses sunlight exposure\u2014none of these explain why blocking all insect pollinators prevents the isolation of honeybee-specific contributions. <strong>That matches choice B \u2014 B is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the confound the researchers are describing", "content": "The word <strong>“specifically”</strong> in the researchers' claim reveals the issue: the shielding must have blocked insects <strong>other than honeybees.</strong> This means the 40–90% production drop could result from excluded honeybees, excluded other insects, or both.<br/><br/>To support the researchers' claim that they can't tell, we need evidence that other insects pollinate cucumbers and were blocked too."}, {"title": "Match the evidence to this experimental confound", "content": "B directly identifies this confound: squash bees pollinate cucumber plants and the shielding blocked them too, which explains why the experiment can't distinguish honeybee effects from other-insect effects.<br/><br/><ul><li>A focuses on onion pollination</li><li>C discusses the relative frequency of honeybee use</li><li>D addresses sunlight exposure—none of these explain why blocking all insect pollinators prevents the isolation of honeybee-specific contributions</li></ul>. <strong>That matches choice B — B is correct.</strong>"}]}

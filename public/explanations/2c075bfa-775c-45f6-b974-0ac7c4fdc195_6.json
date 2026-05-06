@@ -1,15 +1,1 @@
-{
-  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural progression",
-      "content": "The text moves from a broad statement about high-speed rail expanding globally (\u201chigh-speed rail systems are expanding in many countries...\u201d) to a specific instance (\u201cIn Morocco, for instance...\u201d) with concrete numbers."
-    },
-    {
-      "title": "Apply the structure to the choices",
-      "content": "Choice A directly names this exact structure: a general trend followed by a specific example. The other choices describe different organizational patterns\u2014challenges to arguments, alternatives to questioned actions, or reinterpretations of rejected beliefs\u2014that don't match the text. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structural progression", "content": "The text moves from a broad statement about high-speed rail expanding globally (“high-speed rail systems are expanding in many countries...”) to a specific instance (“In Morocco, for instance...”) with concrete numbers."}, {"title": "Apply the structure to the choices", "content": "Choice A directly names this exact structure: a general trend followed by a specific example.<br/><br/>The other choices describe different organizational patterns—challenges to arguments, alternatives to questioned actions, or reinterpretations of rejected beliefs—that don't match the text. <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

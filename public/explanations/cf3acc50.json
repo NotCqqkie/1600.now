@@ -1,15 +1,1 @@
-{
-  "questionId": "cf3acc50",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical tension",
-      "content": "The passage presents a paradox: marginal notes show <em>Cantares Mexicanos</em> mostly predates the Spanish invasion, yet some poems contain <em>inarguable</em> references to Spanish beliefs and customs. The word <strong>Thus</strong> signals that scholars' conclusion must resolve this contradiction."
-    },
-    {
-      "title": "Find the resolution",
-      "content": "Choice A resolves the paradox by proposing that post-invasion additions to the collection explain the Spanish references. B and C fail to account for how such references entered the text (poor language knowledge doesn't produce them, and pre-invasion borrowing wouldn't involve contemporary Spanish customs), while D wrongly dismisses them as coincidence despite the passage calling them <em>inarguable</em>. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf3acc50", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical tension", "content": "The passage presents a paradox: marginal notes show <em>Cantares Mexicanos</em> mostly predates the Spanish invasion, yet some poems contain <em>inarguable</em> references to Spanish beliefs and customs.<br/><br/>The word <strong>Thus</strong> signals that scholars' conclusion must resolve this contradiction."}, {"title": "Find the resolution", "content": "Choice A resolves the paradox by proposing that post-invasion additions to the collection explain the Spanish references.<br/><br/>B and C fail to account for how such references entered the text (poor language knowledge doesn't produce them, and pre-invasion borrowing wouldn't involve contemporary Spanish customs), while D wrongly dismisses them as coincidence despite the passage calling them <em>inarguable</em>.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

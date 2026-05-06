@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the variation across studies",
-      "content": "The three notes report three different outcomes: positive, neutral, and negative effects. Any valid generalization must account for this pattern of different results, not single out one study or falsely claim consistency."
-    },
-    {
-      "title": "Match to the correct generalization",
-      "content": "Choice A directly states that effects <strong>can vary</strong>, reflecting the three distinct outcomes shown across the studies. The other three either contradict the data (C claims the 2017 study found negative effects; D claims consistent positive effects), reverse causality (B), or fail to synthesize across all studies. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_26", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the variation across studies", "content": "The three notes report three different outcomes: positive, neutral, and negative effects. Any valid generalization must account for this pattern of different results, not single out one study or falsely claim consistency."}, {"title": "Match to the correct generalization", "content": "Choice A directly states that effects <strong>can vary</strong>, reflecting the three distinct outcomes shown across the studies.<br/><br/>The other three either contradict the data (C claims the 2017 study found negative effects; D claims consistent positive effects), reverse causality (B), or fail to synthesize across all studies.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "82b7c3b2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the context clue",
-      "content": "The decisive clue is the phrase \u201cat about twelve or fourteen dollars\u201d immediately following \u201cmarked.\u201d This signals the word describes how a price is displayed."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The target meaning is \u201cpriced.\u201d \u201cMarked at twelve dollars\u201d is how merchants display the cost of merchandise, so \u201cpriced\u201d captures this meaning exactly. The other three\u2014\u201dstaged,\u201d \u201cstained,\u201d and \u201cwatched\u201d\u2014have no connection to assigning prices to items. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "82b7c3b2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the context clue", "content": "The decisive clue is the phrase “at about twelve or fourteen dollars” immediately following “marked.” This signals the word describes how a price is displayed."}, {"title": "Match the meaning", "content": "The target meaning is “priced.” “Marked at twelve dollars” is how merchants display the cost of merchandise, so “priced” captures this meaning exactly.<br/><br/>The other three—”staged,” “stained,” and “watched”—have no connection to assigning prices to items.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

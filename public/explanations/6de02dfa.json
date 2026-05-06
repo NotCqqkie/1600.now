@@ -1,15 +1,1 @@
-{
-  "questionId": "6de02dfa",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the goal",
-      "content": "The student wants to \u201cemphasize a similarity\u201d in how Bangkok and Chiang Mai celebrate. This is the key measure."
-    },
-    {
-      "title": "See why B succeeds",
-      "content": "B uses \u201cIn both Bangkok and Chiang Mai\u201d to signal shared celebration between the cities, then identifies what they share: thousands gathering for water fights. A contrasts locations with \u201cwhereas,\u201d C contradicts itself with \u201cbut,\u201d and D ignores the comparison. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6de02dfa", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the goal", "content": "The student wants to “emphasize a similarity” in how Bangkok and Chiang Mai celebrate. This is the key measure."}, {"title": "See why B succeeds", "content": "B uses “In both Bangkok and Chiang Mai” to signal shared celebration between the cities, then identifies what they share: thousands gathering for water fights.<br/><br/>A contrasts locations with “whereas,” C contradicts itself with “but,” and D ignores the comparison.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

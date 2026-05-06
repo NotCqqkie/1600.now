@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal link",
-      "content": "The signal is <em>will be helpful, as ______</em>. We need to explain why using robots instead of humans is beneficial. The blank should describe something expensive about the current approach."
-    },
-    {
-      "title": "Match the reason",
-      "content": "<em>Relying on astronauts to maintain the telescope can be expensive</em> directly explains why robots would be helpful\u2014depending on human missions costs money. The other three choices either don't express this dependence or contradict the logic. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the causal link", "content": "The signal is <em>will be helpful, as ______</em>. We need to explain why using robots instead of humans is beneficial. The blank should describe something expensive about the current approach."}, {"title": "Match the reason", "content": "<em>Relying on astronauts to maintain the telescope can be expensive</em> directly explains why robots would be helpful—depending on human missions costs money.<br/><br/>The other three choices either don't express this dependence or contradict the logic.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

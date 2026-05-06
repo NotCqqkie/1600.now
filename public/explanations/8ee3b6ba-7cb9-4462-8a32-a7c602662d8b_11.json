@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what weakens the claim",
-      "content": "The student claims that scat-detecting dogs produces <strong>the smallest difference</strong> between minimum and maximum densities. To weaken this claim, we need evidence that scat-detecting dogs does <strong>not</strong> have the smallest difference."
-    },
-    {
-      "title": "Match the evidence to the choices",
-      "content": "If Gregory A. Davidson et al. used scat-detecting dogs and their reported density range was <strong>greater than</strong> the ranges from studies using other methods, this directly contradicts the student's claim by showing scat-detecting dogs lacks the smallest difference. Options A and D report isolated data points without comparative context; B compares two studies without clarifying which method was used or the actual ranges involved. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what weakens the claim", "content": "The student claims that scat-detecting dogs produces <strong>the smallest difference</strong> between minimum and maximum densities. To weaken this claim, we need evidence that scat-detecting dogs does <strong>not</strong> have the smallest difference."}, {"title": "Match the evidence to the choices", "content": "If Gregory A. Davidson et al. used scat-detecting dogs and their reported density range was <strong>greater than</strong> the ranges from studies using other methods, this directly contradicts the student's claim by showing scat-detecting dogs lacks the smallest difference.<br/><br/>Options A and D report isolated data points without comparative context; B compares two studies without clarifying which method was used or the actual ranges involved.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

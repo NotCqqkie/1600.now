@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure the blank requires",
-      "content": "The blank requires a subject and verb to form a predicate nominative after the colon: [SUBJECT + VERB] + \u201can island or a group of islands.\u201d The answer choices pair two different subjects (\u201call of them\u201d vs. \u201ceach of them\u201d) with two different verb forms (\u201cis\u201d vs. \u201care\u201d)."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires that a subject and verb match in number. \u201cEach of them\u201d is singular and correctly pairs with the singular verb \u201cis,\u201d expressing that each entity individually consists of an island or a group of islands. The other options either mismatch subject-verb numbers (B and D) or use \u201call of them\u201d where the singular distributive \u201ceach of them\u201d is required. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure the blank requires", "content": "The blank requires a subject and verb to form a predicate nominative after the colon: [SUBJECT + VERB] + “an island or a group of islands.” The answer choices pair two different subjects (“all of them” vs. “each of them”) with two different verb forms (“is” vs. “are”)."}, {"title": "Apply subject-verb agreement", "content": "Subject-verb agreement requires that a subject and verb match in number. “Each of them” is singular and correctly pairs with the singular verb “is,” expressing that each entity individually consists of an island or a group of islands.<br/><br/>The other options either mismatch subject-verb numbers (B and D) or use “all of them” where the singular distributive “each of them” is required.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

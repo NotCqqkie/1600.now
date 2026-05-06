@@ -1,15 +1,1 @@
-{
-  "questionId": "1684b237",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the opening phrase and main clause structure",
-      "content": "The opening noun phrase describes a specific person: <strong>\u201cOne of the few African American global explorers during the turn of the 20th century.\u201d</strong> After the comma, the main clause begins and needs a subject. The answer depends on which noun fills that subject position."
-    },
-    {
-      "title": "Apply the matching rule",
-      "content": "When an opening describes a person, the main clause's subject must be that person. Choice A correctly makes Matthew Henson the subject\u2014he is the explorer described in the opening. Choices C and D make Greenland and treks the subjects, illogically attaching the description of a person to a place and object instead. Choice B is incoherent. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1684b237", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the opening phrase and main clause structure", "content": "The opening noun phrase describes a specific person: <strong>“One of the few African American global explorers during the turn of the 20th century.”</strong> After the comma, the main clause begins and needs a subject. The answer depends on which noun fills that subject position."}, {"title": "Apply the matching rule", "content": "When an opening describes a person, the main clause's subject must be that person.<br/><br/>Choice A correctly makes Matthew Henson the subject—he is the explorer described in the opening.<br/><br/>Choices C and D make Greenland and treks the subjects, illogically attaching the description of a person to a place and object instead.<br/><br/>Choice B is incoherent. That matches choice A — <strong>A</strong> is correct."}]}

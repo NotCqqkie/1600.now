@@ -1,15 +1,1 @@
-{
-  "questionId": "f8c4591b",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast between appearance and expert knowledge",
-      "content": "The first sentence states the volcanoes \u201cmay look similar from afar,\u201d but the second sentence reveals that volcanologists can distinguish them by formation. The transition word must bridge this contradiction between visual similarity and expert differentiation."
-    },
-    {
-      "title": "Match the contrast signal",
-      "content": "\u201dThough\u201d is a concessive word meaning \u201cnevertheless\u201d\u2014it directly signals that despite the visual likeness, experts distinguish them by formation.<br/>The other three are additive (\u201cfor example,\u201d \u201cin addition\u201d) or causal (\u201ctherefore\u201d), none of which express contrast. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f8c4591b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast between appearance and expert knowledge", "content": "The first sentence states the volcanoes “may look similar from afar,” but the second sentence reveals that volcanologists can distinguish them by formation. The transition word must bridge this contradiction between visual similarity and expert differentiation."}, {"title": "Match the contrast signal", "content": "”Though” is a concessive word meaning “nevertheless”—it directly signals that despite the visual likeness, experts distinguish them by formation.<br/>The other three are additive (“for example,” “in addition”) or causal (“therefore”), none of which express contrast.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}

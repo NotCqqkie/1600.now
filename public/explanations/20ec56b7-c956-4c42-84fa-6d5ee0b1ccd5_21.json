@@ -1,15 +1,1 @@
-{
-  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence boundary problem",
-      "content": "The left side of the blank ends with an independent clause (\u201cThe Kyzylkum Desert in central Asia is a semiarid desert\u201d) followed by the word \u201cfor.\u201d The right side continues with \u201ca total area of about 300,000 km\u00b2,\u201d and then a second independent clause: \u201cit is also one of the largest deserts of any type.\u201d"
-    },
-    {
-      "title": "Apply the punctuation rule for independent clauses",
-      "content": "A period properly separates two independent clauses into two sentences. Choice D places a period after \u201cexample,\u201d creating the first sentence: \u201cThe Kyzylkum Desert in central Asia is a semiarid desert, for example.\u201d Then a second sentence: \u201cWith a total area of about 300,000 km\u00b2, it is also one of the largest deserts of any type.\u201d Choices A, B, and C try to connect both independent clauses in one sentence using only commas and transitional words, which creates a comma splice. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence boundary problem", "content": "The left side of the blank ends with an independent clause (“The Kyzylkum Desert in central Asia is a semiarid desert”) followed by the word “for.” The right side continues with “a total area of about 300,000 km²,” and then a second independent clause: “it is also one of the largest deserts of any type.”"}, {"title": "Apply the punctuation rule for independent clauses", "content": "A period properly separates two independent clauses into two sentences.<br/><br/>Choice D places a period after “example,” creating the first sentence: “The Kyzylkum Desert in central Asia is a semiarid desert, for example.” Then a second sentence: “With a total area of about 300,000 km², it is also one of the largest deserts of any type.” Choices A, B, and C try to connect both independent clauses in one sentence using only commas and transitional words, which creates a comma splice.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

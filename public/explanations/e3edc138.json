@@ -1,15 +1,1 @@
-{
-  "questionId": "e3edc138",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the concept requiring elaboration",
-      "content": "The first sentence states the field is <strong>\u201cdivided\u201d</strong> between two camps. The blank introduces a sentence that must elaborate on that division\u2014specifying what it actually consists of."
-    },
-    {
-      "title": "Match the transition to the signal",
-      "content": "<strong>\u201cThat is\u201d</strong> signals a clarification of a preceding idea: the second sentence explains the division by naming the two opposed positions. The other choices fail because they signal addition, opposition, or equivalence rather than elaboration. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e3edc138", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the concept requiring elaboration", "content": "The first sentence states the field is <strong>“divided”</strong> between two camps. The blank introduces a sentence that must elaborate on that division—specifying what it actually consists of."}, {"title": "Match the transition to the signal", "content": "<strong>“That is”</strong> signals a clarification of a preceding idea: the second sentence explains the division by naming the two opposed positions.<br/><br/>The other choices fail because they signal addition, opposition, or equivalence rather than elaboration.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

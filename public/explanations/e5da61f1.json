@@ -1,15 +1,1 @@
-{
-  "questionId": "e5da61f1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the organizing pattern",
-      "content": "The passage opens by announcing Julius was \u201cvery useful,\u201d then systematically lists different specific areas of knowledge and skill. This pattern\u2014claim followed by enumeration\u2014is the text's defining structure."
-    },
-    {
-      "title": "Evaluate the choices",
-      "content": "Choice D correctly names the purpose: explaining different ways Julius was helpful. The passage supports this by systematically listing his specific domains\u2014neighborhood knowledge, roads, soils, hunting/fishing locations, horse/dog management. The alternatives fail: A and C introduce content not in the passage (comparisons, shared activities), while B narrows the focus wrongly to just soil. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e5da61f1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the organizing pattern", "content": "The passage opens by announcing Julius was “very useful,” then systematically lists different specific areas of knowledge and skill. This pattern—claim followed by enumeration—is the text's defining structure."}, {"title": "Evaluate the choices", "content": "Choice D correctly names the purpose: explaining different ways Julius was helpful.<br/><br/>The passage supports this by systematically listing his specific domains—neighborhood knowledge, roads, soils, hunting/fishing locations, horse/dog management.<br/><br/>The alternatives fail: A and C introduce content not in the passage (comparisons, shared activities), while B narrows the focus wrongly to just soil.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_26",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The notes directly state: \u201cA river with high sinuosity has many meanders.\u201d This phrase provides the essential information to define the term."
-    },
-    {
-      "title": "Match the definition to the choices",
-      "content": "B directly states the definition: a high-sinuosity river \u201cis one that has many meanders,\u201d and it clarifies that meanders are \u201cU-shaped curves.\u201d The others either add unnecessary behavioral details, misrepresent causality, or focus on a specific example rather than providing a general definition. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_26", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The notes directly state: “A river with high sinuosity has many meanders.” This phrase provides the essential information to define the term."}, {"title": "Match the definition to the choices", "content": "B directly states the definition: a high-sinuosity river “is one that has many meanders,” and it clarifies that meanders are “U-shaped curves.” The others either add unnecessary behavioral details, misrepresent causality, or focus on a specific example rather than providing a general definition.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

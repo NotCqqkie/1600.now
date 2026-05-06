@@ -1,15 +1,1 @@
-{
-  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_6",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast word",
-      "content": "The strongest signal is the word <em>but</em> that immediately follows the underlined portion. The underlined statement (what readers would obviously think) is positioned to be contradicted, setting up the surprising findings that follow."
-    },
-    {
-      "title": "Determine the function",
-      "content": "The function is to signal surprise\u2014by establishing an intuitive expectation and immediately overturning it with <em>but,</em> the passage emphasizes how unexpected the research findings are. The wrong answers identify unrelated elements: species distinction (A), hypothesis clarification (C), and experimental method (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast word", "content": "The strongest signal is the word <em>but</em> that immediately follows the underlined portion. The underlined statement (what readers would obviously think) is positioned to be contradicted, setting up the surprising findings that follow."}, {"title": "Determine the function", "content": "The function is to signal surprise—by establishing an intuitive expectation and immediately overturning it with <em>but,</em> the passage emphasizes how unexpected the research findings are.<br/><br/>The wrong answers identify unrelated elements: species distinction (A), hypothesis clarification (C), and experimental method (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

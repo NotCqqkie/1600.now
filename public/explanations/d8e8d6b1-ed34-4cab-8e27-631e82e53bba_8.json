@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_8",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the data must show",
-      "content": "The assertion predicts that cooler months correlate with lower reproductive fitness. Wing centroid size proxies for body size, which correlates with fitness, so we need data showing that a cooler month had smaller wings than a warmer month."
-    },
-    {
-      "title": "Match to the supporting data",
-      "content": "Choice D demonstrates this: female wing centroid size was smaller in September (a cooler month) than in July (a warmer month), supporting the predicted relationship between temperature and body size/fitness. Choices B and C don't compare seasonal wing variation (B shows sex differences within months, C provides temperature alone), and choice A does not match the table data. <br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_8", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the data must show", "content": "The assertion predicts that cooler months correlate with lower reproductive fitness. Wing centroid size proxies for body size, which correlates with fitness, so we need data showing that a cooler month had smaller wings than a warmer month."}, {"title": "Match to the supporting data", "content": "Choice D demonstrates this: female wing centroid size was smaller in September (a cooler month) than in July (a warmer month), supporting the predicted relationship between temperature and body size/fitness.<br/><br/>Choices B and C don't compare seasonal wing variation (B shows sex differences within months, C provides temperature alone), and choice A does not match the table data. <br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

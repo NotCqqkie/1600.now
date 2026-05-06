@@ -1,15 +1,1 @@
-{
-  "questionId": "ace95f84",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "\u201dStratigraphy\u201d and \u201cthe analysis of Earth's sediment layers\u201d form an appositive pair\u2014one noun phrase that renames or clarifies another."
-    },
-    {
-      "title": "Apply the punctuation rule for appositives",
-      "content": "An em dash is the standard punctuation for setting off an appositive. Choice A correctly uses it to set off \u201cthe analysis of Earth's sediment layers\u201d as a clarification of \u201cstratigraphy.\u201d The remaining choices either ignore appositive conventions (D), lack closure (B), or misapply formal punctuation (C).<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ace95f84", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "”Stratigraphy” and “the analysis of Earth's sediment layers” form an appositive pair—one noun phrase that renames or clarifies another."}, {"title": "Apply the punctuation rule for appositives", "content": "An em dash is the standard punctuation for setting off an appositive.<br/><br/>Choice A correctly uses it to set off “the analysis of Earth's sediment layers” as a clarification of “stratigraphy.” The remaining choices either ignore appositive conventions (D), lack closure (B), or misapply formal punctuation (C).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

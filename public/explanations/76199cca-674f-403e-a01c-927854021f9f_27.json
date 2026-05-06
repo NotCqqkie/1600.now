@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the task's central requirement",
-      "content": "The student wants to \u201cspecify an element's relative abundance on Earth.\u201d \u201cSpecify\u201d is the key word \u2014 it demands a concrete, exact statement of a particular abundance value, not a general discussion of methods."
-    },
-    {
-      "title": "Find the choice that states the specific abundance",
-      "content": "Option B directly specifies potassium's relative abundance using concrete data from the notes: 160 ppm or 0.016%. Options A and C discuss methods of expressing abundance without stating any specific value, while D makes an inaccurate comparison. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "76199cca-674f-403e-a01c-927854021f9f_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the task's central requirement", "content": "The student wants to “specify an element's relative abundance on Earth.” “Specify” is the key word — it demands a concrete, exact statement of a particular abundance value, not a general discussion of methods."}, {"title": "Find the choice that states the specific abundance", "content": "Option B directly specifies potassium's relative abundance using concrete data from the notes: 160 ppm or 0.016%.<br/><br/>Options A and C discuss methods of expressing abundance without stating any specific value, while D makes an inaccurate comparison.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_7",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the age gap between Gondwanan species and modern clades",
-      "content": "The key signal is the stark mismatch in timescales: Gondwanan species originated around <strong>80 million years ago</strong> (when the island split from Gondwana), but Text 2 shows Grande Terre's current clades are far younger\u2014<strong>41.1 million years</strong> for stick insects and even more recent for nearly all others."
-    },
-    {
-      "title": "Apply the crown age data to clade membership",
-      "content": "A species cannot belong to a clade with a crown age younger than the species itself. Since Gondwanan species are from 80 million years ago but Grande Terre's current clades have crown ages of only 41.1 million years or younger, the original Gondwanan species cannot be members of today's clades on the island. The other answers misapply the Goodeniaceae date to Gondwanan origins, reverse the logical relationship, or make an unsupported specific claim. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the age gap between Gondwanan species and modern clades", "content": "The key signal is the stark mismatch in timescales: Gondwanan species originated around <strong>80 million years ago</strong> (when the island split from Gondwana), but Text 2 shows Grande Terre's current clades are far younger—<strong>41.1 million years</strong> for stick insects and even more recent for nearly all others."}, {"title": "Apply the crown age data to clade membership", "content": "A species cannot belong to a clade with a crown age younger than the species itself.<br/><br/>Since Gondwanan species are from 80 million years ago but Grande Terre's current clades have crown ages of only 41.1 million years or younger, the original Gondwanan species cannot be members of today's clades on the island.<br/><br/>The other answers misapply the Goodeniaceae date to Gondwanan origins, reverse the logical relationship, or make an unsupported specific claim.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

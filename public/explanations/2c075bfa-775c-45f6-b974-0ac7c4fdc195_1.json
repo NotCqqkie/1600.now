@@ -1,15 +1,1 @@
-{
-  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states the mihrab is <strong>foundational to traditional mosque architecture</strong> and is therefore considered a certain aspect of design. The word \u201ctherefore\u201d signals that the blank should restate the idea of essential or fundamental. The second sentence reinforces this: mihrabs appear in <strong>all mosques regardless of architectural style</strong>, confirming they are definitive, not optional."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Quintessential</strong> means \u201cthe most perfect or typical example\u201d \u2014 it directly extends \u201cfoundational\u201d by expressing that something is definitively essential and characteristic. The other choices miss the mark: \u201cunprecedented\u201d contradicts the foundational role, \u201cembellished\u201d describes decoration rather than essential function, and \u201cimposing\u201d describes visual impact rather than structural importance. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states the mihrab is <strong>foundational to traditional mosque architecture</strong> and is therefore considered a certain aspect of design.<br/><br/>The word “therefore” signals that the blank should restate the idea of essential or fundamental.<br/><br/>The second sentence reinforces this: mihrabs appear in <strong>all mosques regardless of architectural style</strong>, confirming they are definitive, not optional."}, {"title": "Match the meaning to the choices", "content": "<strong>Quintessential</strong> means “the most perfect or typical example” — it directly extends “foundational” by expressing that something is definitively essential and characteristic.<br/><br/>The other choices miss the mark: “unprecedented” contradicts the foundational role, “embellished” describes decoration rather than essential function, and “imposing” describes visual impact rather than structural importance.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

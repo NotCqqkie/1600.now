@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_10",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement",
-      "content": "The conclusion states that anatomical features affect dogs' ability to distinguish speech from nonspeech. A supporting finding must demonstrate that dogs with different head shapes actually differ in this discrimination ability."
-    },
-    {
-      "title": "Match to the answer that shows this",
-      "content": "Choice B demonstrates that shorter-headed dogs show a smaller difference in brain activity between speech (Spanish or Hungarian) and nonspeech (scrambled) compared to longer-headed dogs, directly proving that head shape affects speech-nonspeech discrimination. The other choices either compare within a single head shape (A), test language familiarity rather than speech-nonspeech (C), or confuse the comparison (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key requirement", "content": "The conclusion states that anatomical features affect dogs' ability to distinguish speech from nonspeech. A supporting finding must demonstrate that dogs with different head shapes actually differ in this discrimination ability."}, {"title": "Match to the answer that shows this", "content": "Choice B demonstrates that shorter-headed dogs show a smaller difference in brain activity between speech (Spanish or Hungarian) and nonspeech (scrambled) compared to longer-headed dogs, directly proving that head shape affects speech-nonspeech discrimination.<br/><br/>The other choices either compare within a single head shape (A), test language familiarity rather than speech-nonspeech (C), or confuse the comparison (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

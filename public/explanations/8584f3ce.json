@@ -1,15 +1,1 @@
-{
-  "questionId": "8584f3ce",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what would undermine the hypothesis",
-      "content": "Foster's hypothesis depends on an observation: large, well-established otter populations at Vancouver Island create healthier eelgrass meadows with greater genetic diversity. A finding that would undermine this would show that large, established populations don't consistently produce healthier meadows."
-    },
-    {
-      "title": "Apply the test to the choices",
-      "content": "Choice C shows that large, well-established otter populations correlate with unhealthy meadows, contradicting Foster's predicted outcome. The other choices involve different otter conditions (small or recent in A; absent eelgrass in B) or unrelated species (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8584f3ce", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what would undermine the hypothesis", "content": "Foster's hypothesis depends on an observation: large, well-established otter populations at Vancouver Island create healthier eelgrass meadows with greater genetic diversity.<br/><br/>A finding that would undermine this would show that large, established populations don't consistently produce healthier meadows."}, {"title": "Apply the test to the choices", "content": "Choice C shows that large, well-established otter populations correlate with unhealthy meadows, contradicting Foster's predicted outcome.<br/><br/>The other choices involve different otter conditions (small or recent in A; absent eelgrass in B) or unrelated species (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

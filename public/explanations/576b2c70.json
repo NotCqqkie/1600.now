@@ -1,15 +1,1 @@
-{
-  "questionId": "576b2c70",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank appears in a relative clause where <strong>which</strong> serves as the subject. The structure is: relative pronoun subject + [blank] + direct object <em>(detailed mathematical guidance...)</em>."
-    },
-    {
-      "title": "Apply the finite verb rule",
-      "content": "A relative clause with a relative pronoun as subject requires a finite verb as its predicate. <strong>Provided</strong> (choice A) correctly supplies the finite verb needed here. The other choices\u2014<strong>having provided</strong> (B), <strong>to provide</strong> (C), and <strong>providing</strong> (D)\u2014are non-finite forms that cannot serve as the main verb in this structure. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "576b2c70", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank appears in a relative clause where <strong>which</strong> serves as the subject. The structure is: relative pronoun subject + [blank] + direct object <em>(detailed mathematical guidance...)</em>."}, {"title": "Apply the finite verb rule", "content": "A relative clause with a relative pronoun as subject requires a finite verb as its predicate. <strong>Provided</strong> (choice A) correctly supplies the finite verb needed here.<br/><br/>The other choices—<strong>having provided</strong> (B), <strong>to provide</strong> (C), and <strong>providing</strong> (D)—are non-finite forms that cannot serve as the main verb in this structure.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

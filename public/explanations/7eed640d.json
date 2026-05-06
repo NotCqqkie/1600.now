@@ -1,15 +1,1 @@
-{
-  "questionId": "7eed640d",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "What does an x-intercept represent?",
-      "content": "An <em>x</em>-intercept is where the graph crosses the <em>x</em>-axis, where $y = 0$. For this problem, that means $h(x) = 0$. Since $h(x)$ represents height in feet, the equation $h(x) = 0$ means the projectile is at ground level. The <em>x</em>-coordinate of the <em>x</em>-intercept is the time (in seconds) when this occurs."
-    },
-    {
-      "title": "Identify the positive x-intercept and its meaning",
-      "content": "At $x = 0$, the height is $h(0) = 10$ feet \u2014 the projectile starts above ground. Since the coefficient of $x^2$ is $-16$ (negative), the parabola opens downward. Starting above ground with a downward-opening parabola, the projectile will eventually return to ground level at some positive time. The positive <em>x</em>-intercept represents this time when the projectile hits the ground. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7eed640d", "correctAnswer": "D", "section": "Math", "steps": [{"title": "What does an x-intercept represent?", "content": "An <em>x</em>-intercept is where the graph crosses the <em>x</em>-axis, where $y = 0$.<br/><br/>For this problem, that means $h(x) = 0$. Since $h(x)$ represents height in feet, the equation $h(x) = 0$ means the projectile is at ground level.<br/><br/>The <em>x</em>-coordinate of the <em>x</em>-intercept is the time (in seconds) when this occurs."}, {"title": "Identify the positive x-intercept and its meaning", "content": "At $x = 0$, the height is $h(0) = 10$ feet — the projectile starts above ground.<br/><br/>Since the coefficient of $x^2$ is $-16$ (negative), the parabola opens downward.<br/><br/>Starting above ground with a downward-opening parabola, the projectile will eventually return to ground level at some positive time.<br/><br/>The positive <em>x</em>-intercept represents this time when the projectile hits the ground.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

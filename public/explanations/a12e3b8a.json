@@ -1,15 +1,1 @@
-{
-  "questionId": "a12e3b8a",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Before the blank: \u201cThis idea is known as the service recovery ______\u201d is an independent clause (subject <strong>idea</strong>, verb <strong>is known</strong>).<br/>After the blank: \u201cresearch suggests that it has important implications for customer loyalty and retention\u201d is an independent clause (subject <strong>research</strong>, verb <strong>suggests</strong>)."
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "When two independent clauses need to be joined, the rule requires either a period, a semicolon, or a comma plus a coordinating conjunction. Choice C (<strong>paradox, and</strong>) applies the comma-plus-conjunction pattern correctly. Choices A and B violate the rule\u2014A creates a comma splice by omitting the conjunction, B creates a fused sentence by omitting both punctuation and conjunction\u2014while D violates it by placing the comma after the conjunction instead of before. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a12e3b8a", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Before the blank: “This idea is known as the service recovery ______” is an independent clause (subject <strong>idea</strong>, verb <strong>is known</strong>).<br/>After the blank: “research suggests that it has important implications for customer loyalty and retention” is an independent clause (subject <strong>research</strong>, verb <strong>suggests</strong>)."}, {"title": "Apply the rule for joining independent clauses", "content": "When two independent clauses need to be joined, the rule requires either a period, a semicolon, or a comma plus a coordinating conjunction.<br/><br/>Choice C (<strong>paradox, and</strong>) applies the comma-plus-conjunction pattern correctly.<br/><br/>Choices A and B violate the rule—A creates a comma splice by omitting the conjunction, B creates a fused sentence by omitting both punctuation and conjunction—while D violates it by placing the comma after the conjunction instead of before.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

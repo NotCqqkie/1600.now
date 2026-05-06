@@ -1,15 +1,1 @@
-{
-  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify why the researchers say labels are temporary",
-      "content": "The researchers' core claim is that <strong>\u201cinvasive\u201d and \u201cnative\u201d are labels that describe temporary circumstances</strong> \u2014 temporary because climate change will shift where animals can live. The passage then applies this specifically to Maryland: if climate change will alter conditions there, then current classifications based on today's conditions may not fit tomorrow's conditions."
-    },
-    {
-      "title": "Match this logic to the choices",
-      "content": "Choice C directly states that Maryland's current designation of flathead catfish as invasive <strong>may be appropriate now but not in the future</strong> \u2014 exactly the time-bound shift the researchers' argument predicts. Choice A contradicts the logic by excluding flathead catfish from the \u201ctemporary circumstances\u201d principle that applies to all species. Choice B reverses the timeline, suggesting past presence rather than future change. Choice D undermines the entire argument by claiming the catfish will establish itself regardless of climate predictions, when the researchers' point depends on climate change as the mechanism for range shifts. <br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify why the researchers say labels are temporary", "content": "The researchers' core claim is that <strong>“invasive” and “native” are labels that describe temporary circumstances</strong> — temporary because climate change will shift where animals can live.<br/><br/>The passage then applies this specifically to Maryland: if climate change will alter conditions there, then current classifications based on today's conditions may not fit tomorrow's conditions."}, {"title": "Match this logic to the choices", "content": "Choice C directly states that Maryland's current designation of flathead catfish as invasive <strong>may be appropriate now but not in the future</strong> — exactly the time-bound shift the researchers' argument predicts.<br/><br/>Choice A contradicts the logic by excluding flathead catfish from the “temporary circumstances” principle that applies to all species.<br/><br/>Choice B reverses the timeline, suggesting past presence rather than future change.<br/><br/>Choice D undermines the entire argument by claiming the catfish will establish itself regardless of climate predictions, when the researchers' point depends on climate change as the mechanism for range shifts. <br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_10",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the direct consumption comparison",
-      "content": "The passage directly compares daily krill consumption using body weight and the 30% consumption rate: a pygmy right whale (3,500 kg) could eat 1,050 kg per day, while a bowhead whale (66,000 kg) could eat 19,800 kg per day."
-    },
-    {
-      "title": "Match the comparison to the choices",
-      "content": "Choice B states that the bowhead whale is able to eat more krill per day than the pygmy right whale\u2014exactly what the passage demonstrates with these calculations. The other three choices either describe unsupported consumption changes, claim dietary capabilities not mentioned in the passage, or misidentify the cause of the population decline. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the direct consumption comparison", "content": "The passage directly compares daily krill consumption using body weight and the 30% consumption rate: a pygmy right whale (3,500 kg) could eat 1,050 kg per day, while a bowhead whale (66,000 kg) could eat 19,800 kg per day."}, {"title": "Match the comparison to the choices", "content": "Choice B states that the bowhead whale is able to eat more krill per day than the pygmy right whale—exactly what the passage demonstrates with these calculations.<br/><br/>The other three choices either describe unsupported consumption changes, claim dietary capabilities not mentioned in the passage, or misidentify the cause of the population decline.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

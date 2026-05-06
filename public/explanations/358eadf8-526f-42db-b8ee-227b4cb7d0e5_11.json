@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what Grasby et al. were investigating",
-      "content": "The passage states their research question: \u201cdoes perceived category similarity predict consumers' likelihood of purchasing brand extensions?\u201d They collected two key measurements for each brand pair\u2014consumers' similarity ratings and calculated probability changes in purchasing. For this hypothesis to be supported, these two measurements must be connected: higher similarity ratings should correspond to higher probability changes."
-    },
-    {
-      "title": "Determine which finding supports the hypothesis",
-      "content": "Choice B reports a strong positive correlation between consumers' similarity ratings and the calculated probability changes. This directly demonstrates that perceived category similarity predicts purchasing likelihood: as ratings increase, so do probability changes. Choices A, C, and D either introduce confounding variables, show no relationship between ratings and probabilities, or focus on unrelated purchasing patterns. This answers their core research question. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_11", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what Grasby et al. were investigating", "content": "The passage states their research question: “does perceived category similarity predict consumers' likelihood of purchasing brand extensions?” They collected two key measurements for each brand pair—consumers' similarity ratings and calculated probability changes in purchasing.<br/><br/>For this hypothesis to be supported, these two measurements must be connected: higher similarity ratings should correspond to higher probability changes."}, {"title": "Determine which finding supports the hypothesis", "content": "Choice B reports a strong positive correlation between consumers' similarity ratings and the calculated probability changes.<br/><br/>This directly demonstrates that perceived category similarity predicts purchasing likelihood: as ratings increase, so do probability changes.<br/><br/>Choices A, C, and D either introduce confounding variables, show no relationship between ratings and probabilities, or focus on unrelated purchasing patterns.<br/><br/>This answers their core research question. That matches choice B — <strong>B</strong> is correct."}]}

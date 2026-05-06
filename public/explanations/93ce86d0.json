@@ -1,15 +1,1 @@
-{
-  "questionId": "93ce86d0",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the comparative signal",
-      "content": "The underlined sentence presents a key observation: dream eye movements match the pattern of awake eye movements. This matching is evidence that supports a conclusion."
-    },
-    {
-      "title": "Apply the signal to determine function",
-      "content": "Choice D identifies this function exactly: the matching behavior is the comparable circumstance that helps justify the team's conclusion. The other choices either reverse the logical relationship (A), add unsupported claims (B), or mistake the finding for an implication (C).<br><br>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "93ce86d0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the comparative signal", "content": "The underlined sentence presents a key observation: dream eye movements match the pattern of awake eye movements. This matching is evidence that supports a conclusion."}, {"title": "Apply the signal to determine function", "content": "Choice D identifies this function exactly: the matching behavior is the comparable circumstance that helps justify the team's conclusion.<br/><br/>The other choices either reverse the logical relationship (A), add unsupported claims (B), or mistake the finding for an implication (C).<br><br>That matches choice D — <strong>D</strong> is correct."}]}

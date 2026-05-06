@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal marker",
-      "content": "The passage introduces the second institution with \u201cMore recently founded,\u201d explicitly signaling that it was established after the first one. This phrase reveals the passage's organizing principle: ordering institutions by when they were founded."
-    },
-    {
-      "title": "Match the pattern to the choices",
-      "content": "Following this chronological pattern, the text discusses an older institution first (Museo, 1991), then a more recently founded one (Latino Cultural Center). This exactly describes choice D. The other options impose elements absent from the passage\u2014future plans, trend rejection, definitions, or social arguments. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal marker", "content": "The passage introduces the second institution with “More recently founded,” explicitly signaling that it was established after the first one. This phrase reveals the passage's organizing principle: ordering institutions by when they were founded."}, {"title": "Match the pattern to the choices", "content": "Following this chronological pattern, the text discusses an older institution first (Museo, 1991), then a more recently founded one (Latino Cultural Center).<br/><br/>This exactly describes choice D. The other options impose elements absent from the passage—future plans, trend rejection, definitions, or social arguments.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

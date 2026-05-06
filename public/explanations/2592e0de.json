@@ -1,15 +1,1 @@
-{
-  "questionId": "2592e0de",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the scope of the passage",
-      "content": "The passage isn't about a single benefit of bicycles\u2014it covers multiple areas: travel freedom, living arrangements, leisure activities, and social participation. The text emphasizes the breadth of what bicycles enabled."
-    },
-    {
-      "title": "Match the scope to the choices",
-      "content": "Choice A states the bicycle \u201cprovided new opportunities for people\u201d\u2014a framing broad enough to cover the passage's multiple areas (travel, living arrangements, leisure, social participation). The other choices either narrow focus to a single element or introduce unsupported information. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2592e0de", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the scope of the passage", "content": "The passage isn't about a single benefit of bicycles—it covers multiple areas: travel freedom, living arrangements, leisure activities, and social participation. The text emphasizes the breadth of what bicycles enabled."}, {"title": "Match the scope to the choices", "content": "Choice A states the bicycle “provided new opportunities for people”—a framing broad enough to cover the passage's multiple areas (travel, living arrangements, leisure, social participation).<br/><br/>The other choices either narrow focus to a single element or introduce unsupported information.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

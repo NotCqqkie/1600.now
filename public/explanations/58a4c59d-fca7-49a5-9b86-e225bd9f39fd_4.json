@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_4",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The strongest clue is <em>\u201cconstantly evolving\u201d</em> paired with <em>\u201cchanges in size and shape\u201d</em>\u2014the passage describes something in constant transformation."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Dynamic means characterized by constant change. This word captures the delta's nature perfectly: its channels and terrain continuously shift. A (immutable) contradicts this directly; B (unrivaled) and C (sustainable) are unrelated to transformation. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The strongest clue is <em>“constantly evolving”</em> paired with <em>“changes in size and shape”</em>—the passage describes something in constant transformation."}, {"title": "Match the meaning", "content": "Dynamic means characterized by constant change. This word captures the delta's nature perfectly: its channels and terrain continuously shift.<br/><br/>A (immutable) contradicts this directly; B (unrivaled) and C (sustainable) are unrelated to transformation.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

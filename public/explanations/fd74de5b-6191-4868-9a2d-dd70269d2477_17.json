@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the matching punctuation pattern",
-      "content": "The opening comma after \u201cbecome\u201d signals that \u201cwith the breakout success of her 2020 novel Mexican Gothic\u201d is an interrupting phrase that must be enclosed with matching punctuation on both sides."
-    },
-    {
-      "title": "Complete the enclosing pair",
-      "content": "A comma after \u201cGothic\u201d matches the comma after \u201cbecome\u201d and properly closes the interrupting phrase, allowing \u201cbest known as a novelist\u201d to follow. The other choices use wrong punctuation (em-dash, semicolon) or provide none, breaking the sentence structure. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the matching punctuation pattern", "content": "The opening comma after “become” signals that “with the breakout success of her 2020 novel Mexican Gothic” is an interrupting phrase that must be enclosed with matching punctuation on both sides."}, {"title": "Complete the enclosing pair", "content": "A comma after “Gothic” matches the comma after “become” and properly closes the interrupting phrase, allowing “best known as a novelist” to follow.<br/><br/>The other choices use wrong punctuation (em-dash, semicolon) or provide none, breaking the sentence structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

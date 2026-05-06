@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast between impractical and practical",
-      "content": "The passage contrasts Kepler-452b (habitable but too distant for near-term use) with what humanity should focus on instead (planets within our solar system). The transition must signal this shift from one goal to a viable alternative."
-    },
-    {
-      "title": "Choose the substitution signal",
-      "content": "<em>Instead</em> marks the pivot from an impractical goal to a practical alternative. The others fail to capture the substitution: <em>For example</em> signals exemplification, <em>Next</em> implies sequence, and <em>Likewise</em> suggests similarity. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the contrast between impractical and practical", "content": "The passage contrasts Kepler-452b (habitable but too distant for near-term use) with what humanity should focus on instead (planets within our solar system). The transition must signal this shift from one goal to a viable alternative."}, {"title": "Choose the substitution signal", "content": "<em>Instead</em> marks the pivot from an impractical goal to a practical alternative.<br/><br/>The others fail to capture the substitution: <em>For example</em> signals exemplification, <em>Next</em> implies sequence, and <em>Likewise</em> suggests similarity.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

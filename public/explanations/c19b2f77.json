@@ -1,15 +1,1 @@
-{
-  "questionId": "c19b2f77",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "Text 2 emphasizes that valid claims about plate tectonics must rest on \u201cempirical evidence from the geological record\u201d rather than theoretical models, then provides such evidence (zircon geochemistry) to argue for an earlier timeline of 4.2 billion years ago."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D asserts that empirical geological evidence provides more definitive proof than computer models, with implications for an earlier timeline\u2014the exact way Text 2's author would respond by demonstrating that better evidence changes the answer. The other choices wrongly assume computer models remain valid and need only correction, refinement, or comparison, missing Text 2's fundamental point that empirical geological data replaces reliance on models entirely. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c19b2f77", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Text 2 emphasizes that valid claims about plate tectonics must rest on “empirical evidence from the geological record” rather than theoretical models, then provides such evidence (zircon geochemistry) to argue for an earlier timeline of 4.2 billion years ago."}, {"title": "Apply the signal to the choices", "content": "Choice D asserts that empirical geological evidence provides more definitive proof than computer models, with implications for an earlier timeline—the exact way Text 2's author would respond by demonstrating that better evidence changes the answer.<br/><br/>The other choices wrongly assume computer models remain valid and need only correction, refinement, or comparison, missing Text 2's fundamental point that empirical geological data replaces reliance on models entirely.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

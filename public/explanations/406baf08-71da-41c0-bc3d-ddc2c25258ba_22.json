@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the unexpected outcome",
-      "content": "The principle predicts that rings outside the Roche limit accrete into satellites, but Morgado's team found a ring outside this limit that remained intact\u2014the opposite of what should happen."
-    },
-    {
-      "title": "Pick the transition for surprise findings",
-      "content": "\u201dThough\u201d works because it signals a contrast\u2014it introduces something that contradicts the stated principle. \u201cLikewise,\u201d \u201cfittingly,\u201d and \u201cfor example\u201d all frame the finding as confirming or exemplifying the principle, when it actually contradicts it. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Recognize the unexpected outcome", "content": "The principle predicts that rings outside the Roche limit accrete into satellites, but Morgado's team found a ring outside this limit that remained intact—the opposite of what should happen."}, {"title": "Pick the transition for surprise findings", "content": "”Though” works because it signals a contrast—it introduces something that contradicts the stated principle. “Likewise,” “fittingly,” and “for example” all frame the finding as confirming or exemplifying the principle, when it actually contradicts it.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

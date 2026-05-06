@@ -1,15 +1,1 @@
-{
-  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining contrast",
-      "content": "The passage contrasts single-species conservation (focus on one vulnerable species) with ecosystem-based conservation (consider interactions of climate, terrain, and multiple species). The ecosystem approach means strategies address the broader system, not <em>M. guerreronis</em> alone."
-    },
-    {
-      "title": "Apply the logic to outcomes",
-      "content": "Ecosystem-based conservation addresses multiple system elements (climate, terrain, various species), not exclusively <em>M. guerreronis</em>, yet the passage says such approaches lead to \u201cbetter outcomes for all the species\u201d \u2014 so broader strategies still protect the target. <strong>B</strong> states this exactly: conservation strategies not exclusively aimed at <em>M. guerreronis</em> benefit the species nonetheless. The others misidentify the mechanism or contradict the passage. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the defining contrast", "content": "The passage contrasts single-species conservation (focus on one vulnerable species) with ecosystem-based conservation (consider interactions of climate, terrain, and multiple species). The ecosystem approach means strategies address the broader system, not <em>M. guerreronis</em> alone."}, {"title": "Apply the logic to outcomes", "content": "Ecosystem-based conservation addresses multiple system elements (climate, terrain, various species), not exclusively <em>M. guerreronis</em>, yet the passage says such approaches lead to “better outcomes for all the species” — so broader strategies still protect the target. <strong>B</strong> states this exactly: conservation strategies not exclusively aimed at <em>M. guerreronis</em> benefit the species nonetheless.<br/><br/>The others misidentify the mechanism or contradict the passage.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

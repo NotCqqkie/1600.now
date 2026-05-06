@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the number requirement",
-      "content": "The first sentence mentions \u201cBoth Pontianak, Indonesia, and Manta, Ecuador\u201d \u2014 two cities. The second sentence's \u201cIn other words\u201d restates this, so the blank must contain a word referring to both cities, requiring a <strong>plural</strong> demonstrative."
-    },
-    {
-      "title": "Match the demonstrative to the noun",
-      "content": "<strong>These</strong> is the only plural demonstrative and correctly modifies the plural noun <em>cities</em> \u2014 referring to both cities mentioned. <strong>Each</strong> is always singular, and <strong>that</strong> and <strong>this</strong> are singular demonstratives that don't agree with a plural noun. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the number requirement", "content": "The first sentence mentions “Both Pontianak, Indonesia, and Manta, Ecuador” — two cities. The second sentence's “In other words” restates this, so the blank must contain a word referring to both cities, requiring a <strong>plural</strong> demonstrative."}, {"title": "Match the demonstrative to the noun", "content": "<strong>These</strong> is the only plural demonstrative and correctly modifies the plural noun <em>cities</em> — referring to both cities mentioned. <strong>Each</strong> is always singular, and <strong>that</strong> and <strong>this</strong> are singular demonstratives that don't agree with a plural noun.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

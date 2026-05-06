@@ -1,15 +1,1 @@
-{
-  "questionId": "870ae7ec",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structures on each side of the blank",
-      "content": "The left side\u2014\u201dIn 2017, the couple converted a vacant lot in the city into an apiary\u201d\u2014is an independent clause (subject 'couple,' verb 'converted'). The right side\u2014\u201din the years that followed they acquired nine additional lots and established more than 35 hives\u201d\u2014is also an independent clause (subject 'they,' compound verbs 'acquired' and 'established'), even though it begins with the adverbial phrase 'in the years that followed.'"
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "Joining two independent clauses requires a comma + coordinating conjunction, which choice B correctly provides with \u201capiary, and\u201d. The remaining choices violate this rule: A omits the conjunction, C omits the comma, and D omits both. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "870ae7ec", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structures on each side of the blank", "content": "The left side—”In 2017, the couple converted a vacant lot in the city into an apiary”—is an independent clause (subject 'couple,' verb 'converted').<br/><br/>The right side—”in the years that followed they acquired nine additional lots and established more than 35 hives”—is also an independent clause (subject 'they,' compound verbs 'acquired' and 'established'), even though it begins with the adverbial phrase 'in the years that followed.'"}, {"title": "Apply the rule for joining independent clauses", "content": "Joining two independent clauses requires a comma + coordinating conjunction, which choice B correctly provides with “apiary, and”. The remaining choices violate this rule: <ul><li>A omits the conjunction</li><li>C omits the comma</li><li>D omits both</li></ul>. That matches choice B — <strong>B</strong> is correct."}]}

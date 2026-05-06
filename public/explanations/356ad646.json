@@ -1,15 +1,1 @@
-{
-  "questionId": "356ad646",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the finding",
-      "content": "The researchers found that bulkheads are <strong>more strongly negatively correlated</strong> with waterbird community integrity than riprap. In plain terms: bulkheads damage bird communities more than riprap does. To illustrate this, you need a direct comparison showing that when bulkheads dominate, IWCI scores drop sharply, but when riprap dominates, scores stay higher."
-    },
-    {
-      "title": "Match the comparison to the finding",
-      "content": "Choice B compares Old Road (a high-bulkhead site with <strong>lower</strong> IWCI scores) to Miles (a high-riprap site with <strong>higher</strong> IWCI scores). This directly shows bulkheads correlating more negatively with bird integrity than riprap. Choice A compares two bulkhead-heavy sites to each other, sidestepping the bulkhead-vs.-riprap contrast. Choice C mixes both structure types at each site, muddying which structure causes the damage. Choice D leaves the percentages at Miles unspecified, failing to set up a clean comparison. <br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "356ad646", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal in the finding", "content": "The researchers found that bulkheads are <strong>more strongly negatively correlated</strong> with waterbird community integrity than riprap.<br/><br/>In plain terms: bulkheads damage bird communities more than riprap does.<br/><br/>To illustrate this, you need a direct comparison showing that when bulkheads dominate, IWCI scores drop sharply, but when riprap dominates, scores stay higher."}, {"title": "Match the comparison to the finding", "content": "Choice B compares Old Road (a high-bulkhead site with <strong>lower</strong> IWCI scores) to Miles (a high-riprap site with <strong>higher</strong> IWCI scores).<br/><br/>This directly shows bulkheads correlating more negatively with bird integrity than riprap.<br/><br/>Choice A compares two bulkhead-heavy sites to each other, sidestepping the bulkhead-vs.-riprap contrast.<br/><br/>Choice C mixes both structure types at each site, muddying which structure causes the damage.<br/><br/>Choice D leaves the percentages at Miles unspecified, failing to set up a clean comparison. <br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

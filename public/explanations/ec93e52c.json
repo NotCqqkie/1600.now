@@ -1,15 +1,1 @@
-{
-  "questionId": "ec93e52c",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive evidence",
-      "content": "The team's entire conclusion hinges on one dietary contrast: cattle ate millet (a cultivated crop), while sheep and goats ate wild plants. This difference is the basis for concluding cattle were raised near settlements and the others roamed farther away."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Option A strengthens the original pattern by showing cattle also ate wheat\u2014another cultivated crop\u2014reinforcing that they were managed near settlements. B, C, and D do not support the reasoning: B shows sheep/goats also accessed some millet (complicating the diet distinction), C addresses nutritional needs rather than actual diet, and D generalizes without explaining the specific settlement claim. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ec93e52c", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the decisive evidence", "content": "The team's entire conclusion hinges on one dietary contrast: cattle ate millet (a cultivated crop), while sheep and goats ate wild plants. This difference is the basis for concluding cattle were raised near settlements and the others roamed farther away."}, {"title": "Apply the signal to the choices", "content": "Option A strengthens the original pattern by showing cattle also ate wheat—another cultivated crop—reinforcing that they were managed near settlements.<br/><br/>B, C, and <ul><li>D do not support the reasoning: B shows sheep/goats also accessed some millet (complicating the diet distinction)</li><li>C addresses nutritional needs rather than actual diet</li><li>D generalizes without explaining the specific settlement claim</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

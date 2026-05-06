@@ -1,15 +1,1 @@
-{
-  "questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_1",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cause being solved",
-      "content": "The shortcoming was caused by \u201climited data availability.\u201d The critical turn: researchers \u201cgaining new access to administrative records\u201d from previously uncovered regions. The signal: they're acquiring what was missing, which will reduce the original problem."
-    },
-    {
-      "title": "Select the word for reducing a deficiency",
-      "content": "\u201dMitigate\u201d means to reduce or alleviate the severity of something. The other choices don't work: \u201cvalidate\u201d means to confirm/verify (not remedy), \u201ccategorize\u201d means to sort into groups (irrelevant to coverage), and \u201cpresuppose\u201d means to assume beforehand (contradicts gaining new information). With new data filling the previously uncovered regions, the original geographic limitation becomes less severe. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bbdda23-57e5-4170-8fb2-e513425353ca_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the cause being solved", "content": "The shortcoming was caused by “limited data availability.” The critical turn: researchers “gaining new access to administrative records” from previously uncovered regions. The signal: they're acquiring what was missing, which will reduce the original problem."}, {"title": "Select the word for reducing a deficiency", "content": "”Mitigate” means to reduce or alleviate the severity of something.<br/><br/>The other choices don't work: “validate” means to confirm/verify (not remedy), “categorize” means to sort into groups (irrelevant to coverage), and “presuppose” means to assume beforehand (contradicts gaining new information).<br/><br/>With new data filling the previously uncovered regions, the original geographic limitation becomes less severe.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

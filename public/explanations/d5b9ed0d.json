@@ -1,15 +1,1 @@
-{
-  "questionId": "d5b9ed0d",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the specific contrast in the student's conclusion",
-      "content": "The student distinguishes between low anger (may not negatively affect) and high anger (does worsen readers' perceptions). We need data showing this exact differential effect, with low anger producing no harm compared to control, and high anger producing clear harm."
-    },
-    {
-      "title": "Find the data pattern that supports the student's claim",
-      "content": "B shows low-anger reviews rated slightly higher than the control (no negative effect on helpfulness), while high-anger reviews rated lower (a clear negative effect). The other choices either blur the anger differential, shift focus to product attitude, or compare anger levels directly rather than against the control. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d5b9ed0d", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the specific contrast in the student's conclusion", "content": "The student distinguishes between low anger (may not negatively affect) and high anger (does worsen readers' perceptions). We need data showing this exact differential effect, with low anger producing no harm compared to control, and high anger producing clear harm."}, {"title": "Find the data pattern that supports the student's claim", "content": "B shows low-anger reviews rated slightly higher than the control (no negative effect on helpfulness), while high-anger reviews rated lower (a clear negative effect).<br/><br/>The other choices either blur the anger differential, shift focus to product attitude, or compare anger levels directly rather than against the control.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

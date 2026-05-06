@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast in voting requirements",
-      "content": "The passage presents Ethiopia's voting age requirement (18) then pivots to Cuba's requirement (16). This relationship between the two facts is inherently comparative \u2014 we're contrasting two different voting ages across two countries."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "\u201dBy comparison\u201d directly marks a comparison between two things \u2014 Ethiopia's voting age versus Cuba's. The other three choices misidentify the relationship: \u201cFirstly\u201d implies a sequence or list, \u201cTherefore\u201d suggests causation between the requirements, and \u201cFor example\u201d treats Cuba as an instance illustrating a general rule rather than a contrasting case. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast in voting requirements", "content": "The passage presents Ethiopia's voting age requirement (18) then pivots to Cuba's requirement (16). This relationship between the two facts is inherently comparative — we're contrasting two different voting ages across two countries."}, {"title": "Match the transition to the relationship", "content": "”By comparison” directly marks a comparison between two things — Ethiopia's voting age versus Cuba's.<br/><br/>The other three choices misidentify the relationship: “Firstly” implies a sequence or list, “Therefore” suggests causation between the requirements, and “For example” treats Cuba as an instance illustrating a general rule rather than a contrasting case.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

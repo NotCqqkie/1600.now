@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural clue",
-      "content": "The word \u201cbut\u201d in the sentence after the blank reveals the core relationship: it separates acknowledgment (other dances share these features) from emphasis (the Madison's uniformity is more extreme). The transition word must introduce this acknowledgment gracefully."
-    },
-    {
-      "title": "Match the transition type",
-      "content": "\u201dOf course,\u201d signals expected acknowledgment, perfectly introducing the acknowledgment-and-emphasis structure that follows. The other choices misidentify the logical relationship\u2014they would introduce contradiction, addition, or elaboration, none of which fit this move of acknowledging similarity while emphasizing distinctiveness. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structural clue", "content": "The word “but” in the sentence after the blank reveals the core relationship: it separates acknowledgment (other dances share these features) from emphasis (the Madison's uniformity is more extreme). The transition word must introduce this acknowledgment gracefully."}, {"title": "Match the transition type", "content": "”Of course,” signals expected acknowledgment, perfectly introducing the acknowledgment-and-emphasis structure that follows.<br/><br/>The other choices misidentify the logical relationship—they would introduce contradiction, addition, or elaboration, none of which fit this move of acknowledging similarity while emphasizing distinctiveness.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

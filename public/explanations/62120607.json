@@ -1,15 +1,1 @@
-{
-  "questionId": "62120607",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures",
-      "content": "Before the blank is an independent clause: <em>\u201cthe portraits reveal themselves to be quilts\u201d</em>. After the blank is a noun phrase with a participial modifier: <em>\u201cthe stitching barely visible among...\u201d</em>. This phrase contains no main verb, so it is not an independent clause."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "A comma separates an independent clause from a following noun phrase that provides additional information. Choices C and D use punctuation designed for independent clauses, while choice A adds \u201cand,\u201d which illogically suggests quilts and stitching are two equal things. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62120607", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "Before the blank is an independent clause: <em>“the portraits reveal themselves to be quilts”</em>. After the blank is a noun phrase with a participial modifier: <em>“the stitching barely visible among...”</em>. This phrase contains no main verb, so it is not an independent clause."}, {"title": "Apply the punctuation rule", "content": "A comma separates an independent clause from a following noun phrase that provides additional information.<br/><br/>Choices C and D use punctuation designed for independent clauses, while choice A adds “and,” which illogically suggests quilts and stitching are two equal things.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

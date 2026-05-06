@@ -1,15 +1,1 @@
-{
-  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the shared characteristic",
-      "content": "The notes explicitly state that both Jane (a Tyrannosaurus) and Fafnir (a Triceratops) lived in the <strong>Late Cretaceous period</strong>. This shared timeframe is the most direct connection between them."
-    },
-    {
-      "title": "Find the choice that emphasizes this connection",
-      "content": "Choice A directly emphasizes that both specimens lived in the Late Cretaceous Period, pairing them together around this shared characteristic. The other choices either focus on just one specimen, contrast their museum locations, or provide general background about fossils without directly connecting the two. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the shared characteristic", "content": "The notes explicitly state that both Jane (a Tyrannosaurus) and Fafnir (a Triceratops) lived in the <strong>Late Cretaceous period</strong>. This shared timeframe is the most direct connection between them."}, {"title": "Find the choice that emphasizes this connection", "content": "Choice A directly emphasizes that both specimens lived in the Late Cretaceous Period, pairing them together around this shared characteristic.<br/><br/>The other choices either focus on just one specimen, contrast their museum locations, or provide general background about fossils without directly connecting the two.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

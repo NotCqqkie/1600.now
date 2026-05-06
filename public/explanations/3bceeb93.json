@@ -1,15 +1,1 @@
-{
-  "questionId": "3bceeb93",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure on both sides of the blank",
-      "content": "The blank appears directly before \"young,\" which is the object of the verb \"nurses.\" On the left side of the blank is the singular noun \"animal\" (referring to the platypus), and the verb \"nurses\" agrees with this singular subject. The pronoun must reflect this singular subject and serve as the possessive form modifying \"young.\""
-    },
-    {
-      "title": "Apply the rule for singular possessive pronouns",
-      "content": "The correct form is \"its,\" as it is the singular possessive pronoun for \"animal.\" This matches the subject and grammatically ties the pronoun to the singular antecedent. The other choices fail this requirement: \"their\" is plural, \"they\u2019re\" and \"it\u2019s\" are contractions that violate the need for a possessive pronoun. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3bceeb93", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure on both sides of the blank", "content": "The blank appears directly before \"young,\" which is the object of the verb \"nurses.\" On the left side of the blank is the singular noun \"animal\" (referring to the platypus), and the verb \"nurses\" agrees with this singular subject.<br/><br/>The pronoun must reflect this singular subject and serve as the possessive form modifying \"young.\""}, {"title": "Apply the rule for singular possessive pronouns", "content": "The correct form is \"its,\" as it is the singular possessive pronoun for \"animal.\" This matches the subject and grammatically ties the pronoun to the singular antecedent.<br/><br/>The other choices fail this requirement: \"their\" is plural, \"they’re\" and \"it’s\" are contractions that violate the need for a possessive pronoun.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

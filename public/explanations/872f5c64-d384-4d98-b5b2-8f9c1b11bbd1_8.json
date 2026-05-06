@@ -1,15 +1,1 @@
-{
-  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The strongest clue lies in the shared focus on the term 'curry' in both texts. Text 1 analyzes its colonial origins and calls for its rejection, while Text 2 addresses its usage despite those origins. The term 'curry' serves as the unifying topic."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice B captures the shared topic of how the term 'curry' is used and perceived across different contexts. The other three either focus narrowly on specific dishes (C) or discuss unrelated issues like methodologies (D) or regional histories (A). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The strongest clue lies in the shared focus on the term 'curry' in both texts. Text 1 analyzes its colonial origins and calls for its rejection, while Text 2 addresses its usage despite those origins. The term 'curry' serves as the unifying topic."}, {"title": "Match the meaning", "content": "Choice B captures the shared topic of how the term 'curry' is used and perceived across different contexts.<br/><br/>The other three either focus narrowly on specific dishes (C) or discuss unrelated issues like methodologies (D) or regional histories (A).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

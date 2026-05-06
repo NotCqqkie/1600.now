@@ -1,15 +1,1 @@
-{
-  "questionId": "9645f55e",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "Text 2's central claim: Bill Monroe created bluegrass by combining Southern folk music with commercial genres (jazz and blues), directly contradicting the purist assumption that bluegrass emerged from pure folk traditions."
-    },
-    {
-      "title": "Match to the answer",
-      "content": "Since Monroe mixed genres at bluegrass's origin, the purists' insistence on folk-based purity is illogical\u2014they <strong>overlook</strong> how their genre actually came into existence. The other choices address enforcement ability, personal hypocrisy, or audience strategy\u2014not the logical flaw rooted in historical fact. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9645f55e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "Text 2's central claim: Bill Monroe created bluegrass by combining Southern folk music with commercial genres (jazz and blues), directly contradicting the purist assumption that bluegrass emerged from pure folk traditions."}, {"title": "Match to the answer", "content": "Since Monroe mixed genres at bluegrass's origin, the purists' insistence on folk-based purity is illogical—they <strong>overlook</strong> how their genre actually came into existence.<br/><br/>The other choices address enforcement ability, personal hypocrisy, or audience strategy—not the logical flaw rooted in historical fact.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

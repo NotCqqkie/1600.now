@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what finding would contradict the LNH",
-      "content": "The LNH predicts an inverse relationship: as exotericity (prevalence of non-native speakers) rises, grammatical complexity should fall. Shcherbakova claims her findings are inconsistent with this\u2014so her data must show the opposite pattern: complexity should increase WITH exotericity."
-    },
-    {
-      "title": "Match this pattern to the choices",
-      "content": "Choice C shows positive correlations between fusion and informativity with exotericity, meaning complexity increases with exotericity. The other three either align with the LNH's prediction instead of contradicting it (B), ignore exotericity (A), or contradict the fact that fusion and informativity measure complexity (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what finding would contradict the LNH", "content": "The LNH predicts an inverse relationship: as exotericity (prevalence of non-native speakers) rises, grammatical complexity should fall. Shcherbakova claims her findings are inconsistent with this—so her data must show the opposite pattern: complexity should increase WITH exotericity."}, {"title": "Match this pattern to the choices", "content": "Choice C shows positive correlations between fusion and informativity with exotericity, meaning complexity increases with exotericity.<br/><br/>The other three either align with the LNH's prediction instead of contradicting it (B), ignore exotericity (A), or contradict the fact that fusion and informativity measure complexity (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

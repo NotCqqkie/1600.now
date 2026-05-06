@@ -1,15 +1,1 @@
-{
-  "questionId": "329255db",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and determine its number",
-      "content": "The subject is <strong>A Sheaf Gleaned in French Fields (1876)</strong> \u2014 the name of one book. The appositive <strong>a volume of English translations of French poems</strong> (set off by commas) restates it, confirming it's singular: one work."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "A verb must agree in number with its subject. <strong>Has enhanced</strong> is the singular present perfect form needed here. The other choices all fail: <strong>are enhancing</strong> and <strong>have enhanced</strong> are plural; <strong>enhance</strong> is bare or plural form. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "329255db", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and determine its number", "content": "The subject is <strong>A Sheaf Gleaned in French Fields (1876)</strong> — the name of one book. The appositive <strong>a volume of English translations of French poems</strong> (set off by commas) restates it, confirming it's singular: one work."}, {"title": "Apply subject-verb agreement", "content": "A verb must agree in number with its subject. <strong>Has enhanced</strong> is the singular present perfect form needed here.<br/><br/>The other choices all fail: <strong>are enhancing</strong> and <strong>have enhanced</strong> are plural; <strong>enhance</strong> is bare or plural form.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The word <strong>Then</strong> shows that the dig proceeds in a set order: first a grid is made, then the site is dug and artifacts are recorded."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "The transition <strong>Finally</strong> correctly signals the last step in that sequence \u2014 removing, cataloging, and analyzing the artifacts. The other three choices either give an example, express contrast, or reverse the order, none of which fit the chronological flow. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The word <strong>Then</strong> shows that the dig proceeds in a set order: first a grid is made, then the site is dug and artifacts are recorded."}, {"title": "Match the meaning to the choices", "content": "The transition <strong>Finally</strong> correctly signals the last step in that sequence — removing, cataloging, and analyzing the artifacts.<br/><br/>The other three choices either give an example, express contrast, or reverse the order, none of which fit the chronological flow.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

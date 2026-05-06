@@ -1,15 +1,1 @@
-{
-  "questionId": "1703403b",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the September pattern in the data",
-      "content": "In September, three cities cluster at roughly the same level: Rinc\u00f3n around 6.5 inches, Ponce around 6 inches, and Isabela around 6.5 inches. San Sebasti\u00e1n stands apart at about 11 inches\u2014clearly higher."
-    },
-    {
-      "title": "Match the pattern to the choices",
-      "content": "Choice C directly reflects this split: Rinc\u00f3n, Ponce, and Isabela all fall below 8 inches, while San Sebasti\u00e1n exceeds 8 inches. The other three choices either assign wrong values (B claims about 5 and 10 inches, which don't match the actual readings), make false comparisons (A says Rinc\u00f3n exceeds San Sebasti\u00e1n, which it doesn't), or contradict the data (D says Ponce and San Sebasti\u00e1n are similar when they differ by roughly 5 inches).<br/><br/>That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1703403b", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the September pattern in the data", "content": "In September, three cities cluster at roughly the same level: Rincón around 6.5 inches, Ponce around 6 inches, and Isabela around 6.5 inches. San Sebastián stands apart at about 11 inches—clearly higher."}, {"title": "Match the pattern to the choices", "content": "Choice C directly reflects this split: Rincón, Ponce, and Isabela all fall below 8 inches, while San Sebastián exceeds 8 inches.<br/><br/>The other three choices either assign wrong values (B claims about 5 and 10 inches, which don't match the actual readings), make false comparisons (A says Rincón exceeds San Sebastián, which it doesn't), or contradict the data (D says Ponce and San Sebastián are similar when they differ by roughly 5 inches).<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

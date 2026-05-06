@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the defining principle",
-      "content": "The opening statement is the decisive clue: <em>\u201cmeaningful sounds are perceived as quieter than noise of the same volume.\u201d</em> The study found that participants treated nature sounds as noise, which means we can apply this principle to predict their perception of the Metallica music at the same volume."
-    },
-    {
-      "title": "Apply the principle to the scenario",
-      "content": "Since the music is meaningful, it would be perceived as quieter than the nature sounds (treated as noise), making the nature sounds seem louder despite their identical volume. The other choices either contradict the principle, confuse actual with perceived volume, or describe participant actions rather than perceptions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the defining principle", "content": "The opening statement is the decisive clue: <em>“meaningful sounds are perceived as quieter than noise of the same volume.”</em> The study found that participants treated nature sounds as noise, which means we can apply this principle to predict their perception of the Metallica music at the same volume."}, {"title": "Apply the principle to the scenario", "content": "Since the music is meaningful, it would be perceived as quieter than the nature sounds (treated as noise), making the nature sounds seem louder despite their identical volume.<br/><br/>The other choices either contradict the principle, confuse actual with perceived volume, or describe participant actions rather than perceptions.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the pairing rule for em-dashes around appositives",
-      "content": "The opening em-dash before <em>\u201cthe point in the sky from which...\u201d</em> introduces an appositive phrase describing the radiant. When an appositive phrase opens with an em-dash, it must close with a matching em-dash. The appositive phrase ends after <em>\u201cemanate,\u201d</em> so the closing em-dash belongs immediately after this word."
-    },
-    {
-      "title": "Apply the pairing rule to the answer choices",
-      "content": "Choice B correctly closes the appositive with an em-dash: <em>\u201cemanate\u2014is 39 degrees,\u201d</em> allowing the main clause to continue with its predicate. The comma after <em>\u201cis 39 degrees\u201d</em> properly precedes the elaborating phrase <em>\u201cmeaning that...\u201d</em> Choices A and D violate the pairing rule by using commas instead of an em-dash after <em>\u201cemanate,\u201d</em> and choice C omits closing punctuation entirely, leaving the paired dashes broken. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the pairing rule for em-dashes around appositives", "content": "The opening em-dash before <em>“the point in the sky from which...”</em> introduces an appositive phrase describing the radiant.<br/><br/>When an appositive phrase opens with an em-dash, it must close with a matching em-dash.<br/><br/>The appositive phrase ends after <em>“emanate,”</em> so the closing em-dash belongs immediately after this word."}, {"title": "Apply the pairing rule to the answer choices", "content": "Choice B correctly closes the appositive with an em-dash: <em>“emanate—is 39 degrees,”</em> allowing the main clause to continue with its predicate.<br/><br/>The comma after <em>“is 39 degrees”</em> properly precedes the elaborating phrase <em>“meaning that...”</em> Choices A and D violate the pairing rule by using commas instead of an em-dash after <em>“emanate,”</em> and choice C omits closing punctuation entirely, leaving the paired dashes broken.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

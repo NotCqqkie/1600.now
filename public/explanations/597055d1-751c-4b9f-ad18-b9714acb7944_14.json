@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the two statements and their relationship",
-      "content": "The sentence contains two related claims: (1) \u201cThe use of OHD requires careful calibration based on a sample's climatic context and composition,\u201d and (2) \u201ctemperature fluctuations, variations in water vapor pressure, and differences in glass chemistry are known to affect the rate of rind growth.\u201d The word \u201cthough\u201d signals that the second statement <em>contrasts</em> with the first\u2014it acknowledges that despite composition being important, other factors also affect the rate."
-    },
-    {
-      "title": "Match the punctuation to the contrast structure",
-      "content": "When \u201cthough\u201d introduces a contrasting clause, it needs a comma before it to mark the boundary. The colon after \u201cthough\u201d formally introduces the clause that follows, establishing \u201cthough:\u201d as a structure that presents the contrasting point. This punctuation correctly separates what OHD requires from what else matters. Option B fails without punctuation, creating an unclear run-on. Option C uses a semicolon, which treats the two statements as more equal in weight than they are. Option D surrounds \u201cthough\u201d with commas, treating it as a parenthetical aside rather than a key structural connector. <strong>That matches choice A \u2014 <strong>A</strong> is correct.</strong>"
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two statements and their relationship", "content": "The sentence contains two related claims: (1) “The use of OHD requires careful calibration based on a sample's climatic context and composition,” and (2) “temperature fluctuations, variations in water vapor pressure, and differences in glass chemistry are known to affect the rate of rind growth.” The word “though” signals that the second statement <em>contrasts</em> with the first—it acknowledges that despite composition being important, other factors also affect the rate."}, {"title": "Match the punctuation to the contrast structure", "content": "When “though” introduces a contrasting clause, it needs a comma before it to mark the boundary.<br/><br/>The colon after “though” formally introduces the clause that follows, establishing “though:” as a structure that presents the contrasting point.<br/><br/>This punctuation correctly separates what OHD requires from what else matters.<br/><br/>Option B fails without punctuation, creating an unclear run-on.<br/><br/>Option C uses a semicolon, which treats the two statements as more equal in weight than they are.<br/><br/>Option D surrounds “though” with commas, treating it as a parenthetical aside rather than a key structural connector. <strong>That matches choice A — <strong>A</strong> is correct.</strong>"}]}

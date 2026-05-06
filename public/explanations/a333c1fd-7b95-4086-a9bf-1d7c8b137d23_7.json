@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the Contrast Signal",
-      "content": "The strongest clue is the word <strong>But</strong> that immediately follows the underlined sentence. This transitional word signals that Arnold is about to present his own position in direct opposition to what The Times just said."
-    },
-    {
-      "title": "Apply the Signal to the Choices",
-      "content": "Choice <strong>D</strong> correctly describes the sentence's function: it presents The Times' opinion, which Arnold then rejects. The other choices misidentify the sentence's function \u2014 A and B attribute positions to it that it doesn't express, while C falsely treats it as supporting Arnold's argument instead of opposing it. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the Contrast Signal", "content": "The strongest clue is the word <strong>But</strong> that immediately follows the underlined sentence. This transitional word signals that Arnold is about to present his own position in direct opposition to what The Times just said."}, {"title": "Apply the Signal to the Choices", "content": "Choice <strong>D</strong> correctly describes the sentence's function: it presents The Times' opinion, which Arnold then rejects.<br/><br/>The other choices misidentify the sentence's function — A and B attribute positions to it that it doesn't express, while C falsely treats it as supporting Arnold's argument instead of opposing it.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

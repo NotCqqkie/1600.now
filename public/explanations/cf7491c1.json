@@ -1,15 +1,1 @@
-{
-  "questionId": "cf7491c1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the distribution that would support the assertion",
-      "content": "The assertion claims four hot Jupiters (mass > 0.25, period < 10 days) and one warm Jupiter (mass > 0.25, period > 10 days). Supporting data must show exactly one planet with orbital period exceeding 10 days and all five planets with mass greater than 0.25."
-    },
-    {
-      "title": "Match the data distribution to the correct choice",
-      "content": "Choice D states that all planets have mass greater than 0.25 Jupiters and all except TOI-1478 b have periods less than 10 days. Examining the table: all masses range from 0.85 to 6.33 Jupiters (meeting the threshold), TOI-1478 b has a period of 10.180 days (the only one exceeding 10), and the other four have periods of 5.003, 5.331, 3.409, and 4.720 days (all below 10). Choices A, B, and C either claim no planet exceeds 10 days, misread the period data, or name the wrong planet. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf7491c1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the distribution that would support the assertion", "content": "The assertion claims four hot Jupiters (mass > 0.25, period < 10 days) and one warm Jupiter (mass > 0.25, period > 10 days). Supporting data must show exactly one planet with orbital period exceeding 10 days and all five planets with mass greater than 0.25."}, {"title": "Match the data distribution to the correct choice", "content": "Choice D states that all planets have mass greater than 0.25 Jupiters and all except TOI-1478 b have periods less than 10 days.<br/><br/>Examining the table: all masses range from 0.85 to 6.33 Jupiters (meeting the threshold), TOI-1478 b has a period of 10.180 days (the only one exceeding 10), and the other four have periods of 5.003, 5.331, 3.409, and 4.720 days (all below 10).<br/><br/>Choices A, B, and C either claim no planet exceeds 10 days, misread the period data, or name the wrong planet.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

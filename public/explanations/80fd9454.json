@@ -1,15 +1,1 @@
-{
-  "questionId": "80fd9454",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "To argue that bufadienolide doesn't fully explain tadpole preference, the student needs to show preference variation among eggs that lack bufadienolide. Since native amphibians don't produce bufadienolide, any difference in how much of their eggs are consumed reveals factors beyond bufadienolide driving preference."
-    },
-    {
-      "title": "Match the correct answer",
-      "content": "Answer A shows tadpoles consumed 10% of striped burrowing frog eggs but only 1% of dainty green tree frog eggs\u2014both native species without bufadienolide, proving preference depends on factors beyond bufadienolide alone. The other choices either compare species with and without bufadienolide, show equal consumption among native species, or note survival without comparing consumption patterns. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "80fd9454", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "To argue that bufadienolide doesn't fully explain tadpole preference, the student needs to show preference variation among eggs that lack bufadienolide.<br/><br/>Since native amphibians don't produce bufadienolide, any difference in how much of their eggs are consumed reveals factors beyond bufadienolide driving preference."}, {"title": "Match the correct answer", "content": "Answer A shows tadpoles consumed 10% of striped burrowing frog eggs but only 1% of dainty green tree frog eggs—both native species without bufadienolide, proving preference depends on factors beyond bufadienolide alone.<br/><br/>The other choices either compare species with and without bufadienolide, show equal consumption among native species, or note survival without comparing consumption patterns.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

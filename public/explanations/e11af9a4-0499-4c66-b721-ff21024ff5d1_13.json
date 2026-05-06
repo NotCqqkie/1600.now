@@ -1,15 +1,1 @@
-{
-  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cost-benefit equation",
-      "content": "The scientist concludes BZMA has \u201cgreatest potential\u201d when \u201cpractical considerations\u201d\u2014meaning cost\u2014are weighed in. This means BZMA must offer the best value: nearly matching the expensive \u03b2-cyclodextrin resin's absorption while far exceeding the other cheap resins."
-    },
-    {
-      "title": "Find evidence of that trade-off",
-      "content": "Choice A confirms this: BZMA's absorption is only modestly lower than \u03b2-cyclodextrin (worth the cost difference) yet clearly higher than other cheap methacrylates (making it the best-value option). The other choices either show BZMA as non-unique among cheap resins (D), nearly equal to the expensive resin (C, which erases the cost advantage), or inconsistently superior across test compounds (B). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the cost-benefit equation", "content": "The scientist concludes BZMA has “greatest potential” when “practical considerations”—meaning cost—are weighed in. This means BZMA must offer the best value: nearly matching the expensive β-cyclodextrin resin's absorption while far exceeding the other cheap resins."}, {"title": "Find evidence of that trade-off", "content": "Choice A confirms this: BZMA's absorption is only modestly lower than β-cyclodextrin (worth the cost difference) yet clearly higher than other cheap methacrylates (making it the best-value option).<br/><br/>The other choices either show BZMA as non-unique among cheap resins (D), nearly equal to the expensive resin (C, which erases the cost advantage), or inconsistently superior across test compounds (B).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

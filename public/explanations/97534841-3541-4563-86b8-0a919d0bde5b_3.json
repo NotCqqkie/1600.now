@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the transformation being described",
-      "content": "The passage contrasts wild squash (hard rind, bitter flesh) with domesticated squash (soft rind, mild flesh). The verb must express how the plant <em>came to have</em> these new traits through selective breeding."
-    },
-    {
-      "title": "Match the verb to the trait acquisition",
-      "content": "<strong>Acquired</strong> directly expresses that the squash came to have these new traits. The other three either misframe the direction of change (surrendered and retrieved both suggest loss or recovery rather than gain) or describe the wrong relationship (inspired motivates action, not trait acquisition). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the transformation being described", "content": "The passage contrasts wild squash (hard rind, bitter flesh) with domesticated squash (soft rind, mild flesh). The verb must express how the plant <em>came to have</em> these new traits through selective breeding."}, {"title": "Match the verb to the trait acquisition", "content": "<strong>Acquired</strong> directly expresses that the squash came to have these new traits.<br/><br/>The other three either misframe the direction of change (surrendered and retrieved both suggest loss or recovery rather than gain) or describe the wrong relationship (inspired motivates action, not trait acquisition).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

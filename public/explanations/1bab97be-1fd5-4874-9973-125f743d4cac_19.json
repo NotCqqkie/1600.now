@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank sits between \u201cwildlife\u201d and the verb \u201cis,\u201d so it must form the subject with \u201cwildlife.\u201d The blank contains a title (\u201cbiologist\u201d) followed by a proper name (\u201cDr. Purnima Devi Barman\u201d), where the name specifies which biologist is being discussed."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "A name that directly identifies the noun needs no punctuation\u2014here, \u201cDr. Purnima Devi Barman\u201d identifies the biologist, so the title and name form a single unit. Commas (A, B) would incorrectly treat the name as parenthetical information, and a colon (C) isn't used for appositives. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank sits between “wildlife” and the verb “is,” so it must form the subject with “wildlife.” The blank contains a title (“biologist”) followed by a proper name (“Dr. Purnima Devi Barman”), where the name specifies which biologist is being discussed."}, {"title": "Apply the restrictive appositive rule", "content": "A name that directly identifies the noun needs no punctuation—here, “Dr.<br/><br/>Purnima Devi Barman” identifies the biologist, so the title and name form a single unit.<br/><br/>Commas (A, B) would incorrectly treat the name as parenthetical information, and a colon (C) isn't used for appositives.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

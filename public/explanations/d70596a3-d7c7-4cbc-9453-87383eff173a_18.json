@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_18",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sentence structure",
-      "content": "The sentence begins with subject <strong>\u201cTrisyllabic words\u201d</strong> and ends with what should be the main verb <strong>\u201cconsist.\u201d</strong> The blank must contain either a finite verb (A, B, C) or a participle (D) to complete the thought."
-    },
-    {
-      "title": "A participle reduces a relative clause without creating multiple main verbs",
-      "content": "<strong>\u201cClassified\u201d</strong> is a past participle that modifies <strong>\u201cTrisyllabic words,\u201d</strong> functioning as a reduced relative clause (<em>\u201cwhich are classified\u201d</em>) and leaving <strong>\u201cconsist\u201d</strong> as the sole main verb. Choices A, B, and C use finite verbs that create a second independent clause or verb phrase fragment without a clear subject, leaving the sentence structure ambiguous. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_18", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structure", "content": "The sentence begins with subject <strong>“Trisyllabic words”</strong> and ends with what should be the main verb <strong>“consist.”</strong> The blank must contain either a finite verb (A, B, C) or a participle (D) to complete the thought."}, {"title": "A participle reduces a relative clause without creating multiple main verbs", "content": "<strong>“Classified”</strong> is a past participle that modifies <strong>“Trisyllabic words,”</strong> functioning as a reduced relative clause (<em>“which are classified”</em>) and leaving <strong>“consist”</strong> as the sole main verb.<br/><br/>Choices A, B, and C use finite verbs that create a second independent clause or verb phrase fragment without a clear subject, leaving the sentence structure ambiguous.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

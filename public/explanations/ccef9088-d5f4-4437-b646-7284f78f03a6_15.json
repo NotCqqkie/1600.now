@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank is the main verb position in the second independent clause: they [blank] valuable items. The first clause establishes past tense: merchants exported..."
-    },
-    {
-      "title": "Apply the finite verb rule",
-      "content": "An independent clause requires a finite verb as its main verb. Choice B, <em>obtained</em>, is simple past tense, which is finite and matches the tense of <em>exported</em>. Choices A, C, and D are non-finite forms\u2014infinitive, participle, and perfect participle\u2014which cannot serve as main verbs. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank is the main verb position in the second independent clause: they [blank] valuable items. The first clause establishes past tense: merchants exported..."}, {"title": "Apply the finite verb rule", "content": "An independent clause requires a finite verb as its main verb.<br/><br/>Choice B, <em>obtained</em>, is simple past tense, which is finite and matches the tense of <em>exported</em>.<br/><br/>Choices A, C, and D are non-finite forms—infinitive, participle, and perfect participle—which cannot serve as main verbs.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

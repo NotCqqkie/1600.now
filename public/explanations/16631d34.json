@@ -1,15 +1,1 @@
-{
-  "questionId": "16631d34",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key disadvantage to explain",
-      "content": "The notes reveal that audio-feature algorithms \u201cmay fail to accurately identify main audio features of a song with varying acoustic traits,\u201d while algorithms based on fixed traits (like genre) are more reliable. This failure is the disadvantage that needs explaining."
-    },
-    {
-      "title": "Match the answer that explains this failure",
-      "content": "B states that audio-feature algorithms may misidentify main features in songs with varying acoustic traits, making them less reliable than fixed-trait algorithms. A merely lists what algorithms use; C contrasts trait types but doesn't call audio features unreliable; D explains why tags work instead of why audio features fail. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "16631d34", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key disadvantage to explain", "content": "The notes reveal that audio-feature algorithms “may fail to accurately identify main audio features of a song with varying acoustic traits,” while algorithms based on fixed traits (like genre) are more reliable. This failure is the disadvantage that needs explaining."}, {"title": "Match the answer that explains this failure", "content": "B states that audio-feature algorithms may misidentify main features in songs with varying acoustic traits, making them less reliable than fixed-trait algorithms.<br/><br/><ul><li>A merely lists what algorithms use</li><li>C contrasts trait types but doesn't call audio features unreliable</li><li>D explains why tags work instead of why audio features fail</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

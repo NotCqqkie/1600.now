@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining feature of the basking shark data",
-      "content": "The basking shark maintains body temperature 1.0\u20131.5 \u00b0C above ambient (showing heat retention), yet its temperature \u201cdeclines as the ambient temperature falls.\u201d Despite generating metabolic heat, its body temperature still varies with ambient conditions."
-    },
-    {
-      "title": "Match this pattern to the answer choices",
-      "content": "Choice B concludes that both the Pacific halibut and basking shark have body temperatures \u201cat least partly determined by the ambient water temperature.\u201d The Pacific halibut, being ectothermic, is obviously ambient-dependent; the basking shark data shows it is too, despite its heat retention. Choices A, C, and D either claim basking shark's temperature is fixed (contradicting the data) or lack textual support.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the defining feature of the basking shark data", "content": "The basking shark maintains body temperature 1.0–1.5 °C above ambient (showing heat retention), yet its temperature “declines as the ambient temperature falls.” Despite generating metabolic heat, its body temperature still varies with ambient conditions."}, {"title": "Match this pattern to the answer choices", "content": "Choice B concludes that both the Pacific halibut and basking shark have body temperatures “at least partly determined by the ambient water temperature.” The Pacific halibut, being ectothermic, is obviously ambient-dependent; the basking shark data shows it is too, despite its heat retention.<br/><br/>Choices A, C, and D either claim basking shark's temperature is fixed (contradicting the data) or lack textual support.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

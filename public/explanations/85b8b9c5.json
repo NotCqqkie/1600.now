@@ -1,15 +1,1 @@
-{
-  "questionId": "85b8b9c5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures on each side of the blank",
-      "content": "The phrase before the blank ends with \u201cin the first half of the twentieth [blank],\u201d which needs a noun to complete the first independent clause. The phrase after the blank\u2014\u201dthese ingenious devices were eventually replaced by electronic calculators\u201d\u2014is a second independent clause."
-    },
-    {
-      "title": "Apply the boundary rule",
-      "content": "Choice C provides \u201ccentury, but,\u201d which joins the two clauses using the rule: a comma followed by a coordinating conjunction joins two independent clauses. The word \u201cbut\u201d also expresses the semantic contrast between the devices' popularity and their replacement. Choices A, B, and D each violate this boundary rule: A has no connector, B has only a comma, and D uses \u201cthat\u201d as an inappropriate relative pronoun. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "85b8b9c5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structures on each side of the blank", "content": "The phrase before the blank ends with “in the first half of the twentieth [blank],” which needs a noun to complete the first independent clause. The phrase after the blank—”these ingenious devices were eventually replaced by electronic calculators”—is a second independent clause."}, {"title": "Apply the boundary rule", "content": "Choice C provides “century, but,” which joins the two clauses using the rule: a comma followed by a coordinating conjunction joins two independent clauses.<br/><br/>The word “but” also expresses the semantic contrast between the devices' popularity and their replacement.<br/><br/>Choices A, B, and <ul><li>D each violate this boundary rule: A has no connector</li><li>B has only a comma</li><li>D uses “that” as an inappropriate relative pronoun</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

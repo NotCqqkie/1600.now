@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive result",
-      "content": "Besterman and Pace hypothesized that macroalgae have a negative effect on MPB. Their key finding was: no significant correlation between benthic chlorophyll and macroalgal mat abundance. No correlation directly contradicts the predicted negative relationship."
-    },
-    {
-      "title": "Match the result to the conclusion",
-      "content": "When a hypothesis predicts a negative effect but data show no correlation, the hypothesis is not supported. This null result matches Hardison and colleagues' finding (also no relationship). The other three either misstate the result as consistent with a negative finding (B), invent unsupported explanations (C), or infer positive effect from no correlation (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the decisive result", "content": "Besterman and Pace hypothesized that macroalgae have a negative effect on MPB. Their key finding was: no significant correlation between benthic chlorophyll and macroalgal mat abundance. No correlation directly contradicts the predicted negative relationship."}, {"title": "Match the result to the conclusion", "content": "When a hypothesis predicts a negative effect but data show no correlation, the hypothesis is not supported.<br/><br/>This null result matches Hardison and colleagues' finding (also no relationship).<br/><br/>The other three either misstate the result as consistent with a negative finding (B), invent unsupported explanations (C), or infer positive effect from no correlation (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

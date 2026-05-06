@@ -1,15 +1,1 @@
-{
-  "questionId": "1ba5ad7a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "Step 1: The decisive clue is the statement that Bakhtin held that <em>fabula</em> and <em>syuzhet</em> are <strong>'insufficient to completely describe a narrative.'</strong> This explicitly frames his argument about the limitations of these two concepts. The example of <em>The Godfather Part II</em> is secondary and serves only to illustrate how the concepts are inadequate."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Step 2: Choice A directly captures Bakhtin\u2019s claim by stating that he argued <em>narratives have important characteristics not fully encompassed by the two concepts</em>, which aligns with the 'insufficient' signal. The other choices either misfocus on the film example (C), overextend Bakhtin\u2019s point into unrelated claims (B and D), or ignore the main argument entirely. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1ba5ad7a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Step 1: The decisive clue is the statement that Bakhtin held that <em>fabula</em> and <em>syuzhet</em> are <strong>'insufficient to completely describe a narrative.'</strong> This explicitly frames his argument about the limitations of these two concepts.<br/><br/>The example of <em>The Godfather Part II</em> is secondary and serves only to illustrate how the concepts are inadequate."}, {"title": "Match the meaning", "content": "Step 2: Choice A directly captures Bakhtin’s claim by stating that he argued <em>narratives have important characteristics not fully encompassed by the two concepts</em>, which aligns with the 'insufficient' signal.<br/><br/>The other choices either misfocus on the film example (C), overextend Bakhtin’s point into unrelated claims (B and D), or ignore the main argument entirely.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

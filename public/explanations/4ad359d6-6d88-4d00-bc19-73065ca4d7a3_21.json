@@ -1,15 +1,1 @@
-{
-  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_21",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structures on each side of the blank",
-      "content": "Left side: independent clause (ending with \u201che authored many of his works\u201d)<br/>Right side: independent clause (beginning with \u201camong these personas was Ricardo Reis...\u201d)"
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "A semicolon joins two related independent clauses. Choice B correctly uses a semicolon between them. The other three violate this rule: A redundantly pairs a colon with the conjunction and, C uses and without proper parallel structure, and D uses only a comma, creating a comma splice. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_21", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structures on each side of the blank", "content": "Left side: independent clause (ending with “he authored many of his works”)<br/>Right side: independent clause (beginning with “among these personas was Ricardo Reis...”)"}, {"title": "Apply the rule for joining independent clauses", "content": "A semicolon joins two related independent clauses. Choice B correctly uses a semicolon between them. The other three violate this rule: <ul><li>A redundantly pairs a colon with the conjunction and</li><li>C uses and without proper parallel structure</li><li>D uses only a comma</li></ul>, creating a comma splice.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

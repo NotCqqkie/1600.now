@@ -1,15 +1,1 @@
-{
-  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_11",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the finding that creates the puzzle",
-      "content": "Desai et al. found that \u201cdemocratic strength, if associated with low inequality, restrains inflationary pressures.\u201d This creates a puzzle: Canada has both traits, so the finding predicts lower inflation, yet Canada's 2.26% inflation exceeds Oman's 0.88%."
-    },
-    {
-      "title": "Apply the finding to the choices",
-      "content": "If Desai et al.'s finding is correct but Canada's data contradicts its prediction, then factors beyond political structure and inequality must explain the difference. <strong>Choice C</strong> concludes that other factors contributed to Canada's higher inflation\u2014directly resolving the contradiction. The other choices either challenge the foundational data, resurrect a contradicted theory, or oversimplify the finding's scope. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Locate the finding that creates the puzzle", "content": "Desai et al. found that “democratic strength, if associated with low inequality, restrains inflationary pressures.” This creates a puzzle: Canada has both traits, so the finding predicts lower inflation, yet Canada's 2.26% inflation exceeds Oman's 0.88%."}, {"title": "Apply the finding to the choices", "content": "If Desai et al.'s finding is correct but Canada's data contradicts its prediction, then factors beyond political structure and inequality must explain the difference. <strong>Choice C</strong> concludes that other factors contributed to Canada's higher inflation—directly resolving the contradiction.<br/><br/>The other choices either challenge the foundational data, resurrect a contradicted theory, or oversimplify the finding's scope.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the parallel signal",
-      "content": "The passage says cacao's structure \u201cis no longer identical\u201d to its wild ancestor, then signals \u201cMaize (corn) also ______.\u201d The word \u201calso\u201d indicates maize undergoes a similar situation. The evidence appears next: selective breeding changed maize from few small kernels to many large kernels."
-    },
-    {
-      "title": "Match the meaning 'differs from'",
-      "content": "The blank needs a word expressing \u201cdiffers from.\u201d <strong>Varies from</strong> directly conveys this physical difference between domesticated maize and its wild ancestor. The other choices do not: maize does not \u201chelp with,\u201d \u201creact to,\u201d or \u201cargue with\u201d its ancestor. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a45480a1-becb-48bd-a285-d5366355b085_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the parallel signal", "content": "The passage says cacao's structure “is no longer identical” to its wild ancestor, then signals “Maize (corn) also ______.” The word “also” indicates maize undergoes a similar situation. The evidence appears next: selective breeding changed maize from few small kernels to many large kernels."}, {"title": "Match the meaning 'differs from'", "content": "The blank needs a word expressing “differs from.” <strong>Varies from</strong> directly conveys this physical difference between domesticated maize and its wild ancestor.<br/><br/>The other choices do not: maize does not “help with,” “react to,” or “argue with” its ancestor.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

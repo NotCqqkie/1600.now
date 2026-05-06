@@ -1,16 +1,1 @@
-{
-  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_9",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the margin of error principle",
-      "content": "The margin of error formula shows that margin of error is inversely proportional to $\\sqrt{n}$ \u2014 larger sample size leads to smaller margin of error.",
-      "formula": "$$ME = z^* \\sqrt{\\frac{p(1-p)}{n}}$$"
-    },
-    {
-      "title": "Calculate the effect of doubling the sample size",
-      "content": "The sample size increases from 142 to 284 (exactly doubles). Since margin of error is inversely proportional to $\\sqrt{n}$, doubling $n$ reduces the margin of error by a factor of $\\frac{1}{\\sqrt{2}} \\approx 0.707$. The new margin of error is approximately $5.15\\% \\times 0.707 \\approx 3.64\\%$, which is lower. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recall the margin of error principle", "content": "The margin of error formula shows that margin of error is inversely proportional to $\\sqrt{n}$ — larger sample size leads to smaller margin of error.", "formula": "$$ME = z^* \\sqrt{\\frac{p(1-p)}{n}}$$"}, {"title": "Calculate the effect of doubling the sample size", "content": "The sample size increases from 142 to 284 (exactly doubles).<br/><br/>Since margin of error is inversely proportional to $\\sqrt{n}$, doubling $n$ reduces the margin of error by a factor of $\\frac{1}{\\sqrt{2}} \\approx 0.707$.<br/><br/>The new margin of error is approximately $5.15\\% \\times 0.707 \\approx 3.64\\%$, which is lower.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

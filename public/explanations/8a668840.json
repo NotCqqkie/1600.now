@@ -1,15 +1,1 @@
-{
-  "questionId": "8a668840",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The question asks for data describing a <strong>similar pattern in sunshine hours from April to September</strong> for Anchorage and Fairbanks. The decisive clue is the phrase '<strong>similar pattern</strong>', which suggests we need a choice showing <em>identical directional trends</em> (increase/decrease) over time in both cities within the specified timeframe."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice B captures the shared trend, showing <strong>increases from April to June</strong> followed by <strong>declines from June to September</strong> in both cities. The other three choices either describe numerical thresholds unrelated to the pattern (C/D) or misalign with the timeframe or directional flow (A). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a668840", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The question asks for data describing a <strong>similar pattern in sunshine hours from April to September</strong> for Anchorage and Fairbanks.<br/><br/>The decisive clue is the phrase '<strong>similar pattern</strong>', which suggests we need a choice showing <em>identical directional trends</em> (increase/decrease) over time in both cities within the specified timeframe."}, {"title": "Match the meaning", "content": "Choice B captures the shared trend, showing <strong>increases from April to June</strong> followed by <strong>declines from June to September</strong> in both cities.<br/><br/>The other three choices either describe numerical thresholds unrelated to the pattern (C/D) or misalign with the timeframe or directional flow (A).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

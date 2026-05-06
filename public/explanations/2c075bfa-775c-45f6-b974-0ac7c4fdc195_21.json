@@ -1,15 +1,1 @@
-{
-  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structural signal",
-      "content": "The sentence requires a relative clause to properly connect two verb phrases: one describing what the documentary is about, another identifying who directed it. The comma before \u201cwas directed\u201d indicates the first verb phrase should be subordinate, not independent."
-    },
-    {
-      "title": "Apply the nonrestrictive relative clause rule",
-      "content": "A nonrestrictive relative clause must be set off by commas on both sides. The correct answer, \u201cdocumentary, which,\u201d creates: \u201cThis short documentary, which is about the environmental issues affecting wild and domestic horses, was directed by Cherokee filmmaker Neta Rhyne.\u201d The other options either omit the comma before \u201cwhich\u201d (B), creating an improperly marked clause, omit the clause entirely (A, resulting in a comma splice), or create a fragment (C). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structural signal", "content": "The sentence requires a relative clause to properly connect two verb phrases: one describing what the documentary is about, another identifying who directed it. The comma before “was directed” indicates the first verb phrase should be subordinate, not independent."}, {"title": "Apply the nonrestrictive relative clause rule", "content": "A nonrestrictive relative clause must be set off by commas on both sides.<br/><br/>The correct answer, “documentary, which,” creates: “This short documentary, which is about the environmental issues affecting wild and domestic horses, was directed by Cherokee filmmaker Neta Rhyne.” The other options either omit the comma before “which” (B), creating an improperly marked clause, omit the clause entirely (A, resulting in a comma splice), or create a fragment (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

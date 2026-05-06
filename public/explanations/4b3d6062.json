@@ -1,15 +1,1 @@
-{
-  "questionId": "4b3d6062",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage contrasts <strong>two conservation strategies</strong>: a traditional focus on individual species (like <em>M. boolii</em>) and a newer ecosystem-based approach that considers interactions between species, climate, and terrain. The decisive phrase is <strong>&quot;if this view is correct&quot;</strong>, signaling that the following consequence is tied to the ecosystem approach being the superior method."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The blank must express what the <strong>single-species approach lacks</strong> relative to the ecosystem-based method. <strong>D</strong> states it fails to consider how other species&rsquo; population changes influence <em>M. boolii</em>, aligning directly with the contrast about interactions in the ecosystem approach. The other choices either misstate the focus (like A, which discusses <em>Mammillaria</em> species distribution rather than species interactions) or misrepresent the argument (like C, which suggests the single-species approach shifts focus away, when it actually focuses *too narrowly*).<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4b3d6062", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage contrasts <strong>two conservation strategies</strong>: a traditional focus on individual species (like <em>M. boolii</em>) and a newer ecosystem-based approach that considers interactions between species, climate, and terrain.<br/><br/>The decisive phrase is <strong>&quot;if this view is correct&quot;</strong>, signaling that the following consequence is tied to the ecosystem approach being the superior method."}, {"title": "Match the meaning", "content": "The blank must express what the <strong>single-species approach lacks</strong> relative to the ecosystem-based method. <strong>D</strong> states it fails to consider how other species&rsquo; population changes influence <em>M. boolii</em>, aligning directly with the contrast about interactions in the ecosystem approach.<br/><br/>The other choices either misstate the focus (like A, which discusses <em>Mammillaria</em> species distribution rather than species interactions) or misrepresent the argument (like C, which suggests the single-species approach shifts focus away, when it actually focuses *too narrowly*).<br/>That matches choice D — <strong>D</strong> is correct."}]}

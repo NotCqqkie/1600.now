@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_19",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure",
-      "content": "Left of the blank: <em>“The book wasn't written solely by Kittredge”</em> is an independent clause (subject + verb). Right of the blank: <em>“other authors, such as Linda Hogan and Barry Lopez, also contributed essays”</em> is also an independent clause (subject “other authors,” verb “contributed”). The word <em>“however”</em> must connect these two independent clauses and show contrast between them."
-    },
-    {
-      "title": "Apply the conjunctive adverb rule",
-      "content": "When a conjunctive adverb (however, therefore, moreover, thus) joins two independent clauses, the standard SAT pattern is: semicolon before the adverb, then comma after it. Choice A places the semicolon before <em>“however”</em> and a comma after it, creating the correct pattern: IC; however, IC. Choice B reverses this (comma before, semicolon after), which violates the rule. Choice C creates a new sentence with a period (acceptable but not the SAT's preferred format when both versions are options). Choice D uses only a comma, creating a comma splice. <br/><br/>That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the clause structure", "content": "Left of the blank: <em>“The book wasn't written solely by Kittredge”</em> is an independent clause (subject + verb).<br/><br/>Right of the blank: <em>“other authors, such as Linda Hogan and Barry Lopez, also contributed essays”</em> is also an independent clause (subject “other authors,” verb “contributed”).<br/><br/>The word <em>“however”</em> must connect these two independent clauses and show contrast between them."}, {"title": "Apply the conjunctive adverb rule", "content": "When a conjunctive adverb (however, therefore, moreover, thus) joins two independent clauses, the standard SAT pattern is: semicolon before the adverb, then comma after it.<br/><br/>Choice A places the semicolon before <em>“however”</em> and a comma after it, creating the correct pattern: IC; however, IC.<br/><br/>Choice B reverses this (comma before, semicolon after), which violates the rule.<br/><br/>Choice C creates a new sentence with a period (acceptable but not the SAT's preferred format when both versions are options).<br/><br/>Choice D uses only a comma, creating a comma splice. <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_9",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the line's direction and key points",
-      "content": "The line slopes <strong>downward</strong> from left to right, indicating a <strong>negative slope</strong>. This eliminates choices A (12.14) and B (0.73), which are both positive. <br/><br/> Read two clear points the line passes through: approximately <strong>(0, 12)</strong> on the y-axis and <strong>(8, 6)</strong> at the right edge of the graph."
-    },
-    {
-      "title": "Calculate slope using rise over run",
-      "content": "Apply the slope formula: $$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{6 - 12}{8 - 0} = \\frac{-6}{8} = -0.75$$<br/><br/>The computed slope of $-0.75$ is closest to the choice $-0.73$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_9", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the line's direction and key points", "content": "The line slopes <strong>downward</strong> from left to right, indicating a <strong>negative slope</strong>.<br/><br/>This eliminates choices A (12.14) and B (0.73), which are both positive. <br/><br/> Read two clear points the line passes through: approximately <strong>(0, 12)</strong> on the y-axis and <strong>(8, 6)</strong> at the right edge of the graph."}, {"title": "Calculate slope using rise over run", "content": "Apply the slope formula: $$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{6 - 12}{8 - 0} = \\frac{-6}{8} = -0.75$$<br/><br/>The computed slope of $-0.75$ is closest to the choice $-0.73$. That matches choice C — <strong>C</strong> is correct."}]}

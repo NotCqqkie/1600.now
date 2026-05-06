@@ -1,15 +1,1 @@
-{
-  "questionId": "0dba14e6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify where costs decreased most",
-      "content": "The passage states that decreased costs were \u201cmost significant in the manufacturing and distribution process,\u201d which happens after authoring, editing, and design. This distinction directly signals that the earlier stages experienced less significant cost reductions."
-    },
-    {
-      "title": "Find what logically follows",
-      "content": "Choice D directly follows from the comparison: if manufacturing and distribution experienced the most significant cost reductions, then the earlier stages must have been less affected. Choices A, B, and C introduce topics the passage never addresses. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0dba14e6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify where costs decreased most", "content": "The passage states that decreased costs were “most significant in the manufacturing and distribution process,” which happens after authoring, editing, and design. This distinction directly signals that the earlier stages experienced less significant cost reductions."}, {"title": "Find what logically follows", "content": "Choice D directly follows from the comparison: if manufacturing and distribution experienced the most significant cost reductions, then the earlier stages must have been less affected.<br/><br/>Choices A, B, and C introduce topics the passage never addresses.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

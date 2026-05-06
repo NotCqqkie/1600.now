@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast signal",
-      "content": "The strongest clue is the word <strong>\u201cBut\u201d</strong> that opens the sentence immediately following the underlined passage. This single word signals a direct contradiction with what precedes it."
-    },
-    {
-      "title": "Determine the sentence's function",
-      "content": "The author uses The Times's opinion to set up his rebuttal. Where The Times advocates for freedom to look and behave however one likes, the author explains that culture works to guide people toward refined taste. The other choices either invent details not in the passage (B and C) or reverse the relationship (D calls it support when it's opposition). This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast signal", "content": "The strongest clue is the word <strong>“But”</strong> that opens the sentence immediately following the underlined passage. This single word signals a direct contradiction with what precedes it."}, {"title": "Determine the sentence's function", "content": "The author uses The Times's opinion to set up his rebuttal. Where The Times advocates for freedom to look and behave however one likes, the author explains that culture works to guide people toward refined taste.<br/><br/>The other choices either invent details not in the passage (B and C) or reverse the relationship (D calls it support when it's opposition).<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}

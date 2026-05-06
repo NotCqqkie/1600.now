@@ -1,15 +1,1 @@
-{
-  "questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage sets up a contrast with \u201cBut some studies of other crops have found the <strong>opposite effect.</strong>\u201c Jug found tilling <strong>increased</strong> wheat yield\u2014so the opposite effect means no-tilling was better (or tilling was worse) for <strong>a different crop</strong>."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A shows no-tilling had a positive effect on rice yield, which opposes Jug's pro-tilling result and involves a different crop. Choices B and D show the same pro-tilling association Jug found (B with soybeans, D with wheat), while C provides raw yield numbers without any opposite effect. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage sets up a contrast with “But some studies of other crops have found the <strong>opposite effect.</strong>“ Jug found tilling <strong>increased</strong> wheat yield—so the opposite effect means no-tilling was better (or tilling was worse) for <strong>a different crop</strong>."}, {"title": "Match the meaning", "content": "Choice A shows no-tilling had a positive effect on rice yield, which opposes Jug's pro-tilling result and involves a different crop.<br/><br/>Choices B and D show the same pro-tilling association Jug found (B with soybeans, D with wheat), while C provides raw yield numbers without any opposite effect.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}

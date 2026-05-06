@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the series structure",
-      "content": "Three towns form a series in the sentence: the first (represented by the blank), Ayem, and Jamame. These are coordinate noun items."
-    },
-    {
-      "title": "Apply the comma-in-series rule",
-      "content": "In a series of three or more coordinate items, a comma separates each item except the last: \u201cItem1, Item2, and Item3\u201d. The choice Maseno, correctly applies this rule for the first item in the series. Choices A, B, and C either omit the comma, apply a colon (which introduces lists only after independent clauses), or use a semicolon (which separates independent clauses or complex list items). That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the series structure", "content": "Three towns form a series in the sentence: the first (represented by the blank), Ayem, and Jamame. These are coordinate noun items."}, {"title": "Apply the comma-in-series rule", "content": "In a series of three or more coordinate items, a comma separates each item except the last: “Item1, Item2, and Item3”.<br/><br/>The choice Maseno, correctly applies this rule for the first item in the series.<br/><br/>Choices A, B, and C either omit the comma, apply a colon (which introduces lists only after independent clauses), or use a semicolon (which separates independent clauses or complex list items).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}

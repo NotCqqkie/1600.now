@@ -1,15 +1,1 @@
-{
-  "questionId": "b0115ef6",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the embedded question",
-      "content": "The blank follows \u201cinvestigate how,\u201d creating a question within the larger sentence about what the team investigated, not a direct question being asked."
-    },
-    {
-      "title": "Apply the embedded-question rule",
-      "content": "Embedded questions use normal word order (not question inversion) and end with a period as part of the main sentence, not a question mark. Choice B satisfies both requirements with normal word order and period punctuation. The other three either invert the word order, use an incorrect question mark, or both.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b0115ef6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the embedded question", "content": "The blank follows “investigate how,” creating a question within the larger sentence about what the team investigated, not a direct question being asked."}, {"title": "Apply the embedded-question rule", "content": "Embedded questions use normal word order (not question inversion) and end with a period as part of the main sentence, not a question mark.<br/><br/>Choice B satisfies both requirements with normal word order and period punctuation.<br/><br/>The other three either invert the word order, use an incorrect question mark, or both.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

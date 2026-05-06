@@ -1,15 +1,1 @@
-{
-  "questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The underlined sentence begins with <strong>\u201cBut,\u201d</strong> signaling a direct contrast to the first sentence's presentation of Nixon as primarily defined by the Watergate scandal."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The underlined sentence presents evidence of Nixon's complex legacy and achievements to challenge the incomplete perception established in the opening. The other choices misidentify the function: A compares two figures (only discussed here is Nixon), C focuses on associates (unaddressed in the underlined sentence), and D explains why accomplishments are overlooked (whereas this sentence highlights them).<br/><br/>That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2cde5163-29ab-4fac-b1b1-06ee2a11740a_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The underlined sentence begins with <strong>“But,”</strong> signaling a direct contrast to the first sentence's presentation of Nixon as primarily defined by the Watergate scandal."}, {"title": "Match the meaning", "content": "The underlined sentence presents evidence of Nixon's complex legacy and achievements to challenge the incomplete perception established in the opening.<br/><br/>The other choices misidentify the function: <ul><li>A compares two figures (only discussed here is Nixon)</li><li>C focuses on associates (unaddressed in the underlined sentence)</li><li>D explains why accomplishments are overlooked (whereas this sentence highlights them)</li></ul>.<br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
