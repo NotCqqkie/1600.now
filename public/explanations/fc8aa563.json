@@ -1,16 +1,1 @@
-{
-  "questionId": "fc8aa563",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the standard form of a circle",
-      "content": "A circle with center $(h, k)$ and radius $r$ has the equation $(x-h)^2 + (y-k)^2 = r^2$. We can read the center directly from this form without any algebra.",
-      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
-    },
-    {
-      "title": "Extract the center from the given equation",
-      "content": "The given equation is $(x-1)^2 + (y+7)^2 = 1$. Comparing to the standard form:<br/><ul><li>$(x-1)^2$ corresponds to $(x-h)^2$, so $h = 1$</li><li>$(y+7)^2 = (y-(-7))^2$ corresponds to $(y-k)^2$, so $k = -7$</li></ul>Therefore, the center is $(1, -7)$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fc8aa563", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Recognize the standard form of a circle", "content": "A circle with center $(h, k)$ and radius $r$ has the equation $(x-h)^2 + (y-k)^2 = r^2$. We can read the center directly from this form without any algebra.", "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"}, {"title": "Extract the center from the given equation", "content": "The given equation is $(x-1)^2 + (y+7)^2 = 1$. Comparing to the standard form:<ul><li>$(x-1)^2$ corresponds to $(x-h)^2$, so $h = 1$</li><li>$(y+7)^2 = (y-(-7))^2$ corresponds to $(y-k)^2$, so $k = -7$</li></ul>Therefore, the center is $(1, -7)$. That matches choice C — <strong>C</strong> is correct."}]}

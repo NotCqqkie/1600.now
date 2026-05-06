@@ -1,15 +1,1 @@
-{
-  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express x in terms of y from the first inequality",
-      "content": "From the linear inequality $x + 2y < 2$, isolate $x$:<br/>$$x < 2 - 2y$$"
-    },
-    {
-      "title": "Apply the y-constraint to find the bound on x",
-      "content": "The second constraint states $y > 3$. Since $y$ must exceed 3, we can determine what happens to the upper limit of $x$:<br/><ul><li>If $y > 3$, then $2y > 6$</li><li>Therefore $-2y < -6$</li><li>So $2 - 2y < 2 - 6 = -4$</li></ul><br/>Since $x < 2 - 2y$ and $2 - 2y < -4$, we conclude that $x < -4$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Express x in terms of y from the first inequality", "content": "From the linear inequality $x + 2y < 2$, isolate $x$:<br/>$$x < 2 - 2y$$"}, {"title": "Apply the y-constraint to find the bound on x", "content": "The second constraint states $y > 3$. Since $y$ must exceed 3, we can determine what happens to the upper limit of $x$:<ul><li>If $y > 3$, then $2y > 6$</li><li>Therefore $-2y < -6$</li><li>So $2 - 2y < 2 - 6 = -4$</li></ul>Since $x < 2 - 2y$ and $2 - 2y < -4$, we conclude that $x < -4$. That matches choice D — <strong>D</strong> is correct."}]}

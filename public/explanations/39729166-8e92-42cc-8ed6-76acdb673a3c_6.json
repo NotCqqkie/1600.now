@@ -1,16 +1,1 @@
-{
-  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_6",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the zeros by setting each factor to zero",
-      "content": "$g(x) = (36 - 2x)(10 + 2x)$ equals zero when each factor equals zero:<br/><ul><li>$36 - 2x = 0 \\Rightarrow x = 18$</li><li>$10 + 2x = 0 \\Rightarrow x = -5$</li></ul>"
-    },
-    {
-      "title": "Find the vertex using the midpoint of the zeros",
-      "content": "For a quadratic function, the vertex (where the maximum occurs) is located at the x-coordinate equidistant from the two zeros. Apply the midpoint formula:<br/>$$x = \\frac{18 + (-5)}{2} = \\frac{13}{2} = 6.5$$<br/>This matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$x = \\frac{x_1 + x_2}{2}$$"
-    }
-  ]
-}
+{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_6", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the zeros by setting each factor to zero", "content": "$g(x) = (36 - 2x)(10 + 2x)$ equals zero when each factor equals zero:<ul><li>$36 - 2x = 0 \\Rightarrow x = 18$</li><li>$10 + 2x = 0 \\Rightarrow x = -5$</li></ul>"}, {"title": "Find the vertex using the midpoint of the zeros", "content": "For a quadratic function, the vertex (where the maximum occurs) is located at the x-coordinate equidistant from the two zeros. Apply the midpoint formula:<br/>$$x = \\frac{18 + (-5)}{2} = \\frac{13}{2} = 6.5$$<br/>This matches choice A — <strong>A</strong> is correct.", "formula": "$$x = \\frac{x_1 + x_2}{2}$$"}]}

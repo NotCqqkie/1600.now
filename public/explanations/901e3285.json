@@ -1,11 +1,1 @@
-{
-  "questionId": "901e3285",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Test all isosceles configurations with angle A = 50\u00b0",
-      "content": "In an isosceles triangle, two angles must be equal. Since A = 50\u00b0, there are three possible configurations:<br/><ul><li>A = B = 50\u00b0, so C = 80\u00b0</li><li>A = C = 50\u00b0, so B = 80\u00b0</li><li>B = C, so 2B + 50\u00b0 = 180\u00b0, giving B = 65\u00b0</li></ul>The possible values for angle B are: 50\u00b0 (choice A), 80\u00b0 (choice C), and 65\u00b0 (choice B). Choice D is 100\u00b0, which cannot occur when triangle ABC is isosceles with A = 50\u00b0. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "901e3285", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Test all isosceles configurations with angle A = 50°", "content": "In an isosceles triangle, two angles must be equal. Since A = 50°, there are three possible configurations:<ul><li>A = B = 50°, so C = 80°</li><li>A = C = 50°, so B = 80°</li><li>B = C, so 2B + 50° = 180°, giving B = 65°</li></ul>The possible values for angle B are: 50° (choice A), 80° (choice C), and 65° (choice B). Choice D is 100°, which cannot occur when triangle ABC is isosceles with A = 50°. That matches choice D — <strong>D</strong> is correct."}]}

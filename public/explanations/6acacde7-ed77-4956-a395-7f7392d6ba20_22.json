@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_22",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the common denominator and combine fractions on the right side",
-      "content": "The equation is $\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$. To add the fractions on the right, the common denominator is $13pqs$.<br/><br/>Convert each fraction:<ul><li>$\\frac{1}{p} = \\frac{13qs}{13pqs}$</li><li>$\\frac{1}{q} = \\frac{13ps}{13pqs}$</li><li>$\\frac{1}{s} = \\frac{13pq}{13pqs}$</li><li>$\\frac{1}{13} = \\frac{pqs}{13pqs}$</li></ul><br/>Adding these fractions: $$\\frac{1}{R} = \\frac{13qs + 13ps + 13pq + pqs}{13pqs}$$"
-    },
-    {
-      "title": "Take the reciprocal of both sides to solve for R",
-      "content": "Since $\\frac{1}{R}$ equals a single fraction, taking the reciprocal of both sides isolates $R$: $$R = \\frac{13pqs}{13qs + 13ps + 13pq + pqs}$$ That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_22", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the common denominator and combine fractions on the right side", "content": "The equation is $\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$. To add the fractions on the right, the common denominator is $13pqs$.<br/><br/>Convert each fraction:<ul><li>$\\frac{1}{p} = \\frac{13qs}{13pqs}$</li><li>$\\frac{1}{q} = \\frac{13ps}{13pqs}$</li><li>$\\frac{1}{s} = \\frac{13pq}{13pqs}$</li><li>$\\frac{1}{13} = \\frac{pqs}{13pqs}$</li></ul>Adding these fractions: $$\\frac{1}{R} = \\frac{13qs + 13ps + 13pq + pqs}{13pqs}$$"}, {"title": "Take the reciprocal of both sides to solve for R", "content": "Since $\\frac{1}{R}$ equals a single fraction, taking the reciprocal of both sides isolates $R$: $$R = \\frac{13pqs}{13qs + 13ps + 13pq + pqs}$$ That matches choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "52b1700c",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the coefficient from t = 0",
-      "content": "In exponential form $n = a(b)^t$, when $t = 0$ we have $n = a(b)^0 = a$. The table shows $n(0) = 604$, so the coefficient is 604.<br/><ul><li>Choices A and B: no explicit coefficient means $a = 1$ \u2192 $n(0) = 1$ \u2717</li><li>Choice D: $a = 0.004$ \u2717</li><li>Choice C: $a = 604$ \u2713</li></ul>"
-    },
-    {
-      "title": "Verify the growth factor with choice C",
-      "content": "From $t = 0$ to $t = 1$, the amount increases from 604 to 606.42. The growth factor per year is:<br/>$$\\frac{606.42}{604} = 1.004 = 1 + 0.004$$<br/>Choice C is $n = 604(1+0.004)^t$, which has exactly this base. Verify at $t = 2$:<br/>$$604(1.004)^2 = 608.84$$<br/>This matches the table. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "52b1700c", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the coefficient from t = 0", "content": "In exponential form $n = a(b)^t$, when $t = 0$ we have $n = a(b)^0 = a$. The table shows $n(0) = 604$, so the coefficient is 604.<ul><li>Choices A and B: no explicit coefficient means $a = 1$ → $n(0) = 1$ ✗</li><li>Choice D: $a = 0.004$ ✗</li><li>Choice C: $a = 604$ ✓</li></ul>"}, {"title": "Verify the growth factor with choice C", "content": "From $t = 0$ to $t = 1$, the amount increases from 604 to 606.42. The growth factor per year is:<br/>$$\\frac{606.42}{604} = 1.004 = 1 + 0.004$$<br/>Choice C is $n = 604(1+0.004)^t$, which has exactly this base. Verify at $t = 2$:<br/>$$604(1.004)^2 = 608.84$$<br/>This matches the table. That matches choice C — <strong>C</strong> is correct."}]}

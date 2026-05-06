@@ -1,15 +1,1 @@
-{
-  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_5",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the greatest common factor",
-      "content": "In $11x^{10}-11x^{9}+77x$, all coefficients (11, 11, and 77) share the factor 11. All terms contain at least one factor of $x$. The GCF is $11x$."
-    },
-    {
-      "title": "Factor out 11x",
-      "content": "When we factor out $11x$ from each term:<br/><ul><li>$11x^{10} = 11x \\cdot x^{9}$</li><li>$11x^{9} = 11x \\cdot x^{8}$</li><li>$77x = 11x \\cdot 7$</li></ul>Therefore: $11x^{10}-11x^{9}+77x = 11x(x^{9}-x^{8}+7)$. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_5", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the greatest common factor", "content": "In $11x^{10}-11x^{9}+77x$, all coefficients (11, 11, and 77) share the factor 11. All terms contain at least one factor of $x$. The GCF is $11x$."}, {"title": "Factor out 11x", "content": "When we factor out $11x$ from each term:<ul><li>$11x^{10} = 11x \\cdot x^{9}$</li><li>$11x^{9} = 11x \\cdot x^{8}$</li><li>$77x = 11x \\cdot 7$</li></ul>Therefore: $11x^{10}-11x^{9}+77x = 11x(x^{9}-x^{8}+7)$. This matches choice D — <strong>D</strong> is correct."}]}

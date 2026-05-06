@@ -1,15 +1,1 @@
-{
-  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_13",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand what the function represents",
-      "content": "The function $s(t) = 184(0.5)^{\\frac{t}{29}}$ outputs the mass (in grams) that <strong>remains</strong> after $t$ years of decay. This is critical: $s(t)$ represents the <em>remaining</em> mass, not the amount that has decayed."
-    },
-    {
-      "title": "Interpret s(58) = 46 and select the matching choice",
-      "content": "When $s(58) = 46$, this means that at $t = 58$ years, the remaining mass is 46 grams.<br/><br/>Check each option:<br/><ul><li><strong>Choice A:</strong> <em>46 grams of the sample remains 58 years after decay starts</em> \u2014 this is exactly what $s(58) = 46$ tells us.</li><li><strong>Choice B:</strong> <em>The mass decreased by 46 grams</em> \u2014 but $s(58)$ tells us what <em>remains</em>, not what decayed (that would be 184 \u2212 46 = 138 grams).</li><li><strong>Choices C and D:</strong> Swap the time and amount values.</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Understand what the function represents", "content": "The function $s(t) = 184(0.5)^{\\frac{t}{29}}$ outputs the mass (in grams) that <strong>remains</strong> after $t$ years of decay. This is critical: $s(t)$ represents the <em>remaining</em> mass, not the amount that has decayed."}, {"title": "Interpret s(58) = 46 and select the matching choice", "content": "When $s(58) = 46$, this means that at $t = 58$ years, the remaining mass is 46 grams.<br/><br/>Check each option:<ul><li><strong>Choice A:</strong> <em>46 grams of the sample remains 58 years after decay starts</em> — this is exactly what $s(58) = 46$ tells us.</li><li><strong>Choice B:</strong> <em>The mass decreased by 46 grams</em> — but $s(58)$ tells us what <em>remains</em>, not what decayed (that would be 184 − 46 = 138 grams).</li><li><strong>Choices C and D:</strong> Swap the time and amount values.</li></ul>That matches choice A — <strong>A</strong> is correct."}]}

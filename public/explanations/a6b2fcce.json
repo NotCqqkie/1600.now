@@ -1,15 +1,1 @@
-{
-  "questionId": "a6b2fcce",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the graph values for years in the answer choices",
-      "content": "From the line graph, extract the y-values (number of 3-D movies): 2003 \u2248 1, 2004 \u2248 3, 2008 \u2248 9, 2009 \u2248 20, 2010 \u2248 27, 2011 \u2248 46."
-    },
-    {
-      "title": "Calculate year-to-year changes and identify the greatest",
-      "content": "For each consecutive year pair in the answer choices, find the difference: <br/><ul><li>2003\u20132004: $3 - 1 = 2$</li><li>2008\u20132009: $20 - 9 = 11$</li><li>2009\u20132010: $27 - 20 = 7$</li><li>2010\u20132011: $46 - 27 = 19$</li></ul> The greatest change is 19 movies. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a6b2fcce", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Read the graph values for years in the answer choices", "content": "From the line graph, extract the y-values (number of 3-D movies): 2003 ≈ 1, 2004 ≈ 3, 2008 ≈ 9, 2009 ≈ 20, 2010 ≈ 27, 2011 ≈ 46."}, {"title": "Calculate year-to-year changes and identify the greatest", "content": "For each consecutive year pair in the answer choices, find the difference: <ul><li>2003–2004: $3 - 1 = 2$</li><li>2008–2009: $20 - 9 = 11$</li><li>2009–2010: $27 - 20 = 7$</li><li>2010–2011: $46 - 27 = 19$</li></ul> The greatest change is 19 movies. That matches choice D — <strong>D</strong> is correct."}]}

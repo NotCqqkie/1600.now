@@ -1,15 +1,1 @@
-{
-  "questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_14",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the criterion for tall",
-      "content": "A perennial flower is classified as tall if its height exceeds 100 centimeters. To represent a tall species, an inequality must include at least some possible heights where $h > 100$."
-    },
-    {
-      "title": "Find the range that includes heights greater than 100",
-      "content": "Check the maximum value in each inequality:<br/><ul><li><strong>Choice A:</strong> $86 < h < 86$ \u2014 impossible</li><li><strong>Choice B:</strong> $86 < h < 89$ \u2014 all values are less than 100</li><li><strong>Choice C:</strong> $86 < h < 100$ \u2014 all values satisfy $h < 100$</li><li><strong>Choice D:</strong> $86 < h < 154$ \u2014 includes values greater than 100 (from 100 to 154)</li></ul>Only choice D's range permits tall plants. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "305aaf32-2803-4909-83d0-d08ba71a35a7_14", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the criterion for tall", "content": "A perennial flower is classified as tall if its height exceeds 100 centimeters. To represent a tall species, an inequality must include at least some possible heights where $h > 100$."}, {"title": "Find the range that includes heights greater than 100", "content": "Check the maximum value in each inequality:<ul><li><strong>Choice A:</strong> $86 < h < 86$ — impossible</li><li><strong>Choice B:</strong> $86 < h < 89$ — all values are less than 100</li><li><strong>Choice C:</strong> $86 < h < 100$ — all values satisfy $h < 100$</li><li><strong>Choice D:</strong> $86 < h < 154$ — includes values greater than 100 (from 100 to 154)</li></ul>Only choice D's range permits tall plants. That matches choice D — <strong>D</strong> is correct."}]}

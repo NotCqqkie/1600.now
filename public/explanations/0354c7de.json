@@ -1,15 +1,1 @@
-{
-  "questionId": "0354c7de",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the greatest common factor",
-      "content": "In the expression $5x + 15$, both terms contain the factor 5:<br/><ul><li>$5x = 5 \\cdot x$</li><li>$15 = 5 \\cdot 3$</li></ul>The greatest common factor is 5."
-    },
-    {
-      "title": "Factor out the GCF and match to the choice",
-      "content": "Factor out 5 from both terms: $$5x + 15 = 5(x + 3)$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0354c7de", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the greatest common factor", "content": "In the expression $5x + 15$, both terms contain the factor 5:<ul><li>$5x = 5 \\cdot x$</li><li>$15 = 5 \\cdot 3$</li></ul>The greatest common factor is 5."}, {"title": "Factor out the GCF and match to the choice", "content": "Factor out 5 from both terms: $$5x + 15 = 5(x + 3)$$ That matches choice A — <strong>A</strong> is correct."}]}

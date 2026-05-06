@@ -1,15 +1,1 @@
-{
-  "questionId": "b3c7ca1d",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify when a system has no solution",
-      "content": "A system of linear equations has no solution when the two lines are parallel. This happens when both equations represent lines with the same slope but different y-intercepts."
-    },
-    {
-      "title": "Check each choice for parallel lines",
-      "content": "Examine the slope and y-intercept of each choice:<br/><ul><li><strong>A:</strong> $x = 3$ (vertical) and $y = 5$ (horizontal) intersect at (3, 5), so this system has a solution.</li><li><strong>B:</strong> $y = 6x + 6$ has slope 6, while $y = 5x + 6$ has slope 5. Different slopes mean they intersect at one point.</li><li><strong>C:</strong> $y = 16x + 3$ has slope 16 and y-intercept 3; $y = 16x + 19$ has slope 16 and y-intercept 19. Both lines have the same slope but different y-intercepts, making them parallel with no intersection points.</li><li><strong>D:</strong> $y = 5$ is horizontal (slope 0), while $y = 5x + 5$ has slope 5. Different slopes mean they intersect.</li></ul>Only choice C represents parallel lines. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b3c7ca1d", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify when a system has no solution", "content": "A system of linear equations has no solution when the two lines are parallel. This happens when both equations represent lines with the same slope but different y-intercepts."}, {"title": "Check each choice for parallel lines", "content": "Examine the slope and y-intercept of each choice:<ul><li><strong>A:</strong> $x = 3$ (vertical) and $y = 5$ (horizontal) intersect at (3, 5), so this system has a solution.</li><li><strong>B:</strong> $y = 6x + 6$ has slope 6, while $y = 5x + 6$ has slope 5. Different slopes mean they intersect at one point.</li><li><strong>C:</strong> $y = 16x + 3$ has slope 16 and y-intercept 3; $y = 16x + 19$ has slope 16 and y-intercept 19. Both lines have the same slope but different y-intercepts, making them parallel with no intersection points.</li><li><strong>D:</strong> $y = 5$ is horizontal (slope 0), while $y = 5x + 5$ has slope 5. Different slopes mean they intersect.</li></ul>Only choice C represents parallel lines. That matches choice C — <strong>C</strong> is correct."}]}

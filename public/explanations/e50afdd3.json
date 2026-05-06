@@ -1,15 +1,1 @@
-{
-  "questionId": "e50afdd3",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract the circle's center and radius",
-      "content": "The equation $(x+4)^2 + (y-19)^2 = 121$ is in standard form.<br/>Center: $(-4, 19)$<br/>Radius: $\\sqrt{121} = 11$"
-    },
-    {
-      "title": "Determine which x-coordinate is on the circle",
-      "content": "For a point $(a, b)$ on the circle, $(a+4)^2 + (b-19)^2 = 121$.<br/>Rearranging: $(b-19)^2 = 121 - (a+4)^2$.<br/>For $b$ to be real, we need $(a+4)^2 \\leq 121$.<br/><br/>Backsolving \u2014 testing choice B ($a = -14$):<br/>$(a+4)^2 = (-14+4)^2 = (-10)^2 = 100 \\leq 121$ \u2713<br/><br/>Testing the others:<br/><ul><li>A) $(-16+4)^2 = (-12)^2 = 144 > 121$ \u2014 Fails</li><li>C) $(11+4)^2 = 15^2 = 225 > 121$ \u2014 Fails</li><li>D) $(19+4)^2 = 23^2 = 529 > 121$ \u2014 Fails</li></ul><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e50afdd3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract the circle's center and radius", "content": "The equation $(x+4)^2 + (y-19)^2 = 121$ is in standard form.<br/>Center: $(-4, 19)$<br/>Radius: $\\sqrt{121} = 11$"}, {"title": "Determine which x-coordinate is on the circle", "content": "For a point $(a, b)$ on the circle, $(a+4)^2 + (b-19)^2 = 121$.<br/>Rearranging: $(b-19)^2 = 121 - (a+4)^2$.<br/>For $b$ to be real, we need $(a+4)^2 \\leq 121$.<br/><br/>Backsolving — testing choice B ($a = -14$):<br/>$(a+4)^2 = (-14+4)^2 = (-10)^2 = 100 \\leq 121$ ✓<br/><br/>Testing the others:<ul><li>A) $(-16+4)^2 = (-12)^2 = 144 > 121$ — Fails</li><li>C) $(11+4)^2 = 15^2 = 225 > 121$ — Fails</li><li>D) $(19+4)^2 = 23^2 = 529 > 121$ — Fails</li></ul>That matches choice B — <strong>B</strong> is correct."}]}

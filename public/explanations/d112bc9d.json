@@ -1,15 +1,1 @@
-{
-  "questionId": "d112bc9d",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract temperature values from the scatterplot",
-      "content": "Reading the data points directly from the graph:<br/><ul><li>At $x=1$: $y \\approx 69\u00b0\\text{F}$</li><li>At $x=2$: $y \\approx 60\u00b0\\text{F}$</li><li>At $x=3$: $y \\approx 73\u00b0\\text{F}$</li><li>At $x=4$: $y \\approx 68\u00b0\\text{F}$</li><li>At $x=5$: $y \\approx 64\u00b0\\text{F}$</li><li>At $x=6$: $y \\approx 62\u00b0\\text{F}$</li><li>At $x=7$: $y \\approx 65\u00b0\\text{F}$</li></ul>"
-    },
-    {
-      "title": "Calculate the temperature change for each interval",
-      "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<br/><ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9\u00b0\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13\u00b0\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2\u00b0\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3\u00b0\\text{F}$ (increase)</li></ul>The greatest increase is $13\u00b0\\text{F}$ from day 2 to day 3. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d112bc9d", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Extract temperature values from the scatterplot", "content": "Reading the data points directly from the graph:<ul><li>At $x=1$: $y \\approx 69°\\text{F}$</li><li>At $x=2$: $y \\approx 60°\\text{F}$</li><li>At $x=3$: $y \\approx 73°\\text{F}$</li><li>At $x=4$: $y \\approx 68°\\text{F}$</li><li>At $x=5$: $y \\approx 64°\\text{F}$</li><li>At $x=6$: $y \\approx 62°\\text{F}$</li><li>At $x=7$: $y \\approx 65°\\text{F}$</li></ul>"}, {"title": "Calculate the temperature change for each interval", "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9°\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13°\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2°\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3°\\text{F}$ (increase)</li></ul>The greatest increase is $13°\\text{F}$ from day 2 to day 3. That matches choice C — <strong>C</strong> is correct."}]}

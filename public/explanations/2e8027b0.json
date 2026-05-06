@@ -1,15 +1,1 @@
-{
-  "questionId": "2e8027b0",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract the line of best fit from the graph for data set E",
-      "content": "The line crosses the y-axis at $x = 0$, where $y = 12$, so the y-intercept is 12. Reading another point: at $x = 4$, the line passes through approximately $(4, 18)$. The slope is $\\frac{18 - 12}{4 - 0} = \\frac{6}{4} = 1.5$. The equation for data set E is $y = 12 + 1.5x$."
-    },
-    {
-      "title": "Apply the scaling transformation to both components",
-      "content": "When all y-coordinates are multiplied by 3.9, the equation transforms as follows:<br/><ul><li><strong>Y-intercept:</strong> $12 \\times 3.9 = 46.8$</li><li><strong>Slope:</strong> $1.5 \\times 3.9 = 5.85 \\approx 5.9$</li></ul>The line of best fit for data set F is $y = 46.8 + 5.9x$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2e8027b0", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Extract the line of best fit from the graph for data set E", "content": "The line crosses the y-axis at $x = 0$, where $y = 12$, so the y-intercept is 12. Reading another point: at $x = 4$, the line passes through approximately $(4, 18)$. The slope is $\\frac{18 - 12}{4 - 0} = \\frac{6}{4} = 1.5$. The equation for data set E is $y = 12 + 1.5x$."}, {"title": "Apply the scaling transformation to both components", "content": "When all y-coordinates are multiplied by 3.9, the equation transforms as follows:<ul><li><strong>Y-intercept:</strong> $12 \\times 3.9 = 46.8$</li><li><strong>Slope:</strong> $1.5 \\times 3.9 = 5.85 \\approx 5.9$</li></ul>The line of best fit for data set F is $y = 46.8 + 5.9x$. That matches choice A — <strong>A</strong> is correct."}]}

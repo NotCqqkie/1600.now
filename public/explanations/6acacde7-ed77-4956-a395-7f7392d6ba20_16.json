@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_16",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the cost structure",
-      "content": "The charge has two components:<br/><ul><li>First person: 9 dollars</li><li>Each additional person: 6 dollars</li></ul>For a group of $n$ people, there are $(n-1)$ additional people. The total charge is:<br/>$$g(n) = 9 + 6(n-1)$$"
-    },
-    {
-      "title": "Expand and simplify",
-      "content": "Distribute the 6:<br/>$$g(n) = 9 + 6n - 6$$<br/>Combine constant terms:<br/>$$g(n) = 6n + 3$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_16", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the cost structure", "content": "The charge has two components:<ul><li>First person: 9 dollars</li><li>Each additional person: 6 dollars</li></ul>For a group of $n$ people, there are $(n-1)$ additional people. The total charge is:<br/>$$g(n) = 9 + 6(n-1)$$"}, {"title": "Expand and simplify", "content": "Distribute the 6:<br/>$$g(n) = 9 + 6n - 6$$<br/>Combine constant terms:<br/>$$g(n) = 6n + 3$$<br/>That matches choice C — <strong>C</strong> is correct."}]}

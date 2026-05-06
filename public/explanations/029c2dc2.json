@@ -1,15 +1,1 @@
-{
-  "questionId": "029c2dc2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the contributions to the total",
-      "content": "The assignment is worth 70 points total. The points come from:<br/><ul><li>$x$ questions worth 1 point each, totaling $x$ points</li><li>$y$ questions worth 3 points each, totaling $3y$ points</li></ul>"
-    },
-    {
-      "title": "Set up the equation for the total",
-      "content": "Since the total must be 70 points:<br/>$$x + 3y = 70$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "029c2dc2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the contributions to the total", "content": "The assignment is worth 70 points total. The points come from:<ul><li>$x$ questions worth 1 point each, totaling $x$ points</li><li>$y$ questions worth 3 points each, totaling $3y$ points</li></ul>"}, {"title": "Set up the equation for the total", "content": "Since the total must be 70 points:<br/>$$x + 3y = 70$$<br/>That matches choice D — <strong>D</strong> is correct."}]}

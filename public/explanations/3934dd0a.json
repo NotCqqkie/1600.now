@@ -1,15 +1,1 @@
-{
-  "questionId": "3934dd0a",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understanding when a perfect square equals a constant",
-      "content": "All equations have the form $(x+15)^2 = k$. For a perfect square equal to a constant:<br/><ul><li>If $k = 0$: the square equals zero at exactly one point, giving one solution</li><li>If $k > 0$: taking square roots gives $x + 15 = \\pm\\sqrt{k}$, yielding two distinct solutions</li><li>If $k < 0$: no real solution exists, since a real number squared cannot be negative</li></ul>"
-    },
-    {
-      "title": "Evaluating the constant in each choice",
-      "content": "Extract the constant $k$ from the right side of each equation:<br/><ul><li>A) $k = 0$ \u2713 exactly one solution</li><li>B) $k = -45$ \u2192 no real solutions</li><li>C) $k = 45$ \u2192 two solutions</li><li>D) $k = 135$ \u2192 two solutions</li></ul>Only choice A yields exactly one distinct real solution. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3934dd0a", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Understanding when a perfect square equals a constant", "content": "All equations have the form $(x+15)^2 = k$. For a perfect square equal to a constant:<ul><li>If $k = 0$: the square equals zero at exactly one point, giving one solution</li><li>If $k > 0$: taking square roots gives $x + 15 = \\pm\\sqrt{k}$, yielding two distinct solutions</li><li>If $k < 0$: no real solution exists, since a real number squared cannot be negative</li></ul>"}, {"title": "Evaluating the constant in each choice", "content": "Extract the constant $k$ from the right side of each equation:<ul><li>A) $k = 0$ ✓ exactly one solution</li><li>B) $k = -45$ → no real solutions</li><li>C) $k = 45$ → two solutions</li><li>D) $k = 135$ → two solutions</li></ul>Only choice A yields exactly one distinct real solution. That matches choice A — <strong>A</strong> is correct."}]}

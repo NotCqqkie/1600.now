@@ -1,15 +1,1 @@
-{
-  "questionId": "ea6d05bb",
-  "correctAnswer": "-419",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand the expression using FOIL",
-      "content": "Apply FOIL to $(3x-23)(19x+6)$:<br/><ul><li><strong>First:</strong> $3x \\cdot 19x = 57x^2$</li><li><strong>Outer:</strong> $3x \\cdot 6 = 18x$</li><li><strong>Inner:</strong> $-23 \\cdot 19x = -437x$</li><li><strong>Last:</strong> $-23 \\cdot 6 = -138$</li></ul>Combining all terms:<br/>$$57x^2 + 18x - 437x - 138$$"
-    },
-    {
-      "title": "Combine like terms to find b",
-      "content": "The $x$ terms are $18x$ and $-437x$. Their sum is:<br/>$$18x - 437x = -419x$$<br/>Therefore, the expanded form is $57x^2 - 419x - 138$, which means $b = -419$."
-    }
-  ]
-}
+{"questionId": "ea6d05bb", "correctAnswer": "-419", "section": "Math", "steps": [{"title": "Expand the expression using FOIL", "content": "Apply FOIL to $(3x-23)(19x+6)$:<ul><li><strong>First:</strong> $3x \\cdot 19x = 57x^2$</li><li><strong>Outer:</strong> $3x \\cdot 6 = 18x$</li><li><strong>Inner:</strong> $-23 \\cdot 19x = -437x$</li><li><strong>Last:</strong> $-23 \\cdot 6 = -138$</li></ul>Combining all terms:<br/>$$57x^2 + 18x - 437x - 138$$"}, {"title": "Combine like terms to find b", "content": "The $x$ terms are $18x$ and $-437x$. Their sum is:<br/>$$18x - 437x = -419x$$<br/>Therefore, the expanded form is $57x^2 - 419x - 138$, which means $b = -419$."}]}
