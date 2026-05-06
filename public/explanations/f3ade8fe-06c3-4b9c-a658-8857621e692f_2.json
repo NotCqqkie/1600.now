@@ -1,16 +1,1 @@
-{
-  "questionId": "f3ade8fe-06c3-4b9c-a658-8857621e692f_2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand both terms using key algebraic shortcuts",
-      "content": "For $(x^2 + 11)^2$: Apply the perfect square trinomial formula. With $a = x^2$ and $b = 11$:<br/>$$(x^2)^2 + 2(x^2)(11) + 11^2 = x^4 + 22x^2 + 121$$<br/><br/>For $(x - 8)(x + 8)$: Apply difference of squares. With $a = x$ and $b = 8$:<br/>$$x^2 - 64$$",
-      "formula": "$$(a+b)^2 = a^2 + 2ab + b^2$$"
-    },
-    {
-      "title": "Combine both expansions and simplify",
-      "content": "Add and combine like terms:<br/>$$(x^4 + 22x^2 + 121) + (x^2 - 64) = x^4 + 23x^2 + 57$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f3ade8fe-06c3-4b9c-a658-8857621e692f_2","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Expand each piece. $(x^2+11)^2=x^4+22x^2+121$ and $(x-8)(x+8)=x^2-64$. Adding:$$=x^4+22x^2+121+x^2-64$$$$=x^4+23x^2+57$$"},{"title":"Match to the answer choices","content":"The simplified expression is $x^4+23x^2+57$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

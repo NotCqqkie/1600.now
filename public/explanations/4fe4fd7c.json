@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Find the constant m using the given condition",
-      "content": "We know that when <em>x</em> = 100 shirts, the total cost is $800. Substitute into $c(x) = mx + 500$:<br/><br/>$$800 = m(100) + 500$$<br/><br/>$$800 - 500 = 100m$$<br/><br/>$$m = 3$$"
+      "content": "We know that when <em>x</em> = 100 shirts, the total cost is \\$800. Substitute into $c(x) = mx + 500$:<br/><br/>$$800 = m(100) + 500$$<br/><br/>$$800 - 500 = 100m$$<br/><br/>$$m = 3$$"
     },
     {
       "title": "Calculate the cost for 1000 shirts",

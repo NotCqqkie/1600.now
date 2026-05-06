@@ -1,15 +1,1 @@
-{
-  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "The blank separates the noun <strong>nation</strong> from the proper noun <strong>South Korea</strong>, which is an appositive that identifies which nation is meant."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "A restrictive appositive (essential to identifying the noun) takes no punctuation. <strong>Nation South Korea</strong> with no punctuation is the correct form. The comma in C marks it non-restrictive, the colon in A introduces elaboration, and the dash in D adds emphasis\u2014none are standard for identifying appositives. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The phrase \"fellow OECD member <em>South Korea</em>\" treats the country name as a restrictive appositive — it specifies which member nation is meant, so it must <em>not</em> be set off by punctuation."}, {"title": "Match to choices", "content": "Only the choice with no punctuation between \"nation\" and \"South Korea\" is correct. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

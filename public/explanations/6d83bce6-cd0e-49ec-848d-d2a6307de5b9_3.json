@@ -1,15 +1,1 @@
-{
-  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_3",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the problem into an equation",
-      "content": "The product of $x$ and $(x - 7)$ equals 18. Set up the equation:<br/>$$x(x - 7) = 18$$"
-    },
-    {
-      "title": "Backsolve using the answer choices",
-      "content": "Backsolving \u2014 testing choice B (9):<br/>$$9(9 - 7) = 9(2) = 18$$<br/>The product equals 18, confirming our equation. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6d83bce6-cd0e-49ec-848d-d2a6307de5b9_3","correctAnswer":"B","section":"Math","steps":[{"title":"Set up the quadratic equation","content":"The product of $x$ and $(x-7)$ equals $18$: $$x(x-7)=18 \\implies x^2-7x-18=0.$$"},{"title":"Solve and identify x","content":"Factor: $(x-9)(x+2)=0$, giving $x=9$ or $x=-2$. Since $x$ is positive, $x=9$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

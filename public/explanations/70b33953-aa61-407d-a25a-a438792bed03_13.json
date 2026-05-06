@@ -1,15 +1,1 @@
-{
-  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_13",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = \u22124 into h(x) = 7|x|",
-      "content": "We need to find $h(-4)$. Substitute $x = -4$ directly into the function definition:\n$$h(-4) = 7|-4|$$"
-    },
-    {
-      "title": "Evaluate the absolute value and multiply",
-      "content": "The absolute value of $-4$ is $|-4| = 4$ (the distance from 0 is always positive). Therefore:\n$$h(-4) = 7 \\cdot 4 = 28$$\nThat matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_13", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute the value x = -4", "content": "Replace $x$ with $-4$ in $$h(x) = 7|x|.$$ This gives $$h(-4) = 7|-4|.$$"}, {"title": "Compute the result", "content": "Simplify: $$h(-4) = 7(4) = 28.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

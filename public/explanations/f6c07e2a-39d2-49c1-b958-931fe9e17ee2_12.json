@@ -1,15 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_12",
-  "correctAnswer": "14",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate 3x from the given equation",
-      "content": "Subtract 4 from both sides of $3x + 4 = 10$:<br/>$$3x = 6$$"
-    },
-    {
-      "title": "Calculate 9x - 4 using the isolated term",
-      "content": "Since $3x = 6$, multiply both sides by 3 to find $9x$:<br/>$$9x = 3(3x) = 3(6) = 18$$<br/>Now evaluate $9x - 4$:<br/>$$9x - 4 = 18 - 4 = 14$$"
-    }
-  ]
-}
+{"questionId":"f6c07e2a-39d2-49c1-b958-931fe9e17ee2_12","correctAnswer":"14","section":"Math","steps":[{"title":"Apply the equation from the given condition","content":"From $3x+4=10$ we get $3x=6$, so $x=2$."},{"title":"Compute the target value","content":"Then $9x-4 = 18-4 = 14$. The answer is <strong>14</strong>."}]}

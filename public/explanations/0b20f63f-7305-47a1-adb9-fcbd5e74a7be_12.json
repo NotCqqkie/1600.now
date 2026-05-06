@@ -1,15 +1,1 @@
-{
-  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Break down the rental cost",
-      "content": "The first 2 hours cost $950. Beyond that, each additional hour costs $50. Since $t > 2$, there are $(t - 2)$ additional hours, so the additional cost is $50(t - 2)$."
-    },
-    {
-      "title": "Write the total cost equation",
-      "content": "Adding the fixed and additional costs:<br/>$$950 + 50(t - 2) = 1,150$$<br/>This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_12", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Break down the rental cost", "content": "The first 2 hours cost \\$950. Beyond that, each additional hour costs \\$50. Since $t > 2$, there are $(t - 2)$ additional hours, so the additional cost is $50(t - 2)$."}, {"title": "Write the total cost equation", "content": "Adding the fixed and additional costs:<br/>$$950 + 50(t - 2) = 1,150$$<br/>This matches choice C — <strong>C</strong> is correct."}]}

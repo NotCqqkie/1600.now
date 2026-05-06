@@ -1,15 +1,1 @@
-{
-  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_11",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Check whether the lines are parallel",
-      "content": "The equations represent two straight lines. Line 1: $y = x + 24$ has slope 1. Line 2: $y = 7x$ has slope 7. Since the slopes are different, the lines are not parallel and must intersect."
-    },
-    {
-      "title": "Solve for the intersection point",
-      "content": "Set the equations equal to find where they meet:<br/>$$x + 24 = 7x$$<br/>Subtract $x$ from both sides:<br/>$$24 = 6x$$<br/>Divide by 6:<br/>$$x = 4$$<br/>We found exactly one value of $x$, so the graphs intersect at exactly one point. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_11", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set the equations equal", "content": "Setting $x + 24 = 7x$ gives $24 = 6x$, so $x = 4$."}, {"title": "Count the intersection points", "content": "Two lines intersect at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

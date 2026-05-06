@@ -1,11 +1,1 @@
-{
-  "questionId": "6e06a0a7",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute and simplify",
-      "content": "Distribute $2a^2$ to each term in $(a + 3)$:<br/><br/>$$2a^2 \\times (a + 3) = 2a^2 \\cdot a + 2a^2 \\cdot 3$$<br/><br/>Multiply each term:<br/><ul><li>$2a^2 \\cdot a = 2a^3$ (when multiplying powers with the same base, add exponents: $a^2 \\cdot a = a^{2+1} = a^3$)</li><li>$2a^2 \\cdot 3 = 6a^2$</li></ul><br/>Combined: $2a^3 + 6a^2$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6e06a0a7","correctAnswer":"D","section":"Math","steps":[{"title":"Expand the square (and other terms)","content":"Distribute $2a^{2}$ to each term inside the parentheses: $$2a^{2}\\cdot a+2a^{2}\\cdot 3=2a^{3}+6a^{2}.$$"},{"title":"Combine and simplify","content":"That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

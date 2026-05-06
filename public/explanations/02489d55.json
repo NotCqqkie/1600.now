@@ -1,12 +1,1 @@
-{
-  "questionId": "02489d55",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute 19 to both terms",
-      "content": "Multiply 19 by each term inside the parentheses:<br/><br/>$$19(x^2 - 7) = 19 \\cdot x^2 - 19 \\cdot 7 = 19x^2 - 133$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$a(b - c) = ab - ac$$"
-    }
-  ]
-}
+{"questionId":"02489d55","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $19$:$$19(x^2-7)=19x^2-133$$"},{"title":"Match to the answer choices","content":"The simplified expression is $19x^2-133$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

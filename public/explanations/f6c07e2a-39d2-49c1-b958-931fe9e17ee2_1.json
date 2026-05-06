@@ -1,11 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1",
-  "correctAnswer": "22",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the table value",
-      "content": "Find the row where air temperature equals $38\u00b0\\text{F}$ and the column where wind speed equals $60\\text{ mph}$. Their intersection gives a wind chill temperature of $22\u00b0\\text{F}$, so the answer is <strong>22</strong>."
-    }
-  ]
-}
+{"questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1", "correctAnswer": "22", "section": "Math", "steps": [{"title": "Locate the row", "content": "Find the row corresponding to an air temperature of $38\\text{°F}$ in the table."}, {"title": "Read the value", "content": "In that row, the column for a wind speed of $60$ mph gives a wind chill of $22\\text{°F}$. The answer is <strong>22</strong>."}]}

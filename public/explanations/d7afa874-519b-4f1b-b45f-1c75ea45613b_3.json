@@ -1,15 +1,1 @@
-{
-  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the constant by subtracting 5x from both sides",
-      "content": "Start with $5x + 3 = 5x$. Subtract $5x$ from both sides: $$3 = 0$$"
-    },
-    {
-      "title": "Interpret the contradiction",
-      "content": "The simplified equation $3 = 0$ is a contradiction\u2014it's never true for any value of $x$. When an equation simplifies to a false statement with no variable, there are no solutions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_3", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Subtract $5x$ from both sides of $5x+3=5x$: $$3=0.$$ This is false for every $x$."}, {"title": "Count the solutions", "content": "There are zero solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

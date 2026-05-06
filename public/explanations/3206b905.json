@@ -1,15 +1,1 @@
-{
-  "questionId": "3206b905",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the greatest common factor",
-      "content": "Look at the coefficients and variables in each term:<br/>Coefficients: 8, 8, 88 have GCD = 8<br/>Variables: $x^{10}$, $x^9$, $x$ have lowest power $x$<br/>The GCF is <strong>8x</strong>"
-    },
-    {
-      "title": "Factor out 8x and identify the choice",
-      "content": "Divide each term by $8x$:<br/>$$\\frac{8x^{10}}{8x} = x^9$$<br/>$$\\frac{-8x^9}{8x} = -x^8$$<br/>$$\\frac{88x}{8x} = 11$$<br/><br/>The factored expression is:<br/>$$8x(x^9 - x^8 + 11)$$<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"3206b905","correctAnswer":"D","section":"Math","steps":[{"title":"Expand the square (and other terms)","content":"Each term has a common factor of $8x$: $8x^{10}=8x\\cdot x^{9}$, $-8x^{9}=8x\\cdot(-x^{8})$, and $88x=8x\\cdot 11$."},{"title":"Combine and simplify","content":"Factoring gives $$8x^{10}-8x^{9}+88x=8x(x^{9}-x^{8}+11).$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

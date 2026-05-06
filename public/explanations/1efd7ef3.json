@@ -1,16 +1,1 @@
-{
-  "questionId": "1efd7ef3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply periodicity of sine",
-      "content": "The sine function repeats every $2\\pi$ radians, so $\\sin(\\theta) = \\sin(\\theta + 2\\pi k)$ for any integer $k$. To find $\\sin(42\\pi)$, we reduce the argument by dividing by $2\\pi$: $$\\frac{42\\pi}{2\\pi} = 21$$ This means $42\\pi = 21 \\cdot 2\\pi$ with no remainder, so the angle is exactly 21 complete cycles.",
-      "formula": "$$\\sin(\\theta) = \\sin(\\theta + 2\\pi k)$$"
-    },
-    {
-      "title": "Evaluate at the reference angle",
-      "content": "Since $42\\pi$ equals exactly 21 full periods, we have $$\\sin(42\\pi) = \\sin(21 \\cdot 2\\pi) = \\sin(0) = 0$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1efd7ef3","correctAnswer":"A","section":"Math","steps":[{"title":"Compute each power","content":"Sine has period $2\\pi$, and $42\\pi = 21(2\\pi)$, so $\\sin(42\\pi) = \\sin(0)$."},{"title":"Add and identify","content":"Therefore $$\\sin(42\\pi) = 0.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

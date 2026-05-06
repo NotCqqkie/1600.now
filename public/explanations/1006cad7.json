@@ -1,15 +1,1 @@
-{
-  "questionId": "1006cad7",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify intersection point",
-      "content": "The solution to a system of linear equations is the point where the two lines intersect. Locate this point directly on the graph. The lines cross at a point with coordinates corresponding to a choice. <br/><ul><li>Look for the point that both lines clearly share.</li></ul>"
-    },
-    {
-      "title": "Match coordinates to the grid",
-      "content": "Read the x- and y-values at the intersection. <br/><ul><li>The x-coordinate is 2.</li><li>The y-coordinate is 4.</li></ul> That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1006cad7","correctAnswer":"B","section":"Math","steps":[{"title":"Read the intersection from the graph","content":"The solution to a graphed system is the point where the two lines cross. Here that point is at $x=2,\\ y=4$."},{"title":"State the ordered pair","content":"The solution is $(2,4)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

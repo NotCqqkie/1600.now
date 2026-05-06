@@ -1,15 +1,1 @@
-{
-  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_6",
-  "correctAnswer": "54",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the x-intercept equation",
-      "content": "The x-intercept is where the graph crosses the x-axis, which occurs when $y = 0$. Setting $g(x) = 0$:<br/>$$\\frac{4}{9}x - 24 = 0$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Add 24 to both sides:<br/>$$\\frac{4}{9}x = 24$$<br/><br/>Multiply both sides by $\\frac{9}{4}$ to isolate $x$:<br/>$$x = 24 \\cdot \\frac{9}{4} = \\frac{216}{4} = 54$$<br/><br/>The x-coordinate of the x-intercept is <strong>54</strong>."
-    }
-  ]
-}
+{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_6", "correctAnswer": "54", "section": "Math", "steps": [{"title": "Set up the intercept", "content": "The $x$-intercept of $y=g(x)$ occurs where $y=0$, so solve $\\frac{4}{9}x-24=0$."}, {"title": "Solve for the value", "content": "Adding $24$ and multiplying by $\\frac{9}{4}$ gives $$x=\\frac{9}{4}\\cdot 24=54.$$ The answer is <strong>54</strong>."}]}

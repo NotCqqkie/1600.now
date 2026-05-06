@@ -26,6 +26,10 @@ interface DraggableWindowProps {
   isMaximized?: boolean; // New prop to control maximization externally
   persistenceKey?: string;
   persistenceStorage?: Storage;
+  // When true, keep the window mounted in the DOM after close so child state
+  // (e.g. a Desmos calculator instance) survives. The window is hidden via
+  // display:none instead of unmounted.
+  keepMountedWhenClosed?: boolean;
 }
 
 interface PersistedWindowState {
@@ -56,6 +60,7 @@ export const DraggableWindow = ({
   isMaximized = false,
   persistenceKey,
   persistenceStorage = localStorage,
+  keepMountedWhenClosed = false,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
@@ -151,15 +156,17 @@ export const DraggableWindow = ({
             persistedState.size.height,
             window.innerHeight - bottomBarHeight,
           );
+          const willBeMinimized = Boolean(persistedState.isMinimized);
+          const effectiveHeight = willBeMinimized ? 56 : clampedHeight;
           const maxX = Math.max(0, availableWidth - clampedWidth);
-          const maxY = Math.max(0, window.innerHeight - clampedHeight - bottomBarHeight);
+          const maxY = Math.max(0, window.innerHeight - effectiveHeight - bottomBarHeight);
 
           setSize({ width: clampedWidth, height: clampedHeight });
           setPosition({
             x: Math.max(0, Math.min(persistedState.position.x, maxX)),
             y: Math.max(0, Math.min(persistedState.position.y, maxY)),
           });
-          setIsMinimized(Boolean(persistedState.isMinimized));
+          setIsMinimized(willBeMinimized);
         } else {
           const actualWidth = constrainToLeft 
             ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
@@ -259,21 +266,24 @@ export const DraggableWindow = ({
 
   useEffect(() => {
     if (!isOpen || isSidebarred || !isReady) return;
-    writePersistedState({
-      position,
-      size,
-      isMinimized,
-    });
+    const timeoutId = window.setTimeout(() => {
+      writePersistedState({
+        position,
+        size,
+        isMinimized,
+      });
+    }, 200);
+    return () => window.clearTimeout(timeoutId);
   }, [isOpen, isReady, isSidebarred, position, size, isMinimized, writePersistedState]);
 
-  // Handle split divider resizing
+  // Handle split divider resizing (mouse + touch)
   useEffect(() => {
     if (!isSidebarred || !isResizingSplit) return;
 
     document.body.classList.add("noselect");
 
-    const handleMouseMove = (e: MouseEvent) => {
-      const newPosition = (e.clientX / window.innerWidth) * 100;
+    const updateFromClientX = (clientX: number) => {
+      const newPosition = (clientX / window.innerWidth) * 100;
       // Allow the left pane to shrink further so the sidebar can grow up to ~65% of the screen
       const clampedPosition = Math.max(35, Math.min(70, newPosition));
       const roundedPosition = Math.round(clampedPosition * 4) / 4;
@@ -285,50 +295,68 @@ export const DraggableWindow = ({
       }
     };
 
-    const handleMouseUp = () => {
+    const handleMouseMove = (e: MouseEvent) => updateFromClientX(e.clientX);
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length === 0) return;
+      e.preventDefault();
+      updateFromClientX(e.touches[0].clientX);
+    };
+
+    const stop = () => {
       setIsResizingSplit(false);
       lastSplitPositionRef.current = null;
       document.body.classList.remove("noselect");
     };
 
     document.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseup', handleMouseUp);
+    document.addEventListener('mouseup', stop);
+    document.addEventListener('touchmove', handleTouchMove, { passive: false });
+    document.addEventListener('touchend', stop);
+    document.addEventListener('touchcancel', stop);
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseup', handleMouseUp);
+      document.removeEventListener('mouseup', stop);
+      document.removeEventListener('touchmove', handleTouchMove);
+      document.removeEventListener('touchend', stop);
+      document.removeEventListener('touchcancel', stop);
       document.body.classList.remove("noselect");
       lastSplitPositionRef.current = null;
-      document.body.classList.remove("noselect");
     };
   }, [isResizingSplit, isSidebarred, onSplitPositionChange]);
 
-  const handleMouseDown = (e: React.MouseEvent) => {
-    // Bring window to front on any click
-    if (onFocus) {
-      onFocus();
-    }
-
-    if (e.button !== 0) return;
-
-    const target = e.target as HTMLElement;
+  const beginDragFrom = (clientX: number, clientY: number, target: HTMLElement) => {
     const isHeader = Boolean(target.closest(".window-header"));
     const isInteractiveTarget = Boolean(
       target.closest("button, [role='button'], input, textarea, select, a")
     );
 
     if (!isSidebarred && isHeader && !isInteractiveTarget) {
-      e.preventDefault();
-
-      // Allow dragging even when minimized
       setIsDragging(true);
       const newDragOffset = {
-        x: e.clientX - position.x,
-        y: e.clientY - position.y,
+        x: clientX - position.x,
+        y: clientY - position.y,
       };
       setDragOffset(newDragOffset);
       dragOffsetRef.current = newDragOffset;
+      return true;
     }
+    return false;
+  };
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (onFocus) onFocus();
+    if (e.button !== 0) return;
+    const started = beginDragFrom(e.clientX, e.clientY, e.target as HTMLElement);
+    if (started) e.preventDefault();
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if (onFocus) onFocus();
+    if (e.touches.length === 0) return;
+    const t = e.touches[0];
+    const started = beginDragFrom(t.clientX, t.clientY, e.target as HTMLElement);
+    if (started) e.preventDefault();
   };
 
   const handleResizeStart = (e: React.MouseEvent, edge: string) => {
@@ -345,7 +373,25 @@ export const DraggableWindow = ({
       posY: position.y,
     };
     setResizeStart(startData);
-    // instant update for ref
+    resizeStartRef.current = startData;
+  };
+
+  const handleResizeTouchStart = (e: React.TouchEvent, edge: string) => {
+    if (isSidebarred) return;
+    if (e.touches.length === 0) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const t = e.touches[0];
+    setIsResizing(edge);
+    const startData = {
+      x: t.clientX,
+      y: t.clientY,
+      width: size.width,
+      height: size.height,
+      posX: position.x,
+      posY: position.y,
+    };
+    setResizeStart(startData);
     resizeStartRef.current = startData;
   };
 
@@ -357,11 +403,11 @@ export const DraggableWindow = ({
       document.body.classList.remove("noselect");
     }
 
-    const handleMouseMove = (e: MouseEvent) => {
+    const applyMove = (clientX: number, clientY: number) => {
       // Use Refs to access current state inside the closure
       if (isDraggingRef.current) {
-        const newX = e.clientX - dragOffsetRef.current.x;
-        const newY = e.clientY - dragOffsetRef.current.y;
+        const newX = clientX - dragOffsetRef.current.x;
+        const newY = clientY - dragOffsetRef.current.y;
         
         // Keep window fully within viewport bounds (can't go off any edge)
         const currentHeight = isMinimizedRef.current ? 56 : sizeRef.current.height;
@@ -379,8 +425,8 @@ export const DraggableWindow = ({
 
       if (isResizingRef.current) {
         const currentResizeStart = resizeStartRef.current;
-        const deltaX = e.clientX - currentResizeStart.x;
-        const deltaY = e.clientY - currentResizeStart.y;
+        const deltaX = clientX - currentResizeStart.x;
+        const deltaY = clientY - currentResizeStart.y;
         
         let newWidth = currentResizeStart.width; // Use value from start of resize
         let newHeight = currentResizeStart.height; // Use value from start of resize
@@ -467,7 +513,14 @@ export const DraggableWindow = ({
       }
     };
 
-    const handleMouseUp = () => {
+    const handleMouseMove = (e: MouseEvent) => applyMove(e.clientX, e.clientY);
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length === 0) return;
+      e.preventDefault();
+      applyMove(e.touches[0].clientX, e.touches[0].clientY);
+    };
+
+    const handlePointerUp = () => {
       setIsDragging(false);
       setIsResizing(null);
       document.body.classList.remove("noselect");
@@ -475,12 +528,18 @@ export const DraggableWindow = ({
 
     if (isDragging || isResizing) {
       document.addEventListener("mousemove", handleMouseMove);
-      document.addEventListener("mouseup", handleMouseUp);
+      document.addEventListener("mouseup", handlePointerUp);
+      document.addEventListener("touchmove", handleTouchMove, { passive: false });
+      document.addEventListener("touchend", handlePointerUp);
+      document.addEventListener("touchcancel", handlePointerUp);
     }
 
     return () => {
       document.removeEventListener("mousemove", handleMouseMove);
-      document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener("mouseup", handlePointerUp);
+      document.removeEventListener("touchmove", handleTouchMove);
+      document.removeEventListener("touchend", handlePointerUp);
+      document.removeEventListener("touchcancel", handlePointerUp);
     };
   }, [isDragging, isResizing, lockAspectRatio, diagonalResizeOnly]);
 
@@ -516,16 +575,17 @@ export const DraggableWindow = ({
     onClose();
   };
 
-  if (!isOpen) return null;
+  if (!isOpen && !keepMountedWhenClosed) return null;
 
   // Hide window until position is calculated to prevent flash
-  const windowStyle = {
+  const windowStyle: React.CSSProperties = {
     left: isMaximized ? 0 : position.x,
     top: isMaximized ? 0 : position.y,
     width: isMaximized ? '100vw' : size.width,
     height: isMaximized ? '100vh' : (isMinimized ? '56px' : size.height),
     zIndex: isMaximized ? 100 : zIndex, // Ensure maximized window is on top
-    visibility: (isReady || isSidebarred || isMaximized) ? 'visible' as const : 'hidden' as const,
+    visibility: (isReady || isSidebarred || isMaximized) ? 'visible' : 'hidden',
+    display: isOpen ? undefined : 'none',
   };
 
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
@@ -543,13 +603,19 @@ export const DraggableWindow = ({
     <>
       {/* Split Screen Divider - rendered by the sidebarred window */}
       {isSidebarred && (
-        <div 
-          className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group"
-          style={{ 
-            left: `calc(${splitPosition}% - 8px)`, 
+        <div
+          className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
+          style={{
+            left: `calc(${splitPosition}% - 8px)`,
             zIndex: zIndex + 10 // Always above this window
           }}
           onMouseDown={() => {
+            lastSplitPositionRef.current = null;
+            setIsResizingSplit(true);
+          }}
+          onTouchStart={(e) => {
+            if (e.touches.length === 0) return;
+            e.preventDefault();
             lastSplitPositionRef.current = null;
             setIsResizingSplit(true);
           }}
@@ -560,6 +626,8 @@ export const DraggableWindow = ({
 
       <div
         ref={windowRef}
+        data-window-id={windowId}
+        data-tour={`window-${windowId}`}
         className={cn(
           "fixed bg-card border-2 border-border rounded-lg shadow-2xl flex flex-col overflow-hidden",
           isDragging ? "cursor-grabbing" : "",
@@ -567,6 +635,7 @@ export const DraggableWindow = ({
         )}
         style={windowStyle}
         onMouseDown={handleMouseDown}
+        onTouchStart={handleTouchStart}
         onDragStart={handleNativeDragStart}
       >
         {/* Resize Handles - hidden when minimized or sidebarred */}
@@ -577,46 +646,54 @@ export const DraggableWindow = ({
               <>
                 {/* Top */}
                 <div
-                  className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize")}
+                  className={cn(resizeHandleClass, "top-0 left-0 right-0 h-1 cursor-n-resize touch-none")}
                   onMouseDown={(e) => handleResizeStart(e, "top")}
+                  onTouchStart={(e) => handleResizeTouchStart(e, "top")}
                 />
                 {/* Bottom */}
                 <div
-                  className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize")}
+                  className={cn(resizeHandleClass, "bottom-0 left-0 right-0 h-1 cursor-s-resize touch-none")}
                   onMouseDown={(e) => handleResizeStart(e, "bottom")}
+                  onTouchStart={(e) => handleResizeTouchStart(e, "bottom")}
                 />
                 {/* Left */}
                 <div
-                  className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize")}
+                  className={cn(resizeHandleClass, "left-0 top-0 bottom-0 w-1 cursor-w-resize touch-none")}
                   onMouseDown={(e) => handleResizeStart(e, "left")}
+                  onTouchStart={(e) => handleResizeTouchStart(e, "left")}
                 />
                 {/* Right */}
                 <div
-                  className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize")}
+                  className={cn(resizeHandleClass, "right-0 top-0 bottom-0 w-1 cursor-e-resize touch-none")}
                   onMouseDown={(e) => handleResizeStart(e, "right")}
+                  onTouchStart={(e) => handleResizeTouchStart(e, "right")}
                 />
               </>
             )}
             {/* Corner handles - always available */}
             {/* Top-Left Corner */}
             <div
-              className={cn(resizeHandleClass, "top-0 left-0 w-3 h-3 cursor-nw-resize")}
+              className={cn(resizeHandleClass, "top-0 left-0 w-3 h-3 cursor-nw-resize touch-none")}
               onMouseDown={(e) => handleResizeStart(e, "top-left")}
+              onTouchStart={(e) => handleResizeTouchStart(e, "top-left")}
             />
             {/* Top-Right Corner */}
             <div
-              className={cn(resizeHandleClass, "top-0 right-0 w-3 h-3 cursor-ne-resize")}
+              className={cn(resizeHandleClass, "top-0 right-0 w-3 h-3 cursor-ne-resize touch-none")}
               onMouseDown={(e) => handleResizeStart(e, "top-right")}
+              onTouchStart={(e) => handleResizeTouchStart(e, "top-right")}
             />
             {/* Bottom-Left Corner */}
             <div
-              className={cn(resizeHandleClass, "bottom-0 left-0 w-3 h-3 cursor-sw-resize")}
+              className={cn(resizeHandleClass, "bottom-0 left-0 w-3 h-3 cursor-sw-resize touch-none")}
               onMouseDown={(e) => handleResizeStart(e, "bottom-left")}
+              onTouchStart={(e) => handleResizeTouchStart(e, "bottom-left")}
             />
             {/* Bottom-Right Corner */}
             <div
-              className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize")}
+              className={cn(resizeHandleClass, "bottom-0 right-0 w-3 h-3 cursor-se-resize touch-none")}
               onMouseDown={(e) => handleResizeStart(e, "bottom-right")}
+              onTouchStart={(e) => handleResizeTouchStart(e, "bottom-right")}
             />
           </>
         )}
@@ -633,6 +710,7 @@ export const DraggableWindow = ({
                 size="icon"
                 className={cn("h-8 w-8 shrink-0", isSidebarred && "bg-primary/20")}
                 onClick={toggleSidebar}
+                data-tour={`sidebar-toggle-${windowId}`}
                 title={isSidebarred ? "Hide away" : "Pop out"}
               >
                 {isSidebarred ? <ChevronRight className="h-4 w-4" /> : <Columns2 className="h-4 w-4" />}

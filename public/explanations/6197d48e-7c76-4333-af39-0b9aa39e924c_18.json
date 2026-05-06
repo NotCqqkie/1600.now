@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the slope of line k",
-      "content": "From the image, identify that line \\(k\\)'s slope is \\(-\\frac{3}{4}\\). Since line \\(j\\) is perpendicular to line \\(k\\), its slope will be the negative reciprocal. Therefore, the slope of line \\(j\\) is \\(m = \\frac{4}{3}\\).",
+      "title": "Identify the slope of line j",
+      "content": "From the graph, line $k$ has slope $-\\frac{4}{3}$. Since line $j$ is perpendicular to line $k$, line $j$'s slope is the negative reciprocal: $m = \\frac{3}{4}$.",
       "formula": "$$m_{j}=-\\frac{1}{m_k}$$"
     },
     {
       "title": "Write the equation for line j using point-slope form",
-      "content": "<br/>Since we know the slope of line \\(j\\) is <strong>\\(\\frac{4}{3}\\)</strong> and it passes through the point \\((-20, -23)\\), use the point-slope equation <div class='callout'><ul><li>$y - y_1 = m(x - x_1)$</li></ul></div>. Substitute the slope and the point's coordinates:<br/>$$y + 23 = \\frac{4}{3}(x + 20)\\quad.\\quad \\text{Simplifying this gives us } y = \\frac{4}{3}x - 38.$$",
+      "content": "With slope $\\frac{3}{4}$ through $(-20, -23)$, point-slope form gives:<br/>$$y + 23 = \\frac{3}{4}(x + 20)$$<br/>Distribute and simplify:<br/>$$y = \\frac{3}{4}x + 15 - 23 = \\frac{3}{4}x - 8$$",
       "formula": "$$y - y_1 = m(x - x_1)$$"
     },
     {
       "title": "Match the equation to the choices",
-      "content": "<br/>The simplified form of line \\(j\\)'s equation, <strong>$y = \\frac{4}{3}x - 38$</strong>, matches choice D. <br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "content": "The simplified equation $y = \\frac{3}{4}x - 8$ matches choice A. That matches choice A — <strong>A</strong> is correct.",
       "formula": ""
     }
   ]

@@ -38,7 +38,7 @@ const CollegePage = () => {
   const slug = location.pathname.replace(/^\/college\//, "").replace(/\/$/, "");
   const c = collegeBySlug.get(slug);
 
-  if (!c) return <Navigate to="/" replace />;
+  if (!c) return <Navigate to="/college" replace />;
 
   const url = `https://1600.now/college/${c.slug}`;
   const displayName = c.name;

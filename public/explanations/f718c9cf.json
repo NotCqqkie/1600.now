@@ -1,15 +1,1 @@
-{
-  "questionId": "f718c9cf",
-  "correctAnswer": "1.8",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Eliminate x by aligning coefficients",
-      "content": "Notice that the $x$-coefficient in equation 2 is exactly double that in equation 1: $10x = 2(5x)$. Multiply equation 1 by 2:<br/>$$10x + 28y = 90$$<br/>Subtract equation 2 from this result:<br/>$$(10x + 28y) - (10x + 7y) = 90 - 27$$<br/>$$21y = 63$$<br/>$$y = 3$$"
-    },
-    {
-      "title": "Back-substitute to find x and compute xy",
-      "content": "Substitute $y = 3$ into equation 2:<br/>$$10x + 7(3) = 27$$<br/>$$10x + 21 = 27$$<br/>$$10x = 6$$<br/>$$x = 0.6$$<br/>Therefore, the product is $xy = 0.6 \\times 3 = 1.8$."
-    }
-  ]
-}
+{"questionId":"f718c9cf","correctAnswer":"1.8","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Multiply the first equation by 2: $10x+28y=90$. Subtract $10x+7y=27$: $$21y = 63 \\Rightarrow y = 3, \\ x = \\tfrac{45-42}{5} = 0.6.$$"},{"title":"Find $xy$","content":"Then $$xy = 0.6 \\cdot 3 = 1.8.$$ The answer is <strong>1.8</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_5",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "<strong>However</strong> opens the sentence and directly contradicts the preceding claim that horizontal gene transfer \u201chas rarely been observed among eukaryotes.\u201d"
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Choice C identifies the function: by presenting new evidence (\u201cmore common\u201d), the sentence implies that the previous perception (\u201crarely observed\u201d) was inaccurate.<br/>The other three choices misidentify the function: A claims it argues research will fail, B repeats the vertical/horizontal distinction, and D claims it compares organisms.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"406baf08-71da-41c0-bc3d-ddc2c25258ba_5","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify the function","content":"The underlined sentence opens with <em>However</em> and reports that new studies show HGT is <strong>more common in eukaryotes than originally thought</strong>. Its job is to challenge the prior claim that HGT is rarely seen in eukaryotes."},{"title":"Match to the choices","content":"Choice C captures that the sentence implies the common perception is inaccurate. A (research will fail), B (vertical/horizontal distinction), and D (frequency comparison) describe other parts of the passage. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

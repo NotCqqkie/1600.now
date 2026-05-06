@@ -1,16 +1,1 @@
-{
-  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20",
-  "correctAnswer": "74088",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the right triangle and apply Pythagorean theorem",
-      "content": "Point A is the apex, O is the center of the base, and B is on the base circumference. These form a right triangle with the right angle at O (the height is perpendicular to the base).<br/><br/>In this triangle:<br/><ul><li>Height: $AO = 42$ cm</li><li>Hypotenuse: $AB = 84$ cm</li><li>Radius: $OB = r$ (unknown)</li></ul><br/>By the Pythagorean theorem:<br/>$$42^2 + r^2 = 84^2$$<br/>$$1764 + r^2 = 7056$$<br/>$$r^2 = 5292$$"
-    },
-    {
-      "title": "Apply the cone volume formula",
-      "content": "Substitute $r^2 = 5292$ and $h = 42$ into the cone volume formula:<br/>$$\\frac{1}{3}\\pi (5292)(42) = \\frac{1}{3}\\pi \\cdot 222264 = \\frac{222264\\pi}{3} = 74088\\pi$$<br/>Since the volume is $k\\pi$ cubic centimeters, $k = 74088$.",
-      "formula": "$$V = \\frac{1}{3}\\pi r^2 h$$"
-    }
-  ]
-}
+{"questionId":"6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20","correctAnswer":"74088","section":"Math","steps":[{"title":"Find one dimension from given info","content":"The slant $AB = 84$, the height $h = 42$, and the radius $r$ form a right triangle (apex $A$, center of base, point $B$ on the rim). Apply Pythagoras:<br/>$$r^2 = AB^2 - h^2 = 84^2 - 42^2 = 7056 - 1764 = 5292$$"},{"title":"Find another dimension","content":"Factor: $5292 = 3 \\cdot 1764 = 3 \\cdot 42^2$, so $r = 42\\sqrt{3}$ cm and $r^2 = 5292$."},{"title":"Compute the requested value","content":"Use the cone-volume formula $V = \\tfrac{1}{3}\\pi r^2 h$:<br/>$$V = \\tfrac{1}{3}\\pi(5292)(42) = \\pi(1764)(42) = 74088\\pi$$<br/>So $k = 74088$. The answer is <strong>74088</strong>."}]}

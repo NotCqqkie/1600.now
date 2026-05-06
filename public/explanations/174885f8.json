@@ -1,16 +1,1 @@
-{
-  "questionId": "174885f8",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Compute distance for each activity",
-      "content": "Distance equals speed multiplied by time. Walking distance: $$3 \text{ mph} \times w \text{ h} = 3w$$ miles. Running distance: $$5 \text{ mph} \times r \text{ h} = 5r$$ miles.",
-      "formula": ""
-    },
-    {
-      "title": "Set total distance equal to 14 miles",
-      "content": "The combined distance is the sum: $$3w + 5r = 14$$ miles. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "174885f8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Compute distance for each activity", "content": "Distance equals speed multiplied by time. Walking distance: $$3 \\text{ mph} \\times w \\text{ h} = 3w$$ miles. Running distance: $$5 \\text{ mph} \\times r \\text{ h} = 5r$$ miles.", "formula": ""}, {"title": "Set total distance equal to 14 miles", "content": "The combined distance is the sum: $$3w + 5r = 14$$ miles. This matches choice A — <strong>A</strong> is correct."}]}

@@ -59,6 +59,10 @@ export const ExplanationWindow = ({
   const [aiExplanation, setAiExplanation] = useState<ExplanationData | null>(null);
   const [aiChecked, setAiChecked] = useState(false);
 
+  useEffect(() => {
+    setIsOpen(false);
+  }, [questionId]);
+
   // Probe for an AI-generated explanation. If one exists, prefer it over the
   // College Board rationale. App passes ids like `bank-{type}-{subject}-{rawId}`;
   // generated files are named `{rawId}.json` — strip the 3-token prefix.

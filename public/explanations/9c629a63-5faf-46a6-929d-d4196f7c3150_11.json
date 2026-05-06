@@ -1,15 +1,1 @@
-{
-  "questionId": "9c629a63-5faf-46a6-929d-d4196f7c3150_11",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the problem into an equation",
-      "content": "The product of $s$ and $(s-1)$ equals 272, giving us: $$s(s-1) = 272$$"
-    },
-    {
-      "title": "Backsolve with choice B",
-      "content": "Backsolving \u2014 testing choice B (17): If $s = 17$, then $17 \\cdot 16 = 272$. \u2713 That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9c629a63-5faf-46a6-929d-d4196f7c3150_11","correctAnswer":"B","section":"Math","steps":[{"title":"Set up the quadratic equation","content":"The product of $s$ and $(s-1)$ equals $272$: $$s(s-1)=272 \\implies s^2-s-272=0.$$"},{"title":"Solve and identify x","content":"Factor: $(s-17)(s+16)=0$, giving $s=17$ or $s=-16$. Since $s$ is positive, $s=17$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ce6b52d8",
-  "correctAnswer": "60",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify the left side",
-      "content": "Start by distributing the 2 into the parentheses on the left side of the equation: $$2(3t - 10) + t$$ becomes $$6t - 20 + t$$. Combine like terms: $$6t + t = 7t$$, so the left side simplifies to $$7t - 20$$."
-    },
-    {
-      "title": "Isolate 3t directly",
-      "content": "With the equation $$7t - 20 = 40 + 4t$$, subtract $$4t$$ from both sides to get $$3t - 20 = 40$$. Then add 20 to both sides: $$3t = 60$$. Since the question asks for the value of $$3t$$, no further solving is needed. <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ce6b52d8","correctAnswer":"60","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Expand the left: $6t-20+t = 7t-20$. Subtract $4t$ and add $20$: $3t = 60$."},{"title":"Compute the target value","content":"So $3t = 60$. The answer is <strong>60</strong>."}]}

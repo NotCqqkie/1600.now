@@ -1,15 +1,1 @@
-{
-  "questionId": "d4d513ff",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the factoring task",
-      "content": "We need to find an equivalent expression by factoring $12x+27$. To find the equivalent form, we should factor out the greatest common factor (GCF) of the coefficients."
-    },
-    {
-      "title": "Find the GCF and factor",
-      "content": "The coefficients are 12 and 27. Since $12 = 3 \\times 4$ and $27 = 3 \\times 9$, their GCF is 3. Factoring out 3:<br/>$$12x + 27 = 3(4x + 9)$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d4d513ff","correctAnswer":"C","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF of $12$ and $27$ is $3$. Factor it out:$$12x+27=3(4x+9)$$"},{"title":"Match to the answer choices","content":"The factored form is $3(4x+9)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

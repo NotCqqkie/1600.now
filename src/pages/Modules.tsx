@@ -4,6 +4,7 @@ import {
   getPracticeModule,
   getPracticeSets,
   type PracticeModule,
+  type PracticeSet,
 } from "@/data/modulePracticeBank";
 import {
   classifyModuleCompletion,
@@ -14,6 +15,12 @@ import {
   getModulePracticeSession,
 } from "@/lib/modulePracticeSession";
 import { launchModulePractice } from "@/lib/modulePracticeNavigation";
+import {
+  clearPracticeTestSession,
+  getPracticeTestSession,
+  type PracticeTestSessionMeta,
+} from "@/lib/practiceTestSession";
+import { launchPracticeTest } from "@/lib/practiceTestNavigation";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -85,20 +92,49 @@ const Modules = () => {
     );
   }, [progressRefreshKey]);
 
-  const mostRecentSession = useMemo(() => {
-    const sessions = practiceSets
+  type ResumeEntry =
+    | {
+        kind: "module";
+        startedAt: number;
+        module: PracticeModule;
+        session: NonNullable<ReturnType<typeof getModulePracticeSession>>;
+      }
+    | {
+        kind: "test";
+        startedAt: number;
+        practiceSet: PracticeSet;
+        session: PracticeTestSessionMeta;
+      };
+
+  const mostRecentSession = useMemo<ResumeEntry | null>(() => {
+    const moduleEntries: ResumeEntry[] = practiceSets
       .flatMap((practiceSet) => practiceSet.modules)
-      .map((module) => ({
-        module,
-        session: getModulePracticeSession(module.slug),
-      }))
+      .map((module) => ({ module, session: getModulePracticeSession(module.slug) }))
       .filter(
         (entry): entry is { module: PracticeModule; session: NonNullable<ReturnType<typeof getModulePracticeSession>> } =>
           Boolean(entry.session) && entry.session.status !== "submitted",
       )
-      .sort((left, right) => right.session.startedAt - left.session.startedAt);
+      .map((entry) => ({
+        kind: "module" as const,
+        startedAt: entry.session.startedAt,
+        module: entry.module,
+        session: entry.session,
+      }));
 
-    return sessions[0] ?? null;
+    const testEntries: ResumeEntry[] = practiceSets
+      .map((practiceSet) => ({ practiceSet, session: getPracticeTestSession(practiceSet.id) }))
+      .filter(
+        (entry): entry is { practiceSet: PracticeSet; session: PracticeTestSessionMeta } =>
+          Boolean(entry.session) && entry.session.status !== "submitted",
+      )
+      .map((entry) => ({
+        kind: "test" as const,
+        startedAt: entry.session.startedAt,
+        practiceSet: entry.practiceSet,
+        session: entry.session,
+      }));
+
+    return [...moduleEntries, ...testEntries].sort((a, b) => b.startedAt - a.startedAt)[0] ?? null;
   }, [progressRefreshKey]);
 
   const filteredPracticeSets = useMemo(() => {
@@ -129,11 +165,20 @@ const Modules = () => {
 
   const resumeMostRecentSession = () => {
     if (!mostRecentSession) return;
-    const module = getPracticeModule(mostRecentSession.module.slug);
-    if (!module) return;
-
-    launchModulePractice({
-      module,
+    if (mostRecentSession.kind === "module") {
+      const module = getPracticeModule(mostRecentSession.module.slug);
+      if (!module) return;
+      launchModulePractice({
+        module,
+        navigate,
+        resumeExisting: true,
+        savedSession: mostRecentSession.session,
+        settings: mostRecentSession.session.settings,
+      });
+      return;
+    }
+    launchPracticeTest({
+      practiceSet: mostRecentSession.practiceSet,
       navigate,
       resumeExisting: true,
       savedSession: mostRecentSession.session,
@@ -143,7 +188,11 @@ const Modules = () => {
 
   const discardMostRecentSession = () => {
     if (!mostRecentSession) return;
-    clearModulePracticeSession(mostRecentSession.module.slug);
+    if (mostRecentSession.kind === "module") {
+      clearModulePracticeSession(mostRecentSession.module.slug);
+    } else {
+      clearPracticeTestSession(mostRecentSession.practiceSet.id);
+    }
     setProgressRefreshKey((k) => k + 1);
   };
 
@@ -153,7 +202,7 @@ const Modules = () => {
         <div className="max-w-3xl">
           <h1
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: "clamp(26px, 3vw, 34px)",
               fontWeight: 400,
               letterSpacing: "-0.03em",
@@ -169,28 +218,45 @@ const Modules = () => {
         </div>
       </div>
 
-      {mostRecentSession ? (
+      {mostRecentSession ? (() => {
+          const isModule = mostRecentSession.kind === "module";
+          const label = isModule ? "Resume Most Recent Module" : "Resume Most Recent Practice Test";
+          const title = isModule
+            ? mostRecentSession.module.publicTitle
+            : `Practice Set ${mostRecentSession.practiceSet.setNumber}`;
+          const questionCount = isModule
+            ? mostRecentSession.module.questionCount
+            : mostRecentSession.practiceSet.modules.reduce((sum, m) => sum + m.questions.length, 0);
+          const currentIndex = mostRecentSession.session.currentIndex;
+          const timed = mostRecentSession.session.settings.timed;
+          const remainingSeconds = isModule
+            ? mostRecentSession.session.remainingSeconds ?? 0
+            : mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]?.remainingSeconds ?? 0;
+          const formatTime = (secs: number) => {
+            const safe = Math.max(0, secs);
+            const m = Math.floor(safe / 60);
+            const s = safe % 60;
+            return `${m}:${String(s).padStart(2, "0")} left`;
+          };
+          const activeModuleTitle = !isModule
+            ? mostRecentSession.session.modules[mostRecentSession.session.activeModuleIndex]?.moduleTitle
+            : null;
+          return (
         <>
           <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
             <CardContent className="flex flex-col gap-2 py-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="min-w-0">
                 <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                  Resume Most Recent Module
+                  {label}
                 </div>
                 <div className="mt-0.5 text-base font-semibold tracking-[-0.02em] text-foreground">
-                  {mostRecentSession.module.publicTitle}
+                  {title}
                 </div>
                 <div className="text-xs text-muted-foreground">
-                  Question {mostRecentSession.session.currentIndex + 1} of {mostRecentSession.module.questionCount}
+                  {activeModuleTitle ? `${activeModuleTitle} · ` : ""}
+                  Question {currentIndex + 1} of {questionCount}
                   {" · "}
-                  {mostRecentSession.session.settings.timed
-                    ? (() => {
-                        const secs = Math.max(0, mostRecentSession.session.remainingSeconds ?? 0);
-                        const m = Math.floor(secs / 60);
-                        const s = secs % 60;
-                        return `${m}:${String(s).padStart(2, "0")} left`;
-                      })()
-                    : "Untimed"}
+                  {timed ? formatTime(remainingSeconds) : "Untimed"}
                 </div>
               </div>
 
@@ -218,9 +284,8 @@ const Modules = () => {
                 <AlertDialogTitle>Discard saved session?</AlertDialogTitle>
                 <AlertDialogDescription>
                   This will permanently delete your saved progress for{" "}
-                  <strong>{mostRecentSession.module.publicTitle}</strong> (question{" "}
-                  {mostRecentSession.session.currentIndex + 1} of{" "}
-                  {mostRecentSession.session.questionCount}). This cannot be undone.
+                  <strong>{title}</strong> (question{" "}
+                  {currentIndex + 1} of {questionCount}). This cannot be undone.
                 </AlertDialogDescription>
               </AlertDialogHeader>
               <AlertDialogFooter>
@@ -235,7 +300,8 @@ const Modules = () => {
             </AlertDialogContent>
           </AlertDialog>
         </>
-      ) : null}
+          );
+        })() : null}
 
       <div className="grid gap-2 sm:grid-cols-3">
         <Select value={subjectFilter} onValueChange={(value) => setSubjectFilter(value as typeof subjectFilter)}>
@@ -284,7 +350,7 @@ const Modules = () => {
             >
               <div
                 className="text-2xl leading-none tracking-[-0.02em] text-foreground"
-                style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontWeight: 400 }}
+                style={{ fontFamily: "'Geist', Georgia, serif", fontWeight: 400 }}
               >
                 Practice Set {practiceSet.setNumber}
               </div>

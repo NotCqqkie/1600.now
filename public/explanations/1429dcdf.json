@@ -1,15 +1,1 @@
-{
-  "questionId": "1429dcdf",
-  "correctAnswer": ".6956",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the parts relative to angle x\u00b0",
-      "content": "The right angle is at the bottom-left corner (marked by the square). Angle $x\u00b0$ is at the top-left corner. The hypotenuse is the longest side opposite the right angle, labeled 23. The side opposite angle $x\u00b0$ is the horizontal bottom side, which measures 16."
-    },
-    {
-      "title": "Apply the sine ratio",
-      "content": "For a right triangle, $\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$.<br/><br/>$$\\sin(x\u00b0) = \\frac{16}{23}$$<br/><br/>Evaluating: $16 \u00f7 23 \\approx 0.6956$."
-    }
-  ]
-}
+{"questionId": "1429dcdf", "correctAnswer": ".6956", "section": "Math", "steps": [{"title": "Identify the sides", "content": "In a right triangle, $\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$. From the figure, the side opposite $x^\\circ$ divided by the hypotenuse evaluates to about $0.6956$."}, {"title": "Identify the answer", "content": "So $\\sin y^\\circ$ (or $\\sin x^\\circ$) $= 0.6956$. The answer is <strong>.6956</strong>."}]}

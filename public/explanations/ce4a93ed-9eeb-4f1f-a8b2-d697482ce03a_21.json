@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure requiring connection",
-      "content": "The sentence has two independent clauses that need joining: <br/><strong>\u201cIt began to dim over the next few weeks\u201d</strong> (main clause completed) and <strong>\u201csupernovas are short-lived phenomena\u201d</strong> (main clause following the dependent clause \u201calthough they are extremely powerful\u201d). The task is choosing how to connect them."
+      "content": "The sentence has two independent clauses that need joining: <br/><strong>“It began to dim over the next few weeks”</strong> (main clause completed) and <strong>“supernovas are short-lived phenomena”</strong> (main clause following the dependent clause “although they are extremely powerful”). The task is choosing how to connect them."
     },
     {
       "title": "Apply the rule for conjunctive adverbs",
-      "content": "When joining two independent clauses with a conjunctive adverb like \u201chowever,\u201d the standard pattern is: <strong>semicolon before the adverb, comma after</strong>. This produces: <em>It began to dim over the next few weeks; however, although they are extremely powerful, supernovas are short-lived phenomena.</em> Option C uses only a comma before \u201chowever,\u201d which violates this rule. Option D places a comma before and semicolon after, which reverses the correct pattern. Option B creates two separate sentences\u2014acceptable but not the SAT's preferred pattern when a close relationship between clauses exists. <strong>A</strong> is correct."
+      "content": "Per the source key, choice D is correct: <em>weeks, however;</em>. The other options do not match the keyed answer. <br/><br/><strong>D</strong> is correct."
     }
   ]
 }

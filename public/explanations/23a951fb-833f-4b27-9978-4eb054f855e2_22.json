@@ -1,16 +1,1 @@
-{
-  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_22",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that angles K and L are complementary",
-      "content": "In a right triangle (angle J = 90\u00b0), the two acute angles must sum to 90\u00b0. Here, K + L = 71\u00b0 + 19\u00b0 = 90\u00b0."
-    },
-    {
-      "title": "Apply the cofunction identity",
-      "formula": "$$\\sin A = \\cos B \\text{ when } A + B = 90\u00b0$$",
-      "content": "Since K and L are complementary: $\\sin K = \\cos(90\u00b0 - K) = \\cos L$. Therefore $\\cos L = \\sin K$, which is choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_22", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recognize that angles K and L are complementary", "content": "In a right triangle (angle J = 90°), the two acute angles must sum to 90°. Here, K + L = 71° + 19° = 90°."}, {"title": "Apply the cofunction identity", "formula": "$$\\sin A = \\cos B \\text{ when } A + B = 90°$$", "content": "Since K and L are complementary: $\\sin K = \\cos(90° - K) = \\cos L$. Therefore $\\cos L = \\sin K$, which is choice B — <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_11",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand both sides",
-      "content": "$$36(x-1)=36x-36$$<br/>$$4(-9+9x)=-36+36x$$<br/>Both sides simplify to $$36x-36$$, so the equation becomes $$36x-36=36x-36$$."
-    },
-    {
-      "title": "Compare the expressions",
-      "content": "Since the left and right sides are identical for every value of $$x$$, the equation holds for all real numbers. Therefore there are infinitely many solutions.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_11", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Simplify the equation", "content": "Distribute both sides: $36(x-1)=36x-36$ and $4(-9+9x)=-36+36x$, giving $$36x-36=36x-36.$$"}, {"title": "Count the solutions", "content": "Both sides are identical, so the equation holds for every $x$ — infinitely many solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

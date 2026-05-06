@@ -1,15 +1,1 @@
-{
-  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_6",
-  "correctAnswer": "3",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation",
-      "content": "We want $f(x)=150$. Since $f(x)=50x$, substitute: $$50x = 150$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Divide both sides by 50: $$x = \\frac{150}{50} = 3$$ That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_6", "correctAnswer": "3", "section": "Math", "steps": [{"title": "Set up the equation", "content": "We want $f(x)=150$. Since $f(x)=50x$, substitute: $$50x = 150$$"}, {"title": "Solve for x", "content": "Divide both sides by 50: $$x = \\frac{150}{50} = 3$$ The answer is <strong>3</strong>."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "184ce5aa",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope of line h",
-      "content": "Start with the equation $$\\frac{1}{5}x+\\frac{1}{7}y-70=0$$. Rearrange to solve for $y$:<br/>$$\\frac{1}{7}y = -\\frac{1}{5}x + 70$$<br/>Multiply both sides by 7:<br/>$$y = -\\frac{7}{5}x + 490$$<br/>The slope of line $h$ is the coefficient of $x$: $m_h = -\\frac{7}{5}$."
-    },
-    {
-      "title": "Apply the perpendicularity rule",
-      "content": "For perpendicular lines, the slopes are negative reciprocals of each other. The negative reciprocal of $-\\frac{7}{5}$ is:<br/>$$m_j = -\\frac{1}{-\\frac{7}{5}} = \\frac{5}{7}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "184ce5aa", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the slope of the given line", "content": "Rewrite in slope-intercept form: $x/5 + y/7 - 70 = 0 → y=-7x/5 + 490$. So the slope of the given line is $-7/5$."}, {"title": "Identify the answer", "content": "Perpendicular slopes are negative reciprocals, so the slope of the perpendicular line is $5/7$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

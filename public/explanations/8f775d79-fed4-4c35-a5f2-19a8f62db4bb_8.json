@@ -1,15 +1,1 @@
-{
-  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8",
-  "correctAnswer": "450",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Backsolving \u2014 testing choice C (180)",
-      "content": "Substitute $x=50$, $y=180$ into the equation $$0.10x + 0.20y = 0.19(x+y)$$.<br/><br/>Compute left side: $$0.10(50) + 0.20(180) = 5 + 36 = 41$$.<br/><br/>Compute right side: $$0.19(50+180) = 0.19(230) = 43.7$$.<br/><br/>Since $41 \\neq 43.7$, choice C does not satisfy the equation."
-    },
-    {
-      "title": "Backsolving \u2014 testing choice D (450)",
-      "content": "Substitute $x=50$, $y=450$ into the equation $$0.10x + 0.20y = 0.19(x+y)$$.<br/><br/>Compute left side: $$0.10(50) + 0.20(450) = 5 + 90 = 95$$.<br/><br/>Compute right side: $$0.19(50+450) = 0.19(500) = 95$$.<br/><br/>Since both sides are equal, choice D satisfies the equation.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8", "correctAnswer": "450", "section": "Math", "steps": [{"title": "Backsolving — testing choice C (180)", "content": "Substitute $x=50$, $y=180$ into the equation $$0.10x + 0.20y = 0.19(x+y)$$.<br/><br/>Compute left side: $$0.10(50) + 0.20(180) = 5 + 36 = 41$$.<br/><br/>Compute right side: $$0.19(50+180) = 0.19(230) = 43.7$$.<br/><br/>Since $41 \\neq 43.7$, choice C does not satisfy the equation."}, {"title": "Backsolving — testing choice D (450)", "content": "Substitute $x=50$, $y=450$ into the equation $$0.10x + 0.20y = 0.19(x+y)$$.<br/><br/>Compute left side: $$0.10(50) + 0.20(450) = 5 + 90 = 95$$.<br/><br/>Compute right side: $$0.19(50+450) = 0.19(500) = 95$$.<br/><br/>Since both sides are equal, choice D satisfies the equation.<br/><br/>The answer is <strong>450</strong>."}]}

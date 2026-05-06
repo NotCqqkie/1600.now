@@ -1,15 +1,1 @@
-{
-  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Split the absolute value equation",
-      "content": "The equation $|x - 6| = 13$ means the distance from $x$ to 6 is 13. This gives two cases:<br/>$x - 6 = 13$ or $x - 6 = -13$<br/><br/>Solving each:<ul><li>From the first: $x = 19$</li><li>From the second: $x = -7$</li></ul>"
-    },
-    {
-      "title": "Use symmetry to find the sum",
-      "content": "The two solutions are symmetric around the center value 6. Notice that $19 = 6 + 13$ and $-7 = 6 - 13$. Therefore, their sum is:<br/>$$19 + (-7) = 12$$<br/><br/>This can also be seen directly: for $|x - a| = b$, the solutions always sum to $2a$. In our problem with $a = 6$, we get $2(6) = 12$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_11","correctAnswer":"B","section":"Math","steps":[{"title":"Solve the equation","content":"From $|x-6|=13$: $x-6=13$ or $x-6=-13$, so $x=19$ or $x=-7$."},{"title":"Sum the solutions","content":"Add: $19+(-7)=12$. (Shortcut: $|x-a|=b$ gives sum $2a=12$.)<br/><br/>The answer is <strong>B</strong>."}]}

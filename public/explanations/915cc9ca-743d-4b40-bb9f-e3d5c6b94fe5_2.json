@@ -1,15 +1,1 @@
-{
-  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_2",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the constant function",
-      "content": "In a linear function $f(x) = mx + b$, if two different inputs produce the same output, the slope $m$ must be 0. Since $f(0) = 2$ and $f(7) = 2$, we know that changing the input from 0 to 7 causes no change in output. Therefore, $f$ is a constant function: $f(x) = c$ for some constant $c$."
-    },
-    {
-      "title": "Use the given point to find the constant",
-      "content": "We know $f(0) = 2$, so the constant value is $c = 2$. Therefore, $f(x) = 2$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the slope", "content": "Two points on the line have the same output: $f(0)=f(\\cdot)=2$. Slope $=\\dfrac{2-2}{\\Delta x}=0$, so $f$ is constant."}, {"title": "Identify the answer", "content": "A constant function with value $2$ is $f(x)=2$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

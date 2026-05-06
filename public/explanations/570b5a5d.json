@@ -1,15 +1,1 @@
-{
-  "questionId": "570b5a5d",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express the target as a linear combination",
-      "content": "We want to find $\\frac{17}{2}x + 18y$ and notice it can be written as $a\\left(\\frac{7}{2}x + 6y\\right) + b\\left(\\frac{5}{2}x + 6y\\right)$ for some constants $a$ and $b$.<br/><br/>Expanding: $\\frac{7a + 5b}{2}x + 6(a+b)y$<br/><br/>Matching coefficients:<br/><ul><li>Coefficient of $x$: $\\frac{7a + 5b}{2} = \\frac{17}{2}$ gives $7a + 5b = 17$</li><li>Coefficient of $y$: $6(a + b) = 18$ gives $a + b = 3$</li></ul><br/>From $a + b = 3$, we get $b = 3 - a$. Substitute into the first equation:<br/>$$7a + 5(3 - a) = 17$$<br/>$$7a + 15 - 5a = 17$$<br/>$$2a = 2$$<br/>$$a = 1 \\text{ and } b = 2$$"
-    },
-    {
-      "title": "Apply the linear combination",
-      "content": "Since $(x, y)$ satisfies both original equations, we can use the same linear combination on their values:<br/>$$\\frac{17}{2}x + 18y = 1(25) + 2(23) = 25 + 46 = 71$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "570b5a5d", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the two equations: $(\\frac{7}{2}x + 6y) + (\\frac{5}{2}x + 6y) = 25 + 23$, giving $6x + 12y = 48$."}, {"title": "Find $\\tfrac{17}{2}x + 18y$", "content": "Subtract first from second: $-x = -2$ so $x = 2$. From first: $7 + 6y = 25$ so $y = 3$. Then $\\frac{17}{2}(2) + 18(3) = 17 + 54 = 71$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

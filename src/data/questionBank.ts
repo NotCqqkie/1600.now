@@ -655,6 +655,22 @@ export const getBankQuestion = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): BankQuestion | null => getBankPool(subject, bankSource)[questionIndex - 1] || null;
 
+const sourceIdIndexCache = new Map<string, Map<string, BankQuestion>>();
+
+export const getBankQuestionBySourceId = (
+  subject: BankSubject,
+  sourceId: string,
+  bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
+): BankQuestion | null => {
+  const cacheKey = makePoolCacheKey(subject, bankSource);
+  let index = sourceIdIndexCache.get(cacheKey);
+  if (!index) {
+    index = new Map(getBankPool(subject, bankSource).map((q) => [q.sourceId, q]));
+    sourceIdIndexCache.set(cacheKey, index);
+  }
+  return index.get(sourceId) ?? null;
+};
+
 export const getBankCounts = (
   bankSource: BankSourceFilter = DEFAULT_BANK_SOURCE,
 ): Record<BankSubject, number> => ({

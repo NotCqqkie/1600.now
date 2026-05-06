@@ -1,15 +1,1 @@
-{
-  "questionId": "3dffe9d2",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation",
-      "content": "The total cost is $62.00: the pass ($19.50) plus 10 identical stickers. If $s$ is the cost of one sticker:\n$$19.50 + 10s = 62.00$$"
-    },
-    {
-      "title": "Solve for the cost per sticker",
-      "content": "Subtract 19.50 from both sides:\n$$10s = 62.00 - 19.50 = 42.50$$\n\nDivide both sides by 10:\n$$s = \\frac{42.50}{10} = 4.25$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "3dffe9d2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the equation", "content": "The total cost is \\$62.00: the pass (\\$19.50) plus 10 identical stickers. If $s$ is the cost of one sticker:\n$$19.50 + 10s = 62.00$$"}, {"title": "Solve for the cost per sticker", "content": "Subtract 19.50 from both sides:\n$$10s = 62.00 - 19.50 = 42.50$$\n\nDivide both sides by 10:\n$$s = \\frac{42.50}{10} = 4.25$$\n\nThat matches choice B — <strong>B</strong> is correct."}]}

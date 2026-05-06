@@ -1,15 +1,1 @@
-{
-  "questionId": "71014fb1",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the perfect square constraint",
-      "content": "The left side of the equation is $(x-1)^2$, a perfect square. For any real number $x$, a perfect square is always non-negative: $(x-1)^2 \\geq 0$. However, the equation requires $(x-1)^2 = -4$, which is negative."
-    },
-    {
-      "title": "Conclude no solutions exist",
-      "content": "A non-negative quantity cannot equal a negative number. Since $(x-1)^2 \\geq 0$ but we need it to equal $-4$, this is impossible. There are no real solutions. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "71014fb1", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "A squared real number is $\\ge 0$, yet $$(x-1)^2=-4.$$ No real $x$ works."}, {"title": "Count the solutions", "content": "There are zero real solutions. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

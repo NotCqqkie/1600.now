@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Interpret the function structure",
-      "content": "The function $f(m) = 30 - 3m$ represents the remaining balance after renting $m$ movies. This follows the general pattern:<br/><div class=\"callout\">remaining balance = initial amount \u2212 (cost per movie) \u00d7 m</div>Here, the $30 is the initial amount, and the coefficient of $m$ tells us how the balance changes per movie."
+      "content": "The function $f(m) = 30 - 3m$ represents the remaining balance after renting $m$ movies. This follows the general pattern:<br/><div class=\"callout\">remaining balance = initial amount \u2212 (cost per movie) \u00d7 m</div>Here, the \\$30 is the initial amount, and the coefficient of $m$ tells us how the balance changes per movie."
     },
     {
       "title": "Determine the cost per movie",

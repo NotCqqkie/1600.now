@@ -1,15 +1,1 @@
-{
-  "questionId": "36fd6752",
-  "correctAnswer": "10",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rewrite both equations in standard form",
-      "content": "Simplify the second equation by combining like terms:<br/>$$7r - 5w = 5w + 11$$<br/>$$7r - 10w = 11$$<br/><br/>Rearrange the first equation:<br/>$$6 + 7r = pw$$<br/>$$7r - pw = -6$$"
-    },
-    {
-      "title": "Apply elimination and find p",
-      "content": "Subtract the second equation from the first to eliminate $r$:<br/>$$(7r - pw) - (7r - 10w) = -6 - 11$$<br/>$$w(10 - p) = -17$$<br/><br/>For this linear equation in $w$ to have no solution, the coefficient of $w$ must be zero while the right side is non-zero. Setting $10 - p = 0$ gives $p = 10$.<br/><br/>When $p = 10$, the equation becomes $0 = -17$, which is impossible. Therefore, $p = 10$."
-    }
-  ]
-}
+{"questionId": "36fd6752", "correctAnswer": "10", "section": "Math", "steps": [{"title": "Apply the no-solution condition", "content": "Rewrite as $7r-pw=-6$ and $7r-10w=11$. For no solution, coefficients of $r$ and $w$ must be proportional: $$\\frac{7}{7}=\\frac{-p}{-10}.$$"}, {"title": "Solve for the parameter", "content": "This gives $1=\\tfrac{p}{10}$, so $p=10$. The constants differ, confirming no solution. The answer is <strong>10</strong>."}]}

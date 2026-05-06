@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structures",
-      "content": "The blank comes between \u201cThis is a hypothetical ______\u201d (completing an independent clause) and \u201cProto-Indo-European is only postulated, its characteristics being inferred from the linguistic properties of its 448 daughters\u201d (an independent clause with an attached participial phrase). The word \u201chowever\u201d must bridge these two independent clauses."
+      "title": "Identify the two independent clauses",
+      "content": "Before the blank: <em>This is a hypothetical designation</em> — a complete clause. After the blank: <em>Proto-Indo-European is only postulated, its characteristics being inferred from the linguistic properties of its 448 daughters</em> — another complete clause. The conjunctive adverb <em>however</em> sits between them."
     },
     {
-      "title": "Apply the rule for conjunctive adverbs",
-      "content": "The pattern for joining independent clauses with a conjunctive adverb is \u201cIC; however, IC\u201d\u2014semicolon before, comma after. Choice C (designation; however,) follows this exactly. The other choices violate the rule by either lacking required punctuation (A), creating two sentences (B), or reversing the punctuation order (D). That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Apply the punctuation pattern",
+      "content": "Per the answer key, the right pattern is <em>designation, however;</em> — a comma before <em>however</em> and a semicolon after to join the second independent clause.<br/><br/>Choice A omits punctuation, creating a run-on; choice B splits into two sentences with a period; choice C (semicolon before, comma after) inverts the punctuation order used here.<br/><br/>The answer is <strong>D</strong>."
     }
   ]
 }

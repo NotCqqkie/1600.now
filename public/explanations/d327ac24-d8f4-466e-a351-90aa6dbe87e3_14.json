@@ -1,15 +1,1 @@
-{
-  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_14",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate f(4) and g(4)",
-      "content": "Substitute $x = 4$ into each function:<br/>$$f(4) = 4 + 5 = 9$$<br/>$$g(4) = 5 \\cdot 4 = 20$$"
-    },
-    {
-      "title": "Calculate 7f(4) - g(4)",
-      "content": "$$7f(4) - g(4) = 7(9) - 20 = 63 - 20 = 43$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_14","correctAnswer":"D","section":"Math","steps":[{"title":"Evaluate each function at x = 4","content":"Substitute $x=4$: $f(4)=4+5=9$ and $g(4)=5(4)=20$."},{"title":"Combine and compute","content":"$7f(4)-g(4)=7(9)-20=63-20=43$.<br/><br/>The answer is <strong>D</strong>."}]}

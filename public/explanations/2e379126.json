@@ -1,15 +1,1 @@
-{
-  "questionId": "2e379126",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = -7 into g(x) = 4x - 6",
-      "content": "To find $g(-7)$, substitute $x = -7$ directly into the function definition:<br/><br/>$$g(-7) = 4(-7) - 6$$"
-    },
-    {
-      "title": "Simplify the arithmetic",
-      "content": "$$g(-7) = -28 - 6 = -34$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2e379126", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value x = -7", "content": "Replace $x$ with $-7$ in $$g(x) = 4x - 6.$$ This gives $$g(-7) = 4(-7) - 6.$$"}, {"title": "Compute the result", "content": "Simplify: $$g(-7) = -28 - 6 = -34.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

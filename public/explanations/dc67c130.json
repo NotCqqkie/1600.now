@@ -1,15 +1,1 @@
-{
-  "questionId": "dc67c130",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the GCF of both terms",
-      "content": "Examine $64t^2s^3$ and $56t^3s$:<br/><ul><li>Coefficients: GCF(64, 56) = 4 (since $64 = 4 \\cdot 16$ and $56 = 4 \\cdot 14$)</li><li>Powers of $t$: minimum power is $t^2$</li><li>Powers of $s$: minimum power is $s$</li></ul>Overall GCF = $4t^2s$"
-    },
-    {
-      "title": "Divide each term by the GCF",
-      "content": "Divide both terms by $4t^2s$:<br/><ul><li>$\\frac{64t^2s^3}{4t^2s} = 16s^2$</li><li>$\\frac{56t^3s}{4t^2s} = 14t$</li></ul>Therefore, $64t^2s^3 - 56t^3s = 4t^2s(16s^2 - 14t)$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"dc67c130","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"Pull out the common factor $4t^2s$ to match the form of choice D:$$64t^2s^3-56t^3s=4t^2s(16s^2-14t)$$"},{"title":"Match to the answer choices","content":"The factored form is $4t^2s(16s^2-14t)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

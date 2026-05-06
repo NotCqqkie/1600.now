@@ -1,15 +1,1 @@
-{
-  "questionId": "062f86db",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that backsolving is the fastest method",
-      "content": "Since the answer choices are simple integers and fractions, testing them directly (backsolving) will be faster than using the quadratic formula. Start with a middle choice from the options."
-    },
-    {
-      "title": "Test choice C by substitution",
-      "content": "Backsolving \u2014 testing choice C (8): Substitute $x = 8$ into $5x^2 - 37x - 24$. <br/><br/>$$5(8)^2 - 37(8) - 24 = 5(64) - 296 - 24 = 320 - 296 - 24 = 0$$<br/><br/>The equation is satisfied. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "062f86db", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Factor the quadratic: $$(5x+3)(x-8)=0.$$ The roots are $x=-\\tfrac{3}{5}$ and $x=8$."}, {"title": "Identify the positive solution", "content": "Take the positive root. The answer is <strong>(C) $8$</strong>."}]}

@@ -1,14 +1,1 @@
-{
-  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_3",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve Linear Equation Step Directly",
-      "content": "The equation is $5x = 9$. To find $20x$, note that $20x = 4 \\cdot (5x)$.<br/>$$20x = 4 \\cdot 9 = 36$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": null,
-      "desmosExpressions": [],
-      "desmosGraphs": []
-    }
-  ]
-}
+{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_3","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Note $20x = 4 \\cdot 5x$, and $5x=9$."},{"title":"Compute the target value","content":"So $20x = 4 \\cdot 9 = 36$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "ba06b998-d854-4b29-830c-15d877280c75_3",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the length of the rectangle",
-      "content": "The width is 5 cm. The length is 30 cm longer than the width, so:<br/>$$\\text{Length} = 5 + 30 = 35 \\text{ cm}$$"
-    },
-    {
-      "title": "Calculate the area",
-      "content": "Use the rectangle area formula:<br/>$$A = \\text{length} \\times \\text{width} = 35 \\times 5 = 175 \\text{ square cm}$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ba06b998-d854-4b29-830c-15d877280c75_3","correctAnswer":"A","section":"Math","steps":[{"title":"Identify the dimensions","content":"The width is $w=5$ cm. The length is $30$ cm longer than the width, so $\\ell = 5 + 30 = 35$ cm."},{"title":"Apply the perimeter/area formula","content":"Area of a rectangle is $A = \\ell \\cdot w$, so $A = 35 \\cdot 5 = 175$ square cm. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the difference of squares pattern",
-      "content": "The expression $x^2 - 100y^2$ can be rewritten as $(x)^2 - (10y)^2$ since $100y^2 = (10y)^2$. This is a difference of squares in the form $a^2 - b^2$ with $a = x$ and $b = 10y$."
-    },
-    {
-      "title": "Apply the difference of squares formula",
-      "content": "Using the difference of squares formula with $a = x$ and $b = 10y$:<br/><br/>$$x^2 - 100y^2 = (x - 10y)(x + 10y)$$<br/><br/>Multiplying by the coefficient 11:<br/><br/>$$11(x^2 - 100y^2) = 11(x - 10y)(x + 10y)$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "formula": "$$a^2 - b^2 = (a-b)(a+b)$$"
-    }
-  ]
-}
+{"questionId":"91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_4","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"Inside the parentheses, $x^2-100y^2$ is a difference of squares: $(x-10y)(x+10y)$. Therefore:$$11(x^2-100y^2)=11(x-10y)(x+10y)$$"},{"title":"Match to the answer choices","content":"The factored form is $11(x-10y)(x+10y)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

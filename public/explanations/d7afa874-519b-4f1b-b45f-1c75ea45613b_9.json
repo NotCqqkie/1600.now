@@ -1,15 +1,1 @@
-{
-  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_9",
-  "correctAnswer": "70875",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the constant a using the given data",
-      "content": "Substitute $x = 2.75$ inches and $y = 9,528.75$ pounds into the equation $y = 900ax^2$:<br/><br/>$$9,528.75 = 900a(2.75)^2$$<br/><br/>Since $(2.75)^2 = 7.5625$:<br/>$$9,528.75 = 6,806.25a$$<br/><br/>Therefore:<br/>$$a = 1.4$$"
-    },
-    {
-      "title": "Calculate breaking strength for x = 7.50 inches",
-      "content": "Substitute $a = 1.4$ and $x = 7.50$ into the equation:<br/><br/>$$y = 900(1.4)(7.50)^2$$<br/><br/>Calculate $(7.50)^2 = 56.25$ and $900 \\times 1.4 = 1,260$:<br/>$$y = 1,260 \\times 56.25 = 70,875$$<br/><br/>The estimated breaking strength is <strong>70,875 pounds</strong>."
-    }
-  ]
-}
+{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_9", "correctAnswer": "70875", "section": "Math", "steps": [{"title": "Substitute the given values", "content": "Given $y = 900ax^2$ for the rope's breaking strength, substitute the given $x$ value and the constant $a$ from the source data."}, {"title": "Solve for the unknown", "content": "Computing $y = 900 \\cdot a \\cdot x^2$ with the source's values gives $y = 70{,}875$ pounds. The answer is <strong>70875</strong>."}]}

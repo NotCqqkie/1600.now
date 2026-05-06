@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_26",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify What Needs Emphasis",
-      "content": "The student's task is explicit: emphasize a difference between the two seaweeds. The notes show one measurable difference\u2014sugar kelp: moderate umami, ma-konbu: high umami. The answer must highlight this contrast."
-    },
-    {
-      "title": "Apply the Signal",
-      "content": "C presents the comparison as \u201cAlthough sugar kelp and ma-konbu are types of brown seaweed, the latter's umami flavor is more intense,\u201d using a structure that pivots from shared classification to the intensity difference. A treats the seaweeds identically, B redirects attention to unrelated foods, and D merely repeats their shared classification. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_26", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize a <em>difference</em> between sugar kelp (moderate umami) and ma-konbu (high umami). The correct choice must contrast the two intensities."}, {"title": "Match to choices", "content": "Only one choice highlights that ma-konbu's umami is more intense than sugar kelp's. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

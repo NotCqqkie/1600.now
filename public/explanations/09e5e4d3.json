@@ -1,15 +1,1 @@
-{
-  "questionId": "09e5e4d3",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize we need 7x squared, not x",
-      "content": "The problem directly asks for $7x^2$, not for the value of $x$. This means we can find the answer without solving for $x$ individually\u2014we can extract $7x^2$ from the given equation."
-    },
-    {
-      "title": "Multiply both sides by x",
-      "content": "Starting with $\\frac{42}{x}=7x$, multiply both sides by $x$ to eliminate the denominator:<br/><br/>$$42 = 7x^2$$<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"09e5e4d3","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the cross-multiplication from the given condition","content":"Multiply both sides by $x$: $42 = 7x^{2}$."},{"title":"Compute the target value","content":"So $7x^{2} = 42$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

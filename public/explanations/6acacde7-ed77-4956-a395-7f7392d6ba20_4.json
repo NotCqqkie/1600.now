@@ -1,15 +1,1 @@
-{
-  "questionId": "6acacde7-ed77-4956-a395-7f7392d6ba20_4",
-  "correctAnswer": "25",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the ratio a/b from the first equation",
-      "content": "From $\\frac{5a}{b} = 3.5$, divide both sides by 5:<br/><br/>$$\\frac{a}{b} = \\frac{3.5}{5} = 0.7$$"
-    },
-    {
-      "title": "Substitute into the second equation",
-      "content": "The second equation $\\frac{a}{bn} = 17.5$ can be rewritten as $\\frac{a}{b} \\cdot \\frac{1}{n} = 17.5$.<br/><br/>Substituting $\\frac{a}{b} = 0.7$:<br/><br/>$$0.7 \\cdot \\frac{1}{n} = 17.5$$<br/><br/>Divide both sides by 0.7:<br/><br/>$$\\frac{1}{n} = \\frac{17.5}{0.7} = 25$$"
-    }
-  ]
-}
+{"questionId":"6acacde7-ed77-4956-a395-7f7392d6ba20_4","correctAnswer":"25","section":"Math","steps":[{"title":"Find a/b from the first equation","content":"From $\\dfrac{5a}{b}=3.5$: $\\dfrac{a}{b}=\\dfrac{3.5}{5}=0.7$."},{"title":"Combine and compute","content":"Rewrite $\\dfrac{a}{bn}=\\dfrac{a}{b}\\cdot\\dfrac{1}{n}=17.5$. Substitute: $0.7\\cdot\\dfrac{1}{n}=17.5$, so $\\dfrac{1}{n}=25$.<br/><br/>The answer is <strong>25</strong>."}]}

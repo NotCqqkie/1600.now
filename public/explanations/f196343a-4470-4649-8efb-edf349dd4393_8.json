@@ -1,15 +1,1 @@
-{
-  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_8",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Simplify the expression",
-      "content": "First, combine like terms in the given expression \\( 3x^2 - 5x + 6x - 10 \\).<br/>The expression simplifies to $ 3x^2 + x - 10 $."
-    },
-    {
-      "title": "Check each factor",
-      "content": "<ul><li>To check if a given expression is a factor of \\( 3x^2 + x - 10 \\), substitute the root from each choice into the quadratic.</li><li>For choice <strong>C</strong> ($x = \\frac{5}{3}$ from setting $ 3x-5=0 $):<br/>Substitute $ x = \\frac{5}{3} $ into \\( 3x^2 + x - 10 \\): $$ 3\\left(\\frac{5}{3}\\right)^2 + \\frac{5}{3} - 10 = 3\\cdot\\frac{25}{9} + \\frac{5}{3} - 10 =  \\frac{75}{9} + \\frac{15}{9} - \\frac{90}{9} = 0 $$<br/><div class=\"callout\">Since $ 3x^2 + x - 10 = 0 $ when \\( x = \\frac{5}{3} \\), <strong>C</strong> is correct.</div></li><ul>"
-    }
-  ]
-}
+{"questionId": "f196343a-4470-4649-8efb-edf349dd4393_8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Group the terms", "content": "Group: $$(3x^2-5x)+(6x-10).$$"}, {"title": "Apply the common-factor step", "content": "Factor each pair: $x(3x-5)+2(3x-5)=(3x-5)(x+2)$."}, {"title": "Identify the matching factor", "content": "So $3x-5$ is a factor. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

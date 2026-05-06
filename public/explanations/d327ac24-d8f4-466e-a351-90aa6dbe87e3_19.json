@@ -1,15 +1,1 @@
-{
-  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_19",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the period of sine",
-      "content": "Sine is periodic with period $2\\pi$, so $\\sin(18\\pi) = \\sin(18\\pi \\bmod 2\\pi)$. To find the remainder when $18\\pi$ is divided by $2\\pi$: $$\\frac{18\\pi}{2\\pi} = 9$$ Since this division is exact, $18\\pi \\bmod 2\\pi = 0$."
-    },
-    {
-      "title": "Evaluate sin(0)",
-      "content": "$\\sin(18\\pi) = \\sin(0) = 0$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_19", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Compute each power", "content": "Sine has period $2\\pi$, and $18\\pi=9(2\\pi)$, so $$\\sin 18\\pi=\\sin 0.$$"}, {"title": "Add and identify", "content": "Therefore $\\sin 18\\pi=0$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

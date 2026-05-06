@@ -1,15 +1,1 @@
-{
-  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_8",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the known y-value",
-      "content": "Since $y = 35$ from the second equation, substitute it into the first equation:\n$$35 = 10x - 15$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Add 15 to both sides:\n$$50 = 10x$$\nDivide by 10:\n$$x = 5$$\nThe solution is $(5, 35)$, which is choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_8", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Substitute $y=35$ into the first equation: $$35=10x-15.$$ Solve: $10x=50$, so $x=5$."}, {"title": "Find the matching ordered pair", "content": "The ordered pair is $(5,35)$. The answer is <strong>(A) $(5,35)$</strong>."}]}

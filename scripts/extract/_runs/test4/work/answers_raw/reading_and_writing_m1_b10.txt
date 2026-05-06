@@ -1,0 +1,55 @@
+===Q18===
+ANSWER: A
+RATIONALE: It presents the conclusion that most logically completes the text's discussion about the significance of the cupid found at Pompeii. The text indicates that the cupid is near a statue of a female figure who is fishing, and it goes on to indicate that because Venus is associated with cupids, some scholars believe the female figure to be the goddess Venus. But the text then says that, according to archaeologist Carla Brain, cupids may have also been associated with the activity of fishing, which, if true, would suggest that the mere appearance of a cupid near a female figure engaged in fishing does not indicate with certainty that the figure is Venus (that is, the cupid might be associated with fishing, and the figure might be anyone at all).
+WRONG_B: The text says nothing about how often Venus was depicted fishing in Roman art; it only implies that in certain instances a female figure may or may not be Venus.
+WRONG_C: Carla Brain's proposed explanation for the presence of the cupids makes no reference to the female figure, and so the possibility that the figure in the mosaic is in fact Venus cannot be definitively eliminated.
+WRONG_D: There is nothing in the text to suggest that the only reasonable way to interpret the figure is as Venus.
+
+===Q19===
+ANSWER: A
+RATIONALE: The convention being tested is the use of plural and possessive nouns. The plural possessive noun "people's" and the plural noun "stories" correctly indicate that there are multiple stories from multiple people.
+WRONG_B: The context requires the plural possessive noun "people's" and the plural noun "stories," not the plural noun "peoples" and the singular possessive noun "story's."
+WRONG_C: The context requires the plural possessive noun "people's," not the plural noun "peoples."
+WRONG_D: The context requires the plural possessive noun "people's," not the singular possessive noun "story's."
+
+===Q20===
+ANSWER: D
+RATIONALE: The convention being tested is the use of verbs to express tense. In this choice, the present tense verb "survives" correctly indicates that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.
+WRONG_A: The past perfect verb "had survived" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.
+WRONG_B: The past tense verb "survived" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.
+WRONG_C: The conditional verb "would survive" doesn't indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.
+
+===Q21===
+ANSWER: D
+RATIONALE: The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence ("Defying…fast") and another sentence that begins with a supplementary phrase ("During…Olympics").
+WRONG_A: When a dash is present in a sentence ("ran—fast"), it's not conventional to use another dash ("fast—during") to mark the boundary between sentences because it creates a potentially confusing sentence. In this context, a period, semicolon, or colon would be clear and more conventional.
+WRONG_B: The sentences ("Defying…fast") and ("during…Olympics") are fused without punctuation and/or a conjunction.
+WRONG_C: A comma can't be used in this way to mark the boundary between sentences.
+
+===Q22===
+ANSWER: D
+RATIONALE: The convention being tested is subject-verb agreement. The singular verb "is" agrees in number with the singular subject "the triangle."
+WRONG_A: The plural verb "are" doesn't agree in number with the singular subject "the triangle."
+WRONG_B: The plural verb "have been" doesn't agree in number with the singular subject "the triangle."
+WRONG_C: The plural verb "were" doesn't agree in number with the singular subject "the triangle."
+
+===Q23===
+ANSWER: B
+RATIONALE: The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon in a conventional way to join the first main clause ("In 2004…sampler") and the second main clause ("in 2014…pillars").
+WRONG_A: It results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word "later" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction.
+WRONG_C: It results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word "later" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction.
+WRONG_D: It results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. The word "later" is an adverb and cannot be used to join two main clauses unless it is preceded by a conjunction.
+
+===Q24===
+ANSWER: C
+RATIONALE: The convention being tested is subject-modifier placement. This choice makes the noun phrase "Julian's 1935 synthesis" the subject of the sentence and places it immediately after the modifying phrase "named…years." In doing so, this choice clearly establishes that Julian's 1935 synthesis of the alkaloid physostigmine—and not another noun in the sentence—was named in 1999 as one of the greatest achievements by a US chemist in the past hundred years.
+WRONG_A: It results in a dangling modifier. The placement of the noun "Julian" immediately after the modifying phrase illogically suggests that Julian himself was named as one of the greatest achievements by a US chemist in the past hundred years.
+WRONG_B: It results in a dangling modifier. The placement of the prepositional phrase "in 1935" immediately after the modifying phrase illogically and confusingly suggests that "in 1935" was named as one of the greatest achievements by a US chemist in the past hundred years.
+WRONG_D: It results in a dangling modifier. The placement of the noun phrase "the alkaloid physostigmine" immediately after the modifying phrase illogically and confusingly suggests that the alkaloid physostigmine itself (not the synthesis of it) was named as one of the greatest achievements by a US chemist in the past hundred years.
+
+===Q25===
+ANSWER: B
+RATIONALE: The convention being tested is the punctuation of items in a complex series including internal punctuation. The semicolon after "nonnative" is correctly used to separate the first item ("growing diverse plant species, both native and nonnative") and the second item ("fostering scientific research") in the series of things that botanical gardens are dedicated to. Further, the comma after "species" is correctly used to separate the noun phrase "diverse plant species" and the supplementary phrase "both native and nonnative" that modifies it.
+WRONG_A: A comma (specifically, the comma after "nonnative") can't be used in this way to separate items in a complex series.
+WRONG_C: A semicolon can't be used in this way to separate the noun phrase "diverse plant species" and the supplementary phrase "both native and nonnative" that modifies it. Further, a comma can't be used in this way to separate items in a complex series.
+WRONG_D: It fails to use appropriate punctuation to separate "diverse plant species" and the supplementary phrase "both native and nonnative" that modifies it. Further, a comma can't be used in this way to separate items in a complex series.

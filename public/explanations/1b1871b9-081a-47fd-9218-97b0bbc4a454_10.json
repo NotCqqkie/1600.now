@@ -1,11 +1,1 @@
-{
-  "questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_10",
-  "correctAnswer": "18",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the value at the intersection of row and column",
-      "content": "Locate the row where air temperature is 29\u00b0F and the column labeled <em>Wind chill temperature at wind speed 15 mph</em>. The value at their intersection is <strong>18</strong>\u00b0F."
-    }
-  ]
-}
+{"questionId": "1b1871b9-081a-47fd-9218-97b0bbc4a454_10", "correctAnswer": "18", "section": "Math", "steps": [{"title": "Locate the row", "content": "Find the row corresponding to an air temperature of $29\\text{°F}$ in the table."}, {"title": "Read the value", "content": "In that row, the column for a wind speed of $15$ mph gives a wind chill of $18\\text{°F}$. The answer is <strong>18</strong>."}]}

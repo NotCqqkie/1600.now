@@ -1,15 +1,1 @@
-{
-  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_4",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Solve the equation",
-      "content": "Starting with $5x + 3 = 52$, subtract 3 from both sides:<br/>$$5x = 49$$<br/>Divide both sides by 5:<br/>$$x = \\frac{49}{5}$$"
-    },
-    {
-      "title": "Determine the number of solutions",
-      "content": "The equation yields exactly one solution: $x = \\frac{49}{5}$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Subtract $3$, then divide by $5$ in $5x+3=52$: $$x=\\tfrac{49}{5}.$$ The coefficient on $x$ is nonzero."}, {"title": "Count the solutions", "content": "There is exactly one solution. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

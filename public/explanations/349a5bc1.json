@@ -1,15 +1,1 @@
-{
-  "questionId": "349a5bc1",
-  "correctAnswer": "40",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the variable term",
-      "content": "Subtract 5 from both sides:<br/>$$4x + 5 - 5 = 165 - 5$$<br/>$$4x = 160$$"
-    },
-    {
-      "title": "Divide to solve for x",
-      "content": "Divide both sides by 4:<br/>$$\\frac{4x}{4} = \\frac{160}{4}$$<br/>$$x = 40$$"
-    }
-  ]
-}
+{"questionId": "349a5bc1", "correctAnswer": "40", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Subtract $5$ from both sides: $$4x=165-5=160.$$"}, {"title": "Solve for the variable", "content": "Divide by $4$: $x=40$. The answer is <strong>40</strong>."}]}

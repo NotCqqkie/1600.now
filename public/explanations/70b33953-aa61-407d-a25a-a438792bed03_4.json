@@ -1,15 +1,1 @@
-{
-  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_4",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the repeating expression and substitute",
-      "content": "The expression $(8 - 4x)$ appears on both sides of the equation. Let $u = 8 - 4x$ to simplify. Substituting into the original equation:<br/><br/>$$5u + 2 = 4u + 18$$"
-    },
-    {
-      "title": "Solve for u",
-      "content": "Subtract $4u$ from both sides and subtract 2 from both sides:<br/><br/>$$5u - 4u = 18 - 2$$<br/><br/>$$u = 16$$<br/><br/>Since $u = 8 - 4x$, the value of $8 - 4x$ is 16. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"70b33953-aa61-407d-a25a-a438792bed03_4","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $4(8-4x)+2$ from both sides: $(8-4x) = 18-2 = 16$."},{"title":"Compute the target value","content":"So $8-4x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

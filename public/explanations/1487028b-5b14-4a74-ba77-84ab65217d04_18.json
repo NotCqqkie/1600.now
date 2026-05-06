@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast being signaled",
-      "content": "The sentence describes two related but distinct ideas: (1) the novel originally had a different title, and (2) Dickens had planned to call it Mag's Diversions while writing/editing. A transition word is needed to signal how these relate. Since the second statement clarifies or adds to the first (rather than contradicting it directly), the transition word <strong>though</strong> \u2014 meaning \u201cgranted that\u201d or \u201cadmittedly\u201d \u2014 is the right choice."
+      "title": "Identify the structures",
+      "content": "Two independent clauses need to be joined: <em>Dickens's novel originally had a different title, though</em> and <em>while writing and editing, Dickens had planned to call the novel Mag's Diversions</em>. The transition <strong>though</strong> caps the first clause."
     },
     {
-      "title": "Match the punctuation pattern for parenthetical transitions",
-      "content": "When a transition word like <strong>though</strong> interrupts a sentence as a parenthetical remark, it must be set off by commas on both sides: \"...title, though, while writing...\" This pattern is standard in English. The comma after <strong>though</strong> allows the dependent clause \"while writing and editing\" to clearly modify the following independent clause \"Dickens had planned.\"<br/><br/>Choice A places a semicolon after <strong>though</strong>, which incorrectly tries to separate two independent clauses when a dependent clause follows. Choices C and D place the transition word directly before \"while\" without a comma after <strong>though</strong>, breaking the parenthetical pattern.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Apply the punctuation rule",
+      "content": "Choice A uses <em>title, though;</em> — a comma sets off the trailing transition <strong>though</strong>, and the semicolon then joins the two independent clauses. Choice B uses a comma after <em>though</em>, creating a comma splice. Choices C and D drop the needed punctuation between the independent clauses. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

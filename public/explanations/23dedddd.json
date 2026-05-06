@@ -1,15 +1,1 @@
-{
-  "questionId": "23dedddd",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope",
-      "content": "The slope is $$m = \\frac{f(1)-f(0)}{1-0} = \\frac{12-8}{1} = 4$$."
-    },
-    {
-      "title": "Write the equation",
-      "content": "Using the y-intercept b = f(0) = 8 and slope m = 4, the equation is $$f(x) = 4x + 8$$. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23dedddd", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Find the slope", "content": "Slope $=\\dfrac{12-8}{1-0}=4$. Use a known point to find the intercept: $f(x)=4x+8$."}, {"title": "Identify the answer", "content": "The function is $$f(x)=4x+8.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

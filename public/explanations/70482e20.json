@@ -1,15 +1,1 @@
-{
-  "questionId": "70482e20",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize like terms",
-      "content": "Both terms have the same variable part: $x^3$. Like terms can be combined by operating on their coefficients."
-    },
-    {
-      "title": "Combine the coefficients",
-      "content": "Since the variable parts are identical, subtract the coefficients and keep $x^3$: $$11x^3 - 5x^3 = (11 - 5)x^3 = 6x^3$$ That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"70482e20","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Subtract the $x^3$ terms:$$11x^3-5x^3=6x^3$$"},{"title":"Match to the answer choices","content":"The simplified expression is $6x^3$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

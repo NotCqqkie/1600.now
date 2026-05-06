@@ -1,15 +1,1 @@
-{
-  "questionId": "9654add7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find where the function equals zero",
-      "content": "The graph intersects the <em>x</em>-axis where $y = 0$, which means $f(x) = 0$.<br/>Set the function equal to zero:<br/>$$-500x^2 + 25,000x = 0$$<br/>Factor out $-500x$:<br/>$$-500x(x - 50) = 0$$<br/>This gives us $x = 0$ or $x = 50$. Since the problem states the intersections are at 0 and $a$, we have $a = 50$."
-    },
-    {
-      "title": "Interpret what $a$ represents",
-      "content": "At the <em>x</em>-axis intersection point $x = a$, we have $f(a) = 0$. This means the unit price $a$ results in a revenue of $\\$0$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9654add7", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find where the function equals zero", "content": "The graph intersects the <em>x</em>-axis where $y = 0$, which means $f(x) = 0$.<br/>Set the function equal to zero:<br/>$$-500x^2 + 25,000x = 0$$<br/>Factor out $-500x$:<br/>$$-500x(x - 50) = 0$$<br/>This gives us $x = 0$ or $x = 50$. Since the problem states the intersections are at 0 and $a$, we have $a = 50$."}, {"title": "Interpret what $a$ represents", "content": "At the <em>x</em>-axis intersection point $x = a$, we have $f(a) = 0$. This means the unit price $a$ results in a revenue of \\$0. That matches choice C — <strong>C</strong> is correct."}]}

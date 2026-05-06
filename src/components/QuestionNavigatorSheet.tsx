@@ -59,21 +59,34 @@ export const QuestionNavigatorSheet = ({
 }: QuestionNavigatorSheetProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     if (!isOpen) return;
     gridRef.current?.scrollTo({ top: 0 });
+    // Move focus into the panel so subsequent ESC goes to the panel-scoped
+    // listener rather than competing with global handlers (e.g. OnboardingTour).
+    panelRef.current?.focus();
   }, [isOpen]);
 
   useEffect(() => {
     if (!isOpen) return;
 
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setIsOpen(false);
+    const handlePointerDown = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node | null;
+      if (!target) return;
+      if (panelRef.current?.contains(target)) return;
+      if (triggerRef.current?.contains(target)) return;
+      setIsOpen(false);
     };
 
-    document.addEventListener("keydown", handleEscape);
-    return () => document.removeEventListener("keydown", handleEscape);
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("touchstart", handlePointerDown);
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("touchstart", handlePointerDown);
+    };
   }, [isOpen]);
 
   const getCenterStyle = () => {
@@ -93,14 +106,32 @@ export const QuestionNavigatorSheet = ({
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={() => setIsOpen((prev) => !prev)}>
+      <Button
+        ref={triggerRef}
+        variant="outline"
+        size="sm"
+        onClick={() => setIsOpen((prev) => !prev)}
+        aria-haspopup="dialog"
+        aria-expanded={isOpen}
+      >
         {buttonLabel}
       </Button>
 
       {isOpen && typeof document !== "undefined" && createPortal(
         <div
-          className="fixed bottom-20 z-30 w-[min(90vw,520px)] max-h-[55vh] overflow-hidden rounded-xl border-2 border-border bg-card p-4 shadow-xl"
+          ref={panelRef}
+          tabIndex={-1}
+          role="dialog"
+          aria-label={title}
+          className="fixed bottom-20 z-30 w-[min(90vw,520px)] max-h-[55vh] overflow-hidden rounded-xl border-2 border-border bg-card p-4 shadow-xl outline-none"
           style={getCenterStyle()}
+          onKeyDown={(event) => {
+            if (event.key === "Escape") {
+              event.stopPropagation();
+              setIsOpen(false);
+              triggerRef.current?.focus();
+            }
+          }}
         >
           <div className="mb-3 flex items-center justify-between border-b pb-3">
             <div>

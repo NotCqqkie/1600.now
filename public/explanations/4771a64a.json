@@ -1,15 +1,1 @@
-{
-  "questionId": "4771a64a",
-  "correctAnswer": "11",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use substitution to simplify",
-      "content": "Notice that $(2-4x)$ appears twice in the equation. Let $u = 2-4x$. The equation becomes: $$5 - 7u = 16 - 8u$$"
-    },
-    {
-      "title": "Solve for u",
-      "content": "Add $8u$ to both sides: $$5 + u = 16$$ Then subtract 5: $$u = 11$$ Therefore, $2-4x = 11$."
-    }
-  ]
-}
+{"questionId":"4771a64a","correctAnswer":"11","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Move the $(2-4x)$ terms together: $5-16 = 7(2-4x)-8(2-4x)$, giving $-11 = -(2-4x)$."},{"title":"Compute the target value","content":"So $2-4x = 11$. The answer is <strong>11</strong>."}]}

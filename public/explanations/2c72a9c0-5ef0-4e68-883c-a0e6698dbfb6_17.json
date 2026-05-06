@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_17",
-  "correctAnswer": "1/21,0.047,0.048,.0476",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the product of roots shortcut",
-      "content": "This problem asks for the <em>product</em> of the solutions \u2014 a trigger for Vieta's formulas. For any quadratic $ax^2 + bx + c = 0$, the product of the solutions is $\\frac{c}{a}$, with no need to solve the equation."
-    },
-    {
-      "title": "Apply Vieta's formula and solve for k",
-      "content": "In the equation $21x^2 + (21s+r)x + rs = 0$, we have $a = 21$ and $c = rs$.<br/><br/>By Vieta's formula: $$\\text{product of solutions} = \\frac{c}{a} = \\frac{rs}{21}$$<br/><br/>The problem states the product equals $krs$, so: $$krs = \\frac{rs}{21}$$<br/><br/>Dividing both sides by $rs$ (which is positive): $$k = \\frac{1}{21} \\approx 0.0476$$"
-    }
-  ]
-}
+{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_17", "correctAnswer": "1/21,0.047,0.048,.0476", "section": "Math", "steps": [{"title": "Apply Vieta's formula", "content": "For $ax^2+bx+c=0$, the product of the solutions equals $\\frac{c}{a}$. Here $a=21$ and $c=rs$, so the product is $\\frac{rs}{21}$."}, {"title": "Compute the constant", "content": "Setting $\\frac{rs}{21}=krs$ gives $$k=\\frac{1}{21}.$$ The answer is <strong>1/21</strong>."}]}

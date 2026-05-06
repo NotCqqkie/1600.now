@@ -1,15 +1,1 @@
-{
-  "questionId": "d76ab4f5",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the goal",
-      "content": "The given equation is $4x + 1 = 33$. Each choice shows an equation with $4x$ isolated on the left side. To match one of the choices, we need to remove the +1."
-    },
-    {
-      "title": "Subtract 1 from both sides",
-      "content": "$$4x + 1 = 33$$<br/>$$4x = 32$$<br/><br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d76ab4f5", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Starting from $$4x+1=33,$$ subtract 1 on both sides to isolate the variable term."}, {"title": "Identify the answer", "content": "This gives $$4x=32.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

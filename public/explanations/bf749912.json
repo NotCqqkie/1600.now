@@ -1,15 +1,1 @@
-{
-  "questionId": "bf749912",
-  "correctAnswer": "42",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute to simplify the repeated expression",
-      "content": "Notice that $(x+6)$ appears in both terms. Let $u = x+6$ to rewrite the equation as: $$\\frac{1}{3}u - \\frac{1}{2}u = -8$$"
-    },
-    {
-      "title": "Combine fractions and solve for x",
-      "content": "Convert to a common denominator of 6: $$\\frac{2u}{6} - \\frac{3u}{6} = -8$$ Combine the numerators: $$\\frac{-u}{6} = -8$$ Multiply both sides by $-6$: $$u = 48$$ Since $u = x+6$, substitute back: $$x+6 = 48$$ Therefore $x = 42$."
-    }
-  ]
-}
+{"questionId":"bf749912","correctAnswer":"42","section":"Math","steps":[{"title":"Combine like terms","content":"Factor $(x+6)$ from the left: $$\\left(\\tfrac{1}{3}-\\tfrac{1}{2}\\right)(x+6)=-8.$$ Since $\\tfrac{1}{3}-\\tfrac{1}{2}=-\\tfrac{1}{6}$, this becomes $-\\tfrac{1}{6}(x+6)=-8$."},{"title":"Solve for x","content":"Multiply both sides by $-6$: $x+6=48$, so $x=42$. The answer is <strong>42</strong>."}]}

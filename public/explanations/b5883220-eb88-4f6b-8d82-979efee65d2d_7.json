@@ -1,15 +1,1 @@
-{
-  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_7",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept from the graph",
-      "content": "The line crosses the y-axis where $x = 0$. From the graph, this occurs at the point $(0, 2)$."
-    },
-    {
-      "title": "Substitute the y-intercept into the equation to solve for B",
-      "content": "Substitute $x = 0$ and $y = 2$ into $10x + By = 50$:\n\n$$10(0) + B(2) = 50$$\n\n$$2B = 50$$\n\n$$B = 25$$\n\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b5883220-eb88-4f6b-8d82-979efee65d2d_7","correctAnswer":"A","section":"Math","steps":[{"title":"Read a clear point off the graph","content":"The line crosses the $y$-axis at the point $(0,2)$, an easy lattice point to read."},{"title":"Substitute and solve for B","content":"Plug $(0,2)$ into $10x+By=50$: $$10(0)+B(2)=50 \\Rightarrow 2B=50 \\Rightarrow B=25.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

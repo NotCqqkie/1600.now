@@ -1,15 +1,1 @@
-{
-  "questionId": "b05db4ac-dd48-4b3f-b365-b39330c879e5_5",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate the functions at x = 3",
-      "content": "First, find $f(3)$ using $f(x) = x + 2$:<br/>$$f(3) = 3 + 2 = 5$$<br/>Next, find $g(3)$ using $g(x) = 2x$:<br/>$$g(3) = 2(3) = 6$$"
-    },
-    {
-      "title": "Compute the expression 6f(3) - g(3)",
-      "content": "Substitute the values we found:<br/>$$6f(3) - g(3) = 6(5) - 6 = 30 - 6 = 24$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b05db4ac-dd48-4b3f-b365-b39330c879e5_5","correctAnswer":"D","section":"Math","steps":[{"title":"Evaluate each function at x = 3","content":"Substitute $x=3$: $f(3)=3+2=5$ and $g(3)=2(3)=6$."},{"title":"Combine and compute","content":"$6f(3)-g(3)=6(5)-6=30-6=24$.<br/><br/>The answer is <strong>D</strong>."}]}

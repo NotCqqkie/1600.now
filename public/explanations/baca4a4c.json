@@ -1,11 +1,1 @@
-{
-  "questionId": "baca4a4c",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the binomial by dividing both sides by 7",
-      "content": "The equation $7(2x-3) = 63$ has a factor of 7 multiplying $(2x-3)$. Divide both sides by 7 to isolate the expression inside the parentheses:<br/><br/>$$\\frac{7(2x-3)}{7} = \\frac{63}{7}$$<br/><br/>$$2x - 3 = 9$$<br/><br/>This directly matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "baca4a4c", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Starting from $$7(2x-3)=63,$$ divide both sides by 7 to isolate the variable term."}, {"title": "Identify the answer", "content": "This gives $$2x-3=9.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

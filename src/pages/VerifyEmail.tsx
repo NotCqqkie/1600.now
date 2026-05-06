@@ -12,7 +12,7 @@ const VerifyEmail = () => {
   const { toast } = useToast();
   const [resending, setResending] = useState(false);
   const [checking, setChecking] = useState(false);
-  const [cooldown, setCooldown] = useState(0);
+  const [cooldown, setCooldown] = useState(30);
   const pollRef = useRef<number | null>(null);
 
   // Redirect away if already verified or signed out.
@@ -54,8 +54,8 @@ const VerifyEmail = () => {
       await resendVerificationEmail();
       toast({ title: "Verification email sent", description: `We sent a new link to ${user?.email}.` });
       setCooldown(30);
-    } catch (err: any) {
-      toast({ variant: "destructive", title: "Couldn't send email", description: err?.message ?? "Try again in a minute." });
+    } catch (err) {
+      toast({ variant: "destructive", title: "Couldn't send email", description: (err as { message?: string })?.message ?? "Try again in a minute." });
     } finally {
       setResending(false);
     }
@@ -92,7 +92,7 @@ const VerifyEmail = () => {
           </div>
           <h1
             style={{
-              fontFamily: "'Instrument Serif', Georgia, serif",
+              fontFamily: "'Geist', Georgia, serif",
               fontSize: 32,
               letterSpacing: "-0.02em",
             }}

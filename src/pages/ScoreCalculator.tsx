@@ -143,7 +143,7 @@ const ScoreCalculator = () => {
   );
 
   return (
-    <div className="min-h-screen" style={{ fontFamily: "'Outfit', sans-serif", backgroundColor: themeColors.pageBg }}>
+    <div className="min-h-screen" style={{ fontFamily: "'Geist', sans-serif", backgroundColor: themeColors.pageBg }}>
       <main style={{ maxWidth: 1100, margin: "0 auto", padding: isPhone ? "20px 12px 56px" : "32px 24px 80px" }}>
         {/* Side-by-side: sliders left, score info right — both stretch to equal height */}
         <div style={{ display: "flex", flexDirection: isPhone ? "column" : "row", gap: isPhone ? 18 : 28, alignItems: "stretch" }}>
@@ -424,7 +424,7 @@ const ScoreSummaryCard = ({
                 className="score-number"
                 style={
                   {
-                    fontFamily: "'Instrument Serif', Georgia, serif",
+                    fontFamily: "'Geist', Georgia, serif",
                     fontSize: 64,
                     lineHeight: 0.9,
                     color: scores.totalColor,
@@ -557,7 +557,7 @@ const ScoreSummaryCard = ({
           fontSize: 13,
           fontWeight: 700,
           cursor: "pointer",
-          fontFamily: "'Outfit', sans-serif",
+          fontFamily: "'Geist', sans-serif",
           transition: "transform 0.15s ease, opacity 0.15s ease",
         }}
         onMouseEnter={(e) => {

@@ -20,7 +20,6 @@ const PillarPage = () => {
   if (!pillar) return <Navigate to="/" replace />;
 
   const url = `https://1600.now/${pillar.slug}`;
-  const pillarMtime = new Date().toISOString().slice(0, 10);
 
   const relatedSkills = (pillar.relatedSkillSlugs ?? [])
     .map((s) => satSkillBySlug.get(s))
@@ -50,7 +49,6 @@ const PillarPage = () => {
             description: pillar.metaDescription,
             url,
             datePublished: PILLAR_PUBLISHED,
-            dateModified: pillarMtime,
           }),
           buildFaqJsonLd(pillar.faqs),
         ]}

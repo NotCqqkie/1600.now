@@ -1,15 +1,1 @@
-{
-  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_6",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize that adding the equations eliminates y",
-      "content": "Notice that the first equation has $+5y$ and the second has $-5y$. When we add these equations together, the $y$ terms will cancel, leaving us with an equation in only $x$. This is the fastest path to the answer."
-    },
-    {
-      "title": "Add the equations and solve for x",
-      "content": "Adding equation 1 and equation 2:<br/>$$(x + 5y) + (x - 5y) = 5 + 7$$<br/>$$2x = 12$$<br/>$$x = 6$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_6", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the two equations to cancel $y$: $$(x+5y)+(x-5y)=5+7\\Rightarrow 2x=12.$$"}, {"title": "Find $x$", "content": "Divide by 2: $x=6$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

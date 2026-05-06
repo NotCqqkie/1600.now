@@ -1,15 +1,1 @@
-{
-  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_2",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Distribute 3xy to both terms",
-      "content": "Multiply $3xy$ by each term inside the parentheses:\n$$3xy(2x^{2}+7y) = (3xy) \\cdot 2x^{2} + (3xy) \\cdot 7y$$"
-    },
-    {
-      "title": "Simplify each product",
-      "content": "$3xy \\cdot 2x^{2} = 6x^{3}y$ (multiply coefficients: $3 \\cdot 2 = 6$, and combine $x \\cdot x^{2} = x^{3}$).<br>$3xy \\cdot 7y = 21xy^{2}$ (multiply coefficients: $3 \\cdot 7 = 21$, and combine $y \\cdot y = y^{2}$).<br><br>Combined:\n$$6x^{3}y + 21xy^{2}$$\nThat matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_2","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $3xy$ across the parentheses:$$3xy\\cdot 2x^2+3xy\\cdot 7y=6x^3y+21xy^2$$"},{"title":"Match to the answer choices","content":"The simplified expression is $6x^3y+21xy^2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the intensity difference",
-      "content": "The notes rate konbu\u2019s umami as moderate and arame\u2019s as high, showing arame has a stronger umami flavor."
-    },
-    {
-      "title": "Pick the choice that reflects that contrast",
-      "content": "Choice A notes that both are brown seaweed but points out that arame\u2019s umami is more intense, matching the notes. The other choices either describe a similarity, bring in unrelated foods, or merely state both are seaweeds without any contrast. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2151936b-0a32-450c-9679-a3f550831cb9_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to emphasize a <em>difference</em> between North Pacific konbu (moderate umami) and arame (high umami). The correct choice must contrast the two intensities."}, {"title": "Match to choices", "content": "Only one choice highlights that arame's umami is more intense than North Pacific konbu's. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

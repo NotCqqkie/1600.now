@@ -1,15 +1,1 @@
-{
-  "questionId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_13",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute for the repeated expression",
-      "content": "The expression $(3x+6)$ appears on both sides of the equation. Set $u = 3x + 6$ to simplify. The equation becomes:<br/><br/>$$5u = 3u + 78$$"
-    },
-    {
-      "title": "Solve for u",
-      "content": "Subtract $3u$ from both sides:<br/><br/>$$5u - 3u = 78$$<br/>$$2u = 78$$<br/>$$u = 39$$<br/><br/>Since $u = 3x + 6$, we have $3x + 6 = 39$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"816fedc1-1434-4eb8-aa3b-6715a1e738ae_13","correctAnswer":"B","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $3(3x+6)$: $2(3x+6)=78$."},{"title":"Compute the target value","content":"Divide by $2$: $3x+6 = 39$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

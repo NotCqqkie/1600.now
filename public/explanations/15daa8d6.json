@@ -1,15 +1,1 @@
-{
-  "questionId": "15daa8d6",
-  "correctAnswer": "2",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand the right-hand side",
-      "content": "$$2x+16 = a(x+8) = ax + 8a$$"
-    },
-    {
-      "title": "Match coefficients for infinitely many solutions",
-      "content": "For the equation to hold for all $x$, the coefficients of $x$ and the constant terms must be equal:<br/>$$2 = a$$ and $$16 = 8a$$<br/>Solving $$16 = 8a$$ gives $$a = 2$$, which also satisfies $$2 = a$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "15daa8d6", "correctAnswer": "2", "section": "Math", "steps": [{"title": "Expand the right-hand side", "content": "$$2x+16 = a(x+8) = ax + 8a$$"}, {"title": "Match coefficients for infinitely many solutions", "content": "For the equation to hold for all $x$, the coefficients of $x$ and the constant terms must be equal:<br/>$$2 = a$$ and $$16 = 8a$$<br/>Solving $$16 = 8a$$ gives $$a = 2$$, which also satisfies $$2 = a$$.<br/>The answer is <strong>2</strong>."}]}

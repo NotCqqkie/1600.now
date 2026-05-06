@@ -1,5 +1,6 @@
 import type { PracticeSet } from "@/data/modulePracticeBank";
 import { satCalculatorYears } from "@/data/satCalculator";
+import { answersEquivalent } from "@/lib/answerEquivalence";
 import type { ModulePracticeQuestionState } from "@/lib/modulePracticeSession";
 
 export interface PracticeTestModuleSession {
@@ -126,9 +127,6 @@ const readJson = <T>(storage: Storage, key: string): T | null => {
 const writeJson = (storage: Storage, key: string, value: unknown) => {
   storage.setItem(key, JSON.stringify(value));
 };
-
-const normalizeAnswer = (answer: string | null | undefined) =>
-  (answer ?? "").toString().trim().toLowerCase().replace(/\s+/g, "");
 
 const buildSessionId = (practiceSetId: string) =>
   `${practiceSetId}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
@@ -353,9 +351,7 @@ export const buildPracticeTestResult = (
       const userAnswer =
         question.type === "free-response" ? state.freeResponseAnswer : state.answer;
       const isAnswered = Boolean(userAnswer);
-      const isCorrect =
-        isAnswered &&
-        normalizeAnswer(userAnswer) === normalizeAnswer(question.correctAnswer);
+      const isCorrect = isAnswered && answersEquivalent(userAnswer, question.correctAnswer);
 
       return {
         globalQuestionNumber: session.modules[moduleIndex].startIndex + entry.slot,
@@ -440,15 +436,33 @@ export const buildPracticeTestResult = (
 };
 
 export const savePracticeTestResult = (result: PracticeTestResult) => {
-  writeJson(sessionStorage, `${RESULT_PREFIX}${result.sessionId}`, result);
-  writeJson(sessionStorage, `${LATEST_RESULT_PREFIX}${result.practiceSetId}`, result);
+  writeJson(localStorage, `${RESULT_PREFIX}${result.sessionId}`, result);
+  writeJson(localStorage, `${LATEST_RESULT_PREFIX}${result.practiceSetId}`, result);
 };
 
 export const getPracticeTestResult = (
   sessionId: string,
-): PracticeTestResult | null => readJson<PracticeTestResult>(sessionStorage, `${RESULT_PREFIX}${sessionId}`);
+): PracticeTestResult | null => {
+  const fromLocal = readJson<PracticeTestResult>(localStorage, `${RESULT_PREFIX}${sessionId}`);
+  if (fromLocal) return fromLocal;
+  return readJson<PracticeTestResult>(sessionStorage, `${RESULT_PREFIX}${sessionId}`);
+};
 
 export const getLatestPracticeTestResult = (
   practiceSetId: string,
-): PracticeTestResult | null =>
-  readJson<PracticeTestResult>(sessionStorage, `${LATEST_RESULT_PREFIX}${practiceSetId}`);
+): PracticeTestResult | null => {
+  const fromLocal = readJson<PracticeTestResult>(localStorage, `${LATEST_RESULT_PREFIX}${practiceSetId}`);
+  if (fromLocal) return fromLocal;
+  return readJson<PracticeTestResult>(sessionStorage, `${LATEST_RESULT_PREFIX}${practiceSetId}`);
+};
+
+export const getAllPracticeTestResults = (): PracticeTestResult[] => {
+  const results: PracticeTestResult[] = [];
+  for (let index = 0; index < localStorage.length; index += 1) {
+    const key = localStorage.key(index);
+    if (!key || !key.startsWith(RESULT_PREFIX)) continue;
+    const result = readJson<PracticeTestResult>(localStorage, key);
+    if (result) results.push(result);
+  }
+  return results.sort((a, b) => b.submittedAt - a.submittedAt);
+};

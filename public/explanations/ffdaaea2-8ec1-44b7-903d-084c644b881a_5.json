@@ -1,15 +1,1 @@
-{
-  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_5",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the area formula structure",
-      "content": "The area of a rectangle equals (length) \u00d7 (width). We're given the formula $y = (49w)(w)$, where $y$ is the area. This means the product $(49w)(w)$ must represent length \u00d7 width."
-    },
-    {
-      "title": "Match the factors to the dimensions",
-      "content": "The problem states: length = 49 \u00d7 (width). In our formula, $(49w) = 49 \\times (w)$. Since length is 49 times the width, and $(49w)$ is 49 times $(w)$, the factor $(49w)$ must be the length and $(w)$ must be the width. Therefore, $49w$ represents the length of the rectangle in feet. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ffdaaea2-8ec1-44b7-903d-084c644b881a_5","correctAnswer":"A","section":"Math","steps":[{"title":"Set up the dimensions","content":"Width is $w$ feet. The length is $49$ times the width, so length $=49w$ feet. Area $=$ length $\\times$ width gives $$y=(49w)(w).$$"},{"title":"Interpret the factor","content":"In $(49w)(w)$, the factor $w$ is the width, so $(49w)$ must be the length. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

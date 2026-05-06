@@ -49,10 +49,13 @@ import {
   getBankCounts,
   getBankPool,
   getBankQuestion,
+  getBankQuestionBySourceId,
   normalizeBankSource,
   type BankSourceFilter,
 } from "@/data/questionBank";
+import { getSynthesizedPracticeQuestion } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
+import { answersEquivalent } from "@/lib/answerEquivalence";
 import { renderMixedContent } from "@/lib/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
 import { applyTheme } from "@/lib/theme";
@@ -522,15 +525,19 @@ function Question() {
     practiceTestSetId ? getPracticeTestSession(practiceTestSetId) : null,
   );
 
-  const questionNumber = parseInt(id || "1", 10);
+  const idParam = id || "1";
+  const questionNumber = parseInt(idParam, 10);
   const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
 
   const questionData = useMemo(() => {
     if (is100Hard) {
       return hardQuestions.find(q => q.id === questionNumber);
     }
-    
-    const q = getBankQuestion(subject, questionNumber, bankSource);
+
+    const q =
+      getBankQuestionBySourceId(subject, idParam, bankSource) ??
+      getSynthesizedPracticeQuestion(subject, idParam) ??
+      (/^\d+$/.test(idParam) ? getBankQuestion(subject, questionNumber, bankSource) : null);
 
     if (!q) return null;
     return {
@@ -538,7 +545,7 @@ function Question() {
       uuid: q.stableId,
     };
 
-  }, [is100Hard, questionNumber, subject, bankSource]);
+  }, [is100Hard, idParam, questionNumber, subject, bankSource]);
   const currentQuestion = questionData;
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
@@ -598,6 +605,8 @@ function Question() {
   const [strikeoutMode, setStrikeoutMode] = useState(false);
   const [struckOutChoiceIds, setStruckOutChoiceIds] = useState<string[]>([]);
   const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
+  const [checkFlashKey, setCheckFlashKey] = useState(0);
+  const [checkColorVisible, setCheckColorVisible] = useState(false);
   const [checkedAnswers, setCheckedAnswers] = useState<Record<string, boolean>>({});
   const [splitScreenWindows, setSplitScreenWindows] = useState<Set<string>>(new Set());
   const [sidebarredWindows, setSidebarredWindows] = useState<Set<string>>(new Set());
@@ -623,8 +632,6 @@ function Question() {
   const [groupedOrderVersion, setGroupedOrderVersion] = useState(0);
   const [isQuestionInfoOpen, setIsQuestionInfoOpen] = useState(false);
   const [isReportOpen, setIsReportOpen] = useState(false);
-  const [isFlagOpen, setIsFlagOpen] = useState(false);
-  const [flagNote, setFlagNote] = useState("");
   const [isNoteWindowOpen, setIsNoteWindowOpen] = useState(false);
   const [isAnnotationModeEnabled, setIsAnnotationModeEnabled] = useState<boolean>(() => {
     if (typeof window === "undefined") return true;
@@ -1208,6 +1215,16 @@ function Question() {
     setStruckOutChoiceIds([]);
   }, [isAssessmentMode, questionNumber, currentQuestion?.uuid]);
 
+  useEffect(() => {
+    if (checkButtonState === "idle") {
+      setCheckColorVisible(false);
+      return;
+    }
+    setCheckColorVisible(true);
+    const fadeTimer = window.setTimeout(() => setCheckColorVisible(false), 3500);
+    return () => window.clearTimeout(fadeTimer);
+  }, [checkButtonState, checkFlashKey]);
+
   const emphasizeReadingHeaders = (content: string): string => {
     const fullLineHeaderPatterns = [
       /^text\s*\d+$/i,
@@ -1235,6 +1252,7 @@ function Question() {
       return null;
     };
 
+    let seenContent = false;
     return content
       .split("\n")
       .map((line) => {
@@ -1243,8 +1261,14 @@ function Question() {
 
         const normalizedHeader = trimmed.replace(/^text\s*(\d+)$/i, "Text $1");
         if (fullLineHeaderPatterns.some((pattern) => pattern.test(trimmed) || pattern.test(normalizedHeader))) {
-          return line.replace(trimmed, `<strong>${normalizedHeader}</strong>`);
+          const style = seenContent
+            ? "display:block;line-height:1.45;margin-top:1.2em;margin-bottom:0.35em;"
+            : "display:block;line-height:1.45;margin-bottom:0.35em;";
+          seenContent = true;
+          return line.replace(trimmed, `<strong style="${style}">${normalizedHeader}</strong>`);
         }
+
+        seenContent = true;
 
         if (!partialLineHeaderPatterns.some((pattern) => pattern.test(trimmed))) {
           return line;
@@ -1259,7 +1283,10 @@ function Question() {
         const remainder = trimmed.slice(boundary);
         return line.replace(trimmed, `<strong>${intro}</strong>${remainder}`);
       })
-      .join("\n");
+      .join("\n")
+      .replace(/(<strong style="display:block[^"]*">[^<]*<\/strong>)\n+/g, "$1")
+      .replace(/\n+(<strong style="display:block)/g, "$1")
+      .replace(/^\n+/, "");
   };
 
   const promoteLeadingReadingHeader = (html: string): string => {
@@ -1268,7 +1295,7 @@ function Question() {
     return html.replace(
       /^\s*<strong>([\s\S]*?)<\/strong>(?:<br\s*\/?>\s*)?/i,
       (_match, inner: string) =>
-        `<strong style="display:block;font-size:1.08em;line-height:1.45;margin-bottom:0.35em;">${inner.trim()}</strong>`,
+        `<strong style="display:block;line-height:1.45;margin-bottom:0.35em;">${inner.trim()}</strong>`,
     );
   };
 
@@ -1344,18 +1371,14 @@ function Question() {
   const canGoPrevious = is100Hard
     ? currentOrderedQuestionIndex > 0
     : isPracticeTestMode
-      ? practiceTestReviewPhase
-        ? currentPracticeIndex > practiceTestCurrentModuleStartIndex
-        : currentPracticeIndex > practiceTestCurrentModuleStartIndex
+      ? currentPracticeIndex > practiceTestCurrentModuleStartIndex
     : effectivePracticeMode
       ? currentPracticeIndex > 0
       : currentOrderedQuestionIndex > 0;
   const canGoNext = is100Hard
     ? currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1
     : isPracticeTestMode
-      ? practiceTestReviewPhase
-        ? currentPracticeIndex < practiceTestCurrentModuleEndIndex
-        : currentPracticeIndex < practiceTestCurrentModuleEndIndex
+      ? currentPracticeIndex < practiceTestCurrentModuleEndIndex
     : effectivePracticeMode
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
@@ -1443,7 +1466,8 @@ function Question() {
       params.set("practiceTestSession", practiceTestStateSessionId);
     }
 
-    navigate(`${base}/${target.subject}/${target.id}?${params.toString()}`);
+    const targetIdSegment = target.sourceId ?? target.id;
+    navigate(`${base}/${target.subject}/${targetIdSegment}?${params.toString()}`);
   };
 
   const submitPracticeTestCurrentModule = useCallback((sessionToSubmit: PracticeTestSessionMeta) => {
@@ -1632,6 +1656,7 @@ function Question() {
   };
 
   const handleCheck = (overrideAnswer?: string) => {
+    if (!currentQuestion) return;
     if (isAssessmentMode && !assessmentAllowsChecking) return;
     const userAnswer = overrideAnswer || (currentQuestion.type === 'multiple-choice' ? selectedAnswer : freeResponseAnswer);
     
@@ -1642,14 +1667,16 @@ function Question() {
 
     const alreadyCorrect = Object.values(checkedAnswers).some(Boolean);
     if (alreadyCorrect) return;
-    if (checkedAnswers[userAnswer] !== undefined) return;
+    if (checkedAnswers[userAnswer] !== undefined) {
+      setCheckFlashKey((k) => k + 1);
+      return;
+    }
 
     if (overrideAnswer && overrideAnswer !== selectedAnswer) {
       setSelectedAnswer(overrideAnswer);
     }
 
-    const normalizeAnswer = (answer: string) => answer.toString().trim().toLowerCase().replace(/\s+/g, '');
-    const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(currentQuestion.correctAnswer);
+    const isCorrect = answersEquivalent(userAnswer, currentQuestion.correctAnswer);
     
     let formattedAnswer = userAnswer;
     if (currentQuestion.type === "multiple-choice" && currentQuestion.choices) {
@@ -1663,6 +1690,7 @@ function Question() {
     setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
+    setCheckFlashKey((k) => k + 1);
 
     if (isCorrect) {
       const status = newAttemptCount === 1 ? 'correct-first' : 'correct-later';
@@ -1709,12 +1737,12 @@ function Question() {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
-      if (target.tagName === 'TEXTAREA') {
+      if (target.tagName === 'TEXTAREA' || target.isContentEditable || target.closest('[contenteditable="true"]')) {
         return;
       }
 
       if (target.tagName === 'INPUT') {
-        if (e.key === 'Enter' && (!isAssessmentMode || assessmentAllowsChecking)) {
+        if (e.key === 'Enter' && currentQuestion && (!isAssessmentMode || assessmentAllowsChecking)) {
           e.preventDefault();
           handleCheck();
         }
@@ -1796,12 +1824,22 @@ function Question() {
     assessmentAllowsChecking,
   ]);
 
-  const hasSelection = currentQuestion.type === 'multiple-choice' ? Boolean(selectedAnswer) : Boolean(freeResponseAnswer);
+  const hasSelection = currentQuestion
+    ? currentQuestion.type === 'multiple-choice'
+      ? Boolean(selectedAnswer)
+      : Boolean(freeResponseAnswer)
+    : false;
   const isCheckDisabled = !hasSelection || checkButtonState === "correct-first" || checkButtonState === "correct-later";
 
   const getCheckButtonClasses = () => {
     if (!hasSelection && checkButtonState === "idle") {
       return "bg-background text-foreground border-border";
+    }
+
+    if (!checkColorVisible) {
+      return hasSelection
+        ? "bg-primary/10 hover:bg-primary/20 border-primary/40 text-foreground"
+        : "bg-background text-foreground border-border";
     }
 
     switch (checkButtonState) {
@@ -1816,7 +1854,7 @@ function Question() {
     }
   };
 
-  const questionWithBankFields = currentQuestion as Partial<{
+  const questionWithBankFields = (currentQuestion ?? {}) as Partial<{
     prompt: string;
     questionText: string;
     passage: string;
@@ -1983,10 +2021,6 @@ function Question() {
   };
   const handleTimerExpiredSubmit = () => {
     setIsTimerExpiredOpen(false);
-    if (isModulePracticeMode && modulePracticeAllowsChecking) {
-      handleModulePracticeReview();
-      return;
-    }
     handleModulePracticeReview();
   };
   const displayedTimerSeconds =
@@ -2110,6 +2144,8 @@ function Question() {
               ? "answered"
               : "unanswered",
       }));
+    } else {
+      localStorage.setItem(`${localStateKey}-answer`, answer);
     }
   };
   const handleStrikeoutChange = (choiceIds: string[]) => {
@@ -2120,7 +2156,7 @@ function Question() {
       struckOutChoiceIds: choiceIds,
     }));
   };
-  const modulePracticeNavigatorItems = useMemo(() => {
+  const modulePracticeNavigatorItems = (() => {
     if (isPracticeTestMode && practiceTestStateSessionId) {
       const navigatorItems = practiceSet
         .slice(practiceTestCurrentModuleStartIndex, practiceTestCurrentModuleEndIndex + 1)
@@ -2180,20 +2216,7 @@ function Question() {
         title: `${item.subject === "math" ? "Math" : "Reading"} Q${item.id}`,
       };
     });
-  }, [
-    currentPracticeIndex,
-    isPracticeTestMode,
-    practiceTestAllowsChecking,
-    practiceTestStateSessionId,
-    practiceTestReviewPhase,
-    practiceTestCurrentModuleStartIndex,
-    practiceTestCurrentModuleEndIndex,
-    isModulePracticeMode,
-    modulePracticeAllowsChecking,
-    modulePracticeStateSessionId,
-    navigateToPracticeIndex,
-    practiceSet,
-  ]);
+  })();
   const practiceTestAdvanceLabel =
     isPracticeTestMode && !canGoNext
       ? practiceTestSessionMeta && practiceTestSessionMeta.activeModuleIndex === practiceTestSessionMeta.modules.length - 1
@@ -2228,37 +2251,6 @@ function Question() {
         onOpenChange={setIsReportOpen}
         questionId={currentQuestion?.uuid}
       />
-      <Dialog open={isFlagOpen} onOpenChange={(o) => { setIsFlagOpen(o); if (!o) setFlagNote(""); }}>
-        <DialogContent className="max-w-sm">
-          <DialogHeader>
-            <DialogTitle>Flag question</DialogTitle>
-          </DialogHeader>
-          <textarea
-            autoFocus
-            value={flagNote}
-            onChange={(e) => setFlagNote(e.target.value)}
-            placeholder="Describe the issue…"
-            className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-ring"
-            rows={4}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) e.currentTarget.closest("form")?.requestSubmit();
-            }}
-          />
-          <Button
-            onClick={() => {
-              const flagged = JSON.parse(localStorage.getItem("flagged_questions") ?? "[]");
-              const entry = { uuid: currentQuestion?.uuid, id: currentQuestion?.id, subject, url: window.location.href, note: flagNote.trim(), flaggedAt: new Date().toISOString() };
-              flagged.push(entry);
-              localStorage.setItem("flagged_questions", JSON.stringify(flagged));
-              console.log("[FLAG]", entry, "| total flagged:", flagged.length);
-              setIsFlagOpen(false);
-              setFlagNote("");
-            }}
-          >
-            Save flag
-          </Button>
-        </DialogContent>
-      </Dialog>
       <QuestionNotesWindow
         key={noteStorageKey}
         isOpen={isNoteWindowOpen}
@@ -2356,7 +2348,7 @@ function Question() {
                     className={cn(
                       topShouldCompress ? "w-9 px-0" : "min-w-[112px]",
                       isAnnotationModeEnabled
-                        ? "bg-[#B4E1FF] text-slate-900 hover:bg-[#95D4FF] hover:text-slate-900"
+                        ? "bg-[#B4E1FF] text-slate-900 hover:!bg-[#95D4FF] hover:!border-[#95D4FF] hover:text-slate-900"
                         : "bg-background text-foreground",
                     )}
                     onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}
@@ -2366,15 +2358,6 @@ function Question() {
                     {!topShouldCompress && "Annotate"}
                   </Button>
                 )}
-                <Button
-                  variant="outline"
-                  size="sm"
-                  title="Flag this question locally"
-                  onClick={() => setIsFlagOpen(true)}
-                >
-                  <Flag className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
-                  {!topShouldCompress && "Flag"}
-                </Button>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button variant="outline" size="sm" title="More">
@@ -2824,7 +2807,7 @@ function Question() {
                   onClick={() => handleCheck()}
                   disabled={isCheckDisabled}
                   variant="outline"
-                  className={cn("h-10 border-2 transition-colors", getCheckButtonClasses())}
+                  className={cn("h-10 border-2 transition-colors duration-700", getCheckButtonClasses())}
                 >
                   <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                   {!shouldCompress && <span>Check</span>}

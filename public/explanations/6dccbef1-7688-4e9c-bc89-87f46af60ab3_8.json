@@ -1,15 +1,1 @@
-{
-  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand both sides of the equation",
-      "content": "Left side: $7(x+12)+5x = 7x + 84 + 5x = 12x + 84$<br/><br/>Right side: $12(x+7) = 12x + 84$"
-    },
-    {
-      "title": "Recognize an identity\u2014infinitely many solutions",
-      "content": "Both sides simplify to the same expression: $12x + 84 = 12x + 84$. This is an identity, meaning it's true for every value of $x$. When an equation reduces to an identity, there are infinitely many solutions. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Distribute on both sides of $7(x+12)+5x=12(x+7)$: $$12x+84=12x+84.$$ The two sides are identical."}, {"title": "Count the solutions", "content": "Every real $x$ works, giving infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}

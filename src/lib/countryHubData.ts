@@ -1,3 +1,7 @@
+import { hreflangGroup } from "@/lib/hreflangData";
+
+export { hreflangGroup };
+
 // Country-specific SAT content hubs.
 // Pages live at /{countryCode}/{slug} (e.g. /in/sat-vs-jee). Canonical URLs
 // for English pages point at the main site; hreflang alternates connect the
@@ -171,19 +175,6 @@ export const countryHubs: CountryHubConfig[] = [
 ];
 
 export const countryHubByCode = new Map(countryHubs.map((h) => [h.code, h]));
-
-// Shared hreflang group for the site root + every country hub. Every page in
-// the group declares the full set so Google can swap locales in either
-// direction. Topic pages are country-unique and declare only themselves +
-// x-default.
-export const hreflangGroup: { hreflang: string; href: string }[] = [
-  { hreflang: "en", href: "https://1600.now/" },
-  ...countryHubs.map((h) => ({
-    hreflang: h.language,
-    href: `https://1600.now/${h.hubSlug}`,
-  })),
-  { hreflang: "x-default", href: "https://1600.now/" },
-];
 
 // Individual topic pages within each country hub.
 export const countryPages: CountryPage[] = [
@@ -999,6 +990,7 @@ export const countryPages: CountryPage[] = [
         heading: "Need-blind universities for Indian students",
         paragraphs: [
           "A handful of US universities are fully need-blind for international students and meet 100% of demonstrated financial need. For admitted students from lower-income Indian families, these schools can effectively be free.",
+          "These schools require exceptional academics. Indian applicants typically need 1520+ SAT, top 5% board percentile, and distinctive extracurriculars (Olympiads, research publications, significant leadership).",
         ],
         bullets: [
           "Harvard University — need-blind for international students; families under $85,000 typically pay nothing",
@@ -1009,9 +1001,6 @@ export const countryPages: CountryPage[] = [
           "Bowdoin College — need-blind for international",
           "Dartmouth College — went need-blind for international starting 2022",
         ],
-        paragraphs: [
-          "These schools require exceptional academics. Indian applicants typically need 1520+ SAT, top 5% board percentile, and distinctive extracurriculars (Olympiads, research publications, significant leadership).",
-        ].filter(Boolean),
       },
       {
         heading: "Merit scholarships that use SAT scores",

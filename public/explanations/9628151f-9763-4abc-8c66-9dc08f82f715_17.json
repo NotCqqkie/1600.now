@@ -1,15 +1,1 @@
-{
-  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_17",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find k using the given zero",
-      "content": "Use $$f(-2)=0$$ to find $$k$$. Substitute $$x=-2$$ into $$(x-4)(x-11)(x+k)$$: $$(-2-4)=-6$$, $$(-2-11)=-13$$, product $$(-6)(-13)=78$$. Then $$78(-2+k)=0$$ => $$-2+k=0$$ => $$k=2$$."
-    },
-    {
-      "title": "Compute f(0)",
-      "content": "Now evaluate $$f(0)$$ with $$k=2$$: $$f(0)=(0-4)(0-11)(0+2)=(-4)(-11)(2)=44*2=88$$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_17","correctAnswer":"D","section":"Math","steps":[{"title":"Identify roots from the factored form","content":"$f(x)=(x-4)(x-11)(x+k)$ has zeros at $x=4,\\ x=11,\\ x=-k$."},{"title":"Use the given point to set up an equation in k","content":"Since $(-2,0)$ is a zero and $-2\\ne 4,11$, we need $-2+k=0$, so $k=2$."},{"title":"Compute f(0) and conclude","content":"$f(0)=(-4)(-11)(2)=88$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

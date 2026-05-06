@@ -1,15 +1,1 @@
-{
-  "questionId": "51aabd93",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Combine constants on the left side",
-      "content": "Start with $(p+3)+8=10$.<br/><br/>Remove the parentheses and combine constant terms:<br/>$$p + 3 + 8 = 10$$<br/>$$p + 11 = 10$$"
-    },
-    {
-      "title": "Isolate p and solve",
-      "content": "Subtract 11 from both sides:<br/>$$p + 11 - 11 = 10 - 11$$<br/>$$p = -1$$<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"51aabd93","correctAnswer":"A","section":"Math","steps":[{"title":"Combine constants","content":"Drop the parentheses and add: $(p+3)+8=p+11$. The equation becomes $$p+11=10.$$"},{"title":"Solve for p","content":"Subtract $11$ from both sides: $p=10-11=-1$. That matches choice <strong>A</strong> &mdash; <strong>A</strong> is correct."}]}

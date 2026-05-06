@@ -1,15 +1,1 @@
-{
-  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_12",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the greatest common factor",
-      "content": "In $9x^6 - 63x^2$, identify what both terms share:<br/><ul><li>Coefficients: GCF of 9 and 63 is 9</li><li>Variables: GCF of $x^6$ and $x^2$ is $x^2$</li></ul>The overall GCF is $9x^2$."
-    },
-    {
-      "title": "Factor out the GCF",
-      "content": "Factor out $9x^2$ from the original expression:<br/><br/>$$9x^6 - 63x^2 = 9x^2(x^4 - 7)$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_12", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "Factor out the GCF $9x^{2}$: $$9x^{6}-63x^{2}=9x^{2}(x^{4}-7).$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

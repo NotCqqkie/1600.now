@@ -1,15 +1,1 @@
-{
-  "questionId": "32388549-e820-4b4a-91a9-d9c32e611098_17",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the condition for no solution",
-      "content": "A system of linear equations has no solution when the two equations represent parallel lines \u2014 they have the same slope but different y-intercepts. Simplify the given equation by dividing all terms by 30:<br/><br/>$$30x = 1,800y - 3,600$$<br/>$$x = 60y - 120$$"
-    },
-    {
-      "title": "Check choice A for parallel line structure",
-      "content": "Multiply choice A by 30 to match the form of the simplified first equation:<br/><br/>$$\\frac{1}{30}x = 2y$$<br/>$$x = 60y$$<br/><br/>Both equations now show the relationship $x = 60y + k$. The first has $k = -120$, and choice A has $k = 0$. Since they share the same coefficients for $x$ and $y$ but differ in the constant term, they represent lines with the same slope but different y-intercepts\u2014parallel lines with no intersection. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "32388549-e820-4b4a-91a9-d9c32e611098_17", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Rewrite the given equation", "content": "Divide $30x=1{,}800y-3{,}600$ by $30$ to get $$x=60y-120.$$"}, {"title": "Match slopes with different intercepts", "content": "For no solution, the second equation needs the same slope (ratio of $x$ to $y$) but a different constant. Choice A: $\\frac{1}{30}x=2y$ scales to $x=60y$, same slope, different constant."}, {"title": "Identify the choice", "content": "Choice A produces parallel lines with no intersection. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}

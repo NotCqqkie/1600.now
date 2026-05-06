@@ -1,15 +1,1 @@
-{
-  "questionId": "ce314070",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate 4x from the given equation",
-      "content": "Starting with $4x - \\frac{1}{2} = -5$, add $\\frac{1}{2}$ to both sides:<br/>$$4x = -5 + \\frac{1}{2}$$<br/>Convert to a common denominator:<br/>$$4x = -\\frac{10}{2} + \\frac{1}{2} = -\\frac{9}{2}$$"
-    },
-    {
-      "title": "Express 8x \u2212 1 in terms of 4x and substitute",
-      "content": "Notice that $8x - 1 = 2(4x) - 1$. Substitute $4x = -\\frac{9}{2}$:<br/>$$8x - 1 = 2 \\cdot \\left(-\\frac{9}{2}\\right) - 1 = -9 - 1 = -10$$<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ce314070","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the multiplier from the given condition","content":"Multiply both sides of $4x - \\tfrac{1}{2} = -5$ by $2$: $8x - 1 = -10$."},{"title":"Compute the target value","content":"So $8x-1 = -10$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}

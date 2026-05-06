@@ -1,15 +1,1 @@
-{
-  "questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_1",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation",
-      "content": "We need to find $x$ where $g(x) = -216$. Substituting into the function:<br/>$$-18 - 9x = -216$$"
-    },
-    {
-      "title": "Backsolve with choice B",
-      "content": "Backsolving \u2014 testing choice B (22):<br/>Substitute $x = 22$:<br/>$$-18 - 9(22) = -18 - 198 = -216$$<br/>This equals our target of $-216$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_1", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set up the equation", "content": "Set $g(x)=-216$ and write the equation.<br><br>$$-18-9x=-216$$"}, {"title": "Solve for x", "content": "Add $18$, then divide by $-9$.<br><br>$$-9x=-198\\;\\Rightarrow\\;x=22$$<br><br>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}

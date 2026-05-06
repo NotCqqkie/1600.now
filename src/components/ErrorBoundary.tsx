@@ -17,6 +17,9 @@ export class ErrorBoundary extends Component<Props, State> {
   };
 
   public static getDerivedStateFromError(error: Error): State {
+    if (isChunkLoadError(error)) {
+      return { hasError: false, error: null };
+    }
     return { hasError: true, error };
   }
 
@@ -33,9 +36,12 @@ export class ErrorBoundary extends Component<Props, State> {
       return (
         <div className="p-4 bg-red-50 text-red-900 h-screen flex flex-col items-center justify-center">
           <h1 className="text-2xl font-bold mb-4">Something went wrong</h1>
-          <pre className="bg-red-100 p-4 rounded overflow-auto max-w-full">
-            {this.state.error?.toString()}
-          </pre>
+          <p className="text-sm mb-4">Try refreshing the page. If the issue persists, please report it.</p>
+          {import.meta.env.DEV && (
+            <pre className="bg-red-100 p-4 rounded overflow-auto max-w-full">
+              {this.state.error?.toString()}
+            </pre>
+          )}
         </div>
       );
     }

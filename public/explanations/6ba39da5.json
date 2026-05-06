@@ -1,15 +1,1 @@
-{
-  "questionId": "6ba39da5",
-  "correctAnswer": "25",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Eliminate a by subtracting equations",
-      "content": "Both equations contain $2a$, so subtract the second equation from the first to eliminate this variable:<br/><br/>$$(2a + 8b) - (2a + 4b) = 198 - 98$$<br/><br/>The $2a$ terms cancel:<br/><br/>$$4b = 100$$"
-    },
-    {
-      "title": "Solve for b",
-      "content": "Divide both sides by 4:<br/><br/>$$b = \\frac{100}{4} = 25$$<br/><br/>The value of $b$ is <strong>25</strong>."
-    }
-  ]
-}
+{"questionId":"6ba39da5","correctAnswer":"25","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Subtract the second equation from the first: $$(2a+8b)-(2a+4b)=198-98,$$ giving $4b=100$."},{"title":"Find $b$","content":"So $b=25$. The answer is <strong>25</strong>."}]}
