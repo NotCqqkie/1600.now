@@ -1,15 +1,1 @@
-{
-  "questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_8",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the data point the question requests",
-      "content": "The question specifies a precise lookup: Mexico's copper mining in 1995. This uniquely identifies one cell in the table to read."
-    },
-    {
-      "title": "Read the value and match to the choices",
-      "content": "Reading the table, Mexico's 1995 value is 0.33 million metric tons\u2014exactly what choice B states. The other three options show 1995 values from different countries (United States, China, Poland) and do not correspond to Mexico.<br><br>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ccef9088-d5f4-4437-b646-7284f78f03a6_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the data point the question requests", "content": "The question specifies a precise lookup: Mexico's copper mining in 1995. This uniquely identifies one cell in the table to read."}, {"title": "Read the value and match to the choices", "content": "Reading the table, Mexico's 1995 value is 0.33 million metric tons—exactly what choice B states. The other three options show 1995 values from different countries (United States, China, Poland) and do not correspond to Mexico.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}

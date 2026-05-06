@@ -1,15 +1,1 @@
-{
-  "questionId": "6ecdbcb4",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify zeros from the factored form",
-      "content": "The function $f(x) = (x+6)(x+5)(x-4)$ equals zero when any factor equals zero: at $x = -6$, $x = -5$, or $x = 4$. These are exactly the three $x$-values in the table."
-    },
-    {
-      "title": "Evaluate y = f(x) - 3 at the zeros",
-      "content": "At each zero of $f(x)$, the function value is 0. So for $y = f(x) - 3$:<br><ul><li>$x = -6$: $y = 0 - 3 = -3$</li><li>$x = -5$: $y = 0 - 3 = -3$</li><li>$x = 4$: $y = 0 - 3 = -3$</li></ul>All three outputs equal $-3$. Only choice B has all $y$-values equal to $-3$ \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6ecdbcb4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify zeros from the factored form", "content": "The function $f(x) = (x+6)(x+5)(x-4)$ equals zero when any factor equals zero: at $x = -6$, $x = -5$, or $x = 4$. These are exactly the three $x$-values in the table."}, {"title": "Evaluate y = f(x) - 3 at the zeros", "content": "At each zero of $f(x)$, the function value is 0. So for $y = f(x) - 3$:<br/><ul><li>$x = -6$: $y = 0 - 3 = -3$</li><li>$x = -5$: $y = 0 - 3 = -3$</li><li>$x = 4$: $y = 0 - 3 = -3$</li></ul>All three outputs equal $-3$. Only choice B has all $y$-values equal to $-3$ — <strong>B</strong> is correct."}]}
