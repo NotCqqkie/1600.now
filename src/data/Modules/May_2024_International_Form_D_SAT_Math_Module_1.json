@@ -75,15 +75,15 @@
     "choices": [
       {
         "label": "A",
-        "text": "The estimated value of the bike was $250 when it was purchased."
+        "text": "The estimated value of the bike was \\$250 when it was purchased."
       },
       {
         "label": "B",
-        "text": "The estimated value of the bike 24 months after it was purchased was $250."
+        "text": "The estimated value of the bike 24 months after it was purchased was \\$250."
       },
       {
         "label": "C",
-        "text": "The estimated value of the bike had decreased by $250 in the 24 months after it was purchased."
+        "text": "The estimated value of the bike had decreased by \\$250 in the 24 months after it was purchased."
       },
       {
         "label": "D",

@@ -463,7 +463,7 @@
     "difficulty": "Easy",
     "question_number": 17,
     "test_name": "October 2025 US Form A SAT Math Module 2",
-    "passage": "Charles saves $\\frac{3}{5}$ of the $225 he earns each week from his summer job. If Charles continues to save at this rate, how much money, in dollars, will Charles save in 3 weeks?",
+    "passage": "Charles saves $\\frac{3}{5}$ of the \\$225 he earns each week from his summer job. If Charles continues to save at this rate, how much money, in dollars, will Charles save in 3 weeks?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

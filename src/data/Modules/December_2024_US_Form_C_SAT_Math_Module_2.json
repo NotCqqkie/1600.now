@@ -121,19 +121,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "1 day after the company went public, the company's estimated stock price is $88."
+        "text": "1 day after the company went public, the company's estimated stock price is \\$88."
       },
       {
         "label": "B",
-        "text": "88 days after the company went public, the company's estimated stock price is $1."
+        "text": "88 days after the company went public, the company's estimated stock price is \\$1."
       },
       {
         "label": "C",
-        "text": "The company's estimated stock price increased $88 every day after the company went public."
+        "text": "The company's estimated stock price increased \\$88 every day after the company went public."
       },
       {
         "label": "D",
-        "text": "The company's estimated stock price increased $1 every 88 days after the company went public."
+        "text": "The company's estimated stock price increased \\$1 every 88 days after the company went public."
       }
     ],
     "is_fill_in_blank": false,

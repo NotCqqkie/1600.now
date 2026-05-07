@@ -156,7 +156,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "March 2025 US Form B SAT Math Module 1",
-    "passage": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than $12.",
+    "passage": "$0.67x - 2 \\le 12$ represents the number of oranges, $x$, that the shopper can purchase for no more than \\$12.",
     "question_text": null,
     "choices": [
       {

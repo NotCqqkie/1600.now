@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract c using the point (0, -sqrt(334))",
+      "title": "Extract $c$ using the point $(0, -\\sqrt{334})$",
       "content": "Since $h(0) = -\\sqrt{c}$ and the graph passes through $(0, -\\sqrt{334})$:<br/>$$h(0) = -\\sqrt{c} = -\\sqrt{334}$$<br/>Therefore $c = 334$."
     },
     {

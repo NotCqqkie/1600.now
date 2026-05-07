@@ -14562,19 +14562,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "It is between $\\$3.22$ and $\\$3.34$."
+        "text": "It is between \\$3.22 and \\$3.34."
       },
       {
         "id": "B",
-        "text": "It is either less than $\\$3.22$ or greater than $\\$3.34$."
+        "text": "It is either less than \\$3.22 or greater than \\$3.34."
       },
       {
         "id": "C",
-        "text": "It is less than $\\$3.22$."
+        "text": "It is less than \\$3.22."
       },
       {
         "id": "D",
-        "text": "It is greater than $\\$3.34$."
+        "text": "It is greater than \\$3.34."
       }
     ],
     "correctAnswer": "A",
@@ -28740,11 +28740,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "Every 6 months, the balance increases by about \\$5$."
+        "text": "Every 6 months, the balance increases by about \\$5."
       },
       {
         "id": "B",
-        "text": "Every 2 months, the balance increases by about \\$5$."
+        "text": "Every 2 months, the balance increases by about \\$5."
       },
       {
         "id": "C",
@@ -31985,19 +31985,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "$\\$6$,200$"
+        "text": "\\$6,200"
       },
       {
         "id": "B",
-        "text": "$\\$7$,000$"
+        "text": "\\$7,000"
       },
       {
         "id": "C",
-        "text": "$\\$8$,200$"
+        "text": "\\$8,200"
       },
       {
         "id": "D",
-        "text": "$\\$25$,300$"
+        "text": "\\$25,300"
       }
     ],
     "correctAnswer": "C",
@@ -32980,19 +32980,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "\\$9$,900"
+        "text": "\\$9,900"
       },
       {
         "id": "B",
-        "text": "\\$15$,840"
+        "text": "\\$15,840"
       },
       {
         "id": "C",
-        "text": "\\$36$,135"
+        "text": "\\$36,135"
       },
       {
         "id": "D",
-        "text": "\\$42$,075"
+        "text": "\\$42,075"
       }
     ],
     "correctAnswer": "D",
@@ -35761,7 +35761,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "Every 4 months, the balance increases by about \\$5$."
+        "text": "Every 4 months, the balance increases by about \\$5."
       },
       {
         "id": "B",
@@ -35769,7 +35769,7 @@
       },
       {
         "id": "C",
-        "text": "Every 3 years, the balance increases by about \\$5$."
+        "text": "Every 3 years, the balance increases by about \\$5."
       },
       {
         "id": "D",
@@ -38676,19 +38676,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "One day after the company went public, the company's estimated stock price is \\$58$."
+        "text": "One day after the company went public, the company's estimated stock price is \\$58."
       },
       {
         "id": "B",
-        "text": "One day after the company went public, the company's estimated stock price is \\$1$."
+        "text": "One day after the company went public, the company's estimated stock price is \\$1."
       },
       {
         "id": "C",
-        "text": "The company's estimated stock price increased \\$58$ every day after the company went public."
+        "text": "The company's estimated stock price increased \\$58 every day after the company went public."
       },
       {
         "id": "D",
-        "text": "The company's estimated stock price increased \\$1$ every 58 days after the company went public."
+        "text": "The company's estimated stock price increased \\$1 every 58 days after the company went public."
       }
     ],
     "correctAnswer": "A",
@@ -40595,11 +40595,11 @@
     "choices": [
       {
         "id": "A",
-        "text": "The company's estimated stock price increased \\$70$ every day after the company went public."
+        "text": "The company's estimated stock price increased \\$70 every day after the company went public."
       },
       {
         "id": "B",
-        "text": "The company's estimated stock price increased \\$1$ every 70 days after the company went public."
+        "text": "The company's estimated stock price increased \\$1 every 70 days after the company went public."
       },
       {
         "id": "C",

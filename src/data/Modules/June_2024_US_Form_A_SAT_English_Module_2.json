@@ -813,7 +813,7 @@
     "difficulty": "Medium",
     "question_number": 26,
     "test_name": "June 2024 US Form A SAT English Module 2",
-    "passage": "Which choice most effectively uses information from the given sentences to emphasize the scope of Basquiat's work?\nWhile researching a topic, a student has taken the following notes:\n• Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n• Most of his works were completed in New York City in the 1980s.\n• His work *Untitled* (*Pollo Frito*) was completed in 1982.\n• The work is composed of acrylic, oil, and enamel on canvas and measures 60 inches by 120.5 inches.\n• *Untitled* (*Pollo Frito*) was purchased by a private collection for $25.7 million in a 2018 auction.",
+    "passage": "Which choice most effectively uses information from the given sentences to emphasize the scope of Basquiat's work?\nWhile researching a topic, a student has taken the following notes:\n• Jean-Michel Basquiat was an American artist who produced more than two thousand drawings and paintings.\n• Most of his works were completed in New York City in the 1980s.\n• His work *Untitled* (*Pollo Frito*) was completed in 1982.\n• The work is composed of acrylic, oil, and enamel on canvas and measures 60 inches by 120.5 inches.\n• *Untitled* (*Pollo Frito*) was purchased by a private collection for \\$25.7 million in a 2018 auction.",
     "question_text": "Which choice most effectively uses information from the given sentences to emphasize the scope of Basquiat's work?",
     "choices": [
       {
@@ -826,11 +826,11 @@
       },
       {
         "label": "C",
-        "text": "Decades after artist Jean-Michel Basquiat completed his 1982 work *Untitled (Pollo Frito*), a private collection purchased it for $25.7 million."
+        "text": "Decades after artist Jean-Michel Basquiat completed his 1982 work *Untitled (Pollo Frito*), a private collection purchased it for \\$25.7 million."
       },
       {
         "label": "D",
-        "text": "At a 2018 auction, artist Jean-Michel Basquiat's *Untitled (Pollo Frito*), composed of acrylic, oil, and enamel on canvas, sold for $25.7 million."
+        "text": "At a 2018 auction, artist Jean-Michel Basquiat's *Untitled (Pollo Frito*), composed of acrylic, oil, and enamel on canvas, sold for \\$25.7 million."
       }
     ],
     "is_fill_in_blank": false,

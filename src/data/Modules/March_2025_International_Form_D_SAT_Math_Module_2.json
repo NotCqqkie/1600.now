@@ -19,11 +19,11 @@
       },
       {
         "label": "C",
-        "text": "$(24+56)°"
+        "text": "$(24+56)^\\circ$"
       },
       {
         "label": "D",
-        "text": "$(24 \\cdot 56)°"
+        "text": "$(24 \\cdot 56)^\\circ$"
       }
     ],
     "is_fill_in_blank": false,

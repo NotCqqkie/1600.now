@@ -350,19 +350,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "It is between $\\$3.22$ and $\\$3.34$."
+        "text": "It is between \\$3.22 and \\$3.34."
       },
       {
         "label": "B",
-        "text": "It is either less than $\\$3.22$ or greater than $\\$3.34$."
+        "text": "It is either less than \\$3.22 or greater than \\$3.34."
       },
       {
         "label": "C",
-        "text": "It is less than $\\$3.22$."
+        "text": "It is less than \\$3.22."
       },
       {
         "label": "D",
-        "text": "It is greater than $\\$3.34$."
+        "text": "It is greater than \\$3.34."
       }
     ],
     "is_fill_in_blank": false,

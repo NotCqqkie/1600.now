@@ -582,7 +582,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "December 2024 US Form C SAT Math Module 1",
-    "passage": "$-x - wy = -411$\n$2x - wy = 81$\nIn the given system of equations, $w$ is a constant. In the $xy$-plane, the graphs of these equations intersect at the point $(q, 19)$, where $q$ is a constant. What is the value of $w?",
+    "passage": "$-x - wy = -411$\n\\$2x - wy = 81$\nIn the given system of equations, $w$ is a constant. In the $xy$-plane, the graphs of these equations intersect at the point $(q, 19)$, where $q$ is a constant. What is the value of $w?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

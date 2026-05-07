@@ -220,7 +220,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "October 2024 International Form A SAT Math Module 1",
-    "passage": "A clothing store buys shirts at a wholesale price of $5.00 each and resells them at a retail price that is 270% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 70% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "passage": "A clothing store buys shirts at a wholesale price of \\$5.00 each and resells them at a retail price that is 270% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 70% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
@@ -294,19 +294,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "One day after the company went public, the company's estimated stock price is $58."
+        "text": "One day after the company went public, the company's estimated stock price is \\$58."
       },
       {
         "label": "B",
-        "text": "One day after the company went public, the company's estimated stock price is $1."
+        "text": "One day after the company went public, the company's estimated stock price is \\$1."
       },
       {
         "label": "C",
-        "text": "The company's estimated stock price increased $58 every day after the company went public."
+        "text": "The company's estimated stock price increased \\$58 every day after the company went public."
       },
       {
         "label": "D",
-        "text": "The company's estimated stock price increased $1 every 58 days after the company went public."
+        "text": "The company's estimated stock price increased \\$1 every 58 days after the company went public."
       }
     ],
     "is_fill_in_blank": false,

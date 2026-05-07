@@ -11,19 +11,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\$6,200$"
+        "text": "\\$6,200"
       },
       {
         "label": "B",
-        "text": "$\\$7,000$"
+        "text": "\\$7,000"
       },
       {
         "label": "C",
-        "text": "$\\$8,200$"
+        "text": "\\$8,200"
       },
       {
         "label": "D",
-        "text": "$\\$25,300$"
+        "text": "\\$25,300"
       }
     ],
     "is_fill_in_blank": false,
