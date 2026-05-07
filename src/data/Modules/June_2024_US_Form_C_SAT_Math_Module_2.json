@@ -168,19 +168,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "g(x) = $\\frac{1}{4}$x − 5"
+        "text": "$g(x) = \\frac{1}{4}x - 5$"
       },
       {
         "label": "B",
-        "text": "g(x) = $\\frac{1}{4}$x + 5"
+        "text": "$g(x) = \\frac{1}{4}x + 5$"
       },
       {
         "label": "C",
-        "text": "g(x) = −$\\frac{1}{4}$x − 5"
+        "text": "$g(x) = -\\frac{1}{4}x - 5$"
       },
       {
         "label": "D",
-        "text": "g(x) = −$\\frac{1}{4}$x + 5"
+        "text": "$g(x) = -\\frac{1}{4}x + 5$"
       }
     ],
     "is_fill_in_blank": false,
