@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "question_number": 1,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\text{°F}$), when the air temperature is $33\text{°F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "passage": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is $33\\text{°F}$ and the wind speed is $20$ miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

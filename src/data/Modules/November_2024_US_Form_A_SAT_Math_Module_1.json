@@ -77,7 +77,7 @@
     "difficulty": "Easy",
     "question_number": 3,
     "test_name": "November 2024 US Form A SAT Math Module 1",
-    "passage": "What is the positive solution to the given equation? $x^2 = 40 \times 40$",
+    "passage": "What is the positive solution to the given equation? $x^2 = 40 \\times 40$",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

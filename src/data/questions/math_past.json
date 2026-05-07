@@ -12395,7 +12395,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_12",
     "testName": "June 2024 US Form A SAT Math Module 2",
-    "text": "Size A\tSize B\tTotal\nRed maple\t35\t15\t50\nChestnut oak\t31\t20\t51\nTotal\t66\t35\t101\n\nThe table shows the distribution of two types of trees at two different sites. If a tree represented in the table is selected at random, what is the probability of selecting a tree from site A, given that the tree is a red maple? (Express your answer as a decimal or fraction, not as a percent.)",
+    "text": "<table class=\"cb-table\">\n<thead><tr><th></th><th>Size A</th><th>Size B</th><th>Total</th></tr></thead>\n<tbody>\n<tr><td>Red maple</td><td>35</td><td>15</td><td>50</td></tr>\n<tr><td>Chestnut oak</td><td>31</td><td>20</td><td>51</td></tr>\n<tr><td>Total</td><td>66</td><td>35</td><td>101</td></tr>\n</tbody>\n</table>\n\nThe table shows the distribution of two types of trees at two different sites. If a tree represented in the table is selected at random, what is the probability of selecting a tree from site A, given that the tree is a red maple? (Express your answer as a decimal or fraction, not as a percent.)",
     "choices": [],
     "correctAnswer": "35/50,7/10,0.7",
     "type": "free-response"
@@ -46896,7 +46896,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_10",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\text{°F}$), when the air temperature is 29$\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
+    "text": "For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.\nAccording to the table, what is the wind chill temperature, in degrees Fahrenheit ($\\text{°F}$), when the air temperature is 29$\\text{°F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response"

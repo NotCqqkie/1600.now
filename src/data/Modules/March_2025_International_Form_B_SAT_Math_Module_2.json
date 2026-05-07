@@ -474,7 +474,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "March 2025 International Form B SAT Math Module 2",
-    "passage": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\text{cm}^3$). What is the sum of the volumes, in $\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
+    "passage": "Right rectangular prism $X$ is similar to right rectangular prism $Y$. The surface area of right rectangular prism $X$ is 59 square centimeters ($\\text{cm}^2$), and the surface area of right rectangular prism $Y$ is 1,475 $\\text{cm}^2$. The volume of right rectangular prism $Y$ is 1,500 cubic centimeters ($\\text{cm}^3$). What is the sum of the volumes, in $\\text{cm}^3$, of right rectangular prism $X$ and right rectangular prism $Y$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

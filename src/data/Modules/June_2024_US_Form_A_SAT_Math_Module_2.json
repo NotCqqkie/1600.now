@@ -352,7 +352,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "June 2024 US Form A SAT Math Module 2",
-    "passage": "Size A\tSize B\tTotal\nRed maple\t35\t15\t50\nChestnut oak\t31\t20\t51\nTotal\t66\t35\t101\n\nThe table shows the distribution of two types of trees at two different sites. If a tree represented in the table is selected at random, what is the probability of selecting a tree from site A, given that the tree is a red maple? (Express your answer as a decimal or fraction, not as a percent.)",
+    "passage": "<table class=\"cb-table\">\n<thead><tr><th></th><th>Size A</th><th>Size B</th><th>Total</th></tr></thead>\n<tbody>\n<tr><td>Red maple</td><td>35</td><td>15</td><td>50</td></tr>\n<tr><td>Chestnut oak</td><td>31</td><td>20</td><td>51</td></tr>\n<tr><td>Total</td><td>66</td><td>35</td><td>101</td></tr>\n</tbody>\n</table>\n\nThe table shows the distribution of two types of trees at two different sites. If a tree represented in the table is selected at random, what is the probability of selecting a tree from site A, given that the tree is a red maple? (Express your answer as a decimal or fraction, not as a percent.)",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -114,7 +114,7 @@
     "difficulty": "Medium",
     "question_number": 5,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "$g(x)= \\frac{1}{11} (5 \\cdot 2x + 4)$\nThe function $g$ is defined by the given equation. For all values of $x$, the value of $g(x)$ is greater than $k$, where $k$ is a constant. What is the greatest possible value of $k$?",
+    "passage": "$g(x)= \\frac{1}{11} (5 \\cdot 2^{x} + 4)$\nThe function $g$ is defined by the given equation. For all values of $x$, the value of $g(x)$ is greater than $k$, where $k$ is a constant. What is the greatest possible value of $k$?",
     "question_text": null,
     "choices": [
       {

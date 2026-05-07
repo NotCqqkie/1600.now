@@ -469,7 +469,7 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "September 2025 International Form A SAT Math Module 1",
-    "passage": "The measure of an angle, in radians, is $\\frac{93}{2}\\pi$. What is the measure of the angle, in degrees?",
+    "passage": "The measure of an angle, in radians, is $93 \\cdot 2\\pi$. What is the measure of the angle, in degrees?",
     "question_text": null,
     "choices": [
       {
