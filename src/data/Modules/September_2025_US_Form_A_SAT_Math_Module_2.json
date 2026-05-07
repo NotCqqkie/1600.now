@@ -134,7 +134,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "September 2025 US Form A SAT Math Module 2",
-    "passage": "$6(t + 7) - 8(t + 7) = 38$",
+    "passage": "$6(t + 7) - 8(t + 7) = 38$\nWhat is the solution to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -220,7 +220,7 @@
     "difficulty": "Medium",
     "question_number": 9,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "$x^2 + 2x = 72$",
+    "passage": "$x^2 + 2x = 72$\nWhat is the positive solution to the given equation?",
     "question_text": null,
     "choices": [
       {

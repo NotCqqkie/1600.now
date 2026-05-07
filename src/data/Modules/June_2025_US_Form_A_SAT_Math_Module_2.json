@@ -507,7 +507,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "June 2025 US Form A SAT Math Module 2",
-    "passage": "$\\frac{1}{5xy} + xyz = \\frac{1}{4yz}$",
+    "passage": "$\\frac{1}{5xy} + xyz = \\frac{1}{4yz}$\nThe given equation relates positive variables $x$, $y$, and $z$. Which expression is equivalent to $y$?",
     "question_text": null,
     "choices": [
       {

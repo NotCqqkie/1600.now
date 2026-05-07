@@ -395,7 +395,7 @@
     "difficulty": "Easy",
     "question_number": 16,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$y = 95(x - 2) + 228$",
+    "passage": "$y = 95(x - 2) + 228$\nWhich equation is equivalent to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -526,7 +526,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "June 2025 International Form A SAT Math Module 2",
-    "passage": "$\\frac{1}{c x} = \\frac{x}{72} + \\frac{1}{c}$",
+    "passage": "$\\frac{1}{c x} = \\frac{x}{72} + \\frac{1}{c}$\nIn the given equation, $c$ is a constant. The equation has exactly one solution. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

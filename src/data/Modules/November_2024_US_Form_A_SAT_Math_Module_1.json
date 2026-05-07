@@ -515,7 +515,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "November 2024 US Form A SAT Math Module 1",
-    "passage": "$17(x-16)=-16(x + 17)$",
+    "passage": "$17(x-16)=-16(x + 17)$\nHow many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {

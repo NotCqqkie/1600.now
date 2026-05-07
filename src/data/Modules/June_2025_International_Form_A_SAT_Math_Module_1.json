@@ -255,7 +255,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "June 2025 International Form A SAT Math Module 1",
-    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m < 24?",
+    "passage": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m < 24$?",
     "question_text": null,
     "choices": [
       {

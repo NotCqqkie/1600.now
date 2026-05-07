@@ -564,7 +564,7 @@
     "difficulty": "Easy",
     "question_number": 20,
     "test_name": "May 2024 US Form B SAT Math Module 2",
-    "passage": "$x^2 - 97 = -97 + x^2$",
+    "passage": "$x^2 - 97 = -97 + x^2$\nHow many solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {

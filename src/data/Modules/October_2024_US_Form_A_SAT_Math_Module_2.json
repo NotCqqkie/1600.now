@@ -196,7 +196,7 @@
     "difficulty": "Medium",
     "question_number": 8,
     "test_name": "October 2024 US Form A SAT Math Module 2",
-    "passage": "$10(x+15)+5x = 15(x+ 10)$",
+    "passage": "$10(x+15)+5x = 15(x+ 10)$\nHow many distinct real solutions does the given equation have?",
     "question_text": null,
     "choices": [
       {

@@ -594,7 +594,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2024 International Form D SAT Math Module 1",
-    "passage": "$-2|x - 7| = -8x$",
+    "passage": "$-2|x - 7| = -8x$\nWhat is the solution to the given equation?",
     "question_text": null,
     "choices": [
       {

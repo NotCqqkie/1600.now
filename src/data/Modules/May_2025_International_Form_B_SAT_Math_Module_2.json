@@ -655,7 +655,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2025 International Form B SAT Math Module 2",
-    "passage": "$\\frac{1}{c x} = \\frac{x}{96} + \\frac{1}{c}$",
+    "passage": "$\\frac{1}{c x} = \\frac{x}{96} + \\frac{1}{c}$\nIn the given equation, $c$ is a constant. The equation has exactly one solution. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

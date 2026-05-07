@@ -321,7 +321,7 @@
     "difficulty": "Easy",
     "question_number": 13,
     "test_name": "November 2024 International Form A SAT Math Module 2",
-    "passage": "$(x + k)^2 + 37 = 37$",
+    "passage": "$(x + k)^2 + 37 = 37$\nIn the given equation, $k$ is a constant. How many distinct real solutions does the equation have?",
     "question_text": null,
     "choices": [
       {

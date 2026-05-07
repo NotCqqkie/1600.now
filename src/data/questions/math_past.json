@@ -5874,19 +5874,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "0 < $x$ < 10"
+        "text": "$0 < x < 10$"
       },
       {
         "id": "B",
-        "text": "0 < $x$ < 30"
+        "text": "$0 < x < 30$"
       },
       {
         "id": "C",
-        "text": "30 < $x$ < 60"
+        "text": "$30 < x < 60$"
       },
       {
         "id": "D",
-        "text": "30 < $x$ < 90"
+        "text": "$30 < x < 90$"
       }
     ],
     "correctAnswer": "B",
@@ -15005,7 +15005,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_12",
     "testName": "June 2025 International Form A SAT Math Module 1",
-    "text": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where m < 24?",
+    "text": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m < 24$?",
     "choices": [
       {
         "id": "A",
@@ -19593,7 +19593,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_13",
     "testName": "March 2025 International Form C SAT Math Module 1",
-    "text": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where y > 1?",
+    "text": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
     "choices": [
       {
         "id": "A",
@@ -20512,7 +20512,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_11",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$,where y > 1?",
+    "text": "which expression is equivalent to $(158y)^{\\frac{1}{2}}$,where $y > 1$?",
     "choices": [
       {
         "id": "A",
@@ -22160,7 +22160,7 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_16",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where x > 2?",
+    "text": "A painting studio is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$26.40, which function f gives the total cost, in dollars, of x classes taken using this promotion, where $x > 2$?",
     "choices": [
       {
         "id": "A",
@@ -33594,7 +33594,7 @@
     "rationale": null,
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_20",
     "testName": "November 2024 International Form A SAT Math Module 1",
-    "text": "In triangle QRS shown, QR < RS. Which expression represents the length of $\\overline{QS}$?",
+    "text": "In triangle QRS shown, $QR < RS$. Which expression represents the length of $\\overline{QS}$?",
     "choices": [
       {
         "id": "A",
