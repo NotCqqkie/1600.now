@@ -405,7 +405,7 @@
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "12 or 13 or 14",
+    "correct_answer": "12,13,14",
     "rationale": null,
     "id": "9d845a11-6019-4b88-9309-26d92ced4f70_16"
   },
