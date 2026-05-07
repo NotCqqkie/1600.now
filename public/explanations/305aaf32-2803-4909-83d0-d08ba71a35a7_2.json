@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 6 into the expression",
-      "content": "We have $b(x) = 2(x + 1)$. When $x = 6$, we substitute this value into the expression $(x + 1)$ that appears inside the function: $(6 + 1)$."
+      "title": "Substitute x = 6 into b(x)",
+      "content": "We have $b(x) = x + 1$. When $x = 6$, substitute: $b(6) = 6 + 1$."
     },
     {
       "title": "Evaluate the result",
-      "content": "$(6 + 1) = 7$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "$6 + 1 = 7$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
     }
   ]
 }

@@ -291,7 +291,7 @@
     "difficulty": "Medium",
     "question_number": 10,
     "test_name": "December 2024 US Form A SAT Math Module 1",
-    "passage": "What is the $y$-intercept of the graph of $y = 16^x + 3$ in the $xy$-plane?",
+    "passage": "What is the $y$-intercept of the graph of $y = 16^{x+3}$ in the $xy$-plane?",
     "question_text": null,
     "choices": [
       {

@@ -591,7 +591,7 @@
     "difficulty": "Hard",
     "question_number": 21,
     "test_name": "March 2025 International Form E SAT Math Module 2",
-    "passage": "The function $ f $ is defined by $ f(x) = \\frac{|x|}{a} $, where $ a < 0 $. What is the product of $ f(17)a $ and $ f(8a) $?",
+    "passage": "The function $f$ is defined by $f(x) = \\frac{|x|}{a} - 16$, where $a < 0$. What is the product of $f(17a)$ and $f(8a)$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

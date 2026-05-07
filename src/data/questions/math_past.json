@@ -7119,7 +7119,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "$y \\frac{y}{7} > 10$ Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
+    "text": "$y < 42 - 7x$ and $\\frac{y}{7} > 10$. Which inequality represents the $x$ values for all solutions $(x, y)$ that satisfy the given system of inequalities in the $xy$-plane?",
     "choices": [
       {
         "id": "A",

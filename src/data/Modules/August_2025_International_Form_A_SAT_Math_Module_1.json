@@ -376,7 +376,7 @@
     "difficulty": "Hard",
     "question_number": 15,
     "test_name": "August 2025 International Form A SAT Math Module 1",
-    "passage": "For what value of a is $ar^{42}$ equivalent to $r^{\\frac{6}{7}}$, where $r>1$?",
+    "passage": "For what value of $a$ is $\\sqrt[a]{r^{42}}$ equivalent to $r^{\\frac{6}{7}}$, where $r>1$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

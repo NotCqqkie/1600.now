@@ -401,7 +401,7 @@
     "difficulty": "Hard",
     "question_number": 13,
     "test_name": "March 2025 US Form B SAT Math Module 2",
-    "passage": "$x(13+27)+c=5$\nIn the given equation, $c$ is a constant. A solution to the equation is $\\frac{-27+\\sqrt{261}}{26}$. What is the value of $c$?",
+    "passage": "$x(13x+27)+c=5$\nIn the given equation, $c$ is a constant. A solution to the equation is $\\frac{-27+\\sqrt{261}}{26}$. What is the value of $c$?",
     "question_text": null,
     "choices": [
       {

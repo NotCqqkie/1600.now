@@ -516,7 +516,7 @@
     "difficulty": "Hard",
     "question_number": 20,
     "test_name": "May 2024 International Form A SAT Math Module 1",
-    "passage": "The function $ h $ is defined by $ h(x) = ax + b $, where $ a $ and $ b $ are positive constants. The graph of $ y = h(x) $ in the $ xy $-plane passes through the points $ (0, 8) $ and $ (2, 32) $. What is the value of $ ab $?",
+    "passage": "The function $h$ is defined by $h(x) = a^{x} + b$, where $a$ and $b$ are positive constants. The graph of $y = h(x)$ in the $xy$-plane passes through the points $(0, 8)$ and $(2, 32)$. What is the value of $ab$?",
     "question_text": null,
     "choices": [
       {
