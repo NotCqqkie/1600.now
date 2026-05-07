@@ -558,7 +558,7 @@
     "difficulty": "Hard",
     "question_number": 22,
     "test_name": "August 2024 International Form A SAT Math Module 2",
-    "passage": "\\n$\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$\\n\\nA parallel electric circuit contains four resistors with resistances of $p$ ohms, $q$ ohms, $s$ ohms, and 13 ohms. The given equation relates the resistance $R$, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses $R$ in terms of $p$, $q$, and $s$?",
+    "passage": "\n$\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$\n\nA parallel electric circuit contains four resistors with resistances of $p$ ohms, $q$ ohms, $s$ ohms, and 13 ohms. The given equation relates the resistance $R$, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses $R$ in terms of $p$, $q$, and $s$?",
     "question_text": null,
     "choices": [
       {

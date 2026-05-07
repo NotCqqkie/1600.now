@@ -67,7 +67,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_3",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "\\n$\\sqrt{w} + 34 = 40$\\nWhat is the solution to the given equation?",
+    "text": "\n$\\sqrt{w} + 34 = 40$\nWhat is the solution to the given equation?",
     "choices": [
       {
         "id": "A",
@@ -1063,7 +1063,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_22",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "\\n$\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$\\n\\nA parallel electric circuit contains four resistors with resistances of $p$ ohms, $q$ ohms, $s$ ohms, and 13 ohms. The given equation relates the resistance $R$, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses $R$ in terms of $p$, $q$, and $s$?",
+    "text": "\n$\\frac{1}{R} = \\frac{1}{p} + \\frac{1}{q} + \\frac{1}{s} + \\frac{1}{13}$\n\nA parallel electric circuit contains four resistors with resistances of $p$ ohms, $q$ ohms, $s$ ohms, and 13 ohms. The given equation relates the resistance $R$, in ohms, of the circuit, to the resistances of the four individual resistors it contains. Which equation correctly expresses $R$ in terms of $p$, $q$, and $s$?",
     "choices": [
       {
         "id": "A",
@@ -8815,7 +8815,7 @@
     "rationale": null,
     "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_17",
     "testName": "December 2024 US Form B SAT Math Module 1",
-    "text": "\\n$\\frac{(x-7)(x-9)}{x-4}=0$\n\\nWhat is the sum of the solutions to the given equation?",
+    "text": "\n$\\frac{(x-7)(x-9)}{x-4}=0$\n\nWhat is the sum of the solutions to the given equation?",
     "choices": [
       {
         "id": "A",
@@ -9858,7 +9858,7 @@
     "rationale": null,
     "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_17",
     "testName": "December 2024 US Form C SAT Math Module 1",
-    "text": "$\\frac{(x-3)(x-8)}{x-2}=0$\\nWhat is the sum of the solutions to the given equation?",
+    "text": "$\\frac{(x-3)(x-8)}{x-2}=0$\nWhat is the sum of the solutions to the given equation?",
     "choices": [
       {
         "id": "A",

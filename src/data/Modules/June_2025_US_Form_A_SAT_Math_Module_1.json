@@ -75,19 +75,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y = 3x$\\n$x = 61$"
+        "text": "$y = 3x$\n$x = 61$"
       },
       {
         "label": "B",
-        "text": "$y = 3x$\\n$y = 61$"
+        "text": "$y = 3x$\n$y = 61$"
       },
       {
         "label": "C",
-        "text": "$x = 3y$\\n$x = 61$"
+        "text": "$x = 3y$\n$x = 61$"
       },
       {
         "label": "D",
-        "text": "$x = 3y$\\n$y = 61$"
+        "text": "$x = 3y$\n$y = 61$"
       }
     ],
     "is_fill_in_blank": false,
@@ -228,7 +228,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "June 2025 US Form A SAT Math Module 1",
-    "passage": "$\\frac{27(k+6)}{3(k+6)}$\\nThe given expression is equivalent to $c$, where $c$ is a constant and $k > -6$. What is the value of $c$?",
+    "passage": "$\\frac{27(k+6)}{3(k+6)}$\nThe given expression is equivalent to $c$, where $c$ is a constant and $k > -6$. What is the value of $c$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
