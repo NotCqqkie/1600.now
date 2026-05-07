@@ -502,7 +502,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y = 150(4)^x$"
+        "text": "$y = 150(4)^{x-1}$"
       },
       {
         "label": "B",
@@ -514,7 +514,7 @@
       },
       {
         "label": "D",
-        "text": "$y = 4(150)^x$"
+        "text": "$y = 4(150)^{x-1}$"
       }
     ],
     "is_fill_in_blank": false,

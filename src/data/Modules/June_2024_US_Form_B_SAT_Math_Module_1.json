@@ -11,7 +11,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$14x^3 y + 56xy^2$"
+        "text": "$14x^{3}y + 56y^{2}$"
       },
       {
         "label": "B",
@@ -19,7 +19,7 @@
       },
       {
         "label": "C",
-        "text": "$14x^2 y + 56xy$"
+        "text": "$14x^{2}y + 56xy^{2}$"
       },
       {
         "label": "D",

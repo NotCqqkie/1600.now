@@ -296,15 +296,15 @@
     "choices": [
       {
         "label": "A",
-        "text": "$0$"
+        "text": "$0$ only"
       },
       {
         "label": "B",
-        "text": "and $-\\frac{2}{5}$"
+        "text": "$0$ and $-\\frac{2}{5}$"
       },
       {
         "label": "C",
-        "text": "and $-\\frac{12}{5}$"
+        "text": "$0$ and $-\\frac{12}{5}$"
       },
       {
         "label": "D",

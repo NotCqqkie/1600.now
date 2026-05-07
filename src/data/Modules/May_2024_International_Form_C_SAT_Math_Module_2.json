@@ -137,11 +137,11 @@
       },
       {
         "label": "C",
-        "text": "$\\frac{\\sqrt{11}}{5}$"
+        "text": "$\\frac{5}{6}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{\\sqrt{11}}{5}$"
+        "text": "$\\frac{6}{\\sqrt{11}}$"
       }
     ],
     "is_fill_in_blank": false,

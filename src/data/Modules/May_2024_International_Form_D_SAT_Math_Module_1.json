@@ -481,19 +481,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "w= $\\sqrt{\\frac{x}{y}}$ -22"
+        "text": "$w=\\sqrt{\\frac{x}{y}} -22$"
       },
       {
         "label": "B",
-        "text": "w= $\\sqrt{\\frac{24x}{12y}}$ -22"
+        "text": "$w=\\sqrt{\\frac{24x}{12y}} -22$"
       },
       {
         "label": "C",
-        "text": "w=($\\frac{x}{y}$) 2 -22"
+        "text": "$w=\\left(\\frac{x}{y}\\right)^2 -22$"
       },
       {
         "label": "D",
-        "text": "w=($\\frac{24x}{12y}$) 2 -22"
+        "text": "$w=\\left(\\frac{24x}{12y}\\right)^2 -22$"
       }
     ],
     "is_fill_in_blank": false,

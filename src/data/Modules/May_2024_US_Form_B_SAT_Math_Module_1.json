@@ -299,11 +299,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "$x + 110 \\leq 150$"
+        "text": "$2x + 110 \\leq 150$"
       },
       {
         "label": "B",
-        "text": "$x + 110 \\geq 150$"
+        "text": "$2x + 110 \\geq 150$"
       },
       {
         "label": "C",

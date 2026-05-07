@@ -535,7 +535,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\left(\\frac{-81d-24}{78d},0\\right)$"
+        "text": "$\\left(\\frac{-81d+24}{78d},0\\right)$"
       },
       {
         "label": "B",

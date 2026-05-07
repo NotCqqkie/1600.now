@@ -23,7 +23,7 @@
       },
       {
         "label": "D",
-        "text": "$x^3y + 30xy^2$"
+        "text": "$12x^3y + 30xy^2$"
       }
     ],
     "is_fill_in_blank": false,

@@ -9,11 +9,11 @@
     },
     {
       "title": "Set up the perimeter formula with given dimensions",
-      "content": "For a rectangle:<ul><li>Length $L = 55$ inches</li><li>Width $W = x$ inches</li></ul>The perimeter is $P = 2L + 2W = 2(55) + 2x = 110 + 2x$. Rearranging this expression: $110 + 2x$ becomes $2x + 110$, or in the order shown in the choices, $x + 110$ (after simplifying or recognizing the structure in the answer options)."
+      "content": "For a rectangle:<ul><li>Length $L = 55$ inches</li><li>Width $W = x$ inches</li></ul>The perimeter is $P = 2L + 2W = 2(55) + 2x = 2x + 110$."
     },
     {
       "title": "Apply the constraint and match the answer choice",
-      "content": "Since the perimeter is at most 150 inches, we write: $$110 + 2x \\leq 150$$ This establishes that $x + 110$ (representing the dimensions in the left side) must be less than or equal to 150. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since the perimeter is at most 150 inches:<br/>$$2x + 110 \\leq 150$$<br/>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

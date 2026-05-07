@@ -404,7 +404,7 @@
       },
       {
         "label": "D",
-        "text": "$\\sin 52^\\circ$"
+        "text": "$\\cos 52^\\circ$"
       }
     ],
     "is_fill_in_blank": false,

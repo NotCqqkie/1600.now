@@ -287,7 +287,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$150 \\leq x \\leq 180$"
+        "text": "$50 \\leq x \\leq 60$"
       },
       {
         "label": "B",
@@ -295,11 +295,11 @@
       },
       {
         "label": "C",
-        "text": "$150 \\leq x \\leq 180$"
+        "text": "$50 \\leq x \\leq 180$"
       },
       {
         "label": "D",
-        "text": "$150 \\leq x \\leq 180$"
+        "text": "$150 \\leq x \\leq 60$"
       }
     ],
     "is_fill_in_blank": false,

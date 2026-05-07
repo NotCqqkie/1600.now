@@ -233,15 +233,15 @@
     "choices": [
       {
         "label": "A",
-        "text": "$0$"
+        "text": "$0$ only"
       },
       {
         "label": "B",
-        "text": "and $-\\frac{8}{3}$"
+        "text": "$0$ and $-\\frac{8}{3}$"
       },
       {
         "label": "C",
-        "text": "and $-\\frac{14}{3}$"
+        "text": "$0$ and $-\\frac{14}{3}$"
       },
       {
         "label": "D",
@@ -265,19 +265,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$Rx+12y=18$"
-      },
-      {
-        "label": "B",
-        "text": "$Rx-12y=-18$"
-      },
-      {
-        "label": "C",
         "text": "$Rx + 12y = 18$"
       },
       {
-        "label": "D",
+        "label": "B",
         "text": "$Rx - 12y = -18$"
+      },
+      {
+        "label": "C",
+        "text": "$Rx + 12y = -18$"
+      },
+      {
+        "label": "D",
+        "text": "$Rx - 12y = 18$"
       }
     ],
     "is_fill_in_blank": false,
@@ -407,19 +407,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$f(x)=22.80(x-1)+11.40$"
+        "text": "$f(x)=22.80(x-2)+11.40$"
       },
       {
         "label": "B",
-        "text": "$f(x)=22.80(x-1)+11.40$"
+        "text": "$f(x)=22.80x+11.40$"
       },
       {
         "label": "C",
-        "text": "$f(x)=22.80(x-1)+11.40(x-2)$"
+        "text": "$f(x)=22.80(x-1)+11.40$"
       },
       {
         "label": "D",
-        "text": "$f(x)=22.80(x-2)+11.40(x-1)$"
+        "text": "$f(x)=22.80(x-1)+11.40(x-2)$"
       }
     ],
     "is_fill_in_blank": false,

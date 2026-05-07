@@ -483,19 +483,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{23m}{4k}$"
+        "text": "$\\frac{69m}{12k}$"
       },
       {
         "label": "B",
-        "text": "$\\frac{23k}{4m}$"
+        "text": "$\\frac{69k}{12m}$"
       },
       {
         "label": "C",
-        "text": "$\\frac{52km}{k}$"
+        "text": "$\\frac{69km}{12}$"
       },
       {
         "label": "D",
-        "text": "$\\frac{525k}{m}$"
+        "text": "$\\frac{828k}{m}$"
       }
     ],
     "is_fill_in_blank": false,

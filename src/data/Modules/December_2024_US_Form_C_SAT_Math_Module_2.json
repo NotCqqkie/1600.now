@@ -480,7 +480,7 @@
       },
       {
         "label": "D",
-        "text": "$100(Q^{30}+1)$"
+        "text": "$100(Q^{30}-1)$"
       }
     ],
     "is_fill_in_blank": false,

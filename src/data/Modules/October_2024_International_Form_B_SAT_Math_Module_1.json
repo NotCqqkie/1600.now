@@ -152,7 +152,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$\\frac{1}{17} \\cdot x$"
+        "text": "$\\sqrt[17]{x}$"
       },
       {
         "label": "B",
@@ -160,7 +160,7 @@
       },
       {
         "label": "C",
-        "text": "$x$"
+        "text": "$\\frac{x}{17}$"
       },
       {
         "label": "D",

@@ -250,15 +250,15 @@
     "choices": [
       {
         "label": "A",
-        "text": "0"
+        "text": "$0$ only"
       },
       {
         "label": "B",
-        "text": "and $-\\frac{6}{5}$"
+        "text": "$-\\frac{14}{5}$ only"
       },
       {
         "label": "C",
-        "text": "$-\\frac{4}{5}$ and $-\\frac{14}{5}$"
+        "text": "$0$ and $-\\frac{14}{5}$"
       },
       {
         "label": "D",
