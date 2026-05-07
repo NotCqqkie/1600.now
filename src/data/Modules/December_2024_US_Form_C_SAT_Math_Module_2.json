@@ -561,7 +561,7 @@
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,
-    "correct_answer": "-5.29",
+    "correct_answer": "-5.29,-2*sqrt(7)",
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_21"
   },

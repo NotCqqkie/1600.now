@@ -425,7 +425,7 @@
     "difficulty": "Medium",
     "question_number": 17,
     "test_name": "March 2025 US Form A SAT Math Module 1",
-    "passage": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged $150. Another student took 17 lessons and was charged $480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
+    "passage": "A dance studio charges an introductory fee for the first 3 lessons and then charges a fixed fee for each additional lesson. One student took 6 lessons and was charged \\$150. Another student took 17 lessons and was charged \\$480. Which function $f$ gives the total charge, in dollars, for any student who took $x$ lessons, where $x > 2$?",
     "question_text": null,
     "choices": [
       {

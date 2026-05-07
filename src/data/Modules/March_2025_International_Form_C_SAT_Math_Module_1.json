@@ -124,7 +124,7 @@
     "difficulty": "Easy",
     "question_number": 5,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "In one week in 2017, a technician earned a total of $1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1,055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+    "passage": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1{,}055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
     "question_text": null,
     "choices": [
       {
@@ -399,7 +399,7 @@
     "difficulty": "Medium",
     "question_number": 16,
     "test_name": "March 2025 International Form C SAT Math Module 1",
-    "passage": "A school is ordering tablet computers for its students. The tablets cost $164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than $44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "passage": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

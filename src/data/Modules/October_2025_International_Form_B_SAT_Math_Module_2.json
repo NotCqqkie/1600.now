@@ -298,7 +298,7 @@
     "difficulty": "Hard",
     "question_number": 10,
     "test_name": "October 2025 International Form B SAT Math Module 2",
-    "passage": "Hannah and Wyatt are saving money to purchase a car. Hannah saves $\\frac{1}{5}$ of her salary each month, and Wyatt saves $\\frac{2}{7}$ of his salary each month. Together, they save a total of $\\$3,270$ from their monthly salaries each month. If $h$ and $w$ represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between $h$ and $w$?",
+    "passage": "Hannah and Wyatt are saving money to purchase a car. Hannah saves $\\frac{1}{5}$ of her salary each month, and Wyatt saves $\\frac{2}{7}$ of his salary each month. Together, they save a total of \\$3,270 from their monthly salaries each month. If $h$ and $w$ represent Hannah's and Wyatt's monthly salaries, in dollars, respectively, which equation shows the relationship between $h$ and $w$?",
     "question_text": null,
     "choices": [
       {

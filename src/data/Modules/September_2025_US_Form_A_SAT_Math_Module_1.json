@@ -500,7 +500,7 @@
     "difficulty": "Medium",
     "question_number": 18,
     "test_name": "September 2025 US Form A SAT Math Module 1",
-    "passage": "\\frac{(x-7)(x-8)}{x-3}=0\nWhat is the sum of the solutions to the given equation?",
+    "passage": "$\\frac{(x-7)(x-8)}{x-3}=0$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [
       {

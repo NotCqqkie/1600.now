@@ -345,7 +345,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "June 2024 US Form C SAT Math Module 2",
-    "passage": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be $\\$3.28$, with an associated margin of error of $\\$0.06$. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
+    "passage": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be \\$3.28, with an associated margin of error of \\$0.06. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
     "question_text": null,
     "choices": [
       {

@@ -551,7 +551,7 @@
     "difficulty": "Medium",
     "question_number": 19,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "\\sqrt{k - x} = 32 - x\nIn the given equation, $k$ is a constant. The equation has exactly one real solution. What is the minimum possible value of $4k$?",
+    "passage": "$\\sqrt{k - x} = 32 - x$\nIn the given equation, $k$ is a constant. The equation has exactly one real solution. What is the minimum possible value of $4k$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

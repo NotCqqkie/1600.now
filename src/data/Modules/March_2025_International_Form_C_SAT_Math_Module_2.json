@@ -402,7 +402,7 @@
     "difficulty": "Hard",
     "question_number": 14,
     "test_name": "March 2025 International Form C SAT Math Module 2",
-    "passage": "A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is $\\$22.80$, which function $f$ gives the total cost, in dollars, of $x$ classes taken using this promotion, where $x \\geq 2$?",
+    "passage": "A cooking school is offering a promotion where the first class is free, the second class is half off the regular price, and the remaining classes are regularly priced. If the regular price of a class is \\$22.80, which function $f$ gives the total cost, in dollars, of $x$ classes taken using this promotion, where $x \\geq 2$?",
     "question_text": null,
     "choices": [
       {

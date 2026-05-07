@@ -153,7 +153,7 @@
     "difficulty": "Easy",
     "question_number": 7,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Which of the following is equivalent to the given equation?",
+    "passage": "$7x + 10 = 2(6) + 8x$\nWhich of the following is equivalent to the given equation?",
     "question_text": null,
     "choices": [
       {
@@ -207,7 +207,7 @@
     "difficulty": "Easy",
     "question_number": 9,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "Which ordered pair (x,y) is a solution to the given system of equations?",
+    "passage": "$x + 5 = 7$\n$(x + 5)^2 = y$\nWhich ordered pair $(x, y)$ is a solution to the given system of equations?",
     "question_text": null,
     "choices": [
       {
@@ -568,7 +568,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "May 2024 International Form E SAT Math Module 1",
-    "passage": "What is the sum of the solutions to the given equation?",
+    "passage": "$2|3x - 1| = 4x + 9$\nWhat is the sum of the solutions to the given equation?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

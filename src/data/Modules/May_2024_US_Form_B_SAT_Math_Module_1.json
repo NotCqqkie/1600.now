@@ -508,7 +508,7 @@
     "difficulty": "Easy",
     "question_number": 19,
     "test_name": "May 2024 US Form B SAT Math Module 1",
-    "passage": "A moving truck rental company charges its customers $195 for the first hour of renting a truck and $75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where $y$ is the total cost, in dollars, of renting a truck from this company for $x$ hours, $w$ is the cost, in dollars, of gas used, and $x \\geq 1$?",
+    "passage": "A moving truck rental company charges its customers \\$195 for the first hour of renting a truck and \\$75 for each additional hour, plus the cost of gas used. Which equation represents this situation, where $y$ is the total cost, in dollars, of renting a truck from this company for $x$ hours, $w$ is the cost, in dollars, of gas used, and $x \\geq 1$?",
     "question_text": null,
     "choices": [
       {

@@ -1,1 +1,15 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_4", "correctAnswer": "26", "section": "Math", "steps": [{"title": "Calculate the cost of confetti", "content": "Sophia bought 10 packages of confetti at \\$3 per package. Multiply to find the total cost:<br/>$$10 \\times 3 = 30$$<br/>She spent \\$30 on confetti."}, {"title": "Find the number of balloons", "content": "She spent $56 total and $30 on confetti, so:<br/>$$56 - 30 = 26$$<br/>This is the amount left for balloons. Since each balloon costs \\$1, Sophia bought <strong>26 balloons</strong>."}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_4",
+  "correctAnswer": "26",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the cost of confetti",
+      "content": "Sophia bought 10 packages of confetti at \\$3 per package. Multiply to find the total cost:<br/>$$10 \\times 3 = 30$$<br/>She spent \\$30 on confetti."
+    },
+    {
+      "title": "Find the number of balloons",
+      "content": "She spent \\$56 total and \\$30 on confetti, so:<br/>$$56 - 30 = 26$$<br/>This is the amount left for balloons. Since each balloon costs \\$1, Sophia bought <strong>26 balloons</strong>."
+    }
+  ]
+}

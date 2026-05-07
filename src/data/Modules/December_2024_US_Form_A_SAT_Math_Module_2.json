@@ -230,7 +230,7 @@
     "difficulty": "Hard",
     "question_number": 8,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is $190 when it sells 4 items, and its profit is $670 when it sells 10 items. Which equation defines f?",
+    "passage": "A linear function f gives a company's profit, in dollars, for selling x items. The company's profit is \\$190 when it sells 4 items, and its profit is \\$670 when it sells 10 items. Which equation defines f?",
     "question_text": null,
     "choices": [
       {
@@ -326,7 +326,7 @@
     "difficulty": "Medium",
     "question_number": 12,
     "test_name": "December 2024 US Form A SAT Math Module 2",
-    "passage": "A carnival receives $10 for each adult admission ticket sold and $5 for each child admission ticket sold. On a particular day, the carnival received a total of $4,100 from selling adult and child admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
+    "passage": "A carnival receives \\$10 for each adult admission ticket sold and \\$5 for each child admission ticket sold. On a particular day, the carnival received a total of $4,100 from selling adult and child admission tickets. If 220 adult admission tickets were sold on that day, how many child admission tickets were sold?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

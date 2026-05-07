@@ -1,1 +1,15 @@
-{"questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_11", "correctAnswer": "28", "section": "Math", "steps": [{"title": "Identify the angle and its opposite side", "content": "Angle $x°$ is at the bottom-right corner of the right triangle. For this angle, the opposite side is the vertical leg with length <strong>28</strong>, and the hypotenuse is labeled $c$."}, {"title": "Apply the sine ratio and extract k", "content": "The sine of an angle in a right triangle equals opposite divided by hypotenuse: $$\\sin(x°) = \\frac{28}{c}$$<br/>We're given that $\\sin(x°) = \\frac{k}{c}$. Comparing these expressions directly, we get $k = <strong>28</strong>$."}]}
+{
+  "questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_11",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle and its opposite side",
+      "content": "Angle $x°$ is at the bottom-right corner of the right triangle. For this angle, the opposite side is the vertical leg with length <strong>28</strong>, and the hypotenuse is labeled $c$."
+    },
+    {
+      "title": "Apply the sine ratio and extract k",
+      "content": "The sine of an angle in a right triangle equals opposite divided by hypotenuse: $$\\sin(x°) = \\frac{28}{c}$$<br/>We're given that $\\sin(x°) = \\frac{k}{c}$. Comparing these expressions directly, we get $k = 28$. The answer is <strong>28</strong>."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "42b4493b", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recall the complementary angle property", "content": "In a right triangle, the sum of all angles is \\$180°$. With one right angle (\\$90°$), the two acute angles must sum to $180° - 90° = 90°$. They are <strong>complementary</strong>."}, {"title": "Calculate the other acute angle", "content": "If one acute angle measures $51°$, then the other acute angle is:<br/>$$90° - 51° = 39°$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "42b4493b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the complementary angle property",
+      "content": "In a right triangle, the sum of all angles is $180°$. With one right angle ($90°$), the two acute angles must sum to $180° - 90° = 90°$. They are <strong>complementary</strong>."
+    },
+    {
+      "title": "Calculate the other acute angle",
+      "content": "If one acute angle measures $51°$, then the other acute angle is:<br/>$$90° - 51° = 39°$$<br/>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}
