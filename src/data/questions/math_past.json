@@ -15747,7 +15747,7 @@
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21",
     "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1000}$?",
+    "text": "The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1000}$?",
     "choices": [],
     "correctAnswer": "600",
     "type": "free-response"
@@ -37487,7 +37487,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_22",
     "testName": "November 2024 US Form A SAT Math Module 2",
-    "text": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
+    "text": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
     "choices": [],
     "correctAnswer": "650",
     "type": "free-response"

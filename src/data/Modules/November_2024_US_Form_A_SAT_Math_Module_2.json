@@ -613,7 +613,7 @@
     "difficulty": "Medium",
     "question_number": 22,
     "test_name": "November 2024 US Form A SAT Math Module 2",
-    "passage": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
+    "passage": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
     "question_text": null,
     "choices": [],
     "is_fill_in_blank": true,

@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Convert the percentage to decimal form",
-      "content": "The problem states the volume is 95\\% of the initial volume $v$. To express a percentage as a decimal, we divide by 100: $$\\frac{95}{100} = 0.95$$. Therefore, the volume one minute after the start is $0.95v$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "content": "The problem states the volume is 95% of the initial volume $v$. To express a percentage as a decimal, we divide by 100: $$\\frac{95}{100} = 0.95$$. Therefore, the volume one minute after the start is $0.95v$. That matches choice B — <strong>B</strong> is correct.",
       "formula": "$$p\\% = \\frac{p}{100}$$"
     }
   ]
