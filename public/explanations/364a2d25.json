@@ -1,1 +1,15 @@
-{"questionId": "364a2d25", "correctAnswer": "either 8 or 9", "section": "Math", "steps": [{"title": "Use Vieta's formulas to form a quadratic equation", "content": "The system gives us the sum $x + y = 17$ and product $xy = 72$ of two unknowns. By Vieta's formulas applied in reverse, $x$ and $y$ are roots of a quadratic equation. If the roots sum to $17$ and multiply to $72$, the quadratic is:<br/>$$t^2 - 17t + 72 = 0$$"}, {"title": "Solve the quadratic by factoring", "content": "We need two numbers that multiply to $72$ and add to $17$. Testing factor pairs: $8 \\times 9 = 72$ and $8 + 9 = 17$ ✓<br/><br/>The quadratic factors as:<br/>$$(t - 8)(t - 9) = 0$$<br/>Therefore $t = 8$ or $t = 9$. One possible value of $x$ is <strong>8</strong> (and the other is <strong>9</strong>)."}]}
+{
+  "questionId": "364a2d25",
+  "correctAnswer": "8,9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use Vieta's formulas to form a quadratic equation",
+      "content": "The system gives us the sum $x + y = 17$ and product $xy = 72$ of two unknowns. By Vieta's formulas applied in reverse, $x$ and $y$ are roots of a quadratic equation. If the roots sum to $17$ and multiply to $72$, the quadratic is:<br/>$$t^2 - 17t + 72 = 0$$"
+    },
+    {
+      "title": "Solve the quadratic by factoring",
+      "content": "We need two numbers that multiply to $72$ and add to $17$. Testing factor pairs: $8 \\times 9 = 72$ and $8 + 9 = 17$ ✓<br/><br/>The quadratic factors as:<br/>$$(t - 8)(t - 9) = 0$$<br/>Therefore $t = 8$ or $t = 9$. One possible value of $x$ is <strong>8</strong> (and the other is <strong>9</strong>)."
+    }
+  ]
+}

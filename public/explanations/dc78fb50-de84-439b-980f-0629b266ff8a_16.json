@@ -1,1 +1,15 @@
-{"questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "Two independent clauses are joined at the blank: the quotation ending <em>\"...idealistic direction\"</em> and <em>in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf...</em>. Both are complete clauses."}, {"title": "Apply the punctuation rule", "content": "Choice A uses <em>direction\";</em> — the semicolon after the closing quotation mark correctly joins the two independent clauses.<br/><br/>Choice <ul><li>B uses only a comma (comma splice)</li><li>C lacks any punctuation between the clauses (run-on)</li><li>D adds an unnecessary <em>and</li></ul>,</em> that breaks the structure.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structures",
+      "content": "Two independent clauses are joined at the blank: the quotation ending <em>\"...idealistic direction\"</em> and <em>in 1909, for instance, judges recognized Selma Ottilia Lovisa Lagerlöf...</em>. Both are complete clauses."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "Choice A uses <em>direction\";</em> — the semicolon after the closing quotation mark correctly joins the two independent clauses.<br/><br/>Choice <ul><li>B uses only a comma (comma splice)</li><li>C lacks any punctuation between the clauses (run-on)</li><li>D adds an unnecessary <em>and</em>, breaking the structure</li></ul><br/><br/>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

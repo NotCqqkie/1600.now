@@ -1,1 +1,19 @@
-{"questionId": "eeb4143c", "correctAnswer": "either the fraction 10 over 3, the fraction 15 over 4, or the fraction 25 over 6", "section": "Math", "steps": [{"title": "Apply area formula and constraint", "content": "The area of triangle ABC with base $AC = 12$ and height $BC = y$ is:<br/>$$\\frac{1}{2} \\cdot 12 \\cdot y = 6y$$<br/>The constraint states $48 \\leq \\text{Area} \\leq 60$, so:<br/>$$48 \\leq 6y \\leq 60$$<br/>Dividing all parts by 6:<br/>$$8 \\leq y \\leq 10$$<br/>Since $y$ is an integer, we have $y \\in \\{8, 9, 10\\}$."}, {"title": "Express x in terms of y using the line equation", "content": "Line $AB$ connects $A(0, 0)$ to $B(12, y)$. Its equation is:<br/>$$Y = \\frac{y}{12}x$$<br/>At the point where $x = 5$ (the distance from $A$ on the base), the point on line $AB$ has $y$-coordinate:<br/>$$Y = \\frac{y}{12} \\cdot 5 = \\frac{5y}{12}$$<br/>The perpendicular from the base up to this point has height $x = \\frac{5y}{12}$."}, {"title": "Calculate x for each valid integer y", "content": "Using $x = \\frac{5y}{12}$ with each possible integer value of $y$:<ul><li>If $y = 8$: $x = \\frac{5(8)}{12} = \\frac{40}{12} = \\frac{10}{3}$</li><li>If $y = 9$: $x = \\frac{5(9)}{12} = \\frac{45}{12} = \\frac{15}{4}$</li><li>If $y = 10$: $x = \\frac{5(10)}{12} = \\frac{50}{12} = \\frac{25}{6}$</li></ul>Any one of these three values is a correct answer to the problem.<br/><br/>Equivalent forms accepted: <strong>either the fraction 10 over 3</strong>, <strong>the fraction 15 over 4</strong>, <strong>or the fraction 25 over 6</strong>."}]}
+{
+  "questionId": "eeb4143c",
+  "correctAnswer": "10/3,15/4,25/6,3.333,3.33,3.3,3.75,4.166,4.167,4.17,4.2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply area formula and constraint",
+      "content": "The area of triangle ABC with base $AC = 12$ and height $BC = y$ is:<br/>$$\\frac{1}{2} \\cdot 12 \\cdot y = 6y$$<br/>The constraint states $48 \\leq \\text{Area} \\leq 60$, so:<br/>$$48 \\leq 6y \\leq 60$$<br/>Dividing all parts by 6:<br/>$$8 \\leq y \\leq 10$$<br/>Since $y$ is an integer, we have $y \\in \\{8, 9, 10\\}$."
+    },
+    {
+      "title": "Express x in terms of y using the line equation",
+      "content": "Line $AB$ connects $A(0, 0)$ to $B(12, y)$. Its equation is:<br/>$$Y = \\frac{y}{12}x$$<br/>At the point where $x = 5$ (the distance from $A$ on the base), the point on line $AB$ has $y$-coordinate:<br/>$$Y = \\frac{y}{12} \\cdot 5 = \\frac{5y}{12}$$<br/>The perpendicular from the base up to this point has height $x = \\frac{5y}{12}$."
+    },
+    {
+      "title": "Calculate x for each valid integer y",
+      "content": "Using $x = \\frac{5y}{12}$ with each possible integer value of $y$:<ul><li>If $y = 8$: $x = \\frac{5(8)}{12} = \\frac{40}{12} = \\frac{10}{3}$</li><li>If $y = 9$: $x = \\frac{5(9)}{12} = \\frac{45}{12} = \\frac{15}{4}$</li><li>If $y = 10$: $x = \\frac{5(10)}{12} = \\frac{50}{12} = \\frac{25}{6}$</li></ul>Any one of these three values is a correct answer to the problem.<br/><br/>Equivalent forms accepted: <strong>either the fraction 10 over 3</strong>, <strong>the fraction 15 over 4</strong>, <strong>or the fraction 25 over 6</strong>."
+    }
+  ]
+}
