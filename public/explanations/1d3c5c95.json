@@ -9,8 +9,8 @@
     },
     {
       "title": "Find the initial population",
-      "content": "At the starting point $x = 0$, we evaluate: $$f(0) = 4,000(0.75)^0 = 4,000 \\cdot 1 = 4,000$$ The output 4,000 is the beetle population in 2012. Therefore, 4,000 is the initial beetle population for this species and area in 2012. That matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "In $$f(x) = a \\cdot b^x$$, the coefficient $a$ is the function value at $x = 0$."
+      "content": "At the starting point $x = 0$, we evaluate: $$f(0) = 4,000(0.75)^0 = 4,000 \\cdot 1 = 4,000$$ The output 4,000 is the beetle population in 2012. Therefore, 4,000 is the initial beetle population for this species and area in 2012. That matches choice A — <strong>A</strong> is correct.",
+      "formula": "$$f(x) = a \\cdot b^x$$"
     }
   ]
 }

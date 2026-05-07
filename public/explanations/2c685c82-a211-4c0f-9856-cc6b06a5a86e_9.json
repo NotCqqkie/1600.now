@@ -1,1 +1,19 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_9", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate the absolute value", "content": "Start with $-3|5x+7|+9=-12$. Subtract 9 from both sides to isolate the absolute value term:<br/>$$-3|5x+7|=-21$$<br/>Divide both sides by $-3$:<br/>$$|5x+7|=7$$"}, {"title": "Split into two cases", "content": "An absolute value equation $|A|=7$ means the expression inside equals $7$ or $-7$. Set up both cases:<ul><li><strong>Case 1:</strong> $5x+7=7$</li><li><strong>Case 2:</strong> $5x+7=-7$</li></ul>"}, {"title": "Solve both cases", "content": "<strong>Case 1:</strong> $5x+7=7$<br/>$$5x=0$$<br/>$$x=0$$<br/><strong>Case 2:</strong> $5x+7=-7$<br/>$$5x=-14$$<br/>$$x=-\\frac{14}{5}$$<br/>The two solutions are $x=0$ and $x=-\\frac{14}{5}$."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Start with $-3|5x+7|+9=-12$. Subtract 9 from both sides to isolate the absolute value term:<br/>$$-3|5x+7|=-21$$<br/>Divide both sides by $-3$:<br/>$$|5x+7|=7$$"
+    },
+    {
+      "title": "Split into two cases",
+      "content": "An absolute value equation $|A|=7$ means the expression inside equals $7$ or $-7$. Set up both cases:<ul><li><strong>Case 1:</strong> $5x+7=7$</li><li><strong>Case 2:</strong> $5x+7=-7$</li></ul>"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "<strong>Case 1:</strong> $5x+7=7$<br/>$$5x=0$$<br/>$$x=0$$<br/><strong>Case 2:</strong> $5x+7=-7$<br/>$$5x=-14$$<br/>$$x=-\\frac{14}{5}$$<br/>The two solutions are $x=0$ and $x=-\\frac{14}{5}$.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    }
+  ]
+}
