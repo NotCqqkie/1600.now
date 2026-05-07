@@ -267,11 +267,11 @@
     "choices": [
       {
         "label": "A",
-        "text": "meters tall."
+        "text": "70 meters tall."
       },
       {
         "label": "B",
-        "text": "meters tall."
+        "text": "138.8 meters tall."
       },
       {
         "label": "C",
@@ -279,7 +279,7 @@
       },
       {
         "label": "D",
-        "text": "meters tall."
+        "text": "100 meters tall."
       }
     ],
     "is_fill_in_blank": false,

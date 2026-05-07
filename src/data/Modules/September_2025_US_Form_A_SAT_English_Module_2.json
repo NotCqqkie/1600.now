@@ -235,19 +235,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "for Class Ⅶ."
+        "text": "120 meters per hectare for Class Ⅰ-Ⅳ."
       },
       {
         "label": "B",
-        "text": "for Class Ⅰ-Ⅳ."
+        "text": "160 meters per hectare for Class Ⅰ-Ⅳ."
       },
       {
         "label": "C",
-        "text": "for Class Ⅶ."
+        "text": "145 meters per hectare for Class Ⅷ."
       },
       {
         "label": "D",
-        "text": "for Class Ⅵ."
+        "text": "145 meters per hectare for Class Ⅶ."
       }
     ],
     "is_fill_in_blank": false,

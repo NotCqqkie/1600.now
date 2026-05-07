@@ -200,7 +200,7 @@
     "choices": [
       {
         "label": "A",
-        "text": "$y=80-x$"
+        "text": "$y=80-10x$"
       },
       {
         "label": "B",
@@ -212,7 +212,7 @@
       },
       {
         "label": "D",
-        "text": "$y=90-0.1x$"
+        "text": "$y=90-10x$"
       }
     ],
     "is_fill_in_blank": false,

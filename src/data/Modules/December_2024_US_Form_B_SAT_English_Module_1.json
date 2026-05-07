@@ -402,19 +402,19 @@
     "choices": [
       {
         "label": "A",
-        "text": "leaf pairs show opposite-side orientation, whereas approximately 60 pairs show same-side orientation."
+        "text": "150 leaf pairs show opposite-side orientation, whereas approximately 60 pairs show same-side orientation."
       },
       {
         "label": "B",
-        "text": "leaf pairs show opposite-side orientation, whereas approximately 49 pairs show same-side orientation."
+        "text": "150 leaf pairs show opposite-side orientation, whereas approximately 49 pairs show same-side orientation."
       },
       {
         "label": "C",
-        "text": "leaf pairs show opposite-side orientation, whereas no pairs show same-side orientation."
+        "text": "150 leaf pairs show opposite-side orientation, whereas no pairs show same-side orientation."
       },
       {
         "label": "D",
-        "text": "leaf pairs show opposite-side orientation, whereas no pairs show same-side orientation."
+        "text": "60 leaf pairs show opposite-side orientation, whereas approximately 150 pairs show same-side orientation."
       }
     ],
     "is_fill_in_blank": false,
