@@ -415,6 +415,7 @@ export const Seo = () => {
       name: SITE_NAME,
       alternateName: BRAND_ALTERNATE,
       url: SITE_URL,
+      inLanguage: "en-US",
       potentialAction: {
         "@type": "SearchAction",
         target: `${SITE_URL}/bank?q={search_term_string}`,
@@ -452,6 +453,7 @@ export const Seo = () => {
       name: metadata.title,
       description: metadata.description,
       url: metadata.canonicalUrl,
+      inLanguage: "en-US",
       isPartOf: {
         "@type": "WebSite",
         name: SITE_NAME,
