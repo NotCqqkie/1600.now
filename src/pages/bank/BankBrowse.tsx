@@ -40,6 +40,7 @@ import {
 } from "lucide-react";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 
 const domainIcons: Record<string, string> = {
   "Algebra": "📐",
@@ -144,8 +145,21 @@ const BankBrowse = () => {
     navigate(`${basePath}/${validSubject}/domain/${encodeURIComponent(domain)}${bankQuerySuffix}`);
   };
 
+  const subjectLabel = isMath ? "Math" : "Reading and Writing";
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted">
+      <PageSeo
+        id={`bank-browse-${validSubject}`}
+        jsonLd={buildBreadcrumbJsonLd([
+          { name: "Home", url: "https://1600.now/" },
+          { name: "SAT Question Bank", url: "https://1600.now/bank" },
+          {
+            name: `${subjectLabel} Skills`,
+            url: `https://1600.now/bank/${validSubject}/browse`,
+          },
+        ])}
+      />
       <section className="container mx-auto px-4 pt-8 pb-12">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="flex items-center gap-4">
