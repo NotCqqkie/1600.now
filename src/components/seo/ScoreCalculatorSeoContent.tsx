@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 
-import { PageSeo, buildFaqJsonLd, type FaqItem } from "@/components/seo/PageSeo";
+import {
+  PageSeo,
+  buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
+  type FaqItem,
+} from "@/components/seo/PageSeo";
 
 const faqs: FaqItem[] = [
   {
@@ -51,6 +56,13 @@ export const ScoreCalculatorSeoContent = () => {
       <PageSeo
         id="score-calculator-faq"
         jsonLd={[
+          buildBreadcrumbJsonLd([
+            { name: "Home", url: "https://1600.now/" },
+            {
+              name: "SAT Score Calculator",
+              url: "https://1600.now/score-calculator",
+            },
+          ]),
           buildFaqJsonLd(faqs),
           {
             "@context": "https://schema.org",
