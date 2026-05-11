@@ -240,7 +240,7 @@ const routeMetadata: RouteMetadata[] = [
     pattern: "/verify-email",
     title: "Verify Email | 1600.now SAT Prep",
     description:
-      "Verify your 1600.now account email address.",
+      "Verify your 1600.now email address to finish signing in.",
     noindex: true,
   },
   {
@@ -254,7 +254,7 @@ const routeMetadata: RouteMetadata[] = [
     pattern: "/profile/personalization",
     title: "Personalization | 1600.now SAT Prep",
     description:
-      "Personalize your 1600.now SAT prep profile.",
+      "Personalize your 1600.now study experience.",
     noindex: true,
   },
   {
