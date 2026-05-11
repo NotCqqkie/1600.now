@@ -1080,7 +1080,7 @@ export const BankIndex = ({
               <Calculator className={isHomeFilterDemo ? "h-3.5 w-3.5 text-ink" : "h-6 w-6 text-ink"} />
             </div>
             <div className="min-w-0">
-              <h3 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Math</h3>
+              <h2 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Math</h2>
               <p className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}>
                 <AnimatedCount value={questionCounts.math.correct} className="font-semibold text-good" />
                 <span className="mx-1 font-medium text-ink-muted">/</span>
@@ -1241,7 +1241,7 @@ export const BankIndex = ({
               <FileText className={isHomeFilterDemo ? "h-3.5 w-3.5 text-ink" : "h-6 w-6 text-ink"} />
             </div>
             <div className="min-w-0">
-              <h3 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Reading & Writing</h3>
+              <h2 className={isHomeFilterDemo ? "font-display text-[15px] font-semibold leading-[1.05] text-ink" : "font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink"}>Reading & Writing</h2>
               <p className={isHomeFilterDemo ? "font-display text-[12px] leading-[1.15] tabular-nums" : "font-display text-[12px] leading-[1.3] tabular-nums"}>
                 <AnimatedCount value={questionCounts.reading.correct} className="font-semibold text-good" />
                 <span className="mx-1 font-medium text-ink-muted">/</span>
