@@ -203,11 +203,14 @@ const priorityFor = (u) => {
       "/blog",
       "/sat-score",
       "/sat-skill",
+      "/sat-faq",
+      "/vocab",
     ].includes(u)
   )
     return "0.9";
   if (u.startsWith("/blog/")) return "0.8";
   if (u.startsWith("/sat-skill/")) return "0.8";
+  if (u.startsWith("/sat-faq/")) return "0.7";
   if (u.startsWith("/sat-score/")) return "0.7";
   if (pillarSlugs.includes(u.slice(1))) return "0.9";
   if (scoreGoalSlugs.includes(u.slice(1))) return "0.8";
