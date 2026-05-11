@@ -46,6 +46,7 @@ import {
   isQuestionAnsweredIncorrectly,
   QuestionProgress,
 } from "@/hooks/useUserProgress";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import "katex/dist/katex.min.css";
 
 const loadBankPool = async (
@@ -1382,6 +1383,15 @@ export const BankIndex = ({
       onPointerDownCapture={blockHomeDemoInteraction}
       onClickCapture={blockHomeDemoInteraction}
     >
+      {!isHomeFilterDemo && (
+        <PageSeo
+          id="bank-index"
+          jsonLd={buildBreadcrumbJsonLd([
+            { name: "Home", url: "https://1600.now/" },
+            { name: "SAT Question Bank", url: "https://1600.now/bank" },
+          ])}
+        />
+      )}
       {isHomeFilterDemo && (
         <style>
           {`
