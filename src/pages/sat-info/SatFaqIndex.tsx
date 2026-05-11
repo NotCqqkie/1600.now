@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { PageSeo, buildFaqJsonLd } from "@/components/seo/PageSeo";
+import { PageSeo, buildBreadcrumbJsonLd, buildFaqJsonLd } from "@/components/seo/PageSeo";
 import { satFaqPages } from "@/lib/seo-data/satFaqData";
 
 const SatFaqIndex = () => {
@@ -13,9 +13,15 @@ const SatFaqIndex = () => {
         id="sat-faq-index"
         title={title}
         description={description}
-        jsonLd={buildFaqJsonLd(
-          satFaqPages.map((faqPage) => ({ question: faqPage.question, answer: faqPage.shortAnswer })),
-        )}
+        jsonLd={[
+          buildBreadcrumbJsonLd([
+            { name: "Home", url: "https://1600.now/" },
+            { name: "SAT FAQ", url: "https://1600.now/sat-faq" },
+          ]),
+          buildFaqJsonLd(
+            satFaqPages.map((faqPage) => ({ question: faqPage.question, answer: faqPage.shortAnswer })),
+          ),
+        ]}
       />
 
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">SAT FAQ</h1>
