@@ -345,6 +345,23 @@ const HeroQuestionPreview = memo(({
     onOpenBank,
     onReady: handlePreviewReady,
   }), [handlePreviewNavigate, handlePreviewReady, isDarkMode, onOpenBank, previewQuestion.id, previewQuestion.subject]);
+  useEffect(() => {
+    type IdleHandle = number;
+    const win = window as Window & {
+      requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => IdleHandle;
+      cancelIdleCallback?: (handle: IdleHandle) => void;
+    };
+    const schedule = win.requestIdleCallback
+      ? (callback: () => void) => win.requestIdleCallback!(callback, { timeout: 2000 })
+      : (callback: () => void) => window.setTimeout(callback, 1500) as unknown as IdleHandle;
+    const cancel = win.cancelIdleCallback ?? ((handle: IdleHandle) => window.clearTimeout(handle));
+    const handle = schedule(() => {
+      void import("./bank/BankIndex");
+      void import("./modules/Modules");
+      void import("./ScoreCalculator");
+    });
+    return () => cancel(handle);
+  }, []);
   const [isPhone, setIsPhone] = useState<boolean>(() =>
     typeof window !== "undefined" ? window.matchMedia("(max-width: 767px)").matches : false,
   );
