@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, BookOpen, Calculator, GraduationCap, Target, Trophy, Loader2, Layers } from "lucide-react";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 const categoryTree = {
   Math: {
     icon: Calculator,
@@ -146,6 +147,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <PageSeo
+        id="browse-index"
+        jsonLd={buildBreadcrumbJsonLd([
+          { name: "Home", url: "https://1600.now/" },
+          { name: "SAT Question Browser", url: "https://1600.now/browse" },
+        ])}
+      />
       <div className="container mx-auto px-4 pt-8 pb-2">
         <h1
           style={{
