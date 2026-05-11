@@ -14,6 +14,7 @@ import { ReportQuestionDialog } from "@/components/question/ReportQuestionDialog
 import { MultipleChoiceQuestion } from "@/components/question/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/question/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { BookOpenCheck, ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Flag, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
 import { toast } from "sonner";
 import {
@@ -2826,8 +2827,31 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? `${practiceTestModuleQuestionCount} questions in this module`
       : `${practiceTestModuleQuestionCount} questions in this module`;
 
+  const isIndexableBankRoute =
+    (rawSubject === "math" || rawSubject === "reading") &&
+    !isAssessmentMode &&
+    !is100Hard;
+  const bankSubjectLabel = subject === "reading" ? "Reading and Writing" : "Math";
+
   return (
     <div ref={handleQuestionRootRef} className={cn("bg-background flex flex-col relative", isEmbed ? (isNativeEmbed ? "h-full min-h-full overflow-hidden" : "h-screen overflow-hidden") : "min-h-screen")}>
+      {isIndexableBankRoute ? (
+        <PageSeo
+          id={`bank-question-${subject}-${idParam}`}
+          jsonLd={buildBreadcrumbJsonLd([
+            { name: "Home", url: "https://1600.now/" },
+            { name: "SAT Question Bank", url: "https://1600.now/bank" },
+            {
+              name: `${bankSubjectLabel} Skills`,
+              url: `https://1600.now/bank/${subject}/browse`,
+            },
+            {
+              name: `Question #${idParam}`,
+              url: `https://1600.now/bank/${subject}/${idParam}`,
+            },
+          ])}
+        />
+      ) : null}
       {questionInfoDialog}
       {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
       {showEmbedUpsell && (
