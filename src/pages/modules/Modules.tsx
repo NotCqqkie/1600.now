@@ -46,6 +46,7 @@ import {
 } from "@/components/ui/select";
 import { ArrowRight, PlayCircle, Trash2 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 
 const practiceSets = getPracticeSets();
 
@@ -201,6 +202,13 @@ const Modules = () => {
 
   return (
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
+      <PageSeo
+        id="modules-index"
+        jsonLd={buildBreadcrumbJsonLd([
+          { name: "Home", url: "https://1600.now/" },
+          { name: "SAT Practice Tests", url: "https://1600.now/modules" },
+        ])}
+      />
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-3xl">
           <h1
