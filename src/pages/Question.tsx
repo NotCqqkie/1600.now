@@ -1939,7 +1939,7 @@ function Question() {
               src={normalizePublicAssetPath(img.src)}
               alt={img.alt || `Question image ${idx + 1}`}
               className={cn(
-                "h-auto rounded-[8px] object-contain border border-border",
+                "h-auto object-contain",
                 subject === "reading"
                   ? shouldReduceQuestionImageSize
                     ? "max-w-[91%] max-h-[420px]"
@@ -1958,7 +1958,7 @@ function Question() {
     );
   };
   
-  const backDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
+  const backDestination = practiceExitTo || (is100Hard ? "/hard" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
 
   useEffect(() => {
     setIsNoteWindowOpen(noteStorageArea.getItem(noteWindowOpenKey) === "true");
