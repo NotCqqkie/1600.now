@@ -317,7 +317,15 @@ export const Seo = () => {
   const location = useLocation();
 
   const metadata = useMemo(() => {
-    const pathname = location.pathname;
+    // Normalize: lowercase the path and strip any trailing slash (except root)
+    // so /Bank/Math/123, /bank/math/123/, and /bank/math/123 all canonicalize
+    // to a single URL.
+    const rawPath = location.pathname || "/";
+    const lowered = rawPath.toLowerCase();
+    const pathname =
+      lowered.length > 1 && lowered.endsWith("/")
+        ? lowered.replace(/\/+$/, "")
+        : lowered;
     const matchedRoute =
       routeMetadata.find((route) =>
         matchPath({ path: route.pattern, end: true }, pathname),
