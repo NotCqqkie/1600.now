@@ -136,9 +136,8 @@ const routeMetadata: RouteMetadata[] = [
   },
   {
     pattern: "/hard/:id",
-    title: "Hard SAT Practice Question | 1600.now",
-    description:
-      "Review a hard SAT practice question on 1600.now.",
+    title: "Hard SAT Math Question | 1600.now",
+    description: "An individual hard SAT Math practice question.",
     noindex: true,
   },
   {
