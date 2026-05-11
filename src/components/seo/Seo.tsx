@@ -424,11 +424,25 @@ export const Seo = () => {
 
     upsertJsonLd("organization", {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "EducationalOrganization",
       name: SITE_NAME,
       alternateName: BRAND_ALTERNATE,
       url: SITE_URL,
       logo: `${SITE_URL}/logo_b.png`,
+      description:
+        "1600.now is a free Digital SAT prep platform with a filterable question bank, full practice modules, a score calculator, vocabulary review, and detailed answer explanations.",
+      knowsAbout: [
+        "Digital SAT",
+        "SAT Math",
+        "SAT Reading and Writing",
+        "SAT vocabulary",
+        "SAT score calculator",
+        "SAT practice questions",
+      ],
+      audience: {
+        "@type": "EducationalAudience",
+        educationalRole: "student",
+      },
       ...(BRAND_SAME_AS.length > 0 ? { sameAs: BRAND_SAME_AS } : {}),
     });
 
