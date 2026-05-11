@@ -35,6 +35,8 @@ const SatScoreDetail = () => {
   const mathTarget = score - rwTarget;
   const nextUp = Math.min(1600, score + 50);
   const prevDown = Math.max(400, score - 50);
+  const nearbyScores = [score - 30, score - 20, score - 10, score + 10, score + 20, score + 30]
+    .filter((s) => s >= 400 && s <= 1600 && allSatScores.includes(s));
 
   const faqs = [
     {
@@ -211,6 +213,26 @@ const SatScoreDetail = () => {
           ))}
         </div>
       </section>
+
+      {nearbyScores.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Nearby SAT Scores
+          </h2>
+          <ul className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
+            {nearbyScores.map((s) => (
+              <li key={s}>
+                <Link
+                  to={`/sat-score/${s}`}
+                  className="block rounded-lg border border-border px-3 py-2 text-sm transition hover:bg-muted"
+                >
+                  {s} SAT Score
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-10 flex items-center justify-between rounded-xl border border-border p-4">
         {score > 400 ? (
