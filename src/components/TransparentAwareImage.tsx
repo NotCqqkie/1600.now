@@ -309,6 +309,7 @@ export const TransparentAwareImage = ({
         alt={alt}
         className={imageClassName}
         loading={loading}
+        decoding="async"
         style={isReady ? undefined : { visibility: "hidden" }}
       />
     </span>
