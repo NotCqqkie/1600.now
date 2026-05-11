@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect, useLayoutEffect, useRef, useCallback, type CSSProperties } from "react";
 import { vocabularySets } from "@/data/vocabulary";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
@@ -2967,6 +2968,13 @@ const Vocab = () => {
 
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: "32px 40px 80px" }}>
+      <PageSeo
+        id="vocab-practice"
+        jsonLd={buildBreadcrumbJsonLd([
+          { name: "Home", url: "https://1600.now/" },
+          { name: "SAT Vocabulary Practice", url: "https://1600.now/vocab" },
+        ])}
+      />
       <style>{`.vocab-row:hover { background: hsl(var(--mutedTextColor)); }`}</style>
       <Header
         mode={mode}
