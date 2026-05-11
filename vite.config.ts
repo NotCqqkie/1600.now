@@ -142,6 +142,9 @@ export default defineConfig(({ mode }) => ({
   },
   esbuild: {
     legalComments: "none",
+    // Strip console/debugger statements from production builds. Dev builds
+    // keep them so console.log during local development still works.
+    ...(mode === "production" ? { drop: ["console", "debugger"] as const } : {}),
   },
   plugins: [satImageAliasPlugin(), react()],
   resolve: {
