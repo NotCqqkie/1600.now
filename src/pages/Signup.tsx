@@ -37,7 +37,11 @@ const Signup = () => {
     if (!user.emailVerified) navigate("/verify-email", { replace: true });
     else {
       sessionStorage.setItem("onboarding-pending", "1");
-      navigate(getAuthReturnTo(), { replace: true });
+      // Fresh signups land on /bank so the onboarding tour's splash sits over
+      // the Question Bank — step 1 already targets /bank, no page swap needed.
+      // Only fall back to a stored return path if it's something other than "/".
+      const stored = getAuthReturnTo();
+      navigate(stored === "/" ? "/bank" : stored, { replace: true });
     }
   }, [user, authLoading, navigate]);
 

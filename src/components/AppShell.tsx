@@ -8,7 +8,6 @@ import {
   ChevronRight,
   GraduationCap,
   HelpCircle,
-  Home,
   LogIn,
   LogOut,
   Menu,
@@ -17,6 +16,7 @@ import {
   SunMoon,
   Target,
   UserPlus,
+  type LucideIcon,
 } from "lucide-react";
 
 import { BrandLogo } from "@/components/BrandLogo";
@@ -43,13 +43,12 @@ const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
 type SidebarItem = {
   label: string;
   href: string;
-  icon: typeof Home;
+  icon: LucideIcon;
   match: (pathname: string) => boolean;
   tourId?: string;
 };
 
 const primaryItems: SidebarItem[] = [
-  { label: "Home", href: "/", icon: Home, match: (pathname: string) => pathname === "/", tourId: "nav-home" },
   { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank"), tourId: "nav-bank" },
   { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard"), tourId: "nav-hard" },
   { label: "Practice Tests", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules"), tourId: "nav-modules" },
@@ -72,7 +71,7 @@ const SidebarLink = ({
 }: {
   href: string;
   label: string;
-  icon: typeof Home;
+  icon: LucideIcon;
   active: boolean;
   showLabel?: boolean;
   tourId?: string;
@@ -117,7 +116,7 @@ const FooterActionButton = ({
   tourId,
 }: {
   label: string;
-  icon: typeof Home;
+  icon: LucideIcon;
   expanded: boolean;
   onClick: () => void;
   variant?: "ghost" | "outline";

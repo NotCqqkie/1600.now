@@ -458,10 +458,10 @@ const SplashCard = ({ step, onNext, onSkip, index, total }: {
       <div className="relative z-10 max-w-xl text-center">
         <div className="relative mx-auto mb-8 h-24 w-24">
           <div className={`absolute inset-0 rounded-3xl ${c.bg} blur-xl tour-splash-orb`} />
+          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed border-current ${c.text} tour-ring-spin opacity-60`} />
           <div className={`relative flex h-24 w-24 items-center justify-center rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur ${c.text} tour-splash-orb`}>
             <Icon className="h-12 w-12" />
           </div>
-          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed ${c.ring} tour-ring-spin`} />
         </div>
         <h2
           className="mb-4 text-white tour-splash-text"
@@ -553,11 +553,13 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
           {/* Soft ambient pulse so the orb isn't static. */}
           <div className={`absolute -inset-2 rounded-full ${c.bg} blur-2xl tour-splash-orb`} style={{ animation: "tour-card-glow 3.6s ease-in-out infinite" }} />
           <div className={`absolute inset-0 rounded-full ${c.bg} blur-xl tour-splash-orb`} />
+          {/* Spinning dashed ring matching the splash's vibe. Rendered before
+           * the orb so the orb stacks on top — the ring should encircle the
+           * icon, not visually overlap it. */}
+          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed border-current ${c.text} tour-ring-spin opacity-60`} />
           <div className={`relative flex h-28 w-28 items-center justify-center rounded-full border border-white/10 bg-slate-900/80 backdrop-blur ${c.text} tour-splash-orb`}>
             <Icon className="h-14 w-14" />
           </div>
-          {/* Spinning dashed ring matching the splash's vibe. */}
-          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed ${c.ring} tour-ring-spin`} />
         </div>
         <h2 className="mb-4 text-white tour-splash-text" style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
           {step.title}
@@ -644,7 +646,8 @@ export const OnboardingTour = () => {
     setOpen(false);
     setIndex(0);
     setRect(null);
-  }, [user]);
+    if (location.pathname !== "/bank") navigate("/bank");
+  }, [user, location.pathname, navigate]);
 
   // Run leave-cleanup for the previous spotlight step (close any dialog it
   // opened) when the index actually changes. We use a ref-tracked previous

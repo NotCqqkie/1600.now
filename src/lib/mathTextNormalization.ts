@@ -26,6 +26,7 @@ export const isLikelyInlineMath = (candidate: string): boolean => {
   if (/(^|[^A-Za-z])-(?=\d|[A-Za-z(])/.test(trimmed)) return true;
 
   if (/^\d[\d.,]*$/.test(trimmed)) return true;
+  if (/^\d+(?:\.\d+)?(?:\s*:\s*\d+(?:\.\d+)?)+$/.test(trimmed)) return true;
   if (/^[A-Za-z][A-Za-z0-9]{0,3}$/.test(trimmed)) return true;
   if (/^[A-Za-z][A-Za-z0-9]*\([^)]*\)$/.test(trimmed)) return true;
   if (/^\(\s*[-\dA-Za-z.,\s]+\)$/.test(trimmed) && trimmed.includes(",")) return true;

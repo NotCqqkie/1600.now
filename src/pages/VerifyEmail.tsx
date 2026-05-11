@@ -21,7 +21,7 @@ const VerifyEmail = () => {
     if (!user) navigate("/login", { replace: true });
     else if (user.emailVerified) {
       sessionStorage.setItem("onboarding-pending", "1");
-      navigate("/", { replace: true });
+      navigate("/bank", { replace: true });
     }
   }, [user, loading, navigate]);
 
@@ -32,7 +32,7 @@ const VerifyEmail = () => {
       if (verified) {
         if (pollRef.current) window.clearInterval(pollRef.current);
         sessionStorage.setItem("onboarding-pending", "1");
-        navigate("/", { replace: true });
+        navigate("/bank", { replace: true });
       }
     }, 4000);
     return () => {
@@ -67,7 +67,7 @@ const VerifyEmail = () => {
       const verified = await reloadUser();
       if (verified) {
         sessionStorage.setItem("onboarding-pending", "1");
-        navigate("/", { replace: true });
+        navigate("/bank", { replace: true });
       } else {
         toast({ title: "Not verified yet", description: "Click the link in your email, then try again." });
       }
