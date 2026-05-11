@@ -2,12 +2,23 @@ import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 import { Button } from "@/components/ui/button";
+import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 
 const HardQuestionsIntro = () => {
   const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-background">
+      <PageSeo
+        id="hard-questions-intro"
+        title="100 Hard SAT Math Questions"
+        description="Curated set of the hardest Digital SAT Math questions with detailed step-by-step explanations to push toward an 800."
+        canonical="https://1600.now/hard"
+        jsonLd={buildBreadcrumbJsonLd([
+          { name: "Home", url: "https://1600.now/" },
+          { name: "100 Hard Math Questions", url: "https://1600.now/hard" },
+        ])}
+      />
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 pt-20 pb-10 sm:px-6 lg:px-8">
         <section className="relative overflow-hidden rounded-[32px] border border-border/70 bg-card shadow-[0_24px_80px_rgba(15,23,42,0.08)]">
           <div
