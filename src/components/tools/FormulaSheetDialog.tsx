@@ -86,6 +86,10 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
                       alt={`SAT reference sheet panel ${panel.id}`}
                       className="block h-auto w-full pointer-events-none"
                       draggable={false}
+                      width={panel.width}
+                      height={panel.height}
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                 );
