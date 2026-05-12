@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the key signal",
-      "content": "The first sentence makes a general claim (the station \u201cdoes much to serve\u201d the community), and the second sentence provides specific examples (broadcasting news, music, and language programming). This is an elaboration pattern: a general claim followed by supporting details."
+      "content": "The first sentence makes a general claim (the station \"does much to serve\" the community), and the second sentence provides specific examples (broadcasting news, music, and language programming). This is a specification pattern: a general claim followed by supporting details."
     },
     {
       "title": "Match the transition to the pattern",
-      "content": "\u201dSpecifically\u201d introduces examples clarifying a preceding claim. Instead marks contrast, Nevertheless marks concession, and As a result marks causation\u2014none of which fit. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is specification: sentence 2 narrows and details sentence 1.\n<ul>\n<li><strong>Choice A — \"Instead,\"</strong>: signals substitution or contradiction. The broadcast activities do not replace or oppose the prior claim. ✗</li>\n<li><strong>Choice B — \"Nevertheless,\"</strong>: signals a concession despite prior conditions. No prior obstacle is mentioned. ✗</li>\n<li><strong>Choice C — \"Specifically,\"</strong>: signals that the next clause details or narrows the preceding general claim. The list of broadcasts specifies what \"does much\" means. ✓</li>\n<li><strong>Choice D — \"As a result,\"</strong>: signals cause-effect. The broadcasts are not a consequence of serving the community; they are the means of doing so. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

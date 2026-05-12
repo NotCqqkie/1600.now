@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures on each side",
-      "content": "Left side: an independent clause. Right side: a noun phrase with an appositive."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "A colon introduces an elaboration or appositive. The other choices\u2014which treat the right side as an independent clause (C, D) or omit punctuation (A)\u2014are incorrect. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The sentence: \"Researchers George Starks and Tony Bolden have lent their expertise...to an important new initiative ______ Timeline of African American Music, a digital resource that traces the development of African American music.\" Left of blank: independent clause. Right of blank: a noun phrase (\"Timeline of African American Music\") followed by an appositive. Rule: a colon after an independent clause introduces an elaboration, list, or appositive."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A — initiative the</strong>: \"...to an important new initiative the Timeline of African American Music...\" No punctuation between the independent clause and the noun phrase — the sentence runs together without a clear signal that what follows names the initiative. ✗</li><li><strong>Choice B — initiative: the</strong>: \"...to an important new initiative: the Timeline of African American Music, a digital resource...\" The colon correctly follows the independent clause and introduces the name of the initiative as an elaboration. ✓</li><li><strong>Choice C — initiative; the</strong>: \"...to an important new initiative; the Timeline of African American Music...\" A semicolon joins two independent clauses, but \"the Timeline of African American Music, a digital resource...\" is a noun phrase, not an independent clause. ✗</li><li><strong>Choice D — initiative. The</strong>: \"...to an important new initiative. The Timeline of African American Music...\" A period creates a new sentence, but \"The Timeline of African American Music, a digital resource that traces...\" has no verb — it is a fragment. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."}]}

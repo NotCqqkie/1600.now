@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sequential structure",
-      "content": "The passage uses \u201cfirst\u201d and \u201cnext\u201d to order the dyeing steps. The blank requires a transition to mark the final step."
+      "content": "The passage uses “first” and “next” to order the dyeing steps. The blank requires a transition to mark the final step."
     },
     {
       "title": "Match the transition to complete the sequence",
-      "content": "<strong>Finally,</strong> signals the last step in a sequence. However, Therefore, and Actually express contrast, causation, and correction respectively\u2014none fit a final step. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The logical relationship between the sentences is sequence. The passage uses \"first\" and \"next\" to order the dyeing steps; the blank introduces the final step. The blank needs a transition signaling the last item in a sequence.\n<ul>\n<li><strong>Choice A — \"Finally,\"</strong>: signals the last step in an ordered sequence, fitting perfectly after \"first\" and \"next.\" ✓</li>\n<li><strong>Choice B — \"However,\"</strong>: signals contrast — the final step would oppose the prior step. Removing cloth from a dye bath is not a contradiction of simmering it. ✗</li>\n<li><strong>Choice C — \"Therefore,\"</strong>: signals cause-effect — removing the cloth would be a logical result of the prior sentence alone. While removing follows simmering, the transition needed is sequential (ordinal), not causal. ✗</li>\n<li><strong>Choice D — \"Actually,\"</strong>: signals a correction or surprising fact that contradicts an expectation. No correction is being made here. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

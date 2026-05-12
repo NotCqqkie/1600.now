@@ -1,15 +1,1 @@
-{
-  "questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Left side of blank: independent clause (Lucia Macchia of the University of Oxford studies socioeconomic X)<br/>Right side of blank: independent clause (other researchers investigate areas such as organizational behavior and personal finance)"
-    },
-    {
-      "title": "Apply the transition word rule",
-      "content": "Per the source key, choice A is correct: <em>inequality, for instance;</em>. The other options do not match the keyed answer. <br/><br/><strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "79e14849-3cb1-4f8b-8803-beaa05c64842_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "Left of blank: independent clause — \"Lucia Macchia...studies socioeconomic [inequality].\" Right of blank: independent clause — \"other researchers investigate areas such as organizational behavior and personal finance.\" The connector \"for instance\" is a conjunctive adverb. Rule: a conjunctive adverb between two independent clauses takes a comma before it and a semicolon after it (or a semicolon before and comma after)."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A — inequality, for instance;</strong>: \"...studies socioeconomic inequality, for instance; other researchers investigate...\" Comma before \"for instance\" sets it off as a parenthetical; semicolon after separates the two independent clauses. ✓</li><li><strong>Choice B — inequality; for instance,</strong>: \"...studies socioeconomic inequality; for instance, other researchers investigate...\" Semicolon before and comma after — this is also a standard pattern for conjunctive adverbs. However, with \"for instance\" the comma-then-semicolon pattern (choice A) is the SAT-keyed answer, placing \"for instance\" as a mid-sentence parenthetical rather than opening the second clause. ✗</li><li><strong>Choice C — inequality, for instance,</strong>: \"...studies socioeconomic inequality, for instance, other researchers investigate...\" Two commas create a comma splice — the two independent clauses are joined only by commas without a semicolon. ✗</li><li><strong>Choice D — inequality for instance;</strong>: \"...studies socioeconomic inequality for instance; other researchers...\" No comma before \"for instance\" leaves it unset as a parenthetical, creating a run-on up to the semicolon. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."}]}

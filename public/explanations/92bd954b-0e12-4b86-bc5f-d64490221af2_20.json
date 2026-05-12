@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply pronoun-antecedent agreement",
-      "content": "<strong>They</strong> correctly refers to <strong>the judges</strong> with matching plurality.<br/>Options <strong>it</strong>, <strong>you</strong>, and <strong>anyone</strong> are all singular and cannot agree with a plural antecedent.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a subject pronoun must match its antecedent in number.\n<ul>\n<li><strong>Choice A \u2014 \"you\"</strong>: second-person pronoun; does not refer to \"the judges\" at all. \u2717</li>\n<li><strong>Choice B \u2014 \"it\"</strong>: singular pronoun; disagrees with plural \"the judges.\" \u2717</li>\n<li><strong>Choice C \u2014 \"anyone\"</strong>: singular indefinite pronoun; disagrees with plural antecedent. \u2717</li>\n<li><strong>Choice D \u2014 \"they\"</strong>: plural pronoun; agrees with plural \"the judges.\" \u2713</li>\n</ul>\nThat matches choice D \u2014 <strong>D</strong> is correct."
     }
   ]
 }

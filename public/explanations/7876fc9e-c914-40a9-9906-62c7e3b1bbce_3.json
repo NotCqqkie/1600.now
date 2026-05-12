@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the goal in the sentence", "content": "The blank is what's hard to do to \"the spread of unwelcome weeds.\" The rest of the sentence (\"hard to remove them completely\") signals that the gardener is trying to <em>stop</em> the weeds from spreading."}, {"title": "Match the precise word", "content": "<em>Halting</em> means stopping — exactly the action a gardener takes against spreading weeds. <em>Retrieving</em> (getting back), <em>saving</em> (preserving), and <em>pretending</em> (faking) don't fit stopping unwanted growth.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the goal in the sentence",
+      "content": "The blank is what's hard to do to \"the spread of unwelcome weeds.\" The rest of the sentence (\"hard to remove them completely\") signals that the gardener is trying to <em>stop</em> the weeds from spreading."
+    },
+    {
+      "title": "Match the precise word",
+      "content": "The blank describes what a gardener does to \"the spread of unwelcome weeds\" — the rest of the sentence says it is hard to \"remove them completely,\" so the blank must mean stopping or checking that spread. Substitute each choice:\n<ul>\n<li><strong>Choice A — Retrieving</strong>: getting something back or recovering it — you retrieve a lost item, not an unwanted weed; this implies bringing the weeds back, the opposite of what a gardener wants. ✘</li>\n<li><strong>Choice B — Saving</strong>: preserving or rescuing — this implies protecting the weeds, which contradicts the gardener's goal of eliminating them. ✘</li>\n<li><strong>Choice C — Halting</strong>: stopping or arresting the progress of something — directly fits; the gardener tries to stop the weeds from spreading further. ✔</li>\n<li><strong>Choice D — Pretending</strong>: acting as though something is true when it is not — makes no logical sense in the context of a physical gardening problem. ✘</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

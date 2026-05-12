@@ -1,1 +1,15 @@
-{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what creates the problem", "content": "The passage states that stored energy can mitigate effects of “______ solar energy collection caused by unpredictable shifts in cloud cover and haze.” The phrase “unpredictable shifts” reveals what causes the problem storage must address."}, {"title": "Select the word for instability", "content": "<strong>Fluctuations in</strong> directly expresses the ups and downs in solar output.<br/><br/>Incentives (financial motivation), calibrations (technical adjustments), and developments (growth) all describe something unrelated to variable output levels.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what creates the problem",
+      "content": "The passage states that stored energy can mitigate effects of “______ solar energy collection caused by unpredictable shifts in cloud cover and haze.” The phrase “unpredictable shifts” reveals what causes the problem storage must address."
+    },
+    {
+      "title": "Select the word for instability",
+      "content": "The blank describes the kind of solar energy collection caused by unpredictable cloud cover and haze — the word \"unpredictable\" tells us the blank must name an up-and-down instability in solar output. Substitute each choice:\n<ul>\n<li><strong>Choice A — Incentives for</strong>: financial or motivational encouragements — this describes policy motivations, not the physical variability of solar energy levels. ✘</li>\n<li><strong>Choice B — Calibrations with</strong>: precise adjustments or measurements — this describes technical fine-tuning, not the irregular output caused by shifting weather. ✘</li>\n<li><strong>Choice C — Developments of</strong>: growth or advances in — this describes progress in solar technology, not the variable output caused by cloud cover. ✘</li>\n<li><strong>Choice D — Fluctuations in</strong>: irregular variations up and down — directly matches \"unpredictable shifts\"; stored energy compensates for the times solar collection dips. ✔</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

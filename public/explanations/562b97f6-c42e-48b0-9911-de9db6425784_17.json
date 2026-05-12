@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject and its number",
-      "content": "The subject of the clause is singular: \u201cthe word 'lasso'\u201d. The parenthetical \u201c(a rope)\u201d is descriptive and doesn't change the subject's number."
+      "content": "The subject of the clause is singular: “the word 'lasso'”. The parenthetical “(a rope)” is descriptive and doesn't change the subject's number."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "Choice D \u201cderives\u201d provides the singular verb form required by subject-verb agreement. Choices A, B, and C don't provide this form. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. The subject is \"the word 'lasso'\" — singular. The sentence states a general fact (etymology), so simple present is appropriate. Rule: a singular subject takes a third-person singular verb (adds -s).\n<ul>\n<li><strong>Choice A — \"were deriving\"</strong>: Plural past progressive — wrong in number, tense, and aspect. Etymology is a standing fact, not a past ongoing action. ✗</li>\n<li><strong>Choice B — \"have derived\"</strong>: Plural present perfect — wrong number and the perfect tense implies a completed change, not a permanent origin. ✗</li>\n<li><strong>Choice C — \"derive\"</strong>: Plural base form — wrong number for a singular subject. ✗</li>\n<li><strong>Choice D — \"derives\"</strong>: Singular simple present. Correctly agrees with the singular subject \"the word 'lasso'\" and states a permanent fact. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Select the matching pronoun",
-      "content": "\u201dIt\u201d is singular and correctly refers to the singular film. Those, these, and them are all plural pronouns and violate pronoun-antecedent agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number.\n<ul>\n<li><strong>Choice A \u2014 \"it\"</strong>: singular pronoun; matches singular antecedent \"the feature-length romance.\" \u2713</li>\n<li><strong>Choice B \u2014 \"those\"</strong>: plural pronoun; disagrees with a singular antecedent. \u2717</li>\n<li><strong>Choice C \u2014 \"these\"</strong>: plural pronoun; disagrees with a singular antecedent. \u2717</li>\n<li><strong>Choice D \u2014 \"them\"</strong>: plural pronoun; disagrees with a singular antecedent. \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent", "content": "The blank is a possessive modifying \"compelling narrative.\" The thing that owns the narrative is <strong>The Poem of the Cid</strong> — a single poem (singular). So we need a singular possessive pronoun, not a plural one and not a contraction."}, {"title": "Apply the rule", "content": "<strong>its</strong> = singular possessive (\"its narrative\"). <em>it's</em> = \"it is\" (contraction, wrong). <em>their</em>/<em>they're</em> = plural (wrong antecedent number).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The blank is a possessive modifying \"compelling narrative.\" The thing that owns the narrative is <strong>The Poem of the Cid</strong> — a single poem (singular). So we need a singular possessive pronoun, not a plural one and not a contraction."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. The antecedent is \"The Poem of the Cid\" — singular. Rule: a possessive pronoun must match its antecedent in number, and a possessive (not a contraction) is needed before a noun.\n<ul>\n<li><strong>Choice A — \"they're\"</strong>: Contraction of \"they are\" — not a possessive and plural. Both errors. ✗</li>\n<li><strong>Choice B — \"its\"</strong>: Singular possessive pronoun. Correctly matches the singular antecedent \"The Poem of the Cid.\" ✓</li>\n<li><strong>Choice C — \"their\"</strong>: Plural possessive — wrong number for a single poem. ✗</li>\n<li><strong>Choice D — \"it's\"</strong>: Contraction of \"it is\" — not a possessive; reads as \"it is compelling narrative,\" which is ungrammatical. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

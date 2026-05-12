@@ -1,1 +1,15 @@
-{"questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_18", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the missing main verb", "content": "The subject is <em>such symbiotic relationships</em> (modified by the 'wherein…' clause). The sentence needs a finite main verb to follow the subject and predicate the action of forming networks."}, {"title": "Apply the rule", "content": "Only <strong>form</strong> is a finite verb. 'Having formed,' 'to form,' and 'forming' are non-finite and leave the sentence without a main verb.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the missing main verb",
+      "content": "The subject is <em>such symbiotic relationships</em> (modified by the 'wherein…' clause). The sentence needs a finite main verb to follow the subject and predicate the action of forming networks."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Identify the grammar issue: finite vs. non-finite verb. The subject is \"such symbiotic relationships\" (plural) and needs a finite main verb to make a complete sentence. Rule: a main clause requires a finite verb; participles, infinitives, and gerunds cannot serve as the main verb.\n<ul>\n<li><strong>Choice A — \"having formed\"</strong>: Perfect participle (non-finite) — leaves the sentence without a main verb; creates a dangling absolute phrase. ✗</li>\n<li><strong>Choice B — \"form\"</strong>: Finite plural present verb. Correctly serves as the main verb and agrees with the plural subject \"relationships.\" ✓</li>\n<li><strong>Choice C — \"to form\"</strong>: Infinitive (non-finite) — cannot serve as a main verb; creates a sentence fragment. ✗</li>\n<li><strong>Choice D — \"forming\"</strong>: Present participle (non-finite) — same problem; leaves the sentence without a finite main verb. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

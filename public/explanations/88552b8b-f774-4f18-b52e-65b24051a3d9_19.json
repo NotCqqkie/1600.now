@@ -1,1 +1,15 @@
-{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the dangling modifier", "content": "The opening phrase 'Working with equipment designed for a billionths of a meter scale' is a participial modifier — its subject must be whoever is doing the working: the nanoengineers, not the nanoparticles or possessive 'nanoengineers'.'"}, {"title": "Apply the rule", "content": "Only <strong>A</strong> places <em>nanoengineers</em> immediately after the modifier as the subject. B uses a possessive, and C and D wrongly make the nanoparticles the subject of 'working.'<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the dangling modifier",
+      "content": "The opening phrase 'Working with equipment designed for a billionths of a meter scale' is a participial modifier — its subject must be whoever is doing the working: the nanoengineers, not the nanoparticles or possessive 'nanoengineers'.'"
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Identify the grammar issue: dangling modifier / misplaced modifier. The opening participial phrase \"Working with equipment designed for a billionths of a meter scale\" must be immediately followed by the noun doing that working. Rule: the subject of the main clause must be the agent of the opening participial phrase.\n<ul>\n<li><strong>Choice A — \"nanoengineers have synthesized silica nanoparticles...\"</strong>: Places \"nanoengineers\" right after the modifier — they are the ones working with the equipment. ✓</li>\n<li><strong>Choice B — \"nanoengineers' synthesized silica nanoparticles are used...\"</strong>: Uses a possessive; the subject of the clause is \"nanoparticles,\" not \"nanoengineers\" — the nanoparticles are not doing the working. ✗</li>\n<li><strong>Choice C — \"silica nanoparticles...are used...\"</strong>: Subject is \"silica nanoparticles\" — nanoparticles cannot work with equipment. ✗</li>\n<li><strong>Choice D — \"synthesized silica nanoparticles...have been created by nanoengineers.\"</strong>: Subject is \"nanoparticles\" again; the modifier dangles. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

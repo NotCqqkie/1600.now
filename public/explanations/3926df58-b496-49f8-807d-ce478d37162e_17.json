@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical requirement",
-      "content": "The blank needs a possessive pronoun that matches the number of its antecedent. The antecedent is \u201cthe North Sea,\u201d which is singular."
+      "content": "The blank needs a possessive pronoun that matches the number of its antecedent. The antecedent is “the North Sea,” which is singular."
     },
     {
       "title": "Apply the singular possessive form",
-      "content": "'Its' is the singular possessive. 'It's' and 'they're' are verb contractions, and 'their' is plural\u2014none of those fit the singular antecedent. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. The antecedent is \"the North Sea\" — singular and inanimate. A possessive (not a contraction) is needed before the noun \"shores.\" Rule: use the singular possessive \"its\" for singular inanimate antecedents.\n<ul>\n<li><strong>Choice A — \"it's\"</strong>: Contraction of \"it is\" — not a possessive. Reads as \"the North Sea it is shores,\" which is ungrammatical. ✗</li>\n<li><strong>Choice B — \"its\"</strong>: Singular possessive pronoun. Correctly refers to the singular antecedent \"the North Sea.\" ✓</li>\n<li><strong>Choice C — \"their\"</strong>: Plural possessive — wrong number for a singular antecedent. ✗</li>\n<li><strong>Choice D — \"they're\"</strong>: Contraction of \"they are\" — not a possessive and plural. Both errors. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

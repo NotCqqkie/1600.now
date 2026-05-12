@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the plural antecedent",
-      "content": "The blank pronoun must refer to \u201cthe eating utensils,\u201d which is plural. The pronoun appears in the clause \u201che considered ______ dangerous and unnecessary luxury items.\u201d"
+      "content": "The blank pronoun must refer to the eating utensils, which is plural. The pronoun appears in the clause \"he considered ______ dangerous and unnecessary luxury items.\""
     },
     {
       "title": "Match the pronoun to the antecedent's number",
-      "content": "Pronoun-antecedent agreement requires the pronoun to be plural, making \u201cthem\u201d correct. \u201cThis,\u201d \u201cthat,\u201d and \u201cit\u201d are all singular forms that violate this agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number.\n<ul>\n<li><strong>Choice A — \"them\"</strong>: plural object pronoun; agrees with plural antecedent \"the eating utensils.\" ✓</li>\n<li><strong>Choice B — \"this\"</strong>: singular demonstrative pronoun; disagrees with plural antecedent. ✗</li>\n<li><strong>Choice C — \"that\"</strong>: singular demonstrative pronoun; disagrees with plural antecedent. ✗</li>\n<li><strong>Choice D — \"it\"</strong>: singular pronoun; disagrees with plural antecedent. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

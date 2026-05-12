@@ -1,1 +1,15 @@
-{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject", "content": "The subject is <strong>Mathematician Grigori Perelman</strong> — singular.<br/><br/>The phrase <em>sometimes in conjunction with mathematicians Richard S.<br/><br/>Hamilton and Shing-Tung Yau</em> is a parenthetical interrupter set off by commas; it doesn't change the subject. (Phrases beginning with <em>with</em>, <em>along with</em>, etc., do not affect subject-verb agreement.)"}, {"title": "Apply the rule", "content": "A singular subject takes a singular verb. <strong>Is credited</strong> agrees with <em>Perelman</em>.<br/><br/><em>Are</em>, <em>are being</em>, and <em>have been</em> are all plural verb forms.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The subject is <strong>Mathematician Grigori Perelman</strong> — singular.<br/><br/>The phrase <em>sometimes in conjunction with mathematicians Richard S.<br/><br/>Hamilton and Shing-Tung Yau</em> is a parenthetical interrupter set off by commas; it doesn't change the subject. (Phrases beginning with <em>with</em>, <em>along with</em>, etc., do not affect subject-verb agreement.)"
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Identify the grammar issue: subject-verb agreement. The subject is \"Mathematician Grigori Perelman\" — singular. The phrase \"sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical set off by commas; it does not change the subject. Rule: prepositional phrases beginning with \"in conjunction with,\" \"along with,\" etc. do not make a singular subject plural.\n<ul>\n<li><strong>Choice A — \"are\"</strong>: Plural present — treats the parenthetical as adding to the subject, which it does not. ✗</li>\n<li><strong>Choice B — \"are being\"</strong>: Plural progressive — same number error, plus progressive aspect is inappropriate for a long-established attribution. ✗</li>\n<li><strong>Choice C — \"have been\"</strong>: Plural perfect — wrong number; also implies the credit is no longer current, contradicting the passage's present context. ✗</li>\n<li><strong>Choice D — \"is\"</strong>: Singular simple present. Correctly agrees with the singular subject \"Perelman.\" ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}
