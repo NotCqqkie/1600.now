@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "<strong>C</strong> captures the correct usage of a comma and no additional punctuation between noun and appositive. A, B, and D either add incorrect punctuation or omit necessary commas, violating standard English conventions.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Structure: \"of keen interest to [blank] of the University of Toronto.\" The blank must fill in a person. \"Diane Massam\" is a specific linguist\u2014a proper-name appositive identifying which linguist.<br/><br/>Rule: a restrictive appositive (one that uniquely identifies the noun) takes no commas. Here only one linguist is meant, so commas would wrongly imply the name is extra information.<br/><br/><strong>A. linguist: Diane Massam</strong> \u2014 a colon after \"linguist\" would mean everything before it is an independent clause, but \"of keen interest to linguist\" is not a complete sentence. Eliminated.<br/><br/><strong>B. linguist, Diane Massam,</strong> \u2014 surrounding \"Diane Massam\" with commas treats the name as non-restrictive (optional). But she is the specific person being named; the commas imply there are other linguists and this name is just added parenthetically. Eliminated.<br/><br/><strong>C. linguist Diane Massam</strong> \u2014 no punctuation between noun and restrictive appositive is correct. \"Linguist Diane Massam\" is a single noun phrase identifying one person. Correct.<br/><br/><strong>D. linguist, Diane Massam</strong> \u2014 a comma before the name but no closing comma is an asymmetric comma that doesn't match any standard pattern for appositives or lists. Eliminated.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

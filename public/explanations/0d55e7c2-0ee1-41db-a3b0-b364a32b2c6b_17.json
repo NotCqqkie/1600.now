@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and its number",
-      "content": "<strong>Even-toed ungulates</strong> is a plural noun serving as the sentence's subject. The appositive phrase such as the domestic goat... is merely an example."
+      "title": "Identify the grammar issue",
+      "content": "The subject is <strong>even-toed ungulates</strong> (plural). The phrase \"such as the domestic goat\" is a parenthetical example — strip it out and the sentence reads: \"even-toed ungulates ______ to a vast and diverse order of animals.\" A plural subject needs a plural verb."
     },
     {
-      "title": "Apply the subject-verb agreement rule",
-      "content": "A plural subject requires a plural verb. Choice D <strong>belong</strong> is the only plural verb form offered. The other choices are all singular verb forms that violate this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A: belongs</strong> — third-person singular (-s ending). \"Even-toed ungulates belongs\" — subject-verb mismatch. Eliminated.<br/><br/><strong>B: has belonged</strong> — singular auxiliary \"has.\" Same number error. Eliminated.<br/><br/><strong>C: is belonging</strong> — singular auxiliary \"is.\" Another number error, plus progressive aspect is unidiomatic for a fixed taxonomic fact. Eliminated.<br/><br/><strong>D: belong</strong> — plural base form. \"Even-toed ungulates belong to a vast and diverse order\" — subject and verb agree. <strong>Correct.</strong>"
     }
   ]
 }

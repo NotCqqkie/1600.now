@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the general-to-specific relationship",
-      "content": "The first sentence states that Downs draws on \u201ca variety of Mexican musical genres\u201d \u2014 a broad claim. The second sentence immediately names specific examples: corridos, rancheras, and other northern Mexican genres. The transition must signal movement from a general statement to concrete examples."
+      "title": "Identify the logical relationship",
+      "content": "The logical relationship is specification. Sentence 1 makes a broad claim — Downs draws on \"a variety of Mexican musical genres.\" The blank needs a transition signaling that sentence 2 gives concrete examples of those genres."
     },
     {
-      "title": "Match the signal to the answer",
-      "content": "\u201dSpecifically\u201d introduces concrete examples that elaborate on the general claim. The other three\u2014\u201dTherefore,\u201d \u201cIn conclusion,\u201d and \u201cRather\u201d\u2014either suggest logical consequence, closure, or contradiction, none of which apply here. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — \"Specifically\"</strong>: signals that what follows narrows down to concrete particulars of the general claim, introducing corridos, rancheras, and other northern genres as the specific examples, so fits. ✓</li><li><strong>Choice B — \"Therefore\"</strong>: signals cause-effect, implying drawing on corridos and rancheras is a logical consequence of using a variety of genres. Sentence 2 is not a consequence — it is an elaboration. ✗</li><li><strong>Choice C — \"In conclusion\"</strong>: signals a final summary of prior points. Sentence 2 is an elaboration, not a concluding statement. ✗</li><li><strong>Choice D — \"Rather\"</strong>: signals contrast or correction. Sentence 2 does not contradict or replace sentence 1's claim — it illustrates it. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

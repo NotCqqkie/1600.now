@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the opening dash and what it marks",
-      "content": "An opening dash after \u201ctemperature\u201d marks an appositive phrase, \u201caround 225 degrees Fahrenheit.\u201d After this phrase comes the independent clause, \u201cflaxseed oil will begin to emit smoke.\u201d"
+      "content": "An opening dash after \"temperature\" marks an appositive phrase, \"around 225 degrees Fahrenheit.\" After this phrase comes the independent clause, \"flaxseed oil will begin to emit smoke.\""
     },
     {
       "title": "Apply the matching dashes rule",
-      "content": "A pair of matching dashes must enclose parenthetical elements. Choice B adds the required closing dash after Fahrenheit. The other options either omit the closing dash or use incorrect punctuation marks. <strong>That matches choice B \u2014 B is correct.</strong>"
+      "content": "Structure: the sentence opens with \"When heated to a particular temperature—around 225 degrees [blank] flaxseed oil will begin to emit smoke.\" An opening dash appears after \"temperature,\" so \"around 225 degrees Fahrenheit\" is a parenthetical inserted into the main clause. A pair of dashes requires a matching closing dash.<br/><br/>Rule: when a parenthetical is opened with a dash, it must be closed with a dash—not any other punctuation.<br/><br/><strong>A. Fahrenheit</strong> — no closing dash. The parenthetical remains open, leaving \"flaxseed oil will begin...\" structurally attached to the parenthetical rather than the main clause. Eliminated.<br/><br/><strong>B. Fahrenheit—</strong> — the closing dash matches the opening dash and seals off the parenthetical. \"flaxseed oil will begin to emit smoke\" then correctly continues as the main clause. Correct.<br/><br/><strong>C. Fahrenheit:</strong> — a colon inside a parenthetical enclosed by dashes is wrong; the closing mark must be another dash, not a colon. Eliminated.<br/><br/><strong>D. Fahrenheit)</strong> — a closing parenthesis does not match an opening dash. Mixed brackets are not standard English. Eliminated.<br/><br/><strong>B</strong> is correct."
     }
   ]
 }

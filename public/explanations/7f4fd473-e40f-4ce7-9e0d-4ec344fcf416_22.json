@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the list structure",
-      "content": "The passage explicitly introduces <strong>three basic steps</strong> and marks the first with <strong>\u201cFirst\u201d</strong> and the third with <strong>\u201cThird,\u201d</strong> establishing a numbered sequence."
+      "title": "Identify the logical relationship",
+      "content": "The logical relationship is sequence. The passage explicitly names three steps, marks step one with \"First\" and step three with \"Third,\" so the blank needs a transition signaling the second item in an ordered list."
     },
     {
-      "title": "Match the transition to the sequence",
-      "content": "<strong>\u201cSecond\u201d</strong> completes the <strong>First \u2192 Second \u2192 Third</strong> progression established in the introduction. A) introduces examples, C) signals consequence, and D) signals contrast\u2014none continue the numbered list. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — \"For example\"</strong>: signals exemplification, treating what follows as a specific instance of a general claim. Forming a hypothesis is not an example of researching a question. ✗</li><li><strong>Choice B — \"Second\"</strong>: signals the next item in a numbered sequence, completing the First → Second → Third structure the passage establishes, so fits. ✓</li><li><strong>Choice C — \"Therefore\"</strong>: signals cause-effect, implying forming a hypothesis is a logical consequence of researching. But the passage frames these as distinct steps, not cause and effect. ✗</li><li><strong>Choice D — \"Instead\"</strong>: signals contrast or replacement, implying forming a hypothesis replaces or contradicts the prior step. That reverses the intended meaning. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast",
-      "content": "A holotype is the original specimen; a neotype is \u201cnot the exact specimen originally described.\u201d This distinction signals a contrast."
+      "title": "Identify the logical relationship",
+      "content": "The logical relationship is contrast. Sentence 2 defines a holotype as the original specimen used in the first description. The blank needs a transition signaling that sentence 3 introduces a different type of reference organism (a neotype) that is specifically not the original specimen."
     },
     {
-      "title": "Apply the transition",
-      "content": "\u201dBy contrast,\u201d signals the turn to a different reference organism type. Moreover, admittedly, and for instance each suggest continuity, concession, or exemplification rather than a shift in type. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — \"By contrast\"</strong>: signals that the neotype differs from the holotype just described — exactly the holotype-vs-neotype distinction the passage draws, so fits. ✓</li><li><strong>Choice B — \"Moreover\"</strong>: signals addition at the same level. It would imply the neotype shares the same key feature as the holotype (being the original specimen), but the passage explicitly says it does not. ✗</li><li><strong>Choice C — \"Admittedly\"</strong>: signals a concession the author grants reluctantly. No concession is being made — the passage is straightforwardly defining two distinct categories. ✗</li><li><strong>Choice D — \"For instance\"</strong>: signals that the G. inflata neotype is a specific example of the holotype category just defined. But the neotype is a different category entirely, not an example of the holotype. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

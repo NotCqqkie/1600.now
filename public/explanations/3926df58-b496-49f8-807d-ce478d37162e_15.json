@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structures around the blank",
-      "content": "The text begins with a dependent prepositional phrase (\u201cIn addition to having hard hooves that can dig into nearly any groove or\u201d), immediately followed by an independent clause (\u201cmountain goats have slender bodies ideal for scaling nearly ninety-degree cliffs\u201d)."
+      "content": "The text begins with a dependent prepositional phrase (\"In addition to having hard hooves that can dig into nearly any groove or\"), immediately followed by an independent clause (\"mountain goats have slender bodies ideal for scaling nearly ninety-degree cliffs\")."
     },
     {
       "title": "Apply the comma rule for introductory phrases",
-      "content": "A comma separates an introductory phrase from the main clause. \u201cCrack,\u201d (with a comma) correctly creates this required separation. A and B introduce awkward extra \u201cor\u201d structures, and C omits the required comma. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "A long introductory prepositional phrase must be followed by a comma before the main clause. The phrase ends with \"groove or ___\"; what fills the blank completes that phrase and must be followed by a comma.<br/><br/><strong>A — \"crack, or\"</strong>: Adds \"or\" after the comma, which continues the introductory phrase past the comma — the comma then wrongly separates \"groove or crack\" from \"or,\" making the list incoherent. Fails.<br/><br/><strong>B — \"crack or\"</strong>: \"Or\" without a comma suggests \"groove or crack or mountain goats have slender bodies\" — the main clause runs directly on without the required comma. Fails.<br/><br/><strong>C — \"crack\"</strong>: Omits the comma entirely, fusing the introductory phrase with the main clause. Fails.<br/><br/><strong>D — \"crack,\"</strong>: Completes the phrase (\"groove or crack\") and places a comma before the main clause (\"mountain goats have slender bodies...\"). Correct."
     }
   ]
 }

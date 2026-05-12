@@ -1,1 +1,15 @@
-{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the subject's number", "content": "The main subject is “Food writer J. Kenji López-Alt”—one person. The relative clause “who explores the science behind cooking” modifies the subject but does not change its number."}, {"title": "Apply subject-verb agreement", "content": "<strong>Explains</strong> is the third-person singular present-tense form that satisfies subject-verb agreement.<br/><br/>Choices B, C, and D violate the rule: <strong>are</strong> and <strong>have</strong> are plural auxiliaries, and <strong>explain</strong> is the plural/base form.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammar issue",
+      "content": "The subject is <strong>Food writer J. Kenji Lopez-Alt</strong> — one person, singular. The relative clause \"who explores the science behind cooking\" is parenthetical; removing it leaves: \"Food writer J. Kenji Lopez-Alt ______ that lower boiling points... can wreak all sorts of havoc.\""
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A: explains</strong> — third-person singular (-s ending). \"J. Kenji Lopez-Alt explains\" — subject and verb agree. <strong>Correct.</strong><br/><br/><strong>B: are explaining</strong> — plural auxiliary \"are.\" One person cannot \"are explaining.\" Eliminated.<br/><br/><strong>C: explain</strong> — plural base form. \"J. Kenji Lopez-Alt explain\" — number mismatch for a singular subject. Eliminated.<br/><br/><strong>D: have explained</strong> — plural auxiliary \"have.\" Same number error as B and C. Eliminated."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship", "content": "Sentence 1: glaciers in the mountains are <strong>at least 60 million years old</strong>.<br/>Sentence 2: Antarctica had glaciers <strong>before its 34-million-year-old ice sheet</strong>.<br/><br/>Sentence 2 is the logical <em>conclusion drawn from</em> Sentence 1 — a cause-to-effect, evidence-to-conclusion link."}, {"title": "Match the choice", "content": "<strong>Thus</strong> signals a conclusion drawn from prior evidence — exactly the relationship here.<br/><br/><em>By contrast</em>, <em>even so</em>, and <em>nevertheless</em> all signal contrast, but Sentence 2 doesn't contradict Sentence 1.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_24",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The logical relationship is cause-effect (evidence to conclusion). Sentence 1 presents the evidence: Transantarctic glaciers are at least 60 million years old. The blank needs a transition signaling that the researchers drew a conclusion from that evidence."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — \"By contrast\"</strong>: signals opposition. But sentence 2 is not in conflict with sentence 1 — it is the logical conclusion that follows from it. ✗</li><li><strong>Choice B — \"Thus\"</strong>: signals that sentence 2 is the conclusion drawn from the evidence in sentence 1 (glaciers predate the 34-million-year ice sheet), so fits. ✓</li><li><strong>Choice C — \"Even so\"</strong>: signals concession — that sentence 2 is true despite sentence 1. Sentence 2 is not a concession; it is a direct inference. ✗</li><li><strong>Choice D — \"Nevertheless\"</strong>: signals that sentence 2 holds true despite some obstacle in sentence 1. No obstacle exists; sentence 1 is the supporting evidence. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject",
-      "content": "The sentence\u2019s main subject is 'the presence' (a singular noun); the clause about microbacteria merely modifies it and does not change the subject\u2019s number."
+      "title": "Identify the grammar issue",
+      "content": "The true subject is <strong>the presence</strong> (singular). The long relative clause \"of many fossilized microbacteria, which seem to have thrived there...\" modifies \"presence\" but does not change its number. Strip it away: \"the presence ______ claims that bacteria are among the planet's most resilient organisms.\""
     },
     {
-      "title": "Match the verb to the subject",
-      "content": "A singular subject requires a singular present\u2011tense verb, so 'reinforces' fits. The other three choices either use a plural verb or a plural form that disagrees with the singular subject.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A: reinforce</strong> — plural base form. \"The presence reinforce\" — subject-verb mismatch. Eliminated.<br/><br/><strong>B: have reinforced</strong> — plural auxiliary \"have.\" Same number error. Eliminated.<br/><br/><strong>C: reinforces</strong> — singular third-person present (-s ending). \"The presence reinforces claims\" — subject and verb agree. <strong>Correct.</strong><br/><br/><strong>D: are reinforcing</strong> — plural auxiliary \"are.\" Also a number error. Eliminated."
     }
   ]
 }

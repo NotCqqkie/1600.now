@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the appositive and its requirement",
-      "content": "\u201dA politician from South Carolina,\u201d is an appositive phrase that renames Robert B. Elliott. The signal: an appositive must be immediately followed by the noun it describes as the main subject of the independent clause."
+      "content": "\"A politician from South Carolina,\" is an appositive phrase that renames Robert B. Elliott. The signal: an appositive must be immediately followed by the noun it describes as the main subject of the independent clause."
     },
     {
       "title": "Apply the appositive rule",
-      "content": "(A) places Elliott as the subject of the clause immediately after the appositive, satisfying the rule. (B) is a fragment with no subject, while (C) and (D) place different subjects after the appositive.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "An opening appositive phrase (\"A politician from South Carolina,\") must be followed immediately by the noun it renames as the subject of the main clause. That noun is Robert B. Elliott.<br/><br/><strong>A — \"Elliott was elected to the US House of Representatives in 1870 by his constituents.\"</strong>: Elliott appears immediately after the comma as subject. Correct.<br/><br/><strong>B — \"was the year that Elliott was elected...\"</strong>: No subject follows the appositive — \"was\" is a verb with nothing before it, creating a fragment. Fails.<br/><br/><strong>C — \"constituents of Elliott elected him...\"</strong>: \"Constituents\" follows the comma, so the appositive would mislabel \"constituents\" as the politician from South Carolina. Fails.<br/><br/><strong>D — \"in 1870, his constituents elected Elliott...\"</strong>: \"In 1870\" follows the comma, again misplacing the appositive and leaving no proper subject noun immediately after it. Fails."
     }
   ]
 }

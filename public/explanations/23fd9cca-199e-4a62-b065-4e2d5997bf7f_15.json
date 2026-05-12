@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure",
-      "content": "Left side: \u201cthe average summer temperature\u201d \u2014 a noun phrase serving as the subject. Right side: \u201cjust 66.7 degrees Fahrenheit\u201d \u2014 a noun phrase serving as the complement, not an independent clause."
+      "content": "Left side: \"the average summer temperature\" — a noun phrase serving as the subject. Right side: \"just 66.7 degrees Fahrenheit\" — a noun phrase serving as the complement, not an independent clause."
     },
     {
       "title": "Apply the punctuation rule",
-      "content": "A verb connects directly to its complement without punctuation.<br/> A semicolon separates independent clauses, a colon introduces elaboration or a list, and a comma between verb and complement violates conventions\u2014all incorrect here. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Structure: \"the average summer temperature [blank] just 66.7 degrees Fahrenheit.\" Subject = \"the average summer temperature\"; complement = \"just 66.7 degrees Fahrenheit.\" These need only a verb to connect them.<br/><br/>Rule: a linking verb connects directly to its subject complement—no punctuation between them.<br/><br/><strong>A. is</strong> — the bare verb \"is\" links subject to complement with no interruption. \"The average summer temperature is just 66.7 degrees Fahrenheit\" is a complete, correct sentence. Correct.<br/><br/><strong>B. is;</strong> — a semicolon must be followed by an independent clause. \"Just 66.7 degrees Fahrenheit\" has no verb, so it cannot stand alone. Eliminated.<br/><br/><strong>C. is:</strong> — a colon after \"is\" requires a complete independent clause before it (\"the average summer temperature is\" is not complete). Eliminated.<br/><br/><strong>D. is,</strong> — inserting a comma between a linking verb and its complement is a comma-splice error; commas do not belong between a verb and its direct complement. Eliminated.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

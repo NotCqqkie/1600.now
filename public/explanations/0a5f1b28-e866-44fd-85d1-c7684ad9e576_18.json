@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the tense in the 'Because' clause",
-      "content": "The subordinate clause begins with \u201cBecause both languages require...\u201d using present tense. The blank completes a cause-and-effect statement about general conditions, not a specific past event."
+      "title": "Identify the grammar issue",
+      "content": "The passage describes a general, ongoing situation (Perl and Pascal \"have\" a difference; both languages \"require\" technical knowledge). The verb tense must stay consistent with this present-tense frame. The subject \"laypeople\" is plural."
     },
     {
-      "title": "Choose present tense to match",
-      "content": "Present-tense struggle maintains the cause-and-effect relationship established by the \u201cBecause\u201d clause. The three past forms (struggled, were struggling, had struggled) incorrectly shift to past time, contradicting the established frame. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A: struggle</strong> — plural present tense. \"Laypeople struggle to distinguish between them\" — matches the present-tense context and agrees with the plural subject. <strong>Correct.</strong><br/><br/><strong>B: struggled</strong> — simple past. Shifts the sentence into the past, contradicting the present-tense framing of the passage. Eliminated.<br/><br/><strong>C: were struggling</strong> — past progressive. Implies a completed past action, inconsistent with the general present-tense claim. Eliminated.<br/><br/><strong>D: had struggled</strong> — past perfect. Implies the struggling was completed before another past event, which is not supported by the passage. Eliminated."
     }
   ]
 }

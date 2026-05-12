@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject",
-      "content": "The subject is <em>Food writer J. Kenji L\u00f3pez-Alt</em>\u2014one person. The relative clause <em>who explores the science behind cooking</em> doesn't change the fact that the subject is singular."
+      "content": "The subject is \"Food writer J. Kenji López-Alt\" — one person, singular. The relative clause \"who explores the science behind cooking\" is a nonrestrictive modifier; it does not change the subject's number."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "A singular subject requires a singular verb. <strong>Explains</strong> is singular, so it matches the subject. B, C, and D are all plural verb forms that don't agree. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Rule: singular subject requires singular present-tense verb",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"explains\"</strong> — singular present-tense verb. López-Alt explains — subject and verb agree. Correct.<br/><br/><strong>B. \"explain\"</strong> — plural present-tense verb (used with I/you/we/they); disagrees with singular López-Alt. Incorrect.<br/><br/><strong>C. \"have explained\"</strong> — plural present-perfect verb; disagrees with singular subject and the passage uses simple present throughout. Incorrect.<br/><br/><strong>D. \"are explaining\"</strong> — plural progressive verb; disagrees with singular subject. Incorrect.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

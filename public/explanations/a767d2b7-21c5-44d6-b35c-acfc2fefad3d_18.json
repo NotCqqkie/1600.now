@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structure",
-      "content": "The blank must supply the subject and verb of a clause where \u201c68th in a global ranking\u201d is the predicate adjective. The subject refers to \u201cthe constitution of Lithuania\u201d (singular), requiring a singular subject pronoun + linking verb."
+      "title": "Identify the grammar issue",
+      "content": "The blank fills the subject + linking verb slot before \"68th in a global ranking.\" The subject is \"the constitution of Lithuania\" (singular), so the blank needs a singular subject pronoun plus a linking verb."
     },
     {
-      "title": "Select the correct pronoun form",
-      "content": "The contraction \u201cit's\u201d (it is) provides the singular subject + linking verb needed. \u201cIts\u201d is possessive and \u201ctheir\u201d/\u201dthey're\u201d are plural, both wrong for a singular subject + verb. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A: their</strong> — possessive pronoun, plural. No linking verb, so the sentence has no main verb. Eliminated.<br/><br/><strong>B: its</strong> — possessive pronoun, singular. Still no linking verb; \"its 68th in a global ranking\" is not a complete clause. Eliminated.<br/><br/><strong>C: it's</strong> — contraction of \"it is.\" Plugging in: \"it is 68th in a global ranking\" — complete clause, singular subject + linking verb, grammatically correct. <strong>Correct.</strong><br/><br/><strong>D: they're</strong> — contraction of \"they are,\" plural. The constitution is one document, so plural disagrees with the antecedent. Eliminated."
     }
   ]
 }

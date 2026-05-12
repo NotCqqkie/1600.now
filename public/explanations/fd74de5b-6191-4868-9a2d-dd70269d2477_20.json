@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the 'which' relative clause",
-      "content": "After the blank comes \u201cwhich was created in 1910...\u201d \u2014 the relative pronoun \u201cwhich\u201d introduces a relative clause."
+      "title": "Identify the structure",
+      "content": "The sentence reads: \"...hangs [a] 41.1-by-37.6-inch oil ______ which was created in 1910 by American artist Lyonel Feininger.\" The blank names the painting (\"Uprising\") and must be punctuated to introduce the relative clause \"which was created in 1910.\""
     },
     {
-      "title": "Apply the 'which' comma rule",
-      "content": "A relative clause introduced by \u201cwhich\u201d must be preceded by a comma. Choice A correctly places the comma before the clause. The other choices either omit the comma, place it incorrectly, or create fragments. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Rule: a nonrestrictive \"which\" clause must be preceded by a comma",
+      "content": "The painting title \"Uprising\" is the specific noun the clause describes, so the clause is nonrestrictive and requires a comma before \"which.\" Per-choice diagnosis:<br/><br/><strong>A. \"painting Uprising,\"</strong> — places the comma after the title, immediately before \"which.\" Correct.<br/><br/><strong>B. \"painting Uprising\"</strong> — omits the comma before \"which,\" violating the nonrestrictive clause rule. Incorrect.<br/><br/><strong>C. \"painting, Uprising\"</strong> — puts a comma between \"painting\" and \"Uprising,\" interrupting the noun phrase. \"Uprising,\" is left without the required comma before \"which.\" Incorrect.<br/><br/><strong>D. \"painting. Uprising.\"</strong> — creates a sentence fragment (\"Uprising. which was created...\") by using a period after \"Uprising.\" Incorrect.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

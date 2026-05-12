@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the singular antecedent",
-      "content": "The blank needs a pronoun referring to <em>The Aeneid</em>, which is a singular noun. This pronoun must also be possessive, since it modifies \u201ccompelling narrative.\u201d"
+      "title": "Identify the antecedent",
+      "content": "The blank fills \"______ compelling narrative still captivates readers today.\" The pronoun must modify \"narrative\" and refer to \"The Aeneid\" — a singular, non-person noun. The pronoun needs to be possessive."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "A pronoun must match its antecedent in number. <strong>Its</strong> is the singular possessive pronoun needed here. The other choices violate number agreement or don't function as possessive pronouns. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Rule: use \"its\" for the singular possessive of non-persons",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"their\"</strong> — plural possessive; \"The Aeneid\" is singular. Incorrect.<br/><br/><strong>B. \"they're\"</strong> — contraction of \"they are\"; substitution gives \"they are compelling narrative,\" which is ungrammatical. Incorrect.<br/><br/><strong>C. \"its\"</strong> — singular possessive for non-persons. Substitution: \"The Aeneid's compelling narrative still captivates readers\" — meaning holds. Correct.<br/><br/><strong>D. \"it's\"</strong> — contraction of \"it is\"; substitution gives \"it is compelling narrative,\" which is ungrammatical as a possessive modifier. Incorrect.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

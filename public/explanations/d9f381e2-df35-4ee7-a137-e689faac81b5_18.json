@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The blank follows \u2018making\u2019 and precedes \u2018the first time the organization would appoint a Vietnamese leader.\u2019\u2018Making\u2019 functions as a verb introducing a result. The blank requires a singular pronoun (his appointment) to refer to the event triggering the consequence."
+      "title": "Identify the antecedent",
+      "content": "The blank fills \"making ______ the first time the organization would appoint a Vietnamese leader.\" The pronoun refers to the singular event of Lê Lương Minh becoming secretary-general in January 2013."
     },
     {
-      "title": "Apply the pronoun agreement rule",
-      "content": "\u2018This\u2019 correctly refers to a singular, defined event (his appointment as thirteenth secretary-general). The other three either use plural pronouns (these/t hose) or an indefinite/irrelevant term (some). That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Rule: use \"this\" for a singular, specific, already-stated event",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"these\"</strong> — plural demonstrative; the event is singular. Incorrect.<br/><br/><strong>B. \"those\"</strong> — plural demonstrative; same problem. Incorrect.<br/><br/><strong>C. \"this\"</strong> — singular demonstrative pointing back to the specific appointment just described. Substitution: \"making this the first time...\" reads naturally. Correct.<br/><br/><strong>D. \"some\"</strong> — indefinite pronoun implying an unspecified quantity; the appointment is a defined singular event, not an unspecified one. Incorrect.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

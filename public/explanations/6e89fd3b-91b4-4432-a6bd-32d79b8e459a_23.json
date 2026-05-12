@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the opposition between sentences",
-      "content": "The first sentence says the volcanoes \u201cmay look similar from afar.\u201d The second reveals experts \u201ccan tell\u201d they are different types. This contradiction\u2014appearance vs. reality\u2014demands a contrast transition word."
+      "content": "The first sentence says the volcanoes \"may look similar from afar.\" The second reveals experts \"can tell\" they are different types. This contradiction—appearance vs. reality—demands a contrast transition word."
     },
     {
       "title": "Choose the contrast word",
-      "content": "\u201dThough,\u201d meaning \u201chowever,\u201d directly expresses the opposition the passage requires. \u201cTherefore\u201d implies consequence, \u201cfor example\u201d implies exemplification, and \u201cin addition\u201d implies addition\u2014none capture the needed contrast. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is contrast — the volcanoes look similar from afar, yet experts can tell them apart. The blank needs a transition signaling that opposition.\n<ul>\n<li><strong>Choice A — \"therefore,\"</strong>: signals cause-effect (X, so Y), so fails — the second sentence contradicts the first, it does not follow from it. ✗</li>\n<li><strong>Choice B — \"for example,\"</strong>: signals a specific instance of a general claim, so fails — no example is being given. ✗</li>\n<li><strong>Choice C — \"though,\"</strong>: signals contrast (despite appearances, the reality is different), so fits. ✓</li>\n<li><strong>Choice D — \"in addition,\"</strong>: signals addition of a new, compatible point, so fails — the second sentence contradicts, not adds to, the first. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

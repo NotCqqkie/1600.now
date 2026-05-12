@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject structure",
-      "content": "The subject is compound\u2014<em>a state's voting record and polling data</em> (two items joined by 'and'). The phrase <em>not its population size</em> in commas is a contrasting element that clarifies but doesn't change the subject's plurality."
+      "title": "Identify the grammar issue",
+      "content": "The subject is a compound: <strong>a state's voting record and polling data</strong> (two items joined by \"and\" = plural). The phrase \"not its population size\" is a contrasting parenthetical between commas — it does not change the subject. Strip it away: \"a state's voting record and polling data ______ its importance to campaigns.\""
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "A compound subject joined by 'and' requires a plural verb form. The plural present tense is <strong>determine</strong>\u2014the other choices use a singular verb (A, B) or a participle (C). That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A: determines</strong> — singular verb (-s ending). \"Voting record and polling data determines\" — compound subject needs plural. Eliminated.<br/><br/><strong>B: has determined</strong> — singular auxiliary \"has.\" Same number error. Eliminated.<br/><br/><strong>C: determining</strong> — participle, not a finite verb. Leaves the sentence without a main verb. Eliminated.<br/><br/><strong>D: determine</strong> — plural base form. \"Voting record and polling data determine its importance\" — subject and verb agree. <strong>Correct.</strong>"
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject",
-      "content": "The subject is <strong>collection</strong> (singular). The prepositional phrase \u201cof oil paintings\u201d and the relative clause \u201cwhich includes...\u201d are modifiers that don't affect the subject's number."
+      "content": "The subject is \"collection\" (singular). \"of oil paintings\" is a prepositional phrase modifying \"collection,\" and \"which includes James Ensor's Tribulations... and Yasuo Kuniyoshi's Self-Portrait...\" is a nonrestrictive relative clause — neither changes the subject's number."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires that the verb match the subject in number. Because <strong>collection</strong> is singular, only <strong>remains</strong> (singular) is correct; the other three options are plural verb forms. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Rule: singular subject requires singular verb",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"remain\"</strong> — plural verb (used with they); disagrees with singular \"collection.\" Incorrect.<br/><br/><strong>B. \"have remained\"</strong> — plural present-perfect verb; disagrees with singular \"collection.\" Incorrect.<br/><br/><strong>C. \"remains\"</strong> — singular present-tense verb. The collection remains — subject and verb agree. Correct.<br/><br/><strong>D. \"have been remaining\"</strong> — plural progressive perfect; disagrees with singular \"collection\" and is awkward. Incorrect.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

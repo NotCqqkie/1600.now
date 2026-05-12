@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent and required number",
-      "content": "The blank must refer to \u201cthe substance\u201d from the previous sentence \u2014 a singular noun."
+      "title": "Identify the antecedent",
+      "content": "The blank fills \"As a result, _____ will begin to combust.\" The antecedent is \"the substance\" (coconut oil), introduced two sentences earlier as a singular noun."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "\u201dIt\u201d is the standard singular pronoun. \u201cThey\u201d and \u201cthose\u201d are plural, violating the agreement rule; \u201cthat,\u201d while singular, is a demonstrative form, not the standard choice. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Rule: a pronoun must match its antecedent in number and function",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"they\"</strong> — plural pronoun; \"the substance\" is singular. Agreement fails. Incorrect.<br/><br/><strong>B. \"it\"</strong> — singular pronoun matching singular \"the substance.\" Substitution: \"the substance will begin to combust\" — meaning holds. Correct.<br/><br/><strong>C. \"those\"</strong> — plural demonstrative; does not agree with singular \"the substance.\" Incorrect.<br/><br/><strong>D. \"that\"</strong> — singular demonstrative, but \"that\" is used to point to something more distant or to introduce a clause, not as the standard subject pronoun for a previously named substance. \"It\" is the conventional choice. Incorrect.<br/><br/><strong>B</strong> is correct."
     }
   ]
 }

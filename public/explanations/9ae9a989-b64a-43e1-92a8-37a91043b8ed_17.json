@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and time reference",
-      "content": "<strong>Ann Greely</strong> is a singular subject. The phrase <strong>in the late 1800s</strong> indicates a past time period."
+      "title": "Identify the subject and tense context",
+      "content": "The subject is \"Ann Greely\" — one person, singular. The phrase \"in the late 1800s\" establishes a past time context. The verb must be singular and past tense."
     },
     {
-      "title": "Apply the constraint to the choices",
-      "content": "Only <strong>was</strong> combines singular form with past tense. Choices B, C, and D all fail this test: B and C use present-tense forms, D uses the plural <strong>were</strong>. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Rule: singular past-tense subject takes \"was,\" not \"were\"",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"was\"</strong> — singular past-tense verb. Ann Greely was a fierce advocate — agrees in both number and tense. Correct.<br/><br/><strong>B. \"have been\"</strong> — plural present-perfect; disagrees in both number (plural) and conflicts with \"late 1800s\" past context. Incorrect.<br/><br/><strong>C. \"are\"</strong> — plural present-tense; disagrees in number and tense. Incorrect.<br/><br/><strong>D. \"were\"</strong> — past-tense but plural (used with they/you); Ann Greely is singular. Incorrect.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship", "content": "Sentence 1 says \"<strong>On one hand</strong>, the dust can <strong>enhance</strong> ice clouds.\" Sentence 2 describes the <strong>opposite</strong> effect: dust <strong>weakens</strong> the storm. The two effects are contrary — that's the \"complex and opposing effects\" mentioned at the start."}, {"title": "Pick the transition", "content": "\"On one hand\" demands its partner: <strong>On the other hand</strong>.<br/><br/>\"In other words\" rephrases (no rephrase here); \"For example\" instantiates; \"Previously\" is temporal — none capture the deliberate contrast.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The logical relationship is contrast. Sentence 2 uses \"On one hand\" to introduce the first of two opposing effects of Saharan dust. The blank needs the paired transition that introduces the second, opposing effect."
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — \"In other words\"</strong>: signals a restatement. But sentence 3 describes a weakening effect opposite to sentence 2's strengthening effect — not a rephrasing of the same idea. ✗</li><li><strong>Choice B — \"For example\"</strong>: signals exemplification. The dust weakening the storm is not an example of it enhancing ice clouds; it is the opposing effect. ✗</li><li><strong>Choice C — \"On the other hand\"</strong>: is the conventional paired phrase for \"On one hand,\" signaling the second of two opposing effects, so fits. ✓</li><li><strong>Choice D — \"Previously\"</strong>: signals a temporal shift to an earlier time. The two effects are not separated in time — they are simultaneous but opposing. ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

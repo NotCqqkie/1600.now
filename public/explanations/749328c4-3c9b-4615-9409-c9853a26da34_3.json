@@ -1,1 +1,15 @@
-{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the brain's response to incomplete visual information", "content": "The key signal is the contrast: despite incomplete visual information (the break in a blocked area), participants still perceived the line as continuous. This shows the brain is actively making up for the missing information."}, {"title": "Match 'compensate' to the signal", "content": "<strong>Compensate</strong> means to make up for or offset something.<br/><br/>The other three choices don't express this function: <em>captivate</em> and <em>revert</em> are unrelated to compensating for missing information, while <em>barricade</em> contradicts it.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the brain's response to incomplete visual information",
+      "content": "The key signal is the contrast: despite incomplete visual information (the break in a blocked area), participants still perceived the line as continuous. This shows the brain is actively making up for the missing information."
+    },
+    {
+      "title": "Match 'compensate' to the signal",
+      "content": "Plug each choice into: \"the brain can ______ filling in what is missing.\"<br/><br/><strong>A. Captivate</strong> means to fascinate or enchant. The brain captivating something makes no sense here—captivate describes an effect on an audience, not a cognitive process for handling gaps. Eliminated.<br/><br/><strong>B. Revert</strong> means to return to a previous state. The brain reverting is incoherent in this context—reverting is not the same as supplying missing visual information. Eliminated.<br/><br/><strong>C. Barricade</strong> means to block or obstruct. This contradicts the finding: the brain completed the broken line rather than blocking perception of it. Eliminated.<br/><br/><strong>D. Compensate</strong> means to make up for something lacking. \"The brain can compensate\" for missing visual information by completing the perceived line—exactly what the study showed. Correct.<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

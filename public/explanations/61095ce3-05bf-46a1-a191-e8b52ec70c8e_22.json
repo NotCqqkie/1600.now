@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the cause-and-effect relationship",
-      "content": "The first sentence shows that these methods handle thousands of shapes; the second explains why they're economical. The cause-and-effect relationship is the decisive clue."
+      "title": "Identify the logical relationship",
+      "content": "The logical relationship is cause-effect. Sentence 1 states that these methods process shapes numbering in the thousands (a lighter load). The blank needs a transition signaling that their economic advantage over surface modeling follows from that lighter load."
     },
     {
-      "title": "Match the transitional word",
-      "content": "\u201dAs such\u201d (\u201ctherefore\u201d) signals that the economic advantage follows from the lighter processing load. <br/>\u201cInstead\u201d implies contrast, \u201cFor example\u201d implies exemplification, and \u201cSpecifically\u201d implies narrowing\u2014none show causation. <br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A — \"Instead\"</strong>: signals contrast or substitution, implying sentence 2 replaces or contradicts sentence 1. The two sentences are complementary, not contrasting. ✗</li><li><strong>Choice B — \"For example\"</strong>: signals exemplification. Being economical would have to be a specific instance of a general claim in sentence 1, but sentence 1 makes no such general claim. ✗</li><li><strong>Choice C — \"Specifically\"</strong>: signals narrowing to a specific case of a broader point. Sentence 2 adds a new comparative fact rather than narrowing sentence 1. ✗</li><li><strong>Choice D — \"As such\"</strong>: signals that the conclusion in sentence 2 follows from the situation described in sentence 1 (lighter processing load → more economical), so fits. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

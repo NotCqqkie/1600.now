@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the blank's position and antecedent",
-      "content": "The blank fills a possessive slot before \u201cimpressive collection.\u201d The antecedent\u2014the noun being replaced\u2014is \u201cThe Eiteljorg Museum,\u201d which is singular and non-person."
+      "title": "Identify the antecedent",
+      "content": "The blank fills \"The Eiteljorg Museum counts pieces by S'eiltin in ______ impressive collection.\" The pronoun must refer to \"The Eiteljorg Museum\" — singular and an institution (non-person)."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "\u201dIts\u201d is the standard possessive form for singular, non-person antecedents (A). \u201cHer\u201d is for female persons, \u201ctheir\u201d is for plural, and \u201cit's\u201d is a contraction rather than a possessive.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Rule: use \"its\" for singular non-person antecedents",
+      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"its\"</strong> — singular possessive for non-persons. The Museum and its collection — agreement holds. Correct.<br/><br/><strong>B. \"her\"</strong> — possessive for female persons; The Eiteljorg Museum is an institution, not a person. Incorrect.<br/><br/><strong>C. \"it's\"</strong> — contraction of \"it is\"; substitution gives \"the Museum counts pieces in it is impressive collection,\" which is ungrammatical. Incorrect.<br/><br/><strong>D. \"their\"</strong> — plural possessive; the antecedent is singular. Incorrect.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

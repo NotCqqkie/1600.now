@@ -1,1 +1,15 @@
-{"questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase <em>though it seemed</em> sets up a contrast between the initial perception (blank) and the actual outcome (eventually solved)."}, {"title": "Match the contrast", "content": "„Insuperable” (impossible to solve) creates the strongest contrast with the conjecture being eventually resolved.<br/><br/>The other choices either describe clarity (unequivocal), criticism (irreproachable), or inevitability (ineluctable)—none align with the needed contradiction.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The phrase <em>though it seemed</em> sets up a contrast between the initial perception (blank) and the actual outcome (eventually solved)."
+    },
+    {
+      "title": "Match the contrast",
+      "content": "Plug each choice into the blank: \"_____ though it seemed, the conjecture eventually yielded.\"<br/><br/><strong>A. Insuperable</strong> means impossible to overcome. \"Insuperable though it seemed\" contrasts perfectly with \"eventually yielded\"—the conjecture looked unsolvable but was solved. Correct.<br/><br/><strong>B. Unequivocal</strong> means absolutely clear. A clear conjecture that eventually gets solved is not a meaningful contrast—nothing was surprising about that. Eliminated.<br/><br/><strong>C. Irreproachable</strong> means beyond criticism or faultless. A faultless conjecture yielding to proof makes no logical contrast. Eliminated.<br/><br/><strong>D. Ineluctable</strong> means inevitable. If the conjecture seemed inevitable, its eventual solution would not be a contrast—it would be expected. Eliminated.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

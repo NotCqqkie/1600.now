@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the transition between different moons",
-      "content": "The passage follows a hypothetical spaceship journey visiting Jupiter's moons: first Elara (with a prograde orbit), then Pasiphae (another Jovian moon). The transition word must signal the shift from one moon to a different moon."
+      "title": "Identify the logical relationship",
+      "content": "Sentences 1-2 describe Elara's prograde orbit (orbiting in the same direction Jupiter rotates). Sentence 3 introduces Pasiphae, a different moon with a retrograde orbit (the opposite direction). The relationship is a <strong>shift to a different location</strong> — not an example of Elara, not a restatement, not elaboration, but a move to another moon in another place."
     },
     {
-      "title": "Apply the location-change signal",
-      "content": "\u201dElsewhere\u201d signals a different location, fitting the transition from Elara to Pasiphae. The other three choices suggest elaboration on the prograde concept, not a location shift. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A: For example,</strong> — signals an illustration of the previous point. Pasiphae is not an example of a prograde orbit; it is the opposite. Eliminated.<br/><br/><strong>B: Specifically,</strong> — signals a narrower detail about what was just said. Pasiphae is a new subject, not a specific detail about Elara. Eliminated.<br/><br/><strong>C: In other words,</strong> — signals a restatement. The sentence introduces a new moon with a different type of orbit, not a paraphrase of what came before. Eliminated.<br/><br/><strong>D: Elsewhere,</strong> — signals a shift to a different location. \"Elsewhere, at Pasiphae\" — the spaceship moves to another moon. Matches the structure of the passage. <strong>Correct.</strong>"
     }
   ]
 }

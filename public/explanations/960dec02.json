@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structures",
-      "content": "The blank introduces a noun phrase (title + name) that serves as the subject, positioned directly before the verb \u201cfound.\u201d"
+      "content": "The blank introduces a noun phrase (title + name) that serves as the subject, positioned directly before the verb \"found.\""
     },
     {
       "title": "Apply the subject-verb rule",
-      "content": "No punctuation separates a subject from its verb. Option C correctly omits punctuation between the subject and verb, while options A, B, and D insert punctuation (a colon or commas) at this boundary. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "No punctuation separates a subject from its verb. The subject here is \"Entomologist Heather Grab\" and the verb is \"found.\"\n\nThe title \"Entomologist\" and the name \"Heather Grab\" form a single noun phrase — no comma separates a title from the name it precedes.<br/><br/><strong>A — \"Entomologist Heather Grab:\"</strong>: A colon after the subject before the verb is incorrect — colons introduce lists or elaborations, not verbs. Fails.<br/><br/><strong>B — \"Entomologist, Heather Grab,\"</strong>: Commas around \"Heather Grab\" suggest it is a nonessential appositive that could be removed, but the name is essential to identify who found the results. Also inserts punctuation between subject and verb. Fails.<br/><br/><strong>C — \"Entomologist Heather Grab\"</strong>: No punctuation between the subject and the verb \"found.\" Correct.<br/><br/><strong>D — \"Entomologist Heather Grab,\"</strong>: A comma between the subject and verb is not allowed in standard English. Fails."
     }
   ]
 }
