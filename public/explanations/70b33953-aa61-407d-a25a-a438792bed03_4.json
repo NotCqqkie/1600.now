@@ -1,1 +1,15 @@
-{"questionId":"70b33953-aa61-407d-a25a-a438792bed03_4","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $4(8-4x)+2$ from both sides: $(8-4x) = 18-2 = 16$."},{"title":"Compute the target value","content":"So $8-4x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $8 - 4x$ as a single variable",
+      "content": "Let $u = 8 - 4x$. Subtract $4(8-4x)+2$ from both sides: $(8-4x) = 18-2 = 16$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $8-4x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

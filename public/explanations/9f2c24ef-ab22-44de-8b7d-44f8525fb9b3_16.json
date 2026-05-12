@@ -1,1 +1,15 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_16", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Simplify the expression", "content": "Use $\\pi^{2}-x^{2}=(\\pi-x)(\\pi+x)$ and combine over that denominator: $$\\frac{20\\pi^{2}}{\\pi^{2}-x^{2}}-\\frac{20\\pi(\\pi-x)}{\\pi^{2}-x^{2}}=\\frac{20\\pi x}{\\pi^{2}-x^{2}}.$$"}, {"title": "Match to the answer choices", "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the expression",
+      "content": "Factor the first denominator: $\\pi^2 - x^2 = (\\pi-x)(\\pi+x)$. To match this, multiply the second fraction by $\\frac{\\pi-x}{\\pi-x}$: $$\\frac{20\\pi}{x+\\pi} = \\frac{20\\pi(\\pi-x)}{\\pi^2 - x^2}.$$ Now subtract over the common denominator: $$\\frac{20\\pi^2 - 20\\pi(\\pi - x)}{\\pi^2 - x^2} = \\frac{20\\pi x}{\\pi^2 - x^2}.$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "That matches choice <strong>B</strong> — <strong>B</strong> is correct."
+    }
+  ]
+}

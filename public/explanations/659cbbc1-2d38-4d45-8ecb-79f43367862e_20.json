@@ -1,1 +1,15 @@
-{"questionId":"659cbbc1-2d38-4d45-8ecb-79f43367862e_20","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $7(5-2x)+3$ from both sides: $(5-2x) = 18-3 = 15$."},{"title":"Compute the target value","content":"So $5-2x = 15$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $5 - 2x$ as a single variable",
+      "content": "Let $u = 5 - 2x$. Subtract $7(5-2x)+3$ from both sides: $(5-2x) = 18-3 = 15$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $5-2x = 15$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

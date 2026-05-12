@@ -1,1 +1,15 @@
-{"questionId":"9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_13","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $5(8-2x)+3$ from both sides: $(8-2x) = 19-3 = 16$."},{"title":"Compute the target value","content":"So $8-2x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $8 - 2x$ as a single variable",
+      "content": "Let $u = 8 - 2x$. Subtract $5(8-2x)+3$ from both sides: $(8-2x) = 19-3 = 16$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $8-2x = 16$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"6197d48e-7c76-4333-af39-0b9aa39e924c_16","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Divide both sides by $4$: $x^{2}-8x-10=0$."},{"title":"Compute the target value","content":"So $x^{2}-8x = 10$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_16",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate $x^{2}-8x$ by dividing both sides",
+      "content": "Divide both sides by $4$: $x^{2}-8x-10=0$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $x^{2}-8x = 10$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

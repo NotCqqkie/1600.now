@@ -1,1 +1,15 @@
-{"questionId":"b79b2afa-5519-4128-ab30-39cfd5c26d43_14","correctAnswer":"18","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Add $8(13-5x)$ to both sides: $(13-5x)+3 = 21$, so $(13-5x)=18$."},{"title":"Compute the target value","content":"So $13-5x = 18$. The answer is <strong>18</strong>."}]}
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_14",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $13-5x$ as a single variable",
+      "content": "Let $u = 13-5x$. The equation becomes $-7u + 3 = -8u + 21$. Add $8u$ to both sides: $u + 3 = 21$, so $u = 18$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $13-5x = 18$. The answer is <strong>18</strong>."
+    }
+  ]
+}

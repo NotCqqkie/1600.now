@@ -1,1 +1,15 @@
-{"questionId":"ffdaaea2-8ec1-44b7-903d-084c644b881a_6","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $4(x+4)$ from both sides: $(x+4)=39$."},{"title":"Compute the target value","content":"So $x+4 = 39$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $x+ 4$ as a single variable",
+      "content": "Let $u = x+ 4$. Subtract $4(x+4)$ from both sides: $(x+4)=39$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $x+4 = 39$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    }
+  ]
+}

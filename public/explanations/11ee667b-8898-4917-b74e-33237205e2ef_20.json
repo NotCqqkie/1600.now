@@ -1,1 +1,15 @@
-{"questionId":"11ee667b-8898-4917-b74e-33237205e2ef_20","correctAnswer":"4","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Combine: $8(2-7x)+6 = 7(2-7x)+2$, giving $(2-7x)=-4$."},{"title":"Compute the target value","content":"So $7x-2 = -(2-7x) = 4$. The answer is <strong>4</strong>."}]}
+{
+  "questionId": "11ee667b-8898-4917-b74e-33237205e2ef_20",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $7x-2$ as a single variable",
+      "content": "Let $u = 7x-2$. Combine: $8(2-7x)+6 = 7(2-7x)+2$, giving $(2-7x)=-4$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $7x-2 = -(2-7x) = 4$. The answer is <strong>4</strong>."
+    }
+  ]
+}

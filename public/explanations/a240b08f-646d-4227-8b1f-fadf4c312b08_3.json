@@ -1,1 +1,15 @@
-{"questionId":"a240b08f-646d-4227-8b1f-fadf4c312b08_3","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Expand the left: $8x+44-4x+10=4x+54$. Setting equal to $13x-9$ gives $9x=63$, so $x=7$."},{"title":"Compute the target value","content":"Then $12x = 12(7) = 84$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a240b08f-646d-4227-8b1f-fadf4c312b08_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for $x$, then compute $12x$",
+      "content": "Expand the left: $8x+44-4x+10=4x+54$. Setting equal to $13x-9$ gives $9x=63$, so $x=7$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Then $12x = 12(7) = 84$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

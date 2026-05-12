@@ -1,1 +1,15 @@
-{"questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_18", "correctAnswer": "1470", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the equations: $\\frac{x}{7} + \\frac{x}{3} = 70$. Multiply by 21: $3x + 7x = 1470$, so $10x = 1470$."}, {"title": "Find $10x$", "content": "$10x = 1470$. The answer is <strong>1470</strong>."}]}
+{
+  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_18",
+  "correctAnswer": "1470",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations so $5(y-14)$ cancels",
+      "content": "The term $5(y-14)$ has opposite signs in the two equations — adding them eliminates it without solving for $y$.<br/>$$\\frac{x}{7} + \\frac{x}{3} = 70$$<br/>Multiply by $21$: $3x + 7x = 1470$, so $10x = 1470$."
+    },
+    {
+      "title": "Find $10x$",
+      "content": "$10x = 1470$. The answer is <strong>1470</strong>."
+    }
+  ]
+}

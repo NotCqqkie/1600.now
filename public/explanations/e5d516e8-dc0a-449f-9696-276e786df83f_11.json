@@ -1,1 +1,15 @@
-{"questionId":"e5d516e8-dc0a-449f-9696-276e786df83f_11","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $3(5-7x)+3$ from both sides: $(5-7x) = 15-3 = 12$."},{"title":"Compute the target value","content":"So $5-7x = 12$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "e5d516e8-dc0a-449f-9696-276e786df83f_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $5 - 7x$ as a single variable",
+      "content": "Let $u = 5 - 7x$. Subtract $3(5-7x)+3$ from both sides: $(5-7x) = 15-3 = 12$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $5-7x = 12$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}

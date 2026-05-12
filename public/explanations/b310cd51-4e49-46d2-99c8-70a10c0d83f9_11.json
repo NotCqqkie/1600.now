@@ -1,1 +1,15 @@
-{"questionId":"b310cd51-4e49-46d2-99c8-70a10c0d83f9_11","correctAnswer":"3","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Combine: left becomes $9(4-5x)+9$ and right is $8(4-5x)+6$, giving $(4-5x)=-3$."},{"title":"Compute the target value","content":"So $5x-4 = -(4-5x) = 3$. The answer is <strong>3</strong>."}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_11",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $5x-4$ as a single variable",
+      "content": "Let $u = 5x-4$. Combine: left becomes $9(4-5x)+9$ and right is $8(4-5x)+6$, giving $(4-5x)=-3$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $5x-4 = -(4-5x) = 3$. The answer is <strong>3</strong>."
+    }
+  ]
+}

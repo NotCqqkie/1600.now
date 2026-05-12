@@ -1,1 +1,15 @@
-{"questionId": "edc1b7b7", "correctAnswer": "3", "section": "Math", "steps": [{"title": "Solve the system by elimination", "content": "Add the two equations: $16x+28y + (-16x+28y) = 24$, so $$56y = 24 \\Rightarrow y = \\tfrac{3}{7}.$$ Subtracting gives $32x=0$, $x=0$."}, {"title": "Find the value $8x + 7y$", "content": "Then $$8x+7y = 0 + 7\\cdot\\tfrac{3}{7} = 3.$$ The answer is <strong>3</strong>."}]}
+{
+  "questionId": "edc1b7b7",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read $8x+7y$ directly by adding/subtracting",
+      "content": "The variables appear bundled as $8x$ and $7y$ — solve for those units directly.<br/>Adding the equations cancels $8x$: $8(7y) = 24$, so $7y = 3$.<br/>Subtracting cancels $7y$: $4(8x) = 0$, so $8x = 0$."
+    },
+    {
+      "title": "Find the value $8x + 7y$",
+      "content": "Therefore $8x + 7y = 0 + 3 = 3$. The answer is <strong>3</strong>."
+    }
+  ]
+}

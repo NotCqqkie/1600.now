@@ -1,1 +1,15 @@
-{"questionId":"390a8264-19b1-4de0-9dc9-09609eadd7ca_6","correctAnswer":"C","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $7(x+7)$: $(x+7)=68$."},{"title":"Compute the target value","content":"So $x+7 = 68$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "390a8264-19b1-4de0-9dc9-09609eadd7ca_6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $x + 7$ as a single variable",
+      "content": "Let $u = x + 7$. Subtract $7(x+7)$: $(x+7)=68$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $x+7 = 68$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
+    }
+  ]
+}

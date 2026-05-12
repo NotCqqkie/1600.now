@@ -1,1 +1,15 @@
-{"questionId":"6b1e987d-70b0-4072-9d03-3ebd56371518_11","correctAnswer":"D","section":"Math","steps":[{"title":"Apply the simplification from the given condition","content":"Subtract $8(7-8x)+2$ from both sides: $(7-8x) = 17-2 = 15$."},{"title":"Compute the target value","content":"So $7-8x = 15$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat $7 - 8x$ as a single variable",
+      "content": "Let $u = 7 - 8x$. Subtract $8(7-8x)+2$ from both sides: $(7-8x) = 17-2 = 15$."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "So $7-8x = 15$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."
+    }
+  ]
+}
