@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sentence's subject",
-      "content": "Despite the multiple names appearing early, the subject is <strong>analysis</strong> (singular). The possessive construction \u201cLegal scholars James Melton and Tom Ginsburg's\u201d modifies <em>analysis</em>, which is the noun that determines verb agreement."
+      "content": "Despite the multiple names appearing early, the subject is <strong>analysis</strong> (singular). The possessive construction \"Legal scholars James Melton and Tom Ginsburg's\" modifies <em>analysis</em>, which is the noun that determines verb agreement."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "<strong>Identifies</strong> is the only choice that conjugates for singular agreement. The other options \u2014 <em>have identified</em>, <em>are identifying</em>, and <em>identify</em> \u2014 all use plural forms. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: a singular subject takes a singular verb; possessive phrases modifying a noun don't change the noun's number.\n<ul>\n<li><strong>Choice A — \"have identified\"</strong>: plural present perfect; does not agree with the singular subject \"analysis.\" ✗</li>\n<li><strong>Choice B — \"identifies\"</strong>: singular simple present; correctly agrees with the singular subject \"analysis.\" ✓</li>\n<li><strong>Choice C — \"are identifying\"</strong>: plural present progressive; does not agree with the singular subject \"analysis.\" ✗</li>\n<li><strong>Choice D — \"identify\"</strong>: plural simple present; does not agree with the singular subject \"analysis.\" ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

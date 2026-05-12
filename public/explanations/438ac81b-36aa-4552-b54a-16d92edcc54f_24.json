@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the cause-effect relationship",
-      "content": "The first sentence establishes that millions of people use the metro annually. The second sentence describes maintenance efforts by city officials. The key signal is the cause-effect relationship: heavy usage (cause) requires maintenance (effect)."
+      "content": "The first sentence establishes that millions of people use the metro annually. The second sentence describes maintenance efforts by city officials. Heavy usage (cause) necessitates maintenance (effect)."
     },
     {
       "title": "Match the transition showing consequence",
-      "content": "\u201dAccordingly\u201d expresses consequence\u2014the maintenance efforts follow as a necessary result of heavy usage. The other three convey options, illustration, and contrast rather than causal result. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The logical relationship is cause-and-effect: heavy ridership creates the need for ongoing maintenance. The blank needs a transition word signaling that the maintenance effort is a natural consequence of the demand.\n<ul>\n<li><strong>Choice A — \"Accordingly,\"</strong>: signals that what follows is a logical consequence of what came before, so it fits — officials maintain the system because of the millions of trips it handles. ✓</li>\n<li><strong>Choice B — \"Alternatively,\"</strong>: signals a different option being offered instead of the first, so it fails because maintenance is not an alternative to high ridership. ✘</li>\n<li><strong>Choice C — \"For example,\"</strong>: signals a specific instance illustrating a general claim, so it fails because the maintenance is not an example of high ridership — it is a response to it. ✘</li>\n<li><strong>Choice D — \"However,\"</strong>: signals contrast or surprise, so it fails because maintenance in response to heavy use is expected, not contradictory. ✘</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

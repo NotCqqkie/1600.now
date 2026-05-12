@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the decisive evidence",
-      "content": "The decisive clue is the dramatic disparity in probabilities: 0.20 for countries open to foreign-capital inflows versus 0.03 for countries with restrictive policies. This massive gap demonstrates that policy environment directly influenced swap-line outcomes."
+      "content": "The passage shows a stark gap: countries open to foreign-capital inflows had a 0.20 probability of receiving swap lines, versus only 0.03 for countries with restrictive policies. The blank describes how a country's policy environment relates to whether it received a swap line."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dMaterial to\u201d means important for or significant to\u2014precisely how policy environments functioned relative to swap-line allocation. The other three either wrongly reverse causality or wrongly claim independence. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs to mean <em>important for determining</em> swap-line allocation. Substitute each choice:<ul><li><strong>Choice A — material to</strong>: significant or relevant to — the 0.20 vs. 0.03 gap shows policy environment was directly significant to swap-line outcomes. ✓</li><li><strong>Choice B — predicated on</strong>: based entirely upon — this overstates the relationship; policy environment influenced but didn't solely determine outcomes. ✗</li><li><strong>Choice C — decoupled from</strong>: separated from or unrelated to — the large probability gap proves the opposite: policy and swap lines were linked. ✗</li><li><strong>Choice D — mediated by</strong>: controlled or transmitted through an intermediary — this suggests a third factor bridges policy and swap lines, which the passage doesn't claim. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

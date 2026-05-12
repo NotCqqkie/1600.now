@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the time signal",
-      "content": "The word <strong>\u201cCurrently\u201d</strong> is the key clue\u2014it signals that the action is happening in the present time, right now."
+      "content": "The word <strong>\"Currently\"</strong> is the key clue — it signals that the action is happening in the present time, right now."
     },
     {
       "title": "Match the verb tense to the time signal",
-      "content": "<strong>\u201changs\u201d</strong> is present tense, which matches the present-time signal of \u201ccurrently.\u201d The other three choices use past or future tenses that contradict this signal. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: verb tense. Rule: the time adverb \"Currently\" demands a simple present tense verb for an ongoing state.\n<ul>\n<li><strong>Choice A — \"will have hung\"</strong>: future perfect tense; describes an action completed at a future point, contradicting \"currently.\" ✗</li>\n<li><strong>Choice B — \"hangs\"</strong>: simple present tense; correctly describes the painting's ongoing location right now. ✓</li>\n<li><strong>Choice C — \"hung\"</strong>: simple past tense; places the action in the past, contradicting \"currently.\" ✗</li>\n<li><strong>Choice D — \"was hanging\"</strong>: past progressive tense; describes a past ongoing action, contradicting \"currently.\" ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

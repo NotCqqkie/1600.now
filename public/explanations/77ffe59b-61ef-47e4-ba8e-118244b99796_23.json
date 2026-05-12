@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the negation and correction",
-      "content": "The first sentence says metals do NOT maintain bonds by sharing/exchanging electrons. The second sentence must explain what actually happens instead. The transition word must signal this shift\u2014it needs to mean \u201cinstead\u201d or \u201crather.\u201d"
+      "content": "The first sentence says metals do NOT maintain bonds by sharing and exchanging electrons. The second sentence must explain what actually happens instead. The transition word must signal this shift — it needs to mean \"instead\" or \"rather.\""
     },
     {
       "title": "Match the corrective transition",
-      "content": "\u201dRather\u201d means \u201cinstead,\u201d perfectly shifting from negation to truth. The other choices fail: \u201cFor example\u201d continues with the negated mechanism; \u201cAccordingly\u201d implies consequence; \u201cLikewise\u201d implies similarity. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The logical relationship between the two sentences is correction. Sentence 1 denies one mechanism; Sentence 2 states the actual mechanism. The blank needs a transition signaling that Sentence 2 replaces, not continues, what Sentence 1 described.\n<ul>\n<li><strong>Choice A — \"For example,\"</strong>: signals that Sentence 2 is a specific instance of the general claim in Sentence 1 — but Sentence 1 is a negation, and Sentence 2 contradicts it rather than illustrating it. ✗</li>\n<li><strong>Choice B — \"Rather,\"</strong>: signals \"instead\" — pivoting from the denied mechanism to the actual one. ✓</li>\n<li><strong>Choice C — \"Accordingly,\"</strong>: signals cause-and-effect — Sentence 2 is not a result of the negation in Sentence 1. ✗</li>\n<li><strong>Choice D — \"Likewise,\"</strong>: signals similarity — Sentence 2 is the opposite of what Sentence 1 describes, not a parallel case. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

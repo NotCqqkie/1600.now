@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the subject and verb needed",
-      "content": "The subject is The Kolyma River, which is singular. The verb must be a present\u2011tense form that agrees with a singular noun."
+      "content": "The subject is \"The Kolyma River\" — singular. The relative clause \"which is 1,317 miles long\" is parenthetical and does not affect agreement. The sentence describes a permanent geographic fact, requiring simple present tense."
     },
     {
       "title": "Pick the verb that agrees",
-      "content": "Flows is the singular present\u2011tense verb that matches the subject. The other three either use a plural form or an incorrect tense, breaking subject\u2011verb agreement.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: a singular subject takes a singular verb; simple present describes ongoing geographic facts.\n<ul>\n<li><strong>Choice A — \"flows\"</strong>: singular simple present; correctly agrees with the singular \"The Kolyma River.\" ✓</li>\n<li><strong>Choice B — \"are flowing\"</strong>: plural present progressive; wrong in number for the singular subject. ✗</li>\n<li><strong>Choice C — \"flow\"</strong>: plural present; does not agree with the singular subject. ✗</li>\n<li><strong>Choice D — \"have flowed\"</strong>: plural present perfect; wrong in both number and tense for a permanent geographic fact. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

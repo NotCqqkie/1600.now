@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the antecedent and grammatical need",
-      "content": "The blank in \u201c______ peer autonomous Soviet socialist republics\u201d requires a possessive. The antecedent is \u201cMari Autonomous Soviet Socialist Republic\u201d (singular)."
+      "content": "The blank in \"______ peer autonomous Soviet socialist republics\" requires a possessive. The antecedent is \"Mari Autonomous Soviet Socialist Republic\" (singular)."
     },
     {
       "title": "Apply pronoun-antecedent agreement",
-      "content": "<em>its</em> is the singular possessive that matches the singular antecedent \u201cMari Autonomous Soviet Socialist Republic.\u201d <em>it's</em>, <em>they're</em> are verb contractions (not possessives), and <em>their</em> is plural. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: possessive pronoun vs. contraction. Rule: a possessive pronoun has no apostrophe; a contraction with an apostrophe means \"it is\" or \"they are,\" not ownership.\n<ul>\n<li><strong>Choice A — \"they're\"</strong>: contraction of \"they are\"; not a possessive and is plural. ✗</li>\n<li><strong>Choice B — \"its\"</strong>: singular possessive pronoun; correctly refers to the singular antecedent. ✓</li>\n<li><strong>Choice C — \"their\"</strong>: plural possessive; does not agree with singular antecedent. ✗</li>\n<li><strong>Choice D — \"it's\"</strong>: contraction of \"it is\"; not a possessive. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

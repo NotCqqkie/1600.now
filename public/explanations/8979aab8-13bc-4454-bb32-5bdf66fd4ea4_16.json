@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structures",
-      "content": "\u201dHaving climbed the charts for six weeks,\u201d is a participial phrase. The blank serves as the subject of the independent clause that follows. The antecedent is \u201cthe song\u201d (singular)."
+      "content": "\"Having climbed the charts for six weeks,\" is a participial phrase. The blank serves as the subject of the independent clause that follows. The antecedent is \"the song\" (singular)."
     },
     {
       "title": "Apply pronoun-antecedent agreement",
-      "content": "Pronoun-antecedent agreement requires a singular pronoun for a singular antecedent; \u201cit\u201d satisfies this. \u201cThose\u201d and \u201cthey\u201d are plural; \u201ceach\u201d does not function as a subject pronoun. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: the subject pronoun must match the singular antecedent \"the song\" in number.\n<ul>\n<li><strong>Choice A — \"those\"</strong>: plural demonstrative pronoun; does not agree with singular \"the song.\" ✗</li>\n<li><strong>Choice B — \"they\"</strong>: third-person plural; does not agree with singular antecedent. ✗</li>\n<li><strong>Choice C — \"each\"</strong>: refers to individual items in a group, not to a single noun; does not serve as a subject pronoun here. ✗</li>\n<li><strong>Choice D — \"it\"</strong>: singular third-person pronoun; correctly agrees with singular \"the song.\" ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

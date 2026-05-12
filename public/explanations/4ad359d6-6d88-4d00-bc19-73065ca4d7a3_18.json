@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the past-time reference",
-      "content": "The phrase <strong>\u201cthat ran in early 2022\u201d</strong> establishes when the exhibition occurred \u2014 a specific moment in the past. This time marker determines which verb tense belongs in the blank."
+      "content": "The phrase <strong>\"that ran in early 2022\"</strong> establishes when the exhibition occurred — a specific moment in the past. This time marker determines which verb tense belongs in the blank."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "<strong>Featured</strong> (C) uses simple past, matching \u201cran\u201d in 2022. Present (A), present perfect (B), and future (D) all place the action at different times. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Identify the grammar issue: verb tense. Rule: a specific completed past-time marker (\"in early 2022\") requires simple past tense.\n<ul>\n<li><strong>Choice A — \"features\"</strong>: simple present tense; the exhibition is over, so present tense is incorrect. ✗</li>\n<li><strong>Choice B — \"has been featured\"</strong>: present perfect tense; implies ongoing relevance to the present, but the exhibition has a fixed past endpoint. ✗</li>\n<li><strong>Choice C — \"featured\"</strong>: simple past tense; correctly places the completed exhibition in 2022. ✓</li>\n<li><strong>Choice D — \"will feature\"</strong>: simple future tense; the exhibition already happened in 2022, so future is impossible. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the time marker",
-      "content": "The phrase \u201cwouldn't come until decades later\u201d signals a jump forward in time from 1929 to a much later discovery. This time reference is the decisive clue."
+      "content": "The phrase \"wouldn't come until decades later\" signals a jump forward in time from 1929 to a much later discovery. This time reference is the decisive clue."
     },
     {
       "title": "Match the transition",
-      "content": "\u201dEventually\u201d matches the \u201cdecades later\u201d reference, indicating the later discovery. The other three options misframe the passage by suggesting reformulation, exemplification, or backward movement in time. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship between the two sentences is sequence in time. Sentence 1 establishes that scientists in 1929 assumed progesterone existed only in animals; Sentence 2 reveals a future discovery disproving that assumption. The blank needs a transition signaling forward movement in time to a later development.\n<ul>\n<li><strong>Choice A — \"In other words,\"</strong>: signals that Sentence 2 restates Sentence 1 in different terms — but Sentence 2 introduces a new discovery, not a paraphrase. ✗</li>\n<li><strong>Choice B — \"For example,\"</strong>: signals that Sentence 2 is a specific instance of the general claim in Sentence 1 — but finding progesterone in corn contradicts the assumption, not illustrates it. ✗</li>\n<li><strong>Choice C — \"Eventually,\"</strong>: signals forward movement in time to a later point — matching the phrase \"wouldn't come until decades later.\" ✓</li>\n<li><strong>Choice D — \"Earlier,\"</strong>: signals a time before Sentence 1 — but the corn plant discovery happened after 1929, not before. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

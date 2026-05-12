@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the key signal",
-      "content": "\u201dBecause of this, data-privacy advocates are seeking to expand online players' knowledge\u201d reveals that games are hiding or obscuring information about their data practices."
+      "content": "The passage says that because of this opacity, \"data-privacy advocates are seeking to expand online players' knowledge\" of what data games collect. The blank describes how the games handle information about their data practices."
     },
     {
-      "title": "Match the required meaning",
-      "content": "Opaque means \u201cunclear\u201d or \u201cnon-transparent\u201d \u2014 exactly what describes games that hide information about data collection. The other choices either describe emotional attitudes, suggest hostility, or imply transparency. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs to mean <em>unclear or non-transparent</em> about data collection. Substitute each choice:<ul><li><strong>Choice A — opaque</strong>: not transparent, hard to understand — games that hide what data they collect are opaque, which is why advocates must educate players. ✓</li><li><strong>Choice B — ambivalent</strong>: having mixed feelings — this describes an emotional attitude, not a quality of information disclosure. ✗</li><li><strong>Choice C — abrasive</strong>: harsh or irritating in manner — this is about personality, not how clearly data practices are disclosed. ✗</li><li><strong>Choice D — outspoken</strong>: candid and forthright — this is the opposite of hiding information; outspoken games would have no transparency problem. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject number",
-      "content": "The subject is \u201cThe Proto-Uralic language\u201d\u2014a singular noun. The intervening phrase \u201ccommon ancestor of thirty-seven Eurasian languages with similar linguistic properties\u201d is an appositive modifier and doesn't change the subject's number."
+      "content": "The subject is \"The Proto-Uralic language\" — a singular noun. The intervening phrase \"common ancestor of thirty-seven Eurasian languages with similar linguistic properties\" is an appositive modifier and doesn't change the subject's number."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires the verb to match the subject's number. Only D) \u201cis\u201d is singular; A) \u201care,\u201d B) \u201cwere,\u201d and C) \u201chave been\u201d are all plural forms that violate this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the structure: \"The Proto-Uralic language, common ancestor of thirty-seven Eurasian languages..., [BLANK] like all protolanguages, hypothetical.\" The singular subject requires a singular verb.\n<ul>\n<li><strong>Choice A — are,</strong>: <em>\"The Proto-Uralic language...are, like all protolanguages, hypothetical.\"</em> — \"are\" is plural; does not agree with the singular subject. ✗</li>\n<li><strong>Choice B — were,</strong>: <em>\"The Proto-Uralic language...were, like all protolanguages, hypothetical.\"</em> — \"were\" is plural past tense; does not agree with singular subject. ✗</li>\n<li><strong>Choice C — have been,</strong>: <em>\"The Proto-Uralic language...have been, like all protolanguages, hypothetical.\"</em> — \"have been\" is plural; does not agree with singular subject. ✗</li>\n<li><strong>Choice D — is,</strong>: <em>\"The Proto-Uralic language...is, like all protolanguages, hypothetical.\"</em> — \"is\" is singular present tense; correctly agrees with the singular subject. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

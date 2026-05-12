@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the key signal",
-      "content": "The passage provides a marketing campaign as the specific example of what drives a book's commercial success."
+      "content": "The passage offers a well-executed marketing campaign as the specific example of what drives a book's commercial success. The blank names what that campaign generates."
     },
     {
-      "title": "Match to the choices",
-      "content": "Publicity is what marketing campaigns generate\u2014they build awareness and visibility that drives book sales, exactly as the example shows. Originality, complexity, and practicality don't describe what campaigns produce. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs to name what a marketing campaign produces that drives book sales. Substitute each choice:<ul><li><strong>Choice A — originality</strong>: the quality of being new or creative — marketing campaigns don't create originality in a book; they spread awareness of it. ✗</li><li><strong>Choice B — publicity</strong>: public attention and promotion — a marketing campaign is precisely the mechanism for generating publicity, which drives sales. ✓</li><li><strong>Choice C — complexity</strong>: the quality of being intricate — campaigns don't make a book more complex; they make it more visible. ✗</li><li><strong>Choice D — practicality</strong>: usefulness for real-world application — campaigns don't make a book more practical; they promote it. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

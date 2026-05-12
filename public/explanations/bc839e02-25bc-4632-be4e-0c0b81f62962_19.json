@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the rule",
-      "content": "Parentheses must be paired; a closing parenthesis is the only choice that matches the opening mark. The dash, comma, and semicolon cannot close an opening parenthesis. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The structure is: <em>\"stockade\" (a ______</em> followed by <em>\"comes from estacada.\"</em> An opening parenthesis appears after \"stockade\" \u2014 it must be closed before the sentence continues. The rule: parentheses must be paired; a closing parenthesis is the only mark that can close an opening one.<ul><li><strong>Choice A \u2014 fence\u2014</strong>: <em>\"stockade\" (a fence\u2014 comes from estacada\"</em> \u2014 a dash cannot close an opening parenthesis; the parenthetical would remain unclosed. \u2717</li><li><strong>Choice B \u2014 fence,</strong>: <em>\"stockade\" (a fence, comes from estacada\"</em> \u2014 a comma cannot close an opening parenthesis; this leaves the parenthetical open and inserts an invalid comma. \u2717</li><li><strong>Choice C \u2014 fence;</strong>: <em>\"stockade\" (a fence; comes from estacada\"</em> \u2014 a semicolon cannot close an opening parenthesis, and what follows is not an independent clause anyway. \u2717</li><li><strong>Choice D \u2014 fence)</strong>: <em>\"stockade\" (a fence) comes from estacada\"</em> \u2014 the closing parenthesis pairs with the opening one, completing the parenthetical definition cleanly. \u2713</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
     }
   ]
 }

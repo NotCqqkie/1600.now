@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the structures on each side of the blank",
-      "content": "The left side is an independent clause (\u201cIn Finland, the Hankasalmi observatory site monitors activity in the upper atmosphere of the northern hemisphere\u201d), and the right side is also an independent clause (\u201cin Antarctica, another observatory site, Zhongshan Station, monitors the sky of the southern hemisphere\u201d)."
+      "content": "The left side is an independent clause (\"In Finland, the Hankasalmi observatory site monitors activity in the upper atmosphere of the northern hemisphere\"), and the right side is also an independent clause (\"in Antarctica, another observatory site, Zhongshan Station, monitors the sky of the southern hemisphere\")."
     },
     {
       "title": "Apply the rule for connecting independent clauses",
-      "content": "A semicolon separates two independent clauses. Option A omits the comma required before \u201cand\u201d when joining two independent clauses; option B creates a run-on sentence; option C is a comma splice. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the structure: two ICs separated by the blank. Options are \"hemisphere and\", \"hemisphere\", \"hemisphere,\", or \"hemisphere;\". Two ICs need a semicolon, a period, or a comma + coordinating conjunction.\n<ul>\n<li><strong>Choice A — hemisphere and</strong>: <em>\"...northern hemisphere and in Antarctica, another observatory site...monitors the sky.\"</em> — \"and\" joins two ICs, but a comma is required before the conjunction; omitting it creates a run-on. ✗</li>\n<li><strong>Choice B — hemisphere</strong>: <em>\"...northern hemisphere in Antarctica, another observatory site...monitors the sky.\"</em> — no punctuation between two ICs is a run-on sentence. ✗</li>\n<li><strong>Choice C — hemisphere,</strong>: <em>\"...northern hemisphere, in Antarctica, another observatory site...monitors the sky.\"</em> — comma alone between two ICs is a comma splice. ✗</li>\n<li><strong>Choice D — hemisphere;</strong>: <em>\"...northern hemisphere; in Antarctica, another observatory site...monitors the sky.\"</em> — semicolon correctly separates two independent clauses. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

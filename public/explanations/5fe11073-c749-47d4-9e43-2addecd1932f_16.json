@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the possessive rule",
-      "content": "Form <strong>astronomers'</strong> (plural possessive) and <strong>object's</strong> (singular possessive). Choices A and C lack the apostrophe for astronomers, and choice B uses singular instead of plural. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: possessive apostrophe placement. Rule: add apostrophe + s for singular nouns; add only an apostrophe after the s for regular plural nouns.\n<ul>\n<li><strong>Choice A \u2014 \"astronomers modeling of the objects\"</strong>: neither \"astronomers\" nor \"objects\" has an apostrophe; both missing possessives. \u2717</li>\n<li><strong>Choice B \u2014 \"astronomer's modeling of the object's\"</strong>: \"astronomer's\" is singular possessive but the subject is plural astronomers. \u2717</li>\n<li><strong>Choice C \u2014 \"astronomers modeling of the object's\"</strong>: \"astronomers\" lacks an apostrophe, so the plural possessive is missing. \u2717</li>\n<li><strong>Choice D \u2014 \"astronomers' modeling of the object's\"</strong>: \"astronomers'\" is correct plural possessive; \"object's\" is correct singular possessive. \u2713</li>\n</ul>\nThat matches choice D \u2014 <strong>D</strong> is correct."
     }
   ]
 }

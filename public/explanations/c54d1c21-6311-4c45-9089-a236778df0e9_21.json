@@ -9,7 +9,7 @@
     },
     {
       "title": "Provide the closing punctuation",
-      "content": "Parenthetical phrases opened by a comma must be closed by a comma. Choice B provides this closing punctuation, while A, C, and D each fail to enclose the phrase. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the structure: the sentence reads \"efforts that, through community involvement and scientific [BLANK], aim to bring...\" The phrase \"through community involvement and scientific study\" is parenthetical, opened by a comma after \"that.\" The blank must close that parenthetical with a matching comma so the main clause (\"aim to bring...\") continues cleanly.\n<ul>\n<li><strong>Choice A \u2014 study</strong>: <em>\"...that, through community involvement and scientific study aim to bring...\"</em> \u2014 the opening comma after \"that\" is never closed; the parenthetical runs into the verb. \u2717</li>\n<li><strong>Choice B \u2014 study,</strong>: <em>\"...that, through community involvement and scientific study, aim to bring...\"</em> \u2014 closing comma matches the opening comma, correctly bracketing the parenthetical phrase. \u2713</li>\n<li><strong>Choice C \u2014 study:</strong>: <em>\"...that, through community involvement and scientific study: aim to bring...\"</em> \u2014 a colon cannot close a parenthetical; it also incorrectly precedes a verb phrase. \u2717</li>\n<li><strong>Choice D \u2014 study\u2014</strong>: <em>\"...that, through community involvement and scientific study\u2014 aim to bring...\"</em> \u2014 an em dash cannot close a comma-opened parenthetical; mismatched punctuation. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
     }
   ]
 }

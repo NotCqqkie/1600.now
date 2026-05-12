@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The clue is the phrase \u201cPheus truly shines,\u201d followed by the explanation that he becomes a heightened version of himself when performing."
+      "content": "The passage says \"Pheus truly shines\" and explains he becomes a heightened version of himself when performing. \"Truly\" intensifies \"shines,\" showing he genuinely excels."
     },
     {
-      "title": "Match the meaning to the clue",
-      "content": "\u201cTruly\u201d intensifies \u201cshines,\u201d showing that Pheus genuinely excels, so it means \u201creally.\u201d<br/>A, B, and C each suggest the opposite or unrelated ideas\u2014obediently, scarcely, impolitely\u2014none fit the context of shining.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "\"Truly\" needs to mean <em>genuinely or really</em> (intensifying \"shines\"). Substitute each choice:<ul><li><strong>Choice A — Obediently</strong>: in a compliant manner — shining obediently makes no sense; compliance doesn't describe excelling in performance. ✗</li><li><strong>Choice B — Scarcely</strong>: barely or almost not — this would mean Pheus barely shines, which contradicts the passage's praise. ✗</li><li><strong>Choice C — Impolitely</strong>: rudely — no part of the passage suggests Pheus's performance is rude. ✗</li><li><strong>Choice D — Really</strong>: genuinely or actually — \"Pheus really shines\" captures the authentic intensity of his performance. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

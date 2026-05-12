@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject",
-      "content": "The subject is \u201cParamaribo\u201d (singular). The prepositional phrase \u201cwith a population of roughly 250,000 people\u201d modifies it but doesn't change its number."
+      "content": "The subject is \"Paramaribo\" (singular). The prepositional phrase \"with a population of roughly 250,000 people\" modifies it but doesn't change its number."
     },
     {
       "title": "Match the verb to the subject",
-      "content": "A singular subject takes a singular verb. \u201cIs\u201d (choice A) is the singular present tense form. Choices B, C, and D all use plural verb forms. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: a singular subject takes a singular verb; intervening prepositional phrases do not affect agreement.\n<ul>\n<li><strong>Choice A — \"is\"</strong>: singular simple present; correctly agrees with singular subject \"Paramaribo.\" ✓</li>\n<li><strong>Choice B — \"are\"</strong>: plural simple present; does not agree with singular subject. ✗</li>\n<li><strong>Choice C — \"are being\"</strong>: plural progressive; does not agree with singular subject. ✗</li>\n<li><strong>Choice D — \"have been\"</strong>: plural present perfect; does not agree with singular subject. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

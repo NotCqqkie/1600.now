@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the key contrast",
-      "content": "The key phrase is \u201cbut they are not required to do so.\u201d This contrast signals that the blank must describe something allowed and optional, not mandatory or impossible."
+      "content": "The passage says discoverers can name a minor planet \"but they are not required to do so.\" The blank must describe an action that is allowed but optional, not mandatory."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "Permissible means \u201callowed or permitted\u201d\u2014exactly right for something discoverers can choose to do or not. The other three either describe impossibility, express obligation, or misfit the grammatical context. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs to mean <em>allowed but not required</em>. Substitute each choice:<ul><li><strong>Choice A — permissible</strong>: allowed or permitted — discoverers are allowed to name planets but not obligated to, so naming is permissible. ✓</li><li><strong>Choice B — infeasible</strong>: not possible or practicable — the passage shows naming does happen (1083 Salvia), so it is clearly feasible. ✗</li><li><strong>Choice C — selective</strong>: choosing only some — this describes being choosy, not whether the action itself is allowed or required. ✗</li><li><strong>Choice D — mandatory</strong>: required or compulsory — this contradicts \"but they are not required to do so\" directly. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

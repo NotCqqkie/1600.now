@@ -1,1 +1,15 @@
-{"questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what scientists lack", "content": "The final sentence shows “forest researchers regularly dispute one another's classifications” — scientists disagree. The blank must name something whose absence explains this disagreement."}, {"title": "Find the word that expresses the missing element", "content": "”Consensus” means agreement — exactly what's missing when scientists disagree.<br/><br/>Where scientists lack consensus about classifications, different estimates naturally follow.<br/><br/>Interest, deliberation, and vigilance don't name something whose absence explains disagreement.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what scientists lack",
+      "content": "The passage notes that \"forest researchers regularly dispute one another's classifications,\" and that the federal report's estimates exceed other recent estimates. The blank names something scientists lack, whose absence explains why estimates vary."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "The blank needs to name something whose absence <em>explains ongoing scientific disagreement</em>. Substitute each choice:<ul><li><strong>Choice A — interest</strong>: curiosity or motivation — lack of interest would mean scientists aren't studying forests, but the passage shows they actively dispute classifications. ✗</li><li><strong>Choice B — deliberation</strong>: careful consideration — lack of deliberation implies carelessness, but the passage describes active, substantive disputes, not hasty work. ✗</li><li><strong>Choice C — vigilance</strong>: careful watchfulness — lack of vigilance implies inattention; the disagreements suggest scientists are paying close attention, not being negligent. ✗</li><li><strong>Choice D — consensus</strong>: general agreement — when scientists lack consensus, they dispute classifications and produce different estimates, which is exactly what the passage describes. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

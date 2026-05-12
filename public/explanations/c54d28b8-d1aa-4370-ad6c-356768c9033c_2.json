@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the target meaning",
-      "content": "The phrase \u201ccomparatively little notice\u201d indicates the below-sea-level effect is under-researched. The contrast word \u201cthough\u201d signals the high-altitude studies describe the opposite: abundant research."
+      "content": "The passage contrasts high-altitude studies (the blank) with below-sea-level studies, which have received \"comparatively little notice.\" The contrast word \"though\" signals the blank must be the opposite of little-studied: abundant."
     },
     {
-      "title": "Match the word to the meaning",
-      "content": "<strong>Copious</strong> means abundant and plentiful, expressing the extensive research needed. Preliminary, equivocal, and sporadic each fail to capture abundance (suggesting instead early-stage work, unclear findings, or scattered research). That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs to mean <em>abundant or plentiful</em> to contrast with \"comparatively little notice.\" Substitute each choice:<ul><li><strong>Choice A — preliminary</strong>: early-stage or not yet complete — this suggests the high-altitude studies are just beginning, not that they are numerous. ✗</li><li><strong>Choice B — copious</strong>: large in quantity, abundant — copious studies of high altitude contrasts perfectly with the scant attention to below-sea-level effects. ✓</li><li><strong>Choice C — equivocal</strong>: ambiguous or unclear in meaning — this describes the quality of findings, not the quantity of studies. ✗</li><li><strong>Choice D — sporadic</strong>: occurring irregularly and infrequently — this is similar to \"little notice,\" not opposite to it. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

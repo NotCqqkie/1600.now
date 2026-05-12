@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the contrast",
-      "content": "The sentence contrasts \u201ctraditional descriptions of pollination syndromes\u201d with \u201crecent empirical observations of floral\u2011trait combinations\u201d and says this contrast has led ecologists to question the usefulness of those descriptions."
+      "content": "The sentence says traditional descriptions of pollination syndromes have led ecologists to question their usefulness when compared to \"recent empirical observations of floral-trait combinations.\" The blank must name what exists between the two that creates that doubt."
     },
     {
-      "title": "Match the meaning",
-      "content": "\u201cDiscrepancies between\u201d directly signals a mismatch, which explains why ecologists have reservations. The other three choices suggest agreement, similarity, or repetition, none of which would cause doubt. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs to signal a <em>mismatch</em> between traditional descriptions and recent observations. Substitute each choice:<ul><li><strong>Choice A — Proclamations of</strong>: bold public declarations of traditional descriptions — this suggests confidence, not a reason to question usefulness. ✗</li><li><strong>Choice B — Affinities between</strong>: similarities or connections — if the two agreed, ecologists would have no reason for doubt. ✗</li><li><strong>Choice C — Recurrences of</strong>: repeated appearances of traditional descriptions — repetition doesn't create doubt about usefulness. ✗</li><li><strong>Choice D — Discrepancies between</strong>: disagreements or mismatches — a gap between traditional descriptions and recent observations is exactly what prompts ecologists to question the descriptions. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

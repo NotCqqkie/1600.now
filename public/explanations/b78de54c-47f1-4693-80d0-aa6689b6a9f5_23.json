@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The first sentence says the researchers determined the <strong>ratio</strong> of three plant subtypes. The second clause says they determined the <strong>relative quantities</strong> of the plants consumed. These are the same idea\u2014one clarifies or restates the other."
+      "content": "The first sentence says the researchers determined the ratio of three plant subtypes. The second clause says they determined the relative quantities of the plants consumed. These are the same idea — one clarifies or restates the other."
     },
     {
       "title": "Match the meaning",
-      "content": "<strong>That is,</strong> signals that the following statement clarifies or restates the preceding one. The other three signal different logical relationships: addition, contrast, and sequence. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The logical relationship is specification: the second clause rephrases \"ratio\" as \"relative quantities,\" clarifying what the first sentence meant. The blank needs a transition word signaling that the following is a restatement or clarification.\n<ul>\n<li><strong>Choice A — \"That is,\"</strong>: signals that the following statement rephrases or clarifies the preceding one, so it fits — \"relative quantities\" explains what \"ratio\" means in context. ✓</li>\n<li><strong>Choice B — \"In addition,\"</strong>: signals a new parallel point, so it fails because no new information is being added. ✘</li>\n<li><strong>Choice C — \"By contrast,\"</strong>: signals opposition, so it fails because the two clauses describe the same finding, not opposing ones. ✘</li>\n<li><strong>Choice D — \"Next,\"</strong>: signals a sequence of steps, so it fails because the researchers are not doing something after the ratio — they are restating it. ✘</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

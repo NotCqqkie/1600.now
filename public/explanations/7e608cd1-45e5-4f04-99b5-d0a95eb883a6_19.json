@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the function of though",
-      "content": "The word \u201cthough\u201d functions parenthetically here, inserted mid-sentence. It acknowledges the first claim\u2014that axial tilt affects the Sun's position\u2014while signaling a second factor (the eccentricity of Earth's orbit)."
+      "content": "The word \"though\" functions parenthetically here, inserted mid-sentence. It acknowledges the first claim—that axial tilt affects the Sun's position—while signaling a second factor (the eccentricity of Earth's orbit)."
     },
     {
       "title": "Apply the parenthetical rule",
-      "content": "A parenthetical element requires commas on both sides: \u201cposition, though, as\u2026\u201d C omits the closing comma, while B and D both use semicolons, which separate independent clauses, not parenthetical insertions. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Identify the structure: \"Axial tilt is not the only factor that affects the Sun's [BLANK] as the eccentricity of Earth's orbit...\" — \"though\" is inserted parenthetically between \"position\" and the continuing clause. Parenthetical \"though\" must be enclosed in commas on both sides.\n<ul>\n<li><strong>Choice A — position, though,</strong>: <em>\"...the Sun's position, though, as the eccentricity...\"</em> — commas on both sides correctly bracket the parenthetical \"though\"; the IC continues smoothly. ✓</li>\n<li><strong>Choice B — position; though,</strong>: <em>\"...the Sun's position; though, as the eccentricity...\"</em> — semicolon before \"though\" splits the sentence where no IC ends; \"though, as...\" is not an independent clause. ✗</li>\n<li><strong>Choice C — position, though</strong>: <em>\"...the Sun's position, though as the eccentricity...\"</em> — opens the parenthetical with a comma but omits the closing comma, leaving \"though\" fused to the following clause. ✗</li>\n<li><strong>Choice D — position, though;</strong>: <em>\"...the Sun's position, though; as the eccentricity...\"</em> — semicolon after \"though\" illegally separates a dependent clause (\"as the eccentricity...\") from the rest. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

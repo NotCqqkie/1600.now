@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Recognize the exemplification",
-      "content": "The second sentence presents a concrete coin-flip example as evidence of the clustering principle."
+      "content": "Sentence 1: Talagrand's research shows that random variables cluster around an average. Sentence 2: presents a concrete coin-flip scenario as evidence of that clustering principle."
     },
     {
       "title": "Match the transition to the relationship",
-      "content": "\u201dFor instance\u201d transitions to a specific illustration of the general principle. The other choices signal different relationships (addition, contrast, or comparison) rather than exemplification. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is exemplification: sentence 2 is a specific instance of the general principle in sentence 1. The blank needs a transition signaling \"here is a concrete example.\"\n<ul>\n<li><strong>Choice A — \"In addition,\"</strong>: signals a new, separate point being added; sentence 2 is not a separate point but an illustration. ✗</li>\n<li><strong>Choice B — \"However,\"</strong>: signals contrast; sentence 2 does not contradict sentence 1. ✗</li>\n<li><strong>Choice C — \"For instance,\"</strong>: signals a specific illustration of a general claim; sentence 2 is exactly that. ✓</li>\n<li><strong>Choice D — \"In comparison,\"</strong>: signals a comparison between two distinct things; no comparison is being drawn. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

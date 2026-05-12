@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the singular antecedent",
-      "content": "The blank needs a pronoun referring to \u201cMarcel Duchamp's abstract cubist aesthetic\u201d \u2014 a singular noun phrase."
+      "content": "The blank needs a pronoun referring to \"Marcel Duchamp's abstract cubist aesthetic\" — a singular noun phrase."
     },
     {
       "title": "Choose the singular pronoun",
-      "content": "\u201dIt\u201d (B) is the only singular pronoun. A pronoun must agree with its antecedent in number \u2014 the other options are plural and violate this agreement. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number; the antecedent here is the singular noun phrase \"Marcel Duchamp's abstract cubist aesthetic.\"\n<ul>\n<li><strong>Choice A — \"these\"</strong>: plural demonstrative pronoun; does not agree with the singular antecedent. ✗</li>\n<li><strong>Choice B — \"it\"</strong>: singular pronoun; correctly refers to the singular noun phrase. ✓</li>\n<li><strong>Choice C — \"we\"</strong>: first-person plural; no referent in the passage for \"we.\" ✗</li>\n<li><strong>Choice D — \"they\"</strong>: third-person plural; does not agree with the singular antecedent. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

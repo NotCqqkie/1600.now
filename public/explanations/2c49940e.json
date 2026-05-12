@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the antecedent's number",
-      "content": "The passage refers to \u201chis famous phrase\u201d \u2014 a single, singular phrase that serves as the antecedent for both the possessive form and the pronoun."
+      "content": "The passage refers to \"his famous phrase\" — a single, singular phrase. The blank must use a singular possessive noun for \"phrase\" and a singular pronoun to refer back to it."
     },
     {
       "title": "Apply correct singular forms",
-      "content": "<strong>Phrase's</strong> uses correct singular possessive; <strong>its</strong> uses correct singular pronoun. The other choices either pluralize the noun, use a plural pronoun, or both\u2014creating form mismatches. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: possessive noun form and pronoun-antecedent agreement. Rule: singular nouns form the possessive with apostrophe-s (phrase's), and the pronoun referring to a singular noun must also be singular (its).\n<ul>\n<li><strong>Choice A — \"phrases' simplicity masks its\"</strong>: \"phrases'\" is a plural possessive, but there is only one phrase. Wrong number on the noun. ✗</li>\n<li><strong>Choice B — \"phrases simplicity masks their\"</strong>: \"phrases\" has no possessive apostrophe (not a possessive at all), and \"their\" is plural — both are wrong. ✗</li>\n<li><strong>Choice C — \"phrase's simplicity masks their\"</strong>: \"phrase's\" is correctly singular possessive, but \"their\" is a plural pronoun that doesn't match the singular \"phrase.\" ✗</li>\n<li><strong>Choice D — \"phrase's simplicity masks its\"</strong>: \"phrase's\" is singular possessive and \"its\" is a singular pronoun — both agree with the one phrase. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

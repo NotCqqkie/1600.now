@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the cause-and-effect link",
-      "content": "The plant absorbs iron from soil, then the passage states iron concentrations in the soil decrease. These are presented sequentially as cause and effect\u2014the plant's iron absorption is the reason concentrations drop."
+      "content": "The plant absorbs iron from soil, then the passage states iron concentrations in the soil decrease. These are presented sequentially as cause and effect—the plant's iron absorption is the reason concentrations drop."
     },
     {
       "title": "Match the consequence relationship",
-      "content": "\u201dAccordingly\u201d expresses this result (the decrease follows from the absorption). The other three serve different functions: clarification, contrast, and addition\u2014none capture the causal relationship here. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The first sentence describes a cause (the plant absorbs and stores iron); the blank introduces the effect (iron concentrations in the soil decrease). The relationship is <strong>cause-effect</strong>.<ul><li><strong>Choice A — \"specifically,\"</strong>: signals a specific instance of a general claim; but the second clause is a consequence, not a specific case. ✗</li><li><strong>Choice B — \"accordingly,\"</strong>: signals \"as a result\" or \"consequently\" — matches cause→effect exactly. ✓</li><li><strong>Choice C — \"nevertheless,\"</strong>: signals contrast against expectation; the iron-decrease is consistent with absorption, not contrary to it. ✗</li><li><strong>Choice D — \"in addition,\"</strong>: signals adding parallel information; but iron-decrease follows from absorption, not a separate equal-weight point. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the pattern: claim followed by evidence",
-      "content": "The passage asserts <em>\u201cnot all cascades are beneficial,\u201d</em> then introduces a specific study as proof. The transition must signal confirmation\u2014that the evidence supports the claim."
+      "content": "The passage asserts \"not all cascades are beneficial,\" then introduces a specific study as proof. The transition must signal confirmation — that the evidence supports the claim."
     },
     {
       "title": "Select the word expressing confirmation",
-      "content": "\u201dIndeed\u201d confirms a claim with supporting evidence. Instead marks substitution, In response indicates reaction or causality, and In addition adds parallel information\u2014none express confirmation. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is confirmation: the warbler study is concrete evidence that proves the claim that not all cascades are beneficial. The blank needs a transition word signaling that the following proves what was just stated.\n<ul>\n<li><strong>Choice A — \"Instead,\"</strong>: signals a substitution or alternative, so it fails because no replacement is being offered — the study supports the claim. ✘</li>\n<li><strong>Choice B — \"In response,\"</strong>: signals a reaction to something, so it fails because the study is not a reaction to the claim about cascades — it is evidence of it. ✘</li>\n<li><strong>Choice C — \"Indeed,\"</strong>: signals that confirming evidence follows, so it fits — the warbler example proves that cascades can be harmful. ✓</li>\n<li><strong>Choice D — \"In addition,\"</strong>: signals a new parallel point, so it fails because the study does not add a new claim — it supports the one just made. ✘</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

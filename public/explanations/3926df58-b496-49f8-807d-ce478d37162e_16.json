@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject and its number",
-      "content": "The subject is \u201clanguages like Scheme\u201d \u2014 a plural noun phrase with modifying prepositional and participial phrases."
+      "content": "The subject is \"languages like Scheme, used in software development\" — the head noun is \"languages,\" which is plural. The modifying phrases don't change its number."
     },
     {
       "title": "Apply the subject-verb agreement rule",
-      "content": "Choice B uses \u201care not,\u201d the only form that maintains grammatical agreement. A, C, and D all use singular verbs that violate subject-verb agreement. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: a plural subject takes a plural verb.\n<ul>\n<li><strong>Choice A — \"is not\"</strong>: singular present verb; does not agree with the plural subject \"languages.\" ✗</li>\n<li><strong>Choice B — \"are not\"</strong>: plural present verb; correctly agrees with the plural subject \"languages.\" ✓</li>\n<li><strong>Choice C — \"was not\"</strong>: singular past verb; wrong in both number and tense for a general ongoing truth. ✗</li>\n<li><strong>Choice D — \"has not been\"</strong>: singular present perfect; wrong in number for the plural subject \"languages.\" ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive type", "content": "'Thymol and methane' specifies <em>which</em> compounds are being discussed (the sentence has stated only 'gaseous compounds' generally). It's restrictive — essential to identify the subject — so no commas should set it off."}, {"title": "Apply the rule", "content": "<strong>C</strong> uses no commas, treating 'thymol and methane' as essential information identifying the compounds. A and B add a wrong opening comma, and D adds a stray closing comma.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive type",
+      "content": "'Thymol and methane' specifies <em>which</em> compounds are being discussed (the sentence has stated only 'gaseous compounds' generally). It's restrictive — essential to identify the subject — so no commas should set it off."
+    },
+    {
+      "title": "Apply the rule",
+      "content": "The structure: \"The gaseous ______ have molar masses...\" The blank should contain the noun phrase \"compounds thymol and methane\" — these are the two specific compounds named (an essential appositive; only two exist, so the names are restrictive, not parenthetical). The rule: restrictive appositives take NO comma; non-restrictive (parenthetical) appositives need commas on both sides.<ul><li><strong>Choice A — \"compounds, thymol and methane\"</strong>: opening comma without closing comma — incorrectly treats the names as non-restrictive while leaving the appositive unclosed. ✗</li><li><strong>Choice B — \"compounds, thymol and methane,\"</strong>: commas on both sides treat the names as parenthetical, but they are essential (they identify <em>which</em> compounds). ✗</li><li><strong>Choice C — \"compounds thymol and methane\"</strong>: no commas — treats the names as a restrictive appositive that identifies the specific compounds. ✓</li><li><strong>Choice D — \"compounds thymol and methane,\"</strong>: trailing comma with no opening comma — mismatched and creates an awkward break before the verb \"have.\" ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

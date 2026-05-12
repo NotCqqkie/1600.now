@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply pronoun-antecedent agreement",
-      "content": "Pronouns must agree with their antecedents in number. The choice <strong>they</strong> is plural, matching <strong>artworks</strong>; <strong>it</strong>, <strong>that</strong>, and <strong>this</strong> are singular and don't match. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number. The antecedent is \"the artworks\" (plural).\n<ul>\n<li><strong>Choice A \u2014 \"they\"</strong>: plural pronoun matches the plural antecedent \"artworks.\" \u2713</li>\n<li><strong>Choice B \u2014 \"that\"</strong>: singular relative pronoun; does not agree with the plural \"artworks.\" \u2717</li>\n<li><strong>Choice C \u2014 \"it\"</strong>: singular pronoun; cannot refer to the plural \"artworks.\" \u2717</li>\n<li><strong>Choice D \u2014 \"this\"</strong>: singular demonstrative pronoun; does not agree with the plural \"artworks.\" \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject",
-      "content": "\u201dHaving proportionally large populations\u201d is a gerund phrase that functions as the grammatical subject of the clause. The verb blank must agree with this subject in number."
+      "content": "\"Having proportionally large populations\" is a gerund phrase functioning as the grammatical subject of the clause. A gerund phrase is treated as singular."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "\u201dIs\u201d (D) is the singular verb required for a singular subject. \u201cAre,\u201d \u201cwere,\u201d and \u201chave been\u201d are all plural forms that violate subject-verb agreement. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Identify the grammar issue: subject-verb agreement. Rule: a gerund phrase as subject takes a singular verb.\n<ul>\n<li><strong>Choice A — \"are\"</strong>: plural present verb; gerund subjects take singular verbs, so \"are\" is incorrect. ✗</li>\n<li><strong>Choice B — \"were\"</strong>: plural past verb; wrong in number and tense — the sentence describes a general ongoing truth. ✗</li>\n<li><strong>Choice C — \"have been\"</strong>: plural present perfect; wrong in number for a singular gerund subject. ✗</li>\n<li><strong>Choice D — \"is\"</strong>: singular present verb; correctly agrees with the singular gerund-phrase subject. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }
