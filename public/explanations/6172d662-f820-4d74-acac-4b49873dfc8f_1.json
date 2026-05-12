@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the target meaning",
-      "content": "Words like <em>gorgeous</em>, <em>resplendent</em>, <em>enlivened</em>, and <em>festoons of carnival</em> describe visually impressive natural scenery. The word <em>display</em> here refers to this vivid visual exhibition."
+      "content": "The passage describes nature as \"gorgeous,\" with moss \"enlivened,\" pine \"resplendent,\" and festoons of carnival. Mr. Bradford is \"conscious\" of this vivid visual <u>display</u>. The word must mean an <em>impressive visual sight</em>."
     },
     {
-      "title": "Match to the correct answer",
-      "content": "<em>Spectacle</em> means a visually striking or impressive sight\u2014the exact meaning required here. Reproduction, pretentiousness, and disguise are all unrelated to the visual grandeur on display.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Substitute each choice",
+      "content": "The blank needs to mean a striking, impressive visual exhibition. Substitute each choice:\n<ul>\n<li><strong>Choice A — spectacle</strong>: \"this gorgeous <em>spectacle</em> of nature\" — <em>spectacle</em> means a visually impressive or striking sight. This perfectly matches the vivid natural scene described. ✓</li>\n<li><strong>Choice B — reproduction</strong>: \"this gorgeous <em>reproduction</em> of nature\" — <em>reproduction</em> means a copy or duplicate. The passage describes real nature, not a replica. ✗</li>\n<li><strong>Choice C — pretentiousness</strong>: \"this gorgeous <em>pretentiousness</em> of nature\" — <em>pretentiousness</em> means affectation or trying to seem important. Nature is not described as self-important here. ✗</li>\n<li><strong>Choice D — disguise</strong>: \"this gorgeous <em>disguise</em> of nature\" — <em>disguise</em> means a concealing costume. Nothing in the passage suggests nature is concealing anything. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

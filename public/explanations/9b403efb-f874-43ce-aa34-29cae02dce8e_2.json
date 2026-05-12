@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the key signal",
-      "content": "The passage contrasts obligatory migration (diadromous fish) with salt tolerance without migration (euryhaline fish). The word \u201cwhy\u201d signals the blank must express the distinction this creates."
+      "content": "The passage contrasts diadromous fish (obligate migrators between freshwater and marine biomes) with euryhaline fish (salt-tolerant but non-migrating). The blank must express how diadromous fish are <strong>distinguished</strong> from euryhaline ones."
     },
     {
-      "title": "Match the meaning to the winner",
-      "content": "\u201dDemarcated from\u201d means marked off or separated as distinct\u2014exactly what distinguishes obligatory migrators from tolerant non-migrators. The others suggest origin, transformation, or confusion. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Substitute each choice",
+      "content": "The blank needs to mean <em>distinguished or separated from</em> — marking the line between obligate migrators and tolerant non-migrators. Substitute each choice:\n<ul>\n<li><strong>Choice A — demarcated from</strong>: \"can be <em>demarcated from</em> those that are merely euryhaline\" — <em>demarcated</em> means clearly separated or distinguished. This captures the distinction the passage draws. ✓</li>\n<li><strong>Choice B — reconstituted as</strong>: \"can be <em>reconstituted as</em>\" — <em>reconstituted</em> means reformed or restructured. The passage is not describing transformation. ✗</li>\n<li><strong>Choice C — derived from</strong>: \"can be <em>derived from</em>\" — <em>derived</em> means originating from. The passage says nothing about diadromous fish originating from euryhaline ones. ✗</li>\n<li><strong>Choice D — conflated with</strong>: \"can be <em>conflated with</em>\" — <em>conflated</em> means wrongly merged or confused. The passage is doing the opposite: clarifying their difference. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contextual signal", "content": "The text describes the minaret as a feature \"almost always included in the designs of mosques\" — a defining, characteristic element. The blank needs a word meaning a distinctive, identifying feature."}, {"title": "Match the precise word", "content": "A <em>hallmark</em> is a distinguishing characteristic — exactly fitting a feature that defines mosque architecture. <em>Rejection</em>, <em>motivation</em>, and <em>duplicate</em> don't describe a defining feature.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contextual signal",
+      "content": "The text says certain features are \"almost always included in the designs of mosques\" — the minaret is a defining, characteristic element of mosque architecture. The blank needs a word meaning a distinctive identifying feature."
+    },
+    {
+      "title": "Match the precise word",
+      "content": "The blank needs to mean a defining characteristic — something that marks mosque architecture as distinctly itself. Substitute each choice:\n<ul>\n<li><strong>Choice A — Hallmark</strong>: \"considered to be a <em>hallmark</em> of mosque architecture\" — hallmark means a distinguishing characteristic or signature feature, exactly fitting a standard element that defines the style. ✓</li>\n<li><strong>Choice B — Rejection</strong>: \"considered to be a <em>rejection</em> of mosque architecture\" — rejection means a refusal or denial; the minaret is embraced by mosque design, not rejected. ✗</li>\n<li><strong>Choice C — Motivation</strong>: \"considered to be a <em>motivation</em> of mosque architecture\" — motivation means a reason for doing something; a minaret is a structural feature, not a reason for building. ✗</li>\n<li><strong>Choice D — Duplicate</strong>: \"considered to be a <em>duplicate</em> of mosque architecture\" — duplicate means an exact copy; the minaret is an original element, not a copy of something else. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

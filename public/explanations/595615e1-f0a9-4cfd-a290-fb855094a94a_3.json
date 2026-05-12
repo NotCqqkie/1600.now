@@ -1,1 +1,15 @@
-{"questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_3", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the contextual signal", "content": "The blank parallels 'illuminate the Pleistocene epoch' and 'reveal important details.' Misliya-1's remains help researchers <em>identify or make out</em> evolutionary steps."}, {"title": "Match the meaning", "content": "<strong>Discern</strong> means to perceive or distinguish clearly — a perfect fit for figuring out evolutionary steps. 'Yield,' 'prioritize,' and 'exploit' don't capture identifying or recognizing.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contextual signal",
+      "content": "The blank parallels 'illuminate the Pleistocene epoch' and 'reveal important details.' Misliya-1's remains help researchers <em>identify or make out</em> evolutionary steps."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The blank needs to mean identify or make out — parallel to \"illuminate\" and \"reveal,\" Misliya-1's remains help researchers perceive evolutionary steps. Substitute each choice:\n<ul>\n<li><strong>Choice A — yield</strong>: \"can help paleoanthropologists <em>yield</em> steps in the evolution\" — yield means produce or give. Researchers don't produce evolutionary steps; they figure them out. ✗</li>\n<li><strong>Choice B — discern</strong>: \"can help paleoanthropologists <em>discern</em> steps in the evolution\" — discern means to perceive or distinguish clearly. The fossil remains let scientists make out what those evolutionary steps were. ✓</li>\n<li><strong>Choice C — prioritize</strong>: \"can help paleoanthropologists <em>prioritize</em> steps in the evolution\" — prioritize means rank by importance. The passage is about identifying what happened, not ranking it. ✗</li>\n<li><strong>Choice D — exploit</strong>: \"can help paleoanthropologists <em>exploit</em> steps in the evolution\" — exploit means take advantage of. Researchers are studying the steps, not exploiting them. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

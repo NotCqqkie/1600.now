@@ -1,1 +1,15 @@
-{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the contrasting philosophies", "content": "Realism emphasizes accuracy and ordinary people; romanticism (marked by “instead”) accentuates positive traits and idealizes with embellishments. These are opposed approaches."}, {"title": "Choose the oppositional verb", "content": "”Rejected” fits the contrast—realism refused romantic conventions.<br/><br/>The alternatives express incompatible relationships: “imitated” (copying), “epitomized” (embodying), “extended” (continuing) all suggest agreement or continuation rather than opposition.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrasting philosophies",
+      "content": "Realism emphasizes accuracy and ordinary people; romanticism (marked by “instead”) accentuates positive traits and idealizes with embellishments. These are opposed approaches."
+    },
+    {
+      "title": "Choose the oppositional verb",
+      "content": "The blank needs a verb meaning to refuse, oppose, or move away from the romantic style — the realist style is described as opposite (\"instead\") to romanticism. Substitute each choice:<ul><li><strong>Choice A — rejected</strong>: \"This style largely <em>rejected</em> the conventions of the romantic style\" — rejected means refused or dismissed, exactly capturing the realist style's opposition to romanticism's idealization. ✓</li><li><strong>Choice B — imitated</strong>: \"largely <em>imitated</em> the conventions\" — imitated means copied or followed; but the passage emphasizes the styles are <em>opposed</em>, not aligned. ✗</li><li><strong>Choice C — epitomized</strong>: \"largely <em>epitomized</em> the conventions\" — epitomized means served as the perfect example of; realism cannot be the perfect example of romanticism if they're contrasting approaches. ✗</li><li><strong>Choice D — extended</strong>: \"largely <em>extended</em> the conventions\" — extended means built on or expanded; this would mean realism continued romantic conventions, contradicting the \"instead\" contrast. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}
