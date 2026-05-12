@@ -50,6 +50,14 @@ const errorBackground = "hsl(0 70% 97%)";
 const MASTERY_CONFIRMATIONS = 3;
 const MASTERY_MODE_COUNT = 2;
 const PRACTICE_MODES: PracticeMode[] = ["flashcards", "learn", "match", "test"];
+const STYLE_FLEX_GAP_8: CSSProperties = { display: "flex", gap: 8 };
+const STYLE_GRID_GAP_10: CSSProperties = { display: "grid", gap: 10 };
+const STYLE_FLEX_COL_GAP_10: CSSProperties = { display: "flex", flexDirection: "column", gap: 10 };
+const STYLE_CENTER_BLOCK_520: CSSProperties = { maxWidth: 520, margin: "0 auto", textAlign: "center" };
+const STYLE_CENTER_BLOCK_640: CSSProperties = { maxWidth: 640, margin: "0 auto" };
+const STYLE_NOWRAP: CSSProperties = { whiteSpace: "nowrap" };
+const STYLE_EMPTY_STATE: CSSProperties = { color: mutedTextColor, textAlign: "center", padding: 40 };
+const STYLE_HEADING_24: CSSProperties = { margin: 0, fontSize: 24, fontWeight: 600, color: textColor };
 
 const TAG_LIGHT: Record<Pos, { bg: string; textColor: string }> = {
   adj: { bg: "hsl(201 100% 94%)", textColor: "hsl(201 100% 32%)" },
@@ -368,7 +376,7 @@ function MasteredSetPrompt({
   const [confirmReset, setConfirmReset] = useState(false);
 
   return (
-    <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+    <div style={STYLE_CENTER_BLOCK_520}>
       <div
         style={{
           padding: "32px 28px",
@@ -378,7 +386,7 @@ function MasteredSetPrompt({
           boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
         }}
       >
-        <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>Set mastered</h2>
+        <h2 style={STYLE_HEADING_24}>Set mastered</h2>
         <p style={{ color: successColor, margin: "10px 0 22px", fontSize: 13, fontWeight: 500 }}>
           You've mastered every word{setName ? ` in ${setName}` : ""}.
         </p>
@@ -390,7 +398,7 @@ function MasteredSetPrompt({
             Reset progress for this set
           </button>
         ) : (
-          <div style={{ display: "flex", gap: 8 }}>
+          <div style={STYLE_FLEX_GAP_8}>
             <button
               onClick={() => setConfirmReset(false)}
               style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
@@ -961,7 +969,7 @@ function Flashcards({
   }, [card, markGotIt, markStudyAgain, skipNext, skipPrev]);
 
   if (deck.length === 0) {
-    return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words in this set.</div>;
+    return <div style={STYLE_EMPTY_STATE}>No words in this set.</div>;
   }
 
   if (done) {
@@ -1132,7 +1140,7 @@ function Flashcards({
               )}
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            <div style={STYLE_FLEX_COL_GAP_10}>
             {stillLearningCount > 0 && (
               <button onClick={restartLearning} style={ctaStyle}>
                 Continue with still-learning ({stillLearningCount})
@@ -1180,7 +1188,7 @@ function Flashcards({
           gap: 16,
         }}
       >
-        <span style={{ whiteSpace: "nowrap" }}>
+        <span style={STYLE_NOWRAP}>
           <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{remaining}</span> left
           {" this round · "}
           <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{knownThisRound.size}</span> marked known
@@ -1669,7 +1677,7 @@ function Learn({
   };
 
   if (deck.length === 0) {
-    return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words.</div>;
+    return <div style={STYLE_EMPTY_STATE}>No words.</div>;
   }
   if (deck.every(word => word.mastery >= 0.8) && !done) {
     return <MasteredSetPrompt setName={deck[0]?.setName} onReset={resetAndStart} />;
@@ -1679,7 +1687,7 @@ function Learn({
     const correctCount = correctIds.size;
     const missedCount = Array.from(wrongIds).filter(id => !correctIds.has(id)).length;
     return (
-      <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+      <div style={STYLE_CENTER_BLOCK_520}>
         <div
           style={{
             padding: "32px 28px",
@@ -1689,11 +1697,11 @@ function Learn({
             boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
           }}
         >
-          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>Round complete</h2>
+          <h2 style={STYLE_HEADING_24}>Round complete</h2>
           <p style={{ margin: "10px 0 22px", color: mutedTextColor, fontSize: 15 }}>
             {correctCount} correct · {missedCount} missed
           </p>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <div style={STYLE_FLEX_COL_GAP_10}>
             {missedCount > 0 && (
               <button onClick={restartWrongOnly} style={{ ...btnPrimary, padding: "0 24px" }}>
                 Practice missed ({missedCount})
@@ -1711,7 +1719,7 @@ function Learn({
   if (!currentWord) return null;
 
   return (
-    <div style={{ maxWidth: 640, margin: "0 auto" }}>
+    <div style={STYLE_CENTER_BLOCK_640}>
       <div
         style={{
           display: "flex",
@@ -1932,7 +1940,7 @@ function Match({
   const done = total > 0 && resolved >= total;
 
   if (deck.length === 0) {
-    return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words.</div>;
+    return <div style={STYLE_EMPTY_STATE}>No words.</div>;
   }
   if (deck.every(word => word.mastery >= 0.8) && pool.length === 0) {
     return <MasteredSetPrompt setName={deck[0]?.setName} onReset={resetAndStart} />;
@@ -1954,7 +1962,7 @@ function Match({
       >
         <span>Pair each word with its meaning</span>
         <span style={{ display: "flex", gap: 14, alignItems: "center" }}>
-          <span style={{ whiteSpace: "nowrap" }}>
+          <span style={STYLE_NOWRAP}>
             {resolved} / {total}
           </span>
           <button
@@ -1978,7 +1986,7 @@ function Match({
       </div>
 
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 }}>
-        <div style={{ display: "grid", gap: 10 }}>
+        <div style={STYLE_GRID_GAP_10}>
           {pool.map((word, wordIndex) => {
             const linked = links[wordIndex] !== undefined;
             const isSelected = selected === wordIndex;
@@ -2015,7 +2023,7 @@ function Match({
             );
           })}
         </div>
-        <div style={{ display: "grid", gap: 10 }}>
+        <div style={STYLE_GRID_GAP_10}>
           {defOrder.map((wordIndex, slot) => {
             const definitionText = pool[wordIndex]?.def ?? "";
             const linkedWord = Object.entries(links).find(([, linkedSlot]) => linkedSlot === slot);
@@ -2351,7 +2359,7 @@ function Test({
     }, 0);
   };
 
-  if (!deck.length) return <div style={{ color: mutedTextColor, textAlign: "center", padding: 40 }}>No words.</div>;
+  if (!deck.length) return <div style={STYLE_EMPTY_STATE}>No words.</div>;
   if (deck.every(word => word.mastery >= 0.8) && !done && questions.length === 0) {
     return <MasteredSetPrompt setName={setName} onReset={resetAndStart} />;
   }
@@ -2375,7 +2383,7 @@ function Test({
         }
       : btnPrimary;
     return (
-      <div style={{ maxWidth: 640, margin: "0 auto" }}>
+      <div style={STYLE_CENTER_BLOCK_640}>
         <div
           style={{
             padding: "32px 28px",
@@ -2386,7 +2394,7 @@ function Test({
           }}
         >
           <div style={{ textAlign: "center" }}>
-            <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: textColor }}>Session complete</h2>
+            <h2 style={STYLE_HEADING_24}>Session complete</h2>
             <p style={{ margin: "10px 0 24px", color: mutedTextColor, fontSize: 15 }}>
               {correctCount} / {results.length} correct
             </p>
@@ -2438,7 +2446,7 @@ function Test({
             ))}
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <div style={STYLE_FLEX_COL_GAP_10}>
             <button onClick={restart} style={{ ...resultButtonStyle, padding: "0 24px" }}>
               New test
             </button>
@@ -2456,7 +2464,7 @@ function Test({
   const timeLabel = `${minutes}:${seconds.toString().padStart(2, "0")}`;
 
   return (
-    <div style={{ maxWidth: 640, margin: "0 auto" }}>
+    <div style={STYLE_CENTER_BLOCK_640}>
       <div
         style={{
           display: "flex",
@@ -2512,7 +2520,7 @@ function Test({
           )}
         </div>
 
-        <div style={{ display: "grid", gap: 10 }}>
+        <div style={STYLE_GRID_GAP_10}>
           {optionState.choices.map((choice, choiceIndex) => {
             const isSelected = selectedChoice === choiceIndex;
             return (
@@ -2586,7 +2594,7 @@ function Test({
               />
             ))}
           </div>
-          <div style={{ display: "flex", gap: 8 }}>
+          <div style={STYLE_FLEX_GAP_8}>
             <button onClick={() => goNext(false)} style={{ ...btnSecondary, padding: "0 18px", height: 42 }}>
               Skip
             </button>
