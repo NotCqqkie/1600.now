@@ -108,6 +108,8 @@ import {
 import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";
 
+const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
+
 const hardQuestions = originalQuestions.map(originalQuestion => ({
   ...originalQuestion,
   uuid: `hard-${originalQuestion.id}`
@@ -3087,7 +3089,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               ref={topLeftMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] whitespace-nowrap"
-              style={{ visibility: 'hidden', pointerEvents: 'none' }}
+              style={HIDDEN_MEASUREMENT_STYLE}
             >
               <Button variant="ghost" size="sm">
                 <ChevronLeft className="mr-1 h-4 w-4" />
@@ -3098,7 +3100,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               ref={topMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] flex items-center gap-2 whitespace-nowrap"
-              style={{ visibility: 'hidden', pointerEvents: 'none' }}
+              style={HIDDEN_MEASUREMENT_STYLE}
             >
               <div className="h-8 w-14 rounded-full border" />
               {subject === "math" && (
@@ -3507,7 +3509,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               ref={bottomMeasurementRef}
               aria-hidden="true"
               className="absolute -left-[9999px] flex gap-2 whitespace-nowrap"
-              style={{ visibility: 'hidden', pointerEvents: 'none' }}
+              style={HIDDEN_MEASUREMENT_STYLE}
             >
               {!isAssessmentMode && (
                 <Button variant="secondary" size="default">
