@@ -1,4 +1,4 @@
-import { Suspense, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { Suspense, lazy, memo, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
 import { BrandLogo } from "@/components/brand/BrandLogo";
@@ -52,6 +52,8 @@ const defaultBankFilters: QuestionBankFilters = {
   answeredIncorrectly: "all",
 };
 const HOME_DEMO_USER_SCROLL_EVENT = "home-demo-user-scroll";
+const STYLE_POSITION_RELATIVE: CSSProperties = { position: "relative" };
+const STYLE_ACCENT_TEXT: CSSProperties = { fontStyle: "normal", color: "hsl(201,100%,70%)" };
 
 const forwardHomeScroll = (deltaX: number, deltaY: number) => {
   if (!deltaX && !deltaY) return;
@@ -497,7 +499,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
         >
           See how every
           <br />
-          <em style={{ fontStyle: "normal", color: "hsl(201,100%,70%)" }}>
+          <em style={STYLE_ACCENT_TEXT}>
             answer is built.
           </em>
         </h2>
@@ -535,7 +537,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
         </button>
       </div>
 
-        <div style={{ position: "relative" }}>
+      <div style={STYLE_POSITION_RELATIVE}>
         <div
           style={{
             position: "absolute",
@@ -546,7 +548,7 @@ const ExplanationFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean })
             pointerEvents: "none",
           }}
         />
-        <div style={{ position: "relative" }}>
+        <div style={STYLE_POSITION_RELATIVE}>
           <ParallaxTilt max={3}>
             <AnimatedExplanation isDarkMode={isDarkMode} active={isNear} />
           </ParallaxTilt>
@@ -745,7 +747,7 @@ const FilterFeatureSection = memo(({
             pointerEvents: "none",
           }}
         />
-        <div style={{ position: "relative" }}>
+        <div style={STYLE_POSITION_RELATIVE}>
           <ParallaxTilt max={3}>
             <BankFilterInlineDemo isDarkMode={isDarkMode} />
           </ParallaxTilt>
@@ -927,7 +929,7 @@ const PracticeTestsFeatureSection = memo(({ isDarkMode }: { isDarkMode: boolean 
         </button>
       </div>
 
-      <div style={{ position: "relative" }}>
+      <div style={STYLE_POSITION_RELATIVE}>
         <PracticeTestScoreShowcase />
       </div>
     </div>
