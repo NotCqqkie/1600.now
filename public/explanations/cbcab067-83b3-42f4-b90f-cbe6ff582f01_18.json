@@ -1,1 +1,15 @@
-{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_18", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "To the left of the blank: <strong>“Popper's theory”</strong> — a noun phrase serving as the subject.<br/><br/>To the right: <strong>“that scientific hypotheses must be refutable”</strong> (a noun clause), <strong>“termed the criterion of falsifiability”</strong> (a participial phrase), and then <strong>“rejects”</strong> governing a direct object."}, {"title": "Apply the structures to the choices", "content": "<strong>'Dictating'</strong> (present participle) creates a participial phrase modifying the subject, allowing <strong>'rejects'</strong> to be the sole main verb.<br/><br/>The other options are main verbs (<strong>'was dictating,'</strong> <strong>'dictates'</strong>) that create a double-verb problem, or don't function as a participle (<strong>'dictated'</strong>).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures",
+      "content": "To the left of the blank: <strong>“Popper's theory”</strong> — a noun phrase serving as the subject.<br/><br/>To the right: <strong>“that scientific hypotheses must be refutable”</strong> (a noun clause), <strong>“termed the criterion of falsifiability”</strong> (a participial phrase), and then <strong>“rejects”</strong> governing a direct object."
+    },
+    {
+      "title": "Apply the structures to the choices",
+      "content": "The sentence already has one main verb: <strong>rejects</strong>. That means the blank cannot be another main verb — it must be a participial phrase modifying the subject.<br/><ul><li><strong>Dictating</strong> (C) — present participle: \"Popper's theory, <em>dictating</em> that…, <em>rejects</em>…\" — one main verb (<em>rejects</em>), correct.</li><li><strong>Was dictating</strong> (A) — past progressive main verb: creates two main verbs with no conjunction.</li><li><strong>Dictates</strong> (D) — simple present main verb: same double-verb problem.</li><li><strong>Dictated</strong> (B) — past tense main verb: same double-verb problem (a participial reading of <em>dictated</em> would require a passive structure that doesn't fit here).</li></ul>Only C keeps <em>rejects</em> as the sole main verb.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

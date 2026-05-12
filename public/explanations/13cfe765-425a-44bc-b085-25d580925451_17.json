@@ -1,1 +1,15 @@
-{"questionId": "13cfe765-425a-44bc-b085-25d580925451_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the comma splice", "content": "The sentence contains two independent clauses separated only by a comma:<br/><br/><strong>Clause 1:</strong> “This conceptualization of harmonic opposites did not originate with Collier in 1985”<br/><strong>Clause 2:</strong> “the idea was first articulated in Levy's book”<br/><br/>A comma alone cannot join two independent clauses—this is a comma splice error."}, {"title": "Apply the semicolon rule", "content": "Two independent clauses require a semicolon (not a comma) to separate them properly.<br/><br/>Choice B places a semicolon after “though,” — where “though” serves as a parenthetical word expressing concession (like “admittedly”) right after “Collier.” The semicolon then divides the two clauses: <em>...did not originate with Collier, though; in 1985, the idea was first articulated...</em> The other choices either leave the comma splice unsolved (A and C both retain “...in 1985, the idea” as a continuation after a comma) or place punctuation incorrectly (D uses the conjunctive adverb pattern poorly here).<br/><br/>This matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "13cfe765-425a-44bc-b085-25d580925451_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the comma splice",
+      "content": "The sentence contains two independent clauses separated only by a comma:<br/><br/><strong>Clause 1:</strong> “This conceptualization of harmonic opposites did not originate with Collier in 1985”<br/><strong>Clause 2:</strong> “the idea was first articulated in Levy's book”<br/><br/>A comma alone cannot join two independent clauses—this is a comma splice error."
+    },
+    {
+      "title": "Apply the semicolon rule",
+      "content": "Two independent clauses need a semicolon or period between them — a comma alone is a comma splice. Insert each choice and read the full sentence:<br/><ul><li><strong>A — \"Collier, though\"</strong>: \"…did not originate with Collier, though in 1985, the idea was first articulated…\" — comma before \"though\" leaves two independent clauses joined only by a comma = comma splice. ✗</li><li><strong>B — \"Collier, though;\"</strong>: \"…did not originate with Collier, though; in 1985, the idea was first articulated…\" — the semicolon after \"though\" separates the two clauses correctly. \"Though\" here works as a parenthetical concession (like \"admittedly\"), modifying clause 1. The semicolon then properly joins the two independent clauses. ✓</li><li><strong>C — \"Collier, though,\"</strong>: \"…did not originate with Collier, though, in 1985, the idea was first articulated…\" — two commas around \"though\" treat it as a parenthetical, but the two independent clauses are still joined only by commas = comma splice. ✗</li><li><strong>D — \"Collier; though,\"</strong>: \"…did not originate with Collier; though, in 1985, the idea was first articulated…\" — the semicolon is in the wrong place (mid-subject of clause 1), splitting the sentence before \"though\" makes \"though, in 1985\" an awkward fragment opener. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

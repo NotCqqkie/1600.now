@@ -1,1 +1,15 @@
-{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the core trade-off", "content": "The passage directly contrasts historians' “cold and naked” work with the “mimic charm” of landscape paintings, then reveals why: historians are bound by “literal truth” and “exactness,” methods that conflict with charm and engagement."}, {"title": "Apply the constraint to the choices", "content": "Choice B correctly identifies the tension: when historians prioritize “literal truth” and “biographical exactness,” their work becomes accurate but lacks the engagement of more creative presentations.<br/><br/>The other choices either contradict the passage's emphasis on truth or misread the analogy.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the core trade-off",
+      "content": "The passage directly contrasts historians' “cold and naked” work with the “mimic charm” of landscape paintings, then reveals why: historians are bound by “literal truth” and “exactness,” methods that conflict with charm and engagement."
+    },
+    {
+      "title": "Apply the constraint to the choices",
+      "content": "Choice B matches: the passage says historians' work is \"cold and naked, and wholly destitute of the mimic charm produced by landscape painting\" because they are bound by \"literal truth\" and \"biographical exactness\" — their accuracy comes at the cost of engagement.<br/><ul><li><strong>A</strong> — the passage says the defects are \"partly remediable\" without \"violation of literal truth,\" implying historians <em>should</em> care about being accurate, not that they shouldn't worry if readers think they're embellishing.</li><li><strong>C</strong> — the passage says nothing about historians disagreeing with each other on methods.</li><li><strong>D</strong> — the map/painting comparison is an analogy for the historian/biographer vs. artistic writing, not a claim about owning physical objects.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

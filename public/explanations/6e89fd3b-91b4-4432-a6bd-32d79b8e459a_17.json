@@ -1,1 +1,15 @@
-{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the timeline signal", "content": "The phrase “Before that” is the key. “That” refers to when he watched <em>North by Northwest</em> at last year's festival and wrote the scathing review. “Before that” tells us we're describing what was true at an <strong>earlier point in the past</strong>."}, {"title": "Apply the tense rule for prior past events", "content": "When a past event must be shown as occurring <strong>before another past event</strong>, use past perfect (had + been). “Had been” correctly establishes that <em>A Beautiful Mind</em> was already his least-enjoyed film before he watched <em>North by Northwest</em>.<br/><br/>The other choices either use present tense forms or express an ongoing action rather than an established prior fact.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the timeline signal",
+      "content": "The phrase “Before that” is the key. “That” refers to when he watched <em>North by Northwest</em> at last year's festival and wrote the scathing review. “Before that” tells us we're describing what was true at an <strong>earlier point in the past</strong>."
+    },
+    {
+      "title": "Apply the tense rule for prior past events",
+      "content": "When one past event happened <em>before</em> another past event, use past perfect: <strong>had + past participle</strong>. Here, <em>A Beautiful Mind</em> was least enjoyed <em>before</em> he watched <em>North by Northwest</em> (the festival — the later past event).<br/><ul><li><strong>Had been</strong> (B) — past perfect: establishes the prior state correctly. ✓</li><li><strong>Is</strong> (A) — simple present: describes the current moment, not any past state.</li><li><strong>Was being</strong> (C) — past progressive: describes an action unfolding over time in the past (e.g., \"the film was being screened\"), not a completed prior state.</li><li><strong>Has been</strong> (D) — present perfect: describes something continuing from the past into the present; but the sentence is set entirely in the past, so present perfect is incorrect.</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}
