@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the opposition between the two maps",
-      "content": "The passage contrasts topographic maps (elevation \u201cabove sea level\u201d) with bathymetric maps (elevation \u201cbelow the sea\u201d). The blank must signal this direct opposition."
+      "content": "Topographic maps measure elevation above sea level; bathymetric maps measure elevation below the sea. The two map types are directly opposed on the same dimension."
     },
     {
       "title": "Choose the transition that marks the contrast",
-      "content": "<strong>\u201cBy contrast\u201d</strong> directly signals opposition between the two map types. The other three fail to mark this relationship: \u201cafterward\u201d implies time, \u201cin conclusion\u201d signals closure, and \u201cfor example\u201d implies similarity. This matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The logical relationship is contrast. The blank needs a transition signaling that bathymetric maps are the counterpart to topographic maps.\n<ul>\n<li><strong>Choice A — \"afterward,\"</strong>: signals a later event in time, but no time sequence is described here, so fails. ✗</li>\n<li><strong>Choice B — \"in conclusion,\"</strong>: signals a final summary of an argument; the passage is describing two map types, not wrapping up a case, so fails. ✗</li>\n<li><strong>Choice C — \"for example,\"</strong>: signals a specific instance of a general claim; bathymetric maps aren't an example of topographic maps—they are their opposite, so fails. ✗</li>\n<li><strong>Choice D — \"by contrast,\"</strong>: signals direct opposition between two things on the same dimension (above vs. below sea level), so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

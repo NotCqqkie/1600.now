@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the contrast clue",
-      "content": "The passage says blue holes and cenotes differ in size, water composition, and location type."
+      "content": "The passage says blue holes and cenotes differ in size, water composition, and type of location, so they are \"not usually viewed as being ______\" — but then adds that both are water-filled sinkholes formed the same way. The blank names how they are NOT viewed despite those differences. Since they share an origin, the missing word must mean similar or alike."
     },
     {
-      "title": "Apply the clue to the choices",
-      "content": "Because they differ, they are not seen as similar; analogous means similar, so it fits the blank.<br/>The other choices either mean different, explainable, or mismatched, which do not match the contrast.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The word needs to mean similar or alike. Substitute each choice: <ul><li><strong>Choice A — distinct</strong>: means clearly different — the passage already says they are different; saying they are \"not viewed as distinct\" would contradict the passage. ✗</li><li><strong>Choice B — explicable</strong>: means able to be explained — the passage is not questioning whether they can be explained; this is irrelevant to the contrast. ✗</li><li><strong>Choice C — analogous</strong>: means similar or comparable — because they differ on the surface, they are not viewed as analogous (similar), even though their origins match. ✓</li><li><strong>Choice D — incongruous</strong>: means mismatched or incompatible — saying they are \"not viewed as incongruous\" would mean people think they fit together, which doesn’t match the contrast the passage sets up. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

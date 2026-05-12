@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the structural requirement",
-      "content": "The blank precedes \u201c112th in a global ranking,\u201d which cannot form a complete sentence without a subject and verb. The constitution is singular."
+      "title": "Identify what the blank must supply",
+      "content": "The blank precedes \"112th in a global ranking of the shortest constitutions.\" That predicate needs a subject plus a linking verb to form a complete sentence. The referent is \"the constitution of Poland\" — singular."
     },
     {
-      "title": "Select the choice that completes the sentence",
-      "content": "'It's' (it is) makes the sentence complete: it is \u201c112th in a global ranking.\u201d The possessive forms 'its' and 'their' lack the verb needed, while 'they're' uses the wrong number. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Apply the contraction vs. possessive rule — per-choice diagnosis",
+      "content": "The blank needs a subject-verb pair (\"it is\"). Four choices look similar but function differently.<ul><li><strong>Choice A — \"its\":</strong> possessive pronoun. Has no verb; \"its 112th\" would mean the constitution owns the ranking, which is nonsensical here. Eliminated.</li><li><strong>Choice B — \"they're\":</strong> contraction of \"they are\" (plural). The constitution is singular, so \"they're\" creates a number mismatch. Eliminated.</li><li><strong>Choice C — \"it's\":</strong> contraction of \"it is\" — singular subject + linking verb. Supplies exactly what the sentence needs to be grammatically complete. Correct.</li><li><strong>Choice D — \"their\":</strong> plural possessive pronoun. Neither matches the singular referent nor provides a verb. Eliminated.</li></ul>"
     }
   ]
 }

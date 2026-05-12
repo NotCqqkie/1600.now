@@ -1,1 +1,15 @@
-{"questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the term needing definition", "content": "The previous sentence introduces “annular” but doesn't explain what it means; the blank sentence provides that definition."}, {"title": "Select the clarification transition", "content": "<strong>“That is,”</strong> introduces a definition of a term just introduced, clarifying what “annular” means: the Moon didn't cover the Sun completely.<br/><br/>The other choices mark contrast, simultaneity, or specific instances—none of which define “annular.” That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the term needing definition",
+      "content": "The previous sentence introduces the term \"annular\" without explaining it. The blank sentence defines what annular means: the Moon didn't cover the Sun completely."
+    },
+    {
+      "title": "Select the clarification transition",
+      "content": "The logical relationship is specification (definition). The blank needs a transition signaling that the next sentence restates or defines the word \"annular.\"\n<ul>\n<li><strong>Choice A — \"That is,\"</strong>: signals a restatement or definition of a term just introduced, fitting the explanation of \"annular,\" so fits. ✓</li>\n<li><strong>Choice B — \"Nonetheless,\"</strong>: signals continuation despite an obstacle—no obstacle is present here, so fails. ✗</li>\n<li><strong>Choice C — \"Meanwhile,\"</strong>: signals simultaneous events happening at the same time, so fails. ✗</li>\n<li><strong>Choice D — \"For example,\"</strong>: signals a specific instance of a general claim; the blank sentence defines \"annular,\" it doesn't give an example of a general rule, so fails. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

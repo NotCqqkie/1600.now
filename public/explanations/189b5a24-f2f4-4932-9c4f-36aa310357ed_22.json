@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the incompatibility",
-      "content": "Kepler-1552b is habitable but too distant to access. This incompatibility demands a shift to a different approach."
+      "title": "State the logical relationship between the sentences",
+      "content": "Relationship: <strong>substitution/contrast</strong>. Sentence 1 establishes that Kepler-1552b is potentially habitable but is unreachable (2,507 light years away). Sentence 2 pivots to an alternative action humanity must take instead. The second sentence does not add to the first, exemplify it, or follow it in sequence — it replaces an impractical option with a practical one."
     },
     {
-      "title": "Choose the transition",
-      "content": "\u201dInstead\u201d expresses the logical substitution\u2014shifting focus from the impractical distant planet to nearby alternatives. The other three misrepresent this relationship by suggesting exemplification, similarity, or mere sequence respectively. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Match the relationship to the transition — per-choice diagnosis",
+      "content": "<ul><li><strong>Choice A — \"For example,\":</strong> signals that sentence 2 gives a specific instance of a general claim made in sentence 1. But sentence 2 is not an example of Kepler-1552b's conditions — it describes a completely different action. Eliminated.</li><li><strong>Choice B — \"Likewise,\":</strong> signals similarity or addition. There is no similarity between focusing on a distant planet and making nearby planets habitable; the relationship is substitution, not parallel addition. Eliminated.</li><li><strong>Choice C — \"Instead,\":</strong> signals that humanity should do one thing in place of another — precisely the substitution relationship here. Correct.</li><li><strong>Choice D — \"Next,\":</strong> signals a sequential step following the first. The passage does not suggest these are sequential steps; the second option replaces the first because the first is impossible. Eliminated.</li></ul>"
     }
   ]
 }

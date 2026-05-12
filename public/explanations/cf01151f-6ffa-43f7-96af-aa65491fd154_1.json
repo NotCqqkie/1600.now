@@ -1,1 +1,15 @@
-{"questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key similarity", "content": "The passage states that A. vittata “corresponds in physiology, behavior, and ecology” to other Amazona species—establishing why the conservation approach has potential across the genus."}, {"title": "Match to applicability", "content": "Replicable means the approach can be reproduced or repeated, capturing the passage's implication that a successful method, given species similarities, applies elsewhere.<br/><br/>The other three address understanding, observation, or restoration rather than method transfer.<br/><br/>That matches choice A—<strong>A</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The blank describes how López-Flores's conservation approach can be used with other Amazona species. The reason given is that A. vittata \"corresponds in physiology, behavior, and ecology\" to those species — what worked for one similar species should work for others."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. replicable</strong> — replicable means capable of being reproduced or repeated elsewhere. Plug in: \"the conservation approach may be replicable across the genus\" — because the species are physiologically similar, the same method can be applied again to other species. Correct.<br/><br/><strong>B. comprehensible</strong> — comprehensible means easy to understand. Plug in: \"the approach may be comprehensible across the genus\" — the passage is about whether the method can be applied elsewhere, not whether it is easy to understand. Eliminated.<br/><br/><strong>C. observable</strong> — observable means able to be seen or noticed. Plug in: \"the approach may be observable across the genus\" — observing an approach is not the same as being able to use it on other species. Eliminated.<br/><br/><strong>D. redeemable</strong> — redeemable means capable of being saved or compensated for. Plug in: \"the approach may be redeemable across the genus\" — this implies the approach is flawed and needs rescuing, which contradicts the passage's positive framing. Eliminated."
+    }
+  ]
+}

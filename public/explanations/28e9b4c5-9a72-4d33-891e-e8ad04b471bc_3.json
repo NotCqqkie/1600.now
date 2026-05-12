@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key detail", "content": "The passage explicitly states: Miyazaki presents fantasy with “little backstory or explanation.” This reveals what he does NOT do with these elements."}, {"title": "Match the answer to the evidence", "content": "Withhold captures this constraint—he withholds (refuses to provide) the details and exposition.<br/><br/>The other three choices all suggest providing, celebrating, combining, or inventing details, contradicting “little backstory or explanation” explicitly shown next.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The second sentence defines exactly what Miyazaki does: he presents fantasy elements <em>\"with little backstory or explanation.\"</em> The blank must mean he refuses to provide those details."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. Celebrate</strong> means to honor or praise enthusiastically. If Miyazaki celebrated details and exposition, he would highlight them prominently — the opposite of giving little backstory. Eliminated.<br/><br/><strong>B. Combine</strong> means to merge or join together. This would mean he merges details and exposition with his fantasy, not that he leaves them out. Eliminated.<br/><br/><strong>C. Invent</strong> means to create something new. If he invented details and exposition, he would be adding them, not withholding them. Eliminated.<br/><br/><strong>D. Withhold</strong> means to refuse to give or provide. Substituting: <em>\"he tends to withhold details and exposition about those elements\"</em> — confirmed by the next sentence: he gives <em>\"little backstory or explanation.\"</em> <strong>D is correct.</strong>"
+    }
+  ]
+}

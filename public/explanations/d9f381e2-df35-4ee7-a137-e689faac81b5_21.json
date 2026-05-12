@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the time frame established in the first sentence",
-      "content": "\u201dIn this chapter, we will focus on\u2026\u201d uses future tense, establishing what the chapter will accomplish."
+      "title": "Identify the tense established in the passage",
+      "content": "\"In this chapter, we will focus on...\" uses simple future tense. The next sentence describes a related action that will happen within the same chapter, so it must stay in the future tense for consistency."
     },
     {
-      "title": "Apply the rule of verb tense consistency",
-      "content": "The rule is <strong>verb tense consistency</strong>: related actions in the same narrative must use the same tense, so \u201cwill turn\u201d matches \u201cwill focus.\u201d The others violate this by using past tense (B, C) or future perfect (A). That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Apply verb tense consistency — per-choice diagnosis",
+      "content": "Both actions belong to the same planned, future activity, so the verb in the blank must be future tense.<ul><li><strong>Choice A — \"will have turned\":</strong> future perfect. Implies the turning will be fully completed before some other future point — an unwarranted distinction not signaled in the passage. Eliminated.</li><li><strong>Choice B — \"turned\":</strong> simple past. Contradicts the future context set by \"we will focus.\" Eliminated.</li><li><strong>Choice C — \"had turned\":</strong> past perfect. Describes a past action completed before another past event — completely at odds with the future framing. Eliminated.</li><li><strong>Choice D — \"will turn\":</strong> simple future. Matches \"will focus\" and correctly places both actions in the same future sequence. Correct.</li></ul>"
     }
   ]
 }

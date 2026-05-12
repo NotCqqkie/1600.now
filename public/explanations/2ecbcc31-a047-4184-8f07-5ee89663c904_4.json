@@ -1,1 +1,15 @@
-{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "<strong>Despite the damage ______ Soviet censors</strong> shows that the censors caused the damage."}, {"title": "Match the meaning to the choices", "content": "<em>Wrought by</em> means “caused by”, so the phrase reads “damage wrought by Soviet censors” – damage caused by the censors.<br/><br/>The other three either suggest damage given to censors, assigned to them, or hidden from them, which reverses the relationship.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage says critics compliment the novel <em>\"despite the damage ______ Soviet censors.\"</em> Soviet censors damaged the novel — the blank must express that the damage was caused by, or originated from, the censors."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. Bestowed on</strong> means given as a gift or honor to someone. This would mean damage was given as a gift to the censors — that's backwards and nonsensical. Eliminated.<br/><br/><strong>B. Wrought by</strong> means caused or produced by. Substituting: <em>\"the damage wrought by Soviet censors\"</em> — the censors caused the damage to the novel. This fits the meaning exactly. <strong>B is correct.</strong><br/><br/><strong>C. Allocated to</strong> means officially assigned or distributed to. This would mean damage was assigned to censors, not that censors caused it. Eliminated.<br/><br/><strong>D. Concealed from</strong> means hidden away from someone. This would mean damage was hidden from the censors, reversing the relationship entirely. Eliminated."
+    }
+  ]
+}

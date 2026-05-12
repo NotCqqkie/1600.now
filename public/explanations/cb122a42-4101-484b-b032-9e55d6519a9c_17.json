@@ -1,1 +1,15 @@
-{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the series structure", "content": "The passage lists three films—one for each filmmaker—signaled by “respectively.” They form a coordinate series."}, {"title": "Apply comma separation rule", "content": "Commas must separate items in a series of three. Choice D (1981), <em>El Norte</em> (1983), creates the proper structure: <em>Zoot Suit</em> (1981), <em>El Norte</em> (1983), and <em>Stand and Deliver</em> (1988).<br/><br/>The other choices either omit the comma after (1981) or use dashes instead.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure",
+      "content": "The sentence lists three films in a series: Zoot Suit (1981), El Norte (1983), and Stand and Deliver (1988), attributed to three filmmakers respectively. Rule: items in a series of three must be separated by commas: item 1, item 2, and item 3. The blank must close Zoot Suit's year and open El Norte with a comma between them."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. (1981) *El Norte* (1983),</strong> — no comma after (1981), so Zoot Suit and El Norte run together without separation. Reconstruct: \"*Zoot Suit* (1981) *El Norte* (1983), and *Stand and Deliver*\" — the first two series items are not separated. Eliminated.<br/><br/><strong>B. (1981) *El Norte* (1983)</strong> — no comma after (1981) and no comma after (1983), collapsing all three items together with no separation at all. Eliminated.<br/><br/><strong>C. (1981)---*El Norte* (1983)---</strong> — dashes set off El Norte as a parenthetical aside rather than a series item. Reconstruct: \"*Zoot Suit* (1981)---*El Norte* (1983)---and *Stand and Deliver*\" — the dash structure breaks the parallel series. Eliminated.<br/><br/><strong>D. (1981), *El Norte* (1983),</strong> — comma after (1981) separates item 1 from item 2; comma after (1983) separates item 2 from item 3. Reconstruct: \"*Zoot Suit* (1981), *El Norte* (1983), and *Stand and Deliver* (1988)\" — correct series punctuation. Correct."
+    }
+  ]
+}

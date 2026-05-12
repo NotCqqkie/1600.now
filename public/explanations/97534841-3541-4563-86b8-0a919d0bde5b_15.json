@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sentence type",
-      "content": "The sentence describes a historical fact about when a time period came to be known as the Reconstruction era\u2014it's a statement, not a question."
+      "content": "The sentence describes a historical fact about when a time period came to be known as the Reconstruction era—it's a statement, not a question."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "A and C end with question marks, which are inappropriate for a statement. Between B and D, choice B is correct because the relative pronoun \u201cwhich\u201d already provides the subject, so adding \u201cit\u201d (in D) violates standard grammar. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The sentence is a factual statement about history, not a question. Also, \"which\" already serves as the subject of the relative clause — adding \"it\" creates a double subject.\n<ul>\n<li><strong>Choice A — \"come to be known as the Reconstruction era?\"</strong>: \"...1865 and 1877, which would come to be known as the Reconstruction era?\" — question mark is wrong for a declarative statement. ✗</li>\n<li><strong>Choice B — \"come to be known as the Reconstruction era.\"</strong>: \"...1865 and 1877, which would come to be known as the Reconstruction era.\" — \"which\" is the subject, period closes the statement correctly. ✓</li>\n<li><strong>Choice C — \"it come to be known as the Reconstruction era.\"</strong>: \"...1865 and 1877, which would it come to be known as the Reconstruction era.\" — \"which\" and \"it\" are both subjects for the same clause; double subject error. ✗</li>\n<li><strong>Choice D — \"it come to be known as the Reconstruction era?\"</strong>: Same double subject as C, plus wrong question mark. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

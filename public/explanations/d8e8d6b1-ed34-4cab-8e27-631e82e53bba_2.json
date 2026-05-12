@@ -1,1 +1,15 @@
-{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining phrase", "content": "The phrase “straddle the line between prose and poetry” signals that these forms resist clear categorization."}, {"title": "Match the meaning", "content": "Amorphous means lacking a clear, defined shape—fitting for forms that don't belong to one singular genre.<br/><br/>The other choices either denote something recognizable (customary), suggest indifference (neutral), or reference scattered distribution (dispersed).<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining phrase",
+      "content": "The passage contrasts traditional forms (\"recognizable as such even as they evolve\") with ______ forms that \"borrow elements from both fiction and essays\" and make \"something unconventional.\" The blank describes forms that resist clear categorization — they lack a fixed, definable shape."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "The word needs to mean lacking clear, defined shape or category. Substitute each choice: <ul><li><strong>Choice A — amorphous</strong>: means without a fixed form or clear structure — perfectly describes forms that blend genres and resist categorization. ✓</li><li><strong>Choice B — neutral</strong>: means impartial or taking no side — genre-blending forms are not described as neutral or uncommitted; the word doesn’t capture their unconventional nature. ✗</li><li><strong>Choice C — customary</strong>: means usual or traditional — the opposite of what the passage describes; these forms are unconventional by definition. ✗</li><li><strong>Choice D — dispersed</strong>: means scattered or spread out — refers to physical distribution, not to a form’s defining characteristics. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

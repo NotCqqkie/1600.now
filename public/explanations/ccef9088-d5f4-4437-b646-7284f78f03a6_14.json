@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the temporal marker",
-      "content": "The key clue is <strong>in 1979</strong>\u2014a specific year in the past. This temporal marker signals which tense is needed."
+      "title": "Identify the time signal",
+      "content": "\"Born in 1979\" — a specific year in the past. This points to a single completed event at a definite past moment."
     },
     {
-      "title": "Choose the tense that matches the time",
-      "content": "Simple past tense <strong>was born</strong> correctly marks a completed action at a specific past moment. The other forms\u2014present (is/is being) and present perfect (has been)\u2014don't align with a specific past date. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Choose the verb tense",
+      "content": "Rule: simple past tense marks a completed action at a specific past time. \"In 1979\" requires simple past. <ul><li><strong>Choice A — \"was\"</strong>: simple past of \"be\" — correctly marks a completed event at a specific past date. ✓</li><li><strong>Choice B — \"has been\"</strong>: present perfect — implies a connection to the present, but birth is a single completed past event with no ongoing relevance to \"being born\". ✗</li><li><strong>Choice C — \"is\"</strong>: simple present — contradicts \"in 1979\", a past time marker. ✗</li><li><strong>Choice D — \"is being\"</strong>: present progressive — describes an ongoing action happening now; birth is an instantaneous past event. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

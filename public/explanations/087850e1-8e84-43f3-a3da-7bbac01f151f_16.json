@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structures",
-      "content": "Two independent clauses are connected by the transitional phrase \u201con the contrary.\u201d"
+      "title": "Identify the structure",
+      "content": "Two independent clauses are connected by the conjunctive adverb \"on the contrary.\" Left side: \"One might assume cases like this...to be [rare]\" — a complete sentence. Right side: \"they are counted among a litany of examples of Stigler's law\" — a complete sentence. Rule: conjunctive adverbs require a semicolon before them and a comma after them: [IC]; on the contrary, [IC]."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "Use a semicolon before a conjunctive adverb (like \u201con the contrary\u201d) and a comma after it. Choice D follows this rule exactly. Choices A and C lack the semicolon, while B misplaces it after \u201con the contrary\u201d instead of before it. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A. rare on the contrary,</strong> — no punctuation before \"on the contrary\" and no semicolon separating the two independent clauses. Creates a run-on. Reconstruct: \"...to be rare on the contrary, they are counted...\" — the two sentences blur together. Eliminated.<br/><br/><strong>B. rare, on the contrary;</strong> — the semicolon is placed after \"on the contrary\" rather than before it. The semicolon must come before the conjunctive adverb, not after. Reconstruct: \"...to be rare, on the contrary; they are counted...\" — misplaced. Eliminated.<br/><br/><strong>C. rare, on the contrary,</strong> — a comma before \"on the contrary\" is a comma splice; it cannot join two independent clauses. Reconstruct: \"...to be rare, on the contrary, they are counted...\" — two full sentences joined by a comma. Eliminated.<br/><br/><strong>D. rare; on the contrary,</strong> — semicolon before the conjunctive adverb, comma after. Reconstruct: \"...to be rare; on the contrary, they are counted among...\" — follows the rule exactly. Correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the Relationship Between Description and Name", "content": "The sentence introduces a person by pairing a general description (“Nigerian expressionist painter”) with a specific name (“Gani Odutokun”)."}, {"title": "Apply the Rule for Punctuation", "content": "When the description applies to multiple people, the specific name must remain attached to the description to identify which person is meant.<br/><br/>No commas should separate them. The other choices either fragment the sentence with a period (B) or add unnecessary commas (A and D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence structure",
+      "content": "The sentence uses an appositive: a noun phrase that renames the subject. Here \"Nigerian expressionist [blank] was known for...\" — the blank must supply a name that is part of the subject noun phrase, not set off by commas."
+    },
+    {
+      "title": "Apply the boundary rule for restrictive appositives",
+      "content": "Rule: a restrictive appositive (one that identifies which person is meant) takes NO surrounding commas. The name \"Gani Odutokun\" is essential — without it we don't know which Nigerian expressionist painter. No commas, no period mid-sentence. <ul><li><strong>Choice A — \"painter, Gani Odutokun,\"</strong>: two commas make the name non-restrictive, implying only one such painter exists. Incorrect punctuation here. ✗</li><li><strong>Choice B — \"painter Gani Odutokun.\"</strong>: a period creates a sentence fragment — what follows the period has no independent subject. ✗</li><li><strong>Choice C — \"painter Gani Odutokun\"</strong>: no commas, no period — the name sits directly with the noun phrase and the sentence continues correctly. ✓</li><li><strong>Choice D — \"painter, Gani Odutokun\"</strong>: one comma after \"painter\" disrupts the noun phrase without closing, creating an asymmetric break. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

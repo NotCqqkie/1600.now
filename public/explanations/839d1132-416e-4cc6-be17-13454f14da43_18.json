@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "Both signals that two items are being discussed, so we need a plural word to refer to them."
+      "title": "Find the antecedent",
+      "content": "The blank precedes \"cities\" — a plural noun. The previous sentence mentions \"Both Nakuru, Kenya, and Ibarra, Ecuador\" — two cities. The demonstrative must be plural and match \"cities\"."
     },
     {
-      "content": "These is a plural demonstrative pronoun that correctly refers back to the two cities mentioned, matching the sense of both.<br/>That, this, and each are singular or incorrectly paired with the plural noun cities.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
-      "title": "Match the meaning to the choices"
+      "title": "Apply demonstrative agreement",
+      "content": "Rule: demonstrative adjectives agree in number with the noun they modify. \"Cities\" is plural. \"Both\" in the prior sentence signals two referents. <ul><li><strong>Choice A — \"these\"</strong>: plural demonstrative — agrees with plural \"cities\" and correctly points back to the two cities just named. ✓</li><li><strong>Choice B — \"that\"</strong>: singular demonstrative — does not agree with plural \"cities\". ✗</li><li><strong>Choice C — \"this\"</strong>: singular demonstrative — does not agree with plural \"cities\". ✗</li><li><strong>Choice D — \"each\"</strong>: distributive adjective meaning \"one at a time\" — implies separation rather than a shared quality, and doesn't work naturally with \"cities basically sit right on the equator\". ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

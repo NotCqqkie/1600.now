@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and verb need",
-      "content": "The subject is 'The word robot', which is singular.<br/>The blank needs a verb to complete the sentence."
+      "title": "Identify the subject and its number",
+      "content": "\"The word 'robot'\" is the subject — singular. The sentence describes a historical event (the word's first use in the 1920s), so the verb must be past tense."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Choice C uses 'was', the singular past tense of 'be', matching the singular subject.<br/>Choices A, B, and D use plural or progressive forms that do not agree with the singular subject.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Apply subject-verb agreement with tense",
+      "content": "Rule: singular subject takes a singular verb. Past tense of \"be\" for singular is \"was\". <ul><li><strong>Choice A — \"were\"</strong>: plural past tense — does not agree with the singular subject \"The word 'robot'\". ✗</li><li><strong>Choice B — \"were being\"</strong>: plural past progressive — still plural, still wrong. ✗</li><li><strong>Choice C — \"was\"</strong>: singular past tense of \"be\" — agrees with the singular subject and matches the historical event. ✓</li><li><strong>Choice D — \"have been\"</strong>: plural present perfect — plural \"have\" violates agreement, and present perfect doesn't fit a completed historical introduction. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

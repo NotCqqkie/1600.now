@@ -1,1 +1,15 @@
-{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the causal signal", "content": "The plant absorbs and stores manganese; [blank] soil concentrations decrease. The blank needs a word showing consequence or result."}, {"title": "Apply the causal signal to the choices", "content": "”In turn” expresses consequence—the plant's absorption directly yields the decrease in soil concentrations. “Nevertheless” signals contrast, “in addition” signals accumulation, and “specifically” signals narrowing or specification, none of which show cause-and-effect.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal signal",
+      "content": "The plant absorbs and stores manganese; as a result, soil concentrations decrease. The blank needs a word showing that the second event follows from the first."
+    },
+    {
+      "title": "Apply the causal signal to the choices",
+      "content": "The logical relationship is cause-effect. The blank needs a transition signaling that the soil decrease is a direct result of the plant's absorption.\n<ul>\n<li><strong>Choice A — \"nevertheless,\"</strong>: signals contrast or unexpected outcome despite something, so fails. ✗</li>\n<li><strong>Choice B — \"in addition,\"</strong>: signals a separate added point, but the soil decrease isn't a new separate fact—it's the outcome of absorption, so fails. ✗</li>\n<li><strong>Choice C — \"in turn,\"</strong>: signals that one event directly produces the next, capturing the causal chain, so fits. ✓</li>\n<li><strong>Choice D — \"specifically,\"</strong>: signals narrowing to a particular instance of a general claim, not a causal result, so fails. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

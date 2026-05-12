@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify how the methods relate",
-      "content": "Seismic monitoring detects the rough location; orbital imaging then uses that to find the precise location. They work together, each enabling what the other does."
+      "title": "Find the key signal",
+      "content": "The blank describes the relationship between seismic monitoring and orbital imaging. The colon introduces an explanation: seismic monitoring narrows the search area; orbital imaging then pinpoints the exact crater within that area. Each method does what the other cannot."
     },
     {
-      "title": "Match the meaning to the word",
-      "content": "We need a word for a relationship where two things work together, each providing what the other cannot. Complementary directly expresses this meaning. Exhaustive, redundant, and interchangeable describe unrelated relationships. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A. exhaustive</strong> — exhaustive means covering every possibility completely. Plug in: \"their roles are exhaustive\" — this would mean together they cover everything with no gaps, but the passage is about how they work together sequentially, not about completeness. Eliminated.<br/><br/><strong>B. redundant</strong> — redundant means unnecessarily repetitive, doing the same job twice. Plug in: \"their roles are redundant\" — but they do different things (seismic locates roughly; orbital locates precisely). They are not doing the same job. Eliminated.<br/><br/><strong>C. interchangeable</strong> — interchangeable means either one could substitute for the other. Plug in: \"their roles are interchangeable\" — but you can't use seismic monitoring to pinpoint a crater precisely, nor orbital imaging to detect vibrations. They cannot swap roles. Eliminated.<br/><br/><strong>D. complementary</strong> — complementary means each supplies what the other lacks, together forming a complete whole. Plug in: \"their roles are complementary\" — seismic gives rough location, orbital gives precision; neither works alone. Correct."
     }
   ]
 }

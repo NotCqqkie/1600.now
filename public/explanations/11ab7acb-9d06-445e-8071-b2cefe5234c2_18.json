@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the antecedent and required form",
-      "content": "The blank needs a possessive pronoun to modify \u201cmethodology\u201d. The antecedent \u201cthe technique\u201d is singular."
+      "content": "The blank precedes \"methodology\" and must be a possessive. The antecedent is \"the technique\" (the Meisner technique) — singular and referring to a thing, not a person."
     },
     {
-      "title": "Apply the agreement rule",
-      "content": "\u201dits\u201d is the singular possessive form that agrees with \u201cthe technique\u201d. The other choices fail because they're contractions (they're = they are; it's = it is) or don't match the singular antecedent (their is plural). That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Apply possessive pronoun agreement",
+      "content": "Rule: use the possessive pronoun \"its\" for singular non-person antecedents; never use contractions in place of possessives. <ul><li><strong>Choice A — \"they're\"</strong>: contraction of \"they are\" — cannot function as a possessive, and plural \"they\" doesn't match singular \"the technique\". ✗</li><li><strong>Choice B — \"its\"</strong>: singular possessive pronoun — correctly modifies \"methodology\" and agrees with singular \"the technique\". ✓</li><li><strong>Choice C — \"it's\"</strong>: contraction of \"it is\" — reads as \"it is methodology\", which is grammatically wrong. ✗</li><li><strong>Choice D — \"their\"</strong>: plural possessive — does not agree with singular \"the technique\". ✗</li></ul> That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

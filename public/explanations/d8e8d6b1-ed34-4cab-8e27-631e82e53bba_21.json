@@ -1,1 +1,15 @@
-{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_21", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The phrase “did just that” is crucial. It means the fountain actually achieved Duchamp's intention to challenge prevailing conceptions about art."}, {"title": "Match the confirmation logic", "content": "”Indeed” directly affirms that the sculpture fulfilled what was intended.<br/><br/>The other three fail because they either introduce new information, suggest a parallel, or signal contrast—none confirm the relationship between intention and actual outcome.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_21",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The phrase \"did just that\" is crucial. It means the fountain actually achieved Duchamp's intention to challenge prevailing conceptions about art."
+    },
+    {
+      "title": "Match the confirmation logic",
+      "content": "The logical relationship is confirmation: Duchamp intended Fountain to challenge art conventions, and the second sentence confirms it actually did so. The blank needs a transition signaling that the following sentence affirms what was just stated.\n<ul>\n<li><strong>Choice A — \"In addition,\"</strong>: signals additive information (a new, separate point), so fails — confirmation is not addition. ✗</li>\n<li><strong>Choice B — \"Similarly,\"</strong>: signals parallel comparison between two things, so fails — there is nothing being compared here. ✗</li>\n<li><strong>Choice C — \"Instead,\"</strong>: signals contrast or replacement, so fails — the second sentence does not contradict the first. ✗</li>\n<li><strong>Choice D — \"Indeed,\"</strong>: signals emphatic confirmation, fitting perfectly — it affirms that Duchamp's intention was realized. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

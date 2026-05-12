@@ -1,1 +1,15 @@
-{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the subject requiring a main verb", "content": "”Puerto Rico's museums” is a plural subject that needs a main verb to complete the independent clause."}, {"title": "Apply subject-verb agreement", "content": "The base form <em>inform</em> is the correct present-tense verb form for this plural subject.<br/><br/>The other three choices—the infinitive <em>to inform</em> and the participles <em>having informed</em> and <em>informing</em>—are non-finite forms that cannot function as main verbs.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and what it needs",
+      "content": "\"Puerto Rico's museums\" is a plural noun phrase that is the grammatical subject of the blank. It needs a finite main verb to form a complete independent clause. Without a main verb, the sentence is a fragment."
+    },
+    {
+      "title": "Apply the finite verb rule — per-choice diagnosis",
+      "content": "Only a finite verb (one that shows tense and can stand alone as a predicate) can complete the clause. Non-finite forms cannot serve as main verbs on their own.<ul><li><strong>Choice A — \"to inform\":</strong> an infinitive. Infinitives are non-finite and cannot be the main verb of a clause. Eliminated.</li><li><strong>Choice B — \"having informed\":</strong> a perfect participle. Participles are non-finite; they function as modifiers, not predicates. Eliminated.</li><li><strong>Choice C — \"inform\":</strong> the base form used as a present-tense plural verb. It is finite, agrees with the plural subject \"museums,\" and completes the sentence. Correct.</li><li><strong>Choice D — \"informing\":</strong> a present participle. Like all participles, it is non-finite without a helping verb and cannot anchor the main clause. Eliminated.</li></ul>"
+    }
+  ]
+}

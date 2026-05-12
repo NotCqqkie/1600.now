@@ -1,1 +1,15 @@
-{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the key signal", "content": "The phrase “he wondered if it was real” reveals that “considered” must mean something involving doubt or reflection about his power."}, {"title": "Match the meaning", "content": "<strong>“Pondered”</strong> captures the act of thinking deeply and reflecting about something, matching Ezeulu's act of doubting whether his power is truly real.<br/><br/>The other three choices describe unrelated actions that don't fit this reflective context.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage says Ezeulu <em>\"considered the immensity of his power\"</em> and then <em>\"wondered if it was real.\"</em> The considering leads directly to deep reflection and doubt — the word must mean to think deeply or reflect on something."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. Pondered</strong> means thought about something carefully and at length. Substituting: <em>\"whenever Ezeulu pondered the immensity of his power...he wondered if it was real\"</em> — deep reflection leading to doubt fits exactly. <strong>A is correct.</strong><br/><br/><strong>B. Anticipated</strong> means looked forward to or expected something in the future. Ezeulu is not expecting his power — he is reflecting on power he already holds and doubting it. Eliminated.<br/><br/><strong>C. Allowed</strong> means permitted or gave permission for something. Ezeulu does not allow his power to exist — he reflects on it. Eliminated.<br/><br/><strong>D. Respected</strong> means held in high regard or admired. If Ezeulu respected his power, he would not question whether it was real. The text shows doubt, not admiration. Eliminated."
+    }
+  ]
+}

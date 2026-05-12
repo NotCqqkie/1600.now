@@ -1,1 +1,15 @@
-{"questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive type", "content": "”Drummer” and “Dennis Chambers” form an appositive pair. Since “Dennis Chambers” is essential for identifying the drummer, it's a restrictive appositive."}, {"title": "Apply the punctuation rule", "content": "Restrictive appositives use no commas. “American drummer Dennis Chambers” correctly keeps both elements together without punctuation.<br/><br/>Choice C uses non-restrictive punctuation (commas on both sides); choices A and D have comma placement errors that violate standard conventions.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive type",
+      "content": "\"Drummer\" and \"Dennis Chambers\" form an appositive pair. Since \"Dennis Chambers\" is essential for identifying the drummer, it's a restrictive appositive."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "\"Drummer\" is the noun; \"Dennis Chambers\" names which drummer — a restrictive appositive. Restrictive appositives take no commas.\n<ul>\n<li><strong>Choice A — trailing comma</strong>: \"American drummer Dennis Chambers, may be best known...\" — a lone trailing comma splits the subject from its verb. ✗</li>\n<li><strong>Choice B — no punctuation</strong>: \"American drummer Dennis Chambers may be best known...\" — subject flows directly into verb. ✓</li>\n<li><strong>Choice C — commas both sides</strong>: \"American drummer, Dennis Chambers, may be best known...\" — non-restrictive treatment implies other drummers exist by context; also structurally wrong here. ✗</li>\n<li><strong>Choice D — comma before</strong>: \"American drummer, Dennis Chambers may be best known...\" — comma after \"drummer\" severs the appositive from its noun. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The passage states that guard cells regulate carbon dioxide intake, then notes they also regulate water loss, showing an added function."
+      "content": "The passage states that guard cells regulate carbon dioxide intake, then notes they also regulate water loss. This is a second, additional function of the same cells."
     },
     {
       "title": "Match the meaning",
-      "content": "Additionally signals that the second clause adds another idea, matching the second function of guard cells.<br/>The other three either show contrast, sequence, or conclusion, which do not fit the additive relationship.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The logical relationship is addition. The blank needs a transition signaling that regulating water loss is another function alongside regulating CO₂.\n<ul>\n<li><strong>Choice A — \"Previously,\"</strong>: signals something happened earlier in time, but no time sequence is being described here, so fails. ✗</li>\n<li><strong>Choice B — \"Additionally,\"</strong>: signals a second related point, fitting the second function of guard cells, so fits. ✓</li>\n<li><strong>Choice C — \"In conclusion,\"</strong>: signals a final summary of an argument, but the passage isn't wrapping up an argument, so fails. ✗</li>\n<li><strong>Choice D — \"Instead,\"</strong>: signals substitution or contrast—implying the second function replaces the first—but both functions coexist, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

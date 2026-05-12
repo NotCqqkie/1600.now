@@ -1,1 +1,15 @@
-{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal structure", "content": "”When we arrived” is a past-tense dependent clause introducing the main clause beginning with “we.”"}, {"title": "Apply verb tense consistency", "content": "Verbs in dependent and main clauses must match in tense. “Noticed” (past, choice D) aligns with “arrived” to show both actions occurred simultaneously.<br/><br/>Choices A, B, and C shift to present, present continuous, or future tense, breaking the required consistency.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tense of the dependent clause",
+      "content": "\"When we arrived in Venice, Utah\" is a simple past dependent clause. The main clause verb must match this tense — both actions (arriving and noticing the glyph) happened at the same completed moment in the past."
+    },
+    {
+      "title": "Apply verb tense consistency — per-choice diagnosis",
+      "content": "All verbs in the same narrative sequence must share the same tense unless there is a specific reason to shift.<ul><li><strong>Choice A — \"notice\":</strong> simple present. Breaks tense consistency with the past-tense dependent clause. Eliminated.</li><li><strong>Choice B — \"are noticing\":</strong> present progressive. Also present tense; conflicts with the past setting established by \"arrived.\" Eliminated.</li><li><strong>Choice C — \"will notice\":</strong> simple future. Cannot describe something that happened simultaneously with a past event. Eliminated.</li><li><strong>Choice D — \"noticed\":</strong> simple past. Matches \"arrived\" in tense, correctly showing both actions occurred together in the past. Correct.</li></ul>"
+    }
+  ]
+}

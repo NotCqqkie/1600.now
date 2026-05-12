@@ -1,1 +1,15 @@
-{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the context for punctuation", "content": "The phrase “find the answer” signals that a question was posed. The blank must contain a question."}, {"title": "Apply question punctuation", "content": "A question requires both inverted word order (verb before subject: “could these...”) and a question mark.<br/><br/>Choice D uses both. The others fail: A and B use declarative order (“these penguins could”), while C uses interrogative order but closes with a period instead of a question mark.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the context for punctuation",
+      "content": "The phrase \"find the answer\" signals that a question was posed. The blank must contain a question."
+    },
+    {
+      "title": "Apply question punctuation",
+      "content": "\"Find the answer\" signals a question was posed. A direct question needs inverted word order (auxiliary before subject) AND a question mark.\n<ul>\n<li><strong>Choice A — declarative + period</strong>: \"If elevated temperatures continue, these penguins could become extinct.\" — statement word order, period; not a question at all. ✗</li>\n<li><strong>Choice B — declarative + question mark</strong>: \"If elevated temperatures continue, these penguins could become extinct?\" — question mark is present but \"these penguins could\" keeps the subject before the auxiliary; still sounds declarative. ✗</li>\n<li><strong>Choice C — inverted + period</strong>: \"If elevated temperatures continue, could these penguins become extinct.\" — inverted order is correct, but the period fails to mark it as a question. ✗</li>\n<li><strong>Choice D — inverted + question mark</strong>: \"If elevated temperatures continue, could these penguins become extinct?\" — auxiliary \"could\" comes before subject \"these penguins\"; question mark closes correctly. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

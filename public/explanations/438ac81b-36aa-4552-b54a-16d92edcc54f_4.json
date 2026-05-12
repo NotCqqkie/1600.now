@@ -1,1 +1,15 @@
-{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_4", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the entries are", "content": "The passage explicitly labels these Wikipedia entries as “fictitious.” The blank asks what they were “finally recognized as.”"}, {"title": "Match the meaning to the context", "content": "<strong>Fabrications</strong> directly means false inventions or made-up things—the perfect match for how fictitious entries would be recognized.<br/><br/>The other three mean improvements, examination, or disclosed truths, all incompatible with their false nature.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the defining phrase",
+      "content": "The passage calls these Wikipedia entries \"fictitious\" — made-up entries for nonexistent people like The Deadweights and Théophile Figeys. They persisted \"before they were finally recognized as ___ and deleted.\" The blank names what the fictitious entries were recognized as. It must mean invented falsehoods."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "The word needs to mean invented or made-up things. Substitute each choice: <ul><li><strong>Choice A — enhancements</strong>: means improvements — recognizing fake entries as \"improvements\" makes no sense; they were harmful hoaxes, not improvements to Wikipedia. ✗</li><li><strong>Choice B — analyses</strong>: means examinations or evaluations — a fictitious entry for a fake band is not an analysis of anything. ✗</li><li><strong>Choice C — fabrications</strong>: means invented falsehoods — exactly what fictitious entries are: completely made-up facts presented as real. ✓</li><li><strong>Choice D — revelations</strong>: means disclosed truths or surprising discoveries — the opposite of a fabrication; revelations expose truth, whereas these entries hid falsehoods. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

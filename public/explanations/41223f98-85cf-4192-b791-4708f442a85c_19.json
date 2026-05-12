@@ -1,1 +1,15 @@
-{"questionId": "41223f98-85cf-4192-b791-4708f442a85c_19", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the identifying name", "content": "The proper name <em>Doleschallia bisaltide</em> directly follows the noun “species” to identify which species is meant."}, {"title": "Apply the punctuation rule", "content": "When a noun is followed directly by an identifying name, no punctuation separates them—just as with “the city Paris” or “the scientist Newton.” Options B (semicolon), C (colon), and D (comma) all incorrectly insert punctuation between the noun and its identifying name.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the identifying name",
+      "content": "The proper name <em>Doleschallia bisaltide</em> directly follows the noun \"species\" to identify which species is meant."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "\"Species\" is the noun; the italic name that follows identifies which species — a restrictive appositive. No punctuation separates a noun from its restrictive identifier.\n<ul>\n<li><strong>Choice A — no punctuation</strong>: \"one specimen of the species <em>Doleschallia bisaltide</em>\" — the name directly identifies the noun. ✓</li>\n<li><strong>Choice B — semicolon</strong>: \"one specimen of the species; <em>Doleschallia bisaltide</em>\" — a semicolon joins two independent clauses, but \"<em>Doleschallia bisaltide</em>\" is not a clause. ✗</li>\n<li><strong>Choice C — colon</strong>: \"one specimen of the species: <em>Doleschallia bisaltide</em>\" — a colon here implies a formal list or explanation, which is unnecessary and non-standard for a simple appositive. ✗</li>\n<li><strong>Choice D — comma</strong>: \"one specimen of the species, <em>Doleschallia bisaltide</em>\" — a comma treats the name as non-restrictive extra info, but it is the identifying element. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "<em>Less obvious cue: rearranging a store’s layout</em>"}, {"title": "Match the meaning", "content": "The correct answer should illustrate how shoppers moved through more of the store unexpectedly due to changed layouts.<br/><br/>Choice A explains precisely this phenomenon, noting the shopper encountered an additional purchase opportunity through exploration.<br/><br/>The other options either describe planned shopping lists not being fulfilled or external offers guiding purchases.<br/><br/>This matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what needs to be supported",
+      "content": "The researchers' explanation has two parts: (1) rearranging a store's layout causes shoppers to move through more of the store while searching for relocated items, and (2) this extra movement exposes them to more products and leads to unplanned purchases. The supporting survey response must show both — a shopper searching for a relocated item and then buying something unplanned."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A.</strong> \"I needed cleaning supplies, but they weren't in their regular place. While I was looking for them, I saw an interesting notebook and decided to buy it, too.\" — The shopper searched for a relocated item (cleaning supplies moved), wandered the store, and made an unplanned purchase (the notebook). This directly demonstrates both parts of the researchers' explanation. Correct.<br/><br/><strong>B.</strong> \"I couldn't find a couple of the items in the store, even though I looked all over.\" — The shopper searched but did not find the items and made no unplanned purchase. This shows the layout causing confusion but no extra buying — the key outcome (unplanned purchase) is absent. Eliminated.<br/><br/><strong>C.</strong> \"The store sent me a coupon for a new brand of soup, so I came here...\" — The shopper was driven by an external marketing cue (a coupon), not by searching for relocated items. This describes the \"obvious cue\" type of spontaneous purchase the study explicitly contrasts with layout rearrangement. Eliminated.<br/><br/><strong>D.</strong> \"This store is larger than one closer to where I live, and it carries more products.\" — The shopper came intentionally to a bigger store with more selection. There is no layout rearrangement, no searching for a relocated item, and no unplanned purchase described. Eliminated."
+    }
+  ]
+}

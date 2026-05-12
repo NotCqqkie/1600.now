@@ -1,1 +1,15 @@
-{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify two findings with opposite patterns", "content": "The passage reports two findings from the researchers' analysis: negative adjectives evolve most rapidly while negative nouns evolve most slowly—opposite extremes from the same study."}, {"title": "Select the transition connecting disparate findings", "content": "”Meanwhile” introduces this second finding as a concurrent discovery without suggesting similarity or causation. “Similarly” wrongly implies parallel patterns when the rates are opposite; “hence” incorrectly suggests consequence; “subsequently” marks only temporal order.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify two findings with opposite patterns",
+      "content": "The passage reports two findings from the researchers' analysis: negative adjectives evolve most rapidly while negative nouns evolve most slowly—opposite extremes from the same study."
+    },
+    {
+      "title": "Select the transition connecting disparate findings",
+      "content": "The logical relationship is simultaneous contrast: from the same analysis, negative adjectives evolve most rapidly while negative nouns evolve most slowly — opposite extremes discovered at the same time. The blank needs a transition signaling a concurrent but distinct finding.\n<ul>\n<li><strong>Choice A — \"meanwhile,\"</strong>: signals a concurrent but separate or contrasting fact, fitting perfectly — both findings come from the same analysis, but they go in opposite directions. ✓</li>\n<li><strong>Choice B — \"similarly,\"</strong>: signals that the second finding parallels the first, so fails — nouns evolving most slowly is the opposite pattern from adjectives evolving most rapidly. ✗</li>\n<li><strong>Choice C — \"hence,\"</strong>: signals a logical consequence, so fails — the noun finding is not caused by the adjective finding; they are independent results. ✗</li>\n<li><strong>Choice D — \"subsequently,\"</strong>: signals a later time, so fails — both findings come from the same 2022 analysis, not from different points in time. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

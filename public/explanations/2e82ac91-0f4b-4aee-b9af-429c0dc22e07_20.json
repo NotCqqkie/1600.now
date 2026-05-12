@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the relative clause type",
-      "content": "\u201dOne European city\u201d calls for a restrictive clause that identifies which city \u2014 the one many travelers recommend."
+      "content": "\"One European city\" calls for a restrictive clause that identifies which city — the one many travelers recommend."
     },
     {
       "title": "Apply the restrictive clause rule",
-      "content": "Restrictive clauses use \u201cthat\u201d with no comma: \u201ccity that many travelers recommend.\u201d Option A adds an incorrect comma before \u201cthat\u201d; option B uses \u201cwhich\u201d with comma (non-restrictive), treating the info as extra rather than identifying; option C uses \u201cin which,\u201d which doesn't work with \u201crecommend.\u201d<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "\"One European city\" needs a restrictive clause to identify which city — the one many travelers recommend. Restrictive clauses use \"that\" with no comma.\n<ul>\n<li><strong>Choice A — \"city, that\"</strong>: \"one European city, that many travelers recommend\" — a comma before \"that\" in a restrictive clause is non-standard; restrictive \"that\" never takes a preceding comma. ✗</li>\n<li><strong>Choice B — \"city, which\"</strong>: \"one European city, which many travelers recommend\" — \"which\" with a comma signals a non-restrictive clause (adds extra info); here the clause is identifying, not extra. ✗</li>\n<li><strong>Choice C — \"city in which,\"</strong>: \"one European city in which, many travelers recommend\" — \"recommend in which\" is ungrammatical; you recommend a city, not recommend in a city. ✗</li>\n<li><strong>Choice D — \"city that\"</strong>: \"one European city that many travelers recommend\" — restrictive \"that,\" no comma; identifies the city correctly. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

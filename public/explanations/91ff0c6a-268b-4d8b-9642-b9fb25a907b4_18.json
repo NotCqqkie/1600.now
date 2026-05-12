@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject of the blank",
-      "content": "The relative pronoun \u201cwhich\u201d is the subject of the blank's verb. \u201cWhich\u201d refers back to \u201cKansas City International Airport\u201d \u2014 a singular noun."
+      "content": "The blank follows \"which\" in a relative clause: \"Kansas City International Airport, which ______ located in Kansas City, Missouri.\" The relative pronoun \"which\" refers to \"Kansas City International Airport\" — a singular noun."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "A verb must agree in number with its subject. \u201cIs\u201d is the only singular form among the choices; \u201care,\u201d \u201cwere,\u201d and \u201chave been\u201d are all plural and therefore violate agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Apply subject-verb agreement — per-choice diagnosis",
+      "content": "The verb must be singular to agree with the singular antecedent of \"which\" (the airport).<ul><li><strong>Choice A — \"is\":</strong> singular simple present. Correctly agrees with the singular noun \"Airport.\" Correct.</li><li><strong>Choice B — \"are\":</strong> plural simple present. Does not agree with the singular antecedent. Eliminated.</li><li><strong>Choice C — \"were\":</strong> plural simple past. Wrong in both number (plural) and, since the airport is still located there, wrong in tense. Eliminated.</li><li><strong>Choice D — \"have been\":</strong> plural present perfect. \"Have\" is plural and breaks agreement with the singular antecedent. Eliminated.</li></ul>"
     }
   ]
 }

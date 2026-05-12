@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states “we simply cannot say for certain” about how the original people understood the paintings."}, {"title": "Match the meaning", "content": "The blank requires a word meaning not known or undetermined. “Unknown” precisely captures this—the original meaning of the paintings cannot be ascertained.<br/><br/>The other options describe unrelated properties: unchangingness, predictability, and absence of dispute.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the key signal",
+      "content": "The passage says the people of the time \"may have thought of the paintings as something akin to art\" but \"it is entirely possible that they did not—we simply cannot say for certain.\" The blank fills how the original understanding of the paintings is described. Since we cannot know, the blank must mean not known."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "The word needs to mean not known or unable to be determined. Substitute each choice: <ul><li><strong>Choice A — unknown</strong>: means not known — directly matches \"we simply cannot say for certain\" about how the paintings were understood. ✓</li><li><strong>Choice B — unalterable</strong>: means unable to be changed — describes permanence, not uncertainty; the problem isn’t that the meaning is fixed but that it can’t be determined. ✗</li><li><strong>Choice C — unsurprising</strong>: means expected or predictable — implies we know what to expect, contradicting the passage’s statement that we cannot say for certain. ✗</li><li><strong>Choice D — uncontroversial</strong>: means agreed upon without dispute — the passage’s uncertainty implies debate is possible, not that there is settled agreement. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

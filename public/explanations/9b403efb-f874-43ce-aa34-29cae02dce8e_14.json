@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure and subjects",
-      "content": "The sentence connects two independent clauses with \u201cand\u201d: \u201cDL pertains to...\u201d and \u201cTML _____ to...\u201d. Both DL and TML are singular subjects."
+      "title": "Identify the subject and its number",
+      "content": "The sentence has two parallel independent clauses joined by \"and.\" The first clause has subject \"DL\" (singular) with verb \"pertains.\" The second clause has subject \"TML\" (singular). The blank must be a verb that matches \"TML.\""
     },
     {
-      "title": "Apply the subject-verb agreement rule",
-      "content": "\u201dPertains\u201d (B) is the only singular verb form, maintaining parallel structure with the first clause and proper agreement with TML. The other options\u2014\u201dare,\u201d \u201chave,\u201d and \u201cpertain\u201d\u2014are plural or base-form verbs. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Apply subject-verb agreement and parallel structure — per-choice diagnosis",
+      "content": "The verb must be singular to match \"TML\" and parallel in form to \"pertains\" in the first clause.<ul><li><strong>Choice A — \"are pertaining\":</strong> plural present progressive. \"Are\" is plural and does not agree with the singular \"TML.\" Eliminated.</li><li><strong>Choice B — \"pertains\":</strong> singular simple present. Agrees with singular \"TML\" and is parallel to \"pertains\" in the first clause. Correct.</li><li><strong>Choice C — \"have pertained\":</strong> plural present perfect. \"Have\" is plural and breaks agreement with \"TML.\" Eliminated.</li><li><strong>Choice D — \"pertain\":</strong> base form / plural present. Appropriate for plural subjects, not singular \"TML.\" Eliminated.</li></ul>"
     }
   ]
 }

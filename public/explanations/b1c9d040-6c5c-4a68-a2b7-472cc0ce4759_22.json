@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the chronological progression",
-      "content": "The passage presents years in sequence\u20141965, then 1994 and 1996\u2014signaling a forward movement in time from the first syndicated strip to later ones."
+      "content": "The passage moves from 1965 (the first syndicated strip by a Black cartoonist) to 1994 and 1996 (later syndicated strips). The blank connects these across time."
     },
     {
       "title": "Match the signal to the choices",
-      "content": "\u201dLater\u201d directly marks this progression from 1965 to subsequent years. The other three fail: \u201cThat is\u201d restates; \u201cPreviously\u201d reverses the timeline; \u201cFor example\u201d introduces examples without expressing temporal progression. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The logical relationship is sequence. The blank needs a transition signaling that the 1994 and 1996 strips came after the 1965 milestone.\n<ul>\n<li><strong>Choice A — \"That is,\"</strong>: signals a restatement or clarification of the prior sentence, but the second sentence introduces new events, not a definition, so fails. ✗</li>\n<li><strong>Choice B — \"Previously,\"</strong>: signals something happened before a reference point, but 1994 and 1996 come after 1965, so this reverses the timeline, failing. ✗</li>\n<li><strong>Choice C — \"For example,\"</strong>: signals a specific instance of a general claim; the 1965 strip is the milestone, not a general claim that the later strips exemplify, so fails. ✗</li>\n<li><strong>Choice D — \"Later,\"</strong>: signals temporal progression forward from 1965 to subsequent years, so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence type", "content": "The structure “his voice acting work is why [blank]” makes a <strong>declarative statement</strong> explaining causation, not a question."}, {"title": "Apply the punctuation and word-order rules", "content": "Choice D correctly provides “he has become such a celebrated talent.” with a period, using the normal word order and statement punctuation needed for a declarative sentence.<br/><br/>The other choices either invert the word order or use a question mark, which contradict the sentence's declarative nature.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause type",
+      "content": "The sentence is a declarative statement: \"his voice acting work is why ______\". The blank is a noun clause completing the predicate — it must use normal subject-verb order and end with a period."
+    },
+    {
+      "title": "Apply word-order and punctuation rules for embedded clauses",
+      "content": "Rule: a noun clause embedded in a declarative sentence uses statement word order (subject then verb) and the sentence ends with a period, not a question mark. <ul><li><strong>Choice A — \"has he become such a celebrated talent?\"</strong>: inverted word order (auxiliary first) signals a question, but this is not a standalone question. Also ends with \"?\". ✗</li><li><strong>Choice B — \"has he become such a celebrated talent.\"</strong>: inverted word order is still wrong for an embedded clause, even with a period. ✗</li><li><strong>Choice C — \"he has become such a celebrated talent?\"</strong>: correct word order, but \"?\" is wrong for a declarative sentence. ✗</li><li><strong>Choice D — \"he has become such a celebrated talent.\"</strong>: statement word order (he + verb) and a period — both correct for a declarative noun clause. ✓</li></ul> That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

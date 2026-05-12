@@ -1,1 +1,15 @@
-{"questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The phrase “widespread, familiar practice” in the next sentence explicitly defines the state when clothing's purpose shifts from purely practical to social/cultural."}, {"title": "Match the word to the meaning", "content": "Ubiquitous means everywhere and common, which directly captures “widespread, familiar practice.” Divisive (creates conflict), provisional (temporary), and feasible (possible) don't express the pervasiveness needed for clothes to gain cultural significance.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The next sentence defines the blank: <em>\"Once wearing clothing turned into a widespread, familiar practice, differences in clothes could take on social and cultural significance.\"</em> The blank must mean widespread and common."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. Divisive</strong> means causing disagreement or conflict. Clothing becoming divisive would describe social conflict, not the shift from practical to cultural that the passage describes. Eliminated.<br/><br/><strong>B. Provisional</strong> means temporary or serving as a stopgap. The passage describes clothing becoming more established over time, not temporarily adopted. Eliminated.<br/><br/><strong>C. Ubiquitous</strong> means found everywhere; very common. Substituting: <em>\"as clothing became ubiquitous\"</em> maps directly onto <em>\"widespread, familiar practice\"</em> in the following sentence. <strong>C is correct.</strong><br/><br/><strong>D. Feasible</strong> means possible or achievable. Clothing was already possible from the start — the passage is about it becoming common, not about whether it was achievable. Eliminated."
+    }
+  ]
+}

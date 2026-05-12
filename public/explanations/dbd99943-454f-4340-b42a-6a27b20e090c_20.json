@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject",
-      "content": "The grammatical key is determining the subject: \u201clost works,\u201d a plural noun. The intervening descriptive phrase and parenthetical don't change the subject."
+      "title": "Identify the true subject",
+      "content": "The blank's subject is \"lost works\" — a plural noun. The long dash phrase \"—no copy of which exists—\" is a parenthetical interruption and does not change the subject. Strip it out: \"lost works ______ known to antiquarians.\""
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "\u201dHave become\u201d is plural and correctly matches \u201clost works.\u201d Choices B, C, and D are singular forms (\u201cis becoming,\u201d \u201chas become,\u201d \u201cbecomes\u201d), which violate subject-verb agreement with a plural subject. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Apply subject-verb agreement — per-choice diagnosis",
+      "content": "A plural subject requires a plural verb form.<ul><li><strong>Choice A — \"have become\":</strong> plural present perfect. Agrees with the plural subject \"lost works.\" Correct.</li><li><strong>Choice B — \"is becoming\":</strong> singular present progressive. \"Is\" is singular and does not agree with \"lost works.\" Eliminated.</li><li><strong>Choice C — \"has become\":</strong> singular present perfect. \"Has\" is singular — same mismatch. Eliminated.</li><li><strong>Choice D — \"becomes\":</strong> singular simple present. Third-person singular \"becomes\" conflicts with the plural subject. Eliminated.</li></ul>"
     }
   ]
 }

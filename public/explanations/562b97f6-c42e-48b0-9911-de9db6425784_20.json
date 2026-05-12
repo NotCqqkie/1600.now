@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the grammatical demand",
-      "content": "The phrase \u201cincluding its many ______\u201d requires plural nouns to identify the geological features the lander explored. We're naming the actual features\u2014craters and rocks\u2014not properties or possessions."
+      "content": "The phrase \"including its many ______\" requires plural nouns to identify the geological features the lander explored. We're naming the actual features—craters and rocks—not properties or possessions."
     },
     {
       "title": "Apply the plural rule",
-      "content": "Choice B gives us plural nouns for both items: \u201ccraters and rocks.\u201d Choices A, C, and D use possessive forms (crater's, rock's), which don't fit\u2014the sentence names the features themselves, not what belongs to them. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The phrase \"including its many ___\" lists types of geological features; the blanks must be plural nouns, not possessives (possessives would need something to possess).\n<ul>\n<li><strong>Choice A — \"craters and rock's\"</strong>: \"exploring...its many craters and rock's.\" — \"rock's\" is possessive; there is nothing following it that rock owns. ✗</li>\n<li><strong>Choice B — \"craters and rocks\"</strong>: \"exploring...its many craters and rocks.\" — both are simple plurals naming the features. ✓</li>\n<li><strong>Choice C — \"crater's and rocks\"</strong>: \"exploring...its many crater's and rocks.\" — \"crater's\" is possessive with nothing to possess. ✗</li>\n<li><strong>Choice D — \"crater's and rock's\"</strong>: \"exploring...its many crater's and rock's.\" — both are possessives; neither makes sense here. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

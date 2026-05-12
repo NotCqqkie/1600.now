@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The passage explicitly identifies these as \u201cfictitious entries\u201d \u2014 the key fact is that they're false, made-up things rather than real content."
+      "content": "The blank describes what the hoax entries were \"finally recognized as\" before deletion. The passage calls them \"fictitious entries\" and \"hoaxes\" — they are made-up, false things."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "The entries were recognized as something false and invented. \u201cFabrications\u201d directly denotes made-up falsehoods \u2014 the perfect match. The other three refer to studies, disclosures, or improvements \u2014 none describe something false. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<strong>A. analyses</strong> — an analysis is a careful study or examination of something. Hoax entries are not studies; plug in: \"recognized as analyses\" makes no sense here. Eliminated.<br/><br/><strong>B. revelations</strong> — a revelation is something newly disclosed or revealed, usually surprising and true. These entries were not truth coming to light; they were lies. Eliminated.<br/><br/><strong>C. fabrications</strong> — a fabrication is a made-up falsehood. Plug in: \"recognized as fabrications\" = recognized as made-up lies. This matches exactly what hoax entries are. Correct.<br/><br/><strong>D. enhancements</strong> — an enhancement is an improvement. Hoax entries did not improve Wikipedia; they deceived readers. Eliminated."
     }
   ]
 }

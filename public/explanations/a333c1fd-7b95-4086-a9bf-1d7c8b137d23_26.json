@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the location reference",
-      "content": "The first sentence names India as the country of origin. The blank must connect the production statistic to that same location."
+      "content": "The first sentence establishes India as the country of origin for the Cheruku rasamu mango. The second sentence gives a production statistic that applies to that same location."
     },
     {
       "title": "Apply the location signal",
-      "content": "B (There) functions as a locative adverb pointing back to India, establishing where the production statistic applies. The other three don't establish the location reference; they introduce consequence, emphasis, or elaboration instead.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The logical relationship is specification (location). The blank needs a transition anchoring the production statistic to the place just mentioned—India.\n<ul>\n<li><strong>Choice A — \"Hence,\"</strong>: signals a logical consequence, implying the production stat follows causally from the mango's origin, which it doesn't, so fails. ✗</li>\n<li><strong>Choice B — \"There,\"</strong>: functions as a locative adverb pointing back to India, establishing where the 2018 production figure applies, so fits. ✓</li>\n<li><strong>Choice C — \"In fact,\"</strong>: signals emphasis or a surprising clarification, but the production stat isn't being used to correct or emphasize the prior sentence, so fails. ✗</li>\n<li><strong>Choice D — \"Specifically,\"</strong>: signals narrowing to a particular aspect of the prior claim; the production figure doesn't narrow the mango's origin—it reports output from that location, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

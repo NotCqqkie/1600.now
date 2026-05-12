@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The phrase \u201cwere more likely\u201d is an auxiliary verb + comparative adjective that needs a specific verb form to follow."
+      "title": "Identify the grammatical trigger",
+      "content": "The phrase \"more likely\" is an adjective expressing likelihood. Adjectives of likelihood (likely, certain, prone, apt) require an infinitive to follow."
     },
     {
-      "title": "Apply the rule for likelihood adjectives",
-      "content": "An infinitive form is required after \u201cmore likely\u201d because adjectives expressing likelihood take infinitive forms. The other choices\u2014eaten (past participle), ate (simple past), and will be eating (future continuous)\u2014violate this pattern. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Apply the infinitive rule after likelihood adjectives",
+      "content": "Rule: \"likely\" takes an infinitive complement (\"likely + to + base verb\"). <ul><li><strong>Choice A — \"eaten\"</strong>: past participle — cannot follow \"likely\" directly; produces \"were more likely eaten\", which means they were probably consumed, not the intended meaning. ✗</li><li><strong>Choice B — \"ate\"</strong>: simple past — a finite verb cannot serve as the complement after \"likely\"; produces an ungrammatical construction. ✗</li><li><strong>Choice C — \"to eat\"</strong>: infinitive — correctly follows \"more likely\" to form \"more likely to eat\". ✓</li><li><strong>Choice D — \"will be eating\"</strong>: future progressive — a finite verb phrase cannot follow \"likely\" as its complement. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

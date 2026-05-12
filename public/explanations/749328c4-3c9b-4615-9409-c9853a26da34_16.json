@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the number of the noun",
-      "content": "The blank precedes \u201cimportant place\u201d \u2014 a singular noun, not plural."
+      "title": "Identify the noun being modified",
+      "content": "The blank precedes \"important place\" — a singular noun. The demonstrative must match that number."
     },
     {
-      "title": "Apply number agreement",
-      "content": "A demonstrative adjective must agree in number with the noun it modifies. \u201cThis\u201d is singular and matches the singular noun \u201cplace.\u201d \u201cBoth,\u201d \u201cthose,\u201d and \u201cthese\u201d are all plural forms that cannot modify a singular noun. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Apply demonstrative adjective agreement",
+      "content": "Rule: demonstrative adjectives must agree in number with the noun they modify. \"Place\" is singular. <ul><li><strong>Choice A — \"this\"</strong>: singular demonstrative — agrees with the singular \"place\". ✓</li><li><strong>Choice B — \"both\"</strong>: indicates two of something; cannot modify a single noun. ✗</li><li><strong>Choice C — \"those\"</strong>: plural demonstrative — does not agree with singular \"place\". ✗</li><li><strong>Choice D — \"these\"</strong>: plural demonstrative — does not agree with singular \"place\". ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

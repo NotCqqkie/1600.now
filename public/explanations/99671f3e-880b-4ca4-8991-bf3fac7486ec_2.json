@@ -1,1 +1,15 @@
-{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "”Conversely” marks a direct contrast between “historically significant” and the blank. We need the opposite of significance."}, {"title": "Match the opposite meaning", "content": "”Inconsequential” directly opposes “historically significant” by denoting lack of importance.<br/><br/>The other choices either describe unrelated attributes (benevolent = kind, genuine = authentic) or paradoxically reinforce rather than oppose the original (momentous emphasizes importance).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast signal",
+      "content": "\"Conversely\" signals a direct opposite. The sentence contrasts \"historically significant\" with \"relatively ______\". The blank must mean the opposite of historically significant — something like unimportant or of little consequence."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "The word needs to mean unimportant or of little historical consequence. Substitute each choice: <ul><li><strong>Choice A — inconsequential</strong>: means having no significant effect or importance — directly opposite to \"historically significant,\" making it the perfect contrast. ✓</li><li><strong>Choice B — benevolent</strong>: means kind or generous — describes moral character, not historical importance; benevolence is not the opposite of significance. ✗</li><li><strong>Choice C — genuine</strong>: means authentic or real — describes truthfulness, not historical impact; authenticity is not contrasted with significance. ✗</li><li><strong>Choice D — momentous</strong>: means of great importance — the same meaning as \"historically significant\"; this reinforces the first term rather than contrasting it. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

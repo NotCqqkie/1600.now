@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the logical clue",
-      "content": "The sentence before the blank says the USGS omitted important considerations, especially the earth\u2019s curvature, which implies its earlier determination is flawed."
+      "content": "The sentence before the blank says the USGS omitted important considerations, especially the earth's curvature, which implies its earlier determination is flawed."
     },
     {
       "title": "Apply the clue to the choices",
-      "content": "Hence, signals a conclusion that follows from the omitted considerations, showing the USGS\u2011determined center was inaccurate. The other three choices either merely indicate sequence or contrast and do not express the cause\u2011effect relationship. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is cause-effect: because the USGS omitted important considerations (especially earth's curvature), it follows that the USGS-determined center was inaccurate. The blank needs a transition signaling that logical consequence.\n<ul>\n<li><strong>Choice A — \"Next,\"</strong>: signals simple sequential order in time, so fails — the inaccuracy is a logical conclusion from the omission, not just the next event. ✗</li>\n<li><strong>Choice B — \"That being said,\"</strong>: signals concession or qualification, so fails — the second sentence draws a direct conclusion, not a caveat. ✗</li>\n<li><strong>Choice C — \"Hence,\"</strong>: signals a logical conclusion that follows from the preceding evidence, fitting perfectly. ✓</li>\n<li><strong>Choice D — \"However,\"</strong>: signals contrast, so fails — the second sentence is the expected result of the omission, not an opposing idea. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the chronological jump",
-      "content": "The strongest clue is the specific dates: \u201cby 1593\u201d (one achievement) followed by \u201cin 1599\u201d (a later achievement). This signals forward movement in time."
+      "content": "The passage moves from Shakespeare's early recognition by 1593 to a later achievement in 1599. The blank connects two events separated in time."
     },
     {
       "title": "Choose the transition marking forward progression",
-      "content": "\u201dLater,\u201d directly expresses this passage of time between the two achievements. The other three don't work\u2014\u201dIn other words\u201d suggests restating, \u201cConversely\u201d suggests contrast, and \u201cThus\u201d suggests logical consequence. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The logical relationship is sequence. The blank needs a transition signaling forward movement in time from 1593 to 1599.\n<ul>\n<li><strong>Choice A — \"In other words,\"</strong>: signals restatement of the same idea, but the 1599 event is a new development, not a restatement, so fails. ✗</li>\n<li><strong>Choice B — \"Conversely,\"</strong>: signals direct contrast or opposition, but both sentences describe career achievements, so fails. ✗</li>\n<li><strong>Choice C — \"Thus,\"</strong>: signals logical consequence; the 1599 play isn't caused by the 1593 recognition, it's simply a later event, so fails. ✗</li>\n<li><strong>Choice D — \"Later,\"</strong>: signals temporal progression from an earlier point to a later one, so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

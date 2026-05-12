@@ -1,1 +1,15 @@
-{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship", "content": "Sentence 1 gives a <strong>general definition</strong>: languages no longer spoken are extinct. Sentence 2 names <strong>Umbrian</strong>, a specific case fitting that definition."}, {"title": "Pick the transition", "content": "Specific case after a general rule = <strong>For example</strong>.<br/><br/>\"In conclusion\" wraps an argument (none here). \"Therefore\" signals a logical consequence (no inference is being drawn). \"Admittedly\" concedes — nothing's being conceded.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_23",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship",
+      "content": "Sentence 1 gives a general definition: languages no longer spoken are extinct. Sentence 2 names Umbrian, a specific case fitting that definition."
+    },
+    {
+      "title": "Pick the transition",
+      "content": "The logical relationship is example. The blank needs a transition signaling that Umbrian is a specific instance of the general claim about language extinction.\n<ul>\n<li><strong>Choice A — \"In conclusion,\"</strong>: signals a final summary wrapping up an argument; a single definition sentence isn't an argument requiring a conclusion, so fails. ✗</li>\n<li><strong>Choice B — \"Therefore,\"</strong>: signals a logical inference drawn from evidence, but Umbrian's extinction isn't inferred from the definition—it's just an example of it, so fails. ✗</li>\n<li><strong>Choice C — \"Admittedly,\"</strong>: signals conceding a point that works against the writer's position; nothing is being conceded here, so fails. ✗</li>\n<li><strong>Choice D — \"For example,\"</strong>: signals a specific instance of a general claim, fitting the move from the definition to Umbrian as a case, so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

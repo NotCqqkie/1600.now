@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the confirmation",
-      "content": "The linguist assumes \u201cown\u201d appears often. The corpus reveals it's the eighth most common adjective\u2014confirming, not contradicting, the assumption."
+      "content": "The linguist assumes the word \"own\" appears often. The corpus shows it is the eighth most commonly used adjective — confirming, not contradicting, that assumption. The blank describes what a linguist could do to an assumption using corpus data. It must mean to confirm using evidence."
     },
     {
-      "title": "Match validate to this confirmation",
-      "content": "Validate means to confirm something as true using evidence\u2014exactly what the data does for the assumption. Refute reverses this (disprove), transpose means rearrange, and entail describes a different logical relationship. This matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The word needs to mean to confirm or support with evidence. Substitute each choice: <ul><li><strong>Choice A — validate</strong>: means to confirm as true using evidence — the corpus data (eighth most common adjective) directly confirms the linguist’s assumption that \"own\" appears often. ✓</li><li><strong>Choice B — refute</strong>: means to disprove — the corpus confirms the assumption, it does not disprove it; ranking eighth most common supports rather than refutes frequency. ✗</li><li><strong>Choice C — transpose</strong>: means to rearrange or swap the position of elements — irrelevant; corpus data doesn’t rearrange an assumption, it tests it. ✗</li><li><strong>Choice D — entail</strong>: means to involve or imply as a necessary consequence — an assumption doesn’t entail data; data validates assumptions. The logical relationship is wrong. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

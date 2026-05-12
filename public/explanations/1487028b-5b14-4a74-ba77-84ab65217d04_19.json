@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the parallel pair",
-      "content": "The sentence describes two hands as a parallel pair: \u201cone hand [blank] and the other [description].\u201d Both parts must follow the same grammatical form."
+      "content": "The sentence describes two hands as a parallel pair: \"one hand [blank] and the other [description].\" Both parts must follow the same grammatical form."
     },
     {
       "title": "Match the parallel form",
-      "content": "C creates truly parallel descriptions: \u201cone hand bare and the other covered\u201d \u2014 both use only adjectives, creating a balanced pair. The other choices disrupt this by mixing adjectives with verb phrases or creating structural problems. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The blank is part of an absolute phrase: \"one hand [description] and the other [description], the hands imply...\" Both halves must be grammatically parallel.\n<ul>\n<li><strong>Choice A — \"is bare and the other is\"</strong>: \"one hand is bare and the other is covered in Persian script, the hands imply\" — the finite verb \"is\" creates a full clause, making the comma before \"the hands\" a comma splice. ✗</li>\n<li><strong>Choice B — \"bare, the other is\"</strong>: \"one hand bare, the other is covered in Persian script, the hands imply\" — \"the other is covered\" has a finite verb; the comma after it before \"the hands\" is a comma splice. ✗</li>\n<li><strong>Choice C — \"bare and the other\"</strong>: \"one hand bare and the other covered in Persian script, the hands imply\" — both halves are adjective-only; the whole phrase is a parallel absolute that modifies \"the hands.\" ✓</li>\n<li><strong>Choice D — \"is bare, the other\"</strong>: \"one hand is bare, the other covered in Persian script, the hands imply\" — \"one hand is bare\" is a finite clause separated by a comma from \"the other covered,\" creating a comma splice before a non-parallel fragment. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

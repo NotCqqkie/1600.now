@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the experimental action", "content": "Grant's team is taking sterile soil and introducing live microbes into it—stocking the medium with organisms to test their effects on plants."}, {"title": "Match this action to the verb", "content": "”Populated” precisely means “filled with organisms” or “stocked with,” exactly describing the action of introducing microbial slurries into soil.<br/><br/>The other choices—”precluded” (prevented), “estimated” (calculated), and “sanitized” (sterilized)—describe unrelated or contradictory actions.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The team took sterilized (empty of life) soil pots and added <em>\"slurries of live microbes\"</em> to them. The blank describes what they did to the pots: they filled them with living organisms."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<strong>A. Precluded</strong> means prevented something from happening. You cannot preclude a pot — and the team was adding microbes, not blocking them. Eliminated.<br/><br/><strong>B. Estimated</strong> means made an approximate calculation. The team was performing a physical action on the pots, not doing math. Eliminated.<br/><br/><strong>C. Sanitized</strong> means cleaned to remove microbes. The soil was already sterilized — adding live microbes is the opposite of sanitizing. Eliminated.<br/><br/><strong>D. Populated</strong> means filled with inhabitants or organisms. Substituting: <em>\"populated pots of sterilized soil with slurries of live microbes\"</em> — they stocked the empty soil with living organisms to grow the experiment. <strong>D is correct.</strong>"
+    }
+  ]
+}
