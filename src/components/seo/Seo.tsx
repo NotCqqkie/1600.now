@@ -436,7 +436,7 @@ export const Seo = () => {
       name: SITE_NAME,
       alternateName: BRAND_ALTERNATE,
       url: SITE_URL,
-      logo: `${SITE_URL}/logo_b.png`,
+      logo: `${SITE_URL}/optimized/logo_text_b_1200.png`,
       description:
         "1600.now is a free Digital SAT prep platform with a filterable question bank, full practice modules, a score calculator, vocabulary review, and detailed answer explanations.",
       knowsAbout: [

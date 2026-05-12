@@ -248,7 +248,7 @@ export const buildArticleJsonLd = (data: {
     name: "1600.now",
     logo: {
       "@type": "ImageObject",
-      url: "https://1600.now/logo_b.png",
+      url: "https://1600.now/optimized/logo_text_b_1200.png",
     },
   },
 });
