@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the antecedent for the pronoun",
-      "content": "The blank is the object of \u201cattributed,\u201d and it must refer back to \u201cthe wobble\u201d (singular)\u2014what the astronomers attributed to the gravitational influence."
+      "content": "The blank is the object of \"attributed,\" and it must refer back to \"the wobble\" (singular)—what the astronomers attributed to the gravitational influence."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "\u201dIt\u201d is the singular pronoun that correctly matches the singular antecedent \u201cthe wobble.\u201d The other options fail to match: B and D are plural pronouns, and A (each) doesn't fit the context. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "Rule: the pronoun must be singular (matching \"the wobble\") and work as the direct object of \"attributed ___ to the gravitational influence.\"<br/><br/><strong>A — \"each\"</strong> \"Each\" is a determiner/pronoun requiring a noun after it (\"each wobble\") or referring to individual items in a set, but here there is only one wobble being attributed. Doesn't fit the structure. Fails.<br/><br/><strong>B — \"these\"</strong> Plural demonstrative pronoun. \"The wobble\" is singular, so a plural pronoun creates an agreement error. Fails.<br/><br/><strong>C — \"it\"</strong> Singular personal pronoun. Refers back to \"the wobble\" correctly, and \"attributed it to the gravitational influence\" is grammatically complete. Correct.<br/><br/><strong>D — \"them\"</strong> Plural personal pronoun. Mismatches the singular antecedent \"the wobble.\" Fails.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

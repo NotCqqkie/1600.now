@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the antecedent",
-      "content": "The blank refers back to <em>\u201cmany even-toed ungulates,\u201d</em> which is plural."
+      "content": "The blank refers back to <em>\"many even-toed ungulates,\"</em> which is plural."
     },
     {
-      "title": "Match the number",
-      "content": "<em>\u201cThese animals\u201d</em> (B) matches the plural antecedent and functions as the object of <em>\u201cprevent.\u201d</em> Options A and C are singular (don't match the plural number); option D is plural but uses a possessive form that doesn't fit the structure <em>\u201cprevent ___ from joining.\u201d</em> <strong>That matches choice B \u2014 B is correct.</strong>"
+      "title": "Eliminate each choice",
+      "content": "Rule: the pronoun must be plural (matching \"many even-toed ungulates\") and must work as an object — \"prevent ___ from joining the ranks of the extinct.\"<br/><br/><strong>A — \"the animal\"</strong> Singular. \"Many even-toed ungulates\" is plural, so a singular pronoun misrepresents the group. Fails.<br/><br/><strong>B — \"these animals\"</strong> Plural, non-possessive. Correctly refers back to \"many even-toed ungulates\" and fills the object slot: \"prevent these animals from joining.\" Correct.<br/><br/><strong>C — \"this animal's\"</strong> Singular and possessive. Both problems apply: it mismatches number and a possessive form cannot serve as a direct object here. Fails.<br/><br/><strong>D — \"these animals'\"</strong> Plural but possessive. A possessive cannot be the object of \"prevent\"; you cannot say \"prevent these animals' from joining.\" Fails.<br/><br/><strong>B</strong> is correct."
     }
   ]
 }

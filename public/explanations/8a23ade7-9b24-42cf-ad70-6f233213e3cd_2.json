@@ -1,1 +1,15 @@
-{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the contextual signal", "content": "The sentence describes a <em>juxtaposition</em> — a <strong>combining</strong> — of \"sleek, contemporary elements\" and \"traditional organic materials\" in a single design. The blank names this combining."}, {"title": "Match the word", "content": "<strong>\"Synthesis\"</strong> means combining distinct elements into a unified whole — exactly the relationship described.<br/><br/>(B) \"designation\" = naming. (C) \"analysis\" = breaking apart (opposite). (D) \"diffusion\" = spreading out, not combining.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "What meaning does the blank need?",
+      "content": "\"The ______ of sleek, contemporary elements and traditional organic materials in a single design\" — the blank names what happens when two contrasting things are brought together into one design. It must mean combining or merging into a whole."
+    },
+    {
+      "title": "Substitute each choice",
+      "content": "The [word] needs to mean the act of combining two different elements into one unified design. Substitute each choice: <ul><li><strong>Choice A — synthesis</strong>: combining distinct elements into a unified whole — exactly describes merging contemporary metal and traditional organic materials into a single design. ✓</li><li><strong>Choice B — designation</strong>: a name or label assigned to something — labeling elements doesn't describe how they are combined in a design. ✗</li><li><strong>Choice C — analysis</strong>: breaking something into parts to examine it — the opposite of combining; analysis separates rather than unifies. ✗</li><li><strong>Choice D — diffusion</strong>: spreading out or dispersing — this implies scattering, not combining two things into one design. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

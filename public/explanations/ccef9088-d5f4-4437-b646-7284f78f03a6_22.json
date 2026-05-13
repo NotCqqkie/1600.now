@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the explanatory relationship",
-      "content": "The first clause introduces a concept: \u201cThe visual magnitude scale is reverse logarithmic.\u201d The second clause must clarify what that concept means. The transition needs to signal this clarification."
+      "content": "The first clause introduces a concept: \"The visual magnitude scale is reverse logarithmic.\" The second clause must clarify what that concept means. The transition needs to signal this clarification."
     },
     {
       "title": "Apply the clarifying transition",
-      "content": "\u201dIn other words\u201d directly fits because it indicates the next clause will clarify what \u201creverse logarithmic\u201d means. The other choices suggest similarity, opposition, or a specific example, which don't fit. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is specification/clarification: \"reverse logarithmic\" is a technical term, and the second clause explains what it means in plain terms (brighter = lower number). The blank needs a transition signaling restatement or explanation.<ul><li><strong>Choice A — \"similarly,\"</strong>: signals that a comparable situation follows, so fails — the second clause is not a parallel example but a definition of the first clause. ✗</li><li><strong>Choice B — \"in contrast,\"</strong>: signals opposition, so fails — the second clause does not oppose the first; it defines it. ✗</li><li><strong>Choice C — \"in other words,\"</strong>: signals restatement or clarification of the same idea, so fits — the plain-language explanation of \"reverse logarithmic\" is exactly what follows. ✓</li><li><strong>Choice D — \"for example,\"</strong>: signals a specific instance of a general claim, so fails — the second clause defines the scale, it does not give one example from among many. ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

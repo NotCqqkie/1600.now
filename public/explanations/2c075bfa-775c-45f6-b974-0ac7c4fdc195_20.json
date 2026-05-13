@@ -1,1 +1,15 @@
-{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent", "content": "The astronomers “attributed ______ to the gravitational influence.” The pronoun refers back to “the wobble,” which they were observing."}, {"title": "Apply pronoun-antecedent agreement", "content": "The pronoun must match its antecedent in number. Since the wobble is singular, the pronoun must be singular; <strong>it</strong> is the only singular choice. <em>Them</em> and <em>these</em> are plural, while <em>each</em> is not used as a simple pronoun reference.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the pronoun refers to",
+      "content": "The sentence says astronomers \"attributed ______ to the gravitational influence of the previously unknown planet.\" The pronoun stands in for what was attributed — the wobble that the astronomers were observing. \"The wobble\" is singular and non-human."
+    },
+    {
+      "title": "Choose the pronoun that matches",
+      "content": "Rule: a pronoun must match its antecedent in number. \"The wobble\" is singular.\n\nA. \"them\" — plural personal pronoun. Fails: \"the wobble\" is singular, not plural.\nB. \"it\" — singular personal pronoun for non-human nouns. Correctly replaces \"the wobble.\" Correct.\nC. \"these\" — plural demonstrative pronoun. Fails: number mismatch; also implies pointing to multiple things just mentioned, not one wobble.\nD. \"each\" — distributive pronoun used when referring to individual members of a group separately. Fails: there is no group of wobbles to distribute across; the referent is a single phenomenon.\n\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

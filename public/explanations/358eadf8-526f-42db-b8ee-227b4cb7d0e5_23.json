@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The first sentence states that ticker tape \u201chad long since been retired by the 1986 parade\u201d; the blank must introduce what happened instead. The relationship is <em>cause to consequence</em>."
-    },
-    {
-      "title": "Match the consequence",
-      "content": "\u201dThen\u201d directly signals that shredded standard paper is the consequence that follows the retirement of ticker tape.<br/>The other three transitions either add information without showing causation, restate the previous idea, or acknowledge context without indicating consequence.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_23", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "Sentence 1 says ticker tape had long since been retired by 1986. Sentence 2 says shredded standard paper enriched the celebration. The relationship is temporal consequence: because ticker tape was gone, something else followed."}, {"title": "Apply the rule: choose the transition that fits the logical relationship", "content": "<ul><li><strong>Choice A — In addition,</strong>: \"In addition, shredded standard paper enriched...\" — signals an additional fact piled on, not a replacement or consequence. Ticker tape retired + paper added would need contrast, not addition. ✗</li><li><strong>Choice B — In other words,</strong>: \"In other words, shredded standard paper enriched...\" — signals a restatement of the same idea. Shredded paper is not a rephrasing of retiring ticker tape. ✗</li><li><strong>Choice C — With this in mind,</strong>: \"With this in mind, shredded standard paper enriched...\" — signals a deliberate decision made in light of prior information; there is no reasoning or deliberation implied. ✗</li><li><strong>Choice D — Then,</strong>: \"Then, shredded standard paper enriched the celebration.\" — signals what happened next as a temporal consequence: ticker tape was gone, so then paper took its place. ✓</li></ul> That matches choice D — <strong>D</strong> is correct."}]}

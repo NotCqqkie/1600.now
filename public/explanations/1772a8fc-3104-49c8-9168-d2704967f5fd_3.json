@@ -1,1 +1,15 @@
-{"questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the finding suggests about lobbying", "content": "The passage states lobbying <em>does little to alter the probability</em> of policies being enacted. This finding portrays lobbying as lacking effect or impact."}, {"title": "Match the word to the meaning", "content": "<strong>Ineffectual</strong> means failing to produce desired results—a quality directly contradicted by the evidence that lobbying shapes policy proposals.<br/><br/>So lobbying isn't as ineffectual as the finding suggests. Counterproductive overstates the criticism; cynical and biased don't apply.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the finding suggests about lobbying",
+      "content": "The passage states lobbying <em>does little to alter the probability</em> of policies being enacted. This finding portrays lobbying as lacking effect or impact."
+    },
+    {
+      "title": "Match the word to the meaning",
+      "content": "The blank fills \"lobbying is not as ______ as this finding seems to suggest\" -- meaning the word must describe what the finding implies about lobbying (i.e., something negative), while the sentence as a whole pushes back because lobbying <em>does</em> shape which proposals come forward. Substitute each word:<br/><br/><strong>A. Counterproductive</strong> means actively causing harm rather than helping. The finding shows lobbying has little effect on enactment -- not that it backfires. This overstates the criticism beyond what the evidence supports.<br/><br/><strong>B. Cynical</strong> means distrustful or believing people act from selfish motives. The finding is about lobbying's effectiveness, not anyone's motives -- this doesn't fit the context.<br/><br/><strong>C. Biased</strong> means favoring one side unfairly. The finding is about lobbying's impact on probability, not about fairness or objectivity -- this doesn't apply.<br/><br/><strong>D. Ineffectual</strong> means failing to produce the desired result. The finding that lobbying barely changes enactment probability implies it is ineffectual -- but Kang notes lobbying still shapes which proposals are brought forward, proving it is not as ineffectual as that finding alone suggests. &#10003;<br/><br/><strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the opening em dash and the parenthetical phrase", "content": "The em dash after “Interpol—” opens a parenthetical phrase: “the International Criminal Police Organization,” which explains what Interpol is."}, {"title": "Apply the matching em-dash rule", "content": "An em dash opening a parenthetical phrase must be closed with a matching em dash.<br/><br/>After “Organization,” an em dash properly closes the parenthetical phrase, creating “Interpol—the International Criminal Police Organization—in 1971.” Using a comma, nothing, or a colon fails to close a parenthetical em-dash phrase.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the opening em dash and the parenthetical phrase",
+      "content": "The sentence contains \"Interpol—the International Criminal Police ______\" — an em dash opens a parenthetical phrase that defines what Interpol is. A parenthetical phrase opened by an em dash must be closed by a matching em dash."
+    },
+    {
+      "title": "Apply the matching em-dash rule",
+      "content": "Rule: em dash in, em dash out. Test the reconstructed sentence with each choice:<br/><br/><strong>A) Organization,</strong> → \"Interpol—the International Criminal Police Organization, in 1971\" — the em dash is never closed; a comma cannot close an em-dash parenthetical. Fails.<br/><br/><strong>B) Organization—</strong> → \"Interpol—the International Criminal Police Organization—in 1971\" — the em dash is properly closed, neatly bracketing the definition. <strong>Correct.</strong><br/><br/><strong>C) Organization</strong> → \"Interpol—the International Criminal Police Organization in 1971\" — the em dash is never closed; the parenthetical bleeds into the rest of the sentence. Fails.<br/><br/><strong>D) Organization:</strong> → \"Interpol—the International Criminal Police Organization: in 1971\" — a colon cannot close an em-dash parenthetical, and \"in 1971\" would incorrectly appear to follow the colon as a list. Fails."
+    }
+  ]
+}

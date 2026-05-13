@@ -1,1 +1,15 @@
-{"questionId": "73482b52-a20f-452d-896f-76f578ac2361_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structural requirement", "content": "The subject “The poem” is singular. The sentence has no main verb yet; the blank is where it belongs."}, {"title": "Apply finite verb agreement", "content": "A main clause verb must be finite and agree with its subject in number. “Contains” is the only finite form—third-person singular—that matches the singular subject.<br/><br/>The other three are non-finite forms (participles and infinitive) that cannot function as main verbs.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the sentence needs",
+      "content": "The sentence is: \"The 1958 poem 'The Ghost's Leavetaking' by American author Sylvia Plath ___ the first use of the word 'dreamscape.'\" The subject is \"The poem\" (singular). There is no other verb — the blank must be the main, finite verb of the sentence."
+    },
+    {
+      "title": "Choose the finite verb",
+      "content": "Rule: a main clause requires a finite verb (one that is conjugated and can stand alone as the predicate). Non-finite forms — participles, gerunds, infinitives — cannot serve as the main verb.\n\nA. \"having contained\" — past participle phrase (non-finite). Fails: \"The poem having contained\" leaves the sentence with no main verb; this form starts a participial modifier, not a predicate.\nB. \"to contain\" — infinitive (non-finite). Fails: \"The poem to contain\" is not a complete sentence.\nC. \"containing\" — present participle (non-finite). Fails: \"The poem containing\" is a fragment without a main verb.\nD. \"contains\" — third-person singular present tense (finite). Matches singular subject \"The poem\" and acts as the main predicate. Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

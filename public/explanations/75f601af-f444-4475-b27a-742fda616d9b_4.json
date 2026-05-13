@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The example specifies \u201ca <strong>count</strong> of other scholars' citations\u201d \u2014 this word is the decisive clue showing we must tally or list references to evaluate importance."
+      "title": "What meaning does the blank need?",
+      "content": "\"One way to evaluate a scholar's importance is to ______ other scholars' references to that research\" — then gives the example of taking \"a count of other scholars' citations.\" The blank must mean to count or tally."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Enumerate</strong> means to count or list items one by one. The other choices \u2014 abridge (shorten), transpose (rearrange), and circumvent (avoid) \u2014 don't express the idea of counting at all. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Substitute each choice",
+      "content": "The [word] needs to mean count or list references one by one. Substitute each choice: <ul><li><strong>Choice A — abridge</strong>: shorten or condense — this would reduce citations, not count them. ✗</li><li><strong>Choice B — transpose</strong>: move to a different order or key — rearranging citations doesn't measure a scholar's importance. ✗</li><li><strong>Choice C — enumerate</strong>: count or list items one by one — matches \"a count of other scholars' citations\" exactly. ✓</li><li><strong>Choice D — circumvent</strong>: find a way around something — bypassing citations is the opposite of using them to evaluate importance. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

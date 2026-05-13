@@ -1,1 +1,15 @@
-{"questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the temporal frame", "content": "”In a 2022 study” places the researchers' action at a specific moment in the past when the study occurred."}, {"title": "Choose the completed past action", "content": "Simple past “looked” expresses the finished action within the study.<br/><br/>The other forms mischaracterize the action: “looking” doesn't work structurally, “were looking” suggests an ongoing action, and “had looked” implies a prior past event that isn't established.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b497f82e-d544-41ec-9ef5-cc6283f4b89f_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the temporal frame",
+      "content": "\"In a 2022 study\" places the researchers' action at a specific moment in the past when the study occurred."
+    },
+    {
+      "title": "Choose the completed past action",
+      "content": "Identify the grammar issue: the sentence already has a main verb — <em>analyzed</em> (\"researchers ... analyzed geotagged social media posts\"). The blank cannot be another finite verb; it must be a participial phrase modifying <em>researchers</em>. Rule: when the main verb is elsewhere, a phrase modifying the subject must use a present or past participle, not a finite verb.<ul><li><strong>Choice A — \"looking\"</strong>: present participle; \"researchers, <em>looking</em> for a relationship..., analyzed posts\" — correctly modifies \"researchers\" as a participial phrase. ✓</li><li><strong>Choice B — \"looked\"</strong>: simple past finite verb; creates two main verbs (\"looked\" and \"analyzed\") with no conjunction = run-on. ✗</li><li><strong>Choice C — \"were looking\"</strong>: past progressive finite verb; same double-verb problem as B. ✗</li><li><strong>Choice D — \"had looked\"</strong>: past perfect finite verb; again two main verbs with no conjunction. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
+    }
+  ]
+}

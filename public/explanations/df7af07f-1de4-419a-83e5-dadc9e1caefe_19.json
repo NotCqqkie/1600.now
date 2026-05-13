@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure",
-      "content": "The blank requires a noun and a relative clause: \u201cmaterials that Palma Rodriguez uses in his art.\u201d The relative clause is dependent and introduced by \u201cthat.\u201d"
+      "content": "The blank requires a noun and a relative clause: \"materials that Palma Rodriguez uses in his art.\" The relative clause is dependent and introduced by \"that.\""
     },
     {
       "title": "Apply the rule about restrictive relative clauses",
-      "content": "<strong>A relative clause introduced by \u201cthat\u201d is restrictive and takes no commas because it's essential to identifying which noun is meant.</strong> Choices A and D incorrectly add a comma before \u201cthat,\u201d and C incorrectly adds a comma after the clause.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Identify the structure: \"materials that Palma Rodriguez uses in his art\" is a <strong>restrictive relative clause</strong> — it identifies WHICH materials (the ones he uses in his art, not other materials). Restrictive clauses take NO commas. The clause is followed by a verb phrase continuing the sentence, so no closing comma either.<ul><li><strong>Choice A — \"materials, that...\"</strong>: comma before \"that\" wrongly treats the clause as parenthetical; \"that\"-clauses are always restrictive and never take a preceding comma. ✗</li><li><strong>Choice B — \"materials that... his art\"</strong>: no commas — correctly treats the clause as restrictive. ✓</li><li><strong>Choice C — \"materials that... his art,\"</strong>: trailing comma incorrectly separates the clause from what follows. ✗</li><li><strong>Choice D — \"materials, that... his art,\"</strong>: both errors — wrong opening comma AND wrong closing comma. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

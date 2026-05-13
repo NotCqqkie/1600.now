@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent and required form",
-      "content": "The blank needs a possessive modifier for \u201cparticles.\u201d The antecedent is \u201cthe Andromedid meteoroid stream,\u201d which is singular. We need the singular possessive determiner."
+      "title": "Identify the antecedent",
+      "content": "The blank fills \"Although ______ particles range in size...\" The noun being modified is \"particles\" belonging to the Andromedid meteoroid stream — a singular entity. The blank needs a possessive determiner (meaning \"belonging to the stream\"), not a pronoun standing alone."
     },
     {
-      "title": "Apply number agreement to select the correct possessive",
-      "content": "A possessive determiner must agree in number with its antecedent. \u201cIts\u201d is the singular form that matches. B and C are contractions (\u201cthey are,\u201d \u201cit is\u201d), not possessive determiners; A is plural. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Choose the correct possessive",
+      "content": "Rule: a possessive determiner must match the antecedent (the stream) in number and must be a true possessive, not a contraction.\n\nA. \"their\" — plural possessive. Fails: the Andromedid meteoroid stream is singular, not plural.\nB. \"they're\" — contraction of \"they are.\" Fails: this is a verb phrase, not a possessive, and the sentence would read \"they are particles range,\" which is ungrammatical.\nC. \"it's\" — contraction of \"it is.\" Fails: same error as B — \"it is particles range\" is ungrammatical.\nD. \"its\" — singular possessive (no apostrophe). Correctly shows the particles belong to the singular Andromedid stream. Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

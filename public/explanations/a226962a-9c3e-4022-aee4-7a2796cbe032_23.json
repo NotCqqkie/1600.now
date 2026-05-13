@@ -1,1 +1,15 @@
-{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The key signal is <em>“more accurate”</em>—a comparison that demands explanation. The sentence after the blank provides that explanation: the 1920 calculation used primitive equipment."}, {"title": "Match the meaning", "content": "<em>“Of course”</em> signals that an explanation follows—one justifying the preceding claim about accuracy.<br/><br/>The 1920 calculation's primitive equipment explains its inferior accuracy compared to the 2015 version.<br/><br/>The other three suggest similarity, signal purpose, or indicate finality.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The second sentence states Rogerson's 2015 calculation was more accurate than the 1920 one. The third sentence explains why the 1920 calculation was less accurate — it used rudimentary equipment. The blank introduces that explanation."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The logical relationship is concession/explanation. The blank needs a transition signaling that what follows explains why the earlier, less accurate result was predictable.\n<ul>\n<li><strong>Choice A — \"Likewise,\"</strong>: signals similarity between two things, but the 1920 calculation's flaws don't parallel Rogerson's accuracy — they explain the gap between them. ✗</li>\n<li><strong>Choice B — \"To that end,\"</strong>: signals that what follows is done in pursuit of a stated goal, but explaining why old equipment was primitive isn't a goal-directed action. ✗</li>\n<li><strong>Choice C — \"Of course,\"</strong>: signals that the following point is an unsurprising or natural explanation — it's obvious that primitive equipment would produce less accurate results. ✓</li>\n<li><strong>Choice D — \"Ultimately,\"</strong>: signals a final outcome or conclusion, but the equipment note isn't a final outcome — it's a mid-explanation supporting fact. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

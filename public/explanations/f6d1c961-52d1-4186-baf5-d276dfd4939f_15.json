@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify whether the name is essential",
-      "content": "No specific novelist has been previously mentioned, so \u201cStephen Graham Jones\u201d is essential to identify which novelist the editors turned to\u2014making this a restrictive appositive."
+      "content": "The sentence refers to \"the novelist\" the editors turned to—no specific novelist has been named yet. \"Stephen Graham Jones\" is essential to identify which novelist is meant, making this a restrictive appositive. Restrictive appositives take no punctuation."
     },
     {
       "title": "Apply the rule for essential appositives",
-      "content": "When an appositive is essential to identify the noun, no punctuation separates them\u2014choice A follows this rule. Choices B and D incorrectly add commas (treating it as non-essential information), and choice C breaks the sentence with a period. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Rule: restrictive appositive = no commas or other punctuation separating it from the noun. Test each choice:<br/><br/><strong>A) novelist Stephen Graham Jones</strong> — no punctuation between \"novelist\" and the name. Treats the name as essential and identifying. <strong>Correct.</strong><br/><br/><strong>B) novelist, Stephen Graham Jones,</strong> — commas on both sides treat the name as non-essential (non-restrictive), implying the reader already knows which novelist is meant. No such context exists. Fails.<br/><br/><strong>C) novelist. Stephen Graham Jones</strong> — a period creates two fragments; \"the editors turned to the novelist\" is incomplete, and \"Stephen Graham Jones\" becomes a standalone fragment. Fails.<br/><br/><strong>D) novelist Stephen Graham Jones,</strong> — a trailing comma after \"Jones\" incorrectly separates the subject from the verb \"to craft,\" breaking the sentence. Fails."
     }
   ]
 }

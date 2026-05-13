@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the temporal anchor",
-      "content": "\u201dOn August 15, 2013\u201d is a specific past date. This temporal marker determines which verb tense to use."
+      "content": "\"On August 15, 2013\" is a specific past date. This temporal marker determines which verb tense to use."
     },
     {
-      "title": "Match the tense to the time",
-      "content": "The rule is that verb tense must align with the time reference. 'Published' is correct\u2014it uses simple past to match the 2013 date. The other three violate this alignment by using future or present tense forms. This matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "Rule: the verb tense must match the time anchor in the sentence. \"On August 15, 2013\" fixes the action in the completed past.<br/><br/><strong>A — \"will publish\"</strong> Future tense. The publication already happened in 2013; \"will\" implies it hasn't occurred yet. Fails.<br/><br/><strong>B — \"published\"</strong> Simple past. Matches the 2013 date, describing a completed action. Correct.<br/><br/><strong>C — \"publishes\"</strong> Simple present. Presents the 2013 publication as if it happens habitually or right now. Fails.<br/><br/><strong>D — \"is publishing\"</strong> Present progressive. Implies the Navajo Times is publishing the profile at this moment, not on August 15, 2013. Fails.<br/><br/><strong>B</strong> is correct."
     }
   ]
 }

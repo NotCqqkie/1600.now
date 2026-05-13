@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the singular antecedent", "content": "The blank needs a subject pronoun for the main clause. That pronoun must refer back to <strong>“a given term,”</strong> which is singular."}, {"title": "Apply pronoun-antecedent agreement", "content": "Pronoun-antecedent agreement requires <strong>it</strong> as the standard singular pronoun, making B the correct answer.<br/><br/>C and D violate agreement by using plural pronouns; A uses the demonstrative <strong>this</strong> when the personal pronoun <strong>it</strong> is conventional.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the singular antecedent",
+      "content": "The blank needs a subject pronoun for the main clause. That pronoun must refer back to <strong>\"a given term,\"</strong> which is singular."
+    },
+    {
+      "title": "Apply pronoun-antecedent agreement",
+      "content": "Identify the grammar issue: the antecedent is <strong>\"a given term\"</strong> (singular, non-human). After the parenthetical aside, the blank refers back to this antecedent. Rule: pronoun must agree in number (singular) and demonstrative form must match a singular antecedent.<ul><li><strong>Choice A — \"this often becomes\"</strong>: <em>this</em> as a stand-alone pronoun is vague (this what?); it doesn't refer back to \"a given term\" with appropriate clarity. ✗</li><li><strong>Choice B — \"it often becomes\"</strong>: <em>it</em> is the singular pronoun matching \"a given term\"; \"becomes\" agrees with the singular subject. ✓</li><li><strong>Choice C — \"they often become\"</strong>: <em>they</em> is plural — doesn't agree with the singular \"a given term.\" ✗</li><li><strong>Choice D — \"these often become\"</strong>: <em>these</em> is plural — same agreement error as C. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

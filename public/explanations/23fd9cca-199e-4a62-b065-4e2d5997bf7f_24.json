@@ -1,1 +1,15 @@
-{"questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the frequency signal", "content": "The key signal: “relatively rare for supporters of the railroad to be secretive about their antislavery views.”"}, {"title": "Apply the frequency signal", "content": "”More often” directly matches this signal by inverting the frequency — if secretive supporters were rare, then more often they were vocal abolitionists like LeMoyne.<br/><br/>The other three choices don't address the frequency relationship; they appeal instead to appropriateness, concession, or exemplification.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_24",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "Sentence 2 says it was \"relatively rare\" for railroad supporters to be secretive. Sentence 3 says LeMoyne and others \"were vocal abolitionists\" — the opposite of secretive. The relationship is frequency contrast: rare (secretive) vs. common (vocal). The blank must signal what happened more frequently."
+    },
+    {
+      "title": "Match the transition to the logic",
+      "content": "A. \"Fittingly,\" — signals that what follows is appropriate or expected given the circumstances. Fails: this doesn't address frequency at all; it just implies the vocal behavior was fitting, not that it was the more common pattern.\nB. \"Granted,\" — signals a concession, acknowledging a point that might seem to undercut the argument. Fails: sentence 3 is not conceding anything — it reinforces the frequency claim in sentence 2.\nC. \"More often,\" — directly signals frequency, completing the contrast: secretive was rare, vocal was more often the case. Correct.\nD. \"For example,\" — signals that a specific illustrating instance follows. Fails: sentence 3 states a general frequency pattern (\"they were vocal abolitionists\"), not a specific single example, so \"For example\" would misrepresent the sentence's purpose.\n\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

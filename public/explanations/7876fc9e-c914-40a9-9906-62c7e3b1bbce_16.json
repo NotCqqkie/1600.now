@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the present-time signal", "content": "”Currently” directly indicates that the painting's location and state at this moment in time are being described."}, {"title": "Apply the present-tense rule", "content": "Simple present tense expresses what is currently true. “hangs” is simple present and correctly describes the painting's location at the museum. “will have hung,” “hung,” and “was hanging” all use past or future tenses that contradict the “Currently” signal.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the present-time signal",
+      "content": "\"Currently\" directly indicates that the painting's location and state at this moment in time are being described."
+    },
+    {
+      "title": "Apply the present-tense rule",
+      "content": "Identify the grammar issue: the time marker <strong>\"Currently\"</strong> signals a present-moment, ongoing fact. Rule: <em>currently</em> takes simple present tense, not past or future.<ul><li><strong>Choice A — \"will have hung\"</strong>: future perfect; describes something completed by a future time, not a present state. ✗</li><li><strong>Choice B — \"hangs\"</strong>: simple present; matches \"Currently\" — the painting is hanging right now. ✓</li><li><strong>Choice C — \"hung\"</strong>: simple past; contradicts \"Currently\" by placing the action entirely in the past. ✗</li><li><strong>Choice D — \"was hanging\"</strong>: past progressive; again places the action in the past. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

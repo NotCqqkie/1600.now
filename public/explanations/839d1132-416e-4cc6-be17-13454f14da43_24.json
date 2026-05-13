@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "<strong>The first sentence</strong> says Smith worked at JPL, a leading facility for robotic space exploration; the second sentence gives a specific example of her work there."
+      "content": "The first sentence says Stephaney Smith worked at JPL, one of the world's leading facilities for robotic space exploration. The second sentence gives a concrete detail of what she did there — her specific role on the Mars 2020 Perseverance rover team."
     },
     {
       "title": "Apply the signal to the choices",
-      "content": "<strong>Specifically</strong> shows that the second sentence gives a concrete example of the general claim in the first.<br/>Conversely, Finally, and Nevertheless each express contrast, addition, or concession, which does not fit the illustrative link.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The logical relationship is specification. The blank needs a transition signaling that the second sentence narrows in on a concrete example of Smith's work at JPL.\n<ul>\n<li><strong>Choice A — \"Conversely,\"</strong>: signals direct opposition, but Smith's rover role doesn't contradict the claim that she worked at JPL — it confirms it. ✗</li>\n<li><strong>Choice B — \"Finally,\"</strong>: signals the last item in a series or the end of a process, but there's no series here — just a general claim followed by one detail. ✗</li>\n<li><strong>Choice C — \"Nevertheless,\"</strong>: signals contrast despite an obstacle, but no obstacle is mentioned in the first sentence. ✗</li>\n<li><strong>Choice D — \"Specifically,\"</strong>: signals a concrete detail or narrowing of a general claim, so fits — the rover role is the specific work she did at JPL. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

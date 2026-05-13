@@ -1,1 +1,15 @@
-{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_3", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the romantic painters' approach", "content": "The key signal is the two-part structure: romantic paintings emphasize subjects' <em>beauty or heroism</em> while also <em>hiding all imperfection</em>. This describes amplifying positive qualities to conceal flaws."}, {"title": "Find the word that fits amplification", "content": "<em>Exaggerate</em> captures the romantic painters' strategy of amplifying beauty and heroism while concealing flaws.<br/><br/>B, C, and D each miss: <em>correct</em> is illogical, <em>undermine</em> contradicts the emphasis, and <em>mock</em> contradicts hiding imperfection.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the romantic painters' approach",
+      "content": "The key signal is the two-part structure: romantic paintings emphasize subjects' <em>beauty or heroism</em> while also <em>hiding all imperfection</em>. This describes amplifying positive qualities to conceal flaws."
+    },
+    {
+      "title": "Find the word that fits amplification",
+      "content": "The blank describes what romantic paintings do to subjects' \"beauty or heroism\" while \"hiding all imperfection.\" Substitute each word into \"paintings which ______ their subjects' beauty or heroism\":<br/><br/><strong>A. Exaggerate</strong> means to represent something as larger or more extreme than it is. \"Exaggerate beauty or heroism\" while hiding flaws = amplifying positives and suppressing negatives -- exactly the romantic style as described. &#10003;<br/><br/><strong>B. Correct</strong> means to fix errors or make accurate. Correcting beauty or heroism makes no logical sense -- beauty and heroism are not mistakes to be fixed.<br/><br/><strong>C. Undermine</strong> means to weaken or erode. If the paintings undermined their subjects' beauty or heroism, they would be critical or negative -- contradicting \"hiding all imperfection.\"<br/><br/><strong>D. Mock</strong> means to ridicule or make fun of. Mocking subjects' beauty contradicts hiding their imperfections; mockery exposes flaws rather than concealing them.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

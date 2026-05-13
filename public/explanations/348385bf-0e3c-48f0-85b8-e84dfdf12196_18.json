@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the temporal context",
-      "content": "The passage describes the Akkadian Empire's reign from 2334 to 2154 BCE and uses past tense verbs for related actions: \u201cwas vital,\u201d \u201creigned,\u201d and \u201creceived.\u201d"
+      "title": "Establish the time frame",
+      "content": "The passage describes the Akkadian Empire, which \"reigned in Mesopotamia from around 2334 BCE to 2154 BCE.\" The surrounding verbs are all past tense: \"was vital,\" \"reigned,\" \"received.\" The blank describes what the Empire's people did during that same historical period."
     },
     {
-      "title": "Apply the tense consistency rule",
-      "content": "Verbs describing related actions in the same time period must maintain consistent tense. <strong>\u201cProduced\u201d</strong> is past tense and matches the historical narrative; the other three violate tense consistency by using non-past forms. This matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Choose the consistent tense",
+      "content": "Rule: verbs describing actions in the same time frame must use consistent tense. All context verbs are simple past, so the blank must also be simple past.\n\nA. \"produce\" — simple present. Fails: switches to present tense mid-narrative about events from 2334-2154 BCE.\nB. \"produced\" — simple past. Matches the historical time frame and the past-tense verbs throughout the passage. Correct.\nC. \"will produce\" — simple future. Fails: the empire no longer exists; future tense is impossible and inconsistent.\nD. \"are producing\" — present progressive. Fails: describes ongoing present action, but the empire ended over 4,000 years ago.\n\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

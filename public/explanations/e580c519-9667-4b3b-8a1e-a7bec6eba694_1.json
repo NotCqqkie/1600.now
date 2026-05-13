@@ -1,1 +1,15 @@
-{"questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage describes the delta as “a constantly evolving network… that change in size and shape.” The key signal—”constantly evolving” and “change”—describes something undergoing continuous transformation."}, {"title": "Match the meaning", "content": "<strong>Dynamic</strong> directly expresses constant change and activity—matching “constantly evolving” and “change in size and shape.” The other three contradict or miss the point: “immutable” opposes change, “unrivaled” concerns competition, and “sustainable” emphasizes duration.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage describes the delta as \"a constantly evolving network of channels and strips of land that change in size and shape.\" The key signal—\"constantly evolving\" and \"change\"—describes something undergoing continuous transformation."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "The blank fills \"the Shatt al-Arab River delta is ______.\" Test each choice against \"constantly evolving\" and \"change in size and shape\":<br/><br/><strong>A) dynamic</strong> = characterized by constant change and activity. \"The delta is dynamic\" directly matches \"constantly evolving\" and \"change in size and shape.\" <strong>Correct.</strong><br/><br/><strong>B) immutable</strong> = unchanging, permanent. \"The delta is immutable\" contradicts the passage's explicit statement that it changes constantly. Fails.<br/><br/><strong>C) unrivaled</strong> = having no equal, the best. \"The delta is unrivaled\" would mean it is superior to other deltas—the passage makes no such comparison. Fails.<br/><br/><strong>D) sustainable</strong> = able to be maintained over time. \"The delta is sustainable\" concerns long-term viability, not the ongoing transformation the passage describes. Fails."
+    }
+  ]
+}

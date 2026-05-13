@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the contrast signal",
-      "content": "The text contrasts a demonstrated success (NASA&rsquo;s 2022 asteroid experiment) with an unproven claim (about primary objects). The blank must signal this <strong>opposition</strong> between known and unknown outcomes."
+      "content": "The text describes NASA's 2022 success in altering a moonlet's orbit, then pivots: scientists have not yet shown that primary objects like 2013 PY6 would be \"similarly affected.\" The blank must signal doubt or opposition after a demonstrated success."
     },
     {
       "title": "Match the logical shift",
-      "content": "B introduces the necessary contrast, showing doubt about applying the experiment&rsquo;s success to primary objects. C and D continue in the same positive direction, while A adds an irrelevant example. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The logical relationship is contrast/concession. The blank needs a transition signaling that the unproven claim about primary objects runs counter to the demonstrated success with moonlets.\n<ul>\n<li><strong>Choice A — \"for example,\"</strong>: signals a specific instance illustrating a general claim, but the primary-object question isn't an example of the moonlet success — it's a counterpoint. ✗</li>\n<li><strong>Choice B — \"though,\"</strong>: signals contrast or qualification, so fits: NASA succeeded with moonlets, though that success hasn't been extended to primary objects. ✓</li>\n<li><strong>Choice C — \"likewise,\"</strong>: signals similarity, but primary objects haven't been shown to behave like moonlets — that's exactly what's unproven. ✗</li>\n<li><strong>Choice D — \"moreover,\"</strong>: signals an additional supporting point, but the unproven status of primary objects doesn't reinforce the moonlet success — it qualifies it. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

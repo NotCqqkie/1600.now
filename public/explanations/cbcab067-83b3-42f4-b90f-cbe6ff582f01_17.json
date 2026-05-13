@@ -1,1 +1,15 @@
-{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The noun phrase <em>liquid compounds</em> is followed by an appositive phrase naming hexafluorobenzene and benzene. This appositive identifies which specific compounds have those molar masses—it's essential identifying information."}, {"title": "Apply the punctuation rule", "content": "Appositives that are essential to identifying a noun use no commas.<br/><br/>The compound names identify which compounds, so they must run directly after <em>compounds</em> without punctuation.<br/><br/>Choices A, B, and C all use commas, treating the names as optional information.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The noun phrase <em>liquid compounds</em> is followed by an appositive phrase naming hexafluorobenzene and benzene. This appositive identifies which specific compounds have those molar masses—it's essential identifying information."
+    },
+    {
+      "title": "Apply the punctuation rule",
+      "content": "Identify the structure: \"hexafluorobenzene (C₆F₆) and benzene (C₆H₆)\" is a <strong>restrictive appositive</strong> — it identifies WHICH compounds (essential information; only two specific compounds are being discussed). Restrictive appositives take no commas. The phrase ends just before the next clause begins.<ul><li><strong>Choice A — \"compounds, ... C₆H₆),\"</strong>: commas on both sides treat the names as non-essential, but they are essential to identify the compounds. ✗</li><li><strong>Choice B — \"compounds ... C₆H₆),\"</strong>: missing opening comma but trailing comma creates a mismatched, broken structure. ✗</li><li><strong>Choice C — \"compounds, ... C₆H₆)\"</strong>: opening comma without closing comma — same parenthetical-treatment error as A, plus mismatched. ✗</li><li><strong>Choice D — \"compounds ... C₆H₆)\"</strong>: no commas — correctly treats the names as restrictive (essential identification). ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent", "content": "The blank requires a pronoun referring to “the substance” (chicken fat from the previous sentence) — a singular, non-human noun."}, {"title": "Apply pronoun-antecedent agreement", "content": "A pronoun must agree with its antecedent in number. “It” is the standard singular pronoun for non-human nouns. “Those” and “they” are plural, violating number agreement, and “that” is a demonstrative pronoun less natural for neutral back-reference.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the pronoun replaces",
+      "content": "The sentence says \"______ will begin to combust.\" The prior sentence names \"the substance\" (chicken fat) — a singular, non-human noun. The pronoun must refer back to \"the substance.\""
+    },
+    {
+      "title": "Eliminate wrong pronouns",
+      "content": "Rule: a pronoun must match its antecedent in number. \"The substance\" is singular.\n\nA. \"those\" — plural demonstrative pronoun. Fails: \"the substance\" is singular, not plural.\nB. \"they\" — plural personal pronoun. Fails: same number mismatch as \"those.\"\nC. \"that\" — singular demonstrative, but used to point to a new noun, not refer back to one already named. \"That will begin to combust\" sounds like introducing a new subject. Fails: awkward and non-standard for simple back-reference.\nD. \"it\" — singular personal pronoun for non-human nouns. Correctly refers back to the singular noun \"the substance.\" Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

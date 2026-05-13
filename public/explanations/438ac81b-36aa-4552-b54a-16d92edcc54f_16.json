@@ -1,1 +1,15 @@
-{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the main verb position", "content": "The blank must contain the main verb of the clause “She typically ___ them from sumac and cedar bark.”"}, {"title": "Apply the conjugation rule", "content": "The main verb must be conjugated to match its subject. “Weaves” is the present tense form that agrees with the singular subject “She,” showing what she typically does.<br/><br/>Non-conjugated forms like gerunds and infinitives cannot serve as the main verb.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence's structural need",
+      "content": "The sentence is: \"She typically ___ them from sumac and cedar bark.\" The subject is \"She\" (singular) and \"typically\" signals a habitual action. The blank must be the main, conjugated verb — the only verb this clause has."
+    },
+    {
+      "title": "Choose the correctly conjugated verb",
+      "content": "Rule: a main verb must be finite (conjugated) and agree with its subject. Non-finite forms (gerunds, infinitives) cannot stand alone as a predicate.\n\nA. \"weaving\" — present participle / gerund (non-finite). Fails: \"She typically weaving them\" has no finite verb; the sentence becomes a fragment.\nB. \"to weave\" — infinitive (non-finite). Fails: \"She typically to weave them\" is ungrammatical as a standalone predicate.\nC. \"weaves\" — third-person singular present tense (finite). Matches the singular subject \"She\" and correctly expresses a habitual action with \"typically.\" Correct.\nD. \"to be weaving\" — progressive infinitive (non-finite). Fails: same problem as B; an infinitive cannot serve as the main verb.\n\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

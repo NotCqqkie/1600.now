@@ -1,1 +1,15 @@
-{"questionId": "ea42af8e-0812-4d54-a254-797255665265_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the specific examples", "content": "The second sentence names exact mushroom species and the specific compounds Ferreira detected in each—concrete instances of the phenolic compounds mentioned in the first sentence."}, {"title": "Apply the correct transition", "content": "”For example” introduces specific instances that illustrate a general claim.<br/><br/>The other three choices falsely imply different logical relationships: “However” and “Nevertheless” suggest contradiction, while “For this reason” implies causation—neither fits the exemplification pattern here.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ea42af8e-0812-4d54-a254-797255665265_22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the specific examples",
+      "content": "The first sentence states that many mushroom species contain phenolic compounds and names two: 5-O-caffeoylquinic acid and kaempferol. The second sentence then reports exactly which mushrooms Ferreira detected each compound in — concrete instances of the general finding."
+    },
+    {
+      "title": "Apply the correct transition",
+      "content": "The logical relationship is example. The blank needs a transition signaling that the second sentence provides specific instances of the general claim in the first.\n<ul>\n<li><strong>Choice A — \"However,\"</strong>: signals contrast or contradiction, but the detection of specific compounds in specific mushrooms supports the general finding — it doesn't oppose it. ✗</li>\n<li><strong>Choice B — \"For this reason,\"</strong>: signals a cause-effect link, but the species-level detections aren't caused by the general finding — they illustrate it. ✗</li>\n<li><strong>Choice C — \"For example,\"</strong>: signals a specific instance of a general claim, so fits — the per-mushroom data exemplifies the broader phenolic compound finding. ✓</li>\n<li><strong>Choice D — \"Nevertheless,\"</strong>: signals that something holds true despite an obstacle, but no obstacle or objection appears in the first sentence. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

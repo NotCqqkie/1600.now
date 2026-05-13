@@ -1,1 +1,15 @@
-{"questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_17", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key time signal", "content": "The adverb “Currently” at the start of the second sentence establishes that we are describing the frog's range as it exists in the present."}, {"title": "Apply the present-tense rule", "content": "'Includes' (C) is simple present tense, which directly matches the present-time signal of “Currently”.<br/><br/>The other three choices use past perfect, future perfect, and simple past — all incompatible with describing something in the present.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "406baf08-71da-41c0-bc3d-ddc2c25258ba_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the time signal",
+      "content": "The sentence reads: \"Currently, the frog's range ______ parts of northern New South Wales and southeastern Queensland.\" The adverb \"Currently\" signals the present moment — what the range includes right now."
+    },
+    {
+      "title": "Match verb tense to the signal",
+      "content": "Rule: time signals lock the required tense. \"Currently\" requires simple present tense.\n\nA. \"had included\" — past perfect. Fails: past perfect describes something completed before another past event, not the current situation.\nB. \"will have included\" — future perfect. Fails: describes something that will be completed at some future point, contradicting \"Currently.\"\nC. \"includes\" — simple present tense. Directly matches \"Currently\" to describe the range as it exists now. Correct.\nD. \"included\" — simple past. Fails: describes what was true at a past time, not the present state signaled by \"Currently.\"\n\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

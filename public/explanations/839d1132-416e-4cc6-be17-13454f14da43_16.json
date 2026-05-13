@@ -1,1 +1,15 @@
-{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the time signal", "content": "The phrase “since 1945” indicates an action that started in the past and continues to the present."}, {"title": "Apply the present perfect rule", "content": "Present perfect tense (<strong>has collected</strong>) is the required form when <em>since</em> links an action to a past starting point, showing it continues to now.<br/><br/>The other three choices violate this rule by using tenses that don't establish this past-to-present connection.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the time signal",
+      "content": "The phrase \"since 1945\" indicates an action that started in the past and continues to the present."
+    },
+    {
+      "title": "Apply the present perfect rule",
+      "content": "Identify the grammar issue: the time marker <strong>\"since 1945\"</strong> signals an action that began in the past and continues into the present. Rule: <em>since</em> + past time requires <strong>present perfect</strong> tense (has/have + past participle).<ul><li><strong>Choice A — \"is collecting\"</strong>: present progressive; describes an action happening now, but doesn't convey the start-in-1945-and-continues meaning. ✗</li><li><strong>Choice B — \"will collect\"</strong>: simple future; contradicts \"since 1945,\" which marks a past starting point. ✗</li><li><strong>Choice C — \"has collected\"</strong>: present perfect; correctly conveys an action ongoing from 1945 to now. ✓</li><li><strong>Choice D — \"collects\"</strong>: simple present; expresses a habitual action but loses the \"since 1945\" duration. ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

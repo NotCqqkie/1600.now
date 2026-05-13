@@ -1,1 +1,15 @@
-{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_16", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure requiring completion", "content": "The phrase is “respondents were more likely ____.” After a linking verb and adjective, a specific verb form is needed."}, {"title": "Apply the infinitive rule", "content": "Adjectives expressing likelihood require an infinitive (to + base verb) to complete them. 'To eat' correctly forms 'were more likely to eat.' The other options use past, future progressive, or participle forms, violating the infinitive requirement.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the structure requiring completion",
+      "content": "The phrase is \"respondents were more likely ____.\" After a linking verb and adjective, a specific verb form is needed."
+    },
+    {
+      "title": "Apply the infinitive rule",
+      "content": "Identify the grammar issue: the structure is \"more likely ______ common Brazilian foods.\" Rule: the adjective <em>likely</em> takes a complement formed with <strong>to + base verb</strong> (infinitive), not a finite verb or participle.<ul><li><strong>Choice A — \"ate\"</strong>: simple past finite verb; \"more likely ate\" is ungrammatical — <em>likely</em> requires an infinitive complement. ✗</li><li><strong>Choice B — \"will be eating\"</strong>: future progressive finite verb; same problem — <em>likely</em> doesn't take a finite verb complement. ✗</li><li><strong>Choice C — \"to eat\"</strong>: infinitive; \"more likely <em>to eat</em>\" is the correct adjective + infinitive idiom. ✓</li><li><strong>Choice D — \"eaten\"</strong>: past participle; \"more likely eaten\" reads as a passive remnant, not the active complement <em>likely</em> needs. ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

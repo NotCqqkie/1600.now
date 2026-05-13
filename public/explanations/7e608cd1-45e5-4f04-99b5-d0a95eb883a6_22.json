@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the locational reference",
-      "content": "The opening sentence establishes a specific place\u2014the Marie Hitchcock Puppet Theater in San Diego, California. When introducing a location this explicitly, the next sentence naturally references it."
+      "content": "The opening sentence establishes a specific place—the Marie Hitchcock Puppet Theater in San Diego, California. When introducing a location this explicitly, the next sentence naturally references it."
     },
     {
       "title": "Apply the locational anchor",
-      "content": "\u201dThere\u201d directly refers back to the theater named in the first sentence, creating the intended flow. \u201cTo that end,\u201d \u201cHowever,\u201d and \u201cConversely\u201d each impose purpose, contrast, or opposition\u2014relationships absent from the passage. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The logical relationship is specification of place: the second sentence says what happens at the theater named in sentence one. The blank needs a transition signaling location/reference back to that place.<ul><li><strong>Choice A — \"To that end,\"</strong>: signals purpose (sentence 2 is the goal of sentence 1), so fails — sentence 2 is not a goal, it is simply what happens there. ✗</li><li><strong>Choice B — \"However,\"</strong>: signals contrast, so fails — no opposing idea is introduced. ✗</li><li><strong>Choice C — \"Conversely,\"</strong>: signals direct opposition, so fails — the second sentence does not reverse anything. ✗</li><li><strong>Choice D — \"There,\"</strong>: signals location, referring back to the Marie Hitchcock Puppet Theater, so fits perfectly. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

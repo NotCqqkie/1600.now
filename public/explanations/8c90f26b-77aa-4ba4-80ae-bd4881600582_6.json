@@ -1,1 +1,15 @@
-{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the contrast word", "content": "The word “novel” signals the researchers chose a new and different path. This only stands out as novel if existing studies represent what's standard."}, {"title": "Match the standard", "content": "Conventional directly opposes novel—it's the standard approach against which the researchers' new path stands out.<br/><br/>Eccentric would already be unusual (blurring the contrast), meager addresses irrelevant quantity, and random contradicts the systematic approach described.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast word",
+      "content": "The word \"novel\" signals the researchers chose a new and different path. This only stands out as novel if existing studies represent what's standard."
+    },
+    {
+      "title": "Match the standard",
+      "content": "Substitute each word into \"many ______ studies\" and test against the passage's contrast with \"novel\":<br/><br/><strong>A. Eccentric</strong> means bizarrely unconventional. \"Many eccentric studies\" would already be unusual, so the researchers' \"novel path\" wouldn't stand out as different — the contrast collapses.<br/><br/><strong>B. Meager</strong> means small in quantity. The passage says nothing about how many prior studies exist; the blank describes the <em>type</em> of prior approach, not its amount.<br/><br/><strong>C. Conventional</strong> means following the standard, accepted approach. \"Many conventional studies focus on people above sea level\" sets up a clear contrast with the \"novel path\" of studying people below sea level. &#10003;<br/><br/><strong>D. Random</strong> means without plan or pattern. The prior studies were systematic enough to have a consistent focus (altitude above sea level); calling them random contradicts the passage.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

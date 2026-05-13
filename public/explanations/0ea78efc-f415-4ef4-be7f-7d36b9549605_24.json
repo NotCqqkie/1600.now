@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the contrast in distances",
-      "content": "The passage first establishes JWST's distance from Earth (one million miles), then introduces Hubble's distance (340 miles). The transition must signal we're comparing these two positions."
+      "content": "The passage first establishes JWST's distance from Earth (one million miles), then introduces Hubble's distance (340 miles). The transition must signal we're comparing these two very different positions."
     },
     {
       "title": "Match the comparison signal",
-      "content": "<strong>In comparison</strong> works because it's the only transition that sets one thing against another for contrast. The other three all signal the wrong kind of relationship\u2014sequence, addition, or causation\u2014rather than comparison. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The logical relationship is contrast/comparison. The blank needs a transition signaling that Hubble's distance is being set against JWST's for comparison.\n<ul>\n<li><strong>Choice A — \"Next,\"</strong>: signals the next step in a sequence, but Hubble's position isn't a step that follows from JWST's — they're simultaneous facts being contrasted. ✗</li>\n<li><strong>Choice B — \"Moreover,\"</strong>: signals additional information in the same direction, but Hubble's short distance doesn't reinforce JWST's great distance — it contrasts it. ✗</li>\n<li><strong>Choice C — \"In comparison,\"</strong>: signals that one thing is being measured against another, so fits the contrast between the two telescopes' distances. ✓</li>\n<li><strong>Choice D — \"As a result,\"</strong>: signals a consequence, but Hubble's distance isn't caused by JWST's distance. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

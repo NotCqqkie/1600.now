@@ -1,1 +1,15 @@
-{"questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the category-and-examples pattern", "content": "The phrase “several themes” names a general category, and what immediately follows—”movement, the environment, and Kalabari culture”—lists specific examples clarifying what those themes are."}, {"title": "Apply the colon rule", "content": "A colon introduces a list or elaboration. Here, the colon in choice D correctly introduces the specific examples that elaborate on “themes.” No punctuation leaves the phrase broken, a period fragments the sentence, and a semicolon is for independent clauses.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the category-and-examples pattern",
+      "content": "The sentence ends: \"often references at least one of several ______ movement, the environment, and Kalabari culture.\" The word \"several\" names a general category (themes), and \"movement, the environment, and Kalabari culture\" are the specific examples listing what those themes are. A colon introduces a list that elaborates on the preceding noun."
+    },
+    {
+      "title": "Apply the colon rule",
+      "content": "Rule: use a colon after a complete clause to introduce a list or elaboration. Test each reconstructed sentence:<br/><br/><strong>A) themes; movement,</strong> → \"several themes; movement, the environment, and Kalabari culture\" — a semicolon joins two independent clauses, but \"movement, the environment, and Kalabari culture\" is not a clause. Fails.<br/><br/><strong>B) themes. Movement,</strong> → \"several themes. Movement, the environment, and Kalabari culture\" — a period creates two sentences; the second becomes a fragment with no verb. Fails.<br/><br/><strong>C) themes movement,</strong> → \"several themes movement, the environment, and Kalabari culture\" — no punctuation leaves the noun \"themes\" and the list fused without any signal that the list is elaborating on \"themes.\" Fails.<br/><br/><strong>D) themes: movement,</strong> → \"several themes: movement, the environment, and Kalabari culture\" — the colon correctly introduces the list of specific themes. <strong>Correct.</strong>"
+    }
+  ]
+}

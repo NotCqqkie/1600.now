@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the subject structure",
-      "content": "The subject is \u201cAmplifying the voices and experiences of Black soldiers,\u201d a gerund phrase (the -ing form acting as a noun). Gerund phrases are singular."
+      "content": "The subject is \"Amplifying the voices and experiences of Black soldiers,\" a gerund phrase (the -ing form acting as a noun). Gerund phrases are singular."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires a singular subject to take a singular verb, so \u201cwas\u201d is the only singular option. \u201cWere,\u201d \u201care,\u201d and \u201chave been\u201d are all plural and violate this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "Rule: a gerund phrase (\"Amplifying the voices and experiences of Black soldiers\") acts as a singular noun and requires a singular verb. The passage describes Chester's past work during the Civil War, so past tense is also required.<br/><br/><strong>A — \"were\"</strong> Plural past. \"Amplifying...were\" treats the gerund phrase as plural. Fails.<br/><br/><strong>B — \"have been\"</strong> Plural present perfect. Plural and wrong tense for a historical statement about Chester. Fails.<br/><br/><strong>C — \"are\"</strong> Plural present. Plural and shifts to present tense, contradicting the past-tense context of the passage. Fails.<br/><br/><strong>D — \"was\"</strong> Singular past. Matches the singular gerund subject and the historical past-tense context of Chester's Civil War work. Correct.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }

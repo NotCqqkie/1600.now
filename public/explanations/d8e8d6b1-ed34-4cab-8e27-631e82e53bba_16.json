@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the plural subject",
-      "content": "The subject is \u201cObjects,\u201d which is plural. Although an appositive phrase interrupts after it, the subject's number doesn't change."
+      "content": "The subject is \"Objects,\" which is plural. Although an appositive phrase interrupts after it, the subject's number doesn't change."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires verbs to match the number of their subjects. Choice D, \u201cexhibit,\u201d is the plural form that matches the plural subject \u201cObjects.\u201d Options A, B, and C all use singular verbs, violating this rule. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "Rule: the verb must agree with \"Objects\" (plural), not with the singular nouns inside the interrupting appositive (\"49036 Pelion, a 46-kilometer-wide body first detected in 1998\").<br/><br/><strong>A — \"is exhibiting\"</strong> Singular present progressive. Treats \"Objects\" as singular. Fails.<br/><br/><strong>B — \"exhibits\"</strong> Singular simple present. Agrees with a singular subject, not the plural \"Objects.\" Fails.<br/><br/><strong>C — \"has exhibited\"</strong> Singular present perfect. Again treats \"Objects\" as singular. Fails.<br/><br/><strong>D — \"exhibit\"</strong> Plural simple present. Agrees with the plural subject \"Objects,\" correctly describing their shared characteristics. Correct.<br/><br/><strong>D</strong> is correct."
     }
   ]
 }
