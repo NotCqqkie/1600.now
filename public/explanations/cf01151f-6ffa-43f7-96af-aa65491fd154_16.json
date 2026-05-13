@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and the parallel verb",
-      "content": "The subject is \"the word 'stockade'\" (singular). The sentence establishes parallelism with the coordinated clause \"'cinch' ... derives from cincho,\" so the blank must match \"derives\" in tense and number."
-    },
-    {
-      "title": "Apply subject-verb agreement and parallelism, then eliminate",
-      "content": "The blank needs a singular, simple-present verb that parallels \"derives.\"<br/><br/><strong>A. have derived</strong> — plural present perfect; wrong number and wrong tense. Eliminated.<br/><strong>B. were deriving</strong> — plural past progressive; wrong number and wrong tense. Eliminated.<br/><strong>C. derive</strong> — base form / plural present; wrong number (\"stockade\" is singular). Eliminated.<br/><strong>D. derives</strong> — third-person singular present; agrees with singular \"stockade\" and parallels \"derives.\" <strong>Correct.</strong><br/><br/>D is correct."
-    }
-  ]
-}
+{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is the singular noun phrase 'the word &quot;stockade&quot;'. The sentence is parallel with '&quot;cinch&quot; derives from cincho,' so the blank needs a third-person singular simple-present verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'have derived'</strong>: Present perfect plural &mdash; wrong number and wrong tense for parallelism with 'derives'. &#10007;</li><li><strong>Choice B &mdash; 'were deriving'</strong>: Past progressive plural &mdash; wrong number and wrong tense. &#10007;</li><li><strong>Choice C &mdash; 'derive'</strong>: Base form / plural present &mdash; does not agree with the singular subject 'the word &quot;stockade&quot;'. &#10007;</li><li><strong>Choice D &mdash; 'derives'</strong>: Third-person singular present &mdash; agrees with the singular subject and parallels 'derives' in the coordinated clause. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

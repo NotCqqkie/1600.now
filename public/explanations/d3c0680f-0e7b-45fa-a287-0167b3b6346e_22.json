@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the true subject",
-      "content": "The sentence begins with an inverted structure: \"So shrewd an observer is Shonagon... that her book's musings on tenth-century Japanese courtly life ______.\" Strip the prepositional phrase: the subject is \"musings\" (plural), not \"book\" or \"life.\""
-    },
-    {
-      "title": "Match verb to subject",
-      "content": "Rule: a plural subject requires a plural present-tense verb. \"Musings\" is plural, so the verb must be plural too.\n\nA. \"fascinate\" — plural present tense. Matches the plural subject \"musings.\" Correct.\nB. \"has fascinated\" — singular present perfect (\"has\" marks singular). Fails: \"musings has\" violates agreement.\nC. \"is fascinating\" — singular present progressive. Fails: \"musings is\" violates agreement.\nD. \"fascinates\" — singular present tense (the -s ending marks singular). Fails: \"musings fascinates\" violates agreement.\n\nThat matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence uses an inverted structure: &quot;So shrewd an observer is Shonagon... that her book's musings on tenth-century Japanese courtly life ______.&quot; Strip the prepositional phrase: the true subject is 'musings' (plural), so the verb must agree with a plural noun."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'fascinate'</strong>: plural present tense &mdash; agrees with the plural subject 'musings.' &#10003;</li><li><strong>Choice B &mdash; 'has fascinated'</strong>: 'has' marks singular present perfect &mdash; 'musings has' violates subject-verb agreement. &#10007;</li><li><strong>Choice C &mdash; 'is fascinating'</strong>: 'is' marks singular present progressive &mdash; 'musings is' violates subject-verb agreement. &#10007;</li><li><strong>Choice D &mdash; 'fascinates'</strong>: the -s ending marks singular present tense &mdash; 'musings fascinates' violates subject-verb agreement. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

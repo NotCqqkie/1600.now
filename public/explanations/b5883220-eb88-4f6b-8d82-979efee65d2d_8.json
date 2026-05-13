@@ -1,15 +1,1 @@
-{
-  "questionId": "b5883220-eb88-4f6b-8d82-979efee65d2d_8",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the slope magnitude",
-      "content": "The scatterplot shows a steep negative correlation. Moving from $x = 1$ to $x = 8$, the $y$-values decline from approximately 90 to approximately 20\u2014a drop of 70 units across 7 units of $x$. <br/><br/> A slope of $-0.1$ (choices B and C) would change $y$ by only 0.1 per unit of $x$. Over the entire visible range, that represents a total change of less than 1 unit\u2014far too small to match the data. <br/><br/> The slope must be $-10$. This eliminates B and C, leaving A and D."
-    },
-    {
-      "title": "Test the y-intercept at a clear point",
-      "content": "The point $(3, 60)$ is clearly visible on the scatterplot. <br/><br/> <strong>Choice A:</strong> $y = 80 - 10(3) = 50$. Predicted value is 50; actual value is 60. Does not fit.<br/><br/> <strong>Choice D:</strong> $y = 90 - 10(3) = 60$. Predicted value is 60; actual value is 60. Exact match. <br/><br/> That matches choice D\u2014<strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b5883220-eb88-4f6b-8d82-979efee65d2d_8","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"The line of best fit must match the scatterplot&apos;s slope and $y$-intercept. The data drops roughly 70 units over 7 units of $x$, giving a slope near $-10$. A slope of $-0.1$ would change $y$ by less than 1 unit total &mdash; far too shallow. This eliminates B and C."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $y = 80 - 10x$</strong>: at $x = 3$, predicts $80 - 30 = 50$, but the point $(3, 60)$ is visible on the plot. &#10007;</li><li><strong>Choice B &mdash; slope $-0.1$</strong>: slope is far too small for the steep decline shown. &#10007;</li><li><strong>Choice C &mdash; slope $-0.1$</strong>: same issue. &#10007;</li><li><strong>Choice D &mdash; $y = 90 - 10x$</strong>: at $x = 3$, predicts $90 - 30 = 60$. Matches $(3, 60)$ exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

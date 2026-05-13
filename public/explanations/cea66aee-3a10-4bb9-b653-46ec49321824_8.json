@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_8",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the emotional signal",
-      "content": "The word \u201cguiltily\u201d when Ramchand observes that all shop assistants are \u201calready in place\u201d is the key clue \u2014 guilt arises when someone feels they've fallen short of a standard others have met."
-    },
-    {
-      "title": "Apply the emotion to the choices",
-      "content": "Choice A identifies Ramchand's remorse about arriving later than the other assistants. B, C, and D either add unsupported details or misidentify his emotional state. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cea66aee-3a10-4bb9-b653-46ec49321824_8","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what can be inferred about Ramchand. The key word is &lsquo;guiltily&rsquo; &mdash; Ramchand notices that all the other shop assistants are already in place. Guilt signals he feels he has fallen short of a standard."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'remorseful about arriving to work later than other shop assistants'</strong>: The word &lsquo;guiltily&rsquo; directly supports remorse, and the other assistants being &lsquo;already in place&rsquo; confirms he is late. &#10003;</li><li><strong>Choice B &mdash; 'mesmerized by frying jalebi batter'</strong>: The jalebi detail describes the scene; nothing says Ramchand is captivated by it. &#10007;</li><li><strong>Choice C &mdash; 'overwhelmed by chaos of other assistants selling goods'</strong>: The assistants have &lsquo;fixed, attentive smiles&rsquo; &mdash; no chaos is described. &#10007;</li><li><strong>Choice D &mdash; 'happy after seeing satisfied shop assistants'</strong>: Ramchand feels guilty, not happy. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

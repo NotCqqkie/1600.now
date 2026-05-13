@@ -1,15 +1,1 @@
-{
-  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key reversal",
-      "content": "The passage asserts decarcinization is typically an \u201cevolutionary dead-end,\u201d but then presents frog crabs\u2014a decarcinized group thriving in sediment for millions of years. This counterexample undermines the initial generalization."
-    },
-    {
-      "title": "Draw the inference",
-      "content": "D correctly identifies that the crab form is not universally optimal and that ecological conditions sometimes favor decarcinization. A and B misread or contradict the passage, while C is entirely unrelated. That matches choice D\u2014<strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"3926df58-b496-49f8-807d-ce478d37162e_13","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank completes a logical inference. The passage establishes that decarcinization often leads to extinction (an &lsquo;evolutionary dead-end&rsquo;), but then introduces frog crabs as a counterexample: a decarcinized group that has thrived in sediment since the Early Cretaceous. The blank must state what this counterexample suggests."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the evolutionary benefits of a crablike body form are less certain than many studies had implied'</strong>: The passage does not cast doubt on carcinization in general. The evidence supports that carcinization is broadly beneficial; the counterexample only shows decarcinization can sometimes succeed&mdash;not that the crab form is questionable. &#10007;</li><li><strong>Choice B &mdash; 'despite having many living relatives, some decarcinized groups did not benefit from decarcinization'</strong>: This contradicts the passage. Frog crabs&mdash;the group under discussion&mdash;have few living relatives, not many, and they did benefit from decarcinization by thriving in sediment. &#10007;</li><li><strong>Choice C &mdash; 'representation of practical applications of ecological knowledge is the defining characteristic of the music of certain Indigenous peoples'</strong>: This is entirely unrelated to the passage about crustacean evolution. &#10007;</li><li><strong>Choice D &mdash; 'a crablike body form may not be optimal in all cases, with ecological conditions sometimes favoring the persistence of decarcinization'</strong>: Frog crabs show that in sediment environments, decarcinization can persist over millions of years rather than leading to extinction. This directly follows from the counterexample: the crab form is not always superior, and certain ecological niches can sustain decarcinized forms. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

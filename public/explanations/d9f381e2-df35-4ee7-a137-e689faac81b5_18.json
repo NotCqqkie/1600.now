@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_18",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent",
-      "content": "The blank fills \"making ______ the first time the organization would appoint a Vietnamese leader.\" The pronoun refers to the singular event of Lê Lương Minh becoming secretary-general in January 2013."
-    },
-    {
-      "title": "Rule: use \"this\" for a singular, specific, already-stated event",
-      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"these\"</strong> — plural demonstrative; the event is singular. Incorrect.<br/><br/><strong>B. \"those\"</strong> — plural demonstrative; same problem. Incorrect.<br/><br/><strong>C. \"this\"</strong> — singular demonstrative pointing back to the specific appointment just described. Substitution: \"making this the first time...\" reads naturally. Correct.<br/><br/><strong>D. \"some\"</strong> — indefinite pronoun implying an unspecified quantity; the appointment is a defined singular event, not an unspecified one. Incorrect.<br/><br/><strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d9f381e2-df35-4ee7-a137-e689faac81b5_18","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills &apos;making ______ the first time the organization would appoint a Vietnamese leader.&apos; The pronoun refers back to the singular, specific event of L&ecirc; L&#432;&417;ng Minh becoming secretary-general in January 2013."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'these'</strong>: plural demonstrative; the event is singular. &#10007;</li><li><strong>Choice B &mdash; 'those'</strong>: plural demonstrative; same problem. &#10007;</li><li><strong>Choice C &mdash; 'this'</strong>: singular demonstrative pointing back to the specific appointment just described. Substitution &mdash; &apos;making this the first time...&apos; &mdash; reads naturally. &#10003;</li><li><strong>Choice D &mdash; 'some'</strong>: indefinite pronoun implying an unspecified quantity; the appointment is a defined singular event. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

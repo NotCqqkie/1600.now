@@ -1,15 +1,1 @@
-{
-  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_6",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage opens with a causal statement: <strong>\u201cWe are creatures of the sun... we love light and life. That is why we crowd into the towns and cities.\u201d</strong> This directly connects human traits to the choice to live in cities."
-    },
-    {
-      "title": "Match to the answer",
-      "content": "Choice C correctly identifies that the passage explains human traits (love of light and life) motivating urban migration. The other choices either treat a supporting detail as the main point or reverse what the passage actually claims. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"92bd954b-0e12-4b86-bc5f-d64490221af2_6","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the <strong>main purpose</strong> of the text. The passage opens with a claim &mdash; &lsquo;We are creatures of the sun&rsquo; who &lsquo;love light and life&rsquo; &mdash; and uses that to explain why people crowd into cities. Everything that follows (loneliness at night, longing for gas-lit streets) supports and extends that opening claim."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;crowded areas can cause people to feel as though they are children again&rsquo;</strong>: The child simile describes how people feel alone at night, not why cities are crowded. This treats a supporting detail as the main point. &#10007;</li><li><strong>Choice B &mdash; &lsquo;caution people not to be so quick to dismiss&hellip; rural areas&rsquo;</strong>: The passage never tells readers to reconsider rural life; it explains urban migration, not defends the countryside. &#10007;</li><li><strong>Choice C &mdash; &lsquo;address common traits that motivate many people to choose to live in urban environments&rsquo;</strong>: This matches the passage&rsquo;s structure &mdash; the narrator identifies shared human traits (love of light and life) and links them directly to urban migration. &#10003;</li><li><strong>Choice D &mdash; &lsquo;most people tend to prefer hillsides in the country to&hellip; towns and cities&rsquo;</strong>: The passage says the opposite &mdash; people prefer cities, especially at night. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

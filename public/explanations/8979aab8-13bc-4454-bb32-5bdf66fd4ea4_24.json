@@ -1,15 +1,1 @@
-{
-  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The student must emphasize a similarity between the two countries. The notes reveal that both the Philippines and Liechtenstein share the same property: their capital is not their most populous city. This is the similarity to express."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A directly conveys this\u2014it states that in both countries, the capital is not the most populous city.<br/>The other three options either narrow to one country, list facts without establishing a connection, or miss the capitals-versus-largest-cities comparison entirely.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_24","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice <strong>emphasizes a similarity between the Philippines and Liechtenstein</strong>. The notes show that in both countries the capital is <em>not</em> the most populous city &mdash; Manila is the capital but Quezon City is largest; Vaduz is the capital but Schaan is largest. A strong answer names both countries and states this shared property in a single, parallel sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;In both the Philippines and Liechtenstein, the capital is not the country&rsquo;s most populous city&rsquo;</strong>: States the shared property directly and covers both countries equally. &#10003;</li><li><strong>Choice B &mdash; &lsquo;the most populous city in the Philippines is Quezon City&hellip; in Liechtenstein is Schaan&rsquo;</strong>: Lists the largest cities of both countries but never says how that relates to each capital, so no similarity is made explicit. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The most populous city in the Philippines is Quezon City, but the country&rsquo;s capital is Manila&rsquo;</strong>: Covers only the Philippines; Liechtenstein is not mentioned. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The capital of the Philippines is Manila; the capital of Liechtenstein is Vaduz&rsquo;</strong>: Lists the capitals of both countries but omits the key fact about population, so no meaningful similarity is emphasized. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

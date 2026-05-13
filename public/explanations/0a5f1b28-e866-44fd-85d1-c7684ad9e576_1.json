@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase \u201cbecause of his lifetime contributions to the arts\u201d shows that Burns received the fellowship due to merit, signaling that he was selected or chosen for the honor."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "\u201cChosen\u201d means selected, which fits the signal that he was picked to receive the fellowship. The other three either contradict the idea of being selected or describe a stance not supported by the passage. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"0a5f1b28-e866-44fd-85d1-c7684ad9e576_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says Burns received the fellowship &lsquo;because of his lifetime contributions to the arts.&rsquo; The blank describes what happened to Burns &mdash; he was picked to receive the honor based on merit."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;confused&rsquo;</strong>: means disoriented or baffled. Someone receiving an honor due to merit is not described as confused. &#10007;</li><li><strong>Choice B &mdash; &lsquo;reluctant&rsquo;</strong>: means unwilling. The passage gives no hint Burns was unwilling; the signal is that he earned the fellowship. &#10007;</li><li><strong>Choice C &mdash; &lsquo;ineligible&rsquo;</strong>: means not qualified. This directly contradicts the passage &mdash; Burns received the fellowship, so he was clearly eligible. &#10007;</li><li><strong>Choice D &mdash; &lsquo;chosen&rsquo;</strong>: means selected. Substituting: Burns was chosen for the fellowship because of his lifetime contributions. That matches the signal perfectly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

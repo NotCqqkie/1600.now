@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammar issue",
-      "content": "The subject is a compound: <strong>a state's voting record and polling data</strong> (two items joined by \"and\" = plural). The phrase \"not its population size\" is a contrasting parenthetical between commas — it does not change the subject. Strip it away: \"a state's voting record and polling data ______ its importance to campaigns.\""
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A: determines</strong> — singular verb (-s ending). \"Voting record and polling data determines\" — compound subject needs plural. Eliminated.<br/><br/><strong>B: has determined</strong> — singular auxiliary \"has.\" Same number error. Eliminated.<br/><br/><strong>C: determining</strong> — participle, not a finite verb. Leaves the sentence without a main verb. Eliminated.<br/><br/><strong>D: determine</strong> — plural base form. \"Voting record and polling data determine its importance\" — subject and verb agree. <strong>Correct.</strong>"
-    }
-  ]
-}
+{"questionId":"e580c519-9667-4b3b-8a1e-a7bec6eba694_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is a compound: &apos;a state&apos;s voting record and polling data&apos; &mdash; two items joined by &apos;and,&apos; so the subject is plural. The parenthetical &apos;not its population size&apos; does not change that. The blank needs a plural finite verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'determines'</strong>: singular (-s ending). A compound subject cannot take a singular verb. &#10007;</li><li><strong>Choice B &mdash; 'has determined'</strong>: singular auxiliary &apos;has.&apos; Same number error. &#10007;</li><li><strong>Choice C &mdash; 'determining'</strong>: a participle, not a finite verb. Leaves the sentence without a main verb. &#10007;</li><li><strong>Choice D &mdash; 'determine'</strong>: plural base form. &apos;Voting record and polling data determine its importance&apos; &mdash; subject and verb agree. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

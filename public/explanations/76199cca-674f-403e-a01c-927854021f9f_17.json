@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammar issue",
-      "content": "The pronoun replaces \"many historical newspapers\" / \"these rare items\" — both plural antecedents. The blank needs a plural object pronoun."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A: it</strong> — singular object pronoun. \"People can access it\" treats the newspapers as one unit, disagreeing with the plural antecedent. Eliminated.<br/><br/><strong>B: them</strong> — plural object pronoun. \"People around the world can access them\" — agrees with \"many historical newspapers.\" <strong>Correct.</strong><br/><br/><strong>C: this</strong> — singular demonstrative pronoun. Same number error as A. Eliminated.<br/><br/><strong>D: that</strong> — singular demonstrative pronoun. Also singular; does not match the plural antecedent. Eliminated."
-    }
-  ]
-}
+{"questionId":"76199cca-674f-403e-a01c-927854021f9f_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The pronoun replaces a plural antecedent &mdash; &apos;many historical newspapers&apos; / &apos;these rare items.&apos; The blank needs a plural object pronoun."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'it'</strong>: singular object pronoun. Disagrees with the plural antecedent. &#10007;</li><li><strong>Choice B &mdash; 'them'</strong>: plural object pronoun. &apos;People around the world can access them&apos; agrees with &apos;many historical newspapers.&apos; &#10003;</li><li><strong>Choice C &mdash; 'this'</strong>: singular demonstrative. Same number error as A. &#10007;</li><li><strong>Choice D &mdash; 'that'</strong>: singular demonstrative. Also fails to match the plural antecedent. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

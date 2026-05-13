@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining explanation",
-      "content": "Excavation involves weeks or even months of hard, physically tiring work, according to the passage. This extended, effortful nature is the key signal for what word describes the process."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "A process requiring weeks or months and hard labor is fundamentally difficult\u2014effort and extended time make it challenging. The other choices address cost, frequency, or speed, none of which the passage emphasizes. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"23fd9cca-199e-4a62-b065-4e2d5997bf7f_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes the excavation process. The passage tells us why: it &apos;can take weeks or even months of hard, physically tiring work.&apos; The word must capture that this process demands significant effort and time."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'cheap'</strong>: Cost is never mentioned in the passage. Nothing about weeks of labor implies anything about expense. &#10007;</li><li><strong>Choice B &mdash; 'common'</strong>: Frequency is not addressed. The passage describes the nature of the work, not how often it occurs. &#10007;</li><li><strong>Choice C &mdash; 'rapid'</strong>: Directly contradicted by the passage &mdash; taking weeks or months is the opposite of rapid. &#10007;</li><li><strong>Choice D &mdash; 'difficult'</strong>: Weeks or months of hard, physically tiring work is precisely what &apos;difficult&apos; means in context. The duration and physical demand both point here. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

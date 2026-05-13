@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure around the blank",
-      "content": "The blank connects a singular subject (\u201cMuseum of Modern Art\u201d) to an object within a dependent clause introduced by \u201cthat.\u201d The verb must be finite to serve as the clause's main predicate."
-    },
-    {
-      "title": "Apply the finite verb requirement",
-      "content": "\u201dHouses\u201d is the finite verb in third-person singular form, matching the singular subject. \u201cHousing,\u201d \u201cto house,\u201d and \u201cto have housed\u201d are non-finite forms\u2014a participle and two infinitives\u2014that cannot function as a clause's main verb. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ff866f0f-f295-4895-b84d-a5c603adf51a_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the main verb of a &lsquo;that&rsquo; clause: &lsquo;It is widely known that New York City&rsquo;s Museum of Modern Art (MoMA) ______ a vast collection.&rsquo; The subject of that clause is &lsquo;Museum of Modern Art&rsquo; (singular). The blank needs a <strong>finite verb</strong> in the correct form to serve as the clause&rsquo;s predicate."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;housing&rsquo;</strong>: A present participle. Participles are non-finite and cannot stand alone as a clause&rsquo;s main verb; inserting it leaves the &lsquo;that&rsquo; clause without a predicate. &#10007;</li><li><strong>Choice B &mdash; &lsquo;to house&rsquo;</strong>: An infinitive. Infinitives are also non-finite and cannot function as a clause&rsquo;s main verb. &#10007;</li><li><strong>Choice C &mdash; &lsquo;to have housed&rsquo;</strong>: A perfect infinitive. Still non-finite &mdash; cannot serve as the clause&rsquo;s predicate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;houses&rsquo;</strong>: A finite verb in the third-person singular present tense, matching the singular subject &lsquo;Museum of Modern Art.&rsquo; It correctly fills the predicate slot in the &lsquo;that&rsquo; clause. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
