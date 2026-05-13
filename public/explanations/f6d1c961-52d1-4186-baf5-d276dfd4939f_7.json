@@ -1,15 +1,1 @@
-{
-  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated limitation",
-      "content": "The passage explicitly describes the drawback: data from the Places API are <em>restricted to places that are customer facing</em>. This restriction is the key signal to match against the answer choices."
-    },
-    {
-      "title": "Match to the correct answer",
-      "content": "A states the method may lead to conclusions not reflective of all amenities\u2014a direct consequence when your data only includes customer-facing businesses. B, C, and D introduce problems the passage never mentions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_7","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage explicitly names the drawback: data from the Places API are restricted to customer-facing places. The correct answer must follow directly from that restriction."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'conclusions may not reflect all amenities'</strong>: a direct consequence of omitting non-customer-facing locations. &#10003;</li><li><strong>Choice B</strong>: introduces a problem the passage never mentions. &#10007;</li><li><strong>Choice C</strong>: introduces a problem the passage never mentions. &#10007;</li><li><strong>Choice D</strong>: introduces a problem the passage never mentions. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

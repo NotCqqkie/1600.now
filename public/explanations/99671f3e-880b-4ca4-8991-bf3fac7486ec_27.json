@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the specific climate information",
-      "content": "The question asks to specify the test site's climate. The notes state: <strong>\u201ca subtropic climate with winter rain.\u201d</strong>"
-    },
-    {
-      "title": "Find the choice that specifies this information",
-      "content": "Choice C directly states <strong>\u201ca subtropic climate with winter rain.\u201d</strong> The other three don't actually specify what the climate is. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"99671f3e-880b-4ca4-8991-bf3fac7486ec_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice most effectively uses information from the notes to <strong>specify the test site&apos;s climate</strong>. The notes state the site has &quot;a subtropic climate with winter rain.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'mentions the test site without specifying climate'</strong>: Refers to the location but doesn&apos;t name the climate type. &#10007;</li><li><strong>Choice B &mdash; 'mentions the test site without specifying climate'</strong>: Same problem &mdash; no climate specification. &#10007;</li><li><strong>Choice C &mdash; 'a subtropic climate with winter rain'</strong>: Directly states the climate from the notes, word for word. &#10003;</li><li><strong>Choice D &mdash; 'mentions the test site without specifying climate'</strong>: Doesn&apos;t name the climate type at all. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

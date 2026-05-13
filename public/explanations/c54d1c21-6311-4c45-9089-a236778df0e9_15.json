@@ -1,15 +1,1 @@
-{
-  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The decisive clue is the claim that the Upland South was colonized by people whose ancestors came from Scotland. This establishes a causal relationship between Scottish settlement and the linguistic similarity."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice A explains the similarity in dialects as a result of Scottish influence, aligning with the colonization history. The other options either reverse the cause-effect (C), make unsupported projections (B), or contradict the text (D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"c54d1c21-6311-4c45-9089-a236778df0e9_15","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage sets up a logical chain: Scottish dialects emphasize the &lsquo;r&rsquo; sound, Upland South dialects do the same, and the Upland South was colonized by people of Scottish descent. The blank must complete the conclusion linguists drew from these facts."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the English dialects spoken in the Upland South acquired their emphasis on the &ldquo;r&rdquo; sound from dialects spoken in Scotland.'</strong>: Follows directly from the colonization history &mdash; Scottish settlers brought the feature to the Upland South. &#10003;</li><li><strong>Choice B &mdash; 'emphasis on the &ldquo;r&rdquo; sound will eventually spread from English dialects spoken in the Upland South to dialects spoken elsewhere.'</strong>: The text gives no basis for predicting future spread. &#10007;</li><li><strong>Choice C &mdash; 'the English dialects spoken in Scotland were influenced by dialects spoken in the Upland South.'</strong>: Reverses the causal direction; Scotland influenced the Upland South, not the other way around. &#10007;</li><li><strong>Choice D &mdash; 'people from Scotland abandoned their emphasis on the &ldquo;r&rdquo; sound after relocating to the Upland South.'</strong>: Contradicts the text, which says the Upland South dialects retained that emphasis. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

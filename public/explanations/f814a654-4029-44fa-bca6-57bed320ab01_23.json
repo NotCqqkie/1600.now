@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_23",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key similarity",
-      "content": "To emphasize a similarity, identify what both specimens share. In the notes: Sue and Thomas both belong to genus <em>Tyrannosaurus</em>."
-    },
-    {
-      "title": "Match the goal to the choices",
-      "content": "Choice A states that Sue and Thomas are both members of genus <em>Tyrannosaurus</em>. The other choices either establish differences, describe single specimens, or omit comparison. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_23", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The goal is to emphasize a <em>similarity</em> between the two specimens. That means the answer must compare Sue and Thomas directly, highlighting something they share — not describe just one of them or contrast them."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Sue and Thomas are both members of the genus Tyrannosaurus'</strong>: Directly states what the two specimens have in common. Emphasizes the shared genus. &#10003;</li><li><strong>Choice B &mdash; 'While Sue is housed at the Field Museum... Thomas is housed at the Natural History Museum of Los Angeles County'</strong>: Uses &quot;while&quot; to contrast their locations — emphasizes a difference, not a similarity. &#10007;</li><li><strong>Choice C &mdash; 'The Field Museum of Natural History... is located in Chicago, Illinois'</strong>: Only describes Sue's museum. No comparison with Thomas at all. &#10007;</li><li><strong>Choice D &mdash; 'Thomas is the nickname of a Tyrannosaurus fossil... in Los Angeles, California'</strong>: Only describes Thomas. No comparison with Sue. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

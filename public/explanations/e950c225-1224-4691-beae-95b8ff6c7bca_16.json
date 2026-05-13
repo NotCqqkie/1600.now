@@ -1,15 +1,1 @@
-{
-  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the present-tense context",
-      "content": "The entire passage uses present tense: the languages \u201chave a clear difference,\u201d \u201cis an object-oriented language,\u201d \u201cis not,\u201d and both \u201crequire\u201d technical knowledge. This consistent present tense indicates a general statement about how languages work."
-    },
-    {
-      "title": "Select the present-tense verb",
-      "content": "\u201dStruggle\u201d matches this present-tense context by describing a timeless difficulty that people face with the languages. The other choices shift to past tense, which would contradict the general nature of the statement. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e950c225-1224-4691-beae-95b8ff6c7bca_16","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage makes general, timeless statements about programming languages using consistent present tense: they &apos;have a clear difference,&apos; one &apos;is object-oriented,&apos; and both &apos;require&apos; technical knowledge. The blank verb must match this present-tense pattern."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;struggle&apos;</strong>: present tense, consistent with the passage&apos;s timeless generalizations. &#10003;</li><li><strong>Choice B &mdash; past-tense form</strong>: shifts to past tense, contradicting the general present-tense context. &#10007;</li><li><strong>Choice C &mdash; past-tense form</strong>: same problem &mdash; past tense breaks the pattern. &#10007;</li><li><strong>Choice D &mdash; past-tense form</strong>: also past tense, inconsistent with the surrounding verbs. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

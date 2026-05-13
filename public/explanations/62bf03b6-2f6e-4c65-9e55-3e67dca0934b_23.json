@@ -1,15 +1,1 @@
-{
-  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the constraint-to-alternative pivot",
-      "content": "The first sentence explains why Kepler-296e won't help us soon: distance makes it unreachable. The next sentence says humanity should focus on our solar system instead. The transition must signal a shift from an impractical goal to an alternative we should pursue."
-    },
-    {
-      "title": "Match the alternative signal",
-      "content": "<strong>Instead,</strong> marks a turn from one course of action to an alternative\u2014exactly what's needed when Kepler-296e is too far to use and we must focus on our solar system.<br/><br/>The other three don't work: <strong>Likewise</strong> suggests the statements are parallel, <strong>For example</strong> frames it as evidence rather than a new direction, and <strong>Next</strong> implies sequence rather than alternatives.<br/><br/>That matches choice B\u2014<strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The first sentence says Kepler-296e is too far to reach. The next says humanity should focus on our solar system. The blank must signal a shift from an impractical option to a different course of action."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Likewise'</strong>: signals similarity or parallel ideas &mdash; but the two sentences contrast, not agree. &#10007;</li><li><strong>Choice B &mdash; 'Instead'</strong>: signals a turn from one course of action to an alternative &mdash; exactly right when one option is rejected and another is proposed. &#10003;</li><li><strong>Choice C &mdash; 'For example'</strong>: frames the second sentence as evidence or illustration, not a new direction. &#10007;</li><li><strong>Choice D &mdash; 'Next'</strong>: implies sequential steps, not a pivot to an alternative. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the pivotal contrast",
-      "content": "The turning point is \u201cBut while...\u201d \u2014 it introduces both the work's value (comprehensive, unique resource) and its limitation (lacks authorial perspective to unite accounts). The main idea must address both elements."
-    },
-    {
-      "title": "Match the two-part structure",
-      "content": "D captures this exactly: a worthwhile attempt at thorough history with an important limitation. A, B, and C either introduce unsupported claims (TV-vs.-film split, non-participation) or misidentify what the limitation is. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_10","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage has two parts: the work&rsquo;s strengths (comprehensive, unique, valuable resource) and one clear limitation (lacks an authorial point of view to unify the accounts). The main idea must capture both without adding unsupported claims."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'more accounts from TV shows than films'</strong>: the passage says the book includes cast and crew from every series and film; it never compares TV vs. film coverage. &#10007;</li><li><strong>Choice B &mdash; 'lacks information about many key events'</strong>: the passage never says information about events is missing &mdash; the limitation is the lack of authorial perspective, not gaps in coverage. &#10007;</li><li><strong>Choice C &mdash; 'many people did not participate'</strong>: the passage makes no mention of non-participants; this is invented. &#10007;</li><li><strong>Choice D &mdash; 'worthwhile attempt with an important limitation'</strong>: directly reflects both halves of the passage &mdash; the work&rsquo;s value as a comprehensive resource and the shortcoming of lacking a unifying authorial voice. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_4",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall density formula",
-      "content": "Density is defined as mass divided by volume: $$\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$$."
-    },
-    {
-      "title": "Compute density",
-      "content": "Substitute mass = 308 g and volume = 28 cm\u00b3: $$\\frac{308\\text{ g}}{28\\text{ cm}^3}$$ . Divide both numerator and denominator by 28: $$\\frac{308\\div 28}{28\\div 28} = \\frac{11}{1} = 11$$ . That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c578582-a4c6-4b17-a43d-0f06aaab91b7_4","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"Density = mass &divide; volume. Substitute the given values: $$\\text{density} = \\frac{308}{28}$$"},{"title":"Solve","content":"$308 \\div 28 = 11$ g/cm&sup3;."},{"title":"Answer","content":"<strong>A</strong> is correct."}]}

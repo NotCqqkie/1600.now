@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage\u2019s strongest clue is the researcher\u2019s claim that some lakes have seen a decline in ice duration between the early 1980s and the mid\u20112000s."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice C shows Kitusj\u00e4rvi had fewer ice days in 2005\u201106 than in 1980\u201181, which directly demonstrates a decline over that period.<br/>The other choices either show an increase, compare latitudes without addressing change over time, or describe patterns unrelated to the claimed decline.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The researcher claims some lakes have seen a decline in ice duration between the early 1980s and the mid-2000s. The answer must show a specific lake with fewer ice days in the mid-2000s than in the early 1980s."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: shows an increase in ice days over the period, contradicting the claimed decline. &#10007;</li><li><strong>Choice B</strong>: compares lakes by latitude rather than showing change over time for one lake. &#10007;</li><li><strong>Choice C &mdash; 'Kitusj&auml;rvi: fewer ice days in 2005&ndash;06 than in 1980&ndash;81'</strong>: directly demonstrates a decline over the claimed period. &#10003;</li><li><strong>Choice D</strong>: describes a pattern unrelated to the early-1980s-to-mid-2000s decline. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

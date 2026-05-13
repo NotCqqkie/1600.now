@@ -1,15 +1,1 @@
-{
-  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive clue",
-      "content": "The phrase <em>\"without looking at the rest of us\"</em> is key. It shows that Esteban didn't pause, turn, or acknowledge anyone—he moved straight ahead on a single path."
-    },
-    {
-      "title": "Apply the meaning",
-      "content": "Substitute each choice for \"straight\" in: \"He walked [word] to his seat without looking at the rest of us.\"<br/><br/><strong>A. Delightedly</strong> means with delight or happiness. Esteban came in with his head down and dripping wet—the scene conveys no joy. This reading contradicts the passage. Eliminated.<br/><br/><strong>B. Truthfully</strong> means in an honest manner. You don't walk truthfully to a seat; this meaning doesn't fit physical movement. Eliminated.<br/><br/><strong>C. Directly</strong> means in a straight line, without detouring or stopping. \"He walked directly to his seat\" matches the image of Esteban moving without pausing or acknowledging anyone. Correct.<br/><br/><strong>D. Formally</strong> means in a stiff or ceremonious way. Nothing in the passage suggests ceremonious behavior—he's soaking wet and keeping his head down. Eliminated.<br/><br/><strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"dfb92339-d3f9-4a56-afdf-957831c91ca9_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &lsquo;He walked [word] to his seat without looking at the rest of us.&rsquo; The phrase &lsquo;without looking at the rest of us&rsquo; shows Esteban moved without pausing or acknowledging anyone. The blank must capture that quality of movement."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Delightedly'</strong>: means with happiness or joy. Esteban arrived soaking wet with his head down &mdash; the scene conveys no joy. &#10007;</li><li><strong>Choice B &mdash; 'Truthfully'</strong>: means in an honest manner. This applies to speech or conduct, not to physical movement from one point to another. &#10007;</li><li><strong>Choice C &mdash; 'Directly'</strong>: means in a straight line, without stopping or detouring. &lsquo;He walked directly to his seat without looking at the rest of us&rsquo; matches the image of Esteban moving straight ahead and ignoring everyone around him. &#10003;</li><li><strong>Choice D &mdash; 'Formally'</strong>: means in a stiff or ceremonious way. Nothing in the passage suggests ceremony &mdash; he is soaking wet and keeping his head down. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

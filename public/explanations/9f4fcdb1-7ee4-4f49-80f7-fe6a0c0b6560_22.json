@@ -1,15 +1,1 @@
-{
-  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The passage gives two specific examples (Wisconsin 1983, Vermont 1985) and then the blank introduces a general conclusion: that multiple years often pass between selection and official designation. The relationship is <strong>generalization from examples</strong> — the examples support a broader, frequently-true claim."
-    },
-    {
-      "title": "Match the relationship to the choices and eliminate",
-      "content": "<strong>A. In many cases,</strong> — signals a frequent but not universal pattern; correctly introduces the generalization drawn from the examples. <strong>Correct.</strong><br/><strong>B. Therefore,</strong> — signals a logical conclusion that must follow; the examples are illustrations, not logical premises that force the conclusion. Eliminated.<br/><strong>C. Indeed,</strong> — signals confirmation of something already stated; no such claim has been made yet. Eliminated.<br/><strong>D. Similarly,</strong> — signals a comparison between two parallel items; there is only one claim here, not two parallel ones. Eliminated.<br/><br/>A is correct."
-    }
-  ]
-}
+{"questionId":"9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage gives two specific examples (Wisconsin 1983, Vermont 1985) showing years elapsed between selection and designation. The blank must introduce a general conclusion drawn from those examples — a frequently-true pattern, not a universal law."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'In many cases,'</strong>: signals a frequent but not universal pattern, correctly framing the generalization the examples support. &#10003;</li><li><strong>Choice B &mdash; 'Therefore,'</strong>: signals a logically necessary conclusion; the examples are illustrations, not premises that force a deductive conclusion. &#10007;</li><li><strong>Choice C &mdash; 'Indeed,'</strong>: signals confirmation of a claim already stated; no such general claim has been made before this sentence. &#10007;</li><li><strong>Choice D &mdash; 'Similarly,'</strong>: signals a parallel comparison between two items; there is only one claim here, not two parallel ones. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

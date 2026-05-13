@@ -1,15 +1,1 @@
-{
-  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated outcome",
-      "content": "The passage states that the musical \u201cestablishes him as a compelling and well-defined protagonist\u201d\u2014the effect of omitting his elitism and ideological complexity."
-    },
-    {
-      "title": "Connect to the answer",
-      "content": "A well-defined protagonist free of internal contradiction is precisely an unambiguous thematic presentation. The other three choices describe effects the passage doesn't identify. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_9","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that omitting the subject's elitism and ideological complexity &quot;establishes him as a compelling and well-defined protagonist.&quot; The correct answer must name the effect of that omission."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: describes an effect the passage does not identify. &#10007;</li><li><strong>Choice B</strong>: describes an effect the passage does not identify. &#10007;</li><li><strong>Choice C &mdash; 'unambiguous thematic presentation'</strong>: a well-defined protagonist free of internal contradiction is precisely an unambiguous presentation &mdash; matches the passage directly. &#10003;</li><li><strong>Choice D</strong>: describes an effect the passage does not identify. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
