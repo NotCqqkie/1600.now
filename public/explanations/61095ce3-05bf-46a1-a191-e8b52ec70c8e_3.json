@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase \u201ccounterintuitive effect\u201d signals that the rising price produced an unexpected increase in demand."
-    },
-    {
-      "title": "Match the meaning to the clue",
-      "content": "Eliciting means to evoke or bring about, which matches the idea that the price rise stimulated demand.<br/>A, B, and C each fail to convey this increase: satisfying would fulfill rather than spark demand, exploiting means taking advantage of existing demand, and capitalizing means using demand for profit.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"61095ce3-05bf-46a1-a191-e8b52ec70c8e_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says rising prices had a \"counterintuitive effect\" on demand: buyers who hadn't previously wanted the dolls suddenly flooded the market. The blank must describe what the price increase did to demand &mdash; it produced or brought about demand that wasn't there before."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'satisfying'</strong>: satisfying demand means fulfilling it, implying demand already existed. The passage says buyers \"hadn't previously wanted\" the dolls, so demand was created, not fulfilled. &#10007;</li><li><strong>Choice B &mdash; 'exploiting'</strong>: exploiting demand means taking advantage of demand that already exists. Again, the passage shows demand was newly generated. &#10007;</li><li><strong>Choice C &mdash; 'capitalizing'</strong>: capitalizing on demand means profiting from existing demand. Same problem &mdash; no pre-existing demand to capitalize on. &#10007;</li><li><strong>Choice D &mdash; 'eliciting'</strong>: eliciting means drawing out or bringing about. The price rise elicited (called into existence) demand that wasn't previously there &mdash; exactly matching the counterintuitive scenario described. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
