@@ -1,15 +1,1 @@
-{
-  "questionId": "76199cca-674f-403e-a01c-927854021f9f_4",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "Critics use positive language to describe these films (\"galvanizing,\" \"exuberant\"), and the blank must be filled with what such praise would do for audiences."
-    },
-    {
-      "title": "Match the answer to the signal",
-      "content": "Substitute each choice: fans hope that such ______ will attract new audiences.<br/><br/><strong>A) impartiality</strong> — \"impartiality\" means neutrality or lack of bias. Critics calling films \"galvanizing\" and \"exuberant\" are expressing enthusiasm, not neutrality. Eliminate.<br/><br/><strong>B) ambivalence</strong> — \"ambivalence\" means mixed or uncertain feelings. The reviews are enthusiastically positive, not mixed. Eliminate.<br/><br/><strong>C) foresight</strong> — \"foresight\" means the ability to predict the future. The critics are evaluating films, not forecasting anything. Eliminate.<br/><br/><strong>D) acclaim</strong> — \"acclaim\" means enthusiastic public praise or recognition. \"Galvanizing\" and \"exuberant\" are clearly positive critical acclaim, and fans hope this praise draws new viewers. Keep.<br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"76199cca-674f-403e-a01c-927854021f9f_4","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Critics describe Anderson's film as 'galvanizing' and Hudlin's film as 'exuberant' — both are enthusiastically positive terms. The blank names what fans hope this critical praise will do for audiences."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'impartiality'</strong>: means neutrality or lack of bias. Critics expressing strong enthusiasm are the opposite of impartial. &#10007;</li><li><strong>Choice B &mdash; 'ambivalence'</strong>: means mixed or conflicted feelings. These reviews are unambiguously positive, not mixed. &#10007;</li><li><strong>Choice C &mdash; 'foresight'</strong>: means the ability to predict the future. Critics are evaluating films, not forecasting anything. &#10007;</li><li><strong>Choice D &mdash; 'acclaim'</strong>: means enthusiastic public praise. 'Galvanizing' and 'exuberant' are exactly the language of critical acclaim, and fans hope this praise draws new viewers. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

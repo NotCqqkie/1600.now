@@ -1,1 +1,15 @@
-{"questionId": "3926df58-b496-49f8-807d-ce478d37162e_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the controlling claim", "content": "The opening sentence reveals the narrator's core assertion: <em>“I understood things about the baby that her mother could not accept.”</em> This establishes a contrast between what the narrator perceives about Dot and what Celestine (her mother) fails to perceive.<br/><br/>The passage develops this central contrast with specific examples."}, {"title": "Match the signal to the correct choice", "content": "Choice A directly captures the purpose: the narrator asserts that she understands Dot's true nature—her impatience with babyhood and drive to grow—in a way that Celestine cannot, since Celestine only values Dot's helpless softness.<br/><br/>B, C, and D describe purposes the passage does not serve: predicting personality development, discussing amusement, and comparing appearances.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main purpose of the text. The opening lines state the narrator's core claim: &quot;I understood things about the baby that her mother could not accept.&quot; The rest of the passage supports this — the narrator sees that Dot is &quot;impatient with babyhood,&quot; while Celestine &quot;never saw that&quot; and only valued Dot's &quot;helpless softness.&quot;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'To present the narrator&apos;s belief that she understands Dot better than Celestine does'</strong>: This matches exactly. The narrator claims a &quot;mental connection&quot; with Dot and explicitly contrasts her own understanding with what Celestine &quot;could not accept&quot; or &quot;never saw.&quot; &#10003;</li><li><strong>Choice B &mdash; 'To speculate that when Dot is older, her personality will be like Celestine&apos;s'</strong>: The passage draws a contrast between Dot and Celestine, not a similarity. No prediction about Dot's future personality is made. &#10007;</li><li><strong>Choice C &mdash; 'To discuss what the narrator and Celestine do to amuse Dot'</strong>: The passage is about how they perceive Dot, not what they do to amuse her. The narrator and Celestine are not described doing activities together. &#10007;</li><li><strong>Choice D &mdash; 'To compare the narrator&apos;s physical appearance to the physical appearance of Celestine'</strong>: No physical descriptions of the narrator or Celestine appear in the text. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

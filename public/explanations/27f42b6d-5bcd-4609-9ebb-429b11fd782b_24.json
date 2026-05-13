@@ -1,15 +1,1 @@
-{
-  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the size measurement",
-      "content": "The key signal is the area measurement. In the notes, only one detail quantifies Atitalaqu\u00eda's dimensions: it covers roughly 63 km\u00b2."
-    },
-    {
-      "title": "Apply the measurement to the choices",
-      "content": "D is the only choice that supplies the area measurement from the notes. A, B, and C focus on public services, governmental structure, and comparative position instead. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"27f42b6d-5bcd-4609-9ebb-429b11fd782b_24","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to emphasize Atitalaquía's size. Only one note gives a size measurement: it covers roughly 63 km². Any choice that omits or ignores this detail cannot accomplish the goal."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Providing street lighting is just one example of the public services that municipalities provide.'</strong>: Discusses public services, not size. &#10007;</li><li><strong>Choice B &mdash; 'Atitalaquía is one of 84 governmental regions, known as municipalities, across Hidalgo.'</strong>: Emphasizes Hidalgo&apos;s governmental count, not Atitalaquía&apos;s physical size. &#10007;</li><li><strong>Choice C &mdash; 'Atitalaquía &mdash; a governmental region in the state of Hidalgo, Mexico &mdash; provides many public services to its residents.'</strong>: Describes governmental function, not size. &#10007;</li><li><strong>Choice D &mdash; 'The municipality of Atitalaquía in Hidalgo, Mexico, covers an area of roughly 63 km².'</strong>: Directly states the area measurement from the notes, emphasizing size. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

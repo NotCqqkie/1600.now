@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sample-size gap",
-      "content": "The passage requires 176 individuals for a representative result but notes that both Lockard and Goodall used only 8 individuals each. This disparity is the decisive clue."
+      "title": "Identify what the question needs",
+      "content": "The passage ends with 'This suggests that ______' — so the correct answer must follow logically from the evidence given. The key facts: a handedness study needs at least 176 individuals for a representative result, but both Lockard's and Goodall's studies each used only 8."
     },
     {
-      "title": "Apply the sample-size constraint",
-      "content": "Choice A states that neither study provides sufficient evidence\u2014the only conclusion consistent with both falling far short of the 176-individual minimum. <br/><br/>Choices B and D wrongly claim at least one study is reliable, and C invokes an unsupported directional assumption. <br/><br/>Since both studies fall equally short of the 176-individual standard, neither can provide the evidence needed for a meaningful comparison. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'neither the study by Lockard nor the study by Goodall provides sufficient evidence to make a meaningful comparison about handedness in primates'</strong>: Both studies fall equally short of the 176-individual minimum. This follows directly from the evidence. &#10003;</li><li><strong>Choice B &mdash; 'the study by Lockard reliably represents handedness in captive primates, but the study by Goodall likely does not reliably represent handedness in wild primates'</strong>: Both studies used only 8 individuals — there is no basis for treating one as reliable and the other as not. &#10007;</li><li><strong>Choice C &mdash; 'Goodall likely underestimated the prevalence of right-handedness among the wild chimpanzees in the study'</strong>: The passage gives no basis for a directional claim about underestimation. The problem is sample size, not the direction of any bias. &#10007;</li><li><strong>Choice D &mdash; 'the study by Lockard reliably represents handedness in captive primates but not in wild primates'</strong>: Lockard studied captive gorillas, not wild primates — and with only 8 individuals, the study cannot be called reliable for any population. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

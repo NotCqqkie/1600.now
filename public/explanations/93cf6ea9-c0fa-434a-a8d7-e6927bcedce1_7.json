@@ -1,1 +1,15 @@
-{"questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structural pattern", "content": "The passage opens with a generalization: <em>“I have always noticed that it is the fixed idea of each member of the crew that he is doing everything.”</em> The remainder provides specific examples—Harris's view and George's view—from the boat situation."}, {"title": "Match the purpose", "content": "Choice D describes the exact structure: a generalization supported by specific examples from the situation.<br/><br/>Choices A, B, and C each miss the mark: A misreads the tone (unexpected vs. habitual), B misfocuses (narrator's role vs. crew dynamics), and C mischaracterizes the passage (contributions vs. beliefs).<br/><br/>This matches choice D—<strong>D</strong> is correct."}]}
+{
+  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens with the narrator&apos;s general observation &mdash; that every crew member believes he alone is doing all the work &mdash; then illustrates it with Harris&apos;s view and George&apos;s view from a specific boat trip. The correct answer must capture this two-part structure: generalization followed by examples."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'To address a particular situation that the narrator finds unexpected'</strong>: The narrator says he has &apos;always noticed&apos; this pattern &mdash; it is habitual, not unexpected. &#10007;</li><li><strong>Choice B &mdash; 'To convey the narrator&apos;s confidence that he understands the role expected of him in a group'</strong>: The text is about Harris&apos;s and George&apos;s beliefs, not the narrator&apos;s own role or self-confidence. &#10007;</li><li><strong>Choice C &mdash; 'To examine how the narrator and his friends each contributed to navigating a challenge'</strong>: The passage describes what each person <em>believed</em> about contributions, not what they actually did. No challenge is being navigated in the excerpt. &#10007;</li><li><strong>Choice D &mdash; 'To present the narrator&apos;s generalization along with supporting examples from a specific situation'</strong>: The opening sentence is the generalization; Harris&apos;s view and George&apos;s view are the specific examples that support it. This matches the structure exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

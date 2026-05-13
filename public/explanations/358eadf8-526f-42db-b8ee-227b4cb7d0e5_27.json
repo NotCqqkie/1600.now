@@ -1,15 +1,1 @@
-{
-  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the goal requires a direct comparison",
-      "content": "The question asks to \u201ccompare the curviness of the two rivers.\u201d This means identifying which is curvier, not explaining how curviness is calculated."
-    },
-    {
-      "title": "Evaluate which choice accomplishes this comparison",
-      "content": "Choice D states that the Mississippi's sinuosity ratio is greater than the Neales', directly identifying which river is curvier. The others either reverse the facts or fail to state which river is more curved. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"358eadf8-526f-42db-b8ee-227b4cb7d0e5_27","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to compare the curviness of the Mississippi and Neale rivers using the data table. The answer must state which river has a higher sinuosity ratio &mdash; the direct measure of curviness."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: states the Neale has a greater sinuosity ratio than the Mississippi &mdash; this reverses the data. &#10007;</li><li><strong>Choice B</strong>: describes how sinuosity is calculated rather than comparing the two rivers. &#10007;</li><li><strong>Choice C</strong>: makes a claim about river length without comparing sinuosity ratios directly. &#10007;</li><li><strong>Choice D</strong>: states the Mississippi&apos;s sinuosity ratio is greater than the Neale&apos;s, directly identifying which river is curvier in line with the data. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

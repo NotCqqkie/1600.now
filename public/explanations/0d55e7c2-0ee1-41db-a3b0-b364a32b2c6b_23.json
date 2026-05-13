@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the example relationship",
-      "content": "The passage opens with a general principle about sleek vehicles and then immediately introduces the T-45 Goshawk jet as a concrete example to prove that principle. The transition word should signal this movement from general to specific."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "\u201dfor instance,\u201d marks the T-45 as a specific example of what was just stated \u2014 a sleek vehicle that is aerodynamic. Meanwhile signals time (wrong), however signals contrast (wrong), and additionally signals addition (wrong). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_23", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The first sentence states a general principle: sleek vehicles are more aerodynamic. The second sentence introduces the T-45 Goshawk jet as a case that illustrates that principle. The blank must signal the move from a general claim to a specific example."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'meanwhile,'</strong>: signals something happening at the same time as something else. There is no simultaneous event here &mdash; the jet is an example of the general principle, not a parallel event. &#10007;</li><li><strong>Choice B &mdash; 'however,'</strong>: signals contrast or contradiction. The jet&rsquo;s aerodynamics do not contradict the principle &mdash; they confirm it. &#10007;</li><li><strong>Choice C &mdash; 'for instance,'</strong>: signals that what follows is a specific example of what was just stated. The T-45 Goshawk is exactly that &mdash; a specific sleek vehicle that is aerodynamic. &#10003;</li><li><strong>Choice D &mdash; 'additionally,'</strong>: signals an additional, separate point. The jet is not a new point; it is an illustration of the same point. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

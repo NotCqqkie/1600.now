@@ -1,1 +1,15 @@
-{"questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the setup: problem and supporting detail", "content": "The underlined portion identifies a characteristic that sounds like a flaw—the book's “abrupt ending”—but immediately provides a key detail: the next book “picks up neatly where <em>Master and Commander</em> leaves off.” This combination signals what the text is trying to accomplish."}, {"title": "Apply the signal to the choices", "content": "Choice C describes the function as offering a detail that explains why a potential flaw isn't necessarily one.<br/><br/>This is exactly what happens: the seamless continuation with the next book provides grounds for arguing the ending isn't actually problematic.<br/><br/>The other choices misdirect by focusing on reader preferences (A, D) or attributing a later comparison to this section (B).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the function of the underlined sentence: &quot;Like the rest of the books in the series, Master and Commander has a rather abrupt ending, but the following book, Post Captain, picks up neatly where Master and Commander leaves off.&quot; Notice the structure: it names a potential flaw (abrupt ending) and immediately provides a fact that softens it (the next book picks up seamlessly)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It demonstrates that those readers who most enjoy reading Post Captain will be those who have just finished reading Master and Commander'</strong>: The underlined sentence says nothing about which readers enjoy Post Captain most. &#10007;</li><li><strong>Choice B &mdash; 'It argues that the Aubrey/Maturin series deserves the critical renown of works like The Forsyte Saga'</strong>: The comparison to The Forsyte Saga appears in the next sentence, not in the underlined portion. &#10007;</li><li><strong>Choice C &mdash; 'It offers a detail that helps explain why it is not necessarily the case that a certain characteristic of Master and Commander should be considered a flaw'</strong>: The underlined sentence identifies the &quot;abrupt ending&quot; as a potential flaw, then provides the detail (Post Captain picks up neatly) that explains why that ending isn't necessarily a problem. &#10003;</li><li><strong>Choice D &mdash; 'It presents a reason Master and Commander and Post Captain are considered to be two of O&apos;Brian&apos;s most engaging novels'</strong>: The passage never claims these are O'Brian's most engaging novels, and the underlined sentence doesn't make that argument. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

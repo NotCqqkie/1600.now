@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_15",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "A participial phrase \"Having 9,721 feet of prominence,\" is followed by a blank space that must be filled with an independent clause."
-    },
-    {
-      "title": "Apply the dangling modifier rule",
-      "content": "A participial phrase must be immediately followed by the noun it logically modifies — the thing that actually \"has\" the prominence.<br/><br/><strong>A:</strong> \"Having 9,721 feet of prominence, <u>Pico do Ramelau</u>...\" — Pico do Ramelau is the mountain with that prominence. Modifier is correctly attached. <strong>Correct.</strong><br/><br/><strong>B:</strong> \"Having 9,721 feet of prominence, <u>the list of mountains</u>...\" — A list cannot have topographical prominence. Dangling modifier.<br/><br/><strong>C:</strong> \"Having 9,721 feet of prominence, <u>geographers</u>...\" — Geographers don't have 9,721 feet of prominence. Dangling modifier.<br/><br/><strong>D:</strong> \"Having 9,721 feet of prominence, <u>the ranking</u>...\" — A ranking cannot possess prominence. Dangling modifier."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_15", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence opens with the participial phrase &quot;Having 9,721 feet of prominence,&quot; which must be immediately followed by the noun it modifies &mdash; the thing that actually possesses that topographical prominence. Any other subject creates a dangling modifier."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Pico do Ramelau'</strong>: the mountain itself has the prominence; the modifier correctly attaches to it. &#10003;</li><li><strong>Choice B &mdash; 'the list of mountains'</strong>: a list cannot possess topographical prominence. Dangling modifier. &#10007;</li><li><strong>Choice C &mdash; 'geographers'</strong>: people do not have 9,721 feet of prominence. Dangling modifier. &#10007;</li><li><strong>Choice D &mdash; 'the ranking'</strong>: an abstract ranking cannot possess physical prominence. Dangling modifier. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the organizing signal",
-      "content": "After defining land art, the passage emphasizes the wildly diverse ways in which it is created, then immediately supplies two examples demonstrating that diversity."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "D directly describes this pattern: a genre's definition followed by examples of a defining trait. A, B, and C reference content not in the passage\u2014artist biographies, criticism, and misconceptions. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"562b97f6-c42e-48b0-9911-de9db6425784_5","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage defines land art, then highlights its wildly diverse methods of creation, then gives two concrete examples of that diversity. The question asks what structural role the passage plays."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; artist biographies</strong>: the passage contains no biographical information about individual artists. &#10007;</li><li><strong>Choice B &mdash; criticism of the genre</strong>: the passage does not criticize land art. &#10007;</li><li><strong>Choice C &mdash; correcting a misconception</strong>: the passage does not identify or address any misconception. &#10007;</li><li><strong>Choice D &mdash; a genre&apos;s definition followed by examples of a defining trait</strong>: the passage defines land art, identifies diversity as its defining trait, and supplies two examples — a direct match. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

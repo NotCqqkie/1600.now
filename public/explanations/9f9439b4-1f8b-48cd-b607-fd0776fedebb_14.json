@@ -1,1 +1,15 @@
-{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the signal phrase", "content": "The passage says the speaker indicates “beneficial opportunities have recently become available to women.” The key phrase is “recently become available”—we need a quote showing specific fields opening their access to women in a new way."}, {"title": "Find the matching quote", "content": "B states “Trade and science and craft and art, / Have opened their doors to the call of woman.” The phrase “opened their doors” directly illustrates opportunities becoming available, and names specific fields newly accessible to women.<br/><br/>Choices A, C, and D instead describe ambition prompted by external pressure, assert inherent rights, or address an unrelated topic.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says the speaker &apos;indicates that several beneficial opportunities have recently become available to women.&apos; The correct quote must show specific fields or domains newly opening up to women &mdash; not ambition, rights claims, or unrelated topics."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '&quot;For worlds to conquer [woman] had not yearned, / Till [man] spoke of her feminine sphere as &apos;narrow.&apos;&quot;'</strong>: Describes ambition prompted by external criticism, not opportunities becoming available. &#10007;</li><li><strong>Choice B &mdash; '&quot;Trade and science and craft and art, / Have opened their doors to the call of woman&hellip;&quot;'</strong>: &apos;Opened their doors&apos; directly illustrates opportunities becoming newly available, and names four specific fields &mdash; trade, science, craft, and art. This matches both the &apos;recently available&apos; and &apos;beneficial&apos; language of the claim. &#10003;</li><li><strong>Choice C &mdash; '&quot;[Woman] grasped the scope of the First Intent / That made her kingdom for her, no other.&quot;'</strong>: Asserts an inherent domain belonging to women, not opportunities recently opened. &#10007;</li><li><strong>Choice D &mdash; '&quot;Time has cut his beard&hellip; Ah! But life is joy.&quot;'</strong>: From a different poem entirely and addresses an unrelated subject. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the contrast word",
-      "content": "The word \"novel\" signals the researchers chose a new and different path. This only stands out as novel if existing studies represent what's standard."
+      "title": "Identify what the question needs",
+      "content": "The passage contrasts &apos;many ______ studies&apos; with the researchers&apos; &apos;novel path.&apos; The word &apos;novel&apos; means new and different, so it only creates a contrast if the prior studies represent the standard approach. The blank must describe what the typical, mainstream studies look like."
     },
     {
-      "title": "Match the standard",
-      "content": "Substitute each word into \"many ______ studies\" and test against the passage's contrast with \"novel\":<br/><br/><strong>A. Eccentric</strong> means bizarrely unconventional. \"Many eccentric studies\" would already be unusual, so the researchers' \"novel path\" wouldn't stand out as different — the contrast collapses.<br/><br/><strong>B. Meager</strong> means small in quantity. The passage says nothing about how many prior studies exist; the blank describes the <em>type</em> of prior approach, not its amount.<br/><br/><strong>C. Conventional</strong> means following the standard, accepted approach. \"Many conventional studies focus on people above sea level\" sets up a clear contrast with the \"novel path\" of studying people below sea level. &#10003;<br/><br/><strong>D. Random</strong> means without plan or pattern. The prior studies were systematic enough to have a consistent focus (altitude above sea level); calling them random contradicts the passage.<br/><br/><strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'eccentric'</strong>: Means bizarrely unconventional. If prior studies were already eccentric, there would be no contrast with a &apos;novel path&apos; &mdash; both would be unusual. &#10007;</li><li><strong>Choice B &mdash; 'meager'</strong>: Means small in quantity. The blank describes the <em>type</em> of prior approach, not how many studies exist. The passage says nothing about the volume of prior research. &#10007;</li><li><strong>Choice C &mdash; 'conventional'</strong>: Means following the standard, accepted approach. &apos;Many conventional studies focus on people above sea level&apos; sets up a clear contrast with the novel choice to study people below sea level. &#10003;</li><li><strong>Choice D &mdash; 'random'</strong>: Means without plan or pattern. The prior studies were systematic &mdash; they consistently focused on people above sea level &mdash; so calling them random contradicts the passage. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

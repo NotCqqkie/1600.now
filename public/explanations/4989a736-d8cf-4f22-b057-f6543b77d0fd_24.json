@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining goal",
-      "content": "The task requires emphasizing a <strong>difference</strong> between quintidi and decadi, which demands explicit <strong>contrast</strong> language showing what makes each type of day distinct."
-    },
-    {
-      "title": "Apply to find the contrast",
-      "content": "Choice B directly contrasts the two with \u201cwhereas\u201d: quintidi honored animals (the ram), decadi honored agricultural tools (the sieve). Choices A, C, and D either discuss only one type of day or fail to draw a distinction. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"4989a736-d8cf-4f22-b057-f6543b77d0fd_24","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The task requires emphasizing a difference between quintidi and decadi. The correct answer must use explicit contrast language and show what made each type of day distinct from the other."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: discusses only one type of day without drawing a contrast to the other. &#10007;</li><li><strong>Choice B &mdash; 'whereas quintidi honored animals..., decadi honored agricultural tools...'</strong>: directly contrasts the two day types using &quot;whereas&quot; — quintidi honored animals (the ram), decadi honored tools (the sieve). &#10003;</li><li><strong>Choice C</strong>: fails to draw a distinction between the two types of days. &#10007;</li><li><strong>Choice D</strong>: discusses only one type of day without drawing a contrast to the other. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
