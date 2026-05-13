@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key measure",
-      "content": "The second team concluded K&K had better \u201cmethodology explanation\u201d than C&R. The passage defines this through \u201ctraceability\u201d\u2014higher traceability means clearer descriptions of procedures."
-    },
-    {
-      "title": "Find what contradicts this",
-      "content": "D states K&K had lower traceability than C&R\u2014the opposite of the conclusion. The other choices either omit the comparative claim or target a different measure. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2f36d10d-2b67-4940-be7e-7ae5a7f478f1_10","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Command of Evidence question asking which finding would most directly challenge the second team&apos;s conclusion. The second team concluded that Kozak and Keoleian (K&amp;K) had better-explained methodology than Chancerel and Rotter (C&amp;R). The passage ties &quot;better-explained methodology&quot; to traceability: a higher traceability rating means clearer descriptions of procedures. To challenge the conclusion, you need a finding that directly contradicts it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'The study by Chancerel and Rutter had a medium consistency rating and a medium traceability rating.'</strong>: This gives C&amp;R&apos;s ratings in isolation but makes no comparison to K&amp;K, so it does not challenge the conclusion that K&amp;K&apos;s methodology was better explained. &#10007;</li><li><strong>Choice B &mdash; 'The study by Kozak and Keoleian had a lower consistency rating than the study by Chancerel and Rotter did.'</strong>: Consistency rating is not the same as traceability, and &quot;better-explained methodology&quot; is defined through traceability. A lower consistency rating does not directly undermine the conclusion. &#10007;</li><li><strong>Choice C &mdash; 'The study by Kozak and Keoleian had a high consistency rating and a high traceability rating.'</strong>: High ratings would support the conclusion, not challenge it. &#10007;</li><li><strong>Choice D &mdash; 'The study by Kozak and Keoleian had a lower traceability rating than the study by Chancerel and Rotter did.'</strong>: Traceability directly measures how clearly procedures are described. If K&amp;K&apos;s traceability is lower than C&amp;R&apos;s, then K&amp;K&apos;s methodology was less clearly explained &mdash; the opposite of the second team&apos;s conclusion. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

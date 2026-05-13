@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement",
-      "content": "The student's goal is to emphasize a similarity between the two sculptures. For any choice to accomplish this, it must reference both sculptures and identify what they share."
-    },
-    {
-      "title": "Apply this to the choices",
-      "content": "Choice C directly names both sculptures and states their shared material\u2014mahogany. The other three miss the mark by focusing on a single sculpture, discussing Catlett's general work, or providing biographical details. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "This is a Rhetorical Synthesis question. The student's goal is to emphasize a similarity between the two sculptures: Seated Woman (1962) and Woman Fixing Her Hair (1993). To accomplish this goal, a choice must reference both sculptures and identify something they share."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;Seated Woman is a mahogany sculpture that celebrated artist Elizabeth Catlett created in 1962.&apos;</strong>: This discusses only Seated Woman. It mentions just one of the two sculptures and therefore cannot establish a similarity between them. &#10007;</li><li><strong>Choice B &mdash; &apos;Elizabeth Catlett was a celebrated artist who created prints as well as sculptures.&apos;</strong>: This describes Catlett&apos;s general body of work, not either specific sculpture. It doesn&apos;t address the two sculptures at all, let alone compare them. &#10007;</li><li><strong>Choice C &mdash; &apos;Elizabeth Catlett&apos;s sculptures Seated Woman and Woman Fixing Her Hair are both made of mahogany.&apos;</strong>: This names both sculptures and explicitly states what they share — mahogany as their material. This directly accomplishes the goal of emphasizing a similarity between the two. &#10003;</li><li><strong>Choice D &mdash; &apos;Elizabeth Catlett, a celebrated artist, was born in 1915.&apos;</strong>: This is a biographical detail about the artist and mentions neither sculpture. It does not establish any similarity between the two works. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

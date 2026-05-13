@@ -1,15 +1,5 @@
-{
-  "questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_6",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the quadratic formula",
-      "content": "Using $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = -2$, $c = -18$:<br/>$$x = \\frac{2 \\pm \\sqrt{4 + 72}}{2} = \\frac{2 \\pm \\sqrt{76}}{2}$$<br/>Simplify by separating the fraction:<br/>$$x = 1 \\pm \\frac{\\sqrt{76}}{2}$$<br/>Since $\\sqrt{76} = \\sqrt{4 \\cdot 19} = 2\\sqrt{19}$, we have:<br/>$$x = 1 \\pm \\frac{2\\sqrt{19}}{2} = 1 \\pm \\sqrt{19}$$"
-    },
-    {
-      "title": "Match to the given form",
-      "content": "The positive solution is $x = 1 + \\sqrt{19}$. Comparing to the form $1 + \\sqrt{k}$, we see that $k = 19$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d7afa874-519b-4f1b-b45f-1c75ea45613b_6", "correctAnswer": "B", "section": "Math", "steps": [
+  {"title": "Set up", "content": "Solve $x^2 - 2x - 18 = 0$ using the quadratic formula with $a = 1$, $b = -2$, $c = -18$."},
+  {"title": "Solve", "content": "$x = \\frac{2 \\pm \\sqrt{4 + 72}}{2} = \\frac{2 \\pm \\sqrt{76}}{2}$. Since $\\sqrt{76} = 2\\sqrt{19}$, this simplifies to $x = 1 \\pm \\sqrt{19}$. The positive solution is $1 + \\sqrt{19}$, so $k = 19$."},
+  {"title": "Answer", "content": "<strong>B</strong> is correct."}
+]}

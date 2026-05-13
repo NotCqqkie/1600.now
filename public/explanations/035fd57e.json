@@ -1,15 +1,1 @@
-{
-  "questionId": "035fd57e",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the time signal",
-      "content": "The word \u201cCurrently\u201d establishes that the sentence describes the frog's range in the present time."
-    },
-    {
-      "title": "Match the verb tense",
-      "content": "Choice A \u201cincludes\u201d is the simple present tense form, which correctly expresses the required present-time meaning. Choices B, C, and D use past or future tenses that contradict this requirement. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"035fd57e","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Form, Structure, and Sense question testing verb tense. The word &quot;Currently&quot; at the start of the sentence signals that the action is happening right now, in the present. The correct verb must use simple present tense to match that time frame."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'includes'</strong>: Simple present tense, which correctly expresses a present-time fact established by &quot;Currently.&quot; &#10003;</li><li><strong>Choice B &mdash; 'included'</strong>: Simple past tense, which places the action in the past and contradicts &quot;Currently.&quot; &#10007;</li><li><strong>Choice C &mdash; 'will have included'</strong>: Future perfect tense, which describes an action completed at some future point &mdash; inconsistent with &quot;Currently.&quot; &#10007;</li><li><strong>Choice D &mdash; 'had included'</strong>: Past perfect tense, which describes an action completed before another past event &mdash; inconsistent with &quot;Currently.&quot; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

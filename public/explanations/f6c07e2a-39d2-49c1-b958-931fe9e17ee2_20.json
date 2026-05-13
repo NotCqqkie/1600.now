@@ -1,16 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_20",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the exponential growth pattern",
-      "content": "When $x$ increases by 1, $y$ is multiplied by 3. This describes exponential growth with base 3. <br/><br/>For this problem, $b = 3$ (the growth factor) and $a = 200$ (the initial value when $x = 0$).",
-      "formula": "$$y = a \\cdot b^x$$"
-    },
-    {
-      "title": "Determine and verify the equation",
-      "content": "Substituting the values into the exponential form gives: $$y = 200(3)^x$$ <br/>Verification: when $x = 0$, $$y = 200(3)^0 = 200$$ \u2713; when $x = 1$, $$y = 200(3)^1 = 600$$, which is exactly $200 \\times 3$ \u2713. <br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f6c07e2a-39d2-49c1-b958-931fe9e17ee2_20","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the equation form","content":"Each increase of 1 in $x$ multiplies $y$ by 3, so this is exponential growth: $y = a \\cdot b^x$, where $a$ is the value when $x = 0$ and $b$ is the growth factor. Here $a = 200$ and $b = 3$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $y = 200(x)^3$</strong>: This is a power function (polynomial), not exponential &mdash; $x$ is the base, not the exponent, so increasing $x$ by 1 does not multiply $y$ by a constant factor. &#10007;</li><li><strong>Choice B &mdash; $y = 200(3)^x$</strong>: When $x = 0$, $y = 200$ &#10003;; when $x$ increases by 1, $y$ is multiplied by 3 &#10003;. Matches all conditions. &#10003;</li><li><strong>Choice C &mdash; $y = 3(x)^{200}$</strong>: Power function with wrong initial value ($y = 0$ when $x = 0$) and 3 is the coefficient, not the growth base. &#10007;</li><li><strong>Choice D &mdash; $y = 3(200)^x$</strong>: Exponential, but the initial value when $x = 0$ is 3, not 200, and each step multiplies by 200, not 3. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

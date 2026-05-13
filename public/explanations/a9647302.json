@@ -1,1 +1,5 @@
-{"questionId": "a9647302", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the defective counts from the bar graph", "content": "From the bar graph, the numbers of defective bulbs in the five trials are 3, 4, 5, 4, and 5.<br/>Sum them: $$3+4+5+4+5 = 21$$"}, {"title": "Compute the mean and select the answer", "content": "The mean is the total divided by the number of trials: $$\\frac{21}{5}=4.2$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{"questionId": "a9647302", "correctAnswer": "B", "section": "Math", "steps": [
+  {"title": "Read the bar graph", "content": "The bar graph shows the number of defective lightbulbs in each of the five trials: Trial 1 = 3, Trial 2 = 4, Trial 3 = 5, Trial 4 = 4, Trial 5 = 5."},
+  {"title": "Compute the mean", "content": "Add all five values and divide by 5:<br/>$$\\frac{3 + 4 + 5 + 4 + 5}{5} = \\frac{21}{5} = 4.2$$"},
+  {"title": "Answer", "content": "<strong>B</strong> is correct."}
+]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The sentence specifies \u201ca neighboring species with a negative effect value.\u201d The table displays effect values for neighboring species\u2014some positive, one negative."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<em>leafy spurge</em> is the neighboring species with an effect value of -0.3238\u2014the only negative value in the table. The other three either show neighboring species with positive effect values or aren't neighboring species at all.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"4989a736-d8cf-4f22-b057-f6543b77d0fd_11","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Command of Evidence question. The sentence to complete asks for &ldquo;one example of a neighboring species with a negative effect value.&rdquo; The table lists three neighboring species alongside their effect values. The task is to read the table and select the neighboring species whose effect value is negative (below zero)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Elands sourfig&rsquo;</strong>: The table shows Elands sourfig has an effect value of 0.3580 &mdash; positive, not negative. &#10007;</li><li><strong>Choice B &mdash; &lsquo;creeping thistle&rsquo;</strong>: The table shows creeping thistle has an effect value of 0.2523 &mdash; positive, not negative. &#10007;</li><li><strong>Choice C &mdash; &lsquo;wild radish&rsquo;</strong>: Wild radish appears in the table as the target species paired with creeping thistle, not as a neighboring species. It has no effect value listed in the &ldquo;neighboring species&rdquo; role. &#10007;</li><li><strong>Choice D &mdash; &lsquo;leafy spurge&rsquo;</strong>: The table shows leafy spurge has an effect value of &minus;0.3238 &mdash; the only negative value in the table, and it is listed as a neighboring species. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

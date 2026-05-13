@@ -1,15 +1,1 @@
-{
-  "questionId": "9671d61d",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key context for 'drew'",
-      "content": "The word 'drew' is used in the action of closing a window shade ('I drew the shades far down'). This points to a physical motion involving moving something downward."
-    },
-    {
-      "title": "Match the physical action in context",
-      "content": "The correct answer, 'Pulled,' directly aligns with the physical motion of lowering window shades. The other choices either describe unrelated actions (drained, sketched) or a metaphorical concept (inspired) that contradicts the literal context. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9671d61d","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Words in Context question. The underlined word &quot;drew&quot; appears in the line &quot;I drew the shades far down, crept into bed.&quot; You need the choice that most nearly captures the meaning of &quot;drew&quot; in this specific physical action of lowering window shades before sleep."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Pulled'</strong>: In the context of lowering window shades, &quot;pulled&quot; captures the physical motion &mdash; the speaker pulled the shades downward. This fits perfectly. &#10003;</li><li><strong>Choice B &mdash; 'Drained'</strong>: &quot;Drew&quot; can mean drained in the sense of drawing water from a well, but shades are not drained. This meaning does not fit the physical action of closing window shades. &#10007;</li><li><strong>Choice C &mdash; 'Inspired'</strong>: &quot;Drew&quot; can mean inspired or elicited a response (e.g., drew applause), but the speaker is performing a physical action on the shades, not inspiring anything. &#10007;</li><li><strong>Choice D &mdash; 'Sketched'</strong>: &quot;Drew&quot; can mean sketched or illustrated, but the speaker is not drawing a picture &mdash; they are physically lowering the shades. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

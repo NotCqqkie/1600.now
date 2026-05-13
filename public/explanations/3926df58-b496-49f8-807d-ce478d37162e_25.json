@@ -1,15 +1,1 @@
-{
-  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key contrast",
-      "content": "The prompt asks the student to emphasize a DIFFERENCE. The notes reveal a clear contrast: <em>Uros Island</em> uses smooth multicolored LED domes, while <em>Golden Connection</em> uses entangled blue and white LED tubes."
-    },
-    {
-      "title": "Find the choice with explicit contrast language",
-      "content": "Choice A employs \u201cbut\u201d and \u201cstand in contrast to\u201d to directly position smooth domes against tangled tubes. Choices B and D mention both works but lack explicit contrast language, while C addresses only one. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"3926df58-b496-49f8-807d-ce478d37162e_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Rhetorical Synthesis question. The student's goal is to emphasize a difference between the two sculptures. A correct answer must name both works and use language that explicitly contrasts them &mdash; specifically the smooth multicolored LED domes of Uros Island versus the entangled blue and white LED tubes of Golden Connection."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Grimanesa Amoros often employs LED lights in her work, but the smooth LED domes of Uros Island stand in contrast to the tangled LED tubes of Golden Connection.'</strong>: Uses 'but' and 'stand in contrast to' to directly set the two sculptures against each other, naming the distinguishing physical features (smooth domes vs. tangled tubes). This accomplishes the goal of emphasizing a difference. &#10003;</li><li><strong>Choice B &mdash; 'Uros Island and Golden Connection are two LED light sculptures by well-known artist Grimanesa Amoros.'</strong>: Mentions both works but treats them as similar rather than different. No contrast is expressed. &#10007;</li><li><strong>Choice C &mdash; 'In 2011, Grimanesa Amoros debuted Uros Island, a part of her Uros series.'</strong>: Discusses only one sculpture; Golden Connection is not mentioned at all. Cannot emphasize a difference between the two. &#10007;</li><li><strong>Choice D &mdash; 'Many of Grimanesa Amoros's sculptures, like Uros Island and Golden Connection, incorporate LED lights in the form of domes or tubes.'</strong>: Names both works but frames them as sharing a characteristic (LED lights as domes or tubes) rather than contrasting them. The phrasing 'domes or tubes' blurs the distinction rather than highlighting it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
