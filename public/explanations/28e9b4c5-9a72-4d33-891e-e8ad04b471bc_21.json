@@ -1,15 +1,1 @@
-{
-  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its structure",
-      "content": "The subject is the gerund phrase \"Having proportionally large populations\" — the entire phrase acts as a single, singular noun (like \"Running marathons is hard\")."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Gerund phrases, regardless of how many words they contain, function as singular subjects and take a singular verb.<br/><br/><strong>A) is</strong> — singular present-tense verb; agrees with the singular gerund-phrase subject. Correct.<br/><strong>B) were</strong> — plural past tense; both number and tense are wrong. Wrong.<br/><strong>C) are</strong> — plural present tense; violates singular subject. Wrong.<br/><strong>D) have been</strong> — plural present-perfect; violates singular subject. Wrong.<br/><br/><strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"28e9b4c5-9a72-4d33-891e-e8ad04b471bc_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is the gerund phrase &apos;Having proportionally large populations.&apos; A gerund phrase, no matter how long, functions as a single singular noun and requires a singular verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;is&apos;</strong>: singular present tense &mdash; agrees with the singular gerund-phrase subject. &#10003;</li><li><strong>Choice B &mdash; &apos;were&apos;</strong>: plural past tense &mdash; wrong number and wrong tense. &#10007;</li><li><strong>Choice C &mdash; &apos;are&apos;</strong>: plural present tense &mdash; violates singular subject agreement. &#10007;</li><li><strong>Choice D &mdash; &apos;have been&apos;</strong>: plural present perfect &mdash; violates singular subject agreement. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

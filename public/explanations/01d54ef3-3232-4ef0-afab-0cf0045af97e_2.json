@@ -1,15 +1,1 @@
-{
-  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the target meaning",
-      "content": "The key signal is the phrase \u201ceagerly anticipating the moment when he would be at home again.\u201d The word \u201ceagerly\u201d shows strong positive emotion toward a future event, while \u201cthe moment when\u201d indicates something that hasn't yet occurred. The Mole intensely desires a future arrival."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Choice C, \u201cLooking forward to,\u201d expresses this forward-looking desire for a future moment.<br/><br/>The other three fail: \u201cDescribing\u201d and \u201cInstructing\u201d are unrelated actions, while \u201cGetting ahead of\u201d means surpassing rather than eagerly desiring.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"01d54ef3-3232-4ef0-afab-0cf0045af97e_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what 'anticipating' most nearly means as used in the text. The Mole is 'eagerly anticipating the moment when he would be at home again' — he hasn't arrived yet, and the word 'eagerly' signals strong positive desire toward that future moment."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Describing'</strong>: The Mole isn't narrating or depicting the moment — he desires it. &#10007;</li><li><strong>Choice B &mdash; 'Getting ahead of'</strong>: This means surpassing or outpacing something, not longing for a future event. &#10007;</li><li><strong>Choice C &mdash; 'Looking forward to'</strong>: Captures both the forward-looking orientation and the eager desire the text signals. &#10003;</li><li><strong>Choice D &mdash; 'Instructing'</strong>: Completely unrelated to the context of the Mole's emotional state. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

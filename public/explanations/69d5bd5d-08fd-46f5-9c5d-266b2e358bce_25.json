@@ -1,15 +1,1 @@
-{
-  "questionId": "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated goal",
-      "content": "The student wants to \u201cemphasize calcite's Mohs scale number\u201d\u2014the answer must make calcite's number (3) the primary focus."
-    },
-    {
-      "title": "Apply the goal to the choices",
-      "content": "Choice A directly states \u201cCalcite has a Mohs scale number of 3\u201d and immediately explains what that number means\u2014making it the primary focus of the entire statement. The others fail to highlight calcite's specific number. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"69d5bd5d-08fd-46f5-9c5d-266b2e358bce_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize calcite&apos;s Mohs scale number (3). The correct answer must make that specific number the primary focus of the sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Calcite has a Mohs scale number of 3&apos;</strong>: leads with the number directly and immediately explains what it means, making 3 the central fact. &#10003;</li><li><strong>Choice B</strong>: buries the number or frames calcite primarily in terms of another property, so the Mohs number is not the main emphasis. &#10007;</li><li><strong>Choice C</strong>: mentions calcite in a context where the Mohs number is secondary to another point. &#10007;</li><li><strong>Choice D</strong>: similarly fails to foreground the specific Mohs scale number of 3 as the primary claim. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

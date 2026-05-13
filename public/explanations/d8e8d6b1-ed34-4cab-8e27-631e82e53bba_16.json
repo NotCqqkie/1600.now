@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the plural subject",
-      "content": "The subject is \"Objects,\" which is plural. Although an appositive phrase interrupts after it, the subject's number doesn't change."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "Rule: the verb must agree with \"Objects\" (plural), not with the singular nouns inside the interrupting appositive (\"49036 Pelion, a 46-kilometer-wide body first detected in 1998\").<br/><br/><strong>A — \"is exhibiting\"</strong> Singular present progressive. Treats \"Objects\" as singular. Fails.<br/><br/><strong>B — \"exhibits\"</strong> Singular simple present. Agrees with a singular subject, not the plural \"Objects.\" Fails.<br/><br/><strong>C — \"has exhibited\"</strong> Singular present perfect. Again treats \"Objects\" as singular. Fails.<br/><br/><strong>D — \"exhibit\"</strong> Plural simple present. Agrees with the plural subject \"Objects,\" correctly describing their shared characteristics. Correct.<br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d8e8d6b1-ed34-4cab-8e27-631e82e53bba_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject of the sentence is &quot;Objects&quot; (plural). An appositive phrase naming one specific object (49036 Pelion) interrupts between subject and verb, but the verb must still agree with the plural subject &quot;Objects,&quot; not with the singular noun in the appositive."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is exhibiting'</strong>: Singular present progressive. Agrees with a singular subject — not with the plural &quot;Objects.&quot; &#10007;</li><li><strong>Choice B &mdash; 'exhibits'</strong>: Singular simple present. Same error: treats &quot;Objects&quot; as singular. &#10007;</li><li><strong>Choice C &mdash; 'has exhibited'</strong>: Singular present perfect. Again fails to agree with the plural subject. &#10007;</li><li><strong>Choice D &mdash; 'exhibit'</strong>: Plural simple present. Correctly agrees with the plural subject &quot;Objects.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

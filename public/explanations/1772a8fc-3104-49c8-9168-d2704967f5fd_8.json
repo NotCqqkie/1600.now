@@ -1,15 +1,1 @@
-{
-  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_8",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's main focus",
-      "content": "The passage opens with Edwards's play but quickly develops explanations of NEC's origins (how Ward and Hooks met, their shared vision) and its impact (founded 1967, it gave Black playwrights a forum for their work). The Edwards play illustrates, rather than defines, the passage's main subject."
-    },
-    {
-      "title": "Match the main purpose",
-      "content": "Only choice D captures both how NEC came to exist and why it matters. Choices A and B elevate peripheral details to the main point, while C claims a partnership evolution the passage never traces. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1772a8fc-3104-49c8-9168-d2704967f5fd_8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the main purpose of the passage overall — not a detail it mentions, but what the whole text is trying to do."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'To show how the play A Raisin in the Sun influenced Ward and Hooks.'</strong>: The passage opens with an Edwards play, not A Raisin in the Sun, and never argues it influenced Ward and Hooks. &#10007;</li><li><strong>Choice B &mdash; 'To bring attention to a work by Gus Edwards.'</strong>: Edwards's play appears only as an example of the kind of work NEC produced — it is not the passage's focus. &#10007;</li><li><strong>Choice C &mdash; 'To describe how Ward and Hooks&apos;s creative partnership changed over time.'</strong>: The passage never traces an evolution or change in their partnership. &#10007;</li><li><strong>Choice D &mdash; 'To discuss the origin and importance of the NEC.'</strong>: The passage explains how Ward and Hooks met, what they envisioned, when NEC was founded (1967), and why it mattered (a forum for Black playwrights). That covers both origin and importance. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

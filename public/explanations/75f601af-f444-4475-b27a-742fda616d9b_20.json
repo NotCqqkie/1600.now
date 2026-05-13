@@ -1,15 +1,1 @@
-{
-  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "LEFT: An independent clause ending with \"and [blank]\"<br/>RIGHT: An independent clause that becomes a dependent clause when \"though\" precedes it"
-    },
-    {
-      "title": "Apply the subordinating conjunction rule",
-      "content": "Rule: when a subordinating conjunction (\"though,\" \"although,\" \"because,\" etc.) begins a dependent clause that follows an independent clause mid-sentence, no punctuation precedes it.<br/><br/><strong>A:</strong> \"...composition, though, temperature fluctuations...\" — the comma after \"though\" incorrectly separates the conjunction from the clause it introduces, making the sentence ungrammatical. Incorrect.<br/><br/><strong>B:</strong> \"...composition, though: temperature fluctuations...\" — a colon cannot follow a subordinating conjunction; the structure is invalid. Incorrect.<br/><br/><strong>C:</strong> \"...composition; though temperature fluctuations...\" — a semicolon precedes the subordinating conjunction, which requires two independent clauses on each side. The \"though\" clause is dependent. Incorrect.<br/><br/><strong>D:</strong> \"...composition though temperature fluctuations...\" — no punctuation before \"though\"; the dependent clause attaches cleanly to the independent clause. <strong>Correct.</strong>"
-    }
-  ]
-}
+{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_20","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has an independent clause followed by &apos;though,&apos; a subordinating conjunction that introduces a dependent clause. The question asks which punctuation (if any) correctly joins them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; comma before &apos;though&apos;</strong>: a comma separates &apos;though&apos; from the clause it introduces &mdash; ungrammatical. &#10007;</li><li><strong>Choice B &mdash; colon before &apos;though&apos;</strong>: a colon cannot precede a subordinating conjunction mid-sentence. &#10007;</li><li><strong>Choice C &mdash; semicolon before &apos;though&apos;</strong>: a semicolon requires two independent clauses; the &apos;though&apos; clause is dependent. &#10007;</li><li><strong>Choice D &mdash; no punctuation</strong>: the dependent clause introduced by &apos;though&apos; attaches cleanly to the independent clause without any punctuation. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical subject",
-      "content": "The subject is \u201cmany works,\u201d a plural noun. The phrase \u201cparticularly one abstract cubist painting by Marcel Duchamp\u201d is a parenthetical aside that doesn't change the subject."
-    },
-    {
-      "title": "Apply the agreement rule",
-      "content": "A plural subject requires a plural verb. \u201cWere\u201d is the plural past tense form that matches this agreement rule and the past time reference (\u201cat the time\u201d). The other three choices are all singular and violate subject-verb agreement. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_19", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The subject is <em>many works</em>, a plural noun. The phrase <em>particularly one abstract cubist painting by Marcel Duchamp</em> is a parenthetical aside set off by dashes; it does not change the subject. The blank is the main verb, and it must agree with <em>many works</em> in number and fit the past-tense context established by <em>at the time</em>."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'was'</strong>: singular past tense. The subject <em>many works</em> is plural, so <em>was</em> violates subject-verb agreement. &#10007;</li><li><strong>Choice B &mdash; 'were'</strong>: plural past tense. Agrees with <em>many works</em> and matches the past-time frame. &#10003;</li><li><strong>Choice C &mdash; 'has been'</strong>: singular present-perfect. Fails on both number (singular) and tense (present-perfect does not fit the past context of the 1913 show). &#10007;</li><li><strong>Choice D &mdash; 'is'</strong>: singular present tense. Wrong number and wrong tense. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

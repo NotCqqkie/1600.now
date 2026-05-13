@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the similarity clue",
-      "content": "<strong>Both are scientists studying living organisms</strong><br/>Morris studies insects (wheat flies, cicadas); Snethlage studies birds (Brazilian birds). This shared focus on living things is the key signal for a similarity emphasis."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Choice B</strong> frames both scientists as dedicated to studying living organisms, directly reflecting the similarity signal.<br/>The other three either highlight differences, are too general, or explicitly contrast the two, missing the similarity.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for a choice that emphasizes a <em>similarity</em> between Morris and Snethlage. Morris is an entomologist (studies insects); Snethlage is an ornithologist (studies birds). The correct choice must connect them through something they share, not contrast them."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Morris was born in 1797, but Snethlage was born later, in 1868'</strong>: highlights a difference (birth years) and uses <em>but</em> to signal contrast. &#10007;</li><li><strong>Choice B &mdash; 'Like entomologist Margaretta Morris, ornithologist Emilie Snethlage dedicated her scientific career to the study of living organisms'</strong>: the word <em>Like</em> signals similarity, and &apos;study of living organisms&apos; is the common ground shared by entomology (insects) and ornithology (birds). &#10003;</li><li><strong>Choice C &mdash; 'Entomology and ornithology are just two examples of the myriad fields in which scientists can specialize'</strong>: makes a general statement about scientific fields and does not emphasize any similarity between Morris and Snethlage as individuals. &#10007;</li><li><strong>Choice D &mdash; 'Morris conducted research on wheat flies and cicadas; Snethlage, by contrast, is known for her research on Brazilian birds'</strong>: the phrase <em>by contrast</em> explicitly signals a difference, not a similarity. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

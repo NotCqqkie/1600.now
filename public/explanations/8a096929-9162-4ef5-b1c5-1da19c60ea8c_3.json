@@ -1,15 +1,1 @@
-{
-  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_3",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the conversion factor",
-      "content": "We have a speed of $\\frac{3}{50}$ feet per second and need yards per second. The given ratio is 3 feet = 1 yard, so dividing feet by 3 converts to yards."
-    },
-    {
-      "title": "Apply the conversion",
-      "content": "Divide the speed by 3:<br/>$$\\frac{3}{50} \\div 3 = \\frac{3}{50 \\cdot 3} = \\frac{1}{50}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8a096929-9162-4ef5-b1c5-1da19c60ea8c_3","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"Convert a speed of $\\tfrac{3}{50}$ feet per second to yards per second, using the fact that $3$ feet $= 1$ yard."},{"title":"Eliminate the choices","content":"Dividing feet by $3$ converts to yards: $\\dfrac{3}{50} \\div 3 = \\dfrac{3}{150} = \\dfrac{1}{50}$.<ul><li><strong>Choice A &mdash; &apos;50&apos;</strong>: multiplied instead of converted units. &#10007;</li><li><strong>Choice B &mdash; &apos;6&apos;</strong>: added the conversion factor instead of dividing. &#10007;</li><li><strong>Choice C &mdash; &apos;$\\frac{9}{50}$&apos;</strong>: multiplied by $3$ instead of dividing by $3$. &#10007;</li><li><strong>Choice D &mdash; &apos;$\\frac{1}{50}$&apos;</strong>: correctly divides by $3$ to convert feet to yards. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
