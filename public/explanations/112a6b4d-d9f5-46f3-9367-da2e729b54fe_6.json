@@ -1,1 +1,15 @@
-{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_6", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the defining pattern", "content": "The passage opens with a key metaphor: Louis 'tended the petition like a garden.' The rest shows what this means—keeping it with him at all times, sharpening his eyes for unsigned members, cornering them in every circumstance, letting no excuse stop him.<br/><br/>This pattern of relentless, unwavering commitment is the passage's focus."}, {"title": "Match the pattern to the main purpose", "content": "Choice C states it directly: Louis's strong commitment to collecting signatures. The other three describe situations the passage doesn't show (changing attitudes, refusals) or shift focus from Louis to the tribe. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main purpose of the text. The passage shows Louis Pipestone collecting petition signatures: he keeps the petition with him always, spots unsigned members everywhere, and corners them in any circumstance. Every detail illustrates one thing: the intensity of Louis's effort to gather signatures."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'attitudes toward the petition within the tribal community change over time'</strong>: The passage never describes a change in attitudes over time &mdash; it is a static portrait of Louis's behavior. &#10007;</li><li><strong>Choice B &mdash; 'most tribal members are enthusiastic about signing'</strong>: The passage does not describe members' enthusiasm; it describes Louis pursuing them in every situation. Nothing suggests eager volunteers. &#10007;</li><li><strong>Choice C &mdash; 'Louis Pipestone's strong commitment to collecting signatures'</strong>: Every sentence supports this &mdash; keeping the petition with him always, sharpening his eyes for unsigned members, cornering them anywhere regardless of circumstance. &#10003;</li><li><strong>Choice D &mdash; 'some tribal members refuse to sign because they dislike Louis'</strong>: The passage mentions no refusals and no personal animosity toward Louis. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

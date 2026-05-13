@@ -1,1 +1,15 @@
-{"questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the hypothesis's prediction", "content": "The second team predicts that intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions creating large vortices in low-visibility. More likely to detect = fewer collisions in a test."}, {"title": "Find the study showing the predicted advantage", "content": "Choice C directly compares both fish types in the specified conditions and shows narrow-headed fish bumping into more obstructions.<br/><br/>The others either show equal performance (A), test only narrow-headed fish (B), or measure within-species variation (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "ab8d5974-205a-4c42-a0c7-9177d4a35621_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the hypothesis's prediction",
+      "content": "The second team predicts that in low-visibility conditions with large vortices, intermediate-headed fish will be <strong>more likely than narrow-headed fish</strong> to detect obstructions. More likely to detect = <em>fewer collisions</em>. A supporting finding must compare both types in exactly those conditions and show intermediate-headed fish performing better."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Intermediate-headed Lobocheilos rhabdoura bumped into obstructions just as often as narrow-headed Selene vomer'</strong>: equal performance &mdash; this contradicts the hypothesis rather than supporting it. &#10007;</li><li><strong>Choice B &mdash; 'Narrow-headed S. vomer bumped into more than half the obstructions'</strong>: only tests narrow-headed fish; we learn nothing about how intermediate-headed fish compare, so the hypothesis is unaddressed. &#10007;</li><li><strong>Choice C &mdash; 'Narrow-headed S. vomer bumped into obstructions more often than intermediate-headed L. rhabdoura'</strong>: directly compares both fish types in the specified conditions and shows intermediate-headed fish detecting better (fewer collisions) &mdash; exactly what the hypothesis predicts. &#10003;</li><li><strong>Choice D &mdash; 'Some intermediate-headed L. rhabdoura bumped into obstructions more than other specimens of the same fish'</strong>: measures within-species variation only; no comparison to narrow-headed fish, so the hypothesis is untested. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

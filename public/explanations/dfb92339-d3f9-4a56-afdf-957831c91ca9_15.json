@@ -1,1 +1,15 @@
-{"questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key chromium comparison", "content": "The passage directly states that ferritic stainless steel contains “a higher percentage of chromium” than austenitic stainless steel. Cooking utensils use ferritic steel; washing machines use 200 series austenitic steel. This comparison is the decisive clue."}, {"title": "Apply the comparison", "content": "C correctly states that washing machines will have lower chromium than cooking utensils.<br/><br/>The other choices contradict facts or lack support: <ul><li>A wrongly attributes crystalline structure to ferritic</li><li>D ignores the iron requirement for magnetic properties</li><li>B creates an unsupported distinction between austenitic types</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "dfb92339-d3f9-4a56-afdf-957831c91ca9_15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the answer must do",
+      "content": "The sentence sets up a logical conclusion: \"Thus, stainless steel used to manufacture ______\". The key facts are (1) ferritic steel (used for cooking utensils) has at least 10.5% chromium, (2) austenitic steel has a lower chromium percentage than ferritic, and (3) the 200 series austenitic steel is used for washing machines. Any valid inference must follow directly from these stated relationships."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'cooking utensils will have a face-centered cubic crystalline structure.'</strong>: Wrong. The face-centered cubic structure belongs to austenitic steel, not ferritic. Cooking utensils use ferritic steel. &#10007;</li><li><strong>Choice B &mdash; 'mining and chemical equipment will have a concentration of chromium lower than 10.5%, while stainless steel used to manufacture washing machines will not.'</strong>: Wrong. Both mining equipment (300 series austenitic) and washing machines (200 series austenitic) use austenitic steel, which has a lower chromium percentage than ferritic. The passage gives no basis for distinguishing between the two austenitic subtypes on chromium content. &#10007;</li><li><strong>Choice C &mdash; 'washing machines will have a lower percentage of chromium in its composition than stainless steel used for cooking utensils will.'</strong>: Correct. Washing machines use 200 series austenitic steel; cooking utensils use ferritic steel, which has higher chromium than austenitic. This inference follows directly from the stated comparison. &#10003;</li><li><strong>Choice D &mdash; 'sinks will have similar magnetic properties to stainless steel used to manufacture cooking utensils.'</strong>: Wrong. Magnetic properties come from the high iron content of ferritic steel. Sinks use 300 series austenitic steel, which has a different composition and no stated magnetic properties. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_5", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the evaluative language", "content": "The key signal is “thus capitalizing on” combined with the description of the source as “vast but hitherto relatively underutilized.” This language judges the value and importance of the approach—it evaluates significance rather than specifying applications or explaining causes."}, {"title": "Match the function to the choices", "content": "Choice C correctly identifies this as “commentary on the significance”—the underlined portion evaluates how important and valuable this methodological choice is.<br/><br/>The other choices describe different functions: <ul><li>A specifies concrete applications that don't appear here</li><li>B shifts focus from the approach to the findings themselves</li><li>D seeks causal explanation rather than assessment of value</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the underlined portion does",
+      "content": "The underlined phrase &mdash; \"thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight\" &mdash; uses the word <em>capitalizing on</em> and evaluates the source as \"vast but hitherto relatively underutilized.\" This language <strong>judges the value and significance</strong> of using historical DNA, rather than specifying applications, highlighting findings, or explaining why the method is rare."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It specifies potential applications of the approach'</strong>: the underlined portion makes no mention of specific applications (e.g., which organisms to study next). It evaluates the source's potential, not its concrete uses. &#10007;</li><li><strong>Choice B &mdash; 'It emphasizes the importance of Campana and colleagues' findings about the DNA of pathogens'</strong>: the underlined portion is about the <em>approach</em> (using historical DNA), not the findings or results of the study. &#10007;</li><li><strong>Choice C &mdash; 'It offers commentary on the significance of the approach that Campana and colleagues used'</strong>: \"capitalizing on a vast but hitherto relatively underutilized source\" is evaluative commentary about how important and advantageous this methodological choice is. &#10003;</li><li><strong>Choice D &mdash; 'It explains why the research methodology is not widely used'</strong>: the phrase notes the source is underutilized but does not explain <em>why</em> &mdash; no causal reason is given. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

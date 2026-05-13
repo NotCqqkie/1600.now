@@ -1,1 +1,15 @@
-{"questionId": "262137dd-b309-4356-982d-630e0212b16e_5", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the passage's structure", "content": "The passage follows a clear sequence: it opens with broad context about shipwrecks and scientific interest, narrows to a specific research team's study, and concludes with one key finding from that study."}, {"title": "Match the structure to the choices", "content": "Choice B is correct because it accurately captures the passage's approach—beginning with general scientific interest, then describing a specific study, then stating a finding.<br/><br/>The other three either invent details not in the text (A adds a “research team's reaction,” D describes the San Pedro's wood composition) or misrepresent what's actually written (C overstates with “describes historical significance” when the San Pedro is merely named as one example).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "262137dd-b309-4356-982d-630e0212b16e_5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank/question needs",
+      "content": "This is a Text Structure and Purpose question. Map the passage's three actual moves: (1) a broad statement that millions of shipwrecks affect sea life and interest researchers, (2) a specific team's study of microbial communities near wooden wrecks in the Gulf of Mexico, (3) the study's key finding about peak microbial diversity at ~125 meters. The correct answer must match all three moves accurately."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'introduces a study... summarizes results... describes a research team's reaction'</strong>: The passage never describes the team's reaction to the study. The study is the team's own work, not something they reacted to. &#10007;</li><li><strong>Choice B &mdash; 'notes a general scientific interest... describes a specific study... states one of the study's findings'</strong>: Matches all three moves exactly: broad interest (\"great interest to researchers\"), specific study (Hamdan et al.), one finding (peak diversity at 125 m). &#10003;</li><li><strong>Choice C &mdash; 'states the number of known shipwrecks, describes the historical significance of one... comments on microbes found there'</strong>: The San Pedro is only mentioned by name in the opening sentence as an example of the millions of wrecks — its historical significance is never discussed. &#10007;</li><li><strong>Choice D &mdash; 'names a famous historical shipwreck, describes the type of wood used to build that ship...'</strong>: The passage uses pine and oak as sampling materials placed near wrecks, not as the construction material of any specific ship. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

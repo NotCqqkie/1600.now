@@ -1,1 +1,15 @@
-{"questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_22", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast announced in the passage", "content": "The passage opens with “though for different reasons” — clearly signaling that Katharine Kuh and Bernarda Bryson Shahn received the same award but for DIFFERENT reasons. After stating that Kuh was honored for her art history work, the transition must reflect this difference."}, {"title": "Match the transition to the signal", "content": "<strong>By contrast</strong> directly signals the difference between the two women's reasons for receiving the award.<br/><br/>The other three choices don't signal contrast: <strong>as a result</strong> introduces causation, <strong>for instance</strong> introduces an example, and <strong>in other words</strong> suggests clarifying or restating.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_22",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "The passage opens with &ldquo;though for different reasons&rdquo; &mdash; signaling that Kuh and Bryson Shahn both received the same award but for distinct reasons. Kuh is described first (art history); the blank must introduce Bryson's contrasting reason (painting). The transition word must signal contrast."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'as a result'</strong>: signals causation &mdash; Bryson's recognition would be a consequence of Kuh's. That is not the relationship; they are independent recipients honored for different fields. &#10007;</li><li><strong>Choice B &mdash; 'for instance'</strong>: signals an example of the previous point. Bryson is not an example of Kuh's art history work; she is a separate recipient for a different reason. &#10007;</li><li><strong>Choice C &mdash; 'in other words'</strong>: signals a restatement or clarification of what was just said. Bryson's painting career is not a restatement of Kuh's art history work. &#10007;</li><li><strong>Choice D &mdash; 'by contrast'</strong>: signals difference &mdash; exactly what &ldquo;though for different reasons&rdquo; promised. Bryson is recognized for painting, contrasting with Kuh's art history. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship the researchers assume", "content": "The researchers concluded that F13's higher oxygen-18 concentration means it formed at lower temperature. This conclusion depends on one relationship: higher oxygen-18 concentration must correspond to lower water temperature."}, {"title": "Find which finding proves this inverse relationship", "content": "Choice C establishes exactly this—as oxygen-18 concentration increases, water temperature decreases (both with increasing depth).<br/><br/>This proves the inverse relationship the researchers assumed.<br/><br/>The other choices either reverse the relationship, show the two variables moving together rather than inversely, or contradict the conclusion.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the answer must do",
+      "content": "The researchers concluded that F13 (which had a higher oxygen-18 concentration than M03) formed at a significantly lower temperature. The logic requires that higher oxygen-18 concentration = lower formation temperature. A supporting finding must establish this inverse relationship between oxygen-18 and temperature."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'As the concentration of oxygen-18 in water decreases, water temperature decreases and nautilid shell growth slows.'</strong>: This links decreasing oxygen-18 to decreasing temperature &mdash; the same direction for both variables. That would mean higher oxygen-18 = higher temperature, which directly contradicts the conclusion. &#10007;</li><li><strong>Choice B &mdash; 'As water depth increases, both the concentration of oxygen-18 and the water temperature decrease.'</strong>: Both oxygen-18 and temperature decrease together with depth, meaning they move in the same direction. Higher oxygen-18 would then correspond to higher temperature &mdash; the opposite of what the conclusion requires. &#10007;</li><li><strong>Choice C &mdash; 'As water depth increases, the concentration of oxygen-18 increases and water temperature decreases.'</strong>: As depth increases, oxygen-18 goes up while temperature goes down &mdash; an inverse relationship. This means higher oxygen-18 = lower temperature, exactly supporting the conclusion that F13's higher oxygen-18 means it formed in colder water. &#10003;</li><li><strong>Choice D &mdash; 'As water temperature increases, nautilids are able to concentrate more oxygen-18 into their shells.'</strong>: Higher temperature leads to more oxygen-18, so higher oxygen-18 = higher temperature. This contradicts the conclusion. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

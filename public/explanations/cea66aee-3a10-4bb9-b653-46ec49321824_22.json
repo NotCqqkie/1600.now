@@ -1,1 +1,15 @@
-{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage calls decentralized space a <em>central principle</em> of Cunningham’s philosophy and notes that his approach marked a radical departure from his contemporaries."}, {"title": "Apply the signal to the choices", "content": "Choice A adds that Cunningham incorporated his principles with great skill and artistry, which directly explains how his approach led to the result described by the participial phrase.<br/><br/>The other three choices introduce unrelated details about his dancing, company founding, or reputation and do not link his principles to the reception of his works.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "The blank begins a sentence that ends with the participial phrase \"resulting in his dance pieces... being received... as groundbreaking artworks.\" That phrase describes a consequence of whatever the blank states. The blank must supply a claim about Cunningham that logically produces that result &mdash; his works being seen as groundbreaking rather than merely experimental."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Moreover, Cunningham incorporated his principles with great skill and artistry,'</strong>: \"Moreover\" adds a further positive claim. Cunningham executing his philosophy with skill and artistry directly explains why audiences received the works as groundbreaking art, not just odd experiments. The logic holds: radical departure + skilled execution &#8594; recognized as groundbreaking. &#10003;</li><li><strong>Choice B &mdash; 'Specifically, Cunningham was an accomplished dancer as well as a choreographer,'</strong>: Being a dancer as well as a choreographer is a biographical detail that does not explain why his pieces were received as groundbreaking artworks. \"Specifically\" signals an example of the previous sentence, but nothing about dancing ability connects to reception. &#10007;</li><li><strong>Choice C &mdash; 'Accordingly, Cunningham founded his namesake dance company in 1953,'</strong>: Founding a company does not lead to works being received as groundbreaking. \"Accordingly\" implies his company founding was a consequence of his radical departure &mdash; that is neither logical nor supported by the passage. &#10007;</li><li><strong>Choice D &mdash; 'In contrast, Cunningham gained a reputation as an unpredictable iconoclast,'</strong>: \"In contrast\" signals opposition to the previous sentence, but being an iconoclast does not explain the reception as groundbreaking art. The contrast relationship is also unsupported &mdash; being a radical departure and being an iconoclast are not opposites. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

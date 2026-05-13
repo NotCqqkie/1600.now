@@ -1,1 +1,15 @@
-{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the limiting factor", "content": "The passage clearly states that electrons must pass through inefficient redox reactions to reach the electrode, and this inefficiency limits power output to 0.30 mW/cm². When silver nanoparticles were added, power output nearly doubled to 0.66 mW/cm²."}, {"title": "Apply conductivity to address the bottleneck", "content": "The logical hypothesis is that the highly conductive nanoparticles provide an alternative pathway around the inefficient reactions.<br/><br/>Choice C states exactly this: the nanoparticles allow electrons to bypass the redox reactions and transfer directly to the electrode.<br/>The other choices either misidentify what silver should improve (A focuses on bacterial metabolism rather than electron transport), negate silver's role (B claims the effect is independent of it), or confuse the mechanism (D suggests silver catalyzes the problematic reactions).<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "The passage builds a causal chain: electrons can't reach the electrode efficiently because they must pass through slow redox reactions, capping power at 0.30 mW/cm². Silver nanoparticles raised that to 0.66 mW/cm². The blank must complete the researchers' hypothesis — an explanation that uses silver's high electrical conductivity to account for the doubled power output."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'silver nanoparticles may increase the metabolic processes of the bacteria'</strong>: The problem is electron transport, not bacterial metabolism. Metabolism produces the electrons; the bottleneck is getting them to the electrode. &#10007;</li><li><strong>Choice B &mdash; 'redox reactions may accelerate independent of the presence of the silver nanoparticles'</strong>: This negates the silver's role entirely, which contradicts the experiment's design and the conductivity premise. &#10007;</li><li><strong>Choice C &mdash; 'silver nanoparticles may allow electrons to bypass the series of redox reactions and transfer directly to the electrode'</strong>: Conductivity means electrons move easily through silver rather than through the slow redox chain. This directly explains the power increase using the stated premise. &#10003;</li><li><strong>Choice D &mdash; 'electrons may be conducted directly to the electrode before the silver nanoparticles catalyze the redox reactions'</strong>: This implies silver catalyzes the very reactions it should be bypassing, and the timing claim (\"before\") is unsupported. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

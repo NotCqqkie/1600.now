@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the goal requires",
-      "content": "The student wants to <strong>emphasize how popular</strong> the novel became. This means the answer needs to show the magnitude or measurable impact of its popularity."
+      "content": "The student wants to emphasize <strong>how popular</strong> The Woman in White became. An effective answer must convey the scale or measurable impact of that popularity &mdash; not the technique behind it, the publication format, or the genre."
     },
     {
-      "title": "Match to the goal",
-      "content": "A answers the goal directly: the novel's popularity drove magazine sales to a record-breaking 100,000 copies per issue. B, C, and D explain the technique, cover publication details, or identify the genre\u2014none of them quantify the popularity. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'The Woman in White became so popular that sales of the magazine it appeared in increased to a record-breaking 100,000 copies per issue'</strong>: gives a concrete, quantified measure of how popular the novel was &mdash; directly achieves the goal. &#10003;</li><li><strong>Choice B &mdash; 'Every installment ended with a moment of unresolved suspense, which led readers to eagerly anticipate the next week’s entry'</strong>: explains the technique that drove popularity, not the popularity itself. &#10007;</li><li><strong>Choice C &mdash; 'Collins’s novel was published in forty weekly installments between November 1859 and August 1860'</strong>: describes the publication schedule, not how popular the novel was. &#10007;</li><li><strong>Choice D &mdash; 'The Woman in White, a mystery novel, first appeared in a London literary magazine'</strong>: identifies the genre and venue &mdash; no indication of popularity at all. &#10007;</li></ul>Only A quantifies the novel’s popularity with a specific, record-breaking figure. That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

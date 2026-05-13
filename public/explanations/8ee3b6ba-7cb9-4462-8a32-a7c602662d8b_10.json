@@ -1,1 +1,15 @@
-{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what directly supports the conclusion", "content": "The conclusion states <em>M. barbatus</em> associates alarm calls with danger, but the original finding only shows they react to alarm calls. To directly support the conclusion, we need proof that the response is specific to the alarm calls themselves—not just a reaction to any loud sound."}, {"title": "Find evidence of response specificity", "content": "Choice D shows <em>M. barbatus</em> displayed no reaction to random noise, proving the response is specific to alarm calls—which directly supports the conclusion that they associate these calls with danger.<br/><br/>The other choices either broaden scope to other species (A), show consistency but not specificity (B), or indicate birds react to approach without testing the alarm-call link (C).<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what directly supports the conclusion",
+      "content": "Martinez and colleagues concluded that <em>M. barbatus</em> <strong>associates</strong> T. caesius alarm calls with danger. The experiment only showed a reaction; to support the conclusion, we need evidence that the reaction is <em>specific to alarm calls</em> &mdash; not triggered by any sound whatsoever."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Other bird species also froze or scattered when alarm calls were played'</strong>: broadens the finding to other species but says nothing about whether M. barbatus specifically links alarm calls to danger vs. any loud noise. &#10007;</li><li><strong>Choice B &mdash; 'No significant variation in M. barbatus response across different T. caesius individuals'</strong>: shows consistency of the response but not specificity &mdash; M. barbatus might still react the same way to random noise. &#10007;</li><li><strong>Choice C &mdash; 'M. barbatus froze before sounds were played, just from researchers approaching'</strong>: suggests the birds react to human approach alone &mdash; this <em>undermines</em> the conclusion by introducing a confounding trigger. &#10007;</li><li><strong>Choice D &mdash; 'M. barbatus showed no reaction to control sounds of random noise'</strong>: proves the reaction is specific to alarm calls, not to sound in general &mdash; directly supporting the conclusion that the birds associate alarm calls with danger. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

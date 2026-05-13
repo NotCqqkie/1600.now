@@ -1,1 +1,15 @@
-{"questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_13", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot what constrains success", "content": "The passage's key finding is that innovations like autonomous robots have been “constrained” by their own complications—they move slowly and struggle with obstacles. This constraint on success is the crucial detail."}, {"title": "Conclude from the constraint", "content": "D states the natural conclusion: companies are unlikely to overcome impediments in the near term.<br/><br/>The passage's finding that innovations face constraining complications directly supports this prognosis.<br/><br/>The other three choices fail to reflect this reality—<ul><li>A overstates what robots can accomplish right now</li><li>B reverses the causal relationship</li><li>C suggests action unsupported by the passage</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "The passage ends with \"Consequently, ______\" — a signal that the blank must be the logical conclusion drawn from the preceding evidence. That evidence: last-mile delivery faces multiple persistent challenges (complex routes, slow robots, navigation obstacles), and current innovations have not overcome them. The blank must state the most reasonable inference about near-term prospects."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'autonomous delivery robots may enable delivery companies to meet consumers' expectations now but likely is not viable as a permanent solution'</strong>: The passage says robots are already constrained and struggling — they cannot currently meet expectations. This contradicts the evidence. &#10007;</li><li><strong>Choice B &mdash; 'innovations in last-mile logistics seem poised to increase consumers' expectations for rapid delivery'</strong>: The passage says innovations have been constrained, not that they will raise expectations. This reverses the causal direction. &#10007;</li><li><strong>Choice C &mdash; 'delivery companies should invest more funds in proven long-distance transport technologies'</strong>: The passage makes no comparison of investment priorities. This is a recommendation not supported by anything stated. &#10007;</li><li><strong>Choice D &mdash; 'in the near term, delivery companies are unlikely to overcome the impediments associated with last-mile logistics'</strong>: \"Constrained\" innovations and persistent obstacles lead directly to this conclusion. It follows from all the evidence without overstating or adding unsupported claims. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

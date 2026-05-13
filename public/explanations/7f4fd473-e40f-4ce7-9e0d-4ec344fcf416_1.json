@@ -1,1 +1,15 @@
-{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the defining claim about reception", "content": "The opening statement sets the tone: “the reception...has been very good.” This positive framing is the decisive signal that tells us the blank must contain an action aligned with the positive reception and the major award."}, {"title": "Match the action to the context", "content": "The influential voices (reviewers, booksellers, librarians) must have taken an action consistent with winning a major award. <strong>Recommended</strong> directly expresses this endorsement—to suggest and advocate for a book.<br/><br/>The other three options (attacked, overlooked, misunderstood) are all negative or dismissive, each contradicting the award-winning context.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "Words in Context: the blank describes what reviewers, booksellers, and librarians did to the book. Two context clues constrain the answer: (1) the reception has been \"very good,\" and (2) the book won a major literary award. The blank must be a word meaning something positive these stakeholders do when they endorse a book."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'attacked'</strong>: Means to criticize harshly &mdash; the opposite of a very good reception. Substituting: \"many reviewers have attacked the book... and it won an award\" is contradictory. &#10007;</li><li><strong>Choice B &mdash; 'overlooked'</strong>: Means to ignore or fail to notice &mdash; incompatible with a good reception and an award win. &#10007;</li><li><strong>Choice C &mdash; 'recommended'</strong>: Means to endorse or suggest positively &mdash; exactly what reviewers, booksellers, and librarians do when reception is very good. Substituting: \"many reviewers have recommended the book... and it won an award\" fits perfectly. &#10003;</li><li><strong>Choice D &mdash; 'misunderstood'</strong>: Means to interpret incorrectly &mdash; a negative or neutral outcome, not consistent with a very good reception. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}
