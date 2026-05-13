@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_27",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast between syllable rate and information rate",
-      "content": "The notes show that while the syllable rate (SR) varied \u2014 Spanish second\u2011fastest at 7.7 syllables per second, Vietnamese sixteenth\u2011fastest at 5.3 \u2014 the information rate (IR) was found to be roughly the same across all 17 languages, averaging about 39 bits per second.<br/>This contrast between varying SR and steady IR is the key signal."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice A captures this contrast by noting that although syllable rates differed, the information rate was roughly the same for all languages.<br/>The other choices either focus on just one rate, misstate the relationship between the rates, or add details not in the notes.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"88552b8b-f774-4f18-b52e-65b24051a3d9_27","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes show two key facts: syllable rate (SR) varied widely across the 17 languages, but information rate (IR) was roughly the same (~39 bits/sec) for all of them. The correct choice must capture this contrast between varying SR and steady IR."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; syllable rates differed but information rates were roughly equal</strong>: Captures the core contrast from the notes. &#10003;</li><li><strong>Choice B &mdash; focuses only on syllable rate differences</strong>: Ignores the finding about information rate, which is the more surprising result. &#10007;</li><li><strong>Choice C &mdash; claims information rate also varied</strong>: Contradicts the notes, which say IR was roughly constant. &#10007;</li><li><strong>Choice D &mdash; adds details not supported by the notes</strong>: Introduces information beyond what the notes contain. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

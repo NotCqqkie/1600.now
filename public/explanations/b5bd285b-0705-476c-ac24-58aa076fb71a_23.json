@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The A320 is described as \u201cstreamlined\u201d; the next sentence introduces a \u201cboxy semitruck.\u201d This direct opposition demands a contrast transition word to explicitly mark the shift from one example to its opposite."
-    },
-    {
-      "title": "Match the transition",
-      "content": "\u201dOn the other hand\u201d marks exactly this kind of opposition\u2014here's one side, but look at the other side. The others either continue the same direction (Specifically), suggest causation (As a result), or conclude the thought (In conclusion). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"b5bd285b-0705-476c-ac24-58aa076fb71a_23","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage shifts from describing the streamlined A320 to introducing a boxy semitruck&mdash;two opposites. The blank needs a transition word that marks a direct contrast between them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Specifically'</strong>: signals elaboration, not contrast. &#10007;</li><li><strong>Choice B &mdash; 'On the other hand'</strong>: marks exactly this kind of opposition&mdash;here is one side, now look at the other. &#10003;</li><li><strong>Choice C &mdash; 'As a result'</strong>: signals causation, not contrast. &#10007;</li><li><strong>Choice D &mdash; 'In conclusion'</strong>: signals a closing summary, not a contrast. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

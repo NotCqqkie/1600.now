@@ -1,15 +1,1 @@
-{
-  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "Sentence 1: Tang's ambitions \"weren't very lofty\" — he built the site just because everyone had one. Sentence 2: the site \"has become an essential resource\" for professionals. The relationship is <strong>contrast</strong>: a low-ambition origin led, unexpectedly, to a high-impact outcome. The transition must signal that contrast."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A: Nevertheless,</strong> — signals contrast despite what came before. \"He had no lofty ambitions; nevertheless, his site became essential.\" Matches the contrast perfectly. <strong>Correct.</strong><br/><br/><strong>B: Therefore,</strong> — signals a logical result or consequence. Low ambition does not logically cause the site to become essential — the opposite is surprising, not expected. Eliminated.<br/><br/><strong>C: Furthermore,</strong> — signals addition of a similar point. There is no addition here; the second sentence contradicts the first. Eliminated.<br/><br/><strong>D: Next,</strong> — signals a sequence in time or steps. The passage is not narrating a series of steps; it is making a contrasting observation. Eliminated."
-    }
-  ]
-}
+{"questionId":"ec2ddee6-a98b-41ee-9169-7cea79c09b5c_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Sentence 1 says Tang&apos;s ambitions &apos;weren&apos;t very lofty&apos; &mdash; he built the site just because everyone had one. Sentence 2 says the site &apos;has become an essential resource&apos; for professionals. The second sentence contradicts the first: a low-ambition origin led to a high-impact outcome. The transition must signal contrast."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Nevertheless,'</strong>: signals contrast despite what came before. Low ambition; nevertheless, the site became essential. Fits perfectly. &#10003;</li><li><strong>Choice B &mdash; 'Therefore,'</strong>: signals a logical consequence. Low ambition does not logically cause a site to become essential &mdash; the outcome is surprising, not predictable. &#10007;</li><li><strong>Choice C &mdash; 'Furthermore,'</strong>: signals addition of a similar point. The second sentence contradicts, not adds to, the first. &#10007;</li><li><strong>Choice D &mdash; 'Next,'</strong>: signals a time sequence or list of steps. The passage is making a contrasting observation, not narrating a series of events. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

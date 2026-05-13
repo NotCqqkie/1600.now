@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the defining contrast",
-      "content": "The \"Although\" structure contrasts sharp effects on individuals with national-level effects that are quite ______. The supporting evidence clarifies the answer: China's GDP showed effects \"only slightly greater than zero.\""
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Substitute each choice: at the national level, effects are often quite ______ (with China's GDP effect \"only slightly greater than zero\" as evidence).<br/><br/><strong>A) subdued</strong> — \"subdued\" means muted, restrained, minimal in force. An effect barely above zero is subdued — almost imperceptible. Matches the evidence perfectly. Keep.<br/><br/><strong>B) variable</strong> — \"variable\" means inconsistent or changing. China's GDP data shows magnitude (near zero), not inconsistency. The blank is about size, not stability. Eliminate.<br/><br/><strong>C) beneficial</strong> — \"beneficial\" means positive or helpful. A GDP effect of nearly zero is not a benefit. The \"Although\" contrast also implies national effects are surprisingly small, not good. Eliminate.<br/><br/><strong>D) persistent</strong> — \"persistent\" means lasting or continuing over time. Duration is not what China's near-zero GDP figure illustrates; it illustrates smallness. Eliminate.<br/><br/><strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1b5dbecd-2a08-4015-83f5-8ad883233476_6","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence uses &apos;Although&apos; to contrast sharp individual-level effects with national-level effects that are quite ______. The evidence given: China&apos;s GDP effect was &apos;only slightly greater than zero.&apos; The blank needs a word meaning very small or minimal in force."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'subdued'</strong>: means muted or minimal in force. An effect barely above zero is subdued &mdash; almost imperceptible. Matches the evidence. &#10003;</li><li><strong>Choice B &mdash; 'variable'</strong>: means inconsistent or changing. China&apos;s near-zero figure describes magnitude, not inconsistency. &#10007;</li><li><strong>Choice C &mdash; 'beneficial'</strong>: means positive or helpful. An effect of nearly zero is not a benefit, and the &apos;Although&apos; contrast implies the national effect is surprisingly small, not good. &#10007;</li><li><strong>Choice D &mdash; 'persistent'</strong>: means lasting over time. China&apos;s figure illustrates smallness of effect, not duration. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

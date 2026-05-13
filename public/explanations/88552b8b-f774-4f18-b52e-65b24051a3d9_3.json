@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrases \u201ccannot remain the dominion only of academics\u201d and \u201cto leave to historians alone\u201d establish that the author views history as too something to leave only to professionals."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Critical</strong> means essential or vital. If history is critical to democracy, it's too important to confine to specialists.<br/>The other choices either fail to express importance (respectable, accessible) or confuse difficulty with importance (complex).<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"88552b8b-f774-4f18-b52e-65b24051a3d9_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says history &apos;cannot remain the dominion only of academics&apos; and should not be &apos;left to historians alone.&apos; The blank describes history&apos;s relationship to democracy &mdash; something so important it must not be left to specialists."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;respectable&apos;</strong>: being respectable gives no reason to involve non-specialists. &#10007;</li><li><strong>Choice B &mdash; &apos;accessible&apos;</strong>: accessible describes availability, not importance &mdash; it doesn&apos;t explain why history can&apos;t be left to academics. &#10007;</li><li><strong>Choice C &mdash; &apos;complex&apos;</strong>: complexity is a reason to leave something to specialists, not the opposite. &#10007;</li><li><strong>Choice D &mdash; &apos;critical&apos;</strong>: critical means essential or vital &mdash; if history is critical to democracy, it is too important to confine to specialists. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

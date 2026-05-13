@@ -1,15 +1,1 @@
-{
-  "questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive signal",
-      "content": "The phrase <em>\u201cBloom praises how the novel adroitly blends\u201d</em> ties Bloom's appreciation directly to a reason: the blending of modes."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "This gives a reason why the critic appreciates the book\u2014which is what choice A describes. Choice B mistakenly refers to the text after the em dash (where the distinction is clarified), while C and D falsely invoke comparison or contrast. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7c17367d-234a-4cdb-b654-3dc1d5243ede_6", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the function of the underlined portion: &quot;Bloom praises how the novel adroitly blends what playwright Friedrich Schiller termed the naive and sentimental modes.&quot; Identify what role this sentence plays relative to the rest of the passage."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'gives a reason why a critic appreciates a certain book'</strong>: The underlined portion shows Bloom praising the novel specifically because it blends two modes — that is a reason for the critic's appreciation. &#10003;</li><li><strong>Choice B &mdash; 'helps clarify the distinction between two categories'</strong>: The clarification of the naive vs. sentimental distinction comes in the text after the em dash, which is not part of the underlined portion. The underlined portion itself does not explain the distinction. &#10007;</li><li><strong>Choice C &mdash; 'compares the work of a writer with that of a poet who admired him'</strong>: The underlined portion mentions Bloom (a literary critic, not a poet) praising the novel. No comparison between Crowley's work and Merrill's poetry is made. &#10007;</li><li><strong>Choice D &mdash; 'contrasts the opinions of two critics'</strong>: Only Bloom's opinion appears in the underlined portion. No second critic's view is introduced to create a contrast. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_27",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the rhetorical goal",
-      "content": "The prompt asks which choice \u201cemphasizes the order in which the two lighthouse keepers began their careers.\u201d This requires showing which keeper started first and which started later, making the temporal sequence clear."
-    },
-    {
-      "title": "Find the choice that articulates the career start sequence",
-      "content": "B uses the notes to state that Hecox began \u201cyears after\u201d Moore did, directly establishing the chronological order from the data (Moore in 1817, Hecox in 1883). <br/><br/>A addresses when their careers ended, not when they began; C incorrectly places Hecox in Connecticut during 1817\u20131878; D makes a general statement about the importance of lighthouse keepers without addressing when either career started. <br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks which choice emphasizes the order in which the two lighthouse keepers began their careers. The notes show Moore started in 1817 and Hecox started in 1883. The correct choice must make that chronological sequence explicit."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A</strong>: addresses when their careers ended, not when they began. &#10007;</li><li><strong>Choice B &mdash; Hecox began &apos;years after&apos; Moore</strong>: directly establishes the start sequence using the data (Moore 1817, Hecox 1883), making clear who came first. &#10003;</li><li><strong>Choice C</strong>: incorrectly places Hecox in Connecticut during 1817&ndash;1878, which misreads the notes. &#10007;</li><li><strong>Choice D</strong>: makes a general statement about lighthouse keepers&apos; importance without addressing when either career started. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

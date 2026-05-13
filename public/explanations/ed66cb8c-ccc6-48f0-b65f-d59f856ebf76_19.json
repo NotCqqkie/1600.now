@@ -1,15 +1,1 @@
-{
-  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its number",
-      "content": "The subject of the blank is \u201cresearchers like Aliya Bhatia of the Center for Democracy and Technology.\u201d The head noun is researchers (plural); the appositive modifier that follows does not change the subject's grammatical number."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "A plural subject requires a plural verb form in the present tense. Choice C, <strong>fear</strong>, is the only plural verb and satisfies subject-verb agreement. Choices A, B, and D are all singular forms that violate the rule. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is &quot;researchers like Aliya Bhatia of the Center for Democracy and Technology.&quot; The head noun is &apos;researchers&apos; (plural). The blank must be a present-tense verb that agrees with a plural subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; singular verb form</strong>: does not agree with the plural subject &apos;researchers.&apos; &#10007;</li><li><strong>Choice B &mdash; singular verb form</strong>: does not agree with the plural subject &apos;researchers.&apos; &#10007;</li><li><strong>Choice C &mdash; 'fear'</strong>: plural present-tense verb; agrees with the plural subject &apos;researchers.&apos; &#10003;</li><li><strong>Choice D &mdash; singular verb form</strong>: does not agree with the plural subject &apos;researchers.&apos; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key phrase",
-      "content": "The key phrase: maintain a rigid distinction while avoiding ______ them (the actor and character). The scholars don't want these two to be treated as the same, so the blank must be a word meaning to merge or blur them."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The blank needs a word meaning to merge or blur two distinct things into one. Substitute each choice:<br/><ul><li><strong>Conflate</strong> (A) — to treat two separate things as if they are the same thing. \"Taking care never to <em>conflate</em> them\" = never treating the actor and character as one entity. ✓</li><li><strong>Epitomize</strong> (B) — to be the perfect example of something. \"Never to <em>epitomize</em> them\" makes no sense in context.</li><li><strong>Lambaste</strong> (C) — to criticize harshly. Unrelated to merging distinct entities.</li><li><strong>Overshadow</strong> (D) — to be more prominent than something else. Describes a dominance relationship, not a merging.</li></ul>That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d70596a3-d7c7-4cbc-9453-87383eff173a_4","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says scholars maintain a rigid distinction between actor and character while avoiding ______ them. The blank must mean merging or blurring the two distinct things into one."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'conflate'</strong>: To treat two separate things as if they are the same. &apos;Never to conflate them&apos; = never treating actor and character as one entity. &#10003;</li><li><strong>Choice B &mdash; 'epitomize'</strong>: To be the perfect example of something. &apos;Never to epitomize them&apos; makes no sense in context. &#10007;</li><li><strong>Choice C &mdash; 'lambaste'</strong>: To criticize harshly. Unrelated to merging distinct entities. &#10007;</li><li><strong>Choice D &mdash; 'overshadow'</strong>: To be more prominent than something else. Describes dominance, not merging. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

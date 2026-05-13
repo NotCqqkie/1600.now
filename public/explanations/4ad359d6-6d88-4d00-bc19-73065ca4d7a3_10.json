@@ -1,15 +1,1 @@
-{
-  "questionId": "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate Peru in the table and identify the 2020 column",
-      "content": "The passage states Peru produced 0.38 million metric tons in 1995, which matches Peru's entry in the table. This confirms you're looking at the correct country row. Now find the value where Peru's row intersects the 2020 column."
-    },
-    {
-      "title": "Match Peru's 2020 production to the choices",
-      "content": "Looking at Peru's row in the 2020 column, the table shows <strong>2.15</strong> million metric tons. The other choices are 2020 production figures from the table for different countries, not Peru. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"4ad359d6-6d88-4d00-bc19-73065ca4d7a3_10","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states Peru produced 0.38 million metric tons in 1995, which anchors you to Peru&apos;s row in the table. The question asks for Peru&apos;s production in 2020 &mdash; read the value where Peru&apos;s row meets the 2020 column."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: this is the 2020 figure for a different country in the table, not Peru. &#10007;</li><li><strong>Choice B</strong>: this is the 2020 figure for another country in the table, not Peru. &#10007;</li><li><strong>Choice C &mdash; 2.15 million metric tons</strong>: this is the value in Peru&apos;s row under the 2020 column. &#10003;</li><li><strong>Choice D</strong>: this is the 2020 figure for yet another country in the table, not Peru. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

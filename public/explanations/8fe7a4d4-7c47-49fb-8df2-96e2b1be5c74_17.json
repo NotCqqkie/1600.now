@@ -1,15 +1,1 @@
-{
-  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive relationship",
-      "content": "The blank separates \"French portrait artist\" from \"Marie-Denise Villers (1774–1821).\" The second noun phrase is an appositive—it renames or identifies the artist."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "Rule: a restrictive appositive — one that identifies exactly which person is meant — takes no punctuation. \"Marie-Denise Villers (1774-1821)\" tells us which little-known French portrait artist; it is essential, not decorative.<br/><br/><strong>A:</strong> \"...portrait artist— Marie-Denise Villers...\" — an em dash introduces elaboration or a nonrestrictive aside. The name here is an identifier, not an aside. Incorrect.<br/><br/><strong>B:</strong> \"...portrait artist Marie-Denise Villers...\" — no punctuation; the name directly and necessarily identifies the artist. <strong>Correct.</strong><br/><br/><strong>C:</strong> \"...portrait artist: Marie-Denise Villers...\" — a colon introduces a list or explanation after an independent clause; the name is a simple identifier, not a listed elaboration. Incorrect.<br/><br/><strong>D:</strong> \"...portrait artist, Marie-Denise Villers...\" — a comma signals a nonrestrictive appositive (optional extra info), implying the name could be removed. It cannot. Incorrect."
-    }
-  ]
-}
+{"questionId":"8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between &apos;French portrait artist&apos; and &apos;Marie-Denise Villers (1774&ndash;1821).&apos; The name is an appositive &mdash; it identifies which artist is meant. The question is which punctuation (or no punctuation) correctly joins a restrictive appositive."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; em dash</strong>: an em dash introduces a nonrestrictive aside or elaboration, not a simple identifier. &#10007;</li><li><strong>Choice B &mdash; no punctuation</strong>: a restrictive appositive that identifies exactly which person is meant takes no punctuation. &apos;Marie-Denise Villers&apos; tells us which artist &mdash; it is essential, not decorative. &#10003;</li><li><strong>Choice C &mdash; colon</strong>: a colon follows an independent clause to introduce a list or explanation; the name here is a direct identifier, not a listed elaboration. &#10007;</li><li><strong>Choice D &mdash; comma</strong>: a comma signals a nonrestrictive appositive (removable extra info), but the name cannot be removed without losing the subject entirely. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_9",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate y from each inequality",
-      "content": "From $y < 42 - 7x$, we can rewrite as $42 - 7x > y$.<br/>From $\\frac{y}{7} > 10$, we get $y > 70$.<br/><br/>So $y$ is bounded below by $70$ and above by $42 - 7x$."
-    },
-    {
-      "title": "Combine the constraints",
-      "content": "For the system to have solutions, we need $42 - 7x > y > 70$.<br/>From $42 - 7x > 70$:<br/>$$-7x > 28$$<br/>$$x < -4$$<br/>That matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8a096929-9162-4ef5-b1c5-1da19c60ea8c_9","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"From $\\frac{y}{7}>10$, multiply both sides by 7: $y>70$. Substitute into $y<42-7x$: we need $42-7x>70$."},{"title":"Solve","content":"$$42-7x>70$$ $$-7x>28$$ $$x<-4$$"},{"title":"Answer","content":"<strong>D</strong> is correct."}]}

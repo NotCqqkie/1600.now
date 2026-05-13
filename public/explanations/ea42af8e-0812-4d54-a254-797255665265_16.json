@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_16",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The blank separates two independent clauses: the first ends with \"supervised machine [learning]\" and has a complete verb (works), the second begins with \"Supervised machine learning\" and has its own complete verb (involves)."
-    },
-    {
-      "title": "Apply the sentence boundary rule",
-      "content": "Two independent clauses must be separated by a period, semicolon, or comma + coordinating conjunction — not a comma alone, and not nothing at all.<br/><br/><strong>A) learning supervised</strong> — no punctuation between the two clauses; creates a run-on sentence. Wrong.<br/><strong>B) learning, supervised</strong> — a comma alone between two independent clauses is a comma splice. Wrong.<br/><strong>C) learning. Supervised</strong> — a period correctly ends the first clause and starts a new sentence. Correct.<br/><strong>D) learning, which supervised</strong> — turns the second clause into a relative clause fragment that distorts the meaning and leaves no main verb. Wrong.<br/><br/><strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ea42af8e-0812-4d54-a254-797255665265_16","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between two independent clauses: one ends with a complete subject and verb, and so does the next. The question tests how to correctly separate two independent clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'learning supervised'</strong>: no punctuation between the two independent clauses &mdash; this is a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; 'learning, supervised'</strong>: a comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'learning. Supervised'</strong>: a period correctly ends the first independent clause and starts a new sentence. &#10003;</li><li><strong>Choice D &mdash; 'learning, which supervised'</strong>: turns the second clause into a relative clause fragment, distorting meaning and leaving no main verb. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

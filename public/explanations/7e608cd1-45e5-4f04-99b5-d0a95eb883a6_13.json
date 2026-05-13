@@ -1,15 +1,1 @@
-{
-  "questionId": "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The word \u201cYet\u201d signals that the upcoming statement will be surprising given the earlier descriptions of Merino softness and Navajo\u2011Churro coarseness."
-    },
-    {
-      "content": "Choice D captures that surprise by saying the Navajo\u2011Churro\u2019s coarse outer fiber is paired with an inner fiber that, at its softest, is softer than either the mouflon\u2019s or the Merino\u2019s inner fiber.<br/>The other three either claim uniform softness, an increase in inner\u2011fiber diameter, or overall greater softness, none of which presents the unexpected contrast introduced by \u201cYet\u201d.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "title": "Apply the contrast to the choices"
-    }
-  ]
-}
+{"questionId":"7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The word &apos;Yet&apos; signals a surprising contrast: despite the Navajo-Churro&apos;s reputation for coarseness compared to the Merino&apos;s softness, something unexpected is true. The correct choice must capture that contrast."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; the Navajo-Churro is uniformly soft</strong>: Erases the contrast rather than capturing it. The passage distinguishes outer and inner fibers. &#10007;</li><li><strong>Choice B &mdash; the Navajo-Churro&apos;s inner fiber diameter increases</strong>: A diameter increase would mean coarser fiber, which does not create the surprising softness the contrast requires. &#10007;</li><li><strong>Choice C &mdash; the Navajo-Churro is overall softer</strong>: Too broad and not supported; the contrast is specific to inner fiber at its softest range, not the breed overall. &#10007;</li><li><strong>Choice D &mdash; the coarse outer fiber is paired with an inner fiber that, at its softest, is softer than the mouflon&apos;s or Merino&apos;s inner fiber</strong>: Maintains the coarseness of the outer layer while introducing the genuinely surprising fact that the inner fiber can surpass even the Merino in softness. That is the unexpected contrast &apos;Yet&apos; introduces. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
