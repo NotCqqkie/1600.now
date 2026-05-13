@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement in the goal",
-      "content": "The phrase <strong>\u201cin relation to other minerals\u201d</strong> is the decisive clue. We need a statement that demonstrates quartz's hardness by comparing it to other minerals on the scale."
-    },
-    {
-      "title": "Find the choice that positions quartz's hardness relative to others",
-      "content": "Choice D does this: it shows quartz scratches apatite but not diamond\u2014placing quartz between two other minerals. The others focus on different minerals or describe the framework without addressing quartz's relative position. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d8e8d6b1-ed34-4cab-8e27-631e82e53bba_22","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to emphasize how hard quartz is <em>in relation to other minerals</em>. The answer must place quartz's hardness relative to at least one other mineral — showing both what quartz can and cannot scratch, or both minerals above and below it on the scale."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Diamond is hard enough to scratch both apatite and quartz.'</strong>: Centers on diamond, not quartz. Tells us nothing about quartz's relative hardness. &#10007;</li><li><strong>Choice B &mdash; 'In the Mohs scale of mineral hardness, diamond (10) is ranked higher than apatite (5).'</strong>: Compares diamond to apatite; quartz is not mentioned. &#10007;</li><li><strong>Choice C &mdash; 'Diamond, apatite, and quartz can be ordered by hardness based on their ability to scratch other minerals.'</strong>: Describes the framework in general terms but does not specify quartz's position relative to others. &#10007;</li><li><strong>Choice D &mdash; 'Quartz is hard enough to scratch apatite but not hard enough to scratch diamond.'</strong>: Directly positions quartz between two other minerals, showing it is harder than apatite (5) and softer than diamond (10). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

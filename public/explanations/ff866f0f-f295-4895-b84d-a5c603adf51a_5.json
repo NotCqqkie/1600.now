@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the passage's structural pivot",
-      "content": "The passage presents two tribal cultural centers, then pivots with \u201cBoth centers contrast with museums that aren't Indigenous-led.\u201d This shift moves from describing tribal centers to contrasting them with non-Indigenous institutions."
-    },
-    {
-      "title": "Match the structure",
-      "content": "Choice A describes this exact structural pattern: discussing two tribal centers, then comparing them with non-Indigenous institutions. The other three add unsupported details or make unsupported claims about the passage. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the overall structure of the text. Read through: the passage first describes two tribal cultural centers (Tulalip and Citizen Potawatomi), then contrasts them with non-Indigenous-led museums. A correct answer must capture both parts in sequence."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; \"It discusses two cultural centers operated by tribes, then compares them with non-Indigenous institutions that present Indigenous exhibits.\"</strong>: This matches exactly: paragraphs 1&ndash;2 cover the two tribal centers; the final sentence introduces the contrast with non-Indigenous museums. &#10003;</li><li><strong>Choice B &mdash; \"It describes how tribal cultural centers designed exhibits of a particular set of art, then analyzes how non-Indigenous institutions designed exhibits of the same artifacts.\"</strong>: The passage does not mention a particular set of art, and the non-Indigenous museums are not shown to display the same artifacts as the tribal centers. &#10007;</li><li><strong>Choice C &mdash; \"It outlines an early strategy for exhibit design used by one tribal cultural center, then exploits a newer strategy used by a different tribal cultural center.\"</strong>: The passage does not frame the two centers as using different or successive strategies, and both are described using similar approaches. &#10007;</li><li><strong>Choice D &mdash; \"It examines how tribal citizens responded to exhibits at tribal cultural centers, then speculates how non-Indigenous audiences would respond to the same exhibits.\"</strong>: The passage does not describe audience responses at all; it focuses on design philosophy and audience assumptions, not reactions. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
