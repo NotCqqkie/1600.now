@@ -1,15 +1,1 @@
-{
-  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_15",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the inverse relationship",
-      "content": "The study found a <em>broad inverse relationship</em>: as market share increases, the increase in cross-category purchase probability decreases, and vice versa. What accounts for this pattern?"
-    },
-    {
-      "title": "Identify the ceiling-and-floor mechanism",
-      "content": "Choice C explains this inverse relationship through different ceiling and floor effects. High-market-share brands already have high purchase probability with or without the cross-category effect, so there's minimal room for additional increase. Low-market-share brands have low baseline probability, but when purchased in one category, signal consumer preference, creating substantial room to increase in another.<br/><br/>The other choices either address single-category competitive dynamics (A, B) or misattribute low market share to non-recognition (D), neither of which explains why the cross-category effect is systematically stronger for lower-market-share brands.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5fe11073-c749-47d4-9e43-2addecd1932f_15","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage describes a study finding a \"broad inverse relationship\" between a brand's market share and the increase in cross-category purchase probability. The blank must explain WHY high market share correlates with a smaller cross-category boost, and low market share with a larger one."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'the purchase probability of a brand is affected by the purchase probability of the particular product category...'</strong>: Discusses category-level purchase rates, not market share. This doesn't explain why higher market share brands see a smaller cross-category lift. &#10007;</li><li><strong>Choice B &mdash; 'as a brand's market share increases, the number of competing brands...tends to decrease'</strong>: Addresses competitive dynamics within a single category, not the cross-category purchase probability relationship the study measured. &#10007;</li><li><strong>Choice C &mdash; 'brands with high market share have high purchase probability regardless of whether the other product in the pair is purchased and thus have less potential to increase'</strong>: This is a ceiling effect. High-share brands are already purchased frequently, so being purchased in a second category adds little additional probability. Low-share brands have room to grow. This directly explains the inverse relationship. &#10003;</li><li><strong>Choice D &mdash; 'consumers tend to be less familiar with brands with low market share...may purchase both products without recognizing that the products are the same brand'</strong>: This would actually suppress the cross-category effect for low-share brands, the opposite of what the study found. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

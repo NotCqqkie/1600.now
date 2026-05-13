@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast signal",
-      "content": "The phrase \u201cOf course\u201d signals that Metzinger\u2019s aim to depict a four\u2011dimensional race conflicts with the fact that humans can see only three dimensions, setting up a contrast between intention and limitation."
-    },
-    {
-      "title": "Match the transition to the contrast",
-      "content": "D uses \u201cThat said,\u201d to show that despite the earlier limitation, Metzinger\u2019s multi\u2011perspective view still offers a glimpse of a four\u2011dimensional world.<br/>The other three choices either add an example, restate the idea, or simply add information, none of which express the needed contrast.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_22","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The second sentence grants a limitation: Metzinger's painting doesn't technically represent a fourth dimension because humans see only in three. The blank sentence then pivots to say the multi-perspective approach still offers a glimpse of that 4D world. The transition must signal a concession — \"yes, that's true, but here's the positive takeaway.\""},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; \"For example,\"</strong>: Introduces an illustration of the preceding idea. The blank sentence doesn't exemplify the limitation — it moves past it. &#10007;</li><li><strong>Choice B &mdash; \"In other words,\"</strong>: Signals a restatement. The blank sentence introduces new information (the multi-perspective glimpse) rather than restating what came before. &#10007;</li><li><strong>Choice C &mdash; \"Moreover,\"</strong>: Signals an additive elaboration in the same direction. The blank sentence actually turns against the limitation with a positive counter — \"moreover\" doesn't capture that pivot. &#10007;</li><li><strong>Choice D &mdash; \"That said,\"</strong>: Signals \"despite what was just acknowledged\" — the classic concession pivot. Acknowledges the 3D limitation, then introduces the positive consequence of Metzinger's multi-perspective technique. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

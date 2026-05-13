@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the lowest weight in the table",
-      "content": "The statement asks for the bear with the <strong>lowest approximate weight</strong>. Scanning the rightmost column (Approximate weight), the values are 400, 800, 375, and 200 pounds. The minimum value is 200 pounds."
-    },
-    {
-      "title": "Identify the bear's sex and age",
-      "content": "The bear weighing 200 pounds (bear 122) is listed as male and 3 years old. The other three choices describe bears with higher weights\u2014either 400, 800, or 375 pounds\u2014making them incorrect. This matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9ae9a989-b64a-43e1-92a8-37a91043b8ed_9","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The statement must be completed with the bear that has the lowest approximate weight in the table. Scan the weight column to find the minimum value, then read off that bear's sex and age."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'female that was 13 years old'</strong>: The 13-year-old female weighs 400 lbs &mdash; not the lowest. &#10007;</li><li><strong>Choice B &mdash; 'female that was 6 years old'</strong>: The 6-year-old female weighs 800 lbs &mdash; the heaviest in the table, not the lowest. &#10007;</li><li><strong>Choice C &mdash; 'male that was 10 years old'</strong>: The 10-year-old male weighs 375 lbs &mdash; lower than A and B, but not the minimum. &#10007;</li><li><strong>Choice D &mdash; 'male that was 3 years old'</strong>: Bear 122, a 3-year-old male, weighs 200 lbs &mdash; the lowest value in the table. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

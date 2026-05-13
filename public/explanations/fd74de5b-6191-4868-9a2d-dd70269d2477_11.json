@@ -1,15 +1,1 @@
-{
-  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_11",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the specific Pueblo nation mentioned",
-      "content": "The passage explicitly names \u201cNamb\u00e9 Pueblo\u201d as the nation the student wants to compare with Santo Domingo Pueblo. The sentence structure shows that we need to find this nation's total area in the table."
-    },
-    {
-      "title": "Read the correct value from the table",
-      "content": "Namb\u00e9 Pueblo's area in the table is 32.4 square miles. The other choices are values from the table but for different Pueblo nations. That matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"fd74de5b-6191-4868-9a2d-dd70269d2477_11","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence states that Santo Domingo Pueblo covers 106.3 square miles and says the student is comparing it to Nambé Pueblo's area. The blank must be filled with Nambé Pueblo's total area as shown in the table &mdash; not any other nation's area."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '47.3 square miles'</strong>: This is the area of a different Pueblo nation from the table &mdash; not Nambé Pueblo. &#10007;</li><li><strong>Choice B &mdash; '32.4 square miles'</strong>: This is the total area listed for Nambé Pueblo in the table. It correctly completes the comparison. &#10003;</li><li><strong>Choice C &mdash; '77.1 square miles'</strong>: This is the area of yet another Pueblo nation from the table &mdash; not Nambé Pueblo. &#10007;</li><li><strong>Choice D &mdash; '595.7 square miles'</strong>: This is the area of another Pueblo nation from the table &mdash; not Nambé Pueblo. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

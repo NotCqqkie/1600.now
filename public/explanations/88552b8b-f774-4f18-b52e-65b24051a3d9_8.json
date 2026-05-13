@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The phrase <strong>\u201cknown collectively as the silversword alliance\u201d</strong> introduces a name used to identify the plant family as a group."
-    },
-    {
-      "title": "Match the function to the choices",
-      "content": "The phrase does exactly what choice C says: it supplies the name used to refer to the group of related plants. The other choices misread it as listing species (A), explaining uniqueness (B), or naming only one plant (D). That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"88552b8b-f774-4f18-b52e-65b24051a3d9_8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what the underlined phrase \"known collectively as the silversword alliance\" does in the sentence. Read it precisely: it follows \"a family of plants\" and gives that family a name. The function is labeling — supplying the name used to identify the group."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'It lists species from a family of plants found only on the Hawaiian Islands.'</strong>: The phrase names one group, it does not list multiple species. Listing means enumeration; a single collective name is not a list. &#10007;</li><li><strong>Choice B &mdash; 'It explains why Dubautia raillardioides is unique among members of the silversword alliance.'</strong>: The phrase introduces the alliance name; it says nothing about what makes Dubautia raillardioides unique — that topic comes later in the passage. &#10007;</li><li><strong>Choice C &mdash; 'It supplies the name used to refer to a group of related plant species.'</strong>: \"Known collectively as the silversword alliance\" does exactly this — it gives the collective label for the family. &#10003;</li><li><strong>Choice D &mdash; 'It provides the common name for the Dubautia raillardioides plant.'</strong>: \"Silversword alliance\" names the entire plant family, not just Dubautia raillardioides. Confuses the species with the group. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

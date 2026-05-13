@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the plant with the highest average power generation",
-      "content": "Comparing the values in the \u201cAverage power generation (MWh)\u201d column\u20142,004; 14,126; 196,220; and 10,693\u2014Hiwassee Dam clearly has the highest at 196,220 MWh."
-    },
-    {
-      "title": "Identify the water source for this plant",
-      "content": "According to the table, Hiwassee Dam is located on the Hiwassee River\u2014making that the water source of the highest-generating plant. The other three choices correspond to plants with lower power generation. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9f9439b4-1f8b-48cd-b607-fd0776fedebb_13","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The assertion states that the plant with the highest average power generated per year in 2019 was located on a specific body of water. The answer requires reading the \"Average power generation (MWh)\" column in the table and identifying which plant produced the most."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Androscoggin River'</strong>: the plant on the Androscoggin River generated 2,004 MWh &mdash; the lowest figure in the table. &#10007;</li><li><strong>Choice B &mdash; 'Hiwassee River'</strong>: Hiwassee Dam generated 196,220 MWh &mdash; by far the highest value in the table. &#10003;</li><li><strong>Choice C &mdash; 'Spearfish Creek'</strong>: the plant on Spearfish Creek generated 14,126 MWh &mdash; well below Hiwassee Dam. &#10007;</li><li><strong>Choice D &mdash; 'Montreal River'</strong>: the plant on the Montreal River generated 10,693 MWh &mdash; also lower than Hiwassee Dam. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

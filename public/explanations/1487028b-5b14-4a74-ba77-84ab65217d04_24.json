@@ -1,15 +1,1 @@
-{
-  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the directional opposition",
-      "content": "Cartographers start at <em>\u201cthe lowest point\u201d</em> while hydrologists start <em>\u201cat the top\u201d</em>\u2014these are opposite directions. The opposition between the two approaches is the decisive signal."
-    },
-    {
-      "title": "Match the transition signal",
-      "content": "By contrast is a transition word designed for exactly this purpose: to shift from one approach to its opposite. The other three\u2014in a similar way, for example, and in other words\u2014all signal similarity or repetition rather than opposition. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1487028b-5b14-4a74-ba77-84ab65217d04_24","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank connects two sentences describing opposite starting points: cartographers begin at the lowest point (the Colville River), while hydrologists begin at the top (the Siksikpuk River). The transition must signal that the second approach goes in the opposite direction from the first."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'In a similar way,'</strong>: Signals similarity — that what follows parallels what came before. But hydrologists start at the top, not the bottom; the two approaches are opposite, not similar. &#10007;</li><li><strong>Choice B &mdash; 'For example,'</strong>: Introduces an illustration of a general point. The second sentence is not an example of cartographers starting at the bottom; it's a contrasting practice. &#10007;</li><li><strong>Choice C &mdash; 'By contrast,'</strong>: Directly signals that the upcoming information opposes the previous information. Hydrologists starting at the top directly contrasts with cartographers starting at the bottom. &#10003;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: Signals a restatement or clarification of the same idea. The second sentence introduces a different group with a different method — it is not a restatement. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

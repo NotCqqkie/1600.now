@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_4",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The decisive clue is the speaker\u2019s claim that \u201cthere is no better example of the form.\u201d <br/> This tells us that Jerry Pinkney\u2019s work cannot be surpassed, so the blank must mean something like outshone or surpassed."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Eclipsed means surpassed or outshone, which matches the idea that no one has ever surpassed Pinkney\u2019s work. <br/> The other three either contradict the sense of being unmatched, describe unrelated actions, or reverse the relationship. <br/> That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"88552b8b-f774-4f18-b52e-65b24051a3d9_4","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The speaker says \"there is no better example of the form\" &mdash; meaning no one has surpassed Pinkney's illustrations. The blank needs a word meaning to surpass or outshine someone's work."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'cited'</strong>: means to reference or mention as an example. Saying no one has \"cited\" Pinkney makes no sense in context &mdash; it doesn't express being surpassed. &#10007;</li><li><strong>Choice B &mdash; 'eclipsed'</strong>: means to surpass or outshine. \"No one has ever eclipsed Pinkney's work\" directly matches the speaker's claim that his work remains the best example of the form. &#10003;</li><li><strong>Choice C &mdash; 'augmented'</strong>: means to add to or increase. Saying no one has \"augmented\" his work would mean no one has built on it &mdash; not the intended meaning. &#10007;</li><li><strong>Choice D &mdash; 'convened'</strong>: means to assemble or call together a group. Completely unrelated to the idea of surpassing artistic work. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1487028b-5b14-4a74-ba77-84ab65217d04_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contradiction in the classification",
-      "content": "The passage establishes thalassocracies (sea-based) and tellurocracies (land-based) as distinct categories. The Ottoman Empire then contradicts this neat binary by having both land and sea supremacy. The transition must acknowledge this exception."
-    },
-    {
-      "title": "Match the transition to the contradiction",
-      "content": "Choice D (\u201cOf course, the distinction is not always so neat\u201d) directly cues an exception: the Ottoman Empire has both land and sea control. Choices A, B, and C all reinforce the classification system instead. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1487028b-5b14-4a74-ba77-84ab65217d04_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage defines two opposing categories — thalassocracy (sea-based) and tellurocracy (land-based) — then introduces the Ottoman Empire, which had <em>both</em> land and sea supremacy. The blank must bridge the clean binary definition to an example that defies it, so the transition must signal a complication or exception."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'For example, tellurocracies have long overpowered their rivals:'</strong>: \"For example\" introduces an illustration of what was just said. The prior sentence says thalassocracies and tellurocracies are classified as distinct — the Ottoman Empire does not illustrate that distinction, it contradicts it. &#10007;</li><li><strong>Choice B &mdash; 'Likewise, thalassocracies are sea-based powers:'</strong>: \"Likewise\" signals similarity or continuation. The sentence that follows is about the Ottoman Empire having <em>both</em> sea and land power, not about sea-based power alone — so \"likewise\" creates a contradiction in logic. &#10007;</li><li><strong>Choice C &mdash; 'In other words, empires are classified according to their source of power:'</strong>: \"In other words\" signals a restatement of the previous idea. But the Ottoman Empire does not restate the classification framework — it complicates it by fitting both categories at once. &#10007;</li><li><strong>Choice D &mdash; 'Of course, the distinction is not always so neat:'</strong>: \"Of course\" acknowledges a known complication, and \"not always so neat\" directly flags that the clean thalassocracy/tellurocracy binary has exceptions — exactly what the Ottoman Empire illustrates. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

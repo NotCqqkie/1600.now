@@ -1,15 +1,1 @@
-{
-  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_23",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast needing correction",
-      "content": "The sentence structure is \u201cChaucer didn't write in Modern English; [blank] he wrote in Middle English.\u201d The key signal is that the second clause provides an alternative to the negation in the first clause\u2014this is a direct correction."
-    },
-    {
-      "title": "Match the correction to the choices",
-      "content": "\u201dRather\u201d introduces a correction or alternative using the pattern \u201cnot X; rather, Y.\u201d The other options introduce causation, comparison, and sequence, which don't fit the corrective logic here. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ec2ddee6-a98b-41ee-9169-7cea79c09b5c_23","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence structure is \"Chaucer didn't write in Modern English; [blank] he wrote in Middle English.\" The semicolon joins two clauses where the second directly corrects the first. The blank needs a transition that signals correction or substitution, not cause, similarity, or sequence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rather,'</strong>: Signals correction in the pattern \"not X; rather, Y\" &mdash; exactly the logic here. &#10003;</li><li><strong>Choice B &mdash; 'as a result,'</strong>: Signals causation (the second clause would be an effect of the first). Middle English isn't a result of not writing in Modern English; it's a correction of that claim. &#10007;</li><li><strong>Choice C &mdash; 'similarly,'</strong>: Signals that the two clauses share something in common. The clauses contrast, not parallel. &#10007;</li><li><strong>Choice D &mdash; 'finally,'</strong>: Signals the last step in a sequence. There is no sequence here, only a correction. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

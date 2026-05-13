@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures on each side of the blank",
-      "content": "Before the blank: \"Okinaka doesn't make such decisions\" is an independent clause. After the blank: \"all historical designations must be approved by a group of nine other experts\" is also an independent clause."
+      "title": "Identify what the question needs",
+      "content": "The blank falls between two complete thoughts: \"Okinaka doesn't make such decisions [blank]\" and \"all historical designations must be approved by a group of nine other experts.\" Both sides are independent clauses, so the blank must supply punctuation that legally joins them."
     },
     {
-      "title": "Apply the independent clause boundary rule",
-      "content": "Rule: two independent clauses must be separated by a semicolon, a period, or a comma + coordinating conjunction (FANBOYS). Left: \"Okinaka doesn't make such decisions single-handedly.\" Right: \"all historical designations must be approved by a group of nine other experts.\"<br/><br/><strong>A:</strong> \"...single-handedly and all historical designations...\" — \"and\" without a preceding comma attempts to join two independent clauses; a comma before \"and\" is required. Incorrect.<br/><br/><strong>B:</strong> \"...single-handedly, all historical designations...\" — a comma alone joining two independent clauses is a comma splice. Incorrect.<br/><br/><strong>C:</strong> \"...single-handedly all historical designations...\" — no punctuation at all creates a run-on sentence. Incorrect.<br/><br/><strong>D:</strong> \"...single-handedly; all historical designations...\" — the semicolon correctly joins the two closely related independent clauses. <strong>Correct.</strong>"
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'single-handedly and'</strong>: \"and\" is a coordinating conjunction, but joining two independent clauses with a coordinating conjunction requires a comma before it. There is no comma here, so this is a run-on. &#10007;</li><li><strong>Choice B &mdash; 'single-handedly,'</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'single-handedly'</strong>: No punctuation at all between two independent clauses is a fused sentence. &#10007;</li><li><strong>Choice D &mdash; 'single-handedly;'</strong>: A semicolon correctly joins two closely related independent clauses without a coordinating conjunction. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

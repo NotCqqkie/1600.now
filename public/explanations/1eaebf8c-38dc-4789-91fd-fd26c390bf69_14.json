@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent",
-      "content": "The blank fills \"______ compelling narrative still captivates readers today.\" The pronoun must modify \"narrative\" and refer to \"The Aeneid\" — a singular, non-person noun. The pronoun needs to be possessive."
+      "title": "Identify what the question needs",
+      "content": "The blank fills \"______ compelling narrative still captivates readers today.\" The word must be a possessive pronoun referring to <em>The Aeneid</em>, which is a singular, non-person noun."
     },
     {
-      "title": "Rule: use \"its\" for the singular possessive of non-persons",
-      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"their\"</strong> — plural possessive; \"The Aeneid\" is singular. Incorrect.<br/><br/><strong>B. \"they're\"</strong> — contraction of \"they are\"; substitution gives \"they are compelling narrative,\" which is ungrammatical. Incorrect.<br/><br/><strong>C. \"its\"</strong> — singular possessive for non-persons. Substitution: \"The Aeneid's compelling narrative still captivates readers\" — meaning holds. Correct.<br/><br/><strong>D. \"it's\"</strong> — contraction of \"it is\"; substitution gives \"it is compelling narrative,\" which is ungrammatical as a possessive modifier. Incorrect.<br/><br/><strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'their'</strong>: plural possessive. <em>The Aeneid</em> is singular, so this creates a number mismatch. &#10007;</li><li><strong>Choice B &mdash; 'they're'</strong>: contraction of <em>they are</em>. Substituting gives \"they are compelling narrative,\" which is not a possessive and is grammatically broken. &#10007;</li><li><strong>Choice C &mdash; 'its'</strong>: singular possessive for non-persons. Substituting gives \"The Aeneid's compelling narrative still captivates readers today\" &mdash; grammatically correct and meaning preserved. &#10003;</li><li><strong>Choice D &mdash; 'it's'</strong>: contraction of <em>it is</em>. Substituting gives \"it is compelling narrative,\" which cannot serve as a possessive modifier. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

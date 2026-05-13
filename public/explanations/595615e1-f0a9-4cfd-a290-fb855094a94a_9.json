@@ -1,15 +1,1 @@
-{
-  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_9",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the connection between alarm calls and danger",
-      "content": "The passage says that after hearing T. caesius alarm calls, C. cinerascens froze or scattered, leading researchers to conclude the birds link those calls to danger."
-    },
-    {
-      "title": "Apply the link to the answer choices",
-      "content": "B shows that only the alarm calls trigger the freezing/scattering response, while random noise produces no reaction, directly supporting the idea that C. cinerascens associates those calls with danger.<br/>The other choices either do not test specificity, show the reaction occurring without the calls, or extend the effect to other species, which does not bolster the conclusion.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"595615e1-f0a9-4cfd-a290-fb855094a94a_9","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Martinez and colleagues concluded that C. cinerascens associates T. caesius alarm calls with danger. To support this conclusion, you need a finding that confirms the birds react specifically to those alarm calls and not to other sounds or stimuli, showing the response is tied to the calls themselves."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'No significant variation in C. cinerascens response across different T. caesius individuals'</strong>: This shows consistency across individuals of the same species, but it does not test whether the birds react to the calls because of their danger association. It says nothing about whether other sounds produce the same response. &#10007;</li><li><strong>Choice B &mdash; 'C. cinerascens showed no reaction to random noise control sounds'</strong>: If the birds froze or scattered for alarm calls but showed no reaction to random noise, the response is specific to T. caesius alarm calls. This specificity directly supports the conclusion that C. cinerascens links those calls to danger rather than reacting to any loud sound. &#10003;</li><li><strong>Choice C &mdash; 'C. cinerascens sometimes froze before any sounds were played'</strong>: If the birds reacted before the alarm calls were played, it suggests the freezing/scattering can happen independently of the calls. This actually undermines the conclusion by introducing an alternative explanation for the behavior. &#10007;</li><li><strong>Choice D &mdash; 'Other bird species also froze or scattered when T. caesius alarm calls were played'</strong>: This shows the calls affect other species, but the study&rsquo;s conclusion is specifically about C. cinerascens. Evidence about other species does not strengthen the claim that C. cinerascens in particular associates those calls with danger. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,1 +1,15 @@
-{"questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "Each speaker tries to \"hew out his conception of art\" but feels his \"strokes had gone awry\" — and crucially, <strong>\"for some reason which he could not grasp.\"</strong> Then they immediately turn to clarify in private."}, {"title": "Match the point", "content": "Two ideas must both appear: (1) failure to express art coherently, and (2) not understanding why. That's choice B — \"Each fails at presenting a wholly coherent vision of art but does not understand why.\"<ul><li>A reverses the public/private preference</li><li>C adds contempt not in the text</li><li>D shifts to a question they can't answer (text shows they each speak</li></ul>, then privately rectify).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "358eadf8-526f-42db-b8ee-227b4cb7d0e5_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what point the text makes about the people at the gathering. The key evidence is: each person's strokes \"had gone awry\" <em>\"for some reason which he could not grasp,\"</em> and afterward each turned to a neighbor to privately rectify what was said publicly."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Each enjoys speaking publicly about abstract issues but dislikes speaking privately about them.'</strong>: reverses the text. Each person spoke publicly then <em>turned to</em> a neighbor to clarify &mdash; the private rectification is presented as a natural follow-up, not something they dislike. &#10007;</li><li><strong>Choice B &mdash; 'Each fails at presenting a wholly coherent vision of art but does not understand why.'</strong>: matches both key details &mdash; strokes \"had gone awry\" (failure to present coherently) and \"for some reason which he could not grasp\" (does not understand why). &#10003;</li><li><strong>Choice C &mdash; 'Each is contemptuous of the other attendees but strives to impress them.'</strong>: no contempt appears anywhere in the passage; the text only describes confusion and private correction. &#10007;</li><li><strong>Choice D &mdash; 'Each becomes absorbed in a question about art, and no one knows how to answer the question.'</strong>: the passage shows each person <em>proposing</em> a conception of art, not grappling with a shared unanswered question. The confusion is about delivery, not the question itself. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

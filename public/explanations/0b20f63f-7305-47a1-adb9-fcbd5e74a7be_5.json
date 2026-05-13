@@ -1,1 +1,19 @@
-{"questionId":"0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5","correctAnswer":"B","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute the minus sign and combine:$$=3c+9-4c^3+5$$$$=-4c^3+3c+14$$"},{"title":"Match to the answer choices","content":"The simplified expression is $-4c^3+3c+14$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Distribute the subtraction across the second group: $$(3c + 9) - (4c^{3} - 5) = 3c + 9 - 4c^{3} + 5$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Combine the constant terms: $$-4c^{3} + 3c + 9 + 5 = -4c^{3} + 3c + 14$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>B</strong> is correct."
+    }
+  ]
+}

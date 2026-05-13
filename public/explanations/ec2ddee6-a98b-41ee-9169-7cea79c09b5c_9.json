@@ -1,15 +1,1 @@
-{
-  "questionId": "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states that the element \u201cgo\u201d in *gogs* gets repeated in *gogogs*."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Answer A directly repeats that idea: it says *gogogs* contains a repetition of the element \u201cgo\u201d in *gogs*.<br/>The other three choices either claim something not mentioned in the passage, describe a uniqueness that isn\u2019t stated, or assert an identical meaning that the text does not support.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ec2ddee6-a98b-41ee-9169-7cea79c09b5c_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what point the text makes specifically about *gogogs*. The answer must be directly stated in the passage, not inferred."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'It contains a repetition of the element \"go\" in *gogs*.'</strong>: The passage states explicitly: \"the element 'go' in *gogs* gets repeated in *gogogs*.\" This is a direct match. &#10003;</li><li><strong>Choice B &mdash; 'It doesn't have a clear equivalent in English.'</strong>: The passage never mentions English or any comparison to English. Not stated. &#10007;</li><li><strong>Choice C &mdash; 'It is the only word in O'odham that uses reduplication.'</strong>: The passage says the opposite — \"there are many examples of this type of reduplication in O'odham.\" &#10007;</li><li><strong>Choice D &mdash; 'It is identical in meaning to several other words in O'odham.'</strong>: *Gogogs* means \"several dogs\" — it is related to *gogs* (\"a dog\"), but the passage never claims it is identical in meaning to other O'odham words. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

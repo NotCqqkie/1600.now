@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the signal in the graph",
-      "content": "The graph shows that, for participant P7, the model\u2019s predicted rating for impressionist paintings is not the same as its predicted rating for color\u2011field paintings.<br/>This directly tells us that the model expected the two ratings to differ."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A states that P7\u2019s ratings for the two styles would differ, which aligns exactly with the graph\u2019s indication.<br/>The other three choices either assert equality or specify a direction of preference that the graph does not show.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_13","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question assumes P7 gave equal actual ratings to impressionist and color-field paintings, then asks what the model predicted. If P7's actual ratings were equal but the model's predicted ratings differ for the two styles, there is a mismatch between prediction and reality — that mismatch is what the data show."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'P7’s ratings for impressionist and color-field paintings would differ from one another.'</strong>: The graph shows the model assigned different predicted scores to P7 for the two styles. This directly matches the setup. &#10003;</li><li><strong>Choice B &mdash; 'P7 would derive more aesthetic pleasure from impressionist paintings than from color-field paintings.'</strong>: This claims a specific direction (impressionist &gt; color-field). The graph shows the predicted scores differ, but the question does not specify which is higher for P7 — this goes beyond what the data show. &#10007;</li><li><strong>Choice C &mdash; 'P7’s ratings for impressionist and color-field paintings would equal one another.'</strong>: This says the model predicted equal scores, but the graph shows the predicted values for P7 are not equal. This is the opposite of what the graph indicates. &#10007;</li><li><strong>Choice D &mdash; 'P7 would derive less aesthetic pleasure from impressionist paintings than from color-field paintings.'</strong>: Like B, this asserts a specific directional difference (color-field &gt; impressionist) that the graph does not confirm. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

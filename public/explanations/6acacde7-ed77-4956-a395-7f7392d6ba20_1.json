@@ -4,13 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Vertical translation rule",
-      "content": "When a graph is translated down by $k$ units, we subtract $k$ from the function output.",
-      "formula": "$$y = f(x) - k$$"
+      "title": "Identify what the question needs",
+      "content": "The question asks for the equation after $y = 3x$ is translated 6 units <em>down</em>. A vertical translation down by $k$ units subtracts $k$ from the output: $$y = 3x - 6$$"
     },
     {
-      "title": "Apply to the given function",
-      "content": "Start with $y = 3x$ and translate down 6 units:<br/>$$y = 3x - 6$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$y = -6(3)^{x}$'</strong>: changes the base to an exponential and introduces a negative coefficient &mdash; not a translation of $y = 3x$. &#10007;</li><li><strong>Choice B &mdash; '$y = 3^{(x+6)}$'</strong>: rewrites $3x$ as an exponential $3^x$ and shifts the exponent &mdash; wrong function family entirely. &#10007;</li><li><strong>Choice C &mdash; '$y = 3x - 6$'</strong>: subtracts 6 from the output of $y = 3x$, shifting the line 6 units down. &#10003;</li><li><strong>Choice D &mdash; '$y = 3^{(x-6)}$'</strong>: same exponential-rewrite trap as B, just with a rightward shift in the exponent. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

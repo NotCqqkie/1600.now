@@ -1,1 +1,15 @@
-{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_25", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The prompt requires us to “emphasize a difference.” The strongest signal is that we need a sentence making a direct CONTRAST between the two isthmuses, not just defining them or describing one in isolation."}, {"title": "Match the signal to the best choice", "content": "Choice B accomplishes this contrast: “The Isthmus of Panama is located in Central America, while the Isthmus of Ierapetra is located in the Mediterranean Sea.” The word “while” directly signals the comparison between the two locations.<br/><br/>Choices A, C, and <ul><li>D fail to create a contrast—A describes only one isthmus</li><li>C mentions only one location</li><li>D provides only a definition</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_25",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The goal is to \"emphasize a difference\" between the two isthmuses. The correct sentence must explicitly contrast them — placing a distinct fact about each side by side — not define one, describe one alone, or give a general definition."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'The Isthmus of Ierapetra is an isthmus, or land bridge.'</strong>: Mentions only one isthmus and merely restates the definition. No contrast is drawn. &#10007;</li><li><strong>Choice B &mdash; 'The Isthmus of Panama is located in Central America, while the Isthmus of Ierapetra is located in the Mediterranean Sea.'</strong>: Names both isthmuses and uses \"while\" to place their different locations in direct contrast. This is the difference the goal requires. &#10003;</li><li><strong>Choice C &mdash; 'There is an isthmus, or land bridge, located in Central America.'</strong>: Mentions only one location without naming or comparing the other isthmus. No contrast. &#10007;</li><li><strong>Choice D &mdash; 'An isthmus, or land bridge, is a strip of land that connects two larger pieces of land across an expanse of water.'</strong>: Provides only the general definition of an isthmus — does not mention either isthmus by name or draw any contrast. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

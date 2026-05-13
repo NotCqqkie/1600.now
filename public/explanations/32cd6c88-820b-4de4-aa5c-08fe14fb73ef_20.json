@@ -1,15 +1,1 @@
-{
-  "questionId": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_20",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret the problem",
-      "content": "We need to find the fixed amount withdrawn each time a movie is rented. This is the rate of change in the linear function."
-    },
-    {
-      "title": "Test the answer choices",
-      "content": "Backsolving \u2014 testing choice B (3): If 3 dollars are withdrawn per movie, the account would have $21 - 3m$ dollars after renting $m$ movies. This matches the given function $f(m) = 21 - 3m$ exactly. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"32cd6c88-820b-4de4-aa5c-08fe14fb73ef_20","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"$f(m) = 21 - 3m$ gives the account balance after renting $m$ movies. The question asks for the fixed dollar amount withdrawn each time one movie is rented — that is, the magnitude of the rate of change per movie."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $3m$</strong>: This is an expression that grows with $m$, not a fixed per-rental amount. &#10007;</li><li><strong>Choice B &mdash; $3$</strong>: The coefficient of $m$ is $-3$, meaning the balance drops by $3$ dollars per movie rented. A constant $3$ per rental is correct. &#10003;</li><li><strong>Choice C &mdash; $21$</strong>: This is the initial balance (the $y$-intercept when $m=0$), not the per-rental cost. &#10007;</li><li><strong>Choice D &mdash; $21-3m$</strong>: This is the entire expression for the balance, not the amount withdrawn per rental. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

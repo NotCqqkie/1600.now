@@ -1,15 +1,1 @@
-{
-  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the decisive contrast",
-      "content": "The word \u201cHowever\u201d signals a pivot from the previous sentence's focus on cultural icons to a different category: ordinary people. The underlined sentence then anchors this shift with a specific example\u2014the young girl on a sidewalk."
-    },
-    {
-      "title": "Match the function to the answer",
-      "content": "<strong>D</strong> identifies the function precisely: it provides a concrete example of an everyday individual. A contradicts the shift, while B and C miss what the sentence actually accomplishes.<br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6172d662-f820-4d74-acac-4b49873dfc8f_6","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the function of the underlined sentence in the text as a whole. The underlined sentence begins with \"However,\" which signals a contrast, and it introduces Villasana's second subject category: ordinary people, illustrated by a young girl on a sidewalk."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'To emphasize that Villasana prefers to focus on famous figures in her work.'</strong>: The underlined sentence actually moves away from famous figures (cultural icons) toward ordinary people, so this directly contradicts what the sentence does. &#10007;</li><li><strong>Choice B &mdash; 'To offer an overview of Villasana’s artistic style.'</strong>: The sentence gives one specific example of a subject type, not a broad overview of Villasana's technique or methods. &#10007;</li><li><strong>Choice C &mdash; 'To demonstrate that Villasana collaborates frequently with other artists.'</strong>: Nothing in the underlined sentence mentions collaboration. This introduces an idea not present in the passage. &#10007;</li><li><strong>Choice D &mdash; 'To provide an example of an everyday individual that Villasana portrayed in her work.'</strong>: The sentence explicitly introduces an ordinary person (a young girl on a sidewalk) as a concrete example of Villasana's second subject category. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

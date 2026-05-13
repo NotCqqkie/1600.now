@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The colon after the blank introduces the proof: the population grew <em>\"from as few as 100 birds...to around 1,300 in 2023.\"</em> The word must describe an approach that achieved its goal of boosting bird numbers."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. Successful</strong> means achieving the intended result. Substituting: <em>\"this approach was apparently successful\"</em> — confirmed by the 13-fold population increase the colon provides as evidence. <strong>A is correct.</strong><br/><br/><strong>B. Disastrous</strong> means causing great harm. The population grew dramatically — there was no harm. Direct contradiction. Eliminated.<br/><br/><strong>C. Amusing</strong> means entertaining or funny. Planting 500,000 trees to save a species is a conservation effort, not a source of amusement. Unsupported. Eliminated.<br/><br/><strong>D. Costly</strong> means expensive. The passage provides no information about the financial cost of the tree-planting program. Unsupported. Eliminated."
-    }
-  ]
-}
+{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_1","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes the tree-planting approach. The colon after the blank signals that what follows is proof: the Azores bullfinch population grew from as few as 100 birds to around 1,300 in 2023 &mdash; a 13-fold increase. The word must match that evidence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'successful'</strong>: Means achieving the intended result. The intended result was to boost bird numbers, and the population did grow dramatically. The evidence directly confirms this word. &#10003;</li><li><strong>Choice B &mdash; 'disastrous'</strong>: Means causing severe harm or failure. The population grew &mdash; the opposite of a disaster. Direct contradiction of the evidence. &#10007;</li><li><strong>Choice C &mdash; 'amusing'</strong>: Means entertaining or funny. Conservation programs are not described as a source of amusement, and the evidence (population growth data) has nothing to do with humor. Unsupported. &#10007;</li><li><strong>Choice D &mdash; 'costly'</strong>: Means expensive. The passage gives no information about the financial cost of the tree-planting program. The colon introduces population numbers, not budget figures. Unsupported. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

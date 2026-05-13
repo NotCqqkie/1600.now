@@ -1,15 +1,1 @@
-{
-  "questionId": "ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage calls these entries <em>\"hoaxes perpetrated as jokes by mischievous users.\"</em> The blank is what the entries were finally recognized as before being deleted — it must mean the same thing: deceptive jokes."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. Enhancements</strong> means improvements or additions that add value. Fake entries created by mischievous users improve nothing — they are deceptive, not beneficial. Eliminated.<br/><br/><strong>B. Pranks</strong> means tricks or jokes played on others. Substituting: <em>\"finally recognized as pranks and deleted\"</em> — this matches the passage's own description of these entries as hoaxes and jokes. <strong>B is correct.</strong><br/><br/><strong>C. Revelations</strong> means surprising new discoveries or disclosures. Fake entries about nonexistent bands and legislators reveal nothing true. Eliminated.<br/><br/><strong>D. Analyses</strong> means systematic examinations or studies. A fictitious entry for a made-up punk band is not an analysis of anything. Eliminated."
-    }
-  ]
-}
+{"questionId":"ed66cb8c-ccc6-48f0-b65f-d59f856ebf76_3","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes what the fictitious entries were finally recognized as before being deleted. The passage already calls them \"hoaxes perpetrated as jokes by mischievous users,\" so the answer must match that meaning: deliberate, deceptive tricks."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'enhancements'</strong>: Enhancements are improvements that add value. Fake entries about nonexistent bands and legislators improve nothing &mdash; they deceive. &#10007;</li><li><strong>Choice B &mdash; 'pranks'</strong>: Pranks are tricks or jokes played on others. Substituting: \"finally recognized as pranks and deleted\" matches the passage's own framing of these entries as hoaxes and jokes. &#10003;</li><li><strong>Choice C &mdash; 'revelations'</strong>: Revelations are surprising disclosures of truth. Fictitious entries reveal nothing true &mdash; they fabricate. &#10007;</li><li><strong>Choice D &mdash; 'analyses'</strong>: Analyses are systematic examinations. An invented entry for a made-up punk band is not an analysis of anything. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the goal's requirement: \u201cevolved\u201d",
-      "content": "The goal asks to describe how understanding has \u201cevolved\u201d\u2014meaning it changed over time. To accomplish this, the response must present the understanding from two different time periods so the shift becomes visible."
-    },
-    {
-      "title": "Apply the goal to the choices",
-      "content": "Choice B includes the 2017 study (ancient grass fires) and then uses \u201cbut\u201d to present the 2021 study (cometary explosion). Choices A and C present findings from only one study. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1772a8fc-3104-49c8-9168-d2704967f5fd_23","correctAnswer":"B","section":"Reading and Writing","needs_review":true,"steps":[{"title":"Identify what the question needs","content":"The goal is to describe how scientific understanding about the glass&rsquo;s origin has &ldquo;evolved.&rdquo; Evolution of understanding requires showing a change over time&mdash;an earlier explanation and a later, different explanation&mdash;so the reader can see that thinking shifted."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Mineral signatures of glass samples are consistent with those of comet samples collected by NASA, according to new research.&rsquo;</strong>: Presents only the 2021 finding. With no earlier explanation to contrast it against, no evolution of understanding is shown&mdash;this reads as a single static fact. &#10007;</li><li><strong>Choice B &mdash; &lsquo;A 2017 study concluded that ancient grass fires had caused the glass&rsquo;s formation, but new research suggests that the glass formed as a result of a cometary explosion close to the desert&rsquo;s surface.&rsquo;</strong>: Gives the 2017 explanation first, then uses &ldquo;but&rdquo; to introduce the 2021 finding as a contrasting update. Both time periods and the shift between them are explicit&mdash;understanding is shown evolving. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Scientists have long sought to determine the origin of the glass, with one study concluding that it formed when ancient grass fires melted the area&rsquo;s sandy soil.&rsquo;</strong>: Mentions only the grass-fire study and frames it as an ongoing search. The 2021 cometary finding is omitted entirely, so no change in understanding is shown. &#10007;</li><li><strong>Choice D</strong>: Original text is unavailable in source data. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key numerical contrast",
-      "content": "The passage compares consonant counts for Polynesian languages (9 in Sikaiana, 8 in ʻŌlelo Hawaiʻi) against the global median (over 22), establishing they fall far below average."
-    },
-    {
-      "title": "Choose the word for lowest quantity",
-      "content": "Substitute each choice: Polynesian consonant inventories tend toward the ______.<br/><br/><strong>A) minimal</strong> — \"minimal\" means smallest in amount. Sikaiana has 9 consonants, Hawaiian has 8, versus a global median of 22+. These counts are far below average — minimal fits exactly. Keep.<br/><br/><strong>B) static</strong> — \"static\" means unchanging over time. The passage compares counts across languages, not how counts change. Irrelevant. Eliminate.<br/><br/><strong>C) replicable</strong> — \"replicable\" means able to be reproduced or copied. Nothing in the passage suggests these sound inventories are being replicated. Eliminate.<br/><br/><strong>D) melodic</strong> — \"melodic\" describes musical or pleasant sound quality. The passage is about quantity of consonants, not their sound character. Eliminate.<br/><br/><strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8979aab8-13bc-4454-bb32-5bdf66fd4ea4_4","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes the direction that Polynesian consonant inventories tend toward. The sentence then gives two data points — Sikaiana has 9 consonants, ʻŌlelo Hawaiʻi has 8 — compared with a global median of over 22. The word must capture what is distinctive about those low counts."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'minimal'</strong>: \"Minimal\" means as small as possible or very low in quantity. Sikaiana's 9 and Hawaiian's 8 consonants are far below the global median of 22+, so \"toward the minimal\" accurately names the pattern the data illustrates. &#10003;</li><li><strong>Choice B &mdash; 'static'</strong>: \"Static\" means unchanging over time. The sentence compares consonant counts across different languages at a single point, not how those counts change — so \"static\" is irrelevant to the contrast being drawn. &#10007;</li><li><strong>Choice C &mdash; 'replicable'</strong>: \"Replicable\" means able to be reproduced. Nothing in the passage suggests these inventories are being copied or replicated elsewhere; the passage is about size, not reproducibility. &#10007;</li><li><strong>Choice D &mdash; 'melodic'</strong>: \"Melodic\" describes a pleasing or musical sound quality. The passage discusses the <em>number</em> of consonants, not their acoustic character, so \"melodic\" is a category error. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

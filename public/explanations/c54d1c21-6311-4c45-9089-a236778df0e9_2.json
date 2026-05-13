@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "<em>\"Only recently\"</em> signals a new discovery. Genetic research did something to the ancestor of summer squash — it made that ancestor known. The blank must mean discovered or made known."
+      "title": "Identify what the question needs",
+      "content": "The passage says summer squash \"doesn't closely resemble any wild plant,\" and then states that genetic research \"only recently ______ its ancestor to be the wild johnny gourd.\" The phrase \"only recently\" signals a new discovery. The blank must mean something like uncovered or made known for the first time."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. Revealed</strong> means made previously unknown information known. Substituting: <em>\"genetic research only recently revealed its ancestor to be the wild johnny gourd\"</em> — the research uncovered and disclosed an identity that was not known before. <strong>A is correct.</strong><br/><br/><strong>B. Expanded</strong> means made larger or broader. Research cannot expand an ancestor — and the passage is about identifying, not enlarging, a relationship. Eliminated.<br/><br/><strong>C. Encouraged</strong> means promoted or gave support to something. Research cannot encourage an ancestor to exist. This doesn't fit the context of a discovery. Eliminated.<br/><br/><strong>D. Petitioned</strong> means formally requested something from an authority. Genetic research makes discoveries; it does not file requests. Eliminated."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'revealed'</strong>: \"Revealed\" means disclosed something previously unknown. Genetic research recently revealed the ancestor's identity &mdash; exactly what the passage describes. &#10003;</li><li><strong>Choice B &mdash; 'expanded'</strong>: \"Expanded\" means made larger or broader. Research cannot expand an ancestor, and the sentence is about identifying a relationship, not enlarging one. &#10007;</li><li><strong>Choice C &mdash; 'encouraged'</strong>: \"Encouraged\" means promoted or gave support to. Research does not encourage an ancestor to exist; the blank needs a word for a discovery, not an act of support. &#10007;</li><li><strong>Choice D &mdash; 'petitioned'</strong>: \"Petitioned\" means formally requested something from an authority. Genetic research makes scientific findings; it does not file requests. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

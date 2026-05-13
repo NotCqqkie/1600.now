@@ -1,1 +1,15 @@
-{"questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the task requirement", "content": "The task explicitly requires a <strong>generalization</strong> — meaning a broad conclusion about the overall effect of parks on happiness, not the methodology, sample scope, or specific city comparisons."}, {"title": "Apply to the choices", "content": "Choice B states that parks have an overall positive effect on happiness while varying by city, drawing from the average benefit of 0.10 (which exceeds zero) and data showing city-to-city variation.<br/><br/>Choices A and D describe only the method and scope; choice C compares two specific cities and incorrectly claims Washington's parks had no positive effect when the data shows they did.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to make a <em>generalization</em> from the study's findings &mdash; a broad conclusion about parks and happiness overall, not a description of method, sample size, or a comparison of two specific cities."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Geotagged social media posts were analyzed for expressed happiness in both San Francisco and Washington.'</strong>: describes only the methodology and scope, not a finding about parks and happiness. &#10007;</li><li><strong>Choice B &mdash; 'Though it can vary from city to city, the overall effect of parks on happiness is a positive one.'</strong>: draws a broad conclusion from two data points: the average benefit of 0.10 (above zero &mdash; positive) and city-to-city variation in that benefit. This is a true generalization from the findings. &#10003;</li><li><strong>Choice C &mdash; 'San Francisco's parks had a positive effect on happiness, but this was not true of Washington's parks, which had a below-average effect.'</strong>: misrepresents the data &mdash; Washington's benefit was <em>greater than 0</em>, meaning it was still positive; the notes never say it was below average. &#10007;</li><li><strong>Choice D &mdash; 'By comparing the happiness scores of posts made in parks and posts made elsewhere, the study determined the effect of parks on happiness.'</strong>: describes the study's method, not a generalized finding about what parks do to happiness. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

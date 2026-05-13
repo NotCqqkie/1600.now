@@ -1,1 +1,15 @@
-{"questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the researchers' measure of relaxation", "content": "The passage explicitly states that <strong>“a reduced heart rate is considered a measure of relaxation.”</strong> The researchers measured heart rates to test whether lullabies relax infants, so supporting evidence must demonstrate that the lullaby produced lower heart rates."}, {"title": "Apply the measure to the answer choices", "content": "Choice C directly demonstrates the effect the researchers measured—substantially lower infants' heart rates during the lullaby than during the non-lullaby.<br/><br/>The remaining choices either measure a different parameter (irregularity rather than reduction), rely on different evidence (parental preference), or include irrelevant context.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "92bd954b-0e12-4b86-bc5f-d64490221af2_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The researchers claim the lullaby relaxed the infants, and they measured heart rate as the indicator of relaxation &mdash; specifically, the passage states \"a reduced heart rate is considered a measure of relaxation.\" Supporting evidence must show the lullaby produced lower heart rates."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'The heart rates of infants in the study were more irregular during the lullabies than during non-lullabies.'</strong>: measures <em>irregularity</em>, not reduction. The passage ties relaxation to a lower rate, not an irregular one. &#10007;</li><li><strong>Choice B &mdash; 'Parents of infants in the study chose the lullaby over the non-lullaby when asked which song they use to calm their child.'</strong>: parental preference is not the researchers' measure of relaxation; it doesn't show what happened to the infants' heart rates. &#10007;</li><li><strong>Choice C &mdash; 'Infants’ heart rates were substantially lower during the lullaby than during the non-lullaby.'</strong>: directly shows the lullaby produced the reduced heart rate that the researchers defined as relaxation. This is exactly what the claim needs. &#10003;</li><li><strong>Choice D &mdash; 'Both the song in Western Nahuatl and the song in Serbian were sung by a female singer.'</strong>: describes a feature of the songs but says nothing about heart rate or relaxation; irrelevant to the claim. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

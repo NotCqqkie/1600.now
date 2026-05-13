@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving \u2014 testing choice B (-9)",
-      "content": "Backsolving \u2014 testing choice B (-9):<br/>From the second equation $$-3x+y=3$$ we solve for $$y=3+3x$$.<br/>Substitute $$x=-9$$: $$y=3+3(-9)=-24$$.<br/>Check the first equation $$x^{2}+y=111$$: $$(-9)^{2}+(-24)=81-24=57\\neq111$$.<br/>Thus choice B does not satisfy the system."
+      "title": "Set up",
+      "content": "From the linear equation $-3x + y = 3$, solve for $y$: $$y = 3 + 3x$$ Substitute into $x^{2} + y = 111$: $$x^{2} + (3 + 3x) = 111$$"
     },
     {
-      "title": "Backsolving \u2014 testing choice A (-12)",
-      "content": "Backsolving \u2014 testing choice A (-12):<br/>From $$-3x+y=3$$ we get $$y=3+3x$$.<br/>With $$x=-12$$: $$y=3+3(-12)=-33$$.<br/>Check $$x^{2}+y=111$$: $$(-12)^{2}+(-33)=144-33=111$$.<br/>Both equations are satisfied.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Solve",
+      "content": "$$x^{2} + 3x + 3 = 111$$ $$x^{2} + 3x - 108 = 0$$ $$(x + 12)(x - 9) = 0$$ $$x = -12 \\text{ or } x = 9$$"
+    },
+    {
+      "title": "Answer",
+      "content": "One possible value of $x$ is $-12$, which matches choice A. <strong>A</strong> is correct."
     }
   ]
 }

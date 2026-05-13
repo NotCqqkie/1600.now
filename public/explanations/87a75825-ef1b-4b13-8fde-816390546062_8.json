@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the initial condition and rate of change",
-      "content": "When the line closes at $t = 0$, there are 238 people in line. Each minute, 14 people board the ride and leave. This means:<ul><li>Initial value at $t = 0$: $p(0) = 238$</li><li>Rate of change (slope): $-14$ people per minute (negative because the number decreases)</li></ul>"
+      "title": "Set up",
+      "content": "At $t = 0$ there are 238 people. The count decreases by 14 each minute, so the slope is $-14$. A linear model has the form: $$p(t) = -14t + 238$$"
     },
     {
-      "title": "Write the linear function",
-      "content": "With initial value 238 and slope $-14$, the linear function is:<br/>$$p(t) = -14t + 238$$<br/>Check: at $t = 1$, $p(1) = -14(1) + 238 = 224 = 238 - 14$, confirming exactly 14 people departed in the first minute. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Solve",
+      "content": "Verify: at $t = 1$, $p(1) = -14(1) + 238 = 224$, which is $238 - 14$ &mdash; exactly 14 people boarded in the first minute."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
     }
   ]
 }

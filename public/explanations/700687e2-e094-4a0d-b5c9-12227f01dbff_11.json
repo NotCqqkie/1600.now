@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_11",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the core claim",
-      "content": "The team concluded Kozak & Keoleian's study had more specificity in data. The detail rating (measuring \u201creported data with more detail\u201d) directly reflects data specificity."
-    },
-    {
-      "title": "Find the direct contradiction",
-      "content": "A lower detail rating for Kozak & Keoleian (choice A) means their data is less detailed\u2014directly contradicting \u201cmore specificity.\u201d Traceability (B) concerns procedure clarity, not data specificity; C and D would support the original conclusion. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"700687e2-e094-4a0d-b5c9-12227f01dbff_11","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The second team concluded that Kozak &amp; Keoleian's study had more <em>specificity in its data</em> than Oguchi's. The passage tells us that a higher <strong>detail rating</strong> means \"reported data with more detail\" — data specificity is measured by the detail rating. A finding that challenges the conclusion must contradict the idea that Kozak &amp; Keoleian had more specific data."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; \"The study by Kozak and Keoleian had a lower detail rating than the study by Oguchi and colleagues did.\"</strong>: A lower detail rating means less detailed (less specific) data for Kozak &amp; Keoleian — directly contradicting the conclusion that their data had <em>more</em> specificity. &#10003;</li><li><strong>Choice B &mdash; \"The study by Kozak and Keoleian had a lower traceability rating than the study by Oguchi and colleagues did.\"</strong>: Traceability measures clarity of procedures, not data specificity. A lower traceability rating does not challenge a claim about data detail. &#10007;</li><li><strong>Choice C &mdash; \"The study by Kozak and Keoleian had a high detail rating and a high traceability rating.\"</strong>: High detail and high traceability would <em>support</em> the conclusion, not challenge it. &#10007;</li><li><strong>Choice D &mdash; \"The study by Oguchi and colleagues had a low detail rating and a low traceability rating.\"</strong>: If Oguchi's ratings were low, Kozak &amp; Keoleian would comparatively look <em>better</em>, which supports rather than challenges the conclusion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

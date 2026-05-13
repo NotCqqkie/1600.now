@@ -1,15 +1,1 @@
-{
-  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The phrase \"thick curtain of long, coily hair that...engulfs her\" signals that the hair is so voluminous it nearly covers the girl completely."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Substitute each word back into \"a thick curtain of long, coily hair that ______ engulfs her\":<br/><br/><strong>A. Cheerfully</strong> is an adverb of emotion or manner. Hair cannot engulf someone cheerfully; the sentence describes extent, not mood.<br/><br/><strong>B. Doubtfully</strong> means with uncertainty or skepticism. The hair's coverage is a physical fact observed by the narrator — there is no doubt involved.<br/><br/><strong>C. Almost</strong> means very nearly but not completely. \"Hair that almost engulfs her\" captures the visual image of being nearly swallowed by voluminous hair. &#10003;<br/><br/><strong>D. Never</strong> means at no time. \"Hair that never engulfs her\" contradicts the sentence — the whole point is that the hair nearly does engulf her.<br/><br/><strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"65933baf-7287-4c7d-a62b-3e57c00f4a9e_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what \"practically\" means as used in the phrase \"a thick curtain of long, coily hair that practically engulfs her.\" The blank must describe the degree to which the hair covers the girl, not her mood or the hair's behavior."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Cheerfully'</strong>: An adverb of emotion or manner. Hair cannot act cheerfully; the sentence is describing extent of coverage, not a feeling or disposition. &#10007;</li><li><strong>Choice B &mdash; 'Doubtfully'</strong>: Means with uncertainty or hesitation. The narrator is making a direct visual observation — there is no doubt or skepticism being expressed. &#10007;</li><li><strong>Choice C &mdash; 'Almost'</strong>: Means very nearly but not completely. \"Hair that almost engulfs her\" captures the image of being nearly swallowed by extremely voluminous hair, which is exactly the degree the passage conveys. &#10003;</li><li><strong>Choice D &mdash; 'Never'</strong>: Means at no time. \"Hair that never engulfs her\" directly contradicts the passage — the entire point of the image is that the hair nearly does engulf her. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

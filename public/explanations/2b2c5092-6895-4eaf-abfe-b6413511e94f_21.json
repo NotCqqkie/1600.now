@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses",
-      "content": "Two independent clauses must be joined: <em>He did not play drums on the label's classic song 'Rapper's Delight'</em> and <em>he joined the label after the song's release.</em> The word <strong>however</strong> sits between them as a conjunctive adverb."
+      "title": "Identify what the question needs",
+      "content": "The blank falls between two independent clauses joined by the conjunctive adverb <em>however</em>: <em>He did not play drums on the label's classic song \"Rapper's [blank]</em> and <em>he joined the label after the song's release.</em> The correct punctuation must separate two independent clauses and handle the quotation mark and <em>however</em> correctly."
     },
     {
-      "title": "Apply the punctuation pattern",
-      "content": "Per the answer key, the correct pattern places a comma inside the closing quotation mark and a semicolon after <em>however</em>: <em>Delight,\" however;</em>. The semicolon joins the two independent clauses around the conjunctive adverb.<br/><br/>Choice A would split the sentence in two with a period; choice C creates a comma splice; choice D omits punctuation entirely.<br/><br/>The answer is <strong>B</strong>."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Delight.\" However,'</strong>: a period ends the first sentence correctly, but \"However,\" then starts the second clause as a fragment-opener followed only by a comma — a conjunctive adverb between two independent clauses still needs a semicolon after it, not a comma. &#10007;</li><li><strong>Choice B &mdash; 'Delight,\" however;'</strong>: the comma before the closing quotation mark is standard; the semicolon after <em>however</em> properly links the two independent clauses around the conjunctive adverb. This is the correct pattern: [IC], conjunctive adverb; [IC]. &#10003;</li><li><strong>Choice C &mdash; 'Delight,\" however,'</strong>: uses a comma both before and after <em>however</em>, creating a comma splice — two independent clauses joined by only commas. &#10007;</li><li><strong>Choice D &mdash; 'Delight\" however'</strong>: no punctuation around <em>however</em> at all. The two independent clauses run together with no separator. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

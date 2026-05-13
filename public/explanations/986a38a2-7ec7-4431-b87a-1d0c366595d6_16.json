@@ -1,15 +1,1 @@
-{
-  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the function of \"quindoxin (C₈H₆N₂O₂)\"",
-      "content": "\"Quindoxin\" is the specific name of the compound — it's essential to identifying which compound we're discussing. Without it, \"the gaseous compound\" would be incomplete and vague."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "Rule: a restrictive appositive that identifies which specific thing is meant takes no commas. \"Quindoxin\" tells us which gaseous compound — without it, the sentence says only \"the gaseous compound,\" leaving the referent vague. The name is essential.<br/><br/><strong>A:</strong> \"...gaseous compound, quindoxin (C8H6N2O2), has...\" — commas on both sides signal a nonrestrictive appositive (optional extra info). The name is not optional here. Incorrect.<br/><br/><strong>B:</strong> \"...gaseous compound quindoxin (C8H6N2O2) has...\" — no commas; quindoxin directly and necessarily identifies the compound. <strong>Correct.</strong><br/><br/><strong>C:</strong> \"...gaseous compound quindoxin (C8H6N2O2), has...\" — trailing comma only; unmatched and incorrectly places a boundary before the verb. Incorrect.<br/><br/><strong>D:</strong> \"...gaseous compound, quindoxin (C8H6N2O2) has...\" — opening comma only; unmatched and incorrectly signals a nonrestrictive appositive without a closing comma. Incorrect."
-    }
-  ]
-}
+{"questionId":"986a38a2-7ec7-4431-b87a-1d0c366595d6_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills in the noun phrase inside \"The gaseous ______ has a molar mass of 162.15 g/mol.\" The name \"quindoxin\" identifies which gaseous compound is meant. The question is whether that name is essential (restrictive) or optional (nonrestrictive), and how commas should reflect that."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'compound, quindoxin (C&#8328;H&#8326;N&#8322;O&#8322;),'</strong>: Commas on both sides mark a nonrestrictive appositive &mdash; meaning the name is optional extra info. But without the name, \"the gaseous compound\" is vague and doesn't identify which compound. The name is essential, so commas are wrong. &#10007;</li><li><strong>Choice B &mdash; 'compound quindoxin (C&#8328;H&#8326;N&#8322;O&#8322;)'</strong>: No commas. \"Quindoxin\" sits directly beside \"compound\" as a restrictive appositive that identifies which gaseous compound is meant. No commas correctly signals this essential relationship. &#10003;</li><li><strong>Choice C &mdash; 'compound quindoxin (C&#8328;H&#8326;N&#8322;O&#8322;),'</strong>: A single trailing comma incorrectly places a boundary between the subject noun phrase and its verb \"has.\" Nothing after the comma warrants this pause, and the comma is unmatched. &#10007;</li><li><strong>Choice D &mdash; 'compound, quindoxin (C&#8328;H&#8326;N&#8322;O&#8322;)'</strong>: An opening comma without a closing comma creates an unmatched, malformed appositive. Even if nonrestrictive were intended, both commas are required. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

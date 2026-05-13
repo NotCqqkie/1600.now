@@ -1,15 +1,1 @@
-{
-  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_10",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage explicitly states the study's purpose in its opening: \u201cto study how butterfly color and weather conditions relate to butterfly behavior.\u201d This central focus frames everything else\u2014all findings and details support this main research question."
-    },
-    {
-      "title": "Match the meaning to choices",
-      "content": "Choice D captures this exact purpose: a large study examined how color and weather influence behavior. The others either misrepresent the findings, add unstated information, or prioritize a method over the research question. This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_10","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the main idea of the passage. The passage is about a large community science study that examined how butterfly color and weather conditions relate to butterfly behavior. The main idea must cover the study's central focus and its key finding, without adding or distorting information."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Collaboration between professional scientists and members of the public is especially useful when studying the behavior of butterflies...'</strong>: The passage mentions collaboration as a method, not as the point of the study. The main idea is about what the study found, not a claim that community science is especially useful for insect research. &#10007;</li><li><strong>Choice B &mdash; 'A recent study suggested that butterflies' coloring seems to be less relevant to their behavior than weather conditions.'</strong>: This reverses the finding. The passage says butterfly color might influence behavior more than butterfly size does — it never ranks color below weather conditions. &#10007;</li><li><strong>Choice C &mdash; 'Weather conditions and butterfly color seem to have less influence on butterfly behavior than the location where the butterflies are studied does.'</strong>: Location is never mentioned in the passage. This introduces outside information that contradicts what the text actually reports. &#10007;</li><li><strong>Choice D &mdash; 'A large study suggested that butterfly color and weather conditions might influence the behavior of certain butterflies.'</strong>: This accurately captures that the study was large, that it examined the relationship between color, weather, and behavior, and uses appropriately hedged language (\"might influence\"). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

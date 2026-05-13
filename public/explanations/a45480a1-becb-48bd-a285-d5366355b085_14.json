@@ -1,15 +1,1 @@
-{
-  "questionId": "a45480a1-becb-48bd-a285-d5366355b085_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the baseline principle",
-      "content": "Humans perceive dilated pupils positively and constricted pupils negatively \u2014 the principle the study tests on dogs."
-    },
-    {
-      "title": "Apply the principle to the data",
-      "content": "The table shows participants rated dogs with large-appearing pupils (light irises) more favorably than dogs with small-appearing pupils (dark irises) across all measured traits. This demonstrates the pupil-perception preference extends from people to dogs.<br/><br/>Choice C states this conclusion. The other options either deny any relationship exists (D), reverse the data (B), or make claims about actual size unsupported by the table (A).<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a45480a1-becb-48bd-a285-d5366355b085_14","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that humans perceive dilated pupils positively and constricted pupils negatively. Dogs with dark irises make their pupils appear larger. The blank must state what the study's findings suggest, supported by the table data."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'differences in dogs' pupil size may elicit a stronger response...'</strong>: Claims participants couldn't distinguish between actually large and apparently large pupils. The study doesn't compare dogs with people on response strength &mdash; this is unsupported. &#10007;</li><li><strong>Choice B &mdash; 'iris color in domestic dogs may be an adaptation...'</strong>: Reverses the data. It claims participants responded more negatively to dogs with dark irises (large-appearing pupils), but the table shows the opposite &mdash; those dogs were rated more favorably. &#10007;</li><li><strong>Choice C &mdash; 'humans' responses to pupil size in other people may extend to dogs...'</strong>: Correctly states that participants responded more positively to dogs whose dark irises made their pupils appear large, mirroring how humans respond to dilated pupils in people. Matches the table and the principle. &#10003;</li><li><strong>Choice D &mdash; 'humans may not be as sensitive to pupil size in dogs...'</strong>: Claims participants' responses showed no relationship to iris shade. This directly contradicts the table, which shows a clear difference in ratings. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

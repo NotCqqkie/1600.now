@@ -1,1 +1,15 @@
-{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the quotation must show", "content": "The claim focuses on May's puzzlement about Newland's reluctance. The quotation must directly show this puzzlement — that May doesn't understand his behavior."}, {"title": "Find the quotation that demonstrates May's puzzlement", "content": "Choice C shows exactly this: “May herself could not understand [Newland's] obscure reluctance.” The phrase “could not understand” directly expresses her puzzlement about his behavior.<br/><br/>Choices A, B, and <ul><li>D lack this: A is merely a factual detail about the archery club</li><li>B characterizes May's general nature without addressing her current confusion</li><li>D describes Newland's internal excitement rather than May's inability to grasp his reluctance</li></ul>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The claim to illustrate is that May is puzzled by Newland's lack of enthusiasm for Newport. The correct quotation must show May's own confusion or inability to understand his reluctance — not just background facts or Newland's feelings."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '\"The Newport Archery Club always held its August meeting at the Beauforts\\'.\"'</strong>: A factual detail about the archery club's schedule. Says nothing about May's state of mind. &#10007;</li><li><strong>Choice B &mdash; '\"[May] represented peace, stability, comradeship, and the steadying sense of an unescapable duty.\"'</strong>: Describes how Newland perceives May's general character — not her puzzlement about his behavior. &#10007;</li><li><strong>Choice C &mdash; '\"May herself could not understand [Newland\\'s] obscure reluctance to fall in with so reasonable and pleasant a way of spending the summer.\"'</strong>: \"Could not understand\" directly expresses May's puzzlement about Newland's reluctance — exactly the claim being illustrated. &#10003;</li><li><strong>Choice D &mdash; '\"[Newland] had the feeling of unexplained excitement with which, on half-holidays at school, he used to start off into the unknown.\"'</strong>: Describes Newland's internal feeling, not May's confusion about his behavior. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

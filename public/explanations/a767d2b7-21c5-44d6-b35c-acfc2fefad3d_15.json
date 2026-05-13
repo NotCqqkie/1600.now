@@ -1,15 +1,1 @@
-{
-  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent",
-      "content": "The blank fills \"As a result, _____ will begin to combust.\" The antecedent is \"the substance\" (coconut oil), introduced two sentences earlier as a singular noun."
-    },
-    {
-      "title": "Rule: a pronoun must match its antecedent in number and function",
-      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"they\"</strong> — plural pronoun; \"the substance\" is singular. Agreement fails. Incorrect.<br/><br/><strong>B. \"it\"</strong> — singular pronoun matching singular \"the substance.\" Substitution: \"the substance will begin to combust\" — meaning holds. Correct.<br/><br/><strong>C. \"those\"</strong> — plural demonstrative; does not agree with singular \"the substance.\" Incorrect.<br/><br/><strong>D. \"that\"</strong> — singular demonstrative, but \"that\" is used to point to something more distant or to introduce a clause, not as the standard subject pronoun for a previously named substance. \"It\" is the conventional choice. Incorrect.<br/><br/><strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a767d2b7-21c5-44d6-b35c-acfc2fefad3d_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the subject of \"_____ will begin to combust.\" The antecedent is \"the substance\" (coconut oil) — a singular noun introduced two sentences earlier. The pronoun must be singular and function as a subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'they'</strong>: plural subject pronoun. \"The substance\" is singular. Number agreement fails. &#10007;</li><li><strong>Choice B &mdash; 'it'</strong>: singular subject pronoun. Matches singular \"the substance\" in both number and grammatical function. Substituting: \"the substance will begin to combust\" — meaning holds perfectly. &#10003;</li><li><strong>Choice C &mdash; 'those'</strong>: plural demonstrative pronoun. Does not agree with singular \"the substance.\" &#10007;</li><li><strong>Choice D &mdash; 'that'</strong>: singular demonstrative, but \"that\" points to something more remote or introduces a relative clause — it is not the standard pronoun used to refer back to a previously named substance as a simple subject. \"It\" is the correct pronoun for a previously introduced singular thing. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

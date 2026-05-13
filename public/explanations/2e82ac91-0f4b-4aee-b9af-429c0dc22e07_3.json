@@ -1,15 +1,1 @@
-{
-  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The dash introduces: \"the museum staff consulted numerous sources to ensure the accuracy of the displays.\" This shows the research was thorough and carefully done."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Define: the blank names a positive quality of the research, evidenced by consulting numerous sources to ensure accuracy — strict, careful thoroughness. Substitute each choice: <strong>A) rigor</strong> of the research — rigor means exactness and careful attention to detail; fits the evidence of thorough sourcing. <strong>B) obscurity</strong> of the research — obscurity means being unknown or unclear, which contradicts the praise in the sentence; eliminated. <strong>C) shallowness</strong> of the research — shallowness is the opposite of thorough; directly contradicted by \"numerous sources\"; eliminated. <strong>D) novelty</strong> of the research — novelty means newness or originality, not carefulness; nothing in the text signals this quality; eliminated. Verdict: <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank names a quality of the research that makes the museum displays notable. The dash introduces the evidence: \"the museum staff consulted numerous sources to ensure the accuracy of the displays.\" The correct word must describe careful, thorough attention to getting things right."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rigor'</strong>: Rigor means exactness and careful, disciplined attention to detail. Consulting numerous sources to ensure accuracy is the definition of rigorous research. Fits precisely. &#10003;</li><li><strong>Choice B &mdash; 'obscurity'</strong>: Obscurity means being little known or unclear. Nothing in the passage suggests the research is hidden or unknown — the whole sentence praises it. Contradicts the positive framing. &#10007;</li><li><strong>Choice C &mdash; 'shallowness'</strong>: Shallowness is the direct opposite of consulting numerous sources to ensure accuracy. The passage explicitly says the research was thorough. &#10007;</li><li><strong>Choice D &mdash; 'novelty'</strong>: Novelty means newness or originality. The passage gives no indication that the research was innovative or unprecedented — only that it was careful and accurate. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
