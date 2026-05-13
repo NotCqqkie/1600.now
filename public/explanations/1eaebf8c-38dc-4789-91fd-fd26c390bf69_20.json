@@ -1,15 +1,1 @@
-{
-  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_20",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its number",
-      "content": "The subject of the sentence is <strong>lost works</strong> (plural noun). The parenthetical phrase \u201cno copy of which exists\u201d is set off by dashes and doesn't change the subject number. The verb must agree with <strong>lost works</strong>."
-    },
-    {
-      "title": "Match the verb to the plural subject",
-      "content": "A plural subject requires a plural verb. <strong>Have become</strong> is the only plural form among the choices, matching the plural subject. B, C, and D are all singular verbs, which violate subject-verb agreement with the plural subject. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1eaebf8c-38dc-4789-91fd-fd26c390bf69_20","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a subject-verb agreement question. Find the grammatical subject of the blank, determine its number (singular or plural), and pick the verb form that matches. Ignore any intervening phrases set off by dashes."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'have become'</strong>: The subject is \"lost works\" (plural). The parenthetical phrase \"no copy of which exists\" is set off by dashes and does not change the subject. \"Have become\" is the plural present-perfect form and agrees with \"lost works.\" &#10003;</li><li><strong>Choice B &mdash; 'becomes'</strong>: Third-person singular simple present. Agrees with a singular subject, not with the plural \"lost works.\" &#10007;</li><li><strong>Choice C &mdash; 'has become'</strong>: Third-person singular present perfect. Also requires a singular subject. &#10007;</li><li><strong>Choice D &mdash; 'is becoming'</strong>: Third-person singular present progressive. Does not agree with the plural \"lost works.\" &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

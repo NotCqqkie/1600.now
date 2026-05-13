@@ -1,15 +1,1 @@
-{
-  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_8",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrasting claims about full-time work",
-      "content": "Lorde states that poets can write \u201cbetween shifts, in the hospital pantry, on the subway\u201d\u2014practicing poetry does not require the uninterrupted time other arts demand.<br/><br/>Text 2 argues that publishing requires \u201cextensive practice,\u201d which requires time \u201cnot often available to those who must also work full-time jobs.\u201d<br/><br/>These claims directly oppose each other: Lorde's position assumes full-time work doesn't block poetry, while Text 2's assumes it does."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "To question D, Lorde answers no\u2014poetry is uniquely flexible\u2014while Text 2 answers yes\u2014full-time jobs prevent extensive practice. Choices A, B, and C don't create opposing answers. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which question the two authors would most likely disagree about answering. A correct disagreement question must produce opposite yes/no answers from each text: Text 1 says one thing; Text 2 says the opposite."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Do other art forms than poetry require substantial investments of time and money?'</strong>: Both texts implicitly agree that other art forms demand more resources. No real disagreement. &#10007;</li><li><strong>Choice B &mdash; 'Should poets try to gain experience working in nonartistic fields as a way of improving their poetry?'</strong>: Neither text addresses this prescription. No basis for disagreement. &#10007;</li><li><strong>Choice C &mdash; 'Does professional training in poetry affect the quality of poets' work?'</strong>: Text 1 does not address training or quality; Text 2 mentions professional training only as a barrier to publication, not a quality judgment. No clear opposition. &#10007;</li><li><strong>Choice D &mdash; 'Is working a full-time job a major impediment to practicing the art of poetry?'</strong>: Text 1 answers no &mdash; Lorde argues poets can write \"between shifts, in the hospital pantry, on the subway,\" so full-time work is not a block. Text 2 answers yes &mdash; extensive practice \"requires time not often available to those who must also work full-time jobs.\" Direct opposition. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
