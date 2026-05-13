@@ -1,1 +1,15 @@
-{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_13", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Recognize the paradox", "content": "The passage reports a paradox: CLPs, which are shielded during transmission, declined as temperatures rose, while directly transmitted parasites, which are exposed to conditions, remained stable.<br/><br/>This finding contradicts the expectation that shielding provides temperature protection, revealing that CLPs' transmission advantage is insufficient."}, {"title": "Apply the signal to the choices", "content": "B explains the paradox by showing that CLPs have a transmission advantage, but other temperature-driven factors overcome this protection—accounting for their decline despite their shielding strategy.<br/><br/>The other choices either reverse the relationship between shielding and protection (A), compare transmission strategies the passage never discusses (C), or contradict the passage's characterization of directly transmitted parasites as exposed (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage ends with &ldquo;suggesting that ______&rdquo; and the correct completion must logically follow from the paradox: CLPs, which are shielded during transmission, <em>declined</em> as temperatures rose, while directly transmitted parasites, which are exposed to the environment, remained stable. The answer must explain why shielded CLPs still declined."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'as the number of host species increases, the parasite is better protected against rising temperatures'</strong>: this contradicts the data &mdash; three-host CLPs (more host species) declined more, not less. &#10007;</li><li><strong>Choice B &mdash; 'any advantages that the transmission strategy used by three-host CLPs may have conferred did not completely offset the negative effects of other temperature-driven factors on CLP abundance'</strong>: this directly explains the paradox &mdash; shielding is an advantage, but other temperature-driven effects on CLPs outweighed it, causing their decline. &#10003;</li><li><strong>Choice C &mdash; 'CLPs primarily transmitted by ingestion were less dependent on host species adversely affected by warming'</strong>: the passage does not distinguish among CLPs by transmission sub-type, and this comparison is not supported by the study's data. &#10007;</li><li><strong>Choice D &mdash; 'directly transmitted parasites were more likely to use strategies that shield them from warming'</strong>: this contradicts the passage, which states that directly transmitted parasites are <em>exposed</em> to external conditions, not shielded. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

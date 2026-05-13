@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_8", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the pattern", "content": "Both examples follow the same pathway: an Indigenous language (Nahuatl for “coyote,” Quechua for “llama”) → Spanish → English. The passage is consistently showing Spanish as an intermediary."}, {"title": "Determine Spanish's function", "content": "This pathway—Indigenous language → Spanish → English—is precisely what “serving as a medium” means.<br/><br/>The other choices either misrepresent Spanish's connection to Indigenous languages (A claims a reciprocal exchange; D treats Spanish as an equivalent contributor rather than an intermediary) or overgeneralize from two examples (B).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks what point the author makes about Spanish. Trace both examples in the passage: \"coyote\" traveled Nahuatl → Spanish → English, and \"llama\" traveled Quechua → Spanish → English. In both cases Spanish sits in the middle, passing an Indigenous word along to English. The correct answer must capture that intermediary role."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It has borrowed words from Indigenous languages and contributed words to them.'</strong>: The passage shows Spanish borrowing from Indigenous languages, but nothing in the passage says Spanish contributed words back to those languages. The second half of this claim is not supported. &#10007;</li><li><strong>Choice B &mdash; 'It adopted Nahuatl and Quechua words in approximately equal numbers.'</strong>: The passage gives exactly one example from each language. Two examples cannot support a claim about proportions or equality across the whole vocabulary. This overgeneralizes. &#10007;</li><li><strong>Choice C &mdash; 'It has served as a medium through which Indigenous languages have influenced English.'</strong>: Both examples follow the same path: Indigenous language → Spanish → English. Spanish is the medium — the passage explicitly says each word \"entered English through Spanish.\" This matches the passage exactly. &#10003;</li><li><strong>Choice D &mdash; 'Its contribution to English vocabulary roughly equals the collective contribution by Indigenous languages.'</strong>: The passage never compares the size of Spanish’s and Indigenous languages’ contributions to English. No proportional claim is made anywhere. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

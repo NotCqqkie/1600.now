@@ -1,1 +1,24 @@
-{"questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structure", "content": "The blank sits between two independent clauses connected by the conjunctive adverb <strong>however</strong>: <em>Compiling isn't exclusive to certain programming languages</em> and <em>any language can incorporate this tool</em>."}, {"title": "Apply the punctuation rule", "content": "Choice D uses the punctuation pattern keyed as correct for joining these clauses with <strong>however</strong>.<br/><br/>The other three options each fail: A and C produce structures that the official key rejects for this item, and B creates a comma splice with only commas surrounding <em>however</em>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_19",
+  "correctAnswer": "D",
+  "needs_review": true,
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank sits between two independent clauses: &ldquo;Compiling isn't exclusive to certain programming languages&rdquo; and &ldquo;any language can incorporate this tool.&rdquo; The contrast word <em>however</em> must be punctuated correctly relative to both clauses."
+    },
+    {
+      "title": "Two competing readings",
+      "content": "<ul><li><strong>Reading 1 (favors A &mdash; 'languages; however,')</strong>: Treat <em>however</em> as a conjunctive adverb introducing the second clause. The textbook rule is semicolon-before, comma-after: <em>X; however, Y.</em> This is the standard, idiomatic pattern taught in nearly every grammar handbook and is the most common SAT answer shape for this structure.</li><li><strong>Reading 2 (favors D &mdash; 'languages, however;')</strong>: Treat <em>however</em> as a trailing parenthetical sentence adverb attached to the <em>end</em> of the first clause &mdash; &ldquo;Compiling isn't exclusive to certain programming languages, however&rdquo; &mdash; with the semicolon then performing the independent-clause join to &ldquo;any language can incorporate this tool.&rdquo; Under this reading, the comma sets off the parenthetical <em>however</em> from its host clause and the semicolon does the boundary work between the two independent clauses.</li></ul>"
+    },
+    {
+      "title": "Eliminate B and C",
+      "content": "<ul><li><strong>Choice B &mdash; 'languages, however,'</strong>: A comma on each side of <em>however</em> leaves only a comma between two independent clauses, producing a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'languages. However,'</strong>: Grammatically legal as two sentences, but the surrounding passage punctuates this as a single sentence and Standard English Conventions items typically have exactly one fully correct answer. &#10007;</li></ul>"
+    },
+    {
+      "title": "Why this item is flagged",
+      "content": "The official key records <strong>D</strong>. Choice A reflects the more standard and widely taught pattern for joining two independent clauses with the conjunctive adverb <em>however</em> (semicolon-before, comma-after). Choice D is defensible only if you read <em>however</em> as a trailing parenthetical on the first clause rather than as an introductory conjunctive adverb on the second &mdash; a less common but not impossible parsing. Because both readings have grammatical support and reasonable test-prep sources would flag A as the canonical answer, this item is retained as <em>needs_review</em>. On the actual exam, trust the College Board key (D); for general writing, prefer the A pattern."
+    }
+  ]
+}

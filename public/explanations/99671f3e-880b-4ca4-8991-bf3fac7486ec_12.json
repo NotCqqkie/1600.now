@@ -1,1 +1,15 @@
-{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_12", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the claim requires", "content": "The claim says Toomer uses <strong>figurative language</strong> to <strong>connect</strong> urban DC with the rural South. The right quotation must do both: be figurative <em>and</em> link the two settings."}, {"title": "Match to the choice", "content": "<strong>(C)</strong> uses a simile (<em>\"falls like a fertile shower\"</em>) and explicitly connects the rural South (\"soil of my homeland\") with urban DC (\"lean streets of [Washington, DC]\"). It hits both parts.<br/><br/>(A), (B), and (D) describe the urban setting but don't link it figuratively to the rural South.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The claim has two requirements: the quotation must use figurative language, and it must connect the urban setting of Washington, DC with the rural South of the narrator's past. Any choice missing either element is wrong."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '\"The [train] engines of this valley have a whistle, the echoes of which sound like iterated gasps and sobs. I always think of them as crude music.\"'</strong>: Uses a simile (\"crude music\"), but the setting is a valley &mdash; this does not explicitly connect DC to the rural South. &#10007;</li><li><strong>Choice B &mdash; '\"I saw the dawn steal over Washington [DC].\"'</strong>: \"Steal\" is mildly figurative, but the line describes only DC and makes no connection to the rural South. &#10007;</li><li><strong>Choice C &mdash; '\"And when the wind is from the South, soil of my homeland falls like a fertile shower upon the lean streets of [Washington, DC].\"'</strong>: Contains a simile (\"falls like a fertile shower\") and explicitly links the rural South (\"soil of my homeland\") to urban DC (\"lean streets of [Washington, DC]\"). Both requirements are met. &#10003;</li><li><strong>Choice D &mdash; '\"A band in one of the buildings a fair distance off was playing a march. I wished they would stop. Their playing was like a tin spoon in one's mouth.\"'</strong>: Uses a simile, but the setting is urban only &mdash; no connection to the rural South is made. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

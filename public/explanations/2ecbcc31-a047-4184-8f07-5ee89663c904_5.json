@@ -1,1 +1,15 @@
-{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the structure's turning point", "content": "The word <strong>Still</strong> at the start of the final sentence marks the passage's shift from introducing and explaining benefits of a customization trend to presenting a challenge companies face."}, {"title": "Match the structure to the choices", "content": "Choice D names the trend (customization) and correctly identifies that the passage explains both its benefits (companies profit, consumers willing to pay more) and its challenges (difficulty keeping costs low).<br/><br/>The other three misidentify the passage's content—focusing on manufacturing innovations, a company's success story, or marketing techniques—none of which appear here.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the best description of the <em>overall structure</em> of the text. Map what each part does: the first three sentences introduce a customization trend and its benefits; the final sentence (signaled by <strong>Still</strong>) introduces a challenge companies face."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'several recent innovations in product manufacturing'</strong>: the passage discusses one trend (customization), not multiple manufacturing innovations. &#10007;</li><li><strong>Choice B &mdash; 'a company’s recent success'</strong>: no single company is described, and no specific company’s success story is told. &#10007;</li><li><strong>Choice C &mdash; 'two contrasting product-marketing techniques'</strong>: the passage does not compare two marketing techniques or give examples of one of them. &#10007;</li><li><strong>Choice D &mdash; 'introduces a trend in consumer products and then explains how the trend both benefits and poses a challenge to companies'</strong>: the first three sentences introduce the customization trend and explain that companies profit and consumers pay more; the final sentence introduces the challenge of keeping costs low. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the structures", "content": "The left side “many are still well” is an independent clause with a linking verb that needs a predicate adjective. The right side “Fama Diagne Sène, for example, is a celebrated playwright from Senegal” is a complete independent clause."}, {"title": "Apply the punctuation rule", "content": "A colon introduces an example after an independent clause. The choice “known:” completes the first clause and uses the colon to introduce the supporting example.<br/><br/>Choices B, C, and <ul><li>D all fail: B creates faulty coordination</li><li>C creates a comma splice</li><li>D creates a fused sentence</li></ul>.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "5d3f0045-ceeb-4690-b839-fe80816d237c_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank ends one independent clause (&ldquo;many are still well ______&rdquo;) and must connect it to the next independent clause (&ldquo;Fama Diagne S&egrave;ne, for example, is a celebrated playwright from Senegal&rdquo;). The second clause is an example that supports the first, so the punctuation must legally join two independent clauses while introducing that example."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'known:'</strong>: a colon after an independent clause correctly introduces an example or elaboration. &ldquo;many are still well known: Fama Diagne S&egrave;ne, for example&hellip;&rdquo; is grammatically complete and logical. &#10003;</li><li><strong>Choice B &mdash; 'known and'</strong>: &ldquo;and&rdquo; is a coordinating conjunction, but it creates faulty coordination because &ldquo;many are still well known&rdquo; and the second clause are not parallel in meaning &mdash; the second clause is an example, not a coordinate idea. &#10007;</li><li><strong>Choice C &mdash; 'known,'</strong>: a comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice D &mdash; 'known'</strong>: no punctuation at all between two independent clauses creates a fused (run-on) sentence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

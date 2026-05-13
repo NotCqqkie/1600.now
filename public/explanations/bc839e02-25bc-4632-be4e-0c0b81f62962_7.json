@@ -1,1 +1,15 @@
-{"questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the disagreement", "content": "Text 2 argues that full-time work prevents poetry practice. Lorde's position is opposite: poets can develop their craft while working other jobs."}, {"title": "Apply the signal to the choices", "content": "Choice B directly states Lorde's counter-argument: people can gain poetry experience while working full-time jobs.<br/><br/>The other three address topics—earning from poetry, funding training, or specializing in multiple art forms—that Lorde doesn't engage with.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Cross-Text Connections question: use only what Text 1 says about Lorde's view to evaluate which answer she would use to push back against Text 2's argument. Text 2 argues that full-time workers lack the time needed to develop as poets. Lorde's rebuttal must come from her stated position in Text 1."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'those poets who publish in major journals are most likely to earn a living by writing poetry'</strong>: Lorde says nothing about publishing in major journals or earning a living from poetry. Off-topic. &#10007;</li><li><strong>Choice B &mdash; 'people can gain experience writing poetry while also working full-time jobs'</strong>: Lorde explicitly says poets can write &ldquo;between shifts, in the hospital pantry, on the subway, on scraps of surplus paper&rdquo; &mdash; a direct claim that full-time work does not block poetry practice. This is the natural counter to Text 2. &#10003;</li><li><strong>Choice C &mdash; 'people work full-time jobs in order to afford professional training in writing poetry'</strong>: Lorde does not mention funding or professional training at all. &#10007;</li><li><strong>Choice D &mdash; 'artists who specialize in more financially rewarding forms are unlikely to also be successful poets'</strong>: Lorde makes no comparison between art forms in terms of financial reward or success rates. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

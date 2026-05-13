@@ -1,1 +1,15 @@
-{"questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the crucial contrast", "content": "Henry found investment increases within three years of liberalization, but Levine and Zervos found these increases were “not enduring.” The contrast between short-term growth and lack of endurance is the decisive signal."}, {"title": "Apply to find the answer", "content": "Choice D—”liberalization may provide a boost to investment that fades over time”—directly captures both findings: Henry's short-term surge is the temporary boost, and Levine and Zervos's non-endurance is the fade.<br/><br/>The other choices either contradict the evidence, misread the timeline, or assume unstated information.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is an Inferences question: the blank must follow logically from both studies taken together. Levine and Zervos found liberalization did not lead to enduring increases in investment. Henry found investment increased significantly in the three years after liberalization. The correct answer must reconcile both findings — a short-term rise that does not last."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'investment growth is likely to be more consistent in countries that liberalize than in countries that do not.'</strong>: Neither study compares liberalized countries to non-liberalized countries. Levine and Zervos explicitly found increases were not enduring, which contradicts \"consistent.\" &#10007;</li><li><strong>Choice B &mdash; 'companies typically do not benefit from liberalization until at least three years after liberalization occurs.'</strong>: Henry found significant increases within three years — not after three years. This misreads the timeline and contradicts Henry's finding. &#10007;</li><li><strong>Choice C &mdash; 'economists' expectations about the effect of liberalization on investment were largely correct.'</strong>: The passage does not describe what economists expected. No prior expectation is stated for us to compare the results against. &#10007;</li><li><strong>Choice D &mdash; 'liberalization may provide a boost to investment that fades over time.'</strong>: \"A boost\" captures Henry's finding of significant increases in the first three years. \"Fades over time\" captures Levine and Zervos's finding that increases were not enduring. Both findings are accounted for, with no unsupported claims added. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

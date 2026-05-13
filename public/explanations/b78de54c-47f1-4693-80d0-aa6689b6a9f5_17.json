@@ -1,1 +1,15 @@
-{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures", "content": "Left side of blank: an independent clause—<strong>“attempts to make use of the entire visual light spectrum.”</strong><br/>Right side: a participial phrase—<strong>“sporting rainbow-striped goggles”</strong>—followed by an independent clause—<strong>“the rainbow-hued swimmer splashes through a wavy rainbow of water.”</strong>"}, {"title": "Apply the punctuation rule", "content": "A colon introduces an elaboration or illustration. Here, the colon separates the main statement from the descriptive details that explain how the painting achieves its visual effect.<br/><br/>Options A and D misuse <strong>while,</strong> which cannot properly govern a participial phrase followed by an independent clause, and option C omits the necessary boundary punctuation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank falls at the end of the first independent clause: \"...attempts to make use of the entire visual light [spectrum ___].\" What follows is a participial phrase (\"sporting rainbow-striped goggles\") attached to a second independent clause. The blank must provide punctuation that correctly separates the first independent clause from the elaborating material that follows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'spectrum, while'</strong>: \"While\" introduces a subordinate clause, but what follows begins with a participial phrase, not a subject + verb. This creates a grammatical mismatch. &#10007;</li><li><strong>Choice B &mdash; 'spectrum:'</strong>: A colon correctly signals that what follows elaborates on or illustrates the preceding independent clause. The description of the rainbow-striped swimmer illustrates how the painting uses the full visual light spectrum. &#10003;</li><li><strong>Choice C &mdash; 'spectrum'</strong>: No punctuation leaves the first independent clause fused directly to the participial phrase and second clause — a run-on. &#10007;</li><li><strong>Choice D &mdash; 'spectrum while'</strong>: Same problem as A, but now without even a comma before \"while.\" &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

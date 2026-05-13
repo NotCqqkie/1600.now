@@ -1,1 +1,15 @@
-{"questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot 'contributed by incorporating'", "content": "The phrase 'contributed...by incorporating pop melodies into it' shows that Charli XCX is adding a new element to the hyper pop sound."}, {"title": "Match the function", "content": "The sentence identifies an artist and her stylistic contribution to the genre, which is exactly what choice D describes.<br/><br/>Choices A, B, and <ul><li>C all misread the function — A wrongly claims no change</li><li>B invents criticism</li><li>C overstates the evolution claim</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the function of the underlined sentence. Determine what the sentence does in relation to the rest of the passage &mdash; does it introduce, contrast, extend, or evaluate?"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It asserts that the hyper pop sound hasn’t changed, even though new artists have adopted it.'</strong>: Wrong direction. The sentence says Charli XCX <em>contributed to</em> the sound <em>by incorporating pop melodies</em> &mdash; that is a change, not stasis. &#10007;</li><li><strong>Choice B &mdash; 'It criticizes a later hyper pop artist for being too similar to an earlier hyper pop artist.'</strong>: No criticism anywhere in the sentence &mdash; it simply states a contribution. &#10007;</li><li><strong>Choice C &mdash; 'It praises a particular hyper pop artist for consistently evolving through the years.'</strong>: The sentence mentions one contribution, not a track record of consistent evolution, and there is no evaluative praise. &#10007;</li><li><strong>Choice D &mdash; 'It identifies an artist who has contributed a new stylistic element to the hyper pop sound.'</strong>: The sentence names Charli XCX and states she added pop melodies &mdash; a new stylistic element &mdash; to the existing hyper pop sound. That is exactly what D says. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

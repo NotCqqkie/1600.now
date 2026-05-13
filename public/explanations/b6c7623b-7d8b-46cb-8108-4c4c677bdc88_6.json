@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The “For instance” phrase explicitly signals that an example is about to follow."}, {"title": "Apply the signal to the choices", "content": "Ornithomimus is the specific example that illustrates the previous sentence's claim about wingless dinosaurs having feathers.<br/><br/>The other three describe functions that don't happen: explaining a debate, pointing out weaknesses, or identifying researchers.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the function of the underlined sentence within the passage. Look for what role the sentence plays relative to the sentence before it. The phrase “For instance” is a direct signal that an example is coming."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; ‘It explains the scientific debate about the finding discussed in the previous sentence.’</strong>: The sentence introduces one finding about Ornithomimus, not a debate between competing views. &#10007;</li><li><strong>Choice B &mdash; ‘It points out several weaknesses in the theory presented in the previous sentence.’</strong>: The sentence supports the previous claim; it does not criticize it. &#10007;</li><li><strong>Choice C &mdash; ‘It identifies the researchers who made the discovery mentioned in the previous sentence.’</strong>: No researchers are named. &#10007;</li><li><strong>Choice D &mdash; ‘It provides a specific example of the dinosaurs described in the previous sentence.’</strong>: The previous sentence states that many wingless dinosaurs had feathers; this sentence gives Ornithomimus as a specific case of exactly that. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

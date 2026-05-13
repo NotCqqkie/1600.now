@@ -1,1 +1,15 @@
-{"questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast between the sentences", "content": "Sentence 1 says kyudo was <strong>not</strong> a medal sport. Sentence 2 says it <strong>was</strong> featured, but as a demonstration sport — a qualification that corrects the initial impression."}, {"title": "Find the transition that marks this contrast", "content": "<strong>Rather</strong> marks exactly this kind of contrast — it means “on the contrary” and signals when a second statement qualifies or corrects a first one.<br/><br/>The other three choices don't work: <strong>thus</strong> suggests consequence, <strong>additionally</strong> suggests adding more information in the same direction, and <strong>for example</strong> introduces an example.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "11ab7acb-9d06-445e-8071-b2cefe5234c2_22",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Sentence 1 says kyudo was not a medal sport. Sentence 2 says it was featured — but as a demonstration sport. The second sentence corrects or qualifies the first: it pushes back on the impression that kyudo had no presence at the Games. The transition must mark that contrast."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Thus,'</strong>: \"Thus\" signals a consequence or conclusion drawn from what came before. Being a demonstration sport is not a consequence of not being a medal sport. &#10007;</li><li><strong>Choice B &mdash; 'Rather,'</strong>: \"Rather\" means \"on the contrary\" and marks a correction or qualification of the previous statement — exactly what the second sentence does. &#10003;</li><li><strong>Choice C &mdash; 'Additionally,'</strong>: \"Additionally\" adds a point in the same direction. The second sentence does not simply add more of the same; it qualifies the first. &#10007;</li><li><strong>Choice D &mdash; 'For example,'</strong>: \"For example\" introduces an illustration of a general claim. The second sentence is not an example of kyudo not being a medal sport. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}
