@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key evidence",
-      "content": "The crucial evidence is that clam size and abundance increased when the Kwakwaka'wakw terraced garden practice was implemented. This measurable increase directly demonstrates the practice's effectiveness."
-    },
-    {
-      "title": "Connect to the correct conclusion",
-      "content": "Choice A directly captures what this evidence supports: the practice was effective at maintaining the resource and promoted its robustness. The other three all introduce claims beyond what the passage establishes. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_14","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says archaeological evidence of &quot;significant increases in clam size and abundance&quot; concurrent with the Kwakwaka&apos;wakw terraced garden practice &quot;supports the conclusion that ______.&quot; The correct conclusion must be directly supported by that specific evidence &mdash; larger, more abundant clams &mdash; and nothing beyond it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; the practice...not only effectively maintained a food source but also promoted its robustness</strong>: increased size and abundance directly show the clam population was maintained and grew stronger. This is exactly what the evidence supports. &#10003;</li><li><strong>Choice B &mdash; non-Indigenous people...adopted the practice after observing its efficacy</strong>: the passage says nothing about non-Indigenous adoption of the practice. This goes beyond the evidence. &#10007;</li><li><strong>Choice C &mdash; there is greater corroboration...of Kwakwaka&apos;wakw songs than of Temiar and Lakota songs</strong>: the passage never compares the archaeological support for different groups&apos; songs. Only the Kwakwaka&apos;wakw evidence is discussed. &#10007;</li><li><strong>Choice D &mdash; contemporary Kwakwaka&apos;wakw people no longer implement those methods</strong>: the passage gives no information about whether the practice is still used today. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the central question both texts address",
-      "content": "Both texts examine why the Norse abandoned Greenland. Text 1 attributes the abandonment to temperature decline during the Little Ice Age; Text 2 proposes drought as the more significant cause. Despite disagreeing on the reason, both texts focus on the same event: the abandonment itself."
+      "title": "Identify what the question needs",
+      "content": "Both texts discuss the Norse settlement in Greenland, but they disagree on why it ended: Text 1 blames temperature decline during the Little Ice Age, while Text 2 argues drought was the more significant cause. Despite that disagreement, both are focused on the same event: the departure of the Norse from Greenland."
     },
     {
-      "title": "Match to the answer",
-      "content": "B directly identifies the shared focus: the abandonment of the Norse settlement in Greenland. <br/> The others either describe details not mentioned in the texts or confuse a single explanation with the shared topic. <br/> This matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'The first artifacts found at a Norse settlement'</strong>: neither text mentions artifacts. &#10007;</li><li><strong>Choice B &mdash; 'The abandonment of the Norse settlement in Greenland'</strong>: both texts center on why the Norse left Greenland &mdash; this is the shared topic regardless of which cause each text emphasizes. &#10003;</li><li><strong>Choice C &mdash; 'The history of drought in Greenland'</strong>: drought appears only in Text 2 as one proposed cause; it is not the shared focus of both texts. &#10007;</li><li><strong>Choice D &mdash; 'The causes of the Little Ice Age'</strong>: the Little Ice Age is referenced in Text 1 as a cause of the abandonment, not as the subject being researched; Text 2 doesn't focus on it at all. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

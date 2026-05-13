@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the logical requirement",
-      "content": "The assertion \u201c31 was NOT the lowest count at any station\u201d demands evidence of a count smaller than 31."
+      "title": "Identify what the question needs",
+      "content": "The passage asserts that 31 blackspotted rockskippers at station 3 was <em>not</em> the lowest count at any station. To complete that assertion, the blank must supply a count that is lower than 31 &mdash; proving that some other species/station combination had a smaller total."
     },
     {
-      "title": "Match the data to the assertion",
-      "content": "Choice C cites 16 barred flagtails at station 3\u2014a count smaller than 31 that proves the claim. The others either misquote the table (A) or cite values larger than 31 (B and D), neither supporting the argument. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '16 streaky rockskippers at station 1'</strong>: 16 &lt; 31, so it could work in principle &mdash; but the table shows no entry of 16 streaky rockskippers at station 1. This misquotes the data. &#10007;</li><li><strong>Choice B &mdash; '610 streaky rockskippers at station 3'</strong>: 610 &gt; 31, so it is <em>higher</em> than the count in question &mdash; this would actually show 31 is <em>not</em> uniquely low, not prove it is not the lowest. &#10007;</li><li><strong>Choice C &mdash; '16 barred flagtails at station 3'</strong>: 16 &lt; 31, and the table confirms this count. A value below 31 at station 3 proves that 31 was not the lowest count there. &#10003;</li><li><strong>Choice D &mdash; '50 Cocos frillgobies at station 1'</strong>: 50 &gt; 31, so it is higher than 31 and does nothing to support the claim. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

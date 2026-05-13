@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject",
-      "content": "The subject is \"Mathematician Grigori Perelman\" — one person, singular. \"sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical phrase set off by commas; it does not change the subject."
-    },
-    {
-      "title": "Rule: singular subject requires singular verb",
-      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"is\"</strong> — singular present-tense verb. Perelman is credited — subject and verb agree. Correct.<br/><br/><strong>B. \"have been\"</strong> — plural present-perfect verb (they have been); disagrees with singular Perelman. Incorrect.<br/><br/><strong>C. \"are\"</strong> — plural present-tense verb; disagrees with singular Perelman. Incorrect.<br/><br/><strong>D. \"are being\"</strong> — plural progressive verb; disagrees with singular Perelman. Incorrect.<br/><br/><strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"dc78fb50-de84-439b-980f-0629b266ff8a_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence has a blank for the main verb. The subject is &quot;Mathematician Grigori Perelman&quot; &mdash; singular. &quot;Sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau&quot; is a parenthetical set off by commas and does not change the subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'is'</strong>: singular present-tense verb. Agrees with the singular subject &quot;Perelman.&quot; &#10003;</li><li><strong>Choice B &mdash; 'have been'</strong>: plural present-perfect verb. Disagrees with singular &quot;Perelman.&quot; &#10007;</li><li><strong>Choice C &mdash; 'are'</strong>: plural present-tense verb. Disagrees with singular &quot;Perelman.&quot; &#10007;</li><li><strong>Choice D &mdash; 'are being'</strong>: plural progressive verb. Disagrees with singular &quot;Perelman.&quot; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,1 +1,15 @@
-{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank appears between the subject “Wisconsin,” and the main verb “reaches,” with “1,372 feet in elevation” as the object of the blank. The structure requires a word type that allows the following phrase to modify the subject without creating a second independent clause."}, {"title": "Apply the participial phrase rule", "content": "A present participle forms a participial phrase that modifies the subject. <strong>Spanning</strong> “1,372 feet in elevation” correctly modifies Wisconsin when set off by commas.<br/><br/>The finite verbs (spans, span) would create a comma splice, and spanned cannot function as a participial modifier.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: <em>Wisconsin, ______ 1,372 feet in elevation, reaches its highest point at Timms Hill.</em> The subject is <em>Wisconsin</em> and the main verb is <em>reaches</em>. The blank is set off by commas between the subject and main verb, so it must form a participial phrase that modifies <em>Wisconsin</em> &mdash; not a second finite verb, which would create a comma splice."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'spans'</strong>: a finite present-tense verb &mdash; creates a comma splice with two independent clauses joined only by a comma. &#10007;</li><li><strong>Choice B &mdash; 'spanning'</strong>: a present participle &mdash; forms a participial phrase <em>spanning 1,372 feet in elevation</em> that correctly modifies <em>Wisconsin</em> without creating a second clause. &#10003;</li><li><strong>Choice C &mdash; 'span'</strong>: a finite verb (base form / third-person plural) &mdash; same comma-splice problem as A. &#10007;</li><li><strong>Choice D &mdash; 'spanned'</strong>: a past participle, but the action described is a current physical fact; more importantly, <em>spanned</em> would imply a passive or completed action, which does not fit the sentence&apos;s meaning. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

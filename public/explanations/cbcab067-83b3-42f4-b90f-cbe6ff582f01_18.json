@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "To the left of the blank: <strong>“Popper's theory”</strong> — a noun phrase serving as the subject.<br/><br/>To the right: <strong>“that scientific hypotheses must be refutable”</strong> (a noun clause), <strong>“termed the criterion of falsifiability”</strong> (a participial phrase), and then <strong>“rejects”</strong> governing a direct object."
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;Popper's theory ______ that scientific hypotheses must be refutable, termed the criterion of falsifiability, rejects the confirmationist position...&quot;<br/><br/>The main verb of this sentence is <strong>rejects</strong>. The blank must fill the slot between the subject (<em>Popper's theory</em>) and that main verb without creating a second, competing main verb."
     },
     {
-      "title": "Apply the structures to the choices",
-      "content": "The sentence already has one main verb: <strong>rejects</strong>. That means the blank cannot be another main verb — it must be a participial phrase modifying the subject.<br/><ul><li><strong>Dictating</strong> (C) — present participle: \"Popper's theory, <em>dictating</em> that…, <em>rejects</em>…\" — one main verb (<em>rejects</em>), correct.</li><li><strong>Was dictating</strong> (A) — past progressive main verb: creates two main verbs with no conjunction.</li><li><strong>Dictates</strong> (D) — simple present main verb: same double-verb problem.</li><li><strong>Dictated</strong> (B) — past tense main verb: same double-verb problem (a participial reading of <em>dictated</em> would require a passive structure that doesn't fit here).</li></ul>Only C keeps <em>rejects</em> as the sole main verb.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'was dictating'</strong>: past-progressive main verb. Creates two main verbs (<em>was dictating</em> and <em>rejects</em>) with no conjunction to join them &mdash; a run-on. &#10007;</li><li><strong>Choice B &mdash; 'dictated'</strong>: simple past main verb. Same double-main-verb problem; a participial reading of <em>dictated</em> would require a passive construction that doesn't fit here. &#10007;</li><li><strong>Choice C &mdash; 'dictating'</strong>: present participle. Produces &quot;Popper's theory, <em>dictating</em> that...falsifiability, <em>rejects</em>...&quot; &mdash; one main verb (<em>rejects</em>), with <em>dictating</em> as a participial phrase modifying the subject. &#10003;</li><li><strong>Choice D &mdash; 'dictates'</strong>: simple-present main verb. Same double-main-verb problem as A and B. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

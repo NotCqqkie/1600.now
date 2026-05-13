@@ -1,1 +1,15 @@
-{"questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the signal", "content": "The colon reveals that scholars have <strong>drawn connections linking</strong> modern Hawaiian writers to traditional Kanaka Maoli stories—this indicates a thematic thread bridging past and present."}, {"title": "Match the concept", "content": "Define: the blank names a feature of Hawaiian literature that is evidenced by scholars connecting modern writers to traditional Kanaka Maoli stories — a sustained link between past and present. Substitute each choice: <strong>A) subtlety</strong> — describes delicate or understated craft, not a historical connection across time; eliminated. <strong>B) sophistication</strong> — describes complexity or refinement, not a thematic thread linking eras; eliminated. <strong>C) continuity</strong> — means an unbroken connection over time; scholars tracing modern works back to traditional stories is the definition of continuity; fits perfectly. <strong>D) innovation</strong> — means novelty or newness, which is the opposite of linkage to tradition; eliminated. Verdict: <strong>C</strong> is correct."}]}
+{
+  "questionId": "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank fills &ldquo;thematic ______&rdquo; in a sentence that contrasts Hawaiian literature&rsquo;s heterogeneity with something it also has. The colon after the blank introduces the explanation: scholars link modern writers like Pukui and Pak to traditional Kanaka Maoli stories. The blank must name whatever that linking demonstrates &mdash; a sustained connection across time."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'subtlety'</strong>: means delicacy or understatedness. Scholars drawing links across generations is not evidence of subtlety. &#10007;</li><li><strong>Choice B &mdash; 'sophistication'</strong>: means complexity or refinement. The colon-evidence describes a historical thread, not sophistication. &#10007;</li><li><strong>Choice C &mdash; 'continuity'</strong>: means an unbroken connection over time. Scholars tracing modern works back to traditional Kanaka Maoli stories is exactly continuity &mdash; the same themes persist across generations. &#10003;</li><li><strong>Choice D &mdash; 'innovation'</strong>: means newness or novelty &mdash; the opposite of linkage to tradition. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

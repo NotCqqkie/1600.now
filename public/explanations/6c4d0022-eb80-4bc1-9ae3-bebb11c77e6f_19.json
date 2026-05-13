@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the clause and list structure",
-      "content": "Before the blank: independent clause stating that the poem contains three signature elements of Gwendolyn Brooks's poetic [word].<br/>After the blank: list items that are noun phrases, not independent clauses."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "Rule: a colon introduces a list or elaboration only after a complete independent clause. What follows here is a list of noun phrases (not an independent clause).<br/><br/><strong>A:</strong> \"...poetic style. Terse, compressed lines...\" \u2014 The period creates a fragment beginning with \"Terse.\" Incorrect.<br/><br/><strong>B:</strong> \"...poetic style; terse, compressed lines...\" \u2014 A semicolon must join two independent clauses. \"Terse, compressed lines\" is a noun phrase, not a clause. Incorrect.<br/><br/><strong>C:</strong> \"...poetic style: terse, compressed lines...\" \u2014 The colon follows the complete clause \"the poem contains three signature elements of Brooks's poetic style\" and correctly introduces the three-item list. <strong>Correct.</strong><br/><br/><strong>D:</strong> \"...poetic style, terse, compressed lines...\" \u2014 A comma alone cannot introduce a list after an independent clause. Incorrect."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank falls after &apos;poetic ____&apos; and before a list of three noun phrases (terse compressed lines; syncopated rhythms; keen attention to everyday life). The punctuation must introduce that list after a complete independent clause."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;style. Terse,&apos;</strong>: the period ends the sentence, leaving &apos;Terse, compressed lines &hellip;&apos; as a fragment with no main verb. &#10007;</li><li><strong>Choice B &mdash; &apos;style; terse,&apos;</strong>: a semicolon must join two independent clauses, but &apos;terse, compressed lines&apos; is a noun phrase, not a clause. &#10007;</li><li><strong>Choice C &mdash; &apos;style: terse,&apos;</strong>: the colon follows the complete independent clause &apos;the poem contains three signature elements of Brooks&apos;s poetic style&apos; and correctly introduces the three-item list. &#10003;</li><li><strong>Choice D &mdash; &apos;style, terse,&apos;</strong>: a single comma cannot introduce a list after an independent clause &mdash; it creates a run-on. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

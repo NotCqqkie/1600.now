@@ -1,15 +1,1 @@
-{
-  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the agreement point",
-      "content": "Both texts state that Meding and Zasoski\u2019s barriers separated the plants\u2019 root systems, thereby blocking root\u2011to\u2011root nutrient transfer."
-    },
-    {
-      "title": "Apply the agreement to the choices",
-      "content": "Choice A says the barriers effectively excluded root\u2011to\u2011root transmission, which matches exactly what both texts describe.<br/>The other three either add requirements not mentioned, claim sufficiency that the texts reject, or introduce unsupported claims about He and colleagues\u2019 results.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_7","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what both authors would most likely agree on. Text 1 says Meding and Zasoski used barriers to keep root systems separate, blocking root-to-root transfer. Text 2 also acknowledges those barriers separated the root systems, thereby excluding root-to-root transmission &mdash; even while criticizing the study on other grounds. The point of agreement is that the barriers did exclude root-to-root transfer."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'The barriers used in Meding and Zasoski&apos;s study effectively excluded root-to-root transmission of nutrients.'</strong>: Both texts confirm this: Text 1 describes it as a &quot;crucial step&quot; and Text 2 explicitly grants that the barriers separated root systems. &#10003;</li><li><strong>Choice B &mdash; 'A barrier that is impervious to both roots and fungal strands is necessary to evaluate nutrient transfer via a CMN.'</strong>: Text 2 suggests that liquid permeability is the remaining problem, not fungal-strand permeability, and Text 1 never raises this requirement. &#10007;</li><li><strong>Choice C &mdash; 'Excluding root-to-root transfer is sufficient to ensure any observed transfer must involve a CMN.'</strong>: Text 2 explicitly rejects this &mdash; it argues the permeable barrier could also allow liquid transfer. &#10007;</li><li><strong>Choice D &mdash; 'He and colleagues&apos; study did not find convincing evidence of nutrient transfer between individual plants.'</strong>: Neither text makes this claim about He and colleagues&apos; results. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining clue",
-      "content": "The phrase <em>leaves his signature</em> is the key. The noun \"signature\" — something created and marked — tells us that <em>leaves</em> must mean to write or create something visible."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Define: <em>leaves</em> here means to mark or put down something visible. Substitute each choice: <strong>A) Writes</strong> his signature — Gogol writes his name in brush strokes, which fits exactly. <strong>B) Switches</strong> his signature — switches means to change or swap, not to place a mark; eliminated. <strong>C) Allows</strong> his signature — allows means to permit, which makes no sense with a physical mark; eliminated. <strong>D) Promotes</strong> his signature — promotes means to advance or advertise, not to place a mark; eliminated. Verdict: <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks what &quot;leaves&quot; means as used in the passage. Gogol &quot;leaves his signature in fat brush strokes below paintings&quot; — the context is creating art, and the fat brush strokes are the means. The blank-equivalent word must describe placing or putting down a visible mark."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'Writes'</strong>: writes his signature in brush strokes — Gogol applies his name physically with paint, and writing fits placing a visible mark. &#10003;</li><li><strong>Choice B &mdash; 'Switches'</strong>: switches means to change or swap; you cannot switch a signature in brush strokes onto a painting. &#10007;</li><li><strong>Choice C &mdash; 'Allows'</strong>: allows means to permit; a signature cannot be permitted in brush strokes — it is created, not allowed. &#10007;</li><li><strong>Choice D &mdash; 'Promotes'</strong>: promotes means to advance or advertise; Gogol is not advertising his name, he is physically marking it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

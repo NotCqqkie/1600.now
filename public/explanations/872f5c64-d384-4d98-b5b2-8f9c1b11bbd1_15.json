@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the reanalysis finding",
-      "content": "The crucial signal is that Goldschmied found \u201cno evidence that red uniformed teams are more likely than other teams to win.\u201d This directly contradicts the Attrill study's explanation for Manchester United's success."
+      "title": "Identify what the question needs",
+      "content": "Goldschmied et al. reanalyzed Attrill et al.&apos;s data and found &quot;no evidence that red uniformed teams are more likely than other teams to win.&quot; This directly undermines Attrill et al.&apos;s explanation that red caused Manchester United&apos;s success. The blank must complete the sentence in a way that follows logically from this finding: if red had no effect, then the uniform color was not responsible for their record."
     },
     {
-      "title": "Complete the sentence logically",
-      "content": "Manchester United's home success was not caused by wearing red; their performance would have remained roughly the same without the red uniforms. The other choices introduce unrelated factors or contradict the reanalysis finding. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;would probably have remained roughly the same if its players had not been wearing red uniforms&apos;</strong>: if red gives no advantage, removing it would not have changed the outcome &mdash; directly follows from Goldschmied et al.&apos;s finding. &#10003;</li><li><strong>Choice B &mdash; &apos;was likely influenced by its opponents&apos; associations with the color red&apos;</strong>: this still attributes Manchester United&apos;s success to the color red affecting opponents, which Goldschmied et al.&apos;s finding contradicts. &#10007;</li><li><strong>Choice C &mdash; &apos;was directly tied to its players&apos; general satisfaction with their uniform color&apos;</strong>: introduces player satisfaction as a factor &mdash; nothing in the passage supports this. &#10007;</li><li><strong>Choice D &mdash; &apos;may have influenced other teams to change their uniform colors&apos;</strong>: off-topic; the passage is about whether red caused Manchester United&apos;s success, not about other teams&apos; decisions. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

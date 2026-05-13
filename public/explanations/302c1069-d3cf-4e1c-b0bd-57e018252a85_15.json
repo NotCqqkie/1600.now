@@ -1,15 +1,1 @@
-{
-  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_15",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the verb structure needed",
-      "content": "The subject is a singular noun phrase a xenon atom and the object is 54 protons. The sentence states a general fact, so we need a present\u2011tense verb that agrees with a singular subject."
-    },
-    {
-      "title": "Apply the present\u2011simple rule and dismiss the others",
-      "content": "The verb has is the present\u2011simple form for a singular subject, expressing a permanent fact. The other three either use past tense, present perfect, or progressive form, which do not fit a timeless statement. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence states a permanent scientific fact: &quot;a xenon atom ______ 54 protons.&quot; The subject &quot;a xenon atom&quot; is singular. The verb must be present-tense simple to express a timeless, ongoing truth."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'had'</strong>: past tense &mdash; implies the xenon atom no longer has 54 protons, which contradicts a permanent fact. &#10007;</li><li><strong>Choice B &mdash; 'has had'</strong>: present perfect &mdash; implies an action completed up to now rather than a standing fact. &#10007;</li><li><strong>Choice C &mdash; 'has'</strong>: present-simple, singular &mdash; correctly states a timeless fact about a xenon atom. &#10003;</li><li><strong>Choice D &mdash; 'is having'</strong>: present progressive &mdash; implies a temporary, ongoing action rather than a permanent property. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -1,1 +1,15 @@
-{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_15", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the causal link being tested", "content": "The passage establishes Sheffield United wore red, enjoyed home success, then presents research on how red affects people—associations with power/dominance and responses of caution/hesitation (like with stop signs).<br/><br/>The pivot is crucial: “These findings, if applicable in the context of athletic competitions, could suggest that...” This conditional statement signals that opponents must have experienced a specific psychological effect linked to red.<br/><br/>That effect fills the blank."}, {"title": "Match the effect to the correct choice", "content": "If research on red's psychological impact applies to opponents facing Sheffield United's uniforms, those opponents would have been influenced by the color.<br/><br/>Choice C directly states this: “influenced by the color of Sheffield United's uniforms.” <ul><li>A rules out any influence</li><li>B shifts to a counterfactual about opponents' own uniforms (not discussed)</li><li>D claims conscious awareness rather than the subconscious psychological response the passage implies</li></ul>.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage establishes that (1) Sheffield United wears red and wins more home matches than Cardiff, whose uniform is not red; (2) research shows red triggers associations with power/dominance and causes caution/hesitation in observers. The final sentence says: <em>&quot;These findings, if applicable in the context of athletic competitions, could suggest that in matches played at Sheffield United&apos;s home stadium, opponents may have ______&quot;</em>. The blank must name the psychological effect research predicts red would have on opponents &mdash; a subconscious influence caused by the uniform color."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'been unaffected by the red clothing worn by fans in the stadium.'</strong>: contradicts the entire point of citing the research &mdash; if findings apply, opponents would be affected, not unaffected. &#10007;</li><li><strong>Choice B &mdash; 'played more aggressively than they would have if their own uniforms were red.'</strong>: introduces opponents&apos; own uniforms, which the passage never discusses. &#10007;</li><li><strong>Choice C &mdash; 'been influenced by the color of Sheffield United&apos;s uniforms.'</strong>: directly applies the research finding (red causes psychological responses) to opponents facing Sheffield United&apos;s red uniforms. &#10003;</li><li><strong>Choice D &mdash; 'been aware that Sheffield United&apos;s uniform color affected their own performance.'</strong>: the passage describes a subconscious response (like reacting to a stop sign), not conscious awareness. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

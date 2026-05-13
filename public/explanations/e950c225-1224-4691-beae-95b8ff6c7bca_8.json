@@ -1,1 +1,15 @@
-{"questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_8", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the explicit contrast", "content": "The passage explicitly identifies different Indigenous language sources for each word—Nahuatl for cocoa, Quechua for alpaca."}, {"title": "Apply the signal to the choices", "content": "Choice B names these exact language sources: Nahuatl for cocoa and Quechua for alpaca.<br/><br/>The other three introduce claims unsupported by the passage: when the words entered English (A), meaning changes during borrowing (C), and public misconceptions about origins (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e950c225-1224-4691-beae-95b8ff6c7bca_8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for one difference between the words &ldquo;cocoa&rdquo; and &ldquo;alpaca&rdquo; <em>according to the text</em>. The correct answer must be directly supported by what the passage states &mdash; not inferred, extended, or introduced from outside the text."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &ldquo;cocoa&rdquo; entered English recently, &ldquo;alpaca&rdquo; entered English many centuries ago</strong>: the passage says nothing about when either word entered English. &#10007;</li><li><strong>Choice B &mdash; &ldquo;cocoa&rdquo; traces to Nahuatl, &ldquo;alpaca&rdquo; traces to Quechua</strong>: the passage states explicitly that Spanish borrowed &ldquo;cocoa&rdquo; from Nahuatl and that &ldquo;alpaca&rdquo; comes from Quechua. This is the one difference the text directly identifies. &#10003;</li><li><strong>Choice C &mdash; &ldquo;cocoa&rdquo; changed in meaning, &ldquo;alpaca&rdquo; retained its meaning</strong>: the passage makes no claim about meaning changes during borrowing. &#10007;</li><li><strong>Choice D &mdash; &ldquo;cocoa&rdquo; is known as Indigenous, &ldquo;alpaca&rdquo; is mistakenly seen as Spanish</strong>: the passage says nothing about public misconceptions regarding either word&rsquo;s origin. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

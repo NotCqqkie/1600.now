@@ -1,1 +1,15 @@
-{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The claim states Winnemucca addresses readers “to establish her authority and credibility” — the purpose is crucial. The winning quotation must assert her knowledge, experience, or trustworthiness, not merely greet or narrate to readers."}, {"title": "Apply the signal", "content": "Choice A directly claims authority: <em>“I have not lived in this world for over thirty or forty years for nothing, and I know what I am talking about.”</em> This establishes her credibility by asserting her knowledge based on experience.<br/><br/>The other choices either undermine credibility with uncertainty or fail to assert authority at all.<br/><br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_13",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The claim is that Winnemucca addresses readers <em>to establish her authority and credibility</em>. The correct quotation must actively assert her knowledge or trustworthiness &mdash; not merely greet readers, express uncertainty, or describe events."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '&quot;My dear reader, I have not lived in this world for over thirty or forty years for nothing, and I know what I am talking about.&quot;'</strong>: directly asserts her experience-based knowledge and credibility. &#10003;</li><li><strong>Choice B &mdash; '&quot;I was born somewhere near 1844, but am not sure of the precise time.&quot;'</strong>: expresses uncertainty about her own birth &mdash; the opposite of establishing authority. &#10007;</li><li><strong>Choice C &mdash; '&quot;Oh, dear readers, these soldiers had gone only sixty miles away...&quot;'</strong>: narrates an event; addresses readers but does not assert authority or credibility. &#10007;</li><li><strong>Choice D &mdash; '&quot;But how can I describe the scene that followed? Some of you, dear readers, can imagine.&quot;'</strong>: acknowledges an inability to describe &mdash; undermines rather than establishes authority. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

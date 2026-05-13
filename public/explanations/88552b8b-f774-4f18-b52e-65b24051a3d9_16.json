@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject",
-      "content": "The main subject is the singular noun phrase Food writer J. Kenji L\u00f3pez-Alt. The relative clause who explores the science behind cooking adds description but does not change the number of the subject."
-    },
-    {
-      "title": "Apply subject\u2011verb agreement",
-      "content": "A singular subject takes a singular verb in the present tense, so the verb must be explains. The other choices either use a plural form or an incorrect tense, which breaks agreement. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The sentence reads: &ldquo;Food writer J. Kenji L&oacute;pez-Alt, who explores the science behind cooking, ______ that lower boiling points &hellip;&rdquo; The subject is the singular noun phrase <em>Food writer J. Kenji L&oacute;pez-Alt</em>. The relative clause <em>who explores the science behind cooking</em> adds description but does not change the subject. The blank needs a singular, present-tense verb."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'explain'</strong>: A plural present-tense form. It does not agree with the singular subject <em>J. Kenji L&oacute;pez-Alt</em>. &#10007;</li><li><strong>Choice B &mdash; 'explains'</strong>: A singular present-tense form that agrees with the singular subject. The sentence reads naturally: &ldquo;L&oacute;pez-Alt &hellip; explains that &hellip;&rdquo; &#10003;</li><li><strong>Choice C &mdash; 'have explained'</strong>: A plural present-perfect form. It fails both in number (plural) and in tense &mdash; the sentence describes an ongoing, general claim, not a completed past action. &#10007;</li><li><strong>Choice D &mdash; 'are explaining'</strong>: A plural present-progressive form. Again fails in number with the singular subject. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

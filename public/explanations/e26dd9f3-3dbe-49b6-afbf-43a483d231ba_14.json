@@ -1,1 +1,15 @@
-{"questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_14", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Pinpoint the defining signal", "content": "The conclusion claims invasives are “advantaged by delays” in subfreezing. Advantage means the invasive must show a more favorable response to this temperature change than the native species."}, {"title": "Identify the differential response", "content": "Choice A shows it directly: when freezing is delayed, <em>P. aviculare</em> extends leaf production much longer than <em>V. edule</em>, extending the invasive's growing season.<br/><br/>The other three either show no differential response to temperature timing, reverse the advantage, or confound the effect with other seasonal variables.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Mulder and Spellman concluded that invasives are <em>advantaged</em> by delays in subfreezing temperature onset. To support this, a finding must show that when freezing is delayed, the invasive species (<em>P. aviculare</em>) benefits <em>more</em> than the native (<em>V. edule</em>) &mdash; a clear differential advantage for the invasive."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; both extend leaf production later, but the extension is much greater for <em>P. aviculare</em></strong>: when freezing is delayed, the invasive gains significantly more growing time than the native. This is a direct differential advantage for the invasive. &#10003;</li><li><strong>Choice B &mdash; neither species shows any interannual variation in leaf cessation</strong>: if neither responds to temperature delays, neither is advantaged. This contradicts the conclusion. &#10007;</li><li><strong>Choice C &mdash; <em>P. aviculare</em> stops producing leaves <em>sooner</em> than <em>V. edule</em> when freezing is late</strong>: the invasive ends its season earlier, meaning the <em>native</em> benefits more &mdash; reverses the conclusion. &#10007;</li><li><strong>Choice D &mdash; both produce more leaves, but late-freezing years also had early spring onset</strong>: a confounding variable (early spring) makes it impossible to attribute any advantage specifically to late subfreezing onset. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

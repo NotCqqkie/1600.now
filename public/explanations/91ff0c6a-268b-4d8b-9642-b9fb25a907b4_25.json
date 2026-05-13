@@ -1,1 +1,15 @@
-{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what “emphasize size” requires", "content": "The question asks which choice “most effectively uses information to emphasize the size.” To emphasize means to highlight something as significant—not just mention a measurement factually, but present it in a way that makes the size stand out as remarkable or noteworthy."}, {"title": "Apply this to the choices", "content": "Choice D emphasizes size by using the word “massive” to describe the crater and pairing it with the specific measurement “3.2 km in diameter.” Choices A and B omit the diameter, while C includes the measurement but treats it as neutral fact without any language highlighting its significance.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice most effectively <em>emphasizes the size</em> of the crater. Emphasis means the size should feel remarkable &mdash; not just stated as a neutral fact, but framed to make the reader perceive it as striking or significant."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Long ago, a crater now known as Newporte was created...'</strong>: mentions the crater but omits its diameter entirely. Nothing about size is emphasized. &#10007;</li><li><strong>Choice B &mdash; 'Impact craters, like Newporte in the United States, are formed when a massive object collides...'</strong>: uses &ldquo;massive&rdquo; to describe the impacting object, not the crater &mdash; and omits the 3.2 km measurement. &#10007;</li><li><strong>Choice C &mdash; 'Researchers have investigated the formation of Newporte, an ancient impact crater measuring 3.2 km in diameter...'</strong>: includes the measurement but presents it as a neutral descriptive detail. No word signals that the size is remarkable. &#10007;</li><li><strong>Choice D &mdash; '...it created Newporte, a massive crater measuring 3.2 km in diameter'</strong>: pairs the evaluative word &ldquo;massive&rdquo; directly with the specific measurement &ldquo;3.2 km in diameter,&rdquo; making the size feel both concrete and noteworthy. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

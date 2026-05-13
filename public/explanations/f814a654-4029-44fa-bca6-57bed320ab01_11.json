@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_11",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The decisive clue is the claim that the novel juxtaposes literary realism with Polish folklore."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice A states that the realistic plot is repeatedly disrupted by imagery and situations from Polish folklore, which directly shows the juxtaposition of realism and folklore.<br/>The other three choices either focus on the novel\u2019s debt to magical realist influence, its antirealistic folklore elements, or a mere alternation of modes without explicitly linking realism and folklore as a juxtaposition.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The underlined claim is that Tokarczuk&apos;s novel <em>resembles classic magical realist novels in its juxtaposition of literary realism with Polish folklore</em>. A supporting quotation must show both elements &mdash; realism and folklore &mdash; in direct contrast with each other."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; &apos;The logic of the realistic plot of Primeval and Other Times is repeatedly and productively disrupted by the presence of imagery and situations drawn from Polish folklore.&apos;</strong>: directly shows literary realism (the realistic plot) placed in tension with Polish folklore (disrupting imagery/situations) &mdash; exactly the juxtaposition the claim describes. &#10003;</li><li><strong>Choice B &mdash; &apos;Although Polish folklore clearly informs the style ... the novel also shows the inarguable influence of the magical realist tradition of Latin America.&apos;</strong>: shifts focus to Latin American influence rather than demonstrating the realism-vs.-folklore juxtaposition. &#10007;</li><li><strong>Choice C &mdash; &apos;Like many works in the Latin American magical realist tradition, Primeval and Other Times is indebted to antirealistic elements in the folkloric tradition of Poland.&apos;</strong>: describes folkloric influence but frames it as debt to Latin American tradition, not a juxtaposition of realism and folklore. &#10007;</li><li><strong>Choice D &mdash; &apos;While Primeval and Other Times alternates between realistic and antirealistic modes ... details suggesting Polish folklore nevertheless occur throughout.&apos;</strong>: notes alternation but does not clearly show realism and folklore in direct juxtaposition. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

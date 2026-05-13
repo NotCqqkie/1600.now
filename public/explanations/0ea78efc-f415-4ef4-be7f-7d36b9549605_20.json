@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the unclosed parenthetical",
-      "content": "The phrase <strong>\"mustang\" (a wild horse)</strong> properly closes its parenthetical, but <strong>\"rodeo\" (a ______</strong> leaves the parenthetical open—there's an opening parenthesis with no closing match."
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: <em>&quot;mustang&quot; (a wild horse) comes from the Spanish word mesteñas, and &quot;rodeo&quot; (a ______ comes from rodear.</em> An opening parenthesis before <em>a ______</em> has no closing parenthesis yet. The blank must close that parenthetical, just as <em>(a wild horse)</em> is closed earlier in the sentence."
     },
     {
-      "title": "Close the parenthetical",
-      "content": "Rule: an opening parenthesis must be closed by a matching closing parenthesis. The sentence has \"rodeo\" ( with no closing ) yet. Reconstructed sentence with each choice: <strong>A) \"rodeo\" (a roundup,</strong> — ends with a comma, leaving the parenthetical open; the first example uses a closing parenthesis, not a comma; eliminated. <strong>B) \"rodeo\" (a roundup)</strong> — closes the parenthetical exactly as \"(a wild horse)\" does earlier; correct. <strong>C) \"rodeo\" (a roundup;</strong> — ends with a semicolon, leaving the parenthetical open; eliminated. <strong>D) \"rodeo\" (a roundup—</strong> — ends with an em-dash, leaving the parenthetical open and mixing punctuation styles; eliminated. Verdict: <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'roundup,'</strong>: ends with a comma inside an open parenthesis &mdash; the parenthetical is never closed. &#10007;</li><li><strong>Choice B &mdash; 'roundup)'</strong>: the closing parenthesis matches the opening one, mirroring <em>(a wild horse)</em> exactly. &#10003;</li><li><strong>Choice C &mdash; 'roundup;'</strong>: a semicolon cannot close a parenthetical; the parenthesis remains open. &#10007;</li><li><strong>Choice D &mdash; 'roundup&mdash;'</strong>: an em-dash cannot close a parenthetical; it also mixes punctuation styles. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }
