@@ -1,15 +1,1 @@
-{
-  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_10",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the Cadettes row and 1995 column",
-      "content": "The question asks for Girl Scouts aged 11\u201314 in 1995. The table organizes members by age category (rows) and year (columns). The age group 11\u201314 corresponds to the Cadettes row, and we need the 1995 column."
-    },
-    {
-      "title": "Read the value at the intersection and match it to the choices",
-      "content": "The value where Cadettes and 1995 meet is 172 (in thousands). 174 pulls the value from the 1994 Cadettes row (wrong year), 784 pulls from the 1995 Ambassadors row (wrong age group), and 807 doesn't appear in the table. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"eb783fc1-8559-4650-9621-8d99c6c2ab30_10","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the number of Girl Scouts aged 11&ndash;14 in 1995. In the table, age 11&ndash;14 corresponds to the Cadettes row; the answer is the value at the intersection of Cadettes and 1995."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 172</strong>: The value in the Cadettes row, 1995 column (in thousands). &#10003;</li><li><strong>Choice B &mdash; 174</strong>: The Cadettes value from the 1994 column &mdash; wrong year. &#10007;</li><li><strong>Choice C &mdash; 784</strong>: The 1995 value from the Ambassadors row &mdash; wrong age group. &#10007;</li><li><strong>Choice D &mdash; 807</strong>: Does not appear in the table at all. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

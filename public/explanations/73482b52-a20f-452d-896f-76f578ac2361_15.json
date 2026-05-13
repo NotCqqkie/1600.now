@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the sentence needs",
-      "content": "The sentence is: \"The 1958 poem 'The Ghost's Leavetaking' by American author Sylvia Plath ___ the first use of the word 'dreamscape.'\" The subject is \"The poem\" (singular). There is no other verb — the blank must be the main, finite verb of the sentence."
-    },
-    {
-      "title": "Choose the finite verb",
-      "content": "Rule: a main clause requires a finite verb (one that is conjugated and can stand alone as the predicate). Non-finite forms — participles, gerunds, infinitives — cannot serve as the main verb.\n\nA. \"having contained\" — past participle phrase (non-finite). Fails: \"The poem having contained\" leaves the sentence with no main verb; this form starts a participial modifier, not a predicate.\nB. \"to contain\" — infinitive (non-finite). Fails: \"The poem to contain\" is not a complete sentence.\nC. \"containing\" — present participle (non-finite). Fails: \"The poem containing\" is a fragment without a main verb.\nD. \"contains\" — third-person singular present tense (finite). Matches singular subject \"The poem\" and acts as the main predicate. Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"73482b52-a20f-452d-896f-76f578ac2361_15","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence is: &quot;The 1958 poem &apos;The Ghost&apos;s Leavetaking&apos; by Sylvia Plath ___ the first use of the word &apos;dreamscape.&apos;&quot; The subject is &quot;The poem&quot; (singular) and there is no other verb, so the blank must be the main finite verb of the sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;having contained&apos;</strong>: A past participial phrase (non-finite). &quot;The poem having contained&quot; has no main predicate &mdash; it is a dangling modifier, not a complete sentence. &#10007;</li><li><strong>Choice B &mdash; &apos;to contain&apos;</strong>: An infinitive (non-finite). &quot;The poem to contain&quot; is not a complete sentence. &#10007;</li><li><strong>Choice C &mdash; &apos;containing&apos;</strong>: A present participle (non-finite). &quot;The poem containing&quot; is a fragment with no main verb. &#10007;</li><li><strong>Choice D &mdash; &apos;contains&apos;</strong>: Third-person singular present tense (finite). Agrees with singular subject &quot;The poem&quot; and serves as the main predicate. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

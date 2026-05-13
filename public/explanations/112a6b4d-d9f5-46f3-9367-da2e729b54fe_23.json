@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the expected shift",
-      "content": "The passage moves from explaining tickers' historical role to revealing they were \u201clong since retired\u201d by 2008. The signal \u201clong since\u201d conveys that this absence is expected and established\u2014not surprising or caused by the parade."
+      "title": "Identify what the question needs",
+      "content": "The blank connects two sentences: the first says tickers were used in historic parades; the second says tickers had <em>long since been retired</em> by 2008. The transition must signal that the retirement was natural and expected&mdash;not a surprising contradiction and not a causal result of the parades."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dOf course\u201d works because it signals that the retirement is natural and expected\u2014what \u201clong since\u201d conveys. The other three miss this by adding parallel information, introducing examples, or reversing causality. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: signals that the second sentence gives an instance of the first. But the 2008 detail introduces a contrast (no tickers), not an example of tickers being used. &#10007;</li><li><strong>Choice B &mdash; 'In addition,'</strong>: signals that the second sentence adds parallel information. The second sentence doesn&apos;t add another fact about tickers in use&mdash;it says they were gone. &#10007;</li><li><strong>Choice C &mdash; 'Of course,'</strong>: signals that what follows is expected or unsurprising. The phrase <em>&ldquo;long since retired&rdquo;</em> conveys exactly that the absence of tickers by 2008 was a natural, established reality&mdash;not a shock. &#10003;</li><li><strong>Choice D &mdash; 'As a result,'</strong>: signals the second sentence is a consequence of the first. But the tickers weren&apos;t retired <em>because</em> of the parades&mdash;this reverses the actual logic. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

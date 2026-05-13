@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank appears in a noun phrase: <strong>Lola \u00c1lvarez Bravo's photograph [blank] 'The Freeloaders'</strong>. The title directly follows the noun to identify which specific photograph is being discussed."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "Structure: \"Lola Alvarez Bravo's [blank] 'The Freeloaders' offers a glimpse...\" The title 'The Freeloaders' is a restrictive identifier for a specific photograph\u2014it tells us which photograph.<br/><br/>Rule: a restrictive identifier (one that specifies which one) takes no punctuation before it.<br/><br/><strong>A. photograph,</strong> \u2014 a comma before 'The Freeloaders' would make the title a non-restrictive appositive, implying there are other photographs and this title is just extra information. But the title uniquely identifies this one work. Eliminated.<br/><br/><strong>B. photograph</strong> \u2014 no punctuation lets 'The Freeloaders' serve as a restrictive title directly attached to the noun. Correct.<br/><br/><strong>C. photograph;</strong> \u2014 a semicolon separates independent clauses. 'The Freeloaders' is not a clause; placing a semicolon here makes the title a fragment. Eliminated.<br/><br/><strong>D. photograph:</strong> \u2014 a colon introduces a list or elaboration after an independent clause. The sentence before the blank is not a complete independent clause (\"Lola Alvarez Bravo's photograph\" is just a noun phrase). Eliminated.<br/><br/><strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between &quot;photograph&quot; and the title &apos;The Freeloaders&apos;. The title identifies which specific photograph is being discussed, so the question is what punctuation (if any) belongs between the noun and its restrictive identifier."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; photograph,</strong>: a comma before the title would make it a non-restrictive appositive, implying the title is just extra information about any photograph by Bravo. But the title is needed to specify <em>which</em> photograph &mdash; it is restrictive. &#10007;</li><li><strong>Choice B &mdash; photograph</strong>: no punctuation lets &apos;The Freeloaders&apos; attach directly as a restrictive identifier, which is correct when the title specifies which one. &#10003;</li><li><strong>Choice C &mdash; photograph;</strong>: a semicolon joins two independent clauses. &apos;The Freeloaders&apos; is not a clause; this creates a fragment. &#10007;</li><li><strong>Choice D &mdash; photograph:</strong>: a colon requires a complete independent clause before it. &quot;Lola Álvarez Bravo&apos;s photograph&quot; is only a noun phrase, not an independent clause. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

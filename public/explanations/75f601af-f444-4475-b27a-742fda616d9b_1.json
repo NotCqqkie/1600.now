@@ -1,15 +1,1 @@
-{
-  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the sensory action",
-      "content": "The decisive clue is \u201cThe keenest vision can't define\u201d \u2014 the word describes something that eyesight attempts but fails to do. The surrounding context emphasizes perfect blending, meaning the boundary between the leaf and its reflection has become imperceptible."
-    },
-    {
-      "title": "Match to visual perception",
-      "content": "The answer is perceive \u2014 the sharpest sight cannot perceive or make out the border line because the blending is so perfect. The other three choices describe unrelated actions or don't align with what vision does. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"75f601af-f444-4475-b27a-742fda616d9b_1","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows &quot;The keenest vision can&apos;t ___ .&quot; The surrounding context describes the border between a leaf and its reflection as perfectly blended and imperceptible. The word must describe what sharp eyesight attempts but fails to do with that boundary."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; perceive</strong>: Correct. The sharpest sight cannot perceive (make out) the border line because the blending is so perfect. &#10003;</li><li><strong>Choice B &mdash; define</strong>: Wrong. &quot;Define&quot; is a conceptual act, not a visual one; the blank calls for a word about seeing. &#10007;</li><li><strong>Choice C &mdash; ignore</strong>: Wrong. The poem is saying vision fails to detect the line, not that it chooses to look away. &#10007;</li><li><strong>Choice D &mdash; reflect</strong>: Wrong. Reflecting is what the water does; it doesn&apos;t describe what vision fails to do. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

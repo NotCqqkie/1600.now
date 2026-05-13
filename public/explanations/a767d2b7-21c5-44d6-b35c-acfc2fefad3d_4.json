@@ -1,15 +1,1 @@
-{
-  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_4",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining clue",
-      "content": "The phrase after the colon \u2014 \u201ca well\u2011executed marketing campaign helped to make James Redfield's novel *The Tenth Insight* the tenth\u2011best\u2011selling novel of 1996\u201d \u2014 shows that the blank must name something that a marketing campaign exemplifies."
-    },
-    {
-      "title": "Apply the clue to the choices",
-      "content": "Publicity means the attention or promotion that a marketing campaign generates, which directly fits the role described.<br/>The other three either describe unrelated qualities (practicality, complexity, originality) or contradict the idea that a marketing campaign contributes to success.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a767d2b7-21c5-44d6-b35c-acfc2fefad3d_4","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The phrase after the colon &mdash; &quot;a well-executed marketing campaign helped to make James Redfield&apos;s novel the tenth-best-selling novel of 1996&quot; &mdash; shows the blank must name something that a marketing campaign exemplifies."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; practicality</strong>: A marketing campaign does not specifically illustrate practicality. &#10007;</li><li><strong>Choice B &mdash; complexity</strong>: Nothing in the passage describes the campaign as complex. &#10007;</li><li><strong>Choice C &mdash; originality</strong>: The passage focuses on commercial success, not creative novelty. &#10007;</li><li><strong>Choice D &mdash; publicity</strong>: Publicity is exactly what a marketing campaign generates, and it directly explains how the novel reached bestseller status. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

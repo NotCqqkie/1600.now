@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank contains a noun phrase in which <strong>Mark A. Lee</strong> is in apposition to <strong>researcher</strong> \u2014 it identifies which specific researcher led the study. The question tests how to punctuate this appositive."
-    },
-    {
-      "title": "Apply the appositive rule",
-      "content": "When an appositive is restrictive (essential to identify the noun), it requires no commas: <strong>researcher Mark A. Lee</strong> is correct. Choices A and D lack periods after initials, and Choice B misplaces a comma after the name. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2151936b-0a32-450c-9679-a3f550831cb9_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills in a noun phrase where <strong>Mark A. Lee</strong> identifies which researcher led the study. This is a restrictive appositive — it narrows down exactly who, so no commas around it. Periods after initials must also be present."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; no period after &quot;A&quot;</strong>: Missing period after the middle initial. &#10007;</li><li><strong>Choice B &mdash; comma after the name</strong>: Inserts a comma that separates the appositive from the rest of the sentence incorrectly. &#10007;</li><li><strong>Choice C &mdash; &quot;researcher Mark A. Lee&quot;</strong>: Restrictive appositive with no commas and correct punctuation on the initial. &#10003;</li><li><strong>Choice D &mdash; no period after &quot;A&quot;</strong>: Same initial-period error as A. &#10007;</li></ul>That matches choice C — <strong>C</strong> is correct."}]}
