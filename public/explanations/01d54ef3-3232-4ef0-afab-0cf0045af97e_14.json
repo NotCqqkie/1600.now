@@ -1,15 +1,1 @@
-{
-  "questionId": "01d54ef3-3232-4ef0-afab-0cf0045af97e_14",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The passage sets up a contrast with the word \u201cbut\u201d after stating the proposal, indicating that the data will show the opposite.<br/>The key signal is the phrase \u201cbut data \u2026 show that this is not the case; for example,\u201d which tells us we need a counterexample."
-    },
-    {
-      "title": "Match the counterexample to the data",
-      "content": "Choice A notes that HEA 7 and HEA 95 have the same cobalt proportion; if the table shows their fracture toughness differs, this directly contradicts the idea that toughness rises with cobalt content.<br/>The other choices either describe differing cobalt proportions that could still support the proposal or make claims not borne out by the table.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"01d54ef3-3232-4ef0-afab-0cf0045af97e_14","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states a proposal &mdash; fracture toughness rises with cobalt proportion &mdash; then says the data show <strong>this is not the case</strong>. The blank needs a specific example from the table that <em>disproves</em> the proposal. A counterexample must show that changing cobalt proportion does <em>not</em> produce the expected change in fracture toughness."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;cobalt constitutes the same proportion of HEA 7 as it does of HEA 95&rsquo;</strong>: if two alloys have equal cobalt content but different fracture toughness (as the table shows), cobalt proportion alone cannot explain the difference &mdash; the proposal is disproved. &#10003;</li><li><strong>Choice B &mdash; &lsquo;cobalt constitutes a higher proportion of HEA 15 than it does of HEA 7&rsquo;</strong>: a difference in cobalt proportion between two alloys could still be consistent with the proposal if HEA 15 also has higher toughness. This doesn&rsquo;t establish a counterexample. &#10007;</li><li><strong>Choice C &mdash; &lsquo;substantial proportion of HEA 15 but does not constitute any of HEA 51&rsquo;</strong>: same problem as B &mdash; differing cobalt levels might still correlate with differing toughness, leaving the proposal unchallenged. &#10007;</li><li><strong>Choice D &mdash; &lsquo;a different proportion of HEA 25 than it does of HEA 7&rsquo;</strong>: again, a difference in cobalt proportion cannot by itself refute the proposal without knowing whether toughness moved as predicted. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

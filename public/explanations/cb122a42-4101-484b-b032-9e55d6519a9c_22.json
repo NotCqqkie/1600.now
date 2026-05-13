@@ -1,1 +1,15 @@
-{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the contrast signal", "content": "The word however after the first sentence signals that the art historians’ view opposes the earlier description of the painting as a Baroque exemplar."}, {"title": "Match the meaning to the transition", "content": "Choice A, “in reality,” conveys that the historians are asserting the Baroque aesthetic is actually just a continuation of Renaissance style, which fits the contrast set up by however.<br/><br/>The other choices either add a new point (first of all), suggest similarity (similarly), or continue a contrast without expressing actuality (nevertheless), none of which match the historians’ claim.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage has two moves. First: analyses call <em>The Night Watch</em> an &ldquo;exemplar of the Baroque-era style.&rdquo; Second: art historians <em>challenge</em> the existence of a distinct Baroque era and claim the Baroque aesthetic was just an extension of Renaissance style. The blank goes inside the historians' claim &mdash; it should signal they are asserting the <strong>actual truth</strong> of their position, not just contrasting or adding to it."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'in reality,'</strong>: Signals that what follows is the true state of affairs &mdash; the historians assert the Baroque era is actually just Renaissance continuation. Fits perfectly. &#10003;</li><li><strong>Choice B &mdash; 'first of all,'</strong>: Introduces a list or sequence; nothing in the passage signals more points are coming. &#10007;</li><li><strong>Choice C &mdash; 'similarly,'</strong>: Signals similarity to a previous idea, but the historians' view <em>opposes</em> the characterization in the first sentence. &#10007;</li><li><strong>Choice D &mdash; 'nevertheless,'</strong>: Signals a contrast within the historians' own claim, which isn't needed &mdash; their claim is a single direct assertion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

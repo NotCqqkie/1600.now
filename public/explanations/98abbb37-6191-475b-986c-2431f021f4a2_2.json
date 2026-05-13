@@ -1,1 +1,15 @@
-{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the navigation signal", "content": "The phrase “by the sound” combined with “made his way” shows the Rat is using sound as a tool to direct his movement toward the tree."}, {"title": "Apply to the choices", "content": "”Steering” means directing one's course or path—precisely what the Rat does by following the sound through the darkness to reach the beech tree.<br/><br/>The other options (withdrawing, presenting, instructing) either contradict the forward movement or describe actions unrelated to navigation.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The word &ldquo;guiding&rdquo; is underlined. The Rat hears a cry and uses the sound to navigate through the dark woods to reach the beech tree. The word must capture how sound directs his movement."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Withdrawing'</strong>: Withdrawing means pulling back or retreating. The Rat is moving <em>toward</em> the sound, not away from it. &#10007;</li><li><strong>Choice B &mdash; 'Presenting'</strong>: Presenting means displaying or offering something. The Rat is not displaying the sound &mdash; he is using it to navigate. &#10007;</li><li><strong>Choice C &mdash; 'Instructing'</strong>: Instructing means teaching. The Rat is not being taught by the sound; he is using it to find his way. &#10007;</li><li><strong>Choice D &mdash; 'Steering'</strong>: Steering means directing one&apos;s course or path. Plug in: &ldquo;Steering himself by the sound&rdquo; = using the sound to direct his movement toward the tree. This matches the context exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

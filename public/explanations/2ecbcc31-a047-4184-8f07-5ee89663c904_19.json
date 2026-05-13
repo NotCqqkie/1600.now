@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the appositive structure",
-      "content": "The blank contains \"drummer\" and \"Dennis Chambers,\" where the name functions as an appositive renaming or clarifying the descriptor."
+      "title": "Identify what the question needs",
+      "content": "The blank fills in &ldquo;American ______ may be best known for his time with Sugar Hill Records.&rdquo; The name Dennis Chambers identifies which American drummer is meant. When a name identifies a specific person out of a group, it is a restrictive appositive and takes no commas."
     },
     {
-      "title": "Apply the restrictive appositive rule",
-      "content": "Rule: a restrictive appositive (one that identifies which person is meant) takes no commas. \"Dennis Chambers\" tells us which American drummer — making it essential, not optional.<br/><br/><strong>A:</strong> \"American drummer, Dennis Chambers\" — opening comma with no closing comma; unbalanced and incorrectly signals a nonrestrictive appositive. Incorrect.<br/><br/><strong>B:</strong> \"American drummer Dennis Chambers,\" — trailing comma only; creates an unmatched boundary that breaks the clause structure. Incorrect.<br/><br/><strong>C:</strong> \"American drummer Dennis Chambers\" — no commas; Dennis Chambers is the essential identifier. <strong>Correct.</strong><br/><br/><strong>D:</strong> \"American drummer, Dennis Chambers,\" — both commas signal a nonrestrictive appositive, implying the name is optional extra information. It is not optional here. Incorrect."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;drummer, Dennis Chambers&rsquo;</strong>: An opening comma with no closing comma is unbalanced. This incorrectly signals a nonrestrictive appositive without completing the pair. &#10007;</li><li><strong>Choice B &mdash; &lsquo;drummer Dennis Chambers,&rsquo;</strong>: A trailing comma only creates an unmatched boundary that breaks the clause structure. &#10007;</li><li><strong>Choice C &mdash; &lsquo;drummer Dennis Chambers&rsquo;</strong>: No commas. Dennis Chambers is the essential identifier telling us which American drummer &mdash; restrictive appositives take no commas. &#10003;</li><li><strong>Choice D &mdash; &lsquo;drummer, Dennis Chambers,&rsquo;</strong>: Two commas signal a nonrestrictive appositive, implying the name is optional extra information. It is not optional here &mdash; it is the only way to identify which drummer is meant. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

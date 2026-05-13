@@ -1,1 +1,15 @@
-{"questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the general pattern established in the first sentence", "content": "The narrator opens with a broad observation: in boats, each crew member believes <em>he</em> is doing all the work. This is a general trend the narrator has noticed repeatedly."}, {"title": "Match the underlined sentence's role to this pattern", "content": "The underlined sentence presents Harris's specific belief—that he alone worked while George and the narrator imposed on him—which is a concrete instance of the trend just announced.<br/><br/>Answer B captures this structure precisely: the underlined sentence offers Harris's belief as a specific example of the broader pattern the narrator has observed.<br/><br/>The other choices either misidentify what Harris's belief is about (A focuses on \"how boat trips usually proceed\" and C invokes \"helping the group,\" neither of which Harris's belief concerns), overlook the role of the general observation in framing it, or contradict his firm, confident tone (D suggests confusion). <br/><br/>That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <em>function</em> of the underlined sentence within the text as a whole. The first sentence establishes a general trend: in a boat, each crew member believes <em>he alone</em> is doing all the work. The underlined sentence then presents Harris's specific belief that he alone worked while George and the narrator imposed on him. The answer must capture how that sentence relates to what came before it."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It establishes Harris's feelings about the narrator's idea of how boat trips usually proceed.'</strong>: the underlined sentence is not Harris's reaction to the narrator's idea — it is an instance of the very pattern the narrator describes. &#10007;</li><li><strong>Choice B &mdash; 'It offers Harris's belief as a specific example of a trend the narrator has observed while boating.'</strong>: Harris's belief (he alone worked) is precisely one instance of the general trend (each crew member thinks he is doing everything). &#10003;</li><li><strong>Choice C &mdash; 'It suggests that Harris is focused on helping the group navigate a challenge.'</strong>: Harris believes he is the only one working — not that he is trying to help the group navigate anything. &#10007;</li><li><strong>Choice D &mdash; 'It demonstrates that Harris finds his experiences on the boat to be confusing.'</strong>: Harris is not confused — he holds a firm, confident belief. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

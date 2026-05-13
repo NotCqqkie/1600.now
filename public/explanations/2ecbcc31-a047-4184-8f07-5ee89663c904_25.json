@@ -1,1 +1,15 @@
-{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_25", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key temporal clue", "content": "The notes state that Chrysalis “would likely have come very close to Saturn around 160 million years ago.”"}, {"title": "Match the meaning to the notes", "content": "Choice C places the events in the correct order: Chrysalis approached Saturn about 160 million years ago, tidal forces broke it apart, and the debris formed the rings.<br/><br/>The other choices either reverse the cause, omit the timing, or leave out the formation of the rings.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for a choice that <strong>recounts the sequence of events</strong> the researchers proposed. That means the answer must include all three stages &mdash; in order: Chrysalis approached Saturn roughly 160 million years ago, tidal forces broke it apart, and the debris became Saturn&rsquo;s rings."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;debris from Saturn&rsquo;s rings would likely have caused Chrysalis to break apart&rsquo;</strong>: reverses cause and effect &mdash; the debris formed the rings; the rings did not cause the breakup. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Saturn was once orbited by a large moon that broke apart&rsquo;</strong>: omits the 160-million-year timing and the formation of the rings. Not a full sequence. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Around 160 million years ago, a large moon (Chrysalis) may have come close enough to Saturn that tidal forces broke the moon apart; its debris then formed the planet&rsquo;s rings&rsquo;</strong>: covers all three steps in the correct order &mdash; timing, breakup by tidal forces, rings formed from debris. &#10003;</li><li><strong>Choice D &mdash; &lsquo;If a moon orbiting a planet comes close enough, tidal forces can cause the moon to break apart&rsquo;</strong>: states only the general principle from note 1; never mentions Chrysalis, the timing, or the rings. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the researcher needs to support",
-      "content": "The researcher claims that lakes have seen a <strong>decline in ice duration</strong> between the early 1980s and the mid-2000s. To cite a \u201ctypical example,\u201d the data must show this decline by comparing both time periods."
+      "title": "Identify what the question needs",
+      "content": "The researcher claims some lakes have seen a <strong>decline in ice duration</strong> between the early 1980s and the mid-2000s. To cite a &quot;typical example,&quot; the correct choice must show a single lake with <em>fewer</em> days of ice in 2005&ndash;06 than in 1980&ndash;81."
     },
     {
-      "title": "Find the lake that demonstrates the decline",
-      "content": "Choice B directly shows the decline: Kitusj\u00e4rvi had fewer days of ice in 2005\u201306 than in 1980\u201381. The other choices either show only a single time period (A and D) or show an increase rather than the claimed decline (C). That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'both Spirit Lake and Kitusj&auml;rvi, which had more than 120 days of ice in the winter of 2005&ndash;06'</strong>: Reports only 2005&ndash;06 data &mdash; no comparison to the 1980s, so it cannot show a decline. &#10007;</li><li><strong>Choice B &mdash; 'Kitusj&auml;rvi, which had fewer days of ice in the winter of 2005&ndash;06 than it did in the winter of 1980&ndash;81'</strong>: Compares both time periods and shows a decrease &mdash; exactly the pattern the researcher describes. &#10003;</li><li><strong>Choice C &mdash; 'Spirit Lake, which had more days of ice in the winter of 2005&ndash;06 than it did in the winter of 1980&ndash;81'</strong>: Shows an <em>increase</em>, the opposite of the claimed decline. &#10007;</li><li><strong>Choice D &mdash; 'both Spirit Lake and Kitusj&auml;rvi, which had fewer than 170 days of ice in the winter of 1980&ndash;81'</strong>: Reports only 1980&ndash;81 data &mdash; no comparison to the mid-2000s. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The phrase '<em>can make people feel</em>' signals the focus on human emotions toward robots that appear too similar to humans. The contrast here is between feeling comforted (soothed) and experiencing a negative reaction due to unnerving similarity."}, {"title": "Match the meaning", "content": "<strong>D</strong> captures the shift from finding human-like qualities comforting to feeling unsettled by them, implying an intensification of discomfort. <br/>A, B, and C each miss this contrast or provide meanings unrelated to feeling more disturbed.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence sets up a contrast: certain features can create a &ldquo;comforting semblance of humanity,&rdquo; <em>but</em> a robot that looks too similar to humans can make people feel more unsettled than ______. The blank must be the <strong>opposite of unsettled</strong> &mdash; something positive or at least neutral &mdash; because the structure is &ldquo;more unsettled than [better state].&rdquo;"
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'indifferent'</strong>: Indifferent means unaffected or uncaring &mdash; not a positive state that comforting human-like features would produce. &#10007;</li><li><strong>Choice B &mdash; 'vindicated'</strong>: Vindicated means proved right; has nothing to do with how a robot makes someone feel. &#10007;</li><li><strong>Choice C &mdash; 'revolted'</strong>: Revolted is <em>worse</em> than unsettled &mdash; saying &ldquo;more unsettled than revolted&rdquo; would flip the intended meaning. &#10007;</li><li><strong>Choice D &mdash; 'soothed'</strong>: Soothed is the positive state the comforting features produce. &ldquo;More unsettled than soothed&rdquo; correctly contrasts the two outcomes: the comforting effect vs. the unnerving one. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

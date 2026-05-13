@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures on each side of the comma",
-      "content": "The main clause \"Congress designated a portion of Pennsylvania as the Lackawanna Valley National Heritage Area\" is complete. The blank introduces a phrase explaining Congress's reason for that designation."
+      "title": "Identify what the question needs",
+      "content": "The sentence has a complete main clause: &quot;Congress designated a portion of Pennsylvania as the Lackawanna Valley National Heritage Area.&quot; After the comma, the blank introduces something that explains the reason for the designation. The question asks for the choice that follows Standard English conventions &mdash; no comma splice."
     },
     {
-      "title": "Apply the participial phrase rule",
-      "content": "A present participle (-ing form) after a comma correctly adds information modifying the subject of the main clause without creating a new independent clause.<br/><br/><strong>A) they cite</strong> — introduces a second full subject (\"they\"); two independent clauses joined by only a comma = comma splice. Wrong.<br/><strong>B) cited</strong> — simple past creates a second independent clause (\"Congress cited\"), again a comma splice without a coordinating conjunction. Wrong.<br/><strong>C) citing</strong> — present participle phrase; modifies the main clause and explains the reason for the designation. No extra subject, no punctuation problem. Correct.<br/><strong>D) has cited</strong> — present-perfect verb with an implied subject creates a third independent clause; comma splice. Wrong.<br/><br/><strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'they cite'</strong>: adds a full subject (&quot;they&quot;) and verb, creating a second independent clause joined to the first by only a comma &mdash; a comma splice. &#10007;</li><li><strong>Choice B &mdash; 'cited'</strong>: a simple past verb with an implied subject (&quot;Congress cited&quot;), making another independent clause &mdash; again a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'citing'</strong>: a present-participle phrase; it modifies the main clause and adds the reason without introducing a new subject or creating a second clause. No punctuation problem. &#10003;</li><li><strong>Choice D &mdash; 'has cited'</strong>: a present-perfect verb with an implied subject, producing a third independent clause and a comma splice. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

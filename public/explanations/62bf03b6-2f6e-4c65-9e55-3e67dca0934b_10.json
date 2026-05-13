@@ -1,15 +1,1 @@
-{
-  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the market leader and runner-up",
-      "content": "Tetris (puzzle) sold 43 million units\u2014roughly five times more than Mario (platformer) at 7.46 million, and over 17 times more than Ice Hockey (sports). Puzzle is the clear market leader."
-    },
-    {
-      "title": "Confirm the top two outsold the rest",
-      "content": "Puzzle plus platformer totals roughly 50 million units, vastly exceeding sports plus education's 6.4 million. A and B invent false parity between unrelated genres, while D incorrectly asserts the weakest pairing dominated. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"62bf03b6-2f6e-4c65-9e55-3e67dca0934b_10","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student needs to identify which two genres together outsold all the other genres combined, using the data in the table. The correct choice must be supported by actual numbers from the table."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'puzzle and sports sold nearly the same number of units.'</strong>: The table shows puzzle games (led by Tetris at ~43 million) far exceed sports games (~2.5 million). They are nowhere near equal. &#10007;</li><li><strong>Choice B &mdash; 'platformer and education sold nearly the same number of units.'</strong>: Platformer games (Super Mario Bros. at ~7.5 million) vastly exceed education games (~3.9 million). This is false. &#10007;</li><li><strong>Choice C &mdash; 'puzzle and platformer outsold the games in the other genres.'</strong>: Puzzle (~43 million) and platformer (~7.5 million) together total roughly 50.5 million, far more than the sports and education genres combined (~6.4 million). &#10003;</li><li><strong>Choice D &mdash; 'platformer and sports outsold the games in the other genres.'</strong>: Platformer plus sports totals roughly 10 million, which is less than puzzle alone at ~43 million. This is false. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

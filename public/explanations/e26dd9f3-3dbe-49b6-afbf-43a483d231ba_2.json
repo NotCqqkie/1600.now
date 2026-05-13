@@ -1,15 +1,1 @@
-{
-  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage states that Spanish mission style \"has been reproduced throughout the state,\" and uses Santa Clara University as an example of this pattern."
-    },
-    {
-      "title": "Apply the signal",
-      "content": "Substitute each choice: Santa Clara University's design is considered to ______ the style of the Spanish missions.<br/><br/><strong>A) renovate</strong> — \"renovate\" means to restore or update an existing structure. Santa Clara University didn't rebuild the actual missions; it copied their style in a new building. Eliminate.<br/><br/><strong>B) imitate</strong> — \"imitate\" means to copy or mimic. The passage says elements of the style have been \"reproduced\" — imitating is reproducing. Keep.<br/><br/><strong>C) neglect</strong> — \"neglect\" means to ignore or fail to care for. A design that echoes mission style is doing the opposite of ignoring it. Eliminate.<br/><br/><strong>D) reject</strong> — \"reject\" means to refuse or dismiss. The university's design draws from the mission style, not away from it. Eliminate.<br/><br/><strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e26dd9f3-3dbe-49b6-afbf-43a483d231ba_2","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says elements of Spanish mission style have been <strong>&apos;reproduced throughout the state&apos;</strong> and uses Santa Clara University as an example. The blank must describe what that university&apos;s design does to the Spanish mission style &mdash; a word meaning to copy or reproduce it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;renovate&apos;</strong>: &apos;Renovate&apos; means to restore or update an existing structure. Santa Clara University didn&apos;t fix the actual missions; it built something new in their style. Wrong direction. &#10007;</li><li><strong>Choice B &mdash; &apos;imitate&apos;</strong>: &apos;Imitate&apos; means to copy or mimic. The passage explicitly says the style has been &apos;reproduced&apos; &mdash; imitating is reproducing. Matches the context exactly. &#10003;</li><li><strong>Choice C &mdash; &apos;neglect&apos;</strong>: &apos;Neglect&apos; means to ignore or fail to care for. A design that echoes the mission style is doing the opposite of neglecting it. &#10007;</li><li><strong>Choice D &mdash; &apos;reject&apos;</strong>: &apos;Reject&apos; means to dismiss or refuse. The university draws from the mission style, not away from it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

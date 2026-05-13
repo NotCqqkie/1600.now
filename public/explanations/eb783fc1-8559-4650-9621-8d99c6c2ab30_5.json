@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The blank describes what the hoax entries were \"finally recognized as\" before deletion. The passage calls them \"fictitious entries\" and \"hoaxes\" — they are made-up, false things."
+      "title": "Identify what the question needs",
+      "content": "The blank describes what the hoax entries were &ldquo;finally recognized as&rdquo; before being deleted. The passage calls them &ldquo;fictitious entries&rdquo; and &ldquo;hoaxes&rdquo; &mdash; they are made-up falsehoods."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. analyses</strong> — an analysis is a careful study or examination of something. Hoax entries are not studies; plug in: \"recognized as analyses\" makes no sense here. Eliminated.<br/><br/><strong>B. revelations</strong> — a revelation is something newly disclosed or revealed, usually surprising and true. These entries were not truth coming to light; they were lies. Eliminated.<br/><br/><strong>C. fabrications</strong> — a fabrication is a made-up falsehood. Plug in: \"recognized as fabrications\" = recognized as made-up lies. This matches exactly what hoax entries are. Correct.<br/><br/><strong>D. enhancements</strong> — an enhancement is an improvement. Hoax entries did not improve Wikipedia; they deceived readers. Eliminated."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'analyses'</strong>: An analysis is a careful study or examination. Hoax entries are not studies of anything. Plug in: &ldquo;recognized as analyses&rdquo; makes no sense here. &#10007;</li><li><strong>Choice B &mdash; 'revelations'</strong>: A revelation is something newly disclosed that is true and surprising. These entries were lies, not truths coming to light. &#10007;</li><li><strong>Choice C &mdash; 'fabrications'</strong>: A fabrication is a made-up falsehood. Plug in: &ldquo;recognized as fabrications&rdquo; = recognized as invented lies. This matches exactly what fictitious hoax entries are. &#10003;</li><li><strong>Choice D &mdash; 'enhancements'</strong>: An enhancement is an improvement. Hoax entries deceived readers; they did not improve Wikipedia. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

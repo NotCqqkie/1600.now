@@ -1,15 +1,1 @@
-{
-  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_12",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The passage reveals that small white herons prefer extensive canopy cover, while glossy ibises do not share this preference. This difference directly determines the relative effectiveness of canopy-increasing strategies for each species."
-    },
-    {
-      "title": "Determine what the strategies are less likely to do",
-      "content": "Choice A correctly infers that canopy-increasing strategies will be less likely to attract glossy ibises than small white herons. Choices B, C, and D either introduce factors the passage doesn't address or contradict its findings. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f6d1c961-52d1-4186-baf5-d276dfd4939f_12","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says small white herons prefer extensive canopy cover, but glossy ibises do not share that preference. The blank completes a conclusion: canopy-increasing strategies are less likely to ____. The correct completion must follow directly from the data."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'attract glossy ibises to the area than they are to attract small white herons to the area.'</strong>: Since glossy ibises don't prefer canopy cover but small white herons do, a canopy-increasing strategy would benefit herons more than ibises &mdash; so it is less likely to attract ibises. This follows directly from the passage. &#10003;</li><li><strong>Choice B &mdash; 'extend the average lifespan of small white herons already in the area than they are to attract a greater number of those birds to the area.'</strong>: The passage compares the two species, not lifespan vs. attraction for one species. This distinction is not in the passage. &#10007;</li><li><strong>Choice C &mdash; 'decrease the area&apos;s appeal to both small white herons and glossy ibises than they are to increase the appeal to other species.'</strong>: The passage says herons prefer canopy cover, so a canopy-increasing strategy would increase appeal to herons &mdash; not decrease it. This contradicts the passage. &#10007;</li><li><strong>Choice D &mdash; 'attract birds that don&apos;t typically live in wetlands to the area than they are to attract small white herons or glossy ibises to the area.'</strong>: Non-wetland birds are never mentioned. This introduces information outside the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

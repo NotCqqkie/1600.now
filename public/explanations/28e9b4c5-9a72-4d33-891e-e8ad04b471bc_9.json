@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_9", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Locate the author's core assertion", "content": "The author explicitly states that “mass extinctions, while abrupt in geological terms, unfold over thousands or millions of years” and that “it's likely that multiple factors drove widespread species loss.”"}, {"title": "Match the assertion to the answer", "content": "Answer A is correct because it directly aligns with the author's stated position: the extinction occurred over a prolonged period and involved multiple causal factors.<br/><br/>Choices B, C, and D all make claims unsupported by the passage.<br/><br/>The author's emphasis on prolonged timescales and multiple causes directly supports only answer A.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which statement the author would <strong>most likely agree with</strong>. The answer must be directly supported by the passage &mdash; not inferred beyond what is stated."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It occurred over a long period of time and probably had multiple causes.'</strong>: The passage states mass extinctions &quot;unfold over thousands or millions of years&quot; and that &quot;multiple factors drove widespread species loss.&quot; Both parts are directly supported. &#10003;</li><li><strong>Choice B &mdash; 'It likely involved the extinction of more species than is typically believed.'</strong>: The passage says about 75% of species died off but never claims this number is underestimated. &#10007;</li><li><strong>Choice C &mdash; 'It is hard to detect in Earth&apos;s fossil or geological records.'</strong>: The passage does not mention fossil or geological records at all. &#10007;</li><li><strong>Choice D &mdash; 'It was discovered only recently and is poorly understood.'</strong>: The passage says nothing about when the extinction was discovered or how well it is understood. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

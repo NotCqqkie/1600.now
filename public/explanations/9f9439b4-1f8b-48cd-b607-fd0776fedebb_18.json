@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the plural subject",
-      "content": "The subject is \u201cThe historian's books\u201d\u2014the head noun is <strong>books</strong>, which is plural. The possessive \u201chistorian's\u201d and the prepositional phrase \u201cabout Zachary Taylor\u201d modify the subject but don't change its number."
+      "title": "Identify what the question needs",
+      "content": "The blank is the main verb of the sentence. The subject is &quot;The historian's books about Zachary Taylor&quot; — the head noun is <strong>books</strong>, which is plural. The possessive &quot;historian's&quot; and the prepositional phrase &quot;about Zachary Taylor&quot; modify the subject but do not change its number. The verb must agree with <em>books</em>."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires the verb to match the subject's number. Since the subject is plural, the verb must be plural\u2014\u201dare\u201d is the only plural form. The other three are singular and violate this rule. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'are'</strong>: plural present tense — matches the plural subject <em>books</em>. &#10003;</li><li><strong>Choice B &mdash; 'was'</strong>: singular past tense — does not agree with the plural <em>books</em>. &#10007;</li><li><strong>Choice C &mdash; 'has been'</strong>: singular present-perfect — does not agree with the plural <em>books</em>. &#10007;</li><li><strong>Choice D &mdash; 'is'</strong>: singular present tense — does not agree with the plural <em>books</em>. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

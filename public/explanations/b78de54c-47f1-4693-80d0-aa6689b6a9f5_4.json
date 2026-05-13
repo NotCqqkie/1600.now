@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the counterintuitive paradox",
-      "content": "Normally, price increases reduce demand. But here, comic book prices rose while demand surged (\"buyers...suddenly thronged the market\"). The blank must describe what the price rise caused."
+      "title": "Identify what the question needs",
+      "content": "The passage says rising comic book prices had &ldquo;the counterintuitive effect of ______ demand.&rdquo; Normally price increases reduce demand, but here buyers flooded the market. The blank must describe what the price rise caused &mdash; a word meaning triggered or set off."
     },
     {
-      "title": "Apply the word meaning",
-      "content": "The blank describes what the price rise did to demand. Substitute each word into \"rising prices had the counterintuitive effect of ______ demand\":<br/><br/><strong>A. Monetizing</strong> means converting something into a source of revenue. The blank describes what happened to demand, not whether anyone profited — this word doesn't fit the causal structure.<br/><br/><strong>B. Precipitating</strong> means to cause or trigger something suddenly. \"Rising prices precipitating a surge in demand\" captures the causal chain: the price increase triggered buyers to flood the market. &#10003;<br/><br/><strong>C. Stabilizing</strong> means making something steady. The passage describes buyers suddenly thronging the market — a spike, not stability. This contradicts the passage.<br/><br/><strong>D. Exploiting</strong> means taking unfair advantage of something. Rising prices didn't take advantage of demand; the buyers are the ones responding to opportunity — the direction of the action is wrong.<br/><br/><strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;monetizing&rsquo;</strong>: To monetize means to convert something into a source of revenue. The blank describes what happened to demand, not whether anyone profited &mdash; this word does not fit the causal structure. &#10007;</li><li><strong>Choice B &mdash; &lsquo;precipitating&rsquo;</strong>: To precipitate means to cause or trigger something suddenly. &ldquo;Rising prices precipitating a surge in demand&rdquo; captures the causal chain: the price increase triggered buyers to flood the market. &#10003;</li><li><strong>Choice C &mdash; &lsquo;stabilizing&rsquo;</strong>: To stabilize means to make something steady. The passage describes buyers suddenly thronging the market &mdash; a spike, not stability. This contradicts the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;exploiting&rsquo;</strong>: To exploit means to take unfair advantage of something. Rising prices did not take advantage of demand; the buyers are the ones responding to opportunity &mdash; the direction of the action is wrong. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

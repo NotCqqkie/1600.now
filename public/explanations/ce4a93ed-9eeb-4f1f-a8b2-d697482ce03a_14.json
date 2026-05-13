@@ -1,1 +1,15 @@
-{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what outweighed credentials", "content": "The passage says doctors' credentialed status was 'outweighed' by participants' views of <strong>experiential relevance</strong> — the personal trial experience that volunteers had but doctors lacked."}, {"title": "Match the outweighed factor", "content": "Choice D directly states that volunteers' shared trial experience was more important to participants than doctors' credentials.<br/><br/>The others either focus on participants' evaluation ability (A), message tone (B), or mischaracterize messenger experience (C).<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says that participants judged former trial volunteers&rsquo; messages as more credible than doctors&rsquo; messages. The reason given is <strong>experiential relevance</strong>: volunteers had personally been through the trial; doctors had not. The blank must complete the explanation of why experiential relevance outweighed credentials."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;participants did not have enough experience to evaluate the doctors&rsquo; messages&rsquo;</strong>: focuses on participants&rsquo; ability to evaluate &mdash; not on experiential relevance of the messengers. The passage never says participants lacked evaluation ability. &#10007;</li><li><strong>Choice B &mdash; &lsquo;messages from former volunteers depicted clinical trials as more positive&rsquo;</strong>: introduces message tone or framing, which the passage does not mention at all. &#10007;</li><li><strong>Choice C &mdash; &lsquo;participants regarded the experiences of both doctors and volunteers as relevant but were skeptical of credentials&rsquo;</strong>: misrepresents the logic. The passage says credentials were not ignored &mdash; they were simply <em>outweighed</em>. And doctors&rsquo; experience with clinical trials is not described as relevant in the same way. &#10007;</li><li><strong>Choice D &mdash; &lsquo;the fact that former trial volunteers went through the same experience that participants were contemplating&hellip; was more important than the doctors&rsquo; credentials&rsquo;</strong>: directly captures experiential relevance &mdash; volunteers shared the exact experience participants were considering, while doctors did not &mdash; and correctly frames this as outweighing credentials. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

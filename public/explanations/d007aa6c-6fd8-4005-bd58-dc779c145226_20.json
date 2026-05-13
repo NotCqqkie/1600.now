@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "<strong>Side 1</strong> is an independent clause (“Deposits of crushed volcanic rock...visitors” with a subject and verb) that ends at the blank.<br/><br/><strong>Side 2</strong> is a dependent clause starting with “When they take...” (dependent on the first clause for full meaning)."}, {"title": "Apply the rule for independent + dependent clauses", "content": "An independent clause followed by a dependent clause that begins with “When” requires no punctuation between them. <strong>Choice C</strong> adds a period and capitalizes “When,” turning the second clause into an independent clause, which violates the sentence boundary rules for dependent clauses.<br/><br/>The comma in <strong>B</strong> incorrectly separates an independent and dependent clause.<br/><br/>Periods in <strong>A, B, C</strong> misapply sentence boundaries.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage has two parts separated by the blank. The first part (&quot;Deposits of crushed volcanic rock&hellip; dazzles [blank] visitors&quot;) needs to end cleanly. The second part (&quot;When they take a bit of sand home, though, it disturbs the beach&apos;s ecosystem&hellip;&quot;) is a full independent clause with its own subject (&apos;it&apos;) and verb (&apos;disturbs&apos;) &mdash; it can stand alone as a sentence. The blank must produce a punctuation choice that correctly separates these two independent clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;visitors when&apos;</strong>: No punctuation between the two clauses creates a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; &apos;visitors, when&apos;</strong>: A comma alone cannot join two independent clauses &mdash; this is a comma splice. &#10007;</li><li><strong>Choice C &mdash; &apos;visitors. When&apos;</strong>: A period ends the first independent clause and starts a new sentence. &quot;When they take&hellip; it disturbs&hellip;&quot; is a complete sentence (the &apos;when&apos; clause modifies &apos;it disturbs&apos;). Two properly punctuated sentences &mdash; correct. &#10003;</li><li><strong>Choice D &mdash; &apos;visitors and when&apos;</strong>: &apos;And when&apos; would require parallel structure with another main clause, but none follows; this creates an awkward, ungrammatical construction. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

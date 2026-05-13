@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the passage structure",
-      "content": "The passage makes a broad claim (\u201cother animals also find tools helpful\u201d) and immediately follows it with specific examples. The underlined sentence is the first of these examples, positioned right after the general claim."
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <strong>function</strong> of the underlined sentence: &quot;Octopuses use two halves of a seashell to provide protection or a place to hide.&quot; The sentence appears right after the general claim that &quot;other animals also find tools helpful.&quot;"
     },
     {
-      "title": "Identify which choice names the correct function",
-      "content": "Choice C accurately names this function\u2014it provides one example of tool use in a nonhuman animal. The other choices either misidentify the subject (A, about humans) or impose comparisons (B and D) that the sentence doesn't make. <br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;It explains that humans use tools for many different tasks.&quot;</strong>: The sentence is about octopuses, not humans. &#10007;</li><li><strong>Choice B &mdash; &quot;It argues that octopuses use tools more often than other animals do.&quot;</strong>: No comparison of frequency is made. &#10007;</li><li><strong>Choice C &mdash; &quot;It provides one example of tool use in a nonhuman animal.&quot;</strong>: Exactly right &mdash; it gives one specific instance (octopuses + seashells) to back up the general claim. &#10003;</li><li><strong>Choice D &mdash; &quot;It emphasizes that octopuses are smarter than birds.&quot;</strong>: No ranking of intelligence is made. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the opening contrast", "content": "The passage opens with an explicit contrast—”The sermon is [a sound]... a book printed is a record.” This immediately signals that Defoe is comparing two things and will detail what distinguishes them."}, {"title": "Match to the correct purpose", "content": "Choice D says the passage “describes differences in the characteristics of two kinds of communication.” It does exactly that—sermons are ephemeral and memory-dependent, while books are permanent records.<br/><br/>A, B, and C reference elements not present in the passage: critical reception, scholars' contributions, and usage frequency.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <strong>main purpose</strong> of the Defoe passage. Identify what the passage actually does: it compares a sermon (spoken, temporary, memory-limited) to a printed book (permanent record, always retrievable, survives the author)."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;It recounts why the works of some artists are still discussed by critics after the artists&apos; deaths while others are not.&quot;</strong>: Critics are never mentioned. &#10007;</li><li><strong>Choice B &mdash; &quot;It analyzes the contributions to society of two different groups of scholars.&quot;</strong>: No scholars or social contributions appear. &#10007;</li><li><strong>Choice C &mdash; &quot;It demonstrates that one form of communication is more commonly used than another.&quot;</strong>: Usage frequency is never discussed. &#10007;</li><li><strong>Choice D &mdash; &quot;It describes differences in the characteristics of two kinds of communication.&quot;</strong>: Exactly right &mdash; the passage contrasts the ephemeral nature of sermons with the permanence of printed books. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

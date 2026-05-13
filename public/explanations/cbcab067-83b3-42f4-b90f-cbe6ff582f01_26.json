@@ -1,15 +1,1 @@
-{
-  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_26",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what counts as research methods",
-      "content": "The student wants to present the study's research methods: the concrete procedures and data collection approaches, not the study's goals, implications, or findings."
-    },
-    {
-      "title": "Find the choice that describes procedures",
-      "content": "Choice B directly states the procedures: analyzed age and oxidation levels, samples from two seafloor ridges. The other three focus on the research goal, aim, or context rather than the actual analytical methods employed. This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cbcab067-83b3-42f4-b90f-cbe6ff582f01_26","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to present the study&apos;s research methods &mdash; the concrete procedures used to collect and analyze data. The correct choice must describe what the researchers actually did, not why they did it, what they concluded, or what their findings imply."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;To further analyze the origins of Earth&apos;s unique conditions, researchers focused on rocks from the Archean eon, when Earth&apos;s temperatures were extremely high.&apos;</strong>: States a goal (&apos;to further analyze&apos;) and context, not the actual methods employed. &#10007;</li><li><strong>Choice B &mdash; &apos;Birner&apos;s team analyzed the age and oxidation levels of rock samples collected from two seafloor ridges.&apos;</strong>: Names the analytical procedures (analyzing age and oxidation levels) and the data source (samples from two seafloor ridges) &mdash; the research methods. &#10003;</li><li><strong>Choice C &mdash; &apos;Birner led a study to better understand the history of Earth&apos;s mantle and explain the conditions that allowed life to develop.&apos;</strong>: Describes the study&apos;s goals, not its methods. &#10007;</li><li><strong>Choice D &mdash; &apos;By studying these ancient rocks, the team aimed to challenge previous theories about changes in Earth&apos;s mantle over time.&apos;</strong>: Describes the team&apos;s aim, not the procedural methods. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

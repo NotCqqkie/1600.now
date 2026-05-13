@@ -1,1 +1,15 @@
-{"questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the cause-and-effect relationship", "content": "The first sentence establishes that the graphics lack organic realism because they're built from perfect geometric shapes. The second sentence describes what this deficiency looks like: unnaturally precise angles and curves. The transition must connect these as cause and consequence."}, {"title": "Match the meaning to the choices", "content": "”As such” expresses a consequence—it directly shows that the unnaturally precise angles and curves result from the graphics lacking organic realism.<br/><br/>The other three fail to capture this relationship: “In addition” treats it as separate information, “In conclusion” wrongly implies finality, and “However” introduces a non-existent contrast.<br/><br/>This transition completes the logical chain from the problem (lack of realism) to its visible manifestation (precise angles and curves).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence says 3D graphics <strong>lack organic realism</strong> because they are built from perfect geometric shapes. The second sentence describes what this looks like: unnaturally precise angles and curves. The blank must connect these two sentences as <strong>cause &rarr; result</strong>."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;As such,&rsquo;</strong>: signals a logical consequence &mdash; the precise angles and curves result directly from the graphics lacking organic realism. That is exactly the relationship in the passage. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In addition,&rsquo;</strong>: signals additional information of the same type, not a consequence. The second sentence is not adding a separate point; it is showing the result of the first. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In conclusion,&rsquo;</strong>: signals a final summary drawn from multiple prior points. There is only one prior sentence, and the second sentence is a consequence, not a conclusion. &#10007;</li><li><strong>Choice D &mdash; &lsquo;However,&rsquo;</strong>: signals a contrast. There is no contrast &mdash; unnaturally precise angles are a direct result of building graphics from perfect shapes, not a contradiction of it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

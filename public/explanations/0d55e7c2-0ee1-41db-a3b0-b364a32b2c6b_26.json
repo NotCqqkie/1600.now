@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's stated goal",
-      "content": "The prompt explicitly states the student wants to specify the shawl's name in Choctaw. Looking at the notes, the Choctaw name for the shawl is <em>anchi</em>."
+      "title": "Identify what the question needs",
+      "content": "The goal is to specify the shawl's name in Choctaw. The notes state that the shawl is called <em>anchi</em> in Choctaw. A correct answer must state that Choctaw name explicitly."
     },
     {
-      "title": "Evaluate which choice provides that specification",
-      "content": "Choice A directly accomplishes the goal by stating the shawl \u201cis called an anchi in Choctaw\u201d. Choices B, C, and D omit the shawl's Choctaw name or include unrelated information. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'The cloth shawl ... is called an anchi in Choctaw.'</strong>: Directly names the shawl as <em>anchi</em> in Choctaw &mdash; exactly what the goal requires. &#10003;</li><li><strong>Choice B &mdash; 'Hina Hanta ... includes a shawl in its archive.'</strong>: Mentions the shawl but gives no Choctaw name for it. &#10007;</li><li><strong>Choice C &mdash; 'The Hina Hanta archive features cultural artifacts, such as a shawl and a fanner basket ...'</strong>: Lists the shawl among artifacts but omits its Choctaw name. &#10007;</li><li><strong>Choice D &mdash; 'The name of the online archive Hina Hanta means &quot;bright path&quot; in Choctaw.'</strong>: Gives the Choctaw meaning of the archive's name, not the shawl's name. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

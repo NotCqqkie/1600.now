@@ -1,1 +1,15 @@
-{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key disagreement", "content": "Text 1 claims the selection obviously delivers awareness and tourism benefits. Text 2's “However” introduces a competing view: benefits aren't automatic—cities need intentional marketing strategies, or visitors won't even be aware."}, {"title": "Find the choice expressing Text 2's response", "content": "Choice B concedes that the city “may have benefited” but emphasizes that tourism gains require active marketing and awareness—precisely what Text 2 argues.<br/><br/>The other three address different matters: who deserves selection credit (A), timeliness of the honor (C), and benefits beyond tourism (D).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Text 1 claims it is <em>obvious</em> that UNESCO&rsquo;s selection boosted awareness and tourism. Text 2 pushes back with &quot;However&quot;: cities must create intentional marketing strategies or visitors won&rsquo;t even know about the designation. The question asks what Text 2&rsquo;s author would most likely say in response to that underlined claim."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Many people worked together&hellip;chefs deserve the most credit'</strong>: Text 2 never discusses who deserves credit for the selection. &#10007;</li><li><strong>Choice B &mdash; 'Belo Horizonte may have benefited&hellip;but tourism can likely be further increased by making more potential visitors aware'</strong>: This concedes some benefit while arguing that awareness requires active promotion &mdash; exactly Text 2&rsquo;s argument. &#10003;</li><li><strong>Choice C &mdash; 'The naming was long overdue'</strong>: Text 2 says nothing about the timing of the selection. &#10007;</li><li><strong>Choice D &mdash; 'Benefits extend well beyond tourism'</strong>: Text 2 focuses narrowly on tourism and marketing; it does not claim broader benefits. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

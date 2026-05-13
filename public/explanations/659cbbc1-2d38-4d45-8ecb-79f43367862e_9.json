@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the roots from the table",
-      "content": "The table shows three points. Notice that rows 2 and 3 both have $y = 0$, meaning those $x$-values are roots of the quadratic: $x = -\\frac{5}{9}$ and $x = 6$."
+      "title": "Set up",
+      "content": "The table shows $y = 0$ when $x = 6$, so $x = 6$ is a root. Substitute $(6, 0)$ into $y = 36x^2 - bx - 120$: $$0 = 36(6)^2 - b(6) - 120$$"
     },
     {
-      "title": "Substitute one root into the equation to solve for b",
-      "content": "Plug the point $(6, 0)$ into $y = 36x^2 - bx - 120$:<br/>$$0 = 36(6)^2 - b(6) - 120$$<br/>$$0 = 1296 - 6b - 120$$<br/>$$0 = 1176 - 6b$$<br/>$$b = \\frac{1176}{6} = 196$$"
+      "title": "Solve",
+      "content": "$$0 = 1296 - 6b - 120$$ $$6b = 1176$$ $$b = 196$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>196</strong> is correct."
     }
   ]
 }

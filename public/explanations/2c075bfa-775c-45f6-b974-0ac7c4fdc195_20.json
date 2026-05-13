@@ -1,15 +1,1 @@
-{
-  "questionId": "2c075bfa-775c-45f6-b974-0ac7c4fdc195_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the pronoun refers to",
-      "content": "The sentence says astronomers \"attributed ______ to the gravitational influence of the previously unknown planet.\" The pronoun stands in for what was attributed — the wobble that the astronomers were observing. \"The wobble\" is singular and non-human."
-    },
-    {
-      "title": "Choose the pronoun that matches",
-      "content": "Rule: a pronoun must match its antecedent in number. \"The wobble\" is singular.\n\nA. \"them\" — plural personal pronoun. Fails: \"the wobble\" is singular, not plural.\nB. \"it\" — singular personal pronoun for non-human nouns. Correctly replaces \"the wobble.\" Correct.\nC. \"these\" — plural demonstrative pronoun. Fails: number mismatch; also implies pointing to multiple things just mentioned, not one wobble.\nD. \"each\" — distributive pronoun used when referring to individual members of a group separately. Fails: there is no group of wobbles to distribute across; the referent is a single phenomenon.\n\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c075bfa-775c-45f6-b974-0ac7c4fdc195_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &quot;astronomers...attributed ______ to the gravitational influence of the previously undetected exoplanet.&quot; The pronoun must replace &quot;the wobble&quot; &mdash; a singular, non-human noun. It must agree in number with its antecedent."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;them&apos;</strong>: plural personal pronoun. &quot;The wobble&quot; is singular, so number does not agree. &#10007;</li><li><strong>Choice B &mdash; &apos;it&apos;</strong>: singular personal pronoun for non-human nouns. Correctly replaces the singular &quot;the wobble.&quot; &#10003;</li><li><strong>Choice C &mdash; &apos;these&apos;</strong>: plural demonstrative pronoun. Number does not agree with the singular antecedent; also implies multiple things, not one wobble. &#10007;</li><li><strong>Choice D &mdash; &apos;each&apos;</strong>: distributive pronoun used to refer to individual members of a group separately. There is no group of wobbles &mdash; the referent is a single phenomenon. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

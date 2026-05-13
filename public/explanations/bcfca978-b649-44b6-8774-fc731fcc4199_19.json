@@ -1,15 +1,1 @@
-{
-  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_19",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the modifying phrase",
-      "content": "The blank comes after \u201cUS\u201d and before the infinitive phrase \u201cto have been led by a woman.\u201d This phrase modifies the noun, so the noun must be a plural common noun that can be described as having been led by a woman."
-    },
-    {
-      "title": "Apply the noun form rule",
-      "content": "Choice C gives \u201cstates and territories,\u201d two plural nouns that fit the description and need no apostrophe. The other choices either incorrectly add apostrophes (making possessive forms) or mismatch singular/plural, which breaks the sentence. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"bcfca978-b649-44b6-8774-fc731fcc4199_19","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says New Mexico joined the list of US ______ to have been led by a woman. The blank is a plural noun phrase &mdash; it refers to multiple states and territories collectively. No possession is involved, so no apostrophe is needed."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'states and territory&apos;s'</strong>: adds an apostrophe to &quot;territory's,&quot; making it possessive. Nothing is owned here. &#10007;</li><li><strong>Choice B &mdash; 'state&apos;s and territories&apos;'</strong>: marks both nouns as possessive. Still no possession in the sentence. &#10007;</li><li><strong>Choice C &mdash; 'states and territories'</strong>: plain plurals, no apostrophes. Fits the sentence perfectly &mdash; New Mexico joined a list of places (states and territories) that have been led by a woman. &#10003;</li><li><strong>Choice D &mdash; 'state&apos;s and territories'</strong>: makes &quot;state's&quot; possessive but leaves &quot;territories&quot; as a plain plural. Inconsistent and still wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The colon after the blank tells you the rest of the sentence defines the blank. That definition: <em>\"constantly evolving network of channels and strips of land that change in size and shape.\"</em> The word must mean constantly changing."
+      "title": "Identify what the question needs",
+      "content": "The colon after the blank signals that the rest of the sentence defines the blank: &quot;a constantly evolving network of channels and strips of land that change in size and shape.&quot; The word must mean constantly changing or active."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. Immutable</strong> means unchanging or permanent. The delta <em>constantly evolves</em> — direct contradiction. Eliminated.<br/><br/><strong>B. Unrivaled</strong> means having no equal. Nothing in the passage compares the delta to other deltas. Eliminated.<br/><br/><strong>C. Sustainable</strong> means able to be maintained long-term. The passage is about physical transformation, not environmental durability. Eliminated.<br/><br/><strong>D. Dynamic</strong> means characterized by constant change and activity. Substituting: <em>\"the Danube River delta is dynamic: it is a constantly evolving network...\"</em> — the colon definition confirms it exactly. <strong>D is correct.</strong>"
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'immutable'</strong>: means unchanging or permanent. The delta <em>constantly evolves</em> &mdash; direct contradiction. &#10007;</li><li><strong>Choice B &mdash; 'unrivaled'</strong>: means having no equal. The passage never compares the delta to other deltas. &#10007;</li><li><strong>Choice C &mdash; 'sustainable'</strong>: means able to be maintained long-term. The passage describes physical transformation, not environmental durability. &#10007;</li><li><strong>Choice D &mdash; 'dynamic'</strong>: means characterized by constant change and activity. Substituting: &quot;the Danube River delta is dynamic: it is a constantly evolving network&hellip;&quot; &mdash; the colon definition confirms it exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

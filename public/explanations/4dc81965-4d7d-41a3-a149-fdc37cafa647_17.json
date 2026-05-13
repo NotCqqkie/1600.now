@@ -1,15 +1,1 @@
-{
-  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the participial phrase requirement",
-      "content": "An introductory participial phrase like \u201cfinding that administrative unit GK13 had a 0.62 ratio of native to non-native trees\u201d must be followed by a complete independent clause with a finite main verb."
-    },
-    {
-      "title": "Choose the finite verb",
-      "content": "\u201dRecommended\u201d is a finite verb and correctly forms the main clause: \u201cThe researchers recommended efforts to improve the biodiversity...\u201d The others are non-finite verb forms (participles and infinitive) that cannot serve as main verbs. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"4dc81965-4d7d-41a3-a149-fdc37cafa647_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence already has an introductory participial phrase: &ldquo;finding that administrative unit GK13 had a 0.62 ratio of native to non-native trees.&rdquo; After a participial phrase, the main clause must follow &mdash; and a main clause requires a finite (tensed) verb. The blank is where that finite verb must appear."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;recommended&rsquo;</strong>: A finite past-tense verb. With it, the sentence reads &ldquo;The researchers &hellip; recommended efforts to improve the biodiversity &hellip;&rdquo; &mdash; a complete independent clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;recommending&rsquo;</strong>: A present participle. Using it gives two participial phrases in a row with no finite verb, leaving the sentence without a main clause. &#10007;</li><li><strong>Choice C &mdash; &lsquo;to recommend&rsquo;</strong>: An infinitive. Infinitives cannot serve as the main verb of an independent clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;having recommended&rsquo;</strong>: A perfect participle. Like Choice B, this is non-finite and cannot anchor a main clause. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

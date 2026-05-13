@@ -1,16 +1,1 @@
-{
-  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_20",
-  "correctAnswer": "7",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand the meaning of h in the circle equation",
-      "content": "In the standard form of a circle equation, the value $h$ is the $x$-coordinate of the circle's center, and $k$ is the $y$-coordinate.",
-      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
-    },
-    {
-      "title": "Identify h from the given center",
-      "content": "Since the center is at $(7, 2)$, we have center = $(h, k) = (7, 2)$. Therefore, $h = 7$."
-    }
-  ]
-}
+{"questionId":"9d845a11-6019-4b88-9309-26d92ced4f70_20","correctAnswer":"7","section":"Math","steps":[{"title":"Set up","content":"The standard form of a circle is $(x - h)^2 + (y - k)^2 = r^2$, where $(h, k)$ is the center. The center is given as $(7, 2)$, so $h = 7$ and $k = 2$."},{"title":"Solve","content":"The question asks for $h$. Reading directly from the center: $h = 7$."},{"title":"Answer","content":"<strong>7</strong> is correct."}]}

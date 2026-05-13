@@ -1,1 +1,15 @@
-{"questionId": "75f601af-f444-4475-b27a-742fda616d9b_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key principle", "content": "The strongest clue is Defoe's repeated instruction: when a story has “sufficient authority,” historians must credit “its proper voucher”; when it lacks authority, they must “say so.” Both actions center on the same principle—transparency about source credibility."}, {"title": "Match to the answer", "content": "Choice D states that historians should “clearly indicate the extent to which each of their sources is trustworthy.” This captures Defoe's dual requirement: making source credibility transparent in both strong and weak cases.<br/><br/>The others mischaracterize: <ul><li>A claims records are false rather than unverified</li><li>B restricts historians to credible sources only</li><li>C invents unsupported remorse</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "75f601af-f444-4475-b27a-742fda616d9b_7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Defoe makes two paired claims about what historians must do. When a story has &quot;sufficient authority,&quot; the historian must give the world &quot;the special testimonial of its proper voucher&quot; (credit the source). When it lacks authority, the historian must &quot;say so.&quot; Both duties share the same principle: the historian must be transparent about how credible each source is."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; all historians are forced to admit some records may be false</strong>: Defoe says unverified stories must be labeled as such, not that they are false. He does not claim all historians must confess to falsehoods. &#10007;</li><li><strong>Choice B &mdash; historians should only quote widely credible figures</strong>: Defoe never says historians must exclude weak sources &mdash; only that they must flag them. This is too restrictive. &#10007;</li><li><strong>Choice C &mdash; historians will eventually feel remorse for their work</strong>: No mention of remorse anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; historians should clearly indicate how trustworthy each source is</strong>: This captures Defoe&apos;s dual requirement &mdash; credit strong sources, flag weak ones &mdash; in a single principle: transparency about source credibility. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

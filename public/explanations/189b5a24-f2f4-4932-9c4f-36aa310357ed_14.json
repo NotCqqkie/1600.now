@@ -1,1 +1,15 @@
-{"questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what needs explaining", "content": "Both noise conditions reduce diving, but the <strong>two exposure types had nearly identical effects</strong> — adding sonic pulses on top of ship sounds barely changed anything. We need a reason why adding pulses didn't matter."}, {"title": "Match the choice", "content": "If <strong>ship sounds already dominate</strong> the soundscape, then adding sonic pulses doesn't meaningfully alter the auditory environment — explaining the negligible difference. Choice C states this directly.<br/><br/>A would predict <em>more</em> effect, not less. B contradicts the data (effects were significant). D would predict differences <em>between</em> conditions, not similarity.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank must explain a specific finding: both noise conditions (ship sounds alone vs. ship sounds + sonic pulses) significantly reduced narwhal diving, <em>but the difference between those two conditions was negligible</em>. The answer must explain why adding sonic pulses on top of ship sounds had almost no additional effect."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;sonic pulses can be heard at significantly greater ocean depths than ship sounds can&apos;</strong>: If sonic pulses carry further, we would expect them to have a <em>larger</em> effect on behavior, not a negligible one. &#10007;</li><li><strong>Choice B &mdash; &apos;the narwhals weren&apos;t as sensitive to human-caused sounds as the researchers had predicted&apos;</strong>: Both conditions produced <em>significant</em> decreases in diving. That contradicts insensitivity. &#10007;</li><li><strong>Choice C &mdash; &apos;ship sounds contribute so much to the overall sound level that the addition of sonic pulses has little effect on the narwhals&apos; auditory environment&apos;</strong>: If ship sounds already dominate the soundscape, adding pulses barely changes what the narwhals hear &mdash; explaining why the two conditions produce nearly identical behavior. &#10003;</li><li><strong>Choice D &mdash; &apos;narwhals forage at shallower depths in the presence of ship sounds alone than in the presence of ship sounds coupled with sonic pulses&apos;</strong>: This would predict a <em>difference</em> between conditions, but the passage says differences were negligible. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId":"cf01151f-6ffa-43f7-96af-aa65491fd154_5","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify the function","content":"The underlined sentence uses <em>on the other hand</em> to define horizontal gene transfer by contrasting it with vertical gene transfer. Its job is to explain one process via its distinction from a similar one."},{"title":"Match to the choices","content":"That contrastive purpose is exactly what choice A describes. B (flawed perception), C (future research), and D (claims similarity) all miss the contrast structure. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "cf01151f-6ffa-43f7-96af-aa65491fd154_5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The underlined sentence defines horizontal gene transfer using <em>on the other hand</em> to contrast it with vertical gene transfer, which was just defined. The question asks for the function of that sentence within the passage as a whole."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'It explains a biological process by contrasting it with a somewhat similar process.'</strong>: The sentence defines horizontal gene transfer by explicitly contrasting it with vertical gene transfer via &ldquo;on the other hand.&rdquo; Both are gene transfer processes, making them similar in type. This matches exactly. &#10003;</li><li><strong>Choice B &mdash; 'It explains why a common perception of a biological process is flawed.'</strong>: The sentence makes no mention of a common perception being wrong &mdash; it simply defines two processes. &#10007;</li><li><strong>Choice C &mdash; 'It proposes a direction for future research into a biological phenomenon.'</strong>: The sentence contains no suggestion about future research; it is purely definitional. &#10007;</li><li><strong>Choice D &mdash; 'It argues that two biological phenomena are more similar than they may initially appear to be.'</strong>: The sentence uses contrast language (&ldquo;on the other hand&rdquo;) to distinguish the two processes &mdash; it emphasizes difference, not similarity. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

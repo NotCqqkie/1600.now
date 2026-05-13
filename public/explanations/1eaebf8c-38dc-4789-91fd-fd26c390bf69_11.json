@@ -1,1 +1,15 @@
-{"questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the evidence pattern shows", "content": "The key signal is <em>“several other studies conducted outside North America... showed similar results to the North American studies, while few have produced results similar to those of Porvari and Verta's study.”</em> Most studies across regions found the positive association; few found no correlation."}, {"title": "Apply this pattern to the answer choices", "content": "Choice D expresses the logical conclusion: <em>“dissolved organic carbon and mercury levels do typically rise and fall together in fresh water.”</em> When most evidence points to the positive association globally, that association is typical and widespread.<br/><br/>The other three contradict this—A wrongly claims the association is particular to North America when it's actually found widely, while B and C introduce irrelevant concerns the passage doesn't support.<br/><br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1eaebf8c-38dc-4789-91fd-fd26c390bf69_11",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank completes the word &quot;suggesting that ______&quot; — the conclusion must follow logically from the evidence. The passage says most studies outside North America found the same positive association between dissolved organic carbon and mercury, while <em>few</em> matched Porvari and Verta's no-correlation result. The correct answer reflects what the majority of evidence actually shows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'the hypothesis that the positive association is particular to North America is correct'</strong>: contradicted directly — multiple non-North-American studies showed the same positive association, so it is not particular to North America. &#10007;</li><li><strong>Choice B &mdash; 'levels of dissolved organic carbon and mercury in bodies of fresh water are both much higher in Finland than elsewhere'</strong>: the passage says nothing about absolute levels in Finland; it only describes whether the two variables correlate. &#10007;</li><li><strong>Choice C &mdash; 'there were circumstances unique to Ekstrom and colleagues' study that impeded accurate measurements'</strong>: the passage presents Ekstrom's study as supporting the majority view, not as flawed. &#10007;</li><li><strong>Choice D &mdash; 'dissolved organic carbon and mercury levels do typically rise and fall together in fresh water'</strong>: most studies globally found the positive association; that is exactly what &quot;typically&quot; captures. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

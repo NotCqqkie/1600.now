@@ -1,1 +1,15 @@
-{"questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the claim", "content": "The student claims that <strong>some modern southwestern irrigation methods predate Lake Sabrina (1908)</strong>. The supporting quotation must show a current irrigation method whose lineage goes back well before 1908."}, {"title": "Match the choice", "content": "<strong>Choice C</strong> describes the Hohokam people's irrigation system from the <em>7th century CE</em> using engineering principles <em>still utilized by today's engineers</em> — directly tying a modern method to one that predates 1908 by over a millennium.<br/><br/>A focuses on a 20th-century method. B and D discuss modern importance but don't establish a pre-1908 lineage.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5fe11073-c749-47d4-9e43-2addecd1932f_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student claims that <strong>some modern southwestern irrigation methods have a lineage predating Lake Sabrina (completed 1908)</strong>. The supporting quotation must show a current method whose origin goes back well before 1908."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;Sprinkler irrigation systems, which were developed in the late 20th century...&apos;</strong>: originated after 1908 &mdash; does not establish a pre-1908 lineage. &#10007;</li><li><strong>Choice B &mdash; &apos;In the decades following the Second World War, irrigation...increased...&apos;</strong>: discusses growth of irrigation post-1945, no connection to pre-1908 origins. &#10007;</li><li><strong>Choice C &mdash; &apos;The irrigation system developed by the Hohokam people...in the 7th century CE...made use of hydraulic engineering design principles that are still utilized by today&apos;s engineers.&apos;</strong>: links a modern method directly to a 7th-century origin &mdash; over 1,200 years before 1908. &#10003;</li><li><strong>Choice D &mdash; &apos;The importance of the development of irrigation infrastructure...today cannot be overstated...&apos;</strong>: speaks to current importance only, not historical lineage. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

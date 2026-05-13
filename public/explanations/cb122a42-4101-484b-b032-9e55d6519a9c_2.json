@@ -1,15 +1,1 @@
-{
-  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the evidence of outperformance",
-      "content": "The passage compares the program's performance to the road-map method's, then provides evidence: \u201cit more accurately identified sidewalks, and it even distinguished between cobblestone and brick.\u201d This phrase directly shows the Hosseini program outperformed the road-map method."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dSuperior\u201d (higher in quality or better) fits because the passage demonstrates the program is better than the road-map method. The other three contradict the evidence of outperformance or describe unrelated relationships. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cb122a42-4101-484b-b032-9e55d6519a9c_2","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes how the Hosseini program&apos;s performance compares to the road-map method. The sentence then gives two pieces of evidence: it more accurately identified sidewalks, and it distinguished between cobblestone and brick. The blank must capture that the program outperformed the road-map method."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;superior&apos;</strong>: means higher in quality or better. The evidence directly shows the program bested the road-map method. &#10003;</li><li><strong>Choice B &mdash; &apos;supportive&apos;</strong>: means giving support or assistance. The program is being compared to the method, not helping it. &#10007;</li><li><strong>Choice C &mdash; &apos;similar&apos;</strong>: means comparable or alike. The passage says the program was more accurate, not equally accurate. &#10007;</li><li><strong>Choice D &mdash; &apos;changed&apos;</strong>: means altered or different in form. This describes a transformation, not a quality comparison. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

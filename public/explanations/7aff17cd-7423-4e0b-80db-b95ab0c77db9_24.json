@@ -1,1 +1,15 @@
-{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_24", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the purpose the student wants to emphasize", "content": "The notes explain that each day was named “as a way of honoring an aspect of rural life.” This is the core fact the student needs to highlight."}, {"title": "Select the choice that emphasizes this purpose with evidence", "content": "Choice A states the purpose (days honored “an aspect of rural life”) and supports it with a specific example (the goose, an animal).<br/><br/>Choices B, C, and D describe structural mechanics (B) or the distinctiveness of names (C, D), none of which conveys how the calendar honored rural life.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student wants to emphasize <em>how</em> the French Republican calendar honored rural life. The relevant note is: &quot;Each day was named after a plant, animal, agricultural tool, or mineral <strong>as a way of honoring an aspect of rural life</strong>.&quot; The answer must state that purpose and support it with a concrete example from the notes."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Each day in the French Republican calendar was given a name honoring an aspect of rural life; for example, a day in Brumaire was named for an animal, the goose.'</strong>: states the purpose (honoring rural life) and backs it with a specific example (Oie = goose, an animal). &#10003;</li><li><strong>Choice B &mdash; 'The second month in the French Republican calendar, Brumaire, had three weeks that were divided into ten days each.'</strong>: describes the calendar's structure, not how it honored rural life. &#10007;</li><li><strong>Choice C &mdash; 'Each day in the French Republican calendar was given a unique name; the fifth day of Brumaire was no exception.'</strong>: emphasizes that names are unique, not that they honored rural life. &#10007;</li><li><strong>Choice D &mdash; 'Each day in the French Republican calendar's month of Brumaire had a unique name.'</strong>: same problem as C — focuses on uniqueness, not the rural-life purpose. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

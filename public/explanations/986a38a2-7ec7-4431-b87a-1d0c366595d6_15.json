@@ -1,15 +1,1 @@
-{
-  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key finding",
-      "content": "<strong>The researchers found that the expected density\u2011size relationship held for the medieval settlements.</strong><br/>This shows that, contrary to their hypothesis, the pattern did not differ from that of modern cities."
-    },
-    {
-      "title": "Apply the clue to the choices",
-      "content": "<strong>Choice B</strong> captures this by saying there is a notable consistency between medieval and modern cities in the underlying social and economic interactions that shape urban development.<br/>The other three either claim a limitation, a difference, or an uneven effect that the passage does not support.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"986a38a2-7ec7-4431-b87a-1d0c366595d6_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank must complete a logical conclusion: the researchers <em>hypothesized</em> the density-size relationship would differ in medieval settlements, but found it <em>held</em> for all 173. The conclusion must follow from that finding &mdash; the hypothesis was wrong."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'although there tends to be a positive relationship between population size and development of core urban areas for both medieval settlements and modern cities, social institutions likely limited the rate at which population density increased in medieval settlements.'</strong>: Claims institutions slowed density growth &mdash; but the text says the expected pattern held, meaning no notable constraint. &#10007;</li><li><strong>Choice B &mdash; 'despite a change in the role of social structures over time, there is likely a notable consistency between medieval settlements and modern cities in underlying elements of the social and economic interactions among individuals that shape the development of core urban areas.'</strong>: Directly follows from the finding: the density-size relationship held, so the underlying social/economic drivers are consistent across eras despite structural differences. &#10003;</li><li><strong>Choice C &mdash; 'the social and economic dynamics that affect urban agglomeration were likely much different in medieval settlements than in modern cities, despite the similarity across time in population density patterns.'</strong>: Contradicts the conclusion &mdash; if dynamics were different, the same pattern would need another explanation the text doesn&quot;t provide. &#10007;</li><li><strong>Choice D &mdash; 'the constraining influence of hierarchical medieval institutions likely had a significant effect on individuals in some social groupings but little to no effect on members of other social groupings.'</strong>: Introduces an uneven sub-group effect not supported anywhere in the text. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

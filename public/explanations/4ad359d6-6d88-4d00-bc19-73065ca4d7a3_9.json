@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The opening sentence establishes the thesis: \u201cinitiatives that rely on natural features or processes can help address such challenges.\u201d The blueback salmon example illustrates this principle in action\u2014showing how a nature-based intervention (restoring logjams) solves a conservation problem."
+      "title": "Identify what the question needs",
+      "content": "The question asks for the <strong>main idea</strong> of the passage. The passage opens with a thesis &mdash; &quot;initiatives that rely on natural features or processes can help address such challenges&quot; &mdash; and then gives one example: restoring logjams to help blueback salmon recover. The correct answer must capture that thesis, not just the example."
     },
     {
-      "title": "Match the claim to the choices",
-      "content": "Choice D restates the passage's central claim directly: nature-based approaches work as conservation tools. <br/><br/>A narrows the focus to partnership and collaboration, which the passage mentions but doesn't emphasize as its main point. B zeroes in on a single detail (logjams help salmon spawn) rather than the broader lesson the passage teaches. C invents a comparison between nature-based and non-nature-based methods and attributes a new realization to scientists\u2014neither claim appears in the text. <br/><br/>The passage demonstrates that a nature-based method succeeded at conservation, proving the opening premise. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;A partnership between the Quinault Indian Nation and Wild Salmon Center shows the importance of collaborative approaches to preserving biodiversity&apos;</strong>: The passage mentions the partnership, but partnership/collaboration is not what the passage argues. The logjam method matters, not who coordinated it. &#10007;</li><li><strong>Choice B &mdash; &apos;As indicated by a recent project, logjams help the blueback salmon thrive and reproduce&apos;</strong>: This is a supporting detail, not the main idea. The passage uses logjams to illustrate a broader principle. &#10007;</li><li><strong>Choice C &mdash; &apos;Scientists now realize that nature-based conservation methods offer better long-term solutions to environmental issues than methods that are not nature-based do&apos;</strong>: The passage never compares nature-based and non-nature-based methods, and attributes no &quot;new realization&quot; to scientists. &#10007;</li><li><strong>Choice D &mdash; &apos;Nature-based approaches can be effective ways to achieve conservation goals&apos;</strong>: This restates the opening thesis directly. The logjam example is offered as proof. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

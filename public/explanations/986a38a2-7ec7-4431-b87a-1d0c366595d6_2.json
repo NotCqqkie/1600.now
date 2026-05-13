@@ -1,1 +1,15 @@
-{"questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the 'add more' signal", "content": "The passage moves from describing the Art Institute's collection to suggesting visitors “should turn to Chicago's streets, where they can find works.” The signal is clear: the blank word should mean to expand or enhance the experience by finding additional art beyond the museum."}, {"title": "Match the word to that signal", "content": "D) <strong>supplement</strong> means to add something to make complete or better—exactly what we need.<br/><br/>The other three don't work: mitigate means lessen, satisfy means fulfill but doesn't suggest adding more, and provoke doesn't fit the context.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The Art Institute houses 300,000 works. Visitors looking to ______ their art-viewing experience &quot;should turn to Chicago&rsquo;s streets,&quot; where additional works can be found. The blank must mean to add to or extend an existing experience."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'mitigate'</strong>: means to lessen or reduce. Turning to more art would not reduce the experience. &#10007;</li><li><strong>Choice B &mdash; 'satisfy'</strong>: means to fulfill. This implies the experience is already complete, which contradicts the idea of seeking more art. &#10007;</li><li><strong>Choice C &mdash; 'provoke'</strong>: means to stimulate or irritate. The passage is not about triggering a reaction; it&rsquo;s about adding to what the museum offers. &#10007;</li><li><strong>Choice D &mdash; 'supplement'</strong>: means to add to something to make it more complete. Substituting: &quot;visitors looking to supplement their art-viewing experience should turn to Chicago&rsquo;s streets&quot; &mdash; this fits perfectly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

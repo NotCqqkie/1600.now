@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key comparison that enables emphasis",
-      "content": "To emphasize Malta's deadweight tonnage, you need to highlight what makes it noteworthy. The notes reveal that Malta's average DWT (54,000 tons) far exceeds the global average (21,389 tons) \u2014 this difference is the basis for effective emphasis."
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>emphasize Malta's deadweight tonnage</strong>. To emphasize a number, the best approach is to compare it to a reference point that makes it look large. The notes give two comparisons: Taiwan's average DWT (17,000 tons) and the global average DWT (21,389 tons). Malta's average is 54,000 tons &mdash; well above both."
     },
     {
-      "title": "Apply this signal to find the right choice",
-      "content": "Choice A draws on this difference, stating Malta's average DWT and comparing it to the global average to highlight how substantially higher Malta's is. The others either omit Malta entirely (C, D) or focus on ship counts instead of DWT (B). That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Malta&apos;s merchant ships had an average DWT of 54,000 tons, higher than the global average of 21,389 tons'</strong>: States Malta's DWT and contrasts it with the global average, directly emphasizing how large Malta's figure is. &#10003;</li><li><strong>Choice B &mdash; 'Taiwan had 429 merchant ships in 2021, while Malta had 2,137'</strong>: Compares ship <em>counts</em>, not deadweight tonnage. &#10007;</li><li><strong>Choice C &mdash; 'Taiwan&apos;s 429 merchant ships had an average DWT of 17,000 tons'</strong>: Focuses on Taiwan's DWT; Malta isn't mentioned at all. &#10007;</li><li><strong>Choice D &mdash; 'The average carrying capacity of merchant ships in Taiwan was 17,000 tons'</strong>: Again only discusses Taiwan; omits Malta entirely. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

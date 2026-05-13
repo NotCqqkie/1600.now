@@ -1,15 +1,1 @@
-{
-  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the appositive and its requirement",
-      "content": "\"A politician from South Carolina,\" is an appositive phrase that renames Robert B. Elliott. The signal: an appositive must be immediately followed by the noun it describes as the main subject of the independent clause."
-    },
-    {
-      "title": "Apply the appositive rule",
-      "content": "An opening appositive phrase (\"A politician from South Carolina,\") must be followed immediately by the noun it renames as the subject of the main clause. That noun is Robert B. Elliott.<br/><br/><strong>A — \"Elliott was elected to the US House of Representatives in 1870 by his constituents.\"</strong>: Elliott appears immediately after the comma as subject. Correct.<br/><br/><strong>B — \"was the year that Elliott was elected...\"</strong>: No subject follows the appositive — \"was\" is a verb with nothing before it, creating a fragment. Fails.<br/><br/><strong>C — \"constituents of Elliott elected him...\"</strong>: \"Constituents\" follows the comma, so the appositive would mislabel \"constituents\" as the politician from South Carolina. Fails.<br/><br/><strong>D — \"in 1870, his constituents elected Elliott...\"</strong>: \"In 1870\" follows the comma, again misplacing the appositive and leaving no proper subject noun immediately after it. Fails."
-    }
-  ]
-}
+{"questionId":"b6c7623b-7d8b-46cb-8108-4c4c677bdc88_18","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence opens with an appositive phrase: &ldquo;A politician from South Carolina,&rdquo; This phrase renames someone, so the noun it renames must immediately follow the comma as the subject of the main clause. That noun is Robert B. Elliott."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Elliott was elected to the US House of Representatives in 1870 by his constituents.&rsquo;</strong>: &ldquo;Elliott&rdquo; appears immediately after the comma as the subject &mdash; the appositive correctly renames him. &#10003;</li><li><strong>Choice B &mdash; &lsquo;was the year that Elliott was elected to the US House of Representatives by his constituents.&rsquo;</strong>: No noun follows the comma &mdash; the clause begins with a verb, creating a fragment with no subject for the appositive to rename. &#10007;</li><li><strong>Choice C &mdash; &lsquo;constituents of Elliott elected him to the US House of Representatives in 1870.&rsquo;</strong>: &ldquo;Constituents&rdquo; follows the comma, so the appositive would mislabel Elliott&apos;s constituents as the politician from South Carolina. &#10007;</li><li><strong>Choice D &mdash; &lsquo;in 1870, his constituents elected Elliott to the US House of Representatives.&rsquo;</strong>: &ldquo;In 1870&rdquo; follows the comma &mdash; a prepositional phrase, not a noun, so there is nothing for the appositive to rename. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

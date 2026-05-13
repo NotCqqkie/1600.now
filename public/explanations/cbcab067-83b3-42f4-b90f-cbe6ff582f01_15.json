@@ -1,1 +1,15 @@
-{"questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_15", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the noun phrase structure", "content": "The blank is a noun phrase serving as the object of “leverage.” It must express a relationship between nanoparticles and properties that nanoengineers leverage to facilitate energy generation."}, {"title": "Apply the plural possessive rule", "content": "When a plural noun ending in 's' shows possession, add an apostrophe after the final 's': “nanoparticles' properties.” This correctly indicates that multiple nanoparticles each possess properties.<ul><li>A omits the possessive marker</li><li>B uses singular form</li><li>C doubles the possessive</li></ul>.<br/><br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "cbcab067-83b3-42f4-b90f-cbe6ff582f01_15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank follows &quot;palladium&quot; and must form a noun phrase that is the object of &quot;leverage.&quot; The sentence describes nanoengineers leveraging something belonging to nanoparticles &mdash; their properties. The blank must correctly show that multiple nanoparticles possess properties."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;nanoparticles properties&apos;</strong>: No possessive marker. &quot;Nanoparticles properties&quot; is not grammatical &mdash; there is no apostrophe to show ownership. &#10007;</li><li><strong>Choice B &mdash; &apos;nanoparticle&apos;s properties&apos;</strong>: Singular possessive. The sentence refers to nanoparticles (plural), so the singular &quot;nanoparticle&apos;s&quot; is wrong. &#10007;</li><li><strong>Choice C &mdash; &apos;nanoparticles&apos; properties&apos;&apos;</strong>: Double possessive &mdash; there is a stray apostrophe after &quot;properties,&quot; which is not a possessive noun here. &#10007;</li><li><strong>Choice D &mdash; &apos;nanoparticles&apos; properties&apos;</strong>: Plural possessive formed correctly: add an apostrophe after the final &quot;s&quot; of a plural noun ending in &quot;s.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

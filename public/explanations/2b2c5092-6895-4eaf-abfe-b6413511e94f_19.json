@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the independent clauses on each side of the blank",
-      "content": "The blank sits between two independent clauses: one ending with \u201c...international photography festival in\u201d and another beginning with \u201cthe exhibited photographs, with their vivid pastel colors, overexposed tones, and mirror like symmetry, captivated audiences.\u201d"
+      "title": "Identify what the question needs",
+      "content": "The blank completes a sentence in which a photography festival location is named and then a second independent clause follows: &quot;the exhibited photographs ... captivated audiences.&quot; Two independent clauses must be joined correctly, and &quot;for example&quot; is a parenthetical phrase modifying the location."
     },
     {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "A semicolon separates two independent clauses; commas set off parenthetical phrases. Here, \u201cfor example\u201d is parenthetical (clarifying that Italy is one example location), and the correct pattern is: (clause, parenthetical;) second clause. <br/>Choice A places the comma before \u201cfor example\u201d and the semicolon after it, exactly matching this pattern. <br/>Choices B and D use only a comma between the clauses (comma splice), while choice C places the semicolon immediately after Italy, making \u201cfor example,\u201d a transitional phrase introducing the second clause rather than a parenthetical clarifying the location. <br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Italy, for example;'</strong>: The comma before &quot;for example&quot; and the semicolon after it correctly set off the parenthetical and then join the two independent clauses. &#10003;</li><li><strong>Choice B &mdash; 'Italy, for example,'</strong>: Uses only a comma after &quot;for example&quot; to separate two independent clauses &mdash; a comma splice. &#10007;</li><li><strong>Choice C &mdash; 'Italy; for example,'</strong>: The semicolon after &quot;Italy&quot; severs the location from &quot;for example,&quot; turning it into a transitional phrase rather than a parenthetical clarifying the location. &#10007;</li><li><strong>Choice D &mdash; 'Italy, for example'</strong>: No punctuation at all after &quot;for example&quot; &mdash; the two independent clauses run together. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

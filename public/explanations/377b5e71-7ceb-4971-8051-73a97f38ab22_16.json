@@ -1,1 +1,15 @@
-{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and the temporal context", "content": "The subject <strong>“the Wheeling National Heritage Area”</strong> is singular. The phrase <strong>“has long been known”</strong> uses present perfect tense, anchoring the region's defining attributes to the present moment."}, {"title": "Apply subject-verb agreement and select the appropriate tense", "content": "The verb must be singular to match the subject. <strong>Is</strong> (present tense) aligns with the present perfect tense of “has long been known,” indicating the region's attributes extend into the present.<br/><br/>The plural forms in C and D violate subject-verb agreement, and <strong>was</strong> would incorrectly place these defining attributes in the past.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The subject is the singular noun phrase &quot;the Wheeling National Heritage Area.&quot; The sentence describes what that area currently is &mdash; a region that &quot;has long been known&quot; for its attributes. The verb must be singular and must match the present-tense context."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'was'</strong>: past tense. The sentence uses &quot;has long been known,&quot; indicating the area&rsquo;s attributes extend into the present, so past tense is wrong. &#10007;</li><li><strong>Choice B &mdash; 'is'</strong>: singular present tense. Matches the singular subject and aligns with &quot;has long been known.&quot; &#10003;</li><li><strong>Choice C &mdash; 'have been'</strong>: plural verb. Violates subject-verb agreement with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'will have been'</strong>: future perfect tense. The sentence describes the area as it currently exists, not a future state. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the noun and its identifying title",
-      "content": "The left side of the blank contains the noun \"song\" (in \"the hit song\"). The right side begins with a title in quotation marks, \"Little Marie,\" that directly identifies the song."
-    },
-    {
-      "title": "Apply the punctuation rule for titles",
-      "content": "Rule: when a noun is immediately followed by a quoted title that identifies it, no punctuation separates them. The noun is \"song\" and the title is \"Little Marie.\" Reconstructed sentence with each choice: <strong>A) \"the hit song \\\"Little Marie\\\"\"</strong> — noun flows directly into its title with no punctuation; correct. <strong>B) \"the hit song, \\\"Little Marie\\\"\"</strong> — the comma incorrectly sets off the title as if it were a non-essential appositive, but a title identifying a specific song is essential; eliminated. <strong>C) \"the hit song: \\\"Little Marie\\\"\"</strong> — a colon is used to introduce an elaboration after a complete clause; \"the hit song\" is not a complete clause; eliminated. <strong>D) \"the hit song; \\\"Little Marie\\\"\"</strong> — a semicolon joins two independent clauses; \"the hit song\" is not a clause; eliminated. Verdict: <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"700687e2-e094-4a0d-b5c9-12227f01dbff_16","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank falls between the noun &quot;song&quot; and the quoted title &quot;Little Marie.&quot; The question tests whether any punctuation should separate a noun from a quoted title that directly identifies it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;song&apos;</strong>: no punctuation between the noun and its identifying title &mdash; correct by convention. &#10003;</li><li><strong>Choice B &mdash; &apos;song,&apos;</strong>: a comma would signal the title is a non-essential appositive, but a title that identifies a specific song is essential information. &#10007;</li><li><strong>Choice C &mdash; &apos;song:&apos;</strong>: a colon introduces an elaboration after a complete independent clause; &quot;the hit song&quot; is not a complete clause. &#10007;</li><li><strong>Choice D &mdash; &apos;song;&apos;</strong>: a semicolon joins two independent clauses; &quot;the hit song&quot; is not a clause. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

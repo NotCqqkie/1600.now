@@ -1,1 +1,15 @@
-{"questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The passage states the dust has “complex and opposing effects.” The first effect is introduced with “On one hand,”: dust enhances ice clouds. The blank must introduce the opposing effect that follows."}, {"title": "Apply the signal to the choices", "content": "”On the other hand,” is the standard pairing with “On one hand” and directly introduces the opposing effect: dust weakens the storm.<br/><br/>The other choices describe time (Previously), illustration (For example), or restatement (In other words)—none match an opposing relationship.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "4dc81965-4d7d-41a3-a149-fdc37cafa647_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage says dust has &quot;complex and <strong>opposing</strong> effects.&quot; The first effect (enhancing ice clouds) is introduced with <em>&quot;On one hand,&quot;</em> &mdash; so the blank must introduce the <strong>contrasting</strong> effect that follows."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;On the other hand,&apos;</strong>: the standard pairing with &quot;On one hand,&quot; &mdash; signals the opposite effect (dust weakening the storm). &#10003;</li><li><strong>Choice B &mdash; &apos;Previously,&apos;</strong>: signals a time shift, not a contrast between two effects. &#10007;</li><li><strong>Choice C &mdash; &apos;For example,&apos;</strong>: introduces an illustration, not an opposing idea. &#10007;</li><li><strong>Choice D &mdash; &apos;In other words,&apos;</strong>: signals a restatement, but the second effect is the opposite of the first, not a restatement. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

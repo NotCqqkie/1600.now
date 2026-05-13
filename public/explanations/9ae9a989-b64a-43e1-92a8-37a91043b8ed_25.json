@@ -1,1 +1,15 @@
-{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_25", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the defining detail of Bellini's role", "content": "The notes state that Bellini is “known for his research on solar and geoneutrinos” — this specific research focus is the defining detail of his role in neutrino research."}, {"title": "Find the answer that specifies his role", "content": "Choice A directly states that Bellini “worked to advance the scientific understanding of neutrinos through his research on solar and geoneutrinos,” connecting him to the specific research focus that defines his role.<br/><br/>Choices B and C don't mention Bellini at all, and choice D names him but only uses the generic phrase “particle physics research” without the solar and geoneutrino specificity.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_25",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice <strong>specifies Bellini&apos;s role in neutrino research</strong>. The key note: Bellini is known for research on <strong>solar and geoneutrinos</strong>. A good answer must name Bellini and connect him to that specific research."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;Particle physicist Gianpaolo Bellini has worked to advance the scientific understanding of neutrinos through his research on solar and geoneutrinos.&quot;</strong>: Names Bellini and specifies solar and geoneutrinos &mdash; exactly what the question requires. &#10003;</li><li><strong>Choice B &mdash; &quot;Neutrinos are a type of subatomic particle that particle physicists are still trying to understand.&quot;</strong>: Does not mention Bellini at all. &#10007;</li><li><strong>Choice C &mdash; &quot;First discovered in the mid-twentieth century, neutrinos are a type of subatomic particle.&quot;</strong>: Does not mention Bellini at all. &#10007;</li><li><strong>Choice D &mdash; &quot;Gianpaolo Bellini is recognized for his particle physics research.&quot;</strong>: Names Bellini but uses the vague phrase &quot;particle physics research&quot; instead of specifying solar and geoneutrinos. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "76199cca-674f-403e-a01c-927854021f9f_10", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the opening claim", "content": "The passage opens: <em>“It was happy for the Rev. Amos Barton that he did not... overhear the conversation.”</em> This single claim sets up the entire passage—it's fortunate that Amos doesn't know what his neighbors think of him."}, {"title": "Find what captures the main idea", "content": "Choice D states the passage's main idea directly: people are better off not knowing the discrepancy between their self-image and what others think of them.<br/><br/>The rhetorical question and the plant metaphor both justify this—ignorance protects the self-sustaining illusions we depend on.<br/><br/>Choices A and B address unrelated topics; C incorrectly focuses on excessive concern about opinions rather than the passage's actual point about not knowing the truth. <br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The passage opens by saying it was fortunate that Rev. Amos Barton did not overhear what his neighbors thought of him. The narrator then asks rhetorically whether anyone would want to compare their self-image to how neighbors actually see them, and uses the plant metaphor: self-conceit keeps us functioning, and losing it would drain us of even the capacity for good. The main idea connects ignorance with preservation of self."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Although people grasp the importance of honesty, they typically resist confronting others about their flaws.&rsquo;</strong>: The passage is not about confronting others. It is about whether Amos should know what others think of him. This introduces a topic not present in the text. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Although people wish to be seen as considerate, the slightest setbacks will often discourage them from being so.&rsquo;</strong>: The passage says nothing about being considerate or about setbacks discouraging effort. This misreads the plant metaphor. &#10007;</li><li><strong>Choice C &mdash; &lsquo;People tend to fixate more often than they should on whether their acquaintances think highly of them.&rsquo;</strong>: The narrator does the opposite &mdash; he argues people should not find out what others think. The issue is about the danger of knowing, not about obsessing over it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;People are better off not knowing about the discrepancy between their own self-image and what others think of them.&rsquo;</strong>: This matches the opening claim (it was fortunate Amos did not overhear), the rhetorical question (who would benefit from that comparison?), and the plant metaphor (self-conceit sustains us; losing it destroys us). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}
