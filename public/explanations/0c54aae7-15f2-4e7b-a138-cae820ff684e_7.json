@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal at intersection",
-      "content": "At an intersection point, both expressions equal $y$. Set them equal: $$x^2 + 17x + 4 = x + 4$$"
+      "title": "Set up",
+      "content": "At an intersection point both equations share the same $(x, y)$. Set the right-hand sides equal: $$x^2 + 17x + 4 = x + 4$$"
     },
     {
-      "title": "Simplify and solve for x",
-      "content": "Subtract $x + 4$ from both sides: $$x^2 + 16x = 0$$ Factor out $x$: $$x(x + 16) = 0$$ This gives $x = 0$ or $x = -16$. The value $-16$ is choice A \u2014 <strong>A</strong> is correct."
+      "title": "Solve",
+      "content": "Subtract $x + 4$ from both sides: $$x^2 + 16x = 0$$ Factor: $$x(x + 16) = 0$$ So $x = 0$ or $x = -16$. Only $-16$ appears among the choices."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct."
     }
   ]
 }

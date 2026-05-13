@@ -1,15 +1,1 @@
-{
-  "questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The underlined sentence is a rhetorical question asking whether culture includes knowledge, laws, or both \u2014 highlighting the term\u2019s vagueness."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D says the sentence illustrates a difficulty with the meaning of culture that the author sees as hindering sociology\u2019s progress, which matches the question\u2019s display of uncertainty about what the term covers.<br/>The other three either misstate the question as listing components (A), frame it as a disagreement between groups (B), or attribute it to Bonnell and Hunt\u2019s inquiry (C), none of which the passage supports.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "fa92720e-d9b2-485a-9313-5041b77e5352_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks what the underlined sentence (&quot;Does the concept of culture encompass knowledge, or laws, or both these things and others?&quot;) does in the passage. The surrounding text: before it, the author calls &quot;culture&quot; a hazy concept; after it, the author says haziness is fine for casual use but sociology needs standardization to progress."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'It lists two essential components of what is referred to by Bonnell and Hunt as &quot;culture.&quot;'</strong>: The sentence poses a question about what &quot;culture&quot; might include &mdash; it does not list confirmed components, and it is the author&apos;s question, not Bonnell and Hunt&apos;s claim. &#10007;</li><li><strong>Choice B &mdash; 'It presents a point regarding the definition of &quot;culture&quot; on which nonspecialists and specialists tend to disagree.'</strong>: The passage never frames this as a specialists-vs-nonspecialists disagreement. The sentence illustrates vagueness, not a group conflict. &#10007;</li><li><strong>Choice C &mdash; 'It describes the questions first raised by Bonnell and Hunt&apos;s inquiry into the meaning of the word &quot;culture.&quot;'</strong>: Bonnell and Hunt are cited only for noting the concept&apos;s vagueness; this rhetorical question is the author&apos;s own illustration, not a product of their inquiry. &#10007;</li><li><strong>Choice D &mdash; 'It illustrates a difficulty associated with the meaning of &quot;culture&quot; that the author believes holds back an academic field.'</strong>: The question dramatizes the concept&apos;s haziness, and the very next sentence states that this haziness prevents sociology from truly progressing &mdash; exactly what D describes. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

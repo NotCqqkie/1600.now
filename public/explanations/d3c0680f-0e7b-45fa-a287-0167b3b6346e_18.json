@@ -1,15 +1,1 @@
-{
-  "questionId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_18",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its number",
-      "content": "The main subject is <strong>The Proto-Atlantic-Congo language</strong> (singular). The phrase \u201ccommon ancestor of 1,453 African languages with similar linguistic properties\u201d is an appositive that renames the subject but doesn't change its number. Key signal: singular subject."
-    },
-    {
-      "title": "Apply the subject-verb agreement rule",
-      "content": "Subject-verb agreement requires a singular subject to take a singular verb. <strong>Is</strong> (B) is the singular form that satisfies this requirement. The other choices violate the rule by using plural forms or the wrong auxiliary. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d3c0680f-0e7b-45fa-a287-0167b3b6346e_18","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The subject is &apos;The Proto-Atlantic-Congo language&apos; (singular). The appositive phrase that follows renames it but does not change its number. The verb must agree with a singular subject."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; plural verb form</strong>: A plural verb does not agree with the singular subject &apos;The Proto-Atlantic-Congo language.&apos; &#10007;</li><li><strong>Choice B &mdash; &apos;is&apos;</strong>: &apos;Is&apos; is the singular present-tense form that correctly agrees with the singular subject. &#10003;</li><li><strong>Choice C &mdash; wrong auxiliary or form</strong>: This choice uses a form that does not satisfy singular subject-verb agreement. &#10007;</li><li><strong>Choice D &mdash; wrong auxiliary or form</strong>: This choice also fails to match the singular subject. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

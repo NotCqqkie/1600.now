@@ -1,15 +1,1 @@
-{
-  "questionId": "73482b52-a20f-452d-896f-76f578ac2361_19",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The left side of the blank—\"With a blend of traditional design elements, such as arched Gothic ceilings, and modern ones, such as floor-to-ceiling windows\"—is an introductory prepositional phrase.<br/><br/>The right side—\"transitional design splits…\"—is an independent clause with subject \"design\" and verb \"splits.\""
-    },
-    {
-      "title": "Apply the rule for introductory phrases",
-      "content": "\"With a blend of...floor-to-ceiling windows\" is a long introductory prepositional phrase, not an independent clause. The main clause is \"transitional design splits the difference between old and new.\" A comma must separate the introductory phrase from the main clause.<br/><br/><strong>A — \"windows;\"</strong>: A semicolon requires an independent clause on both sides. The introductory phrase is not an independent clause. Fails.<br/><br/><strong>B — \"windows.\"</strong>: A period would make the introductory phrase a standalone sentence fragment — no verb, no complete thought. Fails.<br/><br/><strong>C — \"windows—\"</strong>: An em-dash signals a sharp break, parenthetical, or emphasis. Using it here implies the phrase adds an aside or apposition, not that it introduces the main clause. Fails.<br/><br/><strong>D — \"windows,\"</strong>: A comma correctly separates the introductory prepositional phrase from the main clause \"transitional design splits the difference between old and new.\" Correct."
-    }
-  ]
-}
+{"questionId":"73482b52-a20f-452d-896f-76f578ac2361_19","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows a long introductory prepositional phrase (&apos;With a blend of traditional design elements... floor-to-ceiling windows&apos;) and precedes the main clause (&apos;transitional design splits the difference between old and new&apos;). The correct punctuation must properly connect an introductory phrase to a main clause."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; semicolon (&apos;windows;&apos;)</strong>: A semicolon requires an independent clause on both sides. The introductory phrase has no verb and is not an independent clause. &#10007;</li><li><strong>Choice B &mdash; period (&apos;windows.&apos;)</strong>: A period would leave the introductory phrase as a sentence fragment with no verb. &#10007;</li><li><strong>Choice C &mdash; em dash (&apos;windows&mdash;&apos;)</strong>: An em dash signals a sharp break or parenthetical aside, not an introductory phrase leading into a main clause. &#10007;</li><li><strong>Choice D &mdash; comma (&apos;windows,&apos;)</strong>: A comma correctly separates the long introductory prepositional phrase from the main clause that follows. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

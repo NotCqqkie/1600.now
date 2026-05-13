@@ -1,15 +1,1 @@
-{
-  "questionId": "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The notes specify that the Great Plains Dinosaur Museum in Malta, Montana houses a dinosaur fossil specimen nicknamed Roberta \u2014 the only note that gives an actual nickname for a fossil."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice C directly provides the example by stating Roberta is the nickname of a Brachylophosaurus fossil housed at that museum.<br/>The other three either speak only about general facts, omit the nickname, or leave out the specific example.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a767d2b7-21c5-44d6-b35c-acfc2fefad3d_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes include one detail that stands out: the Great Plains Dinosaur Museum in Malta, Montana houses a fossil nicknamed Roberta. The question asks for the choice that best uses this specific example (the nickname)."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Dinosaur fossil specimens can be found at museums all over the world, and many of these specimens are given nicknames.'</strong>: speaks only in generalities; uses neither the specific museum nor the nickname Roberta. &#10007;</li><li><strong>Choice B &mdash; 'Nicknames are given to many dinosaur fossil specimens, including one housed at a museum in Malta, Montana.'</strong>: mentions the location but omits the nickname Roberta, leaving the specific example incomplete. &#10007;</li><li><strong>Choice C &mdash; 'Roberta is the nickname of a <em>Brachylophosaurus</em> fossil specimen housed at the Great Plains Dinosaur Museum and Field Station in Malta, Montana.'</strong>: names Roberta, the species, and the specific museum &mdash; the most complete use of the key detail. &#10003;</li><li><strong>Choice D &mdash; 'A <em>Brachylophosaurus</em> fossil specimen from the Late Cretaceous period, which ended more than 65 million years ago, is housed at the Great Plains Dinosaur Museum and Field Station.'</strong>: mentions the museum but omits the nickname entirely. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -1,1 +1,15 @@
-{"questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the defining signal", "content": "The phrase <strong>“Few economists would have predicted”</strong> reveals the core difficulty: the collectibles market is hard because future price movements are unpredictable and often surprising, as shown by the unexpected Beanie Babies price surge."}, {"title": "Match the signal to the choices", "content": "<strong>Forecast</strong> means to predict future trends. The passage identifies the collectibles market's core difficulty: predicting future prices is unreliable, as shown by few economists foreseeing the Beanie Babies boom, so <strong>forecast</strong> captures this perfectly.<br/><br/>The other choices address unrelated concepts: exchange (trade), monitor (observe), and avoid (stay away). <br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank describes what makes the collectibles market difficult. The evidence: &ldquo;Few economists would have predicted&rdquo; the Beanie Babies price surge. The market is hard because future prices are unpredictable."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'forecast'</strong>: means to predict future trends, which matches the passage&apos;s point that prices are hard to anticipate. &#10003;</li><li><strong>Choice B &mdash; 'exchange'</strong>: means to trade; the passage says nothing about trading being difficult. &#10007;</li><li><strong>Choice C &mdash; 'monitor'</strong>: means to observe; observing prices is not what&apos;s described as difficult. &#10007;</li><li><strong>Choice D &mdash; 'avoid'</strong>: means to stay away from; the passage never suggests the market is hard to avoid. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

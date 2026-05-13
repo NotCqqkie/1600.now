@@ -1,15 +1,1 @@
-{
-  "questionId": "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the distinguishing signal",
-      "content": "The contrast between the two artworks is their medium\u2014one is a painting, one is a sculpture."
-    },
-    {
-      "title": "Match to the choice that emphasizes this signal",
-      "content": "Choice A directly contrasts the two artworks. The other choices either focus on one artwork alone, generalize about the prize, or highlight similarity instead. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student&apos;s goal is to <em>contrast</em> the two artworks. A contrast requires placing two different things side by side and highlighting how they differ. The key distinguishing fact from the notes is that Kiefer&apos;s prize-winning work is a painting and Arp&apos;s is a sculpture."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Kiefer&apos;s <em>Midgard</em> is a painting, while Arp&apos;s <em>Sculpture Classique</em> is a sculpture.'</strong>: Directly contrasts the two artworks by medium using 'while.' &#10003;</li><li><strong>Choice B &mdash; 'Kiefer won a Carnegie Prize gold medal in 1985 for the painting <em>Midgard</em>.'</strong>: Focuses only on Kiefer &mdash; no contrast with Arp&apos;s artwork. &#10007;</li><li><strong>Choice C &mdash; 'Carnegie Prize gold medals have been awarded to both painters and sculptors.'</strong>: A general statement about the prize; does not contrast the two specific artworks. &#10007;</li><li><strong>Choice D &mdash; 'Both <em>Midgard</em> and <em>Sculpture Classique</em> are Carnegie Prize gold medal-winning artworks.'</strong>: Highlights similarity (both won gold medals), not contrast. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

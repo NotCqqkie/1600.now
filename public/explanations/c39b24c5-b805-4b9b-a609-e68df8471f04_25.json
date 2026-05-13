@@ -1,15 +1,1 @@
-{
-  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key contrast clue",
-      "content": "The notes list the thickness of each fiber: TPU is 3 mm thick, SEBS is 4 mm thick."
-    },
-    {
-      "title": "Apply the contrast to the choices",
-      "content": "Check each choice against the goal — <em>contrast</em> means showing a <strong>difference</strong> between the two samples:<br/><ul><li><strong>A</strong> — describes torsional heating in general; mentions neither sample specifically.</li><li><strong>B</strong> — names both samples but describes only what the study did, not how they differed.</li><li><strong>C</strong> — mentions both samples but says <em>both</em> temperatures rose — that's a <strong>similarity</strong>, not a contrast.</li><li><strong>D</strong> — states that the SEBS rubber sample (4 mm) was <strong>thicker than</strong> the TPU sample (3 mm), directly showing a measurable difference between the two.</li></ul>That matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"c39b24c5-b805-4b9b-a609-e68df8471f04_25","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student must contrast the two fiber samples. The notes give their thicknesses: TPU is 3 mm, SEBS is 4 mm. A contrast shows a difference between them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: describes torsional heating in general without naming either sample specifically. &#10007;</li><li><strong>Choice B</strong>: names both samples but describes only what the study did, not how the two samples differed. &#10007;</li><li><strong>Choice C</strong>: mentions both samples but says both temperatures rose &mdash; that's a similarity, not a contrast. &#10007;</li><li><strong>Choice D</strong>: states that the SEBS sample (4 mm) was thicker than the TPU sample (3 mm), directly showing a measurable difference between the two. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

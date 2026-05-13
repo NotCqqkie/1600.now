@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what 'an example' requires",
-      "content": "The task asks for an example of a dinosaur fossil specimen's nickname. An example must show two elements together: a specific nickname and which specimen it identifies."
+      "title": "Identify what the question needs",
+      "content": "The task is to provide an example of a dinosaur fossil specimen's nickname. An example requires two things together: a specific nickname and the specimen it names."
     },
     {
-      "title": "Apply the requirement to the choices",
-      "content": "Choice D explicitly names the nickname Spike and pairs it with the Pentaceratops specimen. Choices A, B, and C fail to provide this pairing\u2014either omitting the nickname entirely, providing no specific example, or naming neither element.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'A Pentaceratops fossil specimen from the Late Cretaceous period...'</strong>: mentions the specimen but never states any nickname. &#10007;</li><li><strong>Choice B &mdash; 'Dinosaur fossil specimens can be found at museums all over the world...'</strong>: only a general claim; gives no specific nickname or specimen. &#10007;</li><li><strong>Choice C &mdash; 'Nicknames are given to many dinosaur fossil specimens, including one housed at a museum in Albuquerque...'</strong>: refers vaguely to a nickname without ever stating what it is. &#10007;</li><li><strong>Choice D &mdash; 'Spike is the nickname of a Pentaceratops fossil specimen...'</strong>: directly pairs the nickname Spike with the Pentaceratops specimen. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

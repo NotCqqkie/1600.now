@@ -1,15 +1,1 @@
-{
-  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the original angle and recall that dilation preserves angles",
-      "content": "From the diagram, $\\angle A = 60\u00b0$ in triangle $ABC$. When a triangle is dilated by any scale factor, the resulting triangle is similar to the original, which means <strong>all angles are preserved</strong>. Only the side lengths change (multiplied by the scale factor of 5)."
-    },
-    {
-      "title": "Find angle X using angle correspondence",
-      "content": "Triangle $ABC$ is dilated to triangle $XYZ$. The vertices correspond as: $A \\to X$, $B \\to Y$, $C \\to Z$. Since angles are preserved under dilation, $\\angle X = \\angle A = 60\u00b0$. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Dilation by any scale factor produces a similar triangle, so all angles are preserved. The diagram shows &angle;A = 60&deg; in triangle ABC. Triangle ABC is dilated to get triangle XYZ with A &rarr; X, so &angle;X = &angle;A."},{"title":"Solve","content":"&angle;X = &angle;A = 60&deg;"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}

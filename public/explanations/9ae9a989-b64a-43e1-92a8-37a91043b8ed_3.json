@@ -1,15 +1,1 @@
-{
-  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_3",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the target meaning",
-      "content": "The key signal is the contrast: the data were inaccessible, but a project made them something. The blank needs a word for the opposite of inaccessible \u2014 something meaning accessible or usable."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Available means accessible or usable, the logical outcome when a data transfer project succeeds. The other options don't fit: they describe unrelated qualities or contradict what a successful project accomplishes. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9ae9a989-b64a-43e1-92a8-37a91043b8ed_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence sets up a contrast: the data were previously inaccessible, but a transfer project made them something. The blank must name the opposite of inaccessible &mdash; a word meaning usable or reachable."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;relevant&apos;</strong>: relevance is about applicability, not access. A project that transfers data makes it reachable, not necessarily more relevant. &#10007;</li><li><strong>Choice B &mdash; &apos;notable&apos;</strong>: means worthy of attention. That does not logically follow from solving an access problem. &#10007;</li><li><strong>Choice C &mdash; &apos;available&apos;</strong>: means accessible or obtainable &mdash; the direct opposite of inaccessible and the logical result of a successful data transfer project. &#10003;</li><li><strong>Choice D &mdash; &apos;readable&apos;</strong>: too narrow; it implies a formatting issue rather than the broader access problem the passage describes. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

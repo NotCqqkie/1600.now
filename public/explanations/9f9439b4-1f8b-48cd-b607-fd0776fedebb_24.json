@@ -1,15 +1,1 @@
-{
-  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_24",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the relevant information to include",
-      "content": "The goal is to indicate the SIZE of the Pearl Harbor NWR. The notes provide one specific size measurement: \u201c61 acres\u201d\u2014this is the detail that accomplishes the stated objective."
-    },
-    {
-      "title": "Match the relevant detail to the choices",
-      "content": "Choice A includes \u201cencompasses 61 acres,\u201d directly accomplishing the stated goal. The other three omit the size measurement, focusing instead on management, species, or other unrelated details. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9f9439b4-1f8b-48cd-b607-fd0776fedebb_24","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to indicate the <strong>size</strong> of the Pearl Harbor NWR. Only one note contains a size measurement: &apos;It encompasses 61 acres.&apos; The correct choice must include that figure."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'A protected natural area, the Pearl Harbor NWR encompasses 61 acres of land in Hawaii.'</strong>: includes &apos;61 acres,&apos; directly indicating the refuge&apos;s size. &#10003;</li><li><strong>Choice B &mdash; 'The Pearl Harbor NWR is a protected natural area managed by the US Fish &amp;amp; Wildlife Service, which limits human activities there.'</strong>: focuses on management and activity restrictions &mdash; no size mentioned. &#10007;</li><li><strong>Choice C &mdash; 'The Pearl Harbor NWR is a natural area in Hawaii, home to the Hawaiian stilt.'</strong>: mentions the species it protects, not the size. &#10007;</li><li><strong>Choice D &mdash; 'Home to the Hawaiian stilt, Hawaii&apos;s Pearl Harbor NWR is managed by the US Fish &amp;amp; Wildlife Service.'</strong>: mentions the species and management agency &mdash; no size. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

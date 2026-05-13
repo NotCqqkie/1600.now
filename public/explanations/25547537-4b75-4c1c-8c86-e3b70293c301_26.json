@@ -1,15 +1,1 @@
-{
-  "questionId": "25547537-4b75-4c1c-8c86-e3b70293c301_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what effective comparison requires",
-      "content": "The question asks which choice \u201cemphasize[s] a difference between the two birds.\u201d This requires mentioning both birds AND creating a contrast\u2014not describing them separately or highlighting similarities."
-    },
-    {
-      "title": "Find the choice that contrasts both birds",
-      "content": "A uses the structure \u201cThough they share... is larger\u201d to emphasize the size difference between the two birds. B and D describe only one bird; C mentions both but focuses on what they share. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"25547537-4b75-4c1c-8c86-e3b70293c301_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which choice &apos;emphasizes a difference between the two birds.&apos; A valid answer must mention both birds and frame the information as a contrast, not merely a shared trait or a description of only one."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;Though they share... is larger&apos;</strong>: uses a concessive structure to acknowledge similarity while highlighting a size difference between the two birds. Both birds appear and a contrast is drawn. &#10003;</li><li><strong>Choice B</strong>: describes only one of the two birds; the other is not mentioned. &#10007;</li><li><strong>Choice C</strong>: mentions both birds but focuses on what they share, not a difference. &#10007;</li><li><strong>Choice D</strong>: describes only one of the two birds. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
