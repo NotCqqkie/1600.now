@@ -1,1 +1,15 @@
-{"questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage provides examples of state soil designations from different years (1983, 1985), indicating that years pass between selection and official designation."}, {"title": "Apply the signal to the choices", "content": "”In many cases,” correctly indicates that delays between selection and designation are frequent, not exceptional.<br/><br/>The other choices fail because “Therefore” falsely treats the examples as logical premises, “Indeed” confirms something not yet stated, and “Similarly” creates a nonexistent comparison.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical relationship",
+      "content": "The passage gives two specific examples (Wisconsin 1983, Vermont 1985) and then the blank introduces a general conclusion: that multiple years often pass between selection and official designation. The relationship is <strong>generalization from examples</strong> — the examples support a broader, frequently-true claim."
+    },
+    {
+      "title": "Match the relationship to the choices and eliminate",
+      "content": "<strong>A. In many cases,</strong> — signals a frequent but not universal pattern; correctly introduces the generalization drawn from the examples. <strong>Correct.</strong><br/><strong>B. Therefore,</strong> — signals a logical conclusion that must follow; the examples are illustrations, not logical premises that force the conclusion. Eliminated.<br/><strong>C. Indeed,</strong> — signals confirmation of something already stated; no such claim has been made yet. Eliminated.<br/><strong>D. Similarly,</strong> — signals a comparison between two parallel items; there is only one claim here, not two parallel ones. Eliminated.<br/><br/>A is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Spot the contextual signal", "content": "The sentence after the blank lists three different perspectives: the mother's, the father's, and the daughter's. Each section is from a <em>different</em> person — separate, individual viewpoints."}, {"title": "Match to a synonym for \"uncovered/identified\"", "content": "The blank needs to mean \"uncovered\" or \"identified\" — genetic research found and disclosed maize's ancestor. Substitute each choice: <ul><li><strong>Choice A — revealed</strong>: uncovered or disclosed — genetic research discovered and showed the ancestor; fits perfectly. ✓</li><li><strong>Choice B — expanded</strong>: made larger or broader — implies the research grew something, not that it identified an ancestor. ✗</li><li><strong>Choice C — encouraged</strong>: gave support or confidence to — implies motivating teosinte, which makes no sense. ✗</li><li><strong>Choice D — petitioned</strong>: made a formal request — research can't formally request an ancestor; grammatically and logically wrong. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contextual signal",
+      "content": "The sentence after the blank lists three different perspectives: the mother's, the father's, and the daughter's. Each section is from a <em>different</em> person — separate, individual viewpoints."
+    },
+    {
+      "title": "Match to a synonym for \"uncovered/identified\"",
+      "content": "The blank describes the three perspectives — the passage emphasizes they are different (mother, father, daughter — three separate viewpoints). The word must mean \"different / separate.\" Substitute each choice:<ul><li><strong>Choice A — unknown</strong>: unfamiliar; the perspectives are NAMED and described, not unknown. ✗</li><li><strong>Choice B — unintended</strong>: not deliberate; the author chose these perspectives deliberately. ✗</li><li><strong>Choice C — required</strong>: mandatory; the passage doesn't describe these as obligations. ✗</li><li><strong>Choice D — distinct</strong>: clearly different or separate; matches three named perspectives from three different family members. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

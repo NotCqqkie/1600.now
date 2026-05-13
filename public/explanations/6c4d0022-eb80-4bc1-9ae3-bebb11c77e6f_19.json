@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the colon rule",
-      "content": "A colon introduces a list or elaboration after an independent clause \u2014 here, naming the elements before the colon and introducing them after. The period creates a fragment, and the semicolon and comma cannot properly introduce the list. This matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Rule: a colon introduces a list or elaboration only after a complete independent clause. What follows here is a list of noun phrases (not an independent clause).<br/><br/><strong>A:</strong> \"...poetic style. Terse, compressed lines...\" \u2014 The period creates a fragment beginning with \"Terse.\" Incorrect.<br/><br/><strong>B:</strong> \"...poetic style; terse, compressed lines...\" \u2014 A semicolon must join two independent clauses. \"Terse, compressed lines\" is a noun phrase, not a clause. Incorrect.<br/><br/><strong>C:</strong> \"...poetic style: terse, compressed lines...\" \u2014 The colon follows the complete clause \"the poem contains three signature elements of Brooks's poetic style\" and correctly introduces the three-item list. <strong>Correct.</strong><br/><br/><strong>D:</strong> \"...poetic style, terse, compressed lines...\" \u2014 A comma alone cannot introduce a list after an independent clause. Incorrect."
     }
   ]
 }

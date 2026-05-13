@@ -1,1 +1,15 @@
-{"questionId": "97534841-3541-4563-86b8-0a919d0bde5b_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the causal relationship", "content": "The passage describes the physical cause (glaciers bearing down on the crust) and its effect (formation of the fjord). The transition must show that the second action resulted from the first."}, {"title": "Match the consequence word", "content": "”As a result” explicitly marks consequence—when one action produces another.<br/><br/>The other choices introduce wrong relationships: “in general” suggests a broad statement, “for example” introduces an exemplification, and “in contrast” signals opposition.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relationship",
+      "content": "The passage describes the physical cause (glaciers bearing down on the crust) and its effect (formation of the fjord). The transition must show that the second action resulted from the first."
+    },
+    {
+      "title": "Match the consequence word",
+      "content": "The logical relationship is cause-effect. Glaciers bore down on Earth's crust (cause) and left a deep fjord (effect). The transition sits inside that causal chain.\n<ul>\n<li><strong>Choice A — \"in general,\"</strong>: signals a broad generalization, but the fjord is a specific result of the glacier's weight, not a general statement, so fails. ✗</li>\n<li><strong>Choice B — \"for example,\"</strong>: signals that the fjord is an instance of a broader category — no general claim precedes it, so fails. ✗</li>\n<li><strong>Choice C — \"as a result,\"</strong>: explicitly marks that the fjord was produced by the glacier's downward pressure, so fits. ✓</li>\n<li><strong>Choice D — \"in contrast,\"</strong>: signals opposition between the glacier and the fjord — but the fjord is the effect, not an opposing idea, so fails. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

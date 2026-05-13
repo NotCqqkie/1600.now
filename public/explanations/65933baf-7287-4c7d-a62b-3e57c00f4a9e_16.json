@@ -1,1 +1,15 @@
-{"questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and temporal signal", "content": "The subject is “her painting” (singular), and “Currently” signals present time."}, {"title": "Apply subject-verb agreement and present tense", "content": "A verb must agree in number with its subject and be in the appropriate tense.<br/><br/>B) <strong>hangs</strong> is present tense (matching “Currently”) and singular.<br/><br/>The other three use wrong tenses: hung (A) is simple past, was hanging (C) is past continuous, and will have hung (D) is future perfect—incompatible with “Currently”.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "65933baf-7287-4c7d-a62b-3e57c00f4a9e_16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and temporal signal",
+      "content": "The subject is \"her painting\" (singular). The adverb \"Currently\" signals that the verb must be in the present tense."
+    },
+    {
+      "title": "Apply subject-verb agreement and present tense",
+      "content": "A singular subject with a present-time signal needs a singular present-tense verb.<br/><br/><strong>A) hung</strong> — simple past; contradicts \"Currently.\" Wrong.<br/><strong>B) hangs</strong> — singular present tense; agrees with \"her painting\" and matches \"Currently.\" Correct.<br/><strong>C) was hanging</strong> — past progressive; contradicts \"Currently.\" Wrong.<br/><strong>D) will have hung</strong> — future perfect; contradicts \"Currently.\" Wrong.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the singular subject",
-      "content": "The subject \u201cThe word 'stockade'\u201d is singular. The blank needs a verb matching the form in the parallel clause: \u201ccinch\u201d ... derives from <em>cincho</em>."
+      "title": "Identify the subject and the parallel verb",
+      "content": "The subject is \"the word 'stockade'\" (singular). The sentence establishes parallelism with the coordinated clause \"'cinch' ... derives from cincho,\" so the blank must match \"derives\" in tense and number."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires a singular subject to take a singular present-tense verb, and \u201cderives\u201d is the only form that satisfies both requirements. The other three choices violate this rule through plural forms, wrong tense, or both. This matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Apply subject-verb agreement and parallelism, then eliminate",
+      "content": "The blank needs a singular, simple-present verb that parallels \"derives.\"<br/><br/><strong>A. have derived</strong> — plural present perfect; wrong number and wrong tense. Eliminated.<br/><strong>B. were deriving</strong> — plural past progressive; wrong number and wrong tense. Eliminated.<br/><strong>C. derive</strong> — base form / plural present; wrong number (\"stockade\" is singular). Eliminated.<br/><strong>D. derives</strong> — third-person singular present; agrees with singular \"stockade\" and parallels \"derives.\" <strong>Correct.</strong><br/><br/>D is correct."
     }
   ]
 }

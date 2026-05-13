@@ -1,1 +1,15 @@
-{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_1", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what describes thrown-away devices", "content": "The key phrase is “becoming harmful ____”. We need a noun for what discarded devices become. The word “harmful” is decisive—it signals something negative or problematic."}, {"title": "Match the answer to the signal", "content": "”Waste” names what happens to thrown-away devices—harmful waste is a major environmental concern.<br/><br/>The other three don't fit: advice and rewards contradict the “harmful” signal (they're inherently positive), while positions doesn't fit the environmental context.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what describes thrown-away devices",
+      "content": "The key phrase is \"becoming harmful ____\". We need a noun for what discarded devices become. The word \"harmful\" is decisive—it signals something negative or problematic."
+    },
+    {
+      "title": "Match the answer to the signal",
+      "content": "The noun needs to complete \"becoming harmful ___,\" describing what discarded electronic devices turn into. Substitute each choice: <ul><li><strong>Choice A — advice</strong>: a recommendation or guidance — inherently positive and abstract; devices cannot become harmful advice. ✗</li><li><strong>Choice B — waste</strong>: discarded material, especially material that harms the environment — fits exactly: devices thrown away become harmful e-waste. ✓</li><li><strong>Choice C — rewards</strong>: benefits or prizes — a positive noun that contradicts the \"harmful\" signal. ✗</li><li><strong>Choice D — positions</strong>: locations or roles — does not fit the environmental context of discarded electronic devices at all. ✗</li></ul> That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

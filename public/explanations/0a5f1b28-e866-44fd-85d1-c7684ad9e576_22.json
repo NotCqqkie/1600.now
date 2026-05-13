@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the specific detail signal",
-      "content": "The second sentence tells exactly how Latimer improved the bulb\u2014by placing cardboard around its carbon filament\u2014so the transition must introduce a specific example or clarification."
+      "title": "Identify the logical relationship",
+      "content": "Sentence 1 states Latimer improved Edison's light bulb design. Sentence 2 explains the precise method: placing cardboard around the carbon filament. The relationship is <strong>elaboration / specification</strong> — sentence 2 gives the specific detail of how the improvement was made."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "\u2018Specifically,\u2019 introduces a precise detail that explains the earlier claim of improvement, making the logical link clear.<br/>The other three choices either indicate time (\u2018Soon,\u2019), concession (\u2018Regardless,\u2019), or contrast (\u2018However,\u2019), none of which fit the explanatory relationship.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Match the relationship to the choices and eliminate",
+      "content": "<strong>A. Soon,</strong> — signals a time sequence; sentence 2 is not a later event but an explanation of the same improvement. Eliminated.<br/><strong>B. Regardless,</strong> — signals concession (continuing despite an obstacle); no obstacle is mentioned. Eliminated.<br/><strong>C. However,</strong> — signals contrast; sentence 2 does not contradict sentence 1. Eliminated.<br/><strong>D. Specifically,</strong> — signals that a precise detail follows; correctly introduces the exact mechanism of Latimer's improvement. <strong>Correct.</strong><br/><br/>D is correct."
     }
   ]
 }

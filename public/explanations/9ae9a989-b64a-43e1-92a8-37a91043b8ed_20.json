@@ -1,1 +1,15 @@
-{"questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structure", "content": "The blank is positioned after the noun “reactions” and before the prepositional phrase “within molecules.” This is a post-nominal position."}, {"title": "Apply the participle rule", "content": "A participle (not a finite verb) modifies a noun in post-nominal position.<br/><br/>The present participle “occurring” modifies “reactions,” creating the meaning “reactions occurring within molecules.” The other three options—occurred, occur, and will occur—are all finite verb forms that violate this rule.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "9ae9a989-b64a-43e1-92a8-37a91043b8ed_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structure",
+      "content": "The blank follows the noun \"reactions\" and precedes the prepositional phrase \"within molecules.\" A word in this post-nominal position must be a participle, not a finite verb."
+    },
+    {
+      "title": "Apply the non-finite modifier rule and eliminate",
+      "content": "Only a present or past participle can modify a noun in post-nominal position. The four choices are:<br/><br/><strong>A. occurred</strong> — past tense finite verb; cannot modify a noun. Eliminated.<br/><strong>B. occurring</strong> — present participle; correctly modifies \"reactions\" as a non-finite adjective (\"reactions occurring within molecules\"). <strong>Correct.</strong><br/><strong>C. occur</strong> — base-form finite verb; cannot modify a noun. Eliminated.<br/><strong>D. will occur</strong> — future-tense finite verb; cannot modify a noun. Eliminated.<br/><br/>B is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage states that Spanish mission style “has been reproduced throughout the state,” and uses Santa Clara University as an example of this pattern."}, {"title": "Apply the signal", "content": "Imitate means to copy or mimic something, which is the relationship between Santa Clara University's design and the Spanish mission style.<br/><br/>Renovate, neglect, and reject describe restoration, indifference, and opposition—none of which align with reproducing a style.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage states that Spanish mission style \"has been reproduced throughout the state,\" and uses Santa Clara University as an example of this pattern."
+    },
+    {
+      "title": "Apply the signal",
+      "content": "Substitute each choice: Santa Clara University's design is considered to ______ the style of the Spanish missions.<br/><br/><strong>A) renovate</strong> — \"renovate\" means to restore or update an existing structure. Santa Clara University didn't rebuild the actual missions; it copied their style in a new building. Eliminate.<br/><br/><strong>B) imitate</strong> — \"imitate\" means to copy or mimic. The passage says elements of the style have been \"reproduced\" — imitating is reproducing. Keep.<br/><br/><strong>C) neglect</strong> — \"neglect\" means to ignore or fail to care for. A design that echoes mission style is doing the opposite of ignoring it. Eliminate.<br/><br/><strong>D) reject</strong> — \"reject\" means to refuse or dismiss. The university's design draws from the mission style, not away from it. Eliminate.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the second verb and its tense", "content": "The relative clause contains two predicates sharing the subject <strong>whose work</strong>: one describing the richness of Betham's poems, and <strong>encourages</strong>, which is in simple present tense."}, {"title": "Ensure parallel verb forms in the compound predicate", "content": "<strong>Highlights</strong> uses simple present tense, matching <strong>encourages</strong> and creating a parallel compound predicate where both verbs share the same subject.<br/><br/>Has highlighted (perfect tense), is highlighting (progressive tense), and highlighting (non-finite form) all mismatch with <strong>encourages</strong>.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "7aff17cd-7423-4e0b-80db-b95ab0c77db9_20",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the subject and the existing finite verb",
+      "content": "The relative clause is \"whose work ______ the richness of Betham's poems and the poet's historical importance to the Romantic literary movement encourages a broader rethinking of British Romanticism itself.\" The subject is \"whose work,\" and the clause already has a finite main verb later in the sentence: \"encourages.\" The blank cannot add a second finite verb without a coordinator, or the clause becomes a run-on."
+    },
+    {
+      "title": "Identify the grammar issue and apply the rule",
+      "content": "Identify the grammar issue: post-nominal participial phrase vs. extra finite verb. Rule: a single clause can have only one finite verb per subject unless the verbs are joined by a coordinating conjunction. Since \"encourages\" is already the finite verb governing \"whose work,\" the blank must be a non-finite modifier (a participial phrase) describing \"work,\" not a second finite verb.<br/><ul><li><strong>Choice A &mdash; 'has highlighted'</strong>: finite present-perfect verb. Pairing it with the later finite verb \"encourages\" gives \"whose work has highlighted X and Y encourages Z\" &mdash; two finite verbs sharing one subject with no conjunction. Run-on. &#10007;</li><li><strong>Choice B &mdash; 'is highlighting'</strong>: finite present-progressive verb. Same defect as A &mdash; it competes with \"encourages\" for the role of main verb in the relative clause and yields a run-on. &#10007;</li><li><strong>Choice C &mdash; 'highlighting'</strong>: non-finite present participle. It introduces a participial phrase modifying \"work\" (\"whose work, highlighting the richness... and the poet's historical importance..., encourages a broader rethinking...\"), leaving \"encourages\" as the single finite verb of the relative clause. Grammatical. &#10003;</li><li><strong>Choice D &mdash; 'highlights'</strong>: finite third-person-singular verb. Although it agrees with \"work,\" it produces the same run-on as A and B: \"whose work highlights X and Y encourages Z\" has two finite verbs for one subject with no coordinator. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,1 +1,15 @@
-{"questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_19", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "The blank contains “drummer” and “Dennis Chambers,” where the name functions as an appositive renaming or clarifying the descriptor."}, {"title": "Apply the restrictive appositive rule", "content": "A restrictive appositive provides essential identifying information and uses no commas.<br/><br/>Since “Dennis Chambers” is the essential identification for which drummer is meant, the correct form is “American drummer Dennis Chambers.” Choices A and D incorrectly add commas (treating it as nonrestrictive), and choice B adds only a trailing comma.<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_19",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive structure",
+      "content": "The blank contains \"drummer\" and \"Dennis Chambers,\" where the name functions as an appositive renaming or clarifying the descriptor."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Rule: a restrictive appositive (one that identifies which person is meant) takes no commas. \"Dennis Chambers\" tells us which American drummer — making it essential, not optional.<br/><br/><strong>A:</strong> \"American drummer, Dennis Chambers\" — opening comma with no closing comma; unbalanced and incorrectly signals a nonrestrictive appositive. Incorrect.<br/><br/><strong>B:</strong> \"American drummer Dennis Chambers,\" — trailing comma only; creates an unmatched boundary that breaks the clause structure. Incorrect.<br/><br/><strong>C:</strong> \"American drummer Dennis Chambers\" — no commas; Dennis Chambers is the essential identifier. <strong>Correct.</strong><br/><br/><strong>D:</strong> \"American drummer, Dennis Chambers,\" — both commas signal a nonrestrictive appositive, implying the name is optional extra information. It is not optional here. Incorrect."
+    }
+  ]
+}

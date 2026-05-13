@@ -1,1 +1,15 @@
-{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_17", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive structure", "content": "The blank introduces a noun (“advocate”) that is part of the subject. This noun is immediately followed by a proper noun (“Ernesto Hernandez-Lopez”) that identifies the person—an appositive structure."}, {"title": "Apply the restrictive appositive rule", "content": "Restrictive appositives—those essential to identifying the noun—take no commas.<br/><br/>The name “Ernesto Hernandez-Lopez” is necessary to specify who the lawyer and cycling advocate is, making it restrictive and requiring no commas.<br/><br/>The other three all add commas, incorrectly treating it as non-restrictive.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_17",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive structure",
+      "content": "The blank introduces a noun (\"advocate\") that is part of the subject. This noun is immediately followed by a proper noun (\"Ernesto Hernandez-Lopez\") that identifies the person—an appositive structure."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Rule: a restrictive appositive — one that identifies which person is meant — takes no commas. \"Ernesto Hernandez-Lopez\" tells us which lawyer and cycling advocate; without the name, the subject is unidentified. The name is essential.<br/><br/><strong>A:</strong> \"...cycling advocate Ernesto Hernandez-Lopez, has identified...\" — trailing comma only; unmatched and incorrectly inserts a boundary before the verb. Incorrect.<br/><br/><strong>B:</strong> \"...cycling advocate, Ernesto Hernandez-Lopez, has identified...\" — commas on both sides signal a nonrestrictive appositive, implying the name is optional extra information. It is not. Incorrect.<br/><br/><strong>C:</strong> \"...cycling advocate Ernesto Hernandez-Lopez has identified...\" — no commas; the name directly and necessarily identifies the subject. <strong>Correct.</strong><br/><br/><strong>D:</strong> \"...cycling advocate, Ernesto Hernandez-Lopez has identified...\" — opening comma only; unmatched and signals a nonrestrictive open without a proper close. Incorrect."
+    }
+  ]
+}

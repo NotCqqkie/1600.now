@@ -1,1 +1,15 @@
-{"questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the appositive relationship", "content": "The blank separates “French portrait artist” from “Marie-Denise Villers (1774–1821).” The second noun phrase is an appositive—it renames or identifies the artist."}, {"title": "Apply the appositive punctuation rule", "content": "Here “Marie-Denise Villers (1774–1821)” functions as an essential (restrictive) appositive identifying the previously unidentified “little-known French portrait artist,” so no punctuation is required between “artist” and the name.<br/><br/>Choices A (em dash), C (colon), and D (comma) all signal nonessential phrasing, which doesn’t suit a restrictive appositive.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive relationship",
+      "content": "The blank separates \"French portrait artist\" from \"Marie-Denise Villers (1774–1821).\" The second noun phrase is an appositive—it renames or identifies the artist."
+    },
+    {
+      "title": "Apply the restrictive appositive rule",
+      "content": "Rule: a restrictive appositive — one that identifies exactly which person is meant — takes no punctuation. \"Marie-Denise Villers (1774-1821)\" tells us which little-known French portrait artist; it is essential, not decorative.<br/><br/><strong>A:</strong> \"...portrait artist— Marie-Denise Villers...\" — an em dash introduces elaboration or a nonrestrictive aside. The name here is an identifier, not an aside. Incorrect.<br/><br/><strong>B:</strong> \"...portrait artist Marie-Denise Villers...\" — no punctuation; the name directly and necessarily identifies the artist. <strong>Correct.</strong><br/><br/><strong>C:</strong> \"...portrait artist: Marie-Denise Villers...\" — a colon introduces a list or explanation after an independent clause; the name is a simple identifier, not a listed elaboration. Incorrect.<br/><br/><strong>D:</strong> \"...portrait artist, Marie-Denise Villers...\" — a comma signals a nonrestrictive appositive (optional extra info), implying the name could be removed. It cannot. Incorrect."
+    }
+  ]
+}

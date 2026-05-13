@@ -1,1 +1,15 @@
-{"questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The passage immediately explains that the Wi-Fi alternative “can give users a cheap way” to detect people through walls. This is the concrete benefit being described."}, {"title": "Match the meaning to the choices", "content": "B) inexpensive directly expresses the cost benefit of the Wi-Fi solution.<br/><br/>A, C, and D each misidentify the relevant feature—unmistakable and infrequent describe unrelated properties, while impractical contradicts the passage's claim that this alternative works.<br/><br/>This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "0ea78efc-f415-4ef4-be7f-7d36b9549605_4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key signal",
+      "content": "The passage immediately explains that the Wi-Fi alternative \"can give users a cheap way\" to detect people through walls. This is the concrete benefit being described."
+    },
+    {
+      "title": "Match the meaning to the choices",
+      "content": "Substitute each choice: a comparatively ______ alternative.<br/><br/><strong>A) unmistakable</strong> — \"unmistakable alternative\" means easy to identify or obvious. The passage says nothing about recognizability; it contrasts cost. Eliminate.<br/><br/><strong>B) inexpensive</strong> — \"inexpensive alternative\" directly echoes \"cheap way\" in the very next clause. Radar/sonar are \"too costly\" — the Wi-Fi method is cheap by comparison. Keep.<br/><br/><strong>C) infrequent</strong> — \"infrequent alternative\" means rare or uncommon. Frequency is never discussed; this is about cost and accessibility. Eliminate.<br/><br/><strong>D) impractical</strong> — \"impractical alternative\" means the Wi-Fi method doesn't work well. The passage explicitly says it can detect people and identify gestures, directly contradicting this. Eliminate.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}

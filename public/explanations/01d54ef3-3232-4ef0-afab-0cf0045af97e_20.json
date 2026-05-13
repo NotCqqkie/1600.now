@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the needed plural subject",
-      "content": "The blank follows \u2018because\u2019 and comes before the verb \u2018are\u2019, so it must be a plural subject pronoun that stands in for \u2018the thirty\u2011eight languages\u2019."
+      "title": "Identify the grammatical role needed",
+      "content": "The blank is the subject of the verb \"are descendants\" inside the subordinate clause \"because ______ are descendants of Proto-Kru.\" The subject must be a plural subject pronoun referring to \"thirty-eight languages.\""
     },
     {
-      "title": "Match the plural subject to the choices",
-      "content": "Only \u2018they\u2019re\u2019 provides the plural subject \u2018they\u2019 (they are) to match \u2018are descendants\u2019. The other three either give a singular subject (\u2018its\u2019, \u2018it\u2019s\u2019) or a possessive form (\u2018their\u2019), which cannot serve as the subject of \u2018are\u2019. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Apply pronoun case and meaning rules, then eliminate",
+      "content": "The blank needs a plural subject pronoun. \"Thirty-eight languages\" is plural, so the pronoun must be plural too.<br/><br/><strong>A. its</strong> — singular possessive pronoun; cannot be a subject and is singular. Eliminated.<br/><strong>B. they're</strong> — contraction of \"they are\"; provides the plural subject \"they\" followed by the verb \"are,\" agreeing with \"are descendants.\" <strong>Correct.</strong><br/><strong>C. their</strong> — plural possessive pronoun; cannot serve as a subject. Eliminated.<br/><strong>D. it's</strong> — contraction of \"it is\"; singular subject, does not agree with plural \"languages.\" Eliminated.<br/><br/>B is correct."
     }
   ]
 }

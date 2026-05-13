@@ -1,1 +1,15 @@
-{"questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_16", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Recognize the sentence expresses a timeless characteristic", "content": "The sentence is explaining what a zinc atom is—a defining property that is always true, not something that happened at a particular time."}, {"title": "Apply the rule for stating universal truths", "content": "Simple present tense “has” correctly expresses characteristics that are always true.<br/><br/>The past tense options (had, has had) would incorrectly suggest this property only existed in the past, and present progressive (is having) would incorrectly suggest an ongoing action.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9f9439b4-1f8b-48cd-b607-fd0776fedebb_16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the type of fact being stated",
+      "content": "The sentence states a defining, permanent property: a zinc atom always has 30 protons. This is a timeless scientific fact, not an event in the past or a temporary ongoing action."
+    },
+    {
+      "title": "Apply the simple present tense rule for universal facts, then eliminate",
+      "content": "Simple present tense expresses permanent truths and defining characteristics.<br/><br/><strong>A. has had</strong> — present perfect; implies the property was acquired at some point in the past, not that it is permanent. Eliminated.<br/><strong>B. had</strong> — simple past; implies the property no longer holds. Eliminated.<br/><strong>C. is having</strong> — present progressive; implies a temporary ongoing action, not a permanent trait. Eliminated.<br/><strong>D. has</strong> — simple present; correctly expresses the permanent, defining property of a zinc atom. <strong>Correct.</strong><br/><br/>D is correct."
+    }
+  ]
+}

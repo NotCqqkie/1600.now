@@ -1,1 +1,15 @@
-{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the blank's function and subject", "content": "The blank is the main verb in “In English, this phrase ______ roughly to...” The subject is “this phrase” (singular)."}, {"title": "Match the correct verb form", "content": "Only “translates” (choice D) is a conjugated verb in the form that works with a singular subject.<br/><br/>The other choices are different verb forms—infinitive (“to translate”), gerund (“translating”), and perfect participle (“having translated”)—that cannot work as the main verb of this clause.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank needs",
+      "content": "The blank is the main verb of the clause \"this phrase ______ roughly to 'it's an old story.'\" A main verb must be a finite, conjugated form that can carry tense and agree with its subject."
+    },
+    {
+      "title": "Apply the finite-verb rule and eliminate",
+      "content": "The subject \"this phrase\" is singular, so the main verb must be singular and finite.<br/><br/><strong>A. to translate</strong> — infinitive; non-finite, cannot be a main verb. Eliminated.<br/><strong>B. translating</strong> — gerund/present participle; non-finite, cannot be a main verb. Eliminated.<br/><strong>C. having translated</strong> — perfect participle; non-finite, cannot be a main verb. Eliminated.<br/><strong>D. translates</strong> — third-person singular present tense; finite verb that agrees with \"this phrase.\" <strong>Correct.</strong><br/><br/>D is correct."
+    }
+  ]
+}

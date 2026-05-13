@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the defining contrast",
-      "content": "The \u201cAlthough\u201d structure contrasts sharp effects on individuals with national-level effects that are quite ______. The supporting evidence clarifies the answer: China's GDP showed effects \u201conly slightly greater than zero.\u201d"
+      "content": "The \"Although\" structure contrasts sharp effects on individuals with national-level effects that are quite ______. The supporting evidence clarifies the answer: China's GDP showed effects \"only slightly greater than zero.\""
     },
     {
       "title": "Match the meaning to the choices",
-      "content": "Subdued (muted or restrained) perfectly captures an effect barely above zero. Variable and persistent describe different attributes (inconsistency and duration) rather than magnitude, while beneficial contradicts the minimal impact. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Substitute each choice: at the national level, effects are often quite ______ (with China's GDP effect \"only slightly greater than zero\" as evidence).<br/><br/><strong>A) subdued</strong> — \"subdued\" means muted, restrained, minimal in force. An effect barely above zero is subdued — almost imperceptible. Matches the evidence perfectly. Keep.<br/><br/><strong>B) variable</strong> — \"variable\" means inconsistent or changing. China's GDP data shows magnitude (near zero), not inconsistency. The blank is about size, not stability. Eliminate.<br/><br/><strong>C) beneficial</strong> — \"beneficial\" means positive or helpful. A GDP effect of nearly zero is not a benefit. The \"Although\" contrast also implies national effects are surprisingly small, not good. Eliminate.<br/><br/><strong>D) persistent</strong> — \"persistent\" means lasting or continuing over time. Duration is not what China's near-zero GDP figure illustrates; it illustrates smallness. Eliminate.<br/><br/><strong>A</strong> is correct."
     }
   ]
 }

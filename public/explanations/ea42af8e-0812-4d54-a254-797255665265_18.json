@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structures on each side of the blank",
-      "content": "Before the blank: \u201cOkinaka doesn't make such decisions\u201d is an independent clause. After the blank: \u201call historical designations must be approved by a group of nine other experts\u201d is also an independent clause."
+      "content": "Before the blank: \"Okinaka doesn't make such decisions\" is an independent clause. After the blank: \"all historical designations must be approved by a group of nine other experts\" is also an independent clause."
     },
     {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "A semicolon correctly joins two independent clauses when they're closely related. The alternatives all violate the boundary rule by either omitting punctuation, using a comma alone, or using a conjunction without the required comma. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Apply the independent clause boundary rule",
+      "content": "Rule: two independent clauses must be separated by a semicolon, a period, or a comma + coordinating conjunction (FANBOYS). Left: \"Okinaka doesn't make such decisions single-handedly.\" Right: \"all historical designations must be approved by a group of nine other experts.\"<br/><br/><strong>A:</strong> \"...single-handedly and all historical designations...\" — \"and\" without a preceding comma attempts to join two independent clauses; a comma before \"and\" is required. Incorrect.<br/><br/><strong>B:</strong> \"...single-handedly, all historical designations...\" — a comma alone joining two independent clauses is a comma splice. Incorrect.<br/><br/><strong>C:</strong> \"...single-handedly all historical designations...\" — no punctuation at all creates a run-on sentence. Incorrect.<br/><br/><strong>D:</strong> \"...single-handedly; all historical designations...\" — the semicolon correctly joins the two closely related independent clauses. <strong>Correct.</strong>"
     }
   ]
 }

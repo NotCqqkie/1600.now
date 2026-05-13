@@ -1,1 +1,15 @@
-{"questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the key numerical contrast", "content": "The passage compares consonant counts for Polynesian languages (9 in Sikaiana, 8 in ʻŌlelo Hawaiʻi) against the global median (over 22), establishing they fall far below average."}, {"title": "Choose the word for lowest quantity", "content": "”Minimal” means “smallest in degree,” which fits languages with 8–9 consonants being far below the 22+ median.<br/><br/>Static concerns unchanging qualities, replicable refers to reproducibility, and melodic describes sound character—none capture the numerical comparison.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key numerical contrast",
+      "content": "The passage compares consonant counts for Polynesian languages (9 in Sikaiana, 8 in ʻŌlelo Hawaiʻi) against the global median (over 22), establishing they fall far below average."
+    },
+    {
+      "title": "Choose the word for lowest quantity",
+      "content": "Substitute each choice: Polynesian consonant inventories tend toward the ______.<br/><br/><strong>A) minimal</strong> — \"minimal\" means smallest in amount. Sikaiana has 9 consonants, Hawaiian has 8, versus a global median of 22+. These counts are far below average — minimal fits exactly. Keep.<br/><br/><strong>B) static</strong> — \"static\" means unchanging over time. The passage compares counts across languages, not how counts change. Irrelevant. Eliminate.<br/><br/><strong>C) replicable</strong> — \"replicable\" means able to be reproduced or copied. Nothing in the passage suggests these sound inventories are being replicated. Eliminate.<br/><br/><strong>D) melodic</strong> — \"melodic\" describes musical or pleasant sound quality. The passage is about quantity of consonants, not their sound character. Eliminate.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

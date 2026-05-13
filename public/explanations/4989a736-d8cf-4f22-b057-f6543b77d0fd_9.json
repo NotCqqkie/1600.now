@@ -1,1 +1,15 @@
-{"questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key warning", "content": "The passage cautions that small sample sizes can “contribute to reports of exaggerated effects.” Pimentel's study used a sample of only 12 fish."}, {"title": "Match the warning to the choices", "content": "C directly matches the passage's warning: the conclusion “may overstate the effect,” which is what happens with small-sample exaggeration.<br/><br/>A and B make unsupported claims about the study; D overclaims by calling it “invalidated” when only potential bias is flagged.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key warning",
+      "content": "The passage cautions that small sample sizes can \"contribute to reports of exaggerated effects.\" Pimentel's study used a sample of only 12 fish."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "The question asks what the text \"most directly suggests\" about Pimentel's conclusion. The text links small samples to biased, exaggerated findings — apply that logic to each option.\n<ul>\n<li><strong>Choice A — \"same mean sample size used in many earlier studies\"</strong>: the passage never compares Pimentel's sample to earlier studies, so this is unsupported. ✗</li>\n<li><strong>Choice B — \"broad implications for other fish species\"</strong>: the passage says nothing about other species — an unsupported inference, so fails. ✗</li>\n<li><strong>Choice C — \"may overstate the effect\"</strong>: directly mirrors the passage's warning that small samples \"contribute to reports of exaggerated effects,\" so fits. ✓</li>\n<li><strong>Choice D — \"largely invalidated by similar studies\"</strong>: the passage flags potential bias, not full invalidation — this overclaims, so fails. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

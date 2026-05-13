@@ -1,1 +1,15 @@
-{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key location detail", "content": "The passage states manul habitats are in <strong>“out-of-the-way parts”</strong> of Asia. This phrase indicates remoteness and isolation from populated areas."}, {"title": "Apply the location signal to find the fit", "content": "<strong>Distant from</strong> precisely captures why these cats are hard to study — their habitats are separated from human populations, making them difficult to access and research.<br/><br/>The other three either contradict the “out-of-the-way” setup, are grammatically wrong, or make no sense.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key location detail",
+      "content": "The passage states manul habitats are in <strong>\"out-of-the-way parts\"</strong> of Asia. This phrase indicates remoteness and isolation from populated areas."
+    },
+    {
+      "title": "Apply the location signal to find the fit",
+      "content": "Substitute each choice: habitats so ______ large human populations.<br/><br/><strong>A) drawn to</strong> — \"drawn to large populations\" means attracted toward humans. Contradicts \"out-of-the-way\" and explains nothing about research difficulty. Eliminate.<br/><br/><strong>B) full of</strong> — \"full of large populations\" means densely populated. Directly contradicts a remote, isolated habitat. Eliminate.<br/><br/><strong>C) distant from</strong> — \"distant from large populations\" = remote, hard to reach. Perfectly explains why research is difficult. Keep.<br/><br/><strong>D) responsible for</strong> — \"responsible for large populations\" is grammatically awkward and makes no logical sense in context. Eliminate.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

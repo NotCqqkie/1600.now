@@ -1,1 +1,15 @@
-{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the noun and its identifying title", "content": "The left side of the blank contains the noun “song” (in “the hit song”). The right side begins with a title in quotation marks, “Little Marie,” that directly identifies the song."}, {"title": "Apply the punctuation rule for titles", "content": "When a noun is immediately followed by a title, no punctuation separates them.<br/><br/>Choice A correctly keeps the noun and its title together without punctuation.<br/><br/>The other options incorrectly insert punctuation between a noun and its identifying title.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the noun and its identifying title",
+      "content": "The left side of the blank contains the noun \"song\" (in \"the hit song\"). The right side begins with a title in quotation marks, \"Little Marie,\" that directly identifies the song."
+    },
+    {
+      "title": "Apply the punctuation rule for titles",
+      "content": "Rule: when a noun is immediately followed by a quoted title that identifies it, no punctuation separates them. The noun is \"song\" and the title is \"Little Marie.\" Reconstructed sentence with each choice: <strong>A) \"the hit song \\\"Little Marie\\\"\"</strong> — noun flows directly into its title with no punctuation; correct. <strong>B) \"the hit song, \\\"Little Marie\\\"\"</strong> — the comma incorrectly sets off the title as if it were a non-essential appositive, but a title identifying a specific song is essential; eliminated. <strong>C) \"the hit song: \\\"Little Marie\\\"\"</strong> — a colon is used to introduce an elaboration after a complete clause; \"the hit song\" is not a complete clause; eliminated. <strong>D) \"the hit song; \\\"Little Marie\\\"\"</strong> — a semicolon joins two independent clauses; \"the hit song\" is not a clause; eliminated. Verdict: <strong>A</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the structure",
-      "content": "Left of the blank is the noun \u201cchemistry\u201d; right of it is the conjunction \u201cand\u201d with the noun phrase \u201chis colleagues\u201d and the verb phrase. This creates a compound subject structure."
+      "content": "Left of the blank is the noun \"chemistry\"; right of it is the conjunction \"and\" with the noun phrase \"his colleagues\" and the verb phrase. This creates a compound subject structure."
     },
     {
       "title": "Apply the title-name rule",
-      "content": "A title and proper name form a single unit with no commas between them\u2014\u201dprofessor Yugang Sun\u201d is the correct form without internal punctuation. Options B, C, and D all insert commas that interrupt this unit. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Rule: a title used directly before a proper name is not separated from it by a comma. The subject is \"chemistry professor Yugang Sun and his colleagues.\" Reconstructed sentence with each choice: <strong>A) \"chemistry professor Yugang Sun\"</strong> — title flows directly into name, no comma; forms one uninterrupted noun phrase; correct. <strong>B) \"chemistry professor Yugang Sun,\"</strong> — the trailing comma after the name breaks the compound subject from \"and his colleagues\"; eliminated. <strong>C) \"chemistry professor, Yugang Sun\"</strong> — comma between title and name treats them as two separate units; eliminated. <strong>D) \"chemistry professor, Yugang Sun,\"</strong> — comma before and after the name, incorrectly setting it off as a parenthetical; eliminated. Verdict: <strong>A</strong> is correct."
     }
   ]
 }

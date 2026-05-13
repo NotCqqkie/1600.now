@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structures",
-      "content": "LEFT: An independent clause ending with \u201cand [blank]\u201d<br/>RIGHT: An independent clause that becomes a dependent clause when \u201cthough\u201d precedes it"
+      "content": "LEFT: An independent clause ending with \"and [blank]\"<br/>RIGHT: An independent clause that becomes a dependent clause when \"though\" precedes it"
     },
     {
-      "title": "Apply the rule for dependent clauses",
-      "content": "When a subordinating conjunction like \u201cthough\u201d (meaning \u201ceven though\u201d) introduces a dependent clause after an independent clause, no punctuation separates them\u2014choice D correctly places no punctuation between \u201ccomposition\u201d and \u201cthough.\u201d Choices A, B, and C each incorrectly add unnecessary or misused punctuation (commas, a colon, or a semicolon).<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Apply the subordinating conjunction rule",
+      "content": "Rule: when a subordinating conjunction (\"though,\" \"although,\" \"because,\" etc.) begins a dependent clause that follows an independent clause mid-sentence, no punctuation precedes it.<br/><br/><strong>A:</strong> \"...composition, though, temperature fluctuations...\" — the comma after \"though\" incorrectly separates the conjunction from the clause it introduces, making the sentence ungrammatical. Incorrect.<br/><br/><strong>B:</strong> \"...composition, though: temperature fluctuations...\" — a colon cannot follow a subordinating conjunction; the structure is invalid. Incorrect.<br/><br/><strong>C:</strong> \"...composition; though temperature fluctuations...\" — a semicolon precedes the subordinating conjunction, which requires two independent clauses on each side. The \"though\" clause is dependent. Incorrect.<br/><br/><strong>D:</strong> \"...composition though temperature fluctuations...\" — no punctuation before \"though\"; the dependent clause attaches cleanly to the independent clause. <strong>Correct.</strong>"
     }
   ]
 }

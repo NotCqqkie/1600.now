@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The passage describes domestication involving \u201cselective breeding\u201d and refers to \u201cthis millennia-long process.\u201d The strongest signal is the <strong>TIME SCALE</strong> of the transformation: it emphasizes that the process took many generations."
+      "content": "The passage describes domestication involving \"selective breeding\" and refers to \"this millennia-long process.\" The strongest signal is the <strong>TIME SCALE</strong> of the transformation: it emphasizes that the process took many generations."
     },
     {
       "title": "Match the signal",
-      "content": "\u201dOver the course of many generations\u201d conveys the gradual, multi-generational nature of selective breeding. The other choices either add unnecessary illustration, repeat the opening, or shift to an incorrect causal framing. <br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The logical relationship is sequence/manner — the blank describes how the domestication process unfolded over time, bridging the start (~6,000 years ago) and the ongoing process that eventually produced Equus caballus.<ul><li><strong>Choice A — \"To further illustrate this timeline,\"</strong>: promises a new timeline example, but the sentence states the core fact (selective breeding for transportation and plowing) rather than illustrating the timeline with an additional data point. ✗</li><li><strong>Choice B — \"Over the course of many generations,\"</strong>: conveys the gradual, multi-generational nature of selective breeding, matching the passage's emphasis on a \"millennia-long process.\" ✓</li><li><strong>Choice C — \"Similar to the process that began thousands of years ago,\"</strong>: illogically compares the process to itself — the sentence is describing the same process mentioned in the opening, not a parallel one. ✗</li><li><strong>Choice D — \"As a result of being domesticated,\"</strong>: implies the selective breeding happened because the horses were already domesticated, reversing the actual cause-and-effect relationship. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

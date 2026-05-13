@@ -1,1 +1,15 @@
-{"questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and its structure", "content": "The blank comes after “Having proportionally large populations,” which is a gerund phrase acting as the subject of the sentence."}, {"title": "Apply the subject-verb agreement rule", "content": "Gerund phrases, regardless of their objects, function as singular subjects and require a singular verb. “Is” is the correct singular choice.<br/><br/>The other three are plural verbs (were, are, have been), which violate subject-verb agreement with this singular subject.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_21",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject and its structure",
+      "content": "The subject is the gerund phrase \"Having proportionally large populations\" — the entire phrase acts as a single, singular noun (like \"Running marathons is hard\")."
+    },
+    {
+      "title": "Apply subject-verb agreement",
+      "content": "Gerund phrases, regardless of how many words they contain, function as singular subjects and take a singular verb.<br/><br/><strong>A) is</strong> — singular present-tense verb; agrees with the singular gerund-phrase subject. Correct.<br/><strong>B) were</strong> — plural past tense; both number and tense are wrong. Wrong.<br/><strong>C) are</strong> — plural present tense; violates singular subject. Wrong.<br/><strong>D) have been</strong> — plural present-perfect; violates singular subject. Wrong.<br/><br/><strong>A</strong> is correct."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the key phrase",
-      "content": "The second sentence says \u201cDuchamp's <em>Fountain</em> did just that\u201d \u2014 the work actually accomplished what Duchamp intended in sentence 1. The transition must confirm that the intention was realized."
+      "content": "The second sentence says \"Duchamp's <em>Fountain</em> did just that\" — the work actually accomplished what Duchamp intended in sentence 1. The transition must confirm that the intention was realized."
     },
     {
       "title": "Match the confirmation",
-      "content": "<strong>Indeed,</strong> affirms that the intention was fulfilled \u2014 \u201cdid just that\u201d directly supports this confirmation. The other three either signal parallelism, contrast, or addition rather than affirming the realization of the intent. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The logical relationship is concession/confirmation (emphatic affirmation). Sentence 1 states Duchamp's intent; sentence 2 confirms that intent was fully realized with \"did just that.\"\n<ul>\n<li><strong>Choice A — \"Indeed,\"</strong>: signals emphatic confirmation — the second sentence affirms the first with force, so fits. ✓</li>\n<li><strong>Choice B — \"Similarly,\"</strong>: signals parallel comparison to a separate example, but there is no second example — just confirmation of the same claim, so fails. ✗</li>\n<li><strong>Choice C — \"Instead,\"</strong>: signals contrast or substitution, implying the work did something other than what Duchamp intended — contradicts \"did just that,\" so fails. ✗</li>\n<li><strong>Choice D — \"In addition,\"</strong>: signals an extra, unrelated point being appended, so fails. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the procedural pattern",
-      "content": "The passage introduces the ebru process with \u201cFirst\u201d and \u201cNext,\u201d clearly signaling a step-by-step procedure. The blank must complete this sequence with a transition to the final step."
+      "content": "The passage introduces the ebru process with \"First\" and \"Next,\" clearly signaling a step-by-step procedure. The blank must complete this sequence with a transition to the final step."
     },
     {
       "title": "Match to the transition pattern",
-      "content": "\u201dFinally\u201d marks the culminating action of transferring the design\u2014the natural third step after the setup and preparation stages. The other three signal opposition, consequence, or correction rather than advancing through a procedure. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The logical relationship is sequence. The blank must introduce the third and final step of a procedure already marked by \"First\" and \"Next.\"\n<ul>\n<li><strong>Choice A — \"Nevertheless,\"</strong>: signals concession/contrast, so fails. ✗</li>\n<li><strong>Choice B — \"Therefore,\"</strong>: signals cause-effect, so fails — no cause is being stated. ✗</li>\n<li><strong>Choice C — \"Actually,\"</strong>: signals correction of a prior claim, so fails. ✗</li>\n<li><strong>Choice D — \"Finally,\"</strong>: signals the last step in a sequence, completing First → Next → Finally, so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

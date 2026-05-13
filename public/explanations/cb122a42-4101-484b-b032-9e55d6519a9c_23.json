@@ -1,1 +1,15 @@
-{"questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the temporal shift", "content": "The past perfect “had served” indicates that Massey's presidency of the Black Physicists organization occurred before his 1990 NSF appointment—the passage shifts backward in time."}, {"title": "Match the chronological relationship", "content": "”Previously” explicitly marks a prior event, moving backward from the 1990 NSF appointment to Massey's earlier presidency.<br/><br/>The other three choices cannot establish this chronological relationship—”In conclusion” suggests closure, “Thus” suggests consequence, and “For example” suggests contemporary illustration.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "cb122a42-4101-484b-b032-9e55d6519a9c_23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the temporal shift",
+      "content": "The past perfect \"had served\" indicates that Massey's presidency of the Black Physicists organization occurred before his 1990 NSF appointment—the passage shifts backward in time."
+    },
+    {
+      "title": "Match the chronological relationship",
+      "content": "The logical relationship is sequence (backward). The passage goes from Massey's 1990 NSF appointment back to an earlier role, so the blank must signal a prior event.\n<ul>\n<li><strong>Choice A — \"In conclusion,\"</strong>: signals a final summary, not a shift backward in time, so fails. ✗</li>\n<li><strong>Choice B — \"Previously,\"</strong>: explicitly marks an event that occurred before the 1990 appointment, matching \"had served,\" so fits. ✓</li>\n<li><strong>Choice C — \"Thus,\"</strong>: signals cause-effect, implying the NSF appointment caused the Black Physicists presidency — but the presidency came first, so fails. ✗</li>\n<li><strong>Choice D — \"For example,\"</strong>: signals a specific illustration of a general claim, but the prior presidency is not an example of the NSF appointment, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

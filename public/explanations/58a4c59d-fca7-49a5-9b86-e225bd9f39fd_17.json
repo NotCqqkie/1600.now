@@ -1,1 +1,15 @@
-{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the universal fact", "content": "The passage explains a characteristic of helium that is always true—not something that happened or is happening at a specific moment."}, {"title": "Apply simple present tense to express the universal fact", "content": "Simple present tense expresses facts that are always true. “Has” is correct—it states a characteristic true of all helium atoms.<br/><br/>The other choices suggest either past time (had and has had) or ongoing action (is having), which don't fit a timeless characteristic.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the type of fact being stated",
+      "content": "The sentence states a defining, permanent property: a helium atom always has 2 protons. This is a timeless scientific fact, not an event in the past or a temporary ongoing action."
+    },
+    {
+      "title": "Apply the simple present tense rule for universal facts, then eliminate",
+      "content": "Simple present tense expresses permanent truths and defining characteristics.<br/><br/><strong>A. has had</strong> — present perfect; implies the property was acquired at some point, not that it is permanent. Eliminated.<br/><strong>B. has</strong> — simple present; correctly expresses the permanent, defining property of a helium atom. <strong>Correct.</strong><br/><strong>C. is having</strong> — present progressive; implies a temporary ongoing action, not a permanent trait. Eliminated.<br/><strong>D. had</strong> — simple past; implies the property no longer holds. Eliminated.<br/><br/>B is correct."
+    }
+  ]
+}

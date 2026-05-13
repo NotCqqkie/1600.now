@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the chronological structure",
-      "content": "The passage connects three moments in Shakespeare's career across different decades\u2014arriving in 1585, becoming known by 1596, and achieving success in 1605. The transition must express movement forward through this timeline."
+      "content": "The passage connects three moments in Shakespeare's career across different decades—arriving in 1585, becoming known by 1596, and achieving success in 1605. The transition must express movement forward through this timeline."
     },
     {
       "title": "Select the transition showing temporal progression",
-      "content": "\u201dLater\u201d directly indicates progression to the next point on the timeline. \u201cConversely\u201d (contrast), \u201cIn other words\u201d (rephrasing), and \u201cThus\u201d (logical consequence) introduce different relationships that don't fit a chronological sequence. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The logical relationship is sequence. The passage moves forward through Shakespeare's career: 1585 arrival → 1596 recognition → 1605 success. The blank must signal advancement in time.\n<ul>\n<li><strong>Choice A — \"Conversely,\"</strong>: signals contrast, implying the 1605 event contradicts the 1596 one — no contradiction exists, so fails. ✗</li>\n<li><strong>Choice B — \"Later,\"</strong>: signals movement forward in time, fitting the chronological chain, so fits. ✓</li>\n<li><strong>Choice C — \"In other words,\"</strong>: signals restatement, but 1605 is a new event, not a restatement, so fails. ✗</li>\n<li><strong>Choice D — \"Thus,\"</strong>: signals cause-effect, but 1605's <em>All's Well</em> is not caused by 1596's recognition — they are sequential events, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

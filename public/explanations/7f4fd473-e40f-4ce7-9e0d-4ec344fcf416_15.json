@@ -1,1 +1,15 @@
-{"questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_15", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the sentence needs", "content": "The sentence describes Arizona's lawmakers (multiple people) designating the state's official fossil. We need the plural form <strong>lawmakers</strong> and the singular possessive <strong>state's</strong>."}, {"title": "Apply plural and possessive rules", "content": "Choice B correctly uses <strong>lawmakers</strong> (plural noun, no apostrophe) and <strong>state's</strong> (singular possessive).<br/><br/>Choices A and D use <strong>states</strong> instead of the possessive form, and choices C and D use <strong>lawmaker's</strong> (singular possessive when a plural noun is needed).<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two distinct grammatical decisions",
+      "content": "The blank must supply two words: a noun referring to the people doing the designating (plural = \"lawmakers\") and a noun showing what belongs to Arizona (singular possessive = \"state's\"). These are independent decisions tested simultaneously."
+    },
+    {
+      "title": "Apply plural noun and singular possessive rules, then eliminate",
+      "content": "\"Lawmakers\" needs no apostrophe (it is a plain plural). \"State's\" needs an apostrophe before the s (singular possessive).<br/><br/><strong>A. lawmakers designated the states</strong> — \"states\" is a plain plural, not a possessive; the fossil belongs to the state. Eliminated.<br/><strong>B. lawmakers designated the state's</strong> — \"lawmakers\" is correct plural; \"state's\" is correct singular possessive. <strong>Correct.</strong><br/><strong>C. lawmaker's designated the state's</strong> — \"lawmaker's\" is singular possessive, but multiple lawmakers acted. Eliminated.<br/><strong>D. lawmaker's designated the states</strong> — wrong on both counts: singular possessive and non-possessive plural. Eliminated.<br/><br/>B is correct."
+    }
+  ]
+}

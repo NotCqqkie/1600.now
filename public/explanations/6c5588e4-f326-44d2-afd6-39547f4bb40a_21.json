@@ -1,1 +1,15 @@
-{"questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_21", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures on each side of the comma", "content": "The blank is preceded by a complete independent clause and followed by a noun phrase with no verb."}, {"title": "Apply the comma rule for modifying participles", "content": "”Citing the region's unique natural, cultural, and historical attributes” is a present participle phrase that modifies the main clause and explains Congress's reasoning for the designation.<br/><br/>The other options either create comma splices (A and D) or form incomplete constructions (B).<br/><br/>This matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the grammatical structures on each side of the comma",
+      "content": "The main clause \"Congress designated a portion of Pennsylvania as the Lackawanna Valley National Heritage Area\" is complete. The blank introduces a phrase explaining Congress's reason for that designation."
+    },
+    {
+      "title": "Apply the participial phrase rule",
+      "content": "A present participle (-ing form) after a comma correctly adds information modifying the subject of the main clause without creating a new independent clause.<br/><br/><strong>A) they cite</strong> — introduces a second full subject (\"they\"); two independent clauses joined by only a comma = comma splice. Wrong.<br/><strong>B) cited</strong> — simple past creates a second independent clause (\"Congress cited\"), again a comma splice without a coordinating conjunction. Wrong.<br/><strong>C) citing</strong> — present participle phrase; modifies the main clause and explains the reason for the designation. No extra subject, no punctuation problem. Correct.<br/><strong>D) has cited</strong> — present-perfect verb with an implied subject creates a third independent clause; comma splice. Wrong.<br/><br/><strong>C</strong> is correct."
+    }
+  ]
+}

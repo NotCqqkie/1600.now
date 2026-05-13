@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the main subject",
-      "content": "The main subject is \u201cBlaise Pascal's Pascaline device\u201d (a singular noun phrase). The em-dash phrase provides additional context but doesn't change the subject."
+      "content": "The main subject is \"Blaise Pascal's Pascaline device\" — a singular noun phrase. The long em-dash interruption (\"conceived... machine based methods\") is a parenthetical and doesn't change the subject or verb."
     },
     {
       "title": "Apply subject-verb agreement",
-      "content": "A singular subject requires a singular finite verb form. \u201cwas\u201d (C) is the only choice that works. \u201cbeing\u201d (A) is not a finite verb; \u201cwere\u201d (B) and \u201care\u201d (D) are both plural forms that violate agreement. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "A singular subject in a historical context requires a singular past-tense finite verb.<br/><br/><strong>A) being</strong> — a participle, not a finite verb; cannot serve as the main predicate. Wrong.<br/><strong>B) were</strong> — plural past; disagrees with the singular subject. Wrong.<br/><strong>C) was</strong> — singular past finite verb; agrees with \"Pascaline device\" and fits the historical past context. Correct.<br/><strong>D) are</strong> — plural present; disagrees with singular subject and uses present tense for a historical event. Wrong.<br/><br/><strong>C</strong> is correct."
     }
   ]
 }

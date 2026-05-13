@@ -1,1 +1,15 @@
-{"questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_17", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the matching punctuation pattern", "content": "The opening comma after “become” signals that “with the breakout success of her 2020 novel Mexican Gothic” is an interrupting phrase that must be enclosed with matching punctuation on both sides."}, {"title": "Complete the enclosing pair", "content": "A comma after “Gothic” matches the comma after “become” and properly closes the interrupting phrase, allowing “best known as a novelist” to follow.<br/><br/>The other choices use wrong punctuation (em-dash, semicolon) or provide none, breaking the sentence structure.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "fd74de5b-6191-4868-9a2d-dd70269d2477_17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the matching punctuation pattern",
+      "content": "The opening comma after \"become\" signals that \"with the breakout success of her 2020 novel Mexican Gothic\" is an interrupting phrase that must be enclosed with matching punctuation on both sides."
+    },
+    {
+      "title": "Complete the matching enclosure",
+      "content": "Rule: when a comma opens an interrupting phrase, a matching comma must close it. The sentence reads: \"she's become<u>,</u> with the breakout success of her 2020 novel Mexican Gothic<u>_</u> best known as a novelist.\" The blank is the closing punctuation.<br/><br/><strong>A:</strong> \"...Mexican Gothic— best known...\" — an em dash doesn't match the opening comma; mismatched pair. Incorrect.<br/><br/><strong>B:</strong> \"...Mexican Gothic; best known...\" — a semicolon joins independent clauses and cannot close a mid-sentence interrupting phrase. Incorrect.<br/><br/><strong>C:</strong> \"...Mexican Gothic best known...\" — no closing punctuation; the interrupting phrase is never closed, fusing it into the main clause. Incorrect.<br/><br/><strong>D:</strong> \"...Mexican Gothic, best known...\" — the comma matches the opening comma after \"become,\" properly enclosing the phrase. <strong>Correct.</strong>"
+    }
+  ]
+}

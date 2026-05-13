@@ -1,1 +1,15 @@
-{"questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the past time reference", "content": "The phrase “in 1868” establishes a specific point in the past, signaling that the verb must express a completed historical action."}, {"title": "Apply the finite verb rule", "content": "A main clause requires a finite verb in simple past tense for a specific past event. <strong>B</strong> (began) is the only finite, past-tense form here.<br/><br/>The other choices are non-finite forms (infinitive, participles) that cannot function as main verbs.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the past time reference",
+      "content": "The phrase \"in 1868\" establishes a specific completed point in the past. The sentence needs a finite main verb — a verb that can stand alone as a predicate."
+    },
+    {
+      "title": "Apply the finite verb rule",
+      "content": "A main clause requires a finite (conjugated) verb. Only simple past tense works for a specific past event with \"in 1868.\"<br/><br/><strong>A) to begin</strong> — infinitive; not a finite verb and cannot function as a main predicate. Wrong.<br/><strong>B) began</strong> — simple past finite verb; correctly anchors the main clause to the past event in 1868. Correct.<br/><strong>C) beginning</strong> — present participle; non-finite, cannot serve as a main verb without an auxiliary. Wrong.<br/><strong>D) having begun</strong> — perfect participle; non-finite, functions as a modifier, not a main verb. Wrong.<br/><br/><strong>B</strong> is correct."
+    }
+  ]
+}
