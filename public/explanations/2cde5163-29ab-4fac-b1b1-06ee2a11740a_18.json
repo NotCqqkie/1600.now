@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The blank comes between a subject (\u201cShe\u201d) and a direct object (\u201cthem from willow and sedge\u201d). This is the position where the main verb of the sentence must appear."
+      "title": "Identify what the question needs",
+      "content": "The blank falls between the subject &lsquo;She&rsquo; and the direct object &lsquo;them from willow and sedge.&rsquo; That position requires the sentence&rsquo;s main verb."
     },
     {
-      "title": "Apply the finite verb rule",
-      "content": "Choice B, \u201cweaves,\u201d is a finite verb conjugated in third-person singular simple present tense to agree with the subject \u201cShe.\u201d The other choices are non-finite forms (gerund and infinitives) that cannot serve as main verbs. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'weaving'</strong>: a gerund or present participle &mdash; not a finite verb, cannot anchor the sentence. &#10007;</li><li><strong>Choice B &mdash; 'weaves'</strong>: third-person singular simple present, agrees with &lsquo;She&rsquo; and works as the main verb. &#10003;</li><li><strong>Choice C &mdash; 'to weave'</strong>: an infinitive &mdash; non-finite, cannot serve as main verb. &#10007;</li><li><strong>Choice D &mdash; 'having woven'</strong>: a perfect participle &mdash; non-finite, cannot serve as main verb. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

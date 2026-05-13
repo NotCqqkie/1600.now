@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the size information",
-      "content": "To emphasize size, the answer must use the only note with a concrete measurement: Atitalaquia covers roughly 63 km\u00b2."
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice best emphasizes Atitalaquia&rsquo;s size. Only one note provides a concrete measurement: Atitalaquia covers roughly 63 km&sup2;."
     },
     {
-      "title": "Apply the measurement to the choices",
-      "content": "D directly includes this area measurement (63 km\u00b2). Choices A, B, and C discuss public services, Atitalaquia's position among other municipalities, or services provided without addressing size. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A</strong>: discusses public services &mdash; says nothing about size. &#10007;</li><li><strong>Choice B</strong>: compares Atitalaquia to other municipalities &mdash; no area figure given. &#10007;</li><li><strong>Choice C</strong>: describes services provided &mdash; no mention of size. &#10007;</li><li><strong>Choice D</strong>: directly states the 63 km&sup2; area, making size concrete and explicit. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

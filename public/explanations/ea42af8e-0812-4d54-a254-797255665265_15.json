@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_15",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the problem the passage establishes",
-      "content": "The passage introduces a specific limitation: filtration, while widely used, is <strong>typically unable to capture very small microplastics</strong>. This is the central problem."
-    },
-    {
-      "title": "Infer from the test results",
-      "content": "The sound wave system's test demonstrates that it removes tiny microplastics down to 10 microns\u2014the size range where filtration fails. The system therefore addresses what filtration cannot.<br/><br/>Choice B states exactly this inference: the sound wave system <strong>may help solve a problem associated with filtration of microplastics</strong>. The other choices mischaracterize the technology, contradict the passage's claims, or overstate the findings.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ea42af8e-0812-4d54-a254-797255665265_15","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage establishes a specific gap: filtration can't capture very small microplastics. The test results show the sound wave system removes particles down to 10 microns — the size range filtration misses. The correct inference connects those two facts."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'sound waves are more cost-effective than filtration'</strong>: the passage never compares costs. &#10007;</li><li><strong>Choice B &mdash; 'the sound wave system may help solve a problem associated with filtration of microplastics'</strong>: the system removes what filtration can't — this directly bridges the passage's problem and the test result. &#10003;</li><li><strong>Choice C &mdash; 'filtration will eventually be replaced by sound wave technology'</strong>: too strong — the passage describes a test, not a replacement. &#10007;</li><li><strong>Choice D &mdash; 'microplastics smaller than 10 microns pose no risk'</strong>: contradicts the passage's concern about small microplastics. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

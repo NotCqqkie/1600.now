@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_22",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the geographic shift",
-      "content": "The passage describes Monument 3 discovered at La Venta in Tabasco, then introduces Monument 53 at San Lorenzo in Veracruz. The key signal is the mention of two different archaeological sites in different regions."
-    },
-    {
-      "title": "Match the location-transition word",
-      "content": "\u201dElsewhere\u201d indicates movement to a different place, which fits the shift between the two sites. The other choices wrongly imply causation, clarification, or categorical example-giving rather than a location shift. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2f36d10d-2b67-4940-be7e-7ae5a7f478f1_22","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage shifts from Monument 3 at La Venta in Tabasco to Monument 53 at San Lorenzo in Veracruz &mdash; two different archaeological sites in different regions. The blank must signal a move to a different location, nothing more."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; causal transition</strong>: implies the second site is a result or consequence of the first. No causal relationship is stated. &#10007;</li><li><strong>Choice B &mdash; clarifying transition</strong>: implies the second sentence restates or explains the first. It introduces new information instead. &#10007;</li><li><strong>Choice C &mdash; example transition</strong>: implies San Lorenzo is an example of something just mentioned. The passage treats it as a separate discovery. &#10007;</li><li><strong>Choice D &mdash; &apos;elsewhere&apos;</strong>: signals movement to a different place, fitting the shift from La Venta to San Lorenzo. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the plural subject",
-      "content": "The subject of the sentence is \u201cFans of the film\u201d \u2014 a plural noun. This is the grammatical clue that determines which verb form must be used."
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;Fans of the film ______ the commanding bass voice behind the character Dr. Facilier.&quot; The subject is &apos;Fans&apos; &mdash; a plural noun. The blank must be a verb that agrees with that plural subject in a simple present-tense context."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "The rule is subject-verb agreement: the verb must match its subject in number. Since \u201cFans\u201d is plural, \u201crecognize\u201d is the correct plural form. The other three options are all singular verb forms that do not agree with the plural subject. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'recognizes'</strong>: third-person singular &mdash; used with &apos;he,&apos; &apos;she,&apos; or &apos;it,&apos; not a plural subject like &apos;Fans.&apos; &#10007;</li><li><strong>Choice B &mdash; 'has recognized'</strong>: singular present perfect &mdash; &apos;has&apos; is a singular auxiliary and does not agree with the plural &apos;Fans.&apos; &#10007;</li><li><strong>Choice C &mdash; 'recognize'</strong>: base-form plural present tense &mdash; agrees with the plural subject &apos;Fans.&apos; &#10003;</li><li><strong>Choice D &mdash; 'is recognizing'</strong>: singular present progressive &mdash; &apos;is&apos; is a singular auxiliary and does not agree with the plural &apos;Fans.&apos; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

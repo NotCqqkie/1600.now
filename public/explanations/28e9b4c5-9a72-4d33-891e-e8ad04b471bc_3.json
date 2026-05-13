@@ -1,15 +1,1 @@
-{
-  "questionId": "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The second sentence defines exactly what Miyazaki does: he presents fantasy elements <em>\"with little backstory or explanation.\"</em> The blank must mean he refuses to provide those details."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. Celebrate</strong> means to honor or praise enthusiastically. If Miyazaki celebrated details and exposition, he would highlight them prominently — the opposite of giving little backstory. Eliminated.<br/><br/><strong>B. Combine</strong> means to merge or join together. This would mean he merges details and exposition with his fantasy, not that he leaves them out. Eliminated.<br/><br/><strong>C. Invent</strong> means to create something new. If he invented details and exposition, he would be adding them, not withholding them. Eliminated.<br/><br/><strong>D. Withhold</strong> means to refuse to give or provide. Substituting: <em>\"he tends to withhold details and exposition about those elements\"</em> — confirmed by the next sentence: he gives <em>\"little backstory or explanation.\"</em> <strong>D is correct.</strong>"
-    }
-  ]
-}
+{"questionId":"28e9b4c5-9a72-4d33-891e-e8ad04b471bc_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence says Miyazaki presents fantasy elements &apos;with little backstory or explanation.&apos; The blank must describe what he does with details and exposition in a way that matches that constraint &mdash; he refuses to provide them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;celebrate&apos;</strong>: to honor or praise enthusiastically. If Miyazaki celebrated details and exposition, he would highlight them &mdash; the opposite of giving little backstory. &#10007;</li><li><strong>Choice B &mdash; &apos;combine&apos;</strong>: to merge together. This implies he includes those details by blending them in, not that he omits them. &#10007;</li><li><strong>Choice C &mdash; &apos;invent&apos;</strong>: to create something new. Inventing details and exposition means adding them, not withholding them. &#10007;</li><li><strong>Choice D &mdash; &apos;withhold&apos;</strong>: to refuse to give or provide. &apos;He tends to withhold details and exposition&apos; aligns directly with &apos;little backstory or explanation.&apos; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_9",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the pyramid and locate its row",
-      "content": "The question names Tikal Temple IV and asks for its height. Find this pyramid in the Pyramid column of the table."
-    },
-    {
-      "title": "Read the height value and select the match",
-      "content": "Tikal Temple IV's row shows 70 meters in the Height column. Choice A is the only one with this value. The other three choices show heights of the other three pyramids in the table, making them incorrect. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d9f381e2-df35-4ee7-a137-e689faac81b1_9","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the height of Tikal Temple IV. Locate that pyramid in the table and read the value in the Height column."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 70 meters</strong>: the value shown in Tikal Temple IV&apos;s row. &#10003;</li><li><strong>Choice B</strong>: height of a different pyramid in the table. &#10007;</li><li><strong>Choice C</strong>: height of a different pyramid in the table. &#10007;</li><li><strong>Choice D</strong>: height of a different pyramid in the table. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

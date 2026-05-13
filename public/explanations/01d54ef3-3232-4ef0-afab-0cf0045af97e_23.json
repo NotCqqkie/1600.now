@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The sentence before the blank says that telling the ravens apart can confound even experienced watchers, and the sentence after the blank gives a reason: the two species share similarities that sometimes make them look identical. <br/>The decisive clue is that the blank introduces the explanation for the difficulty."
+      "title": "Identify what the question needs",
+      "content": "The blank is a transition word that connects two sentences. Sentence 1 states that telling the two raven species apart can confuse even seasoned bird watchers. Sentence 2 gives the reason: the two species share similarities that make them look virtually identical. The transition must signal that sentence 2 explains or confirms sentence 1."
     },
     {
-      "title": "Match the meaning to the transition",
-      "content": "Indeed works because it emphasizes that the statement about shared similarities is true, thereby supporting the idea that the similarities cause the confusion. <br/>The other three choices either contrast, add unrelated information, or imply a result that does not follow. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Instead,'</strong>: signals contrast or an alternative &mdash; but sentence 2 is not a contrast to sentence 1. &#10007;</li><li><strong>Choice B &mdash; 'Moreover,'</strong>: signals addition of a new, separate idea &mdash; but sentence 2 does not add a new point; it explains why sentence 1 is true. &#10007;</li><li><strong>Choice C &mdash; 'Indeed,'</strong>: signals confirmation or elaboration &mdash; sentence 2 confirms why identification is difficult by spelling out the shared similarities. &#10003;</li><li><strong>Choice D &mdash; 'Thus,'</strong>: signals a conclusion or result &mdash; sentence 2 is the cause of the difficulty, not the result of it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

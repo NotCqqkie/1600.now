@@ -1,15 +1,1 @@
-{
-  "questionId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_6",
-  "correctAnswer": "3",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the equation",
-      "content": "We need to find $x$ where $f(x) = 150$. Since $f(x) = 50x$, substitute to get:\n$$50x = 150$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Divide both sides by 50:\n$$x = \\frac{150}{50} = 3$$"
-    }
-  ]
-}
+{"questionId":"fb11da56-a8c4-4733-a720-f2cea7a98a1a_6","correctAnswer":"3","section":"Math","steps":[{"title":"Set up","content":"Substitute $f(x) = 150$ into $f(x) = 50x$: $\\ 50x = 150$"},{"title":"Solve","content":"Divide both sides by $50$: $\\ x = 3$"},{"title":"Answer","content":"<strong>3</strong> is correct."}]}

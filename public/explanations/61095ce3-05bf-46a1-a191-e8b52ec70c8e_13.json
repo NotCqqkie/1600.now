@@ -1,15 +1,1 @@
-{
-  "questionId": "61095ce3-05bf-46a1-a191-e8b52ec70c8e_13",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The word \u201cHowever\u201d sets up a contrast: the three\u2011host CLP\u2019s abundance dropped with rising temperature while the directly transmitted parasite\u2019s abundance stayed stable."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B captures this contrast by saying the advantages of the three\u2011host transmission strategy did not completely offset the negative temperature effects, which matches the observed drop.<br/>The other three choices either claim CLPs were less dependent on affected hosts, claim directly transmitted parasites were more shielded, or claim more hosts give better protection\u2014all of which conflict with the data.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"61095ce3-05bf-46a1-a191-e8b52ec70c8e_13","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage uses &apos;However&apos; to signal a contrast: the three-host CLP&apos;s abundance dropped with rising temperature while the directly transmitted parasite&apos;s abundance stayed stable. The correct choice must explain that contrast."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'CLPs were less dependent on temperature-affected hosts'</strong>: Contradicts the data &mdash; CLPs&apos; abundance did drop, indicating they were more dependent. &#10007;</li><li><strong>Choice B &mdash; 'the advantages of three-host transmission did not fully offset the negative temperature effects'</strong>: Matches the observed drop in CLP abundance despite any benefits of using multiple hosts. &#10003;</li><li><strong>Choice C &mdash; 'directly transmitted parasites were more shielded from temperature'</strong>: The passage shows stable abundance for directly transmitted parasites, but this choice misattributes the mechanism in a way the data doesn&apos;t support. &#10007;</li><li><strong>Choice D &mdash; 'more hosts provide better protection from temperature effects'</strong>: Conflicts with the data, which show the opposite &mdash; more hosts correlated with a drop, not protection. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

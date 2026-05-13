@@ -1,15 +1,1 @@
-{
-  "questionId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its number",
-      "content": "The subject of the sentence is \u201ceach one of the thousands of faux Chinese characters.\u201d The key is the phrase \u201ceach one\u201d\u2014it's always singular, even though it refers to multiple characters. The descriptive phrase in dashes is a modifier that doesn't change the subject's singular number."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "<strong>\u201cHolds\u201d</strong> is the only singular present-tense form. The rule of subject-verb agreement requires a singular verb, and only this choice satisfies it; the others are plural or wrong in tense. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"110d04d6-17dd-46a6-a6d5-c895e1d91668_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence&rsquo;s subject is &lsquo;each one of the thousands of faux Chinese characters.&rsquo; The head noun is &lsquo;each one&rsquo; &mdash; always singular &mdash; regardless of the plural &lsquo;thousands&rsquo; in the prepositional phrase. The intervening dash-enclosed modifier does not change the subject. We need the singular present-tense verb."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;hold&rsquo;</strong>: plural present-tense form. The singular subject &lsquo;each one&rsquo; requires a singular verb. &#10007;</li><li><strong>Choice B &mdash; &lsquo;holds&rsquo;</strong>: singular present-tense form. Agrees with the singular subject &lsquo;each one.&rsquo; &#10003;</li><li><strong>Choice C &mdash; &lsquo;have held&rsquo;</strong>: plural present-perfect form. Fails on both number (plural) and introduces an unnecessary perfect aspect. &#10007;</li><li><strong>Choice D &mdash; &lsquo;were holding&rsquo;</strong>: past-progressive form. Wrong tense and wrong number for this descriptive present-tense sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

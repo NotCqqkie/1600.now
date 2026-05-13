@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated goal",
-      "content": "The question explicitly asks which choice most effectively accomplishes the student's goal: identify the title of J.D. Salinger's first published short story. This goal is the decisive criterion for evaluating all four choices."
-    },
-    {
-      "title": "Find which choice actually names the title",
-      "content": "Choice D directly names the title: <em>\u201cThe Young Folks.\u201d</em> Choices A, B, and C mention related details\u2014publication information, the author's reputation, or when it appeared\u2014but none identify the title. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ea42af8e-0812-4d54-a254-797255665265_24","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to identify the <em>title</em> of Salinger&apos;s first published short story. Only one choice can accomplish that goal: the choice that actually states the title."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'In 1940, a short story by J.D. Salinger appeared in Story'</strong>: Names the publication and year but omits the title entirely. &#10007;</li><li><strong>Choice B &mdash; 'Salinger&apos;s first published work of fiction was a short story'</strong>: Describes the genre of the work but gives no title. &#10007;</li><li><strong>Choice C &mdash; 'J.D. Salinger&apos;s first published work of fiction appeared in 1940'</strong>: States when it appeared but still does not name it. &#10007;</li><li><strong>Choice D &mdash; 'J.D. Salinger&apos;s first published short story was called &quot;The Young Folks&quot;'</strong>: Directly states the title &quot;The Young Folks,&quot; which is exactly what the goal requires. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

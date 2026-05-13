@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize what the sentence describes",
-      "content": "You place your hands (multiple) between two antennas (multiple). Since this is a straightforward action with no possession involved, the nouns must be plain plurals. Apostrophes mark possession or contractions, not plurality."
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: &quot;When you place your ______ the pitch will shift as your hands move through the air.&quot; The blank fills a noun phrase meaning &apos;hands between the two antennas&apos; followed by a comma. The key grammar question is whether any apostrophes are needed &mdash; apostrophes mark possession or contractions, never simple plurals."
     },
     {
-      "title": "Apply the apostrophe rule",
-      "content": "Apostrophes mark possession or contractions — never simple plurals. \"Hands\" means more than one hand (no possession), and \"antennas\" means more than one antenna (no possession).<br/><br/><strong>A — \"hand's between the two antenna's\"</strong>: \"hand's\" = belonging to a hand; \"antenna's\" = belonging to an antenna. Neither word is possessive in context. Fails.<br/><br/><strong>B — \"hands between the two antennas\"</strong>: Plain plurals, no apostrophes. You place multiple hands between multiple antennas. Correct.<br/><br/><strong>C — \"hands' between the two antennas'\"</strong>: \"hands'\" = belonging to the hands; \"antennas'\" = belonging to the antennas. No possession intended. Fails.<br/><br/><strong>D — \"hands' between the two antennas\"</strong>: \"hands'\" still incorrectly marks the plural \"hands\" as possessive. Fails."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'hand&apos;s between the two antenna&apos;s,'</strong>: &apos;hand&apos;s&apos; implies belonging to a hand; &apos;antenna&apos;s&apos; implies belonging to an antenna. Neither word is possessive here. &#10007;</li><li><strong>Choice B &mdash; 'hands between the two antennas,'</strong>: plain plurals with no apostrophes &mdash; you place multiple hands between multiple antennas. No possession, no contraction. &#10003;</li><li><strong>Choice C &mdash; 'hands&apos; between the two antennas&apos;,'</strong>: &apos;hands&apos;&apos; and &apos;antennas&apos;&apos; both carry apostrophes marking possession, but neither word possesses anything in context. &#10007;</li><li><strong>Choice D &mdash; 'hands&apos; between the two antennas,'</strong>: &apos;hands&apos;&apos; still incorrectly marks a plain plural as possessive. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

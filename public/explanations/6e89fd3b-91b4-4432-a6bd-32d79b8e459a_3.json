@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_3",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal in the sequence",
-      "content": "The word \u201cbefore\u201d sets up a critical contrast: the conjecture did something to mathematicians, and only after that did it \u201cyield\u201d (finally get proven). Since \u201cyielding\u201d implies resistance was overcome, the blank needs a word describing resistance or difficulty."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dConfounded\u201d means defeated or frustrated \u2014 what a hard, unsolved conjecture does to mathematicians trying to solve it. The other three either contradict this logic or are irrelevant to mathematical difficulty. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_3","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence sets up a before/after contrast: the conjecture did something to mathematicians for 48 years, then finally &lsquo;yielded&rsquo; to a proof. &lsquo;Yielded&rsquo; implies resistance was overcome, so the blank needs a word meaning the conjecture blocked or defeated mathematicians."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'appeased'</strong>: means satisfied or calmed &mdash; the opposite of what an unsolved problem does. &#10007;</li><li><strong>Choice B &mdash; 'disregarded'</strong>: means ignored. A conjecture can&apos;t ignore people. &#10007;</li><li><strong>Choice C &mdash; 'confounded'</strong>: means baffled or defeated. An unsolved conjecture confounds mathematicians trying to prove it &mdash; and then finally yielding means that resistance was overcome. &#10003;</li><li><strong>Choice D &mdash; 'indoctrinated'</strong>: means taught beliefs by repetition, irrelevant to mathematical difficulty. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

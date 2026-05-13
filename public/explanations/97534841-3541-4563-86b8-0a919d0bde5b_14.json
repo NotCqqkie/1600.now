@@ -1,15 +1,1 @@
-{
-  "questionId": "97534841-3541-4563-86b8-0a919d0bde5b_14",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the verb form requirement",
-      "content": "The sentence contains \u201cIndonesia is required _____ other Interpol countries with access to its law enforcement databases.\u201d The passive verb phrase is required indicates we need to identify the right verb form."
-    },
-    {
-      "title": "Apply the infinitive rule",
-      "content": "Constructions with \u201crequired\u201d take infinitive verb forms (to + base verb). \u201cTo provide\u201d is the only infinitive in the choices, creating \u201cIndonesia is required to provide other Interpol countries with access to its law enforcement databases.\u201d Choices A (past participle), C (gerund), and D (finite verb) are wrong verb forms.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"97534841-3541-4563-86b8-0a919d0bde5b_14","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &lsquo;Indonesia is required _____ other Interpol countries with access to its law enforcement databases.&rsquo; The passive construction &lsquo;is required&rsquo; governs the blank. We need the verb form that correctly follows &lsquo;required.&rsquo;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;provided&rsquo;</strong>: past participle, not an infinitive. &lsquo;Is required provided&rsquo; is ungrammatical. &#10007;</li><li><strong>Choice B &mdash; &lsquo;to provide&rsquo;</strong>: infinitive. &lsquo;Required to provide&rsquo; is the standard construction &mdash; &lsquo;required&rsquo; always takes an infinitive complement. &#10003;</li><li><strong>Choice C &mdash; &lsquo;providing&rsquo;</strong>: gerund/present participle. &lsquo;Is required providing&rsquo; is ungrammatical. &#10007;</li><li><strong>Choice D &mdash; &lsquo;provides&rsquo;</strong>: finite verb, creating a second main clause without a conjunction. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

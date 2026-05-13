@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_10",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The statement asks for the species with the greatest range between minimum and maximum depths. That tells us we must subtract each species' minimum depth from its maximum depth and compare the results."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Agaricia fragilis has the largest spread between its shallowest and deepest recorded depths, so its range is the greatest. <br/>The other three species each show a smaller spread. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6c5588e4-f326-44d2-afd6-39547f4bb40a_10","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks which species has the greatest range between its minimum and maximum recorded depths. That means subtract each species&apos; minimum depth from its maximum depth and compare."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; first species</strong>: smaller depth spread. &#10007;</li><li><strong>Choice B &mdash; second species</strong>: smaller depth spread. &#10007;</li><li><strong>Choice C &mdash; Agaricia fragilis</strong>: largest spread between shallowest and deepest recorded depths. &#10003;</li><li><strong>Choice D &mdash; fourth species</strong>: smaller depth spread. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

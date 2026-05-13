@@ -1,15 +1,1 @@
-{
-  "questionId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_27",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize what 'methodology' means",
-      "content": "The question asks for research \u201cmethodology\u201d\u2014how the study was structured and conducted, not what was discovered or what the researchers wanted to find."
-    },
-    {
-      "title": "Select the choice describing the experimental procedure",
-      "content": "Choice A is the only choice that describes the experimental design: testing two groups of 125 seeds, one ingested and one not. The other three either state the research goal (B) or report findings/results (C, D). That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e580c519-9667-4b3b-8a1e-a7bec6eba694_27","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to describe the study&apos;s <em>research methodology</em> &mdash; how the study was set up and conducted, not its goals or its results. A methodology description covers the experimental design: what was tested and how groups were structured."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'tested 125 ingested seeds and 125 non-ingested seeds'</strong>: Describes the experimental design &mdash; two groups of 125 seeds tested under different conditions. This is the methodology. &#10003;</li><li><strong>Choice B &mdash; 'wanted to explore the effects of bat ingestion on germination'</strong>: States the researchers&apos; goal, not how they carried out the study. &#10007;</li><li><strong>Choice C &mdash; 'a lower percentage of ingested seeds germinated'</strong>: Reports a finding from the results, not the method used. &#10007;</li><li><strong>Choice D &mdash; '82 of 125 ingested seeds germinated'</strong>: States a specific result (66% germination rate), not the experimental structure. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
