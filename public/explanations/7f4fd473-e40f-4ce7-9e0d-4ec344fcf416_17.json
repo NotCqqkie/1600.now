@@ -1,15 +1,1 @@
-{
-  "questionId": "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure",
-      "content": "The blank comes between the verb \"is\" and the phrase \"the chromophore\" that completes it. These two parts must stay connected without any punctuation between them."
-    },
-    {
-      "title": "Apply the rule",
-      "content": "Structure: \"The part of a compound that determines the compound's color is [blank] the chromophore.\" The verb \"is\" needs to connect directly to its complement \"the chromophore\" via \"called.\" No punctuation should interrupt that connection.<br/><br/>Rule: a verb and its complement cannot be separated by a dash, semicolon, or period.<br/><br/><strong>A. called-</strong> — a dash after \"called\" creates a break between the verb phrase and \"the chromophore,\" making \"the chromophore\" a dangling fragment. Eliminated.<br/><br/><strong>B. called;</strong> — a semicolon separates independent clauses, but \"the chromophore\" is not a clause—it is the noun complement. Semicolons cannot precede a bare noun phrase here. Eliminated.<br/><br/><strong>C. called.</strong> — a period ends the sentence, leaving \"the chromophore\" as a one-word fragment with no verb. Eliminated.<br/><br/><strong>D. called</strong> — no punctuation allows \"is called the chromophore\" to read as one complete predicate. Correct.<br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The sentence reads: &quot;The part of a compound that determines the compound's color is [blank] the chromophore.&quot; The verb &quot;is&quot; and its complement &quot;the chromophore&quot; must stay connected. The only thing that belongs in the blank is the word that completes the predicate — no punctuation should interrupt it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'called-'</strong>: a dash after &quot;called&quot; breaks the verb phrase from its complement, leaving &quot;the chromophore&quot; as a dangling fragment. &#10007;</li><li><strong>Choice B &mdash; 'called;'</strong>: a semicolon separates two independent clauses, but &quot;the chromophore&quot; is not a clause — it is a bare noun complement. A semicolon cannot precede it. &#10007;</li><li><strong>Choice C &mdash; 'called.'</strong>: a period ends the sentence, turning &quot;the chromophore&quot; into a one-word fragment with no verb. &#10007;</li><li><strong>Choice D &mdash; 'called'</strong>: no punctuation allows &quot;is called the chromophore&quot; to read as one complete predicate. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

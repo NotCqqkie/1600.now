@@ -1,15 +1,1 @@
-{
-  "questionId": "bc839e02-25bc-4632-be4e-0c0b81f62962_15",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the explicit chromium comparison",
-      "content": "The passage directly states that ferritic stainless steel contains a <strong>higher percentage of chromium (at least 10.5%) than does austenitic stainless steel</strong>. This is the key defining difference between the two steel types."
-    },
-    {
-      "title": "Apply the comparison to the product applications",
-      "content": "Since dishwashers use the 200 series (austenitic) and induction cookers use ferritic, choice D follows directly\u2014dishwashers must have lower chromium than induction cookers. The other three all contradict the passage. <br/><br/>That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"bc839e02-25bc-4632-be4e-0c0b81f62962_15","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says ferritic stainless steel (induction cookers) contains a <strong>higher percentage of chromium (at least 10.5%)</strong> than austenitic stainless steel. The 200 series (austenitic) is used for dishwashers; the 300 series (austenitic) for storage containers/sinks. Both austenitic subtypes have <em>less</em> chromium than ferritic. The question asks which inference follows logically."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'sinks will have similar magnetic properties to stainless steel used to manufacture induction cookers'</strong>: Sinks use austenitic (300 series), which lacks the high iron concentration responsible for magnetic properties; ferritic is magnetic, austenitic is not. &#10007;</li><li><strong>Choice B &mdash; 'storage containers will have a concentration of chromium lower than 10.5%, while stainless steel used to manufacture dishwashers will not'</strong>: Both storage containers (300 series) and dishwashers (200 series) are austenitic and therefore have <em>less</em> chromium than ferritic &mdash; the second half of this claim directly contradicts the passage. &#10007;</li><li><strong>Choice C &mdash; 'induction cookers will have a face-centered cubic crystalline structure'</strong>: Induction cookers use ferritic stainless steel; the face-centered cubic structure belongs to austenitic, not ferritic. &#10007;</li><li><strong>Choice D &mdash; 'dishwashers will have a lower percentage of chromium in its composition than stainless steel used for induction cookers will'</strong>: Dishwashers use austenitic (200 series), which has less chromium than ferritic (induction cookers). This follows directly from the passage. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

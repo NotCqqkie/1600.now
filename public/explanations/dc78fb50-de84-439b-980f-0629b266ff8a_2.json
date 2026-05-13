@@ -1,15 +1,1 @@
-{
-  "questionId": "dc78fb50-de84-439b-980f-0629b266ff8a_2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage points to forms that \"straddle the line between prose and poetry,\" showing they lack a fixed, clear shape."
-    },
-    {
-      "title": "Match the meaning to the clue",
-      "content": "The blank describes literary forms that \"straddle the line between prose and poetry\" — forms with no fixed boundaries. Substitute each word into \"there are more ______ forms\":<br/><br/><strong>A. Neutral</strong> means impartial or having no strong qualities. Forms straddling prose and poetry are not neutral — they are distinctively hybrid. This doesn't describe their defining feature.<br/><br/><strong>B. Customary</strong> means usual or conventional. This is the opposite of what Davis describes; these forms are unconventional precisely because they don't follow established categories.<br/><br/><strong>C. Amorphous</strong> means without definite shape or form. \"More amorphous forms\" — forms that borrow from fables and realist narratives, that straddle prose and poetry — are by definition shapeless and uncategorizable. &#10003;<br/><br/><strong>D. Dispersed</strong> means scattered or spread out. This describes physical distribution or arrangement, not the nature of a literary form's structure — it doesn't apply here.<br/><br/><strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"dc78fb50-de84-439b-980f-0629b266ff8a_2","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank describes literary forms that &quot;straddle the line between prose and poetry&quot; — forms with no fixed boundaries or clear category."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'neutral'</strong>: means impartial or without strong qualities. Forms that straddle prose and poetry are distinctively hybrid, not neutral. &#10007;</li><li><strong>Choice B &mdash; 'customary'</strong>: means conventional or usual. Davis describes forms that resist established categories — the opposite of customary. &#10007;</li><li><strong>Choice C &mdash; 'amorphous'</strong>: means without definite shape or form. Forms that borrow from fables, realist narratives, and straddle prose and poetry are by definition shapeless and uncategorizable. &#10003;</li><li><strong>Choice D &mdash; 'dispersed'</strong>: means scattered or spread out in space. This describes physical distribution, not a literary form&apos;s structure. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

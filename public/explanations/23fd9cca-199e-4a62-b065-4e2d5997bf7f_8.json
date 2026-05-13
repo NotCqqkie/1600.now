@@ -1,15 +1,1 @@
-{
-  "questionId": "23fd9cca-199e-4a62-b065-4e2d5997bf7f_8",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining claim about their meeting",
-      "content": "The passage states directly: \u201cwho had met while performing in a 1960 touring production of Lorraine Hansberry's play <em>A Raisin in the Sun</em>.\u201d"
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D directly mirrors the passage's account of how they met. The other three either swap in the wrong play, invent a role for Harrison, or misdate the meeting to an era when NEC didn't yet exist. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"23fd9cca-199e-4a62-b065-4e2d5997bf7f_8","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states that the two figures met &quot;while performing in a 1960 touring production of Lorraine Hansberry&apos;s play <em>A Raisin in the Sun</em>.&quot; The correct choice must match this account exactly."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: swaps in the wrong play. &#10007;</li><li><strong>Choice B</strong>: invents a specific role for one of the figures that the passage does not describe. &#10007;</li><li><strong>Choice C</strong>: misdates the meeting to an era when the NEC did not yet exist. &#10007;</li><li><strong>Choice D &mdash; 1960 touring production of <em>A Raisin in the Sun</em></strong>: directly mirrors the passage&apos;s account of how and when they met. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

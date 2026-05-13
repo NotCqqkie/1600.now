@@ -1,15 +1,1 @@
-{
-  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the independent clauses on each side",
-      "content": "The clause before the blank\u2014\u201dMany Farms Chapter, which covers 168,000 acres, is one of the 110 chapters of the Navajo Nation\u201d\u2014is an independent clause. <br/>The clause after the blank\u2014\u201dIn Din\u00e9 bizaad (the Navajo language), the chapter is called D\u00e1'\u00e1k'eh Hal\u00e1ni\u201d\u2014is also an independent clause."
-    },
-    {
-      "title": "Apply the rule for separating independent clauses",
-      "content": "When two independent clauses appear consecutively, they must be separated by a period, semicolon, or comma with a coordinating conjunction. <br/>Choice B uses a period, properly separating the two clauses into two complete sentences. <br/>Choices A, C, and D create incomplete first clauses by ending with dangling or unattached words. <br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"348385bf-0e3c-48f0-85b8-e84dfdf12196_20","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Both the clause before the blank and the clause after it are independent clauses. The correct choice must properly separate two independent clauses."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: leaves a dangling or unattached word that makes the first clause incomplete. &#10007;</li><li><strong>Choice B &mdash; period</strong>: splits the two independent clauses into two complete sentences, satisfying the rule that independent clauses must be separated by a period, semicolon, or comma with a coordinating conjunction. &#10003;</li><li><strong>Choice C</strong>: creates an incomplete first clause by ending with an unattached word. &#10007;</li><li><strong>Choice D</strong>: same problem &mdash; the first clause is left dangling and grammatically incomplete. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

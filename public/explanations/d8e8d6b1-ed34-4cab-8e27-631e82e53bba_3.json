@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_3",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states her publications are <strong>frequently cited</strong> and then clarifies (after the dash): <em>\u201cother economists clearly find her studies valuable.\u201d</em> This reveals what the frequent citations demonstrate about her research."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "<strong>Underscores</strong> means to emphasize or highlight something. Her frequently cited publications underscore the usefulness of her research\u2014they provide clear evidence that her work is valuable, matching the passage's own confirmation that economists find her studies valuable.<br/><br/>The other three choices contradict this dynamic by either diminishing importance, preventing outcomes, or suggesting misrepresentation.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d8e8d6b1-ed34-4cab-8e27-631e82e53bba_3","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says her publications are <strong>frequently cited</strong>, then clarifies after a dash: <em>&quot;other economists clearly find her studies valuable.&quot;</em> The blank must describe what the frequent citations do to the usefulness of her research."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; diminishes</strong>: means to reduce in importance &mdash; the opposite of what frequent citations suggest. &#10007;</li><li><strong>Choice B &mdash; underscores</strong>: means to emphasize or highlight. Frequent citations emphasize how useful her work is, matching the passage&apos;s confirmation that economists value her studies. &#10003;</li><li><strong>Choice C &mdash; prevents</strong>: implies blocking an outcome &mdash; no sense that citations block anything here. &#10007;</li><li><strong>Choice D &mdash; misrepresents</strong>: implies distortion or falsehood &mdash; contradicts the passage&apos;s positive framing. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

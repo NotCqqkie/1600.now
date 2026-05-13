@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cause-and-effect relationship",
-      "content": "Sentence 2 establishes the rule: a plurality wins, not a majority. The new sentence explains the consequence\u2014if several candidates compete, one can win without a majority. The signal is the cause-and-effect relationship: sentence 3 follows from sentence 2."
-    },
-    {
-      "title": "Match the transition",
-      "content": "\u201dAccordingly\u201d expresses \u201cas a result\u201d or \u201cas a logical consequence\u201d\u2014the exact relationship between sentence 2's rule and sentence 3's consequence. The other three don't signal a cause-and-effect flow. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_24","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank connects sentence 2 (a plurality wins, not a majority) to sentence 3 (a candidate can win with under 50%). Sentence 3 is a direct consequence of the rule in sentence 2, so the transition must signal cause-and-effect."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Moreover,'</strong>: signals addition, not consequence. &#10007;</li><li><strong>Choice B &mdash; 'Similarly,'</strong>: signals comparison, not consequence. &#10007;</li><li><strong>Choice C &mdash; 'Accordingly,'</strong>: means &lsquo;as a result&rsquo; &mdash; exactly the cause-and-effect link needed. &#10003;</li><li><strong>Choice D &mdash; 'However,'</strong>: signals contrast, not consequence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

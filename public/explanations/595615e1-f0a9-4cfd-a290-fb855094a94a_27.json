@@ -1,15 +1,1 @@
-{
-  "questionId": "595615e1-f0a9-4cfd-a290-fb855094a94a_27",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the defining claim",
-      "content": "The notes state that a mass fraction is the ratio of the total mass of an element to the combined mass of all elements in a given environment. <br/>That definition is exactly what the question asks for: oxygen\u2019s mass relative to all Earth\u2019s elements."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "Choice C repeats the given mass fraction for oxygen, 297,000 ppm, which by definition expresses oxygen\u2019s mass compared to the total mass of all elements. <br/>The other three either compare oxygen to vanadium, give a generic definition without the specific value, or incorrectly use vanadium\u2019s value for oxygen. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"595615e1-f0a9-4cfd-a290-fb855094a94a_27","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to specify oxygen&apos;s total mass relative to all elements on Earth. A mass fraction is defined in the notes as that exact ratio, and oxygen&apos;s mass fraction is 297,000 ppm. The correct choice must state that value."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Oxygen&apos;s abundance...is greater than vanadium&apos;s...&rsquo;</strong>: compares oxygen to vanadium rather than to all elements; doesn&apos;t specify oxygen&apos;s mass fraction value. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Oxygen&apos;s abundance can be expressed by a mass fraction...&rsquo;</strong>: defines the concept but omits the specific 297,000 ppm value. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The mass fraction of oxygen on Earth is 297,000 ppm.&rsquo;</strong>: states the exact mass fraction, which by definition is the ratio of oxygen&apos;s mass to the combined mass of all elements. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Oxygen&apos;s mass...is 105 ppm.&rsquo;</strong>: uses vanadium&apos;s value (105 ppm) for oxygen &mdash; factually wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

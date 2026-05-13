@@ -1,15 +1,1 @@
-{
-  "questionId": "6c5588e4-f326-44d2-afd6-39547f4bb40a_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the prepositional phrase structure",
-      "content": "The sentence contains \u201cto be known [?] a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief exports.\u201d The passive infinitive \u201cto be known\u201d requires an object; the noun phrase \u201ca nickname that corresponds...\u201d is that object."
-    },
-    {
-      "title": "Apply the rule for prepositions and their objects",
-      "content": "The preposition \u201cby\u201d must attach directly to \u201ca nickname\u201d\u2014no punctuation belongs between them, as in choice A. Choices B, C, and D incorrectly insert an em dash, comma, or colon that would separate the preposition from its noun object. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6c5588e4-f326-44d2-afd6-39547f4bb40a_17","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank sits between &apos;known&apos; and &apos;a nickname.&apos; The phrase &apos;to be known by a nickname&apos; uses the preposition &apos;by&apos; to connect the passive verb to its object. No punctuation should separate &apos;by&apos; from &apos;a nickname.&apos;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'by'</strong>: Plain preposition directly followed by its noun object &mdash; clean and grammatically correct. &#10003;</li><li><strong>Choice B &mdash; 'by&mdash;'</strong>: An em dash after &apos;by&apos; would break the preposition from its object with no grammatical justification. &#10007;</li><li><strong>Choice C &mdash; 'by,'</strong>: A comma after &apos;by&apos; wrongly separates the preposition from the noun phrase it governs. &#10007;</li><li><strong>Choice D &mdash; 'by:'</strong>: A colon introduces an independent clause or a list, not the object of a preposition. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

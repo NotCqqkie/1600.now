@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_23",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The notes give one direct figure: \u201cIn 2021, there were a total of 392 merchant ships registered in Saudi Arabia.\u201d This is the only statement that provides the exact number of ships."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice D restates that figure exactly, adding a clarifying phrase about what merchant ships are. <br/>The other three choices discuss deadweight tonnage or define the term, none of which give the ship count. <br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"4989a736-d8cf-4f22-b057-f6543b77d0fd_23","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to specify the number of merchant ships in Saudi Arabia in 2021. The relevant note is: &lsquo;In 2021, there were a total of 392 merchant ships registered in Saudi Arabia.&rsquo; The correct choice must state that count."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;...carrying capacity...of 13.7 million tons...&rsquo;</strong>: gives deadweight tonnage, not ship count. &#10007;</li><li><strong>Choice B &mdash; &lsquo;...deadweight tonnage of 13.7 million tons...&rsquo;</strong>: also gives tonnage, not ship count. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The carrying capacity of a merchant ship is also known as deadweight tonnage.&rsquo;</strong>: defines a term, states no count at all. &#10007;</li><li><strong>Choice D &mdash; &lsquo;There were a total of 392 merchant ships...registered in Saudi Arabia in 2021.&rsquo;</strong>: states the exact count and adds a clarifying definition of merchant ship. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
