@@ -1,15 +1,1 @@
-{
-  "questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_24",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the consequence",
-      "content": "The sentence after the blank describes what happens as a result of the plurality rule just explained: if multiple candidates compete, a winner with under 50% becomes possible. The transition must signal this logical consequence."
-    },
-    {
-      "title": "Match the consequence signal",
-      "content": "\u201dAccordingly\u201d expresses consequence: the final sentence logically flows from the plurality system described above. The other three misidentify the relationship by suggesting contrast, addition, or analogy rather than consequence. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f6d1c961-52d1-4186-baf5-d276dfd4939f_24", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The blank begins the final sentence, which describes a <strong>consequence</strong> of the plurality rule just defined: because the winner only needs the most votes (not a majority), a candidate can win with under 50%. The transition must signal that this outcome follows logically from the rule."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'However,'</strong>: Signals contrast or contradiction. The final sentence doesn't contradict the plurality rule — it illustrates what it produces. &#10007;</li><li><strong>Choice B &mdash; 'Moreover,'</strong>: Signals addition of a separate point. The final sentence isn't adding new information; it's showing the direct result of plurality voting. &#10007;</li><li><strong>Choice C &mdash; 'Similarly,'</strong>: Signals analogy or parallel. The final sentence is a consequence, not a comparison. &#10007;</li><li><strong>Choice D &mdash; 'Accordingly,'</strong>: Signals logical consequence — &quot;given what was just said, this follows.&quot; The under-50% scenario follows directly from the plurality definition. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

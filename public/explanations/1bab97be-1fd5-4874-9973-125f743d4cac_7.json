@@ -1,15 +1,1 @@
-{
-  "questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the key conclusion",
-      "content": "The passage states: <em>\u201cgreater proximity alone can't explain the difference in park use.\u201d</em> This explicit statement directly answers what point the text makes about the difference in park usage between the two cities."
-    },
-    {
-      "title": "Match the conclusion to the choices",
-      "content": "The difference must be caused by something other than proximity \u2014 which is what choice D says. Choices A, B, and C introduce unsupported claims about researcher expectations, historical sources, or data inaccuracy. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1bab97be-1fd5-4874-9973-125f743d4cac_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The passage explicitly states: &lsquo;greater proximity alone can&apos;t explain the difference in park use.&rsquo; The question asks what point the text makes about the difference in park usage between the two cities. The answer must match this stated conclusion."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; researcher expectations</strong>: The passage says nothing about what researchers expected to find. &#10007;</li><li><strong>Choice B &mdash; historical sources</strong>: Historical sources are never mentioned as a factor in the park use difference. &#10007;</li><li><strong>Choice C &mdash; data inaccuracy</strong>: The passage does not suggest the data is flawed or inaccurate. &#10007;</li><li><strong>Choice D &mdash; proximity alone does not explain the difference</strong>: Restates the passage&apos;s explicit conclusion word for word. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

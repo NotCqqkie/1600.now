@@ -1,15 +1,1 @@
-{
-  "questionId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_21",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "Sentence 2 gives the T-38 jet as an example of a sleek, aerodynamic vehicle (glides easily). Sentence 3 describes a boxy semitruck that encounters more wind resistance — the opposite aerodynamic outcome. The blank connects two opposing examples introduced under the same general principle."
-    },
-    {
-      "title": "Match the transition to the contrast",
-      "content": "A. \"As a result,\" — signals cause-and-effect: something happened because of what came before. Fails: the semitruck's wind resistance is not caused by the T-38's aerodynamics; they are independent contrasting examples.\nB. \"Specifically,\" — signals a narrowing to a more detailed instance of the same thing just said. Fails: the semitruck is not a more specific version of the T-38; it is the opposite case.\nC. \"In conclusion,\" — signals a summary of what was just argued. Fails: the passage is not wrapping up; it is still building its case with a second example.\nD. \"On the other hand,\" — signals a contrasting idea of equal weight. Correctly pairs the aerodynamic T-38 (easy gliding) against the non-aerodynamic semitruck (high resistance). Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2e82ac91-0f4b-4aee-b9af-429c0dc22e07_21","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Sentence 2 gives the T-38 jet as a sleek, aerodynamic example that glides easily. Sentence 3 describes a boxy semitruck that encounters high wind resistance &mdash; the opposite aerodynamic outcome. The blank must signal a contrast between two independent examples under the same general principle."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'As a result,'</strong>: signals cause-and-effect. The semitruck&apos;s wind resistance is not caused by the T-38&apos;s aerodynamics; they are separate examples. &#10007;</li><li><strong>Choice B &mdash; 'Specifically,'</strong>: signals a narrowing to a more detailed instance of the same thing. The semitruck is not a specific version of the T-38 &mdash; it is the opposite case. &#10007;</li><li><strong>Choice C &mdash; 'In conclusion,'</strong>: signals a summary wrapping up an argument. The passage is still building its case with a second example, not concluding. &#10007;</li><li><strong>Choice D &mdash; 'On the other hand,'</strong>: signals a contrasting idea of equal weight, correctly pairing the aerodynamic T-38 against the non-aerodynamic semitruck. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

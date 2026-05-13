@@ -1,15 +1,1 @@
-{
-  "questionId": "8a23ade7-9b24-42cf-ad70-6f233213e3cd_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key constraint",
-      "content": "The notes describe chain-melt guest atoms as \u201cconfined to one-dimensional movement by the host.\u201d Since a liquid requires atoms to move freely in three dimensions, this confinement is the decisive clue explaining why the state is not fully liquid."
-    },
-    {
-      "title": "Match the explanation to the goal",
-      "content": "Choice B answers the goal by identifying the mechanism: the solid lattice prevents the free three-dimensional movement that defines liquidity. The other choices describe structure, contradict the findings, or cite an incomplete reason. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"8a23ade7-9b24-42cf-ad70-6f233213e3cd_24","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to explain <em>why</em> potassium is not fully liquid in chain melt. The notes provide the mechanism: guest atoms are disordered (liquid-like) but confined to one-dimensional movement by the solid host lattice, whereas full liquidity requires free three-dimensional movement."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'involves a dual structure of a solid host lattice surrounding partially liquid chains'</strong>: describes the structure of chain melt but does not explain <em>why</em> the guest is not fully liquid. &#10007;</li><li><strong>Choice B &mdash; 'some atoms exhibit liquid-like disorder but remain confined by a solid lattice, preventing free three-dimensional movement'</strong>: directly states the mechanism &mdash; confinement to one-dimensional movement prevents the free three-dimensional movement that defines a fully liquid state. &#10003;</li><li><strong>Choice C &mdash; 'atoms enter chain melt, a transitional phase between solid and liquid'</strong>: contradicts the notes, which state chain melt was determined to be a stable, distinct state &mdash; not a transitional phase. &#10007;</li><li><strong>Choice D &mdash; 'atoms remain disordered in chain melt even under extreme heat, so they cannot reach a fully liquid state'</strong>: disorder is a property of liquids, not a reason something fails to be liquid; this confuses cause and effect. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

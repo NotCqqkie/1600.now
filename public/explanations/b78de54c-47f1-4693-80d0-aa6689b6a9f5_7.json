@@ -1,15 +1,1 @@
-{
-  "questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_7",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical progression",
-      "content": "The passage follows a three-step structure: it introduces a phenomenon (intermittent mass loss), systematically eliminates two proposed explanations (\u201cnot attributable\u201d for solar energy; \u201cuntenable\u201d for impact ejection), and then pivots with \u201cInstead\u201d to present a third explanation as the likely correct one."
-    },
-    {
-      "title": "Apply the structure to each choice",
-      "content": "Choice A matches the passage's progression: it introduces a phenomenon, refutes two explanations, and presents a third as plausible, confirmed by the passage's language (\u201cnot attributable,\u201d \u201cuntenable,\u201d \u201care likely correct\u201d).<br/>The other choices either misidentify the text's content (B claims new evidence is present; C claims no persuasive account exists) or misstate the organizing principle (D focuses on asteroid comparison rather than the explanatory framework).<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b78de54c-47f1-4693-80d0-aa6689b6a9f5_7", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks for the overall structure of the passage. Map out what the passage actually does: (1) introduces intermittent mass loss in asteroid 6478 Gault, (2) rules out solar energy-driven ice vaporization (&apos;not attributable&apos;), (3) rules out impact ejection (&apos;untenable&apos;), and (4) presents rotational instability as the likely correct explanation."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; 'introduces a natural phenomenon, refutes two potential explanations, and presents a third as plausible'</strong>: matches the passage exactly &mdash; phenomenon (mass loss), refutations (solar energy, impact ejection), third explanation (rotational instability, &apos;likely correct&apos;). &#10003;</li><li><strong>Choice B &mdash; 'describes a finding, discusses flawed theories, then describes new evidence supporting an alternative'</strong>: the passage never presents new evidence; it cites Luu et al.&apos;s reasoning, not fresh data. &#10007;</li><li><strong>Choice C &mdash; 'evaluates causes and states no persuasive account has been put forward'</strong>: the opposite is true &mdash; the passage ends by endorsing rotational instability as likely correct. &#10007;</li><li><strong>Choice D &mdash; 'presents an observation, contrasts it with other observations, then explains why those others are not credible'</strong>: the passage doesn&apos;t discredit other asteroid observations &mdash; it rules out two explanations for this asteroid&apos;s mass loss. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

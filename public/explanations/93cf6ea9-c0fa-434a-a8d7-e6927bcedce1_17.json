@@ -1,15 +1,1 @@
-{
-  "questionId": "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the elaborative clause",
-      "content": "On the left side of the blank is an independent clause: divergent strategies [verb]. On the right is a <strong>whereas</strong> clause that elaborates by showing how the divergent strategies split geographically\u2014one becoming dominant in Europe, the other among nomadic herders."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "Structure: \"divergent strategies for preserving milk [blank] whereas rennet-coagulated...became key...acid-heat...became common...\" The blank follows the subject + verb of the main clause; what follows is an elaboration showing how those divergent strategies split into two regional variants.<br/><br/>Rule: a colon after an independent clause introduces elaboration or explanation.<br/><br/><strong>A. emerged and</strong> \u2014 \"and\" is a coordinating conjunction that joins equals. But \"whereas rennet...\" is not a parallel clause being added; it's an elaboration. Adding \"and\" creates a grammatical mismatch. Eliminated.<br/><br/><strong>B. emerged</strong> \u2014 no punctuation leaves the \"whereas\" clause attached directly to the main clause with no boundary marker. A \"whereas\" clause elaborating on how divergence played out needs a separator. Eliminated.<br/><br/><strong>C. emerged,</strong> \u2014 a comma cannot introduce an elaborating explanation after a complete independent clause; that role belongs to a colon. Eliminated.<br/><br/><strong>D. emerged:</strong> \u2014 the colon correctly signals that what follows explains how the divergent strategies manifested. Correct.<br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The main clause ends at &quot;divergent strategies [blank].&quot; What follows is a &quot;whereas&quot; clause that explains how those strategies split into two regional variants. The blank must connect a complete independent clause to an elaborating explanation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;emerged and&apos;</strong>: &quot;and&quot; joins parallel equals, but the &quot;whereas&quot; clause is an elaboration, not a parallel addition. Grammatical mismatch. &#10007;</li><li><strong>Choice B &mdash; &apos;emerged&apos; (no punctuation)</strong>: attaches the elaborating &quot;whereas&quot; clause directly to the main clause with no boundary marker. A separator is required. &#10007;</li><li><strong>Choice C &mdash; &apos;emerged,&apos;</strong>: a comma cannot introduce an elaborating explanation after a complete independent clause &mdash; that role belongs to a colon. &#10007;</li><li><strong>Choice D &mdash; &apos;emerged:&apos;</strong>: a colon after an independent clause correctly signals that what follows explains or elaborates &mdash; here, showing how the divergent strategies split geographically. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

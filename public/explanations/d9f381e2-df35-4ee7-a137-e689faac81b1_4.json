@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the blending clue",
-      "content": "Identify the single signal that the artists are mixing Indigenous and other musical styles: \u201cincorporated Inuit throat singing into electronic music\u201d and \u201ccombined Indigenous flute and powwow vocals with electronic music\u201d. This shows they are blending, not keeping the styles separate."
-    },
-    {
-      "title": "Match the meaning to the clue",
-      "content": "Reject means they do not accept the distinction; they blend the styles, exactly as the examples show. Observe, replace, and disguise either suggest noticing differences, swapping them, or hiding them, none of which match the blending action. That matches choice A - <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d9f381e2-df35-4ee7-a137-e689faac81b1_4","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says the artists &apos;incorporated Inuit throat singing into electronic music&apos; and &apos;combined Indigenous flute and powwow vocals with electronic music.&apos; The blank must describe what these artists do to the idea of a distinction between Indigenous and non-Indigenous music."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;reject&apos;</strong>: blending the styles means they do not accept the boundary between them &mdash; they refuse to keep the styles separate. &#10003;</li><li><strong>Choice B &mdash; &apos;observe&apos;</strong>: observing a distinction means noticing it, not blending across it. &#10007;</li><li><strong>Choice C &mdash; &apos;replace&apos;</strong>: replacing one style with another is the opposite of blending them. &#10007;</li><li><strong>Choice D &mdash; &apos;disguise&apos;</strong>: disguising a distinction means hiding it deceptively, which is not what the passage describes. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

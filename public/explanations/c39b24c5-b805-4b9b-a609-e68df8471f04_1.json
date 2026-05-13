@@ -1,15 +1,1 @@
-{
-  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage says the father was \"trying to find me among some other people,\" which shows he is looking for the narrator in a crowd."
-    },
-    {
-      "title": "Match the meaning to the clue",
-      "content": "Substitute each choice: his father was trying to ______ me among some other people.<br/><br/><strong>A) Discredit</strong> — \"discredit\" means to damage someone's reputation. A father searching at a station is not trying to undermine his returning son. Eliminate.<br/><br/><strong>B) Reveal</strong> — \"reveal\" means to expose or disclose something hidden. The father isn't trying to expose the narrator; he's searching through a crowd. Eliminate.<br/><br/><strong>C) Affect</strong> — \"affect\" means to have an impact on. This creates no meaningful sense in the context of scanning a crowd at a station. Eliminate.<br/><br/><strong>D) Locate</strong> — \"locate\" means to find the position of. The father is scanning a crowd trying to spot his son — exactly locating him. Keep.<br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"c39b24c5-b805-4b9b-a609-e68df8471f04_1","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says Noguchi&apos;s father was &quot;trying to <u>find</u> me among some other people&quot; at a train station after eleven years apart. The context is a crowded station where the father is searching for his son. The word must mean something consistent with visually scanning a crowd to spot someone."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Discredit'</strong>: means to damage someone&apos;s reputation. A father searching for his returning son at a station is not trying to undermine or embarrass him. &#10007;</li><li><strong>Choice B &mdash; 'Reveal'</strong>: means to expose or disclose something hidden. The father is not trying to expose the narrator to others &mdash; he&apos;s scanning a crowd to spot him. &#10007;</li><li><strong>Choice C &mdash; 'Affect'</strong>: means to have an impact or influence on something. This produces no coherent meaning in the phrase &quot;trying to affect me among some other people.&quot; &#10007;</li><li><strong>Choice D &mdash; 'Locate'</strong>: means to find the position of someone or something. The father is scanning a crowd at a station trying to spot his son &mdash; he is trying to locate him. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

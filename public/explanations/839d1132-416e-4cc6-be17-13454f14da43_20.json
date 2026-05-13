@@ -1,1 +1,15 @@
-{"questionId": "839d1132-416e-4cc6-be17-13454f14da43_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence elements", "content": "The blank is the main verb of the sentence. The subject is <strong>“nearly 30% of the city's population”</strong> (a singular noun phrase). The sentence includes a time reference phrase, <strong>“Even back in the 1860s,”</strong> at the beginning."}, {"title": "Apply the tense rule", "content": "The rule is that a verb must use a tense matching the sentence's time reference.<br/><br/>The past reference (1860s) requires a past-tense verb. For the singular subject, that's <strong>“was.”</strong> All other choices use present or future tense, contradicting the 1860s time marker.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "839d1132-416e-4cc6-be17-13454f14da43_20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank is the main verb. The phrase &quot;Even back in the 1860s&quot; anchors the sentence firmly in the past. The subject &quot;nearly 30% of the city&apos;s population&quot; is a singular noun phrase, so the verb must be past tense and singular."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'is being'</strong>: present progressive. Contradicts the past time marker &quot;in the 1860s.&quot; &#10007;</li><li><strong>Choice B &mdash; 'was'</strong>: simple past singular. Matches the past time reference and agrees with the singular subject. &#10003;</li><li><strong>Choice C &mdash; 'will be'</strong>: future tense. Contradicts &quot;in the 1860s.&quot; &#10007;</li><li><strong>Choice D &mdash; 'is'</strong>: simple present singular. Contradicts the past time reference. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_15",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the multiplicative factor for each unit increase in w",
-      "content": "When $w$ increases by 1, compute the ratio of successive function values:<br/>$$\\frac{z(w+1)}{z(w)} = \\frac{(0.829)^{2(w+1)}}{(0.829)^{2w}}$$<br/>Since the exponent in the numerator is $2(w+1) = 2w + 2$ and in the denominator is $2w$, the exponent difference is 2:<br/>$$\\frac{z(w+1)}{z(w)} = (0.829)^{2}$$<br/>So the function value is multiplied by $(0.829)^2$ whenever $w$ increases by 1."
-    },
-    {
-      "title": "Calculate the percentage decrease",
-      "content": "Compute $(0.829)^2$:<br/>$$(0.829)^2 = 0.687241$$<br/>This means $z(w+1) = 0.687241 \\cdot z(w)$. The value retains approximately 68.72% of its previous amount.<br/><br/>The percentage decrease is:<br/>$$p = (1 - 0.687241) \\times 100\\% = 31.28\\%$$<br/>This rounds to 31.3%. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_15","correctAnswer":"D","section":"Math","steps":[{"title":"Identify what the question needs","content":"The function is $z = (0.829)^{2w}$. We need the <strong>percent decrease</strong> in $z$ for each 1-unit increase in $w$. That means we need the ratio $z(w+1)/z(w)$, then convert to a percent change."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '17.1%'</strong>: would mean each step multiplies by $0.829$ (a 17.1% drop), but the exponent is $2w$, not $w$, so the multiplier per step is $(0.829)^2$, not $0.829$. &#10007;</li><li><strong>Choice B &mdash; '29.3%'</strong>: not a standard rounding of $(0.829)^2 - 1$. &#10007;</li><li><strong>Choice C &mdash; '31.7%'</strong>: off from the correct computation. &#10007;</li><li><strong>Choice D &mdash; '31.3%'</strong>: $(0.829)^2 = 0.687241$, so $z$ retains 68.72% each step &mdash; a decrease of $1 - 0.6872 = 0.3128 \\approx 31.3\\%$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage says \u201cThe Crown of Columbus\u201d is set largely on a Caribbean island, outside Ojibwe communities."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B states it isn\u2019t set in a rural Ojibwe community, which directly matches the Caribbean island setting described. The other three either add information not in the passage (A, C) or claim something not supported (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"cea66aee-3a10-4bb9-b653-46ec49321824_7","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage states &apos;The Crown of Columbus&apos; is set largely on a Caribbean island, outside Ojibwe communities. The correct answer must be directly supported by &mdash; and only by &mdash; what the passage says."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A</strong>: adds information not stated in the passage. &#10007;</li><li><strong>Choice B</strong>: states the novel is not set in a rural Ojibwe community &mdash; directly supported by the passage&apos;s description of a Caribbean island setting. &#10003;</li><li><strong>Choice C</strong>: introduces a claim not supported by the passage. &#10007;</li><li><strong>Choice D</strong>: asserts something the passage does not establish. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
