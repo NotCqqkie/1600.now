@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the antecedent",
-      "content": "The blank pronoun serves as the subject of \u201crepresented.\u201d Looking back in the sentence, the noun it must refer to is \u201caesthetic\u201d in \u201cMarcel Duchamp's abstract cubist aesthetic received the most skepticism from critics.\u201d"
+      "title": "Identify what the question needs",
+      "content": "The blank is a pronoun that serves as the subject of 'represented.' It must agree in number and person with its antecedent. The noun it refers back to is 'aesthetic' &mdash; a singular, third-person noun."
     },
     {
-      "title": "Match the pronoun to its antecedent",
-      "content": "Only \u201cit\u201d is singular to match \u201caesthetic\u201d; \u201cthese,\u201d \u201cthey,\u201d and \u201cwe\u201d are all plural or first-person. \u201cIt\u201d correctly refers to the aesthetic and explains what represented a departure from traditional painting. This matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'these'</strong>: plural demonstrative pronoun; 'aesthetic' is singular. &#10007;</li><li><strong>Choice B &mdash; 'they'</strong>: plural third-person pronoun; does not match singular 'aesthetic.' &#10007;</li><li><strong>Choice C &mdash; 'we'</strong>: first-person plural; introduces a speaker not present in the sentence. &#10007;</li><li><strong>Choice D &mdash; 'it'</strong>: singular third-person pronoun; correctly refers to 'aesthetic' and fits the clause 'it represented a departure from traditional painting.' &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

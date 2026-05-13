@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the core relationship",
-      "content": "The researcher argues that GPS records significantly higher distances than RTD because GPS captures all actual movements while RTD only measures twice the direct distance between two habitats."
+      "title": "Identify what the question needs",
+      "content": "The researcher argues GPS records <strong>higher</strong> distances than RTD because GPS captures all actual movements, while RTD only measures twice the direct distance between two habitats. The correct choice must show GPS exceeding RTD for the same animal."
     },
     {
-      "title": "Apply the relationship to the data",
-      "content": "The table shows caribou at 4,868 km via GPS. Choice B states that caribou would be less than 4,868 km using RTD, demonstrating GPS exceeded RTD. The others either contradict this relationship or fail to compare both methods for the same animal. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'GPS and RTD give the same distance for caribou'</strong>: Directly contradicts the researcher&apos;s claim that GPS records more. &#10007;</li><li><strong>Choice B &mdash; 'Caribou traveled less than 4,868 km by RTD'</strong>: The table shows 4,868 km via GPS. RTD&apos;s method of doubling the direct distance would undercount, so RTD &lt; GPS. This confirms GPS exceeded RTD for the same animal. &#10003;</li><li><strong>Choice C &mdash; 'RTD recorded a higher distance than GPS for caribou'</strong>: This contradicts the researcher&apos;s reasoning entirely. &#10007;</li><li><strong>Choice D &mdash; 'The two methods were not compared for caribou'</strong>: The passage and table do involve caribou; this choice dodges the comparison rather than supporting it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

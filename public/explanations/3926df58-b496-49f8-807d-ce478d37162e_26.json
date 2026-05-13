@@ -1,15 +1,1 @@
-{
-  "questionId": "3926df58-b496-49f8-807d-ce478d37162e_26",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key contrast signal",
-      "content": "To contrast the compounds, the answer must highlight what's different about them. The notes show that dichloromethane (an HCC) contains hydrogen, chlorine, and carbon, while tetradecafluorohexane (a PFC) contains fluorine and carbon\u2014the elemental difference that distinguishes them."
-    },
-    {
-      "title": "Find the choice that creates the contrast",
-      "content": "Choice A presents the two compounds' compositions in parallel form, exposing their elemental differences. Choices B, C, and D either stress what the compounds share or mention only one compound. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"3926df58-b496-49f8-807d-ce478d37162e_26","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The task is to contrast two chemical compounds: dichloromethane (an HCC, containing hydrogen, chlorine, and carbon) and tetradecafluorohexane (a PFC, containing fluorine and carbon). The answer must highlight what&apos;s different between them &mdash; specifically their elemental compositions."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'presents both compounds&apos; compositions in parallel form'</strong>: Lays out each compound&apos;s elements side by side, making the elemental difference immediately visible. &#10003;</li><li><strong>Choice B &mdash; 'emphasizes what the compounds share'</strong>: Stresses similarities (both contain carbon, both are synthetic), which is the opposite of a contrast. &#10007;</li><li><strong>Choice C &mdash; 'mentions only one compound'</strong>: Can&apos;t create a contrast between two things if only one is described. &#10007;</li><li><strong>Choice D &mdash; 'focuses on the compounds&apos; uses rather than their compositions'</strong>: Shifts away from elemental makeup, so the elemental contrast is lost. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

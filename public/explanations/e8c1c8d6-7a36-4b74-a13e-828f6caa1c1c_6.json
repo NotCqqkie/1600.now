@@ -1,15 +1,1 @@
-{
-  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_6",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal about frame choice",
-      "content": "Both texts note that Impressionist painters selected painted frames deliberately \u2014 either to contrast with the conventional gold Salon frames or to harmonize with a painting\u2019s colors."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A captures this idea by stating that many Impressionist painters were intentional about the frames they selected.<br/>The other three either misstate Degas\u2019s uniqueness, reverse the relationship between painting and frame colors, or claim gold frames were desirable, none of which is supported.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_6","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks what <strong>both</strong> authors would agree on. Text 1 says Impressionists chose painted frames to distinguish themselves from conventional gold Salon frames &mdash; a deliberate stylistic decision. Text 2 says those Impressionists who used painted frames chose frame colors to harmonize with the painting's colors &mdash; again, a deliberate aesthetic decision. The point of agreement is that frame selection was <em>intentional</em>."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Many Impressionist painters were intentional about the frames they selected for their works.'</strong>: Both texts support this &mdash; Text 1 through contrast with Salon norms, Text 2 through aesthetic harmony. &#10003;</li><li><strong>Choice B &mdash; 'Degas&apos;s preferred framing style was different from that of most Impressionist painters.'</strong>: Text 1 says Degas used painted frames <em>like many</em> Impressionist painters &mdash; not differently from them. &#10007;</li><li><strong>Choice C &mdash; 'The colors in an Impressionist painting were often chosen to complement the colors of the frame it would be placed in.'</strong>: Text 2 says the frame was chosen to harmonize with the <em>painting</em> &mdash; not the reverse. This flips the direction. &#10007;</li><li><strong>Choice D &mdash; 'Gold frames were considered especially desirable by those who purchased works from Impressionist painters.'</strong>: Neither text says buyers preferred gold frames; Text 2 says gold could <em>distract</em> from the work. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

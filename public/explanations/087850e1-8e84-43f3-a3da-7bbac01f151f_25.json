@@ -1,15 +1,1 @@
-{
-  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what difference needs emphasizing",
-      "content": "The notes show one sculpture displays a concrete phrase while the other is an abstract form\u2014a clear contrast in how each uses neon. This <strong>form difference</strong> is the key distinction the student must highlight."
-    },
-    {
-      "title": "Find the answer capturing this specific difference",
-      "content": "Choice A directly contrasts the form: \u201cone spells out a phrase while the other is decidedly more abstract.\u201d The other choices either frame this difference as secondary to neon's broader uses, or shift focus to dates. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"087850e1-8e84-43f3-a3da-7bbac01f151f_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The notes describe two neon sculptures: one spells out a concrete phrase, the other is an abstract form. The question asks for a sentence that emphasizes this contrast in how each sculpture uses neon."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'one spells out a phrase while the other is abstract'</strong>: directly contrasts the two sculptures&apos; forms &mdash; phrase vs. abstraction &mdash; which is the key distinction in the notes. &#10003;</li><li><strong>Choice B &mdash; 'neon&apos;s broader uses'</strong>: treats the form difference as secondary to a wider point about neon in general, losing the specific contrast. &#10007;</li><li><strong>Choice C &mdash; 'shifts focus to dates'</strong>: highlights when the works were created rather than how their forms differ. &#10007;</li><li><strong>Choice D &mdash; 'different artists&apos; intentions'</strong>: redirects to artist intent rather than the formal contrast the notes establish. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

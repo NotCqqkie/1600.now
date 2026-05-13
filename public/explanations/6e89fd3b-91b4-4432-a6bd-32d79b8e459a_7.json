@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The passage first identifies why the adaptation was difficult: theater needs dialogue, but the original story lacked it and instead showed internal thoughts. The underlined sentence begins with \u201cTo transform...\u201d and directly explains how Yamauchi solved this specific problem."
-    },
-    {
-      "title": "Identify which choice correctly describes the function",
-      "content": "The sentence explains how Yamauchi converted the story's internal monologue into spoken dialogue. The remaining choices discuss casting, literary influence, and relative fame, concepts absent from the underlined sentence. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_7","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage sets up a problem: theater needs dialogue, but the original story conveyed internal thoughts without it. The underlined sentence begins &quot;To transform...&quot; and directly addresses how Yamauchi solved that specific problem. The right answer must describe that solution."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'casting decisions'</strong>: Casting is absent from the underlined sentence entirely. &#10007;</li><li><strong>Choice B &mdash; 'converting internal monologue into spoken dialogue'</strong>: The sentence explains precisely how Yamauchi turned the story&apos;s internal thoughts into theatrical dialogue — the solution to the stated problem. &#10003;</li><li><strong>Choice C &mdash; 'literary influence'</strong>: No literary influence is discussed in the underlined sentence. &#10007;</li><li><strong>Choice D &mdash; 'relative fame'</strong>: Comparisons of fame do not appear in the underlined sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

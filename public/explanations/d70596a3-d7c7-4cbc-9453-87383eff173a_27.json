@@ -1,15 +1,1 @@
-{
-  "questionId": "d70596a3-d7c7-4cbc-9453-87383eff173a_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The instruction to explain signals that we need a definition of what plosive means, not details about a specific phoneme like /p/."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Choice D directly defines plosive using information from the notes: it's a term for sounds in which <strong>air flow is at first fully blocked</strong>. The others either focus on the /p/ phoneme specifically or define fricative instead. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d70596a3-d7c7-4cbc-9453-87383eff173a_27","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The task is to explain what &apos;plosive&apos; means using the notes. The answer must define the term itself, not describe a single phoneme like /p/ in isolation."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; describes /p/ as an example without defining plosive</strong>: Focuses on one specific phoneme rather than explaining the class of sounds the term refers to. &#10007;</li><li><strong>Choice B &mdash; defines fricative instead</strong>: Describes sounds produced with continuous airflow friction, which is a different phoneme category entirely. &#10007;</li><li><strong>Choice C &mdash; gives details about place of articulation for /p/</strong>: Still about the specific phoneme, not the defining feature of plosives as a group. &#10007;</li><li><strong>Choice D &mdash; defines plosive as a sound in which airflow is at first fully blocked'</strong>: Directly defines the term using the key feature from the notes &mdash; complete airflow stoppage followed by release. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

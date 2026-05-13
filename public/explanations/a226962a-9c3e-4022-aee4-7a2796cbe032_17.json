@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_17",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent",
-      "content": "The blank fills \"Although ______ particles range in size...\" The noun being modified is \"particles\" belonging to the Andromedid meteoroid stream — a singular entity. The blank needs a possessive determiner (meaning \"belonging to the stream\"), not a pronoun standing alone."
-    },
-    {
-      "title": "Choose the correct possessive",
-      "content": "Rule: a possessive determiner must match the antecedent (the stream) in number and must be a true possessive, not a contraction.\n\nA. \"their\" — plural possessive. Fails: the Andromedid meteoroid stream is singular, not plural.\nB. \"they're\" — contraction of \"they are.\" Fails: this is a verb phrase, not a possessive, and the sentence would read \"they are particles range,\" which is ungrammatical.\nC. \"it's\" — contraction of \"it is.\" Fails: same error as B — \"it is particles range\" is ungrammatical.\nD. \"its\" — singular possessive (no apostrophe). Correctly shows the particles belong to the singular Andromedid stream. Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a226962a-9c3e-4022-aee4-7a2796cbe032_17","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank fills &quot;Although ______ particles range in size...&quot; The particles belong to the Andromedid meteoroid stream — a single, singular entity. The blank needs a possessive determiner showing ownership, not a pronoun standing alone or a contraction."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'their'</strong>: plural possessive. The Andromedid meteoroid stream is singular, so a plural possessive doesn&apos;t match the antecedent — eliminate. &#10007;</li><li><strong>Choice B &mdash; 'they&apos;re'</strong>: contraction of &quot;they are.&quot; Inserting it gives &quot;they are particles range in size,&quot; which is ungrammatical — eliminate. &#10007;</li><li><strong>Choice C &mdash; 'it&apos;s'</strong>: contraction of &quot;it is.&quot; Inserting it gives &quot;it is particles range in size,&quot; which is equally ungrammatical — eliminate. &#10007;</li><li><strong>Choice D &mdash; 'its'</strong>: singular possessive with no apostrophe. Correctly shows the particles belong to the singular Andromedid stream and reads grammatically. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

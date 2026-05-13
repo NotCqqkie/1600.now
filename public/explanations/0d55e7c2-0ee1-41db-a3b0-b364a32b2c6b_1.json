@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_1",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key location detail",
-      "content": "The passage states manul habitats are in <strong>\"out-of-the-way parts\"</strong> of Asia. This phrase indicates remoteness and isolation from populated areas."
-    },
-    {
-      "title": "Apply the location signal to find the fit",
-      "content": "Substitute each choice: habitats so ______ large human populations.<br/><br/><strong>A) drawn to</strong> — \"drawn to large populations\" means attracted toward humans. Contradicts \"out-of-the-way\" and explains nothing about research difficulty. Eliminate.<br/><br/><strong>B) full of</strong> — \"full of large populations\" means densely populated. Directly contradicts a remote, isolated habitat. Eliminate.<br/><br/><strong>C) distant from</strong> — \"distant from large populations\" = remote, hard to reach. Perfectly explains why research is difficult. Keep.<br/><br/><strong>D) responsible for</strong> — \"responsible for large populations\" is grammatically awkward and makes no logical sense in context. Eliminate.<br/><br/><strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_1","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says manul habitats are in <strong>&quot;out-of-the-way parts&quot;</strong> of Asia, meaning remote and hard to reach. The blank must complete &quot;habitats so ______ large human populations&quot; in a way that explains why research on manuls is difficult."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'drawn to'</strong>: &quot;drawn to large populations&quot; means attracted toward humans. Contradicts the &quot;out-of-the-way&quot; detail — eliminate. &#10007;</li><li><strong>Choice B &mdash; 'full of'</strong>: &quot;full of large populations&quot; means densely populated. Directly contradicts a remote, isolated habitat — eliminate. &#10007;</li><li><strong>Choice C &mdash; 'distant from'</strong>: &quot;distant from large populations&quot; means remote and hard to reach. Perfectly matches &quot;out-of-the-way&quot; and explains why research is difficult. &#10003;</li><li><strong>Choice D &mdash; 'responsible for'</strong>: &quot;responsible for large populations&quot; is grammatically awkward and makes no logical sense in context — eliminate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

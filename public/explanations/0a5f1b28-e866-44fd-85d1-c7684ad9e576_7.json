@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The underlined sentence reports that cuttlefish adjusted their strikes to match 3D images, indicating their vision works like that of horses and toads."
+      "title": "Identify what the question needs",
+      "content": "The question asks what function the underlined sentence serves in the passage. The sentence reports that cuttlefish adjusted their strikes to match 3D images, showing their vision works similarly to that of horses and toads. This is an outcome of the experiment, so the correct choice must describe a function related to presenting findings."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "Choice C correctly states that the sentence presents the results of the study.<br/>The other three either describe differences, suggest future work, or explain past assumptions, none of which the sentence does.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; describes differences</strong>: the sentence does not contrast cuttlefish with other animals; it draws a parallel. &#10007;</li><li><strong>Choice B &mdash; suggests future research</strong>: the sentence reports a past result, not a direction for further study. &#10007;</li><li><strong>Choice C &mdash; presents the results of the study</strong>: the sentence states what cuttlefish did when shown the 3D images &mdash; a direct experimental outcome. &#10003;</li><li><strong>Choice D &mdash; explains past assumptions</strong>: the sentence does not address what researchers previously believed. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

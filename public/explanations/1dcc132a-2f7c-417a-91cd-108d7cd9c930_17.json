@@ -1,15 +1,1 @@
-{
-  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_17",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the total area to paint",
-      "content": "Since the walls must be painted twice, the total area to cover is $2w$ square feet."
-    },
-    {
-      "title": "Apply the coverage rate to find gallons needed",
-      "content": "One gallon covers 70 square feet. Therefore, the number of gallons needed is:<br/>$$P = \\frac{2w}{70}$$<br/>Simplifying by dividing both numerator and denominator by 2:<br/>$$P = \\frac{w}{35}$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_17","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"Two coats means $2w$ total square feet to cover. At 70 sq ft per gallon: $$P = \\frac{2w}{70}$$"},{"title":"Solve","content":"Simplify by dividing numerator and denominator by 2: $$P = \\frac{w}{35}$$"},{"title":"Answer","content":"<strong>D</strong> is correct."}]}

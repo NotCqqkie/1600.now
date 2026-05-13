@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_12",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what 'most but not all' requires",
-      "content": "The astronomer can see most stars but not all of them using a 160 mm aperture. So at least one star must require a larger aperture to detect, while the others require 160 mm or less."
-    },
-    {
-      "title": "Find the data matching this requirement",
-      "content": "Choice C identifies only HSH95-46 as requiring an aperture greater than 160 mm. The other choices describe a different aperture, an unrelated star property, or distance rather than aperture requirements. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_12","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The astronomer can see 'most but not all' stars with a 160 mm aperture. That means exactly one star must require more than 160 mm, and the rest must require 160 mm or less."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'a different aperture size'</strong>: Too vague — doesn't identify which specific star exceeds 160 mm or confirm the others don't. &#10007;</li><li><strong>Choice B &mdash; 'an unrelated star property'</strong>: Discusses something other than aperture requirements, so it can't support the 'most but not all' aperture claim. &#10007;</li><li><strong>Choice C &mdash; 'only HSH95-46 requires &gt;160 mm'</strong>: Identifies exactly one star (HSH95-46) as requiring an aperture greater than 160 mm, confirming the rest do not. That satisfies 'most but not all.' &#10003;</li><li><strong>Choice D &mdash; 'distance rather than aperture'</strong>: Refers to a different measurement entirely, not aperture requirements. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify Text 2's defense of Asimov's style",
-      "content": "Text 2 argues that Asimov\u2019s flat characters are not a flaw but a deliberate choice to show that individuals don\u2019t matter in the sweep of history, making his lack of characterization central to his theme."
-    },
-    {
-      "title": "Match the answer to the clue",
-      "content": "<strong>D</strong> captures Text 2\u2019s point that Asimov\u2019s minimal characterization is intentional and serves his thematic goal. A, B, and C either misrepresent Text 2\u2019s stance, introduce unrelated comparisons, or contradict its claim. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_6", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The question asks how Text 2 responds to the criticism in Text 1. Text 2 defends Asimov by arguing his flat characters are a deliberate choice &mdash; individuals are meant to be unimportant given the sweep of history he depicts."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; misrepresents Text 2's stance</strong>: Text 2 does not concede the criticism or shift the conversation away from characterization. &#10007;</li><li><strong>Choice B &mdash; introduces an unrelated comparison</strong>: Text 2 does not compare Asimov to other authors to make its point. &#10007;</li><li><strong>Choice C &mdash; contradicts Text 2's claim</strong>: Text 2 does not argue that Asimov's characters are actually well-developed. &#10007;</li><li><strong>Choice D &mdash; minimal characterization is intentional and serves Asimov's thematic goal</strong>: This matches Text 2's argument that flat characters are a purposeful device to convey that individuals don't shape historical forces. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

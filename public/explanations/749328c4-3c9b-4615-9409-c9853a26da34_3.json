@@ -1,15 +1,1 @@
-{
-  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the brain's response to incomplete visual information",
-      "content": "The key signal is the contrast: despite incomplete visual information (the break in a blocked area), participants still perceived the line as continuous. This shows the brain is actively making up for the missing information."
-    },
-    {
-      "title": "Match 'compensate' to the signal",
-      "content": "Plug each choice into: \"the brain can ______ filling in what is missing.\"<br/><br/><strong>A. Captivate</strong> means to fascinate or enchant. The brain captivating something makes no sense here—captivate describes an effect on an audience, not a cognitive process for handling gaps. Eliminated.<br/><br/><strong>B. Revert</strong> means to return to a previous state. The brain reverting is incoherent in this context—reverting is not the same as supplying missing visual information. Eliminated.<br/><br/><strong>C. Barricade</strong> means to block or obstruct. This contradicts the finding: the brain completed the broken line rather than blocking perception of it. Eliminated.<br/><br/><strong>D. Compensate</strong> means to make up for something lacking. \"The brain can compensate\" for missing visual information by completing the perceived line—exactly what the study showed. Correct.<br/><br/><strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"749328c4-3c9b-4615-9409-c9853a26da34_3","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The passage says participants perceived a broken line as continuous even though the break was in a blocked area. The blank completes: &quot;the brain can ______ filling in what is missing.&quot; The word must mean the brain <em>makes up for</em> or <em>supplies</em> missing visual information."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'captivate'</strong>: To captivate means to charm or fascinate an audience. The brain does not captivate missing information &mdash; this word describes an effect on people, not a cognitive process. &#10007;</li><li><strong>Choice B &mdash; 'revert'</strong>: To revert means to return to a previous state. The brain reverting filling in information is incoherent &mdash; there is no prior state being returned to. &#10007;</li><li><strong>Choice C &mdash; 'barricade'</strong>: To barricade means to block or obstruct. This directly contradicts the finding: the brain <em>completed</em> the broken line rather than blocking perception of it. &#10007;</li><li><strong>Choice D &mdash; 'compensate'</strong>: To compensate means to make up for something lacking. &quot;The brain can compensate, filling in what is missing&quot; perfectly matches the study&apos;s result. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

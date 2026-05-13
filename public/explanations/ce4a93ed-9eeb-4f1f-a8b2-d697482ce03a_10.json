@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the highest bar",
-      "content": "The question asks for <strong>the highest percentage of lithium recovered</strong>. The graph displays four bars\u2014two battery types (A and B), each tested with two different recycling processes (1 and 2). The tallest bar clearly stands out: Type B with recycling process 2."
+      "title": "Identify what the question needs",
+      "content": "The question asks which choice gives the <strong>highest percentage of lithium recovered</strong>. The graph shows four bars: two battery types (A and B), each tested with two recycling processes (1 and 2). Find the tallest bar."
     },
     {
-      "title": "Read the value from the y-axis and match",
-      "content": "The tallest bar reaches the 75% mark on the y-axis. The other three bars are all substantially lower\u2014ranging from roughly 30% to 55%\u2014making them poor matches for \u201chighest.\u201d That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Type A, Process 1'</strong>: This bar sits around 30%&mdash;well below the tallest. &#10007;</li><li><strong>Choice B &mdash; 'Type B, Process 2'</strong>: This bar clearly reaches the 75% mark on the y-axis, the tallest of all four. &#10003;</li><li><strong>Choice C &mdash; 'Type A, Process 2'</strong>: This bar is roughly 50%&mdash;substantially lower than Type B, Process 2. &#10007;</li><li><strong>Choice D &mdash; 'Type B, Process 1'</strong>: This bar is around 55%&mdash;still well below 75%. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

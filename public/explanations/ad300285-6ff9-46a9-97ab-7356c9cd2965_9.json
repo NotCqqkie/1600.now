@@ -1,15 +1,1 @@
-{
-  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_9",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up angle sum equation",
-      "content": "$$47 + 90 + \\frac{k}{2} = 180$$<br/>Add the known angles: 47+90=137, giving<br/>$$137 + \\frac{k}{2} = 180$$"
-    },
-    {
-      "title": "Solve for k",
-      "content": "$$\\frac{k}{2} = 43$$<br/>$$k = 86$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_9","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"The three angles of the triangle sum to 180&deg;: $$47 + 90 + \frac{k}{2} = 180$$"},{"title":"Solve","content":"$$\frac{k}{2} = 180 - 137 = 43$$$$k = 86$$"},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
