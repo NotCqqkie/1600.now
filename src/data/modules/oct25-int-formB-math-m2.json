@@ -154,11 +154,11 @@
       },
       {
         "label": "C",
-        "text": "$y > 4x + 3$"
+        "text": "$y\\geq 4x+3$"
       },
       {
         "label": "D",
-        "text": "$y > 4x - 3$"
+        "text": "$y\\geq 4x-3$"
       }
     ],
     "is_fill_in_blank": false,
