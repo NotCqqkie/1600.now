@@ -1,15 +1,1 @@
-{
-  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_11",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the table values",
-      "content": "The table shows h(0) = 17, h(1) = 18, and h(2) = 20. All choices have the form $h(x) = 2^x + c$ for different constants. Test the simplest input, x = 0, where $2^0 = 1$ reduces each choice to $1 + c$."
-    },
-    {
-      "title": "Backsolve using x = 0",
-      "content": "Backsolving \u2014 testing choice B ($h(x) = 2^x + 15$): $h(0) = 1 + 15 = 16 \\neq 17$. Fails. Testing choice A ($h(x) = 2^x + 16$): $h(0) = 1 + 16 = 17$. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9f6c3595-ed0e-41a0-8889-7d3730d37b4c_11","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"The table gives $h(0) = 17$, $h(1) = 18$, $h(2) = 20$. Every choice has the form $h(x) = 2^x + c$. At $x = 0$, $2^0 = 1$, so $h(0) = 1 + c$. Matching $h(0) = 17$ requires $c = 16$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; '$h(x) = 2^x + 16$'</strong>: $h(0) = 1 + 16 = 17$ &#10003;</li><li><strong>Choice B &mdash; '$h(x) = 2^x + 15$'</strong>: $h(0) = 1 + 15 = 16 \\neq 17$ &#10007;</li><li><strong>Choice C &mdash; '$h(x) = 2^x + 2$'</strong>: $h(0) = 1 + 2 = 3 \\neq 17$ &#10007;</li><li><strong>Choice D &mdash; '$h(x) = 2^x$'</strong>: $h(0) = 1 \\neq 17$ &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

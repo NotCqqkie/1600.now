@@ -1,15 +1,1 @@
-{
-  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_20",
-  "correctAnswer": "112",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Similar triangles have equal corresponding angles",
-      "content": "When two triangles are similar, their corresponding angles are equal, regardless of the side length scale factor. Since triangle ABC ~ triangle XYZ with A\u2194X, B\u2194Y, and C\u2194Z:<br/>\u2220Z = \u2220C<br/>To find \u2220Z, we must first find \u2220C in triangle ABC."
-    },
-    {
-      "title": "Apply the angle sum property of triangles",
-      "content": "Every triangle's interior angles sum to 180\u00b0. For triangle ABC:<br/>$$\u2220A + \u2220B + \u2220C = 180\u00b0$$<br/>Substitute the given values:<br/>$$44\u00b0 + 24\u00b0 + \u2220C = 180\u00b0$$<br/>$$\u2220C = 112\u00b0$$<br/>Since \u2220Z = \u2220C, the measure of angle Z is 112\u00b0."
-    }
-  ]
-}
+{"questionId":"131fb2cc-899f-43fd-ad5b-8d89c1062d52_20","correctAnswer":"112","section":"Math","steps":[{"title":"Set up","content":"Triangle ABC ~ triangle XYZ with A&#8596;X, B&#8596;Y, C&#8596;Z, so &ang;Z = &ang;C. The interior angles of triangle ABC sum to 180&deg;: $$∠A + ∠B + ∠C = 180°$$"},{"title":"Solve","content":"Substitute the given angle measures: $$44° + 24° + ∠C = 180°$$ $$∠C = 180° - 68° = 112°$$ Since &ang;Z = &ang;C, the measure of angle Z is 112&deg;."},{"title":"Answer","content":"<strong>112</strong> is correct."}]}

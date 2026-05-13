@@ -1,15 +1,1 @@
-{
-  "questionId": "087850e1-8e84-43f3-a3da-7bbac01f151f_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure",
-      "content": "Two independent clauses are connected by the conjunctive adverb \"on the contrary.\" Left side: \"One might assume cases like this...to be [rare]\" — a complete sentence. Right side: \"they are counted among a litany of examples of Stigler's law\" — a complete sentence. Rule: conjunctive adverbs require a semicolon before them and a comma after them: [IC]; on the contrary, [IC]."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. rare on the contrary,</strong> — no punctuation before \"on the contrary\" and no semicolon separating the two independent clauses. Creates a run-on. Reconstruct: \"...to be rare on the contrary, they are counted...\" — the two sentences blur together. Eliminated.<br/><br/><strong>B. rare, on the contrary;</strong> — the semicolon is placed after \"on the contrary\" rather than before it. The semicolon must come before the conjunctive adverb, not after. Reconstruct: \"...to be rare, on the contrary; they are counted...\" — misplaced. Eliminated.<br/><br/><strong>C. rare, on the contrary,</strong> — a comma before \"on the contrary\" is a comma splice; it cannot join two independent clauses. Reconstruct: \"...to be rare, on the contrary, they are counted...\" — two full sentences joined by a comma. Eliminated.<br/><br/><strong>D. rare; on the contrary,</strong> — semicolon before the conjunctive adverb, comma after. Reconstruct: \"...to be rare; on the contrary, they are counted among...\" — follows the rule exactly. Correct."
-    }
-  ]
-}
+{"questionId":"087850e1-8e84-43f3-a3da-7bbac01f151f_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Two independent clauses are joined by the conjunctive adverb &quot;on the contrary.&quot; The rule: a semicolon must come before the conjunctive adverb, and a comma must follow it &mdash; [independent clause]; on the contrary, [independent clause]."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'rare on the contrary,'</strong>: No punctuation before &quot;on the contrary&quot; &mdash; the two independent clauses run together. &#10007;</li><li><strong>Choice B &mdash; 'rare, on the contrary;'</strong>: The semicolon is placed after &quot;on the contrary&quot; instead of before it. The comma before it cannot join two independent clauses. &#10007;</li><li><strong>Choice C &mdash; 'rare, on the contrary,'</strong>: A comma before &quot;on the contrary&quot; creates a comma splice &mdash; a comma alone cannot join two independent clauses. &#10007;</li><li><strong>Choice D &mdash; 'rare; on the contrary,'</strong>: Semicolon before the conjunctive adverb, comma after. Follows the rule exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
