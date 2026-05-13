@@ -1,15 +1,1 @@
-{
-  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal's requirement",
-      "content": "The student wants to \u201cindicate the title of a novel that won a Nebula Award.\u201d This means the choice must name the specific novel and connect it to the award."
-    },
-    {
-      "title": "Apply the goal to the choices",
-      "content": "C directly names <em>Babel-17</em> and states it won a Nebula Award in 1967. A omits the title, B mentions neither the novel nor the award, and D doesn't reference the award at all. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6e89fd3b-91b4-4432-a6bd-32d79b8e459a_24","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The goal is to \"indicate the title of a novel that won a Nebula Award.\" The correct choice must name the specific novel and link it to winning the award."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'One of Samuel Delaney's novels was among the best works of science fiction published in the US.'</strong>: No novel title is named, and the Nebula Award is not mentioned by name. Fails both requirements. &#10007;</li><li><strong>Choice B &mdash; 'Samuel Delaney is an award-winning US writer known for his science fiction.'</strong>: No novel title, no specific award named. &#10007;</li><li><strong>Choice C &mdash; '<em>Babel-17</em>, by Samuel Delaney, won a Nebula Award in 1967.'</strong>: Names the novel <em>Babel-17</em> and explicitly states it won a Nebula Award. Satisfies both requirements. &#10003;</li><li><strong>Choice D &mdash; 'Samuel Delaney published a science fiction novel in 1966.'</strong>: No novel title given, and no award mentioned. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Write the percentage statement as an equation",
-      "content": "Write <em>x is 33% of y</em> as an equation:<br/>$$x = \\frac{33}{100}y$$"
-    },
-    {
-      "title": "Solve for y",
-      "content": "Multiply both sides by $\\frac{100}{33}$:<br/>$$y = \\frac{100}{33}x$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"Translate \"$x$ is 33% of $y$\" into an equation, then solve for $y$ in terms of $x$."},{"title":"Eliminate the choices","content":"Writing the percentage statement as an equation gives $x=\\frac{33}{100}y$. Multiply both sides by $\\frac{100}{33}$ to isolate $y$: $y=\\frac{100}{33}x$.<ul><li><strong>Choice A &mdash; $\\frac{100}{33}x$</strong>: matches exactly. &#10003;</li><li><strong>Choice B &mdash; $\\frac{10}{33}x$</strong>: off by a factor of 10; comes from treating 33% as $\\frac{3.3}{100}$ rather than $\\frac{33}{100}$. &#10007;</li><li><strong>Choice C &mdash; $\\frac{1}{33}x$</strong>: omits the factor of 100 entirely; this would give $y$ in terms of a 3300% relationship. &#10007;</li><li><strong>Choice D &mdash; $\\frac{67}{100}x$</strong>: uses $100-33=67$, confusing \"33% of $y$\" with \"$y$ minus 33% of $y$\". &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

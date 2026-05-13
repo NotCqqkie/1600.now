@@ -1,15 +1,1 @@
-{
-  "questionId": "ea42af8e-0812-4d54-a254-797255665265_25",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the student wants to accomplish",
-      "content": "The goal is to \u201cemphasize a difference between the two scrolls.\u201d The notes make clear that Scroll 1 contains a painting and Scroll 2 contains a poem\u2014two fundamentally different forms."
-    },
-    {
-      "title": "Match the choice that emphasizes this distinction",
-      "content": "Choice A directly states \u201cone scroll features a painting, while the other scroll features a poem,\u201d highlighting exactly what separates them. Choices B, C, and D instead focus on similarity, introduce factual errors, or misrepresent the content. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"ea42af8e-0812-4d54-a254-797255665265_25","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student wants to emphasize a <em>difference</em> between the two scrolls. Scroll 1 is a painting; Scroll 2 is a poem. The correct choice must name both scrolls and contrast what each contains."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'one scroll features a painting, while the other scroll features a poem'</strong>: Directly names the two scrolls and contrasts their forms &mdash; one visual, one literary. This is exactly a difference. &#10003;</li><li><strong>Choice B &mdash; 'two scrolls that each depict nature'</strong>: Says both scrolls depict nature &mdash; that's a <em>similarity</em>, not a difference. Also misrepresents Scroll 2, which is a poem, not a depiction. &#10007;</li><li><strong>Choice C &mdash; 'two scrolls... created by Li Bai'</strong>: Attributes the entire artwork to Li Bai, who only wrote the poem on Scroll 2. Taiga created the artwork. Factually wrong and highlights no difference. &#10007;</li><li><strong>Choice D &mdash; 'one features mountains, and one features a portrait of poet Li Bai'</strong>: Scroll 2 is a poem <em>by</em> Li Bai, not a portrait <em>of</em> him. Introduces a factual error. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

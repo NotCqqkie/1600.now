@@ -1,15 +1,1 @@
-{
-  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_19",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "Left side: <em>From 2009 to 2019, travelers flew out of major urban airports with increasing [blank]</em> is an independent clause. Right side: <em>Austin-Bergstrom International Airport in Austin, Texas, saw a 111.3 percent increase in airline passengers...</em> is an independent clause."
-    },
-    {
-      "title": "Apply the sentence boundary rule",
-      "content": "Two independent clauses must be properly separated by a period, semicolon, or comma with conjunction. Option B correctly uses a period, allowing <em>For example,</em> to start a new sentence that introduces an example of the preceding claim.<br/><br/>Options A, C, and D violate this rule: Option A awkwardly ends the first sentence with <em>for example</em> rather than having it introduce the second sentence, Option C misapplies a semicolon before a transitional phrase, and Option D creates a comma splice by using only commas between independent clauses.<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"438ac81b-36aa-4552-b54a-16d92edcc54f_19","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank connects two independent clauses. The first clause ends with \"frequency\" and the second begins with the example about Austin-Bergstrom Airport. The connector must correctly punctuate the boundary between the two independent clauses and position \"For example\" as a transitional phrase introducing the second sentence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'frequency,for example.'</strong>: Placing \"for example\" inside the first clause before a period makes it part of the first sentence, leaving the second clause without an introduction. This also creates a run-on because a comma alone cannot join two independent clauses. &#10007;</li><li><strong>Choice B &mdash; 'frequency. For example,'</strong>: A period ends the first independent clause cleanly. \"For example,\" then opens the second sentence as a transitional phrase followed by a comma, which is correct Standard English. &#10003;</li><li><strong>Choice C &mdash; 'frequency,for example;'</strong>: A semicolon should connect two independent clauses, but here it follows the transitional phrase \"for example,\" not an independent clause. This structure is grammatically incorrect. &#10007;</li><li><strong>Choice D &mdash; 'frequency,for example,'</strong>: Using commas on both sides of \"for example\" between two independent clauses creates a comma splice. A comma alone cannot separate two complete sentences. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
