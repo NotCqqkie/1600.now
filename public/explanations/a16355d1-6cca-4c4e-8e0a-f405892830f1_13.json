@@ -1,1 +1,15 @@
-{"questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Recall the parallel lines test with a transversal", "content": "When a transversal crosses two lines, several conditions prove the lines are parallel:<ul><li>Corresponding angles are equal</li><li>Co-interior (consecutive interior) angles sum to 180°</li><li>Alternate interior angles are equal</li></ul>We know $w = 160°$ at the intersection of line $k$ and line $r$. We need to identify which angle relationship at line $s$ would prove $r \\parallel s$."}, {"title": "Analyze angle positions and test choice B", "content": "At the intersection of $k$ and $r$: angle $w = 160°$ is formed on one side of the transversal.<br/><br/>At the intersection of $k$ and $s$: angle $y$ is in the corresponding position to $w$ (same relative position at the second intersection).<br/><br/>If $y = 160°$, then $w = y$. Since both angles are in corresponding positions and are equal, the corresponding angles theorem guarantees that lines $r$ and $s$ are parallel.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall what makes two lines parallel",
+      "content": "When a transversal $k$ crosses lines $r$ and $s$, the lines are parallel if and only if one of these conditions holds: corresponding angles are equal, alternate interior angles are equal, or co-interior (same-side interior) angles sum to $180°$. We know $w = 160°$ at the intersection of $k$ and $r$. We need the single additional fact that proves $r \\parallel s$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — $x = 20$</strong>: $x$ is the supplement of $w$ at the intersection with $r$ (they form a straight angle: $160 + 20 = 180°$). This is information already determined by $w = 160$ alone — it tells us nothing new about $s$. &#10007;</li><li><strong>Choice B — $y = 160$</strong>: $y$ is the angle at the intersection of $k$ and $s$ in the same position as $w$ at $r$ — they are corresponding angles. If $w = y = 160°$, corresponding angles are equal, which is the definition of parallel lines. &#10003;</li><li><strong>Choice C — $w + y = 180$</strong>: This would mean $y = 20°$. Co-interior angles summing to $180°$ would require $w$ and the interior angle on the same side at $s$ to sum to $180°$ — but $w + y = 180$ makes $y$ a supplement of $w$, placing $y$ in the alternate-exterior relationship, not the co-interior one. This condition does not correspond to any standard parallel-line theorem. &#10007;</li><li><strong>Choice D — $y + z = 180$</strong>: $y$ and $z$ are supplementary angles at the intersection of $k$ and $s$ — they already sum to $180°$ by the straight-angle postulate, regardless of whether $r$ and $s$ are parallel. This is always true and gives no information. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."
+    }
+  ]
+}

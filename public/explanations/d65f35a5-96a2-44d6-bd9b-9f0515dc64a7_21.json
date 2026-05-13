@@ -1,1 +1,19 @@
-{"questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "No-solution condition", "content": "A linear system has <strong>no solution</strong> when the two lines are <strong>parallel but not identical</strong> — i.e. they have the <strong>same slope</strong>. So the second line's slope must equal the slope of the given equation."}, {"title": "Match the slope", "content": "Solving the given equation for $y$ produces a slope of $\\dfrac{7}{27r}$, so the other line must also have slope $\\dfrac{7}{27r}$.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recall the no-solution condition",
+      "content": "A system of two linear equations has no solution when the lines are parallel: same slope, different $y$-intercepts. So the second line must have the same slope as the equation given in the figure."
+    },
+    {
+      "title": "Find the slope of the given equation",
+      "content": "The equation shown in the problem (see figure) can be written in slope-intercept form $y = mx + b$. Solving for $y$ gives a slope of $\\dfrac{7}{27r}$. For the system to have no solution, the other equation must also have slope $\\dfrac{7}{27r}$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — $-\\dfrac{27r}{7}$</strong>: This is the negative reciprocal of $\\dfrac{7}{27r}$, which would make the lines perpendicular (one solution), not parallel. &#10007;</li><li><strong>Choice B — $-\\dfrac{27}{7r}$</strong>: Negative and structurally different from $\\dfrac{7}{27r}$; lines would intersect at one point. &#10007;</li><li><strong>Choice C — $\\dfrac{7r}{27}$</strong>: Close but the $r$ is in the numerator instead of the denominator, making this a different value. Lines would intersect. &#10007;</li><li><strong>Choice D — $\\dfrac{7}{27r}$</strong>: Matches the slope of the given equation exactly. Parallel lines, no solution. &#10003;</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

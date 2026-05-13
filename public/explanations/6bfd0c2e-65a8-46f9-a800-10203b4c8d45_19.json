@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the decay factor",
-      "content": "<div>The sample loses 24% of its mass each 22.96\u2011minute interval, so the fraction that remains is $$1-0.24 = 0.76$$.</div>"
+      "title": "Set up the model structure",
+      "content": "The sample loses 24% of its mass every 22.96 minutes, so 76% remains each period. An exponential decay model has the form $M = M_0 \\cdot r^{t/T}$, where $M_0$ is the starting mass (100 g), $r$ is the fraction remaining per period (0.76), and $T$ is the period length (22.96 min)."
     },
     {
-      "title": "Write the exponential decay model",
-      "content": "<div>The exponential decay model is $$M = M_0 \\cdot r^{\\frac{t}{T}}$$, where $$M_0$$ is the initial mass, $$r$$ is the remaining fraction per period, and $$T$$ is the length of one period.</div>"
-    },
-    {
-      "title": "Match to answer choices",
-      "content": "<div>Substituting $$M_0 = 100$$ grams, $$r = 0.76$$, and $$T = 22.96$$ minutes gives $$M = 100(0.76)^{\\frac{t}{22.96}}$$. This expression matches choice D.</div><br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $M = 100(0.24) + 22.96$</strong>: This is a constant, not a function of $t$ at all. It also uses 0.24 (the lost fraction) rather than 0.76 (the remaining fraction), and adds the period length, which makes no dimensional sense. &#10007;</li><li><strong>Choice B &mdash; $M = 100(0.24)^{t/22.96}$</strong>: Exponential form, but uses base 0.24 (the lost fraction) instead of 0.76 (the remaining fraction). As $t$ grows this drives mass toward zero far too fast and doesn't correctly model 76% survival per period. &#10007;</li><li><strong>Choice C &mdash; $M = 100(0.76)t + 22.96$</strong>: Linear, not exponential &mdash; mass would decrease by the same amount each minute rather than by a fixed percentage. Exponential decay cannot be modeled with $t$ appearing only as a multiplier. &#10007;</li><li><strong>Choice D &mdash; $M = 100(0.76)^{t/22.96}$</strong>: Exponential with the correct base (0.76 = fraction remaining), correct initial value (100 g), and correct period ($t$ is divided by 22.96 so that every 22.96 minutes the exponent increases by 1 and mass is multiplied by 0.76). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }
