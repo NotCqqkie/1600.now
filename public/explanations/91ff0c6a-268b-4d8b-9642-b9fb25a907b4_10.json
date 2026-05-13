@@ -1,15 +1,1 @@
-{
-  "questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_10",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate Zelda II in the table",
-      "content": "The question asks for data on \u201cZelda II: The Adventure of Link\u201d by Nintendo EAD, which appears in the table."
-    },
-    {
-      "title": "Read its release year",
-      "content": "Zelda II's release year in the table is 1987. The other three options correspond to different games in the table. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the question needs", "content": "The student needs the release year of Zelda II: The Adventure of Link, developed by Nintendo EAD. The answer comes directly from reading the corresponding row in the table."}, {"title": "Eliminate the choices", "content": "<ul><li><strong>Choice A &mdash; '1982'</strong>: 1982 is the release year of a different game in the table, not Zelda II. &#10007;</li><li><strong>Choice B &mdash; '1987'</strong>: The table lists 1987 as the release year for Zelda II: The Adventure of Link by Nintendo EAD. This matches the game the student is researching. &#10003;</li><li><strong>Choice C &mdash; '1984'</strong>: 1984 is the release year of another game in the table, not Zelda II. &#10007;</li><li><strong>Choice D &mdash; '1988'</strong>: 1988 is the release year of yet another game in the table, not Zelda II. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

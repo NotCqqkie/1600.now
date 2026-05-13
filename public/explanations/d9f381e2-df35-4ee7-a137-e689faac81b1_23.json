@@ -1,1 +1,15 @@
-{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_23", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast", "content": "The blank separates two seemingly contradictory strategies for naming a band: one emphasizes uniqueness/originality, the other references an <em>already recognizable</em> song. The transition must highlight this contrast."}, {"title": "Choose the logic that signals contradiction", "content": "“Alternatively” introduces a contrasting option to the first strategy, aligning with the shift from “unique and original” to “recognizable song.” The other three confuse the relationship: “Thus” implies causality, “In other words” suggests restatement, and “For instance” would logically follow the first strategy—not contradict it.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b1_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The blank connects two strategies for naming a band. The first strategy values being &ldquo;unique and original.&rdquo; The second strategy involves naming the band after a <em>recognizable song</em> &mdash; the opposite approach. The transition must signal a <strong>contrast</strong> between two equally valid alternatives."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;Alternatively,&quot;</strong>: Introduces a different option of equal standing, matching the shift from one valid strategy to an opposing one. &#10003;</li><li><strong>Choice B &mdash; &quot;Thus,&quot;</strong>: Signals a conclusion or result. The second strategy is not a result of the first. &#10007;</li><li><strong>Choice C &mdash; &quot;In other words,&quot;</strong>: Signals restatement. The second strategy is not a restatement of the first &mdash; it contradicts it. &#10007;</li><li><strong>Choice D &mdash; &quot;For instance,&quot;</strong>: Signals an example of what came before. Naming after a recognizable song would illustrate being &ldquo;unique and original,&rdquo; which is wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

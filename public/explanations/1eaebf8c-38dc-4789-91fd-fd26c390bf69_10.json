@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the correlation difference despite equal actual ratings",
-      "content": "P4's correlation is 0.3 for abstract but 0.4 for cubist. The problem tells us P4 <em>actually gave equal ratings</em> to both styles. If the actual ratings were the same but the correlations differ, the model's predictions must have been systematically different between the two styles."
+      "title": "Identify what the question needs",
+      "content": "The passage states P4 gave <em>equal</em> ratings to abstract and cubist paintings. The graph shows the model&#39;s correlation with P4 is 0.3 for abstract and 0.4 for cubist. The question asks what the <em>model predicted</em> given that P4&#39;s actual ratings were the same."
     },
     {
-      "title": "What different correlations reveal about the model's predictions",
-      "content": "A higher correlation (0.4 for cubist) means the model's predictions aligned better with P4's actual behavior. A lower correlation (0.3 for abstract) means the model's predictions were further off. This pattern occurs when the model predicted higher enjoyment for cubist and lower for abstract\u2014even though P4 actually rated them equally. The model predicted that <strong>abstract and cubist ratings would differ</strong>, contradicting P4's actual equal ratings. <br/><br/>The other three choices either claim P4's ratings were actually different (B and C contradict the given assumption), or restate the assumption itself (D). <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;P4&#39;s ratings for abstract and cubist paintings would differ from one another&#39;</strong>: If P4 actually rated both equally but the model correlated better with cubist than abstract, the model must have predicted different ratings for the two styles &mdash; its predictions didn&#39;t track the equal actuals equally well. This directly follows from unequal correlations when actual ratings are the same. &#10003;</li><li><strong>Choice B &mdash; &#39;P4 would derive less aesthetic pleasure from cubist than from abstract&#39;</strong>: The higher correlation for cubist (0.4) means the model&#39;s predictions were <em>closer</em> to P4&#39;s actual cubist ratings, not that it predicted lower cubist enjoyment. &#10007;</li><li><strong>Choice C &mdash; &#39;P4 would derive more aesthetic pleasure from cubist than from abstract&#39;</strong>: This claims the model predicted higher cubist enjoyment. But the question asks what <em>follows from unequal correlations</em> given equal actual ratings &mdash; not a specific direction of predicted difference. &#10007;</li><li><strong>Choice D &mdash; &#39;P4&#39;s rating for abstract and cubist would equal one another&#39;</strong>: This restates the given assumption about P4&#39;s <em>actual</em> ratings, not what the model <em>predicted</em>. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

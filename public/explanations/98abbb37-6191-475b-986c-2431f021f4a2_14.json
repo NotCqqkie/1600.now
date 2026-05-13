@@ -1,1 +1,15 @@
-{"questionId": "98abbb37-6191-475b-986c-2431f021f4a2_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the distance requirement", "content": "The claim specifies the soldiers view the town “from afar” — this distance perspective is the key constraint that determines which quotation best illustrates the claim."}, {"title": "Find the choice showing the distant view", "content": "C uniquely opens with “Juchipila arose in the distance,” establishing the soldiers' viewing from afar, paired with striking visual language—”white, bathed in sunlight, shining.” The other choices either depict soldiers engaged with the terrain itself (A, B) without a distant perspective, or focus on surrounding landscape rather than the town (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "98abbb37-6191-475b-986c-2431f021f4a2_14",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The claim is that Juchipila is a <em>striking sight</em> for soldiers as they view it <em>from afar</em>. The correct quotation must satisfy two criteria: (1) the soldiers are at a distance, not inside or moving through the town, and (2) the town appears visually striking."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;All day long [the soldiers] rode through the canyon, up and down the steep, round hills...&#39;</strong>: Describes the soldiers&#39; journey through terrain, not a distant view of Juchipila. The town is not mentioned. &#10007;</li><li><strong>Choice B &mdash; &#39;[The soldiers] entered the streets of Juchipila as the church bells rang...&#39;</strong>: The soldiers are <em>inside</em> Juchipila, not viewing it from afar. &#10007;</li><li><strong>Choice C &mdash; &#39;Juchipila arose in the distance, white, bathed in sunlight, shining in the midst of a thick forest at the foot of a proud, lofty mountain.&#39;</strong>: &quot;Arose in the distance&quot; establishes the remote viewing angle. &quot;White, bathed in sunlight, shining&quot; conveys the striking visual impression. Both criteria are met. &#10003;</li><li><strong>Choice D &mdash; &#39;The sierra is clad in gala colors. Over its inaccessible peaks the opalescent fog settles like a snowy veil...&#39;</strong>: Describes the surrounding mountain scenery, not Juchipila itself being viewed from afar. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

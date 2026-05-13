@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal signal",
-      "content": "The prompt\u2019s key signal is the student\u2019s goal to emphasize a difference between the two sculptures."
+      "title": "Identify what the question needs",
+      "content": "The student wants to <strong>emphasize a difference</strong> between the two sculptures. The correct choice must explicitly contrast them &mdash; not describe what they share."
     },
     {
-      "title": "Select the choice that highlights the difference",
-      "content": "Choice B directly contrasts the sculptures by noting that Etchells\u2019s work spells out a phrase while Le\u2019s is an abstract squiggle shape, thus emphasizing a difference.<br/>The other choices either note similarities, mention only shared traits, or fail to contrast the sculptures.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;Tim Etchells and Annesta Le are artists who have used neon in their sculptures.&quot;</strong>: States a similarity (both used neon). &#10007;</li><li><strong>Choice B &mdash; &quot;Unlike Etchells&apos;s sculpture, which spells out a phrase, Le&apos;s is an abstract squiggle shape.&quot;</strong>: Directly contrasts the two works by opposing &ldquo;spells out a phrase&rdquo; against &ldquo;abstract squiggle shape.&rdquo; &#10003;</li><li><strong>Choice C &mdash; &quot;Both Etchells&apos;s and Le&apos;s sculptures are crafted from neon lighting.&quot;</strong>: States a similarity (both use neon). &#10007;</li><li><strong>Choice D &mdash; &quot;*Never Sleep*, like *Verdurous No. 2*, is a sculpture.&quot;</strong>: States a similarity (both are sculptures). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

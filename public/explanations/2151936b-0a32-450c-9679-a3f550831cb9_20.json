@@ -1,15 +1,1 @@
-{
-  "questionId": "2151936b-0a32-450c-9679-a3f550831cb9_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the clause structure",
-      "content": "The blank follows the singular subject \u201cit\u201d and the adverb \u201cregularly\u201d and precedes the direct object \u201call its needles,\u201d making it the main verb of an independent clause."
-    },
-    {
-      "title": "Apply subject\u2011verb agreement",
-      "content": "The verb must agree with the singular subject \u201cit\u201d in the present simple, so it takes the \u2013s ending: sheds.<br/>The other three either lack the \u2013s, use a past participle, or a gerund, violating subject\u2011verb agreement.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2151936b-0a32-450c-9679-a3f550831cb9_20","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank follows the singular subject &quot;it&quot; and the adverb &quot;regularly,&quot; and precedes the direct object &quot;all its needles.&quot; It must be a finite main verb in the simple present that agrees with the singular subject &quot;it.&quot; A third-person singular present verb takes an &mdash;s ending."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'shed'</strong>: base form &mdash; lacks the &mdash;s ending required for a singular subject in simple present. &#10007;</li><li><strong>Choice B &mdash; 'have shed'</strong>: present perfect with plural auxiliary &quot;have&quot; &mdash; does not agree with singular &quot;it.&quot; &#10007;</li><li><strong>Choice C &mdash; 'sheds'</strong>: simple present with &mdash;s ending &mdash; agrees with singular &quot;it&quot; and functions as the finite main verb. &#10003;</li><li><strong>Choice D &mdash; 'shedding'</strong>: present participle &mdash; cannot serve as a finite main verb without an auxiliary. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

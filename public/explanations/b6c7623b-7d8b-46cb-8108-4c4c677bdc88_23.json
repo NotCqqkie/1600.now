@@ -1,1 +1,15 @@
-{"questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_23", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the sentences", "content": "The first sentence names Malaysia's voting system (single-member plurality). The second sentence explains what that system means in practice — how candidates are actually elected. This is a clarification relationship: the second sentence restates or defines the concept just introduced."}, {"title": "Choose the transition for clarification", "content": "<strong>In other words</strong> signals restatement or explanation, the relationship that holds between these sentences.<br/><br/>The other choices signal different relationships: “meanwhile” for simultaneous action, “that being said” for contrast or concession, and “moreover” for additional information.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The first sentence introduces Malaysia&#39;s single-member plurality voting system. The second sentence explains what that system means in practice: candidates win by receiving a plurality of votes. The transition must signal that the second sentence is <em>restating or defining</em> the concept just named."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;In other words,&#39;</strong>: Signals restatement or clarification, which is exactly the relationship here &mdash; the second sentence unpacks what &quot;single-member plurality&quot; means. &#10003;</li><li><strong>Choice B &mdash; &#39;Meanwhile,&#39;</strong>: Signals simultaneous or parallel events happening at the same time. The second sentence is not describing a separate concurrent event. &#10007;</li><li><strong>Choice C &mdash; &#39;That being said,&#39;</strong>: Signals a concession or contrast, implying the second sentence contradicts or qualifies the first. No contrast is present. &#10007;</li><li><strong>Choice D &mdash; &#39;Moreover,&#39;</strong>: Signals addition of a new, distinct point. The second sentence is not adding new information &mdash; it is defining the term already introduced. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

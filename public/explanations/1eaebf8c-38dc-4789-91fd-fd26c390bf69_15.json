@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses and the connector",
-      "content": "The sentence contains two complete thoughts: <strong>\u201cThe sand is a more unusual shade\u201d</strong> and <strong>\u201cdeposits of crushed coral lend the sand a unique pink hue.\u201d</strong> The word <strong>\u201cthough\u201d</strong> must connect these as a transitional element signaling an explanatory relationship between them."
+      "title": "Identify what the question needs",
+      "content": "The blank must fill the end of the phrase &quot;a more unusual ______&quot; and connect two independent clauses. The first clause ends with &quot;a more unusual [shade]&quot; and the second is &quot;deposits of crushed coral and other organic matter lend the sand a unique pink hue.&quot; The word <em>though</em> must serve as a transitional connector between them."
     },
     {
-      "title": "Apply the transitional word punctuation rule",
-      "content": "When <em>though</em> connects two independent clauses as a transitional element, place a comma before it and a semicolon after: <strong>IC, though; IC</strong>. The comma marks the end of the first clause, and the semicolon separates the transitional word from the beginning of the next complete thought.<br/><br/>Options B and C fail to include the semicolon after <em>though</em>, and option D incorrectly places the semicolon before <em>though</em> instead of after.<br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;shade, though;&#39;</strong>: A comma after <em>shade</em> closes the first independent clause, <em>though</em> serves as the transitional connector, and the semicolon after <em>though</em> correctly separates it from the start of the second independent clause. This matches the pattern: IC, though; IC. &#10003;</li><li><strong>Choice B &mdash; &#39;shade, though,&#39;</strong>: A comma after <em>though</em> instead of a semicolon fails to properly separate <em>though</em> from the second independent clause &mdash; two commas around a transitional word is not standard for this construction. &#10007;</li><li><strong>Choice C &mdash; &#39;shade, though&#39;</strong>: No punctuation after <em>though</em> runs the transitional word directly into the second independent clause without the required separator. &#10007;</li><li><strong>Choice D &mdash; &#39;shade; though&#39;</strong>: Placing the semicolon before <em>though</em> separates the first clause from its transitional word, leaving the two independent clauses with no punctuation between <em>though</em> and the second clause. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

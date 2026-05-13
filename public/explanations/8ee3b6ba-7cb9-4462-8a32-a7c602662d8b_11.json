@@ -1,1 +1,15 @@
-{"questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what weakens the claim", "content": "The student claims that scat-detecting dogs produces <strong>the smallest difference</strong> between minimum and maximum densities. To weaken this claim, we need evidence that scat-detecting dogs does <strong>not</strong> have the smallest difference."}, {"title": "Match the evidence to the choices", "content": "If Gregory A. Davidson et al. used scat-detecting dogs and their reported density range was <strong>greater than</strong> the ranges from studies using other methods, this directly contradicts the student's claim by showing scat-detecting dogs lacks the smallest difference.<br/><br/>Options A and D report isolated data points without comparative context; B compares two studies without clarifying which method was used or the actual ranges involved.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The student claims scat-detecting dogs produces the <em>smallest difference</em> between minimum and maximum densities. To weaken this claim, a choice must show that the scat-detecting dog study (Gregory A. Davidson et al.) does <em>not</em> have the smallest density range &mdash; specifically, that its range is <em>larger</em> than at least one study using a different method."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;David M. Choate et al. reported a density range of 4.65 individuals per 100 km&sup2; despite the use of helicopter surveying&#39;</strong>: This reports an isolated data point for one non-scat-dog study. It gives no comparison to the Davidson range, so it neither weakens nor supports the claim. &#10007;</li><li><strong>Choice B &mdash; &#39;Rahel Sollmann et al. reported a density range substantially smaller than that reported by David M. Choate et al.&#39;</strong>: This compares two non-Davidson studies without specifying which method each used or how either compares to Davidson&#39;s scat-dog range. It does not address the claim. &#10007;</li><li><strong>Choice C &mdash; &#39;Gregory A. Davidson et al. reported a density range greater than that reported by some studies that used other methods&#39;</strong>: Davidson et al. used scat-detecting dogs. If their range is <em>greater</em> than ranges from other-method studies, then scat-detecting dogs does <em>not</em> have the smallest range &mdash; directly contradicting the student&#39;s claim. &#10003;</li><li><strong>Choice D &mdash; &#39;Gregory A. Davidson et al. reported a maximum density of 5.50 individuals per 100 km&sup2;, which differed from that reported by some studies that used other methods&#39;</strong>: Reporting a single maximum value that &quot;differs&quot; from others says nothing about the <em>range</em> (max minus min). It does not weaken the claim about smallest range. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

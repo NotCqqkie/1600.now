@@ -1,1 +1,15 @@
-{"questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_10", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The claim asks for evidence of Claudine's “strong emotional attachment” to the forests. The key signal is explicit emotional language — words that show her personal feeling about the woods, not just her observations of them."}, {"title": "Match to the choices", "content": "Choice C uses “my favorites” to claim personal connection to the woods and “makes my heart bleed” to express devastating emotion at their destruction — language that directly shows her deep personal attachment.<br/><br/>The other choices either address family dynamics (A), offer observational landscape description (B), or appreciate the woods' magnificence and role without revealing personal emotional investment (D).<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d007aa6c-6fd8-4005-bd58-dc779c145226_10",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The claim states Claudine has a &ldquo;strong emotional attachment to the surrounding forests.&rdquo; The correct quotation must show <strong>personal, emotional language</strong> about the forests &mdash; not just observation or description."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;If I had a Mamma&hellip;&quot;</strong>: Discusses her relationship with her parents, not the forests. &#10007;</li><li><strong>Choice B &mdash; &quot;No small creatures in those great woods&hellip;&quot;</strong>: Observational description of the woods &mdash; no emotional language. &#10007;</li><li><strong>Choice C &mdash; &quot;And then there are my favorites, the great woods&hellip; It makes my heart bleed to see one of those cut down.&quot;</strong>: &ldquo;My favorites&rdquo; shows personal connection; &ldquo;makes my heart bleed&rdquo; is explicit emotional distress at their loss. &#10003;</li><li><strong>Choice D &mdash; &quot;the magnificent woods devour everything&hellip;&quot;</strong>: Describes the woods&apos; dominance of the landscape but does not reveal Claudine&apos;s personal feelings about them. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}
