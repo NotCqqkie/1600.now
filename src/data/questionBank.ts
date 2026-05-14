@@ -206,6 +206,38 @@ const hasUnsalvageableChoices = (q: SourceQuestion): boolean => {
 
 const mapImages = (q: SourceQuestion) => resolveSatQuestionImages(q.id, q.image);
 
+// When a question already has an image of its table/figure, the source text
+// often contains the same content as inline HTML (typically a leading <table>).
+// Rendering both produces a duplicated visual. Strip the leading HTML block in
+// that case. Uses depth tracking so nested <table>s are removed correctly.
+const stripLeadingHtmlTable = (text: string): string => {
+  const leadingWs = text.match(/^\s*/)?.[0] ?? "";
+  const rest = text.slice(leadingWs.length);
+  if (!/^<table\b/i.test(rest)) return text;
+
+  let depth = 0;
+  let i = 0;
+  while (i < rest.length) {
+    const openIdx = rest.toLowerCase().indexOf("<table", i);
+    const closeIdx = rest.toLowerCase().indexOf("</table", i);
+    if (closeIdx === -1) return text;
+
+    if (openIdx !== -1 && openIdx < closeIdx) {
+      const gt = rest.indexOf(">", openIdx);
+      if (gt === -1) return text;
+      depth++;
+      i = gt + 1;
+    } else {
+      const gt = rest.indexOf(">", closeIdx);
+      if (gt === -1) return text;
+      depth--;
+      i = gt + 1;
+      if (depth === 0) return rest.slice(i).replace(/^\s+/, "");
+    }
+  }
+  return text;
+};
+
 const extractLegacyQuestionNumber = (sourceId: string): number | string => {
   const match = sourceId.match(/_(\d+)$/);
   return match ? Number.parseInt(match[1], 10) : sourceId;
@@ -468,11 +500,13 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
 
   const subject: BankSubject = category.subject === "Math" ? "math" : "reading";
   const sanitizeText = subject === "math" ? sanitizeMathText : sanitizeReadingText;
-  const normalizedText = q.text;
+  const normalizedQuestionImages = mapImages(q);
+  const normalizedText = normalizedQuestionImages?.length
+    ? stripLeadingHtmlTable(q.text)
+    : q.text;
   const normalizedRationale = q.rationale ? sanitizeText(q.rationale) : q.rationale;
   const normalizedType = q.type;
   const normalizedChoices = q.choices;
-  const normalizedQuestionImages = mapImages(q);
   const normalizedCorrectAnswer = q.correctAnswer;
 
   const prompt = sanitizeText(normalizedText);
