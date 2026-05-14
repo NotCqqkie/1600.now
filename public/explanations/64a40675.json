@@ -1,15 +1,1 @@
-{
-  "questionId": "64a40675",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the grammatical parts around the blank",
-      "content": "The word before the blank is the subject 'he'. The word after the blank begins the direct object 'the sound'. A transitive verb needs no punctuation between it and its object, so nothing should appear in the blank."
-    },
-    {
-      "title": "Apply the verb\u2011object rule",
-      "content": "Choice B 'preferred the' places the verb directly before its object with no punctuation, satisfying the rule. Choices A, C, and D each insert a semicolon, comma, or period that wrongly separates the verb from its object. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"64a40675","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank completes the clause \"he ______ sound of a bent bell.\" The word \"he\" is the subject, and \"the sound\" begins the direct object. A transitive verb must connect directly to its object &mdash; no punctuation may come between them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'preferred; the'</strong>: a semicolon separates two independent clauses, but \"the sound of a bent bell\" is not a clause &mdash; it's the object of \"preferred.\" Inserting a semicolon here creates an ungrammatical sentence. &#10007;</li><li><strong>Choice B &mdash; 'preferred the'</strong>: places the verb directly before its object with no punctuation, which is exactly what Standard English requires between a verb and its direct object. &#10003;</li><li><strong>Choice C &mdash; 'preferred, the'</strong>: a comma between a verb and its direct object is not allowed; this produces an ungrammatical sentence. &#10007;</li><li><strong>Choice D &mdash; 'preferred. The'</strong>: a period ends the sentence, leaving \"The sound of a bent bell over that of a straight one\" as a fragment with no main verb. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
