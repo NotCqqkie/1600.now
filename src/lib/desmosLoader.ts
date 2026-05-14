@@ -1,5 +1,5 @@
 const DESMOS_SRC =
-  "https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6";
+  "https://www.desmos.com/api/v1.11/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6";
 
 let desmosLoadPromise: Promise<void> | null = null;
 
