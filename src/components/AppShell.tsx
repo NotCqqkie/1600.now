@@ -50,7 +50,7 @@ type SidebarItem = {
 
 const primaryItems: SidebarItem[] = [
   { label: "Question Bank", href: "/bank", icon: BookOpen, match: (pathname: string) => pathname.startsWith("/bank"), tourId: "nav-bank" },
-  { label: "100 Hard Math Questions", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard"), tourId: "nav-hard" },
+  { label: "100 Hard Math", href: "/hard", icon: Target, match: (pathname: string) => pathname.startsWith("/hard"), tourId: "nav-hard" },
   { label: "Practice Tests", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules"), tourId: "nav-modules" },
   { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator"), tourId: "nav-calc" },
   { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab"), tourId: "nav-vocab" },
@@ -83,12 +83,13 @@ const SidebarLink = ({
       title={label}
       data-tour={tourId}
       className={cn(
-        // Inter 14px, tracking -0.5%. Default: 500 ink-mid. Active: 600 white on ink.
+        // Inter 14px, tracking -0.5%. Default: 500 ink-mid. Active: 600 white
+        // on ink-fixed (so the dark pill stays dark in dark mode too).
         "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[14px] tracking-[-0.005em] transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
         showLabel ? "w-full pr-3" : "w-10 pr-0",
         active
-          ? "bg-ink font-semibold text-white shadow-sm"
-          : "font-medium text-ink-mid hover:bg-ds-accent/25 hover:text-ink",
+          ? "bg-ink-fixed font-semibold text-white shadow-sm dark:bg-white dark:text-ink-fixed"
+          : "font-medium text-ink-mid hover:bg-ds-accent/25 hover:text-ink dark:hover:bg-white/10",
       )}
     >
       <span className={cn(
@@ -344,8 +345,9 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                   icon={UserPlus}
                   expanded={showExpandedContent}
                   onClick={() => navigate("/signup")}
-                  // Sign Up — Inter 600, 13px, ink on accent fill.
-                  className="!bg-ds-accent !font-semibold !text-ink shadow-sm hover:!bg-ds-accent/85 hover:!text-ink"
+                  // Sign Up — Inter 600, 13px. Text uses ink-fixed so it
+                  // stays dark on the always-light accent fill in dark mode.
+                  className="!bg-ds-accent !font-semibold !text-ink-fixed shadow-sm hover:!bg-ds-accent/85 hover:!text-ink-fixed"
                 />
               </>
             )}

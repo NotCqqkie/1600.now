@@ -433,7 +433,8 @@ const ScoreSummaryCard = ({
             }}
           >
             <div>
-              {/* Final score — Inter Tight 700, 96px clamp, tabular nums. The second-biggest number in the product. */}
+              {/* Final score — Inter Tight 700, tabular nums. Sized so 4-digit
+                  scores (max 1600) fit inside the 176px inner ring. */}
               <div
                 className="score-number"
                 style={
@@ -442,10 +443,10 @@ const ScoreSummaryCard = ({
                     fontWeight: 700,
                     letterSpacing: "-0.045em",
                     fontVariantNumeric: "tabular-nums",
-                    fontSize: "clamp(48px, 7vw, 96px)",
-                    lineHeight: 0.95,
+                    fontSize: "clamp(40px, 5vw, 64px)",
+                    lineHeight: 1,
                     color: scores.totalColor,
-                    marginBottom: 10,
+                    marginBottom: 8,
                     transition: SCORE_TRANSITION,
                     "--score-glow": `${scores.totalColor}55`,
                   } as CSSProperties
@@ -453,14 +454,15 @@ const ScoreSummaryCard = ({
               >
                 {scores.total}
               </div>
-              {/* Caption — Inter 600, 11px, +22% tracking (wide because the number above is giant). */}
+              {/* Caption — Inter 600, 10px, +16% tracking. Tightened so it
+                  still fits across the inner ring at any score length. */}
               <div
                 style={{
                   fontFamily: "'Inter', sans-serif",
-                  fontSize: 11,
+                  fontSize: 10,
                   color: "rgb(var(--ink-muted))",
                   textTransform: "uppercase",
-                  letterSpacing: "0.22em",
+                  letterSpacing: "0.16em",
                   fontWeight: 600,
                   lineHeight: 1,
                 }}

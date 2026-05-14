@@ -7,7 +7,7 @@ const columns = [
       { label: "SAT Score Calculator", to: "/score-calculator" },
       { label: "SAT Question Bank", to: "/bank" },
       { label: "Practice Tests", to: "/modules" },
-      { label: "100 Hard Math Questions", to: "/hard" },
+      { label: "100 Hard Math", to: "/hard" },
       { label: "Vocabulary Flashcards", to: "/vocab" },
     ],
   },

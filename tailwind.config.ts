@@ -77,6 +77,9 @@ export default {
           mid: "rgb(var(--ink-mid) / <alpha-value>)",
           muted: "rgb(var(--ink-muted) / <alpha-value>)",
           "muted-dim": "rgb(var(--ink-muted-dim) / <alpha-value>)",
+          // `ink-fixed` does NOT flip in dark mode. Use it for text on the
+          // accent button, sidebar active state, toast/tooltip dark fills.
+          fixed: "rgb(var(--ink-fixed) / <alpha-value>)",
         },
         ds: {
           accent: "rgb(var(--ds-accent) / <alpha-value>)",

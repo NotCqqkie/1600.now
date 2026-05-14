@@ -194,11 +194,14 @@ export const DraggableWindow = ({
         if (onSplitScreenChange) {
           onSplitScreenChange(false, windowId);
         }
+        if (onSidebarToggle) {
+          onSidebarToggle(windowId, false);
+        }
       }
     }
-    
+
     prevIsOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, readPersistedState]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState]);
 
   // Handle sidebar mode changes - position window in sidebar
   useEffect(() => {
@@ -618,7 +621,7 @@ export const DraggableWindow = ({
   return createPortal(
     <>
       {/* Split Screen Divider - rendered by the sidebarred window */}
-      {isSidebarred && (
+      {isSidebarred && isOpen && (
         <div
           className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
           style={{

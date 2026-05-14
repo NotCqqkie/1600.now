@@ -10,10 +10,11 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        // Primary CTA — ink text on accent fill. Hover ramps to cobalt #6BA7E8
-        // (white text), pressed lands on cobalt-deep #3A78D8 with a -2% scale.
+        // Primary CTA — ink-FIXED text on accent fill. Text colour stays dark
+        // in both themes because the accent fill is the same in both. Hover
+        // ramps to cobalt #6BA7E8 (white text), press cobalt-deep #3A78D8.
         default:
-          "bg-ds-accent text-ink hover:bg-cobalt hover:text-white hover:shadow-[0_4px_14px_rgba(58,120,216,0.32)] active:bg-cobalt-deep active:text-white active:scale-[0.98] dark:bg-ds-accent dark:text-ink dark:hover:text-white",
+          "bg-ds-accent text-ink-fixed hover:bg-cobalt hover:text-white hover:shadow-[0_4px_14px_rgba(58,120,216,0.32)] active:bg-cobalt-deep active:text-white active:scale-[0.98]",
         // Destructive — bad on bad-tint, with full red fill on confirm modals.
         destructive: "bg-ds-bad text-white hover:bg-ds-bad/90",
         // Secondary — ink on white with a soft 1px line. Hover rides up to
@@ -30,8 +31,9 @@ const buttonVariants = cva(
         link: "text-accent-deep underline-offset-4 hover:underline hover:text-cobalt-deep",
         // Success surface (kept for callers).
         success: "bg-ds-good/15 text-ink border border-ds-good/30 hover:bg-ds-good/25",
-        // Dark solid — white text on ink (used inside flashcard footer).
-        dark: "bg-ink text-white hover:bg-ink/90 dark:bg-white dark:text-ink dark:hover:bg-white/90",
+        // Dark solid — white text on a fixed dark ink fill. Stays dark in
+        // both themes; used inside the flashcard footer to signal commitment.
+        dark: "bg-ink-fixed text-white hover:bg-ink-fixed/90",
       },
       size: {
         // 12–14px y × 18–22px x per spec; default sits in the middle.

@@ -20,7 +20,7 @@ const HardQuestionsIntro = () => {
             <h1
               className="font-display max-w-3xl text-[clamp(32px,3.8vw,42px)] font-semibold leading-none tracking-[-0.03em] tabular-nums text-ink"
             >
-              100 Hard Math Questions
+              100 Hard Math
             </h1>
 
             <p className="mt-3 max-w-2xl font-sans text-[14px] leading-[1.5] text-ink-mid">

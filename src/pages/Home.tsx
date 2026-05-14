@@ -24,11 +24,11 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { InlineDesmos } from "@/components/InlineDesmos";
 import { useThemeMode } from "@/hooks/useThemeMode";
-import { renderMixedContent } from "@/lib/mathRendering";
+import { renderMixedContent } from "@/lib/text/mathRendering";
 import {
   BANK_COUNT_BY_OFFICIAL_SKILL,
   BANK_TOTAL_ALL,
-} from "@/lib/bankTotals.generated";
+} from "@/lib/generated/bankTotals.generated";
 import "katex/dist/katex.min.css";
 
 const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_ALL;
@@ -1357,15 +1357,16 @@ SlotDigit.displayName = "SlotDigit";
 
 const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 2000 }: { value: number; startValue?: number; countDuration?: number }) => {
   const [displayed, setDisplayed] = useState(startValue);
-  // Drives a CSS opacity fade so the counter never appears as a static
-  // startValue (mobile disables the wrapper fade, otherwise "247" would flash).
+  // Drives a CSS opacity fade so the counter and its digits appear together.
   const [revealed, setRevealed] = useState(false);
   const rafRef = useRef<number>(0);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const displayedRef = useRef(startValue);
   const hasAnimatedRef = useRef(false);
 
   useEffect(() => {
     cancelAnimationFrame(rafRef.current);
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
     const from = hasAnimatedRef.current ? displayedRef.current : startValue;
     const range = value - from;
     if (range === 0) {
@@ -1373,12 +1374,21 @@ const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 2000
       setRevealed(true);
       return;
     }
-    // Subsequent updates (e.g. async total arrives after first animation) tick
-    // smoothly from the displayed value, not restart from startValue.
     const duration = hasAnimatedRef.current ? 600 : countDuration;
-    const mountTime = performance.now();
+    // Sync slot-anim start with the moment the element actually appears.
+    //  - Desktop (≥768px): wrapper's h-fade-5 keeps it hidden until 640ms, so
+    //    delay the slot anim to begin exactly when the wrapper begins fading.
+    //  - Mobile (<768px): wrapper fade is disabled by media query — start at 0
+    //    and let the span's own opacity transition do the reveal.
+    const isDesktop =
+      typeof window !== "undefined" &&
+      window.matchMedia("(min-width: 768px)").matches;
+    const startDelay = hasAnimatedRef.current ? 0 : isDesktop ? 640 : 0;
+
+    let begin = 0;
     const tick = (now: number) => {
-      const t = Math.min((now - mountTime) / duration, 1);
+      if (!begin) begin = now;
+      const t = Math.min((now - begin) / duration, 1);
       // 1.8 is gentler than cubic — keeps visible motion through the final
       // quarter instead of crawling to a halt.
       const eased = 1 - Math.pow(1 - t, 1.8);
@@ -1391,13 +1401,26 @@ const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 2000
         hasAnimatedRef.current = true;
       }
     };
-    // Fade the counter in on the next frame so the start value is never
-    // visible — by the time opacity reaches 1, the digits have already moved.
-    rafRef.current = requestAnimationFrame((now) => {
+    const launch = () => {
+      // Flip opacity and start ticking on the same frame — the CSS opacity
+      // transition begins at the very first slot tick, so digits visibly move
+      // from 1% visibility onward.
       setRevealed(true);
-      tick(now);
-    });
-    return () => cancelAnimationFrame(rafRef.current);
+      rafRef.current = requestAnimationFrame(tick);
+    };
+
+    if (startDelay > 0) {
+      timeoutRef.current = setTimeout(launch, startDelay);
+    } else {
+      // Defer one frame so the initial paint commits at opacity:0, then the
+      // CSS transition picks up the change to opacity:1.
+      rafRef.current = requestAnimationFrame(launch);
+    }
+
+    return () => {
+      cancelAnimationFrame(rafRef.current);
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
   }, [value, startValue, countDuration]);
 
   return (
@@ -1405,7 +1428,7 @@ const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 2000
       style={{
         fontVariantNumeric: "tabular-nums",
         opacity: revealed ? 1 : 0,
-        transition: "opacity 0.6s ease-out",
+        transition: "opacity 0.5s ease-out",
         display: "inline-block",
       }}
     >
@@ -2165,7 +2188,7 @@ const Home = () => {
               to="/hard"
               className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
-              100 Hard Math Questions
+              100 Hard Math
             </Link>
             <Link
               to="/modules"
@@ -2374,12 +2397,13 @@ const Home = () => {
                 padding: "14px 22px",
                 borderRadius: 10,
                 background: "rgb(var(--ds-accent))",
-                color: "rgb(var(--ink))",
-                fontWeight: 500,
+                // ink-fixed stays dark on the always-light accent fill in dark mode.
+                color: "rgb(var(--ink-fixed))",
+                fontWeight: 600,
                 fontSize: 15,
                 border: "none",
                 cursor: "pointer",
-                fontFamily: "'Geist', system-ui, sans-serif",
+                fontFamily: "'Inter', sans-serif",
                 letterSpacing: "-0.005em",
                 boxShadow:
                   isDarkMode
@@ -2400,7 +2424,7 @@ const Home = () => {
                 const el = e.currentTarget as HTMLButtonElement;
                 el.style.transform = "translateY(0)";
                 el.style.background = "rgb(var(--ds-accent))";
-                el.style.color = "rgb(var(--ink))";
+                el.style.color = "rgb(var(--ink-fixed))";
                 el.style.boxShadow = isDarkMode
                   ? "0 0 36px rgba(125,211,252,0.28), 0 4px 18px rgba(0,0,0,0.22)"
                   : "0 10px 30px rgba(56,189,248,0.22)";
@@ -2435,13 +2459,13 @@ const Home = () => {
                 color: isDarkMode
                   ? "rgba(255,255,255,0.88)"
                   : "rgb(var(--ink))",
-                fontWeight: 500,
+                fontWeight: 600,
                 fontSize: 15,
                 border: isDarkMode
                   ? "1px solid rgba(255,255,255,0.11)"
                   : "1px solid rgba(14,33,56,0.10)",
                 cursor: "pointer",
-                fontFamily: "'Geist', system-ui, sans-serif",
+                fontFamily: "'Inter', sans-serif",
                 letterSpacing: "-0.005em",
                 transition: "background 0.14s, border-color 0.14s, color 0.14s",
               }}

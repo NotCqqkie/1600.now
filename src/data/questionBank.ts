@@ -5,8 +5,8 @@ import readingPastRaw from "./questions/reading_past.json";
 const pastSatQuestionsData = [...mathPastRaw, ...readingPastRaw] as SourceQuestion[];
 import { questions as unofficialQuestionsData } from "./unofficialQuestions";
 import { resolveSatChoiceImage, resolveSatQuestionImages } from "./satQuestionImages";
-import { normalizeTextForMathRendering } from "@/lib/mathTextNormalization";
-import { normalizeReadingText } from "@/lib/readingTextNormalization";
+import { normalizeTextForMathRendering } from "@/lib/text/mathTextNormalization";
+import { normalizeReadingText } from "@/lib/text/readingTextNormalization";
 import {
   classifyQuestion,
   inferSubjectFromSource,

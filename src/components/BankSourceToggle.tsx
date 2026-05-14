@@ -45,12 +45,12 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
   return (
     <div
       ref={containerRef}
-      className="relative inline-flex flex-wrap rounded-lg border bg-card p-1"
+      className="relative inline-flex flex-nowrap rounded-[10px] border border-ds-line bg-white p-1 dark:bg-card dark:border-white/15"
     >
-      {/* Animated slider background */}
+      {/* Animated slider — always-light accent fill (#9BD7F4). */}
       <div
         className={cn(
-          "absolute top-1 bottom-1 rounded-md bg-primary shadow-sm ease-out",
+          "absolute top-1 bottom-1 rounded-[8px] bg-ds-accent shadow-sm ease-out",
           transitionsEnabled ? "transition-all duration-300" : "transition-none",
         )}
         style={{ left: slider.left, width: slider.width }}
@@ -65,10 +65,12 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
           type="button"
           onClick={() => onChange(source)}
           className={cn(
-            "relative z-10 rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-200",
+            // Off: Inter 500 14px, ink-mid. On: Inter 600 ink-fixed (dark on
+            // the always-light accent slider, even in dark mode).
+            "relative z-10 rounded-[8px] px-[14px] py-[8px] font-sans text-[14px] transition-colors duration-200",
             value === source
-              ? "text-primary-foreground"
-              : "text-muted-foreground hover:text-foreground",
+              ? "font-semibold text-ink-fixed"
+              : "font-medium text-ink-mid hover:text-ink",
           )}
         >
           {BANK_SOURCE_LABELS[source]}

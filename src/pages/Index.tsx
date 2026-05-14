@@ -183,7 +183,7 @@ const Index = () => {
                 <Trophy className="h-8 w-8 text-primary" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">100 Hard Math Questions</h3>
+                <h3 className="text-xl font-bold">100 Hard Math</h3>
                 <p className="text-sm text-muted-foreground">Curated challenging math problems</p>
               </div>
             </div>

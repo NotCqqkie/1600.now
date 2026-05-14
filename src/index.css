@@ -15,6 +15,11 @@ All colors MUST be HSL.
     --ink-mid: 74 88 110;       /* #4A586E — body paragraphs */
     --ink-muted: 124 138 160;   /* #7C8AA0 — captions, helpers */
     --ink-muted-dim: 156 167 184;
+    /* Theme-fixed inks — used as text colour on always-light fills (the accent
+       button, the toast's ink fill, the sidebar active state). These do NOT
+       flip in dark mode because the surface they sit on doesn't either. */
+    --ink-fixed: 14 33 56;          /* always #0E2138 */
+    --ink-fixed-on-light: 14 33 56; /* alias for clarity at call sites */
     --ds-accent: 155 215 244;       /* #9BD7F4 — light cyan (button fills) */
     --ds-accent-deep: 106 180 224;  /* #6AB4E0 — accent as text */
     --ds-good: 43 182 115;          /* #2BB673 — completed counts */
@@ -94,6 +99,10 @@ All colors MUST be HSL.
     --ink-mid: 178 192 212;
     --ink-muted: 128 144 168;
     --ink-muted-dim: 100 116 140;
+    /* Theme-fixed inks stay #0E2138 regardless of theme — they sit on
+       always-light fills (accent button, toast ink fill, sidebar active). */
+    --ink-fixed: 14 33 56;
+    --ink-fixed-on-light: 14 33 56;
     --ds-accent: 155 215 244;
     --ds-accent-deep: 138 198 232;
     --ds-good: 64 200 132;

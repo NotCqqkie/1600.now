@@ -28,7 +28,8 @@ const toastVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-ink text-white",
+        // Always-dark toast fill. ink-fixed doesn't flip in dark mode.
+        default: "bg-ink-fixed text-white",
         destructive: "destructive group bg-ds-bad text-white",
       },
     },
