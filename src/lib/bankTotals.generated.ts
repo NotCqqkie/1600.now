@@ -6,6 +6,12 @@ export const BANK_TOTAL_PAST_MATH = 1982;
 export const BANK_TOTAL_PAST_READING = 3626;
 export const BANK_TOTAL_PAST = 5608;
 
+export const BANK_TOTAL_UNOFFICIAL_MATH = 1755;
+export const BANK_TOTAL_UNOFFICIAL_READING = 1688;
+export const BANK_TOTAL_UNOFFICIAL = 3443;
+
+export const BANK_TOTAL_ALL = 9051;
+
 export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = {
   "Ratios, rates, proportional relationships, and units": 72,
   "Nonlinear functions": 142,

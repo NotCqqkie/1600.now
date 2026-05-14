@@ -969,6 +969,31 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
   ],
   "sample-statistics-margin-of-error": [
     {
+      "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
+      "difficulty": "Medium",
+      "testName": "June 2024 US Form C SAT Math Module 2",
+      "text": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be \\$3.28, with an associated margin of error of \\$0.06. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It is between \\$3.22 and \\$3.34."
+        },
+        {
+          "id": "B",
+          "text": "It is either less than \\$3.22 or greater than \\$3.34."
+        },
+        {
+          "id": "C",
+          "text": "It is less than \\$3.22."
+        },
+        {
+          "id": "D",
+          "text": "It is greater than \\$3.34."
+        }
+      ],
+      "correctAnswer": "A"
+    },
+    {
       "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_8",
       "difficulty": "Medium",
       "testName": "December 2024 US Form C SAT Math Module 1",
@@ -1017,31 +1042,6 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         }
       ],
       "correctAnswer": "B"
-    },
-    {
-      "id": "10c690aa-0aad-48ab-952b-855b2555b311_12",
-      "difficulty": "Medium",
-      "testName": "June 2024 US Form C SAT Math Module 2",
-      "text": "A market researcher collected data on the price of a hot dog at 59 locations selected at random in a state. The mean price of a hot dog in the state was estimated to be $\\$3.28$, with an associated margin of error of $\\$0.06$. Which of the following is a plausible statement about the mean price of a hot dog for all locations that sell this product in the state?",
-      "choices": [
-        {
-          "id": "A",
-          "text": "It is between $\\$3.22$ and $\\$3.34$."
-        },
-        {
-          "id": "B",
-          "text": "It is either less than $\\$3.22$ or greater than $\\$3.34$."
-        },
-        {
-          "id": "C",
-          "text": "It is less than $\\$3.22$."
-        },
-        {
-          "id": "D",
-          "text": "It is greater than $\\$3.34$."
-        }
-      ],
-      "correctAnswer": "A"
     }
   ],
   "evaluating-statistical-claims": [
