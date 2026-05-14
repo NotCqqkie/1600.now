@@ -21,7 +21,7 @@ const SAMPLES_PER_SKILL = 3;
 const MAX_TEXT_LEN_READING = 900; // reading passages skew long; keep cards readable
 const MAX_TEXT_LEN_MATH = 500;
 
-const skillsSrc = readFileSync(path.join(root, "src/lib/satSkillsData.ts"), "utf8");
+const skillsSrc = readFileSync(path.join(root, "src/lib/seo-data/satSkillsData.ts"), "utf8");
 
 const skillEntries = [];
 {

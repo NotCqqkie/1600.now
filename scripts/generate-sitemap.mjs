@@ -25,34 +25,34 @@ const mtimeIso = (rel) => {
   }
 };
 
-const MTIME_BLOG = mtimeIso("src/lib/blogData.ts");
-const MTIME_SKILLS = mtimeIso("src/lib/satSkillsData.ts");
-const MTIME_FAQ = mtimeIso("src/lib/satFaqData.ts");
-const MTIME_LANDING = mtimeIso("src/lib/landingVariants.ts");
-const MTIME_SCORES = mtimeIso("src/lib/satScoreData.ts");
-const MTIME_PILLARS = mtimeIso("src/lib/pillarData.ts");
-const MTIME_SCORE_GOALS = mtimeIso("src/lib/scoreGoalData.ts");
-const MTIME_TOOLS = mtimeIso("src/lib/satTools.ts");
-const MTIME_COUNTRY = mtimeIso("src/lib/countryHubData.ts");
+const MTIME_BLOG = mtimeIso("src/lib/seo-data/blogData.ts");
+const MTIME_SKILLS = mtimeIso("src/lib/seo-data/satSkillsData.ts");
+const MTIME_FAQ = mtimeIso("src/lib/seo-data/satFaqData.ts");
+const MTIME_LANDING = mtimeIso("src/lib/seo-data/landingVariants.ts");
+const MTIME_SCORES = mtimeIso("src/lib/seo-data/satScoreData.ts");
+const MTIME_PILLARS = mtimeIso("src/lib/seo-data/pillarData.ts");
+const MTIME_SCORE_GOALS = mtimeIso("src/lib/seo-data/scoreGoalData.ts");
+const MTIME_TOOLS = mtimeIso("src/lib/seo-data/satTools.ts");
+const MTIME_COUNTRY = mtimeIso("src/lib/seo-data/countryHubData.ts");
 const MTIME_COLLEGES = mtimeIso("src/data/colleges.json");
 const MTIME_HOME = mtimeIso("src/pages/Home.tsx");
 const MTIME_SCORE_CALC = mtimeIso("src/pages/ScoreCalculator.tsx");
-const MTIME_MODULES = mtimeIso("src/pages/Modules.tsx");
-const MTIME_BANK = mtimeIso("src/pages/BankIndex.tsx");
+const MTIME_MODULES = mtimeIso("src/pages/modules/Modules.tsx");
+const MTIME_BANK = mtimeIso("src/pages/bank/BankIndex.tsx");
 const MTIME_VOCAB = mtimeIso("src/pages/Vocab.tsx");
-const MTIME_VOCAB_INDEX = mtimeIso("src/pages/SatVocabularyIndex.tsx");
+const MTIME_VOCAB_INDEX = mtimeIso("src/pages/sat-info/SatVocabularyIndex.tsx");
 const MTIME_ANALYSIS = mtimeIso("src/pages/Analysis.tsx");
-const MTIME_HARD = mtimeIso("src/pages/HardQuestionsIntro.tsx");
-const MTIME_PRIVACY = mtimeIso("src/pages/PrivacyPolicy.tsx");
-const MTIME_TERMS = mtimeIso("src/pages/TermsOfService.tsx");
+const MTIME_HARD = mtimeIso("src/pages/bank/HardQuestionsIntro.tsx");
+const MTIME_PRIVACY = mtimeIso("src/pages/legal/PrivacyPolicy.tsx");
+const MTIME_TERMS = mtimeIso("src/pages/legal/TermsOfService.tsx");
 const MTIME_BROWSE = mtimeIso("src/pages/Index.tsx");
 
 // ---- Slug extraction ------------------------------------------------------
 
-const skillSrc = read("src/lib/satSkillsData.ts");
+const skillSrc = read("src/lib/seo-data/satSkillsData.ts");
 const skillSlugs = [...skillSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
-const blogSrc = read("src/lib/blogData.ts");
+const blogSrc = read("src/lib/seo-data/blogData.ts");
 const blogSlugs = [...blogSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
 // Map blog slug → datePublished by pairing consecutive slug/date matches.
@@ -63,29 +63,29 @@ const blogDateBySlug = (() => {
   return out;
 })();
 
-const landingSrc = read("src/lib/landingVariants.ts");
+const landingSrc = read("src/lib/seo-data/landingVariants.ts");
 const landingSlugs = [...landingSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
-const satFaqSrc = read("src/lib/satFaqData.ts");
+const satFaqSrc = read("src/lib/seo-data/satFaqData.ts");
 const satFaqSlugs = [...satFaqSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
-const pillarSrc = read("src/lib/pillarData.ts");
+const pillarSrc = read("src/lib/seo-data/pillarData.ts");
 const pillarSlugs = [...pillarSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
-const scoreGoalSrc = read("src/lib/scoreGoalData.ts");
+const scoreGoalSrc = read("src/lib/seo-data/scoreGoalData.ts");
 const scoreGoalHardcoded = [...scoreGoalSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 const scoreGoalDynamic = [1000, 1100, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600].map(
   (n) => `how-to-get-${n}-sat`,
 );
 const scoreGoalSlugs = [...scoreGoalDynamic, ...scoreGoalHardcoded.filter((s) => !s.startsWith("how-to-get-"))];
 
-const toolSrc = read("src/lib/satTools.ts");
+const toolSrc = read("src/lib/seo-data/satTools.ts");
 const toolSlugs = [...toolSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
 const collegesData = JSON.parse(read("src/data/colleges.json"));
 const collegeSlugs = collegesData.map((c) => c.slug);
 
-const countrySrc = read("src/lib/countryHubData.ts");
+const countrySrc = read("src/lib/seo-data/countryHubData.ts");
 const countryHubSlugs = [...countrySrc.matchAll(/hubSlug:\s*"([^"]+)"/g)].map(
   (m) => m[1],
 );
