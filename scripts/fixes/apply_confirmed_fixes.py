@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path("/Users/lukefinigan/Documents/1600-prep-hub")
 SRC  = ROOT / "src/data/unofficialQuestions.ts"
-CONFIRMED = ROOT / "scripts/fix_proposals/actionable_confirmed.json"
+CONFIRMED = ROOT / "scripts/_data/fix_proposals/actionable_confirmed.json"
 
 raw = SRC.read_text()
 header_end = raw.index("= [") + 2

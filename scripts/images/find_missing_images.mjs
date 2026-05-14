@@ -1,7 +1,7 @@
 // Identify questions that REFERENCE a visual (table/figure/graph/chart/diagram/shown above/below)
 // but have no image attached via any known source.
 //
-// Output: scripts/missing_image_suspects.json — worker plan for image lookup/attach.
+// Output: scripts/_data/missing_image_suspects.json — worker plan for image lookup/attach.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -65,6 +65,6 @@ const all = [
   ...suspects('reading_past', readingPast),
 ];
 
-fs.writeFileSync(path.join(repo, 'scripts/missing_image_suspects.json'), JSON.stringify(all, null, 2));
+fs.writeFileSync(path.join(repo, 'scripts/_data/missing_image_suspects.json'), JSON.stringify(all, null, 2));
 console.log(`Total suspects: ${all.length}`);
-console.log(`Wrote scripts/missing_image_suspects.json`);
+console.log(`Wrote scripts/_data/missing_image_suspects.json`);

@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path("/Users/lukefinigan/Documents/1600-prep-hub")
 SRC  = ROOT / "src/data/unofficialQuestions.ts"
-OUT  = ROOT / "scripts/review_batches"
+OUT  = ROOT / "scripts/_data/review_batches"
 OUT.mkdir(exist_ok=True)
 
 BATCH_SIZE = 75

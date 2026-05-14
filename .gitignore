@@ -30,7 +30,7 @@ dist-ssr
 .aider*
 __pycache__/
 *.pyc
-scripts/reports/
+scripts/_data/reports/
 scripts/**/*.log
 scripts/**/*_checkpoint.json
 scripts/**/*_log.json
