@@ -2474,13 +2474,14 @@ const Home = () => {
 
           {/* Counter */}
           <div className="h-fade-5 home-counter" style={{ marginBottom: 88 }}>
-            {/* Hero stat — Inter Tight 700, clamp 64-132px, tabular nums, comma-grouped. */}
+            {/* Hero stat — Inter Tight 600, design's "stat-xl" scale (72px peak,
+                line-height 0.95, tracking -4%). Tabular nums, comma-grouped. */}
             <div
               className="home-count-num"
               style={{
-              fontSize: "clamp(64px, 8.6vw, 132px)",
+              fontSize: "clamp(44px, 5.2vw, 72px)",
               fontFamily: "'Inter Tight', sans-serif",
-              fontWeight: 700,
+              fontWeight: 600,
               color: "rgb(var(--ink))",
               letterSpacing: "-0.04em",
               lineHeight: 0.95,
