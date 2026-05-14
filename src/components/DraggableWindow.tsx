@@ -276,23 +276,24 @@ export const DraggableWindow = ({
     return () => window.clearTimeout(timeoutId);
   }, [isOpen, isReady, isSidebarred, position, size, isMinimized, writePersistedState]);
 
-  // Handle split divider resizing (mouse + touch)
+  // Handle split divider resizing (mouse + touch).
+  // Layout follows the `--sat-split-pct` CSS variable, so we update that on
+  // every move for instant visual feedback. The React state commit is
+  // deferred to drag-end so the heavy parent doesn't re-render mid-drag.
   useEffect(() => {
     if (!isSidebarred || !isResizingSplit) return;
 
     document.body.classList.add("noselect");
+    let latestRoundedPosition: number | null = null;
 
     const updateFromClientX = (clientX: number) => {
       const newPosition = (clientX / window.innerWidth) * 100;
       // Allow the left pane to shrink further so the sidebar can grow up to ~65% of the screen
       const clampedPosition = Math.max(35, Math.min(70, newPosition));
       const roundedPosition = Math.round(clampedPosition * 4) / 4;
-      if (onSplitPositionChange) {
-        if (lastSplitPositionRef.current !== roundedPosition) {
-          lastSplitPositionRef.current = roundedPosition;
-          onSplitPositionChange(roundedPosition);
-        }
-      }
+      if (latestRoundedPosition === roundedPosition) return;
+      latestRoundedPosition = roundedPosition;
+      document.documentElement.style.setProperty("--sat-split-pct", `${roundedPosition}%`);
     };
 
     const handleMouseMove = (e: MouseEvent) => updateFromClientX(e.clientX);
@@ -304,8 +305,11 @@ export const DraggableWindow = ({
 
     const stop = () => {
       setIsResizingSplit(false);
-      lastSplitPositionRef.current = null;
       document.body.classList.remove("noselect");
+      if (latestRoundedPosition !== null && onSplitPositionChange) {
+        onSplitPositionChange(latestRoundedPosition);
+      }
+      lastSplitPositionRef.current = null;
     };
 
     document.addEventListener('mousemove', handleMouseMove);
@@ -577,16 +581,28 @@ export const DraggableWindow = ({
 
   if (!isOpen && !keepMountedWhenClosed) return null;
 
-  // Hide window until position is calculated to prevent flash
-  const windowStyle: React.CSSProperties = {
-    left: isMaximized ? 0 : position.x,
-    top: isMaximized ? 0 : position.y,
-    width: isMaximized ? '100vw' : size.width,
-    height: isMaximized ? '100vh' : (isMinimized ? '56px' : size.height),
-    zIndex: isMaximized ? 100 : zIndex, // Ensure maximized window is on top
-    visibility: (isReady || isSidebarred || isMaximized) ? 'visible' : 'hidden',
-    display: isOpen ? undefined : 'none',
-  };
+  // Hide window until position is calculated to prevent flash.
+  // When sidebarred, drive layout from the --sat-split-pct CSS variable so
+  // dragging the split divider repaints instantly without a React render.
+  const windowStyle: React.CSSProperties = isSidebarred && !isMaximized
+    ? {
+        left: "var(--sat-split-pct, 70%)",
+        top: 0,
+        width: "calc(100vw - var(--sat-split-pct, 70%))",
+        height: "100vh",
+        zIndex,
+        visibility: "visible",
+        display: isOpen ? undefined : "none",
+      }
+    : {
+        left: isMaximized ? 0 : position.x,
+        top: isMaximized ? 0 : position.y,
+        width: isMaximized ? '100vw' : size.width,
+        height: isMaximized ? '100vh' : (isMinimized ? '56px' : size.height),
+        zIndex: isMaximized ? 100 : zIndex, // Ensure maximized window is on top
+        visibility: (isReady || isMaximized) ? 'visible' : 'hidden',
+        display: isOpen ? undefined : 'none',
+      };
 
   const resizeHandleClass = "absolute bg-transparent hover:bg-primary/20 transition-colors z-10";
 
@@ -606,7 +622,7 @@ export const DraggableWindow = ({
         <div
           className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
           style={{
-            left: `calc(${splitPosition}% - 8px)`,
+            left: `calc(var(--sat-split-pct, ${splitPosition}%) - 8px)`,
             zIndex: zIndex + 10 // Always above this window
           }}
           onMouseDown={() => {

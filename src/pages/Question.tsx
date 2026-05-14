@@ -1177,11 +1177,14 @@ function Question() {
   useEffect(() => {
     if (isSplitScreenActive) {
       document.documentElement.style.setProperty('--modal-center-x', `${splitPosition / 2}%`);
+      document.documentElement.style.setProperty('--sat-split-pct', `${splitPosition}%`);
     } else {
       document.documentElement.style.removeProperty('--modal-center-x');
+      document.documentElement.style.removeProperty('--sat-split-pct');
     }
     return () => {
       document.documentElement.style.removeProperty('--modal-center-x');
+      document.documentElement.style.removeProperty('--sat-split-pct');
     };
   }, [isSplitScreenActive, splitPosition]);
 
@@ -2263,9 +2266,9 @@ function Question() {
         constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
       />
       <header className="border-b border-border bg-card sticky top-0 z-10">
-        <div 
+        <div
           className="container mx-auto px-4 py-4"
-          style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : undefined}
+          style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : undefined}
         >
           <div className="relative flex items-center justify-between gap-1 sm:gap-3" ref={topNavRef}>
             <div ref={topLeftRef} data-header-left className="flex-shrink-0">
@@ -2472,9 +2475,9 @@ function Question() {
         </div>
       </header>
 
-      <main 
+      <main
         className={`flex-1 pb-28 ${questionViewMode === 'horizontal' ? 'px-8 py-6' : 'px-4 py-8'}`}
-        style={isSplitScreenActive ? { maxWidth: `${splitPosition}%`, marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
+        style={isSplitScreenActive ? { maxWidth: "var(--sat-split-pct, 70%)", marginLeft: 0 } : questionViewMode === 'horizontal' ? { width: "100%" } : { maxWidth: "1280px", margin: "0 auto", width: "100%" }}
       >
         <div 
           className={`relative ${questionViewMode === 'horizontal' ? 'p-6' : 'p-4 sm:p-6 md:p-8'}`}
@@ -2667,10 +2670,10 @@ function Question() {
         </div>
       </main>
 
-      <div 
+      <div
         ref={bottomNavRef}
         className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
-        style={isSplitScreenActive ? { width: `${splitPosition}%` } : undefined}
+        style={isSplitScreenActive ? { width: "var(--sat-split-pct, 70%)" } : undefined}
       >
         <div className="container mx-auto px-4 py-3">
           <div ref={bottomNavGridRef} className="relative grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2">

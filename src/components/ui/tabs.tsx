@@ -12,7 +12,8 @@ const TabsList = React.forwardRef<
   <TabsPrimitive.List
     ref={ref}
     className={cn(
-      "inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground",
+      // Tab strip — no background fill; the active tab carries the fill itself.
+      "inline-flex h-11 items-center justify-center gap-1 rounded-[10px] text-ink-mid",
       className,
     )}
     {...props}
@@ -27,7 +28,8 @@ const TabsTrigger = React.forwardRef<
   <TabsPrimitive.Trigger
     ref={ref}
     className={cn(
-      "inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+      // Off: Inter 500, 14px, ink-mid. On: 600, ink on white card with tiny shadow.
+      "inline-flex items-center justify-center whitespace-nowrap rounded-[8px] px-[18px] py-[10px] font-sans text-[14px] font-medium text-ink-mid ring-offset-background transition-all data-[state=active]:bg-white data-[state=active]:font-semibold data-[state=active]:text-ink data-[state=active]:shadow-[0_1px_2px_rgba(14,33,56,0.06),0_0_0_1px_rgb(var(--ds-line-soft)/0.08)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ds-accent focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:data-[state=active]:bg-card",
       className,
     )}
     {...props}

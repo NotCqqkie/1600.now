@@ -83,20 +83,24 @@ const SidebarLink = ({
       title={label}
       data-tour={tourId}
       className={cn(
-        "flex h-9 items-center overflow-hidden rounded-lg text-[13px] font-medium transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
-        showLabel ? "w-full pr-2" : "w-9 pr-0",
+        // Inter 14px, tracking -0.5%. Default: 500 ink-mid. Active: 600 white on ink.
+        "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[14px] tracking-[-0.005em] transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
+        showLabel ? "w-full pr-3" : "w-10 pr-0",
         active
-          ? "bg-foreground text-background shadow-sm"
-          : "text-muted-foreground hover:bg-muted hover:text-foreground",
+          ? "bg-ink font-semibold text-white shadow-sm"
+          : "font-medium text-ink-mid hover:bg-ds-accent/25 hover:text-ink",
       )}
     >
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center">
+      <span className={cn(
+        "flex h-10 w-10 shrink-0 items-center justify-center transition-opacity",
+        active ? "opacity-100" : "opacity-70",
+      )}>
         <Icon className="h-4 w-4 shrink-0" />
       </span>
       <span
         className={cn(
           "min-w-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform,margin] duration-200 ease-out",
-          showLabel ? "ml-0.5 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
+          showLabel ? "ml-0 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
         )}
       >
         {label}
@@ -132,21 +136,22 @@ const FooterActionButton = ({
       title={title ?? label}
       data-tour={tourId}
       className={cn(
-        "flex h-9 items-center overflow-hidden rounded-lg text-[13px] font-medium transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
-        expanded ? "w-full pr-2" : "w-9 pr-0",
+        // Footer buttons — Inter 500, 13px, ink.
+        "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[13px] font-medium text-ink transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
+        expanded ? "w-full pr-3" : "w-10 pr-0",
         variant === "outline"
-          ? "border border-border/70 text-muted-foreground hover:bg-muted hover:text-foreground"
-          : "text-muted-foreground hover:bg-muted hover:text-foreground",
+          ? "border border-ds-line hover:bg-ds-accent/25"
+          : "hover:bg-ds-accent/25",
         className,
       )}
     >
-      <span className="flex h-9 w-9 shrink-0 items-center justify-center">
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center">
         <Icon className="h-4 w-4 shrink-0" />
       </span>
       <span
         className={cn(
           "min-w-0 overflow-hidden whitespace-nowrap transition-[max-width,opacity,transform,margin] duration-200 ease-out",
-          expanded ? "ml-0.5 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
+          expanded ? "ml-0 max-w-[10rem] opacity-100 translate-x-0" : "ml-0 max-w-0 opacity-0 -translate-x-1",
         )}
       >
         {label}
@@ -266,9 +271,10 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
             ))}
           </div>
 
-          <div className="mt-4 px-2.5">
+          <div className="mt-5 px-3">
             {showExpandedContent ? (
-              <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+              // ACCOUNT divider — Inter 600, 11px, +14% tracking, uppercase, muted.
+              <div className="ds-caption">
                 Account
               </div>
             ) : (
@@ -338,7 +344,8 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
                   icon={UserPlus}
                   expanded={showExpandedContent}
                   onClick={() => navigate("/signup")}
-                  className="bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 hover:text-primary-foreground"
+                  // Sign Up — Inter 600, 13px, ink on accent fill.
+                  className="!bg-ds-accent !font-semibold !text-ink shadow-sm hover:!bg-ds-accent/85 hover:!text-ink"
                 />
               </>
             )}

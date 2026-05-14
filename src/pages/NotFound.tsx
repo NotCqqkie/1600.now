@@ -10,39 +10,34 @@ const NotFound = () => {
       </div>
 
       <div className="text-center max-w-sm">
+        {/* Big 404 — Inter Tight 700, tabular nums (consistent with display numbers). */}
         <div
           style={{
-            fontFamily: "'Space Mono', monospace",
+            fontFamily: "'Inter Tight', sans-serif",
             fontSize: "clamp(80px, 16vw, 128px)",
             fontWeight: 700,
+            fontVariantNumeric: "tabular-nums",
             lineHeight: 1,
-            color: "hsl(var(--primary))",
-            letterSpacing: "-0.04em",
+            color: "rgb(var(--ds-accent-deep))",
+            letterSpacing: "-0.045em",
             marginBottom: 16,
           }}
         >
           404
         </div>
 
-        <h1
-          style={{
-            fontFamily: "'Geist', Georgia, serif",
-            fontSize: "clamp(22px, 3vw, 28px)",
-            fontWeight: 400,
-            letterSpacing: "-0.02em",
-            color: "hsl(var(--foreground))",
-            marginBottom: 10,
-          }}
-        >
+        {/* Empty headline — Inter Tight 600, ink. 3-4 words, direct. */}
+        <h1 className="font-display text-[22px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink mb-3">
           Page not found
         </h1>
-        <p className="text-sm text-muted-foreground mb-8" style={{ lineHeight: 1.65 }}>
+        {/* Empty helper — Inter 400, 13px, ink-mid. */}
+        <p className="font-sans text-[13px] leading-[1.55] text-ink-mid mb-8">
           This page doesn't exist — maybe the URL changed or you followed an old link.
         </p>
 
         <Link
           to="/"
-          className="inline-flex items-center gap-2 text-sm font-medium text-foreground underline-offset-4 hover:underline cursor-pointer"
+          className="inline-flex items-center gap-2 font-sans text-[14px] font-semibold text-accent-deep hover:opacity-80 cursor-pointer"
         >
           <ArrowLeft className="h-4 w-4" />
           Back to home

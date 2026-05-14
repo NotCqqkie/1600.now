@@ -107,22 +107,24 @@ const Signup = () => {
           <BrandLogo variant="mark" className="h-9 w-9" />
 
           <div className="flex-1 flex flex-col justify-center max-w-md">
+            {/* Left-panel headline — Inter Tight 600, similar to display-md but smaller. */}
             <h1
-              className="text-foreground"
               style={{
-                fontFamily: "'Geist', Georgia, serif",
+                fontFamily: "'Inter Tight', sans-serif",
                 fontSize: "clamp(36px, 3.4vw, 50px)",
+                fontWeight: 600,
                 lineHeight: 1.0,
                 marginBottom: 16,
                 letterSpacing: "-0.025em",
+                color: "rgb(var(--ink))",
               }}
             >
               Start your{" "}
-              <em className="text-primary" style={{ fontStyle: "italic" }}>
+              <span style={{ fontFamily: "'Instrument Serif', Georgia, serif", fontStyle: "italic", fontWeight: 400, color: "rgb(var(--ds-accent-deep))" }}>
                 free account.
-              </em>
+              </span>
             </h1>
-            <p className="text-muted-foreground text-[14px] leading-relaxed mb-7 max-w-sm">
+            <p className="font-sans text-[14px] leading-[1.5] text-ink-mid mb-7 max-w-sm">
               Unlock progress tracking, question history, vocab review, and full-length practice tests — all free.
             </p>
 
@@ -144,18 +146,13 @@ const Signup = () => {
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-10 bg-background">
         <div className="w-full max-w-sm">
           <div className="mb-8">
-            <h2
-              style={{
-                fontFamily: "'Geist', Georgia, serif",
-                fontSize: 32,
-                fontWeight: 400,
-                letterSpacing: "-0.02em",
-                color: "hsl(var(--foreground))",
-                marginBottom: 6,
-              }}
-            >
+            {/* Auth title — Inter Tight 600, 30px. */}
+            <h2 className="font-display text-[30px] font-semibold leading-[1.1] tracking-[-0.025em] text-ink">
               Create account
             </h2>
+            <p className="mt-2 font-sans text-[14px] leading-[1.5] text-ink-mid">
+              Free, no card required.
+            </p>
           </div>
 
           <div className="space-y-4">
@@ -198,16 +195,20 @@ const Signup = () => {
               </div>
               <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading}>
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                Create Account
+                Create account
               </Button>
             </form>
           </div>
 
-          <p className="mt-6 text-center text-sm text-muted-foreground">
+          <p className="mt-6 text-center font-sans text-[13px] text-ink-mid">
             Already have an account?{" "}
-            <Link to="/login" className="font-medium text-foreground underline-offset-4 hover:underline">
-              Sign in
+            <Link to="/login" className="font-semibold text-accent-deep hover:opacity-80">
+              Log in
             </Link>
+          </p>
+          {/* Legal footer — JetBrains Mono 500, 11px, muted-dim. Mono signals "system / legal". */}
+          <p className="mt-6 text-center font-mono text-[11px] font-medium tracking-[0.02em] text-ink-muted-dim">
+            By signing up, you agree to our terms.
           </p>
         </div>
       </div>

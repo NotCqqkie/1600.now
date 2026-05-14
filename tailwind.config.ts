@@ -15,12 +15,50 @@ export default {
     },
     extend: {
       fontFamily: {
+        // Design-system roles. `sans` is Inter (body workhorse), `display` is
+        // Inter Tight (headings + big numbers), `num` is Inter Tight with
+        // tabular-nums for counts/scores/time, `mono` is JetBrains Mono
+        // (metadata/IDs only), `serif-italic` is Instrument Serif Italic
+        // (used exactly once — the home hero "best score.").
         'minion': ['"Minion Pro"', '"Source Serif 4"', 'Georgia', 'serif'],
-        sans: ['Geist', 'system-ui', 'sans-serif'],
-        num:  ['"Inter Tight"', 'sans-serif'],
-        mono: ['"Geist Mono"', 'ui-monospace', 'monospace'],
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['"Inter Tight"', 'Inter', 'sans-serif'],
+        num:  ['"Inter Tight"', 'Inter', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', '"SF Mono"', 'Menlo', 'monospace'],
+        'serif-italic': ['"Instrument Serif"', 'Georgia', 'serif'],
       },
       fontSize: {
+        // Display sizes — Inter Tight, tight tracking, near-1.0 line-height.
+        'display-xl':   ['clamp(48px, 7.4vw, 108px)', { lineHeight: '0.98', letterSpacing: '-0.04em',  fontWeight: '600' }],
+        'display-lg':   ['clamp(40px, 5.6vw, 84px)',  { lineHeight: '0.98', letterSpacing: '-0.04em',  fontWeight: '600' }],
+        'display-md':   ['clamp(36px, 4.4vw, 54px)',  { lineHeight: '1.0',  letterSpacing: '-0.035em', fontWeight: '600' }],
+        'display-sm':   ['clamp(32px, 3.8vw, 42px)',  { lineHeight: '1.0',  letterSpacing: '-0.03em',  fontWeight: '600' }],
+        'display-xs':   ['30px', { lineHeight: '1.1',  letterSpacing: '-0.025em', fontWeight: '600' }],
+
+        // Headings (column titles, modal titles, card titles).
+        'h-section':    ['52px', { lineHeight: '1.05', letterSpacing: '-0.035em', fontWeight: '600' }],
+        'h-column':     ['22px', { lineHeight: '1.1',  letterSpacing: '-0.015em', fontWeight: '600' }],
+        'h-domain':     ['17px', { lineHeight: '1.3',  letterSpacing: '-0.01em',  fontWeight: '600' }],
+        'h-card':       ['24px', { lineHeight: '1.1',  letterSpacing: '-0.02em',  fontWeight: '600' }],
+
+        // Number-only scales (consumers must add font-num + tabular-nums).
+        'num-hero':     ['clamp(64px, 8.6vw, 132px)', { lineHeight: '0.95', letterSpacing: '-0.04em',  fontWeight: '700' }],
+        'num-score':    ['96px', { lineHeight: '0.95', letterSpacing: '-0.045em', fontWeight: '700' }],
+        'num-flash':    ['120px',{ lineHeight: '1.0',  letterSpacing: '-0.035em', fontWeight: '500' }],
+        'num-input':    ['36px', { lineHeight: '1.0',  letterSpacing: '-0.025em', fontWeight: '600' }],
+        'num-progress': ['30px', { lineHeight: '1.0',  letterSpacing: '-0.02em',  fontWeight: '600' }],
+
+        // Body / UI scales.
+        'body-lg':    ['18px', { lineHeight: '1.55', fontWeight: '400' }],
+        'body':       ['16px', { lineHeight: '1.5',  fontWeight: '400' }],
+        'body-sm':    ['14px', { lineHeight: '1.5',  fontWeight: '400' }],
+        'ui':         ['14px', { lineHeight: '1.0',  letterSpacing: '-0.005em' }],
+        'ui-sm':      ['13px', { lineHeight: '1.4',  letterSpacing: '-0.005em' }],
+        'meta':       ['12px', { lineHeight: '1.3' }],
+        'eyebrow':    ['11px', { lineHeight: '1',    letterSpacing: '0.14em' }],
+        'kbd':        ['10px', { lineHeight: '1',    letterSpacing: '0.04em' }],
+
+        // Back-compat aliases — older code references these.
         'hero':    ['clamp(44px, 6.2vw, 84px)', { lineHeight: '0.98', letterSpacing: '-0.035em', fontWeight: '500' }],
         'lede':    ['19px', { lineHeight: '1.55', fontWeight: '300' }],
         'h2':      ['30px', { lineHeight: '1',    letterSpacing: '-0.02em',  fontWeight: '500' }],
@@ -29,14 +67,33 @@ export default {
         'stat-xl': ['72px', { lineHeight: '0.95', letterSpacing: '-0.04em',  fontWeight: '600' }],
         'stat-lg': ['34px', { lineHeight: '1',    letterSpacing: '-0.025em', fontWeight: '600' }],
         'stat':    ['15px', { lineHeight: '1',    letterSpacing: '-0.01em',  fontWeight: '600' }],
-        'body':    ['16px', { lineHeight: '1.6' }],
-        'ui':      ['14px', { lineHeight: '1' }],
-        'ui-sm':   ['13px', { lineHeight: '1.5' }],
-        'meta':    ['12px', { lineHeight: '1' }],
-        'eyebrow': ['11px', { lineHeight: '1', letterSpacing: '0.12em' }],
-        'kbd':     ['10px', { lineHeight: '1', letterSpacing: '0.04em' }],
       },
       colors: {
+        // ── Design system ink palette ──────────────────────────
+        // Wrapped in rgb(var(--token) / <alpha-value>) so consumers can
+        // do `text-ink/70` or `bg-ds-good/12` for tints.
+        ink: {
+          DEFAULT: "rgb(var(--ink) / <alpha-value>)",
+          mid: "rgb(var(--ink-mid) / <alpha-value>)",
+          muted: "rgb(var(--ink-muted) / <alpha-value>)",
+          "muted-dim": "rgb(var(--ink-muted-dim) / <alpha-value>)",
+        },
+        ds: {
+          accent: "rgb(var(--ds-accent) / <alpha-value>)",
+          "accent-deep": "rgb(var(--ds-accent-deep) / <alpha-value>)",
+          good: "rgb(var(--ds-good) / <alpha-value>)",
+          "good-tint": "rgb(var(--ds-good-tint) / 0.12)",
+          bad: "rgb(var(--ds-bad) / <alpha-value>)",
+          "bad-tint": "rgb(var(--ds-bad) / 0.12)",
+          "line-soft": "rgb(var(--ds-line-soft) / 0.08)",
+          line: "rgb(var(--ds-line-soft) / 0.10)",
+        },
+        cobalt: {
+          DEFAULT: "rgb(var(--cobalt) / <alpha-value>)",
+          deep: "rgb(var(--cobalt-deep) / <alpha-value>)",
+          ink: "rgb(var(--cobalt-ink) / <alpha-value>)",
+        },
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

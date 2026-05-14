@@ -143,7 +143,7 @@ const ScoreCalculator = () => {
   );
 
   return (
-    <div className="min-h-screen" style={{ fontFamily: "'Geist', sans-serif", backgroundColor: themeColors.pageBg }}>
+    <div className="min-h-screen" style={{ fontFamily: "'Inter', sans-serif", backgroundColor: themeColors.pageBg }}>
       <main style={{ maxWidth: 1100, margin: "0 auto", padding: isPhone ? "20px 12px 56px" : "32px 24px 80px" }}>
         {/* Side-by-side: sliders left, score info right — both stretch to equal height */}
         <div style={{ display: "flex", flexDirection: isPhone ? "column" : "row", gap: isPhone ? 18 : 28, alignItems: "stretch" }}>
@@ -259,15 +259,18 @@ const SubjectPanel = ({
             flexShrink: 0,
           }}
         />
+        {/* Input row label — Inter Tight 600, 15px, leading 1.4, ink. */}
         <h2
           style={{
+            fontFamily: "'Inter Tight', sans-serif",
             fontSize: 15,
             fontWeight: 600,
-            color: themeColors.textColor,
+            lineHeight: 1.4,
+            color: "rgb(var(--ink))",
             margin: 0,
           }}
         >
-          {label}
+          {label} raw
         </h2>
       </div>
 
@@ -298,24 +301,32 @@ const SubjectPanel = ({
               >
                 <p
                   style={{
+                    fontFamily: "'Inter', sans-serif",
                     fontSize: 13,
                     fontWeight: 600,
-                    color: themeColors.textColor,
+                    color: "rgb(var(--ink))",
                     margin: 0,
                   }}
                 >
                   {section.title}
                 </p>
+                {/* Raw score — Inter Tight 600, 36px, tabular nums. Big numeric input feel. */}
                 <span
                   style={{
-                    fontFamily: "'Space Mono', monospace",
-                    fontSize: 20,
-                    fontWeight: 700,
-                    color: themeColors.textColor,
+                    fontFamily: "'Inter Tight', sans-serif",
+                    fontSize: 36,
+                    fontWeight: 600,
+                    fontVariantNumeric: "tabular-nums",
+                    letterSpacing: "-0.025em",
+                    lineHeight: 1,
+                    color: "rgb(var(--ink))",
                     flexShrink: 0,
                   }}
                 >
-                  {value}/{section.maxRaw}
+                  {value}
+                  <span style={{ fontSize: 13, fontWeight: 400, fontFamily: "'Inter', sans-serif", color: "rgb(var(--ink-muted))", marginLeft: 6 }}>
+                    out of {section.maxRaw}
+                  </span>
                 </span>
               </div>
 
@@ -422,18 +433,19 @@ const ScoreSummaryCard = ({
             }}
           >
             <div>
+              {/* Final score — Inter Tight 700, 96px clamp, tabular nums. The second-biggest number in the product. */}
               <div
                 className="score-number"
                 style={
                   {
                     fontFamily: "'Inter Tight', sans-serif",
-                    fontWeight: 800,
-                    letterSpacing: "-0.04em",
+                    fontWeight: 700,
+                    letterSpacing: "-0.045em",
                     fontVariantNumeric: "tabular-nums",
-                    fontSize: 56,
-                    lineHeight: 0.9,
+                    fontSize: "clamp(48px, 7vw, 96px)",
+                    lineHeight: 0.95,
                     color: scores.totalColor,
-                    marginBottom: 6,
+                    marginBottom: 10,
                     transition: SCORE_TRANSITION,
                     "--score-glow": `${scores.totalColor}55`,
                   } as CSSProperties
@@ -441,16 +453,19 @@ const ScoreSummaryCard = ({
               >
                 {scores.total}
               </div>
+              {/* Caption — Inter 600, 11px, +22% tracking (wide because the number above is giant). */}
               <div
                 style={{
-                  fontSize: 10,
-                  color: themeColors.mutedText,
+                  fontFamily: "'Inter', sans-serif",
+                  fontSize: 11,
+                  color: "rgb(var(--ink-muted))",
                   textTransform: "uppercase",
-                  letterSpacing: "0.12em",
-                  fontWeight: 700,
+                  letterSpacing: "0.22em",
+                  fontWeight: 600,
+                  lineHeight: 1,
                 }}
               >
-                out of 1600
+                Predicted SAT
               </div>
             </div>
           </div>
@@ -476,7 +491,7 @@ const ScoreSummaryCard = ({
               border: `1px solid ${themeColors.borderColor}`,
             }}
           >
-            <span style={{ fontSize: 13, fontWeight: 600, color: themeColors.textColor }}>
+            <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 13, fontWeight: 600, color: "rgb(var(--ink))" }}>
               {item.label}
             </span>
             <span
@@ -485,8 +500,8 @@ const ScoreSummaryCard = ({
                 fontVariantNumeric: "tabular-nums",
                 letterSpacing: "-0.02em",
                 fontSize: 22,
-                fontWeight: 800,
-                color: themeColors.textColor,
+                fontWeight: 700,
+                color: "rgb(var(--ink))",
                 flexShrink: 0,
               }}
             >
@@ -509,15 +524,17 @@ const ScoreSummaryCard = ({
                 gap: 8,
               }}
             >
-              <span style={{ fontSize: 12, color: themeColors.mutedText, fontWeight: 600 }}>
+              <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 12, color: "rgb(var(--ink-mid))", fontWeight: 500 }}>
                 {module.title}
               </span>
+              {/* Module raw counts — Inter Tight tabular nums. */}
               <span
                 style={{
-                  fontFamily: "'Space Mono', monospace",
+                  fontFamily: "'Inter Tight', sans-serif",
+                  fontVariantNumeric: "tabular-nums",
                   fontSize: 11,
-                  color: themeColors.textColor,
-                  fontWeight: 700,
+                  color: "rgb(var(--ink))",
+                  fontWeight: 600,
                   flexShrink: 0,
                 }}
               >

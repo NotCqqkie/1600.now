@@ -8,6 +8,26 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* ── Design system ink palette ─────────────────────────────
+       Named tokens used by the typography spec. Raw RGB values so
+       they're usable both via Tailwind (`text-ink`) and direct CSS. */
+    --ink: 14 33 56;            /* #0E2138 — headings + primary text */
+    --ink-mid: 74 88 110;       /* #4A586E — body paragraphs */
+    --ink-muted: 124 138 160;   /* #7C8AA0 — captions, helpers */
+    --ink-muted-dim: 156 167 184;
+    --ds-accent: 155 215 244;       /* #9BD7F4 — light cyan (button fills) */
+    --ds-accent-deep: 106 180 224;  /* #6AB4E0 — accent as text */
+    --ds-good: 43 182 115;          /* #2BB673 — completed counts */
+    --ds-good-tint: 43 182 115;     /* used with /0.12 etc. */
+    --ds-bad: 216 82 107;           /* #D8526B — errors */
+    --ds-line-soft: 14 33 56;       /* 8% alpha applied at use-site */
+
+    /* Cobalt ladder — interactive hover/press states for the sky-blue primary.
+       base #B4E1FF → hover #6BA7E8 → press #3A78D8 (white text on press). */
+    --cobalt: 107 167 232;          /* #6BA7E8 — hover */
+    --cobalt-deep: 58 120 216;      /* #3A78D8 — pressed / emphasis */
+    --cobalt-ink: 30 79 168;        /* #1E4FA8 — darkest readable for body links */
+
     --background: 210 40% 98%;
     --foreground: 217 33% 17%;
 
@@ -69,6 +89,23 @@ All colors MUST be HSL.
   }
 
   .dark {
+    /* Ink tokens recalibrated for the dark canvas — same role, inverted lightness. */
+    --ink: 232 240 252;          /* near-white headings */
+    --ink-mid: 178 192 212;
+    --ink-muted: 128 144 168;
+    --ink-muted-dim: 100 116 140;
+    --ds-accent: 155 215 244;
+    --ds-accent-deep: 138 198 232;
+    --ds-good: 64 200 132;
+    --ds-good-tint: 64 200 132;
+    --ds-bad: 232 110 130;
+    --ds-line-soft: 232 240 252;
+
+    /* Cobalt ladder — same hues in dark mode, the underlying tint reads on dark surfaces. */
+    --cobalt: 107 167 232;
+    --cobalt-deep: 58 120 216;
+    --cobalt-ink: 138 180 235;
+
     --background: 220 28% 22%;
     --foreground: 210 40% 98%;
 
@@ -174,19 +211,89 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Geist', system-ui, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    /* Tabular numerals on globally — every number sits on a fixed grid. */
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum', 'cv11';
+    color: rgb(var(--ink));
+  }
+
+  /* ── Typography roles ───────────────────────────────────────
+     Five fonts, each with one job:
+       Inter Tight        → headings, page titles, big numbers
+       Inter              → body, nav, buttons, labels
+       Inter Tight + tnum → counts, scores, percentages, time
+       JetBrains Mono     → metadata: captions, IDs, version numbers
+       Instrument Serif   → used ONCE, on the home hero accent
+  */
+  .font-display {
+    font-family: 'Inter Tight', 'Inter', sans-serif;
+  }
+  .font-body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  .font-num,
+  .tabular,
+  .num {
+    font-family: 'Inter Tight', 'Inter', sans-serif;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+  .font-mono,
+  .mono {
+    font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  }
+  .font-serif-italic {
+    font-family: 'Instrument Serif', Georgia, serif;
+    font-style: italic;
     font-weight: 400;
   }
 
-  .num,
-  .tabular {
-    font-family: 'Inter Tight', sans-serif;
-    font-variant-numeric: tabular-nums;
-    font-feature-settings: 'tnum', 'ss01';
-  }
+  /* Ink colour utilities (mapped from raw RGB triplets to Tailwind-style helpers). */
+  .text-ink         { color: rgb(var(--ink)); }
+  .text-ink-mid     { color: rgb(var(--ink-mid)); }
+  .text-ink-muted   { color: rgb(var(--ink-muted)); }
+  .text-ink-muted-dim { color: rgb(var(--ink-muted-dim)); }
+  .text-accent-deep { color: rgb(var(--ds-accent-deep)); }
+  .text-good        { color: rgb(var(--ds-good)); }
+  .text-bad         { color: rgb(var(--ds-bad)); }
 
-  .mono {
-    font-family: 'Geist Mono', ui-monospace, monospace;
+  .bg-accent-fill { background-color: rgb(var(--ds-accent)); }
+  .bg-ink-fill    { background-color: rgb(var(--ink)); }
+  .bg-good-tint   { background-color: rgb(var(--ds-good-tint) / 0.12); }
+  .bg-bad-tint    { background-color: rgb(var(--ds-bad) / 0.12); }
+
+  .border-line-soft { border-color: rgb(var(--ds-line-soft) / 0.08); }
+  .border-line      { border-color: rgb(var(--ds-line-soft) / 0.10); }
+
+  /* Caption — only place we tracked-uppercase. */
+  .ds-caption {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgb(var(--ink-muted));
+    line-height: 1;
+  }
+  .ds-caption-wide {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgb(var(--ink-muted));
+    line-height: 1;
+  }
+  .ds-caption-x-wide {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: rgb(var(--ink-muted));
+    line-height: 1;
   }
 
   /* Disable text selection during drag operations */

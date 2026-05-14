@@ -5,23 +5,41 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [-webkit-user-drag:none] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  // Inter, weight 600, sentence-case, radius 10px. Tabular-nums inherited from body.
+  "inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded-[10px] font-sans text-[14px] font-semibold tracking-[-0.005em] ring-offset-background transition-[background-color,border-color,color,box-shadow,transform] duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [-webkit-user-drag:none] [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline: "border border-input bg-background hover:bg-[#B4E1FF] hover:border-[#B4E1FF] hover:text-foreground dark:hover:bg-[#1E3A5F] dark:hover:border-[#2D5A87] dark:hover:text-foreground",
-        secondary: "bg-[#FFE0B2] text-foreground border border-[#FFCC80] hover:bg-[#FFCC80] hover:border-[#FFB74D] dark:bg-[#CC6600] dark:border-[#E67700] dark:hover:bg-[#B35900] dark:hover:border-[#CC6600] dark:text-white",
-        ghost: "hover:bg-[#B4E1FF] hover:text-foreground dark:hover:bg-[#1E3A5F] dark:hover:text-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
-        success: "bg-[#E8F5E9] text-foreground border border-[#C8E6C9] hover:bg-[#C8E6C9] hover:border-[#A5D6A7] dark:bg-[#3D8B40] dark:border-[#4CAF50] dark:hover:bg-[#2E7D32] dark:hover:border-[#3D8B40] dark:text-white",
+        // Primary CTA — ink text on accent fill. Hover ramps to cobalt #6BA7E8
+        // (white text), pressed lands on cobalt-deep #3A78D8 with a -2% scale.
+        default:
+          "bg-ds-accent text-ink hover:bg-cobalt hover:text-white hover:shadow-[0_4px_14px_rgba(58,120,216,0.32)] active:bg-cobalt-deep active:text-white active:scale-[0.98] dark:bg-ds-accent dark:text-ink dark:hover:text-white",
+        // Destructive — bad on bad-tint, with full red fill on confirm modals.
+        destructive: "bg-ds-bad text-white hover:bg-ds-bad/90",
+        // Secondary — ink on white with a soft 1px line. Hover rides up to
+        // sky-soft surface + cobalt text/border so the affordance registers.
+        outline:
+          "border border-ds-line bg-white text-ink hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep dark:bg-card dark:text-ink dark:border-ds-line dark:hover:bg-primary/10",
+        // Tertiary / sentence-style secondary used in older surfaces.
+        secondary:
+          "bg-white text-ink border border-ds-line hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep",
+        // Ghost — no fill, just label.
+        ghost:
+          "text-ink hover:bg-primary/15 hover:text-cobalt-deep dark:text-ink",
+        // Inline link — accent-deep, hover ramps to cobalt-deep.
+        link: "text-accent-deep underline-offset-4 hover:underline hover:text-cobalt-deep",
+        // Success surface (kept for callers).
+        success: "bg-ds-good/15 text-ink border border-ds-good/30 hover:bg-ds-good/25",
+        // Dark solid — white text on ink (used inside flashcard footer).
+        dark: "bg-ink text-white hover:bg-ink/90 dark:bg-white dark:text-ink dark:hover:bg-white/90",
       },
       size: {
-        default: "h-10 px-4 py-2",
-        sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
-        icon: "h-10 w-10",
+        // 12–14px y × 18–22px x per spec; default sits in the middle.
+        default: "h-11 px-[20px] py-[12px] text-[14px]",
+        sm: "h-9 px-[14px] text-[13px]",
+        lg: "h-12 px-[22px] text-[15px]",
+        icon: "h-[38px] w-[38px] rounded-[10px]",
+        "icon-lg": "h-11 w-11 rounded-[10px]",
       },
     },
     defaultVariants: {

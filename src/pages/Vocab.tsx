@@ -115,18 +115,21 @@ function synthesizeWord(
 function Tag({ pos, isDark }: { pos: Pos; isDark: boolean }) {
   const c = (isDark ? TAG_DARK : TAG_LIGHT)[pos];
   return (
+    // Part-of-speech pill — Inter 600, 11px, padding 4×12, radius 999, ALWAYS lowercase.
     <span
       style={{
         display: "inline-block",
         width: "fit-content",
+        fontFamily: "'Inter', sans-serif",
         fontSize: 11,
-        padding: "3px 9px",
+        padding: "4px 12px",
         borderRadius: 999,
         background: c.bg,
         color: c.fg,
         fontWeight: 600,
-        letterSpacing: ".02em",
+        lineHeight: 1,
         whiteSpace: "nowrap",
+        textTransform: "lowercase",
       }}
     >
       {pos}
@@ -153,24 +156,40 @@ function MasteryDots({ v }: { v: number }) {
   );
 }
 
+// Flashcard footer buttons — Inter 600, 15px, padding 14×24.
 const btnBase: CSSProperties = {
   height: 48,
-  borderRadius: 12,
+  borderRadius: 10,
   cursor: "pointer",
-  fontFamily: "inherit",
-  fontSize: 14,
-  fontWeight: 500,
-  border: `1px solid ${borderC}`,
+  fontFamily: "'Inter', sans-serif",
+  fontSize: 15,
+  fontWeight: 600,
+  letterSpacing: "-0.005em",
+  border: `1px solid rgba(14,33,56,0.10)`,
   transition: "all .15s",
 };
-const btnIcon: CSSProperties = { ...btnBase, background: cardBg, color: muted, fontSize: 16 };
-const btnSecondary: CSSProperties = { ...btnBase, background: cardBg, color: fg };
+// Prev/next icon buttons — 44×44, ink-mid glyph on white.
+const btnIcon: CSSProperties = {
+  ...btnBase,
+  background: cardBg,
+  color: "rgb(var(--ink-mid))",
+  fontSize: 16,
+  height: 44,
+  width: 44,
+};
+// "Study again" — secondary, ink on white.
+const btnSecondary: CSSProperties = {
+  ...btnBase,
+  background: cardBg,
+  color: "rgb(var(--ink))",
+};
+// "Got it" — dark solid, white on ink. The only place in the app with this combo.
+// Hardcoded so it stays dark in both light and dark mode (signals commitment).
 const btnPrimary: CSSProperties = {
   ...btnBase,
-  background: fg,
-  color: "hsl(var(--background))",
-  borderColor: fg,
-  fontWeight: 600,
+  background: "#0E2138",
+  color: "#fff",
+  borderColor: "#0E2138",
 };
 
 /* ═══════════════════════════════════════════════
@@ -353,25 +372,48 @@ function Header({
         }}
       >
         <div>
-          <h1 style={{ margin: 0, fontSize: 32, fontWeight: 700, letterSpacing: "-.015em", color: fg }}>
+          {/* Page title — Inter Tight 600, 42px, tracking -3%. */}
+          <h1 style={{
+            margin: 0,
+            fontFamily: "'Inter Tight', sans-serif",
+            fontSize: "clamp(32px, 3.8vw, 42px)",
+            fontWeight: 600,
+            letterSpacing: "-0.03em",
+            lineHeight: 1,
+            color: "rgb(var(--ink))",
+          }}>
             Vocabulary
           </h1>
-          <p style={{ margin: "4px 0 0", color: muted, fontSize: 14 }}>
-            {setName} · {wordCount} words
+          {/* Subtitle — Inter 400, 14px, leading 1.5, ink-mid. Number uses tabular nums + weight 500. */}
+          <p style={{
+            margin: "8px 0 0",
+            fontFamily: "'Inter', sans-serif",
+            color: "rgb(var(--ink-mid))",
+            fontSize: 14,
+            lineHeight: 1.5,
+          }}>
+            {setName} ·{" "}
+            <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 500, fontVariantNumeric: "tabular-nums" }}>
+              {wordCount}
+            </span>
+            {" "}words
           </p>
         </div>
         <div ref={ref} style={{ position: "relative" }}>
+          {/* Change set — secondary button: Inter 600, 14px, ink on white. */}
           <button
             onClick={() => setOpen(o => !o)}
             style={{
-              padding: "8px 14px",
-              borderRadius: 8,
+              padding: "10px 16px",
+              borderRadius: 10,
               background: cardBg,
-              border: `1px solid ${borderC}`,
+              border: `1px solid rgba(14,33,56,0.10)`,
               cursor: "pointer",
-              fontFamily: "inherit",
-              fontSize: 13,
-              color: fg,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 14,
+              fontWeight: 600,
+              letterSpacing: "-0.005em",
+              color: "rgb(var(--ink))",
               whiteSpace: "nowrap",
             }}
           >
@@ -402,6 +444,7 @@ function Header({
           overflowX: "auto",
         }}
       >
+        {/* Mode tabs. Off: Inter 500, 14px, ink-mid. On: 600, ink on white card. */}
         {modes.map(([id, label]) => {
           const on = mode === id;
           return (
@@ -409,16 +452,16 @@ function Header({
               key={id}
               onClick={() => setMode(id)}
               style={{
-                padding: "9px 18px",
+                padding: "10px 18px",
                 borderRadius: 8,
-                border: on ? `1px solid ${borderC}` : "1px solid transparent",
+                border: on ? `1px solid rgba(14,33,56,0.08)` : "1px solid transparent",
                 cursor: "pointer",
-                fontFamily: "inherit",
+                fontFamily: "'Inter', sans-serif",
                 fontSize: 14,
                 fontWeight: on ? 600 : 500,
-                background: on ? "hsl(var(--background))" : "transparent",
-                color: on ? fg : muted,
-                boxShadow: on ? "0 1px 2px rgba(0,0,0,.12)" : "none",
+                background: on ? cardBg : "transparent",
+                color: on ? "rgb(var(--ink))" : "rgb(var(--ink-mid))",
+                boxShadow: on ? "0 1px 2px rgba(14,33,56,0.06)" : "none",
                 transition: "all .15s",
                 whiteSpace: "nowrap",
               }}
@@ -675,19 +718,23 @@ function Flashcards({
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto" }}>
+      {/* Progress strip — numbers in Inter Tight 600 + tabular nums, labels in Inter 400. */}
       <div
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
           marginBottom: 14,
+          fontFamily: "'Inter', sans-serif",
           fontSize: 13,
-          color: muted,
+          color: "rgb(var(--ink-mid))",
           gap: 16,
         }}
       >
         <span style={{ whiteSpace: "nowrap" }}>
-          {remaining} left · {masteredThisRound.size} this round
+          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{remaining}</span> left
+          {" · "}
+          <span style={{ fontFamily: "'Inter Tight', sans-serif", fontWeight: 600, fontVariantNumeric: "tabular-nums", color: "rgb(var(--ink))" }}>{masteredThisRound.size}</span> this round
         </span>
         <div
           style={{ flex: 1, height: 3, borderRadius: 2, background: "hsl(var(--border))", overflow: "hidden" }}
@@ -702,18 +749,22 @@ function Flashcards({
             }}
           />
         </div>
+        {/* Restart link — Inter 500, 13px, ink-mid. Hover flips to ink. No underline. */}
         <button
           onClick={restartFull}
           title="Restart this round"
           style={{
             background: "transparent",
             border: "none",
-            color: muted,
+            color: "rgb(var(--ink-mid))",
             cursor: "pointer",
+            fontFamily: "'Inter', sans-serif",
             fontSize: 13,
+            fontWeight: 500,
             padding: "2px 6px",
-            fontFamily: "inherit",
           }}
+          onMouseEnter={e => (e.currentTarget.style.color = "rgb(var(--ink))")}
+          onMouseLeave={e => (e.currentTarget.style.color = "rgb(var(--ink-mid))")}
         >
           ↺ Restart
         </button>
@@ -750,20 +801,33 @@ function Flashcards({
             }}
           >
             <Tag pos={card.pos} isDark={isDark} />
+            {/* The word — Inter Tight 500, 120px, lowercase, tracking -3.5%. The single biggest type in the product. */}
             <h2
               style={{
                 margin: "18px 0 0",
-                fontSize: "clamp(48px,7vw,80px)",
+                fontFamily: "'Inter Tight', sans-serif",
+                fontSize: "clamp(56px, 9vw, 120px)",
                 fontWeight: 500,
-                letterSpacing: "-.025em",
-                color: fg,
+                letterSpacing: "-0.035em",
+                color: "rgb(var(--ink))",
                 textAlign: "center",
                 lineHeight: 1,
+                textTransform: "lowercase",
               }}
             >
               {card.w}
             </h2>
-            <div style={{ marginTop: 14, fontSize: 13, color: muted }}>Tap to reveal</div>
+            {/* Helper — Inter 500, 14px, accent-deep (only place in the flashcard where accent-deep is text). */}
+            <div style={{
+              marginTop: 32,
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 14,
+              fontWeight: 500,
+              lineHeight: 1.4,
+              color: "rgb(var(--ds-accent-deep))",
+            }}>
+              Tap to reveal
+            </div>
           </div>
           <FlashcardBack card={card} isDark={isDark} />
         </div>

@@ -200,19 +200,21 @@ const Modules = () => {
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 px-4 py-5 sm:px-6 lg:px-8">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
         <div className="max-w-3xl">
+          {/* Page title — Inter Tight 600, 54px responsive, tracking -3.5%. */}
           <h1
             style={{
-              fontFamily: "'Geist', Georgia, serif",
-              fontSize: "clamp(26px, 3vw, 34px)",
-              fontWeight: 400,
-              letterSpacing: "-0.03em",
+              fontFamily: "'Inter Tight', sans-serif",
+              fontSize: "clamp(34px, 4.4vw, 54px)",
+              fontWeight: 600,
+              letterSpacing: "-0.035em",
               lineHeight: 1,
-              color: "hsl(var(--foreground))",
+              color: "rgb(var(--ink))",
             }}
           >
             Practice Tests
           </h1>
-          <p className="mt-1 text-xs leading-5 text-muted-foreground sm:text-sm">
+          {/* Subtitle — Inter 400, 16px, leading 1.5, ink-mid. */}
+          <p className="mt-2 font-sans text-[16px] leading-[1.5] text-ink-mid max-w-[600px]">
             Full SAT practice tests grouped by year, form, subject, and module.
           </p>
         </div>
@@ -353,17 +355,18 @@ const Modules = () => {
               key={practiceSet.id}
               className="group flex flex-col gap-3 rounded-xl border border-border/60 bg-card/60 p-4 transition-colors hover:border-border hover:bg-card"
             >
+              {/* Card title — Inter Tight 600, 24px, tracking -2%. */}
               <div
-                className="text-2xl leading-none tracking-[-0.02em] text-foreground"
-                style={{ fontFamily: "'Geist', Georgia, serif", fontWeight: 400 }}
+                className="font-display text-[24px] font-semibold leading-[1.1] tracking-[-0.02em] tabular-nums text-ink"
               >
                 Practice Set {practiceSet.setNumber}
               </div>
 
+              {/* Primary CTA — ink on accent, arrow right-aligned (justify-between). */}
               <Button
-                size="sm"
+                size="default"
                 variant="default"
-                className="h-9 w-full justify-between gap-2 text-sm"
+                className="w-full justify-between gap-2"
                 onClick={() =>
                   rememberScrollAnd(() => navigate(`/practice-tests/${practiceSet.id}/start`))
                 }
@@ -372,23 +375,25 @@ const Modules = () => {
                 <ArrowRight className="h-4 w-4" />
               </Button>
 
-              <div className="flex flex-col gap-1.5 border-t border-border/50 pt-3">
-                <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground font-medium">
+              <div className="flex flex-col gap-2 border-t border-ds-line pt-[14px]">
+                {/* INDIVIDUAL MODULES caption — Inter 600, 11px, +18% tracking. */}
+                <div className="font-sans text-[11px] uppercase tracking-[0.18em] text-ink-muted font-semibold">
                   Individual Modules
                 </div>
-                <div className="grid grid-cols-[auto_1fr] items-center gap-x-3 gap-y-1.5">
+                <div className="grid grid-cols-[auto_1fr] items-center gap-x-3 gap-y-2">
                   {rwModules.length > 0 && (
                     <>
-                      <span className="text-xs text-muted-foreground font-medium">
+                      {/* Module row label — Inter 500, 14px, muted. */}
+                      <span className="font-sans text-[14px] font-medium text-ink-muted">
                         Reading
                       </span>
-                      <div className="flex items-center gap-1.5">
+                      <div className="flex items-center gap-2">
                         {rwModules.map((module) => (
                           <Button
                             key={module.slug}
                             size="sm"
                             variant="outline"
-                            className="h-7 flex-1 text-xs font-semibold tabular-nums"
+                            className="h-9 flex-1 tabular-nums"
                             onClick={() => rememberScrollAnd(() => openModule(module))}
                           >
                             Module {module.moduleNumber}
@@ -399,16 +404,16 @@ const Modules = () => {
                   )}
                   {mathModules.length > 0 && (
                     <>
-                      <span className="text-xs text-muted-foreground font-medium">
+                      <span className="font-sans text-[14px] font-medium text-ink-muted">
                         Math
                       </span>
-                      <div className="flex items-center gap-1.5">
+                      <div className="flex items-center gap-2">
                         {mathModules.map((module) => (
                           <Button
                             key={module.slug}
                             size="sm"
                             variant="outline"
-                            className="h-7 flex-1 text-xs font-semibold tabular-nums"
+                            className="h-9 flex-1 tabular-nums"
                             onClick={() => rememberScrollAnd(() => openModule(module))}
                           >
                             Module {module.moduleNumber}
@@ -425,9 +430,16 @@ const Modules = () => {
       </div>
 
       {filteredPracticeSets.length === 0 && (
-        <Card className="border-dashed border-border/70">
-          <CardContent className="py-12 text-center text-sm text-muted-foreground">
-            No practice sets matched those filters.
+        <Card className="border-dashed border-ds-line">
+          <CardContent className="py-12 text-center">
+            {/* Empty headline — Inter Tight 600, ink. */}
+            <h3 className="font-display text-[22px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink">
+              No practice sets match
+            </h3>
+            {/* Helper — Inter 400, 13px, ink-mid. Always followed by a reset action. */}
+            <p className="mt-2 font-sans text-[13px] leading-[1.55] text-ink-mid">
+              Try clearing the subject, module, or status filters.
+            </p>
           </CardContent>
         </Card>
       )}

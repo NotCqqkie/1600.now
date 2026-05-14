@@ -27,11 +27,11 @@ import { useThemeMode } from "@/hooks/useThemeMode";
 import { renderMixedContent } from "@/lib/mathRendering";
 import {
   BANK_COUNT_BY_OFFICIAL_SKILL,
-  BANK_TOTAL_PAST,
+  BANK_TOTAL_ALL,
 } from "@/lib/bankTotals.generated";
 import "katex/dist/katex.min.css";
 
-const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_PAST;
+const DEFAULT_QUESTION_BANK_TOTAL = BANK_TOTAL_ALL;
 
 // Pinned to a real bank question: past/math/(x-4)^2+6, minimum value
 const DEMO_Q_SOURCE_ID = "6197d48e-7c76-4333-af39-0b9aa39e924c_21";
@@ -1357,23 +1357,58 @@ SlotDigit.displayName = "SlotDigit";
 
 const SlotMachineCounter = memo(({ value, startValue = 247, countDuration = 2000 }: { value: number; startValue?: number; countDuration?: number }) => {
   const [displayed, setDisplayed] = useState(startValue);
+  // Drives a CSS opacity fade so the counter never appears as a static
+  // startValue (mobile disables the wrapper fade, otherwise "247" would flash).
+  const [revealed, setRevealed] = useState(false);
   const rafRef = useRef<number>(0);
+  const displayedRef = useRef(startValue);
+  const hasAnimatedRef = useRef(false);
 
   useEffect(() => {
-    const begin = performance.now();
-    const range = value - startValue;
+    cancelAnimationFrame(rafRef.current);
+    const from = hasAnimatedRef.current ? displayedRef.current : startValue;
+    const range = value - from;
+    if (range === 0) {
+      hasAnimatedRef.current = true;
+      setRevealed(true);
+      return;
+    }
+    // Subsequent updates (e.g. async total arrives after first animation) tick
+    // smoothly from the displayed value, not restart from startValue.
+    const duration = hasAnimatedRef.current ? 600 : countDuration;
+    const mountTime = performance.now();
     const tick = (now: number) => {
-      const t = Math.min((now - begin) / countDuration, 1);
-      const eased = 1 - Math.pow(1 - t, 3);
-      setDisplayed(Math.round(startValue + range * eased));
-      if (t < 1) rafRef.current = requestAnimationFrame(tick);
+      const t = Math.min((now - mountTime) / duration, 1);
+      // 1.8 is gentler than cubic — keeps visible motion through the final
+      // quarter instead of crawling to a halt.
+      const eased = 1 - Math.pow(1 - t, 1.8);
+      const next = Math.round(from + range * eased);
+      displayedRef.current = next;
+      setDisplayed(next);
+      if (t < 1) {
+        rafRef.current = requestAnimationFrame(tick);
+      } else {
+        hasAnimatedRef.current = true;
+      }
     };
-    rafRef.current = requestAnimationFrame(tick);
+    // Fade the counter in on the next frame so the start value is never
+    // visible — by the time opacity reaches 1, the digits have already moved.
+    rafRef.current = requestAnimationFrame((now) => {
+      setRevealed(true);
+      tick(now);
+    });
     return () => cancelAnimationFrame(rafRef.current);
   }, [value, startValue, countDuration]);
 
   return (
-    <span style={{ fontVariantNumeric: "tabular-nums" }}>
+    <span
+      style={{
+        fontVariantNumeric: "tabular-nums",
+        opacity: revealed ? 1 : 0,
+        transition: "opacity 0.6s ease-out",
+        display: "inline-block",
+      }}
+    >
       {displayed.toLocaleString()}
     </span>
   );
@@ -1953,12 +1988,11 @@ StreakHeatmapSection.displayName = "StreakHeatmapSection";
 const Home = () => {
   const navigate = useNavigate();
   const { user, signOut } = useAuth();
-  const [questionBankTotal, setQuestionBankTotal] = useState(DEFAULT_QUESTION_BANK_TOTAL);
   const [difficulties, setDifficulties] = useState<DifficultyPill[]>([]);
   const [subjects, setSubjects] = useState<SubjectPill[]>([]);
   const [isHeaderScrolled, setIsHeaderScrolled] = useState(false);
   const isDarkMode = useThemeMode();
-  const totalQuestions = questionBankTotal;
+  const totalQuestions = DEFAULT_QUESTION_BANK_TOTAL;
 
   const heroSubject: "math" | "reading" =
     subjects.length === 1 ? subjects[0] : "math";
@@ -2093,26 +2127,6 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    let cancelled = false;
-
-    const loadQuestionCounts = async () => {
-      const { bankCounts } = await import("@/data/questionBank");
-      if (!cancelled) {
-        setQuestionBankTotal(bankCounts.math + bankCounts.reading);
-      }
-    };
-
-    loadQuestionCounts().catch(() => {
-      // Keep the fallback count if the bank module fails to load.
-    });
-
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-
-  useEffect(() => {
     const updateHeaderState = () => {
       setIsHeaderScrolled(window.scrollY > 12);
     };
@@ -2127,7 +2141,7 @@ const Home = () => {
   return (
     <div
       className="min-h-screen flex flex-col"
-      style={{ fontFamily: "'Geist', sans-serif" }}
+      style={{ fontFamily: "'Geist', 'Inter', system-ui, sans-serif" }}
     >
       <header
         className={`sticky top-0 z-20 border-b transition-[background-color,border-color,box-shadow,backdrop-filter] duration-300 ${
@@ -2139,28 +2153,29 @@ const Home = () => {
         <div className="container mx-auto flex h-16 items-center justify-between gap-3 px-3 sm:px-4">
           <BrandLogo variant="mark" className="h-9 w-9" />
 
-          <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 text-sm text-muted-foreground md:flex">
+          {/* Top nav — Inter 500, 14px, tracking -0.5%, ink. Hover opacity 0.7, never underline. */}
+          <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 md:flex">
             <Link
               to="/bank"
-              className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
+              className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               Question Bank
             </Link>
             <Link
               to="/hard"
-              className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
+              className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               100 Hard Math Questions
             </Link>
             <Link
               to="/modules"
-              className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
+              className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               Practice Tests
             </Link>
             <Link
               to="/score-calculator"
-              className="rounded-md px-3 py-1.5 transition-colors hover:bg-muted hover:text-foreground"
+              className="rounded-md px-3 py-1.5 font-sans text-[14px] font-medium tracking-[-0.005em] text-ink transition-opacity hover:opacity-70"
             >
               Score Calculator
             </Link>
@@ -2202,15 +2217,17 @@ const Home = () => {
               </DropdownMenu>
             ) : (
               <div className="inline-flex items-center gap-1.5">
+                {/* Log In — text only, Inter 500. */}
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="hidden sm:inline-flex"
+                  className="hidden sm:inline-flex !rounded-full !font-medium"
                   onClick={() => navigate("/login")}
                 >
                   Log In
                 </Button>
-                <Button size="sm" onClick={() => navigate("/signup")}>
+                {/* Sign Up — Inter 600, ink on accent, full pill on marketing nav. */}
+                <Button size="sm" className="!rounded-full" onClick={() => navigate("/signup")}>
                   Sign Up
                 </Button>
               </div>
@@ -2287,40 +2304,48 @@ const Home = () => {
             textAlign: "center",
           }}
         >
-          {/* Headline */}
+          {/* Headline — Geist 500, clamp 44-84px, leading 0.98, tracking -3.5%
+              (matches design system home spec). */}
           <h1
             className="h-fade-2"
             style={{
-              fontFamily: "'Geist', sans-serif",
+              fontFamily: "'Geist', system-ui, sans-serif",
               fontWeight: 500,
-              fontSize: "clamp(44px, 6.2vw, 84px)",
+              fontSize: "clamp(44px, 6.8vw, 96px)",
               lineHeight: 0.98,
-              color: "hsl(var(--foreground))",
+              color: "rgb(var(--ink))",
               margin: "0 0 26px",
               letterSpacing: "-0.035em",
             }}
           >
             Reach your
             <br />
-            <strong
+            {/* Cobalt gradient accent — design system swaps the old serif-italic
+                for a Geist 600 word painted with the cobalt → cobalt-deep ramp. */}
+            <span
               style={{
-                fontFamily: "'Geist', sans-serif",
-                fontWeight: isDarkMode ? 600 : 500,
-                color: "hsl(201,100%,80%)",
+                fontFamily: "'Geist', system-ui, sans-serif",
+                fontWeight: 600,
+                letterSpacing: "-0.035em",
+                backgroundImage:
+                  "linear-gradient(180deg, rgb(var(--cobalt)) 0%, rgb(var(--cobalt-deep)) 100%)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                color: "transparent",
               }}
             >
               best score.
-            </strong>
+            </span>
           </h1>
 
-          {/* Subtitle */}
+          {/* Subtitle — Geist 300, 19px lede, leading 1.55, ink-mid. */}
           <p
             className="h-fade-3 home-subtitle"
             style={{
-              fontFamily: "'Geist', sans-serif",
+              fontFamily: "'Geist', system-ui, sans-serif",
               fontSize: 19,
-              color: isDarkMode ? "#C8CFDC" : "rgba(15,23,42,0.68)",
-              maxWidth: 460,
+              color: "rgb(var(--ink-mid))",
+              maxWidth: 540,
               margin: "0 auto 38px",
               lineHeight: 1.55,
               fontWeight: 300,
@@ -2346,36 +2371,50 @@ const Home = () => {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: 8,
-                padding: "13px 30px",
+                padding: "14px 22px",
                 borderRadius: 10,
-                background: "hsl(201,100%,74%)",
-                color: "hsl(210,50%,12%)",
-                fontWeight: 600,
+                background: "rgb(var(--ds-accent))",
+                color: "rgb(var(--ink))",
+                fontWeight: 500,
                 fontSize: 15,
                 border: "none",
                 cursor: "pointer",
-                fontFamily: "'Geist', sans-serif",
+                fontFamily: "'Geist', system-ui, sans-serif",
+                letterSpacing: "-0.005em",
                 boxShadow:
                   isDarkMode
                     ? "0 0 36px rgba(125,211,252,0.28), 0 4px 18px rgba(0,0,0,0.22)"
                     : "0 10px 30px rgba(56,189,248,0.22)",
-                transition: "transform 0.14s, box-shadow 0.14s",
+                transition:
+                  "transform 0.14s, box-shadow 0.14s, background-color 0.15s, color 0.15s",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.transform =
-                  "translateY(-2px)";
-                (e.currentTarget as HTMLButtonElement).style.boxShadow =
-                  isDarkMode
-                    ? "0 0 48px rgba(125,211,252,0.45), 0 8px 28px rgba(0,0,0,0.28)"
-                    : "0 16px 36px rgba(56,189,248,0.28)";
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.transform = "translateY(-2px)";
+                el.style.background = "rgb(var(--cobalt))";
+                el.style.color = "#fff";
+                el.style.boxShadow =
+                  "0 16px 36px rgba(58,120,216,0.34), 0 4px 14px rgba(58,120,216,0.28)";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.transform =
-                  "translateY(0)";
-                (e.currentTarget as HTMLButtonElement).style.boxShadow =
-                  isDarkMode
-                    ? "0 0 36px rgba(125,211,252,0.28), 0 4px 18px rgba(0,0,0,0.22)"
-                    : "0 10px 30px rgba(56,189,248,0.22)";
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.transform = "translateY(0)";
+                el.style.background = "rgb(var(--ds-accent))";
+                el.style.color = "rgb(var(--ink))";
+                el.style.boxShadow = isDarkMode
+                  ? "0 0 36px rgba(125,211,252,0.28), 0 4px 18px rgba(0,0,0,0.22)"
+                  : "0 10px 30px rgba(56,189,248,0.22)";
+              }}
+              onMouseDown={(e) => {
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.background = "rgb(var(--cobalt-deep))";
+                el.style.color = "#fff";
+                el.style.transform = "scale(0.98)";
+              }}
+              onMouseUp={(e) => {
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.background = "rgb(var(--cobalt))";
+                el.style.transform = "translateY(-2px)";
               }}
             >
               Explore question bank
@@ -2388,34 +2427,45 @@ const Home = () => {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: 8,
-                padding: "13px 30px",
+                padding: "14px 22px",
                 borderRadius: 10,
                 background: isDarkMode
                   ? "rgba(255,255,255,0.055)"
                   : "rgba(255,255,255,0.78)",
                 color: isDarkMode
-                  ? "rgba(255,255,255,0.78)"
-                  : "rgba(15,23,42,0.82)",
+                  ? "rgba(255,255,255,0.88)"
+                  : "rgb(var(--ink))",
                 fontWeight: 500,
                 fontSize: 15,
                 border: isDarkMode
                   ? "1px solid rgba(255,255,255,0.11)"
-                  : "1px solid rgba(15,23,42,0.12)",
+                  : "1px solid rgba(14,33,56,0.10)",
                 cursor: "pointer",
-                fontFamily: "'Geist', sans-serif",
-                transition: "background 0.14s, border-color 0.14s",
+                fontFamily: "'Geist', system-ui, sans-serif",
+                letterSpacing: "-0.005em",
+                transition: "background 0.14s, border-color 0.14s, color 0.14s",
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.background =
-                  isDarkMode ? "rgba(255,255,255,0.1)" : "rgba(255,255,255,0.95)";
-                (e.currentTarget as HTMLButtonElement).style.borderColor =
-                  isDarkMode ? "rgba(255,255,255,0.2)" : "rgba(15,23,42,0.18)";
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.background = isDarkMode
+                  ? "rgba(180,225,255,0.12)"
+                  : "rgba(232,244,251,0.95)";
+                el.style.borderColor = "rgb(var(--cobalt))";
+                el.style.color = isDarkMode
+                  ? "rgb(var(--cobalt-ink))"
+                  : "rgb(var(--cobalt-deep))";
               }}
               onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.background =
-                  isDarkMode ? "rgba(255,255,255,0.055)" : "rgba(255,255,255,0.78)";
-                (e.currentTarget as HTMLButtonElement).style.borderColor =
-                  isDarkMode ? "rgba(255,255,255,0.11)" : "rgba(15,23,42,0.12)";
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.background = isDarkMode
+                  ? "rgba(255,255,255,0.055)"
+                  : "rgba(255,255,255,0.78)";
+                el.style.borderColor = isDarkMode
+                  ? "rgba(255,255,255,0.11)"
+                  : "rgba(15,23,42,0.12)";
+                el.style.color = isDarkMode
+                  ? "rgba(255,255,255,0.88)"
+                  : "rgb(var(--ink))";
               }}
             >
               Practice Tests
@@ -2424,33 +2474,36 @@ const Home = () => {
 
           {/* Counter */}
           <div className="h-fade-5 home-counter" style={{ marginBottom: 88 }}>
+            {/* Hero stat — Inter Tight 700, clamp 64-132px, tabular nums, comma-grouped. */}
             <div
               className="home-count-num"
               style={{
-              fontSize: "clamp(47px, 6.3vw, 74px)",
+              fontSize: "clamp(64px, 8.6vw, 132px)",
               fontFamily: "'Inter Tight', sans-serif",
-              fontWeight: 800,
-              color: "hsl(var(--foreground))",
+              fontWeight: 700,
+              color: "rgb(var(--ink))",
               letterSpacing: "-0.04em",
-              lineHeight: 1,
+              lineHeight: 0.95,
               fontVariantNumeric: "tabular-nums",
+              fontFeatureSettings: "'tnum'",
               }}
             >
               <SlotMachineCounter value={totalQuestions} />
             </div>
+            {/* Caption — Geist 600, 11px, +32% tracking (wide because the number above is giant). */}
             <div
               style={{
+                fontFamily: "'Geist', system-ui, sans-serif",
                 fontSize: 11,
-                color: isDarkMode
-                  ? "rgba(255,255,255,0.3)"
-                  : "rgba(15,23,42,0.42)",
-                marginTop: 9,
-                letterSpacing: "0.1em",
+                color: "rgb(var(--ink-muted))",
+                marginTop: 14,
+                letterSpacing: "0.32em",
                 textTransform: "uppercase",
-                fontWeight: 500,
+                fontWeight: 600,
+                lineHeight: 1,
               }}
             >
-              practice questions
+              Practice questions
             </div>
           </div>
         </div>
@@ -2473,14 +2526,16 @@ const Home = () => {
               maxWidth: 720,
             }}
           >
+            {/* Section heading — Geist 500, 52px responsive, leading 1.05, tracking -3.5%. */}
             <h2
               className="home-demo-title"
               style={{
-                fontSize: "clamp(26px, 3.4vw, 40px)",
-                fontWeight: 600,
-                letterSpacing: "-0.02em",
-                lineHeight: 1.15,
-                color: "hsl(var(--foreground))",
+                fontFamily: "'Geist', system-ui, sans-serif",
+                fontSize: "clamp(28px, 4.4vw, 52px)",
+                fontWeight: 500,
+                letterSpacing: "-0.035em",
+                lineHeight: 1.05,
+                color: "rgb(var(--ink))",
                 margin: 0,
               }}
             >
@@ -2525,7 +2580,7 @@ const Home = () => {
       <section className="bg-background">
         <FilterFeatureSection
           isDarkMode={isDarkMode}
-          totalQuestions={questionBankTotal}
+          totalQuestions={totalQuestions}
         />
       </section>
 

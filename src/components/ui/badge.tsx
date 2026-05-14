@@ -4,14 +4,21 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const badgeVariants = cva(
-  "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+  // Inter, weight 500/600, 11px. Pills are always sentence- or lower-case per spec.
+  "inline-flex items-center rounded-full border px-[9px] py-[3px] font-sans text-[11px] font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ds-accent focus:ring-offset-2",
   {
     variants: {
       variant: {
-        default: "border-transparent bg-primary text-primary-foreground hover:bg-primary/80",
-        secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
-        outline: "text-foreground",
+        // Default — ink on white with a soft line. Used for skill/difficulty pills.
+        default: "border-ds-line bg-white text-ink-mid font-medium",
+        // Secondary — light fill, ink text.
+        secondary: "border-transparent bg-ds-accent/40 text-ink",
+        // Destructive — bad on bad-tint.
+        destructive: "border-transparent bg-ds-bad/12 text-bad",
+        // Outline — ink-mid with a 1px line.
+        outline: "border-ds-line text-ink-mid",
+        // Status: completed — good on good-tint.
+        good: "border-transparent bg-ds-good/12 text-good",
       },
     },
     defaultVariants: {

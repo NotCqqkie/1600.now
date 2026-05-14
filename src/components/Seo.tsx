@@ -23,9 +23,9 @@ type RouteMetadata = {
 const routeMetadata: RouteMetadata[] = [
   {
     pattern: "/",
-    title: "1600.now — Free SAT Prep Question Bank & Practice Tests",
+    title: "Free Digital SAT Practice & Question Bank | 1600.now",
     description:
-      "1600.now is a free SAT prep platform with a filterable question bank, full digital SAT modules, score calculator, vocabulary review, and detailed explanations.",
+      "Free Digital SAT prep. Every practice question is instantly filterable by domain, skill, and difficulty — plus full adaptive modules, a score calculator, and detailed explanations.",
   },
   {
     pattern: "/modules",

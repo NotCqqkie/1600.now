@@ -114,20 +114,13 @@ const Login = () => {
       <div className="flex-1 flex items-center justify-center px-6 py-12">
         <div className="w-full max-w-sm">
           <div className="mb-8">
-            <h2
-              style={{
-                fontFamily: "'Geist', Georgia, serif",
-                fontSize: 32,
-                fontWeight: 400,
-                letterSpacing: "-0.02em",
-                color: "hsl(var(--foreground))",
-                marginBottom: 6,
-              }}
-            >
+            {/* Auth title — Inter Tight 600, 30px (focused, not display). */}
+            <h2 className="font-display text-[30px] font-semibold leading-[1.1] tracking-[-0.025em] text-ink">
               Welcome back
             </h2>
-            <p className="text-sm text-muted-foreground">
-              Sign in to continue studying.
+            {/* Subtitle — Inter 400, 14px, leading 1.5, ink-mid. Ends in a period. */}
+            <p className="mt-2 font-sans text-[14px] leading-[1.5] text-ink-mid">
+              Pick up where you left off.
             </p>
           </div>
 
@@ -177,17 +170,19 @@ const Login = () => {
                   required
                 />
               </div>
+              {/* Submit — Inter 600, 15px, ink on accent, full-width, sentence-case. */}
               <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading}>
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                Sign In
+                Log in
               </Button>
             </form>
           </div>
 
-          <p className="mt-6 text-center text-sm text-muted-foreground">
+          {/* Switch link — prompt in ink-mid 400, action in accent-deep 600, no underline. */}
+          <p className="mt-6 text-center font-sans text-[13px] text-ink-mid">
             Don't have an account?{" "}
-            <Link to="/signup" className="font-medium text-foreground underline-offset-4 hover:underline">
-              Sign up free
+            <Link to="/signup" className="font-semibold text-accent-deep hover:opacity-80">
+              Sign up
             </Link>
           </p>
         </div>

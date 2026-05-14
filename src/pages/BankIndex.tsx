@@ -557,15 +557,17 @@ const BankIndex = () => {
               checked={topicSelection.math.selected}
               onCheckedChange={(checked) => toggleSubject("math", checked)}
             />
-            <div className="p-2 rounded-lg bg-primary/10">
-              <Calculator className="h-6 w-6 text-primary" />
+            <div className="p-2 rounded-lg bg-ds-accent/30">
+              <Calculator className="h-6 w-6 text-ink" />
             </div>
             <div>
-              <h3 className="font-semibold text-lg">Math</h3>
-              <p className="text-sm text-muted-foreground">
-                <span className="text-green-600 font-medium">{questionCounts.math.correct}</span>
-                <span className="mx-1">/</span>
-                <span>{questionCounts.math.total} questions</span>
+              {/* Column title — Inter Tight 600, 22px, tracking -1.5%. */}
+              <h3 className="font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink">Math</h3>
+              {/* Column count — tabular nums, 12px. Completed weight 600 good; rest weight 500 muted. */}
+              <p className="font-display text-[12px] leading-[1.3] tabular-nums">
+                <span className="font-semibold text-good">{questionCounts.math.correct.toLocaleString()}</span>
+                <span className="mx-1 font-medium text-ink-muted">/</span>
+                <span className="font-medium text-ink-muted">{questionCounts.math.total.toLocaleString()} questions</span>
               </p>
             </div>
           </div>
@@ -599,8 +601,8 @@ const BankIndex = () => {
                   onCheckedChange={(checked) => toggleDomain("math", domain, checked)}
                 />
                 <div className="flex items-center justify-between flex-1">
-                  <span 
-                    className="font-medium flex-1 py-1 cursor-pointer"
+                  <span
+                    className="font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink flex-1 py-1 cursor-pointer"
                     onClick={() => {
                       if (isMultiSelect) {
                         toggleDomain("math", domain, !topicSelection.math.domains[domain]?.selected);
@@ -630,14 +632,15 @@ const BankIndex = () => {
                       setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
                     }}
                   >
-                    <span className="text-sm text-muted-foreground">
-                      <span className="text-green-600">{questionCounts.math.domains[domain]?.correct || 0}</span>
-                      /{questionCounts.math.domains[domain]?.total || 0}
+                    {/* Domain count — tabular nums, 14px. Completed weight 600 good; total weight 500 muted. */}
+                    <span className="font-display text-[14px] tabular-nums">
+                      <span className="font-semibold text-good">{(questionCounts.math.domains[domain]?.correct || 0).toLocaleString()}</span>
+                      <span className="font-medium text-ink-muted">/{(questionCounts.math.domains[domain]?.total || 0).toLocaleString()}</span>
                     </span>
                     {expandedDomains[domain] ? (
-                      <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                      <ChevronDown className="h-[11px] w-[11px] text-ink-muted" />
                     ) : (
-                      <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                      <ChevronRight className="h-[11px] w-[11px] text-ink-muted" />
                     )}
                   </div>
                 </div>
@@ -661,7 +664,8 @@ const BankIndex = () => {
                         checked={topicSelection.math.domains[domain]?.skills[skill] || false}
                         onCheckedChange={(checked) => toggleSkill("math", domain, skill, checked)}
                       />
-                      <span className="text-foreground truncate flex-1 mr-2">
+                      {/* Skill name — Inter 400, 13px, ink-mid. Light weight so eye scans counts on the right. */}
+                      <span className="font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid truncate flex-1 mr-2">
                         {skill}
                       </span>
                       <Button
@@ -676,9 +680,10 @@ const BankIndex = () => {
                       >
                         <Shuffle className="h-3 w-3" />
                       </Button>
-                      <span className="text-sm text-muted-foreground">
-                        <span className="text-green-600">{questionCounts.math.skills[skill]?.correct || 0}</span>
-                        /{questionCounts.math.skills[skill]?.total || 0}
+                      {/* Skill count — tabular nums, 13px. Right-aligned, numerators align via tnum. */}
+                      <span className="font-display text-[13px] tabular-nums">
+                        <span className="font-semibold text-good">{(questionCounts.math.skills[skill]?.correct || 0).toLocaleString()}</span>
+                        <span className="font-medium text-ink-muted">/{(questionCounts.math.skills[skill]?.total || 0).toLocaleString()}</span>
                       </span>
                     </div>
                   ))}
@@ -705,15 +710,15 @@ const BankIndex = () => {
               checked={topicSelection.reading.selected}
               onCheckedChange={(checked) => toggleSubject("reading", checked)}
             />
-            <div className="p-2 rounded-lg bg-secondary/10">
-              <FileText className="h-6 w-6 text-secondary" />
+            <div className="p-2 rounded-lg bg-ds-accent/30">
+              <FileText className="h-6 w-6 text-ink" />
             </div>
             <div>
-              <h3 className="font-semibold text-lg">Reading & Writing</h3>
-              <p className="text-sm text-muted-foreground">
-                <span className="text-green-600 font-medium">{questionCounts.reading.correct}</span>
-                <span className="mx-1">/</span>
-                <span>{questionCounts.reading.total} questions</span>
+              <h3 className="font-display text-[22px] font-semibold leading-[1.1] tracking-[-0.015em] text-ink">Reading & Writing</h3>
+              <p className="font-display text-[12px] leading-[1.3] tabular-nums">
+                <span className="font-semibold text-good">{questionCounts.reading.correct.toLocaleString()}</span>
+                <span className="mx-1 font-medium text-ink-muted">/</span>
+                <span className="font-medium text-ink-muted">{questionCounts.reading.total.toLocaleString()} questions</span>
               </p>
             </div>
           </div>
@@ -747,8 +752,8 @@ const BankIndex = () => {
                   onCheckedChange={(checked) => toggleDomain("reading", domain, checked)}
                 />
                 <div className="flex items-center justify-between flex-1">
-                  <span 
-                    className="font-medium flex-1 py-1 cursor-pointer"
+                  <span
+                    className="font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink flex-1 py-1 cursor-pointer"
                     onClick={() => {
                       if (isMultiSelect) {
                         toggleDomain("reading", domain, !topicSelection.reading.domains[domain]?.selected);
@@ -778,14 +783,14 @@ const BankIndex = () => {
                       setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
                     }}
                   >
-                    <span className="text-sm text-muted-foreground">
-                      <span className="text-green-600">{questionCounts.reading.domains[domain]?.correct || 0}</span>
-                      /{questionCounts.reading.domains[domain]?.total || 0}
+                    <span className="font-display text-[14px] tabular-nums">
+                      <span className="font-semibold text-good">{(questionCounts.reading.domains[domain]?.correct || 0).toLocaleString()}</span>
+                      <span className="font-medium text-ink-muted">/{(questionCounts.reading.domains[domain]?.total || 0).toLocaleString()}</span>
                     </span>
                     {expandedDomains[domain] ? (
-                      <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                      <ChevronDown className="h-[11px] w-[11px] text-ink-muted" />
                     ) : (
-                      <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                      <ChevronRight className="h-[11px] w-[11px] text-ink-muted" />
                     )}
                   </div>
                 </div>
@@ -809,7 +814,7 @@ const BankIndex = () => {
                         checked={topicSelection.reading.domains[domain]?.skills[skill] || false}
                         onCheckedChange={(checked) => toggleSkill("reading", domain, skill, checked)}
                       />
-                      <span className="text-foreground truncate flex-1 mr-2">
+                      <span className="font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid truncate flex-1 mr-2">
                         {skill}
                       </span>
                       <Button
@@ -824,9 +829,9 @@ const BankIndex = () => {
                       >
                        <Shuffle className="h-3 w-3" />
                       </Button>
-                      <span className="text-sm text-muted-foreground">
-                        <span className="text-green-600">{questionCounts.reading.skills[skill]?.correct || 0}</span>
-                        /{questionCounts.reading.skills[skill]?.total || 0}
+                      <span className="font-display text-[13px] tabular-nums">
+                        <span className="font-semibold text-good">{(questionCounts.reading.skills[skill]?.correct || 0).toLocaleString()}</span>
+                        <span className="font-medium text-ink-muted">/{(questionCounts.reading.skills[skill]?.total || 0).toLocaleString()}</span>
                       </span>
                     </div>
                   ))}
@@ -848,20 +853,27 @@ const BankIndex = () => {
           {/* Header */}
           <div className="flex items-center gap-4">
             <div>
+              {/* Page title \u2014 Inter Tight 600, 42px, tracking -3%. */}
               <h1
                 style={{
-                  fontFamily: "'Geist', Georgia, serif",
-                  fontSize: "clamp(26px, 3.5vw, 36px)",
-                  fontWeight: 400,
-                  letterSpacing: "-0.02em",
-                  color: "hsl(var(--foreground))",
-                  marginBottom: 4,
+                  fontFamily: "'Inter Tight', sans-serif",
+                  fontSize: "clamp(32px, 3.8vw, 42px)",
+                  fontWeight: 600,
+                  letterSpacing: "-0.03em",
+                  lineHeight: 1,
+                  color: "rgb(var(--ink))",
+                  marginBottom: 8,
                 }}
               >
                 Question Bank
               </h1>
-              <p className="text-sm text-muted-foreground">
-                {`${BANK_SOURCE_LABELS[bankSource]} \u00b7 `}{questionCounts.math.total + questionCounts.reading.total} questions available
+              {/* Subtitle \u2014 Inter 400, 14px, ink-mid. The count wraps in Inter Tight 600 + tnum. */}
+              <p className="font-sans text-[14px] leading-[1.5] text-ink-mid">
+                {`${BANK_SOURCE_LABELS[bankSource]} \u00b7 `}
+                <span className="font-display font-semibold tabular-nums text-ink">
+                  {(questionCounts.math.total + questionCounts.reading.total).toLocaleString()}
+                </span>
+                {" questions available"}
               </p>
             </div>
           </div>

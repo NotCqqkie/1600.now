@@ -16,16 +16,14 @@ const HardQuestionsIntro = () => {
           />
 
           <div className="relative px-6 pb-10 pt-10 sm:px-10 sm:pt-12">
+            {/* Page title — Inter Tight 600, 42px, tracking -3%, tabular nums (the "100" sits on the same baseline). */}
             <h1
-              className="max-w-3xl text-[clamp(2.4rem,5vw,4.6rem)] leading-[0.94] tracking-[-0.04em] text-foreground"
-              style={{ fontFamily: "'Geist', Georgia, serif" }}
+              className="font-display max-w-3xl text-[clamp(32px,3.8vw,42px)] font-semibold leading-none tracking-[-0.03em] tabular-nums text-ink"
             >
-              100 Hard Math
-              <br />
-              Questions
+              100 Hard Math Questions
             </h1>
 
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+            <p className="mt-3 max-w-2xl font-sans text-[14px] leading-[1.5] text-ink-mid">
               These questions mirror the hardest problems on the real SAT — the ones appearing from 17-22 on math modules. Master them and you'll be able to handle any question with confidence.
             </p>
 
