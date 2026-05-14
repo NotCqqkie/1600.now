@@ -27,7 +27,7 @@ import {
   Flag,
   CheckCircle2,
 } from "lucide-react";
-import { BankSourceToggle } from "@/components/BankSourceToggle";
+import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 
 const BankFiltered = () => {
   const navigate = useNavigate();

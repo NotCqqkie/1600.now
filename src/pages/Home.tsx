@@ -1,7 +1,7 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
-import { BrandLogo } from "@/components/BrandLogo";
+import { BrandLogo } from "@/components/brand/BrandLogo";
 import {
   ArrowRight,
   BarChart3,
@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { InlineDesmos } from "@/components/InlineDesmos";
+import { InlineDesmos } from "@/components/tools/InlineDesmos";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import {

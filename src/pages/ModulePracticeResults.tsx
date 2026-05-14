@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
-import { StepByStepExplanation } from "@/components/StepByStepExplanation";
+import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import {
   getLatestModulePracticeResult,

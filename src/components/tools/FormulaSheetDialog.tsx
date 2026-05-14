@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
-import { DraggableWindow } from "./DraggableWindow";
+import { DraggableWindow } from "@/components/DraggableWindow";
 
 interface FormulaSheetDialogProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;

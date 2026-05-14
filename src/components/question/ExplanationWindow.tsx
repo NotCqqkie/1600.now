@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Lightbulb } from "lucide-react";
-import { DraggableWindow } from "./DraggableWindow";
-import { StepByStepExplanation } from "./StepByStepExplanation";
+import { DraggableWindow } from "@/components/DraggableWindow";
+import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import type { ExplanationData } from "@/lib/explanationApi";

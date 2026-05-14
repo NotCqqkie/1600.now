@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Calculator } from "lucide-react";
-import { DraggableWindow } from "./DraggableWindow";
+import { DraggableWindow } from "@/components/DraggableWindow";
 import { loadDesmos } from "@/lib/desmosLoader";
 
 declare global {

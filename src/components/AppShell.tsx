@@ -19,7 +19,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-import { BrandLogo } from "@/components/BrandLogo";
+import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,

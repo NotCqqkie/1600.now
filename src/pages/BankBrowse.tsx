@@ -38,7 +38,7 @@ import {
   Target,
   Shuffle,
 } from "lucide-react";
-import { BankSourceToggle } from "@/components/BankSourceToggle";
+import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 
 const domainIcons: Record<string, string> = {

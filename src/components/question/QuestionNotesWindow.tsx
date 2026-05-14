@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { DraggableWindow } from "./DraggableWindow";
+import { DraggableWindow } from "@/components/DraggableWindow";
 
 interface QuestionNotesWindowProps {
   isOpen: boolean;

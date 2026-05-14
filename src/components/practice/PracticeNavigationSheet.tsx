@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
-} from "@/components/QuestionNavigatorSheet";
+} from "@/components/question/QuestionNavigatorSheet";
 
 interface PracticeSetItem {
   subject: string;

@@ -189,7 +189,7 @@ const normalizeModuleRecords = (value: unknown): RawModuleQuestion[] | null => {
 
 const parseModulePath = (modulePath: string): ParsedModuleMetadata | null => {
   const match = modulePath.match(
-    /\.\/Modules\/([A-Za-z]+)_(\d{4})(?:_(US|International))?(?:_Form_([A-Z0-9]+))?_SAT_(English|Math)_Module_(1|2)\.json$/,
+    /\.\/modules\/([A-Za-z]+)_(\d{4})(?:_(US|International))?(?:_Form_([A-Z0-9]+))?_SAT_(English|Math)_Module_(1|2)\.json$/,
   );
 
   if (!match) return null;

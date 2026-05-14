@@ -31,8 +31,8 @@ import {
   defaultFilters,
   hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
-} from "@/components/QuestionBankFilterPanel";
-import { BankSourceToggle } from "@/components/BankSourceToggle";
+} from "@/components/question/QuestionBankFilterPanel";
+import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import {
   useUserProgress,

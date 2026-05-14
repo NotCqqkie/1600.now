@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BrandLogo } from "@/components/BrandLogo";
+import { BrandLogo } from "@/components/brand/BrandLogo";
 import { ArrowLeft } from "lucide-react";
 
 const NotFound = () => {

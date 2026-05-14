@@ -2,7 +2,7 @@ import { type ReactNode, useMemo } from "react";
 import {
   QuestionNavigatorSheet,
   type QuestionNavigatorItem,
-} from "@/components/QuestionNavigatorSheet";
+} from "@/components/question/QuestionNavigatorSheet";
 
 interface ModulePracticeNavigationItem {
   key: string | number;

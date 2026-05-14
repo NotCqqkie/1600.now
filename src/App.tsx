@@ -5,12 +5,12 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Suspense, lazy, useEffect, useState, type ReactNode } from "react";
 import { AuthProvider } from "@/contexts/AuthContext";
-import { AuthReturnTracker } from "@/components/AuthReturnTracker";
-import { EmailVerificationGuard } from "@/components/EmailVerificationGuard";
+import { AuthReturnTracker } from "@/components/auth/AuthReturnTracker";
+import { EmailVerificationGuard } from "@/components/auth/EmailVerificationGuard";
 import { AnalyticsPageTracker } from "@/components/AnalyticsPageTracker";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { LegalDisclaimer } from "@/components/LegalDisclaimer";
-import { Seo } from "@/components/Seo";
+import { LegalDisclaimer } from "@/components/brand/LegalDisclaimer";
+import { Seo } from "@/components/seo/Seo";
 import "@/lib/personalization";
 
 const Home = lazy(() => import("./pages/Home"));
@@ -61,7 +61,7 @@ const CountryTopicPage = lazy(() => import("./pages/CountryTopicPage"));
 const CollegeIndex = lazy(() => import("./pages/CollegeIndex"));
 const CollegePage = lazy(() => import("./pages/CollegePage"));
 const AppShell = lazy(() => import("./components/AppShell").then((mod) => ({ default: mod.AppShell })));
-const AccountSync = lazy(() => import("./components/AccountSync").then((mod) => ({ default: mod.AccountSync })));
+const AccountSync = lazy(() => import("./components/auth/AccountSync").then((mod) => ({ default: mod.AccountSync })));
 const OnboardingTour = lazy(() => import("./components/OnboardingTour").then((mod) => ({ default: mod.OnboardingTour })));
 
 const queryClient = new QueryClient();

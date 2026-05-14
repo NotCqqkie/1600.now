@@ -8,7 +8,7 @@ import {
   type ExplanationData,
   type ExplanationStep,
 } from "@/lib/explanationApi";
-import { InlineDesmos } from "./InlineDesmos";
+import { InlineDesmos } from "@/components/tools/InlineDesmos";
 import "katex/dist/katex.min.css";
 
 // ── Main component ───────────────────────────────────────────────────

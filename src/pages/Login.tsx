@@ -12,9 +12,9 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { BrandLogo } from "@/components/BrandLogo";
+import { BrandLogo } from "@/components/brand/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
-import { getAuthReturnTo } from "@/components/AuthReturnTracker";
+import { getAuthReturnTo } from "@/components/auth/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
 import { Loader2, ArrowLeft } from "lucide-react";
