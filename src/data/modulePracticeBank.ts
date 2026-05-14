@@ -6,7 +6,7 @@ import {
 } from "@/data/questionBank";
 import type { QuestionCategory } from "@/data/questionCategories";
 
-const rawModuleImports = import.meta.glob("./Modules/*.json", {
+const rawModuleImports = import.meta.glob("./modules/*.json", {
   eager: true,
   import: "default",
 }) as Record<string, unknown>;

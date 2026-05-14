@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 IMAGES_DIR = ROOT / "public/images/SAT-Style Questions"
 QUESTION_IMAGE_MAP_PATH = ROOT / "src/data/questionImageMap.ts"
 SAT_IMAGE_MANIFEST_PATH = ROOT / "src/data/satImageManifest.ts"
-MODULES_DIR = ROOT / "src/data/Modules"
+MODULES_DIR = ROOT / "src/data/modules"
 
 MONTH_PREFIX_RE = re.compile(r"^(Aug|Dec|Jun|Mar|May|Nov|Oct|Sep)_")
 QUESTION_ID_RE = re.compile(r'^  "([^"]+)": \{$')

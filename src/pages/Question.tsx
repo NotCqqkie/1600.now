@@ -44,7 +44,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { questions as originalQuestions } from "@/data/100 Hard";
+import { questions as originalQuestions } from "@/data/hardQuestions";
 import {
   getBankCounts,
   getBankPool,

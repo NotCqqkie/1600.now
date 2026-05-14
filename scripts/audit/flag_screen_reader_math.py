@@ -2,7 +2,7 @@
 Flag question fields that may contain screen-reader-style spelled-out math.
 
 Looks across:
-  - src/data/Modules/*.json
+  - src/data/modules/*.json
   - src/data/unofficialQuestions.ts
 
 Emits a JSON report at scripts/audit/screen_reader_math_candidates.json with one
