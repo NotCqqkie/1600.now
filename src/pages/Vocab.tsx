@@ -801,18 +801,23 @@ function Flashcards({
             }}
           >
             <Tag pos={card.pos} isDark={isDark} />
-            {/* The word — Inter Tight 500, 120px, lowercase, tracking -3.5%. The single biggest type in the product. */}
+            {/* The word — Inter Tight 500, lowercase, tracking -3.5%. Cap kept
+                low enough that the longest SAT vocab words (17 chars, e.g.
+                "counterproductive") still fit the flashcard inner width;
+                overflowWrap is the safety net for anything longer. */}
             <h2
               style={{
                 margin: "18px 0 0",
                 fontFamily: "'Inter Tight', sans-serif",
-                fontSize: "clamp(56px, 9vw, 120px)",
+                fontSize: "clamp(40px, 6vw, 76px)",
                 fontWeight: 500,
                 letterSpacing: "-0.035em",
                 color: "rgb(var(--ink))",
                 textAlign: "center",
-                lineHeight: 1,
+                lineHeight: 1.05,
                 textTransform: "lowercase",
+                maxWidth: "100%",
+                overflowWrap: "anywhere",
               }}
             >
               {card.w}
