@@ -318,12 +318,12 @@ const isAccountWithinWindow = (creationTime: string | undefined, windowMs: numbe
  * fetch, just start it. The browser does the rest.
  */
 const preloadTourRoutes = () => {
-  void import("@/pages/BankIndex");
-  void import("@/pages/Modules");
-  void import("@/pages/HardQuestionsIntro");
+  void import("@/pages/bank/BankIndex");
+  void import("@/pages/modules/Modules");
+  void import("@/pages/bank/HardQuestionsIntro");
   void import("@/pages/Vocab");
   void import("@/pages/Analysis");
-  void import("@/pages/Question");
+  void import("@/pages/bank/Question");
 };
 
 type Rect = { x: number; y: number; w: number; h: number };
