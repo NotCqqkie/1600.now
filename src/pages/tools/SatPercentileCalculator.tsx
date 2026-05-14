@@ -6,8 +6,8 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/satTools";
-import { getScoreProfile } from "@/lib/satScoreData";
+import { satToolBySlug } from "@/lib/seo-data/satTools";
+import { getScoreProfile } from "@/lib/seo-data/satScoreData";
 
 const tierLabel = (percentile: number): string => {
   if (percentile >= 99) return "Top 1%";

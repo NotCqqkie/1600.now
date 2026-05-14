@@ -1,7 +1,7 @@
 import type { PracticeSet } from "@/data/modulePracticeBank";
 import { satCalculatorYears } from "@/data/satCalculator";
-import { answersEquivalent } from "@/lib/answerEquivalence";
-import type { ModulePracticeQuestionState } from "@/lib/modulePracticeSession";
+import { answersEquivalent } from "@/lib/text/answerEquivalence";
+import type { ModulePracticeQuestionState } from "@/lib/practice/modulePracticeSession";
 
 export interface PracticeTestModuleSession {
   moduleSlug: string;

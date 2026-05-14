@@ -6,9 +6,9 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { pillarBySlug } from "@/lib/pillarData";
-import { satSkillBySlug } from "@/lib/satSkillsData";
-import { blogPostBySlug } from "@/lib/blogData";
+import { pillarBySlug } from "@/lib/seo-data/pillarData";
+import { satSkillBySlug } from "@/lib/seo-data/satSkillsData";
+import { blogPostBySlug } from "@/lib/seo-data/blogData";
 
 const PILLAR_PUBLISHED = "2026-04-01";
 

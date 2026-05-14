@@ -6,7 +6,7 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/satTools";
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 // Admitted-student SAT middle-50% ranges (25th–75th percentile) for a curated
 // list of US colleges. Values are approximations of the most recent Common

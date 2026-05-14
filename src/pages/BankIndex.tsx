@@ -33,7 +33,7 @@ import {
   MAX_TIME_SPENT_FILTER_SECONDS,
 } from "@/components/QuestionBankFilterPanel";
 import { BankSourceToggle } from "@/components/BankSourceToggle";
-import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/nearDuplicateSpacing";
+import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 import {
   useUserProgress,
   isQuestionSolved,

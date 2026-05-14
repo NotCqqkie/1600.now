@@ -30,7 +30,7 @@ import { useThemeMode } from "@/hooks/useThemeMode";
 import {
   getAllPracticeTestResults,
   type PracticeTestResult,
-} from "@/lib/practiceTestSession";
+} from "@/lib/practice/practiceTestSession";
 
 // ─── Category map (same as Profile.tsx) ───────────────────────────────────
 

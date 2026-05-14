@@ -63,7 +63,7 @@ const loadAuthDependencies = async () => {
   if (!authDependenciesPromise) {
     authDependenciesPromise = Promise.all([
       import("firebase/auth"),
-      import("@/lib/firebaseAuth"),
+      import("@/lib/firebase/firebaseAuth"),
     ]).then(([authModule, firebaseModule]) => ({
       auth: firebaseModule.auth,
       firebaseConfigError: firebaseModule.firebaseConfigError,

@@ -5,7 +5,7 @@ import {
   buildArticleJsonLd,
   buildBreadcrumbJsonLd,
 } from "@/components/seo/PageSeo";
-import { blogPostBySlug, blogPosts } from "@/lib/blogData";
+import { blogPostBySlug, blogPosts } from "@/lib/seo-data/blogData";
 
 const BlogPost = () => {
   const { slug = "" } = useParams();

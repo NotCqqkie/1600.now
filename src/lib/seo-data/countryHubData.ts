@@ -1,4 +1,4 @@
-import { hreflangGroup } from "@/lib/hreflangData";
+import { hreflangGroup } from "@/lib/seo-data/hreflangData";
 
 export { hreflangGroup };
 

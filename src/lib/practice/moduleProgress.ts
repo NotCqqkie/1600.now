@@ -1,5 +1,5 @@
 import type { PracticeModule } from "@/data/modulePracticeBank";
-import { getLatestModulePracticeResult } from "@/lib/modulePracticeSession";
+import { getLatestModulePracticeResult } from "@/lib/practice/modulePracticeSession";
 
 export interface ModuleProgressCounts {
   correct: number;

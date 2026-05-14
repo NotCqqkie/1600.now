@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Lightbulb } from "lucide-react";
 import { DraggableWindow } from "./DraggableWindow";
 import { StepByStepExplanation } from "./StepByStepExplanation";
-import { renderMixedContent } from "@/lib/mathRendering";
-import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
+import { renderMixedContent } from "@/lib/text/mathRendering";
+import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import type { ExplanationData } from "@/lib/explanationApi";
 
 interface ExplanationWindowProps {

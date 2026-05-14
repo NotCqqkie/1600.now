@@ -55,9 +55,9 @@ import {
 } from "@/data/questionBank";
 import { getSynthesizedPracticeQuestion } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
-import { answersEquivalent } from "@/lib/answerEquivalence";
-import { renderMixedContent } from "@/lib/mathRendering";
-import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
+import { answersEquivalent } from "@/lib/text/answerEquivalence";
+import { renderMixedContent } from "@/lib/text/mathRendering";
+import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { applyTheme } from "@/lib/theme";
 import { getPracticeModule, getPracticeSet } from "@/data/modulePracticeBank";
 import {
@@ -72,7 +72,7 @@ import {
   saveModulePracticeSession,
   type ModulePracticeQuestionState,
   type ModulePracticeSessionMeta,
-} from "@/lib/modulePracticeSession";
+} from "@/lib/practice/modulePracticeSession";
 import {
   buildPracticeTestSessionAfterCurrentModuleSubmit,
   buildPracticeTestResult,
@@ -86,7 +86,7 @@ import {
   savePracticeTestSession,
   tickPracticeTestActiveModule,
   type PracticeTestSessionMeta,
-} from "@/lib/practiceTestSession";
+} from "@/lib/practice/practiceTestSession";
 import { useUserProgress } from "@/hooks/useUserProgress";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import "katex/dist/katex.min.css";

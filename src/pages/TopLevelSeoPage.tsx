@@ -4,9 +4,9 @@ import NotFound from "@/pages/NotFound";
 import LandingVariant from "@/pages/LandingVariant";
 import PillarPage from "@/pages/PillarPage";
 import ScoreGoalPage from "@/pages/ScoreGoalPage";
-import { landingVariantBySlug } from "@/lib/landingVariants";
-import { pillarBySlug } from "@/lib/pillarData";
-import { scoreGoalBySlug } from "@/lib/scoreGoalData";
+import { landingVariantBySlug } from "@/lib/seo-data/landingVariants";
+import { pillarBySlug } from "@/lib/seo-data/pillarData";
+import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
 
 const TopLevelSeoPage = () => {
   const location = useLocation();

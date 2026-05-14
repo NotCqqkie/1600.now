@@ -9,7 +9,7 @@ import {
   setDoc,
 } from "firebase/firestore";
 
-import { db } from "@/lib/firebaseDb";
+import { db } from "@/lib/firebase/firebaseDb";
 
 export const REPORT_REASONS = [
   { key: "incorrectAnswer", label: "Incorrect answer" },

@@ -9,18 +9,18 @@ import {
 import {
   classifyModuleCompletion,
   getModuleProgressCounts,
-} from "@/lib/moduleProgress";
+} from "@/lib/practice/moduleProgress";
 import {
   clearModulePracticeSession,
   getModulePracticeSession,
-} from "@/lib/modulePracticeSession";
-import { launchModulePractice } from "@/lib/modulePracticeNavigation";
+} from "@/lib/practice/modulePracticeSession";
+import { launchModulePractice } from "@/lib/practice/modulePracticeNavigation";
 import {
   clearPracticeTestSession,
   getPracticeTestSession,
   type PracticeTestSessionMeta,
-} from "@/lib/practiceTestSession";
-import { launchPracticeTest } from "@/lib/practiceTestNavigation";
+} from "@/lib/practice/practiceTestSession";
+import { launchPracticeTest } from "@/lib/practice/practiceTestNavigation";
 import { Button } from "@/components/ui/button";
 import {
   Card,

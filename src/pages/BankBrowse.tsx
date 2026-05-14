@@ -39,7 +39,7 @@ import {
   Shuffle,
 } from "lucide-react";
 import { BankSourceToggle } from "@/components/BankSourceToggle";
-import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/nearDuplicateSpacing";
+import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
 
 const domainIcons: Record<string, string> = {
   "Algebra": "📐",

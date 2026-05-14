@@ -1,6 +1,6 @@
 import { Link, useParams, Navigate } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { satFaqPageBySlug, satFaqPages } from "@/lib/satFaqData";
+import { satFaqPageBySlug, satFaqPages } from "@/lib/seo-data/satFaqData";
 
 const SatFaqPage = () => {
   const { slug } = useParams<{ slug: string }>();

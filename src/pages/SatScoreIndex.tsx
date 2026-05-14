@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { allSatScores } from "@/lib/satScoreData";
+import { allSatScores } from "@/lib/seo-data/satScoreData";
 
 const title = "SAT Score Breakdowns: Every 400–1600 SAT Score Explained";
 const description =

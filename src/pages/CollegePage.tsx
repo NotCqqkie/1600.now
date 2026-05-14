@@ -10,7 +10,7 @@ import {
   formatPct,
   formatUsd,
   type College,
-} from "@/lib/collegesData";
+} from "@/lib/seo-data/collegesData";
 
 const chanceLabel = (sat: number, c: College): string => {
   if (!c.sat25 || !c.sat75) return "Check the admissions page for current ranges.";

@@ -5,7 +5,7 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { allSatScores, getScoreProfile } from "@/lib/satScoreData";
+import { allSatScores, getScoreProfile } from "@/lib/seo-data/satScoreData";
 
 const SatScoreDetail = () => {
   const { score: scoreParam } = useParams();

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { seoVocabEntries } from "@/lib/vocabSeo";
+import { seoVocabEntries } from "@/lib/seo-data/vocabSeo";
 
 const faqs = [
   {

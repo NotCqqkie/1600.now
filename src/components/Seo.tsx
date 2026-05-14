@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from "react";
 import { matchPath, useLocation } from "react-router-dom";
-import { hreflangGroup } from "@/lib/hreflangData";
+import { hreflangGroup } from "@/lib/seo-data/hreflangData";
 import {
   BRAND_ALTERNATE,
   BRAND_NAME,

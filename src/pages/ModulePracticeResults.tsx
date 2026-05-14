@@ -11,10 +11,10 @@ import {
   getLatestModulePracticeResult,
   getModulePracticeResult,
   type ModulePracticeQuestionResult,
-} from "@/lib/modulePracticeSession";
+} from "@/lib/practice/modulePracticeSession";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
-import { renderMixedContent } from "@/lib/mathRendering";
-import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
+import { renderMixedContent } from "@/lib/text/mathRendering";
+import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 
 const formatTime = (seconds: number) => {
   if (!seconds) return "0s";

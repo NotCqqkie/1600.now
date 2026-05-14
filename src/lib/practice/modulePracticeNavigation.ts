@@ -9,7 +9,7 @@ import {
   saveModulePracticeSession,
   type ModulePracticeSessionMeta,
   type ModulePracticeSettings,
-} from "@/lib/modulePracticeSession";
+} from "@/lib/practice/modulePracticeSession";
 
 type LaunchModulePracticeArgs = {
   module: PracticeModule;

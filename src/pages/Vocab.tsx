@@ -3,7 +3,7 @@ import { vocabularySets } from "@/data/vocabulary";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
-import { db } from "@/lib/firebaseDb";
+import { db } from "@/lib/firebase/firebaseDb";
 import { doc, setDoc } from "firebase/firestore";
 
 /* ═══════════════════════════════════════════════

@@ -27,7 +27,7 @@ import {
   savePracticeTestSession,
   savePracticeTestResult,
   tickPracticeTestActiveModule,
-} from "@/lib/practiceTestSession";
+} from "@/lib/practice/practiceTestSession";
 import { cn } from "@/lib/utils";
 
 const formatClock = (seconds: number) => {

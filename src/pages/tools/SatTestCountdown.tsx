@@ -6,7 +6,7 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/satTools";
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 // Upcoming Digital SAT administrations announced by College Board for the
 // 2025–26 and 2026–27 testing years. International and US dates are the same

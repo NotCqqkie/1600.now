@@ -10,11 +10,11 @@ import {
   getLatestPracticeTestResult,
   getPracticeTestResult,
   type PracticeTestQuestionResult,
-} from "@/lib/practiceTestSession";
+} from "@/lib/practice/practiceTestSession";
 import { getPracticeSet } from "@/data/modulePracticeBank";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
-import { renderMixedContent } from "@/lib/mathRendering";
-import { normalizeReadingDisplayText } from "@/lib/readingTextNormalization";
+import { renderMixedContent } from "@/lib/text/mathRendering";
+import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 
 const lerp = (start: number, end: number, amount: number) =>
   start + (end - start) * amount;

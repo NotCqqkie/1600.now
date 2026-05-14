@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { doc, setDoc } from "firebase/firestore";
 import { useAuth } from "@/contexts/AuthContext";
 import { useUserProgress } from "@/hooks/useUserProgress";
-import { db } from "@/lib/firebaseDb";
+import { db } from "@/lib/firebase/firebaseDb";
 import {
   getPersonalizationPreferences,
   resetPersonalizationPreferences,

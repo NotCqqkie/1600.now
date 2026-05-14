@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronUp, ChevronDown } from "lucide-react";
-import { renderMixedContent } from "@/lib/mathRendering";
+import { renderMixedContent } from "@/lib/text/mathRendering";
 import {
   getCachedExplanation,
   type ExplanationData,

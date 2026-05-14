@@ -3,9 +3,9 @@ import {
   isEscapedAt,
   isLikelyInlineMath,
   normalizeTextForMathRendering,
-} from "@/lib/mathTextNormalization";
+} from "@/lib/text/mathTextNormalization";
 import { normalizePublicAssetPath } from "@/lib/utils";
-import { sanitizeHtml } from "@/lib/sanitizeHtml";
+import { sanitizeHtml } from "@/lib/text/sanitizeHtml";
 
 type RenderMixedContentOptions = {
   normalizeMath?: boolean;

@@ -6,7 +6,7 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { colleges, formatPct } from "@/lib/collegesData";
+import { colleges, formatPct } from "@/lib/seo-data/collegesData";
 
 const CollegeIndex = () => {
   const [query, setQuery] = useState("");

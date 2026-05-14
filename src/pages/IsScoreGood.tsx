@@ -1,6 +1,6 @@
 import { Link, useLocation, Navigate } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { getScoreProfile } from "@/lib/satScoreData";
+import { getScoreProfile } from "@/lib/seo-data/satScoreData";
 
 const VALID_SCORES = (() => {
   const s: number[] = [];

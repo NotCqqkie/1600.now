@@ -1,6 +1,6 @@
 import { Link, useLocation, Navigate } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd } from "@/components/seo/PageSeo";
-import { landingVariantBySlug } from "@/lib/landingVariants";
+import { landingVariantBySlug } from "@/lib/seo-data/landingVariants";
 
 const LandingVariant = () => {
   const location = useLocation();

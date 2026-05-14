@@ -8,7 +8,7 @@ import { BrandLogo } from "@/components/BrandLogo";
 import { useAuth } from "@/contexts/AuthContext";
 import { getAuthReturnTo } from "@/components/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
-import { describeAuthError } from "@/lib/authErrors";
+import { describeAuthError } from "@/lib/firebase/authErrors";
 import { Loader2, CheckCircle } from "lucide-react";
 
 const GoogleIcon = () => (

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
-import { renderMixedContent } from "@/lib/mathRendering";
+import { renderMixedContent } from "@/lib/text/mathRendering";
 import { Button } from "@/components/ui/button";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import "katex/dist/katex.min.css";

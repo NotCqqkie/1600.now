@@ -1,6 +1,6 @@
 import type { PracticeModule } from "@/data/modulePracticeBank";
 import type { BankQuestion } from "@/data/questionBank";
-import { answersEquivalent } from "@/lib/answerEquivalence";
+import { answersEquivalent } from "@/lib/text/answerEquivalence";
 
 export type ModulePracticeQuestionStatus =
   | "unanswered"

@@ -12,8 +12,8 @@ import {
   getPracticeTestSession,
   getPracticeTestDefaultTimeLimitSeconds,
   type PracticeTestSettings,
-} from "@/lib/practiceTestSession";
-import { launchPracticeTest } from "@/lib/practiceTestNavigation";
+} from "@/lib/practice/practiceTestSession";
+import { launchPracticeTest } from "@/lib/practice/practiceTestNavigation";
 
 type TimedPreset = "normal" | "1.5x" | "2x" | "advanced";
 

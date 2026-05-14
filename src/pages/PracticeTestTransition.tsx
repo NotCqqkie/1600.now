@@ -3,7 +3,7 @@ import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { buildPracticeTestQuestionSet, getPracticeSet } from "@/data/modulePracticeBank";
-import { getPracticeTestSession, savePracticeTestSession } from "@/lib/practiceTestSession";
+import { getPracticeTestSession, savePracticeTestSession } from "@/lib/practice/practiceTestSession";
 
 const formatClock = (seconds: number) => {
   const minutes = Math.floor(seconds / 60);

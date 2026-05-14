@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Picks 3 stable sample questions per SAT skill out of the question bank and
-// writes them to src/lib/skillSampleQuestions.generated.ts. The skill pages
+// writes them to src/lib/generated/skillSampleQuestions.generated.ts. The skill pages
 // import the generated file so the full 15MB bank never ships to a user who
 // only lands on a skill SEO page.
 //
@@ -154,7 +154,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = `;
 const body = JSON.stringify(samplesBySlug, null, 2) + ";\n";
 
 writeFileSync(
-  path.join(root, "src/lib/skillSampleQuestions.generated.ts"),
+  path.join(root, "src/lib/generated/skillSampleQuestions.generated.ts"),
   header + body,
 );
 
@@ -183,7 +183,7 @@ export const BANK_TOTAL_ALL = ${mathBank.length + readingBank.length + unofficia
 export const BANK_COUNT_BY_OFFICIAL_SKILL: Record<string, number> = `;
 
 writeFileSync(
-  path.join(root, "src/lib/bankTotals.generated.ts"),
+  path.join(root, "src/lib/generated/bankTotals.generated.ts"),
   totalsHeader + JSON.stringify(skillTotals, null, 2) + ";\n",
 );
 

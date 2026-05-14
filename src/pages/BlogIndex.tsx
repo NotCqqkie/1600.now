@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { blogPosts } from "@/lib/blogData";
+import { blogPosts } from "@/lib/seo-data/blogData";
 
 const title = "1600.now Blog: Digital SAT Prep Guides & Strategy";
 const description =

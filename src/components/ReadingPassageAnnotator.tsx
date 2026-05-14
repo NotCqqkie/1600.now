@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
-import { sanitizeHtml } from "@/lib/sanitizeHtml";
+import { sanitizeHtml } from "@/lib/text/sanitizeHtml";
 
 type AnnotationColor = "yellow" | "green" | "blue" | "pink";
 

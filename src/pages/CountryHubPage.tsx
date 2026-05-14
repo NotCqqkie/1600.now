@@ -10,7 +10,7 @@ import {
   countryPages,
   hreflangGroup,
   type CountryHubConfig,
-} from "@/lib/countryHubData";
+} from "@/lib/seo-data/countryHubData";
 
 const CountryHubPage = () => {
   const location = useLocation();

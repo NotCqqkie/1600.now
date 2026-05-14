@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
-import { db } from '@/lib/firebaseDb';
+import { db } from '@/lib/firebase/firebaseDb';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import {
   applyPersonalizationPreferences,

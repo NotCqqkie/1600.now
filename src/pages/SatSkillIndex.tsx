@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { satSkills } from "@/lib/satSkillsData";
+import { satSkills } from "@/lib/seo-data/satSkillsData";
 
 const title = "Digital SAT Skills List: Every Math & Reading Skill Tested";
 const description =

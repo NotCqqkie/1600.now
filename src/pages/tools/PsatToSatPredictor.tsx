@@ -6,7 +6,7 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { satToolBySlug } from "@/lib/satTools";
+import { satToolBySlug } from "@/lib/seo-data/satTools";
 
 // PSAT 10 / PSAT-NMSQT scale is 320–1520 and shares a single vertical
 // scale with the SAT (400–1600). Per College Board guidance, a PSAT of

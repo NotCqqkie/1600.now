@@ -6,9 +6,9 @@ import {
   buildFaqJsonLd,
   buildQuizJsonLd,
 } from "@/components/seo/PageSeo";
-import { satSkillBySlug, satSkills } from "@/lib/satSkillsData";
-import { skillSampleQuestions } from "@/lib/skillSampleQuestions.generated";
-import { renderMixedContent } from "@/lib/mathRendering";
+import { satSkillBySlug, satSkills } from "@/lib/seo-data/satSkillsData";
+import { skillSampleQuestions } from "@/lib/generated/skillSampleQuestions.generated";
+import { renderMixedContent } from "@/lib/text/mathRendering";
 
 const SatSkillDetail = () => {
   const { slug = "" } = useParams();

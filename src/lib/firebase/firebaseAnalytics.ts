@@ -1,4 +1,4 @@
-import { app } from "@/lib/firebaseApp";
+import { app } from "@/lib/firebase/firebaseApp";
 
 type AnalyticsBundle = {
   analytics: import("firebase/analytics").Analytics;

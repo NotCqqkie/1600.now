@@ -9,7 +9,7 @@ import {
 import {
   countryHubByCode,
   countryPageBySlug,
-} from "@/lib/countryHubData";
+} from "@/lib/seo-data/countryHubData";
 
 const CountryTopicPage = () => {
   const location = useLocation();

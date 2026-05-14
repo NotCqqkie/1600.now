@@ -9,7 +9,7 @@ import {
   getModulePracticeQuestionState,
   getModulePracticeSession,
   saveModulePracticeResult,
-} from "@/lib/modulePracticeSession";
+} from "@/lib/practice/modulePracticeSession";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import { cn } from "@/lib/utils";
 

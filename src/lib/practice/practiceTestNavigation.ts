@@ -11,7 +11,7 @@ import {
   savePracticeTestSession,
   type PracticeTestSettings,
   type PracticeTestSessionMeta,
-} from "@/lib/practiceTestSession";
+} from "@/lib/practice/practiceTestSession";
 
 type LaunchPracticeTestArgs = {
   practiceSet: PracticeSet;

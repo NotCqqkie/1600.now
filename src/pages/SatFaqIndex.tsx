@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd } from "@/components/seo/PageSeo";
-import { satFaqPages } from "@/lib/satFaqData";
+import { satFaqPages } from "@/lib/seo-data/satFaqData";
 
 const SatFaqIndex = () => {
   const title = "SAT FAQ: Answers to the Most Common SAT Questions";

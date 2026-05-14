@@ -7,8 +7,8 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { scoreGoalBySlug } from "@/lib/scoreGoalData";
-import { getScoreProfile, allSatScores } from "@/lib/satScoreData";
+import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
+import { getScoreProfile, allSatScores } from "@/lib/seo-data/satScoreData";
 
 const SCORE_GOAL_PUBLISHED = "2026-04-01";
 

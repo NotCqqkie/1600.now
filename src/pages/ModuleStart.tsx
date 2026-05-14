@@ -12,8 +12,8 @@ import {
   getModulePracticeMaximumTimeMinutes,
   getModulePracticeSession,
   type ModulePracticeSettings,
-} from "@/lib/modulePracticeSession";
-import { launchModulePractice } from "@/lib/modulePracticeNavigation";
+} from "@/lib/practice/modulePracticeSession";
+import { launchModulePractice } from "@/lib/practice/modulePracticeNavigation";
 
 const ModuleStart = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
