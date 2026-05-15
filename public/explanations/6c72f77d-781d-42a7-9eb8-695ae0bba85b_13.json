@@ -1,17 +1,1 @@
-{
-  "questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_13",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize the discriminant condition",
-      "content": "A quadratic equation has exactly one solution when its discriminant equals zero. In our equation $-2x^2 + 20x + c = 0$, identify the coefficients: $a = -2$, $b = 20$, and the unknown $c$.",
-      "formula": "$$\\Delta = b^2 - 4ac$$"
-    },
-    {
-      "title": "Solve for c using the discriminant condition",
-      "content": "Set the discriminant equal to zero and solve for $c$:<br/>$$20^2 - 4(-2)c = 0$$<br/>$$400 + 8c = 0$$<br/>$$c = -50$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = -2x^{2} + 20x + c", "c = -50"]
-    }
-  ]
-}
+{"questionId":"6c72f77d-781d-42a7-9eb8-695ae0bba85b_13","correctAnswer":"B","section":"Math","steps":[{"title":"Discriminant shortcut: one solution means \\(\\Delta = 0\\)","content":"For $-2x^{2} + 20x + c = 0$, identify $a = -2$, $b = 20$. Set $b^{2} - 4ac = 0$:"},{"title":"Solve for c","content":"$$20^{2} - 4(-2)(c) = 0$$$$400 + 8c = 0 \\implies c = -50.$$<br/>That matches choice B — <strong>B</strong> is correct.","desmosExpressions":["y = -2x^{2} + 20x + c","c = -50"]}]}

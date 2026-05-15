@@ -1,16 +1,1 @@
-{
-  "questionId": "0451d754",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Extract the slope of line k from its equation",
-      "content": "Line $k$ is given as $y = \\frac{17}{7}x + 4$. This equation is in slope-intercept form $y = mx + b$, where the slope is the coefficient of $x$. The slope of line $k$ is $\\frac{17}{7}$."
-    },
-    {
-      "title": "Apply the parallel lines shortcut",
-      "content": "Parallel lines have the same slope. Since line $j$ is parallel to line $k$, line $j$ must have the same slope as line $k$. Therefore, the slope of line $j$ is $\\frac{17}{7}$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["y=\\frac{17}{7}x+4"]
-    }
-  ]
-}
+{"questionId": "0451d754", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the slope of line k", "content": "Line $k$: $y = \\tfrac{17}{7}x + 4$. Slope = $\\tfrac{17}{7}$."}, {"title": "Parallel lines share the same slope", "content": "Parallel shortcut: equal slopes. Line $j \\parallel k$, so slope of $j = \\tfrac{17}{7}$. That matches choice B — <strong>B</strong> is correct."}]}

@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the vertex x-coordinate from the roots",
-      "content": "Since the quadratic has roots at $x = -20$ and $x = -4$, the x-coordinate of the vertex lies on the axis of symmetry\u2014which is always the midpoint between the two roots. Calculate directly: $$r = \\frac{-20 + (-4)}{2} = \\frac{-24}{2} = -12$$"
+      "title": "Vertex shortcut: vertex x-coordinate $=$ midpoint of the two roots",
+      "content": "Roots are $x = -20$ and $x = -4$."
+    },
+    {
+      "title": "Compute the midpoint",
+      "content": "$$r = \\frac{-20 + (-4)}{2} = \\frac{-24}{2} = -12$$<br/>That matches choice -12 — <strong>-12</strong> is correct."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that a + b + c equals the parabola's value at x = 1",
-      "content": "Substituting $x = 1$ into $y = ax^2 + bx + c$ gives $y(1) = a + b + c$. We need to find the y-value at $x = 1$."
+      "title": "Vertex form shortcut: write the parabola using $(9, -14)$",
+      "content": "Vertex form: $y = a(x-9)^2 - 14$. Two x-intercepts with vertex below the x-axis ($-14 &lt; 0$) requires $a &gt; 0$ (opens upward)."
     },
     {
-      "title": "Determine that a > 0 using the vertex and intersection conditions",
-      "content": "The vertex is at $(9, -14)$, where $y = -14 < 0$. Since the parabola intersects the x-axis at two points, it must open upward. Therefore $a > 0$."
-    },
-    {
-      "title": "Evaluate the parabola at x = 1",
-      "content": "Using vertex form $y = a(x - 9)^2 - 14$, at $x = 1$:<br/>$$y(1) = a(1 - 9)^2 - 14 = 64a - 14$$Since $a > 0$, we have $y(1) > -14$. Among the choices, only $-12 > -14$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "title": "$a + b + c = f(1)$: evaluate at $x = 1$",
+      "content": "$$f(1) = a(1-9)^2 - 14 = 64a - 14$$Since $a &gt; 0$, $f(1) &gt; -14$. Only choice $-12 &gt; -14$. That matches choice D — <strong>D</strong> is correct.",
       "desmosExpressions": ["y=a(x)^(2)+bx+c"]
     }
   ]

@@ -4,13 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the perpendicularity property",
-      "content": "At any point on a circle, the tangent line is perpendicular to the radius. The radius connects the center $(2, 7)$ to the tangency point $(a, -4)$, so its slope is:<br/>$$m_{\\text{radius}} = \\frac{-4 - 7}{a - 2} = \\frac{-11}{a - 2}$$<br/>For two perpendicular lines, their slopes multiply to $-1$."
+      "title": "Tangent ⊥ radius — find the radius slope",
+      "content": "A tangent line is always perpendicular to the radius at the point of tangency. The radius goes from center $(2, 7)$ to point $(a, -4)$, giving slope: $$m_{\\text{radius}} = \\frac{-4 - 7}{a - 2} = \\frac{-11}{a - 2}.$$"
     },
     {
-      "title": "Solve using the perpendicularity condition",
-      "content": "Set up the equation:<br/>$$\\frac{-11}{a - 2} \\cdot \\frac{6}{5} = -1$$<br/>Simplify the left side:<br/>$$\\frac{-66}{5(a - 2)} = -1$$<br/>Multiply both sides by $5(a - 2)$:<br/>$$-66 = -5(a - 2)$$<br/>Expand and solve:<br/>$$-66 = -5a + 10$$<br/>$$-76 = -5a$$<br/>$$a = \\frac{76}{5}$$<br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": ["(x-2)^{2} + (y-7)^{2} = (x-2)^{2} + 121", "(2, 7)", "y - (-4) = \\frac{6}{5}(x - a)"]
+      "title": "Use the negative-reciprocal rule and solve",
+      "content": "For perpendicular lines, $m_{\\text{radius}} = -\\frac{1}{m_{\\text{tangent}}} = -\\frac{5}{6}$. Set up: $$\\frac{-11}{a - 2} = -\\frac{5}{6} \\implies 5(a - 2) = 66 \\implies a = \\frac{76}{5}.$$ That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

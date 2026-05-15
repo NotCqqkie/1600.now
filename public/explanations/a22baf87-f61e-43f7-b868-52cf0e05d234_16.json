@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the slope and equation of line s",
-      "content": "The line $y = 36x + 6$ has slope 36. Since line $s$ is parallel, it has the same slope: 36.<br/><br/>Line $s$ passes through $(0,0)$ with slope 36. Using the slope-intercept form $y = mx + b$:<br/>$$y = 36x + 0 = 36x$$"
+      "title": "Parallel lines share the same slope",
+      "content": "The given line $y = 36x + 6$ has slope $36$. Parallel lines have equal slopes, so line $s$ also has slope $36$. Line $s$ passes through $(0, 0)$, giving: $$y = 36x.$$"
     },
     {
-      "title": "Evaluate at the point (9, d)",
-      "content": "Since $(9,d)$ lies on line $s$ with equation $y = 36x$, substitute $x = 9$:<br/>$$d = 36(9) = 324$$",
-      "desmosExpressions": ["y = 36x + 6", "y = 36x", "(9, 324)"]
+      "title": "Evaluate at x = 9",
+      "content": "Substitute $x = 9$: $$d = 36(9) = 324.$$ That matches choice 324 — <strong>324</strong> is correct.",
+      "desmosExpressions": ["y=36x+6", "y=36x", "(9,324)"]
     }
   ]
 }

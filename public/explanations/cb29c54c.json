@@ -1,18 +1,1 @@
-{
-  "questionId": "cb29c54c",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize vertex form and read vertex coordinates directly",
-      "content": "The equation $y = -16(x - 5.6)^2 + 502$ is already in vertex form $y = a(x - h)^2 + k$. From the structure of the equation, the vertex is at $(h, k) = (5.6, 502)$."
-    },
-    {
-      "title": "Interpret the vertex in context and select the answer",
-      "content": "In this problem, $x$ represents seconds after launch and $y$ represents height in feet.<br/><br/>Since the coefficient $a = -16 < 0$, the parabola opens downward, so the vertex represents the maximum height.<br/><br/>The vertex $(5.6, 502)$ means the rocket reaches a maximum height of $502$ feet at $5.6$ seconds after launch.<br/><br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y=-16((x-5.6))^(2)+502"
-      ]
-    }
-  ]
-}
+{"questionId":"cb29c54c","correctAnswer":"B","section":"Math","steps":[{"title":"Read the vertex from vertex form","content":"$y=-16(x-5.6)^2+502$ is in vertex form $a(x-h)^2+k$, so $(h,k)=(5.6,502)$ directly — no algebra needed."},{"title":"Interpret the vertex","content":"Since $a=-16&lt;0$, the parabola opens downward — the vertex is the maximum. The rocket reaches its maximum height of $502$ ft at $t=5.6$ seconds. That matches choice B — <strong>B</strong> is correct.","desmosExpressions":["y=-16(x-5.6)^2+502"]}]}

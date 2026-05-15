@@ -4,16 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Complete the square to find vertex form",
-      "content": "Since the coefficient of $x^2$ is positive, the parabola opens upward and has a minimum at its vertex. The fastest approach is to complete the square. Take half the coefficient of $x$: $\\frac{1}{2} \\cdot \\frac{27}{2} = \\frac{27}{4}$. Then add and subtract the square of this value:<br/>$$g(x) = x^2 + \\frac{27}{2}x + \\left(\\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$$<br/>$$= \\left(x + \\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$$"
+      "title": "Identify a, b, c",
+      "content": "$g(x) = x^2 + \\frac{27}{2}x$ gives $a = 1$, $b = \\frac{27}{2}$, $c = 0$."
     },
     {
-      "title": "Extract the minimum value from vertex form",
-      "content": "In the form $g(x) = \\left(x + \\frac{27}{4}\\right)^2 - \\left(\\frac{27}{4}\\right)^2$, the squared term $\\left(x + \\frac{27}{4}\\right)^2$ is always non-negative. Therefore, the minimum value occurs when this term equals 0:<br/>$$g_{min} = 0 - \\left(\\frac{27}{4}\\right)^2 = -\\left(\\frac{27}{4}\\right)^2$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "g(x) = x^2 + (27/2)x",
-        "(-27/4, -729/16)"
-      ]
+      "title": "Vertex shortcut: minimum = $c - \\dfrac{b^2}{4a}$",
+      "content": "For an upward parabola, the minimum value is $c - \\dfrac{b^2}{4a}$. Plug in: $0 - \\dfrac{(27/2)^2}{4 \\cdot 1} = -\\dfrac{729/4}{4} = -\\dfrac{729}{16} = -\\!\\left(\\dfrac{27}{4}\\right)^2$.",
+      "desmosExpressions": ["y=x^2+(27/2)x", "-(27/4)^2"]
+    },
+    {
+      "title": "Match the answer",
+      "content": "The minimum value is $-\\!\\left(\\dfrac{27}{4}\\right)^2$. That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

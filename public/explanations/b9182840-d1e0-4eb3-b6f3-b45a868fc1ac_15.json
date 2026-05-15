@@ -1,15 +1,1 @@
-{
-  "questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the slope of line t",
-      "content": "The equation $y = -\\frac{1}{2}x + 14$ is in slope-intercept form. The slope is $m_t = -\\frac{1}{2}$."
-    },
-    {
-      "title": "Apply the perpendicular slopes rule",
-      "content": "For perpendicular lines, slopes are negative reciprocals. The slope of line s is:$$m_s = -\\frac{1}{m_t} = -\\frac{1}{-\\frac{1}{2}} = 2$$This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_15", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read the slope of line t", "content": "$y = -\\dfrac{1}{2}x + 14$ gives $m_t = -\\dfrac{1}{2}$."}, {"title": "Perpendicular slope = negative reciprocal", "content": "$$m_s = -\\frac{1}{m_t} = -\\frac{1}{-1/2} = 2$$<br/>That matches choice B — <strong>B</strong> is correct."}]}

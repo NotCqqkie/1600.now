@@ -1,15 +1,1 @@
-{
-  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_17",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Apply the zero-product property to the numerator",
-      "content": "A fraction equals zero when its numerator is zero and its denominator is nonzero. The numerator is $(x-3)(x-8)$. Since it's already factored, setting it equal to zero gives the solutions $$x=3 \\quad \\text{or} \\quad x=8$$"
-    },
-    {
-      "title": "Verify solutions and sum them",
-      "content": "Check that neither solution makes the denominator zero.<br/>When $x=3$: $3-2=1\\neq 0$ \u2713<br/>When $x=8$: $8-2=6\\neq 0$ \u2713<br/>Both solutions are valid. Their sum is $$3+8=11$$ That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9c1847da-e82b-4814-a0ec-0b4f99891322_17","correctAnswer":"C","section":"Math","steps":[{"title":"Read the roots from the factored numerator","content":"<strong>Shortcut (Vieta's):</strong> The fraction equals zero only when its numerator equals zero. The numerator $(x-3)(x-8)$ is already factored, giving roots $x = 3$ and $x = 9$. Wait — $(x-8) = 0$ gives $x = 8$. Roots are $x = 3$ and $x = 8$. The excluded value $x = 2$ is neither, so both roots are valid."},{"title":"Sum of roots directly","content":"Sum $= 3 + 8 = 11$. By Vieta's, the numerator expands to $x^2 - 11x + 24$, confirming sum $= -(-11)/1 = 11$. That matches choice C — <strong>C</strong> is correct.","desmosExpressions":["(x-3)(x-8)/(x-2)=0"]}]}
