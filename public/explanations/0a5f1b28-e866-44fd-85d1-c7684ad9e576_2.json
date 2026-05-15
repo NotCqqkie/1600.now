@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the context clue",
-      "content": "The strongest signal is that Alexander is \"very busy,\" has been at work almost <em>constantly</em>, and avoids social activities — painting a picture of uninterrupted work activity."
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The skill is choosing the word that best captures the meaning of \"constantly\" as used in the passage. The decisive clue is the surrounding context: Alexander avoided clubs, worked almost ______ every day, and was described as \"very busy\" — painting a picture of uninterrupted, relentless effort."
     },
     {
-      "title": "Match the meaning",
-      "content": "The word \"constantly\" needs to mean without stopping — Alexander avoided clubs and worked almost ______ every day. Substitute each choice:\n<ul>\n<li><strong>Choice A — Enough</strong>: he was at work almost <em>enough</em> — enough means a sufficient amount; it describes a quantity, not the continuous nature of his effort. ✗</li>\n<li><strong>Choice B — Nonstop</strong>: he was at work almost <em>nonstop</em> — nonstop means without interruption or pause, matching the picture of someone who avoids all social activity to keep working. ✓</li>\n<li><strong>Choice C — Quickly</strong>: he was at work almost <em>quickly</em> — quickly describes speed, not duration or continuity; the passage says nothing about how fast he worked. ✗</li>\n<li><strong>Choice D — Cautiously</strong>: he was at work almost <em>cautiously</em> — cautiously means with care or wariness; the passage emphasizes the unbroken nature of his work, not his carefulness. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Enough'</strong>: &ldquo;Enough&rdquo; describes a sufficient quantity or degree, not continuous duration. Saying he worked almost &ldquo;enough&rdquo; every day would mean nearly a sufficient amount &mdash; that doesn&apos;t match the idea of unbroken, ceaseless effort. &#10007;</li><li><strong>Choice B &mdash; 'Nonstop'</strong>: &ldquo;Nonstop&rdquo; means without pause or interruption. Substituting it: he was at work almost nonstop &mdash; this captures the relentless, unbroken dedication described by &ldquo;constantly,&rdquo; consistent with avoiding clubs and being very busy. &#10003;</li><li><strong>Choice C &mdash; 'Quickly'</strong>: &ldquo;Quickly&rdquo; describes speed, not continuity. The passage says nothing about how fast Alexander worked, only that he worked without stopping. &#10007;</li><li><strong>Choice D &mdash; 'Cautiously'</strong>: &ldquo;Cautiously&rdquo; describes a manner of care or wariness. The passage emphasizes the unbroken duration of his work, not its carefulness. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,1 @@
-{
-  "questionId": "df7af07f-1de4-419a-83e5-dadc9e1caefe_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the defining statement",
-      "content": "The relative clause defines what the Purkinje effect <strong>is</strong>\u2014a phenomenon describing the eye's color perception in low light. When defining what something is or what it does, use simple present tense."
-    },
-    {
-      "title": "Match the tense to the definition",
-      "content": "Simple present \u201cis\u201d (D) is the standard tense for defining what phenomena are and do. The other options fail: \u201chas been\u201d (ongoing process), \u201cwas\u201d (past only), \u201cwill have been\u201d (future)\u2014all fail to express a timeless definition. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"df7af07f-1de4-419a-83e5-dadc9e1caefe_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The relative clause &quot;which ______ the eye's tendency to perceive objects as blue tinted in low-light conditions&quot; defines what the Purkinje effect is. The skill tested is tense: a timeless scientific definition requires simple present tense."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'has been'</strong>: Present perfect implies the definition is an ongoing or recently completed process rather than a permanent, timeless fact; incorrect tense for a scientific definition. &#10007;</li><li><strong>Choice B &mdash; 'will have been'</strong>: Future perfect places the definition in a future timeframe, which is illogical for describing what a phenomenon currently is. &#10007;</li><li><strong>Choice C &mdash; 'was'</strong>: Simple past implies the Purkinje effect no longer describes this phenomenon, contradicting the scientific facts presented. &#10007;</li><li><strong>Choice D &mdash; 'is'</strong>: Simple present is the standard tense for stating timeless scientific definitions; &quot;which is the eye's tendency...&quot; correctly characterizes the Purkinje effect as a permanent phenomenon. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

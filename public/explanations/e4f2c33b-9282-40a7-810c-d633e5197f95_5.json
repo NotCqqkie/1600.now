@@ -1,1 +1,23 @@
-{"questionId":"e4f2c33b-9282-40a7-810c-d633e5197f95_5","correctAnswer":"C","section":"Math","steps":[{"title":"Read the slope of line s","content":"Rewrite $y+16=7x$ as $y=7x-16$. Slope $= 7$."},{"title":"Parallel lines share the same slope","content":"Parallel shortcut: equal slopes. Line $t$ is parallel to line $s$, so slope of line $t$ $= 7$. That matches choice C &mdash; <strong>C</strong> is correct.","desmosExpressions":["y=7x-16"]}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line s",
+      "content": "Rewrite line \\(s\\) in slope-intercept form:<br/>$$y + 16 = 7x \\implies y = 7x - 16$$<br/>Slope of line \\(s\\) = 7, y-intercept = \\(-16\\)."
+    },
+    {
+      "title": "Apply the parallel-lines condition",
+      "content": "Parallel lines have equal slopes and different y-intercepts. So the slope of line \\(t\\) must equal 7. Test each choice as a possible slope of line \\(t\\):<br/><ul><li><strong>Choice A &mdash; \\(-16\\)</strong>: This is the y-intercept of line \\(s\\), not its slope. Slope \\(-16 \\neq 7\\). &#10007;</li><li><strong>Choice B &mdash; \\(-7\\)</strong>: Slope \\(-7 \\neq 7\\). A line with slope \\(-7\\) would be perpendicular in sign but not parallel. &#10007;</li><li><strong>Choice C &mdash; \\(7\\)</strong>: Slope \\(7 = 7\\). Matches the slope of line \\(s\\). &#10003;</li><li><strong>Choice D &mdash; \\(16\\)</strong>: Slope \\(16 \\neq 7\\). &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "The slope of any line parallel to \\(y = 7x - 16\\) is 7. That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7x - 16",
+        "y = 7x + 3"
+      ]
+    }
+  ]
+}

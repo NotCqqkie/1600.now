@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the central relationship being tested",
-      "content": "Grasby <em>et al.</em> investigated whether \u201cperceived category similarity predicts consumers' likelihood of purchasing brand extensions\u201d\u2014the core possibility they tested."
+      "title": "Identify what the question needs",
+      "content": "This is a &quot;which finding would provide evidence&quot; question. Grasby et al. investigated whether perceived category similarity predicts consumers' likelihood of purchasing brand extensions. The decisive structure: they had consumers rate similarity and calculated probability changes &mdash; so evidence that similarity predicts purchase behavior must show those two measures moving together."
     },
     {
-      "title": "Match the supporting evidence",
-      "content": "A strong positive correlation between consumers' similarity ratings and the probability changes proves that similarity predicts purchase behavior. The other findings do not demonstrate this connection. That matches choice <strong>C</strong> \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Consumers' ratings varied substantially by category pair, whereas the changes in probability were broadly similar for each pair.'</strong>: This shows the two measures moving in opposite directions &mdash; high variation in one, low variation in the other &mdash; which is evidence that similarity does NOT predict purchase probability. &#10007;</li><li><strong>Choice B &mdash; 'Consumers tended to purchase more products in categories where extended-brand pairs are found.'</strong>: This compares categories with and without extended-brand pairs, not similarity ratings to probability changes. It does not address the investigated relationship at all. &#10007;</li><li><strong>Choice C &mdash; 'There was a strong positive correlation between consumers' ratings and the changes in probability.'</strong>: A strong positive correlation between similarity ratings and probability changes is exactly what &quot;similarity predicts purchase likelihood&quot; looks like &mdash; higher perceived similarity corresponds to a higher probability of cross-brand purchase. &#10003;</li><li><strong>Choice D &mdash; 'Consumers' ratings and the changes in probability calculated by the researchers [truncated].'</strong>: This choice is incomplete as presented; it describes no meaningful relationship and cannot serve as evidence of anything. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

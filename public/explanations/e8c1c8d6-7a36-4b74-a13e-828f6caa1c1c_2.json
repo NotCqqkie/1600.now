@@ -1,15 +1,1 @@
-{
-  "questionId": "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key contrast",
-      "content": "The passage uses \"but\" to set up a contradiction: the basking shark is classified as a \"full ectotherm,\" yet its body temperature is elevated above the ambient water temperature. The blank must name the relationship between this finding and the classification."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "The blank needs to mean <em>incompatible with</em> or <em>at odds with</em> its classification. Substitute each choice:<ul><li><strong>Choice A — incongruous with</strong>: not in harmony or incompatible — an elevated body temperature is incompatible with being a \"full ectotherm,\" which by definition matches ambient temperature. ✓</li><li><strong>Choice B — subordinate to</strong>: lower in rank or secondary to — this implies a hierarchy between the finding and classification, not a contradiction. ✗</li><li><strong>Choice C — opportune for</strong>: well-timed or advantageous for — the finding doesn't benefit or suit the classification; it conflicts with it. ✗</li><li><strong>Choice D — indicative of</strong>: serving as a sign of — an elevated temperature would indicate endothermy, not confirm the ectotherm classification. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_2","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The skill is Words in Context. The decisive clue is the word &quot;but&quot;: the basking shark was classified as a full ectotherm, yet its body temperature stays above ambient water temperature. A full ectotherm by definition matches ambient temperature, so the finding contradicts the classification. The blank must mean &quot;incompatible with&quot; or &quot;at odds with.&quot;"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;incongruous with&quot;</strong>: means not in harmony or incompatible. An elevated body temperature cannot coexist with a &quot;full ectotherm&quot; classification, which requires temperature to match surroundings &mdash; the two are directly incompatible. &#10003;</li><li><strong>Choice B &mdash; &quot;subordinate to&quot;</strong>: means lower in rank or secondary to. This implies a hierarchy between the finding and the classification, not the contradiction the passage describes. &#10007;</li><li><strong>Choice C &mdash; &quot;opportune for&quot;</strong>: means well-timed or advantageous for. The elevated temperature does not benefit or suit the ectotherm classification &mdash; it conflicts with it. &#10007;</li><li><strong>Choice D &mdash; &quot;indicative of&quot;</strong>: means serving as a sign of or pointing toward. An elevated body temperature would indicate endothermy or regional endothermy, not a full ectotherm classification &mdash; this has causation backwards. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

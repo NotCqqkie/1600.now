@@ -1,1 +1,15 @@
-{"questionId": "5e93039f", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Spot the hidden contrast", "content": "The geyser appears “inhospitable to life” in the opening, but Boyd's quote reveals it's “almost like a cradle for biodiversity.” The transition must show this contradiction."}, {"title": "Match the contrast to the correct word", "content": "<strong>Still</strong> means “nevertheless”—the word that shows the geyser's inhospitable appearance contradicts the reality of its biodiversity.<br/><br/>The other three suggest logical consequence, narrowing, or restatement—none express contradiction.<br/><br/>That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "5e93039f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a transitions question. The first sentence calls Old Faithful &quot;seemingly inhospitable to life;&quot; the second reveals it is &quot;almost like a cradle for biodiversity.&quot; The blank must signal that the second fact is true <em>despite</em> the first &mdash; a concessive (contrast) transition."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;Thus,&apos;</strong>: Signals a result or consequence; implies the biodiversity follows logically from the inhospitable conditions. That is the opposite of what the passage means. &#10007;</li><li><strong>Choice B &mdash; &apos;Specifically,&apos;</strong>: Signals that what follows narrows or elaborates on the prior claim; implies the biodiversity is a specific example of inhospitability rather than a contradiction of it. &#10007;</li><li><strong>Choice C &mdash; &apos;Still,&apos;</strong>: Means &quot;nevertheless&quot; &mdash; signals that the geyser&apos;s thriving biodiversity is true despite its seemingly inhospitable appearance. Correctly marks the concession. &#10003;</li><li><strong>Choice D &mdash; &apos;In other words,&apos;</strong>: Signals a restatement or paraphrase; implies the biodiversity restates the inhospitability claim rather than contradicting it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

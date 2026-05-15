@@ -1,1 +1,15 @@
-{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_11", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify which traits distinguish species with broken-wing display", "content": "Species performing the display (warbler and dove) have shorter incubation periods (13–15 days) and greater breeding capacity (3–7 broods per year), while species without the display (teal and oystercatcher) have longer incubation (25–28 days) and fewer broods (1 each).<br/><br/>The number of parent incubators does not follow this pattern."}, {"title": "Match the answer to the observed associations", "content": "Choice A directly identifies incubation duration and brood capacity as more strongly associated with the behavior than parental numbers—the exact pattern in the data.<br/><br/>The other choices either reverse the relationship, deny the pattern's differential strength, or misread which species have greater reproductive opportunity.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Command of Evidence (quantitative) question. The table compares species that perform broken-wing display against species that do not across three traits: incubation duration, number of broods per year, and number of parental incubators. The correct conclusion must accurately reflect which traits show a stronger or weaker pattern in the table data."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;incubation duration and capacity for multiple broods are more strongly associated with the use of broken-wing display than the number of parental incubators is.&rsquo;</strong>: Species with the display (e.g., warbler, dove) have shorter incubation periods and more broods per year than species without it (e.g., teal, oystercatcher), while the number of parental incubators does not follow a consistent pattern. This matches the table. &#10003;</li><li><strong>Choice B &mdash; &lsquo;among species with more than one parental incubator, the use of broken-wing display is associated with greater incubation duration.&rsquo;</strong>: This gets the direction backward&mdash;display species have <em>shorter</em>, not greater, incubation durations. &#10007;</li><li><strong>Choice C &mdash; &lsquo;capacity for multiple broods, number of parental incubators, and incubation duration are equally associated with the use of broken-wing display.&rsquo;</strong>: The table shows parental incubator count does not track with the display consistently, so the three traits are not equally associated. &#10007;</li><li><strong>Choice D &mdash; &lsquo;broken-wing display is most often observed in species with less opportunity to reproduce in a year due to longer incubation periods.&rsquo;</strong>: This inverts the data&mdash;display species have <em>more</em> broods per year and <em>shorter</em> incubation periods, not fewer opportunities. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

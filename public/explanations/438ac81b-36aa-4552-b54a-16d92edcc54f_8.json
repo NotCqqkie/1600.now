@@ -1,1 +1,15 @@
-{"questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_8", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the central focus", "content": "The text begins by introducing a runestone discovered in Norway and dated to 1–250 CE. The remaining sentences describe what's notable about it (possibly the earliest written words in Scandinavia) and what it could teach researchers."}, {"title": "Match to the broadest accurate topic", "content": "<strong>B</strong> (Iron Age battles) and <strong>D</strong> (a new dating method) aren't discussed. <strong>C</strong> (Zilmer's research interests) is too narrow — Zilmer is just one person quoted.<br/><br/><strong>A</strong> (a runestone found in Norway) captures the entire passage's subject. <strong>A</strong> is correct."}]}
+{
+  "questionId": "438ac81b-36aa-4552-b54a-16d92edcc54f_8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Central Ideas and Details question asking for the main topic of a short passage. The passage introduces a runestone discovered in Norway, gives its estimated carving date (1&ndash;250 CE), and notes what researchers hope to learn from it. The correct answer must cover the entire passage, not just one detail."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'A runestone found in Norway'</strong>: Every sentence in the passage relates to this discovery &mdash; its dating, its significance as the earliest written words in Scandinavia, and what researchers can learn from it. This covers the full scope of the text. &#10003;</li><li><strong>Choice B &mdash; 'Battles of the Iron Age'</strong>: The passage mentions the Iron Age only in the phrase &quot;early Iron Age Scandinavia&quot; as context for the runic alphabets. Battles are never discussed. &#10007;</li><li><strong>Choice C &mdash; 'The research interests of Kristel Zilmer'</strong>: Zilmer appears only in the final sentence as a named expert commenting on the runestone. Her research interests are not the passage's focus. &#10007;</li><li><strong>Choice D &mdash; 'A new method for dating rock samples'</strong>: Carbon dating is mentioned once as the method used to date the site. The passage does not present or evaluate a new dating method &mdash; it is simply cited as a tool. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

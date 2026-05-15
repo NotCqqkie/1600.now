@@ -1,15 +1,1 @@
-{
-  "questionId": "d74788e1",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal",
-      "content": "The word <strong>characteristic</strong> in <strong>These characteristic works</strong> is decisive \u2014 it indicates the examples are typical of Edwards, showing what he is known for."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "<strong>Reputation for</strong> means he is known for painting portraits, fitting the context of celebrated characteristic examples. The other three describe attitudes or external demands unrelated to renown. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"d74788e1","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The skill is Words in Context. The decisive clue is &quot;These characteristic works&quot; in the next sentence &mdash; the examples are described as defining and &quot;esteemed,&quot; so the blank must express that Edwards is widely known for portrait painting, not that he dislikes, doubts, or is obligated to do it."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;complaint about&rsquo;</strong>: means dissatisfaction or grievance &mdash; contradicts the passage&rsquo;s positive framing of his &quot;esteemed&quot; characteristic works. &#10007;</li><li><strong>Choice B &mdash; &lsquo;reputation for&rsquo;</strong>: means widely recognized for an activity &mdash; fits the context of celebrated, characteristic portraits that define his career. &#10003;</li><li><strong>Choice C &mdash; &lsquo;question about&rsquo;</strong>: means uncertainty or doubt &mdash; the text presents his portrait work as an established, defining practice, not something he is uncertain about. &#10007;</li><li><strong>Choice D &mdash; &lsquo;requirement for&rsquo;</strong>: means mandatory obligation &mdash; the text shows portrait painting as a chosen, celebrated hallmark of his art, not an externally imposed duty. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

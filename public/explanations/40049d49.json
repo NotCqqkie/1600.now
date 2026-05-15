@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the condition for infinitely many solutions",
-      "content": "An equation has infinitely many solutions when both sides are identical expressions \u2014 true for all values of $x$. The given equation is $4x+12=\\frac{a(x+3)}{2}$. Notice the left side factors: $4x + 12 = 4(x+3)$, so rewrite it as $$4(x+3) = \\frac{a(x+3)}{2}$$"
+      "title": "State the condition for infinitely many solutions",
+      "content": "An equation in \\(x\\) has infinitely many solutions when both sides are identical expressions for all \\(x\\). Factor the left side: $$4x + 12 = 4(x + 3)$$ So the equation becomes: $$4(x+3) = \\frac{a(x+3)}{2}$$"
     },
     {
-      "title": "Solve for a by matching coefficients",
-      "content": "Multiply both sides by 2 to clear the fraction: $$8(x+3) = a(x+3)$$ For this to be true for all values of $x$, the coefficients of $(x+3)$ on both sides must be equal. Therefore $a = 8$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Solve for a",
+      "content": "Multiply both sides by 2: $$8(x+3) = a(x+3)$$ For this to hold for every \\(x\\), the coefficient of \\((x+3)\\) must match: \\(a = 8\\)."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;0&#39;</strong>: \\(a=0\\) gives \\(4x+12=0\\), true only when \\(x=-3\\) &mdash; exactly one solution, not infinitely many. &#10007;</li><li><strong>Choice B &mdash; &#39;3&#39;</strong>: \\(a=3\\) gives \\(4x+12 = \\frac{3}{2}x + \\frac{9}{2}\\). Coefficients \\(4 \\neq \\frac{3}{2}\\), so exactly one solution. &#10007;</li><li><strong>Choice C &mdash; &#39;8&#39;</strong>: \\(a=8\\) gives right side \\(\\frac{8(x+3)}{2} = 4(x+3) = 4x+12\\). Both sides identical &mdash; infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; &#39;12&#39;</strong>: \\(a=12\\) gives right side \\(\\frac{12(x+3)}{2} = 6x+18\\). Coefficients \\(4 \\neq 6\\), so exactly one solution. &#10007;</li></ul>That matches choice C &#8212; <strong>C</strong> is correct."
     }
   ]
 }

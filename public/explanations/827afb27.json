@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The previous sentence establishes an exception to the evergreen pattern (<em>\u201cnot all conifer species are evergreen\u201d</em>), and the current sentence must show a specific example of this exception."
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. The previous sentence establishes that <em>not all</em> conifers are evergreen. The blank sentence must introduce larch trees as a specific case supporting that claim, so the transition must signal <strong>example</strong>, not contrast, addition, or simultaneity."
     },
     {
-      "title": "Match the meaning",
-      "content": "<em>\u201cFor instance\u201d</em> introduces an example, showing that Larch trees exemplify the non-evergreen conifers just mentioned. The other three suggest contrast, simultaneity, or addition\u2014not exemplification. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;for instance,&rsquo;</strong>: signals that the sentence is an example of the preceding claim. Larch trees exemplify the non-evergreen conifers just mentioned. &#10003;</li><li><strong>Choice B &mdash; &lsquo;nevertheless,&rsquo;</strong>: signals concession or contrast&mdash;that the new information is true <em>despite</em> the previous claim. Larch trees support the claim, not contradict it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;meanwhile,&rsquo;</strong>: signals that two things are happening simultaneously or in parallel. No parallel timeline exists here; the larch sentence illustrates the claim. &#10007;</li><li><strong>Choice D &mdash; &lsquo;in addition,&rsquo;</strong>: signals a new, separate fact being added. Larch trees are not an additional fact; they are a specific instance of the exception already stated. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

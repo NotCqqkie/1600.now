@@ -1,1 +1,17 @@
-{"questionId":"2c578582-a4c6-4b17-a43d-0f06aaab91b7_19","correctAnswer":"C","section":"Math","steps":[{"title":"Rewrite the equation and understand absolute value behavior","content":"Divide both sides of $2|x - 5| = k$ by 2:<br/>$$|x - 5| = \\frac{k}{2}$$<br/>For any absolute value equation $|A| = c$:<ul><li>If $c > 0$: we get two solutions (e.g., $x - 5 = c$ and $x - 5 = -c$)</li><li>If $c = 0$: we get exactly one solution ($A = 0$ only)</li><li>If $c < 0$: we get no solutions (absolute value is never negative)</li></ul>"},{"title":"Find the value that gives exactly one solution","content":"For the equation $|x - 5| = \\frac{k}{2}$ to have exactly one solution, we need:<br/>$$\\frac{k}{2} = 0$$<br/>This gives $|x - 5| = 0$, which has exactly one solution: $x = 5$. The only possible value for $\\frac{k}{2}$ is $0$. That matches choice C — <strong>C</strong> is correct.","desmosExpressions":["y = 2|x - 5|","y = k"]}]}
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Divide both sides of \\(2|x - 5| = k\\) by 2: $$|x - 5| = \\frac{k}{2}$$ An absolute value equation \\(|A| = c\\) has: (1) two solutions when \\(c > 0\\); (2) exactly one solution when \\(c = 0\\); (3) no solutions when \\(c < 0\\)."
+    },
+    {
+      "title": "Determine k/2 and test all choices",
+      "content": "For exactly one solution, we need \\(\\frac{k}{2} = 0\\), giving \\(|x-5| = 0 \\implies x = 5\\).<ul><li><strong>Choice A &mdash; -5 only</strong>: \\(\\frac{k}{2} = -5 < 0\\) means no solutions. &#10007;</li><li><strong>Choice B &mdash; -5 or 5</strong>: \\(\\frac{k}{2} = -5\\) gives no solutions; \\(\\frac{k}{2} = 5 > 0\\) gives two solutions. Neither gives exactly one. &#10007;</li><li><strong>Choice C &mdash; 0 only</strong>: \\(\\frac{k}{2} = 0 \\implies |x-5| = 0 \\implies x = 5\\). Exactly one solution. &#10003;</li><li><strong>Choice D &mdash; 5 only</strong>: \\(\\frac{k}{2} = 5 > 0 \\implies |x-5| = 5\\) gives two solutions \\(x = 0\\) and \\(x = 10\\). &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = 2|x - 5|", "y = k"]
+    }
+  ],
+  "desmosExpressions": ["y = 2|x - 5|", "y = 0"]
+}

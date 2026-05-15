@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the core pivot",
-      "content": "The passage opens with a problem (\u201cHaving trouble getting rid of weeds?\u201d) and immediately pivots to an unexpected solution (\u201cOne surprising solution may be to start eating them\u201d). This problem-to-surprising-solution structure, with emphasis on the word \u201csurprising,\u201d defines the text's purpose."
+      "title": "Identify what the question needs",
+      "content": "The question asks for the main purpose of the text. The decisive clue is the opening pivot: a common problem (weeds) is immediately answered with a &quot;surprising solution&quot; (eating them). The word &quot;surprising&quot; signals that unexpectedness is central to the text's purpose."
     },
     {
-      "title": "Match the signal to the choices",
-      "content": "The text proposes an unexpected solution to a problem. B, C, and D each misidentify the focus: gardening methods, taste as the main point, and trend identification. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'To suggest an unexpected solution to a problem.'</strong>: Matches the structure exactly &mdash; the passage frames weed removal as the problem and eating weeds as the surprising answer. &#10003;</li><li><strong>Choice B &mdash; 'To discuss the best way to garden.'</strong>: The passage never compares gardening methods or recommends any gardening technique; gardening is only the backdrop for the problem. &#10007;</li><li><strong>Choice C &mdash; 'To describe how good some plants taste.'</strong>: Flavor is mentioned only in the final sentence as a secondary detail, not the main point; the passage is not a review of plant taste. &#10007;</li><li><strong>Choice D &mdash; 'To identify a new cooking trend.'</strong>: No trend is identified or discussed; the passage proposes a solution to a specific problem rather than describing what people are currently doing. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

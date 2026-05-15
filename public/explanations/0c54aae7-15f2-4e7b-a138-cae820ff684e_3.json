@@ -1,1 +1,15 @@
-{"questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Rearrange to expose the no-solution condition", "content": "For a linear equation to have no solution, all variable terms must cancel when rearranged, leaving a contradiction. Starting with $5x + 3 = rx + 7$, collect the $x$ terms on one side:<br/>$$5x - rx = 7 - 3$$<br/>$$(5 - r)x = 4$$<br/>For this equation to have <strong>no solution</strong>, the coefficient of $x$ must be zero (so we get $0 \\cdot x = 4$, or $0 = 4$, which is false). Therefore:<br/>$$5 - r = 0$$<br/>$$r = 5$$<br/>That matches choice D — <strong>D</strong> is correct."}, {"title": "Verify the no-solution condition", "content": "Substituting $r = 5$ back into the original equation confirms:<br/>$$5x + 3 = 5x + 7$$<br/>$$3 = 7$$<br/>This is a contradiction (3 never equals 7), so there is no value of $x$ that satisfies the equation, confirming our answer."}]}
+{
+  "questionId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "State the no-solution condition",
+      "content": "Rearrange $5x + 3 = rx + 7$ by collecting $x$ terms:<br/>$$5x - rx = 7 - 3 \\implies (5 - r)x = 4$$<br/>For <strong>no solution</strong>, the coefficient of $x$ must equal zero (producing the false statement $0 = 4$), so $5 - r = 0$, giving $r = 5$."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; $r = 21$</strong>: $(5-21)x = 4 \\Rightarrow -16x = 4 \\Rightarrow x = -\\frac{1}{4}$. Exactly one solution. &#10007;</li><li><strong>Choice B &mdash; $r = 8$</strong>: $(5-8)x = 4 \\Rightarrow -3x = 4 \\Rightarrow x = -\\frac{4}{3}$. Exactly one solution. &#10007;</li><li><strong>Choice C &mdash; $r = 7$</strong>: $(5-7)x = 4 \\Rightarrow -2x = 4 \\Rightarrow x = -2$. Exactly one solution. &#10007;</li><li><strong>Choice D &mdash; $r = 5$</strong>: $(5-5)x = 4 \\Rightarrow 0 = 4$. Contradiction &mdash; no solution exists. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

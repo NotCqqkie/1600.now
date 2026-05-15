@@ -1,1 +1,23 @@
-{"questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_10", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Extract the geometric constraint from parallel lines", "content": "When transversal $s$ cuts parallel lines $q$ and $r$, it creates angles at two intersection points.<br/><br/>From the figure, angles $x$ and $y$ are positioned such that they satisfy a geometric relationship.<br/><br/>By analyzing the configuration of these angles relative to the parallel lines, we determine that:<br/>$$x + y = 155°$$"}, {"title": "Combine the geometric and algebraic equations", "content": "We now have a system of two equations:<ul><li><strong>Algebraic:</strong> $y = 2x + 8$ (given)</li><li><strong>Geometric:</strong> $x + y = 155$ (from the figure)</li></ul>These two constraints together determine a unique value for $x$. The fastest approach is to substitute one equation into the other."}, {"title": "Solve using substitution", "content": "Substitute $y = 2x + 8$ into $x + y = 155$:<br/>$$x + (2x + 8) = 155$$<br/>$$3x + 8 = 155$$<br/>$$3x = 147$$<br/>$$x = 49$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "4e1b3643-30b1-41c4-9027-1f149baf52c7_10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the geometric constraint from the figure",
+      "content": "When transversal \\(s\\) cuts parallel lines \\(q\\) and \\(r\\), angles \\(x\\) and \\(y\\) are formed at each intersection. From the figure, \\(x\\) and \\(y\\) are positioned so that they are co-interior (same-side interior) angles relative to a 155&deg; reference, giving the constraint:<br/>$$x + y = 155$$"
+    },
+    {
+      "title": "Set up the system",
+      "content": "We have two equations:<ul><li><strong>Algebraic (given):</strong> \\(y = 2x + 8\\)</li><li><strong>Geometric (figure):</strong> \\(x + y = 155\\)</li></ul>Substitute \\(y = 2x + 8\\) into \\(x + y = 155\\):<br/>$$x + (2x + 8) = 155 \\implies 3x = 147 \\implies x = 49$$"
+    },
+    {
+      "title": "Test all four choices against both constraints",
+      "content": "<ul><li><strong>Choice A &mdash; x = 33</strong>: \\(y = 2(33)+8 = 74\\). Check sum: \\(33 + 74 = 107 \\neq 155\\). &#10007;</li><li><strong>Choice B &mdash; x = 41</strong>: \\(y = 2(41)+8 = 90\\). Check sum: \\(41 + 90 = 131 \\neq 155\\). &#10007;</li><li><strong>Choice C &mdash; x = 49</strong>: \\(y = 2(49)+8 = 106\\). Check sum: \\(49 + 106 = 155\\). &#10003;</li><li><strong>Choice D &mdash; x = 59</strong>: \\(y = 2(59)+8 = 126\\). Check sum: \\(59 + 126 = 185 \\neq 155\\). &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Only x = 49 satisfies both the algebraic equation and the geometric constraint from the figure. That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

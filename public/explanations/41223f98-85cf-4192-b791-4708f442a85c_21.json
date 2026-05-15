@@ -1,15 +1,1 @@
-{
-  "questionId": "41223f98-85cf-4192-b791-4708f442a85c_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the pronoun's antecedent",
-      "content": "The blank pronoun describes something that \u201cdebuted as part of the exhibit <em>Women of Clay</em>\u201c; the main clause reveals \u201cthe artworks\u201d as what debuted. Artworks is a plural noun."
-    },
-    {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number. The antecedent is \"the artworks\" (plural).\n<ul>\n<li><strong>Choice A \u2014 \"they\"</strong>: plural pronoun matches the plural antecedent \"artworks.\" \u2713</li>\n<li><strong>Choice B \u2014 \"that\"</strong>: singular relative pronoun; does not agree with the plural \"artworks.\" \u2717</li>\n<li><strong>Choice C \u2014 \"it\"</strong>: singular pronoun; cannot refer to the plural \"artworks.\" \u2717</li>\n<li><strong>Choice D \u2014 \"this\"</strong>: singular demonstrative pronoun; does not agree with the plural \"artworks.\" \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"41223f98-85cf-4192-b791-4708f442a85c_21","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank is the subject of the when-clause: &ldquo;When ______ debuted in January 1983 as part of the exhibit Women of Clay.&rdquo; The main clause identifies the antecedent: &ldquo;the artworks.&rdquo; The skill tested is pronoun-antecedent agreement in number."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;they&rsquo;</strong>: a plural subject pronoun that agrees with the plural antecedent &ldquo;the artworks.&rdquo; &#10003;</li><li><strong>Choice B &mdash; &lsquo;that&rsquo;</strong>: a relative pronoun typically used to introduce a relative clause, not as a standalone subject pronoun referring back to a plural noun. It does not agree with &ldquo;the artworks&rdquo; in the way the sentence requires. &#10007;</li><li><strong>Choice C &mdash; &lsquo;it&rsquo;</strong>: a singular pronoun; violates pronoun-antecedent agreement because &ldquo;the artworks&rdquo; is plural. &#10007;</li><li><strong>Choice D &mdash; &lsquo;this&rsquo;</strong>: a singular demonstrative pronoun; also fails to agree with the plural antecedent &ldquo;the artworks.&rdquo; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

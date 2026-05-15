@@ -1,15 +1,1 @@
-{
-  "questionId": "f495b554",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key factor in the hybrid's success",
-      "content": "Perovskite and silicon capture different parts of the solar spectrum: blue and red, respectively. This complementarity explains why the combination reaches 29.5%, far exceeding either component's ~18\u201322% efficiency."
-    },
-    {
-      "title": "Apply this insight to the answer choices",
-      "content": "Choice A matches this insight perfectly: it names <em>more of the solar spectrum</em> as the source of efficiency. The other three contradict the evidence, overreach without basis, or request research not indicated. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f495b554","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question tests Command of Evidence (Conclusions). The passage establishes three facts: (1) silicon alone converts 18&ndash;22% of sunlight; (2) perovskite alone is no more efficient than silicon; (3) silicon + perovskite together converts 29.5%+. The decisive clue is that perovskite captures blue-range light and silicon captures red-range light &mdash; together they cover more of the spectrum. The blank must explain why the combination outperforms either material alone."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;photovoltaic cells with both silicon and perovskite are more efficient because they make use of more of the solar spectrum.&rsquo;</strong>: Directly follows from the complementary wavelength coverage (blue + red) and the observed 29.5%+ combined efficiency &mdash; neither material achieves this alone. &#10003;</li><li><strong>Choice B &mdash; &lsquo;photovoltaic cells with only perovskite and no silicon would likely convert more than 29.5% of the Sun&rsquo;s energy.&rsquo;</strong>: Directly contradicted by the passage, which states perovskite-only cells are no more efficient than silicon-based cells (18&ndash;22%). &#10007;</li><li><strong>Choice C &mdash; &lsquo;solar power will remain elusive until photovoltaic cells are replaced with a more practical technology.&rsquo;</strong>: The passage describes an improvement to existing cells, not their replacement, and never suggests solar power is elusive. &#10007;</li><li><strong>Choice D &mdash; &lsquo;researchers need to evaluate whether other minerals like perovskite are as effective as perovskite seems to be.&rsquo;</strong>: The passage focuses solely on the perovskite-silicon combination; no other minerals are mentioned or implied as a next research step. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

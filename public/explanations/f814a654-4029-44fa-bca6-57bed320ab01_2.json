@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The passage says grouping authors into literary movements \"encourages literary scholars to ______ subtleties.\" The next sentence shows what this looks like: scholars studying Channing \"may inadvertently overlook nuances\" by focusing only on the most obvious traits. The blank must mean to overlook or treat as unimportant."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "The word needs to mean to overlook or dismiss as unimportant. Substitute each choice: <ul><li><strong>Choice A — discount</strong>: means to treat as unimportant or disregard — directly parallels \"overlook nuances\" from the following sentence. ✓</li><li><strong>Choice B — scrutinize</strong>: means to examine closely — the opposite of what the passage describes; grouping authors into movements leads scholars away from close attention to subtleties, not toward it. ✗</li><li><strong>Choice C — magnify</strong>: means to enlarge or make seem greater — scholars ignoring subtleties are not amplifying them; this is the wrong direction. ✗</li><li><strong>Choice D — denounce</strong>: means to publicly criticize or condemn — scholars are overlooking subtleties, not criticizing them; this introduces a hostile connotation absent from the passage. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f814a654-4029-44fa-bca6-57bed320ab01_2","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The blank appears in: grouping authors into literary movements &quot;encourages literary scholars to ______ subtleties.&quot; The next sentence is the decisive clue: scholars studying Channing &quot;may inadvertently overlook nuances&quot; by focusing only on the most obvious traits. The blank must mean to overlook or treat as unimportant."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;discount&apos;</strong>: means to treat as unimportant or disregard, directly matching &quot;overlook nuances&quot; from the next sentence. &#10003;</li><li><strong>Choice B &mdash; &apos;scrutinize&apos;</strong>: means to examine closely &mdash; the opposite of the passage&apos;s meaning; grouping authors into movements leads scholars away from careful attention to subtleties, not toward it. &#10007;</li><li><strong>Choice C &mdash; &apos;magnify&apos;</strong>: means to enlarge or amplify &mdash; scholars overlooking subtleties are not making them larger; this word goes in the wrong direction. &#10007;</li><li><strong>Choice D &mdash; &apos;denounce&apos;</strong>: means to publicly condemn &mdash; scholars are passively overlooking subtleties, not actively criticizing them; this introduces a hostile meaning absent from the passage. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what makes judicial opinions strongest",
-      "content": "The passage's decisive clue is that <strong>\u201cthe strongest judicial opinions consider and rebut potential objections.\u201d</strong> This defines Allen's criterion for evaluating judicial reasoning."
+      "title": "Identify what the question needs",
+      "content": "This is a &ldquo;Complete the text&rdquo; (logical inference) question. The decisive clue is Allen&rsquo;s criterion: <strong>&ldquo;the strongest judicial opinions consider and rebut potential objections.&rdquo;</strong> Discussing philosophers whose views <em>conflict</em> with a judge&rsquo;s position forces the judge to engage with opposing arguments &mdash; exactly what Allen says makes opinions stronger."
     },
     {
-      "title": "Determine what discussing conflicting philosophers accomplishes",
-      "content": "Discussing philosophers with conflicting views improves arguments by requiring judges to address opposing perspectives. The other three contradict this logic or focus on unrelated goals. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &ldquo;allow judges to craft judicial opinions without needing to consult philosophical works.&rdquo;</strong>: Self-defeating. Engaging with conflicting philosophers requires <em>more</em> consultation of philosophical works, not less. &#10007;</li><li><strong>Choice B &mdash; &ldquo;help judges improve the arguments they put forward in their judicial opinions.&rdquo;</strong>: Follows directly from Allen&rsquo;s logic: rebutting opposing views (via conflicting philosophers) produces the strongest opinions, which means better arguments. &#10003;</li><li><strong>Choice C &mdash; &ldquo;make judicial opinions more comprehensible to readers without legal or philosophical training.&rdquo;</strong>: Out of scope. The text never discusses reader accessibility or non-expert audiences; Allen&rsquo;s argument is about argumentative strength, not readability. &#10007;</li><li><strong>Choice D &mdash; &ldquo;bring judicial opinions in line with views that are broadly held among philosophers.&rdquo;</strong>: Unsupported. Allen&rsquo;s point is that rebutting opposing views strengthens reasoning &mdash; not that it aligns opinions with mainstream philosophical opinion. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

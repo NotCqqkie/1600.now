@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relative clause type",
-      "content": "\"One European city\" calls for a restrictive clause that identifies which city — the one many travelers recommend."
+      "title": "Identify what the question needs",
+      "content": "This is a restrictive vs. non-restrictive clause question. The noun phrase &ldquo;one European city&rdquo; needs a clause that identifies <em>which</em> city — the one many travelers recommend. The decisive clue is the word &ldquo;one&rdquo;: it signals that the clause must restrict the noun, which means no comma and the relative pronoun &ldquo;that.&rdquo;"
     },
     {
-      "title": "Apply the restrictive clause rule",
-      "content": "\"One European city\" needs a restrictive clause to identify which city — the one many travelers recommend. Restrictive clauses use \"that\" with no comma.\n<ul>\n<li><strong>Choice A — \"city, that\"</strong>: \"one European city, that many travelers recommend\" — a comma before \"that\" in a restrictive clause is non-standard; restrictive \"that\" never takes a preceding comma. ✗</li>\n<li><strong>Choice B — \"city, which\"</strong>: \"one European city, which many travelers recommend\" — \"which\" with a comma signals a non-restrictive clause (adds extra info); here the clause is identifying, not extra. ✗</li>\n<li><strong>Choice C — \"city in which,\"</strong>: \"one European city in which, many travelers recommend\" — \"recommend in which\" is ungrammatical; you recommend a city, not recommend in a city. ✗</li>\n<li><strong>Choice D — \"city that\"</strong>: \"one European city that many travelers recommend\" — restrictive \"that,\" no comma; identifies the city correctly. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;city, that&rsquo;</strong>: &ldquo;one European city, that many travelers recommend&rdquo; &mdash; a comma before &ldquo;that&rdquo; in a restrictive clause violates standard usage; restrictive &ldquo;that&rdquo; never takes a preceding comma. &#10007;</li><li><strong>Choice B &mdash; &lsquo;city, which&rsquo;</strong>: &ldquo;one European city, which many travelers recommend&rdquo; &mdash; a comma + &ldquo;which&rdquo; signals a non-restrictive clause that adds extra information rather than identifying the noun; the clause here is identifying, not parenthetical. &#10007;</li><li><strong>Choice C &mdash; &lsquo;city in which,&rsquo;</strong>: &ldquo;one European city in which, many travelers recommend&rdquo; &mdash; &ldquo;recommend in which&rdquo; is ungrammatical; you recommend a city, not recommend in a city, so &ldquo;in which&rdquo; is the wrong preposition-relative construction here. &#10007;</li><li><strong>Choice D &mdash; &lsquo;city that&rsquo;</strong>: &ldquo;one European city that many travelers recommend&rdquo; &mdash; restrictive &ldquo;that&rdquo; with no comma correctly identifies which city is meant. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

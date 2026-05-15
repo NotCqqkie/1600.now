@@ -1,15 +1,1 @@
-{
-  "questionId": "fbffb352",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the student's goal",
-      "content": "The student wants to \u201cemphasize a similarity\u201d between the Laas Geel and Dhagah Nabi Galay paintings."
-    },
-    {
-      "title": "Find the choice showing both sites' shared feature",
-      "content": "D directly names both paintings and identifies what they share: they are both ancient rock art in Somaliland. The other three either isolate one site or contrast the two instead of emphasizing similarity. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"fbffb352","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The student must emphasize a similarity between the Laas Geel paintings and the Dhagah Nabi Galay paintings. The decisive clue is that both sites appear in Horn Heritage's 3D scan project of ancient rock art in Somaliland."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'The earliest examples of writing in East Africa are thought to be featured in the paintings at the Dhagah Nabi Galay caves in Somaliland.'</strong>: Mentions only Dhagah Nabi Galay; never references Laas Geel, so no similarity is drawn. &#10007;</li><li><strong>Choice B &mdash; 'The paintings at the Dhagah Nabi Galay caves feature examples of writing, while those at the Laas Geel caves feature humans and animals.'</strong>: Explicitly contrasts the two sites on content, emphasizing a difference rather than a similarity. &#10007;</li><li><strong>Choice C &mdash; 'In Somaliland, the paintings in the Laas Geel caves feature human figures and animals.'</strong>: Mentions only Laas Geel; never references Dhagah Nabi Galay, so no similarity is drawn. &#10007;</li><li><strong>Choice D &mdash; 'The Laas Geel paintings and the Dhagah Nabi Galay paintings are both examples of ancient rock art found in Somaliland.'</strong>: Names both sites and states what they share &mdash; they are both ancient rock art in Somaliland. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

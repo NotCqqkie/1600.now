@@ -1,1 +1,23 @@
-{"questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_22", "correctAnswer": "B", "section": "Math", "steps": [{"title": "No solution = parallel lines: same slope, different intercept", "content": "Rewrite the given equation $2x = 20y - 8$ by dividing by 2: $x = 10y - 4$. The slope ratio (coefficient of $x$ to coefficient of $y$) is $1:10$."},{"title": "Find the choice with the same slope ratio but different intercept", "content": "Choice B: $\\frac{1}{2}x = 5y$ → $x = 10y$. Slope ratio is $1:10$ — same as the original — but the constant term is $0 \\neq -4$, so these are parallel lines with no intersection. Choices A and C are equivalent to the original (not parallel, same line); D is equivalent to A."},{"title": "Confirm", "content": "Parallel lines (same slope, different intercept) produce no solution. That matches choice B — <strong>B</strong> is correct.", "desmosExpressions": ["y = x/10 + 0.4", "y = x/10"]}]}
+{
+  "questionId": "471ccf49-2c32-4c56-9f7e-1788dbe63527_22",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "No solution means parallel lines: same slope, different intercept",
+      "content": "Rewrite the given equation in slope-intercept form. Starting with \\(2x = 20y - 8\\), divide both sides by 2:<br/>$$x = 10y - 4 \\implies y = \\frac{1}{10}x + \\frac{2}{5}$$<br/>Slope = \\(\\frac{1}{10}\\), y-intercept = \\(\\frac{2}{5}\\). The second equation must have slope \\(\\frac{1}{10}\\) and a different y-intercept."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; \\(x = 5y\\)</strong>: Rewrite: \\(y = \\frac{1}{5}x\\). Slope = \\(\\frac{1}{5} \\neq \\frac{1}{10}\\). Lines intersect (one solution). &#10007;</li><li><strong>Choice B &mdash; \\(\\frac{1}{2}x = 5y\\)</strong>: Rewrite: \\(y = \\frac{1}{10}x\\). Slope = \\(\\frac{1}{10}\\) &#10003;, y-intercept = 0 \\(\\neq \\frac{2}{5}\\) &#10003;. Parallel lines &rarr; no solution. &#10003;</li><li><strong>Choice C &mdash; \\(x = 10y - 4\\)</strong>: Rewrite: \\(y = \\frac{1}{10}x + \\frac{2}{5}\\). Slope = \\(\\frac{1}{10}\\) and y-intercept = \\(\\frac{2}{5}\\) &mdash; identical to the given equation. This gives infinitely many solutions, not no solution. &#10007;</li><li><strong>Choice D &mdash; \\(\\frac{1}{2}x = 10y - 4\\)</strong>: Rewrite: \\(x = 20y - 8 \\implies y = \\frac{1}{20}x + \\frac{2}{5}\\). Slope = \\(\\frac{1}{20} \\neq \\frac{1}{10}\\). Lines intersect. &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Only Choice B produces a line with slope \\(\\frac{1}{10}\\) and a different y-intercept (0 vs \\(\\frac{2}{5}\\)), making the lines parallel with no solution. That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{1}{10}x + \\frac{2}{5}",
+        "y = \\frac{1}{10}x"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal's requirement",
-      "content": "The student wants to identify the sculpture for which Arp won the prize. To accomplish this goal, the response must name the specific sculpture from the notes: <em>Sculpture classique</em>."
+      "title": "Identify what the question needs",
+      "content": "This is a Rhetorical Synthesis question. The goal is to identify &quot;the sculpture for which Arp won a Carnegie Prize gold medal&quot; &mdash; the answer must name the specific artwork (<em>Sculpture classique</em>) and link it to the prize win."
     },
     {
-      "title": "Select the choice that accomplishes the goal",
-      "content": "C accomplishes the goal by naming the sculpture (<em>Sculpture classique</em>) and connecting it to Arp's Carnegie Prize win. A, B, and D either mention Arp and the prize without naming the sculpture, or discuss irrelevant prize details. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;In 1964, an artist from Germany won a Carnegie Prize gold medal for a sculpture.&apos;</strong>: Mentions a sculpture but never names it; also omits Arp&apos;s name. Does not identify the specific sculpture. &#10007;</li><li><strong>Choice B &mdash; &apos;The Carnegie Museum of Art awarded Arp a gold medal in 1964.&apos;</strong>: Names Arp and the medal but never names the sculpture at all. &#10007;</li><li><strong>Choice C &mdash; &apos;Arp won a Carnegie Prize gold medal for the sculpture <em>Sculpture classique</em>.&apos;</strong>: Names Arp, names the sculpture <em>Sculpture classique</em>, and connects them to the prize win &mdash; directly accomplishing the goal. &#10003;</li><li><strong>Choice D &mdash; &apos;The Carnegie Prize is an international art competition administered by the Carnegie Museum of Art in Pittsburgh, Pennsylvania.&apos;</strong>: Describes the prize but mentions neither Arp nor the sculpture. Irrelevant to the goal. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

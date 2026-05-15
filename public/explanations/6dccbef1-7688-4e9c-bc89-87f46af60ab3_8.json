@@ -1,1 +1,23 @@
-{"questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Distribute on both sides of $7(x+12)+5x=12(x+7)$: $$12x+84=12x+84.$$ The two sides are identical."}, {"title": "Count the solutions", "content": "Every real $x$ works, giving infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "Distribute on the left: $$7(x+12)+5x = 7x + 84 + 5x = 12x + 84$$ Distribute on the right: $$12(x+7) = 12x + 84$$ The equation becomes: $$12x + 84 = 12x + 84$$"
+    },
+    {
+      "title": "Interpret the result",
+      "content": "Subtracting 12x + 84 from both sides gives 0 = 0, a statement that is always true regardless of x. Every real number satisfies the original equation."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Exactly one'</strong>: Exactly one solution requires the equation to collapse to x = (some specific number). Here both sides are identical for all x — no single unique value. &#10007;</li><li><strong>Choice B &mdash; 'Exactly two'</strong>: A linear equation cannot have exactly two solutions — it has zero, one, or infinitely many. &#10007;</li><li><strong>Choice C &mdash; 'Infinitely many'</strong>: Since 12x + 84 = 12x + 84 is always true, every real number x is a solution. Infinitely many solutions. &#10003;</li><li><strong>Choice D &mdash; 'Zero'</strong>: Zero solutions requires a contradiction like 0 = 5. Here we get 0 = 0, a tautology — not a contradiction. &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "After expanding, both sides equal 12x + 84 identically, so every value of x works. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

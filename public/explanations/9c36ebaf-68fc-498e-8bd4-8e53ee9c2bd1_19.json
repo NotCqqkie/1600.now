@@ -1,1 +1,20 @@
-{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_19", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Compare the coefficients", "content": "Form ratios of the matching $x$, $y$, and constant terms in $$0.5x + 1.2y = 9$$ and $$1.5x + 3.6y = 27$$. This gives $\\frac{1.5}{0.5}=\\frac{3.6}{1.2}=\\frac{27}{9}=3$."}, {"title": "Identify the answer", "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>A</strong> — <strong>A</strong> is correct.", "desmosExpressions": ["y = \\frac{9 - 0.5x}{1.2}", "y = \\frac{27 - 1.5x}{3.6}"]}]}
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check whether the equations are proportional",
+      "content": "Multiply Equation 1 by 3: $$3 \\times (0.5x + 1.2y) = 3 \\times 9 \\implies 1.5x + 3.6y = 27$$ This is exactly Equation 2, so both equations represent the same line."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'Infinitely many'</strong>: Both equations reduce to the same line, so every point on that line is a solution. There are infinitely many solutions. &#10003;</li><li><strong>Choice B &mdash; 'Exactly two'</strong>: A linear system in two variables can never have exactly two solutions — it has zero, one, or infinitely many. &#10007;</li><li><strong>Choice C &mdash; 'Exactly one'</strong>: One solution requires two distinct lines with different slopes that intersect at a single point. Since the two equations are identical (same slope, same intercept), there is no unique crossing point. &#10007;</li><li><strong>Choice D &mdash; 'Zero'</strong>: Zero solutions requires parallel lines with the same slope but different y-intercepts. These equations have the same slope AND the same intercept — they are identical, not parallel non-intersecting lines. &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "All three coefficient ratios equal 3: $$\\frac{1.5}{0.5} = \\frac{3.6}{1.2} = \\frac{27}{9} = 3$$ The equations are equivalent, giving infinitely many solutions. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{9 - 0.5x}{1.2}", "y = \\frac{27 - 1.5x}{3.6}"]
+    }
+  ]
+}

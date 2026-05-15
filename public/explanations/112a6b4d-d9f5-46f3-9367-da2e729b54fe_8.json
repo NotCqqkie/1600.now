@@ -1,15 +1,1 @@
-{
-  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key finding",
-      "content": "The passage states that surfactants \u201chave a much stronger wave-reducing effect.\u201d This is the core discovery about surfactants."
-    },
-    {
-      "title": "Match to the answer",
-      "content": "Choice C states this finding: surfactants have a much stronger effect on wave activity than microplastics alone. The others either misrepresent surfactants' role or add properties never discussed. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"112a6b4d-d9f5-46f3-9367-da2e729b54fe_8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Central Ideas and Details question asking specifically what Sun and colleagues discovered about surfactants. The passage states that surfactants &ldquo;have a much stronger wave-reducing effect&rdquo; than microplastic particle concentration alone could explain."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;They can be used to contain microplastics within certain areas of the ocean.&rsquo;</strong>: The passage never mentions containing or confining microplastics; surfactants are discussed only in terms of wave reduction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;They are mainly composed of water.&rsquo;</strong>: The passage describes surfactants as chemicals released from plastics; no information about their chemical composition is given. &#10007;</li><li><strong>Choice C &mdash; &lsquo;They have a much stronger effect on wave activity than microplastics alone do.&rsquo;</strong>: This restates the passage&rsquo;s direct finding that surfactants have &ldquo;a much stronger wave-reducing effect&rdquo; than microplastic particle concentration alone. &#10003;</li><li><strong>Choice D &mdash; &lsquo;They are helpful for removing microplastics from the ocean.&rsquo;</strong>: The passage says nothing about removing microplastics; surfactants are a byproduct of plastics, not a cleanup agent. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

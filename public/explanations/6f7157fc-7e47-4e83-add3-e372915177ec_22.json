@@ -4,12 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the intercept theorem for parallel lines",
-      "content": "Since $\\overline{LM} \\parallel \\overline{PQ}$ and lines LQ and MP intersect at R, the intercept theorem gives us: $$\\frac{LR}{RQ} = \\frac{MR}{RP}$$ Substituting the given values: $$\\frac{10}{RQ} = \\frac{9}{19}$$ Cross multiply: $10 \\times 19 = 9 \\times RQ$, so $RQ = \\frac{190}{9}$"
+      "title": "Set up the similarity ratio using the intercept theorem",
+      "content": "Since \\(\\overline{LM} \\parallel \\overline{PQ}\\) and \\(\\overline{LQ}\\) intersects \\(\\overline{MP}\\) at R, triangles LRM and QRP are similar by AA (vertical angles at R; alternate interior angles with the parallel lines). Therefore: $$\\frac{LR}{RQ} = \\frac{MR}{RP} \\implies \\frac{10}{RQ} = \\frac{9}{19} \\implies RQ = \\frac{190}{9}$$"
     },
     {
-      "title": "Calculate the total length LQ",
-      "content": "Since R lies on segment LQ between L and Q: $$LQ = LR + RQ = 10 + \\frac{190}{9}$$ Convert 10 to ninths: $$LQ = \\frac{90}{9} + \\frac{190}{9} = \\frac{280}{9}$$ That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Compute LQ and test all choices",
+      "content": "\\(LQ = LR + RQ = 10 + \\frac{190}{9} = \\frac{90}{9} + \\frac{190}{9} = \\frac{280}{9}\\).<ul><li><strong>Choice A &mdash; \\(\\frac{280}{19}\\)</strong>: Uses 19 as the denominator instead of 9; incorrect ratio application. &#10007;</li><li><strong>Choice B &mdash; \\(\\frac{190}{9}\\)</strong>: This is only RQ, forgetting to add LR = 10. &#10007;</li><li><strong>Choice C &mdash; \\(\\frac{271}{9}\\)</strong>: Does not correspond to any valid calculation. &#10007;</li><li><strong>Choice D &mdash; \\(\\frac{280}{9}\\)</strong>: \\(LR + RQ = 10 + \\frac{190}{9} = \\frac{280}{9}\\). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
-  ]
+  ],
+  "desmosExpressions": []
 }

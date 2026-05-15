@@ -1,1 +1,19 @@
-{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the angle at line r", "content": "Where transversal <em>t</em> crosses line <em>r</em>, we have a 107° angle positioned above line <em>r</em> on the left side of the transversal."}, {"title": "Apply corresponding angles with parallel lines", "content": "Since lines <em>r</em> and <em>s</em> are parallel, the corresponding angles theorem applies: angles in the same relative position at each intersection are equal. The angle <em>x</em>° at line <em>s</em> is above line <em>s</em> on the left side of transversal <em>t</em>—the same position as the 107° angle at line <em>r</em>.<br/>$$x° = 107°$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the figure",
+      "content": "Transversal $t$ crosses line $r$, forming angles of $107°$ (left of $t$) and $73°$ (right of $t$). At line $s$, the angle $x°$ is on the left side of $t$, in the same relative position as the $107°$ angle at line $r$."
+    },
+    {
+      "title": "Test all four answer choices using corresponding angles",
+      "content": "<ul><li><strong>Choice A &mdash; '90'</strong>: Corresponding angles with parallel lines are equal, not necessarily 90&deg;. The angle at $r$ is 107&deg;, so $x = 90$ would require supplementary angles to be 90&deg; each, implying $t \\perp r$ — but $107° \\neq 90°$. &#10007;</li><li><strong>Choice B &mdash; '180'</strong>: $x = 180$ is impossible for a single interior angle. &#10007;</li><li><strong>Choice C &mdash; '17'</strong>: $x = 17$ does not match any standard angle relationship: it is neither the corresponding angle (107&deg;), alternate interior angle (73&deg;), nor a supplement or difference that follows from parallel line theorems. &#10007;</li><li><strong>Choice D &mdash; '107'</strong>: $x°$ is in the same position relative to line $s$ as the 107&deg; angle is to line $r$. Corresponding angles formed by a transversal crossing parallel lines are equal, so $x = 107$. &#10003;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Since $r \\parallel s$, corresponding angles are equal: $x° = 107°$. That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

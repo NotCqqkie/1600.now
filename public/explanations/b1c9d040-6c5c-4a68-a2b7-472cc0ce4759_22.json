@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the chronological progression",
-      "content": "The passage moves from 1965 (the first syndicated strip by a Black cartoonist) to 1994 and 1996 (later syndicated strips). The blank connects these across time."
+      "title": "Identify what the question needs",
+      "content": "This is a transitions question. The first sentence gives a 1965 milestone &mdash; the first syndicated comic strip by a Black cartoonist. The second sentence introduces two later strips from 1994 and 1996. The blank must signal that those strips came after the 1965 event, not before it or as a restatement of it."
     },
     {
-      "title": "Match the signal to the choices",
-      "content": "The logical relationship is sequence. The blank needs a transition signaling that the 1994 and 1996 strips came after the 1965 milestone.\n<ul>\n<li><strong>Choice A — \"That is,\"</strong>: signals a restatement or clarification of the prior sentence, but the second sentence introduces new events, not a definition, so fails. ✗</li>\n<li><strong>Choice B — \"Previously,\"</strong>: signals something happened before a reference point, but 1994 and 1996 come after 1965, so this reverses the timeline, failing. ✗</li>\n<li><strong>Choice C — \"For example,\"</strong>: signals a specific instance of a general claim; the 1965 strip is the milestone, not a general claim that the later strips exemplify, so fails. ✗</li>\n<li><strong>Choice D — \"Later,\"</strong>: signals temporal progression forward from 1965 to subsequent years, so fits. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'That is,'</strong>: Signals a restatement or clarification of the prior sentence. The second sentence introduces entirely new events (1994, 1996) rather than rephrasing the 1965 milestone, so this transition is illogical. &#10007;</li><li><strong>Choice B &mdash; 'Previously,'</strong>: Signals that something happened before a reference point. Because 1994 and 1996 come after 1965, using &quot;previously&quot; reverses the actual timeline. &#10007;</li><li><strong>Choice C &mdash; 'For example,'</strong>: Signals that a specific instance illustrates a general claim. The first sentence states a singular milestone, not a general claim that the later strips exemplify; the strips are follow-on events, not examples of the 1965 milestone. &#10007;</li><li><strong>Choice D &mdash; 'Later,'</strong>: Signals forward movement in time from 1965 to 1994 and 1996, which is exactly the relationship between the two sentences. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The underlined phrase is a parenthetical definition that immediately follows the word \u201cmicrofilm\u201d."
+      "title": "Identify what the question needs",
+      "content": "This is a Text Structure and Purpose question. The underlined portion <em>&ldquo;(film containing scaled-down reproductions of documents)&rdquo;</em> sits in parentheses immediately after the word <em>microfilm</em>. The decisive clue is its position and form: it is a parenthetical that directly restates what microfilm is."
     },
     {
-      "title": "Match the function to the choices",
-      "content": "The phrase explains the meaning of microfilm. The other choices describe different functions: information about a famous person (A), a debate (C), or an unexpected finding (D). That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It gives information about a famous person.&rsquo;</strong>: The underlined phrase says nothing about Frederick Douglass or any person; it defines a technology term. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It explains the meaning of a word.&rsquo;</strong>: The parenthetical defines <em>microfilm</em> for readers who may be unfamiliar with the term, which is exactly &ldquo;explaining the meaning of a word.&rdquo; &#10003;</li><li><strong>Choice C &mdash; &lsquo;It describes a debate among historians.&rsquo;</strong>: No disagreement or debate appears in the underlined phrase or anywhere nearby in the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It summarizes an unexpected finding.&rsquo;</strong>: A parenthetical definition is not a finding, and nothing in the phrase signals surprise or discovery. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId": "6f6dfe3e", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Extract two points from the table", "content": "From the table, we have the points $(-6, n+184)$, $(-3, n+92)$, and $(0, n)$. Since this is a linear relationship, any two points will give the same slope. We'll use the first two."}, {"title": "Apply the slope formula", "content": "Use the slope formula $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with points $(-6, n+184)$ and $(-3, n+92)$:\n$$m = \\frac{(n+92) - (n+184)}{-3 - (-6)} = \\frac{n + 92 - n - 184}{-3 + 6} = \\frac{-92}{3} = -\\frac{92}{3}$$\nThe constant $n$ cancels immediately, leaving only the numerical values.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "6f6dfe3e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract points from the table",
+      "content": "The table gives three points on the line: $(-6,\\, n+184)$, $(-3,\\, n+92)$, and $(0,\\, n)$. Since the relationship is linear, any two points yield the same slope."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Using points $(-6,\\, n+184)$ and $(-3,\\, n+92)$:<br/>$$m = \\frac{(n+92)-(n+184)}{-3-(-6)} = \\frac{-92}{3} = -\\frac{92}{3}$$<br/>The $n$ cancels, leaving a purely numerical result."
+    },
+    {
+      "title": "Verify with the third point",
+      "content": "Using points $(-3,\\, n+92)$ and $(0,\\, n)$:<br/>$$m = \\frac{n-(n+92)}{0-(-3)} = \\frac{-92}{3}$$<br/>Consistent. Now test every choice against $m = -\\dfrac{92}{3}$:<br/><ul><li><strong>Choice A &mdash; $-\\frac{92}{3}$</strong>: Equals our computed slope exactly. &#10003;</li><li><strong>Choice B &mdash; $-\\frac{3}{92}$</strong>: This is the reciprocal of A (not the slope). &#10007;</li><li><strong>Choice C &mdash; $\\frac{n+92}{-3}$</strong>: Still contains $n$, but the slope is a fixed number; this is not the slope formula applied correctly. &#10007;</li><li><strong>Choice D &mdash; $\\frac{2n-92}{3}$</strong>: Contains $n$; would only equal $-\\frac{92}{3}$ if $n=0$, which is not guaranteed. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

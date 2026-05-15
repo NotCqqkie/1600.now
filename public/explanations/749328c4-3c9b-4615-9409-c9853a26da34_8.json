@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what they're known for",
-      "content": "The passage explicitly states: <em>\u201cNew Caledonian crows are well known for creating hooks and spears from twigs.\u201d</em>"
+      "title": "Identify what the question needs",
+      "content": "This is a Central Ideas and Details question. The question asks what New Caledonian crows are &ldquo;well known for&rdquo; according to the text. The answer must come directly from the passage, not from outside knowledge."
     },
     {
-      "title": "Apply the statement to the choices",
-      "content": "Choice C directly matches the passage's statement \u2014 they create tools out of twigs. The other three choices introduce information not in the passage: brain size and lifespan comparisons, or attribute the leaf-using behavior to the wrong bird. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;They have larger brains than palm cockatoos have.&rsquo;</strong>: the passage never compares brain sizes between any animals. &#10007;</li><li><strong>Choice B &mdash; &lsquo;They live longer than octopuses do.&rsquo;</strong>: the passage never mentions lifespans of any animal. &#10007;</li><li><strong>Choice C &mdash; &lsquo;They create tools out of twigs.&rsquo;</strong>: the passage states directly that &ldquo;New Caledonian crows are well known for creating hooks and spears from twigs.&rdquo; &#10003;</li><li><strong>Choice D &mdash; &lsquo;They use leaves as tools.&rsquo;</strong>: the passage attributes leaf use to palm cockatoos, not New Caledonian crows. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

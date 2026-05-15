@@ -1,15 +1,1 @@
-{
-  "questionId": "de0a5b4e",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the defining challenge",
-      "content": "The passage directly identifies the obstacle: the cave's low ceiling afforded no position from which to view the glyphs (which are ten feet wide) in their entirety."
-    },
-    {
-      "title": "Pick the choice that identifies the challenge",
-      "content": "Choice D correctly identifies what the passage describes as the challenge.<br/><br/>The other choices mention obstacles not discussed in the text or contradict what happened.<br/><br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"de0a5b4e","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Command of Evidence (Textual) question. It asks for the specific challenge the researchers had to overcome to examine the glyphs. The answer must be directly supported by a detail in the passage — not inferred or imported from outside."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'The cave was so remote that the researchers couldn&apos;t easily reach it.'</strong>: The passage never mentions the cave being remote or hard to access; this claim has no textual basis. &#10007;</li><li><strong>Choice B &mdash; 'Some of the glyphs were so faint that they couldn&apos;t be photographed.'</strong>: The passage says the glyphs couldn't be photographed in their entirety because of the low ceiling and the glyphs' width — not because they were faint. &#10007;</li><li><strong>Choice C &mdash; 'The researchers were unable to create a 3D model of the cave.'</strong>: The passage states the opposite: the researchers successfully used photogrammetry to assemble a 3D model. &#10007;</li><li><strong>Choice D &mdash; 'The cave&apos;s dimensions prevented the researchers from fully viewing the glyphs.'</strong>: The passage directly states the cave's ceiling was only a few feet high, affording no position from which the ten-foot-wide glyphs could be viewed in their entirety. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -1,19 +1,5 @@
 {
-  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_11",
+  "qid": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_11",
   "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange to factor form",
-      "content": "Expand the left side and collect all $x$ terms on the left: $$x(r - 7) + 3 = 17x + 25$$ $$xr - 7x + 3 = 17x + 25$$ Move constants to the right and factor: $$xr - 7x - 17x = 22$$ $$x(r - 24) = 22$$"
-    },
-    {
-      "title": "Determine the condition for exactly one solution",
-      "content": "A linear equation in the form $ax = b$ has:<ul><li>Exactly one solution when $a \\neq 0$ (then $x = b/a$)</li><li>No solution when $a = 0$ and $b \\neq 0$</li></ul>In our equation $x(r - 24) = 22$, the coefficient of $x$ is $(r - 24)$. For exactly one solution, we need $(r - 24) \\neq 0$, which means $r \\neq 24$."
-    },
-    {
-      "title": "Identify which value violates the condition",
-      "content": "Check what happens when $r = 24$: the equation becomes $x(24 - 24) = 22$, or $0 = 22$. This is a false statement with no solution. Since the problem requires exactly one solution, $r$ cannot be 24. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
+  "explanationHtml": "<p><strong>Step 1: Expand and collect like terms.</strong><br>\\(x(r-7)+3=17x+25\\)<br>\\(xr-7x+3=17x+25\\)<br>\\(xr-24x=22\\)<br>\\(x(r-24)=22\\)</p><p><strong>Step 2: Conditions for exactly one solution.</strong><br>This is linear in \\(x\\) with coefficient \\((r-24)\\). It has exactly one solution when \\(r-24\\neq 0\\), i.e. \\(r\\neq 24\\). If \\(r=24\\), the equation becomes \\(0=22\\), which has no solution.</p><p><strong>Step 3: Test all four choices.</strong><ul><li><strong>Choice A &mdash; &lsquo;3&rsquo;</strong>: \\(r=3\\Rightarrow r-24=-21\\neq 0\\Rightarrow\\) exactly one solution; this CAN be \\(r\\) &#10007;</li><li><strong>Choice B &mdash; &lsquo;7&rsquo;</strong>: \\(r=7\\Rightarrow r-24=-17\\neq 0\\Rightarrow\\) exactly one solution; this CAN be \\(r\\) &#10007;</li><li><strong>Choice C &mdash; &lsquo;22&rsquo;</strong>: \\(r=22\\Rightarrow r-24=-2\\neq 0\\Rightarrow\\) exactly one solution; this CAN be \\(r\\) &#10007;</li><li><strong>Choice D &mdash; &lsquo;24&rsquo;</strong>: \\(r=24\\Rightarrow r-24=0\\Rightarrow 0=22\\Rightarrow\\) no solution; this CANNOT give exactly one solution &#10003;</li></ul></p><p>That matches choice D &mdash; <strong>D</strong> is correct.</p>"
 }

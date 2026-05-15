@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The phrase <strong>\u201cfor example\u201d</strong> indicates the second clause exemplifies the claim about <strong>\u201cmany are still well ______\u201d</strong>."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "Identify the structure: \"many are still well [blank]\" is an independent clause (IC). What follows \u2014 \"Malika Ouattara, for example, is a celebrated slam poet...\" \u2014 is also an IC that exemplifies the claim. Rule: a colon after an IC introduces an example or elaboration.\n<ul>\n<li><strong>Choice A \u2014 \"known,\"</strong>: \"many are still well known, Malika Ouattara...\" \u2014 joins two ICs with only a comma: comma splice. \u2717</li>\n<li><strong>Choice B \u2014 \"known:\"</strong>: \"many are still well known: Malika Ouattara...\" \u2014 colon after a complete IC introduces the example. \u2713</li>\n<li><strong>Choice C \u2014 \"known and\"</strong>: \"many are still well known and Malika Ouattara...\" \u2014 \"and\" would need a comma before it and doesn't logically connect the two ICs here. \u2717</li>\n<li><strong>Choice D \u2014 \"known\"</strong>: \"many are still well known Malika Ouattara...\" \u2014 no punctuation between two ICs creates a run-on. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1b5dbecd-2a08-4015-83f5-8ad883233476_16","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Boundaries question. The blank connects two independent clauses: &quot;many are still well [blank]&quot; and &quot;Malika Ouattara, for example, is a celebrated slam poet from Burkina Faso.&quot; The second clause is an example that illustrates the first. The correct punctuation must join two independent clauses without creating a comma splice or run-on, while signaling that an example follows."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;known,&quot;</strong>: Placing only a comma between two independent clauses creates a comma splice, a boundary error. &#10007;</li><li><strong>Choice B &mdash; &quot;known:&quot;</strong>: A colon after a complete independent clause correctly introduces an example or elaboration. &quot;Many are still well known&quot; is a complete independent clause, and what follows is a concrete example of that claim. &#10003;</li><li><strong>Choice C &mdash; &quot;known and&quot;</strong>: The coordinating conjunction &quot;and&quot; would need a comma before it (&quot;known, and&quot;) to join two independent clauses, and even then it implies addition rather than an example relationship signaled by &quot;for example.&quot; Without the comma, it is also a boundary error. &#10007;</li><li><strong>Choice D &mdash; &quot;known&quot;</strong>: No punctuation between two independent clauses creates a run-on sentence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

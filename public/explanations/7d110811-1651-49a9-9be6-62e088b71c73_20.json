@@ -3,13 +3,9 @@
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
-    {
-      "title": "Factor out x and identify the condition for no solution",
-      "content": "Factor out $x$ from the left side:<br/>$$x(-3 + 18p) = 90$$<br/>For a linear equation of the form $ax = b$ to have no solution, the coefficient of $x$ must equal zero while the right side is non-zero (creating a contradiction). Since $90 \\neq 0$, we need:<br/>$$-3 + 18p = 0$$"
-    },
-    {
-      "title": "Solve for p",
-      "content": "From $-3 + 18p = 0$:<br/>$$18p = 3$$<br/>$$p = \\frac{3}{18} = \\frac{1}{6}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
+    "Factor \\(x\\) from the left side of \\(-3x + 18px = 90\\) to get \\(x(-3 + 18p) = 90\\).",
+    "For a linear equation \\(ax = c\\) with \\(c \\neq 0\\) to have no solution, the coefficient \\(a\\) must equal 0 (producing \\(0 = 90\\), a contradiction). Since \\(90 \\neq 0\\), we need \\(-3 + 18p = 0\\), so \\(18p = 3\\) and \\(p = \\frac{1}{6}\\).",
+    "Test all four choices: <ul><li><strong>Choice A &mdash; '5'</strong>: \\(p = 5\\) gives coefficient \\(-3 + 18(5) = 87 \\neq 0\\), so \\(x = \\frac{90}{87}\\) &mdash; exactly one solution. &#10007;</li><li><strong>Choice B &mdash; '0'</strong>: \\(p = 0\\) gives coefficient \\(-3 + 0 = -3 \\neq 0\\), so \\(x = \\frac{90}{-3} = -30\\) &mdash; exactly one solution. &#10007;</li><li><strong>Choice C &mdash; '\\(\\frac{5}{3}\\)'</strong>: \\(p = \\frac{5}{3}\\) gives coefficient \\(-3 + 18 \\cdot \\frac{5}{3} = -3 + 30 = 27 \\neq 0\\) &mdash; exactly one solution. &#10007;</li><li><strong>Choice D &mdash; '\\(\\frac{1}{6}\\)'</strong>: \\(p = \\frac{1}{6}\\) gives coefficient \\(-3 + 18 \\cdot \\frac{1}{6} = -3 + 3 = 0\\), producing \\(0 = 90\\) &mdash; a contradiction with no solution. &#10003;</li></ul>",
+    "That matches choice D &mdash; <strong>D</strong> is correct."
   ]
 }

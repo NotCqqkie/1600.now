@@ -1,15 +1,1 @@
-{
-  "questionId": "e38b3e4f",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject that needs agreement",
-      "content": "The blank is in the relative clause <strong>The radiation that [blank]...</strong> The subject is <strong>radiation</strong>, which is singular."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires the verb to match its subject's number, so <strong>occurs</strong> is the correct singular form. The other three options are all plural and violate this requirement. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e38b3e4f","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a subject-verb agreement question (Standard English Conventions). The sentence structure is &ldquo;The radiation that [blank] during the decay of radioactive atomic nuclei is known as gamma radiation.&rdquo; The blank fills the verb in the relative clause &ldquo;that [blank].&rdquo; The subject of that clause is &ldquo;radiation,&rdquo; which is singular."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;occurs&rsquo;</strong>: Singular present-tense verb; agrees with the singular subject &ldquo;radiation.&rdquo; &#10003;</li><li><strong>Choice B &mdash; &lsquo;have occurred&rsquo;</strong>: Plural verb (&ldquo;have&rdquo; requires a plural subject); violates subject-verb agreement with the singular &ldquo;radiation.&rdquo; &#10007;</li><li><strong>Choice C &mdash; &lsquo;occur&rsquo;</strong>: Plural base form; used with plural subjects or with &ldquo;I&rdquo;, not with singular third-person &ldquo;radiation.&rdquo; Violates subject-verb agreement. &#10007;</li><li><strong>Choice D &mdash; &lsquo;are occurring&rsquo;</strong>: Plural progressive form (&ldquo;are&rdquo; requires a plural subject); violates subject-verb agreement with the singular &ldquo;radiation.&rdquo; &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

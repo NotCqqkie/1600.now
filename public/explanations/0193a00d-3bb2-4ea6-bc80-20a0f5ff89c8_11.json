@@ -1,1 +1,19 @@
-{"questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_11", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Expand both sides and apply the infinitely many solutions condition", "content": "For an equation to have infinitely many solutions, it must be an identity—both sides are equal for all values of $x$.<br/><br/>Expand the left side:<br/>$$a(4x - 8) + 5a = 4ax - 8a + 5a = 4ax - 3a$$<br/>Expand the right side:<br/>$$4(ax - 2a) - 20 = 4ax - 8a - 20$$<br/>The coefficients of $x$ already match on both sides. For the equation to be an identity, the constant terms must also be equal:<br/>$$-3a = -8a - 20$$"}, {"title": "Solve for the value of a", "content": "Solve the constant term equation:<br/>$$-3a = -8a - 20$$<br/>$$-3a + 8a = -20$$<br/>$$5a = -20$$<br/>$$a = -4$$<br/>Since $a = -4$ is the only value that makes the equation an identity, the complete set of all possible values of $a$ is $\\{-4\\}$. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_11",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "For infinitely many solutions the equation must be an identity (true for every \\(x\\)). Expand:<br/>Left: \\(a(4x-8)+5a = 4ax - 8a + 5a = 4ax - 3a\\)<br/>Right: \\(4(ax-2a)-20 = 4ax - 8a - 20\\)<br/>The \\(4ax\\) terms are identical on both sides regardless of \\(a\\), so the \\(x\\)-coefficient condition is already met. Equate the constant terms:<br/>$$-3a = -8a - 20 \\implies 5a = -20 \\implies a = -4$$"
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; &minus;4 only</strong>: When \\(a = -4\\): left \\(= -16x + 12\\), right \\(= -16x + 32 - 20 = -16x + 12\\). Identity for all \\(x\\). &#10003; And \\(a = -4\\) is the unique solution to \\(5a = -20\\), so no other value works. &#10003;</li><li><strong>Choice B &mdash; 0 only</strong>: When \\(a = 0\\): left \\(= 0\\), right \\(= -20\\). This gives \\(0 = -20\\), which is never true (no solutions, not infinitely many). &#10007;</li><li><strong>Choice C &mdash; Any real number</strong>: Any \\(a \\neq -4\\) gives \\(-3a \\neq -8a - 20\\), producing a contradiction with no solutions. Not every real number works. &#10007;</li><li><strong>Choice D &mdash; No real number</strong>: \\(a = -4\\) does produce an identity, so at least one value works. &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Exactly one value, \\(a = -4\\), makes the equation an identity with infinitely many solutions. That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

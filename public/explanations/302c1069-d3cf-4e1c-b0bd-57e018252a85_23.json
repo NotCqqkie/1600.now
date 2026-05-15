@@ -1,15 +1,1 @@
-{
-  "questionId": "302c1069-d3cf-4e1c-b0bd-57e018252a85_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first sentence states caffeic acid benefits the mushroom. The second sentence adds another beneficiary—humans. This is an additive relationship, not a contrast or conclusion."
-    },
-    {
-      "title": "Apply the signal",
-      "content": "The logical relationship is addition. The blank needs a transition signaling that the acid's benefit to humans is an additional finding beyond its benefit to the mushroom.\n<ul>\n<li><strong>Choice A — \"Conversely,\"</strong>: signals opposition or contrast, but both sentences describe benefits of the same acid, so fails. ✗</li>\n<li><strong>Choice B — \"Moreover,\"</strong>: signals an additional related point, fitting the expansion from mushroom benefits to human benefits, so fits. ✓</li>\n<li><strong>Choice C — \"Rather,\"</strong>: signals correction or replacement of the prior idea, but nothing is being corrected here, so fails. ✗</li>\n<li><strong>Choice D — \"For example,\"</strong>: signals a specific instance of a general claim; humans aren't an example of mushrooms, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"302c1069-d3cf-4e1c-b0bd-57e018252a85_23","correctAnswer":"B","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"Sentence 1 reports that caffeic acid benefits the termite mushroom by combating free radicals. Sentence 2 reports that the acid also promotes cellular health in humans. The relationship is additive &mdash; a second benefit is being layered onto the first &mdash; so the transition must signal addition, not contrast or correction."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Conversely,&rsquo;</strong>: signals opposition or reversal; both sentences describe benefits of the same acid, so there is no contrast to introduce. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Moreover,&rsquo;</strong>: signals an additional related point; expanding from the mushroom&rsquo;s benefit to humans&rsquo; benefit is exactly an additive relationship. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Rather,&rsquo;</strong>: signals correction or substitution of the prior idea; nothing in sentence 1 is being corrected or replaced. &#10007;</li><li><strong>Choice D &mdash; &lsquo;For example,&rsquo;</strong>: signals that what follows is a specific instance of a general claim made before it; humans are not an example of mushrooms, so this does not fit the logical relationship. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

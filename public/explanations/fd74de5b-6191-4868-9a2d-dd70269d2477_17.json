@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the matching punctuation pattern",
-      "content": "The opening comma after \"become\" signals that \"with the breakout success of her 2020 novel Mexican Gothic\" is an interrupting phrase that must be enclosed with matching punctuation on both sides."
+      "title": "Identify what the question needs",
+      "content": "This is a Boundaries question testing matching punctuation around an interrupting phrase. The comma already placed after &ldquo;become&rdquo; is the decisive clue: a comma that opens a parenthetical interruption must be closed by a matching comma."
     },
     {
-      "title": "Complete the matching enclosure",
-      "content": "Rule: when a comma opens an interrupting phrase, a matching comma must close it. The sentence reads: \"she's become<u>,</u> with the breakout success of her 2020 novel Mexican Gothic<u>_</u> best known as a novelist.\" The blank is the closing punctuation.<br/><br/><strong>A:</strong> \"...Mexican Gothic— best known...\" — an em dash doesn't match the opening comma; mismatched pair. Incorrect.<br/><br/><strong>B:</strong> \"...Mexican Gothic; best known...\" — a semicolon joins independent clauses and cannot close a mid-sentence interrupting phrase. Incorrect.<br/><br/><strong>C:</strong> \"...Mexican Gothic best known...\" — no closing punctuation; the interrupting phrase is never closed, fusing it into the main clause. Incorrect.<br/><br/><strong>D:</strong> \"...Mexican Gothic, best known...\" — the comma matches the opening comma after \"become,\" properly enclosing the phrase. <strong>Correct.</strong>"
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Gothic&mdash;&rsquo;</strong>: An em dash cannot pair with an opening comma. Mismatched delimiters leave the interrupting phrase improperly enclosed. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Gothic;&rsquo;</strong>: A semicolon connects two independent clauses; it cannot close a mid-sentence interrupting phrase, and the clause that follows (&ldquo;best known as a novelist&rdquo;) is not independent. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Gothic&rsquo;</strong>: No punctuation at all leaves the phrase &ldquo;with the breakout success of her 2020 novel Mexican Gothic&rdquo; unclosed, fusing it awkwardly into the main clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Gothic,&rsquo;</strong>: A comma matches the opening comma after &ldquo;become,&rdquo; correctly enclosing the interrupting prepositional phrase on both sides. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,15 @@
-{"questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_4", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal", "content": "The structure “which is an _____ number to feel confident” links a property of the sample size directly to confidence in the rating. The blank must name what makes 9,000 justify that confidence."}, {"title": "Match the meaning", "content": "The target meaning is <em>sufficient</em> or <em>enough</em>—and “adequate” expresses this precisely, as it means sufficient for a purpose.<br/><br/>Here, 9,000 is adequate for justifying confidence in the average rating.<br/>The other choices don't fit: “insufficient” contradicts the logic, “excessive” wrongly suggests too much, and “accurate” addresses rating quality rather than sample size.<br/>This matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "eb783fc1-8559-4650-9621-8d99c6c2ab30_4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The passage sets up a conditional: average ratings can be misleading with few raters, but Food Chain Magnate has over 9,000 raters. The blank must describe what 9,000 raters makes the sample&mdash;the decisive clue is that 9,000 is enough to &ldquo;feel confident&rdquo; the rating is reliable."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;insufficient&rsquo;</strong>: means not enough. This contradicts the passage, which uses 9,000 raters to justify confidence in the average. &#10007;</li><li><strong>Choice B &mdash; &lsquo;excessive&rsquo;</strong>: means more than necessary. The passage makes no claim that 9,000 is too many; it simply says 9,000 is enough to be reliable. &#10007;</li><li><strong>Choice C &mdash; &lsquo;accurate&rsquo;</strong>: describes a quality of the rating itself, not of the sample size. A number of raters cannot be &ldquo;accurate&rdquo;&mdash;accuracy is not the relevant attribute for a count. &#10007;</li><li><strong>Choice D &mdash; &lsquo;adequate&rsquo;</strong>: means sufficient for a purpose. 9,000 raters is adequate&mdash;just enough&mdash;to feel confident the average rating is reliable. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

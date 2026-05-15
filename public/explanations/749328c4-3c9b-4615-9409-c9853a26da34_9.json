@@ -1,15 +1,1 @@
-{
-  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the relationship signal",
-      "content": "The passage's final sentence directly establishes how Kenny and Lysyanskaya are connected: <em>\u201cKenny and others like her helped make it possible for more women\u2014such as Anna Lysyanskaya, who currently works in and teaches digital cryptography\u2014to enter the field of cryptology.\u201d</em> Kenny is positioned as an early contributor, and Lysyanskaya as a current participant in the same field."
-    },
-    {
-      "title": "Match the signal to the answer",
-      "content": "Choice D captures the core relationship: Kenny's earlier contributions enabled Lysyanskaya's entry into the field.<br/>The other options introduce elements the passage doesn't support\u2014direct instruction (A), simultaneous careers (B), or an institutional connection (C).<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"749328c4-3c9b-4615-9409-c9853a26da34_9","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Central Ideas and Details question asking about the relationship between Kenny and Lysyanskaya. The passage's final sentence is the decisive clue: &quot;Kenny and others like her helped make it possible for more women &mdash; such as Anna Lysyanskaya &mdash; to enter the field of cryptology.&quot; Kenny is an early contributor; Lysyanskaya is a current practitioner in the same field."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'Minnie McNeal Kenny taught Anna Lysyanskaya how to securely manage important data.'</strong>: The passage never says Kenny taught Lysyanskaya directly. Kenny's contributions were administrative and award-winning, not described as personal instruction to any individual. &#10007;</li><li><strong>Choice B &mdash; 'Minnie McNeal Kenny and Anna Lysyanskaya worked together early in their careers.'</strong>: The passage gives no indication their careers overlapped in time; Kenny is presented as an earlier pioneer and Lysyanskaya as a current practitioner. &#10007;</li><li><strong>Choice C &mdash; 'Minnie McNeal Kenny founded an organization that Anna Lysyanskaya currently works for.'</strong>: The passage names the NSA and the National Cryptologic School as organizations Kenny worked within, not ones she founded &mdash; and nothing links Lysyanskaya to either institution. &#10007;</li><li><strong>Choice D &mdash; 'Minnie McNeal Kenny made earlier contributions to a field that Anna Lysyanskaya currently works within.'</strong>: This matches the passage exactly: Kenny's earlier contributions helped open the field of cryptology, and Lysyanskaya currently works and teaches within it. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

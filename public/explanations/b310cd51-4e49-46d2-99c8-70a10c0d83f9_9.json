@@ -1,1 +1,16 @@
-{"questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_9", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Parallel lines: equal slopes", "content": "Line k is $y = 8x + 7$, so $m_k = 8$. Parallel lines share the same slope, so line j also has slope $8$."}, {"title": "y-intercept is given directly", "content": "Line j passes through $(0, 15)$, which is already the y-intercept, so $b = 15$.<br/>$$y = 8x + 15$$<br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = 8x + 7", "y = 8x + 15", "(0, 15)"]}]}
+{
+  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Determine requirements for line j",
+      "content": "Line $k$: $y = 8x + 7$ has slope $8$. Line $j$ is <strong>parallel</strong> to $k$, so it must have the same slope: $m_j = 8$. Line $j$ also passes through $(0, 15)$, which is the $y$-intercept, so $b = 15$."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; $y = 15x + 7$</strong>: Slope $= 15 \\neq 8$. Not parallel to $k$. &#10007;</li><li><strong>Choice B &mdash; $y = -15x + 7$</strong>: Slope $= -15 \\neq 8$. Not parallel to $k$. &#10007;</li><li><strong>Choice C &mdash; $y = 8x + 15$</strong>: Slope $= 8$ (parallel to $k$) and passes through $(0,15)$. &#10003;</li><li><strong>Choice D &mdash; $y = -8x + 15$</strong>: Slope $= -8 \\neq 8$. Not parallel to $k$ (perpendicular slopes would be $-\\frac{1}{8}$, not $-8$). &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = 8x + 7", "y = 8x + 15", "(0, 15)"]
+    }
+  ]
+}

@@ -1,1 +1,16 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_19", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Compare the coefficients", "content": "Form ratios of the matching $x$, $y$, and constant terms in $$3.5x + 1.2y = 8$$ and $$17.5x + 6y = 40$$. This gives $\\frac{17.5}{3.5}=\\frac{6}{1.2}=\\frac{40}{8}=5$."}, {"title": "Identify the answer", "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct.", "desmosExpressions": ["y = \\frac{8 - 3.5x}{1.2}", "y = \\frac{40 - 17.5x}{6}"]}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check whether the equations are multiples of each other",
+      "content": "Given: \\(3.5x + 1.2y = 8\\) and \\(17.5x + 6y = 40\\). Multiply every term of the first equation by 5: $$5(3.5x) = 17.5x,\\quad 5(1.2y) = 6y,\\quad 5(8) = 40$$ The result is exactly \\(17.5x + 6y = 40\\) &mdash; the second equation."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;Exactly one&#39;</strong>: A unique solution requires non-parallel, non-identical lines. These equations are identical after scaling, so they define the same line &mdash; infinitely many shared points. &#10007;</li><li><strong>Choice B &mdash; &#39;Exactly two&#39;</strong>: Two linear equations cannot share exactly two points; if they share more than one they are the same line. &#10007;</li><li><strong>Choice C &mdash; &#39;Infinitely many&#39;</strong>: Since the ratios \\(\\frac{17.5}{3.5} = \\frac{6}{1.2} = \\frac{40}{8} = 5\\) are all equal, the equations are equivalent &mdash; every point on one line satisfies the other. &#10003;</li><li><strong>Choice D &mdash; &#39;Zero&#39;</strong>: Zero solutions requires parallel but distinct lines (equal coefficient ratios, unequal constant ratio). Here all three ratios are equal, so the lines are identical, not parallel-distinct. &#10007;</li></ul>That matches choice C &#8212; <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{8 - 3.5x}{1.2}", "y = \\frac{40 - 17.5x}{6}"]
+    }
+  ]
+}

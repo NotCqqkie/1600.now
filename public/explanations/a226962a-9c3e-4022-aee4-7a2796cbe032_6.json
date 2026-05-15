@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's structure",
-      "content": "The passage follows a clear pattern: it <strong>defines a research approach</strong> (community science), <strong>explains why it's valuable</strong> (by listing specific benefits), and then <strong>shows how it worked in practice</strong> (through Merrill's study)."
+      "title": "Identify what the question needs",
+      "content": "This is a Text Structure and Purpose question. Map what each sentence does: sentence 1 defines community science; sentence 2 lists three specific benefits; sentence 3 names a real study that used this approach. The correct answer must capture all three moves in order."
     },
     {
-      "title": "Match the pattern to the choices",
-      "content": "Choice A correctly identifies the passage's structure\u2014approach defined, benefits listed, study mentioned.<br/>The others either misrepresent what the passage does (B claims argumentation and \u201cpublic opinion,\u201d C invents development and future projects, D claims results are presented) or skip important elements.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;identifies a particular approach &hellip; lists some benefits &hellip; mentions a study&rsquo;</strong>: matches exactly &mdash; definition in sentence 1, three-item benefit list in sentence 2, Merrill&rsquo;s study in sentence 3. &#10003;</li><li><strong>Choice B &mdash; &lsquo;argues for a new approach &hellip; public&rsquo;s opinion&rsquo;</strong>: the passage makes no argument and never mentions public opinion. &ldquo;Argues&rdquo; and &ldquo;public opinion&rdquo; are invented. &#10007;</li><li><strong>Choice C &mdash; &lsquo;development of a type of collaboration &hellip; suggests future projects&rsquo;</strong>: the passage does not trace a history of how community science developed, nor does it suggest any future projects. Both elements are fabricated. &#10007;</li><li><strong>Choice D &mdash; &lsquo;introduces a study &hellip; presents the study&rsquo;s results&rsquo;</strong>: the passage introduces community science as an approach, not Merrill&rsquo;s study specifically, and no results are ever given. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

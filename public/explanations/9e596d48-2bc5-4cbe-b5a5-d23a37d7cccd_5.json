@@ -1,1 +1,19 @@
-{"questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Locate the marked angle at line n", "content": "Where transversal k crosses line n, an angle of 135° is explicitly marked in the lower-left region (below line n and to the left of k).<br/><br/>At any line-transversal intersection, the four angles consist of two pairs: vertical angles are equal, and adjacent angles are supplementary.<br/><br/>Since one angle is 135°, the four angles measure 135°, 45°, 135°, and 45°."}, {"title": "Identify angle s", "content": "The label <em>s</em> is positioned directly at the 135° angle at the intersection of k and n.<br/><br/>Since <em>s</em> labels that angle, s = 135°. By corresponding angles (when a transversal crosses parallel lines, angles in the same relative position are equal), the angle in the corresponding position at line m is also 135°.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given angle",
+      "content": "The figure shows transversal k crossing parallel lines m and n. A 135° angle is marked at the intersection of k and n, in the lower-left region (below n, left of k). At any intersection, adjacent angles are supplementary and vertical angles are equal, so the four angles at that intersection are 135°, 45°, 135°, 45°."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'q = 135'</strong>: The label q is at the upper-left at the intersection of k and m. By corresponding angles (same relative position at a parallel-line crossing), the corresponding angle at n is also upper-left = 45°. So q = 45°, not 135°. &#10007;</li><li><strong>Choice B &mdash; 'r = 135'</strong>: The label r is upper-right at the k/m intersection. The corresponding angle at n is upper-right = 45°. So r = 45°, not 135°. &#10007;</li><li><strong>Choice C &mdash; 's = 135'</strong>: The label s is at the lower-left at the k/n intersection, the exact position where 135° is marked. Therefore s = 135°. &#10003;</li><li><strong>Choice D &mdash; 't = 135'</strong>: The label t is lower-right at the k/n intersection. That angle is adjacent to s (supplementary): 180° &minus; 135° = 45°. So t = 45°, not 135°. &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Only s directly labels the 135° angle at the intersection of k and n. That matches choice C — <strong>C</strong> is correct."
+    }
+  ]
+}

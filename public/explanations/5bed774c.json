@@ -1,15 +1,1 @@
-{
-  "questionId": "5bed774c",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structures",
-      "content": "The structure to the left is an independent clause: \u201cPhilosopher Peter Kivy was a leading figure in musical [word].\u201d To the right, after \u201citself,\u201d is another independent clause: \u201cKivy's approach to the study of music was decidedly formalist.\u201d"
-    },
-    {
-      "title": "Apply the rule for sentence boundaries",
-      "content": "A period properly separates two independent clauses into distinct sentences. When placed after \u201caesthetics,\u201d the second sentence correctly begins with a participial phrase (\u201cAs evidenced by...\u201d), followed by a comma and the main independent clause.<br/><br/>Options A, B, and C fail to properly separate the two independent clauses\u2014either omitting necessary punctuation or creating ungrammatical formations.<br/><br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5bed774c","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Boundaries (punctuation) question. The blank fills the word that ends one independent clause (&quot;Philosopher Peter Kivy was a leading figure in musical ____&quot;) and the text that follows begins another independent clause (&quot;Kivy's approach to the study of music was decidedly formalist&quot;). Two independent clauses need a correct boundary between them."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'aesthetics as'</strong>: Using no punctuation between the two independent clauses creates a run-on sentence — two main clauses fused without any separator. &#10007;</li><li><strong>Choice B &mdash; 'aesthetics and as'</strong>: A coordinating conjunction joining two independent clauses requires a comma before it (&quot;, and&quot;); without that comma, this construction is ungrammatical. &#10007;</li><li><strong>Choice C &mdash; 'aesthetics, as'</strong>: A comma alone between two independent clauses creates a comma splice — a comma cannot mark a sentence boundary without a coordinating conjunction. &#10007;</li><li><strong>Choice D &mdash; 'aesthetics. As'</strong>: A period correctly ends the first independent clause and starts a new sentence, where &quot;As evidenced by...itself&quot; is a properly placed adverbial modifier preceding the main clause about Kivy's formalism. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

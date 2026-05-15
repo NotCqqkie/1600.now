@@ -1,1 +1,19 @@
-{"questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify co-interior angles and apply the theorem", "content": "Since lines $\\ell$ and $k$ are parallel and line $t$ is a transversal, angles $x$ and $y$ are co-interior angles (also called consecutive interior angles or same-side interior angles).<br/><br/>These angles are on the same side of the transversal and between the parallel lines.<br/><br/>By the co-interior angle theorem, they must be supplementary:<br/>$$x + y = 180°$$"}, {"title": "Find the upper bound for y", "content": "From $x + y = 180°$, we can express $y = 180° - x$. Since $x > 165°$:<br/>$$y = 180° - x < 180° - 165° = 15°$$<br/>So $y < 15°$. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the angle relationship",
+      "content": "Lines \\(\\ell\\) and \\(k\\) are parallel; transversal \\(t\\) creates co-interior (same-side interior) angles \\(x\\) and \\(y\\). By the Co-Interior Angle Theorem these are supplementary: $$x + y = 180°$$"
+    },
+    {
+      "title": "Apply the constraint x > 165",
+      "content": "From \\(x + y = 180\\) we get \\(y = 180 - x\\). Since \\(x > 165\\): $$y = 180 - x < 180 - 165 = 15$$ So \\(y < 15\\)."
+    },
+    {
+      "title": "Test all four choices",
+      "content": "<ul><li><strong>Choice A &mdash; &#39;y &lt; 15&#39;</strong>: Because \\(y = 180 - x\\) and \\(x > 165\\), we get \\(y < 15\\). &#10003;</li><li><strong>Choice B &mdash; &#39;y &gt; 15&#39;</strong>: This requires \\(180 - x > 15\\), i.e., \\(x < 165\\). That contradicts \\(x > 165\\). &#10007;</li><li><strong>Choice C &mdash; &#39;x + y &lt; 180&#39;</strong>: Co-interior angles on parallel lines sum to exactly 180, never less. &#10007;</li><li><strong>Choice D &mdash; &#39;x + y &gt; 180&#39;</strong>: Same reason; the sum is always exactly 180. &#10007;</li></ul>That matches choice A &#8212; <strong>A</strong> is correct."
+    }
+  ]
+}

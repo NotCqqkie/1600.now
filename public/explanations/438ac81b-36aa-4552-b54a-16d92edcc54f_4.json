@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the defining phrase",
-      "content": "The passage calls these Wikipedia entries \"fictitious\" — made-up entries for nonexistent people like The Deadweights and Théophile Figeys. They persisted \"before they were finally recognized as ___ and deleted.\" The blank names what the fictitious entries were recognized as. It must mean invented falsehoods."
+      "title": "Identify what the question needs",
+      "content": "This is a Words in Context question. The text calls the Wikipedia entries &quot;fictitious&quot; &mdash; invented content about people who do not exist. The blank completes the phrase &quot;recognized as ___ and deleted,&quot; so the word must mean something invented or made-up, matching the tone of the passage's description of deliberate hoaxes."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "The word needs to mean invented or made-up things. Substitute each choice: <ul><li><strong>Choice A — enhancements</strong>: means improvements — recognizing fake entries as \"improvements\" makes no sense; they were harmful hoaxes, not improvements to Wikipedia. ✗</li><li><strong>Choice B — analyses</strong>: means examinations or evaluations — a fictitious entry for a fake band is not an analysis of anything. ✗</li><li><strong>Choice C — fabrications</strong>: means invented falsehoods — exactly what fictitious entries are: completely made-up facts presented as real. ✓</li><li><strong>Choice D — revelations</strong>: means disclosed truths or surprising discoveries — the opposite of a fabrication; revelations expose truth, whereas these entries hid falsehoods. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'enhancements'</strong>: Means improvements or additions that make something better. Fake entries for nonexistent people harm Wikipedia's reliability; calling them &quot;enhancements&quot; contradicts the passage's framing of them as harmful hoaxes. &#10007;</li><li><strong>Choice B &mdash; 'analyses'</strong>: Means examinations or evaluations of something real. A fabricated entry for a made-up band is not an analysis of any actual subject. &#10007;</li><li><strong>Choice C &mdash; 'fabrications'</strong>: Means invented falsehoods presented as fact. This precisely describes fictitious entries created by mischievous users &mdash; made-up information designed to deceive. &#10003;</li><li><strong>Choice D &mdash; 'revelations'</strong>: Means disclosures of previously hidden truths. A revelation exposes something real; these entries invented something false, which is the opposite. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,14 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Combine like terms",
-      "content": "Rewrite the equation by factoring out $x$ from the left-hand side: $$-3x + 21px = (-3 + 21p)x = 84$$.<br/><br/>A linear equation $ax = b$ has no solution <em>if the coefficient $a$ is 0 and $b \\neq 0$</em>. Setting $-3 + 21p = 0$ gives the condition for no solution.",
+      "title": "Factor the left side",
+      "content": "Rewrite \\(-3x + 21px = 84\\) by factoring x: $$(-3 + 21p)x = 84$$ A linear equation of the form \\(ax = b\\) has no solution when \\(a = 0\\) and \\(b \\neq 0\\) (the equation becomes \\(0 = 84\\), a contradiction). So we need \\(-3 + 21p = 0\\).",
       "formula": "$$-3 + 21p = 0$$"
     },
     {
-      "title": "Solve for $p$",
-      "content": "Solve $-3 + 21p = 0$:<br/>$$21p = 3 \\quad \\Rightarrow \\quad p = \\frac{3}{21} = \\frac{1}{7}$$.<br/><br/>At $p = \\frac{1}{7}$, the equation becomes $0x = 84$, which has no solution. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "title": "Solve for p and test all choices",
+      "content": "$$21p = 3 \\implies p = \\frac{3}{21} = \\frac{1}{7}$$<ul><li><strong>Choice A &mdash; \\(0\\)</strong>: \\(p=0\\) gives \\(-3x = 84\\), which has solution \\(x = -28\\). One solution, not no solution. &#10007;</li><li><strong>Choice B &mdash; \\(\\frac{1}{7}\\)</strong>: \\(-3 + 21 \\cdot \\frac{1}{7} = -3 + 3 = 0\\), so \\(0x = 84\\) &mdash; no solution. &#10003;</li><li><strong>Choice C &mdash; \\(\\frac{4}{3}\\)</strong>: \\(-3 + 21 \\cdot \\frac{4}{3} = -3 + 28 = 25 \\neq 0\\), so one solution exists. &#10007;</li><li><strong>Choice D &mdash; \\(4\\)</strong>: \\(-3 + 21 \\cdot 4 = -3 + 84 = 81 \\neq 0\\), so one solution exists. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
       "formula": "$$p = \\frac{1}{7}$$"
     }
-  ]
+  ],
+  "desmosExpressions": []
 }

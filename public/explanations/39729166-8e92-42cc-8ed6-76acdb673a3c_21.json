@@ -1,1 +1,28 @@
-{"questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_21", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Check if Equation I is the same line or parallel", "content": "For equation I: $7.5x + 4.5y = 9$, check if coefficients and constant are proportional to the original $5x + 3y = 6$. <br/>The scale factors are: $$\\frac{7.5}{5} = 1.5, \\quad \\frac{4.5}{3} = 1.5, \\quad \\frac{9}{6} = 1.5$$ All ratios equal 1.5, so Equation I is $1.5 \\times$ the original.<br/><br/>They represent the same line with infinitely many solutions."}, {"title": "Check if Equation II is parallel and conclude", "content": "For equation II: $7.5x - 4.5y = 9$, the coefficient ratios are: $$\\frac{7.5}{5} = 1.5 \\quad \\text{but} \\quad \\frac{-4.5}{3} = -1.5$$ Since the ratios differ, Equation II represents a line that intersects the original line (rather than coinciding or being parallel).<br/><br/>Therefore, both tested equations satisfy the requirement of having at least one solution.<br/><br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = \\frac{6 - 5x}{3}", "y = \\frac{9 - 7.5x}{4.5}", "y = \\frac{9 + 7.5x}{4.5}"]}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope and properties of the given line",
+      "content": "Given $5x + 3y = 6 \\Rightarrow y = -\\frac{5}{3}x + 2$. Slope $= -\\frac{5}{3}$, $y$-intercept $= 2$."
+    },
+    {
+      "title": "Test Equation I: $7.5x + 4.5y = 9$",
+      "content": "Check ratios: $\\frac{7.5}{5} = 1.5$, $\\frac{4.5}{3} = 1.5$, $\\frac{9}{6} = 1.5$. All ratios equal, so Equation I is $1.5 \\times$ the original &rarr; same line &rarr; infinitely many solutions. At least one solution exists."
+    },
+    {
+      "title": "Test Equation II: $7.5x - 4.5y = 9$",
+      "content": "Check slope: $-4.5y = -7.5x + 9 \\Rightarrow y = \\frac{5}{3}x - 2$. Slope $= \\frac{5}{3} \\neq -\\frac{5}{3}$ (different sign). Different slopes &rarr; lines intersect at exactly one point &rarr; one solution. At least one solution exists."
+    },
+    {
+      "title": "Evaluate all four answer choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Equation I gives infinitely many solutions &#10003;, but Equation II also gives at least one solution &#10003;, so &ldquo;I only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice B &mdash; 'II only'</strong>: Equation II gives exactly one solution &#10003;, but Equation I also gives at least one solution &#10003;, so &ldquo;II only&rdquo; is too restrictive. &#10007;</li><li><strong>Choice C &mdash; 'I and II'</strong>: Both Equation I (infinitely many solutions) and Equation II (exactly one solution) satisfy the condition of having at least one solution. &#10003;</li><li><strong>Choice D &mdash; 'Neither I nor II'</strong>: Both equations do yield at least one solution, so &ldquo;Neither&rdquo; is incorrect. &#10007;</li></ul>",
+      "desmosExpressions": ["y = \\frac{6 - 5x}{3}", "y = \\frac{9 - 7.5x}{4.5}", "y = \\frac{7.5x - 9}{4.5}"]
+    },
+    {
+      "title": "Conclusion",
+      "content": "Both equations can serve as the second equation in a system with at least one solution. That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

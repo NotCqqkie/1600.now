@@ -1,15 +1,1 @@
-{
-  "questionId": "6cf906fc",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the painting lacks",
-      "content": "The poem emphasizes what is missing from the barren landscape: no hope, no green growth, and no <em>sheltering roof</em>. The word <em>sheltering</em> must name the protection such a roof would provide."
-    },
-    {
-      "title": "Match the protective meaning",
-      "content": "The word <em>sheltering</em> means protective\u2014a roof that shields from the elements. The other choices describe unrelated concepts: restrictive implies confining, affectionate suggests emotional warmth, and suspicious relates to distrust. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"6cf906fc","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Words in Context question. The word &quot;sheltering&quot; modifies &quot;roof&quot; in a poem describing a barren, stormy landscape where no such roof exists. The context &mdash; heavy gray skies threatening a storm &mdash; tells us what function this roof would serve if it were present."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &quot;Protective&quot;</strong>: A roof's purpose in a storm is to shield from wind and rain. &quot;Sheltering&quot; in this context means offering protection from the elements, which matches &quot;protective&quot; exactly. &#10003;</li><li><strong>Choice B &mdash; &quot;Restrictive&quot;</strong>: Restrictive means limiting or confining. The poem presents a roof's absence as a source of vulnerability, not as something that would constrain anything. No element of the text supports this meaning. &#10007;</li><li><strong>Choice C &mdash; &quot;Affectionate&quot;</strong>: Affectionate means loving or tender. While the speaker does express love for the woman in the painting, the word &quot;sheltering&quot; describes the physical roof in the landscape, not any emotional quality. &#10007;</li><li><strong>Choice D &mdash; &quot;Suspicious&quot;</strong>: Suspicious means dubious or questionable. Nothing in the poem implies a roof would be untrustworthy; the absence of one simply leaves the scene exposed to the storm. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

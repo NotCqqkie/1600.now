@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the researchers' central conclusion",
-      "content": "The passage's key claim is in this sentence: <em>\u201cThe researchers have concluded that these settlements were culturally linked to Izapa because each of the settlements is the same age and configured in the same manner as Izapa.\u201d</em> The word <strong>because</strong> identifies the basis for their conclusion: the settlements match Izapa's architectural design."
+      "title": "Identify what the question needs",
+      "content": "This is a Main Idea question. The decisive clue is the word <strong>because</strong> in the sentence &ldquo;The researchers have concluded that these settlements were culturally linked to Izapa <em>because</em> each of the settlements is the same age and configured in the same manner as Izapa.&rdquo; The main idea must capture both the conclusion (cultural link) and its basis (matching construction)."
     },
     {
-      "title": "Find the choice that captures this reasoning",
-      "content": "D directly captures the passage's logic: researchers inferred the settlements were culturally connected to Izapa based on their matching structural design.<br/>The other three either reverse the causal direction, introduce unsupported comparisons about ceremony importance, or shift focus to the discovery itself rather than the reasoning.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &ldquo;Researchers have determined that the arrangement of Izapa&rsquo;s structures was based on those of other nearby settlements.&rdquo;</strong>: Reverses the direction. The text never says Izapa copied the smaller settlements; the shared layout is the <em>evidence</em> for a link, not a source-of-influence claim. &#10007;</li><li><strong>Choice B &mdash; &ldquo;Cultural ceremonies in Izapa seem to have played a more important role for its residents than those in smaller, surrounding settlements did.&rdquo;</strong>: Unsupported comparison. The text says residents likely performed <em>similar</em> ceremonies, never that ceremonies mattered more in one place than another. &#10007;</li><li><strong>Choice C &mdash; &ldquo;Although archaeologists have learned much about Izapa over years of research, they have only recently found the smaller settlements that surrounded it.&rdquo;</strong>: Misidentifies the main idea. The recency of the discovery is background context, not the central point; the text never says how long archaeologists have studied Izapa. &#10007;</li><li><strong>Choice D &mdash; &ldquo;Researchers have inferred that Izapa was related to the smaller settlements that surrounded it based in part on the similarity of their construction.&rdquo;</strong>: Matches the passage exactly. It names the inference (cultural link/relationship) and the evidence (similar construction). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

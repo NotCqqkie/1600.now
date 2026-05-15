@@ -1,1 +1,15 @@
-{"questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the antecedent", "content": "Strip the dash-clause: \"When a given <strong>industry</strong>—water and electricity are two well-known examples—carries high infrastructural start-up costs..., ___ of just one or two suppliers per municipality.\" The subject of the main clause refers back to <strong>industry</strong> — singular."}, {"title": "Apply the rule", "content": "Singular antecedent → singular pronoun and singular verb: <strong>it often consists</strong>.<br/><br/>A and C use plural pronouns (<em>they</em>, <em>these</em>) — wrong number. B uses <em>this</em>, which doesn't refer cleanly to \"industry\" the way <em>it</em> does, and isn't the SAT-preferred choice here.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "27f42b6d-5bcd-4609-9ebb-429b11fd782b_20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a pronoun&ndash;antecedent agreement and subject&ndash;verb agreement question. Strip the dash clause (&ldquo;water and electricity are two well-known examples&rdquo;) to expose the true subject: &ldquo;a given industry.&rdquo; That antecedent is singular, so the blank needs a singular pronoun with a singular verb."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'they often consist'</strong>: <em>They</em> is a plural pronoun; it does not agree with the singular antecedent &ldquo;a given industry.&rdquo; Pronoun&ndash;antecedent agreement error. &#10007;</li><li><strong>Choice B &mdash; 'this often consists'</strong>: <em>This</em> is a singular demonstrative pronoun and <em>consists</em> is singular, so the number agreement is correct, but <em>this</em> typically points to a nearby noun or idea rather than referring back to a noun as a pronoun substitute. The SAT prefers <em>it</em> when the antecedent is a singular count noun like &ldquo;industry.&rdquo; &#10007;</li><li><strong>Choice C &mdash; 'these often consist'</strong>: <em>These</em> is a plural demonstrative pronoun; it does not agree with the singular antecedent &ldquo;a given industry.&rdquo; Pronoun&ndash;antecedent agreement error. &#10007;</li><li><strong>Choice D &mdash; 'it often consists'</strong>: <em>It</em> is the standard singular third-person pronoun that refers back to &ldquo;a given industry,&rdquo; and <em>consists</em> is the correct singular verb form. Both pronoun&ndash;antecedent agreement and subject&ndash;verb agreement are satisfied. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

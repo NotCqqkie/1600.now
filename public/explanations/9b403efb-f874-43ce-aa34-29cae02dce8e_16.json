@@ -1,15 +1,1 @@
-{
-  "questionId": "9b403efb-f874-43ce-aa34-29cae02dce8e_16",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject number",
-      "content": "The subject is \"The Proto-Uralic language\" — a singular noun. The intervening phrase \"common ancestor of thirty-seven Eurasian languages with similar linguistic properties\" is an appositive modifier and doesn't change the subject's number."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "Identify the structure: \"The Proto-Uralic language, common ancestor of thirty-seven Eurasian languages..., [BLANK] like all protolanguages, hypothetical.\" The singular subject requires a singular verb.\n<ul>\n<li><strong>Choice A — are,</strong>: <em>\"The Proto-Uralic language...are, like all protolanguages, hypothetical.\"</em> — \"are\" is plural; does not agree with the singular subject. ✗</li>\n<li><strong>Choice B — were,</strong>: <em>\"The Proto-Uralic language...were, like all protolanguages, hypothetical.\"</em> — \"were\" is plural past tense; does not agree with singular subject. ✗</li>\n<li><strong>Choice C — have been,</strong>: <em>\"The Proto-Uralic language...have been, like all protolanguages, hypothetical.\"</em> — \"have been\" is plural; does not agree with singular subject. ✗</li>\n<li><strong>Choice D — is,</strong>: <em>\"The Proto-Uralic language...is, like all protolanguages, hypothetical.\"</em> — \"is\" is singular present tense; correctly agrees with the singular subject. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9b403efb-f874-43ce-aa34-29cae02dce8e_16","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a subject-verb agreement question. The subject is &quot;The Proto-Uralic language&quot; &mdash; singular. The long appositive phrase &quot;common ancestor of thirty-seven Eurasian languages with similar linguistic properties&quot; interrupts but does not change the subject. The verb in the blank must be singular."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; 'are,'</strong>: &quot;are&quot; is a plural present-tense verb; it violates subject-verb agreement with the singular subject &quot;The Proto-Uralic language.&quot; &#10007;</li><li><strong>Choice B &mdash; 'were,'</strong>: &quot;were&quot; is a plural past-tense verb; it also violates subject-verb agreement with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'have been,'</strong>: &quot;have been&quot; is a plural present-perfect verb; it violates subject-verb agreement with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'is,'</strong>: &quot;is&quot; is a singular present-tense verb; it correctly agrees with the singular subject &quot;The Proto-Uralic language.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

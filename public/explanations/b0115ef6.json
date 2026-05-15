@@ -1,1 +1,15 @@
-{"questionId": "b0115ef6", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the embedded question", "content": "The blank follows “investigate how,” creating a question within the larger sentence about what the team investigated, not a direct question being asked."}, {"title": "Apply the embedded-question rule", "content": "Embedded questions use normal word order (not question inversion) and end with a period as part of the main sentence, not a question mark.<br/><br/>Choice B satisfies both requirements with normal word order and period punctuation.<br/><br/>The other three either invert the word order, use an incorrect question mark, or both.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b0115ef6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is an indirect (embedded) question punctuation and word-order question. The sentence says the team set out &ldquo;to investigate how ______&rdquo; &mdash; the blank finishes an indirect question embedded inside a declarative sentence. An indirect question must use statement word order (subject before verb) and end with a period, not a question mark."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'could their use be better regulated?'</strong>: Inverted word order (auxiliary before subject) turns this into a direct question, which is grammatically wrong inside an indirect-question structure. The question mark compounds the error. &#10007;</li><li><strong>Choice B &mdash; 'their use could be better regulated.'</strong>: Statement word order (subject <em>their use</em> before verb <em>could be regulated</em>) is correct for an indirect question, and the period correctly ends the declarative sentence. &#10003;</li><li><strong>Choice C &mdash; 'their use could be better regulated?'</strong>: The word order is correct, but a question mark cannot end a declarative sentence; only a period is appropriate here. &#10007;</li><li><strong>Choice D &mdash; 'could their use be better regulated.'</strong>: Inverted word order treats the clause as a direct question, violating the indirect-question rule, even though the period is used. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

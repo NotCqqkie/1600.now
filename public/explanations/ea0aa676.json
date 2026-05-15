@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject",
-      "content": "The subject of the sentence is <strong>Her exhaustive chromosomal survey</strong> \u2014 specifically the noun <strong>survey,</strong> which is singular. The intervening phrases describing the survey don't change its number."
+      "title": "Identify what the question needs",
+      "content": "This is a subject-verb agreement question. The subject is <strong>survey</strong> (singular), buried inside the long noun phrase &ldquo;Her exhaustive chromosomal survey of plants in Silent Valley &hellip; (many of which are endangered).&rdquo; The narrative is set in the 1970s, so past tense is required."
     },
     {
-      "title": "Match the verb to the singular subject",
-      "content": "<strong>Was</strong> is the singular form needed to agree with <strong>survey.</strong> The narrative context set in the 1970s also calls for past tense. The other three choices are all plural forms and cannot agree with a singular subject. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;are&rsquo;</strong>: plural verb; cannot agree with the singular subject <em>survey</em>. Also wrong tense (present). &#10007;</li><li><strong>Choice B &mdash; &lsquo;were&rsquo;</strong>: plural past-tense verb; still disagrees with the singular subject <em>survey</em>. &#10007;</li><li><strong>Choice C &mdash; &lsquo;have been&rsquo;</strong>: plural present-perfect verb; disagrees with the singular subject <em>survey</em>. &#10007;</li><li><strong>Choice D &mdash; &lsquo;was&rsquo;</strong>: singular past-tense verb; correctly agrees with the singular subject <em>survey</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "Wave power \u201cvaries in unpredictable ways\u201d\u2014we need a word for what it lacks."
+      "title": "Identify what the question needs",
+      "content": "The blank completes a contrast: wave power &ldquo;isn&rsquo;t ______&rdquo; because it &ldquo;varies in unpredictable ways.&rdquo; The word must mean steady or reliable &mdash; the quality the passage says wave power lacks."
     },
     {
-      "title": "Match the meaning",
-      "content": "The blank needs a word meaning steady or reliable \u2014 something wave power lacks, because it \"varies in unpredictable ways.\" Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Accidental</strong>: wave power isn't <em>accidental</em> \u2014 accidental means happening by chance, but the passage says power varies unpredictably, not that it occurs randomly by accident. \u2717</li>\n<li><strong>Choice B \u2014 Consistent</strong>: wave power isn't <em>consistent</em> \u2014 consistent means steady and uniform, which is exactly what the passage says it lacks (it varies unpredictably instead). \u2713</li>\n<li><strong>Choice C \u2014 Confident</strong>: wave power isn't <em>confident</em> \u2014 confident describes a feeling of self-assurance; it cannot describe a physical energy source's output behavior. \u2717</li>\n<li><strong>Choice D \u2014 Expensive</strong>: wave power isn't <em>expensive</em> \u2014 expensive means high in cost, but the passage is about variability of output, not cost. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;accidental&rsquo;</strong>: accidental means happening by chance or unintentionally; the passage describes unpredictable variation in output, not something occurring by accident. &#10007;</li><li><strong>Choice B &mdash; &lsquo;consistent&rsquo;</strong>: consistent means uniform and steady over time &mdash; exactly what the passage says wave power is not, since it varies unpredictably. &#10003;</li><li><strong>Choice C &mdash; &lsquo;confident&rsquo;</strong>: confident describes a mental state of self-assurance; it cannot describe the behavior of a physical energy source&rsquo;s output. &#10007;</li><li><strong>Choice D &mdash; &lsquo;expensive&rsquo;</strong>: expensive refers to cost, but the passage is about variability of power output, not the price of generating electricity. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,20 @@
-{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_13", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Rewrite the given equation", "content": "Divide $3x=45y-27$ by $3$ to get $$x=15y-9.$$"}, {"title": "Match slopes with different intercepts", "content": "For no solution, the second equation needs the same slope but a different constant. Choice B: $\\frac{1}{3}x=5y$ scales to $x=15y$, same slope, different constant."}, {"title": "Identify the choice", "content": "Choice B produces parallel lines with no intersection. That matches choice <strong>B</strong> — <strong>B</strong> is correct.", "desmosExpressions": ["y = \\frac{x}{15} + \\frac{3}{5}", "y = \\frac{x}{15}"]}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_13",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the given equation in slope form",
+      "content": "Divide $3x = 45y - 27$ by 3: $$x = 15y - 9$$ Solving for $y$: $$y = \\frac{1}{15}x + \\frac{3}{5}$$ Slope $= \\frac{1}{15}$, $y$-intercept $= \\frac{3}{5}$."
+    },
+    {
+      "title": "Test all four choices for parallel (no solution) vs. other outcomes",
+      "content": "<ul><li><strong>Choice A &mdash; '$x = 5y$'</strong>: Rearranging gives $y = \\frac{1}{5}x$. Slope $= \\frac{1}{5} \\neq \\frac{1}{15}$. Different slope &rarr; lines intersect &rarr; one solution. &#10007;</li><li><strong>Choice B &mdash; '$\\frac{1}{3}x = 5y$'</strong>: Multiply both sides by 3: $x = 15y$, so $y = \\frac{1}{15}x$. Slope $= \\frac{1}{15}$ (same), $y$-intercept $= 0 \\neq \\frac{3}{5}$ (different). Parallel lines &rarr; no solution. &#10003;</li><li><strong>Choice C &mdash; '$x = 15y - 9$'</strong>: Gives $y = \\frac{1}{15}x + \\frac{3}{5}$. Same slope AND same intercept as the given equation &rarr; identical lines &rarr; infinitely many solutions, not no solution. &#10007;</li><li><strong>Choice D &mdash; '$\\frac{1}{3}x = 15y - 9$'</strong>: Multiply by 3: $x = 45y - 27$, which is identical to the original equation $3x = 45y - 27$ after multiplying by 3 &rarr; infinitely many solutions, not no solution. &#10007;</li></ul>"
+    },
+    {
+      "title": "Conclusion",
+      "content": "Only Choice B produces parallel lines (same slope, different $y$-intercept), which means no solution. That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{x}{15} + \\frac{3}{5}", "y = \\frac{x}{15}"]
+    }
+  ]
+}

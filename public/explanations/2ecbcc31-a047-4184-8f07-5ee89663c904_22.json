@@ -1,15 +1,1 @@
-{
-  "questionId": "2ecbcc31-a047-4184-8f07-5ee89663c904_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "State the logical relationship between the sentences",
-      "content": "Relationship: <strong>cause-effect</strong>. Sentence 1 states the cause: residents rely on the Cairo Metro for millions of trips each year (high demand). Sentence 2 states the effect: city officials work hard to maintain the system's stations. The officials' effort is a direct response to that heavy ridership."
-    },
-    {
-      "title": "Match the relationship to the transition — per-choice diagnosis",
-      "content": "<ul><li><strong>Choice A — \"For this reason,\":</strong> signals that sentence 2 is the result of what was described in sentence 1. High ridership (cause) explains why officials strive to maintain the stations (effect). Correct.</li><li><strong>Choice B — \"However,\":</strong> signals contrast. There is nothing contradictory between high ridership and officials maintaining stations — they point in the same direction. Eliminated.</li><li><strong>Choice C — \"For example,\":</strong> signals that sentence 2 provides a specific instance of a general claim. But sentence 2 is not an example of millions of trips; it is a consequence of them. Eliminated.</li><li><strong>Choice D — \"Alternatively,\":</strong> signals a different option or substitute. Maintenance is not an alternative to heavy ridership; it is a response to it. Eliminated.</li></ul>"
-    }
-  ]
-}
+{"questionId":"2ecbcc31-a047-4184-8f07-5ee89663c904_22","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"The question asks for the most logical transition between two sentences. Sentence 1 states that Cairo Metro residents rely on the system for millions of trips each year. Sentence 2 states that city officials strive to maintain the system&rsquo;s 71 stations. The decisive clue is the direction of the relationship: does sentence 2 contrast with, follow from, illustrate, or offer an alternative to sentence 1?"},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;For this reason,&rsquo;</strong>: signals cause-and-effect &mdash; sentence 2 is the result of sentence 1. Heavy ridership (cause) explains why officials work to maintain the stations (effect). This relationship fits the logic of the passage. &#10003;</li><li><strong>Choice B &mdash; &lsquo;However,&rsquo;</strong>: signals contrast. There is no contradiction between high ridership and officials maintaining stations &mdash; both point in the same direction. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For example,&rsquo;</strong>: signals that sentence 2 is a specific instance of a general claim made in sentence 1. But maintenance of stations is not an example of millions of trips; it is a consequence of them. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Alternatively,&rsquo;</strong>: signals a different option or substitute. Maintaining stations is not an alternative to heavy ridership; it is a response to it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "fcaff694",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive structure",
-      "content": "The blank contains the subject noun phrase for <em>attest</em> in \u201cas ______ attest.\u201d The phrase has \u201cresearchers\u201d as the head noun and \u201cRoberto Scandone and Christopher Kilburn\u201d as the appositive. Since these names are essential to identifying which researchers, they form a restrictive appositive."
-    },
-    {
-      "title": "Apply the restrictive appositive rule",
-      "content": "Restrictive appositives\u2014those essential to identifying the noun\u2014do not use commas. The phrase should be \u201cresearchers Roberto Scandone and Christopher Kilburn\u201d without punctuation. The other choices incorrectly add commas. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"fcaff694","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a punctuation question testing restrictive vs. non-restrictive appositives. The blank fills &quot;as ______ attest.&quot; The proper names &quot;Roberto Scandone and Christopher Kilburn&quot; identify which researchers are meant, making them a restrictive appositive — which takes no commas."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &apos;researchers, Roberto Scandone and Christopher Kilburn,&apos;</strong>: Two commas set the names off as non-restrictive, implying they are merely supplemental information. But the names are essential to identifying the specific researchers, so commas are incorrect here. &#10007;</li><li><strong>Choice B &mdash; &apos;researchers, Roberto Scandone and Christopher Kilburn&apos;</strong>: One comma before the names creates a mismatched pair — a non-restrictive appositive must be enclosed in commas on both sides. This is also incorrect. &#10007;</li><li><strong>Choice C &mdash; &apos;researchers Roberto Scandone and Christopher Kilburn&apos;</strong>: No commas. A restrictive appositive that identifies which researchers must not be set off by commas. This is grammatically correct. &#10003;</li><li><strong>Choice D &mdash; &apos;researchers Roberto Scandone, and Christopher Kilburn&apos;</strong>: The comma after &quot;Scandone&quot; illogically separates the two coordinated names in the appositive, breaking the phrase. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

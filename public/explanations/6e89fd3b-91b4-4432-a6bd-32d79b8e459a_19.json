@@ -1,1 +1,15 @@
-{"questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_19", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the structural boundary", "content": "After “this legendary lost work,” a new subject and independent claim emerge: “That fantasy (partially) became reality.” This marks the boundary between two separate independent clauses—the scholars' dream and what actually happened."}, {"title": "Apply the punctuation rule for independent clauses", "content": "A period is the correct punctuation to separate two independent clauses into distinct sentences.<br/><br/>Choice D correctly places a period after “work,” creating proper sentence boundaries.<br/><br/>The other choices violate the rule by using a comma splice, omitting punctuation entirely, or placing a coordinating conjunction without the required comma.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "This is a sentence boundary question. The blank sits between &quot;this legendary lost work&quot; and &quot;That fantasy (partially) became reality in 2022.&quot; The phrase &quot;That fantasy&hellip;&quot; is an independent clause with its own subject and verb, so the preceding clause must be separated from it by punctuation strong enough to end a sentence."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'work, that'</strong>: A comma alone between two independent clauses creates a comma splice, which violates Standard English boundaries. &#10007;</li><li><strong>Choice B &mdash; 'work and that'</strong>: The coordinating conjunction &quot;and&quot; can join two independent clauses only when preceded by a comma (&quot;work, and that&quot;). Without the comma this is a run-on. &#10007;</li><li><strong>Choice C &mdash; 'work that'</strong>: No punctuation between two independent clauses is a fused (run-on) sentence, the most severe boundary error. &#10007;</li><li><strong>Choice D &mdash; 'work. That'</strong>: A period fully ends the first independent clause and lets &quot;That fantasy&hellip;&quot; open a new sentence correctly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}
