@@ -9,7 +9,8 @@
     },
     {
       "title": "Solve for the number of large boxes",
-      "content": "Subtract 9 from both sides: $$4b = 16$$.<br/>Divide both sides by 4: $$b = 4$$.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Subtract 9 from both sides: $$4b = 16$$.<br/>Divide both sides by 4: $$b = 4$$.<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["3x+4y=25", "(3,4)"]
     }
   ]
 }

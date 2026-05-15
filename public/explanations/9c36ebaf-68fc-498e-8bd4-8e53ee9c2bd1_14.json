@@ -10,7 +10,8 @@
     },
     {
       "title": "Convert to standard form",
-      "content": "Multiply both sides by 15 (the least common multiple of the denominators 3 and 5):<br/>$$5x + 3y = 15$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Multiply both sides by 15 (the least common multiple of the denominators 3 and 5):<br/>$$5x + 3y = 15$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["5x + 3y = 15", "(3, 0)", "(0, 5)"]
     }
   ]
 }

@@ -13,7 +13,8 @@
     },
     {
       "title": "Find y using x = 9",
-      "content": "Calculate: $$y = 2(9) - 3 = 15$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Calculate: $$y = 2(9) - 3 = 15$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = 2x - 3", "y = (5/3)x"]
     }
   ]
 }

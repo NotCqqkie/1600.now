@@ -1,1 +1,19 @@
-{"questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_14", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the vertex", "content": "The equation $$y = -16(x - 6.8)^2 + 740$$ is in vertex form $$y = a(x - h)^2 + k$$ with $$a = -16$$, $$h = 6.8$$, and $$k = 740$$.<br/>Thus the vertex is $$(h, k) = (6.8, 740)$$.<br/>Since $$a < 0$$, the parabola opens downward, so the vertex gives the <strong>maximum</strong> height."}, {"title": "Interpret the vertex and match to choice", "content": "The vertex $$(6.8, 740)$$ means the firework reaches its maximum estimated height of <strong>740 feet</strong> at <strong>6.8 seconds</strong> after launch.<br/>This matches the description in choice B.<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex",
+      "content": "The equation $$y = -16(x - 6.8)^2 + 740$$ is in vertex form $$y = a(x - h)^2 + k$$ with $$a = -16$$, $$h = 6.8$$, and $$k = 740$$.<br/>Thus the vertex is $$(h, k) = (6.8, 740)$$.<br/>Since $$a < 0$$, the parabola opens downward, so the vertex gives the <strong>maximum</strong> height."
+    },
+    {
+      "title": "Interpret the vertex and match to choice",
+      "content": "The vertex $$(6.8, 740)$$ means the firework reaches its maximum estimated height of <strong>740 feet</strong> at <strong>6.8 seconds</strong> after launch.<br/>This matches the description in choice B.<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = -16(x - 6.8)^{2} + 740",
+        "(6.8, 740)"
+      ]
+    }
+  ]
+}

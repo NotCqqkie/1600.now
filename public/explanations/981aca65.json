@@ -13,7 +13,8 @@
     },
     {
       "title": "Apply the downward shift of 3 units",
-      "content": "Subtract 3 from the result:<br/>$$g(x) = \\frac{a-19}{x-4} + 5 - 3 = \\frac{a-19}{x-4} + 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Subtract 3 from the result:<br/>$$g(x) = \\frac{a-19}{x-4} + 5 - 3 = \\frac{a-19}{x-4} + 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["f(x)=(a-19)/(x)+5"]
     }
   ]
 }

@@ -1,1 +1,22 @@
-{"questionId":"2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21","correctAnswer":"A","section":"Math","steps":[{"title":"Set up","content":"The rental costs $92 for the first day and $46 for each additional day. For $d$ total days there is 1 first day and $(d-1)$ additional days:$$C(d)=92+46(d-1)$$"},{"title":"Solve","content":"Distribute and combine constants:$$C(d)=92+46d-46=46d+46$$"},{"title":"Answer","content":"<strong>A</strong> is correct."}]}
+{
+  "questionId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_21",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The rental costs $92 for the first day and $46 for each additional day. For $d$ total days there is 1 first day and $(d-1)$ additional days:$$C(d)=92+46(d-1)$$"
+    },
+    {
+      "title": "Solve",
+      "content": "Distribute and combine constants:$$C(d)=92+46d-46=46d+46$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 46x + 46 \\{x \\geq 1\\}"
+      ]
+    }
+  ]
+}

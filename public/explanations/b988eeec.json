@@ -9,7 +9,8 @@
     },
     {
       "title": "Set h(x) = 0 and solve",
-      "content": "The x-intercept is where $y = 0$:<br/>$$x + 12 = 0$$<br/>$$x = -12$$"
+      "content": "The x-intercept is where $y = 0$:<br/>$$x + 12 = 0$$<br/>$$x = -12$$",
+      "desmosExpressions": ["y=x+12"]
     }
   ]
 }

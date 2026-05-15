@@ -1,1 +1,20 @@
-{"questionId": "dd875c97", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the total weight expression", "content": "The truck carries three types of load: a 190-pound piece of equipment, crates weighing 25 pounds each (where <em>x</em> is the count), and crates weighing 62 pounds each (where <em>y</em> is the count). The total weight is:<br/>$$\\text{Total weight} = 190 + 25x + 62y$$"}, {"title": "Apply the capacity constraint and simplify", "content": "The total weight cannot exceed the truck's maximum capacity of 5,630 pounds, so:<br/>$$190 + 25x + 62y \\le 5,630$$<br/>Subtract 190 from both sides:<br/>$$25x + 62y \\le 5,440$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "dd875c97",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total weight expression",
+      "content": "The truck carries three types of load: a 190-pound piece of equipment, crates weighing 25 pounds each (where <em>x</em> is the count), and crates weighing 62 pounds each (where <em>y</em> is the count). The total weight is:<br/>$$\\text{Total weight} = 190 + 25x + 62y$$"
+    },
+    {
+      "title": "Apply the capacity constraint and simplify",
+      "content": "The total weight cannot exceed the truck's maximum capacity of 5,630 pounds, so:<br/>$$190 + 25x + 62y \\le 5,630$$<br/>Subtract 190 from both sides:<br/>$$25x + 62y \\le 5,440$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "25x+62y \\le 5440",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
+    }
+  ]
+}

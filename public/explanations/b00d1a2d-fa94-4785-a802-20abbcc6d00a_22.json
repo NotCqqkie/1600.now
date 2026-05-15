@@ -1,15 +1,1 @@
-{
-  "questionId": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_22",
-  "correctAnswer": "-18",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Write in standard form and recognize the quadratic formula structure",
-      "content": "Rewrite $7x^2-9x+c=5$ as $7x^2-9x+(c-5)=0$. By the quadratic formula, both solutions take the form:<br/>$$x = \\frac{9 \\pm \\sqrt{81 - 28(c-5)}}{14} = \\frac{9 \\pm \\sqrt{221 - 28c}}{14}$$"
-    },
-    {
-      "title": "Match the given solution to extract the discriminant",
-      "content": "The given solution is $x = \\frac{9-\\sqrt{725}}{14}$, which matches our formula with the minus sign and discriminant 725. Therefore:<br/>$$221 - 28c = 725$$<br/>$$-28c = 504$$<br/>$$c = -18$$"
-    }
-  ]
-}
+{"questionId":"b00d1a2d-fa94-4785-a802-20abbcc6d00a_22","correctAnswer":"-18","section":"Math","steps":[{"title":"Write in standard form and recognize the quadratic formula structure","content":"Rewrite $7x^2-9x+c=5$ as $7x^2-9x+(c-5)=0$. By the quadratic formula, both solutions take the form:<br/>$$x = \\frac{9 \\pm \\sqrt{81 - 28(c-5)}}{14} = \\frac{9 \\pm \\sqrt{221 - 28c}}{14}$$"},{"title":"Match the given solution to extract the discriminant","content":"The given solution is $x = \\frac{9-\\sqrt{725}}{14}$, which matches our formula with the minus sign and discriminant 725. Therefore:<br/>$$221 - 28c = 725$$<br/>$$-28c = 504$$<br/>$$c = -18$$","desmosExpressions":["y = 7x^{2} - 9x - 23"]}]}

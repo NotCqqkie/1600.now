@@ -1,16 +1,1 @@
-{
-  "questionId": "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_14",
-  "correctAnswer": "3",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange to standard form",
-      "content": "To apply Vieta's formula for the sum of roots, rearrange the equation to the form $ax^2 + bx + c = 0$. Starting with $2x^2 - 6x + 5 = 13$, subtract 13 from both sides:<br/>$$2x^2 - 6x + 5 - 13 = 0$$<br/>$$2x^2 - 6x - 8 = 0$$<br/>We have $a = 2$, $b = -6$, and $c = -8$."
-    },
-    {
-      "title": "Apply Vieta's formula for the sum of roots",
-      "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$",
-      "content": "We don't need to solve for the individual solutions. Using the formula with $a = 2$ and $b = -6$:<br/>$$-\\frac{(-6)}{2} = \\frac{6}{2} = 3$$<br/>The sum of the solutions is <strong>3</strong>."
-    }
-  ]
-}
+{"questionId":"f6c07e2a-39d2-49c1-b958-931fe9e17ee2_14","correctAnswer":"3","section":"Math","steps":[{"title":"Rearrange to standard form","content":"To apply Vieta's formula for the sum of roots, rearrange the equation to the form $ax^2 + bx + c = 0$. Starting with $2x^2 - 6x + 5 = 13$, subtract 13 from both sides:<br/>$$2x^2 - 6x + 5 - 13 = 0$$<br/>$$2x^2 - 6x - 8 = 0$$<br/>We have $a = 2$, $b = -6$, and $c = -8$."},{"title":"Apply Vieta's formula for the sum of roots","formula":"$$\\text{Sum of roots} = -\\frac{b}{a}$$","content":"We don't need to solve for the individual solutions. Using the formula with $a = 2$ and $b = -6$:<br/>$$-\\frac{(-6)}{2} = \\frac{6}{2} = 3$$<br/>The sum of the solutions is <strong>3</strong>.","desmosExpressions":["y = 2x^{2} - 6x - 8"]}]}

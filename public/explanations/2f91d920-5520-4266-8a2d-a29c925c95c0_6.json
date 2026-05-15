@@ -13,7 +13,8 @@
     },
     {
       "title": "Match against the choices",
-      "content": "<ul><li><strong>A:</strong> Describes a difference of 5, not 563\u2014incorrect.</li><li><strong>B:</strong> States the population is approximately 563 in 1956\u2014this directly matches our interpretation.</li><li><strong>C:</strong> Talks about <em>5 times greater</em>, misinterpreting the exponent\u2014incorrect.</li><li><strong>D:</strong> Describes a rate of increase, not a population value\u2014incorrect.</li></ul>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "<ul><li><strong>A:</strong> Describes a difference of 5, not 563\u2014incorrect.</li><li><strong>B:</strong> States the population is approximately 563 in 1956\u2014this directly matches our interpretation.</li><li><strong>C:</strong> Talks about <em>5 times greater</em>, misinterpreting the exponent\u2014incorrect.</li><li><strong>D:</strong> Describes a rate of increase, not a population value\u2014incorrect.</li></ul>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["P(x) = 533(1.011)^{x}", "(5, 563)"]
     }
   ]
 }

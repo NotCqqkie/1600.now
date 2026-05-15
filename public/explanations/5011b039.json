@@ -9,7 +9,8 @@
     },
     {
       "title": "Extract the radius from the equation",
-      "content": "From the equation, we have $r^2 = 169$. To find the radius, take the square root of both sides: $$r = \\sqrt{169} = 13$$ The radius of the circle is <strong>13</strong>."
+      "content": "From the equation, we have $r^2 = 169$. To find the radius, take the square root of both sides: $$r = \\sqrt{169} = 13$$ The radius of the circle is <strong>13</strong>.",
+      "desmosExpressions": ["(x+2)^2 + (y+5)^2 = 169"]
     }
   ]
 }

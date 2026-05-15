@@ -9,7 +9,8 @@
     },
     {
       "title": "Identify and verify the correct choice",
-      "content": "Only choice B has the form $(x-24)(x-30) - 8$. Verify with the third data point:<br/>$$f(32) = (32-24)(32-30) - 8 = 8 \\cdot 2 - 8 = 16 - 8 = 8$$<br/>This matches $f(32) = 8$ from the table. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Only choice B has the form $(x-24)(x-30) - 8$. Verify with the third data point:<br/>$$f(32) = (32-24)(32-30) - 8 = 8 \\cdot 2 - 8 = 16 - 8 = 8$$<br/>This matches $f(32) = 8$ from the table. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["f(x)=(x-24)(x-30)-8"]
     }
   ]
 }

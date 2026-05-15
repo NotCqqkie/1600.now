@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute and solve for x",
-      "content": "Since the second equation gives $x$ in terms of $y$, substitute into the first: <br/>$$(3y + 4) + y = 32$$ <br/>$$4y + 4 = 32$$ <br/>$$4y = 28$$ <br/>$$y = 7$$ <br/>Therefore: $x = 3(7) + 4 = 21 + 4 = 25$."
+      "content": "Since the second equation gives $x$ in terms of $y$, substitute into the first: <br/>$$(3y + 4) + y = 32$$ <br/>$$4y + 4 = 32$$ <br/>$$4y = 28$$ <br/>$$y = 7$$ <br/>Therefore: $x = 3(7) + 4 = 21 + 4 = 25$.",
+      "desmosExpressions": ["y = 32 - x", "y = (x - 4)/3"]
     }
   ]
 }

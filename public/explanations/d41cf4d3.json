@@ -13,7 +13,8 @@
     },
     {
       "title": "Compare a and b to determine the answer",
-      "content": "We established that $a < 0$ and $b = 24$. Therefore:<br/>$$a < 0 < 24 = b$$<br/>which means $a < b$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "We established that $a < 0$ and $b = 24$. Therefore:<br/>$$a < 0 < 24 = b$$<br/>which means $a < b$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["f(x)=asqrt(x+b)"]
     }
   ]
 }

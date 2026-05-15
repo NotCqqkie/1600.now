@@ -11,7 +11,8 @@
     {
       "title": "Solve for c",
       "content": "Since $ c > 1 $, take the positive square root: $$ c = \\sqrt{9} = 3 $$",
-      "formula": "$$c = 3$$"
+      "formula": "$$c = 3$$",
+      "desmosExpressions": ["f(x) = 3^{x}"]
     }
   ]
 }

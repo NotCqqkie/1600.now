@@ -13,7 +13,8 @@
     },
     {
       "title": "Use the slope formula with the two points",
-      "content": "Line $t$ passes through $(7, 0)$ and $(k, \\frac{4}{3})$ with slope $\\frac{1}{3}$. Apply the slope formula:<br/>$$\\frac{\\frac{4}{3} - 0}{k - 7} = \\frac{1}{3}$$<br/>Cross multiply:<br/>$$\\frac{4}{3} \\cdot 3 = k - 7$$<br/>$$4 = k - 7$$<br/>$$k = 11$$"
+      "content": "Line $t$ passes through $(7, 0)$ and $(k, \\frac{4}{3})$ with slope $\\frac{1}{3}$. Apply the slope formula:<br/>$$\\frac{\\frac{4}{3} - 0}{k - 7} = \\frac{1}{3}$$<br/>Cross multiply:<br/>$$\\frac{4}{3} \\cdot 3 = k - 7$$<br/>$$4 = k - 7$$<br/>$$k = 11$$",
+      "desmosExpressions": ["6x + 2y = 0", "y = -3x", "y = \\frac{1}{3}(x - 7)", "(7, 0)", "(11, \\frac{4}{3})"]
     }
   ]
 }

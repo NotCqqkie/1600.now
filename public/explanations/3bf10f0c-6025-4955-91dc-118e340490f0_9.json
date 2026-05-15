@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute x into the second equation to find y",
-      "content": "Use $x = 2$ in the second equation $(x + 5)^2 = y$:<br/>$$(2 + 5)^2 = y$$<br/>$$7^2 = y$$<br/>$$49 = y$$<br/>The ordered pair is $(2, 49)$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Use $x = 2$ in the second equation $(x + 5)^2 = y$:<br/>$$(2 + 5)^2 = y$$<br/>$$7^2 = y$$<br/>$$49 = y$$<br/>The ordered pair is $(2, 49)$. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["x = 2", "y = (x + 5)^2"]
     }
   ]
 }

@@ -9,7 +9,8 @@
     },
     {
       "title": "Solve using the perpendicularity condition",
-      "content": "Set up the equation:<br/>$$\\frac{-11}{a - 2} \\cdot \\frac{6}{5} = -1$$<br/>Simplify the left side:<br/>$$\\frac{-66}{5(a - 2)} = -1$$<br/>Multiply both sides by $5(a - 2)$:<br/>$$-66 = -5(a - 2)$$<br/>Expand and solve:<br/>$$-66 = -5a + 10$$<br/>$$-76 = -5a$$<br/>$$a = \\frac{76}{5}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Set up the equation:<br/>$$\\frac{-11}{a - 2} \\cdot \\frac{6}{5} = -1$$<br/>Simplify the left side:<br/>$$\\frac{-66}{5(a - 2)} = -1$$<br/>Multiply both sides by $5(a - 2)$:<br/>$$-66 = -5(a - 2)$$<br/>Expand and solve:<br/>$$-66 = -5a + 10$$<br/>$$-76 = -5a$$<br/>$$a = \\frac{76}{5}$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": ["(x-2)^{2} + (y-7)^{2} = (x-2)^{2} + 121", "(2, 7)", "y - (-4) = \\frac{6}{5}(x - a)"]
     }
   ]
 }

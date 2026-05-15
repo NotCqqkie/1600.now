@@ -1,1 +1,20 @@
-{"questionId":"2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what the question needs","content":"Point P = (3, −5). Test whether it satisfies Inequality I ($y < -3x + 7$), Inequality II ($y > x - 5$), or both."},{"title":"Eliminate the choices","content":"<ul><li><strong>Inequality I &mdash; $y &lt; -3x + 7$</strong>: Substitute (3, −5): $-5 &lt; -3(3) + 7 = -2$. Since $-5 &lt; -2$, this is TRUE. &#10003;</li><li><strong>Inequality II &mdash; $y &gt; x - 5$</strong>: Substitute (3, −5): $-5 &gt; 3 - 5 = -2$. Since $-5 &gt; -2$ is false, this is FALSE. &#10007;</li></ul>P satisfies only Inequality I &mdash; that matches choice A. <strong>A</strong> is correct."}]}
+{
+  "questionId": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "Point P = (3, −5). Test whether it satisfies Inequality I ($y < -3x + 7$), Inequality II ($y > x - 5$), or both."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Inequality I &mdash; $y &lt; -3x + 7$</strong>: Substitute (3, −5): $-5 &lt; -3(3) + 7 = -2$. Since $-5 &lt; -2$, this is TRUE. &#10003;</li><li><strong>Inequality II &mdash; $y &gt; x - 5$</strong>: Substitute (3, −5): $-5 &gt; 3 - 5 = -2$. Since $-5 &gt; -2$ is false, this is FALSE. &#10007;</li></ul>P satisfies only Inequality I &mdash; that matches choice A. <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y < -3x + 7",
+        "y > x - 5",
+        "(3, -5)"
+      ]
+    }
+  ]
+}

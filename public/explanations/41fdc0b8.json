@@ -9,7 +9,8 @@
     },
     {
       "title": "Write the linear equation using point-slope form",
-      "content": "Since $t$ is measured in years after 2000, we start at the point $(0, 862)$. With slope $-1.6$, the equation is $$P(t) = 862 - 1.6t$$ Verify with the 2010 data: $P(10) = 862 - 1.6(10) = 862 - 16 = 846$ \u2713 That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since $t$ is measured in years after 2000, we start at the point $(0, 862)$. With slope $-1.6$, the equation is $$P(t) = 862 - 1.6t$$ Verify with the 2010 data: $P(10) = 862 - 1.6(10) = 862 - 16 = 846$ \u2713 That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=862-1.6x"]
     }
   ]
 }

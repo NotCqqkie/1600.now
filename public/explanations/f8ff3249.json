@@ -1,1 +1,25 @@
-{"questionId": "f8ff3249", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the inequality test", "content": "Test each $(x, y)$ pair against $y < 6x + 2$."}, {"title": "Test each table", "content": "For each table, plug $x$ into $6x + 2$ and check $y < 6x + 2$ for every row."}, {"title": "Identify the table", "content": "Only choice C's pairs all satisfy the inequality. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "f8ff3249",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality test",
+      "content": "Test each $(x, y)$ pair against $y < 6x + 2$."
+    },
+    {
+      "title": "Test each table",
+      "content": "For each table, plug $x$ into $6x + 2$ and check $y < 6x + 2$ for every row."
+    },
+    {
+      "title": "Identify the table",
+      "content": "Only choice C's pairs all satisfy the inequality. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y<6x+2",
+        "(3,16)",
+        "(5,28)",
+        "(7,40)"
+      ]
+    }
+  ]
+}

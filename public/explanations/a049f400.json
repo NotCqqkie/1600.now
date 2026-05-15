@@ -1,1 +1,25 @@
-{"questionId": "a049f400", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the inequality test", "content": "Need every $(x,y)$ in the table to satisfy $y<5x+6$."}, {"title": "Test each table", "content": "Compute $5x+6$ at each $x$: at $x=3$ bound is $21$, at $x=5$ bound is $31$, at $x=7$ bound is $41$. Choice A has $y=17,27,37$, all strictly less than the bounds. Other choices fail at least one row."}, {"title": "Identify the table", "content": "Only choice A satisfies $y<5x+6$ throughout. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a049f400",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality test",
+      "content": "Need every $(x,y)$ in the table to satisfy $y<5x+6$."
+    },
+    {
+      "title": "Test each table",
+      "content": "Compute $5x+6$ at each $x$: at $x=3$ bound is $21$, at $x=5$ bound is $31$, at $x=7$ bound is $41$. Choice A has $y=17,27,37$, all strictly less than the bounds. Other choices fail at least one row."
+    },
+    {
+      "title": "Identify the table",
+      "content": "Only choice A satisfies $y<5x+6$ throughout. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y<5x+6",
+        "(3,17)",
+        "(5,27)",
+        "(7,37)"
+      ]
+    }
+  ]
+}

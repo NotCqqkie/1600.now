@@ -9,7 +9,8 @@
     },
     {
       "title": "Apply the slope-intercept form",
-      "content": "Using $y = mx + b$: $$f(x) = 69x + 3$$ That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Using $y = mx + b$: $$f(x) = 69x + 3$$ That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = 69x + 3", "(0, 3)"]
     }
   ]
 }

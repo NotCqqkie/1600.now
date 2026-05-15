@@ -9,7 +9,8 @@
     },
     {
       "title": "Add the right-hand sides and conclude",
-      "content": "Adding the constants:<br/>$$ 19+2 = 21 $$<br/>Thus $$ 6x+3y = 21 $$.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Adding the constants:<br/>$$ 19+2 = 21 $$<br/>Thus $$ 6x+3y = 21 $$.<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{19 - x}{2}", "y = 2 - 5x"]
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_7", "correctAnswer": "118", "section": "Math", "steps": [{"title": "Set profit equal to target", "content": "The profit function is $p(x) = 5x - 190$. To earn a profit of \\$400, we set:<br/>$$5x - 190 = 400$$"}, {"title": "Solve for x", "content": "Add 190 to both sides:<br/>$$5x = 590$$<br/>Divide both sides by 5:<br/>$$x = 118$$<br/>They must sell 118 car stickers to earn \\$400 in profit."}]}
+{
+  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_7",
+  "correctAnswer": "118",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set profit equal to target",
+      "content": "The profit function is $p(x) = 5x - 190$. To earn a profit of \\$400, we set:<br/>$$5x - 190 = 400$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Add 190 to both sides:<br/>$$5x = 590$$<br/>Divide both sides by 5:<br/>$$x = 118$$<br/>They must sell 118 car stickers to earn \\$400 in profit.",
+      "desmosExpressions": [
+        "y = 5x - 190",
+        "(118, 400)"
+      ]
+    }
+  ]
+}

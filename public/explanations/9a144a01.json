@@ -9,7 +9,8 @@
     },
     {
       "title": "Test a larger x",
-      "content": "$$2^4 = 16$$ and $$2(4)+2 = 10$$, so $$2^x > 2x+2$$ at $$x=4$$.<br/><br/>Since the inequality changes from less to greater as x increases, there must be a constant c where they are equal, and for $0 < x < c$ the first inequality holds; for $x > c$ the second holds.<br/><br/>That matches choice C — <strong>C</strong> is correct."
+      "content": "$$2^4 = 16$$ and $$2(4)+2 = 10$$, so $$2^x > 2x+2$$ at $$x=4$$.<br/><br/>Since the inequality changes from less to greater as x increases, there must be a constant c where they are equal, and for $0 < x < c$ the first inequality holds; for $x > c$ the second holds.<br/><br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = 2^x", "y = 2x + 2"]
     }
   ]
 }

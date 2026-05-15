@@ -1,1 +1,19 @@
-{"questionId": "cec36caf", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Add $40$ then divide by $8$: $$x^2=9.$$ So $x=\\pm 3$."}, {"title": "Identify the positive solution", "content": "Take the positive root. The answer is <strong>(A) $3$</strong>."}]}
+{
+  "questionId": "cec36caf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Add $40$ then divide by $8$: $$x^2=9.$$ So $x=\\pm 3$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "Take the positive root. The answer is <strong>(A) $3$</strong>.",
+      "desmosExpressions": [
+        "y = 8x^2 - 40",
+        "y = 32"
+      ]
+    }
+  ]
+}

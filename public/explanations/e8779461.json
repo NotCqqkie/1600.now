@@ -1,1 +1,19 @@
-{"questionId": "e8779461", "correctAnswer": "99", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $x + 8 = 11$, $x = 3$. Substitute into $y = x^2 + 14x + 48$."}, {"title": "Find $y$", "content": "$y = 9 + 42 + 48 = 99$. The answer is <strong>99</strong>."}]}
+{
+  "questionId": "e8779461",
+  "correctAnswer": "99",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "From $x + 8 = 11$, $x = 3$. Substitute into $y = x^2 + 14x + 48$."
+    },
+    {
+      "title": "Find $y$",
+      "content": "$y = 9 + 42 + 48 = 99$. The answer is <strong>99</strong>.",
+      "desmosExpressions": [
+        "y = x^2 + 14x + 48",
+        "x + 8 = 11"
+      ]
+    }
+  ]
+}

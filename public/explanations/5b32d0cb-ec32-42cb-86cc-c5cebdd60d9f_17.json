@@ -1,1 +1,24 @@
-{"questionId":"5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_17","correctAnswer":"1.6,8/5","section":"Math","steps":[{"title":"Set up","content":"At t = 0 the object is dropped from 40.96 ft, so h(t) = &minus;16t^2 + 40.96. Set h(t) = 0 to find when it hits the ground: &minus;16t^2 + 40.96 = 0."},{"title":"Solve","content":"16t^2 = 40.96 &rarr; t^2 = 40.96/16 = 2.56 &rarr; t = &radic;2.56 = 8/5 = 1.6 seconds."},{"title":"Answer","content":"<strong>1.6</strong> (or 8/5) is correct."}]}
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_17",
+  "correctAnswer": "1.6,8/5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "At t = 0 the object is dropped from 40.96 ft, so h(t) = &minus;16t^2 + 40.96. Set h(t) = 0 to find when it hits the ground: &minus;16t^2 + 40.96 = 0."
+    },
+    {
+      "title": "Solve",
+      "content": "16t^2 = 40.96 &rarr; t^2 = 40.96/16 = 2.56 &rarr; t = &radic;2.56 = 8/5 = 1.6 seconds."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>1.6</strong> (or 8/5) is correct.",
+      "desmosExpressions": [
+        "h(t) = -16t^2 + 40.96",
+        "(0, 40.96)",
+        "(1.6, 0)"
+      ]
+    }
+  ]
+}

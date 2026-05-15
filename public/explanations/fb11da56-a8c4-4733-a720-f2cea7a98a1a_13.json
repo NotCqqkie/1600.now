@@ -13,7 +13,8 @@
     },
     {
       "title": "Use the two points on line t to find k",
-      "content": "Line $t$ passes through $(6, 0)$ and $(k, \\frac{5}{4})$ with slope $\\frac{1}{4}$. Using the slope formula:<br/>$$\\frac{\\frac{5}{4} - 0}{k - 6} = \\frac{1}{4}$$<br/>Cross-multiply: $\\frac{5}{4} \\cdot 4 = k - 6$, so $5 = k - 6$. Therefore $k = 11$."
+      "content": "Line $t$ passes through $(6, 0)$ and $(k, \\frac{5}{4})$ with slope $\\frac{1}{4}$. Using the slope formula:<br/>$$\\frac{\\frac{5}{4} - 0}{k - 6} = \\frac{1}{4}$$<br/>Cross-multiply: $\\frac{5}{4} \\cdot 4 = k - 6$, so $5 = k - 6$. Therefore $k = 11$.",
+      "desmosExpressions": ["8x + 2y = 0", "y = -4x", "y = \\frac{1}{4}(x - 6)", "(6, 0)", "(11, \\frac{5}{4})"]
     }
   ]
 }

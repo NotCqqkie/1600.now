@@ -9,7 +9,11 @@
     },
     {
       "title": "Solve for x",
-      "content": "Add 210 to both sides: $$5x = 1010$$ Divide both sides by 5: $$x = 202$$ They must sell 202 car stickers."
+      "content": "Add 210 to both sides: $$5x = 1010$$ Divide both sides by 5: $$x = 202$$ They must sell 202 car stickers.",
+      "desmosExpressions": [
+        "y = 5x - 210",
+        "(202, 800)"
+      ]
     }
   ]
 }

@@ -9,8 +9,11 @@
     },
     {
       "title": "Apply the vertex formula to find the maximum",
-      "content": "For a quadratic $y = ax^2 + bx + c$, the x-coordinate of the vertex is found using the vertex formula. With $a = -100$ and $b = 1400$:\n\n$$x = -\\frac{1400}{2(-100)} = -\\frac{1400}{-200} = \\frac{1400}{200} = 7$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct.",
-      "formula": "$$x = -\\frac{b}{2a}$$"
+      "content": "For a quadratic $y = ax^2 + bx + c$, the x-coordinate of the vertex is found using the vertex formula. With $a = -100$ and $b = 1400$:\n\n$$x = -\\frac{1400}{2(-100)} = -\\frac{1400}{-200} = \\frac{1400}{200} = 7$$\n\nThat matches choice B — <strong>B</strong> is correct.",
+      "formula": "$$x = -\\frac{b}{2a}$$",
+      "desmosExpressions": [
+        "y=-100(x)^(2)+1400x+7200"
+      ]
     }
   ]
 }

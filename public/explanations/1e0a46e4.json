@@ -14,7 +14,8 @@
     },
     {
       "title": "Eliminate Other Choices",
-      "content": "Choice A: Equations are identical (multiply first by -1). <strong>Infinite solutions</strong>.<br/>Choice B: Coefficients are not proportional. <strong>One solution</strong>.<br/>Choice C: Second equation is -3 times the first. <strong>Infinite solutions</strong>.<br/>Only D has no solution."
+      "content": "Choice A: Equations are identical (multiply first by -1). <strong>Infinite solutions</strong>.<br/>Choice B: Coefficients are not proportional. <strong>One solution</strong>.<br/>Choice C: Second equation is -3 times the first. <strong>Infinite solutions</strong>.<br/>Only D has no solution.",
+      "desmosExpressions": ["y = (9 + 2x)/3", "y = (4x - 18)/6"]
     }
   ]
 }

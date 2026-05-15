@@ -9,7 +9,8 @@
     },
     {
       "title": "Expand by distributing and match to the choices",
-      "content": "Distribute x to each term in the parentheses: $$f(x) = 33 + 8x - rx$$ Rearranging the terms: $$f(x) = 8x - rx + 33$$ That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Distribute x to each term in the parentheses: $$f(x) = 33 + 8x - rx$$ Rearranging the terms: $$f(x) = 8x - rx + 33$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = (8 - 0)x + 33"]
     }
   ]
 }

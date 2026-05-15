@@ -10,7 +10,8 @@
     },
     {
       "title": "Calculate the fraction of circumference that arc AB represents",
-      "content": "The fraction is the ratio of arc length to circumference:<br/>$$\\frac{\\pi/3}{2\\pi} = \\frac{1}{3} \\cdot \\frac{\\pi}{2\\pi} = \\frac{1}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$$"
+      "content": "The fraction is the ratio of arc length to circumference:<br/>$$\\frac{\\pi/3}{2\\pi} = \\frac{1}{3} \\cdot \\frac{\\pi}{2\\pi} = \\frac{1}{3} \\cdot \\frac{1}{2} = \\frac{1}{6}$$",
+      "desmosExpressions": ["x^2 + y^2 = 1", "(\\cos(\\pi/3), \\sin(\\pi/3))"]
     }
   ]
 }

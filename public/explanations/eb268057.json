@@ -1,1 +1,19 @@
-{"questionId": "eb268057", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Solve by taking square roots", "content": "Take the square root of both sides of $x^2 = 64$:<br/>$$x = \\pm\\sqrt{64} = \\pm 8$$<br/>The two solutions are $x = 8$ and $x = -8$."}, {"title": "Check which choice matches a solution", "content": "The choices are A = $-8$, B = $4$, C = $32$, D = $128$. Our solutions are $x = \\pm 8$, so choice A ($-8$) works. Verify: $(-8)^2 = 64$ ✓. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "eb268057",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve by taking square roots",
+      "content": "Take the square root of both sides of $x^2 = 64$:<br/>$$x = \\pm\\sqrt{64} = \\pm 8$$<br/>The two solutions are $x = 8$ and $x = -8$."
+    },
+    {
+      "title": "Check which choice matches a solution",
+      "content": "The choices are A = $-8$, B = $4$, C = $32$, D = $128$. Our solutions are $x = \\pm 8$, so choice A ($-8$) works. Verify: $(-8)^2 = 64$ ✓. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^2",
+        "y = 64"
+      ]
+    }
+  ]
+}

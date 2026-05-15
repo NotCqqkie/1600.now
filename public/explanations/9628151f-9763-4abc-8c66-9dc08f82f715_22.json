@@ -5,15 +5,16 @@
   "steps": [
     {
       "title": "Find H's coordinates and compute angle FGH",
-      "content": "Since H = (\u22121, y) lies on the unit circle, we apply the circle equation:<br/>$$(\u22121)^2 + y^2 = 1$$<br/>$$y^2 = 0 \\implies y = 0$$<br/>So H = (\u22121, 0). This makes F = (1, 0) and H = (\u22121, 0) diametrically opposite points on the circle. The angle at center G between them is:<br/>$$\\angle FGH = \\pi \\text{ radians}$$"
+      "content": "Since H = (−1, y) lies on the unit circle, we apply the circle equation:<br/>$$(−1)^2 + y^2 = 1$$<br/>$$y^2 = 0 \\implies y = 0$$<br/>So H = (−1, 0). This makes F = (1, 0) and H = (−1, 0) diametrically opposite points on the circle. The angle at center G between them is:<br/>$$\\angle FGH = \\pi \\text{ radians}$$"
     },
     {
       "title": "Find all possible positive angle measures",
-      "content": "Since angles can be measured by adding full rotations (multiples of 2\u03c0), all positive measures of angle FGH have the form:<br/>$$\\pi + 2\\pi k = (2k+1)\\pi \\quad \\text{for } k = 0, 1, 2, \\ldots$$<br/>This gives the sequence: \u03c0, 3\u03c0, 5\u03c0, 7\u03c0, 9\u03c0, 11\u03c0, 13\u03c0, ... \u2014 all odd multiples of \u03c0."
+      "content": "Since angles can be measured by adding full rotations (multiples of 2π), all positive measures of angle FGH have the form:<br/>$$\\pi + 2\\pi k = (2k+1)\\pi \\quad \\text{for } k = 0, 1, 2, \\ldots$$<br/>This gives the sequence: π, 3π, 5π, 7π, 9π, 11π, 13π, ... — all odd multiples of π."
     },
     {
-      "title": "Identify which choice is an odd multiple of \u03c0",
-      "content": "<ul><li><strong>A)</strong> $\\frac{13\\pi}{2} = 6.5\\pi$ \u2014 not an integer multiple of \u03c0</li><li><strong>B)</strong> $\\frac{15\\pi}{2} = 7.5\\pi$ \u2014 not an integer multiple of \u03c0</li><li><strong>C)</strong> $10\\pi$ \u2014 even multiple of \u03c0 (10 = 2\u00b75)</li><li><strong>D)</strong> $11\\pi$ \u2014 odd multiple of \u03c0, since $11 = 2(5) + 1$ \u2713</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Identify which choice is an odd multiple of π",
+      "content": "<ul><li><strong>A)</strong> $\\frac{13\\pi}{2} = 6.5\\pi$ — not an integer multiple of π</li><li><strong>B)</strong> $\\frac{15\\pi}{2} = 7.5\\pi$ — not an integer multiple of π</li><li><strong>C)</strong> $10\\pi$ — even multiple of π (10 = 2×5)</li><li><strong>D)</strong> $11\\pi$ — odd multiple of π, since $11 = 2(5) + 1$ ✓</li></ul>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": ["x^2 + y^2 = 1", "(1, 0)", "(-1, 0)"]
     }
   ]
 }

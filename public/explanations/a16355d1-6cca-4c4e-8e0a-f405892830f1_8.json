@@ -9,7 +9,8 @@
     },
     {
       "title": "Identify the y-intercept",
-      "content": "Reading where the line crosses the y-axis at $x = 0$, the $y$-value is approximately 2.3. <ul><li>Choice B has y-intercept 16.3 \u2014 far too large</li><li>Choice D has y-intercept 2.3 \u2014 matches the graph</li></ul> Verify with $x = 2$: the equation $y = -(2) + 2.3 = 0.3$ matches the line's position. <br/><br/> That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Reading where the line crosses the y-axis at $x = 0$, the $y$-value is approximately 2.3. <ul><li>Choice B has y-intercept 16.3 \u2014 far too large</li><li>Choice D has y-intercept 2.3 \u2014 matches the graph</li></ul> Verify with $x = 2$: the equation $y = -(2) + 2.3 = 0.3$ matches the line's position. <br/><br/> That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = -x + 2.3"]
     }
   ]
 }

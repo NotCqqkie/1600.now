@@ -10,7 +10,11 @@
     {
       "title": "Apply slope-intercept form",
       "formula": "$$y = mx + b$$",
-      "content": "Substituting $m = 3$ and $b = -8$:<br/>$$f(x) = 3x - 8$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Substituting $m = 3$ and $b = -8$:<br/>$$f(x) = 3x - 8$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=3x-8",
+        "(0,-8)"
+      ]
     }
   ]
 }

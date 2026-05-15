@@ -1,1 +1,18 @@
-{"questionId": "faeae876", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Analyze the equation", "content": "Set each factor of $52(x^3+64)(x^4-81)=0$ to zero. From $x^3=-64$ we get $x=-4$; from $x^4=81$ we get $x=\\pm 3$ (the other two roots are non-real)."}, {"title": "Count the solutions", "content": "The distinct real solutions are $-4,\\ 3,\\ -3$ — exactly three. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "faeae876",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Analyze the equation",
+      "content": "Set each factor of $52(x^3+64)(x^4-81)=0$ to zero. From $x^3=-64$ we get $x=-4$; from $x^4=81$ we get $x=\\pm 3$ (the other two roots are non-real)."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "The distinct real solutions are $-4,\\ 3,\\ -3$ — exactly three. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = (x^3 + 64)(x^4 - 81)"
+      ]
+    }
+  ]
+}

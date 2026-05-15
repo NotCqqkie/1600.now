@@ -1,1 +1,23 @@
-{"questionId": "30a07668", "correctAnswer": "6", "section": "Math", "steps": [{"title": "Set the equations equal", "content": "Since both expressions equal $y$, set them equal to each other:<br/>$$4x = x^2 - 12$$"}, {"title": "Rearrange to standard form and factor", "content": "Move all terms to one side:<br/>$$x^2 - 4x - 12 = 0$$<br/>Factor by finding two numbers that multiply to $-12$ and add to $-4$. Those numbers are $-6$ and $2$:<br/>$$(x - 6)(x + 2) = 0$$<br/>This gives $x = 6$ or $x = -2$."}, {"title": "Apply the positivity constraint", "content": "Since the problem requires $x > 0$, we eliminate $x = -2$ and keep $x = 6$."}]}
+{
+  "questionId": "30a07668",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Since both expressions equal $y$, set them equal to each other:<br/>$$4x = x^2 - 12$$"
+    },
+    {
+      "title": "Rearrange to standard form and factor",
+      "content": "Move all terms to one side:<br/>$$x^2 - 4x - 12 = 0$$<br/>Factor by finding two numbers that multiply to $-12$ and add to $-4$. Those numbers are $-6$ and $2$:<br/>$$(x - 6)(x + 2) = 0$$<br/>This gives $x = 6$ or $x = -2$."
+    },
+    {
+      "title": "Apply the positivity constraint",
+      "content": "Since the problem requires $x > 0$, we eliminate $x = -2$ and keep $x = 6$.",
+      "desmosExpressions": [
+        "y = 4x",
+        "y = x^2 - 12"
+      ]
+    }
+  ]
+}

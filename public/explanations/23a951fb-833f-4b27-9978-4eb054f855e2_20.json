@@ -1,1 +1,22 @@
-{"questionId":"23a951fb-833f-4b27-9978-4eb054f855e2_20","correctAnswer":"A","section":"Math","steps":[{"title":"Identify the slope","content":"$F$ is linear in $x$ with slope $\\tfrac{9}{5}$, so each $1$-kelvin increase raises $F$ by $\\tfrac{9}{5}$ degrees."},{"title":"Scale by the change","content":"For a 3.4-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 3.4=6.12.$$"},{"title":"State the answer","content":"That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "23a951fb-833f-4b27-9978-4eb054f855e2_20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope",
+      "content": "$F$ is linear in $x$ with slope $\\tfrac{9}{5}$, so each $1$-kelvin increase raises $F$ by $\\tfrac{9}{5}$ degrees."
+    },
+    {
+      "title": "Scale by the change",
+      "content": "For a 3.4-kelvin increase, $$\\Delta F=\\tfrac{9}{5}\\cdot 3.4=6.12.$$"
+    },
+    {
+      "title": "State the answer",
+      "content": "That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{9}{5}(x - 273.15) + 32"
+      ]
+    }
+  ]
+}

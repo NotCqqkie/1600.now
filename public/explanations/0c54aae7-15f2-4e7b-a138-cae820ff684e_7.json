@@ -13,7 +13,11 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct."
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = x^2 + 17x + 4",
+        "y = x + 4"
+      ]
     }
   ]
 }

@@ -18,7 +18,8 @@
     },
     {
       "title": "Convert to the form ax + 7y = c",
-      "content": "Multiply both sides of $5x + y = 7$ by 7 to match the required form:<br/>$$35x + 7y = 49$$<br/>Therefore, $c = 49$."
+      "content": "Multiply both sides of $5x + y = 7$ by 7 to match the required form:<br/>$$35x + 7y = 49$$<br/>Therefore, $c = 49$.",
+      "desmosExpressions": ["(2, 16)", "(7, 17)", "(1, 2)"]
     }
   ]
 }

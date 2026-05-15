@@ -9,7 +9,8 @@
     },
     {
       "title": "Match coefficients to find b",
-      "content": "For the equations to be identical, the second equation must equal $$y = \\frac{2}{7}x + 3.$$ Comparing $y = mx + b$ with this form shows that $m = \\frac{2}{7}$ and $b = 3$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "For the equations to be identical, the second equation must equal $$y = \\frac{2}{7}x + 3.$$ Comparing $y = mx + b$ with this form shows that $m = \\frac{2}{7}$ and $b = 3$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{2}{7}x + 3"]
     }
   ]
 }

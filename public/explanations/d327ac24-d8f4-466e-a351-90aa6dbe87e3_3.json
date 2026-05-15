@@ -1,1 +1,19 @@
-{"questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute", "content": "Plug $x=7$ into $f(x)=5x^{2}$.<br/>$$f(7)=5(7)^{2}$$"}, {"title": "Compute the result", "content": "Square first, then multiply.<br/>$$f(7)=5\\cdot 49=245$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute",
+      "content": "Plug $x=7$ into $f(x)=5x^{2}$.<br/>$$f(7)=5(7)^{2}$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Square first, then multiply.<br/>$$f(7)=5\\cdot 49=245$$<br/>That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = 5x^2",
+        "(7, 245)"
+      ]
+    }
+  ]
+}

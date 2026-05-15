@@ -9,7 +9,8 @@
     },
     {
       "title": "Interpret the slope as the rate of change per hour",
-      "content": "In this context, $x$ represents hours after 6 p.m., so the slope tells us how much the temperature changes per hour. Since the slope is $-3$, the temperature decreases by 3 degrees Fahrenheit for each hour that passes. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "In this context, $x$ represents hours after 6 p.m., so the slope tells us how much the temperature changes per hour. Since the slope is $-3$, the temperature decreases by 3 degrees Fahrenheit for each hour that passes. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = -3x + 74 \\{0 \\leq x \\leq 5\\}"]
     }
   ]
 }

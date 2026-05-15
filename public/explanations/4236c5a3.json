@@ -9,7 +9,11 @@
     },
     {
       "title": "Solve for x and identify the matching choice",
-      "content": "From $x + 5 = 2$, we get $x = -3$.<br/>From $x + 5 = -2$, we get $x = -7$.<br/>Checking the choices, only $-3$ appears as an option. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "From $x + 5 = 2$, we get $x = -3$.<br/>From $x + 5 = -2$, we get $x = -7$.<br/>Checking the choices, only $-3$ appears as an option. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = (x + 5)^2",
+        "y = 4"
+      ]
     }
   ]
 }

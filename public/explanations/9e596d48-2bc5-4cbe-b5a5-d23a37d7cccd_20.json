@@ -9,7 +9,8 @@
     },
     {
       "title": "Apply the area scaling rule",
-      "content": "When a figure is scaled by a linear factor of $k$, its area is scaled by $k^2$. Here, the radius of circle B is 47 times the radius of circle A, so its area is:<br/>$$47^2 = 2209$$<br/>times the area of circle A."
+      "content": "When a figure is scaled by a linear factor of $k$, its area is scaled by $k^2$. Here, the radius of circle B is 47 times the radius of circle A, so its area is:<br/>$$47^2 = 2209$$<br/>times the area of circle A.",
+      "desmosExpressions": ["x^2 + y^2 = 4", "x^2 + y^2 = 94^2"]
     }
   ]
 }

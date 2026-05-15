@@ -1,1 +1,19 @@
-{"questionId":"3a01a5ee","correctAnswer":"D","section":"Math","steps":[{"title":"Solve the equation","content":"From $|-5x+13|=73$: $-5x+13=73$ gives $x=-12$, and $-5x+13=-73$ gives $x=\\tfrac{86}{5}$."},{"title":"Sum the solutions","content":"Add: $-12+\\dfrac{86}{5}=\\dfrac{-60+86}{5}=\\dfrac{26}{5}$.<br/><br/>The answer is <strong>D</strong>."}]}
+{
+  "questionId": "3a01a5ee",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "From $|-5x+13|=73$: $-5x+13=73$ gives $x=-12$, and $-5x+13=-73$ gives $x=\\tfrac{86}{5}$."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "Add: $-12+\\dfrac{86}{5}=\\dfrac{-60+86}{5}=\\dfrac{26}{5}$.<br/><br/>The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = |-5x + 13|",
+        "y = 73"
+      ]
+    }
+  ]
+}

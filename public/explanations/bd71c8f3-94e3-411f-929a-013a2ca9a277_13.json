@@ -1,1 +1,23 @@
-{"questionId":"bd71c8f3-94e3-411f-929a-013a2ca9a277_13","correctAnswer":"C","section":"Math","steps":[{"title":"Set up","content":"Infinitely many solutions means the two equations are the same line &mdash; one is a scalar multiple of the other. Compare $3x + 9y = 10$ and $rx + 18y = 20$."},{"title":"Solve","content":"The y-coefficient goes from 9 to 18 (scale factor 2), and the constant goes from 10 to 20 (scale factor 2). So multiply the first equation by 2: $6x + 18y = 20$. Matching the x-coefficient gives $r = 6$."},{"title":"Answer","content":"<strong>C</strong> is correct."}]}
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Infinitely many solutions means the two equations are the same line &mdash; one is a scalar multiple of the other. Compare $3x + 9y = 10$ and $rx + 18y = 20$."
+    },
+    {
+      "title": "Solve",
+      "content": "The y-coefficient goes from 9 to 18 (scale factor 2), and the constant goes from 10 to 20 (scale factor 2). So multiply the first equation by 2: $6x + 18y = 20$. Matching the x-coefficient gives $r = 6$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{10 - 3x}{9}",
+        "y = \\frac{20 - 6x}{18}"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,22 @@
-{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_13", "correctAnswer": "208", "section": "Math", "steps": [{"title": "Set up", "content": "Rewrite the equation in standard form by subtracting 47 from both sides: $x^2 + 5x - 47 = 0$. The quadratic formula gives $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = 5$, $c = -47$."}, {"title": "Solve", "content": "Substitute: $x = \\frac{-5 \\pm \\sqrt{25 - 4(1)(-47)}}{2} = \\frac{-5 \\pm \\sqrt{25 + 188}}{2} = \\frac{-5 \\pm \\sqrt{213}}{2}$. So the two solutions are $\\frac{-5 + \\sqrt{213}}{2}$ and $\\frac{-5 - \\sqrt{213}}{2}$."}, {"title": "Answer", "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m + q = -5 + 213 = $ <strong>208</strong>."}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_13",
+  "correctAnswer": "208",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Rewrite the equation in standard form by subtracting 47 from both sides: $x^2 + 5x - 47 = 0$. The quadratic formula gives $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = 5$, $c = -47$."
+    },
+    {
+      "title": "Solve",
+      "content": "Substitute: $x = \\frac{-5 \\pm \\sqrt{25 - 4(1)(-47)}}{2} = \\frac{-5 \\pm \\sqrt{25 + 188}}{2} = \\frac{-5 \\pm \\sqrt{213}}{2}$. So the two solutions are $\\frac{-5 + \\sqrt{213}}{2}$ and $\\frac{-5 - \\sqrt{213}}{2}$."
+    },
+    {
+      "title": "Answer",
+      "content": "Matching to the given form $\\frac{m \\pm \\sqrt{q}}{2}$: $m = -5$ and $q = 213$. Therefore $m + q = -5 + 213 = $ <strong>208</strong>.",
+      "desmosExpressions": [
+        "y = x^{2} + 5x - 47"
+      ]
+    }
+  ]
+}

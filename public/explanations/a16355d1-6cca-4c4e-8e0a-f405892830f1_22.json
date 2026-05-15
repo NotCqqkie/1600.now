@@ -1,1 +1,22 @@
-{"questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_22", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the slope of line l", "content": "Line $k$ has slope $m$. Since perpendicular lines have slopes that multiply to $-1$, line $l$ has slope $-\\frac{1}{m}$."}, {"title": "Write the equation of line l", "content": "Line $l$ passes through $(2, 8)$ with slope $-\\frac{1}{m}$. Using point-slope form:<br/>$$y - 8 = -\\frac{1}{m}(x - 2)$$"}, {"title": "Evaluate the value at x = 3", "content": "Substitute $x = 3$:<br/>$$y - 8 = -\\frac{1}{m}(3 - 2) = -\\frac{1}{m}$$<br/>$$y = 8 - \\frac{1}{m}$$<br/>The point on line $l$ is $(3, 8 - \\frac{1}{m})$. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a16355d1-6cca-4c4e-8e0a-f405892830f1_22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope of line l",
+      "content": "Line $k$ has slope $m$. Since perpendicular lines have slopes that multiply to $-1$, line $l$ has slope $-\\frac{1}{m}$."
+    },
+    {
+      "title": "Write the equation of line l",
+      "content": "Line $l$ passes through $(2, 8)$ with slope $-\\frac{1}{m}$. Using point-slope form:<br/>$$y - 8 = -\\frac{1}{m}(x - 2)$$"
+    },
+    {
+      "title": "Evaluate the value at x = 3",
+      "content": "Substitute $x = 3$:<br/>$$y - 8 = -\\frac{1}{m}(3 - 2) = -\\frac{1}{m}$$<br/>$$y = 8 - \\frac{1}{m}$$<br/>The point on line $l$ is $(3, 8 - \\frac{1}{m})$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "(2, 8)"
+      ]
+    }
+  ]
+}

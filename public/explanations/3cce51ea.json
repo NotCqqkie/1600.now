@@ -9,7 +9,11 @@
     },
     {
       "title": "Solve for p",
-      "content": "The absolute value equation $|p| = 4$ has two solutions: $p = 4$ and $p = -4$. Looking at the answer choices, only 4 appears as an option. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The absolute value equation $|p| = 4$ has two solutions: $p = 4$ and $p = -4$. Looking at the answer choices, only 4 appears as an option. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = |x| + 61",
+        "y = 65"
+      ]
     }
   ]
 }

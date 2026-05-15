@@ -1,1 +1,18 @@
-{"questionId":"c41e5688","correctAnswer":"D","section":"Math","steps":[{"title":"Find the boundary line equation","content":"Reading the graph, the boundary passes through $(0,-1)$ and $(1,-4)$. The slope is $\\frac{-4-(-1)}{1-0}=-3$, giving $y=-1-3x$."},{"title":"Pick the inequality direction from the shading","content":"Test the shaded point $(0,0)$ in $y>-1-3x$: $0>-1$ ✓, and the dashed boundary confirms a strict inequality. So $$y>-1-3x.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "c41e5688",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the boundary line equation",
+      "content": "Reading the graph, the boundary passes through $(0,-1)$ and $(1,-4)$. The slope is $\\frac{-4-(-1)}{1-0}=-3$, giving $y=-1-3x$."
+    },
+    {
+      "title": "Pick the inequality direction from the shading",
+      "content": "Test the shaded point $(0,0)$ in $y>-1-3x$: $0>-1$ ✓, and the dashed boundary confirms a strict inequality. So $$y>-1-3x.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y>-1-3x"
+      ]
+    }
+  ]
+}

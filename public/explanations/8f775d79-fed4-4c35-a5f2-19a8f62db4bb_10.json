@@ -1,1 +1,25 @@
-{"questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract two points from the graph to find the slope", "content": "Reading from the graph, at $x = 0$ the line passes through $y = -2$, and at $x = -1$ the line passes through $y = 2$. The slope is $\\frac{2 - (-2)}{-1 - 0} = \\frac{4}{-1} = -4$."}, {"title": "Write the equation of the graphed line", "content": "Using the slope $m = -4$ and the $y$-intercept at $(0, -2)$, the equation of the line shown in the graph is $$y = -4x - 2$$"}, {"title": "Solve for f(x) using the given relationship", "content": "The problem states the graph shows $y = f(x) - 11$. Substituting our equation: $$-4x - 2 = f(x) - 11$$ Adding $11$ to both sides: $$f(x) = -4x - 2 + 11 = -4x + 9$$ That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract two points from the graph to find the slope",
+      "content": "Reading from the graph, at $x = 0$ the line passes through $y = -2$, and at $x = -1$ the line passes through $y = 2$. The slope is $\\frac{2 - (-2)}{-1 - 0} = \\frac{4}{-1} = -4$."
+    },
+    {
+      "title": "Write the equation of the graphed line",
+      "content": "Using the slope $m = -4$ and the $y$-intercept at $(0, -2)$, the equation of the line shown in the graph is $$y = -4x - 2$$"
+    },
+    {
+      "title": "Solve for f(x) using the given relationship",
+      "content": "The problem states the graph shows $y = f(x) - 11$. Substituting our equation: $$-4x - 2 = f(x) - 11$$ Adding $11$ to both sides: $$f(x) = -4x - 2 + 11 = -4x + 9$$ That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = -15x - 11",
+        "y = -4x + 9",
+        "y = -15x + 9",
+        "y = -4x - 11"
+      ]
+    }
+  ]
+}

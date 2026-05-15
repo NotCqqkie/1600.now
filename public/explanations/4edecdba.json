@@ -9,7 +9,8 @@
     },
     {
       "title": "Solve for x by isolating it",
-      "content": "Simplify the left side:<br/>$$8x + 66 = 170$$<br/>Subtract 66 from both sides:<br/>$$8x = 104$$<br/>Divide both sides by 8:<br/>$$x = 13$$<br/>There are <strong>13</strong> premium grade Log Cabin Pennies in the collection."
+      "content": "Simplify the left side:<br/>$$8x + 66 = 170$$<br/>Subtract 66 from both sides:<br/>$$8x = 104$$<br/>Divide both sides by 8:<br/>$$x = 13$$<br/>There are <strong>13</strong> premium grade Log Cabin Pennies in the collection.",
+      "desmosExpressions": ["8x+11y=170", "(13,6)"]
     }
   ]
 }

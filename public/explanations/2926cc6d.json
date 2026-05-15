@@ -1,1 +1,18 @@
-{"questionId":"2926cc6d","correctAnswer":"C","section":"Math","steps":[{"title":"Solve the quadratic","content":"Set each factor of $(5x+4)(2x-5)=0$ to zero: $5x+4=0$ gives $x=-\\tfrac{4}{5}$, and $2x-5=0$ gives $x=\\tfrac{5}{2}$."},{"title":"Identify the matching solution","content":"The solutions are $-\\tfrac{4}{5}$ and $\\tfrac{5}{2}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "2926cc6d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the quadratic",
+      "content": "Set each factor of $(5x+4)(2x-5)=0$ to zero: $5x+4=0$ gives $x=-\\tfrac{4}{5}$, and $2x-5=0$ gives $x=\\tfrac{5}{2}$."
+    },
+    {
+      "title": "Identify the matching solution",
+      "content": "The solutions are $-\\tfrac{4}{5}$ and $\\tfrac{5}{2}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = (5x + 4)(2x - 5)"
+      ]
+    }
+  ]
+}

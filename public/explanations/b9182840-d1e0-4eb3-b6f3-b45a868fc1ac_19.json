@@ -10,7 +10,8 @@
     {
       "title": "Build the exponential decay model",
       "content": "For exponential decay, the exponent $t/T$ represents the number of periods elapsed, where $T$ is the length of one period. <br/>Substituting $M_0 = 100$, $b = 0.77$, and $T = 11.69$:<br/>$$M = 100(0.77)^{t/11.69}$$<br/>This is choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$M = M_0 \\cdot b^{t/T}$$"
+      "formula": "$$M = M_0 \\cdot b^{t/T}$$",
+      "desmosExpressions": ["M = 100 \\cdot 0.77^{t / 11.69}"]
     }
   ]
 }

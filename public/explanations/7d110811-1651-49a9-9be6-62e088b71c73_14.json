@@ -9,7 +9,8 @@
     },
     {
       "title": "Find the slope using (1, 40)",
-      "content": "With $b = 0$, the function becomes $h(x) = mx$. Substituting the point $(1, 40)$: $$40 = m(1)$$ Therefore $m = 40$. So $h(x) = 40x$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "With $b = 0$, the function becomes $h(x) = mx$. Substituting the point $(1, 40)$: $$40 = m(1)$$ Therefore $m = 40$. So $h(x) = 40x$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = 40x", "(0, 0)", "(1, 40)"]
     }
   ]
 }

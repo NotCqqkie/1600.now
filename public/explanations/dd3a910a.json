@@ -9,7 +9,11 @@
     },
     {
       "title": "Read the intersection point from the grid",
-      "content": "Following the curves on the coordinate grid, the straight line intersects the left branch of the absolute value function at the point where $x = 1$ and $y = 5$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Following the curves on the coordinate grid, the straight line intersects the left branch of the absolute value function at the point where $x = 1$ and $y = 5$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = |x - 1| + 1",
+        "y = 2"
+      ]
     }
   ]
 }

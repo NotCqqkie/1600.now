@@ -1,1 +1,20 @@
-{"questionId": "00ec9102", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the cost expression for each item type", "content": "Containers cost &#36;1.87 each, so $c$ containers cost $1.87c$ dollars. Tape costs &#36;2.40 per roll, so $t$ rolls cost $2.40t$ dollars. The total amount Leo spends is:<br/>$$1.87c + 2.40t$$"}, {"title": "Apply the budget constraint", "content": "Leo has &#36;15 total to spend, which is his budget limit. The total cost cannot exceed this amount. When a quantity cannot exceed a limit, we use ≤:<br/>$$1.87c + 2.40t \\le 15$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "00ec9102",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the cost expression for each item type",
+      "content": "Containers cost &#36;1.87 each, so $c$ containers cost $1.87c$ dollars. Tape costs &#36;2.40 per roll, so $t$ rolls cost $2.40t$ dollars. The total amount Leo spends is:<br/>$$1.87c + 2.40t$$"
+    },
+    {
+      "title": "Apply the budget constraint",
+      "content": "Leo has &#36;15 total to spend, which is his budget limit. The total cost cannot exceed this amount. When a quantity cannot exceed a limit, we use ≤:<br/>$$1.87c + 2.40t \\le 15$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "1.87x+2.40y \\le 15",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
+    }
+  ]
+}

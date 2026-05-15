@@ -9,7 +9,8 @@
     },
     {
       "title": "Compare slopes to find c",
-      "content": "Both equations are in slope-intercept form $y = mx + b$:<br/><br/>First equation: $y = \\frac{1}{2}x + 8$ has slope $\\frac{1}{2}$<br/><br/>Second equation: $y = cx + 10$ has slope $c$<br/><br/>For the lines to be parallel, their slopes must be equal:<br/>$$\\frac{1}{2} = c$$"
+      "content": "Both equations are in slope-intercept form $y = mx + b$:<br/><br/>First equation: $y = \\frac{1}{2}x + 8$ has slope $\\frac{1}{2}$<br/><br/>Second equation: $y = cx + 10$ has slope $c$<br/><br/>For the lines to be parallel, their slopes must be equal:<br/>$$\\frac{1}{2} = c$$",
+      "desmosExpressions": ["y = (1/2)x + 8", "y = (1/2)x + 10"]
     }
   ]
 }

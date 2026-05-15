@@ -9,7 +9,8 @@
     },
     {
       "title": "Find the y-intercept using one data point",
-      "content": "Substitute the point $(1, 155)$ and slope $m = 65$ into $f(h) = mh + b$:<br/>$$155 = 65(1) + b$$<br/>$$155 = 65 + b$$<br/>$$b = 90$$<br/>The equation is $f(h) = 65h + 90$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Substitute the point $(1, 155)$ and slope $m = 65$ into $f(h) = mh + b$:<br/>$$155 = 65(1) + b$$<br/>$$155 = 65 + b$$<br/>$$b = 90$$<br/>The equation is $f(h) = 65h + 90$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=65x+90", "(1,155)", "(3,285)"]
     }
   ]
 }

@@ -10,7 +10,8 @@
     },
     {
       "title": "Solve for c using the discriminant condition",
-      "content": "Set the discriminant equal to zero and substitute: $$30^2 - 4(-9)(c) = 0$$ $$900 + 36c = 0$$ $$36c = -900$$ $$c = -25$$ That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Set the discriminant equal to zero and substitute: $$30^2 - 4(-9)(c) = 0$$ $$900 + 36c = 0$$ $$36c = -900$$ $$c = -25$$ That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = -9x^2 + 30x + c", "c = 0"]
     }
   ]
 }

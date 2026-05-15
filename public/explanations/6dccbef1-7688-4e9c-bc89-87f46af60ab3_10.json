@@ -9,7 +9,8 @@
     },
     {
       "title": "Extract the y-intercept",
-      "content": "From $f(x) = -9x + 9$, the constant term is 9. Therefore, the y-coordinate of the y-intercept is <strong>9</strong>."
+      "content": "From $f(x) = -9x + 9$, the constant term is 9. Therefore, the y-coordinate of the y-intercept is <strong>9</strong>.",
+      "desmosExpressions": ["y = -9x + 9", "(0, 9)"]
     }
   ]
 }

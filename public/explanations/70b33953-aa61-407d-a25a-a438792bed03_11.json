@@ -9,7 +9,11 @@
     },
     {
       "title": "Use the point condition to find the y-intercept",
-      "content": "Apply $g(9) = 11$ to find the remaining constant: $$g(9) = 2(9) + b = 11$$ $$18 + b = 11$$ $$b = -7$$ Therefore $g(x) = 2x - 7$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Apply $g(9) = 11$ to find the remaining constant: $$g(9) = 2(9) + b = 11$$ $$18 + b = 11$$ $$b = -7$$ Therefore $g(x) = 2x - 7$. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 2x - 7",
+        "(9, 11)"
+      ]
     }
   ]
 }

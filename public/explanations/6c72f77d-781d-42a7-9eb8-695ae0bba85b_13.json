@@ -10,7 +10,8 @@
     },
     {
       "title": "Solve for c using the discriminant condition",
-      "content": "Set the discriminant equal to zero and solve for $c$:<br/>$$20^2 - 4(-2)c = 0$$<br/>$$400 + 8c = 0$$<br/>$$c = -50$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Set the discriminant equal to zero and solve for $c$:<br/>$$20^2 - 4(-2)c = 0$$<br/>$$400 + 8c = 0$$<br/>$$c = -50$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = -2x^{2} + 20x + c", "c = -50"]
     }
   ]
 }

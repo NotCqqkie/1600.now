@@ -1,1 +1,20 @@
-{"questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_14", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize the discriminant trigger", "content": "For a quadratic equation $ax^2 + bx + c = 0$ to have exactly one real solution, the discriminant must equal zero.", "formula": "$$b^2 - 4ac = 0$$"}, {"title": "Set up and solve the discriminant equation", "content": "In $7x^2 + 49x + c = 0$, we have $a = 7$ and $b = 49$. Setting the discriminant equal to zero:<br/>$$49^2 - 4(7)(c) = 0$$<br/>$$2401 - 28c = 0$$<br/>$$c = \\frac{2401}{28}$$<br/>To simplify, recognize that $2401 = 7^4$ and $28 = 4 \\cdot 7$, so:<br/>$$c = \\frac{7^4}{4 \\cdot 7} = \\frac{7^3}{4} = \\frac{343}{4}$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "29b11893-ee0c-48ae-8103-403d9652ad14_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the discriminant trigger",
+      "content": "For a quadratic equation $ax^2 + bx + c = 0$ to have exactly one real solution, the discriminant must equal zero.",
+      "formula": "$$b^2 - 4ac = 0$$"
+    },
+    {
+      "title": "Set up and solve the discriminant equation",
+      "content": "In $7x^2 + 49x + c = 0$, we have $a = 7$ and $b = 49$. Setting the discriminant equal to zero:<br/>$$49^2 - 4(7)(c) = 0$$<br/>$$2401 - 28c = 0$$<br/>$$c = \\frac{2401}{28}$$<br/>To simplify, recognize that $2401 = 7^4$ and $28 = 4 \\cdot 7$, so:<br/>$$c = \\frac{7^4}{4 \\cdot 7} = \\frac{7^3}{4} = \\frac{343}{4}$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7x^{2} + 49x + c",
+        "c = \\frac{343}{4}"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_16", "correctAnswer": "2", "section": "Math", "steps": [{"title": "Identify the circle's center and radius", "content": "From the standard form $(x-6)^2+(y-2)^2=36$, we have center $(6, 2)$ and radius $6$."}, {"title": "Substitute the point into the circle equation and solve", "content": "Since $(12, c)$ lies on the circle:<br/>$$(12-6)^2+(c-2)^2=36$$<br/>$$36+(c-2)^2=36$$<br/>$$(c-2)^2=0$$<br/>$$c=2$$"}]}
+{
+  "questionId": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_16",
+  "correctAnswer": "2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the circle's center and radius",
+      "content": "From the standard form $(x-6)^2+(y-2)^2=36$, we have center $(6, 2)$ and radius $6$."
+    },
+    {
+      "title": "Substitute the point into the circle equation and solve",
+      "content": "Since $(12, c)$ lies on the circle:<br/>$$(12-6)^2+(c-2)^2=36$$<br/>$$36+(c-2)^2=36$$<br/>$$(c-2)^2=0$$<br/>$$c=2$$",
+      "desmosExpressions": [
+        "(x-6)^2 + (y-2)^2 = 36",
+        "(12, 2)"
+      ]
+    }
+  ]
+}

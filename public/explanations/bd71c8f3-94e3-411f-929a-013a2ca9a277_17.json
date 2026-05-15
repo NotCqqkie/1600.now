@@ -1,1 +1,18 @@
-{"questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_17", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize the discriminant rule for real solutions", "content": "A quadratic equation $ax^2 + bx + c = 0$ has exactly one distinct real solution when the discriminant $b^2 - 4ac$ equals zero. This represents a parabola that touches the x-axis at exactly one point."}, {"title": "Calculate the discriminant for each choice", "content": "For each equation, compute the discriminant $b^2 - 4ac$:<ul><li><strong>A:</strong> $x^2 - 16 = 0$ → $0^2 - 4(1)(-16) = 64 > 0$ (two solutions)</li><li><strong>B:</strong> $x^2 + 16 = 0$ → $0^2 - 4(1)(16) = -64 < 0$ (no solutions)</li><li><strong>C:</strong> $x^2 - 16x + 56 = 0$ → $(-16)^2 - 4(1)(56) = 32 > 0$ (two solutions)</li><li><strong>D:</strong> $x^2 - 16x + 64 = 0$ → $(-16)^2 - 4(1)(64) = 0$ (exactly one solution)</li></ul>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "bd71c8f3-94e3-411f-929a-013a2ca9a277_17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the discriminant rule for real solutions",
+      "content": "A quadratic equation $ax^2 + bx + c = 0$ has exactly one distinct real solution when the discriminant $b^2 - 4ac$ equals zero. This represents a parabola that touches the x-axis at exactly one point."
+    },
+    {
+      "title": "Calculate the discriminant for each choice",
+      "content": "For each equation, compute the discriminant $b^2 - 4ac$:<ul><li><strong>A:</strong> $x^2 - 16 = 0$ → $0^2 - 4(1)(-16) = 64 > 0$ (two solutions)</li><li><strong>B:</strong> $x^2 + 16 = 0$ → $0^2 - 4(1)(16) = -64 < 0$ (no solutions)</li><li><strong>C:</strong> $x^2 - 16x + 56 = 0$ → $(-16)^2 - 4(1)(56) = 32 > 0$ (two solutions)</li><li><strong>D:</strong> $x^2 - 16x + 64 = 0$ → $(-16)^2 - 4(1)(64) = 0$ (exactly one solution)</li></ul>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = (x-1)^2"
+      ]
+    }
+  ]
+}

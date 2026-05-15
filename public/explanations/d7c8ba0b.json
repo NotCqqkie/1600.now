@@ -9,7 +9,8 @@
     },
     {
       "title": "Write the equation and match the answer",
-      "content": "With slope $m=8$ and y\u2011intercept from point $(0,9)$, the line is $$y=8x+9.$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "With slope $m=8$ and y‑intercept from point $(0,9)$, the line is $$y=8x+9.$$<br/>This matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": ["y=8x+9", "(0,9)", "(1,17)"]
     }
   ]
 }

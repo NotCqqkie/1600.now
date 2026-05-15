@@ -9,7 +9,10 @@
     },
     {
       "title": "Interpret the meaning",
-      "content": "At the start of the study ($t = 0$), the function gives 1,800, which represents the estimated number of marine mammals in the area when the study began. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "At the start of the study ($t = 0$), the function gives 1,800, which represents the estimated number of marine mammals in the area when the study began. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "P(t)=1800((1.02))^(t)"
+      ]
     }
   ]
 }

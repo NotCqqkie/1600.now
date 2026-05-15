@@ -9,7 +9,8 @@
     },
     {
       "title": "Match the vertex to the correct table",
-      "content": "The parabola's minimum point is located at $x=3$, $y=-12$. <ul><li>Choice C includes the point $(3, -12)$</li><li>Choice D has no point at $x=3$</li></ul>The three points in choice C\u2014$(0, 0)$, $(3, -12)$, $(6, 0)$\u2014represent the start, vertex, and end of the parabola. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The parabola's minimum point is located at $x=3$, $y=-12$. <ul><li>Choice C includes the point $(3, -12)$</li><li>Choice D has no point at $x=3$</li></ul>The three points in choice C—$(0, 0)$, $(3, -12)$, $(6, 0)$—represent the start, vertex, and end of the parabola. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=0representssealevel"]
     }
   ]
 }

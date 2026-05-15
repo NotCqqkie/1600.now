@@ -1,1 +1,23 @@
-{"questionId":"d327ac24-d8f4-466e-a351-90aa6dbe87e3_4","correctAnswer":"C","section":"Math","steps":[{"title":"Combine the equations","content":"Add the two equations to eliminate $y$: $$(x+5y)+(x-5y)=5+7.$$"},{"title":"Solve for $x$","content":"This gives $2x=12$, so $x=6$."},{"title":"Match the answer","content":"That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the equations",
+      "content": "Add the two equations to eliminate $y$: $$(x+5y)+(x-5y)=5+7.$$"
+    },
+    {
+      "title": "Solve for $x$",
+      "content": "This gives $2x=12$, so $x=6$."
+    },
+    {
+      "title": "Match the answer",
+      "content": "That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{5 - x}{5}",
+        "y = \\frac{x - 7}{5}"
+      ]
+    }
+  ]
+}

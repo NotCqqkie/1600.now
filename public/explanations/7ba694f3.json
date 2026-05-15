@@ -10,11 +10,12 @@
     },
     {
       "title": "Identify the parameters",
-      "content": "From the problem: <br/> \u2022 Initial number of bacteria (a) = 44,000 <br/> \u2022 Growth factor when doubling each day (b) = 2"
+      "content": "From the problem: <br/> • Initial number of bacteria (a) = 44,000 <br/> • Growth factor when doubling each day (b) = 2"
     },
     {
       "title": "Write the equation and verify",
-      "content": "Substitute $a = 44,000$ and $b = 2$: $$y = 44,000 \\cdot 2^t$$ Verify at $t = 0$: $y = 44,000(2)^0 = 44,000$ \u2713 at the start. <br/>Verify at $t = 1$: $y = 44,000(2)^1 = 88,000$, double the initial amount \u2713. <br/>This matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substitute $a = 44,000$ and $b = 2$: $$y = 44,000 \\cdot 2^t$$ Verify at $t = 0$: $y = 44,000(2)^0 = 44,000$ ✓ at the start. <br/>Verify at $t = 1$: $y = 44,000(2)^1 = 88,000$, double the initial amount ✓. <br/>This matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": ["y=44000((2))^(t)"]
     }
   ]
 }

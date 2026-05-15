@@ -9,7 +9,8 @@
     },
     {
       "title": "Interpret vertex as the minimum height",
-      "content": "Since $a = \\frac{1}{9} > 0$, the parabola opens upward, making the vertex the <strong>minimum point</strong>. The vertex $(4, 5)$ means the minimum height is 5 inches (at $x = 4$ seconds). That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since $a = \\frac{1}{9} > 0$, the parabola opens upward, making the vertex the <strong>minimum point</strong>. The vertex $(4, 5)$ means the minimum height is 5 inches (at $x = 4$ seconds). That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["f(x) = \\frac{1}{9}(x-4)^2 + 5", "(4, 5)"]
     }
   ]
 }

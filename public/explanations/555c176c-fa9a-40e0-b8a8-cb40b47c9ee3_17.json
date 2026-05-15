@@ -13,7 +13,13 @@
     },
     {
       "title": "Use the exponential form to find the constant",
-      "content": "All choices have the form $f(x) = -6^x + c$. Evaluate at $x = 0$:<br/>$$f(0) = -6^0 + c = -1 + c$$<br/>Since $f(0) = 4$, set up the equation:<br/>$$-1 + c = 4$$<br/>$$c = 5$$<br/>Therefore $f(x) = -6^x + 5$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "All choices have the form $f(x) = -6^x + c$. Evaluate at $x = 0$:<br/>$$f(0) = -6^0 + c = -1 + c$$<br/>Since $f(0) = 4$, set up the equation:<br/>$$-1 + c = 4$$<br/>$$c = 5$$<br/>Therefore $f(x) = -6^x + 5$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = -6^{x} + 1",
+        "y = -6^{x} + 5",
+        "y = -6^{x} + 8",
+        "y = -6^{x} + 9"
+      ]
     }
   ]
 }

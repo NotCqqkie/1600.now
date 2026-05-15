@@ -9,7 +9,8 @@
     },
     {
       "title": "Write the equation using slope-intercept form",
-      "content": "The slope-intercept form of a line is $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. With slope $m = 4$ and y-intercept $b = 21$:<br/>$$f(x) = 4x + 21$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The slope-intercept form of a line is $y = mx + b$, where $m$ is the slope and $b$ is the y-intercept. With slope $m = 4$ and y-intercept $b = 21$:<br/>$$f(x) = 4x + 21$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = 4x + 21", "(0, 21)"]
     }
   ]
 }

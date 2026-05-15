@@ -1,1 +1,19 @@
-{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_10", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Set the equations equal", "content": "Setting $x + 23 = 12x$ gives $23 = 11x$, so $x = \\frac{23}{11}$."}, {"title": "Count the intersection points", "content": "Two lines intersect at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_10",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Setting $x + 23 = 12x$ gives $23 = 11x$, so $x = \\frac{23}{11}$."
+    },
+    {
+      "title": "Count the intersection points",
+      "content": "Two lines intersect at exactly one point. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 23",
+        "y = 12x"
+      ]
+    }
+  ]
+}

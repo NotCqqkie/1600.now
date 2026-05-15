@@ -1,1 +1,19 @@
-{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_21", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the center and radius of circle M", "content": "The equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ is in standard form. Rewrite it as $(x - (-6a))^2 + (y - 38a)^2 = (6a)^2$ to identify:<ul><li>Center M: $(-6a, 38a)$</li><li>Radius: $6a$</li></ul>"}, {"title": "Apply the rightward shift to find circle V", "content": "Shifting circle M rightward by $12a$ units means adding $12a$ to the x-coordinate of its center:<br/><div class='callout'>New center V: $(-6a + 12a, 38a) = (6a, 38a)$</div><br/>The y-coordinate and radius remain unchanged, so circle V has equation:<br/>$$(x - 6a)^2 + (y - 38a)^2 = 36a^2$$<br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the center and radius of circle M",
+      "content": "The equation $(x + 6a)^2 + (y - 38a)^2 = 36a^2$ is in standard form. Rewrite it as $(x - (-6a))^2 + (y - 38a)^2 = (6a)^2$ to identify:<ul><li>Center M: $(-6a, 38a)$</li><li>Radius: $6a$</li></ul>"
+    },
+    {
+      "title": "Apply the rightward shift to find circle V",
+      "content": "Shifting circle M rightward by $12a$ units means adding $12a$ to the x-coordinate of its center:<br/><div class='callout'>New center V: $(-6a + 12a, 38a) = (6a, 38a)$</div><br/>The y-coordinate and radius remain unchanged, so circle V has equation:<br/>$$(x - 6a)^2 + (y - 38a)^2 = 36a^2$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "(x+6a)^2 + (y-38a)^2 = 36a^2",
+        "(x-6a)^2 + (y-38a)^2 = 36a^2"
+      ]
+    }
+  ]
+}

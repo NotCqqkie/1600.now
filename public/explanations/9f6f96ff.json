@@ -13,7 +13,8 @@
     },
     {
       "title": "Calculate x and identify the choice",
-      "content": "Substitute $y = 20$ into $x = 4y + 6$:<br/>$$x = 4(20) + 6$$<br/>$$x = 80 + 6$$<br/>$$x = 86$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substitute $y = 20$ into $x = 4y + 6$:<br/>$$x = 4(20) + 6$$<br/>$$x = 80 + 6$$<br/>$$x = 86$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = 106 - x", "y = (x - 6)/4"]
     }
   ]
 }

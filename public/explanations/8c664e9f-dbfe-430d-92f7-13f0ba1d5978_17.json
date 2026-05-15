@@ -1,1 +1,19 @@
-{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Compare the coefficients", "content": "Form ratios of the matching $x$, $y$, and constant terms in $$15x + y = 13$$ and $$30x + 2y = 26$$. This gives $\\frac{30}{15}=\\frac{2}{1}=\\frac{26}{13}=2$."}, {"title": "Identify the answer", "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the coefficients",
+      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$15x + y = 13$$ and $$30x + 2y = 26$$. This gives $\\frac{30}{15}=\\frac{2}{1}=\\frac{26}{13}=2$."
+    },
+    {
+      "title": "Identify the answer",
+      "content": "All three ratios are equal, so the equations are equivalent — infinitely many solutions. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 13 - 15x",
+        "y = \\frac{26 - 30x}{2}"
+      ]
+    }
+  ]
+}

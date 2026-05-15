@@ -9,7 +9,8 @@
     },
     {
       "title": "Identify a from the non-zero solution",
-      "content": "We're given that one intersection is $(0, 0)$. The other intersection point is $(a, a)$, which corresponds to $x = 5$ from our factored solutions. Therefore, $a = 5$."
+      "content": "We're given that one intersection is $(0, 0)$. The other intersection point is $(a, a)$, which corresponds to $x = 5$ from our factored solutions. Therefore, $a = 5$.",
+      "desmosExpressions": ["y = 3x^2 - 14x", "y = x"]
     }
   ]
 }

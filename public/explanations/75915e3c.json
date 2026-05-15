@@ -9,7 +9,8 @@
     },
     {
       "title": "Evaluate the exponential and multiply",
-      "content": "Evaluate $3^2 = 9$. Then multiply: $$f(2) = 2 \\cdot 9 = 18$$ That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Evaluate $3^2 = 9$. Then multiply: $$f(2) = 2 \\cdot 9 = 18$$ That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["f(x)=2*3^x"]
     }
   ]
 }

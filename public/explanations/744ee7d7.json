@@ -13,7 +13,10 @@
     },
     {
       "title": "Write the inequality",
-      "content": "The shaded region represents all points where $y$ is greater than or equal to 36. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The shaded region represents all points where $y$ is greater than or equal to 36. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y \\ge 36"
+      ]
     }
   ]
 }

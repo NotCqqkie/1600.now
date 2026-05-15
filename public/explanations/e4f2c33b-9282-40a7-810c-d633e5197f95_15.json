@@ -9,7 +9,11 @@
     },
     {
       "title": "Simplify using exponent rules",
-      "content": "Use the property $a^{m+n} = a^m \\cdot a^n$ to split the exponent:<br/>$$g(x) = 7 \\cdot 4^{x+3} = 7 \\cdot 4^x \\cdot 4^3$$<br/>Calculate $4^3 = 64$:<br/>$$g(x) = 7 \\cdot 64 \\cdot 4^x = 448(4)^x$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Use the property $a^{m+n} = a^m \\cdot a^n$ to split the exponent:<br/>$$g(x) = 7 \\cdot 4^{x+3} = 7 \\cdot 4^x \\cdot 4^3$$<br/>Calculate $4^3 = 64$:<br/>$$g(x) = 7 \\cdot 64 \\cdot 4^x = 448(4)^x$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = 7 \\cdot 4^{x}",
+        "g(x) = 7 \\cdot 4^{x+3}"
+      ]
     }
   ]
 }

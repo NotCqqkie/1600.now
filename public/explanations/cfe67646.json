@@ -1,1 +1,20 @@
-{"questionId": "cfe67646", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Evaluate each coordinate against the inequality directions", "content": "At the point $(8, 2)$: the $x$-coordinate is $8$, which satisfies $x > 0$ (since $8 > 0$ is true). The $y$-coordinate is $2$, which satisfies $y > 0$ (since $2 > 0$ is true)."}, {"title": "Identify the matching system", "content": "We need both $x > 0$ and $y > 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "cfe67646",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each coordinate against the inequality directions",
+      "content": "At the point $(8, 2)$: the $x$-coordinate is $8$, which satisfies $x > 0$ (since $8 > 0$ is true). The $y$-coordinate is $2$, which satisfies $y > 0$ (since $2 > 0$ is true)."
+    },
+    {
+      "title": "Identify the matching system",
+      "content": "We need both $x > 0$ and $y > 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "x>0",
+        "y>0",
+        "(8,2)"
+      ]
+    }
+  ]
+}

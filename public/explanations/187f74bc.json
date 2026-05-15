@@ -13,7 +13,10 @@
     },
     {
       "title": "Solve for r",
-      "content": "From $\\frac{60}{r} = -4$, multiply both sides by $r$:<br/>$$60 = -4r$$<br/>Divide by $-4$:<br/>$$r = \\frac{60}{-4} = -15$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "From $\\frac{60}{r} = -4$, multiply both sides by $r$:<br/>$$60 = -4r$$<br/>Divide by $-4$:<br/>$$r = \\frac{60}{-4} = -15$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y > -4"
+      ]
     }
   ]
 }

@@ -9,7 +9,8 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$y = -6(3)^{x}$'</strong>: changes the base to an exponential and introduces a negative coefficient &mdash; not a translation of $y = 3x$. &#10007;</li><li><strong>Choice B &mdash; '$y = 3^{(x+6)}$'</strong>: rewrites $3x$ as an exponential $3^x$ and shifts the exponent &mdash; wrong function family entirely. &#10007;</li><li><strong>Choice C &mdash; '$y = 3x - 6$'</strong>: subtracts 6 from the output of $y = 3x$, shifting the line 6 units down. &#10003;</li><li><strong>Choice D &mdash; '$y = 3^{(x-6)}$'</strong>: same exponential-rewrite trap as B, just with a rightward shift in the exponent. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$y = -6(3)^{x}$'</strong>: changes the base to an exponential and introduces a negative coefficient &mdash; not a translation of $y = 3x$. &#10007;</li><li><strong>Choice B &mdash; '$y = 3^{(x+6)}$'</strong>: rewrites $3x$ as an exponential $3^x$ and shifts the exponent &mdash; wrong function family entirely. &#10007;</li><li><strong>Choice C &mdash; '$y = 3x - 6$'</strong>: subtracts 6 from the output of $y = 3x$, shifting the line 6 units down. &#10003;</li><li><strong>Choice D &mdash; '$y = 3^{(x-6)}$'</strong>: same exponential-rewrite trap as B, just with a rightward shift in the exponent. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = 3x", "y = 3x - 6"]
     }
   ]
 }

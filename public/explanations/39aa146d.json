@@ -1,16 +1,1 @@
-{
-  "questionId": "39aa146d",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the sign and points on the line",
-      "content": "The line goes up from left to right, so the slope is positive. This eliminates the negative choices A ($-2.27$) and B ($-0.44$). Reading from the scatterplot, the line passes through approximately $(0, 0.3)$ and $(5, 2.5)$."
-    },
-    {
-      "title": "Calculate the slope using rise over run",
-      "content": "$$m = \\frac{2.5 - 0.3}{5 - 0} = \\frac{2.2}{5} = 0.44$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
-    }
-  ]
-}
+{"questionId": "39aa146d", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the sign and points on the line", "content": "The line goes up from left to right, so the slope is positive. This eliminates the negative choices A ($-2.27$) and B ($-0.44$). Reading from the scatterplot, the line passes through approximately $(0, 0.3)$ and $(5, 2.5)$."}, {"title": "Calculate the slope using rise over run", "content": "$$m = \\frac{2.5 - 0.3}{5 - 0} = \\frac{2.2}{5} = 0.44$$<br/>That matches choice C — <strong>C</strong> is correct.", "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"}]}

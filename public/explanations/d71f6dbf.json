@@ -9,7 +9,8 @@
     },
     {
       "title": "Match to the correct choice",
-      "content": "Choice A states: <em>The height of the object 1.4 seconds after being thrown straight up in the air is 1.64 feet.</em><br/>This is exactly our interpretation from step 1.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Choice A states: <em>The height of the object 1.4 seconds after being thrown straight up in the air is 1.64 feet.</em><br/>This is exactly our interpretation from step 1.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["h(x)=-16x^2+20x+5"]
     }
   ]
 }

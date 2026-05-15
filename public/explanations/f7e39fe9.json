@@ -9,7 +9,8 @@
     },
     {
       "title": "Solve for m by isolating the variable",
-      "content": "Add 28 to both sides:<br/>$$82 + 28 = 10m$$<br/>$$110 = 10m$$<br/>Divide both sides by 10:<br/>$$m = 11$$"
+      "content": "Add 28 to both sides:<br/>$$82 + 28 = 10m$$<br/>$$110 = 10m$$<br/>Divide both sides by 10:<br/>$$m = 11$$",
+      "desmosExpressions": ["y=11x-28", "(10,82)", "(15,137)", "(20,192)", "(25,247)"]
     }
   ]
 }

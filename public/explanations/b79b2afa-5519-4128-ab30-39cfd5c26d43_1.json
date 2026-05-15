@@ -1,1 +1,19 @@
-{"questionId":"b79b2afa-5519-4128-ab30-39cfd5c26d43_1","correctAnswer":"A","section":"Math","steps":[{"title":"Plug the slope and point into $y=mx+b$","content":"With $m=-8$ and the point $(0,60)$: $$60=-8(0)+b=b.$$"},{"title":"Solve for $b$ and write the equation","content":"So $b=60$, giving $$y=-8x+60.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Plug the slope and point into $y=mx+b$",
+      "content": "With $m=-8$ and the point $(0,60)$: $$60=-8(0)+b=b.$$"
+    },
+    {
+      "title": "Solve for $b$ and write the equation",
+      "content": "So $b=60$, giving $$y=-8x+60.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = -8x + 60",
+        "(0, 60)"
+      ]
+    }
+  ]
+}

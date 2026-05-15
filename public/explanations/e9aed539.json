@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Read the vertex from the original graph",
-      "content": "The parabola shown opens upward with its vertex at the lowest point. From the graph, the vertex is located at <strong>(2, \u22122)</strong>."
+      "content": "The parabola shown opens upward with its vertex at the lowest point. From the graph, the vertex is located at <strong>(2, −2)</strong>."
     },
     {
       "title": "Translate the vertex up 4 units",
-      "content": "Translating up 4 units means adding 4 to the y-coordinate of every point. The vertex moves from (2, \u22122) to: $$x = 2, \\quad y = -2 + 4 = 2$$ The new vertex is at <strong>(2, 2)</strong>. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Translating up 4 units means adding 4 to the y-coordinate of every point. The vertex moves from (2, −2) to: $$x = 2, \\quad y = -2 + 4 = 2$$ The new vertex is at <strong>(2, 2)</strong>. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = (3/10)(x-2)^2 + 2",
+        "(2, 2)"
+      ]
     }
   ]
 }

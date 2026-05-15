@@ -9,7 +9,12 @@
     },
     {
       "title": "Find the x-intercept by setting y equals 0",
-      "content": "The x-intercept occurs where the line crosses the x-axis, which means $y = 0$. Substitute into the equation:<br/>$$0 = -6x + 48$$<br/>Solve for $x$:<br/>$$6x = 48$$<br/>$$x = 8$$<br/>The x-coordinate of the x-intercept is <strong>8</strong>."
+      "content": "The x-intercept occurs where the line crosses the x-axis, which means $y = 0$. Substitute into the equation:<br/>$$0 = -6x + 48$$<br/>Solve for $x$:<br/>$$6x = 48$$<br/>$$x = 8$$<br/>The x-coordinate of the x-intercept is <strong>8</strong>.",
+      "desmosExpressions": [
+        "y = -6x + 48",
+        "(0, 48)",
+        "(8, 0)"
+      ]
     }
   ]
 }

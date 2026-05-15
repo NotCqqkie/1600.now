@@ -1,1 +1,24 @@
-{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_14","correctAnswer":"300","section":"Math","steps":[{"title":"Set up","content":"The model is $f(t) = 8000(2)^{t/300}$. The population doubles when the exponential factor equals 2, which happens when the exponent equals 1: set $t/300 = 1$."},{"title":"Solve","content":"$t/300 = 1 \\Rightarrow t = 300$ minutes."},{"title":"Answer","content":"<strong>300</strong> is correct."}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_14",
+  "correctAnswer": "300",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The model is $f(t) = 8000(2)^{t/300}$. The population doubles when the exponential factor equals 2, which happens when the exponent equals 1: set $t/300 = 1$."
+    },
+    {
+      "title": "Solve",
+      "content": "$t/300 = 1 \\Rightarrow t = 300$ minutes."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>300</strong> is correct.",
+      "desmosExpressions": [
+        "y = 8000 \\cdot 2^{x/300}",
+        "(0, 8000)",
+        "(300, 16000)"
+      ]
+    }
+  ]
+}

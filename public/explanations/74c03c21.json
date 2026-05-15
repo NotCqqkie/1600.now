@@ -9,7 +9,8 @@
     },
     {
       "title": "Build the time equation and match the system",
-      "content": "The bus traveled for a total of 4 hours: $x$ hours on the highway plus $y$ hours on local roads. This gives:<br/>$$x + y = 4$$<br/>The system of equations is $55x + 25y = 160$ and $x + y = 4$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The bus traveled for a total of 4 hours: $x$ hours on the highway plus $y$ hours on local roads. This gives:<br/>$$x + y = 4$$<br/>The system of equations is $55x + 25y = 160$ and $x + y = 4$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = (160 - 55x)/25", "y = 4 - x"]
     }
   ]
 }

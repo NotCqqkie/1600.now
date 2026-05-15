@@ -1,1 +1,19 @@
-{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Substitute the value x = -6", "content": "Replace $x$ with $-6$ in $$h(x) = 7|x|.$$ This gives $$h(-6) = 7|-6|.$$"}, {"title": "Compute the result", "content": "Simplify: $$h(-6) = 7(6) = 42.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x = -6",
+      "content": "Replace $x$ with $-6$ in $$h(x) = 7|x|.$$ This gives $$h(-6) = 7|-6|.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$h(-6) = 7(6) = 42.$$ That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7|x|",
+        "(-6, 42)"
+      ]
+    }
+  ]
+}

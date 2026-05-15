@@ -1,1 +1,18 @@
-{"questionId": "128c75e2", "correctAnswer": "609", "section": "Math", "steps": [{"title": "Evaluate g(15a) and g(7a) using the sign constraint", "content": "Since $a < 0$, both $15a$ and $7a$ are negative. For negative numbers, $|x| = -x$, so:<br/>$$g(15a) = \\frac{|15a|}{a} - 14 = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$g(7a) = \\frac{|7a|}{a} - 14 = \\frac{-7a}{a} - 14 = -7 - 14 = -21$$"}, {"title": "Compute the product of the two values", "content": "$$g(15a) \\cdot g(7a) = (-29) \\cdot (-21) = 609$$"}]}
+{
+  "questionId": "128c75e2",
+  "correctAnswer": "609",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate g(15a) and g(7a) using the sign constraint",
+      "content": "Since $a < 0$, both $15a$ and $7a$ are negative. For negative numbers, $|x| = -x$, so:<br/>$$g(15a) = \\frac{|15a|}{a} - 14 = \\frac{-15a}{a} - 14 = -15 - 14 = -29$$<br/>$$g(7a) = \\frac{|7a|}{a} - 14 = \\frac{-7a}{a} - 14 = -7 - 14 = -21$$"
+    },
+    {
+      "title": "Compute the product of the two values",
+      "content": "$$g(15a) \\cdot g(7a) = (-29) \\cdot (-21) = 609$$",
+      "desmosExpressions": [
+        "g(x)=(|x|)/(a)-14"
+      ]
+    }
+  ]
+}

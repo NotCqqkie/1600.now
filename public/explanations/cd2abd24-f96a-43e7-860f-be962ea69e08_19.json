@@ -1,1 +1,19 @@
-{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_19", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "Factor the first equation: $x^{2}-y^{2}=(x-y)(x+y)$. Substitute $x-y=3$: $$3(x+y)=39.$$"}, {"title": "Find the value of $x + y$", "content": "Divide: $x+y=13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "Factor the first equation: $x^{2}-y^{2}=(x-y)(x+y)$. Substitute $x-y=3$: $$3(x+y)=39.$$"
+    },
+    {
+      "title": "Find the value of $x + y$",
+      "content": "Divide: $x+y=13$. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = x - 3",
+        "y = \\sqrt{x^2 - 39}"
+      ]
+    }
+  ]
+}

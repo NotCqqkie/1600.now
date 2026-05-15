@@ -4,12 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving \u2014 testing choice B (1)",
+      "title": "Backsolving — testing choice B (1)",
       "content": "Testing choice B: $$f(x)=1$$<br/>Then $$f(0)=1$$ and $$f(1)=1$$, but the problem states $$f(0)=17$$ and $$f(1)=17$$.<br/>Since the values do not match, choice B fails."
     },
     {
-      "title": "Backsolving \u2014 testing choice C (17)",
-      "content": "Testing choice C: $$f(x)=17$$<br/>Then $$f(0)=17$$ and $$f(1)=17$$, which exactly match the given conditions.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Backsolving — testing choice C (17)",
+      "content": "Testing choice C: $$f(x)=17$$<br/>Then $$f(0)=17$$ and $$f(1)=17$$, which exactly match the given conditions.<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=17", "(0,17)", "(1,17)"]
     }
   ]
 }

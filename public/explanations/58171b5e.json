@@ -13,7 +13,8 @@
     },
     {
       "title": "Determine if increasing or decreasing",
-      "content": "The base of the exponential is 1.0049, which is greater than 1. Multiplying by a number greater than 1 repeatedly produces larger values. This is an increasing exponential function. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The base of the exponential is 1.0049, which is greater than 1. Multiplying by a number greater than 1 repeatedly produces larger values. This is an increasing exponential function. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = (1.0049)^x"]
     }
   ]
 }

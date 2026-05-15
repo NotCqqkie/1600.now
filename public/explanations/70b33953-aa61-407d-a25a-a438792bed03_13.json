@@ -1,1 +1,23 @@
-{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_13", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up", "content": "Substitute x = &minus;4 into h(x) = 7|x|: $$h(-4) = 7|-4|$$"}, {"title": "Solve", "content": "$$h(-4) = 7(4) = 28$$"}, {"title": "Answer", "content": "<strong>D</strong> is correct."}]}
+{
+  "questionId": "70b33953-aa61-407d-a25a-a438792bed03_13",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "Substitute x = &minus;4 into h(x) = 7|x|: $$h(-4) = 7|-4|$$"
+    },
+    {
+      "title": "Solve",
+      "content": "$$h(-4) = 7(4) = 28$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7|x|",
+        "(-4, 28)"
+      ]
+    }
+  ]
+}

@@ -9,7 +9,8 @@
     },
     {
       "title": "Determine the y\u2011intercept and match to answer choices",
-      "content": "The y\u2011intercept is the d\u2011value when t=0, which from the point (0,84) is 84.<br/>Therefore the line of best fit is $$d = 33t + 84$$.<br/>Comparing with the choices, only choice D matches this equation.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The y\u2011intercept is the d\u2011value when t=0, which from the point (0,84) is 84.<br/>Therefore the line of best fit is $$d = 33t + 84$$.<br/>Comparing with the choices, only choice D matches this equation.<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["d = 33t + 84"]
     }
   ]
 }

@@ -9,7 +9,8 @@
     },
     {
       "title": "Write the equation",
-      "content": "With slope m = 6 and y-intercept b = 8, the equation is:<br/>$$y = 6x + 8$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "With slope m = 6 and y-intercept b = 8, the equation is:<br/>$$y = 6x + 8$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=6x+8", "(0,8)"]
     }
   ]
 }

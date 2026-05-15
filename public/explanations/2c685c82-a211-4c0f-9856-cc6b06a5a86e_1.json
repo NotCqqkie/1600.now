@@ -1,1 +1,19 @@
-{"questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Substitute the value x=0", "content": "The $y$-intercept occurs at $x=0$: $f(0)=6(0)-\\tfrac{1}{8}$."}, {"title": "Compute the y-intercept", "content": "$f(0)=-\\tfrac{1}{8}$, so the intercept is $(0,-\\tfrac{1}{8})$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the value x=0",
+      "content": "The $y$-intercept occurs at $x=0$: $f(0)=6(0)-\\tfrac{1}{8}$."
+    },
+    {
+      "title": "Compute the y-intercept",
+      "content": "$f(0)=-\\tfrac{1}{8}$, so the intercept is $(0,-\\tfrac{1}{8})$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 6x - \\frac{1}{8}",
+        "\\left(0, -\\frac{1}{8}\\right)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,21 @@
-{"questionId":"915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_16","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"The graph shows $y = f(x) + 2$. Reading the graph, as $x \\to -\\infty$ the curve approaches a horizontal asymptote at $y = 5$. Since $f(x) + 2$ has asymptote 5, $f(x)$ itself has asymptote $5 - 2 = 3$. Every answer choice has the form $f(x) = -3^{x} + c$; as $x \\to -\\infty$, $-3^{x} \\to 0$, so the asymptote equals $c$. We need $c = 3$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $f(x)=-3^{x}+1$</strong>: asymptote at $y = 1$, not 3. &#10007;</li><li><strong>Choice B &mdash; $f(x)=-3^{x}+3$</strong>: asymptote at $y = 3$. Check: $f(1) = -3 + 3 = 0$, so $f(1)+2 = 2$ &mdash; matches the graph. &#10003;</li><li><strong>Choice C &mdash; $f(x)=-3^{x}+4$</strong>: asymptote at $y = 4$, not 3. &#10007;</li><li><strong>Choice D &mdash; $f(x)=-3^{x}+5$</strong>: asymptote at $y = 5$, not 3. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The graph shows $y = f(x) + 2$. Reading the graph, as $x \\to -\\infty$ the curve approaches a horizontal asymptote at $y = 5$. Since $f(x) + 2$ has asymptote 5, $f(x)$ itself has asymptote $5 - 2 = 3$. Every answer choice has the form $f(x) = -3^{x} + c$; as $x \\to -\\infty$, $-3^{x} \\to 0$, so the asymptote equals $c$. We need $c = 3$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $f(x)=-3^{x}+1$</strong>: asymptote at $y = 1$, not 3. &#10007;</li><li><strong>Choice B &mdash; $f(x)=-3^{x}+3$</strong>: asymptote at $y = 3$. Check: $f(1) = -3 + 3 = 0$, so $f(1)+2 = 2$ &mdash; matches the graph. &#10003;</li><li><strong>Choice C &mdash; $f(x)=-3^{x}+4$</strong>: asymptote at $y = 4$, not 3. &#10007;</li><li><strong>Choice D &mdash; $f(x)=-3^{x}+5$</strong>: asymptote at $y = 5$, not 3. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = -3^{x} + 1",
+        "y = -3^{x} + 3",
+        "y = -3^{x} + 4",
+        "y = -3^{x} + 5"
+      ]
+    }
+  ]
+}

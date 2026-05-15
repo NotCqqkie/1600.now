@@ -1,1 +1,19 @@
-{"questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_11", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Add the equations to eliminate y", "content": "The $y$ coefficients are opposites ($+1$ and $-1$), so adding the equations eliminates $y$:<br/>$$(x + y) + (x - y) = 19 + 9$$<br/>$$2x = 28$$"}, {"title": "Solve for x", "content": "Divide both sides by 2:<br/>$$x = 14$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_11",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations to eliminate y",
+      "content": "The $y$ coefficients are opposites ($+1$ and $-1$), so adding the equations eliminates $y$:<br/>$$(x + y) + (x - y) = 19 + 9$$<br/>$$2x = 28$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide both sides by 2:<br/>$$x = 14$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 19 - x",
+        "y = x - 9"
+      ]
+    }
+  ]
+}

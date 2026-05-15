@@ -1,1 +1,19 @@
-{"questionId":"10c690aa-0aad-48ab-952b-855b2555b311_6","correctAnswer":"B","section":"Math","steps":[{"title":"Identify what the question needs","content":"A linear function $g(x) = mx + b$ where $m$ is the daily weight gain and $b$ is the starting weight. The goat weighs 5 pounds at birth ($x = 0$) and gains $\\frac{1}{4}$ pound per day, so $m = \\frac{1}{4}$ and $b = 5$."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; $g(x) = \\frac{1}{4}x - 5$</strong>: slope is correct but $b = -5$, meaning the goat weighed $-5$ pounds at birth. &#10007;</li><li><strong>Choice B &mdash; $g(x) = \\frac{1}{4}x + 5$</strong>: slope $\\frac{1}{4}$ matches the daily gain and $b = 5$ matches the birth weight. &#10003;</li><li><strong>Choice C &mdash; $g(x) = -\\frac{1}{4}x - 5$</strong>: negative slope means the goat is losing weight every day, and the intercept is negative. Both wrong. &#10007;</li><li><strong>Choice D &mdash; $g(x) = -\\frac{1}{4}x + 5$</strong>: intercept is correct but the negative slope means the goat loses $\\frac{1}{4}$ pound per day instead of gaining it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
+{
+  "questionId": "10c690aa-0aad-48ab-952b-855b2555b311_6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "A linear function $g(x) = mx + b$ where $m$ is the daily weight gain and $b$ is the starting weight. The goat weighs 5 pounds at birth ($x = 0$) and gains $\\frac{1}{4}$ pound per day, so $m = \\frac{1}{4}$ and $b = 5$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; $g(x) = \\frac{1}{4}x - 5$</strong>: slope is correct but $b = -5$, meaning the goat weighed $-5$ pounds at birth. &#10007;</li><li><strong>Choice B &mdash; $g(x) = \\frac{1}{4}x + 5$</strong>: slope $\\frac{1}{4}$ matches the daily gain and $b = 5$ matches the birth weight. &#10003;</li><li><strong>Choice C &mdash; $g(x) = -\\frac{1}{4}x - 5$</strong>: negative slope means the goat is losing weight every day, and the intercept is negative. Both wrong. &#10007;</li><li><strong>Choice D &mdash; $g(x) = -\\frac{1}{4}x + 5$</strong>: intercept is correct but the negative slope means the goat loses $\\frac{1}{4}$ pound per day instead of gaining it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = \\frac{1}{4}x + 5 \\{0 \\leq x \\leq 90\\}",
+        "(0, 5)"
+      ]
+    }
+  ]
+}

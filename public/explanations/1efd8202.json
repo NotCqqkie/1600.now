@@ -9,7 +9,8 @@
     },
     {
       "title": "Verify with x = 2",
-      "content": "Plug $x = 2$ into $y = 70x + 8$:<br/>$$y = 70(2) + 8 = 140 + 8 = 148$$<br/>Choice A shows $y = 148$ when $x = 2$, matching our result. Choice D shows $y = 132$, which doesn't match.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Plug $x = 2$ into $y = 70x + 8$:<br/>$$y = 70(2) + 8 = 140 + 8 = 148$$<br/>Choice A shows $y = 148$ when $x = 2$, matching our result. Choice D shows $y = 132$, which doesn't match.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=70x+8"]
     }
   ]
 }

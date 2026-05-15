@@ -9,7 +9,8 @@
     },
     {
       "title": "Find the value $8x + 7y$",
-      "content": "Therefore $8x + 7y = 0 + 3 = 3$. The answer is <strong>3</strong>."
+      "content": "Therefore $8x + 7y = 0 + 3 = 3$. The answer is <strong>3</strong>.",
+      "desmosExpressions": ["y = (12 - 16x)/28", "y = (12 + 16x)/28"]
     }
   ]
 }

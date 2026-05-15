@@ -9,7 +9,8 @@
     },
     {
       "title": "Simplify the exponent using the product rule",
-      "content": "Use the exponent rule $(4)^{x+2} = (4)^x \\cdot (4)^2$. Since $(4)^2 = 16$: $$g(x) = 9 \\cdot (4)^x \\cdot 16 = 144(4)^x$$ That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Use the exponent rule $(4)^{x+2} = (4)^x \\cdot (4)^2$. Since $(4)^2 = 16$: $$g(x) = 9 \\cdot (4)^x \\cdot 16 = 144(4)^x$$ That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["f(x)=9((4))^(x)", "g(x)=f(x+2)"]
     }
   ]
 }

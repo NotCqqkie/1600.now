@@ -1,1 +1,19 @@
-{"questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Solve the system by substitution", "content": "From $10x = 110$, $x = 11$. Substitute into $8x - 86 = y$."}, {"title": "Find $y$", "content": "$y = 8(11) - 86 = 88 - 86 = 2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "From $10x = 110$, $x = 11$. Substitute into $8x - 86 = y$."
+    },
+    {
+      "title": "Find $y$",
+      "content": "$y = 8(11) - 86 = 88 - 86 = 2$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x = 11",
+        "y = 8x - 86"
+      ]
+    }
+  ]
+}

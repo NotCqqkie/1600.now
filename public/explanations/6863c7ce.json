@@ -9,7 +9,8 @@
     },
     {
       "title": "Interpret the coefficient as a rate",
-      "content": "The coefficient 16 means: when $t$ increases by 1 second, $d$ increases by 16 inches. Since $d$ is distance in inches and $t$ is time in seconds, the rate of change is 16 inches per second\u2014the speed at which the object is moving. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The coefficient 16 means: when $t$ increases by 1 second, $d$ increases by 16 inches. Since $d$ is distance in inches and $t$ is time in seconds, the rate of change is 16 inches per second—the speed at which the object is moving. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=16x"]
     }
   ]
 }

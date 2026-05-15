@@ -1,1 +1,22 @@
-{"questionId": "18e35375", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the roots", "content": "$f(x) = (x-14)(x+19) = 0$ has roots $x = 14$ and $x = -19$."}, {"title": "Apply the new function definition", "content": "A product of two factors $(x-14)(x+19)$ is a parabola opening upward with vertex midway between the roots."}, {"title": "Compute the answer", "content": "The minimum occurs at $x = \\frac{14 + (-19)}{2} = \\frac{-5}{2} = -2.5$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "18e35375",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the roots",
+      "content": "$f(x) = (x-14)(x+19) = 0$ has roots $x = 14$ and $x = -19$."
+    },
+    {
+      "title": "Apply the new function definition",
+      "content": "A product of two factors $(x-14)(x+19)$ is a parabola opening upward with vertex midway between the roots."
+    },
+    {
+      "title": "Compute the answer",
+      "content": "The minimum occurs at $x = \\frac{14 + (-19)}{2} = \\frac{-5}{2} = -2.5$. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=(x-14)(x+19)"
+      ]
+    }
+  ]
+}

@@ -13,7 +13,8 @@
     },
     {
       "title": "Solve for w using x = 136",
-      "content": "Substituting $x = 136$ into $x + 17w = 357$:<br/>$$136 + 17w = 357$$<br/>$$17w = 221$$<br/>$$w = 13$$"
+      "content": "Substituting $x = 136$ into $x + 17w = 357$:<br/>$$136 + 17w = 357$$<br/>$$17w = 221$$<br/>$$w = 13$$",
+      "desmosExpressions": ["y = \\frac{357 - x}{13}", "y = \\frac{2x - 51}{13}"]
     }
   ]
 }

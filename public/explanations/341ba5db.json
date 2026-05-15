@@ -1,1 +1,22 @@
-{"questionId":"341ba5db","correctAnswer":"B","section":"Math","steps":[{"title":"Use the vertex formula","content":"$g(x)=x^2+55$ is an upward parabola with vertex at $x=0$."},{"title":"Substitute to find $g(0)$","content":"$$g(0) = 0 + 55 = 55.$$"},{"title":"State the minimum","content":"The minimum value is $55$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "341ba5db",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertex formula",
+      "content": "$g(x)=x^2+55$ is an upward parabola with vertex at $x=0$."
+    },
+    {
+      "title": "Substitute to find $g(0)$",
+      "content": "$$g(0) = 0 + 55 = 55.$$"
+    },
+    {
+      "title": "State the minimum",
+      "content": "The minimum value is $55$. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "g(x)=(x)^(2)+55"
+      ]
+    }
+  ]
+}

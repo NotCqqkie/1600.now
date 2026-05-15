@@ -10,7 +10,8 @@
     },
     {
       "title": "Substitute the given center and radius",
-      "content": "From the problem, the center is $(14, 19)$ and the radius is $7k$.<br/><br/>Substituting into the standard form:<br/>$(x - 14)^2 + (y - 19)^2 = (7k)^2 = 49k^2$<br/><br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "From the problem, the center is $(14, 19)$ and the radius is $7k$.<br/><br/>Substituting into the standard form:<br/>$(x - 14)^2 + (y - 19)^2 = (7k)^2 = 49k^2$<br/><br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["(x-14)^2 + (y-19)^2 = 49", "(14, 19)"]
     }
   ]
 }

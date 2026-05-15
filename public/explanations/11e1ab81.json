@@ -9,7 +9,10 @@
     },
     {
       "title": "Write the linear equation",
-      "content": "The line passes through the origin (y-intercept = 0) with slope 2, so the equation is $d = 2m$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The line passes through the origin (y-intercept = 0) with slope 2, so the equation is $d = 2m$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y=2x"
+      ]
     }
   ]
 }

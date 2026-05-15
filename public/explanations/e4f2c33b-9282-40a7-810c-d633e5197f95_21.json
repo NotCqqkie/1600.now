@@ -13,7 +13,11 @@
     },
     {
       "title": "Solve for m when h(m) = 0",
-      "content": "For $h(m) = 0$, we need $m^2 - 169m + 334 = 0$. Using the quadratic formula:<br/>$$m = \\frac{169 \\pm \\sqrt{169^2 - 4(334)}}{2} = \\frac{169 \\pm \\sqrt{28561 - 1336}}{2}$$<br/>$$m = \\frac{169 \\pm \\sqrt{27225}}{2} = \\frac{169 \\pm 165}{2}$$<br/>The two roots are $m = 167$ and $m = 2$. The greatest possible value of $m$ is <strong>167</strong>."
+      "content": "For $h(m) = 0$, we need $m^2 - 169m + 334 = 0$. Using the quadratic formula:<br/>$$m = \\frac{169 \\pm \\sqrt{169^2 - 4(334)}}{2} = \\frac{169 \\pm \\sqrt{28561 - 1336}}{2}$$<br/>$$m = \\frac{169 \\pm \\sqrt{27225}}{2} = \\frac{169 \\pm 165}{2}$$<br/>The two roots are $m = 167$ and $m = 2$. The greatest possible value of $m$ is <strong>167</strong>.",
+      "desmosExpressions": [
+        "h(x) = -\\sqrt{x^2 + bx + c}",
+        "h(x) = -\\sqrt{x^2 - 167x + 334}"
+      ]
     }
   ]
 }

@@ -9,7 +9,8 @@
     },
     {
       "title": "Find y-intercept and match to a choice",
-      "content": "Substitute the slope $m = 5$ and point $(1, 11)$ into $y = mx + b$:<br/>$$11 = 5(1) + b$$<br/>$$b = 6$$<br/>The equation is $y = 5x + 6$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Substitute the slope $m = 5$ and point $(1, 11)$ into $y = mx + b$:<br/>$$11 = 5(1) + b$$<br/>$$b = 6$$<br/>The equation is $y = 5x + 6$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=5x+6"]
     }
   ]
 }

@@ -10,7 +10,8 @@
     },
     {
       "title": "Apply the shift to f(x)",
-      "content": "We're shifting $f(x) = 3x^5$ up by 9 units, so: $$g(x) = f(x) + 9 = 3x^5 + 9$$ That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "We're shifting $f(x) = 3x^5$ up by 9 units, so: $$g(x) = f(x) + 9 = 3x^5 + 9$$ That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = 3x^{5}", "y = 3x^{5} + 9"]
     }
   ]
 }

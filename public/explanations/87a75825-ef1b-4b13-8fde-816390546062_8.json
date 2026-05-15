@@ -13,7 +13,8 @@
     },
     {
       "title": "Answer",
-      "content": "<strong>A</strong> is correct."
+      "content": "<strong>A</strong> is correct.",
+      "desmosExpressions": ["y = -14x + 238 \\{0 \\leq x \\leq 17\\}", "(0, 238)"]
     }
   ]
 }

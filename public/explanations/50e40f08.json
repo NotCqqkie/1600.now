@@ -1,1 +1,18 @@
-{"questionId": "50e40f08", "correctAnswer": "-6", "section": "Math", "steps": [{"title": "Identify x-intercepts as solutions to f(x) = 0", "content": "An x-intercept occurs where the graph crosses the x-axis, meaning where $y = 0$. Set the function equal to zero: $$0 = (x+6)(x-4)$$"}, {"title": "Apply the zero product property", "content": "The function is already factored. By the zero product property, if a product equals zero, at least one factor must equal zero.<br/><br/>Set each factor to zero: $$x + 6 = 0 \\quad \\text{or} \\quad x - 4 = 0$$ Solving: $$x = -6 \\quad \\text{or} \\quad x = 4$$ The x-intercepts are at $x = -6$ and $x = 4$, so the x-coordinate of an x-intercept is $-6$."}]}
+{
+  "questionId": "50e40f08",
+  "correctAnswer": "-6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify x-intercepts as solutions to f(x) = 0",
+      "content": "An x-intercept occurs where the graph crosses the x-axis, meaning where $y = 0$. Set the function equal to zero: $$0 = (x+6)(x-4)$$"
+    },
+    {
+      "title": "Apply the zero product property",
+      "content": "The function is already factored. By the zero product property, if a product equals zero, at least one factor must equal zero.<br/><br/>Set each factor to zero: $$x + 6 = 0 \\quad \\text{or} \\quad x - 4 = 0$$ Solving: $$x = -6 \\quad \\text{or} \\quad x = 4$$ The x-intercepts are at $x = -6$ and $x = 4$, so the x-coordinate of an x-intercept is $-6$.",
+      "desmosExpressions": [
+        "f(x)=(x+6)(x-4)"
+      ]
+    }
+  ]
+}

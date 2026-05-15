@@ -10,7 +10,12 @@
     },
     {
       "title": "Apply the discriminant condition and solve for a",
-      "content": "For the quadratic $x^2 + 8x + (a + 1.5) = 0$ to have exactly one real solution, set the discriminant to zero:<br/>$$8^2 - 4(1)(a + 1.5) = 0$$<br/>$$64 - 4a - 6 = 0$$<br/>$$58 = 4a$$<br/>$$a = 14.5$$"
+      "content": "For the quadratic $x^2 + 8x + (a + 1.5) = 0$ to have exactly one real solution, set the discriminant to zero:<br/>$$8^2 - 4(1)(a + 1.5) = 0$$<br/>$$64 - 4a - 6 = 0$$<br/>$$58 = 4a$$<br/>$$a = 14.5$$",
+      "desmosExpressions": [
+        "y = -1.5",
+        "y = x^2 + 8x + a",
+        "a = 14.5"
+      ]
     }
   ]
 }

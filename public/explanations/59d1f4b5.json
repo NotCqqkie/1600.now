@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute the time conversion into the original equation",
-      "content": "Replace $t$ with $\\frac{q}{4}$ in $M = 1800 \\times 1.02^t$: <br/> $$M = 1800 \\times 1.02^{\\frac{q}{4}}$$ <br/> This matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Replace $t$ with $\\frac{q}{4}$ in $M = 1800 \\times 1.02^t$: <br/> $$M = 1800 \\times 1.02^{\\frac{q}{4}}$$ <br/> This matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["M=1800*1.02^t"]
     }
   ]
 }

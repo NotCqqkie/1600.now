@@ -9,7 +9,8 @@
     },
     {
       "title": "Determine what 33 represents in context",
-      "content": "Since 33 is the value of $f(x)$ when $x = 0$ (the start of the project), the number 33 represents the estimated height of the liquid at the start. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since 33 is the value of $f(x)$ when $x = 0$ (the start of the project), the number 33 represents the estimated height of the liquid at the start. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=33-0.18x"]
     }
   ]
 }

@@ -1,1 +1,20 @@
-{"questionId":"b79b2afa-5519-4128-ab30-39cfd5c26d43_16","correctAnswer":"B","section":"Math","steps":[{"title":"Identify the doubling time parameter","content":"In $f(t)=30{,}000(2)^{t/370}$, the population doubles when the exponent equals $1$, i.e. when $t/370=1$."},{"title":"Apply to interpret the doubling time","content":"That gives $t=370$ minutes. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "questionId": "b79b2afa-5519-4128-ab30-39cfd5c26d43_16",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the doubling time parameter",
+      "content": "In $f(t)=30{,}000(2)^{t/370}$, the population doubles when the exponent equals $1$, i.e. when $t/370=1$."
+    },
+    {
+      "title": "Apply to interpret the doubling time",
+      "content": "That gives $t=370$ minutes. That matches choice <strong>B</strong> — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 30000 \\cdot 2^{x/370}",
+        "(0, 30000)",
+        "(370, 60000)"
+      ]
+    }
+  ]
+}

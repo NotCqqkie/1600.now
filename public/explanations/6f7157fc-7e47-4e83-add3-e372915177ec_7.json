@@ -9,7 +9,8 @@
     },
     {
       "title": "Expand and solve for x\u00b2",
-      "content": "Expand the right side:<br/>$$(x+2)^2 = x^2 + 4x + 4$$<br/>So the equation becomes:<br/>$$4x + 12 = x^2 + 4x + 4$$<br/>Subtract $4x$ from both sides:<br/>$$12 = x^2 + 4$$<br/>Subtract 4 from both sides:<br/>$$x^2 = 8$$"
+      "content": "Expand the right side:<br/>$$(x+2)^2 = x^2 + 4x + 4$$<br/>So the equation becomes:<br/>$$4x + 12 = x^2 + 4x + 4$$<br/>Subtract $4x$ from both sides:<br/>$$12 = x^2 + 4$$<br/>Subtract 4 from both sides:<br/>$$x^2 = 8$$",
+      "desmosExpressions": ["y = 4x + 12", "y = (x + 2)^2"]
     }
   ]
 }

@@ -9,7 +9,10 @@
     },
     {
       "title": "Simplify to find the function",
-      "content": "Expand and combine like terms:<br/>$$f(n) = 550 + 14n - 350 = 14n + 200$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Expand and combine like terms:<br/>$$f(n) = 550 + 14n - 350 = 14n + 200$$<br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 14x + 200 \\{x \\geq 25\\}"
+      ]
     }
   ]
 }

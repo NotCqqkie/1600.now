@@ -10,7 +10,8 @@
     },
     {
       "title": "Find the x-intercept by setting y = 0",
-      "content": "At the $x$-intercept, $y = 0$. Substitute into the equation: $$0 = 5x - 35$$ <br/>Add 35 to both sides: $$5x = 35$$ <br/>Divide both sides by 5: $$x = 7$$ <br/>The $x$-coordinate of the $x$-intercept is 7."
+      "content": "At the $x$-intercept, $y = 0$. Substitute into the equation: $$0 = 5x - 35$$ <br/>Add 35 to both sides: $$5x = 35$$ <br/>Divide both sides by 5: $$x = 7$$ <br/>The $x$-coordinate of the $x$-intercept is 7.",
+      "desmosExpressions": ["y=5x-35", "(0,-35)"]
     }
   ]
 }

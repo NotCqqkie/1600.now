@@ -9,7 +9,8 @@
     },
     {
       "title": "Calculate the result",
-      "content": "Compute $0.67 \\times 46 = 30.82$. Then add: $y = 30.82 + 2.6 = 33.42$. The value 33.42 is closest to 33 among the choices. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Compute $0.67 \\times 46 = 30.82$. Then add: $y = 30.82 + 2.6 = 33.42$. The value 33.42 is closest to 33 among the choices. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = 0.67x + 2.6 \\{20 \\leq x \\leq 110\\}", "(46, 33.42)"]
     }
   ]
 }

@@ -1,1 +1,19 @@
-{"questionId":"c9417793","correctAnswer":"18","section":"Math","steps":[{"title":"Solve the equation","content":"Subtract 45: $|x-9|=18$. So $x-9=18$ or $x-9=-18$, giving $x=27$ or $x=-9$."},{"title":"Sum the solutions","content":"Add: $27+(-9)=18$. (Shortcut: $|x-a|=b$ gives sum $2a=18$.)<br/><br/>The answer is <strong>18</strong>."}]}
+{
+  "questionId": "c9417793",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Subtract 45: $|x-9|=18$. So $x-9=18$ or $x-9=-18$, giving $x=27$ or $x=-9$."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "Add: $27+(-9)=18$. (Shortcut: $|x-a|=b$ gives sum $2a=18$.)<br/><br/>The answer is <strong>18</strong>.",
+      "desmosExpressions": [
+        "y = |x - 9| + 45",
+        "y = 63"
+      ]
+    }
+  ]
+}

@@ -9,7 +9,10 @@
     },
     {
       "title": "Write the total equation",
-      "content": "The sum of all segments equals the 70-minute video:<br/>$$x + 3y = 70$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The sum of all segments equals the 70-minute video:<br/>$$x + 3y = 70$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x+3y=70"
+      ]
     }
   ]
 }

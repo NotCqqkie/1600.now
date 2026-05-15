@@ -1,15 +1,1 @@
-{
-  "questionId": "661dfddd",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the direction of the line of best fit",
-      "content": "The line of best fit runs from the upper left of the plot (low elevation around 6000 ft, high temperature around 44\u00b0F) down to the lower right (high elevation around 9000 ft, low temperature around 38\u00b0F). This shows the line has a negative slope."
-    },
-    {
-      "title": "Interpret the association",
-      "content": "A negative slope means that as elevation increases (moving right on the x-axis), the temperature decreases (moving down on the y-axis). Therefore, as the elevation increases, the temperature tends to decrease. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "661dfddd", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the direction of the line of best fit", "content": "The line of best fit runs from the upper left of the plot (low elevation around 6000 ft, high temperature around 44°F) down to the lower right (high elevation around 9000 ft, low temperature around 38°F). This shows the line has a negative slope."}, {"title": "Interpret the association", "content": "A negative slope means that as elevation increases (moving right on the x-axis), the temperature decreases (moving down on the y-axis). Therefore, as the elevation increases, the temperature tends to decrease. That matches choice B — <strong>B</strong> is correct."}]}

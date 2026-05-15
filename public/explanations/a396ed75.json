@@ -1,1 +1,19 @@
-{"questionId": "a396ed75", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the rate-distance relationship", "content": "Juan's rate is 5.7 minutes per mile. For x miles, we multiply rate by distance to get total time. This is a linear function with slope 5.7.", "formula": "$$m(x) = 5.7x$$"}, {"title": "Verify with a test value", "content": "For x = 1 mile:<br/>$$m(1) = 5.7 \\times 1 = 5.7$$<br/>This equals the given rate of 5.7 minutes per mile. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "a396ed75",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the rate-distance relationship",
+      "content": "Juan's rate is 5.7 minutes per mile. For x miles, we multiply rate by distance to get total time. This is a linear function with slope 5.7.",
+      "formula": "$$m(x) = 5.7x$$"
+    },
+    {
+      "title": "Verify with a test value",
+      "content": "For x = 1 mile:<br/>$$m(1) = 5.7 \\times 1 = 5.7$$<br/>This equals the given rate of 5.7 minutes per mile. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=5.7x"
+      ]
+    }
+  ]
+}

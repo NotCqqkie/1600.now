@@ -13,7 +13,8 @@
     },
     {
       "title": "Determine which choice is possible for a + b",
-      "content": "Calculate $a + b$: $$a + b = a + (-4a) = -3a$$ Since $a$ is an integer greater than 1, $a + b = -3a$ is negative. Testing values: when $a = 2$, $a + b = -6$; when $a = 3$, $a + b = -9$. Only $-6$ appears in the choices. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Calculate $a + b$: $$a + b = a + (-4a) = -3a$$ Since $a$ is an integer greater than 1, $a + b = -3a$ is negative. Testing values: when $a = 2$, $a + b = -6$; when $a = 3$, $a + b = -9$. Only $-6$ appears in the choices. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["f(x)=a(x)^(2)+bx+c"]
     }
   ]
 }

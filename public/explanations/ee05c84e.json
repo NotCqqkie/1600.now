@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute x = 20 and calculate",
-      "content": "$$f(20) = 1.25(20)(50 - 20)$$<br/>Evaluate each part:<ul><li>$1.25 \\times 20 = 25$</li><li>$50 - 20 = 30$</li></ul>Then multiply:<br/>$$f(20) = 25 \\times 30 = 750$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "$$f(20) = 1.25(20)(50 - 20)$$<br/>Evaluate each part:<ul><li>$1.25 \\times 20 = 25$</li><li>$50 - 20 = 30$</li></ul>Then multiply:<br/>$$f(20) = 25 \\times 30 = 750$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["f(x)=(x+0.25x)(50-x)"]
     }
   ]
 }

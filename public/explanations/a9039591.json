@@ -9,8 +9,14 @@
     },
     {
       "title": "Calculate the slope and write the equation",
-      "content": "Using consecutive rows from the table, the slope is $$m = \\frac{f(1) - f(0)}{1 - 0} = \\frac{32 - 29}{1} = 3$$<br/>With $m = 3$ and $b = 29$, the function is $f(x) = 3x + 29$. That matches choice A \u2014 <strong>A</strong> is correct.",
-      "formula": "$$f(x) = mx + b$$"
+      "content": "Using consecutive rows from the table, the slope is $$m = \\frac{f(1) - f(0)}{1 - 0} = \\frac{32 - 29}{1} = 3$$<br/>With $m = 3$ and $b = 29$, the function is $f(x) = 3x + 29$. That matches choice A — <strong>A</strong> is correct.",
+      "formula": "$$f(x) = mx + b$$",
+      "desmosExpressions": [
+        "y=3x+29",
+        "(0,29)",
+        "(1,32)",
+        "(2,35)"
+      ]
     }
   ]
 }

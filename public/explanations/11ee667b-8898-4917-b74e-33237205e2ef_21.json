@@ -13,7 +13,10 @@
     },
     {
       "title": "Substitute $x = 3$ to find the $y$-coordinate",
-      "content": "Plug $x = 3$ into the equation of line $l$:<br/>$$y - 9 = -\\frac{1}{m}(3 - 2)$$$$y - 9 = -\\frac{1}{m}$$$$y = 9 - \\frac{1}{m}$$<br/>The point that lies on line $l$ is $\\left(3, 9 - \\frac{1}{m}\\right)$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Plug $x = 3$ into the equation of line $l$:<br/>$$y - 9 = -\\frac{1}{m}(3 - 2)$$$$y - 9 = -\\frac{1}{m}$$$$y = 9 - \\frac{1}{m}$$<br/>The point that lies on line $l$ is $\\left(3, 9 - \\frac{1}{m}\\right)$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "(2, 9)"
+      ]
     }
   ]
 }

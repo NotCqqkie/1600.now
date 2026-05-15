@@ -11,7 +11,8 @@
     {
       "title": "Find the y-intercept and write the equation",
       "content": "Substitute point $(2, 3)$ and slope $m = \\frac{1}{2}$:<br/>$$3 = \\frac{1}{2}(2) + b$$<br/>$$3 = 1 + b$$<br/>$$b = 2$$<br/>So the equation is $f(x) = \\frac{1}{2}x + 2$. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$y = mx + b$$"
+      "formula": "$$y = mx + b$$",
+      "desmosExpressions": ["y = \\frac{1}{2}x + 2", "(2, 3)", "(6, 5)"]
     }
   ]
 }

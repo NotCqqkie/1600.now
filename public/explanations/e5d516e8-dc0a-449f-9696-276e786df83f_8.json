@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Identify the linear function form",
-      "content": "Interpret the equation $$ f(x)=8x+4 $$ as slope\u2011intercept form $$ y=mx+b $$.<br/>Here the slope $ m=8 $ means the tree grows 8 feet each year, and the y\u2011intercept $ b=4 $ gives the height when $ x=0 $, i.e., at the first measurement."
+      "content": "Interpret the equation $$ f(x)=8x+4 $$ as slope‑intercept form $$ y=mx+b $$.<br/>Here the slope $ m=8 $ means the tree grows 8 feet each year, and the y‑intercept $ b=4 $ gives the height when $ x=0 $, i.e., at the first measurement."
     },
     {
       "title": "Evaluate at x=0 to find initial height",
-      "content": "Substitute $ x=0 $ into the function:<br/>$$ f(0)=8\\cdot0+4=4 $$<br/>Thus the estimated height at the time of first measurement is 4 feet.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substitute $ x=0 $ into the function:<br/>$$ f(0)=8\\cdot0+4=4 $$<br/>Thus the estimated height at the time of first measurement is 4 feet.<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 8x + 4",
+        "(0, 4)"
+      ]
     }
   ]
 }

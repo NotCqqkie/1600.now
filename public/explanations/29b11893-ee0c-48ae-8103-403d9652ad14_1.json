@@ -13,7 +13,8 @@
     },
     {
       "title": "Calculate the slope using two points",
-      "content": "Reading from the graph, the line passes through (0, -1) and (8, -6). Using the slope formula:<br/>$$m = \\frac{-6 - (-1)}{8 - 0} = \\frac{-5}{8} = -\\frac{5}{8}$$<br/>The equation is $f(x) = -\\frac{5}{8}x - 1$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Reading from the graph, the line passes through (0, -1) and (8, -6). Using the slope formula:<br/>$$m = \\frac{-6 - (-1)}{8 - 0} = \\frac{-5}{8} = -\\frac{5}{8}$$<br/>The equation is $f(x) = -\\frac{5}{8}x - 1$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{5}{8}x - 1", "y = \\frac{8}{5}x - 1", "y = -\\frac{5}{8}x - 1", "y = -\\frac{8}{5}x - 1"]
     }
   ]
 }

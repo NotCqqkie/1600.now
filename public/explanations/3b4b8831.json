@@ -9,7 +9,11 @@
     },
     {
       "title": "Take square roots to find both solutions",
-      "content": "Taking the square root of both sides:<br/>$$x = \\pm\\sqrt{9} = \\pm 3$$<br/>The two solutions are $x = 3$ and $x = -3$. The negative solution is $x = -3$."
+      "content": "Taking the square root of both sides:<br/>$$x = \\pm\\sqrt{9} = \\pm 3$$<br/>The two solutions are $x = 3$ and $x = -3$. The negative solution is $x = -3$.",
+      "desmosExpressions": [
+        "y = 38x^2",
+        "y = 38 \\cdot 9"
+      ]
     }
   ]
 }

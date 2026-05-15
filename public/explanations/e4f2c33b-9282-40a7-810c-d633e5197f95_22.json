@@ -9,7 +9,8 @@
     },
     {
       "title": "Build the function for x \u2265 2",
-      "content": "The total cost for $x$ hours is the fixed \\$160 charge plus \\$50 per additional hour beyond 2:<br/>$$f(x) = 160 + 50(x - 2)$$<br/>Simplify to standard form:<br/>$$f(x) = 50x + 60$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The total cost for $x$ hours is the fixed \\$160 charge plus \\$50 per additional hour beyond 2:<br/>$$f(x) = 160 + 50(x - 2)$$<br/>Simplify to standard form:<br/>$$f(x) = 50x + 60$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = 50x + 60 \\{x \\geq 2\\}", "(6, 360)"]
     }
   ]
 }

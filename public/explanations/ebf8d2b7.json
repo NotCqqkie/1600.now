@@ -8,8 +8,9 @@
       "content": "Let <em>x</em> be the number of large boxes and <em>y</em> be the number of small boxes.<br/>Each large box takes 10 minutes, so the time spent on large boxes is <em>10x</em> minutes.<br/>Each small box takes 5 minutes, so the time spent on small boxes is <em>5y</em> minutes.<br/>The machine works exactly 700 minutes per day, giving:<br/>$$10x + 5y = 700$$"
     },
     {
-      "title": "Backsolving \u2014 testing choice B",
-      "content": "Backsolving \u2014 testing choice B (10x+5y=700):<br/>The expression <em>10x+5y</em> calculates the total minutes used: <em>10x</em> for large boxes plus <em>5y</em> for small boxes.<br/>This matches the daily limit of 700 minutes, so the equation holds.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Backsolving — testing choice B",
+      "content": "Backsolving — testing choice B (10x+5y=700):<br/>The expression <em>10x+5y</em> calculates the total minutes used: <em>10x</em> for large boxes plus <em>5y</em> for small boxes.<br/>This matches the daily limit of 700 minutes, so the equation holds.<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["10x+5y=700"]
     }
   ]
 }

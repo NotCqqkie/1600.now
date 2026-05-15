@@ -1,1 +1,25 @@
-{"questionId":"4bcfe385-9d5d-411a-981d-c41179df51f6_17","correctAnswer":"A","section":"Math","steps":[{"title":"Read the graphed line","content":"The line shown is $y=f(x)+13$. Using points $(-3,8)$ and $(1,4)$, the slope is $-1$ and the equation is $y=-x+5$."},{"title":"Solve for $f(x)$","content":"Subtract $13$ from both sides: $$f(x)=-x+5-13=-x-8.$$"},{"title":"Match to the form with positive $c,d$","content":"Rewrite as $f(x)=-8-1\\cdot x=-d-cx$ with $d=8,\\ c=1$ (both positive). That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graphed line",
+      "content": "The line shown is $y=f(x)+13$. Using points $(-3,8)$ and $(1,4)$, the slope is $-1$ and the equation is $y=-x+5$."
+    },
+    {
+      "title": "Solve for $f(x)$",
+      "content": "Subtract $13$ from both sides: $$f(x)=-x+5-13=-x-8.$$"
+    },
+    {
+      "title": "Match to the form with positive $c,d$",
+      "content": "Rewrite as $f(x)=-8-1\\cdot x=-d-cx$ with $d=8,\\ c=1$ (both positive). That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = -d - cx",
+        "y = d - cx",
+        "y = d + cx",
+        "y = -d + cx"
+      ]
+    }
+  ]
+}

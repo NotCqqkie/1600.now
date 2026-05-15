@@ -8,12 +8,16 @@
       "content": "A point is a solution if it satisfies both $y \\le x + 15$ and $y \\ge -4x - 15$. Substitute each choice's coordinates into both inequalities."
     },
     {
-      "title": "Backsolving \u2014 checking choice B (0, 16)",
-      "content": "Backsolving \u2014 testing choice B (0, 16): Check $16 \\le 0 + 15 = 15$. False \u2014 B is eliminated.<br/> Fails. Testing choice C (0, -16): Check $-16 \\le 0 + 15 = 15$ (true). Check $-16 \\ge -4(0) - 15 = -15$ (false). C is eliminated."
+      "title": "Backsolving — checking choice B (0, 16)",
+      "content": "Backsolving — testing choice B (0, 16): Check $16 \\le 0 + 15 = 15$. False — B is eliminated.<br/> Fails. Testing choice C (0, -16): Check $-16 \\le 0 + 15 = 15$ (true). Check $-16 \\ge -4(0) - 15 = -15$ (false). C is eliminated."
     },
     {
-      "title": "Backsolving \u2014 checking choice A (-7, 0)",
-      "content": "Fails. Testing choice A (-7, 0): Check $0 \\le -7 + 15 = 8$ (true). Check $0 \\ge -4(-7) - 15 = 28 - 15 = 13$ (false). A is eliminated.<br/> Fails. Testing choice D (7, 0): Check $0 \\le 7 + 15 = 22$ (true). Check $0 \\ge -4(7) - 15 = -28 - 15 = -43$ (true). Both inequalities are satisfied. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Backsolving — checking choice A (-7, 0)",
+      "content": "Fails. Testing choice A (-7, 0): Check $0 \\le -7 + 15 = 8$ (true). Check $0 \\ge -4(-7) - 15 = 28 - 15 = 13$ (false). A is eliminated.<br/> Fails. Testing choice D (7, 0): Check $0 \\le 7 + 15 = 22$ (true). Check $0 \\ge -4(7) - 15 = -28 - 15 = -43$ (true). Both inequalities are satisfied. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 15",
+        "y = -4x - 15"
+      ]
     }
   ]
 }

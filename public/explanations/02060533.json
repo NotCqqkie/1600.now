@@ -13,7 +13,11 @@
     },
     {
       "title": "Calculate the y-intercept",
-      "content": "From $b = 9m = 9(4) = 36$, we have $f(x) = 4x + 36$, so $f(0) = 36$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "From $b = 9m = 9(4) = 36$, we have $f(x) = 4x + 36$, so $f(0) = 36$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = a \\cdot b^{x}",
+        "(0, 36)"
+      ]
     }
   ]
 }

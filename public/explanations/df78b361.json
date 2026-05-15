@@ -1,1 +1,22 @@
-{"questionId": "df78b361", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Interpret the equation as breaking down the total jam", "content": "The equation $4x + 6y = 36$ represents how 36 cups of jam are distributed. Since $x$ is the number of small containers and $y$ is the number of large containers, the terms $4x$ and $6y$ must each represent amounts of jam in cups, not container counts."}, {"title": "Decode what each coefficient represents", "content": "In $4x$: the coefficient 4 represents cups per small container.<br/><br/>Multiplying by $x$ (the number of small containers) gives the total cups in small containers.<br/><br/>In $6y$: the coefficient 6 represents cups per large container.<br/><br/>Multiplying by $y$ (the number of large containers) gives the total cups in large containers."}, {"title": "Identify what 6y represents", "content": "$6y$ represents (6 cups per large container) times (the number of large containers), which is the total cups of jam in the large containers. That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "df78b361",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the equation as breaking down the total jam",
+      "content": "The equation $4x + 6y = 36$ represents how 36 cups of jam are distributed. Since $x$ is the number of small containers and $y$ is the number of large containers, the terms $4x$ and $6y$ must each represent amounts of jam in cups, not container counts."
+    },
+    {
+      "title": "Decode what each coefficient represents",
+      "content": "In $4x$: the coefficient 4 represents cups per small container.<br/><br/>Multiplying by $x$ (the number of small containers) gives the total cups in small containers.<br/><br/>In $6y$: the coefficient 6 represents cups per large container.<br/><br/>Multiplying by $y$ (the number of large containers) gives the total cups in large containers."
+    },
+    {
+      "title": "Identify what 6y represents",
+      "content": "$6y$ represents (6 cups per large container) times (the number of large containers), which is the total cups of jam in the large containers. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "4x+6y=36"
+      ]
+    }
+  ]
+}

@@ -9,7 +9,8 @@
     },
     {
       "title": "Solve and match to choices",
-      "content": "Taking the square root:<br/>$$x = \\pm 2$$<br/>Among the choices (1, 2, 3, 4), the solution $x = 2$ appears. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Taking the square root:<br/>$$x = \\pm 2$$<br/>Among the choices (1, 2, 3, 4), the solution $x = 2$ appears. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = 2x^2 - 4", "y = x^2"]
     }
   ]
 }

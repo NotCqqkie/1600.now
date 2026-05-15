@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute x into the second equation to find y",
-      "content": "The second equation is $y = x - 8$. Substitute $x = 5$:<br/>$$y = 5 - 8 = -3$$<br/>The solution to the system is $(5, -3)$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The second equation is $y = x - 8$. Substitute $x = 5$:<br/>$$y = 5 - 8 = -3$$<br/>The solution to the system is $(5, -3)$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["x = 5", "y = x - 8"]
     }
   ]
 }

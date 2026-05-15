@@ -1,1 +1,25 @@
-{"questionId": "48fb34c8", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the inequality test", "content": "Test each $(x, y)$ pair against $y > 13x - 18$."}, {"title": "Test each table", "content": "For each table, compute $13x - 18$ and verify $y > 13x - 18$ for every row."}, {"title": "Identify the table", "content": "Only choice D's pairs all satisfy the inequality. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "48fb34c8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality test",
+      "content": "Test each $(x, y)$ pair against $y > 13x - 18$."
+    },
+    {
+      "title": "Test each table",
+      "content": "For each table, compute $13x - 18$ and verify $y > 13x - 18$ for every row."
+    },
+    {
+      "title": "Identify the table",
+      "content": "Only choice D's pairs all satisfy the inequality. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y>13x-18",
+        "(3,26)",
+        "(5,52)",
+        "(8,91)"
+      ]
+    }
+  ]
+}

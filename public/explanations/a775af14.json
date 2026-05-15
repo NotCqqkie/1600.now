@@ -10,7 +10,8 @@
     },
     {
       "title": "Write the linear equation",
-      "content": "The point $(0, 2)$ tells us the y-intercept is $b = 2$. With slope $m = 4$:<br/>\n$$f(x) = 4x + 2$$<br/>\nThat matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The point $(0, 2)$ tells us the y-intercept is $b = 2$. With slope $m = 4$:<br/>\n$$f(x) = 4x + 2$$<br/>\nThat matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=4x+2", "(0,2)", "(8,34)"]
     }
   ]
 }

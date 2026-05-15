@@ -10,7 +10,8 @@
     },
     {
       "title": "Substitute and simplify",
-      "content": "$$m = \\frac{12 - 3}{7 - 5} = \\frac{9}{2} = 4.5$$<br/>The slope is <strong>4.5</strong>."
+      "content": "$$m = \\frac{12 - 3}{7 - 5} = \\frac{9}{2} = 4.5$$<br/>The slope is <strong>4.5</strong>.",
+      "desmosExpressions": ["y = 4.5x - 19.5", "(5, 3)", "(7, 12)"]
     }
   ]
 }

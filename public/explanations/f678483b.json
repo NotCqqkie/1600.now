@@ -1,1 +1,22 @@
-{"questionId": "f678483b", "correctAnswer": "35", "section": "Math", "steps": [{"title": "Recognize that the surface is at zero depth", "content": "The submersible reaches the ocean surface when its depth equals 0 meters. We need to solve $g(x) = 0$ to find when this occurs."}, {"title": "Read zeros directly from the factored form", "content": "The function is already given in factored form: $$g(x) = -\\frac{1}{55}(x+19)(x-35)$$ The constant factor $-\\frac{1}{55}$ is nonzero, so $g(x) = 0$ requires $(x+19)(x-35) = 0$. The zeros are immediate: $x = -19$ or $x = 35$."}, {"title": "Apply the domain constraint", "content": "Since $x > 0$ (minutes after collecting the sample), the solution $x = -19$ is impossible in this context. The only valid time is $x = 35$ minutes, when the device reaches the surface. The answer is <strong>35</strong>."}]}
+{
+  "questionId": "f678483b",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize that the surface is at zero depth",
+      "content": "The submersible reaches the ocean surface when its depth equals 0 meters. We need to solve $g(x) = 0$ to find when this occurs."
+    },
+    {
+      "title": "Read zeros directly from the factored form",
+      "content": "The function is already given in factored form: $$g(x) = -\\frac{1}{55}(x+19)(x-35)$$ The constant factor $-\\frac{1}{55}$ is nonzero, so $g(x) = 0$ requires $(x+19)(x-35) = 0$. The zeros are immediate: $x = -19$ or $x = 35$."
+    },
+    {
+      "title": "Apply the domain constraint",
+      "content": "Since $x > 0$ (minutes after collecting the sample), the solution $x = -19$ is impossible in this context. The only valid time is $x = 35$ minutes, when the device reaches the surface. The answer is <strong>35</strong>.",
+      "desmosExpressions": [
+        "g(x)=-(1)/(55)(x+19)(x-35)"
+      ]
+    }
+  ]
+}

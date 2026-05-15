@@ -1,1 +1,18 @@
-{"questionId": "f76c1858", "correctAnswer": "4", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Factor the quadratic: $$(7x+8)(x-4)=0.$$ The roots are $x=-\\tfrac{8}{7}$ and $x=4$."}, {"title": "Identify the positive solution", "content": "Take the positive root. The answer is <strong>4</strong>."}]}
+{
+  "questionId": "f76c1858",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Factor the quadratic: $$(7x+8)(x-4)=0.$$ The roots are $x=-\\tfrac{8}{7}$ and $x=4$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "Take the positive root. The answer is <strong>4</strong>.",
+      "desmosExpressions": [
+        "y = 7x^2 - 20x - 32"
+      ]
+    }
+  ]
+}

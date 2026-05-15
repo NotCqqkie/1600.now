@@ -13,7 +13,8 @@
     },
     {
       "title": "Match to answer choice form",
-      "content": "Rewrite the first equation by multiplying by $-1$: $8x + 10y = 64$ becomes $-8x - 10y = -64$.<br/>The system is:<br/>$$4x + 10y = 32$$<br/>$$-8x - 10y = -64$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Rewrite the first equation by multiplying by $-1$: $8x + 10y = 64$ becomes $-8x - 10y = -64$.<br/>The system is:<br/>$$4x + 10y = 32$$<br/>$$-8x - 10y = -64$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = (32 - 4x)/10", "y = (-64 + 8x)/(-10)"]
     }
   ]
 }

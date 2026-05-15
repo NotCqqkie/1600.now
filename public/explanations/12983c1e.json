@@ -1,1 +1,18 @@
-{"questionId": "12983c1e", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Table lookup", "content": "The table shows that when $x = 0$, $f(x) = 1$."}, {"title": "Backsolving using point (0,1)", "content": "Backsolving — testing choice B (3x+2):<br/>Plugging $x = 0$ gives $3(0)+2 = 2$, which does not equal the table value $1$.<br/>Fails. Testing choice C (4x+1):<br/>Plugging $x = 0$ gives $4(0)+1 = 1$, which matches the table value.<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "12983c1e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Table lookup",
+      "content": "The table shows that when $x = 0$, $f(x) = 1$."
+    },
+    {
+      "title": "Backsolving using point (0,1)",
+      "content": "Backsolving — testing choice B (3x+2):<br/>Plugging $x = 0$ gives $3(0)+2 = 2$, which does not equal the table value $1$.<br/>Fails. Testing choice C (4x+1):<br/>Plugging $x = 0$ gives $4(0)+1 = 1$, which matches the table value.<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y=4x+1"
+      ]
+    }
+  ]
+}

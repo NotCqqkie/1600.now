@@ -13,7 +13,8 @@
     },
     {
       "title": "Evaluate the parabola at x = 1",
-      "content": "Using vertex form $y = a(x - 9)^2 - 14$, at $x = 1$:<br/>$$y(1) = a(1 - 9)^2 - 14 = 64a - 14$$Since $a > 0$, we have $y(1) > -14$. Among the choices, only $-12 > -14$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Using vertex form $y = a(x - 9)^2 - 14$, at $x = 1$:<br/>$$y(1) = a(1 - 9)^2 - 14 = 64a - 14$$Since $a > 0$, we have $y(1) > -14$. Among the choices, only $-12 > -14$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y=a(x)^(2)+bx+c"]
     }
   ]
 }

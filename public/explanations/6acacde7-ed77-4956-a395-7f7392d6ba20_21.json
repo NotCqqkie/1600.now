@@ -14,7 +14,11 @@
     },
     {
       "title": "Find the least integer value of b",
-      "content": "Since $b$ must be an integer with $-26 < b < 26$, the possible integer values are $-25, -24, \\ldots, 24, 25$. The least (smallest) of these is $b = -25$."
+      "content": "Since $b$ must be an integer with $-26 < b < 26$, the possible integer values are $-25, -24, \\ldots, 24, 25$. The least (smallest) of these is $b = -25$.",
+      "desmosExpressions": [
+        "y = -x^{2} + bx - 169",
+        "b = -25"
+      ]
     }
   ]
 }

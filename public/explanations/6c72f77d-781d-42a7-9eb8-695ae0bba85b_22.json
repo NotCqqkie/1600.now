@@ -9,7 +9,8 @@
     },
     {
       "title": "Test the parametrizations by substitution",
-      "content": "A parametrization works for all $r$ if substituting its coordinates into $7x + 4y = 3$ always yields 3. <br/><br/> Backsolving \u2014 testing choice B ($\\left(-\\frac{4r}{7}+\\frac{3}{7}, r\\right)$): <br/> $$7\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right) + 4(r) = -4r + 3 + 4r = 3$$ <br/> This simplifies to 3 for every $r$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "A parametrization works for all $r$ if substituting its coordinates into $7x + 4y = 3$ always yields 3. <br/><br/> Backsolving \u2014 testing choice B ($\\left(-\\frac{4r}{7}+\\frac{3}{7}, r\\right)$): <br/> $$7\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right) + 4(r) = -4r + 3 + 4r = 3$$ <br/> This simplifies to 3 for every $r$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{3 - 7x}{4}", "y = \\frac{15 - 35x}{20}"]
     }
   ]
 }

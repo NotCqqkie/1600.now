@@ -9,7 +9,8 @@
     },
     {
       "title": "Extract the unit price of the smaller container",
-      "content": "Since $x$ represents the number of smaller containers sold, the coefficient 5.48 paired with $x$ must be the price of each smaller container. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since $x$ represents the number of smaller containers sold, the coefficient 5.48 paired with $x$ must be the price of each smaller container. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["5.48x+7.30y=1277.94"]
     }
   ]
 }

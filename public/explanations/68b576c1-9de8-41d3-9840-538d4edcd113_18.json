@@ -10,7 +10,8 @@
     {
       "title": "Build the exponential function",
       "content": "With initial value 174,000 and growth factor 1.024, the exponential function is $f(x) = 174,000(1.024)^x$. This matches choice C \u2014 <strong>C</strong> is correct.",
-      "formula": "$$f(x) = a \\cdot b^x$$"
+      "formula": "$$f(x) = a \\cdot b^x$$",
+      "desmosExpressions": ["f(x) = 174000 \\cdot 1.024^{x}"]
     }
   ]
 }

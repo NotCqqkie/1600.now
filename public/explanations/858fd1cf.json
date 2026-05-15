@@ -13,7 +13,8 @@
     },
     {
       "title": "Backsolve the answer choices",
-      "content": "Substitute each choice into $y = \\frac{6}{5}x - 10$:<br/><br/>Backsolving \u2014 testing choice A $(0, \\frac{6}{5})$: $\\frac{6}{5} = \\frac{6}{5}(0) - 10 = -10$? No. Fails.<br/><br/>Backsolving \u2014 testing choice B $(4, 7)$: $7 = \\frac{6}{5}(4) - 10 = \\frac{24}{5} - 10 = -\\frac{26}{5}$? No. Fails.<br/><br/>Backsolving \u2014 testing choice C $(10, 2)$: $2 = \\frac{6}{5}(10) - 10 = 12 - 10 = 2$? Yes. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Substitute each choice into $y = \\frac{6}{5}x - 10$:<br/><br/>Backsolving \u2014 testing choice A $(0, \\frac{6}{5})$: $\\frac{6}{5} = \\frac{6}{5}(0) - 10 = -10$? No. Fails.<br/><br/>Backsolving \u2014 testing choice B $(4, 7)$: $7 = \\frac{6}{5}(4) - 10 = \\frac{24}{5} - 10 = -\\frac{26}{5}$? No. Fails.<br/><br/>Backsolving \u2014 testing choice C $(10, 2)$: $2 = \\frac{6}{5}(10) - 10 = 12 - 10 = 2$? Yes. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["(x+1)^2 + (y-1)^2 = 61", "(-1,1)", "(5,-4)", "y - (-4) = (6/5)(x - 5)"]
     }
   ]
 }

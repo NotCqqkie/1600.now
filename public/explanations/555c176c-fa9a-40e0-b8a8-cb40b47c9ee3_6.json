@@ -9,7 +9,10 @@
     },
     {
       "title": "Identify the function type and behavior",
-      "content": "The function $f(x) = 2.93x$ is a linear function because it has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$. (Exponential functions have the form $f(x) = ab^x$.)<br/><br/>For the direction: the slope $m = 2.93$ is positive. A positive slope means as $x$ increases, $f(x)$ increases, so the function is <strong>increasing</strong>.<br/><br/>Combining both: linear and increasing. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The function $f(x) = 2.93x$ is a linear function because it has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$. (Exponential functions have the form $f(x) = ab^x$.)<br/><br/>For the direction: the slope $m = 2.93$ is positive. A positive slope means as $x$ increases, $f(x)$ increases, so the function is <strong>increasing</strong>.<br/><br/>Combining both: linear and increasing. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 2.93x"
+      ]
     }
   ]
 }

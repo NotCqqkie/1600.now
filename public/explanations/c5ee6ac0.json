@@ -9,7 +9,8 @@
     },
     {
       "title": "Find the y-intercept",
-      "content": "The line crosses the $y$-axis at $y \\approx 3.4$. Since the $y$-intercept is positive, choice B (with intercept $\u22123.4$) is eliminated. With slope 1 and $y$-intercept 3.4, the equation is $$y = x + 3.4$$ That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The line crosses the $y$-axis at $y \\approx 3.4$. Since the $y$-intercept is positive, choice B (with intercept $\u22123.4$) is eliminated. With slope 1 and $y$-intercept 3.4, the equation is $$y = x + 3.4$$ That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = x + 3.4"]
     }
   ]
 }

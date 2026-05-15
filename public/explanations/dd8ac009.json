@@ -9,7 +9,8 @@
     },
     {
       "title": "Write the equation and identify the choice",
-      "content": "The exponential equation is:<br/>$$d = 670(1+0.006)^t$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "The exponential equation is:<br/>$$d = 670(1+0.006)^t$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["d=670((1+0.006))^(t)"]
     }
   ]
 }

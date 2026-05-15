@@ -13,7 +13,8 @@
     },
     {
       "title": "Backsolving — testing choice A (y = 3x + 0.8):",
-      "content": "Check multiple points:<ul><li>At $x = 1$: $y = 3(1) + 0.8 = 3.8$; actual data $\\approx 4$ ✓</li><li>At $x = 4$: $y = 3(4) + 0.8 = 12.8$; actual data $\\approx 14$ ✓</li><li>At $x = 8$: $y = 3(8) + 0.8 = 24.8$; actual data $\\approx 26$ ✓</li></ul>Choice A consistently fits the data across the range. That matches choice A — <strong>A</strong> is correct."
+      "content": "Check multiple points:<ul><li>At $x = 1$: $y = 3(1) + 0.8 = 3.8$; actual data $\\approx 4$ ✓</li><li>At $x = 4$: $y = 3(4) + 0.8 = 12.8$; actual data $\\approx 14$ ✓</li><li>At $x = 8$: $y = 3(8) + 0.8 = 24.8$; actual data $\\approx 26$ ✓</li></ul>Choice A consistently fits the data across the range. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = 3x + 0.8"]
     }
   ]
 }

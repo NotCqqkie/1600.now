@@ -1,1 +1,19 @@
-{"questionId":"8c664e9f-dbfe-430d-92f7-13f0ba1d5978_3","correctAnswer":"3","section":"Math","steps":[{"title":"Solve the system by elimination","content":"Multiply the second equation by $2$ to get $0.7x+1.4y=4.9$. Subtract the first equation: $$(0.7x+1.4y)-(0.7x+0.35y)=4.9-1.75,$$ giving $1.05y=3.15$."},{"title":"Find $y$","content":"Divide: $$y=\\frac{3.15}{1.05}=3.$$ The answer is <strong>3</strong>."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_3",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by elimination",
+      "content": "Multiply the second equation by $2$ to get $0.7x+1.4y=4.9$. Subtract the first equation: $$(0.7x+1.4y)-(0.7x+0.35y)=4.9-1.75,$$ giving $1.05y=3.15$."
+    },
+    {
+      "title": "Find $y$",
+      "content": "Divide: $$y=\\frac{3.15}{1.05}=3.$$ The answer is <strong>3</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{1.75 - 0.7x}{0.35}",
+        "y = \\frac{2.45 - 0.35x}{0.7}"
+      ]
+    }
+  ]
+}

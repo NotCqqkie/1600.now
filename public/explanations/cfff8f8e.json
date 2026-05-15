@@ -1,1 +1,18 @@
-{"questionId": "cfff8f8e", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Trace the subscriber growth pattern", "content": "Start with 53 subscribers. Each day, the number doubles (multiplies by 2):<br/>$$\\text{Day 0 (posting): } n = 53$$<br/>$$\\text{Day 1: } n = 53 \\times 2$$<br/>$$\\text{Day 2: } n = 53 \\times 2 \\times 2 = 53 \\cdot 2^2$$<br/>The pattern shows that after $d$ days:<br/>$$n = 53 \\cdot 2^d$$"}, {"title": "Match the formula to the choices", "content": "The equation $n = 53 \\cdot 2^d$ is equivalent to $n = 53(2)^d$. This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "cfff8f8e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Trace the subscriber growth pattern",
+      "content": "Start with 53 subscribers. Each day, the number doubles (multiplies by 2):<br/>$$\\text{Day 0 (posting): } n = 53$$<br/>$$\\text{Day 1: } n = 53 \\times 2$$<br/>$$\\text{Day 2: } n = 53 \\times 2 \\times 2 = 53 \\cdot 2^2$$<br/>The pattern shows that after $d$ days:<br/>$$n = 53 \\cdot 2^d$$"
+    },
+    {
+      "title": "Match the formula to the choices",
+      "content": "The equation $n = 53 \\cdot 2^d$ is equivalent to $n = 53(2)^d$. This matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "n=53((2))^(d)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,23 @@
-{"questionId": "208626df", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Interpret the ordered pair notation", "content": "The notation $(l,w) = (8,3)$ assigns the first coordinate to $l$ and the second to $w$. Therefore $l = 8$ (length) and $w = 3$ (width). This immediately eliminates choices A and C, which incorrectly state length = 3 and width = 8."}, {"title": "Verify the inequality constraint", "content": "The inequality $2l + 2w \\le 27$ represents the perimeter condition.<br/><br/>Substituting $l = 8$ and $w = 3$:\n$$2(8) + 2(3) = 16 + 6 = 22$$\nSince $22 \\le 27$, the point $(8,3)$ satisfies the inequality, meaning the perimeter is less than or equal to 27 (not greater than or equal to).<br/><br/>This eliminates choice D."}, {"title": "Confirm the correct interpretation", "content": "Choice B states: <em>If the rectangle has length 8 and width 3, its perimeter is less than or equal to 27.</em> This correctly matches both the ordered pair assignment ($l=8, w=3$) and the inequality direction ($\\le 27$). That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "208626df",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the ordered pair notation",
+      "content": "The notation $(l,w) = (8,3)$ assigns the first coordinate to $l$ and the second to $w$. Therefore $l = 8$ (length) and $w = 3$ (width). This immediately eliminates choices A and C, which incorrectly state length = 3 and width = 8."
+    },
+    {
+      "title": "Verify the inequality constraint",
+      "content": "The inequality $2l + 2w \\le 27$ represents the perimeter condition.<br/><br/>Substituting $l = 8$ and $w = 3$:\n$$2(8) + 2(3) = 16 + 6 = 22$$\nSince $22 \\le 27$, the point $(8,3)$ satisfies the inequality, meaning the perimeter is less than or equal to 27 (not greater than or equal to).<br/><br/>This eliminates choice D."
+    },
+    {
+      "title": "Confirm the correct interpretation",
+      "content": "Choice B states: <em>If the rectangle has length 8 and width 3, its perimeter is less than or equal to 27.</em> This correctly matches both the ordered pair assignment ($l=8, w=3$) and the inequality direction ($\\le 27$). That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "2x+2y \\le 27",
+        "(8,3)"
+      ]
+    }
+  ]
+}

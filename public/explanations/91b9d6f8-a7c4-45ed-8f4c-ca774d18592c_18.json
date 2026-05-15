@@ -13,7 +13,11 @@
     },
     {
       "title": "Calculate the product and find g(0)",
-      "content": "Multiply the factors step by step:<br/>$$(-8)(-5) = 40$$<br/>$$40 \\cdot (-3) = -120$$<br/>So $f(0) = -120$. Therefore:<br/>$$g(0) = f(0) + 3 = -120 + 3 = -117$$"
+      "content": "Multiply the factors step by step:<br/>$$(-8)(-5) = 40$$<br/>$$40 \\cdot (-3) = -120$$<br/>So $f(0) = -120$. Therefore:<br/>$$g(0) = f(0) + 3 = -120 + 3 = -117$$",
+      "desmosExpressions": [
+        "y = (x-8)(x-5)(x-3)",
+        "y = (x-8)(x-5)(x-3) + 3"
+      ]
     }
   ]
 }

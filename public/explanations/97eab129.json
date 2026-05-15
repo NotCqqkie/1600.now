@@ -9,7 +9,8 @@
     },
     {
       "title": "Verify consistency and identify the equation",
-      "content": "Check the ratio for the remaining rows:<br/>Second row: $\\frac{6,804}{3,780} = 1.8$ \u2713<br/>Third row: $\\frac{9,072}{5,040} = 1.8$ \u2713<br/><br/>The constant ratio is 1.8 for all data points, so $f(x) = 1.8x$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Check the ratio for the remaining rows:<br/>Second row: $\\frac{6,804}{3,780} = 1.8$ \u2713<br/>Third row: $\\frac{9,072}{5,040} = 1.8$ \u2713<br/><br/>The constant ratio is 1.8 for all data points, so $f(x) = 1.8x$. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y=1.8x"]
     }
   ]
 }

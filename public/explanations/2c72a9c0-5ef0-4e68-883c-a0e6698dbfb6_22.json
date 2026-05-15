@@ -1,1 +1,22 @@
-{"questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22", "correctAnswer": "86.5,173/2", "section": "Math", "steps": [{"title": "Set up coordinates using perpendicular chords", "content": "Since $AC \\perp BE$ and they intersect at $D$, place $D$ at the origin with $AC$ along the x-axis and $BE$ along the y-axis. Let $AD = x$ and $CD = y$. Then:<ul><li>$A = (-x, 0)$</li><li>$C = (y, 0)$</li><li>$B = (0, \\sqrt{346})$ (since $BD = \\sqrt{346}$)</li><li>$E = (0, -z)$ for some $z > 0$</li></ul>By the intersecting chords theorem: $AD \\cdot CD = BD \\cdot DE$, so $xy = \\sqrt{346} \\cdot z$, giving $z = \\frac{xy}{\\sqrt{346}}$."}, {"title": "Find the circle's center using perpendicular bisectors", "content": "All four points lie on a circle with radius $\\frac{175}{2} = 87.5$. The center lies on the perpendicular bisector of each chord:<ul><li>Perpendicular bisector of $AC$ (horizontal chord): vertical line at $x = \\frac{y-x}{2}$, so $h = \\frac{y-x}{2}$</li><li>Perpendicular bisector of $BE$ (vertical chord): horizontal line at $y = \\frac{\\sqrt{346}-z}{2}$, so $k = \\frac{\\sqrt{346}-z}{2}$</li></ul>Substituting $z = \\frac{xy}{\\sqrt{346}}$ into the expression for $k$: $$k = \\frac{\\sqrt{346} - \\frac{xy}{\\sqrt{346}}}{2} = \\frac{346 - xy}{2\\sqrt{346}}$$"}, {"title": "Apply circle equation to derive constraint on ratio", "content": "Use point $A = (-x, 0)$ in the circle equation $(X-h)^2 + (Y-k)^2 = 87.5^2$:<br/>$$\\left(-x - \\frac{y-x}{2}\\right)^2 + \\left(\\frac{346-xy}{2\\sqrt{346}}\\right)^2 = 7656.25$$<br/>Simplifying the left side: $\\left(-\\frac{x+y}{2}\\right)^2 + \\frac{(346-xy)^2}{4 \\cdot 346} = 7656.25$<br/>Multiply by $1384 = 4 \\cdot 346$:<br/>$$346(x+y)^2 + (346-xy)^2 = 346 \\cdot 30625$$<br/>Let $t$ satisfy $x = 2t$, $y = 173t$ (which gives ratio $r = \\frac{y}{x} = \\frac{173}{2}$). Then $x+y = 175t$, so:<br/>$$346(175t)^2 + (346 - 346t^2)^2 = 346 \\cdot 30625$$<br/>$$30625t^2 + 346(1-t^2)^2 = 30625$$<br/>Expanding: $346t^4 + 29933t^2 - 30279 = 0$. Testing $t=1$: $346 + 29933 - 30279 = 0$ ✓<br/>So $x = 2$, $y = 173$, and $r = \\frac{173}{2}$ — <strong>173/2</strong> is correct.<br/>The answer is <strong>86.5,173/2</strong>."}]}
+{
+  "questionId": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22",
+  "correctAnswer": "86.5,173/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up coordinates using perpendicular chords",
+      "content": "Since $AC \\perp BE$ and they intersect at $D$, place $D$ at the origin with $AC$ along the x-axis and $BE$ along the y-axis. Let $AD = x$ and $CD = y$. Then:<ul><li>$A = (-x, 0)$</li><li>$C = (y, 0)$</li><li>$B = (0, \\sqrt{346})$ (since $BD = \\sqrt{346}$)</li><li>$E = (0, -z)$ for some $z > 0$</li></ul>By the intersecting chords theorem: $AD \\cdot CD = BD \\cdot DE$, so $xy = \\sqrt{346} \\cdot z$, giving $z = \\frac{xy}{\\sqrt{346}}$."
+    },
+    {
+      "title": "Find the circle's center using perpendicular bisectors",
+      "content": "All four points lie on a circle with radius $\\frac{175}{2} = 87.5$. The center lies on the perpendicular bisector of each chord:<ul><li>Perpendicular bisector of $AC$ (horizontal chord): vertical line at $x = \\frac{y-x}{2}$, so $h = \\frac{y-x}{2}$</li><li>Perpendicular bisector of $BE$ (vertical chord): horizontal line at $y = \\frac{\\sqrt{346}-z}{2}$, so $k = \\frac{\\sqrt{346}-z}{2}$</li></ul>Substituting $z = \\frac{xy}{\\sqrt{346}}$ into the expression for $k$: $$k = \\frac{\\sqrt{346} - \\frac{xy}{\\sqrt{346}}}{2} = \\frac{346 - xy}{2\\sqrt{346}}$$"
+    },
+    {
+      "title": "Apply circle equation to derive constraint on ratio",
+      "content": "Use point $A = (-x, 0)$ in the circle equation $(X-h)^2 + (Y-k)^2 = 87.5^2$:<br/>$$\\left(-x - \\frac{y-x}{2}\\right)^2 + \\left(\\frac{346-xy}{2\\sqrt{346}}\\right)^2 = 7656.25$$<br/>Simplifying the left side: $\\left(-\\frac{x+y}{2}\\right)^2 + \\frac{(346-xy)^2}{4 \\cdot 346} = 7656.25$<br/>Multiply by $1384 = 4 \\cdot 346$:<br/>$$346(x+y)^2 + (346-xy)^2 = 346 \\cdot 30625$$<br/>Let $t$ satisfy $x = 2t$, $y = 173t$ (which gives ratio $r = \\frac{y}{x} = \\frac{173}{2}$). Then $x+y = 175t$, so:<br/>$$346(175t)^2 + (346 - 346t^2)^2 = 346 \\cdot 30625$$<br/>$$30625t^2 + 346(1-t^2)^2 = 30625$$<br/>Expanding: $346t^4 + 29933t^2 - 30279 = 0$. Testing $t=1$: $346 + 29933 - 30279 = 0$ ✓<br/>So $x = 2$, $y = 173$, and $r = \\frac{173}{2}$ — <strong>173/2</strong> is correct.<br/>The answer is <strong>86.5,173/2</strong>.",
+      "desmosExpressions": [
+        "x^2 + y^2 = (175/2)^2"
+      ]
+    }
+  ]
+}

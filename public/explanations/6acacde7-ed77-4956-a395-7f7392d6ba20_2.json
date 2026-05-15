@@ -10,7 +10,8 @@
     },
     {
       "title": "Write the equation and match to a choice",
-      "content": "With slope $m = -5$ and y-intercept $b = 2$, the equation in slope-intercept form is:<br/>$$y = -5x + 2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "With slope $m = -5$ and y-intercept $b = 2$, the equation in slope-intercept form is:<br/>$$y = -5x + 2$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = -5x + 2", "(0, 2)", "(1, -3)"]
     }
   ]
 }

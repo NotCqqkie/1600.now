@@ -1,1 +1,18 @@
-{"questionId": "2e0290c3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify key points on the line from the graph", "content": "The line intersects the y-axis at $(0, 40)$ and the x-axis at $(60, 0)$. Any correct equation must satisfy both of these points."}, {"title": "Test which equation satisfies both points", "content": "Backsolving — testing choice B ($8x + 12y = 480$):<ul><li>At $(0, 40)$: $8(0) + 12(40) = 480$ ✓</li><li>At $(60, 0)$: $8(60) + 12(0) = 480$ ✓</li></ul>Both intercepts satisfy the equation. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "2e0290c3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify key points on the line from the graph",
+      "content": "The line intersects the y-axis at $(0, 40)$ and the x-axis at $(60, 0)$. Any correct equation must satisfy both of these points."
+    },
+    {
+      "title": "Test which equation satisfies both points",
+      "content": "Backsolving — testing choice B ($8x + 12y = 480$):<ul><li>At $(0, 40)$: $8(0) + 12(40) = 480$ ✓</li><li>At $(60, 0)$: $8(60) + 12(0) = 480$ ✓</li></ul>Both intercepts satisfy the equation. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "8x+12y=480"
+      ]
+    }
+  ]
+}

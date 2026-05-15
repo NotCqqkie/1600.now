@@ -1,1 +1,19 @@
-{"questionId": "bef4b1c6", "correctAnswer": "5", "section": "Math", "steps": [{"title": "Solve the equation", "content": "Multiply both sides by $x+6$ to get $55=x(x+6)$, then rearrange and factor: $$x^2+6x-55=(x+11)(x-5)=0.$$ So $x=-11$ or $x=5$."}, {"title": "Identify the positive solution", "content": "Take the positive root. The answer is <strong>5</strong>."}]}
+{
+  "questionId": "bef4b1c6",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Multiply both sides by $x+6$ to get $55=x(x+6)$, then rearrange and factor: $$x^2+6x-55=(x+11)(x-5)=0.$$ So $x=-11$ or $x=5$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "Take the positive root. The answer is <strong>5</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{55}{x + 6}",
+        "y = x"
+      ]
+    }
+  ]
+}

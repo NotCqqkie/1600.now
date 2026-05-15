@@ -1,1 +1,19 @@
-{"questionId":"a7146625-47ea-49cb-9061-578e226240d5_4","correctAnswer":"A","section":"Math","steps":[{"title":"Use point-slope form","content":"With slope $-54$ through $(0,0)$: $y-0=-54(x-0)$, so $f(x)=-54x+b$ with $b$ to determine."},{"title":"Solve for the unknown","content":"Plugging $(0,0)$: $0=-54(0)+b\\Rightarrow b=0$, so $f(x)=-54x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use point-slope form",
+      "content": "With slope $-54$ through $(0,0)$: $y-0=-54(x-0)$, so $f(x)=-54x+b$ with $b$ to determine."
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Plugging $(0,0)$: $0=-54(0)+b\\Rightarrow b=0$, so $f(x)=-54x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = -54x",
+        "(0, 0)"
+      ]
+    }
+  ]
+}

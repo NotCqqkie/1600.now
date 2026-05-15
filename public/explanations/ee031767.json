@@ -9,7 +9,8 @@
     },
     {
       "title": "Match to the choices",
-      "content": "Per the answer key, choice B contains the matching pair: a cost equation totaling 881 paired with $b + g = 28$ for the count.<br/><br/>Choice A swaps the right-hand sides (28 with 881); choice C uses 28 as the cost total and 881 as the count; choice D's cost equation does not match the keyed setup.<br/><br/>The answer is <strong>B</strong>."
+      "content": "Per the answer key, choice B contains the matching pair: a cost equation totaling 881 paired with $b + g = 28$ for the count.<br/><br/>Choice A swaps the right-hand sides (28 with 881); choice C uses 28 as the cost total and 881 as the count; choice D's cost equation does not match the keyed setup.<br/><br/>The answer is <strong>B</strong>.",
+      "desmosExpressions": ["y = 28 - x", "y = (881 - 26x)/35"]
     }
   ]
 }

@@ -13,7 +13,8 @@
     },
     {
       "title": "State the minimum",
-      "content": "The minimum value is $-196$. The answer is <strong>-196</strong>."
+      "content": "The minimum value is $-196$. The answer is <strong>-196</strong>.",
+      "desmosExpressions": ["y = (2x - 20)(2x + 8)", "(3, -196)"]
     }
   ]
 }

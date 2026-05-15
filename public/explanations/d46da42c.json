@@ -9,7 +9,10 @@
     },
     {
       "title": "Match to the correct graph",
-      "content": "The graph of $y = x^2 + 4$ is an upward-opening parabola with vertex at $(0, 4)$. Since the minimum value is 4, all points satisfy $y \\geq 4$ and the graph never crosses the $x$-axis. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The graph of $y = x^2 + 4$ is an upward-opening parabola with vertex at $(0, 4)$. Since the minimum value is 4, all points satisfy $y \\geq 4$ and the graph never crosses the $x$-axis. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=x^2+4"
+      ]
     }
   ]
 }

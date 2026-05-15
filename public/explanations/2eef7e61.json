@@ -9,7 +9,8 @@
     },
     {
       "title": "Write the equation and match the choice",
-      "content": "Substitute $m = \\frac{3}{4}$ and $b = 3$ into the slope-intercept form: $$f(x) = \\frac{3}{4}x + 3$$ That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Substitute $m = \\frac{3}{4}$ and $b = 3$ into the slope-intercept form: $$f(x) = \\frac{3}{4}x + 3$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y=\\frac{3}{4}x+3", "(0,3)"]
     }
   ]
 }

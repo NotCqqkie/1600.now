@@ -10,7 +10,11 @@
     },
     {
       "title": "Solve both cases",
-      "content": "<strong>Case 1:</strong> If $x - 2 = 9$, then<br/>$$x = 11$$<strong>Case 2:</strong> If $x - 2 = -9$, then<br/>$$x = -7$$<br/>Since the problem asks for one possible solution, 11 is a valid answer."
+      "content": "<strong>Case 1:</strong> If $x - 2 = 9$, then<br/>$$x = 11$$<strong>Case 2:</strong> If $x - 2 = -9$, then<br/>$$x = -7$$<br/>Since the problem asks for one possible solution, 11 is a valid answer.",
+      "desmosExpressions": [
+        "y = |x - 2|",
+        "y = 9"
+      ]
     }
   ]
 }

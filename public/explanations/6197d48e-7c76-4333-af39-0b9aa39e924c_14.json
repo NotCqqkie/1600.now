@@ -9,7 +9,11 @@
     },
     {
       "title": "Identify the function type",
-      "content": "The function $f(x) = 2.93x$ has the form $f(x) = mx + b$ (a linear function) with slope $m = 2.93$ and y-intercept $b = 0$.<br/><br/>Since the slope $m = 2.93 > 0$ is positive:<ul><li><strong>Linear:</strong> not exponential \u2014 the output is directly proportional to the input</li><li><strong>Increasing:</strong> not decreasing \u2014 a positive slope means as $x$ increases, $f(x)$ increases</li></ul>This is an increasing linear function. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The function $f(x) = 2.93x$ has the form $f(x) = mx + b$ (a linear function) with slope $m = 2.93$ and y-intercept $b = 0$.<br/><br/>Since the slope $m = 2.93 > 0$ is positive:<ul><li><strong>Linear:</strong> not exponential — the output is directly proportional to the input</li><li><strong>Increasing:</strong> not decreasing — a positive slope means as $x$ increases, $f(x)$ increases</li></ul>This is an increasing linear function. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y = 2.93x",
+        "(0, 0)"
+      ]
     }
   ]
 }

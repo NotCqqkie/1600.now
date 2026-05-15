@@ -13,7 +13,13 @@
     },
     {
       "title": "Identify system in answer choices",
-      "content": "The system with $$a + b \\leq 164$$ and $$a \\leq 3b$$ matches choice <strong>D</strong>. This system correctly models both constraints from the problem."
+      "content": "The system with $$a + b \\leq 164$$ and $$a \\leq 3b$$ matches choice <strong>D</strong>. This system correctly models both constraints from the problem.",
+      "desmosExpressions": [
+        "x+y \\le 164",
+        "x \\le 3y",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
     }
   ]
 }

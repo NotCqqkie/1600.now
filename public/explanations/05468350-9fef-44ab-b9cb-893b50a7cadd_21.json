@@ -13,7 +13,13 @@
     },
     {
       "title": "Find daylight on March 1",
-      "content": "Now evaluate $d(0)$ to find the daylight on March 1: $$d(0) = -0.2(0 - 3.5)^2 + 13.91$$ $$d(0) = -0.2(12.25) + 13.91$$ $$d(0) = -2.45 + 13.91$$ $$d(0) = 11.46$$ The estimated length of daylight on March 1 is <strong>11.46 hours</strong>."
+      "content": "Now evaluate $d(0)$ to find the daylight on March 1: $$d(0) = -0.2(0 - 3.5)^2 + 13.91$$ $$d(0) = -0.2(12.25) + 13.91$$ $$d(0) = -2.45 + 13.91$$ $$d(0) = 11.46$$ The estimated length of daylight on March 1 is <strong>11.46 hours</strong>.",
+      "desmosExpressions": [
+        "d(t) = -\\frac{1}{1.225}(t-3.5)^2 + 13.91",
+        "(3.5, 13.91)",
+        "(6, 12.66)",
+        "(0, 12.39)"
+      ]
     }
   ]
 }

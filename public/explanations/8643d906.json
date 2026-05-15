@@ -9,7 +9,8 @@
     },
     {
       "title": "Match to the correct interpretation",
-      "content": "The equation $P(30) = 550$ predicts that the snow leopard population is 550 in the year 2020. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The equation $P(30) = 550$ predicts that the snow leopard population is 550 in the year 2020. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=250+10x"]
     }
   ]
 }

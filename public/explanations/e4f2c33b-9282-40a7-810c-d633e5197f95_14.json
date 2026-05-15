@@ -1,1 +1,19 @@
-{"questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_14", "correctAnswer": "13", "section": "Math", "steps": [{"title": "Apply the no-solution condition", "content": "Rewrite both as $16x-26y=8$ and $-8x+ty=\\tfrac{1}{5}$. For no solution, the coefficients of $x$ and $y$ must be proportional: $$\\frac{-8}{16}=\\frac{t}{-26}.$$"}, {"title": "Solve for the parameter", "content": "Cross-multiplying gives $16t=208$, so $t=13$. The constant terms differ, confirming no solution. The answer is <strong>13</strong>."}]}
+{
+  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_14",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the no-solution condition",
+      "content": "Rewrite both as $16x-26y=8$ and $-8x+ty=\\tfrac{1}{5}$. For no solution, the coefficients of $x$ and $y$ must be proportional: $$\\frac{-8}{16}=\\frac{t}{-26}.$$"
+    },
+    {
+      "title": "Solve for the parameter",
+      "content": "Cross-multiplying gives $16t=208$, so $t=13$. The constant terms differ, confirming no solution. The answer is <strong>13</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{16x - 8}{26}",
+        "y = \\frac{8x + 0.2}{13}"
+      ]
+    }
+  ]
+}

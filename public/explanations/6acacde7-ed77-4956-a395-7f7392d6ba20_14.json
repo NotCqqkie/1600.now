@@ -9,7 +9,8 @@
     },
     {
       "title": "Testing choice B",
-      "content": "We need to find the table where all three points satisfy both inequalities.<br/><br/>Backsolving \u2014 testing choice B (points: $(-5,4)$, $(-6,10)$, $(-8,19)$):<br/><br/>For $(-5, 4)$:<ul><li>$4 > -3(-5) - 12 = 15 - 12 = 3$? YES \u2713</li><li>$4 < -5(-5) - 19 = 25 - 19 = 6$? YES \u2713</li></ul>For $(-6, 10)$:<ul><li>$10 > -3(-6) - 12 = 18 - 12 = 6$? YES \u2713</li><li>$10 < -5(-6) - 19 = 30 - 19 = 11$? YES \u2713</li></ul>For $(-8, 19)$:<ul><li>$19 > -3(-8) - 12 = 24 - 12 = 12$? YES \u2713</li><li>$19 < -5(-8) - 19 = 40 - 19 = 21$? YES \u2713</li></ul>All three points satisfy both conditions. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "We need to find the table where all three points satisfy both inequalities.<br/><br/>Backsolving \u2014 testing choice B (points: $(-5,4)$, $(-6,10)$, $(-8,19)$):<br/><br/>For $(-5, 4)$:<ul><li>$4 > -3(-5) - 12 = 15 - 12 = 3$? YES \u2713</li><li>$4 < -5(-5) - 19 = 25 - 19 = 6$? YES \u2713</li></ul>For $(-6, 10)$:<ul><li>$10 > -3(-6) - 12 = 18 - 12 = 6$? YES \u2713</li><li>$10 < -5(-6) - 19 = 30 - 19 = 11$? YES \u2713</li></ul>For $(-8, 19)$:<ul><li>$19 > -3(-8) - 12 = 24 - 12 = 12$? YES \u2713</li><li>$19 < -5(-8) - 19 = 40 - 19 = 21$? YES \u2713</li></ul>All three points satisfy both conditions. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = -5x - 19", "y = -3x - 12"]
     }
   ]
 }

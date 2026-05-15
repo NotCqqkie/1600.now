@@ -9,7 +9,8 @@
     },
     {
       "title": "Identify what 3,000 represents",
-      "content": "In an exponential function of the form $f(x) = a \\cdot b^x$, the constant $a$ is always the initial value\u2014the output when the input is 0. Here, 3,000 is the population when $x = 0$ (the year 2008), making it the initial population. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "In an exponential function of the form $f(x) = a \\cdot b^x$, the constant $a$ is always the initial value\u2014the output when the input is 0. Here, 3,000 is the population when $x = 0$ (the year 2008), making it the initial population. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["f(x)=3000((0.75))^(x)"]
     }
   ]
 }

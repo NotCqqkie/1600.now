@@ -13,7 +13,12 @@
     },
     {
       "title": "Solve by equating exponents",
-      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{5r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 5r$$<br/>$$r = \\frac{1}{5}$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Rewrite the left side as a power of 2: $2 = 2^1$. This gives us:<br/>$$2^1 = 2^{5r}$$<br/>Since the bases are equal, the exponents must be equal:<br/>$$1 = 5r$$<br/>$$r = \\frac{1}{5}$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "P = 12000 \\cdot 2^{t/5}",
+        "(0, 12000)",
+        "(5, 24000)"
+      ]
     }
   ]
 }

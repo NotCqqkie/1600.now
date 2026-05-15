@@ -1,1 +1,19 @@
-{"questionId":"158591f0","correctAnswer":"29/3","section":"Math","steps":[{"title":"Solve the equation","content":"Expand: $x^2+x-56=4x^2-28x$. Move all terms to one side: $-3x^2+29x-56=0$ (so $a=-3$, $b=29$)."},{"title":"Sum the solutions","content":"By Vieta's, sum $=-b/a=-29/(-3)=\\dfrac{29}{3}$.<br/><br/>The answer is <strong>29/3</strong>."}]}
+{
+  "questionId": "158591f0",
+  "correctAnswer": "29/3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Expand: $x^2+x-56=4x^2-28x$. Move all terms to one side: $-3x^2+29x-56=0$ (so $a=-3$, $b=29$)."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "By Vieta's, sum $=-b/a=-29/(-3)=\\dfrac{29}{3}$.<br/><br/>The answer is <strong>29/3</strong>.",
+      "desmosExpressions": [
+        "y = x(x + 1) - 56",
+        "y = 4x(x - 7)"
+      ]
+    }
+  ]
+}

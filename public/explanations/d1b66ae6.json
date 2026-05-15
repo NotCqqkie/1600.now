@@ -9,7 +9,8 @@
     },
     {
       "title": "Solve for y",
-      "content": "Divide both sides by 4:<br/>$$y = \\frac{6}{4} = \\frac{3}{2}$$"
+      "content": "Divide both sides by 4:<br/>$$y = \\frac{6}{4} = \\frac{3}{2}$$",
+      "desmosExpressions": ["y = x - 3.5", "y = (9.5 - x)/3"]
     }
   ]
 }

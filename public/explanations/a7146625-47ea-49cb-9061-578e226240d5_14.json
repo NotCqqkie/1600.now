@@ -1,1 +1,20 @@
-{"questionId": "a7146625-47ea-49cb-9061-578e226240d5_14", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Extract the vertex from vertex form", "content": "The equation $y = -16(x - 6.8)^2 + 740$ is already written in vertex form. We can read the vertex $(6.8, 740)$ directly without expanding or solving.", "formula": "$$y = a(x - h)^2 + k \\text{ has vertex } (h, k)$$"}, {"title": "Interpret the vertex in context", "content": "Here, $x$ is time in seconds after launch and $y$ is height in feet.<br/><br/>Since $a = -16 < 0$, the parabola opens downward, making the vertex the maximum point.<br/><br/>From the vertex $(6.8, 740)$: the maximum height is 740 feet, occurring at 6.8 seconds after launch.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "a7146625-47ea-49cb-9061-578e226240d5_14",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the vertex from vertex form",
+      "content": "The equation $y = -16(x - 6.8)^2 + 740$ is already written in vertex form. We can read the vertex $(6.8, 740)$ directly without expanding or solving.",
+      "formula": "$$y = a(x - h)^2 + k \\text{ has vertex } (h, k)$$"
+    },
+    {
+      "title": "Interpret the vertex in context",
+      "content": "Here, $x$ is time in seconds after launch and $y$ is height in feet.<br/><br/>Since $a = -16 < 0$, the parabola opens downward, making the vertex the maximum point.<br/><br/>From the vertex $(6.8, 740)$: the maximum height is 740 feet, occurring at 6.8 seconds after launch.<br/><br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = -16(x - 6.8)^{2} + 740",
+        "(6.8, 740)"
+      ]
+    }
+  ]
+}

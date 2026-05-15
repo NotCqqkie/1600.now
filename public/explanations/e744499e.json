@@ -13,7 +13,13 @@
     },
     {
       "title": "Identify the matching system",
-      "content": "The complete system of inequalities is:<ul><li>$x + y \\geq 20$ (quantity constraint)</li><li>$3x + 4y \\leq 80$ (cost constraint)</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "The complete system of inequalities is:<ul><li>$x + y \\geq 20$ (quantity constraint)</li><li>$3x + 4y \\leq 80$ (cost constraint)</li></ul>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "x+y \\ge 20",
+        "3x+4y \\le 80",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
     }
   ]
 }

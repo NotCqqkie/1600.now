@@ -9,7 +9,8 @@
     },
     {
       "title": "Backsolve choice B",
-      "content": "Backsolving \u2014 testing choice B ($y = -x^2 + 12x + 45$):<br/><br/>At $x = 6$: $y = -(6)^2 + 12(6) + 45 = -36 + 72 + 45 = 81$ \u2713<br/><br/>At $x = 15$: $y = -(15)^2 + 12(15) + 45 = -225 + 180 + 45 = 0$ \u2713<br/><br/>All three given points satisfy this equation. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Backsolving \u2014 testing choice B ($y = -x^2 + 12x + 45$):<br/><br/>At $x = 6$: $y = -(6)^2 + 12(6) + 45 = -36 + 72 + 45 = 81$ \u2713<br/><br/>At $x = 15$: $y = -(15)^2 + 12(15) + 45 = -225 + 180 + 45 = 0$ \u2713<br/><br/>All three given points satisfy this equation. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = -x^2 + 12x + 45", "(0, 45)", "(6, 81)", "(15, 0)"]
     }
   ]
 }

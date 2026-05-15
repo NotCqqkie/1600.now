@@ -13,7 +13,8 @@
     },
     {
       "title": "Add x and y",
-      "content": "$$x + y = 5 + 5 = 10$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "$$x + y = 5 + 5 = 10$$<br/>That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["x = 5", "y = 2x - 5"]
     }
   ]
 }

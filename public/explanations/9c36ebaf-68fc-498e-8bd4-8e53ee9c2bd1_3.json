@@ -1,1 +1,20 @@
-{"questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_3", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the total number of animals", "content": "The pet service cares for both cats and dogs. The total number of animals is the sum of both: $c + d$."}, {"title": "Translate at most 43 to an inequality", "content": "The phrase <em>at most 43 animals</em> means the total cannot exceed 43. The inequality symbol for <em>at most</em> is $\\le$. Therefore, the total number of animals satisfies: $$c + d \\le 43$$ <br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the total number of animals",
+      "content": "The pet service cares for both cats and dogs. The total number of animals is the sum of both: $c + d$."
+    },
+    {
+      "title": "Translate at most 43 to an inequality",
+      "content": "The phrase <em>at most 43 animals</em> means the total cannot exceed 43. The inequality symbol for <em>at most</em> is $\\le$. Therefore, the total number of animals satisfies: $$c + d \\le 43$$ <br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "x + y \\le 43",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
+    }
+  ]
+}

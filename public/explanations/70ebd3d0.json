@@ -1,1 +1,22 @@
-{"questionId": "70ebd3d0", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Recognize the exponential form", "content": "The function $$N(d) = 115  times (0.90)^d$$ is an exponential model with the standard form $$N(d) = a \\times b^d$$, where $a = 115$ (the initial value) and $b = 0.90$ (the base)."}, {"title": "Interpret the multiplicative base", "content": "In an exponential function, when the input increases by 1 unit, the output is multiplied by the base. Here, each unit increase in $d$ multiplies $N$ by 0.90. Since $0.90 = 1 - 0.10$, this represents a 10% decrease for each unit increase in $d$."}, {"title": "Apply the depth units and identify the answer", "content": "The problem specifies that $d$ is measured in <u>hundreds</u> of meters.<br/><br/>Therefore, a one-unit increase in $d$ corresponds to a 100-meter increase in actual depth.<br/><br/>The model predicts that for every 100-meter increase in depth, the brachiopod species count decreases by 10%.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "70ebd3d0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the exponential form",
+      "content": "The function $$N(d) = 115  times (0.90)^d$$ is an exponential model with the standard form $$N(d) = a \\times b^d$$, where $a = 115$ (the initial value) and $b = 0.90$ (the base)."
+    },
+    {
+      "title": "Interpret the multiplicative base",
+      "content": "In an exponential function, when the input increases by 1 unit, the output is multiplied by the base. Here, each unit increase in $d$ multiplies $N$ by 0.90. Since $0.90 = 1 - 0.10$, this represents a 10% decrease for each unit increase in $d$."
+    },
+    {
+      "title": "Apply the depth units and identify the answer",
+      "content": "The problem specifies that $d$ is measured in <u>hundreds</u> of meters.<br/><br/>Therefore, a one-unit increase in $d$ corresponds to a 100-meter increase in actual depth.<br/><br/>The model predicts that for every 100-meter increase in depth, the brachiopod species count decreases by 10%.<br/><br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "N(d)=115*(0.90)^d"
+      ]
+    }
+  ]
+}

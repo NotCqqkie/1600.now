@@ -9,7 +9,8 @@
     },
     {
       "title": "Convert the decline rate to a multiplier",
-      "content": "Declined by 15% each year means we multiply by $1 - 0.15 = 0.85$ each year. So the yearly multiplier is $b = 0.85$. Substituting into the exponential model: $$C = 600(0.85)^t$$ That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Declined by 15% each year means we multiply by $1 - 0.15 = 0.85$ each year. So the yearly multiplier is $b = 0.85$. Substituting into the exponential model: $$C = 600(0.85)^t$$ That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["C=600*(0.85)^t"]
     }
   ]
 }

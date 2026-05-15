@@ -1,1 +1,22 @@
-{"questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_5", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Rearrange the inequality to identify the solution region", "content": "Rearrange $3x - 7y > 21$ by dividing by $-7$ (flipping the inequality):<br/>$$y < \\frac{3}{7}x - 3$$<br/>The solution set is all points <strong>below</strong> the boundary line $y = \\frac{3}{7}x - 3$."}, {"title": "Locate the boundary line", "content": "The line $y = \\frac{3}{7}x - 3$ has:<ul><li>y-intercept: $(0, -3)$ — on the negative y-axis</li><li>x-intercept: Set $y = 0$, then $\\frac{3}{7}x = 3$, so $x = 7$, giving $(7, 0)$</li><li>Slope: $\\frac{3}{7} > 0$ — tilts upward from left to right</li></ul>"}, {"title": "Identify the region with no solutions", "content": "For the region where $x < 0$ and $y > 0$ (second quadrant): When $x < 0$, the line satisfies $$y = \\frac{3}{7}x - 3 < -3 < 0$$ so the line stays below the $x$-axis.<br/><br/>Every point with $x < 0$ and $y > 0$ lies <strong>above</strong> the line.<br/><br/>Since solutions require points <strong>below</strong> the line, the second quadrant contains no solutions.<br/><br/>This region is choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rearrange the inequality to identify the solution region",
+      "content": "Rearrange $3x - 7y > 21$ by dividing by $-7$ (flipping the inequality):<br/>$$y < \\frac{3}{7}x - 3$$<br/>The solution set is all points <strong>below</strong> the boundary line $y = \\frac{3}{7}x - 3$."
+    },
+    {
+      "title": "Locate the boundary line",
+      "content": "The line $y = \\frac{3}{7}x - 3$ has:<ul><li>y-intercept: $(0, -3)$ — on the negative y-axis</li><li>x-intercept: Set $y = 0$, then $\\frac{3}{7}x = 3$, so $x = 7$, giving $(7, 0)$</li><li>Slope: $\\frac{3}{7} > 0$ — tilts upward from left to right</li></ul>"
+    },
+    {
+      "title": "Identify the region with no solutions",
+      "content": "For the region where $x < 0$ and $y > 0$ (second quadrant): When $x < 0$, the line satisfies $$y = \\frac{3}{7}x - 3 < -3 < 0$$ so the line stays below the $x$-axis.<br/><br/>Every point with $x < 0$ and $y > 0$ lies <strong>above</strong> the line.<br/><br/>Since solutions require points <strong>below</strong> the line, the second quadrant contains no solutions.<br/><br/>This region is choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "3x - 7y > 21"
+      ]
+    }
+  ]
+}

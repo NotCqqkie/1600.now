@@ -1,1 +1,18 @@
-{"questionId": "8462b105", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Set up the product", "content": "The function gives the product of $x$ and a number that is $91$ more than $x$. The second number is $(x+91)$, so we write: $$f(x) = x(x+91)$$"}, {"title": "Expand using the distributive property", "content": "$$f(x) = x(x+91) = x \\cdot x + x \\cdot 91 = x^2 + 91x$$ That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "8462b105",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the product",
+      "content": "The function gives the product of $x$ and a number that is $91$ more than $x$. The second number is $(x+91)$, so we write: $$f(x) = x(x+91)$$"
+    },
+    {
+      "title": "Expand using the distributive property",
+      "content": "$$f(x) = x(x+91) = x \\cdot x + x \\cdot 91 = x^2 + 91x$$ That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=(x)^(2)+91x"
+      ]
+    }
+  ]
+}

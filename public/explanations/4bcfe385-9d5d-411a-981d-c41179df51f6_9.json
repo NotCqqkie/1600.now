@@ -1,1 +1,21 @@
-{"questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_9", "correctAnswer": "28/3,9.333", "section": "Math", "steps": [{"title": "Calculate the slope using two known points", "content": "The line passes through $(7, 1)$ and $(0, 4)$. The slope is:<br/>$$m = \\frac{4 - 1}{0 - 7} = \\frac{3}{-7} = -\\frac{3}{7}$$"}, {"title": "Find the x-intercept using the slope-intercept form", "content": "Since $(0, 4)$ is the y-intercept, the equation is $y = -\\frac{3}{7}x + 4$. The point $(c, 0)$ lies on this line, so substitute $y = 0$:<br/>$$0 = -\\frac{3}{7}c + 4$$<br/>$$\\frac{3}{7}c = 4$$<br/>$$c = 4 \\cdot \\frac{7}{3} = \\frac{28}{3}$$<br/>Equivalent forms accepted: <strong>28/3</strong>, <strong>9.333</strong>."}]}
+{
+  "questionId": "4bcfe385-9d5d-411a-981d-c41179df51f6_9",
+  "correctAnswer": "28/3,9.333",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope using two known points",
+      "content": "The line passes through $(7, 1)$ and $(0, 4)$. The slope is:<br/>$$m = \\frac{4 - 1}{0 - 7} = \\frac{3}{-7} = -\\frac{3}{7}$$"
+    },
+    {
+      "title": "Find the x-intercept using the slope-intercept form",
+      "content": "Since $(0, 4)$ is the y-intercept, the equation is $y = -\\frac{3}{7}x + 4$. The point $(c, 0)$ lies on this line, so substitute $y = 0$:<br/>$$0 = -\\frac{3}{7}c + 4$$<br/>$$\\frac{3}{7}c = 4$$<br/>$$c = 4 \\cdot \\frac{7}{3} = \\frac{28}{3}$$<br/>Equivalent forms accepted: <strong>28/3</strong>, <strong>9.333</strong>.",
+      "desmosExpressions": [
+        "y = -\\frac{3}{7}x + 4",
+        "(7, 1)",
+        "(0, 4)",
+        "\\left(\\frac{28}{3}, 0\\right)"
+      ]
+    }
+  ]
+}

@@ -9,7 +9,8 @@
     },
     {
       "title": "Identify what the x-coordinate means",
-      "content": "The x-coordinate of the x-intercept is the time when $y = 0$. Since $x$ measures time in seconds after braking, this x-coordinate is the number of seconds it took from when Sheila began braking until the bicycle stopped. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The x-coordinate of the x-intercept is the time when $y = 0$. Since $x$ measures time in seconds after braking, this x-coordinate is the number of seconds it took from when Sheila began braking until the bicycle stopped. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["y=18-5x"]
     }
   ]
 }

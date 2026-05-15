@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute the given values",
-      "content": "Substituting $M_0=890$ and $T=10$ gives $$M(t)=890 \\cdot 2^{t/10}$$<br/>This expression matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Substituting $M_0=890$ and $T=10$ gives $$M(t)=890 \\cdot 2^{t/10}$$<br/>This expression matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": ["M(t)=890((2))^((t)/(10))"]
     }
   ]
 }

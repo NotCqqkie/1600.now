@@ -9,7 +9,8 @@
     },
     {
       "title": "Find f(x) and apply h(x) = f(x) - 13",
-      "content": "With slope 5 and point $(-4, 0)$: $0 = 5(-4) + b$ gives $b = 20$, so $f(x) = 5x + 20$.<br/>Therefore: $$h(x) = f(x) - 13 = (5x + 20) - 13 = 5x + 7$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "With slope 5 and point $(-4, 0)$: $0 = 5(-4) + b$ gives $b = 20$, so $f(x) = 5x + 20$.<br/>Therefore: $$h(x) = f(x) - 13 = (5x + 20) - 13 = 5x + 7$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["y=5x+20", "y=5x+7"]
     }
   ]
 }

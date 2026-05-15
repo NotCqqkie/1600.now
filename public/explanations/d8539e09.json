@@ -1,1 +1,25 @@
-{"questionId":"d8539e09","correctAnswer":"C","section":"Math","steps":[{"title":"Set up the inequality test","content":"Each row must satisfy $y<6x+2$. At $x=3$, need $y<20$; at $x=5$, $y<32$; at $x=7$, $y<44$."},{"title":"Test each table","content":"A: $20<20$ fails. B: $36<32$ fails. D: $24<20$ fails. C: $16<20$, $28<32$, $40<44$ all hold."},{"title":"Identify the table","content":"Only table C works. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "questionId": "d8539e09",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality test",
+      "content": "Each row must satisfy $y<6x+2$. At $x=3$, need $y<20$; at $x=5$, $y<32$; at $x=7$, $y<44$."
+    },
+    {
+      "title": "Test each table",
+      "content": "A: $20<20$ fails. B: $36<32$ fails. D: $24<20$ fails. C: $16<20$, $28<32$, $40<44$ all hold."
+    },
+    {
+      "title": "Identify the table",
+      "content": "Only table C works. That matches choice <strong>C</strong> — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y<6x+2",
+        "(3,16)",
+        "(5,28)",
+        "(7,40)"
+      ]
+    }
+  ]
+}

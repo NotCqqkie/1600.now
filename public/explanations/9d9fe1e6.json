@@ -5,11 +5,12 @@
   "steps": [
     {
       "title": "Recognize the y-intercept in the linear function",
-      "content": "In the function $f(x) = 39 - 0.18x$, the constant 39 is the y-intercept \u2014 the value of $f(x)$ when $x = 0$."
+      "content": "In the function $f(x) = 39 - 0.18x$, the constant 39 is the y-intercept — the value of $f(x)$ when $x = 0$."
     },
     {
       "title": "Evaluate at the start of the experiment",
-      "content": "Since $x$ represents days after the start, $x = 0$ corresponds to the beginning of the experiment. At this point:<br/>$$f(0) = 39 - 0.18(0) = 39 \\text{ cm}$$<br/>So 39 cm is the height of the fluid at the start. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Since $x$ represents days after the start, $x = 0$ corresponds to the beginning of the experiment. At this point:<br/>$$f(0) = 39 - 0.18(0) = 39 \\text{ cm}$$<br/>So 39 cm is the height of the fluid at the start. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=39-0.2x"]
     }
   ]
 }

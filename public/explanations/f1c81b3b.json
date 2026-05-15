@@ -9,7 +9,10 @@
     },
     {
       "title": "Calculate g(4) using the exponential relationship",
-      "content": "In an exponential function, each unit increase in the exponent multiplies the output by the base $a$. Therefore: $$g(4) = g(3) \\cdot a = 2375 \\cdot 5 = 11875$$"
+      "content": "In an exponential function, each unit increase in the exponent multiplies the output by the base $a$. Therefore: $$g(4) = g(3) \\cdot a = 2375 \\cdot 5 = 11875$$",
+      "desmosExpressions": [
+        "g(x)=19*(a)^(x)"
+      ]
     }
   ]
 }

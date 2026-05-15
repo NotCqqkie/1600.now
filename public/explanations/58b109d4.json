@@ -1,1 +1,19 @@
-{"questionId":"58b109d4","correctAnswer":"-10","section":"Math","steps":[{"title":"Solve the system by substitution","content":"From the first equation, $y=-x^2$. Substitute into $20x+100-y=0$: $$20x+100+x^2 = 0 \\Rightarrow (x+10)^2 = 0.$$"},{"title":"Find $x$","content":"Therefore $$x = -10.$$ The answer is <strong>-10</strong>."}]}
+{
+  "questionId": "58b109d4",
+  "correctAnswer": "-10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system by substitution",
+      "content": "From the first equation, $y=-x^2$. Substitute into $20x+100-y=0$: $$20x+100+x^2 = 0 \\Rightarrow (x+10)^2 = 0.$$"
+    },
+    {
+      "title": "Find $x$",
+      "content": "Therefore $$x = -10.$$ The answer is <strong>-10</strong>.",
+      "desmosExpressions": [
+        "x^2 + y + 7 = 7",
+        "20x + 100 - y = 0"
+      ]
+    }
+  ]
+}

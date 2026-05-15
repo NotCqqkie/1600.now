@@ -9,7 +9,8 @@
     },
     {
       "title": "Identify the second equation's slope",
-      "content": "Since the equations represent the same line, they have the same slope. The given equation $y = \\frac{2}{9}x + 8$ has slope $\\frac{2}{9}$, so the second equation's slope is also $\\frac{2}{9}$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Since the equations represent the same line, they have the same slope. The given equation $y = \\frac{2}{9}x + 8$ has slope $\\frac{2}{9}$, so the second equation's slope is also $\\frac{2}{9}$. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = \\frac{2}{9}x + 8"]
     }
   ]
 }

@@ -1,1 +1,25 @@
-{"questionId": "e723bd67", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Set up the inequality test", "content": "Need every $(x,y)$ in the table to satisfy $2x-y>883$."}, {"title": "Test each table", "content": "Choice D: $2(442)-0=884$, $2(441)-(-2)=884$, $2(440)-(-4)=884$. All exceed $883$. Other choices give values $\\le 883$ in at least one row."}, {"title": "Identify the table", "content": "Only choice D works. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "e723bd67",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality test",
+      "content": "Need every $(x,y)$ in the table to satisfy $2x-y>883$."
+    },
+    {
+      "title": "Test each table",
+      "content": "Choice D: $2(442)-0=884$, $2(441)-(-2)=884$, $2(440)-(-4)=884$. All exceed $883$. Other choices give values $\\le 883$ in at least one row."
+    },
+    {
+      "title": "Identify the table",
+      "content": "Only choice D works. That matches choice <strong>D</strong> — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "2x-y>883",
+        "(442,0)",
+        "(441,-2)",
+        "(440,-4)"
+      ]
+    }
+  ]
+}

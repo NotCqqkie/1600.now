@@ -13,7 +13,11 @@
     },
     {
       "title": "Identify the correct interpretation",
-      "content": "The value 7,430.64 is the total balance at $t = 3$ years, not an increase from the initial 7,000 (the actual increase is $7,430.64 - 7,000 = 430.64$). Choice A correctly states that the balance is 7,430.64 after 3 years. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "The value 7,430.64 is the total balance at $t = 3$ years, not an increase from the initial 7,000 (the actual increase is $7,430.64 - 7,000 = 430.64$). Choice A correctly states that the balance is 7,430.64 after 3 years. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "f(t) = 7000 \\cdot 1.01^{2t}",
+        "(3, 7430.64)"
+      ]
     }
   ]
 }

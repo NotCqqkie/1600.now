@@ -10,7 +10,11 @@
     {
       "title": "Evaluate using the zero exponent rule",
       "content": "Apply the exponent rule that any nonzero number raised to the power 0 equals 1: $$(1.85)^0 = 1$$ Therefore: $$y = 6 \\cdot 1 = 6$$ The value of $y$ is <strong>6</strong>.",
-      "formula": "$$a^0 = 1 \\quad (a \\neq 0)$$"
+      "formula": "$$a^0 = 1 \\quad (a \\neq 0)$$",
+      "desmosExpressions": [
+        "y = 6 \\cdot 1.85^{x}",
+        "(0, 6)"
+      ]
     }
   ]
 }

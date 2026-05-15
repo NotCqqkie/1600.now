@@ -9,7 +9,8 @@
     },
     {
       "title": "Interpret m(330) \u2248 362 using the variable definitions",
-      "content": "Given that $m(330) \\approx 362$, we identify: $t = 330$ (days after birth) is the input, and $m(330) \\approx 362$ kg (body mass) is the output. Therefore, 330 days after it was born, the animal's predicted body mass was approximately 362 kg. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Given that $m(330) \\approx 362$, we identify: $t = 330$ (days after birth) is the input, and $m(330) \\approx 362$ kg (body mass) is the output. Therefore, 330 days after it was born, the animal's predicted body mass was approximately 362 kg. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["m(t)=-0.0274(((t)/(7)))^(2)+7.3873((t)/(7))+75.032"]
     }
   ]
 }

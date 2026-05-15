@@ -1,1 +1,18 @@
-{"questionId": "4209aefe", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate x = 5 to the corresponding year", "content": "Since $x$ represents the number of years after 1957, when $x = 5$, we're looking at the year $1957 + 5 = 1962$."}, {"title": "Interpret f(5) ≈ 243 in context", "content": "The function $f(x) = 206(1.034)^x$ models the dollar value of the bank account.<br/><br/>When we compute $f(5)$, we get the account's value in dollars at year 1962.<br/><br/>Therefore, $f(5) \\approx 243$ means the account is approximately $243$ dollars in 1962.<br/><br/>This directly matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "4209aefe",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate x = 5 to the corresponding year",
+      "content": "Since $x$ represents the number of years after 1957, when $x = 5$, we're looking at the year $1957 + 5 = 1962$."
+    },
+    {
+      "title": "Interpret f(5) ≈ 243 in context",
+      "content": "The function $f(x) = 206(1.034)^x$ models the dollar value of the bank account.<br/><br/>When we compute $f(5)$, we get the account's value in dollars at year 1962.<br/><br/>Therefore, $f(5) \\approx 243$ means the account is approximately $243$ dollars in 1962.<br/><br/>This directly matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=206((1.034))^(x)"
+      ]
+    }
+  ]
+}

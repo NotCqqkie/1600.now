@@ -1,1 +1,19 @@
-{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_8", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the slope and y-intercept", "content": "We're given the slope is 7. The point $(0, 5)$ lies on the $y$-axis (since $x = 0$), so it's the $y$-intercept. In slope-intercept form $y = mx + b$, we have $m = 7$ and $b = 5$."}, {"title": "Write the equation using slope-intercept form", "content": "Substituting $m = 7$ and $b = 5$:<br/>$$y = 7x + 5$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope and y-intercept",
+      "content": "We're given the slope is 7. The point $(0, 5)$ lies on the $y$-axis (since $x = 0$), so it's the $y$-intercept. In slope-intercept form $y = mx + b$, we have $m = 7$ and $b = 5$."
+    },
+    {
+      "title": "Write the equation using slope-intercept form",
+      "content": "Substituting $m = 7$ and $b = 5$:<br/>$$y = 7x + 5$$<br/>That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = 7x + 5",
+        "(0, 5)"
+      ]
+    }
+  ]
+}

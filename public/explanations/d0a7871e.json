@@ -13,7 +13,11 @@
     },
     {
       "title": "Check against the choices",
-      "content": "Among the choices A) \u20131, B) 0, C) 2, D) 3, only $x = -1$ is a solution from our work. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Among the choices A) –1, B) 0, C) 2, D) 3, only $x = -1$ is a solution from our work. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = x + 1",
+        "y = x^2 + x"
+      ]
     }
   ]
 }

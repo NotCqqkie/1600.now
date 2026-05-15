@@ -1,1 +1,18 @@
-{"questionId":"c9355dec","correctAnswer":"A","section":"Math","steps":[{"title":"Find the boundary line equation","content":"Reading the graph, the boundary passes through $(0,-6)$ and $(9,0)$. The slope is $\\frac{0-(-6)}{9-0}=\\frac{2}{3}$, giving $y=\\frac{2}{3}x-6$."},{"title":"Pick the inequality direction from the shading","content":"The shaded region lies above the boundary and the line is solid, so use $\\ge$: $$y\\ge \\frac{2}{3}x-6.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "c9355dec",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the boundary line equation",
+      "content": "Reading the graph, the boundary passes through $(0,-6)$ and $(9,0)$. The slope is $\\frac{0-(-6)}{9-0}=\\frac{2}{3}$, giving $y=\\frac{2}{3}x-6$."
+    },
+    {
+      "title": "Pick the inequality direction from the shading",
+      "content": "The shaded region lies above the boundary and the line is solid, so use $\\ge$: $$y\\ge \\frac{2}{3}x-6.$$ That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y \\ge \\frac{2}{3}x-6"
+      ]
+    }
+  ]
+}

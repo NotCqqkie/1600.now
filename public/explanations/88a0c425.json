@@ -10,7 +10,8 @@
     },
     {
       "title": "Apply the discriminant formula and solve for c",
-      "content": "Substitute the coefficients:<br/>$$20^2 - 4(-2)c = 0$$<br/>$$400 + 8c = 0$$<br/>$$c = -50$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Substitute the coefficients:<br/>$$20^2 - 4(-2)c = 0$$<br/>$$400 + 8c = 0$$<br/>$$c = -50$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = -2x^2 + 20x + c", "c = -50"]
     }
   ]
 }

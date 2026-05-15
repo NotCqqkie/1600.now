@@ -10,7 +10,8 @@
     },
     {
       "title": "Double the radius and write Circle B's equation",
-      "content": "Circle B has the same center $(3, 9)$ but radius $r_B = 2 \\cdot 5 = 10$. With $r_B^2 = 100$, Circle B's equation is $(x-3)^2 + (y-9)^2 = 100$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Circle B has the same center $(3, 9)$ but radius $r_B = 2 \\cdot 5 = 10$. With $r_B^2 = 100$, Circle B's equation is $(x-3)^2 + (y-9)^2 = 100$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["(x-3)^2 + (y-9)^2 = 25", "(x-3)^2 + (y-9)^2 = 100"]
     }
   ]
 }

@@ -1,1 +1,18 @@
-{"questionId":"9377a50a-f782-492e-a3bf-a2b90698cacc_14","correctAnswer":"13","section":"Math","steps":[{"title":"Find the roots","content":"Set each factor of $x(x-13)(x+6)(x-5)^2=0$ to zero: $x=0$, $x=13$, $x=-6$, and $x=5$."},{"title":"Identify the greatest solution","content":"Among $\\{-6, 0, 5, 13\\}$, the greatest is $13$. The answer is <strong>13</strong>."}]}
+{
+  "questionId": "9377a50a-f782-492e-a3bf-a2b90698cacc_14",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the roots",
+      "content": "Set each factor of $x(x-13)(x+6)(x-5)^2=0$ to zero: $x=0$, $x=13$, $x=-6$, and $x=5$."
+    },
+    {
+      "title": "Identify the greatest solution",
+      "content": "Among $\\{-6, 0, 5, 13\\}$, the greatest is $13$. The answer is <strong>13</strong>.",
+      "desmosExpressions": [
+        "y = x(x-13)(x+6)(x-5)^{2}"
+      ]
+    }
+  ]
+}

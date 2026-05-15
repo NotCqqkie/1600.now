@@ -9,7 +9,15 @@
     },
     {
       "title": "Determine which choice satisfies the constraint x < -8.75",
-      "content": "Testing each choice:<ul><li>A: $-9 < -8.75$ ✓</li><li>B: $-5 < -8.75$ ✗</li><li>C: $5 < -8.75$ ✗</li><li>D: $9 < -8.75$ ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "content": "Testing each choice:<ul><li>A: $-9 < -8.75$ ✓</li><li>B: $-5 < -8.75$ ✗</li><li>C: $5 < -8.75$ ✗</li><li>D: $9 < -8.75$ ✗</li></ul>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y>14",
+        "4x+y<18",
+        "(-9,53)",
+        "(-5,53)",
+        "(5,53)",
+        "(9,53)"
+      ]
     }
   ]
 }

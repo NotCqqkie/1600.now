@@ -9,7 +9,8 @@
     },
     {
       "title": "Substitute and solve the resulting quadratic",
-      "content": "Substitute $y = x + 1$ into $x^2 + y = 21$:<br/>$$x^2 + (x + 1) = 21$$<br/>$$x^2 + x + 1 = 21$$<br/>$$x^2 + x - 20 = 0$$<br/>Factor:<br/>$$(x + 5)(x - 4) = 0$$<br/>This yields $x = -5$ or $x = 4$. Since the question asks for a possible value and $-5$ appears in the choices, we have found it. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Substitute $y = x + 1$ into $x^2 + y = 21$:<br/>$$x^2 + (x + 1) = 21$$<br/>$$x^2 + x + 1 = 21$$<br/>$$x^2 + x - 20 = 0$$<br/>Factor:<br/>$$(x + 5)(x - 4) = 0$$<br/>This yields $x = -5$ or $x = 4$. Since the question asks for a possible value and $-5$ appears in the choices, we have found it. That matches choice A \u2014 <strong>A</strong> is correct.",
+      "desmosExpressions": ["y = 21 - x^2", "y = x + 1"]
     }
   ]
 }

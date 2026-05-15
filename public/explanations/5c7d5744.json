@@ -9,7 +9,11 @@
     },
     {
       "title": "Locate the intersection and read its coordinates",
-      "content": "Visually trace where the line and parabola meet. At the intersection point, the x-coordinate is -2 and the y-coordinate is 6. The solution is (-2, 6). That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Visually trace where the line and parabola meet. At the intersection point, the x-coordinate is -2 and the y-coordinate is 6. The solution is (-2, 6). That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = (x - 1)^2 - 2",
+        "y = x - 1"
+      ]
     }
   ]
 }

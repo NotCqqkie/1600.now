@@ -9,7 +9,10 @@
     },
     {
       "title": "Set up exponent from 2-day periods",
-      "content": "Growth happens every 2 days, so in $x$ days there are $\\frac{x}{2}$ two-day periods. With each period multiplying by 1.70, the exponent is $\\frac{x}{2}$ (not $2x$). Therefore: $$f(x) = 233\\left(1.70\\right)^{\\frac{x}{2}}$$ That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Growth happens every 2 days, so in $x$ days there are $\\frac{x}{2}$ two-day periods. With each period multiplying by 1.70, the exponent is $\\frac{x}{2}$ (not $2x$). Therefore: $$f(x) = 233\\left(1.70\\right)^{\\frac{x}{2}}$$ That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "f(x)=233((1.70))^((x)/(2))"
+      ]
     }
   ]
 }

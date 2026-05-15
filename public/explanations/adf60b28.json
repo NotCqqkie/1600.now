@@ -5,11 +5,14 @@
   "steps": [
     {
       "title": "Identify slope and intercept",
-      "content": "$$f(x)=8x+4$$ <br/> The function is in slope\u2011intercept form $y=mx+b$. The slope $m=8$ represents the estimated growth in feet per year. The y\u2011intercept $b=4$ gives the height when $x=0$."
+      "content": "$$f(x)=8x+4$$ <br/> The function is in slope‑intercept form $y=mx+b$. The slope $m=8$ represents the estimated growth in feet per year. The y‑intercept $b=4$ gives the height when $x=0$."
     },
     {
       "title": "Find the initial height",
-      "content": "$$f(0)=8\\cdot0+4=4$$ <br/> When the tree was first measured ($x=0$), its estimated height is 4 feet. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "$$f(0)=8\\cdot0+4=4$$ <br/> When the tree was first measured ($x=0$), its estimated height is 4 feet. That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "y=8x+4"
+      ]
     }
   ]
 }

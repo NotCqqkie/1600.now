@@ -1,1 +1,19 @@
-{"questionId": "5ae186b4", "correctAnswer": "-9", "section": "Math", "steps": [{"title": "Clear the fraction", "content": "Multiply both sides by $w$: $$-54=6w.$$"}, {"title": "Solve for the variable", "content": "Divide by $6$: $w=-9$. The answer is <strong>-9</strong>."}]}
+{
+  "questionId": "5ae186b4",
+  "correctAnswer": "-9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fraction",
+      "content": "Multiply both sides by $w$: $$-54=6w.$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Divide by $6$: $w=-9$. The answer is <strong>-9</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{-54}{x}",
+        "y = 6"
+      ]
+    }
+  ]
+}

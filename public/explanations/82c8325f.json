@@ -9,7 +9,8 @@
     },
     {
       "title": "Find the radius squared using the given point",
-      "content": "The point $(-8, 8)$ lies on the circle, so it satisfies the equation. Substitute $x = -8$ and $y = 8$:<br/>$$(-8 + 4)^2 + (8 - 5)^2 = r^2$$<br/>$$(-4)^2 + (3)^2 = r^2$$<br/>$$16 + 9 = r^2$$<br/>$$r^2 = 25$$<br/>Therefore, the complete equation is $(x + 4)^2 + (y - 5)^2 = 25$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "The point $(-8, 8)$ lies on the circle, so it satisfies the equation. Substitute $x = -8$ and $y = 8$:<br/>$$(-8 + 4)^2 + (8 - 5)^2 = r^2$$<br/>$$(-4)^2 + (3)^2 = r^2$$<br/>$$16 + 9 = r^2$$<br/>$$r^2 = 25$$<br/>Therefore, the complete equation is $(x + 4)^2 + (y - 5)^2 = 25$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["(-4,5)", "(-8,8)", "(x+4)^2 + (y-5)^2 = 25"]
     }
   ]
 }

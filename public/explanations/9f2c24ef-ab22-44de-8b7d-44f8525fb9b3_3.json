@@ -9,7 +9,10 @@
     },
     {
       "title": "Substitute x = 0 and evaluate",
-      "content": "Substitute $x = 0$ into $y = x^2 + 38$:<br/>$$y = 0^2 + 38 = 38$$<br/>Therefore, $y = 38$."
+      "content": "Substitute $x = 0$ into $y = x^2 + 38$:<br/>$$y = 0^2 + 38 = 38$$<br/>Therefore, $y = 38$.",
+      "desmosExpressions": [
+        "y = x^{2} + 38"
+      ]
     }
   ]
 }

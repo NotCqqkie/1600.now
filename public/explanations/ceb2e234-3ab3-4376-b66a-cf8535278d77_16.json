@@ -1,1 +1,18 @@
-{"questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_16", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the slope in the linear function", "content": "The function $w(t) = 600 - 3t$ is linear. Rewrite it as $w(t) = 600 + (-3)t$. The coefficient of $t$ is the slope: $-3$."}, {"title": "Interpret the slope as the rate of change per second", "content": "In a linear function, the slope tells us the rate of change of the output per unit change in the input.<br/><br/>A slope of $-3$ means the volume decreases by 3 milliliters for each 1-second increase in $t$.<br/><br/>The predicted volume draining from the container each second is therefore 3 milliliters.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "ceb2e234-3ab3-4376-b66a-cf8535278d77_16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope in the linear function",
+      "content": "The function $w(t) = 600 - 3t$ is linear. Rewrite it as $w(t) = 600 + (-3)t$. The coefficient of $t$ is the slope: $-3$."
+    },
+    {
+      "title": "Interpret the slope as the rate of change per second",
+      "content": "In a linear function, the slope tells us the rate of change of the output per unit change in the input.<br/><br/>A slope of $-3$ means the volume decreases by 3 milliliters for each 1-second increase in $t$.<br/><br/>The predicted volume draining from the container each second is therefore 3 milliliters.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 600 - 3x"
+      ]
+    }
+  ]
+}

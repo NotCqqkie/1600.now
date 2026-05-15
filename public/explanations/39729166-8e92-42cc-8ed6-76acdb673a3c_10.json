@@ -1,1 +1,22 @@
-{"questionId":"39729166-8e92-42cc-8ed6-76acdb673a3c_10","correctAnswer":"7","section":"Math","steps":[{"title":"Set up","content":"$f(x) = c^x$, and $f(8) = 49 \\cdot f(6)$, so $c^8 = 49 \\cdot c^6$."},{"title":"Solve","content":"Divide both sides by $c^6$: $c^2 = 49$. Take the positive root (since $c > 1$): $c = 7$."},{"title":"Answer","content":"<strong>7</strong> is correct."}]}
+{
+  "questionId": "39729166-8e92-42cc-8ed6-76acdb673a3c_10",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "$f(x) = c^x$, and $f(8) = 49 \\cdot f(6)$, so $c^8 = 49 \\cdot c^6$."
+    },
+    {
+      "title": "Solve",
+      "content": "Divide both sides by $c^6$: $c^2 = 49$. Take the positive root (since $c > 1$): $c = 7$."
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>7</strong> is correct.",
+      "desmosExpressions": [
+        "f(x) = 7^{x}"
+      ]
+    }
+  ]
+}

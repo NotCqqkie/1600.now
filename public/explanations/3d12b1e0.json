@@ -10,7 +10,8 @@
     },
     {
       "title": "Solve for c using the discriminant equation",
-      "content": "Substitute $a = -16$, $b = -8$, and the unknown $c$ into the discriminant equation:<br/>$$(-8)^2 - 4(-16)(c) = 0$$<br/>$$64 + 64c = 0$$<br/>$$c = -1$$"
+      "content": "Substitute $a = -16$, $b = -8$, and the unknown $c$ into the discriminant equation:<br/>$$(-8)^2 - 4(-16)(c) = 0$$<br/>$$64 + 64c = 0$$<br/>$$c = -1$$",
+      "desmosExpressions": ["y = -16x^2 - 8x + c", "c = -1"]
     }
   ]
 }

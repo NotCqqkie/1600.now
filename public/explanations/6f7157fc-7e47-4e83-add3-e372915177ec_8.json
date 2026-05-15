@@ -9,7 +9,8 @@
     },
     {
       "title": "Interpret in context",
-      "content": "Combining these: $f(2) = 190$ means that 2 minutes after diving, the seal's depth is 190 meters below sea level. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Combining these: $f(2) = 190$ means that 2 minutes after diving, the seal's depth is 190 meters below sea level. That matches choice C \u2014 <strong>C</strong> is correct.",
+      "desmosExpressions": ["f(x) = -9x^2 + 113x", "(2, 190)"]
     }
   ]
 }

@@ -13,7 +13,8 @@
     },
     {
       "title": "Match to answer choices",
-      "content": "Combining negative slope requirement (ruling out C and D) with positive y-intercept confirmation (ruling out A) leaves only choice B. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Combining negative slope requirement (ruling out C and D) with positive y-intercept confirmation (ruling out A) leaves only choice B. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "desmosExpressions": ["y = -1.9x + 10.1"]
     }
   ]
 }

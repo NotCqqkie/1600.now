@@ -9,7 +9,8 @@
     },
     {
       "title": "Apply the transformation",
-      "content": "Substitute $f(x) = 7x^3$:<br/>$$g(x) = 7x^3 - 2$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substitute $f(x) = 7x^3$:<br/>$$g(x) = 7x^3 - 2$$<br/>This matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["f(x)=7(x)^(3)"]
     }
   ]
 }

@@ -1,1 +1,18 @@
-{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_4", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Find the slope of the linear function", "content": "The function is given as $$T(x)=67-8x$$, which is in the form $$y=mx+b$$ with slope $$m=-8$$.<br/><br/>The slope tells us how much T changes when x increases by 1 hour.<br/><br/>Because the slope is negative, the temperature drops $$|m|$$ degrees each hour.<br/>Therefore the estimated decrease is 8°F per hour.<br/>That matches choice B — <strong>B</strong> is correct."}, {"title": "Verify with two specific hours", "content": "Compute the temperature at x=1 and x=2: $$T(1)=67-8(1)=59$$ and $$T(2)=67-8(2)=51$$. The change is $$T(2)-T(1)=51-59=-8$$, so the temperature falls 8 degrees when x increases by 1 hour.<br/>This confirms the decrease per hour is 8°F.<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of the linear function",
+      "content": "The function is given as $$T(x)=67-8x$$, which is in the form $$y=mx+b$$ with slope $$m=-8$$.<br/><br/>The slope tells us how much T changes when x increases by 1 hour.<br/><br/>Because the slope is negative, the temperature drops $$|m|$$ degrees each hour.<br/>Therefore the estimated decrease is 8°F per hour.<br/>That matches choice B — <strong>B</strong> is correct."
+    },
+    {
+      "title": "Verify with two specific hours",
+      "content": "Compute the temperature at x=1 and x=2: $$T(1)=67-8(1)=59$$ and $$T(2)=67-8(2)=51$$. The change is $$T(2)-T(1)=51-59=-8$$, so the temperature falls 8 degrees when x increases by 1 hour.<br/>This confirms the decrease per hour is 8°F.<br/>That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y = 67 - 8x \\{1 \\leq x \\leq 5\\}"
+      ]
+    }
+  ]
+}

@@ -9,7 +9,8 @@
     },
     {
       "title": "Apply the parallel lines shortcut",
-      "content": "Parallel lines have the same slope. Since line $j$ is parallel to line $k$, line $j$ must have the same slope as line $k$. Therefore, the slope of line $j$ is $\\frac{17}{7}$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Parallel lines have the same slope. Since line $j$ is parallel to line $k$, line $j$ must have the same slope as line $k$. Therefore, the slope of line $j$ is $\\frac{17}{7}$. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": ["y=\\frac{17}{7}x+4"]
     }
   ]
 }

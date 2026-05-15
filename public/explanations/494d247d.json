@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Read the intersection point from the graph",
-      "content": "The absolute value function (V-shaped curve, vertex at $(-2, 4)$) and the linear function (the line) intersect on the left branch at approximately <strong>x = \u22123.5</strong> and <strong>y = 4.5</strong>."
+      "content": "The absolute value function (V-shaped curve, vertex at $(-2, 4)$) and the linear function (the line) intersect on the left branch at approximately <strong>x = −3.5</strong> and <strong>y = 4.5</strong>."
     },
     {
       "title": "Express as fractions and identify the solution",
-      "content": "Convert the decimal coordinates to fractions:<br/>$$x = -3.5 = -\\frac{7}{2}, \\quad y = 4.5 = \\frac{9}{2}$$<br/>The solution to the system is $\\left(-\\frac{7}{2}, \\frac{9}{2}\\right)$. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Convert the decimal coordinates to fractions:<br/>$$x = -3.5 = -\\frac{7}{2}, \\quad y = 4.5 = \\frac{9}{2}$$<br/>The solution to the system is $\\left(-\\frac{7}{2}, \\frac{9}{2}\\right)$. That matches choice C — <strong>C</strong> is correct.",
+      "desmosExpressions": [
+        "y = |x + 1| - 1",
+        "y = 2"
+      ]
     }
   ]
 }

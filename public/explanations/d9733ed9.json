@@ -1,1 +1,25 @@
-{"questionId": "d9733ed9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the inequality test", "content": "Test each $(x, y)$ pair against $y > 4x + 8$."}, {"title": "Test each table", "content": "For each table, plug $x$ into $4x + 8$ and verify $y > 4x + 8$ for every row."}, {"title": "Identify the table", "content": "Only choice A's pairs all satisfy the inequality. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "d9733ed9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the inequality test",
+      "content": "Test each $(x, y)$ pair against $y > 4x + 8$."
+    },
+    {
+      "title": "Test each table",
+      "content": "For each table, plug $x$ into $4x + 8$ and verify $y > 4x + 8$ for every row."
+    },
+    {
+      "title": "Identify the table",
+      "content": "Only choice A's pairs all satisfy the inequality. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y>4x+8",
+        "(2,19)",
+        "(4,30)",
+        "(6,41)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,21 @@
-{"questionId": "6c5c2a81", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the slope from the two points", "content": "The slope of a line passing through $(x_1, y_1) = (7, 21)$ and $(x_2, y_2) = (9, 25)$ is:<br/>$$m = \\frac{25 - 21}{9 - 7} = \\frac{4}{2} = 2$$", "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"}, {"title": "Use the slope and a point to find the equation", "content": "Use the slope $m = 2$ and point $(7, 21)$ in the form $y = mx + b$:<br/>$$21 = 2(7) + b$$<br/>$$21 = 14 + b$$<br/>$$b = 7$$<br/>So $h(x) = 2x + 7$. Verify with the other point $(9, 25)$: $h(9) = 2(9) + 7 = 18 + 7 = 25$ ✓. That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "6c5c2a81",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope from the two points",
+      "content": "The slope of a line passing through $(x_1, y_1) = (7, 21)$ and $(x_2, y_2) = (9, 25)$ is:<br/>$$m = \\frac{25 - 21}{9 - 7} = \\frac{4}{2} = 2$$",
+      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Use the slope and a point to find the equation",
+      "content": "Use the slope $m = 2$ and point $(7, 21)$ in the form $y = mx + b$:<br/>$$21 = 2(7) + b$$<br/>$$21 = 14 + b$$<br/>$$b = 7$$<br/>So $h(x) = 2x + 7$. Verify with the other point $(9, 25)$: $h(9) = 2(9) + 7 = 18 + 7 = 25$ ✓. That matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "y=2x+7",
+        "(7,21)",
+        "(9,25)"
+      ]
+    }
+  ]
+}

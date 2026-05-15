@@ -1,1 +1,20 @@
-{"questionId": "ee439cff", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Compute total distance driven", "content": "Rhett’s distance = speed × time = $35r$ miles. Jessica’s distance = $40j$ miles. Total distance = sum: $$35r + 40j$$ miles."}, {"title": "Set up inequality for total distance under 220 miles", "content": "The problem states the total distance was <strong>under</strong> 220 miles, meaning less than 220. Therefore $$35r + 40j < 220$$. This matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "ee439cff",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute total distance driven",
+      "content": "Rhett’s distance = speed × time = $35r$ miles. Jessica’s distance = $40j$ miles. Total distance = sum: $$35r + 40j$$ miles."
+    },
+    {
+      "title": "Set up inequality for total distance under 220 miles",
+      "content": "The problem states the total distance was <strong>under</strong> 220 miles, meaning less than 220. Therefore $$35r + 40j < 220$$. This matches choice B — <strong>B</strong> is correct.",
+      "desmosExpressions": [
+        "35x+40y<220",
+        "x \\ge 0",
+        "y \\ge 0"
+      ]
+    }
+  ]
+}

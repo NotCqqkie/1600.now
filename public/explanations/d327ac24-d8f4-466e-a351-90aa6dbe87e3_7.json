@@ -10,7 +10,8 @@
     },
     {
       "title": "Write the equation",
-      "content": "Substituting $m = 69$ and $b = 3$ into the slope-intercept form gives $f(x) = 69x + 3$. That matches choice D \u2014 <strong>D</strong> is correct."
+      "content": "Substituting $m = 69$ and $b = 3$ into the slope-intercept form gives $f(x) = 69x + 3$. That matches choice D \u2014 <strong>D</strong> is correct.",
+      "desmosExpressions": ["y = 69x + 3", "(0, 3)"]
     }
   ]
 }

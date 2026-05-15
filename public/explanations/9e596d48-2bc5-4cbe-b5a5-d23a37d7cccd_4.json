@@ -1,1 +1,19 @@
-{"questionId":"9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_4","correctAnswer":"A","section":"Math","steps":[{"title":"Use point-slope form","content":"With slope $51$ through $(0,0)$: $y-0=51(x-0)$, so $f(x)=51x+b$ with $b$ to determine."},{"title":"Solve for the unknown","content":"Plugging $(0,0)$: $0=51(0)+b\\Rightarrow b=0$, so $f(x)=51x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use point-slope form",
+      "content": "With slope $51$ through $(0,0)$: $y-0=51(x-0)$, so $f(x)=51x+b$ with $b$ to determine."
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Plugging $(0,0)$: $0=51(0)+b\\Rightarrow b=0$, so $f(x)=51x$. That matches choice <strong>A</strong> — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "y = 51x",
+        "(0, 0)"
+      ]
+    }
+  ]
+}
