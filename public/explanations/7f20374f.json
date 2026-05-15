@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the causal relationship",
-      "content": "The passage establishes that House districts are designed to be roughly equal in population (averaging 760,000) but then notes that Alaska has fewer people (730,000). This sets up a logical expectation: what is the consequence or result of Alaska being smaller than average?"
+      "title": "Identify what the question needs",
+      "content": "This is a Transitions question. The passage explains that House districts average 760,000 people, then states Alaska has only 730,000 — a cause. The blank introduces the effect: Alaska has just one district covering the whole state. The transition must signal a cause-and-effect relationship."
     },
     {
-      "title": "Match the transition to show causality",
-      "content": "<strong>As a result</strong> correctly shows that Alaska's smaller population results in it having one House district encompassing the entire state\u2014the natural outcome when a state's population falls below the average size. <br/><br/>The other options fail because \u201cInstead\u201d suggests mere contrast without showing consequence, \u201cFinally\u201d implies sequence in a list of items, and \u201cFor instance\u201d presents Alaska as an example rather than explaining what follows logically from Alaska being smaller than average. <br/><br/>That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A &mdash; 'As a result,'</strong>: signals that what follows is a consequence of what came before. Alaska's population falling below the district average directly causes it to have only one district. &#10003;</li><li><strong>Choice B &mdash; 'Instead,'</strong>: signals contrast or substitution — it would imply Alaska does something different rather than because of its population size. The sentence is not presenting an alternative; it is presenting an outcome. &#10007;</li><li><strong>Choice C &mdash; 'Finally,'</strong>: signals the last item in a sequence or a concluding step in a process. The passage is not listing a series of steps; it is explaining a consequence of Alaska's population. &#10007;</li><li><strong>Choice D &mdash; 'For instance,'</strong>: signals that what follows is an example of a general claim. Alaska's one-district situation is the result of its population size, not merely an illustration of the average-size-district point. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

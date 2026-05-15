@@ -1,15 +1,1 @@
-{
-  "questionId": "e11af9a4-0499-4c66-b721-ff21024ff5d1_23",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key relationship",
-      "content": "Gruen conceived the mall as a communal gathering space for strolling and lingering. The second sentence then describes his actual design with promenades, seating, fountains, and greenery. The design is a direct consequence of his original vision."
-    },
-    {
-      "title": "Match the signal",
-      "content": "The logical relationship is cause-and-effect: Gruen's vision of an indoor town square caused him to design the mall with pedestrian-friendly features. The blank needs a transition word signaling that the design choices follow logically from the vision.\n<ul>\n<li><strong>Choice A — \"Regardless,\"</strong>: signals that something happens despite an opposing force, so it fails because no obstacle is being overcome here. ✘</li>\n<li><strong>Choice B — \"By contrast,\"</strong>: signals opposition, so it fails because the design aligns with, not contradicts, Gruen's communal vision. ✘</li>\n<li><strong>Choice C — \"Accordingly,\"</strong>: signals that what follows is a logical consequence of what came before, so it fits — the promenades and seating directly result from his vision of a communal strolling space. ✓</li>\n<li><strong>Choice D — \"In addition,\"</strong>: signals a new parallel point, so it fails because the design is not a separate fact alongside the vision — it is the vision put into practice. ✘</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"e11af9a4-0499-4c66-b721-ff21024ff5d1_23","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify what the question needs","content":"This is a Transitions question. The first sentence establishes Gruen&rsquo;s vision: a communal indoor space that encouraged strolling and lingering. The second sentence describes his actual design &mdash; promenades, seating, fountains, greenery. The design is a direct result of the vision, so the transition must signal logical consequence."},{"title":"Eliminate the choices","content":"<ul><li><strong>Choice A &mdash; &lsquo;Regardless,&rsquo;</strong>: Signals that something happens despite an opposing force or obstacle. No obstacle is mentioned, so this transition misrepresents the relationship between vision and design. &#10007;</li><li><strong>Choice B &mdash; &lsquo;By contrast,&rsquo;</strong>: Signals opposition or difference. The design does not contrast with the vision &mdash; it expresses it &mdash; so this transition is logically backwards. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Accordingly,&rsquo;</strong>: Signals that what follows is a logical consequence of what preceded it. The pedestrian-friendly promenades and seating follow logically from Gruen&rsquo;s vision of a communal strolling space. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In addition,&rsquo;</strong>: Signals an additional, parallel point. The design is not a separate new fact alongside the vision &mdash; it is the vision put into practice &mdash; so an additive transition misstates the relationship. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
