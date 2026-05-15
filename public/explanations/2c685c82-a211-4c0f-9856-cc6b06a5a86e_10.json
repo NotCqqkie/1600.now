@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the graph at the start and end times",
-      "content": "At $x = 0$ minutes (when Maksim left the water fountain), the graph shows $y = 0$ meters. At $x = 10$ minutes, the graph shows $y = 600$ meters."
+      "title": "Read the value of y at x = 10",
+      "content": "The variable $y$ represents the total distance, in meters, Maksim had walked since leaving the water fountain, and $x$ is the time in minutes after he left. Read the graph at $x = 10$ minutes: the line reaches $y = 600$ meters."
     },
     {
-      "title": "Find the distance walked as the change in total distance",
-      "content": "Distance walked = $y(10) - y(0) = 600 - 0 = 600$ meters. The answer is <strong>600</strong>."
+      "title": "Interpret the value as distance walked",
+      "content": "Since $y$ already measures the distance Maksim walked after leaving the fountain, the value at $x = 10$ is the distance walked during those 10 minutes: $600$ meters. The answer is <strong>600</strong>."
     }
   ]
 }

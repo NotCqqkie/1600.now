@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understanding average rate of change",
-      "content": "To find the greatest average rate of decrease, we calculate the temperature drop over each 10-minute interval: $$\\text{Average rate} = \\frac{\\text{Temperature change}}{10 \\text{ minutes}}$$ The most negative value indicates the steepest decline."
+      "title": "Set up the average rate over a 10-minute interval",
+      "content": "$$\\text{Average rate} = \\frac{T(\\text{end}) - T(\\text{start})}{10\\text{ min}}.$$ The greatest <em>decrease</em> corresponds to the most negative value (largest drop in temperature)."
     },
     {
-      "title": "Read temperatures from the graph",
-      "content": "From the scatterplot, identify the temperature at each relevant time: <ul><li>At 0 min: 200\u00b0F</li><li>At 10 min: 160\u00b0F</li><li>At 30 min: 130\u00b0F</li><li>At 40 min: 120\u00b0F</li><li>At 50 min: 110\u00b0F</li><li>At 60 min: 100\u00b0F</li><li>At 90 min: 80\u00b0F</li><li>At 100 min: 75\u00b0F</li></ul>"
+      "title": "Read the temperatures at each endpoint from the graph",
+      "content": "From the scatterplot:<ul><li>$t=0$ min: about $195^{\\circ}\\text{F}$</li><li>$t=10$ min: about $155^{\\circ}\\text{F}$</li><li>$t=30$ min: about $120^{\\circ}\\text{F}$</li><li>$t=40$ min: about $105^{\\circ}\\text{F}$</li><li>$t=50$ min: about $100^{\\circ}\\text{F}$</li><li>$t=60$ min: about $90^{\\circ}\\text{F}$</li><li>$t=90$ min: about $80^{\\circ}\\text{F}$</li><li>$t=100$ min: about $75^{\\circ}\\text{F}$</li></ul>"
     },
     {
-      "title": "Calculate average rate for each interval",
-      "content": "<strong>Choice A</strong> (0\u201310 min): $\\frac{160 - 200}{10} = \\frac{-40}{10} = -4\u00b0F/\\text{min}$ <br/> <strong>Choice B</strong> (30\u201340 min): $\\frac{120 - 130}{10} = \\frac{-10}{10} = -1\u00b0F/\\text{min}$ <br/> <strong>Choice C</strong> (50\u201360 min): $\\frac{100 - 110}{10} = \\frac{-10}{10} = -1\u00b0F/\\text{min}$ <br/> <strong>Choice D</strong> (90\u2013100 min): $\\frac{75 - 80}{10} = \\frac{-5}{10} = -0.5\u00b0F/\\text{min}$ <br/><br/> The largest rate of decrease is \u22124\u00b0F/min between 0 and 10 minutes. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Compute each interval's average rate and pick the largest drop",
+      "content": "Choice A (0–10): $\\frac{155-195}{10} = -4.0^{\\circ}\\text{F/min}$<br/>Choice B (30–40): $\\frac{105-120}{10} = -1.5^{\\circ}\\text{F/min}$<br/>Choice C (50–60): $\\frac{90-100}{10} = -1.0^{\\circ}\\text{F/min}$<br/>Choice D (90–100): $\\frac{75-80}{10} = -0.5^{\\circ}\\text{F/min}$<br/><br/>The most negative rate is $-4.0^{\\circ}\\text{F/min}$ on $[0, 10]$. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

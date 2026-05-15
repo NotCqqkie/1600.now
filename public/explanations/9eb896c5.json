@@ -4,17 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify trend direction to eliminate half the choices",
-      "content": "The scatterplot shows a clear <strong>positive correlation</strong>: as $x$ increases, $y$ increases. Choices C and D both have negative slopes, which would predict the opposite trend (equations $y = -0.8x + 3$ and $y = -3x + 0.8$). Both C and D are eliminated, leaving A and B."
+      "title": "Eliminate the negative-slope choices",
+      "content": "The scatterplot shows a clear positive trend — as $x$ increases, $y$ increases. Choices C ($y = -0.8x + 3$) and D ($y = -3x + 0.8$) both have negative slopes and predict the opposite trend, so they are eliminated."
     },
     {
-      "title": "Backsolving — testing choice B (y = 0.8x + 3):",
-      "content": "At $x = 8$, choice B predicts:<br/>$$y = 0.8(8) + 3 = 6.4 + 3 = 9.4$$<br/>The actual data point near $x = 8$ shows $y \\approx 26$. The predicted value of 9.4 is far too low. <strong>B fails</strong>—the slope of 0.8 is too shallow to fit the data."
-    },
-    {
-      "title": "Backsolving — testing choice A (y = 3x + 0.8):",
-      "content": "Check multiple points:<ul><li>At $x = 1$: $y = 3(1) + 0.8 = 3.8$; actual data $\\approx 4$ ✓</li><li>At $x = 4$: $y = 3(4) + 0.8 = 12.8$; actual data $\\approx 14$ ✓</li><li>At $x = 8$: $y = 3(8) + 0.8 = 24.8$; actual data $\\approx 26$ ✓</li></ul>Choice A consistently fits the data across the range. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = 3x + 0.8"]
+      "title": "Compare the two positive-slope choices at a data point",
+      "content": "The rightmost data point is near $(8, 26)$.<br/>Choice B predicts $y = 0.8(8) + 3 = 9.4$ — far below the actual value.<br/>Choice A predicts $y = 3(8) + 0.8 = 24.8$ — very close to 26.<br/>Choice A also matches the leftmost point near $(1, 4)$: $y = 3(1) + 0.8 = 3.8$. That matches choice A — <strong>A</strong> is correct.",
+      "desmosExpressions": [
+        "(1, 4)",
+        "(2, 7)",
+        "(3, 10)",
+        "(4, 13)",
+        "(5, 15)",
+        "(6, 18)",
+        "(7, 22)",
+        "(8, 26)",
+        "y = 3x + 0.8"
+      ]
     }
   ]
 }

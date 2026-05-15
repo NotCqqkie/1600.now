@@ -2,10 +2,11 @@
   "questionId": "5f3ee607",
   "correctAnswer": "B",
   "section": "Math",
+  "needs_review": true,
   "steps": [
     {
       "title": "Determine slope direction",
-      "content": "The scatterplot likely shows a downward trend since two answer choices ($$y=-1.9x\u00b110.1$$) have negative slopes and two ($$y=1.9x\u00b110.1$$) have positive slopes. A negative slope means the line decreases as $x$ increases, which matches the likely negative correlation in the scatterplot."
+      "content": "The scatterplot likely shows a downward trend since two answer choices ($$y=-1.9x±10.1$$) have negative slopes and two ($$y=1.9x±10.1$$) have positive slopes. A negative slope means the line decreases as $x$ increases, which matches the likely negative correlation in the scatterplot."
     },
     {
       "title": "Analyze y-intercept sign",
@@ -13,7 +14,7 @@
     },
     {
       "title": "Match to answer choices",
-      "content": "Combining negative slope requirement (ruling out C and D) with positive y-intercept confirmation (ruling out A) leaves only choice B. That matches choice B \u2014 <strong>B</strong> is correct.",
+      "content": "Combining negative slope requirement (ruling out C and D) with positive y-intercept confirmation (ruling out A) leaves only choice B. That matches choice B — <strong>B</strong> is correct.",
       "desmosExpressions": ["y = -1.9x + 10.1"]
     }
   ]

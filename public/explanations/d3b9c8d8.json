@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what box plots reveal\u2014and what they don't",
-      "content": "A box plot shows the median as the vertical line inside the box. It does NOT show the mean. Choices A and B claim facts about means, which cannot be determined from a box plot alone. Only C and D make claims about medians, which are directly visible. We can immediately eliminate A and B."
+      "title": "Identify what box plots reveal",
+      "content": "A box plot shows the median as the vertical line inside the box; it does <em>not</em> show the mean. Choices A and B make claims about means, which cannot be determined from a box plot alone, so we can immediately eliminate them."
     },
     {
       "title": "Read the median from each box plot",
-      "content": "The median is the line dividing the box. For Group 1, this line falls at 24 kg. For Group 2, this line falls at approximately 23 kg (positioned between the box edges that span from about 23 to 26). Group 1's median is clearly positioned to the right of Group 2's median on the scale."
+      "content": "The median is the vertical line dividing each box. For Group 1, this line sits at about 25 kg. For Group 2, this line sits at about 24 kg. Group 1's median line is positioned to the right of Group 2's median line on the mass scale."
     },
     {
       "title": "Compare the medians and select the correct choice",
-      "content": "Group 1's median (24 kg) is greater than Group 2's median (~23 kg). That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Group 1's median ($\\approx 25$ kg) is greater than Group 2's median ($\\approx 24$ kg). That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

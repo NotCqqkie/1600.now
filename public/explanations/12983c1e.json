@@ -4,14 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Table lookup",
-      "content": "The table shows that when $x = 0$, $f(x) = 1$."
+      "title": "Find the slope from two table points",
+      "content": "Using $(1, 5)$ and $(3, 13)$ from the table:<br/>$$m = \\frac{13 - 5}{3 - 1} = \\frac{8}{2} = 4$$"
     },
     {
-      "title": "Backsolving using point (0,1)",
-      "content": "Backsolving — testing choice B (3x+2):<br/>Plugging $x = 0$ gives $3(0)+2 = 2$, which does not equal the table value $1$.<br/>Fails. Testing choice C (4x+1):<br/>Plugging $x = 0$ gives $4(0)+1 = 1$, which matches the table value.<br/>That matches choice C — <strong>C</strong> is correct.",
+      "title": "Build the linear form and find the constant",
+      "content": "With $f(x) = 4x + b$, plug in $(1, 5)$: $5 = 4(1) + b \\Rightarrow b = 1$. So $f(x) = 4x + 1$."
+    },
+    {
+      "title": "Verify with the remaining point",
+      "content": "Check $(5, 21)$: $4(5) + 1 = 21$. &#10003; That matches choice C &mdash; <strong>C</strong> is correct.",
       "desmosExpressions": [
-        "y=4x+1"
+        "y=4x+1",
+        "(1,5)",
+        "(3,13)",
+        "(5,21)"
       ]
     }
   ]

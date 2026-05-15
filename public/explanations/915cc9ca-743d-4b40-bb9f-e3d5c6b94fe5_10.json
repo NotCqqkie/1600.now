@@ -2,6 +2,7 @@
   "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10",
   "correctAnswer": "A",
   "section": "Math",
+  "needs_review": true,
   "steps": [
     {
       "title": "Identify the y-intercept and slope from the graph",
@@ -9,7 +10,7 @@
     },
     {
       "title": "Check which form produces the correct slope",
-      "content": "Rearrange each option to slope-intercept form and check the slope sign:<br/><br/>Option A ($Rx + 12y = 18$): $12y = -Rx + 18 \\Rightarrow y = -\\frac{R}{12}x + 1.5$. Since $R > 0$, the slope $-\\frac{R}{12}$ is negative. <strong>\u2713</strong><br/><br/>Option B ($Rx - 12y = -18$): $12y = Rx + 18 \\Rightarrow y = \\frac{R}{12}x + 1.5$. Since $R > 0$, the slope $\\frac{R}{12}$ is positive. <strong>\u2717</strong><br/><br/>The graph shows a negative slope, matching option A. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Rearrange each option to slope-intercept form and check the slope sign:<br/><br/>Option A ($Rx + 12y = 18$): $12y = -Rx + 18 \\Rightarrow y = -\\frac{R}{12}x + 1.5$. Since $R > 0$, the slope $-\\frac{R}{12}$ is negative. <strong>✓</strong><br/><br/>Option B ($Rx - 12y = -18$): $12y = Rx + 18 \\Rightarrow y = \\frac{R}{12}x + 1.5$. Since $R > 0$, the slope $\\frac{R}{12}$ is positive. <strong>✗</strong><br/><br/>The graph shows a negative slope, matching option A. That matches choice A — <strong>A</strong> is correct."
     }
   ]
 }

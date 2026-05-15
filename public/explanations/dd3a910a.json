@@ -5,14 +5,14 @@
   "steps": [
     {
       "title": "Identify the two functions shown",
-      "content": "The graph displays two functions:<ul><li>A V-shaped absolute value function with vertex at (3, 2)</li><li>A straight line (the linear function)</li></ul>"
+      "content": "The graph displays two functions:<ul><li>A V-shaped absolute value function with vertex at $(4, 2)$</li><li>A straight line passing through $(0, 4)$ with slope $1$, so $y = x + 4$</li></ul>"
     },
     {
       "title": "Read the intersection point from the grid",
-      "content": "Following the curves on the coordinate grid, the straight line intersects the left branch of the absolute value function at the point where $x = 1$ and $y = 5$. That matches choice C — <strong>C</strong> is correct.",
+      "content": "The straight line meets the left branch of the absolute value function at the point where $x = 1$ and $y = 5$. That matches choice C — <strong>C</strong> is correct.",
       "desmosExpressions": [
-        "y = |x - 1| + 1",
-        "y = 2"
+        "y = \\left|x - 4\\right| + 2",
+        "y = x + 4"
       ]
     }
   ]
