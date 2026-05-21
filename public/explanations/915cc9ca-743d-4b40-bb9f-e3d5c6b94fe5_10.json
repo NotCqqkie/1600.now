@@ -1,16 +1,1 @@
-{
-  "questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10",
-  "correctAnswer": "A",
-  "section": "Math",
-  "needs_review": true,
-  "steps": [
-    {
-      "title": "Identify the y-intercept and slope from the graph",
-      "content": "The line crosses the y-axis at $y = 1.5$ and descends from left to right, indicating a negative slope."
-    },
-    {
-      "title": "Check which form produces the correct slope",
-      "content": "Rearrange each option to slope-intercept form and check the slope sign:<br/><br/>Option A ($Rx + 12y = 18$): $12y = -Rx + 18 \\Rightarrow y = -\\frac{R}{12}x + 1.5$. Since $R > 0$, the slope $-\\frac{R}{12}$ is negative. <strong>✓</strong><br/><br/>Option B ($Rx - 12y = -18$): $12y = Rx + 18 \\Rightarrow y = \\frac{R}{12}x + 1.5$. Since $R > 0$, the slope $\\frac{R}{12}$ is positive. <strong>✗</strong><br/><br/>The graph shows a negative slope, matching option A. That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read the graph", "content": "The line crosses the $y$-axis at $y=1.5$ (a positive $y$-intercept) and slopes downward from left to right, so its slope is negative."}, {"title": "Convert each choice to slope-intercept form", "content": "Solve each equation for $y$ and use $R>0$ to determine the sign of the slope and the value of the $y$-intercept."}, {"title": "Evaluate each choice", "content": "<ul><li>A) $Rx+12y=18 \\Rightarrow y=-\\frac{R}{12}x+\\frac{3}{2}$. Slope $-\\frac{R}{12}<0$ and $y$-intercept $1.5$. Matches the graph.</li><li>B) $Rx-12y=-18 \\Rightarrow y=\\frac{R}{12}x+\\frac{3}{2}$. Slope is positive. Eliminated.</li><li>C) $Rx+12y=-18 \\Rightarrow y=-\\frac{R}{12}x-\\frac{3}{2}$. $y$-intercept is $-1.5$. Eliminated.</li><li>D) $Rx-12y=18 \\Rightarrow y=\\frac{R}{12}x-\\frac{3}{2}$. Slope positive and $y$-intercept negative. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

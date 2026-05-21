@@ -1,15 +1,1 @@
-{
-  "questionId": "d8e84431",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Express width in terms of length",
-      "content": "Length is $x$ inches. Since length is 24 inches longer than width:<br/>$$\\text{width} = x - 24$$"
-    },
-    {
-      "title": "Apply the area formula and expand",
-      "content": "Area = length $\\times$ width, so:<br/>$$x(x - 24) = 2,661$$<br/>Expanding the left side:<br/>$$x^2 - 24x = 2,661$$<br/>Subtracting 2,661 from both sides:<br/>$$x^2 - 24x - 2,661 = 0$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d8e84431", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Write the width in terms of $x$", "content": "Let $x$ be the length, in inches. The length is $24$ inches longer than the width, so:<br/>$$\\text{width} = x - 24.$$"}, {"title": "Apply the area formula", "content": "Area $=$ length $\\times$ width $= 2{,}661$:<br/>$$x(x - 24) = 2{,}661.$$<br/>Expand: $x^{2} - 24x = 2{,}661$, then move everything to one side:<br/>$$x^{2} - 24x - 2{,}661 = 0.$$"}, {"title": "Compare to each choice", "content": "<ul><li>A. $0 = x^{2} - 24x - 2{,}661$: matches the derived equation exactly.</li><li>B. $0 = x^{2} - 24x + 2{,}661$: wrong sign on the constant; would mean $x(x-24) = -2{,}661$.</li><li>C. $0 = x^{2} + 24x - 2{,}661$: would correspond to width $= x + 24$, which contradicts &quot;length is longer than width&quot;.</li><li>D. $0 = x^{2} + 24x + 2{,}661$: discriminant $24^{2} - 4(2{,}661) < 0$, no real solution, so no valid length.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

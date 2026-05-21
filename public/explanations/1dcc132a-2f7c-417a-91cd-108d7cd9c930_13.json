@@ -1,15 +1,1 @@
-{
-  "questionId": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_13",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Rearrange and factor the equation",
-      "content": "Starting with $x - a = (x - a)(x - 24)$, move the right side to the left side:<br/>$$x - a - (x - a)(x - 24) = 0$$<br/>Factor out the common factor $(x - a)$:<br/>$$(x - a)[1 - (x - 24)] = 0$$<br/>Simplify the bracket:<br/>$$(x - a)(25 - x) = 0$$<br/>This factored form tells us that $x = a$ or $x = 25$ are solutions."
-    },
-    {
-      "title": "Test all three options",
-      "content": "<strong>Option I: $x = a$</strong><br/>This makes the first factor $(x - a) = 0$ in our factored equation. \u2713<br/><br/><strong>Option II: $x = 24$</strong><br/>Substitute into the original equation: $24 - a = (24 - a)(0) = 0$.<br/>This requires $a = 24$, but we're given $a > 25$. \u2717<br/><br/><strong>Option III: $x = 25$</strong><br/>This makes the second factor $(25 - x) = 0$ in our factored equation. \u2713<br/><br/>Only options I and III are valid. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"1dcc132a-2f7c-417a-91cd-108d7cd9c930_13","correctAnswer":"B","section":"Math","steps":[{"title":"Move everything to one side and factor","content":"Start with $x-a=(x-a)(x-24)$ and subtract the right side:$$(x-a)-(x-a)(x-24)=0$$Factor out $(x-a)$:$$(x-a)\\bigl[1-(x-24)\\bigr]=0\\Rightarrow (x-a)(25-x)=0$$So the solutions are $x=a$ and $x=25$."},{"title":"Check each candidate, using $a&gt;25$","content":"<strong>I. $x=a$:</strong> sets the first factor $(x-a)=0$, so it is always a solution. &check;<br/><strong>II. $x=24$:</strong> plug into the original: $24-a=(24-a)(24-24)=0$, which forces $a=24$. But $a&gt;25$, so this is impossible. &cross;<br/><strong>III. $x=25$:</strong> sets the second factor $(25-x)=0$, so it is always a solution. &check;<br/>Valid solutions: I and III only."},{"title":"Match to the answer choices","content":"<ul><li><strong>A) I and II only:</strong> includes $24$, which fails when $a&gt;25$. &cross;</li><li><strong>B) I and III only:</strong> exactly the two solutions we found. &check;</li><li><strong>C) II and III only:</strong> drops $x=a$, which is always a root, and keeps $24$, which is not. &cross;</li><li><strong>D) I, II, and III:</strong> includes $24$, which is not a solution for $a&gt;25$. &cross;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

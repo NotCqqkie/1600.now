@@ -1,15 +1,1 @@
-{
-  "questionId": "cf956802",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage states, &ldquo;As he gained more customers, New began using sewing machines and other tools to help him produce bags more efficiently&hellip;.&rdquo; This directly links sewing machines to meeting increased demand."
-    },
-    {
-      "title": "Match the logical consequence",
-      "content": "Choice B aligns with the signal, as not using sewing machines would hinder meeting customer demand. The other choices either reverse cause-effect relationships (A, C) or miss the production-demand context entirely (D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"section":"Reading and Writing","correctAnswer":"B","steps":[{"title":"Question type","content":"Reading comprehension &mdash; hypothetical consequence. The passage says New began using sewing machines &quot;as he gained more customers&quot; to &quot;produce bags more efficiently.&quot; Identify what would have happened without that change."},{"title":"Reasoning","content":"The machines were adopted in response to growing demand, so without them he would have struggled to keep up with that demand."},{"title":"Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; 'unable to ensure unique handcrafted details'</strong>: backwards &mdash; the passage says he &quot;continued to handcraft the crucial details,&quot; so handcrafting did not depend on machines. &#10007;</li><li><strong>Choice C &mdash; 'individually design each bag'</strong>: the text never discusses designing each bag individually; machines were about production efficiency, not design. Out of scope. &#10007;</li><li><strong>Choice D &mdash; 'not generate as much interest'</strong>: interest came from his craftsmanship and reputation, not from machine use; the passage links machines only to output volume. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

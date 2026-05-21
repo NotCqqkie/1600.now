@@ -1,15 +1,1 @@
-{
-  "questionId": "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_5",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by v squared to clear the denominator",
-      "content": "Starting with $47=\\frac{2K}{v^{2}}$, multiply both sides by $v^2$: $$47v^2 = 2K$$"
-    },
-    {
-      "title": "Divide by 47 and take the square root",
-      "content": "Divide both sides by 47 to isolate $v^2$: $$v^2 = \\frac{2K}{47}$$ Since $v > 0$, take the positive square root of both sides: $$v = \\sqrt{\\frac{2K}{47}}$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"section":"Math","correctAnswer":"A","steps":[{"title":"Solve for v^2","content":"Start with 47 = \\frac{2K}{v^2}. Multiply both sides by v^2: 47 v^2 = 2K. Divide both sides by 47: v^2 = \\frac{2K}{47}."},{"title":"Take the positive square root","content":"Since v is positive, v = \\sqrt{\\frac{2K}{47}}."},{"title":"Match against the choices","content":"<ul><li>Choice A: v = \\sqrt{\\frac{2K}{47}}. Matches exactly. Works.</li><li>Choice B: v = \\sqrt{\\frac{47}{2K}} has the fraction inverted. Eliminated.</li><li>Choice C: v = \\frac{47^2}{2K} is not a square root and the form is wrong. Eliminated.</li><li>Choice D: v = \\frac{2K}{47^2} is not a square root and uses 47^2. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

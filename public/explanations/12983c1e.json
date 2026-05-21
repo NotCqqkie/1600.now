@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the slope from two table points",
-      "content": "Using $(1, 5)$ and $(3, 13)$ from the table:<br/>$$m = \\frac{13 - 5}{3 - 1} = \\frac{8}{2} = 4$$"
+      "content": "Using the points $(1, 5)$ and $(3, 13)$ from the table:<br/>$$m = \\frac{13 - 5}{3 - 1} = \\frac{8}{2} = 4$$"
     },
     {
-      "title": "Build the linear form and find the constant",
-      "content": "With $f(x) = 4x + b$, plug in $(1, 5)$: $5 = 4(1) + b \\Rightarrow b = 1$. So $f(x) = 4x + 1$."
+      "title": "Find the y-intercept",
+      "content": "With $f(x) = 4x + b$, plug in $(1, 5)$:<br/>$5 = 4(1) + b \\Rightarrow b = 1$.<br/>So $f(x) = 4x + 1$."
     },
     {
-      "title": "Verify with the remaining point",
-      "content": "Check $(5, 21)$: $4(5) + 1 = 21$. &#10003; That matches choice C &mdash; <strong>C</strong> is correct.",
+      "title": "Verify and eliminate the other choices",
+      "content": "Check $(5, 21)$: $4(5) + 1 = 21$. &#10003;<ul><li>A) $f(x)=2x+3$: $f(1)=5$ &#10003; but $f(3)=9\\neq 13$. Eliminated.</li><li>B) $f(x)=3x+2$: $f(1)=5$ &#10003; but $f(3)=11\\neq 13$. Eliminated.</li><li>C) $f(x)=4x+1$: $f(1)=5$, $f(3)=13$, $f(5)=21$. All match.</li><li>D) $f(x)=5x$: $f(1)=5$ &#10003; but $f(3)=15\\neq 13$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
       "desmosExpressions": [
         "y=4x+1",
         "(1,5)",

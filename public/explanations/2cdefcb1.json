@@ -1,15 +1,1 @@
-{
-  "questionId": "2cdefcb1",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the conversion factor",
-      "content": "We need to convert 51 meters to centimeters. The given conversion is 1 meter = 100 centimeters."
-    },
-    {
-      "title": "Multiply by the conversion factor",
-      "content": "To convert 51 meters to centimeters, multiply:$$51 \\text{ meters} \\times 100 = 5,100 \\text{ centimeters}$$That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"2cdefcb1","correctAnswer":"C","section":"Math","steps":[{"title":"Set up the conversion","content":"We are told that $1\\text{ meter}=100\\text{ centimeters}$, so multiply the number of meters by $100$ to get centimeters."},{"title":"Convert 51 meters to centimeters","content":"$$51\\text{ m}\\times\\frac{100\\text{ cm}}{1\\text{ m}}=5{,}100\\text{ cm}$$"},{"title":"Evaluate each choice","content":"<ul><li>A) $0.051$ &mdash; this is $51$ divided by $1000$, not multiplied by $100$. Eliminated.</li><li>B) $0.51$ &mdash; this divides by $100$ instead of multiplying. Eliminated.</li><li>C) $5{,}100$ &mdash; this equals $51\\times 100$. Matches.</li><li>D) $51{,}000$ &mdash; this multiplies by $1000$, which would be the conversion to millimeters. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

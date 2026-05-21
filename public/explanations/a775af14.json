@@ -1,17 +1,1 @@
-{
-  "questionId": "a775af14",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope using the two points",
-      "content": "Using points $(0, 2)$ and $(8, 34)$, calculate:<br/>\n$$m = \\frac{34 - 2}{8 - 0} = \\frac{32}{8} = 4$$",
-      "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
-    },
-    {
-      "title": "Write the linear equation",
-      "content": "The point $(0, 2)$ tells us the y-intercept is $b = 2$. With slope $m = 4$:<br/>\n$$f(x) = 4x + 2$$<br/>\nThat matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["y=4x+2", "(0,2)", "(8,34)"]
-    }
-  ]
-}
+{"questionId":"a775af14","correctAnswer":"C","section":"Math","steps":[{"title":"Find the slope","content":"Using the two points $(0,2)$ and $(8,34)$:<br/>$$m=\\frac{34-2}{8-0}=\\frac{32}{8}=4$$"},{"title":"Use the y-intercept","content":"The point $(0,2)$ lies on the line, so the y-intercept is $b=2$. With slope $4$ and y-intercept $2$, the function is $f(x)=4x+2$."},{"title":"Eliminate each choice","content":"<ul><li>A) $f(x)=2x+42$: gives $f(0)=42\\neq 2$. Eliminate.</li><li>B) $f(x)=32x+36$: gives $f(0)=36\\neq 2$. Eliminate.</li><li>C) $f(x)=4x+2$: gives $f(0)=2$ and $f(8)=34$. Keep.</li><li>D) $f(x)=8x+2$: gives $f(8)=66\\neq 34$. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

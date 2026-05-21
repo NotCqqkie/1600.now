@@ -1,15 +1,1 @@
-{
-  "questionId": "908a76b8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent and its number",
-      "content": "The dependent clause \u201cWhen a given industry\u2014water and electricity are two well-known examples\u2014carries high infrastructural start-up costs and other barriers that discourage competition\u201d has the singular subject \u201ca given industry,\u201d which serves as the antecedent for the pronoun that will begin the independent clause following the comma."
-    },
-    {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "A pronoun must be singular to match its singular antecedent. \u201cIt\u201d is singular and correctly refers to the antecedent, matching the singular verb \u201cconsists.\u201d \u201cThese\u201d and \u201cthey\u201d are plural pronouns that violate pronoun-antecedent agreement. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"908a76b8","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Find the antecedent","content":"The dependent clause's subject is &quot;a given industry&quot; &mdash; singular. The pronoun that opens the main clause must refer back to that singular noun. (&quot;Water and electricity&quot; are examples set off by dashes, not the grammatical subject.)"},{"title":"Apply pronoun-antecedent agreement","content":"A singular antecedent requires a singular pronoun and a singular verb. Only &quot;it... consists&quot; satisfies both."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'these often consist'</strong>: plural pronoun and plural verb &mdash; violates pronoun-antecedent agreement with singular &quot;industry.&quot; &#10007;</li><li><strong>Choice B &mdash; 'they often consist'</strong>: same problem &mdash; plural pronoun for a singular antecedent. &#10007;</li><li><strong>Choice C &mdash; 'it often consists'</strong>: singular pronoun and singular verb that match &quot;a given industry.&quot; &#10003;</li><li><strong>Choice D &mdash; 'this often consists'</strong>: &quot;this&quot; as a standalone pronoun is vague/incorrect here &mdash; a personal pronoun &quot;it&quot; is needed to refer to the specific antecedent &quot;industry.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

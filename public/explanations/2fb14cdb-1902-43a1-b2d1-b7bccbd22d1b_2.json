@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate annual deposits from each account",
-      "content": "Account 1: Micah deposits $x$ dollars once each month. Over 12 months, that's $12x$.<br/>Account 2: Micah deposits $y$ dollars twice monthly, which is $2y$ per month. Over 12 months: $2y \\cdot 12 = 24y$ dollars."
+      "title": "Translate the first account's yearly total",
+      "content": "Micah deposits $x$ dollars once each month for 12 months, so the yearly total for the first account is $12x$."
     },
     {
-      "title": "Set up the equation for total deposits",
-      "content": "Combining both accounts, the total equation is $$6,600 = 12x + 24y$$. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Translate the second account's yearly total",
+      "content": "He deposits $y$ dollars twice each month, so each month contributes $2y$. Over 12 months that is $12 \\cdot 2y = 24y$."
+    },
+    {
+      "title": "Add the totals and compare with the choices",
+      "content": "The two accounts combine to $6{,}600$: $$6{,}600 = 12x + 24y.$$<ul><li>A) $6{,}600 = 12x + 12y$: treats $y$ as deposited only once a month. Eliminated.</li><li>B) $6{,}600 = 12x + 24y$: correct yearly totals for both accounts.</li><li>C) $6{,}600 = 24x + 12y$: swaps the once-vs-twice roles. Eliminated.</li><li>D) $6{,}600 = 24x + 24y$: doubles the first account incorrectly. Eliminated.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

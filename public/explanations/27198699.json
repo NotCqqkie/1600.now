@@ -1,16 +1,1 @@
-{
-  "questionId": "27198699",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate the function at the starting moment",
-      "content": "At the start of the project, $x = 0$. Evaluating the function $f(x) = 33 - 0.18x$: $$f(0) = 33 - 0.18(0) = 33$$ The height is 33 cm at the beginning."
-    },
-    {
-      "title": "Determine what 33 represents in context",
-      "content": "Since 33 is the value of $f(x)$ when $x = 0$ (the start of the project), the number 33 represents the estimated height of the liquid at the start. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y=33-0.18x"]
-    }
-  ]
-}
+{"questionId": "27198699", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Interpret the function form", "content": "The model $f(x) = 33 - 0.18x$ is linear in $x$, the number of days after the start. The constant term $33$ is the $y$-intercept, the value when $x = 0$."}, {"title": "Evaluate at the start of the project", "content": "At $x = 0$ days: $f(0) = 33 - 0.18(0) = 33$ cm.<br/><br/>So $33$ is the estimated height of the liquid at the start of the project. The other constant, $-0.18$, is the per-day rate of change (a separate quantity)."}, {"title": "Check each choice", "content": "<ul><li>A. Height at the start: matches $f(0) = 33$.</li><li>B. Height at the end: the problem gives no end date, and the height changes over time, so $33$ doesn't represent an ending height.</li><li>C. Daily change in height: that's $-0.18$ cm/day, not $33$.</li><li>D. Days for the liquid to fully evaporate: solving $33 - 0.18x = 0$ gives $x \\approx 183$ days, not $33$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

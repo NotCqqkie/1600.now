@@ -1,15 +1,1 @@
-{
-  "questionId": "b633cc4f",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining claim",
-      "content": "\u201dSeals had never been seen spitting before\u201d\u2014the passage explicitly marks this as unprecedented behavior."
-    },
-    {
-      "title": "Match the claim to the choices",
-      "content": "Choice B directly captures this: the main topic is a previously unseen behavior of gray seals. The other three choices either focus on incidental details or misrepresent what the passage emphasizes. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b633cc4f", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Summarize what the passage actually does", "content": "The passage opens by noting that few animals spit, then reports that a gray seal was observed spitting at an eagle &mdash; a behavior never seen before in seals &mdash; and closes with a biologist's hypotheses about why."}, {"title": "Identify the unifying topic", "content": "Every sentence centers on this newly observed seal behavior: setup, the sighting, the novelty, and possible explanations. The main topic is a behavior of gray seals that had not been previously documented."}, {"title": "Test each choice against the whole passage", "content": "<ul><li><strong>Choice A &mdash; 'Bird-watching in southern England'</strong>: the bird-watcher and location are setup details, not the topic; the passage is about the seal, not the hobby. &#10007;</li><li><strong>Choice B &mdash; 'A previously unseen behavior of gray seals'</strong>: matches the focus that runs through every sentence. &#10004;</li><li><strong>Choice C &mdash; 'How white-tailed eagles defend their territory'</strong>: the eagle is the target of the spitting, not the subject; the passage never discusses eagle defense. &#10007;</li><li><strong>Choice D &mdash; 'Differences between gray seals and white-tailed eagles'</strong>: no comparison of the two species is made; this misreads the passage. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

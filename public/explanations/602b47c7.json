@@ -1,15 +1,1 @@
-{
-  "questionId": "602b47c7",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the main logical structure",
-      "content": "The passage opens by noting a prediction that \u201chadn't been tested in mountain environments,\u201d then presents Barve's results showing feathers do indeed vary with temperature. The key signal is this movement from untested prediction to supporting evidence."
-    },
-    {
-      "title": "Match the signal to the correct answer",
-      "content": "B directly states that Barve's findings support the prediction. The other choices claim the evidence contradicts, complicates, or challenges the prediction instead. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "602b47c7", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the setup and the finding", "content": "Biologists predicted that feather structure varies with habitat temperature, but it hadn't been tested in mountains. Barve tested 249 Himalayan songbird species across elevations and found high-elevation feathers have more downy sections and are longer."}, {"title": "Relate the finding to the prediction", "content": "Barve's data show feather structure tracks elevation (and thus temperature), which is exactly what the prediction said should happen. The study therefore supports the prediction."}, {"title": "Eliminate by choice", "content": "<ul><li><strong>Choice A &mdash; 'contradicting previous predictions'</strong>: overreach &mdash; the results match, not contradict, the prediction. &#10007;</li><li><strong>Choice B &mdash; 'lending new support to a general prediction'</strong>: matches both the finding (link between temperature and feather structure) and its relation to the prior prediction. &#10003;</li><li><strong>Choice C &mdash; 'feathers without flat and smooth sections'</strong>: misreads the text, which says high-elevation feathers have a greater proportion of downy to flat sections, not that flat sections are absent. &#10007;</li><li><strong>Choice D &mdash; 'feather length more strongly than feather structure'</strong>: the passage never compares the relative strength of length versus structure; this is an unsupported overreach. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

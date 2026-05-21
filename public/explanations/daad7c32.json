@@ -1,16 +1,1 @@
-{
-  "questionId": "daad7c32",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the slope",
-      "content": "The equation $l = 30 + 2w$ is linear. The 2 is the coefficient of $w$, which is the <strong>slope</strong> of the relationship."
-    },
-    {
-      "title": "Interpret the slope in context",
-      "content": "The slope tells us the rate of change: for every 1-unit increase in the independent variable, the dependent variable increases by the slope value. Here, for each 1-newton increase in weight, the spring length increases by 2 centimeters. This matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["y=30+2x"]
-    }
-  ]
-}
+{"questionId":"daad7c32","correctAnswer":"D","section":"Math","steps":[{"title":"Identify the slope","content":"The equation $l = 30 + 2w$ is linear in slope-intercept form. The 2 is the coefficient of $w$, so it is the slope of $l$ versus $w$."},{"title":"Interpret the slope in context","content":"Slope = (change in dependent variable) / (change in independent variable). Here $l$ (length, cm) depends on $w$ (weight, N), so the 2 means $l$ increases by 2 cm for each 1 N increase in $w$."},{"title":"Eliminate the other choices","content":"<ul><li><strong>A)</strong> Length with no weight &mdash; that's the y-intercept 30, not the 2.</li><li><strong>B)</strong> Weight that stretches the spring 30 cm &mdash; nonsense for the coefficient 2.</li><li><strong>C)</strong> Weight increase per 1 cm of length &mdash; that would be the reciprocal slope $\\tfrac{1}{2}$ N per cm, not 2.</li><li><strong>D)</strong> Length increase per 1 N of weight &mdash; matches the slope of 2 cm per N exactly.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.","desmosExpressions":["y=30+2x"]}]}

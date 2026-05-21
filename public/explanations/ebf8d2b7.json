@@ -1,16 +1,1 @@
-{
-  "questionId": "ebf8d2b7",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Define variables and set up time equation",
-      "content": "Let <em>x</em> be the number of large boxes and <em>y</em> be the number of small boxes.<br/>Each large box takes 10 minutes, so the time spent on large boxes is <em>10x</em> minutes.<br/>Each small box takes 5 minutes, so the time spent on small boxes is <em>5y</em> minutes.<br/>The machine works exactly 700 minutes per day, giving:<br/>$$10x + 5y = 700$$"
-    },
-    {
-      "title": "Backsolving — testing choice B",
-      "content": "Backsolving — testing choice B (10x+5y=700):<br/>The expression <em>10x+5y</em> calculates the total minutes used: <em>10x</em> for large boxes plus <em>5y</em> for small boxes.<br/>This matches the daily limit of 700 minutes, so the equation holds.<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["10x+5y=700"]
-    }
-  ]
-}
+{"questionId":"ebf8d2b7","correctAnswer":"B","section":"Math","steps":[{"title":"Translate the time used per box","content":"$x$ large boxes use $10x$ minutes (10 min each). $y$ small boxes use $5y$ minutes (5 min each)."},{"title":"Set the total equal to 700","content":"The total daily time is 700 minutes: $10x + 5y = 700$."},{"title":"Eliminate the other choices","content":"<ul><li>A) $5x + 10y = 700$: swaps the per-box times (5 min for large, 10 min for small).</li><li>B) $10x + 5y = 700$: correctly multiplies each box count by its own time.</li><li>C) $(x+y)(10+5)=700$: this would only work if every box took 15 minutes, which is not the case.</li><li>D) $(10+x)(5+y)=700$: adds counts and times, which is not how time accumulates.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

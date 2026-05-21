@@ -1,15 +1,1 @@
-{
-  "questionId": "5cc85f01",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the appositive",
-      "content": "The phrase \u201cA conceptual artist and designer embraced by both the art world and the fashion world\u201d precedes \u201cMary Ping,\u201d followed by the verb \u201cwas chosen.\u201d This is an appositive structure\u2014the phrase describes and renames the noun that follows."
-    },
-    {
-      "title": "Apply the comma rule",
-      "content": "A comma separates an appositive from its noun, and choice D (world,) correctly inserts this comma between the appositive and \u201cMary Ping.\u201d Choices A, B, and C fail: A omits the required comma, while B and C use punctuation (colon and semicolon) that has no role in punctuating appositives.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5cc85f01", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the sentence structure", "content": "Everything before the blank &mdash; &quot;A conceptual artist and designer embraced by both the art world and the fashion world&quot; &mdash; is a long noun phrase that describes Mary Ping. The main clause is &quot;Mary Ping was chosen to curate the exhibition.&quot;"}, {"title": "Apply the rule for an opening modifier", "content": "An introductory descriptive phrase that renames the subject must be set off from the main clause with a single comma. No stronger punctuation is allowed because what follows (Mary Ping was chosen&hellip;) is one continuous independent clause that needs its subject."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'world'</strong>: no punctuation creates a run-on between the modifier and the main clause. &#10007;</li><li><strong>Choice B &mdash; 'world:'</strong>: a colon must follow an independent clause, but the modifier is a fragment, not a complete sentence. &#10007;</li><li><strong>Choice C &mdash; 'world;'</strong>: a semicolon joins two independent clauses; the opening phrase is not independent. &#10007;</li><li><strong>Choice D &mdash; 'world,'</strong>: a comma correctly sets off the introductory modifier from the main clause. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

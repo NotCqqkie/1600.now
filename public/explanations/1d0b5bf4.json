@@ -1,15 +1,1 @@
-{
-  "questionId": "1d0b5bf4",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the strongest evidence",
-      "content": "Reviewers praised <em>One Last Word</em> as \u201ca beautiful and powerful tribute to the poets who inspired it.\u201d Since Grimes's stated goal was to honor important Black poets, this praise directly demonstrates she achieved her goal."
-    },
-    {
-      "title": "Connect the evidence to the answer",
-      "content": "Choice B correctly captures what the evidence indicates: Grimes successfully used the method to achieve her goal. The other choices either contradict what the passage shows, overstate the information given, or introduce unsupported claims. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1d0b5bf4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify Grimes's stated goal", "content": "Grimes wanted the poems in One Last Word to honor important Black poets of the past by using their lines through the golden shovel method."}, {"title": "Map the reviewers' reaction to that goal", "content": "The text concedes the method might seem to produce awkward poems, then pivots with &quot;However&quot; to say reviewers called the collection a beautiful and powerful tribute. Praising it as a successful tribute is direct evidence that her goal was met."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'most reviewers didn&#39;t understand Grimes&#39;s goal'</strong>: contradicts the passage &mdash; reviewers explicitly recognized it as a tribute, which is the goal. &#10007;</li><li><strong>Choice B &mdash; 'successfully used the golden shovel method to achieve her goal'</strong>: positive reviews of a tribute = the method achieved its tribute purpose. &#10003;</li><li><strong>Choice C &mdash; 'Hughes and Johnson are two of Grimes&#39;s favorites'</strong>: overreach &mdash; the passage names them as poets she honored, not as personal favorites. &#10007;</li><li><strong>Choice D &mdash; 'inspired many other writers to use the golden shovel method'</strong>: nothing in the text says other writers were inspired; this goes beyond the evidence. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

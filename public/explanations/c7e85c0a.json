@@ -1,15 +1,1 @@
-{
-  "questionId": "c7e85c0a",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key contrast",
-      "content": "The first sentence says the bags were impractical for carrying goods. The second sentence reveals these impractical bags dominated the market\u2014an unexpected, contradictory outcome. The transition word must signal this opposing relationship."
-    },
-    {
-      "title": "Match the transition to the contrast",
-      "content": "\u201dHowever\u201d directly marks a contradiction between the impracticality in the first sentence and the market dominance in the second.<br/>The other three options cannot signal this contrast\u2014\u201dFor instance\u201d introduces examples, \u201cThus\u201d signals logical consequence (reversing the relationship), and \u201cIn other words\u201d restates an idea.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c7e85c0a", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Map the logical relationship", "content": "Sentence 1 says envelope-shaped paper bags were impractical for carrying goods. The sentence after the blank says these same bags dominated the market because they were the only ones that could be mass-produced. Being impractical would normally hurt sales, so dominating the market is the opposite of what we&apos;d expect."}, {"title": "Pick the transition that signals contrast", "content": "The blank needs a transition that flags this unexpected, opposing outcome &mdash; a contrast word like &quot;However&quot;."}, {"title": "Per-choice elimination", "content": "<ul><li><strong>Choice A &mdash; 'However,'</strong>: signals the contrast between impracticality and market dominance. &#10003;</li><li><strong>Choice B &mdash; 'For instance,'</strong>: wrong relationship &mdash; the next sentence isn&apos;t an example of impracticality, it&apos;s the opposite outcome. &#10007;</li><li><strong>Choice C &mdash; 'Thus,'</strong>: wrong relationship &mdash; being impractical wouldn&apos;t cause the bags to dominate the market, so cause-and-effect doesn&apos;t fit. &#10007;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: wrong relationship &mdash; market dominance is not a restatement of impracticality. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

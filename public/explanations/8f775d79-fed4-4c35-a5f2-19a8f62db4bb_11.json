@@ -1,16 +1,1 @@
-{
-  "questionId": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_11",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the y-intercept to find the constant term",
-      "content": "When $x = 0$, the quadratic $y = ax^2 + bx + c$ reduces to $y = c$. Since $y = 45$ when $x = 0$, the constant term is $c = 45$. This narrows the choices to A, B, and C."
-    },
-    {
-      "title": "Backsolve choice B",
-      "content": "Backsolving \u2014 testing choice B ($y = -x^2 + 12x + 45$):<br/><br/>At $x = 6$: $y = -(6)^2 + 12(6) + 45 = -36 + 72 + 45 = 81$ \u2713<br/><br/>At $x = 15$: $y = -(15)^2 + 12(15) + 45 = -225 + 180 + 45 = 0$ \u2713<br/><br/>All three given points satisfy this equation. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = -x^2 + 12x + 45", "(0, 45)", "(6, 81)", "(15, 0)"]
-    }
-  ]
-}
+{"questionId":"8f775d79-fed4-4c35-a5f2-19a8f62db4bb_11","correctAnswer":"B","section":"Math","steps":[{"title":"Use the y-intercept","content":"When $x=0$, a quadratic $y=ax^2+bx+c$ reduces to $y=c$. Since $y=45$ when $x=0$, the constant term is $c=45$."},{"title":"Test the remaining points","content":"Check each candidate at $x=6$ (should give $81$) and $x=15$ (should give $0$)."},{"title":"Eliminate each choice","content":"<ul><li>A) $y=x^2-18x+45$: at $x=6$, $36-108+45=-27\\neq 81$. Eliminate.</li><li>B) $y=-x^2+12x+45$: at $x=6$, $-36+72+45=81$ &#10003;; at $x=15$, $-225+180+45=0$ &#10003;. Keep.</li><li>C) $y=x^2+45$: at $x=6$, $36+45=81$ &#10003; but at $x=15$, $225+45=270\\neq 0$. Eliminate.</li><li>D) $y=-3x^2+48x-45$: at $x=0$, $-45\\neq 45$. Eliminate.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

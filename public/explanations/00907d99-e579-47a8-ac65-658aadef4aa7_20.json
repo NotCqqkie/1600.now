@@ -1,17 +1,1 @@
-{
-  "questionId": "00907d99-e579-47a8-ac65-658aadef4aa7_20",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recall the standard circle equation",
-      "content": "The standard form of a circle equation is shown below, where $(h, k)$ is the center and $r$ is the radius. <strong>Key:</strong> the right side must be $r^2$ (radius squared), not just $r$.",
-      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
-    },
-    {
-      "title": "Substitute the given center and radius",
-      "content": "From the problem, the center is $(14, 19)$ and the radius is $7k$.<br/><br/>Substituting into the standard form:<br/>$(x - 14)^2 + (y - 19)^2 = (7k)^2 = 49k^2$<br/><br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["(x-14)^2 + (y-19)^2 = 49", "(14, 19)"]
-    }
-  ]
-}
+{"questionId":"00907d99-e579-47a8-ac65-658aadef4aa7_20","correctAnswer":"B","section":"Math","steps":[{"title":"Recall the standard form","content":"A circle in the $xy$-plane with center $(h, k)$ and radius $r$ has the equation $$(x-h)^2 + (y-k)^2 = r^2.$$ The right side is the radius <em>squared</em>, not the radius itself."},{"title":"Substitute center and radius","content":"Here $h = 14$, $k = 19$, and $r = 7k$. Substituting gives $$(x-14)^2 + (y-19)^2 = (7k)^2 = 49k^2.$$"},{"title":"Evaluate each choice","content":"<ul><li>Choice A: $(x-14)^2+(y-19)^2=49k$ &mdash; uses $49k$ instead of $(7k)^2 = 49k^2$. Incorrect.</li><li>Choice B: $(x-14)^2+(y-19)^2=49k^2$ &mdash; matches $(7k)^2 = 49k^2$ exactly. Correct.</li><li>Choice C: $(x-14)^2+(y-19)^2=7k$ &mdash; uses the radius, not its square. Incorrect.</li><li>Choice D: $(x-14)^2+(y-19)^2=7k^2$ &mdash; only squares $k$, not the full radius $7k$. Incorrect.</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

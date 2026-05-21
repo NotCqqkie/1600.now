@@ -1,16 +1,1 @@
-{
-  "questionId": "5a74f696",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize exponential growth model",
-      "content": "When a quantity doubles every fixed time interval, its value after time t is modeled by $$M(t)=M_0 \\cdot 2^{t/T}$$ where $M_0$ is the initial amount and $T$ is the doubling period.<br/>Here $M_0=890$ dollars and $T=10$ years."
-    },
-    {
-      "title": "Substitute the given values",
-      "content": "Substituting $M_0=890$ and $T=10$ gives $$M(t)=890 \\cdot 2^{t/10}$$<br/>This expression matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["M(t)=890((2))^((t)/(10))"]
-    }
-  ]
-}
+{"questionId":"5a74f696","correctAnswer":"C","section":"Math","steps":[{"title":"Choose the right model","content":"Doubling at a fixed interval is exponential growth with base 2. The standard form is $$M(t) = M_0 \\cdot 2^{t/T},$$ where $M_0$ is the starting value and $T$ is the doubling period."},{"title":"Plug in the given values","content":"The account starts at $M_0 = 890$ dollars and doubles every $T = 10$ years, giving $$M(t) = 890 \\cdot 2^{t/10}.$$ Quick check at $t=10$: $890 \\cdot 2^1 = 1780$, which is double the original &mdash; correct."},{"title":"Evaluate the choices","content":"<ul><li><strong>A.</strong> $M(t)=890\\left(\\frac{1}{2}\\right)^{t/10}$ &mdash; this halves every 10 years, the opposite of doubling.</li><li><strong>B.</strong> $M(t)=890\\left(\\frac{1}{10}\\right)^{t/2}$ &mdash; decays toward zero, not doubling.</li><li><strong>C.</strong> $M(t)=890(2)^{t/10}$ &mdash; doubles every 10 years as required.</li><li><strong>D.</strong> $M(t)=890(10)^{t/2}$ &mdash; grows tenfold every 2 years, far too fast.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

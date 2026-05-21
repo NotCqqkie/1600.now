@@ -1,18 +1,1 @@
-{
-  "questionId": "67f4b449",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Understand what f(w) = 6w² represents",
-      "content": "Width = $w$ ft, length = $6w$ ft (6 times the width). Area = width × length = $w \\cdot 6w = 6w^2$. So $f(w)$ outputs the rectangle's area in square feet."
-    },
-    {
-      "title": "Interpret the value $f(14) = 1{,}176$",
-      "content": "In $f(14) = 1,176$: the input $w = 14$ is the width in feet, and the output 1,176 is the area in ft². Therefore, when the width is 14 ft, the area is 1,176 ft². That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "f(w)=6(w)^(2)"
-      ]
-    }
-  ]
-}
+{"questionId":"67f4b449","correctAnswer":"A","section":"Math","steps":[{"title":"Identify what $f(w)$ represents","content":"The problem states $f(w)=6w^2$ gives the area (in ft²) of a rectangle whose width is $w$ ft and whose length is $6w$ ft. So the input is the width and the output is the area."},{"title":"Interpret $f(14)=1{,}176$","content":"Input $w=14$ means the width is 14 ft. Output $1{,}176$ means the area is $1{,}176$ ft². So when the width is 14 ft, the area is 1,176 ft²."},{"title":"Test each choice","content":"<ul><li><strong>A)</strong> Width 14 ft &rarr; area 1,176 ft². Matches input/output exactly. &check;</li><li><strong>B)</strong> Says output is the length. But $f$ outputs area, not length. Eliminate.</li><li><strong>C)</strong> Swaps input and output: claims width is 1,176. Eliminate.</li><li><strong>D)</strong> Also swaps input and output, and mislabels area as 14. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","desmosExpressions":["f(w)=6w^2","f(14)"]}]}

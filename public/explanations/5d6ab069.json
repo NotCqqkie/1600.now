@@ -1,15 +1,1 @@
-{
-  "questionId": "5d6ab069",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what the sail hypothesis claims",
-      "content": "The hypothesis states the sail improved \u201csuccess in underwater pursuits of prey species capable of making quick, evasive movements.\u201d Evasive prey require the predator to make sharp, quick direction changes\u2014maneuverability matters, not speed or efficiency alone."
-    },
-    {
-      "title": "Find the result demonstrating superior maneuverability",
-      "content": "A sail enabling quicker, sharper turns allows the dinosaur to follow prey's abrupt movements, directly supporting the hypothesis. The other three either don't address pursuit capability or suggest diminished performance. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"5d6ab069","correctAnswer":"A","section":"Reading and Writing","steps":[{"title":"Restate the hypothesis","content":"Gimsa and colleagues claim the sail improved success in &quot;underwater pursuits of prey species capable of making quick, evasive movements.&quot; Catching evasive prey underwater depends on maneuverability &mdash; the ability to change direction quickly."},{"title":"Predict the supporting result","content":"A finding that the sail model maneuvers better underwater than the no-sail model &mdash; for example, completing sharp turns faster &mdash; would directly back the hypothesis."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'sail... significantly less time to complete a sharp turn'</strong>: faster sharp turns is exactly the maneuverability advantage the hypothesis predicts. &#10003;</li><li><strong>Choice B &mdash; 'displaced significantly more water'</strong>: about volume, not pursuit ability &mdash; irrelevant to chasing evasive prey. &#10007;</li><li><strong>Choice C &mdash; 'significantly less battery power remaining'</strong>: shows the sail costs more energy, which weakens rather than supports the hypothesis. &#10007;</li><li><strong>Choice D &mdash; 'took significantly longer to travel a specified distance'</strong>: slower travel would undercut, not support, success in pursuits. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "f631132b",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the direct link",
-      "content": "The phrase \u201cspeaks directly to Mitchell's influence\u201d explicitly ties Brown's book to Mitchell's philosophy, signaling the text's structure: a philosophical idea followed by its concrete embodiment."
-    },
-    {
-      "title": "Match the structure",
-      "content": "D captures this exactly: a philosophy (Mitchell's view) followed by a book influenced by that philosophy (Goodnight Moon). A and B wrongly introduce debate and competing views; C misidentifies the content as characteristics of many books. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f631132b", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Map the first half of the text", "content": "The opening sentences present Lucy Sprague Mitchell's view that books for very young children should imitate how toddlers use language &mdash; a philosophy about what is most suitable for that audience."}, {"title": "Map the second half of the text", "content": "The remainder of the passage offers <em>Goodnight Moon</em> as the &quot;most enduring example&quot; of that idea and notes that its repetition, rhythm, and nonsense rhyme &quot;speak directly to Mitchell's influence.&quot; So a specific book is then described as embodying the earlier philosophy."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'outlines a debate between two authors... and then traces how that debate shaped theories'</strong>: there is no debate between Mitchell and Brown; Brown's book illustrates Mitchell's idea. &#10007;</li><li><strong>Choice B &mdash; 'summarizes an argument... and then discusses a contrasting view'</strong>: the second half does not contrast with the first; it exemplifies it. &#10007;</li><li><strong>Choice C &mdash; 'lists the literary characteristics... common to many classics'</strong>: only one book is discussed, not many classics, and no general list of characteristics is given. &#10007;</li><li><strong>Choice D &mdash; 'presents a philosophy... and then describes a book influenced by that philosophy'</strong>: exactly matches Mitchell's idea followed by <em>Goodnight Moon</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

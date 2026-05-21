@@ -1,16 +1,1 @@
-{
-  "questionId": "d7c8ba0b",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope of line t",
-      "content": "The slope $m$ of a line through $(x_1,y_1)$ and $(x_2,y_2)$ is $$m=\\frac{y_2-y_1}{x_2-x_1}.$$<br/>Substituting $(0,9)$ and $(1,17)$: $$m=\\frac{17-9}{1-0}=\\frac{8}{1}=8.$$"
-    },
-    {
-      "title": "Write the equation and match the answer",
-      "content": "With slope $m=8$ and y‑intercept from point $(0,9)$, the line is $$y=8x+9.$$<br/>This matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": ["y=8x+9", "(0,9)", "(1,17)"]
-    }
-  ]
-}
+{"questionId":"d7c8ba0b","correctAnswer":"D","section":"Math","steps":[{"title":"Find the slope","content":"The slope through $(0,9)$ and $(1,17)$ is $$m = \\frac{17-9}{1-0} = \\frac{8}{1} = 8.$$"},{"title":"Write in slope-intercept form","content":"Since $(0,9)$ is on the line, the $y$-intercept is $9$. The equation is $$y = 8x + 9.$$ Check: at $x=1$, $y = 8(1)+9 = 17$. &check;","desmosExpressions":["y=8x+9","(0,9)","(1,17)"]},{"title":"Evaluate each choice","content":"<ul><li>A: $y=\\frac{1}{8}x+9$. Wrong slope &mdash; gives $y(1) = 9.125$, not $17$.</li><li>B: $y=x+\\frac{1}{8}$. Wrong slope and intercept &mdash; gives $y(0)=0.125$, not $9$.</li><li>C: $y=x+8$. Slope $1$ is wrong &mdash; gives $y(1)=9$, not $17$.</li><li>D: $y=8x+9$. Slope $8$ and intercept $9$ match both points. Correct.</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

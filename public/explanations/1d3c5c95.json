@@ -1,17 +1,1 @@
-{
-  "questionId": "1d3c5c95",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify what x = 0 represents",
-      "content": "In the function $f(x) = 4,000(0.75)^x$, the variable $x$ represents years after 2012. Therefore, $x = 0$ corresponds to the year 2012 itself."
-    },
-    {
-      "title": "Find the initial population",
-      "content": "At the starting point $x = 0$, we evaluate: $$f(0) = 4,000(0.75)^0 = 4,000 \\cdot 1 = 4,000$$ The output 4,000 is the beetle population in 2012. Therefore, 4,000 is the initial beetle population for this species and area in 2012. That matches choice A — <strong>A</strong> is correct.",
-      "formula": "$$f(x) = a \\cdot b^x$$",
-      "desmosExpressions": ["f(x)=4000((0.75))^(x)"]
-    }
-  ]
-}
+{"questionId":"1d3c5c95","correctAnswer":"A","section":"Math","steps":[{"title":"Identify the form of the function","content":"The function $f(x)=4{,}000(0.75)^x$ has the exponential form $a\\cdot b^x$, where $a$ is the initial value and $b$ is the decay factor. Here $x$ counts years after 2012."},{"title":"Evaluate at x = 0","content":"At $x=0$ (the year 2012): $f(0)=4{,}000(0.75)^0=4{,}000\\cdot 1=4{,}000$. So 4,000 represents the starting population in 2012.","desmosExpressions":["f(x)=4000(0.75)^{x}"]},{"title":"Eliminate each choice","content":"<ul><li>A) Initial population in 2012 &mdash; matches $f(0)=4{,}000$. Correct.</li><li>B) Population 7 years after 2012 &mdash; that would be $f(7)=4{,}000(0.75)^7\\approx 534$, not 4,000.</li><li>C) Percent decrease each year &mdash; that comes from $1-0.75=0.25$, i.e. 25%, not 4,000.</li><li>D) Percent decrease every 7 years &mdash; again a percentage from the base 0.75, not 4,000.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

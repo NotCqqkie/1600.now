@@ -1,15 +1,1 @@
-{
-  "questionId": "72cbdbc6",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key deterrent",
-      "content": "The research shows poor lighting DETERS new or inexperienced cyclists but has little effect on experienced cyclists. This contrast shows which group would be affected by more streetlights."
-    },
-    {
-      "title": "Apply the deterrent to the choices",
-      "content": "Removing poor lighting's deterrent effect means new or inexperienced cyclists should increase \u2014 choice D. Choices A, B, and C either contradict this outcome or focus on experienced cyclists, who weren't deterred by poor lighting. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId":"72cbdbc6","correctAnswer":"D","section":"Reading and Writing","steps":[{"title":"Pin down the cause-and-effect","content":"The researchers found that poor street lighting DETERS new or inexperienced cyclists but has LITTLE EFFECT on experienced cyclists. So improving lighting should help the deterred group, not the unaffected one."},{"title":"Predict the conclusion","content":"If poor lighting was keeping new/inexperienced riders away, then adding more streetlights should INCREASE the number of new or inexperienced cyclists. Experienced cyclists weren't affected, so their numbers shouldn't change much."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'decrease... new or inexperienced'</strong>: backwards &mdash; removing a deterrent should raise, not lower, their numbers. &#10007;</li><li><strong>Choice B &mdash; 'increase... experienced'</strong>: overreach &mdash; experienced cyclists weren't deterred by poor lighting, so better lighting wouldn't change their behavior. &#10007;</li><li><strong>Choice C &mdash; 'decrease... experienced'</strong>: contradicts the finding that lighting has little effect on experienced cyclists. &#10007;</li><li><strong>Choice D &mdash; 'increase... new or inexperienced'</strong>: directly follows from removing the deterrent for that group. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

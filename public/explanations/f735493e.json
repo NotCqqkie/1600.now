@@ -1,15 +1,1 @@
-{
-  "questionId": "f735493e",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the cause-and-effect relationship",
-      "content": "The passage describes a technique (smothering the flame), then immediately states the outcome it produces (the shiny black hue)."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "\u201dAs a result\u201d signals cause-and-effect: the smothering technique produces the black hue. The other choices express contrast, provide an example, or reference the past, none fitting a direct causal relationship. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f735493e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The first sentence explains the technique: smothering the flame around the vessel. The second sentence states what happens to the vessel: it becomes shiny and black. The smothering causes the color change."}, {"title": "Pick the transition that signals cause-and-effect", "content": "&quot;As a result&quot; introduces an effect that follows from a stated cause &mdash; exactly the relationship between smothering the flame and the resulting black hue."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'On the contrary,'</strong>: signals contradiction, but the second sentence does not contradict the first; it states the outcome. &#10007;</li><li><strong>Choice B &mdash; 'For example,'</strong>: signals an instance of a general claim, but the black hue is not an example of smothering the flame &mdash; it is its consequence. &#10007;</li><li><strong>Choice C &mdash; 'Previously,'</strong>: signals a prior point in time, but the black hue happens after, not before, the smothering. &#10007;</li><li><strong>Choice D &mdash; 'As a result,'</strong>: correctly marks the black hue as the effect of smothering the flame. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

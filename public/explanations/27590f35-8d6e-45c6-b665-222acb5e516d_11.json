@@ -1,16 +1,1 @@
-{
-  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_11",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute x = 46 into the equation",
-      "content": "The equation is $y = 0.67x + 2.6$ and we need to find $y$ when $x = 46$. Substitute this value directly into the equation: $$y = 0.67(46) + 2.6$$"
-    },
-    {
-      "title": "Calculate the result",
-      "content": "Compute $0.67 \\times 46 = 30.82$. Then add: $y = 30.82 + 2.6 = 33.42$. The value 33.42 is closest to 33 among the choices. That matches choice A \u2014 <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = 0.67x + 2.6 \\{20 \\leq x \\leq 110\\}", "(46, 33.42)"]
-    }
-  ]
-}
+{"questionId":"27590f35-8d6e-45c6-b665-222acb5e516d_11","correctAnswer":"A","section":"Math","steps":[{"title":"Substitute x = 46 into the model","content":"The predicted number of larvae is $y = 0.67x + 2.6$ for $20 \\leq x \\leq 110$. With $x = 46$ (within range), substitute: $$y = 0.67(46) + 2.6.$$"},{"title":"Compute the value","content":"$0.67 \\times 46 = 30.82$, so $y = 30.82 + 2.6 = 33.42$.","desmosExpressions":["y=0.67x+2.6\\left\\{20\\le x\\le 110\\right\\}","(46,33.42)"]},{"title":"Evaluate each choice","content":"<ul><li>A: $33$. Closest to $33.42$ (difference $0.42$). Correct.</li><li>B: $49$. Too large (difference $15.58$); would require $x \\approx 69$.</li><li>C: $65$. Far too large; would require $x \\approx 93$.</li><li>D: $150$. Way off; the maximum predicted larvae at $x=110$ is only $\\approx 76$.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "3150021d",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the defining difference",
-      "content": "The notes provide the key difference between the styles: arista designs are stamped into tiles, while majolica designs are painted directly on tiles."
-    },
-    {
-      "title": "Apply the difference",
-      "content": "Choice C directly contrasts both methods by placing stamping against painting with <em>whereas</em>. Choices A and B mention both styles without explaining their difference, while D discusses only one style. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"3150021d","correctAnswer":"C","section":"Reading and Writing","steps":[{"title":"Identify the goal","content":"The student wants to CONTRAST the two tile styles. A successful answer must put both styles side-by-side and highlight how they differ, drawing on the defining detail from the notes: majolica designs are painted directly on the tile, while arista designs are stamped into the tile."},{"title":"Find the choice that delivers the contrast","content":"Only one option states both methods and uses a contrast connector (&quot;whereas&quot;) to set them against each other. The others either name both styles without distinguishing them or describe just one."},{"title":"Eliminate per choice","content":"<ul><li><strong>Choice A &mdash; 'can be found in the Royal Alcazar'</strong>: tells where the tiles are located; no contrast of styles. &#10007;</li><li><strong>Choice B &mdash; 'famous for its intricate tilework'</strong>: mentions both styles but only describes the palace's fame, not how the styles differ. &#10007;</li><li><strong>Choice C &mdash; 'stamped into the ceramic tiles, whereas... painted directly'</strong>: explicitly contrasts the two defining techniques. &#10003;</li><li><strong>Choice D &mdash; 'majolica style tiles, made by painting'</strong>: describes only majolica; no contrast with arista. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

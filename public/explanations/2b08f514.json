@@ -1,15 +1,1 @@
-{
-  "questionId": "2b08f514",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the repeated pattern",
-      "content": "The passage describes what happened over decades: new calculations \u201cwould reveal increasingly precise coordinates, yet the prime meridian remained unchanged.\u201d The habitual \u201cwould reveal\u201d signals a recurrent pattern\u2014new data kept appearing, the official position never changed\u2014until the 1980s finally broke it."
-    },
-    {
-      "title": "Apply the pattern to the choices",
-      "content": "\u201dAgain and again\u201d directly names this repeated, cyclical nature. The other choices either introduce a detail, suggest purpose, or concede a claim without capturing the recurring pattern essential to the passage. This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b08f514", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the recurring pattern", "content": "The sentence after the blank says that &quot;as decades passed, new calculations would reveal increasingly precise coordinates, yet the prime meridian remained unchanged.&quot; The habitual phrase &quot;would reveal&quot; signals a repeated cycle: new data appeared, the official meridian stayed put, and that loop ran for decades until the 1980s finally broke it."}, {"title": "Pick the transition that captures repetition", "content": "The needed transition marks that recurring, again-and-again quality of new calculations being produced without prompting change."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'Specifically,'</strong>: signals a single concrete example of the prior idea, but the blank introduces a long-running pattern, not a specification. &#10007;</li><li><strong>Choice B &mdash; 'To that end,'</strong>: signals purposeful action toward a goal, but no goal from the prior sentence is being pursued. &#10007;</li><li><strong>Choice C &mdash; 'Again and again,'</strong>: directly names the recurring nature of the new calculations across decades. &#10003;</li><li><strong>Choice D &mdash; 'Granted,'</strong>: concedes a counterpoint, but the blank introduces continuation, not concession. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

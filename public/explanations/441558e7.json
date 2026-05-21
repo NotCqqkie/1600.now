@@ -1,15 +1,1 @@
-{
-  "questionId": "441558e7",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Set up the substitution",
-      "content": "We're given the linear model $y = 0.67x + 2.6$ that predicts the number of larvae based on the number of worker ants $x$. This colony has $x = 58$ worker ants, so we substitute this value into the equation."
-    },
-    {
-      "title": "Calculate the predicted number of larvae",
-      "content": "$$y = 0.67(58) + 2.6$$<br/>$$y = 38.86 + 2.6$$<br/>$$y = 41.46$$<br/>The predicted number of larvae is approximately 41.46, which is closest to 41 among the choices. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId":"441558e7","correctAnswer":"A","section":"Math","steps":[{"title":"Substitute x = 58 into the model","content":"The equation $y=0.67x+2.6$ predicts the number of larvae $y$ from the number of worker ants $x$. Since the colony has $58$ worker ants, plug in $x=58$: $$y=0.67(58)+2.6.$$"},{"title":"Evaluate","content":"$0.67(58)=38.86$, so $y=38.86+2.6=41.46$. Rounded, that is about $41$ larvae."},{"title":"Check each choice","content":"<ul><li>A) $41$ &mdash; matches $41.46$ rounded. Correct.</li><li>B) $61$ &mdash; would need $y\\approx 61$, but we got $41.46$. Eliminated.</li><li>C) $83$ &mdash; this is roughly $58+\\text{something}$, but the model is not just $x+c$. Eliminated.</li><li>D) $190$ &mdash; far too large; $0.67(58)$ is well under $40$. Eliminated.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

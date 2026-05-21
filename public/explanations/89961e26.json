@@ -1,15 +1,1 @@
-{
-  "questionId": "89961e26",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the specific museum display claim",
-      "content": "The passage explicitly identifies what was displayed at the Petersen Automotive Museum in 2017: \u201ca life-size pi\u00f1ata-like sculpture of the Gypsy Rose lowrider car.\u201d The decisive clue is that the artwork was a sculpture of a lowrider car."
-    },
-    {
-      "title": "Match that description to the choices",
-      "content": "Choice B\u2014a sculpture of a lowrider car\u2014is exactly what the text describes. Choices A and C name paintings, not sculptures, and choice D names a sculpture of the driver, not the vehicle. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "89961e26", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Locate the relevant sentence", "content": "The passage states: &quot;In 2017, Favela created an impressive life-size pi&ntilde;ata-like sculpture of the Gypsy Rose lowrider car, which was displayed at the Petersen Automotive Museum in Los Angeles, California.&quot; The displayed work is a sculpture of a lowrider car."}, {"title": "Match the description to a choice", "content": "The text specifies (a) a sculpture, not a painting, and (b) of the Gypsy Rose lowrider car, not of a person or a city. Only one option fits both constraints."}, {"title": "Eliminate the other choices", "content": "<ul><li><strong>Choice A &mdash; &apos;A painting of Los Angeles&apos;</strong>: wrong medium (painting) and wrong subject &mdash; not supported by the text. &#10007;</li><li><strong>Choice B &mdash; &apos;A sculpture of a lowrider car&apos;</strong>: matches the passage exactly. &#10003;</li><li><strong>Choice C &mdash; &apos;A painting of a pi&ntilde;ata&apos;</strong>: wrong medium &mdash; Favela&apos;s work is a sculpture, not a painting. &#10007;</li><li><strong>Choice D &mdash; &apos;A sculpture of Jesse Valadez&apos;</strong>: overreads &mdash; Valadez drove the Gypsy Rose, but the sculpture depicts the car, not him. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

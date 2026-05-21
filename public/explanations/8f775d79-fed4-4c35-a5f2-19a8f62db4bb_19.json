@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Combine fractions on the right side",
-      "content": "Start with the given equation: $$\\frac{1}{q} = \\frac{1}{p} + \\frac{1}{r} + \\frac{1}{s}$$<br/>To combine the fractions on the right, use the common denominator $prs$:<br/>$$\\frac{1}{q} = \\frac{rs}{prs} + \\frac{ps}{prs} + \\frac{pr}{prs} = \\frac{rs + ps + pr}{prs}$$"
+      "title": "Combine the fractions on the right side",
+      "content": "The given equation is $$\\frac{1}{q} = \\frac{1}{p} + \\frac{1}{r} + \\frac{1}{s}.$$ Use the common denominator $prs$: $$\\frac{1}{q} = \\frac{rs}{prs} + \\frac{ps}{prs} + \\frac{pr}{prs} = \\frac{pr + ps + rs}{prs}.$$"
     },
     {
-      "title": "Invert both sides to solve for q",
-      "content": "Taking the reciprocal of both sides: $$q = \\frac{prs}{pr + ps + rs}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Invert both sides to isolate q",
+      "content": "Taking the reciprocal of both sides gives $$q = \\frac{prs}{pr + ps + rs}.$$"
+    },
+    {
+      "title": "Compare with the choices",
+      "content": "<ul><li>A) $p+r+s$: would only be right if $1/q$ equalled $1/(p+r+s)$, which it does not. Eliminated.</li><li>B) $49(p+r+s)$: the constant $49$ never appears in the equation. Eliminated.</li><li>C) $\\frac{prs}{pr + ps + rs}$: matches the inverted form derived above.</li><li>D) $\\frac{prs}{49p + 49r + 49s}$: introduces an unwarranted factor of $49$. Eliminated.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

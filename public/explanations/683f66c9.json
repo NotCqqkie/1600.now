@@ -1,15 +1,1 @@
-{
-  "questionId": "683f66c9",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the target meaning",
-      "content": "The passage says they \u201cshare basic ______\u201d and then specifies this involves physical traits (spines, snouts, body size) both groups independently developed. The blank needs a word for shared characteristics or commonalities."
-    },
-    {
-      "title": "Match the word to the meaning",
-      "content": "\u201dSimilarities with\u201d expresses the shared traits both groups have. The other choices don't fit: they suggest other types of relationships (model-and-example, emotion, or evidence) rather than parallel characteristics. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "683f66c9", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Read the sentence's logic", "content": "Hedgehog tenrecs and true hedgehogs are not closely related, yet they share traits (spines, pointed snouts, small size) that they independently evolved &mdash; a classic case of convergent traits shared between two groups."}, {"title": "Predict the missing word", "content": "The blank needs a noun that means &quot;shared traits&quot; and pairs grammatically with &quot;true hedgehogs.&quot; The phrase should read &quot;share basic [shared features] with true hedgehogs.&quot;"}, {"title": "Check each choice for fit and preposition", "content": "<ul><li><strong>Choice A &mdash; 'examples of'</strong>: would mean tenrecs share examples OF true hedgehogs, which is nonsensical &mdash; tenrecs aren't examples of hedgehogs. Wrong meaning. &#10007;</li><li><strong>Choice B &mdash; 'concerns about'</strong>: &quot;concerns&quot; (worries) makes no sense for biological traits like spines and snouts. Wrong word category. &#10007;</li><li><strong>Choice C &mdash; 'indications of'</strong>: would mean the traits are signs OF true hedgehogs, which misrepresents the relationship &mdash; tenrecs aren't pointing to hedgehogs, they parallel them. Wrong meaning. &#10007;</li><li><strong>Choice D &mdash; 'similarities with'</strong>: precisely names the shared traits between unrelated groups and takes the correct preposition &quot;with.&quot; &#10004;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

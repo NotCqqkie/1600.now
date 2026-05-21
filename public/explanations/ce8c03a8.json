@@ -1,15 +1,1 @@
-{
-  "questionId": "ce8c03a8",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The \u201csince\u201d clause shows what being featured meant: a business was recognized as important to the community\u2014a positive thing."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dAdvantageous\u201d means beneficial or favorable. Being featured provides exactly that advantage\u2014recognition of importance. The other three contradict this logic. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"section":"Reading and Writing","correctAnswer":"C","steps":[{"title":"Question type","content":"Word-in-context vocabulary. The blank describes how being featured in the book affected a business, and the next clause explains the cause: inclusion &quot;suggested that a business was an important part of the community.&quot; That signals a positive, beneficial result."},{"title":"Reasoning","content":"Because the feature signaled importance in the community, being featured was a benefit &mdash; a word meaning &quot;giving an advantage&quot; fits."},{"title":"Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; 'risky'</strong>: implies danger or downside, but the sentence describes a positive outcome (being seen as important). Contradicts context. &#10007;</li><li><strong>Choice B &mdash; 'misleading'</strong>: would mean the feature gave a false impression, but the passage treats the implication of importance as accurate, not deceptive. &#10007;</li><li><strong>Choice D &mdash; 'unremarkable'</strong>: means not worth notice, the opposite of the &quot;important part of the community&quot; signal the feature conveyed. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

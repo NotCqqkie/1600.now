@@ -1,18 +1,1 @@
-{
-  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_6",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert 293% to decimal form",
-      "content": "293% means $\\frac{293}{100} = 2.93$.<br/><br/>When we say 293% of $x$, we multiply: $2.93 \\cdot x$.<br/><br/>Therefore: $$f(x) = 2.93x$$"
-    },
-    {
-      "title": "Identify the function type and behavior",
-      "content": "The function $f(x) = 2.93x$ is a linear function because it has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$. (Exponential functions have the form $f(x) = ab^x$.)<br/><br/>For the direction: the slope $m = 2.93$ is positive. A positive slope means as $x$ increases, $f(x)$ increases, so the function is <strong>increasing</strong>.<br/><br/>Combining both: linear and increasing. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "y = 2.93x"
-      ]
-    }
-  ]
-}
+{"questionId":"555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_6","correctAnswer":"D","section":"Math","steps":[{"title":"Convert the percentage to a decimal","content":"$293\\%$ means $\\frac{293}{100} = 2.93$.<br/><br/>So $293\\%$ of $x$ is $2.93x$, giving:<br/>$$f(x) = 2.93x$$"},{"title":"Classify the function","content":"$f(x) = 2.93x$ has the form $f(x) = mx + b$ with $m = 2.93$ and $b = 0$ &mdash; this is a <strong>linear</strong> function (not exponential, which would have $x$ in an exponent).<br/><br/>The slope $m = 2.93 > 0$, so as $x$ increases, $f(x)$ increases. The function is <strong>increasing</strong>."},{"title":"Evaluate each choice","content":"<ul><li><strong>A:</strong> Decreasing exponential &mdash; incorrect on both counts; the function is linear, not exponential, and it increases</li><li><strong>B:</strong> Decreasing linear &mdash; correctly identifies linear, but the positive slope makes it increasing, not decreasing</li><li><strong>C:</strong> Increasing exponential &mdash; correctly identifies increasing, but the function has no exponent on $x$, so it is linear, not exponential</li><li><strong>D:</strong> Increasing linear &mdash; matches both the form ($mx+b$) and the positive slope</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

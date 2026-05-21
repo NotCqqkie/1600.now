@@ -1,16 +1,1 @@
-{
-  "questionId": "d71f6dbf",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret the function notation h(1.4) = 1.64",
-      "content": "$h(x)$ represents height in feet at time $x$ seconds.<br/>The notation $h(1.4) = 1.64$ means: when $x = 1.4$ seconds, we have $h(x) = 1.64$ feet.<br/>In words: at 1.4 seconds after being thrown, the height is 1.64 feet."
-    },
-    {
-      "title": "Match to the correct choice",
-      "content": "Choice A states: <em>The height of the object 1.4 seconds after being thrown straight up in the air is 1.64 feet.</em><br/>This is exactly our interpretation from step 1.<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
-      "desmosExpressions": ["h(x)=-16x^2+20x+5"]
-    }
-  ]
-}
+{"questionId": "d71f6dbf", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Interpret the function notation", "content": "In $h(x) = -16x^2 + 20x + 5$, the input $x$ is time in seconds and the output $h(x)$ is height in feet.<br/>So $h(1.4) = 1.64$ means: at $x = 1.4$ seconds, the height equals $1.64$ feet."}, {"title": "Evaluate each choice", "content": "<ul><li>Choice A: Height at $1.4$ seconds is $1.64$ feet &mdash; matches the input/output interpretation.</li><li>Choice B: Swaps the input and output (time $1.64$, height $1.4$). Eliminate.</li><li>Choice C: Talks about a ratio to initial height; the equation gives an absolute height, not a multiplicative comparison. Eliminate.</li><li>Choice D: Refers to speed, but $h(x)$ models height, not speed. Eliminate.</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["h(x)=-16x^2+20x+5"]}]}

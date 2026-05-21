@@ -1,15 +1,1 @@
-{
-  "questionId": "249508d9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The first sentence states the installation creates a <em>whimsical yet perplexing experience.</em> The second describes what that experience is like: visitors are <em>dazzled and confused\u2014as if stepping into a strange and enchanting new world.</em> The second sentence exemplifies the first's claim rather than contrasting with it."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "<em>Indeed</em> signals confirmation and elaboration when supporting evidence follows a general claim. <em>Second</em>, <em>Instead</em>, and <em>Nevertheless</em> suggest a separate list item, substitution, or unexpected contrast\u2014none of which fits how the second sentence functions.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"section":"Reading and Writing","correctAnswer":"C","steps":[{"title":"Map the relationship","content":"The first sentence claims the installation &quot;succeeds in creating a whimsical yet perplexing experience.&quot; The sentence after the blank gives a concrete instance &mdash; visitors are &quot;both dazzled and confused&quot; &mdash; which confirms and intensifies that claim."},{"title":"Pick the transition","content":"A transition that affirms/intensifies a prior claim is needed. &quot;Indeed&quot; signals exactly that confirming emphasis."},{"title":"Per-choice elimination","content":"<ul><li><strong>Choice A &mdash; 'Second,'</strong>: signals the next item in a list, but no &quot;first&quot; point was made. &#10007;</li><li><strong>Choice B &mdash; 'Instead,'</strong>: signals replacement/contrast, but the second sentence agrees with the first. &#10007;</li><li><strong>Choice C &mdash; 'Indeed,'</strong>: confirms and intensifies the prior claim &mdash; exactly the relationship here. &#10003;</li><li><strong>Choice D &mdash; 'Nevertheless,'</strong>: signals contrast, but no contrast exists. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

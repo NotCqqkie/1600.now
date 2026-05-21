@@ -1,16 +1,1 @@
-{
-  "questionId": "79784c23",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognizing equivalent equations",
-      "content": "For infinitely many solutions, both equations must represent the same line. The second equation must be equivalent to $y = 6x + 3$ \u2014 they should simplify to the same form."
-    },
-    {
-      "title": "Simplify each choice",
-      "content": "<ul><li><strong>A)</strong> $y = 2(6x) + 3 = 12x + 3$ \u2014 different slope, not equivalent.</li><li><strong>B)</strong> $y = 2(6x+3) = 12x + 6$ \u2014 different slope and intercept, not equivalent.</li><li><strong>C)</strong> $2y = 2(6x) + 3 = 12x + 3$, so $y = 6x + 1.5$ \u2014 different intercept, not equivalent.</li><li><strong>D)</strong> $2y = 2(6x+3) = 12x + 6$, so $y = 6x + 3$ \u2014 this matches the original equation exactly. D is the original equation multiplied by 2 on both sides, which preserves equivalence. That matches choice D \u2014 <strong>D</strong> is correct.</li></ul>",
-      "desmosExpressions": ["y = 6x + 3", "y = (2*(6x + 3))/2"]
-    }
-  ]
-}
+{"questionId":"79784c23","correctAnswer":"D","section":"Math","steps":[{"title":"Condition for infinitely many solutions","content":"A system of two linear equations has infinitely many solutions only when both equations describe the same line. So the second equation must be algebraically equivalent to $y=6x+3$."},{"title":"Simplify each candidate","content":"Reduce each choice to slope-intercept form and compare to $y=6x+3$:<ul><li><strong>A)</strong> $y=2(6x)+3=12x+3$. Slope $12\\neq 6$, so this is a different line.</li><li><strong>B)</strong> $y=2(6x+3)=12x+6$. Slope $12\\neq 6$, so this is a different line.</li><li><strong>C)</strong> $2y=2(6x)+3=12x+3$, so $y=6x+\\frac{3}{2}$. The intercept $\\frac{3}{2}\\neq 3$, so this is a different line.</li><li><strong>D)</strong> $2y=2(6x+3)=12x+6$, so $y=6x+3$. This is identical to the original equation, so the two equations describe the same line and the system has infinitely many solutions. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}

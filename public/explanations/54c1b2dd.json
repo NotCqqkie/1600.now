@@ -1,15 +1,1 @@
-{
-  "questionId": "54c1b2dd",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the goal requirement",
-      "content": "The student wants to \u201cemphasize a similarity\u201d\u2014the correct choice must highlight what the two paintings share, not what makes them different."
-    },
-    {
-      "title": "Find the choice that highlights shared characteristics",
-      "content": "C uses <strong>both huge</strong> and provides matching measurements (149 \u00d7 255 inches and 132 \u00d7 264 inches) to underscore the shared characteristic of massive scale. The other three all emphasize differences rather than similarities. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "54c1b2dd", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Lock in the goal", "content": "The student wants to <strong>emphasize a similarity</strong> between the two paintings. The correct choice must point to something the paintings share, supported by details from the notes."}, {"title": "Find the shared feature in the notes", "content": "Both paintings are described as <em>huge</em>, and the listed dimensions (149 &times; 255 inches and 132 &times; 264 inches) are very close in scale. That is a concrete shared trait the notes support."}, {"title": "Eliminate the wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'Monkman... 2019; Leutze... 1851'</strong>: contrasts artists and dates, so it highlights differences, not a similarity. &#10007;</li><li><strong>Choice B &mdash; 'the people and actions the two paintings portray are very different'</strong>: explicitly emphasizes a difference. &#10007;</li><li><strong>Choice C &mdash; 'both huge, measuring 149 &times; 255 inches and 132 &times; 264 inches'</strong>: uses &quot;both&quot; and matching dimensions to spotlight a shared trait. &#10003;</li><li><strong>Choice D &mdash; 'Revolutionary War soldiers, while... Indigenous people and refugees'</strong>: the &quot;while&quot; construction frames a contrast, not a similarity. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

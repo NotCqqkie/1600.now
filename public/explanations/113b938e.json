@@ -1,16 +1,1 @@
-{
-  "questionId": "113b938e",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Recognize what the x-intercept represents",
-      "content": "The x-intercept is where the line crosses the x-axis, occurring when $y = 0$. Since $y$ represents the speed in feet per second, $y = 0$ means the speed is 0\u2014when the bicycle comes to a complete stop."
-    },
-    {
-      "title": "Identify what the x-coordinate means",
-      "content": "The x-coordinate of the x-intercept is the time when $y = 0$. Since $x$ measures time in seconds after braking, this x-coordinate is the number of seconds it took from when Sheila began braking until the bicycle stopped. That matches choice C \u2014 <strong>C</strong> is correct.",
-      "desmosExpressions": ["y=18-5x"]
-    }
-  ]
-}
+{"questionId": "113b938e", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify what $y = 0$ means in context", "content": "The equation $y = 18 - 5x$ gives the bike's speed $y$ (in feet per second) at time $x$ (seconds after braking). The $x$-intercept is the point where $y = 0$ &mdash; that is, where the speed equals 0 feet per second. Speed 0 means the bicycle has come to a complete stop."}, {"title": "Solve for the $x$-coordinate of the intercept", "content": "Set $y = 0$: $0 = 18 - 5x$, so $x = 18/5 = 3.6$ seconds. Because $x$ measures time after braking, this $x$-coordinate represents the number of seconds from when Sheila began braking until the bike stopped."}, {"title": "Eliminate the other choices", "content": "<ul><li>A) Speed before braking would be $y$ at $x = 0$, namely $y = 18$ &mdash; that's the $y$-intercept, not the $x$-intercept. Eliminate.</li><li>B) The rate of decrease in speed is the slope, $5$ ft/s per second &mdash; not the $x$-intercept. Eliminate.</li><li>C) The $x$-coordinate at $y = 0$ is the time to stop. Keep.</li><li>D) Distance traveled would require integrating speed over time, not reading off an intercept. Eliminate.</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y = 18 - 5x"]}]}
