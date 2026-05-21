@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_18",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure on each side of the blank",
-      "content": "Before the blank: a noun completing the object of a preposition within an independent clause. After the blank: an independent clause with its own subject and verb."
-    },
-    {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "Two independent clauses surround the blank: \"The Limon technique... is known for its emphasis on breath control and its interplay of weight and weightlessness\" (IC) and \"dancers may explore... the moment of mid-air suspension...\" (IC). The rule: two ICs need a semicolon, period, or comma+conjunction — a comma alone is a comma splice.<ul><li><strong>Choice A — \"weightlessness;\"</strong>: semicolon between two ICs — grammatically correct. ✓</li><li><strong>Choice B — \"weightlessness which\"</strong>: \"which\" needs a comma before it to introduce a non-restrictive clause; without the comma, this creates a run-on. ✗</li><li><strong>Choice C — \"weightlessness,\"</strong>: comma alone between two ICs = comma splice. ✗</li><li><strong>Choice D — \"weightlessness\"</strong>: no punctuation at all between two ICs = fused sentence (run-on). ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_18", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the two clauses surrounding the blank", "content": "Before the blank: &ldquo;The Limon technique... is known for its emphasis on breath control and its interplay of weight and [blank]&rdquo; &mdash; this is an independent clause (IC) with its own subject and verb. After the blank: &ldquo;dancers may explore, for example, the moment of mid-air suspension at the top of a jump&rdquo; &mdash; this is also an independent clause. Two ICs joined at the blank require a semicolon, a period, or a comma plus a coordinating conjunction. A comma alone creates a comma splice; no punctuation creates a fused sentence."}, {"title": "Evaluate each choice against the joining rule", "content": "<ul><li><strong>Choice A &mdash; 'weightlessness;'</strong>: a semicolon correctly joins two independent clauses &mdash; grammatically valid. &#10003;</li><li><strong>Choice B &mdash; 'weightlessness which'</strong>: &ldquo;which&rdquo; without a preceding comma attempts to introduce a relative clause, but it runs the second IC directly into the first without proper punctuation, creating a run-on. &#10007;</li><li><strong>Choice C &mdash; 'weightlessness,'</strong>: a comma alone between two ICs is a comma splice. &#10007;</li><li><strong>Choice D &mdash; 'weightlessness'</strong>: no punctuation at all between two ICs creates a fused sentence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
