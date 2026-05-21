@@ -1,18 +1,1 @@
-{
-  "questionId": "70fb357b",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the y-intercept value s",
-      "content": "The y-intercept occurs at $x = 0$. Substitute:<br/>$$y = 576^{2(0)+2} = 576^2$$<br/>Since $576 = 24^2$: $s = 576^2 = (24^2)^2 = 24^4 = 331,776$"
-    },
-    {
-      "title": "Rewrite the original equation using exponent rules",
-      "content": "Factor the exponent in $y = 576^{2x+2}$:<br/>$$y = 576^{2(x+1)}$$<br/>Apply the power rule $(a^m)^n = a^{mn}$ in reverse:<br/>$$y = (576^2)^{x+1} = 331,776^{x+1}$$<br/>Now 331,776 (the value of $s$) is clearly displayed as the base. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=(576)^((2x+2))"
-      ]
-    }
-  ]
-}
+{"questionId":"70fb357b","correctAnswer":"A","section":"Math","steps":[{"title":"Find s (the y-intercept value)","content":"At $x = 0$: $s = 576^{2(0)+2} = 576^{2}$. That's the target value &mdash; now scan the four choices for the one that shows $576^{2}$ (or its decimal $331{,}776$) literally as a constant, coefficient, or base. No further algebra needed."},{"title":"Scan the choices","content":"<ul><li><strong>Choice A &mdash; $y = 331{,}776^{(x+1)}$</strong>: $331{,}776 = 576^{2} = s$ appears literally as the base. &#10003;</li><li><strong>Choice B &mdash; $y = 24^{(4x+4)}$</strong>: base is $24$, not $s$. The value $s = 24^{4}$ is hidden inside the exponent. &#10007;</li><li><strong>Choice C &mdash; $y = \\frac{1}{24}(24)^{(4x+5)}$</strong>: coefficient $\\frac{1}{24}$ and base $24$. Neither equals $s$. &#10007;</li><li><strong>Choice D &mdash; $y = \\frac{1}{576}(576)^{(2x+3)}$</strong>: coefficient $\\frac{1}{576}$ and base $576$. Neither equals $s = 576^{2}$. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
