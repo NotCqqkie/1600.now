@@ -3,20 +3,14 @@
   "correctAnswer": "A",
   "section": "Math",
   "steps": [
-    {
-      "title": "Identify the y-intercept from the table",
-      "content": "When $x = 0$, the table shows $f(0) = 29$. For any linear function, the value at $x = 0$ is the y-intercept, so $b = 29$."
-    },
-    {
-      "title": "Calculate the slope and write the equation",
-      "content": "Using consecutive rows from the table, the slope is $$m = \\frac{f(1) - f(0)}{1 - 0} = \\frac{32 - 29}{1} = 3$$<br/>With $m = 3$ and $b = 29$, the function is $f(x) = 3x + 29$. That matches choice A — <strong>A</strong> is correct.",
-      "formula": "$$f(x) = mx + b$$",
-      "desmosExpressions": [
-        "y=3x+29",
-        "(0,29)",
-        "(1,32)",
-        "(2,35)"
-      ]
-    }
+    "From the table, $f(0)=29$, so the y-intercept is $b=29$.",
+    "Slope: $m = \\frac{f(1)-f(0)}{1-0} = \\frac{32-29}{1} = 3$. The function is $f(x)=3x+29$.",
+    "<ul><li><strong>Choice A &mdash; '$f(x)=3x+29$'</strong>: Slope 3, y-intercept 29. Gives $f(0)=29$, $f(1)=32$, $f(2)=35$. &#10003;</li><li><strong>Choice B &mdash; '$f(x)=29x+32$'</strong>: $f(0)=32 \\ne 29$. &#10007;</li><li><strong>Choice C &mdash; '$f(x)=35x+29$'</strong>: $f(1)=64 \\ne 32$. &#10007;</li><li><strong>Choice D &mdash; '$f(x)=32x+35$'</strong>: $f(0)=35 \\ne 29$. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+  ],
+  "desmosExpressions": [
+    "y=3x+29",
+    "(0,29)",
+    "(1,32)",
+    "(2,35)"
   ]
 }

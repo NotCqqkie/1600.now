@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the time marker",
-      "content": "The phrase \"wouldn't come until decades later\" signals a jump forward in time from 1929 to a much later discovery. This time reference is the decisive clue."
+      "title": "Identify the logical relationship",
+      "content": "Sentence 1 establishes that in 1929 scientists assumed progesterone existed <em>only in animals</em>. Sentence 2 reveals that researchers would later find progesterone in corn plants, with the phrase &ldquo;this discovery wouldn&apos;t come until decades later&rdquo; signaling a forward jump in time. The blank must introduce a later development that disproves the earlier assumption."
     },
     {
-      "title": "Match the transition",
-      "content": "The logical relationship between the two sentences is sequence in time. Sentence 1 establishes that scientists in 1929 assumed progesterone existed only in animals; Sentence 2 reveals a future discovery disproving that assumption. The blank needs a transition signaling forward movement in time to a later development.\n<ul>\n<li><strong>Choice A — \"In other words,\"</strong>: signals that Sentence 2 restates Sentence 1 in different terms — but Sentence 2 introduces a new discovery, not a paraphrase. ✗</li>\n<li><strong>Choice B — \"For example,\"</strong>: signals that Sentence 2 is a specific instance of the general claim in Sentence 1 — but finding progesterone in corn contradicts the assumption, not illustrates it. ✗</li>\n<li><strong>Choice C — \"Eventually,\"</strong>: signals forward movement in time to a later point — matching the phrase \"wouldn't come until decades later.\" ✓</li>\n<li><strong>Choice D — \"Earlier,\"</strong>: signals a time before Sentence 1 — but the corn plant discovery happened after 1929, not before. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+      "title": "Test each choice against the time-forward relationship",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;In other words,&apos;</strong>: signals that Sentence 2 restates Sentence 1 in different terms &mdash; but finding progesterone in corn contradicts, not restates, the 1929 assumption. &#10007;</li><li><strong>Choice B &mdash; &apos;For example,&apos;</strong>: signals that Sentence 2 illustrates Sentence 1 with a specific instance &mdash; but the corn plant discovery disproves the assumption rather than exemplifying it. &#10007;</li><li><strong>Choice C &mdash; &apos;Eventually,&apos;</strong>: signals forward movement to a later point in time &mdash; directly matching &ldquo;wouldn&apos;t come until decades later&rdquo; and introducing the future discovery correctly. &#10003;</li><li><strong>Choice D &mdash; &apos;Earlier,&apos;</strong>: signals a time <em>before</em> Sentence 1 &mdash; but the corn plant discovery happened after 1929, not before it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

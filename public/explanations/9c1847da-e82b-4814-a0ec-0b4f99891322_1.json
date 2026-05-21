@@ -1,15 +1,10 @@
 {
-  "questionId": "9c1847da-e82b-4814-a0ec-0b4f99891322_1",
-  "correctAnswer": "D",
-  "section": "Math",
+  "qid": "9c1847da-e82b-4814-a0ec-0b4f99891322_1",
   "steps": [
-    {
-      "title": "Find the sample proportion",
-      "content": "<ul><li>The sample contains 4 fertilized lawns out of 20 total.</li><li>Write the proportion as a fraction and reduce: $$ \\frac{4}{20} = \\frac{1}{5} = 0.2 $$</li><li>Thus the proportion of fertilized lawns in the sample is 0.2.</li></ul>"
-    },
-    {
-      "title": "Scale the proportion to the whole town",
-      "content": "<ul><li>Multiply the sample proportion by the total number of lawns: $$ 0.2 \\times 260 = 52 $$</li><li>The best estimate for the number of fertilized lawns in the town is 52.</li><li>That matches choice D \u2014 <strong>D</strong> is correct.</li></ul>"
-    }
-  ]
+    "Find the proportion with fertilizer in the sample: 4 out of 20, so 4/20 = 0.2.",
+    "Apply that proportion to the full town: 0.2 &#215; 260 = 52.",
+    "52 is the best estimate."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '3'</strong>: 3/260 &approx; 1.2%, far below the 20% observed rate. &#10007;</li><li><strong>Choice B &mdash; '5'</strong>: 5/260 &approx; 1.9%, still far below 20%. &#10007;</li><li><strong>Choice C &mdash; '13'</strong>: 13/260 = 5%, corresponding to a 1/20 rate, not 4/20. &#10007;</li><li><strong>Choice D &mdash; '52'</strong>: (4/20) &#215; 260 = 52. Correctly scales the 20% rate to all 260 lawns. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D"
 }

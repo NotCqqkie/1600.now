@@ -1,1 +1,11 @@
-{"questionId":"50338a48","correctAnswer":"A","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $w$. Factor it out:$$15w^2+8w=w(15w+8)$$"},{"title":"Match to the answer choices","content":"The factored form is $w(15w+8)$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "qid": "50338a48",
+  "steps": [
+    "Identify the greatest common factor (GCF) of 15w\\u00b2 and 8w: both terms share a factor of w.",
+    "Factor out w: 15w\\u00b2 + 8w = w(15w + 8).",
+    "Verify by distributing: w \\u00b7 15w = 15w\\u00b2 and w \\u00b7 8 = 8w. Sum is 15w\\u00b2 + 8w. \\u2713",
+    "Match to the answer choices."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'w(15w + 8)'</strong>: Distributing gives 15w\\u00b2 + 8w, which matches the original expression exactly. &#10003;</li><li><strong>Choice B &mdash; '8w(15w + 1)'</strong>: Distributing gives 120w\\u00b2 + 8w, which does not equal 15w\\u00b2 + 8w. &#10007;</li><li><strong>Choice C &mdash; '15w\\u00b2(8w + 1)'</strong>: Distributing gives 120w\\u00b3 + 15w\\u00b2, which changes both the degree and the coefficients. &#10007;</li><li><strong>Choice D &mdash; '23(w\\u00b2 + w)'</strong>: Distributing gives 23w\\u00b2 + 23w, which does not match; 23 is not a factor of 15w\\u00b2 + 8w. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "correctAnswer": "A"
+}

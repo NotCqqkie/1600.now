@@ -1,25 +1,14 @@
 {
-  "questionId": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17",
-  "correctAnswer": "B",
-  "section": "Math",
+  "qid": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17",
   "steps": [
-    {
-      "title": "Identify the y-intercept from the graph",
-      "content": "Reading from the graph at $x = 0$, the function $y = f(x) + 4$ has a value of $y = 8$. The y-intercept is at the point $(0, 8)$."
-    },
-    {
-      "title": "Find f(0) using the transformation",
-      "content": "Since the graphed function is $y = f(x) + 4$, substitute the y-intercept point $(0, 8)$:<br/>$$8 = f(0) + 4$$<br/>Solve for $f(0)$:<br/>$$f(0) = 4$$"
-    },
-    {
-      "title": "Use the exponential form to find the constant",
-      "content": "All choices have the form $f(x) = -6^x + c$. Evaluate at $x = 0$:<br/>$$f(0) = -6^0 + c = -1 + c$$<br/>Since $f(0) = 4$, set up the equation:<br/>$$-1 + c = 4$$<br/>$$c = 5$$<br/>Therefore $f(x) = -6^x + 5$. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "y = -6^{x} + 1",
-        "y = -6^{x} + 5",
-        "y = -6^{x} + 8",
-        "y = -6^{x} + 9"
-      ]
-    }
+    "The graphed function is $y = f(x)+4$. At $x=0$ the graph shows $y=8$, so the y-intercept of $f(x)+4$ is $8$.",
+    "Since $f(0)+4=8$, we get $f(0)=4$.",
+    "All choices have the form $f(x)=-6^x+c$. At $x=0$: $f(0)=-6^0+c=-1+c$. Setting $-1+c=4$ gives $c=5$, so $f(x)=-6^x+5$."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$f(x)=-6^x+1$'</strong>: $f(0)=-1+1=0 \\neq 4$. &#10007;</li><li><strong>Choice B &mdash; '$f(x)=-6^x+5$'</strong>: $f(0)=-1+5=4$ ✓. Then $f(x)+4=-6^x+9$, y-intercept $8$ matches graph. &#10003;</li><li><strong>Choice C &mdash; '$f(x)=-6^x+8$'</strong>: $f(0)=-1+8=7 \\neq 4$. &#10007;</li><li><strong>Choice D &mdash; '$f(x)=-6^x+9$'</strong>: $f(0)=-1+9=8 \\neq 4$. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "correctAnswer": "B",
+  "desmosExpressions": [
+    "y=-6^{x}+5",
+    "y=-6^{x}+9"
   ]
 }

@@ -4,12 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the pattern",
-      "content": "Every term in $4x + 6 = 12$ is even (divisible by 2). To find an equivalent equation, divide all terms by their common factor, 2."
+      "title": "Identify a common factor",
+      "content": "Every term in $4x + 6 = 12$ is divisible by 2."
     },
     {
-      "title": "Divide through by 2",
-      "content": "Dividing the entire equation by 2:<br/>$$\\frac{4x + 6}{2} = \\frac{12}{2}$$<br/>$$2x + 3 = 6$$<br/>This matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Divide both sides by 2",
+      "content": "$$\\frac{4x + 6}{2} = \\frac{12}{2}$$<br/>$$2x + 3 = 6$$"
     }
-  ]
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$2x + 4 = 6$'</strong>: Divides $4x$ and $12$ by 2 correctly but changes 6 to 4 instead of $6 \\div 2 = 3$. &#10007;</li><li><strong>Choice B &mdash; '$x + 3 = 3$'</strong>: Divides $4x$ by 4 and $6$ by 2 but $12$ by 4, applying inconsistent factors. &#10007;</li><li><strong>Choice C &mdash; '$3x + 2 = 4$'</strong>: Not equivalent &mdash; no single operation on $4x+6=12$ produces this. &#10007;</li><li><strong>Choice D &mdash; '$2x + 3 = 6$'</strong>: Dividing every term by 2 gives $2x + 3 = 6$, which is equivalent to the original. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
 }

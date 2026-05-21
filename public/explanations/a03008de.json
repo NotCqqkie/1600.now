@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject's number",
-      "content": "The subject is <strong>The Proto-Nilotic language</strong>, a singular noun. The appositive phrase <em>common ancestor of fifty-five African languages with similar linguistic properties</em> modifies the subject but doesn't change its singular number."
+      "title": "Identify the subject and its number",
+      "content": "The subject is <strong>The Proto-Nilotic language</strong> &mdash; singular. The long appositive phrase &quot;common ancestor of fifty-five African languages with similar linguistic properties&quot; modifies the subject but does not change its singular number."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Subject-verb agreement requires a singular verb form for a singular subject; <strong>is</strong> is the only singular present-tense option. The other choices are either plural or non-present tenses, violating subject-verb agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'is,'</strong>: A singular present-tense verb that correctly agrees with the singular subject &quot;The Proto-Nilotic language.&quot; &#10003;</li><li><strong>Choice B &mdash; 'are,'</strong>: A plural verb; it violates subject-verb agreement with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'have been,'</strong>: A plural verb (present perfect); it violates subject-verb agreement with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'were,'</strong>: A plural past-tense verb; it violates subject-verb agreement with the singular subject. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the key operations",
-      "content": "<em>Twice</em> indicates multiplication by 2, so <em>twice the value of x</em> is $2x$. <em>49 more than</em> indicates addition of 49."
+      "title": "Translate 'twice the value of x'",
+      "content": "The phrase <em>twice the value of x</em> means $2x$."
     },
     {
-      "title": "Build the equation",
-      "content": "Combining these operations: $y$ equals <em>twice the value of x</em> plus 49, which is $y = 2x + 49$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Translate '49 more than'",
+      "content": "<em>49 more than</em> a quantity means adding 49 to it. So $y$ equals $2x$ plus 49."
+    },
+    {
+      "title": "Write the equation",
+      "content": "$$y = 2x + 49$$"
     }
-  ]
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$y=2x+49$'</strong>: Twice $x$ is $2x$; 49 more than that gives $2x+49$. &#10003;</li><li><strong>Choice B &mdash; '$y=49x+2$'</strong>: Swaps the roles of 2 and 49 &mdash; this would mean 49 times $x$, plus 2. &#10007;</li><li><strong>Choice C &mdash; '$y=51x+2$'</strong>: Incorrectly adds 49 and 2 into the coefficient of $x$ rather than treating them as separate operations. &#10007;</li><li><strong>Choice D &mdash; '$y=51x+49$'</strong>: Combines both errors &mdash; coefficient $51$ and addend $49$. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
 }

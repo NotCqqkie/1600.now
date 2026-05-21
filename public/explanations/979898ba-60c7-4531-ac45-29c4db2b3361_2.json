@@ -1,1 +1,23 @@
-{"questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_2", "correctAnswer": "B", "section": "Math", "steps": [{"title": "First account: annual contribution", "content": "Depositing $x$ dollars once per month for 12 months yields $$12x \\text{ dollars}$$"}, {"title": "Second account and total equation", "content": "Depositing $y$ dollars twice per month for 12 months yields $2 \\times 12 = 24$ deposits, totaling $$24y \\text{ dollars}$$<br/>The sum of both accounts equals \\$4,300: $$4,300 = 12x + 24y$$ That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "First account deposits",
+      "content": "Depositing $x$ dollars once per month for 12 months contributes $12x$ dollars annually."
+    },
+    {
+      "title": "Second account deposits",
+      "content": "Depositing $y$ dollars twice per month for 12 months means $2 \\times 12 = 24$ deposits, contributing $24y$ dollars annually."
+    },
+    {
+      "title": "Set up the total equation",
+      "content": "The total across both accounts is $4,300:<br/>$$4300 = 12x + 24y$$"
+    },
+    {
+      "title": "Match to the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$4,300 = 12x + 12y$'</strong>: This would mean $y$ is deposited only once per month, not twice. &#10007;</li><li><strong>Choice B &mdash; '$4,300 = 12x + 24y$'</strong>: $12x$ for once-monthly $x$ deposits, $24y$ for twice-monthly $y$ deposits. &#10003;</li><li><strong>Choice C &mdash; '$4,300 = 24x + 12y$'</strong>: This reverses the deposit frequencies — $x$ would be twice-monthly and $y$ once-monthly. &#10007;</li><li><strong>Choice D &mdash; '$4,300 = 24x + 24y$'</strong>: This would mean both accounts receive deposits twice per month. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

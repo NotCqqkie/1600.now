@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's organizing signal",
-      "content": "The passage moves from introducing the silversword alliance to explaining its diversity: all species descended from one ancestor and diversified through adaptation. This emphasis on explanation signals the main purpose."
+      "title": "Identify the text's central claim",
+      "content": "The passage introduces the silversword alliance, notes the plants' extraordinary range of phenotypes, then explains the cause: all descended from one tarweed ancestor and diversified as they adapted to varied Hawaiian habitats. The text is doing two things &mdash; describing the group and explaining its diversity."
     },
     {
-      "title": "Match to the answer",
-      "content": "Choice A directly states the text's purpose: describe the silversword alliance and explain how the family became so varied. B focuses on an undiscussed habitat, while C and D wrongly extend the scope to all Hawaiian plants. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate wrong choices, keep the right one",
+      "content": "<ul><li><strong>Choice A &mdash; 'To describe the silversword alliance and explain how the plant family became so varied'</strong>: Matches both parts of the text exactly &mdash; the description of the alliance and the explanation of its diversity through adaptation. &#10003;</li><li><strong>Choice B &mdash; 'To describe the specific habitat where <em>Dubautia menziesii</em> are found and identify other plants that share a common ancestor with them'</strong>: Violates <strong>scope</strong> &mdash; the text never describes a specific habitat for <em>Dubautia menziesii</em> or identifies other plants sharing its ancestor. &#10007;</li><li><strong>Choice C &mdash; 'To indicate the specific tarweed ancestor of all plants that grow on the Hawaiian Islands...'</strong>: Violates <strong>scope</strong> &mdash; the tarweed is only the ancestor of the silversword alliance, not all Hawaiian plants, and the text does not explain why plants have varied characteristics beyond adaptation. &#10007;</li><li><strong>Choice D &mdash; 'To advance the claim that all plants on the Hawaiian Islands are part of the silversword alliance...'</strong>: Violates <strong>scope</strong> &mdash; the text explicitly says the silversword alliance grows only on Hawaii but never claims all Hawaiian plants belong to it; no list of ancestors is provided. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

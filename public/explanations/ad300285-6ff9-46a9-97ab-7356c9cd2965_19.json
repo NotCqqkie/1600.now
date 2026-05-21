@@ -4,14 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the circle equation formula",
-      "content": "For a circle with center $(h, k)$ and radius $r$, the equation has the radius <strong>squared</strong> on the right side.",
-      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+      "title": "Recall the standard form of a circle",
+      "content": "A circle with center $(h, k)$ and radius $r$ satisfies:<br/>$$(x-h)^2 + (y-k)^2 = r^2$$<br/>Note the radius is <strong>squared</strong> on the right side."
     },
     {
-      "title": "Substitute center and radius",
-      "content": "Given center $(16, 17)$ and radius $7k$:<br/>$$(x - 16)^2 + (y - 17)^2 = (7k)^2 = 49k^2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct.",
+      "title": "Substitute center $(16, 17)$ and radius $7k$",
+      "content": "$$(x-16)^2 + (y-17)^2 = (7k)^2$$"
+    },
+    {
+      "title": "Simplify $(7k)^2$",
+      "content": "$$(7k)^2 = 49k^2$$<br/>So the equation is $(x-16)^2 + (y-17)^2 = 49k^2$.",
       "desmosExpressions": ["(x-16)^2 + (y-17)^2 = 49", "(16, 17)"]
     }
-  ]
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$(x-16)^2 + (y-17)^2 = 49k$'</strong>: Uses $49k$ instead of $(7k)^2 = 49k^2$ &mdash; forgets to square the entire radius expression. &#10007;</li><li><strong>Choice B &mdash; '$(x-16)^2 + (y-17)^2 = 49k^2$'</strong>: Correctly squares the radius: $(7k)^2 = 49k^2$. &#10003;</li><li><strong>Choice C &mdash; '$(x-16)^2 + (y-17)^2 = 7k$'</strong>: Places the unsquared radius $7k$ on the right side. &#10007;</li><li><strong>Choice D &mdash; '$(x-16)^2 + (y-17)^2 = 7x^2$'</strong>: Introduces $x$ into the right side, which is not part of the radius. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
 }

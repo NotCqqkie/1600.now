@@ -1,15 +1,1 @@
-{
-  "questionId": "e47d2524",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key discovery about surfactants",
-      "content": "The passage explicitly states that surfactants \u201chave a much stronger wave-reducing effect\u201d \u2014 this is the core finding about how surfactants compare to microplastics alone."
-    },
-    {
-      "title": "Match the answer to this finding",
-      "content": "Choice A captures the discovery: surfactants have a much stronger effect on wave activity than microplastics alone. The other three describe effects not mentioned in the passage. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e47d2524", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage says about surfactants", "content": "The study found that microplastic concentration alone cannot explain reduced wave activity. Sun and colleagues then found that surfactants — chemicals that coat microplastics — have &quot;a much stronger wave-reducing effect&quot; than microplastics alone. The correct answer must reflect this specific finding.\n<ul>\n<li><strong>Choice A &mdash; 'They have a much stronger effect on wave activity than microplastics alone do.'</strong>: Directly restates the study's core finding about surfactants. &#10003;</li>\n<li><strong>Choice B &mdash; 'They are mainly composed of water.'</strong>: Not mentioned anywhere in the passage. &#10007;</li>\n<li><strong>Choice C &mdash; 'They are helpful for removing microplastics from the ocean.'</strong>: Not supported by the passage; the study is about wave reduction, not removal. &#10007;</li>\n<li><strong>Choice D &mdash; 'They can be used to contain microplastics within certain areas of the ocean.'</strong>: Not mentioned in the passage. &#10007;</li>\n</ul>"}, {"title": "Confirm the answer", "content": "Only one choice matches the study's stated finding about surfactants and wave activity. That matches choice A &mdash; <strong>A</strong> is correct."}]}

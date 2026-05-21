@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The goal is to indicate the size of the Massasoit NWR. The strongest clue in the notes is <strong>184 acres</strong>, the only direct numerical reference to size."
+      "title": "Identify the goal",
+      "content": "The student wants to <strong>indicate the size of the Massasoit NWR</strong>. The only note that directly states the refuge&rsquo;s size is: <em>It encompasses 184 acres.</em> The correct answer must include this information."
     },
     {
-      "title": "Match the meaning",
-      "content": "Choice A explicitly includes <em>encompasses 184 acres</em>, directly using the size data from the notes. The other three choices discuss management, endangered species, or location but omit the size information. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;A protected natural area, the Massasoit NWR encompasses 184 acres of land in Massachusetts.&rsquo;</strong>: Directly states the size (184 acres), fulfilling the goal. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The Massasoit NWR is a protected natural area managed by the US Fish &amp; Wildlife Service, which limits human activities there.&rsquo;</strong>: Covers management and human activity restrictions but omits any mention of size. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The Massasoit NWR is a natural area in Massachusetts, home to the Plymouth red-bellied turtle.&rsquo;</strong>: Mentions location and the endangered species but omits size entirely. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Home to the Plymouth red-bellied turtle, Massachusetts&rsquo;s Massasoit NWR is managed by the US Fish &amp; Wildlife Service.&rsquo;</strong>: Mentions management and the endangered species but does not indicate size. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

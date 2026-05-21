@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the logical relationship",
-      "content": "The logical relationship is specification. Sentence 1 makes a broad claim — Downs draws on \"a variety of Mexican musical genres.\" The blank needs a transition signaling that sentence 2 gives concrete examples of those genres."
+      "content": "Sentence 1 makes a broad claim: Lila Downs draws on &quot;a variety of Mexican musical genres.&quot; Sentence 2 names specific genres &mdash; corridos, rancheras, and other northern genres. The blank must signal that sentence 2 narrows down to concrete examples of the general claim in sentence 1 (specification)."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — \"Specifically\"</strong>: signals that what follows narrows down to concrete particulars of the general claim, introducing corridos, rancheras, and other northern genres as the specific examples, so fits. ✓</li><li><strong>Choice B — \"Therefore\"</strong>: signals cause-effect, implying drawing on corridos and rancheras is a logical consequence of using a variety of genres. Sentence 2 is not a consequence — it is an elaboration. ✗</li><li><strong>Choice C — \"In conclusion\"</strong>: signals a final summary of prior points. Sentence 2 is an elaboration, not a concluding statement. ✗</li><li><strong>Choice D — \"Rather\"</strong>: signals contrast or correction. Sentence 2 does not contradict or replace sentence 1's claim — it illustrates it. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'Specifically,'</strong>: signals that what follows is a concrete illustration of the preceding general claim, which is exactly what sentence 2 does by naming the particular genres. &#10003;</li><li><strong>Choice B &mdash; 'Therefore,'</strong>: signals a logical consequence or result. Sentence 2 is not a consequence of sentence 1; it is an elaboration. Cause-effect rule violated. &#10007;</li><li><strong>Choice C &mdash; 'In conclusion,'</strong>: signals a final summary wrapping up prior points. Sentence 2 opens an elaboration, not a conclusion. Logical sequence rule violated. &#10007;</li><li><strong>Choice D &mdash; 'Rather,'</strong>: signals contrast or correction. Sentence 2 does not contradict sentence 1; it illustrates it. Contrast rule violated. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

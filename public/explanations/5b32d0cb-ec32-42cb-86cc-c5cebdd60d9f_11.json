@@ -1,20 +1,15 @@
 {
-  "questionId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11",
+  "qid": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_11",
   "correctAnswer": "A",
-  "section": "Math",
   "steps": [
-    {
-      "title": "Identify the initial value",
-      "content": "The exponential function form is $$A(t) = A_0 \\cdot r^t$$ where $A_0$ is the initial balance. The account opens with \\$35,600.00, so $A_0 = 35,600.00$. This coefficient eliminates choices C and D, which both have \\$94,072.38 instead."
-    },
-    {
-      "title": "Select the growth factor and verify",
-      "content": "The balance grows from \\$35,600.00 to \\$129,672.38 over 15 years, so the growth factor $r$ must exceed 1.<br/><br/>The factor 1.09 represents 9% annual growth; 0.09 would shrink the balance rapidly. <br/><br/>Verify: $A(15) = 35,600.00(1.09)^{15}$.<br/><br/>Since $(1.09)^{15} \\approx 3.6425$, we have $A(15) \\approx 129,672.38$, matching the given data.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "A(t) = 35600 \\cdot 1.09^{t}",
-        "(0, 35600)",
-        "(15, 129672.38)"
-      ]
-    }
+    "An exponential growth function has the form A(t) = A_0 \\cdot r^t where A_0 is the initial value. The account opens with $35,600.00, so A_0 = 35,600.00. This eliminates choices C and D.",
+    "The balance grows from $35,600 to $129,672.38 over 15 years, so r > 1 (growth). A rate of 0.09 < 1 would cause decay, not growth. This eliminates choice B.",
+    "Verify choice A: A(15) = 35,600(1.09)^{15}. Since (1.09)^{15} \\approx 3.6425, we get 35,600 \\times 3.6425 \\approx 129,672, matching the given value."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$A(t) = 35,600.00(1.09)^t$'</strong>: Correct initial value $35,600 and growth factor 1.09 (9% annual growth). Verified: 35,600 &times; (1.09)^15 &asymp; $129,672.38. &#10003;</li><li><strong>Choice B &mdash; '$A(t) = 35,600.00(0.09)^t$'</strong>: Correct initial value but r = 0.09 < 1 causes exponential decay. After 15 years the balance would be essentially $0, not $129,672. &#10007;</li><li><strong>Choice C &mdash; '$A(t) = 94,072.38(1.09)^t$'</strong>: The initial value $94,072.38 is the increase ($129,672.38 - $35,600), not the starting balance. At t = 0 the account balance should be $35,600. &#10007;</li><li><strong>Choice D &mdash; '$A(t) = 94,072.38(0.09)^t$'</strong>: Wrong initial value and decay factor. Both errors disqualify this choice. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "desmosExpressions": [
+    "A(t) = 35600 \\cdot 1.09^{t}",
+    "(0, 35600)",
+    "(15, 129672.38)"
   ]
 }

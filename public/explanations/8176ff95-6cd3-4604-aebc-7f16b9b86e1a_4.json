@@ -1,1 +1,20 @@
-{"questionId":"8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4","correctAnswer":"A","section":"Math","steps":[{"title":"Identify the linear form and apply h(0) = 0","content":"For a linear function, $h(x) = mx + b$.<br/>Since $h(0) = 0$:<br/>$$h(0) = m(0) + b = b = 0$$<br/>The function has no y-intercept, eliminating choices B and D. We're left with A and C."},{"title":"Apply h(11) = 5 to find the slope","content":"With $h(x) = mx$ (since $b = 0$), substitute $x = 11$:<br/>$$h(11) = 11m$$<br/>Since $h(11) = 5$:<br/>$$11m = 5$$<br/>$$m = \\frac{5}{11}$$<br/>Therefore, $h(x) = \\frac{5}{11}x$. That matches choice A — <strong>A</strong> is correct.","desmosExpressions":["y = \\frac{5}{11}x","(0, 0)","(11, 5)"]}]}
+{
+  "qid": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_4",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "title": "Use h(0) = 0 to find the y-intercept",
+      "content": "For \\(h(x) = mx + b\\), plugging in \\(x=0\\) gives \\(b = h(0) = 0\\). The y-intercept is 0, eliminating choices B and D (both add a nonzero constant)."
+    },
+    {
+      "title": "Use h(11) = 5 to find the slope",
+      "content": "With \\(b=0\\), \\(h(x) = mx\\). Substituting \\(x=11\\): $$11m = 5 \\implies m = \\frac{5}{11}$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "$$h(x) = \\frac{5}{11}x$$  This matches choice A."
+    }
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; 'h(x) = (5/11)x'</strong>: h(0) = 0 &#10003;; h(11) = (5/11)(11) = 5 &#10003;. Both conditions satisfied. &#10003;</li><li><strong>Choice B &mdash; 'h(x) = (5/11)x + 5'</strong>: h(0) = 5, not 0. Fails the first condition. &#10007;</li><li><strong>Choice C &mdash; 'h(x) = (11/5)x'</strong>: h(11) = (11/5)(11) = 121/5 = 24.2, not 5. Fails the second condition. &#10007;</li><li><strong>Choice D &mdash; 'h(x) = (11/5)x + 11'</strong>: h(0) = 11, not 0. Fails the first condition. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "desmosExpressions": ["y = \\frac{5}{11}x", "(0, 0)", "(11, 5)"]
+}

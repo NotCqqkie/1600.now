@@ -1,1 +1,25 @@
-{"questionId": "24a1e6a7", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify two clear points on the line", "content": "Reading the graph, the line passes through:<ul><li>The y-intercept at $(0, 14)$</li><li>A point at approximately $(12, 0)$</li></ul>These are easy to read directly from the grid."}, {"title": "Calculate the slope using the two points", "formula": "$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1}$$", "content": "Apply the formula with $(x_1, y_1) = (0, 14)$ and $(x_2, y_2) = (12, 0)$:<br/>$$\\frac{0 - 14}{12 - 0} = \\frac{-14}{12} = -\\frac{7}{6} \\approx -1.167$$<br/>This value is closest to choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "24a1e6a7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify two clear points on the line of best fit",
+      "content": "Reading the graph, the line passes through:<ul><li>The y-intercept at $(0, 14)$</li><li>A point at approximately $(12, 0)$</li></ul>These are easy to read directly from the grid.",
+      "formula": "$$\\text{slope} = \\frac{y_2 - y_1}{x_2 - x_1}$$"
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "Using $(x_1, y_1) = (0, 14)$ and $(x_2, y_2) = (12, 0)$:<br/>$$\\text{slope} = \\frac{0 - 14}{12 - 0} = \\frac{-14}{12} \\approx -1.17$$<br/>This is closest to $-1.1$ among the four choices.",
+      "formula": "$$\\frac{-14}{12} \\approx -1.17$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$-3.3$'</strong>: Would require a much steeper descent — the line would drop 3.3 units per unit of $x$, far steeper than the graph shows. &#10007;</li><li><strong>Choice B &mdash; '$-1.1$'</strong>: Matches the computed slope of $\\approx -1.17$. &#10003;</li><li><strong>Choice C &mdash; '$1.1$'</strong>: Positive — the line clearly slopes downward, so this is wrong in sign. &#10007;</li><li><strong>Choice D &mdash; '$3.3$'</strong>: Positive and steep — both incorrect. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$-3.3$'</strong>: Too steep; the line would drop 3.3 units per 1-unit increase in $x$, inconsistent with the moderate slope shown. &#10007;</li><li><strong>Choice B &mdash; '$-1.1$'</strong>: Reading two grid points gives slope $\\frac{0-14}{12-0} \\approx -1.17$, closest to $-1.1$. &#10003;</li><li><strong>Choice C &mdash; '$1.1$'</strong>: The line clearly slopes downward (negative), not upward. &#10007;</li><li><strong>Choice D &mdash; '$3.3$'</strong>: Positive and far too large in magnitude. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "desmosExpressions": [
+    "y = -1.167x + 14"
+  ]
+}

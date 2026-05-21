@@ -1,1 +1,12 @@
-{"questionId":"915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_18","correctAnswer":"D","section":"Math","steps":[{"title":"Substitute and collect to standard form","content":"Set $y = x - c$ and $y = -4(x-8)^2$ equal: $x - c = -4(x-8)^2$. Expand and rearrange: $4x^2 - 63x + (256-c) = 0$."},{"title":"Discriminant shortcut for two distinct solutions","content":"Two distinct real intersections require $\\Delta > 0$: $b^2 - 4ac = (-63)^2 - 4(4)(256-c) > 0$, which gives $3969 - 4096 + 16c > 0$, so $c > 127/16 \\approx 7.94$."},{"title":"Check choices and match","content":"Choice C gives $c = 127/16$ exactly — discriminant $= 0$, meaning only one intersection (tangent), not two distinct points. Choice D gives $c = 13 > 7.94$, so discriminant $> 0$: two distinct solutions. That matches choice D — <strong>D</strong> is correct.","desmosExpressions":["y = x - 13","y = -4(x - 8)^2"]}]}
+{
+  "qid": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_18",
+  "steps": [
+    "Substitute y = x - c into y = -4(x - 8)^2: x - c = -4(x - 8)^2.",
+    "Expand and rearrange: 4x^2 - 64x + 256 + x - c = 0 &#8594; 4x^2 - 63x + (256 - c) = 0.",
+    "For two distinct real solutions, discriminant > 0: (-63)^2 - 4(4)(256 - c) > 0 &#8594; 3969 - 4096 + 16c > 0 &#8594; 16c > 127 &#8594; c > 127/16 = 7.9375.",
+    "Check each choice: c = 3 (no), c = 7 (no), c = 127/16 exactly (discriminant = 0, one solution, not two distinct), c = 13 > 7.9375 (yes)."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '3'</strong>: 3 < 7.9375, so discriminant < 0 &mdash; no real solutions at all. &#10007;</li><li><strong>Choice B &mdash; '7'</strong>: 7 < 7.9375, so discriminant < 0 &mdash; no real solutions. &#10007;</li><li><strong>Choice C &mdash; '$\\frac{127}{16}$'</strong>: c = 127/16 makes discriminant exactly 0 &mdash; one repeated (not two distinct) solution. &#10007;</li><li><strong>Choice D &mdash; '13'</strong>: 13 > 7.9375, so discriminant > 0 &mdash; two distinct real solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D",
+  "desmosExpressions": ["y = x - 13", "y = -4(x - 8)^2"]
+}

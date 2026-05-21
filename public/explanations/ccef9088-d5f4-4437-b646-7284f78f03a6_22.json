@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the explanatory relationship",
-      "content": "The first clause introduces a concept: \"The visual magnitude scale is reverse logarithmic.\" The second clause must clarify what that concept means. The transition needs to signal this clarification."
+      "title": "Identify the logical relationship",
+      "content": "The sentence before the blank says the visual magnitude scale is &quot;reverse logarithmic.&quot; The sentence after the blank explains what that means in plain terms: a brighter object has a lower number. The blank must signal that what follows is a restatement or clarification of the same idea, not a contrast, similarity, or example."
     },
     {
-      "title": "Apply the clarifying transition",
-      "content": "The logical relationship is specification/clarification: \"reverse logarithmic\" is a technical term, and the second clause explains what it means in plain terms (brighter = lower number). The blank needs a transition signaling restatement or explanation.<ul><li><strong>Choice A — \"similarly,\"</strong>: signals that a comparable situation follows, so fails — the second clause is not a parallel example but a definition of the first clause. ✗</li><li><strong>Choice B — \"in contrast,\"</strong>: signals opposition, so fails — the second clause does not oppose the first; it defines it. ✗</li><li><strong>Choice C — \"in other words,\"</strong>: signals restatement or clarification of the same idea, so fits — the plain-language explanation of \"reverse logarithmic\" is exactly what follows. ✓</li><li><strong>Choice D — \"for example,\"</strong>: signals a specific instance of a general claim, so fails — the second clause defines the scale, it does not give one example from among many. ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;similarly,&apos;</strong>: signals a parallel situation follows, but the second clause defines the first clause rather than offering a comparable case &mdash; this is a wrong-relationship error. &#10007;</li><li><strong>Choice B &mdash; &apos;in contrast,&apos;</strong>: signals opposition, but the second clause does not contradict the first; it explains it &mdash; this is a wrong-relationship error. &#10007;</li><li><strong>Choice C &mdash; &apos;in other words,&apos;</strong>: signals a restatement of the same idea in plainer language, which is exactly what follows (the plain-language definition of &quot;reverse logarithmic&quot;). &#10003;</li><li><strong>Choice D &mdash; &apos;for example,&apos;</strong>: signals one specific instance of a general category, but the second clause defines the scale universally rather than providing a single example &mdash; this is a wrong-relationship error. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

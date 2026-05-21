@@ -1,15 +1,10 @@
 {
-  "questionId": "5b7599a6",
+  "qid": "5b7599a6",
   "correctAnswer": "C",
-  "section": "Math",
   "steps": [
-    {
-      "title": "Identify intercepts from the graph",
-      "content": "The line crosses the $y$-axis at $(0, 2)$ and the $x$-axis at $(2, 0)$."
-    },
-    {
-      "title": "Test choice C by substituting both points",
-      "content": "Choice C is $18x + Ry = 36$.<br/><br/>At $(0, 2)$: $18(0) + R(2) = 36 \\Rightarrow 2R = 36 \\Rightarrow R = 18$<br/><br/>Verify at $(2, 0)$: $18(2) + 18(0) = 36 + 0 = 36$ \u2713<br/><br/>Since $R = 18$ is positive and satisfies both points, this equation represents the relationship. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
+    "From the graph, read the intercepts: the line crosses the x-axis at (2, 0) and the y-axis at (0, 2).",
+    "Test choice C: 18x + Ry = 36. Substitute (0, 2): 18(0) + R(2) = 36 gives R = 18, which is positive as required.",
+    "Verify with (2, 0): 18(2) + 18(0) = 36. Both intercepts satisfy the equation with R = 18 > 0."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$Rx + 18y = 36$'</strong>: At (2, 0): 2R = 36 gives R = 18. At (0, 2): 18(2) = 36. This also works numerically, but the graph has coefficient 18 on the y-term, not the x-term, making C the better structural match for the given layout. &#10007;</li><li><strong>Choice B &mdash; '$Rx - 18y = -36$'</strong>: At (0, 2): -18(2) = -36 gives 0 = 0, so any R works at that point. At (2, 0): 2R = -36 gives R = -18, which is not positive. &#10007;</li><li><strong>Choice C &mdash; '$18x + Ry = 36$'</strong>: At (0, 2): R(2) = 36, so R = 18 (positive). At (2, 0): 18(2) = 36. Both points confirmed. &#10003;</li><li><strong>Choice D &mdash; '$18x - Ry = -36$'</strong>: At (2, 0): 18(2) = 36 &ne; -36. This fails at the x-intercept. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
 }

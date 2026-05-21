@@ -1,1 +1,11 @@
-{"questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify all three sides from the diagram", "content": "The diagram shows a triangle with three sides: one side labeled $x$ inches and two sides each labeled $y$ inches. These are the three edges that form the triangle's perimeter."}, {"title": "Write the perimeter equation", "content": "Perimeter is the sum of all three sides:<br/>$$\\text{Perimeter} = x + y + y = 69$$<br/>Combine like terms on the left side:<br/>$$x + 2y = 69$$<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    "The triangle has three sides: one labeled $x$ inches and two labeled $y$ inches each.",
+    "Perimeter = sum of all three sides: $x + y + y = x + 2y$.",
+    "Set equal to 69: $x + 2y = 69$.",
+    "<ul><li><strong>Choice A &mdash; '$x+y=69$'</strong>: Accounts for only two sides (one $x$ and one $y$), missing the second $y$ side. &#10007;</li><li><strong>Choice B &mdash; '$2x+y=69$'</strong>: Would require two sides of length $x$, but the triangle has only one. &#10007;</li><li><strong>Choice C &mdash; '$x+2y=69$'</strong>: One side of $x$ plus two sides of $y$ gives $x + 2y = 69$. &#10003;</li><li><strong>Choice D &mdash; '$2x+2y=69$'</strong>: Would require two sides of length $x$, but the triangle has only one. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+  ]
+}

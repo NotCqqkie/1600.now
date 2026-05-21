@@ -4,15 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Eliminate negative functions using g(0)",
-      "content": "The table shows $g(0) = 1$. For any exponential function $a^x$, we have $a^0 = 1$. Since choices A and B include a negative sign, they would yield $-1$ at $x = 0$. These are eliminated immediately."
+      "title": "Use g(0) to eliminate negative-base choices",
+      "content": "For any exponential $a^x$, we have $a^0 = 1$. The table shows $g(0) = 1$ (positive). Choices A and B have a leading negative sign, giving $-1$ at $x = 0$. Both are eliminated."
     },
     {
-      "title": "Test remaining choices at x = 1",
-      "content": "Backsolving — testing choice C ($25^x$): When $x = 1$, we get $25^1 = 25$, but the table shows $g(1) = \\frac{1}{25}$.<br/><br/>This fails.<br/>Backsolving — testing choice D ($\\left(\\frac{1}{25}\\right)^x$): When $x = 1$, we get $\\left(\\frac{1}{25}\\right)^1 = \\frac{1}{25}$.<br/><br/>The table shows $g(1) = \\frac{1}{25}$. This matches. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "g(x)=(((1)/(25)))^(x)"
-      ]
+      "title": "Test g(1) to distinguish C from D",
+      "content": "The table shows $g(1) = \\frac{1}{25}$.<br/>Choice C: $25^1 = 25 \\neq \\frac{1}{25}$. Eliminated.<br/>Choice D: $\\left(\\frac{1}{25}\\right)^1 = \\frac{1}{25}$. Matches."
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$g(x) = -25^x$'</strong>: Gives $g(0) = -1$, but the table shows $g(0) = 1$. &#10007;</li><li><strong>Choice B &mdash; '$g(x) = -(\\frac{1}{25})^x$'</strong>: Gives $g(0) = -1$, but the table shows $g(0) = 1$. &#10007;</li><li><strong>Choice C &mdash; '$g(x) = 25^x$'</strong>: Gives $g(1) = 25$, but the table shows $g(1) = \\frac{1}{25}$. &#10007;</li><li><strong>Choice D &mdash; '$g(x) = (\\frac{1}{25})^x$'</strong>: Gives $g(0) = 1$ and $g(1) = \\frac{1}{25}$, matching the table. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+      "desmosExpressions": ["g(x)=(1/25)^x"]
     }
   ]
 }

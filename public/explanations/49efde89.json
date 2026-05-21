@@ -1,1 +1,19 @@
-{"questionId": "49efde89", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Expand the right side", "content": "Distribute $x$ through the parentheses:<br/>$$x(2x + 7) = 2x^2 + 7x$$"}, {"title": "Match coefficients with the left side", "content": "Comparing the left side $2x^2 + ax$ with the right side $2x^2 + 7x$: the coefficient of $x$ must be the same on both sides. Left side has $a$, right side has $7$, so $a = 7$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "49efde89",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the right side",
+      "content": "Distribute $x$ through the parentheses: $x(2x + 7) = 2x^2 + 7x$"
+    },
+    {
+      "title": "Match coefficients",
+      "content": "The left side is $2x^2 + ax$ and the right side is $2x^2 + 7x$. The $x^2$ coefficients already match. Matching the $x$ coefficients: $a = 7$."
+    },
+    {
+      "title": "Identify the correct choice",
+      "content": "<ul><li><strong>Choice A &mdash; '2'</strong>: $a = 2$ would give $2x^2 + 2x$, but $x(2x+7) = 2x^2 + 7x$. &#10007;</li><li><strong>Choice B &mdash; '3'</strong>: $a = 3$ would give $2x^2 + 3x$. Does not match $2x^2 + 7x$. &#10007;</li><li><strong>Choice C &mdash; '4'</strong>: $a = 4$ would give $2x^2 + 4x$. Does not match $2x^2 + 7x$. &#10007;</li><li><strong>Choice D &mdash; '7'</strong>: $a = 7$ gives $2x^2 + 7x = x(2x + 7)$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

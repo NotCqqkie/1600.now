@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical role needed",
-      "content": "The blank is the subject of the verb \"are descendants\" inside the subordinate clause \"because ______ are descendants of Proto-Kru.\" The subject must be a plural subject pronoun referring to \"thirty-eight languages.\""
+      "content": "The blank is the subject of the verb phrase &ldquo;are descendants of Proto-Kru&rdquo; inside the subordinate clause &ldquo;because ______ are descendants of Proto-Kru.&rdquo; The blank needs a <strong>plural subject pronoun</strong> referring to &ldquo;thirty-eight languages.&rdquo;"
     },
     {
-      "title": "Apply pronoun case and meaning rules, then eliminate",
-      "content": "The blank needs a plural subject pronoun. \"Thirty-eight languages\" is plural, so the pronoun must be plural too.<br/><br/><strong>A. its</strong> — singular possessive pronoun; cannot be a subject and is singular. Eliminated.<br/><strong>B. they're</strong> — contraction of \"they are\"; provides the plural subject \"they\" followed by the verb \"are,\" agreeing with \"are descendants.\" <strong>Correct.</strong><br/><strong>C. their</strong> — plural possessive pronoun; cannot serve as a subject. Eliminated.<br/><strong>D. it's</strong> — contraction of \"it is\"; singular subject, does not agree with plural \"languages.\" Eliminated.<br/><br/>B is correct."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;its&rsquo;</strong>: Singular possessive pronoun. Violates two rules: wrong case (possessive, not subject) and wrong number (singular vs. plural &ldquo;languages&rdquo;). &#10007;</li><li><strong>Choice B &mdash; &lsquo;they&rsquo;re&rsquo;</strong>: Contraction of &ldquo;they are&rdquo; &mdash; plural subject pronoun &ldquo;they&rdquo; followed by &ldquo;are,&rdquo; which agrees with plural &ldquo;languages.&rdquo; Correctly fills the subject slot. &#10003;</li><li><strong>Choice C &mdash; &lsquo;their&rsquo;</strong>: Plural possessive pronoun. Violates pronoun case &mdash; a possessive cannot serve as the subject of &ldquo;are descendants.&rdquo; &#10007;</li><li><strong>Choice D &mdash; &lsquo;it&rsquo;s&rsquo;</strong>: Contraction of &ldquo;it is&rdquo; &mdash; singular subject. Violates subject-verb agreement with plural &ldquo;thirty-eight languages.&rdquo; &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

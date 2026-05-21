@@ -1,16 +1,15 @@
 {
-  "questionId": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+  "qid": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
   "correctAnswer": "A",
-  "section": "Math",
   "steps": [
-    {
-      "title": "Find the hourly rate for additional hours",
-      "content": "The specialist charges \\$160 for the first 2 hours. For a 6-hour repair, that's 4 additional hours. Since the total cost is \\$360:<br/>$$160 + (\\text{rate}) \\times 4 = 360$$<br/>Solving: $(\\text{rate}) \\times 4 = 200$, so the hourly rate for additional hours is \\$50."
-    },
-    {
-      "title": "Build the function for x \u2265 2",
-      "content": "The total cost for $x$ hours is the fixed \\$160 charge plus \\$50 per additional hour beyond 2:<br/>$$f(x) = 160 + 50(x - 2)$$<br/>Simplify to standard form:<br/>$$f(x) = 50x + 60$$<br/>That matches choice A \u2014 <strong>A</strong> is correct.",
-      "desmosExpressions": ["y = 50x + 60 \\{x \\geq 2\\}", "(6, 360)"]
-    }
+    "The specialist charges $160 for the first 2 hours. For 6 hours total, there are 6 - 2 = 4 additional hours beyond the base.",
+    "The additional cost: $360 - $160 = $200 for those 4 hours, so the hourly rate is $200 \\div 4 = $50 per hour.",
+    "For any x hours (x \\geq 2): f(x) = 160 + 50(x - 2) = 160 + 50x - 100 = 50x + 60.",
+    "Verify: f(6) = 50(6) + 60 = 300 + 60 = 360. \\checkmark"
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$f(x)=50x+60$'</strong>: f(6) = 50(6) + 60 = 360. Derived from the base fee of $160 minus the 2 hours already included at $50 each, giving y-intercept 60. &#10003;</li><li><strong>Choice B &mdash; '$f(x)=50x+160$'</strong>: f(6) = 50(6) + 160 = 460 &#x2260; 360. Incorrectly counts the $160 base on top of all x hours at $50, double-counting the first 2 hours. &#10007;</li><li><strong>Choice C &mdash; '$f(x)=60x$'</strong>: f(6) = 360 coincidentally matches, but f(2) = 120 &#x2260; 160. This ignores the flat $160 base charge for the first 2 hours. &#10007;</li><li><strong>Choice D &mdash; '$f(x)=60x+160$'</strong>: f(6) = 60(6) + 160 = 520 &#x2260; 360. Both the rate and intercept are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "desmosExpressions": [
+    { "id": "g1", "latex": "f\\left(x\\right)=50x+60", "color": "#2d70b3" },
+    { "id": "p1", "latex": "\\left(6,360\\right)", "color": "#388c46", "label": "6 hrs, $360", "showLabel": true }
   ]
 }

@@ -3,17 +3,9 @@
   "correctAnswer": "D",
   "section": "Math",
   "steps": [
-    {
-      "title": "Interpret the growth condition",
-      "content": "<div class=\"callout\">\"For every increase of 2 in $x$, $f(x)$ increases by a factor of $c$\" means:</div>$$f(x+2) = c \\cdot f(x)$$<br/>We need to find which form displays the growth factor $c$ as the base."
-    },
-    {
-      "title": "Find the exponent structure needed",
-      "content": "For an exponential $f(x) = a \\cdot b^{\\text{exponent}}$, when the exponent increases by 1, the output multiplies by the base $b$.<br/><br/>Since $f(x+2)$ must equal $c \\cdot f(x)$, the exponent must increase by 1 when $x$ increases by 2. For exponent $= kx$:<br/>$$2k = 1 \\implies k = \\frac{1}{2}$$<br/>Therefore, we need:<br/>$$f(x) = a \\cdot c^{\\frac{x}{2}}$$"
-    },
-    {
-      "title": "Identify the matching choice",
-      "content": "Check the exponent in each choice:<ul><li>A: $26(2)^{6x}$ \u2014 exponent $6x$</li><li>B: $26(8)^{2x}$ \u2014 exponent $2x$</li><li>C: $26(64)^x$ \u2014 exponent $x$</li><li>D: $26(4096)^{\\frac{x}{2}}$ \u2014 exponent $\\frac{x}{2}$ \u2713</li></ul>Choice D has the required form with exponent $\\frac{x}{2}$. When $x$ increases by 2, the exponent increases by 1, multiplying the output by $4096^1 = 4096$. The base 4,096 is the growth factor $c$. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
+    "The condition \"every increase of 2 in $x$ multiplies $f(x)$ by $c$\" means $f(x+2) = c \\cdot f(x)$. We need the form where $c$ appears as the base.",
+    "For $f(x) = a \\cdot c^{kx}$, increasing $x$ by 2 multiplies the output by $c^{2k}$. For $c$ to appear directly as the base, we need the exponent to be $x/2$ so that a step of 2 in $x$ increases the exponent by exactly 1, giving one factor of the base.",
+    "Check each choice by computing the ratio $f(x+2)/f(x)$: Choice A gives $2^{12}=4096$; Choice B gives $8^4=4096$; Choice C gives $64^2=4096$; Choice D gives $4096^1=4096$. In choice D, $c=4096$ appears directly as the base $26(4096)^{x/2}$, which is the form that displays $c$ as the base.",
+    "<ul><li><strong>Choice A &mdash; '$f(x) = 26(2)^{6x}$'</strong>: The ratio $f(x+2)/f(x) = 2^{12} = 4096$, but $c=4096$ is not the base &mdash; $2$ is. &#10007;</li><li><strong>Choice B &mdash; '$f(x) = 26(8)^{2x}$'</strong>: The ratio is $8^4 = 4096$, but $c=4096$ is not the base &mdash; $8$ is. &#10007;</li><li><strong>Choice C &mdash; '$f(x) = 26(64)^x$'</strong>: The ratio is $64^2 = 4096$, but $c=4096$ is not the base &mdash; $64$ is. &#10007;</li><li><strong>Choice D &mdash; '$f(x) = 26(4{,}096)^{x/2}$'</strong>: The ratio is $4096^{(x+2)/2}/4096^{x/2} = 4096^1 = 4096$. Here $c = 4096$ IS the base. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
   ]
 }

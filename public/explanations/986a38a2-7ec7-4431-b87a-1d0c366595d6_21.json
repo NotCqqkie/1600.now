@@ -1,15 +1,1 @@
-{
-  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the logical link between the clauses",
-      "content": "The first clause states that the Center has cultivated a multigenerational community of Black creatives; the second clause says it has garnered a reputation as a hub of Black art and culture. The second clause follows as a result of the first, so we need a transition that shows consequence."
-    },
-    {
-      "title": "Choose the transition that signals a result",
-      "content": "'accordingly,' means 'as a result' and correctly links the clauses as cause and effect. The other three either signal contrast ('on the other hand,' 'nevertheless') or mere timing ('periodically'), which do not fit the result relationship. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the two clauses", "content": "The first clause states that the Center has cultivated a multigenerational community of Black creatives. The second clause states that it has garnered a reputation as a hub of Black art and culture. The second event is a <em>result</em> of the first, so the transition must signal consequence."}, {"title": "Eliminate each wrong choice and confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'accordingly,'</strong>: Accordingly means &quot;as a result,&quot; correctly marking the second clause as a consequence of the first. &#10003;</li><li><strong>Choice B &mdash; 'on the other hand,'</strong>: On the other hand signals contrast; there is no contrast between cultivating creatives and gaining a reputation. &#10007;</li><li><strong>Choice C &mdash; 'nevertheless,'</strong>: Nevertheless signals concession or contradiction; the second clause is not surprising given the first. &#10007;</li><li><strong>Choice D &mdash; 'periodically,'</strong>: Periodically is a time adverb meaning &quot;at intervals&quot;; it does not express any logical relationship between the clauses. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

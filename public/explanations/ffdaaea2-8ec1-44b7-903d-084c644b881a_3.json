@@ -1,1 +1,9 @@
-{"questionId": "ffdaaea2-8ec1-44b7-903d-084c644b881a_3", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the operation blocking us", "content": "The equation is $q - 34r = s$. Currently, $q$ has $34r$ subtracted from it. To isolate $q$, we need to undo this subtraction by adding $34r$ to both sides."}, {"title": "Add 34r to both sides", "content": "Starting with $q - 34r = s$:<br/>$$q - 34r + 34r = s + 34r$$<br/>Simplifying:<br/>$$q = s + 34r$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "qid": "ffdaaea2-8ec1-44b7-903d-084c644b881a_3",
+  "steps": [
+    "Start with q - 34r = s.",
+    "Add 34r to both sides: q = s + 34r."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$q = s - 34r$'</strong>: Subtracting 34r again doubles the subtraction; incorrect. &#10007;</li><li><strong>Choice B &mdash; '$q = s + 34r$'</strong>: Adding 34r to both sides of q - 34r = s gives q = s + 34r. &#10003;</li><li><strong>Choice C &mdash; '$q = 34rs$'</strong>: Multiplies terms that were added/subtracted; wrong operation entirely. &#10007;</li><li><strong>Choice D &mdash; '$q = -\\frac{s}{34r}$'</strong>: Involves division and negation with no algebraic basis from the original equation. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "correctAnswer": "B"
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the stated goal",
-      "content": "To \u201cemphasize the order\u201d means making clear which student attended BEFORE the other. The chronological relationship must be explicitly shown, not just implied."
+      "content": "The task is to emphasize the <strong>order</strong> in which the two students attended the Bauhaus. According to the notes, Koch-Otte began in 1920 and Stern began in 1930, so Koch-Otte came first. The correct choice must explicitly show that chronological sequence &mdash; not just list both students or focus on unrelated details like directors."
     },
     {
-      "title": "Find the choice that shows the sequence",
-      "content": "Choice C uses the word preceded to show Koch-Otte attended before Stern, making their order unmistakable. The other three either omit this comparison, focus on directors, or mention only one student. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'Founded in 1919, the Bauhaus was a German art and design school whose past students include Benita Koch-Otte and Grete Stern.'</strong>: Lists both students but states no order between them; neither is said to come before the other. &#10007;</li><li><strong>Choice B &mdash; 'Walter Gropius founded the Bauhaus in 1919 and acted as its director until 1928, at which point Hannes Meyer succeeded him in the role.'</strong>: Focuses entirely on directors; neither student is mentioned. &#10007;</li><li><strong>Choice C &mdash; 'Benita Koch-Otte and Grete Stern were both Bauhaus students, but Koch-Otte, who began attending in 1920, preceded Stern.'</strong>: Uses the word &quot;preceded&quot; to make the chronological order unmistakable: Koch-Otte before Stern. &#10003;</li><li><strong>Choice D &mdash; 'The Bauhaus was founded in 1919, and Grete Stern began attending in 1930.'</strong>: Mentions only Stern; Koch-Otte is omitted entirely, so no order between the two students can be shown. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

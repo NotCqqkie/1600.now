@@ -1,1 +1,11 @@
-{"questionId": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the cost tier for each class", "content": "Map the promotion's pricing by class order:<ul><li><strong>1st class:</strong> Free = \\$0</li><li><strong>2nd class:</strong> Half off = \\$22.80 ÷ 2 = \\$11.40</li><li><strong>Classes 3 and beyond:</strong> Regular price = \\$22.80 each</li></ul>Since we take x classes total, the number of regularly-priced classes is (x − 2)."}, {"title": "Build the total cost formula", "content": "Sum costs across all tiers:<br/>$$f(x) = 0 + 11.40 + 22.80(x-2)$$<br/>Rearrange:<br/>$$f(x) = 22.80(x-2) + 11.40$$<br/>Verify with x = 3: $f(3) = 22.80(1) + 11.40 = 22.80 + 11.40 = 34.20$. This matches taking 1 free class (\\$0) + 1 discounted class (\\$11.40) + 1 full-price class (\\$22.80) = \\$34.20. The answer is <strong>A</strong>."}]}
+{
+  "qid": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_14",
+  "steps": [
+    "Map costs by class order: 1st class = $0 (free); 2nd class = $22.80 / 2 = $11.40 (half off); classes 3 through x = $22.80 each (regular price).",
+    "For x total classes (x \\u2265 2), the number of regularly-priced classes is x \\u2212 2.",
+    "Total cost: f(x) = 0 + 11.40 + 22.80(x \\u2212 2) = 22.80(x \\u2212 2) + 11.40.",
+    "Verify with x = 3: f(3) = 22.80(1) + 11.40 = $34.20. Check: $0 + $11.40 + $22.80 = $34.20. \\u2713"
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'f(x) = 22.80(x \\u2212 2) + 11.40'</strong>: Correctly multiplies regular price by (x \\u2212 2) remaining classes and adds the half-price second class. Verified with x = 3 gives $34.20. &#10003;</li><li><strong>Choice B &mdash; 'f(x) = 22.80x + 11.40'</strong>: Charges regular price for all x classes plus the half-price cost, ignoring both the free first class and the discount on the second. Overcounts by $22.80 + $11.40 = $34.20. &#10007;</li><li><strong>Choice C &mdash; 'f(x) = 22.80(x \\u2212 1) + 11.40'</strong>: Subtracts only 1 from x, as if only the free class is excluded, but the second class should also be excluded from the regular rate. For x = 3: 22.80(2) + 11.40 = $57.00, not $34.20. &#10007;</li><li><strong>Choice D &mdash; 'f(x) = 22.80(x \\u2212 1) + 11.40(x \\u2212 2)'</strong>: Applies the half-price rate to (x \\u2212 2) classes instead of just one, which is incorrect; only the second class is half off. For x = 3: 22.80(2) + 11.40(1) = $57.00. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "correctAnswer": "A"
+}

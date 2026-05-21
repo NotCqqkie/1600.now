@@ -1,1 +1,27 @@
-{"questionId": "3d985614", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Estimate the slope from the data trend", "content": "The scatterplot stretches from a low cluster near $(1, 2)$ up to the highest dot near $(5, 15)$.<br/><br/>Approximate slope using the endpoints:<br/>$$\\text{slope} \\approx \\frac{15 - 2}{5 - 1} = \\frac{13}{4} \\approx 3.3$$<br/>So the line of best fit must have slope close to <strong>3.3</strong>, not a fraction less than 1.", "formula": "$$\\text{slope} \\approx \\frac{\\Delta y}{\\Delta x}$$"}, {"title": "Eliminate the slope = 0.82 choices", "content": "Choices A and B both have slope $0.82$. Over the data range of 4 units in $x$, that would only raise $y$ by $0.82 \\times 4 \\approx 3.3$ units &mdash; far too shallow for the $\\sim\\!13$-unit rise visible in the plot. <strong>Eliminate A and B.</strong>"}, {"title": "Test C and D at the data center", "content": "The data cluster is roughly centered near $(x, y) = (3, 11)$. Plug $x = 3$ into the remaining choices:<ul><li><strong>Choice C &mdash; $y = 3.30x + 0.82$</strong>: $y = 9.90 + 0.82 = 10.72$. Very close to $11$. &#10003;</li><li><strong>Choice D &mdash; $y = 3.30x - 3.30$</strong>: $y = 9.90 - 3.30 = 6.60$. Far below the cluster. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.", "desmosExpressions": ["y = 3.30x + 0.82"]}]}
+{
+  "questionId": "3d985614",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Estimate the slope from the data range",
+      "content": "The scatterplot spans from roughly $(1, 2)$ at the low end to $(5, 15)$ at the high end.<br/><br/>Approximate slope:<br/>$$\\text{slope} \\approx \\frac{15 - 2}{5 - 1} = \\frac{13}{4} \\approx 3.3$$<br/>The line of best fit needs a slope near <strong>3.3</strong>, not 0.82.",
+      "formula": "$$\\text{slope} = \\frac{\\Delta y}{\\Delta x}$$"
+    },
+    {
+      "title": "Eliminate low-slope choices A and B",
+      "content": "Choices A and B both have slope $0.82$. Over the 4-unit horizontal span, that line would only rise $0.82 \\times 4 \\approx 3.3$ units — far too shallow for the ~13-unit vertical rise in the data. <strong>Eliminate A and B.</strong>"
+    },
+    {
+      "title": "Choose between C and D using the data center",
+      "content": "The data cluster is centered near $(x, y) \\approx (3, 11)$. Test $x = 3$:<ul><li><strong>Choice C &mdash; $y = 3.30x + 0.82$</strong>: $y = 9.90 + 0.82 = 10.72$. Very close to 11. &#10003;</li><li><strong>Choice D &mdash; $y = 3.30x - 3.30$</strong>: $y = 9.90 - 3.30 = 6.60$. Far below the cluster. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$y = 0.82x + 3.30$'</strong>: Slope 0.82 is far too shallow for data that rises ~13 units over 4 units of $x$. &#10007;</li><li><strong>Choice B &mdash; '$y = 0.82x - 0.82$'</strong>: Same incorrectly shallow slope; negative intercept makes predictions even lower. &#10007;</li><li><strong>Choice C &mdash; '$y = 3.30x + 0.82$'</strong>: Slope 3.3 matches the estimated rise/run; at the data center $(3, 11)$ the line predicts $\\approx 10.72$. &#10003;</li><li><strong>Choice D &mdash; '$y = 3.30x - 3.30$'</strong>: Slope is correct, but the intercept $-3.30$ pulls the line too low — predicts $6.60$ at $x = 3$, well below the data center. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "desmosExpressions": [
+    "y = 0.82x + 3.30",
+    "y = 0.82x - 0.82",
+    "y = 3.30x + 0.82",
+    "y = 3.30x - 3.30"
+  ]
+}

@@ -1,1 +1,20 @@
-{"questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_13", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Find the slope from the difference condition", "content": "For a linear function $g(x) = mx + b$, the difference between consecutive values is constant and equals the slope:<br/>$$g(x+1) - g(x) = [m(x+1) + b] - [mx + b] = m$$<br/>Since we're told that $g(x+1) - g(x) = 6$, the slope is $m = 6$. Therefore, $g(x) = 6x + b$ for some unknown constant $b$."}, {"title": "Find the y-intercept using the point condition", "content": "We know $g(4) = 10$ and $g(x) = 6x + b$. Substitute:<br/>$$6(4) + b = 10$$<br/>$$24 + b = 10$$<br/>$$b = -14$$<br/>Therefore, $g(x) = 6x - 14$. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = 6x - 14", "(4, 10)"]}]}
+{
+  "questionId": "979898ba-60c7-4531-ac45-29c4db2b3361_13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Extract the slope from the difference condition",
+      "content": "For any linear function $g(x) = mx + b$:<br/>$g(x+1) - g(x) = [m(x+1)+b] - [mx+b] = m$<br/>Since $g(x+1) - g(x) = 6$, the slope is $m = 6$. So $g(x) = 6x + b$."
+    },
+    {
+      "title": "Find the y-intercept using g(4) = 10",
+      "content": "Substitute into $g(x) = 6x + b$:<br/>$6(4) + b = 10 \\Rightarrow 24 + b = 10 \\Rightarrow b = -14$<br/>So $g(x) = 6x - 14$."
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$g(x)=4x+10$'</strong>: Slope is 4, not 6, so $g(x+1)-g(x)=4 \\neq 6$. &#10007;</li><li><strong>Choice B &mdash; '$g(x)=4x+6$'</strong>: Slope is 4, not 6. &#10007;</li><li><strong>Choice C &mdash; '$g(x)=6x-14$'</strong>: Slope is 6 (matches difference condition) and $g(4)=24-14=10$ (matches point condition). &#10003;</li><li><strong>Choice D &mdash; '$g(x)=6x-24$'</strong>: Slope is correct but $g(4)=24-24=0 \\neq 10$. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+      "desmosExpressions": ["y = 6x - 14"]
+    }
+  ]
+}

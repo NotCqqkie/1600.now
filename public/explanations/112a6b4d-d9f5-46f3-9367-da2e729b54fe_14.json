@@ -1,1 +1,15 @@
-{"questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_14", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the parallel structure", "content": "Immigrants from Mandarin-speaking regions of China settled in Flushing and speak Mandarin; immigrants from Cantonese/Fuzhounese-speaking regions settled in Chinatown and speak those languages. The pattern shows: home-region language shapes where they settle and what they speak."}, {"title": "Identify the reason", "content": "Choice B directly explains why the settlement pattern mirrors the language distribution: geographic language differences within China are reflected in how Chinese immigrants settled across NYC neighborhoods.<br/><br/>Immigrants naturally clustered with others from their home regions and maintained their original languages.<br/><br/>The other choices introduce unsupported information—individual multilingualism patterns (A), residence changes (C), or population counts (D)—that don't account for the observed language-settlement correlation.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "112a6b4d-d9f5-46f3-9367-da2e729b54fe_14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pattern to explain",
+      "content": "The passage shows a parallel: immigrants from Mandarin-speaking northern China settled in Flushing and speak Mandarin; immigrants from Cantonese/Fuzhounese-speaking southern China settled in Chinatown and speak those languages. The correct answer must explain why settlement location tracks home-region language."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;Chinese immigrants who emigrated to New York City many years ago are more likely to speak several Chinese languages than are more recent Chinese immigrants.&quot;</strong>: Discusses multilingualism over time, which doesn&apos;t explain why a specific language maps to a specific neighborhood. &#10007;</li><li><strong>Choice B &mdash; &quot;There are geographic differences in primary language within China that are reflected in the settlement patterns of Chinese immigrants in New York City.&quot;</strong>: Directly explains the correlation: because different regions of China speak different languages, immigrants from those regions brought their languages with them and clustered together in the same NYC neighborhoods. &#10003;</li><li><strong>Choice C &mdash; &quot;Chinese immigrants regularly change their residences between Queens and Manhattan after they emigrate, rather than staying in one borough.&quot;</strong>: Suggests fluidity of residence, which would undermine the stable language-neighborhood pattern the passage describes. &#10007;</li><li><strong>Choice D &mdash; &quot;Taken together, there are more Cantonese and Fuzhounese speakers among Chinese immigrants in New York City than there are Mandarin speakers.&quot;</strong>: A population count that explains nothing about why particular languages cluster in particular neighborhoods. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

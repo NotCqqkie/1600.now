@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the student's goal",
-      "content": "The student wants to \u201cindicate where the short story takes place\u201d\u2014asking specifically for the setting or location where the story occurs."
+      "content": "The student wants to &quot;indicate where the short story takes place.&quot; The correct choice must state the story's setting &mdash; its location."
     },
     {
-      "title": "Apply the goal to the choices",
-      "content": "Choice A accomplishes this by directly stating where the story takes place: \u201cHarlem.\u201d Choices B, C, and D address the published book, narrative perspective, and authorship respectively\u2014none of which reveal the story's location. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;&lsquo;Raymond&rsquo;s Run&rsquo; takes place in Harlem.&quot;</strong>: directly states where the story is set &mdash; fulfills the goal. &#10003;</li><li><strong>Choice B &mdash; &quot;&lsquo;Raymond&rsquo;s Run&rsquo; was published in <em>Gorilla, My Love</em>.&quot;</strong>: identifies the book in which the story appeared &mdash; does not indicate where the story takes place. &#10007;</li><li><strong>Choice C &mdash; &quot;&lsquo;Raymond&rsquo;s Run&rsquo; is told from a first person perspective.&quot;</strong>: describes narrative point of view &mdash; does not indicate where the story takes place. &#10007;</li><li><strong>Choice D &mdash; &quot;&lsquo;Raymond&rsquo;s Run&rsquo; was written by Toni Cade Bambara.&quot;</strong>: identifies the author &mdash; does not indicate where the story takes place. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

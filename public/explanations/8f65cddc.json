@@ -1,1 +1,9 @@
-{"questionId": "8f65cddc", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Isolate the target variable", "content": "Cross-multiplying $\\frac{1}{7b}=\\frac{11x}{y}$ gives $y=77bx$, so $$x=\\frac{y}{77b}.$$"}, {"title": "Match to the answer choices", "content": "The form $x=\\frac{y}{77b}$ matches choice C. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "qid": "8f65cddc",
+  "steps": [
+    "Start with $\\frac{1}{7b}=\\frac{11x}{y}$. Cross-multiply: $y = 7b \\cdot 11x = 77bx$.",
+    "Divide both sides by $77b$: $x = \\frac{y}{77b}$."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$x=\\frac{7by}{11}$'</strong>: This would mean $\\frac{1}{7b}=\\frac{11 \\cdot 7by/11}{y}=7b$, giving $\\frac{1}{7b}=7b$, false in general. &#10007;</li><li><strong>Choice B &mdash; '$x=y-77b$'</strong>: Substituting back gives $\\frac{1}{7b}=\\frac{11(y-77b)}{y}$, which is not a valid identity. &#10007;</li><li><strong>Choice C &mdash; '$x=\\frac{y}{77b}$'</strong>: Substituting: $\\frac{11x}{y}=\\frac{11 \\cdot y/(77b)}{y}=\\frac{11}{77b}=\\frac{1}{7b}$ ✓. &#10003;</li><li><strong>Choice D &mdash; '$x=77by$'</strong>: Substituting: $\\frac{11 \\cdot 77by}{y}=847b \\neq \\frac{1}{7b}$ in general. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "correctAnswer": "C"
+}

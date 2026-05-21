@@ -1,1 +1,15 @@
-{"questionId": "d8aa8ba2", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The student's goal is explicit: “emphasize the mass of Sirius A.” The correct choice must directly feature Sirius A and highlight its mass using the specific data from the notes."}, {"title": "Match the goal", "content": "Choice D names Sirius A and emphasizes its mass (2.063 solar masses) through a direct comparison to the Sun, making the number meaningful.<br/><br/>The other three omit Sirius A or focus on different stars, failing to accomplish the stated goal.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d8aa8ba2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the student's goal",
+      "content": "The task is to &ldquo;emphasize the mass of Sirius A.&rdquo; The correct choice must (1) name Sirius A and (2) foreground its specific mass (2.063 solar masses). Any choice that omits Sirius A or centers on another star fails the goal immediately."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The mass of stars, like Proxima Centauri, can be described in units called solar masses.&rsquo;</strong>: Generalizes about all stars and uses Proxima Centauri as the example. Sirius A is not mentioned. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In astronomy, the mass of stars can be described in units called solar masses, and one solar mass is roughly equal to the mass of the Sun.&rsquo;</strong>: Defines the unit of measurement without mentioning Sirius A or its mass at all. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The Sun is more massive than Proxima Centauri, which has a mass of 0.122 solar masses.&rsquo;</strong>: Emphasizes Proxima Centauri&rsquo;s mass, not Sirius A&rsquo;s. Wrong star. &#10007;</li><li><strong>Choice D &mdash; &lsquo;With a mass of 2.063 solar masses, Sirius A is more massive than the Sun.&rsquo;</strong>: Opens by foregrounding Sirius A&rsquo;s exact mass and compares it to the Sun to make that number meaningful. Directly accomplishes the goal. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

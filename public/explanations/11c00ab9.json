@@ -1,15 +1,1 @@
-{
-  "questionId": "11c00ab9",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the specific data point requested",
-      "content": "The question asks for the impact of invasive mongooses on threatened mammals. Locate the mongooses row and the threatened mammals column in the table."
-    },
-    {
-      "title": "Find the intersection and match to the choices",
-      "content": "Where the mongooses row meets the threatened mammals column, the table shows 0.75. The other choices either don't appear in the table or represent values at different intersections, making them incorrect for this specific question. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11c00ab9", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Locate the correct table cell", "content": "The question asks specifically for the estimated impact of invasive <em>mongooses</em> on threatened <em>mammals</em>. Find the mongooses row and the mammals column in the table. Their intersection gives the answer.<ul><li><strong>Choice A &mdash; '0.35.'</strong>: 0.35 does not appear anywhere in the table. &#10007;</li><li><strong>Choice B &mdash; '0.61.'</strong>: 0.61 is the estimated impact of <em>cats</em> on threatened mammals, not mongooses. Wrong row. &#10007;</li><li><strong>Choice C &mdash; '0.75.'</strong>: 0.75 is exactly the value at the intersection of the mongooses row and the mammals column. &#10003;</li><li><strong>Choice D &mdash; '0.52.'</strong>: 0.52 is the estimated impact of cats on threatened <em>reptiles</em>. Wrong row and wrong column. &#10007;</li></ul>"}, {"title": "Verify the value matches the question", "content": "The only value that corresponds to mongooses and mammals is 0.75. All other choices pull values from different rows or columns, or from values not present in the table at all. That matches choice C &mdash; <strong>C</strong> is correct."}]}

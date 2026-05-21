@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage says critics compliment the novel <em>\"despite the damage ______ Soviet censors.\"</em> Soviet censors damaged the novel — the blank must express that the damage was caused by, or originated from, the censors."
+      "title": "Identify the logical relationship",
+      "content": "The passage says critics compliment the novel <em>&ldquo;despite the damage ______ Soviet censors.&rdquo;</em> Soviet censors <strong>caused</strong> the damage to the novel. The blank must express that the censors were the <em>agent</em> (source) of the damage, not the recipient of it."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<strong>A. Bestowed on</strong> means given as a gift or honor to someone. This would mean damage was given as a gift to the censors — that's backwards and nonsensical. Eliminated.<br/><br/><strong>B. Wrought by</strong> means caused or produced by. Substituting: <em>\"the damage wrought by Soviet censors\"</em> — the censors caused the damage to the novel. This fits the meaning exactly. <strong>B is correct.</strong><br/><br/><strong>C. Allocated to</strong> means officially assigned or distributed to. This would mean damage was assigned to censors, not that censors caused it. Eliminated.<br/><br/><strong>D. Concealed from</strong> means hidden away from someone. This would mean damage was hidden from the censors, reversing the relationship entirely. Eliminated."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;bestowed on&rsquo;</strong>: Means given as a gift or honor <em>to</em> someone. Violates logical direction &mdash; this makes the censors the recipients of a gift, not the cause of damage. &#10007;</li><li><strong>Choice B &mdash; &lsquo;wrought by&rsquo;</strong>: Means caused or produced <em>by</em> an agent. &ldquo;The damage wrought by Soviet censors&rdquo; correctly identifies censors as the cause. &#10003;</li><li><strong>Choice C &mdash; &lsquo;allocated to&rsquo;</strong>: Means officially assigned or distributed <em>to</em> a recipient. Violates logical direction &mdash; damage is not distributed to censors; censors inflict it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;concealed from&rsquo;</strong>: Means hidden away <em>from</em> someone. Violates the passage &mdash; the damage is not hidden from censors; censors are the ones who caused it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

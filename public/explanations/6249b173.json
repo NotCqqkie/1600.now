@@ -1,15 +1,1 @@
-{
-  "questionId": "6249b173",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key requirement",
-      "content": "The task asks to \u201cpresent the study's results.\u201d This means stating the findings\u2014what the study discovered."
-    },
-    {
-      "title": "Match the findings to the choices",
-      "content": "Choice A directly states what the study found: macaques called out and gestured more frequently at humans holding food than at empty-handed humans. The other three provide background, hypothesis, or methodology rather than results. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6249b173", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Define the goal", "content": "The student wants to <strong>present the study&apos;s results</strong> &mdash; that means stating what the study actually found, not why it was designed, what question it asked, or how it was conducted. Only data outcomes from the trial bullets (macaques called and gestured more at food-holders than at empty-handed humans) qualify."}, {"title": "Eliminate each choice and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'Macaques in the study called out to and gestured more frequently at humans holding food than at empty-handed humans.'</strong>: directly reports the trial outcome from the last two bullet points &mdash; this is the study&apos;s result. &#10003;</li><li><strong>Choice B &mdash; 'In 2018, researchers who had observed macaques in India&apos;s Bandipur National Park calling out to and gesturing at humans designed a study.'</strong>: describes the background observation that motivated the study, not the results. &#10007;</li><li><strong>Choice C &mdash; 'The researchers hoped to find out if the macaques were intentionally communicating to try to persuade humans to share their food.'</strong>: states the research hypothesis or question, not the outcome. &#10007;</li><li><strong>Choice D &mdash; 'The researchers studied how macaques behaved around both humans holding food and empty-handed humans.'</strong>: describes the study&apos;s design or method, not what was discovered. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

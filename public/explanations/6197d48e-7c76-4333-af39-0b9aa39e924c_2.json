@@ -1,1 +1,10 @@
-{"questionId": "6197d48e-7c76-4333-af39-0b9aa39e924c_2", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Identify the range of speed", "content": "The airplane's cruising speed varies between <em>125</em> miles per hour and <em>145</em> miles per hour. This means the minimum speed is $125$ mph, and the maximum is $145$ mph.", "formula": null}, {"title": "Translate to an inequality", "content": "<br/>Since <em>s</em> represents cruising speed in miles per hour, and it must be at least $125$ mph but not more than $145$ mph, the appropriate representation is: $$125 \\leq s \\leq 145$$", "formula": null}, {"title": "Match to the choice letter", "content": "<ul><li>The inequality $125 \\leq s \\leq 145$ matches option <em>D</em>. Therefore, the correct answer is <strong>D</strong>.</li></ul>", "formula": null}]}
+{
+  "qid": "6197d48e-7c76-4333-af39-0b9aa39e924c_2",
+  "correctAnswer": "D",
+  "steps": [
+    "The cruising speed s varies between 125 mph and 145 mph. 'Between' with stated endpoints means s is at least 125 and at most 145.",
+    "This is a compound inequality: 125 \\leq s \\leq 145.",
+    "All four answer choices are simple or compound inequalities; only one captures both bounds simultaneously."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$s \\leq 20$'</strong>: 20 = 145 - 125, the range width, but the speed itself is not bounded by 20 mph &mdash; it is bounded between 125 and 145. &#10007;</li><li><strong>Choice B &mdash; '$s \\leq 125$'</strong>: Only sets an upper bound of 125, allowing speeds below the minimum of 125 mph, and doesn't capture the maximum of 145. &#10007;</li><li><strong>Choice C &mdash; '$s \\leq 145$'</strong>: Only sets an upper bound of 145, allowing speeds from 0 up to 145, which misses the minimum constraint of 125. &#10007;</li><li><strong>Choice D &mdash; '$125 \\leq s \\leq 145$'</strong>: Correctly captures both that the speed is at least 125 mph and at most 145 mph. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+}

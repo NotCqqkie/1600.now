@@ -1,1 +1,10 @@
-{"questionId": "a7e2859a", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify the cost structure", "content": "The cost is \\$430 for the first day and \\$215 for each additional day. For $ x $ days, there is 1 day at \\$430 and $ x - 1 $ days at \\$215. This creates a linear equation with a fixed initial cost and a variable rate for extra days."}, {"title": "Simplify the equation", "content": "Distribute and combine like terms:<br/>$$ y = 430 + 215(x - 1) $$<br/>$$ y = 430 + 215x - 215 $$<br/>$$ y = 215x + 215 $$"}, {"title": "Match to the correct choice", "content": "The simplified equation $ y = 215x + 215 $ matches the form in <strong>choice A</strong>. <strong>A</strong> is correct."}]}
+{
+  "qid": "a7e2859a",
+  "steps": [
+    "Day 1 costs $430. Each additional day costs $215. For $x$ days there are $(x-1)$ additional days.",
+    "Total cost: $y = 430 + 215(x-1) = 430 + 215x - 215 = 215x + 215$.",
+    "Verify: $x=1 \\Rightarrow y=430$ ✓; $x=2 \\Rightarrow y=645=430+215$ ✓"
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$y=215x+215$'</strong>: $x=1 \\Rightarrow y=430$ ✓, $x=2 \\Rightarrow y=645$ ✓. Matches the pricing structure. &#10003;</li><li><strong>Choice B &mdash; '$y=430x-215$'</strong>: $x=1 \\Rightarrow y=215$, but first day costs $430. &#10007;</li><li><strong>Choice C &mdash; '$y=430x+215$'</strong>: $x=1 \\Rightarrow y=645$, but first day costs $430. &#10007;</li><li><strong>Choice D &mdash; '$y=215x+430$'</strong>: $x=1 \\Rightarrow y=645$, but first day costs $430. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "correctAnswer": "A"
+}

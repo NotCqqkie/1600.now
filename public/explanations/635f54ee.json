@@ -1,23 +1,10 @@
 {
-  "questionId": "635f54ee",
+  "qid": "635f54ee",
   "correctAnswer": "B",
-  "section": "Math",
   "steps": [
-    {
-      "title": "Recognize the surface area formula for a cube",
-      "content": "A cube with side length $s$ has 6 square faces. Its total surface area is:<br/>$$\\text{Surface Area} = 6s^2$$"
-    },
-    {
-      "title": "Set the given surface area equal to the formula",
-      "content": "We are given that the surface area is $6\\left(\\frac{a}{4}\\right)^2$. Therefore:<br/>$$6s^2 = 6\\left(\\frac{a}{4}\\right)^2$$"
-    },
-    {
-      "title": "Solve for the side length",
-      "content": "Divide both sides by 6:<br/>$$s^2 = \\left(\\frac{a}{4}\\right)^2$$<br/>Since $a$ is positive, taking the positive square root yields:<br/>$$s = \\frac{a}{4}$$"
-    },
-    {
-      "title": "Calculate the perimeter of one face",
-      "content": "Each face is a square with side length $\\frac{a}{4}$. The perimeter of a square is 4 times the side length:<br/>$$P = 4 \\cdot \\frac{a}{4} = a$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
+    "A cube with side length s has 6 square faces, so Surface Area = 6s^2.",
+    "Set equal to the given expression: 6s^2 = 6 \\cdot \\left(\\frac{a}{4}\\right)^2. Dividing both sides by 6 gives s^2 = \\left(\\frac{a}{4}\\right)^2, so s = \\frac{a}{4}.",
+    "The perimeter of one square face = 4s = 4 \\cdot \\frac{a}{4} = a."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$\\frac{a}{4}$'</strong>: This is the side length of the cube, not the perimeter of a face. The perimeter requires multiplying the side length by 4. &#10007;</li><li><strong>Choice B &mdash; '$a$'</strong>: Side length = a/4, and perimeter = 4 &times; (a/4) = a. &#10003;</li><li><strong>Choice C &mdash; '$4a$'</strong>: This would be the perimeter if the side length were a, but the side length is a/4. &#10007;</li><li><strong>Choice D &mdash; '$6a$'</strong>: 6 is the number of faces in a cube, not relevant to the perimeter of one face. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
 }

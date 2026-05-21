@@ -1,1 +1,23 @@
-{"questionId": "7d093333", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Establish the area conversion factor", "content": "Since $1 \\text{ meter} = 3.28 \\text{ feet}$, squaring both sides:<br/>$$1 \\text{ square meter} = (3.28)^2 = 10.7584 \\text{ square feet}$$"}, {"title": "Convert the rate to square meters per minute", "content": "We need to convert both the area unit and the time unit.<br/>$$250 \\text{ sq ft/hr} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ sq ft}} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{250}{645.504} \\approx 0.387 \\text{ m}^2/\\text{min}$$<br/>Since $0.387$ is closest to $0.39$, that matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "7d093333",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert square feet to square meters",
+      "content": "Since $1 \\text{ meter} = 3.28 \\text{ feet}$, squaring both sides gives:<br/>$$1 \\text{ m}^2 = (3.28)^2 \\text{ ft}^2 = 10.7584 \\text{ ft}^2$$<br/>So: $1 \\text{ ft}^2 = \\frac{1}{10.7584} \\text{ m}^2$"
+    },
+    {
+      "title": "Convert hours to minutes",
+      "content": "$1 \\text{ hr} = 60 \\text{ min}$, so $\\frac{1}{\\text{hr}} = \\frac{1}{60 \\text{ min}}$."
+    },
+    {
+      "title": "Apply both conversions",
+      "content": "$$250 \\frac{\\text{ft}^2}{\\text{hr}} \\times \\frac{1 \\text{ m}^2}{10.7584 \\text{ ft}^2} \\times \\frac{1 \\text{ hr}}{60 \\text{ min}} = \\frac{250}{10.7584 \\times 60} \\approx \\frac{250}{645.5} \\approx 0.387 \\frac{\\text{m}^2}{\\text{min}}$$"
+    },
+    {
+      "title": "Match to the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$0.39$'</strong>: $0.387 \\approx 0.39$. Closest to our calculated value. &#10003;</li><li><strong>Choice B &mdash; '$1.27$'</strong>: This would result from dividing 250 by 10.7584 without converting hours to minutes. &#10007;</li><li><strong>Choice C &mdash; '$13.67$'</strong>: This would result from dividing by 60 and multiplying by 3.28 (not squaring). &#10007;</li><li><strong>Choice D &mdash; '$23.24$'</strong>: This would result from multiplying instead of dividing by the conversion factor. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

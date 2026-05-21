@@ -1,16 +1,11 @@
 {
-  "questionId": "79137c1b",
-  "correctAnswer": "B",
-  "section": "Math",
+  "qid": "79137c1b",
   "steps": [
-    {
-      "title": "Find y-intercept and estimate slope from visual data",
-      "content": "The data points range from $x \\approx 1.0$ with prices around \\$180–\\$230 thousand, to $x \\approx 3.0$ with prices around \\$330–\\$350 thousand. All data points suggest a positive y-intercept, eliminating choice D ($y = 100x$, which has y-intercept $0$). The remaining choices A, B, C have y-intercept $100$.<br/>\nTo estimate slope, identify the center of data at two regions:<ul>\n<li>At $x \\approx 1.0$: center $\\approx 210$</li>\n<li>At $x \\approx 2.5$: center $\\approx 340$</li>\n</ul>\nSlope: $$\\text{slope} \\approx \\frac{340 - 210}{2.5 - 1.0} = \\frac{130}{1.5} \\approx 87$$\nThis is closest to $100$, not $200$ or $50$."
-    },
-    {
-      "title": "Verify slope of 100 matches the data",
-      "content": "Backsolving — testing choice B ($y = 100x + 100$):<ul>\n<li>At $x = 1$: $y = 200$ (observed $\\approx 210$) ✓</li>\n<li>At $x = 2$: $y = 300$ (observed $\\approx 300$) ✓</li>\n<li>At $x = 2.5$: $y = 350$ (observed $\\approx 340$) ✓</li>\n</ul>\nCompare to choice A (slope $200$): at $x = 2$, it predicts $y = 500$, far above the data. Compare to choice C (slope $50$): at $x = 2$, it predicts $y = 200$, below most data. The slope of $100$ provides the best fit. That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = 100x + 100"]
-    }
-  ]
+    "Identify the y-intercept: all data points lie above $y = 0$ even at small $x$, so the line must have a positive y-intercept, eliminating choice D ($y = 100x$, y-intercept 0).",
+    "Estimate slope from the scatterplot: prices rise from roughly 200 at $x \\approx 1$ to roughly 300 at $x \\approx 2$, giving slope $\\approx \\frac{300 - 200}{2 - 1} = 100$.",
+    "Verify with choice B ($y = 100x + 100$): at $x = 1$, $y = 200$; at $x = 2$, $y = 300$; at $x = 2.5$, $y = 350$. All consistent with the plotted data."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$y = 200x + 100$'</strong>: Slope 200 predicts $y = 500$ at $x = 2$, far above the data cluster. &#10007;</li><li><strong>Choice B &mdash; '$y = 100x + 100$'</strong>: Slope 100 and intercept 100 predict values that align well with the plotted points across the full range. &#10003;</li><li><strong>Choice C &mdash; '$y = 50x + 100$'</strong>: Slope 50 predicts $y = 200$ at $x = 2$, below most of the data. &#10007;</li><li><strong>Choice D &mdash; '$y = 100x$'</strong>: y-intercept 0 means $y = 0$ when $x = 0$, but the data does not pass through the origin; all houses have a positive base price. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "correctAnswer": "B",
+  "desmosExpressions": ["y = 100x + 100"]
 }

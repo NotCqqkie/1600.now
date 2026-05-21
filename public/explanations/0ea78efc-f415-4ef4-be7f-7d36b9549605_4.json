@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The passage immediately explains that the Wi-Fi alternative \"can give users a cheap way\" to detect people through walls. This is the concrete benefit being described."
+      "title": "Find the context clue",
+      "content": "The blank describes the Wi-Fi alternative compared to radar and sonar, which are &quot;too costly for consumer use.&quot; The very next clause explains that Wi-Fi changes &quot;can give users a cheap way&quot; to detect people through walls. The blank must echo that cost contrast."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "Substitute each choice: a comparatively ______ alternative.<br/><br/><strong>A) unmistakable</strong> — \"unmistakable alternative\" means easy to identify or obvious. The passage says nothing about recognizability; it contrasts cost. Eliminate.<br/><br/><strong>B) inexpensive</strong> — \"inexpensive alternative\" directly echoes \"cheap way\" in the very next clause. Radar/sonar are \"too costly\" — the Wi-Fi method is cheap by comparison. Keep.<br/><br/><strong>C) infrequent</strong> — \"infrequent alternative\" means rare or uncommon. Frequency is never discussed; this is about cost and accessibility. Eliminate.<br/><br/><strong>D) impractical</strong> — \"impractical alternative\" means the Wi-Fi method doesn't work well. The passage explicitly says it can detect people and identify gestures, directly contradicting this. Eliminate.<br/><br/><strong>B</strong> is correct."
+      "title": "Test each choice against the clue",
+      "content": "<ul><li><strong>Choice A &mdash; 'unmistakable'</strong>: Unmistakable means easy to recognize or obvious. The passage contrasts cost, not clarity or recognizability. Violates the precision rule &mdash; the word must fit the specific context, not just sound plausible. &#10007;</li><li><strong>Choice B &mdash; 'inexpensive'</strong>: Inexpensive directly echoes &quot;cheap way&quot; and contrasts with &quot;too costly.&quot; A comparatively inexpensive alternative is exactly what the passage describes. &#10003;</li><li><strong>Choice C &mdash; 'infrequent'</strong>: Infrequent means rare or seldom occurring. The passage never addresses how often the Wi-Fi method is used; frequency is not the point of the contrast. &#10007;</li><li><strong>Choice D &mdash; 'impractical'</strong>: Impractical means not workable. The passage says the Wi-Fi method <em>can</em> count people and identify gestures, directly contradicting the idea that it is impractical. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

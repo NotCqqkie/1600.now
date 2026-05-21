@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the quantity clue",
-      "content": "The phrase \u201cover one hundred that they have spotted\u201d shows the team found many satellites, while others found only one or two."
+      "content": "The passage contrasts Sheppard's team finding over one hundred satellites with other astronomers who find only one or two. The blank must describe discoveries that are numerous &mdash; a large quantity, not a quality or probability."
     },
     {
-      "title": "Match the meaning to the clue",
-      "content": "The blank needs to mean numerous or abundant \u2014 Sheppard's team found over one hundred satellites while most astronomers find only one or two. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Inferior</strong>: discoveries have been \"<em>inferior</em>\" \u2014 inferior means lower in quality or rank, but the passage contrasts quantity (100+) with quantity (1\u20132), not quality. \u2717</li>\n<li><strong>Choice B \u2014 Random</strong>: discoveries have been \"<em>random</em>\" \u2014 random means without pattern or purpose, which says nothing about how many were found. \u2717</li>\n<li><strong>Choice C \u2014 Plentiful</strong>: discoveries have been \"<em>plentiful</em>\" \u2014 plentiful means existing in large amounts, which fits over one hundred discoveries compared to others' one or two. \u2713</li>\n<li><strong>Choice D \u2014 Likely</strong>: discoveries have been \"<em>likely</em>\" \u2014 likely means probable, which describes expectation rather than actual quantity. \u2717</li>\n</ul>\nThat matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'inferior'</strong>: Inferior means lower in quality or rank; the passage compares quantities (100+ vs. 1&ndash;2), not the quality of the discoveries. &#10007;</li><li><strong>Choice B &mdash; 'random'</strong>: Random means without pattern or purpose; this says nothing about how many satellites were found. &#10007;</li><li><strong>Choice C &mdash; 'plentiful'</strong>: Plentiful means existing in large amounts, which precisely fits a team that has found over one hundred satellites while others find one or two. &#10003;</li><li><strong>Choice D &mdash; 'likely'</strong>: Likely means probable; it describes expectation rather than the actual quantity of discoveries already made. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

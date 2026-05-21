@@ -1,15 +1,10 @@
 {
-  "questionId": "ad300285-6ff9-46a9-97ab-7356c9cd2965_6",
-  "correctAnswer": "C",
-  "section": "Math",
+  "qid": "ad300285-6ff9-46a9-97ab-7356c9cd2965_6",
   "steps": [
-    {
-      "title": "Set up the weight-volume relationship",
-      "content": "Total weight equals weight per cubic foot times volume. If $x$ is the total weight and $V$ is the volume in cubic feet:<br/>$$x = 160V$$"
-    },
-    {
-      "title": "Multiply the volume inequality by 160",
-      "content": "The volume constraint is $12.7 < V < 15.7$. Multiplying all parts by the positive constant 160 preserves the inequality direction:<br/>$$160(12.7) < 160V < 160(15.7)$$<br/>Substitute $x = 160V$:<br/>$$160(12.7) < x < 160(15.7)$$<br/>This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
+    "Weight equals rate times volume: x = 160V.",
+    "Volume is constrained: 12.7 < V < 15.7.",
+    "Multiply all parts of the inequality by 160 (positive, so direction preserved): 160(12.7) < 160V < 160(15.7), i.e., 160(12.7) < x < 160(15.7)."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$160 - 15.7 < x < 160 - 12.7$'</strong>: Uses subtraction instead of multiplication; weight doesn&rsquo;t subtract from rate. &#10007;</li><li><strong>Choice B &mdash; '$160 + 12.7 < x < 160 + 15.7$'</strong>: Uses addition instead of multiplication; incorrect operation. &#10007;</li><li><strong>Choice C &mdash; '$160(12.7) < x < 160(15.7)$'</strong>: Multiplying the bounding volumes by 160 lb/ft&sup3; gives the weight bounds directly. &#10003;</li><li><strong>Choice D &mdash; '$\\frac{160}{15.7} < x < \\frac{160}{12.7}$'</strong>: Division inverts the relationship and also reverses the bounds incorrectly. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "correctAnswer": "C"
 }

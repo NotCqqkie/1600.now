@@ -1,1 +1,10 @@
-{"questionId":"cd2abd24-f96a-43e7-860f-be962ea69e08_14","correctAnswer":"B","section":"Math","steps":[{"title":"Factor the expression","content":"Group: $(12x^3+60x^2y)+(xy^2+5y^3)=12x^2(x+5y)+y^2(x+5y)$. Factor out $(x+5y)$:$$=(12x^2+y^2)(x+5y)$$"},{"title":"Match to the answer choices","content":"The factored form is $(12x^2+y^2)(x+5y)$. That matches choice <strong>B</strong> — <strong>B</strong> is correct."}]}
+{
+  "qid": "cd2abd24-f96a-43e7-860f-be962ea69e08_14",
+  "steps": [
+    "Group the four terms into two pairs: $(12x^3 + 60x^2y) + (xy^2 + 5y^3)$.",
+    "Factor each pair separately: $12x^2(x + 5y) + y^2(x + 5y)$.",
+    "Both groups share the binomial factor $(x + 5y)$; factor it out to get $(12x^2 + y^2)(x + 5y)$."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$(12x^2 + 5y)(x + y^2)$'</strong>: Expanding gives $12x^3 + 12x^2y^2 + 5xy + 5y^3$, which differs from the original. &#10007;</li><li><strong>Choice B &mdash; '$(12x^2 + y^2)(x + 5y)$'</strong>: Expanding gives $12x^3 + 60x^2y + xy^2 + 5y^3$, which matches exactly. &#10003;</li><li><strong>Choice C &mdash; '$(12x^3 + y^2)(x^2 + 5y^3)$'</strong>: Expanding gives $12x^5 + 60x^3y^3 + x^2y^2 + 5y^5$, wrong degrees throughout. &#10007;</li><li><strong>Choice D &mdash; '$(12x^3 + y^3)(x + 5y)$'</strong>: Expanding gives $12x^4 + 60x^3y + xy^3 + 5y^4$, wrong degrees. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "correctAnswer": "B"
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the progression",
-      "content": "\u201dWhen alive\u201d marks the first stage where phytoplankton absorb carbon. The blank then leads to \u201cafter they die,\u201d introducing the second stage where they sink and store carbon. The passage describes how this process unfolds <strong>chronologically</strong>."
+      "title": "Identify the chronological signal",
+      "content": "Sentence 2 begins &ldquo;When alive&rdquo; and describes phytoplankton absorbing carbon. Sentence 3 begins with the blank and continues &ldquo;after they die,&rdquo; describing what happens next. The two sentences form a time-ordered sequence: alive &rarr; dead. The blank must signal that the second event comes later in that sequence."
     },
     {
-      "title": "Match the transition",
-      "content": "\u201dThen\u201d signals temporal sequencing\u2014what naturally comes next in a process. The other choices either add detail (Specifically), signal opposition (By contrast), or express reluctant concession (Nevertheless)\u2014none show temporal progression. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each option:\n<ul><li><strong>Choice A &mdash; &lsquo;Specifically,&rsquo;</strong>: signals that what follows is a precise elaboration or narrowing of the previous idea. The death-and-sinking stage is not a specific detail within the living stage; it is a new, later stage. Violates the elaboration rule. &#10007;</li><li><strong>Choice B &mdash; &lsquo;By contrast,&rsquo;</strong>: signals opposition. In both life and death phytoplankton contribute to carbon storage, so no genuine contrast exists. Violates the contrast rule. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Nevertheless,&rsquo;</strong>: signals concession &mdash; &ldquo;despite what was just said, this is still true.&rdquo; Nothing in sentence 2 creates an obstacle to sentence 3; the events simply happen in order. Violates the concession rule. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Then,&rsquo;</strong>: a temporal adverb signaling the next step in a sequence. It pairs perfectly with &ldquo;When alive&rdquo; by marking what happens afterward. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

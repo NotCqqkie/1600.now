@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure",
-      "content": "The main clause <em>Ellen Ochoa left her position</em> is complete and in past tense. The blank must connect this to the noun phrase <em>the space agency's astronaut training program</em>."
+      "content": "The main clause <em>Ellen Ochoa left her position</em> is complete and in past tense. The blank connects this clause to the noun phrase <em>the space agency's astronaut training program</em>. When a completed action is followed by its intended purpose, Standard English uses an infinitive (<em>to</em> + base verb), not a conjugated verb form."
     },
     {
-      "title": "Apply the infinitive of purpose rule",
-      "content": "The infinitive form <em>to join</em> expresses the purpose of leaving the position. The other options use present or past tense verbs instead of the infinitive, which cannot express this purpose-driven connection between the two actions. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice and confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; 'to join'</strong>: Infinitive of purpose — correctly expresses why Ochoa left her position; no subject is needed after a completed clause. &#10003;</li><li><strong>Choice B &mdash; 'is joining'</strong>: Violates verb tense agreement — present progressive clashes with the past-tense main clause and creates a run-on without a conjunction. &#10007;</li><li><strong>Choice C &mdash; 'joined'</strong>: Violates sentence structure — inserting a second past-tense verb creates a comma splice or run-on rather than expressing purpose. &#10007;</li><li><strong>Choice D &mdash; 'joins'</strong>: Violates verb tense agreement — present tense clashes with past-tense <em>left</em> and again creates a run-on. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

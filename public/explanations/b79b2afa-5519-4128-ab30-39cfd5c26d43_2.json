@@ -1,1 +1,10 @@
-{"questionId":"b79b2afa-5519-4128-ab30-39cfd5c26d43_2","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute $19$:$$19(x^2-8)=19x^2-152$$"},{"title":"Match to the answer choices","content":"The simplified expression is $19x^2-152$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "qid": "b79b2afa-5519-4128-ab30-39cfd5c26d43_2",
+  "correctAnswer": "D",
+  "steps": [
+    "Distribute 19 across both terms inside the parentheses: 19(x^2 - 8) = 19 \\cdot x^2 - 19 \\cdot 8.",
+    "19 \\cdot x^2 = 19x^2 and 19 \\cdot 8 = 152.",
+    "Result: 19x^2 - 152."
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$19x^2 + 11$'</strong>: The constant term should be -152 (subtracting), not +11. This confuses -8 with -(19-8) = -11 and flips the sign. &#10007;</li><li><strong>Choice B &mdash; '$19x^2 - 8$'</strong>: Fails to multiply the 8 by 19. This treats the expression as 19x^2 + (-8) without distributing the 19. &#10007;</li><li><strong>Choice C &mdash; '$19x^2 - 27$'</strong>: Appears to compute 19 - 8 = 11 then subtract differently &mdash; no valid distribution yields -27 here. &#10007;</li><li><strong>Choice D &mdash; '$19x^2 - 152$'</strong>: 19 &times; x^2 = 19x^2 and 19 &times; 8 = 152, so the result is 19x^2 - 152. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+}

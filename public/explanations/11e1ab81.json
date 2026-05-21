@@ -4,15 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine the slope from the graph",
-      "content": "Two clear points are (0, 0) and (1, 2).<br/>$$\\text{slope} = \\frac{2 - 0}{1 - 0} = 2$$"
+      "title": "Read two points from the graph",
+      "content": "The graph passes through $(0,\\,0)$ and $(1,\\,2)$, indicating the product starts at 0 feet and travels 2 feet per minute."
     },
     {
-      "title": "Write the linear equation",
-      "content": "The line passes through the origin (y-intercept = 0) with slope 2, so the equation is $d = 2m$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "y=2x"
-      ]
+      "title": "Compute the slope (rate)",
+      "content": "$$\\text{slope} = \\frac{2 - 0}{1 - 0} = 2$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "The line passes through the origin with slope 2: $d = 2m$. That matches choice A &mdash; <strong>A</strong> is correct.",
+      "desmosExpressions": ["y=2x"]
     }
-  ]
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; 'd = 2m'</strong>: Slope = 2, y-intercept = 0; matches the graph passing through the origin with a rise of 2 for every 1 unit run. &#10003;</li><li><strong>Choice B &mdash; 'd = (1/2)m'</strong>: Slope of 1/2 would mean the product travels only 0.5 feet per minute &mdash; inconsistent with the graph's steeper rise. &#10007;</li><li><strong>Choice C &mdash; 'd = m + 2'</strong>: A y-intercept of 2 would mean the product starts 2 feet along the belt before any time passes &mdash; the graph starts at the origin. &#10007;</li><li><strong>Choice D &mdash; 'd = 2m + 2'</strong>: Combines both errors: correct slope but a non-zero y-intercept of 2 that contradicts the graph's origin. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
 }

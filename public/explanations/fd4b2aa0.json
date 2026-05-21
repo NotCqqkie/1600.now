@@ -1,1 +1,9 @@
-{"questionId":"fd4b2aa0","correctAnswer":"C","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Subtract the $x^3$ terms:$$12x^3-5x^3=7x^3$$"},{"title":"Match to the answer choices","content":"The simplified expression is $7x^3$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "qid": "fd4b2aa0",
+  "steps": [
+    "Both terms have the same variable part $x^3$, so subtract the coefficients: $12 - 5 = 7$.",
+    "The result is $7x^3$."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$7x^6$'</strong>: Exponents are not added when subtracting like terms; the exponent stays 3. &#10007;</li><li><strong>Choice B &mdash; '$17x^3$'</strong>: $17 = 12 + 5$, not $12 - 5$. This would be the sum, not the difference. &#10007;</li><li><strong>Choice C &mdash; '$7x^3$'</strong>: $12 - 5 = 7$ and the exponent remains 3. &#10003;</li><li><strong>Choice D &mdash; '$17x^6$'</strong>: Both the coefficient and exponent are wrong. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "correctAnswer": "C"
+}

@@ -1,1 +1,15 @@
-{"questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_27", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the goal", "content": "The student wants to connect <em>Save Me</em> to the history of <em>neon in art</em>. The relevant note: neon signs became popular with artists in the $1960$s and remain so today. So the sentence should place Steele's work within that artistic lineage."}, {"title": "Match the choice", "content": "Choice B explicitly places Steele in the \"decades-long lineage of artists\" who have used neon as an artistic medium since the $1960$s — the precise connection requested.<ul><li>A blends advertising with art (the goal is art-history specifically)</li><li>C broadens to advertising too</li><li>D incorrectly claims neon's artistic popularity has declined (the note says it continues today)</li></ul>.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "7876fc9e-c914-40a9-9906-62c7e3b1bbce_27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pin down the student's goal",
+      "content": "The task is to connect <em>Save Me</em> to &ldquo;the history of neon <em>in art</em>.&rdquo; The relevant note is: &ldquo;Neon signs became popular with artists in the 1960s and continue to be popular today.&rdquo; The correct choice must (1) mention Steele&rsquo;s sculpture and (2) place it within the artistic tradition of neon, citing that 1960s-to-present timeline."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Neon signs like <em>Save Me</em> are popular with advertisers and artists alike&hellip;&rsquo;</strong>: Mixes advertising into the goal, which is about art history specifically. Also emphasizes the handmade production note, which is off-task. &#10007;</li><li><strong>Choice B &mdash; &lsquo;With <em>Save Me</em>, Steele joins the decades-long lineage of artists who have helped make neon a popular artistic medium since the 1960s.&rsquo;</strong>: Names the sculpture, places Steele in the artistic tradition of neon, and cites the 1960s starting point from the notes. Directly accomplishes the stated goal. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Continuing from the 1920s to today, neon lighting has been a popular material, both as an advertising tool and an artistic medium.&rsquo;</strong>: Does not mention Steele or <em>Save Me</em>, and conflates advertising with art. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The pink neon sign <em>Save Me</em> nods to the rich history of a material whose artistic popularity has long been in decline.&rsquo;</strong>: Contradicts the notes, which say neon&rsquo;s artistic popularity &ldquo;continues to be popular today.&rdquo; Factually wrong. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

@@ -1,18 +1,12 @@
 {
-  "questionId": "789975b7",
-  "correctAnswer": "B",
-  "section": "Math",
+  "qid": "789975b7",
   "steps": [
-    {
-      "title": "Express the filler content from each fertilizer",
-      "content": "Fertilizer A is 60% filler by weight, so $x$ pounds of Fertilizer A contains $0.6x$ pounds of filler materials.<br/><br/>Fertilizer B is 40% filler by weight, so $y$ pounds of Fertilizer B contains $0.4y$ pounds of filler materials."
-    },
-    {
-      "title": "Set up the equation for total filler materials",
-      "content": "The total filler materials from both fertilizers equals 240 pounds:<br/>$$0.6x + 0.4y = 240$$<br/>That matches choice B — <strong>B</strong> is correct.",
-      "desmosExpressions": [
-        "0.6x+0.4y=240"
-      ]
-    }
-  ]
+    "Fertilizer A is 60% filler by weight, so x pounds of A contributes 0.6x pounds of filler.",
+    "Fertilizer B is 40% filler by weight, so y pounds of B contributes 0.4y pounds of filler.",
+    "Together the total filler equals 240 pounds, so the equation is 0.6x + 0.4y = 240.",
+    "Match this to the answer choices."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '0.4x + 0.6y = 240'</strong>: The coefficients are swapped — 0.4 is B's filler rate and 0.6 is A's, but x is pounds of A (60% filler) and y is pounds of B (40% filler), so this reversal is wrong. &#10007;</li><li><strong>Choice B &mdash; '0.6x + 0.4y = 240'</strong>: 0.6x correctly captures 60% of x pounds of A, and 0.4y correctly captures 40% of y pounds of B; their sum equals 240 pounds of total filler. &#10003;</li><li><strong>Choice C &mdash; '40x + 60y = 240'</strong>: Uses whole-number percentages as coefficients and also swaps which rate applies to which variable. &#10007;</li><li><strong>Choice D &mdash; '60x + 40y = 240'</strong>: Uses whole-number values (60, 40) rather than decimal rates (0.6, 0.4); dimensionally inconsistent with pounds. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "correctAnswer": "B",
+  "desmosExpressions": ["0.6x+0.4y=240"]
 }

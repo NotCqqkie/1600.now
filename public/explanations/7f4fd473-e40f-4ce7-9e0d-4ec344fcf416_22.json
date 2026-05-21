@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the logical relationship",
-      "content": "The logical relationship is sequence. The passage explicitly names three steps, marks step one with \"First\" and step three with \"Third,\" so the blank needs a transition signaling the second item in an ordered list."
+      "content": "The passage lists three ordered steps, marking the first with &quot;First&quot; and the third with &quot;Third.&quot; The blank introduces the middle item, so it needs a transition that signals the second item in a numbered sequence."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — \"For example\"</strong>: signals exemplification, treating what follows as a specific instance of a general claim. Forming a hypothesis is not an example of researching a question. ✗</li><li><strong>Choice B — \"Second\"</strong>: signals the next item in a numbered sequence, completing the First → Second → Third structure the passage establishes, so fits. ✓</li><li><strong>Choice C — \"Therefore\"</strong>: signals cause-effect, implying forming a hypothesis is a logical consequence of researching. But the passage frames these as distinct steps, not cause and effect. ✗</li><li><strong>Choice D — \"Instead\"</strong>: signals contrast or replacement, implying forming a hypothesis replaces or contradicts the prior step. That reverses the intended meaning. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: signals that what follows is a specific instance of a general claim. Forming a hypothesis is not an example of researching a question &mdash; wrong logical relationship. &#10007;</li><li><strong>Choice B &mdash; 'Second,'</strong>: signals the next item in an ordered list, completing the First &rarr; Second &rarr; Third structure the passage establishes. &#10003;</li><li><strong>Choice C &mdash; 'Therefore,'</strong>: signals a logical consequence. Forming a hypothesis is presented as a distinct step, not a result that follows from the previous step &mdash; wrong logical relationship. &#10007;</li><li><strong>Choice D &mdash; 'Instead,'</strong>: signals contrast or replacement, implying the second step contradicts or replaces the first. That reverses the passage&apos;s intended sequential meaning. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

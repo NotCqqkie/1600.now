@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The parenthetical \"(discontinued in 2021)\" reveals that the required software no longer exists—the reason the artworks are inaccessible."
+      "title": "Identify the target meaning",
+      "content": "The passage states that artworks have become inaccessible because they relied on software &quot;(discontinued in 2021).&quot; The blank describes software that no longer operates — it was shut down, not just obscure, unnecessary, or widespread."
     },
     {
-      "title": "Match the correct word",
-      "content": "The word needs to describe software that no longer exists or operates, explaining why the artworks are inaccessible. Substitute each choice: <ul><li><strong>Choice A — defunct</strong>: no longer operating or existing — fits Adobe Flash, which was discontinued in 2021 and cannot be run. ✓</li><li><strong>Choice B — extraneous</strong>: unnecessary or irrelevant — contradicts the passage, which says the artworks require this software; it is not superfluous. ✗</li><li><strong>Choice C — arcane</strong>: obscure or known only to a few — describes something hard to understand, not something unavailable; Flash was once mainstream. ✗</li><li><strong>Choice D — ubiquitous</strong>: found everywhere — the opposite of the problem; if the software were widely available, the artworks would not be inaccessible. ✗</li></ul> That matches choice A — <strong>A</strong> is correct."
+      "title": "Eliminate each choice and confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; 'defunct'</strong>: Means no longer operating or existing — fits Adobe Flash exactly; it was discontinued and can no longer run the artworks. &#10003;</li><li><strong>Choice B &mdash; 'extraneous'</strong>: Means unnecessary or irrelevant — contradicts the passage, which says the artworks <em>require</em> the software; it is not superfluous. &#10007;</li><li><strong>Choice C &mdash; 'arcane'</strong>: Means obscure or known only to a few — describes something hard to understand, not something unavailable; Flash was once mainstream. &#10007;</li><li><strong>Choice D &mdash; 'ubiquitous'</strong>: Means found everywhere — the opposite of the problem; if the software were widely available, the artworks would not be inaccessible. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

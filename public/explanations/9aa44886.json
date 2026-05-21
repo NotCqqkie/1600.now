@@ -1,15 +1,1 @@
-{
-  "questionId": "9aa44886",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what 'quality' refers to",
-      "content": "The passage describes Gatsby's distinctive manner of movement\u2014resourceful, graceful, American\u2014then refers to it as \u201cThis quality\u201d that breaks through his formal manner. The key signal: \u201cquality\u201d names the trait just described."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dQuality\u201d here means a distinctive characteristic or trait\u2014the American grace and resourcefulness of movement just described. The other options either contradict this or describe something different from a personal manner. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9aa44886", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what &quot;quality&quot; refers to", "content": "The passage describes Gatsby balancing on the dashboard with a &quot;resourcefulness of movement that is so peculiarly American.&quot; The very next sentence then says &quot;This quality was continually breaking through his punctilious manner.&quot; The word &quot;This&quot; points directly back to what was just described &mdash; so &quot;quality&quot; names the trait of resourceful, distinctly American movement."}, {"title": "Eliminate each choice", "content": "Each option is a different sense of the word &quot;quality.&quot; Check each against the passage:<ul><li><strong>Choice A &mdash; &apos;Standard&apos;</strong>: Standard refers to a level or degree of excellence &mdash; the passage is not rating how good Gatsby is at something, but naming a trait he has. &#10007;</li><li><strong>Choice B &mdash; &apos;Prestige&apos;</strong>: Prestige means high status or reputation &mdash; the passage describes a physical manner of movement, not social standing. &#10007;</li><li><strong>Choice C &mdash; &apos;Characteristic&apos;</strong>: A characteristic is a distinctive trait or feature &mdash; exactly what &quot;resourcefulness of movement&quot; is. &#10003;</li><li><strong>Choice D &mdash; &apos;Accomplishment&apos;</strong>: Accomplishment means an achievement or feat &mdash; the passage describes an ongoing manner, not something Gatsby completed. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

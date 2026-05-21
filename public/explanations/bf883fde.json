@@ -10,11 +10,15 @@
     {
       "title": "Apply slope-intercept form",
       "formula": "$$y = mx + b$$",
-      "content": "Substituting $m = 3$ and $b = -8$:<br/>$$f(x) = 3x - 8$$<br/>That matches choice B — <strong>B</strong> is correct.",
+      "content": "Substituting $m = 3$ and $b = -8$: $$f(x) = 3x - 8$$",
       "desmosExpressions": [
         "y=3x-8",
         "(0,-8)"
       ]
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '$f(x) = 3x$'</strong>: Has slope 3 but $y$-intercept 0, not $-8$. &#10007;</li><li><strong>Choice B &mdash; '$f(x) = 3x - 8$'</strong>: Slope 3, $y$-intercept $-8$. Passes through $(0, -8)$. &#10003;</li><li><strong>Choice C &mdash; '$f(x) = 3x + 5$'</strong>: Has slope 3 but $y$-intercept $+5$, not $-8$. &#10007;</li><li><strong>Choice D &mdash; '$f(x) = 3x + 11$'</strong>: Has slope 3 but $y$-intercept $+11$, not $-8$. &#10007;</li></ul>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

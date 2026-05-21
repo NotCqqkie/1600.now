@@ -1,1 +1,15 @@
-{"questionId": "4dcedc31", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical structures surrounding the blank", "content": "Left of blank: <strong>chemistry</strong> — a noun beginning a noun phrase.<br/><br/>Right of blank: <strong>and his colleagues at Temple University recently developed...</strong> — a coordinating conjunction plus a second noun phrase, creating a compound subject.<br/><br/>The blank must complete the first element of this compound."}, {"title": "Match the rule for title-name pairings in compound subjects", "content": "In a compound subject, a title directly followed by a name forms a single noun phrase without intervening punctuation.<br/><br/>Option A correctly places <strong>professor Yugang Sun</strong> immediately after <strong>chemistry</strong> with no commas, forming the unified phrase <strong>chemistry professor Yugang Sun</strong> as the first element of the compound subject paired with <strong>his colleagues</strong> by <strong>and</strong>.<br/><br/>Options B, C, and D each violate this rule by inserting commas that either break the title from the name (C, D) or add unnecessary punctuation (B) where none is required.<br/><br/>That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "4dcedc31",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the punctuation rule being tested",
+      "content": "The blank completes &quot;chemistry ______ and his colleagues at Temple University recently developed...&quot; The structure requires a title + name phrase to serve as the first element of a compound subject joined by &quot;and.&quot; The SAT rule: no comma is needed between a title and the proper name it directly precedes, and no comma is needed after the name when it continues into a compound subject."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;professor Yugang Sun&apos;</strong>: no comma between title and name, no comma after the name &mdash; both correct, producing the clean compound subject &quot;chemistry professor Yugang Sun and his colleagues.&quot; &#10003;</li><li><strong>Choice B &mdash; &apos;professor Yugang Sun,&apos;</strong>: the comma after &quot;Sun&quot; incorrectly separates the first element of the compound subject from the coordinating conjunction &quot;and&quot; &mdash; this is an unnecessary comma error. &#10007;</li><li><strong>Choice C &mdash; &apos;professor, Yugang Sun,&apos;</strong>: the comma before &quot;Yugang Sun&quot; incorrectly separates the title from the name, and the comma after &quot;Sun&quot; incorrectly interrupts the compound subject &mdash; double unnecessary comma error. &#10007;</li><li><strong>Choice D &mdash; &apos;professor, Yugang Sun&apos;</strong>: the comma between &quot;professor&quot; and &quot;Yugang Sun&quot; incorrectly separates the title from the proper name it modifies &mdash; this is an unnecessary comma error. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

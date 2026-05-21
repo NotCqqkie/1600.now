@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_4",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The key signal is \u201csharpened\u201d paired with the contrast word \u201cAlthough.\u201d Sharpened means making something clearer and more focused. The sentence structure sets up: knowledge was once ____, but recent analyses have sharpened it. So the blank must describe an unclear or vague state."
-    },
-    {
-      "title": "Match the word to the contrast",
-      "content": "The blank needs to mean vague or unclear \u2014 the \"Although\" sets up a contrast where the old, uncertain state was then sharpened by recent analyses. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Nebulous</strong>: knowledge was once \"<em>nebulous</em>\" \u2014 nebulous means hazy and unclear, perfectly contrasting with being sharpened into a clearer picture. \u2713</li>\n<li><strong>Choice B \u2014 Intricate</strong>: knowledge was once \"<em>intricate</em>\" \u2014 intricate means complex and detailed, which is the opposite of what needs sharpening; you don't sharpen something already rich in detail. \u2717</li>\n<li><strong>Choice C \u2014 Unprecedented</strong>: knowledge was once \"<em>unprecedented</em>\" \u2014 unprecedented means never seen before, which describes novelty rather than a lack of clarity. \u2717</li>\n<li><strong>Choice D \u2014 Concrete</strong>: knowledge was once \"<em>concrete</em>\" \u2014 concrete means solid and definite, directly contradicting the need for recent analyses to sharpen it. \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_4", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the contrast signal", "content": "The sentence opens with <strong>Although</strong>, a contrast signal. The second clause says recent analyses have <strong>sharpened</strong> our picture &mdash; meaning clarified it. The blank, which describes the earlier state, must therefore mean the opposite of sharp: vague or unclear."}, {"title": "Eliminate each wrong choice, then confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'nebulous'</strong>: Means hazy and unclear &mdash; this is the opposite of sharpened and fits the contrast set up by &quot;Although&quot; perfectly. &#10003;</li><li><strong>Choice B &mdash; 'intricate'</strong>: Means complex and detailed &mdash; intricate knowledge is already rich in content; it would not need to be sharpened into a clearer picture. &#10007;</li><li><strong>Choice C &mdash; 'unprecedented'</strong>: Means never seen before &mdash; this describes novelty, not a lack of clarity, so it doesn&apos;t contrast with sharpening. &#10007;</li><li><strong>Choice D &mdash; 'concrete'</strong>: Means solid and definite &mdash; concrete knowledge is already clear, which directly contradicts the need for recent analyses to sharpen it. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

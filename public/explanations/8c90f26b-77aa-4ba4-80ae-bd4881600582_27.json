@@ -1,15 +1,1 @@
-{
-  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_27",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the context for punctuation",
-      "content": "The phrase \"find the answer\" signals that a question was posed. The blank must contain a question."
-    },
-    {
-      "title": "Apply question punctuation",
-      "content": "\"Find the answer\" signals a question was posed. A direct question needs inverted word order (auxiliary before subject) AND a question mark.\n<ul>\n<li><strong>Choice A — declarative + period</strong>: \"If elevated temperatures continue, these penguins could become extinct.\" — statement word order, period; not a question at all. ✗</li>\n<li><strong>Choice B — declarative + question mark</strong>: \"If elevated temperatures continue, these penguins could become extinct?\" — question mark is present but \"these penguins could\" keeps the subject before the auxiliary; still sounds declarative. ✗</li>\n<li><strong>Choice C — inverted + period</strong>: \"If elevated temperatures continue, could these penguins become extinct.\" — inverted order is correct, but the period fails to mark it as a question. ✗</li>\n<li><strong>Choice D — inverted + question mark</strong>: \"If elevated temperatures continue, could these penguins become extinct?\" — auxiliary \"could\" comes before subject \"these penguins\"; question mark closes correctly. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_27", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Determine what kind of sentence the blank must be", "content": "The phrase &quot;to find the answer&quot; signals that Jenouvrier conducted a study to answer a question that was just posed. The blank must therefore form a direct question. A direct question in English requires two things: inverted word order (auxiliary verb before subject) and a question mark."}, {"title": "Eliminate each wrong choice and confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'these penguins could become extinct.'</strong>: Subject-before-auxiliary word order makes this a declarative statement, not a question; the period compounds the error. &#10007;</li><li><strong>Choice B &mdash; 'these penguins could become extinct?'</strong>: The question mark is present but the word order is still declarative (&quot;these penguins could&quot;); inversion is required for a grammatical direct question. &#10007;</li><li><strong>Choice C &mdash; 'could these penguins become extinct.'</strong>: The auxiliary &quot;could&quot; is correctly placed before the subject, but the period fails to mark the sentence as a question. &#10007;</li><li><strong>Choice D &mdash; 'could these penguins become extinct?'</strong>: Auxiliary &quot;could&quot; precedes the subject &quot;these penguins&quot; (correct inversion) and the question mark closes the direct question correctly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

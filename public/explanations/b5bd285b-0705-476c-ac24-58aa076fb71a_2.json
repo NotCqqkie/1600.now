@@ -1,15 +1,1 @@
-{
-  "questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_2",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contextual signal",
-      "content": "The text says Lecuona's body of work showcases <strong>a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores</strong>. The blank should describe this diversity."
-    },
-    {
-      "title": "Match the choice",
-      "content": "The blank describes Lecuona's body of work, which \"showcased a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores.\" The word must mean \"diverse / many kinds.\" Substitute each choice:<ul><li><strong>Choice A — outdated</strong>: obsolete; nothing in the passage suggests his works are old-fashioned. ✗</li><li><strong>Choice B — varied</strong>: showing variety; matches the colon definition exactly — different areas, different genres. ✓</li><li><strong>Choice C — forgotten</strong>: not remembered; the passage celebrates his impressive output, not obscurity. ✗</li><li><strong>Choice D — lonely</strong>: alone or solitary; doesn't describe a body of work. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b5bd285b-0705-476c-ac24-58aa076fb71a_2", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must describe", "content": "The colon after the blank acts as a definition: &quot;Lecuona showcased a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores.&quot; The blank must mean diverse or showing many different kinds."}, {"title": "Eliminate wrong choices, keep the one that means &apos;diverse&apos;", "content": "Substitute each choice into &quot;how ______ his body of work is&quot;:<ul><li><strong>Choice A &mdash; 'outdated'</strong>: means old-fashioned or obsolete; the passage praises his impressive output, not its age. &#10007;</li><li><strong>Choice B &mdash; 'varied'</strong>: means showing variety or many different kinds &mdash; directly matches the colon definition listing different genres. &#10003;</li><li><strong>Choice C &mdash; 'forgotten'</strong>: means not remembered; the passage celebrates his work, not its obscurity. &#10007;</li><li><strong>Choice D &mdash; 'lonely'</strong>: means solitary; does not describe a body of work. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

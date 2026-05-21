@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical signal in the 'because' clause",
-      "content": "The passage explains that government protections for national trails are superior to protections for other areas. This signals a beneficial outcome for their preservation efforts."
+      "title": "Read the sentence and find the logical signal",
+      "content": "The sentence says creating the national trail would ______ their preservation efforts <em>because</em> the US government provides extra protections to national trails. The &ldquo;because&rdquo; clause gives a reason the trail would <em>help</em> those efforts, so the blank needs a word meaning to actively support or advance something."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "\u201dPromote\u201d means to advance or support something \u2014 precisely how government protections would help preservation efforts. The other choices either don't express this practical support or directly oppose it.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;inspire&rsquo;</strong>: Meaning &ldquo;motivate or influence,&rdquo; this implies the trail would stir up new motivation for efforts that already exist &mdash; not what the &ldquo;because&rdquo; clause says. Wrong direction. &#10007;</li><li><strong>Choice B &mdash; &lsquo;ignore&rsquo;</strong>: Meaning &ldquo;overlook,&rdquo; this directly contradicts the context; the trail is meant to <em>help</em> preservation, not disregard it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;promote&rsquo;</strong>: Meaning &ldquo;advance or support,&rdquo; this fits exactly &mdash; the government protections that come with national-trail status would advance the preservation efforts. &#10003;</li><li><strong>Choice D &mdash; &lsquo;reduce&rsquo;</strong>: Meaning &ldquo;decrease,&rdquo; this is the opposite of what the &ldquo;because&rdquo; clause supports. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

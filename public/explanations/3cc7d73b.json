@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Spot the defining contrast",
-      "content": "The passage directly contrasts what the researchers expected (uniform fields like those in other galactic bones) with what they found (no clear pattern or direction)."
+      "content": "The passage says the researchers expected the magnetic field of G47 to be similar to those in other galactic bones &mdash; which are presumably uniform. What surprised them was the opposite: the field had &quot;no clear pattern or direction.&quot; The correct answer must capture that unexpected lack of uniformity."
     },
     {
-      "title": "Match the contrast to the correct answer",
-      "content": "The field's lack of uniformity\u2014expressed as having <em>no clear pattern or direction</em>\u2014was the source of the surprise. Choices A, B, and C either introduce information not in the passage or contradict the stated contrast. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &quot;It showed a weaker magnetic field than expected.&quot;</strong>: The passage says nothing about field strength being surprising; the surprise was about pattern, not power. &#10007;</li><li><strong>Choice B &mdash; &quot;It implied that previous mappings of the magnetic field were inaccurate.&quot;</strong>: No previous mappings are mentioned; this is unsupported by the passage. &#10007;</li><li><strong>Choice C &mdash; &quot;It produced magnetic field measurements similar to those for other galactic bones.&quot;</strong>: This is the opposite of surprising &mdash; similarity to other bones was the expectation, not the finding. &#10007;</li><li><strong>Choice D &mdash; &quot;It revealed a magnetic field that wasn&apos;t uniform.&quot;</strong>: Directly matches &quot;no clear pattern or direction,&quot; which was unexpected given the uniform fields found elsewhere. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

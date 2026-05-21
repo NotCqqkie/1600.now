@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical consequence",
-      "content": "The prior sentence criticizes the USGS for omitting important considerations. The sentence with the blank concludes that their center was inaccurate. The transition must show how the omission led to this inaccuracy."
+      "title": "Identify the logical relationship",
+      "content": "Sentence 1 states that Rogerson argued the USGS omitted important considerations (including Earth&apos;s curvature). Sentence 2 concludes that the USGS-determined center was therefore inaccurate. The blank must signal a <em>cause-to-effect</em> relationship: the omissions caused the inaccuracy."
     },
     {
-      "title": "Apply the causal signal",
-      "content": "\u201dHence\u201d marks the consequence: because the USGS omitted critical factors, their center was inaccurate. \u201cNext\u201d is merely sequential, \u201cThat being said\u201d concedes without concluding, and \u201cHowever\u201d presents contrast rather than causation. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Test each choice against the cause-to-effect relationship",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;Next,&apos;</strong>: signals simple sequence in time, not causation &mdash; it says one thing happened after another, not because of another. &#10007;</li><li><strong>Choice B &mdash; &apos;That being said,&apos;</strong>: signals a concession or partial reversal of the previous idea &mdash; it would imply the center might still be accurate despite the omissions, the opposite of the intended meaning. &#10007;</li><li><strong>Choice C &mdash; &apos;Hence,&apos;</strong>: signals a logical consequence &mdash; because the USGS omitted critical factors, the center was inaccurate; correctly marks the cause-to-effect link. &#10003;</li><li><strong>Choice D &mdash; &apos;However,&apos;</strong>: signals contrast or contradiction &mdash; it would imply the second sentence opposes the first rather than following from it. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

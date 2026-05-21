@@ -1,15 +1,1 @@
-{
-  "questionId": "e441da80",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what data comparison supports the claim",
-      "content": "The claim is that the number has fallen overall since 2010. To justify this, we need evidence comparing the 2010 starting point with a later year showing a decrease."
-    },
-    {
-      "title": "Find the choice with the correct data and comparison",
-      "content": "Choice A directly compares 2010 (approximately 1,000 articles) to 2019 (approximately 500 articles), demonstrating the claimed decline. Choices B and C misread the data, while D shows an increase from 2010 to 2013 rather than decline. <br/><br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e441da80", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the claim requires", "content": "The underlined claim states that the number of investigative articles has <strong>fallen overall since 2010</strong>. To justify this, the correct choice must compare a data point at or near 2010 to a later data point showing a lower number &mdash; one endpoint-to-endpoint comparison."}, {"title": "Eliminate each wrong choice, then confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'The newspaper published approximately 1,000 investigative articles in 2010 and approximately 500 in 2019.'</strong>: Directly compares 2010 (start) to 2019 (end) and shows a drop from ~1,000 to ~500 &mdash; this is the endpoint comparison the claim requires. &#10003;</li><li><strong>Choice B &mdash; 'The smallest annual number of investigative articles published in the newspaper during the period shown is approximately 1,600 in 2013.'</strong>: Misreads the graph &mdash; 1,600 is the largest figure in the period, not the smallest, and a single mid-period year cannot establish an overall trend. &#10007;</li><li><strong>Choice C &mdash; 'The greatest annual number of investigative articles published in the newspaper during the period shown is approximately 1,000 in 2017.'</strong>: Misreads the graph &mdash; 1,000 is not the greatest figure, and one isolated year doesn't show an overall decline. &#10007;</li><li><strong>Choice D &mdash; 'The newspaper published approximately 1,000 investigative articles in 2010 and approximately 1,600 in 2013.'</strong>: Shows an increase from 2010 to 2013, which contradicts the claim of an overall fall. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the tense of the dependent clause",
-      "content": "\"When we arrived in Venice, Utah\" is a simple past dependent clause. The main clause verb must match this tense — both actions (arriving and noticing the glyph) happened at the same completed moment in the past."
+      "title": "Identify the tense anchor",
+      "content": "The dependent clause &ldquo;When we arrived in Venice, Utah&rdquo; uses simple past tense. The main clause verb must match: both arriving and noticing the glyph happened at the same completed moment in the past. The rule of verb tense consistency requires that all verbs in the same narrative sequence share the same tense unless a shift is specifically justified."
     },
     {
-      "title": "Apply verb tense consistency — per-choice diagnosis",
-      "content": "All verbs in the same narrative sequence must share the same tense unless there is a specific reason to shift.<ul><li><strong>Choice A — \"notice\":</strong> simple present. Breaks tense consistency with the past-tense dependent clause. Eliminated.</li><li><strong>Choice B — \"are noticing\":</strong> present progressive. Also present tense; conflicts with the past setting established by \"arrived.\" Eliminated.</li><li><strong>Choice C — \"will notice\":</strong> simple future. Cannot describe something that happened simultaneously with a past event. Eliminated.</li><li><strong>Choice D — \"noticed\":</strong> simple past. Matches \"arrived\" in tense, correctly showing both actions occurred together in the past. Correct.</li></ul>"
+      "title": "Eliminate each choice",
+      "content": "<ul>\n<li><strong>Choice A &mdash; 'notice'</strong>: Simple present tense &mdash; violates tense consistency with the past-tense dependent clause &ldquo;when we arrived.&rdquo; &#10007;</li>\n<li><strong>Choice B &mdash; 'are noticing'</strong>: Present progressive tense &mdash; also present tense; conflicts with the past setting established by &ldquo;arrived.&rdquo; &#10007;</li>\n<li><strong>Choice C &mdash; 'will notice'</strong>: Simple future tense &mdash; cannot describe an action that occurred simultaneously with a past event. &#10007;</li>\n<li><strong>Choice D &mdash; 'noticed'</strong>: Simple past tense &mdash; matches &ldquo;arrived,&rdquo; correctly showing both actions occurred together in the past. &#10003;</li>\n</ul>\nThat matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

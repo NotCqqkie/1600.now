@@ -1,1 +1,15 @@
-{"questionId": "df37c087", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what determines the conclusion", "content": "Meng's conclusion rests on a specific ratio: payload capacity = holding force ÷ weight (higher ratio = greater capacity).<br/><br/>The passage establishes that Ultra-Fast has 4× Yale Model T's holding force (56 newtons vs. roughly 14 newtons).<br/><br/>To support the conclusion that Ultra-Fast has higher capacity, the graph must show that this 4× holding-force advantage isn't canceled by a proportionally larger weight."}, {"title": "Match the graph data to the ratio calculation", "content": "Choice D shows Ultra-Fast weighs only slightly more than Yale (~505 vs. ~490 grams).<br/><br/>With 4× the holding force but nearly equal weight, Ultra-Fast's holding force-to-weight ratio is far greater, directly supporting the conclusion.<br/><br/>Choices A, B, and C either don't compare these two robots' relative capacity or introduce comparisons irrelevant to the Ultra-Fast–Yale holding force ratio. <strong>That matches choice D — D is correct.</strong>"}]}
+{
+  "questionId": "df37c087",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Understand what needs to be supported",
+      "content": "Meng&rsquo;s conclusion: the Ultra-Fast Robot Hand has a <em>higher payload capacity</em> than the Yale Model T. Payload capacity = holding force &divide; weight; higher ratio means greater capacity. The text already tells us Ultra-Fast&rsquo;s holding force is more than 4&times; the Yale Model T&rsquo;s. To support the conclusion, the graph must show that Ultra-Fast&rsquo;s weight advantage over Yale is small enough that the 4&times; force lead is not canceled out."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The Ultra-Fast Robot Hand and the Yale Model T each weigh more than 450 grams.&rsquo;</strong>: Shows a similarity in weight, not a distinction. A shared minimum weight says nothing about which robot has the better force-to-weight ratio. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The Ultra-Fast Robot Hand and the Yale Model T each weigh more than the Permanent Magnet Hand does.&rsquo;</strong>: Again a similarity, and introduces the Permanent Magnet Hand, which is irrelevant to the Ultra-Fast vs. Yale comparison in the conclusion. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The Yale Model T has a lower holding force than the Permanent Magnet Hand despite weighing more.&rsquo;</strong>: The graph shows weights, not holding forces; this claim about holding force cannot come from the graph. Also off-topic (Permanent Magnet Hand). &#10007;</li><li><strong>Choice D &mdash; &lsquo;The Ultra-Fast Robot Hand weighs only slightly more than the Yale Model T does.&rsquo;</strong>: If Ultra-Fast has 4&times; the holding force but nearly the same weight, its force-to-weight ratio is far greater, directly supporting the conclusion of higher payload capacity. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

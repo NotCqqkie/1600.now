@@ -1,1 +1,10 @@
-{"questionId": "70b33953-aa61-407d-a25a-a438792bed03_6", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Convert percentage statements to equations", "content": "Since <em>a is 240% of b</em>, and <em>a is 70% of c</em>:<br/>$$a = 2.4b$$<br/>$$a = 0.7c$$"}, {"title": "Find the relationship between c and b", "content": "Set the two expressions for $a$ equal:<br/>$$2.4b = 0.7c$$<br/>Solve for $c$:<br/>$$c = \\frac{2.4b}{0.7} = \\frac{24}{7}b$$"}, {"title": "Convert to a percentage", "content": "Calculate: $\\frac{24}{7} \\approx 3.429$. Since $c \\approx 3.429b$, $c$ is approximately $342.9\\%$ of $b$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "qid": "70b33953-aa61-407d-a25a-a438792bed03_6",
+  "steps": [
+    "Translate the percentage statements: $a = 2.4b$ and $a = 0.7c$.",
+    "Set the two expressions equal to find $c$ in terms of $b$: $2.4b = 0.7c$, so $c = \\frac{2.4b}{0.7} = \\frac{24}{7}b$.",
+    "Convert to a percentage: $\\frac{24}{7} \\approx 3.4286$, so $c \\approx 342.86\\%$ of $b$, meaning $p \\approx 343$."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '168'</strong>: This would mean $c \\approx 1.68b$. But $c = \\frac{24}{7}b \\approx 3.43b$, so 168 is far too small. &#10007;</li><li><strong>Choice B &mdash; '200'</strong>: This would mean $c = 2b$. Still much less than $3.43b$. &#10007;</li><li><strong>Choice C &mdash; '243'</strong>: This would mean $c \\approx 2.43b$. Closer but still significantly below $3.43b$. &#10007;</li><li><strong>Choice D &mdash; '343'</strong>: $\\frac{24}{7} \\approx 3.4286$, so $p \\approx 342.9$, which rounds to 343. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D"
+}

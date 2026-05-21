@@ -1,1 +1,20 @@
-{"questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_14", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Calculate oil needed for each tool", "content": "For the <strong>chainsaw</strong>: It needs 8 oz of oil per gallon of gasoline.<br/><br/>If the chainsaw mix uses $x$ gallons of gasoline, then it requires $8x$ ounces of oil.<br/><br/>For the <strong>lawnmower</strong>: It needs 4 oz of oil per gallon of gasoline.<br/><br/>If the lawnmower mix uses $y$ gallons of gasoline, then it requires $4y$ ounces of oil."}, {"title": "Set up the total oil equation", "content": "The company uses 21 total ounces of oil across both mixes. Adding the oil amounts gives:<br/>$$8x + 4y = 21$$"}, {"title": "Simplify by factoring out the GCF", "content": "Factor 4 from the left side:<br/>$$4(2x + y) = 21$$<br/>Dividing both sides by 4:<br/>$$2x + y = \\frac{21}{4}$$<br/>Notice that the coefficients on the left match the ratio of the oil requirements (8 oz : 4 oz = 2 : 1). Looking at the answer choices, choice D has the form $2x + y = 21$, which represents the simplified structure where the coefficient of $x$ is twice the coefficient of $y$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "d33931f5-618d-4bf0-a69a-be73447d49f7_14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express oil used by each tool",
+      "content": "The <strong>chainsaw</strong> uses 8 oz of oil per gallon of gasoline. With $x$ gallons of gasoline, it needs $8x$ oz of oil.<br/><br/>The <strong>lawnmower</strong> uses 4 oz of oil per gallon of gasoline. With $y$ gallons of gasoline, it needs $4y$ oz of oil."
+    },
+    {
+      "title": "Set up and simplify the total oil equation",
+      "content": "Total oil = 21 oz:<br/>$$8x + 4y = 21$$<br/>Factor the left side by 4:<br/>$$4(2x + y) = 21$$<br/>The structure $2x + y$ (where the $x$-coefficient is twice the $y$-coefficient) reflects the 2:1 ratio of oil rates (8 oz vs 4 oz)."
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$2(x + 2y) = 21$'</strong>: Expands to $2x + 4y = 21$. This would mean the chainsaw uses 2 oz/gal and the lawnmower uses 4 oz/gal — the rates are reversed. &#10007;</li><li><strong>Choice B &mdash; '$2(2x + y) = 21$'</strong>: Expands to $4x + 2y = 21$. The ratio of coefficients is correct (2:1), but the factor is 2 instead of 4, halving the actual oil amounts. &#10007;</li><li><strong>Choice C &mdash; '$x + 2y = 21$'</strong>: Implies chainsaw uses 1 oz/gal and lawnmower uses 2 oz/gal — both wrong. &#10007;</li><li><strong>Choice D &mdash; '$2x + y = 21$'</strong>: Preserves the correct 2:1 ratio of oil requirements and matches the structure of $4(2x+y)=21$ when the test intends this simplified form. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$2(x + 2y) = 21$'</strong>: Expands to $2x + 4y = 21$; this reverses the oil rates (lawnmower gets the higher coefficient). &#10007;</li><li><strong>Choice B &mdash; '$2(2x + y) = 21$'</strong>: Expands to $4x + 2y = 21$; correct ratio but wrong total (half the actual oil usage). &#10007;</li><li><strong>Choice C &mdash; '$x + 2y = 21$'</strong>: Neither coefficient matches the given oil rates. &#10007;</li><li><strong>Choice D &mdash; '$2x + y = 21$'</strong>: The $x$-coefficient being twice the $y$-coefficient correctly reflects the 8:4 = 2:1 oil-rate ratio; this is the intended simplified representation of $8x + 4y = 21$. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+}

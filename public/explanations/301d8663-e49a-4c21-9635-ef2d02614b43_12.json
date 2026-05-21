@@ -1,1 +1,19 @@
-{"questionId":"301d8663-e49a-4c21-9635-ef2d02614b43_12","correctAnswer":"C","section":"Math","steps":[{"title":"Factor the expression","content":"The GCF is $x$. Factor it out:$$17x^3+2x^2+7x=x(17x^2+2x+7)$$"},{"title":"Match to the answer choices","content":"The factored form is $x(17x^2+2x+7)$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "qid": "301d8663-e49a-4c21-9635-ef2d02614b43_12",
+  "correctAnswer": "C",
+  "steps": [
+    {
+      "title": "Identify the greatest common factor",
+      "content": "Every term in \\(17x^3 + 2x^2 + 7x\\) contains at least one factor of \\(x\\). The GCF is \\(x\\)."
+    },
+    {
+      "title": "Factor out x",
+      "content": "$$17x^3 + 2x^2 + 7x = x(17x^2 + 2x + 7)$$"
+    },
+    {
+      "title": "Match to the answer choices",
+      "content": "The result \\(x(17x^2 + 2x + 7)\\) matches choice C exactly."
+    }
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; 'x(x&sup2; + 2x + 7)'</strong>: Expanding gives x&sup3; + 2x&sup2; + 7x, missing the coefficient 17 on the cubic term. &#10007;</li><li><strong>Choice B &mdash; 'x(17x&sup3; + 2x&sup2; + 1)'</strong>: Expanding gives 17x&#8308; + 2x&sup3; + x, which changes the degree and loses the 7x term. &#10007;</li><li><strong>Choice C &mdash; 'x(17x&sup2; + 2x + 7)'</strong>: Expanding gives 17x&sup3; + 2x&sup2; + 7x, which is exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; '26(x&sup3; + x&sup2; + x)'</strong>: Expanding gives 26x&sup3; + 26x&sup2; + 26x; the coefficients 17, 2, 7 are gone and replaced by 26. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the plural subject",
-      "content": "The subject of the blank verb is <strong>its ruminations on fourteenth-century Persian life.</strong> The noun <strong>ruminations</strong> is plural, making the entire subject phrase plural."
+      "title": "Identify the subject and its number",
+      "content": "The subject of the blank is <strong>its ruminations on fourteenth-century Persian life</strong>. The head noun <strong>ruminations</strong> is plural, so the subject phrase is plural."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "A verb must agree in number with its subject. The subject is plural, so the verb must be plural\u2014choice A, <strong>influence,</strong> is the only plural verb form. Choices B, C, and D are all singular forms, violating agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice by rule",
+      "content": "Rule: a verb must agree in number with its subject (subject-verb agreement).<ul><li><strong>Choice A &mdash; 'influence'</strong>: plural present tense &mdash; agrees with the plural subject <em>ruminations</em>. &#10003;</li><li><strong>Choice B &mdash; 'influences'</strong>: singular present tense &mdash; violates subject-verb agreement with a plural subject. &#10007;</li><li><strong>Choice C &mdash; 'is influencing'</strong>: singular present progressive &mdash; violates subject-verb agreement with a plural subject. &#10007;</li><li><strong>Choice D &mdash; 'has influenced'</strong>: singular present perfect &mdash; violates subject-verb agreement with a plural subject. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

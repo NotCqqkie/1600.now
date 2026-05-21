@@ -1,15 +1,1 @@
-{
-  "questionId": "54f29331",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the Stated Goal",
-      "content": "The student's goal is explicitly stated: \u201cspecify the average length of the green iguana.\u201d This single criterion determines which notes to use."
-    },
-    {
-      "title": "Apply the Goal to Find the Match",
-      "content": "Choice B directly provides the average length (4.8 feet), fulfilling the goal. Choices A, C, and D provide other information from the notes\u2014location, diet, or both\u2014but none includes the length measurement needed. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "54f29331", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the student's goal", "content": "The student wants to <strong>specify the average length of the green iguana</strong>. The relevant note is: <strong>&ldquo;It has an average length of 4.8 feet.&rdquo;</strong> The correct sentence must state that figure explicitly &mdash; not habitat, not diet, not a combination that omits the length."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;The green iguana can be found in Central America.&rsquo;</strong>: Gives habitat information; says nothing about length. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The green iguana has an average length of 4.8 feet.&rsquo;</strong>: Directly states the average length of 4.8 feet, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C &mdash; &lsquo;One species of reptile found in Brazil primarily eats leaves and fruit.&rsquo;</strong>: Describes diet and location; omits length entirely. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The green iguana is a reptile that primarily eats leaves and fruit.&rsquo;</strong>: Gives classification and diet; omits length entirely. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

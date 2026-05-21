@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the temporal anchor",
-      "content": "\"On August 15, 2013\" is a specific past date. This temporal marker determines which verb tense to use."
+      "title": "Find the time anchor",
+      "content": "&ldquo;On August 15, 2013&rdquo; is a specific past date. The verb in the blank must match that completed-past time frame. Rule: verb tense must agree with the time anchor in the sentence."
     },
     {
       "title": "Eliminate each choice",
-      "content": "Rule: the verb tense must match the time anchor in the sentence. \"On August 15, 2013\" fixes the action in the completed past.<br/><br/><strong>A — \"will publish\"</strong> Future tense. The publication already happened in 2013; \"will\" implies it hasn't occurred yet. Fails.<br/><br/><strong>B — \"published\"</strong> Simple past. Matches the 2013 date, describing a completed action. Correct.<br/><br/><strong>C — \"publishes\"</strong> Simple present. Presents the 2013 publication as if it happens habitually or right now. Fails.<br/><br/><strong>D — \"is publishing\"</strong> Present progressive. Implies the Navajo Times is publishing the profile at this moment, not on August 15, 2013. Fails.<br/><br/><strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; 'will publish'</strong>: Future tense implies the publication has not yet occurred &mdash; but 2013 is already in the past. Violates tense-agreement rule. &#10007;</li><li><strong>Choice B &mdash; 'published'</strong>: Simple past matches the 2013 date, describing a completed action. &#10003;</li><li><strong>Choice C &mdash; 'publishes'</strong>: Simple present treats the 2013 event as habitual or ongoing now. Violates tense-agreement rule. &#10007;</li><li><strong>Choice D &mdash; 'is publishing'</strong>: Present progressive implies the Navajo Times is publishing the profile at this moment, not in 2013. Violates tense-agreement rule. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

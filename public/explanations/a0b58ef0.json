@@ -1,1 +1,15 @@
-{"questionId": "a0b58ef0", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the critical gap", "content": "The passage creates a contrast: impact believers interpret the crater discovery as supporting evidence, but Kjær's team identifies a fundamental problem—they cannot yet determine the crater's age. This timing uncertainty is the decisive issue."}, {"title": "Determine the logical conclusion", "content": "To support the impact theory, the crater must have formed during the Younger Dryas period.<br/><br/>This connection cannot yet be verified, which is exactly what Kjær's team logically suggests.<br/><br/>The other choices address unrelated points: comet capability (B), overlooked alternatives (C), or believers' period assumptions (D).<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "a0b58ef0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the logical gap",
+      "content": "Impact believers claim the Greenland crater supports their theory. But Kj&aelig;r's team cannot yet determine the crater's age. To support the Younger Dryas impact theory, the crater would need to date to the start of that period &mdash; and since the age is unknown, that connection cannot be confirmed."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'it can&apos;t be concluded that the impact that made the crater was connected to the beginning of the Younger Dryas.'</strong>: The team cannot date the crater, so they cannot confirm it is linked to the Younger Dryas &mdash; this follows directly from the unknown age. &#10003;</li><li><strong>Choice B &mdash; 'it can&apos;t be determined whether a comet fragment could make a crater as large as 19 miles wide.'</strong>: The passage does not question the size of comet fragments or the crater-size relationship; the only uncertainty is the crater's age. &#10007;</li><li><strong>Choice C &mdash; 'scientists have ignored the possibility that something other than a comet fragment could have made the crater.'</strong>: The debate is about whether the crater dates to the Younger Dryas, not about what caused the crater. &#10007;</li><li><strong>Choice D &mdash; 'the scientists who believe an impact caused the Younger Dryas have made incorrect assumptions about when the period began.'</strong>: The text presents the Younger Dryas dates (11,700&ndash;12,900 years ago) as established fact, not as uncertain or disputed. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}

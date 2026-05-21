@@ -1,1 +1,13 @@
-{"questionId":"b5883220-eb88-4f6b-8d82-979efee65d2d_8","correctAnswer":"D","section":"Math","steps":[{"title":"Estimate the slope","content":"The data drops from near $y=90$ (small $x$) down to $y=0$ (at $x=8$) &mdash; a drop of about $90$ over a run of $8$. That gives a slope near $-10$, not $-0.1$. This eliminates choices B and C, which both have slope $-0.1$."},{"title":"Compare A and D using a clean data point","content":"Both remaining choices have slope $-10$, so the deciding factor is the $y$-intercept ($80$ vs $90$).<br/><br/>Test at $x = 4$, where the scatterplot shows $y = 50$:<ul><li><strong>Choice A &mdash; $y = 80 - 10x$</strong>: $y = 80 - 40 = 40$. Misses by $10$. &#10007;</li><li><strong>Choice D &mdash; $y = 90 - 10x$</strong>: $y = 90 - 40 = 50$. Matches exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.","desmosExpressions":["y = 90 - 10x"]}]}
+{
+  "qid": "b5883220-eb88-4f6b-8d82-979efee65d2d_8",
+  "steps": [
+    "Read the scatterplot: data starts near $y=90$ at $x=0$ and falls to near $y=0$ at $x \\approx 9$. That's a drop of ~90 over a run of ~9, so slope $\\approx -10$. This eliminates choices B and C (slope $-0.1$).",
+    "Between A ($y=80-10x$) and D ($y=90-10x$): the y-intercept at $x=0$ reads ~$90$, not $80$.",
+    "Confirm with $x=4$: the graph shows $y \\approx 50$. Choice D gives $90-40=50$ ✓; Choice A gives $80-40=40$ ✗."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$y=80-10x$'</strong>: y-intercept $80$ is too low; at $x=4$ predicts $y=40$ but graph shows $\\approx 50$. &#10007;</li><li><strong>Choice B &mdash; '$y=80-0.1x$'</strong>: Slope $-0.1$ is far too shallow for data that drops ~90 units over 9 units of $x$. &#10007;</li><li><strong>Choice C &mdash; '$y=90-0.1x$'</strong>: Correct y-intercept but slope $-0.1$ is far too shallow. &#10007;</li><li><strong>Choice D &mdash; '$y=90-10x$'</strong>: y-intercept $90$ ✓, slope $-10$ ✓, passes through $(4,50)$ ✓. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D",
+  "desmosExpressions": [
+    "y=90-10x"
+  ]
+}

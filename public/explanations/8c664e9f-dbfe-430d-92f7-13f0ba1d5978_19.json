@@ -1,1 +1,20 @@
-{"questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Break down the cost structure", "content": "The company charges <strong>\\$195 for the first hour</strong> plus <strong>\\$75 for each additional hour</strong> plus <strong>gas cost $w$</strong>. Since $x$ is the total number of hours rented, the number of additional hours is $(x - 1)$."}, {"title": "Write the total cost equation", "content": "Sum all three components:<br/>$$y = 195 + 75(x-1) + w$$<br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the cost components",
+      "content": "Three components make up the total cost:<ul><li><strong>First hour:</strong> flat $195</li><li><strong>Additional hours:</strong> $75 per hour beyond the first</li><li><strong>Gas:</strong> $w$</li></ul>Since $x$ is total hours rented, the number of additional hours is $(x - 1)$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "$$y = 195 + 75(x - 1) + w$$<br/>Verify with $x = 1$: $y = 195 + 75(0) + w = 195 + w$. Correct — only the flat first-hour fee and gas. Verify with $x = 3$: $y = 195 + 75(2) + w = 345 + w$. This is $195 for hr 1$ + $75 each for hrs 2 and 3$ + gas. Correct."
+    },
+    {
+      "title": "Eliminate the other choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$y = 195 + 75(x-1) + w$'</strong>: Correctly charges $195 flat for the first hour and $75 for each of the $(x-1)$ additional hours. &#10003;</li><li><strong>Choice B &mdash; '$y = 195 + 75x + w$'</strong>: Charges $75x$ instead of $75(x-1)$, which would charge $75 for the first hour on top of the $195 flat fee — overcounting. &#10007;</li><li><strong>Choice C &mdash; '$y = 195 + 75 + w$'</strong>: A constant — doesn't depend on $x$ at all. Clearly wrong for varying rental lengths. &#10007;</li><li><strong>Choice D &mdash; '$y = 75(x-1) + w$'</strong>: Omits the $195 first-hour charge entirely. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ],
+  "explanation": "<ul><li><strong>Choice A &mdash; '$y = 195 + 75(x-1) + w$'</strong>: $195 flat for hour 1, plus $75 for each of $(x-1)$ additional hours, plus gas. At $x=1$: $y = 195 + w$. &#10003;</li><li><strong>Choice B &mdash; '$y = 195 + 75x + w$'</strong>: Charges $75 for all $x$ hours including the first, double-billing the first hour on top of the $195. &#10007;</li><li><strong>Choice C &mdash; '$y = 195 + 75 + w$'</strong>: Constant; ignores $x$ entirely. &#10007;</li><li><strong>Choice D &mdash; '$y = 75(x-1) + w$'</strong>: Forgets the $195 first-hour flat charge. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the plural subject",
-      "content": "The subject of the sentence is <strong>ayllus</strong>, which is a plural noun. This grammatical fact determines what form the verb must take."
+      "title": "Identify the subject",
+      "content": "The subject of the sentence is <strong>ayllus</strong>. &ldquo;Ayllus&rdquo; is a plural noun referring to multiple family clans, so the verb that follows must be plural to satisfy subject-verb agreement."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "The verb must be plural to satisfy <strong>subject-verb agreement</strong>. Choice D, <strong>were</strong>, is the only plural verb form. Choices A, B, and C all provide singular verbs that would violate the agreement rule. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;is&rsquo;</strong>: Singular present tense. Violates subject-verb agreement &mdash; a plural subject cannot take a singular verb. &#10007;</li><li><strong>Choice B &mdash; &lsquo;was&rsquo;</strong>: Singular past tense. Also violates subject-verb agreement for the same reason. &#10007;</li><li><strong>Choice C &mdash; &lsquo;has been&rsquo;</strong>: Singular present perfect. Still singular, still violates subject-verb agreement with the plural subject <em>ayllus</em>. &#10007;</li><li><strong>Choice D &mdash; &lsquo;were&rsquo;</strong>: Plural past tense. Agrees in number with the plural subject <em>ayllus</em> &mdash; no agreement violation. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

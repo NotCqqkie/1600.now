@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the goal requires",
-      "content": "The goal explicitly asks the student to \u201cspecify the average weight.\u201d To specify means to state exactly. The notes include the exact weight: \u201cIt has an average weight of 19 grams.\u201d"
+      "title": "Identify the goal",
+      "content": "The student wants to <em>specify the average weight</em> of the large tree finch. The notes state exactly: &quot;It has an average weight of 19 grams.&quot; The correct choice must include that specific number."
     },
     {
-      "title": "Find the choice that states this weight",
-      "content": "Choice D directly provides this: \u201cThe large tree finch has an average weight of 19 grams.\u201d The other three fail to specify the weight, instead providing geographic or ecological information about the bird or islands. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "Check each choice against the goal of stating the average weight:\n<ul>\n<li><strong>Choice A — &quot;Many species of birds can be found in the Galápagos Islands, including the large tree finch.&quot;</strong>: mentions the bird but gives no weight at all. ✗</li>\n<li><strong>Choice B — &quot;The large tree finch can be found on the Galápagos Island of Santa Fe.&quot;</strong>: gives a location, not a weight. ✗</li>\n<li><strong>Choice C — &quot;The Galápagos Islands, which include the island of Santa Fe, contain many different species of birds.&quot;</strong>: describes the islands, not the bird's weight. ✗</li>\n<li><strong>Choice D — &quot;The large tree finch has an average weight of 19 grams.&quot;</strong>: directly states the average weight from the notes. ✓</li>\n</ul>\nThat matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_10",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage concludes that the ability to distinguish spontaneous from volitional laughter is <strong>universal across cultures</strong>."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice B reports that participants correctly identified laugh types at a rate well above chance and that this success rate was similar in Austria, Samoa, and the other societies, showing a cross\u2011cultural ability to distinguish laughter types.<br/>Choices A, C, and D either look at unrelated variables such as economic conditions or acoustic features, or do not demonstrate that recognition rates are alike across cultures.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_10", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the conclusion requires", "content": "The team concluded that the ability to distinguish spontaneous from volitional laughter is <strong>universal across cultures</strong>. The correct finding must show (1) participants could distinguish the laugh types above chance, and (2) this held equally across societies."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; participants&apos; evaluations correlated with economic conditions of societies</strong>: Ties recognition to economic variables &mdash; a factor that varies by culture &mdash; which would undermine a universal claim. &#10007;</li><li><strong>Choice B &mdash; 64% correct overall, and recognition rates similar across Austria, Samoa, and all societies</strong>: Shows above-chance accuracy (supporting the ability to distinguish) and similar rates across societies (supporting universality). &#10003;</li><li><strong>Choice C &mdash; acoustic features of spontaneous laughter vary within and across societies</strong>: Describes properties of the laughs themselves, not whether listeners across cultures can correctly identify them. &#10007;</li><li><strong>Choice D &mdash; no significant differences in listeners&apos; judgments between Austria and Samoa only</strong>: Limited to just two societies; does not speak to the other 19 societies needed to claim a universal finding. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

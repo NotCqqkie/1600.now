@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence's structural need",
-      "content": "The sentence is: \"She typically ___ them from sumac and cedar bark.\" The subject is \"She\" (singular) and \"typically\" signals a habitual action. The blank must be the main, conjugated verb — the only verb this clause has."
+      "title": "Identify the grammatical role needed",
+      "content": "The sentence is: <em>&ldquo;She typically ______ them from sumac and cedar bark.&rdquo;</em> The blank is the <strong>only verb</strong> in this clause, so it must be a <strong>finite (conjugated) verb</strong> that agrees with the singular subject &ldquo;She&rdquo; and expresses habitual action signaled by &ldquo;typically.&rdquo;"
     },
     {
-      "title": "Choose the correctly conjugated verb",
-      "content": "Rule: a main verb must be finite (conjugated) and agree with its subject. Non-finite forms (gerunds, infinitives) cannot stand alone as a predicate.\n\nA. \"weaving\" — present participle / gerund (non-finite). Fails: \"She typically weaving them\" has no finite verb; the sentence becomes a fragment.\nB. \"to weave\" — infinitive (non-finite). Fails: \"She typically to weave them\" is ungrammatical as a standalone predicate.\nC. \"weaves\" — third-person singular present tense (finite). Matches the singular subject \"She\" and correctly expresses a habitual action with \"typically.\" Correct.\nD. \"to be weaving\" — progressive infinitive (non-finite). Fails: same problem as B; an infinitive cannot serve as the main verb.\n\nThat matches choice C — <strong>C</strong> is correct."
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;weaving&rsquo;</strong>: Present participle (non-finite form). Violates finite verb requirement &mdash; &ldquo;She typically weaving them&rdquo; lacks a main verb and creates a sentence fragment. &#10007;</li><li><strong>Choice B &mdash; &lsquo;to weave&rsquo;</strong>: Infinitive (non-finite form). Violates finite verb requirement &mdash; an infinitive cannot serve as the predicate of a standalone clause. &#10007;</li><li><strong>Choice C &mdash; &lsquo;weaves&rsquo;</strong>: Third-person singular present tense (finite). Matches singular subject &ldquo;She&rdquo; and correctly expresses habitual action with &ldquo;typically.&rdquo; &#10003;</li><li><strong>Choice D &mdash; &lsquo;to be weaving&rsquo;</strong>: Progressive infinitive (non-finite form). Violates finite verb requirement &mdash; same problem as B; cannot serve as the main predicate. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

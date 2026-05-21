@@ -1,1 +1,23 @@
-{"questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_12", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify condition for no solution", "content": "The left‑hand side is $$y = -13x - \\frac{1}{9}$$.<br/>For a generic choice the right‑hand side is $$y = mx + c$$.<br/>Setting them equal gives $$(-13-m)x + \\left(-\\frac{1}{9}-c\\right)=0$$.<br/>No solution occurs when the coefficient of $$x$$ is zero and the constant term is non‑zero: $$-13-m=0$$ and $$-\\frac{1}{9}-c \\neq 0$$.<br/>That simplifies to $$m = -13$$ and $$c \\neq -\\frac{1}{9}$$<br/>Thus we need a choice with the same slope $$-13$$ but a different constant term."}, {"title": "Test the choices for equal slope and different intercept", "content": "We examine each choice's right‑hand side for slope $$m$$ and intercept $$c$$.<ul><li>Choice A: $$y = -13x - \\frac{1}{9}$$ → $$m = -13$$, $$c = -\\frac{1}{9}$$ → same slope and same intercept → infinitely many solutions.</li><li>Choice B: $$y = -13x + \\frac{1}{9}$$ → $$m = -13$$, $$c = +\\frac{1}{9}$$ → same slope, different intercept → parallel distinct lines → no solution.</li><li>Choice C: $$y = 13x - \\frac{1}{9}$$ → $$m = +13$$ → slope differs → lines intersect once.</li><li>Choice D: $$y = 13x + \\frac{1}{9}$$ → $$m = +13$$ → slope differs → lines intersect once.</li></ul>Only choice B meets the no‑solution condition.<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_12",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Condition for no solution",
+      "content": "An equation has no solution when both sides have the same $x$-coefficient (same slope) but different constant terms. This creates a contradiction like $-\\frac{1}{9} = \\frac{1}{9}$, which is never true."
+    },
+    {
+      "title": "Check each choice",
+      "content": "The left side is $-13x - \\frac{1}{9}$. For no solution, the right side must also have coefficient $-13$ on $x$ but a different constant."
+    },
+    {
+      "title": "Identify the no-solution case",
+      "content": "Choice B: $-13x - \\frac{1}{9} = -13x + \\frac{1}{9}$. Cancel $-13x$ from both sides: $-\\frac{1}{9} = \\frac{1}{9}$. This is false for all values of $x$ &mdash; no solution."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$-13x - \\frac{1}{9} = -13x - \\frac{1}{9}$'</strong>: Identical on both sides &mdash; true for all $x$ (infinitely many solutions). &#10007;</li><li><strong>Choice B &mdash; '$-13x - \\frac{1}{9} = -13x + \\frac{1}{9}$'</strong>: Same $x$-coefficient, different constant. Simplifies to $-\\frac{1}{9} = \\frac{1}{9}$, a contradiction. No solution. &#10003;</li><li><strong>Choice C &mdash; '$-13x - \\frac{1}{9} = 13x - \\frac{1}{9}$'</strong>: Different slopes; simplifies to $-26x = 0$, so $x = 0$. One solution. &#10007;</li><li><strong>Choice D &mdash; '$-13x - \\frac{1}{9} = 13x + \\frac{1}{9}$'</strong>: Different slopes; simplifies to $-26x = \\frac{2}{9}$, so $x = -\\frac{1}{117}$. One solution. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

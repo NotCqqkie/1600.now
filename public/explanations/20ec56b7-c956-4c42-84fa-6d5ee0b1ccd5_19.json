@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The subject is the noun phrase \u201can artificial intelligence\u201d (singular), followed by a relative clause and participial phrase. After the blank is the direct object \u201cChicago's energy grid.\u201d The blank requires a verb to complete the independent clause."
+      "title": "Identify the subject",
+      "content": "The subject of the sentence is &ldquo;an artificial intelligence&rdquo; &mdash; singular. The blank is the main verb of the independent clause. The rule of subject-verb agreement requires a singular subject to take a singular verb form."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "The rule is subject-verb agreement: a singular subject requires a singular verb form. \u201cPowers\u201d provides this singular form for the subject \u201can artificial intelligence.\u201d The other choices all use plural verb forms that violate this agreement. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul>\n<li><strong>Choice A &mdash; 'powers'</strong>: Singular present-tense verb; agrees with the singular subject &ldquo;an artificial intelligence.&rdquo; &#10003;</li>\n<li><strong>Choice B &mdash; 'are powering'</strong>: Plural verb form &mdash; violates subject-verb agreement with the singular subject. &#10007;</li>\n<li><strong>Choice C &mdash; 'power'</strong>: Bare-infinitive form used as a plural verb &mdash; violates subject-verb agreement with the singular subject. &#10007;</li>\n<li><strong>Choice D &mdash; 'have been powering'</strong>: Plural present-perfect progressive form &mdash; violates subject-verb agreement with the singular subject. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

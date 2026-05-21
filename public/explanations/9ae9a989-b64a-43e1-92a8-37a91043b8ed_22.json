@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sequential structure",
-      "content": "The passage uses “first” and “next” to order the dyeing steps. The blank requires a transition to mark the final step."
+      "title": "Identify the logical relationship",
+      "content": "The passage sequences three dyeing steps with &quot;first&quot; and &quot;next.&quot; The blank introduces the third and final step. The needed transition must signal <strong>the last item in an ordered sequence</strong>, not contrast, cause-effect, or correction."
     },
     {
-      "title": "Match the transition to complete the sequence",
-      "content": "The logical relationship between the sentences is sequence. The passage uses \"first\" and \"next\" to order the dyeing steps; the blank introduces the final step. The blank needs a transition signaling the last item in a sequence.\n<ul>\n<li><strong>Choice A — \"Finally,\"</strong>: signals the last step in an ordered sequence, fitting perfectly after \"first\" and \"next.\" ✓</li>\n<li><strong>Choice B — \"However,\"</strong>: signals contrast — the final step would oppose the prior step. Removing cloth from a dye bath is not a contradiction of simmering it. ✗</li>\n<li><strong>Choice C — \"Therefore,\"</strong>: signals cause-effect — removing the cloth would be a logical result of the prior sentence alone. While removing follows simmering, the transition needed is sequential (ordinal), not causal. ✗</li>\n<li><strong>Choice D — \"Actually,\"</strong>: signals a correction or surprising fact that contradicts an expectation. No correction is being made here. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'Finally,'</strong>: Signals the last step in an ordered sequence &mdash; fits perfectly after &quot;first&quot; and &quot;next.&quot; &#10003;</li><li><strong>Choice B &mdash; 'However,'</strong>: Signals contrast; removing cloth from a dye bath does not contradict or oppose simmering it. &#10007;</li><li><strong>Choice C &mdash; 'Therefore,'</strong>: Signals cause-and-effect; the transition needed is ordinal (this is the final step), not causal. &#10007;</li><li><strong>Choice D &mdash; 'Actually,'</strong>: Signals a correction or surprising reversal of an expectation; no expectation is being corrected here. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the opening em-dash",
-      "content": "The em-dash after <strong>postmodern dance</strong> opens a non-restrictive relative clause (<em>which demystifies traditional choreography by foregrounding...</em>) that provides additional information about what the dance does."
+      "title": "Identify the punctuation rule",
+      "content": "The sentence opens a parenthetical with an em dash after <em>postmodern dance</em>. In Standard English, a parenthetical opened by an em dash must be closed by a matching em dash before the main clause resumes. The blank falls at the end of the parenthetical list and must supply that closing em dash."
     },
     {
-      "title": "Close the em-dash pair",
-      "content": "Identify the structure: \"the principles of postmodern dance—which demystifies...movement that ballet and other classical dance forms obscure (such as clumsiness, weightiness, resistance, and [BLANK] to video.\" The parenthetical opened by an em dash must be closed by a matching em dash before \"to video.\"\n<ul>\n<li><strong>Choice A — gravity),</strong>: <em>\"...resistance, and gravity), to video.\"</em> — comma after the closing parenthesis cannot close an em-dash-opened parenthetical; creates a mismatched bracket. ✗</li>\n<li><strong>Choice B — gravity);</strong>: <em>\"...resistance, and gravity); to video.\"</em> — semicolon cannot close an em-dash parenthetical and would require an IC to follow. ✗</li>\n<li><strong>Choice C — gravity)—</strong>: <em>\"...resistance, and gravity)—to video.\"</em> — em dash matches the opening em dash, correctly closing the parenthetical; the sentence then continues with \"to video.\" ✓</li>\n<li><strong>Choice D — gravity)</strong>: <em>\"...resistance, and gravity) to video.\"</em> — no closing punctuation leaves the em-dash-opened parenthetical unclosed; \"to video\" floats without proper attachment. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+      "title": "Test each choice for correct em-dash pairing",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;gravity),&apos;</strong>: closes the parenthesis but follows it with a comma &mdash; a comma cannot substitute for the closing em dash, leaving the parenthetical bracket mismatched. &#10007;</li><li><strong>Choice B &mdash; &apos;gravity);&apos;</strong>: closes the parenthesis but follows it with a semicolon &mdash; a semicolon cannot close an em-dash parenthetical and would require an independent clause after it, which &ldquo;to video&rdquo; is not. &#10007;</li><li><strong>Choice C &mdash; &apos;gravity)&mdash;&apos;</strong>: closes the parenthesis and supplies the required em dash &mdash; the paired em dashes correctly bracket the entire parenthetical clause, allowing the sentence to continue with &ldquo;to video.&rdquo; &#10003;</li><li><strong>Choice D &mdash; &apos;gravity)&apos;</strong>: closes the parenthesis but supplies no closing punctuation for the em-dash parenthetical &mdash; the opening em dash is left unmatched and &ldquo;to video&rdquo; floats without proper attachment. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

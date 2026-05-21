@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the causal connection",
-      "content": "The observation raised questions, and then the team conducted an investigation to address those questions. The blank should express what initiated the study."
+      "title": "Identify what the blank must do",
+      "content": "The blank describes the study's relationship to &quot;a previous observation.&quot; Cordero saw cold mushrooms while hiking, which raised questions &mdash; and then he conducted the study. The blank must express that the observation triggered or motivated the study."
     },
     {
-      "title": "Select the causal relationship",
-      "content": "The blank needs to mean \"initiated or triggered by\" \u2014 the prior observation caused Cordero's team to conduct the study. Substitute each choice:<ul><li><strong>Choice A \u2014 released in</strong>: published or issued \u2014 the study wasn't published inside an observation; it was launched because of one. \u2717</li><li><strong>Choice B \u2014 acknowledged in</strong>: recognized within \u2014 this would mean the study merely mentioned the observation, not that the observation triggered the study. \u2717</li><li><strong>Choice C \u2014 excluded by</strong>: left out or blocked \u2014 this contradicts the logic; the observation started the study, not prevented it. \u2717</li><li><strong>Choice D \u2014 prompted by</strong>: triggered or initiated by \u2014 the thermal-image observation raised questions, directly motivating the investigation. \u2713</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Substitute each choice into the sentence:<ul><li><strong>Choice A &mdash; 'released in'</strong>: means published or issued within &mdash; a study cannot be published inside an observation; this makes no logical sense. &#10007;</li><li><strong>Choice B &mdash; 'acknowledged in'</strong>: means recognized or mentioned within &mdash; this would mean the study merely noted the observation, not that the observation caused the study to be conducted. &#10007;</li><li><strong>Choice C &mdash; 'excluded by'</strong>: means left out or blocked by &mdash; this contradicts the passage; the observation inspired the study, not prevented it. &#10007;</li><li><strong>Choice D &mdash; 'prompted by'</strong>: means triggered or initiated by &mdash; Cordero's thermal-image observation raised questions that directly motivated the investigation. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

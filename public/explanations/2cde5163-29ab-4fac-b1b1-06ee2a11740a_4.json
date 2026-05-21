@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The passage states that \u201cAfrican languages also made important contributions to the Puerto Rican dialect,\u201d establishing an origin relationship that needs to be expressed in the blank."
+      "title": "Identify the relationship the blank must express",
+      "content": "The passage says Puerto Rican vowel sounds connect back to Yoruba as their origin. The blank fills &ldquo;can be _______ to how they are pronounced in Yoruba,&rdquo; so the word must convey tracing something back to a source."
     },
     {
-      "title": "Match the meaning",
-      "content": "The blank needs a word capturing how Puerto Rican vowel sounds originate from or connect to Yoruba. 'Traced' expresses exactly this \u2014 vowels can be traced back to (originate from) a language. 'Announced,' 'offered,' and 'surrendered' don't express source or origin and create illogical phrases with 'to a language.' That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'traced'</strong>: &ldquo;Traced to&rdquo; means identified as originating from &mdash; precisely the origin relationship the passage establishes. &#10003;</li><li><strong>Choice B &mdash; 'announced'</strong>: &ldquo;Announced to a language&rdquo; is illogical; announces means to declare publicly, not to connect linguistically. Wrong word meaning. &#10007;</li><li><strong>Choice C &mdash; 'offered'</strong>: &ldquo;Offered to a language&rdquo; does not express origin or linguistic descent. Wrong word meaning. &#10007;</li><li><strong>Choice D &mdash; 'surrendered'</strong>: &ldquo;Surrendered to a language&rdquo; implies defeat or concession, not linguistic origin. Wrong word meaning. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

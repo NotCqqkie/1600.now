@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key phrase describing the zoo",
-      "content": "\u201dSpread over numberless acres\u201d tells us the zoo covers a large area. The phrase \u201cover numberless acres\u201d makes clear we're talking about the zoo's physical extent or coverage."
+      "title": "Identify what the blank must mean",
+      "content": "The text uses the word &quot;spread&quot; to describe the zoo: it was &quot;spread over numberless acres.&quot; The question asks what &quot;spread&quot; most nearly means in this context. The zoo's vast physical area and the detail that it required a train to explore it signal that &quot;spread&quot; describes extent across space."
     },
     {
-      "title": "Pick the word that means coverage across an area",
-      "content": "\u201dExtended\u201d directly fits how the zoo stretches or spreads across the acres. Hidden, Discussed, and Coated don't express this spatial distribution. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each choice as a substitute for &quot;spread&quot;:<ul><li><strong>Choice A &mdash; 'Hidden'</strong>: means concealed &mdash; the zoo is described as large and explorable, not concealed; this contradicts the context. &#10007;</li><li><strong>Choice B &mdash; 'Discussed'</strong>: means talked about &mdash; a zoo cannot be &quot;discussed over numberless acres&quot;; this is not a spatial meaning at all. &#10007;</li><li><strong>Choice C &mdash; 'Extended'</strong>: means stretched or distributed across an area &mdash; the zoo extended over numberless acres, matching the sense of vast physical coverage. &#10003;</li><li><strong>Choice D &mdash; 'Coated'</strong>: means covered with a surface layer &mdash; a zoo is not &quot;coated&quot; over acres; this word applies to surfaces, not spatial distribution. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

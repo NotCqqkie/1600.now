@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key context clue",
-      "content": "The fog is \"obliterating\" something. Fog is a physical phenomenon that obscures — it erases visible things. So \"traces\" must be something observable that fog can eliminate."
+      "title": "Determine what the word must mean in context",
+      "content": "The sentence says the fog was &quot;obliterating traces of familiar landscapes.&quot; The verb &quot;obliterating&quot; means completely wiping out or making invisible. The surrounding context confirms this: the bridge had &quot;become a spectral outline against the sky&quot; — fog made it nearly invisible. So &quot;traces&quot; must mean the visible signs of those landscapes that fog can erase by obscuring them."
     },
     {
-      "title": "Select the word for visible marks",
-      "content": "The word \"traces\" needs to mean visible signs or marks — the fog obliterated ______ of familiar landscapes. Substitute each choice:\n<ul>\n<li><strong>Choice A — Debris</strong>: obliterating <em>debris</em> of familiar landscapes — debris means scattered fragments or wreckage; the fog doesn't remove physical rubble, it obscures what can be seen. ✗</li>\n<li><strong>Choice B — Copies</strong>: obliterating <em>copies</em> of familiar landscapes — copies means reproductions or duplicates; the passage describes actual landmarks (the bridge), not copies of them. ✗</li>\n<li><strong>Choice C — Indications</strong>: obliterating <em>indications</em> of familiar landscapes — indications means visible signs or evidence of something, which is exactly what fog erases by obscuring outlines like the bridge against the sky. ✓</li>\n<li><strong>Choice D — Remembrances</strong>: obliterating <em>remembrances</em> of familiar landscapes — remembrances means memories; fog physically obscures what is visible, it does not erase memories. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each substitute in the sentence &quot;obliterating ______ of familiar landscapes&quot;:<ul><li><strong>Choice A &mdash; 'Debris'</strong>: Debris means scattered physical wreckage. Fog cannot remove physical rubble — it only obscures what can be seen, not solid matter on the ground. &#10007;</li><li><strong>Choice B &mdash; 'Copies'</strong>: Copies means reproductions or duplicates. The passage describes actual landmarks like the bridge, not reproductions of them; there are no copies to obliterate. &#10007;</li><li><strong>Choice C &mdash; 'Indications'</strong>: Indications means visible signs or evidence of something. Fog obliterating the visible signs of familiar landscapes — the bridge outline, the riverbank — is exactly what the passage describes. &#10003;</li><li><strong>Choice D &mdash; 'Remembrances'</strong>: Remembrances means memories or recollections. Fog is a physical phenomenon; it obscures what is visible but cannot erase mental memories. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

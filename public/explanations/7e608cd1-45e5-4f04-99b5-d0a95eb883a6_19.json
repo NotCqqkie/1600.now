@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the function of though",
-      "content": "The word \"though\" functions parenthetically here, inserted mid-sentence. It acknowledges the first claim—that axial tilt affects the Sun's position—while signaling a second factor (the eccentricity of Earth's orbit)."
+      "title": "Identify the grammatical structure",
+      "content": "The sentence reads: &ldquo;Axial tilt is not the only factor that affects the Sun&rsquo;s ___ as the eccentricity of Earth&rsquo;s orbit also plays a role.&rdquo; The word &ldquo;though&rdquo; is inserted parenthetically &mdash; it concedes the first claim while the main clause continues. A parenthetical must be enclosed in commas on both sides."
     },
     {
-      "title": "Apply the parenthetical rule",
-      "content": "Identify the structure: \"Axial tilt is not the only factor that affects the Sun's [BLANK] as the eccentricity of Earth's orbit...\" — \"though\" is inserted parenthetically between \"position\" and the continuing clause. Parenthetical \"though\" must be enclosed in commas on both sides.\n<ul>\n<li><strong>Choice A — position, though,</strong>: <em>\"...the Sun's position, though, as the eccentricity...\"</em> — commas on both sides correctly bracket the parenthetical \"though\"; the IC continues smoothly. ✓</li>\n<li><strong>Choice B — position; though,</strong>: <em>\"...the Sun's position; though, as the eccentricity...\"</em> — semicolon before \"though\" splits the sentence where no IC ends; \"though, as...\" is not an independent clause. ✗</li>\n<li><strong>Choice C — position, though</strong>: <em>\"...the Sun's position, though as the eccentricity...\"</em> — opens the parenthetical with a comma but omits the closing comma, leaving \"though\" fused to the following clause. ✗</li>\n<li><strong>Choice D — position, though;</strong>: <em>\"...the Sun's position, though; as the eccentricity...\"</em> — semicolon after \"though\" illegally separates a dependent clause (\"as the eccentricity...\") from the rest. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul>\n<li><strong>Choice A &mdash; 'position, though,'</strong>: Commas on both sides correctly bracket the parenthetical &ldquo;though&rdquo;; the independent clause continues smoothly. &#10003;</li>\n<li><strong>Choice B &mdash; 'position; though,'</strong>: Semicolon before &ldquo;though&rdquo; violates the rule that a semicolon must join two independent clauses &mdash; &ldquo;though, as the eccentricity&hellip;&rdquo; is not an independent clause. &#10007;</li>\n<li><strong>Choice C &mdash; 'position, though'</strong>: Missing closing comma &mdash; violates the rule that a mid-sentence parenthetical must be enclosed in commas on both sides. &#10007;</li>\n<li><strong>Choice D &mdash; 'position, though;'</strong>: Semicolon after &ldquo;though&rdquo; illegally separates a dependent clause (&ldquo;as the eccentricity&hellip;&rdquo;) from the rest of the sentence. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,12 @@
-{"questionId": "b86123af", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate both purchases into equations", "content": "<strong>Hiro's purchase:</strong> 4 shirts at $x$ each and 2 pairs of pants at $y$ each for \\$86:<br/>$$4x + 2y = 86$$<br/><strong>Sofia's purchase:</strong> 3 shirts at $x$ each and 5 pairs of pants at $y$ each for \\$166:<br/>$$3x + 5y = 166$$<br/>That matches choice A — <strong>A</strong> is correct.", "desmosExpressions": ["y = (86 - x)/2", "y = (166 - 3x)/5"]}]}
+{
+  "qid": "b86123af",
+  "steps": [
+    "Let x = price per shirt, y = price per pair of pants.",
+    "Hiro buys 4 shirts and 2 pairs of pants for $86: 4x + 2y = 86.",
+    "Sofia buys 3 shirts and 5 pairs of pants for $166: 3x + 5y = 166.",
+    "Find the answer choice that contains both equations 4x + 2y = 86 and 3x + 5y = 166."
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '4x + 2y = 86 and 3x + 5y = 166'</strong>: Hiro's equation: 4 shirts at x and 2 pants at y totaling 86 &#10003;; Sofia's equation: 3 shirts at x and 5 pants at y totaling 166 &#10003;. Both correct. &#10003;</li><li><strong>Choice B &mdash; 'x + 3y = 86 and 2x + 5y = 166'</strong>: Neither matches the given quantities (Hiro bought 4 shirts, not 1; Sofia bought 3 shirts, not 2). &#10007;</li><li><strong>Choice C &mdash; 'x + 2y = 166 and 3x + 5y = 86'</strong>: The totals are swapped (Hiro's total is 86, not 166) and coefficients are wrong. &#10007;</li><li><strong>Choice D &mdash; 'x + 3y = 166 and 2x + 5y = 86'</strong>: Both totals and coefficients are wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "correctAnswer": "A",
+  "desmosExpressions": ["y=(86-4x)/2", "y=(166-3x)/5"]
+}

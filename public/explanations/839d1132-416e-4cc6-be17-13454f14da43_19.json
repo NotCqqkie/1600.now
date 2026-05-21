@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank needs",
-      "content": "The blank is the main verb of the clause \"this phrase ______ roughly to 'it's an old story.'\" A main verb must be a finite, conjugated form that can carry tense and agree with its subject."
+      "title": "Identify the grammatical role the blank must fill",
+      "content": "The sentence is &quot;In English, this phrase ______ roughly to &apos;it&apos;s an old story.&apos;&quot; The subject is &quot;this phrase&quot; (singular, third person), and the blank is the only verb in the clause — it must be the main (finite) verb. A finite verb is conjugated to agree with its subject and carry tense; non-finite forms (infinitives, participles, gerunds) cannot serve as a main verb on their own."
     },
     {
-      "title": "Apply the finite-verb rule and eliminate",
-      "content": "The subject \"this phrase\" is singular, so the main verb must be singular and finite.<br/><br/><strong>A. to translate</strong> — infinitive; non-finite, cannot be a main verb. Eliminated.<br/><strong>B. translating</strong> — gerund/present participle; non-finite, cannot be a main verb. Eliminated.<br/><strong>C. having translated</strong> — perfect participle; non-finite, cannot be a main verb. Eliminated.<br/><strong>D. translates</strong> — third-person singular present tense; finite verb that agrees with \"this phrase.\" <strong>Correct.</strong><br/><br/>D is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each choice as the main verb of &quot;this phrase ______ roughly to &apos;it&apos;s an old story&apos;&quot;:<ul><li><strong>Choice A &mdash; 'to translate'</strong>: &quot;to translate&quot; is an infinitive — a non-finite form that violates the rule that a main clause requires a finite verb. &#10007;</li><li><strong>Choice B &mdash; 'translating'</strong>: &quot;translating&quot; is a present participle or gerund — non-finite, so it cannot be the main verb of the clause without an auxiliary. &#10007;</li><li><strong>Choice C &mdash; 'having translated'</strong>: &quot;having translated&quot; is a perfect participle — non-finite, and it typically introduces an adverbial phrase, not a main clause predicate. &#10007;</li><li><strong>Choice D &mdash; 'translates'</strong>: &quot;translates&quot; is the third-person singular present tense — a finite form that agrees with the singular subject &quot;this phrase&quot; and can serve as the main verb. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,20 @@
-{"questionId":"9628151f-9763-4abc-8c66-9dc08f82f715_4","correctAnswer":"A","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Distribute the $5$ and combine:$$=x^3+9x^2-8x+5x^2+40$$$$=x^3+14x^2-8x+40$$"},{"title":"Match to the answer choices","content":"The simplified expression is $x^3+14x^2-8x+40$. That matches choice <strong>A</strong> — <strong>A</strong> is correct."}]}
+{
+  "questionId": "9628151f-9763-4abc-8c66-9dc08f82f715_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the 5",
+      "content": "Multiply 5 by each term inside the second parentheses:<br/>$$5(x^2+8) = 5x^2 + 40$$"
+    },
+    {
+      "title": "Remove parentheses and group like terms",
+      "content": "Rewrite the full expression:<br/>$$x^3 + 9x^2 - 8x + 5x^2 + 40$$<br/>Collect the $x^2$ terms: $9x^2 + 5x^2 = 14x^2$."
+    },
+    {
+      "title": "Write the simplified result",
+      "content": "$$x^3 + 14x^2 - 8x + 40$$"
+    }
+  ],
+  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; '$x^{3}+14x^{2}-8x+40$'</strong>: Distributing 5 gives $5x^2+40$; combining $9x^2+5x^2=14x^2$ produces this expression. &#10003;</li><li><strong>Choice B &mdash; '$x^{3}+9x^{2}-8x+40$'</strong>: Keeps $9x^2$ unchanged, forgetting to add the $5x^2$ from distributing. &#10007;</li><li><strong>Choice C &mdash; '$x^{3}+5x^{2}-8x+40$'</strong>: Replaces $9x^2$ with $5x^2$ instead of adding them. &#10007;</li><li><strong>Choice D &mdash; '$x^{3}+8x^{2}-8x+40$'</strong>: $8x^2$ cannot result from any combination of the terms present. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+}

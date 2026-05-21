@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent",
-      "content": "The blank precedes \u201cfindings,\u201d which needs a possessive determiner. The antecedent is \u201cWatson and Crick\u201d \u2014 plural."
+      "title": "Identify what the blank needs",
+      "content": "The blank fills the slot before &ldquo;findings&rdquo; and must function as a <strong>possessive determiner</strong> referring to &ldquo;Watson and Crick&rdquo; &mdash; a plural noun phrase. The correct word must be a plural possessive, not a contraction."
     },
     {
-      "title": "Apply the agreement rule",
-      "content": "A possessive determiner must agree in number with its antecedent. Since Watson and Crick are plural, \u201ctheir\u201d is the correct form. \u201cThey're\u201d and \u201cIt's\u201d are contractions (not possessive), and \u201cIts\u201d is singular possessive. That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate wrong choices, keep the right one",
+      "content": "<ul><li><strong>Choice A &mdash; 'They&rsquo;re'</strong>: Violates <strong>possessive vs. contraction</strong> &mdash; &ldquo;they&rsquo;re&rdquo; is a contraction for &ldquo;they are,&rdquo; not a possessive determiner, so it produces a grammatically broken sentence. &#10007;</li><li><strong>Choice B &mdash; 'It&rsquo;s'</strong>: Violates <strong>possessive vs. contraction</strong> &mdash; &ldquo;it&rsquo;s&rdquo; is a contraction for &ldquo;it is&rdquo; or &ldquo;it has,&rdquo; not a possessive determiner, and also does not agree with the plural antecedent. &#10007;</li><li><strong>Choice C &mdash; 'Their'</strong>: &ldquo;Their&rdquo; is the plural possessive determiner, correctly agreeing in number with the plural antecedent &ldquo;Watson and Crick.&rdquo; &#10003;</li><li><strong>Choice D &mdash; 'Its'</strong>: Violates <strong>pronoun-antecedent agreement</strong> &mdash; &ldquo;its&rdquo; is a singular possessive determiner and does not agree with the plural &ldquo;Watson and Crick.&rdquo; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

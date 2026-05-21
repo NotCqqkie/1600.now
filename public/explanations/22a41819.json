@@ -1,1 +1,15 @@
-{"questionId": "22a41819", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key contrast word", "content": "The word <em>diverged</em> in “Johnson's self-effacement diverged from the editorial stances of W.E.B. Du Bois and Alain Locke” signals a fundamental opposition. Their editorial approaches were the opposite of his self-effacing strategy."}, {"title": "Select the word for the opposite editorial approach", "content": "<strong>Dogmatic</strong> — stubbornly asserting one's own principles — directly describes the opposite of self-effacement in editorial practice.<br/><br/>The others don't work: <em>proficient</em> addresses skill, <em>ambiguous</em> suggests confusion, and <em>unpretentious</em> matches Johnson's modesty.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "22a41819",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the blank must mean",
+      "content": "Johnson practiced <strong>self-effacement</strong> &mdash; stepping back, suppressing his own editorial voice to let contributors express diverse perspectives. The blank describes Du Bois and Locke, whose editorial decisions <em>diverged</em> from Johnson's. The blank must describe the <strong>opposite</strong> of self-effacement: asserting a strong, fixed editorial vision."
+    },
+    {
+      "title": "Eliminate wrong choices, keep the right one",
+      "content": "<ul><li><strong>Choice A &mdash; 'proficient'</strong>: Violates <strong>word meaning</strong> &mdash; &ldquo;proficient&rdquo; means skilled, but the passage contrasts editorial <em>styles</em>, not skill levels. Nothing implies Johnson was less skilled. &#10007;</li><li><strong>Choice B &mdash; 'dogmatic'</strong>: &ldquo;Dogmatic&rdquo; means stubbornly committed to one's own beliefs or principles &mdash; the direct opposite of Johnson's self-effacing approach and consistent with editors who promote a &ldquo;unified vision&rdquo; over diverse perspectives. &#10003;</li><li><strong>Choice C &mdash; 'ambiguous'</strong>: Violates <strong>word meaning</strong> &mdash; &ldquo;ambiguous&rdquo; means unclear or open to multiple interpretations, but it is Johnson who encouraged multiple viewpoints; Du Bois and Locke, who diverged from him, would be <em>less</em> ambiguous, not more. &#10007;</li><li><strong>Choice D &mdash; 'unpretentious'</strong>: Violates <strong>word meaning</strong> &mdash; &ldquo;unpretentious&rdquo; is close in meaning to self-effacing, which describes Johnson, not Du Bois and Locke who are his opposites. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+    }
+  ]
+}

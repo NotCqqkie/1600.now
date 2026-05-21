@@ -1,1 +1,15 @@
-{"questionId": "be19faa1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The conclusion hinges on a <strong>contrast based on temperature change</strong>: higher surface temperatures increase the percentage of sites where thermal pollution can meet home heating needs.<br/><br/>The strongest clue is the shift in <em>effect</em> (more sites becoming viable) under the maximum plausible temperature scenario."}, {"title": "Match the meaning", "content": "Choice D shows that under maximum temperatures, the portion of sites <strong>unable</strong> to use thermal pollution drops below 20%, which directly supports the conclusion (since if 80% of sites can now meet needs, the percentage of viable sites has increased).<br/><br/>A, B, and C either misrepresent the direction of change or fail to show a meaningful increase in viable sites.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "be19faa1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the conclusion requires",
+      "content": "The team concluded that as surface temperature approaches the maximum plausible level, the percentage of sites where thermal pollution could feasibly contribute to home heating will increase. To support this, the correct choice must show: (1) that at current temperatures few sites can use thermal pollution for heating, and (2) that at maximum plausible temperatures, many more sites can."
+    },
+    {
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;Under both temperature conditions, less than 10% of sites were in the up-to-25% group, but at the maximum plausible surface temperature, almost 80% of sites could have all their local heating needs met by thermal pollution.&apos;</strong>: the graph does not classify sites by whether 100% of heating needs are met, so this misreads the data &mdash; unsupported by the graph. &#10007;</li><li><strong>Choice B &mdash; &apos;At current surface temperatures, more than 80% of the sites have no need for supplemental local home heating...&apos;</strong>: this confuses &quot;no need&quot; for heating with &quot;no capacity&quot; to use thermal pollution &mdash; the graph shows sites&apos; potential to use thermal pollution, not whether they need it. &#10007;</li><li><strong>Choice C &mdash; &apos;At current surface temperatures, more than 80% of sites can meet, at most, 25% of local home heating needs...&apos;</strong>: this inverts the graph: at current temperatures more than 80% of sites cannot meet any portion of heating needs (0% group), not &quot;up to 25%.&quot; &#10007;</li><li><strong>Choice D &mdash; &apos;At current surface temperatures, more than 80% of the sites cannot use subsurface thermal pollution to meet any portion of local home heating needs, but at the maximum plausible surface temperature, that percentage drops below 20%.&apos;</strong>: this accurately reads the graph (large 0%-group at current temps shrinks below 20% at maximum temps) and directly supports the conclusion that viable sites increase. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}

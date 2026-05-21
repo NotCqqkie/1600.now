@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammar issue",
-      "content": "The true subject is <strong>the presence</strong> (singular). The long relative clause \"of many fossilized microbacteria, which seem to have thrived there...\" modifies \"presence\" but does not change its number. Strip it away: \"the presence ______ claims that bacteria are among the planet's most resilient organisms.\""
+      "content": "The true subject is <strong>the presence</strong> (singular). Strip the long intervening modifier &mdash; &quot;of many fossilized microbacteria, which seem to have thrived there despite the extreme heat that persisted after the Chicxulub impact&quot; &mdash; and the skeleton reads: &quot;the presence ______ claims that bacteria are among the planet&apos;s most resilient organisms.&quot; The verb must agree with a singular subject. Rule violated by wrong choices: <strong>subject-verb agreement</strong>."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<strong>A: reinforce</strong> — plural base form. \"The presence reinforce\" — subject-verb mismatch. Eliminated.<br/><br/><strong>B: have reinforced</strong> — plural auxiliary \"have.\" Same number error. Eliminated.<br/><br/><strong>C: reinforces</strong> — singular third-person present (-s ending). \"The presence reinforces claims\" — subject and verb agree. <strong>Correct.</strong><br/><br/><strong>D: are reinforcing</strong> — plural auxiliary \"are.\" Also a number error. Eliminated."
+      "content": "<ul><li><strong>Choice A &mdash; 'reinforce'</strong>: Base plural form. &quot;The presence reinforce&quot; violates subject-verb agreement &mdash; singular subject requires the -s form. &#10007;</li><li><strong>Choice B &mdash; 'have reinforced'</strong>: Plural auxiliary &quot;have.&quot; &quot;The presence have reinforced&quot; violates subject-verb agreement for the same reason. &#10007;</li><li><strong>Choice C &mdash; 'reinforces'</strong>: Singular third-person present (-s ending). &quot;The presence reinforces claims&quot; &mdash; subject and verb agree. &#10003;</li><li><strong>Choice D &mdash; 'are reinforcing'</strong>: Plural auxiliary &quot;are.&quot; &quot;The presence are reinforcing&quot; violates subject-verb agreement. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }
