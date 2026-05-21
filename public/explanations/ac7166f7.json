@@ -1,15 +1,1 @@
-{
-  "questionId": "ac7166f7",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the defining behavior",
-      "content": "The claim requires riders who actively prefer faster routes over alternatives. The strongest clue is a rider who chooses one route specifically because it reduces travel time."
-    },
-    {
-      "title": "Match the signal to the choices",
-      "content": "Choice C demonstrates this directly: a daily work commuter who selects the faster bike lane over a scenic park path. The other three either don't commute to work or don't demonstrate speed-based route preferences. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ac7166f7", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the claim requires", "content": "The underlined claim has three parts: the rider must be (1) experienced, (2) mainly biking to work, and (3) preferring routes that reduce travel time. A supporting response must satisfy all three parts simultaneously."}, {"title": "Evaluate each choice against the claim", "content": "<ul><li><strong>Choice A &mdash; &lsquo;&ldquo;I have a bike, but I don&rsquo;t ride it very often. When the weather is nice, I sometimes use my bike to go into town to do some shopping.&rdquo;&rsquo;</strong>: The rider is infrequent and bikes for errands, not work &mdash; fails parts 1 and 2. &#10007;</li><li><strong>Choice B &mdash; &lsquo;&ldquo;I just got a new bike, and I&rsquo;m looking forward to going on rides with my friends soon.&rdquo;&rsquo;</strong>: Doesn&rsquo;t establish experience, doesn&rsquo;t mention commuting to work, and states no route preference. &#10007;</li><li><strong>Choice C &mdash; &lsquo;&ldquo;I bike to my job every day. There&rsquo;s a nice bike path that goes through a park, but I use the bike lane on the main road because it&rsquo;s faster.&rdquo;&rsquo;</strong>: Daily commuting implies experience (part 1), bikes to work (part 2), and explicitly chooses the faster route over the scenic one (part 3). &#10003;</li><li><strong>Choice D &mdash; &lsquo;&ldquo;I usually bike to work, but I&rsquo;m taking the bus now because my bike has a broken part.&rdquo;&rsquo;</strong>: The rider is an experienced work commuter but gives no route preference &mdash; fails part 3. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

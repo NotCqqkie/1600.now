@@ -1,1 +1,15 @@
-{"questionId": "76199cca-674f-403e-a01c-927854021f9f_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the visibility disparity", "content": "The key signal is that common ravens can spot finch nests near road openings <strong>far more easily</strong> than nests in dense woodland."}, {"title": "Apply visibility difference to predation", "content": "Finches nesting near the road will lose eggs to common ravens at a higher rate than finches nesting far away—a direct result of the differential spotting ability at each location.<br/><br/>The other three either deny increased predation (A), propose illogical finch behavior (B), or address unrelated factors (D). <br/><br/> That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "76199cca-674f-403e-a01c-927854021f9f_13",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the key fact driving the prediction",
+      "content": "Common ravens can spot finch nests near the road far more easily than nests deep in the woodland. Because ravens eat finch eggs, easier spotting means more predation. Any logical prediction must follow from this visibility difference."
+    },
+    {
+      "title": "Test each choice against the predation logic",
+      "content": "The correct choice must connect easier spotting near the road to a higher egg-loss rate for those nests.\n<ul>\n<li><strong>Choice A &mdash; 'finch eggs will make up about the same percentage of common ravens&apos; diet as they did before the road was built.'</strong>: predicts no change in predation, contradicting the new visibility advantage ravens gained from the road. &#10007;</li>\n<li><strong>Choice B &mdash; 'the number of finches building nests near the road will gradually increase as the finches adapt to the presence of the common ravens.'</strong>: predicts finches will move toward a more dangerous area &mdash; illogical given the increased predation risk there. &#10007;</li>\n<li><strong>Choice C &mdash; 'finches nesting near the road will lose eggs to common ravens at a higher rate than will finches nesting far from the road.'</strong>: directly follows from ravens spotting road-side nests more easily &mdash; higher visibility leads to higher predation. &#10003;</li>\n<li><strong>Choice D &mdash; 'finches nesting far from the road will lay fewer eggs per nest than will finches nesting near the road.'</strong>: addresses egg-laying quantity in woodland nests, a factor not supported by anything in the passage. &#10007;</li>\n</ul>\nThat matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}
