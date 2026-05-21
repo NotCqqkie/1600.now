@@ -1,15 +1,1 @@
-{
-  "questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cause-and-effect signal",
-      "content": "The passage states Rogerson's 2015 calculation was more accurate, then immediately introduces the reason\u2014the 1920 calculation used only cardboard and string. The transition must link the outcome to its cause."
-    },
-    {
-      "title": "Match the transition to the choices",
-      "content": "The logical relationship is cause-effect \u2014 the 1920 calculation was less accurate because it used only cardboard and string. The blank needs a transition signaling that explanation.\n<ul>\n<li><strong>Choice A \u2014 \"Likewise,\"</strong>: signals similarity/addition, so fails \u2014 the two calculations are being contrasted, not equated. \u2717</li>\n<li><strong>Choice B \u2014 \"To that end,\"</strong>: signals purpose (done in order to achieve X), so fails \u2014 no goal-directed action is described. \u2717</li>\n<li><strong>Choice C \u2014 \"Of course,\"</strong>: signals an unsurprising explanation \u2014 naturally the older method was less accurate given its crude materials, so fits. \u2713</li>\n<li><strong>Choice D \u2014 \"Ultimately,\"</strong>: signals a final conclusion or outcome, so fails \u2014 the sentence explains a reason, not an end result. \u2717</li>\n</ul>\nThat matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1b5dbecd-2a08-4015-83f5-8ad883233476_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "The first sentence states Rogerson's 2015 calculation was <em>more accurate</em> than the 1920 survey's result. The next sentence explains <em>why</em>: the 1920 calculation used only cardboard and string. The blank must introduce an explanation for a result that was already stated &mdash; it signals &quot;here's why that's unsurprising.&quot;"}, {"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'Likewise,'</strong>: Signals similarity or addition between two parallel ideas. The two calculations are being contrasted, not equated. &#10007;</li><li><strong>Choice B &mdash; 'To that end,'</strong>: Signals that the following action was done <em>in order to achieve</em> the preceding goal. No goal-directed action is described here. &#10007;</li><li><strong>Choice C &mdash; 'Of course,'</strong>: Signals that the following fact is an unsurprising explanation &mdash; naturally the older method was less accurate given its crude materials. This fits perfectly. &#10003;</li><li><strong>Choice D &mdash; 'Ultimately,'</strong>: Signals a final conclusion or end result. The sentence explains a <em>reason</em>, not an ultimate outcome. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

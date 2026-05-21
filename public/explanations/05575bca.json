@@ -1,15 +1,1 @@
-{
-  "questionId": "05575bca",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "Alice immediately follows \u201csoft\u201d with a specific comparison: the snow sounds like someone kissing the window."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The word \u201csoft\u201d means \u201cgentle\u201d \u2014 the tender, delicate quality suggested by the kissing comparison. A) Gentle directly expresses this. The other three choices either misidentify what's being described or contradict the passage's positive tone. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "05575bca", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the context clue for &ldquo;soft&rdquo;", "content": "Alice immediately follows &ldquo;soft&rdquo; with a comparison: the snow sounds <em>&ldquo;just as if someone was kissing the window all over outside.&rdquo;</em> A kiss on a window is a quiet, tender, delicate action. The word &ldquo;soft&rdquo; in this context describes that gentle, light quality of sound&mdash;not texture, brightness, or interest."}, {"title": "Match each answer choice to the context clue", "content": "<ul>\n<li><strong>Choice A &mdash; &lsquo;Gentle&rsquo;</strong>: Directly captures the quiet, tender quality evoked by the kissing comparison and the word &ldquo;nice.&rdquo; &#10003;</li>\n<li><strong>Choice B &mdash; &lsquo;Sensitive&rsquo;</strong>: &ldquo;Sensitive&rdquo; describes a capacity to feel or react; it does not describe how a sound quality compares to a gentle kiss. &#10007;</li>\n<li><strong>Choice C &mdash; &lsquo;Shapeless&rsquo;</strong>: Refers to lacking a definite form. Alice is describing how the snow <em>sounds</em>, not how it looks or what shape it has. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;Bland&rsquo;</strong>: Means dull or uninteresting. Alice calls the sound &ldquo;nice,&rdquo; showing she finds it pleasant&mdash;the opposite of bland. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."}]}
