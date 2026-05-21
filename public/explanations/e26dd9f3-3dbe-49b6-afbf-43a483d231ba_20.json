@@ -1,15 +1,1 @@
-{
-  "questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_20",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The text has an independent clause (<em>who served in...Congress</em>) followed by a list of examples (<em>Ralph Harold Metcalfe...Alton Waldon Jr.</em>). A colon introduces a list or elaboration."
-    },
-    {
-      "title": "Apply the colon rule",
-      "content": "The structure: a complete clause (\"...served in Congress\") followed by a list of two names that specify <em>which</em> Black Americans. The rule: a colon introduces an explanation or list that elaborates on what came before.<ul><li><strong>Choice A — \"Congress:\"</strong>: colon correctly introduces the list of names that specify the people served in Congress. ✓</li><li><strong>Choice B — \"Congress;\"</strong>: semicolon requires an independent clause on the right side, but \"Ralph Harold Metcalfe... and Alton R. Waldon Jr...\" is a list of names, not a clause. ✗</li><li><strong>Choice C — \"Congress.\"</strong>: period ends the sentence, leaving the name list as a sentence fragment. ✗</li><li><strong>Choice D — \"Congress\"</strong>: no punctuation creates a fused construction where the names appear to be the direct object of \"served in,\" which is grammatically incoherent. ✗</li></ul>That matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Analyze the sentence structure", "content": "The sentence reads: &ldquo;...two other Black Americans who served in ______ Ralph Harold Metcalfe of Illinois and Alton R. Waldon Jr. of New York.&rdquo; The clause before the blank is complete and independent. The names that follow are a list that <em>specifies</em> which Black Americans served in Congress. A colon is used to introduce a list or elaboration after a complete clause; a semicolon requires an independent clause on both sides; a period would strand the names as a fragment; no punctuation would fuse the list incoherently into the preceding clause.<ul><li><strong>Choice A &mdash; &lsquo;Congress:&rsquo;</strong>: Colon correctly introduces the list of names that specify who served in Congress. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Congress;&rsquo;</strong>: Semicolons join two independent clauses; &ldquo;Ralph Harold Metcalfe...and Alton R. Waldon Jr.&rdquo; is a noun phrase list, not a clause. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Congress.&rsquo;</strong>: A period ends the sentence and leaves the names as a fragment with no main verb. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Congress&rsquo;</strong>: No punctuation makes the names appear to be the direct object of &ldquo;served in,&rdquo; which is grammatically incoherent. &#10007;</li></ul>"}, {"title": "Select the matching choice", "content": "The colon is the only punctuation mark that correctly introduces a list elaborating on the preceding complete clause. That matches choice A &mdash; <strong>A</strong> is correct."}]}

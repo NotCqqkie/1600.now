@@ -1,1 +1,15 @@
-{"questionId": "64e88c58", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the student's dual goal", "content": "The prompt explicitly states the student wants to provide both “an explanation and an example.”"}, {"title": "Apply the dual requirement to the choices", "content": "Choice A provides both components: it opens with an explanation (“not music but rather a series of sound-based meditations that consist of instructions”) and pairs it with a specific example from Meditation XVIII.<br/>The other choices are incomplete: <ul><li>B lacks a specific example</li><li>C lacks explanation</li><li>D provides no explanation of the concept</li></ul>.<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "64e88c58",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the dual requirement",
+      "content": "The prompt says the student wants to provide both an explanation of what <em>Sonic Meditations</em> is <strong>and</strong> a concrete example of one meditation. The correct choice must accomplish both goals."
+    },
+    {
+      "title": "Test each choice for explanation and example",
+      "content": "<ul><li><strong>Choice A &mdash; 'Sonic Meditations is not music but rather a series of sound-based meditations...'</strong>: opens with an explanation of what the work is, then pairs it with a specific example from Meditation XVIII. Both requirements met. &#10003;</li><li><strong>Choice B &mdash; 'In 1971, Oliveros created Sonic Meditations, a series of meditations...'</strong>: describes what the work is but gives no specific example of any single meditation. &#10007;</li><li><strong>Choice C &mdash; &quot;Walk so silently that the bottoms of your feet become ears&quot;...'</strong>: provides an example from Meditation V but never explains what <em>Sonic Meditations</em> is. &#10007;</li><li><strong>Choice D &mdash; 'While both meditations consist of instructions, Meditation XVIII instructs...'</strong>: compares two meditations but does not explain what <em>Sonic Meditations</em> is as a concept. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    }
+  ]
+}
