@@ -1,15 +1,1 @@
-{
-  "questionId": "13cfe765-425a-44bc-b085-25d580925451_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the mutual influence",
-      "content": "The phrase \u201cin turn\u201d signals a reciprocal cycle\u2014ocean forces damage structures, whose repairs then alter those same forces."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The blank needs to mean bidirectional influence \u2014 waves damage structures, and repairs to structures alter wave patterns in return. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Interplay</strong>: \"exemplify the <em>interplay</em> between marine structures and ocean forces\" \u2014 interplay means the way two things interact and influence each other reciprocally, matching the back-and-forth described. \u2713</li>\n<li><strong>Choice B \u2014 Tension</strong>: \"exemplify the <em>tension</em> between marine structures and ocean forces\" \u2014 tension means opposition or strain; the passage describes a two-way influence, not merely conflict. \u2717</li>\n<li><strong>Choice C \u2014 Incongruity</strong>: \"exemplify the <em>incongruity</em> between marine structures and ocean forces\" \u2014 incongruity means a lack of harmony or mismatch; the passage describes interaction, not mismatch. \u2717</li>\n<li><strong>Choice D \u2014 Continuum</strong>: \"exemplify the <em>continuum</em> between marine structures and ocean forces\" \u2014 continuum means a continuous sequence; this doesn't capture the mutual causation between two distinct agents. \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "13cfe765-425a-44bc-b085-25d580925451_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key clue in the sentence", "content": "The sentence says waves damage structures, and then &mdash; &quot;in turn&mdash; repairs may alter local wave patterns. &quot;In turn&quot; signals a back-and-forth cycle: each side causes change in the other. The blank must name that mutual, two-way influence."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Substitute each word into the blank: &quot;exemplify the ______ between marine structures and ocean forces.&quot;<ul><li><strong>Choice A &mdash; &apos;interplay&apos;</strong>: Interplay means reciprocal action or influence between two things &mdash; exactly the back-and-forth cycle the sentence describes. &#10003;</li><li><strong>Choice B &mdash; &apos;tension&apos;</strong>: Tension means strain or conflict, not a productive two-way cycle of cause and effect. &#10007;</li><li><strong>Choice C &mdash; &apos;incongruity&apos;</strong>: Incongruity means a mismatch or incompatibility, not mutual influence. &#10007;</li><li><strong>Choice D &mdash; &apos;continuum&apos;</strong>: Continuum means a gradual scale or sequence, not reciprocal causation between two distinct agents. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

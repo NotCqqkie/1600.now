@@ -1,15 +1,1 @@
-{
-  "questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_13",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal about counting difficulty",
-      "content": "The passage notes that counting the langurs is challenging, which makes it hard to tell if the population is increasing, decreasing, or stable."
-    },
-    {
-      "title": "Match the meaning to the clue",
-      "content": "Choice A fits because if the study cannot count the primates accurately, any conclusions it draws about how well different conservation strategies work will be wrong.<br/>Choices B, C, and D do not follow from the counting problem; they introduce unrelated ideas about methodology, other species, or overlooked approaches.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c39b24c5-b805-4b9b-a609-e68df8471f04_13", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the problem the blank must follow from", "content": "The passage establishes one specific problem: it is <em>challenging to accurately count</em> these primates, so researchers cannot tell whether the population is increasing, decreasing, or stable. The blank must complete &ldquo;The study may thus ______&rdquo; &mdash; the completion must follow logically from this counting difficulty.<ul><li><strong>Choice A &mdash; 'risk making inaccurate conclusions about the effectiveness of different conservation strategies.'</strong>: If population changes cannot be measured accurately, any conclusions about which conservation strategy is working will also be unreliable. Follows directly from the counting problem. &#10003;</li><li><strong>Choice B &mdash; 'cause other conservationists to adopt a new methodology for counting populations.'</strong>: The passage gives no indication that other conservationists will change their methods as a result. &#10007;</li><li><strong>Choice C &mdash; 'benefit from including species beyond the white-headed langur.'</strong>: Expanding the study&rsquo;s scope does not address the counting difficulty described. &#10007;</li><li><strong>Choice D &mdash; 'fail to consider less-well-known conservation approaches for the white-headed langur.'</strong>: The passage does not suggest any overlooked conservation approaches. &#10007;</li></ul>"}, {"title": "Confirm and conclude", "content": "Only choice A logically connects the counting difficulty to a consequence for the study&rsquo;s conclusions. That matches choice A &mdash; <strong>A</strong> is correct."}]}

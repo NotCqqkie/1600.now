@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the pattern: claim followed by evidence",
-      "content": "The passage asserts \"not all cascades are beneficial,\" then introduces a specific study as proof. The transition must signal confirmation — that the evidence supports the claim."
+      "title": "Identify the logical relationship",
+      "content": "The passage states &quot;not all cascades are beneficial,&quot; then the blank introduces a study about warblers. The study is not a new claim or a contrast &mdash; it is concrete proof that supports what was just stated. The blank needs a transition that signals confirming evidence follows."
     },
     {
-      "title": "Select the word expressing confirmation",
-      "content": "The logical relationship is confirmation: the warbler study is concrete evidence that proves the claim that not all cascades are beneficial. The blank needs a transition word signaling that the following proves what was just stated.\n<ul>\n<li><strong>Choice A — \"Instead,\"</strong>: signals a substitution or alternative, so it fails because no replacement is being offered — the study supports the claim. ✘</li>\n<li><strong>Choice B — \"In response,\"</strong>: signals a reaction to something, so it fails because the study is not a reaction to the claim about cascades — it is evidence of it. ✘</li>\n<li><strong>Choice C — \"Indeed,\"</strong>: signals that confirming evidence follows, so it fits — the warbler example proves that cascades can be harmful. ✓</li>\n<li><strong>Choice D — \"In addition,\"</strong>: signals a new parallel point, so it fails because the study does not add a new claim — it supports the one just made. ✘</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+      "title": "Test each choice against the relationship",
+      "content": "<ul><li><strong>Choice A &mdash; 'Instead,'</strong>: signals a substitution or alternative, but no replacement is being offered &mdash; the study proves the claim, not replaces it. &#10007;</li><li><strong>Choice B &mdash; 'In response,'</strong>: signals a reaction to something, but the study is not a reaction to the claim &mdash; it is evidence of it. &#10007;</li><li><strong>Choice C &mdash; 'Indeed,'</strong>: signals that confirming evidence follows, which fits perfectly &mdash; the warbler example proves that cascades can be harmful. &#10003;</li><li><strong>Choice D &mdash; 'In addition,'</strong>: signals a new parallel point, but the study does not add a new claim &mdash; it supports the one just made. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

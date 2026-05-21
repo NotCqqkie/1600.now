@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the sequential pattern",
-      "content": "The passage uses \u201cfirst\u201d to mark the initial step and \u201cLastly\u201d to mark the final step. The blank must contain the transition for the middle step."
+      "content": "The passage uses &quot;first&quot; to mark the initial step (scraping ice) and &quot;Lastly&quot; to mark the final step (smoothing). The blank introduces the middle step, so the transition must signal the second action in an ordered sequence."
     },
     {
-      "title": "Match the sequential marker",
-      "content": "\u201dNext\u201d signals the second step in a sequence\u2014exactly what fits between \u201cfirst\u201d scraped and \u201cLastly\u201d smoothed. The other three either introduce examples (A), draw similarities (C), or show contrast (D), none of which fit a procedural sequence. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Test each choice against the pattern",
+      "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: signals that the sentence illustrates something from before, but the water spraying is not an example of scraping &mdash; it is a separate step. &#10007;</li><li><strong>Choice B &mdash; 'Next,'</strong>: signals the second step in a sequence, fitting exactly between &quot;first&quot; scraped and &quot;Lastly&quot; smoothed. &#10003;</li><li><strong>Choice C &mdash; 'Similarly,'</strong>: signals that this action resembles the previous one, but spraying water into grooves is not similar to scraping off ice. &#10007;</li><li><strong>Choice D &mdash; 'In contrast,'</strong>: signals an opposition to the previous action, but the passage describes steps in a single continuous process, not a contrast. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }
