@@ -1,1 +1,9 @@
-{"questionId": "974d33dc", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Arrange terms by degree", "content": "We need to find $(r^3 + 5r^2 + 7) + (r^2 + 8r + 12)$. Organize both polynomials by degree:<br/>$$r^3 + 5r^2 + 0r + 7$$<br/>$$+ 0r^3 + r^2 + 8r + 12$$"}, {"title": "Combine like terms", "content": "Add coefficients of each degree:<ul><li>$r^3$ terms: $1 + 0 = 1$, so $r^3$</li><li>$r^2$ terms: $5 + 1 = 6$, so $6r^2$</li><li>$r$ terms: $0 + 8 = 8$, so $8r$</li><li>Constants: $7 + 12 = 19$</li></ul>The sum is $r^3 + 6r^2 + 8r + 19$. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "qid": "974d33dc",
+  "steps": [
+    "Write the sum and align like terms: \\((r^3 + 5r^2 + 0r + 7) + (0r^3 + r^2 + 8r + 12)\\).",
+    "Combine coefficients by degree: \\(r^3\\): \\(1+0=1\\); \\(r^2\\): \\(5+1=6\\); \\(r\\): \\(0+8=8\\); constant: \\(7+12=19\\). Result: \\(r^3 + 6r^2 + 8r + 19\\).",
+    "Evaluate all four choices: <ul><li>A: \\(r^5 + 13r^3 + 19\\) — introduces \\(r^5\\) and \\(r^3\\) terms by incorrectly multiplying rather than adding exponents. Eliminated.</li><li>B: \\(2r^3 + 13r^2 + 19\\) — doubles the \\(r^3\\) coefficient and adds the \\(r^2\\) terms incorrectly; missing the \\(8r\\) term. Eliminated.</li><li>C: \\(r^3 + 5r^2 + 7r + 12\\) — drops the \\(r^2\\) from the second polynomial and does not add the constants. Eliminated.</li><li>D: \\(r^3 + 6r^2 + 8r + 19\\) — matches every coefficient derived above. That matches choice D — <strong>D</strong> is correct.</li></ul>"
+  ],
+  "correctAnswer": "D"
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up unit conversion",
-      "content": "Since 1 yard equals 36 inches, to convert 612 inches to yards, we divide by the conversion factor: $$\\frac{612}{36}$$."
+      "title": "Set up the unit conversion",
+      "content": "We want yards, and we know 1 yard = 36 inches. To convert inches to yards, divide by 36: $$\\frac{612}{36}$$"
     },
     {
-      "title": "Evaluate the division",
-      "content": "$$\\frac{612}{36} = 17$$. Therefore, 612 inches is equivalent to 17 yards. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Perform the division",
+      "content": "$$\\frac{612}{36} = 17$$"
+    },
+    {
+      "title": "Eliminate wrong choices",
+      "content": "<ul><li>A: 0.059 &mdash; This comes from dividing 36 &div; 612, inverting the conversion. Eliminated.</li><li>B: 17 &mdash; Dividing 612 by 36 gives 17. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>C: 576 &mdash; This is 612 &minus; 36, which is subtraction rather than conversion. Eliminated.</li><li>D: 22,032 &mdash; This is 612 &times; 36, multiplying instead of dividing. Eliminated.</li></ul>"
     }
   ]
 }

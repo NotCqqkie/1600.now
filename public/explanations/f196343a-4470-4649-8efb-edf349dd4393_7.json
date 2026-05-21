@@ -1,15 +1,1 @@
-{
-  "questionId": "f196343a-4470-4649-8efb-edf349dd4393_7",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the point from the graph",
-      "content": "The point shown is $$(49,0)$$.<br/>This means the x\u2011coordinate (Player\u202f1 points) is 49 and the y\u2011coordinate (Player\u202f2 points) is 0."
-    },
-    {
-      "title": "Interpret in context",
-      "content": "When Player\u202f1 earns 49 points, Player\u202f2 earns 0 points.<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"f196343a-4470-4649-8efb-edf349dd4393_7","correctAnswer":"B","section":"Math","steps":["The graph shows \\(y = f(x)\\) where \\(x\\) = points earned by Player 1 and \\(y\\) = points earned by Player 2. The point (49, 0) means \\(x = 49\\) and \\(y = 0\\).","Since there are 49 total questions and every correct answer goes to Player 1, Player 1 earning 49 points means Player 1 answered all 49 correctly. Player 2 therefore earns 0 points.","<ul><li><strong>Choice A &mdash; 'When Player 1 earns 49 points, Player 2 will earn 49 points.'</strong>: The y-coordinate is 0, not 49. &#10007;</li><li><strong>Choice B &mdash; 'When Player 1 earns 49 points, Player 2 will earn 0 points.'</strong>: Correctly reads x=49 as Player 1&rsquo;s score and y=0 as Player 2&rsquo;s score. &#10003;</li><li><strong>Choice C &mdash; 'When Player 1 earns 0 points, Player 2 will earn 49 points.'</strong>: Reverses the coordinates; the x-value is 49, not 0. &#10007;</li><li><strong>Choice D &mdash; 'When Player 1 earns 0 points, Player 2 will earn 0 points.'</strong>: Both values are wrong; this would describe the point (0, 0), not (49, 0). &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."]}

@@ -1,1 +1,10 @@
-{"questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_22", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Identify the three consecutive integers", "content": "The first integer is $x$. Since the integers are consecutive and ordered from least to greatest, the second integer is $x+1$ and the third integer is $x+2$."}, {"title": "Translate the English statement to an inequality", "content": "Break down the given statement into parts:<ul><li><em>The sum of 4 and the second integer</em> → $4 + (x+1)$</li><li><em>the product of 17 and the third integer</em> → $17(x+2)$</li><li><em>is less than</em> → $<$</li></ul>Combining these components, the inequality is:<br/>$$4 + (x+1) < 17(x+2)$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "qid": "a22baf87-f61e-43f7-b868-52cf0e05d234_22",
+  "steps": [
+    "Label the three consecutive integers. The first is \\(x\\), so the second is \\(x+1\\) and the third is \\(x+2\\).",
+    "Translate each phrase: &quot;the sum of 4 and the second integer&quot; = \\(4 + (x+1)\\); &quot;the product of 17 and the third integer&quot; = \\(17(x+2)\\); &quot;is less than&quot; = \\(&lt;\\).",
+    "Combine: \\(4 + (x+1) &lt; 17(x+2)\\).",
+    "Evaluate each answer choice:<ul><li>Choice A: \\(4+(x+1) &gt; 17(x+2)\\) — uses the correct expressions but the wrong direction (&gt; instead of &lt;). Eliminated.</li><li>Choice B: \\(4+(x+1) &lt; 17(x+2)\\) — correct expressions and correct inequality direction. That matches choice B — <strong>B</strong> is correct.</li><li>Choice C: \\(4+(x+2) &gt; 17(x+3)\\) — uses the third and fourth integers instead of the second and third, and the wrong direction. Eliminated.</li><li>Choice D: \\(4+(x+2) &lt; 17(x+3)\\) — uses the wrong integers (shifted by one). Eliminated.</li></ul>"
+  ],
+  "correctAnswer": "B"
+}

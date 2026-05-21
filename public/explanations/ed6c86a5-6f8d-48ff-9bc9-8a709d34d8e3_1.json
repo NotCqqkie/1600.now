@@ -1,15 +1,15 @@
 {
-  "questionId": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_1",
+  "qid": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_1",
   "correctAnswer": "A",
-  "section": "Math",
   "steps": [
     {
-      "title": "Recognize the equation structure",
-      "content": "The equation $21h + 10c = 900$ represents total weekly earnings. Since each term is (coefficient) \u00d7 (hours), the coefficients must represent hourly rates (dollars per hour). The structure is: (hourly rate at job 1) \u00d7 (hours at job 1) + (hourly rate at job 2) \u00d7 (hours at job 2) = total earnings."
+      "text": "The equation \\(21h + 10c = 900\\) models total earnings in dollars. Each term is (rate) &times; (hours), so each coefficient represents a dollar-per-hour rate."
     },
     {
-      "title": "Identify what 21 multiplies",
-      "content": "In the equation, 21 multiplies $h$, which is defined as <em>the number of hours worked at her regular job</em>. Since 21 is the coefficient of the hours variable for the regular job, 21 must represent the hourly rate earned at that job. That matches choice A \u2014 <strong>A</strong> is correct."
+      "text": "The variable \\(h\\) is defined as hours worked at the <em>regular job</em>. The number 21 is multiplied by \\(h\\), so 21 is the hourly rate (dollars per hour) at the regular job."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li>A: &quot;The amount, in dollars, the technician earned for each hour she worked at her regular job&quot; — 21 is the coefficient of \\(h\\) (regular job hours), so this is the hourly rate for the regular job. That matches choice A — <strong>A</strong> is correct.</li><li>B: Assigns 21 to the second job, but 21 multiplies \\(h\\) (regular job), not \\(c\\) (second job). Eliminated.</li><li>C: Interprets 21 as a count of hours, not a rate. Eliminated.</li><li>D: Interprets 21 as hours at the second job; 21 doesn&apos;t multiply \\(c\\). Eliminated.</li></ul>"
     }
   ]
 }

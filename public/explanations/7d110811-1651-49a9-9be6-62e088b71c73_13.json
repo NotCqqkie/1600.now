@@ -1,15 +1,1 @@
-{
-  "questionId": "7d110811-1651-49a9-9be6-62e088b71c73_13",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Multiply both sides by y",
-      "content": "Multiply both sides by $y$ to cancel the denominator and isolate $x$:<br/>$$y(b - 20) = x$$"
-    },
-    {
-      "title": "Distribute and identify the answer",
-      "content": "Distribute $y$ across the left side:<br/>$$x = by - 20y$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7d110811-1651-49a9-9be6-62e088b71c73_13", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Start with the given equation", "content": "$$b - 20 = \\frac{x}{y}$$"}, {"title": "Multiply both sides by y", "content": "Multiply both sides by $y$ to clear the denominator: $$y(b - 20) = x$$"}, {"title": "Distribute and evaluate all choices", "content": "Distribute $y$ on the left: $x = by - 20y$. Now check each option:<ul><li>A: $x = \\frac{b-20}{y}$ — this divides by $y$ instead of multiplying. Eliminate A.</li><li>B: $x = by - 20y$ — matches $y(b-20)$ distributed. That matches choice B — <strong>B</strong> is correct.</li><li>C: $x = \\frac{by-20}{y}$ — only the 20 is divided by $y$, not the entire expression. Eliminate C.</li><li>D: $x = by - 20$ — the $y$ was not distributed to the $-20$ term. Eliminate D.</li></ul>"}]}

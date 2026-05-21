@@ -1,16 +1,1 @@
-{
-  "questionId": "affb2315",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use sample proportion to estimate population",
-      "content": "A random sample's observed proportion is our best estimate for the entire population's proportion. The sample found that 20% intend to enroll in the study program, so we estimate that 20% of all 55 Spanish club students intend to enroll.",
-      "formula": "$$\\text{Estimated count} = \\text{Sample proportion} \\times \\text{Total population}$$"
-    },
-    {
-      "title": "Calculate 20% of 55",
-      "content": "$$0.20 \\times 55 = 11$$<br/>This gives us the estimated number of students who intend to enroll in the study program. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"qid":"affb2315","steps":[{"step":"A random sample's proportion is the best estimate for the entire population's proportion. The sample found that 20% intend to enroll, so we apply 20% to the full club of 55 students.","result":"Proportion = 20% = 0.20"},{"step":"Calculate 20% of 55: \\(0.20 \\times 55 = 11\\).","result":"11 students"},{"step":"Verify reasonableness: 20% of 55 is slightly more than 20% of 50 = 10, so 11 is expected.","result":"Confirmed"},{"step":"<ul><li>Choice A: 11. This equals \\(0.20 \\times 55\\), directly applying the sample proportion to the population. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: 20. This confuses the percentage value 20 with a count; 20 would only be right if there were 100 students total. Eliminated.</li><li>Choice C: 44. This would correspond to 80% intending to enroll (\\(44/55 \\approx 0.80\\)), the complement of 20%. Eliminated.</li><li>Choice D: 55. This would mean 100% intend to enroll, contradicting the 20% sample result. Eliminated.</li></ul>","result":"A"}],"correctAnswer":"A"}

@@ -1,1 +1,18 @@
-{"questionId":"979898ba-60c7-4531-ac45-29c4db2b3361_4","correctAnswer":"D","section":"Math","steps":[{"title":"Distribute and combine like terms","content":"Drop the parentheses and combine the $nr$ terms:$$=4nr^2+6nr+7n^2r+2nr$$$$=4nr^2+7n^2r+8nr$$"},{"title":"Match to the answer choices","content":"The simplified expression is $4nr^2+7n^2r+8nr$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "qid": "979898ba-60c7-4531-ac45-29c4db2b3361_4",
+  "correctAnswer": "D",
+  "steps": [
+    {
+      "text": "Remove the parentheses (no sign change needed since both groups are added): $$4nr^{2}+6nr+7n^{2}r+2nr$$"
+    },
+    {
+      "text": "Identify like terms: \\(6nr\\) and \\(2nr\\) both have the factor \\(nr\\). The terms \\(4nr^{2}\\) and \\(7n^{2}r\\) have no matching terms."
+    },
+    {
+      "text": "Combine: \\(6nr + 2nr = 8nr\\). The expression becomes $$4nr^{2}+7n^{2}r+8nr$$"
+    },
+    {
+      "text": "<ul><li><strong>A</strong> &mdash; \\(11n^{2}r^{2}+8nr\\) incorrectly multiplies \\(4nr^{2}\\) and \\(7n^{2}r\\) instead of keeping them separate. Eliminated.</li><li><strong>B</strong> &mdash; \\(11n^{3}r^{3}+8n^{2}r^{2}\\) multiplies exponents, which is not what addition does. Eliminated.</li><li><strong>C</strong> &mdash; \\(28n^{3}r^{3}+12n^{2}r^{2}\\) multiplies the two groups together entirely. Eliminated.</li><li><strong>D</strong> &mdash; \\(4nr^{2}+7n^{2}r+8nr\\) matches the simplified result. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-{"questionId": "05bb1af9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify two points on the graphed line", "content": "The graph shows a line with negative slope. Reading from the grid: when $x = 0$, $y = 2$ (the y-intercept), and when $x = -4$, $y = 3$. These points lie on the graphed line."}, {"title": "Find the slope and equation of the graphed line", "content": "Using points $(0, 2)$ and $(-4, 3)$:<br/>$$m = \\frac{3 - 2}{-4 - 0} = \\frac{1}{-4} = -\\frac{1}{4}$$<br/>With y-intercept $2$, the equation of the graphed line is:<br/>$$y = -\\frac{1}{4}x + 2$$"}, {"title": "Solve for f(x) by isolating it from the given relationship", "content": "Since the graph shows $y = f(x) + 14$, and we found $y = -\\frac{1}{4}x + 2$, we have:<br/>$$-\\frac{1}{4}x + 2 = f(x) + 14$$<br/>Subtract $14$ from both sides:<br/>$$f(x) = -\\frac{1}{4}x + 2 - 14 = -\\frac{1}{4}x - 12$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "qid": "05bb1af9",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "text": "The graph displays \\(y = f(x) + 14\\). Read two points from the graphed line: the y-intercept appears at \\((0, 2)\\) and another point at \\((-4, 3)\\)."
+    },
+    {
+      "text": "Compute the slope: $$m = \\frac{3-2}{-4-0} = \\frac{1}{-4} = -\\frac{1}{4}$$ With y-intercept 2, the graphed line is \\(y = -\\frac{1}{4}x + 2\\)."
+    },
+    {
+      "text": "Since the graph shows \\(f(x) + 14\\), set equal and isolate \\(f(x)\\): $$f(x) + 14 = -\\frac{1}{4}x + 2 \\implies f(x) = -\\frac{1}{4}x + 2 - 14 = -\\frac{1}{4}x - 12$$"
+    },
+    {
+      "text": "<ul><li><strong>A</strong> &mdash; \\(f(x) = -\\frac{1}{4}x - 12\\) matches the derived expression exactly. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; \\(f(x) = -\\frac{1}{4}x + 16\\) would require the graphed line to have y-intercept 30, inconsistent with the graph. Eliminated.</li><li><strong>C</strong> &mdash; \\(f(x) = -\\frac{1}{4}x + 2\\) forgets to subtract 14 from the graphed function. Eliminated.</li><li><strong>D</strong> &mdash; \\(f(x) = -\\frac{1}{4}x - 14\\) would require the graphed line to have y-intercept 0, inconsistent with the graph. Eliminated.</li></ul>"
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "questionId": "27590f35-8d6e-45c6-b665-222acb5e516d_2",
+  "qid": "27590f35-8d6e-45c6-b665-222acb5e516d_2",
   "correctAnswer": "D",
-  "section": "Math",
   "steps": [
     {
-      "title": "Translate minimum and maximum to inequalities",
-      "content": "The minimum recorded height is 42 feet. This means no tree is shorter than 42 feet, so all heights satisfy $t \\geq 42$. The maximum recorded height is 57 feet. This means no tree is taller than 57 feet, so all heights satisfy $t \\leq 57$."
+      "explanation": "The minimum recorded height is 42 feet, so no tree can be shorter than 42 feet: \\(t \\geq 42\\). The maximum is 57 feet, so no tree can be taller than 57 feet: \\(t \\leq 57\\)."
     },
     {
-      "title": "Combine constraints into a compound inequality",
-      "content": "Since both conditions must hold for all recorded heights in the area, we need both $t \\geq 42$ AND $t \\leq 57$. This combines into: $$42 \\leq t \\leq 57$$ This compound inequality bounds the height $t$ to the range from 42 to 57 feet, inclusive. That matches choice D \u2014 <strong>D</strong> is correct."
+      "explanation": "Both constraints must hold simultaneously for every recorded value, giving the compound inequality \\(42 \\leq t \\leq 57\\)."
+    },
+    {
+      "explanation": "Evaluate each choice:<ul><li>\\(t \\leq 42\\): Fails for any tree taller than 42 feet (e.g., \\(t = 50\\)). Eliminated.</li><li>\\(t \\geq 57\\): Fails for any tree shorter than 57 feet (e.g., \\(t = 42\\)). Eliminated.</li><li>\\(t \\geq 99\\): No recorded height reaches 99 feet. Fails for all values. Eliminated.</li><li>\\(42 \\leq t \\leq 57\\): True for every value in the recorded range. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

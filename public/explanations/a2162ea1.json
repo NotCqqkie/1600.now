@@ -1,1 +1,18 @@
-{"questionId": "a2162ea1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the confidence interval from the margin of error", "content": "The sample mean is 23.1 pounds and the margin of error is 0.19 pounds. To find the plausible range for the population mean, subtract and add the margin of error.<br/>$$23.1 - 0.19 = 22.91$$<br/>$$23.1 + 0.19 = 23.29$$<br/>Thus the interval is from 22.91 pounds to 23.29 pounds."}, {"title": "Match the interval to answer choices", "content": "The computed interval 22.91 to 23.29 pounds corresponds to the statement in choice A: plausible values are between 22.91 and 23.29 pounds.<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "qid": "a2162ea1",
+  "steps": [
+    {
+      "text": "Identify the sample mean and margin of error: the estimated average is $23.1$ pounds with a margin of error of $0.19$ pounds."
+    },
+    {
+      "text": "Compute the confidence interval bounds: lower bound $= 23.1 - 0.19 = 22.91$ pounds; upper bound $= 23.1 + 0.19 = 23.29$ pounds."
+    },
+    {
+      "text": "Interpret the margin of error: plausible values for the true population average lie within the interval $[22.91,\\ 23.29]$ pounds. Values outside this range are not well supported by the data."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li>A: Plausible values are between $22.91$ and $23.29$ pounds — this correctly describes the confidence interval. That matches choice A — <strong>A</strong> is correct.</li><li>B: Plausible values are less than $22.91$ or greater than $23.29$ — this describes the region outside the confidence interval, which is the opposite of what a margin of error implies. Eliminated.</li><li>C: The average is less than $23.01$ pounds — $23.01 = 23.1 - 0.09$ is not one of the bounds and the statement ignores the upper range. Eliminated.</li><li>D: The average is greater than $23.01$ pounds — same issue; this truncates the interval incorrectly. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "A"
+}

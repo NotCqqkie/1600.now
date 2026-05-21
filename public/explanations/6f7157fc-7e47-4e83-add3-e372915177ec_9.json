@@ -1,1 +1,18 @@
-{"questionId": "6f7157fc-7e47-4e83-add3-e372915177ec_9", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Recognize the equation structure", "content": "The equation $13x + 14y = 423$ follows the form $(\\text{price}_1) \\cdot x + (\\text{price}_2) \\cdot y = \\text{total}$. This is the standard form for situations involving two types of items sold at different unit prices, where the total represents the combined revenue."}, {"title": "Identify what the variables represent", "content": "Since 13 and 14 are reasonable prices in dollars for shirts, they must be the unit prices.<br/><br/>The variables $x$ and $y$ are therefore quantities—the number of each type of shirt sold—and 423 is the total revenue.<br/><br/>This immediately eliminates choices C and D, which incorrectly claim that $y$ is a price rather than a quantity."}, {"title": "Determine which shirt type corresponds to y", "content": "The coefficient paired with $y$ is 14. In the standard form, this coefficient represents the unit price of whatever $y$ counts.<br/><br/>Since 14 dollars per shirt is the higher price, and long-sleeved shirts are typically more expensive than short-sleeved shirts, the variable $y$ represents the number of long-sleeved shirts sold.<br/><br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "qid": "6f7157fc-7e47-4e83-add3-e372915177ec_9",
+  "correctAnswer": "A",
+  "steps": [
+    {
+      "text": "The equation \\(13x + 14y = 423\\) has the form (price)(quantity) + (price)(quantity) = total revenue. The numbers 13 and 14 are dollar prices per shirt; \\(x\\) and \\(y\\) are quantities sold."
+    },
+    {
+      "text": "Since \\(x\\) and \\(y\\) are quantities, the two choices saying \\(y\\) is a price (C and D) are immediately eliminated."
+    },
+    {
+      "text": "The coefficient of \\(y\\) is 14, the higher price. Long-sleeved shirts cost more than short-sleeved shirts, so \\(y\\) = number of long-sleeved shirts sold and \\(x\\) = number of short-sleeved shirts sold."
+    },
+    {
+      "text": "<ul><li><strong>A</strong> &mdash; Number of long-sleeved shirts sold: paired with price \\(\\$14\\), consistent with long-sleeved costing more. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B</strong> &mdash; Number of short-sleeved shirts sold: short-sleeved would be the cheaper item, corresponding to the \\(\\$13\\) coefficient (the \\(x\\) term), not \\(y\\). Eliminated.</li><li><strong>C</strong> &mdash; Price of each long-sleeved shirt: the variables are quantities, not prices. Eliminated.</li><li><strong>D</strong> &mdash; Price of each short-sleeved shirt: same reason &mdash; variables are quantities. Eliminated.</li></ul>"
+    }
+  ]
+}

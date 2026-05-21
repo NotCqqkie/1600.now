@@ -1,15 +1,1 @@
-{
-  "questionId": "d62ad380",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Backsolving choice B",
-      "content": "Backsolving \u2014 testing choice B ($p = \\frac{10}{3}s + 8$):<br/>Plug in $s=3$:<br/>$$P = \\frac{10}{3}\\cdot 3 + 8 = 10 + 8 = 18$$<br/>Expected $P=8$, so choice B fails."
-    },
-    {
-      "title": "Backsolving choice C",
-      "content": "Backsolving \u2014 testing choice C ($p = \\frac{10}{3}s - 2$):<br/>Plug in $s=3$:<br/>$$P = \\frac{10}{3}\\cdot 3 - 2 = 10 - 2 = 8$$<br/>Matches given $P=8$.<br/>Check $s=6$:<br/>$$P = \\frac{10}{3}\\cdot 6 - 2 = 20 - 2 = 18$$<br/>Matches given $P=18$.<br/>Thus choice C fits all points.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"qid":"d62ad380","correctAnswer":"C","steps":["Find the slope using two table points: \\(m = \\frac{18 - 8}{6 - 3} = \\frac{10}{3}\\).","Find the \\(y\\)-intercept using point \\((3, 8)\\): \\(8 = \\frac{10}{3}(3) + b \\Rightarrow 8 = 10 + b \\Rightarrow b = -2\\).","The equation is \\(P = \\frac{10}{3}s - 2\\). Verify with \\(s = 9\\): \\(P = 30 - 2 = 28\\). Correct."],"choices":[{"id":"A","text":"\\(p = 3s + 10\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = 9 + 10 = 19\\). The table says 8.00.</li><li>The slope is 3, not \\(\\frac{10}{3}\\), so this does not match the rate of change in the table.</li><li>Eliminated because it fails the first data point.</li></ul>"},{"id":"B","text":"\\(p = \\frac{10}{3}s + 8\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = \\frac{10}{3}(3) + 8 = 10 + 8 = 18\\). The table says 8.00.</li><li>The slope is right but the intercept is wrong; adding 8 instead of &ndash;2 shifts the line up by 10.</li><li>Eliminated because it fails the first data point.</li></ul>"},{"id":"C","text":"\\(p = \\frac{10}{3}s - 2\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = 10 - 2 = 8\\). Matches. Test \\(s = 6\\): \\(P = 20 - 2 = 18\\). Matches. Test \\(s = 9\\): \\(P = 30 - 2 = 28\\). Matches.</li><li>Slope \\(\\frac{10}{3}\\) and intercept \\(-2\\) were derived directly from the table data.</li><li>That matches choice C &mdash; <strong>C</strong> is correct.</li></ul>"},{"id":"D","text":"\\(p = \\frac{3}{10}s - \\frac{1}{10}\\)","explanation":"<ul><li>Test \\(s = 3\\): \\(P = 0.9 - 0.1 = 0.8\\). The table says 8.00.</li><li>This slope \\(\\frac{3}{10}\\) is the reciprocal of the correct slope and is far too small.</li><li>Eliminated because all three table values are off by an order of magnitude.</li></ul>"}]}

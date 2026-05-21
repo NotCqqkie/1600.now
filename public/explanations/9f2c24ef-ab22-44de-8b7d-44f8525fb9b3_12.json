@@ -1,1 +1,15 @@
-{"questionId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_12", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Calculate the confidence interval from margin of error", "content": "The margin of error defines the range where the true population value plausibly lies. We calculate: lower bound = $8.5\\% - 2.73\\% = 5.77\\%$ and upper bound = $8.5\\% + 2.73\\% = 11.23\\%$.", "formula": "$$[\\text{estimate} - \\text{MOE}, \\text{estimate} + \\text{MOE}]$$"}, {"title": "Interpret the interval to identify the correct answer", "content": "The interval [5.77%, 11.23%] represents plausible values for the true defect rate. (A) incorrectly identifies 2.73% as the defect percentage. (C) gives only the point estimate 8.5%, ignoring uncertainty. (D) claims values above 11.23% are plausible, contradicting the upper bound.<br/><br/>The correct conclusion is that it is plausible the true defect rate is between 5.77% and 11.23%.<br/><br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "qid": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_12",
+  "steps": [
+    {
+      "explanation": "The point estimate is 8.5% and the margin of error is 2.73%. The confidence interval extends one margin of error in each direction from the estimate."
+    },
+    {
+      "explanation": "Lower bound: 8.5 - 2.73 = 5.77%. Upper bound: 8.5 + 2.73 = 11.23%. Any value in [5.77%, 11.23%] is plausible for the true defect rate."
+    },
+    {
+      "explanation": "<ul><li>A: 2.73% of the items are defective &mdash; 2.73% is the margin of error, not a defect rate estimate. Eliminated.</li><li>B: It is plausible that between 5.77% and 11.23% of the items are defective &mdash; This exactly describes the confidence interval derived above. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>C: 8.5% of the items are defective &mdash; This treats the estimate as exact, ignoring the margin of error entirely. Eliminated.</li><li>D: It is plausible that more than 11.23% are defective &mdash; 11.23% is the upper bound; values above it are not plausible given the interval. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "B"
+}

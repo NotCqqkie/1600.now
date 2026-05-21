@@ -1,15 +1,9 @@
 {
-  "questionId": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_12",
-  "correctAnswer": "B",
-  "section": "Math",
+  "qid": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_12",
   "steps": [
-    {
-      "title": "Identify the per-acre estimate",
-      "content": "The arborist estimates there are at least 50 and no more than 60 hickory trees per acre. This translates to an inequality:<br/>$$50 \\leq \\text{trees per acre} \\leq 60$$"
-    },
-    {
-      "title": "Scale the inequality for 3 acres",
-      "content": "To find the total number of trees in a 3-acre section, multiply all parts of the inequality by 3:<br/>$$50 \\times 3 \\leq x \\leq 60 \\times 3$$<br/>$$150 \\leq x \\leq 180$$<br/>This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
+    "The arborist estimates at least 50 and no more than 60 hickory trees per acre, so the density satisfies \\(50 \\leq \\text{trees per acre} \\leq 60\\).",
+    "For a 3-acre section, multiply every part of the inequality by 3: \\(50 \\times 3 = 150\\) and \\(60 \\times 3 = 180\\), giving \\(150 \\leq x \\leq 180\\).",
+    "Evaluate all four choices: <ul><li>A: \\(50 \\leq x \\leq 60\\) — these are the per-acre bounds, not scaled to 3 acres. Eliminated.</li><li>B: \\(150 \\leq x \\leq 180\\) — lower bound \\(50 \\times 3 = 150\\), upper bound \\(60 \\times 3 = 180\\). That matches choice B — <strong>B</strong> is correct.</li><li>C: \\(50 \\leq x \\leq 180\\) — lower bound is unscaled while upper bound is scaled; inconsistent. Eliminated.</li><li>D: \\(150 \\leq x \\leq 60\\) — lower bound is greater than upper bound, which is impossible. Eliminated.</li></ul>"
+  ],
+  "correctAnswer": "B"
 }

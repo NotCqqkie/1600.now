@@ -1,19 +1,18 @@
 {
-  "questionId": "dae126d7",
-  "correctAnswer": "D",
-  "section": "Math",
+  "qid": "dae126d7",
   "steps": [
     {
-      "title": "Identify the starting value",
-      "content": "At sea level ($x = 0$), the boiling point is 212\u00b0F. This is the $y$-intercept of the linear relationship."
+      "text": "Identify the starting value: at sea level ($x = 0$ feet), the boiling point is $212^{\\circ}$F. This is the constant term in the equation."
     },
     {
-      "title": "Find the slope from the given rate",
-      "content": "For every 550 feet above sea level, the boiling point drops by 1\u00b0F. The slope is therefore $-\\frac{1}{550}$ degrees per foot."
+      "text": "Determine the rate of change: for every 550 feet of altitude, the boiling point decreases by $1^{\\circ}$F. The rate is $-\\dfrac{1}{550}$ degrees per foot, so after $x$ feet the total decrease is $\\dfrac{x}{550}$ degrees."
     },
     {
-      "title": "Form the equation using slope and y-intercept",
-      "content": "For a linear relationship, $B = b + mx$, where $b = 212$ and $m = -\\frac{1}{550}$:<br/>$$B = 212 - \\frac{x}{550}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "text": "Form the equation: $B = 212 - \\dfrac{x}{550}$."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li>A: $B = 550 + \\dfrac{x}{212}$ — the constants are swapped and the sign is wrong; boiling point would increase with altitude. Eliminated.</li><li>B: $B = 550 - \\dfrac{x}{212}$ — constants are swapped entirely; starts at 550 instead of 212. Eliminated.</li><li>C: $B = 212 + \\dfrac{x}{550}$ — starts correctly at 212 but adds instead of subtracts, so boiling point would rise with altitude. Eliminated.</li><li>D: $B = 212 - \\dfrac{x}{550}$ — starts at 212 and decreases by $\\dfrac{x}{550}$ for every $x$ feet above sea level. That matches choice D — <strong>D</strong> is correct.</li></ul>"
     }
-  ]
+  ],
+  "correctAnswer": "D"
 }

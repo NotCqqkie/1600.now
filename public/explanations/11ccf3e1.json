@@ -1,15 +1,1 @@
-{
-  "questionId": "11ccf3e1",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate the term with k",
-      "content": "We have $14j + 5k = m$. To isolate the term with $k$, subtract $14j$ from both sides.<br/>$$5k = m - 14j$$"
-    },
-    {
-      "title": "Divide to solve for k",
-      "content": "Now divide both sides by 5.<br/>$$k = \\frac{m - 14j}{5}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "11ccf3e1", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Isolate the term containing k", "content": "Start with \\(14j + 5k = m\\). Subtract \\(14j\\) from both sides: \\(5k = m - 14j\\)."}, {"title": "Solve for k", "content": "Divide both sides by 5: \\(k = \\dfrac{m - 14j}{5}\\).<ul><li><strong>A (\\(k = \\frac{m - 14j}{5}\\)):</strong> Matches exactly. That matches choice A &mdash; <strong>A</strong> is correct.</li><li><strong>B (\\(k = \\frac{1}{5}m - 14j\\)):</strong> Only \\(m\\) is divided by 5; \\(14j\\) should also be divided by 5 &mdash; wrong.</li><li><strong>C (\\(k = \\frac{14j - m}{5}\\)):</strong> Numerator is negated; subtracting \\(14j\\) gives \\(m - 14j\\), not \\(14j - m\\) &mdash; wrong sign.</li><li><strong>D (\\(k = 5m - 14j\\)):</strong> Multiplies \\(m\\) by 5 instead of dividing &mdash; wrong operation.</li></ul>"}]}

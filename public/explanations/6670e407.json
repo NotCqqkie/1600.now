@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read data from the table",
-      "content": "From the table for years 2008\u20132012:<br/><strong>Foothill:</strong> 87, 80, 75, 76, 70<br/><strong>Valley:</strong> 44, 54, 65, 76, 82"
+      "title": "Read the table values",
+      "content": "From the table for years 2008&ndash;2012:<br/><strong>Foothill:</strong> 87, 80, 75, 76, 70<br/><strong>Valley:</strong> 44, 54, 65, 76, 82"
     },
     {
-      "title": "Calculate and compare means",
-      "content": "<strong>Foothill mean:</strong> $$\\frac{87+80+75+76+70}{5} = \\frac{388}{5} = 77.6$$<br/><strong>Valley mean:</strong> $$\\frac{44+54+65+76+82}{5} = \\frac{321}{5} = 64.2$$<br/>Since 77.6 > 64.2, Statement I is <strong>true</strong>."
+      "title": "Evaluate Statement I &mdash; compare the means",
+      "content": "Foothill mean: $$\\frac{87+80+75+76+70}{5}=\\frac{388}{5}=77.6$$<br/>Valley mean: $$\\frac{44+54+65+76+82}{5}=\\frac{321}{5}=64.2$$<br/>77.6 &gt; 64.2, so Statement I is <strong>true</strong>."
     },
     {
-      "title": "Find and compare medians",
-      "content": "With 5 values, the median is the middle (3rd) value when ordered.<br/><strong>Foothill ordered:</strong> 70, 75, <strong>76</strong>, 80, 87<br/><strong>Valley ordered:</strong> 44, 54, <strong>65</strong>, 76, 82<br/>Foothill median = 76; Valley median = 65. Since 76 > 65, Statement II is true. Both statements are true, so that matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Evaluate Statement II &mdash; compare the medians",
+      "content": "Order each set to find the middle (3rd) value:<br/><strong>Foothill:</strong> 70, 75, <strong>76</strong>, 80, 87 &rarr; median = 76<br/><strong>Valley:</strong> 44, 54, <strong>65</strong>, 76, 82 &rarr; median = 65<br/>76 &gt; 65, so Statement II is <strong>true</strong>."
+    },
+    {
+      "title": "Choose the answer",
+      "content": "<ul><li>A (I only): Statement I is true, but Statement II is also true. Eliminated.</li><li>B (II only): Statement II is true, but Statement I is also true. Eliminated.</li><li>C (I and II): Both statements are true. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D (Neither I nor II): Both are true. Eliminated.</li></ul>"
     }
   ]
 }

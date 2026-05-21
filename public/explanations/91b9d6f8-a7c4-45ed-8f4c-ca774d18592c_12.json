@@ -1,15 +1,1 @@
-{
-  "questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_12",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Break down the cost structure",
-      "content": "The rental breaks into two parts: \\$850 for the first 2 hours (a fixed amount) and \\$30 per additional hour for each hour beyond those first 2 hours. With $t$ total hours and $t > 2$, the additional hours are $(t-2)$."
-    },
-    {
-      "title": "Write the total cost equation",
-      "content": "The total cost equals the fixed part plus the variable part:<br/>$$850 + 30(t-2)$$<br/>Since the total is \\$1,030:<br/>$$850 + 30(t-2) = 1,030$$<br/>That matches choice C — <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_12", "correctAnswer": "C", "section": "Math", "steps": ["The rental cost has two parts: a flat fee of \\$850 for the first 2 hours, plus \\$30 for each additional hour beyond those 2 hours.", "With \\(t\\) total hours (\\(t > 2\\)), the extra hours are \\((t - 2)\\). Total cost = \\(850 + 30(t - 2)\\). Setting this equal to \\$1,030: \\(850 + 30(t - 2) = 1{,}030\\).", "Verify structure: the \\$850 is fixed, not multiplied by \\(t\\) or \\(2t\\). The extra charge applies only to hours beyond 2, i.e., \\((t-2)\\) hours, not \\(2t\\) hours.", "<ul><li><strong>A</strong> \\(850(t - 2) + 30t = 1{,}030\\): multiplies the flat fee by \\((t-2)\\), which is incorrect. Eliminated.</li><li><strong>B</strong> \\(850(2t) + 30t = 1{,}030\\): multiplies the flat fee by \\(2t\\), which is incorrect. Eliminated.</li><li><strong>C</strong> \\(850 + 30(t - 2) = 1{,}030\\): flat \\$850 plus \\$30 per extra hour ✓. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D</strong> \\(850 + 30(2t) = 1{,}030\\): uses \\(2t\\) instead of \\((t - 2)\\) for the extra hours. Eliminated.</li></ul>"]}

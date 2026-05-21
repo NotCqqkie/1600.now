@@ -1,1 +1,18 @@
-{"questionId": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_12", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Write the product as an expression", "content": "The function multiplies $x$ by a number that is $91$ more than $x$, i.e., $x+91$.<br/>So $$f(x)=x(x+91)=x^2+91x.$$"}, {"title": "Match the expression to the answer choices", "content": "Checking each choice, only C gives the product of $x$ and $x+91$.<br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "qid": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_12",
+  "steps": [
+    {
+      "text": "Translate the word description: $f$ gives the product of $x$ and a number that is $91$ more than $x$. The second factor is $x + 91$."
+    },
+    {
+      "text": "Write the product: $f(x) = x(x + 91)$."
+    },
+    {
+      "text": "Expand by distributing: $f(x) = x \\cdot x + x \\cdot 91 = x^2 + 91x$."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li>A: $f(x) = x^2 + x + 91$ — has an extra $+91$ constant and uses $+x$ instead of $+91x$. This is not the product of $x$ and $x+91$. Eliminated.</li><li>B: $f(x) = x^2 + 91$ — missing the $91x$ term; this would equal $x^2$ plus a constant, not a product of two linear expressions in $x$. Eliminated.</li><li>C: $f(x) = x^2 + 91x$ — matches $x(x+91)$ exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D: $f(x) = x^2 + 91x + 91$ — has an extra constant $+91$ that doesn&quot;t appear in the product. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "C"
+}

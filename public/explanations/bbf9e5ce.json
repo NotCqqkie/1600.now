@@ -1,15 +1,1 @@
-{
-  "questionId": "bbf9e5ce",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the fixed and variable costs",
-      "content": "The first 25 people cost: $$25 \\times 21 = 525 \\text{ dollars}$$<br/>The remaining $(n - 25)$ people cost \\$14 each.<br/>Combining both parts:<br/>$$f(n) = 525 + 14(n - 25)$$"
-    },
-    {
-      "title": "Expand and simplify the formula",
-      "content": "Distribute the 14:<br/>$$f(n) = 525 + 14n - 350$$<br/>Combine constants:<br/>$$f(n) = 14n + 175$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"qid": "bbf9e5ce", "correctAnswer": "A", "steps": [{"explanation": "Calculate the fixed cost for the first 25 people. At \\$21 each: \\(25 \\times 21 = 525\\) dollars. This amount is fixed for any group of 25 or more."}, {"explanation": "Calculate the variable cost for the additional people. For \\(n \\ge 25\\), there are \\(n - 25\\) additional people beyond the first 25, each costing \\$14. Variable cost: \\(14(n-25)\\)."}, {"explanation": "Combine: \\(f(n) = 525 + 14(n-25) = 525 + 14n - 350 = 14n + 175\\)."}, {"explanation": "Evaluate each choice.<ul><li>Choice A: \\(f(n) = 14n + 175\\) — matches our derived formula exactly. This is the answer.</li><li>Choice B: \\(f(n) = 14n + 525\\) — uses the full fixed cost of 525 without subtracting \\(14 \\times 25 = 350\\), double-counting the first 25 people at \\$14 each. Eliminate B.</li><li>Choice C: \\(f(n) = 35n - 350\\) — uses 35 as the per-person rate, which does not match either \\$21 or \\$14. Eliminate C.</li><li>Choice D: \\(f(n) = 14n + 21\\) — the constant 21 is just the per-person rate for the first tier, not the total charge for 25 people. Eliminate D.</li></ul>That matches choice A — <strong>A</strong> is correct."}]}

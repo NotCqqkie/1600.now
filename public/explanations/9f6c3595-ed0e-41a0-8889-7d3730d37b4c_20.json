@@ -1,15 +1,1 @@
-{
-  "questionId": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_20",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate Jupiter's weight from the given percentage",
-      "content": "Weight on Jupiter is 252.8% of weight on Earth. Convert the percentage to a decimal and multiply:<br/>$$\\text{Weight on Jupiter} = 2.528 \\times 170 = 429.76 \\text{ pounds}$$"
-    },
-    {
-      "title": "Find x: Neptune weight as a percentage of Jupiter weight",
-      "content": "Set up the equation: Neptune weight = x% of Jupiter weight.<br/>$$186.32 = \\frac{x}{100} \\times 429.76$$<br/>Solve for x by multiplying both sides by 100 and dividing by 429.76:<br/>$$x = \\frac{186.32}{429.76} \\times 100 = 0.4335 \\times 100 = 43.35$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"qid": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_20", "steps": [{"explanation": "Find the object's weight on Jupiter. Jupiter's weight is $252.8\\%$ of its Earth weight: $$\\text{Jupiter} = 2.528 \\times 170.00 = 429.76 \\text{ pounds}$$"}, {"explanation": "Set up the equation for $x$, the percentage that Neptune's weight is of Jupiter's weight: $$186.32 = \\frac{x}{100} \\times 429.76$$"}, {"explanation": "Solve for $x$: $$x = \\frac{186.32}{429.76} \\times 100 \\approx 0.43355 \\times 100 \\approx 43.35$$", "choices": ["<li>Choice A: $43.35$ — matches the computed value of $\\frac{186.32}{429.76} \\times 100$. That matches choice A — <strong>A</strong> is correct.</li>", "<li>Choice B: $71.73$ — this would result from dividing Neptune's weight by Earth's weight $(186.32 / 170 \\times 100 \\approx 109.6)$, or from a different incorrect setup. Eliminated.</li>", "<li>Choice C: $277.07$ — this is larger than 100, which would mean Neptune is heavier than Jupiter; that contradicts the given data. Eliminated.</li>", "<li>Choice D: $429.76$ — this is Jupiter's weight in pounds, not a percentage ratio. Eliminated.</li>"]}], "correctAnswer": "A"}

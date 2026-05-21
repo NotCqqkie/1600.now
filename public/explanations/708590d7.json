@@ -1,1 +1,18 @@
-{"questionId": "708590d7", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Calculate the mean of data set A", "content": "Data set A contains: 1, 2, 3, 4, 5, 6, 7. To find the mean, sum all values and divide by the count:<br/>$$\\text{Sum} = 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28$$<br/>$$\\text{Mean of A} = \\frac{28}{7} = 4$$"}, {"title": "Calculate the mean of data set B", "content": "Data set B contains: 1, 1, 2, 2, 3, 3, 4. Sum all values and divide by the count:<br/>$$\\text{Sum} = 1 + 1 + 2 + 2 + 3 + 3 + 4 = 16$$<br/>$$\\text{Mean of B} = \\frac{16}{7} \\approx 2.29$$"}, {"title": "Compare the means", "content": "Mean of A = 4 and Mean of B = $\\frac{16}{7} \\approx 2.29$. Since $4 > 2.29$, the mean of data set A is greater than the mean of data set B. That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "qid": "708590d7",
+  "steps": [
+    {
+      "explanation": "Compute the mean of data set A: 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28. There are 7 values, so mean A = 28 &divide; 7 = 4."
+    },
+    {
+      "explanation": "Compute the mean of data set B: 1 + 1 + 2 + 2 + 3 + 3 + 4 = 16. There are 7 values, so mean B = 16 &divide; 7 &asymp; 2.29."
+    },
+    {
+      "explanation": "Compare: mean A = 4 &gt; mean B &asymp; 2.29. The mean of data set A is greater than the mean of data set B."
+    },
+    {
+      "explanation": "Evaluate all choices:<ul><li>A: Both means equal 2. Mean A = 4 and mean B &asymp; 2.29; neither equals 2. Eliminated.</li><li>B: Both means equal 4. Mean B &asymp; 2.29, not 4. Eliminated.</li><li>C: Mean A &lt; mean B. Mean A = 4 &gt; mean B &asymp; 2.29, so this is backwards. Eliminated.</li><li>D: Mean A &gt; mean B. Mean A = 4 and mean B &asymp; 2.29, so A&apos;s mean is greater. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+    }
+  ],
+  "correctAnswer": "D"
+}

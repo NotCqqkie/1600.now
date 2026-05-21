@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize doubling as exponential growth",
-      "content": "When bacteria double each hour, the population multiplies by 2 each time.<br/>After 1 hour: $44,000 \\cdot 2$<br/>After 2 hours: $44,000 \\cdot 2^2$<br/>After $t$ hours: $44,000 \\cdot 2^t$"
+      "title": "Identify the growth model",
+      "content": "The bacteria double every hour. Doubling means the count is multiplied by 2 for each hour that passes. Starting from 44,000:<br/>After 1 hr: $$44,000 \\cdot 2$$<br/>After 2 hrs: $$44,000 \\cdot 2^2$$<br/>After $t$ hrs: $$y = 44,000 \\cdot 2^t$$"
     },
     {
-      "title": "Match the formula to an answer choice",
-      "content": "Rewriting with standard notation:<br/>$$y = 44,000(2)^t$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong structures",
+      "content": "In exponential growth $y = a \\cdot b^t$, the <em>base</em> is the growth factor (2) and the <em>coefficient</em> is the starting amount (44,000). Any formula that swaps these roles or uses $\\frac{1}{2}$ as the base would model decay, not growth."
+    },
+    {
+      "title": "Match to the choices",
+      "content": "<ul><li>A: $y=\\frac{1}{2}(44,000)^t$ &mdash; base is 44,000, coefficient is $\\frac{1}{2}$. Both roles are wrong. Eliminated.</li><li>B: $y=2(44,000)^t$ &mdash; base is 44,000, not 2. Wrong structure. Eliminated.</li><li>C: $y=44,000\\left(\\frac{1}{2}\\right)^t$ &mdash; coefficient is correct but base $\\frac{1}{2}$ models halving (decay), not doubling. Eliminated.</li><li>D: $y=44,000(2)^t$ &mdash; coefficient 44,000 is the initial count, base 2 is the doubling factor. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

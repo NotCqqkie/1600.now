@@ -1,15 +1,15 @@
 {
-  "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
-  "correctAnswer": "A",
-  "section": "Math",
+  "qid": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_1",
   "steps": [
     {
-      "title": "Identify the equation structure",
-      "content": "The equation $20h + 14c = 716$ shows two income sources: $h$ hours at the regular job (multiplied by 20) and $c$ hours at the second job (multiplied by 14), totaling 716 dollars."
+      "explanation": "Identify the variables: h = hours at regular job, c = hours at second job. The equation 20h + 14c = 716 expresses total weekly earnings in dollars."
     },
     {
-      "title": "Determine what 20 represents",
-      "content": "Since $h$ is measured in hours and $20h$ is part of a sum equaling dollars, 20 must convert hours to dollars\u2014it's an hourly rate. Specifically, since $h$ is hours at the regular job, 20 is the hourly earnings at the regular job. That matches choice A \u2014 <strong>A</strong> is correct."
+      "explanation": "In the term 20h, the units of h are hours and the product 20h must be in dollars. So 20 has units of dollars per hour &mdash; it is the hourly rate for the regular job."
+    },
+    {
+      "explanation": "Evaluate all choices:<ul><li>A: The amount, in dollars, the technician earned for each hour she worked at her regular job. The coefficient of h (regular-job hours) is 20, representing \\$20 per hour at the regular job. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: The amount per hour at the second job. The second-job rate is 14 (the coefficient of c), not 20. Eliminated.</li><li>C: The number of hours worked at the regular job. The number of hours at the regular job is h, the variable, not the constant 20. Eliminated.</li><li>D: The number of hours worked at the second job. The number of hours at the second job is c. Eliminated.</li></ul>"
     }
-  ]
+  ],
+  "correctAnswer": "A"
 }

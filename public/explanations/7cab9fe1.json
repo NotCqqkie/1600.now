@@ -1,15 +1,15 @@
 {
-  "questionId": "7cab9fe1",
-  "correctAnswer": "A",
-  "section": "Math",
+  "qid": "7cab9fe1",
   "steps": [
     {
-      "title": "Interpret percentage increase",
-      "content": "Increasing a quantity by 43% means keeping 100% of it and adding 43%. The total is: $$100\\% + 43\\% = 143\\%$$"
+      "explanation": "Increasing w by 43% means adding 43% of w to the original: w + 0.43w."
     },
     {
-      "title": "Convert to decimal and apply to w",
-      "content": "Convert 143% to decimal form: $$143\\% = \\frac{143}{100} = 1.43$$ Multiplying the quantity $w$ by this gives $1.43w$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "explanation": "Factoring: w + 0.43w = w(1 + 0.43) = 1.43w."
+    },
+    {
+      "explanation": "<ul><li>A: 1.43w &mdash; 1 + 0.43 = 1.43, so 1.43w represents w increased by 43%. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>B: 0.57w &mdash; This equals w decreased by 43% (1 - 0.43 = 0.57), the opposite operation. Eliminated.</li><li>C: 43w &mdash; This multiplies w by 43, a 4300% increase, not 43%. Eliminated.</li><li>D: 0.43w &mdash; This is just 43% of w, not w increased by 43%. Eliminated.</li></ul>"
     }
-  ]
+  ],
+  "correctAnswer": "A"
 }

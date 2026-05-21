@@ -1,16 +1,1 @@
-{
-  "questionId": "a255ae72",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given expressions and simplify",
-      "content": "Given $x^2 = a + b$ and $y^2 = a + c$:\n$$x^2 - y^2 = (a + b) - (a + c) = b - c$$\nThe $a$ terms cancel, leaving just $b - c$."
-    },
-    {
-      "title": "Square the difference and identify the answer",
-      "content": "We need $(x^2 - y^2)^2 = (b - c)^2$.\n\nApplying the perfect square formula with $p = b$ and $q = c$:\n$$(b - c)^2 = b^2 - 2bc + c^2$$\n\nThat matches choice B \u2014 <strong>B</strong> is correct.",
-      "formula": "$(p - q)^2 = p^2 - 2pq + q^2$"
-    }
-  ]
-}
+{"qid": "a255ae72", "correctAnswer": "B", "steps": [{"explanation": "Compute \\(x^2 - y^2\\) using substitution. Given \\(x^2 = a + b\\) and \\(y^2 = a + c\\): \\(x^2 - y^2 = (a + b) - (a + c) = b - c\\). The \\(a\\) terms cancel."}, {"explanation": "Square the result: \\((x^2 - y^2)^2 = (b - c)^2\\)."}, {"explanation": "Expand using the perfect square formula \\((p - q)^2 = p^2 - 2pq + q^2\\): \\((b - c)^2 = b^2 - 2bc + c^2\\)."}, {"explanation": "Evaluate each choice.<ul><li>Choice A: \\(a^2 - 2ac + c^2\\) — this would be \\((a - c)^2\\), but \\(a\\) cancels out when computing \\(x^2 - y^2\\). No \\(a\\) should appear. Eliminate A.</li><li>Choice B: \\(b^2 - 2bc + c^2\\) — this is exactly \\((b - c)^2\\), matching our derivation. This is correct.</li><li>Choice C: \\(4a^2 - 4abc + c^2\\) — contains \\(a\\) terms and mixed coefficients inconsistent with \\((b-c)^2\\). Eliminate C.</li><li>Choice D: \\(4a^2 - 2abc + b^2c^2\\) — contains \\(a\\) and a product \\(b^2c^2\\) which cannot come from \\((b-c)^2\\). Eliminate D.</li></ul>That matches choice B — <strong>B</strong> is correct."}]}

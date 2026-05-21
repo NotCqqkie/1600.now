@@ -1,19 +1,18 @@
 {
-  "questionId": "35bd5fb1-7659-4393-b736-241352b7187e_19",
-  "correctAnswer": "D",
-  "section": "Math",
+  "qid": "35bd5fb1-7659-4393-b736-241352b7187e_19",
   "steps": [
     {
-      "title": "Find actual distance represented by original map",
-      "content": "The original map\u2019s side length is 30 inches, and each inch represents 17 miles, so the actual distance represented by the whole side is $$30 \\times 17 = 510$$ miles."
+      "explanation": "The original map side is 30 inches, and 1 inch represents 17 miles. The full 30-inch side represents 30 \\times 17 = 510 actual miles."
     },
     {
-      "title": "Compute side length of smaller map",
-      "content": "The smaller map\u2019s side length is 65% shorter, meaning it retains only 35% of the original: $$30 \\times (1 - 0.65) = 30 \\times 0.35 = 10.5$$ inches."
+      "explanation": "The smaller map is 65% shorter, so it keeps only 35% of the original side length: 30 \\times 0.35 = 10.5 inches. That same 510 actual miles is now compressed into 10.5 inches."
     },
     {
-      "title": "Determine miles per inch on smaller map",
-      "content": "The same actual distance (510 miles) is now shown on 10.5 inches, so one inch on the smaller map represents $$\\frac{510}{10.5} \\approx 48.57$$ miles. That matches choice D \u2014 <strong>D</strong> is correct."
+      "explanation": "The new scale is 510 \\div 10.5 \\approx 48.57 miles per inch."
+    },
+    {
+      "explanation": "<ul><li>A: 5.95 &mdash; This is less than the original 17 miles per inch, but a shorter map must represent more miles per inch, not fewer. Eliminated.</li><li>B: 10.30 &mdash; Also less than 17; same reasoning rules this out. Eliminated.</li><li>C: 19.50 &mdash; Larger than 17 but far smaller than 510 &divide; 10.5. Eliminated.</li><li>D: 48.57 &mdash; 510 &divide; 10.5 &asymp; 48.57. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
-  ]
+  ],
+  "correctAnswer": "D"
 }

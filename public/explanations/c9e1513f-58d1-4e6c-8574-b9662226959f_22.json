@@ -1,1 +1,18 @@
-{"questionId":"c9e1513f-58d1-4e6c-8574-b9662226959f_22","correctAnswer":"C","section":"Math","steps":[{"title":"Identify both data sets from the plots","content":"Set A's dot plot has mean $10\\,\\mu\\text{F}$ and range $12\\,\\mu\\text{F}$. Set B shifts every value up by $14\\,\\mu\\text{F}$."},{"title":"Compute the relevant statistic for each","content":"Adding a constant shifts the mean by that constant but leaves the range unchanged: $$\\text{mean}_B = 10 + 14 = 24, \\quad \\text{range}_B = 12.$$"},{"title":"Compare and conclude","content":"So mean $24\\,\\mu\\text{F}$, range $12\\,\\mu\\text{F}$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."}]}
+{
+  "qid": "c9e1513f-58d1-4e6c-8574-b9662226959f_22",
+  "steps": [
+    {
+      "explanation": "From the dot plot, set A has mean 10 \\mu\\text{F} and range 12 \\mu\\text{F}. Every capacitor in set B is 14 \\mu\\text{F} greater than the corresponding capacitor in set A."
+    },
+    {
+      "explanation": "Adding a constant to every data value shifts the mean by that constant: mean of B = 10 + 14 = 24 \\mu\\text{F}."
+    },
+    {
+      "explanation": "Range = maximum &minus; minimum. Adding the same constant to every value increases both max and min by 14, so their difference stays the same: range of B = 12 \\mu\\text{F}."
+    },
+    {
+      "explanation": "<ul><li>A: Mean 10 \\mu\\text{F}, range 12 \\mu\\text{F} &mdash; The mean is unchanged from set A, but adding 14 to every value must shift the mean up by 14. Eliminated.</li><li>B: Mean 10 \\mu\\text{F}, range 26 \\mu\\text{F} &mdash; Both values are wrong; the mean is unshifted and the range is inflated. Eliminated.</li><li>C: Mean 24 \\mu\\text{F}, range 12 \\mu\\text{F} &mdash; Mean shifts by 14 (10 + 14 = 24) and range is unchanged. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>D: Mean 24 \\mu\\text{F}, range 26 \\mu\\text{F} &mdash; Mean is correct but range incorrectly doubles the shift (12 + 14 = 26). Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "C"
+}

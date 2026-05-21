@@ -1,19 +1,15 @@
 {
-  "questionId": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12",
+  "qid": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_12",
   "correctAnswer": "A",
-  "section": "Math",
   "steps": [
     {
-      "title": "Identify the constraint direction from 'at most'",
-      "content": "The phrase <em>at most 150 inches</em> means the perimeter cannot exceed 150. This translates to a $\\leq$ inequality, not $\\geq$. This eliminates choices B and D immediately."
+      "text": "Write the perimeter formula for a rectangle: \\(P = 2(\\text{length} + \\text{width})\\). With length = 55 and width = \\(x\\): \\(P = 2(55 + x) = 110 + 2x\\)."
     },
     {
-      "title": "Set up the perimeter formula with given dimensions",
-      "content": "For a rectangle:<ul><li>Length $L = 55$ inches</li><li>Width $W = x$ inches</li></ul>The perimeter is $P = 2L + 2W = 2(55) + 2x = 2x + 110$."
+      "text": "&quot;At most 150 inches&quot; means the perimeter is less than or equal to 150, so the inequality is \\(2x + 110 \\leq 150\\)."
     },
     {
-      "title": "Apply the constraint and match the answer choice",
-      "content": "Since the perimeter is at most 150 inches:<br/>$$2x + 110 \\leq 150$$<br/>That matches choice A — <strong>A</strong> is correct."
+      "text": "Evaluate all choices:<ul><li>A: \\(2x + 110 \\leq 150\\) — matches the perimeter expression with the correct &le; sign for &quot;at most.&quot; That matches choice A — <strong>A</strong> is correct.</li><li>B: \\(2x + 110 \\geq 150\\) — &ge; means &quot;at least,&quot; not &quot;at most.&quot; Eliminated.</li><li>C: \\(x + 55 \\leq 150\\) — omits the factor of 2; this is only half the perimeter. Eliminated.</li><li>D: \\(x + 55 \\geq 150\\) — wrong sign and wrong perimeter expression. Eliminated.</li></ul>"
     }
   ]
 }

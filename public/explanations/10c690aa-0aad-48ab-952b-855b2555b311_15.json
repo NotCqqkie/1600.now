@@ -1,1 +1,18 @@
-{"questionId": "10c690aa-0aad-48ab-952b-855b2555b311_15", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Evaluate K(24) directly", "content": "$K(v) = \\frac{7}{2} v^2$<br/>Substitute $v = 24$:\\<br/>$$K(24) = \\frac{7}{2} (24)^2$$."}, {"title": "Calculate K(24)", "content": "$$K(24) = \\frac{7}{2} \\cdot 576 = \\frac{3968}{2} = 1,960 + 56 = 2,016$$ joules.<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "qid": "10c690aa-0aad-48ab-952b-855b2555b311_15",
+  "steps": [
+    {
+      "text": "The function is \\(K(v) = \\frac{7}{2}v^2\\), where \\(v\\) is speed in meters per second and \\(K(v)\\) is kinetic energy in joules. The notation \\(K(24) = 2{,}016\\) means the input to the function is \\(v = 24\\) and the output is \\(K = 2{,}016\\)."
+    },
+    {
+      "text": "Verify: \\(K(24) = \\frac{7}{2}(24)^2 = \\frac{7}{2}(576) = 7 \\times 288 = 2{,}016\\). Confirmed."
+    },
+    {
+      "text": "The input \\(v = 24\\) represents a speed of 24 meters per second, and the output \\(K = 2{,}016\\) represents a kinetic energy of 2,016 joules."
+    },
+    {
+      "text": "<ul><li>Choice A: &quot;The object traveling at 24 meters per second has a kinetic energy of 2,016 joules.&quot; This matches \\(v = 24\\) and \\(K = 2{,}016\\) exactly. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: &quot;The object traveling at 240 meters per second has a kinetic energy of 2,016 joules.&quot; The speed is 24, not 240. Eliminated.</li><li>Choice C: &quot;The object traveling at 2,016 meters per second has a kinetic energy of 24 joules.&quot; The roles of input and output are reversed. Eliminated.</li><li>Choice D: &quot;The object traveling at 7,056 meters per second has a kinetic energy of 24 joules.&quot; Neither value corresponds to the function notation correctly. Eliminated.</li></ul>"
+    }
+  ],
+  "correctAnswer": "A"
+}

@@ -1,23 +1,18 @@
 {
-  "questionId": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14",
+  "qid": "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14",
   "correctAnswer": "C",
-  "section": "Math",
   "steps": [
     {
-      "title": "Find JL using the midpoint condition",
-      "content": "Since $K$ is the midpoint of $\\overline{JL}$, the two halves are equal: $JK = KL$. Given that $KL = 13$ units, we have $JL = JK + KL = 13 + 13 = 26$ units."
+      "explanation": "Since \\(K\\) is the midpoint of \\(\\overline{JL}\\), we have \\(JK = KL = 13\\), so \\(JL = 26\\) units."
     },
     {
-      "title": "Determine the radius using the semicircle's center",
-      "content": "The problem states that $\\overline{LM}$ is a radius of semicircle $L$, meaning $L$ is the center. Since $\\overline{JM}$ is the diameter, the center $L$ must be its midpoint. Therefore, the distance from the center to each endpoint equals the radius: $LM = JL = 26$ units."
+      "explanation": "\\(\\overline{LM}\\) is a radius and \\(\\overline{JM}\\) is the diameter of semicircle \\(L\\), meaning \\(L\\) is the center. So \\(LM = r\\) and \\(JM = 2r\\). Since \\(JM = JL + LM\\), we get \\(2r = 26 + r\\), giving \\(r = 26\\) units."
     },
     {
-      "title": "Calculate the rectangle dimensions and area",
-      "content": "The rectangle has corners at $K$, $M$, $N$, and $O$. Its width is the distance along the top edge: $$KM = KL + LM = 13 + 26 = 39 \\text{ units}$$<br/>Its height is the right edge: $MN = 14$ units (given). The rectangle area is $$39 \\times 14 = 546 \\text{ square units}$$"
+      "explanation": "The figure consists of a rectangle and a semicircle. The rectangle&apos;s base runs from \\(K\\) to \\(M\\): \\(KM = KL + LM = 13 + 26 = 39\\) units. Its height is \\(MN = 14\\) units. Rectangle area \\(= 39 \\times 14 = 546\\) square units."
     },
     {
-      "title": "Calculate the semicircle area and total",
-      "content": "The semicircle has radius $r = 26$, so its area is $$\\frac{1}{2}\\pi r^2 = \\frac{1}{2}\\pi(26)^2 = \\frac{1}{2}\\pi(676) = 338\\pi \\text{ square units}$$<br/>The total area of the figure is $$546 + 338\\pi \\text{ square units}$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "explanation": "Semicircle area with radius 26: \\(\\frac{1}{2}\\pi(26)^2 = \\frac{676\\pi}{2} = 338\\pi\\) square units. Total figure area \\(= 546 + 338\\pi\\).<ul><li>\\(546 + 676\\pi\\): Uses the full circle area instead of semicircle. Eliminated.</li><li>\\(364 + 676\\pi\\): Wrong rectangle base and full circle. Eliminated.</li><li>\\(546 + 338\\pi\\): Correct rectangle (39&times;14) and correct semicircle. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>\\(364 + 338\\pi\\): Rectangle base of 26 instead of 39 (missing KL). Eliminated.</li></ul>"
     }
   ]
 }

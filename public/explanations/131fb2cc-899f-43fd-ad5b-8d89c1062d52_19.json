@@ -1,15 +1,1 @@
-{
-  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_19",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Isolate b\u00b2 by rearranging",
-      "content": "Start with the equation:<br/>$$b^2 + 5c = 3d$$<br/>Subtract $5c$ from both sides to isolate the term with $b$:<br/>$$b^2 = 3d - 5c$$"
-    },
-    {
-      "title": "Solve for b by taking the square root",
-      "content": "Since $b^2 = 3d - 5c$, take the square root of both sides. A square root produces two results (positive and negative):<br/>$$b = \\pm\\sqrt{3d - 5c}$$<br/>The constraint $d > \\frac{5}{3}c$ ensures that $3d > 5c$, so the radicand is positive and real solutions exist.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"qid": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_19", "correctAnswer": "C", "steps": [{"explanation": "Start with the given equation: \\(b^2 + 5c = 3d\\). Subtract \\(5c\\) from both sides to isolate \\(b^2\\): \\(b^2 = 3d - 5c\\)."}, {"explanation": "Check that the radicand is positive. The constraint \\(d &gt; \\frac{5}{3}c\\) means \\(3d &gt; 5c\\), so \\(3d - 5c &gt; 0\\). A real square root exists."}, {"explanation": "Solve for \\(b\\) by taking the square root of both sides. Because \\(b\\) is a real number (not specified positive), both signs are valid: \\(b = \\pm\\sqrt{3d - 5c}\\)."}, {"explanation": "Evaluate each choice.<ul><li>Choice A: \\(b = \\frac{3d - 5c}{2}\\) — divides by 2 instead of taking a square root. This does not come from \\(b^2 = 3d - 5c\\). Eliminate A.</li><li>Choice B: \\(b = \\frac{3d + 5c}{2}\\) — adds \\(5c\\) instead of subtracting, and divides by 2. Neither step is algebraically valid here. Eliminate B.</li><li>Choice C: \\(b = \\pm\\sqrt{3d - 5c}\\) — correct: isolate \\(b^2\\) by subtracting \\(5c\\), then take the square root with both signs.</li><li>Choice D: \\(b = \\pm\\sqrt{3d + 5c}\\) — uses \\(+5c\\) under the radical, which would come from adding \\(5c\\) to both sides instead of subtracting. Eliminate D.</li></ul>That matches choice C — <strong>C</strong> is correct."}]}

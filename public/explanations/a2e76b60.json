@@ -1,16 +1,9 @@
 {
-  "questionId": "a2e76b60",
-  "correctAnswer": "C",
-  "section": "Math",
+  "qid": "a2e76b60",
   "steps": [
-    {
-      "title": "Calculate the total volume of the cylindrical can",
-      "content": "The volume of a cylinder is found by multiplying the base area by the height. With a base area of 75 cm\u00b2 and height of 10 cm:\n\n$$V_{\\text{can}} = 75 \\times 10 = 750 \\text{ cm}^3$$",
-      "formula": "$$V = \\text{base area} \\times \\text{height}$$"
-    },
-    {
-      "title": "Subtract the syrup volume to find the fruit volume",
-      "content": "The can is filled to the top with both syrup and fruit. If 110 cm\u00b3 of syrup occupies part of the 750 cm\u00b3 total, then the pieces of fruit occupy the remaining volume:\n\n$$V_{\\text{fruit}} = V_{\\text{can}} - V_{\\text{syrup}} = 750 - 110 = 640 \\text{ cm}^3$$\n\nThat matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
+    "Find the total volume of the cylindrical can using \\(V = \\text{base area} \\times \\text{height} = 75 \\times 10 = 750\\) cm\\(^3\\).",
+    "The can is filled with fruit pieces and then syrup is poured in to fill it completely to the top. The syrup occupies the space not taken by fruit: \\(V_{\\text{fruit}} = V_{\\text{can}} - V_{\\text{syrup}} = 750 - 110 = 640\\) cm\\(^3\\).",
+    "Evaluate each answer choice:<ul><li>Choice A: 7.5 cm\\(^3\\) — this would result from dividing 75 by 10, not using the correct formula. Eliminated.</li><li>Choice B: 185 cm\\(^3\\) — this would result from adding 75 and 110, which has no physical meaning here. Eliminated.</li><li>Choice C: 640 cm\\(^3\\) — equals \\(750 - 110\\), the total can volume minus the syrup. That matches choice C — <strong>C</strong> is correct.</li><li>Choice D: 750 cm\\(^3\\) — this is the total can volume, not the fruit volume alone. Eliminated.</li></ul>"
+  ],
+  "correctAnswer": "C"
 }

@@ -1,15 +1,1 @@
-{
-  "questionId": "df32b09c",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the condition to an inequality",
-      "content": "The problem states Tom needs a mean of <em>at least</em> 90 on four exams. With three known scores (85, 78, 98) and an unknown fourth score G, the mean of these four exams is: $$\\frac{G + 85 + 78 + 98}{4}$$"
-    },
-    {
-      "title": "Set up the mean inequality",
-      "content": "For the mean to be at least 90, we write: $$\\frac{G + 85 + 78 + 98}{4} \\ge 90$$ That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"qid": "df32b09c", "correctAnswer": "C", "steps": ["Tom needs a mean score of at least 90 across four exams. The mean of four values equals their sum divided by 4.", "The three known scores are 85, 78, and 98. Let \\(G\\) be the fourth. The mean is \\(\\frac{G + 85 + 78 + 98}{4}\\).", "&quot;At least 90&quot; means \\(\\geq 90\\), so the inequality is \\(\\frac{G + 85 + 78 + 98}{4} \\geq 90\\).", "<ul><li><strong>A: \\(-(85+78+98) \\leq 4G\\)</strong> — Negating the known scores is mathematically unrelated to computing a mean. Eliminated.</li><li><strong>B: \\(G + 85 + 78 + 98 \\geq 360\\)</strong> — Equivalent to choice C after multiplying both sides by 4 (since \\(4 \\times 90 = 360\\)), but this expression does not represent the mean directly as the question asks. Eliminated.</li><li><strong>C: \\(\\frac{G + 85 + 78 + 98}{4} \\geq 90\\)</strong> — Directly expresses &quot;mean of all four exams is at least 90.&quot; That matches choice C — <strong>C</strong> is correct.</li><li><strong>D: \\(\\frac{85+78+98}{4} \\geq 90 - 4G\\)</strong> — Divides only three scores by 4 and moves \\(G\\) incorrectly. Eliminated.</li></ul>"]}

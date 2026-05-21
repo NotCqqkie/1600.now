@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the numerator",
+      "title": "Factor the numerator f(x)",
       "content": "$$x^3 - 9x = x(x^2 - 9) = x(x-3)(x+3)$$"
     },
     {
-      "title": "Factor the denominator",
-      "content": "$$x^2 - 2x - 3 = (x-3)(x+1)$$"
+      "title": "Factor the denominator g(x)",
+      "content": "Find two numbers that multiply to $-3$ and add to $-2$: those are $-3$ and $+1$. $$x^2 - 2x - 3 = (x-3)(x+1)$$"
     },
     {
       "title": "Cancel the common factor",
-      "content": "Since $x>3$, $x-3\\neq0$, we can cancel: $$\\frac{x(x-3)(x+3)}{(x-3)(x+1)} = \\frac{x(x+3)}{x+1}$$"
+      "content": "Since $x > 3$, we have $x - 3 \\neq 0$, so the factor cancels: $$\\frac{x(x-3)(x+3)}{(x-3)(x+1)} = \\frac{x(x+3)}{x+1}$$"
     },
     {
-      "title": "Identify the equivalent expression",
-      "content": "The simplified form $\\frac{x(x+3)}{x+1}$ corresponds to choice D. <br/> That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices",
+      "content": "<ul><li>A: $\\frac{1}{x+1}$ &mdash; Lost both $x$ and $(x+3)$ from the numerator. Eliminated.</li><li>B: $\\frac{x+3}{x+1}$ &mdash; Missing the factor of $x$ in the numerator. Eliminated.</li><li>C: $\\frac{x(x-3)}{x+1}$ &mdash; The $(x-3)$ factor cancels with the denominator; it should not appear in the result. Eliminated.</li><li>D: $\\frac{x(x+3)}{x+1}$ &mdash; After canceling $(x-3)$, this is exactly what remains. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

@@ -1,1 +1,10 @@
-{"questionId": "95ed0b69", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Start with the given equation and identify the goal", "content": "We have $p = \\frac{k}{4j+9}$ and need to isolate $4j+9$ to express it in terms of $p$ and $k$."}, {"title": "Multiply both sides by (4j+9)", "content": "Multiply both sides by $(4j+9)$ to move it out of the denominator:<br/>$$p(4j+9) = k$$"}, {"title": "Divide both sides by p to isolate (4j+9)", "content": "Divide both sides by $p$:<br/>$$4j+9 = \\frac{k}{p}$$<br/>This matches choice A — <strong>A</strong> is correct."}]}
+{
+  "qid": "95ed0b69",
+  "steps": [
+    "Start with the given equation: \\(p = \\frac{k}{4j+9}\\). The goal is to isolate \\(4j+9\\) on one side.",
+    "Multiply both sides by \\((4j+9)\\) to remove it from the denominator: \\(p(4j+9) = k\\).",
+    "Divide both sides by \\(p\\) to isolate \\(4j+9\\): \\(4j+9 = \\frac{k}{p}\\).",
+    "Evaluate each answer choice:<ul><li>Choice A: \\(4j+9 = \\frac{k}{p}\\) — matches the derived result exactly. That matches choice A — <strong>A</strong> is correct.</li><li>Choice B: \\(4j+9 = kp\\) — this would mean multiplying both sides by \\(p\\) without dividing, giving \\(p^2(4j+9) = kp\\), which is wrong. Eliminated.</li><li>Choice C: \\(4j+9 = k - p\\) — subtraction never appears in the algebraic manipulation. Eliminated.</li><li>Choice D: \\(4j+9 = \\frac{p}{k}\\) — inverts the fraction incorrectly; numerator and denominator are swapped. Eliminated.</li></ul>"
+  ],
+  "correctAnswer": "A"
+}
