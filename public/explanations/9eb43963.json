@@ -1,15 +1,1 @@
-{
-  "questionId": "9eb43963",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the singular antecedent",
-      "content": "The sentence introduces the singular noun \u201cWater\u201d as the subject. In the second clause, the rotation of Earth and interference cause ____ to swirl into a whirlpool. This blank must refer to \u201cWater.\u201d Since \u201cWater\u201d is singular, the pronoun must be singular to match."
-    },
-    {
-      "title": "Apply number agreement",
-      "content": "A pronoun must match its antecedent in number. <strong>It</strong> is the only singular pronoun among the choices. These, those, and them are all plural forms that would violate this rule. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9eb43963", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the pronoun&rsquo;s antecedent and its number", "content": "The sentence opens with &ldquo;Water in the North Atlantic Ocean&rdquo; as the subject. The blank fills a pronoun that refers back to &ldquo;Water&rdquo; and must agree with it in number. &ldquo;Water&rdquo; is a singular, uncountable noun, so the pronoun must be singular.<ul><li><strong>Choice A &mdash; 'these'</strong>: Plural demonstrative pronoun &mdash; does not agree with the singular &ldquo;Water.&rdquo; &#10007;</li><li><strong>Choice B &mdash; 'those'</strong>: Plural demonstrative pronoun &mdash; does not agree with the singular &ldquo;Water.&rdquo; &#10007;</li><li><strong>Choice C &mdash; 'them'</strong>: Plural object pronoun &mdash; does not agree with the singular &ldquo;Water.&rdquo; &#10007;</li><li><strong>Choice D &mdash; 'it'</strong>: Singular pronoun &mdash; agrees in number with &ldquo;Water&rdquo; and clearly refers to the water swirling into the gyre. &#10003;</li></ul>"}, {"title": "Confirm and conclude", "content": "Every other choice is plural and conflicts with the singular antecedent &ldquo;Water.&rdquo; Only &ldquo;it&rdquo; satisfies pronoun-antecedent agreement. That matches choice D &mdash; <strong>D</strong> is correct."}]}

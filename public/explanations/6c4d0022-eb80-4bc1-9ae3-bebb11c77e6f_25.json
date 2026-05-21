@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_25",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what accomplishes the goal",
-      "content": "The student wants to emphasize the <strong>variety</strong> of soundscapes. To do this, the answer must show <strong>multiple different types</strong> of sounds, not focus on a single soundscape."
-    },
-    {
-      "title": "Test each choice against this standard",
-      "content": "D uses <strong>\u201ca range of different soundscapes\u201d</strong> with three specific examples (cicadas, birds, water). Choices A, B, and C each feature only a single soundscape. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_25", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the goal requires", "content": "The student wants to emphasize the variety of soundscapes. To accomplish this, the answer must show multiple different types of sounds together in one sentence &mdash; not focus narrowly on a single soundscape. Any choice that highlights only one soundscape fails the goal."}, {"title": "Eliminate each wrong choice, then confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'The sound of water flowing over Nachi Falls was selected for its cultural significance to Japan.'</strong>: This describes only one soundscape (Nachi Falls) &mdash; it does not convey variety. &#10007;</li><li><strong>Choice B &mdash; 'The Japanese Ministry of the Environment included the sound of cicadas at the Yama-dera temple on its list of 100 soundscapes of Japan.'</strong>: This describes only one soundscape (cicadas at Yama-dera) &mdash; it does not convey variety. &#10007;</li><li><strong>Choice C &mdash; 'The sound of birds at the Higashiyama Botanical Garden is on the Japanese Ministry of the Environment's list.'</strong>: This describes only one soundscape (birds at Higashiyama) &mdash; it does not convey variety. &#10007;</li><li><strong>Choice D &mdash; 'A range of different soundscapes are on the list, including the sounds of cicadas, birds, and water.'</strong>: This explicitly names &quot;a range of different soundscapes&quot; and lists three distinct examples, directly emphasizing variety. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the existing dash",
-      "content": "The original sentence already contains an em-dash before <em>was released in 1970</em>: <em>...for teaching programming skills—was released in 1970.</em> Whatever fills the blank must pair with that closing em-dash."
+      "title": "Identify the punctuation constraint",
+      "content": "The sentence already contains a closing em dash before &quot;was released in 1970.&quot; Em dashes used to set off a parenthetical phrase must come in matching pairs: an opening em dash and a closing em dash. Whatever fills the blank must open with an em dash immediately after &quot;Pascal&quot; to create that matching pair."
     },
     {
-      "title": "Pair the dashes",
-      "content": "Em-dashes used as parenthetical marks must come in matching pairs. Choice A opens with an em-dash after <em>Pascal</em>: <em>Pascal—created by Niklaus Wirth</em>, which pairs with the existing closing dash to set off the non-essential information cleanly: <em>Pascal—created by Niklaus Wirth—for teaching programming skills—was released in 1970.</em><br/><br/>Choices B and D mix commas with the existing em-dash, breaking the symmetry. Choice C omits punctuation entirely.<br/><br/>The answer is <strong>A</strong>."
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "Work through each option:<ul><li><strong>Choice A &mdash; &apos;Pascal&mdash;created by Niklaus Wirth&apos;</strong>: opens with an em dash that pairs with the existing closing em dash, correctly setting off &quot;created by Niklaus Wirth&quot; as a parenthetical. &#10003;</li><li><strong>Choice B &mdash; &apos;Pascal, created by Niklaus Wirth,&apos;</strong>: uses commas rather than em dashes, mismatching with the closing em dash already in the sentence. &#10007;</li><li><strong>Choice C &mdash; &apos;Pascal created by Niklaus Wirth&apos;</strong>: omits all punctuation before the phrase, leaving no opener to match the closing em dash. &#10007;</li><li><strong>Choice D &mdash; &apos;Pascal, created by Niklaus Wirth&apos;</strong>: opens with a comma, creating a comma&ndash;em dash mismatch. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

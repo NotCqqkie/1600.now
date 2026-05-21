@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and its number",
-      "content": "The subject of the clause is singular: “the word 'lasso'”. The parenthetical “(a rope)” is descriptive and doesn't change the subject's number."
+      "title": "Identify the subject and the grammar rule",
+      "content": "The subject of the blank clause is &ldquo;the word &lsquo;lasso&rsquo;&rdquo; &mdash; singular. The parenthetical &ldquo;(a rope)&rdquo; is just a clarifying aside and has no effect on the subject&rsquo;s number. The sentence states a permanent etymological fact (not a past event or ongoing action), so simple present tense is appropriate. A singular subject in simple present requires a verb ending in <em>-s</em>."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Identify the grammar issue: subject-verb agreement. The subject is \"the word 'lasso'\" — singular. The sentence states a general fact (etymology), so simple present is appropriate. Rule: a singular subject takes a third-person singular verb (adds -s).\n<ul>\n<li><strong>Choice A — \"were deriving\"</strong>: Plural past progressive — wrong in number, tense, and aspect. Etymology is a standing fact, not a past ongoing action. ✗</li>\n<li><strong>Choice B — \"have derived\"</strong>: Plural present perfect — wrong number and the perfect tense implies a completed change, not a permanent origin. ✗</li>\n<li><strong>Choice C — \"derive\"</strong>: Plural base form — wrong number for a singular subject. ✗</li>\n<li><strong>Choice D — \"derives\"</strong>: Singular simple present. Correctly agrees with the singular subject \"the word 'lasso'\" and states a permanent fact. ✓</li>\n</ul>\nThat matches choice D — <strong>D</strong> is correct."
+      "title": "Apply subject-verb agreement to each choice",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;were deriving&rsquo;</strong>: Past progressive, plural &mdash; wrong in both number (plural) and tense/aspect (etymology is a standing fact, not a past ongoing action). &#10007;</li><li><strong>Choice B &mdash; &lsquo;have derived&rsquo;</strong>: Present perfect, plural &mdash; wrong in number and the perfect aspect implies a recently completed change rather than a permanent origin. &#10007;</li><li><strong>Choice C &mdash; &lsquo;derive&rsquo;</strong>: Simple present base form &mdash; correct tense and aspect, but plural; does not agree with the singular subject &ldquo;the word &lsquo;lasso&rsquo;.&rdquo; &#10007;</li><li><strong>Choice D &mdash; &lsquo;derives&rsquo;</strong>: Singular simple present &mdash; agrees with the singular subject and correctly expresses a permanent etymological fact. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }
