@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the defining goal",
-      "content": "The student needs to find one specific piece of information: the combined carrying capacity of Belgium's merchant ships in 2021."
+      "title": "Identify the specific goal",
+      "content": "The student wants to identify the <em>combined carrying capacity</em> of Belgium's merchant ships in 2021. The relevant note states that the combined DWT of those ships was 9.6 million tons. A correct answer must state that capacity figure directly."
     },
     {
-      "title": "Match the answer to the goal",
-      "content": "Choice C directly states this capacity: 9.6 million tons in 2021. The others give only ship counts or definitions, not the combined capacity needed. This matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'In 2021, Belgium had 201 merchant ships hired to carry cargo or passengers.'</strong>: Reports only the ship count (201), not the combined capacity. &#10007;</li><li><strong>Choice B &mdash; 'The carrying capacity of a merchant ship is also known as its deadweight tonnage.'</strong>: Defines a term but gives no capacity figure for Belgium&apos;s fleet. &#10007;</li><li><strong>Choice C &mdash; 'The combined carrying capacity of Belgium&apos;s merchant ships was 9.6 million tons in 2021.'</strong>: Directly states the combined carrying capacity (9.6 million tons) for the correct year (2021), satisfying the goal precisely. &#10003;</li><li><strong>Choice D &mdash; 'There were a total of 201 merchant ships (ships hired to carry cargo or passengers) registered in Belgium in 2021.'</strong>: Again gives only a ship count with a definition in parentheses; no capacity figure. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

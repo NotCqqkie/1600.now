@@ -1,15 +1,1 @@
-{
-  "questionId": "7921b86b",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate the stated founding purpose",
-      "content": "The passage explicitly states that Moejoh and her team founded the organization to teach young people how their actions affect the environment and why recycling is important."
-    },
-    {
-      "title": "Match the purpose to the answer",
-      "content": "Choice B restates the founding purpose directly from the passage. The other three cite reasons not supported by the passage. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "7921b86b", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the passage explicitly states about the founding purpose", "content": "The passage states directly that Moejoh and her team founded U-recycle Initiative Africa &ldquo;to teach young people how their actions affect the environment and why recycling is important.&rdquo; The question asks for one reason given in the text, so the answer must match this stated purpose word-for-word or in close paraphrase."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; 'To bring attention to overlooked African artists'</strong>: The passage mentions an exhibit of art made from recycled materials, but the purpose was environmental education, not spotlighting artists. Not supported by the text. &#10007;</li><li><strong>Choice B &mdash; 'To teach young people why recycling is important'</strong>: This is a direct restatement of one of the two founding purposes given in the passage. &#10003;</li><li><strong>Choice C &mdash; 'To help adults gain important outdoor skills'</strong>: The passage targets young people, not adults, and mentions no outdoor skills. &#10007;</li><li><strong>Choice D &mdash; 'To give teenagers advice about starting businesses'</strong>: The passage says nothing about business advice; Moejoh founded the organization as a teenager but the organization&rsquo;s purpose is environmental education. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

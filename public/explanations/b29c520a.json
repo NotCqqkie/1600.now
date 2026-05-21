@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the tallest bar on the graph",
-      "content": "The graph displays energy density values for four fuels. The tallest bar represents the fuel with the highest energy density. POP biofuel's bar is visibly the tallest, reaching approximately 40 MJ/L on the y-axis."
+      "title": "Read the graph and identify which fuel has the highest bar",
+      "content": "The graph shows energy density (MJ/L) for four fuels. Scan each bar:<ul><li><strong>Choice A &mdash; 'jet fuel.'</strong>: jet fuel's bar is high but does not reach the top of the graph. &#10007;</li><li><strong>Choice B &mdash; 'POP biofuel.'</strong>: POP biofuel's bar is visibly the tallest, reaching approximately 40 MJ/L &mdash; higher than every other fuel shown. &#10003;</li><li><strong>Choice C &mdash; 'ethanol.'</strong>: ethanol's bar is the shortest on the graph, well below POP biofuel. &#10007;</li><li><strong>Choice D &mdash; 'gasoline.'</strong>: gasoline's bar sits below POP biofuel's bar. &#10007;</li></ul>"
     },
     {
-      "title": "Match the highest bar to the correct choice",
-      "content": "POP biofuel reaches 40 MJ/L, the highest value on the graph. The other three fuels show lower energy density values. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Match the tallest bar to the correct answer",
+      "content": "Only one fuel has the highest energy density on the graph. POP biofuel's bar reaches the highest point, making it the answer the sentence calls for. That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

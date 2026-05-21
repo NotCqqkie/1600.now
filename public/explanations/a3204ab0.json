@@ -1,15 +1,1 @@
-{
-  "questionId": "a3204ab0",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the explicit goal",
-      "content": "The student must <em>specify the number of gray wolves in Yellowstone</em>\u2014this requires stating an actual population figure from the notes."
-    },
-    {
-      "title": "Match the choice that states the number",
-      "content": "Choice D directly states \u201croughly 100 gray wolves living in it\u201d from the notes. The other three omit the number, instead offering reintroduction timing, wolves' existence at a certain time, and the definition of carrying capacity. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a3204ab0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the specific task", "content": "The student wants to <em>specify the number of gray wolves in Yellowstone</em>. The notes state: &quot;the number of gray wolves in the park has stabilized at roughly 100.&quot; The correct answer must include an actual population figure."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'Gray wolves were reintroduced into Yellowstone, a national park in the northwest United States, in 1995.'</strong>: States when wolves were reintroduced but gives no population number. &#10007;</li><li><strong>Choice B &mdash; 'As of 1995, there were gray wolves living in Yellowstone, a national park in the northwest United States.'</strong>: Mentions wolves existing as of 1995 but omits the current count. &#10007;</li><li><strong>Choice C &mdash; 'The carrying capacity of an environment, such as Yellowstone, describes the maximum number of species that the environment can sustain over time.'</strong>: Defines carrying capacity but provides no wolf population number. &#10007;</li><li><strong>Choice D &mdash; 'Yellowstone is a national park that has roughly 100 gray wolves living in it.'</strong>: Directly states the population figure from the notes &mdash; &quot;roughly 100&quot; &mdash; satisfying the goal of specifying the number. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

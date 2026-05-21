@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "The sentence reads: \"John Donne's ______ much admired during his lifetime ... had ... been essentially gathering dust.\" The blank follows the possessive \"Donne's\" and precedes the participial phrase \"much admired during his lifetime.\" The main verb is \"had ... been gathering dust.\""
+      "title": "Parse the sentence structure",
+      "content": "The sentence reads: &ldquo;John Donne&rsquo;s ______ much admired during his lifetime &hellip; had &hellip; been essentially gathering dust.&rdquo; The blank follows the possessive &ldquo;Donne&rsquo;s&rdquo; and must supply a noun. The phrase &ldquo;much admired during his lifetime (1572&ndash;1631) and in the decades that followed&rdquo; is a nonrestrictive participial modifier &mdash; it needs to be set off by commas on both sides. The main verb is &ldquo;had &hellip; been gathering dust.&rdquo;"
     },
     {
-      "title": "Rule: a nonrestrictive participial phrase needs a comma after the noun it modifies",
-      "content": "The noun in the blank must be followed by a comma to open the nonrestrictive phrase \"much admired during his lifetime (1572–1631) and in the decades that followed,\" which closes with another comma before \"had.\" Per-choice diagnosis:<br/><br/><strong>A. \"works,\"</strong> — supplies the noun and the required opening comma. The sentence reads: \"Donne's works, much admired ... and in the decades that followed, had ... been gathering dust.\" Correct.<br/><br/><strong>B. \"works, were\"</strong> — inserts a finite verb \"were\" inside the modifier, creating a second independent clause that clashes with the main verb \"had been.\" Incorrect.<br/><br/><strong>C. \"works were\"</strong> — turns the participial phrase into a relative clause without a conjunction, producing a run-on. Incorrect.<br/><br/><strong>D. \"works had been\"</strong> — introduces a second finite verb phrase that competes with the main verb, breaking the sentence boundary. Incorrect.<br/><br/><strong>A</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;works,&rsquo;</strong>: supplies the noun and the opening comma needed to bracket the participial phrase &mdash; the sentence reads smoothly as &ldquo;Donne&rsquo;s works, much admired &hellip; and in the decades that followed, had &hellip; been gathering dust.&rdquo; &#10003;</li><li><strong>Choice B &mdash; &lsquo;works, were&rsquo;</strong>: inserts a finite verb &ldquo;were&rdquo; inside the modifier, creating a second independent clause that clashes with the main verb &ldquo;had been.&rdquo; &#10007;</li><li><strong>Choice C &mdash; &lsquo;works were&rsquo;</strong>: turns the participial phrase into a relative clause without a conjunction, producing a run-on. &#10007;</li><li><strong>Choice D &mdash; &lsquo;works had been&rsquo;</strong>: introduces a competing finite verb phrase that breaks the sentence boundary. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the signal",
-      "content": "The phrase \"accomplished far more than simply concealing his authorship\" creates an expectation that the next sentence will explain what that accomplishment was. This key signal determines which transition is correct."
+      "content": "The first sentence claims Thomson's pen name &quot;accomplished far more than simply concealing his authorship.&quot; The blank introduces the sentence that must deliver on that claim. The transition word controls whether the second sentence confirms, contrasts, adds to, or follows from the first."
     },
     {
-      "title": "Apply the signal to find the answer",
-      "content": "The logical relationship is confirmation: the second sentence delivers the evidence that proves the first sentence's claim of a greater accomplishment — the pseudonym was a rhetorical strategy. The blank needs a transition word signaling that what follows confirms and elaborates the claim.\n<ul>\n<li><strong>Choice A — \"Indeed,\"</strong>: signals that the following confirms the preceding claim, so it fits — the explanation of Thomson's rhetorical strategy proves the pen name accomplished more than mere concealment. ✓</li>\n<li><strong>Choice B — \"Conversely,\"</strong>: signals an opposite direction, so it fails because the second sentence supports, not contradicts, the first. ✘</li>\n<li><strong>Choice C — \"In addition,\"</strong>: signals a new parallel point, so it fails because the second sentence explains the claimed accomplishment rather than adding a separate one. ✘</li>\n<li><strong>Choice D — \"However,\"</strong>: signals contrast or surprise, so it fails because no contradiction is being introduced. ✘</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+      "title": "Test each choice against the relationship",
+      "content": "The second sentence explains the greater accomplishment promised in the first &mdash; it confirms and elaborates rather than contrasts or adds a new point.\n<ul>\n<li><strong>Choice A &mdash; 'Indeed,'</strong>: signals that what follows confirms the preceding claim &mdash; the rhetorical-strategy explanation proves the pen name did more than conceal authorship. &#10003;</li>\n<li><strong>Choice B &mdash; 'Conversely,'</strong>: signals an opposite direction, but the second sentence supports the first rather than contradicting it. &#10007;</li>\n<li><strong>Choice C &mdash; 'In addition,'</strong>: signals a new parallel point, but the second sentence explains the one accomplishment already named, not an additional one. &#10007;</li>\n<li><strong>Choice D &mdash; 'However,'</strong>: signals contrast or surprise, but no contradiction is introduced. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }
