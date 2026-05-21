@@ -1,15 +1,1 @@
-{
-  "questionId": "975b0602",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the structural contrast",
-      "content": "The passage uses \u201con the other hand\u201d to contrast two strategies for Indigenous political representation: working within established parties (US approach) versus forming independent parties (Canada and Latin America approach)."
-    },
-    {
-      "title": "Match the purpose to the correct choice",
-      "content": "Choice C directly captures the purpose: highlighting two approaches to Indigenous representation. The others claim the passage traces history, makes an argument, or documents influence\u2014none of which occurs. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "975b0602", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the passage&apos;s structure", "content": "The passage describes one approach: Indigenous politicians in the US joined established parties and won congressional seats. Then &quot;on the other hand&quot; introduces a second approach: Indigenous people in Canada and Latin America formed their own parties. The passage contrasts two distinct strategies for achieving political representation &mdash; that contrast is the whole point."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &apos;To trace the history of an Indigenous political movement and speculate about its future development&apos;</strong>: The passage covers only 2000&ndash;2021 and discusses two separate movements, not one; it makes no predictions. &#10007;</li><li><strong>Choice B &mdash; &apos;To argue that Indigenous politicians in the United States should form their own political party&apos;</strong>: The passage makes no such argument; both strategies are presented neutrally and both produced results. &#10007;</li><li><strong>Choice C &mdash; &apos;To highlight two approaches to achieving political representation for Indigenous people&apos;</strong>: The passage explicitly contrasts working within established parties (US) versus forming independent parties (Canada, Latin America). &#10003;</li><li><strong>Choice D &mdash; &apos;To consider how Indigenous politicians in the United States have influenced Indigenous politicians in Canada and Latin America&apos;</strong>: The passage never suggests any influence between the US and other countries &mdash; the contrast stresses difference, not influence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

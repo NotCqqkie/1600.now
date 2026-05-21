@@ -1,15 +1,1 @@
-{
-  "questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contextual signal",
-      "content": "Rising prices had a \"counterintuitive\" effect: more buyers entered the market expecting further price rises. So rising prices <em>brought out</em> or <em>generated</em> additional demand — the opposite of what economic intuition would predict."
-    },
-    {
-      "title": "Match the precise word",
-      "content": "The blank must mean \"draw out or generate\" — rising prices called forth new demand rather than reducing it. Substitute each choice:<ul><li><strong>Choice A — satisfying</strong>: fulfilling or meeting — satisfying demand means meeting existing demand, not generating new buyers who weren't previously interested. ✗</li><li><strong>Choice B — capitalizing</strong>: taking advantage of — this describes what buyers do with an opportunity, not what rising prices did to demand. ✗</li><li><strong>Choice C — exploiting</strong>: using for gain — like capitalizing, this describes buyers' behavior, not rising prices drawing new buyers into the market. ✗</li><li><strong>Choice D — eliciting</strong>: drawing forth or calling out — rising prices elicited (brought out) new demand from buyers who hadn't previously wanted the toys. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dbd99943-454f-4340-b42a-6a27b20e090c_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "Rising G.I. Joe prices had a &quot;counterintuitive&quot; effect on demand. Normally, higher prices reduce demand — but here the opposite happened: new buyers who previously had no interest <em>entered</em> the market. The blank describes what rising prices did to demand. The word must mean <em>to draw out or call forth</em> new demand that did not previously exist."}, {"title": "Test each choice against that meaning", "content": "Substitute each word and check whether it captures the idea of rising prices drawing new buyers into the market:<ul><li><strong>Choice A &mdash; &apos;satisfying&apos;</strong>: fulfilling existing demand — this means meeting wants that were already there, not generating new buyers who weren&apos;t previously interested. &#10007;</li><li><strong>Choice B &mdash; &apos;capitalizing&apos;</strong>: taking advantage of an opportunity — this describes what a buyer does, not what rising prices did to demand itself. &#10007;</li><li><strong>Choice C &mdash; &apos;exploiting&apos;</strong>: using something for gain — like capitalizing, this describes a buyer&apos;s action, not the mechanism by which prices pulled new buyers into the market. &#10007;</li><li><strong>Choice D &mdash; &apos;eliciting&apos;</strong>: drawing forth or calling out — rising prices elicited (called out) demand from buyers who had not previously wanted the toys. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the sentence stating Adrastea's discovery year",
-      "content": "Look for Adrastea in the passage. You find: <em>\u201cscientists used the Voyager 1 space probe to discover Adrastea in 1979.\u201d</em>"
+      "title": "Locate Adrastea in the passage",
+      "content": "The passage states: &quot;scientists used the <em>Voyager 1</em> space probe to discover Adrastea in 1979.&quot; That single sentence gives the discovery year directly."
     },
     {
-      "title": "Match the year to the choices",
-      "content": "The other options either don't appear in the passage (1892, 2001) or refer to a different discovery (1610 for Io). That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Match the year to each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '1979'</strong>: the passage explicitly states Adrastea was discovered in 1979 by the <em>Voyager 1</em> probe. &#10003;</li><li><strong>Choice B &mdash; '1892'</strong>: this year does not appear anywhere in the passage. &#10007;</li><li><strong>Choice C &mdash; '2001'</strong>: this year does not appear anywhere in the passage. &#10007;</li><li><strong>Choice D &mdash; '1610'</strong>: this is the year Galileo discovered Io, not Adrastea. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }
