@@ -9,7 +9,11 @@
     },
     {
       "title": "Apply function notation at x = 0",
-      "content": "By definition, $f(0)$ is the output of the function when the input is $x = 0$. Since the <em>y</em>-intercept occurs at the point $(0, c)$, the function value at $x = 0$ must be $c$. Therefore $f(0) = c$. That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "By definition, $f(0)$ is the output of the function when $x = 0$. Since the <em>y</em>-intercept is the point $(0, c)$, we have $f(0) = c$."
+    },
+    {
+      "title": "Check all choices",
+      "content": "<ul><li><strong>Choice A &mdash; '$f(0)$'</strong>: The <em>y</em>-intercept always occurs at $x = 0$, so $f(0)$ gives the <em>y</em>-coordinate $c$ &#10003;</li><li><strong>Choice B &mdash; '$f(1)$'</strong>: $x = 1$ is not the <em>y</em>-axis; $f(1)$ gives the output at $x = 1$, not the <em>y</em>-intercept &#10007;</li><li><strong>Choice C &mdash; '$f(2)$'</strong>: $x = 2$ is not the <em>y</em>-axis; same reasoning as B &#10007;</li><li><strong>Choice D &mdash; '$f(3)$'</strong>: $x = 3$ is not the <em>y</em>-axis; same reasoning as B &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

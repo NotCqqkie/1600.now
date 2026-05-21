@@ -1,15 +1,1 @@
-{
-  "questionId": "5fa165f7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "\u201dExplored a different style\u201d shows Gilliam was actively engaged with a new artistic direction."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "The target meaning is producing or making these paintings. \u201cCreating\u201d directly expresses this action\u2014which exploring an artistic style entails. Predicting, refusing, and hiding don't describe this engagement. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5fa165f7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Understand what the blank must mean", "content": "The passage says Gilliam &ldquo;explored a different style&rdquo; and the blank fills in what he was doing with &ldquo;quilt-like paintings.&rdquo; The blank needs a verb that describes an artist actively producing or making new work in that style."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;predicting&rsquo;</strong>: Predicting means declaring something in advance; Gilliam was actually making the paintings, not forecasting them. &#10007;</li><li><strong>Choice B &mdash; &lsquo;refusing&rsquo;</strong>: Refusing means rejecting, which contradicts the passage&mdash;he explored this style, he did not reject it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;hiding&rsquo;</strong>: Hiding means concealing from view, but nothing in the text suggests Gilliam tried to conceal his paintings. &#10007;</li><li><strong>Choice D &mdash; &lsquo;creating&rsquo;</strong>: Creating means producing or bringing into existence, which is exactly what an artist does when exploring a new style. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

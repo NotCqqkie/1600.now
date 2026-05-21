@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Subtract 331.3 from both sides",
-      "content": "Starting with $v = 331.3 + 0.606 \\times T$, we need to isolate T. The constant 331.3 is added on the right side, so subtract it from both sides:<br/>$$v - 331.3 = 0.606 \\times T$$"
+      "content": "Start with \\(v = 331.3 + 0.606T\\). Subtract 331.3 from both sides:<br/>$$v - 331.3 = 0.606T$$"
     },
     {
-      "title": "Divide by 0.606 to isolate T",
-      "content": "Now divide both sides by 0.606:<br/>$$T = \\frac{v - 331.3}{0.606}$$<br/>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Divide both sides by 0.606",
+      "content": "$$T = \\frac{v - 331.3}{0.606}$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '\\(T = \\frac{v + 0.606}{331.3}\\)'</strong>: Adds 0.606 and divides by 331.3 &mdash; incorrect algebraic manipulation. &#10007;</li><li><strong>Choice B &mdash; '\\(T = \\frac{v - 0.606}{331.3}\\)'</strong>: Subtracts 0.606 and divides by 331.3 instead of subtracting 331.3 and dividing by 0.606. &#10007;</li><li><strong>Choice C &mdash; '\\(T = \\frac{v + 331.3}{0.606}\\)'</strong>: Adds 331.3 instead of subtracting it. &#10007;</li><li><strong>Choice D &mdash; '\\(T = \\frac{v - 331.3}{0.606}\\)'</strong>: Subtracts 331.3 then divides by 0.606, correctly inverting both operations. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

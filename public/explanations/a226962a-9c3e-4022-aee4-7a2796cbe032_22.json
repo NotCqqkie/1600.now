@@ -1,15 +1,1 @@
-{
-  "questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_22",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "Lowering the voting age to 18 directly caused young people to gain voting opportunities. The second sentence is the outcome of the first."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "The logical relationship is cause-effect. The blank needs a transition signaling that young people gaining the vote is a direct result of lowering the voting age.\n<ul>\n<li><strong>Choice A — \"Similarly,\"</strong>: signals a parallel between two comparable situations, but only one situation is described here, so fails. ✗</li>\n<li><strong>Choice B — \"By contrast,\"</strong>: signals opposition between two ideas, but the second sentence follows from the first rather than opposing it, so fails. ✗</li>\n<li><strong>Choice C — \"Consequently,\"</strong>: signals that one event results directly from another, capturing the causal link, so fits. ✓</li>\n<li><strong>Choice D — \"Nevertheless,\"</strong>: signals an unexpected result despite an obstacle, but nothing is working against the outcome here, so fails. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a226962a-9c3e-4022-aee4-7a2796cbe032_22", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the two sentences", "content": "The first sentence states that Peru lowered the voting age from 21 to 18. The second sentence states that many young people gained a new opportunity to vote. The second sentence is a direct result of the first &mdash; this is a cause-and-effect relationship, so the transition must signal that the second event follows from the first."}, {"title": "Eliminate wrong choices and confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'Similarly,'</strong>: signals that two situations are comparable or parallel, but the second sentence is a consequence of the first, not a parallel case. &#10007;</li><li><strong>Choice B &mdash; 'By contrast,'</strong>: signals opposition between two ideas, but young people gaining the vote is not in opposition to the voting age being lowered &mdash; it follows from it. &#10007;</li><li><strong>Choice C &mdash; 'Consequently,'</strong>: signals that one event results directly from another, which matches the cause-and-effect relationship here exactly. &#10003;</li><li><strong>Choice D &mdash; 'Nevertheless,'</strong>: signals an unexpected outcome despite an obstacle, but nothing in the passage works against young people gaining the vote. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."} ]}

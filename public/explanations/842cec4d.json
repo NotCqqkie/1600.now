@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the cruising speed range to inequalities",
-      "content": "The speed <em>varied between 150 and 170</em> means the speed must satisfy:<ul><li>At least 150 mph: $s \\geq 150$</li><li>At most 170 mph: $s \\leq 170$</li></ul>Combining both conditions: $$150 \\leq s \\leq 170$$"
+      "title": "Identify the bounds from the problem",
+      "content": "The airplane's cruising speed varied between 150 mph and 170 mph. &quot;Varied between&quot; means the speed was at least 150 and at most 170, inclusive."
     },
     {
-      "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A:</strong> $s \\leq 20$ \u2014 Way too small for an airplane cruising speed.</li><li><strong>Choice B:</strong> $s \\leq 150$ \u2014 Only provides an upper limit; ignores that speeds go up to 170.</li><li><strong>Choice C:</strong> $s \\leq 170$ \u2014 Only provides an upper limit; ignores the lower bound of 150.</li><li><strong>Choice D:</strong> $150 \\leq s \\leq 170$ \u2014 Exactly matches the compound inequality we derived.</li></ul>That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; '$s\\le20$'</strong>: This caps speed at 20 mph — far below any real cruising speed. &#10007;</li><li><strong>Choice B &mdash; '$s\\le150$'</strong>: Only an upper bound; allows speeds below 150 and excludes speeds up to 170. &#10007;</li><li><strong>Choice C &mdash; '$s\\le170$'</strong>: Only an upper bound; allows any speed below 170 but ignores the lower bound of 150. &#10007;</li><li><strong>Choice D &mdash; '$150\\le s\\le170$'</strong>: Exactly captures both bounds — speed is between 150 and 170 inclusive. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

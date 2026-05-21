@@ -1,15 +1,1 @@
-{
-  "questionId": "0147b080",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Locate el Castillo in the table",
-      "content": "The passage specifies el Castillo was built 1,100 to 1,400 years ago. The table contains only one pyramid with this age range \u2014 el Castillo from Belize."
-    },
-    {
-      "title": "Extract the corresponding height value",
-      "content": "El Castillo's height in the table is 40 meters. The other answer choices (33, 47, 60) are the heights of The Great Pyramid, The Pyramid of Sahure, and The Pyramid of Djoser respectively, and do not apply to el Castillo. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0147b080", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Locate el Castillo in the table", "content": "The passage states el Castillo was built 1,100 to 1,400 years ago. Find the row in the table matching that age range to read off the correct height. The rationale confirms the four heights in the table are 33 m (Great Pyramid, Mexico), 40 m (el Castillo, Belize), 47 m (Pyramid of Sahure, Egypt), and 60 m (Pyramid of Djoser, Egypt).<ul><li><strong>Choice A &mdash; '33 meters tall.'</strong>: 33 m is the height of the Great Pyramid in Mexico, not el Castillo. &#10007;</li><li><strong>Choice B &mdash; '47 meters tall.'</strong>: 47 m is the height of the Pyramid of Sahure in Egypt, not el Castillo. &#10007;</li><li><strong>Choice C &mdash; '40 meters tall.'</strong>: 40 m matches the el Castillo row in the table. &#10003;</li><li><strong>Choice D &mdash; '60 meters tall.'</strong>: 60 m is the height of the Pyramid of Djoser in Egypt, not el Castillo. &#10007;</li></ul>"}, {"title": "Confirm the table value", "content": "El Castillo (Belize, 1,100&ndash;1,400 years old) has a table height of 40 meters; all other values belong to different pyramids. That matches choice C &mdash; <strong>C</strong> is correct."}]}

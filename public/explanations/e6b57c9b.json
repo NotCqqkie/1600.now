@@ -1,15 +1,1 @@
-{
-  "questionId": "e6b57c9b",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the stated goal",
-      "content": "The passage explicitly tells us the student wants to \u201cspecify when al-Biruni published his landmass theory.\u201d The strongest clue is the word <strong>when</strong> \u2014 the answer must include the specific date from the notes (1037 CE)."
-    },
-    {
-      "title": "Apply the goal to the choices",
-      "content": "Choice A opens with <strong>\u201cIn 1037 CE,\u201d</strong> and directly answers the \u201cwhen\u201d question by supplying the publication date. The others all omit the date the goal requires. That matches choice <strong>A</strong> \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e6b57c9b", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the student&rsquo;s goal requires", "content": "The student wants to &ldquo;specify <em>when</em> al-Biruni published his landmass theory.&rdquo; The key word is <strong>when</strong> &mdash; the answer must state the publication date (1037 CE) from the notes. Any choice that omits the date fails the goal.<ul><li><strong>Choice A &mdash; 'In 1037 CE, al-Biruni published his theory that a large landmass existed west of Europe and east of Asia.'</strong>: Opens with &ldquo;In 1037 CE,&rdquo; directly specifying when the theory was published. &#10003;</li><li><strong>Choice B &mdash; 'Al-Biruni, who studied Earth&rsquo;s physical features, published a theory about a large landmass.'</strong>: Mentions publication but omits the year 1037 CE, so the &ldquo;when&rdquo; is never specified. &#10007;</li><li><strong>Choice C &mdash; 'Al-Biruni was an Iranian scholar who studied Earth&rsquo;s physical features.'</strong>: Describes al-Biruni&rsquo;s field of study; says nothing about his landmass theory or its publication date. &#10007;</li><li><strong>Choice D &mdash; 'An Iranian scholar who studied Earth&rsquo;s physical features, al-Biruni theorized that a large landmass existed west of Europe and east of Asia.'</strong>: Describes the content of the theory but omits the publication year entirely. &#10007;</li></ul>"}, {"title": "Confirm the correct choice", "content": "Only Choice A opens with the specific year the student needs to &ldquo;specify when&rdquo; the theory was published. That matches choice A &mdash; <strong>A</strong> is correct."}]}

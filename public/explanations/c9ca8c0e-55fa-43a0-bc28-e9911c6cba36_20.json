@@ -1,15 +1,1 @@
-{
-  "questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_20",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the structure",
-      "content": "Before the blank we have \u201cthree temporal\u201d \u2013 a determiner plus adjective that needs a head noun. After the blank we see \u201cthat, through a patient and attentive cinematic eye, form tableaus\u2026\u201d \u2013 a relative clause (dependent clause) that will modify the noun we insert."
-    },
-    {
-      "title": "Apply the punctuation rule",
-      "content": "The correct choice inserts the noun \u201cspaces\u201d followed directly by an opening parenthesis, with no punctuation before it, which properly sets off the nonrestrictive appositive giving examples. <br/>The other three choices either insert a comma, an em dash, or a misplaced period before or after the parentheses, incorrectly treating the parenthetical as needing separation punctuation. <br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c9ca8c0e-55fa-43a0-bc28-e9911c6cba36_20", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank needs and how parentheses work", "content": "The blank follows &ldquo;three temporal&rdquo; and needs a noun. A parenthetical that gives examples &mdash; &ldquo;(summer of 1998, autumn of 2010, and winter of 2019)&rdquo; &mdash; must sit directly after the noun it elaborates, with no intervening punctuation separating the noun from the opening parenthesis."}, {"title": "Eliminate wrong choices, confirm the right one", "content": "<ul><li><strong>Choice A &mdash; 'spaces (summer of 1998, autumn of 2010, and winter of 2019)'</strong>: &ldquo;spaces&rdquo; is followed immediately by &ldquo;(&rdquo; with no extra punctuation &mdash; the parenthetical sits cleanly after its noun. &#10003;</li><li><strong>Choice B &mdash; 'spaces&mdash;summer of 1998, autumn of 2010, (and winter of 2019)'</strong>: The em dash splits the list, then a parenthesis opens only around &ldquo;and winter of 2019&rdquo; &mdash; garbled punctuation that fragments the list. &#10007;</li><li><strong>Choice C &mdash; 'spaces, (summer of 1998, autumn of 2010, and winter of 2019).'</strong>: A comma before the opening parenthesis is not standard; commas do not introduce parentheticals, and the period inside the parenthesis prematurely ends the sentence. &#10007;</li><li><strong>Choice D &mdash; 'spaces summer of 1998, autumn of 2010, and winter of 2019,'</strong>: No punctuation or parentheses at all &mdash; the examples run directly into the text, making the sentence grammatically incoherent. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

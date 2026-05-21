@@ -1,15 +1,10 @@
 {
-  "questionId": "8917ce38",
-  "correctAnswer": "A",
-  "section": "Math",
+  "qid": "8917ce38",
   "steps": [
-    {
-      "title": "Set up unit conversion",
-      "content": "Start with 90 km/h. Replace kilometers with meters using 1 km = 1000 m and hours with seconds using 1 h = 3600 s.<br/>$$90 \\frac{\\text{km}}{\\text{h}} \\times \\frac{1000 \\text{ m}}{1 \\text{ km}} \\times \\frac{1 \\text{ h}}{3600 \\text{ s}}$$"
-    },
-    {
-      "title": "Simplify to meters per second",
-      "content": "Multiply numerators and denominators: $$ \\frac{90 \\times 1000}{3600} \\frac{\\text{m}}{\\text{s}} = \\frac{90000}{3600} \\frac{\\text{m}}{\\text{s}} = 25 \\frac{\\text{m}}{\\text{s}}.$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
+    "Start with 90 km/h. Convert km to m: multiply by 1,000 m/km. Convert hours to seconds: divide by 3,600 s/h.",
+    "\\(90 \\times \\frac{1{,}000}{3{,}600} = \\frac{90{,}000}{3{,}600} = 25\\) meters per second.",
+    "Verify: 25 m/s \\(\\times\\) 3,600 = 90,000 m = 90 km, confirming 25 m/s.",
+    "<ul><li><strong>Choice A &mdash; '25 meters per second'</strong>: Matches the unit conversion result exactly. &#10003;</li><li><strong>Choice B &mdash; another value meters per second</strong>: Does not equal 25; incorrect conversion. &#10007;</li><li><strong>Choice C &mdash; another value meters per second</strong>: Does not equal 25; incorrect conversion. &#10007;</li><li><strong>Choice D &mdash; another value meters per second</strong>: Does not equal 25; incorrect conversion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+  ],
+  "correctAnswer": "A"
 }

@@ -1,11 +1,1 @@
-{
-  "questionId": "9d845a11-6019-4b88-9309-26d92ced4f70_3",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Subtract 50 from both sides",
-      "content": "To solve $x + 50 = 160$, subtract 50 from both sides:<br/>$$x + 50 - 50 = 160 - 50$$<br/>$$x = 110$$<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"9d845a11-6019-4b88-9309-26d92ced4f70_3","correctAnswer":"C","section":"Math","steps":[{"title":"Solve the equation","content":"$$x+50=160$$ Subtract 50 from both sides: $$x=160-50=110$$"},{"title":"Evaluate all choices","content":"<ul><li><strong>Choice A &mdash; '\\(x=50\\)'</strong>: Check: \\(50+50=100\\neq 160\\). &#10007;</li><li><strong>Choice B &mdash; '\\(x=60\\)'</strong>: Check: \\(60+50=110\\neq 160\\). &#10007;</li><li><strong>Choice C &mdash; '\\(x=110\\)'</strong>: Check: \\(110+50=160\\). &#10003; That matches choice C &mdash; <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; '\\(x=160\\)'</strong>: Check: \\(160+50=210\\neq 160\\). &#10007;</li></ul>"}]}

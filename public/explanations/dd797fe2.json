@@ -1,15 +1,10 @@
 {
-  "questionId": "dd797fe2",
-  "correctAnswer": "C",
-  "section": "Math",
+  "qid": "dd797fe2",
   "steps": [
-    {
-      "title": "Interpret each term in the equation",
-      "content": "The equation $4x + 3y = 24$ describes Mario's purchases. Breaking down the left side:<br/><br/>$4x$ = 4 binders \u00d7 $x$ dollars per binder = total binder cost<br/>$3y$ = 3 notebooks \u00d7 $y$ dollars per notebook = total notebook cost<br/><br/>Adding them together: $4x + 3y$ = total cost of all binders + total cost of all notebooks = total purchase cost"
-    },
-    {
-      "title": "Identify what 24 represents",
-      "content": "Since $4x + 3y = 24$, the sum of all costs equals 24. Therefore, 24 represents the total cost in dollars for all items Mario purchased\u2014both the binders and the notebooks. That matches choice C\u2014<strong>C</strong> is correct."
-    }
-  ]
+    "The equation 4x + 3y = 24 models Mario's purchase: 4 binders at x dollars each plus 3 notebooks at y dollars each.",
+    "4x is the total binder cost; 3y is the total notebook cost. Their sum equals 24.",
+    "Therefore 24 is the total cost for all binders and notebooks combined."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'The total cost, in dollars, for all binders purchased'</strong>: Total binder cost is 4x, not 24. &#10007;</li><li><strong>Choice B &mdash; 'The total cost, in dollars, for all notebooks purchased'</strong>: Total notebook cost is 3y, not 24. &#10007;</li><li><strong>Choice C &mdash; 'The total cost, in dollars, for all binders and notebooks purchased'</strong>: 4x + 3y = 24 adds both costs, so 24 is the combined total. &#10003;</li><li><strong>Choice D &mdash; 'The difference in the total cost, in dollars, between the number of binders and notebooks purchased'</strong>: A difference uses subtraction; this equation uses addition. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct.",
+  "correctAnswer": "C"
 }

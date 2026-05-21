@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the predictable explanation",
-      "content": "The passage states Rogerson's calculation was more accurate, then explains why\u2014the 1920 method used rudimentary equipment. The clue is that this explanation is expected: naturally, primitive tools would yield less accurate results."
+      "title": "Identify the logical relationship between the two sentences",
+      "content": "Sentence 1 states that Rogerson&rsquo;s calculation was more accurate than the 1920 one. Sentence 2 explains why that difference is unsurprising: the 1920 method used only cardboard and string. The blank must signal that what follows is a natural, expected consequence of what came before &mdash; not a purpose, a similarity, or a final conclusion."
     },
     {
-      "title": "Apply the clue to the choices",
-      "content": "The logical relationship between the two sentences is concession/acknowledgment. Sentence 1 states Rogerson's calculation was more accurate than the 1920 one; Sentence 2 explains why that difference is unsurprising \u2014 the 1920 method used only cardboard and string. The blank needs a transition signaling that the reason is natural and expected.\n<ul>\n<li><strong>Choice A \u2014 \"To that end,\"</strong>: signals that Sentence 2 is a purposeful step toward achieving the goal of Sentence 1 \u2014 but Sentence 2 explains a past fact, not a purposeful action. \u2717</li>\n<li><strong>Choice B \u2014 \"Of course,\"</strong>: signals that what follows is unsurprising given what came before \u2014 the rudimentary equipment naturally explains lower accuracy. \u2713</li>\n<li><strong>Choice C \u2014 \"Likewise,\"</strong>: signals similarity \u2014 Sentence 2 is an explanation, not a parallel situation. \u2717</li>\n<li><strong>Choice D \u2014 \"Ultimately,\"</strong>: signals a final conclusion \u2014 Sentence 2 is an explanatory aside, not a culminating result. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; &lsquo;To that end,&rsquo;</strong>: signals that Sentence 2 is a purposeful action taken to achieve the goal stated in Sentence 1 &mdash; but Sentence 2 explains a historical fact, not a purposeful step. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Of course,&rsquo;</strong>: signals that what follows is unsurprising given the context &mdash; rudimentary cardboard-and-string equipment naturally yields less accurate results. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Likewise,&rsquo;</strong>: signals a parallel situation &mdash; Sentence 2 explains a reason, not a parallel case. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Ultimately,&rsquo;</strong>: signals a culminating conclusion &mdash; Sentence 2 is an explanatory aside, not a final result. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

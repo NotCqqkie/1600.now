@@ -1,19 +1,10 @@
 {
-  "questionId": "d65b9a87",
-  "correctAnswer": "A",
-  "section": "Math",
+  "qid": "d65b9a87",
   "steps": [
-    {
-      "title": "Find the median of each data set",
-      "content": "<ul><li>Data set A has 9 dots; the middle (5th) dot is at 7.</li><li>Data set B also has 9 dots; its middle dot is at 7.</li></ul>"
-    },
-    {
-      "title": "Compare the spreads to assess standard deviation",
-      "content": "<ul><li>Data set A: smallest value 4, largest 10 \u2192 range 6.</li><li>Data set B: smallest value 5, largest 9 \u2192 range 4.</li><li>Since standard deviation increases with spread, A\u2019s SD is larger than B\u2019s.</li></ul>"
-    },
-    {
-      "title": "Determine which statements must be true",
-      "content": "<ul><li>Statement I: medians are equal \u2192 true.</li><li>Statement II: standard deviations are equal \u2192 false.</li><li>Therefore only statement I must be true.</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
+    "Data set A has 9 dots with the middle (5th) dot at 7, so the median of A is 7. Data set B also has 9 dots with its middle dot at 7, so the median of B is 7. Statement I (equal medians) is true.",
+    "Data set A spans values 4 through 10 (range 6). Data set B spans values 5 through 9 (range 4). A wider spread means a larger standard deviation, so A's standard deviation exceeds B's. Statement II (equal standard deviations) is false.",
+    "Only Statement I must be true."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'I only'</strong>: Statement I (equal medians) is true; Statement II (equal SDs) is false because A has greater spread. &#10003;</li><li><strong>Choice B &mdash; 'II only'</strong>: Statement II is false since A's range (6) exceeds B's range (4), giving A a larger SD. &#10007;</li><li><strong>Choice C &mdash; 'I and II'</strong>: Statement II is false, so both cannot be true. &#10007;</li><li><strong>Choice D &mdash; 'Neither I nor II'</strong>: Statement I is true (both medians = 7), so this is incorrect. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.",
+  "correctAnswer": "A"
 }

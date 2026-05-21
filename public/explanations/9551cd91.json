@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read two points from the table",
-      "content": "From the table, when the number of cars c=0, the passenger-crew total is p=9.<br/>When c=1, the total is p=64."
+      "content": "From the table: when $$c=0$$ cars, the max passengers and crew is $$p=9$$. When $$c=1$$, $$p=64$$."
     },
     {
-      "title": "Find slope and intercept",
-      "content": "The slope is $$m = \\frac{64-9}{1-0}=55$$ passengers per car.<br/>Using p = mc + b and the point (0,9) gives b=9, so $$p = 55c + 9$$."
+      "title": "Find the linear equation",
+      "content": "Slope: $$m=\\frac{64-9}{1-0}=55$$. With point $$(0,9)$$: $$p=55c+9$$. Rearranging: $$55c-p=-9$$."
     },
     {
-      "title": "Write equation in given form and match choice",
-      "content": "Rewrite as $55c - p = -9$.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; '$55c-p=-9$'</strong>: Equivalent to $$p=55c+9$$. Gives $$p=9$$ when $$c=0$$ and $$p=64$$ when $$c=1$$. &#10003;</li><li><strong>Choice B &mdash; '$55c-p=9$'</strong>: Equivalent to $$p=55c-9$$. Gives $$p=-9$$ when $$c=0$$ — negative passengers is impossible. &#10007;</li><li><strong>Choice C &mdash; '$55p-c=-9$'</strong>: Has the wrong variable as the coefficient of 55. When $$c=0$$: $$p=-9/55$$, not an integer. &#10007;</li><li><strong>Choice D &mdash; '$55p-c=9$'</strong>: Same issue — 55 multiplies $$p$$ instead of $$c$$. Gives non-integer $$p$$ values. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

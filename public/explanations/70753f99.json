@@ -1,1 +1,11 @@
-{"questionId":"70753f99","correctAnswer":"B","section":"Math","steps":[{"title":"Read the roots from factored form","content":"$f(x)=(x+3)(x+1)$ gives roots $x=-3$ and $x=-1$ directly."},{"title":"Average the roots to get the vertex x-coordinate","content":"$$x_{\\text{vertex}}=\\frac{-3+(-1)}{2}=\\frac{-4}{2}=-2$$"},{"title":"Check which interval contains $-2$","content":"Only choice B, $-3&lt;x&lt;1$, contains $x=-2$. That matches choice B — <strong>B</strong> is correct.","desmosExpressions":["f(x)=(x+3)(x+1)"]}]}
+{
+  "qid": "70753f99",
+  "steps": [
+    "From \\(f(x)=(x+3)(x+1)\\), the roots are \\(x=-3\\) and \\(x=-1\\).",
+    "The vertex of a parabola lies at the midpoint of the roots: \\(x_{\\text{vertex}}=\\frac{-3+(-1)}{2}=-2\\).",
+    "Check each choice: \\(x=-2\\) must lie strictly inside the interval. Only \\(-3<x<1\\) (choice B) contains \\(-2\\)."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'negative 4 is less than x, which is less than negative 3'</strong>: \\(-2\\) is not in \\((-4,-3)\\). &#10007;</li><li><strong>Choice B &mdash; 'negative 3 is less than x, which is less than 1'</strong>: \\(-3 < -2 < 1\\), so \\(-2\\) lies in this interval. &#10003;</li><li><strong>Choice C &mdash; 'negative 2 is less than x, which is less than 3'</strong>: This interval starts just above \\(-2\\), so \\(-2\\) is not contained (the left endpoint is excluded). &#10007;</li><li><strong>Choice D &mdash; 'negative 2 is less than x, which is less than 4'</strong>: Same issue — left bound is \\(-2\\) exclusive, so \\(-2\\) is not inside. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "correctAnswer": "B",
+  "desmosExpressions": ["f(x)=(x+3)(x+1)"]
+}

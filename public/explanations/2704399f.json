@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection point directly from the graph",
-      "content": "The two lines intersect where the downward-sloping line from the upper left meets the upward-sloping line from the lower left. Tracing both lines to their crossing point, the intersection occurs at $x = \\frac{3}{2}$ and $y = 0$. The solution to the graphed system is $\\left(\\frac{3}{2}, 0\\right)$."
+      "title": "Read the intersection point from the graph",
+      "content": "The graphed system's solution is the point where the two lines cross. Tracing both lines, they intersect at $$\\left(\\frac{3}{2}, 0\\right)$$, meaning $$x=\\frac{3}{2}$$ and $$y=0$$."
     },
     {
-      "title": "Match the solution to the answer choice",
-      "content": "We need to find which choice represents a system with the same solution $\\left(\\frac{3}{2}, 0\\right)$. Testing each option:<ul><li>Choice A: $y = 0$ and $x = \\frac{3}{2}$ gives solution $\\left(\\frac{3}{2}, 0\\right)$ \u2713</li><li>Choice B: $y = \\frac{3}{2}$ and $x = 0$ gives solution $\\left(0, \\frac{3}{2}\\right)$ \u2717</li><li>Choice C: $y = 0$ and $x = 1$ gives solution $(1, 0)$ \u2717</li><li>Choice D: $y = 1$ and $x = 0$ gives solution $(0, 1)$ \u2717</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; '$y=0$ and $x=\\frac{3}{2}$'</strong>: The solution to this system is $$\\left(\\frac{3}{2},0\\right)$$ — matches the graph. &#10003;</li><li><strong>Choice B &mdash; '$y=\\frac{3}{2}$ and $x=0$'</strong>: Solution would be $$\\left(0,\\frac{3}{2}\\right)$$ — coordinates are swapped. &#10007;</li><li><strong>Choice C &mdash; '$y=0$ and $x=1$'</strong>: Solution would be $$(1,0)$$ — wrong x-value. &#10007;</li><li><strong>Choice D &mdash; '$y=1$ and $x=0$'</strong>: Solution would be $$(0,1)$$ — wrong values for both coordinates. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

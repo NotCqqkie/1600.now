@@ -1,15 +1,1 @@
-{
-  "questionId": "dc645172",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the plural subject",
-      "content": "The subject is <strong>talents</strong> from <em>\u201cThe artistic talents of Barbara Chase-Riboud...\u201d</em>. This noun is plural."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "A plural subject requires a plural verb form, which only <strong>aren't</strong> provides. The other three options are singular forms that violate agreement. That matches choice <strong>D</strong> \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "dc645172", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the true subject", "content": "The sentence opens &quot;The artistic talents of Barbara Chase-Riboud...&quot; The head noun is <strong>talents</strong> &mdash; plural. The prepositional phrase &quot;of Barbara Chase-Riboud&quot; is not the subject and does not affect agreement. The blank needs a plural verb."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'hasn't been'</strong>: singular contraction (&quot;has not been&quot;); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>Choice B &mdash; 'wasn't'</strong>: singular past tense (&quot;was not&quot;); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>Choice C &mdash; 'isn't'</strong>: singular present tense (&quot;is not&quot;); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>Choice D &mdash; 'aren't'</strong>: plural present tense (&quot;are not&quot;); agrees with the plural subject <em>talents</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

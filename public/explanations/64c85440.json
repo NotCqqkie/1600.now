@@ -1,15 +1,11 @@
 {
-  "questionId": "64c85440",
-  "correctAnswer": "D",
-  "section": "Math",
+  "qid": "64c85440",
   "steps": [
-    {
-      "title": "Set up the inequality for the width constraint",
-      "content": "If <em>n</em> parking spaces fit perpendicular to a 135-foot curb, each space has width $\\frac{135}{n}$ feet. Since standard widths are between 7.5 and 9.0 feet, we write: $$7.5 \\le \\frac{135}{n} \\le 9.0$$"
-    },
-    {
-      "title": "Solve the compound inequality for n",
-      "content": "<strong>Left inequality:</strong> From $7.5 \\le \\frac{135}{n}$, multiply by <em>n</em> (positive) to get $7.5n \\le 135$, then divide by 7.5 to get $n \\le 18$.<br/><strong>Right inequality:</strong> From $\\frac{135}{n} \\le 9$, multiply by <em>n</em> to get $135 \\le 9n$, then divide by 9 to get $15 \\le n$.<br/>Combining both results: $$15 \\le n \\le 18$$ That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
+    "If \\(n\\) spaces fill a 135-foot curb, each space has width \\(\\frac{135}{n}\\) feet. The standard width constraint gives \\(7.5 \\le \\frac{135}{n} \\le 9.0\\).",
+    "From \\(\\frac{135}{n} \\le 9\\): multiply both sides by \\(n\\) to get \\(135 \\le 9n\\), so \\(n \\ge 15\\).",
+    "From \\(7.5 \\le \\frac{135}{n}\\): multiply both sides by \\(n\\) to get \\(7.5n \\le 135\\), so \\(n \\le 18\\).",
+    "Combining: \\(15 \\le n \\le 18\\)."
+  ],
+  "eliminationHtml": "<ul><li><strong>Choice A &mdash; '\\(18 \\le n \\le 135\\)'</strong>: The upper bound 135 has no basis; a 135-foot curb cannot hold 135 spaces each at least 7.5 feet wide. &#10007;</li><li><strong>Choice B &mdash; '\\(7.5 \\le n \\le 9\\)'</strong>: These are the widths in feet, not the number of spaces. &#10007;</li><li><strong>Choice C &mdash; '\\(15 \\le n \\le 135\\)'</strong>: The lower bound 15 is correct, but the upper bound 135 is far too high. &#10007;</li><li><strong>Choice D &mdash; '\\(15 \\le n \\le 18\\)'</strong>: \\(135 \\div 9 = 15\\) (minimum spaces) and \\(135 \\div 7.5 = 18\\) (maximum spaces). Both bounds are correct. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D"
 }

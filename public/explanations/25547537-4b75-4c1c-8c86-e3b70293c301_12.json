@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The decisive clue is Alegado and colleagues' conclusion that neither *V. fischeri* nor *B. fragilis* are likely to have played a significant role in the development of multicellular organisms."
+      "title": "Identify what the passage establishes",
+      "content": "The passage describes Alegado and colleagues' research on <em>S. rosetta</em> colony formation. The key finding is that Alegado's team concluded neither <em>V. fischeri</em> nor <em>B. fragilis</em> played a significant role in multicellular development — meaning neither bacterium reliably triggered colony formation in <em>S. rosetta</em>."
     },
     {
-      "title": "Match the meaning",
-      "content": "D captures the shift exactly. <strong>A</strong>, <strong>B</strong>, and <strong>C</strong> each miss the contrast \u2014 that matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; 'S. rosetta tended to form colonies when exposed to V. fischeri and when exposed to B. fragilis.'</strong>: Both bacteria triggered colony formation — this contradicts the conclusion that neither played a significant role. &#10007;</li><li><strong>Choice B &mdash; 'S. rosetta tended to form colonies when exposed to V. fischeri, but not when exposed to B. fragilis.'</strong>: Only one bacterium triggered colonies — still contradicts ruling out both bacteria's significance. &#10007;</li><li><strong>Choice C &mdash; 'S. rosetta tended to form colonies when exposed to B. fragilis, but not when exposed to V. fischeri.'</strong>: Only <em>B. fragilis</em> triggered colonies — still contradicts the conclusion that neither was significant. &#10007;</li><li><strong>Choice D &mdash; 'S. rosetta did not tend to form colonies when exposed to either V. fischeri or B. fragilis.'</strong>: Neither bacterium triggered colony formation — this directly supports the conclusion that neither played a significant role. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

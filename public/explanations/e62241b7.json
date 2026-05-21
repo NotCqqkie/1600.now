@@ -1,15 +1,1 @@
-{
-  "questionId": "e62241b7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and determine its number",
-      "content": "The subject is \u201cthe country's name\u201d\u2014a singular noun phrase (one country, one name). The verb that follows must be singular."
-    },
-    {
-      "title": "Choose the matching verb form",
-      "content": "Only <strong>is</strong> is a singular verb form. The other three options (are, have been, are being) are all plural forms that violate subject-verb agreement. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e62241b7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and determine its number", "content": "The subject is <em>the country&apos;s name</em> — a singular noun phrase (one country, one name). The verb must agree with a singular subject."}, {"title": "Eliminate wrong choices and confirm", "content": "<ul><li><strong>Choice A &mdash; &apos;are&apos;</strong>: Plural verb — does not agree with the singular subject <em>the country&apos;s name</em>. &#10007;</li><li><strong>Choice B &mdash; &apos;have been&apos;</strong>: Plural verb — does not agree with the singular subject. &#10007;</li><li><strong>Choice C &mdash; &apos;are being&apos;</strong>: Plural verb — does not agree with the singular subject. &#10007;</li><li><strong>Choice D &mdash; &apos;is&apos;</strong>: Singular verb — agrees correctly with <em>the country&apos;s name</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

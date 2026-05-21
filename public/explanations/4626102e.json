@@ -1,15 +1,10 @@
 {
-  "questionId": "4626102e",
-  "correctAnswer": "C",
-  "section": "Math",
+  "qid": "4626102e",
   "steps": [
-    {
-      "title": "Understand the effect of adding a constant to all values",
-      "content": "When a constant is added to every value in a dataset, two key things happen: <ul><li><strong>The median shifts</strong> by that same constant. If you add 56 to all values, the median also increases by 56.</li><li><strong>The range stays the same.</strong> Range = max \u2212 min. When both the maximum and minimum shift by 56, their difference remains unchanged.</li></ul>"
-    },
-    {
-      "title": "Apply the rule to data set B",
-      "content": "Data set B is formed by adding 56 to each value in data set A. <ul><li>Median of B = Median of A + 56, so median of B is <strong>greater than</strong> median of A.</li><li>Range of B = (max<sub>B</sub> \u2212 min<sub>B</sub>) = (max<sub>A</sub> + 56) \u2212 (min<sub>A</sub> + 56) = max<sub>A</sub> \u2212 min<sub>A</sub> = Range of A, so the ranges are <strong>equal.</strong></li></ul> This matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
+    "Adding a constant to every value in a data set shifts all values equally.",
+    "The median is the 8th value (middle of 15) when ordered. Adding 56 to every value shifts the ordered list up by 56, so the median of B = median of A + 56 &mdash; it is greater.",
+    "Range = max &minus; min. Adding 56 to both max and min: (max + 56) &minus; (min + 56) = max &minus; min. Range is unchanged.",
+    "<ul><li><strong>Choice A &mdash; 'medians equal, ranges equal'</strong>: Median of B is 56 more than median of A, so they are not equal. &#10007;</li><li><strong>Choice B &mdash; 'medians equal, range of B greater'</strong>: Medians are not equal, and the range does not grow. &#10007;</li><li><strong>Choice C &mdash; 'median of B greater, ranges equal'</strong>: Adding 56 raises every value, so the median rises; max &minus; min is unchanged. &#10003;</li><li><strong>Choice D &mdash; 'median of B greater, range of B greater'</strong>: The median comparison is correct, but the range stays the same. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+  ],
+  "correctAnswer": "C"
 }

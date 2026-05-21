@@ -1,15 +1,1 @@
-{
-  "questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_21",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the correction pattern",
-      "content": "Chaucer <em>didn't write in Modern English</em>, and the sentence shifts to what he actually did write (Middle English). The blank must bridge this negation to the actual fact\u2014a direct correction."
-    },
-    {
-      "title": "Match the corrective word",
-      "content": "The logical relationship is contrast/correction: the sentence negates Modern English, then states the true alternative (Middle English). The blank needs a transition signaling \"instead\" or \"on the contrary.\"<ul><li><strong>Choice A \u2014 \"rather,\"</strong>: signals correction or substitution (\"not X, rather Y\"), so fits the shift from false to true. \u2713</li><li><strong>Choice B \u2014 \"finally,\"</strong>: signals the last item in a sequence, so fails \u2014 no sequence is present. \u2717</li><li><strong>Choice C \u2014 \"as a result,\"</strong>: signals cause-and-effect, so fails \u2014 not writing in Modern English did not cause him to write in Middle English. \u2717</li><li><strong>Choice D \u2014 \"similarly,\"</strong>: signals agreement or likeness, so fails \u2014 the two clauses are contrasting, not alike. \u2717</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ff866f0f-f295-4895-b84d-a5c603adf51a_21", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Understand the sentence structure", "content": "The sentence negates one fact (&ldquo;Chaucer didn&rsquo;t write in Modern English&rdquo;) and then states the true alternative (&ldquo;he wrote in what we now call Middle English&rdquo;). The blank must signal a correction or substitution &mdash; not a sequence, cause-and-effect, or comparison."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;rather,&rsquo;</strong>: signals correction or substitution (&ldquo;not X, rather Y&rdquo;), matching the shift from the false claim to the true alternative. &#10003;</li><li><strong>Choice B &mdash; &lsquo;finally,&rsquo;</strong>: signals the last item in a sequence, but no sequence exists in this sentence. &#10007;</li><li><strong>Choice C &mdash; &lsquo;as a result,&rsquo;</strong>: signals cause-and-effect, but not writing in Modern English did not cause Chaucer to write in Middle English. &#10007;</li><li><strong>Choice D &mdash; &lsquo;similarly,&rsquo;</strong>: signals likeness or agreement, but the two clauses contrast rather than agree. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

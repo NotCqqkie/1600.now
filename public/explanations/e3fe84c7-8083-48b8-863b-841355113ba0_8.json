@@ -1,20 +1,12 @@
 {
-  "questionId": "e3fe84c7-8083-48b8-863b-841355113ba0_8",
-  "correctAnswer": "D",
-  "section": "Math",
+  "qid": "e3fe84c7-8083-48b8-863b-841355113ba0_8",
   "steps": [
-    {
-      "title": "Recall the hemisphere volume formula",
-      "content": "A hemisphere is half of a sphere. The volume of a sphere is $V_{sphere} = \\frac{4}{3}\\pi r^3$, so the volume of a hemisphere is half of that:",
-      "formula": "$$V_{hemisphere} = \\frac{2}{3}\\pi r^3$$"
-    },
-    {
-      "title": "Calculate the cube of the radius",
-      "content": "With $r = 83$ inches, compute $83^3$:<br/>$$83^2 = 6,889$$<br/>$$83^3 = 6,889 \\times 83 = 571,787$$"
-    },
-    {
-      "title": "Substitute and compute the volume",
-      "content": "$$V = \\frac{2}{3}\\pi(571,787)$$<br/>Using $\\pi \\approx 3.14159$:<br/>$$V \\approx \\frac{2}{3}(3.14159)(571,787) \\approx 2.0944 \\times 571,787 \\approx 1,197,517$$<br/>This is closest to 1,197,500. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
+    "A hemisphere is half a sphere. Volume of a sphere = \\(\\frac{4}{3}\\pi r^3\\), so hemisphere volume = \\(\\frac{2}{3}\\pi r^3\\).",
+    "Compute \\(r^3\\) with \\(r = 83\\): \\(83^2 = 6{,}889\\); \\(83^3 = 6{,}889 \\times 83 = 571{,}787\\).",
+    "\\(V = \\frac{2}{3}\\pi(571{,}787) \\approx \\frac{2}{3}(3.14159)(571{,}787) \\approx 2.0944 \\times 571{,}787 \\approx 1{,}197{,}500\\).",
+    "<ul><li><strong>Choice A &mdash; '14,400'</strong>: Far too small; this is roughly \\(\\pi r^2\\) for a small radius. &#10007;</li><li><strong>Choice B &mdash; '57,700'</strong>: Too small by a factor of about 20; perhaps a miscalculation using \\(r^2\\) instead of \\(r^3\\). &#10007;</li><li><strong>Choice C &mdash; '898,200'</strong>: Close but not the nearest; this would correspond to using \\(\\pi \\approx 3\\) only. &#10007;</li><li><strong>Choice D &mdash; '1,197,500'</strong>: Matches the computed value \\(\\approx 1{,}197{,}500\\). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+    "desmosExpressions: \\(\\frac{2}{3}\\pi(83)^3\\)"
+  ],
+  "correctAnswer": "D",
+  "desmosExpressions": ["\\frac{2}{3}\\pi(83)^3"]
 }

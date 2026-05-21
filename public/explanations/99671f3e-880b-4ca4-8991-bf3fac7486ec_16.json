@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_16",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent and grammatical need",
-      "content": "The blank in \"______ peer autonomous Soviet socialist republics\" requires a possessive. The antecedent is \"Mari Autonomous Soviet Socialist Republic\" (singular)."
-    },
-    {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "Identify the grammar issue: possessive pronoun vs. contraction. Rule: a possessive pronoun has no apostrophe; a contraction with an apostrophe means \"it is\" or \"they are,\" not ownership.\n<ul>\n<li><strong>Choice A — \"they're\"</strong>: contraction of \"they are\"; not a possessive and is plural. ✗</li>\n<li><strong>Choice B — \"its\"</strong>: singular possessive pronoun; correctly refers to the singular antecedent. ✓</li>\n<li><strong>Choice C — \"their\"</strong>: plural possessive; does not agree with singular antecedent. ✗</li>\n<li><strong>Choice D — \"it's\"</strong>: contraction of \"it is\"; not a possessive. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_16", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank needs", "content": "The blank fills &quot;Like ______ peer autonomous Soviet socialist republics.&quot; The antecedent is &quot;the Mari Autonomous Soviet Socialist Republic&quot; &mdash; singular. The blank needs a singular possessive pronoun, not a contraction."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;they&apos;re&apos;</strong>: contraction of &quot;they are&quot;; plural and not a possessive. &#10007;</li><li><strong>Choice B &mdash; &apos;its&apos;</strong>: singular possessive pronoun; correctly refers to the singular Mari Republic. &#10003;</li><li><strong>Choice C &mdash; &apos;their&apos;</strong>: plural possessive; does not agree with the singular antecedent. &#10007;</li><li><strong>Choice D &mdash; &apos;it&apos;s&apos;</strong>: contraction of &quot;it is&quot;; not a possessive. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

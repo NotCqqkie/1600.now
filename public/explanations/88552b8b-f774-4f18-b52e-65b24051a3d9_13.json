@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_13",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "<strong>Teaching people to speak dishonestly</strong> is the claim\u2019s core clue; the quotation must show sophists instructing or praising dishonest speech."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice C quotes Strepsiades wanting to become \u201ca fabricator of falsehoods, inventive of words \u2026 a dissembler,\u201d which directly shows sophists teaching dishonest speech.<br/>The other choices either encourage studying sophistry, celebrate cleverness, or ask about memory, none of which illustrate the dishonesty claim.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_13", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the specific claim to illustrate", "content": "The passage says Aristophanes satirizes sophists as <strong>teaching people to speak dishonestly</strong>. The correct quotation must show a character being taught&mdash;or wanting to learn&mdash;dishonest speech directly from a sophist. A quotation that merely shows enthusiasm for sophistry, desire for wealth, or memory training will not do."}, {"title": "Eliminate choices that miss the dishonesty claim, then confirm the match", "content": "<ul><li><strong>Choice A &mdash; 'Strepsiades encourages his son to learn to be a sophist, saying, &quot;If you have any concern for your father&apos;s patrimony, become one of them.&quot;'</strong>: Urges joining sophists for financial reasons&mdash;no mention of dishonest speech. &#10007;</li><li><strong>Choice B &mdash; 'Pheidippides says, after taking lessons from a sophist, &quot;How pleasant it is to be acquainted with new and clever things, and to be able to despise the established laws!&quot;'</strong>: Celebrates cleverness and lawlessness, not specifically the instruction of dishonest speaking. &#10007;</li><li><strong>Choice C &mdash; 'Strepsiades, taking lessons from a sophist, says he wants to become &quot;a fabricator of falsehoods, inventive of words, a practiced knave in lawsuits.... a fox, a sharper, a slippery knave, a dissembler, a slippery fellow, an impostor.&quot;'</strong>: A student mid-lesson explicitly lists dishonest speaking skills (&quot;fabricator of falsehoods,&quot; &quot;dissembler&quot;)&mdash;directly illustrating sophists teaching dishonest speech. &#10003;</li><li><strong>Choice D &mdash; 'Socrates, a sophist, says to a potential customer, &quot;I wish to briefly learn from you if you are possessed of a good memory.&quot;'</strong>: Shows a sophist asking about memory&mdash;no connection to dishonest speech. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

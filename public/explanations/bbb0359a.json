@@ -1,16 +1,1 @@
-{
-  "questionId": "bbb0359a",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope from the table",
-      "content": "Pick any two data points from the table, such as $(1, 11)$ and $(2, 16)$. The slope is:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{16 - 11}{2 - 1} = \\frac{5}{1} = 5$$"
-    },
-    {
-      "title": "Find y-intercept and match to a choice",
-      "content": "Substitute the slope $m = 5$ and point $(1, 11)$ into $y = mx + b$:<br/>$$11 = 5(1) + b$$<br/>$$b = 6$$<br/>The equation is $y = 5x + 6$. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["y=5x+6"]
-    }
-  ]
-}
+{"questionId": "bbb0359a", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Find the slope from the table", "content": "The table contains three $(x, y)$ pairs. Using $(1, 11)$ and $(2, 16)$:<br/>$$m = \\frac{16 - 11}{2 - 1} = \\frac{5}{1} = 5$$<br/>The slope is $5$. This eliminates choices C and D (slope $= 6$)."}, {"title": "Find the y-intercept", "content": "Use slope-intercept form $y = mx + b$ with $m = 5$ and point $(1, 11)$:<br/>$$11 = 5(1) + b \\implies b = 6$$<br/>The linear equation is $y = 5x + 6$."}, {"title": "Eliminate wrong choices", "content": "<ul><li><strong>Choice A &mdash; '$y = 5x + 6$'</strong>: Slope $5$ matches the table; $y$-intercept $b = 6$ checks out via $(1, 11) \\to 5(1)+6=11$ &#10003; and $(2, 16) \\to 5(2)+6=16$ &#10003;. &#10003;</li><li><strong>Choice B &mdash; '$y = 5x + 11$'</strong>: Slope is correct ($5$), but $y$-intercept $11$ gives $y = 5(1)+11 = 16 \\ne 11$ at $x=1$. Fails the table. &#10007;</li><li><strong>Choice C &mdash; '$y = 6x + 5$'</strong>: Slope $6 \\ne 5$ contradicts the table difference of $5$ per unit step. &#10007;</li><li><strong>Choice D &mdash; '$y = 6x + 11$'</strong>: Slope $6 \\ne 5$ and $y$-intercept $11$ are both wrong. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.", "desmosExpressions": ["y=5x+6"]}]}

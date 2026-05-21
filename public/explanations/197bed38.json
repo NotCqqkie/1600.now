@@ -1,15 +1,1 @@
-{
-  "questionId": "197bed38",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the vertex from the graph",
-      "content": "The parabola reaches its peak at $x = 2$, which is the vertex. For a downward-opening parabola, the graph increases to the left of the vertex and decreases to the right of the vertex."
-    },
-    {
-      "title": "Check which interval is entirely in the increasing region",
-      "content": "<ul><li><strong>A (0 to 2):</strong> Entirely to the left of the vertex\u2014the graph is increasing throughout.</li><li><strong>B (0 to 4):</strong> Crosses the vertex at $x = 2$, so it includes decreasing values.</li><li><strong>C & D:</strong> Both start at or after the vertex, entirely in the decreasing region.</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"qid":"197bed38","steps":["An object launched upward follows a parabolic path: height increases until the peak (vertex), then decreases. The graph shows the vertex at \\(x=2\\).","For a downward-opening parabola, height is increasing for \\(x < 2\\) and decreasing for \\(x > 2\\).","An interval where height is increasing for the ENTIRE interval must lie entirely to the left of the vertex (\\(x=2\\))."],"explanation":"<ul><li><strong>Choice A &mdash; 'From \\(x=0\\) to \\(x=2\\)'</strong>: The entire interval is at or before the vertex. The object is rising throughout \\([0,2]\\). &#10003;</li><li><strong>Choice B &mdash; 'From \\(x=0\\) to \\(x=4\\)'</strong>: The object peaks at \\(x=2\\) and is falling from \\(x=2\\) to \\(x=4\\), so height is NOT increasing for the entire interval. &#10007;</li><li><strong>Choice C &mdash; 'From \\(x=2\\) to \\(x=3\\)'</strong>: \\(x=2\\) is the vertex (maximum). From that point onward the object is falling, so height is not increasing on this interval. &#10007;</li><li><strong>Choice D &mdash; 'From \\(x=3\\) to \\(x=4\\)'</strong>: This is after the peak &mdash; the object is falling the entire time. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct.","correctAnswer":"A"}

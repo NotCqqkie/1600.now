@@ -1,15 +1,1 @@
-{
-  "questionId": "ecba68b5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject's number",
-      "content": "The subject is a noun phrase: \u201cMathematician Grigori Perelman\u201d (singular) modified by a prepositional phrase. Prepositional phrases don't affect the subject's number, so it remains singular. The blank introduces a verb before the predicate phrase."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "A singular subject requires a singular verb form. <em>Is</em> is the only singular choice. Choices A, B, and C all use plural verb forms (are, have been, are being), which violate agreement with the singular subject. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ecba68b5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and its number", "content": "The subject is &quot;Mathematician Grigori Perelman&quot; &mdash; a single person, therefore singular. The long phrase &quot;sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau&quot; is a parenthetical modifier, not part of the subject. The verb must agree with the singular subject Perelman."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'are'</strong>: plural present verb; does not agree with the singular subject &quot;Mathematician Grigori Perelman.&quot; &#10007;</li><li><strong>Choice B &mdash; 'have been'</strong>: plural present-perfect verb; does not agree with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'are being'</strong>: plural present-progressive verb; does not agree with the singular subject. &#10007;</li><li><strong>Choice D &mdash; 'is'</strong>: singular present verb; agrees with the singular subject &quot;Mathematician Grigori Perelman.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

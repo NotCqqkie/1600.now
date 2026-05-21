@@ -1,1 +1,10 @@
-{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_14","correctAnswer":"D","section":"Math","steps":[{"title":"Set up","content":"$r$ objects have total mass $t$ kg, so one object has mass $\\frac{t}{r}$ kg. Scale to $146r$ objects:$$146r \\times \\frac{t}{r} = 146t \\text{ kg}$$"},{"title":"Solve","content":"The $r$&apos;s cancel, leaving $146t$."},{"title":"Answer","content":"<strong>D</strong> is correct."}]}
+{
+  "qid": "ad300285-6ff9-46a9-97ab-7356c9cd2965_14",
+  "steps": [
+    "\\(r\\) identical objects have total mass \\(t\\) kg, so each object has mass \\(\\frac{t}{r}\\) kg.",
+    "Total mass of \\(146r\\) such objects: \\(146r \\times \\frac{t}{r} = 146t\\) kg. The \\(r\\) cancels.",
+    "The answer is \\(146t\\)."
+  ],
+  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '\\(146 - t\\)'</strong>: Subtracting \\(t\\) from 146 has no physical meaning for scaling mass. &#10007;</li><li><strong>Choice B &mdash; '\\(146 + t\\)'</strong>: Adding \\(t\\) to 146 does not reflect proportional scaling. &#10007;</li><li><strong>Choice C &mdash; '\\(\\frac{t}{146}\\)'</strong>: This would give the mass of \\(\\frac{r}{146}\\) objects, the opposite of what is needed. &#10007;</li><li><strong>Choice D &mdash; '\\(146t\\)'</strong>: Multiplying \\(146r\\) objects by \\(\\frac{t}{r}\\) each correctly gives \\(146t\\). &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D"
+}

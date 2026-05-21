@@ -3,14 +3,11 @@
   "correctAnswer": "B",
   "section": "Math",
   "steps": [
-    {
-      "title": "Identify easy-to-read points from the graph",
-      "content": "The line passes through $(0, 35)$ (y-intercept) and $(90, 0)$ (x-intercept)."
-    },
-    {
-      "title": "Test choice B",
-      "content": "For $7x + 18y = 630$:<ul><li>At $(0, 35)$: $7(0) + 18(35) = 630$ \u2713</li><li>At $(90, 0)$: $7(90) + 18(0) = 630$ \u2713</li></ul>Both points satisfy the equation. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["7x+18y=630"]
-    }
-  ]
+    "The graph models a budget constraint: Kira spends a fixed total buying T-shirts at one price and sweatshirts at another price.",
+    "A budget line takes the form (price per T-shirt)&middot;x + (price per sweatshirt)&middot;y = budget. The graph&apos;s intercepts reveal the prices: the y-intercept (max sweatshirts when x=0) and x-intercept (max T-shirts when y=0) both must satisfy the equation.",
+    "From the graph the line passes through (0, 35) and (90, 0). Test choice B: 7(0) + 18(35) = 630 and 7(90) + 18(0) = 630. Both intercepts check out, so T-shirts cost $7 and sweatshirts cost $18 with a $630 budget.",
+    "That matches choice B &mdash; <strong>B</strong> is correct."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; 'y = 7x + 18'</strong>: A slope-intercept line, not a budget constraint. It implies sweatshirts grow as a multiple of T-shirts bought, which makes no sense for a fixed spending limit. &#10007;</li><li><strong>Choice B &mdash; '7x + 18y = 630'</strong>: Budget line with T-shirts at $7 and sweatshirts at $18. At (0, 35): 18(35) = 630 &#10003;. At (90, 0): 7(90) = 630 &#10003;. Both intercepts satisfy this equation. &#10003;</li><li><strong>Choice C &mdash; 'y = 18x + 7'</strong>: Slope-intercept form with slope 18, not a budget constraint. Sweatshirts would increase without bound as more T-shirts are bought. &#10007;</li><li><strong>Choice D &mdash; '18x + 7y = 630'</strong>: Budget line with T-shirts at $18 and sweatshirts at $7. At (0, 35): 7(35) = 245 &ne; 630. Fails the y-intercept check. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.",
+  "desmosExpressions": ["7x+18y=630"]
 }

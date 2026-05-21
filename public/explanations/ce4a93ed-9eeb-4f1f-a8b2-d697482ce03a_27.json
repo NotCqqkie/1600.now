@@ -1,15 +1,1 @@
-{
-  "questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_27",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The question asks to emphasize the LOCATION of the figures in <em>A Promise</em>. The notes specifically identify that in <em>A Promise</em>, two men are \u201cfloating on the left side of the canvas\u201d \u2014 this spatial positioning is the focal detail."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A directly centers on the figures' location by stating \u201ctwo men are depicted on the left side of the canvas.\u201d The other three emphasize size, mood, or water color instead. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_27", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the question is asking for", "content": "The question asks for the choice that emphasizes the LOCATION of the figures in <em>A Promise</em>. The notes state that in <em>A Promise</em> two men are &ldquo;floating on the left side of the canvas&rdquo; &mdash; that spatial detail is the target. Evaluate each choice against this criterion:<ul><li><strong>Choice A &mdash; &lsquo;In Rawles&rsquo;s painting <em>A Promise</em>, two men are depicted on the left side of the canvas.&rsquo;</strong>: directly states where the figures are located on the canvas. &#10003;</li><li><strong>Choice B &mdash; &lsquo;At 48 by 72 inches, Rawles&rsquo;s <em>A Promise</em> is even larger than the sizable 48-by-60-inch painting <em>Little Swimmer</em>.&rsquo;</strong>: emphasizes the size of the painting, not the location of the figures. &#10007;</li><li><strong>Choice C &mdash; &lsquo;While the number of figures may differ, constant among Rawles&rsquo;s hyperrealistic works is the tranquil mood that the paintings evoke.&rsquo;</strong>: emphasizes mood across paintings, not figure location in <em>A Promise</em>. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Rawles captures the water in paintings such as <em>Little Swimmer</em> and <em>A Promise</em> in vivid hues of light blue and cobalt.&rsquo;</strong>: emphasizes water color, not figure location. &#10007;</li></ul>"}, {"title": "Confirm the answer", "content": "Only Choice A identifies where the figures are positioned in <em>A Promise</em>, directly addressing the question&rsquo;s emphasis on location. That matches choice A &mdash; <strong>A</strong> is correct."}]}

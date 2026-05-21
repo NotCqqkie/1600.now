@@ -1,15 +1,1 @@
-{
-  "questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_14",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the central paradox",
-      "content": "The key signal is the contradiction: astronomers know approximately 200 quasars formed very early in the universe, yet the passage states conditions were \u201cbelieved to have been ill-suited to their creation.\u201d This paradox\u2014facts contradicting theory\u2014is the decisive clue."
-    },
-    {
-      "title": "Match the logical inference",
-      "content": "D captures the logical inference from the paradox: when facts contradict our understanding, the understanding must be incomplete or wrong. The other choices address unrelated properties or specific examples instead of the core puzzle. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "5a4b09bc-842b-4866-ae63-c98b8f2cc56e_14", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical structure of the passage", "content": "The passage establishes a paradox: astronomers know roughly 200 quasars formed in the universe's first billion years, yet conditions were &quot;believed to have been ill suited&quot; to quasar formation that early. The phrase &quot;which suggests that&quot; requires a conclusion that follows logically from this contradiction between what we observe and what our theory predicts."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'quasars that formed in the early universe are likely not as luminous as those that formed later.'</strong>: Luminosity is not mentioned in the passage and does not follow from the paradox about formation conditions. &#10007;</li><li><strong>Choice B &mdash; '3C 273 is thought to have formed less than a billion years after the beginnings of the universe.'</strong>: This restates a detail about one specific quasar rather than drawing any conclusion from the paradox. &#10007;</li><li><strong>Choice C &mdash; '3C 273 is likely less massive than quasars that formed more than a billion years after the beginnings of the universe.'</strong>: Mass comparisons are not supported by anything in the passage; this introduces unrelated speculation. &#10007;</li><li><strong>Choice D &mdash; 'some aspect of the scientific understanding of quasar formation or the early universe may be incomplete.'</strong>: When observed facts contradict theoretical predictions, the logical conclusion is that the theory is incomplete &mdash; exactly what the paradox implies. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

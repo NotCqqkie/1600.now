@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the pronoun replaces",
-      "content": "The sentence says \"______ will begin to combust.\" The prior sentence names \"the substance\" (chicken fat) — a singular, non-human noun. The pronoun must refer back to \"the substance.\""
+      "title": "Identify the antecedent the pronoun must match",
+      "content": "The sentence reads &quot;______ will begin to combust.&quot; The preceding sentence names &quot;the substance&quot; (chicken fat) — a singular, non-human noun. The pronoun must refer back to &quot;the substance&quot; and therefore must be singular and non-human."
     },
     {
-      "title": "Eliminate wrong pronouns",
-      "content": "Rule: a pronoun must match its antecedent in number. \"The substance\" is singular.\n\nA. \"those\" — plural demonstrative pronoun. Fails: \"the substance\" is singular, not plural.\nB. \"they\" — plural personal pronoun. Fails: same number mismatch as \"those.\"\nC. \"that\" — singular demonstrative, but used to point to a new noun, not refer back to one already named. \"That will begin to combust\" sounds like introducing a new subject. Fails: awkward and non-standard for simple back-reference.\nD. \"it\" — singular personal pronoun for non-human nouns. Correctly refers back to the singular noun \"the substance.\" Correct.\n\nThat matches choice D — <strong>D</strong> is correct."
+      "title": "Eliminate each choice and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; 'those'</strong>: plural demonstrative pronoun; &quot;the substance&quot; is singular. &#10007;</li><li><strong>Choice B &mdash; 'they'</strong>: plural personal pronoun; same number mismatch. &#10007;</li><li><strong>Choice C &mdash; 'that'</strong>: singular demonstrative, but &quot;that will begin to combust&quot; sounds as if it introduces a new subject rather than referring back to one already named; non-standard for simple back-reference. &#10007;</li><li><strong>Choice D &mdash; 'it'</strong>: singular personal pronoun for non-human nouns; correctly refers back to the singular &quot;the substance.&quot; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

@@ -1,1 +1,23 @@
-{"questionId": "fa2771d5", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Extract the center and radius of Circle A", "content": "The equation $(x-7)^2 + (y+3)^2 = 1$ is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the center is $(h, k)$ and radius is $r$. Comparing, Circle A has center $(7, -3)$ and radius $1$."}, {"title": "Apply the translation right 4 units", "content": "Translating right means adding 4 to the x-coordinate of the center. The new center is $(7 + 4, -3) = (11, -3)$. The radius remains $1$ since translations don't change size. The equation of Circle B is $(x-11)^2 + (y+3)^2 = 1$. That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["(x-7)^2 + (y+3)^2 = 1", "(x-11)^2 + (y+3)^2 = 1"]}]}
+{
+  "questionId": "fa2771d5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the center and radius of circle A",
+      "content": "The standard form of a circle is $$(x-h)^2+(y-k)^2=r^2$$. Circle A has equation $$(x-7)^2+(y+3)^2=1$$, so the center is $$(7,-3)$$ and the radius is $$1$$."
+    },
+    {
+      "title": "Apply the translation right 4 units",
+      "content": "Translating right by 4 adds 4 to the x-coordinate of the center. New center: $$(7+4,-3)=(11,-3)$$. The radius stays $$1$$. Circle B's equation is $$(x-11)^2+(y+3)^2=1$$."
+    },
+    {
+      "title": "Eliminate wrong choices and confirm",
+      "content": "<ul><li><strong>Choice A &mdash; '$(x-7)^2+(y+7)^2=1$'</strong>: Center would be (7,-7). The x did not shift and y changed incorrectly. &#10007;</li><li><strong>Choice B &mdash; '$(x-3)^2+(y+3)^2=1$'</strong>: Center would be (3,-3). That shifts left 4, not right. &#10007;</li><li><strong>Choice C &mdash; '$(x-11)^2+(y+3)^2=1$'</strong>: Center is (11,-3), exactly 4 right of (7,-3). &#10003;</li><li><strong>Choice D &mdash; '$(x-7)^2+(y-1)^2=1$'</strong>: Center would be (7,1). The x did not shift and y changed incorrectly. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ],
+  "desmosExpressions": [
+    {"id": "a", "latex": "(x-7)^{2}+(y+3)^{2}=1"},
+    {"id": "b", "latex": "(x-11)^{2}+(y+3)^{2}=1"}
+  ]
+}

@@ -1,15 +1,1 @@
-{
-  "questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_16",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the antecedent",
-      "content": "The blank fills \"The Eiteljorg Museum counts pieces by S'eiltin in ______ impressive collection.\" The pronoun must refer to \"The Eiteljorg Museum\" — singular and an institution (non-person)."
-    },
-    {
-      "title": "Rule: use \"its\" for singular non-person antecedents",
-      "content": "Per-choice diagnosis:<br/><br/><strong>A. \"its\"</strong> — singular possessive for non-persons. The Museum and its collection — agreement holds. Correct.<br/><br/><strong>B. \"her\"</strong> — possessive for female persons; The Eiteljorg Museum is an institution, not a person. Incorrect.<br/><br/><strong>C. \"it's\"</strong> — contraction of \"it is\"; substitution gives \"the Museum counts pieces in it is impressive collection,\" which is ungrammatical. Incorrect.<br/><br/><strong>D. \"their\"</strong> — plural possessive; the antecedent is singular. Incorrect.<br/><br/><strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "597055d1-751c-4b9f-ad18-b9714acb7944_16", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the antecedent and what it requires", "content": "The blank fills &quot;The Eiteljorg Museum counts pieces by S'eiltin in ______ impressive collection.&quot; The pronoun refers to <strong>The Eiteljorg Museum</strong> &mdash; singular and an institution, not a person. The pronoun must be singular and non-personal."}, {"title": "Eliminate three, confirm one", "content": "<ul><li><strong>Choice A &mdash; 'its'</strong>: Singular possessive for non-persons. The Museum and its collection &mdash; agreement holds. &#10003;</li><li><strong>Choice B &mdash; 'her'</strong>: Possessive for female persons. The Eiteljorg Museum is an institution, not a person. &#10007;</li><li><strong>Choice C &mdash; 'it's'</strong>: Contraction of &quot;it is.&quot; Substituting gives &quot;the Museum counts pieces in it is impressive collection&quot; &mdash; ungrammatical. &#10007;</li><li><strong>Choice D &mdash; 'their'</strong>: Plural possessive. The antecedent (The Eiteljorg Museum) is singular. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

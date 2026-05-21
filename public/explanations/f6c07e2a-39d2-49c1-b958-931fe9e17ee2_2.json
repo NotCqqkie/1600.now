@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Divide both sides by 4",
-      "content": "Starting with $4m = 3(n + p)$, divide both sides by 4:<br/>$$\\frac{4m}{4} = \\frac{3(n+p)}{4}$$"
+      "title": "Identify the goal",
+      "content": "The equation \\(4m = 3(n + p)\\) has \\(m\\) multiplied by 4. To isolate \\(m\\), divide both sides by 4."
     },
     {
-      "title": "Simplify to isolate m",
-      "content": "$$m = \\frac{3(n+p)}{4}$$<br/>This matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Divide both sides by 4",
+      "content": "$$\\frac{4m}{4} = \\frac{3(n+p)}{4} \\implies m = \\frac{3(n+p)}{4}$$"
+    },
+    {
+      "title": "Evaluate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; '\\(m = \\frac{3(n+p)}{4}\\)'</strong>: Exactly the result of dividing both sides by 4. &#10003;</li><li><strong>Choice B &mdash; '\\(m = 3(n+p)\\)'</strong>: Omits the division by 4; this would require the original equation to be \\(m = 3(n+p)\\). &#10007;</li><li><strong>Choice C &mdash; '\\(m = 3(n+p) - 4\\)'</strong>: Incorrectly subtracts 4 instead of dividing by 4. &#10007;</li><li><strong>Choice D &mdash; '\\(m = 3 - n - p - 4\\)'</strong>: Incorrectly distributes and subtracts rather than divides by 4. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

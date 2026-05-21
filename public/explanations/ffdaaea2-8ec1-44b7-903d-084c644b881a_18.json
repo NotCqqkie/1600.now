@@ -1,1 +1,12 @@
-{"questionId":"ffdaaea2-8ec1-44b7-903d-084c644b881a_18","correctAnswer":"D","section":"Math","steps":[{"title":"Substitute and collect to standard form","content":"Set $y = x - c$ and $y = -6(x-12)^2$ equal: $x - c = -6(x-12)^2$. Expand and rearrange: $6x^2 - 143x + (864-c) = 0$."},{"title":"Discriminant shortcut for two distinct solutions","content":"Two distinct real intersections require $\\Delta > 0$: $(-143)^2 - 4(6)(864-c) > 0$, giving $20449 - 20736 + 24c > 0$, so $c > 287/24 \\approx 11.96$."},{"title":"Check choices and match","content":"Choice C gives $c = 287/24$ exactly — discriminant $= 0$, tangent only. Choice D gives $c = 24 > 11.96$, so $\\Delta > 0$: two distinct intersections. That matches choice D — <strong>D</strong> is correct.","desmosExpressions":["y = x - 24","y = -6(x - 12)^2"]}]}
+{
+  "qid": "ffdaaea2-8ec1-44b7-903d-084c644b881a_18",
+  "steps": [
+    "Set the two expressions for \\(y\\) equal: \\(x - c = -6(x-12)^2\\).",
+    "Expand and rearrange: \\(-6(x^2 - 24x + 144) - x + c = 0 \\Rightarrow 6x^2 - 143x + (864 - c) = 0\\).",
+    "For two distinct real solutions the discriminant must be strictly positive: \\(143^2 - 4 \\cdot 6 \\cdot (864 - c) > 0 \\Rightarrow 20449 - 20736 + 24c > 0 \\Rightarrow c > \\frac{287}{24} \\approx 11.96\\).",
+    "Only \\(c = 24\\) satisfies \\(c > 287/24\\); the boundary value \\(287/24\\) gives exactly one solution (tangent), and 7 and 11 are both below the threshold."
+  ],
+  "choiceEliminations": "<ul><li><strong>Choice A &mdash; '7'</strong>: \\(7 < 287/24 \\approx 11.96\\), so discriminant \\(< 0\\); no real solutions. &#10007;</li><li><strong>Choice B &mdash; '11'</strong>: \\(11 < 11.96\\), so discriminant is still negative; no real solutions. &#10007;</li><li><strong>Choice C &mdash; '\\(\\frac{287}{24}\\)'</strong>: Exactly at the threshold, discriminant \\(= 0\\); only one (repeated) solution, not two distinct ones. &#10007;</li><li><strong>Choice D &mdash; '24'</strong>: \\(24 > 11.96\\), so discriminant \\(> 0\\); two distinct real solutions. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct.",
+  "correctAnswer": "D",
+  "desmosExpressions": ["y=x-24", "y=-6(x-12)^{2}"]
+}

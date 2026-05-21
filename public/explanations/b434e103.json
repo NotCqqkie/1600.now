@@ -1,1 +1,11 @@
-{"questionId": "b434e103", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the triangle angle sum property", "content": "In any triangle, the sum of all three angles equals 180°. Given ∠R = 63°:<br/>$$63° + ∠S + ∠T = 180°$$<br/>Subtract 63° from both sides:<br/>$$∠S + ∠T = 117°$$", "formula": "$$∠A + ∠B + ∠C = 180°$$"}, {"title": "Determine valid values for ∠S", "content": "For triangle RST to exist, angle T must be positive, so ∠T > 0°. Since ∠S + ∠T = 117°, this means ∠S must be less than 117°.<br/><br/>Check each choice:<ul><li><strong>A) 116°:</strong> ∠T = 117° − 116° = 1° ✓ Valid</li><li><strong>B) 118°:</strong> ∠T = 117° − 118° = −1° ✗ Negative angle, impossible</li><li><strong>C) 126°:</strong> ∠T = 117° − 126° = −9° ✗ Negative angle, impossible</li><li><strong>D) 180°:</strong> ∠T = 117° − 180° = −63° ✗ Negative angle, impossible</li></ul>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "b434e103",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    "In any triangle, all three angles sum to 180&deg;. With &ang;R = 63&deg;: &ang;S + &ang;T = 180&deg; &minus; 63&deg; = 117&deg;.",
+    "For a valid triangle, every angle must be greater than 0&deg;. So &ang;T = 117&deg; &minus; &ang;S must be positive, which means &ang;S &lt; 117&deg;.",
+    "Check each option: A) 116&deg; &rarr; &ang;T = 1&deg; &gt; 0 (valid). B) 118&deg; &rarr; &ang;T = &minus;1&deg; (impossible). C) 126&deg; &rarr; &ang;T = &minus;9&deg; (impossible). D) 180&deg; &rarr; &ang;T = &minus;63&deg; (impossible). Only A works. That matches choice A &mdash; <strong>A</strong> is correct."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; '116'</strong>: &ang;T = 117&deg; &minus; 116&deg; = 1&deg; &gt; 0&deg;. All three angles (63&deg;, 116&deg;, 1&deg;) are positive and sum to 180&deg;. Valid triangle. &#10003;</li><li><strong>Choice B &mdash; '118'</strong>: &ang;T = 117&deg; &minus; 118&deg; = &minus;1&deg;. A negative angle is impossible in a triangle. &#10007;</li><li><strong>Choice C &mdash; '126'</strong>: &ang;T = 117&deg; &minus; 126&deg; = &minus;9&deg;. A negative angle is impossible in a triangle. &#10007;</li><li><strong>Choice D &mdash; '180'</strong>: &ang;S alone equals 180&deg;, which would account for the entire angle sum by itself, leaving no room for &ang;R or &ang;T. Impossible. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+}

@@ -1,15 +1,1 @@
-{
-  "questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_20",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the noun and relative clause",
-      "content": "The blank sits after the article <strong>a</strong> and before the relative clause <strong>who was not the first to construct the device</strong>, so it must be a noun that the relative clause describes.<br/>Thus we are looking for a noun like \u201cnatural philosopher\u201d that can be followed by that who\u2011clause."
-    },
-    {
-      "title": "Apply punctuation rule for the appositive",
-      "content": "The phrase <strong>in this case, Henry Cavendish</strong> is non\u2011restrictive extra information, so it needs matching delimiters on both sides.<br/>Only choice D uses opening and closing dashes: <strong>natural philosopher\u2014in this case, Henry Cavendish\u2014</strong>, correctly setting off the appositive.<br/>The other choices either use only one dash, a comma, or a colon, breaking the matching\u2011delimiter rule.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "88552b8b-f774-4f18-b52e-65b24051a3d9_20", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what punctuation is needed", "content": "The blank sits between &ldquo;a&rdquo; and the relative clause &ldquo;who was not the first to construct the device.&rdquo; The phrase <strong>in this case, Henry Cavendish</strong> is a non-restrictive appositive&mdash;extra identifying information that can be removed without changing the sentence&apos;s meaning. Non-restrictive appositives require matching delimiters on <em>both</em> sides (both commas, both parentheses, or both dashes)."}, {"title": "Test each choice against the matching-delimiter rule", "content": "<ul><li><strong>Choice A &mdash; 'natural philosopher: in this case, Henry Cavendish,'</strong>: Uses a colon to open and a comma to close&mdash;mismatched. A colon also cannot set off a mid-sentence appositive this way. &#10007;</li><li><strong>Choice B &mdash; 'natural philosopher&mdash;in this case, Henry Cavendish,'</strong>: Opens with a dash but closes with a comma&mdash;mismatched delimiters. &#10007;</li><li><strong>Choice C &mdash; 'natural philosopher in this case, Henry Cavendish,'</strong>: No opening delimiter at all; the appositive runs into the noun without any separation. &#10007;</li><li><strong>Choice D &mdash; 'natural philosopher&mdash;in this case, Henry Cavendish&mdash;'</strong>: Opens and closes with dashes, correctly bracketing the non-restrictive appositive on both sides. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

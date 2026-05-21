@@ -1,15 +1,1 @@
-{
-  "questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_5",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the causal connection",
-      "content": "The strongest signal is the causal link in \u201cmade it all the more exciting\u201d\u2014the author is clearly using scarcity to explain the discovery's importance."
-    },
-    {
-      "title": "Apply the signal to the choices",
-      "content": "The phrase refers to the challenging situation mentioned earlier\u2014the rarity of plant-based artifacts\u2014that frames the discovery's significance.<br/>The other options wrongly treat it as suggesting researcher failure, describing discovery uncertainty, or distinguishing artifact types.<br/>This matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "700687e2-e094-4a0d-b5c9-12227f01dbff_5", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what &ldquo;This relative scarcity&rdquo; refers to", "content": "The underlined phrase is a pronoun reference: &ldquo;This relative scarcity&rdquo; points back to something stated earlier. The previous sentence says plant-based artifacts &ldquo;are seldom studied due to their perishable nature&rdquo; &mdash; that is the scarcity. It is a difficult situation for researchers, not a failed goal, an uncertain discovery, or a contrast between artifact types.<ul><li><strong>Choice A &mdash; 'It suggests that the researchers did not fully achieve a goal outlined earlier in the text.'</strong>: No goal is outlined and then failed; the text celebrates a surprising discovery. &#10007;</li><li><strong>Choice B &mdash; 'It describes the uncertain nature of a discovery by the researchers mentioned earlier in the text.'</strong>: The scarcity refers to available artifacts in general, not to uncertainty about one specific discovery. &#10007;</li><li><strong>Choice C &mdash; 'It distinguishes between the two types of historical artifacts discussed earlier in the text.'</strong>: The phrase does not contrast stone tools and plant-based items; it describes how rare plant-based artifacts are. &#10007;</li><li><strong>Choice D &mdash; 'It refers to a challenging situation presented earlier in the text.'</strong>: The scarcity of plant-based artifacts is exactly the challenging situation described in the prior sentence. &#10003;</li></ul>"}, {"title": "Confirm the correct choice", "content": "The underlined phrase points back to the perishability problem &mdash; a challenging situation &mdash; and that scarcity is what &ldquo;made it all the more exciting&rdquo; when the team found well-preserved specimens. That matches choice D &mdash; <strong>D</strong> is correct."}]}

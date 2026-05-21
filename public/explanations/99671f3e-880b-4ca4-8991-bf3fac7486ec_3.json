@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_3",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "What meaning does the blank need?",
-      "content": "\"We are unlikely to ever have ______ account of Hatshepsut's reign\" because \"much of the evidence was deliberately destroyed.\" Without evidence, we cannot have a thorough, complete account — the blank must mean complete or comprehensive."
-    },
-    {
-      "title": "Substitute each choice",
-      "content": "The [word] needs to mean the kind of account that destroyed evidence prevents us from having. Substitute each choice: <ul><li><strong>Choice A — a superficial</strong>: shallow, lacking depth — destroyed evidence wouldn't prevent a superficial account; we could still write one with limited info. ✗</li><li><strong>Choice B — an imaginative</strong>: creative, inventive — destroying evidence doesn't prevent speculation or imagination; it prevents factual completeness. ✗</li><li><strong>Choice C — a questionable</strong>: doubtful, unreliable — we might actually be more likely to produce a questionable account after evidence is destroyed, not less likely. ✗</li><li><strong>Choice D — an exhaustive</strong>: thorough and complete in all details — destroyed evidence is exactly what prevents an exhaustive (comprehensive) account. ✓</li></ul> That matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_3", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The sentence says: &quot;we are unlikely to ever have ______ account of Hatshepsut&apos;s reign because much of the evidence was deliberately destroyed.&quot; Destroyed evidence makes it impossible to produce a thorough, complete account &mdash; the blank must mean comprehensive or exhaustive."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &apos;a superficial&apos;</strong>: Means shallow or lacking depth. Destroyed evidence would not prevent a superficial account; you can still write one with limited information. &#10007;</li><li><strong>Choice B &mdash; &apos;an imaginative&apos;</strong>: Means creative or inventive. Destroying evidence does not prevent speculation or imagination &mdash; it prevents factual completeness. &#10007;</li><li><strong>Choice C &mdash; &apos;a questionable&apos;</strong>: Means doubtful or unreliable. Paradoxically, destroyed evidence might make us more likely to produce a questionable account, not less likely. &#10007;</li><li><strong>Choice D &mdash; &apos;an exhaustive&apos;</strong>: Means thorough and complete in every detail. This is precisely what destroyed evidence prevents us from ever having. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

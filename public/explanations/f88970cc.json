@@ -1,16 +1,1 @@
-{
-  "questionId": "f88970cc",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Use the first equation to identify x",
-      "content": "The first equation is $x = 5$, which directly gives the $x$-coordinate of the solution\u2014no solving needed."
-    },
-    {
-      "title": "Substitute x into the second equation to find y",
-      "content": "The second equation is $y = x - 8$. Substitute $x = 5$:<br/>$$y = 5 - 8 = -3$$<br/>The solution to the system is $(5, -3)$. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["x = 5", "y = x - 8"]
-    }
-  ]
-}
+{"questionId": "f88970cc", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Read off x directly", "content": "The first equation is $x = 5$. This is already solved &mdash; no algebra needed. The solution must have $x = 5$."}, {"title": "Substitute into the second equation", "content": "The second equation is $y = x - 8$. Plug in $x = 5$:<br/>$$y = 5 - 8 = -3$$<br/>The solution is $(5, -3)$."}, {"title": "Eliminate wrong choices", "content": "<ul><li><strong>Choice A &mdash; '$(0, 0)$'</strong>: $x = 0 \\ne 5$, so this fails the first equation immediately. &#10007;</li><li><strong>Choice B &mdash; '$(5, -3)$'</strong>: $x = 5$ &#10003; and $y = 5 - 8 = -3$ &#10003;. Both equations satisfied. &#10003;</li><li><strong>Choice C &mdash; '$(5, -8)$'</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne -8$. Fails the second equation. &#10007;</li><li><strong>Choice D &mdash; '$(5, 8)$'</strong>: $x = 5$ &#10003;, but $y = 5 - 8 = -3 \\ne 8$. The sign is wrong. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct.", "desmosExpressions": ["x=5", "y=x-8"]}]}

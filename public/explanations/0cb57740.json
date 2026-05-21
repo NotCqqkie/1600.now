@@ -1,1 +1,11 @@
-{"questionId": "0cb57740", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Translate the problem into variables", "content": "We have a 30-sided polygon with three possible side lengths. Let me identify what we're counting:<ul><li>Let $n$ = number of sides with length 3 cm (this is what we're solving for)</li><li>The problem states the number of 8 cm sides is <em>5 times</em> the number of 3 cm sides, so: number of 8 cm sides = $5n$</li><li>We're given: number of 4 cm sides = $6$</li><li>Total sides in the polygon: 30</li></ul>"}, {"title": "Write the equation counting all sides", "content": "Since every side of the polygon must be one of the three lengths, the count of all sides must equal 30:<br/>$$\\text{(8 cm sides)} + \\text{(3 cm sides)} + \\text{(4 cm sides)} = 30$$<br/>Substituting our expressions:<br/>$$5n + n + 6 = 30$$<br/>Combining like terms:<br/>$$6n + 6 = 30$$<br/>That matches choice B — <strong>B</strong> is correct."}]}
+{
+  "questionId": "0cb57740",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    "Define variables: n = number of sides with length 3 cm (unknown). The number of 8 cm sides is 5 times n, so 5n. The number of 4 cm sides is given as 6.",
+    "All sides must account for the full 30-sided polygon: (8 cm sides) + (3 cm sides) + (4 cm sides) = 30, so 5n + n + 6 = 30.",
+    "Combining like terms: 6n + 6 = 30. That matches choice B &mdash; <strong>B</strong> is correct."
+  ],
+  "choiceElimination": "<ul><li><strong>Choice A &mdash; '5n + 6 = 30'</strong>: This omits the n sides with length 3 cm from the count. It only counts the 5n sides of 8 cm and the 6 sides of 4 cm, missing the n sides themselves. &#10007;</li><li><strong>Choice B &mdash; '6n + 6 = 30'</strong>: Counts 5n (8 cm sides) + n (3 cm sides) + 6 (4 cm sides) = 6n + 6 = 30. All three groups are included and combined correctly. &#10003;</li><li><strong>Choice C &mdash; '8n + 3n + 4n = 30'</strong>: Multiplies the lengths (8, 3, 4) by n and adds them. This mixes lengths with counts and does not equal the total number of sides. &#10007;</li><li><strong>Choice D &mdash; '8(5n) + 3n + 4(6) = 30'</strong>: Multiplies lengths by counts (e.g., 8 cm &times; 5n sides), which gives total centimeters, not total sides. This equals 30 cm, not 30 sides. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
+}

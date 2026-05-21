@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the controlling goal",
-      "content": "The student's stated objective is to \u201cemphasize a difference\u201d between the organisms' behaviors. This means the answer must present both jellyfish and black dragonfish in a way that highlights their contrasting purposes."
+      "title": "Identify what the task requires",
+      "content": "The student wants to <em>emphasize a difference between the behavior</em> of jellyfish and black dragonfish. The answer must mention both animals and explicitly contrast what each does with its light.<ul><li><strong>Choice A &mdash; 'Both jellyfish and black dragonfish are organisms that emit light, which is produced by chemical reactions in these organisms&apos; cells.'</strong>: Emphasizes a <em>similarity</em> (both emit light via chemical reactions), not a difference in behavior. &#10007;</li><li><strong>Choice B &mdash; 'Black dragonfish emit a steady red light, which helps them locate prey in deep waters.'</strong>: Describes only black dragonfish; jellyfish are absent, so no contrast between the two is possible. &#10007;</li><li><strong>Choice C &mdash; 'Bioluminescence, the emission of light by living organisms, results from chemical reactions in organisms&apos; cells.'</strong>: Defines bioluminescence generally; neither animal is mentioned, let alone contrasted. &#10007;</li><li><strong>Choice D &mdash; 'Jellyfish emit light to startle predators, whereas black dragonfish do so to locate prey.'</strong>: Uses &quot;whereas&quot; to directly contrast the two animals&apos; different purposes for emitting light, satisfying the student&apos;s goal. &#10003;</li></ul>"
     },
     {
-      "title": "Match the choice that shows the contrast",
-      "content": "Choice D does exactly this with \u201cwhereas\u201d \u2014 it contrasts their purposes directly: startle predators versus locate prey. Choices A and C discuss shared mechanisms or general facts, and Choice B names only one organism. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Confirm the contrast",
+      "content": "Choice D names both organisms and explicitly contrasts their behavioral purposes (defense vs. predation) with the contrast word &quot;whereas.&quot; No other choice does both. That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }
