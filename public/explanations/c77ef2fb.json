@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply by the denominator and expand",
-      "content": "Starting with $V_B = \\frac{V_P}{1-H}$, multiply both sides by $(1-H)$:<br/>$$V_B(1-H) = V_P$$<br/>Expand the left side:<br/>$$V_B - V_B H = V_P$$"
+      "title": "Solve for H",
+      "content": "Starting with $V_B = \\frac{V_P}{1-H}$, multiply both sides by $(1-H)$: $$V_B(1-H) = V_P$$ $$V_B - V_B H = V_P$$ $$V_B H = V_B - V_P$$ $$H = \\frac{V_B - V_P}{V_B} = 1 - \\frac{V_P}{V_B}$$"
     },
     {
-      "title": "Isolate and solve for H",
-      "content": "Rearrange to collect all terms with $H$ on one side:<br/>$$V_B - V_P = V_B H$$<br/>Divide both sides by $V_B$:<br/>$$H = \\frac{V_B - V_P}{V_B}$$<br/>Split the fraction:<br/>$$H = 1 - \\frac{V_P}{V_B}$$<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Evaluate Each Choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'H = 1 &minus; V_P/V_B'</strong>: Matches our derived result exactly. &#10003;</li><li><strong>Choice B &mdash; 'H = V_B/V_P'</strong>: This is the reciprocal of $V_P/V_B$, not what we derived. &#10007;</li><li><strong>Choice C &mdash; 'H = 1 + V_B/V_P'</strong>: Sign and ratio direction are both wrong. &#10007;</li><li><strong>Choice D &mdash; 'H = V_B &minus; V_P'</strong>: Dimensionally wrong; H must be a unitless fraction between 0 and 1. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,1 @@
-{
-  "questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_11",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize what evidence would support the claim",
-      "content": "The claim asserts that medicine and health submissions peaked in 2019. Supporting evidence must demonstrate that medicine and health in 2019 exceeded the values for this topic in every other year shown."
-    },
-    {
-      "title": "Find the choice that provides this evidence",
-      "content": "Choice D identifies medicine and health submissions at approximately 285 in 2019 as the peak value. Choices A and C discuss unrelated topics, while B reports false data. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c54d1c21-6311-4c45-9089-a236778df0e9_11", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Eliminate wrong choices", "content": "<ul><li><strong>Choice A &mdash; 'In 2016, the number of cellular and molecular biology topic submissions was the same as the number of animal science topic submissions.'</strong>: This compares two unrelated topics in 2016 and says nothing about medicine and health submissions in 2019. &#10007;</li><li><strong>Choice B &mdash; 'In 2019, there were more physics and space science topic submissions than there were medicine and health topic submissions.'</strong>: If physics and space science exceeded medicine and health in 2019, that would undercut rather than support the claim. &#10007;</li><li><strong>Choice C &mdash; 'The lowest number of animal science topic submissions in a year was approximately 95 in 2016.'</strong>: Animal science data is irrelevant to a claim about medicine and health peaking in 2019. &#10007;</li><li><strong>Choice D &mdash; 'The highest number of medicine and health topic submissions during the period shown is approximately 285 in 2019.'</strong>: This directly identifies the 2019 medicine and health bar as the highest across all years shown, which is exactly what the claim requires. &#10003;</li></ul>"}, {"title": "Confirm the answer", "content": "Choice D is the only option that reads the medicine and health data and shows 2019 was the peak year, providing direct evidence for the student&apos;s claim. That matches choice D &mdash; <strong>D</strong> is correct."}]}

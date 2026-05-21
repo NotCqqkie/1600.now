@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The passage says Nana is described as planning for events like a human would. <br/>That phrase\u2014planning for events like a human would\u2014is the single clue we need to match."
+      "content": "The prompt tells us the narrator describes Nana as <em>planning for events like a human would</em>. We need a quotation that directly shows Nana anticipating future needs &mdash; not just describing the Darlings&apos; habits or Nana&apos;s emotions. Look for concrete, forward-thinking actions."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "Choice C shows Nana remembering John\u2019s sweater and carrying an umbrella for rain, which demonstrates foresight and planning just like a person. <br/>The other choices either describe the Darlings\u2019 habits or Nana\u2019s barking, none of which illustrate planning. <br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; &apos;&quot;[Mrs. Darling] had found her two older children playing.&quot;&apos;</strong>: This is about Mrs. Darling finding the children, not Nana planning anything. &#10007;</li><li><strong>Choice B &mdash; &apos;&quot;Mrs. Darling loved to have everything just so, and Mr. Darling had a passion for being exactly like his neighbours.&quot;&apos;</strong>: This describes the parents&apos; personalities, with no mention of Nana planning ahead. &#10007;</li><li><strong>Choice C &mdash; &apos;&quot;On John&apos;s [soccer] days [Nana] never once forgot his sweater, and she usually carried an umbrella in her mouth in case of rain.&quot;&apos;</strong>: Nana remembers John&apos;s sweater and preemptively brings an umbrella in case it rains &mdash; both are acts of forward-thinking planning, exactly like a human caregiver would do. &#10003;</li><li><strong>Choice D &mdash; &apos;&quot;Nana, who had been barking distressfully all the evening, was quiet now.&quot;&apos;</strong>: This shows Nana&apos;s emotional reaction, not planning for a future event. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,1 @@
-{
-  "questionId": "04ad68ca",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the causal signal",
-      "content": "The previous sentence states that flying buttresses \u201celiminated\u201d the need for thick walls. The blank must introduce the consequence of that elimination."
-    },
-    {
-      "title": "Select the transition that fits",
-      "content": "\u201dAs a result\u201d directly signals the consequence of the previous statement. The other options\u2014similarity, examples, and contrast\u2014don't match the cause-effect progression of the passage. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "04ad68ca", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The passage says flying buttresses &ldquo;eliminated&rdquo; the need for thick walls. The blank introduces what happened next &mdash; Gothic cathedrals could use thinner, higher walls. That is a consequence, not a similarity, an example, or a contrast."}, {"title": "Eliminate wrong transitions and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;Similarly,&rsquo;</strong>: &ldquo;Similarly&rdquo; signals that the next idea resembles the previous one, but thinner walls are a <em>result</em> of the invention, not a parallel example of it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;For instance,&rsquo;</strong>: &ldquo;For instance&rdquo; introduces an example that illustrates the previous statement, but Gothic cathedrals having thinner walls is not an illustration of the flying buttress invention &mdash; it is what the invention made possible. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Nevertheless,&rsquo;</strong>: &ldquo;Nevertheless&rdquo; signals contrast or concession, implying thinner walls happened <em>despite</em> the invention, which contradicts the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;As a result,&rsquo;</strong>: &ldquo;As a result&rdquo; directly signals that thinner, higher walls were a consequence of eliminating the need for thick walls &mdash; exactly the cause-effect relationship in the passage. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

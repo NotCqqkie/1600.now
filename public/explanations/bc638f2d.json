@@ -1,16 +1,1 @@
-{
-  "questionId": "bc638f2d",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the constant term as the y-intercept",
-      "content": "In the linear function $f(t) = 14t + 9$, the constant 9 is the y-intercept. This represents the output value when the input equals zero. Since $t$ measures months after purchase, $t = 0$ is the purchase moment."
-    },
-    {
-      "title": "Evaluate the function at t = 0",
-      "content": "Substitute $t = 0$ into the function: $$f(0) = 14(0) + 9 = 9$$ The plant was 9 inches long at the moment Tavon purchased it. That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": ["y=14x+9"]
-    }
-  ]
-}
+{"qid":"bc638f2d","steps":[{"explanation":"The function f(t) = 14t + 9 is in slope-intercept form. The coefficient of t is 14 (the growth rate), and 9 is the constant term — the y-intercept, the value when t = 0."},{"explanation":"Setting t = 0: f(0) = 14(0) + 9 = 9. Since t = 0 is the moment of purchase, 9 is the length at that moment."},{"explanation":"<ul><li>A: &quot;Tavon will keep the plant for 9 months&quot; — 9 has units of inches (length), not months. Eliminated.</li><li>B: &quot;grows 9 inches each month&quot; — monthly growth is the slope, 14, not 9. Eliminated.</li><li>C: &quot;maximum length of 9 inches&quot; — a linear function increases without bound; there is no maximum. Eliminated.</li><li>D: &quot;estimated length was 9 inches when Tavon purchased it&quot; — this matches f(0) = 9. That matches choice D — <strong>D</strong> is correct.</li></ul>"}],"correctAnswer":"D"}

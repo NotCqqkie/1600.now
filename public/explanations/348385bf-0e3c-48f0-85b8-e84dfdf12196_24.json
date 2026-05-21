@@ -1,15 +1,1 @@
-{
-  "questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_24",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the cause-and-effect relationship",
-      "content": "NASA crashed a probe into Dimorphos, and the next sentence describes what happened as a result: the orbital period changed. The blank needs a word that signals this consequence or result."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "The logical relationship is cause-effect \u2014 NASA crashed a probe into Dimorphos, and that impact caused the orbital period to change. The blank needs a transition signaling a result.\n<ul>\n<li><strong>Choice A \u2014 \"In addition,\"</strong>: signals a new, separate fact, so fails \u2014 the orbital period change is not an independent detail but the direct result of the crash. \u2717</li>\n<li><strong>Choice B \u2014 \"Specifically,\"</strong>: signals a narrower detail within the same point, so fails \u2014 the orbital change is the consequence, not a specification. \u2717</li>\n<li><strong>Choice C \u2014 \"Consequently,\"</strong>: signals a direct result of what preceded it, so fits. \u2713</li>\n<li><strong>Choice D \u2014 \"In comparison,\"</strong>: signals a contrast between two things being measured against each other, so fails \u2014 no comparison is being drawn. \u2717</li>\n</ul>\nThat matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "348385bf-0e3c-48f0-85b8-e84dfdf12196_24", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "Sentence 2 says NASA intentionally crashed a probe into Dimorphos. Sentence 3 says Dimorphos&rsquo;s orbital period was permanently altered. The second event is the <em>direct result</em> of the first &mdash; the blank needs a cause-and-effect transition."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; &lsquo;In addition,&rsquo;</strong>: Signals an extra, independent fact &mdash; but the orbital change is not independent; it is the direct result of the crash. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Specifically,&rsquo;</strong>: Signals a narrower detail within the same point &mdash; but the orbital change is a consequence, not a specification of the crash itself. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Consequently,&rsquo;</strong>: Signals that what follows is a direct result of what preceded it &mdash; exactly the cause-and-effect relationship here. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In comparison,&rsquo;</strong>: Signals a contrast between two things being measured against each other &mdash; no comparison is being made in these sentences. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

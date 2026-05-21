@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammatical structure",
-      "content": "On the left of the blank is a dependent clause introduced by \u201cBecause\u201d; on the right is an independent clause."
+      "content": "The sentence opens with a dependent clause: &quot;Because regolith is both readily available and high in oxygen ______.&quot; Everything after the blank is the independent clause: &quot;scientists have wondered whether it could be used as a potential source of oxygen for future lunar settlements.&quot; A dependent clause introducing a sentence must be separated from the main clause by a comma."
     },
     {
-      "title": "Apply the introductory-clause comma rule",
-      "content": "The rule is: an introductory dependent clause must be followed by a comma before the independent clause. <br/><br/>B correctly adds the comma after \u201ccontent\u201d. C omits the required comma, creating a fused sentence, while A and D add an unnecessary \u201cand\u201d. <br/><br/>This matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'content and'</strong>: adds the conjunction &quot;and,&quot; which connects the dependent clause to the main clause as if both were independent, creating an ungrammatical sentence with no main clause. &#10007;</li><li><strong>Choice B &mdash; 'content,'</strong>: places a comma after the dependent clause, correctly marking the boundary before the main clause. &#10003;</li><li><strong>Choice C &mdash; 'content'</strong>: omits any punctuation, fusing the dependent clause into the main clause without the required boundary marker. &#10007;</li><li><strong>Choice D &mdash; 'content, and'</strong>: adds both a comma and &quot;and,&quot; which—like Choice A—produces an ungrammatical sentence lacking a proper main clause. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

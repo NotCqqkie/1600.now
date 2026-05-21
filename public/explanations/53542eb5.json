@@ -1,15 +1,1 @@
-{
-  "questionId": "53542eb5",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The sentence continues with <em>\u201cestablishing reward points and other incentives,\u201d</em> revealing that cities actively create and implement these programs."
-    },
-    {
-      "title": "Match the meaning to the choices",
-      "content": "<strong>Instituting</strong> fits\u2014it means to establish or put into effect. The other choices (occupying, underestimating, encountering) refer to different actions. This matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "53542eb5", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The blank describes what cities are doing with programs. The sentence continues: &quot;establishing reward points and other incentives for shopping at small businesses.&quot; Cities are actively creating and putting these programs into effect &mdash; so the blank needs a word meaning to formally start or establish."}, {"title": "Eliminate and match", "content": "<ul><li><strong>Choice A &mdash; 'instituting'</strong>: means to establish or put into effect. Fits perfectly with cities launching these incentive programs. &#10003;</li><li><strong>Choice B &mdash; 'occupying'</strong>: means forcibly holding possession of something. A city cannot &quot;occupy&quot; a program &mdash; this is logically incoherent. &#10007;</li><li><strong>Choice C &mdash; 'underestimating'</strong>: means failing to recognize value. The text shows cities are actively promoting small-business shopping, not doubting it. &#10007;</li><li><strong>Choice D &mdash; 'encountering'</strong>: means coming into contact with something. The cities are creating these programs, not stumbling upon them. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

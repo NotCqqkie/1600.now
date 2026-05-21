@@ -1,18 +1,18 @@
 {
-  "questionId": "659cbbc1-2d38-4d45-8ecb-79f43367862e_2",
-  "correctAnswer": "C",
-  "section": "Math",
+  "qid": "659cbbc1-2d38-4d45-8ecb-79f43367862e_2",
   "steps": [
     {
-      "title": "Decode the function notation",
-      "content": "The problem states that $x$ represents years after the investment and $f(x)$ gives the value in dollars.<br/><br/>When we write $f(2)$, we substitute $x = 2$, which means 2 years after the investment was made.<br/><br/>The statement tells us that $f(2) \\approx 9,474.08$, so the value is approximately 9,474.08 dollars."
+      "explanation": "The function \\(f(x) = 9{,}000(1.03)^x\\) gives the value of the CD in dollars, where \\(x\\) is the number of years after the investment."
     },
     {
-      "title": "Evaluate each choice against this interpretation",
-      "content": "<ul><li><strong>A:</strong> Mentions 2% interest, but the function specifies 3% — incorrect</li><li><strong>B:</strong> Uses 9,474.08 days (not years) and claims the value is approximately 2 times greater than the initial investment — incorrect</li><li><strong>D:</strong> Describes 9,474.08 as the increase from the initial amount, implying a total of $9,000 + 9,474.08$ — incorrect</li><li><strong>C:</strong> States <em>2 years after the investment was made, the value of the CD was approximately 9,474.08 dollars</em> — this is exactly what $f(2) \\approx 9,474.08$ means</li></ul>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": [
-        "f(x) = 9000 \\cdot 1.03^{x}"
-      ]
+      "explanation": "Plugging in \\(x = 2\\) gives the value 2 years after the investment: \\(f(2) = 9{,}000(1.03)^2 \\approx 9{,}474.08\\)."
+    },
+    {
+      "explanation": "So \\(f(2) \\approx 9{,}474.08\\) means the total value of the CD (not the change from the initial amount) is approximately \\$9,474.08 at 2 years."
+    },
+    {
+      "explanation": "<ul><li>A: Incorrect — the function uses 3% interest, and \\(x\\) is years, not a rate.</li><li>B: Incorrect — \\(x = 2\\) is years, not days, and \\(f(2)\\) is not 2 times the initial value.</li><li>C: 2 years after the investment, the value of the CD was approximately \\$9,474.08. This correctly interprets \\(x = 2\\) as years and \\(f(2)\\) as total value. That matches choice C — <strong>C</strong> is correct.</li><li>D: Incorrect — \\$9,474.08 is the total value, not the amount above the initial \\$9,000.</li></ul>"
     }
-  ]
+  ],
+  "correctAnswer": "C"
 }

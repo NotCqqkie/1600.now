@@ -1,15 +1,1 @@
-{
-  "questionId": "562b97f6-c42e-48b0-9911-de9db6425784_20",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the grammatical demand",
-      "content": "The phrase \"including its many ______\" requires plural nouns to identify the geological features the lander explored. We're naming the actual features—craters and rocks—not properties or possessions."
-    },
-    {
-      "title": "Apply the plural rule",
-      "content": "The phrase \"including its many ___\" lists types of geological features; the blanks must be plural nouns, not possessives (possessives would need something to possess).\n<ul>\n<li><strong>Choice A — \"craters and rock's\"</strong>: \"exploring...its many craters and rock's.\" — \"rock's\" is possessive; there is nothing following it that rock owns. ✗</li>\n<li><strong>Choice B — \"craters and rocks\"</strong>: \"exploring...its many craters and rocks.\" — both are simple plurals naming the features. ✓</li>\n<li><strong>Choice C — \"crater's and rocks\"</strong>: \"exploring...its many crater's and rocks.\" — \"crater's\" is possessive with nothing to possess. ✗</li>\n<li><strong>Choice D — \"crater's and rock's\"</strong>: \"exploring...its many crater's and rock's.\" — both are possessives; neither makes sense here. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "562b97f6-c42e-48b0-9911-de9db6425784_20", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank needs", "content": "The sentence reads: &quot;exploring the geology of the red planet, including its many ______ To aid in communication...&quot; The phrase &quot;its many ______&quot; requires plain plural nouns naming geological features. A possessive form would need something after it that the noun owns &mdash; nothing follows here."}, {"title": "Test each choice for possessive versus plural", "content": "<ul><li><strong>Choice A &mdash; 'craters and rock&apos;s.'</strong>: &quot;rock&apos;s&quot; is a possessive but nothing follows for it to possess; incorrect apostrophe use. &#10007;</li><li><strong>Choice B &mdash; 'craters and rocks.'</strong>: both are simple plurals naming the geological features the lander explored &mdash; exactly what &quot;its many ______&quot; requires. &#10003;</li><li><strong>Choice C &mdash; 'crater&apos;s and rocks.'</strong>: &quot;crater&apos;s&quot; is a possessive with nothing following it to possess. &#10007;</li><li><strong>Choice D &mdash; 'crater&apos;s and rock&apos;s.'</strong>: both words are possessives; neither can possess anything here. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

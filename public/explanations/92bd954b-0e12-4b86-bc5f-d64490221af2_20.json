@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the plural noun",
-      "content": "The sentence introduces <strong>the judges for the 1974 Nobel Prize in Literature</strong>\u2014plural\u2014as the entity making the decision. The subject pronoun in the blank must be plural to maintain pronoun-antecedent agreement."
+      "title": "Find the antecedent of the blank",
+      "content": "The sentence introduces <strong>the judges for the 1974 Nobel Prize in Literature</strong> as the subject making a decision. The blank must be a pronoun that refers back to &ldquo;the judges&rdquo; &mdash; a plural noun. Any pronoun in the blank must be plural to agree with that antecedent."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a subject pronoun must match its antecedent in number.\n<ul>\n<li><strong>Choice A \u2014 \"you\"</strong>: second-person pronoun; does not refer to \"the judges\" at all. \u2717</li>\n<li><strong>Choice B \u2014 \"it\"</strong>: singular pronoun; disagrees with plural \"the judges.\" \u2717</li>\n<li><strong>Choice C \u2014 \"anyone\"</strong>: singular indefinite pronoun; disagrees with plural antecedent. \u2717</li>\n<li><strong>Choice D \u2014 \"they\"</strong>: plural pronoun; agrees with plural \"the judges.\" \u2713</li>\n</ul>\nThat matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Test each pronoun against the plural antecedent &ldquo;the judges&rdquo;:<ul><li><strong>Choice A &mdash; 'you'</strong>: Second-person pronoun; does not refer to &ldquo;the judges&rdquo; at all. &#10007;</li><li><strong>Choice B &mdash; 'it'</strong>: Singular pronoun; disagrees with the plural antecedent. &#10007;</li><li><strong>Choice C &mdash; 'anyone'</strong>: Singular indefinite pronoun; disagrees with the plural antecedent. &#10007;</li><li><strong>Choice D &mdash; 'they'</strong>: Plural pronoun; agrees with the plural &ldquo;the judges.&rdquo; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

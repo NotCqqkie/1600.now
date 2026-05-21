@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the target meaning from the example",
-      "content": "The key clue is the marketing campaign that helped the novel succeed. A marketing campaign's function is to generate public awareness and attention\u2014that's the meaning we need from the blank."
+      "title": "Identify what the blank must mean",
+      "content": "The passage says the blank <em>can play a big role</em> in a book's commercial success, and the evidence given is a <em>well-executed marketing campaign</em>. A marketing campaign generates public attention and promotion &mdash; so the blank must mean something along those lines."
     },
     {
-      "title": "Match the word to the target meaning",
-      "content": "The blank needs to mean public attention or awareness \u2014 the thing a marketing campaign generates that made the novel succeed. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Originality</strong>: \"its <em>originality</em> helped the novel succeed\" \u2014 originality means novelty or uniqueness; a marketing campaign creates attention, not originality. \u2717</li>\n<li><strong>Choice B \u2014 Publicity</strong>: \"its <em>publicity</em> helped the novel succeed\" \u2014 publicity means public attention and promotion, exactly what a marketing campaign produces. \u2713</li>\n<li><strong>Choice C \u2014 Complexity</strong>: \"its <em>complexity</em> helped the novel succeed\" \u2014 complexity means intricacy or difficulty; a marketing campaign doesn't generate complexity. \u2717</li>\n<li><strong>Choice D \u2014 Practicality</strong>: \"its <em>practicality</em> helped the novel succeed\" \u2014 practicality means usefulness in real situations; unrelated to what marketing campaigns accomplish. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "Substitute each word into the blank and ask: does a marketing campaign produce this?<ul><li><strong>Choice A &mdash; 'originality'</strong>: originality means novelty or uniqueness &mdash; a marketing campaign creates attention, not originality; the novel's uniqueness isn't what the campaign controls. &#10007;</li><li><strong>Choice B &mdash; 'publicity'</strong>: publicity means public attention and promotion &mdash; exactly what a marketing campaign generates, and exactly what can drive commercial success. &#10003;</li><li><strong>Choice C &mdash; 'complexity'</strong>: complexity means intricacy or difficulty &mdash; a marketing campaign doesn't produce complexity in a novel. &#10007;</li><li><strong>Choice D &mdash; 'practicality'</strong>: practicality means usefulness in real situations &mdash; unrelated to what a marketing campaign provides. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

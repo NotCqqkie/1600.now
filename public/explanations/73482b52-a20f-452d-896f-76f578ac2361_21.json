@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the logical relationship",
-      "content": "The logical relationship is cause-effect. The blank needs a transition signaling that Ahoy earned his place in history by means of his naval service."
+      "content": "The blank connects two sentences: the first describes Ahoy's naval service, the second says he earned a place in history. The relationship is cause-and-effect &mdash; the recognition resulted from the service. The transition must signal that the second event came through or by means of the first."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — \"In any case\"</strong>: signals concession or dismissal, implying the historical recognition is true regardless of some prior complication. No complication is raised here. ✗</li><li><strong>Choice B — \"Finally\"</strong>: signals the last item in a sequence. But the second sentence is not the final step in a list; it is a result of the service. ✗</li><li><strong>Choice C — \"For instance\"</strong>: signals exemplification. It would imply Ahoy's historical recognition is a specific example of a general trend, but no general trend is stated. ✗</li><li><strong>Choice D — \"In doing so\"</strong>: signals that the result (earning a place in history) came through the action just described (naval service), so fits. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; 'In any case,'</strong>: Signals concession or dismissal &mdash; that the second claim is true regardless of some complication. No complication is raised here. &#10007;</li><li><strong>Choice B &mdash; 'Finally,'</strong>: Signals the last item in a sequence or list. The second sentence is not a final step; it is a result. &#10007;</li><li><strong>Choice C &mdash; 'For instance,'</strong>: Signals that what follows is a specific example of a general trend stated before. No general trend is stated. &#10007;</li><li><strong>Choice D &mdash; 'In doing so,'</strong>: Signals that through the action just described (naval service), the outcome (earning a place in history) was achieved. Fits the cause-and-effect relationship exactly. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

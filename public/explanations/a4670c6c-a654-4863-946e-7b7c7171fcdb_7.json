@@ -1,15 +1,1 @@
-{
-  "questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_7",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the contrast word",
-      "content": "The passage uses the word \u201chowever\u201d to introduce a study that calls the energy\u2011ladder model reductive."
-    },
-    {
-      "title": "Match the purpose to the contrast",
-      "content": "The correct answer describes the author\u2019s goal as challenging the common income\u2011based explanation for fuel choices.<br/>The other choices either talk about contrasting two countries, linking fuel use to income, or critiquing a model of fuel prices, none of which appears in the passage.<br/>That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "a4670c6c-a654-4863-946e-7b7c7171fcdb_7", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the main claim and the contrast", "content": "The passage opens by noting that solid fuel use in Egypt dropped sharply &mdash; often explained by the energy-ladder model, which ties fuel choice mainly to household income. The word <strong>however</strong> signals that what follows pushes back on that explanation. Mekonnen and K&ouml;hlin&rsquo;s study calls the model &ldquo;reductive&rdquo; and cites multiple factors beyond income. So the text&rsquo;s purpose is to dispute a common explanation, not simply describe fuel patterns or critique prices."}, {"title": "Eliminate wrong choices, confirm the match", "content": "<ul><li><strong>Choice A &mdash; &lsquo;To contrast patterns in household fuel use in two countries.&rsquo;</strong>: Egypt is only a brief setup; Ethiopia is the focus, and there is no country-vs.-country contrast. &#10007;</li><li><strong>Choice B &mdash; &lsquo;To account for the effect of fuel use on household income.&rsquo;</strong>: The passage is about what drives fuel choice, not about how fuel use affects income. &#10007;</li><li><strong>Choice C &mdash; &lsquo;To critique a frequently used model of changes in household fuel prices.&rsquo;</strong>: The energy-ladder model is about income, not prices; this distorts the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;To challenge a common explanation for households&rsquo; fuel choices.&rsquo;</strong>: The text uses the Ethiopian study to show the income-based energy-ladder model is reductive &mdash; directly challenging a common explanation for fuel choices. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

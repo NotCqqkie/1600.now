@@ -1,15 +1,1 @@
-{
-  "questionId": "f814a654-4029-44fa-bca6-57bed320ab01_20",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contrast signal",
-      "content": "The passage says the World Cup \u201chas expanded greatly\u201d since 1934, showing it was smaller before, so the blank needs a word that signals a contrast with that earlier size."
-    },
-    {
-      "title": "Apply the contrast to the choices",
-      "content": "\u201cOn the other hand\u201d sets up that contrast between the current expanded tournament and the earlier 16\u2011team version. The other three either show cause\u2011effect, sequence, or similarity, which do not fit the needed contrast. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "f814a654-4029-44fa-bca6-57bed320ab01_20", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the relationship between the sentences", "content": "The passage states the World Cup &quot;has expanded greatly since it was played in Italy in 1934.&quot; The blank introduces the final sentence, which describes the 1934 tournament as having only 16 teams. That sentence gives an earlier, smaller snapshot of the event — it is a flashback providing the before state. The transition must signal a move back in time, not a contrast, cause, or similarity."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'On the other hand,'</strong>: Signals a contrast between two things. The 1934 detail does contrast with today, but &quot;on the other hand&quot; implies two parallel alternatives being weighed — not a move back in time to explain a prior state. &#10007;</li><li><strong>Choice B &mdash; 'As a result,'</strong>: Signals cause and effect — the final sentence would have to be a consequence of the expansion. But having 16 teams in 1934 is not a result of the expansion; it preceded it. &#10007;</li><li><strong>Choice C &mdash; 'Then,'</strong>: Signals a temporal reference to an earlier point in time, fitting the shift back to 1934. It logically connects the mention of the 1934 tournament to the description of what that tournament looked like. &#10003;</li><li><strong>Choice D &mdash; 'Similarly,'</strong>: Signals similarity. The 1934 tournament was smaller, not similar to today&apos;s expanded event. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

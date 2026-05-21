@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the equation structure",
-      "content": "We have $7x + 10 = 2(6) + 8x$, which simplifies to $7x + 10 = 12 + 8x$. Both sides are sums with variable and constant terms."
+      "title": "Simplify the right side",
+      "content": "$7x + 10 = 2(6) + 8x$ becomes $7x + 10 = 12 + 8x$."
     },
     {
-      "title": "Rearrange to collect like terms",
-      "content": "Subtract $8x$ from both sides and subtract 10 from both sides:<br/>$$7x - 8x = 12 - 10$$<br/>$$-x = 2$$"
+      "title": "Collect like terms",
+      "content": "Subtract $8x$ from both sides and subtract 10 from both sides:<br/>$$7x - 8x = 12 - 10 \\quad \\Rightarrow \\quad -x = 2$$"
     },
     {
       "title": "Solve for x",
-      "content": "Multiply both sides by $-1$:<br/>$$x = -2$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
+      "content": "Multiply both sides by $-1$: $x = -2$.<br/><br/>That matches choice B — <strong>B</strong> is correct."
     }
   ]
 }

@@ -1,15 +1,1 @@
-{
-  "questionId": "b622fb78",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the context clue",
-      "content": "Fox-Foot must prevent any \u201ctrace of their passing\u201d from being left. This phrase is key: a \u201ctrace\u201d is what's left behind during passage, and he's preventing this because he's being followed. Whatever \u201ctrace\u201d means, it must be something discoverable by pursuers."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dEvidence\u201d of their passing is exactly what Fox-Foot wants to prevent\u2014the signs or marks that would reveal their route. The other three don't fit: \u201cblemish\u201d is a flaw on an object, \u201camount\u201d is a quantity, and \u201csketch\u201d is a drawing. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "b622fb78", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Use context to define the word", "content": "Fox-Foot allows no &quot;trace of their passing to be left.&quot; He is trying to prevent pursuers from discovering their route. Whatever &quot;trace&quot; means here, it is something a pursuer could detect — the marks or signs that would reveal they passed through."}, {"title": "Test each choice against that meaning", "content": "<ul><li><strong>Choice A &mdash; 'Evidence'</strong>: Signs or proof of passage — exactly what Fox-Foot wants to eliminate so pursuers cannot track them. &#10003;</li><li><strong>Choice B &mdash; 'Blemish'</strong>: A flaw or stain on an object — doesn&apos;t fit the idea of leaving detectable signs of travel. &#10007;</li><li><strong>Choice C &mdash; 'Amount'</strong>: A quantity — no sense in which &quot;no amount of their passing&quot; fits this sentence. &#10007;</li><li><strong>Choice D &mdash; 'Sketch'</strong>: A drawing — unrelated to the act of traveling through a location. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

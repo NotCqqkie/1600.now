@@ -1,15 +1,1 @@
-{
-  "questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_2",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the key signal",
-      "content": "The blank is the subject of the sentence: \"______ of this approach cite the production of less material waste and a faster return on investment.\" Whatever the blank is, it names a group of people who cite benefits in order to support the modular construction approach. The word must mean advocates or supporters."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "The word needs to name people who actively support and promote an approach. Substitute each choice: <ul><li><strong>Choice A — Components</strong>: means parts or elements of a system — components are not people and cannot \"cite\" anything. ✗</li><li><strong>Choice B — Safeguards</strong>: means protective measures — safeguards are not people; they cannot cite benefits to support an approach. ✗</li><li><strong>Choice C — Proponents</strong>: means people who advocate for something — proponents of modular construction would naturally cite its benefits (less waste, faster ROI) to support it. ✓</li><li><strong>Choice D — Epitomes</strong>: means perfect examples of something — an epitome of an approach cannot itself cite evidence; this is not a category of people who argue for the method. ✗</li></ul> That matches choice C — <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_2", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The sentence reads: &ldquo;______ of this approach cite the production of less material waste and a faster return on investment.&rdquo; The blank is the subject and must name a group of people who actively advocate for modular construction and would cite its benefits."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'Components'</strong>: Components are the physical parts or elements of a system, not people. Parts of a building cannot &ldquo;cite&rdquo; benefits of a construction method. &#10007;</li><li><strong>Choice B &mdash; 'Safeguards'</strong>: Safeguards are protective measures or precautions. They are not a category of people, so they cannot cite advantages of an approach. &#10007;</li><li><strong>Choice C &mdash; 'Proponents'</strong>: Proponents are people who advocate for or support something. Proponents of modular construction would naturally cite its benefits &mdash; less waste, faster ROI &mdash; to make their case. &#10003;</li><li><strong>Choice D &mdash; 'Epitomes'</strong>: Epitomes are perfect examples or embodiments of something. An epitome of an approach is not a person who argues for it, so it cannot &ldquo;cite&rdquo; evidence. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

@@ -1,16 +1,1 @@
-{
-  "questionId": "ee846db7",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Interpret the equation structure",
-      "content": "The equation $5.48x + 7.30y = 1,277.94$ represents a revenue model:<br/>$$\\text{(price per smaller container)} \\cdot x + \\text{(price per larger container)} \\cdot y = \\text{total revenue}$$<br/>In this structure, the coefficient multiplying each variable is the unit price of that item."
-    },
-    {
-      "title": "Extract the unit price of the smaller container",
-      "content": "Since $x$ represents the number of smaller containers sold, the coefficient 5.48 paired with $x$ must be the price of each smaller container. That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": ["5.48x+7.30y=1277.94"]
-    }
-  ]
-}
+{"steps":[{"text":"The equation \\(5.48x + 7.30y = 1{,}277.94\\) models total revenue: each term is (price per unit) times (number of units sold). The variable \\(x\\) is the number of smaller containers sold."},{"text":"In the term \\(5.48x\\), the coefficient 5.48 is multiplied by \\(x\\) (number of smaller containers). That coefficient is the price per smaller container — a fixed dollar amount, not an expression involving a variable."},{"text":"Evaluate every choice:<ul><li>A: \\(5.48\\) — This is the coefficient of \\(x\\), so it represents the price per smaller container. That matches choice A — <strong>A</strong> is correct.</li><li>B: \\(7.30y\\) — This is the entire revenue from larger containers, not the price per smaller container. Eliminated.</li><li>C: \\(7.30\\) — This is the price per larger container, not the smaller one. Eliminated.</li><li>D: \\(5.48x\\) — This is the total revenue from smaller containers, not the price of each one. Eliminated.</li></ul>"}],"correctAnswer":"A"}

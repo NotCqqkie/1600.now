@@ -1,16 +1,1 @@
-{
-  "questionId": "97eab129",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Calculate the ratio of water to area",
-      "content": "For a linear function $f(x) = mx$, find $m$ by computing $\\frac{f(x)}{x}$ from the table. Using the first row with $x = 2,520$ and $f(x) = 4,536$:<br/>$$\\frac{4,536}{2,520} = 1.8$$"
-    },
-    {
-      "title": "Verify consistency and identify the equation",
-      "content": "Check the ratio for the remaining rows:<br/>Second row: $\\frac{6,804}{3,780} = 1.8$ \u2713<br/>Third row: $\\frac{9,072}{5,040} = 1.8$ \u2713<br/><br/>The constant ratio is 1.8 for all data points, so $f(x) = 1.8x$. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y=1.8x"]
-    }
-  ]
-}
+{"steps":[{"text":"For a linear function \\(f(x) = mx\\) passing through the origin, the slope \\(m\\) equals \\(f(x)/x\\) for any data point. Use the first row of the table: \\(x = 2{,}520\\) sq ft, \\(f(x) = 4{,}536\\) gallons. Compute: \\(4536 \\div 2520 = 1.8\\)."},{"text":"Verify with the other rows: \\(6804 \\div 3780 = 1.8\\) and \\(9072 \\div 5040 = 1.8\\). The ratio is constant, confirming the model is \\(f(x) = 1.8x\\)."},{"text":"Evaluate every choice:<ul><li>A: \\(f(x)=0.6x\\) — Gives \\(0.6 \\times 2520 = 1512\\), not 4536. Eliminated.</li><li>B: \\(f(x)=1.8x\\) — Gives \\(1.8 \\times 2520 = 4536\\). Matches all rows. That matches choice B — <strong>B</strong> is correct.</li><li>C: \\(f(x)=2268x\\) — Gives an astronomically large value for any reasonable roof area. Eliminated.</li><li>D: \\(f(x)=4536x\\) — Same issue; value is far too large. Eliminated.</li></ul>"}],"correctAnswer":"B"}

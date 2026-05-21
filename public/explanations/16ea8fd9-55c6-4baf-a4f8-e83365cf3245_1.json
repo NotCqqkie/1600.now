@@ -1,15 +1,1 @@
-{
-  "questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the context",
-      "content": "The plane is taking off and speeding up. The sentence asks what the plane does with its speed."
-    },
-    {
-      "title": "Find the word that fits",
-      "content": "\"Gather\" needs to mean build up or increase \u2014 the plane is accelerating for takeoff. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Gain</strong>: \"the plane begins to <em>gain</em> speed\" \u2014 gain means to acquire or increase. A plane gains speed as it accelerates down the runway before lifting off. \u2713</li>\n<li><strong>Choice B \u2014 Doubt</strong>: \"the plane begins to <em>doubt</em> speed\" \u2014 doubt means to be uncertain about. Speed is not something a plane can be uncertain of. \u2717</li>\n<li><strong>Choice C \u2014 Welcome</strong>: \"the plane begins to <em>welcome</em> speed\" \u2014 welcome means to receive gladly. A plane cannot welcome speed; this is not a physical action. \u2717</li>\n<li><strong>Choice D \u2014 Force</strong>: \"the plane begins to <em>force</em> speed\" \u2014 force means to compel by strength. While planes do accelerate, \"force speed\" is not a natural phrase for building velocity. \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Spot the context", "content": "The plane is accelerating down the runway for takeoff. The word &quot;gather&quot; describes what the plane does with <strong>speed</strong> in that moment. A replacement word must describe physically building up or increasing velocity."}, {"title": "Eliminate and confirm", "content": "<ul><li><strong>Choice A &mdash; 'Gain'</strong>: means to acquire or increase &mdash; &quot;the plane begins to gain speed&quot; naturally describes acceleration on a runway. &#10003;</li><li><strong>Choice B &mdash; 'Doubt'</strong>: means to be uncertain about &mdash; speed is not something a plane can be uncertain of; this makes no physical sense. &#10007;</li><li><strong>Choice C &mdash; 'Welcome'</strong>: means to receive gladly &mdash; a plane cannot welcome speed; this is not a physical action. &#10007;</li><li><strong>Choice D &mdash; 'Force'</strong>: means to compel by strength &mdash; &quot;force speed&quot; is not a natural phrase for building velocity and does not fit the context. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_23",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the negation and correction",
-      "content": "The first sentence says metals do NOT maintain bonds by sharing and exchanging electrons. The second sentence must explain what actually happens instead. The transition word must signal this shift — it needs to mean \"instead\" or \"rather.\""
-    },
-    {
-      "title": "Match the corrective transition",
-      "content": "The logical relationship between the two sentences is correction. Sentence 1 denies one mechanism; Sentence 2 states the actual mechanism. The blank needs a transition signaling that Sentence 2 replaces, not continues, what Sentence 1 described.\n<ul>\n<li><strong>Choice A — \"For example,\"</strong>: signals that Sentence 2 is a specific instance of the general claim in Sentence 1 — but Sentence 1 is a negation, and Sentence 2 contradicts it rather than illustrating it. ✗</li>\n<li><strong>Choice B — \"Rather,\"</strong>: signals \"instead\" — pivoting from the denied mechanism to the actual one. ✓</li>\n<li><strong>Choice C — \"Accordingly,\"</strong>: signals cause-and-effect — Sentence 2 is not a result of the negation in Sentence 1. ✗</li>\n<li><strong>Choice D — \"Likewise,\"</strong>: signals similarity — Sentence 2 is the opposite of what Sentence 1 describes, not a parallel case. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "77ffe59b-61ef-47e4-ba8e-118244b99796_23", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Spot the relationship", "content": "Sentence 1 says metals do <strong>not</strong> maintain bonds by sharing and exchanging electrons. Sentence 2 describes what <strong>actually happens instead</strong>: valence electrons travel freely. The blank must signal a correction &mdash; Sentence 2 replaces the denied mechanism with the real one."}, {"title": "Eliminate and confirm", "content": "<ul><li><strong>Choice A &mdash; 'For example,'</strong>: signals that Sentence 2 is a specific instance of Sentence 1 &mdash; but Sentence 1 is a negation, and Sentence 2 contradicts it rather than illustrating it. &#10007;</li><li><strong>Choice B &mdash; 'Rather,'</strong>: signals &quot;instead&quot; &mdash; pivoting from the denied mechanism to the actual one. &#10003;</li><li><strong>Choice C &mdash; 'Accordingly,'</strong>: signals cause-and-effect &mdash; Sentence 2 is not a result of the negation in Sentence 1. &#10007;</li><li><strong>Choice D &mdash; 'Likewise,'</strong>: signals similarity &mdash; Sentence 2 is the opposite of what Sentence 1 describes, not a parallel case. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

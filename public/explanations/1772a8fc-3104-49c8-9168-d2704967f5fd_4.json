@@ -1,15 +1,1 @@
-{
-  "questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_4",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key example",
-      "content": "The dash introduces a marketing campaign as the concrete example of what \u201ccan play a big role\u201d in a book's commercial success. A marketing campaign is fundamentally a publicity effort."
-    },
-    {
-      "title": "Match the example to the blank",
-      "content": "The blank needs to name what a marketing campaign is an example of \u2014 the thing that \"can play a big role\" in commercial success. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Originality</strong>: \"<em>originality</em> can play a big role\" \u2014 originality means being novel or creative, a quality of the book itself, not something a marketing campaign provides. \u2717</li>\n<li><strong>Choice B \u2014 Publicity</strong>: \"<em>publicity</em> can play a big role\" \u2014 publicity means public promotion and attention, which is exactly what a well-executed marketing campaign generates. \u2713</li>\n<li><strong>Choice C \u2014 Complexity</strong>: \"<em>complexity</em> can play a big role\" \u2014 complexity means having many intricate parts, a property of the book's content, not of a marketing campaign. \u2717</li>\n<li><strong>Choice D \u2014 Practicality</strong>: \"<em>practicality</em> can play a big role\" \u2014 practicality means usefulness for everyday purposes, unrelated to what a marketing campaign does. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1772a8fc-3104-49c8-9168-d2704967f5fd_4", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the key example", "content": "The dash introduces a marketing campaign as the concrete example of what &ldquo;can play a big role&rdquo; in a book&rsquo;s commercial success. A marketing campaign is fundamentally a publicity effort, so the blank must name the category that marketing campaigns belong to."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'originality'</strong>: means being novel or creative &mdash; a quality of the book itself, not something a marketing campaign provides. &#10007;</li><li><strong>Choice B &mdash; 'publicity'</strong>: means public promotion and attention &mdash; exactly what a well-executed marketing campaign generates. &#10003;</li><li><strong>Choice C &mdash; 'complexity'</strong>: means having many intricate parts &mdash; a property of the book&rsquo;s content, not of a marketing campaign. &#10007;</li><li><strong>Choice D &mdash; 'practicality'</strong>: means usefulness for everyday purposes &mdash; unrelated to what a marketing campaign does. &#10007;</li></ul> That matches choice B &mdash; <strong>B</strong> is correct."}]}

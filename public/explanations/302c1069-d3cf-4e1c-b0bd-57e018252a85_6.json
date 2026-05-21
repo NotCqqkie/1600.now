@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The word <strong>However</strong> introduces a contrast, pointing out that the 2016 study\u2019s small sample size undermines its conclusion."
+      "content": "The passage opens by stating Lopes and colleagues concluded ocean acidification strongly affects <em>Atherina presbyter</em> behavior. The word <strong>However</strong> then introduces a problem: their sample size was only about 15 fish. Clark and colleagues warn that small samples increase the risk of biased, exaggerated results. The passage is not discussing ocean acidification in general or a debate between rival teams &mdash; it is pointing out a specific methodological concern about one study."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "Choice B captures this idea by saying the passage notes a potential concern about the study\u2019s findings. The other three either add unrelated topics, invent a debate, or describe behavioral changes over time, which the passage does not do. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the answer",
+      "content": "<ul><li><strong>Choice A &mdash; 'To discuss an aspect of ocean acidification that is frequently overlooked.'</strong>: The passage never claims any aspect of ocean acidification is overlooked; it raises a concern about a study&apos;s sample size. &#10007;</li><li><strong>Choice B &mdash; 'To note a potential concern about the findings of a scientific study.'</strong>: The word <em>However</em> signals a limitation (tiny sample size) of the 2016 study, and Clark et al. warn this can produce biased results. The whole passage builds toward flagging this concern. &#10003;</li><li><strong>Choice C &mdash; 'To present a debate between two research teams about a cause of ocean acidification.'</strong>: Clark et al. are not debating the cause of ocean acidification; they are commenting on methodology. There is no debate described. &#10007;</li><li><strong>Choice D &mdash; 'To explain how the behavior of a fish species has changed over time.'</strong>: The passage does not describe behavioral changes over time; it describes one 2016 study&apos;s conclusion and a methodological critique of it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

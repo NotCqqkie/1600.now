@@ -1,15 +1,1 @@
-{
-  "questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the logical relationship",
-      "content": "The logical relationship is cause-effect. The 2023 measurements revealed a concerning rotation (cause), and the blank needs a transition signaling that closing the area around the tower was the direct consequence."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — \"In comparison\"</strong>: signals that two things are being compared side by side. No second comparable case is introduced here. ✗</li><li><strong>Choice B — \"As a result\"</strong>: signals that the closure is a direct consequence of the concerning rotation discovered by measurements, so fits. ✓</li><li><strong>Choice C — \"For example\"</strong>: signals exemplification. The closure would have to be a specific instance of a general pattern, but no such pattern is stated. ✗</li><li><strong>Choice D — \"Similarly\"</strong>: signals that two situations share a parallel. The closure is not a parallel to the rotation — it is the response to it. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6af96c1c-ea52-4b92-a15c-9c8a703443c6_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The passage presents a clear cause-and-effect structure: the 2023 measurements revealed a concerning rotation (cause), and the blank introduces the city officials&rsquo; response &mdash; closing the area around the tower (effect). The correct transition must signal that the closure was a direct consequence of the alarming measurements."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'In comparison,'</strong>: signals that two things are being compared side by side. No second comparable situation is introduced &mdash; the closure is a response to the rotation, not a parallel case. &#10007;</li><li><strong>Choice B &mdash; 'As a result,'</strong>: signals that what follows is a direct consequence of what came before. The closure is the direct consequence of the concerning rotation &mdash; exactly the cause-effect relationship in the passage. &#10003;</li><li><strong>Choice C &mdash; 'For example,'</strong>: signals that what follows is a specific instance of a broader pattern. No broader pattern has been stated; the closure is not an example of anything &mdash; it is the result of the rotation. &#10007;</li><li><strong>Choice D &mdash; 'Similarly,'</strong>: signals that two situations are parallel. The closure is not parallel to the rotation; it is the response to it. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

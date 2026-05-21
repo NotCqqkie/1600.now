@@ -1,15 +1,1 @@
-{
-  "questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_5",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the contextual signal",
-      "content": "The text contrasts a misleading case (\"only a few users\") with the actual case (\"over 8,000 users\"). The blank describes whether 8,000 ratings is enough to feel confident in the average."
-    },
-    {
-      "title": "Pick the precise word",
-      "content": "The blank needs to describe 8,000 ratings as a quantity sufficient to trust the average — contrasted with \"only a few users\" being misleading. Substitute each choice:\n<ul>\n<li><strong>Choice A — excessive</strong>: \"an <em>excessive</em> number to feel confident\" — excessive means too much; calling 8,000 ratings too many contradicts the passage's point that more ratings increase reliability. ✗</li>\n<li><strong>Choice B — adequate</strong>: \"an <em>adequate</em> number to feel confident\" — adequate means sufficient or enough, exactly describing 8,000 ratings as enough to trust the average. ✓</li>\n<li><strong>Choice C — accurate</strong>: \"an <em>accurate</em> number to feel confident\" — accurate describes correctness, not quantity; the passage contrasts few vs. many users, not correct vs. incorrect numbers. ✗</li>\n<li><strong>Choice D — insufficient</strong>: \"an <em>insufficient</em> number to feel confident\" — insufficient means not enough, directly contradicting the passage's claim that 8,000 ratings support confidence. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "d9f381e2-df35-4ee7-a137-e689faac81b5_5", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must express", "content": "The passage contrasts a misleading situation (&ldquo;only a few users&rdquo;) with the actual situation (&ldquo;over 8,000 users&rdquo;). The blank describes 8,000 ratings as a quantity that justifies trusting the average. The word needed means &ldquo;enough&rdquo; or &ldquo;sufficient.&rdquo;"}, {"title": "Substitute each choice and eliminate", "content": "<ul><li><strong>Choice A &mdash; &lsquo;excessive&rsquo;</strong>: &ldquo;Excessive&rdquo; means too much or more than needed. Calling 8,000 ratings excessive contradicts the passage&rsquo;s point that more ratings increase reliability. &#10007;</li><li><strong>Choice B &mdash; &lsquo;adequate&rsquo;</strong>: &ldquo;Adequate&rdquo; means sufficient or enough &mdash; exactly the contrast the passage draws between a mere handful of ratings (unreliable) and 8,000 ratings (enough to trust the average). &#10003;</li><li><strong>Choice C &mdash; &lsquo;accurate&rsquo;</strong>: &ldquo;Accurate&rdquo; describes correctness, not quantity. The passage compares few users to many users, not incorrect numbers to correct ones. &#10007;</li><li><strong>Choice D &mdash; &lsquo;insufficient&rsquo;</strong>: &ldquo;Insufficient&rdquo; means not enough, which directly contradicts the passage&rsquo;s claim that 8,000 ratings support confidence in the average. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "83617355",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the temporal context",
-      "content": "The phrase <em>\u201cEach night\u201d</em> combined with the present-tense verbs in the surrounding sentences (<em>\u201cis bathed,\u201d</em> <em>\u201cis the \u00c1rbol de la Sidra\u201d</em>) tells us that we're describing a recurring, present-time action."
-    },
-    {
-      "title": "Select the required verb form",
-      "content": "Simple present is the required verb form. Choice B <em>\u201cilluminates\u201d</em> is simple present. The other choices use future (A), conditional (C), or past (D) tense. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "83617355", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the tense context", "content": "The passage describes a recurring, nightly event using present-tense verbs: &quot;is bathed&quot; and &quot;is the Árbol de la Sidra.&quot; The phrase &quot;Each night&quot; signals a habitual action happening now. The blank must match this present-tense, habitual pattern."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'will be illuminating'</strong>: Future progressive tense. The event is happening now every night, not at some future time. &#10007;</li><li><strong>Choice B &mdash; 'illuminates'</strong>: Simple present tense. Matches the present-tense verbs &quot;is bathed&quot; and &quot;is&quot; used throughout the passage to describe what happens each night. &#10003;</li><li><strong>Choice C &mdash; 'would illuminate'</strong>: The modal &quot;would&quot; indicates a typical behavior in the past, not a present recurring action. &#10007;</li><li><strong>Choice D &mdash; 'illuminated'</strong>: Past tense. The description is of what happens each night currently, not what happened in the past. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

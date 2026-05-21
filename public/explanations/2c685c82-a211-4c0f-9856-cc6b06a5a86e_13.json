@@ -1,18 +1,1 @@
-{
-  "questionId": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_13",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Find the slope of line γ",
-      "content": "When two lines are perpendicular, their slopes are negative reciprocals. Since line $k$ has slope $m$, line $\\gamma$ must have slope $-\\frac{1}{m}$."
-    },
-    {
-      "title": "Use the slope to find the point on γ when x equals 8",
-      "content": "Line $\\gamma$ passes through $(7, 5)$ with slope $-\\frac{1}{m}$.<br/><br/>When we move from $x = 7$ to $x = 8$ (a horizontal change of 1), the vertical change is: $$\\Delta y = -\\frac{1}{m} \\cdot 1 = -\\frac{1}{m}$$ So the $y$-coordinate at $x = 8$ is $5 - \\frac{1}{m}$, making the point $(8, 5 - \\frac{1}{m})$.<br/><br/>That matches choice A — <strong>A</strong> is correct.",
-      "desmosExpressions": [
-        "(7, 5)"
-      ]
-    }
-  ]
-}
+{"qid":"2c685c82-a211-4c0f-9856-cc6b06a5a86e_13","correctAnswer":"A","steps":[{"title":"Find the slope of line &gamma;","content":"Perpendicular lines have slopes that are negative reciprocals. Line \\(k\\) has slope \\(m\\), so line \\(\\gamma\\) has slope \\(-\\dfrac{1}{m}\\)."},{"title":"Move from the intersection point to x = 8","content":"Line \\(\\gamma\\) passes through \\((7,5)\\). Moving \\(\\Delta x=1\\) to \\(x=8\\): $$\\Delta y = -\\frac{1}{m}\\cdot 1=-\\frac{1}{m}$$ So the point is \\(\\left(8,\\,5-\\dfrac{1}{m}\\right)\\)."},{"title":"Evaluate each choice","content":"<ul><li>A: \\(\\left(8,5-\\dfrac{1}{m}\\right)\\) — matches our result. That matches choice A — <strong>A</strong> is correct.</li><li>B: \\(\\left(8,5+\\dfrac{1}{m}\\right)\\) — wrong sign; perpendicular slope is negative reciprocal, not positive. Incorrect.</li><li>C: \\((8,5-m)\\) — uses \\(m\\) itself rather than \\(\\tfrac{1}{m}\\). Incorrect.</li><li>D: \\((8,5+m)\\) — uses \\(+m\\); both the sign and the value are wrong. Incorrect.</li></ul>"}]}

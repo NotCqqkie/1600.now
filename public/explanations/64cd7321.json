@@ -1,15 +1,1 @@
-{
-  "questionId": "64cd7321",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key phrase about causality",
-      "content": "The phrase <strong>through an indirect effect</strong> means NFM's impact on voting doesn't happen directly\u2014it must flow through intermediate variables. Since the study measured political knowledge and political interest, the pathway must be: NFM weakens these factors, which then reduces voting."
-    },
-    {
-      "title": "Match the answer to the mechanism",
-      "content": "B establishes both links of the required pathway: NFM weakens political knowledge and interest, and these factors strengthen voting. The other three either deny this first link (C) or sidestep it with unrelated variables (A, D). That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "64cd7321", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the mechanism that needs support", "content": "Gil de Z&uacute;&ntilde;iga and Diehl claim NFM may reduce voting probability <em>through an indirect effect</em>. &quot;Indirect&quot; means NFM doesn't affect voting directly &mdash; it must first weaken some intermediate variable (political knowledge or interest), and that weakened variable then reduces the likelihood of voting. A supporting finding must establish both links of this chain."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Test each choice against the two-link chain: NFM &rarr; weakens political knowledge/interest &rarr; reduces voting:<ul><li><strong>Choice A &mdash; 'NFM increases near major elections; people vote more in major elections'</strong>: this is about election type and timing &mdash; it doesn't address how NFM affects political knowledge/interest or voting probability through those variables. &#10007;</li><li><strong>Choice B &mdash; 'NFM strongly reduces political knowledge and interest; political knowledge and interest strongly correlate with voting likelihood'</strong>: this establishes both links &mdash; NFM weakens the intermediate variables, and those variables drive voting. Exactly the indirect pathway described. &#10003;</li><li><strong>Choice C &mdash; 'NFM shows little correlation with political knowledge or interest'</strong>: this breaks the first link of the chain, undermining rather than supporting the researchers' claim. &#10007;</li><li><strong>Choice D &mdash; 'voting likelihood increases with political knowledge; but the NFM-knowledge link depends on social network size'</strong>: this introduces social network size as a confound and doesn't cleanly establish the indirect pathway; the first link (NFM &rarr; knowledge) is conditional and unclear. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
