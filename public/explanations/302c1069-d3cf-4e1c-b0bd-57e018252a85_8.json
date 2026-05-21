@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The passage says some hoards were discovered <em>before 2000</em> and asks for an example.<br/>That signals we need a choice that gives a hoard (or hoards) with a date earlier than 2000."
+      "content": "The passage states that some hoards were discovered <em>before 2000</em> and asks for an example. The blank needs a choice that names one or more specific hoards with discovery dates earlier than 2000."
     },
     {
-      "title": "Match the signal to the choices",
-      "content": "Choice A gives two hoards with specific years 1868 and 1940, both before 2000, directly using the table\u2019s data.<br/>The other three either give dates after 2000, mix pre\u2011 and post\u20112000, or only note a century without the exact years from the table.<br/>That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; 'the Ardagh Hoard was discovered in 1868, and the Balline Hoard was discovered in 1940.'</strong>: Both dates (1868 and 1940) fall before 2000, directly matching the table data and completing the example. &#10003;</li><li><strong>Choice B &mdash; 'the Ardagh Hoard was one of several hoards discovered in the 1800s.'</strong>: This is vague and does not use specific years from the table; the passage asks for an example supported by data. &#10007;</li><li><strong>Choice C &mdash; 'the Balline Hoard and the Carrick-on-Suir Hoard were both discovered in the 2000s.'</strong>: Dates in the 2000s contradict the &ldquo;before 2000&rdquo; signal in the passage. &#10007;</li><li><strong>Choice D &mdash; 'the Carrick-on-Suir Hoard was discovered in 1940, and the Balline Hoard was discovered in 2013.'</strong>: 2013 is after 2000, and the attribution of 1940 to Carrick-on-Suir is inconsistent with the table data for Balline. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

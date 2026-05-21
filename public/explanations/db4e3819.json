@@ -1,15 +1,1 @@
-{
-  "questionId": "db4e3819",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the second verb and its tense",
-      "content": "The blank completes a pair of actions joined by \u201cand\u201d: she [blank] her fingers across the harp strings <strong>and creates</strong> a radiant sound. The second verb <em>creates</em> is simple present, 3rd person singular. Both actions share the same subject, <em>she</em>."
-    },
-    {
-      "title": "Match the verb form to the subject and tense",
-      "content": "<em>Sweeps</em> is simple present, 3rd person singular\u2014matching both <em>she</em> and the tense of <em>creates</em>. Choice A lacks the 3rd person ending, B uses a plural form that doesn't match \u201cshe,\u201d and C shifts to past tense. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "db4e3819", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what verb form the sentence requires", "content": "The sentence reads: she [blank] her fingers across the harp strings <strong>and creates</strong> a radiant sound. The subject is <em>she</em> (3rd person singular) and the paired verb <em>creates</em> is simple present. The blank must match both the subject and the tense."}, {"title": "Eliminate wrong forms and confirm the correct one", "content": "<ul><li><strong>Choice A &mdash; 'sweep'</strong>: This is the base form with no 3rd person singular ending. It does not agree with the subject <em>she</em>. &#10007;</li><li><strong>Choice B &mdash; 'are sweeping'</strong>: This is 1st/3rd person plural present progressive. <em>She</em> is singular, so this doesn&apos;t agree. &#10007;</li><li><strong>Choice C &mdash; 'were sweeping'</strong>: This is past progressive, mismatching the present tense of <em>creates</em>. &#10007;</li><li><strong>Choice D &mdash; 'sweeps'</strong>: Simple present, 3rd person singular &mdash; matches <em>she</em> and is parallel with <em>creates</em>. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

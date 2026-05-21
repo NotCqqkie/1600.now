@@ -1,1 +1,18 @@
-{"questionId":"ad300285-6ff9-46a9-97ab-7356c9cd2965_22","correctAnswer":"B","section":"Math","steps":[{"title":"Find the vertex x-coordinate using \\(x = -b/(2a)\\)","content":"$r(t) = -2t^{2} + 55t$, so $a = -2$, $b = 55$. Vertex at:<br/>$$t^{*} = -\\frac{b}{2a} = -\\frac{55}{2(-2)} = \\frac{55}{4}.$$"},{"title":"Compute the maximum of r(t)","content":"$$r\\!\\left(\\tfrac{55}{4}\\right) = 55 \\cdot \\tfrac{55}{4} - 2\\left(\\tfrac{55}{4}\\right)^{2} = \\tfrac{55^{2}}{4} - \\tfrac{2 \\cdot 55^{2}}{16} = 2\\left(\\tfrac{55}{4}\\right)^{2}.$$"},{"title":"Maximum of s(t) = r(t) + 1","content":"$$s_{\\max} = 1 + 2\\left(\\frac{55}{4}\\right)^{2}.$$<br/>That matches choice B — <strong>B</strong> is correct.","desmosExpressions":["r(t) = 55t - 2t^{2}","s(t) = 55t - 2t^{2} + 1","(13.75, 379.125)"]}]}
+{
+  "qid": "ad300285-6ff9-46a9-97ab-7356c9cd2965_22",
+  "steps": [
+    {
+      "text": "Write \\(s(t)\\) explicitly: \\(s(t) = r(t) + 1 = 55t - 2t^2 + 1\\)."
+    },
+    {
+      "text": "Find the vertex of \\(s(t) = -2t^2 + 55t + 1\\) using \\(t^* = -b/(2a)\\): \\(t^* = -55 / (2 \\cdot -2) = 55/4\\)."
+    },
+    {
+      "text": "Compute the maximum value: \\(s(55/4) = 55 \\cdot (55/4) - 2(55/4)^2 + 1 = (55^2/4) - 2(55^2/16) + 1 = 2(55/4)^2 + 1\\). So the maximum is \\(1 + 2\\left(\\dfrac{55}{4}\\right)^2\\)."
+    },
+    {
+      "text": "<ul><li>Choice A: \\(1 + \\left(\\dfrac{55}{2}\\right)^2\\) &mdash; wrong coefficient (missing the 2) and wrong denominator. Incorrect.</li><li>Choice B: \\(1 + 2\\left(\\dfrac{55}{4}\\right)^2\\) &mdash; matches the vertex value exactly. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(1 - 2\\left(\\dfrac{55}{4}\\right)^2\\) &mdash; subtracts instead of adds, which would give a minimum, not a maximum. Incorrect.</li><li>Choice D: \\(1 - 2\\left(\\dfrac{55}{2}\\right)^2\\) &mdash; wrong sign and wrong denominator. Incorrect.</li></ul>"
+    }
+  ],
+  "correctAnswer": "B"
+}

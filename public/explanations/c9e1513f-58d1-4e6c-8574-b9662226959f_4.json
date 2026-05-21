@@ -1,1 +1,16 @@
-{"questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_4", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Identify fish contribution from each tank type", "content": "Small tanks hold 1 fish each. If there are $s$ small tanks, they hold $s \\cdot 1 = s$ fish total.<br/><br/>Large tanks hold 2 fish each. If there are $b$ large tanks, they hold $b \\cdot 2 = 2b$ fish total."}, {"title": "Write the equation for total fish", "content": "The total number of fish is the sum of fish from small tanks and large tanks:<br/>$$s + 2b = 37$$<br/>That matches choice A — <strong>A</strong> is correct."}]}
+{
+  "questionId": "c9e1513f-58d1-4e6c-8574-b9662226959f_4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "explanation": "Small tanks hold 1 fish each, so \\(s\\) small tanks hold \\(s \\cdot 1 = s\\) fish. Large tanks hold 2 fish each, so \\(b\\) large tanks hold \\(b \\cdot 2 = 2b\\) fish."
+    },
+    {
+      "explanation": "The total number of fish is the sum from both tank types: \\(s + 2b = 37\\)."
+    },
+    {
+      "explanation": "Evaluate each choice:<ul><li>Choice A: \\(s + 2b = 37\\). Each small tank contributes 1 fish and each large tank contributes 2 fish, matching the setup exactly. That matches choice A &mdash; <strong>A</strong> is correct.</li><li>Choice B: \\(s + b = 37\\). This would mean every tank, regardless of size, holds exactly 1 fish. Incorrect.</li><li>Choice C: \\(2s + b = 37\\). This reverses the capacities, assigning 2 fish to small tanks and 1 fish to large tanks. Incorrect.</li><li>Choice D: \\(2s + 2b = 37\\). This assumes every tank holds 2 fish, ignoring the small-tank capacity of 1. Incorrect.</li></ul>"
+    }
+  ]
+}

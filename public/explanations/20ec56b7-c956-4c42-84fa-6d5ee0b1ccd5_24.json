@@ -1,15 +1,1 @@
-{
-  "questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "\"Correspondingly distorted\" establishes the cause-effect relationship: carbon rises → audio distorts. The transition must express what logically follows from this distortion."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The logical relationship is cause-and-effect: because carbon levels distort the audio, listeners can perceive those rising levels through the distortion. The blank needs a transition signaling that what follows is a consequence of the distortion.<ul><li><strong>Choice A — \"by comparison,\"</strong>: signals a parallel comparison between two separate things, so fails — listeners perceiving the distortion is a result of it, not a parallel item. ✗</li><li><strong>Choice B — \"thus,\"</strong>: signals logical consequence, so fits — the distortion is the mechanism by which listeners can hear the carbon changes. ✓</li><li><strong>Choice C — \"for instance,\"</strong>: signals a specific example of a general claim, so fails — listening is not one example among many; it is the direct outcome. ✗</li><li><strong>Choice D — \"furthermore,\"</strong>: signals an additional separate point, so fails — the listening is not a new independent fact but the consequence of the distortion already described. ✗</li></ul>That matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The sentence before the blank states: &quot;As carbon levels increase, the audio is correspondingly distorted.&quot; The sentence after the blank states: &quot;listeners can 'hear' the changes in the carbon levels.&quot; The distortion is the mechanism that allows listeners to perceive the changes — so the second clause is a direct consequence of the first. The blank needs a transition that signals consequence or conclusion."}, {"title": "Evaluate each choice", "content": "A cause-and-effect transition fits; additive, comparative, or example transitions do not.<ul><li><strong>Choice A &mdash; 'by comparison,'</strong>: signals a parallel contrast between two separate items — but the ability to hear changes is not being compared to the distortion; it results from it. &#10007;</li><li><strong>Choice B &mdash; 'thus,'</strong>: signals a logical result — the distortion is the reason listeners can hear the changes, so &quot;thus&quot; correctly marks the conclusion. &#10003;</li><li><strong>Choice C &mdash; 'for instance,'</strong>: signals that what follows is one example of a broader claim — but listeners hearing the changes is the only outcome described, not one of several examples. &#10007;</li><li><strong>Choice D &mdash; 'furthermore,'</strong>: signals an additional independent point — but the listening is not a new separate fact; it is the direct outcome of the distortion already described. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

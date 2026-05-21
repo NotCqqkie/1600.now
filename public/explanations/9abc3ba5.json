@@ -1,15 +1,1 @@
-{
-  "questionId": "9abc3ba5",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the explicit contrast in the passage",
-      "content": "The passage states Whitten's process was a <strong>\u201cclear departure from the prevalence of gestures in his work from the 1960s.\u201d</strong> This directly establishes that gestures were plentiful in his 1960s work."
-    },
-    {
-      "title": "Determine what both parties would agree on",
-      "content": "B captures what both would agree on: since Whitten emphasizes departing from the <strong>\u201cprevalence\u201d</strong> of gestures in his 1960s work, and the art historians see the 1970s shift as <strong>\u201cremoving gesture,\u201d</strong> they would both acknowledge that 1960s work had more gestures than 1970s work.<br/><br/>A over-generalizes beyond the passage; C infers unsupported motivation; D discusses unmentioned realism.<br/><br/>This matches choice <strong>B</strong> \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9abc3ba5", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Find what the passage directly states about Whitten's work across decades", "content": "<ul><li><strong>Choice A &mdash; 'any tool that a painter uses to create an artwork is capable of creating gestures.'</strong>: The passage says nothing about tools in general or their capacity for gesture. This goes far beyond the text. &#10007;</li><li><strong>Choice B &mdash; 'Whitten’s work from the 1960s exhibits many more gestures than his work from the 1970s does.'</strong>: The passage explicitly states Whitten’s 1970s process was a <em>&quot;clear departure from the prevalence of gestures in his work from the 1960s,&quot;</em> and the art historians describe the shift as <em>&quot;removing gesture.&quot;</em> Both perspectives confirm 1960s work had far more gesture. &#10003;</li><li><strong>Choice C &mdash; 'Whitten became less interested in exploring the role of gesture in his work as his career progressed.'</strong>: The passage describes a stylistic shift, not a change in interest or motivation. Inferring diminished interest is unsupported. &#10007;</li><li><strong>Choice D &mdash; 'Whitten’s work from the 1960s is much more realistic than his work from the 1970s is.'</strong>: Realism is never mentioned. The debate is about gesture, not representational accuracy. &#10007;</li></ul>"}, {"title": "Confirm the match", "content": "Both Whitten’s own framing (departing from the <em>prevalence</em> of gestures) and the art historians’ framing (<em>removing</em> gesture) point to the same fact: more gesture in the 1960s, less in the 1970s. That matches choice B &mdash; <strong>B</strong> is correct."}]}

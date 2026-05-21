@@ -1,15 +1,1 @@
-{
-  "questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage says \"Pheus truly shines\" and explains he becomes a heightened version of himself when performing. \"Truly\" intensifies \"shines,\" showing he genuinely excels."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "\"Truly\" needs to mean <em>genuinely or really</em> (intensifying \"shines\"). Substitute each choice:<ul><li><strong>Choice A — Obediently</strong>: in a compliant manner — shining obediently makes no sense; compliance doesn't describe excelling in performance. ✗</li><li><strong>Choice B — Scarcely</strong>: barely or almost not — this would mean Pheus barely shines, which contradicts the passage's praise. ✗</li><li><strong>Choice C — Impolitely</strong>: rudely — no part of the passage suggests Pheus's performance is rude. ✗</li><li><strong>Choice D — Really</strong>: genuinely or actually — \"Pheus really shines\" captures the authentic intensity of his performance. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cea66aee-3a10-4bb9-b653-46ec49321824_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what &ldquo;truly&rdquo; means in context", "content": "The passage says &ldquo;This is where Pheus truly shines&rdquo; and then explains that performing makes him a &ldquo;more heightened version of himself.&rdquo; The word &ldquo;truly&rdquo; intensifies &ldquo;shines,&rdquo; so the answer must be a word that means <em>genuinely</em> or <em>actually</em>."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;Obediently&rsquo;</strong>: means in a compliant manner. Shining obediently makes no sense; compliance has nothing to do with excelling in performance. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Scarcely&rsquo;</strong>: means barely or almost not. &ldquo;Pheus scarcely shines&rdquo; contradicts the passage&rsquo;s clear praise of his performance. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Impolitely&rsquo;</strong>: means rudely. Nothing in the passage suggests Pheus&rsquo;s performance is rude or inappropriate. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Really&rsquo;</strong>: means genuinely or actually. &ldquo;Pheus really shines&rdquo; captures the authentic intensity the passage describes when he performs. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

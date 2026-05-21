@@ -1,18 +1,1 @@
-{
-  "questionId": "1f353a9e",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Evaluate f at t = 0 to find the y-intercept",
-      "content": "The y-intercept occurs when $t = 0$.<br/>$$f(0) = 8000(0.65)^0 = 8000 \\cdot 1 = 8000$$<br/>The y-intercept is 8000."
-    },
-    {
-      "title": "Interpret t = 0 in context and eliminate wrong choices",
-      "content": "Since $t$ represents <em>years since the end of 1998</em>, when $t = 0$, we are at the end of 1998. The y-intercept of 8000 represents the estimated number of coupons sent at the end of 1998.<br/><br/>Choices A and B mention <em>minimum</em>—the y-intercept is an initial value, not a minimum. Choice C has the wrong value (1,428).<br/><br/>That matches choice D — <strong>D</strong> is correct.",
-      "desmosExpressions": [
-        "f(t)=8000((0.65))^(t)"
-      ]
-    }
-  ]
-}
+{"qid": "1f353a9e", "correctAnswer": "D", "steps": [{"explanation": "The y-intercept is the value of $f(t)$ when $t = 0$. Substitute: $$f(0) = 8{,}000(0.65)^{0} = 8{,}000 \\times 1 = 8{,}000$$"}, {"explanation": "Since $t$ counts years since the end of 1998, $t = 0$ corresponds to the end of 1998. So the y-intercept of 8,000 represents the number of coupons sent at the end of 1998."}, {"explanation": "Evaluate all choices:<ul><li><strong>A:</strong> Says the minimum over 5 years was 1,428. The y-intercept is an initial value, not a minimum; and 1,428 is not 8,000. Incorrect.</li><li><strong>B:</strong> Says the minimum over 5 years was 8,000. The y-intercept is an initial (starting) value, not a minimum; the function decreases, so the minimum is at $t=5$, not $t=0$. Incorrect.</li><li><strong>C:</strong> Says the number of coupons at the end of 1998 was 1,428. The correct y-intercept value is 8,000, not 1,428. Incorrect.</li><li><strong>D:</strong> Says the estimated number of coupons at the end of 1998 was 8,000. This correctly identifies both the time ($t=0$ = end of 1998) and the value (8,000). That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"}]}

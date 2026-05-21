@@ -1,1 +1,15 @@
-{"questionId": "915463e0", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Identify the range", "content": "The normal body temperature for an adult is given as between 97.8 degrees Fahrenheit and 99 degrees Fahrenheit, inclusive. This can be written as a compound inequality: <br/> $$97.8 \\leq T \\leq 99$$. <br/>Where $T$ represents Kevin's body temperature."}, {"title": "Evaluate each option", "content": "<ul><li>Choice A: 97.7°F - This falls outside the lower range.</li><li>Choice B: 97.6°F - This also falls below the required range.</li><li>Choice C: 97.9°F - This satisfies the inequality as it is within the acceptable range.</li><li>Choice D: 99.7°F - This is above the upper limit of 99 degrees Fahrenheit and thus outside the normal range.</li></ul>Only choice <strong>C</strong> fits within the specified temperature parameters — <strong>C</strong> is correct."}]}
+{
+  "qid": "915463e0",
+  "steps": [
+    {
+      "text": "Write the normal temperature range as an inequality: \\(97.8 \\leq T \\leq 99\\) (inclusive on both ends)."
+    },
+    {
+      "text": "Check each choice against \\(97.8 \\leq T \\leq 99\\)."
+    },
+    {
+      "text": "<ul><li>Choice A: 97.7&deg;F &mdash; \\(97.7 &lt; 97.8\\), below the lower bound. Incorrect.</li><li>Choice B: 97.6&deg;F &mdash; \\(97.6 &lt; 97.8\\), below the lower bound. Incorrect.</li><li>Choice C: 97.9&deg;F &mdash; \\(97.8 \\leq 97.9 \\leq 99\\), within the normal range. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: 99.7&deg;F &mdash; \\(99.7 &gt; 99\\), above the upper bound. Incorrect.</li></ul>"
+    }
+  ],
+  "correctAnswer": "C"
+}

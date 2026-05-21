@@ -1,1 +1,19 @@
-{"questionId": "f46139df", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Pick two points on the line of best fit", "content": "Reading from the line drawn on the scatterplot, the line passes through approximately $(24, 10)$ on the left and $(34, 0)$ on the right.<br/><br/>Compute the slope: $$m = \\frac{0 - 10}{34 - 24} = \\frac{-10}{10} = -1$$"}, {"title": "Write the line's equation", "content": "Using point-slope form with $(34, 0)$:<br/>$$y - 0 = -1(x - 34) \\implies y = -x + 34$$"}, {"title": "Evaluate at $x = 25.5$", "content": "Substitute $x = 25.5$ into the equation:<br/>$$y = -(25.5) + 34 = 8.5$$<br/>Among the choices $6.2$, $7.3$, $8.2$, $9.1$, the closest value to $8.5$ is $8.2$.<br/><br/>That matches choice C — <strong>C</strong> is correct.", "desmosExpressions": ["y = -x + 34", "(25.5, 8.5)"]}]}
+{
+  "questionId": "f46139df",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "text": "Read two points off the line of best fit from the scatterplot. The line passes through approximately \\((24, 10)\\) and \\((34, 0)\\). Compute slope: \\(m = \\frac{0-10}{34-24} = \\frac{-10}{10} = -1\\)."
+    },
+    {
+      "text": "Write the line's equation using point-slope form with \\((34, 0)\\): \\(y - 0 = -1(x - 34)\\), so \\(y = -x + 34\\)."
+    },
+    {
+      "text": "Substitute \\(x = 25.5\\): \\(y = -(25.5) + 34 = 8.5\\). Identify the answer choice closest to \\(8.5\\)."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li><strong>A: 6.2</strong> — distance from 8.5 is 2.3. Not the closest. Eliminated.</li><li><strong>B: 7.3</strong> — distance from 8.5 is 1.2. Closer but not closest. Eliminated.</li><li><strong>C: 8.2</strong> — distance from 8.5 is 0.3. This is the closest value. That matches choice C — <strong>C</strong> is correct.</li><li><strong>D: 9.1</strong> — distance from 8.5 is 0.6. Farther than 8.2. Eliminated.</li></ul>"
+    }
+  ]
+}

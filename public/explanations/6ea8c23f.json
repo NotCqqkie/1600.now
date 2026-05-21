@@ -1,15 +1,1 @@
-{
-  "questionId": "6ea8c23f",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify what 'and' is connecting",
-      "content": "The sentence contains \u201cdetermine\u201d followed by two objects: \u201chow current-driven mixing varies across regions\u201d and \u201cwhat impact it has on the distribution of heat and nutrients in the ocean.\u201d The conjunction \u201cand\u201d joins these two parallel noun clauses."
-    },
-    {
-      "title": "Match the punctuation rule to 'and' joining parallel elements",
-      "content": "When \u201cand\u201d joins parallel noun clauses or phrases, no punctuation precedes it. A comma (A), colon (B), or semicolon (C) would incorrectly separate parallel items that should flow together. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6ea8c23f", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify what &quot;and&quot; is connecting", "content": "The verb &ldquo;determine&rdquo; takes two parallel noun clauses as its objects: &ldquo;how current-driven mixing varies across regions&rdquo; and &ldquo;what impact it has on the distribution of heat and nutrients in the ocean.&rdquo; The word completing the blank ends the first clause and leads into &ldquo;and.&rdquo;"}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'regions,'</strong>: A comma before &ldquo;and&rdquo; joining exactly two parallel clauses is incorrect &mdash; no punctuation is needed here. &#10007;</li><li><strong>Choice B &mdash; 'regions:'</strong>: A colon introduces a list or explanation; it cannot separate two coordinate clauses joined by &ldquo;and.&rdquo; &#10007;</li><li><strong>Choice C &mdash; 'regions;'</strong>: A semicolon joins independent clauses; the second element here is not an independent clause. &#10007;</li><li><strong>Choice D &mdash; 'regions'</strong>: No punctuation before &ldquo;and&rdquo; when joining two parallel noun clauses &mdash; this is the correct convention. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

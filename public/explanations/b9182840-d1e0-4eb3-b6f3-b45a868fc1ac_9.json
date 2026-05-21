@@ -4,12 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the meaning of at least 190 signatures",
-      "content": "When the problem states the student needs <em>at least 190 signatures</em>, this establishes a minimum requirement. Mathematically, <em>at least</em> means the total must be greater than or equal to 190: $$\\text{total signatures} \\geq 190$$"
+      "text": "Identify the total signatures collected: 30 on Monday plus \\(s\\) on Tuesday, giving a total of \\(30 + s\\)."
     },
     {
-      "title": "Set up the inequality with Monday and Tuesday signatures",
-      "content": "The student collects 30 signatures on Monday and $s$ additional signatures on Tuesday. The total is $30 + s$. Substituting into our constraint: $$30 + s \\geq 190$$ This matches choice B \u2014 <strong>B</strong> is correct."
+      "text": "Apply the requirement: the student needs <em>at least</em> 190 signatures to run. &quot;At least&quot; means \\(\\ge\\), so: \\(30 + s \\ge 190\\), which is the same as \\(s + 30 \\ge 190\\)."
+    },
+    {
+      "text": "Evaluate all choices:<ul><li><strong>A: \\(s + 30 \\le 190\\)</strong> — says the total is at most 190, meaning the student could stop at 189 signatures and still satisfy the inequality. But 189 is not enough to run. Eliminated.</li><li><strong>B: \\(s + 30 \\ge 190\\)</strong> — says the total is at least 190, guaranteeing the student has enough signatures. That matches choice B — <strong>B</strong> is correct.</li><li><strong>C: \\(s - 30 \\le 190\\)</strong> — subtracts Monday&apos;s signatures instead of adding them. This does not represent the total collected. Eliminated.</li><li><strong>D: \\(s - 30 \\ge 190\\)</strong> — subtracts Monday&apos;s signatures and goes in the right direction, but the structure is wrong; it would require Tuesday alone to exceed 220. Eliminated.</li></ul>"
     }
   ]
 }

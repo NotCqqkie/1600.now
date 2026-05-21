@@ -1,15 +1,1 @@
-{
-  "questionId": "47904792",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the central contradiction",
-      "content": "The passage states a myth\u2014\u201dpeople thought tool use was unique to primates\u201d\u2014and immediately refutes it: \u201cDolphins and other animals... have busted the myth.\u201d This contradiction is the passage's core."
-    },
-    {
-      "title": "Apply to the choices",
-      "content": "The passage argues that a variety of animals use tools, not just primates. Choices A and C incorrectly focus on intelligence, which the passage never addresses; choice B wrongly centers on humans when they aren't discussed. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "47904792", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Find the central argument of the passage", "content": "The passage opens by stating animals use objects as tools. It then names the old belief: tool use was thought unique to primates. The next two sentences refute that belief: dolphins use sponges to protect their noses, and palm cockatoos use leaves to open nuts. The passage&apos;s purpose is to show that a variety of non-primate animals use tools &mdash; overturning the primate-only assumption."},{"title": "Eliminate the wrong choices and confirm D", "content": "<ul><li><strong>Choice A &mdash; 'To question the belief that birds are intelligent'</strong>: The passage never discusses intelligence; it calls cockatoo tool use &quot;creative,&quot; implying the opposite of unintelligence. &#10007;</li><li><strong>Choice B &mdash; 'To compare tool use in humans with tool use in palm cockatoos'</strong>: Humans are never directly mentioned as tool users in the passage; palm cockatoos appear as one example among several, not as a contrast to humans. &#10007;</li><li><strong>Choice C &mdash; 'To establish that tool use doesn&apos;t indicate intelligence'</strong>: Intelligence is never mentioned; the passage describes animal tool use as inventive and creative, not as evidence against intelligence. &#10007;</li><li><strong>Choice D &mdash; 'To argue that a variety of animals use tools'</strong>: The passage refutes the primate-only myth by showing that dolphins and palm cockatoos also use tools &mdash; exactly the argument that tool use spans a variety of animals. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

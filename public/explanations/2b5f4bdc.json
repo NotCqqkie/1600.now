@@ -1,15 +1,1 @@
-{
-  "questionId": "2b5f4bdc",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The passage lists two consecutive actions showing Jovita's expanding activism: as a reporter, she voiced support for a Mexican revolt, and she founded the League of Mexican Women. The transition must show the second action is <strong>additional to</strong> the first."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "\u201dAdditionally,\u201d directly shows the League was another action added to her activism, extending her work beyond reporting. The other three suggest conclusion, example, or contrast\u2014none of which fit accumulating actions. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "2b5f4bdc", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the key signal", "content": "The passage lists two separate actions showing Id&aacute;r fighting injustice: (1) voicing support for the Mexican revolt as a reporter, and (2) founding the League of Mexican Women. The blank connects them &mdash; the second action must be presented as an <em>addition</em> to the first, not a conclusion, example, or contrast."}, {"title": "Test each choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;Additionally,&rsquo;</strong>: signals that founding the League is another separate act of fighting injustice &mdash; exactly the additive relationship the passage establishes. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In conclusion,&rsquo;</strong>: signals a summary or wrap-up &mdash; founding the League is a new action, not a conclusion of the reporting work. &#10007;</li><li><strong>Choice C &mdash; &lsquo;For example,&rsquo;</strong>: signals that founding the League illustrates the previous point about voicing support for the revolt &mdash; but these are two distinct acts, not one exemplifying the other. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Rather,&rsquo;</strong>: signals contrast or correction &mdash; nothing in the passage contradicts what came before; both actions reinforce the same theme. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

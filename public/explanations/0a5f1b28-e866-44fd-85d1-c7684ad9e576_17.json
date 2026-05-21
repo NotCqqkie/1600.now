@@ -1,15 +1,1 @@
-{
-  "questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_17",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the 'likely' + verb structure",
-      "content": "\u201dRespondents were more likely ______ common Brazilian foods.\u201d The blank comes after the adjective 'likely' and needs a verb form that expresses what the respondents were likely to do."
-    },
-    {
-      "title": "Apply the infinitive rule",
-      "content": "Verbs following 'likely' must be in infinitive form (to + base verb). Choice B, \u201cto eat,\u201d provides this required form. The other choices use non-infinitive verb forms (simple past, progressive phrase without 'to,' and past participle). This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0a5f1b28-e866-44fd-85d1-c7684ad9e576_17", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical clue", "content": "The blank follows the adjective <em>likely</em>: &ldquo;respondents were more likely ______ common Brazilian foods.&rdquo; In Standard English, <em>likely</em> takes an infinitive (to + base verb) to express what someone is likely to do."}, {"title": "Eliminate wrong forms and confirm the answer", "content": "Test each choice against the infinitive requirement:\n<ul>\n<li><strong>Choice A &mdash; &lsquo;ate&rsquo;</strong>: simple past tense, not an infinitive &mdash; &ldquo;more likely <em>ate</em>&rdquo; is ungrammatical. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;to eat&rsquo;</strong>: correct infinitive form &mdash; &ldquo;more likely <em>to eat</em>&rdquo; follows Standard English convention. &#10003;</li>\n<li><strong>Choice C &mdash; &lsquo;still be eating&rsquo;</strong>: progressive phrase missing the required <em>to</em> before it &mdash; ungrammatical after <em>likely</em>. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;eaten&rsquo;</strong>: past participle, not an infinitive &mdash; &ldquo;more likely <em>eaten</em>&rdquo; is ungrammatical. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}

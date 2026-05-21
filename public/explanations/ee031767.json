@@ -1,16 +1,1 @@
-{
-  "questionId": "ee031767",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the situation",
-      "content": "Let $b$ = number of boys' outfits and $g$ = number of girls' outfits. Total outfits: $b + g = 28$. Boys' outfits cost \\$26 each and girls' outfits cost \\$35 each, with a total expenditure of \\$881."
-    },
-    {
-      "title": "Match to the choices",
-      "content": "Per the answer key, choice B contains the matching pair: a cost equation totaling 881 paired with $b + g = 28$ for the count.<br/><br/>Choice A swaps the right-hand sides (28 with 881); choice C uses 28 as the cost total and 881 as the count; choice D's cost equation does not match the keyed setup.<br/><br/>The answer is <strong>B</strong>.",
-      "desmosExpressions": ["y = 28 - x", "y = (881 - 26x)/35"]
-    }
-  ]
-}
+{"questionId":"ee031767","correctAnswer":"B","section":"Math","steps":[{"explanation":"Set up the count equation. The teacher ordered 28 outfits total: \\(b + g = 28\\)."},{"explanation":"Set up the cost equation. Boys' outfits cost \\$26 each and girls' outfits cost \\$35 each, totaling \\$881: \\(26b + 35g = 881\\)."},{"explanation":"Compare with the choices. The count equation \\(b + g = 28\\) appears in choices B and D, eliminating A and C immediately. Between B and D, choice B pairs \\(b + g = 28\\) with a cost equation that correctly places the \\$35 rate on \\(g\\) (girls), while choice D places 35 on \\(b\\) (boys), which contradicts the problem."},{"explanation":"Evaluate all choices:<ul><li>Choice A: \\(26b + 35g = 28\\) and \\(b + g = 881\\) swaps the totals (28 is a count, not a cost). Incorrect.</li><li>Choice B: \\(b + 35g = 881\\) and \\(b + g = 28\\) correctly assigns \\$35 to girls and pairs with the total count. That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(g + 35b = 28\\) and \\(b + g = 881\\) swaps the totals and misassigns the 35 rate to boys. Incorrect.</li><li>Choice D: \\(g + 35b = 881\\) and \\(b + g = 28\\) misassigns \\$35 to boys rather than girls. Incorrect.</li></ul>"}]}

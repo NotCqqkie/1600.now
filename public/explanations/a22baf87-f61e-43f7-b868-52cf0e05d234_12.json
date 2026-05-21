@@ -1,15 +1,1 @@
-{
-  "questionId": "a22baf87-f61e-43f7-b868-52cf0e05d234_12",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the zeros from x-intercepts",
-      "content": "The graph passes through $(-3, 0)$, $(1, 0)$, and $(4, 0)$. These are the x-intercepts, meaning $f(-3) = 0$, $f(1) = 0$, and $f(4) = 0$."
-    },
-    {
-      "title": "Apply Factor Theorem to match the choices",
-      "content": "By the Factor Theorem: if $f(a) = 0$, then $(x - a)$ is a factor. Our zeros give us factors $(x + 3)$, $(x - 1)$, and $(x - 4)$. Looking at the answer choices, only $(x - 1)$ appears as a factor. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId":"a22baf87-f61e-43f7-b868-52cf0e05d234_12","correctAnswer":"C","section":"Math","steps":[{"explanation":"Apply the Factor Theorem: if \\(f(a) = 0\\), then \\((x - a)\\) is a factor of \\(f(x)\\). The three x-intercepts give three zeros: \\(x = -3\\), \\(x = 1\\), and \\(x = 4\\)."},{"explanation":"Convert zeros to factors: \\(x = -3 \\Rightarrow (x+3)\\), \\(x = 1 \\Rightarrow (x-1)\\), \\(x = 4 \\Rightarrow (x-4)\\)."},{"explanation":"Identify which factor appears among the answer choices. The factors are \\((x+3)\\), \\((x-1)\\), and \\((x-4)\\). Only \\((x-1)\\) matches a listed choice."},{"explanation":"Evaluate all choices:<ul><li>Choice A: \\(x+1\\) corresponds to zero \\(x = -1\\), which is not an x-intercept. Not necessarily a factor.</li><li>Choice B: \\(x+4\\) corresponds to zero \\(x = -4\\), which is not an x-intercept. Not necessarily a factor.</li><li>Choice C: \\(x-1\\) corresponds to zero \\(x = 1\\), which is an x-intercept. This must be a factor. That matches choice C &mdash; <strong>C</strong> is correct.</li><li>Choice D: \\(x-3\\) corresponds to zero \\(x = 3\\), which is not an x-intercept. Not necessarily a factor.</li></ul>"}]}

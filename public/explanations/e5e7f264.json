@@ -1,15 +1,1 @@
-{
-  "questionId": "e5e7f264",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The store is described as where people <em>\u201cshare news and help spread it throughout their communities.\u201d</em>"
-    },
-    {
-      "title": "Match the meaning",
-      "content": "Source is an origin point\u2014the place something comes from. The store is precisely such a point for information. The others have no connection to being a source of information. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e5e7f264", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must mean", "content": "The passage says people socializing at the general store would &ldquo;share news and help spread it throughout their communities.&rdquo; The blank fills &ldquo;the store was a ______ of information.&rdquo; The word must mean an origin point &mdash; a place from which information flows."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'source'</strong>: &ldquo;Source&rdquo; means a place where something originates or is obtained. The store is precisely where information originates and spreads outward. &#10003;</li><li><strong>Choice B &mdash; 'rival'</strong>: &ldquo;Rival&rdquo; means competitor. The passage never frames the store as competing with anything. &#10007;</li><li><strong>Choice C &mdash; 'condition'</strong>: &ldquo;Condition&rdquo; means state or requirement. Saying the store was a &ldquo;condition of information&rdquo; is not meaningful in context. &#10007;</li><li><strong>Choice D &mdash; 'waste'</strong>: &ldquo;Waste&rdquo; means something discarded or spent unnecessarily &mdash; the opposite of what the passage describes. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

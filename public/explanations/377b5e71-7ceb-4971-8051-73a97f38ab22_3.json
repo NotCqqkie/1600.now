@@ -1,15 +1,1 @@
-{
-  "questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_3",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The \"but in fact\" indicates these sculptures contradict the characterization of Greco-Roman art as idealizing. We need a word meaning the opposite — something that describes portraying people in a negative rather than perfect way."
-    },
-    {
-      "title": "Match the opposite to the choices",
-      "content": "The blank must mean \"the opposite of idealizing\" — depicting people unfavorably, not beautifully. Substitute each choice:<ul><li><strong>Choice A — superficial</strong>: shallow or lacking depth — a superficial depiction doesn't directly oppose idealization; it describes quality of observation, not attractiveness. ✗</li><li><strong>Choice B — implausible</strong>: unbelievable or unrealistic — this targets believability, not the flattering-vs-unflattering contrast the passage sets up. ✗</li><li><strong>Choice C — unflattering</strong>: presenting someone in a negative or unappealing way — directly opposes idealization, which portrays subjects beautifully. ✓</li><li><strong>Choice D — imprecise</strong>: inaccurate or vague — this targets accuracy, not the aesthetic praise vs. criticism contrast signaled by \"idealizing.\" ✗</li></ul>That matches choice C — <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "377b5e71-7ceb-4971-8051-73a97f38ab22_3", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the contrast signal", "content": "The sentence says Greco-Roman sculpture is &quot;sometimes characterized as idealizing human subjects, but in fact there are many&quot; that depict people in a decidedly ______ way. The phrase &quot;but in fact&quot; is a contrast signal: the blank must be the opposite of idealizing &mdash; something that means depicting people negatively or unflatteringly rather than beautifully."}, {"title": "Eliminate each choice and pick the match", "content": "<ul><li><strong>Choice A &mdash; 'superficial'</strong>: Means shallow or lacking depth. This describes the quality of an observation, not whether a depiction is flattering or unflattering. It doesn&apos;t contrast with &quot;idealizing.&quot; &#10007;</li><li><strong>Choice B &mdash; 'implausible'</strong>: Means unbelievable or unrealistic. This targets believability, not the flattering-vs-unflattering contrast the passage sets up. &#10007;</li><li><strong>Choice C &mdash; 'unflattering'</strong>: Means presenting someone in a negative or unappealing way &mdash; the direct opposite of idealizing, which portrays subjects beautifully. &#10003;</li><li><strong>Choice D &mdash; 'imprecise'</strong>: Means inaccurate or vague. This targets accuracy, not the aesthetic praise-vs-criticism contrast signaled by &quot;idealizing.&quot; &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

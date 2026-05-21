@@ -1,15 +1,1 @@
-{
-  "questionId": "760ee1db",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the contrast signal",
-      "content": "The passage specifies the actual effect: <em>wearying audiences instead of energizing them.</em> This phrase reveals what the playwrights hoped for\u2014to energize rather than weary."
-    },
-    {
-      "title": "Select the word for excitement and energy",
-      "content": "<strong>Rousing</strong> means exciting and energizing. Multifaceted, realistic, and subtle don't convey excitement or energy. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "760ee1db", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Use the contrast to find what the playwrights intended", "content": "The sentence says the play had &quot;the opposite effect, wearying audiences instead of energizing them.&quot; The contrast signal &quot;instead of&quot; reveals what the playwrights hoped for: something that would energize rather than weary. The blank must describe a quality that means energizing or exciting."}, {"title": "Eliminate each choice and find the match", "content": "Consider every option:<ul><li><strong>Choice A &mdash; 'multifaceted'</strong>: Means having many aspects or dimensions; this says nothing about energy or excitement and would not contrast logically with &quot;wearying.&quot; &#10007;</li><li><strong>Choice B &mdash; 'realistic'</strong>: Means true to life; a realistic play could still weary audiences, so this is not the opposite of wearying. &#10007;</li><li><strong>Choice C &mdash; 'rousing'</strong>: Means exciting, stirring, or energizing&mdash;the direct opposite of wearying an audience. &#10003;</li><li><strong>Choice D &mdash; 'subtle'</strong>: Means understated or delicate; a subtle play is even more likely to weary than energize, not the opposite. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}

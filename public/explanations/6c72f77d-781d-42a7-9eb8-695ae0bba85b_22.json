@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the equations describe the same line",
-      "content": "Multiply the first equation by 5: $$5(7x + 4y) = 5(3)$$ $$35x + 20y = 15$$ This is exactly the second equation, so both describe the <strong>same line</strong> $7x + 4y = 3$. We need the parametric form that traces this line for every value of $r$."
+      "explanation": "Multiply the first equation by 5: \\(5(7x+4y)=5(3)\\) gives \\(35x+20y=15\\), which is identical to the second equation. Both equations describe the same line \\(7x+4y=3\\), so every point on that line satisfies both."
     },
     {
-      "title": "Test the parametrizations by substitution",
-      "content": "A parametrization works for all $r$ if substituting its coordinates into $7x + 4y = 3$ always yields 3. <br/><br/> Backsolving \u2014 testing choice B ($\\left(-\\frac{4r}{7}+\\frac{3}{7}, r\\right)$): <br/> $$7\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right) + 4(r) = -4r + 3 + 4r = 3$$ <br/> This simplifies to 3 for every $r$. That matches choice B \u2014 <strong>B</strong> is correct.",
-      "desmosExpressions": ["y = \\frac{3 - 7x}{4}", "y = \\frac{15 - 35x}{20}"]
+      "explanation": "A parametrization \\((x(r), y(r))\\) works for all real \\(r\\) if substituting into \\(7x+4y=3\\) always yields 3. Testing choice B with \\(x = -\\frac{4r}{7}+\\frac{3}{7}\\) and \\(y = r\\): \\(7\\!\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right)+4r = -4r+3+4r = 3\\). This holds for every \\(r\\)."
+    },
+    {
+      "explanation": "Evaluate each choice by substituting into \\(7x+4y=3\\):<ul><li>Choice A: \\(\\left(\\frac{r}{5}+3,\\,-\\frac{r}{5}+15\\right)\\). Compute \\(7\\!\\left(\\frac{r}{5}+3\\right)+4\\!\\left(-\\frac{r}{5}+15\\right)=\\frac{7r}{5}+21-\\frac{4r}{5}+60=\\frac{3r}{5}+81\\). This equals 3 only when \\(r=-130\\), not for all \\(r\\). Incorrect.</li><li>Choice B: \\(\\left(-\\frac{4r}{7}+\\frac{3}{7},\\,r\\right)\\). Compute \\(7\\!\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right)+4r=-4r+3+4r=3\\). True for every \\(r\\). That matches choice B &mdash; <strong>B</strong> is correct.</li><li>Choice C: \\(\\left(r,\\,\\frac{7r}{4}+\\frac{3}{4}\\right)\\). Compute \\(7r+4\\!\\left(\\frac{7r}{4}+\\frac{3}{4}\\right)=7r+7r+3=14r+3\\). This equals 3 only when \\(r=0\\), not for all \\(r\\). Incorrect.</li><li>Choice D: \\(\\left(r,\\,-\\frac{4r}{7}+\\frac{3}{7}\\right)\\). Compute \\(7r+4\\!\\left(-\\frac{4r}{7}+\\frac{3}{7}\\right)=7r-\\frac{16r}{7}+\\frac{12}{7}=\\frac{33r}{7}+\\frac{12}{7}\\). This equals 3 only when \\(r=\\frac{1}{11}\\), not for all \\(r\\). Incorrect.</li></ul>"
     }
   ]
 }

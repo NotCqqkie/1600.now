@@ -1,15 +1,1 @@
-{
-  "questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_1",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the target meaning",
-      "content": "The passage describes nature as \"gorgeous,\" with moss \"enlivened,\" pine \"resplendent,\" and festoons of carnival. Mr. Bradford is \"conscious\" of this vivid visual <u>display</u>. The word must mean an <em>impressive visual sight</em>."
-    },
-    {
-      "title": "Substitute each choice",
-      "content": "The blank needs to mean a striking, impressive visual exhibition. Substitute each choice:\n<ul>\n<li><strong>Choice A — spectacle</strong>: \"this gorgeous <em>spectacle</em> of nature\" — <em>spectacle</em> means a visually impressive or striking sight. This perfectly matches the vivid natural scene described. ✓</li>\n<li><strong>Choice B — reproduction</strong>: \"this gorgeous <em>reproduction</em> of nature\" — <em>reproduction</em> means a copy or duplicate. The passage describes real nature, not a replica. ✗</li>\n<li><strong>Choice C — pretentiousness</strong>: \"this gorgeous <em>pretentiousness</em> of nature\" — <em>pretentiousness</em> means affectation or trying to seem important. Nature is not described as self-important here. ✗</li>\n<li><strong>Choice D — disguise</strong>: \"this gorgeous <em>disguise</em> of nature\" — <em>disguise</em> means a concealing costume. Nothing in the passage suggests nature is concealing anything. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6172d662-f820-4d74-acac-4b49873dfc8f_1", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the word must mean", "content": "The passage describes nature as &quot;gorgeous,&quot; with moss &quot;enlivened,&quot; pine &quot;resplendent,&quot; and festoons of carnival. Mr. Bradford is &quot;conscious&quot; of this vivid natural scene. The blank must mean an <em>impressive visual sight or exhibition</em> that a person can be aware of."},{"title": "Substitute each choice and eliminate", "content": "<ul><li><strong>Choice A &mdash; 'Spectacle'</strong>: &quot;this gorgeous <em>spectacle</em> of nature&quot; &mdash; a spectacle is a visually striking or impressive sight. This fits the vivid, colorful scene perfectly. &#10003;</li><li><strong>Choice B &mdash; 'Reproduction'</strong>: &quot;this gorgeous <em>reproduction</em> of nature&quot; &mdash; a reproduction is a copy or duplicate. The passage describes real nature, not a replica of it. &#10007;</li><li><strong>Choice C &mdash; 'Pretentiousness'</strong>: &quot;this gorgeous <em>pretentiousness</em> of nature&quot; &mdash; pretentiousness means affectation or trying to seem important. Nature is not described as self-important or affected here. &#10007;</li><li><strong>Choice D &mdash; 'Disguise'</strong>: &quot;this gorgeous <em>disguise</em> of nature&quot; &mdash; a disguise is a concealing costume. Nothing in the passage suggests nature is hiding or concealing anything. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}
