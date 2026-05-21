@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the purpose",
-      "content": "The passage opens with the fact that handshakes create trust and states the team's goal: to improve human-robot interactions through a robot handshake. The key signal is this link\u2014they're trying to replicate the trust-building effect of real handshakes."
+      "title": "Identify the logical gap the blank must fill",
+      "content": "The passage establishes two facts: (1) handshakes create trust between people, and (2) the team wants to improve human-robot interactions. The blank must complete the sentence &quot;The researchers want the robot's handshake to feel realistic because ______&quot; &mdash; the answer must connect a realistic handshake to improved human-robot interactions via that trust-building function."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choice A states the direct outcome: lifelike handshakes result in people feeling more comfortable interacting with robots. The other three propose unrelated explanations\u2014difficulty to program, visual appearance, or other purposes. That matches choice A \u2014 <strong>A</strong> is correct."
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'lifelike handshakes may make people more comfortable interacting with robots.'</strong>: Directly connects the realism of the handshake to improved human-robot interaction through the trust/comfort mechanism stated in the passage. &#10003;</li><li><strong>Choice B &mdash; 'it&rsquo;s easier to program a robot to perform handshakes than it is to program a robot to perform some other types of greetings.'</strong>: The passage never compares handshakes to other greetings or discusses programming difficulty. &#10007;</li><li><strong>Choice C &mdash; 'people are less likely to interact with robots that don&rsquo;t look like humans.'</strong>: The passage is about handshake feel, not robot appearance; visual likeness is never discussed. &#10007;</li><li><strong>Choice D &mdash; 'the robot in the researchers&rsquo; study may have uses other than interacting with humans.'</strong>: The passage describes no other use for the robot; this introduces an unsupported claim. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

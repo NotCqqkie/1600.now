@@ -1,15 +1,1 @@
-{
-  "questionId": "749328c4-3c9b-4615-9409-c9853a26da34_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the singular antecedent",
-      "content": "The pronoun refers to the film described as \u201cthe feature-length romance\u201d\u2014singular."
-    },
-    {
-      "title": "Select the matching pronoun",
-      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number.\n<ul>\n<li><strong>Choice A \u2014 \"it\"</strong>: singular pronoun; matches singular antecedent \"the feature-length romance.\" \u2713</li>\n<li><strong>Choice B \u2014 \"those\"</strong>: plural pronoun; disagrees with a singular antecedent. \u2717</li>\n<li><strong>Choice C \u2014 \"these\"</strong>: plural pronoun; disagrees with a singular antecedent. \u2717</li>\n<li><strong>Choice D \u2014 \"them\"</strong>: plural pronoun; disagrees with a singular antecedent. \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "749328c4-3c9b-4615-9409-c9853a26da34_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the grammar rule being tested", "content": "This is a pronoun-antecedent agreement question. The pronoun must refer to &quot;the feature-length romance&quot; &mdash; a singular noun. The pronoun must be singular to agree.<ul><li><strong>Choice A &mdash; 'it'</strong>: Singular pronoun; agrees with singular antecedent &quot;the feature-length romance.&quot; &#10003;</li><li><strong>Choice B &mdash; 'those'</strong>: Plural pronoun; does not agree with singular antecedent. &#10007;</li><li><strong>Choice C &mdash; 'these'</strong>: Plural pronoun; does not agree with singular antecedent. &#10007;</li><li><strong>Choice D &mdash; 'them'</strong>: Plural pronoun; does not agree with singular antecedent. &#10007;</li></ul>"}, {"title": "Confirm the match", "content": "Only &quot;it&quot; is a singular pronoun that correctly refers back to &quot;the feature-length romance.&quot; The three other choices are all plural and create a disagreement in number.<br/><br/>That matches choice A &mdash; <strong>A</strong> is correct."}]}
