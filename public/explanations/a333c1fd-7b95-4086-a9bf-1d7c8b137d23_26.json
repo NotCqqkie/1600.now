@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the location reference",
-      "content": "The first sentence establishes India as the country of origin for the Cheruku rasamu mango. The second sentence gives a production statistic that applies to that same location."
+      "title": "Identify the logical relationship",
+      "content": "The first sentence establishes India as the country of origin for the Cheruku rasamu mango. The second sentence provides a 2018 production figure. The relationship is location: the production statistic applies to the same place just named &mdash; India."
     },
     {
-      "title": "Apply the location signal",
-      "content": "The logical relationship is specification (location). The blank needs a transition anchoring the production statistic to the place just mentioned—India.\n<ul>\n<li><strong>Choice A — \"Hence,\"</strong>: signals a logical consequence, implying the production stat follows causally from the mango's origin, which it doesn't, so fails. ✗</li>\n<li><strong>Choice B — \"There,\"</strong>: functions as a locative adverb pointing back to India, establishing where the 2018 production figure applies, so fits. ✓</li>\n<li><strong>Choice C — \"In fact,\"</strong>: signals emphasis or a surprising clarification, but the production stat isn't being used to correct or emphasize the prior sentence, so fails. ✗</li>\n<li><strong>Choice D — \"Specifically,\"</strong>: signals narrowing to a particular aspect of the prior claim; the production figure doesn't narrow the mango's origin—it reports output from that location, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs a transition that anchors the production statistic to the location already mentioned.<ul><li><strong>Choice A &mdash; 'Hence,'</strong>: signals a logical consequence, implying the production figure follows causally from the mango's origin, which it does not. &#10007;</li><li><strong>Choice B &mdash; 'There,'</strong>: functions as a locative adverb pointing back to India, specifying where the 2018 production figure applies. &#10003;</li><li><strong>Choice C &mdash; 'In fact,'</strong>: signals emphasis or a surprising clarification; the production statistic is not being used to correct or intensify the prior claim. &#10007;</li><li><strong>Choice D &mdash; 'Specifically,'</strong>: signals narrowing to a particular aspect of the prior claim; the production figure does not narrow the origin claim &mdash; it reports output from that location. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }
