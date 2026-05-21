@@ -1,15 +1,1 @@
-{
-  "questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_26",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the location shift",
-      "content": "The passage presents one example at the University of Texas, then immediately mentions Howard University — a different school in a different city. The transition must signal movement to another location while continuing the same series of examples."
-    },
-    {
-      "title": "Apply the location signal",
-      "content": "The logical relationship is addition via location shift: two parallel examples of African American history courses at different institutions.\n<ul>\n<li><strong>Choice A — \"In other words,\"</strong>: signals restatement or clarification. The Howard example is not a rephrasing of the UT example. ✗</li>\n<li><strong>Choice B — \"Elsewhere,\"</strong>: signals a shift to another location while maintaining the same illustrative function — exactly right for moving from UT to Howard. ✓</li>\n<li><strong>Choice C — \"Thus,\"</strong>: signals a conclusion drawn from prior evidence. The Howard example is not a conclusion. ✗</li>\n<li><strong>Choice D — \"In particular,\"</strong>: signals a narrowing specification. Howard is not a subset of UT; it is a separate institution. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "bcfca978-b649-44b6-8774-fc731fcc4199_26", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "The passage gives one example at the University of Texas, then pivots to a second example at Howard University &mdash; a different institution in a different place. The blank must signal movement to another location while continuing the same illustrative series."}, {"title": "Eliminate wrong transitions and confirm the answer", "content": "Work through each choice:\n<ul>\n<li><strong>Choice A &mdash; 'In other words,'</strong>: signals restatement or clarification. The Howard example is a separate illustration, not a rephrasing of the UT example. &#10007;</li>\n<li><strong>Choice B &mdash; 'Elsewhere,'</strong>: signals a shift to another location while maintaining the same function &mdash; exactly right for moving from UT to Howard as a parallel example. &#10003;</li>\n<li><strong>Choice C &mdash; 'Thus,'</strong>: signals a conclusion drawn from prior evidence. The Howard example is not a conclusion; it is another supporting example. &#10007;</li>\n<li><strong>Choice D &mdash; 'In particular,'</strong>: signals a narrowing specification. Howard is not a subset of the University of Texas; it is a separate institution. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}

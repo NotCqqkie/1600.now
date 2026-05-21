@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrasting findings",
-      "content": "The passage presents two opposite observations: actors showed suppressed brain responses during acting, but normal responses during non-acting. These contradictory findings need a transition word to show their relationship."
+      "title": "Identify the relationship between the two clauses",
+      "content": "The first clause says actors showed suppressed brain responses when their names were called during performances. The second clause says those same actors showed normal responses in non-acting contexts. The two findings are opposite &mdash; the blank must signal that contrast."
     },
     {
-      "title": "Choose the transition marking opposition",
-      "content": "The logical relationship is contrast. The blank needs a transition signaling that the second finding directly opposes the first.\n<ul>\n<li><strong>Choice A — \"conversely,\"</strong>: signals direct opposition between two things, so fits. ✓</li>\n<li><strong>Choice B — \"specifically,\"</strong>: signals that the second sentence narrows or details the first — but the actors' normal responses in non-acting contexts don't narrow the acting finding, they contradict it. ✗</li>\n<li><strong>Choice C — \"likewise,\"</strong>: signals similarity, but the two responses are opposite, not similar. ✗</li>\n<li><strong>Choice D — \"thus,\"</strong>: signals a logical consequence, but suppressed acting responses don't cause normal non-acting responses. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+      "title": "Test each choice against the contrast relationship",
+      "content": "The transition must indicate that the second finding directly opposes the first.\n<ul>\n<li><strong>Choice A &mdash; 'conversely,'</strong>: signals direct opposition between two things &mdash; suppressed responses during acting vs. normal responses outside it. &#10003;</li>\n<li><strong>Choice B &mdash; 'specifically,'</strong>: signals that what follows narrows or details what came before, but normal non-acting responses don&apos;t narrow the acting finding &mdash; they contradict it. &#10007;</li>\n<li><strong>Choice C &mdash; 'likewise,'</strong>: signals similarity, but the two responses are opposite, not the same. &#10007;</li>\n<li><strong>Choice D &mdash; 'thus,'</strong>: signals a logical consequence, but suppressed acting responses do not cause normal non-acting responses. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

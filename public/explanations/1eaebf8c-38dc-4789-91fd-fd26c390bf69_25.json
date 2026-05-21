@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the core requirement",
-      "content": "The goal is explicit: indicate the size of the refuge. The notes provide exactly one measurement for this: 3,592 acres."
+      "title": "Identify the goal",
+      "content": "The question asks which choice &quot;indicates the size of the Coachella Valley NWR.&quot; Only one note provides a size measurement: the refuge encompasses 3,592 acres. The correct answer must include that figure."
     },
     {
-      "title": "Find the choice containing this measurement",
-      "content": "Choice B directly includes the size: \u201cencompasses 3,592 acres of land.\u201d The other three choices focus on the species (A and D), management (C), or activity restrictions, omitting the acreage. That matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Test each choice for the size measurement",
+      "content": "A correct answer must state the acreage; any choice that omits it fails the goal.\n<ul>\n<li><strong>Choice A &mdash; 'The Coachella Valley NWR is a natural area in California, home to the Coachella Valley fringe-toed lizard.'</strong>: mentions the species and location but includes no size measurement. &#10007;</li>\n<li><strong>Choice B &mdash; 'A protected natural area, the Coachella Valley NWR encompasses 3,592 acres of land in California.'</strong>: directly states the 3,592-acre size, fulfilling the goal. &#10003;</li>\n<li><strong>Choice C &mdash; 'The Coachella Valley NWR is a protected natural area managed by the US Fish &amp; Wildlife Service, which limits human activities there.'</strong>: focuses on management and activity restrictions; no acreage given. &#10007;</li>\n<li><strong>Choice D &mdash; 'Home to the Coachella Valley fringe-toed lizard, California&apos;s Coachella Valley NWR is managed by the US Fish &amp; Wildlife Service.'</strong>: mentions the species and manager but omits the size. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }
