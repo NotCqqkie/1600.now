@@ -1,15 +1,1 @@
-{
-  "questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_24",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the additive relationship",
-      "content": "The passage states that the photograph fuels exploration of love and cultural identity, then moves to what else the poem does: reflect on relationships between poetry and other art forms.<br/><br/>The key signal is that these are two complementary observations about the poem's response, requiring an additive transition."
-    },
-    {
-      "title": "Match the transition to the relationship",
-      "content": "The logical relationship is addition — the poem both explores love and cultural identity AND reflects on relationships between poetry and other art forms. The blank needs a transition signaling a second, reinforcing point.\n<ul>\n<li><strong>Choice A — \"Conversely,\"</strong>: signals a direct contrast or reversal, so fails — reflecting on art forms is complementary to exploring identity, not opposite to it. ✗</li>\n<li><strong>Choice B — \"What's more,\"</strong>: signals an additional point that builds on what preceded it, so fits. ✓</li>\n<li><strong>Choice C — \"For instance,\"</strong>: signals a specific example of a general claim, so fails — the second observation is a new point, not an illustration of the first. ✗</li>\n<li><strong>Choice D — \"In other words,\"</strong>: signals restatement of the same idea, so fails — the two observations are distinct, not paraphrases of each other. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "99671f3e-880b-4ca4-8991-bf3fac7486ec_24", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship at the blank", "content": "The sentence before the blank states that the photograph fuels the poem's exploration of love and cultural identity. The sentence containing the blank adds a second, distinct observation: that in responding to Ramirez's artwork, the poem also reflects on the relationship between poetry and other art forms. These are two complementary points about the same poem &mdash; neither one contradicts, illustrates, nor restates the other. The blank needs a transition that signals addition."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "<ul><li><strong>Choice A &mdash; 'Conversely,'</strong>: signals a direct contrast or reversal, but reflecting on art forms is complementary to exploring love and identity, not opposite to it. &#10007;</li><li><strong>Choice B &mdash; 'What&apos;s more,'</strong>: signals an additional point that builds on what preceded it, which fits: the poem does both things. &#10003;</li><li><strong>Choice C &mdash; 'For instance,'</strong>: signals a specific example of the preceding claim, but the second observation is a new, separate point about the poem &mdash; not an illustration of exploring love and cultural identity. &#10007;</li><li><strong>Choice D &mdash; 'In other words,'</strong>: signals a restatement of the same idea, but the two observations are distinct points, not paraphrases of each other. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

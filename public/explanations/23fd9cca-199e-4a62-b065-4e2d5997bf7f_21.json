@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship",
-      "content": "The previous sentence establishes that the statues are \"extremely heavy.\" The sentence with the blank provides specific numerical evidence to confirm this claim."
+      "title": "Map the logical relationship between the sentences",
+      "content": "The first sentence calls the statues &quot;extremely heavy.&quot; The sentence with the blank follows with a specific weight figure (each weighing several tons). The second sentence is not introducing new information or a contrast &mdash; it is proving the prior claim with concrete evidence. The transition must signal confirmation or elaboration."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "The logical relationship is specification/confirmation: sentence 2 proves sentence 1 with a concrete weight.\n<ul>\n<li><strong>Choice A — \"In any case,\"</strong>: signals a concession or summary regardless of prior context. It introduces resignation, not supporting evidence. ✗</li>\n<li><strong>Choice B — \"Earlier,\"</strong>: signals a time shift to a prior moment. The weight is a present fact, not a past event. ✗</li>\n<li><strong>Choice C — \"In fact,\"</strong>: signals confirmation or evidence backing up a prior claim with a stronger or more specific detail. The 5-ton figure proves \"extremely heavy.\" ✓</li>\n<li><strong>Choice D — \"Instead,\"</strong>: signals substitution or contradiction. The weight does not replace or contradict the prior claim. ✗</li>\n</ul>\nThat matches choice C — <strong>C</strong> is correct."
+      "title": "Eliminate wrong choices and confirm the match",
+      "content": "Work through each option:<ul><li><strong>Choice A &mdash; &apos;In any case,&apos;</strong>: signals a concession or a conclusion regardless of prior context &mdash; not evidence supporting a specific claim. &#10007;</li><li><strong>Choice B &mdash; &apos;Earlier,&apos;</strong>: signals a time shift to a past moment. The weight is a present fact, not a prior event. &#10007;</li><li><strong>Choice C &mdash; &apos;In fact,&apos;</strong>: signals that the following statement confirms or strengthens the previous one with a more specific detail. The tonnage figure proves &quot;extremely heavy.&quot; &#10003;</li><li><strong>Choice D &mdash; &apos;Instead,&apos;</strong>: signals substitution or contradiction. The weight does not replace or contradict the prior claim. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
     }
   ]
 }

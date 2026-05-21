@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the temporal contrast",
-      "content": "Neon was discovered and isolated in the same year. Erbium was isolated 91 years after its discovery. This is a clear temporal contrast between a quick process and a prolonged one."
+      "title": "Identify the relationship between the two sentences",
+      "content": "Sentence 1: neon was isolated the same year it was discovered (1898) &mdash; fast. Sentence 2: erbium took 91 years to isolate after discovery &mdash; slow. The two timelines are opposites, so the blank needs a contrast signal."
     },
     {
-      "title": "Match the temporal contrast to the choices",
-      "content": "The logical relationship is contrast. Neon was isolated the same year it was discovered (fast); erbium took 91 years (slow). The blank must signal this direct opposition.\n<ul>\n<li><strong>Choice A — \"For instance,\"</strong>: signals that erbium is a specific example of the neon pattern — but erbium is the opposite case, not an example of it, so fails. ✗</li>\n<li><strong>Choice B — \"By contrast,\"</strong>: directly flags the opposition between neon's rapid isolation and erbium's 91-year delay, so fits. ✓</li>\n<li><strong>Choice C — \"Thus,\"</strong>: signals that erbium's slow isolation follows as a consequence of neon's fast isolation — no causal link exists, so fails. ✗</li>\n<li><strong>Choice D — \"Similarly,\"</strong>: signals resemblance, but erbium's timeline is the opposite of neon's, so fails. ✗</li>\n</ul>\nThat matches choice B — <strong>B</strong> is correct."
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; 'For instance,'</strong>: signals that erbium is a specific example of the same pattern as neon, but erbium's timeline is the opposite of neon's. &#10007;</li><li><strong>Choice B &mdash; 'By contrast,'</strong>: directly flags the opposition between neon's immediate isolation and erbium's 91-year delay. &#10003;</li><li><strong>Choice C &mdash; 'Thus,'</strong>: signals that erbium's slow isolation follows as a consequence of neon's fast isolation &mdash; no causal link exists between the two. &#10007;</li><li><strong>Choice D &mdash; 'Similarly,'</strong>: signals resemblance, but the two timelines are the opposite of each other. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }
