@@ -1,15 +1,1 @@
-{
-  "questionId": "6d4b2e1e",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "The blank contains the subject of the finite verb <strong>compares</strong>. It's composed of a noun (\u201cplaywright\u201d) followed by a name (\u201cWakako Yamauchi\u201d) in apposition."
-    },
-    {
-      "title": "Apply the appositive punctuation rule",
-      "content": "When an appositive is restrictive \u2014 essential to identify the noun \u2014 it takes no commas. When it's non-restrictive \u2014 providing additional information \u2014 it requires commas on both sides. Here, \u201cWakako Yamauchi\u201d is essential to identify the specific playwright, making it restrictive and requiring no commas. Additionally, no comma can separate the subject from its verb.<br/><br/>Options A and C violate the subject-verb rule by placing a comma before <strong>compares</strong>, while Option B incorrectly treats the name as non-restrictive by using a comma after \u201cplaywright.\u201d<br/><br/>Option D correctly applies the restrictive appositive rule: no commas around the name and no comma before the verb. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "6d4b2e1e", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammatical relationship and the punctuation rule at stake", "content": "The blank fills in the subject of the verb <strong>compares</strong>. The structure is: &ldquo;pioneering [blank] compares the experiences&hellip;&rdquo; The blank must contain the noun <strong>playwright</strong> and the proper name <strong>Wakako Yamauchi</strong>. &ldquo;Wakako Yamauchi&rdquo; is an appositive that identifies which playwright is meant. Because removing the name would leave the sentence ambiguous (&ldquo;pioneering playwright&rdquo; could refer to anyone), the appositive is <strong>restrictive</strong> and takes no commas. Additionally, no comma can appear between the subject and its verb <strong>compares</strong>."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>Choice A &mdash; 'playwright, Wakako Yamauchi,'</strong>: Commas on both sides treat the name as non-restrictive (removable), which is incorrect here, and the trailing comma also separates subject from verb. &#10007;</li><li><strong>Choice B &mdash; 'playwright, Wakako Yamauchi'</strong>: A comma after &ldquo;playwright&rdquo; incorrectly implies the name is non-restrictive, and the missing closing comma creates an asymmetric, ungrammatical structure. &#10007;</li><li><strong>Choice C &mdash; 'playwright Wakako Yamauchi,'</strong>: No comma before the name (correct for a restrictive appositive), but the trailing comma incorrectly separates the subject from the verb <strong>compares</strong>. &#10007;</li><li><strong>Choice D &mdash; 'playwright Wakako Yamauchi'</strong>: No commas anywhere &mdash; the restrictive appositive is unpunctuated and no comma interrupts the subject-verb link. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}

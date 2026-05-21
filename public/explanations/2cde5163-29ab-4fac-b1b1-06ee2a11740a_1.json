@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the defining clue",
-      "content": "The passage describes the excavation as involving “hard, physically tiring work” that lasts “weeks or even months.”"
+      "content": "The passage explains that excavating a pachycephalosaur fossil can take &quot;weeks or even months of hard, physically tiring work.&quot; The blank must describe the nature of the excavation process using a single adjective consistent with that description."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "The blank needs an adjective meaning hard or laborious — the passage describes the excavation as taking weeks or months of physically tiring work. Substitute each choice:<ul><li><strong>Choice A — cheap</strong>: inexpensive; the passage is about labor effort, not cost. ✗</li><li><strong>Choice B — rapid</strong>: fast; but the passage explicitly says it takes weeks or months — the opposite of rapid. ✗</li><li><strong>Choice C — common</strong>: ordinary or frequent; the passage describes how hard the process is, not how often it happens. ✗</li><li><strong>Choice D — difficult</strong>: hard to do; directly captures weeks of hard, physically tiring work. ✓</li></ul>That matches choice D — <strong>D</strong> is correct."
+      "title": "Eliminate each choice",
+      "content": "The blank needs an adjective that matches the idea of hard, exhausting labor lasting weeks or months.<ul><li><strong>Choice A &mdash; 'cheap'</strong>: means inexpensive; the passage focuses on physical effort and time, not cost. &#10007;</li><li><strong>Choice B &mdash; 'rapid'</strong>: means fast; the passage explicitly says the process takes weeks or months, which is the opposite of rapid. &#10007;</li><li><strong>Choice C &mdash; 'common'</strong>: means ordinary or frequent; the passage describes how demanding the process is, not how often it occurs. &#10007;</li><li><strong>Choice D &mdash; 'difficult'</strong>: means hard to do; this directly captures weeks or months of hard, physically tiring work. &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."
     }
   ]
 }

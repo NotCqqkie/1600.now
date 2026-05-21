@@ -1,15 +1,1 @@
-{
-  "questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the supporting reason pattern",
-      "content": "The passage gives a reason why Houston Black is fitting: it's abundant across the state. The next sentence introduces a second reason supporting the same conclusion: it plays an important agricultural role. This is additive\u2014we're stacking reasons, not contrasting them."
-    },
-    {
-      "title": "Match to the additive structure",
-      "content": "\u201dAdditionally\u201d means \u201cin addition to what was just said,\u201d introducing a second reason for the same conclusion. The other three signal temporal, oppositional, or alternative meanings\u2014none of which fit. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Understand the relationship between the sentences", "content": "The previous sentence gives one reason Houston Black is a fitting state soil: it is abundant across Texas. The blank introduces a second sentence giving another reason: it plays an important agricultural role. Both sentences support the same conclusion. The blank must signal that a second supporting reason is being added, not a contrast, alternative, or time reference."}, {"title": "Eliminate each choice", "content": "<ul><li><strong>Choice A &mdash; 'Additionally,'</strong>: Signals that a second point is being added to support the same conclusion &mdash; exactly right. Both sentences give reasons Houston Black is a fitting choice. &#10003;</li><li><strong>Choice B &mdash; 'At that time,'</strong>: Signals a time reference, implying the agricultural role existed at some earlier moment described in the passage. No past time period is referenced; the sentence is about the soil's present role. &#10007;</li><li><strong>Choice C &mdash; 'By contrast,'</strong>: Signals a contradiction or opposing point. The agricultural role does not contradict abundance across the state &mdash; both support the same claim. &#10007;</li><li><strong>Choice D &mdash; 'Alternatively,'</strong>: Signals a different option or substitute. The agricultural role is not an alternative to the abundance point; both reasons coexist. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

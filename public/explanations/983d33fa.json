@@ -1,15 +1,1 @@
-{
-  "questionId": "983d33fa",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the grammatical structure",
-      "content": "<strong>Some historians</strong> is a plural noun phrase (subject). The blank is followed by <strong>that this 'tulip mania' was...</strong>, which is a dependent clause (an object clause)."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "<strong>Claim</strong> is the third-person plural form that matches the plural subject <strong>Some historians</strong>. The other three options are non-finite verb forms\u2014participles and infinitive\u2014that cannot function as a main verb. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "983d33fa", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank needs to do", "content": "The subject &quot;Some historians&quot; is a plural noun phrase that needs a finite main verb to complete the clause. The blank is followed by the object clause &quot;that this 'tulip mania' was...&quot; Only a finite verb can head a main clause &mdash; nonfinite forms (participles, infinitives) cannot."}, {"title": "Test each choice", "content": "<ul><li><strong>Choice A &mdash; 'claiming'</strong>: present participle (nonfinite). Cannot serve as the main verb of the clause &mdash; leaves &quot;Some historians&quot; without a finite verb. &#10007;</li><li><strong>Choice B &mdash; 'claim'</strong>: finite present tense, third-person plural &mdash; matches the plural subject &quot;Some historians&quot; and correctly heads the main clause. &#10003;</li><li><strong>Choice C &mdash; 'having claimed'</strong>: perfect participle (nonfinite). Same problem as A &mdash; cannot function as a main verb. &#10007;</li><li><strong>Choice D &mdash; 'to claim'</strong>: to-infinitive (nonfinite). Cannot serve as the main verb of the clause &mdash; also leaves &quot;Some historians&quot; without a finite verb. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}
