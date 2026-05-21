@@ -1,15 +1,1 @@
-{
-  "questionId": "e44db0a0",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject's number",
-      "content": "\u201dA cycle of lunar phases\u201d has \u201ccycle\u201d as its head noun, making the subject singular."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "\u201dTakes\u201d is the only third-person singular present-tense form. \u201cAre taking,\u201d \u201chave taken,\u201d and \u201ctake\u201d violate subject-verb agreement by providing plural or non-singular forms. That matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e44db0a0", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Identify the grammar rule being tested", "content": "This is a subject-verb agreement question. The subject is &quot;a cycle of lunar phases.&quot; The head noun is <em>cycle</em> &mdash; singular. The prepositional phrase &quot;of lunar phases&quot; does not change the subject's number. The verb must be third-person singular present tense to agree.<ul><li><strong>Choice A &mdash; 'are taking'</strong>: Plural verb; does not agree with singular subject &quot;a cycle.&quot; &#10007;</li><li><strong>Choice B &mdash; 'have taken'</strong>: Plural verb; does not agree with singular subject &quot;a cycle.&quot; &#10007;</li><li><strong>Choice C &mdash; 'take'</strong>: Plural (base form) verb; does not agree with singular subject &quot;a cycle.&quot; &#10007;</li><li><strong>Choice D &mdash; 'takes'</strong>: Third-person singular present tense; agrees with singular subject &quot;a cycle.&quot; &#10003;</li></ul>"}, {"title": "Confirm the match", "content": "Only &quot;takes&quot; is the third-person singular form that agrees with &quot;a cycle&quot; and completes the sentence correctly.<br/><br/>That matches choice D &mdash; <strong>D</strong> is correct."}]}
