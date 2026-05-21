@@ -1,15 +1,1 @@
-{
-  "questionId": "9419dcb9-3471-4777-be13-1ee14db6d1bc_17",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the parallel structure",
-      "content": "The passage establishes a pattern: <em>\u201cOne example is the word 'lasso.' It comes from the Spanish word lazo.\u201d</em> The next sentence begins with <em>\u201cAnother example is 'rodeo.'\u201d</em> \u2014 the parallel marker <strong>Another</strong> signals that the blank should follow the same structure."
-    },
-    {
-      "title": "Match the pronoun to the word being described",
-      "content": "<strong>It</strong> is the correct pronoun for a non-human noun (the word \u201crodeo\u201d). The other three choices\u2014Someone, She, and He\u2014all refer to people, which contradicts the context of discussing a word's origin. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "9419dcb9-3471-4777-be13-1ee14db6d1bc_17", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank refers to", "content": "The previous sentence says: &quot;Another example is &apos;rodeo.&apos;&quot; The blank begins the next sentence: &quot;______ comes from the Spanish word *rodear*.&quot; The blank is a pronoun replacing &quot;rodeo&quot; &mdash; a word, not a person. The parallel sentence about &quot;lasso&quot; uses &quot;It comes from the Spanish word lazo,&quot; confirming the pronoun needed is non-human."}, {"title": "Eliminate each choice and pick the match", "content": "<ul><li><strong>Choice A &mdash; 'It'</strong>: A non-human pronoun that correctly refers back to the word &quot;rodeo.&quot; Matches the parallel structure used for &quot;lasso&quot; in the previous example. &#10003;</li><li><strong>Choice B &mdash; 'Someone'</strong>: Refers to an unspecified person. No person is being discussed &mdash; the subject is the word &quot;rodeo.&quot; &#10007;</li><li><strong>Choice C &mdash; 'She'</strong>: A feminine personal pronoun. No female person has been introduced as the subject of this sentence. &#10007;</li><li><strong>Choice D &mdash; 'He'</strong>: A masculine personal pronoun. No male person has been introduced as the subject of this sentence. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

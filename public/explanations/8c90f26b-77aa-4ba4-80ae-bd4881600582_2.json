@@ -1,15 +1,1 @@
-{
-  "questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Recognize the Causal Explanation",
-      "content": "The passage provides an explanation for the speed difference: flight features limit speeds less than swimming features. The sentence structure \u201c_____ of the fact that [explanation]\u201d asks how the difference relates to this cause."
-    },
-    {
-      "title": "Apply the Causal Relationship",
-      "content": "\u201dA consequence\u201d means a result caused by something. The speed difference is a consequence of\u2014results from\u2014the different ways flight and swimming features limit speeds. The other choices don't express causation. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8c90f26b-77aa-4ba4-80ae-bd4881600582_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify what the blank must express", "content": "The sentence says the speed difference is &ldquo;largely ______ of the fact that flight features limit top speeds less than swimming features.&rdquo; The blank follows a cause-and-effect structure: the fact about features explains the speed gap. The blank must name the relationship between the speed difference and its cause.<ul><li><strong>Choice A &mdash; 'a consequence'</strong>: Means a result produced by a cause &mdash; exactly describes the speed gap as an outcome of the feature difference. &#10003;</li><li><strong>Choice B &mdash; 'an explanation'</strong>: An explanation is something that makes something else understandable; the speed difference doesn&rsquo;t explain the feature difference &mdash; it&rsquo;s the other way around. &#10007;</li><li><strong>Choice C &mdash; 'a repudiation'</strong>: Means a rejection or denial; the sentence contains no denial. &#10007;</li><li><strong>Choice D &mdash; 'an objective'</strong>: Means a goal; the speed difference is not a goal. &#10007;</li></ul>"}, {"title": "Confirm and conclude", "content": "Only &ldquo;a consequence&rdquo; correctly captures that the speed difference results from the way flight and swimming features limit top speeds differently. That matches choice A &mdash; <strong>A</strong> is correct."}]}

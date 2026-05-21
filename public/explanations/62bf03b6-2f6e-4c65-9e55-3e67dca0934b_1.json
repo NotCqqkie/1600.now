@@ -1,1 +1,15 @@
-{"questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_1", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Find the Key Signal", "content": "The passage emphasizes that machine learning tools have <strong>uncovered a sophisticated communication system</strong> in elephant sounds. The blank requires a verb that means identifying hidden or subtle patterns, not altering or creating them."}, {"title": "Match the Meaning", "content": "The word 'detected' directly aligns with 'uncovered' by conveying the idea of identifying something previously unnoticed.<br/><br/>The other choices contradict this: 'created' (producing patterns), 'corrected' (modifying errors), and 'scattered' (dispersing randomly) all fail to align with the act of discovering hidden structure.<br/><br/>That matches choice C — <strong>C</strong> is correct."}]}
+{
+  "questionId": "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the key signal",
+      "content": "The passage says scientists used machine learning tools to study elephant sounds, <em>uncovering</em> a sophisticated communication system. The blank describes what the tools did to unique patterns in the elephants&apos; rumbling sounds. The target meaning is: identify or discover something that was hidden."
+    },
+    {
+      "title": "Eliminate wrong choices, confirm the match",
+      "content": "<ul><li><strong>Choice A &mdash; 'created'</strong>: <em>Created</em> means to produce or bring into existence &mdash; the tools found pre-existing patterns, they did not manufacture them. &#10007;</li><li><strong>Choice B &mdash; 'corrected'</strong>: <em>Corrected</em> means to fix errors &mdash; the passage describes discovery, not correction of mistakes. &#10007;</li><li><strong>Choice C &mdash; 'detected'</strong>: <em>Detected</em> means to discover or identify something not immediately obvious, directly matching <em>uncovering</em> in the first sentence. &#10003;</li><li><strong>Choice D &mdash; 'scattered'</strong>: <em>Scattered</em> means to disperse in different directions &mdash; opposite of identifying a structured communication system. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."
+    }
+  ]
+}

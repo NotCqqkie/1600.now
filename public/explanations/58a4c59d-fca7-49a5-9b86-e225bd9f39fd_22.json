@@ -1,15 +1,1 @@
-{
-  "questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_22",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the opposition",
-      "content": "The first sentence establishes the material's positive quality\u2014flexibility for movement. The second sentence then introduces a negative quality\u2014weight limiting mobility. These opposed effects signal the need for a contrast transition."
-    },
-    {
-      "title": "Apply the signal",
-      "content": "The logical relationship is contrast: the material's flexibility helps movement, but the embroidered feathers' weight limits it. The blank needs a transition signaling that the second sentence contradicts the positive quality just stated.<ul><li><strong>Choice A \u2014 \"However,\"</strong>: signals contrast or complication of the previous point, so fits \u2014 the weight limiting mobility cuts against the flexibility benefit. \u2713</li><li><strong>Choice B \u2014 \"Firstly,\"</strong>: signals the first item in a numbered list, so fails \u2014 no list is being introduced. \u2717</li><li><strong>Choice C \u2014 \"In other words,\"</strong>: signals restatement or clarification, so fails \u2014 the second sentence introduces a new opposing idea, not a paraphrase. \u2717</li><li><strong>Choice D \u2014 \"For this reason,\"</strong>: signals that the second sentence is a consequence of the first, so fails \u2014 limited mobility is not caused by flexibility; they are opposing qualities. \u2717</li></ul>That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_22", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the sentences", "content": "The first sentence establishes a positive quality of the material &mdash; its flexibility aids movement. The second sentence introduces an opposing negative quality &mdash; the weight of the embroidered feathers limits mobility. These two ideas stand in direct contrast, so the transition word must signal opposition."}, {"title": "Eliminate wrong choices and confirm the answer", "content": "Evaluate each answer choice against that requirement:<ul><li><strong>Choice A &mdash; 'However,'</strong>: signals contrast or complication of the previous point, fitting the opposition between the material&rsquo;s flexibility benefit and the weight limitation. &#10003;</li><li><strong>Choice B &mdash; 'Firstly,'</strong>: signals the first item in an enumerated list, but no list is being introduced here. &#10007;</li><li><strong>Choice C &mdash; 'In other words,'</strong>: signals restatement or clarification, but the second sentence introduces a new opposing idea rather than restating the first. &#10007;</li><li><strong>Choice D &mdash; 'For this reason,'</strong>: signals that the second sentence is a consequence of the first, but limited mobility is not caused by flexibility &mdash; they are opposing qualities. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."}]}

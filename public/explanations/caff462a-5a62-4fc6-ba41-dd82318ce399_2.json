@@ -1,15 +1,1 @@
-{
-  "questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_2",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the outcome the sediments must produce",
-      "content": "The phrase <em>\u201ceventually forming new portions of land\u201d</em> signals what the sediments' action must accomplish\u2014this is the decisive clue."
-    },
-    {
-      "title": "Match the word to the outcome",
-      "content": "The blank needs to mean gather and pile up \u2014 an action that leads to forming new portions of land where the river meets the Gulf. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Accumulate</strong>: \"sediments <em>accumulate</em> where the river meets the Gulf\" \u2014 accumulate means collect and build up over time, directly producing new land. \u2713</li>\n<li><strong>Choice B \u2014 Dissolve</strong>: \"sediments <em>dissolve</em> where the river meets the Gulf\" \u2014 dissolve means break apart into liquid; dissolved sediments cannot form new land. \u2717</li>\n<li><strong>Choice C \u2014 Accelerate</strong>: \"sediments <em>accelerate</em> where the river meets the Gulf\" \u2014 accelerate means speed up; sediments speeding up cannot explain the formation of new land. \u2717</li>\n<li><strong>Choice D \u2014 Thrive</strong>: \"sediments <em>thrive</em> where the river meets the Gulf\" \u2014 thrive means flourish or prosper, a term for living things, not inorganic sediments. \u2717</li>\n</ul>\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "caff462a-5a62-4fc6-ba41-dd82318ce399_2", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Find the decisive clue", "content": "The phrase <em>&ldquo;eventually forming new portions of land&rdquo;</em> tells us what the sediments&rsquo; action must lead to. The blank needs a word that describes sediments building up &mdash; an action that logically produces new land where the river meets the Gulf of Thailand."}, {"title": "Eliminate wrong words and confirm the answer", "content": "Test each choice against the clue:\n<ul>\n<li><strong>Choice A &mdash; &lsquo;accumulate&rsquo;</strong>: sediments <em>accumulate</em> &mdash; to collect and build up over time, which directly produces new land. &#10003;</li>\n<li><strong>Choice B &mdash; &lsquo;dissolve&rsquo;</strong>: sediments <em>dissolve</em> &mdash; to break apart into liquid; dissolved sediments cannot form new land. &#10007;</li>\n<li><strong>Choice C &mdash; &lsquo;accelerate&rsquo;</strong>: sediments <em>accelerate</em> &mdash; to speed up; speeding sediments do not explain the formation of new land. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;thrive&rsquo;</strong>: sediments <em>thrive</em> &mdash; to flourish or prosper, a term for living things, not inorganic sediments. &#10007;</li>\n</ul>\nThat matches choice A &mdash; <strong>A</strong> is correct."}]}

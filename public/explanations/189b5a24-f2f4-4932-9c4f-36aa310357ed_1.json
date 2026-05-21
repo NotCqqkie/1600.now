@@ -1,15 +1,1 @@
-{
-  "questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_1",
-  "correctAnswer": "D",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Find the key signal",
-      "content": "The explanation after the dash\u2014<em>variations in size, shape, and material</em>\u2014directly defines what the blank should mean. This is your strongest clue."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "The blank needs to mean variations or lack of uniformity among particles\u2014exactly what the dash-clause defines. Substitute each choice:\n<ul>\n<li><strong>Choice A \u2014 Incompatibilities</strong>: \"High concentrations and <em>incompatibilities</em> among particles\" \u2014 incompatibilities means conflicts or inability to coexist, not mere variation in size or shape. \u2717</li>\n<li><strong>Choice B \u2014 Restraints</strong>: \"High concentrations and <em>restraints</em> among particles\" \u2014 restraints means restrictions or limitations, not variation. \u2717</li>\n<li><strong>Choice C \u2014 Disruptions</strong>: \"High concentrations and <em>disruptions</em> among particles\" \u2014 disruptions means disturbances or interruptions, not variation in physical properties. \u2717</li>\n<li><strong>Choice D \u2014 Inconsistencies</strong>: \"High concentrations and <em>inconsistencies</em> among particles\" \u2014 inconsistencies means lack of uniformity, directly matching the dash-clause \"variations in size, shape, and material.\" \u2713</li>\n</ul>\nThat matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "189b5a24-f2f4-4932-9c4f-36aa310357ed_1", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Use the built-in definition", "content": "The dash clause immediately after the blank reads: <em>&ldquo;variations in size, shape, and material.&rdquo;</em> This is the definition of the missing word. The blank must mean something like &ldquo;lack of uniformity&rdquo; or &ldquo;differences&rdquo; among particles."}, {"title": "Eliminate each wrong choice", "content": "<ul><li><strong>Choice A &mdash; &lsquo;incompatibilities&rsquo;</strong>: &ldquo;Incompatibilities&rdquo; means conflicts or inability to coexist, not mere variation in physical properties like size or shape. &#10007;</li><li><strong>Choice B &mdash; &lsquo;restraints&rsquo;</strong>: &ldquo;Restraints&rdquo; means restrictions or limitations, which does not describe variations in size, shape, or material. &#10007;</li><li><strong>Choice C &mdash; &lsquo;disruptions&rsquo;</strong>: &ldquo;Disruptions&rdquo; means disturbances or interruptions, not differences in physical characteristics among particles. &#10007;</li><li><strong>Choice D &mdash; &lsquo;inconsistencies&rsquo;</strong>: &ldquo;Inconsistencies&rdquo; means lack of uniformity&mdash;a direct match for &ldquo;variations in size, shape, and material.&rdquo; &#10003;</li></ul>That matches choice D &mdash; <strong>D</strong> is correct."}]}
