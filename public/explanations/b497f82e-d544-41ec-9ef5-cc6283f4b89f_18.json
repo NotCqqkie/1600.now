@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the main subject",
-      "content": "The subject is <em>Objects</em>, which is plural. The phrase \u201csuch as 2010 BL4, a 16-kilometer-wide body first detected in 2010\u201d doesn't change the subject."
+      "title": "Identify the subject and the grammar rule",
+      "content": "The subject is <em>Objects</em> &mdash; plural. The long appositive phrase &quot;such as 2010 BL4, a 16-kilometer-wide body first detected in 2010&quot; is parenthetical and does not change the subject. Rule: a plural subject requires the base form of the verb (no -s/-es ending)."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "Identify the grammar issue: subject-verb agreement. Rule: a plural subject takes the base form of the verb (no -s/-es).\n<ul>\n<li><strong>Choice A \u2014 \"exhibits\"</strong>: singular present-tense verb (third-person -s); disagrees with plural \"Objects.\" \u2717</li>\n<li><strong>Choice B \u2014 \"exhibit\"</strong>: base-form (plural) present-tense verb; agrees with plural \"Objects.\" \u2713</li>\n<li><strong>Choice C \u2014 \"is exhibiting\"</strong>: singular present-progressive verb; disagrees with plural subject. \u2717</li>\n<li><strong>Choice D \u2014 \"has exhibited\"</strong>: singular present-perfect verb; disagrees with plural subject. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
+      "title": "Eliminate each wrong choice",
+      "content": "<ul><li><strong>Choice A &mdash; 'exhibits'</strong>: Third-person singular present tense; the -s ending marks singular agreement, which disagrees with plural &quot;Objects.&quot; &#10007;</li><li><strong>Choice B &mdash; 'exhibit'</strong>: Base-form plural present tense; agrees with plural &quot;Objects.&quot; &#10003;</li><li><strong>Choice C &mdash; 'is exhibiting'</strong>: Singular present-progressive (&quot;is&quot; is singular); disagrees with the plural subject. &#10007;</li><li><strong>Choice D &mdash; 'has exhibited'</strong>: Singular present-perfect (&quot;has&quot; is singular); disagrees with the plural subject. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."
     }
   ]
 }

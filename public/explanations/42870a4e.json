@@ -1,15 +1,1 @@
-{
-  "questionId": "42870a4e",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the confirming signal",
-      "content": "\u201dDid just that\u201d explicitly shows that Duchamp's intention was confirmed in practice\u2014the sculpture actually accomplished its intended purpose."
-    },
-    {
-      "title": "Match the meaning",
-      "content": "\u201dIndeed\u201d serves as a confirmation marker\u2014the word that bridges an intention to its realization. The other three offer similarity, contrast, or addition rather than confirmation. This matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "42870a4e", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship", "content": "The sentence says Duchamp &quot;did just that&quot; &mdash; his sculpture accomplished exactly what he intended. The blank must signal confirmation or fulfillment of a prior claim, not similarity, contrast, or addition."}, {"title": "Test each transition word", "content": "<ul><li><strong>Choice A &mdash; 'Similarly,'</strong>: Signals resemblance between two things &mdash; but the sentence is confirming one thing, not comparing two. &#10007;</li><li><strong>Choice B &mdash; 'Indeed,'</strong>: Signals confirmation or strong affirmation of the previous idea &mdash; exactly right when an intention is borne out in practice. &#10003;</li><li><strong>Choice C &mdash; 'Instead,'</strong>: Signals contrast or substitution &mdash; the opposite of confirmation. &#10007;</li><li><strong>Choice D &mdash; 'In addition,'</strong>: Signals that new information is being added &mdash; does not convey that the intention was realized. &#10007;</li></ul>That matches choice B &mdash; <strong>B</strong> is correct."}]}

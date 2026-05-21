@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the plural antecedent",
-      "content": "The blank pronoun must refer to the eating utensils, which is plural. The pronoun appears in the clause \"he considered ______ dangerous and unnecessary luxury items.\""
+      "title": "Identify the antecedent",
+      "content": "The blank pronoun refers to &quot;the eating utensils,&quot; which is plural. The pronoun appears in the clause &quot;he considered ______ dangerous and unnecessary luxury items.&quot; The task is to find a pronoun that agrees in number with this plural antecedent."
     },
     {
-      "title": "Match the pronoun to the antecedent's number",
-      "content": "Identify the grammar issue: pronoun-antecedent agreement. Rule: a pronoun must match its antecedent in number.\n<ul>\n<li><strong>Choice A — \"them\"</strong>: plural object pronoun; agrees with plural antecedent \"the eating utensils.\" ✓</li>\n<li><strong>Choice B — \"this\"</strong>: singular demonstrative pronoun; disagrees with plural antecedent. ✗</li>\n<li><strong>Choice C — \"that\"</strong>: singular demonstrative pronoun; disagrees with plural antecedent. ✗</li>\n<li><strong>Choice D — \"it\"</strong>: singular pronoun; disagrees with plural antecedent. ✗</li>\n</ul>\nThat matches choice A — <strong>A</strong> is correct."
+      "title": "Eliminate each choice by number agreement",
+      "content": "<ul><li><strong>Choice A &mdash; 'them'</strong>: plural object pronoun; agrees with the plural antecedent &quot;the eating utensils.&quot; &#10003;</li><li><strong>Choice B &mdash; 'this'</strong>: singular demonstrative pronoun; does not agree with a plural antecedent. &#10007;</li><li><strong>Choice C &mdash; 'that'</strong>: singular demonstrative pronoun; does not agree with a plural antecedent. &#10007;</li><li><strong>Choice D &mdash; 'it'</strong>: singular pronoun; does not agree with a plural antecedent. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }

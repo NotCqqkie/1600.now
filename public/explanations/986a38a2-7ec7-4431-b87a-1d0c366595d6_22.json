@@ -1,15 +1,1 @@
-{
-  "questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_22",
-  "correctAnswer": "B",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Spot the consequence signal",
-      "content": "The first sentence establishes that Italian was historically the default for opera. The second sentence reveals that modern singers (marked by \u201ctoday\u201d) still encounter Italian terms. This is a direct consequence of the historical fact."
-    },
-    {
-      "title": "Apply the consequence signal",
-      "content": "The logical relationship between the two sentences is cause-effect. Because Italian was the default language for opera scores for centuries, today's singers still encounter Italian terms when reading those scores. The blank needs a transition signaling that consequence.\n<ul>\n<li><strong>Choice A \u2014 \"However,\"</strong>: signals contrast \u2014 the second sentence would push back against the first. But singers encountering Italian terms is a direct result of the historical dominance of Italian, not a contradiction of it. \u2717</li>\n<li><strong>Choice B \u2014 \"Thus,\"</strong>: signals that the second sentence is a logical result of the first, fitting the cause-effect relationship perfectly. \u2713</li>\n<li><strong>Choice C \u2014 \"Lastly,\"</strong>: signals the final item in an enumerated list. No prior list is being wrapped up. \u2717</li>\n<li><strong>Choice D \u2014 \"Granted,\"</strong>: signals a concession \u2014 acknowledging a point before countering it. No concession or counterargument is present. \u2717</li>\n</ul>\nThat matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "986a38a2-7ec7-4431-b87a-1d0c366595d6_22", "correctAnswer": "B", "section": "Reading and Writing", "steps": [{"title": "Identify the logical relationship between the two sentences", "content": "Sentence 1 states that for several centuries Italian was the <em>default language</em> for opera scores. Sentence 2 states that opera singers <em>today</em> still encounter a wide range of Italian terms when reading those scores. The second sentence is a direct result of the first&mdash;because Italian dominated opera for centuries, modern singers still meet Italian terminology. The blank needs a transition that signals <strong>consequence</strong>."}, {"title": "Test each transition word against that relationship", "content": "<ul>\n<li><strong>Choice A &mdash; &lsquo;However,&rsquo;</strong>: signals contrast&mdash;the second sentence would push back against the first. Singers encountering Italian terms is a result of Italian&rsquo;s dominance, not a contradiction of it. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;Thus,&rsquo;</strong>: signals that what follows is a logical result of what came before, fitting the cause-and-effect relationship exactly. &#10003;</li>\n<li><strong>Choice C &mdash; &lsquo;Lastly,&rsquo;</strong>: signals the final item in an enumerated list. No list has been set up in the preceding sentence. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;Granted,&rsquo;</strong>: signals a concession before a counterargument. No counterargument appears in the second sentence. &#10007;</li>\n</ul>\nThat matches choice B &mdash; <strong>B</strong> is correct."}]}
