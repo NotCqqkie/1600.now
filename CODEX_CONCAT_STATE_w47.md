@@ -1,3 +1,4 @@
-batch_offset=444
+batch_offset=494
 batch_size=50
-last_log=offset 394, fixes 0
+last_log=offset 444, fixes 1
+status=AUDIT COMPLETE
