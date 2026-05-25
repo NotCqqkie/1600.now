@@ -1,3 +1,3 @@
-batch_offset=100
+batch_offset=150
 batch_size=50
-last_log=offset 50, fixes 0
+last_log=offset 100, fixes 0
