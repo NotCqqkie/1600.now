@@ -131,7 +131,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "Each hour, the number of bacteria in the population is 16% greater than it was the previous hour."
+        "text": "Each hour, the number of bacteria in the population is 16\\% greater than it was the previous hour."
       },
       {
         "id": "B",
@@ -139,7 +139,7 @@
       },
       {
         "id": "C",
-        "text": "Each hour, the number of bacteria in the population is 16% less than it was the previous hour."
+        "text": "Each hour, the number of bacteria in the population is 16\\% less than it was the previous hour."
       },
       {
         "id": "D",
@@ -492,7 +492,7 @@
     "rationale": null,
     "id": "c9e1513f-58d1-4e6c-8574-b9662226959f_20",
     "testName": "August 2024 International Form A SAT Math Module 1",
-    "text": "A real estate company offers a series of three webinars. 2,000 people attended the first webinar, 65% of the people who attended the first webinar attended the second webinar, and 44% of the people who attended both the first and second webinar attended the third webinar. Of those who attended the first but did not attend the second webinar, 31% attended the third webinar. How many people attended both the first and third webinars but did not attend the second webinar?",
+    "text": "A real estate company offers a series of three webinars. 2,000 people attended the first webinar, 65\\% of the people who attended the first webinar attended the second webinar, and 44\\% of the people who attended both the first and second webinar attended the third webinar. Of those who attended the first but did not attend the second webinar, 31\\% attended the third webinar. How many people attended both the first and third webinars but did not attend the second webinar?",
     "choices": [],
     "correctAnswer": "217",
     "type": "free-response"
@@ -818,7 +818,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_11",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "A scientist studying the life cycle of butterflies counted the number of butterflies in a certain habitat each day for 46 days. On June 15, there were 168 butterflies in the habitat. The percent increase in the number of butterflies in the habitat from May 1 to June 15 was 31.25%. How many butterflies were in the habitat on May 1?",
+    "text": "A scientist studying the life cycle of butterflies counted the number of butterflies in a certain habitat each day for 46 days. On June 15, there were 168 butterflies in the habitat. The percent increase in the number of butterflies in the habitat from May 1 to June 15 was 31.25\\%. How many butterflies were in the habitat on May 1?",
     "choices": [
       {
         "id": "A",
@@ -981,7 +981,7 @@
     "rationale": null,
     "id": "6acacde7-ed77-4956-a395-7f7392d6ba20_17",
     "testName": "August 2024 International Form A SAT Math Module 2",
-    "text": "$f(x)=k(1.83)^{x}$\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p$% for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p$% for every increase of $x$ by $\\frac{1}{4}$?",
+    "text": "$f(x)=k(1.83)^{x}$\nThe function $f$ is defined by the given equation, where $k$ is a constant. The value of $f(x)$ increases by $p$\\% for every increase of $x$ by 1. For which of the following functions, where $k$ is a constant, does the value of $g(x)$ increase by $p$\\% for every increase of $x$ by $\\frac{1}{4}$?",
     "choices": [
       {
         "id": "A",
