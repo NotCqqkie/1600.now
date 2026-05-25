@@ -1,6 +1,7 @@
 batch_offset: 1874
 batch_size: 50
 last_batch_fixed: 0
+status: AUDIT COMPLETE
 log:
   - batch_start: 1775
     batch_end: 1824
