@@ -3020,7 +3020,7 @@
     "rationale": null,
     "id": "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_11",
     "testName": "August 2025 International Form A SAT Math Module 2",
-    "text": "On a plot of land, 48.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 23.5% of the square footage of the farmland, and there are buildings on exactly 16.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?",
+    "text": "On a plot of land, 48.0\\% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 23.5\\% of the square footage of the farmland, and there are buildings on exactly 16.0\\% of the square footage of the pasture. If there are buildings on exactly p\\% of the square footage of the plot of land, what is the value of p?",
     "choices": [],
     "correctAnswer": "19.6",
     "type": "free-response"
@@ -3475,7 +3475,7 @@
     "rationale": null,
     "id": "9377a50a-f782-492e-a3bf-a2b90698cacc_7",
     "testName": "August 2025 International Form B SAT Math Module 1",
-    "text": "There are 350 objects in a bag. Of these objects, 4% are spheres. How many spheres are in the bag?",
+    "text": "There are 350 objects in a bag. Of these objects, 4\\% are spheres. How many spheres are in the bag?",
     "choices": [],
     "correctAnswer": "14",
     "type": "free-response"
@@ -4063,7 +4063,7 @@
     "rationale": null,
     "id": "979898ba-60c7-4531-ac45-29c4db2b3361_10",
     "testName": "August 2025 International Form B SAT Math Module 2",
-    "text": "On a plot of land, 52.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 28.5% of the square footage of the farmland, and there are buildings on exactly 11.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?",
+    "text": "On a plot of land, 52.0\\% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 28.5\\% of the square footage of the farmland, and there are buildings on exactly 11.0\\% of the square footage of the pasture. If there are buildings on exactly p\\% of the square footage of the plot of land, what is the value of p?",
     "choices": [],
     "correctAnswer": "20.1",
     "type": "free-response"
@@ -4552,7 +4552,7 @@
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_7",
     "testName": "December 2024 International Form A SAT Math Module 1",
-    "text": "The relationship between the variables $r$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20% of its previous value. Which equation represents this relationship?",
+    "text": "The relationship between the variables $r$ and $y$ is defined by an exponential equation. When $x = 0$, the value of $y$ is 90, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 20\\% of its previous value. Which equation represents this relationship?",
     "choices": [
       {
         "id": "A",
@@ -4917,7 +4917,7 @@
     "rationale": null,
     "id": "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_22",
     "testName": "December 2024 International Form A SAT Math Module 1",
-    "text": "On a plot of land, 52.0% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 21.5% of the square footage of the farmland, and there are buildings on exactly 14.0% of the square footage of the pasture. If there are buildings on exactly p% of the square footage of the plot of land, what is the value of p?",
+    "text": "On a plot of land, 52.0\\% of the square footage is farmland and the remaining square footage is pasture. There are buildings on exactly 21.5\\% of the square footage of the farmland, and there are buildings on exactly 14.0\\% of the square footage of the pasture. If there are buildings on exactly p\\% of the square footage of the plot of land, what is the value of p?",
     "choices": [],
     "correctAnswer": "17.9",
     "type": "free-response"
@@ -5209,7 +5209,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_12",
     "testName": "December 2024 International Form A SAT Math Module 2",
-    "text": "If $x > 0$ and $x$ is 33% of $y$, which expression represents $y$ in terms of $x$?",
+    "text": "If $x > 0$ and $x$ is 33\\% of $y$, which expression represents $y$ in terms of $x$?",
     "choices": [
       {
         "id": "A",
@@ -5355,7 +5355,7 @@
     "rationale": null,
     "id": "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_18",
     "testName": "December 2024 International Form A SAT Math Module 2",
-    "text": "The speeds of particles A, B, and C are $a$ meters per second, $b$ meters per second, and $c$ meters per second, respectively. If the speed of particle A is 6,000% of the speed of particle C and the speed of particle C is 0.008% of the speed of particle B, which expression represents the value of $a + b$ in terms of $c$?",
+    "text": "The speeds of particles A, B, and C are $a$ meters per second, $b$ meters per second, and $c$ meters per second, respectively. If the speed of particle A is 6,000\\% of the speed of particle C and the speed of particle C is 0.008\\% of the speed of particle B, which expression represents the value of $a + b$ in terms of $c$?",
     "choices": [
       {
         "id": "A",
@@ -5608,7 +5608,7 @@
     "rationale": null,
     "id": "4e1b3643-30b1-41c4-9027-1f149baf52c7_6",
     "testName": "December 2024 International Form B SAT Math Module 1",
-    "text": "The relationship between the variables $x$ and $y$ is defined by an exponential equation. When $x=0$, the value of $y$ is 70, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 50% of its previous value. Which equation represents this relationship?",
+    "text": "The relationship between the variables $x$ and $y$ is defined by an exponential equation. When $x=0$, the value of $y$ is 70, and for every increase in the value of $x$ by 1, the corresponding value of $y$ increases by 50\\% of its previous value. Which equation represents this relationship?",
     "choices": [
       {
         "id": "A",
@@ -6699,7 +6699,7 @@
     "rationale": null,
     "id": "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_17",
     "testName": "December 2024 International Form C SAT Math Module 1",
-    "text": "Jasmin grows bean pods in her garden. This year, she harvested 330 bean pods and saved 10% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?",
+    "text": "Jasmin grows bean pods in her garden. This year, she harvested 330 bean pods and saved 10\\% of them to plant next year. How many of the harvested bean pods did Jasmin save to plant next year?",
     "choices": [
       {
         "id": "A",
@@ -6879,7 +6879,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_1",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "Levi and Marissa each have stamp collections. The number of stamps in Levi's collection is 200% of the number of stamps in Marissa's collection. If there are 460 stamps in Marissa's collection, how many stamps are in Levi's collection?",
+    "text": "Levi and Marissa each have stamp collections. The number of stamps in Levi's collection is 200\\% of the number of stamps in Marissa's collection. If there are 460 stamps in Marissa's collection, how many stamps are in Levi's collection?",
     "choices": [
       {
         "id": "A",
@@ -7355,7 +7355,7 @@
     "rationale": null,
     "id": "8a096929-9162-4ef5-b1c5-1da19c60ea8c_18",
     "testName": "December 2024 International Form C SAT Math Module 2",
-    "text": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p$% every 120 seconds. What is the value of $p$ in terms of $Q$?",
+    "text": "The equation $N(m) = 65(Q)^{\\frac{m}{4}}$ gives the predicted population $N(m)$, in thousands, of a certain bacteria colony $m$ minutes after the initial measurement, where $Q$ is a constant greater than 1. The predicted population increases by $p$\\% every 120 seconds. What is the value of $p$ in terms of $Q$?",
     "choices": [
       {
         "id": "A",
@@ -7454,7 +7454,7 @@
     "rationale": null,
     "id": "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_1",
     "testName": "December 2024 US Form A SAT Math Module 1",
-    "text": "Julia purchased 800 feet of fencing. She used 60% of this fencing to surround a vegetable garden. How many feet of fencing did Julia use to surround the vegetable garden?",
+    "text": "Julia purchased 800 feet of fencing. She used 60\\% of this fencing to surround a vegetable garden. How many feet of fencing did Julia use to surround the vegetable garden?",
     "choices": [
       {
         "id": "A",
@@ -8377,7 +8377,7 @@
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_18",
     "testName": "December 2024 US Form A SAT Math Module 2",
-    "text": "A computer program models the population of a certain insect in an environment where the insect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is 158% greater than the estimated total mass of the population of insects at the end of the previous 5-week period. The estimated total mass of the population of insects at the end of 15 weeks is 627.7 grams. Which equation best represents this model, where $M$ is the estimated total mass, in grams, of the population of insects at the end of $t$ weeks?",
+    "text": "A computer program models the population of a certain insect in an environment where the insect has no natural predators. According to the model, the estimated total mass of the population of insects at the end of every 5-week period is 158\\% greater than the estimated total mass of the population of insects at the end of the previous 5-week period. The estimated total mass of the population of insects at the end of 15 weeks is 627.7 grams. Which equation best represents this model, where $M$ is the estimated total mass, in grams, of the population of insects at the end of $t$ weeks?",
     "choices": [
       {
         "id": "A",
@@ -8407,23 +8407,23 @@
     "rationale": null,
     "id": "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_19",
     "testName": "December 2024 US Form A SAT Math Module 2",
-    "text": "The value of an autographed baseball increased by 178% from the end of 2012 to the end of 2013 and then decreased by 21% from the end of 2013 to the end of 2014. What was the net percentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?",
+    "text": "The value of an autographed baseball increased by 178\\% from the end of 2012 to the end of 2013 and then decreased by 21\\% from the end of 2013 to the end of 2014. What was the net percentage increase in the value of the autographed baseball from the end of 2012 to the end of 2014?",
     "choices": [
       {
         "id": "A",
-        "text": "119.62%"
+        "text": "119.62\\%"
       },
       {
         "id": "B",
-        "text": "140.62%"
+        "text": "140.62\\%"
       },
       {
         "id": "C",
-        "text": "157.00%"
+        "text": "157.00\\%"
       },
       {
         "id": "D",
-        "text": "236.38%"
+        "text": "236.38\\%"
       }
     ],
     "correctAnswer": "A",
@@ -8888,7 +8888,7 @@
     "rationale": null,
     "id": "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_20",
     "testName": "December 2024 US Form B SAT Math Module 1",
-    "text": "While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 170.00 pounds on Earth and a weight of 186.32 pounds on Neptune. The object's weight on Jupiter is 252.8% of its weight on Earth. If the object's weight on Neptune is x% of its weight on Jupiter, which of the following is closest to the value of x?",
+    "text": "While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 170.00 pounds on Earth and a weight of 186.32 pounds on Neptune. The object's weight on Jupiter is 252.8\\% of its weight on Earth. If the object's weight on Neptune is x\\% of its weight on Jupiter, which of the following is closest to the value of x?",
     "choices": [
       {
         "id": "A",
@@ -9180,7 +9180,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_10",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "On January 1, there were 233 views of a video posted on a social media site. Every 2 days after January 1, the number of views of the video had increased by 60% of the number of views 2 days earlier. The function f gives the predicted number of views x days after January 1. Which equation defines f?",
+    "text": "On January 1, there were 233 views of a video posted on a social media site. Every 2 days after January 1, the number of views of the video had increased by 60\\% of the number of views 2 days earlier. The function f gives the predicted number of views x days after January 1. Which equation defines f?",
     "choices": [
       {
         "id": "A",
@@ -9270,7 +9270,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_13",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p$% of its value the preceding year, what is the value of $p$?",
+    "text": "$f(x)=3,950(0.38)^{\\frac{x}{12}}$\nThe function $f$ gives the value, in dollars, of a certain piece of equipment after $x$ months of use. If the value of the equipment decreases each year by $p$\\% of its value the preceding year, what is the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -9506,7 +9506,7 @@
     "rationale": null,
     "id": "32388549-e820-4b4a-91a9-d9c32e611098_22",
     "testName": "December 2024 US Form B SAT Math Module 2",
-    "text": "A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 2,700% of the number of prey at the start of the week, and the number of predators had increased by 180% of the number of predators at the start of the week. The number of prey at the end of the week was p% greater than the number of predators at the end of the week. What is the value of p?",
+    "text": "A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 2,700\\% of the number of prey at the start of the week, and the number of predators had increased by 180\\% of the number of predators at the start of the week. The number of prey at the end of the week was p\\% greater than the number of predators at the end of the week. What is the value of p?",
     "choices": [],
     "correctAnswer": "900",
     "type": "free-response"
@@ -9931,7 +9931,7 @@
     "rationale": null,
     "id": "9c1847da-e82b-4814-a0ec-0b4f99891322_20",
     "testName": "December 2024 US Form C SAT Math Module 1",
-    "text": "While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 220.00 pounds on Earth and a weight of 234.52 pounds on Saturn. The object's weight on Jupiter is 252.8% of its weight on Earth. If the object's weight on Saturn is x% of its weight on Jupiter, which of the following is closest to the value of x?",
+    "text": "While the mass of an object is the same everywhere, the weight of an object is not the same on different planets. An object has a weight of 220.00 pounds on Earth and a weight of 234.52 pounds on Saturn. The object's weight on Jupiter is 252.8\\% of its weight on Earth. If the object's weight on Saturn is x\\% of its weight on Jupiter, which of the following is closest to the value of x?",
     "choices": [
       {
         "id": "A",
@@ -10403,7 +10403,7 @@
     "rationale": null,
     "id": "b00d1a2d-fa94-4785-a802-20abbcc6d00a_17",
     "testName": "December 2024 US Form C SAT Math Module 2",
-    "text": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p% every 180 seconds. What is the value of p in terms of Q?",
+    "text": "The equation $N(m)=65(Q)^{\\frac{m}{6}}$ gives the predicted population N(m), in thousands, of a certain bacteria colony m minutes after the initial measurement, where Q is a constant greater than 1. The predicted population increases by p\\% every 180 seconds. What is the value of p in terms of Q?",
     "choices": [
       {
         "id": "A",
@@ -11180,7 +11180,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "The value of the CD would be approximately 4,186.12 dollars if invested at 2% interest."
+        "text": "The value of the CD would be approximately 4,186.12 dollars if invested at 2\\% interest."
       },
       {
         "id": "B",
@@ -11339,7 +11339,7 @@
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_12",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "The manager of a gym selected a sample of 139 members at random to estimate the percentage of the gym's members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 82% of the gym's members would continue to pay for a membership if the price increased, with an associated margin of error of 6.39%. If the survey is repeated with a random sample of 278 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "text": "The manager of a gym selected a sample of 139 members at random to estimate the percentage of the gym's members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 82\\% of the gym's members would continue to pay for a membership if the price increased, with an associated margin of error of 6.39\\%. If the survey is repeated with a random sample of 278 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
     "choices": [
       {
         "id": "A",
@@ -11399,7 +11399,7 @@
     "rationale": null,
     "id": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_15",
     "testName": "June 2024 International Form A SAT Math Module 2",
-    "text": "For the positive quantities $h$, $j$, and $k$, $94\\%$ of $h$ is equivalent to $47\\%$ of $j$, and $j$ is equivalent to $30\\%$ of $k$. What percentage of $k$ is $h$? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "text": "For the positive quantities $h$, $j$, and $k$, $94\\%$ of $h$ is equivalent to $47\\%$ of $j$, and $j$ is equivalent to $30\\%$ of $k$. What percentage of $k$ is $h$? (Disregard the \\% sign when entering your answer. For example, if your answer is 39\\%, enter 39)",
     "choices": [],
     "correctAnswer": "15",
     "type": "free-response"
@@ -12043,7 +12043,7 @@
     "rationale": null,
     "id": "6b1e987d-70b0-4072-9d03-3ebd56371518_20",
     "testName": "June 2024 US Form A SAT Math Module 1",
-    "text": "The positive number $a$ is 2,800% of the number $c$, and $c$ is 25% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
+    "text": "The positive number $a$ is 2,800\\% of the number $c$, and $c$ is 25\\% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
     "choices": [],
     "correctAnswer": "24",
     "type": "free-response"
@@ -12554,7 +12554,7 @@
     "rationale": null,
     "id": "2c578582-a4c6-4b17-a43d-0f06aaab91b7_20",
     "testName": "June 2024 US Form A SAT Math Module 2",
-    "text": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676%. If this red kangaroo's mass was $k$ grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
+    "text": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676\\%. If this red kangaroo's mass was $k$ grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
     "choices": [
       {
         "id": "A",
@@ -13116,7 +13116,7 @@
     "rationale": null,
     "id": "e5d516e8-dc0a-449f-9696-276e786df83f_20",
     "testName": "June 2024 US Form B SAT Math Module 1",
-    "text": "The positive number $a$ is 3,900% of the number $c$, and $c$ is 25% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
+    "text": "The positive number $a$ is 3,900\\% of the number $c$, and $c$ is 25\\% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
     "choices": [],
     "correctAnswer": "35",
     "type": "free-response"
@@ -13687,7 +13687,7 @@
     "rationale": null,
     "id": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_22",
     "testName": "June 2024 US Form B SAT Math Module 2",
-    "text": "The current value of a house is \\$181,000, and this value increases by 4.5% each year from the value of the previous year. Which function $f$ gives the value, in dollars, of the house $x$ years from now?",
+    "text": "The current value of a house is \\$181,000, and this value increases by 4.5\\% each year from the value of the previous year. Which function $f$ gives the value, in dollars, of the house $x$ years from now?",
     "choices": [
       {
         "id": "A",
@@ -13820,7 +13820,7 @@
     "rationale": null,
     "id": "23a951fb-833f-4b27-9978-4eb054f855e2_6",
     "testName": "June 2024 US Form C SAT Math Module 1",
-    "text": "5% of $w$ is 901.32. What is the value of $w$?",
+    "text": "5\\% of $w$ is 901.32. What is the value of $w$?",
     "choices": [
       {
         "id": "A",
@@ -14734,7 +14734,7 @@
     "rationale": null,
     "id": "10c690aa-0aad-48ab-952b-855b2555b311_19",
     "testName": "June 2024 US Form C SAT Math Module 2",
-    "text": "A company has a customer loyalty program. In January 2018, there were 700 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 8% greater than the total number enrolled the previous month. Which equation gives the total number of customers, $c$, enrolled in the company's loyalty program $m$ months after January 2018, where $m \\leq 24$?",
+    "text": "A company has a customer loyalty program. In January 2018, there were 700 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 8\\% greater than the total number enrolled the previous month. Which equation gives the total number of customers, $c$, enrolled in the company's loyalty program $m$ months after January 2018, where $m \\leq 24$?",
     "choices": [
       {
         "id": "A",
@@ -15005,7 +15005,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_12",
     "testName": "June 2025 International Form A SAT Math Module 1",
-    "text": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m < 24$?",
+    "text": "A company has a customer loyalty program. In January 2018, there were 800 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 5\\% greater than the total number enrolled the previous month. Which equation gives the total number of customers, c, enrolled in the company's loyalty program m months after January 2018, where $m < 24$?",
     "choices": [
       {
         "id": "A",
@@ -15048,7 +15048,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_14",
     "testName": "June 2025 International Form A SAT Math Module 1",
-    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 293% of $x$\nWhich of the following could describe this function?",
+    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 293\\% of $x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -15228,7 +15228,7 @@
     "rationale": null,
     "id": "6197d48e-7c76-4333-af39-0b9aa39e924c_20",
     "testName": "June 2025 International Form A SAT Math Module 1",
-    "text": "A rectangular banner has an area of 3,200 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20%. What is the area of the copy, in square inches?",
+    "text": "A rectangular banner has an area of 3,200 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20\\%. What is the area of the copy, in square inches?",
     "choices": [
       {
         "id": "A",
@@ -15747,7 +15747,7 @@
     "rationale": null,
     "id": "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_21",
     "testName": "June 2025 International Form A SAT Math Module 2",
-    "text": "The mass of object A is 438% of the mass of object B, and the mass of object A is 0.073% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1000}$?",
+    "text": "The mass of object A is 438\\% of the mass of object B, and the mass of object A is 0.073\\% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1000}$?",
     "choices": [],
     "correctAnswer": "600",
     "type": "free-response"
@@ -15902,7 +15902,7 @@
     "rationale": null,
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_10",
     "testName": "June 2025 International Form B SAT Math Module 1",
-    "text": "A clothing store buys shirts at a wholesale price of \\$4.00 each and resells them at a retail price that is 280% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 80% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "text": "A clothing store buys shirts at a wholesale price of \\$4.00 each and resells them at a retail price that is 280\\% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 80\\% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "choices": [],
     "correctAnswer": "2.24",
     "type": "free-response"
@@ -15975,7 +15975,7 @@
     "rationale": null,
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_13",
     "testName": "June 2025 International Form B SAT Math Module 1",
-    "text": "A company has a customer loyalty program. In January 2018, there were 200 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 4% greater than the total number enrolled the previous month. Which equation gives the total number of customers, $c$, enrolled in the company's loyalty program $m$ months after January 2018, where $m \\leq 24$?",
+    "text": "A company has a customer loyalty program. In January 2018, there were 200 customers enrolled in the loyalty program. For the next 24 months after January 2018, the total number of customers enrolled in the loyalty program each month was 4\\% greater than the total number enrolled the previous month. Which equation gives the total number of customers, $c$, enrolled in the company's loyalty program $m$ months after January 2018, where $m \\leq 24$?",
     "choices": [
       {
         "id": "A",
@@ -16168,7 +16168,7 @@
     "rationale": null,
     "id": "9628151f-9763-4abc-8c66-9dc08f82f715_20",
     "testName": "June 2025 International Form B SAT Math Module 1",
-    "text": "A rectangular banner has an area of 3,500 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 40%. What is the area of the copy, in square inches?",
+    "text": "A rectangular banner has an area of 3,500 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 40\\%. What is the area of the copy, in square inches?",
     "choices": [
       {
         "id": "A",
@@ -16554,7 +16554,7 @@
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_12",
     "testName": "June 2025 International Form B SAT Math Module 2",
-    "text": "The manager of a gym selected a sample of 159 members at random to estimate the percentage of the gym's members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 88% of the gym's members would continue to pay for a membership if the price increased, with an associated margin of error of 5.05%. If the survey is repeated with a random sample of 318 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "text": "The manager of a gym selected a sample of 159 members at random to estimate the percentage of the gym's members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 88\\% of the gym's members would continue to pay for a membership if the price increased, with an associated margin of error of 5.05\\%. If the survey is repeated with a random sample of 318 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
     "choices": [
       {
         "id": "A",
@@ -16614,7 +16614,7 @@
     "rationale": null,
     "id": "f196343a-4470-4649-8efb-edf349dd4393_14",
     "testName": "June 2025 International Form B SAT Math Module 2",
-    "text": "For the positive quantities $ h $, $ j $, and $ k $, 44% of $ h $ is equivalent to 62% of $ j $, and $ j $ is equivalent to 22% of $ k $. What percentage of $ k $ is $ h $? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "text": "For the positive quantities $ h $, $ j $, and $ k $, 44\\% of $ h $ is equivalent to 62\\% of $ j $, and $ j $ is equivalent to 22\\% of $ k $. What percentage of $ k $ is $ h $? (Disregard the \\% sign when entering your answer. For example, if your answer is 39\\%, enter 39)",
     "choices": [],
     "correctAnswer": "31",
     "type": "free-response"
@@ -17434,7 +17434,7 @@
     "rationale": null,
     "id": "a240b08f-646d-4227-8b1f-fadf4c312b08_20",
     "testName": "June 2025 US Form A SAT Math Module 2",
-    "text": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676 %. If this red kangaroo's mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
+    "text": "The percent increase in mass of a certain red kangaroo from 80 days old to 160 days old was 676 \\%. If this red kangaroo's mass was k grams at 80 days old, which expression represents its mass, in grams, at 160 days old?",
     "choices": [
       {
         "id": "A",
@@ -17833,7 +17833,7 @@
     "rationale": null,
     "id": "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_19",
     "testName": "March 2025 International Form A SAT Math Module 1",
-    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23% every 11.69 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
+    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 23\\% every 11.69 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "choices": [
       {
         "id": "A",
@@ -18232,7 +18232,7 @@
     "rationale": null,
     "id": "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_12",
     "testName": "March 2025 International Form A SAT Math Module 2",
-    "text": "The positive number $a$ is 2,136% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+    "text": "The positive number $a$ is 2,136\\% of the sum of the positive numbers $b$ and $c$, and $b$ is 89\\% of $c$. What percent of $b$ is $a$?",
     "choices": [
       {
         "id": "A",
@@ -18713,7 +18713,7 @@
     "rationale": null,
     "id": "a16355d1-6cca-4c4e-8e0a-f405892830f1_15",
     "testName": "March 2025 International Form B SAT Math Module 1",
-    "text": "A real estate company offers a series of three webinars. 1,250 people attended the first webinar. 46% of the people who attended the first webinar attended the second webinar, and 32% of the people who attended the first and second webinars attended the third webinar. How many people attended all three webinars?",
+    "text": "A real estate company offers a series of three webinars. 1,250 people attended the first webinar. 46\\% of the people who attended the first webinar attended the second webinar, and 32\\% of the people who attended the first and second webinars attended the third webinar. How many people attended all three webinars?",
     "choices": [],
     "correctAnswer": "184",
     "type": "free-response"
@@ -19052,7 +19052,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_8",
     "testName": "March 2025 International Form B SAT Math Module 2",
-    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 22% every 11.11 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
+    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 22\\% every 11.11 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "choices": [
       {
         "id": "A",
@@ -19258,7 +19258,7 @@
     "rationale": null,
     "id": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_18",
     "testName": "March 2025 International Form B SAT Math Module 2",
-    "text": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70 % shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "text": "A square map has a side length of 45 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70 \\% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "choices": [
       {
         "id": "A",
@@ -19653,7 +19653,7 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_16",
     "testName": "March 2025 International Form C SAT Math Module 1",
-    "text": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "text": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6\\% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "choices": [],
     "correctAnswer": "257",
     "type": "free-response"
@@ -19782,23 +19782,23 @@
     "rationale": null,
     "id": "ba06b998-d854-4b29-830c-15d877280c75_22",
     "testName": "March 2025 International Form C SAT Math Module 1",
-    "text": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+    "text": "$a$ is 2,047\\% of the sum of the positive numbers $b$ and $c$, and $b$ is 89\\% of $c$. What percent of $b$ is $a$?",
     "choices": [
       {
         "id": "A",
-        "text": "21.36%"
+        "text": "21.36\\%"
       },
       {
         "id": "B",
-        "text": "38.69%"
+        "text": "38.69\\%"
       },
       {
         "id": "C",
-        "text": "2,300%"
+        "text": "2,300\\%"
       },
       {
         "id": "D",
-        "text": "4,347%"
+        "text": "4,347\\%"
       }
     ],
     "correctAnswer": "D",
@@ -20241,7 +20241,7 @@
     "rationale": null,
     "id": "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_17",
     "testName": "March 2025 International Form C SAT Math Module 2",
-    "text": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "text": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70\\% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "choices": [
       {
         "id": "A",
@@ -20645,7 +20645,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_17",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "A school is ordering tablet computers for its students. The tablets cost \\$170 each, and 7% tax is added to the total cost of the order. If the school can spend no more than \\$3,400 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+    "text": "A school is ordering tablet computers for its students. The tablets cost \\$170 each, and 7\\% tax is added to the total cost of the order. If the school can spend no more than \\$3,400 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
     "choices": [],
     "correctAnswer": "18",
     "type": "free-response"
@@ -20688,7 +20688,7 @@
     "rationale": null,
     "id": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_19",
     "testName": "March 2025 International Form D SAT Math Module 1",
-    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 24% every 22.96 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
+    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 24\\% every 22.96 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "choices": [
       {
         "id": "A",
@@ -21207,7 +21207,7 @@
     "rationale": null,
     "id": "ffdaaea2-8ec1-44b7-903d-084c644b881a_17",
     "testName": "March 2025 International Form D SAT Math Module 2",
-    "text": "A square map has a side length of 35 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "text": "A square map has a side length of 35 inches, and 1 inch on the map represents an actual distance of 13 miles. A smaller version of the same map is printed as a square with the side length 70\\% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "choices": [
       {
         "id": "A",
@@ -21572,7 +21572,7 @@
     "rationale": null,
     "id": "11ee667b-8898-4917-b74e-33237205e2ef_11",
     "testName": "March 2025 International Form E SAT Math Module 1",
-    "text": "A clothing store buys shirts at a wholesale price of \\$6.00 each and resells them at a retail price that is 310% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "text": "A clothing store buys shirts at a wholesale price of \\$6.00 each and resells them at a retail price that is 310\\% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 75\\% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "choices": [],
     "correctAnswer": "4.65",
     "type": "free-response"
@@ -22117,23 +22117,23 @@
     "rationale": null,
     "id": "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_14",
     "testName": "March 2025 International Form E SAT Math Module 2",
-    "text": "$a$ is 2,184% of the sum of the positive numbers $b$ and $c$, and $b$ is 84% of $c$. What percent of $b$ is $a$?",
+    "text": "$a$ is 2,184\\% of the sum of the positive numbers $b$ and $c$, and $b$ is 84\\% of $c$. What percent of $b$ is $a$?",
     "choices": [
       {
         "id": "A",
-        "text": "4,784%"
+        "text": "4,784\\%"
       },
       {
         "id": "B",
-        "text": "2,600%"
+        "text": "2,600\\%"
       },
       {
         "id": "C",
-        "text": "40.19%"
+        "text": "40.19\\%"
       },
       {
         "id": "D",
-        "text": "22.68%"
+        "text": "22.68\\%"
       }
     ],
     "correctAnswer": "A",
@@ -22920,23 +22920,23 @@
     "rationale": null,
     "id": "2c685c82-a211-4c0f-9856-cc6b06a5a86e_11",
     "testName": "March 2025 US Form A SAT Math Module 2",
-    "text": "$a$ is 2,106% of the sum of the positive numbers $b$ and $c$, and $b$ is 81% of $c$. What percent of $b$ is $a$?",
+    "text": "$a$ is 2,106\\% of the sum of the positive numbers $b$ and $c$, and $b$ is 81\\% of $c$. What percent of $b$ is $a$?",
     "choices": [
       {
         "id": "A",
-        "text": "4,706%"
+        "text": "4,706\\%"
       },
       {
         "id": "B",
-        "text": "2,600%"
+        "text": "2,600\\%"
       },
       {
         "id": "C",
-        "text": "38.12%"
+        "text": "38.12\\%"
       },
       {
         "id": "D",
-        "text": "21.87%"
+        "text": "21.87\\%"
       }
     ],
     "correctAnswer": "A",
@@ -23285,7 +23285,7 @@
     "rationale": null,
     "id": "00907d99-e579-47a8-ac65-658aadef4aa7_4",
     "testName": "March 2025 US Form B SAT Math Module 1",
-    "text": "A furniture company is selling all tables with a 20% discount off their original price for the month of October. What is the discount, in dollars, on a table with an original price of \\$130?",
+    "text": "A furniture company is selling all tables with a 20\\% discount off their original price for the month of October. What is the discount, in dollars, on a table with an original price of \\$130?",
     "choices": [
       {
         "id": "A",
@@ -23740,7 +23740,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_3",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "The potential difference across a capacitor in an electric circuit is initially 16 volts and decreases with time, as shown in the graph. Which of the following is closest to the time, in seconds, from the initial measurement at which the potential difference across the capacitor is 15% of its initial value?",
+    "text": "The potential difference across a capacitor in an electric circuit is initially 16 volts and decreases with time, as shown in the graph. Which of the following is closest to the time, in seconds, from the initial measurement at which the potential difference across the capacitor is 15\\% of its initial value?",
     "choices": [
       {
         "id": "A",
@@ -23993,7 +23993,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_12",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "In a collection of items, 10% are red, 25% are green, 35% are blue, and 30% are yellow. If there are 40 green items, how many blue items are in the collection?",
+    "text": "In a collection of items, 10\\% are red, 25\\% are green, 35\\% are blue, and 30\\% are yellow. If there are 40 green items, how many blue items are in the collection?",
     "choices": [
       {
         "id": "A",
@@ -24066,7 +24066,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_15",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "A model estimates that at the end of each year from 2015 to 2020, the number of rabbits in a population was 170% more than the number of rabbits in the population at the end of the previous year. The model estimates that at the end of 2016, there were 216 rabbits in the population. Which of the following equations represents this model, where $n$ is the estimated number of rabbits in the population $t$ years after the end of 2015 and $t \\leq 5$?",
+    "text": "A model estimates that at the end of each year from 2015 to 2020, the number of rabbits in a population was 170\\% more than the number of rabbits in the population at the end of the previous year. The model estimates that at the end of 2016, there were 216 rabbits in the population. Which of the following equations represents this model, where $n$ is the estimated number of rabbits in the population $t$ years after the end of 2015 and $t \\leq 5$?",
     "choices": [
       {
         "id": "A",
@@ -24139,7 +24139,7 @@
     "rationale": null,
     "id": "35bd5fb1-7659-4393-b736-241352b7187e_19",
     "testName": "March 2025 US Form B SAT Math Module 2",
-    "text": "A square map has a side length of 30 inches, and 1 inch on the map represents an actual distance of 17 miles. A smaller version of the same map is printed as a square with the side length 65% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "text": "A square map has a side length of 30 inches, and 1 inch on the map represents an actual distance of 17 miles. A smaller version of the same map is printed as a square with the side length 65\\% shorter than the side length of the previous map. On the smaller map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "choices": [
       {
         "id": "A",
@@ -24491,7 +24491,7 @@
     "rationale": null,
     "id": "27590f35-8d6e-45c6-b665-222acb5e516d_12",
     "testName": "May 2024 International Form A SAT Math Module 1",
-    "text": "Liam has \\$150 in an account. Each year he expects to have 2.8% more money in the account than he had the previous year. Which of the following models best describes how Liam expects the money in his account to change over time?",
+    "text": "Liam has \\$150 in an account. Each year he expects to have 2.8\\% more money in the account than he had the previous year. Which of the following models best describes how Liam expects the money in his account to change over time?",
     "choices": [
       {
         "id": "A",
@@ -25139,7 +25139,7 @@
     "rationale": null,
     "id": "2f91d920-5520-4266-8a2d-a29c925c95c0_18",
     "testName": "May 2024 International Form A SAT Math Module 2",
-    "text": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 133 kilograms of muscle, which made up approximately 65.9% of its composition. Of the remaining composition of this buffalo, approximately 46.2% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
+    "text": "The composition of an animal is defined as the muscles, bones, and fat of the animal. A scientist studied the composition of one young swamp buffalo and determined the buffalo had 133 kilograms of muscle, which made up approximately 65.9\\% of its composition. Of the remaining composition of this buffalo, approximately 46.2\\% was bone, and the remainder was fat. Based on these approximations, to the nearest tenth, how many kilograms of this buffalo's composition was bone?",
     "choices": [],
     "correctAnswer": "31.8",
     "type": "free-response"
@@ -25783,7 +25783,7 @@
     "rationale": null,
     "id": "d5718376-6a71-41d6-aa0f-411bb7f3bb75_1",
     "testName": "May 2024 International Form C SAT Math Module 2",
-    "text": "What is 50% of 520?",
+    "text": "What is 50\\% of 520?",
     "choices": [
       {
         "id": "A",
@@ -26404,7 +26404,7 @@
       },
       {
         "id": "D",
-        "text": "The estimated value of the bike decreased by approximately 2.50% each year after it was purchased."
+        "text": "The estimated value of the bike decreased by approximately 2.50\\% each year after it was purchased."
       }
     ],
     "correctAnswer": "A",
@@ -26478,7 +26478,7 @@
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_6",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "One minute after the start of an experiment, the volume of a mixture is 95% of its volume at the start of the experiment. Which expression best represents the volume of the mixture one minute after the start of the experiment, where $v$ is its volume at the start of the experiment?",
+    "text": "One minute after the start of an experiment, the volume of a mixture is 95\\% of its volume at the start of the experiment. Which expression best represents the volume of the mixture one minute after the start of the experiment, where $v$ is its volume at the start of the experiment?",
     "choices": [
       {
         "id": "A",
@@ -26796,7 +26796,7 @@
     "rationale": null,
     "id": "305aaf32-2803-4909-83d0-d08ba71a35a7_21",
     "testName": "May 2024 International Form D SAT Math Module 1",
-    "text": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p$% for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
+    "text": "$z(w) = (0.835)^{3w}$\nThe function $z$ is defined by the equation shown. The value of $z(w)$ decreases by $p$\\% for each increase by 1 in the value of $w$. Which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -27719,7 +27719,7 @@
     "rationale": null,
     "id": "d2870056-c182-4523-a3f3-884eafe68114_1",
     "testName": "May 2024 International Form E SAT Math Module 2",
-    "text": "The amount of Alex\u2019s bill for a food order was \\$30.00. Alex gave a tip of 10% of the amount of the bill. What is the amount, in dollars, of the tip Alex gave?",
+    "text": "The amount of Alex\u2019s bill for a food order was \\$30.00. Alex gave a tip of 10\\% of the amount of the bill. What is the amount, in dollars, of the tip Alex gave?",
     "choices": [
       {
         "id": "A",
@@ -28646,7 +28646,7 @@
     "rationale": null,
     "id": "08df3b47-9273-4ad6-9301-332804bc6404_19",
     "testName": "May 2024 US Form A SAT Math Module 1",
-    "text": "In 2018, approximately 20,000 kilowatts of solar power capacity was newly installed in a certain area in the United States. In 2019, the amount of newly installed solar power capacity in this area increased by 13% from the amount of newly installed solar power capacity in 2018. If the amount of newly installed solar power capacity continues to increase each year by 13% of the previous year's newly installed solar power capacity, which of the following types of functions best describes how the amount of newly installed solar power capacity changes over time?",
+    "text": "In 2018, approximately 20,000 kilowatts of solar power capacity was newly installed in a certain area in the United States. In 2019, the amount of newly installed solar power capacity in this area increased by 13\\% from the amount of newly installed solar power capacity in 2018. If the amount of newly installed solar power capacity continues to increase each year by 13\\% of the previous year's newly installed solar power capacity, which of the following types of functions best describes how the amount of newly installed solar power capacity changes over time?",
     "choices": [
       {
         "id": "A",
@@ -28748,11 +28748,11 @@
       },
       {
         "id": "C",
-        "text": "At the end of every 6-month interval, the balance increases by about 0.5% of the balance at the beginning of the 6-month interval."
+        "text": "At the end of every 6-month interval, the balance increases by about 0.5\\% of the balance at the beginning of the 6-month interval."
       },
       {
         "id": "D",
-        "text": "At the end of every 2-month interval, the balance increases by about 0.5% of the balance at the beginning of the 2-month interval."
+        "text": "At the end of every 2-month interval, the balance increases by about 0.5\\% of the balance at the beginning of the 2-month interval."
       }
     ],
     "correctAnswer": "C",
@@ -29221,7 +29221,7 @@
     "rationale": null,
     "id": "301d8663-e49a-4c21-9635-ef2d02614b43_20",
     "testName": "May 2024 US Form A SAT Math Module 2",
-    "text": "An electric vehicle's battery has a charge of 100 kilowatt-hours (kWh) at the beginning of a trip. At the end of this trip, the electric vehicle's battery has 56% of the initial charge remaining. What is the battery's remaining charge, in kWh, at the end of this trip?",
+    "text": "An electric vehicle's battery has a charge of 100 kilowatt-hours (kWh) at the beginning of a trip. At the end of this trip, the electric vehicle's battery has 56\\% of the initial charge remaining. What is the battery's remaining charge, in kWh, at the end of this trip?",
     "choices": [
       {
         "id": "A",
@@ -29676,7 +29676,7 @@
     "rationale": null,
     "id": "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_18",
     "testName": "May 2024 US Form B SAT Math Module 1",
-    "text": "A scientist studying the life cycle of butterflies counted the number of butterflies in a certain habitat each day for 46 days. On June 15, there were 114 butterflies in the habitat. The percent increase in the number of butterflies in the habitat from May 1 to June 15 was 18.75%. How many butterflies were in the habitat on May 1?",
+    "text": "A scientist studying the life cycle of butterflies counted the number of butterflies in a certain habitat each day for 46 days. On June 15, there were 114 butterflies in the habitat. The percent increase in the number of butterflies in the habitat from May 1 to June 15 was 18.75\\%. How many butterflies were in the habitat on May 1?",
     "choices": [
       {
         "id": "A",
@@ -29826,7 +29826,7 @@
     "rationale": null,
     "id": "cd2abd24-f96a-43e7-860f-be962ea69e08_1",
     "testName": "May 2024 US Form B SAT Math Module 2",
-    "text": "What is 50% of 600?",
+    "text": "What is 50\\% of 600?",
     "choices": [
       {
         "id": "A",
@@ -30710,7 +30710,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_14",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "A number $f$ is 120% greater than a positive number $g$. A number $h$ is 90% less than the number $f$. The number $h$ is how many times the number $g$?",
+    "text": "A number $f$ is 120\\% greater than a positive number $g$. A number $h$ is 90\\% less than the number $f$. The number $h$ is how many times the number $g$?",
     "choices": [
       {
         "id": "A",
@@ -30839,7 +30839,7 @@
     "rationale": null,
     "id": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_20",
     "testName": "May 2025 International Form A SAT Math Module 1",
-    "text": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20 %. What is the area of the copy, in square inches?",
+    "text": "A rectangular banner has an area of 2,300 square inches. A copy of the banner is made in which the length and width of the original banner are each increased by 20 \\%. What is the area of the copy, in square inches?",
     "choices": [
       {
         "id": "A",
@@ -31225,7 +31225,7 @@
     "rationale": null,
     "id": "e4f2c33b-9282-40a7-810c-d633e5197f95_13",
     "testName": "May 2025 International Form A SAT Math Module 2",
-    "text": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 71.5% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+    "text": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 71.5\\% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45\\% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
     "choices": [],
     "correctAnswer": "34300",
     "type": "free-response"
@@ -31706,7 +31706,7 @@
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_11",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "The value of a share of stock was \\$240 on the day it was purchased. Every year, the value of the share of stock increases by 1% of its value the previous year. Which function V gives the value, in dollars, of the share of stock t years after the day it was purchased?",
+    "text": "The value of a share of stock was \\$240 on the day it was purchased. Every year, the value of the share of stock increases by 1\\% of its value the previous year. Which function V gives the value, in dollars, of the share of stock t years after the day it was purchased?",
     "choices": [
       {
         "id": "A",
@@ -31938,7 +31938,7 @@
     "rationale": null,
     "id": "bd71c8f3-94e3-411f-929a-013a2ca9a277_21",
     "testName": "May 2025 International Form B SAT Math Module 1",
-    "text": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50 %. What is the area of the copy, in square inches?",
+    "text": "A rectangular poster has an area of 330 square inches. A copy of the poster is made in which the length and width of the original poster are each increased by 50 \\%. What is the area of the copy, in square inches?",
     "choices": [],
     "correctAnswer": "742.5",
     "type": "free-response"
@@ -32101,7 +32101,7 @@
     "rationale": null,
     "id": "0c54aae7-15f2-4e7b-a138-cae820ff684e_5",
     "testName": "May 2025 International Form B SAT Math Module 2",
-    "text": "If 350 % of n is 35, what is the value of n?",
+    "text": "If 350 \\% of n is 35, what is the value of n?",
     "choices": [
       {
         "id": "A",
@@ -33315,7 +33315,7 @@
     "rationale": null,
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_8",
     "testName": "November 2024 International Form A SAT Math Module 1",
-    "text": "5% of w is 741.41. What is the value of w?",
+    "text": "5\\% of w is 741.41. What is the value of w?",
     "choices": [
       {
         "id": "A",
@@ -33534,7 +33534,7 @@
     "rationale": null,
     "id": "d327ac24-d8f4-466e-a351-90aa6dbe87e3_18",
     "testName": "November 2024 International Form A SAT Math Module 1",
-    "text": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house c years from now?",
+    "text": "The current value of a house is \\$174,000, and this value increases by 2.4\\% each year from the value of the previous year. Which function f gives the value, in dollars, of the house c years from now?",
     "choices": [
       {
         "id": "A",
@@ -33744,7 +33744,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_5",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "Each year, the value of an investment increases by 0.69% of its value the previous year. Which of the following functions best models how the value of the investment changes over time?",
+    "text": "Each year, the value of an investment increases by 0.69\\% of its value the previous year. Which of the following functions best models how the value of the investment changes over time?",
     "choices": [
       {
         "id": "A",
@@ -33830,7 +33830,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_9",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "The manager of a gym selected a sample of 142 members at random to estimate the percentage of the gym\u2019s members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 89% of the gym\u2019s members would continue to pay for a membership if the price increased, with an associated margin of error of 5.15%. If the survey is repeated with a random sample of 284 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
+    "text": "The manager of a gym selected a sample of 142 members at random to estimate the percentage of the gym\u2019s members that would continue to pay for a membership if the price increased. From the survey, the manager estimates that 89\\% of the gym\u2019s members would continue to pay for a membership if the price increased, with an associated margin of error of 5.15\\%. If the survey is repeated with a random sample of 284 members and the results are calculated in the same way, which of the following will be the most likely effect of using the larger random sample compared to the smaller random sample?",
     "choices": [
       {
         "id": "A",
@@ -34023,7 +34023,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_17",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "The expression $kx$ represents the result of decreasing a positive force, $x$, acting on an object by 0.34%. What is the value of $k$?",
+    "text": "The expression $kx$ represents the result of decreasing a positive force, $x$, acting on an object by 0.34\\%. What is the value of $k$?",
     "choices": [],
     "correctAnswer": ".9966,0.996,0.997",
     "type": "free-response"
@@ -34079,7 +34079,7 @@
     "rationale": null,
     "id": "6dccbef1-7688-4e9c-bc89-87f46af60ab3_20",
     "testName": "November 2024 International Form A SAT Math Module 2",
-    "text": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, $n$, in the sequence, where $n$ is a whole number. The value of the term in position 14 is $p$% more than the value of the term in position 10. What is the value of $p$?",
+    "text": "The function $f(n)=7(20.44)^{\\frac{n}{4}}$ gives each term of a sequence as a function of the term's position, $n$, in the sequence, where $n$ is a whole number. The value of the term in position 14 is $p$\\% more than the value of the term in position 10. What is the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -34572,7 +34572,7 @@
     "rationale": null,
     "id": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
     "testName": "November 2024 International Form B SAT Math Module 1",
-    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 111% of $x$\nWhich of the following could describe this function?",
+    "text": "For $x > 0$, the function $f$ is defined as follows:\n$f(x)$ equals 111\\% of $x$\nWhich of the following could describe this function?",
     "choices": [
       {
         "id": "A",
@@ -34997,7 +34997,7 @@
     "rationale": null,
     "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_12",
     "testName": "November 2024 International Form B SAT Math Module 2",
-    "text": "In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5% of the number of pheasants per mile of road the previous year. Based on this average, if there were 6.22 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?",
+    "text": "In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5\\% of the number of pheasants per mile of road the previous year. Based on this average, if there were 6.22 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?",
     "choices": [
       {
         "id": "A",
@@ -35100,7 +35100,7 @@
     "rationale": null,
     "id": "390a8264-19b1-4de0-9dc9-09609eadd7ca_16",
     "testName": "November 2024 International Form B SAT Math Module 2",
-    "text": "A gallery had $x$ artifacts in a collection. When more artifacts were added to the collection, the number of artifacts increased by 149%. What is the resulting number of artifacts in the collection in terms of $x$?",
+    "text": "A gallery had $x$ artifacts in a collection. When more artifacts were added to the collection, the number of artifacts increased by 149\\%. What is the resulting number of artifacts in the collection in terms of $x$?",
     "choices": [
       {
         "id": "A",
@@ -35418,7 +35418,7 @@
     "rationale": null,
     "id": "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_18",
     "testName": "November 2024 International Form C SAT Math Module 1",
-    "text": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function f gives the value, in dollars, of the house x years from now?",
+    "text": "The current value of a house is \\$174,000, and this value increases by 2.4\\% each year from the value of the previous year. Which function f gives the value, in dollars, of the house x years from now?",
     "choices": [
       {
         "id": "A",
@@ -35478,23 +35478,23 @@
     "rationale": null,
     "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
     "testName": "November 2024 International Form C SAT Math Module 2",
-    "text": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
+    "text": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66\\% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91\\%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
     "choices": [
       {
         "id": "A",
-        "text": "Any value greater than 63.09% and less than 68.91%"
+        "text": "Any value greater than 63.09\\% and less than 68.91\\%"
       },
       {
         "id": "B",
-        "text": "Any value greater than 63.09%"
+        "text": "Any value greater than 63.09\\%"
       },
       {
         "id": "C",
-        "text": "Any value less than 63.09% or greater than 68.91%"
+        "text": "Any value less than 63.09\\% or greater than 68.91\\%"
       },
       {
         "id": "D",
-        "text": "Any value less than 68.91%"
+        "text": "Any value less than 68.91\\%"
       }
     ],
     "correctAnswer": "A",
@@ -35765,7 +35765,7 @@
       },
       {
         "id": "B",
-        "text": "At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval."
+        "text": "At the end of every 4-month interval, the balance increases by about 0.5\\% of the balance at the beginning of the 4-month interval."
       },
       {
         "id": "C",
@@ -35773,7 +35773,7 @@
       },
       {
         "id": "D",
-        "text": "At the end of every 3-year interval, the balance increases by about 0.5% of the balance at the beginning of the 3-year interval."
+        "text": "At the end of every 3-year interval, the balance increases by about 0.5\\% of the balance at the beginning of the 3-year interval."
       }
     ],
     "correctAnswer": "B",
@@ -35800,7 +35800,7 @@
     "rationale": null,
     "id": "b5883220-eb88-4f6b-8d82-979efee65d2d_17",
     "testName": "November 2024 International Form C SAT Math Module 2",
-    "text": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+    "text": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90\\% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
     "choices": [
       {
         "id": "A",
@@ -36079,7 +36079,7 @@
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_8",
     "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "5% of $w$ is 741.41. What is the value of $w$?",
+    "text": "5\\% of $w$ is 741.41. What is the value of $w$?",
     "choices": [
       {
         "id": "A",
@@ -36169,7 +36169,7 @@
     "rationale": null,
     "id": "68b576c1-9de8-41d3-9840-538d4edcd113_18",
     "testName": "November 2024 International Form D SAT Math Module 1",
-    "text": "The current value of a house is \\$174,000, and this value increases by 2.4% each year from the value of the previous year. Which function $f$ gives the value, in dollars, of the house $x$ years from now?",
+    "text": "The current value of a house is \\$174,000, and this value increases by 2.4\\% each year from the value of the previous year. Which function $f$ gives the value, in dollars, of the house $x$ years from now?",
     "choices": [
       {
         "id": "A",
@@ -36680,7 +36680,7 @@
     "rationale": null,
     "id": "6f7157fc-7e47-4e83-add3-e372915177ec_10",
     "testName": "November 2024 US Form A SAT Math Module 1",
-    "text": "A chemist mixed $x$ liters of a 2% saline solution with $y$ liters of a 5% saline solution to produce a 3% saline solution. Which equation best represents this situation? (Assume the volumes of the solutions are additive.)",
+    "text": "A chemist mixed $x$ liters of a 2\\% saline solution with $y$ liters of a 5\\% saline solution to produce a 3\\% saline solution. Which equation best represents this situation? (Assume the volumes of the solutions are additive.)",
     "choices": [
       {
         "id": "A",
@@ -37268,7 +37268,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_12",
     "testName": "November 2024 US Form A SAT Math Module 2",
-    "text": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $a$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
+    "text": "For an online trivia game, 490 points are awarded for a correct answer if a question is answered in less than 5 seconds from the time the question is asked. Each 5 seconds after the question is asked, the number of points awarded for a correct answer decreases by 20\\% of the number of points awarded for a correct answer in the previous 5 seconds. Which function gives the number of points awarded for a correct answer $a$ seconds from the time the question is asked, where $x$ is a multiple of 5?",
     "choices": [
       {
         "id": "A",
@@ -37487,7 +37487,7 @@
     "rationale": null,
     "id": "f3ade8fe-06c3-4b9c-a658-8857621e692f_22",
     "testName": "November 2024 US Form A SAT Math Module 2",
-    "text": "The mass of object A is 416% of the mass of object B, and the mass of object A is 0.064% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
+    "text": "The mass of object A is 416\\% of the mass of object B, and the mass of object A is 0.064\\% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $\\frac{p}{1,000}$?",
     "choices": [],
     "correctAnswer": "650",
     "type": "free-response"
@@ -37839,7 +37839,7 @@
     "rationale": null,
     "id": "d33931f5-618d-4bf0-a69a-be73447d49f7_17",
     "testName": "November 2024 US Form B SAT Math Module 1",
-    "text": "18 is 10% of what number?",
+    "text": "18 is 10\\% of what number?",
     "choices": [
       {
         "id": "A",
@@ -38281,7 +38281,7 @@
     "rationale": null,
     "id": "e5001da0-8895-4b72-8d22-da29586dc907_15",
     "testName": "November 2024 US Form B SAT Math Module 2",
-    "text": "A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Akeyla opened one of these accounts with an original account balance of \\$700.00 and did not make any other deposits or withdrawals. 4 months after Akeyla opened the account, the balance had increased by 0.6% of the original balance. 6 months after Akeyla opened the account, the balance had increased by an additional 0.1% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.1% of the balance 2 months before. Which of the following equations could represent the account balance $B(x)$, in dollars, $x$ months after the account was opened, where $x \\geq 4$?",
+    "text": "A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Akeyla opened one of these accounts with an original account balance of \\$700.00 and did not make any other deposits or withdrawals. 4 months after Akeyla opened the account, the balance had increased by 0.6\\% of the original balance. 6 months after Akeyla opened the account, the balance had increased by an additional 0.1\\% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.1\\% of the balance 2 months before. Which of the following equations could represent the account balance $B(x)$, in dollars, $x$ months after the account was opened, where $x \\geq 4$?",
     "choices": [
       {
         "id": "A",
@@ -38440,7 +38440,7 @@
     "rationale": null,
     "id": "e5001da0-8895-4b72-8d22-da29586dc907_22",
     "testName": "November 2024 US Form B SAT Math Module 2",
-    "text": "The mass of object A is 498% of the mass of object B, and the mass of object A is 0.830% of the mass of object C. If the mass of object C is $p$% of the mass of object B, what is the value of $p$?",
+    "text": "The mass of object A is 498\\% of the mass of object B, and the mass of object A is 0.830\\% of the mass of object C. If the mass of object C is $p$\\% of the mass of object B, what is the value of $p$?",
     "choices": [],
     "correctAnswer": "60000",
     "type": "free-response"
@@ -38616,7 +38616,7 @@
     "rationale": null,
     "id": "ad300285-6ff9-46a9-97ab-7356c9cd2965_10",
     "testName": "October 2024 International Form A SAT Math Module 1",
-    "text": "A clothing store buys shirts at a wholesale price of \\$5.00 each and resells them at a retail price that is 270% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 70% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
+    "text": "A clothing store buys shirts at a wholesale price of \\$5.00 each and resells them at a retail price that is 270\\% of the wholesale price. At the end of the season, any remaining shirts are marked at a discounted price that is 70\\% off the retail price. What is the discounted price of each remaining shirt, in dollars?",
     "choices": [],
     "correctAnswer": "4.05",
     "type": "free-response"
@@ -38934,7 +38934,7 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_3",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "In 2010, a skating team had a total of 35 skaters, each classified as either advanced or intermediate. From 2010 to 2020, the number of advanced skaters on the team increased by approximately 53%, and the number of intermediate skaters on the team increased by approximately 44%. The total number of skaters on the team increased by approximately 49%. Which equation best represents this situation, where $a$ represents the number of advanced skaters on the team in 2010 and $b$ represents the number of intermediate skaters on the team in 2010?",
+    "text": "In 2010, a skating team had a total of 35 skaters, each classified as either advanced or intermediate. From 2010 to 2020, the number of advanced skaters on the team increased by approximately 53\\%, and the number of intermediate skaters on the team increased by approximately 44\\%. The total number of skaters on the team increased by approximately 49\\%. Which equation best represents this situation, where $a$ represents the number of advanced skaters on the team in 2010 and $b$ represents the number of intermediate skaters on the team in 2010?",
     "choices": [
       {
         "id": "A",
@@ -39153,23 +39153,23 @@
     "rationale": null,
     "id": "6c72f77d-781d-42a7-9eb8-695ae0bba85b_15",
     "testName": "October 2024 International Form A SAT Math Module 2",
-    "text": "The positive number $ a $ is 2,352% of the sum of the positive numbers $ b $ and $ c $, and $ b $ is 84% of $ c $. What percent of $ b $ is $ a $?",
+    "text": "The positive number $ a $ is 2,352\\% of the sum of the positive numbers $ b $ and $ c $, and $ b $ is 84\\% of $ c $. What percent of $ b $ is $ a $?",
     "choices": [
       {
         "id": "A",
-        "text": "5,152%"
+        "text": "5,152\\%"
       },
       {
         "id": "B",
-        "text": "2,436%"
+        "text": "2,436\\%"
       },
       {
         "id": "C",
-        "text": "51.52%"
+        "text": "51.52\\%"
       },
       {
         "id": "D",
-        "text": "24.36%"
+        "text": "24.36\\%"
       }
     ],
     "correctAnswer": "A",
@@ -39805,19 +39805,19 @@
     "choices": [
       {
         "id": "A",
-        "text": "6.7%"
+        "text": "6.7\\%"
       },
       {
         "id": "B",
-        "text": "67%"
+        "text": "67\\%"
       },
       {
         "id": "C",
-        "text": "3.3%"
+        "text": "3.3\\%"
       },
       {
         "id": "D",
-        "text": "33%"
+        "text": "33\\%"
       }
     ],
     "correctAnswer": "B",
@@ -39964,7 +39964,7 @@
     "rationale": null,
     "id": "e3fe84c7-8083-48b8-863b-841355113ba0_5",
     "testName": "October 2024 International Form B SAT Math Module 2",
-    "text": "A model predicts that the population of a certain town was 5,000 in 2008. The model also predicts that each year for the next 5 years, the population $p$ increased by 4% of the previous year's population. Which equation best represents this model, where $x$ is the number of years after 2008, for $x \\leq 5$?",
+    "text": "A model predicts that the population of a certain town was 5,000 in 2008. The model also predicts that each year for the next 5 years, the population $p$ increased by 4\\% of the previous year's population. Which equation best represents this model, where $x$ is the number of years after 2008, for $x \\leq 5$?",
     "choices": [
       {
         "id": "A",
@@ -40170,7 +40170,7 @@
     "rationale": null,
     "id": "e3fe84c7-8083-48b8-863b-841355113ba0_13",
     "testName": "October 2024 International Form B SAT Math Module 2",
-    "text": "For the positive quantities $ h $, $ j $, and $ k $, 35% of $ h $ is equivalent to 49% of $ j $, and $ j $ is equivalent to 45% of $ k $. What percentage of $ k $ is $ h $? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "text": "For the positive quantities $ h $, $ j $, and $ k $, 35\\% of $ h $ is equivalent to 49\\% of $ j $, and $ j $ is equivalent to 45\\% of $ k $. What percentage of $ k $ is $ h $? (Disregard the \\% sign when entering your answer. For example, if your answer is 39\\%, enter 39)",
     "choices": [],
     "correctAnswer": "63",
     "type": "free-response"
@@ -40930,7 +40930,7 @@
     "rationale": null,
     "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_4",
     "testName": "October 2024 International Form C SAT Math Module 2",
-    "text": "A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population $p$ increased by 8% of the previous year's population. Which equation best represents this model, where $a$ is the number of years after 2007, for $x \\leq 5$?",
+    "text": "A model predicts that the population of a certain town was 3,000 in 2007. The model also predicts that each year for the next 5 years, the population $p$ increased by 8\\% of the previous year's population. Which equation best represents this model, where $a$ is the number of years after 2007, for $x \\leq 5$?",
     "choices": [
       {
         "id": "A",
@@ -41166,7 +41166,7 @@
     "rationale": null,
     "id": "d7afa874-519b-4f1b-b45f-1c75ea45613b_13",
     "testName": "October 2024 International Form C SAT Math Module 2",
-    "text": "For the positive quantities $ h $, $ j $, and $ k $, 27% of $ h $ is equivalent to 24% of $ j $, and $ j $ is equivalent to 45% of $ k $. What percentage of $ k $ is $ h $? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "text": "For the positive quantities $ h $, $ j $, and $ k $, 27\\% of $ h $ is equivalent to 24\\% of $ j $, and $ j $ is equivalent to 45\\% of $ k $. What percentage of $ k $ is $ h $? (Disregard the \\% sign when entering your answer. For example, if your answer is 39\\%, enter 39)",
     "choices": [],
     "correctAnswer": "40",
     "type": "free-response"
@@ -42188,7 +42188,7 @@
     "rationale": null,
     "id": "4bcfe385-9d5d-411a-981d-c41179df51f6_14",
     "testName": "October 2024 US Form A SAT Math Module 2",
-    "text": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 6950% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 35% of the number of undergraduate students surveyed. If there were 4,865 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+    "text": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 6950\\% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 35\\% of the number of undergraduate students surveyed. If there were 4,865 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
     "choices": [],
     "correctAnswer": "14100",
     "type": "free-response"
@@ -43145,7 +43145,7 @@
     "rationale": null,
     "id": "b05db4ac-dd48-4b3f-b365-b39330c879e5_12",
     "testName": "October 2024 US Form B SAT Math Module 2",
-    "text": "The positive number $a$ is 3,700% of the number $c$, and $c$ is 20% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
+    "text": "The positive number $a$ is 3,700\\% of the number $c$, and $c$ is 20\\% of the number $b$. If $a - b = wc$, where $w$ is a constant, what is the value of $w$?",
     "choices": [],
     "correctAnswer": "32",
     "type": "free-response"
@@ -43725,7 +43725,7 @@
     "rationale": null,
     "id": "471ccf49-2c32-4c56-9f7e-1788dbe63527_20",
     "testName": "October 2024 US Form C SAT Math Module 1",
-    "text": "In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5% of the number of pheasants per mile of road the previous year. Based on this average, if there were 6.32 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?",
+    "text": "In a certain state, the population of pheasants, a type of bird, is estimated each year by counting the number of pheasants observed along certain roads in the state. On average, each year from 2005 to 2015 the number of pheasants counted per mile of road decreased by 3.5\\% of the number of pheasants per mile of road the previous year. Based on this average, if there were 6.32 pheasants per mile of road in this state in 2005, which of the following best approximates the number of pheasants per mile of road in 2015?",
     "choices": [
       {
         "id": "A",
@@ -43965,7 +43965,7 @@
     "rationale": null,
     "id": "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_8",
     "testName": "October 2024 US Form C SAT Math Module 2",
-    "text": "$0.10x + 0.20y = 0.19(x + y)$\nThe equation gives a volume $x$, in gallons, of a 10% saltwater solution that could be mixed with a volume $y$, in gallons, of a 20% saltwater solution to produce a 19% saltwater solution. According to this equation, what volume, in gallons, of the 20% saltwater solution could be mixed with 50.0 gallons of the 10% saltwater solution to produce a 19% saltwater solution? (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)",
+    "text": "$0.10x + 0.20y = 0.19(x + y)$\nThe equation gives a volume $x$, in gallons, of a 10\\% saltwater solution that could be mixed with a volume $y$, in gallons, of a 20\\% saltwater solution to produce a 19\\% saltwater solution. According to this equation, what volume, in gallons, of the 20\\% saltwater solution could be mixed with 50.0 gallons of the 10\\% saltwater solution to produce a 19\\% saltwater solution? (Assume that the volume of the mixture is the sum of the volumes of the two solutions before they were mixed.)",
     "choices": [],
     "correctAnswer": "450",
     "type": "free-response"
@@ -44738,7 +44738,7 @@
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_21",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "The positive number $a$ is 290% of the number $b$ and $a$ is 90% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "text": "The positive number $a$ is 290\\% of the number $b$ and $a$ is 90\\% of the number $c$. If $c$ is $p$\\% of $b$, which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -44768,7 +44768,7 @@
     "rationale": null,
     "id": "87f513aa-a49e-436a-9a4c-c87bd3101b4c_22",
     "testName": "October 2025 International Form A SAT Math Module 1",
-    "text": "A computer program models the total mass of the population of a certain type of algae after the algae was placed in an environment where it has no natural predators. According to the model, the estimated total mass of this population of algae at the end of every 6-hour period is 129% greater than the estimated total mass of this population of algae at the end of the previous 6-hour period, and the estimated total mass of this population of algae is 613.90 grams after 18 hours. Which equation best represents this model, where $A$ is the estimated total mass, in grams, of the population of algae after $x$ hours?",
+    "text": "A computer program models the total mass of the population of a certain type of algae after the algae was placed in an environment where it has no natural predators. According to the model, the estimated total mass of this population of algae at the end of every 6-hour period is 129\\% greater than the estimated total mass of this population of algae at the end of the previous 6-hour period, and the estimated total mass of this population of algae is 613.90 grams after 18 hours. Which equation best represents this model, where $A$ is the estimated total mass, in grams, of the population of algae after $x$ hours?",
     "choices": [
       {
         "id": "A",
@@ -44862,7 +44862,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "The value of the CD would be approximately 9,474.08 dollars if invested at 2% interest."
+        "text": "The value of the CD would be approximately 9,474.08 dollars if invested at 2\\% interest."
       },
       {
         "id": "B",
@@ -45270,7 +45270,7 @@
     "rationale": null,
     "id": "1dcc132a-2f7c-417a-91cd-108d7cd9c930_22",
     "testName": "October 2025 International Form A SAT Math Module 2",
-    "text": "A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 1,900% of the number of prey at the start of the week, and the number of predators had increased by 150% of the number of predators at the start of the week. The number of prey at the end of the week was p% greater than the number of predators at the end of the week. What is the value of p?",
+    "text": "A researcher investigated two species of mites: a predator and its prey. At the start of a week, there was an equal number of the two species. At the end of the week, the number of prey had increased by 1,900\\% of the number of prey at the start of the week, and the number of predators had increased by 150\\% of the number of predators at the start of the week. The number of prey at the end of the week was p\\% greater than the number of predators at the end of the week. What is the value of p?",
     "choices": [],
     "correctAnswer": "700",
     "type": "free-response"
@@ -45416,7 +45416,7 @@
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_6",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "The positive number $a$ is 240% of the number $b$, and $a$ is 70% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "text": "The positive number $a$ is 240\\% of the number $b$, and $a$ is 70\\% of the number $c$. If $c$ is $p$\\% of $b$, which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -45716,7 +45716,7 @@
     "rationale": null,
     "id": "70b33953-aa61-407d-a25a-a438792bed03_16",
     "testName": "October 2025 International Form B SAT Math Module 1",
-    "text": "$a$ is 270% of the number $b$, and $a$ is 80% of the number $c$. If $c$ is $p$% of $b$, which of the following is closest to the value of $p$?",
+    "text": "$a$ is 270\\% of the number $b$, and $a$ is 80\\% of the number $c$. If $c$ is $p$\\% of $b$, which of the following is closest to the value of $p$?",
     "choices": [
       {
         "id": "A",
@@ -45900,7 +45900,7 @@
     "choices": [
       {
         "id": "A",
-        "text": "The value of the CD would be approximately 9,474.08 dollars if invested at 2% interest."
+        "text": "The value of the CD would be approximately 9,474.08 dollars if invested at 2\\% interest."
       },
       {
         "id": "B",
@@ -46437,7 +46437,7 @@
     "rationale": null,
     "id": "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_13",
     "testName": "October 2025 US Form A SAT Math Module 1",
-    "text": "A model estimates that the initial number of photons in an X-ray beam is 800 when the beam reaches the surface of a certain material. The model also estimates that when the beam passes through this material, the number of photons in the beam decreases by 50% for each 7 millimeters of the material the beam passes through. Which equation represents this model, where I is the estimated number of photons in the beam when the beam reaches a point x millimeters from the surface?",
+    "text": "A model estimates that the initial number of photons in an X-ray beam is 800 when the beam reaches the surface of a certain material. The model also estimates that when the beam passes through this material, the number of photons in the beam decreases by 50\\% for each 7 millimeters of the material the beam passes through. Which equation represents this model, where I is the estimated number of photons in the beam when the beam reaches a point x millimeters from the surface?",
     "choices": [
       {
         "id": "A",
@@ -46763,7 +46763,7 @@
     "rationale": null,
     "id": "1b1871b9-081a-47fd-9218-97b0bbc4a454_5",
     "testName": "October 2025 US Form A SAT Math Module 2",
-    "text": "There are a total of 340 seats in a school auditorium. During an assembly, students occupied 50% of the seats in the auditorium. How many seats did the students occupy during this assembly?",
+    "text": "There are a total of 340 seats in a school auditorium. During an assembly, students occupied 50\\% of the seats in the auditorium. How many seats did the students occupy during this assembly?",
     "choices": [
       {
         "id": "A",
@@ -47278,7 +47278,7 @@
     "rationale": null,
     "id": "8e440f6e-2b73-40f7-a2ba-12f834f2422e_3",
     "testName": "September 2025 International Form A SAT Math Module 1",
-    "text": "A jar has 330 buttons, and 20% of these buttons are green. How many buttons in the jar are green?",
+    "text": "A jar has 330 buttons, and 20\\% of these buttons are green. How many buttons in the jar are green?",
     "choices": [],
     "correctAnswer": "66",
     "type": "free-response"
@@ -48141,23 +48141,23 @@
     "rationale": null,
     "id": "39729166-8e92-42cc-8ed6-76acdb673a3c_20",
     "testName": "September 2025 International Form A SAT Math Module 2",
-    "text": "The value of a toy increased by 193% from the end of 2016 to the end of 2017 and then decreased by 31% from the end of 2017 to the end of 2018. What was the net percentage increase in the value of the toy from the end of 2016 to the end of 2018?",
+    "text": "The value of a toy increased by 193\\% from the end of 2016 to the end of 2017 and then decreased by 31\\% from the end of 2017 to the end of 2018. What was the net percentage increase in the value of the toy from the end of 2016 to the end of 2018?",
     "choices": [
       {
         "id": "A",
-        "text": "102.17%"
+        "text": "102.17\\%"
       },
       {
         "id": "B",
-        "text": "133.17%"
+        "text": "133.17\\%"
       },
       {
         "id": "C",
-        "text": "162.00%"
+        "text": "162.00\\%"
       },
       {
         "id": "D",
-        "text": "283.83%"
+        "text": "283.83\\%"
       }
     ],
     "correctAnswer": "A",
@@ -48772,7 +48772,7 @@
     "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_2",
     "testName": "September 2025 US Form A SAT Math Module 2",
-    "text": "Stefan purchased 500 feet of fencing. He used 80% of this fencing to surround a vegetable garden. How many feet of fencing did Stefan use to surround the vegetable garden?",
+    "text": "Stefan purchased 500 feet of fencing. He used 80\\% of this fencing to surround a vegetable garden. How many feet of fencing did Stefan use to surround the vegetable garden?",
     "choices": [
       {
         "id": "A",
@@ -48995,7 +48995,7 @@
     "rationale": null,
     "id": "05468350-9fef-44ab-b9cb-893b50a7cadd_10",
     "testName": "September 2025 US Form A SAT Math Module 2",
-    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 27% every 14.07 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
+    "text": "A researcher observes a sample of a nuclide. An exponential model estimates that the mass, in grams, of the sample decreases by 27\\% every 14.07 minutes. Which of the following equations could represent this model, where $M$ is the estimated mass, in grams, of the sample $t$ minutes after the researcher began observing the sample?",
     "choices": [
       {
         "id": "A",
@@ -50085,7 +50085,7 @@
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_14",
     "testName": "September 2025 US Form B SAT Math Module 2",
-    "text": "For the positive quantities $ h $, $ j $, and $ k $, 42% of $ h $ is equivalent to 84% of $ j $, and $ j $ is equivalent to 64% of $ k $. What percentage of $ k $ is $ h $? (Disregard the % sign when entering your answer. For example, if your answer is 39%, enter 39)",
+    "text": "For the positive quantities $ h $, $ j $, and $ k $, 42\\% of $ h $ is equivalent to 84\\% of $ j $, and $ j $ is equivalent to 64\\% of $ k $. What percentage of $ k $ is $ h $? (Disregard the \\% sign when entering your answer. For example, if your answer is 39\\%, enter 39)",
     "choices": [],
     "correctAnswer": "128",
     "type": "free-response"
@@ -50158,7 +50158,7 @@
     "rationale": null,
     "id": "94868488-f2b6-48b0-9e22-a683ccbda0e0_17",
     "testName": "September 2025 US Form B SAT Math Module 2",
-    "text": "A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Bennett opened one of these accounts with an original account balance of \\$900 and did not make any other deposits or withdrawals. 4 months after Bennett opened the account, the balance had increased by 0.6% of the original balance. 6 months after Bennett opened the account, the balance had increased by an additional 0.1% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.1% of the balance 2 months before. Which of the following equations could represent the account balance $B(x)$, in dollars, $x$ months after the account was opened, where $x \\geq 4$?",
+    "text": "A certain investment account offers a special interest rate for the first 4 months the account is open followed by a lower interest rate for the remainder of the time the account is open. Bennett opened one of these accounts with an original account balance of \\$900 and did not make any other deposits or withdrawals. 4 months after Bennett opened the account, the balance had increased by 0.6\\% of the original balance. 6 months after Bennett opened the account, the balance had increased by an additional 0.1\\% of the balance at the end of the first 4 months. Every 2 months after the first 6 months, the balance had increased by an additional 0.1\\% of the balance 2 months before. Which of the following equations could represent the account balance $B(x)$, in dollars, $x$ months after the account was opened, where $x \\geq 4$?",
     "choices": [
       {
         "id": "A",
