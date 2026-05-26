@@ -6,7 +6,7 @@
     {
       "title": "Calculate the sum of mass times frequency",
       "formula": "$$\\text{mean} = \\frac{\\sum (\\text{mass} \\times \\text{frequency})}{\\text{total count}}$$",
-      "content": "For a frequency table, find the sum of all individual masses by multiplying each mass by how many objects have that mass: $$10 \\times 12 = 120$$ $$20 \\times 6 = 120$$ $$30 \\times 8 = 240$$ $$40 \\times 9 = 360$$ Summing these products: $120 + 120 + 240 + 360 = 840$"
+      "content": "The frequency table shows masses 10, 20, 30, 40 grams with frequencies 12, 6, 8, 9 respectively. For a frequency table, find the sum of all individual masses by multiplying each mass by how many objects have that mass: $$10 \\times 12 = 120$$ $$20 \\times 6 = 120$$ $$30 \\times 8 = 240$$ $$40 \\times 9 = 360$$ Summing these products: $120 + 120 + 240 + 360 = 840$"
     },
     {
       "title": "Divide by total count to find the mean",

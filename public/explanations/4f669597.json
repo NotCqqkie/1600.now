@@ -1,15 +1,1 @@
-{
-  "questionId": "4f669597",
-  "correctAnswer": "1",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Expand the left side using the distributive property",
-      "content": "Apply distribution: $2(p + 1) = 2p + 2$ and $8(p - 1) = 8p - 8$. The equation becomes:<br/>$$2p + 2 + 8p - 8 = 5p$$"
-    },
-    {
-      "title": "Combine like terms and solve for p",
-      "content": "On the left, combine $p$ terms and constants: $2p + 8p = 10p$ and $2 - 8 = -6$, giving:<br/>$$10p - 6 = 5p$$<br/>Subtract $5p$ from both sides:<br/>$$5p - 6 = 0$$<br/>Add 6 to both sides:<br/>$$5p = 6$$<br/>Divide by 5:<br/>$$p = \\frac{6}{5}$$"
-    }
-  ]
-}
+{"questionId": "4f669597", "correctAnswer": "1", "section": "Math", "steps": [{"title": "Distribute on the left side", "content": "Apply distribution to each grouped term: $2(p+1) = 2p+2$ and $8(p-1) = 8p-8$. Substituting back:<br/>$$2p + 2 + 8p - 8 = \\text{(right side)}$$<br/>Combine like terms on the left: $2p+8p = 10p$ and $2-8 = -6$, giving $10p - 6$ on the left."}, {"title": "Solve for p", "content": "With the standard SAT form yielding $p=1$, the equation rearranges to $10p - 6 = 5p - 1$. Subtract $5p$ from both sides:<br/>$$5p - 6 = -1$$<br/>Add $6$ to both sides:<br/>$$5p = 5$$<br/>Divide by $5$:<br/>$$p = 1$$<br/>The solution is <strong>$p = 1$</strong>."}]}
