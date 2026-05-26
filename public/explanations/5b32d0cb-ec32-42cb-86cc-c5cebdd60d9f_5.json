@@ -4,7 +4,7 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test the choices in each equation",
+      "title": "Solve the system algebraically",
       "content": "We need $y=0$ and $y=8(x^2-36)$. Setting $0=8(x^2-36)$ gives $x^2=36$, so $x=\\pm 6$. The pair $(6,0)$ satisfies both."
     },
     {

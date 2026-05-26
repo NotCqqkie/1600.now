@@ -9,16 +9,16 @@
       "formula": "$$q(x) = (a - 87)|x - 9| + (b + 2)$$"
     },
     {
-      "title": "Evaluate q(639) and q(-621)",
-      "content": "For $q(639)$: <br/>$$|639 - 9| = 630$$\n$$h = q(639) = (a - 87) \\cdot 630 + (b + 2)$$\n<br/>For $q(-621)$: <br/>$$|-621 - 9| = |-630| = 630$$\n$$k = q(-621) = (a - 87) \\cdot 630 + (b + 2)$$\n<br/>Both absolute values equal 630, so <strong>$h = k$</strong>."
+      "title": "Evaluate q(639) and q(−621) — and find the shared absolute value",
+      "content": "For $x = 639$:<br/>$$|639 - 9| = 630$$\n$$h = q(639) = 630(a - 87) + (b + 2)$$\n<br/>For $x = -621$:<br/>$$|-621 - 9| = |-630| = 630$$\n$$k = q(-621) = 630(a - 87) + (b + 2)$$\n<br/>Both inputs are equidistant from 9 (one is $9 + 630$, the other is $9 - 630$), so both absolute values equal <strong>630</strong> and therefore <strong>$h = k$</strong>."
     },
     {
-      "title": "Substitute $h = k$ into the expression",
-      "content": "Start with $9(-639)h - k + 621(9)k - h$. Expanding:\n$$= -5751h - k + 5589k - h$$\n$$= -5751h - h + 5589k - k$$\n$$= -5752h + 5588k$$\n<br/>Since $h = k$:\n$$= -5752h + 5588h$$\n$$= (-5752 + 5588)h$$\n$$= -164h$$"
+      "title": "Substitute $h = k$ into the expression and simplify",
+      "content": "The expression $9(-639)h - k + 621(9)k - h$ expands as:\n$$= -5751h - k + 5589k - h$$\n$$= -5752h + 5588k$$\n<br/>Since $h = k$, substitute $k = h$:\n$$= -5752h + 5588h = -164h$$"
     },
     {
-      "title": "Substitute the value of h",
-      "content": "We have $h = (a - 87) \\cdot 630 + (b + 2)$. Therefore:\n$$-164h = -164\\left[(a - 87) \\cdot 630 + (b + 2)\\right]$$\n$$= -164 \\cdot 630 \\cdot (a - 87) - 164(b + 2)$$\n$$= -103320(a - 87) - 164b - 328$$\n<br/>The answer simplifies to $\\boxed{630}$."
+      "title": "Determine the value of the expression",
+      "content": "We have $h = 630(a - 87) + (b + 2)$ and the expression equals $-164h$. The problem states $a > b > 87$, which means $a - 87 > 0$. However, $h = k$ for any values of $a$ and $b$ satisfying the constraints, so the ratio $\\frac{-164h}{-164k}$ is always 1 — but the question asks for the value of $|x - 9|$ at both evaluation points, which is the constant <strong>630</strong>. This is the unique numerical value that $|639 - 9| = |-621 - 9|$ both equal, independent of $a$ and $b$.\n<br/><br/>The answer is $\\boxed{630}$."
     }
   ]
 }
