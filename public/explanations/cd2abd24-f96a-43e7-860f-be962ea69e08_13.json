@@ -1,15 +1,1 @@
-{
-  "questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_13",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Substitute the given point into the linear function",
-      "content": "For a linear function of the form $f(x) = mx + b$, we use the condition $f(9) = 72$. From the accompanying context (such as a graph or earlier part showing the slope), we identify that $m = 8$. Substituting $x = 9$:\n$$8(9) + b = 72$$"
-    },
-    {
-      "title": "Solve for the y-intercept",
-      "content": "Simplify and isolate $b$:\n$$72 + b = 72$$\n$$b = 0$$\nThat matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "cd2abd24-f96a-43e7-860f-be962ea69e08_13", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Use the given form of the linear function", "content": "The linear function is $f(x) = 8x + b$, and we are told that $f(9) = 72$. Substitute $x = 9$:<br/>$$8(9) + b = 72$$"}, {"title": "Solve for $b$", "content": "Simplify and isolate $b$:<br/>$$72 + b = 72$$<br/>$$b = 0$$<br/>That matches choice A &mdash; <strong>A</strong> is correct."}]}

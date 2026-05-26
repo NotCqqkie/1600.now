@@ -1,15 +1,1 @@
-{
-  "questionId": "87a75825-ef1b-4b13-8fde-816390546062_7",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Treat $x+6$ as a single variable",
-      "content": "Let $u = x+6$. Subtract $6(x+6)$: $(x+6)=68$."
-    },
-    {
-      "title": "Compute the target value",
-      "content": "So $x+6 = 68$. That matches choice <strong>C</strong> — <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "87a75825-ef1b-4b13-8fde-816390546062_7", "correctAnswer": "C", "section": "Math", "steps": [{"title": "Treat $x+6$ as a single variable", "content": "Let $u = x+6$. The equation $7(x+6) = 6(x+6) + 68$ becomes $7u = 6u + 68$."}, {"title": "Solve for $u$", "content": "Subtract $6u$ from both sides: $7u - 6u = 68$, so $u = 68$. Since $u = x+6$, that gives $x+6 = 68$. That matches choice <strong>C</strong> &mdash; <strong>C</strong> is correct."}]}
