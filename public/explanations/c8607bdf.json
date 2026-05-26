@@ -1,15 +1,1 @@
-{
-  "questionId": "c8607bdf",
-  "correctAnswer": "A",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the subject and its number",
-      "content": "The subject is \u201cAlexander's use of 'we'\u201d \u2014 a singular noun phrase where \u201cuse\u201d is the head noun."
-    },
-    {
-      "title": "Apply subject-verb agreement",
-      "content": "A singular subject requires a singular verb in the present tense, and choice A (evokes) is the only singular form. Choices B, C, and D violate subject-verb agreement by using plural forms. That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "c8607bdf", "correctAnswer": "A", "section": "Reading and Writing", "steps": [{"title": "Identify the subject and its number", "content": "The subject is &quot;Alexander's use of 'we'&quot; &mdash; the head noun is &quot;use&quot; (singular). The intervening prepositional phrase &quot;of 'we'&quot; does not change the subject's number, so the verb must be singular."}, {"title": "Apply subject-verb agreement and eliminate the others", "content": "Subject-verb agreement (rule: a singular subject takes a singular verb) requires the singular present-tense form, which is &quot;evokes.&quot;<br/><ul><li><strong>Choice A &mdash; 'evokes'</strong>: singular present-tense verb agreeing with the singular head noun &quot;use.&quot; &#10003;</li><li><strong>Choice B &mdash; 'are evoking'</strong>: plural present progressive; disagrees with the singular subject. &#10007;</li><li><strong>Choice C &mdash; 'have evoked'</strong>: plural present perfect; the singular form would be &quot;has evoked,&quot; so this also fails agreement. &#10007;</li><li><strong>Choice D &mdash; 'evoke'</strong>: plural present tense; disagrees with the singular subject. &#10007;</li></ul>"}]}

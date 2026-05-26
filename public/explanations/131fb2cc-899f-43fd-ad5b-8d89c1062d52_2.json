@@ -1,11 +1,1 @@
-{
-  "questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_2",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Convert decimal 0.19 to a percent",
-      "content": "To find what percent $0.19x$ is of $x$, set up the ratio: $$\\frac{0.19x}{x} \\times 100\\%$$ <br/> The $x$ cancels out: $$0.19 \\times 100\\% = 19\\%$$ <br/> That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "131fb2cc-899f-43fd-ad5b-8d89c1062d52_2", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Set up the ratio", "content": "&quot;What percent of $x$&quot; means we compare $0.19x$ to $x$ as a fraction, then multiply by $100\\%$:<br/>$$\\frac{0.19x}{x} \\times 100\\%$$"}, {"title": "Simplify and compute", "content": "The $x$ cancels in the numerator and denominator:<br/>$$0.19 \\times 100\\% = 19\\%$$<br/>So $0.19x$ is $19\\%$ of $x$, which matches <strong>A</strong>."}]}

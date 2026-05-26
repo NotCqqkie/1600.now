@@ -13,7 +13,7 @@
     },
     {
       "title": "Combine fractions and solve for q",
-      "content": "Combine the three fractions on the right using common denominator $prs$: $$\\frac{1}{q} = \\frac{pr + ps + rs}{prs}$$ Take the reciprocal of both sides to solve for $q$: $$q = \\frac{prs}{pr + ps + rs}$$ That matches choice A \u2014 <strong>A</strong> is correct."
+      "content": "Combine the three fractions on the right using common denominator $prs$: $$\\frac{1}{q} = \\frac{pr + ps + rs}{prs}$$ Take the reciprocal of both sides to solve for $q$: $$q = \\frac{prs}{pr + ps + rs}$$"
     }
   ]
 }

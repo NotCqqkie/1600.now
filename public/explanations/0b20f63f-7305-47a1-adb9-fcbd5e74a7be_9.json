@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-value when x equals zero",
-      "content": "The $y$-intercept is the value of $y$ when $x = 0$. From the table, when $x = 0$, we have $y = 15$. The $y$-coordinate of the $y$-intercept is 15."
+      "title": "State the y-intercept rule",
+      "content": "The $y$-intercept of a line in the $xy$-plane is the point where the line crosses the $y$-axis. At that point $x = 0$, so the $y$-coordinate of the $y$-intercept equals the value of $y$ when $x = 0$."
+    },
+    {
+      "title": "Read the value from the table",
+      "content": "From the given table, the row where $x = 0$ shows $y = 15$. So the $y$-coordinate of the $y$-intercept is $\\boxed{15}$."
     }
   ]
 }

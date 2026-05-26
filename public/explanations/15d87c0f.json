@@ -1,15 +1,1 @@
-{
-  "questionId": "15d87c0f",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Read the bar heights",
-      "content": "From the bar graph, the bar for chess reaches the 20\u2011student mark and the bar for drama reaches the 30\u2011student mark."
-    },
-    {
-      "title": "Compute the difference",
-      "content": "$$30-20=10$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "15d87c0f", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Read the bar heights from the figure", "content": "From the bar graph, read the chess bar height and the drama bar height directly off the y-axis (in number of students). The reading shows chess at roughly $20$ students and drama at roughly $30$ students."}, {"title": "Compute the difference", "content": "Subtract chess from drama: $$30-20=10$$ So drama has $10$ more students than chess, which matches choice A."}]}

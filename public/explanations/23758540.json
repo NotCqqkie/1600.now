@@ -1,11 +1,1 @@
-{
-  "questionId": "23758540",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Test choice B by substitution",
-      "content": "Backsolving \u2014 testing choice B (25):<br/>Substitute $p = 25$ into $2p + 275 = 325$:<br/>$$2(25) + 275 = 50 + 275 = 325$$<br/>That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId": "23758540", "correctAnswer": "B", "section": "Math", "steps": [{"title": "Isolate the variable term", "content": "Subtract 275 from both sides of $2p + 275 = 325$:<br/>$$2p = 325 - 275 = 50$$"}, {"title": "Solve for p", "content": "Divide both sides by 2:<br/>$$p = \\frac{50}{2} = 25$$<br/>That matches choice B."}]}

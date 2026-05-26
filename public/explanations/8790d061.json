@@ -1,15 +1,1 @@
-{
-  "questionId": "8790d061",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the appositive",
-      "content": "The phrase \u201ca construction system known as ______\u201d is an appositive that renames \u201cThese temporary supports.\u201d As a nonrestrictive appositive, it must be set off by commas on both sides."
-    },
-    {
-      "title": "Apply the comma rule",
-      "content": "Choice C places a comma before and after falsework, correctly punctuating the appositive. The other three either omit needed punctuation or use a semicolon or colon, which breaks the appositive structure. That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "8790d061", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the structure", "content": "The phrase &quot;a construction system known as ______&quot; is a nonrestrictive appositive that renames &quot;These temporary supports.&quot; The rule: a nonrestrictive appositive inserted into the middle of a sentence must be set off by paired commas (one before, one after)."}, {"title": "Evaluate each choice", "content": "<ul><li><strong>A (falsework;)</strong> &mdash; wrong. A semicolon joins two independent clauses; it cannot close a nonrestrictive appositive.</li><li><strong>B (falsework)</strong> &mdash; wrong. Omitting punctuation leaves the appositive unclosed, so the comma that opened it has no partner.</li><li><strong>C (falsework,)</strong> &mdash; correct. The comma after &quot;falsework&quot; pairs with the comma after &quot;supports,&quot; properly enclosing the nonrestrictive appositive.</li><li><strong>D (falsework:)</strong> &mdash; wrong. A colon introduces a list or explanation that follows an independent clause; it cannot close an appositive interrupting a sentence.</li></ul>That matches choice C."}]}

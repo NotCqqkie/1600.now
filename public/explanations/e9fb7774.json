@@ -1,15 +1,1 @@
-{
-  "questionId": "e9fb7774",
-  "correctAnswer": "A",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Translate the question to a formula",
-      "content": "To find what percentage of 300 is 75, we set up: $$percentage = \\frac{75}{300} \\times 100$$"
-    },
-    {
-      "title": "Simplify the fraction and compute",
-      "content": "Simplify $\\frac{75}{300}$ by dividing both by 75 to get $\\frac{1}{4}$. Then: $$\\frac{1}{4} \\times 100 = 25\\%$$ That matches choice A \u2014 <strong>A</strong> is correct."
-    }
-  ]
-}
+{"questionId": "e9fb7774", "correctAnswer": "A", "section": "Math", "steps": [{"title": "Translate the question to a formula", "content": "To find what percentage of 300 is 75, we set up: $$\\text{percentage} = \\frac{75}{300} \\times 100$$"}, {"title": "Simplify the fraction and compute", "content": "Simplify $\\frac{75}{300}$ by dividing both by 75 to get $\\frac{1}{4}$. Then: $$\\frac{1}{4} \\times 100 = 25\\%$$"}]}

@@ -1,15 +1,1 @@
-{
-  "questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_10",
-  "correctAnswer": "D",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Locate x = 5 on the horizontal axis",
-      "content": "On the graph, find $x = 5$ by counting 5 units to the right of the origin along the horizontal axis."
-    },
-    {
-      "title": "Read the y-value where the curve intersects x = 5",
-      "content": "At $x = 5$, trace vertically upward from the x-axis until you reach the curve. The curve passes through the point where $y = 0$ on the vertical axis. Therefore, $f(5) = 0$, which matches choice D \u2014 <strong>D</strong> is correct."
-    }
-  ]
-}
+{"questionId": "1fc2cc40-1a64-44a1-8ebe-eca45e868415_10", "correctAnswer": "D", "section": "Math", "steps": [{"title": "Locate x = 5 on the horizontal axis", "content": "On the graph, find $x = 5$ by counting 5 units to the right of the origin along the horizontal axis."}, {"title": "Read the y-value where the curve intersects x = 5", "content": "From the graph, at $x = 5$ the curve crosses the x-axis, so $y = 0$. Therefore $f(5) = 0$."}, {"title": "Check each choice against the graph", "content": "<ul><li>A) $f(5) = 2$ &mdash; the curve is not at $y=2$ when $x=5$.</li><li>B) $f(5) = 5$ &mdash; the curve is not at $y=5$ when $x=5$.</li><li>C) $f(5) = -3$ &mdash; the curve is not at $y=-3$ when $x=5$.</li><li>D) $f(5) = 0$ &mdash; matches the graph. <strong>D</strong> is correct.</li></ul>"}]}

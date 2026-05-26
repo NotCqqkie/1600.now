@@ -1,1 +1,15 @@
-{"questionId":"dc67c130","correctAnswer":"D","section":"Math","steps":[{"title":"Factor the expression","content":"Pull out the common factor $4t^2s$ to match the form of choice D:$$64t^2s^3-56t^3s=4t^2s(16s^2-14t)$$"},{"title":"Match to the answer choices","content":"The factored form is $4t^2s(16s^2-14t)$. That matches choice <strong>D</strong> — <strong>D</strong> is correct."}]}
+{
+  "questionId": "dc67c130",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "Find the GCF of $64t^2s^3$ and $56t^3s$. The numerical GCF of 64 and 56 is 8; the variable GCF is $t^2s$ (lowest power of $t$ is 2, lowest power of $s$ is 1). The combined GCF is $8t^2s$, but the answer choices factor only $4t^2s$ or $4ts$ out, so pull out $4t^2s$:<br/>$$64t^2s^3 - 56t^3s = 4t^2s(16s^2 - 14t)$$"
+    },
+    {
+      "title": "Test each choice by distributing",
+      "content": "<ul><li><strong>A.</strong> $4ts(16s^2 - 14ts) = 64ts^3 - 56t^2s^2$ &mdash; wrong exponents on $t$.</li><li><strong>B.</strong> $4ts(16t^2s^2 - 14t) = 64t^3s^3 - 56t^2s$ &mdash; wrong exponents.</li><li><strong>C.</strong> $4t^2s(16ts - 14s) = 64t^3s^2 - 56t^2s^2$ &mdash; wrong exponents on $s$.</li><li><strong>D.</strong> $4t^2s(16s^2 - 14t) = 64t^2s^3 - 56t^3s$ &mdash; matches the original.</li></ul>That matches choice <strong>D</strong> &mdash; <strong>D</strong> is correct."
+    }
+  ]
+}
