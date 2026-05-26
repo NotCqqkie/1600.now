@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply area formula and constraint",
-      "content": "The area of triangle ABC with base $AC = 12$ and height $BC = y$ is:<br/>$$\\frac{1}{2} \\cdot 12 \\cdot y = 6y$$<br/>The constraint states $48 \\leq \\text{Area} \\leq 60$, so:<br/>$$48 \\leq 6y \\leq 60$$<br/>Dividing all parts by 6:<br/>$$8 \\leq y \\leq 10$$<br/>Since $y$ is an integer, we have $y \\in \\{8, 9, 10\\}$."
+      "title": "Find the integer values of y",
+      "content": "From the figure, triangle $ABC$ has base $AC = 12$ on the horizontal axis and a vertical height $BC = y$, so its area is:<br/>$$\\text{Area} = \\frac{1}{2} \\cdot 12 \\cdot y = 6y$$<br/>The constraint $48 \\leq 6y \\leq 60$ gives $8 \\leq y \\leq 10$. Since $y$ is an integer, $y \\in \\{8, 9, 10\\}$."
     },
     {
-      "title": "Express x in terms of y using the line equation",
-      "content": "Line $AB$ connects $A(0, 0)$ to $B(12, y)$. Its equation is:<br/>$$Y = \\frac{y}{12}x$$<br/>At the point where $x = 5$ (the distance from $A$ on the base), the point on line $AB$ has $y$-coordinate:<br/>$$Y = \\frac{y}{12} \\cdot 5 = \\frac{5y}{12}$$<br/>The perpendicular from the base up to this point has height $x = \\frac{5y}{12}$."
+      "title": "Express x in terms of y",
+      "content": "From the figure, $x$ is the height of an inner segment at a horizontal distance of $5$ from $A$ along the base, drawn up to line $AB$. Line $AB$ runs from $A(0, 0)$ to $B(12, y)$, so its slope is $\\frac{y}{12}$ and its equation is:<br/>$$Y = \\frac{y}{12} \\cdot X$$<br/>At $X = 5$, the height on line $AB$ is:<br/>$$x = \\frac{5y}{12}$$"
     },
     {
-      "title": "Calculate x for each valid integer y",
-      "content": "Using $x = \\frac{5y}{12}$ with each possible integer value of $y$:<ul><li>If $y = 8$: $x = \\frac{5(8)}{12} = \\frac{40}{12} = \\frac{10}{3}$</li><li>If $y = 9$: $x = \\frac{5(9)}{12} = \\frac{45}{12} = \\frac{15}{4}$</li><li>If $y = 10$: $x = \\frac{5(10)}{12} = \\frac{50}{12} = \\frac{25}{6}$</li></ul>Any one of these three values is a correct answer to the problem.<br/><br/>Equivalent forms accepted: <strong>either the fraction 10 over 3</strong>, <strong>the fraction 15 over 4</strong>, <strong>or the fraction 25 over 6</strong>."
+      "title": "Compute x for each valid y",
+      "content": "Substitute each integer value of $y$ into $x = \\frac{5y}{12}$:<ul><li>$y = 8$: $x = \\frac{40}{12} = \\frac{10}{3} \\approx 3.33$</li><li>$y = 9$: $x = \\frac{45}{12} = \\frac{15}{4} = 3.75$</li><li>$y = 10$: $x = \\frac{50}{12} = \\frac{25}{6} \\approx 4.17$</li></ul>Any one of $\\frac{10}{3}$, $\\frac{15}{4}$, or $\\frac{25}{6}$ is a valid answer."
     }
   ]
 }

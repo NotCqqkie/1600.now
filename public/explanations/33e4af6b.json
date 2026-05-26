@@ -1,15 +1,1 @@
-{
-  "questionId": "33e4af6b",
-  "correctAnswer": "B",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Identify the y-intercept location",
-      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis. This occurs when $x = 0$. We need to find the <em>y</em>-coordinate at that location."
-    },
-    {
-      "title": "Read the y-value from the graph at x = 0",
-      "content": "Looking at the graph where the line intersects the <em>y</em>-axis (the vertical line at $x = 0$), the line crosses at $y = -4$. Therefore, the <em>y</em>-intercept is the point $(0, -4)$. That matches choice B \u2014 <strong>B</strong> is correct."
-    }
-  ]
-}
+{"questionId":"33e4af6b","correctAnswer":"B","section":"Math","steps":[{"title":"Locate the y-intercept","content":"The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis, which occurs at $x = 0$. To find it, trace the vertical line $x = 0$ until it meets the graph and read off the <em>y</em>-coordinate."},{"title":"Read the value from the figure","content":"From the figure, the graph passes through $(0, -4)$ on the <em>y</em>-axis. That matches choice <strong>B</strong> &mdash; <strong>B</strong> is correct."}]}

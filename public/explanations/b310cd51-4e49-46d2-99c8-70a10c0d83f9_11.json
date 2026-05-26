@@ -1,15 +1,1 @@
-{
-  "questionId": "b310cd51-4e49-46d2-99c8-70a10c0d83f9_11",
-  "correctAnswer": "3",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Treat $5x-4$ as a single variable",
-      "content": "Let $u = 5x-4$. Combine: left becomes $9(4-5x)+9$ and right is $8(4-5x)+6$, giving $(4-5x)=-3$."
-    },
-    {
-      "title": "Compute the target value",
-      "content": "So $5x-4 = -(4-5x) = 3$. The answer is <strong>3</strong>."
-    }
-  ]
-}
+{"questionId":"b310cd51-4e49-46d2-99c8-70a10c0d83f9_11","correctAnswer":"3","section":"Math","steps":[{"title":"Combine like terms in $(4-5x)$","content":"Both sides contain copies of $(4-5x)$. On the left, $2(4-5x)+7(4-5x) = 9(4-5x)$, so the equation becomes $9(4-5x)+9 = 8(4-5x)+6$."},{"title":"Isolate $(4-5x)$","content":"Subtract $8(4-5x)$ from both sides: $(4-5x)+9 = 6$. Subtract $9$ from both sides: $(4-5x) = -3$."},{"title":"Convert to the target expression","content":"Since $5x-4 = -(4-5x)$, we have $5x-4 = -(-3) = 3$. The answer is <strong>3</strong>."}]}
