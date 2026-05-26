@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the key signal",
-      "content": "The decisive clue is the phrase <em>\"earliest example of spectroscopy data included in the analysis,\"</em> which asks for the oldest year listed in the table where spectroscopy was used."
+      "content": "The text asks for the earliest example of <em>spectroscopy</em> data in the table. Two instruments collected spectroscopy data: VISIR at the European Southern Observatory (2006) and TEXES at the Gemini Observatory (2007 and 2019). Two other instruments—T-ReCS (Gemini) and LWS (W.M. Keck)—collected infrared <em>imaging</em> data, not spectroscopy, so they are irrelevant regardless of their dates."
     },
     {
       "title": "Match the meaning",
-      "content": "Choice C corresponds to the earliest year listed for spectroscopy data in the table. The other three choices either reference later dates or imaging techniques instead of spectroscopy. That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Among the spectroscopy sources, VISIR at the European Southern Observatory obtained data in 2006, one year before TEXES's earliest observation (2007). Choice A (TEXES, 2007) is a later spectroscopy entry. Choice B (T-ReCS, 2007) collected imaging, not spectroscopy. Choice D (LWS, 2003) is the earliest entry overall but also collected imaging, not spectroscopy. Therefore, VISIR at the European Southern Observatory (2006) is the earliest spectroscopy source. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

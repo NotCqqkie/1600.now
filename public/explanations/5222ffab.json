@@ -1,1 +1,15 @@
-{"questionId": "5222ffab", "correctAnswer": "D", "section": "Reading and Writing", "steps": [{"title": "Recognize the key finding", "content": "The notes state <strong>“They found that certain fibers allow the brain to toggle from one method of processing smells to another”</strong> and then specify both methods: capturing information at a given moment, and tracking changes over time.<br/><br/>An effective summary must present this discovery—the toggle mechanism and both processing approaches."}, {"title": "Match the finding to the choices", "content": "Choice D directly reports both methods of smell processing and the toggle between them—exactly what the study found.<br/><br/>Choices A, B, and <ul><li>C fail to summarize the findings: A foregrounds the methodology instead</li><li>B describes only one method</li><li>C describes the research goal rather than what was discovered</li></ul>.<br/><br/>That matches choice D — <strong>D</strong> is correct."}]}
+{
+  "questionId": "5222ffab",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the key finding",
+      "content": "The notes state <strong>“They found that certain fibers allow the brain to toggle from one method of processing smells to another”</strong> and then specify both methods: capturing information at a given moment, and tracking changes over time.<br/><br/>An effective summary must present this discovery—the toggle mechanism and both processing approaches."
+    },
+    {
+      "title": "Match the finding to the choices",
+      "content": "Choice D directly reports both methods of smell processing and the toggle between them—exactly what the study found.<br/><br/>Choices A, B, and C fail to summarize the findings:<ul><li>A foregrounds the methodology instead</li><li>B describes only one method</li><li>C describes the research goal rather than what was discovered</li></ul>That matches choice D — <strong>D</strong> is correct."
+    }
+  ]
+}

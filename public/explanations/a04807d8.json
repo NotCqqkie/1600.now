@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question requires",
-      "content": "The question asks for the year when both museums combined had the highest number of visits\u2014meaning the year with the greatest total across both institutions."
+      "content": "The question asks for the year when <em>both</em> museums individually had their highest number of visits—meaning the same year must be each museum’s own peak, not just the year with the highest combined total."
     },
     {
-      "title": "Calculate combined totals and find the maximum",
-      "content": "Adding the visits for each year:<br/>2016: 1.1 + 0.73 = 1.83M<br/>2017: 1.2 + 2.4 = 3.6M<br/>2018: 1.1 + 1.9 = 3.0M<br/>2019: 0.96 + 2.0 = 2.96M<br/><br/>The year 2017 shows the highest combined total at 3.6 million visits. The other years all show lower combined totals. That matches choice D \u2014 <strong>D</strong> is correct."
+      "title": "Find each museum's peak year individually",
+      "content": "National Museum of the American Indian visits by year:<br/>2016: 1.1M &nbsp;|&nbsp; 2017: <strong>1.2M</strong> &nbsp;|&nbsp; 2018: 1.1M &nbsp;|&nbsp; 2019: 0.96M<br/>Peak: <strong>2017</strong><br/><br/>National Museum of African American History and Culture visits by year:<br/>2016: 0.73M &nbsp;|&nbsp; 2017: <strong>2.4M</strong> &nbsp;|&nbsp; 2018: 1.9M &nbsp;|&nbsp; 2019: 2.0M<br/>Peak: <strong>2017</strong><br/><br/>Both museums individually reached their highest visit counts in 2017. That matches choice D — <strong>D</strong> is correct."
     }
   ]
 }

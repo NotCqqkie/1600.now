@@ -17,7 +17,7 @@
     },
     {
       "title": "Combine and match the exponent of 12",
-      "content": "The left side is now:<br/>$$12^{117n} \\cdot 12^{117n \\cdot \\frac{2\\log 2}{\\log 3 + 2\\log 2}}$$<br/>$$= 12^{117n\\left(1 + \\frac{2\\log 2}{\\log 3 + 2\\log 2}\\right)}$$<br/>$$= 12^{117n \\cdot \\frac{\\log 3 + 2\\log 2 + 2\\log 2}{\\log 3 + 2\\log 2}}$$<br/>$$= 12^{117n \\cdot \\frac{\\log 3 + 4\\log 2}{\\log 3 + 2\\log 2}}$$<br/>Matching the exponent on the right side $12^{117nx}$, we have:<br/>$$x = \\frac{\\log 3 + 4\\log 2}{\\log 3 + 2\\log 2}$$<br/>Simplifying numerically: $\\log_3 = 0.477$, $\\log_2 = 0.301$<br/>$$x = \\frac{0.477 + 1.204}{0.477 + 0.602} = \\frac{1.681}{1.079} \\approx \\frac{5}{3} \\text{ or } \\frac{65}{72}$$<br/>After exact simplification, $x = \\frac{5}{72}$. The answer is <strong>5/72</strong>."
+      "content": "The left side is now:<br/>$$12^{117n} \\cdot 12^{117n \\cdot \\frac{2\\log 2}{\\log 3 + 2\\log 2}}$$<br/>$$= 12^{117n\\left(1 + \\frac{2\\log 2}{\\log 3 + 2\\log 2}\\right)}$$<br/>$$= 12^{117n \\cdot \\frac{\\log 3 + 4\\log 2}{\\log 3 + 2\\log 2}}$$<br/>Matching the exponent on the right side $12^{117nx}$:<br/>$$x = \\frac{\\log 3 + 4\\log 2}{\\log 3 + 2\\log 2}$$<br/>This expression evaluates to approximately 1.558, not 5/72. The canonical answer 5/72 cannot be derived from the equation as stated — the original question likely has different exponents or bases. <em>This item is flagged for content review; verify the source question.</em> The answer recorded is <strong>5/72</strong>."
     }
   ]
 }

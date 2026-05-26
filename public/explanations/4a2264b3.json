@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the smallest percent on the line graph",
-      "content": "Reading the line graph, the percent for each model year is: 2012 = 18%, 2013 = 12%, 2014 = 5%, 2015 = 9%. The smallest value is 5% for 2014.<br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "title": "Find the lowest data point among the answer choices",
+      "content": "The answer choices are 2012, 2013, 2014, and 2015 — so compare only those four years on the line graph.<br/><br/>Among those four years, the data point at <strong>2014</strong> sits at the lowest position on the graph — it is the chart's overall minimum, visibly lower than the points for 2012, 2013, and 2015.<br/><br/>Therefore, 2014 has the smallest percent. That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

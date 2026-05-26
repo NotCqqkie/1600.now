@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $x + 7$ as a single variable",
-      "content": "Let $u = x + 7$. Subtract $7(x+7)$: $(x+7)=68$."
+      "title": "Isolate $x + 7$",
+      "content": "Starting from $8(x+7) = 7(x+7) + 68$, subtract $7(x+7)$ from both sides: $$8(x+7) - 7(x+7) = 68$$ $$(x+7) = 68.$$"
     },
     {
       "title": "Compute the target value",

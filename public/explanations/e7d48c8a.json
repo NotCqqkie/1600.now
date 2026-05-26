@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Extract original data from the dot plot",
-      "content": "From the dot plot: 4 dots at 1, 4 dots at 2, 3 dots at 3, 1 dot at 4, 1 dot at 5.<br/>Original data (13 eruptions, ordered): 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 5"
+      "content": "From the dot plot: 4 dots at 1, 5 dots at 2, 2 dots at 3, 1 dot at 4, 1 dot at 5.<br/>Original data (13 eruptions, ordered): 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 5"
     },
     {
       "title": "Calculate the original median",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Determine the median when 11 is added",
-      "content": "New data set has 14 eruptions: 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 5, 11.<br/>With 14 values, the median is the average of the 7th and 8th values: $\\frac{2 + 2}{2} = 2$.<br/>New median = 2 (no change from the original median of 2). Statement I is <strong>false</strong>."
+      "content": "New data set has 14 eruptions: 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 5, 11.<br/>With 14 values, the median is the average of the 7th and 8th values: $\\frac{2 + 2}{2} = 2$.<br/>New median = 2 (no change from the original median of 2). Statement I is <strong>false</strong>."
     },
     {
       "title": "Determine the mean and how adding 11 affects it",
-      "content": "Original mean: $\\frac{4(1) + 4(2) + 3(3) + 1(4) + 1(5)}{13} = \\frac{4 + 8 + 9 + 4 + 5}{13} = \\frac{30}{13} \\approx 2.31$<br/><br/>New mean: $\\frac{30 + 11}{14} = \\frac{41}{14} \\approx 2.93$<br/><br/>Since $\\frac{41}{14} > \\frac{30}{13}$, the new mean is greater. Only the mean increases. Statement II is <strong>true</strong>.<br/><br/>That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "Original mean: $\\frac{4(1) + 5(2) + 2(3) + 1(4) + 1(5)}{13} = \\frac{4 + 10 + 6 + 4 + 5}{13} = \\frac{29}{13} \\approx 2.23$<br/><br/>New mean: $\\frac{29 + 11}{14} = \\frac{40}{14} \\approx 2.86$<br/><br/>Since $\\frac{40}{14} > \\frac{29}{13}$, the new mean is greater. Only the mean increases. Statement II is <strong>true</strong>.<br/><br/>That matches choice C — <strong>C</strong> is correct."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses",
-      "content": "Before the blank: <em>Nakalembe doesn't just compile the information</em> — a complete clause. After the blank: <em>she also shares her findings with African farmers...</em> — another complete clause. The conjunctive adverb <strong>though</strong> connects the two."
+      "title": "Identify the sentence structure",
+      "content": "The sentence has two independent clauses joined by a semicolon: <em>Nakalembe doesn't just compile the information, though</em> (clause 1) and <em>she also shares her findings with African farmers...</em> (clause 2). The word <strong>though</strong> is a transitional interrupter that belongs to clause 1 — it is set off by a comma and placed at the end of that clause before the semicolon."
     },
     {
-      "title": "Apply the punctuation pattern",
-      "content": "Per the answer key, the right pattern places a comma before <em>though</em> and a semicolon after it to join the second clause: <em>information, though;</em>.<br/><br/>Choice B (comma after <em>though</em>) creates a comma splice between two complete clauses; choice C reverses the order with a semicolon before; choice D omits the joining punctuation, producing a run-on.<br/><br/>The answer is <strong>A</strong>."
+      "title": "Apply the punctuation rule and eliminate wrong choices",
+      "content": "Two independent clauses require a semicolon between them. The correct pattern is <em>information, though; she also...</em> — a comma before <em>though</em> (setting it off within clause 1) and a semicolon after it (separating the two independent clauses). That is <strong>choice A</strong>.<br/><br/>Choice B places a comma after <em>though</em> instead of a semicolon, producing a comma splice — a comma alone cannot join two independent clauses. Choice C puts a semicolon before <em>though</em> and moves it to the start of clause 2 (<em>though she also shares...</em>), making clause 2 a dependent clause; a semicolon cannot precede a dependent clause. Choice D omits punctuation between the clauses entirely, producing a run-on sentence.<br/><br/>The answer is <strong>A</strong>."
     }
   ]
 }

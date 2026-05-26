@@ -9,7 +9,7 @@
     },
     {
       "title": "Table lookup",
-      "content": "Scanning the table, the smallest value with a non\u2011zero frequency is 20 (row for value 20, frequency column shows a positive count). That matches choice C \u2014 <strong>C</strong> is correct."
+      "content": "The answer choices are 1, 6, 20, and 26. Scanning the table, neither 1 nor 6 appears as a listed value with a positive frequency \u2014 they are not entries in the data set. The smallest value that does appear with a non-zero frequency is 20. That matches choice C \u2014 <strong>C</strong> is correct."
     }
   ]
 }
