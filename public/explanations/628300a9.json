@@ -1,15 +1,1 @@
-{
-  "qid": "628300a9",
-  "correctAnswer": "C",
-  "steps": [
-    {
-      "text": "There are 5 stations total. If \\(x\\) stations use Experiment A (6 tsp each), then \\(5 - x\\) stations use Experiment B (4 tsp each)."
-    },
-    {
-      "text": "Total salt = \\(6x + 4(5 - x)\\). Expand: \\(6x + 20 - 4x = 2x + 20\\)."
-    },
-    {
-      "text": "Evaluate all choices:<ul><li>A and B are not shown as complete expressions in the problem — eliminated.</li><li>C: \\(2x + 20\\) — matches the simplified expression exactly. That matches choice C — <strong>C</strong> is correct.</li><li>D: \\(10x + 20\\) — would only be correct if Experiment B required 0 tsp and Experiment A required 10 tsp; incorrect. Eliminated.</li></ul>"
-    }
-  ]
-}
+{"questionId":"628300a9","correctAnswer":"C","section":"Math","steps":[{"title":"Set up the expression","content":"There are 5 stations total. If $x$ stations use Experiment A (6 tsp each), then $5 - x$ stations use Experiment B (4 tsp each)."},{"title":"Simplify the total","content":"Total salt $= 6x + 4(5 - x)$. Expanding: $6x + 20 - 4x = 2x + 20$."},{"title":"Eliminate wrong choices and confirm C","content":"<ul><li><strong>Choice A &mdash; $5x$</strong>: Treats $x$ as the total salt per station regardless of experiment, ignoring that Experiment A and Experiment B have different teaspoon amounts and that the $5 - x$ Experiment B stations each contribute 4 tsp. &#10007;</li><li><strong>Choice B &mdash; $10x$</strong>: Adds $6 + 4 = 10$ and multiplies by $x$, incorrectly applying both per-station rates to the same $x$ stations and omitting the $4(5 - x)$ contribution from the Experiment B stations entirely. &#10007;</li><li><strong>Choice C &mdash; $2x + 20$</strong>: Matches the simplified expression exactly. &#10003;</li><li><strong>Choice D &mdash; $10x + 20$</strong>: Would only be correct if Experiment A required 10 tsp per station and Experiment B required 0 tsp; incorrect. &#10007;</li></ul>That matches choice C &mdash; <strong>C</strong> is correct."}]}
