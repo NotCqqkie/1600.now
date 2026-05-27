@@ -1,15 +1,1 @@
-{
-  "questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_14",
-  "correctAnswer": "C",
-  "section": "Reading and Writing",
-  "steps": [
-    {
-      "title": "Identify the key signal in the researchers' argument",
-      "content": "The strongest signal is the researchers' statement: \u201cEarth's climate is changing in ways that challenge such classifications.\u201d This directly indicates that the invasive classification may not hold as climate changes."
-    },
-    {
-      "title": "Apply this to the answer choices",
-      "content": "C captures the logical consequence: if climate will change environmental conditions, then the invasive label reflects conditions that may not persist.<br/>The other choices either address past conditions (A), assume climate won't matter (B), or propose selective classification without evidence (D).<br/>That matches choice C \u2014 <strong>C</strong> is correct."
-    }
-  ]
-}
+{"questionId": "4989a736-d8cf-4f22-b057-f6543b77d0fd_14", "correctAnswer": "C", "section": "Reading and Writing", "steps": [{"title": "Identify the key signal in the researchers' argument", "content": "The strongest signal is the researchers' statement: &#8220;Earth&#8217;s climate is changing in ways that challenge such classifications.&#8221; This directly indicates that the invasive classification may not hold as climate changes."}, {"title": "Apply this to each answer choice", "content": "<ul><li><strong>Choice A</strong>: Introduces unsupported history &#8212; that rainbow lorikeets were previously present in New Zealand and were outcompeted. The passage contains no such information. Eliminated.</li><li><strong>Choice B</strong>: Reverses the passage&#8217;s premise by assuming climate change does not affect classifications. This directly contradicts the researchers&#8217; emphasis on climate change challenging existing labels. Eliminated.</li><li><strong>Choice C</strong>: Correctly captures the logical consequence &#8212; if climate will change environmental conditions, then the invasive label reflects conditions that may not persist. Supported.</li><li><strong>Choice D</strong>: Proposes selectively applying invasive labels to some species but not others. The passage questions the classification framework generally, not selectively. Eliminated.</li></ul>That matches choice C &#8212; <strong>C</strong> is correct."}]}

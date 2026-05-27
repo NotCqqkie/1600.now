@@ -1,16 +1,1 @@
-{
-  "questionId": "fe6f9678",
-  "correctAnswer": "C",
-  "section": "Math",
-  "steps": [
-    {
-      "title": "Backsolving — testing choice B (1)",
-      "content": "Testing choice B: $$f(x)=1$$<br/>Then $$f(0)=1$$ and $$f(1)=1$$, but the problem states $$f(0)=17$$ and $$f(1)=17$$.<br/>Since the values do not match, choice B fails."
-    },
-    {
-      "title": "Backsolving — testing choice C (17)",
-      "content": "Testing choice C: $$f(x)=17$$<br/>Then $$f(0)=17$$ and $$f(1)=17$$, which exactly match the given conditions.<br/>That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["y=17", "(0,17)", "(1,17)"]
-    }
-  ]
-}
+{"questionId":"fe6f9678","correctAnswer":"C","section":"Math","steps":[{"title":"Key insight: f must be constant","content":"Since f(0) = 17 and f(1) = 17, both are equal. A linear function f(x) = mx + b with f(0) = f(1) must have slope m = 0, so f is constant: f(x) = 17. Now verify each choice."},{"title":"Backsolving — testing choice A (1/17)","content":"Testing choice A: $$f(x) = \\frac{1}{17}$$<br/>Then $$f(0) = \\frac{1}{17} \\neq 17$$. Fails. &#10007;"},{"title":"Backsolving — testing choice B (1)","content":"Testing choice B: $$f(x) = 1$$<br/>Then $$f(0) = 1 \\neq 17$$. Fails. &#10007;"},{"title":"Backsolving — testing choice C (17)","content":"Testing choice C: $$f(x) = 17$$<br/>Then $$f(0) = 17$$ and $$f(1) = 17$$, which exactly match both given conditions. &#10003;<br/><br/>That matches choice C &mdash; <strong>C</strong> is correct.","desmosExpressions":["y=17","(0,17)","(1,17)"]},{"title":"Backsolving — testing choice D (34)","content":"Testing choice D: $$f(x) = 34$$<br/>Then $$f(0) = 34 \\neq 17$$. Fails. &#10007;"}]}
