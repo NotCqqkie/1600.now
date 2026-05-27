@@ -10,7 +10,7 @@
     {
       "title": "Match the vertex to the correct table",
       "content": "The parabola's minimum point is located at $x=3$, $y=-12$. <ul><li>Choice C includes the point $(3, -12)$</li><li>Choice D has no point at $x=3$</li></ul>The three points in choice C—$(0, 0)$, $(3, -12)$, $(6, 0)$—represent the start, vertex, and end of the parabola. That matches choice C — <strong>C</strong> is correct.",
-      "desmosExpressions": ["y=0representssealevel"]
+      "desmosExpressions": ["y=(4/3)(x-3)^2-12\\{0<=x<=6\\}"]
     }
   ]
 }

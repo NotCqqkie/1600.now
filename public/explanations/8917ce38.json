@@ -4,7 +4,7 @@
     "Start with 90 km/h. Convert km to m: multiply by 1,000 m/km. Convert hours to seconds: divide by 3,600 s/h.",
     "\\(90 \\times \\frac{1{,}000}{3{,}600} = \\frac{90{,}000}{3{,}600} = 25\\) meters per second.",
     "Verify: 25 m/s \\(\\times\\) 3,600 = 90,000 m = 90 km, confirming 25 m/s.",
-    "<ul><li><strong>Choice A &mdash; '25 meters per second'</strong>: Matches the unit conversion result exactly. &#10003;</li><li><strong>Choice B &mdash; another value meters per second</strong>: Does not equal 25; incorrect conversion. &#10007;</li><li><strong>Choice C &mdash; another value meters per second</strong>: Does not equal 25; incorrect conversion. &#10007;</li><li><strong>Choice D &mdash; another value meters per second</strong>: Does not equal 25; incorrect conversion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+    "<ul><li><strong>Choice A &mdash; 25 meters per second</strong>: Matches the unit conversion result exactly. &#10003;</li><li><strong>Choice B &mdash; 0.025 meters per second</strong>: Results from converting km to m correctly but then dividing by 1,000,000 instead of 3,600 &mdash; a factor-of-1,000 error on the seconds conversion. &#10007;</li><li><strong>Choice C &mdash; 1,500 meters per second</strong>: Results from multiplying 90 by 1,000 but then dividing only by 60 (one minute) instead of 3,600 (one hour), ignoring the second factor of 60. &#10007;</li><li><strong>Choice D &mdash; 324,000 meters per second</strong>: Results from multiplying 90 by 1,000 and then multiplying by 3,600 instead of dividing &mdash; inverting the hours-to-seconds conversion. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
   ],
   "correctAnswer": "A"
 }
