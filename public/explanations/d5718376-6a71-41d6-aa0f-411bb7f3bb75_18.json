@@ -12,7 +12,7 @@
       "explanation": "Verify: at \\(t = 1\\), \\(y = 72{,}000 \\cdot 2 = 144{,}000\\) (doubled). \\checkmark"
     },
     {
-      "explanation": "<ul><li>Choice A: \\(y = \\frac{1}{2}(72{,}000)t\\) &mdash; linear, and halves the initial count. Eliminated.</li><li>Choice B: \\(y = 2(72{,}000)t\\) &mdash; linear. At \\(t=1\\), gives 144,000, but at \\(t=2\\), gives 288,000 instead of 288,000 &mdash; wait, that accidentally works at \\(t=2\\) but is linear, not exponential. At \\(t=3\\): linear gives 432,000 vs. correct \\(72{,}000 \\cdot 8 = 576{,}000\\). Eliminated.</li><li>Choice C: \\(y = 72{,}000\\left(\\frac{1}{2}\\right)^t\\) &mdash; exponential decay (shrinks each day). Eliminated.</li><li>Choice D: \\(y = 72{,}000(2)^t\\) &mdash; exponential growth doubling each day. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
+      "explanation": "<ul><li>Choice A: \\(y = \\frac{1}{2}(72{,}000)t\\) &mdash; linear, and halves the initial count. Eliminated.</li><li>Choice B: \\(y = 2(72{,}000)t\\) &mdash; linear, not exponential. It coincides with the correct value at \\(t=1\\) (144,000) and \\(t=2\\) (288,000), but diverges at \\(t=3\\): linear gives 432,000 while the correct exponential gives \\(72{,}000 \\cdot 2^3 = 576{,}000\\). Eliminated.</li><li>Choice C: \\(y = 72{,}000\\left(\\frac{1}{2}\\right)^t\\) &mdash; exponential decay (shrinks each day). Eliminated.</li><li>Choice D: \\(y = 72{,}000(2)^t\\) &mdash; exponential growth doubling each day. That matches choice D &mdash; <strong>D</strong> is correct.</li></ul>"
     }
   ]
 }

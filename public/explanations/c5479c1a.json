@@ -9,8 +9,11 @@
     },
     {
       "title": "Solve for x",
-      "content": "Simplify and isolate $x$:<br/>$$5x + 130 = 220$$<br/>$$5x = 90$$<br/>$$x = 18$$<br/>That matches choice D \u2014 <strong>D</strong> is correct.",
-      "desmosExpressions": ["5x+10y=220", "(14,13)"]
+      "content": "Simplify and isolate $x$:<br/>$$5x + 130 = 220$$<br/>$$5x = 90$$<br/>$$x = 18$$<br/>That matches choice D — <strong>D</strong> is correct.",
+      "desmosExpressions": [
+        "5x+10y=220",
+        "(18,13)"
+      ]
     }
   ]
 }
