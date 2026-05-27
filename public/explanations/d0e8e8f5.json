@@ -11,8 +11,9 @@
       "title": "Find and read the intersection from the graph",
       "content": "Reading the coordinates from the given graph where the line and parabola meet: the intersection point is $(4, 1)$. That matches choice D — <strong>D</strong> is correct.",
       "desmosExpressions": [
-        "y = x^2 - 3",
-        "y = -x + 1"
+        "y = x^2 - 15",
+        "y = -x + 5",
+        "(4, 1)"
       ]
     }
   ]
