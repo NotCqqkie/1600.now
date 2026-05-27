@@ -17,7 +17,7 @@
     },
     {
       "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; '$0.39$'</strong>: $0.387 \\approx 0.39$. Closest to our calculated value. &#10003;</li><li><strong>Choice B &mdash; '$1.27$'</strong>: This would result from dividing 250 by 10.7584 without converting hours to minutes. &#10007;</li><li><strong>Choice C &mdash; '$13.67$'</strong>: This would result from dividing by 60 and multiplying by 3.28 (not squaring). &#10007;</li><li><strong>Choice D &mdash; '$23.24$'</strong>: This would result from multiplying instead of dividing by the conversion factor. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A &mdash; '$0.39$'</strong>: $0.387 \\approx 0.39$. Closest to our calculated value. &#10003;</li><li><strong>Choice B &mdash; '$1.27$'</strong>: This results from using $3.28$ ft/m instead of squaring it to convert square feet to square meters: $250 \div (3.28 \times 60) \approx 1.27$. &#10007;</li><li><strong>Choice C &mdash; '$13.67$'</strong>: This would result from dividing by 60 and multiplying by 3.28 (not squaring). &#10007;</li><li><strong>Choice D &mdash; '$23.24$'</strong>: This results from converting square feet to square meters but forgetting to convert hours to minutes: $250 \div 10.7584 \approx 23.24$. &#10007;</li></ul>That matches choice A &mdash; <strong>A</strong> is correct."
     }
   ]
 }
