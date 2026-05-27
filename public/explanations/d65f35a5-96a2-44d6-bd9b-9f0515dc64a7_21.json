@@ -9,7 +9,7 @@
     },
     {
       "title": "Find the slope of the given equation",
-      "content": "The equation shown in the problem (see figure) can be written in slope-intercept form $y = mx + b$. Solving for $y$ gives a slope of $\\dfrac{7}{27r}$. For the system to have no solution, the other equation must also have slope $\\dfrac{7}{27r}$."
+      "content": "The equation given in the problem stem can be written in slope-intercept form $y = mx + b$. Isolating $y$: starting from $27ry - 7x = c$ (where $c$ is a constant), add $7x$ to both sides and divide by $27r$ to get $y = \\dfrac{7}{27r}x + \\dfrac{c}{27r}$. The slope is $\\dfrac{7}{27r}$. For the system to have no solution, the other equation must also have slope $\\dfrac{7}{27r}$."
     },
     {
       "title": "Eliminate the choices",
