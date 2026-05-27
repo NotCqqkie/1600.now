@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat $7x-2$ as a single variable",
-      "content": "Let $u = 7x-2$. Combine: $8(2-7x)+6 = 7(2-7x)+2$, giving $(2-7x)=-4$."
+      "title": "Treat $2-7x$ as a single variable",
+      "content": "Let $u = 2-7x$. The equation becomes $8u+6 = 7u+2$. Subtracting $7u$ from both sides: $u+6 = 2$, so $u = -4$. That means $2-7x = -4$."
     },
     {
       "title": "Compute the target value",
-      "content": "So $7x-2 = -(2-7x) = 4$. The answer is <strong>4</strong>."
+      "content": "Since $2-7x = -4$, we get $7x-2 = 4$. The answer is <strong>4</strong>."
     }
   ]
 }
