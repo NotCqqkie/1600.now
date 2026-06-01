@@ -1946,7 +1946,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
       "id": "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_21",
       "difficulty": "Easy",
       "testName": "May 2024 US Form B SAT English Module 1",
-      "text": "Which choice completes the text with the most logical transition?\nIn Ethiopia, citizens must be at least 18 years old to vote in their country’s elections. ______ citizens in Cuba need only be 16 years old to cast their vote.",
+      "text": "Which choice completes the text with the most logical transition?\nIn Ethiopia, citizens must be at least 18 years old to vote in their country's elections. ______ citizens in Cuba need only be 16 years old to cast their vote.",
       "choices": [
         {
           "id": "A",
@@ -2112,7 +2112,7 @@ export const skillSampleQuestions: Record<string, SampleQuestion[]> = {
         },
         {
           "id": "C",
-          "text": "artist—"
+          "text": "artist--"
         },
         {
           "id": "D",

@@ -14,6 +14,9 @@ const root = path.resolve(__dirname, "..");
 const read = (rel) => readFileSync(path.join(root, rel), "utf8");
 
 const SITE = "https://1600.now";
+const COLLEGE_URL_LIMIT = Number(
+  process.env.SITEMAP_COLLEGE_LIMIT ?? Number.POSITIVE_INFINITY,
+);
 
 // ---- Source file mtimes (ISO date) ----------------------------------------
 
@@ -33,6 +36,7 @@ const MTIME_SCORES = mtimeIso("src/lib/seo-data/satScoreData.ts");
 const MTIME_PILLARS = mtimeIso("src/lib/seo-data/pillarData.ts");
 const MTIME_SCORE_GOALS = mtimeIso("src/lib/seo-data/scoreGoalData.ts");
 const MTIME_TOOLS = mtimeIso("src/lib/seo-data/satTools.ts");
+const MTIME_ASSETS = mtimeIso("src/lib/seo-data/linkableAssets.ts");
 const MTIME_COUNTRY = mtimeIso("src/lib/seo-data/countryHubData.ts");
 const MTIME_COLLEGES = mtimeIso("src/data/colleges.json");
 const MTIME_HOME = mtimeIso("src/pages/Home.tsx");
@@ -51,6 +55,7 @@ const MTIME_BROWSE = mtimeIso("src/pages/Index.tsx");
 
 const skillSrc = read("src/lib/seo-data/satSkillsData.ts");
 const skillSlugs = [...skillSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
+const skillWorksheetSlugs = skillSlugs.map((s) => `sat-${s}-worksheet`);
 
 const blogSrc = read("src/lib/seo-data/blogData.ts");
 const blogSlugs = [...blogSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
@@ -82,8 +87,28 @@ const scoreGoalSlugs = [...scoreGoalDynamic, ...scoreGoalHardcoded.filter((s) =>
 const toolSrc = read("src/lib/seo-data/satTools.ts");
 const toolSlugs = [...toolSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]);
 
+const assetSrc = read("src/lib/seo-data/linkableAssets.ts");
+const linkableSlugs = [
+  ...skillWorksheetSlugs,
+  ...[...assetSrc.matchAll(/slug:\s*"([^"]+)"/g)].map((m) => m[1]),
+].filter((s, i, arr) => arr.indexOf(s) === i);
+
 const collegesData = JSON.parse(read("src/data/colleges.json"));
-const collegeSlugs = collegesData.map((c) => c.slug);
+const collegeSlugs = collegesData
+  .filter((c) => c.sat25 && c.sat75 && c.acceptanceRate != null)
+  .sort((a, b) => {
+    const scoreA =
+      (a.sat75 ?? 0) * 4 +
+      (1 - (a.acceptanceRate ?? 1)) * 1000 +
+      Math.log10((a.enrollment ?? 1) + 1) * 25;
+    const scoreB =
+      (b.sat75 ?? 0) * 4 +
+      (1 - (b.acceptanceRate ?? 1)) * 1000 +
+      Math.log10((b.enrollment ?? 1) + 1) * 25;
+    return scoreB - scoreA;
+  })
+  .slice(0, COLLEGE_URL_LIMIT)
+  .map((c) => c.slug);
 
 const countrySrc = read("src/lib/seo-data/countryHubData.ts");
 const countryHubSlugs = [...countrySrc.matchAll(/hubSlug:\s*"([^"]+)"/g)].map(
@@ -153,6 +178,11 @@ const toolsBucket = toolSlugs.map((s) => ({
   lastmod: MTIME_TOOLS,
 }));
 
+const assetsBucket = linkableSlugs.map((s) => ({
+  url: `/${s}`,
+  lastmod: MTIME_ASSETS,
+}));
+
 const countryBucket = [
   ...countryHubSlugs.map((s) => ({ url: `/${s}`, lastmod: MTIME_COUNTRY })),
   ...countryPageSlugs.map((s) => ({ url: `/${s}`, lastmod: MTIME_COUNTRY })),
@@ -193,6 +223,7 @@ const priorityFor = (u) => {
   if (pillarSlugs.includes(u.slice(1))) return "0.9";
   if (scoreGoalSlugs.includes(u.slice(1))) return "0.8";
   if (toolSlugs.includes(u.slice(1))) return "0.8";
+  if (linkableSlugs.includes(u.slice(1))) return "0.7";
   if (u.startsWith("/in/") || u.startsWith("/ae/") || u === "/in" || u === "/ae")
     return "0.7";
   if (u === "/college") return "0.8";
@@ -238,6 +269,7 @@ const children = [
   { filename: "sitemap-pillars.xml", entries: pillarBucket },
   { filename: "sitemap-score-goals.xml", entries: scoreGoalBucket },
   { filename: "sitemap-tools.xml", entries: toolsBucket },
+  { filename: "sitemap-assets.xml", entries: assetsBucket },
   { filename: "sitemap-country.xml", entries: countryBucket },
   { filename: "sitemap-colleges.xml", entries: collegesBucket },
 ].filter((c) => c.entries.length > 0);

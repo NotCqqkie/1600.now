@@ -2,9 +2,11 @@ import { useLocation } from "react-router-dom";
 
 import NotFound from "@/pages/NotFound";
 import LandingVariant from "@/pages/LandingVariant";
+import LinkableAssetPage from "@/pages/sat-info/LinkableAssetPage";
 import PillarPage from "@/pages/sat-info/PillarPage";
 import ScoreGoalPage from "@/pages/sat-info/ScoreGoalPage";
 import { landingVariantBySlug } from "@/lib/seo-data/landingVariants";
+import { linkableAssetBySlug, linkableHubBySlug } from "@/lib/seo-data/linkableAssets";
 import { pillarBySlug } from "@/lib/seo-data/pillarData";
 import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
 
@@ -15,6 +17,9 @@ const TopLevelSeoPage = () => {
   if (landingVariantBySlug.has(slug)) return <LandingVariant />;
   if (pillarBySlug.has(slug)) return <PillarPage />;
   if (scoreGoalBySlug.has(slug)) return <ScoreGoalPage />;
+  if (linkableAssetBySlug.has(slug) || linkableHubBySlug.has(slug)) {
+    return <LinkableAssetPage />;
+  }
 
   return <NotFound />;
 };

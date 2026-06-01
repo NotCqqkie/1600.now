@@ -9,6 +9,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { getAuthReturnTo } from "@/components/auth/AuthReturnTracker";
 import { useToast } from "@/hooks/use-toast";
 import { describeAuthError } from "@/lib/firebase/authErrors";
+import { AUTH_PASSWORD_DESCRIPTION, isPasswordPolicyCompliant } from "@/lib/authSecurity";
 import { Loader2, CheckCircle } from "lucide-react";
 
 const GoogleIcon = () => (
@@ -23,6 +24,8 @@ const perks = [
   "See accuracy trends over time",
   "No paid features — ever",
 ];
+
+const isValidEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
 
 const Signup = () => {
   const [email, setEmail] = useState("");
@@ -187,13 +190,13 @@ const Signup = () => {
                 <Input
                   id="password"
                   type="password"
-                  placeholder="At least 6 characters"
+                  placeholder={AUTH_PASSWORD_DESCRIPTION}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
                 />
               </div>
-              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading}>
+              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading || !isValidEmail(email) || !isPasswordPolicyCompliant(password)}>
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Create account
               </Button>

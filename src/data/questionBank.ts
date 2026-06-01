@@ -21,18 +21,19 @@ import {
   allMathDomains,
   allEnglishDomains,
 } from "./questionCategories";
-
-export type BankSubject = "math" | "reading";
-export type BankSourceId = "past" | "unofficial";
-export type BankSourceFilter = BankSourceId | "all";
-
-export const BANK_SOURCE_LABELS: Record<BankSourceFilter, string> = {
-  unofficial: "Unofficial Bank",
-  past: "Past SAT-based",
-  all: "Both Banks",
-};
-
-export const DEFAULT_BANK_SOURCE: BankSourceFilter = "all";
+import {
+  questionSimilarityGroupByQuestion,
+  questionSimilarityGroupsById,
+} from "@/lib/generated/questionSimilarity.generated";
+import {
+  BANK_SOURCE_LABELS,
+  DEFAULT_BANK_SOURCE,
+  buildBankQuestionKey,
+  normalizeBankSource,
+  type BankSourceFilter,
+  type BankSourceId,
+  type BankSubject,
+} from "./bankTypes";
 
 interface RawBankSource {
   bankType: BankSourceId;
@@ -88,24 +89,18 @@ export interface BankQuestion {
   inPracticeTests?: boolean | null;
   /** Category classification */
   category: QuestionCategory;
+  /** Fine-grained whole-bank similar-question group tag */
+  similarityTag?: string | null;
+  similarityGroupId?: string | null;
+  similarityGroupLabel?: string | null;
+  similarityGroupSize?: number | null;
 }
 
 // Re-export category types for consumers
 export type { QuestionCategory, MathDomain, EnglishDomain, MathSkill, EnglishSkill };
+export type { BankSubject, BankSourceId, BankSourceFilter };
 export { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains };
-
-export const normalizeBankSource = (value: string | null | undefined): BankSourceFilter => {
-  if (value === "all") return "all";
-  if (value === "past") return "past";
-  if (value === "unofficial") return "unofficial";
-  return DEFAULT_BANK_SOURCE;
-};
-
-export const buildBankQuestionKey = (
-  bankType: BankSourceId,
-  subject: BankSubject,
-  sourceId: string,
-): string => `bank-${bankType}-${subject}-${sourceId}`;
+export { BANK_SOURCE_LABELS, DEFAULT_BANK_SOURCE, buildBankQuestionKey, normalizeBankSource };
 
 const normalizeDifficulty = (value: string | null | undefined): "Easy" | "Medium" | "Hard" | null => {
   const normalized = (value ?? "").trim().toLowerCase();
@@ -527,9 +522,14 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
   }
 
   const sourceId = String(q.id);
+  const stableId = buildBankQuestionKey(source.bankType, subject, sourceId);
+  const similarityGroupId = questionSimilarityGroupByQuestion[stableId] ?? null;
+  const similarityGroup = similarityGroupId
+    ? questionSimilarityGroupsById[similarityGroupId]
+    : null;
 
   return {
-    stableId: buildBankQuestionKey(source.bankType, subject, sourceId),
+    stableId,
     bankType: source.bankType,
     bankLabel: source.bankLabel,
     subject,
@@ -560,6 +560,10 @@ const normalizeQuestion = (source: RawBankSource, q: SourceQuestion): Omit<BankQ
     difficulty: normalizeDifficulty(q.difficulty),
     inPracticeTests: q.inPracticeTests ?? null,
     category,
+    similarityTag: similarityGroupId,
+    similarityGroupId,
+    similarityGroupLabel: similarityGroup?.label ?? null,
+    similarityGroupSize: similarityGroup?.questionKeys.length ?? null,
   };
 };
 

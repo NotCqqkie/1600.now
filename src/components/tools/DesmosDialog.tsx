@@ -31,6 +31,8 @@ interface DesmosDialogProps {
   isSidebarred?: boolean;
   onSidebarToggle?: (windowId: string, shouldBeSidebarred: boolean) => void;
   compressed?: boolean;
+  windowPortalContainer?: HTMLElement | null;
+  windowBoundsElement?: HTMLElement | null;
 }
 
 export const DesmosDialog = ({
@@ -43,6 +45,8 @@ export const DesmosDialog = ({
   isSidebarred = false,
   onSidebarToggle,
   compressed = false,
+  windowPortalContainer,
+  windowBoundsElement,
 }: DesmosDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasEverOpened, setHasEverOpened] = useState(false);
@@ -137,6 +141,8 @@ export const DesmosDialog = ({
         isSidebarred={isSidebarred}
         onSidebarToggle={onSidebarToggle}
         keepMountedWhenClosed={hasEverOpened}
+        portalContainer={windowPortalContainer}
+        boundsElement={windowBoundsElement}
       >
         <div ref={containerRef} className="w-full h-full" />
       </DraggableWindow>

@@ -40,6 +40,62 @@ const routeMetadata: RouteMetadata[] = [
       "Work through a full SAT practice module with official-style questions, pacing, and detailed explanations.",
   },
   {
+    pattern: "/modules/:moduleId/start",
+    title: "SAT Module Practice | 1600.now",
+    description:
+      "Start a timed SAT practice module on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/modules/:moduleId/review",
+    title: "SAT Module Review | 1600.now",
+    description:
+      "Review a timed SAT practice module on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/modules/:moduleId/results",
+    title: "SAT Module Results | 1600.now",
+    description:
+      "View SAT module practice results on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/practice-tests/:setId",
+    title: "SAT Practice Test | 1600.now",
+    description:
+      "Start a Digital SAT practice test on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/practice-tests/:setId/start",
+    title: "SAT Practice Test Start | 1600.now",
+    description:
+      "Start a Digital SAT practice test on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/practice-tests/:setId/transition",
+    title: "SAT Practice Test Transition | 1600.now",
+    description:
+      "Continue a Digital SAT practice test on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/practice-tests/:setId/review",
+    title: "SAT Practice Test Review | 1600.now",
+    description:
+      "Review a Digital SAT practice test on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/practice-tests/:setId/results",
+    title: "SAT Practice Test Results | 1600.now",
+    description:
+      "View Digital SAT practice test results on 1600.now.",
+    noindex: true,
+  },
+  {
     pattern: "/score-calculator",
     title: "SAT Score Calculator | Estimate Your Digital SAT Score",
     description:
@@ -76,6 +132,14 @@ const routeMetadata: RouteMetadata[] = [
     title: ({ subject }) => `${formatSubject(subject)} SAT Practice Question`,
     description: ({ subject }) =>
       `Review a ${formatSubject(subject)} SAT practice question with answer choices, explanations, and study context.`,
+    noindex: true,
+  },
+  {
+    pattern: "/hard/:id",
+    title: "Hard SAT Practice Question | 1600.now",
+    description:
+      "Review a hard SAT practice question on 1600.now.",
+    noindex: true,
   },
   {
     pattern: "/vocab",
@@ -88,6 +152,21 @@ const routeMetadata: RouteMetadata[] = [
     title: "SAT Performance Analysis | Review Accuracy and Trends",
     description:
       "Analyze SAT practice performance, track strengths and weaknesses, and identify the next highest-impact study areas.",
+    noindex: true,
+  },
+  {
+    pattern: "/test-results",
+    title: "SAT Test Results | 1600.now",
+    description:
+      "Review saved SAT test results and progress on 1600.now.",
+    noindex: true,
+  },
+  {
+    pattern: "/my-practice-sets",
+    title: "My Practice Sets | 1600.now",
+    description:
+      "Review saved SAT practice sets on 1600.now.",
+    noindex: true,
   },
   {
     pattern: "/sat-vocabulary",
@@ -158,10 +237,31 @@ const routeMetadata: RouteMetadata[] = [
     noindex: true,
   },
   {
+    pattern: "/verify-email",
+    title: "Verify Email | 1600.now SAT Prep",
+    description:
+      "Verify your 1600.now account email address.",
+    noindex: true,
+  },
+  {
     pattern: "/profile",
     title: "Profile | 1600.now SAT Prep",
     description:
       "Review your 1600.now SAT prep profile, synced study status, and account details.",
+    noindex: true,
+  },
+  {
+    pattern: "/profile/personalization",
+    title: "Personalization | 1600.now SAT Prep",
+    description:
+      "Personalize your 1600.now SAT prep profile.",
+    noindex: true,
+  },
+  {
+    pattern: "/admin/reports",
+    title: "Admin Reports | 1600.now",
+    description:
+      "1600.now admin reports.",
     noindex: true,
   },
 ];
@@ -242,7 +342,7 @@ export const Seo = () => {
       title: pathname === "/" ? title : brandedTitle(title),
       description,
       noindex: matchedRoute?.noindex ?? false,
-      canonicalUrl: `${SITE_URL}${pathname === "/" ? "" : pathname}`,
+      canonicalUrl: `${SITE_URL}${pathname === "/" ? "/" : pathname}`,
     };
   }, [location.pathname]);
 
@@ -287,7 +387,9 @@ export const Seo = () => {
     });
     upsertMeta('meta[name="robots"]', {
       name: "robots",
-      content: metadata.noindex ? "noindex, nofollow" : "index, follow",
+      content: metadata.noindex
+        ? "noindex, follow"
+        : "index, follow, max-image-preview:large, max-snippet:-1",
     });
     upsertLink('link[rel="canonical"]', {
       rel: "canonical",

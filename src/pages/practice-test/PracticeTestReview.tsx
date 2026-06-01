@@ -75,7 +75,7 @@ const PracticeTestReview = () => {
       clearPracticeTestSession(practiceSet.id);
       sessionStorage.removeItem("practiceSet");
       sessionStorage.removeItem("practiceExitTo");
-      navigate(`/practice-tests/${practiceSet.id}/results?session=${result.sessionId}`);
+      navigate(`/test-results?session=${result.sessionId}`);
       return;
     }
 
@@ -292,7 +292,7 @@ const PracticeTestReview = () => {
                 <AlertDialogCancel>Keep reviewing</AlertDialogCancel>
                 <button
                   onClick={handleSubmit}
-                  className="inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+                  className="inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground ring-offset-background transition-colors hover:bg-cobalt hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
                 >
                   {isLastModule ? "Submit test" : "Submit module"}
                 </button>

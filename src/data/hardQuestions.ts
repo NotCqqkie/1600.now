@@ -614,8 +614,8 @@ const baseQuestions: Question[] = [
   },
   {
     id: 64,
-    text: "$f(x) = x^2 - 3x - 4$\\\\$g(x) = x^2 - 9x + 14$\\\\$h(x) = x^2$\\\\The function $f(x)$ has two solutions of $q$ and $r$, where $q$ is positive. The function $g(x)$ has two solutions of $p$ and $m$, where $m > p$. If the function $h(x)$ has solutions of $(q-p)$ and $(m+r)$ and can be rewritten as $(x + a)(x + b)$, what is the value of $m$?",
-    correctAnswer: "7",
+    text: "$f(x) = x^2 - 3x - 4$\\\\$g(x) = x^2 - 9x + 14$\\\\The function $f(x)$ has two solutions of $q$ and $r$, where $q$ is positive. The function $g(x)$ has two solutions of $p$ and $m$, where $m > p$. If the function $h(x)$ has solutions of $(q-p)$ and $(m+r)$ and can be rewritten as $h(x)=x^2+ax+b$, what is the value of $a+b$?",
+    correctAnswer: "4",
     type: "free-response",
   },
   {

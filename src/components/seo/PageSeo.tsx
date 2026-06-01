@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { brandedTitle } from "@/lib/brand";
+import { BRAND_URL, brandedTitle } from "@/lib/brand";
 
 type JsonLdPayload = Record<string, unknown>;
 
@@ -15,7 +15,11 @@ interface PageSeoProps {
   jsonLd?: JsonLdPayload | JsonLdPayload[];
   canonical?: string;
   alternates?: HreflangAlternate[];
+  image?: string;
+  type?: "website" | "article";
 }
+
+const DEFAULT_OG_IMAGE = `${BRAND_URL}/og-image.png`;
 
 function upsertMetaByName(name: string, content: string) {
   let el = document.head.querySelector(`meta[name="${name}"]`) as HTMLMetaElement | null;
@@ -82,8 +86,15 @@ export const PageSeo = ({
   jsonLd,
   canonical,
   alternates,
+  image,
+  type = "website",
 }: PageSeoProps) => {
   useEffect(() => {
+    const canonicalUrl =
+      canonical ??
+      `${BRAND_URL}${window.location.pathname === "/" ? "/" : window.location.pathname}`;
+    const imageUrl = image ?? DEFAULT_OG_IMAGE;
+
     if (title) {
       const finalTitle = brandedTitle(title);
       document.title = finalTitle;
@@ -98,9 +109,13 @@ export const PageSeo = ({
     if (jsonLd) {
       upsertJsonLd(id, jsonLd);
     }
-    if (canonical) {
-      upsertCanonical(canonical);
-    }
+    upsertCanonical(canonicalUrl);
+    upsertMetaByProperty("og:url", canonicalUrl);
+    upsertMetaByProperty("og:type", type);
+    upsertMetaByProperty("og:image", imageUrl);
+    upsertMetaByName("twitter:card", "summary_large_image");
+    upsertMetaByName("twitter:image", imageUrl);
+    upsertMetaByName("robots", "index, follow, max-image-preview:large, max-snippet:-1");
     if (alternates && alternates.length > 0) {
       upsertAlternates(id, alternates);
     }
@@ -111,7 +126,7 @@ export const PageSeo = ({
         .querySelectorAll(`link[rel="alternate"][data-seo-id="${id}"]`)
         .forEach((node) => node.remove());
     };
-  }, [id, title, description, jsonLd, canonical, alternates]);
+  }, [id, title, description, jsonLd, canonical, alternates, image, type]);
 
   return null;
 };
@@ -144,6 +159,21 @@ export const buildBreadcrumbJsonLd = (
     position: idx + 1,
     name: item.name,
     item: item.url,
+  })),
+});
+
+export const buildItemListJsonLd = (
+  name: string,
+  items: { name: string; url: string }[],
+) => ({
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name,
+  itemListElement: items.map((item, idx) => ({
+    "@type": "ListItem",
+    position: idx + 1,
+    name: item.name,
+    url: item.url,
   })),
 });
 

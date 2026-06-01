@@ -2,9 +2,12 @@ import {
   arrayUnion,
   collection,
   doc,
+  FirestoreError,
   getDoc,
   getDocs,
   increment,
+  orderBy,
+  query,
   serverTimestamp,
   setDoc,
 } from "firebase/firestore";
@@ -68,20 +71,35 @@ export const submitQuestionReport = async (args: {
     });
   }
 
-  await setDoc(ref, payload, { merge: true });
+  try {
+    await setDoc(ref, payload, { merge: true });
+  } catch (err) {
+    if (err instanceof FirestoreError && err.code === "permission-denied") {
+      throw new Error(
+        "You need to be signed in to report a question. Sign in and try again.",
+      );
+    }
+    throw err;
+  }
 };
 
 export const getQuestionReport = async (
   questionId: string,
 ): Promise<QuestionReport | null> => {
   if (!db) return null;
-  const snap = await getDoc(doc(db, COLLECTION, questionId));
-  if (!snap.exists()) return null;
-  return snap.data() as QuestionReport;
+  try {
+    const snap = await getDoc(doc(db, COLLECTION, questionId));
+    if (!snap.exists()) return null;
+    return snap.data() as QuestionReport;
+  } catch (err) {
+    if (err instanceof FirestoreError && err.code === "permission-denied") return null;
+    throw err;
+  }
 };
 
 export const listQuestionReports = async (): Promise<QuestionReport[]> => {
   if (!db) return [];
-  const snap = await getDocs(collection(db, COLLECTION));
+  const q = query(collection(db, COLLECTION), orderBy("lastReportedAt", "desc"));
+  const snap = await getDocs(q);
   return snap.docs.map((d) => d.data() as QuestionReport);
 };

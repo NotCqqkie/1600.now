@@ -5,6 +5,9 @@ import tseslint from "typescript-eslint";
 export default tseslint.config(
   {
     ignores: ["dist", "src/data/questions_data.ts"],
+    linterOptions: {
+      reportUnusedDisableDirectives: "off",
+    },
   },
   {
     files: ["src/**/*.{ts,tsx}"],

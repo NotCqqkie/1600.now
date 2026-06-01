@@ -24,6 +24,119 @@ export interface ExplanationData {
   generatedAt: number;
 }
 
+const asString = (value: unknown): string | undefined =>
+  typeof value === "string" ? value : undefined;
+
+const asRecord = (value: unknown): Record<string, unknown> | null =>
+  value && typeof value === "object" && !Array.isArray(value)
+    ? (value as Record<string, unknown>)
+    : null;
+
+const asStringArray = (value: unknown): string[] | undefined =>
+  Array.isArray(value)
+    ? value
+        .map((item) => {
+          if (typeof item === "string") return item;
+          const record = asRecord(item);
+          return record ? asString(record.latex) ?? asString(record.expression) : undefined;
+        })
+        .filter((item): item is string => Boolean(item))
+    : undefined;
+
+function normalizeStep(rawStep: unknown, index: number): ExplanationStep | null {
+  if (typeof rawStep === "string") {
+    return { title: `Step ${index + 1}`, content: rawStep };
+  }
+
+  const step = asRecord(rawStep);
+  if (!step) return null;
+
+  const content =
+    asString(step.content) ??
+    asString(step.text) ??
+    asString(step.step) ??
+    asString(step.explain) ??
+    asString(step.explanation) ??
+    asString(step.explanationHtml) ??
+    asString(step.body) ??
+    asString(step.reason);
+
+  if (content === undefined) return null;
+
+  const title =
+    asString(step.title) ??
+    asString(step.heading) ??
+    asString(step.label) ??
+    `Step ${index + 1}`;
+
+  const normalized: ExplanationStep = {
+    title,
+    content,
+  };
+
+  const formula = asString(step.formula);
+  if (formula !== undefined) normalized.formula = formula;
+
+  const desmosExpressions = asStringArray(step.desmosExpressions);
+  if (desmosExpressions?.length) normalized.desmosExpressions = desmosExpressions;
+
+  if (Array.isArray(step.desmosGraphs)) {
+    const desmosGraphs: { label?: string; expressions: string[] }[] = [];
+    step.desmosGraphs.forEach((graph) => {
+      const record = asRecord(graph);
+      const expressions = record ? asStringArray(record.expressions) : undefined;
+      if (!record || !expressions?.length) return;
+      const label = asString(record.label);
+      desmosGraphs.push(label ? { label, expressions } : { expressions });
+    });
+    if (desmosGraphs.length) normalized.desmosGraphs = desmosGraphs;
+  }
+
+  return normalized;
+}
+
+export function normalizeExplanationData(raw: unknown): ExplanationData | null {
+  const data = asRecord(raw);
+  if (!data) return null;
+
+  const steps = Array.isArray(data.steps)
+    ? data.steps
+        .map((step, index) => normalizeStep(step, index))
+        .filter((step): step is ExplanationStep => Boolean(step))
+    : [];
+
+  const explanationHtml = asString(data.explanationHtml);
+  if (!steps.length && explanationHtml) {
+    steps.push({ title: "Explanation", content: explanationHtml });
+  }
+
+  const choiceElimination = asString(data.choiceElimination);
+  if (choiceElimination) {
+    steps.push({
+      title: "Eliminate the choices",
+      content: choiceElimination,
+      desmosExpressions: asStringArray(data.desmosExpressions),
+    });
+  } else if (steps.length && Array.isArray(data.desmosExpressions)) {
+    const desmosExpressions = asStringArray(data.desmosExpressions);
+    if (desmosExpressions?.length) {
+      steps[steps.length - 1] = {
+        ...steps[steps.length - 1],
+        desmosExpressions,
+      };
+    }
+  }
+
+  if (!steps.length) return null;
+
+  return {
+    questionId: asString(data.questionId) ?? asString(data.qid) ?? "",
+    correctAnswer: asString(data.correctAnswer) ?? "",
+    steps,
+    generatedAt: typeof data.generatedAt === "number" ? data.generatedAt : 0,
+  };
+}
+
 export function getCachedExplanation(_questionId: string): ExplanationData | null {
   return null;
 }

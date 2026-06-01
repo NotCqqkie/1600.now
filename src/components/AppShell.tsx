@@ -3,9 +3,11 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import {
   BarChart3,
   BookOpen,
+  BookOpenCheck,
   Calculator,
   ChevronLeft,
   ChevronRight,
+  ClipboardList,
   GraduationCap,
   HelpCircle,
   LogIn,
@@ -39,6 +41,7 @@ import { applyTheme } from "@/lib/theme";
 
 const COLLAPSED_DESKTOP_WIDTH_CLASS = "lg:w-[4.5rem]";
 const COLLAPSED_DESKTOP_PADDING_CLASS = "lg:pl-[4.5rem]";
+const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
 
 type SidebarItem = {
   label: string;
@@ -54,10 +57,12 @@ const primaryItems: SidebarItem[] = [
   { label: "Practice Tests", href: "/modules", icon: GraduationCap, match: (pathname: string) => pathname.startsWith("/modules"), tourId: "nav-modules" },
   { label: "Score Calculator", href: "/score-calculator", icon: Calculator, match: (pathname: string) => pathname.startsWith("/score-calculator"), tourId: "nav-calc" },
   { label: "Vocabulary", href: "/vocab", icon: SpellCheck, match: (pathname: string) => pathname.startsWith("/vocab"), tourId: "nav-vocab" },
+  { label: "My Practice Sets", href: "/my-practice-sets", icon: BookOpenCheck, match: (pathname: string) => pathname.startsWith("/my-practice-sets") },
 ];
 
 const secondaryItems: SidebarItem[] = [
   { label: "Settings", href: "/profile", icon: Settings, match: (pathname: string) => pathname.startsWith("/profile"), tourId: "nav-settings" },
+  { label: "Test Results", href: "/test-results", icon: ClipboardList, match: (pathname: string) => pathname.startsWith("/test-results"), tourId: "nav-test-results" },
   { label: "Statistics", href: "/analysis", icon: BarChart3, match: (pathname: string) => pathname.startsWith("/analysis"), tourId: "nav-stats" },
 ];
 
@@ -83,9 +88,9 @@ const SidebarLink = ({
       title={label}
       data-tour={tourId}
       className={cn(
-        // Inter 14px, tracking -0.5%. Default: 500 ink-mid. Active: 600 white
+        // Inter 13px, tracking -0.5%. Default: 500 ink-mid. Active: 600 white
         // on ink-fixed (so the dark pill stays dark in dark mode too).
-        "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[14px] tracking-[-0.005em] transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
+        "flex h-10 items-center overflow-hidden rounded-lg font-sans text-[13px] tracking-[-0.005em] transition-[background-color,color,box-shadow,width,padding] duration-200 ease-out",
         showLabel ? "w-full pr-3" : "w-10 pr-0",
         active
           ? "bg-ink-fixed font-semibold text-white shadow-sm dark:bg-white dark:text-ink-fixed"
@@ -164,6 +169,13 @@ const FooterActionButton = ({
 export const AppShell = ({ children }: { children: ReactNode }) => {
   const location = useLocation();
   const navigate = useNavigate();
+  // Embed mode (used by the homepage iframe demos): render children only,
+  // skip the sidebar/topbar chrome so the iframed page looks like the real
+  // page without our nav wrapper.
+  const isEmbed =
+    typeof window !== "undefined" &&
+    window.self !== window.top &&
+    new URLSearchParams(location.search).get("embed") === "1";
   const { user, signOut } = useAuth();
   const isDark = useThemeMode();
   const isMobile = useIsMobile();
@@ -208,6 +220,15 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
   const handleThemeToggle = () => {
     applyTheme(!isDark);
   };
+
+  const handleReplayTour = () => {
+    sessionStorage.setItem(ONBOARDING_REPLAY_REQUEST_KEY, "1");
+    window.dispatchEvent(new CustomEvent("onboarding:replay"));
+  };
+
+  if (isEmbed) {
+    return <>{children}</>;
+  }
 
   return (
     <div className="relative min-h-screen">
@@ -305,7 +326,7 @@ export const AppShell = ({ children }: { children: ReactNode }) => {
               label="Replay tour"
               icon={HelpCircle}
               expanded={showExpandedContent}
-              onClick={() => window.dispatchEvent(new CustomEvent("onboarding:replay"))}
+              onClick={handleReplayTour}
               variant="outline"
               title="Replay the intro tour"
               tourId="tour-replay"

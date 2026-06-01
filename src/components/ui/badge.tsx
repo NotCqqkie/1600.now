@@ -10,7 +10,7 @@ const badgeVariants = cva(
     variants: {
       variant: {
         // Default — ink on white with a soft line. Used for skill/difficulty pills.
-        default: "border-ds-line bg-white text-ink-mid font-medium",
+        default: "border-ds-line bg-white text-ink-mid font-medium dark:bg-card dark:text-ink-mid",
         // Secondary — light fill, ink text.
         secondary: "border-transparent bg-ds-accent/40 text-ink",
         // Destructive — bad on bad-tint.

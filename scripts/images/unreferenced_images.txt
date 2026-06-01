@@ -1,2 +1,0 @@
-.DS_Store
-187f74bc_q_01.png

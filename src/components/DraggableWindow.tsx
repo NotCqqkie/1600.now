@@ -26,6 +26,8 @@ interface DraggableWindowProps {
   isMaximized?: boolean; // New prop to control maximization externally
   persistenceKey?: string;
   persistenceStorage?: Storage;
+  portalContainer?: HTMLElement | null;
+  boundsElement?: HTMLElement | null;
   // When true, keep the window mounted in the DOM after close so child state
   // (e.g. a Desmos calculator instance) survives. The window is hidden via
   // display:none instead of unmounted.
@@ -60,6 +62,8 @@ export const DraggableWindow = ({
   isMaximized = false,
   persistenceKey,
   persistenceStorage = localStorage,
+  portalContainer,
+  boundsElement,
   keepMountedWhenClosed = false,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
@@ -113,6 +117,30 @@ export const DraggableWindow = ({
     },
     [persistenceKey, persistenceStorage],
   );
+  const getBounds = useCallback(() => {
+    const element = boundsElement ?? portalContainer;
+    if (element) {
+      const rect = element.getBoundingClientRect();
+      return {
+        width: element.clientWidth || rect.width || window.innerWidth,
+        height: element.clientHeight || rect.height || window.innerHeight,
+      };
+    }
+    return { width: window.innerWidth, height: window.innerHeight };
+  }, [boundsElement, portalContainer]);
+  const getBoundsPoint = useCallback((clientX: number, clientY: number) => {
+    const element = boundsElement ?? portalContainer;
+    if (!element) return { x: clientX, y: clientY };
+    const rect = element.getBoundingClientRect();
+    const width = element.clientWidth || rect.width || 1;
+    const height = element.clientHeight || rect.height || 1;
+    const scaleX = rect.width / width || 1;
+    const scaleY = rect.height / height || 1;
+    return {
+      x: (clientX - rect.left) / scaleX,
+      y: (clientY - rect.top) / scaleY,
+    };
+  }, [boundsElement, portalContainer]);
   
   // Refs for event handlers to access latest state without re-binding listeners
   const positionRef = useRef(position);
@@ -144,9 +172,10 @@ export const DraggableWindow = ({
         }
         setIsReady(true);
       } else {
+        const bounds = getBounds();
         const availableWidth = constrainToLeft 
-          ? (window.innerWidth * constrainToLeft) / 100 
-          : window.innerWidth;
+          ? (bounds.width * constrainToLeft) / 100
+          : bounds.width;
         const bottomBarHeight = 80;
         const persistedState = readPersistedState();
 
@@ -154,12 +183,12 @@ export const DraggableWindow = ({
           const clampedWidth = Math.min(persistedState.size.width, availableWidth);
           const clampedHeight = Math.min(
             persistedState.size.height,
-            window.innerHeight - bottomBarHeight,
+            bounds.height - bottomBarHeight,
           );
           const willBeMinimized = Boolean(persistedState.isMinimized);
           const effectiveHeight = willBeMinimized ? 56 : clampedHeight;
           const maxX = Math.max(0, availableWidth - clampedWidth);
-          const maxY = Math.max(0, window.innerHeight - effectiveHeight - bottomBarHeight);
+          const maxY = Math.max(0, bounds.height - effectiveHeight - bottomBarHeight);
 
           setSize({ width: clampedWidth, height: clampedHeight });
           setPosition({
@@ -170,13 +199,13 @@ export const DraggableWindow = ({
         } else {
           const actualWidth = constrainToLeft 
             ? Math.min(defaultWidth * 0.7, availableWidth - 40) 
-            : defaultWidth;
+            : Math.min(defaultWidth, Math.max(320, availableWidth - 40));
           const actualHeight = constrainToLeft 
-            ? defaultHeight * 0.7 
-            : defaultHeight;
+            ? Math.min(defaultHeight * 0.7, bounds.height - bottomBarHeight)
+            : Math.min(defaultHeight, Math.max(260, bounds.height - bottomBarHeight));
           
           const centerX = (availableWidth - actualWidth) / 2;
-          const centerY = (window.innerHeight - actualHeight) / 2;
+          const centerY = (bounds.height - actualHeight) / 2;
           
           setPosition({ x: Math.max(20, centerX), y: Math.max(60, centerY) });
           setSize({ width: actualWidth, height: actualHeight });
@@ -201,7 +230,7 @@ export const DraggableWindow = ({
     }
 
     prevIsOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState, getBounds]);
 
   // Handle sidebar mode changes - position window in sidebar
   useEffect(() => {
@@ -219,10 +248,11 @@ export const DraggableWindow = ({
 
     if (isSidebarred) {
       const updateSidebarPosition = () => {
-        const splitPixels = (window.innerWidth * splitPosition) / 100;
-        const windowWidth = window.innerWidth - splitPixels;
+        const bounds = getBounds();
+        const splitPixels = (bounds.width * splitPosition) / 100;
+        const windowWidth = bounds.width - splitPixels;
         setPosition({ x: splitPixels, y: 0 });
-        setSize({ width: windowWidth, height: window.innerHeight });
+        setSize({ width: windowWidth, height: bounds.height });
       };
       
       updateSidebarPosition();
@@ -236,8 +266,9 @@ export const DraggableWindow = ({
         const savedState = previousWindowStateRef.current;
         if (savedState) {
           const bottomBarHeight = 80;
-          const maxX = window.innerWidth - savedState.size.width;
-          const maxY = window.innerHeight - savedState.size.height - bottomBarHeight;
+          const bounds = getBounds();
+          const maxX = bounds.width - savedState.size.width;
+          const maxY = bounds.height - savedState.size.height - bottomBarHeight;
 
           setSize(savedState.size);
           setPosition({
@@ -248,15 +279,16 @@ export const DraggableWindow = ({
       }
       wasSidebarredRef.current = false;
     }
-  }, [splitPosition, isSidebarred, isOpen]);
+  }, [splitPosition, isSidebarred, isOpen, getBounds]);
 
   // Immediately check and correct position when un-minimizing
   useEffect(() => {
     if (!isMinimized && isOpen && !isSidebarred && isReady) {
       // Check if window is out of bounds and correct it
       const bottomBarHeight = 80;
-      const maxX = window.innerWidth - size.width;
-      const maxY = window.innerHeight - size.height - bottomBarHeight;
+      const bounds = getBounds();
+      const maxX = bounds.width - size.width;
+      const maxY = bounds.height - size.height - bottomBarHeight;
       
       const correctedX = Math.max(0, Math.min(position.x, maxX));
       const correctedY = Math.max(0, Math.min(position.y, maxY));
@@ -265,7 +297,7 @@ export const DraggableWindow = ({
         setPosition({ x: correctedX, y: correctedY });
       }
     }
-  }, [isMinimized, isOpen, isSidebarred, isReady, size.width, size.height, position.x, position.y]);
+  }, [isMinimized, isOpen, isSidebarred, isReady, size.width, size.height, position.x, position.y, getBounds]);
 
   useEffect(() => {
     if (!isOpen || isSidebarred || !isReady) return;
@@ -290,7 +322,9 @@ export const DraggableWindow = ({
     let latestRoundedPosition: number | null = null;
 
     const updateFromClientX = (clientX: number) => {
-      const newPosition = (clientX / window.innerWidth) * 100;
+      const bounds = getBounds();
+      const point = getBoundsPoint(clientX, 0);
+      const newPosition = (point.x / bounds.width) * 100;
       // Allow the left pane to shrink further so the sidebar can grow up to ~65% of the screen
       const clampedPosition = Math.max(35, Math.min(70, newPosition));
       const roundedPosition = Math.round(clampedPosition * 4) / 4;
@@ -330,7 +364,7 @@ export const DraggableWindow = ({
       document.body.classList.remove("noselect");
       lastSplitPositionRef.current = null;
     };
-  }, [isResizingSplit, isSidebarred, onSplitPositionChange]);
+  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint]);
 
   const beginDragFrom = (clientX: number, clientY: number, target: HTMLElement) => {
     const isHeader = Boolean(target.closest(".window-header"));
@@ -340,9 +374,10 @@ export const DraggableWindow = ({
 
     if (!isSidebarred && isHeader && !isInteractiveTarget) {
       setIsDragging(true);
+      const point = getBoundsPoint(clientX, clientY);
       const newDragOffset = {
-        x: clientX - position.x,
-        y: clientY - position.y,
+        x: point.x - position.x,
+        y: point.y - position.y,
       };
       setDragOffset(newDragOffset);
       dragOffsetRef.current = newDragOffset;
@@ -371,9 +406,10 @@ export const DraggableWindow = ({
     e.preventDefault();
     e.stopPropagation();
     setIsResizing(edge);
+    const point = getBoundsPoint(e.clientX, e.clientY);
     const startData = {
-      x: e.clientX,
-      y: e.clientY,
+      x: point.x,
+      y: point.y,
       width: size.width,
       height: size.height,
       posX: position.x,
@@ -389,10 +425,11 @@ export const DraggableWindow = ({
     e.preventDefault();
     e.stopPropagation();
     const t = e.touches[0];
+    const point = getBoundsPoint(t.clientX, t.clientY);
     setIsResizing(edge);
     const startData = {
-      x: t.clientX,
-      y: t.clientY,
+      x: point.x,
+      y: point.y,
       width: size.width,
       height: size.height,
       posX: position.x,
@@ -411,18 +448,20 @@ export const DraggableWindow = ({
     }
 
     const applyMove = (clientX: number, clientY: number) => {
+      const point = getBoundsPoint(clientX, clientY);
       // Use Refs to access current state inside the closure
       if (isDraggingRef.current) {
-        const newX = clientX - dragOffsetRef.current.x;
-        const newY = clientY - dragOffsetRef.current.y;
+        const newX = point.x - dragOffsetRef.current.x;
+        const newY = point.y - dragOffsetRef.current.y;
         
         // Keep window fully within viewport bounds (can't go off any edge)
         const currentHeight = isMinimizedRef.current ? 56 : sizeRef.current.height;
-        const maxX = window.innerWidth - sizeRef.current.width;
+        const bounds = getBounds();
+        const maxX = bounds.width - sizeRef.current.width;
         const minX = 0;
         // Reserve space for the bottom navigation bar (approx 80px)
         const bottomBarHeight = 80;
-        const maxY = window.innerHeight - currentHeight - bottomBarHeight;
+        const maxY = bounds.height - currentHeight - bottomBarHeight;
         
         setPosition({
           x: Math.max(minX, Math.min(newX, maxX)),
@@ -432,8 +471,8 @@ export const DraggableWindow = ({
 
       if (isResizingRef.current) {
         const currentResizeStart = resizeStartRef.current;
-        const deltaX = clientX - currentResizeStart.x;
-        const deltaY = clientY - currentResizeStart.y;
+        const deltaX = point.x - currentResizeStart.x;
+        const deltaY = point.y - currentResizeStart.y;
         
         let newWidth = currentResizeStart.width; // Use value from start of resize
         let newHeight = currentResizeStart.height; // Use value from start of resize
@@ -487,31 +526,28 @@ export const DraggableWindow = ({
             }
           }
         } else {
+          const bounds = getBounds();
           // Normal resizing
           if (currentResizingEdge.includes('right')) {
             // Cap width to prevent going off screen right
             // but we need to use the current position x, not the started position x?
             // Actually usually X doesn't change when resizing right.
-            const maxWidth = window.innerWidth - currentResizeStart.posX;
+            const maxWidth = bounds.width - currentResizeStart.posX;
             newWidth = Math.max(minWidth, Math.min(currentResizeStart.width + deltaX, maxWidth));
           }
           if (currentResizingEdge.includes('left')) {
             const proposedWidth = currentResizeStart.width - deltaX;
-            if (proposedWidth >= minWidth) {
-              newWidth = proposedWidth;
-              newX = currentResizeStart.posX + deltaX;
-            }
+            newWidth = Math.max(minWidth, proposedWidth);
+            newX = currentResizeStart.posX + currentResizeStart.width - newWidth;
           }
           if (currentResizingEdge.includes('bottom')) {
-             const maxHeight = window.innerHeight - currentResizeStart.posY;
+             const maxHeight = bounds.height - currentResizeStart.posY;
             newHeight = Math.max(minHeight, Math.min(currentResizeStart.height + deltaY, maxHeight));
           }
           if (currentResizingEdge.includes('top')) {
             const proposedHeight = currentResizeStart.height - deltaY;
-            if (proposedHeight >= minHeight) {
-              newHeight = proposedHeight;
-              newY = currentResizeStart.posY + deltaY;
-            }
+            newHeight = Math.max(minHeight, proposedHeight);
+            newY = currentResizeStart.posY + currentResizeStart.height - newHeight;
           }
         }
 
@@ -548,7 +584,7 @@ export const DraggableWindow = ({
       document.removeEventListener("touchend", handlePointerUp);
       document.removeEventListener("touchcancel", handlePointerUp);
     };
-  }, [isDragging, isResizing, lockAspectRatio, diagonalResizeOnly]);
+  }, [isDragging, isResizing, lockAspectRatio, diagonalResizeOnly, getBounds, getBoundsPoint]);
 
   const toggleSidebar = () => {
     const newSidebarState = !isSidebarred;
@@ -589,10 +625,10 @@ export const DraggableWindow = ({
   // dragging the split divider repaints instantly without a React render.
   const windowStyle: React.CSSProperties = isSidebarred && !isMaximized
     ? {
-        left: "var(--sat-split-pct, 70%)",
+        left: `var(--sat-split-pct, ${splitPosition}%)`,
         top: 0,
-        width: "calc(100vw - var(--sat-split-pct, 70%))",
-        height: "100vh",
+        width: `calc(100% - var(--sat-split-pct, ${splitPosition}%))`,
+        height: "100%",
         zIndex,
         visibility: "visible",
         display: isOpen ? undefined : "none",
@@ -600,8 +636,8 @@ export const DraggableWindow = ({
     : {
         left: isMaximized ? 0 : position.x,
         top: isMaximized ? 0 : position.y,
-        width: isMaximized ? '100vw' : size.width,
-        height: isMaximized ? '100vh' : (isMinimized ? '56px' : size.height),
+        width: isMaximized ? '100%' : size.width,
+        height: isMaximized ? '100%' : (isMinimized ? '56px' : size.height),
         zIndex: isMaximized ? 100 : zIndex, // Ensure maximized window is on top
         visibility: (isReady || isMaximized) ? 'visible' : 'hidden',
         display: isOpen ? undefined : 'none',
@@ -617,13 +653,14 @@ export const DraggableWindow = ({
     }
   };
 
-  // Use portal to render directly to body, bypassing any stacking context issues
+  const targetPortalContainer = portalContainer ?? document.body;
+
   return createPortal(
     <>
       {/* Split Screen Divider - rendered by the sidebarred window */}
       {isSidebarred && isOpen && (
         <div
-          className="fixed inset-y-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
+          className="fixed bottom-0 top-0 w-4 cursor-col-resize flex items-center justify-center group touch-none"
           style={{
             left: `calc(var(--sat-split-pct, ${splitPosition}%) - 8px)`,
             zIndex: zIndex + 10 // Always above this window
@@ -766,6 +803,6 @@ export const DraggableWindow = ({
         )}
       </div>
     </>,
-    document.body
+    targetPortalContainer
   );
 };

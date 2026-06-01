@@ -4,6 +4,9 @@
 - Open Firebase Console -> your project -> Authentication -> Sign-in method.
 - Enable `Email/Password`.
 - Enable `Google`.
+- In Authentication -> Settings -> Password policy, require at least `8` characters and at least `1` number.
+- In Authentication -> Settings -> User actions, keep email enumeration protection enabled if available for the project.
+- Keep Firebase Auth's abuse protection enabled. The client adds a local throttle, but production throttling must be enforced by Firebase because the public web API can be called directly.
 
 ## 2) Add Authorized Domains
 - In Authentication -> Settings -> Authorized domains, add each domain you use:
@@ -19,18 +22,13 @@
 - Region: choose the region closest to your users.
 
 ## 4) Firestore Rules (minimum needed for this app)
-- Use rules that only allow each user to read/write their own progress doc:
+- Deploy `firestore.rules` from this repo. Admin access depends on a Firebase custom claim:
 
-```txt
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /user_progress/{userId} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
-    }
-  }
-}
+```js
+await admin.auth().setCustomUserClaims("<ADMIN_UID>", { admin: true });
 ```
+
+- Do not grant admin access by email address. A deleted-and-recreated account with the same email must not become admin.
 
 ## 5) Web App Config
 - Firebase Console -> Project settings -> General -> Your apps -> Web app.

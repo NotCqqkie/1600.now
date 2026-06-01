@@ -59,8 +59,9 @@ export const applyTheme = (isDark: boolean) => {
       startViewTransition?: (cb: () => void) => { finished: Promise<void> };
     }
   ).startViewTransition;
+  const skipViewTransition = Boolean(document.querySelector("[data-home-page='true']"));
 
-  if (startViewTransition && !prefersReducedMotion) {
+  if (startViewTransition && !prefersReducedMotion && !skipViewTransition) {
     // flushSync forces React to commit any re-renders triggered by the
     // theme-change event BEFORE the view transition captures the "new"
     // snapshot. Without it, components that read theme via useThemeMode and

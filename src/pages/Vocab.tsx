@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef, type CSSProperties } from "react";
+import { useState, useMemo, useEffect, useLayoutEffect, useRef, type CSSProperties } from "react";
 import { vocabularySets } from "@/data/vocabulary";
 import { useThemeMode } from "@/hooks/useThemeMode";
 import { useAuth } from "@/contexts/AuthContext";
@@ -197,14 +197,22 @@ const btnPrimary: CSSProperties = {
    ═══════════════════════════════════════════════ */
 
 const TIER_ORDER = ["Foundational", "Intermediate", "Advanced", "Expert"] as const;
+type SetPickerStatus = "nothing" | "in-progress" | "done";
+const SET_STATUS_META: Record<SetPickerStatus, { label: string; color: string }> = {
+  nothing: { label: "No progress", color: "hsl(215 16% 65%)" },
+  "in-progress": { label: "In progress", color: "hsl(38 92% 50%)" },
+  done: { label: "Done", color: "hsl(145 63% 39%)" },
+};
 
 function SetPicker({
   setOptions,
   activeSetId,
+  setStatuses,
   onPick,
 }: {
   setOptions: { id: string; name: string }[];
   activeSetId: string;
+  setStatuses: Record<string, SetPickerStatus>;
   onPick: (id: string) => void;
 }) {
   const groups = new Map<string, { id: string; num: string; raw: string }[]>();
@@ -238,6 +246,23 @@ function SetPicker({
         width: "max-content",
       }}
     >
+      <div style={{ display: "flex", gap: 10, padding: "0 2px 2px", borderBottom: `1px solid ${borderC}`, paddingBottom: 10 }}>
+        {(Object.keys(SET_STATUS_META) as SetPickerStatus[]).map(status => (
+          <div key={status} style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 11, color: muted, whiteSpace: "nowrap" }}>
+            <span
+              style={{
+                width: 8,
+                height: 8,
+                borderRadius: 999,
+                background: SET_STATUS_META[status].color,
+                boxShadow: `0 0 0 1px ${borderC}`,
+                flexShrink: 0,
+              }}
+            />
+            {SET_STATUS_META[status].label}
+          </div>
+        ))}
+      </div>
       {TIER_ORDER.filter(t => groups.has(t)).map(tier => {
         const items = groups.get(tier)!;
         return (
@@ -258,12 +283,15 @@ function SetPicker({
             <div style={{ display: "flex", gap: 4 }}>
               {items.map(it => {
                 const on = it.id === activeSetId;
+                const status = setStatuses[it.id] ?? "nothing";
+                const statusColor = SET_STATUS_META[status].color;
                 return (
                   <button
                     key={it.id}
                     onClick={() => onPick(it.id)}
-                    title={it.raw}
+                    title={`${it.raw} · ${SET_STATUS_META[status].label}`}
                     style={{
+                      position: "relative",
                       width: 30,
                       height: 30,
                       borderRadius: 7,
@@ -278,6 +306,18 @@ function SetPicker({
                       transition: "all .15s",
                     }}
                   >
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: 3,
+                        right: 3,
+                        width: 7,
+                        height: 7,
+                        borderRadius: 999,
+                        background: statusColor,
+                        boxShadow: `0 0 0 1px ${on ? "hsl(var(--background))" : cardBg}`,
+                      }}
+                    />
                     {it.num}
                   </button>
                 );
@@ -290,12 +330,15 @@ function SetPicker({
         <div style={{ display: "flex", flexDirection: "column", gap: 2, paddingTop: 6, borderTop: `1px solid ${borderC}` }}>
           {ungrouped.map(s => {
             const on = s.id === activeSetId;
+            const status = setStatuses[s.id] ?? "nothing";
             return (
               <button
                 key={s.id}
                 onClick={() => onPick(s.id)}
                 style={{
-                  display: "block",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 8,
                   width: "100%",
                   textAlign: "left",
                   padding: "8px 10px",
@@ -309,6 +352,16 @@ function SetPicker({
                   fontWeight: on ? 600 : 500,
                 }}
               >
+                <span
+                  style={{
+                    width: 8,
+                    height: 8,
+                    borderRadius: 999,
+                    background: SET_STATUS_META[status].color,
+                    boxShadow: `0 0 0 1px ${borderC}`,
+                    flexShrink: 0,
+                  }}
+                />
                 {s.name}
               </button>
             );
@@ -323,6 +376,104 @@ function SetPicker({
    Header
    ═══════════════════════════════════════════════ */
 
+function ModeTabs({
+  modes,
+  mode,
+  setMode,
+  surface,
+  borderC,
+}: {
+  modes: [Mode, string][];
+  mode: Mode;
+  setMode: (m: Mode) => void;
+  surface: string;
+  borderC: string;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const btnRefs = useRef<Map<Mode, HTMLButtonElement>>(new Map());
+  const [slider, setSlider] = useState({ left: 0, width: 0 });
+  const [ready, setReady] = useState(false);
+  const [animate, setAnimate] = useState(false);
+
+  useLayoutEffect(() => {
+    const c = containerRef.current;
+    const b = btnRefs.current.get(mode);
+    if (!c || !b) return;
+    const cr = c.getBoundingClientRect();
+    const br = b.getBoundingClientRect();
+    setSlider({ left: br.left - cr.left, width: br.width });
+    setReady(true);
+  }, [mode]);
+
+  useEffect(() => {
+    if (!ready || animate) return;
+    const id = requestAnimationFrame(() => setAnimate(true));
+    return () => cancelAnimationFrame(id);
+  }, [ready, animate]);
+
+  return (
+    <div
+      ref={containerRef}
+      style={{
+        position: "relative",
+        display: "flex",
+        gap: 4,
+        padding: 4,
+        borderRadius: 12,
+        background: surface,
+        border: `1px solid ${borderC}`,
+        width: "fit-content",
+        maxWidth: "100%",
+        overflowX: "auto",
+      }}
+    >
+      <div
+        style={{
+          position: "absolute",
+          top: 4,
+          bottom: 4,
+          left: slider.left,
+          width: slider.width,
+          borderRadius: 8,
+          background: cardBg,
+          border: `1px solid rgba(14,33,56,0.08)`,
+          boxShadow: "0 1px 2px rgba(14,33,56,0.06)",
+          transition: animate ? "left .25s ease-out, width .25s ease-out" : "none",
+          visibility: ready ? "visible" : "hidden",
+          pointerEvents: "none",
+        }}
+      />
+      {modes.map(([id, label]) => {
+        const on = mode === id;
+        return (
+          <button
+            key={id}
+            ref={(el) => { if (el) btnRefs.current.set(id, el); }}
+            onClick={() => setMode(id)}
+            style={{
+              position: "relative",
+              zIndex: 1,
+              padding: "10px 18px",
+              borderRadius: 8,
+              border: "1px solid transparent",
+              background: "transparent",
+              cursor: "pointer",
+              fontFamily: "'Inter', sans-serif",
+              fontSize: 14,
+              fontWeight: on ? 600 : 500,
+              color: on ? "rgb(var(--ink))" : "rgb(var(--ink-mid))",
+              transition: "color .15s, font-weight .15s",
+              whiteSpace: "nowrap",
+            }}
+          >
+            {label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 function Header({
   mode,
   setMode,
@@ -330,6 +481,7 @@ function Header({
   wordCount,
   setOptions,
   activeSetId,
+  setStatuses,
   onSetChange,
 }: {
   mode: Mode;
@@ -338,6 +490,7 @@ function Header({
   wordCount: number;
   setOptions: { id: string; name: string }[];
   activeSetId: string;
+  setStatuses: Record<string, SetPickerStatus>;
   onSetChange: (id: string) => void;
 }) {
   const modes: [Mode, string][] = [
@@ -423,6 +576,7 @@ function Header({
             <SetPicker
               setOptions={setOptions}
               activeSetId={activeSetId}
+              setStatuses={setStatuses}
               onPick={id => {
                 onSetChange(id);
                 setOpen(false);
@@ -431,46 +585,7 @@ function Header({
           )}
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          gap: 4,
-          padding: 4,
-          borderRadius: 12,
-          background: surface,
-          border: `1px solid ${borderC}`,
-          width: "fit-content",
-          maxWidth: "100%",
-          overflowX: "auto",
-        }}
-      >
-        {/* Mode tabs. Off: Inter 500, 14px, ink-mid. On: 600, ink on white card. */}
-        {modes.map(([id, label]) => {
-          const on = mode === id;
-          return (
-            <button
-              key={id}
-              onClick={() => setMode(id)}
-              style={{
-                padding: "10px 18px",
-                borderRadius: 8,
-                border: on ? `1px solid rgba(14,33,56,0.08)` : "1px solid transparent",
-                cursor: "pointer",
-                fontFamily: "'Inter', sans-serif",
-                fontSize: 14,
-                fontWeight: on ? 600 : 500,
-                background: on ? cardBg : "transparent",
-                color: on ? "rgb(var(--ink))" : "rgb(var(--ink-mid))",
-                boxShadow: on ? "0 1px 2px rgba(14,33,56,0.06)" : "none",
-                transition: "all .15s",
-                whiteSpace: "nowrap",
-              }}
-            >
-              {label}
-            </button>
-          );
-        })}
-      </div>
+      <ModeTabs modes={modes} mode={mode} setMode={setMode} surface={surface} borderC={borderC} />
     </div>
   );
 }
@@ -1388,13 +1503,6 @@ function Learn({
         })}
       </div>
 
-      {revealed && (
-        <div style={{ padding: "16px 18px", borderRadius: 12, background: surface, border: `1px solid ${borderC}` }}>
-          <div style={{ fontSize: 13, color: muted, marginBottom: 6 }}>Why it sticks</div>
-          <p style={{ margin: 0, fontSize: 14, lineHeight: 1.55, color: fg }}>The key meaning: {w.def}.</p>
-        </div>
-      )}
-
       <div style={{ marginTop: 20, display: "flex", justifyContent: "flex-end", gap: 10 }}>
         {!revealed && (
           <button onClick={advance} style={{ ...btnSecondary, padding: "0 18px" }}>
@@ -1448,12 +1556,10 @@ function Match({
   deck,
   isDark,
   onMark,
-  onResetSet,
 }: {
   deck: Word[];
   isDark: boolean;
   onMark: (id: string, s: StudyStatus) => void;
-  onResetSet: () => void;
 }) {
   const okFgL = isDark ? "hsl(122 60% 65%)" : okFg;
   const okBgL = isDark ? "hsl(122 40% 15%)" : okBg;
@@ -1466,8 +1572,9 @@ function Match({
   const [pool, setPool] = useState<Word[]>([]);
   const [defOrder, setDefOrder] = useState<number[]>([]);
   const [links, setLinks] = useState<Record<number, number>>({});
+  const [missCounts, setMissCounts] = useState<Record<number, number>>({});
+  const [missedPair, setMissedPair] = useState<{ wi: number; slot: number } | null>(null);
   const [selected, setSelected] = useState<number | null>(null);
-  const [confirmReset, setConfirmReset] = useState(false);
 
   const startRound = () => {
     const next = buildMatchPool(deckRef.current);
@@ -1479,14 +1586,14 @@ function Match({
     setPool(next);
     setDefOrder(order);
     setLinks({});
+    setMissCounts({});
+    setMissedPair(null);
     setSelected(null);
-    setConfirmReset(false);
   };
 
   const deckIds = deck.map(w => w.id).join("|");
   useEffect(() => {
     startRound();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deckIds]);
 
   const pick = (wi: number) => {
@@ -1499,23 +1606,28 @@ function Match({
     if (Object.values(links).includes(slot)) return;
     const wi = selected;
     const correct = wi === defOrder[slot];
+    if (!correct) {
+      setMissCounts(prev => ({ ...prev, [wi]: (prev[wi] ?? 0) + 1 }));
+      setMissedPair({ wi, slot });
+      window.setTimeout(() => {
+        setMissedPair(current => (current?.wi === wi && current.slot === slot ? null : current));
+      }, 500);
+      return;
+    }
     setLinks(prev => ({ ...prev, [wi]: slot }));
     setSelected(null);
+    setMissedPair(null);
     const target = pool[wi];
-    if (target) onMark(target.id, correct ? "mastered" : "learning");
+    if (target) onMark(target.id, (missCounts[wi] ?? 0) > 0 ? "learning" : "mastered");
   };
 
   const matched = (wi: number, slot: number) => wi === defOrder[slot];
   const resolved = Object.keys(links).length;
   const total = pool.length;
-  const correctCount = Object.entries(links).filter(([wi, slot]) => Number(wi) === defOrder[slot]).length;
-  const wrongCount = resolved - correctCount;
+  const correctCount = resolved;
+  const wrongCount = Object.values(missCounts).reduce((sum, count) => sum + count, 0);
+  const practicedAgainCount = Object.keys(missCounts).length;
   const done = total > 0 && resolved >= total;
-
-  const resetAndStart = () => {
-    onResetSet();
-    setTimeout(() => startRound(), 0);
-  };
 
   if (deck.length === 0) {
     return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
@@ -1564,8 +1676,9 @@ function Match({
             const linked = links[i] !== undefined;
             const isSel = selected === i;
             const correct = linked && matched(i, links[i]);
-            const b = correct ? okFgL : linked ? errFgL : isSel ? primary : borderC;
-            const bg = correct ? okBgL : linked ? errBgL : isSel ? primary2 : cardBg;
+            const isMissed = missedPair?.wi === i;
+            const b = correct ? okFgL : isMissed ? errFgL : isSel ? primary : borderC;
+            const bg = correct ? okBgL : isMissed ? errBgL : isSel ? primary2 : cardBg;
             return (
               <button
                 key={i}
@@ -1589,7 +1702,7 @@ function Match({
               >
                 <span style={{ fontSize: 18, fontWeight: 500 }}>{w.w}</span>
                 {linked && (
-                  <span style={{ fontSize: 16, color: correct ? okFgL : errFgL }}>{correct ? "✓" : "✕"}</span>
+                  <span style={{ fontSize: 16, color: okFgL }}>✓</span>
                 )}
               </button>
             );
@@ -1601,8 +1714,9 @@ function Match({
             const linkedFrom = Object.entries(links).find(([, v]) => v === slot);
             const filled = linkedFrom !== undefined;
             const correct = filled && matched(Number(linkedFrom![0]), slot);
-            const b = correct ? okFgL : filled ? errFgL : selected !== null ? primary : borderC;
-            const bg = correct ? okBgL : filled ? errBgL : cardBg;
+            const isMissed = missedPair?.slot === slot;
+            const b = correct ? okFgL : isMissed ? errFgL : selected !== null ? primary : borderC;
+            const bg = correct ? okBgL : isMissed ? errBgL : cardBg;
             return (
               <button
                 key={slot}
@@ -1648,45 +1762,16 @@ function Match({
             <div style={{ fontSize: 16, fontWeight: 600, color: fg }}>
               {correctCount} of {total} correct
             </div>
-            {wrongCount > 0 && (
-              <div style={{ fontSize: 13, color: muted, marginTop: 4 }}>
-                Missed pairs are now flagged as still-learning.
-              </div>
-            )}
+            <div style={{ fontSize: 13, color: muted, marginTop: 4 }}>
+              {wrongCount === 0
+                ? "No retry attempts."
+                : `${wrongCount} retry attempt${wrongCount === 1 ? "" : "s"} across ${practicedAgainCount} word${practicedAgainCount === 1 ? "" : "s"}.`}
+            </div>
           </div>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             <button onClick={startRound} style={{ ...btnPrimary, padding: "0 22px", height: 42 }}>
               Next round
             </button>
-            {!confirmReset ? (
-              <button
-                onClick={() => setConfirmReset(true)}
-                style={{ ...btnSecondary, padding: "0 18px", height: 42, color: muted }}
-              >
-                Reset progress
-              </button>
-            ) : (
-              <>
-                <button
-                  onClick={() => setConfirmReset(false)}
-                  style={{ ...btnSecondary, padding: "0 14px", height: 42 }}
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={resetAndStart}
-                  style={{
-                    ...btnPrimary,
-                    padding: "0 14px",
-                    height: 42,
-                    background: errFg,
-                    borderColor: errFg,
-                  }}
-                >
-                  Confirm reset
-                </button>
-              </>
-            )}
           </div>
         </div>
       )}
@@ -1717,14 +1802,23 @@ function buildTestQuestions(deck: Word[]): Word[] {
   return pool.slice(0, Math.min(TEST_QUESTION_COUNT, pool.length));
 }
 
+type TestResult = {
+  word: Word;
+  correctWord: string;
+  pickedWord: string | null;
+  correct: boolean;
+};
+
 function Test({
   deck,
   onMark,
   onResetSet,
+  setName,
 }: {
   deck: Word[];
   onMark: (id: string, s: StudyStatus) => void;
   onResetSet: () => void;
+  setName: string;
 }) {
   const deckRef = useRef(deck);
   deckRef.current = deck;
@@ -1732,7 +1826,7 @@ function Test({
   const [questions, setQuestions] = useState<Word[]>([]);
   const [qIdx, setQIdx] = useState(0);
   const [sel, setSel] = useState<number | null>(null);
-  const [correctCount, setCorrectCount] = useState(0);
+  const [results, setResults] = useState<TestResult[]>([]);
   const [timeLeft, setTimeLeft] = useState(TEST_PER_Q_SECONDS);
   const [done, setDone] = useState(false);
   const [confirmReset, setConfirmReset] = useState(false);
@@ -1742,7 +1836,7 @@ function Test({
     setQuestions(buildTestQuestions(deckRef.current));
     setQIdx(0);
     setSel(null);
-    setCorrectCount(0);
+    setResults([]);
     setTimeLeft(TEST_PER_Q_SECONDS);
     setDone(false);
     setConfirmReset(false);
@@ -1793,8 +1887,18 @@ function Test({
   }, [timeLeft, done, questions.length]);
 
   const goNext = (wasCorrect: boolean) => {
-    if (q) onMark(q.id, wasCorrect ? "mastered" : "learning");
-    if (wasCorrect) setCorrectCount(c => c + 1);
+    if (q) {
+      onMark(q.id, wasCorrect ? "mastered" : "learning");
+      setResults(prev => [
+        ...prev,
+        {
+          word: q,
+          correctWord: q.w,
+          pickedWord: sel !== null ? options.words[sel] : null,
+          correct: wasCorrect,
+        },
+      ]);
+    }
     if (qIdx + 1 >= questions.length) {
       setDone(true);
     } else {
@@ -1806,7 +1910,7 @@ function Test({
     setQuestions(buildTestQuestions(deckRef.current));
     setQIdx(0);
     setSel(null);
-    setCorrectCount(0);
+    setResults([]);
     setTimeLeft(TEST_PER_Q_SECONDS);
     setDone(false);
   };
@@ -1817,7 +1921,7 @@ function Test({
       setQuestions(buildTestQuestions(deckRef.current));
       setQIdx(0);
       setSel(null);
-      setCorrectCount(0);
+      setResults([]);
       setTimeLeft(TEST_PER_Q_SECONDS);
       setDone(false);
       setConfirmReset(false);
@@ -1827,8 +1931,9 @@ function Test({
   if (!deck.length) return <div style={{ color: muted, textAlign: "center", padding: 40 }}>No words.</div>;
 
   if (done) {
+    const correctCount = results.filter(r => r.correct).length;
     return (
-      <div style={{ maxWidth: 520, margin: "0 auto", textAlign: "center" }}>
+      <div style={{ maxWidth: 640, margin: "0 auto" }}>
         <div
           style={{
             padding: "32px 28px",
@@ -1838,39 +1943,150 @@ function Test({
             boxShadow: "0 12px 32px -18px rgba(15,23,42,.12)",
           }}
         >
-          <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Session complete</h2>
-          <p style={{ margin: "10px 0 22px", color: muted, fontSize: 15 }}>
-            {correctCount} / {questions.length} correct
-          </p>
+          <div style={{ textAlign: "center" }}>
+            <h2 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: fg }}>Session complete</h2>
+            <p style={{ margin: "10px 0 24px", color: muted, fontSize: 15 }}>
+              {correctCount} / {results.length} correct
+            </p>
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 24 }}>
+            {results.map((r, i) => (
+              <div
+                key={`${r.word.id}-${i}`}
+                style={{
+                  display: "flex",
+                  gap: 12,
+                  padding: "12px 14px",
+                  borderRadius: 10,
+                  background: r.correct ? okBg : errBg,
+                  border: `1px solid ${r.correct ? okFg : errFg}33`,
+                }}
+              >
+                <div
+                  style={{
+                    width: 22,
+                    height: 22,
+                    borderRadius: 999,
+                    background: r.correct ? okFg : errFg,
+                    color: "#fff",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: 13,
+                    fontWeight: 700,
+                    flexShrink: 0,
+                    marginTop: 2,
+                  }}
+                >
+                  {r.correct ? "✓" : "✕"}
+                </div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", gap: 12, alignItems: "baseline" }}>
+                    <span style={{ fontSize: 15, fontWeight: 600, color: fg }}>{r.correctWord}</span>
+                    {!r.correct && (
+                      <span style={{ fontSize: 12, color: errFg, whiteSpace: "nowrap" }}>
+                        you picked: {r.pickedWord ?? "—"}
+                      </span>
+                    )}
+                  </div>
+                  <div style={{ fontSize: 13, color: muted, marginTop: 2, lineHeight: 1.45 }}>{r.word.def}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
           <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
             <button onClick={restart} style={{ ...btnPrimary, padding: "0 24px" }}>
               New test
             </button>
-            {!confirmReset ? (
-              <button
-                onClick={() => setConfirmReset(true)}
-                style={{ ...btnSecondary, padding: "0 24px", color: muted }}
+            <button
+              onClick={() => setConfirmReset(true)}
+              style={{ ...btnSecondary, padding: "0 24px", color: muted }}
+            >
+              Reset progress for this set
+            </button>
+          </div>
+        </div>
+
+        {confirmReset && (
+          <div
+            style={{
+              position: "fixed",
+              inset: 0,
+              background: "rgba(15,23,42,0.55)",
+              backdropFilter: "blur(4px)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              padding: 20,
+              zIndex: 1000,
+            }}
+            onClick={() => setConfirmReset(false)}
+          >
+            <div
+              onClick={e => e.stopPropagation()}
+              style={{
+                maxWidth: 460,
+                width: "100%",
+                background: cardBg,
+                border: `1px solid ${borderC}`,
+                borderRadius: 16,
+                padding: "28px 28px 24px",
+                boxShadow: "0 24px 64px -24px rgba(15,23,42,.4)",
+              }}
+            >
+              <div
+                style={{
+                  width: 44,
+                  height: 44,
+                  borderRadius: 999,
+                  background: `${errFg}1a`,
+                  color: errFg,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  fontSize: 22,
+                  fontWeight: 700,
+                  margin: "0 auto 14px",
+                }}
               >
-                Reset progress for this set
-              </button>
-            ) : (
-              <div style={{ display: "flex", gap: 8 }}>
+                !
+              </div>
+              <h2 style={{ margin: 0, fontSize: 20, fontWeight: 600, color: fg, textAlign: "center" }}>
+                Reset progress for this set?
+              </h2>
+              <p style={{ margin: "12px 0 8px", color: fg, fontSize: 14, textAlign: "center", lineHeight: 1.55 }}>
+                Mastery and learning history for{" "}
+                <span style={{ fontWeight: 600 }}>{setName || "this set"}</span> will be cleared.
+              </p>
+              <p style={{ margin: "0 0 22px", color: muted, fontSize: 13, textAlign: "center", lineHeight: 1.5 }}>
+                Only this set is affected. Your progress on other sets stays intact.
+              </p>
+              <div style={{ display: "flex", gap: 10 }}>
                 <button
                   onClick={() => setConfirmReset(false)}
-                  style={{ ...btnSecondary, padding: "0 18px", flex: 1 }}
+                  style={{ ...btnSecondary, padding: "0 18px", flex: 1, height: 44 }}
                 >
                   Cancel
                 </button>
                 <button
                   onClick={resetAndStart}
-                  style={{ ...btnPrimary, padding: "0 18px", flex: 1, background: errFg, borderColor: errFg }}
+                  style={{
+                    ...btnPrimary,
+                    padding: "0 18px",
+                    flex: 1,
+                    height: 44,
+                    background: errFg,
+                    borderColor: errFg,
+                  }}
                 >
-                  Confirm reset
+                  Reset this set
                 </button>
               </div>
-            )}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     );
   }
@@ -2336,6 +2552,20 @@ const Vocab = () => {
   }, [activeSet, progress]);
 
   const setOptions = vocabularySets.map(s => ({ id: s.id, name: s.name }));
+  const setStatuses = useMemo(() => {
+    const next: Record<string, SetPickerStatus> = {};
+    for (const set of vocabularySets) {
+      const wordIds = set.words.map(w => `${set.id}::${w.word.toLowerCase()}`);
+      const progressed = wordIds.filter(id => progress[id] && progress[id] !== "new").length;
+      const mastered = wordIds.filter(id => progress[id] === "mastered").length;
+      next[set.id] = mastered === wordIds.length && wordIds.length > 0
+        ? "done"
+        : progressed > 0
+          ? "in-progress"
+          : "nothing";
+    }
+    return next;
+  }, [progress]);
 
   const resetActive = () => {
     if (activeSet) resetSet(activeSet.id);
@@ -2355,8 +2585,11 @@ const Vocab = () => {
   else if (mode === "learn")
     content = <Learn deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
   else if (mode === "match")
-    content = <Match deck={deck} isDark={isDark} onMark={markWord} onResetSet={resetActive} />;
-  else if (mode === "test") content = <Test deck={deck} onMark={markWord} onResetSet={resetActive} />;
+    content = <Match deck={deck} isDark={isDark} onMark={markWord} />;
+  else if (mode === "test")
+    content = (
+      <Test deck={deck} onMark={markWord} onResetSet={resetActive} setName={activeSet?.name ?? ""} />
+    );
   else if (mode === "browse") content = <Browse deck={deck} isDark={isDark} onResetSet={resetActive} />;
 
   return (
@@ -2369,6 +2602,7 @@ const Vocab = () => {
         wordCount={deck.length}
         setOptions={setOptions}
         activeSetId={activeSet?.id ?? ""}
+        setStatuses={setStatuses}
         onSetChange={setActiveSetId}
       />
       {content}

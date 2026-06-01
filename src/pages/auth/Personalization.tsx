@@ -109,7 +109,7 @@ const Personalization = () => {
                         className={cn(
                           "flex flex-col items-start gap-1 rounded-lg border-2 p-3 text-left transition-colors",
                           selected
-                            ? "border-primary bg-primary/5"
+                            ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
                             : "border-border hover:bg-muted/40",
                         )}
                       >
@@ -157,7 +157,7 @@ const Personalization = () => {
                         className={cn(
                           "flex flex-1 min-w-[80px] flex-col items-center gap-1 rounded-lg border-2 px-3 py-2 transition-colors",
                           selected
-                            ? "border-primary bg-primary/5"
+                            ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
                             : "border-border hover:bg-muted/40",
                         )}
                       >
@@ -239,7 +239,7 @@ const PreviewQuestion = ({ isDarkMode }: { isDarkMode: boolean }) => {
               className={cn(
                 "flex w-full items-center gap-3 rounded-lg border-2 p-3 text-left transition-colors",
                 isSelected
-                  ? "border-primary bg-primary/5"
+                  ? "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15"
                   : "border-border hover:bg-muted/40",
               )}
             >

@@ -1,4 +1,4 @@
-import { useParams, useNavigate, useLocation, useSearchParams } from "react-router-dom";
+import { useParams, useNavigate, useLocation, useSearchParams, type NavigateOptions, type To } from "react-router-dom";
 import { useState, useEffect, useRef, useLayoutEffect, useMemo, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,7 +14,7 @@ import { ReportQuestionDialog } from "@/components/question/ReportQuestionDialog
 import { MultipleChoiceQuestion } from "@/components/question/MultipleChoiceQuestion";
 import { PreviousAttemptsDialog } from "@/components/question/PreviousAttemptsDialog";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
-import { ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Flag, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
+import { BookOpenCheck, ChevronLeft, ChevronRight, Check, Bookmark, Eye, EyeOff, Flag, Pause, Play, Strikethrough, Maximize2, Minimize2, Rows3, Columns3, Info, Highlighter, Moon, MoreHorizontal, StickyNote, Sun } from "lucide-react";
 import { toast } from "sonner";
 import {
   DropdownMenu,
@@ -51,15 +51,19 @@ import {
   getBankQuestion,
   getBankQuestionBySourceId,
   normalizeBankSource,
+  type BankQuestion,
   type BankSourceFilter,
 } from "@/data/questionBank";
-import { getSynthesizedPracticeQuestion } from "@/data/modulePracticeBank";
+import type { PracticeModule, PracticeSet } from "@/data/modulePracticeBank";
+import {
+  createCustomPracticeSetForQuestion,
+  launchCustomPracticeSet,
+} from "@/lib/practice/customPracticeSets";
 import { cn, normalizePublicAssetPath } from "@/lib/utils";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { applyTheme } from "@/lib/theme";
-import { getPracticeModule, getPracticeSet } from "@/data/modulePracticeBank";
 import {
   buildModulePracticeResult,
   clearModulePracticeSession,
@@ -95,6 +99,22 @@ const hardQuestions = originalQuestions.map(q => ({
   ...q,
   uuid: `hard-${q.id}`
 }));
+
+type ModulePracticeBankApi = typeof import("@/data/modulePracticeBank");
+
+type QuestionPreviewEmbedConfig = {
+  subject: "math" | "reading";
+  id: string;
+  bankType?: BankSourceFilter;
+  isDarkMode: boolean;
+  onNavigate?: (to: string) => void;
+  onOpenBank?: () => void;
+  onReady?: () => void;
+};
+
+type QuestionProps = {
+  previewEmbed?: QuestionPreviewEmbedConfig;
+};
 
 type LowerThanHysteresisArgs = {
   currentState: boolean;
@@ -399,33 +419,86 @@ const getQuestionViewModeStorageKey = (
   return "question-view-mode:hard";
 };
 
+const getStoredQuestionViewMode = (
+  subject: "math" | "reading",
+  isBank: boolean,
+): QuestionViewMode => {
+  const storedMode = sessionStorage.getItem(getQuestionViewModeStorageKey(subject, isBank));
+  return storedMode === "horizontal" || storedMode === "vertical"
+    ? storedMode
+    : getDefaultQuestionViewMode(subject, isBank);
+};
+
 const getDefaultQuestionSplitPosition = (subject: "math" | "reading") =>
   subject === "reading" ? 55 : 50;
 
 const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
+const QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY = "question-bank-hide-answer-choices";
+const QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY = "question-bank-strikeout-mode";
 
-const EPHEMERAL_STORAGE: Storage = {
-  length: 0,
-  clear: () => {},
-  getItem: () => null,
-  setItem: () => {},
-  removeItem: () => {},
-  key: () => null,
+const questionBankViewerStorageData = new Map<string, string>();
+let isQuestionBankViewerStorageActive = true;
+
+const activateQuestionBankViewerStorage = () => {
+  isQuestionBankViewerStorageActive = true;
 };
 
-function Question() {
+const clearQuestionBankViewerStorage = () => {
+  questionBankViewerStorageData.clear();
+  isQuestionBankViewerStorageActive = false;
+};
+
+const isQuestionViewerPath = (pathname: string) =>
+  /^\/hard\/[^/]+$/.test(pathname) ||
+  /^\/bank\/(?:math|reading)\/(?!browse$)[^/]+$/.test(pathname);
+
+const QUESTION_BANK_VIEWER_STORAGE: Storage = {
+  get length() {
+    return questionBankViewerStorageData.size;
+  },
+  clear: () => {
+    questionBankViewerStorageData.clear();
+  },
+  getItem: (key) => questionBankViewerStorageData.get(key) ?? null,
+  setItem: (key, value) => {
+    if (!isQuestionBankViewerStorageActive) return;
+    questionBankViewerStorageData.set(key, value);
+  },
+  removeItem: (key) => {
+    questionBankViewerStorageData.delete(key);
+  },
+  key: (index) => Array.from(questionBankViewerStorageData.keys())[index] ?? null,
+};
+
+export function Question({ previewEmbed }: QuestionProps = {}) {
   const { id, subject: rawSubject } = useParams<{ id: string; subject?: string }>();
-  const navigate = useNavigate();
+  const routerNavigate = useNavigate();
+  const navigate = useCallback((to: To | number, options?: NavigateOptions) => {
+    if (previewEmbed) {
+      if (typeof to === "string") previewEmbed.onNavigate?.(to);
+      return;
+    }
+    if (typeof to === "number") {
+      routerNavigate(to);
+      return;
+    }
+    routerNavigate(to, options);
+  }, [previewEmbed, routerNavigate]);
   const location = useLocation();
   const [searchParams] = useSearchParams();
-  // The embed=1 mode is only intended for the homepage iframe preview. If a
-  // user navigates here directly (top-level window), strip the embed param
-  // and reload as a normal question page so they don't get the cropped/no-
-  // scroll preview UI.
-  const requestedEmbed = searchParams.get("embed") === "1";
+  // The embed=1 URL mode is only intended for embedded previews. If a user
+  // navigates here directly (top-level window), strip the embed param and
+  // reload as a normal question page so they don't get the cropped/no-scroll
+  // preview UI.
+  const isNativeEmbed = Boolean(previewEmbed);
+  const [questionRootElement, setQuestionRootElement] = useState<HTMLDivElement | null>(null);
+  const handleQuestionRootRef = useCallback((node: HTMLDivElement | null) => {
+    setQuestionRootElement((current) => (current === node ? current : node));
+  }, []);
+  const requestedEmbed = isNativeEmbed || searchParams.get("embed") === "1";
   const inIframe = typeof window !== "undefined" && window.self !== window.top;
   useEffect(() => {
-    if (!requestedEmbed || inIframe) return;
+    if (!requestedEmbed || inIframe || isNativeEmbed) return;
     const stripped = new URLSearchParams(searchParams);
     stripped.delete("embed");
     stripped.delete("theme");
@@ -433,55 +506,97 @@ function Question() {
       { pathname: location.pathname, search: stripped.toString() ? `?${stripped}` : "" },
       { replace: true },
     );
-  }, [requestedEmbed, inIframe, navigate, location.pathname, searchParams]);
-  const isEmbed = requestedEmbed && inIframe;
+  }, [requestedEmbed, inIframe, isNativeEmbed, navigate, location.pathname, searchParams]);
+  const isEmbed = requestedEmbed && (inIframe || isNativeEmbed);
   const sharedIsDark = useThemeMode();
   const embedThemeParam = searchParams.get("theme");
   const [embedIsDark, setEmbedIsDark] = useState<boolean>(() =>
-    embedThemeParam === "dark"
+    previewEmbed
+      ? previewEmbed.isDarkMode
+      : embedThemeParam === "dark"
       ? true
       : embedThemeParam === "light"
         ? false
         : sharedIsDark,
   );
-  // In embed mode: apply theme to THIS iframe's document only (no localStorage,
+  useEffect(() => {
+    if (previewEmbed) setEmbedIsDark(previewEmbed.isDarkMode);
+  }, [previewEmbed?.isDarkMode]);
+  // In iframe embed mode: apply theme to that document only (no localStorage,
   // no event dispatch, so toggling inside the preview won't flip the parent).
   useEffect(() => {
-    if (!isEmbed || typeof document === "undefined") return;
+    if (!isEmbed || isNativeEmbed || typeof document === "undefined") return;
     const root = document.documentElement;
     root.classList.toggle("dark", embedIsDark);
     root.style.colorScheme = embedIsDark ? "dark" : "light";
-  }, [isEmbed, embedIsDark]);
-  // In embed mode: disable internal scrolling + forward wheel to parent page.
-  // preventDefault + passive:false stops the browser from also bubbling the
-  // wheel natively, which would double-scroll the parent.
+  }, [isEmbed, isNativeEmbed, embedIsDark]);
   useEffect(() => {
-    if (!isEmbed || typeof document === "undefined") return;
+    if (!isEmbed || isNativeEmbed || typeof document === "undefined") return;
     const prevHtml = document.documentElement.style.overflow;
     const prevBody = document.body.style.overflow;
     document.documentElement.style.overflow = "hidden";
     document.body.style.overflow = "hidden";
-    const forwardWheel = (e: WheelEvent) => {
-      e.preventDefault();
+    let lastTouchX: number | null = null;
+    let lastTouchY: number | null = null;
+    const forwardScroll = (deltaX: number, deltaY: number) => {
+      if (!deltaX && !deltaY) return;
       try {
         window.parent?.postMessage(
-          { type: "heroWheel", deltaY: e.deltaY, deltaX: e.deltaX },
-          "*",
+          { type: "homeDemoScroll", deltaX, deltaY },
+          window.location.origin,
         );
       } catch {
         /* noop */
       }
     };
-    window.addEventListener("wheel", forwardWheel, { passive: false });
+    const forwardWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      forwardScroll(e.deltaX, e.deltaY);
+    };
+    const forwardTouchStart = (e: TouchEvent) => {
+      if (e.touches.length !== 1) {
+        lastTouchX = null;
+        lastTouchY = null;
+        return;
+      }
+      lastTouchX = e.touches[0].clientX;
+      lastTouchY = e.touches[0].clientY;
+    };
+    const forwardTouchMove = (e: TouchEvent) => {
+      if (e.touches.length !== 1 || lastTouchX === null || lastTouchY === null) return;
+      const touch = e.touches[0];
+      const deltaX = lastTouchX - touch.clientX;
+      const deltaY = lastTouchY - touch.clientY;
+      lastTouchX = touch.clientX;
+      lastTouchY = touch.clientY;
+      if (Math.abs(deltaX) + Math.abs(deltaY) < 1) return;
+      e.preventDefault();
+      forwardScroll(deltaX, deltaY);
+    };
+    const resetTouch = () => {
+      lastTouchX = null;
+      lastTouchY = null;
+    };
+    window.addEventListener("wheel", forwardWheel, { passive: false, capture: true });
+    window.addEventListener("touchstart", forwardTouchStart, { passive: true, capture: true });
+    window.addEventListener("touchmove", forwardTouchMove, { passive: false, capture: true });
+    window.addEventListener("touchend", resetTouch, { capture: true });
+    window.addEventListener("touchcancel", resetTouch, { capture: true });
     return () => {
       document.documentElement.style.overflow = prevHtml;
       document.body.style.overflow = prevBody;
-      window.removeEventListener("wheel", forwardWheel);
+      window.removeEventListener("wheel", forwardWheel, { capture: true });
+      window.removeEventListener("touchstart", forwardTouchStart, { capture: true });
+      window.removeEventListener("touchmove", forwardTouchMove, { capture: true });
+      window.removeEventListener("touchend", resetTouch, { capture: true });
+      window.removeEventListener("touchcancel", resetTouch, { capture: true });
     };
-  }, [isEmbed]);
+  }, [isEmbed, isNativeEmbed]);
   const isDark = isEmbed ? embedIsDark : sharedIsDark;
+  const windowPortalContainer = isNativeEmbed ? questionRootElement : undefined;
+  const windowBoundsElement = isNativeEmbed ? questionRootElement : undefined;
 
-  const isBank = location.pathname.startsWith('/bank');
+  const isBank = previewEmbed ? true : location.pathname.startsWith('/bank');
   const is100Hard = !isBank;
 
   const isPracticeMode = searchParams.get('practice') === 'true';
@@ -489,7 +604,9 @@ function Question() {
   const modulePracticeSessionId = searchParams.get("moduleSession");
   const practiceTestSetId = searchParams.get("practiceTest");
   const practiceTestSessionId = searchParams.get("practiceTestSession");
-  const bankSource = normalizeBankSource(searchParams.get("bankType"));
+  const bankSource = previewEmbed?.bankType ?? normalizeBankSource(searchParams.get("bankType"));
+  const embedNextClicksRef = useRef(0);
+  const [showEmbedUpsell, setShowEmbedUpsell] = useState(false);
   const rawDifficulty = searchParams.get("difficulty");
   const difficultyFilter: "Easy" | "Medium" | "Hard" | null =
     rawDifficulty === "Easy" || rawDifficulty === "Medium" || rawDifficulty === "Hard"
@@ -510,13 +627,28 @@ function Question() {
     () => sessionStorage.getItem("practiceExitTo"),
     [location.key],
   );
-  const modulePracticeModule = useMemo(
-    () => (modulePracticeSlug ? getPracticeModule(modulePracticeSlug) : null),
-    [modulePracticeSlug],
+  const needsModulePracticeBank = Boolean(modulePracticeSlug || practiceTestSetId);
+  const [modulePracticeBank, setModulePracticeBank] = useState<ModulePracticeBankApi | null>(null);
+  useEffect(() => {
+    let cancelled = false;
+    if (!needsModulePracticeBank) {
+      setModulePracticeBank(null);
+      return;
+    }
+    import("@/data/modulePracticeBank").then((mod) => {
+      if (!cancelled) setModulePracticeBank(mod);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [needsModulePracticeBank]);
+  const modulePracticeModule = useMemo<PracticeModule | null>(
+    () => (modulePracticeSlug && modulePracticeBank ? modulePracticeBank.getPracticeModule(modulePracticeSlug) : null),
+    [modulePracticeBank, modulePracticeSlug],
   );
-  const practiceTestSet = useMemo(
-    () => (practiceTestSetId ? getPracticeSet(practiceTestSetId) : null),
-    [practiceTestSetId],
+  const practiceTestSet = useMemo<PracticeSet | null>(
+    () => (practiceTestSetId && modulePracticeBank ? modulePracticeBank.getPracticeSet(practiceTestSetId) : null),
+    [modulePracticeBank, practiceTestSetId],
   );
   const [modulePracticeSessionMeta, setModulePracticeSessionMeta] = useState<ModulePracticeSessionMeta | null>(() =>
     modulePracticeSlug ? getModulePracticeSession(modulePracticeSlug) : null,
@@ -525,18 +657,22 @@ function Question() {
     practiceTestSetId ? getPracticeTestSession(practiceTestSetId) : null,
   );
 
-  const idParam = id || "1";
+  const idParam = previewEmbed?.id ?? (id || "1");
   const questionNumber = parseInt(idParam, 10);
-  const subject = (rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading";
+  const subject = previewEmbed?.subject ?? ((rawSubject === "math" || rawSubject === "reading" ? rawSubject : "math") as "math" | "reading");
 
   const questionData = useMemo(() => {
     if (is100Hard) {
       return hardQuestions.find(q => q.id === questionNumber);
     }
 
+    const moduleQuestion =
+      modulePracticeBank && (modulePracticeSlug || practiceTestSetId)
+        ? modulePracticeBank.getSynthesizedPracticeQuestion(subject, idParam)
+        : null;
     const q =
+      moduleQuestion ??
       getBankQuestionBySourceId(subject, idParam, bankSource) ??
-      getSynthesizedPracticeQuestion(subject, idParam) ??
       (/^\d+$/.test(idParam) ? getBankQuestion(subject, questionNumber, bankSource) : null);
 
     if (!q) return null;
@@ -545,8 +681,16 @@ function Question() {
       uuid: q.stableId,
     };
 
-  }, [is100Hard, idParam, questionNumber, subject, bankSource]);
+  }, [is100Hard, idParam, questionNumber, subject, bankSource, modulePracticeBank, modulePracticeSlug, practiceTestSetId]);
   const currentQuestion = questionData;
+  useEffect(() => {
+    if (previewEmbed && currentQuestion) previewEmbed.onReady?.();
+  }, [currentQuestion, previewEmbed]);
+  const isBankQuestionView = isBank && !modulePracticeSlug && !practiceTestSetId;
+  const currentBankQuestion = !is100Hard && currentQuestion?.similarityGroupId
+    ? currentQuestion as BankQuestion
+    : null;
+  const canCreateSimilarPracticeSet = Boolean(!isEmbed && isBankQuestionView && currentBankQuestion);
   const currentPracticeIndex = useMemo(() => {
     if (!isPracticeMode || practiceSet.length === 0) return -1;
     return practiceSet.findIndex(
@@ -602,7 +746,12 @@ function Question() {
   
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [freeResponseAnswer, setFreeResponseAnswer] = useState<string>("");
-  const [strikeoutMode, setStrikeoutMode] = useState(false);
+  const [strikeoutMode, setStrikeoutMode] = useState(
+    () => QUESTION_BANK_VIEWER_STORAGE.getItem(QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY) === "true",
+  );
+  const [hideAnswerChoices, setHideAnswerChoices] = useState(
+    () => QUESTION_BANK_VIEWER_STORAGE.getItem(QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY) === "true",
+  );
   const [struckOutChoiceIds, setStruckOutChoiceIds] = useState<string[]>([]);
   const [checkButtonState, setCheckButtonState] = useState<"idle" | "incorrect" | "correct-first" | "correct-later">("idle");
   const [checkFlashKey, setCheckFlashKey] = useState(0);
@@ -619,7 +768,7 @@ function Question() {
   const [windowOrder, setWindowOrder] = useState<string[]>(['referenceSheet', 'desmos', 'explanation', 'note']);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [questionViewMode, setQuestionViewMode] = useState<QuestionViewMode>(() =>
-    getDefaultQuestionViewMode(subject, isBank),
+    getStoredQuestionViewMode(subject, isBank),
   );
   const [questionSplitPosition, setQuestionSplitPosition] = useState(() =>
     getDefaultQuestionSplitPosition(subject),
@@ -734,6 +883,8 @@ function Question() {
       sourceId: string;
       correctAnswer?: string | null;
       difficulty?: "Easy" | "Medium" | "Hard" | null;
+      similarityTag?: string | null;
+      similarityGroupLabel?: string | null;
       category?: {
         domain?: string;
         skill?: string;
@@ -748,6 +899,7 @@ function Question() {
       { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
       { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
       { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
+      { label: "Similarity Tag", value: questionWithMetadata.similarityGroupLabel || questionWithMetadata.similarityTag || "Unassigned" },
     ];
 
     return {
@@ -808,14 +960,7 @@ function Question() {
   );
 
   useEffect(() => {
-    const storageKey = getQuestionViewModeStorageKey(subject, isBank);
-    const storedMode = sessionStorage.getItem(storageKey);
-    const defaultMode = getDefaultQuestionViewMode(subject, isBank);
-    setQuestionViewMode(
-      storedMode === "horizontal" || storedMode === "vertical"
-        ? storedMode
-        : defaultMode,
-    );
+    setQuestionViewMode(getStoredQuestionViewMode(subject, isBank));
   }, [isBank, subject]);
 
   useEffect(() => {
@@ -834,6 +979,19 @@ function Question() {
     const storageKey = getQuestionViewModeStorageKey(subject, isBank);
     sessionStorage.setItem(storageKey, mode);
     setQuestionViewMode(mode);
+  };
+
+  const handleStrikeoutModeToggle = () => {
+    setStrikeoutMode((prev) => {
+      const next = !prev;
+      QUESTION_BANK_VIEWER_STORAGE.setItem(QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY, String(next));
+      return next;
+    });
+  };
+
+  const handleHideAnswerChoicesChange = (checked: boolean) => {
+    QUESTION_BANK_VIEWER_STORAGE.setItem(QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY, String(checked));
+    setHideAnswerChoices(checked);
   };
 
   useEffect(() => {
@@ -1769,6 +1927,9 @@ function Question() {
           break;
         case 'ArrowUp':
         case 'ArrowDown':
+          if (isAssessmentMode && !assessmentAllowsChecking) {
+            return;
+          }
           if (currentQuestion && currentQuestion.type === 'multiple-choice' && currentQuestion.choices) {
             e.preventDefault();
             const choiceIds = currentQuestion.choices.map(c => c.id);
@@ -1849,7 +2010,7 @@ function Question() {
       case "correct-first":
         return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
       case "correct-later":
-        return "bg-[#FFE0B2] hover:bg-[#FFCC80] border-[#E65100] text-[#BF360C] dark:bg-[#5F2A00] dark:hover:bg-[#4C2100] dark:border-[#C75C00] dark:text-white disabled:opacity-100";
+        return "bg-[#C8E6C9] hover:bg-[#A5D6A7] border-[#1B5E20] text-[#1B5E20] dark:bg-[#1B5E20] dark:hover:bg-[#144216] dark:border-[#2E7D32] dark:text-white disabled:opacity-100";
       case "incorrect":
         return "bg-[#FFCDD2] hover:bg-[#EF9A9A] border-[#B71C1C] text-[#2C1A1A] dark:bg-[#5C1010] dark:hover:bg-[#4A0D0D] dark:border-[#8B0000] dark:text-white";
       default:
@@ -1925,9 +2086,12 @@ function Question() {
   const noteWindowOpenKey = `${noteStorageKey}:open`;
   const noteStorageArea = isAssessmentMode
     ? sessionStorage
-    : isBank
-      ? EPHEMERAL_STORAGE
-      : localStorage;
+    : QUESTION_BANK_VIEWER_STORAGE;
+  const clearQuestionBankViewerNotes = useCallback(() => {
+    if (!isAssessmentMode) {
+      clearQuestionBankViewerStorage();
+    }
+  }, [isAssessmentMode]);
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank;
       
@@ -1945,10 +2109,10 @@ function Question() {
                 "h-auto object-contain",
                 subject === "reading"
                   ? shouldReduceQuestionImageSize
-                    ? "max-w-[91%] max-h-[420px]"
+                    ? "max-w-[73%] max-h-[336px]"
                     : "max-w-full max-h-[460px]"
                   : shouldReduceQuestionImageSize
-                    ? "max-w-[91%] max-h-[309px]"
+                    ? "max-w-[73%] max-h-[247px]"
                     : "max-w-full max-h-[340px]",
               )}
               wrapperClassName={cn("max-w-full", shouldReduceQuestionImageSize && "flex justify-center")}
@@ -1967,15 +2131,55 @@ function Question() {
     setIsNoteWindowOpen(noteStorageArea.getItem(noteWindowOpenKey) === "true");
   }, [noteStorageArea, noteWindowOpenKey]);
 
+  useEffect(() => {
+    activateQuestionBankViewerStorage();
+    const handleBeforeUnload = () => {
+      clearQuestionBankViewerStorage();
+    };
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+      if (isQuestionViewerPath(window.location.pathname)) return;
+      clearQuestionBankViewerStorage();
+    };
+  }, []);
+
   if (!currentQuestion) {
     const fallbackDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
-        <Button onClick={() => navigate(fallbackDestination)}>Go Home</Button>
+        <Button
+          onClick={() => {
+            clearQuestionBankViewerNotes();
+            navigate(fallbackDestination);
+          }}
+        >
+          Go Home
+        </Button>
       </div>
     </div>;
   }
+
+  const shouldHideAnswerChoices =
+    subject === "reading" &&
+    hideAnswerChoices &&
+    currentQuestion.type === "multiple-choice" &&
+    Boolean(currentQuestion.choices);
+  const renderHiddenAnswerChoices = () => (
+    <div className="flex flex-col items-center gap-3 rounded-md border border-dashed border-border bg-muted/25 p-6 text-center text-sm text-muted-foreground">
+      <span>Answer choices hidden</span>
+      <Button
+        variant="outline"
+        size="sm"
+        className="gap-2 bg-background"
+        onClick={() => handleHideAnswerChoicesChange(false)}
+      >
+        <Eye className="h-3.5 w-3.5" />
+        Show choices
+      </Button>
+    </div>
+  );
 
   const openNoteWindow = () => {
     bringToFront("note");
@@ -1987,11 +2191,25 @@ function Question() {
     noteStorageArea.setItem(noteWindowOpenKey, "false");
   };
   const toggleTheme = () => {
+    if (isNativeEmbed) {
+      applyTheme(!isDark);
+      return;
+    }
     if (isEmbed) {
       setEmbedIsDark((prev) => !prev);
       return;
     }
     applyTheme(!isDark);
+  };
+  const handleCreateSimilarPracticeSet = (startNow: boolean) => {
+    if (!currentBankQuestion) return;
+    const practiceSet = createCustomPracticeSetForQuestion(currentBankQuestion);
+    if (startNow) {
+      launchCustomPracticeSet(practiceSet, navigate);
+      return;
+    }
+    toast.success("Practice set created");
+    navigate("/my-practice-sets");
   };
   const handleSaveAndExit = () => {
     if (isPracticeTestMode && practiceTestSessionMeta && practiceTestSet) {
@@ -2008,6 +2226,7 @@ function Question() {
     }
 
     if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) {
+      clearQuestionBankViewerNotes();
       navigate(backDestination);
       return;
     }
@@ -2063,9 +2282,9 @@ function Question() {
   );
   const questionInfoDialog = questionInfo ? (
     <Dialog open={isQuestionInfoOpen} onOpenChange={setIsQuestionInfoOpen}>
-      <DialogContent className="max-h-[85vh] max-w-3xl overflow-hidden border-white/10 bg-[#101010] p-7 text-white shadow-2xl sm:rounded-[28px] [&>button]:right-5 [&>button]:top-5 [&>button]:flex [&>button]:h-11 [&>button]:w-11 [&>button]:items-center [&>button]:justify-center [&>button]:rounded-2xl [&>button]:border [&>button]:border-white/30 [&>button]:bg-transparent [&>button]:p-0 [&>button]:text-white/80 [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-white/10 [&>button]:hover:text-white [&>button_svg]:h-5 [&>button_svg]:w-5">
+      <DialogContent container={windowPortalContainer} className="max-h-[85vh] max-w-3xl overflow-hidden border-border bg-card p-7 text-card-foreground shadow-2xl sm:rounded-[28px] dark:border-white/10 dark:bg-[#101010] dark:text-white [&>button]:right-5 [&>button]:top-5 [&>button]:flex [&>button]:h-11 [&>button]:w-11 [&>button]:items-center [&>button]:justify-center [&>button]:rounded-2xl [&>button]:border [&>button]:border-border [&>button]:bg-background/80 [&>button]:p-0 [&>button]:text-muted-foreground [&>button]:opacity-100 [&>button]:ring-0 [&>button]:ring-offset-0 [&>button]:transition-colors [&>button]:hover:bg-muted [&>button]:hover:text-foreground dark:[&>button]:border-white/30 dark:[&>button]:bg-transparent dark:[&>button]:text-white/80 dark:[&>button]:hover:bg-white/10 dark:[&>button]:hover:text-white [&>button_svg]:h-5 [&>button_svg]:w-5">
         <DialogHeader className="space-y-0">
-          <DialogTitle className="text-[1.7rem] font-semibold tracking-[-0.025em] text-white">
+          <DialogTitle className="text-[1.7rem] font-semibold tracking-[-0.025em] text-foreground dark:text-white">
             Question Info
           </DialogTitle>
         </DialogHeader>
@@ -2076,10 +2295,10 @@ function Question() {
                 key={field.label}
                 className="min-w-0 space-y-1.5"
               >
-                <p className="text-[0.82rem] font-medium tracking-[-0.01em] text-white/60">
+                <p className="text-[0.82rem] font-medium tracking-[-0.01em] text-muted-foreground dark:text-white/60">
                   {field.label}
                 </p>
-                <p className="break-words text-[1.15rem] font-medium leading-snug tracking-[-0.015em] text-white">
+                <p className="break-words text-[1.15rem] font-medium leading-snug tracking-[-0.015em] text-foreground dark:text-white">
                   {field.value}
                 </p>
               </div>
@@ -2091,7 +2310,7 @@ function Question() {
   ) : null;
   const timerExpiredDialog = (
     <AlertDialog open={isTimerExpiredOpen} onOpenChange={setIsTimerExpiredOpen}>
-      <AlertDialogContent>
+      <AlertDialogContent container={windowPortalContainer}>
         <AlertDialogHeader>
           <AlertDialogTitle>Time has expired</AlertDialogTitle>
           <AlertDialogDescription>
@@ -2234,6 +2453,29 @@ function Question() {
       : isModulePracticeMode && !canGoNext
         ? handleModulePracticeReview
         : handleNext;
+  const openRealBankFromEmbed = () => {
+    if (previewEmbed) {
+      previewEmbed.onOpenBank?.();
+      return;
+    }
+    if (isEmbed && window.parent) {
+      window.parent.postMessage({ type: "openBank" }, "*");
+      return;
+    }
+    navigate(`/bank?bankType=${bankSource}`);
+  };
+  const handleEmbedAwareAdvance = () => {
+    if (isEmbed) {
+      const nextClicks = embedNextClicksRef.current + 1;
+      embedNextClicksRef.current = nextClicks;
+      if (nextClicks >= 2) {
+        handlePrimaryAdvance();
+        setShowEmbedUpsell(true);
+        return;
+      }
+    }
+    handlePrimaryAdvance();
+  };
   const practiceTestNavigatorTitle = practiceTestReviewPhase
     ? practiceTestActiveModule?.moduleTitle || "Review Questions"
     : practiceTestActiveModule?.moduleTitle || "Test Navigator";
@@ -2246,13 +2488,28 @@ function Question() {
       : `${practiceTestModuleQuestionCount} questions in this module`;
 
   return (
-    <div className={cn("min-h-screen bg-background flex flex-col relative", isEmbed && "h-screen overflow-hidden")}>
+    <div ref={handleQuestionRootRef} className={cn("bg-background flex flex-col relative", isEmbed ? (isNativeEmbed ? "h-full min-h-full overflow-hidden" : "h-screen overflow-hidden") : "min-h-screen")}>
       {questionInfoDialog}
       {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
+      {showEmbedUpsell && (
+        <div className={cn(isNativeEmbed ? "absolute" : "fixed", "inset-0 z-[80] flex items-center justify-center bg-background/80 p-6 backdrop-blur-sm")}>
+          <div className="w-full max-w-sm rounded-xl border border-border bg-card p-6 text-center shadow-2xl">
+            <h2 className="mb-2 text-xl font-semibold text-foreground">Want to keep going?</h2>
+            <p className="mb-5 text-sm leading-6 text-muted-foreground">
+              Open the full question bank to keep practicing with the complete viewer.
+            </p>
+            <Button onClick={openRealBankFromEmbed} className="w-full">
+              Open question bank
+              <ChevronRight className="ml-1 h-4 w-4" />
+            </Button>
+          </div>
+        </div>
+      )}
       <ReportQuestionDialog
         open={isReportOpen}
         onOpenChange={setIsReportOpen}
         questionId={currentQuestion?.uuid}
+        portalContainer={windowPortalContainer}
       />
       <QuestionNotesWindow
         key={noteStorageKey}
@@ -2264,6 +2521,8 @@ function Question() {
         onFocus={() => bringToFront("note")}
         zIndex={getZIndex("note")}
         constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
+        windowPortalContainer={windowPortalContainer}
+        windowBoundsElement={windowBoundsElement}
       />
       <header className="border-b border-border bg-card sticky top-0 z-10">
         <div
@@ -2302,7 +2561,10 @@ function Question() {
                 <Button
                   variant="ghost"
                   size="sm"
-                  onClick={() => navigate(backDestination)}
+                  onClick={() => {
+                    clearQuestionBankViewerNotes();
+                    navigate(backDestination);
+                  }}
                 >
                   <ChevronLeft className={topShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                   {!topShouldCompress && "Home"}
@@ -2330,6 +2592,8 @@ function Question() {
                       zIndex={getZIndex('referenceSheet')}
                       constrainToLeft={isSplitScreenActive ? splitPosition : undefined}
                       compressed={topShouldCompress}
+                      windowPortalContainer={windowPortalContainer}
+                      windowBoundsElement={windowBoundsElement}
                     />
                     <DesmosDialog
                       onSplitScreenChange={handleSplitScreenChange}
@@ -2341,6 +2605,8 @@ function Question() {
                       isSidebarred={sidebarredWindows.has('desmos')}
                       onSidebarToggle={handleSidebarToggle}
                       compressed={topShouldCompress}
+                      windowPortalContainer={windowPortalContainer}
+                      windowBoundsElement={windowBoundsElement}
                     />
                   </>
                 )}
@@ -2351,11 +2617,12 @@ function Question() {
                     className={cn(
                       topShouldCompress ? "w-9 px-0" : "min-w-[112px]",
                       isAnnotationModeEnabled
-                        ? "bg-[#B4E1FF] text-slate-900 hover:!bg-[#95D4FF] hover:!border-[#95D4FF] hover:text-slate-900"
-                        : "bg-background text-foreground",
+                        ? "border-primary bg-primary text-primary-foreground shadow-sm hover:!border-cobalt hover:!bg-cobalt hover:!text-white dark:border-primary dark:bg-primary dark:text-primary-foreground dark:hover:!border-cobalt dark:hover:!bg-cobalt dark:hover:!text-white"
+                        : "bg-background text-foreground dark:border-white/20",
                     )}
                     onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}
                     title={isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on"}
+                    aria-pressed={isAnnotationModeEnabled}
                   >
                     <Highlighter className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
                     {!topShouldCompress && "Annotate"}
@@ -2363,27 +2630,46 @@ function Question() {
                 )}
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm" title="More">
+                    <Button variant="outline" size="sm" title="More" data-tour="question-more-menu">
                       <MoreHorizontal className={topShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
                       {!topShouldCompress && "More"}
                     </Button>
                   </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end" className="w-56">
+                  <DropdownMenuContent align="end" className="w-56" container={windowPortalContainer}>
                     <DropdownMenuLabel>More</DropdownMenuLabel>
                     <DropdownMenuItem onClick={openNoteWindow}>
                       <StickyNote className="mr-2 h-4 w-4" />
                       Add Note
                     </DropdownMenuItem>
+                    {subject === "reading" && currentQuestion.type === "multiple-choice" && currentQuestion.choices && (
+                      <DropdownMenuCheckboxItem
+                        checked={hideAnswerChoices}
+                        onCheckedChange={(checked) => handleHideAnswerChoicesChange(checked === true)}
+                      >
+                        Hide Answer Choices
+                      </DropdownMenuCheckboxItem>
+                    )}
                     {questionInfo && (
                       <DropdownMenuItem onClick={() => setIsQuestionInfoOpen(true)}>
                         <Info className="mr-2 h-4 w-4" />
                         Question Info
                       </DropdownMenuItem>
                     )}
-                    <DropdownMenuItem onClick={() => setIsReportOpen(true)}>
-                      <Flag className="mr-2 h-4 w-4" />
-                      Report Question
-                    </DropdownMenuItem>
+                    {canCreateSimilarPracticeSet && (
+                      <DropdownMenuItem
+                        data-tour="create-practice-set-menu-item"
+                        onClick={() => handleCreateSimilarPracticeSet(false)}
+                      >
+                        <BookOpenCheck className="mr-2 h-4 w-4" />
+                        Create Practice Set
+                      </DropdownMenuItem>
+                    )}
+                    {!isEmbed && (
+                      <DropdownMenuItem onClick={() => setIsReportOpen(true)}>
+                        <Flag className="mr-2 h-4 w-4" />
+                        Report Question
+                      </DropdownMenuItem>
+                    )}
                     <DropdownMenuSeparator />
                     <DropdownMenuLabel>View Mode</DropdownMenuLabel>
                     <DropdownMenuRadioGroup
@@ -2522,7 +2808,7 @@ function Question() {
                     <Button
                       variant="ghost"
                       onClick={handleToggleReview}
-                      className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
+                      className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-white/10"
                     >
                       <Bookmark className={cn("h-3.5 w-3.5", markedForReview && "bookmark-flag")} />
                       <span className="text-xs font-medium">Mark for Review</span>
@@ -2534,9 +2820,13 @@ function Question() {
                       <Button
                         variant="ghost"
                         size="icon"
-                        onClick={() => setStrikeoutMode(!strikeoutMode)}
-                        className={cn("h-7 w-7 rounded hover:bg-white/50 dark:hover:bg-black/50 text-muted-foreground hover:text-foreground", strikeoutMode && "bg-primary/20 text-primary")}
-                        title="Toggle Strikethrough Mode"
+                        onClick={handleStrikeoutModeToggle}
+                        className={cn(
+                          "h-7 w-7 rounded text-muted-foreground hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10",
+                          strikeoutMode && "bg-primary text-primary-foreground shadow-sm ring-1 ring-primary/40 hover:!bg-cobalt hover:!text-white hover:ring-cobalt/45 dark:bg-primary dark:text-primary-foreground dark:hover:!bg-cobalt dark:hover:!text-white",
+                        )}
+                        title={strikeoutMode ? "Turn strikethrough mode off" : "Turn strikethrough mode on"}
+                        aria-pressed={strikeoutMode}
                       >
                         <Strikethrough className="h-3.5 w-3.5" />
                       </Button>
@@ -2550,7 +2840,9 @@ function Question() {
                   </div>
                 )}
 
-                {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
+                {shouldHideAnswerChoices ? (
+                  renderHiddenAnswerChoices()
+                ) : currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                   <MultipleChoiceQuestion
                     choices={currentQuestion.choices}
                     selectedAnswer={selectedAnswer}
@@ -2587,7 +2879,7 @@ function Question() {
                     <Button
                       variant="ghost"
                       onClick={handleToggleReview}
-                      className="h-9 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-black/50"
+                      className="h-9 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-white/10"
                     >
                       <Bookmark className={cn("h-4 w-4", markedForReview && "bookmark-flag")} />
                       <span className="text-sm font-medium">Mark for Review</span>
@@ -2599,9 +2891,13 @@ function Question() {
                       <Button
                         variant="ghost"
                         size="icon"
-                        onClick={() => setStrikeoutMode(!strikeoutMode)}
-                        className={cn("h-8 w-8 rounded hover:bg-white/50 dark:hover:bg-black/50 text-muted-foreground hover:text-foreground", strikeoutMode && "bg-primary/20 text-primary")}
-                        title="Toggle Strikethrough Mode"
+                        onClick={handleStrikeoutModeToggle}
+                        className={cn(
+                          "h-8 w-8 rounded text-muted-foreground hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10",
+                          strikeoutMode && "bg-primary text-primary-foreground shadow-sm ring-1 ring-primary/40 hover:!bg-cobalt hover:!text-white hover:ring-cobalt/45 dark:bg-primary dark:text-primary-foreground dark:hover:!bg-cobalt dark:hover:!text-white",
+                        )}
+                        title={strikeoutMode ? "Turn strikethrough mode off" : "Turn strikethrough mode on"}
+                        aria-pressed={strikeoutMode}
                       >
                         <Strikethrough className="h-4 w-4" />
                       </Button>
@@ -2640,7 +2936,9 @@ function Question() {
                   )}
               </div>
 
-              {currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
+              {shouldHideAnswerChoices ? (
+                renderHiddenAnswerChoices()
+              ) : currentQuestion.type === 'multiple-choice' && currentQuestion.choices ? (
                 <MultipleChoiceQuestion
                   choices={currentQuestion.choices}
                   selectedAnswer={selectedAnswer}
@@ -2672,7 +2970,7 @@ function Question() {
 
       <div
         ref={bottomNavRef}
-        className="fixed bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40"
+        className={cn(isNativeEmbed ? "absolute" : "fixed", "bottom-0 left-0 right-0 bg-card border-t-2 border-border shadow-lg z-40")}
         style={isSplitScreenActive ? { width: "var(--sat-split-pct, 70%)" } : undefined}
       >
         <div className="container mx-auto px-4 py-3">
@@ -2803,6 +3101,8 @@ function Question() {
                   questionSkill={currentQuestion?.skill}
                   questionDifficulty={currentQuestion?.difficulty}
                   questionImages={questionImages}
+                  windowPortalContainer={windowPortalContainer}
+                  windowBoundsElement={windowBoundsElement}
                 />
               )}
               {(!isAssessmentMode || assessmentAllowsChecking) && (
@@ -2817,7 +3117,7 @@ function Question() {
                 </Button>
               )}
               <Button
-                onClick={handlePrimaryAdvance}
+                onClick={handleEmbedAwareAdvance}
                 disabled={isAssessmentMode ? false : !canGoNext}
                 variant="outline"
                 className="h-10 transition-colors duration-200 ease-out"

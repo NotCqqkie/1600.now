@@ -22,10 +22,12 @@ export const ReportQuestionDialog = ({
   open,
   onOpenChange,
   questionId,
+  portalContainer,
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   questionId: string | undefined;
+  portalContainer?: HTMLElement | null;
 }) => {
   const { user } = useAuth();
   const [selected, setSelected] = useState<Set<ReportReasonKey>>(new Set());
@@ -79,7 +81,7 @@ export const ReportQuestionDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-md">
+      <DialogContent className="max-w-md" container={portalContainer}>
         <DialogHeader>
           <DialogTitle>Report a question</DialogTitle>
         </DialogHeader>

@@ -1,14 +1,18 @@
-import { useMemo, useState } from "react";
+import { useLayoutEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff, Lightbulb } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Check, ChevronDown, ChevronLeft, ChevronRight, Copy, Download, Eye, EyeOff, Lightbulb, Share2 } from "lucide-react";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
+import { DraggableWindow } from "@/components/DraggableWindow";
 import {
   getLatestPracticeTestResult,
   getPracticeTestResult,
+  type PracticeTestResult,
   type PracticeTestQuestionResult,
 } from "@/lib/practice/practiceTestSession";
 import { getPracticeSet } from "@/data/modulePracticeBank";
@@ -18,6 +22,8 @@ import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization
 
 const lerp = (start: number, end: number, amount: number) =>
   start + (end - start) * amount;
+
+const SHARE_URL = "https://1600.now";
 
 const getScoreAccent = (score: number, maxScore: number) => {
   const normalized = Math.max(0, Math.min(score / maxScore, 1));
@@ -49,9 +55,91 @@ const statusClasses = (question: PracticeTestQuestionResult) => {
 
 const answerLabel = (answer: string) => (answer?.trim() ? answer : "No answer");
 
-const getQuestionCorrectnessRank = (question: PracticeTestQuestionResult) => {
-  if (!question.isAnswered) return -1;
-  return question.isCorrect ? 1 : 0;
+const getResultDateLabel = (timestamp: number) =>
+  new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(timestamp));
+
+const getShareMessage = (result: PracticeTestResult) =>
+  `I scored ${result.totalScore} on an SAT Practice Test. Come study with me on 1600.now!`;
+
+const buildShareImageFile = async (result: PracticeTestResult) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 1200;
+  canvas.height = 720;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return null;
+
+  ctx.fillStyle = "#f7fbff";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  const gradient = ctx.createLinearGradient(0, 0, 1200, 260);
+  gradient.addColorStop(0, "#c7dcff");
+  gradient.addColorStop(1, "#e9f1ff");
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, 1200, 260);
+
+  ctx.fillStyle = "#202124";
+  ctx.font = "900 64px Inter, Arial, sans-serif";
+  ctx.fillText("1600.now", 72, 100);
+  ctx.font = "600 30px Inter, Arial, sans-serif";
+  ctx.fillText(`Practice Test ${result.practiceSetNumber} results`, 72, 154);
+  ctx.font = "500 24px Inter, Arial, sans-serif";
+  ctx.fillText(getResultDateLabel(result.submittedAt), 72, 198);
+
+  ctx.fillStyle = "#ffffff";
+  ctx.beginPath();
+  ctx.roundRect(72, 320, 1056, 280, 34);
+  ctx.fill();
+
+  ctx.fillStyle = "#202124";
+  ctx.font = "800 30px Inter, Arial, sans-serif";
+  ctx.fillText("TOTAL SCORE", 124, 390);
+  ctx.font = "900 132px Inter, Arial, sans-serif";
+  ctx.fillText(String(result.totalScore), 118, 520);
+  ctx.font = "600 24px Inter, Arial, sans-serif";
+  ctx.fillText("400 - 1600", 126, 560);
+
+  ctx.fillStyle = "#d8e7ff";
+  ctx.fillRect(520, 374, 2, 172);
+
+  ctx.fillStyle = "#202124";
+  ctx.font = "700 27px Inter, Arial, sans-serif";
+  ctx.fillText("Reading and Writing", 574, 410);
+  ctx.font = "900 78px Inter, Arial, sans-serif";
+  ctx.fillText(String(result.readingWritingScore), 574, 495);
+  ctx.font = "600 22px Inter, Arial, sans-serif";
+  ctx.fillText("200 - 800", 578, 536);
+
+  ctx.font = "700 27px Inter, Arial, sans-serif";
+  ctx.fillText("Math", 850, 410);
+  ctx.font = "900 78px Inter, Arial, sans-serif";
+  ctx.fillText(String(result.mathScore), 850, 495);
+  ctx.font = "600 22px Inter, Arial, sans-serif";
+  ctx.fillText("200 - 800", 854, 536);
+
+  ctx.fillStyle = "#3350d4";
+  ctx.font = "800 28px Inter, Arial, sans-serif";
+  ctx.fillText(SHARE_URL, 72, 674);
+
+  const blob = await new Promise<Blob | null>((resolve) =>
+    canvas.toBlob((value) => resolve(value), "image/png"),
+  );
+  if (!blob) return null;
+  return new File([blob], `1600-now-practice-test-${result.practiceSetNumber}-score.png`, {
+    type: "image/png",
+  });
+};
+
+const getQuestionCorrectnessRank = (
+  question: PracticeTestQuestionResult,
+  direction: "asc" | "desc",
+) => {
+  if (question.isCorrect) return 2;
+  if (question.isAnswered) return direction === "asc" ? 0 : 1;
+  return direction === "asc" ? 1 : 0;
 };
 
 const getRenderedContentHtml = (
@@ -72,10 +160,15 @@ const PracticeTestResults = () => {
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
   const [hideCorrectAnswers, setHideCorrectAnswers] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
-  const [showExplanation, setShowExplanation] = useState<Set<string>>(() => new Set());
+  const [activeExplanationIndex, setActiveExplanationIndex] = useState<number | null>(null);
+  const [explanationSplitPosition, setExplanationSplitPosition] = useState(65);
+  const [isExplanationSidebarred, setIsExplanationSidebarred] = useState(true);
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const [moduleFilter, setModuleFilter] = useState<string>("all");
+  const [isShareDialogOpen, setIsShareDialogOpen] = useState(false);
+  const [isSharing, setIsSharing] = useState(false);
+  const [hasCopiedShareMessage, setHasCopiedShareMessage] = useState(false);
   const sessionId = searchParams.get("session");
   const practiceSet = useMemo(() => (setId ? getPracticeSet(setId) : null), [setId]);
   const result = useMemo(() => {
@@ -105,13 +198,33 @@ const PracticeTestResults = () => {
     return [...filtered].sort((left, right) => {
       if (questionSortMode === "correct") {
         const correctnessDifference =
-          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
+          (getQuestionCorrectnessRank(left, questionSortDirection) -
+            getQuestionCorrectnessRank(right, questionSortDirection)) *
+          directionMultiplier;
         if (correctnessDifference !== 0) return correctnessDifference;
       }
 
       return (left.globalQuestionNumber - right.globalQuestionNumber) * directionMultiplier;
     });
   }, [moduleFilter, questionSortDirection, questionSortMode, result]);
+  const activeExplanationQuestion =
+    activeExplanationIndex !== null ? orderedQuestions[activeExplanationIndex] : null;
+  const activeExplanationSource = activeExplanationQuestion
+    ? sourceQuestionMap.get(activeExplanationQuestion.storageId)
+    : null;
+  const isExplanationOpen = activeExplanationQuestion !== null;
+  const useSidebarLayout = isExplanationOpen && isExplanationSidebarred;
+
+  useLayoutEffect(() => {
+    if (!useSidebarLayout) {
+      document.documentElement.style.removeProperty("--sat-split-pct");
+      return;
+    }
+    document.documentElement.style.setProperty("--sat-split-pct", `${explanationSplitPosition}%`);
+    return () => {
+      document.documentElement.style.removeProperty("--sat-split-pct");
+    };
+  }, [explanationSplitPosition, useSidebarLayout]);
 
   if (!practiceSet || !result) {
     return (
@@ -142,6 +255,21 @@ const PracticeTestResults = () => {
       return next;
     });
   };
+  const areAllVisibleQuestionsExpanded =
+    orderedQuestions.length > 0 &&
+    orderedQuestions.every((question) => expandedQuestions.has(question.storageId));
+
+  const toggleAllVisibleQuestions = () => {
+    setExpandedQuestions((previous) => {
+      const next = new Set(previous);
+      if (areAllVisibleQuestionsExpanded) {
+        orderedQuestions.forEach((question) => next.delete(question.storageId));
+      } else {
+        orderedQuestions.forEach((question) => next.add(question.storageId));
+      }
+      return next;
+    });
+  };
 
   const toggleRevealedAnswer = (storageId: string) => {
     setRevealedAnswers((previous) => {
@@ -152,8 +280,94 @@ const PracticeTestResults = () => {
     });
   };
 
+  const scrollToQuestion = (storageId: string) => {
+    setExpandedQuestions((previous) => {
+      const next = new Set(previous);
+      next.add(storageId);
+      return next;
+    });
+    requestAnimationFrame(() => {
+      const target = document.getElementById(`question-review-${storageId}`);
+      if (!target) return;
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
+
+  const shareMessage = getShareMessage(result);
+
+  const stripBankPrefix = (id: string) => {
+    const parts = id.split("-");
+    return parts[0] === "bank" && parts.length > 3 ? parts.slice(3).join("-") : id;
+  };
+
+  const navigateExplanation = (delta: -1 | 1) => {
+    if (activeExplanationIndex === null) return;
+    const nextIndex = activeExplanationIndex + delta;
+    if (nextIndex < 0 || nextIndex >= orderedQuestions.length) return;
+    setActiveExplanationIndex(nextIndex);
+    scrollToQuestion(orderedQuestions[nextIndex].storageId);
+  };
+
+  const copyShareMessage = async () => {
+    try {
+      await navigator.clipboard.writeText(shareMessage);
+      setHasCopiedShareMessage(true);
+      window.setTimeout(() => setHasCopiedShareMessage(false), 1800);
+      toast.success("Share message copied");
+    } catch {
+      toast.error("Could not copy share message");
+    }
+  };
+
+  const downloadShareImage = async () => {
+    const file = await buildShareImageFile(result);
+    if (!file) return;
+    const url = URL.createObjectURL(file);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = file.name;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const shareResult = async () => {
+    setIsSharing(true);
+    try {
+      const file = await buildShareImageFile(result);
+      const shareData = {
+        title: "1600.now practice test result",
+        text: shareMessage,
+      };
+
+      if (file && navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ ...shareData, files: [file] });
+        return;
+      }
+
+      if (navigator.share) {
+        await navigator.share(shareData);
+        return;
+      }
+
+      await copyShareMessage();
+    } catch (error) {
+      if ((error as DOMException).name !== "AbortError") {
+        await copyShareMessage();
+      }
+    } finally {
+      setIsSharing(false);
+    }
+  };
+
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
+    <div
+      className="mx-auto flex min-h-screen w-full flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8"
+      style={
+        useSidebarLayout
+          ? { maxWidth: `var(--sat-split-pct, ${explanationSplitPosition}%)`, marginLeft: 0, marginRight: 0 }
+          : { maxWidth: "72rem" }
+      }
+    >
       <Button variant="ghost" asChild className="w-fit gap-2 px-0">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
@@ -161,75 +375,64 @@ const PracticeTestResults = () => {
         </Link>
       </Button>
 
-      <div className="space-y-3">
-        <h1
-          style={{
-            fontFamily: "'Geist', Georgia, serif",
-            fontSize: "clamp(34px, 4.5vw, 56px)",
-            fontWeight: 400,
-            letterSpacing: "-0.04em",
-            lineHeight: 1,
-          }}
-        >
-          Practice Test Results
-        </h1>
-        <div className="text-sm font-medium uppercase tracking-[0.16em] text-muted-foreground">
-          Practice Test {result.practiceSetNumber}
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div className="space-y-3">
+          <h1
+            style={{
+              fontFamily: "'Geist', Georgia, serif",
+              fontSize: "clamp(34px, 4.5vw, 56px)",
+              fontWeight: 400,
+              letterSpacing: "-0.04em",
+              lineHeight: 1,
+            }}
+          >
+            Practice Test Results
+          </h1>
+          <div className="text-sm font-medium uppercase tracking-[0.16em] text-muted-foreground">
+            Practice Test {result.practiceSetNumber}
+          </div>
         </div>
+        <Button
+          type="button"
+          variant="outline"
+          size="icon-lg"
+          className="self-end bg-transparent sm:self-start"
+          aria-label="Share results"
+          onClick={() => setIsShareDialogOpen(true)}
+        >
+          <Share2 className="h-5 w-5" />
+        </Button>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30 sm:col-span-2 lg:col-span-2">
-          <CardContent className="flex items-center gap-6 pt-6">
-            <div>
-              <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Total Score</div>
-              <div className="mt-1 text-6xl font-semibold tracking-[-0.08em]">
-                {result.totalScore}
-              </div>
+      <Card className="border-border/70 bg-gradient-to-br from-card to-muted/30">
+        <CardContent className="grid gap-6 p-6 sm:grid-cols-3 sm:items-end">
+          <div>
+            <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Total Score</div>
+            <div className="mt-2 text-7xl font-semibold leading-none tracking-[-0.08em] text-foreground">
+              {result.totalScore}
             </div>
-            <div className="h-16 w-px bg-border/60" />
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div>
-                <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                  Reading & Writing
-                </div>
-                <div className="mt-1 text-3xl font-semibold tracking-[-0.04em] text-foreground">
-                  {result.readingWritingScore}
-                </div>
-              </div>
-              <div>
-                <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                  Math
-                </div>
-                <div className="mt-1 text-3xl font-semibold tracking-[-0.04em] text-foreground">
-                  {result.mathScore}
-                </div>
-              </div>
+            <div className="mt-2 text-sm font-medium text-muted-foreground">400 - 1600</div>
+          </div>
+          <div>
+            <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+              Reading & Writing
             </div>
-          </CardContent>
-        </Card>
-        <Card className="border-border/70 bg-card">
-          <CardContent className="pt-6">
-            <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Accuracy</div>
-            <div className="mt-2 text-3xl font-semibold tracking-[-0.04em] text-foreground">{result.accuracy}%</div>
-            <div className="mt-1 text-sm text-muted-foreground">
-              {result.correctCount} / {result.questions.length}
+            <div className="mt-2 text-5xl font-semibold leading-none tracking-[-0.05em] text-foreground">
+              {result.readingWritingScore}
             </div>
-          </CardContent>
-        </Card>
-        <Card className="border-border/70 bg-card">
-          <CardContent className="pt-6">
-            <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">Time Used</div>
-            <div className="mt-2 flex items-center gap-2 text-3xl font-semibold tracking-[-0.03em] text-foreground">
-              <Clock3 className="h-5 w-5 text-muted-foreground" />
-              {formatTime(result.elapsedSeconds)}
+            <div className="mt-2 text-sm font-medium text-muted-foreground">200 - 800</div>
+          </div>
+          <div>
+            <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+              Math
             </div>
-            <div className="mt-1 text-sm text-muted-foreground">
-              {result.answeredCount} answered · {result.unansweredCount} skipped
+            <div className="mt-2 text-5xl font-semibold leading-none tracking-[-0.05em] text-foreground">
+              {result.mathScore}
             </div>
-          </CardContent>
-        </Card>
-      </div>
+            <div className="mt-2 text-sm font-medium text-muted-foreground">200 - 800</div>
+          </div>
+        </CardContent>
+      </Card>
 
       <Card className="border-border/70 bg-card">
         <CardHeader>
@@ -260,6 +463,21 @@ const PracticeTestResults = () => {
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <CardTitle className="text-2xl tracking-[-0.03em]">Question Breakdown</CardTitle>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <Button
+                type="button"
+                variant="outline"
+                className="gap-2 bg-transparent"
+                disabled={!orderedQuestions.length}
+                onClick={toggleAllVisibleQuestions}
+              >
+                <ChevronDown
+                  className={cn(
+                    "h-4 w-4 transition-transform",
+                    areAllVisibleQuestionsExpanded && "rotate-180",
+                  )}
+                />
+                {areAllVisibleQuestionsExpanded ? "Collapse All" : "Show All"}
+              </Button>
               <Button
                 type="button"
                 variant="outline"
@@ -332,6 +550,7 @@ const PracticeTestResults = () => {
             return (
               <div
                 key={question.storageId}
+                id={`question-review-${question.storageId}`}
                 className={cn(
                   "py-5",
                   index !== orderedQuestions.length - 1 && "border-b border-border/60",
@@ -390,10 +609,12 @@ const PracticeTestResults = () => {
                       </span>
                     </div>
                   </div>
-                  <div
-                    className={`inline-flex shrink-0 items-center rounded-full border px-3 py-1 text-xs font-semibold ${statusClasses(question)}`}
-                  >
-                    {statusLabel(question)}
+                  <div className="flex shrink-0 flex-wrap items-center justify-end gap-2">
+                    <div
+                      className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${statusClasses(question)}`}
+                    >
+                      {statusLabel(question)}
+                    </div>
                   </div>
                 </div>
 
@@ -534,62 +755,24 @@ const PracticeTestResults = () => {
                     )}
 
                     <div className="col-span-full mt-1">
-                      {!showExplanation.has(question.storageId) ? (
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          className="gap-2 bg-transparent"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setShowExplanation((prev) => new Set(prev).add(question.storageId));
-                          }}
-                        >
-                          <Lightbulb className="h-4 w-4" />
-                          Show Step-by-Step Explanation
-                        </Button>
-                      ) : (
-                        <div className="rounded-xl border border-border/60 bg-muted/10 p-4">
-                          <div className="mb-3 flex items-center justify-between">
-                            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                              <Lightbulb className="h-3.5 w-3.5" />
-                              Step-by-Step Explanation
-                            </div>
-                            <button
-                              type="button"
-                              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setShowExplanation((prev) => {
-                                  const next = new Set(prev);
-                                  next.delete(question.storageId);
-                                  return next;
-                                });
-                              }}
-                            >
-                              Hide
-                            </button>
-                          </div>
-                          <StepByStepExplanation
-                            questionId={question.storageId}
-                            question={{
-                              section: question.subject === "math" ? "Math" : "Reading and Writing",
-                              passage: sourceQuestion.passage || "",
-                              questionText: sourceQuestion.questionText || sourceQuestion.prompt,
-                              choices: sourceQuestion.choices?.map((c) => ({
-                                label: c.id,
-                                text: c.text ?? "",
-                                image: c.image,
-                              })),
-                              correctAnswer: question.correctAnswer,
-                              domain: question.domain || sourceQuestion.domain,
-                              skill: question.skill,
-                              difficulty: sourceQuestion.difficulty,
-                              isFillInBlank: sourceQuestion.type === "fill-in-blank",
-                            }}
-                            questionImages={sourceQuestion.questionImages}
-                          />
-                        </div>
-                      )}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className={cn(
+                          "gap-2 bg-transparent",
+                          activeExplanationIndex !== null &&
+                            orderedQuestions[activeExplanationIndex]?.storageId === question.storageId &&
+                            "ring-2 ring-primary/50",
+                        )}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const idx = orderedQuestions.findIndex((q) => q.storageId === question.storageId);
+                          if (idx >= 0) setActiveExplanationIndex(idx);
+                        }}
+                      >
+                        <Lightbulb className="h-4 w-4" />
+                        Show Step-by-Step Explanation
+                      </Button>
                     </div>
                   </div>
                 ) : null}
@@ -607,6 +790,164 @@ const PracticeTestResults = () => {
           </Link>
         </Button>
       </div>
+
+      <Dialog open={isShareDialogOpen} onOpenChange={setIsShareDialogOpen}>
+        <DialogContent className="max-h-[92vh] overflow-y-auto sm:max-w-[540px]">
+          <DialogHeader>
+            <DialogTitle>{shareMessage}</DialogTitle>
+          </DialogHeader>
+
+          <div className="overflow-hidden rounded-[20px] bg-white text-[#202124] shadow-[0_18px_46px_rgba(14,33,56,0.16)] ring-1 ring-black/[0.06] dark:bg-[#111d2e] dark:text-white dark:ring-white/[0.08]">
+            <div className="bg-[#c7dcff] px-5 py-4 dark:bg-[#243b63]">
+              <div className="text-2xl font-black leading-none tracking-[-0.045em]">1600.now</div>
+              <div className="mt-2 text-sm font-semibold text-[#202124]/80 dark:text-slate-200">
+                Practice Test {result.practiceSetNumber} results
+              </div>
+              <div className="mt-1 text-xs font-medium text-[#202124]/70 dark:text-slate-300">
+                {getResultDateLabel(result.submittedAt)}
+              </div>
+            </div>
+
+            <div className="px-5 py-5">
+              <div className="grid grid-cols-[1.05fr_0.78fr_0.56fr] gap-4 max-[480px]:gap-3">
+                <div className="min-w-0">
+                  <div className="text-[10px] font-bold uppercase tracking-[-0.01em] text-[#202124] dark:text-slate-100">
+                    Total Score
+                  </div>
+                  <div className="mt-2 text-[42px] font-black leading-none tracking-[-0.06em] text-[#202124] max-[480px]:text-[34px] dark:text-white">
+                    {result.totalScore}
+                  </div>
+                  <div className="mt-2 text-[14px] font-medium text-[#202124] max-[480px]:text-[11px] dark:text-slate-200">
+                    400 - 1600
+                  </div>
+                </div>
+                <div className="min-w-0">
+                  <div className="text-[10px] font-medium leading-tight tracking-[-0.01em] text-[#202124] max-[480px]:text-[8px] dark:text-slate-100">
+                    Reading and Writing
+                  </div>
+                  <div className="mt-2 text-[28px] font-black leading-none tracking-[-0.06em] text-[#202124] max-[480px]:text-[23px] dark:text-white">
+                    {result.readingWritingScore}
+                  </div>
+                  <div className="mt-2 text-[14px] font-medium text-[#202124] max-[480px]:text-[11px] dark:text-slate-200">
+                    200 - 800
+                  </div>
+                </div>
+                <div className="min-w-0">
+                  <div className="text-[10px] font-medium leading-tight tracking-[-0.01em] text-[#202124] max-[480px]:text-[8px] dark:text-slate-100">
+                    Math
+                  </div>
+                  <div className="mt-2 text-[28px] font-black leading-none tracking-[-0.06em] text-[#202124] max-[480px]:text-[23px] dark:text-white">
+                    {result.mathScore}
+                  </div>
+                  <div className="mt-2 text-[14px] font-medium text-[#202124] max-[480px]:text-[11px] dark:text-slate-200">
+                    200 - 800
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5 rounded-full border-2 border-[#3350d4] px-4 py-2 text-center text-sm font-bold text-[#3350d4] dark:border-[#8fb7ff] dark:text-[#a9c8ff]">
+                {SHARE_URL}
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2 sm:flex-row sm:justify-end">
+            <Button
+              type="button"
+              variant="outline"
+              className="gap-2 bg-transparent"
+              onClick={copyShareMessage}
+            >
+              {hasCopiedShareMessage ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
+              {hasCopiedShareMessage ? "Copied" : "Copy message"}
+            </Button>
+            <Button
+              type="button"
+              variant="outline"
+              className="gap-2 bg-transparent"
+              onClick={downloadShareImage}
+            >
+              <Download className="h-4 w-4" />
+              Download image
+            </Button>
+            <Button type="button" className="gap-2" onClick={shareResult} disabled={isSharing}>
+              <Share2 className="h-4 w-4" />
+              {isSharing ? "Sharing..." : "Share"}
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {activeExplanationQuestion && activeExplanationSource && (
+        <DraggableWindow
+          isOpen={isExplanationOpen}
+          onClose={() => setActiveExplanationIndex(null)}
+          title={`${activeExplanationQuestion.moduleTitle} · Q${activeExplanationQuestion.moduleQuestionNumber} — Explanation`}
+          defaultWidth={460}
+          defaultHeight={560}
+          isSidebarred={isExplanationSidebarred}
+          onSidebarToggle={(_, sidebar) => setIsExplanationSidebarred(sidebar)}
+          onSplitPositionChange={setExplanationSplitPosition}
+          splitPosition={explanationSplitPosition}
+          onSplitScreenChange={(active) => {
+            if (!active) setIsExplanationSidebarred(false);
+          }}
+          windowId="review-explanation"
+        >
+          <div className="flex h-full flex-col overflow-hidden">
+            <div className="flex-1 overflow-hidden">
+              <StepByStepExplanation
+                questionId={stripBankPrefix(activeExplanationQuestion.storageId)}
+                question={{
+                  section:
+                    activeExplanationQuestion.subject === "math"
+                      ? "Math"
+                      : "Reading and Writing",
+                  passage: activeExplanationSource.passage || "",
+                  questionText:
+                    activeExplanationSource.questionText || activeExplanationSource.prompt,
+                  choices: activeExplanationSource.choices?.map((c) => ({
+                    label: c.id,
+                    text: c.text ?? "",
+                    image: c.image,
+                  })),
+                  correctAnswer: activeExplanationQuestion.correctAnswer,
+                  domain: activeExplanationQuestion.domain || activeExplanationSource.domain,
+                  skill: activeExplanationQuestion.skill,
+                  difficulty: activeExplanationSource.difficulty,
+                  isFillInBlank: activeExplanationSource.type === "free-response",
+                }}
+                questionImages={activeExplanationSource.questionImages}
+              />
+            </div>
+            <div className="flex items-center justify-between border-t border-border/40 px-3 py-2">
+              <Button
+                variant="outline"
+                size="sm"
+                disabled={activeExplanationIndex === 0}
+                onClick={() => navigateExplanation(-1)}
+                className="gap-1"
+              >
+                <ChevronLeft className="h-4 w-4" />
+                Previous
+              </Button>
+              <span className="text-xs text-muted-foreground">
+                {(activeExplanationIndex ?? 0) + 1} / {orderedQuestions.length}
+              </span>
+              <Button
+                variant="outline"
+                size="sm"
+                disabled={activeExplanationIndex === orderedQuestions.length - 1}
+                onClick={() => navigateExplanation(1)}
+                className="gap-1"
+              >
+                Next
+                <ChevronRight className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </DraggableWindow>
+      )}
     </div>
   );
 };

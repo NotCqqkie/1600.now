@@ -25,38 +25,20 @@ import {
   Zap,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import {
+  defaultFilters,
+  hasActiveQuestionBankFilters,
+  MAX_TIME_SPENT_FILTER_SECONDS,
+  type QuestionBankFilters,
+} from "@/components/question/questionBankFilterModel";
 
-// Filter state types
-export type DifficultyFilterValue = "easy" | "medium" | "hard";
-export const MAX_TIME_SPENT_FILTER_SECONDS = 180;
-export const DEFAULT_TIME_SPENT_RANGE: [number, number] = [0, MAX_TIME_SPENT_FILTER_SECONDS];
-
-export interface QuestionBankFilters {
-  difficulty: DifficultyFilterValue[];
-  timeSpentRange: [number, number];
-  activeQuestions: "all" | "active" | "exclude-active";
-  markedForReview: "all" | "yes" | "no";
-  solved: "all" | "yes" | "no";
-  answeredIncorrectly: "all" | "yes" | "no";
-}
-
-export const defaultFilters: QuestionBankFilters = {
-  difficulty: [],
-  timeSpentRange: DEFAULT_TIME_SPENT_RANGE,
-  activeQuestions: "all",
-  markedForReview: "all",
-  solved: "all",
-  answeredIncorrectly: "all",
-};
-
-export const hasActiveQuestionBankFilters = (filters: QuestionBankFilters): boolean =>
-  filters.difficulty.length > 0 ||
-  filters.timeSpentRange[0] !== DEFAULT_TIME_SPENT_RANGE[0] ||
-  filters.timeSpentRange[1] !== DEFAULT_TIME_SPENT_RANGE[1] ||
-  filters.activeQuestions !== defaultFilters.activeQuestions ||
-  filters.markedForReview !== defaultFilters.markedForReview ||
-  filters.solved !== defaultFilters.solved ||
-  filters.answeredIncorrectly !== defaultFilters.answeredIncorrectly;
+export {
+  defaultFilters,
+  hasActiveQuestionBankFilters,
+  MAX_TIME_SPENT_FILTER_SECONDS,
+  type DifficultyFilterValue,
+  type QuestionBankFilters,
+} from "@/components/question/questionBankFilterModel";
 
 const difficultyOptions = [
   { label: "Easy", value: "easy" },
@@ -69,6 +51,11 @@ interface FilterPanelProps {
   onFiltersChange: (filters: QuestionBankFilters) => void;
   showActivityFilter?: boolean;
   rightContent?: ReactNode;
+  defaultOpen?: boolean;
+  forceOpen?: boolean;
+  portalContainer?: HTMLElement | null;
+  compactLabels?: boolean;
+  homeDemoMultiOpen?: boolean;
 }
 
 const formatTimeSpentValue = (seconds: number, isUpperBound = false): string => {
@@ -94,10 +81,10 @@ function FilterCard({
   className?: string;
 }) {
   return (
-    <div className={cn("space-y-2", className)}>
-      <div className="flex items-center gap-2 text-sm text-muted-foreground">
-        <Icon className="h-4 w-4" />
-        <span>{label}</span>
+    <div data-filter-demo-card className={cn("min-w-0 space-y-2", className)}>
+      <div className="flex min-w-0 items-center gap-2 text-sm text-muted-foreground">
+        <Icon className="h-4 w-4 shrink-0" />
+        <span className="truncate whitespace-nowrap">{label}</span>
       </div>
       {children}
     </div>
@@ -109,18 +96,44 @@ export function QuestionBankFilterPanel({
   onFiltersChange,
   showActivityFilter = true,
   rightContent,
+  defaultOpen = false,
+  forceOpen = false,
+  portalContainer,
+  compactLabels = false,
+  homeDemoMultiOpen = false,
 }: FilterPanelProps) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [internalOpen, setInternalOpen] = useState(defaultOpen);
+  const [homeDemoOpenControls, setHomeDemoOpenControls] = useState<string[]>([]);
+  const isOpen = forceOpen || internalOpen;
   const hasActiveFilters = hasActiveQuestionBankFilters(filters);
   const isHighlighted = isOpen || hasActiveFilters;
   const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
+  const setOpen = (nextOpen: boolean) => {
+    if (!forceOpen) setInternalOpen(nextOpen);
+  };
 
   const updateFilter = <K extends keyof QuestionBankFilters>(
     key: K,
     value: QuestionBankFilters[K]
   ) => {
     onFiltersChange({ ...filters, [key]: value });
+    if (homeDemoMultiOpen) setHomeDemoOpenControls([]);
   };
+  const openHomeDemoControl = (control: string, nextOpen: boolean) => {
+    if (!homeDemoMultiOpen) return;
+    setHomeDemoOpenControls((current) => {
+      if (!nextOpen) return current.filter((item) => item !== control);
+      return [control];
+    });
+  };
+  const homeDemoSelectOpenProps = (control: string) => (
+    homeDemoMultiOpen
+      ? {
+        open: homeDemoOpenControls.includes(control),
+        onOpenChange: (nextOpen: boolean) => openHomeDemoControl(control, nextOpen),
+      }
+      : {}
+  );
 
   return (
     <div className="space-y-4">
@@ -128,10 +141,12 @@ export function QuestionBankFilterPanel({
       <div className="flex flex-wrap gap-3 items-center">
         <Button
           variant="outline"
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={() => setOpen(!isOpen)}
+          data-filter-demo-toggle
+          data-filter-demo-open={isOpen ? "true" : "false"}
           className={cn(
             "gap-2 transition-colors",
-            isHighlighted && "border-primary bg-primary text-primary-foreground hover:bg-primary/90 hover:border-primary/90",
+            isHighlighted && "border-primary bg-primary text-primary-foreground hover:!border-cobalt hover:!bg-cobalt hover:!text-white",
           )}
         >
           <Filter className="h-4 w-4" />
@@ -142,7 +157,7 @@ export function QuestionBankFilterPanel({
       </div>
 
       {/* Collapsible Filter Panel */}
-      <Collapsible open={isOpen} onOpenChange={setIsOpen}>
+      <Collapsible open={isOpen} onOpenChange={setOpen}>
         <CollapsibleContent>
           <div className="border rounded-lg p-4 bg-muted/30 space-y-4">
             {/* Filter Grid - 2 columns on mobile */}
@@ -151,18 +166,24 @@ export function QuestionBankFilterPanel({
               showActivityFilter
                 ? "md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]"
                 : "md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]",
-            )}>
+            )} data-filter-demo-grid>
               <FilterCard icon={BarChart3} label="Difficulty" className="min-w-0">
                 <MultiSelect
                   options={[...difficultyOptions]}
                   selected={filters.difficulty}
                   onChange={(value) => updateFilter("difficulty", value as QuestionBankFilters["difficulty"])}
-                  placeholder="Any Difficulty"
+                  placeholder={compactLabels ? "Any" : "Any Difficulty"}
                   hideSearch
+                  portalContainer={portalContainer}
+                  demoControl="difficulty"
+                  demoOptionPrefix="difficulty"
+                  closeOnSelect={compactLabels}
+                  open={homeDemoMultiOpen ? homeDemoOpenControls.includes("difficulty") : undefined}
+                  onOpenChange={(nextOpen) => openHomeDemoControl("difficulty", nextOpen)}
                 />
               </FilterCard>
 
-              <FilterCard icon={Clock} label="Time Spent Solving" className="min-w-0">
+              <FilterCard icon={Clock} label={compactLabels ? "Time Spent" : "Time Spent Solving"} className="min-w-0">
                 <div className="space-y-3 pt-1">
                   <div className="flex items-center justify-between gap-2 text-xs font-semibold">
                     <span className="inline-flex min-w-0 items-center justify-center rounded-full border border-border/60 bg-background px-3 py-1 text-foreground shadow-sm">
@@ -172,7 +193,7 @@ export function QuestionBankFilterPanel({
                       {formatTimeSpentValue(maxTimeSpent, true)}
                     </span>
                   </div>
-                  <div className="px-2">
+                  <div className="px-2" data-filter-demo-control="time">
                     <Slider
                       value={[minTimeSpent, maxTimeSpent]}
                       min={0}
@@ -186,35 +207,43 @@ export function QuestionBankFilterPanel({
               </FilterCard>
 
               {showActivityFilter && (
-                <FilterCard icon={Zap} label="Question Activity" className="min-w-0">
+                <FilterCard icon={Zap} label={compactLabels ? "Activity" : "Question Activity"} className="min-w-0">
                   <Select
                     value={filters.activeQuestions}
                     onValueChange={(v) => updateFilter("activeQuestions", v as typeof filters.activeQuestions)}
+                    {...homeDemoSelectOpenProps("activity")}
                   >
-                    <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
+                    <SelectTrigger data-filter-demo-control="activity" className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                       <SelectValue />
                     </SelectTrigger>
-                    <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
-                      <SelectItem value="all">All Questions</SelectItem>
-                      <SelectItem value="active">Active Questions</SelectItem>
-                      <SelectItem value="exclude-active">Exclude Active Questions</SelectItem>
+                    <SelectContent
+                      container={portalContainer}
+                      className="w-[var(--radix-select-trigger-width)] min-w-0"
+                    >
+                      <SelectItem data-filter-demo-option="activity:all" value="all">{compactLabels ? "All" : "All Questions"}</SelectItem>
+                      <SelectItem data-filter-demo-option="activity:active" value="active">{compactLabels ? "Active" : "Active Questions"}</SelectItem>
+                      <SelectItem data-filter-demo-option="activity:exclude-active" value="exclude-active">{compactLabels ? "Exclude" : "Exclude Active Questions"}</SelectItem>
                     </SelectContent>
                   </Select>
                 </FilterCard>
               )}
 
-              <FilterCard icon={Bookmark} label="Marked for Review" className="min-w-0">
+              <FilterCard icon={Bookmark} label={compactLabels ? "Marked" : "Marked for Review"} className="min-w-0">
                 <Select
                   value={filters.markedForReview}
                   onValueChange={(v) => updateFilter("markedForReview", v as typeof filters.markedForReview)}
+                  {...homeDemoSelectOpenProps("marked")}
                 >
-                  <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
+                  <SelectTrigger data-filter-demo-control="marked" className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
-                  <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
-                    <SelectItem value="all">Any</SelectItem>
-                    <SelectItem value="yes">Marked Only</SelectItem>
-                    <SelectItem value="no">Not Marked</SelectItem>
+                  <SelectContent
+                    container={portalContainer}
+                    className="w-[var(--radix-select-trigger-width)] min-w-0"
+                  >
+                    <SelectItem data-filter-demo-option="marked:all" value="all">Any</SelectItem>
+                    <SelectItem data-filter-demo-option="marked:yes" value="yes">Marked Only</SelectItem>
+                    <SelectItem data-filter-demo-option="marked:no" value="no">Not Marked</SelectItem>
                   </SelectContent>
                 </Select>
               </FilterCard>
@@ -223,30 +252,38 @@ export function QuestionBankFilterPanel({
                 <Select
                   value={filters.solved}
                   onValueChange={(v) => updateFilter("solved", v as typeof filters.solved)}
+                  {...homeDemoSelectOpenProps("solved")}
                 >
-                  <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
+                  <SelectTrigger data-filter-demo-control="solved" className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
-                  <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
-                    <SelectItem value="all">Any</SelectItem>
-                    <SelectItem value="yes">Solved Only</SelectItem>
-                    <SelectItem value="no">Unsolved Only</SelectItem>
+                  <SelectContent
+                    container={portalContainer}
+                    className="w-[var(--radix-select-trigger-width)] min-w-0"
+                  >
+                    <SelectItem data-filter-demo-option="solved:all" value="all">Any</SelectItem>
+                    <SelectItem data-filter-demo-option="solved:yes" value="yes">Solved Only</SelectItem>
+                    <SelectItem data-filter-demo-option="solved:no" value="no">Unsolved Only</SelectItem>
                   </SelectContent>
                 </Select>
               </FilterCard>
 
-              <FilterCard icon={XCircle} label="Answered Incorrectly" className="min-w-0">
+              <FilterCard icon={XCircle} label={compactLabels ? "Incorrect" : "Answered Incorrectly"} className="min-w-0">
                 <Select
                   value={filters.answeredIncorrectly}
                   onValueChange={(v) => updateFilter("answeredIncorrectly", v as typeof filters.answeredIncorrectly)}
+                  {...homeDemoSelectOpenProps("incorrect")}
                 >
-                  <SelectTrigger className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
+                  <SelectTrigger data-filter-demo-control="incorrect" className="w-full pl-4 pr-3 text-left [&>span]:grow [&>span]:text-left">
                     <SelectValue />
                   </SelectTrigger>
-                  <SelectContent className="w-[var(--radix-select-trigger-width)] min-w-0">
-                    <SelectItem value="all">Any</SelectItem>
-                    <SelectItem value="yes">Incorrect Only</SelectItem>
-                    <SelectItem value="no">Not Incorrect</SelectItem>
+                  <SelectContent
+                    container={portalContainer}
+                    className="w-[var(--radix-select-trigger-width)] min-w-0"
+                  >
+                    <SelectItem data-filter-demo-option="incorrect:all" value="all">Any</SelectItem>
+                    <SelectItem data-filter-demo-option="incorrect:yes" value="yes">Incorrect Only</SelectItem>
+                    <SelectItem data-filter-demo-option="incorrect:no" value="no">Not Incorrect</SelectItem>
                   </SelectContent>
                 </Select>
               </FilterCard>

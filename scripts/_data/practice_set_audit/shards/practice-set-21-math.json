@@ -1,0 +1,4001 @@
+{
+  "shardId": "practice-set-21-math",
+  "practiceSetNumber": 21,
+  "subject": "math",
+  "files": [
+    "nov24-us-formB-math-m1.json",
+    "nov24-int-formC-math-m2.json"
+  ],
+  "modules": [
+    {
+      "slug": "november-2024-us-b-math-module-1",
+      "fileName": "nov24-us-formB-math-m1.json",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "subject": "math",
+      "moduleNumber": 1,
+      "publicTitle": "Math Module 1",
+      "publicSubtitle": "Practice Set 21",
+      "targetCount": 22,
+      "originalCount": 21,
+      "questionCount": 22,
+      "missingQuestionNumbers": [
+        21
+      ],
+      "repairedSlots": 1,
+      "questions": [
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 55,
+          "slot": 1,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_1",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_1",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 1,
+          "type": "multiple-choice",
+          "prompt": "If $6x = 60$, what is the value of $7x + 3$?",
+          "passage": "",
+          "questionText": "If $6x = 60$, what is the value of $7x + 3$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "73"
+            },
+            {
+              "id": "B",
+              "text": "63"
+            },
+            {
+              "id": "C",
+              "text": "55"
+            },
+            {
+              "id": "D",
+              "text": "45"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in one variable",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 56,
+          "slot": 2,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_2",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_2",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 2,
+          "type": "multiple-choice",
+          "prompt": "The function j is defined by $j(x) = \\frac{x}{8}$. What is the value of $j(48)$?",
+          "passage": "",
+          "questionText": "The function j is defined by $j(x) = \\frac{x}{8}$. What is the value of $j(48)$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "48"
+            },
+            {
+              "id": "B",
+              "text": "40"
+            },
+            {
+              "id": "C",
+              "text": "8"
+            },
+            {
+              "id": "D",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 57,
+          "slot": 3,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_3",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_3",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 3,
+          "type": "multiple-choice",
+          "prompt": "$k(x) = - \\frac{1}{2}x^{2} + 8x + 20$\nThe function $k$ gives the estimated number of students in a school organization $x$ years after the organization was established, where $0 \\leq x \\leq 10$. Which statement is the best interpretation of $k(4) = 44$?",
+          "passage": "",
+          "questionText": "$k(x) = - \\frac{1}{2}x^{2} + 8x + 20$\nThe function $k$ gives the estimated number of students in a school organization $x$ years after the organization was established, where $0 \\leq x \\leq 10$. Which statement is the best interpretation of $k(4) = 44$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "It is estimated there were 4 students in the school organization when it was established."
+            },
+            {
+              "id": "B",
+              "text": "It is estimated there were 44 students in the school organization when it was established."
+            },
+            {
+              "id": "C",
+              "text": "It is estimated there were 44 students in the school organization 4 years after it was established."
+            },
+            {
+              "id": "D",
+              "text": "It is estimated there were 44 students in the school organization 10 years after it was established."
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 58,
+          "slot": 4,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_4",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_4",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 4,
+          "type": "multiple-choice",
+          "prompt": "The function $t(x) = -3x + 74$ gives the estimated temperature, in degrees Fahrenheit, of a town $x$ hours after 6 p.m., where $0 \\leq x \\leq 5$. What is the best interpretation of -3 in this context?",
+          "passage": "",
+          "questionText": "The function $t(x) = -3x + 74$ gives the estimated temperature, in degrees Fahrenheit, of a town $x$ hours after 6 p.m., where $0 \\leq x \\leq 5$. What is the best interpretation of -3 in this context?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The estimated temperature decreases 3 degrees Fahrenheit each hour."
+            },
+            {
+              "id": "B",
+              "text": "The estimated temperature decreases 74 degrees Fahrenheit each hour."
+            },
+            {
+              "id": "C",
+              "text": "At 6 p.m., the estimated temperature is -3 degrees Fahrenheit."
+            },
+            {
+              "id": "D",
+              "text": "At 6 p.m., the estimated temperature is 5 degrees Fahrenheit."
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 59,
+          "slot": 5,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_5",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_5",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 5,
+          "type": "multiple-choice",
+          "prompt": "The graph of the function $f$ is shown, where $y = f(x)$.\nWhich of the following best describes the function $f$?",
+          "passage": "",
+          "questionText": "The graph of the function $f$ is shown, where $y = f(x)$.\nWhich of the following best describes the function $f$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Increasing linear"
+            },
+            {
+              "id": "B",
+              "text": "Decreasing linear"
+            },
+            {
+              "id": "C",
+              "text": "Increasing exponential"
+            },
+            {
+              "id": "D",
+              "text": "Decreasing exponential"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 60,
+          "slot": 6,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_6",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_6",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 6,
+          "type": "multiple-choice",
+          "prompt": "Which expression is equivalent to $10x^2 + 130$?",
+          "passage": "",
+          "questionText": "Which expression is equivalent to $10x^2 + 130$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$10(13x^2)$"
+            },
+            {
+              "id": "B",
+              "text": "$10(x^2 + 13)$"
+            },
+            {
+              "id": "C",
+              "text": "$130(10x^2)$"
+            },
+            {
+              "id": "D",
+              "text": "$130(10x^2 + 1)$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 61,
+          "slot": 7,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_7",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_7",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 7,
+          "type": "free-response",
+          "prompt": "An event planner is planning an ice-skating event. It costs the event planner a one-time fee of \\$30 to rent the skating rink and \\$10.25 per attendee. The event planner has a budget of \\$250. What is the greatest number of attendees possible without exceeding the budget?",
+          "passage": "",
+          "questionText": "An event planner is planning an ice-skating event. It costs the event planner a one-time fee of \\$30 to rent the skating rink and \\$10.25 per attendee. The event planner has a budget of \\$250. What is the greatest number of attendees possible without exceeding the budget?",
+          "choices": [],
+          "correctAnswer": "21",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Ratios, rates, proportional relationships, and units",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 62,
+          "slot": 8,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_8",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_8",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 8,
+          "type": "multiple-choice",
+          "prompt": "The function $f$ is defined by $f(x)=4\\sqrt{x}$. For what value of $a$ does $f(x) = 28$?",
+          "passage": "",
+          "questionText": "The function $f$ is defined by $f(x)=4\\sqrt{x}$. For what value of $a$ does $f(x) = 28$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "4"
+            },
+            {
+              "id": "B",
+              "text": "7"
+            },
+            {
+              "id": "C",
+              "text": "16"
+            },
+            {
+              "id": "D",
+              "text": "49"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 63,
+          "slot": 9,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_9",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_9",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 9,
+          "type": "multiple-choice",
+          "prompt": "Triangle PQR is similar to triangle STU, where P, Q, and R correspond to S, T, and U, respectively. In triangle PQR, the length of $\\overline{PQ}$ is 6 and the length of $\\overline{QR}$ is 24. In triangle STU, the length of $\\overline{ST}$ is 8. What is the length of $\\overline{TU}$?",
+          "passage": "",
+          "questionText": "Triangle PQR is similar to triangle STU, where P, Q, and R correspond to S, T, and U, respectively. In triangle PQR, the length of $\\overline{PQ}$ is 6 and the length of $\\overline{QR}$ is 24. In triangle STU, the length of $\\overline{ST}$ is 8. What is the length of $\\overline{TU}$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "8"
+            },
+            {
+              "id": "B",
+              "text": "14"
+            },
+            {
+              "id": "C",
+              "text": "32"
+            },
+            {
+              "id": "D",
+              "text": "48"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Lines, angles, and triangles",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 64,
+          "slot": 10,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_10",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_10",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 10,
+          "type": "multiple-choice",
+          "prompt": "The graph of a system of a linear and a quadratic equation is shown. What system is represented by the graph?",
+          "passage": "",
+          "questionText": "The graph of a system of a linear and a quadratic equation is shown. What system is represented by the graph?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$y=-\\frac{7}{25}x^{2}$\n$y=-\\frac{7}{5}x$"
+            },
+            {
+              "id": "B",
+              "text": "$y=-\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$"
+            },
+            {
+              "id": "C",
+              "text": "$y=\\frac{7}{25}x^{2}$\n$y=-\\frac{7}{5}x$"
+            },
+            {
+              "id": "D",
+              "text": "$y=\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Systems of two linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/d33931f5-618d-4bf0-a69a-be73447d49f7_10_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_10_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_10_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 65,
+          "slot": 11,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_11",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_11",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 11,
+          "type": "free-response",
+          "prompt": "The function $f$ is defined by $f(x) = 4(x - 2) + 8$. What is the value of $f(2)$?",
+          "passage": "",
+          "questionText": "The function $f$ is defined by $f(x) = 4(x - 2) + 8$. What is the value of $f(2)$?",
+          "choices": [],
+          "correctAnswer": "8",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 66,
+          "slot": 12,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_12",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_12",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 12,
+          "type": "multiple-choice",
+          "prompt": "If the graph of $12x + 22y = 132$ is shifted down 4 units in the $xy$-plane, what is the $y$-intercept of the resulting graph?",
+          "passage": "",
+          "questionText": "If the graph of $12x + 22y = 132$ is shifted down 4 units in the $xy$-plane, what is the $y$-intercept of the resulting graph?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$(0,2)$"
+            },
+            {
+              "id": "B",
+              "text": "$(0,7)$"
+            },
+            {
+              "id": "C",
+              "text": "$(0,10)$"
+            },
+            {
+              "id": "D",
+              "text": "$(0,18)$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Ratios, rates, proportional relationships, and units",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 67,
+          "slot": 13,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_13",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_13",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 13,
+          "type": "multiple-choice",
+          "prompt": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 8 and 13, which inequality represents the possible lengths, $x$, of the third side of the triangle?",
+          "passage": "",
+          "questionText": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 8 and 13, which inequality represents the possible lengths, $x$, of the third side of the triangle?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$x < 21$"
+            },
+            {
+              "id": "B",
+              "text": "$x > 21$"
+            },
+            {
+              "id": "C",
+              "text": "$5 < x < 21$"
+            },
+            {
+              "id": "D",
+              "text": "$x < 5$ or $x > 21$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear inequalities in one or two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 68,
+          "slot": 14,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_14",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_14",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 14,
+          "type": "multiple-choice",
+          "prompt": "A landscaping company mixes oil with gasoline to power its tools. A chainsaw requires 8 ounces of oil per gallon of gasoline. A lawnmower requires 4 ounces of oil per gallon of gasoline. The company uses a total of 21 ounces of oil in its mixes for the chainsaw and lawnmower. Which of the following equations represents this situation, where $x$ represents the amount of gasoline, in gallons, in the mix for the chainsaw and $y$ represents the amount of gasoline, in gallons, in the mix for the lawnmower?",
+          "passage": "",
+          "questionText": "A landscaping company mixes oil with gasoline to power its tools. A chainsaw requires 8 ounces of oil per gallon of gasoline. A lawnmower requires 4 ounces of oil per gallon of gasoline. The company uses a total of 21 ounces of oil in its mixes for the chainsaw and lawnmower. Which of the following equations represents this situation, where $x$ represents the amount of gasoline, in gallons, in the mix for the chainsaw and $y$ represents the amount of gasoline, in gallons, in the mix for the lawnmower?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$2(x + 2 y) = 21$"
+            },
+            {
+              "id": "B",
+              "text": "$2(2 x + y) = 21$"
+            },
+            {
+              "id": "C",
+              "text": "$x + 2 y = 21$"
+            },
+            {
+              "id": "D",
+              "text": "$2 x + y = 21$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Ratios, rates, proportional relationships, and units",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 69,
+          "slot": 15,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_15",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_15",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 15,
+          "type": "free-response",
+          "prompt": "What is the value of $\\cos B$ in the right triangle shown?",
+          "passage": "",
+          "questionText": "What is the value of $\\cos B$ in the right triangle shown?",
+          "choices": [],
+          "correctAnswer": "15/25,3/5",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Right triangles and trigonometry",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/d33931f5-618d-4bf0-a69a-be73447d49f7_15_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_15_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_15_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 70,
+          "slot": 16,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_16",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_16",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 16,
+          "type": "free-response",
+          "prompt": "Rectangles $ABCD$ and $EFGH$ are similar. The length of each side of rectangle $EFGH$ is 7 times the length of the corresponding side of rectangle $ABCD$. The area of rectangle $ABCD$ is 68 square units. What is the area of rectangle $EFGH$, in square units?",
+          "passage": "",
+          "questionText": "Rectangles $ABCD$ and $EFGH$ are similar. The length of each side of rectangle $EFGH$ is 7 times the length of the corresponding side of rectangle $ABCD$. The area of rectangle $ABCD$ is 68 square units. What is the area of rectangle $EFGH$, in square units?",
+          "choices": [],
+          "correctAnswer": "3332",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Area and volume",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 71,
+          "slot": 17,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_17",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_17",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 17,
+          "type": "multiple-choice",
+          "prompt": "18 is 10% of what number?",
+          "passage": "",
+          "questionText": "18 is 10% of what number?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "28"
+            },
+            {
+              "id": "B",
+              "text": "100"
+            },
+            {
+              "id": "C",
+              "text": "162"
+            },
+            {
+              "id": "D",
+              "text": "180"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Percentages",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 72,
+          "slot": 18,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_18",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_18",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 18,
+          "type": "free-response",
+          "prompt": "$h(t) = -16t^2 + b$\nThe function $h$ estimates an object's height, in feet, above the ground $t$ seconds after the object is dropped, where $b$ is a constant. The function estimates that the object is 2.56 feet above the ground when it is dropped at $t = 0$. How many seconds after being dropped does the function estimate the object will hit the ground?",
+          "passage": "",
+          "questionText": "$h(t) = -16t^2 + b$\nThe function $h$ estimates an object's height, in feet, above the ground $t$ seconds after the object is dropped, where $b$ is a constant. The function estimates that the object is 2.56 feet above the ground when it is dropped at $t = 0$. How many seconds after being dropped does the function estimate the object will hit the ground?",
+          "choices": [],
+          "correctAnswer": "0.4,2/5",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 73,
+          "slot": 19,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_19",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_19",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 19,
+          "type": "multiple-choice",
+          "prompt": "The measure of angle S is $\\frac{8\\pi}{13}$ radians. The measure of angle T is 3 times the measure of angle S. Which expression represents the measure, in degrees, of angle T?",
+          "passage": "",
+          "questionText": "The measure of angle S is $\\frac{8\\pi}{13}$ radians. The measure of angle T is 3 times the measure of angle S. Which expression represents the measure, in degrees, of angle T?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$\\frac{8}{13}(90)(3)$"
+            },
+            {
+              "id": "B",
+              "text": "$\\frac{8}{13}(180)(3)$"
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{8}{13\\pi}(90)(3)$"
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{8\\pi}{13}(180)(3)$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Lines, angles, and triangles",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 74,
+          "slot": 20,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 20,
+          "type": "multiple-choice",
+          "prompt": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0$\n$3x + 4y = 0$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
+          "passage": "",
+          "questionText": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0$\n$3x + 4y = 0$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "-12"
+            },
+            {
+              "id": "B",
+              "text": "-5"
+            },
+            {
+              "id": "C",
+              "text": "-4"
+            },
+            {
+              "id": "D",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Systems of two linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 75,
+          "slot": 21,
+          "isReplacement": true,
+          "replacement": {
+            "slot": 21,
+            "expectedSkill": "Linear equations in two variables",
+            "expectedDomain": "Algebra",
+            "expectedType": "free-response",
+            "profileConfidence": 0.09803921568627451,
+            "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+            "sourceTestName": "June 2024 US Form A SAT Math Module 1",
+            "sourceQuestionNumber": 21,
+            "origin": "borrowed",
+            "note": "Slot 21 is usually Linear equations in two variables in Math Module 1, so this module borrows a matching past-bank question."
+          },
+          "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+          "stableId": "bank-past-math-6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+          "testName": "June 2024 US Form A SAT Math Module 1",
+          "sourceQuestionNumber": 21,
+          "type": "free-response",
+          "prompt": "Line $j$ is defined by $4x + 5y = 55$. Line $k$ is parallel to line $j$ in the $xy$-plane. An equation of line $k$ is $24x + ry = 15$, where $r$ is a constant. If line $k$ passes through the point $(0, b)$, what is the value of $b$?",
+          "passage": "",
+          "questionText": "Line $j$ is defined by $4x + 5y = 55$. Line $k$ is parallel to line $j$ in the $xy$-plane. An equation of line $k$ is $24x + ry = 15$, where $r$ is a constant. If line $k$ passes through the point $(0, b)$, what is the value of $b$?",
+          "choices": [],
+          "correctAnswer": "0.5,1/2",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-us-b-math-module-1",
+          "moduleFileName": "nov24-us-formB-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 76,
+          "slot": 22,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_22",
+          "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_22",
+          "testName": "November 2024 US Form B SAT Math Module 1",
+          "sourceQuestionNumber": 22,
+          "type": "free-response",
+          "prompt": "Jackson mows lawns in the summer. When Jackson mows a lawn with a fence, he charges \\$1.03 per minute. When Jackson mows a lawn without a fence, he charges \\$0.56 per minute. Jackson spends a total of 15 hours mowing lawns with and without a fence in a week and charges a total of \\$701.40 for mowing lawns during that week. How many minutes does Jackson spend mowing lawns with a fence during that week?",
+          "passage": "",
+          "questionText": "Jackson mows lawns in the summer. When Jackson mows a lawn with a fence, he charges \\$1.03 per minute. When Jackson mows a lawn without a fence, he charges \\$0.56 per minute. Jackson spends a total of 15 hours mowing lawns with and without a fence in a week and charges a total of \\$701.40 for mowing lawns during that week. How many minutes does Jackson spend mowing lawns with a fence during that week?",
+          "choices": [],
+          "correctAnswer": "420",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Ratios, rates, proportional relationships, and units",
+            "confidence": "high"
+          },
+          "questionImages": []
+        }
+      ]
+    },
+    {
+      "slug": "november-2024-international-c-math-module-2",
+      "fileName": "nov24-int-formC-math-m2.json",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "subject": "math",
+      "moduleNumber": 2,
+      "publicTitle": "Math Module 2",
+      "publicSubtitle": "Practice Set 21",
+      "targetCount": 22,
+      "originalCount": 21,
+      "questionCount": 22,
+      "missingQuestionNumbers": [
+        3
+      ],
+      "repairedSlots": 1,
+      "questions": [
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 77,
+          "slot": 1,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_1",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_1",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 1,
+          "type": "multiple-choice",
+          "prompt": "The shaded region shown in the graph represents all the solutions to which inequality?",
+          "passage": "",
+          "questionText": "The shaded region shown in the graph represents all the solutions to which inequality?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$x \\leq 29$"
+            },
+            {
+              "id": "B",
+              "text": "$x \\geq 29$"
+            },
+            {
+              "id": "C",
+              "text": "$y \\leq 29$"
+            },
+            {
+              "id": "D",
+              "text": "$y \\geq 29$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear inequalities in one or two variables",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_1_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_1_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_1_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 78,
+          "slot": 2,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_2",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_2",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 2,
+          "type": "multiple-choice",
+          "prompt": "$3.5c + 7d = 266$\nThe given equation describes the relationship between the number of cats, $c$, and the number of dogs, $d$, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
+          "passage": "",
+          "questionText": "$3.5c + 7d = 266$\nThe given equation describes the relationship between the number of cats, $c$, and the number of dogs, $d$, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "0"
+            },
+            {
+              "id": "B",
+              "text": "7"
+            },
+            {
+              "id": "C",
+              "text": "133"
+            },
+            {
+              "id": "D",
+              "text": "266"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 79,
+          "slot": 3,
+          "isReplacement": true,
+          "replacement": {
+            "slot": 3,
+            "expectedSkill": "Linear functions",
+            "expectedDomain": "Algebra",
+            "expectedType": "multiple-choice",
+            "profileConfidence": 0.16,
+            "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+            "sourceTestName": "June 2024 International Form A SAT Math Module 2",
+            "sourceQuestionNumber": 3,
+            "origin": "borrowed",
+            "note": "Slot 3 is usually Linear functions in Math Module 2, so this module borrows a matching past-bank question."
+          },
+          "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+          "stableId": "bank-past-math-2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+          "testName": "June 2024 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 3,
+          "type": "multiple-choice",
+          "prompt": "$f(x) = 50x + 8$\nThe given function $f$ estimates the distance a train has traveled, in kilometers, from a station in a certain city $x$ hours after crossing the city border. What is the best interpretation of 8 in this context?",
+          "passage": "",
+          "questionText": "$f(x) = 50x + 8$\nThe given function $f$ estimates the distance a train has traveled, in kilometers, from a station in a certain city $x$ hours after crossing the city border. What is the best interpretation of 8 in this context?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Between the station and the city border, the train traveled an estimated total distance of 8 kilometers."
+            },
+            {
+              "id": "B",
+              "text": "Between the station and the city border, the train traveled at an estimated speed of 8 kilometers per hour."
+            },
+            {
+              "id": "C",
+              "text": "After crossing the city border, the train traveled at an estimated speed of 8 kilometers per hour."
+            },
+            {
+              "id": "D",
+              "text": "After crossing the city border, the train traveled an estimated total distance of 8 kilometers."
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 80,
+          "slot": 4,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 4,
+          "type": "multiple-choice",
+          "prompt": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
+          "passage": "",
+          "questionText": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Any value greater than 63.09% and less than 68.91%"
+            },
+            {
+              "id": "B",
+              "text": "Any value greater than 63.09%"
+            },
+            {
+              "id": "C",
+              "text": "Any value less than 63.09% or greater than 68.91%"
+            },
+            {
+              "id": "D",
+              "text": "Any value less than 68.91%"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Inference from sample statistics and margin of error",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 81,
+          "slot": 5,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_5",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_5",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 5,
+          "type": "multiple-choice",
+          "prompt": "The gas mileage of a certain car is 35 miles per gallon when driven on the highway. If the car begins with 10 gallons of gas in the tank, which function predicts the amount of gas remaining in the tank, f(d), after the car is driven d miles on the highway?",
+          "passage": "",
+          "questionText": "The gas mileage of a certain car is 35 miles per gallon when driven on the highway. If the car begins with 10 gallons of gas in the tank, which function predicts the amount of gas remaining in the tank, f(d), after the car is driven d miles on the highway?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$f(d)=\\frac{d}{35}-10$"
+            },
+            {
+              "id": "B",
+              "text": "$f(d)=d-10$"
+            },
+            {
+              "id": "C",
+              "text": "$f(d)=10-\\frac{d}{35}$"
+            },
+            {
+              "id": "D",
+              "text": "$f(d)=10-d$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 82,
+          "slot": 6,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_6",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_6",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 6,
+          "type": "free-response",
+          "prompt": "The function $ f $ is defined by $ f(x) = 50x $. For what value of $ x $ is $ f(x) = 150 $?",
+          "passage": "",
+          "questionText": "The function $ f $ is defined by $ f(x) = 50x $. For what value of $ x $ is $ f(x) = 150 $?",
+          "choices": [],
+          "correctAnswer": "3",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 83,
+          "slot": 7,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_7",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_7",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 7,
+          "type": "multiple-choice",
+          "prompt": "The graph of the linear equation $10x + By = 50$ is shown, where $B$ is a constant. What is the value of $B$?",
+          "passage": "",
+          "questionText": "The graph of the linear equation $10x + By = 50$ is shown, where $B$ is a constant. What is the value of $B$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "25"
+            },
+            {
+              "id": "B",
+              "text": "5"
+            },
+            {
+              "id": "C",
+              "text": "2"
+            },
+            {
+              "id": "D",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 84,
+          "slot": 8,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_8",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_8",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 8,
+          "type": "multiple-choice",
+          "prompt": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+          "passage": "",
+          "questionText": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$y=80-10x$"
+            },
+            {
+              "id": "B",
+              "text": "$y=80-0.1x$"
+            },
+            {
+              "id": "C",
+              "text": "$y=90-0.1x$"
+            },
+            {
+              "id": "D",
+              "text": "$y=90-10x$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Two-variable data: Models and scatterplots",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 85,
+          "slot": 9,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_9",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_9",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 9,
+          "type": "multiple-choice",
+          "prompt": "$4x^{2}+5x-5=0$\nWhat is the greatest solution to the given equation?",
+          "passage": "",
+          "questionText": "$4x^{2}+5x-5=0$\nWhat is the greatest solution to the given equation?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$-\\frac{5}{8}-\\frac{\\sqrt{105}}{8}$"
+            },
+            {
+              "id": "B",
+              "text": "$-\\frac{5}{8}+\\frac{\\sqrt{105}}{8}$"
+            },
+            {
+              "id": "C",
+              "text": "$-\\frac{5}{4}-\\frac{\\sqrt{105}}{4}$"
+            },
+            {
+              "id": "D",
+              "text": "$-\\frac{5}{4}+\\frac{\\sqrt{105}}{4}$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 86,
+          "slot": 10,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_10",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_10",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 10,
+          "type": "multiple-choice",
+          "prompt": "$y \\le x + 15$\n$y \\ge -4x - 15$\nWhich point $(x, y)$ is a solution to the given system of inequalities in the $xy$-plane?",
+          "passage": "",
+          "questionText": "$y \\le x + 15$\n$y \\ge -4x - 15$\nWhich point $(x, y)$ is a solution to the given system of inequalities in the $xy$-plane?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "(-7,0)"
+            },
+            {
+              "id": "B",
+              "text": "(0,16)"
+            },
+            {
+              "id": "C",
+              "text": "(0,-16)"
+            },
+            {
+              "id": "D",
+              "text": "(7,0)"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Systems of two linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 87,
+          "slot": 11,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 11,
+          "type": "free-response",
+          "prompt": "A researcher created a data set by recording the daily low temperature, to the nearest integer, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
+          "passage": "",
+          "questionText": "A researcher created a data set by recording the daily low temperature, to the nearest integer, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
+          "choices": [],
+          "correctAnswer": "25,26,27,28,29,30,31,32,33,34",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "One-variable data: Distributions and measures of center and spread",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 88,
+          "slot": 12,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_12",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_12",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 12,
+          "type": "multiple-choice",
+          "prompt": "An equilateral triangle has a height of $47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+          "passage": "",
+          "questionText": "An equilateral triangle has a height of $47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$94\\sqrt{3}$"
+            },
+            {
+              "id": "B",
+              "text": "94"
+            },
+            {
+              "id": "C",
+              "text": "$47\\sqrt{3}$"
+            },
+            {
+              "id": "D",
+              "text": "47"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Lines, angles, and triangles",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 89,
+          "slot": 13,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 13,
+          "type": "free-response",
+          "prompt": "Line $s$ in the $xy$-plane is defined by $8x + 2y = 0$. Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k, \\frac{5}{4})$. What is the value of $k$?",
+          "passage": "",
+          "questionText": "Line $s$ in the $xy$-plane is defined by $8x + 2y = 0$. Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k, \\frac{5}{4})$. What is the value of $k$?",
+          "choices": [],
+          "correctAnswer": "11",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 90,
+          "slot": 14,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_14",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_14",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 14,
+          "type": "multiple-choice",
+          "prompt": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+          "passage": "",
+          "questionText": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Ⅰ only"
+            },
+            {
+              "id": "B",
+              "text": "Ⅱ only"
+            },
+            {
+              "id": "C",
+              "text": "Ⅰ and Ⅱ"
+            },
+            {
+              "id": "D",
+              "text": "Neither Ⅰ nor Ⅱ"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 91,
+          "slot": 15,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_15",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_15",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 15,
+          "type": "multiple-choice",
+          "prompt": "$f(x)=2,000(1.005)^{3x}$\nThe given function $f$ models the balance of a bank account, in dollars, $x$ years after it is opened. Which statement is the best interpretation of $(1.005)^{3x}$?",
+          "passage": "",
+          "questionText": "$f(x)=2,000(1.005)^{3x}$\nThe given function $f$ models the balance of a bank account, in dollars, $x$ years after it is opened. Which statement is the best interpretation of $(1.005)^{3x}$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Every 4 months, the balance increases by about \\$5."
+            },
+            {
+              "id": "B",
+              "text": "At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval."
+            },
+            {
+              "id": "C",
+              "text": "Every 3 years, the balance increases by about \\$5."
+            },
+            {
+              "id": "D",
+              "text": "At the end of every 3-year interval, the balance increases by about 0.5% of the balance at the beginning of the 3-year interval."
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 92,
+          "slot": 16,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_16",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_16",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 16,
+          "type": "free-response",
+          "prompt": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+          "passage": "",
+          "questionText": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+          "choices": [],
+          "correctAnswer": "1.152",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear inequalities in one or two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 93,
+          "slot": 17,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 17,
+          "type": "multiple-choice",
+          "prompt": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+          "passage": "",
+          "questionText": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "1.30"
+            },
+            {
+              "id": "B",
+              "text": "6.84"
+            },
+            {
+              "id": "C",
+              "text": "24.70"
+            },
+            {
+              "id": "D",
+              "text": "49.50"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Percentages",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 94,
+          "slot": 18,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 18,
+          "type": "free-response",
+          "prompt": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 81. What is the value of $k$?",
+          "passage": "",
+          "questionText": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 81. What is the value of $k$?",
+          "choices": [],
+          "correctAnswer": "27/4,6.75",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 95,
+          "slot": 19,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_19",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_19",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 19,
+          "type": "multiple-choice",
+          "prompt": "Which expression is equivalent to $10(x + 3)$?",
+          "passage": "",
+          "questionText": "Which expression is equivalent to $10(x + 3)$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$10x + 3$"
+            },
+            {
+              "id": "B",
+              "text": "$10x + 13$"
+            },
+            {
+              "id": "C",
+              "text": "$10x + 7$"
+            },
+            {
+              "id": "D",
+              "text": "$10x + 30$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 96,
+          "slot": 20,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_20",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_20",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 20,
+          "type": "multiple-choice",
+          "prompt": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $BED$ is congruent to angle $CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+          "passage": "",
+          "questionText": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $BED$ is congruent to angle $CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "6"
+            },
+            {
+              "id": "B",
+              "text": "14"
+            },
+            {
+              "id": "C",
+              "text": "32"
+            },
+            {
+              "id": "D",
+              "text": "56"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Lines, angles, and triangles",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 97,
+          "slot": 21,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_21",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_21",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 21,
+          "type": "multiple-choice",
+          "prompt": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use $1$ meter = $3.28$ feet.)",
+          "passage": "",
+          "questionText": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use $1$ meter = $3.28$ feet.)",
+          "choices": [
+            {
+              "id": "A",
+              "text": "0.42"
+            },
+            {
+              "id": "B",
+              "text": "1.37"
+            },
+            {
+              "id": "C",
+              "text": "14.76"
+            },
+            {
+              "id": "D",
+              "text": "25.10"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Area and volume",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 21,
+          "moduleSlug": "november-2024-international-c-math-module-2",
+          "moduleFileName": "nov24-int-formC-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 21",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 98,
+          "slot": 22,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_22",
+          "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_22",
+          "testName": "November 2024 International Form C SAT Math Module 2",
+          "sourceQuestionNumber": 22,
+          "type": "free-response",
+          "prompt": "$x(kx - 112) = -16$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
+          "passage": "",
+          "questionText": "$x(kx - 112) = -16$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
+          "choices": [],
+          "correctAnswer": "195",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in one variable",
+            "confidence": "high"
+          },
+          "questionImages": []
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 55,
+      "slot": 1,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_1",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_1",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 1,
+      "type": "multiple-choice",
+      "prompt": "If $6x = 60$, what is the value of $7x + 3$?",
+      "passage": "",
+      "questionText": "If $6x = 60$, what is the value of $7x + 3$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "73"
+        },
+        {
+          "id": "B",
+          "text": "63"
+        },
+        {
+          "id": "C",
+          "text": "55"
+        },
+        {
+          "id": "D",
+          "text": "45"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in one variable",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 56,
+      "slot": 2,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_2",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_2",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 2,
+      "type": "multiple-choice",
+      "prompt": "The function j is defined by $j(x) = \\frac{x}{8}$. What is the value of $j(48)$?",
+      "passage": "",
+      "questionText": "The function j is defined by $j(x) = \\frac{x}{8}$. What is the value of $j(48)$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "48"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 57,
+      "slot": 3,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_3",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_3",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 3,
+      "type": "multiple-choice",
+      "prompt": "$k(x) = - \\frac{1}{2}x^{2} + 8x + 20$\nThe function $k$ gives the estimated number of students in a school organization $x$ years after the organization was established, where $0 \\leq x \\leq 10$. Which statement is the best interpretation of $k(4) = 44$?",
+      "passage": "",
+      "questionText": "$k(x) = - \\frac{1}{2}x^{2} + 8x + 20$\nThe function $k$ gives the estimated number of students in a school organization $x$ years after the organization was established, where $0 \\leq x \\leq 10$. Which statement is the best interpretation of $k(4) = 44$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It is estimated there were 4 students in the school organization when it was established."
+        },
+        {
+          "id": "B",
+          "text": "It is estimated there were 44 students in the school organization when it was established."
+        },
+        {
+          "id": "C",
+          "text": "It is estimated there were 44 students in the school organization 4 years after it was established."
+        },
+        {
+          "id": "D",
+          "text": "It is estimated there were 44 students in the school organization 10 years after it was established."
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 58,
+      "slot": 4,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_4",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_4",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 4,
+      "type": "multiple-choice",
+      "prompt": "The function $t(x) = -3x + 74$ gives the estimated temperature, in degrees Fahrenheit, of a town $x$ hours after 6 p.m., where $0 \\leq x \\leq 5$. What is the best interpretation of -3 in this context?",
+      "passage": "",
+      "questionText": "The function $t(x) = -3x + 74$ gives the estimated temperature, in degrees Fahrenheit, of a town $x$ hours after 6 p.m., where $0 \\leq x \\leq 5$. What is the best interpretation of -3 in this context?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The estimated temperature decreases 3 degrees Fahrenheit each hour."
+        },
+        {
+          "id": "B",
+          "text": "The estimated temperature decreases 74 degrees Fahrenheit each hour."
+        },
+        {
+          "id": "C",
+          "text": "At 6 p.m., the estimated temperature is -3 degrees Fahrenheit."
+        },
+        {
+          "id": "D",
+          "text": "At 6 p.m., the estimated temperature is 5 degrees Fahrenheit."
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 59,
+      "slot": 5,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_5",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_5",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 5,
+      "type": "multiple-choice",
+      "prompt": "The graph of the function $f$ is shown, where $y = f(x)$.\nWhich of the following best describes the function $f$?",
+      "passage": "",
+      "questionText": "The graph of the function $f$ is shown, where $y = f(x)$.\nWhich of the following best describes the function $f$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Increasing linear"
+        },
+        {
+          "id": "B",
+          "text": "Decreasing linear"
+        },
+        {
+          "id": "C",
+          "text": "Increasing exponential"
+        },
+        {
+          "id": "D",
+          "text": "Decreasing exponential"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 60,
+      "slot": 6,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_6",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_6",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 6,
+      "type": "multiple-choice",
+      "prompt": "Which expression is equivalent to $10x^2 + 130$?",
+      "passage": "",
+      "questionText": "Which expression is equivalent to $10x^2 + 130$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$10(13x^2)$"
+        },
+        {
+          "id": "B",
+          "text": "$10(x^2 + 13)$"
+        },
+        {
+          "id": "C",
+          "text": "$130(10x^2)$"
+        },
+        {
+          "id": "D",
+          "text": "$130(10x^2 + 1)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 61,
+      "slot": 7,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_7",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_7",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 7,
+      "type": "free-response",
+      "prompt": "An event planner is planning an ice-skating event. It costs the event planner a one-time fee of \\$30 to rent the skating rink and \\$10.25 per attendee. The event planner has a budget of \\$250. What is the greatest number of attendees possible without exceeding the budget?",
+      "passage": "",
+      "questionText": "An event planner is planning an ice-skating event. It costs the event planner a one-time fee of \\$30 to rent the skating rink and \\$10.25 per attendee. The event planner has a budget of \\$250. What is the greatest number of attendees possible without exceeding the budget?",
+      "choices": [],
+      "correctAnswer": "21",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Ratios, rates, proportional relationships, and units",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 62,
+      "slot": 8,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_8",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_8",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 8,
+      "type": "multiple-choice",
+      "prompt": "The function $f$ is defined by $f(x)=4\\sqrt{x}$. For what value of $a$ does $f(x) = 28$?",
+      "passage": "",
+      "questionText": "The function $f$ is defined by $f(x)=4\\sqrt{x}$. For what value of $a$ does $f(x) = 28$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "16"
+        },
+        {
+          "id": "D",
+          "text": "49"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 63,
+      "slot": 9,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_9",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_9",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 9,
+      "type": "multiple-choice",
+      "prompt": "Triangle PQR is similar to triangle STU, where P, Q, and R correspond to S, T, and U, respectively. In triangle PQR, the length of $\\overline{PQ}$ is 6 and the length of $\\overline{QR}$ is 24. In triangle STU, the length of $\\overline{ST}$ is 8. What is the length of $\\overline{TU}$?",
+      "passage": "",
+      "questionText": "Triangle PQR is similar to triangle STU, where P, Q, and R correspond to S, T, and U, respectively. In triangle PQR, the length of $\\overline{PQ}$ is 6 and the length of $\\overline{QR}$ is 24. In triangle STU, the length of $\\overline{ST}$ is 8. What is the length of $\\overline{TU}$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "14"
+        },
+        {
+          "id": "C",
+          "text": "32"
+        },
+        {
+          "id": "D",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Lines, angles, and triangles",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 64,
+      "slot": 10,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_10",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_10",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 10,
+      "type": "multiple-choice",
+      "prompt": "The graph of a system of a linear and a quadratic equation is shown. What system is represented by the graph?",
+      "passage": "",
+      "questionText": "The graph of a system of a linear and a quadratic equation is shown. What system is represented by the graph?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$y=-\\frac{7}{25}x^{2}$\n$y=-\\frac{7}{5}x$"
+        },
+        {
+          "id": "B",
+          "text": "$y=-\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$"
+        },
+        {
+          "id": "C",
+          "text": "$y=\\frac{7}{25}x^{2}$\n$y=-\\frac{7}{5}x$"
+        },
+        {
+          "id": "D",
+          "text": "$y=\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Systems of two linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/d33931f5-618d-4bf0-a69a-be73447d49f7_10_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_10_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_10_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 65,
+      "slot": 11,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_11",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_11",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 11,
+      "type": "free-response",
+      "prompt": "The function $f$ is defined by $f(x) = 4(x - 2) + 8$. What is the value of $f(2)$?",
+      "passage": "",
+      "questionText": "The function $f$ is defined by $f(x) = 4(x - 2) + 8$. What is the value of $f(2)$?",
+      "choices": [],
+      "correctAnswer": "8",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 66,
+      "slot": 12,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_12",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_12",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 12,
+      "type": "multiple-choice",
+      "prompt": "If the graph of $12x + 22y = 132$ is shifted down 4 units in the $xy$-plane, what is the $y$-intercept of the resulting graph?",
+      "passage": "",
+      "questionText": "If the graph of $12x + 22y = 132$ is shifted down 4 units in the $xy$-plane, what is the $y$-intercept of the resulting graph?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$(0,2)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0,7)$"
+        },
+        {
+          "id": "C",
+          "text": "$(0,10)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0,18)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Ratios, rates, proportional relationships, and units",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 67,
+      "slot": 13,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_13",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_13",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 13,
+      "type": "multiple-choice",
+      "prompt": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 8 and 13, which inequality represents the possible lengths, $x$, of the third side of the triangle?",
+      "passage": "",
+      "questionText": "The triangle inequality theorem states that the sum of any two sides of a triangle must be greater than the length of the third side. If a triangle has side lengths of 8 and 13, which inequality represents the possible lengths, $x$, of the third side of the triangle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$x < 21$"
+        },
+        {
+          "id": "B",
+          "text": "$x > 21$"
+        },
+        {
+          "id": "C",
+          "text": "$5 < x < 21$"
+        },
+        {
+          "id": "D",
+          "text": "$x < 5$ or $x > 21$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear inequalities in one or two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 68,
+      "slot": 14,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_14",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_14",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 14,
+      "type": "multiple-choice",
+      "prompt": "A landscaping company mixes oil with gasoline to power its tools. A chainsaw requires 8 ounces of oil per gallon of gasoline. A lawnmower requires 4 ounces of oil per gallon of gasoline. The company uses a total of 21 ounces of oil in its mixes for the chainsaw and lawnmower. Which of the following equations represents this situation, where $x$ represents the amount of gasoline, in gallons, in the mix for the chainsaw and $y$ represents the amount of gasoline, in gallons, in the mix for the lawnmower?",
+      "passage": "",
+      "questionText": "A landscaping company mixes oil with gasoline to power its tools. A chainsaw requires 8 ounces of oil per gallon of gasoline. A lawnmower requires 4 ounces of oil per gallon of gasoline. The company uses a total of 21 ounces of oil in its mixes for the chainsaw and lawnmower. Which of the following equations represents this situation, where $x$ represents the amount of gasoline, in gallons, in the mix for the chainsaw and $y$ represents the amount of gasoline, in gallons, in the mix for the lawnmower?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$2(x + 2 y) = 21$"
+        },
+        {
+          "id": "B",
+          "text": "$2(2 x + y) = 21$"
+        },
+        {
+          "id": "C",
+          "text": "$x + 2 y = 21$"
+        },
+        {
+          "id": "D",
+          "text": "$2 x + y = 21$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Ratios, rates, proportional relationships, and units",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 69,
+      "slot": 15,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_15",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_15",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 15,
+      "type": "free-response",
+      "prompt": "What is the value of $\\cos B$ in the right triangle shown?",
+      "passage": "",
+      "questionText": "What is the value of $\\cos B$ in the right triangle shown?",
+      "choices": [],
+      "correctAnswer": "15/25,3/5",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Right triangles and trigonometry",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/d33931f5-618d-4bf0-a69a-be73447d49f7_15_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_15_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_15_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 70,
+      "slot": 16,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_16",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_16",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 16,
+      "type": "free-response",
+      "prompt": "Rectangles $ABCD$ and $EFGH$ are similar. The length of each side of rectangle $EFGH$ is 7 times the length of the corresponding side of rectangle $ABCD$. The area of rectangle $ABCD$ is 68 square units. What is the area of rectangle $EFGH$, in square units?",
+      "passage": "",
+      "questionText": "Rectangles $ABCD$ and $EFGH$ are similar. The length of each side of rectangle $EFGH$ is 7 times the length of the corresponding side of rectangle $ABCD$. The area of rectangle $ABCD$ is 68 square units. What is the area of rectangle $EFGH$, in square units?",
+      "choices": [],
+      "correctAnswer": "3332",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Area and volume",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 71,
+      "slot": 17,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_17",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_17",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 17,
+      "type": "multiple-choice",
+      "prompt": "18 is 10% of what number?",
+      "passage": "",
+      "questionText": "18 is 10% of what number?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "28"
+        },
+        {
+          "id": "B",
+          "text": "100"
+        },
+        {
+          "id": "C",
+          "text": "162"
+        },
+        {
+          "id": "D",
+          "text": "180"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Percentages",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 72,
+      "slot": 18,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_18",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_18",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 18,
+      "type": "free-response",
+      "prompt": "$h(t) = -16t^2 + b$\nThe function $h$ estimates an object's height, in feet, above the ground $t$ seconds after the object is dropped, where $b$ is a constant. The function estimates that the object is 2.56 feet above the ground when it is dropped at $t = 0$. How many seconds after being dropped does the function estimate the object will hit the ground?",
+      "passage": "",
+      "questionText": "$h(t) = -16t^2 + b$\nThe function $h$ estimates an object's height, in feet, above the ground $t$ seconds after the object is dropped, where $b$ is a constant. The function estimates that the object is 2.56 feet above the ground when it is dropped at $t = 0$. How many seconds after being dropped does the function estimate the object will hit the ground?",
+      "choices": [],
+      "correctAnswer": "0.4,2/5",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 73,
+      "slot": 19,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_19",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_19",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 19,
+      "type": "multiple-choice",
+      "prompt": "The measure of angle S is $\\frac{8\\pi}{13}$ radians. The measure of angle T is 3 times the measure of angle S. Which expression represents the measure, in degrees, of angle T?",
+      "passage": "",
+      "questionText": "The measure of angle S is $\\frac{8\\pi}{13}$ radians. The measure of angle T is 3 times the measure of angle S. Which expression represents the measure, in degrees, of angle T?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$\\frac{8}{13}(90)(3)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{8}{13}(180)(3)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{8}{13\\pi}(90)(3)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{8\\pi}{13}(180)(3)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Lines, angles, and triangles",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 74,
+      "slot": 20,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_20",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 20,
+      "type": "multiple-choice",
+      "prompt": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0$\n$3x + 4y = 0$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
+      "passage": "",
+      "questionText": "$\\frac{x-7}{5}+\\frac{y+8}{4}=0$\n$3x + 4y = 0$\nThe solution to the given system of equations is $(x, y)$. What is the value of $x + y$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "-12"
+        },
+        {
+          "id": "B",
+          "text": "-5"
+        },
+        {
+          "id": "C",
+          "text": "-4"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Systems of two linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 75,
+      "slot": 21,
+      "isReplacement": true,
+      "replacement": {
+        "slot": 21,
+        "expectedSkill": "Linear equations in two variables",
+        "expectedDomain": "Algebra",
+        "expectedType": "free-response",
+        "profileConfidence": 0.09803921568627451,
+        "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+        "sourceTestName": "June 2024 US Form A SAT Math Module 1",
+        "sourceQuestionNumber": 21,
+        "origin": "borrowed",
+        "note": "Slot 21 is usually Linear equations in two variables in Math Module 1, so this module borrows a matching past-bank question."
+      },
+      "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+      "stableId": "bank-past-math-6b1e987d-70b0-4072-9d03-3ebd56371518_21",
+      "testName": "June 2024 US Form A SAT Math Module 1",
+      "sourceQuestionNumber": 21,
+      "type": "free-response",
+      "prompt": "Line $j$ is defined by $4x + 5y = 55$. Line $k$ is parallel to line $j$ in the $xy$-plane. An equation of line $k$ is $24x + ry = 15$, where $r$ is a constant. If line $k$ passes through the point $(0, b)$, what is the value of $b$?",
+      "passage": "",
+      "questionText": "Line $j$ is defined by $4x + 5y = 55$. Line $k$ is parallel to line $j$ in the $xy$-plane. An equation of line $k$ is $24x + ry = 15$, where $r$ is a constant. If line $k$ passes through the point $(0, b)$, what is the value of $b$?",
+      "choices": [],
+      "correctAnswer": "0.5,1/2",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-us-b-math-module-1",
+      "moduleFileName": "nov24-us-formB-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 76,
+      "slot": 22,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "d33931f5-618d-4bf0-a69a-be73447d49f7_22",
+      "stableId": "bank-past-math-d33931f5-618d-4bf0-a69a-be73447d49f7_22",
+      "testName": "November 2024 US Form B SAT Math Module 1",
+      "sourceQuestionNumber": 22,
+      "type": "free-response",
+      "prompt": "Jackson mows lawns in the summer. When Jackson mows a lawn with a fence, he charges \\$1.03 per minute. When Jackson mows a lawn without a fence, he charges \\$0.56 per minute. Jackson spends a total of 15 hours mowing lawns with and without a fence in a week and charges a total of \\$701.40 for mowing lawns during that week. How many minutes does Jackson spend mowing lawns with a fence during that week?",
+      "passage": "",
+      "questionText": "Jackson mows lawns in the summer. When Jackson mows a lawn with a fence, he charges \\$1.03 per minute. When Jackson mows a lawn without a fence, he charges \\$0.56 per minute. Jackson spends a total of 15 hours mowing lawns with and without a fence in a week and charges a total of \\$701.40 for mowing lawns during that week. How many minutes does Jackson spend mowing lawns with a fence during that week?",
+      "choices": [],
+      "correctAnswer": "420",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Ratios, rates, proportional relationships, and units",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 77,
+      "slot": 1,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_1",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_1",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 1,
+      "type": "multiple-choice",
+      "prompt": "The shaded region shown in the graph represents all the solutions to which inequality?",
+      "passage": "",
+      "questionText": "The shaded region shown in the graph represents all the solutions to which inequality?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$x \\leq 29$"
+        },
+        {
+          "id": "B",
+          "text": "$x \\geq 29$"
+        },
+        {
+          "id": "C",
+          "text": "$y \\leq 29$"
+        },
+        {
+          "id": "D",
+          "text": "$y \\geq 29$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear inequalities in one or two variables",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_1_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_1_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_1_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 78,
+      "slot": 2,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_2",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_2",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 2,
+      "type": "multiple-choice",
+      "prompt": "$3.5c + 7d = 266$\nThe given equation describes the relationship between the number of cats, $c$, and the number of dogs, $d$, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
+      "passage": "",
+      "questionText": "$3.5c + 7d = 266$\nThe given equation describes the relationship between the number of cats, $c$, and the number of dogs, $d$, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "133"
+        },
+        {
+          "id": "D",
+          "text": "266"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 79,
+      "slot": 3,
+      "isReplacement": true,
+      "replacement": {
+        "slot": 3,
+        "expectedSkill": "Linear functions",
+        "expectedDomain": "Algebra",
+        "expectedType": "multiple-choice",
+        "profileConfidence": 0.16,
+        "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+        "sourceTestName": "June 2024 International Form A SAT Math Module 2",
+        "sourceQuestionNumber": 3,
+        "origin": "borrowed",
+        "note": "Slot 3 is usually Linear functions in Math Module 2, so this module borrows a matching past-bank question."
+      },
+      "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+      "stableId": "bank-past-math-2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_3",
+      "testName": "June 2024 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 3,
+      "type": "multiple-choice",
+      "prompt": "$f(x) = 50x + 8$\nThe given function $f$ estimates the distance a train has traveled, in kilometers, from a station in a certain city $x$ hours after crossing the city border. What is the best interpretation of 8 in this context?",
+      "passage": "",
+      "questionText": "$f(x) = 50x + 8$\nThe given function $f$ estimates the distance a train has traveled, in kilometers, from a station in a certain city $x$ hours after crossing the city border. What is the best interpretation of 8 in this context?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Between the station and the city border, the train traveled an estimated total distance of 8 kilometers."
+        },
+        {
+          "id": "B",
+          "text": "Between the station and the city border, the train traveled at an estimated speed of 8 kilometers per hour."
+        },
+        {
+          "id": "C",
+          "text": "After crossing the city border, the train traveled at an estimated speed of 8 kilometers per hour."
+        },
+        {
+          "id": "D",
+          "text": "After crossing the city border, the train traveled an estimated total distance of 8 kilometers."
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 80,
+      "slot": 4,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 4,
+      "type": "multiple-choice",
+      "prompt": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
+      "passage": "",
+      "questionText": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Any value greater than 63.09% and less than 68.91%"
+        },
+        {
+          "id": "B",
+          "text": "Any value greater than 63.09%"
+        },
+        {
+          "id": "C",
+          "text": "Any value less than 63.09% or greater than 68.91%"
+        },
+        {
+          "id": "D",
+          "text": "Any value less than 68.91%"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Inference from sample statistics and margin of error",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 81,
+      "slot": 5,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_5",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_5",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 5,
+      "type": "multiple-choice",
+      "prompt": "The gas mileage of a certain car is 35 miles per gallon when driven on the highway. If the car begins with 10 gallons of gas in the tank, which function predicts the amount of gas remaining in the tank, f(d), after the car is driven d miles on the highway?",
+      "passage": "",
+      "questionText": "The gas mileage of a certain car is 35 miles per gallon when driven on the highway. If the car begins with 10 gallons of gas in the tank, which function predicts the amount of gas remaining in the tank, f(d), after the car is driven d miles on the highway?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$f(d)=\\frac{d}{35}-10$"
+        },
+        {
+          "id": "B",
+          "text": "$f(d)=d-10$"
+        },
+        {
+          "id": "C",
+          "text": "$f(d)=10-\\frac{d}{35}$"
+        },
+        {
+          "id": "D",
+          "text": "$f(d)=10-d$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 82,
+      "slot": 6,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_6",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_6",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 6,
+      "type": "free-response",
+      "prompt": "The function $ f $ is defined by $ f(x) = 50x $. For what value of $ x $ is $ f(x) = 150 $?",
+      "passage": "",
+      "questionText": "The function $ f $ is defined by $ f(x) = 50x $. For what value of $ x $ is $ f(x) = 150 $?",
+      "choices": [],
+      "correctAnswer": "3",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 83,
+      "slot": 7,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_7",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_7",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 7,
+      "type": "multiple-choice",
+      "prompt": "The graph of the linear equation $10x + By = 50$ is shown, where $B$ is a constant. What is the value of $B$?",
+      "passage": "",
+      "questionText": "The graph of the linear equation $10x + By = 50$ is shown, where $B$ is a constant. What is the value of $B$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "25"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 84,
+      "slot": 8,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_8",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_8",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 8,
+      "type": "multiple-choice",
+      "prompt": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+      "passage": "",
+      "questionText": "The scatterplot shows the relationship between two variables, x and y.\nWhich of the following equations is the most appropriate linear model for the data shown?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$y=80-10x$"
+        },
+        {
+          "id": "B",
+          "text": "$y=80-0.1x$"
+        },
+        {
+          "id": "C",
+          "text": "$y=90-0.1x$"
+        },
+        {
+          "id": "D",
+          "text": "$y=90-10x$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Two-variable data: Models and scatterplots",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 85,
+      "slot": 9,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_9",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_9",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 9,
+      "type": "multiple-choice",
+      "prompt": "$4x^{2}+5x-5=0$\nWhat is the greatest solution to the given equation?",
+      "passage": "",
+      "questionText": "$4x^{2}+5x-5=0$\nWhat is the greatest solution to the given equation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-\\frac{5}{8}-\\frac{\\sqrt{105}}{8}$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\frac{5}{8}+\\frac{\\sqrt{105}}{8}$"
+        },
+        {
+          "id": "C",
+          "text": "$-\\frac{5}{4}-\\frac{\\sqrt{105}}{4}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{5}{4}+\\frac{\\sqrt{105}}{4}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 86,
+      "slot": 10,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_10",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_10",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 10,
+      "type": "multiple-choice",
+      "prompt": "$y \\le x + 15$\n$y \\ge -4x - 15$\nWhich point $(x, y)$ is a solution to the given system of inequalities in the $xy$-plane?",
+      "passage": "",
+      "questionText": "$y \\le x + 15$\n$y \\ge -4x - 15$\nWhich point $(x, y)$ is a solution to the given system of inequalities in the $xy$-plane?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(-7,0)"
+        },
+        {
+          "id": "B",
+          "text": "(0,16)"
+        },
+        {
+          "id": "C",
+          "text": "(0,-16)"
+        },
+        {
+          "id": "D",
+          "text": "(7,0)"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Systems of two linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 87,
+      "slot": 11,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 11,
+      "type": "free-response",
+      "prompt": "A researcher created a data set by recording the daily low temperature, to the nearest integer, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
+      "passage": "",
+      "questionText": "A researcher created a data set by recording the daily low temperature, to the nearest integer, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
+      "choices": [],
+      "correctAnswer": "25,26,27,28,29,30,31,32,33,34",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "One-variable data: Distributions and measures of center and spread",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 88,
+      "slot": 12,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_12",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_12",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 12,
+      "type": "multiple-choice",
+      "prompt": "An equilateral triangle has a height of $47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+      "passage": "",
+      "questionText": "An equilateral triangle has a height of $47\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$94\\sqrt{3}$"
+        },
+        {
+          "id": "B",
+          "text": "94"
+        },
+        {
+          "id": "C",
+          "text": "$47\\sqrt{3}$"
+        },
+        {
+          "id": "D",
+          "text": "47"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Lines, angles, and triangles",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 89,
+      "slot": 13,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_13",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 13,
+      "type": "free-response",
+      "prompt": "Line $s$ in the $xy$-plane is defined by $8x + 2y = 0$. Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k, \\frac{5}{4})$. What is the value of $k$?",
+      "passage": "",
+      "questionText": "Line $s$ in the $xy$-plane is defined by $8x + 2y = 0$. Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k, \\frac{5}{4})$. What is the value of $k$?",
+      "choices": [],
+      "correctAnswer": "11",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 90,
+      "slot": 14,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_14",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_14",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 14,
+      "type": "multiple-choice",
+      "prompt": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+      "passage": "",
+      "questionText": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nⅠ. $\\frac{x^{\\frac{14}{3}}y^{\\frac{5}{3}}}{3}$\nⅡ. $\\frac{3x^{11}y^{2}}{5}$",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ⅰ only"
+        },
+        {
+          "id": "B",
+          "text": "Ⅱ only"
+        },
+        {
+          "id": "C",
+          "text": "Ⅰ and Ⅱ"
+        },
+        {
+          "id": "D",
+          "text": "Neither Ⅰ nor Ⅱ"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 91,
+      "slot": 15,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_15",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_15",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 15,
+      "type": "multiple-choice",
+      "prompt": "$f(x)=2,000(1.005)^{3x}$\nThe given function $f$ models the balance of a bank account, in dollars, $x$ years after it is opened. Which statement is the best interpretation of $(1.005)^{3x}$?",
+      "passage": "",
+      "questionText": "$f(x)=2,000(1.005)^{3x}$\nThe given function $f$ models the balance of a bank account, in dollars, $x$ years after it is opened. Which statement is the best interpretation of $(1.005)^{3x}$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Every 4 months, the balance increases by about \\$5."
+        },
+        {
+          "id": "B",
+          "text": "At the end of every 4-month interval, the balance increases by about 0.5% of the balance at the beginning of the 4-month interval."
+        },
+        {
+          "id": "C",
+          "text": "Every 3 years, the balance increases by about \\$5."
+        },
+        {
+          "id": "D",
+          "text": "At the end of every 3-year interval, the balance increases by about 0.5% of the balance at the beginning of the 3-year interval."
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 92,
+      "slot": 16,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_16",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_16",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 16,
+      "type": "free-response",
+      "prompt": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+      "passage": "",
+      "questionText": "The length of each edge of a box is $48$ centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square <u>meters</u>, of this box without a lid? (1 meter = 100 centimeters)",
+      "choices": [],
+      "correctAnswer": "1.152",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear inequalities in one or two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 93,
+      "slot": 17,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 17,
+      "type": "multiple-choice",
+      "prompt": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+      "passage": "",
+      "questionText": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.30"
+        },
+        {
+          "id": "B",
+          "text": "6.84"
+        },
+        {
+          "id": "C",
+          "text": "24.70"
+        },
+        {
+          "id": "D",
+          "text": "49.50"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Percentages",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 94,
+      "slot": 18,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 18,
+      "type": "free-response",
+      "prompt": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 81. What is the value of $k$?",
+      "passage": "",
+      "questionText": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 81. What is the value of $k$?",
+      "choices": [],
+      "correctAnswer": "27/4,6.75",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 95,
+      "slot": 19,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_19",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_19",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 19,
+      "type": "multiple-choice",
+      "prompt": "Which expression is equivalent to $10(x + 3)$?",
+      "passage": "",
+      "questionText": "Which expression is equivalent to $10(x + 3)$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$10x + 3$"
+        },
+        {
+          "id": "B",
+          "text": "$10x + 13$"
+        },
+        {
+          "id": "C",
+          "text": "$10x + 7$"
+        },
+        {
+          "id": "D",
+          "text": "$10x + 30$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 96,
+      "slot": 20,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_20",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_20",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 20,
+      "type": "multiple-choice",
+      "prompt": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $BED$ is congruent to angle $CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+      "passage": "",
+      "questionText": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, angle $BED$ is congruent to angle $CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "14"
+        },
+        {
+          "id": "C",
+          "text": "32"
+        },
+        {
+          "id": "D",
+          "text": "56"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Lines, angles, and triangles",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 97,
+      "slot": 21,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_21",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_21",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 21,
+      "type": "multiple-choice",
+      "prompt": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use $1$ meter = $3.28$ feet.)",
+      "passage": "",
+      "questionText": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in <u>square meters per minute</u>? (Use $1$ meter = $3.28$ feet.)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.42"
+        },
+        {
+          "id": "B",
+          "text": "1.37"
+        },
+        {
+          "id": "C",
+          "text": "14.76"
+        },
+        {
+          "id": "D",
+          "text": "25.10"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Area and volume",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 21,
+      "moduleSlug": "november-2024-international-c-math-module-2",
+      "moduleFileName": "nov24-int-formC-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 21",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 98,
+      "slot": 22,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_22",
+      "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_22",
+      "testName": "November 2024 International Form C SAT Math Module 2",
+      "sourceQuestionNumber": 22,
+      "type": "free-response",
+      "prompt": "$x(kx - 112) = -16$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
+      "passage": "",
+      "questionText": "$x(kx - 112) = -16$\nIn the given equation, $k$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $k$?",
+      "choices": [],
+      "correctAnswer": "195",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in one variable",
+        "confidence": "high"
+      },
+      "questionImages": []
+    }
+  ]
+}

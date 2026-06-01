@@ -39,4 +39,10 @@ rescraped_images_*/
 
 # Auto-generated worker state and debug artifacts
 .playwright-mcp/
+.playwright/
+.shannon/
+shannon-config.yaml
 CODEX_*.md
+category_audit_findings.md
+scripts/images/unreferenced_images.txt
+scripts/extract/_runs/

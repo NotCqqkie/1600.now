@@ -15,32 +15,38 @@ PUBLIC_DIR = REPO_ROOT / "public"
 referenced = set()
 
 extensions = {".ts", ".tsx", ".js", ".json"}
+image_extensions = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
+
+
+def add_reference(raw):
+    filename = os.path.basename(urllib.parse.unquote(raw))
+    if Path(filename).suffix.lower() in image_extensions:
+        referenced.add(filename)
+
+
 for path in SRC_DIR.rglob("*"):
     if path.suffix not in extensions:
         continue
     text = path.read_text(errors="replace")
     # Match both encoded (%20) and unencoded (space) paths
     for raw in re.findall(r'/images/SAT-Style[^"\')\s]+', text):
-        filename = os.path.basename(urllib.parse.unquote(raw))
-        referenced.add(filename)
+        add_reference(raw)
 
 # Also scan public/ (index.html etc)
 for path in PUBLIC_DIR.glob("*.html"):
     text = path.read_text(errors="replace")
     for raw in re.findall(r'/images/SAT-Style[^"\')\s]+', text):
-        filename = os.path.basename(urllib.parse.unquote(raw))
-        referenced.add(filename)
+        add_reference(raw)
 
 # Also check root index.html
 root_html = REPO_ROOT / "index.html"
 if root_html.exists():
     text = root_html.read_text(errors="replace")
     for raw in re.findall(r'/images/SAT-Style[^"\')\s]+', text):
-        filename = os.path.basename(urllib.parse.unquote(raw))
-        referenced.add(filename)
+        add_reference(raw)
 
 # Collect all on-disk filenames
-on_disk = {f.name for f in IMAGE_DIR.iterdir() if f.is_file()}
+on_disk = {f.name for f in IMAGE_DIR.iterdir() if f.is_file() and f.suffix.lower() in image_extensions}
 
 unreferenced = on_disk - referenced
 missing = referenced - on_disk

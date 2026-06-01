@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Lightbulb } from "lucide-react";
 import { DraggableWindow } from "@/components/DraggableWindow";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
-import type { ExplanationData } from "@/lib/explanationApi";
+import { normalizeExplanationData, type ExplanationData } from "@/lib/explanationApi";
 
 interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
@@ -30,6 +31,8 @@ interface ExplanationWindowProps {
   questionSkill?: string;
   questionDifficulty?: string | null;
   questionImages?: { src: string; alt: string }[];
+  windowPortalContainer?: HTMLElement | null;
+  windowBoundsElement?: HTMLElement | null;
 }
 
 export const ExplanationWindow = ({
@@ -54,14 +57,34 @@ export const ExplanationWindow = ({
   questionSkill,
   questionDifficulty,
   questionImages,
+  windowPortalContainer,
+  windowBoundsElement,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [aiExplanation, setAiExplanation] = useState<ExplanationData | null>(null);
   const [aiChecked, setAiChecked] = useState(false);
+  // Used by the homepage demo iframe to auto-open the popup on mount.
+  const [searchParams] = useSearchParams();
+  const autoExplain = searchParams.get("autoExplain") === "1";
+  const autoOpenedRef = useRef(false);
 
   useEffect(() => {
     setIsOpen(false);
+    autoOpenedRef.current = false;
   }, [questionId]);
+
+  // Auto-open the explanation when the page is iframed with autoExplain=1.
+  // Wait for the explanation data to load so the popup opens with real content
+  // already rendered (no flash of empty state).
+  useEffect(() => {
+    if (!autoExplain || autoOpenedRef.current) return;
+    if (!aiChecked) return;
+    autoOpenedRef.current = true;
+    if (onFocus) onFocus();
+    if (onSplitScreenChange) onSplitScreenChange(true, windowId);
+    if (onSidebarToggle) onSidebarToggle(windowId, true);
+    setIsOpen(true);
+  }, [autoExplain, aiChecked, onFocus, onSplitScreenChange, onSidebarToggle]);
 
   // Probe for an AI-generated explanation. If one exists, prefer it over the
   // College Board rationale. App passes ids like `bank-{type}-{subject}-{rawId}`;
@@ -84,7 +107,8 @@ export const ExplanationWindow = ({
         if (text && text.trimStart().startsWith("{")) {
           try {
             const json = JSON.parse(text);
-            if (json?.steps?.length) setAiExplanation(json);
+            const normalized = normalizeExplanationData(json);
+            if (normalized) setAiExplanation(normalized);
           } catch {/* ignore non-JSON SPA fallback */}
         }
         setAiChecked(true);
@@ -145,6 +169,8 @@ export const ExplanationWindow = ({
         constrainToLeft={constrainToLeft}
         isSidebarred={isSidebarred}
         onSidebarToggle={onSidebarToggle}
+        portalContainer={windowPortalContainer}
+        boundsElement={windowBoundsElement}
       >
         <div className="w-full h-full flex flex-col overflow-hidden">
           {aiExplanation && explanationQuestion ? (

@@ -5,6 +5,10 @@ import {
   type BankSubject,
 } from "@/data/questionBank";
 import type { QuestionCategory } from "@/data/questionCategories";
+import {
+  questionSimilarityGroupByQuestion,
+  questionSimilarityGroupsById,
+} from "@/lib/generated/questionSimilarity.generated";
 
 const rawModuleImports = import.meta.glob("./modules/*.json", {
   eager: true,
@@ -187,9 +191,9 @@ const normalizeModuleRecords = (value: unknown): RawModuleQuestion[] | null => {
   return value.filter(isRawModuleQuestion);
 };
 
-const parseModulePath = (modulePath: string): ParsedModuleMetadata | null => {
-  const match = modulePath.match(
-    /\.\/modules\/([A-Za-z]+)_(\d{4})(?:_(US|International))?(?:_Form_([A-Z0-9]+))?_SAT_(English|Math)_Module_(1|2)\.json$/,
+const parseModuleTestName = (testName: string): ParsedModuleMetadata | null => {
+  const match = testName.match(
+    /^([A-Za-z]+) (\d{4})(?: (US|International))? Form ([A-Z0-9]+) SAT (English|Math) Module (1|2)$/,
   );
 
   if (!match) return null;
@@ -199,7 +203,7 @@ const parseModulePath = (modulePath: string): ParsedModuleMetadata | null => {
   const moduleNumber = Number.parseInt(moduleNumberText, 10) as 1 | 2;
   const subject = rawSubject === "Math" ? "math" : "reading";
   const subjectLabel: ModuleSubjectLabel = subject === "math" ? "Math" : "Reading & Writing";
-  const slug = `${month}-${year}-${region ?? "global"}-${form ?? "na"}-${rawSubject}-module-${moduleNumber}`
+  const slug = `${month}-${year}-${region ?? "global"}-${form}-${rawSubject}-module-${moduleNumber}`
     .replace(/[^a-z0-9-]/gi, "-")
     .toLowerCase();
 
@@ -207,11 +211,11 @@ const parseModulePath = (modulePath: string): ParsedModuleMetadata | null => {
     month,
     year,
     region: region ?? null,
-    form: form ?? null,
+    form,
     subject,
     subjectLabel,
     moduleNumber,
-    id: `${month}_${year}_${region ?? "Global"}_${form ?? "NA"}_${rawSubject}_Module_${moduleNumber}`,
+    id: `${month}_${year}_${region ?? "Global"}_${form}_${rawSubject}_Module_${moduleNumber}`,
     slug,
   };
 };
@@ -240,6 +244,7 @@ export const getSynthesizedPracticeQuestion = (
 const synthesizeBankQuestion = (
   rawQuestion: RawModuleQuestion,
   subject: BankSubject,
+  baseQuestion?: BankQuestion,
 ): BankQuestion => {
   const type: BankQuestion["type"] = rawQuestion.is_fill_in_blank ? "free-response" : "multiple-choice";
   const category: QuestionCategory = {
@@ -255,26 +260,39 @@ const synthesizeBankQuestion = (
     if (d === "hard") return "Hard";
     return null;
   })();
+  const rawPrompt = rawQuestion.question_text ?? rawQuestion.passage ?? baseQuestion?.prompt ?? "";
+  const stableId = baseQuestion?.stableId ?? buildBankQuestionKey("past", subject, rawQuestion.id);
+  const similarityGroupId =
+    baseQuestion?.similarityGroupId ?? questionSimilarityGroupByQuestion[stableId] ?? null;
+  const similarityGroup = similarityGroupId
+    ? questionSimilarityGroupsById[similarityGroupId]
+    : null;
   return {
-    id: 0,
-    stableId: buildBankQuestionKey("past", subject, rawQuestion.id),
+    id: baseQuestion?.id ?? 0,
+    stableId,
     bankType: "past",
     bankLabel: "Official Bluebook",
     subject,
     sourceId: rawQuestion.id,
     questionNumber: rawQuestion.question_number,
     testName: rawQuestion.test_name,
-    prompt: rawQuestion.question_text ?? rawQuestion.passage ?? "",
-    passage: rawQuestion.passage ?? undefined,
-    questionText: rawQuestion.question_text ?? undefined,
-    choices: rawQuestion.choices?.map((c) => ({ id: c.label, text: c.text ?? "" })),
+    prompt: rawPrompt,
+    passage: subject === "reading" ? rawQuestion.passage ?? baseQuestion?.passage : baseQuestion?.passage,
+    questionText: rawQuestion.question_text ?? (subject === "math" ? rawPrompt : baseQuestion?.questionText),
+    choices: type === "multiple-choice"
+      ? rawQuestion.choices?.map((c) => ({ id: c.label, text: c.text ?? "" })) ?? baseQuestion?.choices
+      : undefined,
     type,
-    correctAnswer: rawQuestion.correct_answer ?? null,
-    rationale: rawQuestion.rationale ?? null,
-    questionImages: rawQuestion.images?.map((img) => ({ src: img.src, alt: img.alt ?? "" })),
-    difficulty,
+    correctAnswer: rawQuestion.correct_answer ?? baseQuestion?.correctAnswer ?? null,
+    rationale: rawQuestion.rationale ?? baseQuestion?.rationale ?? null,
+    questionImages: rawQuestion.images?.map((img) => ({ src: img.src, alt: img.alt ?? "" })) ?? baseQuestion?.questionImages,
+    difficulty: difficulty ?? baseQuestion?.difficulty ?? null,
     inPracticeTests: true,
     category,
+    similarityTag: similarityGroupId,
+    similarityGroupId,
+    similarityGroupLabel: baseQuestion?.similarityGroupLabel ?? similarityGroup?.label ?? null,
+    similarityGroupSize: baseQuestion?.similarityGroupSize ?? similarityGroup?.questionKeys.length ?? null,
   };
 };
 
@@ -286,8 +304,11 @@ const bankQuestionIndexBySubject: Record<BankSubject, Map<string, BankQuestion>>
 const rawModuleSources = Object.entries(rawModuleImports)
   .map(([modulePath, value]) => {
     const questions = normalizeModuleRecords(value);
-    const metadata = parseModulePath(modulePath);
-    if (!questions || !metadata) return null;
+    if (!questions) return null;
+    const testName = questions[0]?.test_name;
+    if (!testName) return null;
+    const metadata = parseModuleTestName(testName);
+    if (!metadata) return null;
 
     return {
       modulePath,
@@ -389,6 +410,8 @@ for (const moduleSource of rawModuleSources) {
   for (const question of moduleSource.questions) {
     const bankQuestion = bankIndex.get(question.id);
     if (!bankQuestion) continue;
+    const moduleQuestion = synthesizeBankQuestion(question, moduleSource.subject, bankQuestion);
+    synthesizedBankQuestions[moduleSource.subject].set(moduleQuestion.sourceId, moduleQuestion);
 
     candidateRecordsBySubject[moduleSource.subject].push({
       sourceId: question.id,
@@ -399,7 +422,7 @@ for (const moduleSource of rawModuleSources) {
       domain: question.domain,
       type: question.is_fill_in_blank ? "free-response" : "multiple-choice",
       difficulty: question.difficulty ?? null,
-      bankQuestion,
+      bankQuestion: moduleQuestion,
     });
   }
 }
@@ -489,11 +512,9 @@ const practiceModules = rawModuleSources
       const rawQuestion = questionsBySlot.get(slot);
 
       if (rawQuestion) {
-        let bankQuestion = bankQuestionIndexBySubject[moduleSource.subject].get(rawQuestion.id);
-        if (!bankQuestion) {
-          bankQuestion = synthesizeBankQuestion(rawQuestion, moduleSource.subject);
-          synthesizedBankQuestions[moduleSource.subject].set(bankQuestion.sourceId, bankQuestion);
-        }
+        const baseBankQuestion = bankQuestionIndexBySubject[moduleSource.subject].get(rawQuestion.id);
+        const bankQuestion = synthesizeBankQuestion(rawQuestion, moduleSource.subject, baseBankQuestion);
+        synthesizedBankQuestions[moduleSource.subject].set(bankQuestion.sourceId, bankQuestion);
         practiceQuestions.push({
           slot,
           bankQuestion,

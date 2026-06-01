@@ -1,7 +1,14 @@
 
 import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
-import type { Auth, User as FirebaseUser } from "firebase/auth";
+import type { Auth, IdTokenResult, User as FirebaseUser } from "firebase/auth";
 import { identifyUser, trackLogin, trackSignUp } from "@/lib/analytics";
+import {
+  assertAuthAttemptAllowed,
+  clearAuthAttempts,
+  normalizeAuthIdentifier,
+  recordAuthAttempt,
+  validatePasswordPolicy,
+} from "@/lib/authSecurity";
 
 export interface AppUser {
   id: string;
@@ -10,6 +17,7 @@ export interface AppUser {
   displayName: string | null;
   photoURL: string | null;
   emailVerified: boolean;
+  isAdmin: boolean;
   raw: FirebaseUser;
 }
 
@@ -74,7 +82,10 @@ const loadAuthDependencies = async () => {
   return authDependenciesPromise;
 };
 
-const toAppUser = (firebaseUser: FirebaseUser | null): AppUser | null => {
+const toAppUser = (
+  firebaseUser: FirebaseUser | null,
+  tokenResult?: IdTokenResult,
+): AppUser | null => {
   if (!firebaseUser) return null;
   return {
     id: firebaseUser.uid,
@@ -83,6 +94,7 @@ const toAppUser = (firebaseUser: FirebaseUser | null): AppUser | null => {
     displayName: firebaseUser.displayName,
     photoURL: firebaseUser.photoURL,
     emailVerified: firebaseUser.emailVerified,
+    isAdmin: tokenResult?.claims.admin === true,
     raw: firebaseUser,
   };
 };
@@ -119,8 +131,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [loading, setLoading] = useState(true);
   const [redirectError, setRedirectError] = useState<unknown>(null);
   const clearRedirectError = useCallback(() => setRedirectError(null), []);
-  const applyFirebaseUser = useCallback((firebaseUser: FirebaseUser | null) => {
-    const appUser = toAppUser(firebaseUser);
+  const applyFirebaseUser = useCallback(async (firebaseUser: FirebaseUser | null) => {
+    const tokenResult = firebaseUser ? await firebaseUser.getIdTokenResult() : undefined;
+    const appUser = toAppUser(firebaseUser, tokenResult);
     setSession(appUser);
     setUser(appUser);
     setLoading(false);
@@ -170,7 +183,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
       unsubscribe = authModule.onAuthStateChanged(auth, (firebaseUser) => {
         if (cancelled) return;
-        applyFirebaseUser(firebaseUser);
+        void applyFirebaseUser(firebaseUser);
       });
     };
 
@@ -179,7 +192,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         ? window.requestIdleCallback(() => {
             void initializeAuth();
           })
-        : window.setTimeout(() => {
+        : globalThis.setTimeout(() => {
             void initializeAuth();
           }, 1);
 
@@ -190,7 +203,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       if ("cancelIdleCallback" in window) {
         window.cancelIdleCallback(idleCallback as number);
       } else {
-        window.clearTimeout(idleCallback as number);
+        globalThis.clearTimeout(idleCallback as number);
       }
     };
   }, [applyFirebaseUser]);
@@ -198,16 +211,29 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const signInWithEmailPassword = async (email: string, password: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
-    const result = await authModule.signInWithEmailAndPassword(auth, email, password);
-    applyFirebaseUser(result.user);
+    const identifier = normalizeAuthIdentifier(email);
+    assertAuthAttemptAllowed("signin", identifier);
+    let result;
+    try {
+      result = await authModule.signInWithEmailAndPassword(auth, email, password);
+    } catch (error) {
+      recordAuthAttempt("signin", identifier);
+      throw error;
+    }
+    clearAuthAttempts("signin", identifier);
+    await applyFirebaseUser(result.user);
     trackLogin("password");
   };
 
   const signUpWithEmailPassword = async (email: string, password: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
+    validatePasswordPolicy(password);
+    const identifier = normalizeAuthIdentifier(email);
+    assertAuthAttemptAllowed("signup", identifier);
+    recordAuthAttempt("signup", identifier);
     const result = await authModule.createUserWithEmailAndPassword(auth, email, password);
-    applyFirebaseUser(result.user);
+    await applyFirebaseUser(result.user);
     trackSignUp("password");
     try {
       await authModule.sendEmailVerification(result.user);
@@ -222,6 +248,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
     if (!auth.currentUser) throw new Error("You must be signed in to resend the verification email.");
+    const identifier = normalizeAuthIdentifier(auth.currentUser.email || auth.currentUser.uid);
+    assertAuthAttemptAllowed("emailVerification", identifier);
+    recordAuthAttempt("emailVerification", identifier);
     await authModule.sendEmailVerification(auth.currentUser);
   };
 
@@ -229,7 +258,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     const { auth } = await loadAuthDependencies();
     if (!auth?.currentUser) return false;
     await auth.currentUser.reload();
-    const refreshed = toAppUser(auth.currentUser);
+    const tokenResult = await auth.currentUser.getIdTokenResult(true);
+    const refreshed = toAppUser(auth.currentUser, tokenResult);
     setUser(refreshed);
     setSession(refreshed);
     return !!auth.currentUser.emailVerified;
@@ -261,7 +291,16 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const sendPasswordReset = async (email: string) => {
     const { auth, firebaseConfigError, authModule } = await loadAuthDependencies();
     if (!auth) throw getAuthUnavailableError(firebaseConfigError);
-    await authModule.sendPasswordResetEmail(auth, email);
+    const identifier = normalizeAuthIdentifier(email);
+    assertAuthAttemptAllowed("passwordReset", identifier);
+    recordAuthAttempt("passwordReset", identifier);
+    try {
+      await authModule.sendPasswordResetEmail(auth, email);
+    } catch (error: unknown) {
+      const code = (error as { code?: string } | null)?.code;
+      if (code === "auth/user-not-found") return;
+      throw error;
+    }
   };
 
   return (

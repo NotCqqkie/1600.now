@@ -1,5 +1,9 @@
 import { Link, useLocation, Navigate } from "react-router-dom";
-import { PageSeo, buildFaqJsonLd } from "@/components/seo/PageSeo";
+import {
+  PageSeo,
+  buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
+} from "@/components/seo/PageSeo";
 import { landingVariantBySlug } from "@/lib/seo-data/landingVariants";
 
 const LandingVariant = () => {
@@ -17,7 +21,12 @@ const LandingVariant = () => {
         id={`landing-${variant.slug}`}
         title={variant.metaTitle}
         description={variant.metaDescription}
+        canonical={canonicalUrl}
         jsonLd={[
+          buildBreadcrumbJsonLd([
+            { name: "Home", url: "https://1600.now/" },
+            { name: variant.h1, url: canonicalUrl },
+          ]),
           buildFaqJsonLd(variant.faqs.map((f) => ({ question: f.q, answer: f.a }))),
           {
             "@context": "https://schema.org",
@@ -25,6 +34,11 @@ const LandingVariant = () => {
             name: variant.metaTitle,
             description: variant.metaDescription,
             url: canonicalUrl,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "1600.now",
+              url: "https://1600.now/",
+            },
           },
         ]}
       />
@@ -40,7 +54,7 @@ const LandingVariant = () => {
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
             to="/bank"
-            className="inline-flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90"
+            className="inline-flex items-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-cobalt hover:text-white"
           >
             Start practicing free
           </Link>
@@ -101,6 +115,9 @@ const LandingVariant = () => {
           </li>
           <li>
             <Link to="/blog" className="hover:underline">SAT Prep Blog</Link>
+          </li>
+          <li>
+            <Link to="/sat-resources" className="hover:underline">SAT Resources</Link>
           </li>
         </ul>
       </section>

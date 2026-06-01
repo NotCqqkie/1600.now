@@ -1,11 +1,12 @@
-import { useMemo, useState } from "react";
+import { useLayoutEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, Clock3, Eye, EyeOff, Lightbulb } from "lucide-react";
+import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ChevronDown, ChevronLeft, ChevronRight, Clock3, Eye, EyeOff, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
+import { DraggableWindow } from "@/components/DraggableWindow";
 import { getPracticeModule } from "@/data/modulePracticeBank";
 import {
   getLatestModulePracticeResult,
@@ -37,9 +38,13 @@ const statusClasses = (question: ModulePracticeQuestionResult) => {
 };
 
 const answerLabel = (answer: string) => (answer?.trim() ? answer : "No answer");
-const getQuestionCorrectnessRank = (question: ModulePracticeQuestionResult) => {
-  if (!question.isAnswered) return -1;
-  return question.isCorrect ? 1 : 0;
+const getQuestionCorrectnessRank = (
+  question: ModulePracticeQuestionResult,
+  direction: "asc" | "desc",
+) => {
+  if (question.isCorrect) return 2;
+  if (question.isAnswered) return direction === "asc" ? 0 : 1;
+  return direction === "asc" ? 1 : 0;
 };
 const getRenderedContentHtml = (
   subject: "math" | "reading",
@@ -59,7 +64,9 @@ const ModulePracticeResults = () => {
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
   const [hideCorrectAnswers, setHideCorrectAnswers] = useState(false);
   const [revealedAnswers, setRevealedAnswers] = useState<Set<string>>(() => new Set());
-  const [showExplanation, setShowExplanation] = useState<Set<string>>(() => new Set());
+  const [activeExplanationIndex, setActiveExplanationIndex] = useState<number | null>(null);
+  const [explanationSplitPosition, setExplanationSplitPosition] = useState(65);
+  const [isExplanationSidebarred, setIsExplanationSidebarred] = useState(true);
   const [questionSortMode, setQuestionSortMode] = useState<"seen" | "correct">("seen");
   const [questionSortDirection, setQuestionSortDirection] = useState<"asc" | "desc">("asc");
   const sessionId = searchParams.get("session");
@@ -81,13 +88,36 @@ const ModulePracticeResults = () => {
     return [...result.questions].sort((left, right) => {
       if (questionSortMode === "correct") {
         const correctnessDifference =
-          (getQuestionCorrectnessRank(left) - getQuestionCorrectnessRank(right)) * directionMultiplier;
+          (getQuestionCorrectnessRank(left, questionSortDirection) -
+            getQuestionCorrectnessRank(right, questionSortDirection)) *
+          directionMultiplier;
         if (correctnessDifference !== 0) return correctnessDifference;
       }
 
       return (left.questionNumber - right.questionNumber) * directionMultiplier;
     });
   }, [questionSortDirection, questionSortMode, result]);
+  const activeExplanationQuestion =
+    activeExplanationIndex !== null ? orderedQuestions[activeExplanationIndex] : null;
+  const activeExplanationSource =
+    activeExplanationQuestion && module
+      ? module.questions.find(
+          (entry) => entry.bankQuestion.stableId === activeExplanationQuestion.storageId,
+        )?.bankQuestion
+      : null;
+  const isExplanationOpen = activeExplanationQuestion !== null;
+  const useSidebarLayout = isExplanationOpen && isExplanationSidebarred;
+
+  useLayoutEffect(() => {
+    if (!useSidebarLayout) {
+      document.documentElement.style.removeProperty("--sat-split-pct");
+      return;
+    }
+    document.documentElement.style.setProperty("--sat-split-pct", `${explanationSplitPosition}%`);
+    return () => {
+      document.documentElement.style.removeProperty("--sat-split-pct");
+    };
+  }, [explanationSplitPosition, useSidebarLayout]);
 
   if (!module || !result) {
     return (
@@ -118,6 +148,22 @@ const ModulePracticeResults = () => {
       return next;
     });
   };
+  const areAllVisibleQuestionsExpanded =
+    orderedQuestions.length > 0 &&
+    orderedQuestions.every((question) => expandedQuestions.has(question.storageId));
+
+  const toggleAllVisibleQuestions = () => {
+    setExpandedQuestions((previous) => {
+      const next = new Set(previous);
+      if (areAllVisibleQuestionsExpanded) {
+        orderedQuestions.forEach((question) => next.delete(question.storageId));
+      } else {
+        orderedQuestions.forEach((question) => next.add(question.storageId));
+      }
+      return next;
+    });
+  };
+
   const toggleRevealedAnswer = (storageId: string) => {
     setRevealedAnswers((previous) => {
       const next = new Set(previous);
@@ -189,8 +235,28 @@ const ModulePracticeResults = () => {
     });
   };
 
+  const stripBankPrefix = (id: string) => {
+    const parts = id.split("-");
+    return parts[0] === "bank" && parts.length > 3 ? parts.slice(3).join("-") : id;
+  };
+
+  const navigateExplanation = (delta: -1 | 1) => {
+    if (activeExplanationIndex === null) return;
+    const nextIndex = activeExplanationIndex + delta;
+    if (nextIndex < 0 || nextIndex >= orderedQuestions.length) return;
+    setActiveExplanationIndex(nextIndex);
+    scrollToQuestion(orderedQuestions[nextIndex].storageId);
+  };
+
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
+    <div
+      className="mx-auto flex min-h-screen w-full flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8"
+      style={
+        useSidebarLayout
+          ? { maxWidth: `var(--sat-split-pct, ${explanationSplitPosition}%)`, marginLeft: 0, marginRight: 0 }
+          : { maxWidth: "80rem" }
+      }
+    >
       <Button variant="ghost" asChild className="w-fit gap-2 px-0">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
@@ -363,6 +429,21 @@ const ModulePracticeResults = () => {
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <CardTitle className="text-2xl tracking-[-0.03em]">Question Breakdown</CardTitle>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+              <Button
+                type="button"
+                variant="outline"
+                className="gap-2 bg-transparent"
+                disabled={!orderedQuestions.length}
+                onClick={toggleAllVisibleQuestions}
+              >
+                <ChevronDown
+                  className={cn(
+                    "h-4 w-4 transition-transform",
+                    areAllVisibleQuestionsExpanded && "rotate-180",
+                  )}
+                />
+                {areAllVisibleQuestionsExpanded ? "Collapse All" : "Show All"}
+              </Button>
               <Button
                 type="button"
                 variant="outline"
@@ -594,62 +675,24 @@ const ModulePracticeResults = () => {
                     </div>
 
                     <div className="col-span-full mt-1">
-                      {!showExplanation.has(question.storageId) ? (
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          className="gap-2 bg-transparent"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setShowExplanation((prev) => new Set(prev).add(question.storageId));
-                          }}
-                        >
-                          <Lightbulb className="h-4 w-4" />
-                          Show Step-by-Step Explanation
-                        </Button>
-                      ) : (
-                        <div className="rounded-xl border border-border/60 bg-muted/10 p-4">
-                          <div className="mb-3 flex items-center justify-between">
-                            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
-                              <Lightbulb className="h-3.5 w-3.5" />
-                              Step-by-Step Explanation
-                            </div>
-                            <button
-                              type="button"
-                              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setShowExplanation((prev) => {
-                                  const next = new Set(prev);
-                                  next.delete(question.storageId);
-                                  return next;
-                                });
-                              }}
-                            >
-                              Hide
-                            </button>
-                          </div>
-                          <StepByStepExplanation
-                            questionId={question.storageId}
-                            question={{
-                              section: module.subject === "math" ? "Math" : "Reading and Writing",
-                              passage: sourceQuestion.passage || "",
-                              questionText: sourceQuestion.questionText || sourceQuestion.prompt,
-                              choices: sourceQuestion.choices?.map((c) => ({
-                                label: c.id,
-                                text: c.text ?? "",
-                                image: c.image,
-                              })),
-                              correctAnswer: question.correctAnswer,
-                              domain: question.domain || sourceQuestion.domain,
-                              skill: question.skill,
-                              difficulty: sourceQuestion.difficulty,
-                              isFillInBlank: sourceQuestion.type === "fill-in-blank",
-                            }}
-                            questionImages={sourceQuestion.questionImages}
-                          />
-                        </div>
-                      )}
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className={cn(
+                          "gap-2 bg-transparent",
+                          activeExplanationIndex !== null &&
+                            orderedQuestions[activeExplanationIndex]?.storageId === question.storageId &&
+                            "ring-2 ring-primary/50",
+                        )}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const idx = orderedQuestions.findIndex((q) => q.storageId === question.storageId);
+                          if (idx >= 0) setActiveExplanationIndex(idx);
+                        }}
+                      >
+                        <Lightbulb className="h-4 w-4" />
+                        Show Step-by-Step Explanation
+                      </Button>
                     </div>
                   </div>
                 ) : null}
@@ -667,6 +710,74 @@ const ModulePracticeResults = () => {
           </Link>
         </Button>
       </div>
+
+      {activeExplanationQuestion && activeExplanationSource && (
+        <DraggableWindow
+          isOpen={isExplanationOpen}
+          onClose={() => setActiveExplanationIndex(null)}
+          title={`Question ${activeExplanationQuestion.questionNumber} — Explanation`}
+          defaultWidth={460}
+          defaultHeight={560}
+          isSidebarred={isExplanationSidebarred}
+          onSidebarToggle={(_, sidebar) => setIsExplanationSidebarred(sidebar)}
+          onSplitPositionChange={setExplanationSplitPosition}
+          splitPosition={explanationSplitPosition}
+          onSplitScreenChange={(active) => {
+            if (!active) setIsExplanationSidebarred(false);
+          }}
+          windowId="review-explanation"
+        >
+          <div className="flex h-full flex-col overflow-hidden">
+            <div className="flex-1 overflow-hidden">
+              <StepByStepExplanation
+                questionId={stripBankPrefix(activeExplanationQuestion.storageId)}
+                question={{
+                  section: module.subject === "math" ? "Math" : "Reading and Writing",
+                  passage: activeExplanationSource.passage || "",
+                  questionText:
+                    activeExplanationSource.questionText || activeExplanationSource.prompt,
+                  choices: activeExplanationSource.choices?.map((c) => ({
+                    label: c.id,
+                    text: c.text ?? "",
+                    image: c.image,
+                  })),
+                  correctAnswer: activeExplanationQuestion.correctAnswer,
+                  domain: activeExplanationQuestion.domain,
+                  skill: activeExplanationQuestion.skill,
+                  difficulty: activeExplanationSource.difficulty,
+                  isFillInBlank: activeExplanationSource.type === "free-response",
+                }}
+                questionImages={activeExplanationSource.questionImages}
+              />
+            </div>
+            <div className="flex items-center justify-between border-t border-border/40 px-3 py-2">
+              <Button
+                variant="outline"
+                size="sm"
+                disabled={activeExplanationIndex === 0}
+                onClick={() => navigateExplanation(-1)}
+                className="gap-1"
+              >
+                <ChevronLeft className="h-4 w-4" />
+                Previous
+              </Button>
+              <span className="text-xs text-muted-foreground">
+                {(activeExplanationIndex ?? 0) + 1} / {orderedQuestions.length}
+              </span>
+              <Button
+                variant="outline"
+                size="sm"
+                disabled={activeExplanationIndex === orderedQuestions.length - 1}
+                onClick={() => navigateExplanation(1)}
+                className="gap-1"
+              >
+                Next
+                <ChevronRight className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </DraggableWindow>
+      )}
     </div>
   );
 };

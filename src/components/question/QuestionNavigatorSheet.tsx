@@ -37,9 +37,8 @@ const getStatusColor = (
 
   switch (status) {
     case "correct-first":
-      return "bg-[#C8E6C9] border-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32]";
     case "correct-later":
-      return "bg-[#FFE0B2] border-[#E65100] dark:bg-[#5F2A00] dark:border-[#C75C00]";
+      return "bg-[#C8E6C9] border-[#1B5E20] dark:bg-[#1B5E20] dark:border-[#2E7D32]";
     case "incorrect":
       return "bg-[#FFCDD2] border-[#B71C1C] dark:bg-[#5C1010] dark:border-[#8B0000]";
     default:
@@ -168,10 +167,6 @@ export const QuestionNavigatorSheet = ({
                 <div className="flex items-center gap-1.5">
                   <div className="h-4 w-4 rounded border border-[#1B5E20] bg-[#C8E6C9] dark:border-[#2E7D32] dark:bg-[#1B5E20]" />
                   <span>Correct</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <div className="h-4 w-4 rounded border border-[#E65100] bg-[#FFE0B2] dark:border-[#C75C00] dark:bg-[#5F2A00]" />
-                  <span>Correct (after attempts)</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <div className="h-4 w-4 rounded border border-[#B71C1C] bg-[#FFCDD2] dark:border-[#8B0000] dark:bg-[#5C1010]" />

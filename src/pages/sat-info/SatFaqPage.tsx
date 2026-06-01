@@ -80,7 +80,7 @@ const SatFaqPage = () => {
           Drill free SAT questions by skill, take timed modules, and project your 1600-scale score.
         </p>
         <div className="mt-3 flex flex-wrap gap-3">
-          <Link to="/bank" className="rounded-lg bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
+          <Link to="/bank" className="rounded-lg bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-cobalt hover:text-white">
             Question bank
           </Link>
           <Link to="/score-calculator" className="rounded-lg border border-border px-5 py-2 text-sm font-semibold text-foreground hover:bg-muted">

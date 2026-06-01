@@ -3,6 +3,8 @@ import { isChunkLoadError, recoverFromChunkLoadError } from "@/lib/chunkLoadReco
 
 interface Props {
   children: ReactNode;
+  title?: string;
+  description?: string;
 }
 
 interface State {
@@ -31,17 +33,48 @@ export class ErrorBoundary extends Component<Props, State> {
     console.error("Uncaught error:", error, errorInfo);
   }
 
+  private handleRetry = () => {
+    this.setState({ hasError: false, error: null });
+  };
+
+  private handleRefresh = () => {
+    window.location.reload();
+  };
+
   public render() {
     if (this.state.hasError) {
       return (
-        <div className="p-4 bg-red-50 text-red-900 h-screen flex flex-col items-center justify-center">
-          <h1 className="text-2xl font-bold mb-4">Something went wrong</h1>
-          <p className="text-sm mb-4">Try refreshing the page. If the issue persists, please report it.</p>
+        <div
+          role="alert"
+          className="fixed bottom-4 right-4 z-[1000] w-[min(calc(100vw-2rem),360px)] rounded-lg border border-destructive/25 bg-background p-3 text-foreground shadow-2xl"
+        >
+          <h2 className="text-sm font-semibold">
+            {this.props.title ?? "Something went wrong"}
+          </h2>
+          <p className="mt-1 text-xs leading-5 text-muted-foreground">
+            {this.props.description ?? "This part of the page could not load. You can keep working or try again."}
+          </p>
           {import.meta.env.DEV && (
-            <pre className="bg-red-100 p-4 rounded overflow-auto max-w-full">
+            <pre className="mt-2 max-h-28 overflow-auto rounded-md bg-muted p-2 text-[11px] text-muted-foreground">
               {this.state.error?.toString()}
             </pre>
           )}
+          <div className="mt-3 flex justify-end gap-2">
+            <button
+              type="button"
+              onClick={this.handleRetry}
+              className="rounded-md border border-border px-2.5 py-1.5 text-xs font-medium text-foreground hover:bg-muted"
+            >
+              Try again
+            </button>
+            <button
+              type="button"
+              onClick={this.handleRefresh}
+              className="rounded-md bg-primary px-2.5 py-1.5 text-xs font-medium text-primary-foreground transition-colors hover:bg-cobalt hover:text-white"
+            >
+              Refresh
+            </button>
+          </div>
         </div>
       );
     }

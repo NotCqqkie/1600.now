@@ -138,8 +138,6 @@ export function PreviousAttemptsDialog({ attempts, questionText }: PreviousAttem
                     className={
                       session.result === "incorrect"
                         ? "bg-red-600 hover:bg-red-700"
-                        : session.recoveredAfterIncorrect
-                        ? "bg-orange-500 hover:bg-orange-600"
                         : "bg-green-600 hover:bg-green-700"
                     }
                   >

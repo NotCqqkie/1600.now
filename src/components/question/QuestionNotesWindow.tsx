@@ -10,6 +10,8 @@ interface QuestionNotesWindowProps {
   onFocus?: () => void;
   zIndex?: number;
   constrainToLeft?: number;
+  windowPortalContainer?: HTMLElement | null;
+  windowBoundsElement?: HTMLElement | null;
 }
 
 export const QuestionNotesWindow = ({
@@ -21,6 +23,8 @@ export const QuestionNotesWindow = ({
   onFocus,
   zIndex = 50,
   constrainToLeft,
+  windowPortalContainer,
+  windowBoundsElement,
 }: QuestionNotesWindowProps) => {
   const [note, setNote] = useState("");
   const writeTimerRef = useRef<number | null>(null);
@@ -72,6 +76,8 @@ export const QuestionNotesWindow = ({
       constrainToLeft={constrainToLeft}
       persistenceKey={windowStateKey}
       persistenceStorage={storageArea}
+      portalContainer={windowPortalContainer}
+      boundsElement={windowBoundsElement}
     >
       <div className="flex h-full flex-col bg-background">
         <div className="flex-1 p-4">

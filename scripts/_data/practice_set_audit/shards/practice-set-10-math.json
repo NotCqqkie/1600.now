@@ -1,0 +1,4148 @@
+{
+  "shardId": "practice-set-10-math",
+  "practiceSetNumber": 10,
+  "subject": "math",
+  "files": [
+    "mar25-int-formC-math-m1.json",
+    "may25-int-formA-math-m2.json"
+  ],
+  "modules": [
+    {
+      "slug": "march-2025-international-c-math-module-1",
+      "fileName": "mar25-int-formC-math-m1.json",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "subject": "math",
+      "moduleNumber": 1,
+      "publicTitle": "Math Module 1",
+      "publicSubtitle": "Practice Set 10",
+      "targetCount": 22,
+      "originalCount": 20,
+      "questionCount": 22,
+      "missingQuestionNumbers": [
+        11,
+        14
+      ],
+      "repairedSlots": 2,
+      "questions": [
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 55,
+          "slot": 1,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_1",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_1",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 1,
+          "type": "multiple-choice",
+          "prompt": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+          "passage": "",
+          "questionText": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "40"
+            },
+            {
+              "id": "B",
+              "text": "42"
+            },
+            {
+              "id": "C",
+              "text": "43"
+            },
+            {
+              "id": "D",
+              "text": "46"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Ratios, rates, proportional relationships, and units",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 56,
+          "slot": 2,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_2",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_2",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 2,
+          "type": "multiple-choice",
+          "prompt": "Which of the following equations best represents the line of best fit shown?",
+          "passage": "",
+          "questionText": "Which of the following equations best represents the line of best fit shown?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$y=0.8+1.7x$"
+            },
+            {
+              "id": "B",
+              "text": "$y=0.8-1.7x$"
+            },
+            {
+              "id": "C",
+              "text": "$y=-0.8+1.7x$"
+            },
+            {
+              "id": "D",
+              "text": "$y=-0.8-1.7x$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Two-variable data: Models and scatterplots",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 57,
+          "slot": 3,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_3",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_3",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 3,
+          "type": "multiple-choice",
+          "prompt": "The width of a rectangle is 5 centimeters. The length of the rectangle is 30 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+          "passage": "",
+          "questionText": "The width of a rectangle is 5 centimeters. The length of the rectangle is 30 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "175"
+            },
+            {
+              "id": "B",
+              "text": "40"
+            },
+            {
+              "id": "C",
+              "text": "10"
+            },
+            {
+              "id": "D",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Area and volume",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 58,
+          "slot": 4,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_4",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_4",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 4,
+          "type": "free-response",
+          "prompt": "If $7 + x = 3$, what is the value of $56 + 8x$?",
+          "passage": "",
+          "questionText": "If $7 + x = 3$, what is the value of $56 + 8x$?",
+          "choices": [],
+          "correctAnswer": "24",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in one variable",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 59,
+          "slot": 5,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_5",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_5",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 5,
+          "type": "multiple-choice",
+          "prompt": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1{,}055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+          "passage": "",
+          "questionText": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1{,}055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The amount, in dollars, the technician earned for each hour she worked at her regular job"
+            },
+            {
+              "id": "B",
+              "text": "The amount, in dollars, the technician earned for each hour she worked at her second job"
+            },
+            {
+              "id": "C",
+              "text": "The number of hours the technician worked in one week at her regular job"
+            },
+            {
+              "id": "D",
+              "text": "The number of hours the technician worked in one week at her second job"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 60,
+          "slot": 6,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_6",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_6",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 6,
+          "type": "multiple-choice",
+          "prompt": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+          "passage": "",
+          "questionText": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "1"
+            },
+            {
+              "id": "B",
+              "text": "6"
+            },
+            {
+              "id": "C",
+              "text": "20"
+            },
+            {
+              "id": "D",
+              "text": "26"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "One-variable data: Distributions and measures of center and spread",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 61,
+          "slot": 7,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_7",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_7",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 7,
+          "type": "free-response",
+          "prompt": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810; 3,810; 3,030; 3,850; 3,050\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+          "passage": "",
+          "questionText": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810; 3,810; 3,030; 3,850; 3,050\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+          "choices": [],
+          "correctAnswer": "3510",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "One-variable data: Distributions and measures of center and spread",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 62,
+          "slot": 8,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_8",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_8",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 8,
+          "type": "multiple-choice",
+          "prompt": "$x + 7 = 13$\n$y = 5x^2 + 5$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",
+          "passage": "",
+          "questionText": "$x + 7 = 13$\n$y = 5x^2 + 5$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$(6,180)$"
+            },
+            {
+              "id": "B",
+              "text": "$(6,185)$"
+            },
+            {
+              "id": "C",
+              "text": "$(13,5)$"
+            },
+            {
+              "id": "D",
+              "text": "$(13,850)$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Systems of two linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 63,
+          "slot": 9,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_9",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_9",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 9,
+          "type": "free-response",
+          "prompt": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
+          "passage": "",
+          "questionText": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
+          "choices": [],
+          "correctAnswer": "29",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 64,
+          "slot": 10,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_10",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_10",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 10,
+          "type": "multiple-choice",
+          "prompt": "The point (v,-5) lies on the line shown. What is the value of v?",
+          "passage": "",
+          "questionText": "The point (v,-5) lies on the line shown. What is the value of v?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$-\\frac{72}{11}$"
+            },
+            {
+              "id": "B",
+              "text": "$-\\frac{11}{12}$"
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{72}{11}$"
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{192}{11}$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 65,
+          "slot": 11,
+          "isReplacement": true,
+          "replacement": {
+            "slot": 11,
+            "expectedSkill": "Linear functions",
+            "expectedDomain": "Algebra",
+            "expectedType": "multiple-choice",
+            "profileConfidence": 0.13725490196078433,
+            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+            "sourceTestName": "November 2024 International Form B SAT Math Module 1",
+            "sourceQuestionNumber": 11,
+            "origin": "borrowed",
+            "note": "Slot 11 is usually Linear functions in Math Module 1, so this module borrows a matching past-bank question."
+          },
+          "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+          "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+          "testName": "November 2024 International Form B SAT Math Module 1",
+          "sourceQuestionNumber": 11,
+          "type": "multiple-choice",
+          "prompt": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point $ (5, 7) $. What is the value of $ f(5) $?",
+          "passage": "",
+          "questionText": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point $ (5, 7) $. What is the value of $ f(5) $?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "5"
+            },
+            {
+              "id": "B",
+              "text": "7"
+            },
+            {
+              "id": "C",
+              "text": "12"
+            },
+            {
+              "id": "D",
+              "text": "35"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 66,
+          "slot": 12,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_12",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_12",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 12,
+          "type": "multiple-choice",
+          "prompt": "In the figure shown, line $k$ intersects lines $r$ and $s$. If $w = 146$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
+          "passage": "",
+          "questionText": "In the figure shown, line $k$ intersects lines $r$ and $s$. If $w = 146$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$x=34$"
+            },
+            {
+              "id": "B",
+              "text": "$y=146$"
+            },
+            {
+              "id": "C",
+              "text": "$w+y=180$"
+            },
+            {
+              "id": "D",
+              "text": "$y+z=180$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 67,
+          "slot": 13,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_13",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_13",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 13,
+          "type": "multiple-choice",
+          "prompt": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
+          "passage": "",
+          "questionText": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$133·\\sqrt{y}$"
+            },
+            {
+              "id": "B",
+              "text": "$\\sqrt{133}·y$"
+            },
+            {
+              "id": "C",
+              "text": "$\\sqrt{133y}$"
+            },
+            {
+              "id": "D",
+              "text": "$\\sqrt{(133y)^{2}}$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 68,
+          "slot": 14,
+          "isReplacement": true,
+          "replacement": {
+            "slot": 14,
+            "expectedSkill": "Linear equations in two variables",
+            "expectedDomain": "Algebra",
+            "expectedType": "multiple-choice",
+            "profileConfidence": 0.13725490196078433,
+            "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+            "sourceTestName": "June 2024 US Form A SAT Math Module 1",
+            "sourceQuestionNumber": 14,
+            "origin": "borrowed",
+            "note": "Slot 14 is usually Linear equations in two variables in Math Module 1, so this module borrows a matching past-bank question."
+          },
+          "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+          "stableId": "bank-past-math-6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+          "testName": "June 2024 US Form A SAT Math Module 1",
+          "sourceQuestionNumber": 14,
+          "type": "multiple-choice",
+          "prompt": "The town of Fillmore is planning its annual fireworks show. The equation $y = -16(x - 6.8)^2 + 740$ gives the estimated height $y$, in feet, of a type of firework $x$ seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the $xy$-plane?",
+          "passage": "",
+          "questionText": "The town of Fillmore is planning its annual fireworks show. The equation $y = -16(x - 6.8)^2 + 740$ gives the estimated height $y$, in feet, of a type of firework $x$ seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the $xy$-plane?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "This type of firework reaches an estimated maximum height of 740 feet 16 seconds after it is launched into the air."
+            },
+            {
+              "id": "B",
+              "text": "This type of firework reaches an estimated maximum height of 740 feet 6.8 seconds after it is launched into the air."
+            },
+            {
+              "id": "C",
+              "text": "This type of firework reaches an estimated maximum height of 16 feet 740 seconds after it is launched into the air."
+            },
+            {
+              "id": "D",
+              "text": "This type of firework reaches an estimated maximum height of 6.8 feet 740 seconds after it is launched into the air."
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 69,
+          "slot": 15,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_15",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_15",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 15,
+          "type": "multiple-choice",
+          "prompt": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
+          "passage": "",
+          "questionText": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$-\\frac{\\sqrt{3}}{2}$"
+            },
+            {
+              "id": "B",
+              "text": "$-\\frac{\\sqrt{2}}{2}$"
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{1}{2}$"
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{\\sqrt{2}}{2}$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Right triangles and trigonometry",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 70,
+          "slot": 16,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_16",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_16",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 16,
+          "type": "free-response",
+          "prompt": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+          "passage": "",
+          "questionText": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+          "choices": [],
+          "correctAnswer": "257",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Percentages",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 71,
+          "slot": 17,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_17",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_17",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 17,
+          "type": "free-response",
+          "prompt": "A triangular prism has a height of $3$ centimeters (cm) and a volume of $60$ cm$^3$. What is the area, in cm$^2$, of the base of the prism? (The volume of a triangular prism is equal to $Bh$, where $B$ is the area of the base and $h$ is the height of the prism.)",
+          "passage": "",
+          "questionText": "A triangular prism has a height of $3$ centimeters (cm) and a volume of $60$ cm$^3$. What is the area, in cm$^2$, of the base of the prism? (The volume of a triangular prism is equal to $Bh$, where $B$ is the area of the base and $h$ is the height of the prism.)",
+          "choices": [],
+          "correctAnswer": "20",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Area and volume",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 72,
+          "slot": 18,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_18",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_18",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 18,
+          "type": "multiple-choice",
+          "prompt": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+          "passage": "",
+          "questionText": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "Three"
+            },
+            {
+              "id": "B",
+              "text": "Two"
+            },
+            {
+              "id": "C",
+              "text": "One"
+            },
+            {
+              "id": "D",
+              "text": "Zero"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 73,
+          "slot": 19,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_19",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_19",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 19,
+          "type": "multiple-choice",
+          "prompt": "$x(x+4)-140=3x(x-10)$\nWhat is the sum of the solutions to the given equation?",
+          "passage": "",
+          "questionText": "$x(x+4)-140=3x(x-10)$\nWhat is the sum of the solutions to the given equation?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "6"
+            },
+            {
+              "id": "B",
+              "text": "10"
+            },
+            {
+              "id": "C",
+              "text": "14"
+            },
+            {
+              "id": "D",
+              "text": "17"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in one variable",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 74,
+          "slot": 20,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_20",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_20",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 20,
+          "type": "multiple-choice",
+          "prompt": "$-3x^{2}-7x+1=0$\nWhat is the greatest solution to the given equation?",
+          "passage": "",
+          "questionText": "$-3x^{2}-7x+1=0$\nWhat is the greatest solution to the given equation?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$-\\frac{7}{3}+\\frac{\\sqrt{61}}{6}$"
+            },
+            {
+              "id": "B",
+              "text": "$-\\frac{7}{3}-\\frac{\\sqrt{61}}{3}$"
+            },
+            {
+              "id": "C",
+              "text": "$-\\frac{7}{6}+\\frac{\\sqrt{61}}{6}$"
+            },
+            {
+              "id": "D",
+              "text": "$-\\frac{7}{6}-\\frac{\\sqrt{61}}{6}$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 75,
+          "slot": 21,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_21",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_21",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 21,
+          "type": "free-response",
+          "prompt": "In triangle ABC, BC = $36\\sqrt{3}$. What is the value of $\\cos A$?",
+          "passage": "",
+          "questionText": "In triangle ABC, BC = $36\\sqrt{3}$. What is the value of $\\cos A$?",
+          "choices": [],
+          "correctAnswer": "1/2",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Right triangles and trigonometry",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "march-2025-international-c-math-module-1",
+          "moduleFileName": "mar25-int-formC-math-m1.json",
+          "moduleTitle": "Math Module 1",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 1,
+          "globalQuestionNumber": 76,
+          "slot": 22,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_22",
+          "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_22",
+          "testName": "March 2025 International Form C SAT Math Module 1",
+          "sourceQuestionNumber": 22,
+          "type": "multiple-choice",
+          "prompt": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+          "passage": "",
+          "questionText": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "21.36%"
+            },
+            {
+              "id": "B",
+              "text": "38.69%"
+            },
+            {
+              "id": "C",
+              "text": "2,300%"
+            },
+            {
+              "id": "D",
+              "text": "4,347%"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Percentages",
+            "confidence": "high"
+          },
+          "questionImages": []
+        }
+      ]
+    },
+    {
+      "slug": "may-2025-international-a-math-module-2",
+      "fileName": "may25-int-formA-math-m2.json",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "subject": "math",
+      "moduleNumber": 2,
+      "publicTitle": "Math Module 2",
+      "publicSubtitle": "Practice Set 10",
+      "targetCount": 22,
+      "originalCount": 21,
+      "questionCount": 22,
+      "missingQuestionNumbers": [
+        7
+      ],
+      "repairedSlots": 1,
+      "questions": [
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 77,
+          "slot": 1,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_1",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_1",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 1,
+          "type": "multiple-choice",
+          "prompt": "If $9+x=6$, what is the value of $-18-2x$?",
+          "passage": "",
+          "questionText": "If $9+x=6$, what is the value of $-18-2x$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$-12$"
+            },
+            {
+              "id": "B",
+              "text": "$-2$"
+            },
+            {
+              "id": "C",
+              "text": "$6$"
+            },
+            {
+              "id": "D",
+              "text": "$24$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in one variable",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 78,
+          "slot": 2,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 2,
+          "type": "multiple-choice",
+          "prompt": "In the figure, line $l$ is parallel to line $m$. What is the value of $x$?",
+          "passage": "",
+          "questionText": "In the figure, line $l$ is parallel to line $m$. What is the value of $x$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$31$"
+            },
+            {
+              "id": "B",
+              "text": "$69$"
+            },
+            {
+              "id": "C",
+              "text": "$111$"
+            },
+            {
+              "id": "D",
+              "text": "$131$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 79,
+          "slot": 3,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 3,
+          "type": "multiple-choice",
+          "prompt": "The graph of the linear function $f$ is shown, where $y=f(x)$. Which equation defines $f$?",
+          "passage": "",
+          "questionText": "The graph of the linear function $f$ is shown, where $y=f(x)$. Which equation defines $f$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$f(x)=\\frac{3}{7}x-5$"
+            },
+            {
+              "id": "B",
+              "text": "$f(x)=\\frac{7}{3}x-5$"
+            },
+            {
+              "id": "C",
+              "text": "$f(x)=-\\frac{3}{7}x-5$"
+            },
+            {
+              "id": "D",
+              "text": "$f(x)=-\\frac{7}{3}x-5$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 80,
+          "slot": 4,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_4",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_4",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 4,
+          "type": "multiple-choice",
+          "prompt": "The function t gives the estimated melting temperature, in degrees Celsius, of a DNA molecule as a function of the percent of guanine-cytosine (GC) content, x, in the DNA molecule. The graph of $y=t(x)$ is shown. According to the graph, which of the following statements is NOT true?",
+          "passage": "",
+          "questionText": "The function t gives the estimated melting temperature, in degrees Celsius, of a DNA molecule as a function of the percent of guanine-cytosine (GC) content, x, in the DNA molecule. The graph of $y=t(x)$ is shown. According to the graph, which of the following statements is NOT true?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "A For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
+            },
+            {
+              "id": "B",
+              "text": "A DNA molecule with a GC content of $0\\%$ has an estimated melting temperature between $60^\\circ C$ and $65^\\circ C$."
+            },
+            {
+              "id": "C",
+              "text": "A DNA molecule with a GC content of $95\\%$ has an estimated melting temperature between $100^\\circ C$ and $105^\\circ C$."
+            },
+            {
+              "id": "D",
+              "text": "A DNA molecule with a GC content of $98\\%$ has an estimated melting temperature between $80^\\circ C$ and $90^\\circ C$."
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Percentages",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 81,
+          "slot": 5,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_5",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_5",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 5,
+          "type": "multiple-choice",
+          "prompt": "In the $xy$-plane, line $s$ is parallel to line $t$. Line $s$ is defined by $y+16=7x$. What is the slope of line $t$?",
+          "passage": "",
+          "questionText": "In the $xy$-plane, line $s$ is parallel to line $t$. Line $s$ is defined by $y+16=7x$. What is the slope of line $t$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$-16$"
+            },
+            {
+              "id": "B",
+              "text": "$-7$"
+            },
+            {
+              "id": "C",
+              "text": "$7$"
+            },
+            {
+              "id": "D",
+              "text": "$16$"
+            }
+          ],
+          "correctAnswer": "C",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 82,
+          "slot": 6,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 6,
+          "type": "multiple-choice",
+          "prompt": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y=0.67x+2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 39 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+          "passage": "",
+          "questionText": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y=0.67x+2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 39 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$29$"
+            },
+            {
+              "id": "B",
+              "text": "$42$"
+            },
+            {
+              "id": "C",
+              "text": "$54$"
+            },
+            {
+              "id": "D",
+              "text": "$128$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 83,
+          "slot": 7,
+          "isReplacement": true,
+          "replacement": {
+            "slot": 7,
+            "expectedSkill": "Linear functions",
+            "expectedDomain": "Algebra",
+            "expectedType": "multiple-choice",
+            "profileConfidence": 0.12,
+            "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+            "sourceTestName": "June 2024 International Form A SAT Math Module 2",
+            "sourceQuestionNumber": 7,
+            "origin": "borrowed",
+            "note": "Slot 7 is usually Linear functions in Math Module 2, so this module borrows a matching past-bank question."
+          },
+          "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+          "stableId": "bank-past-math-2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+          "testName": "June 2024 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 7,
+          "type": "multiple-choice",
+          "prompt": "Two students are playing a game. In the first round, Player 1 answers 33 questions. If an answer is correct, Player 1 earns 1 point. If an answer is incorrect, Player 2 will earn 1 point instead. The graph shows $y = f(x)$, where $y$ is the number of points Player 2 will earn when $x$ is the number of points Player 1 earns. Which of the following is the best interpretation of the point (33,0) in this context?",
+          "passage": "",
+          "questionText": "Two students are playing a game. In the first round, Player 1 answers 33 questions. If an answer is correct, Player 1 earns 1 point. If an answer is incorrect, Player 2 will earn 1 point instead. The graph shows $y = f(x)$, where $y$ is the number of points Player 2 will earn when $x$ is the number of points Player 1 earns. Which of the following is the best interpretation of the point (33,0) in this context?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "When Player 1 earns 33 points, Player 2 will earn 33 points."
+            },
+            {
+              "id": "B",
+              "text": "When Player 1 earns 33 points, Player 2 will earn 0 points."
+            },
+            {
+              "id": "C",
+              "text": "When Player 1 earns 0 points, Player 2 will earn 33 points."
+            },
+            {
+              "id": "D",
+              "text": "When Player 1 earns 0 points, Player 2 will earn 0 points."
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 84,
+          "slot": 8,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_8",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_8",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 8,
+          "type": "multiple-choice",
+          "prompt": "$P=N(34-C)$\nThe given equation relates the variables $P$, $N$, and $C$. Which expression represents the value of $C$ for distinct positive values of $P$ and $N$?",
+          "passage": "",
+          "questionText": "$P=N(34-C)$\nThe given equation relates the variables $P$, $N$, and $C$. Which expression represents the value of $C$ for distinct positive values of $P$ and $N$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$C+\\frac{P}{N}$"
+            },
+            {
+              "id": "B",
+              "text": "$34+\\frac{P}{N}$"
+            },
+            {
+              "id": "C",
+              "text": "$34-\\frac{P}{C}$"
+            },
+            {
+              "id": "D",
+              "text": "$34-\\frac{P}{N}$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 85,
+          "slot": 9,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_9",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_9",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 9,
+          "type": "multiple-choice",
+          "prompt": "$x^{2}-15x+12=0$\nWhat is the sum of the solutions to the given equation?",
+          "passage": "",
+          "questionText": "$x^{2}-15x+12=0$\nWhat is the sum of the solutions to the given equation?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$15$"
+            },
+            {
+              "id": "B",
+              "text": "$12$"
+            },
+            {
+              "id": "C",
+              "text": "$3$"
+            },
+            {
+              "id": "D",
+              "text": "$0$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 86,
+          "slot": 10,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 10,
+          "type": "free-response",
+          "prompt": "The figure shown is a right rectangular pyramid, where $l = 18$ units, $w = 9$ units, and $h = 12$ units. What is the surface area, in square units, of the pyramid?",
+          "passage": "",
+          "questionText": "The figure shown is a right rectangular pyramid, where $l = 18$ units, $w = 9$ units, and $h = 12$ units. What is the surface area, in square units, of the pyramid?",
+          "choices": [],
+          "correctAnswer": "527.7",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 87,
+          "slot": 11,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_11",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_11",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 11,
+          "type": "multiple-choice",
+          "prompt": "The function $f(x)=\\frac{1}{7}(x-6)^{2}+4$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y=f(x)$ in the $xy$-plane?",
+          "passage": "",
+          "questionText": "The function $f(x)=\\frac{1}{7}(x-6)^{2}+4$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y=f(x)$ in the $xy$-plane?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "The toy car's minimum height was 4 inches above the ground."
+            },
+            {
+              "id": "B",
+              "text": "The toy car's minimum height was 6 inches above the ground."
+            },
+            {
+              "id": "C",
+              "text": "The toy car's height was 4 inches above the ground when it started moving."
+            },
+            {
+              "id": "D",
+              "text": "The toy car's height was 6 inches above the ground when it started moving."
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 88,
+          "slot": 12,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_12",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_12",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 12,
+          "type": "multiple-choice",
+          "prompt": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+          "passage": "",
+          "questionText": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$47\\cos Q$"
+            },
+            {
+              "id": "B",
+              "text": "$47\\sin Q$"
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{47}{\\cos Q}$"
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{47}{\\sin Q}$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Hard",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Lines, angles, and triangles",
+            "confidence": "high"
+          },
+          "questionImages": [
+            {
+              "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.svg",
+              "alt": "",
+              "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.svg",
+              "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.svg",
+              "publicExists": false,
+              "publicSpaceFallbackExists": true
+            }
+          ]
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 89,
+          "slot": 13,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_13",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_13",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 13,
+          "type": "free-response",
+          "prompt": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 71.5% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+          "passage": "",
+          "questionText": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 71.5% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+          "choices": [],
+          "correctAnswer": "34300",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Percentages",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 90,
+          "slot": 14,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_14",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_14",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 14,
+          "type": "free-response",
+          "prompt": "$16x - 20y = 6y + 8$\n$ty = 8x + \\frac{1}{5}$\nIn the given system of equations, $t$ is a constant. If the system has no solution, what is the value of $t$?",
+          "passage": "",
+          "questionText": "$16x - 20y = 6y + 8$\n$ty = 8x + \\frac{1}{5}$\nIn the given system of equations, $t$ is a constant. If the system has no solution, what is the value of $t$?",
+          "choices": [],
+          "correctAnswer": "13",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Systems of two linear equations in two variables",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 91,
+          "slot": 15,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_15",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_15",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 15,
+          "type": "multiple-choice",
+          "prompt": "$f(x)=7(4)^{x}$\nThe function $f$ is defined by the given equation. If $g(x)=f(x+3)$, which of the following equations defines the function g?",
+          "passage": "",
+          "questionText": "$f(x)=7(4)^{x}$\nThe function $f$ is defined by the given equation. If $g(x)=f(x+3)$, which of the following equations defines the function g?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$g(x)=21(4)^{x}$"
+            },
+            {
+              "id": "B",
+              "text": "$g(x)=448(4)^{x}$"
+            },
+            {
+              "id": "C",
+              "text": "$g(x)=21(12)^{x}$"
+            },
+            {
+              "id": "D",
+              "text": "$g(x)=343(64)^{x}$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 92,
+          "slot": 16,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_16",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_16",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 16,
+          "type": "multiple-choice",
+          "prompt": "The bone mineral density of a certain person's thoracic spine was estimated to be $0.812$ grams per square centimeter. What is this estimated bone mineral density in grams per square millimeter? (1 centimeter = 10 millimeters)",
+          "passage": "",
+          "questionText": "The bone mineral density of a certain person's thoracic spine was estimated to be $0.812$ grams per square centimeter. What is this estimated bone mineral density in grams per square millimeter? (1 centimeter = 10 millimeters)",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$81.2$"
+            },
+            {
+              "id": "B",
+              "text": "$8.12$"
+            },
+            {
+              "id": "C",
+              "text": "$0.0812$"
+            },
+            {
+              "id": "D",
+              "text": "$0.00812$"
+            }
+          ],
+          "correctAnswer": "D",
+          "difficulty": "Easy",
+          "category": {
+            "subject": "Math",
+            "domain": "Problem-Solving and Data Analysis",
+            "skill": "Ratios, rates, proportional relationships, and units",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 93,
+          "slot": 17,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_17",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_17",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 17,
+          "type": "multiple-choice",
+          "prompt": "Which expression is a factor of $49p^{19}-121p^{17}$?",
+          "passage": "",
+          "questionText": "Which expression is a factor of $49p^{19}-121p^{17}$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$7p+11$"
+            },
+            {
+              "id": "B",
+              "text": "$49p^{2}+121$"
+            },
+            {
+              "id": "C",
+              "text": "$11p-7$"
+            },
+            {
+              "id": "D",
+              "text": "$-72p^{40}$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 94,
+          "slot": 18,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_18",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_18",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 18,
+          "type": "free-response",
+          "prompt": "$\\frac{5}{9}(5x+9)\\sqrt{5k+9}\\sqrt{5k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 72. What is the value of $k$?",
+          "passage": "",
+          "questionText": "$\\frac{5}{9}(5x+9)\\sqrt{5k+9}\\sqrt{5k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 72. What is the value of $k$?",
+          "choices": [],
+          "correctAnswer": "31/5,6.2",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Equivalent expressions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 95,
+          "slot": 19,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 19,
+          "type": "multiple-choice",
+          "prompt": "A right rectangular prism has a base area of $56t$ square centimeters (cm²). The length of the base of the rectangular prism is $\\frac{14}{3}$ cm, and the height of the rectangular prism is 3 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
+          "passage": "",
+          "questionText": "A right rectangular prism has a base area of $56t$ square centimeters (cm²). The length of the base of the rectangular prism is $\\frac{14}{3}$ cm, and the height of the rectangular prism is 3 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$112t+56$"
+            },
+            {
+              "id": "B",
+              "text": "$184t+28$"
+            },
+            {
+              "id": "C",
+              "text": "$1,680t+28$"
+            },
+            {
+              "id": "D",
+              "text": "$168t$"
+            }
+          ],
+          "correctAnswer": "B",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Area and volume",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 96,
+          "slot": 20,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_20",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_20",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 20,
+          "type": "free-response",
+          "prompt": "In the $xy$-plane, a unit circle with center at the origin $O$ contains point $A$ with coordinates $(1,0)$ and point $B$ with coordinates $(\\frac{5}{\\sqrt{34}},-\\frac{3}{\\sqrt{34}})$. If the measure of angle $AOB$ is $p$ radians, what is the value of $\\frac{\\cos p}{\\sin p}$?",
+          "passage": "",
+          "questionText": "In the $xy$-plane, a unit circle with center at the origin $O$ contains point $A$ with coordinates $(1,0)$ and point $B$ with coordinates $(\\frac{5}{\\sqrt{34}},-\\frac{3}{\\sqrt{34}})$. If the measure of angle $AOB$ is $p$ radians, what is the value of $\\frac{\\cos p}{\\sin p}$?",
+          "choices": [],
+          "correctAnswer": "-5/3,-1.667,-1.666",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Geometry and Trigonometry",
+            "skill": "Circles",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 97,
+          "slot": 21,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_21",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_21",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 21,
+          "type": "free-response",
+          "prompt": "The function $h$ is defined by $h(x) = -\\sqrt{x^2 + bx + c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{334})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
+          "passage": "",
+          "questionText": "The function $h$ is defined by $h(x) = -\\sqrt{x^2 + bx + c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{334})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
+          "choices": [],
+          "correctAnswer": "167",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Advanced Math",
+            "skill": "Nonlinear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        },
+        {
+          "practiceSetNumber": 10,
+          "moduleSlug": "may-2025-international-a-math-module-2",
+          "moduleFileName": "may25-int-formA-math-m2.json",
+          "moduleTitle": "Math Module 2",
+          "moduleSubtitle": "Practice Set 10",
+          "moduleSubject": "math",
+          "moduleNumber": 2,
+          "globalQuestionNumber": 98,
+          "slot": 22,
+          "isReplacement": false,
+          "replacement": null,
+          "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+          "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+          "testName": "May 2025 International Form A SAT Math Module 2",
+          "sourceQuestionNumber": 22,
+          "type": "multiple-choice",
+          "prompt": "A computer repair specialist charges \\$160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is \\$360. Which function $f$ gives the total cost, in dollars, for $x$ hours of repair, where $x \\geq 2$?",
+          "passage": "",
+          "questionText": "A computer repair specialist charges \\$160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is \\$360. Which function $f$ gives the total cost, in dollars, for $x$ hours of repair, where $x \\geq 2$?",
+          "choices": [
+            {
+              "id": "A",
+              "text": "$f(x)=50x+60$"
+            },
+            {
+              "id": "B",
+              "text": "$f(x)=50x+160$"
+            },
+            {
+              "id": "C",
+              "text": "$f(x)=60x$"
+            },
+            {
+              "id": "D",
+              "text": "$f(x)=60x+160$"
+            }
+          ],
+          "correctAnswer": "A",
+          "difficulty": "Medium",
+          "category": {
+            "subject": "Math",
+            "domain": "Algebra",
+            "skill": "Linear functions",
+            "confidence": "high"
+          },
+          "questionImages": []
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 55,
+      "slot": 1,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_1",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_1",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 1,
+      "type": "multiple-choice",
+      "prompt": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+      "passage": "",
+      "questionText": "$s=40+2t$\nThe equation gives the speed $s$, in miles per hour, of a certain car $t$ seconds after it began to accelerate. What is the speed, in miles per hour, of the car 3 seconds after it began to accelerate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "40"
+        },
+        {
+          "id": "B",
+          "text": "42"
+        },
+        {
+          "id": "C",
+          "text": "43"
+        },
+        {
+          "id": "D",
+          "text": "46"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Ratios, rates, proportional relationships, and units",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 56,
+      "slot": 2,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_2",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_2",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 2,
+      "type": "multiple-choice",
+      "prompt": "Which of the following equations best represents the line of best fit shown?",
+      "passage": "",
+      "questionText": "Which of the following equations best represents the line of best fit shown?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$y=0.8+1.7x$"
+        },
+        {
+          "id": "B",
+          "text": "$y=0.8-1.7x$"
+        },
+        {
+          "id": "C",
+          "text": "$y=-0.8+1.7x$"
+        },
+        {
+          "id": "D",
+          "text": "$y=-0.8-1.7x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Two-variable data: Models and scatterplots",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 57,
+      "slot": 3,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_3",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_3",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 3,
+      "type": "multiple-choice",
+      "prompt": "The width of a rectangle is 5 centimeters. The length of the rectangle is 30 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+      "passage": "",
+      "questionText": "The width of a rectangle is 5 centimeters. The length of the rectangle is 30 centimeters longer than the width. What is the area, in square centimeters, of this rectangle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "175"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Area and volume",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 58,
+      "slot": 4,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_4",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_4",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 4,
+      "type": "free-response",
+      "prompt": "If $7 + x = 3$, what is the value of $56 + 8x$?",
+      "passage": "",
+      "questionText": "If $7 + x = 3$, what is the value of $56 + 8x$?",
+      "choices": [],
+      "correctAnswer": "24",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in one variable",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 59,
+      "slot": 5,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_5",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_5",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 5,
+      "type": "multiple-choice",
+      "prompt": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1{,}055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+      "passage": "",
+      "questionText": "In one week in 2017, a technician earned a total of \\$1,055 by working at her regular job and at a second job doing part-time work. The equation $20h + 17c = 1{,}055$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The amount, in dollars, the technician earned for each hour she worked at her regular job"
+        },
+        {
+          "id": "B",
+          "text": "The amount, in dollars, the technician earned for each hour she worked at her second job"
+        },
+        {
+          "id": "C",
+          "text": "The number of hours the technician worked in one week at her regular job"
+        },
+        {
+          "id": "D",
+          "text": "The number of hours the technician worked in one week at her second job"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 60,
+      "slot": 6,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_6",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_6",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 6,
+      "type": "multiple-choice",
+      "prompt": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+      "passage": "",
+      "questionText": "The table shows the frequency of values in a data set.\nWhat is the minimum value of the data set?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "26"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "One-variable data: Distributions and measures of center and spread",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 61,
+      "slot": 7,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_7",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_7",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 7,
+      "type": "free-response",
+      "prompt": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810; 3,810; 3,030; 3,850; 3,050\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+      "passage": "",
+      "questionText": "The list gives the mass, in grams, of 5 ruffed lemurs.\n3,810; 3,810; 3,030; 3,850; 3,050\nWhat is the mean mass, in grams, of these 5 ruffed lemurs?",
+      "choices": [],
+      "correctAnswer": "3510",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "One-variable data: Distributions and measures of center and spread",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 62,
+      "slot": 8,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_8",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_8",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 8,
+      "type": "multiple-choice",
+      "prompt": "$x + 7 = 13$\n$y = 5x^2 + 5$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",
+      "passage": "",
+      "questionText": "$x + 7 = 13$\n$y = 5x^2 + 5$\nAt what point $(x, y)$ do the graphs of the equations in the given system intersect?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$(6,180)$"
+        },
+        {
+          "id": "B",
+          "text": "$(6,185)$"
+        },
+        {
+          "id": "C",
+          "text": "$(13,5)$"
+        },
+        {
+          "id": "D",
+          "text": "$(13,850)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Systems of two linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 63,
+      "slot": 9,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_9",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_9",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 9,
+      "type": "free-response",
+      "prompt": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
+      "passage": "",
+      "questionText": "The expression $19x^{5}+20x^{5}-10x^{5}$ is equivalent to $bx^{5}$, where b is a constant. What is the value of b?",
+      "choices": [],
+      "correctAnswer": "29",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 64,
+      "slot": 10,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_10",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_10",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 10,
+      "type": "multiple-choice",
+      "prompt": "The point (v,-5) lies on the line shown. What is the value of v?",
+      "passage": "",
+      "questionText": "The point (v,-5) lies on the line shown. What is the value of v?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-\\frac{72}{11}$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\frac{11}{12}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{72}{11}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{192}{11}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 65,
+      "slot": 11,
+      "isReplacement": true,
+      "replacement": {
+        "slot": 11,
+        "expectedSkill": "Linear functions",
+        "expectedDomain": "Algebra",
+        "expectedType": "multiple-choice",
+        "profileConfidence": 0.13725490196078433,
+        "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+        "sourceTestName": "November 2024 International Form B SAT Math Module 1",
+        "sourceQuestionNumber": 11,
+        "origin": "borrowed",
+        "note": "Slot 11 is usually Linear functions in Math Module 1, so this module borrows a matching past-bank question."
+      },
+      "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+      "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+      "testName": "November 2024 International Form B SAT Math Module 1",
+      "sourceQuestionNumber": 11,
+      "type": "multiple-choice",
+      "prompt": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point $ (5, 7) $. What is the value of $ f(5) $?",
+      "passage": "",
+      "questionText": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point $ (5, 7) $. What is the value of $ f(5) $?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "35"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 66,
+      "slot": 12,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_12",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_12",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 12,
+      "type": "multiple-choice",
+      "prompt": "In the figure shown, line $k$ intersects lines $r$ and $s$. If $w = 146$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
+      "passage": "",
+      "questionText": "In the figure shown, line $k$ intersects lines $r$ and $s$. If $w = 146$, which additional piece of information is sufficient to prove that lines $r$ and $s$ are parallel?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$x=34$"
+        },
+        {
+          "id": "B",
+          "text": "$y=146$"
+        },
+        {
+          "id": "C",
+          "text": "$w+y=180$"
+        },
+        {
+          "id": "D",
+          "text": "$y+z=180$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 67,
+      "slot": 13,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_13",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_13",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 13,
+      "type": "multiple-choice",
+      "prompt": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
+      "passage": "",
+      "questionText": "Which expression is equivalent to $(133y)^{\\frac{1}{2}}$, where $y > 1$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$133·\\sqrt{y}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{133}·y$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sqrt{133y}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sqrt{(133y)^{2}}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 68,
+      "slot": 14,
+      "isReplacement": true,
+      "replacement": {
+        "slot": 14,
+        "expectedSkill": "Linear equations in two variables",
+        "expectedDomain": "Algebra",
+        "expectedType": "multiple-choice",
+        "profileConfidence": 0.13725490196078433,
+        "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+        "sourceTestName": "June 2024 US Form A SAT Math Module 1",
+        "sourceQuestionNumber": 14,
+        "origin": "borrowed",
+        "note": "Slot 14 is usually Linear equations in two variables in Math Module 1, so this module borrows a matching past-bank question."
+      },
+      "sourceId": "6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+      "stableId": "bank-past-math-6b1e987d-70b0-4072-9d03-3ebd56371518_14",
+      "testName": "June 2024 US Form A SAT Math Module 1",
+      "sourceQuestionNumber": 14,
+      "type": "multiple-choice",
+      "prompt": "The town of Fillmore is planning its annual fireworks show. The equation $y = -16(x - 6.8)^2 + 740$ gives the estimated height $y$, in feet, of a type of firework $x$ seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the $xy$-plane?",
+      "passage": "",
+      "questionText": "The town of Fillmore is planning its annual fireworks show. The equation $y = -16(x - 6.8)^2 + 740$ gives the estimated height $y$, in feet, of a type of firework $x$ seconds after it is launched into the air. Which of the following is the best interpretation of the vertex of the graph of the equation in the $xy$-plane?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "This type of firework reaches an estimated maximum height of 740 feet 16 seconds after it is launched into the air."
+        },
+        {
+          "id": "B",
+          "text": "This type of firework reaches an estimated maximum height of 740 feet 6.8 seconds after it is launched into the air."
+        },
+        {
+          "id": "C",
+          "text": "This type of firework reaches an estimated maximum height of 16 feet 740 seconds after it is launched into the air."
+        },
+        {
+          "id": "D",
+          "text": "This type of firework reaches an estimated maximum height of 6.8 feet 740 seconds after it is launched into the air."
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 69,
+      "slot": 15,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_15",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_15",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 15,
+      "type": "multiple-choice",
+      "prompt": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
+      "passage": "",
+      "questionText": "The measure of angle B is $\\frac{3\\pi}{4}$ radians. What is the value of sin(B)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{\\sqrt{2}}{2}$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Right triangles and trigonometry",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 70,
+      "slot": 16,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_16",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_16",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 16,
+      "type": "free-response",
+      "prompt": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+      "passage": "",
+      "questionText": "A school is ordering tablet computers for its students. The tablets cost \\$164 each, and 6% tax is added to the total cost of the order. If the school can spend no more than \\$44,800 on the tablets, including tax, what is the maximum number of tablets that the school can order?",
+      "choices": [],
+      "correctAnswer": "257",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Percentages",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 71,
+      "slot": 17,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_17",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_17",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 17,
+      "type": "free-response",
+      "prompt": "A triangular prism has a height of $3$ centimeters (cm) and a volume of $60$ cm$^3$. What is the area, in cm$^2$, of the base of the prism? (The volume of a triangular prism is equal to $Bh$, where $B$ is the area of the base and $h$ is the height of the prism.)",
+      "passage": "",
+      "questionText": "A triangular prism has a height of $3$ centimeters (cm) and a volume of $60$ cm$^3$. What is the area, in cm$^2$, of the base of the prism? (The volume of a triangular prism is equal to $Bh$, where $B$ is the area of the base and $h$ is the height of the prism.)",
+      "choices": [],
+      "correctAnswer": "20",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Area and volume",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 72,
+      "slot": 18,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_18",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_18",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 18,
+      "type": "multiple-choice",
+      "prompt": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+      "passage": "",
+      "questionText": "The graph of $ y = f(x) $ is shown, where $ f(x) = abx + c $, and $ a $, $ b $, and $ c $ are constants. For how many values of $ x $ does $ f(x) = 0 $?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Three"
+        },
+        {
+          "id": "B",
+          "text": "Two"
+        },
+        {
+          "id": "C",
+          "text": "One"
+        },
+        {
+          "id": "D",
+          "text": "Zero"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 73,
+      "slot": 19,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_19",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_19",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 19,
+      "type": "multiple-choice",
+      "prompt": "$x(x+4)-140=3x(x-10)$\nWhat is the sum of the solutions to the given equation?",
+      "passage": "",
+      "questionText": "$x(x+4)-140=3x(x-10)$\nWhat is the sum of the solutions to the given equation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "17"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in one variable",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 74,
+      "slot": 20,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_20",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_20",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 20,
+      "type": "multiple-choice",
+      "prompt": "$-3x^{2}-7x+1=0$\nWhat is the greatest solution to the given equation?",
+      "passage": "",
+      "questionText": "$-3x^{2}-7x+1=0$\nWhat is the greatest solution to the given equation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-\\frac{7}{3}+\\frac{\\sqrt{61}}{6}$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\frac{7}{3}-\\frac{\\sqrt{61}}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$-\\frac{7}{6}+\\frac{\\sqrt{61}}{6}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{7}{6}-\\frac{\\sqrt{61}}{6}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 75,
+      "slot": 21,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_21",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_21",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 21,
+      "type": "free-response",
+      "prompt": "In triangle ABC, BC = $36\\sqrt{3}$. What is the value of $\\cos A$?",
+      "passage": "",
+      "questionText": "In triangle ABC, BC = $36\\sqrt{3}$. What is the value of $\\cos A$?",
+      "choices": [],
+      "correctAnswer": "1/2",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Right triangles and trigonometry",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "march-2025-international-c-math-module-1",
+      "moduleFileName": "mar25-int-formC-math-m1.json",
+      "moduleTitle": "Math Module 1",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 1,
+      "globalQuestionNumber": 76,
+      "slot": 22,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "ba06b998-d854-4b29-830c-15d877280c75_22",
+      "stableId": "bank-past-math-ba06b998-d854-4b29-830c-15d877280c75_22",
+      "testName": "March 2025 International Form C SAT Math Module 1",
+      "sourceQuestionNumber": 22,
+      "type": "multiple-choice",
+      "prompt": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+      "passage": "",
+      "questionText": "$a$ is 2,047% of the sum of the positive numbers $b$ and $c$, and $b$ is 89% of $c$. What percent of $b$ is $a$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "21.36%"
+        },
+        {
+          "id": "B",
+          "text": "38.69%"
+        },
+        {
+          "id": "C",
+          "text": "2,300%"
+        },
+        {
+          "id": "D",
+          "text": "4,347%"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Percentages",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 77,
+      "slot": 1,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_1",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_1",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 1,
+      "type": "multiple-choice",
+      "prompt": "If $9+x=6$, what is the value of $-18-2x$?",
+      "passage": "",
+      "questionText": "If $9+x=6$, what is the value of $-18-2x$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-12$"
+        },
+        {
+          "id": "B",
+          "text": "$-2$"
+        },
+        {
+          "id": "C",
+          "text": "$6$"
+        },
+        {
+          "id": "D",
+          "text": "$24$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in one variable",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 78,
+      "slot": 2,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_2",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 2,
+      "type": "multiple-choice",
+      "prompt": "In the figure, line $l$ is parallel to line $m$. What is the value of $x$?",
+      "passage": "",
+      "questionText": "In the figure, line $l$ is parallel to line $m$. What is the value of $x$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$31$"
+        },
+        {
+          "id": "B",
+          "text": "$69$"
+        },
+        {
+          "id": "C",
+          "text": "$111$"
+        },
+        {
+          "id": "D",
+          "text": "$131$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 79,
+      "slot": 3,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_3",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 3,
+      "type": "multiple-choice",
+      "prompt": "The graph of the linear function $f$ is shown, where $y=f(x)$. Which equation defines $f$?",
+      "passage": "",
+      "questionText": "The graph of the linear function $f$ is shown, where $y=f(x)$. Which equation defines $f$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$f(x)=\\frac{3}{7}x-5$"
+        },
+        {
+          "id": "B",
+          "text": "$f(x)=\\frac{7}{3}x-5$"
+        },
+        {
+          "id": "C",
+          "text": "$f(x)=-\\frac{3}{7}x-5$"
+        },
+        {
+          "id": "D",
+          "text": "$f(x)=-\\frac{7}{3}x-5$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 80,
+      "slot": 4,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_4",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_4",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 4,
+      "type": "multiple-choice",
+      "prompt": "The function t gives the estimated melting temperature, in degrees Celsius, of a DNA molecule as a function of the percent of guanine-cytosine (GC) content, x, in the DNA molecule. The graph of $y=t(x)$ is shown. According to the graph, which of the following statements is NOT true?",
+      "passage": "",
+      "questionText": "The function t gives the estimated melting temperature, in degrees Celsius, of a DNA molecule as a function of the percent of guanine-cytosine (GC) content, x, in the DNA molecule. The graph of $y=t(x)$ is shown. According to the graph, which of the following statements is NOT true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A For each increase of $x$ by $1$, $t(x)$ increases by approximately $\\frac{2}{5}$"
+        },
+        {
+          "id": "B",
+          "text": "A DNA molecule with a GC content of $0\\%$ has an estimated melting temperature between $60^\\circ C$ and $65^\\circ C$."
+        },
+        {
+          "id": "C",
+          "text": "A DNA molecule with a GC content of $95\\%$ has an estimated melting temperature between $100^\\circ C$ and $105^\\circ C$."
+        },
+        {
+          "id": "D",
+          "text": "A DNA molecule with a GC content of $98\\%$ has an estimated melting temperature between $80^\\circ C$ and $90^\\circ C$."
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Percentages",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 81,
+      "slot": 5,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_5",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_5",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 5,
+      "type": "multiple-choice",
+      "prompt": "In the $xy$-plane, line $s$ is parallel to line $t$. Line $s$ is defined by $y+16=7x$. What is the slope of line $t$?",
+      "passage": "",
+      "questionText": "In the $xy$-plane, line $s$ is parallel to line $t$. Line $s$ is defined by $y+16=7x$. What is the slope of line $t$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$-16$"
+        },
+        {
+          "id": "B",
+          "text": "$-7$"
+        },
+        {
+          "id": "C",
+          "text": "$7$"
+        },
+        {
+          "id": "D",
+          "text": "$16$"
+        }
+      ],
+      "correctAnswer": "C",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 82,
+      "slot": 6,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_6",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 6,
+      "type": "multiple-choice",
+      "prompt": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y=0.67x+2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 39 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+      "passage": "",
+      "questionText": "Scientists collected fallen acorns that each housed a colony of the ant species P. ohioensis and analyzed each colony's structure. For any of these colonies, if the colony has $x$ worker ants, the equation $y=0.67x+2.6$, where $20 \\leq x \\leq 110$, gives the predicted number of larvae, $y$, in the colony. If one of these colonies has 39 worker ants, which of the following is closest to the predicted number of larvae in the colony?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$29$"
+        },
+        {
+          "id": "B",
+          "text": "$42$"
+        },
+        {
+          "id": "C",
+          "text": "$54$"
+        },
+        {
+          "id": "D",
+          "text": "$128$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 83,
+      "slot": 7,
+      "isReplacement": true,
+      "replacement": {
+        "slot": 7,
+        "expectedSkill": "Linear functions",
+        "expectedDomain": "Algebra",
+        "expectedType": "multiple-choice",
+        "profileConfidence": 0.12,
+        "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+        "sourceTestName": "June 2024 International Form A SAT Math Module 2",
+        "sourceQuestionNumber": 7,
+        "origin": "borrowed",
+        "note": "Slot 7 is usually Linear functions in Math Module 2, so this module borrows a matching past-bank question."
+      },
+      "sourceId": "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+      "stableId": "bank-past-math-2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7",
+      "testName": "June 2024 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 7,
+      "type": "multiple-choice",
+      "prompt": "Two students are playing a game. In the first round, Player 1 answers 33 questions. If an answer is correct, Player 1 earns 1 point. If an answer is incorrect, Player 2 will earn 1 point instead. The graph shows $y = f(x)$, where $y$ is the number of points Player 2 will earn when $x$ is the number of points Player 1 earns. Which of the following is the best interpretation of the point (33,0) in this context?",
+      "passage": "",
+      "questionText": "Two students are playing a game. In the first round, Player 1 answers 33 questions. If an answer is correct, Player 1 earns 1 point. If an answer is incorrect, Player 2 will earn 1 point instead. The graph shows $y = f(x)$, where $y$ is the number of points Player 2 will earn when $x$ is the number of points Player 1 earns. Which of the following is the best interpretation of the point (33,0) in this context?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "When Player 1 earns 33 points, Player 2 will earn 33 points."
+        },
+        {
+          "id": "B",
+          "text": "When Player 1 earns 33 points, Player 2 will earn 0 points."
+        },
+        {
+          "id": "C",
+          "text": "When Player 1 earns 0 points, Player 2 will earn 33 points."
+        },
+        {
+          "id": "D",
+          "text": "When Player 1 earns 0 points, Player 2 will earn 0 points."
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 84,
+      "slot": 8,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_8",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_8",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 8,
+      "type": "multiple-choice",
+      "prompt": "$P=N(34-C)$\nThe given equation relates the variables $P$, $N$, and $C$. Which expression represents the value of $C$ for distinct positive values of $P$ and $N$?",
+      "passage": "",
+      "questionText": "$P=N(34-C)$\nThe given equation relates the variables $P$, $N$, and $C$. Which expression represents the value of $C$ for distinct positive values of $P$ and $N$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$C+\\frac{P}{N}$"
+        },
+        {
+          "id": "B",
+          "text": "$34+\\frac{P}{N}$"
+        },
+        {
+          "id": "C",
+          "text": "$34-\\frac{P}{C}$"
+        },
+        {
+          "id": "D",
+          "text": "$34-\\frac{P}{N}$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 85,
+      "slot": 9,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_9",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_9",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 9,
+      "type": "multiple-choice",
+      "prompt": "$x^{2}-15x+12=0$\nWhat is the sum of the solutions to the given equation?",
+      "passage": "",
+      "questionText": "$x^{2}-15x+12=0$\nWhat is the sum of the solutions to the given equation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$15$"
+        },
+        {
+          "id": "B",
+          "text": "$12$"
+        },
+        {
+          "id": "C",
+          "text": "$3$"
+        },
+        {
+          "id": "D",
+          "text": "$0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 86,
+      "slot": 10,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_10",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 10,
+      "type": "free-response",
+      "prompt": "The figure shown is a right rectangular pyramid, where $l = 18$ units, $w = 9$ units, and $h = 12$ units. What is the surface area, in square units, of the pyramid?",
+      "passage": "",
+      "questionText": "The figure shown is a right rectangular pyramid, where $l = 18$ units, $w = 9$ units, and $h = 12$ units. What is the surface area, in square units, of the pyramid?",
+      "choices": [],
+      "correctAnswer": "527.7",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 87,
+      "slot": 11,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_11",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_11",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 11,
+      "type": "multiple-choice",
+      "prompt": "The function $f(x)=\\frac{1}{7}(x-6)^{2}+4$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y=f(x)$ in the $xy$-plane?",
+      "passage": "",
+      "questionText": "The function $f(x)=\\frac{1}{7}(x-6)^{2}+4$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y=f(x)$ in the $xy$-plane?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The toy car's minimum height was 4 inches above the ground."
+        },
+        {
+          "id": "B",
+          "text": "The toy car's minimum height was 6 inches above the ground."
+        },
+        {
+          "id": "C",
+          "text": "The toy car's height was 4 inches above the ground when it started moving."
+        },
+        {
+          "id": "D",
+          "text": "The toy car's height was 6 inches above the ground when it started moving."
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 88,
+      "slot": 12,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_12",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_12",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 12,
+      "type": "multiple-choice",
+      "prompt": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+      "passage": "",
+      "questionText": "In triangle $QRS$ shown, $QR < QS$. Which expression represents the length of $\\overline{QS}$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$47\\cos Q$"
+        },
+        {
+          "id": "B",
+          "text": "$47\\sin Q$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{47}{\\cos Q}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{47}{\\sin Q}$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Hard",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Lines, angles, and triangles",
+        "confidence": "high"
+      },
+      "questionImages": [
+        {
+          "src": "/images_labeled/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.svg",
+          "alt": "",
+          "normalizedSrc": "/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.svg",
+          "publicPath": "/Users/lukefinigan/Documents/1600-prep-hub/public/images/SAT-Style-Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.svg",
+          "publicExists": false,
+          "publicSpaceFallbackExists": true
+        }
+      ]
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 89,
+      "slot": 13,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_13",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_13",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 13,
+      "type": "free-response",
+      "prompt": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 71.5% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+      "passage": "",
+      "questionText": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was 71.5% of the number of postdoctoral students surveyed and the number of graduate students surveyed was 45% of the number of undergraduate students surveyed. If there were 6,435 graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
+      "choices": [],
+      "correctAnswer": "34300",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Percentages",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 90,
+      "slot": 14,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_14",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_14",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 14,
+      "type": "free-response",
+      "prompt": "$16x - 20y = 6y + 8$\n$ty = 8x + \\frac{1}{5}$\nIn the given system of equations, $t$ is a constant. If the system has no solution, what is the value of $t$?",
+      "passage": "",
+      "questionText": "$16x - 20y = 6y + 8$\n$ty = 8x + \\frac{1}{5}$\nIn the given system of equations, $t$ is a constant. If the system has no solution, what is the value of $t$?",
+      "choices": [],
+      "correctAnswer": "13",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Systems of two linear equations in two variables",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 91,
+      "slot": 15,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_15",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_15",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 15,
+      "type": "multiple-choice",
+      "prompt": "$f(x)=7(4)^{x}$\nThe function $f$ is defined by the given equation. If $g(x)=f(x+3)$, which of the following equations defines the function g?",
+      "passage": "",
+      "questionText": "$f(x)=7(4)^{x}$\nThe function $f$ is defined by the given equation. If $g(x)=f(x+3)$, which of the following equations defines the function g?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$g(x)=21(4)^{x}$"
+        },
+        {
+          "id": "B",
+          "text": "$g(x)=448(4)^{x}$"
+        },
+        {
+          "id": "C",
+          "text": "$g(x)=21(12)^{x}$"
+        },
+        {
+          "id": "D",
+          "text": "$g(x)=343(64)^{x}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 92,
+      "slot": 16,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_16",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_16",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 16,
+      "type": "multiple-choice",
+      "prompt": "The bone mineral density of a certain person's thoracic spine was estimated to be $0.812$ grams per square centimeter. What is this estimated bone mineral density in grams per square millimeter? (1 centimeter = 10 millimeters)",
+      "passage": "",
+      "questionText": "The bone mineral density of a certain person's thoracic spine was estimated to be $0.812$ grams per square centimeter. What is this estimated bone mineral density in grams per square millimeter? (1 centimeter = 10 millimeters)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$81.2$"
+        },
+        {
+          "id": "B",
+          "text": "$8.12$"
+        },
+        {
+          "id": "C",
+          "text": "$0.0812$"
+        },
+        {
+          "id": "D",
+          "text": "$0.00812$"
+        }
+      ],
+      "correctAnswer": "D",
+      "difficulty": "Easy",
+      "category": {
+        "subject": "Math",
+        "domain": "Problem-Solving and Data Analysis",
+        "skill": "Ratios, rates, proportional relationships, and units",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 93,
+      "slot": 17,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_17",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_17",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 17,
+      "type": "multiple-choice",
+      "prompt": "Which expression is a factor of $49p^{19}-121p^{17}$?",
+      "passage": "",
+      "questionText": "Which expression is a factor of $49p^{19}-121p^{17}$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$7p+11$"
+        },
+        {
+          "id": "B",
+          "text": "$49p^{2}+121$"
+        },
+        {
+          "id": "C",
+          "text": "$11p-7$"
+        },
+        {
+          "id": "D",
+          "text": "$-72p^{40}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 94,
+      "slot": 18,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_18",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_18",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 18,
+      "type": "free-response",
+      "prompt": "$\\frac{5}{9}(5x+9)\\sqrt{5k+9}\\sqrt{5k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 72. What is the value of $k$?",
+      "passage": "",
+      "questionText": "$\\frac{5}{9}(5x+9)\\sqrt{5k+9}\\sqrt{5k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 72. What is the value of $k$?",
+      "choices": [],
+      "correctAnswer": "31/5,6.2",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Equivalent expressions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 95,
+      "slot": 19,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_19",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 19,
+      "type": "multiple-choice",
+      "prompt": "A right rectangular prism has a base area of $56t$ square centimeters (cm²). The length of the base of the rectangular prism is $\\frac{14}{3}$ cm, and the height of the rectangular prism is 3 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
+      "passage": "",
+      "questionText": "A right rectangular prism has a base area of $56t$ square centimeters (cm²). The length of the base of the rectangular prism is $\\frac{14}{3}$ cm, and the height of the rectangular prism is 3 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$112t+56$"
+        },
+        {
+          "id": "B",
+          "text": "$184t+28$"
+        },
+        {
+          "id": "C",
+          "text": "$1,680t+28$"
+        },
+        {
+          "id": "D",
+          "text": "$168t$"
+        }
+      ],
+      "correctAnswer": "B",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Area and volume",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 96,
+      "slot": 20,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_20",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_20",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 20,
+      "type": "free-response",
+      "prompt": "In the $xy$-plane, a unit circle with center at the origin $O$ contains point $A$ with coordinates $(1,0)$ and point $B$ with coordinates $(\\frac{5}{\\sqrt{34}},-\\frac{3}{\\sqrt{34}})$. If the measure of angle $AOB$ is $p$ radians, what is the value of $\\frac{\\cos p}{\\sin p}$?",
+      "passage": "",
+      "questionText": "In the $xy$-plane, a unit circle with center at the origin $O$ contains point $A$ with coordinates $(1,0)$ and point $B$ with coordinates $(\\frac{5}{\\sqrt{34}},-\\frac{3}{\\sqrt{34}})$. If the measure of angle $AOB$ is $p$ radians, what is the value of $\\frac{\\cos p}{\\sin p}$?",
+      "choices": [],
+      "correctAnswer": "-5/3,-1.667,-1.666",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Geometry and Trigonometry",
+        "skill": "Circles",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 97,
+      "slot": 21,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_21",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_21",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 21,
+      "type": "free-response",
+      "prompt": "The function $h$ is defined by $h(x) = -\\sqrt{x^2 + bx + c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{334})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
+      "passage": "",
+      "questionText": "The function $h$ is defined by $h(x) = -\\sqrt{x^2 + bx + c}$, where $b$ and $c$ are constants. In the $xy$-plane, the graph of $y = h(x)$ contains the points $(2, 0)$ and $(0, -\\sqrt{334})$. If $h(m) = 0$, what is the greatest possible value of $m$?",
+      "choices": [],
+      "correctAnswer": "167",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Advanced Math",
+        "skill": "Nonlinear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    },
+    {
+      "practiceSetNumber": 10,
+      "moduleSlug": "may-2025-international-a-math-module-2",
+      "moduleFileName": "may25-int-formA-math-m2.json",
+      "moduleTitle": "Math Module 2",
+      "moduleSubtitle": "Practice Set 10",
+      "moduleSubject": "math",
+      "moduleNumber": 2,
+      "globalQuestionNumber": 98,
+      "slot": 22,
+      "isReplacement": false,
+      "replacement": null,
+      "sourceId": "e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+      "stableId": "bank-past-math-e4f2c33b-9282-40a7-810c-d633e5197f95_22",
+      "testName": "May 2025 International Form A SAT Math Module 2",
+      "sourceQuestionNumber": 22,
+      "type": "multiple-choice",
+      "prompt": "A computer repair specialist charges \\$160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is \\$360. Which function $f$ gives the total cost, in dollars, for $x$ hours of repair, where $x \\geq 2$?",
+      "passage": "",
+      "questionText": "A computer repair specialist charges \\$160 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 6 hours of repair is \\$360. Which function $f$ gives the total cost, in dollars, for $x$ hours of repair, where $x \\geq 2$?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "$f(x)=50x+60$"
+        },
+        {
+          "id": "B",
+          "text": "$f(x)=50x+160$"
+        },
+        {
+          "id": "C",
+          "text": "$f(x)=60x$"
+        },
+        {
+          "id": "D",
+          "text": "$f(x)=60x+160$"
+        }
+      ],
+      "correctAnswer": "A",
+      "difficulty": "Medium",
+      "category": {
+        "subject": "Math",
+        "domain": "Algebra",
+        "skill": "Linear functions",
+        "confidence": "high"
+      },
+      "questionImages": []
+    }
+  ]
+}

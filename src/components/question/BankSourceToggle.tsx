@@ -1,4 +1,4 @@
-import { useRef, useState, useLayoutEffect, useEffect, useCallback } from "react";
+import { useRef, useState, useLayoutEffect, useCallback } from "react";
 import {
   BANK_SOURCE_LABELS,
   type BankSourceFilter,
@@ -10,7 +10,7 @@ interface BankSourceToggleProps {
   onChange: (value: BankSourceFilter) => void;
 }
 
-const sources: BankSourceFilter[] = ["unofficial", "past", "all"];
+const sources: BankSourceFilter[] = ["all", "unofficial", "past"];
 
 export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -36,12 +36,6 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
     measureSlider();
   }, [measureSlider]);
 
-  useEffect(() => {
-    if (!hasMeasured || transitionsEnabled) return;
-    const id = window.setTimeout(() => setTransitionsEnabled(true), 0);
-    return () => window.clearTimeout(id);
-  }, [hasMeasured, transitionsEnabled]);
-
   return (
     <div
       ref={containerRef}
@@ -49,11 +43,13 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
     >
       {/* Animated slider — always-light accent fill (#9BD7F4). */}
       <div
-        className={cn(
-          "absolute top-1 bottom-1 rounded-[8px] bg-ds-accent shadow-sm ease-out",
-          transitionsEnabled ? "transition-all duration-300" : "transition-none",
-        )}
-        style={{ left: slider.left, width: slider.width }}
+        className="absolute top-1 bottom-1 rounded-[8px] bg-ds-accent shadow-sm"
+        style={{
+          left: slider.left,
+          width: slider.width,
+          visibility: hasMeasured ? "visible" : "hidden",
+          transition: transitionsEnabled ? "left 300ms ease-out, width 300ms ease-out" : "none",
+        }}
       />
 
       {sources.map((source) => (
@@ -63,7 +59,10 @@ export const BankSourceToggle = ({ value, onChange }: BankSourceToggleProps) => 
             if (el) buttonRefs.current.set(source, el);
           }}
           type="button"
-          onClick={() => onChange(source)}
+          onClick={() => {
+            setTransitionsEnabled(true);
+            onChange(source);
+          }}
           className={cn(
             // Off: Inter 500 14px, ink-mid. On: Inter 600 ink-fixed (dark on
             // the always-light accent slider, even in dark mode).

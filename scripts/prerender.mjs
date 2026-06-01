@@ -16,7 +16,10 @@ import puppeteer from "puppeteer";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const dist = path.join(root, "dist");
-const PORT = 4173;
+const PREFERRED_PORT = Number(process.env.PRERENDER_PORT ?? 4173);
+const PRERENDER_CONCURRENCY = Number(process.env.PRERENDER_CONCURRENCY ?? 4);
+const PRERENDER_RETRY_CONCURRENCY = Number(process.env.PRERENDER_RETRY_CONCURRENCY ?? 1);
+const PRERENDER_ATTEMPTS = Number(process.env.PRERENDER_ATTEMPTS ?? 3);
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -60,6 +63,39 @@ function serveStaticSpa() {
   });
 }
 
+async function listenServer() {
+  const ports = PREFERRED_PORT === 0 ? [0] : [PREFERRED_PORT, 0];
+  let lastError = null;
+
+  for (const port of ports) {
+    const server = serveStaticSpa();
+    try {
+      await new Promise((resolve, reject) => {
+        const onError = (err) => {
+          server.off("listening", onListening);
+          reject(err);
+        };
+        const onListening = () => {
+          server.off("error", onError);
+          resolve();
+        };
+        server.once("error", onError);
+        server.once("listening", onListening);
+        server.listen(port);
+      });
+      const address = server.address();
+      const actualPort = typeof address === "object" && address ? address.port : port;
+      return { server, port: actualPort };
+    } catch (err) {
+      lastError = err;
+      server.close();
+      if (err.code !== "EADDRINUSE") throw err;
+    }
+  }
+
+  throw lastError;
+}
+
 function urlsFromSitemap() {
   // sitemap.xml is a sitemap index whose <loc> entries point at child
   // sitemaps. Walk one level deep and aggregate every page URL found.
@@ -85,18 +121,11 @@ async function main() {
     process.exit(1);
   }
 
-  // Skip /college/* (1,491 routes). They're data-driven templates from
-  // colleges.json — Googlebot runs JS now, so client rendering is sufficient
-  // and prerendering them dominated build time without proportional SEO win.
   const allRoutes = urlsFromSitemap();
-  const skippedColleges = allRoutes.filter((r) => r.startsWith("/college/")).length;
-  const routes = allRoutes.filter((r) => !r.startsWith("/college/"));
-  console.log(
-    `Prerendering ${routes.length} routes (skipped ${skippedColleges} /college/* routes)...`,
-  );
+  const routes = allRoutes;
+  console.log(`Prerendering ${routes.length} routes...`);
 
-  const server = serveStaticSpa();
-  await new Promise((r) => server.listen(PORT, r));
+  const { server, port } = await listenServer();
 
   // Sandbox flags are gated behind PRERENDER_NO_SANDBOX so CI containers that
   // genuinely need them can opt in, while local/dev runs keep the sandbox on.
@@ -106,62 +135,95 @@ async function main() {
   const browser = await puppeteer.launch({
     headless: true,
     args: launchArgs,
-    // Default 30s caused intermittent "Runtime.callFunctionOn timed out"
-    // failures on slower routes in the DO build container. 90s is generous
-    // and only kicks in when something is genuinely stuck.
-    protocolTimeout: 90_000,
+    protocolTimeout: 180_000,
   });
 
-  const concurrency = 10;
-  let cursor = 0;
   let done = 0;
-  let failed = 0;
 
-  async function worker() {
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1280, height: 900 });
-    while (true) {
-      const i = cursor++;
-      if (i >= routes.length) break;
-      const route = routes[i];
-      try {
-        await page.goto(`http://localhost:${PORT}${route}`, {
-          waitUntil: "domcontentloaded",
-          timeout: 20000,
-        });
-        // Wait for React to mount and populate #root. Lazy route chunks need
-        // to load before content appears, so polling the DOM is more reliable
-        // than networkidle (which waits for ALL traffic to settle).
-        await page.waitForFunction(
-          () => {
-            const root = document.getElementById("root");
-            return !!root && root.children.length > 0;
-          },
-          { timeout: 15000, polling: 100 },
-        );
-        await page.evaluate(
-          () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))),
-        );
-        const html = await page.content();
-        const out = outputPathFor(route);
-        mkdirSync(path.dirname(out), { recursive: true });
-        writeFileSync(out, html);
-        done++;
-        if (done % 25 === 0) console.log(`  ${done}/${routes.length}`);
-      } catch (err) {
-        failed++;
-        console.warn(`  fail ${route}: ${err.message}`);
-      }
-    }
-    await page.close();
+  async function renderRoute(page, route) {
+    await page.goto(`http://localhost:${port}${route}`, {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
+    await page.waitForFunction(
+      () => {
+        const root = document.getElementById("root");
+        if (!root) return false;
+        if (root.querySelector(".animate-spin")) return false;
+        const text = root.textContent?.trim() ?? "";
+        return text.length > 80 && document.title.trim().length > 0;
+      },
+      { timeout: 30000, polling: 100 },
+    );
+    await page.evaluate(
+      () => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))),
+    );
+    const html = await page.content();
+    const out = outputPathFor(route);
+    mkdirSync(path.dirname(out), { recursive: true });
+    writeFileSync(out, html);
   }
 
-  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  async function runBatch(batchRoutes, concurrency, attempt) {
+    let cursor = 0;
+    const failures = [];
+
+    async function worker() {
+      while (true) {
+        const i = cursor++;
+        if (i >= batchRoutes.length) break;
+        const route = batchRoutes[i];
+        let page = null;
+        try {
+          page = await browser.newPage();
+          await page.setViewport({ width: 1280, height: 900 });
+          await renderRoute(page, route);
+          done++;
+          if (done % 25 === 0) console.log(`  ${done}/${routes.length}`);
+        } catch (err) {
+          failures.push({ route, message: err.message });
+          const prefix = attempt === 1 ? "fail" : `fail retry ${attempt}`;
+          console.warn(`  ${prefix} ${route}: ${err.message}`);
+        } finally {
+          if (page) {
+            await page.close().catch(() => {});
+          }
+        }
+      }
+    }
+
+    await Promise.all(
+      Array.from({ length: Math.min(concurrency, batchRoutes.length) }, () => worker()),
+    );
+
+    return failures;
+  }
+
+  let failures = routes.map((route) => ({ route, message: "" }));
+
+  for (let attempt = 1; attempt <= PRERENDER_ATTEMPTS && failures.length > 0; attempt++) {
+    const batchRoutes = failures.map((f) => f.route);
+    if (attempt > 1) {
+      console.log(`Retrying ${batchRoutes.length} failed routes (attempt ${attempt})...`);
+    }
+    failures = await runBatch(
+      batchRoutes,
+      attempt === 1 ? PRERENDER_CONCURRENCY : PRERENDER_RETRY_CONCURRENCY,
+      attempt,
+    );
+  }
 
   await browser.close();
   await new Promise((r) => server.close(r));
 
-  console.log(`Prerendered ${done} routes (${failed} failed).`);
+  console.log(`Prerendered ${done} routes (${failures.length} failed).`);
+
+  if (failures.length > 0) {
+    console.error(
+      failures.map((f) => `  ${f.route}: ${f.message}`).join("\n"),
+    );
+    process.exit(1);
+  }
 }
 
 main().catch((err) => {

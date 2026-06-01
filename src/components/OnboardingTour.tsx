@@ -2,12 +2,14 @@ import { useEffect, useState, useCallback, useMemo, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
+import { useThemeMode } from "@/hooks/useThemeMode";
 import {
   ArrowRight,
   ArrowLeft,
   BarChart3,
   BookA,
   BookOpen,
+  BookOpenCheck,
   Calculator,
   ClipboardList,
   Columns2,
@@ -19,6 +21,7 @@ import {
   HelpCircle,
   LayoutGrid,
   LineChart,
+  MoreHorizontal,
   PanelRight,
   PartyPopper,
   Sparkles,
@@ -75,8 +78,9 @@ interface SpotlightStep extends BaseStep {
 }
 interface FinaleStep extends BaseStep { kind: "finale" }
 type Step = SplashStep | SpotlightStep | FinaleStep;
+type ActiveTour = "main" | "practice-set";
 
-const STEPS: Step[] = [
+const MAIN_STEPS: Step[] = [
   // 0 — splash
   {
     kind: "splash",
@@ -273,7 +277,36 @@ const STEPS: Step[] = [
   },
 ];
 
+const PRACTICE_SET_STEPS: Step[] = [
+  {
+    kind: "spotlight",
+    key: "practice-set-more",
+    icon: MoreHorizontal,
+    title: "Open More",
+    body: "On a bank question, Create Practice Set uses that question's SAT skill and content type to find related bank questions.",
+    accent: "sky",
+    target: "question-more-menu",
+    route: "/bank/math/1",
+    pad: 6,
+    preferSide: "bottom",
+  },
+  {
+    kind: "spotlight",
+    key: "practice-set-create",
+    icon: BookOpenCheck,
+    title: "Create Practice Set",
+    body: "The saved set contains 5-20 questions from the same content group and appears in My Practice Sets for focused review.",
+    accent: "emerald",
+    target: "create-practice-set-menu-item",
+    clickFirst: "question-more-menu",
+    pad: 8,
+    preferSide: "left",
+  },
+];
+
 const tourKey = (uid: string | undefined) => `onboarding-seen:${uid ?? "anon"}`;
+const ONBOARDING_REPLAY_REQUEST_KEY = "onboarding-replay-requested";
+const PRACTICE_SET_HELP_REQUEST_KEY = "practice-set-help-requested";
 
 /**
  * Maximum account age (in ms) for the tour to auto-open.
@@ -367,6 +400,10 @@ const waitForTarget = (target: string, pad: number, timeoutMs = 3500): Promise<R
 const clickByTour = (target: string) => {
   const el = document.querySelector<HTMLElement>(`[data-tour="${target}"]`);
   if (!el) return;
+  if (typeof PointerEvent !== "undefined") {
+    el.dispatchEvent(new PointerEvent("pointerdown", { bubbles: true, cancelable: true, button: 0, pointerType: "mouse" }));
+    el.dispatchEvent(new PointerEvent("pointerup", { bubbles: true, cancelable: true, button: 0, pointerType: "mouse" }));
+  }
   // Synthesize a full MouseEvent — some component libraries listen on
   // `mousedown` only, and `el.click()` alone doesn't fire mousedown handlers.
   el.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, cancelable: true, button: 0 }));
@@ -422,17 +459,22 @@ const FloatingBlobs = ({ accent }: { accent: AccentName }) => {
   );
 };
 
-const SplashCard = ({ step, onNext, onSkip, index, total }: {
-  step: Step; onNext: () => void; onSkip: () => void; index: number; total: number;
+const SplashCard = ({ step, onNext, onSkip, index, total, isDark }: {
+  step: Step; onNext: () => void; onSkip: () => void; index: number; total: number; isDark: boolean;
 }) => {
   const c = ACCENT_CLASSES[step.accent];
-  const Icon = step.icon;
+  const titleColor = isDark ? "text-white" : "text-slate-900";
+  const bodyColor = isDark ? "text-white/75" : "text-slate-700";
+  const captionColor = isDark ? "text-white/60" : "text-slate-500";
+  const skipColor = isDark
+    ? "text-white/70 hover:text-white hover:bg-white/10"
+    : "text-slate-600 hover:text-slate-900 hover:bg-slate-900/5";
   return (
     <div className="relative flex h-full w-full items-center justify-center px-6">
       <FloatingBlobs accent={step.accent} />
 
-      {/* Orbiting micro-icons */}
-      <div aria-hidden className="pointer-events-none absolute inset-0 z-20">
+      {/* Orbiting micro-icons — z-[1] keeps them behind the z-10 center content */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 z-[1]">
         {[0, 1, 2, 3, 4, 5].map((i) => {
           const r = 180 + (i % 3) * 60;
           const dur = 18 + (i % 4) * 6;
@@ -456,76 +498,44 @@ const SplashCard = ({ step, onNext, onSkip, index, total }: {
       </div>
 
       <div className="relative z-10 max-w-xl text-center">
-        <div className="relative mx-auto mb-8 h-24 w-24">
-          <div className={`absolute inset-0 rounded-3xl ${c.bg} blur-xl tour-splash-orb`} />
-          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed border-current ${c.text} tour-ring-spin opacity-60`} />
-          <div className={`relative flex h-24 w-24 items-center justify-center rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur ${c.text} tour-splash-orb`}>
-            <Icon className="h-12 w-12" />
-          </div>
-        </div>
         <h2
-          className="mb-4 text-white tour-splash-text"
+          className={`mb-4 tour-splash-text ${titleColor}`}
           style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}
         >
           {step.title}
         </h2>
-        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-white/75 tour-splash-text" style={{ animationDelay: "60ms" }}>
+        <p className={`mx-auto max-w-md text-[15px] leading-relaxed tour-splash-text ${bodyColor}`} style={{ animationDelay: "60ms" }}>
           {step.body}
         </p>
         <div className="mt-9 flex items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
-          <Button variant="ghost" onClick={onSkip} className="text-white/70 hover:text-white hover:bg-white/10">Skip tour</Button>
+          <Button variant="ghost" onClick={onSkip} className={skipColor}>Skip tour</Button>
           <Button size="lg" onClick={onNext} className="gap-2 px-6">
             Take the tour
             <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
-        <div className="mt-8 text-xs text-white/60 tabular-nums">{index + 1} / {total}</div>
+        <div className={`mt-8 text-xs tabular-nums ${captionColor}`}>{index + 1} / {total}</div>
       </div>
     </div>
   );
 };
 
-const FinaleCard = ({ step, onClose, onJump, index, total }: {
-  step: Step; onClose: () => void; onJump: (path: string) => void; index: number; total: number;
+const FinaleCard = ({ step, onClose, onJump, index, total, isDark }: {
+  step: Step; onClose: () => void; onJump: (path: string) => void; index: number; total: number; isDark: boolean;
 }) => {
   const c = ACCENT_CLASSES[step.accent];
-  const Icon = step.icon;
+  const titleColor = isDark ? "text-white" : "text-slate-900";
+  const bodyColor = isDark ? "text-white/75" : "text-slate-700";
+  const captionColor = isDark ? "text-white/60" : "text-slate-500";
+  const outlineBtn = isDark
+    ? "border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white"
+    : "border-slate-900/15 bg-white/70 text-slate-900 hover:bg-white hover:text-slate-900";
   return (
     <div className="relative flex h-full w-full items-center justify-center px-6">
       <FloatingBlobs accent={step.accent} />
 
-      {/* Continuous confetti shower — particles fall on a long loop with
-       * staggered delays so the burst keeps replenishing itself for as long
-       * as the user lingers on the finale. Each particle is one of 6
-       * celebration colors, rotated to a different bearing, and travels a
-       * different distance. */}
-      <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2 z-20">
-        {Array.from({ length: 36 }).map((_, i) => {
-          const rot = (i * 360) / 36;
-          const dist = 180 + (i % 6) * 50;
-          const colors = ["#ec4899", "#a855f7", "#22d3ee", "#facc15", "#34d399", "#f97316"];
-          const color = colors[i % colors.length];
-          const delay = (i * 137) % 2400;
-          const dur = 2400 + ((i * 91) % 1600);
-          return (
-            <span
-              key={i}
-              className="absolute h-2 w-3 rounded-sm"
-              style={{
-                left: 0, top: 0,
-                background: color,
-                ["--c-rot" as never]: `${rot}deg`,
-                ["--c-dist" as never]: `${dist}px`,
-                animation: `tour-confetti ${dur}ms cubic-bezier(0.22, 1, 0.36, 1) ${delay}ms infinite`,
-              }}
-            />
-          );
-        })}
-      </div>
-
-      {/* Orbiting celebration glyphs — same trick the splash uses, rotated
-       * with the celebration-themed icon set so the finale feels alive. */}
-      <div aria-hidden className="pointer-events-none absolute inset-0 z-20">
+      {/* Orbiting celebration glyphs — z-[1] keeps them behind the z-10 center content */}
+      <div aria-hidden className="pointer-events-none absolute inset-0 z-[1]">
         {[0, 1, 2, 3, 4, 5].map((i) => {
           const r = 200 + (i % 3) * 60;
           const dur = 22 + (i % 4) * 6;
@@ -549,29 +559,17 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
       </div>
 
       <div className="relative z-10 max-w-xl text-center">
-        <div className="relative mx-auto mb-8 h-28 w-28">
-          {/* Soft ambient pulse so the orb isn't static. */}
-          <div className={`absolute -inset-2 rounded-full ${c.bg} blur-2xl tour-splash-orb`} style={{ animation: "tour-card-glow 3.6s ease-in-out infinite" }} />
-          <div className={`absolute inset-0 rounded-full ${c.bg} blur-xl tour-splash-orb`} />
-          {/* Spinning dashed ring matching the splash's vibe. Rendered before
-           * the orb so the orb stacks on top — the ring should encircle the
-           * icon, not visually overlap it. */}
-          <div className={`pointer-events-none absolute -inset-3 rounded-full border border-dashed border-current ${c.text} tour-ring-spin opacity-60`} />
-          <div className={`relative flex h-28 w-28 items-center justify-center rounded-full border border-white/10 bg-slate-900/80 backdrop-blur ${c.text} tour-splash-orb`}>
-            <Icon className="h-14 w-14" />
-          </div>
-        </div>
-        <h2 className="mb-4 text-white tour-splash-text" style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
+        <h2 className={`mb-4 tour-splash-text ${titleColor}`} style={{ fontFamily: "'Geist', Georgia, serif", fontSize: 56, lineHeight: 1.02 }}>
           {step.title}
         </h2>
-        <p className="mx-auto max-w-md text-[15px] leading-relaxed text-white/75 tour-splash-text" style={{ animationDelay: "60ms" }}>
+        <p className={`mx-auto max-w-md text-[15px] leading-relaxed tour-splash-text ${bodyColor}`} style={{ animationDelay: "60ms" }}>
           {step.body}
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3 tour-splash-text" style={{ animationDelay: "120ms" }}>
-          <Button variant="outline" onClick={() => onJump("/bank")} className="gap-2 border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white">
+          <Button variant="outline" onClick={() => onJump("/bank")} className={`gap-2 ${outlineBtn}`}>
             <BookOpen className="h-4 w-4" /> Question Bank
           </Button>
-          <Button variant="outline" onClick={() => onJump("/modules")} className="gap-2 border-white/20 bg-white/5 text-white hover:bg-white/10 hover:text-white">
+          <Button variant="outline" onClick={() => onJump("/modules")} className={`gap-2 ${outlineBtn}`}>
             <GraduationCap className="h-4 w-4" /> Practice Tests
           </Button>
           <Button size="lg" onClick={onClose} className="gap-2 px-6">
@@ -579,7 +577,7 @@ const FinaleCard = ({ step, onClose, onJump, index, total }: {
             <Wand2 className="h-4 w-4" />
           </Button>
         </div>
-        <div className="mt-8 text-xs text-white/60 tabular-nums">{index + 1} / {total}</div>
+        <div className={`mt-8 text-xs tabular-nums ${captionColor}`}>{index + 1} / {total}</div>
       </div>
     </div>
   );
@@ -591,12 +589,15 @@ export const OnboardingTour = () => {
   const { user, loading } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
+  const isDark = useThemeMode();
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
   const [rect, setRect] = useState<Rect | null>(null);
+  const [steps, setSteps] = useState<Step[]>(MAIN_STEPS);
+  const [activeTour, setActiveTour] = useState<ActiveTour>("main");
 
-  const step = STEPS[index];
-  const total = STEPS.length;
+  const step = steps[index] ?? steps[0];
+  const total = steps.length;
 
   // Open logic. Two paths to auto-open:
   //   1. `onboarding-pending` flag set right after a fresh signup/verify —
@@ -612,6 +613,10 @@ export const OnboardingTour = () => {
     const creationTime = user.raw?.metadata?.creationTime;
     const isNewAccount = isAccountWithinWindow(creationTime, NEW_ACCOUNT_AUTO_TOUR_WINDOW_MS);
     if (pending === "1" || (!seen && isNewAccount)) {
+      setSteps(MAIN_STEPS);
+      setActiveTour("main");
+      setIndex(0);
+      setRect(null);
       setOpen(true);
       sessionStorage.removeItem("onboarding-pending");
     }
@@ -619,19 +624,42 @@ export const OnboardingTour = () => {
 
   // External replay
   useEffect(() => {
-    const replay = () => { setIndex(0); setRect(null); setOpen(true); };
+    const replay = () => {
+      sessionStorage.removeItem(ONBOARDING_REPLAY_REQUEST_KEY);
+      setSteps(MAIN_STEPS);
+      setActiveTour("main");
+      setIndex(0);
+      setRect(null);
+      setOpen(true);
+    };
+    if (sessionStorage.getItem(ONBOARDING_REPLAY_REQUEST_KEY) === "1") {
+      replay();
+    }
     window.addEventListener("onboarding:replay", replay);
     return () => window.removeEventListener("onboarding:replay", replay);
+  }, []);
+
+  useEffect(() => {
+    const showPracticeSetHelp = () => {
+      sessionStorage.removeItem(PRACTICE_SET_HELP_REQUEST_KEY);
+      setSteps(PRACTICE_SET_STEPS);
+      setActiveTour("practice-set");
+      setIndex(0);
+      setRect(null);
+      setOpen(true);
+    };
+    if (sessionStorage.getItem(PRACTICE_SET_HELP_REQUEST_KEY) === "1") {
+      showPracticeSetHelp();
+    }
+    window.addEventListener("onboarding:practice-set-help", showPracticeSetHelp);
+    return () => window.removeEventListener("onboarding:practice-set-help", showPracticeSetHelp);
   }, []);
 
   // Lock scroll AND tag the body so we can target tour-only CSS adjustments
   // (e.g. crossfading the sidebar's active tab so it eases between items
   // along with the spotlight, instead of snapping).
-  // Also kick off route preloads here so chunks are already in cache when
-  // the user starts clicking Next.
   useEffect(() => {
     if (!open) return;
-    preloadTourRoutes();
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     document.body.classList.add("tour-active");
@@ -641,13 +669,25 @@ export const OnboardingTour = () => {
     };
   }, [open]);
 
+  const hasPreloadedRoutesRef = useRef(false);
+  const preloadRoutesOnce = useCallback(() => {
+    if (hasPreloadedRoutesRef.current) return;
+    hasPreloadedRoutesRef.current = true;
+    preloadTourRoutes();
+  }, []);
+
   const close = useCallback(() => {
-    if (user) localStorage.setItem(tourKey(user.uid), "1");
+    const shouldReturnToBank = activeTour === "main";
+    const shouldReturnToPracticeSets = activeTour === "practice-set";
+    if (shouldReturnToBank && user) localStorage.setItem(tourKey(user.uid), "1");
     setOpen(false);
     setIndex(0);
     setRect(null);
-    if (location.pathname !== "/bank") navigate("/bank");
-  }, [user, location.pathname, navigate]);
+    setSteps(MAIN_STEPS);
+    setActiveTour("main");
+    if (shouldReturnToBank && location.pathname !== "/bank") navigate("/bank");
+    if (shouldReturnToPracticeSets && location.pathname !== "/my-practice-sets") navigate("/my-practice-sets");
+  }, [activeTour, user, location.pathname, navigate]);
 
   // Run leave-cleanup for the previous spotlight step (close any dialog it
   // opened) when the index actually changes. We use a ref-tracked previous
@@ -660,13 +700,13 @@ export const OnboardingTour = () => {
     }
     const prev = prevIndexRef.current;
     if (prev !== null && prev !== index) {
-      const outgoing = STEPS[prev];
-      if (outgoing.kind === "spotlight" && outgoing.clickOnExit) {
+      const outgoing = steps[prev];
+      if (outgoing?.kind === "spotlight" && outgoing.clickOnExit) {
         clickByTour(outgoing.clickOnExit);
       }
     }
     prevIndexRef.current = index;
-  }, [index, open]);
+  }, [index, open, steps]);
 
   // Resolve target rect on each spotlight step. Gated by a ref so HMR /
   // Fast-Refresh re-runs of this effect don't re-click dialog buttons or
@@ -774,7 +814,10 @@ export const OnboardingTour = () => {
     };
   }, [open, step]);
 
-  const next = useCallback(() => setIndex((i) => Math.min(i + 1, total - 1)), [total]);
+  const next = useCallback(() => {
+    if (index === 0) preloadRoutesOnce();
+    setIndex((i) => Math.min(i + 1, total - 1));
+  }, [index, preloadRoutesOnce, total]);
   const prev = useCallback(() => setIndex((i) => Math.max(i - 1, 0)), []);
 
   // Keyboard nav
@@ -816,11 +859,17 @@ export const OnboardingTour = () => {
        * smooth gradient shift rather than a hard cut. */}
       {(() => {
         const reveal = step.kind === "spotlight" && (step as SpotlightStep).revealContent;
-        const dimVar = isNavigating
-          ? "rgba(2, 6, 14, 0.85)"
-          : reveal
-            ? "rgba(2, 6, 14, 0.32)"
-            : "rgba(2, 6, 14, 0.65)";
+        const dimVar = isDark
+          ? (isNavigating
+              ? "rgba(2, 6, 14, 0.85)"
+              : reveal
+                ? "rgba(2, 6, 14, 0.32)"
+                : "rgba(2, 6, 14, 0.65)")
+          : (isNavigating
+              ? "rgba(241, 245, 249, 0.92)"
+              : reveal
+                ? "rgba(15, 23, 42, 0.22)"
+                : "rgba(241, 245, 249, 0.82)");
         const blur = isNavigating ? "blur(14px)" : reveal ? "blur(2px)" : "blur(8px)";
         // Non-spotlight steps OR spotlight steps without a rect still need a
         // full-screen backdrop. Spotlight WITH a rect gets dimming via the
@@ -868,11 +917,17 @@ export const OnboardingTour = () => {
        * so the destination page is fully readable. */}
       {step.kind === "spotlight" && rect && (() => {
         const reveal = (step as SpotlightStep).revealContent;
-        const dimColor = isNavigating
-          ? "rgba(2, 6, 14, 0.85)"
-          : reveal
-            ? "rgba(2, 6, 14, 0.32)"
-            : "rgba(2, 6, 14, 0.65)";
+        const dimColor = isDark
+          ? (isNavigating
+              ? "rgba(2, 6, 14, 0.85)"
+              : reveal
+                ? "rgba(2, 6, 14, 0.32)"
+                : "rgba(2, 6, 14, 0.65)")
+          : (isNavigating
+              ? "rgba(241, 245, 249, 0.92)"
+              : reveal
+                ? "rgba(15, 23, 42, 0.22)"
+                : "rgba(241, 245, 249, 0.82)");
         const TR = "400ms cubic-bezier(0.22, 1, 0.36, 1)";
         const transitionGeom = `left ${TR}, top ${TR}, width ${TR}, height ${TR}`;
         const transitionDim = `box-shadow 400ms cubic-bezier(0.22, 1, 0.36, 1)`;
@@ -907,10 +962,10 @@ export const OnboardingTour = () => {
       {/* Splash / finale stages */}
       <div className="absolute inset-0">
         {step.kind === "splash" && (
-          <SplashCard step={step} onNext={next} onSkip={close} index={index} total={total} />
+          <SplashCard step={step} onNext={next} onSkip={close} index={index} total={total} isDark={isDark} />
         )}
         {step.kind === "finale" && (
-          <FinaleCard step={step} onClose={close} onJump={(p) => { close(); navigate(p); }} index={index} total={total} />
+          <FinaleCard step={step} onClose={close} onJump={(p) => { close(); navigate(p); }} index={index} total={total} isDark={isDark} />
         )}
       </div>
 

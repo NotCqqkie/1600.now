@@ -127,13 +127,15 @@ export const MultipleChoiceQuestion = ({
         const showCorrect = wasChecked && checkedAnswers[choice.id] === true;
         const showIncorrect = wasChecked && checkedAnswers[choice.id] === false;
         const hasImage = Boolean(choice.image);
+        const shouldReserveInlineCheck = Boolean(onCheck) && !hasCorrectAnswerLocked;
+        const canInlineCheck = shouldReserveInlineCheck && !wasChecked;
         
         if (isStruckOut) {
           return (
-            <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
+            <div key={choice.id} className={cn("relative flex min-w-0 items-center gap-2", strikeoutMode && "pr-14")}>
               <div
                 className={cn(
-                  "flex-1 flex gap-3 rounded-xl border-2 border-border bg-muted/30 p-3 sm:p-4 cursor-pointer hover:bg-muted/50 transition-colors",
+                  "flex min-w-0 flex-1 gap-3 rounded-xl border-2 border-border bg-muted/30 p-3 sm:p-4 cursor-pointer hover:bg-muted/50 transition-colors",
                   hasImage ? "items-start" : "items-center"
                 )}
                 onClick={(e) => {
@@ -151,7 +153,7 @@ export const MultipleChoiceQuestion = ({
                   {choice.id}
                 </div>
                 
-                <div className="flex-1 relative overflow-wrap-anywhere">
+                <div className="relative min-w-0 flex-1 overflow-wrap-anywhere">
                   {renderChoiceContent(choice, true)}
                 </div>
               </div>
@@ -175,14 +177,15 @@ export const MultipleChoiceQuestion = ({
         const isLocked = wasChecked || hasCorrectAnswerLocked;
         
         return (
-          <div key={choice.id} className={cn("relative flex items-center gap-2", strikeoutMode && "pr-14")}>
+          <div key={choice.id} className={cn("relative flex min-w-0 items-center gap-2", strikeoutMode && "pr-14")}>
             <div
               className={cn(
-                "group flex-1 flex gap-3 rounded-xl border-2 border-border p-3 sm:p-4 transition-colors",
+                "group relative flex min-w-0 flex-1 gap-3 rounded-xl border-2 border-border p-3 sm:p-4 transition-colors",
+                shouldReserveInlineCheck && "md:pr-28",
                 hasImage ? "items-start" : "items-center",
                 !isLocked && "hover:bg-muted/50 cursor-pointer",
                 isLocked && "cursor-not-allowed opacity-80",
-                isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5",
+                isSelected && !showCorrect && !showIncorrect && "border-primary bg-primary/5 hover:bg-primary/10 dark:bg-primary/10 dark:hover:bg-primary/15",
                 showCorrect && "border-[#1B5E20] bg-[#C8E6C9]/20 dark:border-[#2E7D32] dark:bg-[#1B5E20]/20",
                 showIncorrect && "border-[#B71C1C] bg-[#FFCDD2]/20 dark:border-[#8B0000] dark:bg-[#5C1010]/20"
               )}
@@ -210,30 +213,30 @@ export const MultipleChoiceQuestion = ({
                 {choice.id}
               </div>
               
-              <div className="flex-1 break-words overflow-wrap-anywhere">
+              <div className="min-w-0 flex-1 break-words overflow-wrap-anywhere">
                 {renderChoiceContent(choice)}
               </div>
 
-              {onCheck && (
-                <div className="ml-2 hidden w-[84px] shrink-0 justify-end self-center md:flex">
-                  {!wasChecked && !hasCorrectAnswerLocked ? (
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className={cn(
-                        "px-4 transition-opacity",
-                        isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-                      )}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        onCheck(choice.id);
-                      }}
-                    >
-                      Check
-                    </Button>
-                  ) : (
-                    <span aria-hidden="true" className="h-9 w-full opacity-0" />
+              {canInlineCheck && (
+                <div
+                  className={cn(
+                    "pointer-events-none absolute right-3 top-1/2 z-10 hidden -translate-y-1/2 md:flex",
+                    isSelected
+                      ? "opacity-100"
+                      : "opacity-0 transition-opacity group-hover:opacity-100 group-focus-within:opacity-100",
                   )}
+                >
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="pointer-events-auto px-4"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onCheck(choice.id);
+                    }}
+                  >
+                    Check
+                  </Button>
                 </div>
               )}
             </div>

@@ -1,10 +1,12 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronUp, ChevronDown } from "lucide-react";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import {
   getCachedExplanation,
+  normalizeExplanationData,
   type ExplanationData,
   type ExplanationStep,
 } from "@/lib/explanationApi";
@@ -36,7 +38,7 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
   const [animKey, setAnimKey] = useState(0);
 
   useEffect(() => {
-    const cached = getCachedExplanation(questionId);
+    const cached = normalizeExplanationData(getCachedExplanation(questionId));
     if (cached) {
       setData(cached);
       setRevealedUpTo(0);
@@ -49,9 +51,19 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
     const id = questionId;
     fetch(`/explanations/${questionId}.json`)
       .then(r => r.ok ? r.json() : null)
-      .then(json => { if (json?.steps && id === questionId) setData(json); })
+      .then(json => {
+        const normalized = normalizeExplanationData(json);
+        if (normalized && id === questionId) setData(normalized);
+      })
       .catch(() => {});
   }, [questionId]);
+
+  // Auto-step mode for the homepage iframe demo. When the URL has
+  // `autoStep=1`, advance through all steps automatically, then halt on the
+  // last one. Manual clicks of Next/Back stop the auto-cycle.
+  const [searchParams] = useSearchParams();
+  const autoStep = searchParams.get("autoStep") === "1";
+  const userTookOverRef = useRef(false);
 
   const goToStep = useCallback((target: number, dir: 1 | -1) => {
     setDirection(dir);
@@ -61,6 +73,7 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
 
   const handleNext = useCallback(() => {
     if (!data) return;
+    userTookOverRef.current = true;
     if (currentStep < revealedUpTo) {
       goToStep(currentStep + 1, 1);
     } else if (revealedUpTo < data.steps.length - 1) {
@@ -72,17 +85,28 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
 
   const handlePrev = useCallback(() => {
     if (currentStep > 0) {
+      userTookOverRef.current = true;
       goToStep(currentStep - 1, -1);
     }
   }, [currentStep, goToStep]);
 
+  useEffect(() => {
+    if (!data || !autoStep || userTookOverRef.current) return;
+    if (currentStep >= data.steps.length - 1) return;
+    const t = setTimeout(() => {
+      if (userTookOverRef.current) return;
+      setRevealedUpTo((prev) => Math.max(prev, currentStep + 1));
+      goToStep(currentStep + 1, 1);
+    }, 1400);
+    return () => clearTimeout(t);
+  }, [data, autoStep, currentStep, goToStep]);
 
-  if (!data) return null;
+  if (!data || data.steps.length === 0) return null;
 
   const totalSteps = data.steps.length;
   const isAllRevealed = revealedUpTo >= totalSteps - 1;
   const isOnLastRevealed = currentStep === revealedUpTo;
-  const step = data.steps[currentStep];
+  const step = data.steps[Math.min(currentStep, totalSteps - 1)];
 
   return (
     <div className="flex flex-col h-full">
@@ -150,8 +174,8 @@ export function StepByStepExplanation({ questionId, question }: StepByStepExplan
 }
 
 // ── Strip reasoning artifacts from LLM output ──────────────────────
-function cleanStepContent(raw: string): string {
-  let s = raw;
+function cleanStepContent(raw: unknown): string {
+  let s = typeof raw === "string" ? raw : "";
   s = s.replace(/<think>[\s\S]*?<\/think>/gi, "");
   s = s.replace(/<\/?think>/gi, "");
   s = s.replace(/(?:^|\n)>\s*(?:Reasoning|Think|Note to self|Internal)[^\n]*/gi, "");
@@ -170,7 +194,8 @@ function cleanStepContent(raw: string): string {
 function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; stepIndex: number; totalSteps: number }) {
   const cleaned = cleanStepContent(step.content);
   const contentHtml = renderMixedContent(cleaned, { convertTexLineBreaks: false });
-  const titleHtml = renderMixedContent(step.title.replace(/^Step\s*\d+\s*:\s*/i, ""), { convertTexLineBreaks: false });
+  const title = typeof step.title === "string" ? step.title : `Step ${stepIndex + 1}`;
+  const titleHtml = renderMixedContent(title.replace(/^Step\s*\d+\s*:\s*/i, ""), { convertTexLineBreaks: false });
 
   return (
     <div className="space-y-2">

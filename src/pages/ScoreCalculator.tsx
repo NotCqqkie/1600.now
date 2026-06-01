@@ -270,7 +270,7 @@ const SubjectPanel = ({
             margin: 0,
           }}
         >
-          {label} raw
+          {label}
         </h2>
       </div>
 
@@ -446,28 +446,12 @@ const ScoreSummaryCard = ({
                     fontSize: "clamp(40px, 5vw, 64px)",
                     lineHeight: 1,
                     color: scores.totalColor,
-                    marginBottom: 8,
                     transition: SCORE_TRANSITION,
                     "--score-glow": `${scores.totalColor}55`,
                   } as CSSProperties
                 }
               >
                 {scores.total}
-              </div>
-              {/* Caption — Inter 600, 10px, +16% tracking. Tightened so it
-                  still fits across the inner ring at any score length. */}
-              <div
-                style={{
-                  fontFamily: "'Inter', sans-serif",
-                  fontSize: 10,
-                  color: "rgb(var(--ink-muted))",
-                  textTransform: "uppercase",
-                  letterSpacing: "0.16em",
-                  fontWeight: 600,
-                  lineHeight: 1,
-                }}
-              >
-                Predicted SAT
               </div>
             </div>
           </div>

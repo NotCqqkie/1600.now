@@ -1,7 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useAuth } from '@/contexts/AuthContext';
-import { db } from '@/lib/firebase/firebaseDb';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
 import {
   applyPersonalizationPreferences,
   getPersonalizationPreferences,
@@ -13,6 +11,28 @@ const VOCAB_KEY_PREFIX = 'vocabProgress:';
 const LEGACY_PROGRESS_KEY = 'userProgress';
 const LEGACY_VOCAB_KEY = 'vocab-progress';
 const ANON_SUFFIX = 'anon';
+
+const importFirestoreDependencies = async () => {
+  const [firebaseDb, firestore] = await Promise.all([
+    import('@/lib/firebase/firebaseDb'),
+    import('firebase/firestore'),
+  ]);
+  return {
+    db: firebaseDb.db,
+    doc: firestore.doc,
+    getDoc: firestore.getDoc,
+    setDoc: firestore.setDoc,
+  };
+};
+
+let firestoreDependenciesPromise: Promise<Awaited<ReturnType<typeof importFirestoreDependencies>>> | null = null;
+
+const loadFirestoreDependencies = () => {
+  if (!firestoreDependenciesPromise) {
+    firestoreDependenciesPromise = importFirestoreDependencies();
+  }
+  return firestoreDependenciesPromise;
+};
 
 export const progressStorageKey = (uid: string | null | undefined) =>
   `${PROGRESS_KEY_PREFIX}${uid ?? ANON_SUFFIX}`;
@@ -206,12 +226,16 @@ export const useUserProgress = () => {
   // On login, sync with Firestore and (once per session per user) merge any
   // anonymous-session data into the account.
   useEffect(() => {
-    if (!user || !db) return;
+    if (!user) return;
+    let cancelled = false;
 
     const fetchProgress = async () => {
       try {
+        const { db, doc, getDoc, setDoc } = await loadFirestoreDependencies();
+        if (cancelled || !db) return;
         const progressRef = doc(db, 'user_progress', user.id);
         const progressSnap = await getDoc(progressRef);
+        if (cancelled) return;
         const remote = progressSnap.data() as
           | {
               data?: Record<string, QuestionProgress>;
@@ -284,11 +308,17 @@ export const useUserProgress = () => {
     };
 
     fetchProgress();
+
+    return () => {
+      cancelled = true;
+    };
   }, [user]);
 
   const persist = useCallback(async (newProgress: Record<string, QuestionProgress>) => {
     localStorage.setItem(progressStorageKey(uid), JSON.stringify(newProgress));
-    if (user && db) {
+    if (user) {
+      const { db, doc, setDoc } = await loadFirestoreDependencies();
+      if (!db) return;
       const progressRef = doc(db, 'user_progress', user.id);
       await setDoc(progressRef, { user_id: user.id, data: newProgress }, { merge: true });
     }
@@ -303,7 +333,9 @@ export const useUserProgress = () => {
     const empty = {};
     setProgress(empty);
     localStorage.setItem(progressStorageKey(uid), JSON.stringify(empty));
-    if (user && db) {
+    if (user) {
+        const { db, doc, setDoc } = await loadFirestoreDependencies();
+        if (!db) return;
         const progressRef = doc(db, 'user_progress', user.id);
         await setDoc(progressRef, { user_id: user.id, data: empty }, { merge: true });
     }

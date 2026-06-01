@@ -26,6 +26,8 @@ const GoogleIcon = () => (
   </svg>
 );
 
+const isValidEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -171,7 +173,7 @@ const Login = () => {
                 />
               </div>
               {/* Submit — Inter 600, 15px, ink on accent, full-width, sentence-case. */}
-              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading}>
+              <Button type="submit" className="w-full cursor-pointer" disabled={isSubmitting || authLoading || !isValidEmail(email) || !password}>
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Log in
               </Button>
@@ -218,7 +220,7 @@ const Login = () => {
               >
                 Cancel
               </Button>
-              <Button type="submit" disabled={resetSubmitting || !resetEmail.trim()}>
+              <Button type="submit" disabled={resetSubmitting || !isValidEmail(resetEmail)}>
                 {resetSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 Send reset link
               </Button>

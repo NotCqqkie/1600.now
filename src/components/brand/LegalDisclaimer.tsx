@@ -11,6 +11,8 @@ export const LegalDisclaimer = () => {
         <span aria-hidden="true">·</span>
         <Link to="/terms" className="hover:text-muted-foreground/70 hover:underline">Terms</Link>
         <span aria-hidden="true">·</span>
+        <Link to="/sat-resources" className="hover:text-muted-foreground/70 hover:underline">Resources</Link>
+        <span aria-hidden="true">·</span>
         <a href="mailto:info@1600.now" className="hover:text-muted-foreground/70 hover:underline">Contact</a>
       </div>
     </div>

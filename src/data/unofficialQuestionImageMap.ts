@@ -10,10 +10,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/7b52985c_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/7b52985c_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -53,7 +49,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c4ea43ef_q_01.png",
-        "alt": "The figure presents the graph of a line in a coordinate plane, with the origin labeled O. The horizontal axis is labeled “Number of hours at job A,” and the numbers 5 through 20, in increments of 5, are indicated. The vertical axis is labeled “Number of hours at job B,” and the numbers 5 and 10 are indicated. The line begins on the vertical axis at 8, and slants downward and to the right until it ends on the horizontal axis at 16."
+        "alt": "The figure presents the graph of a line in a coordinate plane, with the origin labeled O. The horizontal axis is labeled \u201cNumber of hours at job A,\u201d and the numbers 5 through 20, in increments of 5, are indicated. The vertical axis is labeled \u201cNumber of hours at job B,\u201d and the numbers 5 and 10 are indicated. The line begins on the vertical axis at 8, and slants downward and to the right until it ends on the horizontal axis at 16."
       }
     ]
   },
@@ -283,7 +279,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b680e76d_q_01.png",
-        "alt": "The figure presents a 3-column table with 2 rows of data. The first column has no heading. The heading for the second column is “Males,” and the heading for the third column is “Females.” The data are as follows. \n\nRow 1. Play a school sport: Males, 312; Females, 220.\nRow 2. Do not play a school sport: Males, question mark; Females, 216.\n"
+        "alt": "The figure presents a 3-column table with 2 rows of data. The first column has no heading. The heading for the second column is \u201cMales,\u201d and the heading for the third column is \u201cFemales.\u201d The data are as follows. \n\nRow 1. Play a school sport: Males, 312; Females, 220.\nRow 2. Do not play a school sport: Males, question mark; Females, 216.\n"
       }
     ]
   },
@@ -499,7 +495,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/11e1ab81_q_01.png",
-        "alt": "The figure presents the graph of a line in the coordinate plane. The horizontal m-axis is labeled “Time, in minutes,” and the numbers 0 through 7 are indicated. The vertical d-axis is labeled “Distance traveled, in feet,” and the numbers 0 through 7 are indicated. The line passes through the points with coordinates 1 comma 2 and 3 comma 6."
+        "alt": "The figure presents the graph of a line in the coordinate plane. The horizontal m-axis is labeled \u201cTime, in minutes,\u201d and the numbers 0 through 7 are indicated. The vertical d-axis is labeled \u201cDistance traveled, in feet,\u201d and the numbers 0 through 7 are indicated. The line passes through the points with coordinates 1 comma 2 and 3 comma 6."
       }
     ]
   },
@@ -523,7 +519,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9d88a3e3_q_01.png",
-        "alt": "The figure presents a graph of 5 line segments titled “Theresa’s Running Speed and Time.” The horizontal axis is labeled “Time,” in minutes, and the numbers zero through 30, in increments of 5, are indicated. The vertical axis is labeled “Speed,” in miles per hour, and the numbers zero through 8 are indicated. \n\nThe first line segment begins at the point with coordinates zero minutes, zero miles per hour, and moves steeply upward and to the right to the point with coordinates 5 minutes, 7 miles per hour. The second line segment begins where the first line segment ends and moves horizontally and to the right to the point with coordinates 10 minutes, 7 miles per hour. The third line segment begins where the second line segment ends and moves gradually downward and to the right to the point with coordinates 20 minutes, 5 miles per hour. The fourth line segment begins where the third line segment ends and moves sharply upward and to the right to the point with coordinates 25 minutes, 8 miles per hour. The fifth line segment begins where the fourth line segment ends and moves steeply downward and to the right to the horizontal axis, ending at the point with coordinates 30 minutes, zero miles per hour. \n"
+        "alt": "The figure presents a graph of 5 line segments titled \u201cTheresa\u2019s Running Speed and Time.\u201d The horizontal axis is labeled \u201cTime,\u201d in minutes, and the numbers zero through 30, in increments of 5, are indicated. The vertical axis is labeled \u201cSpeed,\u201d in miles per hour, and the numbers zero through 8 are indicated. \n\nThe first line segment begins at the point with coordinates zero minutes, zero miles per hour, and moves steeply upward and to the right to the point with coordinates 5 minutes, 7 miles per hour. The second line segment begins where the first line segment ends and moves horizontally and to the right to the point with coordinates 10 minutes, 7 miles per hour. The third line segment begins where the second line segment ends and moves gradually downward and to the right to the point with coordinates 20 minutes, 5 miles per hour. The fourth line segment begins where the third line segment ends and moves sharply upward and to the right to the point with coordinates 25 minutes, 8 miles per hour. The fifth line segment begins where the fourth line segment ends and moves steeply downward and to the right to the horizontal axis, ending at the point with coordinates 30 minutes, zero miles per hour. \n"
       }
     ]
   },
@@ -619,7 +615,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/374b18f9_q_01.png",
-        "alt": "The figure presents a box plot titled “Acres of useful timberland.” The numbers 1,000 through 14,000, in increments of 1,000, are indicated on the horizontal axis. The data represented by the box plot are as follows. Note that all values are approximate. In the box plot, the left whisker extends from 1,100 to 4,500; the box extends from 4,500 to 10,500; a vertical line segment at 7,100 divides the box into 2 parts; and the right whisker extends from 10,500 to 13,300."
+        "alt": "The figure presents a box plot titled \u201cAcres of useful timberland.\u201d The numbers 1,000 through 14,000, in increments of 1,000, are indicated on the horizontal axis. The data represented by the box plot are as follows. Note that all values are approximate. In the box plot, the left whisker extends from 1,100 to 4,500; the box extends from 4,500 to 10,500; a vertical line segment at 7,100 divides the box into 2 parts; and the right whisker extends from 10,500 to 13,300."
       }
     ]
   },
@@ -659,7 +655,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a6b2fcce_q_01.png",
-        "alt": "The figure presents a line graph titled “Number of 3 D Movies Released by Year.” The horizontal axis is labeled “Year,” and the years 2003 through 2011 are indicated. The vertical axis is labeled “Number of 3 D movies released,” and the numbers 0 through 50, in increments of 10, are indicated. The data, represented by 9 points on the graph, are as follows. Note that all values are approximate.\r\n\r\n2003, 2 movies.\r\n2004, 2 movies.\r\n2005, 6 movies.\r\n2006, 8 movies.\r\n2007, 6 movies.\r\n2008, 8 movies.\r\n2009, 20 movies.\r\n2010, 26 movies.\r\n2011, 46 movies.\r\n"
+        "alt": "The figure presents a line graph titled \u201cNumber of 3 D Movies Released by Year.\u201d The horizontal axis is labeled \u201cYear,\u201d and the years 2003 through 2011 are indicated. The vertical axis is labeled \u201cNumber of 3 D movies released,\u201d and the numbers 0 through 50, in increments of 10, are indicated. The data, represented by 9 points on the graph, are as follows. Note that all values are approximate.\r\n\r\n2003, 2 movies.\r\n2004, 2 movies.\r\n2005, 6 movies.\r\n2006, 8 movies.\r\n2007, 6 movies.\r\n2008, 8 movies.\r\n2009, 20 movies.\r\n2010, 26 movies.\r\n2011, 46 movies.\r\n"
       }
     ]
   },
@@ -897,7 +893,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3c5b19ef_q_01.png",
-        "alt": "The figure presents a scatterplot titled “Railroad Museum Visitors.” The horizontal axis is labeled “Years since 1968,” and the numbers 0 through 15, in increments of 5, are indicated. The vertical axis is labeled “Annual visitors,” and the numbers 0 through 80,000, in increments of 20,000, are indicated. There are 13 data points indicated on the scatterplot. The data points begin at the point with approximate coordinates 0 comma 5,000, and trend upward and to the right until they end at the point with approximate coordinates 12 comma 75,000. A line of best fit is drawn. The line begins at the point with approximate coordinates 0 comma 16,000, and slants upward and to the right. It passes through the point with approximate coordinates 5 comma 40,000, and continues upward until it ends at the point with approximate coordinates 12 comma 74,000."
+        "alt": "The figure presents a scatterplot titled \u201cRailroad Museum Visitors.\u201d The horizontal axis is labeled \u201cYears since 1968,\u201d and the numbers 0 through 15, in increments of 5, are indicated. The vertical axis is labeled \u201cAnnual visitors,\u201d and the numbers 0 through 80,000, in increments of 20,000, are indicated. There are 13 data points indicated on the scatterplot. The data points begin at the point with approximate coordinates 0 comma 5,000, and trend upward and to the right until they end at the point with approximate coordinates 12 comma 75,000. A line of best fit is drawn. The line begins at the point with approximate coordinates 0 comma 16,000, and slants upward and to the right. It passes through the point with approximate coordinates 5 comma 40,000, and continues upward until it ends at the point with approximate coordinates 12 comma 74,000."
       }
     ]
   },
@@ -929,7 +925,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/74dee52b_q_01.png",
-        "alt": "The figure presents a line graph. The horizontal axis is labeled “Graduating class year,” and the years 2000 through 2008, in increments of 2 years, are indicated. The vertical axis is labeled “Number of graduates who enrolled in college,” and the numbers 0 through 300, in increments of 50, are indicated. There are 7 data points indicated on the graph. The 7 data points represent the number of graduates from each of the classes from 2001 through 2007. The data represented by the 7 data points are as follows. Note that all numbers of graduates are approximate.\n\nYear, 2001. Number of graduates, 225.\nYear, 2002. Number of graduates, 220.\nYear, 2003. Number of graduates, 240.\nYear, 2004. Number of graduates, 260.\nYear, 2005. Number of graduates, 280.\nYear, 2006. Number of graduates, 255.\nYear, 2007. Number of graduates, 275.\n"
+        "alt": "The figure presents a line graph. The horizontal axis is labeled \u201cGraduating class year,\u201d and the years 2000 through 2008, in increments of 2 years, are indicated. The vertical axis is labeled \u201cNumber of graduates who enrolled in college,\u201d and the numbers 0 through 300, in increments of 50, are indicated. There are 7 data points indicated on the graph. The 7 data points represent the number of graduates from each of the classes from 2001 through 2007. The data represented by the 7 data points are as follows. Note that all numbers of graduates are approximate.\n\nYear, 2001. Number of graduates, 225.\nYear, 2002. Number of graduates, 220.\nYear, 2003. Number of graduates, 240.\nYear, 2004. Number of graduates, 260.\nYear, 2005. Number of graduates, 280.\nYear, 2006. Number of graduates, 255.\nYear, 2007. Number of graduates, 275.\n"
       }
     ]
   },
@@ -1063,7 +1059,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/fa7a0164_q_01.png",
-        "alt": "The figure presents a 6-column table, with two rows of data, titled “Temperatures in Houston, Texas,” in degrees Fahrenheit. The first column has no heading. Columns 2 through 6 have the following headings: Monday, Tuesday, Wednesday, Thursday, and Friday, respectively. The 2 rows of data are as follows. \nRow 1. High temperature, in degrees Fahrenheit, for Monday through Friday, respectively: 73, 56, 62, 75, 81.\nRow 2. Low temperature, in degrees Fahrenheit, for Monday through Friday, respectively: 49, 37, 41, 54, 63.\n"
+        "alt": "The figure presents a 6-column table, with two rows of data, titled \u201cTemperatures in Houston, Texas,\u201d in degrees Fahrenheit. The first column has no heading. Columns 2 through 6 have the following headings: Monday, Tuesday, Wednesday, Thursday, and Friday, respectively. The 2 rows of data are as follows. \nRow 1. High temperature, in degrees Fahrenheit, for Monday through Friday, respectively: 73, 56, 62, 75, 81.\nRow 2. Low temperature, in degrees Fahrenheit, for Monday through Friday, respectively: 49, 37, 41, 54, 63.\n"
       }
     ]
   },
@@ -1352,7 +1348,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c9dd92b1_q_01.png",
-        "alt": "The figure presents a scatterplot titled “Density of Grape Juice.” The horizontal axis is labeled “Concentration,” and the percents 20 percent through 80 percent, in increments of 10 percent, are indicated. The vertical axis is labeled “Density, in kilograms per cubic meter,” and the numbers 1,000 through 1,400, in increments of 50, are indicated. There are 10 data points that begin in the lower left part of the scatterplot and trend upward and to the right. The data represented by the points are as follows. Note that all values are approximate.\nConcentration, 23 percent. Density, 1,100 kilograms per cubic meter.\nConcentration, 27 percent. Density, 1,110 kilograms per cubic meter.\nConcentration, 32 percent. Density, 1,125 kilograms per cubic meter.\nConcentration, 35 percent. Density, 1,150 kilograms per cubic meter.\nConcentration, 42 percent. Density, 1,190 kilograms per cubic meter.\nConcentration, 45 percent. Density, 1,210 kilograms per cubic meter.\nConcentration, 51 percent. Density, 1,240 kilograms per cubic meter.\nConcentration, 54 percent. Density, 1,260 kilograms per cubic meter.\nConcentration, 67 percent. Density, 1,345 kilograms per cubic meter.\nConcentration, 71 percent. Density, 1,360 kilograms per cubic meter.\n"
+        "alt": "The figure presents a scatterplot titled \u201cDensity of Grape Juice.\u201d The horizontal axis is labeled \u201cConcentration,\u201d and the percents 20 percent through 80 percent, in increments of 10 percent, are indicated. The vertical axis is labeled \u201cDensity, in kilograms per cubic meter,\u201d and the numbers 1,000 through 1,400, in increments of 50, are indicated. There are 10 data points that begin in the lower left part of the scatterplot and trend upward and to the right. The data represented by the points are as follows. Note that all values are approximate.\nConcentration, 23 percent. Density, 1,100 kilograms per cubic meter.\nConcentration, 27 percent. Density, 1,110 kilograms per cubic meter.\nConcentration, 32 percent. Density, 1,125 kilograms per cubic meter.\nConcentration, 35 percent. Density, 1,150 kilograms per cubic meter.\nConcentration, 42 percent. Density, 1,190 kilograms per cubic meter.\nConcentration, 45 percent. Density, 1,210 kilograms per cubic meter.\nConcentration, 51 percent. Density, 1,240 kilograms per cubic meter.\nConcentration, 54 percent. Density, 1,260 kilograms per cubic meter.\nConcentration, 67 percent. Density, 1,345 kilograms per cubic meter.\nConcentration, 71 percent. Density, 1,360 kilograms per cubic meter.\n"
       }
     ]
   },
@@ -1377,7 +1373,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5c24c861_q_01.png",
-        "alt": "The figure presents a graph in the x y-plane titled “Vehicle Stopping Distance.” The x-axis is labeled “Speed, in miles per hour,” and the numbers zero through 80, in increments of 20, are indicated. The y-axis is labeled “Stopping Distance, in feet” and the numbers zero through 350, in increments of 50, are indicated. In the graph, there are six data points indicated from left to right with each point strictly to the right and above the preceding point. From left to right, the approximate coordinates of the six points are as follows. \n\nPoint 1: 20 comma 40.\nPoint 2: 30 comma 75.\nPoint 3: 40 comma 120.\nPoint 4: 50 comma 185.\nPoint 5: 60 comma 240.\nPoint 6: 70 comma 315.\n\nA quadratic curve is shown on the graph. The curve begins at point 1 and curves upward and to the right, passing through point 2 and point 3. It then passes slightly below point 4 and slightly above point 5, ending at point 6.\n"
+        "alt": "The figure presents a graph in the x y-plane titled \u201cVehicle Stopping Distance.\u201d The x-axis is labeled \u201cSpeed, in miles per hour,\u201d and the numbers zero through 80, in increments of 20, are indicated. The y-axis is labeled \u201cStopping Distance, in feet\u201d and the numbers zero through 350, in increments of 50, are indicated. In the graph, there are six data points indicated from left to right with each point strictly to the right and above the preceding point. From left to right, the approximate coordinates of the six points are as follows. \n\nPoint 1: 20 comma 40.\nPoint 2: 30 comma 75.\nPoint 3: 40 comma 120.\nPoint 4: 50 comma 185.\nPoint 5: 60 comma 240.\nPoint 6: 70 comma 315.\n\nA quadratic curve is shown on the graph. The curve begins at point 1 and curves upward and to the right, passing through point 2 and point 3. It then passes slightly below point 4 and slightly above point 5, ending at point 6.\n"
       }
     ]
   },
@@ -1554,7 +1550,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c651cc56_q_01.png",
-        "alt": "The figure presents a 2-column table, with 3 rows of data. The heading for the first column is “x,” and the heading for the second column is “f of x.” The 3 rows of data are as follows. \r\nRow 1. x, zero; f of x, negative 2. \r\nRow 2. x, 2; f of x, 4.\r\nRow 3. x, 6; f of x, 16.\r\n"
+        "alt": "The figure presents a 2-column table, with 3 rows of data. The heading for the first column is \u201cx,\u201d and the heading for the second column is \u201cf of x.\u201d The 3 rows of data are as follows. \r\nRow 1. x, zero; f of x, negative 2. \r\nRow 2. x, 2; f of x, 4.\r\nRow 3. x, 6; f of x, 16.\r\n"
       }
     ]
   },
@@ -1587,7 +1583,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ebe4bde0_q_01.png",
-        "alt": "The figure presents the graph of a curve. The x axis is labeled “Elevation, in meters,” and the numbers 0 through 3,000, in increments of 500, are indicated. There are vertical gridlines drawn in between. The y axis is labeled “Measure of plant diversity,” and the numbers 0 through 14,000, in increments of 2,000, are indicated. The curve begins on the vertical axis at a point slightly above 10,000. The curve moves upward and to the right until it reaches its maximum at the point with coordinates 1,250 comma 13,000. Then the curve moves downward and to the right until it ends at 3,500 on the horizontal axis."
+        "alt": "The figure presents the graph of a curve. The x axis is labeled \u201cElevation, in meters,\u201d and the numbers 0 through 3,000, in increments of 500, are indicated. There are vertical gridlines drawn in between. The y axis is labeled \u201cMeasure of plant diversity,\u201d and the numbers 0 through 14,000, in increments of 2,000, are indicated. The curve begins on the vertical axis at a point slightly above 10,000. The curve moves upward and to the right until it reaches its maximum at the point with coordinates 1,250 comma 13,000. Then the curve moves downward and to the right until it ends at 3,500 on the horizontal axis."
       }
     ]
   },
@@ -1627,11 +1623,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d6121490_q_01.png",
-        "alt": "The figure presents the graph of a curve in a coordinate plane, titled “Braking Distance versus Speed.” The horizontal axis is labeled “Speed, in miles per hour,” and the numbers 0 through 80, in increments of 20, are indicated. The vertical axis is labeled “Braking distance, in feet,” and the numbers 0 through 600, in increments of 100, are indicated. Note that all of the following coordinate values are approximate. The graph starts at the origin, and moves steadily upward and to the right, passing through the point with coordinates 20 comma 50, the point with coordinates 40 comma 150, and the point with coordinates 60 comma 300. The graph then goes upward more rapidly as it moves to the right and ends approximately at the point with coordinates 80 comma 600."
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/d6121490_q_02.png",
-        "alt": ""
+        "alt": "The figure presents the graph of a curve in a coordinate plane, titled \u201cBraking Distance versus Speed.\u201d The horizontal axis is labeled \u201cSpeed, in miles per hour,\u201d and the numbers 0 through 80, in increments of 20, are indicated. The vertical axis is labeled \u201cBraking distance, in feet,\u201d and the numbers 0 through 600, in increments of 100, are indicated. Note that all of the following coordinate values are approximate. The graph starts at the origin, and moves steadily upward and to the right, passing through the point with coordinates 20 comma 50, the point with coordinates 40 comma 150, and the point with coordinates 60 comma 300. The graph then goes upward more rapidly as it moves to the right and ends approximately at the point with coordinates 80 comma 600."
       }
     ]
   },
@@ -1671,7 +1663,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/28c6bd8c_q_01.png",
-        "alt": "The figure presents a 2-column table, with 6 rows of data, titled “Where Do People Get Most of Their Medical Information?” The heading for the first column is “Source,” and the heading for the second column is “Percent of those surveyed.” The 6 rows of data are as follows. \r\nRow 1. Doctor, 63 percent.\r\nRow 2. Internet, 13 percent.\r\nRow 3. Magazines / brochures, 9 percent.\r\nRow 4. Pharmacy, 6 percent.\r\nRow 5. Television, 2 percent.\r\nRow 6. Other / none of the above, 7 percent.\r\n"
+        "alt": "The figure presents a 2-column table, with 6 rows of data, titled \u201cWhere Do People Get Most of Their Medical Information?\u201d The heading for the first column is \u201cSource,\u201d and the heading for the second column is \u201cPercent of those surveyed.\u201d The 6 rows of data are as follows. \r\nRow 1. Doctor, 63 percent.\r\nRow 2. Internet, 13 percent.\r\nRow 3. Magazines / brochures, 9 percent.\r\nRow 4. Pharmacy, 6 percent.\r\nRow 5. Television, 2 percent.\r\nRow 6. Other / none of the above, 7 percent.\r\n"
       }
     ]
   },
@@ -1687,7 +1679,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3d985614_q_01.png",
-        "alt": "The figure presents a scatterplot. The horizontal axis is labeled “High jump height, in feet,” and the numbers 0 through 6, in increments of 1, are indicated. The vertical axis is labeled “Long jump distance, in feet,” and the numbers 0 through 20, in increments of 2, are indicated. There are 20 dots indicated on the scatterplot. The dots begin in the lower left part of the plane, at the dot with coordinates 1 comma 2, and trend upward and to the right until they end in the upper right part of the plane, at the dot with coordinates 5 comma 15."
+        "alt": "The figure presents a scatterplot. The horizontal axis is labeled \u201cHigh jump height, in feet,\u201d and the numbers 0 through 6, in increments of 1, are indicated. The vertical axis is labeled \u201cLong jump distance, in feet,\u201d and the numbers 0 through 20, in increments of 2, are indicated. There are 20 dots indicated on the scatterplot. The dots begin in the lower left part of the plane, at the dot with coordinates 1 comma 2, and trend upward and to the right until they end in the upper right part of the plane, at the dot with coordinates 5 comma 15."
       }
     ]
   },
@@ -1727,7 +1719,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9d935bd8_q_01.png",
-        "alt": "The figure presents a 2-column table, with 7 rows of data, titled “Percent of Residents Who Earned a Bachelor’s Degree or Higher.” The heading for the first column is “State,” and the heading for the second column is “Percent of residents.” The 7 rows of data are as follows.\n\nRow 1. State A; 21 point 9 percent.\nRow 2. State B; 27 point 9 percent.\nRow 3. State C; 25 point 9 percent.\nRow 4. State D; 19 point 5 percent.\nRow 5. State E; 30 point 1 percent.\nRow 6. State F; 36 point 4 percent.\nRow 7. State G; 35 point 5 percent.\n"
+        "alt": "The figure presents a 2-column table, with 7 rows of data, titled \u201cPercent of Residents Who Earned a Bachelor\u2019s Degree or Higher.\u201d The heading for the first column is \u201cState,\u201d and the heading for the second column is \u201cPercent of residents.\u201d The 7 rows of data are as follows.\n\nRow 1. State A; 21 point 9 percent.\nRow 2. State B; 27 point 9 percent.\nRow 3. State C; 25 point 9 percent.\nRow 4. State D; 19 point 5 percent.\nRow 5. State E; 30 point 1 percent.\nRow 6. State F; 36 point 4 percent.\nRow 7. State G; 35 point 5 percent.\n"
       }
     ]
   },
@@ -1807,7 +1799,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/79137c1b_q_01.png",
-        "alt": "The figure presents a scatterplot titled “Size and Sale Price of Houses in Town H.” The x axis is labeled “Size, in thousands of square feet,” and the numbers 0 through 3, in increments of 1, are indicated. The y axis is labeled “Sale price, in thousands of dollars,” and the numbers 0 through 400, in increments of 50, are indicated. \n\nThere are 25 data points on the scatterplot. The data points begin in the middle left part of the graph, at the point with coordinates zero point 9 comma one hundred ninety. They trend upward and to the right in clusters, ending at the point with coordinates 2.55 comma 350.\n\nA line of best fit for the data is not shown in the graph. However, it appears that if a line of best fit were drawn, it would pass through the point with coordinates zero comma one hundred and the point with coordinates 2 point 5 comma three hundred fifty.   \n"
+        "alt": "The figure presents a scatterplot titled \u201cSize and Sale Price of Houses in Town H.\u201d The x axis is labeled \u201cSize, in thousands of square feet,\u201d and the numbers 0 through 3, in increments of 1, are indicated. The y axis is labeled \u201cSale price, in thousands of dollars,\u201d and the numbers 0 through 400, in increments of 50, are indicated. \n\nThere are 25 data points on the scatterplot. The data points begin in the middle left part of the graph, at the point with coordinates zero point 9 comma one hundred ninety. They trend upward and to the right in clusters, ending at the point with coordinates 2.55 comma 350.\n\nA line of best fit for the data is not shown in the graph. However, it appears that if a line of best fit were drawn, it would pass through the point with coordinates zero comma one hundred and the point with coordinates 2 point 5 comma three hundred fifty.   \n"
       }
     ]
   },
@@ -1831,7 +1823,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/12983c1e_q_01.png",
-        "alt": "The figure presents a 2-column table with 3 rows of data. The heading for the first column is “x.” The heading for the second column is “f of x.” The three rows of data are as follows.\n\nRow 1. x, 1; f of x, 5.\nRow 2. x, 3; f of x, 13.\nRow 3. x, 5; f of x, 21.\n"
+        "alt": "The figure presents a 2-column table with 3 rows of data. The heading for the first column is \u201cx.\u201d The heading for the second column is \u201cf of x.\u201d The three rows of data are as follows.\n\nRow 1. x, 1; f of x, 5.\nRow 2. x, 3; f of x, 13.\nRow 3. x, 5; f of x, 21.\n"
       }
     ]
   },
@@ -1943,7 +1935,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3f5375d9_q_01.png",
-        "alt": "The figure presents the graph of a line in the x y plane titled “Total Cost for a Cab Ride.” The x axis is labeled “Distance traveled, in miles,” and the integers 0, 5, and 10 are indicated. There are vertical gridlines at each integer from 1 through 10. The y axis is labeled “Cost, in dollars,” and the integers 0, 5, 10, and 15 are indicated. There are horizontal gridlines at each integer from 1 through 15. The line begins on the y axis at the point with coordinates 0 comma 3, and slants upward and to the right. It passes through the point with coordinates 5 comma 13."
+        "alt": "The figure presents the graph of a line in the x y plane titled \u201cTotal Cost for a Cab Ride.\u201d The x axis is labeled \u201cDistance traveled, in miles,\u201d and the integers 0, 5, and 10 are indicated. There are vertical gridlines at each integer from 1 through 10. The y axis is labeled \u201cCost, in dollars,\u201d and the integers 0, 5, 10, and 15 are indicated. There are horizontal gridlines at each integer from 1 through 15. The line begins on the y axis at the point with coordinates 0 comma 3, and slants upward and to the right. It passes through the point with coordinates 5 comma 13."
       }
     ]
   },
@@ -2400,7 +2392,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1e1027a7_q_01.png",
-        "alt": "The figure presents a scatterplot titled “Ice Cream Sales.” The horizontal axis is labeled “Temperature, in degrees Celsius,” and the integers 10 through 26, in increments of 2, are indicated. The vertical axis is labeled “Sales, in dollars,” and the integers 300 through 1,000, in increments of 100, are indicated. There are 12 data points in the scatterplot, and the line of best fit is drawn. The line of best fit begins slightly above the horizontal axis, and slightly to the right of the vertical axis, and slants upward and to the right. It passes through the point 12 comma 480 and the point 24 comma 880."
+        "alt": "The figure presents a scatterplot titled \u201cIce Cream Sales.\u201d The horizontal axis is labeled \u201cTemperature, in degrees Celsius,\u201d and the integers 10 through 26, in increments of 2, are indicated. The vertical axis is labeled \u201cSales, in dollars,\u201d and the integers 300 through 1,000, in increments of 100, are indicated. There are 12 data points in the scatterplot, and the line of best fit is drawn. The line of best fit begins slightly above the horizontal axis, and slightly to the right of the vertical axis, and slants upward and to the right. It passes through the point 12 comma 480 and the point 24 comma 880."
       }
     ]
   },
@@ -2480,7 +2472,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e821a26d_q_01.png",
-        "alt": "The figure presents a scatterplot in the xy-plane titled “Electric Energy Generated by Nuclear Sources.” The x-axis is labeled “Time,” in years, and the numbers zero through 12, in increments of 2, are indicated. The y-axis is labeled “Energy,” in million megawatt-hours, and the numbers 700 through 820, in increments of 20, are indicated. There are 10 data points scattered in the form of a curve. The first data point begins approximately at the point with coordinates 1 comma 764. The points follow a path varying upward and downward and to the right, until reaching the point with coordinates of approximately 8 comma 806. The points then move downward and to the right, ending at the point with coordinates of approximately 10 comma 768. \nThe data represented by the points are as follows. Note that all values are approximate.\nPoint 1: 1 year, 764 million mega-watt hours. \nPoint 2: 2 years, 788 million mega-watt hours.\nPoint 3: 3 years, 781 million mega-watt hours.\nPoint 4: 4 years, 785 million mega-watt hours.\nPoint 5: 5 years, 804 million mega-watt hours.\nPoint 6: 6 years, 803 million mega-watt hours.\nPoint 7: 7 years, 796 million mega-watt hours.\nPoint 8: 8 years, 806 million mega-watt hours.\nPoint 9: 9 years, 790 million mega-watt hours.\nPoint 10: 10 years, 768 million mega-watt hours.\n"
+        "alt": "The figure presents a scatterplot in the xy-plane titled \u201cElectric Energy Generated by Nuclear Sources.\u201d The x-axis is labeled \u201cTime,\u201d in years, and the numbers zero through 12, in increments of 2, are indicated. The y-axis is labeled \u201cEnergy,\u201d in million megawatt-hours, and the numbers 700 through 820, in increments of 20, are indicated. There are 10 data points scattered in the form of a curve. The first data point begins approximately at the point with coordinates 1 comma 764. The points follow a path varying upward and downward and to the right, until reaching the point with coordinates of approximately 8 comma 806. The points then move downward and to the right, ending at the point with coordinates of approximately 10 comma 768. \nThe data represented by the points are as follows. Note that all values are approximate.\nPoint 1: 1 year, 764 million mega-watt hours. \nPoint 2: 2 years, 788 million mega-watt hours.\nPoint 3: 3 years, 781 million mega-watt hours.\nPoint 4: 4 years, 785 million mega-watt hours.\nPoint 5: 5 years, 804 million mega-watt hours.\nPoint 6: 6 years, 803 million mega-watt hours.\nPoint 7: 7 years, 796 million mega-watt hours.\nPoint 8: 8 years, 806 million mega-watt hours.\nPoint 9: 9 years, 790 million mega-watt hours.\nPoint 10: 10 years, 768 million mega-watt hours.\n"
       }
     ]
   },
@@ -2584,10 +2576,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/50b2807e_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/50b2807e_q_02.png",
         "alt": ""
       }
     ]
@@ -2706,7 +2694,7 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7fd284ac_q_01.png",
-        "alt": "The figure presents a scatterplot titled “Income and Percent of Total Expenses Spent on Programs for Ten Charities in 2011.” The horizontal axis is labeled “Total income,” in millions of dollars, and the numbers zero through 7,000, in increments of 1,000, are indicated. The vertical axis is labeled “Percent of total expenses spent on programs” and the numbers 70 through 95, in increments of 5, are indicated. \n\nThe 10 data points on the graph are presented in the following list. All data are approximate.\n\n1,300 million dollars; 74 percent. \n1,500 million dollars; 82 percent.\n1,550 million dollars; 84 percent.\n1,550 million dollars; 85 percent.\n3,300 million dollars; 84 percent.\n3,400 million dollars; 92 percent.\n4,200 million dollars; 91 percent.\n4,500 million dollars; 89 percent.\n4,500 million dollars; 80 percent.\n6,000 million dollars; 87 percent.\n\nThe line of best fit is also shown and passes through the following coordinates on the graph. All values are approximate. \n\n1,200 million dollars; 81 percent. \n3,500 million dollars; 85 percent.\n5,000 million dollars; 88 percent.\n"
+        "alt": "The figure presents a scatterplot titled \u201cIncome and Percent of Total Expenses Spent on Programs for Ten Charities in 2011.\u201d The horizontal axis is labeled \u201cTotal income,\u201d in millions of dollars, and the numbers zero through 7,000, in increments of 1,000, are indicated. The vertical axis is labeled \u201cPercent of total expenses spent on programs\u201d and the numbers 70 through 95, in increments of 5, are indicated. \n\nThe 10 data points on the graph are presented in the following list. All data are approximate.\n\n1,300 million dollars; 74 percent. \n1,500 million dollars; 82 percent.\n1,550 million dollars; 84 percent.\n1,550 million dollars; 85 percent.\n3,300 million dollars; 84 percent.\n3,400 million dollars; 92 percent.\n4,200 million dollars; 91 percent.\n4,500 million dollars; 89 percent.\n4,500 million dollars; 80 percent.\n6,000 million dollars; 87 percent.\n\nThe line of best fit is also shown and passes through the following coordinates on the graph. All values are approximate. \n\n1,200 million dollars; 81 percent. \n3,500 million dollars; 85 percent.\n5,000 million dollars; 88 percent.\n"
       }
     ]
   },
@@ -3747,10 +3735,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/36200a38_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/36200a38_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -3775,10 +3759,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/b2de69bd_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/b2de69bd_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -3786,18 +3766,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/78391fcc_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/78391fcc_q_02.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/78391fcc_q_03.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/78391fcc_q_04.png",
         "alt": ""
       }
     ]
@@ -3823,10 +3791,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/4c774b00_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/4c774b00_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -3835,10 +3799,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/d89c1513_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/d89c1513_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -3846,14 +3806,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e1ad3d41_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_02.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/e1ad3d41_q_03.png",
         "alt": ""
       }
     ]
@@ -3871,10 +3823,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/d4413871_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/d4413871_q_02.png",
-        "alt": ""
       }
     ],
     "choiceImages": {
@@ -3889,10 +3837,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/0301c5dc_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0301c5dc_q_02.png",
-        "alt": ""
       }
     ],
     "choiceImages": {
@@ -3906,10 +3850,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3f2ee20a_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/3f2ee20a_q_02.png",
         "alt": ""
       }
     ]
@@ -3927,10 +3867,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/07f2829b_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/07f2829b_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -3947,14 +3883,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/7b65bb28_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/7b65bb28_q_02.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/7b65bb28_q_03.png",
-        "alt": ""
       }
     ]
   },
@@ -3962,10 +3890,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7e6c745f_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/7e6c745f_q_02.png",
         "alt": ""
       }
     ]
@@ -3983,10 +3907,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/c54b92a2_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/c54b92a2_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -3994,10 +3914,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4bb25495_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/4bb25495_q_02.png",
         "alt": ""
       }
     ]
@@ -4039,10 +3955,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/a3384df0_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/a3384df0_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -4058,10 +3970,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/af142f8d_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/af142f8d_q_02.png",
         "alt": ""
       }
     ]
@@ -4079,10 +3987,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/f8696cd8_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/f8696cd8_q_02.png",
-        "alt": ""
       }
     ]
   },
@@ -4099,14 +4003,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/263f9937_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/263f9937_q_02.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/263f9937_q_03.png",
-        "alt": ""
       }
     ]
   },
@@ -4114,42 +4010,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0121a235_q_01.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_02.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_03.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_04.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_05.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_06.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_07.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_08.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_09.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/0121a235_q_10.png",
         "alt": ""
       }
     ]
@@ -4159,14 +4019,6 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/dba7432e_q_01.png",
         "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/dba7432e_q_02.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/dba7432e_q_03.png",
-        "alt": ""
       }
     ]
   },
@@ -4175,41 +4027,37 @@ export const questionImageMap: Record<string, UnofficialQuestionImageEntry> = {
       {
         "src": "/images/SAT-Style%20Questions/43926bd9_q_01.png",
         "alt": ""
-      },
+      }
+    ]
+  },
+  "52b1700c": {
+    "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_02.png",
+        "src": "/images/SAT-Style%20Questions/52b1700c_q_01.png",
         "alt": ""
-      },
+      }
+    ]
+  },
+  "dd8ac009": {
+    "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_03.png",
+        "src": "/images/SAT-Style%20Questions/dd8ac009_q_01.png",
         "alt": ""
-      },
+      }
+    ]
+  },
+  "7e1bff94": {
+    "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_04.png",
+        "src": "/images/SAT-Style%20Questions/7e1bff94_q_01.png",
         "alt": ""
-      },
+      }
+    ]
+  },
+  "5cf1bbc9": {
+    "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_05.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_06.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_07.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_08.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_09.png",
-        "alt": ""
-      },
-      {
-        "src": "/images/SAT-Style%20Questions/43926bd9_q_10.png",
+        "src": "/images/SAT-Style%20Questions/5cf1bbc9_q_01.png",
         "alt": ""
       }
     ]

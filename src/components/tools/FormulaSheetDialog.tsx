@@ -10,6 +10,8 @@ interface FormulaSheetDialogProps {
   zIndex?: number;
   constrainToLeft?: number;
   compressed?: boolean;
+  windowPortalContainer?: HTMLElement | null;
+  windowBoundsElement?: HTMLElement | null;
 }
 
 const REFERENCE_SHEET_PANELS = [
@@ -31,7 +33,7 @@ const REFERENCE_SHEET_PANELS = [
 
 const getDefaultPanelWidth = (width: number) => `${Math.round(width / 2)}px`;
 
-export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft, compressed = false }: FormulaSheetDialogProps) => {
+export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus, zIndex = 50, constrainToLeft, compressed = false, windowPortalContainer, windowBoundsElement }: FormulaSheetDialogProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -61,6 +63,8 @@ export const FormulaSheetDialog = ({ onSplitScreenChange, splitPosition, onFocus
         onFocus={onFocus}
         zIndex={zIndex}
         constrainToLeft={constrainToLeft}
+        portalContainer={windowPortalContainer}
+        boundsElement={windowBoundsElement}
       >
         <div className="h-full w-full overflow-y-auto overflow-x-hidden bg-white p-4 select-none sm:p-5">
           <div className="mx-auto w-full max-w-[1400px]">

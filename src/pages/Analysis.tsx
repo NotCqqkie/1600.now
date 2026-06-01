@@ -74,7 +74,7 @@ const fmtTime = (seconds: number): string => {
 };
 
 const accuracyColor = (pct: number) =>
-  pct >= 70 ? "#4ade80" : pct >= 50 ? "#fbbf24" : "#f87171";
+  pct >= 70 ? "#2F8F3F" : pct >= 50 ? "#B57600" : "#B73B3B";
 
 type InsightItem = {
   title: string;
@@ -153,9 +153,12 @@ const InsightGroup = ({
                 flexShrink: 0,
                 minWidth: 58,
                 textAlign: "right",
-                fontFamily: "'Space Mono', monospace",
+                fontFamily: "'Inter Tight', sans-serif",
                 fontSize: 12,
-                fontWeight: 700,
+                fontWeight: 600,
+                letterSpacing: "-0.04em",
+                fontVariantNumeric: "tabular-nums",
+                fontFeatureSettings: "'tnum'",
                 color: item.valueColor,
               }}
             >
@@ -274,14 +277,16 @@ const StatTile = ({
     </div>
     <div
       style={{
-        fontFamily: "'Space Mono', monospace",
+        fontFamily: "'Inter Tight', sans-serif",
         fontSize: "clamp(24px, 2.4vw, 32px)",
-        fontWeight: 700,
+        fontWeight: 600,
         color: empty
           ? (isDarkMode ? "rgba(255,255,255,0.2)" : "rgba(15,23,42,0.2)")
           : color ?? (isDarkMode ? "white" : "hsl(var(--foreground))"),
-        letterSpacing: "-0.025em",
+        letterSpacing: "-0.04em",
         lineHeight: 1,
+        fontVariantNumeric: "tabular-nums",
+        fontFeatureSettings: "'tnum'",
       }}
     >
       {empty ? "—" : value}
@@ -653,12 +658,14 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
               </span>
               <div
                 style={{
-                  fontFamily: "'Space Mono', monospace",
+                  fontFamily: "'Inter Tight', sans-serif",
                   fontSize: 40,
-                  fontWeight: 700,
+                  fontWeight: 600,
                   color: "hsl(var(--foreground))",
-                  letterSpacing: "-0.02em",
+                  letterSpacing: "-0.04em",
                   lineHeight: 1,
+                  fontVariantNumeric: "tabular-nums",
+                  fontFeatureSettings: "'tnum'",
                 }}
               >
                 {result.totalScore}
@@ -690,10 +697,13 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
                 </div>
                 <div
                   style={{
-                    fontFamily: "'Space Mono', monospace",
+                    fontFamily: "'Inter Tight', sans-serif",
                     fontSize: 18,
-                    fontWeight: 700,
-                    color: "#fb923c",
+                    fontWeight: 600,
+                    letterSpacing: "-0.04em",
+                    fontVariantNumeric: "tabular-nums",
+                    fontFeatureSettings: "'tnum'",
+                    color: "#E0913C",
                   }}
                 >
                   {result.readingWritingScore}
@@ -713,10 +723,13 @@ const PastTestsStrip = ({ results }: { results: PracticeTestResult[] }) => {
                 </div>
                 <div
                   style={{
-                    fontFamily: "'Space Mono', monospace",
+                    fontFamily: "'Inter Tight', sans-serif",
                     fontSize: 18,
-                    fontWeight: 700,
-                    color: "#60a5fa",
+                    fontWeight: 600,
+                    letterSpacing: "-0.04em",
+                    fontVariantNumeric: "tabular-nums",
+                    fontFeatureSettings: "'tnum'",
+                    color: "#4F8DE0",
                   }}
                 >
                   {result.mathScore}
@@ -973,7 +986,7 @@ const Analysis = () => {
             ? `${entry.domain} · ${entry.attempted} attempted`
             : `${entry.attempted} attempted`,
         value: fmtTime(Math.round(entry.avgTime)),
-        valueColor: direction === "asc" ? "#38bdf8" : "#f59e0b",
+        valueColor: direction === "asc" ? "#4F8DE0" : "#E0913C",
       }));
 
       while (ranked.length < 3) {
@@ -1032,6 +1045,7 @@ const Analysis = () => {
       style={{ fontFamily: "'Geist', sans-serif" }}
     >
       {/* ── DARK HERO BANNER ─────────────────────────────────────────── */}
+      {user && (
       <section
         style={{
           background: isDarkMode
@@ -1201,12 +1215,13 @@ const Analysis = () => {
           }}
         />
       </section>
+      )}
 
       {/* ── MAIN CONTENT ─────────────────────────────────────────────── */}
       <main
         style={{ maxWidth: 1080, margin: "0 auto", padding: "0 24px 88px" }}
       >
-        {pastTests.length > 0 && (
+        {user && pastTests.length > 0 && (
           <div style={{ paddingTop: 4, marginBottom: 40 }}>
             <PastTestsStrip results={pastTests} />
           </div>
@@ -1455,7 +1470,7 @@ const Analysis = () => {
                     marginBottom: 4,
                   }}
                 >
-                  <TrendingDown size={16} style={{ color: "#f87171" }} />
+                  <TrendingDown size={16} style={{ color: "#B73B3B" }} />
                   <h3
                     style={{
                       fontFamily: "'Geist', serif",
@@ -1481,7 +1496,7 @@ const Analysis = () => {
               >
                 <SubjectInsightCard
                   title="Math"
-                  accent="#60a5fa"
+                  accent="#4F8DE0"
                   groups={[
                     { title: "Least accurate sections", items: stats.mathAccuracyLow },
                     { title: "Highest accuracy sections", items: stats.mathAccuracyHigh },
@@ -1489,7 +1504,7 @@ const Analysis = () => {
                 />
                 <SubjectInsightCard
                   title="Reading & Writing"
-                  accent="#fb923c"
+                  accent="#E0913C"
                   groups={[
                     { title: "Least accurate sections", items: stats.readingAccuracyLow },
                     { title: "Highest accuracy sections", items: stats.readingAccuracyHigh },
@@ -1508,7 +1523,7 @@ const Analysis = () => {
                     marginBottom: 4,
                   }}
                 >
-                  <TrendingUp size={16} style={{ color: "#38bdf8" }} />
+                  <TrendingUp size={16} style={{ color: "#2F8F3F" }} />
                   <h3
                     style={{
                       fontFamily: "'Geist', serif",
@@ -1534,7 +1549,7 @@ const Analysis = () => {
               >
                 <SubjectInsightCard
                   title="Math"
-                  accent="#60a5fa"
+                  accent="#4F8DE0"
                   groups={[
                     { title: "Quickest question types", items: stats.mathQuickestTypes },
                     { title: "Slowest question types", items: stats.mathSlowestTypes },
@@ -1542,7 +1557,7 @@ const Analysis = () => {
                 />
                 <SubjectInsightCard
                   title="Reading & Writing"
-                  accent="#fb923c"
+                  accent="#E0913C"
                   groups={[
                     { title: "Quickest question types", items: stats.readingQuickestTypes },
                     { title: "Slowest question types", items: stats.readingSlowestTypes },

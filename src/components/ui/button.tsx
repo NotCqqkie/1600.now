@@ -20,15 +20,15 @@ const buttonVariants = cva(
         // Secondary — ink on white with a soft 1px line. Hover rides up to
         // sky-soft surface + cobalt text/border so the affordance registers.
         outline:
-          "border border-ds-line bg-white text-ink hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep dark:bg-card dark:text-ink dark:border-ds-line dark:hover:bg-primary/10",
+          "border border-ds-line bg-white text-ink hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep dark:bg-card dark:text-ink dark:border-ds-line dark:hover:bg-primary/15 dark:hover:border-primary/60 dark:hover:text-cobalt",
         // Tertiary / sentence-style secondary used in older surfaces.
         secondary:
-          "bg-white text-ink border border-ds-line hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep",
+          "border border-ds-line bg-white text-ink hover:bg-primary/15 hover:border-primary hover:text-cobalt-deep dark:bg-card dark:text-ink dark:hover:bg-primary/15 dark:hover:border-primary/60 dark:hover:text-cobalt",
         // Ghost — no fill, just label.
         ghost:
-          "text-ink hover:bg-primary/15 hover:text-cobalt-deep dark:text-ink",
+          "text-ink hover:bg-primary/15 hover:text-cobalt-deep dark:text-ink dark:hover:bg-primary/15 dark:hover:text-cobalt",
         // Inline link — accent-deep, hover ramps to cobalt-deep.
-        link: "text-accent-deep underline-offset-4 hover:underline hover:text-cobalt-deep",
+        link: "text-accent-deep underline-offset-4 hover:underline hover:text-cobalt-deep dark:hover:text-cobalt",
         // Success surface (kept for callers).
         success: "bg-ds-good/15 text-ink border border-ds-good/30 hover:bg-ds-good/25",
         // Dark solid — white text on a fixed dark ink fill. Stays dark in

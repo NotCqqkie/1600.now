@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 
-import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import {
+  PageSeo,
+  buildBreadcrumbJsonLd,
+  buildItemListJsonLd,
+} from "@/components/seo/PageSeo";
 import { blogPosts } from "@/lib/seo-data/blogData";
 
 const title = "1600.now Blog: Digital SAT Prep Guides & Strategy";
@@ -26,6 +30,13 @@ const BlogIndex = () => {
             url: "https://1600.now/blog",
             description,
           },
+          buildItemListJsonLd(
+            "1600.now Digital SAT blog posts",
+            blogPosts.map((post) => ({
+              name: post.title,
+              url: `https://1600.now/blog/${post.slug}`,
+            })),
+          ),
         ]}
       />
 

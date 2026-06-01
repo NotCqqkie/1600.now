@@ -179,9 +179,17 @@ const createAnnotationMarkup = (html: string, annotations: PassageAnnotation[]) 
       span.setAttribute("title", "Open annotation actions");
       span.style.backgroundColor = ANNOTATION_COLORS[annotation.color].fill;
       span.style.boxShadow = `inset 0 -1px 0 ${ANNOTATION_COLORS[annotation.color].border}`;
-      span.style.borderRadius = "0.25rem";
-      span.style.padding = "0 0.05em";
+      span.style.boxDecorationBreak = "clone";
+      span.style.webkitBoxDecorationBreak = "clone";
       span.style.cursor = "pointer";
+      span.style.font = "inherit";
+      span.style.letterSpacing = "inherit";
+      span.style.lineHeight = "inherit";
+      span.style.margin = "0";
+      span.style.padding = "0";
+      span.style.verticalAlign = "baseline";
+      span.style.whiteSpace = "inherit";
+      span.style.wordSpacing = "inherit";
       span.style.transition = "filter 120ms ease";
       span.className = "reading-annotation";
 

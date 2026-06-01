@@ -122,7 +122,7 @@ const IsScoreGood = () => {
         <h2 className="text-2xl font-semibold">How to improve from {score}</h2>
         <p className="mt-3 text-foreground/90">{profile.studyFocus}</p>
         <div className="mt-4 flex flex-wrap gap-3">
-          <Link to="/bank" className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
+          <Link to="/bank" className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-cobalt hover:text-white">
             Practice questions
           </Link>
           <Link to="/score-calculator" className="rounded-lg border border-border px-5 py-2.5 text-sm font-semibold text-foreground hover:bg-muted">

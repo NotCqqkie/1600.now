@@ -48,7 +48,7 @@ const ModuleStart = () => {
   if (!module) {
     return (
       <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 px-4 py-12 sm:px-6">
-        <Button variant="ghost" asChild className="w-fit gap-2 px-0">
+        <Button variant="ghost" asChild className="-ml-3 w-fit gap-2 px-3">
           <Link to="/modules">
             <ArrowLeft className="h-4 w-4" />
             Back to modules
@@ -89,7 +89,7 @@ const ModuleStart = () => {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-      <Button variant="ghost" asChild className="w-fit gap-2 px-0">
+      <Button variant="ghost" asChild className="-ml-3 w-fit gap-2 px-3">
         <Link to="/modules">
           <ArrowLeft className="h-4 w-4" />
           Back to modules

@@ -1,7 +1,7 @@
 import type { PracticeSet } from "@/data/modulePracticeBank";
-import { satCalculatorYears } from "@/data/satCalculator";
 import { answersEquivalent } from "@/lib/text/answerEquivalence";
 import type { ModulePracticeQuestionState } from "@/lib/practice/modulePracticeSession";
+import { calculatePracticeTestScores } from "@/lib/practice/practiceTestScoring";
 
 export interface PracticeTestModuleSession {
   moduleSlug: string;
@@ -56,6 +56,7 @@ export interface PracticeTestQuestionResult {
   timeSpentSeconds: number;
   domain: string;
   skill: string;
+  difficulty?: "Easy" | "Medium" | "Hard" | null;
 }
 
 export interface PracticeTestModuleResult {
@@ -111,8 +112,6 @@ const MODULE_TIME_LIMITS: Record<`${"reading" | "math"}-${1 | 2}`, number> = {
   "math-1": 35 * 60,
   "math-2": 35 * 60,
 };
-
-const digitalSatSections = satCalculatorYears[0]?.sections ?? [];
 
 const readJson = <T>(storage: Storage, key: string): T | null => {
   try {
@@ -369,6 +368,7 @@ export const buildPracticeTestResult = (
         timeSpentSeconds: state.timeSpentSeconds,
         domain: question.category.domain,
         skill: question.category.skill,
+        difficulty: question.difficulty,
       } satisfies PracticeTestQuestionResult;
     });
 
@@ -376,8 +376,6 @@ export const buildPracticeTestResult = (
     const correctCount = questions.filter((question) => question.isCorrect).length;
     const incorrectCount = answeredCount - correctCount;
     const unansweredCount = questions.length - answeredCount;
-    const sectionScoreTable = digitalSatSections[moduleIndex]?.scores ?? [];
-    const scaledScore = sectionScoreTable[correctCount] ?? 0;
 
     return {
       moduleSlug: module.slug,
@@ -390,7 +388,7 @@ export const buildPracticeTestResult = (
       correctCount,
       incorrectCount,
       rawScore: correctCount,
-      scaledScore,
+      scaledScore: 0,
       accuracy: questions.length ? Math.round((correctCount / questions.length) * 100) : 0,
       elapsedSeconds: session.modules[moduleIndex]?.elapsedSeconds ?? 0,
       timeLimitSeconds: session.modules[moduleIndex]?.timeLimitSeconds ?? 0,
@@ -398,13 +396,21 @@ export const buildPracticeTestResult = (
     } satisfies PracticeTestModuleResult;
   });
 
-  const questions = moduleResults.flatMap((module) => module.questions);
-  const readingWritingScore =
-    (moduleResults[0]?.scaledScore ?? 0) +
-    (moduleResults[1]?.scaledScore ?? 0);
-  const mathScore =
-    (moduleResults[2]?.scaledScore ?? 0) +
-    (moduleResults[3]?.scaledScore ?? 0);
+  const scoreEstimate = calculatePracticeTestScores(moduleResults.map((module) => ({
+    moduleSlug: module.moduleSlug,
+    subject: module.subject,
+    moduleNumber: module.moduleNumber,
+    questions: module.questions.map((question) => ({
+      isAnswered: question.isAnswered,
+      isCorrect: question.isCorrect,
+      difficulty: question.difficulty,
+    })),
+  })));
+  const scoredModuleResults = moduleResults.map((module) => ({
+    ...module,
+    scaledScore: scoreEstimate.moduleScores[module.moduleSlug] ?? module.scaledScore,
+  }));
+  const questions = scoredModuleResults.flatMap((module) => module.questions);
   const answeredCount = questions.filter((question) => question.isAnswered).length;
   const correctCount = questions.filter((question) => question.isCorrect).length;
   const incorrectCount = answeredCount - correctCount;
@@ -422,15 +428,15 @@ export const buildPracticeTestResult = (
     elapsedSeconds,
     breakElapsedSeconds: session.breakElapsedSeconds,
     skippedBreak: session.breakStatus === "skipped",
-    readingWritingScore,
-    mathScore,
-    totalScore: readingWritingScore + mathScore,
+    readingWritingScore: scoreEstimate.readingWritingScore,
+    mathScore: scoreEstimate.mathScore,
+    totalScore: scoreEstimate.totalScore,
     answeredCount,
     unansweredCount,
     correctCount,
     incorrectCount,
     accuracy: questions.length ? Math.round((correctCount / questions.length) * 100) : 0,
-    modules: moduleResults,
+    modules: scoredModuleResults,
     questions,
   };
 };

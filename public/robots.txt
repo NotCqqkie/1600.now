@@ -4,8 +4,11 @@ Allow: /
 # Functional / user-specific routes: block crawling so they don't burn crawl budget.
 Disallow: /login
 Disallow: /signup
+Disallow: /verify-email
 Disallow: /profile
 Disallow: /analysis
+Disallow: /admin
+Disallow: /explanations/
 
 # Interactive practice flows (state-dependent, no stable content to index).
 Disallow: /modules/*/start

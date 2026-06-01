@@ -67,8 +67,9 @@ const satImageAliasPlugin = (): Plugin => ({
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "localhost",
+    host: "0.0.0.0",
     port: 8080,
+    allowedHosts: ["host.docker.internal", "localhost"],
   },
   build: {
     target: "es2020",

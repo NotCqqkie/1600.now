@@ -11,6 +11,14 @@ export interface FriendlyAuthError {
 export function describeAuthError(error: unknown, mode: "signin" | "signup"): FriendlyAuthError {
   const code = (error as { code?: string } | null)?.code ?? "";
   const fallbackMsg = (error as { message?: string } | null)?.message ?? "Something went wrong. Please try again.";
+  const genericSignIn = {
+    title: "Email or password is incorrect",
+    description: "Check your details and try again.",
+  };
+  const genericSignUp = {
+    title: "Couldn't create account",
+    description: "Check your email and password and try again.",
+  };
 
   switch (code) {
     case "auth/invalid-email":
@@ -19,19 +27,17 @@ export function describeAuthError(error: unknown, mode: "signin" | "signup"): Fr
       return { title: "Email required", description: "Please enter your email address.", field: "email" };
     case "auth/missing-password":
       return { title: "Password required", description: "Please enter your password.", field: "password" };
+    case "auth/local-weak-password":
     case "auth/weak-password":
-      return { title: "Password too weak", description: "Use at least 6 characters.", field: "password" };
+      return { title: "Password too weak", description: "Use at least 8 characters and 1 number.", field: "password" };
     case "auth/email-already-in-use":
-      return { title: "Email already in use", description: "An account with this email already exists. Try signing in instead.", field: "email" };
+      return genericSignUp;
     case "auth/user-not-found":
-      return { title: "No account found", description: "We couldn't find an account with that email. Want to sign up?", field: "email" };
     case "auth/wrong-password":
-      return { title: "Incorrect password", description: "The password doesn't match this account.", field: "password" };
     case "auth/invalid-credential":
     case "auth/invalid-login-credentials":
-      return mode === "signin"
-        ? { title: "Email or password is incorrect", description: "Check your details and try again. If you signed up with Google, use the Google button instead." }
-        : { title: "Sign-up failed", description: "Please check your email and password and try again." };
+      return mode === "signin" ? genericSignIn : genericSignUp;
+    case "auth/client-rate-limited":
     case "auth/too-many-requests":
       return { title: "Too many attempts", description: "We've temporarily paused sign-in attempts on this account. Try again in a few minutes or reset your password." };
     case "auth/network-request-failed":
